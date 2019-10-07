@@ -1,3 +1,5 @@
+**NOTE:** We are not currently accepting pull requests to this library. An announcement will be made once the functionality is ready.
+
 # About this Library
 
 This library is intended to be used for populating device types in [NetBox](https://github.com/netbox-community/netbox). It contains a set of device type definitions expressed in YAML and arranged by manufacturer. Each file represents a discrete physical device type (e.g. make and model). These definitions can be loaded into NetBox to obviate the need to create device types and their associated components manually.
