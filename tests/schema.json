@@ -20,6 +20,13 @@
         "is_full_depth": {
             "type": "boolean"
         },
+        "subdevice_role": {
+            "type": "string",
+            "enum": [
+                "parent",
+                "child"
+            ]
+        },
         "console-ports": {
             "type": "array",
             "items": {
