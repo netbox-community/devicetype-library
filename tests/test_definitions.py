@@ -18,6 +18,17 @@ with open("tests/schema.json") as schema_file:
     schema = json.loads(schema_file.read())
 
 
+def test_environment():
+    """
+    Run basic sanity checks on the environment to ensure tests are running correctly.
+    """
+    # Validate that definition files exist
+    assert _get_definition_files(), "No definition files found!"
+
+    # Validate that the schema exists
+    assert schema, "Schema definition is empty!"
+
+
 @pytest.mark.parametrize("file_path", _get_definition_files())
 def test_definition(file_path):
     """
