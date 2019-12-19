@@ -3,6 +3,7 @@ import json
 import pytest
 import yaml
 from jsonschema import validate
+from jsonschema.exceptions import ValidationError
 
 
 def _get_definition_files():
@@ -27,4 +28,7 @@ def test_definition(file_path):
         definition = yaml.load(definition_file.read(), Loader=yaml.SafeLoader)
 
     # Run validation
-    validate(definition, schema=schema)
+    try:
+        validate(definition, schema=schema)
+    except ValidationError as e:
+        pytest.fail(f"{file_path} failed validation: {e}")
