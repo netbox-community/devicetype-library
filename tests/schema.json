@@ -1,0 +1,423 @@
+{
+
+    "type": "object",
+    "properties": {
+        "manufacturer": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string"
+        },
+        "part_number": {
+            "type": "string"
+        },
+        "u_height": {
+            "type": "integer"
+        },
+        "is_full_depth": {
+            "type": "boolean"
+        },
+        "console-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/console-port"
+            }
+        },
+        "console-server-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/console-server-port"
+            }
+        },
+        "power-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/power-port"
+            }
+        },
+        "power-outlets": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/power-outlet"
+            }
+        },
+        "interfaces": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/interface"
+            }
+        },
+        "front-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/front-port"
+            }
+        },
+        "rear-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/rear-port"
+            }
+        },
+        "device-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/device-bay"
+            }
+        }
+    },
+    "required": ["manufacturer", "model", "slug"],
+
+    "definitions": {
+
+        "console-port": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "de-9",
+                        "db-25",
+                        "rj-45",
+                        "usb-a",
+                        "usb-b",
+                        "usb-c",
+                        "usb-mini-a",
+                        "usb-mini-b",
+                        "usb-micro-a",
+                        "usb-micro-b",
+                        "other"
+                    ]
+                }
+            },
+            "required": ["name", "type"]
+        },
+
+        "console-server-port": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "de-9",
+                        "db-25",
+                        "rj-45",
+                        "usb-a",
+                        "usb-b",
+                        "usb-c",
+                        "usb-mini-a",
+                        "usb-mini-b",
+                        "usb-micro-a",
+                        "usb-micro-b",
+                        "other"
+                    ]
+                }
+            },
+            "required": ["name", "type"]
+        },
+
+        "power-port": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "iec-60320-c6",
+                        "iec-60320-c8",
+                        "iec-60320-c14",
+                        "iec-60320-c16",
+                        "iec-60320-c20",
+                        "iec-60309-p-n-e-4h",
+                        "iec-60309-p-n-e-6h",
+                        "iec-60309-p-n-e-9h",
+                        "iec-60309-2p-e-4h",
+                        "iec-60309-2p-e-6h",
+                        "iec-60309-2p-e-9h",
+                        "iec-60309-3p-e-4h",
+                        "iec-60309-3p-e-6h",
+                        "iec-60309-3p-e-9h",
+                        "iec-60309-3p-n-e-4h",
+                        "iec-60309-3p-n-e-6h",
+                        "iec-60309-3p-n-e-9h",
+                        "nema-5-15p",
+                        "nema-5-20p",
+                        "nema-5-30p",
+                        "nema-5-50p",
+                        "nema-6-15p",
+                        "nema-6-20p",
+                        "nema-6-30p",
+                        "nema-6-50p",
+                        "nema-l5-15p",
+                        "nema-l5-20p",
+                        "nema-l5-30p",
+                        "nema-l5-50p",
+                        "nema-l6-20p",
+                        "nema-l6-30p",
+                        "nema-l6-50p",
+                        "ita-e",
+                        "ita-f",
+                        "ita-ef",
+                        "ita-g",
+                        "ita-h",
+                        "ita-i",
+                        "ita-j",
+                        "ita-k",
+                        "ita-l",
+                        "ita-m",
+                        "ita-n",
+                        "ita-o"
+                    ]
+                },
+                "maximum_draw": {
+                    "type": "integer"
+                },
+                "allocated_draw": {
+                    "type": "integer"
+                }
+            },
+            "required": ["name", "type"]
+        },
+
+        "power-outlet": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "iec-60320-c5",
+                        "iec-60320-c7",
+                        "iec-60320-c13",
+                        "iec-60320-c15",
+                        "iec-60320-c19",
+                        "iec-60309-p-n-e-4h",
+                        "iec-60309-p-n-e-6h",
+                        "iec-60309-p-n-e-9h",
+                        "iec-60309-2p-e-4h",
+                        "iec-60309-2p-e-6h",
+                        "iec-60309-2p-e-9h",
+                        "iec-60309-3p-e-4h",
+                        "iec-60309-3p-e-6h",
+                        "iec-60309-3p-e-9h",
+                        "iec-60309-3p-n-e-4h",
+                        "iec-60309-3p-n-e-6h",
+                        "iec-60309-3p-n-e-9h",
+                        "nema-5-15r",
+                        "nema-5-20r",
+                        "nema-5-30r",
+                        "nema-5-50r",
+                        "nema-6-15r",
+                        "nema-6-20r",
+                        "nema-6-30r",
+                        "nema-6-50r",
+                        "nema-l5-15r",
+                        "nema-l5-20r",
+                        "nema-l5-30r",
+                        "nema-l5-50r",
+                        "nema-l6-20r",
+                        "nema-l6-30r",
+                        "nema-l6-50r",
+                        "ita-e",
+                        "ita-f",
+                        "ita-g",
+                        "ita-h",
+                        "ita-i",
+                        "ita-j",
+                        "ita-k",
+                        "ita-l",
+                        "ita-m",
+                        "ita-n",
+                        "ita-o"
+                    ]
+                },
+                "power_port": {
+                    "type": "string"
+                },
+                "feed_leg": {
+                    "type": "string",
+                    "enum": ["A", "B", "C"]
+                }
+            },
+            "required": ["name", "type"]
+        },
+
+        "interface": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "virtual",
+                        "lag",
+                        "100base-tx",
+                        "1000base-t",
+                        "2.5gbase-t",
+                        "5gbase-t",
+                        "10gbase-t",
+                        "10gbase-cx4",
+                        "1000base-x-gbic",
+                        "1000base-x-sfp",
+                        "10gbase-x-sfpp",
+                        "10gbase-x-xfp",
+                        "10gbase-x-xenpak",
+                        "10gbase-x-x2",
+                        "25gbase-x-sfp28",
+                        "40gbase-x-qsfpp",
+                        "50gbase-x-sfp28",
+                        "100gbase-x-cfp",
+                        "100gbase-x-cfp2",
+                        "200gbase-x-cfp2",
+                        "100gbase-x-cfp4",
+                        "100gbase-x-cpak",
+                        "100gbase-x-qsfp28",
+                        "200gbase-x-qsfp56",
+                        "400gbase-x-qsfpdd",
+                        "400gbase-x-osfp",
+                        "ieee802.11a",
+                        "ieee802.11g",
+                        "ieee802.11n",
+                        "ieee802.11ac",
+                        "ieee802.11ad",
+                        "gsm",
+                        "cdma",
+                        "lte",
+                        "sonet-oc3",
+                        "sonet-oc12",
+                        "sonet-oc48",
+                        "sonet-oc192",
+                        "sonet-oc768",
+                        "sonet-oc1920",
+                        "sonet-oc3840",
+                        "1gfc-sfp",
+                        "2gfc-sfp",
+                        "4gfc-sfp",
+                        "8gfc-sfpp",
+                        "16gfc-sfpp",
+                        "32gfc-sfp28",
+                        "128gfc-sfp28",
+                        "inifiband-sdr",
+                        "inifiband-ddr",
+                        "inifiband-qdr",
+                        "inifiband-fdr10",
+                        "inifiband-fdr",
+                        "inifiband-edr",
+                        "inifiband-hdr",
+                        "inifiband-ndr",
+                        "inifiband-xdr",
+                        "t1",
+                        "e1",
+                        "t3",
+                        "e3",
+                        "cisco-stackwise",
+                        "cisco-stackwise-plus",
+                        "cisco-flexstack",
+                        "cisco-flexstack-plus",
+                        "juniper-vcp",
+                        "extreme-summitstack",
+                        "extreme-summitstack-128",
+                        "extreme-summitstack-256",
+                        "extreme-summitstack-512"
+                    ]
+                },
+                "mgmt_only": {
+                    "type": "boolean"
+                }
+            },
+            "required": ["name", "type"]
+        },
+
+        "front-port": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "8p8c",
+                        "110-punch",
+                        "bnc",
+                        "fc",
+                        "lc",
+                        "lc-apc",
+                        "lsh",
+                        "lsh-apc",
+                        "mpo",
+                        "mtrj",
+                        "sc",
+                        "sc-apc",
+                        "st"
+                    ]
+                },
+                "rear_port": {
+                    "type": "string"
+                },
+                "rear_port_position": {
+                    "type": "integer"
+                }
+            },
+            "required": ["name", "type", "rear_port"]
+        },
+
+        "rear-port": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "8p8c",
+                        "110-punch",
+                        "bnc",
+                        "fc",
+                        "lc",
+                        "lc-apc",
+                        "lsh",
+                        "lsh-apc",
+                        "mpo",
+                        "mtrj",
+                        "sc",
+                        "sc-apc",
+                        "st"
+                    ]
+                },
+                "positions": {
+                    "type": "integer"
+                }
+            },
+            "required": ["name", "type"]
+        },
+
+        "device-bay": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        }
+
+    }
+
+}
