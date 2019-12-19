@@ -10,7 +10,7 @@ def _get_definition_files():
     """
     Return a list of all definition files.
     """
-    return [f for f in glob.glob("vendors/**/*.yaml", recursive=True)]
+    return [f for f in glob.glob("device-types/**/*.yaml", recursive=True)]
 
 
 # Initialize schema

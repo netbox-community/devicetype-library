@@ -9,8 +9,8 @@ Each NetBox device type definition exists as a single YAML file, arranged by man
 concatenating the definition's model name with a `.yaml` extension. For example:
 
 ```no-highlight
-vendors/Acme/BFR-1000.yaml
-vendors/Acme/BFR-2000.yaml
+device-types/Acme/BFR-1000.yaml
+device-types/Acme/BFR-2000.yaml
 ```
 
 When writing new definitions, there are some important guidelines to follow:
