@@ -22,5 +22,8 @@ power-port:
   - name: L530R
     type: nema-5-30p
 device_bays:
-  - name: NETWORK-M2
   - name: EBM
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
