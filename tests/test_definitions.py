@@ -10,7 +10,7 @@ def _get_definition_files():
     """
     Return a list of all definition files.
     """
-    return [f for f in glob.glob("device-types/**/*.yaml", recursive=True)]
+    return [f for f in glob.glob("device-types/*/*", recursive=True)]
 
 
 # Initialize schema
@@ -34,6 +34,9 @@ def test_definition(file_path):
     """
     Validate DeviceType definitions using the provided JSON schema.
     """
+    # Check file extension
+    assert file_path.split('.')[-1] in ('yaml', 'yml'), f"Invalid file extension: {file_path}"
+
     # Read file
     with open(file_path) as definition_file:
         definition = yaml.load(definition_file.read(), Loader=yaml.SafeLoader)
