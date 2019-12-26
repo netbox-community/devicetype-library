@@ -1,6 +1,3 @@
-**NOTE:** We are not currently accepting pull requests to this library. An announcement will be made once the
-functionality is ready.
-
 # About this Library
 
 This library is intended to be used for populating device types in [NetBox](https://github.com/netbox-community/netbox)

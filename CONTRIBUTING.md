@@ -36,7 +36,7 @@ The process of submitting new definitions to the library is as follows:
 1. Verify that the proposed definition does not duplicate or conflict with an existing definition. (If unsure, please
    raise an issue seeking clarification prior to submitting a PR.)
 2. [Fork](https://guides.github.com/activities/forking/) the GitHub project and create a new branch to hold your
-   proposed changes.
+   proposed changes. If adding new definitions, the branch should be named so that it loosely follows the format `<manufacturer>-<series>` (for example, `cisco-c9300`).
 3. Introduce the new content exactly as it should appear once accepted.
 4. Submit a [pull request](https://github.com/netbox-community/devicetype-library/compare?expand=1) to merge your new
    branch into the `master` branch. Include a brief description of the changes introduced in the PR.
