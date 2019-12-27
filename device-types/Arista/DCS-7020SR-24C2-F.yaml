@@ -1,0 +1,70 @@
+manufacturer: Arista
+model: DCS-7020SR-24C2-F
+slug: dcs-7020sr-24c2-f
+part_number: ASY-91941-104
+u_height: 1
+interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Management1
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: rf-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 105
+    allocated_draw: 95
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 105
+    allocated_draw: 95
