@@ -3,13 +3,13 @@ model: CRS305-1G-4S+IN
 slug: crs305-1g-4splus-in
 interfaces:
   - name: sfp-sfpplus1
-    type: 10gbase-x-sfp
+    type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
-    type: 10gbase-x-sfp
+    type: 10gbase-x-sfpp
   - name: sfp-sfpplus3
-    type: 10gbase-x-sfp
+    type: 10gbase-x-sfpp
   - name: sfp-sfpplus4
-    type: 10gbase-x-sfp
+    type: 10gbase-x-sfpp
   - name: ether1
     type: 1000base-t
 console-ports:
