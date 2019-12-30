@@ -32,6 +32,7 @@ Additionally, be sure to adhere to the following style guidance:
 * Use two spaces for indenting.
 * Specify a device type's attributes before listing its components.
 * Avoid encapsulating YAML values in quotes unless necessary to avoid a syntax error.
+* End each definition file with a blank line.
 
 ## The Contribution Workflow
 

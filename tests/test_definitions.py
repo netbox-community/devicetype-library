@@ -32,14 +32,20 @@ def test_environment():
 @pytest.mark.parametrize("file_path", _get_definition_files())
 def test_definition(file_path):
     """
-    Validate DeviceType definitions using the provided JSON schema.
+    Validate each DeviceType definition file using the provided JSON schema.
     """
     # Check file extension
     assert file_path.split('.')[-1] in ('yaml', 'yml'), f"Invalid file extension: {file_path}"
 
     # Read file
     with open(file_path) as definition_file:
-        definition = yaml.load(definition_file.read(), Loader=yaml.SafeLoader)
+        content = definition_file.read()
+
+        # Check for trailing newline
+        assert content[-1] == '\n', "Missing trailing newline"
+
+        # Load YAML data
+        definition = yaml.load(content, Loader=yaml.SafeLoader)
 
     # Run validation
     try:
