@@ -9,7 +9,8 @@
             "type": "string"
         },
         "slug": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[-a-zA-Z0-9_]+$"
         },
         "part_number": {
             "type": "string"
