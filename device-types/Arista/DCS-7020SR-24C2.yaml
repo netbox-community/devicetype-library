@@ -1,6 +1,6 @@
 manufacturer: Arista
-model: DCS-7150SC-24-R
-slug: dcs-7150sc-24-r
+model: DCS-7020SR-24C2
+slug: dcs-7020sr-24c2
 is_full_depth: True
 u_height: 1
 interfaces:
@@ -40,8 +40,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet18
     type: 10gbase-x-sfpp
-  - name: Ethernet19
-    type: 10gbase-x-sfpp
   - name: Ethernet20
     type: 10gbase-x-sfpp
   - name: Ethernet21
@@ -52,6 +50,10 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet24
     type: 10gbase-x-sfpp
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
   - name: Management1
     type: 1000base-t
 console-ports:
@@ -60,9 +62,9 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 334
-    allocated_draw: 191
+    maximum_draw: 105
+    allocated_draw: 95
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 334
-    allocated_draw: 191
+    maximum_draw: 105
+    allocated_draw: 95

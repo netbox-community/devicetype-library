@@ -1,6 +1,6 @@
 manufacturer: Arista
-model: DCS-7150S-64-R
-slug: dcs-7150s-64-r
+model: DCS-7150S-52
+slug: dcs-7150s-52
 is_full_depth: True
 u_height: 1
 interfaces:
@@ -100,14 +100,14 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet48
     type: 10gbase-x-sfpp
-  - name: Ethernet49/1
-    type: 40gbase-x-qsfpp
-  - name: Ethernet50/1
-    type: 40gbase-x-qsfpp
-  - name: Ethernet51/1
-    type: 40gbase-x-qsfpp
-  - name: Ethernet52/1
-    type: 40gbase-x-qsfpp
+  - name: Ethernet49
+    type: 10gbase-x-sfpp
+  - name: Ethernet50
+    type: 10gbase-x-sfpp
+  - name: Ethernet51
+    type: 10gbase-x-sfpp
+  - name: Ethernet52
+    type: 10gbase-x-sfpp
   - name: Management1
     type: 1000base-t
 console-ports:
@@ -116,9 +116,9 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 455
-    allocated_draw: 224
+    maximum_draw: 450
+    allocated_draw: 191
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 455
-    allocated_draw: 224
+    maximum_draw: 450
+    allocated_draw: 191
