@@ -1,6 +1,6 @@
 manufacturer: Arista
-model: DCS-7050SX3-48YC12-F
-slug: dcs-7050sx3-48yc12-f
+model: DCS-7050SX3-48YC8
+slug: dcs-7050sx3-48yc8
 is_full_depth: True
 u_height: 1
 interfaces:
@@ -116,14 +116,6 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet56/1
     type: 100gbase-x-qsfp28
-  - name: Ethernet57/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet58/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet59/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet60/1
-    type: 100gbase-x-qsfp28
   - name: Management1
     type: 1000base-t
 console-ports:
@@ -132,9 +124,9 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 325
-    allocated_draw: 170
+    maximum_draw: 301
+    allocated_draw: 124
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 325
-    allocated_draw: 170
+    maximum_draw: 301
+    allocated_draw: 124
