@@ -1,14 +1,14 @@
 manufacturer: APC
-model: AP8932
-slug: ap8932
-# comments: Rack PDU 2G, Switched, ZeroU, 30A, 100-120V, (24) 5-20R
+model: AP7830
+slug: ap7830
+# comments: Rack PDU, Metered, Zero U, 20A, 120V, (24) NEMA 5-20R
 u_height: 0
 console-ports:
   - name: Serial
     type: rj-12
 power-ports:
   - name: Power Port 1
-    type: nema-l5-30p
+    type: nema-l5-20p
 power-outlets:
   - name: Power Outlet 1
     type: nema-5-20r
