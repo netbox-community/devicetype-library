@@ -1,6 +1,6 @@
 manufacturer: MikroTik
-model: CRS328-24P-4S+RM
-slug: crs328-24p-4splus-rm
+model: CRS354-48G-4S+2Q+RM
+slug: crs354-48g-4splus-2qplus-rm
 is_full_depth: false
 u_height: 1
 interfaces:
@@ -52,6 +52,54 @@ interfaces:
     type: 1000base-t
   - name: ether24
     type: 1000base-t
+  - name: ether25
+    type: 1000base-t
+  - name: ether26
+    type: 1000base-t
+  - name: ether27
+    type: 1000base-t
+  - name: ether28
+    type: 1000base-t
+  - name: ether29
+    type: 1000base-t
+  - name: ether30
+    type: 1000base-t
+  - name: ether31
+    type: 1000base-t
+  - name: ether32
+    type: 1000base-t
+  - name: ether33
+    type: 1000base-t
+  - name: ether34
+    type: 1000base-t
+  - name: ether35
+    type: 1000base-t
+  - name: ether36
+    type: 1000base-t
+  - name: ether37
+    type: 1000base-t
+  - name: ether38
+    type: 1000base-t
+  - name: ether39
+    type: 1000base-t
+  - name: ether40
+    type: 1000base-t
+  - name: ether41
+    type: 1000base-t
+  - name: ether42
+    type: 1000base-t
+  - name: ether43
+    type: 1000base-t
+  - name: ether44
+    type: 1000base-t
+  - name: ether45
+    type: 1000base-t
+  - name: ether46
+    type: 1000base-t
+  - name: ether47
+    type: 1000base-t
+  - name: ether48
+    type: 1000base-t
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
@@ -60,10 +108,17 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus4
     type: 10gbase-x-sfpp
+  - name: qsfpplus1
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus2
+    type: 40gbase-x-qsfpp
 console-ports:
   - name: serial0
     type: rj-45
 power-ports:
   - name: power1
     type: iec-60320-c14
-    maximum_draw: 494
+    maximum_draw: 50
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 50
