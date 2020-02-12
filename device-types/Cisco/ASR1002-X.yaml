@@ -11,11 +11,9 @@ power-ports:
 - name: PS1
   type: iec-60320-c14
   maximum_draw: 470
-  allocated_draw: 470
 - name: PS2
   type: iec-60320-c14
   maximum_draw: 470
-  allocated_draw: 470
 interfaces:
 - name: GigabitEthernet0/0/0
   type: 1000base-t
