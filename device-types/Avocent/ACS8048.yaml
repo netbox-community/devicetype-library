@@ -109,11 +109,7 @@ console-server-ports:
 power-ports:
 - name: ps1
   type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
-- name: ps2
-  type: iec-60320-c14
-  maximum_draw: null
+  maximum_draw: 35
   allocated_draw: null
 interfaces:
 - name: eth0
