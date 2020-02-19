@@ -1,13 +1,13 @@
 manufacturer: WTI
-model: DSM-24NM-E-US
-slug: dsm-24nm-e-us
-part_number: DSM-24NM-E
+model: DSM-40NM-E
+slug: dsm-40nm-e
+part_number: DSM-40NM-E
 is_full_depth: false
 u_height: 1
 interfaces:
-  - name: lan
+  - name: ETH0
     type: 1000base-t
-  - name: wan
+  - name: ETH1
     type: 1000base-t
 console-ports:
   - name: Console
@@ -61,12 +61,44 @@ console-server-ports:
     type: rj-45
   - name: port24
     type: rj-45
+  - name: port25
+    type: rj-45
+  - name: port26
+    type: rj-45
+  - name: port27
+    type: rj-45
+  - name: port28
+    type: rj-45
+  - name: port29
+    type: rj-45
+  - name: port30
+    type: rj-45
+  - name: port31
+    type: rj-45
+  - name: port32
+    type: rj-45
+  - name: port33
+    type: rj-45
+  - name: port34
+    type: rj-45
+  - name: port35
+    type: rj-45
+  - name: port36
+    type: rj-45
+  - name: port37
+    type: rj-45
+  - name: port38
+    type: rj-45
+  - name: port39
+    type: rj-45
+  - name: port40
+    type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 8
-    allocated_draw: 4
+    maximum_draw: 10
+    allocated_draw: 5
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 8
-    allocated_draw: 4
+    maximum_draw: 10
+    allocated_draw: 5

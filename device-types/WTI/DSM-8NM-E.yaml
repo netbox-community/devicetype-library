@@ -1,11 +1,13 @@
 manufacturer: WTI
-model: DSM-8NM-DP-US
-slug: dsm-8nm-dp-us
-part_number: DSM-8NM-DP
+model: DSM-8NM-E
+slug: dsm-8nm-e
+part_number: DSM-8NM-E
 is_full_depth: false
 u_height: 1
 interfaces:
-  - name: lan
+  - name: ETH0
+    type: 1000base-t
+  - name: ETH1
     type: 1000base-t
 console-ports:
   - name: Console

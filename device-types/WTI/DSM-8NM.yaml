@@ -1,13 +1,11 @@
 manufacturer: WTI
-model: DSM-8NM-E-US
-slug: dsm-8nm-e-us
-part_number: DSM-8NM-E
+model: DSM-8NM
+slug: dsm-8nm
+part_number: DSM-8NM
 is_full_depth: false
 u_height: 1
 interfaces:
-  - name: lan
-    type: 1000base-t
-  - name: wan
+  - name: ETH0
     type: 1000base-t
 console-ports:
   - name: Console
@@ -31,10 +29,6 @@ console-server-ports:
     type: rj-45
 power-ports:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 6
-    allocated_draw: 3
-  - name: PS2
     type: iec-60320-c14
     maximum_draw: 6
     allocated_draw: 3
