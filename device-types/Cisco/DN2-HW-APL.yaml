@@ -17,7 +17,7 @@ power-ports:
 interfaces:
 - name: eno1
   type: 10gbase-t
-  mgmt_only: trie
+  mgmt_only: true
 - name: eno2
   type: 10gbase-t
   mgmt_only: false
