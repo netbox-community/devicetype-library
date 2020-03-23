@@ -15,18 +15,18 @@ power-ports:
   type: iec-60320-c14
   maximum_draw: 770
 interfaces:
-- name: eth2/1
+- name: eno1
+  type: 10gbase-t
+  mgmt_only: trie
+- name: eno2
   type: 10gbase-t
   mgmt_only: false
-- name: eth2/2
+- name: enp94s0f0
   type: 10gbase-t
-  mgmt_only: false
+  mgmt_only: true
+- name: enp94s0f1
+  type: 10gbase-t
+  mgmt_only: true
 - name: CIMC
-  type: 1000base-t
-  mgmt_only: true
-- name: MGMT-0
-  type: 1000base-t
-  mgmt_only: true
-- name: MGMT-1
   type: 1000base-t
   mgmt_only: true
