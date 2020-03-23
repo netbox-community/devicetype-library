@@ -1,8 +1,10 @@
 manufacturer: APC
 model: AP8868
 slug: ap8868
-# comments: Rack PDU 2G, Metered, ZeroU, 10.0kW, 208V, (36) C13 & (6) C19
+part_number: AP8868
 u_height: 0
+is_full_depth: false
+comments: Rack PDU 2G, Metered, ZeroU, 10.0kW, 208V, (36) C13 & (6) C19
 console-ports:
   - name: Serial
     type: rj-12
@@ -166,7 +168,7 @@ power-outlets:
     type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: A
-  - name: Bank4-C13-12
+  - name: Bank3-C13-12
     type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: A
