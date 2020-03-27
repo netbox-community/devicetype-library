@@ -1,0 +1,39 @@
+manufacturer: Cisco
+model: SNS-3615-K9
+slug: sns-3615-k9
+part_number: SNS-3615-K9
+# comments: Cisco Secure Network Server 3600 Series Appliance
+u_height: 1
+is_full_depth: true
+console-ports:
+- name: Con
+  type: rj-45
+power-ports:
+- name: PS-0
+  type: iec-60320-c14
+  maximum_draw: 770
+- name: PS-1
+  type: iec-60320-c14
+  maximum_draw: 770
+interfaces:
+- name: GigabitEthernet 0
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet 1
+  type: 1000base-t
+  mgmt_only: false
+- name: CIMC
+  type: 1000base-t
+  mgmt_only: true
+  name: GigabitEthernet 2
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet 3
+  type: 1000base-t
+  mgmt_only: false
+  name: GigabitEthernet 4
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet 5
+  type: 1000base-t
+  mgmt_only: false
