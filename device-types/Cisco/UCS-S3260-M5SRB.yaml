@@ -23,16 +23,16 @@ power-ports:
   maximum_draw: 1050
 interfaces:
 - name: sioc1
-  type: 40gbase-x-sfpp
+  type: 40gbase-x-qsfpp
   mgmt_only: false
 - name: sioc2
-  type: 40gbase-x-sfpp
+  type: 40gbase-x-qsfpp
   mgmt_only: false
 - name: sioc3
-  type: 40gbase-x-sfpp
+  type: 40gbase-x-qsfpp
   mgmt_only: true
 - name: sioc4
-  type: 40gbase-x-sfpp
+  type: 40gbase-x-qsfpp
   mgmt_only: true
 - name: CIMC
   type: 1000base-t
