@@ -1,0 +1,32 @@
+manufacturer: Cisco
+model: UCSC-C240-M5SX
+slug: ucsc-c240-m5sx
+part_number: UCSC-C240-M5SX
+u_height: 2
+is_full_depth: true
+comments: Cisco C240-M5SX Small form-factor (SFF) drives, with 24-drive backplane
+power-ports:
+- name: Slot 1
+  type: iec-60320-c14
+  maximum_draw: 770
+  allocated_draw: 770
+- name: Slot 2
+  type: iec-60320-c14
+  maximum_draw: 770
+  allocated_draw: 770
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 2
+  type: 1000base-t
+  mgmt_only: false
+- name: CIMC
+  type: 1000base-t
+  mgmt_only: true
+- name: Port 1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 2
+  type: 10gbase-x-sfpp
+  mgmt_only: false
