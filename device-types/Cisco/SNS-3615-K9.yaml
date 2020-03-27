@@ -16,24 +16,24 @@ power-ports:
   type: iec-60320-c14
   maximum_draw: 770
 interfaces:
-- name: GigabitEthernet 0
+- name: GigabitEthernet0
   type: 1000base-t
   mgmt_only: false
-- name: GigabitEthernet 1
+- name: GigabitEthernet1
   type: 1000base-t
   mgmt_only: false
 - name: CIMC
   type: 1000base-t
   mgmt_only: true
-  name: GigabitEthernet 2
+  name: GigabitEthernet2
   type: 1000base-t
   mgmt_only: false
-- name: GigabitEthernet 3
+- name: GigabitEthernet3
   type: 1000base-t
   mgmt_only: false
-  name: GigabitEthernet 4
+  name: GigabitEthernet4
   type: 1000base-t
   mgmt_only: false
-- name: GigabitEthernet 5
+- name: GigabitEthernet5
   type: 1000base-t
   mgmt_only: false
