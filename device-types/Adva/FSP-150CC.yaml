@@ -18,10 +18,10 @@ power-ports:
   maximum_draw: 100
 interfaces:
 - name: management-port
-  type: rj45
+  type: 1000base-t
   mgmt_only: true
 - name: BITSI/O
-  type: rj45
+  type: 1000base-t
   mgmt_only: true
 - name: Net1
   type: 10gbase-x-sfpp
