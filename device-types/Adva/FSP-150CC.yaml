@@ -1,0 +1,31 @@
+manufacturer: Adva
+model: FSP-150CC
+slug: fsp-150cc
+part_number: FSP-150CC
+u_height: 1
+is_full_depth: true
+console-ports:
+- name: rs-232
+  type: rj-45
+- name: TOD
+  type: rj-45
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: 100
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: 100
+interfaces:
+- name: management-port
+  type: rj45
+  mgmt_only: true
+- name: BITSI/O
+  type: rj45
+  mgmt_only: true
+- name: Net1
+  type: 10gbase-x-sfpp
+  mgmt_only: true
+- name: Net2
+  type: 10gbase-x-sfpp
+  mgmt_only: true
