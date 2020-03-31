@@ -1,8 +1,23 @@
 manufacturer: Arista
 model: DCS-7050SX3-48YC8
 slug: dcs-7050sx3-48yc8
-is_full_depth: True
+part_number: DCS-7050SX3-48YC8
 u_height: 1
+is_full_depth: false
+comments: ''
+console-ports:
+  - name: Console
+    type: rj-45
+    mgmt_only: true
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 301
+    allocated_draw: 124
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 301
+    allocated_draw: 124
 interfaces:
   - name: Ethernet1
     type: 25gbase-x-sfp28
@@ -88,7 +103,7 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet42
     type: 25gbase-x-sfp28
-  - name: Ethernet33
+  - name: Ethernet43
     type: 25gbase-x-sfp28
   - name: Ethernet44
     type: 25gbase-x-sfp28
@@ -100,6 +115,7 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet48
     type: 25gbase-x-sfp28
+# QSFP28(100G) ports can be broke into 4x25 with a model of [49-56]/[1-4]
   - name: Ethernet49/1
     type: 100gbase-x-qsfp28
   - name: Ethernet50/1
@@ -118,15 +134,5 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Management1
     type: 1000base-t
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 301
-    allocated_draw: 124
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 301
-    allocated_draw: 124
+    mgmt_only: true
+
