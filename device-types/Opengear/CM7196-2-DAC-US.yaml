@@ -1,209 +1,205 @@
 manufacturer: Opengear
 model: CM7196-2-DAC-US
 slug: cm7196-2-dac-us
+part_number: CM7196-2-DAC-US
 u_height: 1
-interfaces:
-# physical interface labels seem different than config labels
-  - name: lan
-    type: 1000base-t
-    mgmt_only: true
-  - name: wan
-    type: 1000base-t
+is_full_depth: false
+comments: 'CM7196 with built-in Dual Power Supplies.  48 console ports on the front and 48 console ports on the back of the appliance.'
 console-ports:
   - name: Console
     type: rj-45
 console-server-ports:
-  - name: port1
+  - name: Port 1
     type: rj-45
-  - name: port2
+  - name: Port 2
     type: rj-45
-  - name: port3
+  - name: Port 3
     type: rj-45
-  - name: port4
+  - name: Port 4
     type: rj-45
-  - name: port5
+  - name: Port 5
     type: rj-45
-  - name: port6
+  - name: Port 6
     type: rj-45
-  - name: port7
+  - name: Port 7
     type: rj-45
-  - name: port8
+  - name: Port 8
     type: rj-45
-  - name: port9
+  - name: Port 9
     type: rj-45
-  - name: port10
+  - name: Port 10
     type: rj-45
-  - name: port11
+  - name: Port 11
     type: rj-45
-  - name: port12
+  - name: Port 12
     type: rj-45
-  - name: port13
+  - name: Port 13
     type: rj-45
-  - name: port14
+  - name: Port 14
     type: rj-45
-  - name: port15
+  - name: Port 15
     type: rj-45
-  - name: port16
+  - name: Port 16
     type: rj-45
-  - name: port17
+  - name: Port 17
     type: rj-45
-  - name: port18
+  - name: Port 18
     type: rj-45
-  - name: port19
+  - name: Port 19
     type: rj-45
-  - name: port20
+  - name: Port 20
     type: rj-45
-  - name: port21
+  - name: Port 21
     type: rj-45
-  - name: port22
+  - name: Port 22
     type: rj-45
-  - name: port23
+  - name: Port 23
     type: rj-45
-  - name: port24
+  - name: Port 24
     type: rj-45
-  - name: port25
+  - name: Port 25
     type: rj-45
-  - name: port26
+  - name: Port 26
     type: rj-45
-  - name: port27
+  - name: Port 27
     type: rj-45
-  - name: port28
+  - name: Port 28
     type: rj-45
-  - name: port29
+  - name: Port 29
     type: rj-45
-  - name: port30
+  - name: Port 30
     type: rj-45
-  - name: port31
+  - name: Port 31
     type: rj-45
-  - name: port32
+  - name: Port 32
     type: rj-45
-  - name: port33
+  - name: Port 33
     type: rj-45
-  - name: port34
+  - name: Port 34
     type: rj-45
-  - name: port35
+  - name: Port 35
     type: rj-45
-  - name: port36
+  - name: Port 36
     type: rj-45
-  - name: port37
+  - name: Port 37
     type: rj-45
-  - name: port38
+  - name: Port 38
     type: rj-45
-  - name: port39
+  - name: Port 39
     type: rj-45
-  - name: port40
+  - name: Port 40
     type: rj-45
-  - name: port41
+  - name: Port 41
     type: rj-45
-  - name: port42
+  - name: Port 42
     type: rj-45
-  - name: port43
+  - name: Port 43
     type: rj-45
-  - name: port44
+  - name: Port 44
     type: rj-45
-  - name: port45
+  - name: Port 45
     type: rj-45
-  - name: port46
+  - name: Port 46
     type: rj-45
-  - name: port47
+  - name: Port 47
     type: rj-45
-  - name: port48
+  - name: Port 48
     type: rj-45
-  - name: port49
+  - name: Port 49
     type: rj-45
-  - name: port50
+  - name: Port 50
     type: rj-45
-  - name: port51
+  - name: Port 51
     type: rj-45
-  - name: port52
+  - name: Port 52
     type: rj-45
-  - name: port53
+  - name: Port 53
     type: rj-45
-  - name: port54
+  - name: Port 54
     type: rj-45
-  - name: port55
+  - name: Port 55
     type: rj-45
-  - name: port56
+  - name: Port 56
     type: rj-45
-  - name: port57
+  - name: Port 57
     type: rj-45
-  - name: port58
+  - name: Port 58
     type: rj-45
-  - name: port59
+  - name: Port 59
     type: rj-45
-  - name: port60
+  - name: Port 60
     type: rj-45
-  - name: port61
+  - name: Port 61
     type: rj-45
-  - name: port62
+  - name: Port 62
     type: rj-45
-  - name: port63
+  - name: Port 63
     type: rj-45
-  - name: port64
+  - name: Port 64
     type: rj-45
-  - name: port65
+  - name: Port 65
     type: rj-45
-  - name: port66
+  - name: Port 66
     type: rj-45
-  - name: port67
+  - name: Port 67
     type: rj-45
-  - name: port68
+  - name: Port 68
     type: rj-45
-  - name: port69
+  - name: Port 69
     type: rj-45
-  - name: port70
+  - name: Port 70
     type: rj-45
-  - name: port71
+  - name: Port 71
     type: rj-45
-  - name: port72
+  - name: Port 72
     type: rj-45
-  - name: port73
+  - name: Port 73
     type: rj-45
-  - name: port74
+  - name: Port 74
     type: rj-45
-  - name: port75
+  - name: Port 75
     type: rj-45
-  - name: port76
+  - name: Port 76
     type: rj-45
-  - name: port77
+  - name: Port 77
     type: rj-45
-  - name: port78
+  - name: Port 78
     type: rj-45
-  - name: port79
+  - name: Port 79
     type: rj-45
-  - name: port80
+  - name: Port 80
     type: rj-45
-  - name: port81
+  - name: Port 81
     type: rj-45
-  - name: port82
+  - name: Port 82
     type: rj-45
-  - name: port83
+  - name: Port 83
     type: rj-45
-  - name: port84
+  - name: Port 84
     type: rj-45
-  - name: port85
+  - name: Port 85
     type: rj-45
-  - name: port86
+  - name: Port 86
     type: rj-45
-  - name: port87
+  - name: Port 87
     type: rj-45
-  - name: port88
+  - name: Port 88
     type: rj-45
-  - name: port89
+  - name: Port 89
     type: rj-45
-  - name: port90
+  - name: Port 90
     type: rj-45
-  - name: port91
+  - name: Port 91
     type: rj-45
-  - name: port92
+  - name: Port 92
     type: rj-45
-  - name: port93
+  - name: Port 93
     type: rj-45
-  - name: port94
+  - name: Port 94
     type: rj-45
-  - name: port95
+  - name: Port 95
     type: rj-45
-  - name: port96
+  - name: Port 96
     type: rj-45
 power-ports:
   - name: PS1
@@ -214,3 +210,11 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 25
     allocated_draw: 20
+interfaces:
+# physical interface labels seem different than config labels
+  - name: lan
+    type: 1000base-t
+    mgmt_only: true
+  - name: wan
+    type: 1000base-t
+    mgmt_only: true
