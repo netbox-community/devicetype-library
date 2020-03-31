@@ -14,15 +14,15 @@ power-ports:
     maximum_draw: 130
     allocated_draw: 130
 interfaces:
-  - name: IPMI
+  - name: HA
     type: 1000base-t
-    mgmt_only: true
-  - name: mgmt
+  - name: IPMI
     type: 1000base-t
     mgmt_only: true
   - name: LAN1
     type: 1000base-t
   - name: LAN2
     type: 1000base-t
-  - name: HA
+  - name: MGMT
     type: 1000base-t
+    mgmt_only: true
