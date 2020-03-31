@@ -1,10 +1,18 @@
 manufacturer: Fortinet
 model: FortiGate 81E
-part_number: FG-81E
 slug: fg-81e
-# comments: Same as FG-80E but with a 128GB SSD onboard.  Has no POE.
-is_full_depth: False
+part_number: FG-81E
 u_height: 1
+is_full_depth: false
+comments: Same as FG-80E but WITH a 128GB SSD onboard.  Has no POE.
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: nema-5-15p
+    maximum_draw: 72
+    allocated_draw: 20
 interfaces:
   - name: port1
     type: 1000base-t
@@ -36,15 +44,7 @@ interfaces:
     type: 1000base-t
   - name: wan1
     type: 1000base-x-sfp
-    # comments: shared media (You can use 1 of the 2 ports with this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+    # comments: shared media (You can use 1 of the 2 ports WITH this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
   - name: wan2
     type: 1000base-x-sfp
-    # comments: shared media (You can use 1 of the 2 ports with this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: nema-5-15p
-    maximum_draw: 72
-    allocated_draw: 20
+    # comments: shared media (You can use 1 of the 2 ports WITH this name. 1 is 1000base-x-sfp & the other is 1000base-t.)

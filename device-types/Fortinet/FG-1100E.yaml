@@ -1,15 +1,28 @@
 manufacturer: Fortinet
 model: FortiGate 1100E
-part_number: FG-1100E
 slug: fg-1100e
-# comments: Same as FG-1101E but without 2 x 480GB SSDs onboard.
-is_full_depth: False
+part_number: FG-1100E
 u_height: 2
+is_full_depth: false
+comments: Same as FG-1101E but WITHOUT 2 x 480GB SSDs onboard.
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 336
+    allocated_draw: 217
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 336
+    allocated_draw: 217
 interfaces:
   - name: ha
     type: 1000base-t
   - name: mgmt
     type: 1000base-t
+    mgmt_only: true
   - name: port1
     type: 1000base-t
   - name: port2
@@ -78,15 +91,3 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: port34
     type: 40gbase-x-qsfpp
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 336
-    allocated_draw: 217
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 336
-    allocated_draw: 217
