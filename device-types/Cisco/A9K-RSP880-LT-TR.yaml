@@ -1,0 +1,20 @@
+manufacturer: Cisco
+model: A9K-RSP880-LT-TR
+slug: a9k-rsp880-lt-tr
+part_number: A9K-RSP880-LT-TR
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+comments: '[Cisco ASR 9000 Route Switch Processor 880 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-733763.html)'
+console-ports:
+- name: aux0
+  type: rj-45
+- name: con0
+  type: rj-45
+interfaces:
+- name: MgmtEth0
+  type: 1000base-t
+  mgmt_only: true
+- name: MgmtEth1
+  type: 1000base-t
+  mgmt_only: true
