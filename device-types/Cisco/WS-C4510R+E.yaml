@@ -6,10 +6,16 @@ u_height: 14
 is_full_depth: true
 subdevice_role: parent
 power-ports:
-  - name: PS1
+  - name: PS1-1
     type: iec-60320-c20
     maximum_draw: 6000W
-  - name: PS2
+  - name: PS1-2
+    type: iec-60320-c20
+    maximum_draw: 6000W
+  - name: PS2-1
+    type: iec-60320-c20
+    maximum_draw: 6000W
+  - name: PS2-2
     type: iec-60320-c20
     maximum_draw: 6000W
 device-bays:
