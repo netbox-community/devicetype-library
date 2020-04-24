@@ -6,9 +6,6 @@ u_height: 13
 is_full_depth: true
 subdevice_role: parent
 power-ports:
-  - name: PSU0
-    type: iec-60320-c20
-    maximum_draw: 3200W
   - name: PSU1
     type: iec-60320-c20
     maximum_draw: 3200W
@@ -27,6 +24,9 @@ power-ports:
   - name: PSU6
     type: iec-60320-c20
     maximum_draw: 3200W
-  - name: PSU17
+  - name: PSU7
+    type: iec-60320-c20
+    maximum_draw: 3200W
+  - name: PSU8
     type: iec-60320-c20
     maximum_draw: 3200W
