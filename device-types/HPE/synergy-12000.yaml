@@ -6,41 +6,43 @@ is_full_depth: true
 subdevice_role: parent
 interfaces:
   - name: FLM1 
-    type: iec-60320-c20
+    type: 1000base-t
+    mgmt_only: true
   - name: FLM2
-    type: iec-60320-c20
+    type: 1000base-t
+    mgmt_only: true
   - name: Interconnect3, Q1:1
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q1:2 
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q1:3
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q1:4 
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q5:1
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q5:2
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q5:3
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect3, Q5:4
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q1:1
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q1:2
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q1:3
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q1:4
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q5:1
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q5:2
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q5:3
-    type: iec-60320-c20
+    type: 16gfc-sfpp
   - name: Interconnect6, Q5:4
-    type: iec-60320-c20
+    type: 16gfc-sfpp
 power-ports:
   - name: PS1
     type: iec-60320-c20
