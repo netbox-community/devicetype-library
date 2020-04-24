@@ -1,46 +1,46 @@
 manufacturer: Fortinet
 model: FortiGate 3000D
 part_number: FG-3000D
-slug: fg-1100d
-is_full_depth: False
+slug: fg-3000d
+is_full_depth: True
 u_height: 2
 interfaces:
   - name: mgmt1
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: mgmt2
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port1
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port2
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port3
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port4
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port5
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port6
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port7
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port8
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port9
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port10
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port11
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port12
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port13
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port14
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port15
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: port16
-    type: 1000base-t
+    type: 10gbase-x-sfpp
 console-ports:
   - name: Console
     type: rj-45
