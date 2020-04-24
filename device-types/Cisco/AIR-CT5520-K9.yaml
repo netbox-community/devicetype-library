@@ -8,19 +8,22 @@ console-ports:
 - name: Con
   type: rj-45
 interfaces:
-- name: eth2/1
+- name: Port 1
   type: 10gbase-t
   mgmt_only: false
-- name: eth2/2
+- name: Port 2
   type: 10gbase-t
   mgmt_only: false
 - name: CIMC
   type: 1000base-t
   mgmt_only: true
-- name: MGMT-0
+- name: MGMT
   type: 1000base-t
   mgmt_only: true
-- name: MGMT-1
+- name: RP
+  type: 1000base-t
+  mgmt_only: true
+- name: SP
   type: 1000base-t
   mgmt_only: true
 power-ports:
