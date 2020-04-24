@@ -1,1 +1,24 @@
-
+manufacturer: Infoblox
+model: IB-1410
+slug: IB-1410
+is_full_depth: False
+u_height: 1
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+  - name: MGMT
+    type: 1000base-t
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: HA
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 130
+    allocated_draw: 130
