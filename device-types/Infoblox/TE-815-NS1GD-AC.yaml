@@ -4,7 +4,7 @@ slug: TE-815-NS1GD-AC
 is_full_depth: False
 u_height: 1
 interfaces:
-  - name: IPMI
+  - name: LOM
     type: 1000base-t
   - name: MGMT
     type: 1000base-t
@@ -20,7 +20,6 @@ console-ports:
 power-ports:
   - name: PS0
     type: iec-60320-c14
-    maximum_draw: 130
-    allocated_draw: 130
+    maximum_draw: 350
 
 
