@@ -1,8 +1,10 @@
 manufacturer: APC
 model: AP8853
 slug: ap8853
-# comments: APC Metered Rack PDU 2G, 32A, 230V, (36) C13 & (6) C19
+part_number: AP8853
 u_height: 0
+is_full_depth: false
+comments: Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19
 console-ports:
   - name: Serial
     type: rj-12
@@ -66,7 +68,7 @@ power-outlets:
     type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: A
-  - name: Power Outlet 1
+  - name: Power Outlet 15
     type: iec-60320-c19
     power_port: Power Port 1
     feed_leg: A

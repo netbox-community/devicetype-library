@@ -1,10 +1,10 @@
 manufacturer: Opengear
-model: CM7116-2-DAC-US
-slug: cm7116-2-dac-us
-part_number: CM7116-2-DAC-US
+model: CM7132-2-DAC-US
+slug: cm7132-2-dac-us
+part_number: CM7132-2-DAC-US
 u_height: 1
 is_full_depth: false
-comments: CM7116 with built-in Dual Power Supplies
+comments: CM7132 with built-in Dual Power Supplies
 console-ports:
   - name: Console
     type: rj-45
@@ -41,6 +41,38 @@ console-server-ports:
     type: rj-45
   - name: Port 16
     type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
@@ -49,6 +81,7 @@ power-ports:
   - name: PS2
     type: iec-60320-c14
     maximum_draw: 25
+    allocated_draw: 20
 interfaces:
 # physical interface labels seem different than config labels
   - name: lan

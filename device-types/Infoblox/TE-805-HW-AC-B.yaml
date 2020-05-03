@@ -1,19 +1,10 @@
 manufacturer: Infoblox
-model: TE-805-HW-AC-B
+model: Trinzic TE-805
 slug: te-805-hw-ac-b
-is_full_depth: False
+part_number: TE-805-HW-AC-B
 u_height: 1
-interfaces:
-  - name: IPMI
-    type: 1000base-t
-  - name: MGMT
-    type: 1000base-t
-  - name: LAN1
-    type: 1000base-t
-  - name: LAN2
-    type: 1000base-t
-  - name: HA
-    type: 1000base-t
+is_full_depth: true
+comments: Trinzic TE-805 Network Management Device with HDD & PSU
 console-ports:
   - name: Console
     type: rj-45
@@ -22,3 +13,16 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 130
     allocated_draw: 130
+interfaces:
+  - name: HA
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
