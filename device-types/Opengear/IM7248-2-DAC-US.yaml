@@ -1,10 +1,10 @@
 manufacturer: Opengear
-model: CM7148-2-SAC-US
-slug: cm7148-2-sac-us
-part_number: CM7148-2-SAC-US
+model: IM7248-2-DAC-US
+slug: im7248-2-dac-us
+part_number: IM7248-2-DAC-US
 u_height: 1
 is_full_depth: false
-comments: CM7148 with built-in Single Power Supply
+comments: ''
 console-ports:
   - name: Console
     type: rj-45
@@ -95,7 +95,7 @@ console-server-ports:
     type: rj-45
   - name: Port 43
     type: rj-45
-  - name: Port 44
+  - name: Port 47
     type: rj-45
   - name: Port 45
     type: rj-45
@@ -108,13 +108,15 @@ console-server-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 25
-    allocated_draw: 20
+  - name: PS2
+    type: iec-60320-c14
 interfaces:
-# physical interface labels seem different than config labels
-  - name: lan
+  - name: eth0
     type: 1000base-t
     mgmt_only: true
-  - name: wan
+  - name: eth1
     type: 1000base-t
+    mgmt_only: true
+  - name: wlan0
+    type: ieee802.11n
     mgmt_only: true
