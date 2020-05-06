@@ -47,7 +47,7 @@ The process of submitting new definitions to the library is as follows:
    in the PR.
 5. GitHub will automatically run tests against your draft PR to validate it. If the tests fail, make the necessary changes to
    your branch so that they pass.
-6. Submit the [pull request](https://github.com/netbox-community/devicetype-library/compare?expand=1). Please note that submitted PRs
+6. Submit the [pull request](https://github.com/netbox-community/devicetype-library/compare?expand=1) for review. Please note that submitted PRs
    which do not pass validation will be closed and must be rescinded.
 5. A maintainer will review your PR and take one of three actions:
    * Accept and merge it
