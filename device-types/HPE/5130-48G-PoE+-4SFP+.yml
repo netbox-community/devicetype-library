@@ -1,177 +1,173 @@
 manufacturer: HPE
 model: 5130-48G-PoE+-4SFP+ (370W) EI
-slug: 5130-48G
+slug:  5130-48G-POE-4SFP
 part_number: JG937A
 u_height: 1
 is_full_depth: false
-comments: "https://h20195.www2.hpe.com/v2/GetPDF.aspx/c04394228.pdf\r\n17.32(w) x\
-  \ 14.17(d) x 1.72(h) in.\r\n(44 x 36 x 4.36 cm) (1U height)\r\n17.64 lb (8 kg)\r\
-  \n\r\nmax power rating 490 W\r\n\r\n160/1671 BTU/hr (168.8/1762.91 kJ/hr), for AC\
-  \ power. For DC power minimum heat dissipation is 147 BTU/hr and 3037 BTU/hr maximum."
 console-ports:
-- name: con1
+- name: console
   type: rj-45
 power-ports:
 - name: PSU1
   type: iec-60320-c14
   maximum_draw: 490
 interfaces:
-- name: ge1/0/0
+- name: GigabitEthernet1/0/0
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/1
+- name: GigabitEthernet1/0/1
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/2
+- name: GigabitEthernet1/0/2
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/3
+- name: GigabitEthernet1/0/3
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/4
+- name: GigabitEthernet1/0/4
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/5
+- name: GigabitEthernet1/0/5
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/6
+- name: GigabitEthernet1/0/6
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/7
+- name: GigabitEthernet1/0/7
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/8
+- name: GigabitEthernet1/0/8
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/9
+- name: GigabitEthernet1/0/9
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/10
+- name: GigabitEthernet1/0/10
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/11
+- name: GigabitEthernet1/0/11
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/12
+- name: GigabitEthernet1/0/12
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/13
+- name: GigabitEthernet1/0/13
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/14
+- name: GigabitEthernet1/0/14
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/15
+- name: GigabitEthernet1/0/15
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/16
+- name: GigabitEthernet1/0/16
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/17
+- name: GigabitEthernet1/0/17
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/18
+- name: GigabitEthernet1/0/18
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/19
+- name: GigabitEthernet1/0/19
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/20
+- name: GigabitEthernet1/0/20
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/21
+- name: GigabitEthernet1/0/21
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/22
+- name: GigabitEthernet1/0/22
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/23
+- name: GigabitEthernet1/0/23
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/24
+- name: GigabitEthernet1/0/24
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/25
+- name: GigabitEthernet1/0/25
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/26
+- name: GigabitEthernet1/0/26
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/27
+- name: GigabitEthernet1/0/27
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/28
+- name: GigabitEthernet1/0/28
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/29
+- name: GigabitEthernet1/0/29
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/30
+- name: GigabitEthernet1/0/30
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/31
+- name: GigabitEthernet1/0/31
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/32
+- name: GigabitEthernet1/0/32
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/33
+- name: GigabitEthernet1/0/33
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/34
+- name: GigabitEthernet1/0/34
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/35
+- name: GigabitEthernet1/0/35
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/36
+- name: GigabitEthernet1/0/36
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/37
+- name: GigabitEthernet1/0/37
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/38
+- name: GigabitEthernet1/0/38
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/39
+- name: GigabitEthernet1/0/39
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/40
+- name: GigabitEthernet1/0/40
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/41
+- name: GigabitEthernet1/0/41
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/42
+- name: GigabitEthernet1/0/42
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/43
+- name: GigabitEthernet1/0/43
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/44
+- name: GigabitEthernet1/0/44
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/45
+- name: GigabitEthernet1/0/45
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/46
+- name: GigabitEthernet1/0/46
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/47
+- name: GigabitEthernet1/0/47
   type: 1000base-t
   mgmt_only: false
-- name: ge1/0/48
+- name: GigabitEthernet1/0/48
   type: 1000base-t
   mgmt_only: false
-- name: ten1/0/49
+- name: Ten-GigabitEthernet1/0/49
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: ten1/0/50
+- name: Ten-GigabitEthernet1/0/50
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: ten1/0/51
+- name: Ten-GigabitEthernet1/0/51
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: ten1/0/52
+- name: Ten-GigabitEthernet1/0/52
   type: 10gbase-x-sfpp
   mgmt_only: false
