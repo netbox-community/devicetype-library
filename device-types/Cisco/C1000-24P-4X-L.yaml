@@ -62,10 +62,10 @@ interfaces:
   - name: TenGigabitEthernet1/0/4
     type: 10gbase-x-sfpp
 console-ports:
-- name: con0
-  type: rj-45
-- name: USB con0
-  type: usb-mini-a
+  - name: con0
+    type: rj-45
+  - name: USB con0
+    type: usb-mini-a
 power-ports:
   - name: Built-in
     type: iec-60320-c14
