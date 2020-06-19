@@ -6,6 +6,15 @@ is_full_depth: true
 console-ports:
   - name: Console
     type: rj-45
+power-ports:
+  - name: PS1
+    type: S5232F-ON-PWR-1-NA
+    maximum_draw: 635
+    allocated_draw: 360
+  - name: PS2
+    type: S5232F-ON-PWR-1-NA
+    maximum_draw: 635
+    allocated_draw: 360
 interfaces:
 - name: Ethernet 1/1/1
   type: 100gbase-x-qsfp28
