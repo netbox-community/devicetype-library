@@ -202,14 +202,16 @@ console-server-ports:
   - name: Port 96
     type: rj-45
 power-ports:
+# best guess on maximum_draw
+# datasheet states 35W power consumption for 96-port models
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 25
-    allocated_draw: 20
+    maximum_draw: 50
+    allocated_draw: 35
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 25
-    allocated_draw: 20
+    maximum_draw: 50
+    allocated_draw: 35
 interfaces:
 # physical interface labels seem different than config labels
   - name: lan
