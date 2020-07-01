@@ -17,16 +17,16 @@ power-ports:
   allocated_draw: 571
 interfaces:
 - name: ethernet1/1
-  type: 1000base-t
+  type: 10gbase-t
   mgmt_only: false
 - name: ethernet1/2
-  type: 1000base-t
+  type: 10gbase-t
   mgmt_only: false
 - name: ethernet1/3
-  type: 1000base-t
+  type: 10gbase-t
   mgmt_only: false
 - name: ethernet1/4
-  type: 1000base-t
+  type: 10gbase-t
   mgmt_only: false
 - name: ethernet1/5
   type: 10gbase-x-sfpp
@@ -90,10 +90,10 @@ interfaces:
   mgmt_only: false
 - name: aux-1
   type: 10gbase-x-sfpp
-  mgmt_only: true
+  mgmt_only: false
 - name: aux-2
   type: 10gbase-x-sfpp
-  mgmt_only: true
+  mgmt_only: false
 - name: ha1-a
   type: 1000base-t
   mgmt_only: false
