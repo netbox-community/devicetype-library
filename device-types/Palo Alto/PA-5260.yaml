@@ -1,106 +1,109 @@
 manufacturer: Palo Alto
 model: PA-5260
 slug: pa-5260
+part_number: PA-5260
 u_height: 3
 is_full_depth: true
 console-ports:
 - name: console
   type: rj-45
 power-ports:
-- name: PSU1
+- name: PS1
   type: iec-60320-c14
-  maximum_draw: 870
-- name: PSU2
+  maximum_draw: 685
+  allocated_draw: 571
+- name: PS2
   type: iec-60320-c14
-  maximum_draw: 870
+  maximum_draw: 685
+  allocated_draw: 571
 interfaces:
-- name: '1'
-  type: 1000base-t
+- name: ethernet1/1
+  type: 10gbase-t
   mgmt_only: false
-- name: '2'
-  type: 1000base-t
+- name: ethernet1/2
+  type: 10gbase-t
   mgmt_only: false
-- name: '3'
-  type: 1000base-t
+- name: ethernet1/3
+  type: 10gbase-t
   mgmt_only: false
-- name: '4'
-  type: 1000base-t
+- name: ethernet1/4
+  type: 10gbase-t
   mgmt_only: false
-- name: '5'
+- name: ethernet1/5
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '6'
+- name: ethernet1/6
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '7'
+- name: ethernet1/7
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '8'
+- name: ethernet1/8
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '9'
+- name: ethernet1/9
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '10'
+- name: ethernet1/10
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '11'
+- name: ethernet1/11
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '12'
+- name: ethernet1/12
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '13'
+- name: ethernet1/13
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '14'
+- name: ethernet1/14
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '15'
+- name: ethernet1/15
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '16'
+- name: ethernet1/16
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '17'
+- name: ethernet1/17
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '18'
+- name: ethernet1/18
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '19'
+- name: ethernet1/19
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '20'
+- name: ethernet1/20
   type: 10gbase-x-sfpp
   mgmt_only: false
-- name: '21'
+- name: ethernet1/21
   type: 100gbase-x-qsfp28
   mgmt_only: false
-- name: '22'
+- name: ethernet1/22
   type: 100gbase-x-qsfp28
   mgmt_only: false
-- name: '23'
+- name: ethernet1/23
   type: 100gbase-x-qsfp28
   mgmt_only: false
-- name: '24'
+- name: ethernet1/24
   type: 100gbase-x-qsfp28
   mgmt_only: false
-- name: AUX-1
+- name: aux-1
   type: 10gbase-x-sfpp
-  mgmt_only: true
-- name: AUX-2
+  mgmt_only: false
+- name: aux-2
   type: 10gbase-x-sfpp
-  mgmt_only: true
-- name: HA1-A
+  mgmt_only: false
+- name: ha1-a
   type: 1000base-t
   mgmt_only: false
-- name: HA1-B
+- name: ha1-b
   type: 1000base-t
   mgmt_only: false
-- name: HSCI
+- name: hsci
   type: 100gbase-x-qsfp28
   mgmt_only: false
-- name: MGT
+- name: management
   type: 1000base-t
   mgmt_only: true
