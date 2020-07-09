@@ -1,0 +1,49 @@
+manufacturer: Ubiquiti
+model: UniFi Switch 16 PoE Gen2
+slug: unifi-switch-16-poe-gen2
+part_number: USW-16-POE
+# Comment: [USW-16-PoE] UniFi Switch 16 PoE (18W + max. 42W PoE), Gen2, (16) Gigabit, (1-8) Gigabit PoE+ IEEE 802.3af/at, (2) SFP
+u_height: 1
+# Dimensions: 442.4 x 200 x 43.7 mm (17.42 x 7.87 x 1.72")
+is_full_depth: false
+interfaces:
+  - name: RJ45 1 (PoE)
+    type: 1000base-t
+  - name: RJ45 2 (PoE)
+    type: 1000base-t
+  - name: RJ45 3 (PoE)
+    type: 1000base-t
+  - name: RJ45 4 (PoE)
+    type: 1000base-t
+  - name: RJ45 5 (PoE)
+    type: 1000base-t
+  - name: RJ45 6 (PoE)
+    type: 1000base-t
+  - name: RJ45 7 (PoE)
+    type: 1000base-t
+  - name: RJ45 8 (PoE)
+    type: 1000base-t
+  - name: RJ45 9
+    type: 1000base-t
+  - name: RJ45 10
+    type: 1000base-t
+  - name: RJ45 11
+    type: 1000base-t
+  - name: RJ45 12
+    type: 1000base-t
+  - name: RJ45 13
+    type: 1000base-t
+  - name: RJ45 14
+    type: 1000base-t
+  - name: RJ45 15
+    type: 1000base-t
+  - name: RJ45 16
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 60
