@@ -1,0 +1,52 @@
+manufacturer: Ubiquiti
+model: UniFi Switch 16 PoE 150W Gen1
+slug: unifi-switch-16-poe-150w-gen1
+part_number: US-16-150W
+# Comment: [US-16-150W] UniFi Switch 16 PoE 150W (30W + max. 120W PoE), Gen1, (16) Gigabit PoE+ IEEE 802.3af/at and 24V Passive PoE, (2) SFP
+u_height: 1
+# Dimensions: 443 x 43 x 221 mm (17.44 x 1.69 x 8.70")
+is_full_depth: false
+interfaces:
+  - name: RJ45 1
+    type: 1000base-t
+  - name: RJ45 2
+    type: 1000base-t
+  - name: RJ45 3
+    type: 1000base-t
+  - name: RJ45 4
+    type: 1000base-t
+  - name: RJ45 5
+    type: 1000base-t
+  - name: RJ45 6
+    type: 1000base-t
+  - name: RJ45 7
+    type: 1000base-t
+  - name: RJ45 8
+    type: 1000base-t
+  - name: RJ45 9
+    type: 1000base-t
+  - name: RJ45 10
+    type: 1000base-t
+  - name: RJ45 11
+    type: 1000base-t
+  - name: RJ45 12
+    type: 1000base-t
+  - name: RJ45 13
+    type: 1000base-t
+  - name: RJ45 14
+    type: 1000base-t
+  - name: RJ45 15
+    type: 1000base-t
+  - name: RJ45 16
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 150
