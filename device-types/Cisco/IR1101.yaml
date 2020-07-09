@@ -1,0 +1,26 @@
+manufacturer: Cisco
+model: IR1101
+part_number: IR1101-K9
+slug: ir1101
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: FastEthernet0/0/1
+    type: 100base-tx
+  - name: FastEthernet0/0/2
+    type: 100base-tx
+  - name: FastEthernet0/0/3
+    type: 100base-tx
+  - name: FastEthernet0/0/4
+    type: 100base-tx
+  - name: Async0/2/0
+    type: other
+console-ports:
+  - name: con 0
+    type: usb-mini-b
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PS0
