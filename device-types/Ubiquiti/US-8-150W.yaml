@@ -9,36 +9,26 @@ comments: |
 u_height: 0
 is_full_depth: false
 interfaces:
-  - name: RJ45 1
+  - name: RJ45 1 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 2
+  - name: RJ45 2 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 3
+  - name: RJ45 3 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 4
+  - name: RJ45 4 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 5
+  - name: RJ45 5 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 6
+  - name: RJ45 6 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 7
+  - name: RJ45 7 (PoE)
     type: 1000base-t
-    mgmt_only: false
-  - name: RJ45 8
+  - name: RJ45 8 (PoE)
     type: 1000base-t
-    mgmt_only: false
   - name: SFP 1
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: SFP 2
     type: 1000base-x-sfp
-    mgmt_only: false
 power-ports:
   - name: Input
     type: iec-60320-c14
