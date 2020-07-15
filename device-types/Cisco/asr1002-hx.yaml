@@ -3,11 +3,14 @@ model: ASR1002-HX
 slug: asr1002-hx
 u_height: 2
 is_full_depth: true
-console_ports:
+console-ports:
   - name: con 0
-power_ports:
+    type: rj-45
+power-ports:
   - name: P0
+    type: iec-60320-c14
   - name: P1
+    type: iec-60320-c14
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
