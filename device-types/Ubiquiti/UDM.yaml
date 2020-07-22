@@ -1,0 +1,26 @@
+manufacturer: Ubiquiti
+model: UniFi Dream Machine
+slug: unifi-dream-machine
+part_number: UDM
+comments: |
+  Simply Powerful Networking, (4) 1G LAN, (1) 1G WAN
+
+  Dimensions: Ø 110 x 184.2 mm (Ø 4.33 x 7.25")
+u_height: 0
+is_full_depth: false
+comments: ''
+power-ports:
+- name: Supply
+  type: iec-60320-c8
+  maximum_draw: 26
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+- name: LAN 2
+  type: 1000base-t
+- name: LAN 3
+  type: 1000base-t
+- name: LAN 4
+  type: 1000base-t
+- name: WAN 1
+  type: 1000base-t
