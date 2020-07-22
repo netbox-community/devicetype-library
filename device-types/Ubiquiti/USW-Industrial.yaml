@@ -1,0 +1,33 @@
+manufacturer: Ubiquiti
+model: UniFi Industrial Switch
+slug: unifi-industrial-switch
+part_number: USW-Industrial
+comments: ''
+u_height: 1
+is_full_depth: true
+power-ports:
+- name: Supply
+  type: iec-60320-c14
+  maximum_draw: 450
+  allocated_draw: 20
+interfaces:
+- name: 1 (PoE)
+  type: 1000base-t
+- name: 2 (PoE)
+  type: 1000base-t
+- name: 3 (PoE)
+  type: 1000base-t
+- name: 4 (PoE)
+  type: 1000base-t
+- name: 5 (PoE)
+  type: 1000base-t
+- name: 6 (PoE)
+  type: 1000base-t
+- name: 7 (PoE)
+  type: 1000base-t
+- name: 8 (PoE)
+  type: 1000base-t
+- name: '9'
+  type: 1000base-t
+- name: '10'
+  type: 1000base-t
