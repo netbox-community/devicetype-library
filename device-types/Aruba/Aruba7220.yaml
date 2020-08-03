@@ -9,13 +9,13 @@ interfaces:
   - name: gigabitethernet 0/0/1
     type: 1000base-t
   - name: gigabitethernet 0/0/2
-    type: sfp+
+    type: 10gbase-x-sfpp
   - name: gigabitethernet 0/0/3
-    type: sfp+
+    type: 10gbase-x-sfpp
   - name: gigabitethernet 0/0/4
-    type: sfp+
+    type: 10gbase-x-sfpp
   - name: gigabitethernet 0/0/5
-    type: sfp+
+    type: 10gbase-x-sfpp
 power-ports:
   - name: PEM0
     type: iec-60320-c14
