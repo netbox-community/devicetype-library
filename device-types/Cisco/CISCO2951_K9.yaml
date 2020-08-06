@@ -1,0 +1,21 @@
+manufacturer: Cisco
+model: CISCO2951/K9
+part_number: CISCO2951/K9
+slug: cisco2951-K9
+u_height: 2
+is_full_depth: true
+console_ports:
+  - name: con 0
+	type: rj-45
+power_ports:
+  - name: PS-1
+	type: PWR-2921-51-AC
+	allocated_draw: 70
+	maximum_draw: 340
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
