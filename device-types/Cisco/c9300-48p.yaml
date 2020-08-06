@@ -4,9 +4,10 @@ part_number: C9300-48P
 slug: c9300-48p
 u_height: 1
 is_full_depth: true
-console_ports:
+console-ports:
   - name: con 0
-power_ports:
+    type: rj-45
+power-ports:
   - name: PS-1
 interfaces:
   - name: GigabitEthernet1/0/1

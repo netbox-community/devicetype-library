@@ -3,9 +3,10 @@ model: C9300-48UXM
 slug: c9300-48uxm
 u_height: 1
 is_full_depth: true
-console_ports:
+console-ports:
   - name: con 0
-power_ports:
+    type: rj-45
+power-ports:
   - name: PS-1
     type: iec-60320-c14
     maximum_draw: 1100
