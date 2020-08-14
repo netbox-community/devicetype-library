@@ -1,0 +1,51 @@
+manufacturer: Dell
+model: PowerEdge R640
+slug: poweredge_r640
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Serial
+    type: de-9
+  - name: Front USB 1
+    type: usb-a
+  - name: Front USB 2
+    type: usb-a
+  - name: Front USB 3
+    type: usb-micro-b
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+power-ports:
+  - name: PS 1
+    type: iec-60320-c14
+  - name: PS 2
+    type: iec-60320-c14
+interfaces:
+  - name: GB1
+    type: 1000base-t
+  - name: GB2
+    type: 1000base-t
+  - name: GB3
+    type: 1000base-t
+  - name: GB4
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: HDD0 (SFF)
+  - name: HDD1 (SFF)
+  - name: HDD2 (SFF)
+  - name: HDD3 (SFF)
+  - name: HDD4 (SFF)
+  - name: HDD5 (SFF)
+  - name: HDD6 (SFF)
+  - name: HDD7 (SFF)
+  - name: PCI-E1 (Half)
+  - name: PCI-E2 (Full)
