@@ -1,0 +1,57 @@
+manufacturer: Dell
+model: PowerEdge R720XD LFF
+slug: poweredge_r720xd_lff
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Serial
+    type: de-9
+  - name: Front USB 1
+    type: usb-a
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+power-ports:
+  - name: PS 1
+    type: iec-60320-c14
+  - name: PS 2
+    type: iec-60320-c14
+interfaces:
+  - name: GB1
+    type: 1000base-t
+  - name: GB2
+    type: 1000base-t
+  - name: GB3
+    type: 1000base-t
+  - name: GB4
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: HDD0 (LFF)
+  - name: HDD1 (LFF)
+  - name: HDD2 (LFF)
+  - name: HDD3 (LFF)
+  - name: HDD4 (LFF)
+  - name: HDD5 (LFF)
+  - name: HDD6 (LFF)
+  - name: HDD7 (LFF)
+  - name: HDD8 (LFF)
+  - name: HDD9 (LFF)
+  - name: HDD10 (LFF)
+  - name: HDD11 (LFF)
+  - name: HDD12 (SFF)
+  - name: HDD13 (SFF)
+  - name: PCI-E 1 (Half)
+  - name: PCI-E 2 (Half)
+  - name: PCI-E 3 (Half)
+  - name: PCI-E 4 (Full)
+  - name: PCI-E 5 (Full)
+  - name: PCI-E 6 (Full)

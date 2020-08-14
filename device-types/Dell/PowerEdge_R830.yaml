@@ -1,0 +1,62 @@
+manufacturer: Dell
+model: PowerEdge R830 SFF
+slug: poweredge_r830_sff
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Serial
+    type: de-9
+  - name: Front USB 1
+    type: usb-a
+  - name: Front USB 2
+    type: usb-a
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+power-ports:
+  - name: PS 1
+    type: iec-60320-c14
+  - name: PS 2
+    type: iec-60320-c14
+interfaces:
+  - name: GB1
+    type: 1000base-t
+  - name: GB2
+    type: 1000base-t
+  - name: GB3
+    type: 1000base-t
+  - name: GB4
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: HDD0 (SFF)
+  - name: HDD1 (SFF)
+  - name: HDD2 (SFF)
+  - name: HDD3 (SFF)
+  - name: HDD4 (SFF)
+  - name: HDD5 (SFF)
+  - name: HDD6 (SFF)
+  - name: HDD7 (SFF)
+  - name: HDD8 (SFF)
+  - name: HDD9 (SFF)
+  - name: HDD10 (SFF)
+  - name: HDD11 (SFF)
+  - name: HDD12 (SFF)
+  - name: HDD13 (SFF)
+  - name: HDD14 (SFF)
+  - name: HDD15 (SFF)
+  - name: PCI-E 1 (Full)
+  - name: PCI-E 2 (Full)
+  - name: PCI-E 3 (Half)
+  - name: PCI-E 4 (Half)
+  - name: PCI-E 5 (Half)
+  - name: PCI-E 6 (Full)
+  - name: PCI-E 7 (Full)
