@@ -1,0 +1,29 @@
+manufacturer: Aruba
+model: Aruba3200
+slug: aruba3200
+is_full_depth: no
+u_height: 1
+interfaces:
+  - name: (BASE-T)gigabitethernet 0/0/0
+    type: 1000base-t
+  - name: (BASE-X)gigabitethernet 0/0/0
+    type: 1000base-x-sfp
+  - name: (BASE-T)gigabitethernet 0/0/1
+    type: 1000base-t
+  - name: (BASE-X)gigabitethernet 0/0/1
+    type: 1000base-x-sfp
+  - name: (BASE-T)gigabitethernet 0/0/2
+    type: 1000base-t
+  - name: (BASE-X)gigabitethernet 0/0/2
+    type: 1000base-x-sfp
+  - name: (BASE-T)gigabitethernet 0/0/3
+    type: 1000base-t
+  - name: (BASE-X)gigabitethernet 0/0/3
+    type: 1000base-x-sfp
+power-ports:
+  - name: PEM0
+    type: iec-60320-c14 
+    maximum_draw: 35
+console-ports:
+  - name: Console
+    type: rj-45
