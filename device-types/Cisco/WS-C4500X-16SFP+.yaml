@@ -1,7 +1,7 @@
 manufacturer: Cisco
-model: Catalyst C4500X-32SFP++
-slug: ws-c4500x-32sfp++
-part_number: WS-C4500X-32SFP++
+model: Catalyst C4500X-16SFP+
+slug: ws-c4500x-16sfp_plus
+part_number: WS-C4500X-16SFP+
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -66,53 +66,5 @@ interfaces:
   type: 10gbase-x-sfpp
   mgmt_only: false
 - name: TenGigabitEthernet1/16
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/17
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/18
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/19
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/20
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/21
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/22
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/23
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/24
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/25
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/26
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/27
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/28
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/29
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/30
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/31
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: TenGigabitEthernet1/32
   type: 10gbase-x-sfpp
   mgmt_only: false
