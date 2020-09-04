@@ -7,8 +7,6 @@ comments: '[Juniper QFX10002 Data Sheet](https://www.juniper.net/assets/us/en/lo
 console-ports:
   - name: Console
     type: rj-45
-  - name: Console-SFP
-    type: 1000base-x-sfp
 interfaces:
   - name: em0
     type: 1000base-t
