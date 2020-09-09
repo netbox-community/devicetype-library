@@ -1,17 +1,25 @@
 manufacturer: Cisco
-model: Nexus 9372PX
-part_number: N9K-C9372PX
-slug: n9k-C9372px
+model: Nexus 9372PX-E
+part_number: N9K-C9372PX-E
+slug: n9k-C9372px-e
 u_height: 1
 is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
+  - name: usb0
+    type: usb-mini-b
+  - name: usb1
+    type: usb-mini-b
 power-ports:
-  - name: Power Supply 1
+  - name: PS1
     type: iec-60320-c14
-  - name: Power Supply 2
+    allocated_draw: 210
+    maximum_draw: 537
+  - name: PS2
     type: iec-60320-c14
+    allocated_draw: 210
+    maximum_draw: 537
 interfaces:
   - name: Ethernet1/1
     type: 10gbase-x-sfpp

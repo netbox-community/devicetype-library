@@ -1,18 +1,13 @@
 manufacturer: Cisco
-model: Nexus 9372PX
-part_number: N9K-C9372PX
-slug: n9k-C9372px
+model: Nexus 3172PQ-10GE
+slug: n3k-c3172q-10ge
+part_number: n3k-c3172q-10ge
 u_height: 1
-is_full_depth: true
-console-ports:
-  - name: console
-    type: rj-45
-power-ports:
-  - name: Power Supply 1
-    type: iec-60320-c14
-  - name: Power Supply 2
-    type: iec-60320-c14
+is_full_depth: false
 interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
   - name: Ethernet1/1
     type: 10gbase-x-sfpp
   - name: Ethernet1/2
@@ -78,7 +73,7 @@ interfaces:
   - name: Ethernet1/32
     type: 10gbase-x-sfpp
   - name: Ethernet1/33
-    type: 10gbase-x-sfpp    
+    type: 10gbase-x-sfpp
   - name: Ethernet1/34
     type: 10gbase-x-sfpp
   - name: Ethernet1/35
@@ -121,6 +116,17 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet1/54
     type: 40gbase-x-qsfpp
-  - name: mgmt0
-    type: 1000base-t
-    mgmt_only: true
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 143
+    maximum_draw: 293
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 143
+    maximum_draw: 293
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
