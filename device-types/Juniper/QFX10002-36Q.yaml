@@ -1,0 +1,93 @@
+manufacturer: Juniper
+model: QFX10002-36Q
+slug: qfx10002-36q
+u_height: 2
+is_full_depth: true
+comments: '[Juniper QFX10002 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000531-en.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: em0
+    type: 1000base-t
+    mgmt_only: true
+  - name: em1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: et-0/0/0
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/1
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/2
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/3
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/4
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/5
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/6
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/7
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/8
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/9
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/10
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/11
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/12
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/13
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/14
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/15
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/16
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/17
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/18
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/19
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/20
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/21
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/22
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/23
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/24
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/25
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/26
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/27
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/28
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/29
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/30
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/31
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/32
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/33
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/34
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/35
+    type: 40gbase-x-qsfpp
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
