@@ -1,0 +1,50 @@
+manufacturer: HPE
+model: 2530-8-PoEP Switch
+slug:  2530-8-poep
+part_number: J9780A
+u_height: 1
+is_full_depth: false
+console-ports:
+- name: console
+  type: rj-45
+power-ports:
+- name: PS1
+  type: iec-60320-c14
+  maximum_draw: 76
+interfaces:
+- name: '1'
+  type: 100base-tx
+  mgmt_only: false
+- name: '2'
+  type: 100base-tx
+  mgmt_only: false
+- name: '3'
+  type: 100base-tx
+  mgmt_only: false
+- name: '4'
+  type: 100base-tx
+  mgmt_only: false
+- name: '5'
+  type: 100base-tx
+  mgmt_only: false
+- name: '6'
+  type: 100base-tx
+  mgmt_only: false
+- name: '7'
+  type: 100base-tx
+  mgmt_only: false
+- name: '8'
+  type: 100base-tx
+  mgmt_only: false
+- name: '9-RJ45'
+  type: 1000base-t
+  mgmt_only: false
+- name: '10-RJ45'
+  type: 1000base-t
+  mgmt_only: false
+- name: '9-SFP'
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: '10-SFP'
+  type: 1000base-x-sfp
+  mgmt_only: false
