@@ -4,7 +4,7 @@ slug: px3-5870v
 part_number: PX3-5870V
 u_height: 0
 is_full_depth: false
-comments: Rack PDU, Metered, Remote Switching, ZeroU, 5kVA, 208V, (24) C13 & (6) C19
+comments: Rack PDU, Metered, Remote Switching, ZeroU, 8.6kVA, 208V, (24) C13 & (6) C19
 console-ports:
   - name: Serial
     type: rj-45
@@ -12,7 +12,7 @@ power-ports:
   - name: Inlet1
     type: nema-l6-30p
 power-outlets:
-  - name: 1
+  - name: Outlet1
     type: iec-60320-c19
     power_port: Inlet1
     feed_leg: A
