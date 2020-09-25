@@ -1,0 +1,27 @@
+manufacturer: Juniper
+model: SRX3600
+slug: srx3600
+u_height: 5
+is_full_depth: true
+subdevice_role: parent
+comments: '[Juniper SRX3600 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000267-en.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+device-bays:
+  - name: DeviceBay0
+  - name: DeviceBay1
+  - name: DeviceBay2
+  - name: DeviceBay3
+  - name: DeviceBay4
+  - name: DeviceBay5
+  - name: DeviceBay6
+power-ports:
+  - name: PEM0
+    type: iec-60320-c20
+  - name: PEM1
+    type: iec-60320-c20
+  - name: PEM2
+    type: iec-60320-c20
+  - name: PEM3
+    type: iec-60320-c20
