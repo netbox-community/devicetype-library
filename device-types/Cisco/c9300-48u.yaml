@@ -4,10 +4,12 @@ part_number: C9300-48U
 slug: c9300-48u
 u_height: 1
 is_full_depth: true
-console_ports:
+console-ports:
   - name: con 0
-power_ports:
+    type: rj-45
+power-ports:
   - name: PS-1
+    type: iec-60320-c14
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t

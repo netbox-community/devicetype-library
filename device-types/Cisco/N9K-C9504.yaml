@@ -1,0 +1,27 @@
+manufacturer: Cisco
+model: Nexus 9504
+slug: n9k-c9504
+part_number: N9K-C9504
+u_height: 13
+is_full_depth: true
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 3000
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+  - name: usb1
+    type: usb-mini-b
