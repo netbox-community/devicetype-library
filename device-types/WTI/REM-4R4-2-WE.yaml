@@ -1,13 +1,17 @@
 manufacturer: WTI
-model: REM-4R4-1
-slug: rem-4r4-1
-part_number: REM-4R4-1
+model: REM-4R4-2-WE
+slug: rem-4r4-2-we
+part_number: REM-4R4-2-WE
 is_full_depth: false
 u_height: 1
-# comment: WTI REM 1U, 1 ethernet, 4 outlet 15A 120V, 4 serial ports, 2 USB host ports
+# comment: WTI REM 1U, 2 ethernet, 4 outlet 15A 120V, 4 serial ports, 2 USB host ports, World Cell Modem
 interfaces:
   - name: ETH0
     type: 1000base-t
+  - name: ETH1
+    type: 1000base-t
+  - name: PPP0
+    type: lte    
 console-ports:
   - name: Console
     type: usb-mini-b
@@ -31,14 +35,14 @@ power-ports:
     allocated_draw: 5
 power-outlets:
   - name: Outlet_A1
-    type: nema-5-15r
+    type: iec-60320-c13
     power_port: PS1
   - name: Outlet_A2
-    type: nema-5-15r
+    type: iec-60320-c13
     power_port: PS1
   - name: Outlet_A3
-    type: nema-5-15r
+    type: iec-60320-c13
     power_port: PS1
   - name: Outlet_A4
-    type: nema-5-15r
+    type: iec-60320-c13
     power_port: PS1
