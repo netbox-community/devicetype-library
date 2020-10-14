@@ -1,0 +1,20 @@
+manufacturer: Cisco
+model: VG202XM
+slug: vg202xm
+part_number: VG202XM
+u_height: 1
+is_full_depth: false
+console-ports:
+- name: Con
+  type: rj-45
+power-ports:
+- name: PSU-1
+  type: iec-60320-c14
+  maximum_draw: 30
+interfaces:
+- name: FastEthernet0/0
+  type: 100base-tx
+  mgmt_only: false
+- name: FastEthernet0/1
+  type: 100base-tx
+  mgmt_only: false

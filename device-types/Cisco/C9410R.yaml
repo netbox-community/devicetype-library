@@ -1,0 +1,20 @@
+manufacturer: Cisco
+model: Catalyst 9410R
+slug: c9410r
+part_number: C9410R
+u_height: 13
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 3190
+  - name: PS-2
+    type: iec-60320-c14
+    maximum_draw: 3190
+interfaces:
+- name: GigabitEthernet0/0
+  type: 1000base-t
+  mgmt_only: true
