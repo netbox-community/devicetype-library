@@ -1,14 +1,12 @@
 manufacturer: Palo Alto
-model: PA-5050
-slug: pa-5050
-part_number: PA-5050
-u_height: 2
-is_full_depth: true
-comments: '[PA-5000 Series Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-5000-series-specsheet)'
+model: PA-220
+slug: pa-220
+part_number: PA-220
+u_height: 1
+is_full_depth: false
+comments: '[PA-3020 Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
 power-ports:
 - name: PS1
-  type: iec-60320-c14
-- name: PS2
   type: iec-60320-c14
 console-ports:
 - name: console
@@ -17,9 +15,9 @@ interfaces:
 - name: management
   type: 1000base-t
   mgmt_only: true
-- name: dedicated-ha1
+- name: ha1
   type: 1000base-t
-- name: dedicated-ha2
+- name: ha2
   type: 1000base-t
 - name: ethernet1/1
   type: 1000base-t
@@ -61,13 +59,5 @@ interfaces:
   type: 1000base-x-sfp
 - name: ethernet1/20
   type: 1000base-x-sfp
-- name: ethernet1/21
-  type: 10gbase-x-sfpp
-- name: ethernet1/22
-  type: 10gbase-x-sfpp
-- name: ethernet1/23
-  type: 10gbase-x-sfpp
-- name: ethernet1/24
-  type: 10gbase-x-sfpp
 - name: loopback
   type: virtual
