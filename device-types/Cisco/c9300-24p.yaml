@@ -8,7 +8,9 @@ console-ports:
   - name: con 0
     type: rj-45
 power-ports:
-  - name: PS-1
+  - name: PS-A
+    type: iec-60320-c14
+  - name: PS-B
     type: iec-60320-c14
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -59,6 +61,6 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/24
     type: 1000base-t
-  - name: GigabitEthernet0
+  - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
