@@ -36,6 +36,6 @@ def test_dupes(file_path):
     slug = definition.get('slug')
 
     if KNOWN_MODELS.get(slug, None) is not None:
-        pytest.fail(f"{file_path} is a duplicate device_type for {slug}")
+        pytest.fail(f"{file_path} is a duplicate device_type for {slug}", False)
 
     KNOWN_MODELS[slug] = definition.get('model')
