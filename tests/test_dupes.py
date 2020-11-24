@@ -39,3 +39,23 @@ def test_dupes(file_path):
         pytest.fail(f"{file_path} is a duplicate device_type for {slug}", False)
 
     KNOWN_MODELS[slug] = definition.get('model')
+    
+    def test_components(type):
+        KNOWN = []
+        components = definition.get(type, None)
+        
+        if components is not None:
+            for idx,component in enumerate(components):
+                name = component.get('name')
+                if name in KNOWN:
+                    pytest.fail(f'Duplicate {type} "{name}" in {file_path}', False)
+                KNOWN.append(name)
+    
+    test_components('interfaces')
+    test_components('device-bays')
+    test_components('front-ports')
+    test_components('rear-ports')
+    test_components('power-ports')
+    test_components('power-outlets')
+    test_components('console-ports')
+    test_components('console-server-ports')
