@@ -1,10 +1,9 @@
 manufacturer: Opengear
-model: IM7248-2-DAC-US
-slug: im7248-2-dac-us
-part_number: IM7248-2-DAC-US
+model: IM4248-2
+slug: im4248-2
+part_number: IM4248-2
 u_height: 1
 is_full_depth: false
-comments: 48 serial software selectable, dual AC, Dual 1 GbE Ethernet or fiber SFP, 16GB flash, v.92 modem, - US Power Cord
 console-ports:
   - name: Console
     type: rj-45
@@ -108,17 +107,10 @@ console-server-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    allocated_draw: 30
-  - name: PS2
-    type: iec-60320-c14
-    allocated_draw: 30
 interfaces:
   - name: eth0
     type: 1000base-t
     mgmt_only: true
   - name: eth1
     type: 1000base-t
-    mgmt_only: true
-  - name: wlan0
-    type: ieee802.11n
     mgmt_only: true
