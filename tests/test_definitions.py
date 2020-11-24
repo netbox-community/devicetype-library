@@ -51,4 +51,4 @@ def test_definition(file_path):
     try:
         validate(definition, schema=schema)
     except ValidationError as e:
-        pytest.fail(f"{file_path} failed validation: {e}")
+        pytest.fail(f"{file_path} failed validation: {e}", False)
