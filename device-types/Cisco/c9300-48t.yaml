@@ -1,7 +1,7 @@
 manufacturer: Cisco
-model: C9300-48U
-part_number: C9300-48U
-slug: c9300-48u
+model: C9300-48T
+part_number: C9300-48T
+slug: c9300-48t
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -10,8 +10,12 @@ console-ports:
 power-ports:
   - name: PS-A
     type: iec-60320-c14
+    maximum_draw: 103
+    allocated_draw: 97
   - name: PS-B
     type: iec-60320-c14
+    maximum_draw: 103
+    allocated_draw: 97
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
