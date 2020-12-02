@@ -1,0 +1,28 @@
+manufacturer: Microsoft
+model: StorSimple 8600 EBOD Enclosure
+slug: microsoft_storsimple_8600_ebod
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Controller 0 Serial
+    type: other
+  - name: Controller 1 Serial
+    type: other
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Controller 0 SAS A
+    type: other
+  - name: Controller 0 SAS B
+    type: other
+  - name: Controller 0 SAS C
+    type: other
+  - name: Controller 1 SAS A
+    type: other
+  - name: Controller 1 SAS B
+    type: other
+  - name: Controller 1 SAS C
+    type: other

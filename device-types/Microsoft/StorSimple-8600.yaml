@@ -1,0 +1,52 @@
+manufacturer: Microsoft
+model: StorSimple 8600
+slug: microsoft_storsimple_8600
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Controller 0 Serial
+    type: other
+  - name: Controller 1 Serial
+    type: other
+  - name: Controller 0 USB 0
+    type: usb-a
+  - name: Controller 0 USB 1
+    type: usb-a
+  - name: Controller 1 USB 0
+    type: usb-a
+  - name: Controller 1 USB 1
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Controller 0 DATA 0
+    type: 1000base-t
+  - name: Controller 0 DATA 1
+    type: 1000base-t
+  - name: Controller 0 DATA 2
+    type: 10gbase-x-sfpp
+  - name: Controller 0 DATA 3
+    type: 10gbase-x-sfpp
+  - name: Controller 0 DATA 4
+    type: 1000base-t
+  - name: Controller 0 DATA 5
+    type: 1000base-t
+  - name: Controller 0 EBOD
+    type: other
+  - name: Controller 1 DATA 0
+    type: 1000base-t
+  - name: Controller 1 DATA 1
+    type: 1000base-t
+  - name: Controller 1 DATA 2
+    type: 10gbase-x-sfpp
+  - name: Controller 1 DATA 3
+    type: 10gbase-x-sfpp
+  - name: Controller 1 DATA 4
+    type: 1000base-t
+  - name: Controller 1 DATA 5
+    type: 1000base-t
+  - name: Controller 1 EBOD
+    type: other
