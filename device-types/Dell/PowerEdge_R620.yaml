@@ -1,7 +1,7 @@
 manufacturer: Dell
-model: PowerEdge R720
-slug: dell_poweredge_r720
-u_height: 2
+model: PowerEdge R620
+slug: dell_poweredge_r620
+u_height: 1
 is_full_depth: true
 console-ports:
   - name: Serial
@@ -34,6 +34,6 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 4
     type: 1000base-t
-  - name: IDRAC
+  - name: iDRAC
     type: 1000base-t
     mgmt_only: true
