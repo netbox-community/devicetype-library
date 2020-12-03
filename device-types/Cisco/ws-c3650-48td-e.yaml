@@ -1,7 +1,7 @@
 manufacturer: Cisco
-model: Catalyst 3650-48FD-L
-slug: ws-c3650-48fd-l
-part_number: WS-C3650-48FD-L
+model: Catalyst 3650-48TD-E
+slug: ws-c3650-48td-e
+part_number: WS-C3650-48TD-E
 is_full_depth: false
 u_height: 1
 interfaces:
@@ -116,9 +116,7 @@ console-ports:
   - name: con0
     type: rj-45
 power-ports:
-  - name: PSU0
+  - name: PS-A
     type: iec-60320-c14
-    maximum_draw: 1025
-  - name: PSU1
+  - name: PS-B
     type: iec-60320-c14
-    maximum_draw: 1025
