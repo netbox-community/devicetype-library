@@ -1,8 +1,8 @@
-manufacturer: Extreme
-model: BR-SLX-9740-40C
-slug: br-slx-9740-40c
-part_number: BR-SLX-9740-40C
-u_height: 1
+manufacturer: Extreme Networks
+model: BR-SLX-9740-80C
+slug: br-slx-9740-80c
+part_number: BR-SLX-9740-80C
+u_height: 2
 is_full_depth: false
 comments: ''
 console-ports:
@@ -13,6 +13,12 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 1600
   - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PS3
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PS4
     type: iec-60320-c14
     maximum_draw: 1600
 interfaces:
@@ -95,6 +101,86 @@ interfaces:
   - name: Ethernet 0/39
     type: 100gbase-x-qsfp28
   - name: Ethernet 0/40
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/41
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/42
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/43
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/44
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/45
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/46
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/47
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/48
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/49
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/50
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/51
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/52
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/53
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/54
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/55
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/56
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/57
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/58
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/59
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/60
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/61
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/62
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/63
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/64
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/65
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/66
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/67
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/68
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/69
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/70
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/71
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/72
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/73
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/74
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/75
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/76
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/77
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/78
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/79
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/80
     type: 100gbase-x-qsfp28
   - name: Management0
     type: 1000base-t
