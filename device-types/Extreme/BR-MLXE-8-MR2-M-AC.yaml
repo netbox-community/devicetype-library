@@ -1,0 +1,50 @@
+manufacturer: Extreme Networks
+model: BR-MLXE-8-MR2-AC
+slug: br-mlxe-8-mr2
+part_number: BR-MLXE-8-MR2-AC
+u_height: 7
+is_full_depth: true
+subdevice_role: parent
+comments: ''
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 1800
+    allocated_draw: null
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 1800
+    allocated_draw: null
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 1800
+    allocated_draw: null
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 1800
+    allocated_draw: null
+device-bays:
+  - name: F1
+  - name: F2
+  - name: F3
+  - name: M1
+  - name: M2
+  - name: PSU1
+  - name: PSU2
+  - name: PSU3
+  - name: PSU4
+  - name: S1
+  - name: S2
+  - name: S3
+  - name: S4
+  - name: S5
+  - name: S6
+  - name: S7
+  - name: S8
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Management 1
+    type: 1000base-t
+    mgmt_only: true
