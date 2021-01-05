@@ -14,7 +14,7 @@ power-ports:
     maximum_draw: 635
     allocated_draw: 360
   - name: PS2
-    type: iec-60320-c14 
+    type: iec-60320-c14
     maximum_draw: 635
     allocated_draw: 360
 interfaces:
@@ -115,9 +115,6 @@ interfaces:
   type: 10gbase-x-sfpp
   mgmt_only: false
 - name: Ethernet 1/1/33
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Ethernet 1/1/34
   type: 10gbase-x-sfpp
   mgmt_only: false
 - name: Ethernet 1/1/34
