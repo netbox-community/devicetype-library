@@ -7,21 +7,21 @@ comments: |
 
   Dimensions: 484 x 44 x 164 mm (19.06 x 1.73 x 6.46")
 
-  (*, see datasheet) The USG‑PRO‑4 WAN port, as a result of being a combination SFP/GigE port, is a pure 1 Gbps port – it is incapable of both 10 Mbps and 100 Mbps FDX/HDX settings
+  (*, see datasheet) The USG‑PRO‑4 WAN port, as a result of being a combination SFP/GigE port, is a pure 1Gbps port – it is incapable of both 10Mbps and 100Mbps FDX/HDX settings
 u_height: 1
 is_full_depth: false
 interfaces:
-  - name: LAN1
+  - name: LAN 1
     type: 1000base-t
-  - name: LAN2
+  - name: LAN 2
     type: 1000base-t
-  - name: WAN1
+  - name: WAN 1
     type: 1000base-t
-  - name: WAN2
+  - name: WAN 2
     type: 1000base-t
-  - name: SFP1
+  - name: SFP 1
     type: 1000base-x-sfp
-  - name: SFP2
+  - name: SFP 2
     type: 1000base-x-sfp
 console-ports:
   - name: Console

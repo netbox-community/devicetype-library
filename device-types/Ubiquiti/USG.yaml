@@ -9,11 +9,11 @@ comments: |
 u_height: 0
 is_full_depth: false
 interfaces:
-  - name: WAN 1
+  - name: eth0 (WAN 1)
     type: 1000base-t
-  - name: LAN 1
+  - name: eth1 (LAN 1)
     type: 1000base-t
-  - name: WAN 2/LAN 2
+  - name: eth2 (WAN 2/LAN 2)
     type: 1000base-t
 console-ports:
   - name: Console
