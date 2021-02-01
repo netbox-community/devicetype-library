@@ -1,0 +1,25 @@
+manufacturer: Ubiquiti
+model: UniFi Security Gateway 3P
+slug: unifi-security-gateway-3p
+part_number: USG
+comments: |
+  UniFi Security Gateway 3P, Fanless, external PSU, (3) Gigabit
+
+  Dimensions: 484 x 44 x 164 mm (19.06 x 1.73 x 6.46")
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: eth0 (WAN 1)
+    type: 1000base-t
+  - name: eth1 (LAN 1)
+    type: 1000base-t
+  - name: eth2 (WAN 2/LAN 2)
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: 12VDC (external)
+    # TODO: There is no proper plug connection type defined
+    type: iec-60320-c20
+    maximum_draw: 7
