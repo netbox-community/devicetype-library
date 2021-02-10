@@ -1,0 +1,19 @@
+manufacturer: Ubiquiti
+model: UAP-FlexHD
+slug: uap-flexhd
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Outdoor**  \r\n**Radio**  \r\n- a/b/g/n  \r\n- ac-wave2 (Wifi 5)  \r\n\
+  **Antenna**  \r\n- not published  \r\n*2,4GHz*  \r\n- 1,6 dBi  \r\n- 23 dBm  \r\n\
+  - 2x2 MIMO  \r\n*5GHz*  \r\n- 4 dBi  \r\n- 26 dBm  \r\n- 4x4 MIMO  \r\n**PoE** \
+  \ \r\n- at \r\n- 20W  \r\n**Secondary Port**  \r\nonly Data Passthrough  \r\n**Size**\
+  \  \r\n\xD8220mm  \r\ndepth 48,1mm"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true

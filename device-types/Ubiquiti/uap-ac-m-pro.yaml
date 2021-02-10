@@ -1,0 +1,21 @@
+manufacturer: Ubiquiti
+model: UAP-AC-M-PRO
+slug: uap-ac-m-pro
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Outdoor AP**  \r\n**Radio**  \r\n- a/b/g/n  \r\n- ac (Wifi 5)  \r\n**Antenna**\
+  \  \r\n- 3x Dual-Band Omni Antenna  \r\n- 3x3 MIMO  \r\n*2,4GHz*  \r\n- 8 dBi  \r\
+  \n- 22 dBm  \r\n*5GHz*  \r\n- 8 dBi  \r\n- 22 dBm  \r\n**PoE**  \r\n- af/at  \r\n\
+  - 95W  \r\n**Size**  \r\nhight 343,2mm  \r\nwide 181,2mm  \r\ndepth 60,2mm"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true

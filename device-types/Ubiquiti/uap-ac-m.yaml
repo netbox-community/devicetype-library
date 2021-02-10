@@ -1,0 +1,19 @@
+manufacturer: Ubiquiti
+model: UAP-AC-M
+slug: uap-ac-m
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Outdoor AP**  \r\n**Radio**  \r\n- a/b/g/n  \r\n- ac (Wifi 5)  \r\n**Antenna**\
+  \  \r\n- 2x Dual-Band Omni Antenna  \r\n- external / replaceable  \r\n- 2x2 MIMO\
+  \  \r\n*2,4GHz*  \r\n- 3 dBi  \r\n- 20 dBm  \r\n*5GHz*  \r\n- 4 dBi  \r\n- 20 dBm\
+  \  \r\n**PoE**  \r\n- 24V/af/at  \r\n- 8,5W  \r\n**Size**  \r\nhight 353mm  \r\n\
+  wide 46mm  \r\ndepth 34,4mm"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true

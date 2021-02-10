@@ -1,0 +1,18 @@
+manufacturer: Ubiquiti
+model: UAP-AC-LR
+slug: uap-ac-lr
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Radio**  \r\n- a/b/g/n  \r\n- ac (Wifi 5)  \r\n**Antenna**  \r\n- 1x\
+  \ Dual-Band Antenna, Tri-Polarity  \r\n- 2x2 MIMO  \r\n*2,4GHz*  \r\n- 3 dBi  \r\
+  \n- 24 dBm  \r\n*5GHz*  \r\n- 3 dBi  \r\n- 22 dBm  \r\n**PoE**  \r\n- 24V/af  \r\
+  \n- 6,5W  \r\n**Size**  \r\n\xD8175,7mm  \r\ndepth 43,2mm"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true

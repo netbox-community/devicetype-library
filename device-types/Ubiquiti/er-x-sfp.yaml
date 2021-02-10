@@ -1,0 +1,35 @@
+manufacturer: Ubiquiti
+model: EdgeRouter X SFP
+slug: er-x-sfp
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: "**PoE**  \r\n- 24V Passiv  \r\n- PoE Ports:  \r\n- eth0-4"
+power-ports:
+- name: 24VDC
+  type: iec-60320-c6
+  maximum_draw: 65
+  allocated_draw: 5
+interfaces:
+- name: br0
+  type: virtual
+  mgmt_only: false
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+- name: eth3
+  type: 1000base-t
+  mgmt_only: false
+- name: eth4
+  type: 1000base-t
+  mgmt_only: false
+- name: eth5 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false

@@ -1,0 +1,26 @@
+manufacturer: Ubiquiti
+model: UAP-AC-IW-Pro
+slug: uap-ac-iw-pro
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Radio**  \r\n- a/b/g/n  \r\n- ac (Wifi 5)  \r\n**Antenna**  \r\n- 1x\
+  \ Dual-Band Antenna, Single-Polarity  \r\n- 1x1 MIMO  \r\n*2,4GHz*  \r\n- 5 dBi\
+  \  \r\n- 22 dBm  \r\n*5GHz*  \r\n- 6,5 dBi  \r\n- 22 dBm  \r\n**PoE**  \r\n- af/at\
+  \  \r\n- 10W  \r\n- PoE Passthrough needs at/PoE+ input  \r\n**Secondary Ports**\
+  \  \r\nPoE Out & Data + Data OUT  \r\n**Size**  \r\nhight 139,7mm  \r\nwide 86,7mm\
+  \  \r\ndepth 25,75mm"
+interfaces:
+- name: DATA
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: PoE IN + DATA
+  type: 1000base-t
+  mgmt_only: false
+- name: PoE OUT + Data
+  type: 1000base-t
+  mgmt_only: false

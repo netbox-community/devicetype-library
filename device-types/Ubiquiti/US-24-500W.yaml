@@ -1,70 +1,93 @@
 manufacturer: Ubiquiti
-model: UniFi Switch 24 PoE 500W Gen1
-slug: unifi-switch-24-poe-500w-gen1
+model: Unifi Switch 24 500W
+slug: us-24-500w
 part_number: US-24-500W
-comments: |
-  UniFi Switch 24 PoE 500W (30W + max. 470W PoE), Gen1, (24) Gigabit PoE+ IEEE 802.3af/at and 24V Passive PoE, (2) SFP
-
-  Dimensions: 485 x 43.7 x 285.4 mm (19.09 x 1.72 x 11.24")
 u_height: 1
-is_full_depth: true
-interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: Port 9 (PoE)
-    type: 1000base-t
-  - name: Port 10 (PoE)
-    type: 1000base-t
-  - name: Port 11 (PoE)
-    type: 1000base-t
-  - name: Port 12 (PoE)
-    type: 1000base-t
-  - name: Port 13 (PoE)
-    type: 1000base-t
-  - name: Port 14 (PoE)
-    type: 1000base-t
-  - name: Port 15 (PoE)
-    type: 1000base-t
-  - name: Port 16 (PoE)
-    type: 1000base-t
-  - name: Port 17 (PoE)
-    type: 1000base-t
-  - name: Port 18 (PoE)
-    type: 1000base-t
-  - name: Port 19 (PoE)
-    type: 1000base-t
-  - name: Port 20 (PoE)
-    type: 1000base-t
-  - name: Port 21 (PoE)
-    type: 1000base-t
-  - name: Port 22 (PoE)
-    type: 1000base-t
-  - name: Port 23 (PoE)
-    type: 1000base-t
-  - name: Port 24 (PoE)
-    type: 1000base-t
-  - name: SFP 1
-    type: 1000base-x-sfp
-  - name: SFP 2
-    type: 1000base-x-sfp
+is_full_depth: false
+comments: '[Unifi Switch 24 500W](https://www.ui.com/unifi-switching/unifi-switch-poe/)'
 console-ports:
-  - name: Console
-    type: rj-45
+- name: Console
+  type: rj-45
 power-ports:
-  - name: Input
-    type: iec-60320-c14
-    maximum_draw: 500
+- name: Power
+  type: iec-60320-c14
+  maximum_draw: 500
+interfaces:
+- name: interface 0/1
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/2
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/3
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/4
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/5
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/6
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/7
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/8
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/9
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/10
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/11
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/12
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/13
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/14
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/15
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/16
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/17
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/18
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/19
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/20
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/21
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/22
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/23
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/24
+  type: 1000base-t
+  mgmt_only: false
+- name: interface 0/25
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: interface 0/26
+  type: 1000base-x-sfp
+  mgmt_only: false
