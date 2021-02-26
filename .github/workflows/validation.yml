@@ -22,4 +22,4 @@ jobs:
       - name: Run tests
         run: pytest --tb=line -v
       - name: lint YAML files
-        run: yamlint --format parsable --strict -c=tests/yamllint.yaml .
+        run: yamllint --format parsable --strict -c=tests/yamllint.yaml .
