@@ -22,4 +22,4 @@ jobs:
       - name: Run Device-Type Tests
         run: pytest --tb=line -v
       - name: Lint YAML files
-        run: yamllint --format parsable --strict -c=tests/yamllint.yaml . -v
+        run: yamllint --format parsable --strict -c=tests/yamllint.yaml .
