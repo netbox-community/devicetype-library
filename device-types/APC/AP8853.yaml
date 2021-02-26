@@ -1,3 +1,4 @@
+---
 manufacturer: APC
 model: AP8853
 slug: ap8853
@@ -119,7 +120,7 @@ power-outlets:
   - name: Power Outlet 27
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B 
+    feed_leg: B
   - name: Power Outlet 28
     type: iec-60320-c19
     power_port: Power Port 1
@@ -147,11 +148,11 @@ power-outlets:
   - name: Power Outlet 34
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B     
+    feed_leg: B
   - name: Power Outlet 35
     type: iec-60320-c19
     power_port: Power Port 1
-    feed_leg: B    
+    feed_leg: B
   - name: Power Outlet 36
     type: iec-60320-c13
     power_port: Power Port 1
@@ -175,11 +176,11 @@ power-outlets:
   - name: Power Outlet 41
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B     
+    feed_leg: B
   - name: Power Outlet 42
     type: iec-60320-c19
     power_port: Power Port 1
-    feed_leg: B      
+    feed_leg: B
 interfaces:
   - name: Network
     type: 100base-tx

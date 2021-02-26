@@ -1,14 +1,15 @@
+---
 manufacturer: Aruba
-model: 2920-24G
-slug:  2920-24g
-part_number: J9726A
+model: 2930M-24G
+slug: 2930M-24G
+part_number: JL319A
 u_height: 1
 is_full_depth: false
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 165
-    allocated_draw: 58
+    maximum_draw: 49
+    allocated_draw: 34
 console-ports:
   - name: Console
     type: rj-45
@@ -58,6 +59,7 @@ interfaces:
     type: 1000base-t
   - name: '20'
     type: 1000base-t
+ ## Dual personality ports option 1
   - name: '21'
     type: 1000base-t
   - name: '22'
@@ -66,3 +68,12 @@ interfaces:
     type: 1000base-t
   - name: '24'
     type: 1000base-t
+ ## Dual personality ports option 2
+ ## - name: '21'
+ ##   type: 1000base-x-sfp
+ ## - name: '22'
+ ##   type: 1000base-x-sfp
+ ## - name: '23'
+ ##   type: 1000base-x-sfp
+ ## - name: '24'
+ ##   type: 1000base-x-sfp
