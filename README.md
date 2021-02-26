@@ -97,9 +97,12 @@ The available fields for each type of component are listed below.
 
 There are two ways this repo focuses on keeping quality device-type definitions:
 
-- GitHub Actions - Automatically run before a PR can be merged.
-- Pre-Commit Checks - Optional for helping to identify simple issues before committing
+- Pre-Commit Checks - Optional for helping to identify simple issues before committing. (trailing-whitespace, end-of-file-fixer, check-yaml, yamlfmt, yamllint)
+  - [Install pre-commit](https://pre-commit.com/#install) (or just use the requirements.txt file)
   - To install the pre-commit script `pre-commit install`
   - To run the pre-commit script on changed files `pre-commit run`
   - To run the pre-commit script on all files `pre-commit run --all`
   - To uninstall the pre-commit script `pre-commit uninstall`
+  - Learn more about [pre-commit](https://pre-commit.com/)
+- GitHub Actions - Automatically run before a PR can be merged.  Repeats yamllint & validates against NetBox Device-Type Schema.
+
