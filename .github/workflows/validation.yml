@@ -21,5 +21,14 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run Device-Type Tests
         run: pytest --tb=line -v
-      - name: Lint YAML files
-        run: yamllint --format parsable --strict -c=tests/yamllint.yaml .
+      - name: Lint Code Base
+        uses: github/super-linter@v3
+        env:
+          DEFAULT_BRANCH: develop
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINTER_RULES_PATH: /
+          VALIDATE_ALL_CODEBASE: false
+          FILTER_REGEX_EXCLUDE: (.*/)?(LICENSE|configuration/.*)
+
+          #MARKDOWN_CONFIG_FILE: .markdown-lint.yaml
+          YAML_CONFIG_FILE: tests/yamllint.yaml
