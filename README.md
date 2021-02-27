@@ -5,9 +5,11 @@ version 2.7 or later. It contains a set of device type definitions expressed in 
 file represents a discrete physical device type (e.g. make and model). These definitions can be loaded into NetBox to
 obviate the need to create device types and their associated components manually.
 
-If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before submitting content.
+If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before 
+submitting content.
 
-If you would like to automate the import of these devicetype template files, there is a community based python script that will check for duplicates, allow you to only import specific vendors, etc. available here: [minitriga/Netbox-Dvice-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import).
+If you would like to automate the import of these devicetype template files, there is a community based python script 
+that will check for duplicates, allow you to only import specific vendors, etc. available here [minitriga/Netbox-Dvice-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import).
 
 # Device Type Definitions
 
