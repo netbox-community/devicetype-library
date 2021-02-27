@@ -1,10 +1,11 @@
-manufacturer: Cisco                                                          
-model: CBS350-24P-4G                                                 
-slug: CBS350-24P-4G                                                      
+---
+manufacturer: Cisco
+model: CBS350-24P-4G
+slug: CBS350-24P-4G
 part_number: WCBS350-24P-4G
 comments: https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html
-is_full_depth: false                                       
-u_height: 1                                                                  
+is_full_depth: false
+u_height: 1
 interfaces:
   - name: GigabitEthernet1
     type: 1000base-t
@@ -68,7 +69,7 @@ console-ports:
   - name: con0
     type: rj-45
   - name: con1
-    type: usb-mini-b 
+    type: usb-mini-b
 power-ports:
   - name: PSU0
     type: iec-60320-c14

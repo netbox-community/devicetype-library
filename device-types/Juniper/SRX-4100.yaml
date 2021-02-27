@@ -1,7 +1,8 @@
+---
 manufacturer: Juniper
 model: SRX4100
 slug: srx4100
-is_full_depth: True
+is_full_depth: true
 part_number: SRX4100-SYS-JB-AC
 interfaces:
   - name: fxp0
@@ -22,7 +23,7 @@ interfaces:
   - name: xe-0/0/6
     type: 10gbase-x-sfpp
   - name: xe-0/0/7
-    type: 10gbase-x-sfpp           
+    type: 10gbase-x-sfpp
 power-ports:
   - name: PSU0
     type: iec-60320-c14

@@ -1,3 +1,4 @@
+---
 manufacturer: Ubiquiti
 model: EdgeRouter X
 slug: er-x
@@ -5,25 +6,25 @@ part_number: ER-X
 u_height: 1
 is_full_depth: false
 power-ports:
-- name: 12V Power Supply
-  type: ita-g
-  maximum_draw: 5
+  - name: 12V Power Supply
+    type: ita-g
+    maximum_draw: 5
 interfaces:
-- name: eth0
-  type: 1000base-t
-  mgmt_only: false
-- name: eth1
-  type: 1000base-t
-  mgmt_only: false
-- name: eth2
-  type: 1000base-t
-  mgmt_only: false
-- name: eth3
-  type: 1000base-t
-  mgmt_only: false
-- name: eth4
-  type: 1000base-t
-  mgmt_only: false
-- name: switch0
-  type: virtual
-  mgmt_only: false
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth3
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth4
+    type: 1000base-t
+    mgmt_only: false
+  - name: switch0
+    type: virtual
+    mgmt_only: false

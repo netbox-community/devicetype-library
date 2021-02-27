@@ -1,7 +1,8 @@
+---
 manufacturer: Aruba
 model: Aruba3400
 slug: aruba3400
-is_full_depth: no
+is_full_depth: false
 u_height: 1
 interfaces:
   - name: (BASE-X)gigabitethernet 0/0/0
@@ -18,7 +19,7 @@ interfaces:
     #comment: Combo port either 1000base-x-sfp or 1000base-t
 power-ports:
   - name: PEM0
-    type: iec-60320-c14 
+    type: iec-60320-c14
     maximum_draw: 45
 console-ports:
   - name: Console
