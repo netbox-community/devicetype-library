@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: MS210-48LP
 slug: ms210-48lp
@@ -5,10 +6,10 @@ part_number: ms210-48lp-hw
 u_height: 1
 is_full_depth: false
 power-ports:
-- name: Slot 1
-  type: iec-60320-c14
-  maximum_draw: 490
-  allocated_draw: 53
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 490
+    allocated_draw: 53
 console-ports:
   - name: Management
     type: rj-45

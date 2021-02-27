@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: MX250
 slug: mx250
@@ -6,96 +7,96 @@ u_height: 1
 is_full_depth: true
 comments: Meraki MX250
 power-ports:
-- name: Slot 1
-  type: iec-60320-c14
-  maximum_draw: 190
-  allocated_draw: 105
-- name: Slot 2
-  type: iec-60320-c14
-  maximum_draw: 190
-  allocated_draw: 105
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 190
+    allocated_draw: 105
+  - name: Slot 2
+    type: iec-60320-c14
+    maximum_draw: 190
+    allocated_draw: 105
 console-ports:
   - name: Management
     type: rj-45
 interfaces:
-- name: USB
-  type: lte
-  mgmt_only: false
-- name: Internet 1
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Internet 2
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 3
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 4
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 5
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 6
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 7
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 8
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 9
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 10
-  type: 1000base-t
-  mgmt_only: false
-- name: Port 11
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 12
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 13
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 14
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 15
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 16
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 17
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 18
-  type: 1000base-x-sfp
-  mgmt_only: false
-- name: Port 19
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 20
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 21
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 22
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 23
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 24
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 25
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-- name: Port 26
-  type: 10gbase-x-sfpp
-  mgmt_only: false
+  - name: USB
+    type: lte
+    mgmt_only: false
+  - name: Internet 1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Internet 2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 4
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 5
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 6
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 7
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 8
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 9
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 10
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 11
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 12
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 13
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 14
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 15
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 16
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 17
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 18
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: Port 19
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 20
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 21
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 22
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 23
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 24
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 25
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 26
+    type: 10gbase-x-sfpp
+    mgmt_only: false

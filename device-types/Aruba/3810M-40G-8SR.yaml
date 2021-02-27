@@ -1,14 +1,19 @@
+---
 manufacturer: Aruba
-model: 2920-48G-PoE+
-slug:  2920-48g-poep
-part_number: J9729A
+model: 3810M-40G-8SR
+slug: 3810M-40G-8SR
+part_number: JL076A
 u_height: 1
 is_full_depth: false
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 575
-    allocated_draw: 487
+    maximum_draw: 190
+    allocated_draw: 158
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 190
+    allocated_draw: 158
 console-ports:
   - name: Console
     type: rj-45
@@ -18,99 +23,99 @@ interfaces:
   - name: Management
     type: 1000base-t
     mgmt_only: true
-  - name: '1'
+  - name: 1/1
+    type: 10gbase-x-sfpp
+  - name: 1/2
+    type: 10gbase-x-sfpp
+  - name: 1/3
+    type: 10gbase-x-sfpp
+  - name: 1/4
+    type: 10gbase-x-sfpp
+  - name: 1/5
+    type: 10gbase-x-sfpp
+  - name: 1/6
+    type: 10gbase-x-sfpp
+  - name: 1/7
+    type: 10gbase-x-sfpp
+  - name: 1/8
+    type: 10gbase-x-sfpp
+  - name: 1/9
     type: 1000base-t
-  - name: '2'
+  - name: 1/10
     type: 1000base-t
-  - name: '3'
+  - name: 1/11
     type: 1000base-t
-  - name: '4'
+  - name: 1/12
     type: 1000base-t
-  - name: '5'
+  - name: 1/13
     type: 1000base-t
-  - name: '6'
+  - name: 1/14
     type: 1000base-t
-  - name: '7'
+  - name: 1/15
     type: 1000base-t
-  - name: '8'
+  - name: 1/16
     type: 1000base-t
-  - name: '9'
+  - name: 1/17
     type: 1000base-t
-  - name: '10'
+  - name: 1/18
     type: 1000base-t
-  - name: '11'
+  - name: 1/19
     type: 1000base-t
-  - name: '12'
+  - name: 1/20
     type: 1000base-t
-  - name: '13'
+  - name: 1/21
     type: 1000base-t
-  - name: '14'
+  - name: 1/22
     type: 1000base-t
-  - name: '15'
+  - name: 1/23
     type: 1000base-t
-  - name: '16'
+  - name: 1/24
     type: 1000base-t
-  - name: '17'
+  - name: 1/25
     type: 1000base-t
-  - name: '18'
+  - name: 1/26
     type: 1000base-t
-  - name: '19'
+  - name: 1/27
     type: 1000base-t
-  - name: '20'
+  - name: 1/28
     type: 1000base-t
-  - name: '21'
+  - name: 1/29
     type: 1000base-t
-  - name: '22'
+  - name: 1/30
     type: 1000base-t
-  - name: '23'
+  - name: 1/31
     type: 1000base-t
-  - name: '24'
+  - name: 1/32
     type: 1000base-t
-  - name: '25'
+  - name: 1/33
     type: 1000base-t
-  - name: '26'
+  - name: 1/34
     type: 1000base-t
-  - name: '27'
+  - name: 1/35
     type: 1000base-t
-  - name: '28'
+  - name: 1/36
     type: 1000base-t
-  - name: '29'
+  - name: 1/37
     type: 1000base-t
-  - name: '30'
+  - name: 1/38
     type: 1000base-t
-  - name: '31'
+  - name: 1/39
     type: 1000base-t
-  - name: '32'
+  - name: 1/40
     type: 1000base-t
-  - name: '33'
+  - name: 1/41
     type: 1000base-t
-  - name: '34'
+  - name: 1/42
     type: 1000base-t
-  - name: '35'
+  - name: 1/43
     type: 1000base-t
-  - name: '36'
+  - name: 1/44
     type: 1000base-t
-  - name: '37'
+  - name: 1/45
     type: 1000base-t
-  - name: '38'
+  - name: 1/46
     type: 1000base-t
-  - name: '39'
+  - name: 1/47
     type: 1000base-t
-  - name: '40'
-    type: 1000base-t
-  - name: '41'
-    type: 1000base-t
-  - name: '42'
-    type: 1000base-t
-  - name: '43'
-    type: 1000base-t
-  - name: '44'
-    type: 1000base-t
-  - name: '45'
-    type: 1000base-t
-  - name: '46'
-    type: 1000base-t
-  - name: '47'
-    type: 1000base-t
-  - name: '48'
+  - name: 1/48
     type: 1000base-t

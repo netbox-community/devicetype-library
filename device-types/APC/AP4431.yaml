@@ -1,3 +1,4 @@
+---
 manufacturer: APC
 model: AP4431
 slug: ap4431
@@ -9,7 +10,7 @@ console-ports:
   - name: Serial
     type: rj-12
   - name: usb
-    type: usb-a  
+    type: usb-a
 power-ports:
   - name: Source A
     type: nema-l6-30p
@@ -17,9 +18,8 @@ power-ports:
     type: nema-l6-30p
 power-outlets:
   - name: Outlet
-    type: nema-l6-30r 
+    type: nema-l6-30r
 interfaces:
   - name: Management
     type: 100base-tx
     mgmt_only: true
-    
