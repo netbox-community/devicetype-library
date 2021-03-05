@@ -1,18 +1,22 @@
 ---
 manufacturer: Cisco
-model: C9300-24P
-part_number: C9300-24P
-slug: c9300-24p
+model: Catalyst 9300-48T
+part_number: C9300-48T
+slug: c9300-48t
 u_height: 1
 is_full_depth: true
 console-ports:
   - name: con 0
     type: rj-45
+  - name: usb
+    type: usb-mini-b
 power-ports:
   - name: PS-A
     type: iec-60320-c14
+    maximum_draw: 350
   - name: PS-B
     type: iec-60320-c14
+    maximum_draw: 350
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -61,6 +65,54 @@ interfaces:
   - name: GigabitEthernet1/0/23
     type: 1000base-t
   - name: GigabitEthernet1/0/24
+    type: 1000base-t
+  - name: GigabitEthernet1/0/25
+    type: 1000base-t
+  - name: GigabitEthernet1/0/26
+    type: 1000base-t
+  - name: GigabitEthernet1/0/27
+    type: 1000base-t
+  - name: GigabitEthernet1/0/28
+    type: 1000base-t
+  - name: GigabitEthernet1/0/29
+    type: 1000base-t
+  - name: GigabitEthernet1/0/30
+    type: 1000base-t
+  - name: GigabitEthernet1/0/31
+    type: 1000base-t
+  - name: GigabitEthernet1/0/32
+    type: 1000base-t
+  - name: GigabitEthernet1/0/33
+    type: 1000base-t
+  - name: GigabitEthernet1/0/34
+    type: 1000base-t
+  - name: GigabitEthernet1/0/35
+    type: 1000base-t
+  - name: GigabitEthernet1/0/36
+    type: 1000base-t
+  - name: GigabitEthernet1/0/37
+    type: 1000base-t
+  - name: GigabitEthernet1/0/38
+    type: 1000base-t
+  - name: GigabitEthernet1/0/39
+    type: 1000base-t
+  - name: GigabitEthernet1/0/40
+    type: 1000base-t
+  - name: GigabitEthernet1/0/41
+    type: 1000base-t
+  - name: GigabitEthernet1/0/42
+    type: 1000base-t
+  - name: GigabitEthernet1/0/43
+    type: 1000base-t
+  - name: GigabitEthernet1/0/44
+    type: 1000base-t
+  - name: GigabitEthernet1/0/45
+    type: 1000base-t
+  - name: GigabitEthernet1/0/46
+    type: 1000base-t
+  - name: GigabitEthernet1/0/47
+    type: 1000base-t
+  - name: GigabitEthernet1/0/48
     type: 1000base-t
   - name: GigabitEthernet0/0
     type: 1000base-t
