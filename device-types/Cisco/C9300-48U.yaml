@@ -1,6 +1,6 @@
 ---
 manufacturer: Cisco
-model: C9300-48U
+model: Catalyst 9300-48U
 part_number: C9300-48U
 slug: c9300-48u
 u_height: 1
@@ -8,11 +8,15 @@ is_full_depth: true
 console-ports:
   - name: con 0
     type: rj-45
+  - name: usb
+    type: usb-mini-b
 power-ports:
   - name: PS-A
-    type: iec-60320-c14
+    type: iec-60320-c16
+    maximum_draw: 1100
   - name: PS-B
-    type: iec-60320-c14
+    type: iec-60320-c16
+    maximum_draw: 1100
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
