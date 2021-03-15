@@ -1,0 +1,68 @@
+---
+manufacturer: CORNING
+model: CCH-UM24-04-89G
+slug: CCH-UM24-04-89G
+part_number: CCH-UM24-04-89G
+u_height: 1
+is_full_depth: false
+comments: 'Plug & Play™ Universal Module  24 F, Shuttered LC to MTP®, Single-mode (OS2)'
+subdevice_role: child
+front-ports:
+  - name: 1-2
+    type: lc
+    rear_port: mpo1-12
+    rear_port_position: 1
+  - name: 3-4
+    type: lc
+    rear_port: mpo1-12
+    rear_port_position: 2
+  - name: 5-6
+    type: lc
+    rear_port: mpo1-12
+    rear_port_position: 3
+  - name: 7-8
+    type: lc
+    rear_port: mpo1-12
+    rear_port_position: 4
+  - name: 9-10
+    type: lc
+    rear_port: mpo1-12
+    rear_port_position: 5
+  - name: 11-12
+    type: lc
+    rear_port: mpo1-12
+    rear_port_position: 6  
+  - name: 13-14
+    type: lc
+    rear_port: mpo13-24
+    rear_port_position: 1
+  - name: 15-16
+    type: lc
+    rear_port: mpo13-24
+    rear_port_position: 2
+  - name: 17-18
+    type: lc
+    rear_port: mpo13-24
+    rear_port_position: 3
+  - name: 19-20
+    type: lc
+    rear_port: mpo13-24
+    rear_port_position: 4  
+  - name: 21-22
+    type: lc
+    rear_port: mpo13-24
+    rear_port_position: 5
+  - name: 23-24
+    type: lc
+    rear_port: mpo13-24
+    rear_port_position: 6
+
+back-ports:
+  - name: mpo1-12
+    type: mpo
+    positions: 6
+  - name: mpo13-24
+    type: mpo
+    positions: 6
+
+
