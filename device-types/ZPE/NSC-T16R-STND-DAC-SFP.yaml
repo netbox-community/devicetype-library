@@ -52,10 +52,10 @@ power-ports:
     allocated_draw: 30
 interfaces:
   - name: eth0
-    type: sfp
+    type: 1000base-x-sfp
     mgmt_only: true
   - name: eth1
-    type: sfp
+    type: 1000base-x-sfp
     mgmt_only: true
   - name: usb1
     type: usb-a

@@ -1,0 +1,23 @@
+---
+manufacturer: ZPE
+model: NSR-M2-EXPN-LTE
+slug: NSR-M2-EXPN-LTE
+part_number: NSR-M2-EXPN-LTE
+u_height: 1
+is_full_depth: false
+comments: 'M.2 Cellular - 4G/LTE module with dual-SIM slot, antennas and cables'
+subdevice_role: child
+interface:
+  - name: lte-a
+    type: lte
+  - name: lte-b
+    type: lte
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 30
+  - name: PSU2
+    type: iec-60320-c14
+    allocated_draw: 30
+

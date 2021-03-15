@@ -1,0 +1,51 @@
+---
+manufacturer: ZPE
+model: NSR-16SFP-EXPN
+slug: NSR-16SFP-EXPN
+part_number: NSR-16SFP-EXPN
+u_height: 1
+is_full_depth: false
+comments: 'NSR 16-Port 1G SFP Expansion Card'
+subdevice_role: child
+interfaces:
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp 
+  - name: sfp3
+    type: 1000base-x-sfp 
+  - name: sfp4
+    type: 1000base-x-sfp 
+  - name: sfp5
+    type: 1000base-x-sfp 
+  - name: sfp6
+    type: 1000base-x-sfp 
+  - name: sfp7
+    type: 1000base-x-sfp 
+  - name: sfp8
+    type: 1000base-x-sfp 
+  - name: sfp9
+    type: 1000base-x-sfp 
+  - name: sfp10
+    type: 1000base-x-sfp 
+  - name: sfp11
+    type: 1000base-x-sfp 
+  - name: sfp12
+    type: 1000base-x-sfp 
+  - name: sfp13
+    type: 1000base-x-sfp 
+  - name: sfp14
+    type: 1000base-x-sfp 
+  - name: sfp15
+    type: 1000base-x-sfp 
+  - name: sfp16
+    type: 1000base-x-sfp 
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 30
+  - name: PSU2
+    type: iec-60320-c14
+    allocated_draw: 30
+

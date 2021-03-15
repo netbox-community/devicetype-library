@@ -1,0 +1,51 @@
+---
+manufacturer: ZPE
+model: NSR-16SRL-EXPN
+slug: NSR-16SRL-EXPN
+part_number: NSR-16SRL-EXPN
+u_height: 1
+is_full_depth: false
+comments: 'NSR 16-Port RJ45 Serial Rolled (Cisco) Expansion Card'
+subdevice_role: child
+console-server-port:
+  - name: ttyS-1
+    type: rj-45
+  - name: ttyS-2
+    type: rj-45
+  - name: ttyS-3
+    type: rj-45
+  - name: ttyS-4
+    type: rj-45
+  - name: ttyS-5
+    type: rj-45
+  - name: ttyS-6
+    type: rj-45
+  - name: ttyS-7
+    type: rj-45
+  - name: ttyS-8
+    type: rj-45
+  - name: ttyS-9
+    type: rj-45
+  - name: ttyS-10
+    type: rj-45
+  - name: ttyS-11
+    type: rj-45
+  - name: ttyS-12
+    type: rj-45
+  - name: ttyS-13
+    type: rj-45
+  - name: ttyS-14
+    type: rj-45
+  - name: ttyS-15
+    type: rj-45
+  - name: ttyS-16
+    type: rj-45
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 30
+  - name: PSU2
+    type: iec-60320-c14
+    allocated_draw: 30
+

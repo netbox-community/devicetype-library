@@ -1,0 +1,35 @@
+---
+manufacturer: ZPE
+model: NSR-8SFP-EXPN
+slug: NSR-8SFP-EXPN
+part_number: NSR-8SFP-EXPN
+u_height: 1
+is_full_depth: false
+comments: 'NSR 8-Port 10G SFP Expansion Card'
+subdevice_role: child
+interfaces:
+  - name: sfp1
+    type: 10gbase-x-sfpp
+  - name: sfp2
+    type: 10gbase-x-sfpp 
+  - name: sfp3
+    type: 10gbase-x-sfpp 
+  - name: sfp4
+    type: 10gbase-x-sfpp 
+  - name: sfp5
+    type: 10gbase-x-sfpp 
+  - name: sfp6
+    type: 10gbase-x-sfpp 
+  - name: sfp7
+    type: 10gbase-x-sfpp 
+  - name: sfp8
+    type: 10gbase-x-sfpp 
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 30
+  - name: PSU2
+    type: iec-60320-c14
+    allocated_draw: 30
+
