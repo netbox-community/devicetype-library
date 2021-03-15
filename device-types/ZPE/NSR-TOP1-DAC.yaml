@@ -1,0 +1,49 @@
+---
+manufacturer: ZPE
+model: NSC-T16R-STND-DAC
+slug: NSC-T16R-STND-DAC
+part_number: NSC-T16R-STND-DAC
+u_height: 1
+is_full_depth: false
+comments: 'NSR Chassis, Dual AC, 8-Core Intel CPU, Backplane Switch, 8GB DDR4,32GB MSATA, 5 Slots, 2 SFP+, 2 USB 2.0, 1 USB 3.0, 2 GbE, 1 HDMI, 1 console'
+console-ports:
+  - name: Console
+    type: rj-45
+device-bays:
+  - name: slot1
+    subdevice_role: parent
+  - name: slot2
+    subdevice_role: parent
+  - name: slot3
+    subdevice_role: parent
+  - name: slot4
+    subdevice_role: parent
+  - name: slot5
+    subdevice_role: parent
+
+interfaces:
+  - name: eth0
+    type: rj-45
+  - name: eth1
+    type: rj-45
+  - name: sfp0
+    type: rj-45
+  - name: sfp1
+    type: rj-45 
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+  - name: usb3
+    type: usb-a
+  - name: hdmi
+    type: hdmi
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 30
+  - name: PSU2
+    type: iec-60320-c14
+    allocated_draw: 30
+
