@@ -1,0 +1,65 @@
+---
+manufacturer: ZPE
+model: NSC-T16R-STND-SAC-SFP
+slug: NSC-T16R-STND-SAC-SFP
+part_number: NSC-T16R-STND-SAC-SFP
+u_height: 1
+is_full_depth: false
+comments: 'NSC 16-port unit, Cisco pinout, Single AC power supply, 2-Cores, 4GB RAM, 32GB SSD, SFP Fiber'
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+ 
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 30
+interfaces:
+  - name: eth0
+    type: sfp
+    mgmt_only: true
+  - name: eth1
+    type: sfp
+    mgmt_only: true
+  - name: usb1
+    type: usb-a
+front-ports:
+  - name: usb2
+    type: usb-a
+  - name: usb3
+    type: usb-a
+  - name: hdmi
+    type: hdmi
