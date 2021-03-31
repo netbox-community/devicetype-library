@@ -7,10 +7,10 @@ version 2.7 or later. It contains a set of device type definitions expressed in 
 file represents a discrete physical device type (e.g. make and model). These definitions can be loaded into NetBox to
 obviate the need to create device types and their associated components manually.
 
-If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before 
+If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before
 submitting content.
 
-If you would like to automate the import of these devicetype template files, there is a **community based** python script 
+If you would like to automate the import of these devicetype template files, there is a **community based** python script
 that will check for duplicates, allow you to selectively import vendors, etc. available here [minitriga/Netbox-Dvice-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import). **Note**: This is not related to Netbox in any official way and you will not get support for it here.
 
 ## Device Type Definitions
@@ -108,4 +108,3 @@ There are two ways this repo focuses on keeping quality device-type definitions:
   - To uninstall the pre-commit script `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
 - GitHub Actions - Automatically run before a PR can be merged.  Repeats yamllint & validates against NetBox Device-Type Schema.
-
