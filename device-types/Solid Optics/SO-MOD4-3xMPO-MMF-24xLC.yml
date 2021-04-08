@@ -9,61 +9,61 @@ subdevice_role: child
 comments: "Breakout Module\r\n3xMPO/MMF/UPC/MALE\r\nMale connector breakout to 24xLC/MMF/UPC\r\
   \nMPD4 LGX Rackmount"
 front-ports:
-- name: A1
-  type: lc
-  rear_port: A
-  rear_port_position: 1
-- name: A2
-  type: lc
-  rear_port: A
-  rear_port_position: 2
-- name: A3
-  type: lc
-  rear_port: A
-  rear_port_position: 3
-- name: A4
-  type: lc
-  rear_port: A
-  rear_port_position: 4
-- name: B1
-  type: lc
-  rear_port: B
-  rear_port_position: 1
-- name: B2
-  type: lc
-  rear_port: B
-  rear_port_position: 2
-- name: B3
-  type: lc
-  rear_port: B
-  rear_port_position: 3
-- name: B4
-  type: lc
-  rear_port: B
-  rear_port_position: 4
-- name: C1
-  type: lc
-  rear_port: C
-  rear_port_position: 1
-- name: C2
-  type: lc
-  rear_port: C
-  rear_port_position: 2
-- name: C3
-  type: lc
-  rear_port: C
-  rear_port_position: 3
-- name: C4
-  type: lc
-  rear_port: C
-  rear_port_position: 4
-rear-ports:
-- name: A
-  type: mpo
-  positions: 4
-- name: B
-  type: mpo
-  positions: 4
-- name: C
-  type: mpo
-  positions: 4
+  - name: A1
+    type: lc
+    rear_port: A
+    rear_port_position: 1
+  - name: A2
+    type: lc
+    rear_port: A
+    rear_port_position: 2
+  - name: A3
+    type: lc
+    rear_port: A
+    rear_port_position: 3
+  - name: A4
+    type: lc
+    rear_port: A
+    rear_port_position: 4
+  - name: B1
+    type: lc
+    rear_port: B
+    rear_port_position: 1
+  - name: B2
+    type: lc
+    rear_port: B
+    rear_port_position: 2
+  - name: B3
+    type: lc
+    - rear_port: B
+    rear_port_position: 3
+  - name: B4
+    type: lc
+    rear_port: B
+    rear_port_position: 4
+  - name: C1
+    type: lc
+    rear_port: C
+    rear_port_position: 1
+  - name: C2
+    type: lc
+    rear_port: C
+    rear_port_position: 2
+  - name: C3
+    type: lc
+    rear_port: C
+    rear_port_position: 3
+   - name: C4
+    type: lc
+    rear_port: C
+    rear_port_position: 4
+    rear-ports:
+  - name: A
+    type: mpo
+    positions: 4
+  - name: B
+    type: mpo
+    positions: 4
+  - name: C
+    type: mpo
+    positions: 4
