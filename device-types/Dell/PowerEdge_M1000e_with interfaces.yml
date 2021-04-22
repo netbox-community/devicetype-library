@@ -1,7 +1,7 @@
 ---
 manufacturer: Dell
 model: PowerEdge M1000e
-slug: poweredge-m1000e
+slug: poweredge_m1000e
 part_number: ''
 u_height: 10
 is_full_depth: true
@@ -32,55 +32,6 @@ power-ports:
     type: iec-60320-c20
     maximum_draw: 3000
     allocated_draw: null
-interfaces:
-  - name: Te1/0/17 (A1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/17 (A2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/17 (B1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/17 (B2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/18 (A1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/18 (A2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/18 (B1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/18 (B2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/19 (A1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/19 (A2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/19 (B1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/19 (B2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/20 (A1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/20 (A2)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/20 (B1)
-    type: 10gbase-x-sfpp
-  - name: Te1/0/20 (B2)
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: Te1/1/1 (A1)
-    type: virtual
-    mgmt_only: false
-  - name: Te1/1/1 (A2)
-    type: virtual
-    mgmt_only: false
-  - name: Te1/1/2 (A1)
-    type: virtual
-    mgmt_only: false
-  - name: Te1/1/2 (A2)
-    type: virtual
-    mgmt_only: false
-  - name: CMC
-    type: 1000base-t
-    mgmt_only: true
 device-bays:
   - name: Slot 1
   - name: Slot 2
