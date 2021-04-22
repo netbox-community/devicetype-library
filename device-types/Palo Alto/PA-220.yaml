@@ -1,0 +1,38 @@
+---
+manufacturer: Palo Alto
+model: PA-220
+slug: pa-220
+part_number: PA-220
+u_height: 1
+is_full_depth: false
+comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
+power-ports:
+  - name: PS1
+    type: nema-1-15p
+  - name: PS2
+    type: nema-1-15p
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: loopback
+    type: virtual

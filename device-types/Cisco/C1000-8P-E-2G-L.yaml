@@ -1,0 +1,39 @@
+---
+manufacturer: Cisco
+model: C1000-8P-E-2G-L
+slug: c1000-8p-e-2g-l
+part_number: C1000-8P-E-2G-L
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Serial Console
+    type: rj-45
+  - name: USB Console
+    type: usb-mini-b
+power-ports:
+  - name: ExternalPS
+    type: iec-60320-c14
+    maximum_draw: 85
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+  - name: GigabitEthernet1/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/10
+    type: 1000base-x-sfp
+  - name: Vlan1
+    type: virtual

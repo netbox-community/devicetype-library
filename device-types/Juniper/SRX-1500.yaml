@@ -1,7 +1,8 @@
+---
 manufacturer: Juniper
 model: SRX1500
 slug: srx1500
-is_full_depth: True
+is_full_depth: true
 interfaces:
   - name: fxp0
     type: 1000base-t
@@ -45,7 +46,7 @@ interfaces:
   - name: xe-0/0/18
     type: 10gbase-x-sfpp
   - name: xe-0/0/19
-    type: 10gbase-x-sfpp             
+    type: 10gbase-x-sfpp
 power-ports:
   - name: PSU0
     type: iec-60320-c14

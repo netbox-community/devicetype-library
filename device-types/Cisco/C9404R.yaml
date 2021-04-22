@@ -1,0 +1,21 @@
+---
+manufacturer: Cisco
+model: Catalyst 9404R
+slug: c9404r
+part_number: C9404R
+u_height: 6
+is_full_depth: false
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 3200
+  - name: PS-2
+    type: iec-60320-c14
+    maximum_draw: 3200
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
