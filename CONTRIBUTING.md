@@ -28,7 +28,6 @@ When writing new definitions, there are some important guidelines to follow:
 
 Additionally, be sure to adhere to the following style guidance:
 
-- Do not begin the file with three dashes (`---`); YAML directives are not supported.
 - Use two spaces for indenting.
 - Specify a device type's attributes before listing its components.
 - Avoid encapsulating YAML values in quotes unless necessary to avoid a syntax error.
