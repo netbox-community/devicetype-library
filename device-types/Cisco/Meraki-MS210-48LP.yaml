@@ -10,10 +10,10 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 490
     allocated_draw: 53
-console-ports:
-  - name: Management
-    type: rj-45
 interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
   - name: Port 1
     type: 1000base-t
   - name: Port 2
