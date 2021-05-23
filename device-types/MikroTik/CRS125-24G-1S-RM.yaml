@@ -60,3 +60,7 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 15
