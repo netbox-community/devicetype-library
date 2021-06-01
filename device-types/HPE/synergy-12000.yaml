@@ -1,3 +1,4 @@
+---
 manufacturer: HPE
 model: synergy-12000
 slug: synergy-12000
@@ -5,7 +6,7 @@ u_height: 10
 is_full_depth: true
 subdevice_role: parent
 interfaces:
-  - name: FLM1 
+  - name: FLM1
     type: 1000base-t
     mgmt_only: true
   - name: FLM2
@@ -13,11 +14,11 @@ interfaces:
     mgmt_only: true
   - name: Interconnect3, Q1:1
     type: 16gfc-sfpp
-  - name: Interconnect3, Q1:2 
+  - name: Interconnect3, Q1:2
     type: 16gfc-sfpp
   - name: Interconnect3, Q1:3
     type: 16gfc-sfpp
-  - name: Interconnect3, Q1:4 
+  - name: Interconnect3, Q1:4
     type: 16gfc-sfpp
   - name: Interconnect3, Q5:1
     type: 16gfc-sfpp
@@ -79,4 +80,3 @@ device-bays:
   - name: Device Bay 14
   - name: Device Bay 15
   - name: Device Bay 16
-  

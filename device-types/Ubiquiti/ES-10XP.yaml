@@ -1,0 +1,42 @@
+---
+manufacturer: Ubiquiti
+model: ES-10XP
+slug: es-10xp
+u_height: 1
+is_full_depth: false
+comments: '[EdgeSwitch 10XP - Managed 10-Port Gigabit Switch with PoE](https://www.ui.com/edgemax/edgeswitch-10xp/)'
+power-ports:
+  - name: 24VDC
+    type: dc-terminal
+    maximum_draw: 8
+interfaces:
+  - name: gi1
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi2
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi3
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi4
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi5
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi6
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi7
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi8
+    type: 1000base-t
+    mgmt_only: false
+  - name: gi9
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: gi10
+    type: 1000base-x-sfp
+    mgmt_only: false

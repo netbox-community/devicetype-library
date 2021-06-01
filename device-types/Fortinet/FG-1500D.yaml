@@ -1,16 +1,17 @@
+---
 manufacturer: Fortinet
 model: FortiGate 1500D
 part_number: FG-1500D
 slug: fg-1500d
-is_full_depth: False
+is_full_depth: false
 u_height: 2
 interfaces:
   - name: mgmt1
     type: 1000base-t
-    mgmt_only: True
+    mgmt_only: true
   - name: mgmt2
     type: 1000base-t
-    mgmt_only: True
+    mgmt_only: true
   - name: port1
     type: 1000base-x-sfp
   - name: port2

@@ -1,30 +1,7 @@
+---
 manufacturer: Juniper
 model: MX480
 slug: mx480
 u_height: 8
 is_full_depth: true
-subdevice_role: parent
 comments: '[Juniper MX480 Data Sheet](https://www.juniper.net/us/en/products-services/routing/mx-series/mx480/)'
-console-ports:
-  - name: Console-RE0
-    type: rj-45
-  - name: Console-RE1
-    type: rj-45
-device-bays:
-  - name: RE0/SCB0
-  - name: RE1/SCB1
-  - name: Linecard0
-  - name: Linecard1
-  - name: Linecard2
-  - name: Linecard3
-  - name: Linecard4
-  - name: Linecard5
-power-ports:
-  - name: PSU0
-    type: iec-60320-c20
-  - name: PSU1
-    type: iec-60320-c20
-  - name: PSU2
-    type: iec-60320-c20
-  - name: PSU3
-    type: iec-60320-c20
