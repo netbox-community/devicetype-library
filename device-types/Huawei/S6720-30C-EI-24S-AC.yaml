@@ -11,11 +11,11 @@ power-ports:
   - name: PWR1
     type: iec-60320-c14
     maximum_draw: 350
-    allocated_draw: null
+    allocated_draw: 90
   - name: PWR2
     type: iec-60320-c14
     maximum_draw: 350
-    allocated_draw: null
+    allocated_draw: 90
 interfaces:
   - name: MEth0/0/1
     type: 100base-tx
