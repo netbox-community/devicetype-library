@@ -11,9 +11,6 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 55
     allocated_draw: 30
-console-ports:
-  - name: Management
-    type: rj-45
 interfaces:
   - name: USB
     type: lte
@@ -51,3 +48,6 @@ interfaces:
   - name: Port 11
     type: 1000base-x-sfp
     mgmt_only: false
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

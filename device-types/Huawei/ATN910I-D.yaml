@@ -1,0 +1,31 @@
+---
+manufacturer: Huawei
+model: ATN910I-D
+slug: atn910i-d
+part_number: ''
+u_height: 1
+is_full_depth: false
+comments: ''
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 30
+interfaces:
+  - name: FE/GE0
+    type: 1000base-t
+    mgmt_only: false
+  - name: FE/GE1
+    type: 1000base-t
+    mgmt_only: false
+  - name: FE/GE2
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: FE/GE3
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: FE/GE4
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: FE/GE5
+    type: 1000base-x-sfp
+    mgmt_only: false
