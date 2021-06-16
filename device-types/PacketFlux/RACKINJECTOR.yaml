@@ -1,0 +1,36 @@
+manufacturer: PacketFlux
+model: RACKINJECTOR
+slug: rackinjector
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: parent
+comments: ''
+console-ports:
+- name: GPS In
+  type: rj-45
+- name: GPS Out
+  type: rj-45
+power-ports:
+- name: PwrA
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+- name: PwrB
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+- name: PwrC
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+interfaces:
+- name: Ethernet
+  type: 100base-tx
+  mgmt_only: false
+device-bays:
+- name: Slot 1
+- name: Slot 2
+- name: Slot 3
+- name: Slot 4
+
