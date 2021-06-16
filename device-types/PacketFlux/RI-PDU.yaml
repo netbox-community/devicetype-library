@@ -7,25 +7,24 @@ is_full_depth: false
 subdevice_role: child
 comments: ''
 power-ports:
-- name: Draw
-  type: dc-terminal
-  maximum_draw: null
-  allocated_draw: 96
+  - name: Draw
+    type: dc-terminal
+    maximum_draw: null
+    allocated_draw: 96
 power-outlets:
-- name: '1'
-  type: dc-terminal
-  power_port: Draw
-  feed_leg: ''
-- name: '2'
-  type: dc-terminal
-  power_port: Draw
-  feed_leg: ''
-- name: '3'
-  type: dc-terminal
-  power_port: Draw
-  feed_leg: ''
-- name: '4'
-  type: dc-terminal
-  power_port: Draw
-  feed_leg: ''
-
+  - name: '1'
+    type: dc-terminal
+    power_port: Draw
+    feed_leg: ''
+ - name: '2'
+    type: dc-terminal
+    power_port: Draw
+    feed_leg: ''
+  - name: '3'
+    type: dc-terminal
+    power_port: Draw
+    feed_leg: ''
+  - name: '4'
+    type: dc-terminal
+    power_port: Draw
+    feed_leg: ''
