@@ -6,7 +6,6 @@ part_number: 'ri-pdu'
 u_height: 0
 is_full_depth: false
 subdevice_role: child
-comments: ''
 power-ports:
   - name: Draw
     type: dc-terminal
@@ -15,16 +14,12 @@ power-outlets:
   - name: '1'
     type: dc-terminal
     power_port: Draw
-    feed_leg: ''
   - name: '2'
     type: dc-terminal
     power_port: Draw
-    feed_leg: ''
   - name: '3'
     type: dc-terminal
     power_port: Draw
-    feed_leg: ''
   - name: '4'
     type: dc-terminal
     power_port: Draw
-    feed_leg: ''
