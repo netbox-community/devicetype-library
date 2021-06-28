@@ -1,0 +1,70 @@
+manufacturer: Raritan
+model: RT-DSX2-16
+slug: rt-dsx2-16
+part_number: ''
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+comments: ''
+console-ports:
+- name: Serial 1
+  type: rj-45
+- name: Serial 2
+  type: rj-45
+- name: Serial 3
+  type: rj-45
+- name: Serial 4
+  type: rj-45
+- name: Serial 5
+  type: rj-45
+- name: Serial 6
+  type: rj-45
+- name: Serial 7
+  type: rj-45
+- name: Serial 8
+  type: rj-45
+- name: Serial 9
+  type: rj-45
+- name: Serial 10
+  type: rj-45
+- name: Serial 11
+  type: rj-45
+- name: Serial 12
+  type: rj-45
+- name: Serial 13
+  type: rj-45
+- name: Serial 14
+  type: rj-45
+- name: Serial 15
+  type: rj-45
+- name: Serial 16
+  type: rj-45
+console-server-ports:
+- name: ADMIN
+  type: usb-mini-a
+- name: DVI
+  type: other
+- name: Terminal
+  type: rj-45
+- name: USB1
+  type: usb-a
+- name: USB2
+  type: usb-a
+- name: USB3
+  type: usb-a
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: 22
+  allocated_draw: null
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: 22
+  allocated_draw: null
+interfaces:
+- name: LAN1
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN2
+  type: 1000base-t
+  mgmt_only: false
