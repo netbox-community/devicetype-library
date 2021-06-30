@@ -6,9 +6,9 @@ u_height: 1
 is_full_depth: false
 subdevice_role: parent
 console-ports:
-  - name: GPS In
+  - name: GPSIn
     type: rj-45
-  - name: GPS Out
+  - name: GPSOut
     type: rj-45
 power-ports:
   - name: PwrA
@@ -28,7 +28,7 @@ interfaces:
     type: 100base-tx
     mgmt_only: false
 device-bays:
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
+  - name: Slot1
+  - name: Slot2
+  - name: Slot3
+  - name: Slot4

@@ -31,7 +31,7 @@ The following fields may optionally be declared:
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (Default: None)
 
 For further detail on these attributes and those listed below, please reference the
-[schema definition](tests/tests/schema.json).
+[schema definition](tests/schema.json).
 
 ### Component Definitions
 

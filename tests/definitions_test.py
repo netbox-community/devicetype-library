@@ -14,7 +14,7 @@ def _get_definition_files():
 
 
 # Initialize schema
-with open("tests/schema.json") as schema_file:
+with open("schema.json") as schema_file:
     schema = json.loads(schema_file.read())
 
 
