@@ -1,0 +1,26 @@
+---
+manufacturer: PacketFlux
+model: RI-PDU
+slug: ri-pdu
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+power-ports:
+  - name: Draw
+    type: dc-terminal
+    maximum_draw: null
+    allocated_draw: 96
+power-outlets:
+  - name: '1'
+    type: dc-terminal
+    power_port: Draw
+  - name: '2'
+    type: dc-terminal
+    power_port: Draw
+  - name: '3'
+    type: dc-terminal
+    power_port: Draw
+  - name: '4'
+    type: dc-terminal
+    power_port: Draw
+    feed_leg: ''
