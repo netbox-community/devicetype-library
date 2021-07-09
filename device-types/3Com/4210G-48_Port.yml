@@ -1,8 +1,8 @@
 ---
 manufacturer: 3Com
-model: 4200G 48-port
-slug: 4200g-48port
-part_number: 3CR17662-91
+model: 4210G 48-port
+slug: 4210g-48port
+part_number: 3CRS42G-48-91
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -11,7 +11,7 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 98
+    maximum_draw: 108
 interfaces:
   - name: 'GigabitEthernet1/0/1'
     type: 1000base-t

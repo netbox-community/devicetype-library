@@ -1,8 +1,8 @@
 ---
 manufacturer: 3Com
-model: 4200G 48-port
-slug: 4200g-48port
-part_number: 3CR17662-91
+model: 4210G PWR 24-port
+slug: 4210g-pwr-24port
+part_number: 3CRS42G-24P-91
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -11,7 +11,8 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 98
+    allocated_draw: 87
+    maximum_draw: 370
 interfaces:
   - name: 'GigabitEthernet1/0/1'
     type: 1000base-t
@@ -86,87 +87,15 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
   - name: 'GigabitEthernet1/0/25'
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
   - name: 'GigabitEthernet1/0/26'
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
   - name: 'GigabitEthernet1/0/27'
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
   - name: 'GigabitEthernet1/0/28'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/29'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/30'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/31'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/32'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/33'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/34'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/35'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/36'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/37'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/38'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/39'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/40'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/41'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/42'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/43'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/44'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/45'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/46'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/47'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/48'
-    type: 1000base-t
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/49'
-    type: 1000base-x-sfp
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/50'
-    type: 1000base-x-sfp
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/51'
-    type: 1000base-x-sfp
-    mgmt_only: false
-  - name: 'GigabitEthernet1/0/52'
     type: 1000base-x-sfp
     mgmt_only: false
   - name: 'Vlan-interface1'
