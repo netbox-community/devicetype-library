@@ -1,0 +1,31 @@
+manufacturer: Synology
+model: DS920+
+slug: ds920plus
+part_number: DS920+
+u_height: 4
+is_full_depth: false
+subdevice_role: ''
+comments: '[DS920+ Series Datasheet](https://www.synology.com/de-de/products/DS920+#specs)'
+console-ports:
+  - name: Front USB
+    type: usb-a
+    label: ''
+    description: ''
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 100
+    allocated_draw: 32
+    label: ''
+    description: ''
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: LAN 2
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
