@@ -1,3 +1,4 @@
+---
 manufacturer: Raspberry Pi
 model: Raspberry Pi 4 Model B 8GB
 slug: raspberry-pi-4-model-b-8gb
@@ -28,20 +29,20 @@ console-server-ports:
     label: ''
     description: ''
 power-ports:
-- name: PSU
-  type: nema-1-15p
-  maximum_draw: null
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: PSU
+    type: nema-1-15p
+    maximum_draw: null
+    allocated_draw: null
+    label: ''
+    description: ''
 interfaces:
-- name: eth0
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: wlan0
-  type: ieee802.11ad
-  mgmt_only: false
-  label: ''
-  description: ''
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: wlan0
+    type: ieee802.11ad
+    mgmt_only: false
+    label: ''
+    description: ''
