@@ -1,12 +1,10 @@
 ---
 manufacturer: HPE
 model: ProLiant DL380p Gen8
-part_number: ''
 slug: hpe_dl380p_g8
+part_number: 670524-001
 u_height: 2
 is_full_depth: true
-subdevice_role: ''
-comments: ''
 console-ports:
   - name: Serial
     type: de-9
@@ -24,40 +22,25 @@ console-server-ports:
   - name: Rear USB4
     type: usb-a
 power-ports:
-  - name: Power 1
+  - name: PSU1
     type: iec-60320-c14
     maximum_draw: 700
-    allocated_draw: null
-    label: ''
-    description: ''
-  - name: Power 2
+  - name: PSU2
     type: iec-60320-c14
     maximum_draw: 700
-    allocated_draw: null
-    label: ''
 interfaces:
-  - name: Gig-E 1
+  - name: 'Gig-E 1'
     type: 1000base-t
     mgmt_only: false
-    label: ''
-    description: ''
-  - name: Gig-E 2
+  - name: 'Gig-E 2'
     type: 1000base-t
     mgmt_only: false
-    label: ''
-    description: ''
-  - name: Gig-E 3
+  - name: 'Gig-E 3'
     type: 1000base-t
     mgmt_only: false
-    label: ''
-    description: ''
-  - name: Gig-E 4
+  - name: 'Gig-E 4'
     type: 1000base-t
     mgmt_only: false
-    label: ''
-    description: ''
-  - name: iLO
+  - name: 'iLO'
     type: 1000base-t
     mgmt_only: true
-    label: ''
-    description: ''
