@@ -1,10 +1,10 @@
 ---
 manufacturer: Cyclades
-model: PM10-20A
-slug: PM10_20A
+model: PM10-L20A
+slug: PM10_L20A
 u_height: 1
 is_full_depth: false
-comment: AlterPath PM10-20A
+comment: AlterPath PM10-L20A
 console-ports:
   - name: In
     type: rj-45
@@ -12,7 +12,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: Power Port 1
-    type: nema-5-20p
+    type: nema-l5-20p
     maximum_draw: 2400
 power-outlets:
   - name: PM-1
