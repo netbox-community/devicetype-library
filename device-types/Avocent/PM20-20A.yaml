@@ -1,10 +1,10 @@
 ---
 manufacturer: Cyclades
-model: PM10-20A
-slug: PM10_20A
-u_height: 1
+model: PM20-20A
+slug: pm20_20a
+u_height: 0
 is_full_depth: false
-comment: AlterPath PM10-20A
+comment: AlterPath PM20-20A
 console-ports:
   - name: In
     type: rj-45
@@ -43,5 +43,35 @@ power-outlets:
     type: nema-5-15r
     power_port: Power Port 1
   - name: PM-10
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-11
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-12
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-13
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-14
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-15
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-16
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-17
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-18
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-19
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-20
     type: nema-5-15r
     power_port: Power Port 1
