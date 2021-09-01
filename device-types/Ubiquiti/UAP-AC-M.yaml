@@ -1,0 +1,16 @@
+---
+manufacturer: Ubiquiti
+model: Unifi AC Mesh
+slug: uap-ac-m
+part_number: UAP-AC-M
+u_height: 0
+is_full_depth: false
+comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    mgmt_only: false
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
