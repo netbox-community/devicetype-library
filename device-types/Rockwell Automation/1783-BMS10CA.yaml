@@ -26,6 +26,8 @@ interfaces:
     type: 100base-tx
   - name: FastEthernet1/10
     type: 100base-tx
+  - name: SVI1
+    type: virtual
 console-ports:
   - name: usb
     type: usb-mini-b
