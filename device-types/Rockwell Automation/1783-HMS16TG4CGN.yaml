@@ -46,6 +46,8 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/20
     type: 1000base-t
+  - name: SVI1
+    type: virtual
 console-ports:
   - name: usb
     type: usb-mini-b
@@ -60,5 +62,3 @@ power-port:
     type: dc-terminal
     maximum_draw: 104
     allocated_draw: 40
-device-bays:
-  - name: sdflash

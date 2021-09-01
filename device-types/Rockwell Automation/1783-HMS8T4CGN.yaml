@@ -30,6 +30,8 @@ interfaces:
     type: 100base-tx
   - name: FastEthernet1/12
     type: 100base-tx
+  - name: SVI1
+    type: virtual
 console-ports:
   - name: usb
     type: usb-mini-b
@@ -44,5 +46,3 @@ power-port:
     type: dc-terminal
     maximum_draw: 89
     allocated_draw: 35
-device-bays:
-  - name: sdflash
