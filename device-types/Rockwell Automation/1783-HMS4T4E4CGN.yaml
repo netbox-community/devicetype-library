@@ -1,23 +1,19 @@
 ---
 manufacturer: Rockwell Automation
-model: 1783-BMS10CGL
-part_number: 1783-BMS10CGL
-slug: 1783-bms10cgl
+model: 1783-HMS4T4E4CGN
+part_number: 1783-HMS4T4E4CGN
+slug: 1783-hms4t4e4cgn
 u_height: 3
 is_full_depth: false
 interfaces:
   - name: GigabitEthernet1/1
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
     type: 1000base-t
-  - name: FastEthernet1/1
-    type: 100base-tx
-  - name: FastEthernet1/2
-    type: 100base-tx
-  - name: FastEthernet1/3
-    type: 100base-tx
-  - name: FastEthernet1/4
-    type: 100base-tx
+  - name: GigabitEthernet1/4
+    type: 1000base-t
   - name: FastEthernet1/5
     type: 100base-tx
   - name: FastEthernet1/6
@@ -26,8 +22,14 @@ interfaces:
     type: 100base-tx
   - name: FastEthernet1/8
     type: 100base-tx
-  - name: SVI1
-    type: virtual
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
 console-ports:
   - name: usb
     type: usb-mini-b
@@ -36,9 +38,11 @@ console-ports:
 power-port:
   - name: Pwr-A
     type: dc-terminal
-    maximum_draw: 17
-    allocated_draw: 13
+    maximum_draw: 193
+    allocated_draw: 35
   - name: Pwr-B
     type: dc-terminal
-    maximum_draw: 17
-    allocated_draw: 13
+    maximum_draw: 193
+    allocated_draw: 35
+device-bays:
+  - name: sdflash
