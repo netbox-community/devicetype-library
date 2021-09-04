@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: C6816-X-LE
 slug: c6816-x-le-
@@ -7,13 +8,13 @@ is_full_depth: false
 subdevice_role: ''
 comments: ''
 console-ports:
-- name: con0
-  type: rj-45
+  - name: con0
+    type: rj-45
 power-ports:
-- name: PS1
-  type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: null
+    allocated_draw: null
 - name: PS2
   type: iec-60320-c14
   maximum_draw: null
