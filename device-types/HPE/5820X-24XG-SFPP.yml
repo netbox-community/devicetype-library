@@ -8,12 +8,17 @@ is_full_depth: false
 console-ports:
   - name: console
     type: rj-45
+  - name: console usb
+    type: usb-a
 power-ports:
   - name: PSU1
     type: iec-60320-c14
     allocated_draw: 128
     maximum_draw: 185
 interfaces:
+  - name: M-GigabitEthernet0/0/0
+    type: 1000base-t
+    mgmt_only: true
   - name: GigabitEthernet1/0/25
     type: 1000base-t
     mgmt_only: false
