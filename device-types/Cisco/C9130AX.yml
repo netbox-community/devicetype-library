@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: Catalyst 9130AX Series 
+slug: air-cap9130ax-b-k9
+part_number: c9130ax-b-k9
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: WiFi
+    type: ieee802.11ax
+    mgmt_only: false
+  - name: gigabitEthernet
+    type: 5gbase-t
+  - name: USB Console
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
