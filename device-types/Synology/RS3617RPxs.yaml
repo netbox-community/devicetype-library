@@ -1,0 +1,49 @@
+---
+manufacturer: Synology
+model: RS3617RPxs
+slug: synology-rs3617rpxs
+part_number: RS3617RPxs
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+device-bays:
+  - name: Sled 1
+  - name: Sled 2
+  - name: Sled 3
+  - name: Sled 4
+  - name: Sled 5
+  - name: Sled 6
+  - name: Sled 7
+  - name: Sled 8
+  - name: Sled 9
+  - name: Sled 10
+  - name: Sled 11
+  - name: Sled 12
+console-server-ports:
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB4
+    type: usb-a
+  - name: Console
+    type: de-9
+    mgmt_only: true
+  - name: Expansion 1
+    type: other
+  - name: Expansion 2
+    type: other
