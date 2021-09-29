@@ -1,0 +1,123 @@
+---
+manufacturer: SonicWall
+model: NSa 6700
+slug: nsa-6700
+part_number: NSA6700
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 350
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 350
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: X0
+    type: 1000base-t
+    mgmt_only: false
+  - name: X1
+    type: 1000base-t
+    mgmt_only: false
+  - name: X2
+    type: 1000base-t
+    mgmt_only: false
+  - name: X3
+    type: 1000base-t
+    mgmt_only: false
+  - name: X4
+    type: 1000base-t
+    mgmt_only: false
+  - name: X5
+    type: 1000base-t
+    mgmt_only: false
+  - name: X6
+    type: 1000base-t
+    mgmt_only: false
+  - name: X7
+    type: 1000base-t
+    mgmt_only: false
+  - name: X8
+    type: 1000base-t
+    mgmt_only: false
+  - name: X9
+    type: 1000base-t
+    mgmt_only: false
+  - name: X10
+    type: 1000base-t
+    mgmt_only: false
+  - name: X11
+    type: 1000base-t
+    mgmt_only: false
+  - name: X12
+    type: 1000base-t
+    mgmt_only: false
+  - name: X13
+    type: 1000base-t
+    mgmt_only: false
+  - name: X14
+    type: 1000base-t
+    mgmt_only: false
+  - name: X15
+    type: 1000base-t
+    mgmt_only: false
+  - name: X16
+    type: 10gbase-t
+    mgmt_only: false
+  - name: X17
+    type: 10gbase-t
+    mgmt_only: false
+  - name: X18
+    type: 10gbase-t
+    mgmt_only: false
+  - name: X19
+    type: 10gbase-t
+    mgmt_only: false
+  - name: X20
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X21
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X22
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X23
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X24
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X25
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X26
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X27
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X28
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X29
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X30
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X31
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: X32
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
+  - name: X33
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
