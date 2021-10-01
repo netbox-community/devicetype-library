@@ -18,16 +18,16 @@ power-ports:
 interfaces:
   - name: eno1
     type: 10gbase-t
-    mgmt_only: true
+    mgmt_only: false
   - name: eno2
     type: 10gbase-t
     mgmt_only: false
   - name: enp94s0f0
     type: 10gbase-t
-    mgmt_only: true
+    mgmt_only: false
   - name: enp94s0f1
     type: 10gbase-t
-    mgmt_only: true
+    mgmt_only: false
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
