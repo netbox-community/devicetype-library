@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: Catalyst C8300-2N2S-4T2X
+slug: c8300-2n2s-4t2x
+part_number: C8300-2N2S-4t2x
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+power-ports:
+  - name: P0
+    type: iec-60320-c14
+    maximum_draw: 1000
+  - name: P1
+    type: iec-60320-c14
+    maximum_draw: 1000
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: TenGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/5
+    type: 10gbase-x-sfpp
