@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: Catalyst 8200 Series Edge Platforms
+part_number: C8200-1N-4T
+slug: c8200-1n-4t
+u_height: 1
+is_full_depth: true
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+    label: 0/0/0
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+    label: 0/0/1
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+    label: 0/0/2
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+    label: 0/0/3
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 100
