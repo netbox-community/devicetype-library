@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: Catalyst C8300-1N1S-6T
+slug: c8300-1n1s-6t
+part_number: C8300-1N1S-6T
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+power-ports:
+  - name: P0
+    type: iec-60320-c14
+    maximum_draw: 1000
+  - name: P1
+    type: iec-60320-c14
+    maximum_draw: 1000
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/5
+    type: 1000base-x-sfp
