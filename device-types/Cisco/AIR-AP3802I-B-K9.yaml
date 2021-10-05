@@ -6,6 +6,12 @@ part_number: AIR-AP3802I-B-K9
 u_height: 0
 is_full_depth: false
 interfaces:
-  - name: WiFi
+  - name: GigabitEthernet0
+    type: 5gbase-t
+  - name: BVI1
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Dot11Radio0
     type: ieee802.11ac
-    mgmt_only: false
+  - name: Dot11Radio1
+    type: ieee802.11ac
