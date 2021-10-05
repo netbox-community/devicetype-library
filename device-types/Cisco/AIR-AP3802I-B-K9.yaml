@@ -11,7 +11,11 @@ interfaces:
   - name: BVI1
     type: 1000base-t
     mgmt_only: true
+    label: Aux
   - name: Dot11Radio0
     type: ieee802.11ac
   - name: Dot11Radio1
     type: ieee802.11ac
+console_ports:
+  - name: Console
+    type: rj-45
