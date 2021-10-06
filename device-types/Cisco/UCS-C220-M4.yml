@@ -8,6 +8,7 @@ is_full_depth: true
 console-ports:
   - name: Con
     type: rj-45
+    label: |O|O|
 power-ports:
   - name: PS-0
     type: iec-60320-c14
@@ -18,8 +19,11 @@ power-ports:
 interfaces:
   - name: enp94s0f0
     type: 10gbase-t
+    label: 1
   - name: enp94s0f1
     type: 10gbase-t
+    label: 2
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
+    label: M
