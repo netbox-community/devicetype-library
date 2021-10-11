@@ -18,8 +18,10 @@ power-ports:
 interfaces:
   - name: enp94s0f0
     type: 10gbase-t
+    label: 1
   - name: enp94s0f1
     type: 10gbase-t
+    label: 2
   - name: CIMC
     type: 1000base-t
-    mgmt_only: false
+    mgmt_only: true
