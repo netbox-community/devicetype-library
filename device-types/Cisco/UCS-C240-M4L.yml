@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: UCS-C240-M4L
+slug: ucs-c240-m4l
+part_number: UCS-C240M4L
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+power-ports:
+  - name: PS-0
+    type: iec-60320-c14
+    maximum_draw: 1400
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 1400
+interfaces:
+  - name: enp94s0f0
+    type: 10gbase-t
+    label: 1
+  - name: enp94s0f1
+    type: 10gbase-t
+    label: 2
+  - name: CIMC
+    type: 1000base-t
+    label: M
+    mgmt_only: true
