@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: Cisco UCS C220 M4 High-Density Rack Server (Small Form Factor Disk)
+slug: ucsc-c220-m4s
+part_number: UCSC-C220-M4S
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+    label: IOIOI
+power-ports:
+  - name: PS-0
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: enp94s0f0
+    type: 10gbase-t
+    label: 1
+  - name: enp94s0f1
+    type: 10gbase-t
+    label: 2
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+    label: M
+comments: |
+        Specs from: https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m4-sff-spec-sheet.pdf

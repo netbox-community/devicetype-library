@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: Cisco UCS C240 M5 Rack Server (8 Small Form Factor Disk w/DVD option)
+slug: ucsc-c240-m5s
+part_number: UCSC-C240-M5S
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+power-ports:
+  - name: PS-0
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: enp94s0f0
+    type: 10gbase-t
+    label: 1
+  - name: enp94s0f1
+    type: 10gbase-t
+    label: 2
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+comments: |
+        Spec from: https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c240m5-sff-specsheet.pdf
