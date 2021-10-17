@@ -8,264 +8,264 @@ is_full_depth: true
 subdevice_role: ''
 comments: ''
 console-ports:
-- name: Console Port 1
-  type: rj-45
-  label: ''
-  description: ''
-- name: Console Port 2
-  type: usb-c
-  label: ''
-  description: ''
+  - name: Console Port 1
+    type: rj-45
+    label: ''
+    description: ''
+  - name: Console Port 2
+    type: usb-c
+    label: ''
+    description: ''
 power-ports:
-- name: Power Port 1
-  type: iec-60320-c14
-  maximum_draw: 1197
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: Power Port 1
+    type: iec-60320-c14
+    maximum_draw: 1197
+    allocated_draw:
+    label: ''
+    description: ''
 interfaces:
-- name: GigabitEthernet-0/1
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/2
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/3
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/4
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/5
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/6
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/7
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/8
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/9
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/10
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/11
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/12
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/13
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/14
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/15
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/16
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/17
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/18
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/19
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/20
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/21
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/22
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/23
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/24
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/25
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/26
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/27
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/28
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/29
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/30
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/31
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/32
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/33
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/34
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/35
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/36
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/37
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/38
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/39
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: GigabitEthernet-0/40
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: PoE+
-- name: TenGigabitEthernet-0/41
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/42
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/43
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/44
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/45
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/46
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/47
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: TenGigabitEthernet-0/48
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: Service Port
-  type: 1000base-t
-  mgmt_only: true
-  label: ''
-  description: OOB
+  - name: GigabitEthernet-0/1
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/2
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/3
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/4
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/5
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/6
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/7
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/8
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/9
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/10
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/11
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/12
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/13
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/14
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/15
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/16
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/17
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/18
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/19
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/20
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/21
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/22
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/23
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/24
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/25
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/26
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/27
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/28
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/29
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/30
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/31
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/32
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/33
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/34
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/35
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/36
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/37
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/38
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/39
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: GigabitEthernet-0/40
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: PoE+
+  - name: TenGigabitEthernet-0/41
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/42
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/43
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/44
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/45
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/46
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/47
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGigabitEthernet-0/48
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: Service Port
+    type: 1000base-t
+    mgmt_only: true
+    label: ''
+    description: OOB
