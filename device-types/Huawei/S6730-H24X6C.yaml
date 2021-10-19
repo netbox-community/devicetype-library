@@ -6,17 +6,15 @@ part_number: S6730-H24X6C
 u_height: 1
 is_full_depth: true
 console-ports:
-  - name: console0
+  - name: console
     type: rj-45
 power-ports:
-  - name: PWR1
+  - name: PSU1
     type: iec-60320-c14
     maximum_draw: 600
-    allocated_draw: 140
-  - name: PWR2
+  - name: PSU2
     type: iec-60320-c14
     maximum_draw: 600
-    allocated_draw: 140
 interfaces:
   - name: MEth0/0/1
     type: 100base-tx
@@ -94,20 +92,20 @@ interfaces:
     type: 10gbase-x-sfpp
     mgmt_only: false
   - name: 100GE0/0/1
-    type: 100gbase-x-qsfpp
+    type: 100gbase-x-qsfp28
     mgmt_only: false
   - name: 100GE0/0/2
-    type: 100gbase-x-qsfpp
+    type: 100gbase-x-qsfpp28
     mgmt_only: false
   - name: 100GE0/0/3
-    type: 100gbase-x-qsfpp
+    type: 100gbase-x-qsfpp28
     mgmt_only: false
   - name: 100GE0/0/4
-    type: 100gbase-x-qsfpp
+    type: 100gbase-x-qsfpp28
     mgmt_only: false
   - name: 100GE0/0/5
-    type: 100gbase-x-qsfpp
+    type: 100gbase-x-qsfpp28
     mgmt_only: false
   - name: 100GE0/0/6
-    type: 100gbase-x-qsfpp
+    type: 100gbase-x-qsfpp28
     mgmt_only: false
