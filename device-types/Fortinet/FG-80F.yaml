@@ -1,0 +1,38 @@
+---
+manufacturer: Fortinet
+model: FortiGate 80F
+slug: fg-80f
+part_number: FG-80F
+u_height: 1
+is_full_depth: false
+comments: Same as FG-81E , but **WITHOUT** a 128GB SSD on-board.  Has no POE.
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: nema-5-15p
+    maximum_draw: 25
+    allocated_draw: 18
+interfaces:
+  - name: Internal1
+    type: 1000base-t
+  - name: Internal2
+    type: 1000base-t
+  - name: Internal3
+    type: 1000base-t
+  - name: Internal4
+    type: 1000base-t
+  - name: Internal5
+    type: 1000base-t
+  - name: Internal6
+  - name: A
+    type: 1000base-t
+  - name: B
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-x-sfp
+    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: wan2
+    type: 1000base-x-sfp
+    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
