@@ -1,8 +1,8 @@
 ---
 manufacturer: Ubiquiti
-model: UAP-AC-Pro
+model: UAP AC Pro
 slug: uap-ac-pro
-part_number: UAP AC Pro
+part_number: UAP-AC-Pro
 u_height: 0
 is_full_depth: false
 comments: '[Unifi AP AC Pro](https://www.ui.com/unifi/unifi-ap-ac-pro/)'
@@ -13,3 +13,7 @@ interfaces:
   - name: lan1
     type: 1000base-t
     mgmt_only: false
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
