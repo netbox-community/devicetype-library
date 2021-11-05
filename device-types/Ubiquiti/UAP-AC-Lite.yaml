@@ -1,8 +1,7 @@
 ---
 manufacturer: Ubiquiti
-model: UAP-AC-Lite
+model: UAP-AC-LITE
 slug: uap-ac-lite
-part_number: UAP AC Lite
 u_height: 0
 is_full_depth: false
 comments: '[Unifi AP AC Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)'
@@ -10,6 +9,7 @@ interfaces:
   - name: lan0
     type: 1000base-t
     mgmt_only: false
-  - name: lan1
-    type: 1000base-t
-    mgmt_only: false
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
