@@ -3,14 +3,19 @@ manufacturer: HPE
 model: FlexFabric 5800-48G
 slug: hpe-flexfabric-5800-48g
 part_number: JC105B
+comment: '[FlexFabric 5800 Data Sheet](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c02713959)'
 u_height: 1
-is_full_depth: false
+is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
   - name: console usb
     type: usb-a
 power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 102
+    maximum_draw: 163
   - name: PSU1
     type: iec-60320-c14
     allocated_draw: 102
@@ -122,4 +127,8 @@ interfaces:
   - name: Ten-GigabitEthernet1/0/51
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/52
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/53
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/54
     type: 10gbase-x-sfpp
