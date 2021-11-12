@@ -1,0 +1,24 @@
+---
+manufacturer: Rockwell Automation
+model: CompactGuardLogix 5380 L310ERMS2
+part_number: 5069-L310ERMS2
+slug: 5069-l310erms2
+u_height: 3
+is_full_depth: false
+interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+console-ports:
+  - name: usb
+    type: usb-b
+power-port:
+  - name: MOD
+    type: dc-terminal
+    maximum_draw: 120
+    allocated_draw: 9
+  - name: SA
+    type: dc-terminal
+    maximum_draw: 240
+    allocated_draw: 9

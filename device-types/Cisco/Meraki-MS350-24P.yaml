@@ -4,15 +4,15 @@ model: MS350-24P
 slug: ms350-24p
 part_number: ms350-24p-hw
 u_height: 1
-console-ports:
-  - name: Management
-    type: rj-45
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
   - name: Slot 2
     type: iec-60320-c14
 interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
   - name: Port 1
     type: 1000base-t
   - name: Port 2
