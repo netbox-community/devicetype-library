@@ -1,0 +1,51 @@
+---
+manufacturer: RDP.RU
+model: EcoFilter 4080
+slug: ecofilter-4080
+part_number: EcoFilter 4080
+is_full_depth: true
+u_height: 1
+interfaces:
+  - name: te1
+    type: 10gbase-x-sfpp
+    label: TE1
+  - name: te2
+    type: 10gbase-x-sfpp
+    label: TE2
+  - name: te3
+    type: 10gbase-x-sfpp
+    label: TE3
+  - name: te4
+    type: 10gbase-x-sfpp
+    label: TE4
+  - name: te5
+    type: 10gbase-x-sfpp
+    label: TE5
+  - name: te6
+    type: 10gbase-x-sfpp
+    label: TE6
+  - name: te7
+    type: 10gbase-x-sfpp
+    label: TE7
+  - name: te8
+    type: 10gbase-x-sfpp
+    label: TE8
+  - name: mng
+    type: 1000base-t
+    label: MNG
+    mgmt_only: true
+  - name: ge0
+    type: 1000base-t
+    label: LOG
+    mgmt_only: true
+console-ports:
+  - name: con0
+    type: rj-45
+    label: CON
+power-ports:
+  - name: RPS0
+    type: iec-60320-c14
+    maximum_draw: 285
+  - name: RPS1
+    type: iec-60320-c14
+    maximum_draw: 285
