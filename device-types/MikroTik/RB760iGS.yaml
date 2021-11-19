@@ -2,6 +2,7 @@
 manufacturer: MikroTik
 model: RB760iGS
 slug: rb760igs
+comments: '[MikroTik rb760 igs Datasheet](https://mikrotik.com/product/hex_s)'
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -15,3 +16,6 @@ interfaces:
     type: 1000base-t
   - name: sfp1
     type: 1000base-x-sfp
+power-ports:
+  - name: power1
+    maximum_draw: 24
