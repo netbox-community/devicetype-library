@@ -9,10 +9,10 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PS1
-    type: iec-60320-c19
+    type: iec-60320-c20
     maximum_draw: 2000
   - name: PS2
-    type: iec-60320-c19
+    type: iec-60320-c20
     maximum_draw: 2000
 interfaces:
   - name: eth0
