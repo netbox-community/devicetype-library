@@ -54,11 +54,11 @@ power-ports:
   - name: PSU1
     type: iec-60320-c14
     maximum_draw: 22
-    allocated_draw: null
+    allocated_draw:
   - name: PSU2
     type: iec-60320-c14
     maximum_draw: 22
-    allocated_draw: null
+    allocated_draw:
 interfaces:
   - name: LAN1
     type: 1000base-t
