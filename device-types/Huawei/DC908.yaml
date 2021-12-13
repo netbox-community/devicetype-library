@@ -1,0 +1,20 @@
+---
+manufacturer: Huawei
+model: OptiXtrans DC908
+slug: huawei-optixtrans-dc908
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: console0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 2000
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 2000
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
