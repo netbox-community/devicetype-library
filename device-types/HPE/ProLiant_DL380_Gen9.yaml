@@ -1,8 +1,7 @@
 ---
 manufacturer: HPE
-model: ProLiant DL380p Gen8
-slug: hpe_dl380p_g8
-part_number: 670524-001
+model: ProLiant DL380 Gen9
+slug: hpe_dl380_g9
 u_height: 2
 is_full_depth: true
 console-ports:
@@ -16,17 +15,13 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-  - name: Rear USB3
-    type: usb-a
-  - name: Rear USB4
-    type: usb-a
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 700
+    maximum_draw: 1400
   - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 700
+    maximum_draw: 1400
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
