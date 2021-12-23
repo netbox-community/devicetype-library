@@ -1,0 +1,37 @@
+---
+manufacturer: TrueNAS
+model: Mini X+
+slug: truenas-mini-x-plus
+part_number:
+u_height: 0
+subdevice_role: parent
+comments: '[TrueNAS Mini Series Datasheet](https://www.truenas.com/truenas-mini/#Specifications)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+interfaces:
+  - name: ix0
+    type: 10gbase-t
+  - name: ix1
+    type: 10gbase-t
+device-bays:
+  - name: SFP+ 10G Add On Card
+  - name: Sled 1
+  - name: Sled 2
+  - name: Sled 3
+  - name: Sled 4
+  - name: Sled 5
+  - name: Sled 6
+  - name: Sled 7
+console-server-ports:
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Console
+    type: rj-45
+    mgmt_only: true
