@@ -5,7 +5,6 @@ slug: acx4000
 part_number: ''
 u_height: 3
 is_full_depth: false
-subdevice_role: parent
 comments: 2.5U Height
 console-ports:
   - name: Console
@@ -57,6 +56,6 @@ interfaces:
   - name: fxp0
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: MIC0
   - name: MIC1
