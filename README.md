@@ -45,7 +45,11 @@ to be added.
 - `interfaces`
 - `rear-ports`
 - `front-ports`
+- `module-bays`*
 - `device-bays`
+- `inventory-items`*
+
+*Supported on NetBox v3.2 or later.
 
 The available fields for each type of component are listed below.
 
@@ -99,10 +103,23 @@ The available fields for each type of component are listed below.
 - `type`: Port type slug (API value)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
 
+#### Module Bays
+
+- `name`: Name
+- `label`: Label
+- `position`: The module bay's position within the parent device
+
 #### Device Bays
 
 - `name`: Name
 - `label`: Label
+
+#### Inventory Items
+
+- `name`: Name
+- `label`: Label
+- `manufacturer`: The name of the manufacturer which produces this item
+- `part_id`: The part ID assigned by the manufacturer
 
 ## Data Validation / Commit Quality Checks
 

@@ -70,10 +70,22 @@
                 "$ref": "#/definitions/rear-port"
             }
         },
+        "module-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/module-bay"
+            }
+        },
         "device-bays": {
             "type": "array",
             "items": {
                 "$ref": "#/definitions/device-bay"
+            }
+        },
+        "inventory-items": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/inventory-item"
             }
         }
     },
@@ -537,6 +549,22 @@
             "required": ["name", "type"]
         },
 
+        "module-bay": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "position": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        },
+
         "device-bay": {
             "type": "object",
             "properties": {
@@ -544,6 +572,25 @@
                     "type": "string"
                 },
                 "label": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        },
+
+        "inventory-item": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "manufacturer": {
+                    "type": "string"
+                },
+                "part_id": {
                     "type": "string"
                 }
             },
