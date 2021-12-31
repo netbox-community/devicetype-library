@@ -45,63 +45,88 @@ to be added.
 - `interfaces`
 - `rear-ports`
 - `front-ports`
+- `module-bays`*
 - `device-bays`
+- `inventory-items`*
+
+*Supported on NetBox v3.2 or later.
 
 The available fields for each type of component are listed below.
 
 #### Console Ports
 
-- `name`: Port name
+- `name`: Name
+- `label`: Label
 - `type`: Port type slug (API value)
 
 #### Console Server Ports
 
-- `name`: Port name
+- `name`: Name
+- `label`: Label
 - `type`: Port type slug (API value)
 
 #### Power Ports
 
-- `name`: Port name
+- `name`: Name
+- `label`: Label
 - `type`: Port type slug (API value)
 - `maximum_draw`: The port's maximum power draw, in watts (optional)
 - `allocated_draw`: The port's allocated power draw, in watts (optional)
 
 #### Power Outlets
 
-- `name`: Outlet name
+- `name`: Name
+- `label`: Label
 - `type`: Port type slug (API value)
 - `power_port`: The name of the power port on the device which powers this outlet (optional)
 - `feed_leg`: The phase (leg) of power to which this outlet is mapped; A, B, or C (optional)
 
 #### Interfaces
 
-- `name`: Interface name
+- `name`: Name
+- `label`: Label
 - `type`: Interface type slug (API value)
 - `mgmt_only`: A boolean which indicates whether this interface is used for management purposes only (default: false)
 
 #### Front Ports
 
-- `name`: Port name
+- `name`: Name
+- `label`: Label
 - `type`: Port type slug (API value)
 - `rear_port`: The name of the rear port on this device to which the front port maps
 - `rear_port_position`: The corresponding position on the mapped rear port (default: 1)
 
 #### Rear Ports
 
-- `name`: Port name
+- `name`: Name
+- `label`: Label
 - `type`: Port type slug (API value)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
 
+#### Module Bays
+
+- `name`: Name
+- `label`: Label
+- `position`: The module bay's position within the parent device
+
 #### Device Bays
 
-- `name`: Bay name
+- `name`: Name
+- `label`: Label
+
+#### Inventory Items
+
+- `name`: Name
+- `label`: Label
+- `manufacturer`: The name of the manufacturer which produces this item
+- `part_id`: The part ID assigned by the manufacturer
 
 ## Data Validation / Commit Quality Checks
 
 There are two ways this repo focuses on keeping quality device-type definitions:
 
 - Pre-Commit Checks - Optional for helping to identify simple issues before committing. (trailing-whitespace, end-of-file-fixer, check-yaml, yamlfmt, yamllint)
-  - [Install pre-commit](https://pre-commit.com/#install) (or just use the requirements.txt file)
+  - [Install pre-commit](https://pre-commit.com/#install) (`pip install pre-commit`)
   - To install the pre-commit script `pre-commit install`
   - To run the pre-commit script on changed files `pre-commit run`
   - To run the pre-commit script on all files `pre-commit run --all`
