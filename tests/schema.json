@@ -70,10 +70,22 @@
                 "$ref": "#/definitions/rear-port"
             }
         },
+        "module-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/module-bay"
+            }
+        },
         "device-bays": {
             "type": "array",
             "items": {
                 "$ref": "#/definitions/device-bay"
+            }
+        },
+        "inventory-items": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/inventory-item"
             }
         }
     },
@@ -87,6 +99,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -95,6 +110,7 @@
                         "rj-11",
                         "rj-12",
                         "rj-45",
+                        "mini-din-8",
                         "usb-a",
                         "usb-b",
                         "usb-c",
@@ -115,6 +131,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -122,6 +141,7 @@
                         "db-25",
                         "rj-12",
                         "rj-45",
+                        "mini-din-8",
                         "usb-a",
                         "usb-b",
                         "usb-c",
@@ -140,6 +160,9 @@
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
                     "type": "string"
                 },
                 "type": {
@@ -249,6 +272,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -350,6 +376,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -385,6 +414,7 @@
                         "ieee802.11ac",
                         "ieee802.11ad",
                         "ieee802.11ax",
+                        "ieee802.15.1",
                         "gsm",
                         "cdma",
                         "lte",
@@ -401,7 +431,7 @@
                         "8gfc-sfpp",
                         "16gfc-sfpp",
                         "32gfc-sfp28",
-                        "128gfc-sfp28",
+                        "128gfc-qsfp28",
                         "infiniband-sdr",
                         "infiniband-ddr",
                         "infiniband-qdr",
@@ -438,6 +468,9 @@
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
                     "type": "string"
                 },
                 "type": {
@@ -481,6 +514,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -513,10 +549,48 @@
             "required": ["name", "type"]
         },
 
+        "module-bay": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "position": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        },
+
         "device-bay": {
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        },
+
+        "inventory-item": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "manufacturer": {
+                    "type": "string"
+                },
+                "part_id": {
                     "type": "string"
                 }
             },
