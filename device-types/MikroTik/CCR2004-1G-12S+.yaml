@@ -9,86 +9,86 @@ subdevice_role: ''
 airflow: ''
 comments: ''
 console-ports:
-- name: serial0
-  type: rj-45
-  label: ''
-  description: ''
+  - name: serial0
+    type: rj-45
+    label: ''
+    description: ''
 power-ports:
-- name: power1
-  type: iec-60320-c14
-  maximum_draw: 49
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: power2
-  type: iec-60320-c14
-  maximum_draw: 49
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 49
+    allocated_draw: null
+    label: ''
+    description: ''
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 49
+    allocated_draw: null
+    label: ''
+    description: ''
 interfaces:
-- name: ether1
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus1
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus2
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus3
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus4
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus5
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus6
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus7
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus8
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus9
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus10
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus11
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: sfp-sfpplus12
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
+  - name: ether1
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus9
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus10
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus11
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: sfp-sfpplus12
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: ''
+    description: ''
