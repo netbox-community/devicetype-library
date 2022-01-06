@@ -87,9 +87,13 @@
             "items": {
                 "$ref": "#/definitions/inventory-item"
             }
+        },
+        "comments": {
+            "type": "string"
         }
     },
     "required": ["manufacturer", "model", "slug"],
+    "additionalProperties": false,
 
     "definitions": {
 
