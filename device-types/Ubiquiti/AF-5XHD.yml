@@ -7,13 +7,13 @@ u_height: 0
 is_full_depth: false
 interfaces:
   - name: br0
-    type: Bridge
+    type: bridge
     mgmt_only: true
   - name: eth0
     type: 1000base-t
     mgmt_only: false
     bridge: br0
   - name: ath0
-    type: IEEE 802.11ax
+    type: ieee802.11ax
     mgmt_only: false
     bridge: br0
