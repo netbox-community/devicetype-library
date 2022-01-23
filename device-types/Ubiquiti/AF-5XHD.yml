@@ -3,6 +3,12 @@ manufacturer: Ubiquiti
 model: airFiber AF-5XHD
 slug: airfiber-af-5xhd
 part_number: AF-5XHD
+comments: |
+  ath0 is setup to use ieee802.11ax as LTE currently doesn't allow wireless
+  parameters to be specified despite the fact that the airFiber is a LTE-U
+  device.
+
+  The eth0 and ath0 are permanently bridged as this is a L2 bridge device.
 u_height: 0
 is_full_depth: false
 interfaces:
