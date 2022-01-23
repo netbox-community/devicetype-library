@@ -7,7 +7,7 @@ u_height: 2
 comments: |
   [Juniper SRX550 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx550m-services-gateway-datasheet.pdf)
 
-  [Juniper SRX550 Chassis]https://www.juniper.net/documentation/en_US/release-independent/junos/topics/concept/services-gateway-srx550-chassis.html
+  [Juniper SRX550 Chassis](https://www.juniper.net/documentation/en_US/release-independent/junos/topics/concept/services-gateway-srx550-chassis.html)
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
@@ -29,7 +29,7 @@ interfaces:
     type: 1000base-x-sfp
   - name: ge-0/0/9
     type: 1000base-x-sfp
-device-bays:
+module-bays:
   - name: PIM1
     label: Mini-PIM 1
   - name: PIM2
