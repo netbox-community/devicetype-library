@@ -32,24 +32,34 @@ interfaces:
 module-bays:
   - name: PIM1
     label: Mini-PIM 1
+    position: 1
   - name: PIM2
     label: Mini-PIM 2
+    position: 2
   - name: PIM3
     label: PIM 3 (10-gigabit XPIM,PoE Capable)
+    position: 3
   - name: PIM4
     label: PIM 4 (PoE Capable)
+    position: 4
   - name: PIM5
     label: PIM 5 ()
+    position: 5
   - name: PIM6
     label: PIM 6 (20-gigabit XPIM,PoE Capable)
+    position: 6
   - name: PIM7
     label: PIM 7 ()
+    position: 7
   - name: PIM8
     label: PIM 8 (PoE Capable)
+    position: 8
   - name: PSU0
     label: Power Supply 0
+    position: 0
   - name: PSU1
     label: Power Supply 1
+    position: 1
 console-ports:
   - name: Console
     type: rj-45
