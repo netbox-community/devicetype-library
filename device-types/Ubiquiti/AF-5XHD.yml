@@ -13,7 +13,7 @@ u_height: 0
 is_full_depth: false
 interfaces:
   - name: br0
-    type: bridge
+    type: virtual
     mgmt_only: true
   - name: eth0
     type: 1000base-t
