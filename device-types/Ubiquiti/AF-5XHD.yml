@@ -16,8 +16,10 @@ interfaces:
     type: bridge
     mgmt_only: true
   - name: eth0
+    label: Ethernet
     type: 1000base-t
     mgmt_only: false
   - name: ath0
+    label: Wireless
     type: ieee802.11ax
     mgmt_only: false
