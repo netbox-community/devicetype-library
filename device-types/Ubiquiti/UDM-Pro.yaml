@@ -1,7 +1,9 @@
 ---
 manufacturer: Ubiquiti
-model: UDM-PRO
+model: UniFi Dream Machine Pro
 slug: udm-pro
+airflow: front-to-rear
+part_number: UDM-Pro
 comments: |
   [UniFi Dream Machine Pro](https://store.ui.com/products/udm-pro)
 
@@ -9,7 +11,7 @@ comments: |
 
   Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
 u_height: 1
-is_full_depth: true
+is_full_depth: false
 interfaces:
   - name: eth0
     type: 1000base-t

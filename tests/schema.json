@@ -21,6 +21,17 @@
         "is_full_depth": {
             "type": "boolean"
         },
+        "airflow": {
+            "type": "string",
+            "enum": [
+                "front-to-rear",
+                "rear-to-front",
+                "left-to-right",
+                "right-to-left",
+                "side-to-rear",
+                "passive"
+            ]
+        },
         "subdevice_role": {
             "type": "string",
             "enum": [
