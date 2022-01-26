@@ -1,0 +1,68 @@
+---
+manufacturer: Juniper
+model: SRX650
+slug: srx650
+u_height: 2
+is_full_depth: false
+comments: |
+  [Juniper SRX650 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx-series-services-gateways-branch-datasheet.pdf)
+
+  [Juniper SRX650 Chassis Data](https://www.juniper.net/documentation/en_US/release-independent/junos/topics/concept/chassis-srx650.html)
+interfaces:
+  - name: ge-0/0/0
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: ge-0/0/1
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: ge-0/0/2
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: ge-0/0/3
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+module-bays:
+  - name: PIM1
+    label: PIM 1 ()
+    position: PIM1
+  - name: PIM2
+    label: PIM 2 (10-gigabit XPIM,PoE Capable)
+    position: PIM2
+  - name: PIM3
+    label: PIM 3 ()
+    position: PIM3
+  - name: PIM4
+    label: PIM 4 (PoE Capable)
+    position: PIM4
+  - name: PIM5
+    label: PIM 5 (SATA High-Disk)
+    position: PIM5
+  - name: PIM6
+    label: PIM 6 (10-gigabit XPIM,PoE Capable)
+    position: PIM6
+  - name: PIM7
+    label: PIM 7 (SATA High-Disk)
+    position: PIM7
+  - name: PIM8
+    label: PIM 8 (PoE Capable)
+    position: PIM8
+  - name: SRE0
+    label: Services and Routing Engine 0
+    position: SRE1
+  - name: SRE1
+    label: Services and Routing Engine 1
+    position: SRE1
+  - name: PSU0
+    label: Power Supply 0
+    position: PSU0
+  - name: PSU1
+    label: Power Supply 1
+    position: PSU1
