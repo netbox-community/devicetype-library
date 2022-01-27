@@ -1,8 +1,8 @@
 ---
 manufacturer: Aruba
-model: 6200F-48G-POE4-4SFP+
-slug: 6200f-48g-poe4-4sfpp
-part_number: JL727A
+model: 6200F-48G-4SFP+
+slug: 6200f-48g-4sfpp
+part_number: JL726A
 u_height: 1
 is_full_depth: false
 comments: ''
@@ -14,8 +14,7 @@ console-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    maximum_draw: 500
-    allocated_draw: 370
+    maximum_draw: 200
 interfaces:
   - name: 1/1/1
     type: 1000base-t
