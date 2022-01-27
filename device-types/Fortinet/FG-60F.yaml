@@ -1,0 +1,36 @@
+---
+manufacturer: Fortinet
+model: FortiGate 60F
+slug: fg-60f
+part_number: FGT_60F
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: nema-5-15p
+    maximum_draw: 19
+    allocated_draw: 17
+interfaces:
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: A
+    type: 1000base-t
+  - name: B
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
