@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: ISR 1111-8P
-part_number: C1111-8P
-slug: isr1111
+model: ISR 1111-8PLTELAWR
+part_number: C1111-8PLTELAWR
+slug: isr1111-8pltelawr
 u_height: 1
 is_full_depth: false
 interfaces:
@@ -26,6 +26,12 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet0/1/7
     type: 1000base-t
+  - name: Wlan-GigabitEthernet0/1/8
+    type: ieee802.11ac
+  - name: Cellular0/2/0
+    type: lte
+  - name: Cellular0/2/1
+    type: lte
 console-ports:
   - name: con 0
     type: rj-45
