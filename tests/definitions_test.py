@@ -1,21 +1,41 @@
 import glob
 import json
+import os
 import pytest
 import yaml
-from jsonschema import validate
+from jsonschema import validate, RefResolver, Draft4Validator
 from jsonschema.exceptions import ValidationError
+
+
+SCHEMAS = (
+    ('device-types', 'devicetype.json'),
+    ('module-types', 'moduletype.json'),
+)
 
 
 def _get_definition_files():
     """
-    Return a list of all definition files.
+    Return a list of all definition files within the specified path.
     """
-    return [f for f in glob.glob("device-types/*/*", recursive=True)]
+    ret = []
+
+    for path, schema in SCHEMAS:
+
+        # Initialize the schema
+        with open(f"schema/{schema}") as schema_file:
+            schema = json.loads(schema_file.read())
+
+        # Validate that the schema exists
+        assert schema, f"Schema definition for {path} is empty!"
+
+        # Map each definition file to its schema
+        for f in glob.glob(f"{path}/*/*", recursive=True):
+            ret.append((f, schema))
+
+    return ret
 
 
-# Initialize schema
-with open("tests/schema.json") as schema_file:
-    schema = json.loads(schema_file.read())
+definition_files = _get_definition_files()
 
 
 def test_environment():
@@ -23,16 +43,13 @@ def test_environment():
     Run basic sanity checks on the environment to ensure tests are running correctly.
     """
     # Validate that definition files exist
-    assert _get_definition_files(), "No definition files found!"
-
-    # Validate that the schema exists
-    assert schema, "Schema definition is empty!"
+    assert definition_files, "No definition files found!"
 
 
-@pytest.mark.parametrize("file_path", _get_definition_files())
-def test_definition(file_path):
+@pytest.mark.parametrize(('file_path', 'schema'), definition_files)
+def test_definitions(file_path, schema):
     """
-    Validate each DeviceType definition file using the provided JSON schema.
+    Validate each definition file using the provided JSON schema.
     """
     # Check file extension
     assert file_path.split('.')[-1] in ('yaml', 'yml'), f"Invalid file extension: {file_path}"
@@ -41,14 +58,14 @@ def test_definition(file_path):
     with open(file_path) as definition_file:
         content = definition_file.read()
 
-        # Check for trailing newline
-        assert content[-1] == '\n', "Missing trailing newline"
+    # Check for trailing newline
+    assert content.endswith('\n'), "Missing trailing newline"
 
-        # Load YAML data
-        definition = yaml.load(content, Loader=yaml.SafeLoader)
+    # Load YAML data from file
+    definition = yaml.load(content, Loader=yaml.SafeLoader)
 
-    # Run validation
     try:
-        validate(definition, schema=schema)
+        resolver = RefResolver(f'file://{os.getcwd()}/schema/devicetype.json', schema)
+        Draft4Validator(schema, resolver=resolver).validate(definition)
     except ValidationError as e:
         pytest.fail(f"{file_path} failed validation: {e}", False)
