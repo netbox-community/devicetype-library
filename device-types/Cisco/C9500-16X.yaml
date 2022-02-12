@@ -70,12 +70,6 @@ interfaces:
   - name: TenGigabitEthernet1/0/16
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: FortyGigabitEthernet1/1/1
-    type: 40gbase-x-qsfpp
-    mgmt_only: false
-  - name: FortyGigabitEthernet1/1/2
-    type: 40gbase-x-qsfpp
-    mgmt_only: false
 module-bays:
   - name: Network Module
     position: '1'
