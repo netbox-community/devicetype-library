@@ -9,57 +9,57 @@ subdevice_role: child
 airflow: ''
 comments: '8 Channels 100GHz C53-C60, with Monitor, Expansion and 1310nm Port, LC/UPC, Dual Fiber DWDM Mux Demux, FMU Plug-in Module'
 front-ports:
-- name: C53
-  type: lc
-  rear_port: LINE
-  rear_port_position: 33
-  label: ''
-  description: ''
-- name: C54
-  type: lc
-  rear_port: LINE
-  rear_port_position: 34
-  label: ''
-  description: ''
-- name: C55
-  type: lc
-  rear_port: LINE
-  rear_port_position: 35
-  label: ''
-  description: ''
-- name: C56
-  type: lc
-  rear_port: LINE
-  rear_port_position: 36
-  label: ''
-  description: ''
-- name: C57
-  type: lc
-  rear_port: LINE
-  rear_port_position: 37
-  label: ''
-  description: ''
-- name: C58
-  type: lc
-  rear_port: LINE
-  rear_port_position: 38
-  label: ''
-  description: ''
-- name: C59
-  type: lc
-  rear_port: LINE
-  rear_port_position: 39
-  label: ''
-  description: ''
-- name: C60
-  type: lc
-  rear_port: LINE
-  rear_port_position: 40
-  label: ''
-  description: ''
+  - name: C53
+    type: lc
+    rear_port: LINE
+    rear_port_position: 33
+    label: ''
+    description: ''
+  - name: C54
+    type: lc
+    rear_port: LINE
+    rear_port_position: 34
+    label: ''
+    description: ''
+  - name: C55
+    type: lc
+    rear_port: LINE
+    rear_port_position: 35
+    label: ''
+    description: ''
+  - name: C56
+    type: lc
+    rear_port: LINE
+    rear_port_position: 36
+    label: ''
+    description: ''
+  - name: C57
+    type: lc
+    rear_port: LINE
+    rear_port_position: 37
+    label: ''
+    description: ''
+  - name: C58
+    type: lc
+    rear_port: LINE
+    rear_port_position: 38
+    label: ''
+    description: ''
+  - name: C59
+    type: lc
+    rear_port: LINE
+    rear_port_position: 39
+    label: ''
+    description: ''
+  - name: C60
+    type: lc
+    rear_port: LINE
+    rear_port_position: 40
+    label: ''
+    description: ''
 rear-ports:
-- name: LINE
-  type: lc
-  positions: 40
-  label: ''
-  description: ''
+  - name: LINE
+    type: lc
+    positions: 40
+    label: ''
+    description: ''
