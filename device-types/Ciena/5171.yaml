@@ -3,18 +3,19 @@ manufacturer: Ciena
 model: '5171'
 slug: '5171'
 part_number: 170-5171-910
-u_height: 1
+u_height: 2
 is_full_depth: false
+subdevice_role: parent
 console-ports:
   - name: CONSOLE
     type: rj-45
 power-ports:
   - name: PSA
-    type: iec-60320-c13
+    type: iec-60320-c14
     maximum_draw: 800
     allocated_draw: 328
   - name: PSB
-    type: iec-60320-c13
+    type: iec-60320-c14
     maximum_draw: 800
     allocated_draw: 328
 module-bays:
