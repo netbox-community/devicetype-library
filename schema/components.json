@@ -1,90 +1,16 @@
 {
 
     "type": "object",
-    "properties": {
-        "manufacturer": {
-            "type": "string"
-        },
-        "model": {
-            "type": "string"
-        },
-        "slug": {
-            "type": "string",
-            "pattern": "^[-a-zA-Z0-9_]+$"
-        },
-        "part_number": {
-            "type": "string"
-        },
-        "u_height": {
-            "type": "integer"
-        },
-        "is_full_depth": {
-            "type": "boolean"
-        },
-        "subdevice_role": {
-            "type": "string",
-            "enum": [
-                "parent",
-                "child"
-            ]
-        },
-        "console-ports": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/console-port"
-            }
-        },
-        "console-server-ports": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/console-server-port"
-            }
-        },
-        "power-ports": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/power-port"
-            }
-        },
-        "power-outlets": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/power-outlet"
-            }
-        },
-        "interfaces": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/interface"
-            }
-        },
-        "front-ports": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/front-port"
-            }
-        },
-        "rear-ports": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/rear-port"
-            }
-        },
-        "device-bays": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/device-bay"
-            }
-        }
-    },
-    "required": ["manufacturer", "model", "slug"],
-
+    "additionalProperties": false,
     "definitions": {
 
         "console-port": {
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
                     "type": "string"
                 },
                 "type": {
@@ -103,6 +29,7 @@
                         "usb-mini-b",
                         "usb-micro-a",
                         "usb-micro-b",
+                        "usb-micro-ab",
                         "other"
                     ]
                 }
@@ -114,6 +41,9 @@
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
                     "type": "string"
                 },
                 "type": {
@@ -131,6 +61,7 @@
                         "usb-mini-b",
                         "usb-micro-a",
                         "usb-micro-b",
+                        "usb-micro-ab",
                         "other"
                     ]
                 }
@@ -142,6 +73,9 @@
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
                     "type": "string"
                 },
                 "type": {
@@ -205,12 +139,14 @@
                         "nema-l15-60p",
                         "nema-l21-20p",
                         "nema-l21-30p",
+                        "nema-l22-30p",
                         "cs6361c",
                         "cs6365c",
                         "cs8165c",
                         "cs8265c",
                         "cs8365c",
                         "cs8465c",
+                        "ita-c",
                         "ita-e",
                         "ita-f",
                         "ita-ef",
@@ -230,9 +166,12 @@
                         "usb-mini-b",
                         "usb-micro-a",
                         "usb-micro-b",
+                        "usb-micro-ab",
                         "usb-3-b",
                         "usb-3-micro-b",
-                        "dc-terminal"
+                        "dc-terminal",
+                        "saf-d-grid",
+                        "hardwired"
                     ]
                 },
                 "maximum_draw": {
@@ -249,6 +188,9 @@
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
                     "type": "string"
                 },
                 "type": {
@@ -312,6 +254,7 @@
                         "nema-l15-60r",
                         "nema-l21-20r",
                         "nema-l21-30r",
+                        "nema-l22-30r",
                         "CS6360C",
                         "CS6364C",
                         "CS8164C",
@@ -329,10 +272,14 @@
                         "ita-m",
                         "ita-n",
                         "ita-o",
+                        "ita-multistandard",
                         "usb-a",
                         "usb-micro-b",
                         "usb-c",
-                        "hdot-cx"
+                        "dc-terminal",
+                        "hdot-cx",
+                        "saf-d-grid",
+                        "hardwired"
                     ]
                 },
                 "power_port": {
@@ -352,19 +299,23 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
                         "virtual",
+                        "bridge",
                         "lag",
                         "100base-tx",
                         "1000base-t",
+                        "1000base-x-gbic",
+                        "1000base-x-sfp",
                         "2.5gbase-t",
                         "5gbase-t",
                         "10gbase-t",
                         "10gbase-cx4",
-                        "1000base-x-gbic",
-                        "1000base-x-sfp",
                         "10gbase-x-sfpp",
                         "10gbase-x-xfp",
                         "10gbase-x-xenpak",
@@ -374,10 +325,10 @@
                         "50gbase-x-sfp28",
                         "100gbase-x-cfp",
                         "100gbase-x-cfp2",
-                        "200gbase-x-cfp2",
                         "100gbase-x-cfp4",
                         "100gbase-x-cpak",
                         "100gbase-x-qsfp28",
+                        "200gbase-x-cfp2",
                         "200gbase-x-qsfp56",
                         "400gbase-x-qsfpdd",
                         "400gbase-x-osfp",
@@ -404,7 +355,8 @@
                         "8gfc-sfpp",
                         "16gfc-sfpp",
                         "32gfc-sfp28",
-                        "128gfc-sfp28",
+                        "64gfc-qsfpp",
+                        "128gfc-qsfp28",
                         "infiniband-sdr",
                         "infiniband-ddr",
                         "infiniband-qdr",
@@ -418,10 +370,15 @@
                         "e1",
                         "t3",
                         "e3",
+                        "xdsl",
                         "cisco-stackwise",
                         "cisco-stackwise-plus",
                         "cisco-flexstack",
                         "cisco-flexstack-plus",
+                        "cisco-stackwise-80",
+                        "cisco-stackwise-160",
+                        "cisco-stackwise-320",
+                        "cisco-stackwise-480",
                         "juniper-vcp",
                         "extreme-summitstack",
                         "extreme-summitstack-128",
@@ -443,6 +400,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -450,8 +410,19 @@
                         "8p6c",
                         "8p4c",
                         "8p2c",
+                        "6p6c",
+                        "6p4c",
+                        "6p2c",
+                        "4p4c",
+                        "4p2c",
+                        "gg45",
+                        "tera-4p",
+                        "tera-2p",
+                        "tera-1p",
                         "110-punch",
                         "bnc",
+                        "f",
+                        "n",
                         "mrj21",
                         "st",
                         "sc",
@@ -465,7 +436,12 @@
                         "lsh-apc",
                         "splice",
                         "cs",
-                        "sn"
+                        "sn",
+                        "sma-905",
+                        "sma-906",
+                        "urm-p2",
+                        "urm-p4",
+                        "urm-p8"
                     ]
                 },
                 "rear_port": {
@@ -484,6 +460,9 @@
                 "name": {
                     "type": "string"
                 },
+                "label": {
+                    "type": "string"
+                },
                 "type": {
                     "type": "string",
                     "enum": [
@@ -491,8 +470,19 @@
                         "8p6c",
                         "8p4c",
                         "8p2c",
+                        "6p6c",
+                        "6p4c",
+                        "6p2c",
+                        "4p4c",
+                        "4p2c",
+                        "gg45",
+                        "tera-4p",
+                        "tera-2p",
+                        "tera-1p",
                         "110-punch",
                         "bnc",
+                        "f",
+                        "n",
                         "mrj21",
                         "st",
                         "sc",
@@ -506,7 +496,12 @@
                         "lsh-apc",
                         "splice",
                         "cs",
-                        "sn"
+                        "sn",
+                        "sma-905",
+                        "sma-906",
+                        "urm-p2",
+                        "urm-p4",
+                        "urm-p8"
                     ]
                 },
                 "positions": {
@@ -516,10 +511,48 @@
             "required": ["name", "type"]
         },
 
+        "module-bay": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "position": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        },
+
         "device-bay": {
             "type": "object",
             "properties": {
                 "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                }
+            },
+            "required": ["name"]
+        },
+
+        "inventory-item": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "manufacturer": {
+                    "type": "string"
+                },
+                "part_id": {
                     "type": "string"
                 }
             },

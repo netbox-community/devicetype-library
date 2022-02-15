@@ -26,18 +26,11 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet0/1/7
     type: 1000base-t
-  - name: GigabitEthernet0/1/8
-    type: 1000base-t
-  - name: Wlan-GigabitEthernet0/1/8
-    type: ieee802.11ac
-  - name: Cellular0/2/0
-    type: lte
-
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
-    type: usb-mini-b
+    type: usb-micro-b
 power-ports:
   - name: PSU0
     type: iec-60320-c14

@@ -4,7 +4,7 @@ model: UniFi Switch Aggregation
 slug: unifi-switch-aggregation
 part_number: USW-Aggregation
 comments: |
-  UniFi Switch 16 Aggregation, 10G 10-Port Managed Aggregation Switch, 30W, (10) SFP+
+  UniFi Switch Aggregation, 10G 8-Port Managed Aggregation Switch, 30W, (8) SFP+
 
   Dimensions: 442.4 x 120 x 43.7 mm (17.42 x 4.72 x 1.72")
 u_height: 1
@@ -25,10 +25,6 @@ interfaces:
   - name: SFP+ 7
     type: 10gbase-x-sfpp
   - name: SFP+ 8
-    type: 10gbase-x-sfpp
-  - name: SFP+ 9
-    type: 10gbase-x-sfpp
-  - name: SFP+ 10
     type: 10gbase-x-sfpp
 power-ports:
   - name: Input
