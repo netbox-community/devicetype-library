@@ -3,13 +3,25 @@ import json
 import os
 import pytest
 import yaml
-from jsonschema import validate, RefResolver, Draft4Validator
+from jsonschema import RefResolver, Draft4Validator
 from jsonschema.exceptions import ValidationError
 
 
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
+)
+
+COMPONENT_TYPES = (
+    'console-ports',
+    'console-server-ports',
+    'power-ports',
+    'power-outlets',
+    'interfaces',
+    'front-ports',
+    'rear-ports',
+    'device-bays',
+    'module-bays',
 )
 
 
@@ -29,13 +41,14 @@ def _get_definition_files():
         assert schema, f"Schema definition for {path} is empty!"
 
         # Map each definition file to its schema
-        for f in glob.glob(f"{path}/*/*", recursive=True):
+        for f in sorted(glob.glob(f"{path}/*/*", recursive=True)):
             ret.append((f, schema))
 
     return ret
 
 
 definition_files = _get_definition_files()
+known_slugs = set()
 
 
 def test_environment():
@@ -49,7 +62,7 @@ def test_environment():
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
     """
-    Validate each definition file using the provided JSON schema.
+    Validate each definition file using the provided JSON schema and check for duplicate entries.
     """
     # Check file extension
     assert file_path.split('.')[-1] in ('yaml', 'yml'), f"Invalid file extension: {file_path}"
@@ -64,8 +77,27 @@ def test_definitions(file_path, schema):
     # Load YAML data from file
     definition = yaml.load(content, Loader=yaml.SafeLoader)
 
+    # Validate YAML definition against the supplied schema
     try:
         resolver = RefResolver(f'file://{os.getcwd()}/schema/devicetype.json', schema)
         Draft4Validator(schema, resolver=resolver).validate(definition)
     except ValidationError as e:
         pytest.fail(f"{file_path} failed validation: {e}", False)
+
+    # Check for duplicate slug
+    if file_path.startswith('device-types/'):
+        slug = definition.get('slug')
+        if slug and slug in known_slugs:
+            pytest.fail(f'{file_path} device type has duplicate slug "{slug}"', False)
+        elif slug:
+            known_slugs.add(slug)
+
+    # Check for duplicate components
+    for component_type in COMPONENT_TYPES:
+        known_names = set()
+        defined_components = definition.get(component_type, [])
+        for idx, component in enumerate(defined_components):
+            name = component.get('name')
+            if name in known_names:
+                pytest.fail(f'Duplicate entry "{name}" in {component_type} list', False)
+            known_names.add(name)
