@@ -1,20 +1,20 @@
 ---
 manufacturer: Cisco
-model: MS210-48LP
-slug: ms210-48lp
-part_number: MS210-48LP-HW
+model: MS210-48FP
+slug: ms210-48fp
+part_number: MS210-48FP-HW
 u_height: 1
 is_full_depth: false
 comments: '[MS210 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS210_Overview_and_Specifications)'
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
-    allocated_draw: 53
-    maximum_draw: 490
+    allocated_draw: 54
+    maximum_draw: 882
   - name: Cisco RPS 2300 connector for PSU failover
     type: dc-terminal
-    allocated_draw: 53
-    maximum_draw: 490
+    allocated_draw: 54
+    maximum_draw: 882
 interfaces:
   - name: Port 1
     type: 1000base-t
