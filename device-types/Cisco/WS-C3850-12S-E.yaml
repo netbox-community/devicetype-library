@@ -33,6 +33,9 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/0/12
     type: 1000base-x-sfp
+module-bays:
+  - name: Network Module
+    position: '1'
 console-ports:
   - name: con0
     type: rj-45

@@ -16,10 +16,10 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.8
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Lint YAML files
         run: yamllint --format parsable --strict -c=tests/yamllint.yaml .
       - name: Run Device-Type Tests
-        run: pytest --tb=line -v
+        run: pytest --tb=short -v
