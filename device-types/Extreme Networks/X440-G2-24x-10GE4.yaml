@@ -1,0 +1,114 @@
+---
+manufacturer: Extreme Networks
+model: X440-G2-24t-10GE4
+slug: x440-g2-24t-10ge4
+part_number: '16538'
+u_height: 1
+is_full_depth: false
+comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    label: ''
+    description: ''
+  - name: RPS1
+    type: ''
+    label: ''
+    description: Redundant Power Supply
+interfaces:
+  - name: Mgmt-port
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '2'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '3'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '4'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '5'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '6'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '7'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '8'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '9'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '10'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '11'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '12'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '13'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '14'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '15'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '16'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '17'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '18'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '19'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '20'
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: '21'
+    type: 1000base-x-sfp
+    mgmt_only: false
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '22'
+    type: 1000base-x-sfp
+    mgmt_only: false
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '23'
+    type: 1000base-x-sfp
+    mgmt_only: false
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '24'
+    type: 1000base-x-sfp
+    mgmt_only: false
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '25'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '26'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '27'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+
+  - name: '28'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+
