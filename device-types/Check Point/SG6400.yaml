@@ -1,0 +1,67 @@
+---
+manufacturer: Check Point
+model: SG6400
+slug: sg6400
+part_number: CPAP-SG6400-SNBT
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+  - name: ttyS1
+    label: CONSOLE
+    type: usb-c
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+interfaces:
+  - name: eth1
+    label: 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth2
+    label: 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth3
+    label: 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth4
+    label: 4
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth5
+    label: 5
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth6
+    label: 6
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth7
+    label: 7
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth8
+    label: 8
+    type: 1000base-t
+    mgmt_only: false
+  - name: Sync
+    label: SYNC
+    type: 1000base-t
+    mgmt_only: false
+  - name: Mgmt
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: false
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Line card 1
