@@ -9,19 +9,13 @@ comments: 'Juniper NFV Platform for CPE install'
 console-ports:
   - name: Console
     type: rj-45
-    label: ''
-    description: ''
   - name: USB-Console
     type: usb-mini-a
-    label: ''
-    description: ''
 power-ports:
   - name: PSU0
     type: iec-60320-c14
     maximum_draw: 140
     allocated_draw: 40
-    label: ''
-    description: ''
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
@@ -96,5 +90,3 @@ interfaces:
   - name: fxp0
     type: 1000base-t
     mgmt_only: true
-    label: ''
-    description: ''
