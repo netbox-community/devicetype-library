@@ -8,18 +8,18 @@ model: RSP720-3C-GE
 part_number: RSP720-3C-GE
 comments: ''
 console-ports:
-- name: console{module}
-  type: rj-45
-  label: ''
-  description: ''
+  - name: console{module}
+    type: rj-45
+    label: ''
+    description: ''
 interfaces:
-- name: Gi{module}/1
-  type: 1000base-x-sfp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: Gi{module}/2
-  type: 1000base-x-sfp
-  mgmt_only: false
-  label: ''
-  description: ''
+  - name: Gi{module}/1
+    type: 1000base-x-sfp
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: Gi{module}/2
+    type: 1000base-x-sfp
+    mgmt_only: false
+    label: ''
+    description: ''
