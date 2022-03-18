@@ -1,0 +1,24 @@
+---
+# close-stale-issues (https://github.com/marketplace/actions/close-stale-issues)
+name: Close stale PRs
+on:
+  schedule:
+    - cron: 0 4 * * *
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v5
+        with:
+          close-pr-message: >
+            This PR has been automatically closed due to lack of activity.
+          days-before-stale: 30
+          days-before-close: 7
+          operations-per-run: 100
+          remove-stale-when-updated: false
+          stale-pr-label: stale
+          stale-pr-message: >
+            This PR has been automatically marked as stale because it has not had
+            recent activity. It will be closed automatically if no further progress
+            is made.
