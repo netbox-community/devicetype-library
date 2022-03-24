@@ -1,7 +1,7 @@
 ---
 # close-stale-issues (https://github.com/marketplace/actions/close-stale-issues)
 name: Close stale PRs
-on:
+on: # yamllint disable-line rule:truthy
   schedule:
     - cron: 0 4 * * *
 
