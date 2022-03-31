@@ -5,7 +5,6 @@ slug: fpr2140-ngfw-k9
 part_number: FPR2140-NGFW-K9
 u_height: 1
 is_full_depth: true
-subdevice_role: parent
 comments: '[Cisco Firepower 2100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firepower-2100-series/datasheet-c78-742473.html)'
 console-ports:
   - name: Console
@@ -71,5 +70,5 @@ interfaces:
   - name: Management1/1
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: Network Module 1

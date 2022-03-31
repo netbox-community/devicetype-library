@@ -1,0 +1,14 @@
+---
+manufacturer: Cisco
+model: C3850-NM-2-10G
+part_number: C3850-NM-2-10G
+comments: '[Cisco Catalyst 3850 Series Switches Data Sheet](https://www.cisco.com/c/en_in/products/collateral/switches/catalyst-3850-series-switches/datasheet_c78-720918.html)'
+interfaces:
+  - name: GigabitEthernet1/{module}/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/{module}/2
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet1/{module}/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/4
+    type: 10gbase-x-sfpp

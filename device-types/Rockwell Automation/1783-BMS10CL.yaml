@@ -26,17 +26,19 @@ interfaces:
     type: 100base-tx
   - name: FastEthernet1/10
     type: 100base-tx
+  - name: SVI1
+    type: virtual
 console-ports:
   - name: usb
     type: usb-mini-b
   - name: con 0
     type: rj-45
-power-port:
+power-ports:
   - name: Pwr-A
     type: dc-terminal
-    maximum_draw: 13
-    allocated_draw: 17
+    maximum_draw: 17
+    allocated_draw: 13
   - name: Pwr-B
     type: dc-terminal
-    maximum_draw: 13
-    allocated_draw: 17
+    maximum_draw: 17
+    allocated_draw: 13

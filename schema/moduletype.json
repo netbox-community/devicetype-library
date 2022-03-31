@@ -1,0 +1,61 @@
+{
+    "type": "object",
+    "properties": {
+        "manufacturer": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "part_number": {
+            "type": "string"
+        },
+        "console-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/console-port"
+            }
+        },
+        "console-server-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/console-server-port"
+            }
+        },
+        "power-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/power-port"
+            }
+        },
+        "power-outlets": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/power-outlet"
+            }
+        },
+        "interfaces": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/interface"
+            }
+        },
+        "front-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/front-port"
+            }
+        },
+        "rear-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/rear-port"
+            }
+        },
+        "comments": {
+            "type": "string"
+        }
+    },
+    "required": ["manufacturer", "model"],
+    "additionalProperties": false
+}

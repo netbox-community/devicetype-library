@@ -1,0 +1,32 @@
+---
+manufacturer: Lenovo
+model: System x3750 M4
+slug: system_x3750_m4
+part_number: 8722C1U
+u_height: 2
+is_full_depth: true
+comments: '[Lenovo System x3750 M4 product guide](https://lenovopress.com/tips0881.pdf)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: IMM
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Rear VGA
+    type: other
+  - name: Front usb 2.0 (Left)
+    type: usb-a
+  - name: Front usb 2.0 (Right)
+    type: usb-a
+  - name: Rear usb 2.0 (Top)
+    type: usb-a
+  - name: Rear usb 2.0 (Bottom)
+    type: usb-a

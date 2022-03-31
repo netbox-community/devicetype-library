@@ -5,7 +5,6 @@ slug: 8320-48xt6q
 part_number: JL581A
 u_height: 1
 is_full_depth: false
-comments: ''
 console-ports:
   - name: rj45-console
     type: rj-45
@@ -164,6 +163,24 @@ interfaces:
     mgmt_only: false
   - name: 1/1/48
     type: 10gbase-t
+    mgmt_only: false
+  - name: 1/1/49
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
+  - name: 1/1/50
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
+  - name: 1/1/51
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
+  - name: 1/1/52
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
+  - name: 1/1/53
+    type: 40gbase-x-qsfpp
+    mgmt_only: false
+  - name: 1/1/54
+    type: 40gbase-x-qsfpp
     mgmt_only: false
   - name: mgmt
     type: 1000base-t

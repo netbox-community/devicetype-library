@@ -5,11 +5,12 @@ part_number: CISCO2951/K9
 slug: cisco2951_K9
 u_height: 2
 is_full_depth: true
-console_ports:
+console-ports:
   - name: con 0
     type: rj-45
-power_ports:
+power-ports:
   - name: PS-1
+    type: iec-60320-c14
     allocated_draw: 70
     maximum_draw: 340
 interfaces:

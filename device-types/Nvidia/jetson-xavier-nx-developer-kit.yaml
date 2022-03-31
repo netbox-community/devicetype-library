@@ -1,0 +1,28 @@
+---
+manufacturer: Nvidia
+model: Jetson Xavier NX Developer Kit
+slug: jetson-xavier-nx-developer-kit
+comments: '[Jetson Xavier NX Developer Kit website](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/)'
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: eth0
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: dc-terminal
+console-server-ports:
+  - name: HDMI
+    type: other
+  - name: Display Port
+    type: other
+  - name: USB 1
+    type: usb-a
+  - name: USB 2
+    type: usb-a
+  - name: USB 3
+    type: usb-a
+  - name: USB 4
+    type: usb-a
+  - name: micro USB type B
+    type: usb-micro-b
