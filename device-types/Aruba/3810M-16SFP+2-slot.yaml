@@ -1,0 +1,120 @@
+---
+manufacturer: Aruba
+model: 3810M-16SFP+2-slot
+slug: 3810m-16sfp2-slot
+part_number: JL075A
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+airflow: side-to-rear
+comments: ''
+power-ports:
+- name: JL085A1
+  type: iec-60320-c14
+  maximum_draw: 250
+  allocated_draw: 40
+  label: JL085A1
+  description: ''
+- name: JL085A2
+  type: iec-60320-c14
+  maximum_draw: 250
+  allocated_draw: 40
+  label: JL085A2
+  description: ''
+interfaces:
+- name: '1'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '1'
+  description: ''
+- name: '2'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '2'
+  description: ''
+- name: '3'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '3'
+  description: ''
+- name: '4'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '4'
+  description: ''
+- name: '5'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '5'
+  description: ''
+- name: '6'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '6'
+  description: ''
+- name: '7'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '7'
+  description: ''
+- name: '8'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '8'
+  description: ''
+- name: '9'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '9'
+  description: ''
+- name: '10'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '10'
+  description: ''
+- name: '11'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '11'
+  description: ''
+- name: '12'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '12'
+  description: ''
+- name: '13'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '13'
+  description: ''
+- name: '14'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '14'
+  description: ''
+- name: '15'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '15'
+  description: ''
+- name: '16'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '16'
+  description: ''
+- name: VLAN1
+  type: virtual
+  mgmt_only: false
+  label: VLAN1
+  description: VLAN1
+module-bays:
+- name: SlotA
+  label: A
+  description: Expansion Module Slot
+- name: SlotB
+  label: B
+  description: Expansion Module Slot
+- name: StackingBay
+  label: ''
+  description: StackingBay
+---
