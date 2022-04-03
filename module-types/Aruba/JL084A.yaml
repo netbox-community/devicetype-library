@@ -4,24 +4,23 @@ model: 3810M 4-port Stacking Module
 part_number: JL084A
 comments: ''
 interfaces:
-- name: STK1
-  type: aruba-38xx-stack
-  mgmt_only: false
-  label: STK1
-  description: ''
-- name: STK2
-  type: aruba-38xx-stack
-  mgmt_only: false
-  label: STK2
-  description: ''
-- name: STK3
-  type: aruba-38xx-stack
-  mgmt_only: false
-  label: STK3
-  description: ''
-- name: STK4
-  type: aruba-38xx-stack
-  mgmt_only: false
-  label: STK4
-  description: ''
----
+  - name: STK1
+    type: aruba-38xx-stack
+    mgmt_only: false
+    label: STK1
+    description: ''
+  - name: STK2
+    type: aruba-38xx-stack
+    mgmt_only: false
+    label: STK2
+    description: ''
+  - name: STK3
+    type: aruba-38xx-stack
+    mgmt_only: false
+    label: STK3
+    description: ''
+  - name: STK4
+    type: aruba-38xx-stack
+    mgmt_only: false
+    label: STK4
+    description: ''
