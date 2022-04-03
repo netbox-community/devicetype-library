@@ -4,14 +4,13 @@ model: 2920 2-Port 10GbE SFP+
 part_number: J9731A
 comments: ''
 interfaces:
-- name: '1'
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: '1'
-  description: ''
-- name: '2'
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: '2'
-  description: ''
----
+  - name: '1'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '1'
+    description: ''
+  - name: '2'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '2'
+    description: ''
