@@ -4,24 +4,23 @@ model: 3810M/2930M 4-port 10GbE SFP+ Module
 part_number: JL083A
 comments: ''
 interfaces:
-- name: A1
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: A1
-  description: ''
-- name: A2
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: A2
-  description: ''
-- name: A3
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: A3
-  description: ''
-- name: A4
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: A4
-  description: ''
----
+  - name: A1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: A1
+    description: ''
+  - name: A2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: A2
+    description: ''
+  - name: A3
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: A3
+    description: ''
+  - name: A4
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: A4
+    description: ''
