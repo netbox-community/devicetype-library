@@ -70,6 +70,13 @@ interfaces:
     type: 10gbase-t
   - name: TenGigabitEthernet1/0/24
     type: 10gbase-t
-module-bays:
+  - name: STACK0
+    type: cisco-stackwise-480
+    mgmt_only: false
+  - name: STACK1
+    type: cisco-stackwise-480
+    mgmt_only: false
+  module-bays:
   - name: Network Module
     position: '1'
+  

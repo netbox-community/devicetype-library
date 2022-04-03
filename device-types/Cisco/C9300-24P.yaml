@@ -15,9 +15,11 @@ power-ports:
   - name: PS-A
     type: iec-60320-c16
     maximum_draw: 715
+    allocated_draw: 445
   - name: PS-B
     type: iec-60320-c16
     maximum_draw: 715
+    allocated_draw: 445
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -47,6 +49,7 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/14
     type: 1000base-t
+    type: 1000base-t
   - name: GigabitEthernet1/0/15
     type: 1000base-t
   - name: GigabitEthernet1/0/16
@@ -70,6 +73,12 @@ interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
+  - name: STACK0
+    type: cisco-stackwise-480
+    mgmt_only: false
+  - name: STACK1
+    type: cisco-stackwise-480
+    mgmt_only: false
 module-bays:
   - name: Network Module
     position: '1'

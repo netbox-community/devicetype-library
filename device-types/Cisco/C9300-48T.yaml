@@ -118,6 +118,12 @@ interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
+  - name: STACK0
+    type: cisco-stackwise-480
+    mgmt_only: false
+  - name: STACK1
+    type: cisco-stackwise-480
+    mgmt_only: false
 module-bays:
   - name: Network Module
     position: '1'
