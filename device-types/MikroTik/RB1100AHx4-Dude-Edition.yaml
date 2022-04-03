@@ -4,6 +4,7 @@ model: RB1100AHx4 Dude Edition
 slug: rb1100dx4
 is_full_depth: false
 u_height: 1
+subdevice_role: parent
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -41,3 +42,9 @@ power-ports:
   - name: power2
     type: iec-60320-c14
     maximum_draw: 20
+device-bays:
+  - name: SATA-3 1
+  - name: SATA-3 2
+  - name: M.2 slots 1
+  - name: M.2 slots 2
+  
