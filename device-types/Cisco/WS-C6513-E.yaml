@@ -1,0 +1,44 @@
+---
+manufacturer: Cisco
+model: Catalyst 6513-E
+slug: ws-c6513-e
+part_number: WS-C6513-e
+u_height: 19
+is_full_depth: true
+subdevice_role: parent
+power-ports:
+  - name: PS1-1
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS1-2
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS1-3
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS2-1
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS2-2
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS2-3
+    type: iec-60320-c20
+    maximum_draw: 2800
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+    mgmt_only: true
+device-bays:
+  - name: slot-1
+  - name: slot-2
+  - name: slot-3
+  - name: slot-4
+  - name: slot-5
+  - name: slot-6
+  - name: slot-7
+  - name: slot-8
+  - name: slot-9
+  - name: slot-10
+  - name: slot-12
+  - name: slot-13
