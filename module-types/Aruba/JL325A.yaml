@@ -4,14 +4,13 @@ model: 2930 2-port stacking module
 part_number: JL325A
 comments: ''
 interfaces:
-- name: STK1
-  type: aruba-29xx-stack
-  mgmt_only: false
-  label: STK1
-  description: ''
-- name: STK2
-  type: aruba-29xx-stack
-  mgmt_only: false
-  label: STK2
-  description: ''
----
+  - name: STK1
+    type: aruba-29xx-stack
+    mgmt_only: false
+    label: STK1
+    description: ''
+  - name: STK2
+    type: aruba-29xx-stack
+    mgmt_only: false
+    label: STK2
+    description: ''
