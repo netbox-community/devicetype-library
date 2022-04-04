@@ -2,15 +2,26 @@
 manufacturer: Juniper
 model: JNP-SRX380-P
 slug: srx380
-part_number: SRX380-P
+part_number: SRX380-P-SYS-JB-AC
+comments: '[Juniper SRX345 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
 u_height: 1
 is_full_depth: true
 console-ports:
-  - name: console0
+  - name: Serial Console
     type: rj-45
+  - name: Mini-USB slot
+    type: usb-mini-b
+  - name: usb Port
+    type: usb-a
 power-ports:
-  - name: power0
+  - name: PSU0
     type: iec-60320-c14
+    maximum_draw: 600
+    allocated_draw: 510
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 600
+    allocated_draw: 510
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
@@ -75,3 +86,9 @@ interfaces:
   - name: fxp0
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: SSD Slot
+  - name: Mini PIM Slot1
+  - name: Mini PIM Slot2
+  - name: Mini PIM Slot3
+  - name: Mini PIM Slot4
