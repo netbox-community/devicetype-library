@@ -16,7 +16,7 @@ console-ports:
 console-server-ports:
   - name: Front USB1
     type: usb-a
-  - name: Front USB2
+  - name: Front iDRAC Direct port
     type: usb-a
   - name: Rear USB1
     type: usb-a
@@ -25,8 +25,10 @@ console-server-ports:
 power-ports:
   - name: Power 1
     type: iec-60320-c14
+    maximum_draw: 750
   - name: Power 2
     type: iec-60320-c14
+    maximum_draw: 750
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
@@ -36,6 +38,16 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 4
     type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
+  - name: PCIe-Gen3 3
+  - name: Riser2 PCIe-Gen3 4
+  - name: Riser2 PCIe-Gen3 5
+  - name: Riser2 PCIe-Gen3 6
+  - name: Riser3 PCIe-Gen3 7
+  - name: Riser3 PCIe-Gen3 8
+
