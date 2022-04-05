@@ -7,10 +7,12 @@ u_height: 1
 is_full_depth: true
 comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
 console-ports:
-  - name: con 0
+  - name: Rear con 0
     type: rj-45
-  - name: usb
+  - name: USB Mini Console
     type: usb-mini-b
+  - name: USB Port
+    type: usb-a 
 power-ports:
   - name: PS-A
     type: iec-60320-c16
@@ -119,10 +121,10 @@ interfaces:
   - name: TenGigabitEthernet1/0/48
     type: 10gbase-t
   - name: STACK0
-    type: cisco-stackwise
+    type: cisco-stackwise-480
     mgmt_only: false
   - name: STACK1
-    type: cisco-stackwise
+    type: cisco-stackwise-480
     mgmt_only: false
 module-bays:
   - name: Network Module

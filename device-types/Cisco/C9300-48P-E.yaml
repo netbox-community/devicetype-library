@@ -121,3 +121,9 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: STACK0
+    type: cisco-stackwise-480
+    mgmt_only: false
+  - name: STACK1
+    type: cisco-stackwise-480
+    mgmt_only: false

@@ -13,10 +13,10 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-A
-    type: iec-60320-c14
+    type: iec-60320-c16
     maximum_draw: 350
   - name: PS-B
-    type: iec-60320-c14
+    type: iec-60320-c16
     maximum_draw: 350
 interfaces:
   - name: GigabitEthernet1/0/1

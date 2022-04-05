@@ -7,16 +7,18 @@ u_height: 1
 is_full_depth: false
 comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
-  - name: Console
+  - name: Rear con 0
     type: rj-45
-  - name: usb
+  - name: USB Mini Console
     type: usb-mini-b
+  - name: USB Port
+    type: usb-a 
 power-ports:
   - name: PS-1
-    type: iec-60320-c15
+    type: iec-60320-c16
     maximum_draw: 125
   - name: PS-2
-    type: iec-60320-c15
+    type: iec-60320-c16
     maximum_draw: 125
 interfaces:
   - name: GigabitEthernet1/0/1
