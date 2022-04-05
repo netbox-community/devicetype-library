@@ -6,7 +6,15 @@ part_number: ASR1001-X
 comments: '[Cisco ASR 1000 Series 2.5-Gbps ESP/Upgradable through a software-activated feature license to 5, 10, or 20 Gbps] '
 u_height: 1
 is_full_depth: true
-subdevice_role: child
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: AUX Port
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
@@ -27,15 +35,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/1
     type: 10gbase-x-sfpp
-console-ports:
-  - name: con 0
-    type: rj-45
-  - name: AUX Port
-    type: rj-45
-  - name: usb1
-    type: usb-a
-  - name: usb2
-    type: usb-a
 power-ports:
   - name: PSU0
     type: iec-60320-c14
@@ -43,6 +42,6 @@ power-ports:
   - name: PSU1
     type: iec-60320-c14
     maximum_draw: 250
-device-bays:
+module-bays:
   - name: NIM slots
   - name: Shared port adapter slot
