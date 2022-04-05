@@ -1,0 +1,42 @@
+---
+manufacturer: Palo Alto
+model: PA-220R
+slug: pa-220r
+part_number: PAN-PA-220R 
+u_height: 1
+is_full_depth: false
+comments: '[PA-220R Datasheet](https://docs.paloaltonetworks.com/hardware/pa-220r-hardware-reference)'
+power-ports:
+  - name: PDC Terminal Block
+    type: dc-terminal
+    maximum_draw: 17
+    allocated_draw: 13
+console-ports:
+  - name: console
+    type: rj-45
+  - name: console USB
+    type: usb-micro-b
+  - name: USB Port
+    type: usb-a   
+interfaces:
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-x-sfp
+  - name: ethernet1/8
+    type: 1000base-x-sfp
+  - name: loopback
+    type: virtual

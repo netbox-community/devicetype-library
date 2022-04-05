@@ -1,0 +1,38 @@
+---
+manufacturer: Palo Alto
+model: PA-410
+slug: pa-410
+part_number: PAN-PA-440
+u_height: 1
+is_full_depth: false
+comments: '[PA-410 Datasheet](https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin)'
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 18
+console-ports:
+  - name: console
+    type: rj-45
+  - name: USB Port
+    type: usb-a   
+interfaces:
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: loopback
+    type: virtual
