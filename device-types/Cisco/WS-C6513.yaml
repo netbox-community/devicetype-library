@@ -9,17 +9,29 @@ subdevice_role: parent
 console-ports:
   - name: con0
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 8700
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 8700
 interfaces:
   - name: FastEthernet1
     type: 100base-tx
     mgmt_only: true
+power-ports:
+  - name: PS1-1
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS1-2
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS1-3
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS2-1
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS2-2
+    type: iec-60320-c20
+    maximum_draw: 2800
+  - name: PS2-3
+    type: iec-60320-c20
+    maximum_draw: 2800
 module-bays:
   - name: slot-1
   - name: slot-2
