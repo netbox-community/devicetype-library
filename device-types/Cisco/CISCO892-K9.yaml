@@ -3,12 +3,10 @@ manufacturer: Cisco
 model: CISCO892-K9
 part_number: CISCO892-K9
 slug: cisco892-k9
-comments: '[Cisco C891F-K9 router SFP] 
+comments: '[Cisco C891F-K9 router SFP]'
 u_height: 1
 is_full_depth: false
 interfaces:
-  - name: V.92 backup
-    type: rj-45
   - name: Back up WAN port—FE WAN
     type: 100base-tx
   - name: Primary WAN port—GE WAN
@@ -45,9 +43,10 @@ console-ports:
     type: usb-a
   - name: FRONT usb2
     type: usb-a
+  - name: V.92 backup
+    type: rj-45
 power-ports:
   - name: Pwr-A
     type: dc-terminal
     maximum_draw: 60
-    allocated_draw: 0
 
