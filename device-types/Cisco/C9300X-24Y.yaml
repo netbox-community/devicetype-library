@@ -1,0 +1,84 @@
+---
+manufacturer: Cisco
+model: Catalyst C9300X-24Y
+slug: c9300X-24Y
+part_number: C9300X-24Y
+u_height: 1
+is_full_depth: true
+comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-swit-ser-cte-en.html)'
+console-ports:
+  - name: Rear con 0
+    type: rj-45
+  - name: USB Mini Console
+    type: usb-mini-b
+  - name: USB Port
+    type: usb-a 
+  - name: USB-C Port
+    type: usb-c 
+power-ports:
+  - name: PS-1
+    type: iec-60320-c16
+    maximum_draw: 714
+  - name: PS-2
+    type: iec-60320-c16
+    maximum_draw: 715
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TwentyFiveGigE1/0/1
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/2
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/3
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/4
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/5
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/6
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/7
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/8
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/9
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/10
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/11
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/12
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/13
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/14
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/15
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/16
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/17
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/18
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/19
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/20
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/21
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/22
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/23
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE1/0/24
+    type: 25gbase-x-sfp28
+  - name: STACK0
+    type: cisco-stackwise-480
+    mgmt_only: false
+  - name: STACK1
+    type: cisco-stackwise-480
+module-bays:
+  - name: Network Module
+    position: '1'
