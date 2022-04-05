@@ -5,9 +5,11 @@ slug: hpe_dl380_g9
 u_height: 2
 is_full_depth: true
 console-ports:
-  - name: Serial
+  - name: Option Rear Serial
     type: de-9
-  - name: VGA
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
     type: other
   - name: Front USB1
     type: usb-a
@@ -18,10 +20,10 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 1400
+    maximum_draw: 800
   - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 1400
+    maximum_draw: 800
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
@@ -38,3 +40,13 @@ interfaces:
   - name: iLO
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: FlexibleLOM2 
+  - name: Pri Riser/PCIe 1
+  - name: Pri Riser/PCIe 2
+  - name: Pri Riser/PCIe 3
+  - name: 2nd Riser/PCIe 4
+  - name: 2nd Riser/PCIe 5
+  - name: 2nd Riser/PCIe 6
+  - name: 3nd Riser/PCIe 7
+  - name: 3nd Riser/PCIe 8
