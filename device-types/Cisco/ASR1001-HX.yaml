@@ -3,25 +3,26 @@ manufacturer: Cisco
 model: ASR1001-HX
 slug: asr1001-hx
 part_number: ASR1001-HX
+comments: '[Cisco ASR 1000-HX Scalability 44 Gbps – 60 Gbps] '
 u_height: 1
 is_full_depth: true
 interfaces:
   - name: GigabitEthernet0/0/0
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/1
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/2
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/3
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/4
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/5
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/6
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/7
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: TenGigabitEthernet0/1/0
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/1/1
@@ -51,3 +52,13 @@ power-ports:
 console-ports:
   - name: con 0
     type: rj-45
+  - name: AUX Port
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+  - name: usb-con
+    type: usb-mini-b
+device-bays:
+  - name: Crypto Module
