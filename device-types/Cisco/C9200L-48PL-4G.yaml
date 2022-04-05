@@ -13,10 +13,10 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-1
-    type: iec-60320-c14
+    type: iec-60320-c15
     maximum_draw: 600
   - name: PS-2
-    type: iec-60320-c14
+    type: iec-60320-c15
     maximum_draw: 600
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -176,10 +176,10 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
   - name: STACK0
-    type: cisco-stackwise
+    type: cisco-stackwise-80
     mgmt_only: false
   - name: STACK1
-    type: cisco-stackwise
+    type: cisco-stackwise-80
     mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
