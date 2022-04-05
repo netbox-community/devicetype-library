@@ -1,0 +1,49 @@
+---
+manufacturer: Check Point
+model: SG3600
+slug: sg3600
+part_number: CPAP-SG3600-SNBT
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+  - name: ttyS1
+    label: CONSOLE
+    type: usb-c
+power-ports:
+  - name: PS1
+    type: dc-terminal
+  - name: PS2
+    type: dc-terminal
+interfaces:
+  - name: eth1
+    label: "1"
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth2
+    label: "2"
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth3
+    label: "3"
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth4
+    label: "4"
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth5
+    label: "5"
+    type: 1000base-t
+    mgmt_only: false
+  - name: Mgmt
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: false
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true

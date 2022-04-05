@@ -101,3 +101,23 @@ def test_definitions(file_path, schema):
             if name in known_names:
                 pytest.fail(f'Duplicate entry "{name}" in {component_type} list', False)
             known_names.add(name)
+
+    # Check for empty quotes
+    def iterdict(var):
+        for dict_value in var.values():
+            if isinstance(dict_value, dict):
+                iterdict(dict_value)
+            if isinstance(dict_value, list):
+                iterlist(dict_value)
+            else:
+                if(isinstance(dict_value, str) and not dict_value):
+                    pytest.fail(f'{file_path} has empty quotes', False)
+
+    def iterlist(var):
+        for list_value in var:
+            if isinstance(list_value, dict):
+                iterdict(list_value)
+            elif isinstance(list_value, list):
+                iterlist(list_value)
+
+    iterdict(definition)
