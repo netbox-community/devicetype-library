@@ -7,15 +7,23 @@ u_height: 1
 is_full_depth: false
 comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
 power-ports:
-  - name: PS1
-    type: nema-1-15p
-  - name: PS2
-    type: nema-1-15p
+  - name: PWR1
+    type: dc-terminal
+    maximum_draw: 25
+    allocated_draw: 21
+  - name: PWR2 
+    type: dc-terminal
+    maximum_draw: 25
+    allocated_draw: 21
 console-ports:
   - name: console
     type: rj-45
+  - name: console USB
+    type: usb-micro-b
+  - name: USB Port
+    type: usb-a   
 interfaces:
-  - name: management
+  - name: MGT
     type: 1000base-t
     mgmt_only: true
   - name: ethernet1/1
