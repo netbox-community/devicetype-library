@@ -2,18 +2,24 @@
 manufacturer: Palo Alto
 model: PA-820
 slug: pa-820
-part_number: PA-820
+part_number: PAN-PA-820
+comments: '[PA-800 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet)'
 u_height: 1
 is_full_depth: false
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 200
+    maximum_draw: 120
+    allocated_draw: 41
 console-ports:
   - name: console
     type: rj-45
+  - name: console USB
+    type: usb-micro-b
+  - name: USB Port
+    type: usb-a   
 interfaces:
-  - name: management
+  - name: MGT
     type: 1000base-t
     mgmt_only: true
   - name: dedicated-ha1
