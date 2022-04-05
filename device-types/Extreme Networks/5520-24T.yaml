@@ -1,0 +1,122 @@
+---
+manufacturer: Extreme Networks
+model: 5520-24T
+slug: 5520-24t
+part_number: '5520-24T'
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Console_RJ45
+    type: rj-45
+  - name: Console_USB
+    type: usb-micro-b
+console-server-ports:
+  - name: USB-Storage1
+    type: usb-a
+    description: 'for management or external USB flash'
+  - name: USB-Storage2
+    type: usb-a
+    description: 'for management or external USB flash'
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '2'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '3'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '4'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '5'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '6'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '7'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '8'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '9'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '10'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '11'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '12'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '13'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '14'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '15'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '16'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '17'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '18'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '19'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '20'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '21'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '22'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '23'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '24'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '25'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '26'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '27'
+    type: other
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
+  - name: '28'
+    type: other
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+; only with VIM-2 module  
+  - name: '29'
+    type: other
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
+  - name: '30'
+    type: other
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PSU-1
+  - name: PSU-2
+  - name: VIM-2
