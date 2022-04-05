@@ -4,7 +4,8 @@ model: Catalyst 6513
 slug: ws-c6513
 part_number: WS-C6513
 u_height: 19
-is_full_depth: false
+is_full_depth: true
+subdevice_role: parent
 console-ports:
   - name: con0
     type: rj-45
@@ -19,3 +20,16 @@ interfaces:
   - name: FastEthernet1
     type: 100base-tx
     mgmt_only: true
+module-bays:
+  - name: slot-1
+  - name: slot-2
+  - name: slot-3
+  - name: slot-4
+  - name: slot-5
+  - name: slot-6
+  - name: slot-7
+  - name: slot-8
+  - name: slot-9
+  - name: slot-10
+  - name: slot-12
+  - name: slot-13
