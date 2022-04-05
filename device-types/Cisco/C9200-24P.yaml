@@ -4,7 +4,7 @@ model: C9200-24P
 part_number: C9200-24P
 slug: c9200-24p
 u_height: 1
-is_full_depth: false
+is_full_depth: true
 comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: Console
@@ -13,10 +13,10 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-1
-    type: iec-60320-c14
+    type: iec-60320-c15
     maximum_draw: 600
   - name: PS-2
-    type: iec-60320-c14
+    type: iec-60320-c15
     maximum_draw: 600
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -100,3 +100,6 @@ interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: Network Module
+    position: '1'
