@@ -64,3 +64,10 @@ power-ports:
 console-ports:
   - name: Console
     type: rj-45
+  - name: STACK0
+    type: cisco-stackwise-320
+    mgmt_only: false
+  - name: STACK1
+    type: cisco-stackwise-320
+    mgmt_only: false
+    
