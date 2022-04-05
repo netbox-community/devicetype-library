@@ -1,8 +1,8 @@
 ---
 manufacturer: Palo Alto
-model: PA-440
-slug: pa-440
-part_number: PAN-PA-440
+model: PA-460
+slug: pa-460
+part_number: PAN-PA-460
 u_height: 1
 is_full_depth: false
 comments: '[PA-460 Datasheet](https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin)'
@@ -20,6 +20,7 @@ console-ports:
     type: rj-45
   - name: console USB
     type: usb-micro-b
+console-server-ports:
   - name: USB Port
     type: usb-a   
 interfaces:

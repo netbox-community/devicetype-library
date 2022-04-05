@@ -1,11 +1,11 @@
 ---
 manufacturer: Palo Alto
-model: PA-440
-slug: pa-440
-part_number: PAN-PA-440
+model: PA-450
+slug: pa-450
+part_number: PAN-PA-450
 u_height: 1
 is_full_depth: false
-comments: '[PA-440 Datasheet](https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin)'
+comments: '[PA-450 Datasheet](https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin)'
 power-ports:
   - name: PWR1
     type: dc-terminal
@@ -20,6 +20,7 @@ console-ports:
     type: rj-45
   - name: console USB
     type: usb-micro-b
+console-server-ports:
   - name: USB Port
     type: usb-a   
 interfaces:
