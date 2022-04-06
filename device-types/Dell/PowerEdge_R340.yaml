@@ -2,6 +2,7 @@
 manufacturer: Dell
 model: PowerEdge R340
 slug: dell_poweredge_r340
+comments: '[PowerEdge R340 Rack Server]'
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -34,7 +35,7 @@ interfaces:
     type: 1000base-t
   - name: LOM1 Gig-E 2
     type: 1000base-t
-  - name: iDRAC Option
+  - name: iDRAC9 Option
     type: 1000base-t
     mgmt_only: true
 device-bays:
