@@ -1,0 +1,42 @@
+---
+manufacturer: Dell
+model: PowerEdge R340
+slug: dell_poweredge_r340
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: internal USB
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 550
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 550
+interfaces:
+  - name: LOM1 Gig-E 1
+    type: 1000base-t
+  - name: LOM1 Gig-E 2
+    type: 1000base-t
+  - name: iDRAC Option
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
