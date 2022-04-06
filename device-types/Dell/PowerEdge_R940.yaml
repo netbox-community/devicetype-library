@@ -1,0 +1,63 @@
+---
+manufacturer: Dell
+model: PowerEdge R940
+slug: dell_poweredge_R940
+comments: '[PowerEdge R940 Rack Server]'
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Front iDRAC Quick Sync 2
+    type: usb-mini-b
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 1100
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 1100
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Baseboard-PCIe-Gen3 1
+  - name: Baseboard-PCIe-Gen3 2
+  - name: Baseboard-PCIe-Gen3 3
+  - name: Baseboard-PCIe-Gen3 4
+  - name: Baseboard-PCIe-Gen3 5
+  - name: Baseboard-PCIe-Gen3 6
+  - name: Baseboard-PCIe-Gen3 7
+  - name: Riser2 PCIe-Gen3 8
+  - name: Riser2 PCIe-Gen3 9
+  - name: Riser2 PCIe-Gen3 10
+  - name: Riser3 PCIe-Gen3 11
+  - name: Riser3 PCIe-Gen3 12
+  - name: Riser3 PCIe-Gen3 13
+
+  
