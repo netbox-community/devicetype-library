@@ -1,0 +1,45 @@
+---
+manufacturer: Dell
+model: PowerEdge R350
+slug: dell_poweredge_R350
+comments: '[PowerEdge R350 Rack Server]'
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: internal USB Optional
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 600
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 600
+interfaces:
+  - name: LOM Gig-E 1
+    type: 1000base-t
+  - name: LOM Gig-E 2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Optional BOSS-2 Removed
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
+  - name: PCIe-Gen3 3
