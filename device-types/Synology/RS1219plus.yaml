@@ -1,0 +1,33 @@
+---
+manufacturer: Synology
+model: RS1219+
+slug: rs1219plus
+part_number: RS1219+
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+console-server-ports:
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: eSata
+    type: other
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN 4
+    type: 1000base-t
+    mgmt_only: false

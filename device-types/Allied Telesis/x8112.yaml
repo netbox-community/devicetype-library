@@ -1,24 +1,23 @@
 ---
 manufacturer: Allied Telesis
-model: SwitchBlade x908 Gen2
-slug: sbx908-gen2
-part_number: AT-SBx908GEN2
-u_height: 3
+model: SwitchBlade x8112
+slug: sbx8112
+part_number: AT-SBx8112
+u_height: 7
 is_full_depth: true
-console-ports:
-  - name: Console
-    type: rj-45
-interfaces:
-  - name: eth0
-    type: 1000base-t
-    mgmt_only: true
 module-bays:
   - name: PSU Slot A
     position: 'A'
-    label: PSU 1
+    label: PoE PSU 1
   - name: PSU Slot B
     position: 'B'
-    label: PSU 2
+    label: PoE PSU 2
+  - name: PSU Slot C
+    position: 'C'
+    label: System PSU 1
+  - name: PSU Slot D
+    position: 'D'
+    label: System PSU 2
   - name: Slot 1
     position: '1'
   - name: Slot 2
@@ -35,10 +34,15 @@ module-bays:
     position: '7'
   - name: Slot 8
     position: '8'
+  - name: Slot 9
+    position: '9'
+  - name: Slot 10
+    position: '10'
+  - name: Slot 11
+    position: '11'
+  - name: Slot 12
+    position: '12'
 inventory-items:
-  - name: Fan-Module A
+  - name: Fan-Module
     manufacturer: Allied Telesis
-    part_id: AT-FAN08
-  - name: Fan-Module B
-    manufacturer: Allied Telesis
-    part_id: AT-FAN08
+    part_id: AT-SBxFAN12

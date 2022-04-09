@@ -1,15 +1,12 @@
 ---
 manufacturer: Dell
-model: PowerEdge R640
-slug: dell_poweredge_r640
-u_height: 1
+model: PowerEdge R940
+slug: dell_poweredge_r940
+u_height: 4
 is_full_depth: true
-subdevice_role: parent
 console-ports:
   - name: Serial
     type: de-9
-  - name: USB
-    type: usb-a
   - name: VGA
     type: other
 console-server-ports:
@@ -26,15 +23,27 @@ power-ports:
     type: iec-60320-c14
   - name: Power 2
     type: iec-60320-c14
+  - name: Power 3
+    type: iec-60320-c14
+  - name: Power 4
+    type: iec-60320-c14
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
+  - name: 10GbE 1
+    type: 10gbase-t
+  - name: 10GbE 2'
+    type: 10gbase-t
+  - name: 10GbE 3
+    type: 10gbase-t
+  - name: 10GbE 4
+    type: 10gbase-t
+  - name: 10GbE 5
+    type: 10gbase-t
+  - name: 10GbE 6
+    type: 10gbase-t
+  - name: 10GbE 7
+    type: 10gbase-t
+  - name: 10GbE 8
+    type: 10gbase-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
