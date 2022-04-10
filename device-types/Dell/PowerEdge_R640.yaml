@@ -4,18 +4,19 @@ model: PowerEdge R640
 slug: dell_poweredge_r640
 u_height: 1
 is_full_depth: true
-subdevice_role: parent
 console-ports:
   - name: Serial
     type: de-9
-  - name: USB
+  - name: Optional USB Port
     type: usb-a
-  - name: VGA
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
     type: other
 console-server-ports:
   - name: Front USB1
     type: usb-a
-  - name: Front USB2
+  - name: Front iDRAC Direct micro port
     type: usb-a
   - name: Rear USB1
     type: usb-a
@@ -24,8 +25,10 @@ console-server-ports:
 power-ports:
   - name: Power 1
     type: iec-60320-c14
+    maximum_draw: 750
   - name: Power 2
     type: iec-60320-c14
+    maximum_draw: 750
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
@@ -35,6 +38,10 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 4
     type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
+  - name: PCIe-Gen3 3
