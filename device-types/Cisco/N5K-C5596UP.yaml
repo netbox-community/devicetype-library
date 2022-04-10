@@ -3,8 +3,9 @@ manufacturer: Cisco
 model: Nexus 5596UP
 slug: n5k-c5596up
 part_number: N5K-C5596UP
+comments: 'N5K-C5596UP-Cisco Nexus 5596UP Switch, including 48 fixed unified ports, Front-to-Back Airflow, 2 1100W AC Power Supplies, Fan Trays, 3 Expansion Slots.'
 u_height: 2
-is_full_depth: false
+is_full_depth: true
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -109,11 +110,24 @@ power-ports:
   - name: PSU0
     type: iec-60320-c14
     allocated_draw: 660
-    maximum_draw: 972
+    maximum_draw: 1100
   - name: PSU1
     type: iec-60320-c14
     allocated_draw: 660
-    maximum_draw: 972
+    maximum_draw: 1100
 console-ports:
   - name: Console
     type: rj-45
+  - name: usb
+    type: usb-a
+  - name: L1
+    type: rj-45
+  - name: L2
+    type: rj-45
+module-bays:
+  - name: Network Module
+    position: '2'
+  - name: Network Module
+    position: '3'
+  - name: Network Module
+    position: '4'
