@@ -3,6 +3,7 @@ manufacturer: Cisco
 model: Nexus 5548P
 slug: n5k-c5548p
 part_number: N5K-C5548P
+comments: 'Cisco Nexus N5K-C5548P 5548P 32x 1/10Gb SFP+ Port Managed Fabric Switch 2x PSU'
 u_height: 1
 is_full_depth: false
 interfaces:
@@ -85,3 +86,13 @@ power-ports:
 console-ports:
   - name: Console
     type: rj-45
+  - name: usb
+    type: usb-a
+  - name: L1
+    type: rj-45
+  - name: L2
+    type: rj-45
+module-bays:
+  - name: Network Module
+    position: '2'
+    
