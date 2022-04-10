@@ -3,16 +3,21 @@ manufacturer: Cisco
 model: UCS-C220-M4
 slug: ucs-c220-m4
 part_number: UCS-C220M4
+comments: 'Cisco UCS C220 M4 High-Density Rack Server '
 u_height: 1
 is_full_depth: true
 console-ports:
-  - name: Con
-    type: rj-45
+  - name: Console connector
+    type: other
+  - name: USB1
+    type: usb-a
+  - name: USB2
+    type: usb-a
 power-ports:
-  - name: PS-0
+  - name: PSU-0
     type: iec-60320-c14
     maximum_draw: 770
-  - name: PS-1
+  - name: PSU-1
     type: iec-60320-c14
     maximum_draw: 770
 interfaces:
@@ -23,3 +28,7 @@ interfaces:
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: mLOM
+  - name: PCIe-01
+  - name: PCIe-01
