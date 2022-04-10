@@ -3,6 +3,7 @@ manufacturer: Cisco
 model: Nexus 5548UP
 slug: n5k-c5548up
 part_number: N5K-C5548UP
+comments: 'CISCO N5K-C5548UP - Nexus 5548 UP Chassis, 32 10GbE Ports'
 u_height: 1
 interfaces:
   - name: mgmt0
@@ -75,8 +76,22 @@ interfaces:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
+    allocated_draw: 390
+    maximum_draw: 730
   - name: PSU1
     type: iec-60320-c14
+    allocated_draw: 390
+    maximum_draw: 730
 console-ports:
   - name: Console
     type: rj-45
+  - name: usb
+    type: usb-a
+  - name: L1
+    type: rj-45
+  - name: L2
+    type: rj-45
+module-bays:
+  - name: Network Module
+    position: '2'
+
