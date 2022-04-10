@@ -25,10 +25,10 @@ console-server-ports:
   - name: Rear USB2
     type: usb-a
 power-ports:
-  - name: Power 1
+  - name: PSU 1
     type: iec-60320-c14
     maximum_draw: 800
-  - name: Power 2
+  - name: PSU 2
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
@@ -54,4 +54,3 @@ device-bays:
   - name: Optional PCIe-Gen4 6
   - name: Optional PCIe-Gen4 7
   - name: Optional PCIe-Gen4 8
-
