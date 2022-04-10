@@ -3,8 +3,9 @@ manufacturer: Cisco
 model: Nexus 5596T
 slug: n5k-c5596t
 part_number: N5K-C5596T
+comments: 'N5K-C5596T, Cisco Nexus 5596T 2RU, 2PS/4Fans, 32x10GT/16xSFP'
 u_height: 2
-is_full_depth: false
+is_full_depth: true
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -117,3 +118,16 @@ power-ports:
 console-ports:
   - name: Console
     type: rj-45
+  - name: usb
+    type: usb-a
+  - name: L1
+    type: rj-45
+  - name: L2
+    type: rj-45
+module-bays:
+  - name: Network Module
+    position: '2'
+  - name: Network Module
+    position: '3'
+  - name: Network Module
+    position: '4'
