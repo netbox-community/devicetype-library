@@ -30,23 +30,23 @@ interfaces:
     mgmt_only: true
 power-ports:
   - name: PS1
-    type: iec-60320-c20
-    maximum_draw: 2400
+    type: iec-60320-c14
+    maximum_draw: 1200
   - name: PS2
-    type: iec-60320-c20
-    maximum_draw: 2400
+    type: iec-60320-c14
+    maximum_draw: 1200
   - name: PS3
-    type: iec-60320-c20
-    maximum_draw: 2400
+    type: iec-60320-c14
+    maximum_draw: 1200
   - name: PS4
-    type: iec-60320-c20
-    maximum_draw: 2400
+    type: iec-60320-c14
+    maximum_draw: 1200
   - name: PS5
-    type: iec-60320-c20
-    maximum_draw: 2400
+    type: iec-60320-c14
+    maximum_draw: 1200
   - name: PS6
-    type: iec-60320-c20
-    maximum_draw: 2400
+    type: iec-60320-c14
+    maximum_draw: 1200
 device-bays:
   - name: Standby Onboard Administrator
   - name: Active Onboard Administrator
