@@ -1,0 +1,91 @@
+---
+manufacturer: HPE
+model: synergy-12000
+slug: synergy-12000
+comments: 'HPE Synergy 12000 Frame'
+u_height: 10
+is_full_depth: true
+subdevice_role: parent
+interfaces:
+  - name: FLM1
+    type: 1000base-t
+    mgmt_only: true
+  - name: FLM2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Interconnect3, Q1:1
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q1:2
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q1:3
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q1:4
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q5:1
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q5:2
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q5:3
+    type: 16gfc-sfpp
+  - name: Interconnect3, Q5:4
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q1:1
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q1:2
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q1:3
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q1:4
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q5:1
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q5:2
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q5:3
+    type: 16gfc-sfpp
+  - name: Interconnect6, Q5:4
+    type: 16gfc-sfpp
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PS3
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PS4
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PS5
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PS6
+    type: iec-60320-c20
+    maximum_draw: 2400
+device-bays:
+  - name: Front Device Bay 1
+  - name: Front Device Bay 2
+  - name: Front Device Bay 3
+  - name: Front Device Bay 4
+  - name: Front Device Bay 5
+  - name: Front Device Bay 6
+  - name: Front Device Bay 7
+  - name: Front Device Bay 8
+  - name: Front Device Bay 9
+  - name: Front Device Bay 10
+  - name: Front Device Bay 11
+  - name: Front Device Bay 12
+  - name: Front Device Bay 13
+  - name: Front Device Bay 14
+  - name: Front Device Bay 15
+  - name: Front Device Bay 16
+  - name: Front Appliance-Bay 1
+  - name: Front Appliance-Bay 2
+  - name: Rear ICM 1
+  - name: Rear ICM 2
+  - name: Rear ICM 3
+  - name: Rear ICM 4
+  - name: Rear ICM 5
+  - name: Rear ICM 6
