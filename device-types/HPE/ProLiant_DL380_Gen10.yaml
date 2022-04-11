@@ -3,6 +3,7 @@ manufacturer: HPE
 model: ProLiant DL380 Gen10 8SFF 
 slug: hpe_dl380_g10
 part_number: P19720-B21
+comments: 'HPE ProLiant DL380 Gen10 Server /w 8-SFF  '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
@@ -44,11 +45,11 @@ interfaces:
     mgmt_only: true
 device-bays:
   - name: FlexibleLOM2 
-  - name: Pri Riser/PCIe 1
-  - name: Pri Riser/PCIe 2
-  - name: Pri Riser/PCIe 3
-  - name: 2nd Riser/PCIe 4
-  - name: 2nd Riser/PCIe 5
-  - name: 2nd Riser/PCIe 6
-  - name: 3nd Riser/PCIe 7
-  - name: 3nd Riser/PCIe 8
+  - name: Pri-Riser/PCIe 1
+  - name: Pri-Riser/PCIe 2
+  - name: Pri-Riser/PCIe 3
+  - name: 2nd-Riser/PCIe 4
+  - name: 2nd-Riser/PCIe 5
+  - name: 2nd-Riser/PCIe 6
+  - name: 3nd-Riser/PCIe 7
+  - name: 3nd-Riser/PCIe 8
