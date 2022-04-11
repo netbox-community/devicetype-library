@@ -2,8 +2,10 @@
 manufacturer: HPE
 model: ProLiant DL380 Gen9
 slug: hpe_dl380_g9
+comments: 'HPE ProLiant DL380 Gen9 Server '
 u_height: 2
 is_full_depth: true
+subdevice_role: parent
 console-ports:
   - name: Front iLO Front Service Port
     type: usb-a
@@ -27,27 +29,23 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
- - name: FlexibleLOM1 Gig-E 1
+  - name: FlexibleLOM1/Gig-E 1
     type: 1000base-t
-    mgmt_only: false
-  - name: FlexibleLOM1 Gig-E 2
+  - name: FlexibleLOM1/Gig-E 2
     type: 1000base-t
-    mgmt_only: false
-  - name: FlexibleLOM1 Gig-E 3
+  - name: FlexibleLOM1/Gig-E 3
     type: 1000base-t
-    mgmt_only: false
-  - name: FlexibleLOM1 Gig-E 4
+  - name: FlexibleLOM1/Gig-E 4
     type: 1000base-t
   - name: iLO
     type: 1000base-t
     mgmt_only: true
 device-bays:
-  - name: FlexibleLOM2 
-  - name: Pri Riser/PCIe 1
-  - name: Pri Riser/PCIe 2
-  - name: Pri Riser/PCIe 3
-  - name: 2nd Riser/PCIe 4
-  - name: 2nd Riser/PCIe 5
-  - name: 2nd Riser/PCIe 6
-  - name: 3nd Riser/PCIe 7
-  - name: 3nd Riser/PCIe 7
+  - name: FlexibleLOM2
+  - name: Pri-Riser/PCIe 1
+  - name: Pri-Riser/PCIe 2
+  - name: Pri-Riser/PCIe 3
+  - name: 2nd-Riser/PCIe 4
+  - name: 2nd-Riser/PCIe 5
+  - name: 2nd-Riser/PCIe 6
+  - name: 3nd-Riser/PCIe 7
