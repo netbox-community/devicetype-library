@@ -3,6 +3,7 @@ manufacturer: Cisco
 model: Catalyst 6509-V-E
 slug: ws-c6509-v-e
 part_number: WS-C6509-V-E
+comments: 'Cisco Catalyst 6509 Enhanced Vertical Switch w/ 9-SLOT CHASSIS'
 u_height: 21
 is_full_depth: false
 console-ports:
@@ -19,3 +20,13 @@ interfaces:
   - name: FastEthernet1
     type: 100base-tx
     mgmt_only: true
+module-bays:
+  - name: slot-1
+  - name: slot-2
+  - name: slot-3
+  - name: slot-4
+  - name: slot-5
+  - name: slot-6
+  - name: slot-7
+  - name: slot-8
+  - name: slot-9
