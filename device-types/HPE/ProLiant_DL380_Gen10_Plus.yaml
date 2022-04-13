@@ -15,13 +15,26 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 1400
+  - name: FlexLOM
+  - name: PCIe1
+  - name: PCIe2
+  - name: PCIe3
+  - name: PCIe4
+  - name: PCIe5
+  - name: PCIe6
+  - name: PCIe7
+  - name: PCIe8
+  - name: HDDBox1
+    position: front
+  - name: HDDBox2
+    position: front
+  - name: HDDBox3
+    position: front
+  - name: HDDBox4
+    position: back
 interfaces:
   - name: iLO
     type: 1000base-t

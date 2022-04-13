@@ -15,32 +15,30 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-power-ports:
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB4
+    type: usb-a
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU3
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU4
-    type: iec-60320-c14
-    maximum_draw: 1400
+  - name: FlexLOM
+  - name: PCIe1
+  - name: PCIe2
+  - name: PCIe3
+  - name: PCIe4
+  - name: PCIe5
+  - name: PCIe6
+  - name: PCIe7
+  - name: PCIe8
+  - name: PCIe9
+  - name: HDDBox1
+    position: front
+  - name: HDDBox2
+    position: front
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 2
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 3
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 4
-    type: 1000base-t
-    mgmt_only: false
   - name: iLO
     type: 1000base-t
     mgmt_only: true

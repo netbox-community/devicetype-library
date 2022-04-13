@@ -15,32 +15,62 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-power-ports:
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB4
+    type: usb-a
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU3
-    type: iec-60320-c14
-    maximum_draw: 1400
   - name: PSU4
-    type: iec-60320-c14
-    maximum_draw: 1400
+  - name: FlexLOM
+  - name: PCIe1
+    location: primary riser
+  - name: PCIe2
+    location: primary riser
+  - name: PCIe3
+    location: primary riser
+  - name: PCIe4
+    location: primary riser
+  - name: PCIe5
+    location: primary riser
+  - name: PCIe6
+    location: primary riser
+  - name: PCIe7
+    location: primary riser
+  - name: PCIe8
+    location: secondary riser
+  - name: PCIe9
+    location: secondary riser
+  - name: PCIe10  
+    location: secondary riser
+  - name: PCIe11
+    location: secondary riser
+  - name: PCIe12
+    location: secondary riser
+  - name: PCIe13
+    location: secondary riser
+  - name: PCIe14
+    location: secondary riser    
+  - name: PCIe15
+    location: tertiary riser
+  - name: PCIe16
+    location: tertiary riser
+  - name: HDDBox1
+    position: front
+  - name: HDDBox2
+    position: front
+  - name: HDDBox3
+    position: front
+  - name: HDDBox4
+    position: front
+  - name: HDDBox5
+    position: front
+  - name: HDDBox6
+    position: front  
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 2
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 3
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 4
-    type: 1000base-t
-    mgmt_only: false
   - name: iLO
     type: 1000base-t
     mgmt_only: true
+
