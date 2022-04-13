@@ -21,54 +21,75 @@ console-ports:
     type: usb-a
 module-bays:
   - name: PSU1
+    position: PSU1
   - name: PSU2
+    position: PSU2
   - name: PSU3
+    position: PSU3
   - name: PSU4
+    position: PSU4
   - name: FlexLOM
+    position: FlexLOM
   - name: PCIe1
-    location: primary riser
+    position: PCIe1
+	label: primary riser
   - name: PCIe2
-    location: primary riser
+    position: PCIe2
+	label: primary riser
   - name: PCIe3
-    location: primary riser
+    position: PCIe3
+	label: primary riser
   - name: PCIe4
-    location: primary riser
+    position: PCIe4
+	label: primary riser
   - name: PCIe5
-    location: primary riser
+    position: PCIe5
+    label: primary riser
   - name: PCIe6
-    location: primary riser
+    position: PCIe6
+    label: primary riser
   - name: PCIe7
-    location: primary riser
+    position: PCIe7
+    label: primary riser
   - name: PCIe8
-    location: secondary riser
+    position: PCIe8
+	label: secondary riser
   - name: PCIe9
-    location: secondary riser
+    position: PCIe9
+    label: secondary riser
   - name: PCIe10  
-    location: secondary riser
+    position: PCIe10
+    label: secondary riser
   - name: PCIe11
-    location: secondary riser
+    position: PCIe11
+    label: secondary riser
   - name: PCIe12
-    location: secondary riser
+    position: PCIe12
+    label: secondary riser
   - name: PCIe13
-    location: secondary riser
+    position: PCIe13
+    label: secondary riser
   - name: PCIe14
-    location: secondary riser    
+    position: PCIe14
+    label: secondary riser    
   - name: PCIe15
-    location: tertiary riser
+    position: PCIe15
+    label: tertiary riser
   - name: PCIe16
-    location: tertiary riser
+    position: PCIe16
+    label: tertiary riser
   - name: HDDBox1
-    position: front
+    position: box1
   - name: HDDBox2
-    position: front
+    position: box2
   - name: HDDBox3
-    position: front
+    position: box3
   - name: HDDBox4
-    position: front
+    position: box4
   - name: HDDBox5
-    position: front
+    position: box5
   - name: HDDBox6
-    position: front  
+    position: box6  
 interfaces:
   - name: iLO
     type: 1000base-t
