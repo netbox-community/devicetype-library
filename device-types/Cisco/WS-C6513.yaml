@@ -3,7 +3,7 @@ manufacturer: Cisco
 model: Catalyst 6513
 slug: ws-c6513
 part_number: WS-C6513
-comments: 'CISCO CATALYST 6513 13-SLOT CHASSIS '
+comments: 'CISCO CATALYST 6513 13-SLOT CHASSIS FOR Netbox >= 3.18'
 u_height: 19
 is_full_depth: true
 subdevice_role: parent
@@ -33,7 +33,7 @@ power-ports:
   - name: PS2-3
     type: iec-60320-c20
     maximum_draw: 2800
-module-bays:
+device-bays:
   - name: slot-1
   - name: slot-2
   - name: slot-3
