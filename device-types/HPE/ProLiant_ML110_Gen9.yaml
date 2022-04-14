@@ -1,0 +1,45 @@
+---
+manufacturer: HPE
+model: ProLiant ML110 Gen9
+slug: hpe_ml110_gen9
+u_height: 3
+is_full_depth: true
+console-ports:
+  - name: VGA
+    type: other
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB3
+    type: usb-a
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
