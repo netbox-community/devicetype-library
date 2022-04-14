@@ -113,7 +113,11 @@ console-ports:
   - name: con0
     type: rj-45
 power-ports:
-  - name: PSU0
+  - name: PS1
     type: iec-60320-c14
-  - name: PSU1
+    maximum_draw: 300
+    allocated_draw: 212
+  - name: PS2
     type: iec-60320-c14
+    maximum_draw: 300
+    allocated_draw: 212
