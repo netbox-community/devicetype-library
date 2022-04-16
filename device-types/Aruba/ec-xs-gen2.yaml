@@ -1,0 +1,53 @@
+---
+manufacturer: Aruba
+model: ec-xs-gen2
+slug: ec-xs-gen2
+part_number: '201571'
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+airflow: null
+comments: ''
+console-ports:
+- name: console
+  type: rj-45
+  label: console
+  description: ''
+power-ports:
+- name: power0
+  type: dc-terminal
+  maximum_draw: 23
+  allocated_draw: null
+  label: power0
+  description: ''
+interfaces:
+- name: lan0
+  type: 1000base-t
+  mgmt_only: false
+  label: lan0
+  description: ''
+- name: lan1
+  type: 1000base-t
+  mgmt_only: false
+  label: lan1
+  description: ''
+- name: wan0
+  type: 1000base-t
+  mgmt_only: false
+  label: wan0
+  description: ''
+- name: wan1
+  type: 1000base-t
+  mgmt_only: false
+  label: wan1
+  description: ''
+- name: mgmt0
+  type: 1000base-t
+  mgmt_only: true
+  label: mgmt0
+  description: ''
+- name: mgmt1
+  type: 1000base-t
+  mgmt_only: false
+  label: mgmt1
+  description: ''

@@ -1,0 +1,38 @@
+---
+manufacturer: Aruba
+model: ec-us
+slug: ec-us
+part_number: '201106'
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+airflow: null
+comments: ''
+console-ports:
+- name: console
+  type: rj-45
+  label: console
+  description: ''
+power-ports:
+- name: power0
+  type: dc-terminal
+  maximum_draw: 9
+  allocated_draw: null
+  label: power0
+  description: ''
+interfaces:
+- name: lan0
+  type: 1000base-t
+  mgmt_only: false
+  label: lan0
+  description: ''
+- name: wan0
+  type: 1000base-t
+  mgmt_only: false
+  label: wan0
+  description: ''
+- name: wan1
+  type: 1000base-t
+  mgmt_only: false
+  label: wan1
+  description: ''

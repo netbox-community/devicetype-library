@@ -1,0 +1,41 @@
+---
+manufacturer: Aruba
+model: ec-v
+slug: ec-v
+part_number: ''
+u_height: '1'
+is_full_depth: false
+subdevice_role: ''
+airflow: null
+comments: ''
+interfaces:
+- name: lan0
+  type: virtual
+  mgmt_only: false
+  label: lan0
+  description: ''
+- name: lan1
+  type: virtual
+  mgmt_only: false
+  label: lan1
+  description: ''
+- name: wan0
+  type: virtual
+  mgmt_only: false
+  label: wan0
+  description: ''
+- name: wan1
+  type: virtual
+  mgmt_only: false
+  label: wan1
+  description: ''
+- name: mgmt0
+  type: virtual
+  mgmt_only: true
+  label: mgmt0
+  description: ''
+- name: mgmt1
+  type: virtual
+  mgmt_only: false
+  label: mgmt1
+  description: ''
