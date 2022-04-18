@@ -118,7 +118,7 @@ def test_definitions(file_path, schema, capsys):
             name = component.get('name')
             type = component.get('type')
             if type == "other":
-                message = f'::warning file={file_path},title=Other type component detected {name}'
+                message = f'::warning file={file_path}::Other type component detected {name}'
                 if first:
                     message = f'\r\n{message}'
                     first = False
