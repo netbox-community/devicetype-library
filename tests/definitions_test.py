@@ -1,6 +1,9 @@
 import glob
 import json
 import os
+import sys
+from collections import OrderedDict
+
 import pytest
 import yaml
 import warnings
@@ -24,6 +27,10 @@ COMPONENT_TYPES = (
     'device-bays',
     'module-bays',
 )
+
+
+def pytest_warning_recorded(warning_message, when, nodeid, location):
+    print(f'\r\n::warning {warning_message}')
 
 
 def _get_definition_files():
@@ -61,7 +68,7 @@ def test_environment():
 
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
-def test_definitions(file_path, schema):
+def test_definitions(file_path, schema, capsys):
     """
     Validate each definition file using the provided JSON schema and check for duplicate entries.
     """
@@ -104,14 +111,20 @@ def test_definitions(file_path, schema):
             known_names.add(name)
 
     # Check for "other" in component types
+    first = True
     for component_type in COMPONENT_TYPES:
         defined_components = definition.get(component_type, [])
         for idx, component in enumerate(defined_components):
             name = component.get('name')
             type = component.get('type')
             if type == "other":
-                warnings.warn(SyntaxWarning(f'Type is "other" for interface {name}'))
-
+                message = f'::warning file={file_path},title=Other type component detected {name}'
+                if first:
+                    message = f'\r\n{message}'
+                    first = False
+                warnings.warn(message)
+                with capsys.disabled():
+                    print(message)
     # Check for empty quotes
     def iterdict(var):
         for dict_value in var.values():
