@@ -3,6 +3,7 @@ import json
 import os
 import pytest
 import yaml
+import warnings
 from jsonschema import RefResolver, Draft4Validator
 from jsonschema.exceptions import ValidationError
 
@@ -101,6 +102,15 @@ def test_definitions(file_path, schema):
             if name in known_names:
                 pytest.fail(f'Duplicate entry "{name}" in {component_type} list', False)
             known_names.add(name)
+
+    # Check for "other" in component types
+    for component_type in COMPONENT_TYPES:
+        defined_components = definition.get(component_type, [])
+        for idx, component in enumerate(defined_components):
+            name = component.get('name')
+            type = component.get('type')
+            if type == "other":
+                warnings.warn(SyntaxWarning(f'Type is "other" for interface {name}'))
 
     # Check for empty quotes
     def iterdict(var):
