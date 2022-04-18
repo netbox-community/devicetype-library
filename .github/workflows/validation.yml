@@ -5,6 +5,9 @@ on:
   pull_request:
     branches:
       - master
+  push:
+    branches:
+      - component-validation-warn-other
 
 jobs:
   build:
