@@ -1,0 +1,71 @@
+---
+manufacturer: Kemptechnologies
+model: LoadMaster LM-15
+slug: loadmaster-lm-15
+u_height: 1
+is_full_depth: false
+comments: 'LoadMaster LM-X1/https://support.kemptechnologies.com/hc/en-us/articles/115001182903-Physical-to-Logical-Port-Assignment#MadCap_TOC_5_2 '
+console-ports:
+  - name: Front USB-1
+    type: usb-a
+  - name: Front USB-2
+    type: usb-a 
+  - name: Rear USB-1
+    type: usb-a
+  - name: Rear USB-2
+    type: usb-a 
+  - name: Rear VGA
+    type: other
+  - name: Front Console 0
+    type: rj-45
+  - name: Front Console 1
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 450
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 450
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+    mgmt_only: true
+  - name: ETH1
+    type: 1000base-t
+  - name: ETH2
+    type: 1000base-t
+  - name: ETH3
+    type: 1000base-t
+  - name: ETH4
+    type: 1000base-t
+  - name: ETH5
+    type: 1000base-t
+  - name: ETH6
+    type: 1000base-t
+  - name: ETH7
+    type: 1000base-t
+  - name: ETH8
+    type: 1000base-t
+  - name: ETH9
+    type: 1000base-t
+  - name: ETH10
+    type: 1000base-t
+  - name: ETH11
+    type: 1000base-t
+  - name: ETH12
+    type: 1000base-t
+  - name: ETH13
+    type: 1000base-t
+  - name: ETH14
+    type: 1000base-t
+  - name: ETH15
+    type: 1000base-t
+  - name: ETH16
+    type: 10gbase-x-sfpp
+  - name: ETH17
+    type: 10gbase-x-sfpp
+  - name: ETH18
+    type: 10gbase-x-sfpp
+  - name: ETH19
+    type: 10gbase-x-sfpp
