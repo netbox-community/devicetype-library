@@ -3,7 +3,7 @@ manufacturer: HPE
 model: ProLiant DL380 Gen10 8SFF
 slug: hpe_dl380_g10
 part_number: P19720-B21
-comments: 'HPE ProLiant DL380 Gen10 Server /w 8-SFF  '
+comments: 'HPE ProLiant DL380 Gen10 Server /w 8-SFF '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
@@ -30,16 +30,12 @@ power-ports:
 interfaces:
   - name: FlexibleLOM1/Gig-E 1
     type: 1000base-t
-    mgmt_only: false
   - name: FlexibleLOM1/Gig-E 2
     type: 1000base-t
-    mgmt_only: false
   - name: FlexibleLOM1/Gig-E 3
     type: 1000base-t
-    mgmt_only: false
   - name: FlexibleLOM1/Gig-E 4
     type: 1000base-t
-    mgmt_only: false
   - name: iLO
     type: 1000base-t
     mgmt_only: true
