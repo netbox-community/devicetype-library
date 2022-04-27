@@ -32,16 +32,16 @@ module-bays:
     position: FlexLOM
   - name: PCIe1
     position: PCIe1
-	label: primary riser
+    label: primary riser
   - name: PCIe2
     position: PCIe2
-	label: primary riser
+    label: primary riser
   - name: PCIe3
     position: PCIe3
-	label: primary riser
+    label: primary riser
   - name: PCIe4
     position: PCIe4
-	label: primary riser
+    label: primary riser
   - name: PCIe5
     position: PCIe5
     label: primary riser
@@ -53,7 +53,7 @@ module-bays:
     label: primary riser
   - name: PCIe8
     position: PCIe8
-	label: secondary riser
+    label: secondary riser
   - name: PCIe9
     position: PCIe9
     label: secondary riser
@@ -71,27 +71,14 @@ module-bays:
     label: secondary riser
   - name: PCIe14
     position: PCIe14
-    label: secondary riser    
+    label: secondary riser
   - name: PCIe15
     position: PCIe15
     label: tertiary riser
   - name: PCIe16
     position: PCIe16
     label: tertiary riser
-  - name: HDDBox1
-    position: box1
-  - name: HDDBox2
-    position: box2
-  - name: HDDBox3
-    position: box3
-  - name: HDDBox4
-    position: box4
-  - name: HDDBox5
-    position: box5
-  - name: HDDBox6
-    position: box6  
 interfaces:
   - name: iLO
     type: 1000base-t
     mgmt_only: true
-
