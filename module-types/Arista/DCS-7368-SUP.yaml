@@ -1,0 +1,17 @@
+---
+manufacturer: Arista
+model: DCS-7368-SUP
+part_number: DCS-7368-SUP
+comments: '[Arista 7368 Series Overview](https://www.arista.com/en/qsg-7368x-series/7368x-series-overview)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: Management{module}/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management{module}/2
+    type: 1000base-x-sfp
+    mgmt_only: true
