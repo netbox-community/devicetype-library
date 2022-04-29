@@ -15,7 +15,7 @@ console-ports:
 power-ports:
 - name: PS1
   type: iec-60320-c14
-  maximum_draw: 48
+  maximum_draw: 70
   allocated_draw: null
   label: ''
   description: ''
@@ -140,3 +140,15 @@ interfaces:
   mgmt_only: false
   label: ''
   description: ''
+- name: '25'
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: '26'
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: '27'
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: '28'
+  type: 1000base-x-sfp
+  mgmt_only: false
