@@ -20,55 +20,6 @@ power-ports:
   - name: psu-4
     type: iec-60320-c20
     maximum_draw: 2500
-interfaces:
-  - name: IOM A 1/1
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/2
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/3
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/4
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/5
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/6
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/7
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM A 1/8
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/1
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/2
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/3
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/4
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/5
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/6
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/7
-    type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: IOM B 2/8
-    type: 10gbase-x-sfpp
-    mgmt_only: false
 device-bays:
   - name: slot-1
   - name: slot-2
@@ -78,3 +29,8 @@ device-bays:
   - name: slot-6
   - name: slot-7
   - name: slot-8
+module-bays:
+  - name: IO Module 1
+    position: '1'
+  - name: IO Module 2
+    position: '2'
