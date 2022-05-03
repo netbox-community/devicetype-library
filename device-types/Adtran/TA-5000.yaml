@@ -13,13 +13,10 @@ power-ports:
   - name: DC1
     type: dc-terminal
     maximum_draw: 2400
-console-ports:
-  - name: Console
-    type: de-9
 interfaces:
   - name: Eth 1/S/1
     type: 100base-tx
-	mgmt_only: true
+    mgmt_only: true
 module-bays:
   - name: A
     label: SM-A
@@ -27,45 +24,45 @@ module-bays:
     label: SM-B
   - name: SCM
     label: SCM
-  - name: 1 
+  - name: 1
     label: Slot 1
-  - name: 2 
+  - name: 2
     label: Slot 2
-  - name: 3 
+  - name: 3
     label: Slot 3
-  - name: 4 
+  - name: 4
     label: Slot 4
-  - name: 4 
+  - name: 5
     label: Slot 5
-  - name: 6 
+  - name: 6
     label: Slot 6
-  - name: 7 
+  - name: 7
     label: Slot 7
-  - name: 8 
+  - name: 8
     label: Slot 8
-  - name: 9 
+  - name: 9
     label: Slot 9
-  - name: 10 
+  - name: 10
     label: Slot 10
-  - name: 11 
+  - name: 11
     label: Slot 11
-  - name: 12 
+  - name: 12
     label: Slot 12
-  - name: 13 
+  - name: 13
     label: Slot 13
-  - name: 14 
+  - name: 14
     label: Slot 14
-  - name: 15 
+  - name: 15
     label: Slot 15
-  - name: 16 
+  - name: 16
     label: Slot 16
-  - name: 16 
+  - name: 17
     label: Slot 17
   - name: 18
     label: Slot 18
-  - name: 19 
+  - name: 19
     label: Slot 19
   - name: 20
     label: Slot 20
-  - name: 21 
+  - name: 21
     label: Slot 21
