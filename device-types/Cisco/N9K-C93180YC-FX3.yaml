@@ -1,9 +1,9 @@
 ---
 manufacturer: Cisco
-model: Nexus 93240YC-FX2
-part_number: N9K-C93240YC-FX2
-slug: n9k-c93240yc-fx2
-u_height: 2
+model: Nexus 93180YC-FX3
+part_number: N9K-C93180YC-FX3
+slug: n9k-c93180yc-fx3
+u_height: 1
 is_full_depth: true
 console-ports:
   - name: console
@@ -11,12 +11,12 @@ console-ports:
 power-ports:
   - name: Power Supply 1
     type: iec-60320-c14
-    maximum_draw: 750
-    allocated_draw: 708
+    maximum_draw: 600
+    allocated_draw: 375
   - name: Power Supply 2
     type: iec-60320-c14
-    maximum_draw: 750
-    allocated_draw: 708
+    maximum_draw: 600
+    allocated_draw: 375
 interfaces:
   - name: Ethernet1/1
     type: 25gbase-x-sfp28
@@ -125,18 +125,6 @@ interfaces:
   - name: Ethernet1/53
     type: 100gbase-x-qsfp28
   - name: Ethernet1/54
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/55
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/56
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/57
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/58
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/59
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/60
     type: 100gbase-x-qsfp28
   - name: mgmt0
     type: 1000base-t
