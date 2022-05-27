@@ -1,7 +1,7 @@
 ---
 manufacturer: Juniper
-model: EX3300-48T
-slug: ex3300-48t
+model: EX3300-24P
+slug: ex3300-24p
 u_height: 1
 interfaces:
   - name: ge-0/0/0
@@ -52,54 +52,6 @@ interfaces:
     type: 1000base-t
   - name: ge-0/0/23
     type: 1000base-t
-  - name: ge-0/0/24
-    type: 1000base-t
-  - name: ge-0/0/25
-    type: 1000base-t
-  - name: ge-0/0/26
-    type: 1000base-t
-  - name: ge-0/0/27
-    type: 1000base-t
-  - name: ge-0/0/28
-    type: 1000base-t
-  - name: ge-0/0/29
-    type: 1000base-t
-  - name: ge-0/0/30
-    type: 1000base-t
-  - name: ge-0/0/31
-    type: 1000base-t
-  - name: ge-0/0/32
-    type: 1000base-t
-  - name: ge-0/0/33
-    type: 1000base-t
-  - name: ge-0/0/34
-    type: 1000base-t
-  - name: ge-0/0/35
-    type: 1000base-t
-  - name: ge-0/0/36
-    type: 1000base-t
-  - name: ge-0/0/37
-    type: 1000base-t
-  - name: ge-0/0/38
-    type: 1000base-t
-  - name: ge-0/0/39
-    type: 1000base-t
-  - name: ge-0/0/40
-    type: 1000base-t
-  - name: ge-0/0/41
-    type: 1000base-t
-  - name: ge-0/0/42
-    type: 1000base-t
-  - name: ge-0/0/43
-    type: 1000base-t
-  - name: ge-0/0/44
-    type: 1000base-t
-  - name: ge-0/0/45
-    type: 1000base-t
-  - name: ge-0/0/46
-    type: 1000base-t
-  - name: ge-0/0/47
-    type: 1000base-t
   - name: ge-0/1/0
     type: 1000base-x-sfp
   - name: ge-0/1/1
@@ -122,7 +74,7 @@ interfaces:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 100
+    maximum_draw: 550
 console-ports:
   - name: Console
     type: rj-45
