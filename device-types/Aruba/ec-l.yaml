@@ -1,20 +1,24 @@
 ---
 manufacturer: Aruba
-model: ec-s-p
-slug: ec-s-p
-part_number: '201687'
+model: ec-l
+slug: ec-l
+part_number: '200883'
 u_height: 1
-is_full_depth: false
+is_full_depth: true
 airflow: front-to-rear
 console-ports:
   - name: console
-    type: rj-45
+    type: de-9
     label: console
 power-ports:
   - name: power0
     type: iec-60320-c14
-    maximum_draw: 100
+    maximum_draw: 440
     label: power0
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 440
+    label: power1
 interfaces:
   - name: lan0
     type: 1000base-t
@@ -32,14 +36,14 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
     label: mgmt1
-  - name: lan2
+  - name: tlan0
     type: 10gbase-x-sfpp
     mgmt_only: false
-    label: lan2
-  - name: wan2
+    label: tlan0
+  - name: twan0
     type: 1000base-t
     mgmt_only: false
-    label: wan2
+    label: twan0
   - name: wan0
     type: 1000base-t
     mgmt_only: false

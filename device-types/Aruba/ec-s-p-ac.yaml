@@ -1,19 +1,19 @@
 ---
 manufacturer: Aruba
-model: ec-xs-gen1
-slug: ec-xs-gen1
-part_number: '200889'
+model: ec-s-p-ac
+slug: ec-s-p-ac
+part_number: '201687'
 u_height: 1
 is_full_depth: false
-airflow: right-to-left
+airflow: front-to-rear
 console-ports:
   - name: console
     type: rj-45
     label: console
 power-ports:
   - name: power0
-    type: dc-terminal
-    maximum_draw: 23
+    type: iec-60320-c14
+    maximum_draw: 100
     label: power0
 interfaces:
   - name: lan0
@@ -24,14 +24,6 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
     label: lan1
-  - name: wan0
-    type: 1000base-t
-    mgmt_only: false
-    label: wan0
-  - name: wan1
-    type: 1000base-t
-    mgmt_only: false
-    label: wan1
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
@@ -40,3 +32,19 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
     label: mgmt1
+  - name: lan2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: lan2
+  - name: wan2
+    type: 1000base-t
+    mgmt_only: false
+    label: wan2
+  - name: wan0
+    type: 1000base-t
+    mgmt_only: false
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    mgmt_only: false
+    label: wan1
