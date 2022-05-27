@@ -7,19 +7,6 @@ u_height: 6
 is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
-power-ports:
-  - name: psu-1
-    type: iec-60320-c20
-    maximum_draw: 2500
-  - name: psu-2
-    type: iec-60320-c20
-    maximum_draw: 2500
-  - name: psu-3
-    type: iec-60320-c20
-    maximum_draw: 2500
-  - name: psu-4
-    type: iec-60320-c20
-    maximum_draw: 2500
 device-bays:
   - name: slot-1
   - name: slot-2
@@ -34,3 +21,11 @@ module-bays:
     position: '1'
   - name: IO Module 2
     position: '2'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
+  - name: PSU4
+    position: '4'

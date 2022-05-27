@@ -11,7 +11,7 @@ If you would like to contribute to this library, please read through our [contri
 submitting content.
 
 If you would like to automate the import of these devicetype template files, there is a **community based** python script
-that will check for duplicates, allow you to selectively import vendors, etc. available here [minitriga/Netbox-Dvice-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import). **Note**: This is not related to NetBox in any official way and you will not get support for it here.
+that will check for duplicates, allow you to selectively import vendors, etc. available here [minitriga/Netbox-Device-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import). **Note**: This is not related to NetBox in any official way and you will not get support for it here.
 
 ## Device Type Definitions
 

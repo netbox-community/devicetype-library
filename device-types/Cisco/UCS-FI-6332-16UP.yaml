@@ -9,11 +9,6 @@ airflow: front-to-rear
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
 interfaces:
   - name: L1
     type: 1000base-t
@@ -144,3 +139,8 @@ interfaces:
   - name: Port 40
     type: 40gbase-x-qsfpp
     mgmt_only: false
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
