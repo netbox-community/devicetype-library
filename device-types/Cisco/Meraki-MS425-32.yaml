@@ -81,4 +81,5 @@ interfaces:
   - name: Port 34
     type: 40gbase-x-qsfpp
   - name: Management
-    type: rj-45
+    type: 1000base-t
+    mgmt_only: true

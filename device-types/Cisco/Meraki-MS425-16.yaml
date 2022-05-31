@@ -5,9 +5,6 @@ slug: ms425-16
 part_number: MS425-16-HW
 u_height: 1
 is_full_depth: true
-console-ports:
-  - name: Management
-    type: rj-45
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
@@ -50,3 +47,6 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Port 18
     type: 40gbase-x-qsfpp
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
