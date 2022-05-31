@@ -4,16 +4,13 @@ model: MS425-32
 slug: ms425-32
 part_number: MS425-32-HW
 u_height: 1
-is_full_depth: true
+is_full_depth: false
 comments: '[MS425-32 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS425_Overview_and_Specifications)'
-console-ports:
-  - name: Management
-    type: rj-45
 power-ports:
   - name: Slot 1
-    type: iec-60320-c14
+    type: iec-60320-c16
   - name: Slot 2
-    type: iec-60320-c14
+    type: iec-60320-c16
 interfaces:
   - name: Port 1
     type: 10gbase-x-sfpp
@@ -83,3 +80,5 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Port 34
     type: 40gbase-x-qsfpp
+  - name: Management
+    type: rj-45

@@ -9,11 +9,9 @@ comments: '[MS210 Overview and Specifications](https://documentation.meraki.com/
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
-    allocated_draw: 21
     maximum_draw: 448
   - name: Cisco RPS 2300 connector for PSU failover
     type: dc-terminal
-    allocated_draw: 21
     maximum_draw: 448
 interfaces:
   - name: Port 1
