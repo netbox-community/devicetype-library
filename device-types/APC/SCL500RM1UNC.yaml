@@ -1,0 +1,24 @@
+---
+manufacturer: APC
+model: Smart-UPS SCL500RM1UNC
+slug: scl500rm1unc
+part_number: SCL500RM1UNC
+comments: APC Smart-UPS, Line Interactive, 500VA, Lithium-ion, Rackmount 1U, 120V, 4x NEMA 5-15R outlets, Network Card, Short Depth
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: Source
+    type: nema-5-15p
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-5-15r
+  - name: Group 2 Outlet 1
+    type: nema-5-15r
+  - name: Backup 1 (Always On)
+    type: nema-5-15r
+  - name: Backup 2 (Always On)
+    type: nema-5-15r
+interfaces:
+  - name: NMC
+    type: 100base-tx
+    mgmt_only: true
