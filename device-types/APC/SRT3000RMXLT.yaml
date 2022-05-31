@@ -1,6 +1,6 @@
 ---
 manufacturer: APC
-model: SRT3000RMXLT
+model: Smart-UPS SRT3000RMXLT
 slug: srt3000rmxlt
 part_number: SRT3000RMXLT
 comments: "APC Smart-UPS On-Line, 3kVA, Rackmount 2U, 208V, 2x L6-20R+1x L6-30R NEMA outlets, SmartSlot, Extended runtime, W/ rail kit\n
@@ -14,8 +14,6 @@ is_full_depth: true
 console-ports:
   - name: Serial
     type: rj-45
-  - name: USB
-    type: usb-b
 power-ports:
   - name: Source
     type: nema-l6-20p
@@ -30,3 +28,4 @@ power-outlets:
     type: nema-l6-20r
 module-bays:
   - name: SmartSlot
+    position: Rear, upper left
