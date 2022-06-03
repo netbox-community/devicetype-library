@@ -1,0 +1,24 @@
+---
+manufacturer: Cambium
+model: cnWave V5000
+slug: cnWave-V5000
+part_number: C600500A004A
+u_height: 0
+is_full_depth: false
+comments: '[cnWave V5000](https://www.cambiumnetworks.com/products/cnwave/60-ghz-cnwave-v5000/)'
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    mgmt_only: false
+  - name: lan1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: lan2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: wlan0
+    type: ieee802.11ay
+    mgmt_only: false
+  - name: wlan1
+    type: ieee802.11ay
+    mgmt_only: false

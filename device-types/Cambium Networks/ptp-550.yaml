@@ -1,0 +1,21 @@
+---
+manufacturer: Cambium
+model: PTP 550 Integrated
+slug: ptp-550-integrated
+part_number: PTP550
+u_height: 0
+is_full_depth: false
+comments: '[PTP 550](https://www.cambiumnetworks.com/products/backhaul/ptp-550/)'
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    mgmt_only: false
+  - name: lan1
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: wlan0
+    type: ieee802.11ac
+    mgmt_only: false
+  - name: wlan1
+    type: ieee802.11ac
+    mgmt_only: false
