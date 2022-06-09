@@ -2,6 +2,7 @@
 manufacturer: Juniper
 model: SRX1500
 slug: srx1500
+u_height: 1
 is_full_depth: true
 interfaces:
   - name: fxp0
@@ -50,6 +51,10 @@ interfaces:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
+    maximum_draw: 650
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 650
 console-ports:
   - name: Console
     type: rj-45

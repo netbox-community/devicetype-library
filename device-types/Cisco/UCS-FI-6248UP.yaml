@@ -1,0 +1,124 @@
+---
+manufacturer: Cisco
+model: UCS-FI-6248UP
+slug: ucs-fi-6248up
+part_number: UCS-FI-6248UP
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: L1
+    type: 1000base-t
+    mgmt_only: false
+  - name: L2
+    type: 1000base-t
+    mgmt_only: false
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 3
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 4
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 5
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 6
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 7
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 8
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 9
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 10
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 11
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 12
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 13
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 14
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 15
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 16
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 17
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 18
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 19
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 20
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 21
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 22
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 23
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 24
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 25
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 26
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 27
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 28
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 29
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 30
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 31
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Port 32
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+module-bays:
+  - name: Front Expansion Module
+    position: '1'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

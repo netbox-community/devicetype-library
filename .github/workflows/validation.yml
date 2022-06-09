@@ -20,6 +20,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Lint YAML files
-        run: yamllint --format parsable --strict -c=tests/yamllint.yaml .
-      - name: Run Device-Type Tests
+        run: yamllint --format parsable --strict -c=tests/yamllint.yaml device-types/ module-types/
+      - name: Run tests
         run: pytest --tb=short -v
