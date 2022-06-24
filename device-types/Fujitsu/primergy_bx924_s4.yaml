@@ -1,0 +1,23 @@
+---
+manufacturer: Fujitsu
+model: Primergy BX924 S4
+slug: primergy_bx924_s4
+u_height: 0
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Front VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+interfaces:
+  - name: TenGig-E 1
+    type: 10gbase-t
+  - name: TenGig-E 2
+    type: 10gbase-t
