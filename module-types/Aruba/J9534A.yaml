@@ -3,6 +3,16 @@ model: HP J9534A 24p Gig-T PoE+ v2 zl Module
 part_number: J9534A
 comments: ''
 interfaces:
+- name: '{module}1'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: '{module}2'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
 - name: '{module}3'
   type: 1000base-t
   mgmt_only: false
@@ -109,16 +119,6 @@ interfaces:
   label: ''
   description: ''
 - name: '{module}24'
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: '{module}{module}1'
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: '{module}{module}2'
   type: 1000base-t
   mgmt_only: false
   label: ''
