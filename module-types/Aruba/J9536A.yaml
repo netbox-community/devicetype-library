@@ -3,6 +3,11 @@ model: HP J9536A 20p GT PoE+/2p SFP+ v2 zl Module
 part_number: J9536A
 comments: ''
 interfaces:
+- name: '{module}1'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
 - name: '{module}2'
   type: 1000base-t
   mgmt_only: false
@@ -105,11 +110,6 @@ interfaces:
   description: ''
 - name: '{module}22'
   type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: '{module}{module}1'
-  type: 1000base-t
   mgmt_only: false
   label: ''
   description: ''
