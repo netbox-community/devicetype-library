@@ -12,9 +12,10 @@ comments: "## Physical characteristics\r\n* Dimensions: 6.05(d) x 7.45(w) x 5.1(
   \ Supplies 600W chassis power, 300W of PoE/POE+ power at 110-127 volts, and 900W\
   \ of PoE/PoE+ power at 200-240 volts."
 power-ports:
-- name: '{module}'
-  type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: null
+    allocated_draw: null
+    label: ''
+    description: ''
+  
