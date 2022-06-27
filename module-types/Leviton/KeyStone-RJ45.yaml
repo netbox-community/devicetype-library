@@ -5,14 +5,14 @@ model: KeyStone RJ45
 part_number: KeyStone-RJ45
 comments: ''
 front-ports:
-- name: '{module}'
+  - name: '{module}'
   type: 8p8c
   rear_port: '{module}'
   rear_port_position: 1
   label: ''
   description: ''
-rear-ports:
-- name: '{module}'
+  rear-ports:
+  - name: '{module}'
   type: 8p8c
   positions: 1
   label: ''
