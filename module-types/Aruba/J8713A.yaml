@@ -12,9 +12,10 @@ comments: "## Physical characteristics\r\n* Dimensions: 6.05 x 7.45 x 5.1 in. (1
   \ power cord. Non-locking NEMA 6-20P optionally available \u2014 see the Ordering\
   \ Guide for more details. \r\nSupply End - NEMA L6-20P Equipment End - IEC-C19 20N250V"
 power-ports:
-- name: '{module}'
-  type: iec-60320-c20
-  maximum_draw: null
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: '{module}'
+    type: iec-60320-c20
+    maximum_draw: null
+    allocated_draw: null
+    label: ''
+    description: ''
+  
