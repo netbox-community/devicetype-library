@@ -1,6 +1,7 @@
 ---
 manufacturer: Supermicro
 model: SYS-1019P-WTR
+slug: sys-1019-wtr
 part_number: ''
 u_height: 1
 is_full_depth: true
@@ -9,11 +10,11 @@ airflow: ''
 comments: 'Specification: [https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm](https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm)'
 console-ports:
   - name: COM1
-    type: com
+    type: de-9
     label: Rear
     description: ''
   - name: COM2
-    type: com
+    type: de-9
     description: Header
   - name: Front VGA
     type: other
@@ -63,18 +64,18 @@ console-server-ports:
 
 
 interfaces:
-  - name: eth1
+  - name: Gig-E 1
     type: 10gbase-t
     mgmt_only: false
     label: ''
     description: ''
-  - name: eth2
+  - name: Gig-E 2
     type: 10gbase-t
     mgmt_only: false
     label: ''
     description: ''
-  - name: TenGig-E 2
-    type: 1gb
+  - name: Gig-E 3
+    type: 1000base-t
     mgmt_only: true
     label: ''
-    description: dedicated IPMI LAN port
+    description: Dedicated IPMI LAN port
