@@ -1,0 +1,80 @@
+---
+manufacturer: Supermicro
+model: SYS-1019P-WTR
+part_number: ''
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+comments: 'Specification: [https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm](https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm)'
+console-ports:
+  - name: COM1
+    type: com
+    label: Rear
+    description: ''
+  - name: COM2
+    type: com
+    description: Header
+  - name: Front VGA
+    type: other
+    label: ''
+    description: ''
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+    label: ''
+    description: ''
+  - name: Rear USB1
+    type: usb-a
+    description: USB 3.0
+  - name: Rear USB2
+    type: usb-a
+    description: USB 3.0
+  - name: Header USB3
+    type: usb-a
+    description: USB 3.0
+  - name: Header USB4
+    type: usb-a
+    description: USB 3.0
+  - name: Type A USB5
+    type: usb-a
+    description: USB 3.0
+  - name: Rear USB6
+    type: usb-a
+    description: USB 2.0
+  - name: Rear USB8
+    type: usb-a
+    description: USB 2.0
+  - name: Header USB9
+    type: usb-a
+    description: USB 2.0
+  - name: Header USB10
+    type: usb-a
+    description: USB 2.0
+  - name: Header USB11
+    type: usb-a
+    description: USB 2.0
+  - name: Header USB12
+    type: usb-a
+    description: USB 2.0
+  - name: Header USB13
+    type: usb-a
+    description: USB 2.0
+
+
+interfaces:
+  - name: eth1
+    type: 10gbase-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: eth2
+    type: 10gbase-t
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: TenGig-E 2
+    type: 1gb
+    mgmt_only: true
+    label: ''
+    description: dedicated IPMI LAN port
