@@ -4,52 +4,11 @@ model: M4300-12X12F
 slug: m4300-12x12f
 u_height: 1
 comments: 'Documentation: [https://www.netgear.it/support/product/m4300-12x12f.aspx](https://www.netgear.it/support/product/m4300-12x12f.aspx)'
-interfaces:
-  - name: 1
-    type: 10gbase-x-sfpp
-  - name: 2
-    type: 10gbase-x-sfpp
-  - name: 3
-    type: 10gbase-x-sfpp
-  - name: 4
-    type: 10gbase-x-sfpp
-  - name: 5
-    type: 10gbase-x-sfpp
-  - name: 6
-    type: 10gbase-x-sfpp
-  - name: 7
-    type: 10gbase-x-sfpp
-  - name: 8
-    type: 10gbase-x-sfpp
-  - name: 9
-    type: 10gbase-x-sfpp
-  - name: 10
-    type: 10gbase-x-sfpp
-  - name: 11
-    type: 10gbase-x-sfpp
-  - name: 12
-    type: 10gbase-x-sfpp
-  - name: 13
-    type: 10gbase-t
-  - name: 14
-    type: 10gbase-t
-  - name: 15
-    type: 10gbase-t
-  - name: 16
-    type: 10gbase-t
-  - name: 17
-    type: 10gbase-t
-  - name: 18
-    type: 10gbase-t
-  - name: 19
-    type: 10gbase-t
-  - name: 20
-    type: 10gbase-t
-  - name: 21
-    type: 10gbase-t
-  - name: 22
-    type: 10gbase-t
-  - name: 23
-    type: 10gbase-t
-  - name: 24
-    type: 10gbase-t
+subdevice_role: parent
+module-bays:
+  - name: unit-1
+    position: '1'
+    description: Switch card
+  - name: unit-2
+    position: '2'
+    description: Switch card
