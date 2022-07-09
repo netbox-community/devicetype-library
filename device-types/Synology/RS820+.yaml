@@ -18,13 +18,7 @@ interfaces:
     type: 1000base-t
   - name: Ethernet 4
     type: 1000base-t
-console-server-ports:
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
+console-ports:
   - name: Console
     type: de-9
     mgmt_only: true
-  - name: eSATA
-    type: other
