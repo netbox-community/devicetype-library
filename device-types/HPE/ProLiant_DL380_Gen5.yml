@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: ProLiant DL380 Gen5
+slug: hpe_dl380_g5
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA 1
+    type: other
+  - name: VGA 2
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
