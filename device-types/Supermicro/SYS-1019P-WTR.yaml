@@ -10,19 +10,15 @@ console-ports:
   - name: COM1
     type: de-9
     label: Rear
-    description: ''
+
   - name: COM2
     type: de-9
     description: Header
   - name: Front VGA
     type: other
-    label: ''
-    description: ''
 console-server-ports:
   - name: Front USB1
     type: usb-a
-    label: ''
-    description: ''
   - name: Rear USB1
     type: usb-a
     description: USB 3.0
@@ -65,15 +61,11 @@ interfaces:
   - name: Gig-E 1
     type: 10gbase-t
     mgmt_only: false
-    label: ''
-    description: ''
   - name: Gig-E 2
     type: 10gbase-t
     mgmt_only: false
-    label: ''
-    description: ''
   - name: Gig-E 3
     type: 1000base-t
     mgmt_only: true
-    label: ''
+
     description: Dedicated IPMI LAN port
