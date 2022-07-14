@@ -9,10 +9,10 @@ console-ports:
     type: rj-45
 power-ports:
   - name: psu1
-    type: iec-60320-c13
+    type: iec-60320-c14
     maximum_draw: 500
   - name: psu2
-    type: iec-60320-c13
+    type: iec-60320-c14
     maximum_draw: 500
 interfaces:
   - name: mgmt0
