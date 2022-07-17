@@ -1,0 +1,34 @@
+---
+manufacturer: Digi
+model: Digi CM Console Server 8 Port
+slug: digi_cm_8p
+u_height: 1
+is_full_depth: false
+comments: (Datasheet)[https://media.digikey.com/pdf/Data%20Sheets/Digi%20International%20PDFs/Digi_CM_10-8-15.pdf]
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Serial_1
+    type: rj-45
+  - name: Serial_2
+    type: rj-45
+  - name: Serial_3
+    type: rj-45
+  - name: Serial_4
+    type: rj-45
+  - name: Serial_5
+    type: rj-45
+  - name: Serial_6
+    type: rj-45
+  - name: Serial_7
+    type: rj-45
+  - name: Serial_8
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 12
+interfaces:
+  - name: Network
+    type: 100base-tx
