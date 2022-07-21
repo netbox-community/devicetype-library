@@ -10,53 +10,9 @@ console-ports:
   - name: COM1
     type: de-9
     label: Rear
-
   - name: COM2
     type: de-9
     description: Header
-  - name: Front VGA
-    type: other
-console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-    description: USB 3.0
-  - name: Rear USB2
-    type: usb-a
-    description: USB 3.0
-  - name: Header USB3
-    type: usb-a
-    description: USB 3.0
-  - name: Header USB4
-    type: usb-a
-    description: USB 3.0
-  - name: Type A USB5
-    type: usb-a
-    description: USB 3.0
-  - name: Rear USB6
-    type: usb-a
-    description: USB 2.0
-  - name: Rear USB8
-    type: usb-a
-    description: USB 2.0
-  - name: Header USB9
-    type: usb-a
-    description: USB 2.0
-  - name: Header USB10
-    type: usb-a
-    description: USB 2.0
-  - name: Header USB11
-    type: usb-a
-    description: USB 2.0
-  - name: Header USB12
-    type: usb-a
-    description: USB 2.0
-  - name: Header USB13
-    type: usb-a
-    description: USB 2.0
-
-
 interfaces:
   - name: Gig-E 1
     type: 10gbase-t
