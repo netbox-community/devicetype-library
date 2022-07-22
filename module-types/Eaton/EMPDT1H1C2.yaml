@@ -8,12 +8,12 @@ is_full_depth: false
 airflow: passive
 comments: Environmental Monitoring Probe Gen 2 [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-management-software-connectivity/eaton-environmental-monitoring-probe-gen-2/eaton-emp-gen-2-manual.pdf)
 interfaces:
-  - name: Device
+  - name: EMP{module}/Device
     type: other
     mgmt_only: false
     label: from device
     description: RJ45 connector for RS485/Modbus connection
-  - name: Sensors
+  - name: EMP{module}/Sensors
     type: other
     mgmt_only: false
     label: to sensors
