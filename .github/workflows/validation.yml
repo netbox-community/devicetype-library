@@ -23,7 +23,7 @@ jobs:
 
       - name: Lint YAML files
         run: |
-          yamllint --format parsable --strict -c=tests/yamllint.yaml \
+          yamllint --format parsable --strict \
             device-types/ module-types/
 
       - name: Run tests

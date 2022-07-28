@@ -17,4 +17,4 @@ repos:
     hooks:
       - id: yamllint
         name: Lint YAML files
-        args: [--format, parsable, --strict, -c=tests/yamllint.yaml]
+        args: [--format, parsable, --strict]
