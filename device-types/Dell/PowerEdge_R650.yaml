@@ -31,24 +31,24 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
-  - name: Gig-E 1
+  - name: OB-E-1
     type: 1000base-t
-  - name: Gig-E 2
+  - name: OB-E-2
     type: 1000base-t
-  - name: Optional/OCP Gig-E 1
+  - name: Optional/OCP Gig-E-1
     type: 1000base-t
-  - name: Optional/OCP Gig-E 2
+  - name: Optional/OCP Gig-E-2
     type: 1000base-t
-  - name: Optional/OCP Gig-E 3
+  - name: Optional/OCP Gig-E-3
     type: 1000base-t
-  - name: Optional/OCP Gig-E 4
+  - name: Optional/OCP Gig-E-4
     type: 1000base-t
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
 device-bays:
+  - name: PCIe-Gen4-1
+  - name: Optional BOSS-2/Removed
   - name: Optional OCP NIC
-  - name: Optional BOSS-2 Removed
-  - name: PCIe-Gen4 1
-  - name: Optional PCIe-Gen4 2
-  - name: Optional PCIe-Gen4 3
+  - name: Optional PCIe-Gen4-2
+  - name: Optional PCIe-Gen4-3
