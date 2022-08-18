@@ -8,9 +8,9 @@ is_full_depth: true
 console-ports:
   - name: Serial
     type: de-9
-  - name: Optional USB Port
+  - name: USB Port/Optional
     type: usb-a
-  - name: Front VGA
+  - name: Front VGA/Optional
     type: other
   - name: Rear VGA
     type: other
@@ -18,16 +18,16 @@ console-server-ports:
   - name: Front USB1
     type: usb-a
   - name: Front iDRAC Direct micro port
-    type: usb-a
+    type: usb-micro-b
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
     type: usb-a
 power-ports:
-  - name: Power 1
+  - name: PSU0
     type: iec-60320-c14
     maximum_draw: 750
-  - name: Power 2
+  - name: PSU1
     type: iec-60320-c14
     maximum_draw: 750
 interfaces:
@@ -43,10 +43,6 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 device-bays:
-  - name: PCIe-Gen3 1
-  - name: PCIe-Gen3 2
-<<<<<<< HEAD
-  - name: PCIe-Gen3 3
-=======
-  - name: PCIe-Gen3 3
->>>>>>> 82e2421199d29719513090d2bf4fed1b09e3c963
+  - name: PCIe-Gen3-1
+  - name: PCIe-Gen3-2
+  - name: PCIe-Gen3=3
