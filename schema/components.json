@@ -444,6 +444,10 @@
                         "urm-p8"
                     ]
                 },
+                "color": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{6}$"
+                },
                 "rear_port": {
                     "type": "string"
                 },
@@ -503,6 +507,10 @@
                         "urm-p4",
                         "urm-p8"
                     ]
+                },
+                "color": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{6}$"
                 },
                 "positions": {
                     "type": "integer"
