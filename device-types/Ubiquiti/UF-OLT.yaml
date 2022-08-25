@@ -1,7 +1,8 @@
 ---
 manufacturer: Ubiquiti
-model: UF-OLT
+model: 8‑Port GPON Optical Line Terminal
 slug: uf-olt
+part_number: UF-OLT
 is_full_depth: false
 u_height: 1
 comments: |
@@ -9,6 +10,7 @@ comments: |
 interfaces:
   - name: MGMT
     type: 1000base-t
+    mgmt_only: true
   - name: pon1
     type: gpon
   - name: pon2
