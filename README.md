@@ -2,16 +2,16 @@
 
 ## About this Library
 
-This library is intended to be used for populating device types in [NetBox](https://github.com/netbox-community/netbox)
-version 2.7 or later. It contains a set of device type definitions expressed in YAML and arranged by manufacturer. Each
-file represents a discrete physical device type (e.g. make and model). These definitions can be loaded into NetBox to
-obviate the need to create device types and their associated components manually.
+This library is intended to be used for populating device types in [NetBox](https://github.com/netbox-community/netbox).
+It contains a set of device type definitions expressed in YAML and arranged by manufacturer. Each file represents a
+discrete physical device type (e.g. make and model). These definitions can be loaded into NetBox instead of creating
+new device type definitions manually.
 
 If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before
 submitting content.
 
 If you would like to automate the import of these devicetype template files, there is a **community based** python script
-that will check for duplicates, allow you to selectively import vendors, etc. available here [minitriga/Netbox-Dvice-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import). **Note**: This is not related to NetBox in any official way and you will not get support for it here.
+that will check for duplicates, allow you to selectively import vendors, etc. available here [minitriga/Netbox-Device-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import). **Note**: This is not related to NetBox in any official way and you will not get support for it here.
 
 ## Device Type Definitions
 
@@ -25,7 +25,7 @@ Each definition must include at minimum the following fields:
 The following fields may optionally be declared:
 
 - `part_number`: An alternative representation of the model number (e.g. a SKU).
-- `u_height`: The height of the device type in rack units. (Default: 1)
+- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (Default: 1)
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces.
   (Default: true)
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (Default: None)
@@ -133,3 +133,4 @@ There are two ways this repo focuses on keeping quality device-type definitions:
   - To uninstall the pre-commit script `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
 - GitHub Actions - Automatically run before a PR can be merged.  Repeats yamllint & validates against NetBox Device-Type Schema.
+
