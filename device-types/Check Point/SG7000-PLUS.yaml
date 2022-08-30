@@ -1,0 +1,97 @@
+---
+manufacturer: Check Point
+model: SG7000-PLUS
+slug: sg7000-plus
+part_number: CPAP-SG7000-PLUS-SNBT
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+airflow: front-to-rear
+comments: '[Check Point 7000 Security Gateway Data Sheet](https://www.checkpoint.com/downloads/products/7000-security-gateway-datasheet.pdf)'
+console-ports:
+- name: RJ45-Console
+  type: rj-45
+  label: ''
+  description: ''
+- name: USB_C-Console
+  type: usb-c
+  label: ''
+  description: ''
+power-ports:
+- name: PSU-1
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+- name: PSU-2
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: LOM
+  type: 1000base-t
+  mgmt_only: true
+  label: ''
+  description: ''
+- name: MGMT
+  type: 1000base-t
+  mgmt_only: true
+  label: ''
+  description: ''
+- name: RJ45-1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-3
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-4
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-5
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-6
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-7
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: RJ45-8
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: Sync
+  type: 1000base-t
+  mgmt_only: true
+  label: ''
+  description: ''
+module-bays:
+- name: EXP1
+  label: ''
+  position: EXP1
+  description: ''
+- name: EXP2
+  label: ''
+  position: EXP2
+  description: ''
