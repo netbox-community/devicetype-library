@@ -1,0 +1,12 @@
+---
+manufacturer: HPE
+model: Ethernet 10/25Gb 2-port 640FLR-SFP28 Adapter (LOM)
+part_number: 817749-B21
+comments: "HPE Ethernet 10/25Gb 2-port 640FLR-SFP28 Adapter\r\nLOM_Slot"
+interfaces:
+- name: '{module}-SFP28_1'
+  type: 25gbase-x-sfp28
+  mgmt_only: false
+- name: '{module}-SFP28_2'
+  type: 25gbase-x-sfp28
+  mgmt_only: false

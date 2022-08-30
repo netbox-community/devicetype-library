@@ -1,0 +1,19 @@
+---
+manufacturer: HPE
+model: DX380 Gen10
+slug: hpe_dx380_g10
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: 1600
+  allocated_draw: null
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: 1600
+  allocated_draw: null
+- name: iLO
+  type: 1000base-t
+  mgmt_only: true

@@ -1,0 +1,12 @@
+---
+manufacturer: HPE
+model: Ethernet 10Gb 2-port 535T Adapter
+part_number: 813661-B21
+comments: HPE Ethernet 10Gb 2-port 535T Adapter
+interfaces:
+- name: '{module}-RJ45_1'
+  type: 10gbase-t
+  mgmt_only: false
+- name: '{module}-RJ45_2'
+  type: 10gbase-t
+  mgmt_only: false

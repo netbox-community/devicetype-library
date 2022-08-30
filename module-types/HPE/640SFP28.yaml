@@ -1,0 +1,12 @@
+---
+manufacturer: HPE
+model: Ethernet 10/25Gb 2-port 640SFP28 Adapter
+part_number: 817753-B21
+comments: HPE Ethernet 10/25Gb 2-port 640SFP28 Adapter
+interfaces:
+- name: '{module}-SFP28_1'
+  type: 25gbase-x-sfp28
+  mgmt_only: false
+- name: '{module}-SFP28_2'
+  type: 25gbase-x-sfp28
+  mgmt_only: false

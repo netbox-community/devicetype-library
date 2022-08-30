@@ -4,6 +4,8 @@ model: ProLiant DL360 Gen10
 slug: hpe_dl360_g10
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+comments: '[HPE DL360 Gen10 Quickspecs](https://www.hpe.com/psnow/doc/a00008159enw.pdf)'
 console-ports:
   - name: Serial
     type: de-9
