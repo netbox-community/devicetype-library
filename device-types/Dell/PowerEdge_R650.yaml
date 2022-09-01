@@ -2,6 +2,7 @@
 manufacturer: Dell
 model: PowerEdge R650
 slug: dell_poweredge_r650
+comments: '[Dell PowerEdge R650] https://dl.dell.com/content/manual46646525-dell-emc-poweredge-r650-technical-specifications.pdf?language=en-us&ps=true'
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -47,8 +48,8 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 device-bays:
-  - name: PCIe-Gen4-1
   - name: Optional BOSS-2/Removed
   - name: Optional OCP NIC
+  - name: PCIe-Gen4-1
   - name: Optional PCIe-Gen4-2
   - name: Optional PCIe-Gen4-3
