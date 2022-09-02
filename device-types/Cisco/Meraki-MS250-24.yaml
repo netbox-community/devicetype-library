@@ -1,15 +1,15 @@
 ---
 manufacturer: Cisco
-model: MS250-48FP
-slug: ms250-48fp
-part_number: MS250-48FP-HW
+model: MS250-24
+slug: ms250-24
+part_number: MS250-24-HW
 u_height: 1
 is_full_depth: false
 comments: |
   [MS250 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS250_Overview_and_Specifications)
   [MS250 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms250.pdf)
 
-  Uses MA-PWR-1025WAC modular PSU.
+  Uses MA-PWR-250WAC modular PSU.
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -60,60 +60,12 @@ interfaces:
   - name: Port 24
     type: 1000base-t
   - name: Port 25
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: Port 26
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: Port 27
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: Port 28
-    type: 1000base-t
-  - name: Port 29
-    type: 1000base-t
-  - name: Port 30
-    type: 1000base-t
-  - name: Port 31
-    type: 1000base-t
-  - name: Port 32
-    type: 1000base-t
-  - name: Port 33
-    type: 1000base-t
-  - name: Port 34
-    type: 1000base-t
-  - name: Port 35
-    type: 1000base-t
-  - name: Port 36
-    type: 1000base-t
-  - name: Port 37
-    type: 1000base-t
-  - name: Port 38
-    type: 1000base-t
-  - name: Port 39
-    type: 1000base-t
-  - name: Port 40
-    type: 1000base-t
-  - name: Port 41
-    type: 1000base-t
-  - name: Port 42
-    type: 1000base-t
-  - name: Port 43
-    type: 1000base-t
-  - name: Port 44
-    type: 1000base-t
-  - name: Port 45
-    type: 1000base-t
-  - name: Port 46
-    type: 1000base-t
-  - name: Port 47
-    type: 1000base-t
-  - name: Port 48
-    type: 1000base-t
-  - name: Port 49
-    type: 10gbase-x-sfpp
-  - name: Port 50
-    type: 10gbase-x-sfpp
-  - name: Port 51
-    type: 10gbase-x-sfpp
-  - name: Port 52
     type: 10gbase-x-sfpp
   - name: Dedicated Stack Port 1
     type: 40gbase-x-qsfpp
