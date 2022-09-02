@@ -1,0 +1,56 @@
+---
+manufacturer: Dell
+model: PowerEdge R340 8x2.5
+slug: dell_poweredge_r340-8
+part_number: PER340-8
+comments: '[Dell PowerEdge R340 Rack Server Chassis 8x2.5"] | https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf' 
+subdevice_role: parent
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: internal USB
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 550
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 550
+interfaces:
+  - name: LOM1
+    type: 1000base-t
+  - name: LOM2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PERC
+    description: 'PERC H730P, H330, HBA330 (non-RAID)'
+  - name: Optional BOSS-2 Removed
+  - name: PCIe-Gen3-1
+  - name: PCIe-Gen3-2
+  - name: Drive bay-00/SFF
+  - name: Drive bay-01/SFF
+  - name: Drive bay-02/SFF
+  - name: Drive bay-03/SFF
+  - name: Drive bay-04/SFF
+  - name: Drive bay-05/SFF
+  - name: Drive bay-06/SFF
+  - name: Drive bay-07/SFF
