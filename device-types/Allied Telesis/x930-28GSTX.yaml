@@ -9,13 +9,6 @@ comments: Every physical front port is a 1000BASE-T/SFP combo port
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PSU A
-    type: iec-60320-c14
-    maximum_draw: 97
-  - name: PSU B
-    type: iec-60320-c14
-    maximum_draw: 97
 interfaces:
   - name: port1.0.1
     type: 1000base-t
@@ -105,5 +98,9 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: PSU A
+    position: 'A'
+  - name: PSU B
+    position: 'B'
   - name: Rear Slot
     position: '1'

@@ -1,8 +1,8 @@
 ---
 manufacturer: SonicWall
-model: NSa 5650
-slug: nsa-5650
-part_number: NSA5650
+model: NSa 5700
+slug: nsa-5700
+part_number: NSA5700
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -74,38 +74,50 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
   - name: X16
-    type: 2.5gbase-t
+    type: 1000base-t
     mgmt_only: false
   - name: X17
-    type: 2.5gbase-t
+    type: 1000base-t
     mgmt_only: false
   - name: X18
-    type: 2.5gbase-t
+    type: 1000base-t
     mgmt_only: false
   - name: X19
-    type: 2.5gbase-t
+    type: 1000base-t
     mgmt_only: false
   - name: X20
-    type: 1000base-x-sfp
+    type: 1000base-t
     mgmt_only: false
   - name: X21
-    type: 1000base-x-sfp
+    type: 1000base-t
     mgmt_only: false
   - name: X22
-    type: 1000base-x-sfp
+    type: 1000base-t
     mgmt_only: false
   - name: X23
-    type: 1000base-x-sfp
+    type: 1000base-t
     mgmt_only: false
   - name: X24
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
     mgmt_only: false
   - name: X25
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
     mgmt_only: false
   - name: X26
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
     mgmt_only: false
   - name: X27
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X28
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X29
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X30
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: X31
+    type: 10gbase-x-sfpp
     mgmt_only: false
