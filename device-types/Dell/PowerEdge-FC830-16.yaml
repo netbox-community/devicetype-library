@@ -1,0 +1,75 @@
+---
+manufacturer: Dell
+model: PowerEdge FC830 16uSATA
+slug: dell-poweredge-FC830-16
+part_number: PEFC830-16
+comments: '[Dell PowerEdge FC830 16X1.6" uSATA SSD] | https://dl.dell.com/topicspdf/poweredge-fc830_owners-manual_en-us.pdf'
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+subdevice_role: parent
+console-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2/iDRAC Direct port
+    type: usb-a
+  - name: Internal SD (IDSDM)
+    type: other
+  - name: VFLASH
+    type: other
+  - name: TPM
+    type: other 
+interfaces:
+  - name: LOM1
+    description:  interfaces from bNDC 
+    type: 10gbase-x-sfpp
+  - name: LOM2
+    description:  interfaces from bNDC 
+    type: 10gbase-x-sfpp
+  - name: MEZZ1_FAB_C1-0
+    description:  interfaces from  MEZZ1_FAB_C/PCIe-Gen3 
+    type: 10gbase-x-sfpp
+  - name: MEZZ1_FAB_C1-1
+    description:  interfaces from  MEZZ1_FAB_C/PCIe-Gen3 
+    type: 10gbase-x-sfpp
+  - name: MEZZ1_FAB_C2-0
+    description:  interfaces from  MEZZ1_FAB_C/PCIe-Gen3 
+    type: 10gbase-x-sfpp
+  - name: MEZZ1_FAB_C2-1
+    description:  interfaces from  MEZZ1_FAB_C/PCIe-Gen3 
+    type: 10gbase-x-sfpp
+  - name: MEZZ2_FAB_B1
+    description:  interfaces from  MEZZ1_FAB_B/PCIe-Gen3 
+    type: 10gbase-x-sfpp
+  - name: MEZZ2_FAB_B2
+    description:  interfaces from  MEZZ1_FAB_B/PCIe-Gen3 
+    type: 10gbase-x-sfpp
+  - name: iDRAC8
+    type: 1000base-t
+device-bays:
+  - name: bNDC
+    description: 'Network Daughter Card connector'
+  - name: MEZZ1_FAB_C1/PCIe-Gen3
+    description: 'PCIe mezzanine card connector for the expansion bus'
+  - name: MEZZ2_FAB_B1/PCIe-Gen3
+    description: 'PCIe mezzanine card connector for the expansion bus'
+  - name: MEZZ3_FAB_C2/PCIe-Gen3
+    description: 'PCIe mezzanine card connector for the expansion bus'
+  - name: MEZZ4_FAB_B2/PCIe-Gen3
+    description: 'PCIe mezzanine card connector for the expansion bus'
+  - name: Drive bay-00/HS
+  - name: Drive bay-01/HS
+  - name: Drive bay-02/HS
+  - name: Drive bay-03/HS
+  - name: Drive bay-04/HS
+  - name: Drive bay-05/HS
+  - name: Drive bay-06/HS
+  - name: Drive bay-07/HS
+  - name: Drive bay-08/HS
+  - name: Drive bay-09/HS
+  - name: Drive bay-10/HS
+  - name: Drive bay-11/HS
+  - name: Drive bay-12/HS
+  - name: Drive bay-13/HS
+  - name: Drive bay-14/HS
+  - name: Drive bay-15/HS
