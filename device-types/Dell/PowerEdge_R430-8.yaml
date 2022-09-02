@@ -1,0 +1,69 @@
+---
+manufacturer: Dell
+model: PowerEdge R430 8x2.5
+slug: dell_poweredge_r430-8
+part_number: PER430-8
+comments: '[PowerEdge R430 Rack Server 8x2.5/Dell 13th Gen ] | https://dl.dell.com/content/manual26479616-dell-poweredge-r430-owner-s-manual.pdf?language=en-us&ps=true'
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Internal SD (IDSDM)/Option
+    type: other
+  - name: Rear VFLASH/Option
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 550
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 550
+interfaces:
+  - name: LOM1
+    type: 1000base-t
+  - name: LOM2
+    type: 1000base-t
+  - name: LOM3
+    type: 1000base-t
+  - name: LOM4
+    type: 1000base-t
+  - name: iDRAC8
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PERC
+    description: 'PERC H330, PERC H730, PERC H730P'
+  - name: PCIe-Gen3-1
+  - name: PCIe-Gen3-2
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
