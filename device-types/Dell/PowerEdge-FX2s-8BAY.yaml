@@ -1,0 +1,64 @@
+---
+manufacturer: Dell
+model: PowerEdge FX2s 8BAY
+slug: poweredge-fx2s-8bay
+part_number: PEFX2s-8BAY
+comments: '[Dell PowerEdge FX2 and FX2s Enclosure 8 X Quarter-Width Nodes/switched] | https://dl.dell.com/topicspdf/fx_fx2_owners_manual_en-us.pdf'
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+subdevice_role: parent
+console-ports:
+  - name: usb0 Front
+    type: usb-a
+  - name: Front VGA
+    type: other
+  - name: Rear Serial
+    type: de-9
+  - name: CMC module SD card
+    type: other
+interfaces:
+  - name: GB1
+    description: GB1 Initial connection
+    type: 1000base-t
+    mgmt_only: true
+  - name: GB2
+    description: GB2 Redundant connection
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 2000
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 2000
+device-bays:
+  - name: Front SLOT-1a Quarter-Width
+  - name: Front SLOT-1b Quarter-Width
+  - name: Front SLOT-1c Quarter-Width
+  - name: Front SLOT-1d Quarter-Width
+  - name: Front SLOT-3a Quarter-Width
+  - name: Front SLOT-3b Quarter-Width
+  - name: Front SLOT-3c Quarter-Width
+  - name: Front SLOT-3d Quarter-Width
+  - name: FN IO Module-A1
+    description: 'PE FN410s or PE FN410t or PE FN2210s'
+  - name: FN IO Module-A2
+    description: 'PE FN410s or PE FN410t or PE FN2210s'
+  - name: PCIe-Gen3-1
+    description: 'For SLOT-3d'
+  - name: PCIe-Gen3-2
+    description: 'For SLOT-3c'
+  - name: PCIe-Gen3-3
+    description: 'For SLOT-3b'
+  - name: PCIe-Gen3-4
+    description: 'For SLOT-3a'
+  - name: PCIe-Gen3-5
+    description: 'For SLOT-1d'
+  - name: PCIe-Gen3-6
+    description: 'For SLOT-1c'
+  - name: PCIe-Gen3-7
+    description: 'For SLOT-1b'
+  - name: PCIe-Gen3-8 
+    description: 'For SLOT-1a'
