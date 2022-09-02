@@ -1,9 +1,9 @@
 ---
 manufacturer: Dell
-model: PowerEdge FC630 8uSATA 
-slug: dell-poweredge-FC630-8
-part_number: PEFC630-8
-comments: '[Dell PowerEdge FC630 8X1.8 uSATA" ] https://dl.dell.com/topicspdf/poweredge-fc630_owners-manual_en-us.pdf'
+model: PowerEdge FC640
+slug: dell-poweredge-FC640
+part_number: PEFC640
+comments: '[Dell PowerEdge FC640 2 X 2.5" SSF "] | https://dl.dell.com/topicspdf/poweredge-fc640_owners-manual_en-us.pdf '
 u_height: 0
 is_full_depth: true
 subdevice_role: child
@@ -12,8 +12,10 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front USB2/iDRAC Direct port
+    type: usb-micro-b
+  - name: Internal USB3
     type: usb-a
-  - name: Internal SD (IDSDM)
+  - name: Internal MicroSD (IDSDM)
     type: other
   - name: VFLASH
     type: other
@@ -38,7 +40,7 @@ interfaces:
   - name: MEZZ2_FAB_B2
     description:  interfaces from  MEZZ1_FAB_B/PCIe-Gen3 
     type: 10gbase-x-sfpp
-  - name: iDRAC8
+  - name: iDRAC9
     type: 1000base-t
 device-bays:
   - name: bNDC
@@ -47,11 +49,7 @@ device-bays:
     description: 'PCIe mezzanine card connector for the expansion bus'
   - name: MEZZ2_FAB_B/PCIe-Gen3
     description: 'PCIe mezzanine card connector for the expansion bus'
-  - name: Drive bay-0/HS
-  - name: Drive bay-1/HS
-  - name: Drive bay-2/HS
-  - name: Drive bay-3/HS
-  - name: Drive bay-4/HS
-  - name: Drive bay-5/HS
-  - name: Drive bay-6/HS
-  - name: Drive bay-7/HS
+  - name: BOSS-M.2 
+    description: 'BOSS card connector w/ 2 M.2 SSD'
+  - name: Drive bay-0/SSF
+  - name: Drive bay-1/SSF
