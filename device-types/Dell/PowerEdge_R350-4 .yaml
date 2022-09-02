@@ -1,17 +1,15 @@
 ---
 manufacturer: Dell
-model: PowerEdge R340 4x3.5
-slug: dell_poweredge_r340-4
-part_number: PER340-4
-comments: '[Dell PowerEdge R340 Rack Server Chassis 4x3.5"] | https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf' 
+model: PowerEdge R350 4x3.5
+slug: dell_poweredge_r350-4
+part_number: PER350-4
+comments: '[Dell PowerEdge R350 Rack Server Chassis 4x3.5"] | https://dl.dell.com/content/manual26953530-dell-emc-poweredge-r350-installation-and-service-manual.pdf?language=en-us&ps=true' 
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
 console-ports:
   - name: Rear Serial
     type: de-9
-  - name: Front VGA
-    type: other
   - name: Rear VGA
     type: other
 console-server-ports:
@@ -23,15 +21,15 @@ console-server-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-  - name: internal USB
+  - name: internal USB/Internal SD (IDSDM)
     type: usb-a
 power-ports:
-  - name: Power 1
+  - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 550
-  - name: Power 2
+    maximum_draw: 600
+  - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 550
+    maximum_draw: 600
 interfaces:
   - name: LOM1
     type: 1000base-t
@@ -42,11 +40,11 @@ interfaces:
     mgmt_only: true
 device-bays:
   - name: PERC
-    description: 'PERC H730P, H330, HBA330 (non-RAID)'
+    description: 'PERC H355, H345, HBA355i, H755'
   - name: Optional BOSS-2 Removed
-    description: '51CN2 - DELL BOSS M.2 Controller Card'
-  - name: PCIe-Gen3-1
-  - name: PCIe-Gen3-2
+    description: 'DELL BOSS M.2 Controller Card'
+  - name: PCIe-Gen4-1
+  - name: PCIe-Gen4-2
   - name: Drive bay-0
   - name: Drive bay-1
   - name: Drive bay-2
