@@ -6,6 +6,13 @@ comments: 'HPE BladeSystem BLc7000 Enclosure'
 u_height: 10
 is_full_depth: true
 subdevice_role: parent
+interfaces:
+  - name: iLO/Onboard Administrator Port 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: iLO/Onboard Administrator Port 2
+    type: 1000base-t
+    mgmt_only: true
 power-ports:
   - name: PS1
     type: iec-60320-c20
