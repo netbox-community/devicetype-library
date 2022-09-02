@@ -91,12 +91,15 @@ interfaces:
   - name: GigabitEthernet1/0/24
     type: 1000base-t
     mgmt_only: false
-  - name: STACK0
+  - name: StackPort1/1
     type: cisco-stackwise
     mgmt_only: false
-  - name: STACK1
+  - name: StackPort1/2
     type: cisco-stackwise
     mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: Network Module
+    position: '1'

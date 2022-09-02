@@ -1,7 +1,7 @@
 ---
 # close-stale-issues (https://github.com/marketplace/actions/close-stale-issues)
 name: Close stale PRs
-on:
+on:  # yamllint disable-line rule:truthy
   schedule:
     - cron: 0 4 * * *
 
@@ -19,6 +19,6 @@ jobs:
           remove-stale-when-updated: false
           stale-pr-label: stale
           stale-pr-message: >
-            This PR has been automatically marked as stale because it has not had
-            recent activity. It will be closed automatically if no further progress
-            is made.
+            This PR has been automatically marked as stale because it has not
+            had recent activity. It will be closed automatically if no further
+            progress is made.

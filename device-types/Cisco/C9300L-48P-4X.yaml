@@ -126,10 +126,10 @@ interfaces:
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: STACK0
+  - name: StackPort1/1
     type: cisco-stackwise
     mgmt_only: false
-  - name: STACK1
+  - name: StackPort1/2
     type: cisco-stackwise
     mgmt_only: false
   - name: GigabitEthernet0/0

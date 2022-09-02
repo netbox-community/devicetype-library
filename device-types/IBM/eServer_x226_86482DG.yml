@@ -1,0 +1,22 @@
+---
+manufacturer: IBM
+model: eServer x226-[86482DG]-
+slug: ibm_eserver_x226_86482dg
+u_height: 5
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 514
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 514
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false

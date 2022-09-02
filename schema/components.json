@@ -371,6 +371,7 @@
                         "t3",
                         "e3",
                         "xdsl",
+                        "docsis",
                         "cisco-stackwise",
                         "cisco-stackwise-plus",
                         "cisco-flexstack",
@@ -384,6 +385,12 @@
                         "extreme-summitstack-128",
                         "extreme-summitstack-256",
                         "extreme-summitstack-512",
+                        "gpon",
+                        "xg-pon",
+                        "xgs-pon",
+                        "ng-pon2",
+                        "epon",
+                        "10g-epon",
                         "other"
                     ]
                 },
@@ -444,6 +451,10 @@
                         "urm-p8"
                     ]
                 },
+                "color": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{6}$"
+                },
                 "rear_port": {
                     "type": "string"
                 },
@@ -503,6 +514,10 @@
                         "urm-p4",
                         "urm-p8"
                     ]
+                },
+                "color": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{6}$"
                 },
                 "positions": {
                     "type": "integer"
