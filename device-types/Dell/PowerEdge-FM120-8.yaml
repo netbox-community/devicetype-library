@@ -1,0 +1,58 @@
+---
+manufacturer: Dell
+model: PowerEdge FM120-8
+slug: dell-poweredge-fm120-8
+part_number: FM120-8
+comments: '[Dell PowerEdge FM120x4 Microserver 8 x 1.8" SSD] | https://dl.dell.com/topicspdf/poweredge-fx2_owners-manual6_en-us.pdf'
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+subdevice_role: parent
+console-ports:
+  - name: usb0 Front
+    type: usb-a
+interfaces:
+  - name: Node-1-LOM1
+    description: 'NODE1 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-1-LOM2
+    description: 'NODE1 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-2-LOM1
+    description: 'NODE2 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-2-LOM2
+    description: 'NODE2 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-3-LOM1
+    description: 'NODE3 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-3-LOM2
+    description: 'NODE3 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-4-LOM1
+    description: 'NODE4 of 4 and per SLOT '
+    type: 1000base-t
+  - name: Node-4-LOM2
+    description: 'NODE4 of 4 and per SLOT '
+    type: 1000base-t
+  - name: iDRAC8
+    type: 1000base-t
+    mgmt_only: true 
+device-bays:
+  - name: Drive bay-A0/HS
+    description: '1.8" uSATA drive for NODE1'
+  - name: Drive bay-A1/HS
+    description: '1.8" uSATA drive for NODE1'
+  - name: Drive bay-B0/HS
+    description: '1.8" uSATA drive for NODE2'
+  - name: Drive bay-B1/HS
+    description: '1.8" uSATA drive for NODE2'
+  - name: Drive bay-C0/HS
+    description: '1.8" uSATA drive for NODE3'
+  - name: Drive bay-C1/HS
+    description: '1.8" uSATA drive for NODE3'
+  - name: Drive bay-D0/HS
+    description: '1.8" uSATA drive for NODE4'
+  - name: Drive bay-D1/HS
+    description: '1.8" uSATA drive for NODE4'
