@@ -3,7 +3,7 @@ manufacturer: Dell
 model: PowerEdge FX2 4BAY
 slug: poweredge-fx2-4bay
 part_number: PEFX2-4BAY
-comments: '[Dell PowerEdge FX2 and FX2s Enclosure 4 X Half-Width Nodes] | https://dl.dell.com/topicspdf/fx_fx2_owners_manual_en-us.pdf'
+comments: '[Dell PowerEdge FX2 and FX2s Enclosure 4 X Half-Width Nodes-W/O PCIe support] | https://dl.dell.com/topicspdf/fx_fx2_owners_manual_en-us.pdf'
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
@@ -46,19 +46,3 @@ device-bays:
     description: 'PE FN410s or PE FN410t or PE FN2210s'
   - name: FN IO Module-A2
     description: 'PE FN410s or PE FN410t or PE FN2210s'
-  - name: PCIe-Gen3-1
-    description: 'For SLOT-4'
-  - name: PCIe-Gen3-2
-    description: 'For SLOT-4'
-  - name: PCIe-Gen3-3
-    description: 'For SLOT-3'
-  - name: PCIe-Gen3-4
-    description: 'For SLOT-3'
-  - name: PCIe-Gen3-5
-    description: 'For SLOT-2'
-  - name: PCIe-Gen3-6
-    description: 'For SLOT-2'
-  - name: PCIe-Gen3-7
-    description: 'For SLOT-1'
-  - name: PCIe-Gen3-8 
-    description: 'For SLOT-1'
