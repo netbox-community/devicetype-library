@@ -1,0 +1,69 @@
+---
+manufacturer: Dell
+model: PowerEdge R650 4LFF
+slug: dell_poweredge_r650-4lff
+comments: '[Dell PowerEdge R650 4x3.5"/Dell 15th Gen] | https://dl.dell.com/content/manual27146348-dell-emc-poweredge-r650-installation-and-service-manual.pdf?language=en-us&ps=true '
+part_number: PER650-4
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Serial Optional
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Internal SD (IDSDM)
+    type: other
+  - name: Internal VFLASH
+    type: other
+  - name: Internal TPM
+    type: other 
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 1100
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1100
+interfaces:
+  - name: LOM1
+    type: 1000base-t
+  - name: LOM2
+    type: 1000base-t
+  - name: Optional/OCP-LOM3
+    type: 1000base-t
+  - name: Optional/OCP-LOM4
+    type: 1000base-t
+  - name: Optional/OCP-LOM5
+    type: 1000base-t
+  - name: Optional/OCP-LOM6
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PERC
+    description: 'PERC H745, H345, HBA355I, H755, H755N'
+  - name: BOSS-2/Removed Optional 
+  - name: OCP NIC/LOM Optional 
+  - name: Riser-1/SLOT-1/PCIe-Gen4-1
+  - name: Riser-2/SLOT-2/PCIe-Gen4-2
+  - name: Drive bay-0
+    description: '3.5" LFF'
+  - name: Drive bay-1
+    description: '3.5" LFF'
+  - name: Drive bay-2
+    description: '3.5" LFF'
+  - name: Drive bay-3
+    description: '3.5" LFF'
