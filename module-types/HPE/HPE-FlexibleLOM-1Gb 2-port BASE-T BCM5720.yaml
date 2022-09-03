@@ -1,0 +1,10 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 1Gb 2-port BASE-T BCM5720 Adapter
+comments: '1 Gigabit Ethernet adapters'
+part_number: 615732-B21
+interfaces:
+  - name: NIC{module}/1
+    type: 1000base-t
+  - name: NIC{module}/2
+    type: 1000base-t

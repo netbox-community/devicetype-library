@@ -1,0 +1,14 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 1Gb 4-port BASE-T I350-T4V2 Adapter
+comments: '1 Gigabit Ethernet adapters'
+part_number: 811546-B21
+interfaces:
+  - name: NIC{module}/1
+    type: 1000base-t
+  - name: NIC{module}/2
+    type: 1000base-t
+  - name: NIC{module}/3
+    type: 1000base-t
+  - name: NIC{module}/4
+    type: 1000base-t

@@ -1,0 +1,10 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 10/25Gb 2-port SFP28 MCX4121A-ACUT Adapter
+comments: '10/25 Gigabit Ethernet adapters'
+part_number: 817753-B21
+interfaces:
+  - name: NIC{module}/1
+    type: 25gbase-x-sfp28
+  - name: NIC{module}/2
+    type: 25gbase-x-sfp28

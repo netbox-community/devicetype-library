@@ -1,0 +1,10 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 10Gb 2-port 548SFP+ Adapter
+comments: '10 Gigabit Ethernet adapters'
+part_number: P11338-B21
+interfaces:
+  - name: NIC{module}/1
+    type: 10gbase-x-sfpp
+  - name: NIC{module}/2
+    type: 10gbase-x-sfpp

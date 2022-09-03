@@ -1,16 +1,16 @@
 ---
 manufacturer: HPE
 model: ProLiant DL380 Gen10 8SFF
-slug: hpe_dl380_g10
+slug: hpe_dl380_g10_8sff
 part_number: P19720-B21
 comments: '[HPE ProLiant DL380 Gen10 Server /w 8-SFF] | https://www.imvendorportal.com/prodpictures/40/30_7140MDG_64656112.pdf'
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
 console-ports:
-  - name: Front iLO Front Service Port
+  - name: Front iLO Service Port
     type: usb-a
-  - name: Rear Optional Serial
+  - name: Rear Serial Option
     type: de-9
   - name: Rear VGA
     type: other
@@ -21,7 +21,7 @@ console-ports:
   - name: Rear USB2
     type: usb-a
   - name: TPM
-     type: other 
+    type: other 
 power-ports:
   - name: PSU1
     type: iec-60320-c14
@@ -44,13 +44,28 @@ interfaces:
 device-bays:
   - name: RAID Controller
     description: 'HPE Smart Array E208i-a,E208i-p, E208e-p, P408i-a, P408i-p, P408e-p, P816i-a'
-  - name: FlexibleLOM2 optional
-    description: 
-  - name: Pri-Riser/PCIe 1
-  - name: Pri-Riser/PCIe 2
-  - name: Pri-Riser/PCIe 3
-  - name: 2nd-Riser/PCIe 4
-  - name: 2nd-Riser/PCIe 5
-  - name: 2nd-Riser/PCIe 6
-  - name: 3nd-Riser/PCIe 7
-  - name: 3nd-Riser/PCIe 8
+  - name: FlexibleLOM2 option
+    description: FlexibleLOM module 
+  - name: Pri-Riser/PCIe-1
+  - name: Pri-Riser/PCIe-2
+  - name: Pri-Riser/PCIe-3
+  - name: 2nd-Riser/PCIe-4
+  - name: 2nd-Riser/PCIe-5
+  - name: 2nd-Riser/PCIe-6
+  - name: 3nd-Riser/PCIe-7
+  - name: 3nd-Riser/PCIe-8
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
