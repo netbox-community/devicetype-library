@@ -20,8 +20,6 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-  - name: TPM
-    type: other 
 power-ports:
   - name: PSU1
     type: iec-60320-c14
@@ -30,42 +28,74 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
-  - name: FlexibleLOM1/Gig-E 1
+  - name: Gig-E-1
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E 2
+  - name: Gig-E-2
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E 3
+  - name: Gig-E 3
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E 4
+  - name: Gig-E 4
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: iLO
+  - name: iLO5
     type: 1000base-t
     mgmt_only: true
 device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: Universal Media Bay
+    label: DriveBay1
+    description:  DVD-RW or DVD-ROM + Display port & USB 2.0 port
   - name: RAID Controller
     description: 'HPE Smart Array E208i-a,E208i-p, E208e-p, P408i-a, P408i-p, P408e-p, P816i-a'
   - name: FlexibleLOM2 option
     description: FlexibleLOM module 
-  - name: Pri-Riser/PCIe-1
-  - name: Pri-Riser/PCIe-2
-  - name: Pri-Riser/PCIe-3
-  - name: 2nd-Riser/PCIe-4
-  - name: 2nd-Riser/PCIe-5
-  - name: 2nd-Riser/PCIe-6
-  - name: 3nd-Riser/PCIe-7
-  - name: 3nd-Riser/PCIe-8
+  - name: PCIe-1
+    label: primary riser
+  - name: PCIe-2
+    label: primary riser
+  - name: PCIe-3
+    label: primary riser
+  - name: PCIe-4
+    label: secondary riser
+  - name: PCIe-5
+    label: secondary riser
+  - name: PCIe-6
+    label: secondary riser
+  - name: PCIe-7
+    label: tertiary riser
+  - name: PCIe-8
+    label: tertiary riser
+  - name: DriveBay1
+    label: Box1
+  - name: DriveBay2
+    label: Box2
+  - name: DriveBay3
+    label: Box3
   - name: Drive bay-0/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-1/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-2/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-3/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-4/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-5/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-6/SFF
+    label: DriveBay2
     description: '2.5" SFF'
   - name: Drive bay-7/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
