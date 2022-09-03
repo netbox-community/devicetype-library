@@ -1,15 +1,15 @@
 ---
 manufacturer: Dell
-model: PowerEdge R440 10SFF
-slug: dell_poweredge_r440-10
-part_number: PER440-10
-comments: '[PowerEdge R440 Rack Server 10x2.5/Dell 14th Gen] | https://dl.dell.com/content/manual43617227-dell-emc-poweredge-r440-installation-and-service-manual.pdf?language=en-us&ps=true'
+model: PowerEdge R450 8SFF
+slug: dell_poweredge_R450-8sff
+comments: '[PowerEdge R450 Rack Server 8x2.5"/Dell 15th Gen] | https://dl.dell.com/topicspdf/poweredge-r450_owners-manual_en-us.pdf'
+part_number: PER450-8
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
 console-ports:
   - name: Rear Serial
-    type: de-9
+    type: de-9 
   - name: Front VGA
     type: other
   - name: Rear VGA
@@ -25,37 +25,40 @@ console-server-ports:
     type: usb-a
   - name: Internal SD (IDSDM)
     type: other
-  - name: VFLASH
+  - name: Internal VFLASH
     type: other
-  - name: TPM
+  - name: Internal TPM
     type: other 
 power-ports:
-  - name: PSU1
+  - name: Power 1
     type: iec-60320-c14
-    maximum_draw: 550
-  - name: PSU2
+    maximum_draw: 1100
+  - name: Power 2
     type: iec-60320-c14
-    maximum_draw: 550
+    maximum_draw: 1100
 interfaces:
   - name: LOM1
     type: 1000base-t
   - name: LOM2
     type: 1000base-t
-  - name: LOM3
+  - name: OCP-LOM3
     type: 1000base-t
-  - name: LOM4
+  - name: OCP-LOM4
     type: 1000base-t
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
+    mgmt_only: true
 device-bays:
   - name: PERC
-    description: 'PERC  PERC H330, H730p, H740p, HBA330'
-  - name: Optional BOSS-2 Removed
+    description: 'PERC H345, PERC H355, PERC H745, PERC H755, HBA355i'
+  - name: BOSS-2 Optional
     description: 'DELL BOSS M.2 Controller Card'
-  - name: LOM Riser 
+  - name: OCP NIC Optional
     description: '2 x 1GE or 2x 10GE SFP+ or 2 x 10GE BaseT'
-  - name: PCIe-Gen3-1
+  - name: Riser-1/SLOT-1/PCIe-Gen4-1
+  - name: Riser-2/SLOT-2/PCIe-Gen4-2
+  - name: Riser-2/SLOT-3/PCIe-Gen4-3
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF
@@ -71,8 +74,4 @@ device-bays:
   - name: Drive bay-6/SFF
     description: '2.5" SFF'
   - name: Drive bay-7/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-8/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-9/SFF
     description: '2.5" SFF'
