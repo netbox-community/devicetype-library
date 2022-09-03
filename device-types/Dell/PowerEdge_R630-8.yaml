@@ -1,0 +1,68 @@
+---
+manufacturer: Dell
+model: PowerEdge R630 8SFF
+slug: dell_poweredge_r630-8sff
+part_number: PER630-8
+comments: '[Dell PowerEdge R640 8x2.5"-8SFF/Dell 144h Gen] | https://dl.dell.com/content/manual18909488-dell-poweredge-r630-owner-s-manual.pdf?language=en-us&ps=true '
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear Serial
+    type: de-9
+  - name: USB
+    type: usb-a
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front iDRAC Direct port
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: LOM1
+    type: 1000base-t
+  - name: LOM2
+    type: 1000base-t
+  - name: LOM3
+    type: 1000base-t
+  - name: LOM4
+    type: 1000base-t
+  - name: iDRAC8
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PERC
+    description: 'PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P'
+  - name: Riser-1/SLOT-1/PCIe-Gen3-1
+  - name: Riser-1/SLOT-2/PCIe-Gen3-1
+  - name: Riser-2/SLOT-3/PCIe-Gen3-2
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'

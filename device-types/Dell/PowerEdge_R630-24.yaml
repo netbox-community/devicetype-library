@@ -1,0 +1,94 @@
+---
+manufacturer: Dell
+model: PowerEdge R630 24x1.8
+slug: dell_poweredge_r630-24
+part_number: PER630-24
+comments: '[Dell PowerEdge R640 24x1.8" uSATA/Dell 144h Gen] | https://dl.dell.com/content/manual18909488-dell-poweredge-r630-owner-s-manual.pdf?language=en-us&ps=true '
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Rear VGA
+    type: other
+console-server-ports:
+  - name: Front iDRAC Direct port
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 1100
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1100
+interfaces:
+  - name: LOM1
+    type: 1000base-t
+  - name: LOM2
+    type: 1000base-t
+  - name: LOM3
+    type: 1000base-t
+  - name: LOM4
+    type: 1000base-t
+  - name: iDRAC8
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PERC
+    description: 'PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P'
+  - name: Riser-1/SLOT-1/PCIe-Gen3-1
+  - name: Riser-1/SLOT-2/PCIe-Gen3-1
+  - name: Riser-2/SLOT-3/PCIe-Gen3-2
+  - name: Drive bay-00/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-01/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-02/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-03/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-04/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-05/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-06/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-07/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-08/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-09/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'
