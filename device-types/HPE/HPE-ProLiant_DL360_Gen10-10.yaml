@@ -1,9 +1,8 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen10 8SFF
-slug: hpe_dl360_g10_8sff
-part_number: P19766-B21
-comments: '[HPE ProLiant DL360 Gen10 Server w/ 8-SFF] | https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf '
+model: ProLiant DL360 Gen10 10SFF
+slug: hpe_dl360_g10_10sff
+comments: '[HPE ProLiant DL360 Gen10 Server w/ 10-SFF] | https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -42,7 +41,7 @@ interfaces:
 device-bays:
   - name: TPM
   - name: Universal Media Bay
-    description:  DVD-RW or DVD-ROM + Display port & USB 2.0 port
+    description: '+2-SFF SAS/SATA'
   - name: SmartArry
     description: 'Smart Array P408i-a or Smart Array P816i-a or Smart Array E208i-a'
   - name: FlexibleLOM2 
@@ -65,3 +64,7 @@ device-bays:
     description: '2.5" SFF'
   - name: Drive bay-7/SFF
     description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF from Universal Media Bay'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF from Universal Media Bay'
