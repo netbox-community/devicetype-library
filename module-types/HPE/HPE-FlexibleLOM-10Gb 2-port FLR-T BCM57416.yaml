@@ -1,0 +1,10 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 10Gb 2-port FLR-T BCM57416 Adapter
+comments: '10 Gigabit Ethernet adapters'
+part_number: 817721-B21
+interfaces:
+  - name: NIC{module}/1
+    type: 10gbase-t
+  - name: NIC{module}/2
+    type: 10gbase-t
