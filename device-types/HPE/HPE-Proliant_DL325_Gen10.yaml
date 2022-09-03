@@ -1,0 +1,70 @@
+---
+manufacturer: HPE
+model: ProLiant DL325 Gen10 8SFF
+slug: hpe_dl325_gen10-8sff
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+comments: '[HPE ProLiant DL360 Gen10 Server w/ 8-SFF] | https://www.hpe.com/psnow/doc/a00045498enw.html?jumpid=in_pdp-psnow-qs'
+console-ports:
+- name: Front iLO Front Service Port
+  type: usb-a
+- name: Front USB1
+  type: usb-a
+- name: Rear Serial Optional
+  type: de-9
+- name: Rear USB1
+  type: usb-a
+- name: Rear USB2
+  type: usb-a
+- name: Rear VGA
+  type: other
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: 800
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: 800
+interfaces:
+- name: FlexibleLOM1/Gig-E-1
+  type: 1000base-t
+- name: FlexibleLOM1/Gig-E-2
+  type: 1000base-t
+- name: FlexibleLOM1/Gig-E-3
+  type: 1000base-t
+- name: FlexibleLOM1/Gig-E-4
+  type: 1000base-t
+- name: iLO5
+  type: 1000base-t
+device-bays:
+- name: TPM
+  description: TPM 2.0 Support
+- name: Drive bay-0/SFF
+  description: 2.5" SFF
+- name: Drive bay-1/SFF
+  description: 2.5" SFF
+- name: Drive bay-2/SFF
+  description: 2.5" SFF
+- name: Drive bay-3/SFF
+  description: 2.5" SFF
+- name: Drive bay-4/SFF
+  description: 2.5" SFF
+- name: Drive bay-5/SFF
+  description: 2.5" SFF
+- name: Drive bay-6/SFF
+  description: 2.5" SFF
+- name: Drive bay-7/SFF
+  description: 2.5" SFF
+- name: FlexibleLOM2
+  description: ''
+- name: Media Bay Option
+  description: 'DVD-RW or DVD-ROM'
+- name: SLOT1/PCIe-1
+  description: Default Primary Riser
+- name: SLOT2/PCIe-2
+  description: Default Primary Riser
+- name: SLOT3/PCIe-3 Option
+  description: Secondary Riser /w 2nd CPU only
+- name: RAID Controller
+  description: HPE Smart Array E208i-a,  E208e-p,  P408i-a, P408e-p, P816i-a

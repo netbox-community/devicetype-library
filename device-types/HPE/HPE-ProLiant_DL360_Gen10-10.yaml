@@ -40,9 +40,10 @@ interfaces:
     mgmt_only: true
 device-bays:
   - name: TPM
+    description: TPM 2.0 Support
   - name: Universal Media Bay
     description: '+2-SFF SAS/SATA'
-  - name: SmartArry
+  - name: RAID Controller
     description: 'Smart Array P408i-a or Smart Array P816i-a or Smart Array E208i-a'
   - name: FlexibleLOM2 
   - name: SLOT1/PCIe-1
