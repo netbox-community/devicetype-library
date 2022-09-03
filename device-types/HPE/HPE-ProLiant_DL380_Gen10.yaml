@@ -3,7 +3,7 @@ manufacturer: HPE
 model: ProLiant DL380 Gen10 8SFF
 slug: hpe_dl380_g10
 part_number: P19720-B21
-comments: 'HPE ProLiant DL380 Gen10 Server /w 8-SFF '
+comments: '[HPE ProLiant DL380 Gen10 Server /w 8-SFF] | https://www.imvendorportal.com/prodpictures/40/30_7140MDG_64656112.pdf'
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
@@ -20,6 +20,8 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
+  - name: TPM
+     type: other 
 power-ports:
   - name: PSU1
     type: iec-60320-c14
@@ -40,7 +42,10 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 device-bays:
-  - name: FlexibleLOM2
+  - name: RAID Controller
+    description: 'HPE Smart Array E208i-a,E208i-p, E208e-p, P408i-a, P408i-p, P408e-p, P816i-a'
+  - name: FlexibleLOM2 optional
+    description: 
   - name: Pri-Riser/PCIe 1
   - name: Pri-Riser/PCIe 2
   - name: Pri-Riser/PCIe 3
