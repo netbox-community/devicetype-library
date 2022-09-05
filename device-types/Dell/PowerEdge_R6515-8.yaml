@@ -1,8 +1,8 @@
 ---
 manufacturer: Dell
-model: PowerEdge R6515 10SFF AMD EPYC
-slug: dell_poweredge_r6515-10sff
-comments: '[Dell PowerEdge R6515 10x2.5" SFF/Dell 3rd Generation AMD EPYC] |https://dl.dell.com/content/manual36026131-dell-emc-poweredge-r6515-installation-and-service-manual.pdf?language=en-us&ps=true '
+model: PowerEdge R6515 8SFF AMD EPYC
+slug: dell_poweredge_r6515-8sff
+comments: '[Dell PowerEdge R6515 8x2.5"/Dell 3rd Generation AMD EPYC] |https://dl.dell.com/content/manual36026131-dell-emc-poweredge-r6515-installation-and-service-manual.pdf?language=en-us&ps=true '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -78,8 +78,4 @@ device-bays:
   - name: Drive bay-6/SFF
     description: '2.5" SFF'
   - name: Drive bay-7/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-8/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-9/SFF
     description: '2.5" SFF'

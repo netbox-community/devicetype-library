@@ -1,8 +1,8 @@
 ---
 manufacturer: Dell
-model: PowerEdge R6515 10SFF AMD EPYC
-slug: dell_poweredge_r6515-10sff
-comments: '[Dell PowerEdge R6515 10x2.5" SFF/Dell 3rd Generation AMD EPYC] |https://dl.dell.com/content/manual36026131-dell-emc-poweredge-r6515-installation-and-service-manual.pdf?language=en-us&ps=true '
+model: PowerEdge R6515 4LFF AMD EPYC
+slug: dell_poweredge_r6515-4lff
+comments: '[Dell PowerEdge R6515 4x3.5" LFF/Dell 3rd Generation AMD EPYC] |https://dl.dell.com/content/manual36026131-dell-emc-poweredge-r6515-installation-and-service-manual.pdf?language=en-us&ps=true '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -63,23 +63,11 @@ device-bays:
     lable: 'Riser1'
   - name: SLOT-2/PCIe-Gen4-2
     lable: 'Riser2'
-  - name: Drive bay-0/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-1/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-2/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-3/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-4/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-5/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-6/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-7/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-8/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-9/SFF
-    description: '2.5" SFF'
+  - name: Drive bay-0
+    description: '3.5" LFF'
+  - name: Drive bay-1
+    description: '3.5" LFF'
+  - name: Drive bay-2
+    description: '3.5" LFF'
+  - name: Drive bay-3
+    description: '3.5" LFF'
