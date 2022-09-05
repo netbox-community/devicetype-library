@@ -27,13 +27,17 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
-  - name: FlexibleLOM1/Gig-E-1
+  - name: Gig-E-1
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E-2
+  - name: Gig-E-2
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E-3
+  - name: Gig-E-3
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E-4
+  - name: Gig-E-4
+    label: FlexibleLOM1
     type: 1000base-t
   - name: iLO4
     type: 1000base-t
@@ -44,11 +48,11 @@ device-bays:
   - name: RAID Controller
     description: 'HPE Flexible Smart Array P440ar or HPE Dynamic Smart Array B140i or HPE Smart HBA H240ar'
   - name: FlexibleLOM2 
-  - name: PCIe-Gen4-1
+  - name: PCIe-Gen3-1
     label: SLOT1
-  - name: PCIe-Gen4-2
+  - name: PCIe-Gen3-2
     label: SLOT2
-  - name: PCIe-Gen4-3 Option 
+  - name: PCIe-Gen3-3 Option 
     label: SLOT3
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
