@@ -1,15 +1,12 @@
 ---
 manufacturer: Dell
-model: PowerEdge R650 4LFF
-slug: dell_poweredge_r650-4lff
-comments: '[Dell PowerEdge R650 4x3.5"/Dell 15th Gen] | https://dl.dell.com/content/manual27146348-dell-emc-poweredge-r650-installation-and-service-manual.pdf?language=en-us&ps=true '
-part_number: PER650-4
+model: PowerEdge R6525 4LFF
+slug: dell_poweredge_r6525-4lff
+comments: '[Dell PowerEdge R6525 4x3.5" LFF/Dell 15th Gen] | https://dl.dell.com/content/manual23987793-dell-emc-poweredge-r6525-installation-and-service-manual.pdf?language=en-us&ps=true '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
 console-ports:
-  - name: Serial Optional
-    type: de-9
   - name: Front VGA
     type: other
   - name: Rear VGA
@@ -58,8 +55,12 @@ device-bays:
   - name: BOSS-2 Removed Optional
     description: "2 X M.2 Sticks/size=240GB, 480GB"
   - name: OCP NIC/LOM Optional 
-  - name: Riser-1/SLOT-1/PCIe-Gen4-1
-  - name: Riser-2/SLOT-2/PCIe-Gen4-2
+  - name: SLOT-1/PCIe-Gen4-1
+    lable: 'Riser1'
+  - name: SLOT-2/PCIe-Gen4-2
+    lable: 'Riser2'
+  - name: SLOT-3/PCIe-Gen4-3
+    lable: 'Riser3'
   - name: Drive bay-0
     description: '3.5" LFF'
   - name: Drive bay-1
