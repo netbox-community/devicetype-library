@@ -52,7 +52,6 @@ interfaces:
     mgmt_only: true
 device-bays:
   - name: HBA1
-    description:  DVD-RW or DVD-ROM + Display port & USB 2.0 port
   - name: TPM
     description: 'TPM security module '
   - name: Boot Device
@@ -84,8 +83,6 @@ device-bays:
   - name: Drive bay-7/LFF
     description: '3.5" LFF'
   - name: Drive bay-8/LFF
-    description: '3.5" LFF'
-  - name: Drive bay-2/LFF
     description: '3.5" LFF'
   - name: Drive bay-9/LFF
     description: '3.5" LFF'
