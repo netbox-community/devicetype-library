@@ -1,8 +1,8 @@
 ---
 manufacturer: Dell
-model: PowerEdge R6525 4LFF
+model: PowerEdge R6525 4LFF AMD EPYC
 slug: dell_poweredge_r6525-4lff
-comments: '[Dell PowerEdge R6525 4x3.5" LFF/Dell 15th Gen] | https://dl.dell.com/content/manual23987793-dell-emc-poweredge-r6525-installation-and-service-manual.pdf?language=en-us&ps=true '
+comments: '[Dell PowerEdge R6525 4x3.5" LFF/Dell 3rd Generation AMD EPYC] | https://dl.dell.com/content/manual23987793-dell-emc-poweredge-r6525-installation-and-service-manual.pdf?language=en-us&ps=true '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -54,9 +54,11 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
   - name: PERC
     description: 'PERC H745, H345, HBA355I, H755, H755N'
-  - name: BOSS-2 Removed Optional
+  - name: BOSS-2 HOT-SWAPABLE Optional
     description: "2 X M.2 Sticks/size=240GB, 480GB"
   - name: OCP NIC/LOM Optional 
   - name: SLOT-1/PCIe-Gen4-1
