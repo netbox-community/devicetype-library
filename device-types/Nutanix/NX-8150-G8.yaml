@@ -1,0 +1,114 @@
+---
+manufacturer: Nutanix
+model: Nutanix NX-8150-G8
+slug: nutanix_nx-8150g-g8
+comments: '[ Nutanix NX-8150-G8 w/ 24 SFF] | https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX8150G8:System-Specs-NX8150G8 '
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Rear VGA
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1200
+interfaces:
+  - name: Port-1
+    label: Onbroad
+    type: 10gbase-t
+  - name: Port-2
+    label: Onbroad
+    type: 10gbase-t
+  - name: Port-3
+    label: Onbroad
+    type: 10gbase-x-sfpp
+  - name: Port-4
+    label: Onbroad
+    type: 10gbase-x-sfpp
+  - name: Port-5
+    label: NIC1
+    type: 10gbase-x-sfpp
+  - name: Port-6
+    label: NIC1
+    type: 10gbase-x-sfpp
+  - name: Port-7
+    label: NIC1
+    type: 10gbase-x-sfpp
+  - name: Port-8
+    label: NIC1
+    type: 10gbase-x-sfpp
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: HBA1
+  - name: TPM
+    description: 'TPM security module '
+  - name: Boot Device
+    description: Dual M.2 RAID1 | 2 x 512GB M.2 Boot Device
+  - name: PCIe-Gen4-1
+    label: GPU/NIC
+  - name: PCIe-Gen4-3
+    label: GPU/HBA2
+  - name: PCIe-Gen4-5
+    label: CPU1/NIC2
+  - name: PCIe-Gen4-7
+    label: CPU1/NIC3
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'
