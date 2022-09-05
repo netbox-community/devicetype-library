@@ -28,13 +28,17 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
-  - name: FlexibleLOM1/Gig-E-1
+  - name: Gig-E-1
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E-2
+  - name: Gig-E-2
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E-3
+  - name: Gig-E-3
+    label: FlexibleLOM1
     type: 1000base-t
-  - name: FlexibleLOM1/Gig-E-4
+  - name: Gig-E-4
+    label: FlexibleLOM1
     type: 1000base-t
   - name: iLO5
     type: 1000base-t
@@ -47,9 +51,12 @@ device-bays:
   - name: RAID Controller
     description: 'Smart Array P408i-a or Smart Array P816i-a or Smart Array E208i-a'
   - name: FlexibleLOM2 
-  - name: SLOT1/PCIe-1
-  - name: SLOT2/PCIe-2
-  - name: SLOT3/PCIe-3 Option 
+  - name: PCIe-Gen4-1
+    label: SLOT1
+  - name: PCIe-Gen4-2
+    label: SLOT2
+  - name: PCIe-Gen4-3 Option 
+    label: SLOT3
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

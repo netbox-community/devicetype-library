@@ -22,18 +22,22 @@ console-ports:
 power-ports:
 - name: PSU1
   type: iec-60320-c14
-  maximum_draw: 800
+  maximum_draw: 500
 - name: PSU2
   type: iec-60320-c14
-  maximum_draw: 800
+  maximum_draw: 500
 interfaces:
-- name: FlexibleLOM1/Gig-E-1
+- name: Gig-E-1
+  label: FlexibleLOM1
   type: 1000base-t
-- name: FlexibleLOM1/Gig-E-2
+- name: Gig-E-2
+  label: FlexibleLOM1
   type: 1000base-t
-- name: FlexibleLOM1/Gig-E-3
+- name: Gig-E-3
+  label: FlexibleLOM1
   type: 1000base-t
-- name: FlexibleLOM1/Gig-E-4
+- name: Gig-E-4
+  label: FlexibleLOM1
   type: 1000base-t
 - name: iLO5
   type: 1000base-t
