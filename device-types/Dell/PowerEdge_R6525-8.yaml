@@ -27,16 +27,20 @@ console-server-ports:
   - name: Internal TPM
     type: other 
 power-ports:
-  - name: PSU0
+  - name: PSU2
+    position: 'Left'
     type: iec-60320-c14
-    maximum_draw: 1100
+    maximum_draw: 800
   - name: PSU1
+    position: 'Right'
     type: iec-60320-c14
-    maximum_draw: 1100
+    maximum_draw: 800
 interfaces:
   - name: LOM1
+    description: Onboard NIC
     type: 1000base-t
   - name: LOM2
+    description: Onboard NIC
     type: 1000base-t
   - name: Optional/OCP-LOM3
     type: 1000base-t
