@@ -1,7 +1,7 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen10
-slug: hpe_dl360_gen10
+model: ProLiant DL325 Gen10 Plus v2
+slug: hpe_dl325_gen10_plus_v2
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -14,8 +14,8 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU1
-  - name: FlexLOM
-    position: FlexLOM
+  - name: OCP3
+    position: OCP3
   - name: PCIe1
     position: PCIe1
   - name: PCIe2
@@ -23,18 +23,6 @@ module-bays:
   - name: PCIe3
     position: PCIe3
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 2
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 3
-    type: 1000base-t
-    mgmt_only: false
-  - name: Gig-E 4
-    type: 1000base-t
-    mgmt_only: false
   - name: iLO
     type: 1000base-t
     mgmt_only: true
