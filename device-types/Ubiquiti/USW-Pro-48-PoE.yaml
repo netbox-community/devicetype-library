@@ -3,118 +3,388 @@ manufacturer: Ubiquiti
 model: UniFi Switch 48 Pro PoE Gen2
 slug: unifi-switch-48-pro-poe-gen2
 part_number: USW-PRO-48-POE
-comments: |
-  UniFi Switch 48 Pro PoE (60W + max. 600W PoE), Gen2, (48) Gigabit, (1-40) Gigabit PoE+ IEEE 802.3af/at, (41-48) 60W PoE++ IEEE 802.3bt, (4) SFP+
-
-  Dimensions: 442.4 x 399.6 x 43.7 mm (17.42 x 15.73 x 1.72")
-u_height: 1
-is_full_depth: true
-interfaces:
-  - name: Port 1 (PoE)
-    type: 1000base-t
-  - name: Port 2 (PoE)
-    type: 1000base-t
-  - name: Port 3 (PoE)
-    type: 1000base-t
-  - name: Port 4 (PoE)
-    type: 1000base-t
-  - name: Port 5 (PoE)
-    type: 1000base-t
-  - name: Port 6 (PoE)
-    type: 1000base-t
-  - name: Port 7 (PoE)
-    type: 1000base-t
-  - name: Port 8 (PoE)
-    type: 1000base-t
-  - name: Port 9 (PoE)
-    type: 1000base-t
-  - name: Port 10 (PoE)
-    type: 1000base-t
-  - name: Port 11 (PoE)
-    type: 1000base-t
-  - name: Port 12 (PoE)
-    type: 1000base-t
-  - name: Port 13 (PoE)
-    type: 1000base-t
-  - name: Port 14 (PoE)
-    type: 1000base-t
-  - name: Port 15 (PoE)
-    type: 1000base-t
-  - name: Port 16 (PoE)
-    type: 1000base-t
-  - name: Port 17 (PoE)
-    type: 1000base-t
-  - name: Port 18 (PoE)
-    type: 1000base-t
-  - name: Port 19 (PoE)
-    type: 1000base-t
-  - name: Port 20 (PoE)
-    type: 1000base-t
-  - name: Port 21 (PoE)
-    type: 1000base-t
-  - name: Port 22 (PoE)
-    type: 1000base-t
-  - name: Port 23 (PoE)
-    type: 1000base-t
-  - name: Port 24 (PoE)
-    type: 1000base-t
-  - name: Port 25 (PoE)
-    type: 1000base-t
-  - name: Port 26 (PoE)
-    type: 1000base-t
-  - name: Port 27 (PoE)
-    type: 1000base-t
-  - name: Port 28 (PoE)
-    type: 1000base-t
-  - name: Port 29 (PoE)
-    type: 1000base-t
-  - name: Port 30 (PoE)
-    type: 1000base-t
-  - name: Port 31 (PoE)
-    type: 1000base-t
-  - name: Port 32 (PoE)
-    type: 1000base-t
-  - name: Port 33 (PoE)
-    type: 1000base-t
-  - name: Port 34 (PoE)
-    type: 1000base-t
-  - name: Port 35 (PoE)
-    type: 1000base-t
-  - name: Port 36 (PoE)
-    type: 1000base-t
-  - name: Port 37 (PoE)
-    type: 1000base-t
-  - name: Port 38 (PoE)
-    type: 1000base-t
-  - name: Port 39 (PoE)
-    type: 1000base-t
-  - name: Port 40 (PoE)
-    type: 1000base-t
-  - name: Port 41 (PoE)
-    type: 1000base-t
-  - name: Port 42 (PoE)
-    type: 1000base-t
-  - name: Port 43 (PoE)
-    type: 1000base-t
-  - name: Port 44 (PoE)
-    type: 1000base-t
-  - name: Port 45 (PoE)
-    type: 1000base-t
-  - name: Port 46 (PoE)
-    type: 1000base-t
-  - name: Port 47 (PoE)
-    type: 1000base-t
-  - name: Port 48 (PoE)
-    type: 1000base-t
-  - name: SFP+ 49
-    type: 10gbase-x-sfpp
-  - name: SFP+ 50
-    type: 10gbase-x-sfpp
-  - name: SFP+ 51
-    type: 10gbase-x-sfpp
-  - name: SFP+ 52
-    type: 10gbase-x-sfpp
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: "UniFi Switch 48 Pro PoE (60W + max. 600W PoE), Gen2, (48) Gigabit, (1-40)\
+  \ Gigabit PoE+ IEEE 802.3af/at, (41-48) 60W PoE++ IEEE 802.3bt, (4) SFP+\r\nDimensions:\
+  \ 442.4 x 399.6 x 43.7 mm (17.42 x 15.73 x 1.72\")"
 power-ports:
-  - name: Input
-    type: iec-60320-c14
-    maximum_draw: 660
+- name: USP RPS DC Input
+  type: ubiquiti-smartpower
+  maximum_draw: 660
+  allocated_draw: null
+  label: ''
+  description: ''
+- name: Universal Input
+  type: iec-60320-c14
+  maximum_draw: 660
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: Port 1 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 2 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 3 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 4 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 5 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 6 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 7 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 8 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 9 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 10 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 11 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 12 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 13 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 14 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 15 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 16 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 17 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 18 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 19 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 20 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 21 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 22 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 23 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 24 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 25 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 26 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 27 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 28 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 29 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 30 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 31 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 32 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 33 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 34 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 35 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 36 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 37 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 38 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 39 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 40 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type2-ieee802.3at
+- name: Port 41 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 42 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 43 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 44 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 45 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 46 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 47 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: Port 48 (PoE)
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+- name: SFP+ 49
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: SFP+ 50
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: SFP+ 51
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: SFP+ 52
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
