@@ -1,0 +1,53 @@
+---
+manufacturer: Cisco
+model: UCS-C220-M4-LFF
+slug: ucs-c220-m4-lff
+part_number: UCS-C220M4-LFF
+comments: '[Cisco UCS C220 M4 LFF] <https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m4-lff-spec-sheet.pdf> '
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: KVM connector
+    type: other
+  - name: Rear Serial
+    type: de-9
+  - name: Rear VGA
+    type: other
+  - name: USB1
+    type: usb-a
+  - name: USB2
+    type: usb-a
+  - name: Cisco Flexible Flash-1
+    type: other
+  - name: Cisco Flexible Flash-2
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: RAID controller
+    description: UCSC-MRAID12G1,UCSC-MRAID12G-5122,UCSC-MRAID12G-1GB2,UCSC-MRAID12G-2GB2,UCSC-MRAID12G-4GB
+  - name: mLOM
+    description: Cisco Virtual Interface Cards (VIC)
+  - name: PCIe-01
+  - name: PCIe-02
+  - name: Drive bay-1
+    description: '3.5" LFF'
+  - name: Drive bay-2
+    description: '3.5" LFF'
+  - name: Drive bay-3
+    description: '3.5" LFF'
+  - name: Drive bay-4
+    description: '3.5" LFF'
