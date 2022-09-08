@@ -14,7 +14,6 @@ console-ports:
     type: other
   - name: Rear VGA
     type: other
-console-server-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
@@ -47,7 +46,7 @@ device-bays:
     description: '51CN2 - DELL BOSS M.2 Controller Card'
   - name: PCIe-Gen3-1
   - name: PCIe-Gen3-2
-  - name: Drive bay-0
-  - name: Drive bay-1
-  - name: Drive bay-2
-  - name: Drive bay-3
+  - name: Drive bay-0/LFF
+  - name: Drive bay-1/LFF
+  - name: Drive bay-2/LFF
+  - name: Drive bay-3/LFF
