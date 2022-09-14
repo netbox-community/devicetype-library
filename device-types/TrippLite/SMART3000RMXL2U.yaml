@@ -1,14 +1,28 @@
+---
 manufacturer: Tripplite
 model: SMART3000RMXL2U
 slug: smart3000rmxl2u
-part_number: ''
+part_number: AGSM7010
 u_height: 2.0
 is_full_depth: true
 subdevice_role: ''
 airflow: front-to-rear
 comments: ''
+console-ports:
+- name: COM1
+  type: usb-b
+  label: ''
+  description: ''
+- name: COM2
+  type: de-9
+  label: ''
+  description: ''
+- name: EP0
+  type: rj-12
+  label: ''
+  description: ''
 power-ports:
-- name: Plug1
+- name: Primary
   type: nema-l5-30p
   maximum_draw: 2880
   allocated_draw: null
@@ -17,56 +31,55 @@ power-ports:
 power-outlets:
 - name: Outlet1-1
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet1-2
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet1-3
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet1-4
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet2-1
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet2-2
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet2-3
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
 - name: Outlet2-4
   type: nema-5-15r
-  power_port: Plug1
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
-- name: PDU Outlet1
-  type: nema-l5-20r
-  power_port: Plug1
+- name: Outlet 3
+  type: nema-l5-30r
+  power_port: Primary
   feed_leg: ''
   label: ''
   description: ''
-  
