@@ -69,8 +69,10 @@ interfaces:
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14
+module-bays:
+  - name: PSU Slot A
+    position: A
+    label: PSU 1
+  - name: PSU Slot B
+    position: B
+    label: PSU 2
