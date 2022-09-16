@@ -1,8 +1,8 @@
 ---
 manufacturer: Allied Telesis
-model: GS980MX/10HSm
-slug: gs980mx-10hsm
-part_number: AT-GS980MX/10HSm
+model: GS980MX/18HSm
+slug: gs980mx-18hsm
+part_number: AT-GS980MX/18HSm
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -11,7 +11,7 @@ console-ports:
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
-    maximum_draw: 605
+    maximum_draw: 970
 interfaces:
   - name: port1.0.1
     type: 5gbase-t
@@ -54,8 +54,48 @@ interfaces:
     poe_type: type4-ieee802.3bt
     mgmt_only: false
   - name: port1.0.9
-    type: 10gbase-x-sfpp
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
     mgmt_only: false
   - name: port1.0.10
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.11
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.12
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.13
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.14
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.15
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.16
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+    mgmt_only: false
+  - name: port1.0.17
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: port1.0.18
     type: 10gbase-x-sfpp
     mgmt_only: false
