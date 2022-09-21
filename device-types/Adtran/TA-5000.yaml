@@ -11,13 +11,13 @@ power-ports:
   - name: DC-Input-A
     type: dc-terminal
     maximum_draw: 1440
-    allocated_draw: null
+    allocated_draw: 1000
     label: DC-A
     description: ''
   - name: DC-Input-B
     type: dc-terminal
     maximum_draw: 1440
-    allocated_draw: null
+    allocated_draw: 1000
     label: DC-B
     description: ''
 interfaces:
