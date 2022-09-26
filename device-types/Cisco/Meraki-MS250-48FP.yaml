@@ -5,14 +5,11 @@ slug: ms250-48fp
 part_number: MS250-48FP-HW
 u_height: 1
 is_full_depth: false
-comments: '[MS250 Overview and Specifications](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms250.pdf)'
-power-ports:
-  - name: Slot 1
-    type: iec-60320-c16
-    maximum_draw: 874
-  - name: Slot 2
-    type: iec-60320-c16
-    maximum_draw: 874
+comments: |
+  [MS250 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS250_Overview_and_Specifications)
+  [MS250 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms250.pdf)
+
+  Uses MA-PWR-1025WAC modular PSU.
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -122,3 +119,8 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Dedicated Stack Port 2
     type: 40gbase-x-qsfpp
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
