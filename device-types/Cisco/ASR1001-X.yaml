@@ -1,37 +1,102 @@
 ---
 manufacturer: Cisco
-model: ASR1001-X
-slug: asr1001-x
+model: ASR 1001-X
+slug: asr-1001-x
 part_number: ASR1001-X
-u_height: 1
-is_full_depth: true
-interfaces:
-  - name: GigabitEthernet0
-    type: 1000base-t
-    mgmt_only: true
-  - name: GigabitEthernet0/0/0
-    type: 1000base-t
-  - name: GigabitEthernet0/0/1
-    type: 1000base-t
-  - name: GigabitEthernet0/0/2
-    type: 1000base-t
-  - name: GigabitEthernet0/0/3
-    type: 1000base-t
-  - name: GigabitEthernet0/0/4
-    type: 1000base-t
-  - name: GigabitEthernet0/0/5
-    type: 1000base-t
-  - name: TenGigabitEthernet0/0/0
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet0/0/1
-    type: 10gbase-x-sfpp
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: front-to-rear
+comments: ''
 console-ports:
-  - name: con 0
-    type: rj-45
+- name: Console
+  type: rj-45
+  label: CON
+  description: ''
 power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 250
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 250
+- name: PS0
+  type: iec-60320-c14
+  maximum_draw: 250
+  allocated_draw: 125
+  label: ''
+  description: ''
+- name: PS1
+  type: iec-60320-c14
+  maximum_draw: 250
+  allocated_draw: 125
+  label: ''
+  description: ''
+interfaces:
+- name: GigabitEthernet0/0/0
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: GE0
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: GigabitEthernet0/0/1
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: GE1
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: GigabitEthernet0/0/2
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: GE2
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: GigabitEthernet0/0/3
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: GE3
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: GigabitEthernet0/0/4
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: GE4
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: GigabitEthernet0/0/5
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: GE5
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: TenGigabitEthernet0/0/0
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: TE0
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: TenGigabitEthernet0/0/1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: TE1
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: GigabitEthernet0
+  type: 1000base-t
+  mgmt_only: true
+  label: MGMT
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+module-bays:
+- name: NIM Slot
+  label: '2'
+  position: '2'
+  description: ''
+- name: SPA Slot
+  label: '1'
+  position: '1'
+  description: ''
+
