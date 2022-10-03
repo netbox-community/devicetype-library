@@ -2,33 +2,17 @@
 manufacturer: Adtran
 model: SM40
 part_number: 1187040G1
-comments: ''
+comments: 'Total Access 5000 SM40 4x10GE Switch Module'
 interfaces:
-- name: Te 1/{module}/1
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Te 1/{module}/2
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Te 1/{module}/3
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Te 1/{module}/4
-  type: 10gbase-x-sfpp
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
+  - name: Te 1/{module}/1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Te 1/{module}/2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Te 1/{module}/3
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Te 1/{module}/4
+    type: 10gbase-x-sfpp
+    mgmt_only: false
