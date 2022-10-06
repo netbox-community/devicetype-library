@@ -1,25 +1,22 @@
 ---
 manufacturer: Check Point
-model: 8 Port 10/100/1000 Base-T RJ45 interface card
-slug: sg6000-card-1000base-t
-part_number: CPAC-8-1C-C
-u_height: 0
-is_full_depth: false
-subdevice_role: child
+model: 4 Port 10/100/1000 Base-T RJ45 fail-open network I/O module interface card
+slug: sg23800-card-failover-1000base-t
+part_number: CPAC-4-1C-BP-B
 interfaces:
-  - name: eth1-01
+  - name: eth{module}-01
     label: '1'
     type: 1000base-t
     mgmt_only: false
-  - name: eth1-02
+  - name: eth{module}-02
     label: '2'
     type: 1000base-t
     mgmt_only: false
-  - name: eth1-03
+  - name: eth{module}-03
     label: '3'
     type: 1000base-t
     mgmt_only: false
-  - name: eth1-04
+  - name: eth{module}-04
     label: '4'
     type: 1000base-t
     mgmt_only: false
