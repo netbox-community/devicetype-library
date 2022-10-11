@@ -1,6 +1,6 @@
 ---
 manufacturer: Ubiquiti
-model: UniFi Dream Machine Pro
+model: Dream Machine Pro
 slug: udm-pro
 airflow: front-to-rear
 part_number: UDM-Pro
@@ -13,41 +13,30 @@ comments: |
 u_height: 1
 is_full_depth: false
 interfaces:
-  - name: eth0
+  - name: Port 1
     type: 1000base-t
-    label: Port 1 - LAN
-  - name: eth1
+  - name: Port 2
     type: 1000base-t
-    label: Port 2 - LAN
-  - name: eth2
+  - name: Port 3
     type: 1000base-t
-    label: Port 3 - LAN
-  - name: eth3
+  - name: Port 4
     type: 1000base-t
-    label: Port 4 - LAN
-  - name: eth4
+  - name: Port 5
     type: 1000base-t
-    label: Port 5 - LAN
-  - name: eth5
+  - name: Port 6
     type: 1000base-t
-    label: Port 6 - LAN
-  - name: eth6
+  - name: Port 7
     type: 1000base-t
-    label: Port 7 - LAN
-  - name: eth7
+  - name: Port 8
     type: 1000base-t
-    label: Port 8 - LAN
-  - name: eth8
+  - name: Port 9
     type: 1000base-t
-    label: Port 9 - WAN 1
-  - name: eth9
+  - name: Port 10
     type: 10gbase-x-sfpp
-    label: Port 10 - SFP+ WAN 2
-  - name: eth10
-    type: 10gbase-x-sfpp
-    label: Port 11 - SFP+ LAN
+  - name: Port 11
+    type: 10gbase-x-sfpp    
 power-ports:
-  - name: Supply
+  - name: ps1
     type: iec-60320-c14
     maximum_draw: 33
     description: 100-240VAC/50-60 Hz
