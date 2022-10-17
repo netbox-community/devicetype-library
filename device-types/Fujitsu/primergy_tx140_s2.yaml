@@ -1,0 +1,27 @@
+---
+manufacturer: Fujitsu
+model: PRIMERGY TX140 S2
+slug: fujitsu_primergy_tx140_s2
+comments: '[Fujits PRIMERGY TX140 S2 data sheet](https://silo.tips/download/data-sheet-fujitsu-server-primergy-tx140-s2-mono-socket-intel-xeon-processor-ser)'
+u_height: 5
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 450
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 450
+interfaces:
+  - name: iRMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
