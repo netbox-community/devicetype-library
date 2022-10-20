@@ -10,9 +10,9 @@ comments: "- Order Number: MD199LL/A\r\n- Model Number: A1427\r\n- EMC: 2633\r\n
   - Processors (Cores): 1\r\n- Hard Drive: 8 GB NAND flash\r\n- RAM: 512 MB\r\n- Input:\
   \ Apple Remote (aluminum)\r\n- Release Date: March 7, 2012"
 interfaces:
-- name: eth
-  type: 100base-tx
-  mgmt_only: false
-- name: wireless
-  type: ieee802.11ac
-  mgmt_only: false
+  - name: eth
+    type: 100base-tx
+    mgmt_only: false
+  - name: wireless
+    type: ieee802.11ac
+    mgmt_only: false
