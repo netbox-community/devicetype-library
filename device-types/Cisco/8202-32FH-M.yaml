@@ -6,10 +6,9 @@ part_number: 8202-32FH-M
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/datasheet-c78-742571.html)'
+comments: "[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/datasheet-c78-742571.html)"
 console-ports:
-  - name: con 0
-    type: rj-45
+  type: rj-45
 interfaces:
   - name: FourHundredGigE0/0/0/0
     type: 400gbase-x-qsfpdd
@@ -80,8 +79,8 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PM0
-    position: '0'
+    position: "0"
     description: Power module
   - name: PM1
-    position: '1'
+    position: "1"
     description: Power module
