@@ -13,7 +13,7 @@ console-ports:
     type: usb-a
 power-ports:
   - name: External PSU
-    type: molex-4plug
+    type: dc-molex-4plug
     maximum_draw: 17
 interfaces:
   - name: GigabitEthernet1/0/1
