@@ -5,6 +5,20 @@ slug: n3k-c3172q-10ge
 part_number: N3K-C3172Q-10GE
 u_height: 1
 is_full_depth: false
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 143
+    maximum_draw: 293
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 143
+    maximum_draw: 293
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -117,17 +131,3 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet1/54
     type: 40gbase-x-qsfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    allocated_draw: 143
-    maximum_draw: 293
-  - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 143
-    maximum_draw: 293
-console-ports:
-  - name: Console
-    type: rj-45
-  - name: usb0
-    type: usb-mini-b

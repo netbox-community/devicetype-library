@@ -5,6 +5,17 @@ slug: me-3800x-24fs-m
 part_number: ME-3800X-24FS-M
 is_full_depth: false
 u_height: 1
+comments: 
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 233
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 233
 interfaces:
   - name: GigabitEthernet0/1
     type: 1000base-x-sfp
@@ -87,13 +98,4 @@ interfaces:
   - name: GigabitEthernet1
     type: 1000base-t
     mgmt_only: true
-console-ports:
-  - name: con0
-    type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 233
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 233
+

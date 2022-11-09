@@ -5,6 +5,13 @@ slug: me-3750-24te-m
 part_number: ME-3750-24TE-M
 is_full_depth: true
 u_height: 1
+comments: 
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
 interfaces:
   - name: Fa1/0/1
     type: 100base-tx
@@ -90,9 +97,3 @@ interfaces:
   - name: Gi1/1/2
     type: 1000base-t
     mgmt_only: false
-console-ports:
-  - name: con0
-    type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14

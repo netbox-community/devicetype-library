@@ -5,6 +5,18 @@ slug: ws-c3850-24p-e
 part_number: WS-C3850-24P-E
 is_full_depth: false
 u_height: 1
+subdevice_role: parent
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 715
+  - name: PSU1
+    type: iec-60320-c14
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -60,14 +72,4 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
-console-ports:
-  - name: con0
-    type: rj-45
-  - name: usb0
-    type: usb-mini-b
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 715
-  - name: PSU1
-    type: iec-60320-c14
+
