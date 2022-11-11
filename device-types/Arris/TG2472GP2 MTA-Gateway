@@ -1,0 +1,72 @@
+---
+manufacturer: Arris
+model: TG2472GP2 MTA/Gateway
+slug: tg2472gp2-mta-gateway
+part_number: ''
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: ''
+console-ports:
+- name: USB
+  type: usb-a
+  label: USB
+  description: ''
+power-ports:
+- name: Power
+  type: iec-60320-c8
+  maximum_draw: 240
+  allocated_draw: 240
+  label: Power
+  description: ''
+interfaces:
+- name: Cable In
+  type: docsis
+  mgmt_only: false
+  label: Cable In
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: Ethernet 1
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: Ethernet 2
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 2
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: Ethernet 3
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 3
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: Ethernet 4
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 4
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: Tel1
+  type: other
+  mgmt_only: false
+  label: Tel1
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: Tel2
+  type: other
+  mgmt_only: false
+  label: Tel2
+  description: ''
+  poe_mode: ''
+  poe_type: ''
