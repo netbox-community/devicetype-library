@@ -1,0 +1,84 @@
+---
+manufacturer: Dell
+model: PowerEdge R6525 8SFF AMD EPYC
+slug: dell_poweredge_r6525-8sff
+comments: '[Dell PowerEdge R6525 8x2.5"/Dell 3rd Generation AMD EPYC] <https://dl.dell.com/content/manual23987793-dell-emc-poweredge-r6525-installation-and-service-manual.pdf?language=en-us&ps=true> '
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Internal SD (IDSDM)
+    type: other
+  - name: Internal VFLASH
+    type: other
+  - name: Internal TPM
+    type: other 
+power-ports:
+  - name: PSU2
+    position: 'Left'
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU1
+    position: 'Right'
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: LOM1
+    description: Onboard NIC
+    type: 1000base-t
+  - name: LOM2
+    description: Onboard NIC
+    type: 1000base-t
+  - name: Optional/OCP-LOM3
+    type: 1000base-t
+  - name: Optional/OCP-LOM4
+    type: 1000base-t
+  - name: Optional/OCP-LOM5
+    type: 1000base-t
+  - name: Optional/OCP-LOM6
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: PERC
+    description: 'PERC H745, H345, HBA355I, H755, H755N'
+  - name: BOSS-2 HOT-SWAPABLE Optional
+    description: "2 X M.2 Sticks/size=240GB, 480GB"
+  - name: OCP NIC/LOM Optional 
+  - name: SLOT-1/PCIe-Gen4-1
+    lable: 'Riser1'
+  - name: SLOT-2/PCIe-Gen4-2
+    lable: 'Riser2'
+  - name: SLOT-3/PCIe-Gen4-3
+    lable: 'Riser3'
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'

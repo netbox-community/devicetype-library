@@ -2,7 +2,7 @@
 manufacturer: Nutanix
 model: Nutanix NX-3155G-G8
 slug: nutanix_nx-3155g-g8
-comments: '[ Nutanix NX-3155G-G8] | https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8'
+comments: '[ Nutanix NX-3155G-G8 12 X LFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8> '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
@@ -25,10 +25,10 @@ power-ports:
 interfaces:
   - name: Port-1
     label: Onbroad
-    type: 1000base-t
+    type: 10gbase-t
   - name: Port-2
     label: Onbroad
-    type: 1000base-t
+    type: 10gbase-t
   - name: Port-3
     label: Onbroad
     type: 10gbase-x-sfpp
@@ -89,6 +89,4 @@ device-bays:
   - name: Drive bay-10/LFF
     description: '3.5" LFF'
   - name: Drive bay-11/LFF
-    description: '3.5" LFF'
-  - name: Drive bay-12/LFF
     description: '3.5" LFF'

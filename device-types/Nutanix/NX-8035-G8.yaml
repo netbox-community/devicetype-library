@@ -1,0 +1,139 @@
+---
+manufacturer: Nutanix
+model: Nutanix NX-8035-G8
+slug: nutanix_nx-8035g-g8
+comments: '[ Nutanix NNX-8035-G8 2 Node / 6 X LFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8> '
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Node-A.Rear Serial
+    label: Node-A
+    type: de-9
+  - name: Node-A.Rear VGA
+    label: Node-A
+    type: other
+  - name: Node-A.Rear USB1
+    label: Node-A
+    type: usb-a
+  - name: Node-A.Rear USB2
+    label: Node-A
+    type: usb-a
+  - name: Node-B.Rear Serial
+    label: Node-B
+    type: de-9
+  - name: Node-B.Rear VGA
+    label: Node-B
+    type: other
+  - name: Node-B.Rear USB1
+    label: Node-B
+    type: usb-a
+  - name: Node-B.Rear USB2
+    label: Node-B
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 2200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 2200
+interfaces:
+  - name: Node-A.OB.Port-1
+    label: Node-A
+    type: 10gbase-t
+  - name: Node-A.OB.Port-2
+    label: Node-A
+    type: 10gbase-t
+  - name: Node-A.OB.Port-3
+    label: Node-A
+    type: 10gbase-x-sfpp
+  - name: Node-A.OB.Port-4
+    label: Node-A
+    type: 10gbase-x-sfpp
+  - name: Node-A.IPMI
+    label: Node-A
+    type: 1000base-t
+    mgmt_only: true
+  - name: Node-B.OB.Port-1
+    label: Node-B
+    type: 10gbase-t
+  - name: Node-B.OB.Port-2
+    label: Node-B
+    type: 10gbase-t
+  - name: Node-B.OB.Port-3
+    label: Node-B
+    type: 10gbase-x-sfpp
+  - name: Node-B.OB.Port-4
+    label: Node-B
+    type: 10gbase-x-sfpp
+  - name: Node-B.IPMI
+    label: Node-B
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Node-A.HBA1
+    label: Node-A
+  - name: Node-A.TPM
+    label: Node-A
+    description: 'TPM security module '
+  - name: Node-A.Boot Device
+    label: Node-A
+    description: Dual M.2 RAID1 | 2 x 512GB M.2 Boot Device
+  - name: Node-A.PCIe-Gen4-1
+    label: Node-A,NIC1
+  - name: Node-A.PCIe-Gen4-2
+    label: Node-A,NIC2
+  - name: Node-A.PCIe-Gen4-3
+    label: Node-A,NIC3
+  - name: Node-B.HBA1
+    label: Node-B
+  - name: Node-B.TPM
+    label: Node-B
+    description: 'TPM security module '
+  - name: Node-B.Boot Device
+    label: Node-B
+    description: Dual M.2 RAID1 | 2 x 512GB M.2 Boot Device
+  - name: Node-B.PCIe-Gen4-1
+    label: Node-B,NIC1
+  - name: Node-B.PCIe-Gen4-2
+    label: Node-B,NIC2
+  - name: Node-B.PCIe-Gen4-3
+    label: Node-B,NIC3
+  - name: Drive bay-0/LFF
+    description: '3.5" LFF'
+    label: Node-B
+  - name: Drive bay-1/LFF
+    label: Node-B
+    description: '3.5" LFF'
+  - name: Drive bay-2/LFF
+    label: Node-B
+    description: '3.5" LFF'
+  - name: Drive bay-3/LFF
+    label: Node-B
+    description: '3.5" LFF'
+  - name: Drive bay-4/LFF
+    label: Node-B
+    description: '3.5" LFF'
+  - name: Drive bay-5/LFF
+    label: Node-B
+    description: '3.5" LFF'
+  - name: Drive bay-6/LFF
+    label: Node-A
+    description: '3.5" LFF'
+    label: Node-A
+  - name: Drive bay-7/LFF
+    label: Node-A
+    description: '3.5" LFF'
+  - name: Drive bay-8/LFF
+    label: Node-A
+    description: '3.5" LFF'
+  - name: Drive bay-9/LFF
+    label: Node-A
+    description: '3.5" LFF'
+  - name: Drive bay-10/LFF
+    label: Node-A
+    description: '3.5" LFF'
+  - name: Drive bay-11/LFF
+    label: Node-A
+    description: '3.5" LFF'

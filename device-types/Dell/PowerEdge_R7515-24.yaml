@@ -1,0 +1,116 @@
+---
+manufacturer: Dell
+model: PowerEdge R7515 24SFF AMD EPYC
+slug: dell_poweredge_r7515-24sff
+comments: '[Dell PowerEdge R7515 24x2.5" SFF/Dell 3rd Generation AMD EPYC]  <https://dl.dell.com/content/manual22344309-dell-emc-poweredge-r7515-installation-and-service-manual.pdf?language=en-us&ps=true> '
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Rear Serial
+    type: de-9
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Internal SD (IDSDM)
+    type: other
+  - name: Internal VFLASH
+    type: other
+power-ports:
+  - name: PSU2
+    position: 'Left'
+    type: iec-60320-c14
+    maximum_draw: 700
+  - name: PSU1
+    position: 'Right'
+    type: iec-60320-c14
+    maximum_draw: 700
+interfaces:
+  - name: LOM1-1
+    description: Onboard NIC
+    type: 1000base-t
+  - name: LOM1-2
+    description: Onboard NIC  
+    type: 1000base-t
+  - name: Optional/LOM2-1
+    type: 1000base-t
+  - name: Optional/LOM2-2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: PERC
+    description: 'PERC HBA330, H330, H730P, H740P'
+  - name: LOM2 Optional 
+  - name: BOSS-1 Optional
+    description: "2 X M.2 Sticks/size=240GB, 480GB"
+  - name: SLOT-1/PCIe-Gen3-1
+    lable: 'Riser1'
+  - name: SLOT-2/PCIe-Gen3-2
+    lable: 'Riser1'
+  - name: SLOT-3/PCIe-Gen4-3
+    lable: 'Riser2'
+  - name: SLOT-4/PCIe-Gen4-4
+    lable: 'Riser3'
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'

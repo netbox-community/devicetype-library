@@ -1,0 +1,78 @@
+---
+manufacturer: Nutanix
+model: Nutanix NX-3170-G8
+slug: nutanix_nx-3170g-g8
+comments: '[ Nutanix NX-3170-G8 w/ 12xSFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3170G8:System-Specs-NX3170G8> '
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Rear VGA
+    type: other
+  - name: Front USB0
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1200
+interfaces:
+  - name: Port-1
+    label: Onbroad
+    type: 10gbase-t
+  - name: Port-2
+    label: Onbroad
+    type: 10gbase-t
+  - name: Port-3
+    label: Onbroad
+    type: 10gbase-x-sfpp
+  - name: Port-4
+    label: Onbroad
+    type: 10gbase-x-sfpp
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: HBA
+  - name: TPM
+    description: 'TPM security module '
+  - name: Boot Device
+    description: Dual M.2 RAID1 | 2 x 512GB M.2 Boot Device
+  - name: PCIe-Gen4-1
+    label: NIC3
+  - name: PCIe-Gen4-2
+    label: NIC2
+  - name: PCIe-Gen4-3
+    label: NIC3
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'

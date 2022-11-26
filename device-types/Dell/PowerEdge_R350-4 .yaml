@@ -3,7 +3,7 @@ manufacturer: Dell
 model: PowerEdge R350 4x3.5
 slug: dell_poweredge_r350-4
 part_number: PER350-4
-comments: '[Dell PowerEdge R350 Rack Server Chassis 4x3.5"] | https://dl.dell.com/content/manual26953530-dell-emc-poweredge-r350-installation-and-service-manual.pdf?language=en-us&ps=true' 
+comments: '[Dell PowerEdge R350 Rack Server Chassis 4x3.5"]  <https://dl.dell.com/content/manual26953530-dell-emc-poweredge-r350-installation-and-service-manual.pdf?language=en-us&ps=true> ' 
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
@@ -12,7 +12,6 @@ console-ports:
     type: de-9
   - name: Rear VGA
     type: other
-console-server-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
@@ -45,7 +44,7 @@ device-bays:
     description: 'DELL BOSS M.2 Controller Card'
   - name: PCIe-Gen4-1
   - name: PCIe-Gen4-2
-  - name: Drive bay-0
-  - name: Drive bay-1
-  - name: Drive bay-2
-  - name: Drive bay-3
+  - name: Drive bay-0/LFF
+  - name: Drive bay-1/LFF
+  - name: Drive bay-2/LFF
+  - name: Drive bay-3/LFF

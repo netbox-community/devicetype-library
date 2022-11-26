@@ -1,0 +1,109 @@
+---
+manufacturer: Dell
+model: PowerEdge R740 16SFF
+slug: dell_poweredge_r740_8sff
+comments: '[Dell PowerEdge R740 16SFF/Dell 14th Gen] <https://dl.dell.com/content/manual31379452-dell-emc-poweredge-r740-installation-and-service-manual.pdf?language=en-us&ps=true> '
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear Dedicated iDRAC direct USB
+    type: usb-mini-b
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: Gig-E 1
+    label: Onbroad
+    description: Network Daughter card(NDC)
+    type: 1000base-t
+  - name: Gig-E 2
+    label: Onbroad
+    description: Network Daughter card(NDC)
+    type: 1000base-t
+  - name: Gig-E 3
+    label: Onbroad
+    description: Network Daughter card(NDC)
+    type: 1000base-t
+  - name: Gig-E 4
+    label: Onbroad
+    description: Network Daughter card(NDC)
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: Universal Media Bay Option
+    description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: PERC
+    description: 'PERC HBA350, H750, H350'
+  - name: PCIe-Gen3-1
+    lable: Riser1
+  - name: PCIe-Gen3-2
+    lable: Riser1
+  - name: PCIe-Gen3-3
+    lable: Riser1
+  - name: PCIe-Gen3-4
+    lable: Riser2
+  - name: PCIe-Gen3-5
+    lable: Riser2
+  - name: PCIe-Gen3-6
+    lable: Riser2
+  - name: PCIe-Gen3-7
+    lable: Riser3
+  - name: PCIe-Gen3-8
+    lable: Riser3
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'

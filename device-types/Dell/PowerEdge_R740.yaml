@@ -2,6 +2,7 @@
 manufacturer: Dell
 model: PowerEdge R740
 slug: dell_poweredge_r740
+comments: '[Dell PowerEdge R740 16x2.5"/Dell 14th Gen] | <https://dl.dell.com/content/manual31379452-dell-emc-poweredge-r740-installation-and-service-manual.pdf?language=en-us&ps=true> '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
@@ -12,7 +13,6 @@ console-ports:
     type: other
   - name: Rear VGA
     type: other
-console-server-ports:
   - name: Front USB1
     type: usb-a
   - name: Front USB2
@@ -46,11 +46,18 @@ interfaces:
     mgmt_only: true
 device-bays:
   - name: PCIe-Gen3 1
+    lable: Riser1
   - name: PCIe-Gen3 2
+    lable: Riser1
   - name: PCIe-Gen3 3
-  - name: Riser2 PCIe-Gen3 4
-  - name: Riser2 PCIe-Gen3 5
-  - name: Riser2 PCIe-Gen3 6
-  - name: Riser3 PCIe-Gen3 7
-  - name: Riser3 PCIe-Gen3 8
-
+    lable: Riser1
+  - name: PCIe-Gen3 4
+    lable: Riser2
+  - name: PCIe-Gen3 5
+    lable: Riser2
+  - name: PCIe-Gen3 6
+    lable: Riser2
+  - name: PCIe-Gen3 7
+    lable: Riser3
+  - name: PCIe-Gen3 8
+    lable: Riser3

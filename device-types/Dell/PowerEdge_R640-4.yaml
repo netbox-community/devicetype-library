@@ -3,7 +3,7 @@ manufacturer: Dell
 model: PowerEdge R640 4LFF
 slug: dell_poweredge_r640-4lff
 part_number: PER640-4
-comments: '[Dell PowerEdge R640 4x3.5"/Dell 14th Gen] | https://dl.dell.com/content/manual49442633-dell-emc-poweredge-r640-installation-and-service-manual.pdf?language=en-us&ps=true '
+comments: '[Dell PowerEdge R640 4x3.5"/Dell 14th Gen] <https://dl.dell.com/content/manual49442633-dell-emc-poweredge-r640-installation-and-service-manual.pdf?language=en-us&ps=true> '
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
@@ -14,7 +14,6 @@ console-ports:
     type: other
   - name: Rear VGA
     type: other
-console-server-ports:
   - name: Front USB1
     type: usb-a
   - name: Front USB2 Optional
@@ -54,9 +53,12 @@ device-bays:
   - name: PERC
     description: 'PERC H330, H730p, H740p'
   - name: BOSS-2/Removed Optional 
-  - name: Riser-1/SLOT-1/PCIe-Gen3-1
-  - name: Riser-2/SLOT-2/PCIe-Gen3-2
-  - name: Riser-2/SLOT-3/PCIe-Gen3-3
+  - name: SLOT-1/PCIe-Gen3-1
+    lable: Riser1
+  - name: SLOT-2/PCIe-Gen3-2
+    lable: Riser2
+  - name: SLOT-3/PCIe-Gen3-3
+    lable: Riser2
   - name: Drive bay-0
     description: '3.5" LFF'
   - name: Drive bay-1

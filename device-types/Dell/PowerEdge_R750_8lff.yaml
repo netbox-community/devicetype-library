@@ -1,0 +1,88 @@
+---
+manufacturer: Dell
+model: PowerEdge R750 8LFF
+slug: dell_poweredge_r750_8lff
+comments: '[Dell EMC PowerEdge R750 8 X 3.5" LFF ] <https://dl.dell.com/content/manual15837466-dell-emc-poweredge-r750-installation-and-service-manual.pdf?language=en-us&ps=true> '
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Optional Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Internal USB1
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU1
+    position: 'Left'
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU2
+    position: 'Right'
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: LOM-1
+    type: 1000base-t
+  - name: LOM-2
+    type: 1000base-t
+  - name: Optional/OCP-LOM-3
+    type: 1000base-t
+  - name: Optional/OCP-LOM-4
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: Universal Media Bay Option
+    description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: PERC
+    description: 'PERC H840, HBA355E'
+  - name: OCP NIC Optional
+  - name: BOSS-2 Removed Optional
+    description: "2 X M.2 Sticks/size=240GB, 480GB"
+  - name: PCIe-Gen4-1 Optional
+    lable: Riser1
+  - name: PCIe-Gen4-2 Optional
+    lable: Riser1
+  - name: PCIe-Gen4-3 Optional
+    lable: Riser2
+  - name: PCIe-Gen4-4 Optional
+    lable: Riser3
+  - name: PCIe-Gen4-5 Optional
+    lable: Riser3
+  - name: PCIe-Gen4-6 Optional
+    lable: Riser2
+  - name: PCIe-Gen4-7 Optional
+    lable: Riser4
+  - name: PCIe-Gen4-8 Optional
+    lable: Riser4
+  - name: Drive bay-0/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-1/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-2/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-3/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-4/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-5/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-6/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-7/LFF
+    description: '3.5" LFF'
