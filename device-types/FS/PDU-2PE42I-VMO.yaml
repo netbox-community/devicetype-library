@@ -9,286 +9,286 @@ subdevice_role: ''
 airflow: ''
 comments: ''
 console-ports:
-- name: Serial 0/1
-  type: rj-45
-  label: SER
-  description: Console Port
-- name: Serial 0/2
-  type: rj-11
-  label: T/H
-  description: Temperature / Humidity Sensor
+  - name: Serial 0/1
+    type: rj-45
+    label: SER
+    description: Console Port
+  - name: Serial 0/2
+    type: rj-11
+    label: T/H
+    description: Temperature / Humidity Sensor
 power-ports:
-- name: Power Port 1
-  type: iec-60309-2p-e-6h
-  maximum_draw: 3700
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: Power Port 1
+    type: iec-60309-2p-e-6h
+    maximum_draw: 3700
+    allocated_draw: null
+    label: ''
+    description: ''
 power-outlets:
-- name: Outlet 1
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 2
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 3
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 4
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 5
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 6
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 7
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 8
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 9
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 10
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 11
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 12
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 13
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 14
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 15
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 16
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 17
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 18
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 19
-  type: iec-60320-c19
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 20
-  type: iec-60320-c19
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 21
-  type: iec-60320-c19
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 22
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 23
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 24
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 25
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 26
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 27
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 28
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 29
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 30
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 31
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 32
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 33
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 34
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 35
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 36
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 37
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 38
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 39
-  type: iec-60320-c13
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 40
-  type: iec-60320-c19
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 41
-  type: iec-60320-c19
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
-- name: Outlet 42
-  type: iec-60320-c19
-  power_port: Power Port 1
-  feed_leg: ''
-  label: ''
-  description: ''
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 12
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 13
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 16
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 17
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 18
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 19
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 20
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 21
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 22
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 23
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 24
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 25
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 26
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 27
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 28
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 29
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 30
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 31
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 32
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 33
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 34
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 35
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 36
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 37
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 38
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 39
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 40
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 41
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
+  - name: Outlet 42
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: ''
+    label: ''
+    description: ''
 interfaces:
-- name: Ethernet 0/1
-  type: 100base-tx
-  mgmt_only: true
-  label: LINK
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Ethernet 0/2
-  type: 100base-tx
-  mgmt_only: true
-  label: NET
-  description: ''
-  poe_mode: ''
-  poe_type: ''
+  - name: Ethernet 0/1
+    type: 100base-tx
+    mgmt_only: true
+    label: LINK
+    description: ''
+    poe_mode: ''
+    poe_type: ''
+  - name: Ethernet 0/2
+    type: 100base-tx
+    mgmt_only: true
+    label: NET
+    description: ''
+    poe_mode: ''
+    poe_type: ''
