@@ -1,11 +1,12 @@
 ---
 manufacturer: Dell
-model: PowerEdge R740 16SFF
-slug: dell_poweredge_r740_16sff
+model: PowerEdge R740 8LFF
+slug: dell_poweredge_r740_8lff
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-comments: '##  [Dell PowerEdge R740 16SFF/Dell 14th Gen] 
+comments: '
+## [Dell PowerEdge R740 8LFF /Dell 14th Gen] 
 
 
 ### Series:
@@ -38,7 +39,7 @@ comments: '##  [Dell PowerEdge R740 16SFF/Dell 14th Gen]
 
 ### Drive Bays
 
-###### • Front drive bays: Up to 16 x 2.5” SAS/SATA (HDD/SSD) max 122.88TB or up to 8 x 3.5” SAS/SATA HDD max 128TB
+###### • Front drive bays: up to 8 x 3.5” SAS/SATA HDD max 128TB
 
 ###### • Optional DVD-ROM, DVD+RW
 
@@ -137,35 +138,19 @@ device-bays:
     lable: Riser3
   - name: PCIe-Gen3-8
     lable: Riser3
-  - name: Drive bay-0/SFF
-    description: '2.5" SFF'
+  - name: Drive bay-0/LFF
+    description: '3.5" LFF'
   - name: Drive bay-1/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
   - name: Drive bay-2/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
   - name: Drive bay-3/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
   - name: Drive bay-4/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
   - name: Drive bay-5/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
   - name: Drive bay-6/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
   - name: Drive bay-7/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-8/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-9/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-10/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-11/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-12/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-13/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-14/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-15/SFF
-    description: '2.5" SFF'
+    description: '3.5" LFF'
