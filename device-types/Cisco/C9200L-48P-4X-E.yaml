@@ -1,44 +1,35 @@
 ---
 manufacturer: Cisco
-model: C9200L-24P-4X
-part_number: C9200L-24P-4X
-slug: c9200l-24p-4x
+model: C9200L-48P-4X-E
+part_number: C9200L-48P-4X-E
+slug: c9200l-24p-4x-e
 u_height: 1
 is_full_depth: false
-comments: '## [Cisco Catalyst 9200 Series Switches Data Sheet] 
+comments: '## [C9200L-48P-4X-E/Catalyst 9200L 48-port PoE+ 4x10G uplink Switch, Network Essentials] 
+##### Model	                                           : C9200L-48P-4X-E
 
-##### Catalyst 9200 series provides these highlights:
+##### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports full PoE+
 
-##### ●   Up to 48 ports of full Power over Ethernet Plus (PoE+) capability
+##### Uplink configuration	4x 10G fixed uplinks       : Default primary AC power supply	PWR-C5-1KWAC
 
-##### ●   Resiliency with Field-Replaceable Units (FRU) and redundant power supply, fans, and modular uplinks
+##### Stacking bandwidth	                             : 80 Gbps
 
-##### ●   Flexible downlink options with data or PoE+
+##### Switching capacity	                             : 176 Gbps
 
-##### ●   Operational efficiency with optional backplane stacking, supporting stacking bandwidth up to 160 Gbps
+##### DRAM	                                           : 2 GB
 
-##### ●   UADP 2.0 Mini with integrated CPU offers customers optimized scale with better cost structure
+##### Flash	                                           : 4 GB
 
-##### ●   Enhanced security with AES-128 MACsec encryption, policy-based segmentation, and trustworthy systems
+##### Fans	                                           : Fixed redundant
 
-##### ●   Layer 3 capabilities, including OSPF, EIGRP, ISIS, RIP, and routed access
+##### Software	                                       : Network Essentials
 
-##### ●   Advanced network monitoring using Full Flexible NetFlow
+##### Forwarding rate                                  : 261.9 Mpps
 
-##### ●   Cisco Software-Defined Access (SD-Access):
+##### Chassis Dimensions                               : 1.73 x 17.5 x 11.3 in
+                                                       : 4.4 x 44.5 x 28.8 cm
 
-##### ◦     Simplified operations and deployment with policy-based automation from edge to cloud managed with Cisco Identity Services Engine (ISE)
-
-##### ◦     Network assurance and improved resolution time through Cisco DNA Center™
-
-##### ●   Plug and Play (PnP) enabled: A simple, secure, unified, and integrated offering to ease new branch or campus device rollouts or updates to an existing network
-
-##### ●   Cisco IOS XE: A Common Licensing based operating system for the enterprise Cisco Catalyst 9000 product family with support for model-driven programmability and streaming telemetry
-
-##### ●   ASIC with programmable pipeline and micro-engine capabilities, along with template-based, configurable allocation of Layer 2 and Layer 3 forwarding, Access Control Lists (ACLs), and Quality of Service (QoS) entries
-
-
-<https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html>'
+<https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.pdf>'
 console-ports:
   - name: Console
     type: rj-45
@@ -46,11 +37,10 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-1
-    type: iec-60320-c15
-    maximum_draw: 600
+    type: iec-60320-c145
   - name: PS-2
     type: iec-60320-c15
-    maximum_draw: 600
+    maximum_draw: 125
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -140,7 +130,7 @@ interfaces:
     type: cisco-stackwise-80
     mgmt_only: false
   - name: STACK1
-    type: cisco-stackwise-80
+    type: cisco-stackwise-08
     mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t

@@ -1,41 +1,65 @@
 ---
 manufacturer: Cisco
-model: C9200L-24P-4X
-part_number: C9200L-24P-4X
-slug: c9200l-24p-4x
+model: C9200L-48P-4X-A
+part_number: C9200L-48P-4X-A
+slug: c9200l-48p-4x-a
 u_height: 1
 is_full_depth: false
-comments: '## [Cisco Catalyst 9200 Series Switches Data Sheet] 
+comments: '## [C9200L-48P-4X-A/Catalyst 9200L 48-port PoE+ 4x10G uplink Switch, Network Advantage] 
 
-##### Catalyst 9200 series provides these highlights:
+##### Model	                                                 : C9200L-48P-4X-A
 
-##### ●   Up to 48 ports of full Power over Ethernet Plus (PoE+) capability
+##### Downlinks total 10/100/1000 or PoE+ copper ports       : 	48 ports full PoE+
 
-##### ●   Resiliency with Field-Replaceable Units (FRU) and redundant power supply, fans, and modular uplinks
+##### Uplink configuration                                   : 	4x 10G fixed uplinks
 
-##### ●   Flexible downlink options with data or PoE+
+##### Default primary AC power supply                        : 	PWR-C5-1KWAC
 
-##### ●   Operational efficiency with optional backplane stacking, supporting stacking bandwidth up to 160 Gbps
+##### Fans                                                   : 	Fixed redundant
 
-##### ●   UADP 2.0 Mini with integrated CPU offers customers optimized scale with better cost structure
+##### Software                                               : 	Network Advantage
 
-##### ●   Enhanced security with AES-128 MACsec encryption, policy-based segmentation, and trustworthy systems
+##### Virtual Networks                                       :	1
 
-##### ●   Layer 3 capabilities, including OSPF, EIGRP, ISIS, RIP, and routed access
+##### Stacking bandwidth                                     :	80 Gbps
 
-##### ●   Advanced network monitoring using Full Flexible NetFlow
+##### Total number of MAC addresses                          :	16,000
 
-##### ●   Cisco Software-Defined Access (SD-Access):
+##### Total number of IPv4 routes (ARP plus learned routes)  :	11,000 (8,000 direct routes and 3,000 indirect routes)
 
-##### ◦     Simplified operations and deployment with policy-based automation from edge to cloud managed with Cisco Identity Services Engine (ISE)
+##### IPv4 routing entries                                   :	3,000
 
-##### ◦     Network assurance and improved resolution time through Cisco DNA Center™
+##### IPv6 routing entries                                   :	1,500
 
-##### ●   Plug and Play (PnP) enabled: A simple, secure, unified, and integrated offering to ease new branch or campus device rollouts or updates to an existing network
+##### Multicast routing scale                                :	1,000
 
-##### ●   Cisco IOS XE: A Common Licensing based operating system for the enterprise Cisco Catalyst 9000 product family with support for model-driven programmability and streaming telemetry
+##### QoS scale entries                                      :	1,000
 
-##### ●   ASIC with programmable pipeline and micro-engine capabilities, along with template-based, configurable allocation of Layer 2 and Layer 3 forwarding, Access Control Lists (ACLs), and Quality of Service (QoS) entries
+##### ACL scale entries                                      :	1,500
+
+##### Packet buffer per SKU                                  : 	6 MB buffers for 24- or 48-port Gigabit Ethernet models
+
+##### Flexible NetFlow (FNF) entries                         :	16,000 flows on 24- and 48-port Gigabit Ethernet models
+
+##### DRAM                                                   : 	2 GB
+
+##### Flash                                                  :	4 GB
+
+##### VLAN IDs                                               :	1024
+
+##### Total Switched Virtual Interfaces (SVIs)               :	512
+
+##### Jumbo frames                                           :	9198 bytes
+
+##### Wireless bandwidth per switch                          :	N/A
+
+##### Switching capacity                                     :	176 Gbps
+
+##### Forwarding rate                                        :	261.9 Mpps
+
+##### Mean time between failures (hours)                     :	346,270
+
+##### Chassis Dimensions                                     : 	1.73 x 17.5 x 11.3 in / 4.4 x 44.5 x 28.8 cm
 
 
 <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html>'
@@ -46,11 +70,10 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-1
-    type: iec-60320-c15
-    maximum_draw: 600
+    type: iec-60320-c145
   - name: PS-2
     type: iec-60320-c15
-    maximum_draw: 600
+    maximum_draw: 125
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -140,7 +163,7 @@ interfaces:
     type: cisco-stackwise-80
     mgmt_only: false
   - name: STACK1
-    type: cisco-stackwise-80
+    type: cisco-stackwise-08
     mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
