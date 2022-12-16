@@ -2,11 +2,107 @@
 manufacturer: Dell
 model: PowerEdge R350 8x2.5
 slug: dell_poweredge_r350-8
-part_number: PER350-8
-comments: '[Dell PowerEdge R350 Rack Server Chassis 8x2.5"]  <https://dl.dell.com/content/manual26953530-dell-emc-poweredge-r350-installation-and-service-manual.pdf?language=en-us&ps=true> ' 
+part_number: PER350-8SFF
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
+comments: '## [Dell PowerEdge R350 Rack Server Chassis 8x2.5"]  
+
+###   Feature	PowerEdge R350
+
+##### Processor	- One Intel Xeon E-2300 series processors
+
+##### with up to 8 cores or one Intel Pentium
+
+##### processor with up to 2 cores"
+
+##### Memory	4 DDR4 DIMM slot, supports UDIMM 128
+
+#####  	GB max, speeds up to 3200 MT/s
+
+#####  	Supports unregistered ECC DDR4
+
+#####  	DIMMs only
+
+##### Storage drives	Up to 4 x 3.5-inch SAS/SATA (HDD/SD)
+
+#####  	Up to 8 x 2.5-inch SAS/SATA (HDD/SSD)
+
+##### 	Max 80TB for 4 HDD configurations
+
+##### 	Internal Controllers
+
+##### Storage controllers	PERC H355, PERC H355f, PERC
+
+##### 	H345, PERC H755, PERC H755f, HBA355i, PERC H345f, HBA355f
+
+##### 	External Controllers - HBA355e
+
+##### 	Software RAID S150
+
+##### 	3 x PCIe Gen4 slots
+
+
+##### PCIe slots	1x8 Gen4 (x16 connector) low profile,
+
+##### 	half length
+
+##### 	1x8 Gen4 (x8 connector) low profile,
+
+##### 	half length
+
+##### 	1x4 Gen4 (x8 connector) for
+
+##### 	dedicated PERC only
+
+##### Embedded NIC (LOM)	2 x 1GbE LOM
+
+##### USB ports	Front Ports
+
+##### 	1 x iDRAC Direct (Micro-AB USB)
+
+##### 	port
+
+##### 	1 x USB 2.0
+
+##### 	Rear Ports
+
+##### 	1 x USB 2.0
+
+##### 	1 x USB 3.0
+
+##### 	"Internal Ports 1 x USB 3.0 (Optional)"
+
+##### Rack height	1U
+
+##### Power supplies : 600 W Platinum 100-240 V AC or 240 V DC redundant, hot swap
+
+##### ● 700 W Titanium 100-240 V AC or 240V DC redundant, hot swap"
+
+##### Embedded management	"
+
+##### ● iDRAC9
+
+##### ● iDRAC Direct
+
+##### ● iDRAC Service Module
+
+##### ● iDRAC RESTful API with Redfish"
+
+##### Front IO	"
+
+##### ● Power button w/LED x1
+
+##### ● ID button w/LED x1
+
+##### ● USB 2.0 x1
+
+##### ● iDRAC MGMT USB x1
+
+##### ● System Status LED x1"
+
+
+<https://dl.dell.com/content/manual26953530-dell-emc-poweredge-r350-installation-and-service-manual.pdf?language=en-us&ps=true> ' 
 console-ports:
   - name: Rear Serial
     type: de-9
