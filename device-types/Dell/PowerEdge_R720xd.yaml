@@ -4,7 +4,43 @@ model: PowerEdge R720xd
 slug: dell_poweredge_r720xd
 u_height: 2
 is_full_depth: true
-comments: '[Dell R610 Data Sheet] <https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell-poweredge-r720xd-spec-sheet.pdf> '
+subdevice_role: parent
+comments: '[Dell R720xd Data Sheet] 
+
+##### Feature	PowerEdge R720 
+
+##### Processor	Intel Xeon processor E5-2600 or E5-2600 v2 product families
+
+##### Memory	24 x DDR3 RDIMM,UDIMM and LRDIMM Up to 768GB
+
+##### Storage drives	Up to 24 x 2.5” (front) + 2 x 2.5” (back) or Up to 12 x 3.5” (front) + 2 x 2.5” (back)
+
+##### Storage controllers	PERC S110, H310, H710, H710P, H810 (external); supports multiple (2) internal RAID controllers
+
+##### PCIe slots	6 PCIe 3.0
+
+##### 	One x16 full-length, full-heigh
+
+##### 	Three x8 full-length, full-height
+
+##### 	Three x8 half-length, half-height
+
+##### 	One x16 full-length, full-height (optional)
+
+##### RAID controller	PERC S110 (software RAID; R720 only), PERC H310n,PERC H710,PERC H710P
+
+##### Embedded NICs	Select Network Adapter: minimum configuration of 4 1Gb Optional: 2 x 10GbE 
+
+##### Rack height	2U
+
+##### Power supplies	Hot-plug, redundant power supply units: 495W, 750W, 1100W, 1100W DC
+
+##### Embedded management	● iDRAC7, iDRAC Direct, iDRAC Service Module, iDRAC RESTful API with Redfish
+
+##### Front IO	● Power button w/LED x1,  ID button w/LED x1, USB 2.0 x1, iDRAC MGMT USB x1, System Status LED x1 
+
+
+<https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell-poweredge-r720xd-spec-sheet.pdf> '
 console-ports:
   - name: Serial
     type: de-9
@@ -32,6 +68,6 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 4
     type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC7
     type: 1000base-t
     mgmt_only: true

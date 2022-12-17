@@ -4,6 +4,47 @@ model: PowerEdge R730
 slug: dell_poweredge_r730
 u_height: 2
 is_full_depth: true
+subdevice_role: parent
+comments: '[Dell R730 Data Sheet]  
+
+##### Feature	PowerEdge R730 
+
+##### Processor	Intel® Xeon® processor E5-2600 v4 product family
+
+##### Memory	Up to 3TB (24 DIMM slots): 4GB/8GB/16GB/32GB/64GB/128GB DDR4 up to 2400MT/s
+
+##### Storage drives	Up to 16 2.5“ or eight 3.5”
+
+##### Storage controllers	"Internal controllers: PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P
+
+##### External HBAs (RAID): PERC H830
+
+##### External HBAs (non-RAID): 12Gbps SAS HBA"
+
+##### PCIe slots	Up to 7 x PCIe 3.0 plus dedicated PERC slot
+
+##### 	One x16 full-length, full-heigh
+
+##### 	Three x8 full-length, full-height
+
+##### 	Three x8 half-length, half-height
+
+##### 	One x16 full-length, full-height (optional)
+
+##### RAID controller	PERC S110 (software RAID; R720 only), PERC H310n,PERC H710,PERC H710P
+
+##### Embedded NICs	4 x 1GbE, 2 x 10+2GbE, 4 x 10GbE NDC
+
+##### Power supplies	Hot-plug, redundant power supply units: 495W, 750W, 1100W, 1100W DC
+
+##### Embedded management	● iDRAC8, iDRAC Direct, iDRAC Service Module, iDRAC RESTful API with Redfish
+
+##### Rack height	2U
+
+##### Dimensions	H: 8.73 cm (3.44 in), W: 44.40 cm (17.49 in), D: 68.40 cm (26.92 in)
+
+
+<https://dl.dell.com/topicspdf/poweredge-r730_owners-manual2_en-us.pdf> '
 console-ports:
   - name: Serial
     type: de-9
@@ -33,6 +74,6 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 4
     type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC8
     type: 1000base-t
     mgmt_only: true
