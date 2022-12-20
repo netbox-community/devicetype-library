@@ -62,10 +62,10 @@ console-server-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    maximum_draw: 40
+    maximum_draw: 18
   - name: ps2
     type: iec-60320-c14
-    maximum_draw: 40
+    maximum_draw: 18
 interfaces:
   - name: mgmt1
     type: 1000base-t
