@@ -2,14 +2,125 @@
 manufacturer: Dell
 model: PowerEdge R450 4LFF
 slug: dell_poweredge_R450-4lff
-comments: '[PowerEdge R450 Rack Server 4x3.5"/Dell 15th Gen] <https://dl.dell.com/topicspdf/poweredge-r450_owners-manual_en-us.pdf> '
 part_number: PER450-4
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '### [PowerEdge R450 Rack Server 4x3.5 LFF"/Dell 15th Gen]
+
+###### Features 			: Technical Specifications
+
+###### Processor 			: Up to two 3rd Generation Intel Xeon Scalable processors, with up to 24 cores per processor
+
+###### Memory 				: Memory 16 DDR4 DIMM slots, supports RDIMM max 1 TB, speeds up to 2933 MT/s
+
+#####  Storage controllers : Internal controllers (RAID): PERC H345, PERC H355, HBA355i, PERC H745, PERC H755, S150
+
+###### 	• Internal Boot: Internal Dual SD Module or Boot Optimized Storage Subsystem (BOSS-S1): HWRAID 2x M.2 SSDs or USB
+
+###### 	• External PERC (RAID): PERC H840
+
+###### 	• External HBA (non-RAID) HBA355e
+
+#####  Drive Bays Front bays:
+
+###### 	• Up to 4 x 3.5-inch SAS/SATA (HDD/SSD) max 64 TB
+
+#####  Power Supplies • 600W Platinum Mixed Mode (100-240Vac or 240Vdc) hot swap redundant
+
+###### 	• 800W Platinum Mixed Mode (100-240Vac or 240Vdc) hot swap redundant
+
+###### 	• 1100W -48Vdc hot swap redundant (CAUTION: only works with -48Vdc to -60Vdc power input)
+
+#####  Cooling options Air cooling
+
+###### 	Fans • Standard (STD) fans or High performance SLVR fans
+
+###### 	• Up to seven cold swap fans
+
+#####  Dimensions • Height – 42.8 mm (1.7 inches)
+
+###### 	• Width – 482 mm (18.97 inches)
+
+###### 	• Depth – 734.95 mm (28.92 inches) – without bezel
+
+###### 	748.79 mm (29.47 inches) – with bezel
+
+#####  Form Factor 1U rack server
+
+#####  Embedded Management • iDRAC9
+
+###### 	• iDRAC Direct
+
+###### 	• iDRAC RESTful API with Redfish
+
+###### 	• iDRAC Service Module
+
+###### 	• Quick Sync 2 wireless module
+
+#####  Security 		: Cryptographically signed firmware
+
+###### 	• Secure Boot
+
+###### 	• Secure Erase
+
+###### 	• Silicon Root of Trust
+
+###### 	• System Lockdown (requires iDRAC9 Enterprise or Datacenter)
+
+###### 	• TPM 1.2/2.0 FIPS, CC-TCG certified, TPM 2.0 China NationZ
+
+#####  Embedded 		: 	NIC 2 x 1 GbE LOM
+
+#####  Network 		: Options 1 x OCP 3.0
+
+#####  GPU Options NA
+
+#####  Ports Front Ports
+
+###### 	• 1 x Dedicated iDRAC Direct micro-USB
+
+###### 	• 1 x USB 3.0
+
+###### 	• 1 x VGA
+
+#####  Rear Ports
+
+###### 	• 1 x USB 2.0
+
+###### 	• 1 x Serial (optional)
+
+###### 	• 1 x iDRAC ethernet port
+
+###### 	• 1 x USB 3.0
+
+###### 	• 2 x Ethernet
+
+###### 	• 1 x VGA
+
+#####  Internal Ports
+
+###### 	• 1 x USB 3.0 (optional)
+
+#####  PCIe 2 x PCIe Gen4 slots + PCIe Gen
+
+###### 	• 2 x16 Gen4 (x16 connector) low profile, half length
+
+###### 	• 1 x4 Gen3 (x8 connector) low profile, half length
+
+
+ <https://dl.dell.com/topicspdf/poweredge-r450_owners-manual_en-us.pdf> 
+ 
+
+ <https://i.dell.com/sites/csdocuments/Product_Docs/en/Dell-EMC-PowerEdge-R450-Technical-Guide.pdf>
+ 
+
+fOR {NETBOX}'
 console-ports:
   - name: Rear Serial
     type: de-9
+  - name: USB
+    type: usb-a
   - name: Front VGA
     type: other
   - name: Rear VGA
@@ -22,42 +133,32 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-  - name: Internal SD (IDSDM)
-    type: other
-  - name: Internal VFLASH
-    type: other
-  - name: Internal TPM
-    type: other 
+  - name: Rear Dedicated iDRAC direct USB
+    type: usb-mini-b
 power-ports:
   - name: Power 1
     type: iec-60320-c14
-    maximum_draw: 1100
+    maximum_draw: 600
   - name: Power 2
     type: iec-60320-c14
-    maximum_draw: 1100
+    maximum_draw: 600
 interfaces:
-  - name: LOM1
+  - name: LOM1 Gig-E 1
     type: 1000base-t
-  - name: LOM2
-    type: 1000base-t
-  - name: OCP-LOM3
-    type: 1000base-t
-  - name: OCP-LOM4
+  - name: LOM1 Gig-E 2
     type: 1000base-t
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-    mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC H345, PERC H355, PERC H745, PERC H755, HBA355i'
   - name: BOSS-2 Optional
     description: 'DELL BOSS M.2 Controller Card'
   - name: OCP NIC Optional
-    description: '2 x 1GE or 2x 10GE SFP+ or 2 x 10GE BaseT'
-  - name: Riser-1/SLOT-1/PCIe-Gen4-1
-  - name: Riser-2/SLOT-2/PCIe-Gen4-2
-  - name: Riser-2/SLOT-3/PCIe-Gen4-3
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
+device-bays:
   - name: Drive bay-0
     description: '3.5" LFF'
   - name: Drive bay-1
