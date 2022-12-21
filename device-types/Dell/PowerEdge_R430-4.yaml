@@ -1,12 +1,89 @@
 ---
 manufacturer: Dell
 model: PowerEdge R430 4x3.5
-slug: dell_poweredge_r430-4
+slug: dell_poweredge_r430-4lff
 part_number: PER430-4
-comments: '[PowerEdge R430 Rack Server 4x3.5/Dell 13th Gen ] <https://dl.dell.com/content/manual26479616-dell-poweredge-r430-owner-s-manual.pdf?language=en-us&ps=true> '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '## [PowerEdge R430 Rack Server 4x3.5"/LFF/Dell 13th Gen ] 
+
+
+###   Feature	PowerEdge R430
+
+##### Intel® Xeon® processor E5-2600 v4 product family
+
+##### processor with up to 2 cores"
+
+##### Memory	DDR4 DIMMs at up to 2400MT/s
+
+#####  	12 DIMM slots: 4GB/8GB/16GB/32GB
+
+##### Storage drives	
+
+##### SAS, SATA, nearline SAS, SSD Multiple R430 chassis available:
+
+##### • 10 x 2.5" hot-plug drives
+
+##### • 8 x 2.5" hot-plug drives
+
+##### • 4 x 3.5" hot-plug drives
+
+##### • 4 x 3.5" cabled drives
+
+##### Storage controllers	PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P
+
+##### 	External Controllers
+
+##### 	PERC H830
+
+##### 	2 x PCIe Gen3 slots
+
+##### PCIe slots	1x8 Gen4 (x16 connector) low profile,
+
+##### 	half length
+
+##### 	1x8 Gen4 (x8 connector) low profile,
+
+##### 	half length
+
+##### 	1x4 Gen4 (x8 connector) for
+
+##### 	dedicated PERC only
+
+##### Embedded NIC (LOM)	4 x 1GbE LOM
+
+##### USB ports	Front Ports
+
+##### 	1 x iDRAC Direct (Micro-AB USB)
+
+##### 	port
+
+##### 	1 x USB 2.0
+
+##### 	Rear Ports
+
+##### 	1 x USB 2.0
+
+##### 	1 x USB 3.0
+
+##### 	"Internal Ports
+
+##### ● 1 x USB 3.0 (Optional)
+
+##### Rack height	1U
+
+##### Power supplies
+
+##### ● 450W, 550W PSU
+
+##### Embedded management :  iDRAC8
+
+
+<https://dl.dell.com/content/manual26479616-dell-poweredge-r430-owner-s-manual.pdf?language=en-us&ps=true> 
+
+
+fOR {NETBOX}'
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -45,7 +122,7 @@ interfaces:
   - name: iDRAC8
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC H330, PERC H730, PERC H730P'
   - name: PCIe-Gen3-1
