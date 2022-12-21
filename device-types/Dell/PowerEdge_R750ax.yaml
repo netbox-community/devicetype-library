@@ -2,10 +2,68 @@
 manufacturer: Dell
 model: PowerEdge R750ax 8SFF
 slug: dell_poweredge_r750ax
-comments: '[Dell EMC PowerEdge R750AX 8 X 2.5" SFF ] | https://dl.dell.com/content/manual29454828-dell-emc-poweredge-r750xa-installation-and-service-manual.pdf?language=en-us&ps=true '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+comments: '## [Dell EMC PowerEdge R750AX 8 X 2.5" SFF ] 
+
+
+## PowerEdge R750ax
+
+###Processor 
+
+###### 2x 3rd Generation Intel® Xeon® Processor Scalable Family
+
+### Memory
+
+###### 32 x DDR4 RDIMM, LRDIMM; 
+
+###### 16 x PMem ( Intel Optane Persistent Memory 200 Series)
+
+###### Supports registered ECC DDR4 DIMMs only
+
+
+###Storage controllers Internal controllers: 
+
+###### Adapters: HBA355I, HBA355E, H345, H355, H745, H755, H755N,
+
+###### Boot Optimized Storage Subsystem: HWRAID 2 x M.2 SSDs 240GB or 480 GB
+
+###### External PERC (RAID): H840
+
+###### 12Gbps SAS HBAs (non-RAID): External-12Gbps SAS HBA (non-RAID): Internal- HBA330 (non-RAID)
+
+###### PCIe Slots: Max 8 PCIe 4.0 (up to 6 x16 slots) 
+
+### Drive bays Front bays: 
+
+###### Up to 8x2.5 inches SAS/SATA SSD or NVMe 
+
+### Power supplies Titanium 750W, Platinum
+
+###### 495W, 750W, 1100W,
+
+###### 1600W, and 2000W
+
+###### 48VDC 1100W, 380HVDC 1100W, 240HVDC 750W
+
+###### Hot plug power supplies with full redundancy
+
+###### Up to 6 hot plugs fans with full redundancy
+
+#### Dimension (H×W×D) 
+
+###### Form factor: Rack (2U)
+
+###### 86.8mm (3.4") × 434.0mm (17.1") × 737.5mm (29.0")
+
+###### Weight : 28.6kg (63.0lbs.)
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r750xa-technical-guide.pdf
+
+
+fOR {NETBOX}'
 console-ports:
   - name: Optional Rear Serial
     type: de-9

@@ -1,12 +1,61 @@
 ---
 manufacturer: Dell
 model: PowerEdge R630 24x1.8
-slug: dell_poweredge_r630-24
-part_number: PER630-24
-comments: '[Dell PowerEdge R640 24x1.8" uSATA/Dell 144h Gen]  <https://dl.dell.com/content/manual18909488-dell-poweredge-r630-owner-s-manual.pdf?language=en-us&ps=true> '
+slug: dell_poweredge_r630-24-uSATA
+part_number: PER630-24-uSATA
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '### [Dell PowerEdge R630 24x1.8" uSATA/Dell 13th Gen]  
+
+
+##### Feature 	    		  	: PowerEdge R630 technical specification
+
+##### Form factor 			   : 1U rack
+
+##### Processors 		  		: Intel Xeon processor E5-2600 v3 product family
+
+##### Processor sockets 		:	2 sockets
+
+##### Internal interconnect 	:	2 Intel Quick Path Interconnect (QPI) links: up to 9.6GT/s
+
+##### Cache 					: 2.5MB per core; core options: 4, 6, 8, 10, 12, 16, 18
+
+##### Chipset 				: Intel C610 series chipset
+
+##### Memory1 				: Up to 768GB (24 DIMM slots): 4GB/8GB/16GB/32GB DDR4 up to 2133MT/s
+
+##### I/O slots 				: Up to 3 x PCIe 3.0 slots plus dedicated PERC slot
+
+##### RAID controller			: Internal controllers: PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P
+
+###### 		External HBAs (RAID): PERC H830
+
+###### 		External HBAs (non-RAID): 12Gb/s SAS HBA
+
+##### Disk drives				: 
+
+###### 	Internal hard drive bay and hot-plug backplane:
+
+###### 		Up to 24 x 1.8” SATA SSD
+
+##### Maximum internal storage:
+
+###### 		HDD: SAS, SATA, nearline SAS SSD: SAS, SATA, NVMe PCIe
+
+###### 		24 x 1.8” SSD: Up to 23TB using 0.96TB hot-plug SATA SSD
+
+##### Embedded NIC:  x 1GbE, 2 x 1GbE + 2 x 10GbE, 4 x 10GbE
+
+##### Power supply 		: Titanium efficiency 750W AC power supply; 1100W DC power supply; Platinum efficiency 495W AC, 750W AC, 1100W AC
+
+<https://dl.dell.com/content/manual18909488-dell-poweredge-r630-owner-s-manual.pdf?language=en-us&ps=true> 
+
+
+<https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/Dell-PowerEdge-R630-Technical-Guide-v1-6.pdf>
+
+
+fOR {NETBOX}'
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -37,12 +86,13 @@ interfaces:
   - name: iDRAC8
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P'
   - name: Riser-1/SLOT-1/PCIe-Gen3-1
   - name: Riser-1/SLOT-2/PCIe-Gen3-1
   - name: Riser-2/SLOT-3/PCIe-Gen3-2
+device-bays:
   - name: Drive bay-00/SFF
     description: '2.5" SFF'
   - name: Drive bay-01/SFF

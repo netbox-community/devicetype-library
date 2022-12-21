@@ -4,7 +4,90 @@ model: PowerEdge R610
 slug: dell_poweredge_r610
 u_height: 1
 is_full_depth: true
-comments: [Dell R610 Data Sheet]( <ttps://www.dell.com/learn/us/en/98/shared-content~data-sheets~en/documents~r610-specsheet.pdf>
+subdevice_role: parent
+comments: '### [Dell R610 Data Sheet] 
+
+ ###### Feature 				: PowerEdge R610 technical specification
+
+###### Form factor 			: 1U rack
+
+###### Processors			: Dual-core, quad-core, or six-core Intel ® Xeon ® processors 5500 & 5600 series
+
+###### Processor sockets		: 2 sockets
+
+###### Internal interconnect 	: 2 Intel Quick Path Interconnect (QPI) links
+
+###### Cache 					: Up to 12MB
+
+###### Chipset 				: Intel 5520
+
+###### Memory1 				: Up to 192GB (12 DIMM slots): 1GB/2GB/4GB/8GB/16GB DDR3 800MT/s, 1066MT/s, or 1333MT/s
+
+###### PCIe slots
+
+###### 			2 PCIe slots:
+
+###### 				 One x16 slot with x16 bandwidth, full-height, 3/4 length
+
+###### 				 One x16 slot with x16 bandwidth (or x8 with one processor only), half-height, half-length
+
+###### RAID controller			:
+
+###### 		Internal controllers:
+
+###### 		PERC H200 (6Gb/s), PERC H700 (6Gb/s), SAS 6/iR, PERC 6/i
+
+###### 		External HBAs (RAID):PERC H800 (6Gb/s), PERC 6/E 
+
+###### 		External HBAs (non-RAID): 6Gb/s SAS HBA, SAS 5/E HBA, LSI2032 PCIe SCSI HBA
+
+###### Hard drives (hot-plug) :
+
+###### 		Drive bay options:
+
+###### 			 Up to 4 x 2.5” or
+
+###### 			 Up to 8 x 2.5” or
+
+###### 		Hard drive options:
+
+###### 			2.5" SSD, SAS HDD
+
+###### 			3.5" SAS HDD, Nearline SAS HDD, SATA HDD 
+
+###### Embedded NIC
+
+###### 		Select Network Adapter options:
+
+###### 			Broadcom 5709c 21Gb Base-T (default)
+
+###### 			Broadcom NetXtreme II 57711 Dual Port Direct Attach 10Gb Ethernet
+
+###### 			PCI-Express Network Interface Card with TOE and iSCSI Offload
+
+###### 			Intel Gigabit ET Dual Port Server Adapter and Intel Gigabit ET Quad
+
+###### 			Dual Port 10GB Enhanced Intel Ethernet Server Adapter X520-DA2
+
+###### 			Brocade ® CNA Dual-port adapter
+
+###### 			Emulex ® CNA iSCSI HBA stand up adapter OCE10102-IX-D
+
+###### 			Emulex OCE10102-IX-DCNA iSCSI HBA stand-up adapte
+
+###### Power supply Titanium efficiency:
+
+###### 			550C power supply; auto-ranging Platinum efficiency 495W,
+
+###### 			750W AC power supply
+
+<https://www.dell.com/learn/us/en/98/shared-content~data-sheets~en/documents~r610-specsheet.pdf>
+
+
+<https://i.dell.com/sites/csdocuments/Business_solutions_engineering-Docs_Documents/en/server-poweredge-r610-tech-guidebook.pdf> 
+
+
+fOR {NETBOX}'
 console-ports:
   - name: Serial
     type: de-9

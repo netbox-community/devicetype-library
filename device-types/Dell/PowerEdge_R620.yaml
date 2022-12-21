@@ -4,6 +4,97 @@ model: PowerEdge R620
 slug: dell_poweredge_r620
 u_height: 1
 is_full_depth: true
+subdevice_role: parent
+comments: '### [Dell R620 Data Sheet] 
+
+###### Feature 				: PowerEdge R620 technical specification
+
+###### Form factor 	         : 1U rack
+
+###### Processors 		    	 : Intel Xeon processor E5-2600 and E5-2600 v2 product families
+
+###### Processor sockets		 : 2 sockets
+
+###### Internal interconnect 	: 2 Intel Quick Path Interconnect (QPI) links: 6.4GT/s, 7.2GT/s, 8.0GT/s
+
+###### Cache 				        	: 2.5MB per core; core options: 4, 6, 8, 10, 12
+
+###### Chipset 				        : Intel C602
+
+###### Memory1 				         : Up to 768GB (24 DIMM slots): 2GB/4GB/8GB/16GB/32GB DDR3 up to 1866MT/s
+
+###### PCIe slots
+
+###### 			3 PCIe slots: (10-drive bay configuration is available only with this option)
+
+###### 				 Two x16 slots with x16 bandwidth, half-height, half-length
+
+###### 				 One x16 slot with x8 bandwidth, half-height, half-length
+
+###### 				or
+
+###### 			2 PCIe slots:
+
+###### 				 One x16 slot with x16 bandwidth, full-height, 3/4 length
+
+###### 				 One x16 slot with x16 bandwidth (or x8 with one processor only), half-height, half-length
+
+###### RAID controller			:
+
+###### 		Internal controllers:
+
+###### 		PERC S110 (SW RAID), PERC H310, PERC H710, PERC H710P
+
+###### 		External HBAs (RAID): ###### 		PERC H810
+
+###### 		External HBAs (non-RAID): ###### 		6Gbps SAS HBA, LSI SAS 9207-8i 6Gb/s SAS
+
+###### Hard drives (hot-plug) :
+
+###### 		Drive bay options:
+
+###### 			 Up to 4 x 2.5” or
+
+###### 			 Up to 8 x 2.5” or
+
+###### 			 Up to 10 x 2.5” or
+
+###### 			 Up to 4 x 2.5” + 2 x Express Flash
+
+###### 		Hard drive options:
+
+###### 			2.5" SSD, SAS HDD
+
+###### 			3.5" SAS HDD, Nearline SAS HDD, SATA HDD Self-encrypting drives available
+
+###### Embedded NIC
+
+###### 		Select Network Adapter options:
+
+###### 			Broadcom® 5720 4x1Gb Base-T (default)
+
+###### 			Intel I350 quad-port 1GbE Base-T (no TOE or iSCSI offload)
+
+###### 			Intel X540 dual-port 10GbE Base-T with 2 x 1GbE (FCoE capability on 10GbE ports)
+
+###### 			Broadcom 57800S 2x1Gb + 2x10Gb Base-T
+
+###### 			Broadcom 57800S 2x1Gb + 2x10Gb SFP+
+
+###### 			Mellanox® ConnectX®-3 dual-port 40GbE QSFP+ network adapter
+
+###### 			Mellanox ConnectX-3 dual-port 10GbE DA/SFP+ network adapter
+
+###### Power supply Titanium efficiency:
+
+###### 			750W AC power supply; auto-ranging Platinum efficiency 495W,
+
+###### 			750W or 1100W AC power supply; 1100W DC power supply
+
+ <https://i.dell.com/sites/content/shared-content/data-sheets/en/Documents/dell-poweredge-r620-technical-guide.pdf> '
+
+
+fOR {NETBOX}'
 console-ports:
   - name: Serial
     type: de-9
@@ -33,6 +124,6 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 4
     type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC6
     type: 1000base-t
     mgmt_only: true
