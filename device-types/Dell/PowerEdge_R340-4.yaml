@@ -1,12 +1,70 @@
 ---
 manufacturer: Dell
-model: PowerEdge R340 4x3.5
-slug: dell_poweredge_r340-4
+model: PowerEdge R340 4x3.5 LFF
+slug: dell_poweredge_r340-4-lff
 part_number: PER340-4
-comments: '[Dell PowerEdge R340 Rack Server Chassis 4x3.5"]  <https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> ' 
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+comments: '## [Dell PowerEdge R340 Rack Server Chassis 4x3.5"]  
+
+
+#### Processor 1 processor from the following: Intel® Xeon® E-2200 product family, Intel Pentium®, Intel Core i3®, Intel Celeron®
+
+
+#### Memory 4 x DDR4 DIMM slots, Supports UDIMM, up to 2666MT/s, 64GB Max. Supports registered ECC
+
+
+#### Storage controllers
+
+
+#### Internal boot
+
+
+#######   Internal controllers: PERC H730P, H330, HBA330
+
+
+#######   Software RAID: PERC S140 
+
+
+#######   External controllers: 12Gbps SAS HBA
+
+
+#######   Boot Optimized Storage Subsystem (BOSS): 2 x M.2 240GB (RAID 1 or No RAID) or 1 x M.2 240GB (No RAID only)
+
+
+#######   Internal Dual SD Module3 : 2x microSD (16GB, 32GB or 64GB) or 1x microSD (16GB, 32GB or 64GB)
+
+
+#### Drive bays Up to 8 x 2.5 hot-plug SATA, SAS (optional) or SSD
+
+
+#### Up to 4 x 3.5 hot-plug SATA, SAS (optional) or SSD 
+
+
+#### Power supplies Single or dual 350W (Platinum) or 550W (Platinum) hot-plug redundant power supplies 
+
+
+#### Dimensions Form factor: Rack (1U) Chassis width: 434.00mm (17.08 in) 
+
+
+#### Chassis depth: 595.63mm (23.45 in) (3.5” HDD config)
+
+
+#### Chassis depth: 544.836mm (21.45 in) (2.5” HDD config)
+
+
+#### Chassis weight: 13.6 kg (29.98 lb.)
+
+
+<https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> 
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r340-spec-sheet.pdf>
+
+
+For {NETBOX}'
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -39,13 +97,14 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC H730P, H330, HBA330 (non-RAID)'
   - name: Optional BOSS-2 Removed
     description: '51CN2 - DELL BOSS M.2 Controller Card'
   - name: PCIe-Gen3-1
   - name: PCIe-Gen3-2
+device-bays:
   - name: Drive bay-0/LFF
   - name: Drive bay-1/LFF
   - name: Drive bay-2/LFF

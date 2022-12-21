@@ -1,12 +1,43 @@
 ---
 manufacturer: Dell
-model: PowerEdge R330 8x2.5
-slug: dell_poweredge_r330-8
+model: PowerEdge R330 8x2.5 SFF
+slug: dell_poweredge_r330-8-sff
 part_number: PER330-8
-comments: '[Dell PowerEdge R330 Rack Server Chassis (8x2.5")]  <https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> ' 
 u_height: 1
 subdevice_role: parent
 is_full_depth: true
+airflow: front-to-rear
+comments: '[Dell PowerEdge R330 Rack Server Chassis (8x2.5")]  
+
+
+#####  1-socket rack server with a powerful Intel Xeon 
+
+
+#####  E3-1200 v6 processor
+
+
+#####    Up to 4 x DDR4 DIMMs
+
+
+#####    Up to 4 x 3.5" hard drives or up to 8 x 2.5" hard drive
+
+
+##### H: 42.8 mm (1.68 in)
+
+
+##### W: 482.4 mm (18.99 in) with rack latches; 434.0 mm (17.08 in) without rack latches 
+
+
+##### D (includes bezel): 677.3 mm (26.66 in) with redundant power supply unit
+
+
+<https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell_PowerEdge_R330_SpecSheet_final.pdf>
+
+
+<https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> 
+
+
+For {NETBOX}'
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -41,11 +72,12 @@ interfaces:
   - name: iDRAC Option/iDRAC8
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC S130, PERC H330, PERC H730, PERC H830'
   - name: PCIe-Gen3-1
   - name: PCIe-Gen3-2
+device-bays:
   - name: Drive bay-00/SFF
   - name: Drive bay-01/SFF
   - name: Drive bay-02/SFF

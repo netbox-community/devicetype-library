@@ -5,33 +5,135 @@ slug: poweredge-m1000e
 u_height: 10
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '## [PowerEdge M1000e Blade Enclosure] 
+
+
+## Form factor: 10U modular enclosure holds up to 8 full-height, 16 half-height, or 32 quarter-height blade servers
+
+
+#### Cooling System: Fan x 9 
+
+
+#### Expansion Slots: 6
+
+
+#### Power Redundancy: Yes
+
+
+#### Power Redundancy Scheme: 3+3/ 6 X 2700W PSU
+
+
+#### Max Supported Qty: 6
+
+## Dimensions: 44.0cm (17.3 in.) H x 44.7cm (17.6 in.) W x 75.4cm (29.7 in.) D
+
+
+## Weight:
+
+
+##### Empty chassis — 98 lb
+
+
+##### Chassis with all rear modules (I/O modules, PSUs, CMCs, KVM) — 176 lb
+
+
+##### Chassis fully loaded with blade servers and rear modules — 394 lb
+	
+
+<https://i.dell.com/sites/content/business/solutions/engineering-docs/en/Documents/server-poweredge-m1000e-tech-guidebook.pdf> 
+
+
+<https://dl.dell.com/topicspdf/poweredge-m1000e_owners-manual_en-us.pdf>
+
+
+<https://downloads.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_poweredge/poweredge-m1000e_reference-guide4_en-us.pdf> 
+
+
+<https://dl.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_poweredge/poweredge-m1000e_concept%20guide6_en-us.pdf>
+
+
+For {NETBOX}' 
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: LCD Module
 power-ports:
   - name: PSU1
+    position: 1
     type: iec-60320-c20
+    maximum_draw: 2700
   - name: PSU2
+    position: 2
     type: iec-60320-c20
+    maximum_draw: 2700
   - name: PSU3
+    position: 3
     type: iec-60320-c20
+    maximum_draw: 2700
   - name: PSU4
+    position: 4
     type: iec-60320-c20
+    maximum_draw: 2700
   - name: PSU5
+    position: 5
     type: iec-60320-c20
+    maximum_draw: 2700
   - name: PSU6
+    position: 6
     type: iec-60320-c20
-device-bays:
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  - name: Slot 10
-  - name: Slot 11
-  - name: Slot 12
-  - name: Slot 13
-  - name: Slot 14
-  - name: Slot 15
-  - name: Slot 16
+    maximum_draw: 2700
+module-bays:
+  - name: CMC-1
+    position: 1
+  - name: CMC-2
+    position: 2
+  - name: iKVM
+  - name: Left IO Module-A1
+    position: 1
+  - name: Rear IO Module-B1
+    position: 2
+  - name: Rear IO Module-C1
+    position: 3
+  - name: Right IO Module-A2
+    position: 4
+  - name: Right IO Module-B2
+    position: 5
+  - name: Right IO Module-C2
+    position: 6
+  - name: Blade 1
+    position: 1
+  - name: Blade 2
+    position: 2
+  - name: Blade 3
+    position: 3
+  - name: Blade 4
+    position: 4
+  - name: Blade 5
+    position: 5
+  - name: Blade 6
+    position: 6
+  - name: Blade 7
+    position: 7
+  - name: Blade 8
+    position: 8
+  - name: Blade 9
+    position: 9
+  - name: Blade 10
+    position: 10
+  - name: Blade 11
+    position: 11
+  - name: Blade 12
+    position: 12
+  - name: Blade 13
+    position: 13
+  - name: Blade 14
+    position: 14
+  - name: Blade 15
+    position: 15
+  - name: Blade 16
+    position: 16

@@ -5,33 +5,135 @@ slug: dell-poweredge-mx7000
 u_height: 7
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '## [Dell EMC PowerEdge Mx7000] 
+
+## Form factor: 7U modular enclosure holds up to eight standard height, single-width sleds, or four standard height, double-width sleds
+
+
+#### Up to six hot swappable power supply units.
+
+
+#### Up to two hot swappable management modules.
+
+
+###### Up to six I/O modules:
+
+
+###### Four Fabric-A/B type IOMs
+
+
+###### Two Fabric-C type IOMs
+
+
+#### Four front accessible hot swappable cooling fans.
+
+
+#### Five rear accessible hot swappable cooling fans
+
+
+#### Cooling System: Front 4 Fan Rear 5 X Fan 
+
+
+#### Expansion Slots: 6
+
+
+#### Power Redundancy: Yes
+
+
+#### Power Redundancy Scheme: 3+3/ 6 X 3000W PSU
+
+
+#### Max Supported Qty: 6
+
+
+## Dimensions: 816.8mm (32.16 inches) x 482mm (18.98 inches) x 307.4mm (12.10 inches
+
+## Weight:
+
+
+##### Chassis with all rear modules (I/O modules, PSUs, CMCs, KVM) — 180 lb
+
+
+##### Chassis fully loaded with blade servers and rear modules — 400 lb
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/PowerEdge_MX7000_Spec_Sheet.pdf>
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/dell_emc_poweredge_mx7000_technical_guide.pdf>
+
+
+<https://dl.dell.com/topicspdf/poweredge-mx7000_owners-manual2_en-us.pdf>
+
+
+<https://dl.dell.com/topicspdf/owners_manual_en-us.pdf>
+
+
+<https://dl.dell.com/topicspdf/mx740c_ism_en-us.pdf>
+
+
+<https://www.delltechnologies.com/asset/en-us/products/networking/briefs-summaries/PowerEdge_MX_IO_Guide.pdf>
+
+
+For {NETBOX}' 
+console-ports:
+  - name: Front Mini DisplayPort
+    type: other
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front USB3
+    type: usb-mini-b
 power-ports:
-  - name: PSU.Slot.1
+  - name: PSU-1
     type: iec-60320-c22
-  - name: PSU.Slot.2
+    maximum_draw: 3000
+  - name: PSU-2
     type: iec-60320-c22
-  - name: PSU.Slot.3
+    maximum_draw: 3000
+  - name: PSU-3
     type: iec-60320-c22
-  - name: PSU.Slot.4
+    maximum_draw: 3000
+  - name: PSU-4
     type: iec-60320-c22
-  - name: PSU.Slot.5
+    maximum_draw: 3000
+  - name: PSU-5
     type: iec-60320-c22
-  - name: PSU.Slot.6
+    maximum_draw: 3000
+  - name: PSU-6
     type: iec-60320-c22
-device-bays:
-  - name: Sled-1
-  - name: Sled-2
-  - name: Sled-3
-  - name: Sled-4
-  - name: Sled-5
-  - name: Sled-6
-  - name: Sled-7
-  - name: Sled-8
-  - name: IOM-A1
-  - name: IOM-A2
-  - name: IOM-B1
-  - name: IOM-B2
-  - name: IOM-C1
-  - name: IOM-C2
+    maximum_draw: 3000
+module-bays:
   - name: MM Slot 1
+    position: 1
   - name: MM Slot 2
+    position: 2
+  - name: Sled-1
+    position: 1
+  - name: Sled-2
+    position: 2
+  - name: Sled-3
+    position: 3
+  - name: Sled-4
+    position: 4
+  - name: Sled-5
+    position: 5
+  - name: Sled-6
+    position: 6
+  - name: Sled-7
+    position: 7
+  - name: Sled-8
+    position: 8
+  - name: IO Module-A1
+    position: 1
+  - name: IO Module-B1
+    position: 2
+  - name: IO Module-C1
+    position: 3
+  - name: IO Module-A2
+    position: 4
+  - name: IO Module-B2
+    position: 5
+  - name: IO Module-C2
+    position: 6

@@ -1,12 +1,43 @@
 ---
 manufacturer: Dell
-model: PowerEdge R330 4x3.5
-slug: dell_poweredge_r330-4
+model: PowerEdge R330 4x3.5 LFF
+slug: dell_poweredge_r330-4-lff
 part_number: PER330-4
-comments: '[Dell PowerEdge R330 Rack Server Chassis (4x3.5")]  <https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> ' 
 u_height: 1
 subdevice_role: parent
 is_full_depth: true
+airflow: front-to-rear
+comments: '## [Dell PowerEdge R330 Rack Server Chassis (4x3.5")]  
+
+
+#####  1-socket rack server with a powerful Intel Xeon 
+
+
+#####  E3-1200 v6 processor
+
+
+#####    Up to 4 x DDR4 DIMMs
+
+
+#####    Up to 4 x 3.5" hard drives or up to 8 x 2.5" hard drive
+
+
+##### H: 42.8 mm (1.68 in)
+
+
+##### W: 482.4 mm (18.99 in) with rack latches; 434.0 mm (17.08 in) without rack latches 
+
+
+##### D (includes bezel): 677.3 mm (26.66 in) with redundant power supply unit
+
+
+<https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell_PowerEdge_R330_SpecSheet_final.pdf>
+
+
+<https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> 
+
+
+For {NETBOX}' 
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -29,10 +60,10 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 350
+    maximum_draw: 550
   - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 350
+    maximum_draw: 550
 interfaces:
   - name: LOM1
     type: 1000base-t
@@ -41,11 +72,12 @@ interfaces:
   - name: iDRAC Option/iDRAC8
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC S130, PERC H330, PERC H730, PERC H830'
   - name: PCIe-Gen3-1
   - name: PCIe-Gen3-2
+device-bays:
   - name: Drive bay-0/LFF
   - name: Drive bay-1/LFF
   - name: Drive bay-2/LFF
