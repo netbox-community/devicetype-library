@@ -2,10 +2,90 @@
 manufacturer: Dell
 model: PowerEdge R440
 slug: dell_poweredge_r440
-comments: '[PowerEdge R440 Rack Server]'
-u_height: 2
+u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '## [PowerEdge R440 Rack Server 4x3.5-LFF/Dell 14th Gen]  
+
+###   Feature	PowerEdge R440
+
+#### Processor : 
+
+#####   Up to two 2nd Generation Intel® Xeon® Scalable processors, up to 24 cores per processor
+
+#### Memory:
+
+#####   16 DDR4 DIMM slots, Supports RDIMM /LRDIMM, speeds up to 2666MT/s, 1TB max
+
+#### Storage controllers:
+
+#####   Internal Controllers: PERC H330, H730P, H740P, HBA330
+
+#####   External Controllers: H840, 12 Gbps SAS HBA
+
+#### Internal Boot	
+
+#####   Boot Optimized Storage Subsystem (BOSS):HWRAID 2 x M.2 SSDs 240GB, 480GB Internal Dual SD Module2
+
+#### Storage drives	
+
+#####   SAS, SATA, nearline SAS, SSD Multiple R430 chassis available:
+
+#####   • 10 x 2.5" hot-plug drives with up to 4 NVMe SSD max 76.8TB 
+
+#####   • 8 x 2.5" hot-plug drives with up to 4 NVMe SSD max 76.8TB 
+
+#####   • 4 x 3.5" hot-plug drives max 64TB
+
+#### Embedded / At-Server
+
+#####   iDRAC9, Quick Sync 2 BLE/wireless module
+
+##### PCIe slots	
+
+#####   2 x Gen3 (x16 connector) low profile,
+
+#### Embedded NIC (LOM)	
+
+#####   2 x 1GbE LOM + (optional) LOM Riser 2 x 1GbE or 2x 10GbE SFP+ or 2 x 10GbE BaseT
+
+##### USB ports	Front Ports
+
+#####   1 x iDRAC Direct (Micro-AB USB)
+
+#####   1 X USB 2.0, 1 x Video
+
+##### Rear Ports
+
+#####   1 x Dedicated iDRAC network port
+
+#####   2 x USB 3.0
+
+#####   1 x Video
+
+##### Rack height	1U
+
+##### Power supplies
+
+#####   ● 450W, 550W PSU
+
+#### Sizing
+
+#####   Form factor: Rack (1U)
+
+#####   Height: 42.8mm (1.68”)
+
+#####   Width*: 434mm (17.08”)
+
+#####   Depth*: 714.62mm (28.13”)
+
+#####   Weight: 17.6kg (38.9lbs.)
+
+
+<https://dl.dell.com/content/manual43617227-dell-emc-poweredge-r440-installation-and-service-manual.pdf?language=en-us&ps=true> 
+
+
+fOR {NETBOX}'
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -40,7 +120,7 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: LOM2
-  - name: PCIe-Gen3 1
-  - name: PCIe-Gen3 2
+  - name: PCIe-Gen3-1
+  - name: PCIe-Gen3-2
