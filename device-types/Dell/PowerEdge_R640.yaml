@@ -5,6 +5,82 @@ slug: dell_poweredge_r640
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
+comments: '## [Dell PowerEdge R640 4x3.5" LFF/Dell 14th Gen] 
+
+
+###### Feature 	    		    	: PowerEdge R640 technical specification
+
+###### Form factor   		      : 1U rack
+
+#####  Processor              : 2nd Generation Intel® Xeon® Scalable Processors family
+
+#####  Internal interconnect  : Up to 3 Intel Ultra Path Interconnect (Intel® UPI); up to 11.2 GT/s
+
+##### Memory DIMM speed: ● Up to 2933 MT/s
+
+###### Memory type:
+
+###### 	● RDIMM             ● LRDIMM
+
+###### 	● NVDIMM            ● DCPMM
+
+##### Memory module slots:
+
+###### 	● 24 DDR4 DIMM slots (12 NVDIMM or 12 DCPMM only)
+
+###### 	● Supports registered ECC DDR4 DIMMs only
+
+#####  Maximum RAM:
+
+###### 	● RDIMM 1.53TB      ● LRDIMM 3TB
+
+###### 	● NVDIMM 192GB     	● DCPMM* 6.14TB (7.68TB with LDRDIMM)
+
+#####  I/O slots             : Up to 3 x PCIeGen slots plus a dedicated PERC and rNDC slot
+
+#####  Storage controllers   : Internal controllers: PERC S140 (SW RAID SATA), PERC H330, PERC H730, PERC H730P, PERC H740P
+
+###### 	● Internal HBA (RAID): PERC HBA330
+
+###### 	● External HBA—non-RAID: 12 Gb/s SAS HBA
+
+#####  Hard drives ● 10 x 2.5 -inch SATA/SAS/NVMe (up to 8 NVMes)
+
+###### 	● 10 x 2.5 -inch NVMe
+
+###### 	● 8 x 2.5 -inch SAS/SATA/NVMe
+
+###### 	● 4 x 3.5 -inch SAS/SATA
+
+###### 	● 8 x 2.5 -inch SATA
+
+#####  Accelerators         : Up to 3 single-width GPU (NVIDIA T4) or up to 1 FPGA
+
+#####  Embedded NIC :  4 x 1GbE
+
+###### 	● 2 x 10GbE + 2 x 1GbE
+
+###### 	● 4 x 10GbE     ● 2 x 25GbE
+
+#####  Power supply ● 495W Platinum
+
+###### 	● 750W Platinum       ● 750W 240HVDC Platinum* (Available in China only)
+
+###### 	● 750 W Mixed Mode AC Platinum
+
+###### 	● 750 W Mixed Mode DC Platinum (for China only)
+
+###### 	● 1100W - 48VDC       ● 1100W Platinum
+
+###### 	● 1100W 380HVDC Platinum* (Available in China and Japan only)
+
+###### 	● 1600W Platinum      ● 750W Titanium
+
+
+<https://dl.dell.com/content/manual49442633-dell-emc-poweredge-r640-installation-and-service-manual.pdf?language=en-us&ps=true>
+
+
+<https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/PowerEdge-R640-Technical-Guide.pdf> '
 console-ports:
   - name: Serial
     type: de-9
@@ -41,7 +117,10 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
+  - name: PERC
+    description: 'PERC S140 (SW RAID SATA), PERC H330, PERC H730, PERC H730P, PERC H740P'
+  - name: BOSS-2/Removed Optional 
   - name: PCIe-Gen3-1
   - name: PCIe-Gen3-2
   - name: PCIe-Gen3=3

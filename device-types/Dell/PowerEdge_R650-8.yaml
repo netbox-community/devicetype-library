@@ -2,11 +2,100 @@
 manufacturer: Dell
 model: PowerEdge R650 8SFF
 slug: dell_poweredge_r650-8sff
-comments: '[Dell PowerEdge R650 8x2.5"/Dell 15th Gen] <https://dl.dell.com/content/manual27146348-dell-emc-poweredge-r650-installation-and-service-manual.pdf?language=en-us&ps=true> '
 part_number: PER650-8
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '## [Dell PowerEdge R650 8x2.5"-SFF/Dell 15th Gen] 
+
+
+##### Feature 	    		 : PowerEdge R650 technical specification
+
+###### Form factor   		 : 1U rack
+
+#####  Processor             : Processor Up to two 3rd Generation Intel Xeon Scalable processors, with up to 40 cores per processor
+
+#####  Internal interconnect : Up to 3 Intel Ultra Path Interconnect (Intel® UPI); up to 11.2 GT/s
+
+##### Memory DIMM speed: ● Up to 3200 MT/s
+
+###### Up to 16 Intel Persistent Memory 200 series (BPS) slots, 12 TB max
+
+###### Memory type:
+
+###### 	● RDIMM             ● LRDIMM
+
+###### 	● NVDIMM            ● DCPMM
+
+##### Memory module slots:
+
+###### 	● 32 DDR4 DIMM slots (12 NVDIMM or 12 DCPMM only)
+
+###### 	● Supports registered ECC DDR4 DIMMs only
+
+#####  Maximum RAM:
+
+###### 	● RDIMM 1.53TB      ● LRDIMM 3TB
+
+###### 	● NVDIMM 192GB     	● DCPMM* 6.14TB (7.68TB with LDRDIMM)
+
+#####  I/O slots             : Up to 3 x PCIeGen slots plus a dedicated PERC and rNDC slot
+
+#####  Storage controllers   : Internal controllers: PERC H745, HBA355I, S150, H355, H345, H755, H755N
+
+###### 	● External PERC (RAID): PERC H840, HBA355E
+
+##### Drive Bays 
+
+##### Front bays: ● 10 x 2.5 -inch SATA/SAS/NVMe (up to 8 NVMes)
+
+###### 	● 10 x 2.5 -inch NVMe
+
+###### 	● 8 x 2.5 -inch SAS/SATA/NVMe
+
+###### 	● 8 x 2.5 -inch SATA
+
+###### 	● 4 x 3.5 -inch SAS/SATA
+
+##### Rear bays:
+
+###### 	● Up to 2 x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 30.7 TB
+
+#####  Accelerators         : Up to 3 single-width GPU (NVIDIA T4) or up to 1 FPGA
+
+#####  Embedded NIC :  2 x 1GbE
+
+###### 	● 2 x 10GbE + 2 x 1GbE
+
+###### 	● 4 x 10GbE     ● 2 x 25GbE
+
+#####  Power supply ● 495W Platinum
+
+###### 	• 800 W Platinum AC/240 Mixed Mode
+
+###### 	• 1100 W Titanium AC/240 Mixed Mode
+
+###### 	• 1400 W Platinum AC/240 Mixed Mode
+
+###### 	• 1100 W DC -48 - 60 V
+
+#### Sizing
+
+#####  Form factor: Rack (1U)
+
+#####  Height: 42.8mm (1.68”)
+
+#####  Width*: 434mm (17.08”)
+
+#####  Depth*: 714.62mm (28.13”)
+
+#####  Weight: 17.6kg (38.9lbs.)
+
+
+<https://dl.dell.com/content/manual27146348-dell-emc-poweredge-r650-installation-and-service-manual.pdf?language=en-us&ps=true> 
+
+
+for NETBOX '
 console-ports:
   - name: Serial Optional
     type: de-9
@@ -51,7 +140,7 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PERC
     description: 'PERC H745, H345, HBA355I, H755, H755N'
   - name: BOSS-2 Removed Optional
@@ -59,6 +148,7 @@ device-bays:
   - name: OCP NIC/LOM Optional 
   - name: Riser-1/SLOT-1/PCIe-Gen4-1
   - name: Riser-2/SLOT-2/PCIe-Gen4-2
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF
