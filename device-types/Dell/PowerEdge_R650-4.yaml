@@ -2,6 +2,10 @@
 manufacturer: Dell
 model: PowerEdge R650 4LFF
 slug: dell_poweredge_r650-4lff
+part_number: PER650-4
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
 comments: '## [Dell PowerEdge R650 4x3.5"/Dell 15th Gen] 
 
 ##### Feature 	    		 : PowerEdge R650 technical specification
@@ -87,12 +91,7 @@ comments: '## [Dell PowerEdge R650 4x3.5"/Dell 15th Gen]
 #####  Weight: 17.6kg (38.9lbs.)
 
 
-<https://dl.dell.com/content/manual27146348-dell-emc-poweredge-r650-installation-and-service-manual.pdf?language=en-us&ps=true> 
-'
-part_number: PER650-4
-u_height: 1
-is_full_depth: true
-subdevice_role: parent
+<https://dl.dell.com/content/manual27146348-dell-emc-poweredge-r650-installation-and-service-manual.pdf?language=en-us&ps=true> '
 console-ports:
   - name: Serial Optional
     type: de-9
