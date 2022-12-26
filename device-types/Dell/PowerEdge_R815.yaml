@@ -4,8 +4,14 @@ model: PowerEdge R815
 slug: dell_poweredge_r815
 u_height: 2
 is_full_depth: true
-comments: |
-  [Dell R815 Data Sheet] <https://www.dell.com/learn/us/en/12/shared-content~data-sheets~en/documents~r815-specsheet.pdf> 
+subdevice_role: parent
+comments: '## [Dell R815 Data Sheet] 
+
+
+<https://www.dell.com/learn/us/en/12/shared-content~data-sheets~en/documents~r815-specsheet.pdf> 
+
+
+for NETBOX '
 console-ports:
   - name: Serial
     type: de-9

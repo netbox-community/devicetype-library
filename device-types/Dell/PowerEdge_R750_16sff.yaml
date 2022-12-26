@@ -2,6 +2,9 @@
 manufacturer: Dell
 model: PowerEdge R750 16SFF
 slug: dell_poweredge_r750_16sff
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
 comments: '[Dell EMC PowerEdge R750 16 X 2.5" SFF ]
 
 
@@ -62,10 +65,10 @@ comments: '[Dell EMC PowerEdge R750 16 X 2.5" SFF ]
 ###### Weight : 28.6kg (63.0lbs.)
 
 
-<https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r750-technical-guide.pdf> '
-u_height: 2
-is_full_depth: true
-subdevice_role: parent
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r750-technical-guide.pdf>  
+
+
+for NETBOX '
 console-ports:
   - name: Optional Rear Serial
     type: de-9
