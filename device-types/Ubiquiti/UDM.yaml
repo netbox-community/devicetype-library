@@ -13,19 +13,19 @@ comments: |
 u_height: 0
 is_full_depth: false
 interfaces:
-  - name: eth0
+  - name: port.1
     type: 1000base-t
     label: Port 1 - LAN
-  - name: eth1
+  - name: port.2
     type: 1000base-t
     label: Port 2 - LAN
-  - name: eth2
+  - name: port.3
     type: 1000base-t
     label: Port 3 - LAN
-  - name: eth3
+  - name: port.4
     type: 1000base-t
     label: Port 4 - LAN
-  - name: eth4
+  - name: port.5
     type: 1000base-t
     label: Port 5 - WAN
 power-ports:
