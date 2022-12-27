@@ -3,11 +3,15 @@ manufacturer: Dell
 model: PowerEdge FC430 2X1.8
 slug: dell-poweredge-FC430
 part_number: PEFC430
+airflow: front-to-rear
 u_height: 0
 is_full_depth: false
 subdevice_role: child
 subdevice_role: parent
-comments: '[Dell PowerEdge FC430 2X1.8" uSATA SSDs] <https://dl.dell.com/topicspdf/poweredge-fc430_owners-manual3_en-us.pdf> '
+comments: '## [Dell PowerEdge FC430 2X1.8" uSATA SSDs] 
+
+
+<https://dl.dell.com/topicspdf/poweredge-fc430_owners-manual3_en-us.pdf> '
 console-ports:
   - name: Front USB1
     type: usb-a

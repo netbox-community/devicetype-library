@@ -3,11 +3,42 @@ manufacturer: Dell
 model: PowerEdge FX2s 2BAY
 slug: poweredge-fx2s-2bay
 part_number: PEFX2s-2BAY
-comments: '[Dell PowerEdge FX2 and FX2s Enclosure 2 X Full-Width Nodes/switched] <https://dl.dell.com/topicspdf/fx_fx2_owners_manual_en-us.pdf> '
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
 subdevice_role: parent
+comments: '# [Dell PowerEdge FX2s Enclosure 2 X Full-Width Nodes/switched w/ 8 X PCIe-Gen3] 
+
+
+####   Chassis        :  PowerEdge FX Chassis
+
+####   Form factor    : 2U chassis in height
+
+###### Power Supplies :  2400W or 2000W, or 1600WAC in 1+1 redundant, redundancy alerting only, 2+0 non-redundant configurations.
+
+####   Dimensions:
+
+###### H: 8.68 cm (3.41 in)
+
+###### W: 43.35 cm (17.06 in) without rack ears; 48.19 cm (18.97 in) with rack ears
+
+###### D: 85.16 cm (33.52 in)
+
+####   Server Sled Options:
+
+###### PowerEdge FC830: 4-socket, full-width 1U server sled, up to 2 FC830 per FX2 chassis
+
+###### PowerEdge FC640: 2-socket, half-width 1U server sled, up to 4 FC640 per FX2 chassis
+
+###### PowerEdge FC430: 2-socket, quarter-with 1U server sled, up to 8 FC430 per FX2 chassis
+
+###### PowerEdge FD332: storage block: Half-width: up to 3 FD332 per FX2 chassis for support of up to 16 x SFF 2.5" storage devices
+
+###### 			 up to 48 SFF devices in an FX2 chassis
+
+
+<https://dl.dell.com/topicspdf/fx_fx2_owners_manual_en-us.pdf> '
+
 console-ports:
   - name: usb0 Front
     type: usb-a

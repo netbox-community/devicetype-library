@@ -3,18 +3,14 @@ manufacturer: Dell
 model: PowerEdge FM120-4
 slug: dell-poweredge-fm120-4
 part_number: PEFM120-4
-<<<<<<< HEAD
-comments: '#### [Dell PowerEdge FM120x4 Microserver 4 x SFF] | 
-
-
-https://dl.dell.com/topicspdf/poweredge-fx2_owners-manual6_en-us.pdf'
-=======
-comments: '[Dell PowerEdge FM120x4 Microserver 4 x SFF] | <https://dl.dell.com/topicspdf/poweredge-fx2_owners-manual6_en-us.pdf> '
->>>>>>> 42c8f8a2070f177bb587e157f10a2291b96568ba
 u_height: 0
-is_full_depth: true
+is_full_depth: false
 subdevice_role: child
 subdevice_role: parent
+airflow: front-to-rear
+comments: '##  [Dell PowerEdge FM120x4 Microserver 4 x SFF] | 
+
+<https://dl.dell.com/topicspdf/poweredge-fx2_owners-manual6_en-us.pdf> '
 console-ports:
   - name: usb0 Front
     type: usb-a

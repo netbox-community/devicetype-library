@@ -3,11 +3,15 @@ manufacturer: Dell
 model: PowerEdge FC630
 slug: dell-poweredge-FC630
 part_number: PEFC630
-comments: '[Dell PowerEdge FC630 2 X SSF" ] <https://dl.dell.com/topicspdf/poweredge-fc630_owners-manual_en-us.pdf>'
 u_height: 0
-is_full_depth: true
+is_full_depth: false
 subdevice_role: child
 subdevice_role: parent
+airflow: front-to-rear
+comments: '## [Dell PowerEdge FC630 2 X SSF" ] 
+
+
+<https://dl.dell.com/topicspdf/poweredge-fc630_owners-manual_en-us.pdf>'
 console-ports:
   - name: Front USB1
     type: usb-a
