@@ -2,10 +2,10 @@
 manufacturer: Nutanix
 model: Nutanix NX-8170-G8
 slug: nutanix_nx-8170g-g8
-comments: '[ Nutanix NX-8170-G8 w/ 10 SFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX8170G8:System-Specs-NX8170G8> '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '[ Nutanix NX-8170-G8 w/ 10 SFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX8170G8:System-Specs-NX8170G8> '
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -38,7 +38,7 @@ interfaces:
   - name: IPMI
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM
     description: 'TPM security module '
   - name: Boot Device
@@ -49,6 +49,7 @@ device-bays:
     label: HBA1
   - name: PCIe-Gen4-3
     label: NIC2
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

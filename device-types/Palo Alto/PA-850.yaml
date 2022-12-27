@@ -2,10 +2,32 @@
 manufacturer: Palo Alto
 model: PA-850
 slug: pa-850
-part_number: PAN-PA-850
+part_number:  PAN-PA-850
 u_height: 1
 is_full_depth: false
-comments: '[PA-800 Series Datasheet] <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet> '
+comments: '## [PA-850 Series Datasheet] Ports: 10/100/1000 (4), Gigabit SFP (4), 10 Gigabit SFP+ (4)|
+
+
+######    1.9 Gbps firewall throughput (App-ID enabled)
+
+######    780 Mbps threat prevention throughput
+
+######    400 Mbps IPSec VPN throughput
+
+######    192,000 max sessions
+
+######    9,500 new sessions per second
+
+######    1000 IPSec VPN tunnels/tunnel interfaces
+
+######    5 virtual routers
+
+######    40 security zones
+
+######    1,500 max number of policies
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet> '
 power-ports:
   - name: PS1
     type: iec-60320-c14
@@ -20,7 +42,6 @@ console-ports:
     type: rj-45
   - name: console USB
     type: usb-micro-b
-console-server-ports:
   - name: USB Port
     type: usb-a   
 interfaces:

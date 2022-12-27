@@ -2,10 +2,10 @@
 manufacturer: Nutanix
 model: Nutanix NX-3155G-G8
 slug: nutanix_nx-3155g-g8
-comments: '[ Nutanix NX-3155G-G8 12 X LFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8> '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+comments: '[ Nutanix NX-3155G-G8 12 X LFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8> '
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -50,7 +50,7 @@ interfaces:
   - name: IPMI
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: HBA1
   - name: TPM
     description: 'TPM security module '
@@ -66,6 +66,7 @@ device-bays:
     label: CPU1/GPU
   - name: PCIe-Gen4-8
     label: CPU2/GPU
+device-bays:
   - name: Drive bay-0/LFF
     description: '3.5" LFF'
   - name: Drive bay-1/LFF

@@ -5,14 +5,41 @@ slug: pa-500
 part_number: PAN-PA-500
 u_height: 1
 is_full_depth: false
-comments: '[PA-500 Series Datasheet] <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-500-specsheet> '
+comments: '## [PA-500 Series Datasheet] Ports: 10/100/1000 (8) |
+
+
+####   PERFORMANCE AND CAPACITIES1 		         	PA-500
+
+###### Firewall throughput (App-ID enabled)      : 250 Mbps
+
+###### Threat prevention throughput              : 100 Mbps
+
+###### IPSec VPN throughput                      :  50 Mbps
+
+###### New sessions per second                   : 7,500
+
+###### Max sessions                              : 64,000
+
+###### IPSec VPN tunnels/tunnel interfaces       : 250
+
+###### GlobalProtect (SSL VPN) concurrent users  : 100
+
+###### SSL decrypt sessions                      : 1,000
+
+###### SSL inbound certificates       			     : 25
+
+###### Virtual routers                           : 3
+
+###### Security zones                            : 20
+
+###### Max. number of policies 			             : 1
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-500-specsheet> '
 console-ports:
   - name: console
     type: rj-45
-  - name: console USB
-    type: usb-micro-b
-console-server-ports:
-  - name: USB Port
+  - name: USB1
     type: usb-a   
 power-ports:
   - name: PS1
@@ -36,7 +63,7 @@ interfaces:
     type: 1000base-t
   - name: ethernet1/8
     type: 1000base-t
-  - name: management
+  - name: MGT
     type: 1000base-t
     mgmt_only: true
   - name: loopback

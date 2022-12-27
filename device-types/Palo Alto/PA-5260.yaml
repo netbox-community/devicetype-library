@@ -2,9 +2,32 @@
 manufacturer: Palo Alto
 model: PA-5260
 slug: pa-5260
-part_number: PA-5260
+part_number: PAN-PA-5260
 u_height: 3
 is_full_depth: true
+subdevice_role: parent
+comments: '[PA-5260 Series Datasheet] IO: (4) 100/1000/10G rj-45, (16) Gig/10Gig SFP/SFP+, (4) 40G/100G QSFP28 |
+
+
+##### Management I/O:  (2) 10/100/1000, (1) 40G/100G QSFP28 HA, (1) 10/100/1000 out-of-band mgmt, (1) RJ45 console 
+
+
+######  72.3 Gbps firewall throughput (App-ID enabled)
+
+######  30.2 Gbps threat prevention throughput
+
+######  21 Gbps IPSec VPN throughput
+
+######  32,000,000 max sessions
+
+######  458,000 new sessions per second
+
+######  225 virtual routers
+
+######  25/225 virtual systems (base/max)
+
+
+ <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-5200-series-specsheet>  '
 console-ports:
   - name: console
     type: rj-45
@@ -108,3 +131,12 @@ interfaces:
   - name: management
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: SYS-1
+    description: '2.5" SFF'
+  - name: SYS-2
+    description: '2.5" SFF'
+  - name: LOG-1
+    description: '2.5" SFF'
+  - name: LOG-2
+    description: '2.5" SFF'

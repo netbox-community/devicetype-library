@@ -5,22 +5,35 @@ slug: pa-220
 part_number: PA-220
 u_height: 1
 is_full_depth: false
-comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
+comments: '## [PA-220 Datasheet] |
+
+##### 545 Mbps firewall throughput (HTTP/appmix)
+
+##### 265 Mbps Threat Prevention throughput (HTTP/appmix)
+
+##### 550 Mbps IPsec VPN throughput
+
+##### 64,000 Max sessions
+
+##### 4,2 000 New sessions per second
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-220-specsheet>'
 power-ports:
   - name: PWR1
     type: dc-terminal
-    maximum_draw: 25
+    maximum_draw: 40
     allocated_draw: 21
   - name: PWR2 
     type: dc-terminal
-    maximum_draw: 25
+    maximum_draw: 40
     allocated_draw: 21
 console-ports:
   - name: console
     type: rj-45
-  - name: console USB
+  - name: Micro USB console port
     type: usb-micro-b
-  - name: USB Port
+  - name: USB1
     type: usb-a   
 interfaces:
   - name: MGT

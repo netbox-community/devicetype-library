@@ -1,0 +1,72 @@
+---
+manufacturer: Palo Alto
+model: M-600
+slug: m-600
+part_number: M-600
+u_height: 2
+is_full_depth: true
+comments: '## [Palo Alto Networks M-600 chassis with 48TB storage (12x8TB RAID certified drives)] |
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/m-200-m-600/m-200-m-600-appliances-hardware-reference.pdf>
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/panorama/9-1/panorama-admin/panorama-admin.pdf>'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 750
+    allocated_draw: 486
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 750
+    allocated_draw: 486
+console-ports:
+  - name: console Rear
+    type: de-9
+  - name: USB1 Rear
+    type: usb-a   
+  - name: USB2 Rear
+    type: usb-a   
+interfaces:
+  - name: IPMI Rear
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: PCIe-Gen4-3/1
+    type: 10gbase-x-sfpp
+  - name: PCIe-Gen4-3/1
+    type: 10gbase-x-sfpp
+device-bays:
+  - name: PCIe-Gen4-1
+  - name: PCIe-Gen4-2
+  - name: PCIe-Gen4-3
+    label: 10gbase-x-sfpp
+  - name: PCIe-Gen4-4
+  - name: Drive bay-0/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-1/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-2/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-3/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-4/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-5/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-6/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-7/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-8/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-9/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-10/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-11/LFF
+    description: '3.5" LFF'

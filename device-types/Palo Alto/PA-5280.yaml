@@ -2,9 +2,31 @@
 manufacturer: Palo Alto
 model: PA-5280
 slug: pa-5280
-part_number: PA-5280
+part_number: PAN-PA-5280
 u_height: 3
 is_full_depth: true
+subdevice_role: parent
+comments: '[Palo Alto Networks PA-5280]  IO: (4) 100/1000/10G rj-45, (16) Gig/10Gig SFP/SFP+, (4) 40G/100G QSFP28 
+
+ ##### Management I/O:  (2) 10/100/1000, (1) 40G/100G QSFP28 HA, (1) 10/100/1000 out-of-band mgmt, (1) RJ45 console 
+
+
+######  68 Gbps firewall throughput (App-ID enabled1)
+
+######  30 Gbps Threat Prevention throughput2
+
+######  24 Gbps IPsec VPN throughput
+
+######  64,000,000 max sessions
+
+######  462,000 new sessions per second3
+
+######  225 virtual routers
+
+######  25/225 virtual systems (base/max4)
+
+
+ <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-5200-series-specsheet> '
 console-ports:
   - name: console
     type: rj-45
@@ -108,3 +130,12 @@ interfaces:
   - name: management
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: SYS-1
+    description: '2.5" SFF'
+  - name: SYS-2
+    description: '2.5" SFF'
+  - name: LOG-1
+    description: '2.5" SFF'
+  - name: LOG-2
+    description: '2.5" SFF'

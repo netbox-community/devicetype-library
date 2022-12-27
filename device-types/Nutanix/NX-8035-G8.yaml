@@ -2,10 +2,10 @@
 manufacturer: Nutanix
 model: Nutanix NX-8035-G8
 slug: nutanix_nx-8035g-g8
-comments: '[ Nutanix NNX-8035-G8 2 Node / 6 X LFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8> '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+comments: '[ Nutanix NNX-8035-G8 2 Node / 6 X LFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3155GG8:System-Specs-NX3155GG8> '
 console-ports:
   - name: Node-A.Rear Serial
     label: Node-A
@@ -71,7 +71,7 @@ interfaces:
     label: Node-B
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: Node-A.HBA1
     label: Node-A
   - name: Node-A.TPM
@@ -100,6 +100,7 @@ device-bays:
     label: Node-B,NIC2
   - name: Node-B.PCIe-Gen4-3
     label: Node-B,NIC3
+device-bays:
   - name: Drive bay-0/LFF
     description: '3.5" LFF'
     label: Node-B

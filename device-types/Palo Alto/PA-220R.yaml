@@ -5,7 +5,20 @@ slug: pa-220r
 part_number: PAN-PA-220R 
 u_height: 1
 is_full_depth: false
-comments: '[PA-220R Datasheet] <https://docs.paloaltonetworks.com/hardware/pa-220r-hardware-reference> '
+comments: '## [PA-220R Datasheet] |
+
+##### 545 Mbps firewall throughput (HTTP/appmix)
+
+##### 265 Mbps Threat Prevention throughput (HTTP/appmix)
+
+##### 550 Mbps IPsec VPN throughput
+
+##### 64,000 Max sessions
+
+##### 4,2 000 New sessions per second
+
+
+<https://docs.paloaltonetworks.com/hardware/pa-220r-hardware-reference> '
 power-ports:
   - name: PDC Terminal Block
     type: dc-terminal
@@ -14,7 +27,7 @@ power-ports:
 console-ports:
   - name: console
     type: rj-45
-  - name: console USB
+  - name: Micro USB console port
     type: usb-micro-b
   - name: USB Port
     type: usb-a   

@@ -2,21 +2,47 @@
 manufacturer: Palo Alto
 model: PA-3060
 slug: pa-3060
-part_number: PA-3060
+part_number: PAN-PA-3060
 u_height: 2
 is_full_depth: true
-comments: '[PA-3000 Series Datasheet] <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf> '
+comments: '## [PA-3050 Series Datasheet]  Ports: 10/100M/1G (8), 1G SFP (8), 10G SFP/SFP+ (2) |
+
+
+###### 4 Gbps	Firewall throughput (App-ID enabled)
+
+###### 2 Gbps	Threat prevention throughput
+
+###### 500 Mbps	IPSec VPN throughput
+
+###### 50,000	New sessions per second
+
+###### 500,000	Max sessions
+
+###### 2,000	IPSec VPN tunnels/tunnel interfaces
+
+###### 2,000	GlobalProtect (SSL VPN) concurrent users
+
+###### 25	SSL inbound certificates
+
+###### 10	Virtual routers
+
+###### 6-Jan	Virtual systems (base/max)
+
+###### 40	Security zones
+
+###### 5,000	Max. number of policies
+
+
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf> '
 console-ports:
   - name: console
     type: rj-45
+  - name: USB1
+    type: usb-a
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 160
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 200
+    maximum_draw: 400
     allocated_draw: 160
 interfaces:
   - name: ethernet1/1

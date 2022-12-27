@@ -2,12 +2,44 @@
 manufacturer: Palo Alto
 model: PA-3250
 slug: pa-3250
-part_number: PA-3250
+part_number: PAN-PA-3250
 u_height: 2
 is_full_depth: true
+subdevice_role: parent
+comments: '## [PA-3250 Series Datasheet]  Ports: 1G/2.5G/5G/10G (12), 1G SFP (4), 10G SFP/SFP+ (4)|
+
+
+######  6.3 Gbps firewall throughput (App-ID enabled)
+
+######  3 Gbps Threat Prevention throughput2
+
+######  3.2 Gbps IPsec VPN throughput
+
+######  2,000,000 sessions
+
+######  94,000 new sessions per second3
+
+######  6,000 IPsec VPN tunnels/tunnel interfaces
+
+######  2,048 SSL VPN Users
+
+######  10 virtual routers
+
+######  1/6 virtual systems (base/max4)
+
+######  60 security zones
+
+######  5,000 max number of policies
+
+
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf> '
 console-ports:
   - name: console
     type: rj-45
+  - name: console USB
+    type: usb-micro-b
+  - name: USB1
+    type: usb-a
 power-ports:
   - name: PS1
     type: iec-60320-c14
@@ -87,6 +119,9 @@ interfaces:
   - name: hsci
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: management
+  - name: MGT
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: HDD-1
+    description: '2.5" SFF'

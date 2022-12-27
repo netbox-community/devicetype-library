@@ -2,10 +2,10 @@
 manufacturer: Nutanix
 model: Nutanix NX-1175S-G8
 slug: nutanix_nx-1175s-g8
-comments: '[ Nutanix NX-1175S-G8 w/ 4xLFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX1175SG8:System-Specs-NX1175SG8> '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '[ Nutanix NX-1175S-G8 w/ 4xLFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX1175SG8:System-Specs-NX1175SG8> '
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -32,7 +32,7 @@ interfaces:
   - name: IPMI
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: HBA
   - name: TPM
     description: 'TPM security module '
@@ -42,6 +42,7 @@ device-bays:
     label: NIC2
   - name: PCIe-Gen4-2
     label: NIC1
+device-bays:
   - name: Drive bay-0/LFF
     description: '3.5" LFF'
   - name: Drive bay-1/LFF

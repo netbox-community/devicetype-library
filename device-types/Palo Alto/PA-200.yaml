@@ -3,12 +3,43 @@ manufacturer: Palo Alto
 model: PA-200
 slug: pa-200
 part_number: PA-200
-comments: '[PA-200 Datasheet](https://media.paloaltonetworks.com/documents/PA200_Specsheet.pdf)'
 u_height: 1
 is_full_depth: false
+comments: '## [PA-200 Datasheet] |
+
+
+##### 100 Mbps Frewall throughput	
+
+##### 50 Mbps Threat prevention throughput 	
+
+##### 50 Mbps IPSec VPN throughput	
+
+##### 1,000 New sessions per second 	
+
+##### 64,000 Max sessions 
+
+##### 1,000 SSL decrypt sessions
+
+##### 25 IPSec VPN tunnels/tunnel interfaces
+
+##### 25 GlobalProtect (SSL VPN) concurrent users
+
+##### 1,000 SSL decrypt sessions 
+
+##### 25 SSL inbound certificates
+
+##### 3 Virtual routers
+
+##### 10 Security zones
+
+##### 250 Max. number of policies
+
+
+ <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-220-specsheet>'
+power-ports:
   - name: PWR1
     type: dc-terminal
-    maximum_draw: 30
+    maximum_draw: 40
     allocated_draw: 20
 console-ports:
   - name: console
@@ -16,7 +47,7 @@ console-ports:
   - name: USB Port
     type: usb-a   
 interfaces:
-  - name: management
+  - name: MGT
     type: 100base-tx
     mgmt_only: true
   - name: ethernet1/1

@@ -5,14 +5,23 @@ slug: m-100
 part_number: M-100
 u_height: 1
 is_full_depth: true
+subdevice_role: parent
+comments: '## [PA-200 Datasheet] |
+
+
+ <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-220-specsheet>
+
+
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/panorama/9-1/panorama-admin/panorama-admin.pdf>'
 power-ports:
   - name: PS1
     type: iec-60320-c14
+    maximum_draw: 500
 console-ports:
   - name: console
     type: de-9
 interfaces:
-  - name: management
+  - name: MGT
     type: 1000base-t
     mgmt_only: true
   - name: ethernet1/1
@@ -21,3 +30,20 @@ interfaces:
     type: 1000base-t
   - name: ethernet1/3
     type: 1000base-t
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'

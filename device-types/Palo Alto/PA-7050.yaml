@@ -1,0 +1,114 @@
+---
+manufacturer: Palo Alto
+model: PA-7050
+slug: pa-7050
+part_number: PAN-PA-7050
+u_height: 14
+is_full_depth: true
+subdevice_role: parent
+comments: '#### [PA-7050 Series Datasheet] I/O: (72) 10/100/1000, (48) Gigabit SFP, (24) 10 Gigabit SFP+ |
+
+##### Management I/O:  ((2) 10/100/1000+(2) 40Gbps HA,(1) 10/100/1000 out-of-band management, (1) RJ45 console port
+
+###### Dimensions: 15.75"H x 19"W x 24"D
+
+###### Weight (Stand alone device/as shipped): 184Lbs
+
+##### The following NPCs can be installed in a PA-7050 Series firewall in slots 1,2,3,5,6:
+
+###### • PA-7000 20G NPC
+
+###### • PA-7000 20GXM NPC/PAN-PA-7000-20GXM-NPC
+
+###### • PA-7000 20GQ NPC/ 	PAN-PA-7000-20GXM-NPC
+
+###### • PA-7000 20GQXM NPC/PAN-PA-7000-20GQXM-NPC
+
+###### • PAN-PA-7000-100G-NPC-A PA-7000, Network Processing Card with 8xSFP/SFP+, 4xQSFP+/QSFP28, auto speed sensing all ports, 32M sessions
+
+###### • PAN-PA-7000-B-SSD-240GB - PA-7000, Imaged SSD for PA-7050-SMC-B or PA-7080-SMC-B
+
+###### • PAN-PA-7000-DPC-A - PA-7000 Data Processing Card with 4 data plane CPUs, no Ethernet ports
+
+###### • PAN-PA-7000-LFC-A - PA-7000, Log Forwarding Card, 2 log forwarding CPUs, 2xQSFP+ service ports. One LFC or LPC required per system
+
+##### PA-7000 Series Firewall SMC Component Descriptions
+
+###### • PA-7050-SMC
+
+###### • PA-7050-SMC-B
+
+######  Firewall throughput (App-ID enabled) 		    	: 120 Gbps
+
+######  Threat prevention throughput (DSRI Enabled2) 	: 100 Gbps
+
+######  Threat prevention throughput 					        : 60 Gbps
+
+######  IPSec VPN throughput 							            : 24 Gbps
+
+######  New sessions per second 						          : 720,000
+
+######  Max sessions 									                : 24,000,000
+
+######  Virtual routers 								              : 225
+
+######  Virtual systems (base/max3) 					        : 25/225
+
+######  Security zones 									              : 900
+
+######  Max. number of policies 						          : 40,000
+
+
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-7000-series/pa-7000-hardware-reference.pdf> '
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 2500
+    allocated_draw: 2400
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 2500
+    allocated_draw: 2400
+  - name: PS3
+    type: iec-60320-c20
+    maximum_draw: 2500
+    allocated_draw: 2400
+  - name: PS4
+    type: iec-60320-c20
+    maximum_draw: 2500
+    allocated_draw: 2400
+interfaces:
+  - name: MGT-A
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGT-B
+    type: 1000base-t
+    mgmt_only: true
+  - name: ha1-a
+    type: 10gbase-x-sfpp
+  - name: ha1-b
+    type: 10gbase-x-sfpp
+  - name: HSCI-HA2
+    type: 100gbase-x-qsfp28
+  - name: HSCI-HA3
+    type: 100gbase-x-qsfp28
+device-bays:
+  - name: slot-1
+    description: Network Processing Card (NPC)
+  - name: slot-2
+    description: Network Processing Card (NPC)
+  - name: slot-3
+    description: Network Processing Card (NPC)
+  - name: slot-4
+    description: Switch Management Card (SMC)
+  - name: slot-5
+    description: Network Processing Card (NPC)
+  - name: slot-6
+    description: Network Processing Card (NPC)
+  - name: slot-7
+    description: Network Processing Card (NPC)
+  - name: slot-8 
+    description: LPC/LPC Log card

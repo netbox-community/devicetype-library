@@ -2,10 +2,10 @@
 manufacturer: Nutanix
 model: Nutanix NX-3170-G8
 slug: nutanix_nx-3170g-g8
-comments: '[ Nutanix NX-3170-G8 w/ 12xSFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3170G8:System-Specs-NX3170G8> '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '[ Nutanix NX-3170-G8 w/ 12xSFF] | <https://portal.nutanix.com/page/documents/details?targetId=System-Specs-NX3170G8:System-Specs-NX3170G8> '
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -40,7 +40,7 @@ interfaces:
   - name: IPMI
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: HBA
   - name: TPM
     description: 'TPM security module '
@@ -52,6 +52,7 @@ device-bays:
     label: NIC2
   - name: PCIe-Gen4-3
     label: NIC3
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

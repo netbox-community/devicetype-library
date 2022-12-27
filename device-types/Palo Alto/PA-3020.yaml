@@ -2,27 +2,49 @@
 manufacturer: Palo Alto
 model: PA-3020
 slug: pa-3020
-part_number: PA-3020
+part_number: PAN-PA-3020
 u_height: 1
 is_full_depth: false
-comments: '## [PA-3020 Datasheet] 
+comments: '## [PA-3020 Datasheet]  Ports: 10/100M/1G (8), 1G SFP (8) |
+
+
+##### 2 Gbps Firewall throughput (App-ID enabled)
+
+##### 1 Gbps Threat prevention throughput
+
+##### 500 Mbps IPSec VPN throughput
+
+##### 50,000 New sessions per second
+
+##### 250,000 Max sessions
+
+##### 1,000 IPSec VPN tunnels/tunnel interfaces
+
+##### 1,000	GlobalProtect (SSL VPN) concurrent users
+
+##### 25		SSL inbound certificates
+
+##### 10		Virtual routers
+
+##### 6/1		Virtual systems (base/max)
+
+##### 40		Security zones
+
+##### 2,500	Max. number of policies
 
 
 <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf> '
 power-ports:
   - name: PS1
     type: iec-60320-c14
+    maximum_draw: 200
+    allocated_draw: 150
 console-ports:
   - name: console
     type: rj-45
+  - name: USB1
+    type: usb-a
 interfaces:
-  - name: management
-    type: 1000base-t
-    mgmt_only: true
-  - name: ha1
-    type: 1000base-t
-  - name: ha2
-    type: 1000base-t
   - name: ethernet1/1
     type: 1000base-t
   - name: ethernet1/2
@@ -63,5 +85,12 @@ interfaces:
     type: 1000base-x-sfp
   - name: ethernet1/20
     type: 1000base-x-sfp
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
   - name: loopback
     type: virtual

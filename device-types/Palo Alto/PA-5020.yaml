@@ -1,40 +1,46 @@
 ---
 manufacturer: Palo Alto
-model: PA-5060
-slug: pa-5060
-part_number: PAN-PA-5060
+model: PA-5020
+slug: pa-5020
+part_number: PAN-PA-5020
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-comments: '### [PA-5060 Series Datasheet]  Ports: 1G/2.5G/5G/10G (12), 1G SFP (8), 10G SFP/SFP+ (4) |
+comments: '### [PA-5020 Series Datasheet]  Ports: 1G/2.5G/5G/10G (12), 1G SFP (8) |
+ 
+###### 5 Gbps firewall throughput (App-ID enabled1)
 
+###### 2 Gbps threat prevention throughput
 
-######  72.3 Gbps firewall throughput (App-ID enabled)
+###### 2 Gbps IPSec VPN throughput
 
-######  30.2 Gbps threat prevention throughput
+###### 1,000,000 max sessions
 
-######  21 Gbps IPSec VPN throughput
+###### 120,000 new sessions per second
 
-######  32,000,000 max sessions
+###### 2,000 IPSec VPN tunnels/tunnel interfaces
 
-######  458,000 new sessions per second
+###### 5,000 SSL VPN Users
 
-######  225 virtual routers
+###### 20 virtual routers
 
-######  25/225 virtual systems (base/max)
+###### 10/20 virtual systems (base/max2)
 
+###### 80 security zones
+
+###### 10,000 max number of policies
 
 
  <https://www.paloaltonetworks.com/resources/datasheets/pa-5000-series-specsheet> '
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 415
-    allocated_draw: 330
+    maximum_draw: 340
+    allocated_draw: 270
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 415
-    allocated_draw: 330
+    maximum_draw: 340
+    allocated_draw: 270
 console-ports:
   - name: console
     type: rj-45
@@ -90,14 +96,6 @@ interfaces:
     type: 1000base-x-sfp
   - name: ethernet1/20
     type: 1000base-x-sfp
-  - name: ethernet1/21
-    type: 10gbase-x-sfpp
-  - name: ethernet1/22
-    type: 10gbase-x-sfpp
-  - name: ethernet1/23
-    type: 10gbase-x-sfpp
-  - name: ethernet1/24
-    type: 10gbase-x-sfpp
   - name: loopback
     type: virtual
 device-bays:

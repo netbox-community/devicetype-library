@@ -5,16 +5,23 @@ slug: m-500
 part_number: M-500
 u_height: 2
 is_full_depth: true
+subdevice_role: parent
+comments: '## [Palo Alto Networks PA-M-500, Network management device, 10 GigE, 2U] |
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/panorama/9-1/panorama-admin/panorama-admin.pdf>'
 power-ports:
   - name: PS1
     type: iec-60320-c14
+    maximum_draw: 1200
   - name: PS2
     type: iec-60320-c14
+    maximum_draw: 1200
 console-ports:
   - name: console
     type: de-9
+  - name: USB1 Rear
+    type: usb-a   
 interfaces:
-  - name: management
+  - name: MGT
     type: 1000base-t
     mgmt_only: true
   - name: ethernet1/1
@@ -27,3 +34,52 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: ethernet1/5
     type: 10gbase-x-sfpp
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'

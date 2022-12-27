@@ -2,10 +2,24 @@
 manufacturer: Palo Alto
 model: PA-410
 slug: pa-410
-part_number: PAN-PA-440
+part_number: PAN-PA-410
 u_height: 1
 is_full_depth: false
-comments: '[PA-410 Datasheet] <https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin> '
+comments: '## [PA-410 Datasheet] Ports: 10/100/1000 (7)  |
+
+
+######  1.7 Gbps firewall throughput (HTTP/appmix)
+
+######  0.6 Gbps Threat Prevention throughput (HTTP/appmix)
+
+######  0.93 Gbps Gbps IPsec VPN throughput
+
+######  64,000 Max sessions
+
+######  13,000 New sessions per second
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-400-series> '
 power-ports:
   - name: PWR1
     type: dc-terminal
@@ -14,8 +28,9 @@ power-ports:
 console-ports:
   - name: console
     type: rj-45
-console-server-ports:
-  - name: USB Port
+  - name: USB1
+    type: usb-a   
+  - name: USB2
     type: usb-a   
 interfaces:
   - name: MGT

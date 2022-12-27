@@ -5,7 +5,21 @@ slug: pa-460
 part_number: PAN-PA-460
 u_height: 1
 is_full_depth: false
-comments: '[PA-460 Datasheet] <https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin> '
+comments: '## [PA-460 Datasheet] Ports: 10/100/1000 (8) |
+
+
+######  5.1 Gbps firewall throughput (HTTP/appmix)
+
+######  2.1 Gbps Threat Prevention throughput (HTTP/appmix)
+
+######  3.0 Gbps Gbps IPsec VPN throughput
+
+######  400,000 Max sessions
+
+######  74,000 New sessions per second
+
+
+<https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin> '
 power-ports:
   - name: PWR1
     type: dc-terminal
@@ -18,11 +32,12 @@ power-ports:
 console-ports:
   - name: console
     type: rj-45
-  - name: console USB
+  - name: Micro USB console
     type: usb-micro-b
-console-server-ports:
-  - name: USB Port
+  - name: USB1
     type: usb-a   
+  - name: USB2
+    type: usb-a  
 interfaces:
   - name: MGT
     type: 1000base-t

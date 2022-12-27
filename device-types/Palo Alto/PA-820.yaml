@@ -3,9 +3,31 @@ manufacturer: Palo Alto
 model: PA-820
 slug: pa-820
 part_number: PAN-PA-820
-comments: '[PA-800 Series Datasheet] <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet> '
 u_height: 1
 is_full_depth: false
+comments: '## [PA-820 Series Datasheet] Ports: 10/100/1000 (4), Gigabit SFP (8) |
+    
+    
+##### 940 Mbps firewall throughput (App-ID enabled)
+
+##### 610 Mbps threat prevention throughput
+
+##### 400 Mbps IPSec VPN throughput
+
+##### 128,000 max sessions
+
+##### 8,300 new sessions per second
+
+##### 1000 IPSec VPN tunnels/tunnel interfaces
+
+##### 5 virtual routers
+
+##### 30 security zones
+
+##### 1,500 max number of policies
+
+    
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet> '
 power-ports:
   - name: PS1
     type: iec-60320-c14
@@ -16,7 +38,6 @@ console-ports:
     type: rj-45
   - name: console USB
     type: usb-micro-b
-console-server-ports:
   - name: USB Port
     type: usb-a   
 interfaces:
