@@ -3,10 +3,13 @@ manufacturer: HPE
 model: ProLiant DL380 Gen10 8SFF
 slug: hpe_dl380_g10_8sff
 part_number: P19720-B21
-comments: '[HPE ProLiant DL380 Gen10 Server /w 8-SFF] | <https://www.imvendorportal.com/prodpictures/40/30_7140MDG_64656112.pdf> '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '# [HPE ProLiant DL380 Gen10 Server /w 8-SFF] | 
+
+<https://www.imvendorportal.com/prodpictures/40/30_7140MDG_64656112.pdf> '
 console-ports:
   - name: Front iLO Service Port
     type: usb-a
@@ -43,7 +46,7 @@ interfaces:
   - name: iLO5
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM
     description: TPM 2.0 Support
   - name: Universal Media Bay
@@ -75,6 +78,7 @@ device-bays:
     label: Box2
   - name: DriveBay3
     label: Box3
+device-bays:
   - name: Drive bay-0/SFF
     label: DriveBay2
     description: '2.5" SFF'

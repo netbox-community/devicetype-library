@@ -5,6 +5,15 @@ part_number: FG-100E
 slug: fg-100e
 is_full_depth: false
 u_height: 1
+comments: ' '
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 29
+    allocated_draw: 23
 interfaces:
   - name: dmz
     type: 1000base-t
@@ -48,15 +57,8 @@ interfaces:
     type: 1000base-t
   - name: port15
     type: 1000base-x-sfp
-    # comments: shared media (You can use 1 of the 2 ports with this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+    description: shared media (You can use 1 of the 2 ports with this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
   - name: port16
     type: 1000base-x-sfp
-    # comments: shared media (You can use 1 of the 2 ports with this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 29
-    allocated_draw: 23
+    description: shared media (You can use 1 of the 2 ports with this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+

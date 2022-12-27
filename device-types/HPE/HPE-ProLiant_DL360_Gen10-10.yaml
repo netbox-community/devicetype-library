@@ -2,10 +2,13 @@
 manufacturer: HPE
 model: ProLiant DL360 Gen10 10SFF
 slug: hpe_dl360_g10_10sff
-comments: '[HPE ProLiant DL360 Gen10 Server w/ 10-SFF] <https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf> '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '# [HPE ProLiant DL360 Gen10 Server w/ 10-SFF] 
+
+<https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf> '
 console-ports:
   - name: Front iLO Front Service Port
     type: usb-a
@@ -42,7 +45,7 @@ interfaces:
   - name: iLO5
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM
     description: TPM 2.0 Support
   - name: Universal Media Bay
@@ -56,6 +59,7 @@ device-bays:
     label: SLOT2
   - name: PCIe-Gen4-3 Option 
     label: SLOT3
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

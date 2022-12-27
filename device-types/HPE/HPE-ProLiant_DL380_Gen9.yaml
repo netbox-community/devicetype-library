@@ -2,10 +2,13 @@
 manufacturer: HPE
 model: ProLiant DL380 Gen9
 slug: hpe_dl380_g9
-comments: '[HPE ProLiant DL380 Gen9 Server] <https://www.hpe.com/psnow/doc/c04346247>  '
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '# [HPE ProLiant DL380 Gen9 Server] 
+
+<https://www.hpe.com/psnow/doc/c04346247>  '
 console-ports:
   - name: Front iLO Front Service Port
     type: usb-a
@@ -44,7 +47,7 @@ interfaces:
   - name: iLO4
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: FlexibleLOM2
   - name: PCIe-Gen3-1
     label: Primary riser
@@ -68,6 +71,7 @@ device-bays:
     label: Box2
   - name: DriveBay3
     label: Box3
+device-bays:
   - name: Drive bay-0/SFF
     label: DriveBay2
     description: '2.5" SFF'

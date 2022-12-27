@@ -5,6 +5,19 @@ part_number: FG-1500D
 slug: fg-1500d
 is_full_depth: false
 u_height: 2
+comments: ' '
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 403
+    allocated_draw: 336
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 403
+    allocated_draw: 336
 interfaces:
   - name: mgmt1
     type: 1000base-t
@@ -92,15 +105,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: port40
     type: 10gbase-x-sfpp
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 403
-    allocated_draw: 336
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 403
-    allocated_draw: 336

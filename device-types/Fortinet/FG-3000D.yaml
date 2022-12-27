@@ -5,6 +5,19 @@ part_number: FG-3000D
 slug: fg-3000d
 is_full_depth: true
 u_height: 2
+comments: ' '
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 427
+    allocated_draw: 310
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 427
+    allocated_draw: 310
 interfaces:
   - name: mgmt1
     type: 1000base-t
@@ -42,15 +55,4 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: port16
     type: 10gbase-x-sfpp
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 427
-    allocated_draw: 310
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 427
-    allocated_draw: 310
+
