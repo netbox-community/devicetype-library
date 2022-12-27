@@ -3,10 +3,82 @@ manufacturer: Cisco
 model: UCS-C240-M5SX
 slug: ucs-c240-m5sx
 part_number: UCS-C240M5SX
-comments: 'SmartPlay Select C240 M5SX Standard 2 w/ 24 SFF'
 u_height: 2
-is_full_depth: true
+subdevice_role: child
 subdevice_role: parent
+comments: '## SmartPlay Select C240 M5SX Standard 2 w/ 24 SFF 
+#### Form factor: 2RU rack server
+
+
+#### Processors: Intel® Xeon® Scalable processors (1 or 2) or second-generation Intel Xeon Scalable processors
+
+
+#### Memory: 24 DDR4 DIMM slots: 8, 16, 32, 64, and 128 GB and up to 2666 MHz 
+
+
+#####        Support for the Intel Optane DC Persistent Memory (128G, 256G, 512G)
+
+
+#### PCIe expansion: 6 PCIe 3.0 slots plus 1 dedicated 12-Gbps RAID controller slot and 1 dedicated mLOM slot
+
+
+#### RAID controllers:
+
+
+###### Internal controllers: Cisco 12-Gbps Modular RAID Controller (PCIe 3.0) with 2- or 4-GB Flash-Backed Write Cache (FBWC), providing enterprise-class data protection for up to 26 SAS and SATA Hard Disk Drives (HDDs), SSDs, or NVMe PCIe SSDs; or Cisco 12-Gbps Modular SAS Host Bus Adapter (HBA)
+
+
+###### External controller: Cisco 12-Gbps 9400-8e SAS HBA
+
+
+#### Internal storage:
+
+	
+###### Backplane options:
+
+
+######   Up to 26 x 2.5-inch SAS and SATA HDDs and SSDs and up to 4 NVMe PCIe drives
+
+
+######   Up to 10 x 2.5-inch NVMe PCIe and 16 SAS and SATA HDDs and SSDs
+
+
+######   Up to 12 x 3.5-inch SAS and SATA HDDs and SSDs, and 2 rear 2.5-inch HDDs and SSDs and up to 4 NVMe PCIe drives
+
+####   Embedded Network Interface Cards (NICs):
+
+
+###### Dual 10GBASE-T Intel x550 Ethernet ports
+
+
+#### mLOM: 	
+
+
+###### Dedicated mLOM slot that can flexibly accommodate 1-, 10-, 25-, 40-, and 100-Gbps adapters
+
+
+#### Power supplies
+
+
+####### Hot-pluggable, redundant 770W AC, 1050W AC, 1050W DC, and 1600W AC
+
+
+#### Other storage:
+
+
+######  Dual internal Cisco FlexFlash SD cards (32, 64, and 128 GB) for installing an operating system or hypervisor
+
+######  Support for RAID 0 mirroring between SD cards
+
+######  Dedicated Baseboard Management Controller (BMC) MicroSD card (32 GB) for server utilities
+
+######  Dual M.2 SATA SSD or NVMe 
+
+
+<https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m5-rack-server.html> 
+
+
+<https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/c/hw/C240M5/install/C240M5.pdf>'
 console-ports:
   - name: Console connector
     type: other
@@ -31,7 +103,7 @@ interfaces:
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: mLOM
   - name: PCIe-01
   - name: PCIe-02

@@ -3,11 +3,57 @@ manufacturer: Cisco
 model: UCSB-5108-AC2-6324
 slug: ucsb-5108-ac2-6324
 part_number: UCSB-5108-AC2-6324
-comments: 'Cisco UCS 5108 Blade Server Chassis w/ Cisco UCS 6324 Fabric Interconnect for Mini Express FlexPod'
 u_height: 6
 is_full_depth: true
+subdevice_role: child
 subdevice_role: parent
 airflow: front-to-rear
+comments: '# [Cisco UCS 5108 Blade Server Chassis w/ Cisco UCS 6324 Fabric Interconnect for Mini Express FlexPod]
+
+
+##### Cisco UCS 6324 Fabric Interconnect for the UCS Mini system (UCS-FI-M-6324)—Up to two integrated fabric interconnect modules, each providing four SFP+ ports of 10-Gigabit Ethernet and Fibre Channel over Ethernet (FCoE), and a QSFP+ port
+
+
+#### Form Factor:	Rack-mountable - 6U
+
+
+#### Supported Blades Qty:	Up to 8
+
+
+#### Cooling System:	Fan x 8 (Fan modules (N20-FAN5))
+
+
+#### Expansion Slots:	2
+
+
+###### Compliant Standards:	CISPR 22 Class A, CISPR 24, EN 61000-3-2, EN 61000-3-3, EN55024, EN55022 Class A, EN50082-1, EN 61000-6-1, AS/NZS 60950-1, ICES-003 Class A, FCC CFR47 Part 15, UL 60950-1, IEC 60950-1, EN 60950-1, GB 4943, Directive 2004/108/EC, VCCI Class A, CNS 13438(95) Class A, KN22 Class A, AS/NZS CISPR 22, CAN/CSA-C22.2 No. 60950-1, EN 300386 • Power Device:	No power supply
+
+
+#### Power Redundancy:	Yes
+
+
+#### Power Redundancy Scheme:	N+1 (with optional power supply) AC Power Supply N20-PAC5-2500W, UCSB-PSU-2500ACPL
+
+
+#### Power Installed Qty:	0
+
+
+#### Max Supported Qty:	4 (N20-PAC5-2500W, UCSB-PSU-2500ACPL)
+
+
+#### Voltage Required:	208
+
+
+#### Width:	17.5 in
+
+
+#### Depth:	32 in
+
+
+#### Height:	10.5 in
+
+
+<https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/spec_sheet_c17-644224.pdf> '
 console-ports:
   - name: IOM A Con0
     type: rj-45
@@ -86,13 +132,23 @@ interfaces:
     type: 10gbase-x-sfpp
     mgmt_only: false
 device-bays:
-  - name: Fabric-Extender-1/UCS 6324
-  - name: Fabric-Extender-2/UCS 6324
-  - name: slot-1
-  - name: slot-2
-  - name: slot-3
-  - name: slot-4
-  - name: slot-5
-  - name: slot-6
-  - name: slot-7
-  - name: slot-8
+  - name: Rear I/O module-1/Fabric-Extender-1/UCS 6324
+    position: 1
+  - name: Rear I/O module-2/Fabric-Extender-2/UCS 6324
+    position: 2
+  - name: Front Blade slot-1
+    position: 1
+  - name: Front Blade slot-2
+    position: 2
+  - name: Front Blade slot-3
+    position: 3
+  - name: Front Blade slot-4
+    position: 4
+  - name: Front Blade slot-5
+    position: 5
+  - name: Front Blade slot-6
+    position: 6
+  - name: Front Blade slot-7
+    position: 7
+  - name: Front Blade slot-8
+    position: 8

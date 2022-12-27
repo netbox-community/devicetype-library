@@ -3,10 +3,46 @@ manufacturer: Cisco
 model: UCS-C240-M4S
 slug: ucs-c240-m4s
 part_number: UCS-C240M4S
-comments: 'Cisco UCSC-C240-M4S Server Configure-to-Order'
 u_height: 2
 is_full_depth: true
+subdevice_role: child
 subdevice_role: parent
+comments: '## Cisco UCSC-C240-M4S Server Configure-to-Order
+
+#### Chassis 	Two rack-unit (2RU) server
+
+
+#### Processors 	Either 1 or 2 Intel® Xeon® processor E5-2600 v3 or v4 product family CPUs
+
+
+#### Chipset 	Intel C610 series
+
+
+#### Memory 	Up to 24 double-data-rate 4 (DDR4) dual in-line memory (DIMMs) of up to 2400 MHz speeds
+
+
+###### PCIe slots 	Up to 6 PCI Express (PCIe) Generation 3 slots (four full-height and full-length; four NCSI-capable and VIC-ready; two GPU-ready)
+
+
+###### Hard drives 	Up to 24 small-form factor (SFF) drives or 12 large form-factor (LFF) drives, plus two optional internal SATA boot drives, and NVMe drive support
+
+
+###### Embedded NIC 	Two 1-Gbps Intel i350-based Gigabit Ethernet ports
+
+
+###### mLOM 	mLOM slot can flexibly accommodate 1-Gbps, 10-Gbps, or 40-Gbps adapters
+
+
+###### RAID controller 	Cisco 12 Gb SAS modular RAID controller for internal drives
+
+
+###### Cisco 9300-8E 12 Gb SAS HBA for external drives
+
+
+###### Embedded software RAID (entry RAID solution) for up to four SATA drives
+
+
+<https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c240m4-sff-spec-sheet.pdf> '
 console-ports:
   - name: Console connector
     type: other
@@ -31,7 +67,7 @@ interfaces:
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: mLOM
   - name: PCIe-01
   - name: PCIe-02

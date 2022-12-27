@@ -3,9 +3,13 @@ manufacturer: Cisco
 model: UCS-C220-M4-LFF
 slug: ucs-c220-m4-lff
 part_number: UCS-C220M4-LFF
-comments: '[Cisco UCS C220 M4 LFF] <https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m4-lff-spec-sheet.pdf> '
 u_height: 1
 is_full_depth: true
+subdevice_role: child
+subdevice_role: parent
+comments: '## [Cisco UCS C220 M4 LFF] 
+
+<https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m4-lff-spec-sheet.pdf> '
 console-ports:
   - name: KVM connector
     type: other
@@ -36,13 +40,15 @@ interfaces:
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: RAID controller
     description: UCSC-MRAID12G1,UCSC-MRAID12G-5122,UCSC-MRAID12G-1GB2,UCSC-MRAID12G-2GB2,UCSC-MRAID12G-4GB
-  - name: mLOM
+  - name: mLOM-1
     description: Cisco Virtual Interface Cards (VIC)
+  - name: mLOM-2
   - name: PCIe-01
   - name: PCIe-02
+device-bays:
   - name: Drive bay-1
     description: '3.5" LFF'
   - name: Drive bay-2

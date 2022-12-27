@@ -3,9 +3,13 @@ manufacturer: Cisco
 model: UCS-S3260-M5SRB
 slug: ucs-s3260-m5srb
 part_number: UCS-S3260-M5SRB
-# comments: UCS S3260 M5 Server Node for Intel Scalable CPUs
 u_height: 4
 is_full_depth: true
+subdevice_role: child
+subdevice_role: parent
+comments: '##  UCS S3260 M5 Server Node for Intel Scalable CPUs 
+
+'
 console-ports:
   - name: Con
     type: rj-45

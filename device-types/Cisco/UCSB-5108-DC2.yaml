@@ -1,14 +1,14 @@
 ---
 manufacturer: Cisco
-model: UCSB-5108-AC2
-slug: ucsb-5108-ac2
-part_number: UCSB-5108-AC2
+model: UCSB-5108-DC2
+slug: ucsb-5108-dc2
+part_number: UCSB-5108-DC2
 u_height: 6
 is_full_depth: true
 subdevice_role: child
 subdevice_role: parent
 airflow: front-to-rear
-comments: '# [Cisco UCS 5108 Blade Server Chassis w/ Ucs 5108 Blade Server AC2 Chassis SIS, 0 PSU AC/8 fans/0 Fex]
+comments: '# [Cisco UCS 5108 Blade Server Chassis w/ Ucs 5108 Blade Server DC2 Chassis SIS, 0 PSU AC/8 fans/0 Fex]
 
 
 #### Form Factor:	Rack-mountable - 6U
@@ -35,10 +35,10 @@ comments: '# [Cisco UCS 5108 Blade Server Chassis w/ Ucs 5108 Blade Server AC2 C
 #### Power Installed Qty:	0
 
 
-#### Max Supported Qty:	4 (N20-PAC5-2500W, UCSB-PSU-2500ACPL)
+#### Max Supported Qty:	4 (UCSB-PSU-2500DC48)
 
 
-#### Voltage Required:	208
+#### Voltage Required:	–48 to –60 VDC
 
 
 #### Width:	17.5 in
@@ -50,19 +50,22 @@ comments: '# [Cisco UCS 5108 Blade Server Chassis w/ Ucs 5108 Blade Server AC2 C
 #### Height:	10.5 in
 
 
-<https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/spec_sheet_c17-644224.pdf> '
+<https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/spec_sheet_c17-644224.pdf>
+
+
+<https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/hw/site-prep-guide/ucs_site_prep/ucs_siteprep_chapter_011.pdf> '
 power-ports:
   - name: psu-1
-    type: iec-60320-c20
+    type: LCD4-14AF-L
     maximum_draw: 2500
   - name: psu-2
-    type: iec-60320-c20
+    type: LCD4-14AF-L
     maximum_draw: 2500
   - name: psu-3
-    type: iec-60320-c20
+    type: LCD4-14AF-L
     maximum_draw: 2500
   - name: psu-4
-    type: iec-60320-c20
+    type: LCD4-14AF-L
     maximum_draw: 2500
 interfaces:
   - name: IOM A 1/1
@@ -113,7 +116,7 @@ interfaces:
   - name: IOM B 2/8
     type: 10gbase-x-sfpp
     mgmt_only: false
-device-bays:
+module-bays:
   - name: Rear I/O module-1
     position: 1
   - name: Rear I/O module-2
