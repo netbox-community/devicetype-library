@@ -4,6 +4,10 @@ model: CRS125-24G-1S-IN
 slug: crs125-24g-1s-in
 is_full_depth: false
 u_height: 1
+comments: 
+console-ports:
+  - name: serial0
+    type: rj-45
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -55,6 +59,3 @@ interfaces:
     type: 1000base-t
   - name: sfp1
     type: 1000base-x-sfp
-console-ports:
-  - name: serial0
-    type: rj-45

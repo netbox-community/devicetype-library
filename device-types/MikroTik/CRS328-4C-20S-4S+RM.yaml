@@ -4,6 +4,17 @@ model: CRS328-4C-20S-4S+RM
 slug: crs328-4c-20s-4splus-rm
 is_full_depth: false
 u_height: 1
+comments: ' '
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 43
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 43
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
@@ -61,13 +72,3 @@ interfaces:
     type: 1000base-x-sfp
   - name: combo4
     type: 1000base-x-sfp
-console-ports:
-  - name: serial0
-    type: rj-45
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 43
-  - name: power2
-    type: iec-60320-c14
-    maximum_draw: 43

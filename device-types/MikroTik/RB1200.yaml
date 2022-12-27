@@ -4,6 +4,14 @@ model: RB1200
 slug: rb1200
 is_full_depth: false
 u_height: 1
+comments: ' '
+console-ports:
+  - name: serial0
+    type: de-9
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 20
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -24,13 +32,4 @@ interfaces:
   - name: ether9
     type: 1000base-t
   - name: ether10
-    type: 1000base-t
-console-ports:
-  - name: serial0
-    type: de-9
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 20
-
-  
+    type: 1000base-t  

@@ -4,6 +4,16 @@ model: CCR1016-12G
 slug: ccr1016-12g
 is_full_depth: false
 u_height: 1
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 42
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 42
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -29,13 +39,3 @@ interfaces:
     type: 1000base-t
   - name: ether12
     type: 1000base-t
-console-ports:
-  - name: serial0
-    type: rj-45
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 42
-  - name: power2
-    type: iec-60320-c14
-    maximum_draw: 42

@@ -4,6 +4,10 @@ model: CRS212-1G-10S-1S+IN
 slug: crs212-1g-10s-1splus-in
 is_full_depth: false
 u_height: 1
+comments: 
+console-ports:
+  - name: serial0
+    type: rj-45
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
@@ -29,6 +33,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: ether1
     type: 1000base-t
-console-ports:
-  - name: serial0
-    type: rj-45

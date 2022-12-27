@@ -5,6 +5,20 @@ slug: crs317-1g-16splus-rm
 part_number: CRS317-1G-16S+
 is_full_depth: false
 u_height: 1
+comments: Smart Switch, 1 x Gigabit LAN, 16 x SFP+ cages, Dual Core 800MHz CPU, 1GB RAM, 1U rackmount passive cooling case, Dual Power Supplies.
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: power1
+    label: POWER 1
+    type: iec-60320-c14
+    maximum_draw: 44
+  - name: power2
+    label: POWER 2
+    type: iec-60320-c14
+    maximum_draw: 44
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1
@@ -57,17 +71,3 @@ interfaces:
   - name: ether1
     label: ETH/BOOT
     type: 1000base-t
-console-ports:
-  - name: serial0
-    label: CONSOLE
-    type: rj-45
-power-ports:
-  - name: power1
-    label: POWER 1
-    type: iec-60320-c14
-    maximum_draw: 44
-  - name: power2
-    label: POWER 2
-    type: iec-60320-c14
-    maximum_draw: 44
-comments: Smart Switch, 1 x Gigabit LAN, 16 x SFP+ cages, Dual Core 800MHz CPU, 1GB RAM, 1U rackmount passive cooling case, Dual Power Supplies.

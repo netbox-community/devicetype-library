@@ -5,6 +5,14 @@ slug: crs354-48p-4splus-2qplus-rm
 part_number: CRS354-48P-4S+2Q+RM
 is_full_depth: false
 u_height: 1
+comments: ' '
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 800
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -114,10 +122,3 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: qsfpplus2
     type: 40gbase-x-qsfpp
-console-ports:
-  - name: serial0
-    type: rj-45
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 800

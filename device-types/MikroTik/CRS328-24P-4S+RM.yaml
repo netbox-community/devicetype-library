@@ -4,6 +4,14 @@ model: CRS328-24P-4S+RM
 slug: crs328-24p-4splus-rm
 is_full_depth: false
 u_height: 1
+comments: ' '
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 494
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -61,10 +69,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus4
     type: 10gbase-x-sfpp
-console-ports:
-  - name: serial0
-    type: rj-45
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 494

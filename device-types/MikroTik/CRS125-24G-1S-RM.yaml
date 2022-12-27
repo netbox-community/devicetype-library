@@ -4,6 +4,14 @@ model: CRS125-24G-1S-RM
 slug: crs125-24g-1s-rm
 is_full_depth: false
 u_height: 1
+comments: 
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 15
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -57,10 +65,3 @@ interfaces:
     type: 1000base-x-sfp
   - name: usb1-0
     type: other
-console-ports:
-  - name: serial0
-    type: rj-45
-power-ports:
-  - name: DC-in
-    type: dc-terminal
-    maximum_draw: 15

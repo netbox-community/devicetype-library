@@ -5,6 +5,20 @@ slug: crs305-1g-4splus-in
 part_number: CRS305-1G-4S+
 is_full_depth: false
 u_height: 1
+comments: Five-port desktop switch with one Gigabit Ethernet port and four SFP+ 10Gbps ports.
+power-ports:
+  - name: psu1
+    label: DC1
+    type: dc-terminal
+    maximum_draw: 18
+  - name: psu2
+    label: DC2
+    type: dc-terminal
+    maximum_draw: 18
+console-ports:
+  - name: serial0
+    description: header on board
+    type: other
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1
@@ -21,17 +35,3 @@ interfaces:
   - name: ether1
     label: ETH/BOOT
     type: 1000base-t
-power-ports:
-  - name: psu1
-    label: DC1
-    type: dc-terminal
-    maximum_draw: 18
-  - name: psu2
-    label: DC2
-    type: dc-terminal
-    maximum_draw: 18
-console-ports:
-  - name: serial0
-    description: header on board
-    type: other
-comments: Five-port desktop switch with one Gigabit Ethernet port and four SFP+ 10Gbps ports.

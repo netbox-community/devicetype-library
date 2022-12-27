@@ -5,6 +5,16 @@ slug: crs309-1g-8splus-in
 part_number: CRS309-1G-8S+
 is_full_depth: false
 u_height: 1
+comments: ' Desktop switch with one Gigabit Ethernet port and eight SFP+ 10Gbps ports. '
+power-ports:
+  - name: psu1
+    label: DC 12-57V
+    type: dc-terminal
+    maximum_draw: 23
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1
@@ -33,13 +43,3 @@ interfaces:
   - name: ether1
     label: POE/BOOT
     type: 1000base-t
-power-ports:
-  - name: psu1
-    label: DC 12-57V
-    type: dc-terminal
-    maximum_draw: 23
-console-ports:
-  - name: serial0
-    label: CONSOLE
-    type: rj-45
-comments: Desktop switch with one Gigabit Ethernet port and eight SFP+ 10Gbps ports.

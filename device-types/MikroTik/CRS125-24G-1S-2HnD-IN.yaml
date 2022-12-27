@@ -4,6 +4,10 @@ model: CRS125-24G-1S-2HnD-IN
 slug: crs125-24g-1s-2hnd-in
 is_full_depth: false
 u_height: 1
+comments: 
+console-ports:
+  - name: serial0
+    type: rj-45
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -57,6 +61,3 @@ interfaces:
     type: 1000base-x-sfp
   - name: wlan1
     type: ieee802.11n
-console-ports:
-  - name: serial0
-    type: rj-45

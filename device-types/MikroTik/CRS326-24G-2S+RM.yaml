@@ -5,6 +5,16 @@ slug: crs326-24g-2splus-rm
 part_number: CRS326-24G-2S
 is_full_depth: false
 u_height: 1
+comments: '24x Gigabit Switch with 2x SFP+ Cages in 1U Rackmount Case '
+power-ports:
+  - name: psu1
+    label: DC 10-28V
+    type: dc-terminal
+    maximum_draw: 24
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
 interfaces:
   - name: ether1
     label: '1'
@@ -84,13 +94,3 @@ interfaces:
   - name: sfp-sfpplus2
     label: SFP+ 2
     type: 10gbase-x-sfpp
-power-ports:
-  - name: psu1
-    label: DC 10-28V
-    type: dc-terminal
-    maximum_draw: 24
-console-ports:
-  - name: serial0
-    label: CONSOLE
-    type: rj-45
-comments: 24x Gigabit Switch with 2x SFP+ Cages in 1U Rackmount Case

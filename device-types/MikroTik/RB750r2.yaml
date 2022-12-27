@@ -2,6 +2,17 @@
 manufacturer: MikroTik
 model: RB750r2
 slug: rb750r2
+comments: ' '
+power-ports:
+  - name: DC
+    type: iec-60320-c14
+    maximum_draw: 350
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 350
+console-ports:
+  - name: Console
+    type: rj-45
 interfaces:
   - name: ether1
     type: 100base-tx
@@ -13,13 +24,3 @@ interfaces:
     type: 100base-tx
   - name: ether5
     type: 100base-tx
-power-ports:
-  - name: DC
-    type: iec-60320-c14
-    maximum_draw: 350
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 350
-console-ports:
-  - name: Console
-    type: rj-45
