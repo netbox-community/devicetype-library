@@ -13,27 +13,37 @@ comments: |
 u_height: 1
 is_full_depth: false
 interfaces:
-  - name: Port 1
+  - name: port.1
     type: 1000base-t
-  - name: Port 2
+    label: Port 1 - LAN
+  - name: port.2
     type: 1000base-t
-  - name: Port 3
+    label: Port 2 - LAN
+  - name: port.3
     type: 1000base-t
-  - name: Port 4
+    label: Port 3 - LAN
+  - name: port.4
     type: 1000base-t
-  - name: Port 5
+    label: Port 4 - LAN
+  - name: port.5
     type: 1000base-t
-  - name: Port 6
+    label: Port 5 - LAN
+  - name: port.6
     type: 1000base-t
-  - name: Port 7
+    label: Port 6 - LAN
+  - name: port.7
     type: 1000base-t
-  - name: Port 8
+    label: Port 7 - LAN
+  - name: port.8
     type: 1000base-t
-  - name: Port 9
+    label: Port 8 - LAN
+  - name: port.9
     type: 1000base-t
-  - name: Port 10
+    label: Port 9 - WAN 1
+  - name: port.10
     type: 10gbase-x-sfpp
-  - name: Port 11
+    label: Port 10 - SFP+ WAN 2
+  - name: port.11
     type: 10gbase-x-sfpp
 power-ports:
   - name: ps1
