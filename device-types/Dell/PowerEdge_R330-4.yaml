@@ -1,10 +1,8 @@
 ---
 manufacturer: Dell
 model: PowerEdge R330 4x3.5 LFF
-slug: dell_poweredge_r330-4-lff
-part_number: PER330-4
+slug: dell_poweredge_r330-4
 u_height: 1
-subdevice_role: parent
 is_full_depth: true
 airflow: front-to-rear
 comments: '## [Dell PowerEdge R330 Rack Server Chassis (4x3.5")]  
@@ -53,10 +51,8 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-  - name: Internal SD (IDSDM)
-    type: other
-  - name: VFLASH
-    type: other
+  - name: internal USB
+    type: usb-a
 power-ports:
   - name: PSU1
     type: iec-60320-c14
@@ -65,18 +61,16 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 550
 interfaces:
-  - name: LOM1
+  - name: LOM1 Gig-E 1
     type: 1000base-t
-  - name: LOM2
+  - name: LOM1 Gig-E 2
     type: 1000base-t
-  - name: iDRAC Option/iDRAC8
+  - name: iDRAC Option
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PERC
-    description: 'PERC S130, PERC H330, PERC H730, PERC H830'
-  - name: PCIe-Gen3-1
-  - name: PCIe-Gen3-2
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
 device-bays:
   - name: Drive bay-0/LFF
   - name: Drive bay-1/LFF

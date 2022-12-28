@@ -1,13 +1,12 @@
 ---
 manufacturer: Dell
-model: PowerEdge R340 8x2.5 SFF
-slug: dell_poweredge_r340-8-sff
-part_number: PER340-8
+model: PowerEdge R340  8x2.5 SFF
+slug: dell_poweredge_r340-8
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-comments: '## [Dell PowerEdge R340 Rack Server Chassis 8x2.5"]  
+comments: '## [Dell PowerEdge R340 Rack Server Chassis (8x2.5")]  
 
 
 #### Processor 1 processor from the following: Intel® Xeon® E-2200 product family, Intel Pentium®, Intel Core i3®, Intel Celeron®
@@ -64,7 +63,7 @@ comments: '## [Dell PowerEdge R340 Rack Server Chassis 8x2.5"]
 <https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r340-spec-sheet.pdf>
 
 
-For {NETBOX}'
+For {NETBOX}' 
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -90,11 +89,11 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 550
 interfaces:
-  - name: LOM1
+  - name: LOM1 Gig-E 1
     type: 1000base-t
-  - name: LOM2
+  - name: LOM1 Gig-E 2
     type: 1000base-t
-  - name: iDRAC9
+  - name: iDRAC9 Option
     type: 1000base-t
     mgmt_only: true
 module-bays:
@@ -102,14 +101,22 @@ module-bays:
     description: 'PERC H730P, H330, HBA330 (non-RAID)'
   - name: Optional BOSS-2 Removed
     description: '51CN2 - DELL BOSS M.2 Controller Card'
-  - name: PCIe-Gen3-1
-  - name: PCIe-Gen3-2
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
 device-bays:
-  - name: Drive bay-00/SFF
-  - name: Drive bay-01/SFF
-  - name: Drive bay-02/SFF
-  - name: Drive bay-03/SFF
-  - name: Drive bay-04/SFF
-  - name: Drive bay-05/SFF
-  - name: Drive bay-06/SFF
-  - name: Drive bay-07/SFF
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'

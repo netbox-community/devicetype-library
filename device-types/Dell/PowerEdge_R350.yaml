@@ -1,12 +1,13 @@
 ---
 manufacturer: Dell
-model: PowerEdge R350
-slug: dell_poweredge_R350
+model: PowerEdge R350 4x3.5 LFF
+slug: dell_poweredge_r350
+part_number: PER350
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-comments: '### [PowerEdge R350 Rack Server]
+comments: '### [Dell PowerEdge R350 Rack Server Chassis 4x3.5" LFF]  
 
 
 #### One Intel Xeon E-2300 series processor or one Intel Pentium processor
@@ -66,7 +67,7 @@ comments: '### [PowerEdge R350 Rack Server]
 <https://dl.dell.com/content/manual26953530-dell-emc-poweredge-r350-installation-and-service-manual.pdf?language=en-us&ps=true>
 
 
-fOR {NETBOX}'
+For {NETBOX}'
 console-ports:
   - name: Front VGA
     type: other
@@ -85,25 +86,29 @@ console-ports:
   - name: Rear VGA
     type: other
 power-ports:
-  - name: Power 1
+  - name: PSU1
     type: iec-60320-c14
     maximum_draw: 600
-  - name: Power 2
+  - name: PSU2
     type: iec-60320-c14
     maximum_draw: 600
 interfaces:
-  - name: LOM Gig-E-1
+  - name: LOM1
     type: 1000base-t
-  - name: LOM Gig-E-2
+  - name: LOM2
     type: 1000base-t
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
 module-bays:
   - name: PERC
-    description: 'PERC H345, PERC H755, HBA355i, PERC H345f, PERC H755f, HBA355f'
+    description: 'PERC H355, H345, HBA355i, H755'
   - name: Optional BOSS-2 Removed
     description: 'DELL BOSS M.2 Controller Card'
-  - name: PCIe-Gen3 1
-  - name: PCIe-Gen3 2
-  - name: PCIe-Gen3 3
+  - name: PCIe-Gen4-1
+  - name: PCIe-Gen4-2
+device-bays:
+  - name: Drive bay-0/LFF
+  - name: Drive bay-1/LFF
+  - name: Drive bay-2/LFF
+  - name: Drive bay-3/LFF

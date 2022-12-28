@@ -1,13 +1,11 @@
 ---
 manufacturer: Dell
 model: PowerEdge R330 8x2.5 SFF
-slug: dell_poweredge_r330-8-sff
-part_number: PER330-8
+slug: dell_poweredge_r330-8
 u_height: 1
-subdevice_role: parent
 is_full_depth: true
 airflow: front-to-rear
-comments: '[Dell PowerEdge R330 Rack Server Chassis (8x2.5")]  
+comments: '## [Dell PowerEdge R330 Rack Server Chassis (8x2.5")]  
 
 
 #####  1-socket rack server with a powerful Intel Xeon 
@@ -37,7 +35,7 @@ comments: '[Dell PowerEdge R330 Rack Server Chassis (8x2.5")]
 <https://dl.dell.com/topicspdf/poweredge-r330_owners-manual_en-us.pdf> 
 
 
-For {NETBOX}'
+For {NETBOX}' 
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -53,36 +51,40 @@ console-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-  - name: Internal SD (IDSDM)
-    type: other
-  - name: VFLASH
-    type: other
+  - name: internal USB
+    type: usb-a
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 350
+    maximum_draw: 550
   - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 350
+    maximum_draw: 550
 interfaces:
-  - name: LOM1
+  - name: LOM1 Gig-E 1
     type: 1000base-t
-  - name: LOM2
+  - name: LOM1 Gig-E 2
     type: 1000base-t
-  - name: iDRAC Option/iDRAC8
+  - name: iDRAC Option
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PERC
-    description: 'PERC S130, PERC H330, PERC H730, PERC H830'
-  - name: PCIe-Gen3-1
-  - name: PCIe-Gen3-2
+  - name: PCIe-Gen3 1
+  - name: PCIe-Gen3 2
 device-bays:
-  - name: Drive bay-00/SFF
-  - name: Drive bay-01/SFF
-  - name: Drive bay-02/SFF
-  - name: Drive bay-03/SFF
-  - name: Drive bay-04/SFF
-  - name: Drive bay-05/SFF
-  - name: Drive bay-06/SFF
-  - name: Drive bay-07/SFF
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
