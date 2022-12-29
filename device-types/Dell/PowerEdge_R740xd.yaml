@@ -2,7 +2,7 @@
 manufacturer: Dell
 model: PowerEdge R740xd
 slug: dell_poweredge_r740xd
-u_height: 1
+u_height: 2
 is_full_depth: true
 comments: |
   [Dell R740xd Data Sheet](https://www.dell.com/learn/yu/en/yupad1/shared-content~data-sheets~en/documents~poweredge-r740xd-spec-sheet.pdf)
@@ -13,15 +13,6 @@ console-ports:
     type: other
   - name: Rear VGA
     type: other
-console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
 power-ports:
   - name: Power 1
     type: iec-60320-c14

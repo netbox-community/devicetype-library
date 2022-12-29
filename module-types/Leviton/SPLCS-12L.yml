@@ -1,0 +1,34 @@
+---
+manufacturer: Leviton
+model: SPLCS-12L
+comments: SDX Pigtail Fusion Splice Module pre-loaded with duplex LC adapters (Blue) and 12-fiber OS2 LC/UPC individual pigtails. Includes 40mm splice sleeves.
+  Works with all SDX Enclosures.
+front-ports:
+  - name: '{module}:1'
+    type: lc
+    rear_port: '{module}:Splice'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: lc
+    rear_port: '{module}:Splice'
+    rear_port_position: 2
+  - name: '{module}:3'
+    type: lc
+    rear_port: '{module}:Splice'
+    rear_port_position: 3
+  - name: '{module}:4'
+    type: lc
+    rear_port: '{module}:Splice'
+    rear_port_position: 4
+  - name: '{module}:5'
+    type: lc
+    rear_port: '{module}:Splice'
+    rear_port_position: 5
+  - name: '{module}:6'
+    type: lc
+    rear_port: '{module}:Splice'
+    rear_port_position: 6
+rear-ports:
+  - name: '{module}:Splice'
+    type: splice
+    positions: 6

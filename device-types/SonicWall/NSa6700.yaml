@@ -8,13 +8,21 @@ is_full_depth: false
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 350
-  - name: PSU 2
-    type: iec-60320-c14
-    maximum_draw: 350
+module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
+  - name: Expansion Module
+inventory-items:
+  - name: Storage-Module
+    manufacturer: SonicWall
+  - name: Fan-Module 1
+    manufacturer: SonicWall
+  - name: Fan-Module 2
+    manufacturer: SonicWall
+  - name: Fan-Module 3
+    manufacturer: SonicWall
 interfaces:
   - name: MGMT
     type: 1000base-t
