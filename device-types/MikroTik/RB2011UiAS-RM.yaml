@@ -10,7 +10,7 @@ interfaces:
   - name: ether1
     type: 1000base-t
     poe_mode: pd
-    poe_types: passive-24v-2pair
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -30,7 +30,7 @@ interfaces:
   - name: ether10
     type: 100base-tx
     poe_mode: pse
-    poe_types: passive-24v-2pair
+    poe_type: passive-24v-2pair
   - name: sfp1
     type: 1000base-x-sfp
 console-ports:
