@@ -5,7 +5,12 @@ slug: tl-sg105e
 part_number: TL-SG105E
 comments: '[TP-Link TL-SG105E](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg105e/#specifications)'
 is_full_depth: false
-u_height: 1
+u_height: 0
+airflow: passive
+power-ports:
+  - name: External Power Adapter
+    type: other
+    maximum_draw: 4
 interfaces:
   - name: 'Port 1'
     type: 1000base-t
