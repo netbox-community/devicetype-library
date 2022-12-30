@@ -13,10 +13,10 @@ console-ports:
   - name: USB Port
     type: usb-a 
 power-ports:
-  - name: PS-A
+  - name: PSU-1
     type: iec-60320-c16
     maximum_draw: 715
-  - name: PS-B
+  - name: PSU-2
     type: iec-60320-c16
     maximum_draw: 715
 interfaces:
@@ -80,12 +80,11 @@ interfaces:
   - name: GigabitEthernet1/1/4
     type: 1000base-x-sfp
     mgmt_only: false
-  - name: STACK0
-    type: cisco-stackwise-320
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-320
-    mgmt_only: false
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: StackPort1/1
+    type: cisco-stackwise-320
+  - name: StackPort1/2
+    type: cisco-stackwise-320

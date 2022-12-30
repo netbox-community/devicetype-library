@@ -15,7 +15,9 @@
             "type": "string"
         },
         "u_height": {
-            "type": "integer"
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.5
         },
         "is_full_depth": {
             "type": "boolean"

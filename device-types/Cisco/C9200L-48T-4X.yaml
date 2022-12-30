@@ -177,12 +177,12 @@ interfaces:
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: STACK0
-    type: cisco-stackwise-80
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-80
-    mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: StackPort1/1
+    type: cisco-stackwise-80
+    mgmt_only: false
+  - name: StackPort1/2
+    type: cisco-stackwise-80

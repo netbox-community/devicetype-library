@@ -45,34 +45,43 @@ comments: '## [Dell R720 Data Sheet]
 
 for NETBOX '
 console-ports:
-  - name: Serial
-    type: de-9
-  - name: USB
-    type: usb-a
-  - name: VGA
-    type: other
   - name: Front USB1
     type: usb-a
-  - name: Front USB2
+  - name: Front USB2/iDRAC MGMT
     type: usb-a
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
     type: usb-a
+  - name: Serial/Console
+    type: de-9
+  - name: VGA
+    type: other
 power-ports:
-  - name: Power 1
+  - name: PSU0
     type: iec-60320-c14
-  - name: Power 2
+    maximum_draw: 750
+  - name: PSU1
     type: iec-60320-c14
+    maximum_draw: 750
 interfaces:
-  - name: Gig-E 1
+  - name: OB-E-1
     type: 1000base-t
-  - name: Gig-E 2
+  - name: OB-E-2
     type: 1000base-t
-  - name: Gig-E 3
+  - name: OB-E-3
     type: 1000base-t
-  - name: Gig-E 4
+  - name: OB-E-4
     type: 1000base-t
   - name: iDRAC7
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PERC
+    description: 'PERC H310n,PERC H710,PERC H710P'
+  - name: PCIe-Gen3-1
+  - name: PCIe-Gen3-2
+  - name: PCIe-Gen3-3
+  - name: PCIe-Gen3-4
+  - name: PCIe-Gen3-5
+  - name: PCIe-Gen3-6/Optional

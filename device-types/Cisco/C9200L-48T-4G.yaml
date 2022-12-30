@@ -5,6 +5,7 @@ part_number: C9200L-48T-4G
 slug: c9200l-48t-4g
 u_height: 1
 is_full_depth: false
+subdevice_role: parent
 comments: '[Cisco Catalyst 9200 Series Switches Data Sheet] <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html> '
 console-ports:
   - name: Rear con 0
@@ -177,12 +178,13 @@ interfaces:
   - name: GigabitEthernet1/1/4
     type: 1000base-t
     mgmt_only: false
-  - name: STACK0
-    type: cisco-stackwise-80
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-80
-    mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: StackPort1/1
+    type: cisco-stackwise-80
+    Description: cisco-stackwise-80
+  - name: StackPort1/2
+    type: cisco-stackwise-80
+    Description: cisco-stackwise-80

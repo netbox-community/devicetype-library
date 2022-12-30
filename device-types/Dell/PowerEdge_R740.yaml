@@ -87,10 +87,10 @@ console-ports:
   - name: Rear Dedicated iDRAC direct USB
     type: usb-mini-b
 power-ports:
-  - name: Power 1
+  - name: PSU-1
     type: iec-60320-c14
     maximum_draw: 750
-  - name: Power 2
+  - name: PSU-2
     type: iec-60320-c14
     maximum_draw: 750
 interfaces:
@@ -122,3 +122,8 @@ device-bays:
     lable: Riser3
   - name: PCIe-Gen3 8
     lable: Riser3
+  - name: Riser2 PCIe-Gen3 4
+  - name: Riser2 PCIe-Gen3 5
+  - name: Riser2 PCIe-Gen3 6
+  - name: Riser3 PCIe-Gen3 7
+  - name: Riser3 PCIe-Gen3 8

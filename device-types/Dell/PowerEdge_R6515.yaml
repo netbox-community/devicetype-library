@@ -5,29 +5,116 @@ slug: dell_poweredge_r6515
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+comments: '## [Dell R6515 Data Sheet] 
+
+
+##### Feature 	    		 : PowerEdge R6515 technical specification
+
+###### Form factor   		 : 1U rack
+
+######  Processor             : One 2nd or 3rd Generation AMD EPYCTM Processor with up to 64 cores
+
+######  Processor Sockets     : 2
+
+
+###### Memory DIMM speed: DDR4: Up to 16 x DDR4 RDIMM (1TB), LRDIMM (2TB), bandwidth up to 3200 MT/S
+
+### Drive Bays 
+
+#### Front bays: 
+
+#####    ● Up to 4x 3.5” Hot Plug SAS/SATA HDD
+
+#####    ● Up to 10x 2.5” Hot Plug SAS/SATA/NVMe
+
+#####    ● UUp to 8x 2.5” Hot plug SAS/SATA
+
+#### Internal: Optional 2 x M.2 (BOSS)
+
+#####  PCI-e slots             : 2
+
+###### 1 x Gen3 slot (1 x16)
+
+###### 1 x Gen4 slot (1 x16)
+
+### Ports
+
+##### Front Ports
+
+###### 1 x Dedicated iDRAC direct micro-USB
+
+###### 1 x USB 2.0
+
+###### 1 x Video
+
+##### Rear Ports:
+
+###### 2 x 1GbE
+
+###### 1 x Dedicated iDRAC network port
+
+###### 1 x Serial
+
+###### 2 x USB 3.0
+
+###### 1 x Video
+
+#####  Storage controllers   : PERC H200 (6Gb/s), PERC H700 (6Gb/s) with 512MB battery-backed cache;512MB, 1GB Non-Volatile battery-backed cache
+
+#####  External PERC (RAID): SAS 5/E with 512MB battery-backed cache
+
+###### 	PERC H800 (6Gb/s) with 512MB of battery-backed cache;
+
+###### 	512MB, 1GB Non-Volatile battery-backed cache
+
+###### 	PERC 6/E with 256MB or 512MB of battery-backed cache
+
+
+
+#####  Embedded NIC :  4 x 1GbE
+
+#####  Power supply ● 1100W Platinum
+
+#### Dimension (H×W×D) 
+
+###### Form factor: Rack (2U)
+
+###### 86.8mm (3.4") × 434.0mm (17.1") × 737.5mm (29.0")
+
+###### Weight : 28.6kg (63.0lbs.)
+
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r6515-technical-guide.pdf> 
+
+
+for NETBOX '
 console-ports:
-  - name: Serial
-    type: de-9
-  - name: USB
-    type: usb-a
-  - name: VGA
-    type: other
   - name: Front USB1
     type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front VGA
+    type: other
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
     type: usb-a
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
 power-ports:
-  - name: Power 1
+  - name: PSU-1
     type: iec-60320-c14
-  - name: Power 2
+  - name: PSU-2
     type: iec-60320-c14
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
   - name: Gig-E 2
     type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
+

@@ -5,7 +5,11 @@ part_number: C9200L-24T-4X
 slug: c9200l-24t-4x
 u_height: 1
 is_full_depth: false
-comments: '[Cisco Catalyst 9200 Series Switches Data Sheet] <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html>'
+comments: '###  [Cisco Catalyst 9200 Series Switches Data Sheet]
+
+
+
+(https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: Console
     type: rj-45
@@ -13,9 +17,10 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-1
-    type: iec-60320-c145
+    type: iec-60320-c14
+    maximum_draw: 125
   - name: PS-2
-    type: iec-60320-c15
+    type: iec-60320-c14
     maximum_draw: 125
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -102,12 +107,12 @@ interfaces:
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: STACK0
-    type: cisco-stackwise-80
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-08
-    mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: StackPort1/1
+    type: cisco-stackwise-80
+    mgmt_only: false
+  - name: StackPort1/2
+    type: cisco-stackwise-80

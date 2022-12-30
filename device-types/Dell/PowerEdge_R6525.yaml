@@ -7,31 +7,143 @@ is_full_depth: true
 subdevice_role: parent
 comments: '## [Dell PowerEdge R6525 4x3.5" LFF/Dell 3rd Generation AMD EPYC] 
 
+
+##### Feature 	    		 : PowerEdge R6525 technical specification
+
+###### Form factor   		 : 1U rack
+
+######  Processor             : AMD EPYC 7002 or 7003 series processors
+
+######  Processor Sockets     : 2
+
+
+###### Memory DIMM speed: DDR4: Up to 32 x DDR4 RDIMM (2TB), LRDIMM (4TB), bandwidth up to 3200 MT/S
+
+### Drive Bays 
+
+#### Front bays: 
+
+#####    ● Up to 4x 3.5” Hot Plug SAS/SATA HDD
+
+#####    ● Up to 10x 2.5” Hot Plug SAS/SATA/NVMe
+
+#####    ● UUp to 8x 2.5” Hot plug SAS/SATA
+
+#### Internal: Optional 2 x M.2 (BOSS)
+
+#####  PCI-e slots             : 2
+
+###### 1 x Gen3 slot (1 x16)
+
+###### 1 x Gen4 slot (1 x16)
+
+### Ports
+
+##### Front Ports
+
+###### 1 x Dedicated iDRAC direct micro-USB
+
+###### 1 x USB 2.0
+
+###### 1 x Video
+
+##### Rear Ports:
+
+###### 2 x 1GbE
+
+###### 1 x Dedicated iDRAC network port
+
+###### 1 x Serial
+
+###### 2 x USB 3.0
+
+###### 1 x Video
+
+#####  Storage controllers   : PERC H200 (6Gb/s), PERC H700 (6Gb/s) with 512MB battery-backed cache;512MB, 1GB Non-Volatile battery-backed cache
+
+#####  External PERC (RAID): SAS 5/E with 512MB battery-backed cache
+
+###### 	PERC H800 (6Gb/s) with 512MB of battery-backed cache;
+
+###### 	512MB, 1GB Non-Volatile battery-backed cache
+
+###### 	PERC 6/E with 256MB or 512MB of battery-backed cache
+
+
+
+#####  Embedded NIC :  4 x 1GbE
+
+#####  Power supply ● 1100W Platinum
+
+#### Dimension (H×W×D) 
+
+###### Form factor: Rack (2U)
+
+###### 86.8mm (3.4") × 434.0mm (17.1") × 737.5mm (29.0")
+
+###### Weight : 28.6kg (63.0lbs.)
+
+
+
 <https://dl.dell.com/content/manual23987793-dell-emc-poweredge-r6525-installation-and-service-manual.pdf?language=en-us&ps=true> '
 
-console-ports:
-  - name: Serial
-    type: de-9
-  - name: USB
-    type: usb-a
-  - name: VGA
+onsole-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
     type: other
   - name: Front USB1
     type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-mini-b
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
     type: usb-a
+  - name: Internal SD (IDSDM)
+    type: other
+  - name: Internal VFLASH
+    type: other
+  - name: Internal TPM
+    type: other 
 power-ports:
-  - name: Power 1
+  - name: PSU2
+    position: 'Left'
     type: iec-60320-c14
-  - name: Power 2
+    maximum_draw: 800
+  - name: PSU1
+    position: 'Right'
     type: iec-60320-c14
+    maximum_draw: 800
 interfaces:
-  - name: Gig-E 1
+  - name: LOM1
+    description: Onboard NIC  
     type: 1000base-t
-  - name: Gig-E 2
+  - name: LOM2
+    description: Onboard NIC  
     type: 1000base-t
-  - name: iDRAC
+  - name: Optional/OCP-LOM3
+    type: 1000base-t
+  - name: Optional/OCP-LOM4
+    type: 1000base-t
+  - name: Optional/OCP-LOM5
+    type: 1000base-t
+  - name: Optional/OCP-LOM6
+    type: 1000base-t
+  - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: PERC
+    description: 'PERC H745, H345, HBA355I, H755, H755N'
+  - name: BOSS-2 HOT-SWAPABLE Optional
+    description: "2 X M.2 Sticks/size=240GB, 480GB"
+  - name: OCP NIC/LOM Optional 
+  - name: SLOT-1/PCIe-Gen4-1
+    lable: 'Riser1'
+  - name: SLOT-2/PCIe-Gen4-2
+    lable: 'Riser2'
+  - name: SLOT-3/PCIe-Gen4-3
+    lable: 'Riser3'

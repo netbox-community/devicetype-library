@@ -128,11 +128,19 @@ interfaces:
   - name: GigabitEthernet1/1/4
     type: 1000base-x-sfp
     mgmt_only: false
+<<<<<<< HEAD
   - name: STACK0
     type: cisco-stackwise-320
     mgmt_only: false
   - name: STACK1
     type: cisco-stackwise-320
+=======
+  - name: StackPort1/1
+    type: cisco-stackwise
+    mgmt_only: false
+  - name: StackPort1/2
+    type: cisco-stackwise
+>>>>>>> upstream/master
     mgmt_only: false
   - name: GigabitEthernet0/0
     type: 1000base-t

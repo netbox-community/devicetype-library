@@ -2,22 +2,63 @@
 manufacturer: MikroTik
 model: RB951G-2HnD
 slug: rb951g-2hnd
-comments: ' '
-console-server-ports:
+u_height: 0
+comments: ' ### RB951G-2HnD is a wireless SOHO Gigabit AP
+
+####  Product code 	RB951G-2HnD
+
+######  Architecture 	MIPSBE
+
+######  CPU 	AR9344
+
+######  CPU core count 	1
+
+######  CPU nominal frequency 	600 MHz
+
+######  Dimensions 	113x138x29mm
+
+######  RouterOS license 	4
+
+######  Operating System 	RouterOS
+
+######  Size of RAM 	128 MB
+
+######  Storage size 	128 MB
+
+######  Storage type 	NAND
+
+######  MTBF 	Approximately 100,000 hours at 25C
+
+######  Tested ambient temperature 	-20C .. +50C 
+
+####  Wireless:
+
+######  Wireless 2.4 GHz Max data rate 	300 Mbit/s
+
+######  Wireless 2.4 GHz number of chains 	2
+
+######  Wireless 2.4 GHz standards 	802.11b/g/n
+
+######  Antenna gain dBi for 2.4 GHz 	2.5
+
+######  Wireless 2.4 GHz chip model 	AR9344
+
+######  Wireless 2.4 GHz generation 	Wi-Fi 4  '
+console-ports:
   - name: usb
     type: usb-a
 power-ports:
-  - name: power8-30V
+  - name: DC-jack
     type: iec-60320-c14
     maximum_draw: 10
 interfaces:
-  - name: ether1
+  - name: eth1
     type: 1000base-t
-  - name: ether2
+  - name: eth2
     type: 1000base-t
-  - name: ether3
+  - name: eth3
     type: 1000base-t
-  - name: ether4
+  - name: eth4
     type: 1000base-t
-  - name: ether5
+  - name: eth5
     type: 1000base-t
