@@ -5,7 +5,9 @@ part_number: C9200L-48P-4X-A
 slug: c9200l-48p-4x-a
 u_height: 1
 is_full_depth: false
-comments: '## [C9200L-48P-4X-A/Catalyst 9200L 48-port PoE+ 4x10G uplink Switch, Network Advantage] 
+description: C9200L-48P-4X-A/Catalyst 9200L 48-port PoE+ & 4x10G uplink Switch, Network Advantage
+comments: '## [C9200L-48P-4X-A/Catalyst 9200L 48-port PoE+ & 4x10G uplink Switch, Network Advantage] 
+
 
 ##### Model	                                                 : C9200L-48P-4X-A
 
@@ -61,8 +63,7 @@ comments: '## [C9200L-48P-4X-A/Catalyst 9200L 48-port PoE+ 4x10G uplink Switch, 
 
 ##### Chassis Dimensions                                     : 	1.73 x 17.5 x 11.3 in / 4.4 x 44.5 x 28.8 cm
 
-
-<https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html>'
+(https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: Console
     type: rj-45
@@ -70,10 +71,11 @@ console-ports:
     type: usb-mini-b
 power-ports:
   - name: PS-1
-    type: iec-60320-c145
+    type: iec-60320-c14
+    maximum_draw: 740
   - name: PS-2
-    type: iec-60320-c15
-    maximum_draw: 125
+    type: iec-60320-c14
+    maximum_draw: 740
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -147,6 +149,78 @@ interfaces:
   - name: GigabitEthernet1/0/24
     type: 1000base-t
     mgmt_only: false
+  - name: GigabitEthernet1/0/25
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/26
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/27
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/28
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/29
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/30
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/31
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/32
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/33
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/34
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/35
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/36
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/37
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/38
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/39
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/40
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/41
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/42
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/43
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/44
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/45
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/46
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/47
+    type: 1000base-t
+    mgmt_only: false
+  - name: GigabitEthernet1/0/48
+    type: 1000base-t
+    mgmt_only: false
   - name: TenGigabitEthernet1/1/1
     type: 10gbase-x-sfpp
     mgmt_only: false
@@ -159,12 +233,13 @@ interfaces:
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: STACK0
-    type: cisco-stackwise-80
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-08
-    mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: StackPort1/1
+    type: cisco-stackwise-80
+    Description: cisco-stackwise-80
+  - name: StackPort1/2
+    type: cisco-stackwise-80
+    Description: cisco-stackwise-80

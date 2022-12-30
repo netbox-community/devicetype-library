@@ -1,23 +1,26 @@
 ---
 manufacturer: Cisco
-model: C9200L-48T-4G
-part_number: C9200L-48T-4G
-slug: c9200l-48t-4g
+model: C9200L-48PL-4G-A
+part_number: C9200L-48PL-4G-A
+slug: c9200l-48lp-4g-A
 u_height: 1
 is_full_depth: false
-comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
+subdevice_role: parent
+description: C9200L-48PL-4G-A/Catalyst 9200L 48-port PoE+ & 4x 1G fixed uplinks, Network Essentials
+comments: '###  [C9200L-48PL-4G-A/Catalyst 9200L 48-port PoE+ & 4x 1G fixed uplinks, Network Essentials]
 
-###### Model                                            : C9200L-48T-4G
 
-###### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports data
+###### Model                                            : C9200L-48PL-4G-A
+
+###### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports full POE+
 
 ###### Uplink configuration                             : 4x 1G fixed uplinks
 
-###### Default primary AC power supply                  : PWR-C5-125WAC
+###### Default primary AC power supply                  : PWR-C5-600WAC
 
 ###### Fans                                             : FRU redundant
 
-###### Software                                         : Network Essentials
+###### Software                                         : Network Advantage
 
 ###### Stacking bandwidth                               : 80 Gbps
 
@@ -27,7 +30,7 @@ comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
 
 ###### Switching capacity                               : 104 Gbps
 
-###### Forwarding rate                                  : 154.76 Mpps
+###### Forwarding rate                                  : 77.38 Mpps
 
 ###### Chassis Dimensions                               : 1.73 x 17.5 x 11.3 in/4.4 x 44.5 x 28.8 cm
 
@@ -43,10 +46,10 @@ console-ports:
 power-ports:
   - name: PS-1
     type: iec-60320-c14
-    maximum_draw: 125
+    maximum_draw: 600
   - name: PS-2
     type: iec-60320-c14
-    maximum_draw: 125
+    maximum_draw: 600
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -210,6 +213,7 @@ interfaces:
 module-bays:
   - name: StackPort1/1
     type: cisco-stackwise-80
-    mgmt_only: false
+    Description: cisco-stackwise-80
   - name: StackPort1/2
     type: cisco-stackwise-80
+    Description: cisco-stackwise-80

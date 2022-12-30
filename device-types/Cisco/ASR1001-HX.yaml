@@ -3,7 +3,7 @@ manufacturer: Cisco
 model: ASR1001-HX
 slug: asr1001-hx
 part_number: ASR1001-HX
-comments: '[Cisco ASR 1000-HX Scalability 44 Gbps – 60 Gbps]'
+comments: '####  [Cisco ASR 1000-HX Scalability 44 Gbps – 60 Gbps]'
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -17,6 +17,13 @@ console-ports:
     type: usb-a
   - name: usb-con
     type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 750  
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
@@ -55,10 +62,3 @@ interfaces:
     type: 10gbase-x-sfpp
 module-bays:
   - name: Crypto Module
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 750
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 750

@@ -3,10 +3,11 @@ manufacturer: Adtran
 model: Total Access 5000
 slug: total-access-5000
 part_number: 1187001G1
-u_height: 8.0
-is_full_depth: false
+u_height: 10
+is_full_depth: yes
 subdevice_role: parent
-comments: Fiber Access and Aggregation Platform
+comments: 'Fiber Access and Aggregation Platform '
+
 power-ports:
   - name: DC-Input-A
     type: dc-terminal
@@ -21,7 +22,7 @@ power-ports:
 interfaces:
   - name: Ethernet 1/S/1
     type: 1000base-t
-    mgmt_only: false
+    mgmt_only: true
     description: Rear Management
 module-bays:
   - name: '1'

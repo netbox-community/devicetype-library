@@ -15,6 +15,13 @@ console-ports:
     type: usb-a
   - name: usb2
     type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 250
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 250
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
@@ -35,13 +42,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/1
     type: 10gbase-x-sfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 250
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 250
 module-bays:
   - name: NIM slots
   - name: Shared port adapter slot

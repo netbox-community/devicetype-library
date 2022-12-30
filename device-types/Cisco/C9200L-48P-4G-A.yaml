@@ -1,23 +1,26 @@
 ---
 manufacturer: Cisco
-model: C9200L-48T-4G
-part_number: C9200L-48T-4G
-slug: c9200l-48t-4g
+model: C9200L-48P-4G-A
+part_number: C9200L-48P-4G-A
+slug: c9200l-48p-4g-a
 u_height: 1
 is_full_depth: false
-comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
+Weight: 9.6
+Weight unit: Pounds
+description: CC9200L-48P-4G-A /w 48 ports full POE+ & 4x 1G fixed uplinks
+comments: '[Cisco Catalyst 9200 Series Switches Data Sheet]
 
-###### Model                                            : C9200L-48T-4G
+###### Model                                            : C9200L-48P-4G-A
 
-###### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports data
+###### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports full POE+
 
 ###### Uplink configuration                             : 4x 1G fixed uplinks
 
-###### Default primary AC power supply                  : PWR-C5-125WAC
+###### Default primary AC power supply                  : PWR-C5-1KWAC
 
 ###### Fans                                             : FRU redundant
 
-###### Software                                         : Network Essentials
+###### Software                                         : Network Advantage
 
 ###### Stacking bandwidth                               : 80 Gbps
 
@@ -43,10 +46,10 @@ console-ports:
 power-ports:
   - name: PS-1
     type: iec-60320-c14
-    maximum_draw: 125
+    maximum_draw: 1000
   - name: PS-2
     type: iec-60320-c14
-    maximum_draw: 125
+    maximum_draw: 1000
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -193,23 +196,24 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
   - name: GigabitEthernet1/1/1
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
   - name: GigabitEthernet1/1/2
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
   - name: GigabitEthernet1/1/3
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
   - name: GigabitEthernet1/1/4
-    type: 1000base-t
+    type: 1000base-x-sfp
     mgmt_only: false
-  - name: GigabitEthernet0
+  - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
 module-bays:
   - name: StackPort1/1
     type: cisco-stackwise-80
-    mgmt_only: false
+    Description: cisco-stackwise-80
   - name: StackPort1/2
     type: cisco-stackwise-80
+    Description: cisco-stackwise-80

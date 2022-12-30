@@ -1,19 +1,20 @@
 ---
 manufacturer: Cisco
-model: C9200L-48T-4G
-part_number: C9200L-48T-4G
-slug: c9200l-48t-4g
+model: C9200L-24P-4X-E
+part_number: C9200L-24P-4X-E
+slug: c9200l-24p-4x-e
 u_height: 1
 is_full_depth: false
-comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
+description: C9200L-24P-4X-E W/ 24 ports full PoE+ & 4 x 1/10G fixed uplinks 
+comments: '###  [Cisco Catalyst C9200L-24P-4X-E Series Switches Data Sheet]
 
-###### Model                                            : C9200L-48T-4G
+###### Model                                            : C9200L-24P-4X-E
 
-###### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports data
+###### Downlinks total 10/100/1000 or PoE+ copper ports : 24 ports full PoE+
 
-###### Uplink configuration                             : 4x 1G fixed uplinks
+###### Uplink configuration                             : 4x 10G fixed uplinks
 
-###### Default primary AC power supply                  : PWR-C5-125WAC
+###### Default primary AC power supply                  : PWR-C5-600WAC
 
 ###### Fans                                             : FRU redundant
 
@@ -25,14 +26,13 @@ comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
 
 ###### Flash                                            : 4 GB
 
-###### Switching capacity                               : 104 Gbps
+###### Switching capacity                               : 128 Gbps
 
-###### Forwarding rate                                  : 154.76 Mpps
+###### Forwarding rate                                  : 190.4 Mpps
 
 ###### Chassis Dimensions                               : 1.73 x 17.5 x 11.3 in/4.4 x 44.5 x 28.8 cm
 
 ###### Weight                                           : 9.6 LBS 
-
 
 (https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
@@ -120,96 +120,25 @@ interfaces:
   - name: GigabitEthernet1/0/24
     type: 1000base-t
     mgmt_only: false
-  - name: GigabitEthernet1/0/25
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/1
+    type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: GigabitEthernet1/0/26
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/2
+    type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: GigabitEthernet1/0/27
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/3
+    type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: GigabitEthernet1/0/28
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/29
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/30
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/31
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/32
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/33
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/34
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/35
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/36
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/37
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/38
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/39
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/40
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/41
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/42
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/43
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/44
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/45
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/46
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/47
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/0/48
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/1/1
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/1/2
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/1/3
-    type: 1000base-t
-    mgmt_only: false
-  - name: GigabitEthernet1/1/4
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/4
+    type: 10gbase-x-sfpp
     mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
 module-bays:
   - name: StackPort1/1
+    Description: cisco-stackwise-80  
     type: cisco-stackwise-80
-    mgmt_only: false
   - name: StackPort1/2
+    Description: cisco-stackwise-80  
     type: cisco-stackwise-80

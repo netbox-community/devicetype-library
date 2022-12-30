@@ -5,7 +5,34 @@ part_number: C9200L-24P-4G-E
 slug: c9200l-24p-4g-e
 u_height: 1
 is_full_depth: false
+description: C9200L-24P-4G-E /w 24 ports full PoE+ & 4x 1G fixed uplinks
 comments: '### [Cisco Catalyst 9200 Series Switches Data Sheet]
+
+###### Model                                            : C9200L-24P-4G-E
+
+###### Downlinks total 10/100/1000 or PoE+ copper ports : 24 ports full PoE+
+
+###### Uplink configuration                             : 4x 1G fixed uplinks
+
+###### Default primary AC power supply                  : PWR-C5-600WAC
+
+###### Fans                                             : FRU redundant
+
+###### Software                                         : Network Essentials
+
+###### Stacking bandwidth                               : 80 Gbps
+
+###### DRAM                                             : 2 GB
+
+###### Flash                                            : 4 GB
+
+###### Switching capacity                               : 56 Gbps
+
+###### Forwarding rate                                  : 83.33 Mpps
+
+###### Chassis Dimensions                               : 1.73 x 17.5 x 11.3 in/4.4 x 44.5 x 28.8 cm
+
+###### Weight                                           : 9.6 LBS 
 
 
 <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html> '
@@ -111,6 +138,8 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: StackPort1/1
+    Description: cisco-stackwise-80  
     type: cisco-stackwise-80
   - name: StackPort1/2
+    Description: cisco-stackwise-80  
     type: cisco-stackwise-80

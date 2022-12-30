@@ -1,17 +1,19 @@
 ---
 manufacturer: Cisco
-model: C9200L-48T-4G
-part_number: C9200L-48T-4G
-slug: c9200l-48t-4g
+model: C9200L-48T-4X-E
+part_number: C9200L-48T-4X-E
+slug: c9200l-48t-4x-e
 u_height: 1
 is_full_depth: false
-comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
+description: C9200L-48T-4X-E/Catalyst w/ 48-port + & 4x10G uplink Switch, Network Advantage
+comments: '[Cisco Catalyst C9200L-48T-4X-E Series Switches Data Sheet] 
 
-###### Model                                            : C9200L-48T-4G
+
+###### Model                                            : C9200L-48T-4X-E
 
 ###### Downlinks total 10/100/1000 or PoE+ copper ports : 48 ports data
 
-###### Uplink configuration                             : 4x 1G fixed uplinks
+###### Uplink configuration                             : 4x 10G fixed uplinks
 
 ###### Default primary AC power supply                  : PWR-C5-125WAC
 
@@ -25,27 +27,29 @@ comments: '##  [Cisco Catalyst 9200 Series Switches Data Sheet]
 
 ###### Flash                                            : 4 GB
 
-###### Switching capacity                               : 104 Gbps
+###### Switching capacity                               : 176 Gbps
 
-###### Forwarding rate                                  : 154.76 Mpps
+###### Forwarding rate                                  : 261.9 Mpps
 
 ###### Chassis Dimensions                               : 1.73 x 17.5 x 11.3 in/4.4 x 44.5 x 28.8 cm
 
 ###### Weight                                           : 9.6 LBS 
 
 
-(https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
+<https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html> '
 console-ports:
-  - name: Console
+  - name: Rear con 0
     type: rj-45
-  - name: usb
+  - name: USB Mini Console
     type: usb-mini-b
+  - name: USB Port
+    type: usb-a 
 power-ports:
   - name: PS-1
-    type: iec-60320-c14
+    type: iec-60320-c16
     maximum_draw: 125
   - name: PS-2
-    type: iec-60320-c14
+    type: iec-60320-c16
     maximum_draw: 125
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -192,17 +196,17 @@ interfaces:
   - name: GigabitEthernet1/0/48
     type: 1000base-t
     mgmt_only: false
-  - name: GigabitEthernet1/1/1
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/1
+    type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: GigabitEthernet1/1/2
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/2
+    type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: GigabitEthernet1/1/3
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/3
+    type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: GigabitEthernet1/1/4
-    type: 1000base-t
+  - name: TenGigabitEthernet1/1/4
+    type: 10gbase-x-sfpp
     mgmt_only: false
   - name: GigabitEthernet0
     type: 1000base-t
