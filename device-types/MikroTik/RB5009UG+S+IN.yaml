@@ -6,8 +6,8 @@ comments: '[MikroTik RB5009UG+S+IN Datasheet](https://mikrotik.com/product/rb500
 interfaces:
   - name: ether1
     type: 2.5gbase-t
-    poe_type: pd
-    poe_modes: passive-48v-4pair
+    poe_mode: pd
+    poe_type: passive-48v-4pair
   - name: ether2
     type: 1000base-t
   - name: ether3
