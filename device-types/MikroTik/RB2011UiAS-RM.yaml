@@ -9,8 +9,8 @@ comments: '[RB2011UiAS-RM Datasheet](https://mikrotik.com/product/RB2011UiAS-RM)
 interfaces:
   - name: ether1
     type: 1000base-t
-    poe_type: pd
-    poe_modes: passive-24v-2pair
+    poe_mode: pd
+    poe_types: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -29,8 +29,8 @@ interfaces:
     type: 100base-tx
   - name: ether10
     type: 100base-tx
-    poe_type: pse
-    poe_modes: passive-24v-2pair
+    poe_mode: pse
+    poe_types: passive-24v-2pair
   - name: sfp1
     type: 1000base-x-sfp
 console-ports:
