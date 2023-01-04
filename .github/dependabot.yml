@@ -10,9 +10,9 @@ updates:
     directory: /   # Location of package manifests
     schedule:
       interval: weekly
-      day: wednesday
-      time: 16:00
+      day: monday
+      time: '02:00'
       timezone: America/New_York
     labels:
       - dependencies
-    target-branch: dependabot
+    target-branch: master
