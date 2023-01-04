@@ -1,10 +1,12 @@
 ---
 manufacturer: AVM
-model: FRITZ!box 7590
-slug: frtizbox-7590
-part_number: 2000 2804
+model: FRITZ!Box 7590
+slug: fritzbox-7590
+part_number: '20002784'
 u_height: 0
 is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 7590 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7590/technische-daten/)'
 power-ports:
   - name: Power
     type: dc-terminal
@@ -22,9 +24,9 @@ interfaces:
     label: FON 2
     type: other
     mgmt_only: false
-  - name: FONS
-    label: FON S
-    type: xdsl
+  - name: FONS0
+    label: FON S0
+    type: other
     mgmt_only: false
   - name: WAN
     label: WAN
