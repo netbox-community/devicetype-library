@@ -4,6 +4,7 @@ model: PowerEdge R640
 slug: dell_poweredge_r640
 u_height: 1
 is_full_depth: true
+subdevice_role: parent
 console-ports:
   - name: Serial
     type: de-9
@@ -30,7 +31,10 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PCIe-Gen3 1
+    position: PCIE1
   - name: PCIe-Gen3 2
+    position: PCIE2
   - name: PCIe-Gen3 3
+    position: PCIE3
