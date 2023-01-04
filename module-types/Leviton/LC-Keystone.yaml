@@ -1,0 +1,13 @@
+---
+manufacturer: Leviton
+model: KeyStone LC Fiber Pair
+part_number: KeyStone-LC-Fiber-Pair
+front-ports:
+  - name: '{module}-LC'
+    type: lc
+    rear_port: '{module}-LC'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}-LC'
+    type: lc
+    positions: 1

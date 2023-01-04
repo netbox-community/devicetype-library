@@ -2,22 +2,15 @@
 manufacturer: Dell
 model: PowerEdge R940
 slug: dell_poweredge_r940
-u_height: 4
+u_height: 3
 is_full_depth: true
+comments: |
+  [Dell R940 Data Sheet](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/poweredge-r940-spec-sheet.pdf)
 console-ports:
   - name: Serial
     type: de-9
   - name: VGA
     type: other
-console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
 power-ports:
   - name: Power 1
     type: iec-60320-c14
