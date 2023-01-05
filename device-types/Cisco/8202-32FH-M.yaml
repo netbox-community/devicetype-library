@@ -77,6 +77,7 @@ interfaces:
     type: 400gbase-x-qsfpdd
   - name: MgmtEth0/RP0/CPU0/0
     type: 1000base-t
+    mgmt_only: true
 module-bays:
   - name: PM0
     position: '0'
