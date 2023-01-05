@@ -7,43 +7,36 @@ comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.co
 u_height: 1
 is_full_depth: false
 console-ports:
-  - name: Serial Console
+  - name: con0
     type: rj-45
   - name: USB con0
-    type: usb-mini-b
-  - name: USB con1
     type: usb-a
 power-ports:
-  - name: PS-1
+  - name: PSU1
     type: iec-60320-c14
+    maximum_draw: 40
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/2
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/3
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/4
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/5
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/6
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/7
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/8
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/0/9
     type: 1000base-x-sfp
-    mgmt_only: false
+    description: 1G SFP and RJ-45 combo uplink
   - name: GigabitEthernet1/0/10
     type: 1000base-x-sfp
-    mgmt_only: false
+    description: 1G SFP and RJ-45 combo uplink
+  - name: Vlan1
+    type: virtual

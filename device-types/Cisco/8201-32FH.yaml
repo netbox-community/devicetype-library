@@ -3,24 +3,14 @@ manufacturer: Cisco
 model: 8201-32FH
 slug: 8201-32fh
 part_number: 8201-32FH
-u_height: 1
+u_height: 1.0
 is_full_depth: true
 subdevice_role: parent
 comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/datasheet-c78-742571.html)'
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
-  - name: PM0
-    type: iec-60320-c14
-    maximum_draw: 2000
-  - name: PM1
-    type: iec-60320-c14
-    maximum_draw: 2000
 interfaces:
-  - name: Mg0/RP0/CPU0/0
-    type: 1000base-t
-    mgmt_only: true
   - name: FourHundredGigE0/0/0/0
     type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/1
@@ -40,7 +30,7 @@ interfaces:
   - name: FourHundredGigE0/0/0/8
     type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/9
-    type: 400gbase-x-qsfpdd  
+    type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/10
     type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/11
@@ -60,7 +50,7 @@ interfaces:
   - name: FourHundredGigE0/0/0/18
     type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/19
-    type: 400gbase-x-qsfpdd  
+    type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/20
     type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/21
@@ -85,3 +75,13 @@ interfaces:
     type: 400gbase-x-qsfpdd
   - name: FourHundredGigE0/0/0/31
     type: 400gbase-x-qsfpdd
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PM0
+    position: '0'
+    description: Power module
+  - name: PM1
+    position: '1'
+    description: Power module
