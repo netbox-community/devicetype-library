@@ -1,0 +1,44 @@
+---
+manufacturer: RAD
+model: ETX-2i-10G
+slug: etx2i10g
+comments: '[RAD ETX-2i-10G Datasheet](https://www.rad.com/resources/etx-2i-10g-devices-data-sheet)'
+is_full_depth: false
+u_height: 1
+airflow: passive
+interfaces:
+  - name: 1
+    type: 10gbase-x-sfpp
+  - name: 2
+    type: 10gbase-x-sfpp
+  - name: 3
+    type: 10gbase-x-sfpp
+  - name: 4
+    type: 10gbase-x-sfpp
+  - name: 5
+    type: 1000base-x-sfp
+  - name: 6
+    type: 1000base-x-sfp
+  - name: 7
+    type: 1000base-x-sfp
+  - name: 8
+    type: 1000base-x-sfp
+  - name: 9
+    type: 1000base-t
+  - name: 10
+    type: 1000base-t
+  - name: 11
+    type: 1000base-t
+  - name: 12
+    type: 1000base-t
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: control
+    type: usb-mini-b
+power-ports:
+  - name: power
+    type: iec-60320-c14
+    maximum_draw: 90
+    
