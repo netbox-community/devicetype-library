@@ -6,28 +6,39 @@ u_height: 3
 is_full_depth: true
 comments: 9PX5KIRTN 5kVA 230V Tower/Rack Mountable UPS [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
 power-outlets:
-  - name: Outlet 1
+  - name: Primary Group Hardwired
     type: iec-60309-p-n-e-6h
-  - name: Outlet 2
+    power_port: AC Source
+  - name: Primary Group - Output 1
     type: iec-60320-c19
-  - name: Outlet 3
+    power_port: AC Source
+  - name: Primary Group - Output 2
     type: iec-60320-c19
-  - name: Outlet 4
+    power_port: AC Source
+  - name:  Group 1 - Output 1
     type: iec-60320-c13
-  - name: Outlet 5
+    power_port: AC Source
+  - name: Group 1 - Output 2
     type: iec-60320-c13
-  - name: Outlet 6
+    power_port: AC Source
+  - name: Group 1 - Output 3
     type: iec-60320-c13
-  - name: Outlet 7
+    power_port: AC Source
+  - name: Group 1 - Output 4
     type: iec-60320-c13
-  - name: Outlet 8
+    power_port: AC Source
+  - name: Group 2 - Output 1
     type: iec-60320-c13
-  - name: Outlet 9
+    power_port: AC Source
+  - name: Group 2 - Output 2
     type: iec-60320-c13
-  - name: Outlet 10
+    power_port: AC Source
+  - name: Group 2 - Output 3
     type: iec-60320-c13
-  - name: Outlet 11
-    type: iec-60320-c13            
+    power_port: AC Source
+  - name: Group 2 - Output 4
+    type: iec-60320-c13
+    power_port: AC Source   
 power-ports:
   - name: AC Source
     type: iec-60309-p-n-e-6h
@@ -35,6 +46,12 @@ interfaces:
   - name: eth0
     type: 1000base-t
     mgmt_only: true
+  - name: Battery connector
+    type: other
+    mgmt_only: false
+  - name: Battery detection
+    type: other
+    mgmt_only: false
 console-ports:
   - name: Serial
     type: de-9
