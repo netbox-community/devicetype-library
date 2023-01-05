@@ -1,0 +1,42 @@
+---
+manufacturer: Eaton
+model: 9PX5KIRTN
+slug: 9px5kirtn
+u_height: 3
+is_full_depth: true
+comments: 9PX5KIRTN 5kVA 230V Tower/Rack Mountable UPS [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
+power-outlets:
+  - name: Outlet 1
+    type: iec-60309-p-n-e-6h
+  - name: Outlet 2
+    type: iec-60320-c19
+  - name: Outlet 3
+    type: iec-60320-c19
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
+  - name: Outlet 10
+    type: iec-60320-c13
+  - name: Outlet 11
+    type: iec-60320-c13            
+power-ports:
+  - name: AC Source
+    type: iec-60309-p-n-e-6h
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB management
+    type: usb-b
