@@ -8,34 +8,27 @@ is_full_depth: true
 subdevice_role: parent
 comments: '[Cisco ASR 9901 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744663.html)'
 module-bays:
-- name: PM0
-  label: ''
-  position: '0'
-  description: Power module
-- name: PM1
-  label: ''
-  position: '1'
-  description: Power module
-- name: RP0
-  label: ''
-  position: '0'
-  description: Route Processor
-- name: RP1
-  label: ''
-  position: '1'
-  description: Route Processor
-- name: FAN0
-  label: ''
-  position: '0'
-  description: Fan tray
-- name: FAN1
-  label: ''
-  position: '1'
-  description: Fan tray
-- name: FAN2
-  label: ''
-  position: '2'
-  description: Fan tray
+  - name: PM0
+    position: '0'
+    description: Power module
+  - name: PM1
+    position: '1'
+    description: Power module
+  - name: RP0
+    position: '0'
+    description: Route Processor
+  - name: RP1
+    position: '1'
+    description: Route Processor
+  - name: FAN0
+    position: '0'
+    description: Fan tray
+  - name: FAN1
+    position: '1'
+    description: Fan tray
+  - name: FAN2
+    position: '2'
+    description: Fan tray
 interfaces:
   - name: MgmtEth0/RSP0/CPU0/0
     type: 1000base-t
