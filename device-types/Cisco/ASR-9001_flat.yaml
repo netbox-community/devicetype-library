@@ -6,163 +6,74 @@ part_number: ASR-9001
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: "front-to-rear"
 comments: "[Cisco ASR 9001 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9001-router/data_sheet_c78-685687.html)"
 console-ports:
   - name: con 0
     type: rj-45
-    label: ""
-    description: ""
 power-ports:
   - name: PS0
     type: iec-60320-c14
     maximum_draw: 750
-    allocated_draw: null
-    label: ""
-    description: ""
+    allocated_draw: 0
   - name: PS1
     type: iec-60320-c14
     maximum_draw: 750
-    allocated_draw: null
-    label: ""
-    description: ""
+    allocated_draw: 0
 interfaces:
   - name: GigabitEthernet0/0/0/0
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/1
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/2
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/3
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/4
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/5
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/6
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/7
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/8
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/9
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/10
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/11
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/12
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/13
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/14
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/15
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/16
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/17
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/18
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: GigabitEthernet0/0/0/19
     type: 1000base-x-sfp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: TenGigE0/0/1/0
     type: 10gbase-x-sfpp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: TenGigE0/0/1/1
     type: 10gbase-x-sfpp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: TenGigE0/0/2/0
     type: 10gbase-x-sfpp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: TenGigE0/0/2/1
     type: 10gbase-x-sfpp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: TenGigE0/0/2/2
     type: 10gbase-x-sfpp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: TenGigE0/0/2/3
     type: 10gbase-x-sfpp
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: MgmtEth0/RSP0/CPU0/0
     type: 1000base-t
-    mgmt_only: false
-    label: ""
-    description: ""
   - name: MgmtEth0/RSP0/CPU0/1
     type: 1000base-t
-    mgmt_only: false
-    label: ""
-    description: ""
