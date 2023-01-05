@@ -4,8 +4,7 @@ updates:
   - package-ecosystem: pip
     directory: /
     schedule:
-      interval: weekly
-      day: monday
+      interval: monthly
       time: '02:00'
       timezone: America/New_York
     labels:
