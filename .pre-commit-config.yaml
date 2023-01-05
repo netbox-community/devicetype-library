@@ -1,25 +1,21 @@
 ---
+files: ^(device-types|module-types)/
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.3.0
     hooks:
       - id: trailing-whitespace
-        exclude: ^\.github/dependabot\.yml$
       - id: end-of-file-fixer
-        exclude: ^\.github/dependabot\.yml$
       - id: check-yaml
         name: Check YAML files
-        exclude: ^\.github/dependabot\.yml$
   - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
     rev: 0.2.2
     hooks:
       - id: yamlfmt
         args: [--mapping, '2', --sequence, '4', --offset, '2']
-        exclude: ^\.github/dependabot\.yml$
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.27.1
     hooks:
       - id: yamllint
         name: Lint YAML files
         args: [--format, parsable, --strict]
-        exclude: ^\.github/dependabot\.yml$
