@@ -1,0 +1,10 @@
+---
+manufacturer: Juniper
+model: SRX600-PWR-645AC-POE
+part_number: 740-024283
+comments: |
+  [Juniper SRX550 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx550m-services-gateway-datasheet.pdf)
+power-ports:
+  - name: PSU {module}
+    type: iec-60320-c14
+    maximum_draw: 645
