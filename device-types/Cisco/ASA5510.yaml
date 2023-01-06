@@ -3,7 +3,9 @@ manufacturer: Cisco
 model: ASA5510
 slug: asa5510
 part_number: ASA5510
+is_full_depth: false
 u_height: 1
+comments: '[Cisco ASA 5500 Series Adaptive Security Appliances Data Sheet](https://www.cisco.com/c/en/us/products/security/asa-5500-series-next-generation-firewalls/data_sheet_c78-345385.html)'
 console-ports:
   - name: Con 0
     type: rj-45
@@ -22,3 +24,6 @@ interfaces:
   - name: Management0/0
     type: 100base-tx
     mgmt_only: true
+module-bays:
+  - name: Security Services Module
+    position: '1'
