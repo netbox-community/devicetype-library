@@ -7,7 +7,7 @@ is_full_depth: true
 comments: 9PX5KIRTN 5kVA 230V Tower/Rack Mountable UPS [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
 power-outlets:
   - name: Primary Group Hardwired
-    type: iec-60309-p-n-e-6h
+    type: hardwired
     power_port: AC Source
   - name: Primary Group - Output 1
     type: iec-60320-c19
@@ -41,7 +41,7 @@ power-outlets:
     power_port: AC Source   
 power-ports:
   - name: AC Source
-    type: iec-60309-p-n-e-6h
+    type: hardwired
 interfaces:
   - name: eth0
     type: 1000base-t
