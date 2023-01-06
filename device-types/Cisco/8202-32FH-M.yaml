@@ -8,7 +8,8 @@ is_full_depth: true
 airflow: "front-to-rear"
 comments: "[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/datasheet-c78-742571.html)"
 console-ports:
-  type: rj-45
+  - name: con0
+    type: rj-45
 interfaces:
   - name: FourHundredGigE0/0/0/0
     type: 400gbase-x-qsfpdd
