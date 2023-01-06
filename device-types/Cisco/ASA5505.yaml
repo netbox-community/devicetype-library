@@ -16,35 +16,26 @@ power-ports:
 interfaces:
   - name: Ethernet0/0
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet0/1
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet0/2
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet0/3
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet1/0
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet0/4
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet0/5
     type: 100base-tx
-    mgmt_only: false
   - name: Ethernet0/6
     type: 100base-tx
     poe-mode: pse
     poe-type: type1-ieee802.3af
-    mgmt_only: false
   - name: Ethernet0/7
     type: 100base-tx
     poe-mode: pse
     poe-type: type1-ieee802.3af
-    mgmt_only: false
 module-bays:
   - name: AIP Security Services Card
     position: '1'
