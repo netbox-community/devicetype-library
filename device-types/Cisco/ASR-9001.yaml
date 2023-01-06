@@ -9,10 +9,45 @@ subdevice_role: parent
 comments: '####  [Cisco ASR 9001 Router Data Sheet] 
 
 
+###### Model                    : ASR 9001
+
+###### Slots                    : 2 Modular Port Adapters w/ 20 x 1 GE, 2 x 10 GE, 4 x 10 GE, 1 x 40 GE
+
+###### Integrated interfaces    : 4 x 10 GE SFP+
+	
+###### 
+
+###### Max Capacity              : 240 Gbps
+
+###### RSP / RP                 : Integrated 
+
+###### Fabric Architecture      : Integrated
+
+###### Software                 : IOS XR
+
+###### Rack Size                : 2 RU
+
+###### Redundancy               : Power supply redundancy
+
+###### Size (H x W x D)         : 	3.5 in. x 17.5 in. x 18.5 in. 
+
+###### Weight of chassis        : 30.2032 lbs (13.7 kg)
+
+###### Power                    : AC or DC 425 W (typical), 525 W (max)
+
+###### Fan                      : 1 fan tray
+
+###### Airflow                  : Side to Side
+
+
 (https://www.cisco.com/c/en/us/products/collateral/routers/asr-9001-router/data_sheet_c78-685687.html)'
 console-ports:
-  - name: con 0
+  - name: console
     type: rj-45
+  - name: AUX
+    type: rj-45
+  - name : External USB
+    type: usb-a
 power-ports:
   - name: PS0
     type: iec-60320-c14
@@ -23,8 +58,14 @@ power-ports:
 interfaces:
   - name: MgmtEth0/RSP0/CPU0/0
     type: 1000base-t
+    mgmt_only: true
   - name: MgmtEth0/RSP0/CPU0/1
     type: 1000base-t
+    mgmt_only: true
+  - name: CLUSTER ports-1
+    type: 1000base-x-sfp
+  - name: CLUSTER ports-2
+    type: 1000base-x-sfp
   - name: TenGigE0/0/2/0
     type: 10gbase-x-sfpp
   - name: TenGigE0/0/2/1
@@ -35,4 +76,5 @@ interfaces:
     type: 10gbase-x-sfpp
 device-bays:
   - name: module 0/0/0
+    description: 'A9K-MPA-20X1GE & A9K-MPA-4X10GE'
   - name: module 0/0/1

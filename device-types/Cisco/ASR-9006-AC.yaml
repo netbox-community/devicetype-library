@@ -1,0 +1,68 @@
+---
+manufacturer: Cisco
+model: ASR-9006-AC
+slug: ASR-9006-AC
+part_number: ASR-9006-AC
+u_height: 10
+is_full_depth: true
+subdevice_role: parent
+description: 'ASR-9006-AC Cisco ASR 9006 Series Chassis '
+comments: '##  [Cisco ASR 9006-AC Series Aggregation Services Routers Data Sheet]
+
+
+######  Model	             : ASR-9006-AC
+
+######  Type	             : Cisco ASR-9006 AC Chassis
+ 
+######  Slots	             : 4 Line Cards
+
+######  	                 : 2 RSPs
+
+######  Rack Size	         : 10 RU
+
+######  Max Capacity        : 7 Tbps
+
+######  Size (H x W x D)    : 17.5 in. x 17.5 in. x 28.65 in.
+
+######  Weight              : · 89.55 lb (40.7 kg) (chassis with PEM)
+
+######  Power	AC            : 3 kW power module
+
+######  DC                  : 1.5 kW or 2.1 kW power modules
+
+######  Airflow		          : Side to Side (Front to Back Option)
+
+######  RSP / RP            : 2 (1+1 RSP redundancy)
+
+######  Fabric Architecture	: 	1+1 fabric redundancy
+
+######  Software	          : IOS XR
+
+
+(https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501767.html)'
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS3
+    type: iec-60320-c14
+    maximum_draw: 3000
+module-bays:
+  - name: Slot 0
+    label: RSP 0
+  - name: Slot 1
+    label: RSP 1
+  - name: Slot 2
+    label: Line Card 0
+  - name: Slot 3
+    label: Line Card 1
+  - name: Slot 4
+    label: Line Card 2
+  - name: Slot 5
+    label: Line Card 3
