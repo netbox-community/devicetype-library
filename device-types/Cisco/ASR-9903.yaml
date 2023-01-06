@@ -6,8 +6,8 @@ part_number: ASR-9903
 u_height: 3.0
 is_full_depth: true
 subdevice_role: parent
-airflow: "front-to-rear"
-comments: "[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744035.html)"
+airflow: front-to-rear
+comments: '[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744035.html)'
 interfaces:
   - name: HundredGigE0/0/0/0
     type: 100gbase-x-qsfp28
@@ -83,35 +83,35 @@ interfaces:
     type: 10gbase-x-sfpp
 module-bays:
   - name: 0/0/1
-    position: "1"
+    position: '1'
     description: Line Card slot
   - name: 0/FT0
-    position: "0"
+    position: '0'
     description: Fan tray
   - name: 0/FT1
-    position: "1"
+    position: '1'
     description: Fan tray
   - name: 0/FT2
-    position: "2"
+    position: '2'
     description: Fan tray
   - name: 0/FT3
-    position: "3"
+    position: '3'
     description: Fan tray
   - name: 0/PT0-PM0
-    position: "0"
+    position: '0'
     description: Power module
   - name: 0/PT0-PM1
-    position: "1"
+    position: '1'
     description: Power module
   - name: 0/PT0-PM2
-    position: "2"
+    position: '2'
     description: Power module
   - name: 0/PT0-PM3
-    position: "3"
+    position: '3'
     description: Power module
   - name: 0/RP0
-    position: "0"
+    position: '0'
     description: Route Processor
   - name: 0/RP1
-    position: "1"
+    position: '1'
     description: Route Processor
