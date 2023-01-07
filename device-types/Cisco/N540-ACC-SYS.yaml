@@ -7,29 +7,27 @@ u_height: 1
 is_full_depth: false
 module-bays:
   - name: 0/PM0
-    position: "0"
+    position: '0'
     description: Power module
   - name: 0/PM1
-    position: "1"
+    position: '1'
     description: Power module
   - name: 0/FT0
-    position: "0"
+    position: '0'
     description: Fan tray
   - name: 0/FT1
-    position: "1"
+    position: '1'
     description: Fan tray
   - name: 0/FT2
-    position: "2"
+    position: '2'
     description: Fan tray
   - name: 0/FT3
-    position: "3"
+    position: '3'
     description: Fan tray
 console-ports:
   - name: con0
     type: rj-45
-    description:
-      'Serial Console port, default: Baud rate (TX/RX) is 115200, "No" Parity,
-      2 stopbits, 8 databits'
+    description: 'Serial Console port, default: Baud rate (TX/RX) is 115200, "No" Parity, 2 stopbits, 8 databits'
 interfaces:
   - name: TenGigE0/0/0/0
     type: 10gbase-x-sfpp
