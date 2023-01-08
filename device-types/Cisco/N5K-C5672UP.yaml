@@ -1,9 +1,43 @@
 ---
 manufacturer: Cisco
-model: Nexus 5672UP
+model: N5K 5672UP
 slug: n5k-c5672up
 part_number: N5K-C5672UP
 u_height: 1
+subdevice_role: parent
+is_full_depth: true
+description: 'Nexus 5672UP Chassis, 1RU, 32 p 10-Gbps SFP+, 16 Unified Ports, 6p 40G QSFP+'
+comments: '##  	N5K-C5672UP - Cisco Nexus 5000 Series Switch  
+
+#####  Form factor  : 1-rack unit
+
+#####  Number of ports : Up to 1152 with FEX 
+
+#####  10 GE : 48 ports
+
+#####  40 GE   : 6 true QSFP ports
+
+#####  Unified ports
+
+#####  16 ports (Ethernet; FCoE; 2/4/8-gigabit FC)
+
+#####  Power Supplies : two 1+1 redundant, hot-swappable power supplies 
+
+#####  Physical (height x width x depth) : 1.75 x 17.3 x 30 in. (4.4 x 43.9 x 76.2 cm)
+
+#####  Weight : 32 lb (2 power supplies)
+
+'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -116,11 +150,3 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet2/6
     type: 40gbase-x-qsfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14
-console-ports:
-  - name: Console
-    type: rj-45
