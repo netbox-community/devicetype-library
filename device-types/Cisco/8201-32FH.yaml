@@ -10,6 +10,13 @@ comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/
 console-ports:
   - name: con0
     type: rj-45
+module-bays:
+  - name: PM0
+    position: '0/PM0'
+    description: Power module
+  - name: PM1
+    position: '0/PM1'
+    description: Power module
 interfaces:
   - name: FourHundredGigE0/0/0/0
     type: 400gbase-x-qsfpdd
@@ -78,10 +85,4 @@ interfaces:
   - name: MgmtEth0/RP0/CPU0/0
     type: 1000base-t
     mgmt_only: true
-module-bays:
-  - name: PM0
-    position: '0'
-    description: Power module
-  - name: PM1
-    position: '1'
-    description: Power module
+

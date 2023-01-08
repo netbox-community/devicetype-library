@@ -4,43 +4,43 @@ model: A9903-20HG-PEC
 part_number: A9903-20HG-PEC
 comments: "[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744035.html)"
 interfaces:
-  - name: HundredGigE0/0/{module}/0
+  - name: HundredGigE{module}/0
     type: 400gbase-x-qsfpdd
-  - name: HundredGigE0/0/{module}/1
+  - name: HundredGigE{module}/1
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/2
+  - name: HundredGigE{module}/2
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/3
+  - name: HundredGigE{module}/3
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/4
+  - name: HundredGigE{module}/4
     type: 400gbase-x-qsfpdd
-  - name: HundredGigE0/0/{module}/5
+  - name: HundredGigE{module}/5
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/6
+  - name: HundredGigE{module}/6
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/7
+  - name: HundredGigE{module}/7
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/8
+  - name: HundredGigE{module}/8
     type: 400gbase-x-qsfpdd
-  - name: HundredGigE0/0/{module}/9
+  - name: HundredGigE{module}/9
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/10
+  - name: HundredGigE{module}/10
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/11
+  - name: HundredGigE{module}/11
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/12
+  - name: HundredGigE{module}/12
     type: 400gbase-x-qsfpdd
-  - name: HundredGigE0/0/{module}/13
+  - name: HundredGigE{module}/13
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/14
+  - name: HundredGigE{module}/14
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/15
+  - name: HundredGigE{module}/15
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/16
+  - name: HundredGigE{module}/16
     type: 400gbase-x-qsfpdd
-  - name: HundredGigE0/0/{module}/17
+  - name: HundredGigE{module}/17
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/18
+  - name: HundredGigE{module}/18
     type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/{module}/19
+  - name: HundredGigE{module}/19
     type: 100gbase-x-qsfp28
