@@ -1,27 +1,94 @@
 ---
 manufacturer: Cisco
-model: Catalyst 9300-24UX
+model: Catalyst C9300-24UX
 part_number: C9300-24UX
 slug: c9300-24ux
 u_height: 1
 is_full_depth: true
-comments: '[Cisco Catalyst 9300 Series Switches Data Sheet] <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html> '
+subdevice_role: parent
+airflow: front-to-rear
+comments: '# [Cisco Catalyst 9300 Series Switches Data Sheet] | 
+
+
+### Product Code : C9300-24UX
+
+
+### Product Description: 
+
+
+####	Catalyst 9300 24-port Multigigabit Ethernet and UPOE, Network Essentials
+
+
+#### Total 10/100/1000 or Multigigabit copper ports 
+
+
+#### 24 Multigigabit Cisco UPOE (100 Mbps or 1, 2.5, 5, or 10 Gbps)
+
+
+#### Cisco UPOE (60W per port) & IEEE 802.3bt type3 on all ports 
+
+
+#### Packet buffer per SKU : 32 MB buffer for 24 and 48-port Multigigab
+
+
+###  Cisco StackWise-480  : YES
+
+
+###  Cisco StackPower : YES
+
+
+### Switching capacity: 208 Gbps - 640 Gbps 
+
+
+### Forwarding rate : 154.76 Mpps - 476.19 Mpps 
+
+
+### Stacking bandwidth: 480 Gbps 
+
+
+### Mean time between failures (hours): 299,000
+
+
+### Default AC power supply: 1100W AC
+
+
+### Available PoE power: 560W
+
+
+### Dimensions (H x W x D): 1.73 x 17.5 x 18.5 Inches
+
+
+### Weight: 18.18 Pounds 
+
+  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.pdf> 
+
+
+  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-architecture-cte-en.html> 
+
+
+  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html>
+
+
+  <https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/hardware/install/b_c9300_hig/b_c9300_hig_chapter_010.html> 
+
+  '
 console-ports:
   - name: Rear con 0
     type: rj-45
-  - name: USB Mini Console
+  - name: Front USB Mini Console
     type: usb-mini-b
-  - name: USB Port
+  - name: Front USB Port
     type: usb-a 
 power-ports:
-  - name: PS-A
+  - name: PSU-2
     type: iec-60320-c16
     maximum_draw: 1100
-  - name: PS-B
+  - name: PSU-1
     type: iec-60320-c16
     maximum_draw: 1100
 interfaces:
   - name: GigabitEthernet0/0
+    Description: MGMT (RJ-45 10/100/1000 management port) 
     type: 1000base-t
     mgmt_only: true
   - name: TenGigabitEthernet1/0/1
@@ -72,13 +139,19 @@ interfaces:
     type: 10gbase-t
   - name: TenGigabitEthernet1/0/24
     type: 10gbase-t
-  - name: STACK0
-    type: cisco-stackwise-480
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-480
-    mgmt_only: false
-  module-bays:
-  - name: Network Module
+module-bays:
+  - name: Network module slots
+    Description: 'Listing of Network Module C9300-NM-4G, C9300-NM-4G, C9300-NM-8X, C9300-NM-2Q, C9300-NM-4M or C9300-NM-BLANK'
     position: '1'
-  
+  - name: STACK0
+    Description: '(Optional) StackWise-480/1T cable (0.5-meter, 1-meter, or 3-meter)'
+    type: cisco-stackwise-480
+  - name: STACK1
+    Description: '(Optional) StackWise-480/1T cable (0.5-meter, 1-meter, or 3-meter)'
+    type: cisco-stackwise-480
+  - name: Rear SSD Module
+    Description: 'USB 3.0 SSD:  SSD-120G  or  SSD-240G only C9300X '
+  - name: StackPower0
+    Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
+  - name: StackPower1
+    Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
