@@ -1,0 +1,18 @@
+---
+manufacturer: Ubiquiti
+model: Unifi U6 Access Point Professional
+part_number: U6-PRO-US
+slug: u6-pro
+u_height: 0
+is_full_depth: false
+comments: '[UniFi 6 Professional Access Point](https://store.ui.com/products/unifi-ap6-professional)'
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    mgmt_only: true
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ac

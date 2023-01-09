@@ -1,0 +1,14 @@
+---
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+      time: '02:00'
+      timezone: America/New_York
+    labels:
+      - dependencies
+    target-branch: master
+    assignees:
+        - "danner26"

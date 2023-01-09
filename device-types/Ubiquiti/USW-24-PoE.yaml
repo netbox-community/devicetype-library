@@ -10,38 +10,70 @@ comments: |
 u_height: 1
 is_full_depth: false
 interfaces:
-  - name: Port 1 (PoE)
+  - name: Port 1
     type: 1000base-t
-  - name: Port 2 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
     type: 1000base-t
-  - name: Port 3 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
     type: 1000base-t
-  - name: Port 4 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
     type: 1000base-t
-  - name: Port 5 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
     type: 1000base-t
-  - name: Port 6 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
     type: 1000base-t
-  - name: Port 7 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
     type: 1000base-t
-  - name: Port 8 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
     type: 1000base-t
-  - name: Port 9 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 9
     type: 1000base-t
-  - name: Port 10 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 10
     type: 1000base-t
-  - name: Port 11 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 11
     type: 1000base-t
-  - name: Port 12 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 12
     type: 1000base-t
-  - name: Port 13 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 13
     type: 1000base-t
-  - name: Port 14 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 14
     type: 1000base-t
-  - name: Port 15 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 15
     type: 1000base-t
-  - name: Port 16 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 16
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 17
     type: 1000base-t
   - name: Port 18
