@@ -1,7 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Dream Machine Pro
-slug: udm-pro
+slug: unifi-dream-machine-pro
 airflow: front-to-rear
 part_number: UDM-Pro
 comments: |
@@ -45,9 +45,8 @@ interfaces:
     label: Port 10 - SFP+ WAN 2
   - name: port.11
     type: 10gbase-x-sfpp
-    label: Port 11 - SFP+ LAN
 power-ports:
-  - name: Supply
+  - name: ps1
     type: iec-60320-c14
     maximum_draw: 33
     description: 100-240VAC/50-60 Hz
