@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: FPR4K-NM-2X100G
+part_number: FPR4K-NM-2X100G
+comments: '[Cisco Firepower 4110, 4120, 4140, and 4150 Hardware Installation Guide](https://www.cisco.com/c/en/us/td/docs/security/firepower/4100/hw/guide/b_install_guide_4100/overview.html)'
+interfaces:
+  - name: Ethernet{module}/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet{module}/2
+    type: 100gbase-x-qsfp28

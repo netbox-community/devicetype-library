@@ -10,102 +10,198 @@ comments: |
 u_height: 1
 is_full_depth: true
 interfaces:
-  - name: Port 1 (PoE)
+  - name: Port 1
     type: 1000base-t
-  - name: Port 2 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
     type: 1000base-t
-  - name: Port 3 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
     type: 1000base-t
-  - name: Port 4 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
     type: 1000base-t
-  - name: Port 5 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
     type: 1000base-t
-  - name: Port 6 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
     type: 1000base-t
-  - name: Port 7 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
     type: 1000base-t
-  - name: Port 8 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
     type: 1000base-t
-  - name: Port 9 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 9
     type: 1000base-t
-  - name: Port 10 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 10
     type: 1000base-t
-  - name: Port 11 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 11
     type: 1000base-t
-  - name: Port 12 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 12
     type: 1000base-t
-  - name: Port 13 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 13
     type: 1000base-t
-  - name: Port 14 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 14
     type: 1000base-t
-  - name: Port 15 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 15
     type: 1000base-t
-  - name: Port 16 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 16
     type: 1000base-t
-  - name: Port 17 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 17
     type: 1000base-t
-  - name: Port 18 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 18
     type: 1000base-t
-  - name: Port 19 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 19
     type: 1000base-t
-  - name: Port 20 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 20
     type: 1000base-t
-  - name: Port 21 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 21
     type: 1000base-t
-  - name: Port 22 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 22
     type: 1000base-t
-  - name: Port 23 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 23
     type: 1000base-t
-  - name: Port 24 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 24
     type: 1000base-t
-  - name: Port 25 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 25
     type: 1000base-t
-  - name: Port 26 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 26
     type: 1000base-t
-  - name: Port 27 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 27
     type: 1000base-t
-  - name: Port 28 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 28
     type: 1000base-t
-  - name: Port 29 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 29
     type: 1000base-t
-  - name: Port 30 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 30
     type: 1000base-t
-  - name: Port 31 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 31
     type: 1000base-t
-  - name: Port 32 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 32
     type: 1000base-t
-  - name: Port 33 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 33
     type: 1000base-t
-  - name: Port 34 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 34
     type: 1000base-t
-  - name: Port 35 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 35
     type: 1000base-t
-  - name: Port 36 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 36
     type: 1000base-t
-  - name: Port 37 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 37
     type: 1000base-t
-  - name: Port 38 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 38
     type: 1000base-t
-  - name: Port 39 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 39
     type: 1000base-t
-  - name: Port 40 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 40
     type: 1000base-t
-  - name: Port 41 (PoE)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 41
     type: 1000base-t
-  - name: Port 42 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 42
     type: 1000base-t
-  - name: Port 43 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 43
     type: 1000base-t
-  - name: Port 44 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 44
     type: 1000base-t
-  - name: Port 45 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 45
     type: 1000base-t
-  - name: Port 46 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 46
     type: 1000base-t
-  - name: Port 47 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 47
     type: 1000base-t
-  - name: Port 48 (PoE)
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 48
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: SFP+ 49
     type: 10gbase-x-sfpp
   - name: SFP+ 50
