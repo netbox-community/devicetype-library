@@ -15,41 +15,60 @@ that will check for duplicates, allow you to selectively import vendors, etc. av
 
 ## Device Type Definitions
 
-Each definition must include at minimum the following fields:
+Each definition **must** include at minimum the following fields:
 
 - `manufacturer`: The name of the manufacturer which produces this device type.
+  - Type: String
 - `model`: The model number of the device type. This must be unique per manufacturer.
+  - Type: String
 - `slug`: A URL-friendly representation of the model number. Like the model number, this must be unique per
   manufacturer.
+  - Type: String
+  - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
 
-The following fields may optionally be declared:
+The following fields may **optionally** be declared:
 
-- `part_number`: An alternative representation of the model number (e.g. a SKU).
-- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (Default: 1)
-- `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces.
-  (Default: true)
-- `subdevice_role`: Indicates that this is a `parent` or `child` device. (Default: None)
+- `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
+  - Type: String
+- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
+  - Type: number (minimum of `0`, multiple of `0.5`)
+- `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
+  - Type: Boolean
+- `airflow`: A decleration of the airflow pattern for the device. (**Default: None**)
+  - Type: String
+  - Options:
+    - `front-to-rear`
+    - `rear-to-front`
+    - `left-to-right`
+    - `right-to-left`
+    - `side-to-rear`
+    - `passive`
+- `subdevice_role`: Indicates that this is a `parent` or `child` device. (**Default: None**)
+  - Type: String
+  - Options:
+    - `parent`
+    - `child`
+- `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
+  - Type: String
 
 For further detail on these attributes and those listed below, please reference the
-[schema definitions](schema/).
+[schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
 
 ### Component Definitions
 
 Valid component types are listed below. Each type of component must declare a list of the individual component templates
 to be added.
 
-- `console-ports`
-- `console-server-ports`
-- `power-ports`
-- `power-outlets`
-- `interfaces`
-- `rear-ports`
-- `front-ports`
-- `module-bays`*
-- `device-bays`
-- `inventory-items`*
-
-*Supported on NetBox v3.2 or later.
+- [`console-ports`](#console-ports "Availible in NetBox 2 and later")
+- [`console-server-ports`](#console-server-ports "Availible in NetBox 2.2 and later")
+- [`power-ports`](#power-ports "Availible in NetBox 1.7 and later")
+- [`power-outlets`](#power-outlets "Availible in NetBox 2 and later")
+- [`interfaces`](#interfaces "Availible in all versions of NetBox")
+- [`front-ports`](#front-ports "Availible in NetBox 2.5 and later")
+- [`rear-ports`](#rear-ports "Availible in NetBox 2.5 and later")
+- [`module-bays`](#module-bays "Availible in NetBox 3.2 and later")
+- [`device-bays`](#device-bays "Availible in all versions of NetBox")
+- [`inventory-items`](#inventory-items "Availible in NetBox 3.2 and later")
 
 The available fields for each type of component are listed below.
 
@@ -125,11 +144,19 @@ The available fields for each type of component are listed below.
 
 There are two ways this repo focuses on keeping quality device-type definitions:
 
-- Pre-Commit Checks - Optional for helping to identify simple issues before committing. (trailing-whitespace, end-of-file-fixer, check-yaml, yamlfmt, yamllint)
-  - [Install pre-commit](https://pre-commit.com/#install) (`pip install pre-commit`)
-  - To install the pre-commit script `pre-commit install`
-  - To run the pre-commit script on changed files `pre-commit run`
-  - To run the pre-commit script on all files `pre-commit run --all`
-  - To uninstall the pre-commit script `pre-commit uninstall`
+- **Pre-Commit Checks** - Optional, but **highly recommended**, for helping to identify simple issues before committing. (trailing-whitespace, end-of-file-fixer, check-yaml, yamlfmt, yamllint)
+  - Installation
+    - Virtual Environment Route
+      - It is recommended to create a virtual env for your repo (`python3 -m venv venv`)
+      - Install the required pip packages (`pip install -r requirements.txt`)
+      - Continue to the "Install `pre-commit` Hooks"
+    - `pre-commit` Only Route
+      - [Install pre-commit](https://pre-commit.com/#install) (`pip install pre-commit`)
+    - Install `pre-commit` Hooks
+      - To install the pre-commit script: `pre-commit install`
+  - Usage & Useful `pre-commit` Commands
+    - After staging your files with `git`, to run the pre-commit script on changed files: `pre-commit run`
+    - To run the pre-commit script on all files: `pre-commit run --all`
+    - To uninstall the pre-commit script: `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
-- GitHub Actions - Automatically run before a PR can be merged.  Repeats yamllint & validates against NetBox Device-Type Schema.
+- **GitHub Actions** - Automatically run before a PR can be merged. Repeats yamllint & validates against NetBox Device-Type Schema.
