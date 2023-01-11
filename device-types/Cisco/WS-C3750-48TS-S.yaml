@@ -110,6 +110,10 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/0/4
     type: 1000base-x-sfp
+  - name: Stack 1
+    type: cisco-stackwise
+  - name: Stack 2
+    type: cisco-stackwise
 power-ports:
   - name: PSU0
     type: iec-60320-c14
