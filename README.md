@@ -33,8 +33,10 @@ The following fields may **optionally** be declared:
 > :test_tube: **Example**: `part_number: D109-C3`
 - `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
   - Type: number (minimum of `0`, multiple of `0.5`)
+> :test_tube: **Example**: `u_height: 12.5` 
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
   - Type: Boolean
+> :test_tube: **Example**: `is_full_depth: false`
 - `airflow`: A decleration of the airflow pattern for the device. (**Default: None**)
   - Type: String
   - Options:
@@ -44,13 +46,16 @@ The following fields may **optionally** be declared:
     - `right-to-left`
     - `side-to-rear`
     - `passive`
+> :test_tube: **Example**: `airflow: side-to-rear`
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (**Default: None**)
   - Type: String
   - Options:
     - `parent`
     - `child`
+> :test_tube: **Example**: `subdevice_role: parent`
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
+> :test_tube: **Example**: `comments: This is a comment that will appear on all NetBox devices of this type`
 
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
