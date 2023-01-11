@@ -30,6 +30,7 @@ The following fields may **optionally** be declared:
 
 - `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
   - Type: String
+> :bulb: **Example**: `part_number: D109-C3`
 - `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
   - Type: number (minimum of `0`, multiple of `0.5`)
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
@@ -76,19 +77,19 @@ The available fields for each type of component are listed below.
 
 - `name`: Name
 - `label`: Label
-- `type`: Port type slug (API value)
+- `type`: Port type slug (Array)
 
 #### Console Server Ports
 
 - `name`: Name
 - `label`: Label
-- `type`: Port type slug (API value)
+- `type`: Port type slug (Array)
 
 #### Power Ports
 
 - `name`: Name
 - `label`: Label
-- `type`: Port type slug (API value)
+- `type`: Port type slug (Array)
 - `maximum_draw`: The port's maximum power draw, in watts (optional)
 - `allocated_draw`: The port's allocated power draw, in watts (optional)
 
@@ -96,7 +97,7 @@ The available fields for each type of component are listed below.
 
 - `name`: Name
 - `label`: Label
-- `type`: Port type slug (API value)
+- `type`: Port type slug (Array)
 - `power_port`: The name of the power port on the device which powers this outlet (optional)
 - `feed_leg`: The phase (leg) of power to which this outlet is mapped; A, B, or C (optional)
 
@@ -104,14 +105,14 @@ The available fields for each type of component are listed below.
 
 - `name`: Name
 - `label`: Label
-- `type`: Interface type slug (API value)
+- `type`: Interface type slug (Array)
 - `mgmt_only`: A boolean which indicates whether this interface is used for management purposes only (default: false)
 
 #### Front Ports
 
 - `name`: Name
 - `label`: Label
-- `type`: Port type slug (API value)
+- `type`: Port type slug (Array)
 - `rear_port`: The name of the rear port on this device to which the front port maps
 - `rear_port_position`: The corresponding position on the mapped rear port (default: 1)
 
@@ -119,7 +120,7 @@ The available fields for each type of component are listed below.
 
 - `name`: Name
 - `label`: Label
-- `type`: Port type slug (API value)
+- `type`: Port type slug (Array)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
 
 #### Module Bays
