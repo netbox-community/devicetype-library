@@ -94,6 +94,13 @@ The available fields for each type of component are listed below.
 - `name`: Name
 - `label`: Label
 - `type`: Port type slug (Array)
+> :test_tube: **Example**:
+>```
+>console-ports:
+>  - name: Console
+>    label: DE-9 Console
+>    type: de-9
+>```
 
 #### Console Server Ports
 
