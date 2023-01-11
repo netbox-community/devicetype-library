@@ -25,6 +25,15 @@ Each definition **must** include at minimum the following fields:
   manufacturer.
   - Type: String
   - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
+<blockquote>
+:test_tube: **Valid Example**:
+
+```
+manufacturer: Dell
+model: PowerEdge R6515
+slug: dell-poweredge-r6515
+```
+</blockquote>
 
 The following fields may **optionally** be declared:
 
