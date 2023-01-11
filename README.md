@@ -30,7 +30,7 @@ The following fields may **optionally** be declared:
 
 - `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
   - Type: String
-> :example: **Example**: `part_number: D109-C3`
+> :test_tube: **Example**: `part_number: D109-C3`
 - `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
   - Type: number (minimum of `0`, multiple of `0.5`)
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
