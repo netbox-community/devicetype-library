@@ -1,0 +1,39 @@
+---
+manufacturer: APC
+model: SUM48RMXLBP2U
+slug: sum48rmxlbp2u
+part_number: SUM48RMXLBP2U
+subdevice_role: parent
+comments: |
+  ### APC Smart-UPS XL Extended Run Battery Pack 48V, VRLA, rackmount, 2U
+  
+  The [APC SUM48RMXLBP2U] has two battery sleds. Each Sled attached to the chassis via an [Anderson Power] connector: [sbr-50].
+  
+  Connection to the UPS is done with a larger [Anderson Power] connector [sbr-120].
+  Connection to additional battery units facilitated via  a pair of sbr-50 connectors chained together.  
+  
+  **Note:** I could not find a link for this specific connector. I believe it's simply two SBS50 plugs strapped together.
+
+  #### Connections
+  
+  | Battery Connector  | UPS Connector | Additional Battery Connector |
+  |:------------------:|:--------------|:---------------------------: |
+  | **RBC43** [sbr-50] |   [sbr-120]   | [dual-sbr-50] |
+  
+  
+  [Anderson Power]: <https://www.andersonpower.com>
+  [APC SUM48RMXLBP2U]: <https://www.apc.com/us/en/product/SUM48RMXLBP2U/apc-smartups-xl-extended-run-battery-pack-48v-vrla-rackmount-2u/>
+  [sbr-50]: <https://www.andersonpower.com/us/en/shop/wire-to-panel/sbr/sbr-50.html>
+  [dual-sbr-50]: <https://www.andersonpower.com/us/en/shop/wire-to-panel/sbr/sbr-50.html>
+  [sbr-120]: <https://www.andersonpower.com/us/en/shop/wire-to-panel/sbr/sbr-120.html>
+u_height: 2
+power-ports:
+  - name: UPS-Connector
+    type: sbr-120
+  - name: Additional Battery
+    type: dual-sbr-50
+module-bays: 
+  - name: BatteryTray-1
+    label: 'RBC43 Bay'
+  - name: BatteryTray-2
+    label: 'RBC43 Bay'

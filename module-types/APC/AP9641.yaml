@@ -2,8 +2,57 @@
 manufacturer: APC
 model: AP9641
 part_number: AP9641
-comments: UPS Network Management Card 3 with Environmental Monitoring
+comments: |
+  # APC AP9641
+  ## UPS Network Management Card 3 with Environmental Monitoring
+
+  The [Product Specifications] link, in conjunction with the [Datasheet] will provide the following information:
+  ### The AP9640 Network Management Card:
+  • Provides UPS control and self-test scheduling features.
+  • Provides data and event logs.
+  • Enables you to set up notifications through event logging, e-mail, Syslog and SNMP traps.
+  • Provides support for PowerChute® Network Shutdown.
+  • Supports using a Dynamic Host Configuration Protocol (DHCP) or BOOTstrap Protocol (BOOTP) server to provide the network (TCP/IP) values of the NMC.
+  • Provides the ability to export a user configuration (.ini) file from a configured card to one or more unconfigured cards without converting the file to a binary file.
+  • Provides a selection of security protocols for authentication and encryption.
+  • Communicates with StruxureWare Data Center Expert, StruxureWare Operations, or EcoStruxureTM IT.
+  • Supports Modbus TCP/IP.
+  • Supports BACnet/IP.
+  ### The AP9641 Network Management Card includes all AP9640 Network Management Card features and the following:
+  • Provides two USB ports, which support upgrading the NMC and UPS firmware from a USB flash drive, and the optional APC USB Wi-Fi Device (AP9834).
+  • Supports two universal input/output ports, to which you can connect:
+    – Temperature (AP9335T) or temperature/humidity sensors (AP9335TH)
+    – Relay input/output connectors that support two input contacts and one output relay (using the AP9810 Dry Contact I/O Accessory, which is an optional add-on)
+  • Supports Modbus RTU via Universal I/O port 2, in addition to Modbus TCP/IP. For information on how to configure Modbus RTU refer to the Modbus Documentation Addendum.
+  #### The Network Management Card 3 is compatible with:
+  • Smart-UPS® devices with a SmartSlot with the SUM, SURT, SURTA, SURTD, SMT, SMX, and SRT prefixes, and SUA devices manufactured after 2008 *.
+  • Single phase Symmetra® UPS devices.
+  * To view the full list of compatible UPS in which an NMC 3 can be installed, see Knowledge Base article [FA237786] on the [APC website].
+  
+  The [User Guide] has a bit more information if needed.
+  
+  [APC Website]: <http://www.apc.com/support>
+  [Product Specifications]: <https://www.apc.com/us/en/product/AP9641/ups-network-management-card-3-with-environmental-monitoring/>
+  [Datasheet]: <https://www.apc.com/us/en/product/download-pdf/AP9641>
+  [User Guide]: <https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=990-91148G-EN.pdf&p_Doc_Ref=SPD_CCON-AYCEFJ_EN>
+  [FA237786]: <http://www.apc.com/us/en/faqs/FA237786/>
 interfaces:
   - name: Network
     type: 1000base-t
     mgmt_only: true
+console-ports:
+  - name: console
+    label: console
+    type: usb-micro-b
+console-server-port:
+  - name: 'Universal I/O 1'
+    type: rj-45
+    label: 'Universal I/O port 1'
+  - name: 'Universal I/O 2'
+    type: rj-45
+    label: 'Universal I/O port 2'
+  - name: 'USB1'
+    type: usb-a
+  - name: 'USB2'
+    type: usb-a
+

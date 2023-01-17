@@ -1,0 +1,53 @@
+---
+manufacturer: APC
+model: RBC43
+part_number: RBC43
+subdevice_role: child
+slug: rbc43
+comments: |
+  ### APC Replacement Battery Cartridge
+  
+  The RBC43 mounts inside many APC UPSes, as well as several APC external extended-runtime battery units.
+  It connects to the chassis via an [Anderson Power] connector: [sbr-50]
+  [Product Link]
+  
+  | Power | Voltage |
+  |:------|:-------:|
+  | 10Ah  | 48V DC  |
+  
+  | Connector  |
+  |:----------:|
+  | [sbr-50]   |
+
+  
+  
+  #### Replacement Batteries 
+
+  | Quantity |     Type     |
+  |:--------:|:------------:|
+  | 8        | 12v 5.5ah t2 |
+  
+  [Anderson Power]: <https://www.andersonpower.com>
+  [Product Link]: <https://www.apc.com/us/en/product/RBC43/apc-replacement-battery-cartridge-vrla-battery-10ah-48vdc-2year-warranty/>
+  [sbr-50]: <https://www.andersonpower.com/us/en/shop/wire-to-panel/sbr/sbr-50.html>
+
+power-ports:
+  - name: 'Battery Pack Connector'
+    type: 'sbr-50'
+inventory-items:
+  - name: 'battery-01'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-02'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-03'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-04'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-05'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-06'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-07'
+    label: 'Battery 12v 5.5ah t2'
+  - name: 'battery-08'
+    label: 'Battery 12v 5.5ah t2'

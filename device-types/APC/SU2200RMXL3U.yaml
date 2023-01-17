@@ -1,0 +1,83 @@
+---
+manufacturer: APC
+model: Smart-UPS XL SU2200 RM 3U
+slug: smart-ups-su2200rm-xl
+subdevice_role: parent
+part_number: SU2200RMXL3U
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  ### APC Smart-UPS 2200VA XL RM
+  
+  The SU2200 XL is a 3u UPS with one internal RBC43.  
+  It supports an APC Network Management card in the form of a smartslot.
+  It connects to mains power via a [nema-l5-30p] connector.
+  The RBC43 connects to the UPS via an [Anderson Power] connector: [sbr-50]  
+  The SU2200 XL supports additional battery units via an [Anderson Power] connector: [sbr-120]  
+  
+  
+  
+  [Product Link]
+  
+  | Source | Voltage |   Connector   |
+  |:-------|:-------:|:--------------|
+  |  Mains |  110AC  | [nema-l5-30p] |
+  
+
+  |     Source    | Voltage |   Connector   |
+  |:--------------|:-------:|:--------------|
+  | Internal Batt | 48V DC  |   [sbr-50]    |
+  | External Batt | 48V DC  |   [sbr-120]   |
+
+  
+  
+  #### Replacement Batteries 
+
+  | Quantity |     Type     |
+  |:--------:|:------------:|
+  | 8        | 12v 5.5ah t2 |
+  
+  [Anderson Power]: <https://www.andersonpower.com>
+  [Product Link]: <https://www.apc.com/us/en/product/SU2200RMXL3U/apc-smartups-xl-2200-va-rm-3u-120v/>
+  [sbr-50]: <https://www.andersonpower.com/us/en/shop/wire-to-panel/sbr/sbr-50.html>
+  [nema-l5-50p]: <https://www.grainger.com/category/electrical/electrical-supplies/plugs-and-connectors/locking-plugs?attrs=NEMA+Plug+Configuration+-+Plugs+and+Receptacles%7CL5-30P&filters=attrs>
+
+u_height: 3
+module-bays:
+  - name: SmartSlot
+    label: 'Expansion Bay'
+  - name: BatteryTray
+    label: 'RBC43 Bay'
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Inlet
+    type: nema-l5-50p
+  - name: 'External Battery'
+    type: sbr-50
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-5-20r
+    power_port: Inlet
+  - name: Group 1 Outlet 2
+    type: nema-5-20r
+    power_port: Inlet
+  - name: Group 2 Outlet 1
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Group 2 Outlet 2
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Group 2 Outlet 3
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Group 3 Outlet 1
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Group 3 Outlet 2
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Group 3 Outlet 3
+    type: nema-5-15r
+    power_port: Inlet
