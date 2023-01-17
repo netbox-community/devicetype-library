@@ -172,9 +172,19 @@ interfaces:
   - name: Mgmt
     type: 1000base-x-sfp
     mgmt_only: true
-device-bays:
-  - name: PSU-1
-  - name: PSU-2
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 750
+module-bays:
   - name: FAN
-  - name: XGM3
-  - name: VIM-2
+    position: FAN
+  - name: SLOT A
+    position: SLOT A
+    description: SLOT A - XGM3S-2xf, XGM3SB-4SF or XGM3SB-2SF
+  - name: SLOT B
+    position: SLOT B
+    description: SLOT B - VIM-2, Stacking ports
