@@ -3,9 +3,7 @@ manufacturer: Extreme Networks
 model: XGM3S-2xf
 part_number: '16117'
 interfaces:
-  - name: '53'
+  - name: '{module}-port1'
     type: 10gbase-x-sfpp
-    mgmt_only: false
-  - name: '54'
+  - name: '{module}-port2'
     type: 10gbase-x-sfpp
-    mgmt_only: false
