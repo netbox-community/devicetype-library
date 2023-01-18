@@ -1,0 +1,135 @@
+---
+manufacturer: NetApp
+model: NS224C
+slug: ns224c
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+comments: ' ###  NetApp NS224C drive shelf - storage enclosure
+
+
+######  Rack units	: 2U
+
+######  Drives per enclosure	: 24
+
+######  Drives per rack unit	: 12
+
+######  Drive form factor	: 2.5" small form factor
+
+######  Drive carrier	: Single drive
+
+Performance disk drives : 900GB, 1.2TB and 1.8TB at 10K RPM
+
+######  Self-encrypting drivesNSE relies on the drive manufacturer for assurance-level certification. Self-encrypting drives (SEDs) used with NetApp® Storage. Encryption (NSE) cannot be mixed with non-encrypting HDDs in the same storage system. MetroCluster is not supported with NSE.	: AES-256 self-encrypting (SED) NVMe SSDs - 1.9TB, 3.8TB ,7 .6TB , 15.3TB AES-256 FIPS 140-2 compliant NVMe SSD 3.8TB, 15.3TB
+
+######  Solid state drives (full and mixed shelf)	: 960GB, 3.8TB, 15.3TB, 30TB, 960GB + 1.8TB, 7.6TB
+
+######  Controller Support	: AFF A800, AFF A700, AFF A700s, AFF A400, AFF A300, AFF A220, AFF A250, AFF A200, AFF 8000 series, FAS9500, FAS9000, FAS8700, FAS8300, FAS8200, FAS8000 series, FAS2700, FAS2600
+
+######  Shelf I/O modules	: Dual IOM12 modules
+
+######  Optical SAS support	: YES
+
+######  Power supply/cooling fans	: Dual, hot-pluggable, integrated power supply/fan assemblies
+
+######  AC input power voltage (autoranging, VRMS)	: 100–120V or 200–240V
+
+######  AC input power frequency	: 50–60 Hz
+
+######  Weight—fully loaded	: 53.8 lbs (24.4 kg)
+
+######  Dimensions	Height: 3.4 in. (8.5 cm) Width: 19 in. (48.0 cm) Depth: 19.1 in. (48.4 cm)
+
+######  Clearance dimensions	Front—cooling: 6 in. (15.3 cm) Front—maintenance: 12 in. (30.5 cm) Rear—cooling and maintenance: 25 in. (63.5 cm)
+
+######  Operating acoustic noise: 	6.4 bels LwAd (2 PCMs)
+
+######  Temperature	Operating: 50° F to 104° F (10° C to 40° C) Nonoperating: –40° F to 158° F (–40° C to 70° C)
+
+######  Relative humidity Operating: 20% to 80% noncondensing; Nonoperating: 10 to 95% noncondensing
+
+######  Altitude Operating: 0 to 10,000 ft (0 to 3,045 m) Nonoperating: –1,000 to 40,000 ft (–305 to 12,192 m)
+
+ '
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+module-bays:
+  - name: NSM-A
+  - name: NSM-B
+interfaces:
+  - name: NSM-A/e0a
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-A/e0b
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-A/e0c
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-A/e0d
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-B/e0a
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-B/e0b
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-B/e0c
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+  - name: NSM-B/e0d
+    type: 100gbase-x-qsfp28
+    description: 'IOM12 SAS - Part number 112-00436 or 112-00437 or 112-00438 '
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'
