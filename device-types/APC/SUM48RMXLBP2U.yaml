@@ -7,43 +7,44 @@ comments: |
   ### APC Battery Expansion Chassis
   ###### Smart-UPS XL Extended Run Battery Pack
   ------
-  
+
   ------
-  
-  The [APC SUM48RMXLBP2U] has two battery sleds. Each Sled attached to the chassis via an [Anderson Power] connector: [sbr-50].  
-  
-  Connection to the UPS is done with a larger [Anderson Power] connector [sbr-120].  
-  Connection to additional battery units facilitated via what appears to be a pair of [sbr-50] connectors chained together.  
-  
+
+  The [APC SUM48RMXLBP2U] has two battery sleds. Each Sled attached to the chassis via an [Anderson Power] connector: [sbr-50].
+
+  Connection to the UPS is done with a larger [Anderson Power] connector [sbr-120].
+
+  Connection to additional battery units facilitated via what appears to be a pair of [sbr-50] connectors chained together.
+
   ------
-  
+
   #### Connections
-  
+
   ------
-  
+
   ###### Battery Sled to Chassis
-  
+
   Battery pack (**RBC43**)  to chassis connector:
   : [sbr-50]
-  
+
   ###### Chassis to UPS
-  
+
   UPS Connector:
-  : [sbr-120] 
-  
+  : [sbr-120]
+
   ###### Additional External Batteries
-  
+
   Connector for additional batteries:
   : [Dual-sbr-50]
-  
-  
-  __**Note:** I could not find a link for this specific connector.  
+
+
+  __**Note:** I could not find a link for this specific connector.
   I believe it's simply two SBS50 plugs strapped together.__
-  
+
   -------
-  
+
   -------
-  
+
   [Anderson Power]: <https://www.andersonpower.com>
   [APC SUM48RMXLBP2U]: <https://www.apc.com/us/en/product/SUM48RMXLBP2U/apc-smartups-xl-extended-run-battery-pack-48v-vrla-rackmount-2u/>
   [sbr-50]: <https://www.andersonpower.com/us/en/shop/wire-to-panel/sbr/sbr-50.html>
@@ -55,7 +56,7 @@ power-ports:
     type: sbr-120
   - name: Additional Battery
     type: dual-sbr-50
-module-bays: 
+module-bays:
   - name: BatteryTray-1
     label: 'RBC43 Bay'
   - name: BatteryTray-2

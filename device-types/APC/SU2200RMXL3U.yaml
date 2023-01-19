@@ -8,39 +8,40 @@ airflow: front-to-rear
 comments: |
   ### APC Smart-UPS 2200VA XL RM
   ------
-  
+
   [Product Link]
-  
-  The SU2200 XL is a 3u UPS with one internal RBC43.  
+
+  The SU2200 XL is a 3u UPS with one internal RBC43.
+
   It supports an APC Network Management card in the form of a smartslot.
   It connects to mains power via a [nema-l5-30p] connector.
-  The RBC43 connects to the UPS via an [Anderson Power] connector: [sbr-50]  
-  The SU2200 XL supports additional battery units via an [Anderson Power] connector: [sbr-120]  
-  
+  The RBC43 connects to the UPS via an [Anderson Power] connector: [sbr-50]
+
+  The SU2200 XL supports additional battery units via an [Anderson Power] connector: [sbr-120]
+
   ------
-  
+
   #### Connectors and Voltages
-  
+
   | Source | Voltage |   Connector   |
   |:-------|:-------:|:--------------|
   |  Mains |  110AC  | [nema-l5-30p] |
-  
-  
+
   |     Source    | Voltage |   Connector   |
   |:--------------|:-------:|:--------------|
   | Internal Batt | 48V DC  |   [sbr-50]    |
   | External Batt | 48V DC  |   [sbr-120]   |
-  
+
   ------
-  
-  #### Replacement Batteries 
-  
+
+  #### Replacement Batteries
+
   | Quantity |     Type     |
   |:--------:|:------------:|
   | 8        | 12v 5.5ah t2 |
-  
+
   ------
-  
+
   ------
   [nema-l5-30p]: <'https://www.grainger.com/category/electrical/electrical-supplies/plugs-and-connectors/locking-plugs?attrs=NEMA+Plug+Configuration+-+Plugs+and+Receptacles%7CL5-30P&filters=attrs'>
   [Anderson Power]: <https://www.andersonpower.com>
