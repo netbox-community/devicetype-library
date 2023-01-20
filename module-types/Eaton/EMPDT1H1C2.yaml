@@ -6,11 +6,9 @@ comments: Environmental Monitoring Probe Gen 2 [Manual](https://www.eaton.com/co
 interfaces:
   - name: EMP{module}/Device
     type: other
-
     label: from device
     description: RJ45 connector for RS485/Modbus connection
   - name: EMP{module}/Sensors
     type: other
-
     label: to sensors
     description: RJ45 connector for RS485/Modbus connection
