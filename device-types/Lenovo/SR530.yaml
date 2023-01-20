@@ -1,0 +1,27 @@
+---
+manufacturer: Lenovo
+model: SR530
+slug: SR530
+part_number: 7X07
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+comments: '[Lenovo ThinkSystem SR530 product guide](https://lenovopress.lenovo.com/lp1045.pdf)'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
