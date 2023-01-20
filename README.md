@@ -63,6 +63,21 @@ The following fields may **optionally** be declared:
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
 > :test_tube: **Example**: `comments: This is a comment that will appear on all NetBox devices of this type`
+- `weight`: An array with a **single** item that allow for a value and unit of measurement to be defined. (**Default: None**)
+  - Type: Array
+  - Value: Number - must be multiple of 0.01
+  - Unit: String
+    - Options:
+        - kg
+        - g
+        - lb
+        - oz
+>:test_tube: **Example**:
+>```
+>weight:
+>  - value: 12.21
+>    unit: lb
+>```
 
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
