@@ -10,28 +10,28 @@ console-ports:
 interfaces:
   - name: Fabric {module}/5/1
     type: 40gbase-x-qsfpp
-    mgmt_only: false
+
   - name: Fabric {module}/5/2
     type: 40gbase-x-qsfpp
-    mgmt_only: false
+
   - name: Fabric {module}/5/3
     type: 40gbase-x-qsfpp
-    mgmt_only: false
+
   - name: Fabric {module}/5/4
     type: 40gbase-x-qsfpp
-    mgmt_only: false
+
   - name: Fabric {module}/1
     type: 10gbase-x-sfpp
-    mgmt_only: false
+
   - name: Fabric {module}/2
     type: 10gbase-x-sfpp
-    mgmt_only: false
+
   - name: Fabric {module}/3
     type: 10gbase-x-sfpp
-    mgmt_only: false
+
   - name: Fabric {module}/4
     type: 10gbase-x-sfpp
-    mgmt_only: false
+
   - name: IOM {module} Mgmt0
     type: 1000base-t
     mgmt_only: true
