@@ -33,6 +33,13 @@
                 "passive"
             ]
         },
+        "weight": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/weight"
+            },
+            "maxItems": 1
+        },
         "subdevice_role": {
             "type": "string",
             "enum": [
