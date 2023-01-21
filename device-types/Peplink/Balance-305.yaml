@@ -15,27 +15,19 @@ power-ports:
 interfaces:
   - name: lan1
     type: 1000base-t
-    mgmt_only: false
   - name: lan2
     type: 1000base-t
-    mgmt_only: false
   - name: lan3
     type: 1000base-t
-    mgmt_only: false
   - name: wan1
     type: 1000base-t
-    mgmt_only: false
   - name: wan2
     type: 1000base-t
-    mgmt_only: false
   - name: wan3
     type: 1000base-t
-    mgmt_only: false
   - name: wan4
     type: other
-    mgmt_only: false
     description: usb wan port
   - name: wan5
     type: other
-    mgmt_only: false
     description: usb wan port
