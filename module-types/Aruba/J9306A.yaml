@@ -1,6 +1,6 @@
 ---
 manufacturer: Aruba
-model: 100-240v 1500w J9306A PSU
+model: J9306A
 part_number: J9306A
 comments: "## Physical characteristics\r\n* Dimensions: 6.05(d) x 7.45(w) x 5.1(h) in. (15.37 x 18.92 x 12.95 cm)\r\n* Weight 7.5 Ib (3.2 kg)\r\n* Electrical\
   \ characteristics\r\n* Voltage: 100-127 VAC/200-240 VAC\r\n* N3xIimum Current. 13 10A\r\n* Maximum power rating: 1500 W\r\n* Frequency range, 50/60 HZ\r\
@@ -10,3 +10,4 @@ comments: "## Physical characteristics\r\n* Dimensions: 6.05(d) x 7.45(w) x 5.1(
 power-ports:
   - name: '{module}'
     type: iec-60320-c14
+    maximum_draw: 1500
