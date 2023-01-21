@@ -18,51 +18,41 @@ power-ports:
 interfaces:
   - name: eth1
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth2
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth3
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth4
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth5
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth6
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth7
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: eth8
     type: 1000base-t
-    mgmt_only: false
     description: |
       Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
   - name: ix0
     type: 10gbase-x-sfpp
-    mgmt_only: false
     description: Intel x553
   - name: ix1
     type: 10gbase-x-sfpp
-    mgmt_only: false
     description: Intel x553
 module-bays:
   - name: pci1
