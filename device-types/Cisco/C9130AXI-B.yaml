@@ -8,10 +8,8 @@ is_full_depth: false
 interfaces:
   - name: WiFi
     type: ieee802.11ax
-    mgmt_only: false
   - name: gigabitEthernet
     type: 5gbase-t
-    mgmt_only: false
 console-ports:
   - name: con 0
     type: rj-45

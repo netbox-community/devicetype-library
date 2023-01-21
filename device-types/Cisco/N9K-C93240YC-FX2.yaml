@@ -9,18 +9,15 @@ console-ports:
   - name: console
     type: rj-45
 power-ports:
-  - name: PSU1
+  - name: Power Supply 1
     type: iec-60320-c14
     maximum_draw: 750
     allocated_draw: 708
-  - name: PSU2
+  - name: Power Supply 2
     type: iec-60320-c14
     maximum_draw: 750
     allocated_draw: 708
 interfaces:
-  - name: mgmt
-    type: 1000base-t
-    mgmt_only: true
   - name: Ethernet1/1
     type: 25gbase-x-sfp28
   - name: Ethernet1/2
@@ -141,3 +138,6 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet1/60
     type: 100gbase-x-qsfp28
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true

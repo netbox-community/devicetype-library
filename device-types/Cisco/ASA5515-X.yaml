@@ -13,22 +13,16 @@ power-ports:
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/1
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/2
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/3
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/4
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/5
     type: 1000base-t
-    mgmt_only: false
   - name: Management0/0
     type: 100base-tx
     mgmt_only: true

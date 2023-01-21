@@ -1,25 +1,23 @@
 ---
 name: Validate definitions
-
-on:
+on: # yamllint disable-line rule:truthy
   pull_request:
     branches:
       - master
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v3
         with:
           python-version: 3.8
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Lint YAML files
-        run: yamllint --format parsable --strict -c=tests/yamllint.yaml device-types/ module-types/
+        run: |
+          yamllint --format github --strict \
+            device-types/ module-types/
       - name: Run tests
         run: pytest --tb=short -v

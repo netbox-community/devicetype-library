@@ -10,25 +10,6 @@ console-ports:
     type: de-9
   - name: COM 2
     type: de-9
-console-server-ports:
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Front USB3
-    type: usb-a
-  - name: Front USB4
-    type: usb-a
-  - name: Front USB5
-    type: usb-a
-  - name: Front USB6
-    type: usb-a
-  - name: Front USB7
-    type: usb-a
-  - name: Front USB8
-    type: usb-a
-  - name: Internal USB1
-    type: usb-a
   - name: VGA
     type: other
   - name: DVI-D
@@ -37,7 +18,6 @@ console-server-ports:
     type: other
   - name: Audio 3.5m plug
     type: other
-
 interfaces:
   - name: enp5s0
     type: 1000base-t

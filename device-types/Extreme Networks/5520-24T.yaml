@@ -2,7 +2,7 @@
 manufacturer: Extreme Networks
 model: 5520-24T
 slug: 5520-24t
-part_number: '5520-24T'
+part_number: 5520-24T
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -11,13 +11,6 @@ console-ports:
     type: rj-45
   - name: Console_USB
     type: usb-micro-b
-console-server-ports:
-  - name: USB-Storage1
-    type: usb-a
-    description: 'for management or external USB flash'
-  - name: USB-Storage2
-    type: usb-a
-    description: 'for management or external USB flash'
 interfaces:
   - name: '1'
     type: 1000base-t

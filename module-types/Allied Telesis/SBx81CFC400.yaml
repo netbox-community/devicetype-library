@@ -1,0 +1,11 @@
+---
+manufacturer: Allied Telesis
+model: SBx81CFC400
+part_number: AT-SBx81CFC400
+console-ports:
+  - name: Console (Slot {module})
+    type: rj-45
+interfaces:
+  - name: eth0 (Slot {module})
+    type: 1000base-t
+    mgmt_only: true

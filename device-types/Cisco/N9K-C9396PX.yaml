@@ -104,7 +104,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/48
     type: 10gbase-x-sfpp
-
   - name: Ethernet2/1
     type: 40gbase-x-qsfpp
   - name: Ethernet2/2
@@ -129,13 +128,11 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet2/12
     type: 40gbase-x-qsfpp
-
 power-ports:
   - name: PS1
     type: iec-60320-c14
   - name: PS2
     type: iec-60320-c14
-
 console-ports:
   - name: Console
     type: rj-45
