@@ -17,20 +17,36 @@ power-ports:
 interfaces:
   - name: GigabitEthernet1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet2
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet3
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet4
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet5
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet6
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet7
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet8
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet9
     type: 1000base-x-sfp
   - name: GigabitEthernet10
