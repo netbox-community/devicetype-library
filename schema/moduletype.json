@@ -54,6 +54,13 @@
         },
         "comments": {
             "type": "string"
+        },
+        "weight": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/weight"
+            },
+            "maxItems": 1
         }
     },
     "required": ["manufacturer", "model"],
