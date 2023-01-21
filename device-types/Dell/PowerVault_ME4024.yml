@@ -4,38 +4,16 @@ model: PowerVault ME4024
 slug: dell_powervault_me4024
 u_height: 2
 is_full_depth: true
-console-ports:
-  - name: Serial
-    type: other
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
-interfaces:
-  - name: Controller A - Management
-    type: 1000base-t
-    mgmt_only: true
-  - name: iSCSi A1
-    type: infiniband-fdr10
-  - name: iSCSi A2
-    type: infiniband-fdr10
-  - name: iSCSi A3
-    type: infiniband-fdr10
-  - name: iSCSi A4
-    type: infiniband-fdr10
-  - name: SAS A1
-    type: other
-  - name: Controller B - Management
-    type: 1000base-t
-    mgmt_only: true
-  - name: iSCSi B1
-    type: infiniband-fdr10
-  - name: iSCSi B2
-    type: infiniband-fdr10
-  - name: iSCSi B3
-    type: infiniband-fdr10
-  - name: iSCSi B4
-    type: infiniband-fdr10
-  - name: SAS B1
-    type: other
+module-bays:
+  - name: '1'
+    label: PSU Slot 1
+    position: '1'
+  - name: '2'
+    label: PSU Slot 2
+    position: '2'
+  - name: A
+    label: Controller Slot A
+    position: A
+  - name: B
+    label: Controller Slot B
+    position: B
