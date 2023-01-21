@@ -8,19 +8,15 @@ airflow: passive
 interfaces:
   - name: lan0
     type: virtual
-    mgmt_only: false
     label: lan0
   - name: lan1
     type: virtual
-    mgmt_only: false
     label: lan1
   - name: wan0
     type: virtual
-    mgmt_only: false
     label: wan0
   - name: wan1
     type: virtual
-    mgmt_only: false
     label: wan1
   - name: mgmt0
     type: virtual
@@ -28,5 +24,4 @@ interfaces:
     label: mgmt0
   - name: mgmt1
     type: virtual
-    mgmt_only: false
     label: mgmt1

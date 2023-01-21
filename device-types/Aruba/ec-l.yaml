@@ -22,11 +22,9 @@ power-ports:
 interfaces:
   - name: lan0
     type: 1000base-t
-    mgmt_only: false
     label: lan0
   - name: lan1
     type: 1000base-t
-    mgmt_only: false
     label: lan1
   - name: mgmt0
     type: 1000base-t
@@ -34,21 +32,16 @@ interfaces:
     label: mgmt0
   - name: mgmt1
     type: 1000base-t
-    mgmt_only: false
     label: mgmt1
   - name: tlan0
     type: 10gbase-x-sfpp
-    mgmt_only: false
     label: tlan0
   - name: twan0
     type: 1000base-t
-    mgmt_only: false
     label: twan0
   - name: wan0
     type: 1000base-t
-    mgmt_only: false
     label: wan0
   - name: wan1
     type: 1000base-t
-    mgmt_only: false
     label: wan1
