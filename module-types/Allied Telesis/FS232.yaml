@@ -1,0 +1,10 @@
+---
+manufacturer: Allied Telesis
+model: FS232
+part_number: AT-FS232
+comments: Fast Ethernet to Fiber Media and Rate Converter
+interfaces:
+  - name: Slot {module} - Port 1
+    type: 100base-fx
+  - name: Port 2 (Slot {module})
+    type: 100base-tx

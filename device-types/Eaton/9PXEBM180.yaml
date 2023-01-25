@@ -1,0 +1,20 @@
+---
+manufacturer: Eaton
+model: 9PX Extended Battery Module 180
+slug: 9pxebm180
+part_number: 9PXEBM180
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+comments: 9PX 5-6kVA Series [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
+interfaces:
+  - name: Battery connector, top
+    type: other
+  - name: Battery detection, left
+    type: other
+    label: Batt detection
+  - name: Battery connector, down
+    type: other
+  - name: Battery detection, right
+    type: other
+    label: Batt detection

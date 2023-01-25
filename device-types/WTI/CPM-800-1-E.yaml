@@ -2,10 +2,11 @@
 manufacturer: WTI
 model: CPM-800-1-E
 slug: cpm-800-1-e
+airflow: passive
 part_number: CPM-800-1-E
 is_full_depth: false
 u_height: 1
-# comment: WTI CPM 1U, 2 ethernet, 8 outlet 15A 120V, 8 serial ports, No ATS
+# comments: WTI CPM 1U, 2 ethernet, 8 outlet 15A 120V, 8 serial ports, No ATS
 interfaces:
   - name: ETH0
     type: 1000base-t

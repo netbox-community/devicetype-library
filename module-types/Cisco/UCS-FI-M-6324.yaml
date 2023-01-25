@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: UCS-FI-M-6324
+part_number: UCS-FI-M-6324
+console-ports:
+  - name: IOM {module} Con0
+    type: rj-45
+  - name: IOM {module} USB0
+    type: usb-a
+interfaces:
+  - name: Fabric {module}/5/1
+    type: 40gbase-x-qsfpp
+  - name: Fabric {module}/5/2
+    type: 40gbase-x-qsfpp
+  - name: Fabric {module}/5/3
+    type: 40gbase-x-qsfpp
+  - name: Fabric {module}/5/4
+    type: 40gbase-x-qsfpp
+  - name: Fabric {module}/1
+    type: 10gbase-x-sfpp
+  - name: Fabric {module}/2
+    type: 10gbase-x-sfpp
+  - name: Fabric {module}/3
+    type: 10gbase-x-sfpp
+  - name: Fabric {module}/4
+    type: 10gbase-x-sfpp
+  - name: IOM {module} Mgmt0
+    type: 1000base-t
+    mgmt_only: true

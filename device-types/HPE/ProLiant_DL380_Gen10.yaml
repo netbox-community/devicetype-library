@@ -1,0 +1,54 @@
+---
+manufacturer: HPE
+model: ProLiant DL380 Gen10
+slug: hpe_dl380_gen10
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU1
+  - name: FlexLOM
+    position: FlexLOM
+  - name: PCIe1
+    position: PCIe1
+    label: primary riser
+  - name: PCIe2
+    position: PCIe2
+    label: primary riser
+  - name: PCIe3
+    position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: secondary riser
+  - name: PCIe5
+    position: PCIe5
+    label: secondary riser
+  - name: PCIe6
+    position: PCIe6
+    label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

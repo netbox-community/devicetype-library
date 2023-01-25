@@ -2,10 +2,11 @@
 manufacturer: WTI
 model: CPM-1600-1-ECAM
 slug: cpm-1600-1-ecam
+airflow: passive
 part_number: CPM-1600-1-ECAM
 is_full_depth: false
 u_height: 2
-# comment: WTI CPM 2U, 2 ethernet, 16 outlet 120V, 8 serial ports, ATS
+# comments: WTI CPM 2U, 2 ethernet, 16 outlet 120V, 8 serial ports, ATS
 interfaces:
   - name: ETH0
     type: 1000base-t

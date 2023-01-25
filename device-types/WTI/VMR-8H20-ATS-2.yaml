@@ -2,10 +2,11 @@
 manufacturer: WTI
 model: VMR-8H20-ATS-2
 slug: vmr-8h20-ats-2
+airflow: passive
 part_number: VMR-8H20-ATS-2
 is_full_depth: false
 u_height: 1
-# comment: WTI VMR 1U, 1 ethernet, 8 outlet 20A 200-240V, ATS
+# comments: WTI VMR 1U, 1 ethernet, 8 outlet 20A 200-240V, ATS
 interfaces:
   - name: ETH0
     type: 1000base-t
