@@ -2,6 +2,13 @@
 manufacturer: MikroTik
 model: RB951Ui-2HnD
 slug: rb951ui-2hnd
+airflow: passive
+is_full_depth: false
+u_height: 0
+comments: '[MikroTik RB951Ui-2HnD Documentation](https://help.mikrotik.com/docs/display/UM/RB951-series)'
+power-ports:
+  - name: PSU1
+    type: dc-terminal
 interfaces:
   - name: ether1
     type: 100base-tx
