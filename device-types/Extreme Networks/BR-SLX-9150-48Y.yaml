@@ -1,8 +1,8 @@
 ---
 manufacturer: Extreme Networks
-model: VSP-7400-48Y-8C
-slug: vsp-7400-48y-8c
-part_number: VSP-7400-48Y-8C
+model: BR-SLX-9150-48Y
+slug: br-slx-9150-48y
+part_number: BR-SLX-9150-48Y
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -123,6 +123,10 @@ interfaces:
   - name: Ethernet 0/53
     type: 100gbase-x-qsfp28
   - name: Ethernet 0/54
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/55
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/56
     type: 100gbase-x-qsfp28
   - name: Management0
     type: 1000base-t

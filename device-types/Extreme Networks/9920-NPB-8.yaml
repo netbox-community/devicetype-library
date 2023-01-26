@@ -1,0 +1,50 @@
+---
+manufacturer: Extreme Networks
+model: 9920-NPB-8
+slug: 9920-npb-8
+part_number: 9920-NPB-8
+u_height: 4
+is_full_depth: true
+airflow: front-to-back
+weight:
+  - value: 65.50
+    unit: kg
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 1600
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 1600
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 1600
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 1600
+module-bays:
+  - name: F1
+  - name: F2
+  - name: F3
+  - name: F4
+  - name: F5
+  - name: PSU1
+  - name: PSU2
+  - name: PSU3
+  - name: PSU4
+  - name: FEATURE_SLOT
+  - name: S1
+  - name: S2
+  - name: S3
+  - name: S4
+  - name: S5
+  - name: S6
+  - name: S7
+  - name: S8
+console-ports:
+  - name: Serial
+    type: usb-micro-b
+interfaces:
+  - name: Management 0
+    type: 1000base-t
+    mgmt_only: true

@@ -1,20 +1,20 @@
 ---
 manufacturer: Extreme Networks
-model: VSP-7400-48Y-8C
-slug: vsp-7400-48y-8c
-part_number: VSP-7400-48Y-8C
+model: BR-SLX-9140-48V
+slug: br-slx-9140-48v
+part_number: BR-SLX-9140-48V
 u_height: 1
 is_full_depth: true
 console-ports:
   - name: Console
-    type: rj-45
+    type: usb-mini-b
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 750
+    maximum_draw: 650
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 750
+    maximum_draw: 650
 interfaces:
   - name: Ethernet 0/1
     type: 25gbase-x-sfp28
