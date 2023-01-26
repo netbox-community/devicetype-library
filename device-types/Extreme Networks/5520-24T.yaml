@@ -6,6 +6,16 @@ part_number: 5520-24T
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+weight:
+  - value: 8.07
+    unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c16
+    maximum_draw: 2000
+  - name: PS2
+    type: iec-60320-c16
+    maximum_draw: 2000
 console-ports:
   - name: Console_RJ45
     type: rj-45

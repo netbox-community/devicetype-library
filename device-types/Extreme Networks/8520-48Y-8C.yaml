@@ -1,10 +1,14 @@
 ---
 manufacturer: Extreme Networks
-model: VSP-7400-48Y-8C
-slug: vsp-7400-48y-8c
-part_number: VSP-7400-48Y-8C
+model: 8520-48Y-8C
+slug: 8520-48Y-8c
+part_number: 8520-48Y-8C
 u_height: 1
 is_full_depth: true
+airflow: front-to-back
+weight:
+  - value: 10.11
+    unit: kg
 console-ports:
   - name: Console
     type: rj-45
@@ -123,6 +127,10 @@ interfaces:
   - name: Ethernet 0/53
     type: 100gbase-x-qsfp28
   - name: Ethernet 0/54
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/55
+    type: 100gbase-x-qsfp28
+  - name: Ethernet 0/56
     type: 100gbase-x-qsfp28
   - name: Management0
     type: 1000base-t
