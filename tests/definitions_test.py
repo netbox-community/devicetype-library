@@ -6,6 +6,7 @@ import pytest
 import yaml
 from jsonschema import RefResolver, Draft4Validator
 from jsonschema.exceptions import ValidationError
+from decimal_yaml import decimal_constructor, DecimalLoader
 
 
 SCHEMAS = (
@@ -37,6 +38,7 @@ def _get_definition_files():
         # Initialize the schema
         with open(f"schema/{schema}") as schema_file:
             schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
+            print(schema)
 
         # Validate that the schema exists
         assert schema, f"Schema definition for {path} is empty!"
@@ -76,7 +78,7 @@ def test_definitions(file_path, schema):
     assert content.endswith('\n'), "Missing trailing newline"
 
     # Load YAML data from file
-    definition = yaml.load(content, Loader=yaml.SafeLoader)
+    definition = yaml.load(content, Loader=DecimalLoader)
 
     # Validate YAML definition against the supplied schema
     try:
