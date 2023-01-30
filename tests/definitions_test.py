@@ -1,4 +1,3 @@
-import decimal
 import glob
 import json
 import os
@@ -36,7 +35,7 @@ def _get_definition_files():
 
         # Initialize the schema
         with open(f"schema/{schema}") as schema_file:
-            schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
+            schema = json.loads(schema_file.read())
 
         # Validate that the schema exists
         assert schema, f"Schema definition for {path} is empty!"
