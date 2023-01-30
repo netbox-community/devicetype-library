@@ -1,0 +1,109 @@
+manufacturer: Datacom
+model: DM4610 OLT 4GPON+4GX+2XS
+slug: dm4610-olt-4gpon_4gx_2xs
+part_number: 800.5285.xx
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: side-to-rear
+comments: "OLT GPON para instala\xE7\xE3o em rack 19\u2019, 8 interfaces GPON, 8 interfaces\
+  \ GE \xF3ticas SFP, 4 interfaces GE RJ45 e 2 interfaces 10GE/GE SFP+. Ventila\xE7\
+  \xE3o remov\xEDvel e dois slots para fonte de alimenta\xE7\xE3o AC ou DC redundantes\
+  \ e hot swap."
+console-ports:
+- name: Console
+  type: rj-45
+  label: ''
+  description: ''
+interfaces:
+- name: gigabit-ethernet-1/1/1
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: '1'
+  description: Gigabit-Ethernet
+  poe_mode: ''
+  poe_type: ''
+- name: gigabit-ethernet-1/1/2
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: '2'
+  description: Gigabit-Ethernet
+  poe_mode: ''
+  poe_type: ''
+- name: gigabit-ethernet-1/1/3
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: '3'
+  description: Gigabit-Ethernet
+  poe_mode: ''
+  poe_type: ''
+- name: gigabit-ethernet-1/1/4
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: '4'
+  description: Gigabit-Ethernet
+  poe_mode: ''
+  poe_type: ''
+- name: gpon-1/1/1
+  type: gpon
+  mgmt_only: false
+  label: '1'
+  description: GPON
+  poe_mode: ''
+  poe_type: ''
+- name: gpon-1/1/2
+  type: gpon
+  mgmt_only: false
+  label: '2'
+  description: GPON
+  poe_mode: ''
+  poe_type: ''
+- name: gpon-1/1/3
+  type: gpon
+  mgmt_only: false
+  label: '3'
+  description: GPON
+  poe_mode: ''
+  poe_type: ''
+- name: gpon-1/1/4
+  type: gpon
+  mgmt_only: false
+  label: '4'
+  description: GPON
+  poe_mode: ''
+  poe_type: ''
+- name: mgmt-1/1/1
+  type: 100base-tx
+  mgmt_only: true
+  label: '1'
+  description: Gerencia
+  poe_mode: ''
+  poe_type: ''
+- name: ten-gigabit-ethernet-1/1/1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '1'
+  description: Ten-Gigabit-Ethernet
+  poe_mode: ''
+  poe_type: ''
+- name: ten-gigabit-ethernet-1/1/2
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: '2'
+  description: Ten-Gigabit-Ethernet
+  poe_mode: ''
+  poe_type: ''
+module-bays:
+- name: FAN
+  label: '1'
+  position: '1'
+  description: FAN
+- name: PSU1
+  label: '1'
+  position: '1'
+  description: PSU
+- name: PSU2
+  label: '2'
+  position: '2'
+  description: PSU
+  
