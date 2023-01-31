@@ -1,0 +1,10 @@
+---
+manufacturer: Datacom
+model: PSU 120 AC
+part_number: 800.5079.xx
+comments: 120W power supply with 100-240VAC and 50/60Hz input compatible with OLT DM4610. Allows operation as a redundant and hot-swappable source.
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 120
+    description: 100-240VAC
