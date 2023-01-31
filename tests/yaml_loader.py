@@ -13,7 +13,10 @@ class DecimalSafeConstructor(SafeConstructor):
 
     def construct_yaml_float(self, node):
         value = super().construct_yaml_float(node)
-        return decimal.Decimal(value)
+        # We force the string representation of the float here to avoid things like:
+        # In [11]: decimal.Decimal(10.11)
+        # Out[11]: Decimal('10.1099999999999994315658113919198513031005859375')
+        return decimal.Decimal(f"{value}")
 
 
 DecimalSafeConstructor.add_constructor(
