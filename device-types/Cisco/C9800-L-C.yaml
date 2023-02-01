@@ -19,23 +19,16 @@ interfaces:
     mgmt_only: true
   - name: TenGigabitEthernet1
     type: 10gbase-t
-    mgmt_only: false
   - name: TenGigabitEthernet2
     type: 10gbase-t
-    mgmt_only: false
   - name: GigabitEthernet1
     type: 2.5gbase-t
-    mgmt_only: false
   - name: GigabitEthernet2
     type: 2.5gbase-t
-    mgmt_only: false
   - name: GigabitEthernet3
     type: 2.5gbase-t
-    mgmt_only: false
   - name: GigabitEthernet4
     type: 2.5gbase-t
-    mgmt_only: false
-
 power-ports:
   - name: PS1
     type: iec-60320-c14
