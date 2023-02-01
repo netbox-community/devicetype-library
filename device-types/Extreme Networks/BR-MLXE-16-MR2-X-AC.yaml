@@ -1,11 +1,12 @@
 ---
 manufacturer: Extreme Networks
-model: BR-MLXE-8-MR2
-slug: br-mlxe-8-mr2
-part_number: BR-MLXE-8-MR2
-u_height: 7
+model: BR-MLXE-16-MR2-X-AC
+slug: br-mlxe-16-mr2-x-ac
+part_number: BR-MLXE-16-MR2-X-AC
+u_height: 14
 is_full_depth: true
 comments: '[Extreme Networks Netiron Series Technical Specifications](https://www.extremenetworks.com/support/documentation/netiron-ces-cer-mlx-series/)'
+airflow: front-to-rear
 power-ports:
   - name: PSU1
     type: iec-60320-c20
@@ -19,16 +20,33 @@ power-ports:
   - name: PSU4
     type: iec-60320-c20
     maximum_draw: 1800
+  - name: PSU5
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU6
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU7
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU8
+    type: iec-60320-c20
+    maximum_draw: 1800
 module-bays:
   - name: F1
   - name: F2
   - name: F3
+  - name: F4
   - name: M1
   - name: M2
   - name: PSU1
   - name: PSU2
   - name: PSU3
   - name: PSU4
+  - name: PSU5
+  - name: PSU6
+  - name: PSU7
+  - name: PSU8
   - name: S1
   - name: S2
   - name: S3
@@ -37,6 +55,14 @@ module-bays:
   - name: S6
   - name: S7
   - name: S8
+  - name: S9
+  - name: S10
+  - name: S11
+  - name: S12
+  - name: S13
+  - name: S14
+  - name: S15
+  - name: S16
 console-ports:
   - name: Serial
     type: de-9

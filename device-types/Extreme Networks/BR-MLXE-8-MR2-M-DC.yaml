@@ -1,0 +1,47 @@
+---
+manufacturer: Extreme Networks
+model: BR-MLXE-8-MR2-M-DC
+slug: br-mlxe-8-mr2-m-dc
+part_number: BR-MLXE-8-MR2-M-DC
+u_height: 7
+is_full_depth: true
+comments: '[Extreme Networks Netiron Series Technical Specifications](https://www.extremenetworks.com/support/documentation/netiron-ces-cer-mlx-series/)'
+airflow: side-to-rear
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 1800
+  - name: PSU2
+    type: dc-terminal
+    maximum_draw: 1800
+  - name: PSU3
+    type: dc-terminal
+    maximum_draw: 1800
+  - name: PSU4
+    type: dc-terminal
+    maximum_draw: 1800
+module-bays:
+  - name: F1
+  - name: F2
+  - name: F3
+  - name: M1
+  - name: M2
+  - name: PSU1
+  - name: PSU2
+  - name: PSU3
+  - name: PSU4
+  - name: S1
+  - name: S2
+  - name: S3
+  - name: S4
+  - name: S5
+  - name: S6
+  - name: S7
+  - name: S8
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Management 1
+    type: 1000base-t
+    mgmt_only: true

@@ -1,45 +1,42 @@
 ---
 manufacturer: Extreme Networks
-model: BR-MLXE-32-MR2
-slug: br-mlxe-32-mr2
-part_number: BR-MLXE-32-MR2
-u_height: 33
+model: BR-MLXE-16-MR2-M-AC
+slug: br-mlxe-16-mr2-m-ac
+part_number: BR-MLXE-16-MR2-M-AC
+u_height: 14
 is_full_depth: true
 comments: '[Extreme Networks Netiron Series Technical Specifications](https://www.extremenetworks.com/support/documentation/netiron-ces-cer-mlx-series/)'
+airflow: front-to-rear
 power-ports:
   - name: PSU1
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU2
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU3
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU4
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU5
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU6
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU7
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
   - name: PSU8
     type: iec-60320-c20
-    maximum_draw: 3000
+    maximum_draw: 1800
 module-bays:
   - name: F1
   - name: F2
   - name: F3
   - name: F4
-  - name: F5
-  - name: F6
-  - name: F7
-  - name: F8
   - name: M1
   - name: M2
   - name: PSU1
@@ -66,22 +63,6 @@ module-bays:
   - name: S14
   - name: S15
   - name: S16
-  - name: S17
-  - name: S18
-  - name: S19
-  - name: S20
-  - name: S21
-  - name: S22
-  - name: S23
-  - name: S24
-  - name: S25
-  - name: S26
-  - name: S27
-  - name: S28
-  - name: S29
-  - name: S30
-  - name: S31
-  - name: S32
 console-ports:
   - name: Serial
     type: de-9

@@ -1,17 +1,25 @@
 ---
 manufacturer: Extreme Networks
-model: 8520-48XT-6C
-slug: 8520-48xt-6c
-part_number: 8520-48XT-6C
+model: 8520-48XT-6C-AC-R
+slug: 8520-48xt-6c-ac-r
+part_number: 8520-48XT-6C-AC-R
 u_height: 1
 is_full_depth: true
-comments: Box w/ no fans or PSU. [Extreme Networks 8520 Series Technical Specifications](https://www.extremenetworks.com/support/documentation/8520/)
+comments: '[Extreme Networks 8520 Series Technical Specifications](https://www.extremenetworks.com/support/documentation/8520/)'
+airflow: rear-to-front
 weight:
   - value: 10.11
     unit: kg
 console-ports:
   - name: Console
     type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 750
 interfaces:
   - name: Ethernet 0/1
     type: 10gbase-t

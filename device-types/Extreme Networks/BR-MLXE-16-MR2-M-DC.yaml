@@ -1,35 +1,36 @@
 ---
 manufacturer: Extreme Networks
-model: BR-MLXE-16-MR2
-slug: br-mlxe-16-mr2
-part_number: BR-MLXE-16-MR2
+model: BR-MLXE-16-MR2-M-DC
+slug: br-mlxe-16-mr2-m-dc
+part_number: BR-MLXE-16-MR2-M-DC
 u_height: 14
 is_full_depth: true
 comments: '[Extreme Networks Netiron Series Technical Specifications](https://www.extremenetworks.com/support/documentation/netiron-ces-cer-mlx-series/)'
+airflow: front-to-rear
 power-ports:
   - name: PSU1
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
   - name: PSU2
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
   - name: PSU3
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
   - name: PSU4
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
   - name: PSU5
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
   - name: PSU6
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
   - name: PSU7
     type: iec-60320-c20
     maximum_draw: 1800
   - name: PSU8
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 1800
 module-bays:
   - name: F1
