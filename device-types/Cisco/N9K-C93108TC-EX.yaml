@@ -6,10 +6,14 @@ part_number: N9K-C93108TC-EX
 u_height: 1
 is_full_depth: true
 power-ports:
-  - name: PS1
+  - name: Power Supply 1
     type: iec-60320-c14
-  - name: PS2
+    maximum_draw: 499
+    allocated_draw: 290
+  - name: Power Supply 2
     type: iec-60320-c14
+    maximum_draw: 499
+    allocated_draw: 290
 console-ports:
   - name: Console
     type: rj-45

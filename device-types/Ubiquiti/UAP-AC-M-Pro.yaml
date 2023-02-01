@@ -9,10 +9,8 @@ comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
 interfaces:
   - name: main
     type: 1000base-t
-    mgmt_only: false
   - name: secondary
     type: 1000base-t
-    mgmt_only: false
   - name: wlan0
     type: ieee802.11n
   - name: wlan1
