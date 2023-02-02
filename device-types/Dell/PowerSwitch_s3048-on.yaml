@@ -1,21 +1,17 @@
 ---
 manufacturer: Dell
-model: N3248TE-ON
-slug: n3248te-on
+model: PowerSwitch S3048-ON
+slug: dell_powerswitch_s3048-on
+part_number: S3048-ON
 u_height: 1
 is_full_depth: true
+comments: '[Dell-S3048-ON-Spec-Sheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/us/Dell-S3048-ON-Spec-Sheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 550
-    allocated_draw: 212
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 550
-    allocated_draw: 212
 interfaces:
   - name: Ethernet 1/1/1
     type: 1000base-t
@@ -121,10 +117,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet 1/1/52
     type: 10gbase-x-sfpp
-  - name: Ethernet 1/1/53
-    type: 100gbase-x-qsfp28
-  - name: Ethernet 1/1/54
-    type: 100gbase-x-qsfp28
-  - name: mgmt 1/1/1
+  - name: Management 1/1/1
     type: 1000base-t
     mgmt_only: true
