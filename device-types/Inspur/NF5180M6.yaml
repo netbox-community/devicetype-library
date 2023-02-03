@@ -1,18 +1,17 @@
 ---
 manufacturer: Inspur
 model: NF5180M6
-slug: nf5180m6
+slug: inspur_nf5180m6
 part_number: NF5180M6
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
+comments: '[Inspur NF5180M6 Technical Specifications](https://en.inspur.com/en/servers/rack_servers/2552517/index.html)'
 weight:
   - value: 31
     unit: kg
 console-ports:
   - name: BMC/System Serial
-    type: other
-  - name: VGA
     type: other
 module-bays:
   - name: PSU0
