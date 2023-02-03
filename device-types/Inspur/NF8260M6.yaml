@@ -1,0 +1,229 @@
+---
+manufacturer: Inspur
+model: NF8260M6
+slug: nf8260m6
+part_number: NF8260M6
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Inspur NF8260M6 Technical Specifications](https://en.inspur.com/en/servers/rack_servers/2545986/index.html)'
+console-ports:
+  - name: BMC Debug Serial Port
+    type: other
+  - name: System Serial Port
+    type: other
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Front Upper USB
+    type: usb-a
+    label: USB 3.0 Port
+  - name: Front Lower USB
+    type: usb-a
+    label: USB 2.0/LCD Port
+  - name: Rear Upper USB
+    type: usb-a
+    label: USB 3.0 Port
+  - name: Rear Lower USB
+    type: usb-a
+    label: USB 3.0 Port
+module-bays:
+  - name: PSU0
+    position: Down
+  - name: PSU1
+    position: Top
+  - name: OCP3
+    position: OCP3
+  - name: PCIe0
+    position: PCIe0
+    label: Motherboard
+  - name: PCIe1
+    position: PCIe1
+    label: Motherboard
+  - name: PCIe2
+    position: PCIe2
+    label: Motherboard
+  - name: PCIe3
+    position: PCIe3
+    label: Motherboard
+  - name: PCIe4
+    position: PCIe4
+    label: Motherboard
+  - name: PCIe5
+    position: PCIe5
+    label: Motherboard
+  - name: PCIe6
+    position: PCIe6
+    label: PCIe riser module 0
+  - name: PCIe7
+    position: PCIe7
+    label: PCIe riser module 0
+  - name: PCIe8
+    position: PCIe8
+    label: PCIe riser module 0
+  - name: PCIe9
+    position: PCIe9
+    label: PCIe riser module 1
+  - name: PCIe10
+    position: PCIe10
+    label: PCIe riser module 1
+  - name: PCIe11
+    position: PCIe11
+    label: PCIe riser module 1
+  - name: CPU0
+    position: CPU0
+  - name: CPU1
+    position: CPU1
+  - name: CPU2
+    position: CPU2
+  - name: CPU3
+    position: CPU3
+  - name: DIMM0
+    position: CPU0_C0D0
+    label: CPU0, Channel 0
+  - name: DIMM1
+    position: CPU0_C0D1
+    label: CPU0, Channel 0
+  - name: DIMM2
+    position: CPU0_C1D0
+    label: CPU0, Channel 1
+  - name: DIMM3
+    position: CPU0_C1D1
+    label: CPU0, Channel 1
+  - name: DIMM4
+    position: CPU0_C2D0
+    label: CPU0, Channel 2
+  - name: DIMM5
+    position: CPU0_C2D1
+    label: CPU0, Channel 2
+  - name: DIMM6
+    position: CPU0_C3D0
+    label: CPU0, Channel 3
+  - name: DIMM7
+    position: CPU0_C3D1
+    label: CPU0, Channel 3
+  - name: DIMM8
+    position: CPU0_C4D0
+    label: CPU0, Channel 4
+  - name: DIMM9
+    position: CPU0_C4D1
+    label: CPU0, Channel 4
+  - name: DIMM10
+    position: CPU0_C5D0
+    label: CPU0, Channel 5
+  - name: DIMM11
+    position: CPU0_C5D1
+    label: CPU0, Channel 5
+  - name: DIMM12
+    position: CPU1_C0D0
+    label: CPU1, Channel 0
+  - name: DIMM13
+    position: CPU1_C0D1
+    label: CPU1, Channel 0
+  - name: DIMM14
+    position: CPU1_C1D0
+    label: CPU1, Channel 1
+  - name: DIMM15
+    position: CPU1_C1D1
+    label: CPU1, Channel 1
+  - name: DIMM16
+    position: CPU1_C2D0
+    label: CPU1, Channel 2
+  - name: DIMM17
+    position: CPU1_C2D1
+    label: CPU1, Channel 2
+  - name: DIMM18
+    position: CPU1_C3D0
+    label: CPU1, Channel 3
+  - name: DIMM19
+    position: CPU1_C3D1
+    label: CPU1, Channel 3
+  - name: DIMM20
+    position: CPU1_C4D0
+    label: CPU1, Channel 4
+  - name: DIMM21
+    position: CPU1_C4D1
+    label: CPU1, Channel 4
+  - name: DIMM22
+    position: CPU1_C5D0
+    label: CPU1, Channel 5
+  - name: DIMM23
+    position: CPU1_C5D1
+    label: CPU1, Channel 5
+  - name: DIMM24
+    position: CPU2_C0D0
+    label: CPU2, Channel 0
+  - name: DIMM25
+    position: CPU2_C0D1
+    label: CPU2, Channel 0
+  - name: DIMM26
+    position: CPU2_C1D0
+    label: CPU2, Channel 1
+  - name: DIMM27
+    position: CPU2_C1D1
+    label: CPU2, Channel 1
+  - name: DIMM28
+    position: CPU2_C2D0
+    label: CPU2, Channel 2
+  - name: DIMM29
+    position: CPU2_C2D1
+    label: CPU2, Channel 2
+  - name: DIMM30
+    position: CPU2_C3D0
+    label: CPU2, Channel 3
+  - name: DIMM31
+    position: CPU2_C3D1
+    label: CPU2, Channel 3
+  - name: DIMM32
+    position: CPU2_C4D0
+    label: CPU2, Channel 4
+  - name: DIMM33
+    position: CPU2_C4D1
+    label: CPU2, Channel 4
+  - name: DIMM34
+    position: CPU2_C5D0
+    label: CPU2, Channel 5
+  - name: DIMM35
+    position: CPU2_C5D1
+    label: CPU2, Channel 5
+  - name: DIMM36
+    position: CPU3_C0D0
+    label: CPU3, Channel 0
+  - name: DIMM37
+    position: CPU3_C0D1
+    label: CPU3, Channel 0
+  - name: DIMM38
+    position: CPU3_C1D0
+    label: CPU3, Channel 1
+  - name: DIMM39
+    position: CPU3_C1D1
+    label: CPU3, Channel 1
+  - name: DIMM40
+    position: CPU3_C2D0
+    label: CPU3, Channel 2
+  - name: DIMM41
+    position: CPU3_C2D1
+    label: CPU3, Channel 2
+  - name: DIMM42
+    position: CPU3_C3D0
+    label: CPU3, Channel 3
+  - name: DIMM43
+    position: CPU3_C3D1
+    label: CPU3, Channel 3
+  - name: DIMM44
+    position: CPU3_C4D0
+    label: CPU3, Channel 4
+  - name: DIMM45
+    position: CPU3_C4D1
+    label: CPU3, Channel 4
+  - name: DIMM46
+    position: CPU3_C5D0
+    label: CPU3, Channel 5
+  - name: DIMM47
+    position: CPU3_C5D1
+    label: CPU3, Channel 5
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
