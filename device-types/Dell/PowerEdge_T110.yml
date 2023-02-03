@@ -1,9 +1,10 @@
 ---
 manufacturer: Dell
-model: PowerEdge
+model: PowerEdge T110
 slug: dell_poweredge_t110
 u_height: 5
 is_full_depth: true
+comments: '[T110-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T110-SpecSheet.pdf)'
 console-ports:
   - name: Serial
     type: de-9
@@ -16,7 +17,5 @@ power-ports:
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
-    mgmt_only: false
   - name: Gig-E 2
     type: 1000base-t
-    mgmt_only: false

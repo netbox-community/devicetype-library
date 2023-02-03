@@ -6,7 +6,7 @@ part_number: 1187001G1
 u_height: 8.0
 is_full_depth: false
 subdevice_role: parent
-comments: 'Fiber Access and Aggregation Platform'
+comments: Fiber Access and Aggregation Platform
 power-ports:
   - name: DC-Input-A
     type: dc-terminal
@@ -21,7 +21,6 @@ power-ports:
 interfaces:
   - name: Ethernet 1/S/1
     type: 1000base-t
-    mgmt_only: false
     description: Rear Management
 module-bays:
   - name: '1'
@@ -94,5 +93,5 @@ module-bays:
     label: SM-B
     position: B
   - name: SCM
-    label: 'SCM'
+    label: SCM
     position: SCM

@@ -1,0 +1,13 @@
+---
+manufacturer: Generic
+model: Keystone LC Fiber
+part_number: Keystone-LC-Fiber
+front-ports:
+  - name: '{module}-LC'
+    type: lc
+    rear_port: '{module}-LC'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}-LC'
+    type: lc
+    positions: 1
