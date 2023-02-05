@@ -1,0 +1,97 @@
+---
+manufacturer: Adtran
+model: Total Access 5000
+slug: total-access-5000
+part_number: 1187001G1
+u_height: 8.0
+is_full_depth: false
+subdevice_role: parent
+comments: Fiber Access and Aggregation Platform
+power-ports:
+  - name: DC-Input-A
+    type: dc-terminal
+    maximum_draw: 1440
+    allocated_draw: 1000
+    label: DC-A
+  - name: DC-Input-B
+    type: dc-terminal
+    maximum_draw: 1440
+    allocated_draw: 1000
+    label: DC-B
+interfaces:
+  - name: Ethernet 1/S/1
+    type: 1000base-t
+    description: Rear Management
+module-bays:
+  - name: '1'
+    label: Slot 1
+    position: '1'
+  - name: '2'
+    label: Slot 2
+    position: '2'
+  - name: '3'
+    label: Slot 3
+    position: '3'
+  - name: '4'
+    label: Slot 4
+    position: '4'
+  - name: '5'
+    label: Slot 5
+    position: '5'
+  - name: '6'
+    label: Slot 6
+    position: '6'
+  - name: '7'
+    label: Slot 7
+    position: '7'
+  - name: '8'
+    label: Slot 8
+    position: '8'
+  - name: '9'
+    label: Slot 9
+    position: '9'
+  - name: '10'
+    label: Slot 10
+    position: '10'
+  - name: '11'
+    label: Slot 11
+    position: '11'
+  - name: '13'
+    label: Slot 13
+    position: '13'
+  - name: '14'
+    label: Slot 14
+    position: '14'
+  - name: '15'
+    label: Slot 15
+    position: '15'
+  - name: '16'
+    label: Slot 16
+    position: '16'
+  - name: '17'
+    label: Slot 17
+    position: '17'
+  - name: '18'
+    label: Slot 18
+    position: '18'
+  - name: '19'
+    label: Slot 19
+    position: '19'
+  - name: '20'
+    label: Slot 20
+    position: '20'
+  - name: '21'
+    label: Slot 21
+    position: '21'
+  - name: '22'
+    label: Slot 22
+    position: '22'
+  - name: A
+    label: SM-A
+    position: A
+  - name: B
+    label: SM-B
+    position: B
+  - name: SCM
+    label: SCM
+    position: SCM
