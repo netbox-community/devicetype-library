@@ -1,18 +1,21 @@
 ---
 manufacturer: ADVA
-model: XG120-PRO-SH
-slug: xg120-pro-sh
+model: FSP 150-XG120Pro (SH)
+slug: fsp-150-xg120pro-sh
 part_number: 1078904481-01
 u_height: 1
 is_full_depth: false
+comments: '[fsp-150-xg-100-pro-series.pdf](https://www.adva.com/en/resources/downloads/data-sheets/fsp-150-xg100pro-series)'
 console-ports:
   - name: Console
     type: rj-45
 power-ports:
   - name: PSU-1
     type: iec-60320-c14
+    allocated_draw: 85
   - name: PSU-2
     type: iec-60320-c14
+    allocated_draw: 85
 interfaces:
   - name: '1'
     type: 1000base-x-sfp
