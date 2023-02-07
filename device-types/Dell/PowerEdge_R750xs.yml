@@ -1,0 +1,45 @@
+---
+manufacturer: Dell
+model: PowerEdge R750xs
+slug: dell_poweredge_r750xs
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iDRAC9 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: iDRAC9 2
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Riser PCIe-Gen3 1
+  - name: Riser PCIe-Gen3 2
+  - name: Riser PCIe-Gen3 3
+  - name: Riser PCIe-Gen3 4
+  - name: Riser PCIe-Gen3 5
+  - name: Riser PCIe-Gen3 6
+  - name: Riser PCIe-Gen3 7
+  - name: Riser PCIe-Gen3 8
