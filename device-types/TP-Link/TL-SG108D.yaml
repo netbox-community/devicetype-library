@@ -1,0 +1,30 @@
+---
+manufacturer: TP-Link
+model: TL-SG108D
+slug: tl-sg108d
+part_number: TL-SG108D
+comments: '[TP-Link TL-SG108D](https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg108d/#specifications)'
+is_full_depth: false
+u_height: 0
+airflow: passive
+power-ports:
+  - name: External Power Adapter
+    type: dc-terminal
+    maximum_draw: 4
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
