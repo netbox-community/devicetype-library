@@ -6,8 +6,9 @@ slug: qsw-6900-56f
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
-weight: 8
-weight_unit: kg
+weight:
+  - value: 8
+    unit: kg
 comments: "[QTECH QSW-6900-56F](https://ftp.qtech.ru/Switch/Data%20Center/QSW-6900/Manual/Installation%20Guide%20%5bEng%5d/QSW-6900-56F%20Installation%20Manual_Eng.pdf)"
 console-ports:
   - name: console
