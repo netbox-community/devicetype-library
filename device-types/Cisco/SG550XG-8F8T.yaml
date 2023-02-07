@@ -1,0 +1,73 @@
+manufacturer: Cisco
+model: SG500XG-8F8T
+slug: sg500xg-8f8t
+part_number: SG550XG-8F8T
+u_height: 1.0
+is_full_depth: false
+comments: '[SG550X Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/550x-series-stackable-managed-switches/datasheet-c78-735874.html)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 77
+    allocated_draw: 60
+interfaces:
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/3
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/4
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/5
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/6
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/7
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/8
+    type: 10gbase-t
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/9
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/10
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/13
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/14
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/15
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/16
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: TenGigabitEthernet1/0/19
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: mgt01
+    type: 1000base-t
+    mgmt_only: true
+  - name: vlan1
+    type: virtual
+    mgmt_only: false
