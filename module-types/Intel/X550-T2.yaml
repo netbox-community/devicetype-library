@@ -1,0 +1,12 @@
+---
+manufacturer: Intel
+model: X550-T2
+part_number: X550-T2
+comments: https://www.intel.com.au/content/www/au/en/products/sku/88209/intel-ethernet-converged-network-adapter-x550t2/specifications.html
+interfaces:
+  - name: 10ge{module}-1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: 10ge{module}-2
+    type: 10gbase-t
+    mgmt_only: false
