@@ -4,7 +4,12 @@ model: QSW-6900-56LF
 part_number: QSW-6900-56LF
 slug: qsw-6900-56lf
 u_height: 1
-is_full_depth: true
+is_full_depth: false
+weight:
+  - value: 8
+    unit: kg
+airflow: front-to-rear
+comments: "[QTECH QSW-6900-56LF](https://ftp.qtech.ru/Switch/Data%20Center/QSW-6900/Manual/Installation%20Guide%20%5bEng%5d/QSW-6900-56LF%20Installation%20Manual_Eng.pdf)"
 console-ports:
   - name: console
     label: Console
