@@ -1,21 +1,19 @@
 ---
 manufacturer: ADVA
-model: FSP 150 XG480-100G
-slug: fsp-150-xg480-100g
-part_number: 1078901001-01
+model: XG480-100G-CFP2
+slug: xg480-100g-cfp2
+part_number: 1078901003-01
+comments: FSP 150-XG480 Carrier Ethernet Aggregation Device 2RU 52x10G + 4x100G (2xQSF28+2xCFP2)
 u_height: 2
 is_full_depth: false
-comments: FSP 150-XG480 Carrier Ethernet Aggregation Device 2RU 52x10G + 4x100G (QSF28) [fsp-150-xg400-series.pdf](https://www.adva.com/en/resources/downloads/data-sheets/fsp-150-xg400-series)
 console-ports:
   - name: Console
     type: rj-45
 power-ports:
   - name: PSU-1
     type: iec-60320-c14
-    maximum_draw: 750
   - name: PSU-2
     type: iec-60320-c14
-    maximum_draw: 750
 interfaces:
   - name: '1'
     type: 10gbase-x-sfpp
@@ -126,9 +124,9 @@ interfaces:
   - name: '57'
     type: 100gbase-x-qsfp28
   - name: '61'
-    type: 100gbase-x-qsfp28
+    type: 100gbase-x-cfp2
   - name: '62'
-    type: 100gbase-x-qsfp28
+    type: 100gbase-x-cfp2
   - name: DCN1
     type: 1000base-t
     mgmt_only: true

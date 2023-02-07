@@ -1,21 +1,19 @@
 ---
 manufacturer: ADVA
-model: FSP 150-XG418-100G-CFP2
-slug: fsp-150-xg418-100g-cfp2
+model: XG418-100G-CFP2
+slug: xg418-100g-cfp2
 part_number: 1078901052-01
+comments: FSP 150-XG418 Carrier Ethernet Aggregation Device 1RU 12 x SFP+ 4 x SFP28 and 2 x CFP2
 u_height: 1
 is_full_depth: false
-comments: FSP 150-XG418 Carrier Ethernet Aggregation Device 1RU 12 x SFP+ 4 x SFP28 and 2 x CFP2 [fsp-150-xg400-series.pdf](https://www.adva.com/en/resources/downloads/data-sheets/fsp-150-xg400-series)
 console-ports:
   - name: Console
     type: rj-45
 power-ports:
   - name: PSU-1
     type: iec-60320-c14
-    maximum_draw: 750
   - name: PSU-2
     type: iec-60320-c14
-    maximum_draw: 750
 interfaces:
   - name: '1'
     type: 10gbase-x-sfpp
