@@ -11,7 +11,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PS1
-    type: nema-5-15p
+    type: dc-terminal
     maximum_draw: 25
     allocated_draw: 18
 interfaces:
@@ -44,8 +44,8 @@ interfaces:
   - name: ha
     type: 1000base-t
   - name: wan1
-    type: 1000base-x-sfp
-    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+    type: 1000base-t
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
   - name: wan2
-    type: 1000base-x-sfp
-    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+    type: 1000base-t
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
