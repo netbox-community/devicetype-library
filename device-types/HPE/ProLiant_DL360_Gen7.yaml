@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: ProLiant DL360 Gen7
+slug: hp_dl360_g7
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 460
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 460
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
