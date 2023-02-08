@@ -1,0 +1,27 @@
+---
+manufacturer: APC
+model: Smart-UPS SC450R1X542
+slug: sc450r1x542
+part_number: SC450R1X542
+comments: SmartUPS SC 450 w/Network Management Card
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Source
+    type: nema-5-15p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+  - name: Outlet 2
+    type: nema-5-15r
+  - name: Outlet 3
+    type: nema-5-15r
+  - name: Outlet 4
+    type: nema-5-15r
+interfaces:
+  - name: NMC
+    type: 100base-tx
+    mgmt_only: true
