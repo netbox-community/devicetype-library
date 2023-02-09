@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: N77-SUP2E
+part_number: N77-SUP2E
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
