@@ -1,0 +1,36 @@
+---
+manufacturer: albis-elcon
+model: BIG 2862
+slug: big2862
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PWR
+    type: iec-60320-c14
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 1000base-t
+  - name: LAN4
+    type: 1000base-t
+  - name: LAN1S
+    type: 1000base-x-sfp
+  - name: LAN2S
+    type: 1000base-x-sfp
+  - name: LAN3S
+    type: 1000base-x-sfp
+  - name: LAN4S
+    type: 1000base-x-sfp
+  - name: WAN1S
+    type: 1000base-x-sfp
+  - name: WAN2S
+    type: 1000base-x-sfp
+  - name: T3/T4
+    type: other
+  - name: LCT
+    type: other
+module-bays:
+  - name: Slot0
