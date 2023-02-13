@@ -29,10 +29,12 @@ power-outlets:
     power_port: Source
 module-bays:
   - name: SmartSlot
-    position: Rear, upper center
+    position: Rear
 interfaces:
-  - name: Ethernet (NMC)
+  - name: Ethernet
     type: 100base-tx
     mgmt_only: true
-  - name: Universal I/O 1 (RJ-45)
+    label: NMC
+  - name: Universal I/O 1
     type: other
+    label: RJ-45
