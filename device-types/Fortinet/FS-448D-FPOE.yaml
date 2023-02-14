@@ -1,10 +1,15 @@
 ---
 manufacturer: Fortinet
 model: FortiSwitch S448DF
-slug: fs-448d-fpoe
+slug: fortinet-fs-448d-fpoe
 part_number: FS-448D-FPOE
 u_height: 1
+weight:
+  - value: 15.45
+    unit: lb
 is_full_depth: false
+comments: http://www.telecomdatasheets.com/doc/832/fortiswitch-secure-access-series.html
+airflow: side-to-back
 console-ports:
   - name: Console
     type: rj-45

@@ -1,10 +1,15 @@
 ---
 manufacturer: Fortinet
 model: FortiSwitch FS1E48
-slug: fs-1048e
+slug: fortinet-fs-1048e
 part_number: FS-1048E
 u_height: 1
+weight:
+  - value: 18.96
+    unit: lb
 is_full_depth: false
+comments: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Data_Center_Series.pdf
+airflow: front-to-back
 console-ports:
   - name: Console
     type: rj-45
