@@ -1,0 +1,78 @@
+---
+manufacturer: ZPE
+model: GSR-T8-BASE
+slug: zpe-gsr-t8-base
+part_number: GSR-T8-BASE
+u_height: 1
+is_full_depth: false
+comments: ZPE Nodegrid Gate SR. 8X RJ45 Serial, 13X ETH (5 GbE, 4X PoE+, 2 SFP+)
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: usbS0-1
+    type: usb-a
+  - name: usbS0-2
+    type: usb-a
+  - name: usbS0-3
+    type: usb-a
+  - name: usbS0-4
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    allocated_draw: 45
+  - name: PSU2
+    type: dc-terminal
+    allocated_draw: 45
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+  - name: SFP0
+    type: 10gbase-x-sfpp
+  - name: SFP1
+    type: 10gbase-x-sfpp
+  - name: netS1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS5
+    type: 1000base-t
+  - name: netS6
+    type: 1000base-t
+  - name: netS7
+    type: 1000base-t
+  - name: netS8
+    type: 1000base-t
+    # TODO 2xGPIO, 1xDigital Out, 1xRelay Port
+    # 1 x optional WiFi module
+    # 2 x LTE modem slots
+    # 1 x HDMI
