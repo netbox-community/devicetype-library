@@ -1,6 +1,6 @@
 ---
 manufacturer: Fortinet
-model: FortiSwitch S448DP
+model: FortiSwitch 448D-POE
 slug: fortinet-fs-448d-poe
 part_number: FS-448D-POE
 u_height: 1
@@ -8,7 +8,7 @@ weight:
   - value: 13.44
     unit: lb
 is_full_depth: false
-comments: http://www.telecomdatasheets.com/doc/832/fortiswitch-secure-access-series.html
+comments: "[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf)"
 airflow: side-to-rear
 console-ports:
   - name: Console
@@ -18,7 +18,7 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 419
     allocated_draw: 417
-  - name: FortiNet RPS connector for PSU failover
+  - name: RPScon
     type: dc-terminal
     maximum_draw: 419
     allocated_draw: 417
