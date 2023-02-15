@@ -6,14 +6,11 @@ part_number: MS425-32-HW
 u_height: 1
 is_full_depth: true
 comments: '[MS425-32 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS425_Overview_and_Specifications)'
-console-ports:
-  - name: Management
-    type: rj-45
-power-ports:
-  - name: Slot 1
-    type: iec-60320-c14
-  - name: Slot 2
-    type: iec-60320-c14
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: Port 1
     type: 10gbase-x-sfpp
@@ -83,3 +80,6 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Port 34
     type: 40gbase-x-qsfpp
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
