@@ -4,9 +4,9 @@ model: AP9630
 part_number: AP9630
 comments: UPS Network Management Card 2
 console-ports:
-  - name: {module} Serial (3.5mm)
+  - name: Serial (3.5mm) [{module}]
     type: other
 interfaces:
-  - name: {module} Network
+  - name: Network [{module}]
     type: 100base-tx
     mgmt_only: true
