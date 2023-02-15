@@ -4,9 +4,9 @@ model: AP9640
 part_number: AP9640
 comments: UPS Network Management Card 3
 console-ports:
-  - name: USB Micro
+  - name: NMC USB Micro
     type: usb-micro-b
 interfaces:
-  - name: Network
+  - name: NMC Network
     type: 1000base-t
     mgmt_only: true
