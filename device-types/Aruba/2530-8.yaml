@@ -7,32 +7,32 @@ u_height: 1
 is_full_depth: false
 power-ports:
   - name: PS1
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 8
 console-ports:
   - name: Console
     type: rj-45
 interfaces:
   - name: '1'
-    type: 1000base-t
+    type: 100base-tx
   - name: '2'
-    type: 1000base-t
+    type: 100base-tx
   - name: '3'
-    type: 1000base-t
+    type: 100base-tx
   - name: '4'
-    type: 1000base-t
+    type: 100base-tx
   - name: '5'
-    type: 1000base-t
+    type: 100base-tx
   - name: '6'
-    type: 1000base-t
+    type: 100base-tx
   - name: '7'
-    type: 1000base-t
+    type: 100base-tx
   - name: '8'
-    type: 1000base-t
+    type: 100base-tx
   - name: 9-RJ45
-    type: 1000base-t
+    type: 100base-tx
   - name: 10-RJ45
-    type: 1000base-t
+    type: 100base-tx
   - name: 9-SFP
     type: 1000base-x-sfp
   - name: 10-SFP
