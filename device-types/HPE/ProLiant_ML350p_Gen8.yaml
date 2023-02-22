@@ -9,14 +9,11 @@ comments: https://www.hpe.com/psnow/doc/c04123166
 console-ports:
   - name: VGA
     type: other
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 460
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 460
 module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
   - name: PCIe1
     position: PCIe1
   - name: PCIe2
