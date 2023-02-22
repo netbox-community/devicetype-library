@@ -1,10 +1,19 @@
 ---
 manufacturer: Juniper
-model: QFX5100-24Q-2Pq
-slug: qfx5100-24q-2p
+model: QFX5100-24Q-2P
+slug: juniper-qfx5100-24q-2p
 part_number: QFX5100-24Q-2P
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight:
+  - value: 22.0
+    unit: lb
+comments: |
+  [Juniper QFX5100 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx5100-ethernet-switch-datasheet.pdf)
+
+  [Juniper QFX5100 Chassis Data](https://www.juniper.net/documentation/us/en/hardware/qfx5100/topics/topic-map/qfx5100-port-panels.html)
+
 interfaces:
   - name: et-0/0/0
     type: 40gbase-x-qsfpp
@@ -67,6 +76,24 @@ power-ports:
   - name: PSU1
     type: iec-60320-c14
     maximum_draw: 650
+module-bays:
+  - name: Fan Tray 0
+  - name: Fan Tray 1
+  - name: Fan Tray 2
+  - name: Fan Tray 3
+  - name: Fan Tray 4
+  - name: PIC1
+    label: Expansion module QFX-EM-4Q
+    position: PIC1
+  - name: PIC2
+    label: Expansion module QFX-EM-4Q
+    position: PIC2
+  - name: PSU0
+    label: Power Supply 0
+    position: PSU0
+  - name: PSU1
+    label: Power Supply 1
+    position: PSU1
 console-ports:
   - name: console
     type: rj-45
