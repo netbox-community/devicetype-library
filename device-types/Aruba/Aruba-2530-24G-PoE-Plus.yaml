@@ -1,14 +1,14 @@
 ---
 manufacturer: HPE
-model: Aruba 2530-48G-PoEP Switch
-slug: 2530-48g-poep
-part_number: J9772A
+model: Aruba 2530-24G-PoE+
+slug: 2530-24g-poe-plus
+part_number: J9773A
 u_height: 1
 is_full_depth: false
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 476
+    maximum_draw: 247
 console-ports:
   - name: Console
     type: rj-45
@@ -62,58 +62,10 @@ interfaces:
   - name: '24'
     type: 1000base-t
   - name: '25'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '26'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '27'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '28'
-    type: 1000base-t
-  - name: '29'
-    type: 1000base-t
-  - name: '30'
-    type: 1000base-t
-  - name: '31'
-    type: 1000base-t
-  - name: '32'
-    type: 1000base-t
-  - name: '33'
-    type: 1000base-t
-  - name: '34'
-    type: 1000base-t
-  - name: '35'
-    type: 1000base-t
-  - name: '36'
-    type: 1000base-t
-  - name: '37'
-    type: 1000base-t
-  - name: '38'
-    type: 1000base-t
-  - name: '39'
-    type: 1000base-t
-  - name: '40'
-    type: 1000base-t
-  - name: '41'
-    type: 1000base-t
-  - name: '42'
-    type: 1000base-t
-  - name: '43'
-    type: 1000base-t
-  - name: '44'
-    type: 1000base-t
-  - name: '45'
-    type: 1000base-t
-  - name: '46'
-    type: 1000base-t
-  - name: '47'
-    type: 1000base-t
-  - name: '48'
-    type: 1000base-t
-  - name: '49'
-    type: 1000base-x-sfp
-  - name: '50'
-    type: 1000base-x-sfp
-  - name: '51'
-    type: 1000base-x-sfp
-  - name: '52'
     type: 1000base-x-sfp
