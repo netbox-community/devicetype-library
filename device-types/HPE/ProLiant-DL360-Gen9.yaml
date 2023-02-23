@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: ProLiant DL380 Gen6
-slug: hpe_dl380_g6
-u_height: 2
+model: ProLiant DL360 Gen9
+slug: hpe-proliant-dl360-g9
+u_height: 1
 is_full_depth: true
 console-ports:
   - name: Serial
@@ -12,14 +12,18 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 750
+    maximum_draw: 1400
   - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 750
+    maximum_draw: 1400
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
   - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
     type: 1000base-t
   - name: iLO
     type: 1000base-t

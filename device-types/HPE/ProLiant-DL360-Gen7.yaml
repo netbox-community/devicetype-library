@@ -1,9 +1,11 @@
 ---
 manufacturer: HPE
-model: ProLiant DL380 Gen10
-slug: hpe_dl380_gen10
-u_height: 2
+model: ProLiant DL360 Gen7
+slug: hpe-proliant-dl360-g7
+u_height: 1
 is_full_depth: true
+part_number: 579237-B21
+comments: '[HP ProLiant DL360 QuickSpecs](https://www.hpe.com/psnow/doc/c04284501)'
 console-ports:
   - name: Serial
     type: de-9
@@ -13,33 +15,15 @@ module-bays:
   - name: PSU1
     position: PSU1
   - name: PSU2
-    position: PSU1
+    position: PSU2
   - name: FlexLOM
     position: FlexLOM
   - name: PCIe1
     position: PCIe1
-    label: primary riser
   - name: PCIe2
     position: PCIe2
-    label: primary riser
   - name: PCIe3
     position: PCIe3
-    label: primary riser
-  - name: PCIe4
-    position: PCIe4
-    label: secondary riser
-  - name: PCIe5
-    position: PCIe5
-    label: secondary riser
-  - name: PCIe6
-    position: PCIe6
-    label: secondary riser
-  - name: PCIe7
-    position: PCIe7
-    label: tertiary riser
-  - name: PCIe8
-    position: PCIe8
-    label: tertiary riser
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

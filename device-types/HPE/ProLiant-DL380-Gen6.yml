@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: ProLiant DL320e Gen8
-slug: hpe_dl320e_g8
-u_height: 1
+model: ProLiant DL380 Gen6
+slug: hpe-proliant-dl380-g6
+u_height: 2
 is_full_depth: true
 console-ports:
   - name: Serial
@@ -12,10 +12,10 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 350
+    maximum_draw: 750
   - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 350
+    maximum_draw: 750
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

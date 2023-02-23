@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: ProLiant DL325 Gen10
-slug: hpe_dl325_gen10
-u_height: 1
+model: ProLiant DL380 Gen10
+slug: hpe-proliant-dl380-gen10
+u_height: 2
 is_full_depth: true
 console-ports:
   - name: Serial
@@ -18,10 +18,28 @@ module-bays:
     position: FlexLOM
   - name: PCIe1
     position: PCIe1
+    label: primary riser
   - name: PCIe2
     position: PCIe2
+    label: primary riser
   - name: PCIe3
     position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: secondary riser
+  - name: PCIe5
+    position: PCIe5
+    label: secondary riser
+  - name: PCIe6
+    position: PCIe6
+    label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

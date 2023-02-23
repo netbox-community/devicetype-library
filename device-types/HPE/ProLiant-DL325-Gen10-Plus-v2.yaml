@@ -1,11 +1,9 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen7
-slug: hp_dl360_g7
+model: ProLiant DL325 Gen10 Plus v2
+slug: hpe-proliant-dl325-gen10-plus-v2
 u_height: 1
 is_full_depth: true
-part_number: 579237-B21
-comments: '[HP ProLiant DL360 QuickSpecs](https://www.hpe.com/psnow/doc/c04284501)'
 console-ports:
   - name: Serial
     type: de-9
@@ -15,9 +13,9 @@ module-bays:
   - name: PSU1
     position: PSU1
   - name: PSU2
-    position: PSU2
-  - name: FlexLOM
-    position: FlexLOM
+    position: PSU1
+  - name: OCP3
+    position: OCP3
   - name: PCIe1
     position: PCIe1
   - name: PCIe2
@@ -25,14 +23,6 @@ module-bays:
   - name: PCIe3
     position: PCIe3
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
   - name: iLO
     type: 1000base-t
     mgmt_only: true
