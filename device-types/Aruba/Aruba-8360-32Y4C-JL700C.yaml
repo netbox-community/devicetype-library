@@ -1,11 +1,11 @@
 ---
 manufacturer: HPE
-model: Aruba 8360-16Y2C
-slug: 8360-16y2c
-part_number: JL702A
+model: Aruba 8360-32Y4C
+slug: 8360-32y4c
+part_number: JL700C
 u_height: 1
 is_full_depth: false
-comments: JL702A for Front to Back, JL703A for Back to Front
+airflow: front-to-back
 console-ports:
   - name: rj45-console
     type: rj-45
@@ -16,12 +16,12 @@ console-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    maximum_draw: 325
-    allocated_draw: 110
+    maximum_draw: 425
+    allocated_draw: 120
   - name: ps2
     type: iec-60320-c14
-    maximum_draw: 325
-    allocated_draw: 110
+    maximum_draw: 425
+    allocated_draw: 120
 interfaces:
   - name: 1/1/1
     type: 25gbase-x-sfp28
@@ -56,8 +56,44 @@ interfaces:
   - name: 1/1/16
     type: 25gbase-x-sfp28
   - name: 1/1/17
-    type: 100gbase-x-qsfp28
+    type: 25gbase-x-sfp28
   - name: 1/1/18
+    type: 25gbase-x-sfp28
+  - name: 1/1/19
+    type: 25gbase-x-sfp28
+  - name: 1/1/20
+    type: 25gbase-x-sfp28
+  - name: 1/1/21
+    type: 25gbase-x-sfp28
+  - name: 1/1/22
+    type: 25gbase-x-sfp28
+  - name: 1/1/23
+    type: 25gbase-x-sfp28
+  - name: 1/1/24
+    type: 25gbase-x-sfp28
+  - name: 1/1/25
+    type: 25gbase-x-sfp28
+  - name: 1/1/26
+    type: 25gbase-x-sfp28
+  - name: 1/1/27
+    type: 25gbase-x-sfp28
+  - name: 1/1/28
+    type: 25gbase-x-sfp28
+  - name: 1/1/29
+    type: 25gbase-x-sfp28
+  - name: 1/1/30
+    type: 25gbase-x-sfp28
+  - name: 1/1/31
+    type: 25gbase-x-sfp28
+  - name: 1/1/32
+    type: 25gbase-x-sfp28
+  - name: 1/1/33
+    type: 100gbase-x-qsfp28
+  - name: 1/1/34
+    type: 100gbase-x-qsfp28
+  - name: 1/1/35
+    type: 100gbase-x-qsfp28
+  - name: 1/1/36
     type: 100gbase-x-qsfp28
   - name: mgmt
     type: 1000base-t

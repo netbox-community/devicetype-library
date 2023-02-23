@@ -1,11 +1,11 @@
 ---
 manufacturer: HPE
-model: Aruba 8325-48Y8C
-slug: 8325-48Y8C
-part_number: JL635A
+model: Aruba 8360-48Y6C
+slug: 8360-48y6c
+part_number: JL704C
 u_height: 1
 is_full_depth: false
-comments: JL624A for Front to Back, JL625A for Back to Front
+airflow: front-to-back
 console-ports:
   - name: rj45-console
     type: rj-45
@@ -16,12 +16,12 @@ console-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    maximum_draw: 650
-    allocated_draw: 550
+    maximum_draw: 725
+    allocated_draw: 230
   - name: ps2
     type: iec-60320-c14
-    maximum_draw: 650
-    allocated_draw: 550
+    maximum_draw: 725
+    allocated_draw: 230
 interfaces:
   - name: 1/1/1
     type: 25gbase-x-sfp28
@@ -130,10 +130,6 @@ interfaces:
   - name: 1/1/53
     type: 100gbase-x-qsfp28
   - name: 1/1/54
-    type: 100gbase-x-qsfp28
-  - name: 1/1/55
-    type: 100gbase-x-qsfp28
-  - name: 1/1/56
     type: 100gbase-x-qsfp28
   - name: mgmt
     type: 1000base-t
