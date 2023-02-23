@@ -1,17 +1,20 @@
 ---
 manufacturer: HPE
-model: 2620 24 PoE+ Switch
-slug: 2620-24-poep
-part_number: J9625A
+model: Aruba 2530-24-PoEP Switch
+slug: hpe-aruba-2530-24-poep
+part_number: J9779A
 u_height: 1
 is_full_depth: false
+weight:
+  - value: 8
+    unit: lb
 console-ports:
   - name: console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 382
+    maximum_draw: 237
 interfaces:
   - name: '1'
     type: 100base-tx

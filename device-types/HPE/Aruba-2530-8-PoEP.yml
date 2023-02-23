@@ -1,17 +1,20 @@
 ---
 manufacturer: HPE
-model: 2530-8-PoEP Switch
-slug: 2530-8-poep
+model: Aruba 2530-8-PoE+
+slug: hpe-aruba-2530-8-poep
 part_number: J9780A
 u_height: 1
 is_full_depth: false
+weight:
+  - value: 2
+    unit: lb
 console-ports:
   - name: console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 76
+    maximum_draw: 77
 interfaces:
   - name: '1'
     type: 100base-tx

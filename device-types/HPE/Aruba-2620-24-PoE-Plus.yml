@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: 2530-48-PoEP Switch
-slug: 2530-48-poep
-part_number: J9778A
+model: Aruba 2620-24-PoE+
+slug: hpe-aruba-2620-24-poep
+part_number: J9625A
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -11,7 +11,7 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 441
+    maximum_draw: 382
 interfaces:
   - name: '1'
     type: 100base-tx
@@ -62,58 +62,10 @@ interfaces:
   - name: '24'
     type: 100base-tx
   - name: '25'
-    type: 100base-tx
+    type: 1000base-t
   - name: '26'
-    type: 100base-tx
+    type: 1000base-t
   - name: '27'
-    type: 100base-tx
-  - name: '28'
-    type: 100base-tx
-  - name: '29'
-    type: 100base-tx
-  - name: '30'
-    type: 100base-tx
-  - name: '31'
-    type: 100base-tx
-  - name: '32'
-    type: 100base-tx
-  - name: '33'
-    type: 100base-tx
-  - name: '34'
-    type: 100base-tx
-  - name: '35'
-    type: 100base-tx
-  - name: '36'
-    type: 100base-tx
-  - name: '37'
-    type: 100base-tx
-  - name: '38'
-    type: 100base-tx
-  - name: '39'
-    type: 100base-tx
-  - name: '40'
-    type: 100base-tx
-  - name: '41'
-    type: 100base-tx
-  - name: '42'
-    type: 100base-tx
-  - name: '43'
-    type: 100base-tx
-  - name: '44'
-    type: 100base-tx
-  - name: '45'
-    type: 100base-tx
-  - name: '46'
-    type: 100base-tx
-  - name: '47'
-    type: 100base-tx
-  - name: '48'
-    type: 100base-tx
-  - name: '49'
-    type: 1000base-t
-  - name: '50'
-    type: 1000base-t
-  - name: '51'
     type: 1000base-x-sfp
-  - name: '52'
+  - name: '28'
     type: 1000base-x-sfp
