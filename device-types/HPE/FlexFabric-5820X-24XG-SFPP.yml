@@ -1,7 +1,7 @@
 ---
 manufacturer: HPE
-model: 5820X-24XG-SFP+
-slug: 5820x-24xg-sfpp
+model: FlexFabric 5820X-24XG-SFP+
+slug: hpe-flexfabric-5820x-24xg-sfpp
 part_number: JC102B
 u_height: 1
 is_full_depth: false
@@ -19,14 +19,6 @@ interfaces:
   - name: M-GigabitEthernet0/0/0
     type: 1000base-t
     mgmt_only: true
-  - name: GigabitEthernet1/0/25
-    type: 1000base-t
-  - name: GigabitEthernet1/0/26
-    type: 1000base-t
-  - name: GigabitEthernet1/0/27
-    type: 1000base-t
-  - name: GigabitEthernet1/0/28
-    type: 1000base-t
   - name: Ten-GigabitEthernet1/0/1
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/2
@@ -75,3 +67,11 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/24
     type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/25
+    type: 1000base-t
+  - name: GigabitEthernet1/0/26
+    type: 1000base-t
+  - name: GigabitEthernet1/0/27
+    type: 1000base-t
+  - name: GigabitEthernet1/0/28
+    type: 1000base-t

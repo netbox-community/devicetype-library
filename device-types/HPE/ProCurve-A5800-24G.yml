@@ -1,20 +1,24 @@
 ---
 manufacturer: HPE
-model: 5130-48G-PoE+-4SFP+ (370W) EI
-slug: 5130-48G-POE-4SFP
-part_number: JG937A
+model: ProCurve A5800-24G
+slug: hpe-procurve-A5800-24G
+part_number: JC100A
 u_height: 1
 is_full_depth: false
 console-ports:
   - name: console
     type: rj-45
+  - name: console usb
+    type: usb-a
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 490
+    allocated_draw: 67
+    maximum_draw: 105
 interfaces:
-  - name: GigabitEthernet1/0/0
+  - name: M-GigabitEthernet0/0/0
     type: 1000base-t
+    mgmt_only: true
   - name: GigabitEthernet1/0/1
     type: 1000base-t
   - name: GigabitEthernet1/0/2
@@ -63,59 +67,11 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/24
     type: 1000base-t
-  - name: GigabitEthernet1/0/25
-    type: 1000base-t
-  - name: GigabitEthernet1/0/26
-    type: 1000base-t
-  - name: GigabitEthernet1/0/27
-    type: 1000base-t
-  - name: GigabitEthernet1/0/28
-    type: 1000base-t
-  - name: GigabitEthernet1/0/29
-    type: 1000base-t
-  - name: GigabitEthernet1/0/30
-    type: 1000base-t
-  - name: GigabitEthernet1/0/31
-    type: 1000base-t
-  - name: GigabitEthernet1/0/32
-    type: 1000base-t
-  - name: GigabitEthernet1/0/33
-    type: 1000base-t
-  - name: GigabitEthernet1/0/34
-    type: 1000base-t
-  - name: GigabitEthernet1/0/35
-    type: 1000base-t
-  - name: GigabitEthernet1/0/36
-    type: 1000base-t
-  - name: GigabitEthernet1/0/37
-    type: 1000base-t
-  - name: GigabitEthernet1/0/38
-    type: 1000base-t
-  - name: GigabitEthernet1/0/39
-    type: 1000base-t
-  - name: GigabitEthernet1/0/40
-    type: 1000base-t
-  - name: GigabitEthernet1/0/41
-    type: 1000base-t
-  - name: GigabitEthernet1/0/42
-    type: 1000base-t
-  - name: GigabitEthernet1/0/43
-    type: 1000base-t
-  - name: GigabitEthernet1/0/44
-    type: 1000base-t
-  - name: GigabitEthernet1/0/45
-    type: 1000base-t
-  - name: GigabitEthernet1/0/46
-    type: 1000base-t
-  - name: GigabitEthernet1/0/47
-    type: 1000base-t
-  - name: GigabitEthernet1/0/48
-    type: 1000base-t
-  - name: Ten-GigabitEthernet1/0/49
+  - name: Ten-GigabitEthernet1/0/25
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/50
+  - name: Ten-GigabitEthernet1/0/26
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/51
+  - name: Ten-GigabitEthernet1/0/27
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/52
+  - name: Ten-GigabitEthernet1/0/28
     type: 10gbase-x-sfpp

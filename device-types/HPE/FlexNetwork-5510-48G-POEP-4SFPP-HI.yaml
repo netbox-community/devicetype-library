@@ -1,20 +1,18 @@
 ---
 manufacturer: HPE
-model: A5800-48G
-slug: A5800-48G
-part_number: JC105B
+model: FlexNetwork  5510-48G-PoE+-4SFP+ HI
+slug: hpe-flexnetwork-5510-48g-poep-4sfpp-hi
+part_number: JH148A
 u_height: 1
 is_full_depth: false
 console-ports:
   - name: console
     type: rj-45
-  - name: console usb
-    type: usb-a
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 102
-    maximum_draw: 163
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'
 interfaces:
   - name: M-GigabitEthernet0/0/0
     type: 1000base-t
