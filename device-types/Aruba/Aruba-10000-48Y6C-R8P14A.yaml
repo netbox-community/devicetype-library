@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: Aruba 8360-32Y4C Back-to-Front
-slug: 8360-32y4c-jl701c
-part_number: JL701C
+model: Aruba 10000-48Y6C Back-to-Front
+slug: 10000-48Y6C
+part_number: R8P14A
 u_height: 1
 is_full_depth: false
 airflow: rear-to-front
@@ -16,12 +16,10 @@ console-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    maximum_draw: 425
-    allocated_draw: 120
+    maximum_draw: 750
   - name: ps2
     type: iec-60320-c14
-    maximum_draw: 425
-    allocated_draw: 120
+    maximum_draw: 750
 interfaces:
   - name: 1/1/1
     type: 25gbase-x-sfp28
@@ -88,12 +86,48 @@ interfaces:
   - name: 1/1/32
     type: 25gbase-x-sfp28
   - name: 1/1/33
-    type: 100gbase-x-qsfp28
+    type: 25gbase-x-sfp28
   - name: 1/1/34
-    type: 100gbase-x-qsfp28
+    type: 25gbase-x-sfp28
   - name: 1/1/35
-    type: 100gbase-x-qsfp28
+    type: 25gbase-x-sfp28
   - name: 1/1/36
+    type: 25gbase-x-sfp28
+  - name: 1/1/37
+    type: 25gbase-x-sfp28
+  - name: 1/1/38
+    type: 25gbase-x-sfp28
+  - name: 1/1/39
+    type: 25gbase-x-sfp28
+  - name: 1/1/40
+    type: 25gbase-x-sfp28
+  - name: 1/1/41
+    type: 25gbase-x-sfp28
+  - name: 1/1/42
+    type: 25gbase-x-sfp28
+  - name: 1/1/43
+    type: 25gbase-x-sfp28
+  - name: 1/1/44
+    type: 25gbase-x-sfp28
+  - name: 1/1/45
+    type: 25gbase-x-sfp28
+  - name: 1/1/46
+    type: 25gbase-x-sfp28
+  - name: 1/1/47
+    type: 25gbase-x-sfp28
+  - name: 1/1/48
+    type: 25gbase-x-sfp28
+  - name: 1/1/49
+    type: 100gbase-x-qsfp28
+  - name: 1/1/50
+    type: 100gbase-x-qsfp28
+  - name: 1/1/51
+    type: 100gbase-x-qsfp28
+  - name: 1/1/52
+    type: 100gbase-x-qsfp28
+  - name: 1/1/53
+    type: 100gbase-x-qsfp28
+  - name: 1/1/54
     type: 100gbase-x-qsfp28
   - name: mgmt
     type: 1000base-t
