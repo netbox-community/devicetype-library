@@ -5,9 +5,14 @@ slug: ms225-48lp
 part_number: MS225-48LP-HW
 u_height: 1
 is_full_depth: false
+comments: '[MS225 Overview and Specifications](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms225.pdf)'
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
+    maximum_draw: 490
+    allocated_draw: 53
+  - name: RPS Connector
+    type: dc-terminal
     maximum_draw: 490
     allocated_draw: 53
 interfaces:
