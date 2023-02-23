@@ -1,0 +1,20 @@
+---
+manufacturer: Aruba
+model: Aruba 7005
+slug: aruba7005
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: gigabitethernet 0/0/0
+    type: 1000base-t
+  - name: gigabitethernet 0/0/1
+    type: 1000base-t
+  - name: gigabitethernet 0/0/2
+    type: 1000base-t
+  - name: gigabitethernet 0/0/3
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-mini-b
