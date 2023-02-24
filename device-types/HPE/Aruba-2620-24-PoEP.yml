@@ -1,16 +1,17 @@
 ---
 manufacturer: HPE
-model: ProCurve 2524
-slug: hpe-procurve-2524-24fe
+model: Aruba 2620-24-PoE+
+slug: hpe-aruba-2620-24-poep
+part_number: J9625A
 u_height: 1
 is_full_depth: false
 console-ports:
-  - name: Console
+  - name: console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 36
+    maximum_draw: 382
 interfaces:
   - name: '1'
     type: 100base-tx
@@ -60,3 +61,11 @@ interfaces:
     type: 100base-tx
   - name: '24'
     type: 100base-tx
+  - name: '25'
+    type: 1000base-t
+  - name: '26'
+    type: 1000base-t
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp

@@ -1,17 +1,14 @@
 ---
 manufacturer: HPE
-model: ProCurve 2810-24G
-slug: hpe-procurve-2810-24g
-part_number: J9021A
+model: OfficeConnect 1810-24G
+slug: hpe-1810-24g
+part_number: J9803A
 u_height: 1
 is_full_depth: false
-console-ports:
-  - name: Console
-    type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 48
+    maximum_draw: 22
 interfaces:
   - name: '1'
     type: 1000base-t
@@ -57,7 +54,15 @@ interfaces:
     type: 1000base-t
   - name: '22'
     type: 1000base-t
+  # combo port, it's possible to use either 23 or 25 at a time
   - name: '23'
     type: 1000base-t
+  # combo port, it's possible to use either 24 or 26 at a time
   - name: '24'
     type: 1000base-t
+  # combo port, it's possible to use either 23 or 25 at a time
+  - name: '25'
+    type: 1000base-x-sfp
+  # combo port, it's possible to use either 24 or 26 at a time
+  - name: '26'
+    type: 1000base-x-sfp

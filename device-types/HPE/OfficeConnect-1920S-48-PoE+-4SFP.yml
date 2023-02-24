@@ -1,17 +1,17 @@
 ---
 manufacturer: HPE
-model: ProCurve 2810-48G
-slug: hpe-procurve-2810-48g
-part_number: J9022A
+model: OfficeConnect 1920S-48G-4SFP-PPoE+
+slug: hpe-1920s-48g-poep
+part_number: JL386A
 u_height: 1
 is_full_depth: false
 console-ports:
-  - name: Console
+  - name: console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 92
+    maximum_draw: 441
 interfaces:
   - name: '1'
     type: 1000base-t
@@ -109,3 +109,11 @@ interfaces:
     type: 1000base-t
   - name: '48'
     type: 1000base-t
+  - name: '49'
+    type: 1000base-t
+  - name: '50'
+    type: 1000base-t
+  - name: '51'
+    type: 1000base-x-sfp
+  - name: '52'
+    type: 1000base-x-sfp

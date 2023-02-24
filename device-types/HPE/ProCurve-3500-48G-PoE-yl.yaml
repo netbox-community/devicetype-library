@@ -1,17 +1,14 @@
 ---
 manufacturer: HPE
-model: ProCurve 2810-48G
-slug: hpe-procurve-2810-48g
-part_number: J9022A
+model: ProCurve 3500-48G-PoE yl
+slug: hpe-procurve-3500-48g-poe-yl
+part_number: J8693A
 u_height: 1
 is_full_depth: false
-console-ports:
-  - name: Console
-    type: rj-45
 power-ports:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 92
+    type: iec-60320-c16
+    maximum_draw: 705
 interfaces:
   - name: '1'
     type: 1000base-t

@@ -1,18 +1,24 @@
 ---
 manufacturer: HPE
-model: ProCurve 2810-24G
-slug: hpe-procurve-2810-24g
-part_number: J9021A
+model: Aruba 2920-24G
+slug: hpe-aruba-2920-24g
+part_number: J9726A
 u_height: 1
 is_full_depth: false
-console-ports:
-  - name: Console
-    type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 48
+    maximum_draw: 165
+    allocated_draw: 58
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
 interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
   - name: '1'
     type: 1000base-t
   - name: '2'

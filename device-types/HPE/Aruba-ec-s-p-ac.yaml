@@ -1,0 +1,43 @@
+---
+manufacturer: HPE
+model: Aruba ec-s-p-ac
+slug: hpe-aruba-ec-s-p-ac
+part_number: '201687'
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+console-ports:
+  - name: console
+    type: rj-45
+    label: console
+power-ports:
+  - name: power0
+    type: iec-60320-c14
+    maximum_draw: 100
+    label: power0
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt0
+  - name: mgmt1
+    type: 1000base-t
+    label: mgmt1
+  - name: lan2
+    type: 10gbase-x-sfpp
+    label: lan2
+  - name: wan2
+    type: 1000base-t
+    label: wan2
+  - name: wan0
+    type: 1000base-t
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    label: wan1

@@ -1,17 +1,17 @@
 ---
 manufacturer: HPE
-model: ProCurve 2810-24G
-slug: hpe-procurve-2810-24g
-part_number: J9021A
+model: Aruba 2530-24G
+slug: hpe-aruba-2530-24g
+part_number: J9782A
 u_height: 1
 is_full_depth: false
-console-ports:
-  - name: Console
-    type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 48
+    maximum_draw: 15
+console-ports:
+  - name: Console
+    type: rj-45
 interfaces:
   - name: '1'
     type: 1000base-t
@@ -61,3 +61,11 @@ interfaces:
     type: 1000base-t
   - name: '24'
     type: 1000base-t
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp

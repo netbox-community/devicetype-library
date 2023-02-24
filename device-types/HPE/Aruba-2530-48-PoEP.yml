@@ -1,16 +1,20 @@
 ---
 manufacturer: HPE
-model: ProCurve 2610-48
-slug: hpe-procurve-2610-48fe
+model: Aruba 2530-48-PoE+ Switch
+slug: hpe-aruba-2530-48-poep
+part_number: J9778A
 u_height: 1
 is_full_depth: false
+weight:
+  - value: 10
+    unit: lb
 console-ports:
-  - name: Console
+  - name: console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 66
+    maximum_draw: 441
 interfaces:
   - name: '1'
     type: 100base-tx
@@ -112,3 +116,7 @@ interfaces:
     type: 1000base-t
   - name: '50'
     type: 1000base-t
+  - name: '51'
+    type: 1000base-x-sfp
+  - name: '52'
+    type: 1000base-x-sfp
