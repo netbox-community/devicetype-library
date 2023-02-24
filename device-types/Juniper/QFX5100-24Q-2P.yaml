@@ -69,13 +69,6 @@ interfaces:
   - name: em1
     type: 1000base-x-sfp
     mgmt_only: true
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 650
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
 module-bays:
   - name: Fan Tray 0
   - name: Fan Tray 1
@@ -83,10 +76,10 @@ module-bays:
   - name: Fan Tray 3
   - name: Fan Tray 4
   - name: PIC1
-    label: Expansion module QFX-EM-4Q
+    label: Expansion module
     position: PIC1
   - name: PIC2
-    label: Expansion module QFX-EM-4Q
+    label: Expansion module
     position: PIC2
   - name: PSU0
     label: Power Supply 0
