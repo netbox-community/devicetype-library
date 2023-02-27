@@ -1,0 +1,104 @@
+---
+manufacturer: Cisco
+model: Cisco Nexus 7009
+slug: n7k-c7009
+part_number: N7K-C7009
+u_height: 14
+weight: 
+  - value: 100
+    unit: lb
+is_full_depth: true
+airflow: right-to-left
+subdevice_role: parent
+comments: '[Cisco Nexus 7000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/Data_Sheet_C78-437762.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: rj-45
+power-ports:
+  - name: Power Supply 1 P1
+    label: N7K-AC-6.0KW
+    type: iec-60320-c20
+    maximum_draw: 6000
+  - name: Power Supply 1 P2
+    label: N7K-AC-6.0KW
+    type: iec-60320-c20
+  - name: Power Supply 2 P1
+    label: N7K-AC-6.0KW
+    type: iec-60320-c20
+    maximum_draw: 6000
+  - name: Power Supply 2 P2
+    label: N7K-AC-6.0KW
+    type: iec-60320-c20
+module-bays:
+  - name: Slot 1
+    label: 
+    position: 1
+    description: 
+    module-bays:
+  - name: Slot 2
+    label:
+    position: 2
+    description: 
+  - name: Slot 3
+    label: 
+    position: 3
+    description:
+  - name: Slot 4
+    label: 
+    position: 4
+    description:
+  - name: Slot 5
+    label: 
+    position: 5
+    description:
+  - name: Slot 6
+    label: 
+    position: 6
+    description:
+  - name: Slot 7
+    label: 
+    position: 7
+    description:
+  - name: Slot 8
+    label: 
+    position: 8
+    description:
+  - name: Slot 9
+    label: 
+    position: 9
+    description:
+  - name: Slot 10
+    label:
+    position: 10
+    description: Fabric card module
+  - name: Slot 11
+    label: 
+    position: 11
+    description: Fabric card module
+  - name: Slot 12
+    label: 
+    position: 12
+    description: Fabric card module
+  - name: Slot 13
+    label: 
+    position: 13
+    description: Fabric card module
+  - name: Slot 14
+    label: 
+    position: 14
+    description: Fabric card module
+  - name: Slot 33
+    label: 
+    position: 33
+    description: Nexus7000 C7009 (9 Slot) Chassis Power Supply
+  - name: Slot 34
+    label: 
+    position: 34
+    description: Nexus7000 C7009 (9 Slot) Chassis Power Supply
+  - name: Slot 35
+    label: 
+    position: 35
+    description: Nexus7000 C7009 (9 Slot) Chassis Fan Module   
+    
