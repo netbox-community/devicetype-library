@@ -1,0 +1,77 @@
+---
+manufacturer: HPE
+model: FlexFabric 5820X-24XG-SFP+
+slug: hpe-flexfabric-5820x-24xg-sfpp
+part_number: JC102B
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: console
+    type: rj-45
+  - name: console usb
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 128
+    maximum_draw: 185
+interfaces:
+  - name: M-GigabitEthernet0/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ten-GigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/3
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/5
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/6
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/7
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/8
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/9
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/10
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/13
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/14
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/15
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/16
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/17
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/18
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/19
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/20
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/21
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/22
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/23
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/24
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/25
+    type: 1000base-t
+  - name: GigabitEthernet1/0/26
+    type: 1000base-t
+  - name: GigabitEthernet1/0/27
+    type: 1000base-t
+  - name: GigabitEthernet1/0/28
+    type: 1000base-t

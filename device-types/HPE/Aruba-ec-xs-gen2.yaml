@@ -1,0 +1,37 @@
+---
+manufacturer: HPE
+model: Aruba ec-xs-gen2
+slug: hpe-aruba-ec-xs-gen2
+part_number: '201571'
+u_height: 1
+is_full_depth: false
+airflow: right-to-left
+console-ports:
+  - name: console
+    type: rj-45
+    label: console
+power-ports:
+  - name: power0
+    type: dc-terminal
+    maximum_draw: 23
+    label: power0
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
+  - name: wan0
+    type: 1000base-t
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    label: wan1
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt0
+  - name: mgmt1
+    type: 1000base-t
+    label: mgmt1
