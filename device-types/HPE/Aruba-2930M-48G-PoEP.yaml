@@ -5,21 +5,15 @@ slug: hpe-aruba-2930m-48g-poep
 part_number: JL322A
 u_height: 1
 is_full_depth: false
+comments: '[Aruba 2930M Switch Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_2930MSwitchSeries.pdf)'
+weight:
+  - value: 10.25
+    unit: lb
 module-bays:
   - name: PS1
     position: '1'
-# JL086A PSU (each):
-#   maximum_draw: 470
-# JL087A PSU (each):
-#   maximum_draw: 860
-#   allocated_draw: 73
   - name: PS2
     position: '2'
-# JL086A PSU (each):
-#   maximum_draw: 470
-# JL087A PSU (each):
-#   maximum_draw: 860
-#   allocated_draw: 73
 console-ports:
   - name: Console
     type: rj-45
@@ -117,7 +111,6 @@ interfaces:
     type: 1000base-t
   - name: '44'
     type: 1000base-t
- ## Dual personality ports option 1
   - name: '45'
     type: 1000base-t
   - name: '46'
@@ -126,12 +119,3 @@ interfaces:
     type: 1000base-t
   - name: '48'
     type: 1000base-t
- ## Dual personality ports option 2
- ## - name: '45'
- ##   type: 1000base-x-sfp
- ## - name: '46'
- ##   type: 1000base-x-sfp
- ## - name: '47'
- ##   type: 1000base-x-sfp
- ## - name: '48'
- ##   type: 1000base-x-sfp
