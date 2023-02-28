@@ -1,6 +1,6 @@
 ---
 manufacturer: Cisco
-model: Cisco Nexus 7009
+model: N7K-C7009
 slug: n7k-c7009
 part_number: N7K-C7009
 u_height: 14
@@ -11,24 +11,18 @@ is_full_depth: true
 airflow: right-to-left
 subdevice_role: parent
 comments: '[Cisco Nexus 7000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/Data_Sheet_C78-437762.html)'
-console-ports:
-  - name: con0
-    type: rj-45
-  - name: con1
-    type: rj-45
+description: 'Cisco Nexus 7000 9-Slot Switch Chassis'
 power-ports:
-  - name: Power Supply 1 P1
+  - name: Power Supply 1 Input 1
+    label: N7K-AC-6.0KW
+    type: iec-60320-c20    
+  - name: Power Supply 1 Input 2
     label: N7K-AC-6.0KW
     type: iec-60320-c20
-    maximum_draw: 6000
-  - name: Power Supply 1 P2
+  - name: Power Supply 2 Input 1
     label: N7K-AC-6.0KW
-    type: iec-60320-c20
-  - name: Power Supply 2 P1
-    label: N7K-AC-6.0KW
-    type: iec-60320-c20
-    maximum_draw: 6000
-  - name: Power Supply 2 P2
+    type: iec-60320-c20    
+  - name: Power Supply 2 Input 2
     label: N7K-AC-6.0KW
     type: iec-60320-c20
 module-bays:
