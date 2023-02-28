@@ -5,7 +5,62 @@ slug: c9300X-24Y
 part_number: C9300X-24Y
 u_height: 1
 is_full_depth: true
-comments: '[Cisco Catalyst 9300 Series Switches Data Sheet] <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-swit-ser-cte-en.html> '
+subdevice_role: parent
+description: Catalyst 9300 24-port 25G/10G/1G SFP28 with modular uplinks
+comments: '###  [Cisco Catalyst 9300 Series Switches Data Sheet] 
+
+##### Device Type: Switch - 24 ports - L3 - managed - stackable
+
+##### Enclosure Type: Rack-mountable 1U
+
+##### Subtype:	25 Gigabit Ethernet
+
+##### Ports:	24 x 1/10/25 Gigabit SFP28
+
+##### Performance	Switching capacity: 2000 Gbps ¦ Switching capacity with stacking: 3000 Gbps ¦ Forwarding rate: 1488 Mpps ¦ Forwarding rate with stacking: 2232 Mpps
+
+##### Capacity:IPv4 routing table entries: 39000 ¦ IPv6 routing table entries: 19500 ¦ Flexible NetFlow entries: 128000 ¦ VLAN IDs: 4094 ¦ Switched virtual interfaces (SVIs): 1000 ¦ Packet buffer size: 32 MB ¦ MAC addresses: 32000 ¦ Multicast routing flow table: 8000 ¦ QoS scale entries: 4000 ¦ ACL scale entries: 5000 ¦ PVST instances: 1000 ¦ STP Virtual Ports for PVST: 13000 ¦ STP Virtual Ports for MST: 1000 ¦ Jumbo frame size: 9198 byte
+
+##### MAC Address Table Size	32000 entries
+
+##### Jumbo Frame Support : 9198 bytes
+
+##### Routing Protocol :OSPF, IS-IS, RIP-1, RIP-2, IGMP, VRRP, PIM-SM, OSPFv3, PIM-SSM, policy-based routing (PBR), RIPng
+
+##### Remote Management Protocol :SNMP 1, RMON 1, RMON 2, SNMP 3, SNMP 2c, CLI, NETCONF, RESTCONF
+
+##### Encryption Algorithm: 128-bit AES
+
+##### RAM:16 GB
+
+##### Flash Memory: 16 GB
+
+##### Status Indicators: Status
+
+##### Expansion / Connectivity
+
+##### Interfaces: 24 x 1/10/25GBase-X SFP28 ¦ 1 x USB 2.0
+
+##### Expansion Slots:1 (total) / 1 (free) x expansion slot
+
+#### Power
+
+##### Power Device: Internal power supply
+
+##### Power Provided: 715 Watt
+
+##### Voltage Required:AC 120/230 V (50/60 Hz)
+
+#### Dimensions & Weight
+
+##### Width: 17.5 in
+
+##### Depth: 17.6 in
+
+##### Height: 1.7 in
+
+
+<https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-swit-ser-cte-en.html> '
 console-ports:
   - name: Rear con 0
     type: rj-45
@@ -81,4 +136,5 @@ interfaces:
     type: cisco-stackwise-480
 module-bays:
   - name: Network Module
+    Description: C9300-NM-4G, C9300-NM-4M, C9300-NM-8X, C9300-NM-2Q, C9300-NM-2Y, STACK-T1-50C, STACK-T1-1M, STACK-T1-3M, SSD-120G
     position: '1'
