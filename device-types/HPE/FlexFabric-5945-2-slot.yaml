@@ -12,7 +12,7 @@ console-ports:
     type: usb-micro-b
 interfaces:
   - name: Management1
-    type: 100base-t
+    type: 100base-tx
     mgmt_only: true
   - name: Management2
     type: 1000base-x-sfp
