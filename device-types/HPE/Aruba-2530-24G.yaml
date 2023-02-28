@@ -2,16 +2,20 @@
 manufacturer: HPE
 model: Aruba 2530-24G
 slug: hpe-aruba-2530-24g
-part_number: J9782A
-u_height: 1
-is_full_depth: false
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 15
+part_number: J9776A
+u_height: 1.0
+is_full_depth: true
+comments: 'Quickspecs : https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03624915#N11007'
+weight:
+  - value: 6.1
+    unit: lb
 console-ports:
   - name: Console
     type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 50
 interfaces:
   - name: '1'
     type: 1000base-t
