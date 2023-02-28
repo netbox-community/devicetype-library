@@ -5,6 +5,7 @@ slug: hpe-flexnetwork-5510-24g-sfp-4sfpp-hi
 part_number: JH149A
 u_height: 1
 is_full_depth: false
+comments: '[HPE FlexNetwork 5510 HI Switch Series](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c04925423)'
 console-ports:
   - name: console
     type: rj-45
@@ -69,23 +70,6 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/0/24
     type: 1000base-x-sfp
-# Dual personality
-# - name: GigabitEthernet1/0/17
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/18
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/19
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/20
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/21
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/22
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/23
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/24
-#   type: 1000base-t
   - name: Ten-GigabitEthernet1/0/25
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/26
