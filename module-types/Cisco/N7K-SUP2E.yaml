@@ -1,0 +1,13 @@
+---
+manufacturer: Cisco
+model: N7K-SUP2E
+part_number: N7K-SUP2E
+slug: n7k-sup2e
+comments: '[Cisco Nexus 7000 Switches Second-Generation Supervisor Modules Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/data_sheet_c78-710881.html)'
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
