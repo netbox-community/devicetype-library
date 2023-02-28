@@ -5,20 +5,15 @@ slug: hpe-aruba-2930M-48G
 part_number: JL321A
 u_height: 1
 is_full_depth: false
+comments: '[Aruba 2930M 48G 1-slot Switch Data sheet](https://www.hpe.com/psnow/doc/PSN1009875168USEN.pdf)'
+weight:
+  - value: 10.14
+    unit: lb
 module-bays:
   - name: PS1
     position: '1'
   - name: PS2
     position: '2'
-#power-ports:
-#  - name: PS1
-#    type: iec-60320-c14
-#    maximum_draw: 78
-#    allocated_draw: 52
-#  - name: PS2
-#    type: iec-60320-c14
-#    maximum_draw: 78
-#    allocated_draw: 52
 console-ports:
   - name: Console
     type: rj-45
@@ -116,7 +111,6 @@ interfaces:
     type: 1000base-t
   - name: '44'
     type: 1000base-t
- ## Dual personality ports option 1
   - name: '45'
     type: 1000base-t
   - name: '46'
@@ -125,12 +119,3 @@ interfaces:
     type: 1000base-t
   - name: '48'
     type: 1000base-t
- ## Dual personality ports option 2
- ## - name: '45'
- ##   type: 1000base-x-sfp
- ## - name: '46'
- ##   type: 1000base-x-sfp
- ## - name: '47'
- ##   type: 1000base-x-sfp
- ## - name: '48'
- ##   type: 1000base-x-sfp
