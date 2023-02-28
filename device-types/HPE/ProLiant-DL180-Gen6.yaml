@@ -21,11 +21,12 @@ module-bays:
     position: PCIe4
 interfaces:
   - name: Gig-E 1
-  type: 1000base-t
-  mgmt_only: false
+    type: 1000base-t
+    mgmt_only: false
   - name: Gig-E 2
-  type: 1000base-t
-  mgmt_only: false
+    type: 1000base-t
+    mgmt_only: false
   - name: iLO
-  type: 1000base-t
-  mgmt_only: true
+    type: 1000base-t
+    mgmt_only: true
+
