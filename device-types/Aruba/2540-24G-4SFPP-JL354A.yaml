@@ -1,18 +1,18 @@
 ---
 manufacturer: Aruba
-model: 2540 48G 4SFP+
-slug: 2540-48g-4sfpp
-part_number: JL355A
+model: 2540 24G 4SFP+/JL354A
+slug: 2540-24g-4sfpp
+part_number: JL354A
 u_height: 1
 is_full_depth: false
-Description: 'HPE JL357A - Aruba 2540 Series Switches'
-comments: '## Aruba 2540 48G 4SFP+ Switch/ JL355A
+Description: 'HPE JL354A - Aruba 2540 Series Switches'
+comments: '## Aruba 2540 24G 4SFP+ Switch/ JL354A
 
 ##### Memory and processor :Dual Core ARM Coretex A9 @ 1016 MHz, 1 GB DDR3 SDRAM; Packet buffer size: 12.38 MB
 
 #####                      4.5 MB Ingress/7.875 MB Egress, 4 GB eMMC
 
-### Ports: (48) RJ-45 autosensing 10/100/1000 PoE+ ports; (4) SFP+ 1/10GbE ports
+### Ports: (24) RJ-45 autosensing 10/100/1000 PoE+ ports; (4) SFP+ 1/10GbE ports
 
 #### Performance: 
 
@@ -42,9 +42,9 @@ console-ports:
   - name: USB Console
     type: usb-micro-b
 power-ports:
-  - name: PSU1
+  - name: PS1
     type: iec-60320-c14
-    maximum_draw: 459
+    maximum_draw: 29
 interfaces:
   - name: Management
     type: 1000base-t
@@ -98,58 +98,10 @@ interfaces:
   - name: '24'
     type: 1000base-t
   - name: '25'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: '26'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: '27'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: '28'
-    type: 1000base-t
-  - name: '29'
-    type: 1000base-t
-  - name: '30'
-    type: 1000base-t
-  - name: '31'
-    type: 1000base-t
-  - name: '32'
-    type: 1000base-t
-  - name: '33'
-    type: 1000base-t
-  - name: '34'
-    type: 1000base-t
-  - name: '35'
-    type: 1000base-t
-  - name: '36'
-    type: 1000base-t
-  - name: '37'
-    type: 1000base-t
-  - name: '38'
-    type: 1000base-t
-  - name: '39'
-    type: 1000base-t
-  - name: '40'
-    type: 1000base-t
-  - name: '41'
-    type: 1000base-t
-  - name: '42'
-    type: 1000base-t
-  - name: '43'
-    type: 1000base-t
-  - name: '44'
-    type: 1000base-t
-  - name: '45'
-    type: 1000base-t
-  - name: '46'
-    type: 1000base-t
-  - name: '47'
-    type: 1000base-t
-  - name: '48'
-    type: 1000base-t
-  - name: '49'
-    type: 10gbase-x-sfpp
-  - name: '50'
-    type: 10gbase-x-sfpp
-  - name: '51'
-    type: 10gbase-x-sfpp
-  - name: '52'
     type: 10gbase-x-sfpp
