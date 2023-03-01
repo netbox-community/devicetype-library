@@ -12,7 +12,7 @@ weight:
 power-ports:
   - name: DC
     type: dc-terminal
-    maximum_draw: 24.5
+    maximum_draw: 25
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -22,7 +22,7 @@ interfaces:
     poe_type: type2-ieee802.3at
   - name: WiFi
     type: ieee802.11ax
-inventory-item:
+inventory-items:
   - name: Dipole1
     manufacturer: Datto
   - name: Dipole2
