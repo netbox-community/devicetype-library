@@ -1,0 +1,26 @@
+---
+manufacturer: EnGenius
+model: EWS360AP
+slug: ews360ap
+part_number: EWS360AP
+weight:
+  - value: 363
+    unit: g
+u_height: 0.0
+is_full_depth: false
+airflow: "passive"
+comments: "EWS 11ac Managed Indoor Access Point\r\n\r\nSpecifications: [EWS360AP](https://www.engeniusnetworks.eu/products/wireless/indoor-access-points/ews360ap/#specification)"
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: null
+    label: "12V DC"
+interfaces:
+  - name: eth
+    type: 1000base-t
+    mgmt_only: false
+    poe_mode: "type2-ieee802.3at"
+    poe_type: "pd"
+  - name: WiFi
+    type: ieee802.11ac
