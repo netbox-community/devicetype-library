@@ -1,8 +1,8 @@
 ---
 manufacturer: Datto
-model: DSW100-8P-2G
-slug: datto-dsw100-8p-2g
-part_number: DSW100-8P-2G
+model: DSW250-8P-2X
+slug: datto-dsw250-8p-2x
+part_number: DSW250-8P-2X
 u_height: 1
 is_full_depth: false
 airflow: right-to-left
@@ -12,7 +12,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PS1
-    type: dc-terminal
+    type: iec-60320-c14
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -55,6 +55,6 @@ interfaces:
     poe_type: type2-ieee802.3at
     #poe_type: type2-ieee802.3az
   - name: SFP 1
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
   - name: SFP 2
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
