@@ -119,11 +119,16 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: Network Module
+  - name: Network module slots
+    Description: 'Listing of Network Module C9300-NM-4G, C9300-NM-4G, C9300-NM-8X, C9300-NM-2Q, C9300-NM-4M or C9300-NM-BLANK'
     position: '1'
   - name: STACK0
+    Description: '(Optional) StackWise-480/1T cable (0.5-meter, 1-meter, or 3-meter)'
     type: cisco-stackwise-480
-    mgmt_only: false
   - name: STACK1
+    Description: '(Optional) StackWise-480/1T cable (0.5-meter, 1-meter, or 3-meter)'
     type: cisco-stackwise-480
-    mgmt_only: false
+  - name: StackPower0
+    Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
+  - name: StackPower1
+    Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
