@@ -18,7 +18,6 @@ power-ports:
 interfaces:
   - name: eth
     type: 1000base-t
-    mgmt_only: false
     poe_mode: pd
     poe_type: type2-ieee802.3at
   - name: WiFi
