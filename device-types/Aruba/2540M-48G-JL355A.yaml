@@ -5,16 +5,49 @@ slug: 2540-48g-4sfpp
 part_number: JL355A
 u_height: 1
 is_full_depth: false
-comments: '- Datasheet: [https://www.arubanetworks.com/assets/ds/DS_2540SwitchSeries.pdf](https://www.arubanetworks.com/assets/ds/DS_2540SwitchSeries.pdf)'
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 29
+Description: 'HPE JL357A - Aruba 2540 Series Switches'
+comments: '## Aruba 2540 48G 4SFP+ Switch/ JL355A
+
+##### Memory and processor :Dual Core ARM Coretex A9 @ 1016 MHz, 1 GB DDR3 SDRAM; Packet buffer size: 12.38 MB
+
+#####                      4.5 MB Ingress/7.875 MB Egress, 4 GB eMMC
+
+### Ports: (48) RJ-45 autosensing 10/100/1000 PoE+ ports; (4) SFP+ 1/10GbE ports
+
+#### Performance: 
+
+##### 1,000 MB Latency: < 3.8 μs (64-byte packets)
+
+##### 10 Gbps Latency: < 1.6 μs (64-byte packets)
+
+##### Throughput: up to 112.0 Mpps
+
+##### Switching capacity: 176 Gbps
+
+##### Routing table size: 2,000 entries (IPv4), 1,000 entries (IPv6)
+
+##### MAC address table size: 16,384 entries
+
+##### PoE capability: 370 W PoE+
+
+#### Dimensions : 17.42(w) x 9.7(d) x 1.73(h) in. (44.25 x 24.63 x 4.39 cm) (1U height)
+
+#### Weight: 6.83 lb (3.10 kg)
+
+
+##### 
+
+- Datasheet: [https://www.arubanetworks.com/assets/ds/DS_2540SwitchSeries.pdf]
+  '
 console-ports:
   - name: Console
     type: rj-45
   - name: USB Console
     type: usb-micro-b
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 459
 interfaces:
   - name: Management
     type: 1000base-t
