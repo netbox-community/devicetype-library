@@ -1,0 +1,40 @@
+---
+manufacturer: FS
+model: S3150-8T2FP
+slug: s3150-8t2fp
+part_number: "S3150-8T2FP (#90130)"
+is_full_depth: false
+u_height: 1
+airflow: left-to-right
+comments: 'S3150-8T2FP, 8-Port Gigabit Ethernet L2+ PoE+ Switch, 8 x PoE+ Ports @ 130W, with 2 x 1Gb SFP, Fanless'
+console-ports:
+  - name: Console
+    type: rj-45
+    label: Console
+    description: Serial Console Port
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 130
+interfaces:
+  - name: GigaEthernet0/1 
+    type: 1000base-t
+  - name: GigaEthernet0/2
+    type: 1000base-t
+  - name: GigaEthernet0/3 
+    type: 1000base-t
+  - name: GigaEthernet0/4 
+    type: 1000base-t
+  - name: GigaEthernet0/5 
+    type: 1000base-t
+  - name: GigaEthernet0/6 
+    type: 1000base-t
+  - name: GigaEthernet0/7 
+    type: 1000base-t
+  - name: GigaEthernet0/8 
+    type: 1000base-t
+  - name: GigaEthernet0/9
+    type: 1000base-x-sfp
+  - name: GigaEthernet0/10
+    type: 1000base-x-sfp
