@@ -1,7 +1,7 @@
 ---
 manufacturer: Datto
 model: AP440
-slug: cisco-ap440
+slug: datto-ap440
 part_number: AP440
 u_height: 0
 is_full_depth: false
@@ -18,6 +18,7 @@ interfaces:
     type: 1000base-t
   - name: Port 2
     type: 1000base-t
-    label: 802.3at PoE
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: WiFi
     type: ieee802.11ax
