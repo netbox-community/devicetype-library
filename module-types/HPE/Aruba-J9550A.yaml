@@ -1,8 +1,8 @@
 ---
-manufacturer: Aruba
-model: J9536A
-part_number: J9536A
-comments: HP J9536A 20-port Gig-T PoE+/2-port 10GbE SFP+ v2 zl Module
+manufacturer: HPE
+model: J9550A
+part_number: J9550A
+comments: HP J9550A 24-port Gig-T v2 zl Module
 interfaces:
   - name: '{module}1'
     type: 1000base-t
@@ -45,6 +45,10 @@ interfaces:
   - name: '{module}20'
     type: 1000base-t
   - name: '{module}21'
-    type: 10gbase-x-sfpp
+    type: 1000base-t
   - name: '{module}22'
-    type: 10gbase-x-sfpp
+    type: 1000base-t
+  - name: '{module}23'
+    type: 1000base-t
+  - name: '{module}24'
+    type: 1000base-t
