@@ -5,15 +5,18 @@ slug: huawei-ce8850-64cq-ei
 part_number: CE8850-64CQ-EI
 u_height: 2
 is_full_depth: true
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 965
-    allocated_draw: 375
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 965
-    allocated_draw: 375
+comments: '[Huawei CE8850-64CQ-EI](https://support.huawei.com/enterprise/en/doc/EDOC1000019246/56d573f4/ce8850-64cq-ei)'
+weight:
+  - value: 22.2
+    unit: kg
+module-bays:
+  - name: FAN1
+  - name: FAN2
+  - name: FAN3
+  - name: PWR1
+    position: '1'
+  - name: PWR2
+    position: '2'
 interfaces:
   - name: MEth0/0/0
     type: 1000base-t
