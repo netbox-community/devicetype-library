@@ -1,0 +1,44 @@
+---
+manufacturer: Datto
+model: Datto Networking Appliance
+slug: datto-networking-appliance
+part_number: DNA
+u_height: 0
+is_full_depth: false
+comments: '[Datto Technical Specifications](https://www.datto.com/products/routers/tech-specs/)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: dc-terminal
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    label: WAN1
+  - name: Port 2
+    type: 1000base-t
+    label: WAN2
+  - name: Port 3
+    type: 1000base-t
+    label: LAN1
+  - name: Port 4
+    type: 1000base-t
+    label: LAN2
+  - name: Port 5
+    type: 1000base-t
+    label: LAN3
+  - name: Port 6
+    type: 1000base-t
+    label: LAN4
+inventory-items:
+  - name: Dipole1
+    manufacturer: Datto
+  - name: Dipole2
+    manufacturer: Datto
+  - name: Dipole3
+    manufacturer: Datto
+  - name: Dipole4
+    manufacturer: Datto
+  - name: Dipole5
+    manufacturer: Datto
