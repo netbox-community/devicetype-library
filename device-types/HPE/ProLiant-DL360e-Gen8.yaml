@@ -1,11 +1,14 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen7
-slug: hpe-proliant-dl360-g7
-u_height: 1
+model: ProLiant DL360e Gen8
+slug: hp_dl360e_g8
+u_height: 1.0
 is_full_depth: true
-part_number: 579237-B21
-comments: '[HP ProLiant DL360 QuickSpecs](https://www.hpe.com/psnow/doc/c04284501)'
+part_number: 661189-B21
+comments: '[HP ProLiant DL360e Gen8 QuickSpecs](https://www.hpe.com/psnow/doc/c04284501)'
+weight:
+  - value: 17.92
+    unit: kg
 console-ports:
   - name: Serial
     type: de-9
@@ -16,6 +19,8 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
+  - name: FlexLOM
+    position: FlexLOM
   - name: PCIe1
     position: PCIe1
   - name: PCIe2
@@ -25,12 +30,16 @@ module-bays:
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
+    mgmt_only: false
   - name: Gig-E 2
     type: 1000base-t
+    mgmt_only: false
   - name: Gig-E 3
     type: 1000base-t
+    mgmt_only: false
   - name: Gig-E 4
     type: 1000base-t
+    mgmt_only: false
   - name: iLO
     type: 1000base-t
     mgmt_only: true
