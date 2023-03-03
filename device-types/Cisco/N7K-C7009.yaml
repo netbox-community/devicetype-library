@@ -11,19 +11,6 @@ is_full_depth: true
 airflow: right-to-left
 subdevice_role: parent
 comments: '[Cisco Nexus 7000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/Data_Sheet_C78-437762.html)'
-power-ports:
-  - name: Power Supply 1 Input 1
-    label: N7K-AC-6.0KW
-    type: iec-60320-c20
-  - name: Power Supply 1 Input 2
-    label: N7K-AC-6.0KW
-    type: iec-60320-c20
-  - name: Power Supply 2 Input 1
-    label: N7K-AC-6.0KW
-    type: iec-60320-c20
-  - name: Power Supply 2 Input 2
-    label: N7K-AC-6.0KW
-    type: iec-60320-c20
 module-bays:
   - name: Slot 1
     position: '1'
