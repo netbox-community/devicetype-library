@@ -1,12 +1,17 @@
 ---
 manufacturer: albis-elcon
 model: BIG 2862
-slug: big2862
+slug: albis-elcon_big-2862-dc
+part_number: 900490
+comments: '[Albis Elcon BIG 2862 Datasheet](https://www.albis-elcon.com/wp-content/uploads/2017/06/Data-sheet-BIG-2862-en-ae.pdf)'
 u_height: 1
+weight:
+  - value: 2.2
+    unit: kg
 is_full_depth: false
 power-ports:
   - name: PWR
-    type: iec-60320-c14
+    type: dc-terminal
 interfaces:
   - name: LAN1
     type: 1000base-t
@@ -33,4 +38,4 @@ interfaces:
   - name: LCT
     type: other
 module-bays:
-  - name: Slot0
+  - name: Module 1
