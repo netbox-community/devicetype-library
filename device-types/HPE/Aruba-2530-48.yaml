@@ -1,21 +1,21 @@
 ---
 manufacturer: HPE
-model: Aruba 2530-48-PoE+ Switch
-slug: hpe-aruba-2530-48-poep
-part_number: J9778A
+model: Aruba 2530-48
+slug: hpe-aruba-2530-48
+part_number: J9781A
 u_height: 1
 is_full_depth: false
-comments: '[Aruba 2530 Switch Series - Specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03624915#N11FF3)'
+comments: '[Aruba 2530 Switch Series - Specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03624915#N10805)'
 weight:
-  - value: 10
-    unit: lb
-console-ports:
-  - name: console
-    type: rj-45
+  - value: 2.6
+    unit: kg
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 441
+    maximum_draw: 30
+console-ports:
+  - name: Console
+    type: rj-45
 interfaces:
   - name: '1'
     type: 100base-tx
