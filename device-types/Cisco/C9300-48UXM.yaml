@@ -11,13 +11,6 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
-  - name: PS-A
-    type: iec-60320-c16
-    maximum_draw: 1100
-  - name: PS-B
-    type: iec-60320-c16
-    maximum_draw: 1100
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -217,3 +210,10 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: PS-A
+    position: PS-A
+  - name: PS-B
+    position: PS-B
+  - name: FAN 1
+  - name: FAN 2
+  - name: FAN 3
