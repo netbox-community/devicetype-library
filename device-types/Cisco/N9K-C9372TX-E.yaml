@@ -5,9 +5,6 @@ part_number: N9K-C9372TX-E
 slug: n9k-C9372tx-e
 u_height: 1
 is_full_depth: true
-########################################################################################################
-### airflow: This is configurable based on what Fan and Power Supply modules you have in your device ###
-########################################################################################################
 weight:
   - value: 22.6
     unit: lb
@@ -39,113 +36,113 @@ module-bays:
     position: '7'
     description: 'Nexus9000 C9372TX chassis Fan Module'
 interfaces:
-  - name: Ethernet{module}/1
+  - name: Ethernet1/1
     type: 10gbase-t
-  - name: Ethernet{module}/2
+  - name: Ethernet1/2
     type: 10gbase-t
-  - name: Ethernet{module}/3
+  - name: Ethernet1/3
     type: 10gbase-t
-  - name: Ethernet{module}/4
+  - name: Ethernet1/4
     type: 10gbase-t
-  - name: Ethernet{module}/5
+  - name: Ethernet1/5
     type: 10gbase-t
-  - name: Ethernet{module}/6
+  - name: Ethernet1/6
     type: 10gbase-t
-  - name: Ethernet{module}/7
+  - name: Ethernet1/7
     type: 10gbase-t
-  - name: Ethernet{module}/8
+  - name: Ethernet1/8
     type: 10gbase-t
-  - name: Ethernet{module}/9
+  - name: Ethernet1/9
     type: 10gbase-t
-  - name: Ethernet{module}/10
+  - name: Ethernet1/10
     type: 10gbase-t
-  - name: Ethernet{module}/11
+  - name: Ethernet1/11
     type: 10gbase-t
-  - name: Ethernet{module}/12
+  - name: Ethernet1/12
     type: 10gbase-t
-  - name: Ethernet{module}/13
+  - name: Ethernet1/13
     type: 10gbase-t
-  - name: Ethernet{module}/14
+  - name: Ethernet1/14
     type: 10gbase-t
-  - name: Ethernet{module}/15
+  - name: Ethernet1/15
     type: 10gbase-t
-  - name: Ethernet{module}/16
+  - name: Ethernet1/16
     type: 10gbase-t
-  - name: Ethernet{module}/17
+  - name: Ethernet1/17
     type: 10gbase-t
-  - name: Ethernet{module}/18
+  - name: Ethernet1/18
     type: 10gbase-t
-  - name: Ethernet{module}/19
+  - name: Ethernet1/19
     type: 10gbase-t
-  - name: Ethernet{module}/20
+  - name: Ethernet1/20
     type: 10gbase-t
-  - name: Ethernet{module}/21
+  - name: Ethernet1/21
     type: 10gbase-t
-  - name: Ethernet{module}/22
+  - name: Ethernet1/22
     type: 10gbase-t
-  - name: Ethernet{module}/23
+  - name: Ethernet1/23
     type: 10gbase-t
-  - name: Ethernet{module}/24
+  - name: Ethernet1/24
     type: 10gbase-t
-  - name: Ethernet{module}/25
+  - name: Ethernet1/25
     type: 10gbase-t
-  - name: Ethernet{module}/26
+  - name: Ethernet1/26
     type: 10gbase-t
-  - name: Ethernet{module}/27
+  - name: Ethernet1/27
     type: 10gbase-t
-  - name: Ethernet{module}/28
+  - name: Ethernet1/28
     type: 10gbase-t
-  - name: Ethernet{module}/29
+  - name: Ethernet1/29
     type: 10gbase-t
-  - name: Ethernet{module}/30
+  - name: Ethernet1/30
     type: 10gbase-t
-  - name: Ethernet{module}/31
+  - name: Ethernet1/31
     type: 10gbase-t
-  - name: Ethernet{module}/32
+  - name: Ethernet1/32
     type: 10gbase-t
-  - name: Ethernet{module}/33
+  - name: Ethernet1/33
     type: 10gbase-t
-  - name: Ethernet{module}/34
+  - name: Ethernet1/34
     type: 10gbase-t
-  - name: Ethernet{module}/35
+  - name: Ethernet1/35
     type: 10gbase-t
-  - name: Ethernet{module}/36
+  - name: Ethernet1/36
     type: 10gbase-t
-  - name: Ethernet{module}/37
+  - name: Ethernet1/37
     type: 10gbase-t
-  - name: Ethernet{module}/38
+  - name: Ethernet1/38
     type: 10gbase-t
-  - name: Ethernet{module}/39
+  - name: Ethernet1/39
     type: 10gbase-t
-  - name: Ethernet{module}/40
+  - name: Ethernet1/40
     type: 10gbase-t
-  - name: Ethernet{module}/41
+  - name: Ethernet1/41
     type: 10gbase-t
-  - name: Ethernet{module}/42
+  - name: Ethernet1/42
     type: 10gbase-t
-  - name: Ethernet{module}/43
+  - name: Ethernet1/43
     type: 10gbase-t
-  - name: Ethernet{module}/44
+  - name: Ethernet1/44
     type: 10gbase-t
-  - name: Ethernet{module}/45
+  - name: Ethernet1/45
     type: 10gbase-t
-  - name: Ethernet{module}/46
+  - name: Ethernet1/46
     type: 10gbase-t
-  - name: Ethernet{module}/47
+  - name: Ethernet1/47
     type: 10gbase-t
-  - name: Ethernet{module}/48
+  - name: Ethernet1/48
     type: 10gbase-t
-  - name: Ethernet{module}/49
+  - name: Ethernet1/49
     type: 40gbase-x-qsfpp
-  - name: Ethernet{module}/50
+  - name: Ethernet1/50
     type: 40gbase-x-qsfpp
-  - name: Ethernet{module}/51
+  - name: Ethernet1/51
     type: 40gbase-x-qsfpp
-  - name: Ethernet{module}/52
+  - name: Ethernet1/52
     type: 40gbase-x-qsfpp
-  - name: Ethernet{module}/53
+  - name: Ethernet1/53
     type: 40gbase-x-qsfpp
-  - name: Ethernet{module}/54
+  - name: Ethernet1/54
     type: 40gbase-x-qsfpp
   - name: mgmt0
     type: 1000base-t
