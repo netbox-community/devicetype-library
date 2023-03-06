@@ -1,0 +1,32 @@
+---
+manufacturer: Intel
+model: H2312XXLR2
+slug: intel-h2312xxlr2
+u_height: 2
+is_full_depth: true
+comments: |
+  [H2312XXLR2 Specifications on intel.com](https://www.intel.com/content/www/us/en/products/sku/87573/intel-server-chassis-h2312xxlr2/specifications.html)
+subdevice_role: parent
+device-bays:
+  - name: Node 1
+    label: Blade 1
+  - name: Node 2
+    label: Blade 2
+  - name: Node 3
+    label: Blade 3
+  - name: Node 4
+    label: Blade 4
+power-ports:
+  - name: Power 1
+    label: 2130W common redundant power supply (Platinum Efficiency)
+    type: FXX2130PCRPS
+    maximum_draw: 2130
+  - name: Power 2
+    label: 2130W common redundant power supply (Platinum Efficiency)
+    type: FXX2130PCRPS
+    maximum_draw: 2130
+inventory-items:
+  - name: FHW12X35HS12G
+    label: 12Gb SAS backplane
+    manufacturer: Intel
+    part_id: FHW12X35HS12G
