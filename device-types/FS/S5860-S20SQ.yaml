@@ -1,0 +1,73 @@
+---
+manufacturer: FS
+model: S5860-20SQ
+slug: s5860-20sq
+part_number: s5860-20sq
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: Management
+    type: rj-45
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 85
+    allocated_draw: 85
+  - name: Slot 2
+    type: iec-60320-c14
+    maximum_draw: 85
+    allocated_draw: 85
+interfaces:
+  - name: Te1/1
+    type: 10gbase-x-sfpp
+  - name: Te1/2
+    type: 10gbase-x-sfpp
+  - name: Te1/3
+    type: 10gbase-x-sfpp
+  - name: Te1/4
+    type: 10gbase-x-sfpp
+  - name: Te1/5
+    type: 10gbase-x-sfpp
+  - name: Te1/6
+    type: 10gbase-x-sfpp
+  - name: Te1/7
+    type: 10gbase-x-sfpp
+  - name: Te1/8
+    type: 10gbase-x-sfpp
+  - name: Te1/9
+    type: 10gbase-x-sfpp
+  - name: Te1/10
+    type: 10gbase-x-sfpp
+  - name: Te1/11
+    type: 10gbase-x-sfpp
+  - name: Te1/12
+    type: 10gbase-x-sfpp
+  - name: Te1/13
+    type: 10gbase-x-sfpp
+  - name: Te1/14
+    type: 10gbase-x-sfpp
+  - name: Te1/15
+    type: 10gbase-x-sfpp
+  - name: Te1/16
+    type: 10gbase-x-sfpp
+  - name: Te1/17
+    type: 10gbase-x-sfpp
+  - name: Te1/18
+    type: 10gbase-x-sfpp
+  - name: Te1/19
+    type: 10gbase-x-sfpp
+  - name: Te1/20
+    type: 10gbase-x-sfpp
+  - name: TFG1/21
+    type: 25gbase-x-sfp28
+  - name: TFG1/22
+    type: 25gbase-x-sfp28
+  - name: TFG1/23
+    type: 25gbase-x-sfp28
+  - name: TFG1/24
+    type: 25gbase-x-sfp28
+  - name: Fo1/25
+    type: 40gbase-x-qsfpp
+  - name: Fo1/26
+    type: 40gbase-x-qsfpp
