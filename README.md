@@ -77,7 +77,7 @@ The following fields may **optionally** be declared:
 >```
 >weight:
 >  - value: 12.21
->    unit: lb
+>weight_unit: lb
 >```
 
 For further detail on these attributes and those listed below, please reference the
