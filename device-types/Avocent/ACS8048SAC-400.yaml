@@ -1,8 +1,9 @@
 ---
 manufacturer: Avocent
-model: ACS 8048
-slug: avocent-acs8048
-part_number: ACS-8048
+model: ACS 8048 Single-AC
+slug: avocent-acs8048sac-400
+part_number: ACS8048SAC-400
+comments: '[Avocent® ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)'
 u_height: 1
 is_full_depth: false
 airflow: passive
@@ -111,10 +112,6 @@ console-server-ports:
     type: rj-45
 power-ports:
   - name: ps1
-    type: iec-60320-c14
-    allocated_draw: 11
-    maximum_draw: 33
-  - name: ps2
     type: iec-60320-c14
     allocated_draw: 11
     maximum_draw: 33
