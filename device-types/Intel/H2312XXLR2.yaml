@@ -4,9 +4,8 @@ model: H2312XXLR2
 slug: intel-h2312xxlr2
 u_height: 2
 airflow: front-to-rear
-weight:
-  - value: 30.6
-    unit: kg
+weight: 30.6
+weight_unit: kg
 is_full_depth: true
 comments: |
   [H2312XXLR2 Specifications on intel.com](https://www.intel.com/content/www/us/en/products/sku/87573/intel-server-chassis-h2312xxlr2/specifications.html)
@@ -24,10 +23,10 @@ device-bays:
 module-bays:
   - name: PSU Slot 1
     label: Power Supply 1
-    position: lower center rear
+    position: 1
   - name: PSU Slot 2
     label: Power Supply 2
-    position: upper center rear
+    position: 2
 inventory-items:
   - name: FHW12X35HS12G
     label: 12Gb SAS backplane
