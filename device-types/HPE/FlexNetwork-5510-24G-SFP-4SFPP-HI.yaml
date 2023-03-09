@@ -1,0 +1,80 @@
+---
+manufacturer: HPE
+model: FlexNetwork 5510-24G-SFP-4SFP+ HI
+slug: hpe-flexnetwork-5510-24g-sfp-4sfpp-hi
+part_number: JH149A
+u_height: 1
+is_full_depth: false
+comments: '[HPE FlexNetwork 5510 HI Switch Series](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c04925423)'
+console-ports:
+  - name: console
+    type: rj-45
+  - name: USB Console
+    type: usb-mini-b
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'
+  - name: port expansion module
+    position: '3'
+interfaces:
+  - name: M-GigabitEthernet0/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet1/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/20
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/21
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/22
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/23
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/24
+    type: 1000base-x-sfp
+  - name: Ten-GigabitEthernet1/0/25
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/26
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/27
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/28
+    type: 10gbase-x-sfpp
