@@ -2,7 +2,11 @@
 manufacturer: Intel
 model: HNS2600TPR
 slug: intel-hns2600tpr
-u_height: 0.5
+airflow: front-to-rear
+weight:
+  - value: 1.0
+    unit: kg
+u_height: 0
 comments: |
   [HNS2600TPR Specifications on intel.com](https://ark.intel.com/content/www/us/en/ark/products/88297/intel-compute-module-hns2600tpr.html)
 subdevice_role: child
@@ -18,6 +22,12 @@ interfaces:
   - name: IPMI
     type: 1000base-t
     mgmt_only: true
-console-ports:
-  - name: Rear VGA
-    type: other
+  - name: QSFPPlus
+    type: 40gbase-x-qsfpp
+module-bays:
+  - name: PCIe Riser 1
+    label: PCIe Riser 1
+    position: back left
+  - name: PCIe Riser 2
+    label: PCIe Riser 2
+    position: back right
