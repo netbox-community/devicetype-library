@@ -1,0 +1,59 @@
+---
+manufacturer: FS
+model: S3150-8T2FP
+slug: fs-s3150-8t2fp
+part_number: S3150-8T2FP
+is_full_depth: false
+u_height: 1
+airflow: passive
+comments: '[FS S3150 Series Switches Data Sheet](https://www.fs.com/products_support/preview.html?categories_id=3256&files_id=4543&model_name=S3150-8T2FP&is_datasheet=1)'
+weight: 3.7
+weight_unit: lb
+console-ports:
+  - name: Console
+    type: rj-45
+    label: Console
+    description: RJ45 Serial Console Port
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 260
+    allocated_draw: 130
+    description: 100 to 240 V AC, 50/60 Hz
+interfaces:
+  - name: GigaEthernet0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigaEthernet0/9
+    type: 1000base-x-sfp
+  - name: GigaEthernet0/10
+    type: 1000base-x-sfp
