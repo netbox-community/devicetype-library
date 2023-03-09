@@ -3,9 +3,8 @@ manufacturer: Intel
 model: HNS2600TPR
 slug: intel-hns2600tpr
 airflow: front-to-rear
-weight:
-  - value: 1.0
-    unit: kg
+weight: 1.0
+weight_unit: kg
 u_height: 0
 comments: |
   [HNS2600TPR Specifications on intel.com](https://ark.intel.com/content/www/us/en/ark/products/88297/intel-compute-module-hns2600tpr.html)
@@ -27,7 +26,7 @@ interfaces:
 module-bays:
   - name: PCIe Riser 1
     label: PCIe Riser 1
-    position: back left
+    position: '1'
   - name: PCIe Riser 2
     label: PCIe Riser 2
-    position: back right
+    position: '2'
