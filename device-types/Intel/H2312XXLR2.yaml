@@ -3,28 +3,31 @@ manufacturer: Intel
 model: H2312XXLR2
 slug: intel-h2312xxlr2
 u_height: 2
+airflow: front-to-rear
+weight:
+  - value: 30.6 # Could not find specific information on the intel site but ChatGPT had apparently indexed this site: https://ark.intel.com/content/www/us/en/ark/products/83627/intel-server-chassis-h2312xxlr2.html
+    unit: kg
 is_full_depth: true
 comments: |
   [H2312XXLR2 Specifications on intel.com](https://www.intel.com/content/www/us/en/products/sku/87573/intel-server-chassis-h2312xxlr2/specifications.html)
+  [Intel Server Chassis H2000G Service Guide (PDF)](https://www.intel.com/content/dam/support/us/en/documents/server-products/server-boards/H2000G_SG.pdf)
 subdevice_role: parent
 device-bays:
   - name: Node 1
-    label: Blade 1
+    label: Compute Node 1
   - name: Node 2
-    label: Blade 2
+    label: Compute Node 2
   - name: Node 3
-    label: Blade 3
+    label: Compute Node 3
   - name: Node 4
-    label: Blade 4
-power-ports:
-  - name: Power 1
-    label: 2130W common redundant power supply (Platinum Efficiency)
-    type: iec-60320-c14
-    maximum_draw: 2130
-  - name: Power 2
-    label: 2130W common redundant power supply (Platinum Efficiency)
-    type: iec-60320-c14
-    maximum_draw: 2130
+    label: Compute Node 4
+module-bays:
+  - name: PSU Slot 1
+    label: Power Supply 1
+    position: lower center rear
+  - name: PSU Slot 2
+    label: Power Supply 2
+    position: upper center rear
 inventory-items:
   - name: FHW12X35HS12G
     label: 12Gb SAS backplane
