@@ -1,7 +1,6 @@
----
 manufacturer: Cisco
 model: uBR10012
-slug: ubr10012
+slug: cisco-ubr10012
 u_height: 18
 is_full_depth: true
 comments: '[Cisco uBR10012 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/video/ubr10000-series-universal-broadband-routers/product_data_sheet09186a00801ed384.html)'
@@ -25,11 +24,11 @@ module-bays:
   - name: rf-slot9
     position: '9'
   - name: rf-slot10
-    position: '10'
+    position: 10
   - name: rf-slot11
-    position: '11'
+    position: 11
   - name: rf-slot12
-    position: '12'
+    position: 12
   - name: power-slot1
     position: PSU1
   - name: power-slot2
