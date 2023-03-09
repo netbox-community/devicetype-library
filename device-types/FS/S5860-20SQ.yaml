@@ -8,25 +8,24 @@ is_full_depth: true
 airflow: front-to-rear
 comments: |
   [FS S5860-20SQ Datasheet] (https://resource.fs.com/icon/js/stream/www.fs.com/477436/S5860%20Series%20Switches%20Datasheet.pdf)
-weight:
-  - value: 10.14
-    unit: lb
+weight: 10.14
+weight_unit: lb
 console-ports:
   - name: Management
     type: rj-45
 module-bays:
   - name: PSU1
     label: PSU1
-    position: '1'
+    position: "1"
   - name: PSU2
     label: PSU2
-    position: '2'
+    position: "2"
   - name: FAN1
     label: FAN1
-    position: '1'
+    position: "1"
   - name: FAN2
     label: FAN2
-    position: '2'
+    position: "2"
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
