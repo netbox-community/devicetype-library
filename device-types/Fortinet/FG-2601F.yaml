@@ -15,12 +15,12 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 513.7
-    allocated_draw: 420.3
+    maximum_draw: 513
+    allocated_draw: 420
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 513.7
-    allocated_draw: 420.3
+    maximum_draw: 513
+    allocated_draw: 420
 interfaces:
   - name: mgmt1
     type: 1000base-t
