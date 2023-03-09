@@ -1,11 +1,14 @@
+import decimal
 import glob
 import json
 import os
+from urllib.request import urlopen
+
 import pytest
 import yaml
-from jsonschema import RefResolver, Draft4Validator
+from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
-
+from yaml_loader import DecimalSafeLoader
 
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
@@ -35,7 +38,7 @@ def _get_definition_files():
 
         # Initialize the schema
         with open(f"schema/{schema}") as schema_file:
-            schema = json.loads(schema_file.read())
+            schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
 
         # Validate that the schema exists
         assert schema, f"Schema definition for {path} is empty!"
@@ -49,6 +52,12 @@ def _get_definition_files():
 
 definition_files = _get_definition_files()
 known_slugs = set()
+
+
+def _decimal_file_handler(uri):
+    with urlopen(uri) as url:
+        result = json.loads(url.read().decode("utf-8"), parse_float=decimal.Decimal)
+    return result
 
 
 def test_environment():
@@ -75,11 +84,15 @@ def test_definitions(file_path, schema):
     assert content.endswith('\n'), "Missing trailing newline"
 
     # Load YAML data from file
-    definition = yaml.load(content, Loader=yaml.SafeLoader)
+    definition = yaml.load(content, Loader=DecimalSafeLoader)
 
     # Validate YAML definition against the supplied schema
     try:
-        resolver = RefResolver(f'file://{os.getcwd()}/schema/devicetype.json', schema)
+        resolver = RefResolver(
+            f"file://{os.getcwd()}/schema/devicetype.json",
+            schema,
+            handlers={"file": _decimal_file_handler},
+        )
         Draft4Validator(schema, resolver=resolver).validate(definition)
     except ValidationError as e:
         pytest.fail(f"{file_path} failed validation: {e}", False)
