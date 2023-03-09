@@ -600,27 +600,6 @@
                 }
             },
             "required": ["name"]
-        },
-
-        "weight": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "number",
-                    "minimum": 0,
-                    "multipleOf": 0.01
-                },
-                "unit": {
-                    "type": "string",
-                    "enum": [
-                        "kg",
-                        "g",
-                        "lb",
-                        "oz"
-                    ]
-                }
-            },
-            "required": ["value", "unit"]
         }
 
     }
