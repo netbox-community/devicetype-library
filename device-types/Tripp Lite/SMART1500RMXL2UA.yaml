@@ -1,20 +1,23 @@
 ---
-manufacturer: Tripp-Lite
-model: PDUMH15AT
-slug: pdumh15at
-part_number: 037332126658
-u_height: 1
-is_full_depth: false
+manufacturer: Tripp Lite
+model: SMART1500RMXL2UA
+slug: tripp-lite-smart1500rmxl2ua
+part_number: SMART1500RMXL2UA
+comments: |
+  Battery-backed power supply feeding 8 Nema-5-15R receptables
+
+  Dimensions: 3.45" x 17.3" x 13.45" Weight: 21.09 kg/46.5 lbs
+u_height: 2
+is_full_depth: true
 console-ports:
   - name: RS232
     type: de-9
+  - name: USB
+    type: usb-b
 power-ports:
   - name: Primary
     type: nema-5-15p
-    maximum_draw: 1400
-  - name: Secondary
-    type: iec-60320-c14
-    maximum_draw: 1400
+    maximum_draw: 1350
 power-outlets:
   - name: '1'
     type: nema-5-15r
