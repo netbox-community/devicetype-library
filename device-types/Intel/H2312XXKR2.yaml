@@ -5,9 +5,8 @@ slug: intel-h2312xxkr2
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
-weight:
-  - value: 21.5
-    unit: kg
+weight: 21.5
+weight_unit: kg
 comments: |
   [H2312XXKR2 Specifications on intel.com](https://www.intel.com/content/www/us/en/products/sku/81877/intel-server-chassis-h2312xxkr2/specifications.html)
   [Intel Server Chassis H2000G Service Guide (PDF)](https://www.intel.com/content/dam/support/us/en/documents/server-products/server-boards/H2000G_SG.pdf)
@@ -24,10 +23,10 @@ device-bays:
 module-bays:
   - name: PSU Slot 1
     label: Power Supply 1
-    position: lower center rear
+    position: '1'
   - name: PSU Slot 2
     label: Power Supply 2
-    position: upper center rear
+    position: '2'
 inventory-items:
   - name: FHW12X35HS12G
     label: 12Gb SAS backplane
