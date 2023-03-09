@@ -64,19 +64,19 @@ The following fields may **optionally** be declared:
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
 > :test_tube: **Example**: `comments: This is a comment that will appear on all NetBox devices of this type`
-- `weight`: An array with a **single** item that allow for a value and unit of measurement to be defined. (**Default: None**)
-  - Type: Array
-  - Value: Number - must be multiple of 0.01
-  - Unit: String
-    - Options:
-        - kg
-        - g
-        - lb
-        - oz
+- `weight`: A number representing the numeric weight value. Must be a multiple of 0.01 (2 decimal places). (**Default: None**)
+    - Type: Number
+    - Value: must be a multiple of 0.01
+- `weight_unit`: A string defining the unit of measurement. It must be one of the supported values. (**Default: None**)
+  - Type: String
+  - Value: Enumerated Options
+    - kg
+    - g
+    - lb
+    - oz
 >:test_tube: **Example**:
 >```
->weight:
->  - value: 12.21
+>weight: 12.21
 >weight_unit: lb
 >```
 
