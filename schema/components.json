@@ -172,7 +172,8 @@
                         "dc-terminal",
                         "saf-d-grid",
                         "ubiquiti-smartpower",
-                        "hardwired"
+                        "hardwired",
+                        "other"
                     ]
                 },
                 "maximum_draw": {
@@ -281,7 +282,8 @@
                         "hdot-cx",
                         "saf-d-grid",
                         "ubiquiti-smartpower",
-                        "hardwired"
+                        "hardwired",
+                        "other"
                     ]
                 },
                 "power_port": {
@@ -473,7 +475,8 @@
                         "sma-906",
                         "urm-p2",
                         "urm-p4",
-                        "urm-p8"
+                        "urm-p8",
+                        "other"
                     ]
                 },
                 "color": {
@@ -597,27 +600,6 @@
                 }
             },
             "required": ["name"]
-        },
-
-        "weight": {
-            "type": "object",
-            "properties": {
-                "value": {
-                    "type": "number",
-                    "minimum": 0,
-                    "multipleOf": 0.01
-                },
-                "unit": {
-                    "type": "string",
-                    "enum": [
-                        "kg",
-                        "g",
-                        "lb",
-                        "oz"
-                    ]
-                }
-            },
-            "required": ["value", "unit"]
         }
 
     }
