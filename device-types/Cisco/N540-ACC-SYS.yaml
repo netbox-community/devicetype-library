@@ -27,8 +27,7 @@ module-bays:
 console-ports:
   - name: con0
     type: rj-45
-    description: 'Serial Console port, default: Baud rate (TX/RX) is 115200, "No"
-      Parity, 2 stopbits, 8 databits'
+    description: 'Serial Console port, default: Baud rate (TX/RX) is 115200, "No" Parity, 2 stopbits, 8 databits'
 interfaces:
   - name: TenGigE0/0/0/0
     type: 10gbase-x-sfpp
