@@ -169,3 +169,12 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+module-bays:
+  - name: StackPort1/1
+    type: cisco-stackwise-480
+  - name: StackPort1/2
+    type: cisco-stackwise-480
+  - name: StackStackPower1/1
+    type: cisco-StackPower
+  - name: StackStackPower1/2
+    type: cisco-StackPower
