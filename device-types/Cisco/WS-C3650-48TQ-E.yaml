@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst 3650-48TQ-E
-slug: ws-c3650-48tq-e
+slug: cisco-ws-c3650-48tq-e
 part_number: WS-C3650-48TQ-E
 is_full_depth: false
 u_height: 1
@@ -117,8 +117,8 @@ interfaces:
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
-  - name: PS-A
-    type: iec-60320-c16
-  - name: PS-B
-    type: iec-60320-c16
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
