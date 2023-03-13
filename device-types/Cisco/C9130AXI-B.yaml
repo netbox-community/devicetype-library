@@ -1,6 +1,6 @@
 ---
 manufacturer: Cisco
-model: Catalyst 9130AXI-B Series
+model: Catalyst 9130AXI-B
 slug: c9130axi-b
 part_number: C9130AXI-B
 u_height: 0
@@ -8,10 +8,10 @@ is_full_depth: false
 interfaces:
   - name: WiFi
     type: ieee802.11ax
-  - name: gigabitEthernet
+  - name: GigabitEthernet0
     type: 5gbase-t
 console-ports:
-  - name: con 0
+  - name: console
     type: rj-45
   - name: usb
     type: usb-mini-b

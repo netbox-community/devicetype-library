@@ -11,8 +11,12 @@ console-ports:
 power-ports:
   - name: Power Supply 1
     type: iec-60320-c14
+    maximum_draw: 1245
+    allocated_draw: 429
   - name: Power Supply 2
     type: iec-60320-c14
+    maximum_draw: 1245
+    allocated_draw: 429
 interfaces:
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
