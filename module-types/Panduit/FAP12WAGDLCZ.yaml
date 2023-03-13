@@ -1,11 +1,7 @@
 ---
 manufacturer: Panduit
-model: Opticom MPO-LC Fiber Cassette OM3, 24 Fiber, Method A
-slug: fc2xo-24-10as
-part_number: FC2XO-24-10AS
-u_height: 0
-is_full_depth: false
-subdevice_role: child
+model: Opticom Fiber Adapter Panel (12 LC Duplex APC/24 Strand, Green)
+part_number: FAP12WAGDLCZ
 front-ports:
   - name: '01'
     type: lc
@@ -57,5 +53,5 @@ front-ports:
     rear_port_position: 12
 rear-ports:
   - name: '01'
-    type: mpo
+    type: lc
     positions: 12
