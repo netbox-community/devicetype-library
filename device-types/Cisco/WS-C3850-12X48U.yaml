@@ -8,13 +8,6 @@ is_full_depth: false
 console-ports:
   - name: Con 0
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c16
-    maximum_draw: 1100
-  - name: PS2
-    type: iec-60320-c16
-    maximum_draw: 1100
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -193,3 +186,5 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: PSU1
+  - name: PSU2
