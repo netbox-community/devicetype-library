@@ -215,6 +215,7 @@ interfaces:
 console-ports:
   - name: con 0
     type: rj-45
-module-bays:
-  - name: Power-Supply-Bay-1
-  - name: Power-Supply-Bay-2
+power-ports:
+  - name: PSU0
+    type: iec-60320-c16
+    maximum_draw: 975
