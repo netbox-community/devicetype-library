@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst 3850-24XS-E
-slug: ws-c3850-24xs-e
+slug: cisco-ws-c3850-24xs-e
 part_number: WS-C3850-24XS-E
 is_full_depth: false
 u_height: 1
@@ -60,14 +60,12 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 console-ports:
   - name: con0
     type: rj-45
   - name: usb0
     type: usb-mini-b
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 715
-  - name: PSU1
-    type: iec-60320-c14
