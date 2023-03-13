@@ -1,7 +1,7 @@
 ---
 manufacturer: Nokia
 model: 7220 IXR-D2L 25/100GE
-slug: 7220-ixr-d2l # As reported by cSRL in /platform/chassis/type
+slug: nokia-7220-ixr-d2l
 part_number: 3HE17645AA
 u_height: 1
 is_full_depth: true  # 21.10"
@@ -9,17 +9,10 @@ comments: '[Datasheet](https://pf.content.nokia.com/too54x-webscale-dc-fabric-pr
 console-ports:
   - name: Console
     type: rj-45
-  - name: Console2
-    type: usb-c
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 650 # 800W DC, 650W AC for D2; 650W both for D2L
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 650
-#
-# 8xQSFP 100GE + 48xSFP28 25GE + 2 SFP+
+  - name: USB1
+    type: usb-a
+  - name: USB2
+    type: usb-a
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -140,3 +133,12 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: ethernet-1/58
     type: 10gbase-x-sfpp
+module-bays:
+  - name: PS1
+    # Comment: Power Supply 0
+  - name: PS2
+    # Comment: Power Supply 1
+  - name: Fan Tray 0
+  - name: Fan Tray 1
+  - name: Fan Tray 2
+  - name: Fan Tray 3
