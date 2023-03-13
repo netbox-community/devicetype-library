@@ -131,10 +131,14 @@ interfaces:
     type: 100gbase-x-qsfp28
 module-bays:
   - name: PS1
-    # Comment: Power Supply 0
+    position: "1"
   - name: PS2
-    # Comment: Power Supply 1
-  - name: Fan Tray 0
+    position: "2"
   - name: Fan Tray 1
+    position: "1"
   - name: Fan Tray 2
+    position: "2"
   - name: Fan Tray 3
+    position: "3"
+  - name: Fan Tray 4
+    position: "4"
