@@ -1,0 +1,46 @@
+---
+manufacturer: MikroTik
+model: hEX PoE lite
+slug: mikrotik-hex-poe-lite
+part_number: RB750UPr2
+u_height: 0
+weight: 0.3
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+comments: '[RB750UPr2 Datasheet](https://mikrotik.com/product/RB750UPr2)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 51
+    allocated_draw: 3
+    description: DC 8-30V
+console-ports:
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: ether1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: ether2
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: ether3
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: ether4
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: ether5
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
