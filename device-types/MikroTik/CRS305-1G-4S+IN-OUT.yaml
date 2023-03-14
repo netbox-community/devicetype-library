@@ -1,14 +1,14 @@
 ---
 manufacturer: MikroTik
-model: CRS305-1G-4S+IN
-slug: mikrotik-crs305-1g-4s-plus-in
-part_number: CRS305-1G-4S+
+model: FiberBox Plus
+slug: mikrotik-fiberbox-plus
+part_number: CRS305-1G-4S+OUT
 u_height: 0
 is_full_depth: false
 airflow: passive
-weight: 0.7
+weight: 2.7
 weight_unit: kg
-comments: '[CRS305-1G-4S+ Datasheet](https://mikrotik.com/product/crs305_1g_4s_in)'
+comments: '[CRS305-1G-4S+OUT Datasheet](https://mikrotik.com/product/fiberboxplus)'
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1
@@ -32,16 +32,15 @@ power-ports:
   - name: psu1
     label: DC1
     type: dc-terminal
-    maximum_draw: 18
-    allocated_draw: 10
-    description: DC 12-57V
+    maximum_draw: 17
+    allocated_draw: 7
+    description: DC 24-57V
   - name: psu2
     label: DC2
     type: dc-terminal
-    maximum_draw: 18
-    allocated_draw: 10
-    description: DC 12-57V
+    maximum_draw: 17
+    allocated_draw: 7
+    description: DC 24-57V
 console-ports:
   - name: serial0
-    description: header on board
-    type: other
+    type: de-9
