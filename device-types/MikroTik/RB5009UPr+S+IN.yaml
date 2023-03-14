@@ -4,7 +4,7 @@ model: RB5009UPr+S+IN
 part_number: RB5009UPr+S+IN
 slug: mikrotik-rb5009upr-s-in
 is_full_depth: false
-weight: 0.9
+weight: 1.3
 weight_unit: kg
 u_height: 0
 airflow: passive
@@ -12,12 +12,14 @@ comments: '[RB5009UPr+S+IN Datasheet](https://mikrotik.com/product/rb5009upr_s_i
 power-ports:
   - name: power1
     type: dc-terminal
-    maximum_draw: 20
-    allocated_draw: 14
+    maximum_draw: 150
+    allocated_draw: 15
+    description: DC 24-57V
   - name: power2
     type: hardwired
-    maximum_draw: 20
-    allocated_draw: 14
+    maximum_draw: 150
+    allocated_draw: 15
+    description: DC 24-57V
 console-ports:
   - name: USB
     type: usb-a
@@ -26,41 +28,41 @@ interfaces:
     type: 2.5gbase-t
     poe_mode: pd
     poe_type: passive-48v-4pair
-    description: POE-IN
+    description: POE-IN/OUT
   - name: ether2
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: ether3
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: ether4
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: ether5
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: ether6
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: ether7
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: ether8
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    description: POE-OUT
+    description: POE-IN/OUT
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
