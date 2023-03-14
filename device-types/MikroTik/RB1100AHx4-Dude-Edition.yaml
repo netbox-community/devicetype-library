@@ -12,9 +12,6 @@ comments: '[RB1100AHx4 Dude Edition Datasheet](https://mikrotik.com/product/RB11
 interfaces:
   - name: ether1
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-    description: POE-IN
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -39,6 +36,9 @@ interfaces:
     type: 1000base-t
   - name: ether13
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: POE-IN
 console-ports:
   - name: serial0
     type: de-9
