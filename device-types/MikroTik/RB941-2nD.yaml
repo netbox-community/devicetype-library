@@ -1,26 +1,26 @@
 ---
 manufacturer: MikroTik
 model: hAP lite
-slug: rb941-2nd
+slug: mikrotik-hap-lite
 part_number: RB941-2nD
 is_full_depth: false
 u_height: 0
+weight: 0.25
+weight_unit: kg
+comments: '[RB1100AHx4 Dude Edition Datasheet](https://mikrotik.com/product/RB1100Dx4)'
 power-ports:
   - name: psu1
     label: Power
     type: usb-micro-b
-    maximum_draw: 4
+    maximum_draw: 3.5
 interfaces:
   - name: ether1
-    label: '1'
-    type: 1000base-t
+    type: 100base-tx
   - name: ether2
-    label: '2'
-    type: 1000base-t
+    type: 100base-tx
   - name: ether3
-    label: '3'
-    type: 1000base-t
+    type: 100base-tx
   - name: ether4
-    label: '4'
-    type: 1000base-t
-comments: Low cost home wireless AP with dual chain 2.4GHz wireless, powered by USB.
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11g
