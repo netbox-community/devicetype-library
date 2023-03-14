@@ -26,21 +26,21 @@ interfaces:
     description: POE-IN
   - name: ether2
     type: 100base-tx
-    poe_mode: pd
+    poe_mode: pse
     poe_type: passive-24v-2pair
     description: POE-OUT
   - name: ether3
     type: 100base-tx
-    poe_mode: pd
+    poe_mode: pse
     poe_type: passive-24v-2pair
     description: POE-OUT
   - name: ether4
     type: 100base-tx
-    poe_mode: pd
+    poe_mode: pse
     poe_type: passive-24v-2pair
     description: POE-OUT
   - name: ether5
     type: 100base-tx
-    poe_mode: pd
+    poe_mode: pse
     poe_type: passive-24v-2pair
     description: POE-OUT
