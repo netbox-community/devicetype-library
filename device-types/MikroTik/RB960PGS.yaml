@@ -1,11 +1,14 @@
 ---
 manufacturer: MikroTik
-model: RB960PGS
-slug: rb960pgs
-comments: '[MikroTik RB960PGS Datasheet](https://mikrotik.com/product/RB960PGS)'
-is_full_depth: false
+model: hEX PoE
+slug: mikrotik-hex-poe
+part_number: RB960PGS
 u_height: 0
+weight: 0.4
+weight_unit: kg
+is_full_depth: false
 airflow: passive
+comments: '[RB960PGS Datasheet](https://mikrotik.com/product/RB960PGS)'
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -33,4 +36,8 @@ power-ports:
   - name: power1
     type: dc-terminal
     maximum_draw: 54
-    allocated_draw: 10
+    allocated_draw: 6
+    description: DC 12-57V
+console-ports:
+  - name: USB
+    type: usb-a
