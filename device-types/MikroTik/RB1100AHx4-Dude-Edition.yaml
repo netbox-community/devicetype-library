@@ -1,12 +1,19 @@
 ---
 manufacturer: MikroTik
 model: RB1100AHx4 Dude Edition
-slug: rb1100dx4
-is_full_depth: false
+part_number: RB1100Dx4
+slug: mikrotik-rb1100dx4
 u_height: 1
+is_full_depth: false
+weight: 2.1
+weight_unit: kg
+comments: '[RB1100AHx4 Dude Edition Datasheet](https://mikrotik.com/product/RB1100Dx4)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    description: POE-IN
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -37,7 +44,16 @@ console-ports:
 power-ports:
   - name: power1
     type: iec-60320-c14
-    maximum_draw: 20
+    maximum_draw: 25
+    allocated_draw: 33
+    description: AC
   - name: power2
     type: iec-60320-c14
-    maximum_draw: 20
+    maximum_draw: 25
+    allocated_draw: 33
+    description: AC
+  - name: power3
+    type: dc-terminal
+    maximum_draw: 25
+    allocated_draw: 33
+    description: DC 20-57V
