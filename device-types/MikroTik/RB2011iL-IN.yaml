@@ -12,9 +12,9 @@ comments: '[RB2011iL-IN Datasheet](https://mikrotik.com/product/RB2011iL-IN)'
 power-ports:
   - name: Power
     type: dc-terminal
-    maximum_draw: 24
-    allocated_draw: 7
-    description: DC 8-30 V - 500 mA
+    maximum_draw: 18
+    allocated_draw: 6
+    description: DC 8-30V
 interfaces:
   - name: ether1
     type: 1000base-t
