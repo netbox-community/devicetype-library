@@ -1,20 +1,27 @@
 ---
 manufacturer: MikroTik
-model: RB760iGS
-slug: rb760igs
+model: hEX S
+slug: mikrotik-hex-s
 part_number: RB760iGS
 u_height: 0
 is_full_depth: false
 airflow: passive
-comments: "[Mikrotik Product Website](https://mikrotik.com/product/hex_s)\r\nMaximum CPU Network bandwidth is 2GBit/s, see block diagram on Website"
+comments: "[RB760iGS Datasheet](https://mikrotik.com/product/hex_s)\r\nMaximum CPU Network bandwidth is 2GBit/s, see block diagram on Website"
 power-ports:
   - name: Input
     type: dc-terminal
     maximum_draw: 24
     allocated_draw: 6
+    description: DC 12-57V
+console-ports:
+  - name: USB
+    type: usb-a
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: POE-IN
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -23,5 +30,8 @@ interfaces:
     type: 1000base-t
   - name: ether5
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-48v-2pair
+    description: POE-OUT
   - name: sfp1
     type: 1000base-x-sfp
