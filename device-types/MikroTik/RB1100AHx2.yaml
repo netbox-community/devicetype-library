@@ -1,12 +1,19 @@
 ---
 manufacturer: MikroTik
 model: RB1100AHx2
-slug: rb1100ahx2
+slug: mikrotik-rb1100ahx2
+part_number: RB1100AHx2
 is_full_depth: false
 u_height: 1
+weight: 1.28
+weight_unit: kg
+comments: '[RB1100AHx2 Datasheet](https://mikrotik.com/product/RB1100AHx2)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    description: POE-IN
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -37,4 +44,9 @@ console-ports:
 power-ports:
   - name: power1
     type: iec-60320-c14
-    maximum_draw: 20
+    description: AC
+    maximum_draw: 25
+  - name: power2
+    type: dc-terminal
+    maximum_draw: 25
+    description: DC 7-28V
