@@ -3,12 +3,24 @@ manufacturer: MikroTik
 model: RB5009UPr+S+IN
 part_number: RB5009UPr+S+IN
 slug: mikrotik-rb5009upr-s-in
-comments: '[RB5009UPr+S+IN Datasheet](https://mikrotik.com/product/rb5009upr_s_in)'
 is_full_depth: false
 weight: 0.9
 weight_unit: kg
 u_height: 0
 airflow: passive
+comments: '[RB5009UPr+S+IN Datasheet](https://mikrotik.com/product/rb5009upr_s_in)'
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 20
+    allocated_draw: 14
+  - name: power2
+    type: hardwired
+    maximum_draw: 20
+    allocated_draw: 14
+console-ports:
+  - name: USB
+    type: usb-a
 interfaces:
   - name: ether1
     type: 2.5gbase-t
@@ -52,12 +64,3 @@ interfaces:
     description: POE-OUT
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
-power-ports:
-  - name: power1
-    type: dc-terminal
-    maximum_draw: 20
-    allocated_draw: 14
-  - name: power2
-    type: hardwired
-    maximum_draw: 20
-    allocated_draw: 14
