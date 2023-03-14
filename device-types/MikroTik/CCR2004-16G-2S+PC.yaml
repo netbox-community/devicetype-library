@@ -1,10 +1,14 @@
 ---
 manufacturer: MikroTik
-model: CCR2116-12G-4S+
-slug: ccr2116-12g-4splus
-part_number: CCR2116-12G-4S+
-is_full_depth: false
+model: CCR2004-16G-2S+PC
+slug: mikrotik-ccr2004-16g-2s-plus-pc
+part_number: CCR2004-16G-2S+PC
 u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.7
+weight_unit: kg
+comments: '[CCR2004-16G-2S+PC Datasheet](https://mikrotik.com/product/ccr2004_16g_2s_pc)'
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -32,13 +36,15 @@ interfaces:
     type: 1000base-t
   - name: ether13
     type: 1000base-t
+  - name: ether14
+    type: 1000base-t
+  - name: ether15
+    type: 1000base-t
+  - name: ether16
+    type: 1000base-t
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
     type: 10gbase-x-sfpp
 console-ports:
   - name: serial0
@@ -46,7 +52,9 @@ console-ports:
 power-ports:
   - name: power1
     type: iec-60320-c14
-    maximum_draw: 72
+    maximum_draw: 36
+    allocated_draw: 30
   - name: power2
     type: iec-60320-c14
-    maximum_draw: 72
+    maximum_draw: 36
+    allocated_draw: 30

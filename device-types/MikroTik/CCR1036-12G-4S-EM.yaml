@@ -1,9 +1,14 @@
 ---
 manufacturer: MikroTik
 model: CCR1036-12G-4S-EM
-slug: ccr1036-12g-4s-em
-is_full_depth: false
+slug: mikrotik-ccr1036-12g-4s-em
+part_number: CCR1036-12G-4S-EM
 u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.2
+weight_unit: kg
+comments: '[CCR1036-12G-4S-EM Datasheet](https://mikrotik.com/product/CCR1036-12G-4S-EM)'
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -38,6 +43,8 @@ interfaces:
   - name: sfp4
     type: 1000base-x-sfp
 console-ports:
+  - name: USB
+    type: usb-a
   - name: serial0
     type: rj-45
 power-ports:

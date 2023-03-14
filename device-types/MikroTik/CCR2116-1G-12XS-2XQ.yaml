@@ -1,14 +1,18 @@
 ---
 manufacturer: MikroTik
 model: CCR2216-1G-12XS-2XQ
-slug: ccr2116-1g-12xs-2xq
+slug: mikrotik-ccr2116-1g-12xs-2xq
 part_number: CCR2216-1G-12XS-2XQ
-comments: '[Mikrotik CCR2216-1G-12XS-2XQ ](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)'
-is_full_depth: false
 u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 6.6
+weight_unit: kg
+comments: '[CCR2216-1G-12XS-2XQ Datasheet](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    description: MGMT
   - name: sfp28-1
     type: 25gbase-x-sfp28
   - name: sfp28-2
@@ -40,10 +44,13 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+    description: CONSOLE
 power-ports:
   - name: power1
     type: iec-60320-c14
     maximum_draw: 128
+    allocated_draw: 80
   - name: power2
     type: iec-60320-c14
     maximum_draw: 128
+    allocated_draw: 80

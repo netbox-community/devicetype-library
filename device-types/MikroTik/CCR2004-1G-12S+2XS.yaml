@@ -1,13 +1,18 @@
 ---
 manufacturer: MikroTik
 model: CCR2004-1G-12S+2XS
-slug: ccr2004-1g-12s-plus2sx
+slug: mikrotik-ccr2004-1g-12s-plus-2sx
 part_number: CCR2004-1G-12S+2XS
 is_full_depth: false
 u_height: 1
+airflow: front-to-rear
+weight: 2.7
+weight_unit: kg
+comments: '[CCR2004-1G-12S+2XS Datasheet](https://mikrotik.com/product/ccr2004_1g_12s_2xs)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    label: MGMT
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
@@ -39,10 +44,13 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+    label: CONSOLE
 power-ports:
   - name: power1
     type: iec-60320-c14
     maximum_draw: 49
+    allocated_draw: 32
   - name: power2
     type: iec-60320-c14
     maximum_draw: 49
+    allocated_draw: 32

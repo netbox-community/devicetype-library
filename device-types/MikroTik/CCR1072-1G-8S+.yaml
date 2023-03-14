@@ -1,9 +1,14 @@
 ---
 manufacturer: MikroTik
 model: CCR1072-1G-8S+
-slug: ccr1072-1g-8splus
-is_full_depth: false
+slug: mikrotik-ccr1072-1g-8s-plus
+part_number: CCR1072-1G-8S+
 u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.9
+weight_unit: kg
+comments: '[CCR1072-1G-8S+ Datasheet](https://mikrotik.com/product/CCR1072-1G-8Splus)'
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -26,10 +31,13 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+    label: CONSOLE
 power-ports:
   - name: power1
     type: iec-60320-c14
-    maximum_draw: 125
+    maximum_draw: 128
+    allocated_draw: 80
   - name: power2
     type: iec-60320-c14
-    maximum_draw: 125
+    maximum_draw: 128
+    allocated_draw: 80
