@@ -14,6 +14,7 @@ interfaces:
     type: 1000base-t
     poe_mode: pd
     poe_type: passive-24v-2pair
+    description: POE-IN
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -34,6 +35,7 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: passive-24v-2pair
+    description: POE-OUT
   - name: sfp1
     type: 1000base-x-sfp
 power-ports:
