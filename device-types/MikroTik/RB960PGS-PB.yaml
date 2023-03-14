@@ -1,0 +1,45 @@
+---
+manufacturer: MikroTik
+model: PowerBox Pro
+slug: mikrotik-powerbox-pro
+part_number: RB960PGS-PB
+u_height: 0
+weight: 1.1
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+comments: '[RB960PGS-PB Datasheet](https://mikrotik.com/product/RB960PGS-PB)'
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: POE-IN
+  - name: ether2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    description: POE-OUT
+  - name: ether3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    description: POE-OUT
+  - name: ether4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    description: POE-OUT
+  - name: ether5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    description: POE-OUT
+  - name: sfp1
+    type: 1000base-x-sfp
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 54
+    allocated_draw: 6
+    description: DC 12-57V
