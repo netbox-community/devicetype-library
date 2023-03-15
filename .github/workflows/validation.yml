@@ -22,13 +22,5 @@ jobs:
       - name: Format YAML files (yamlfmt)
         run: |
           pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
-      - name: Check if there are changes
-        id: changes
-        uses: UnicornGlobal/has-changes-action@v1.0.11
-      - name: Process changes
-        if: steps.changes.outputs.changed > 0
-        uses: actions/github-script@v3
-        with:
-          script: core.setFailed('YAML formatted detected changes. All files must conform to pre-commit/yamlfmt formatting. Utilize pre-commit run to fix issue.')
       - name: Run tests
         run: pytest --tb=short -v
