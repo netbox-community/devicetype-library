@@ -13,6 +13,8 @@ interfaces:
   - name: ether-01
     label: PORT-01
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether-02
     label: PORT-02
     type: 1000base-t
