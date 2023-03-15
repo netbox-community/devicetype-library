@@ -1,13 +1,19 @@
 ---
 manufacturer: MikroTik
 model: CSS326-24G-2S+RM
-slug: css326-24g-2s-rm
+slug: mikrotik-css326-24g-2s-plus-rm
+part_number: CSS326-24G-2S+RM
+u_height: 1
 is_full_depth: false
 airflow: passive
-u_height: 1
+weight: 1.8
+weight_unit: kg
+comments: '[CSS326-24G-2S+RM Datasheet](https://mikrotik.com/product/CSS326-24G-2SplusRM)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -58,3 +64,8 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
     type: 10gbase-x-sfpp
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 19
+    description: DC 10-30V
