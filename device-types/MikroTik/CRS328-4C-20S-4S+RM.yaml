@@ -1,9 +1,13 @@
 ---
 manufacturer: MikroTik
 model: CRS328-4C-20S-4S+RM
-slug: crs328-4c-20s-4splus-rm
-is_full_depth: false
+slug: mikrotik-crs328-4c-20s-4s-plus-rm
 u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 2.5
+weight_unit: kg
+comments: '[CRS328-4C-20S-4S+RM Datasheet](https://mikrotik.com/product/crs328_4c_20s_4s_rm)'
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
@@ -53,14 +57,22 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus4
     type: 10gbase-x-sfpp
-  - name: combo1
+  - name: sfp-f1
     type: 1000base-x-sfp
-  - name: combo2
+  - name: sfp-f2
     type: 1000base-x-sfp
-  - name: combo3
+  - name: sfp-f3
     type: 1000base-x-sfp
-  - name: combo4
+  - name: sfp-f4
     type: 1000base-x-sfp
+  - name: ether-t1
+    type: 1000base-t
+  - name: ether-t2
+    type: 1000base-t
+  - name: ether-t3
+    type: 1000base-t
+  - name: ether-t4
+    type: 1000base-t
 console-ports:
   - name: serial0
     type: rj-45
