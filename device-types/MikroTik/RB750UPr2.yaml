@@ -9,15 +9,6 @@ airflow: passive
 weight: 0.3
 weight_unit: kg
 comments: '[RB750UPr2 Datasheet](https://mikrotik.com/product/RB750UPr2)'
-power-ports:
-  - name: Power
-    type: dc-terminal
-    maximum_draw: 51
-    allocated_draw: 3
-    description: DC 8-30V
-console-ports:
-  - name: USB
-    type: usb-a
 interfaces:
   - name: ether1
     type: 100base-tx
@@ -44,3 +35,12 @@ interfaces:
     poe_mode: pse
     poe_type: passive-24v-2pair
     description: POE-OUT
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 51
+    allocated_draw: 3
+    description: DC 8-30V
