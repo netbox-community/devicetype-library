@@ -1,10 +1,18 @@
 ---
 manufacturer: MikroTik
 model: CRS326-24S+2Q+RM
-slug: crs326-24splus-2qplus-rm
-is_full_depth: false
+slug: mikrotik-crs326-24s-plus-2q-plus-rm
 u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 3
+weight_unit: kg
+comments: '[CRS326-24S+2Q+RM Datasheet](https://mikrotik.com/product/crs326_24s_2q_rm)'
 interfaces:
+  - name: ether0
+    type: 100base-tx
+    mgmt_only: true
+    description: MGMT
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
@@ -64,6 +72,8 @@ power-ports:
   - name: power1
     type: iec-60320-c14
     maximum_draw: 69
+    allocated_draw: 42
   - name: power2
     type: iec-60320-c14
     maximum_draw: 69
+    allocated_draw: 42
