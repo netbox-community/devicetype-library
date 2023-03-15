@@ -59,20 +59,28 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-f1
     type: 1000base-x-sfp
+    description: COMBO 1
   - name: sfp-f2
     type: 1000base-x-sfp
+    description: COMBO 2
   - name: sfp-f3
     type: 1000base-x-sfp
+    description: COMBO 3
   - name: sfp-f4
     type: 1000base-x-sfp
+    description: COMBO 4
   - name: ether-t1
     type: 1000base-t
+    description: COMBO 1
   - name: ether-t2
     type: 1000base-t
+    description: COMBO 2
   - name: ether-t3
     type: 1000base-t
+    description: COMBO 3
   - name: ether-t4
     type: 1000base-t
+    description: COMBO 4
 console-ports:
   - name: serial0
     type: rj-45
