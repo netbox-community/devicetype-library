@@ -1,0 +1,47 @@
+---
+manufacturer: MikroTik
+model: netFiber 9
+slug: mikrotik-netfiber-9
+part_number: CRS310-1G-5S-4S+OUT
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[CRS310-1G-5S-4S+OUT Datasheet](https://mikrotik.com/product/netfiber_9)'
+interfaces:
+  - name: ether1
+    label: POE-IN
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  - name: sfp5
+    type: 1000base-x-sfp
+  - name: sfp-sfpplus1
+    label: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    label: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    label: SFP+ 3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    label: SFP+ 4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: psu1
+    label: DC 18-57V
+    type: dc-terminal
+    maximum_draw: 16.3
+    allocated_draw: 10
