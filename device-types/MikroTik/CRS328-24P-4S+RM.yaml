@@ -1,58 +1,111 @@
 ---
 manufacturer: MikroTik
 model: CRS328-24P-4S+RM
-slug: crs328-24p-4splus-rm
-is_full_depth: false
+slug: mikrotik-crs328-24p-4s-plus-rm
+part_number: CRS328-24P-4S+RM
 u_height: 1
+is_full_depth: false
+airflow: side-to-rear
+weight: 5.1
+weight_unit: kg
+comments: '[CRS328-24P-4S+RM Datasheet](https://mikrotik.com/product/crs328_24p_4s_rm)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether2
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether3
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether4
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether5
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether6
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether7
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether8
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether9
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether10
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether11
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether12
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether13
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether14
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether15
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether16
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether17
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether18
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether19
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether20
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether21
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether22
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether23
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ether24
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
@@ -68,3 +121,4 @@ power-ports:
   - name: power1
     type: iec-60320-c14
     maximum_draw: 494
+    allocated_draw: 44
