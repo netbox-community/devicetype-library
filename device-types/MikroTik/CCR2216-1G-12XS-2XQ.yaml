@@ -43,8 +43,8 @@ interfaces:
     type: 100gbase-x-qsfp28
 console-ports:
   - name: serial0
+    label: CONSOLE
     type: rj-45
-    description: CONSOLE
 module-bays:
   - name: PSU1
     position: '1'

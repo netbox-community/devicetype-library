@@ -1,9 +1,14 @@
 ---
 manufacturer: MikroTik
 model: CRS106-1C-5S
-slug: crs106-1c-5s
+slug: mikrotik-crs106-1c-5s
+part_number: CRS106-1C-5S
+u_height: 0
 is_full_depth: false
-u_height: 1
+airflow: passive
+weight: 0.4
+weight_unit: kg
+comments: '[CRS106-1C-5S Datasheet](https://mikrotik.com/product/CRS106-1C-5S)'
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
@@ -15,5 +20,20 @@ interfaces:
     type: 1000base-x-sfp
   - name: sfp5
     type: 1000base-x-sfp
-  - name: combo1
+  - name: sfp-back
     type: 1000base-x-sfp
+    description: COMBO
+  - name: POE-In
+    type: 1000base-t
+    description: COMBO
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: Power
+    label: DC 11-30V
+    type: dc-terminal
+    maximum_draw: 11
