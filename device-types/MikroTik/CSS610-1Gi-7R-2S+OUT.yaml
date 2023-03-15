@@ -1,0 +1,59 @@
+---
+manufacturer: MikroTik
+model: netPower Lite 7R
+slug: mikrotik-netpower-lite-7r
+part_number: CSS610-1Gi-7R-2S+OUT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2.6
+weight_unit: kg
+comments: '[CSS610-1Gi-7R-2S+OUT Datasheet](https://mikrotik.com/product/netpower_lite_7r)'
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+  - name: ether8
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: power-dc 1
+    label: DC 12-57V
+    type: dc-terminal
+    maximum_draw: 29
+    allocated_draw: 7
+  - name: power-dc 2
+    label: DC 12-57V
+    type: dc-terminal
+    maximum_draw: 29
+    allocated_draw: 7
