@@ -51,12 +51,8 @@ console-ports:
     type: usb-a
   - name: serial0
     type: rj-45
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 48
-    allocated_draw: 35
-  - name: power2
-    type: iec-60320-c14
-    maximum_draw: 48
-    allocated_draw: 35
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
