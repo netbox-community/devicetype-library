@@ -9,37 +9,11 @@ airflow: front-to-rear
 weight: 2.5
 weight_unit: kg
 comments: '[CCR1009-7G-1C-1S+ Datasheet](https://mikrotik.com/product/CCR1009-7G-1C-1Splus)'
-interfaces:
-  - name: ether0
-    type: 1000base-t
-    description: COMBO
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-    description: POE-IN
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: combo1
-    type: 1000base-x-sfp
-    description: COMBO
 console-ports:
-  - name: serial0
+  - name: console
     type: de-9
   - name: usb
-    type: usb-micro-b
+    type: usb-micro-ab
 power-ports:
   - name: power1
     type: iec-60320-c14
@@ -47,3 +21,39 @@ power-ports:
   - name: power2
     type: iec-60320-c14
     maximum_draw: 20
+interfaces:
+  - name: ether
+    type: 1000base-t
+    label: eth
+    description: COMBO
+  - name: ether1
+    type: 1000base-t
+    label: eth 1
+  - name: ether2
+    type: 1000base-t
+    label: eth 2
+  - name: ether3
+    type: 1000base-t
+    label: eth 3
+  - name: ether4
+    type: 1000base-t
+    label: eth 4
+  - name: ether5
+    type: 1000base-t
+    label: eth 5
+  - name: ether6
+    type: 1000base-t
+    label: eth 6
+  - name: ether7
+    type: 1000base-t
+    label: eth 7
+    description: POE/BOOT
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+    label: sfp+
+  - name: sfp1
+    type: 1000base-x-sfp
+    label: sfp
+    description: COMBO

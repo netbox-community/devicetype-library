@@ -3,43 +3,17 @@ manufacturer: MikroTik
 model: CCR1016-12G
 slug: mikrotik-ccr1016-12g
 part_number: CCR1016-12G
-is_full_depth: false
 u_height: 1
+is_full_depth: false
 airflow: passive
 weight: 2
 weight_unit: kg
 comments: '[CCR1016-12G Datasheet](https://mikrotik.com/product/CCR1016-12G)'
-interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
 console-ports:
-  - name: USB
-    type: usb-a
-  - name: serial0
+  - name: console
     type: rj-45
-    label: CONSOLE
+  - name: usb
+    type: usb-a
 power-ports:
   - name: power1
     type: iec-60320-c14
@@ -49,3 +23,41 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 42
     allocated_draw: 37
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    label: eth1
+  - name: ether2
+    type: 1000base-t
+    label: eth2
+  - name: ether3
+    type: 1000base-t
+    label: eth3
+  - name: ether4
+    type: 1000base-t
+    label: eth4
+  - name: ether5
+    type: 1000base-t
+    label: eth5
+  - name: ether6
+    type: 1000base-t
+    label: eth6
+  - name: ether7
+    type: 1000base-t
+    label: eth7
+  - name: ether8
+    type: 1000base-t
+    label: eth8
+  - name: ether9
+    type: 1000base-t
+    label: eth9
+  - name: ether10
+    type: 1000base-t
+    label: eth10
+  - name: ether11
+    type: 1000base-t
+    label: eth11
+  - name: ether12
+    type: 1000base-t
+    label: eth12
+    description: BOOT

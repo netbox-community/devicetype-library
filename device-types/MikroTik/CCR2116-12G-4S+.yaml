@@ -9,43 +9,8 @@ airflow: front-to-rear
 weight: 3.2
 weight_unit: kg
 comments: '[CCR2116-12G-4S+ Datasheet](https://mikrotik.com/product/ccr2116_12g_4splus)'
-interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus3
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus4
-    type: 10gbase-x-sfpp
 console-ports:
-  - name: serial0
+  - name: console
     type: rj-45
 power-ports:
   - name: power1
@@ -56,3 +21,55 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 60
     allocated_draw: 83
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    label: eth 1
+  - name: ether2
+    type: 1000base-t
+    label: eth 2
+  - name: ether3
+    type: 1000base-t
+    label: eth 3
+  - name: ether4
+    type: 1000base-t
+    label: eth 4
+  - name: ether5
+    type: 1000base-t
+    label: eth 5
+  - name: ether6
+    type: 1000base-t
+    label: eth 6
+  - name: ether7
+    type: 1000base-t
+    label: eth 7
+  - name: ether8
+    type: 1000base-t
+    label: eth 8
+  - name: ether9
+    type: 1000base-t
+    label: eth 9
+  - name: ether10
+    type: 1000base-t
+    label: eth 10
+  - name: ether11
+    type: 1000base-t
+    label: eth 11
+  - name: ether12
+    type: 1000base-t
+    label: eth 12
+  - name: ether13
+    type: 1000base-t
+    label: eth/boot
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+    label: sfp+ 1
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+    label: sfp+ 2
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+    label: sfp+ 3
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+    label: sfp+ 4

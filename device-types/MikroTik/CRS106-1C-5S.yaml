@@ -9,31 +9,37 @@ airflow: passive
 weight: 0.4
 weight_unit: kg
 comments: '[CRS106-1C-5S Datasheet](https://mikrotik.com/product/CRS106-1C-5S)'
-interfaces:
-  - name: sfp1
-    type: 1000base-x-sfp
-  - name: sfp2
-    type: 1000base-x-sfp
-  - name: sfp3
-    type: 1000base-x-sfp
-  - name: sfp4
-    type: 1000base-x-sfp
-  - name: sfp5
-    type: 1000base-x-sfp
-  - name: sfp-back
-    type: 1000base-x-sfp
-    description: COMBO
-  - name: POE-In
-    type: 1000base-t
-    description: COMBO
-    poe_mode: pd
-    poe_type: passive-24v-2pair
 console-ports:
-  - name: serial0
-    label: CONSOLE
+  - name: console
     type: rj-45
 power-ports:
   - name: Power
     label: DC 11-30V
     type: dc-terminal
     maximum_draw: 11
+interfaces:
+  - name: sfp1
+    type: 1000base-x-sfp
+    label: sfp 1 
+  - name: sfp2
+    type: 1000base-x-sfp
+    label: sfp 2
+  - name: sfp3
+    type: 1000base-x-sfp
+    label: sfp 3
+  - name: sfp4
+    type: 1000base-x-sfp
+    label: sfp 4
+  - name: sfp5
+    type: 1000base-x-sfp
+    label: sfp 5
+  - name: sfp6
+    type: 1000base-x-sfp
+    label: sfp back
+    description: COMBO
+  - name: ether
+    type: 1000base-t
+    label: POE-In
+    description: COMBO
+    poe_mode: pd
+    poe_type: passive-24v-2pair

@@ -9,52 +9,72 @@ airflow: passive
 weight: 2.7
 weight_unit: kg
 comments: '[CCR2004-16G-2S+PC Datasheet](https://mikrotik.com/product/ccr2004_16g_2s_pc)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: DC 1
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 30
+    description: DC 36-57V
+  - name: DC 2
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 30
+    description: DC 36-57V
 interfaces:
   - name: ether1
     type: 1000base-t
+    label: eth 1
   - name: ether2
     type: 1000base-t
+    label: eth 2
   - name: ether3
     type: 1000base-t
+    label: eth 3
   - name: ether4
     type: 1000base-t
+    label: eth 4
   - name: ether5
     type: 1000base-t
+    label: eth 5
   - name: ether6
     type: 1000base-t
+    label: eth 6
   - name: ether7
     type: 1000base-t
+    label: eth 7
   - name: ether8
     type: 1000base-t
+    label: eth 8
   - name: ether9
     type: 1000base-t
+    label: eth 9
   - name: ether10
     type: 1000base-t
+    label: eth 10
   - name: ether11
     type: 1000base-t
+    label: eth 11
   - name: ether12
     type: 1000base-t
+    label: eth 12
   - name: ether13
     type: 1000base-t
+    label: eth 13
   - name: ether14
     type: 1000base-t
+    label: eth 14
   - name: ether15
     type: 1000base-t
+    label: eth 15
   - name: ether16
     type: 1000base-t
+    label: eth 16
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
+    label: sfp+ 1
   - name: sfp-sfpplus2
     type: 10gbase-x-sfpp
-console-ports:
-  - name: serial0
-    type: rj-45
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 36
-    allocated_draw: 30
-  - name: power2
-    type: iec-60320-c14
-    maximum_draw: 36
-    allocated_draw: 30
+    label: sfp+ 2

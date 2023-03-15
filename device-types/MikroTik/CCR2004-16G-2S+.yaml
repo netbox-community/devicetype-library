@@ -9,50 +9,69 @@ airflow: front-to-rear
 weight: 2.4
 weight_unit: kg
 comments: '[CCR2004-16G-2S+ Datasheet](https://mikrotik.com/product/ccr2004_16g_2splus)'
-interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: ether6
-    type: 1000base-t
-  - name: ether7
-    type: 1000base-t
-  - name: ether8
-    type: 1000base-t
-  - name: ether9
-    type: 1000base-t
-  - name: ether10
-    type: 1000base-t
-  - name: ether11
-    type: 1000base-t
-  - name: ether12
-    type: 1000base-t
-  - name: ether13
-    type: 1000base-t
-  - name: ether14
-    type: 1000base-t
-  - name: ether15
-    type: 1000base-t
-  - name: ether16
-    type: 1000base-t
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
 console-ports:
-  - name: USB
-    type: usb-a
-  - name: serial0
+  - name: console
     type: rj-45
+  - name: usb
+    type: usb-a
 module-bays:
   - name: PSU1
     position: '1'
   - name: PSU2
     position: '2'
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    label: eth 1
+  - name: ether2
+    type: 1000base-t
+    label: eth 2
+  - name: ether3
+    type: 1000base-t
+    label: eth 3
+  - name: ether4
+    type: 1000base-t
+    label: eth 4
+  - name: ether5
+    type: 1000base-t
+    label: eth 5
+  - name: ether6
+    type: 1000base-t
+    label: eth 6
+  - name: ether7
+    type: 1000base-t
+    label: eth 7
+  - name: ether8
+    type: 1000base-t
+    label: eth 8
+  - name: ether9
+    type: 1000base-t
+    label: eth 9
+  - name: ether10
+    type: 1000base-t
+    label: eth 10
+  - name: ether11
+    type: 1000base-t
+    label: eth 11
+  - name: ether12
+    type: 1000base-t
+    label: eth 12
+  - name: ether13
+    type: 1000base-t
+    label: eth 13
+  - name: ether14
+    type: 1000base-t
+    label: eth 14
+  - name: ether15
+    type: 1000base-t
+    label: eth 15
+    description: BOOT
+  - name: ether16
+    type: 1000base-t
+    label: eth 16
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+    label: sfp+ 1
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+    label: sfp+ 2

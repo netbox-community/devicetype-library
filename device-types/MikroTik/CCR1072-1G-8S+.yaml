@@ -9,31 +9,42 @@ airflow: front-to-rear
 weight: 4.9
 weight_unit: kg
 comments: '[CCR1072-1G-8S+ Datasheet](https://mikrotik.com/product/CCR1072-1G-8Splus)'
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-a
+module-bays:
+  - name: power1
+    position: '1'
+  - name: power2
+    position: '2'
 interfaces:
   - name: ether1
     type: 1000base-t
+    label: eth 1
+    description: BOOT
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
+    label: sfp+ 1
   - name: sfp-sfpplus2
     type: 10gbase-x-sfpp
+    label: sfp+ 2
   - name: sfp-sfpplus3
     type: 10gbase-x-sfpp
+    label: sfp+ 3
   - name: sfp-sfpplus4
     type: 10gbase-x-sfpp
+    label: sfp+ 4
   - name: sfp-sfpplus5
     type: 10gbase-x-sfpp
+    label: sfp+ 5
   - name: sfp-sfpplus6
     type: 10gbase-x-sfpp
+    label: sfp+ 6
   - name: sfp-sfpplus7
     type: 10gbase-x-sfpp
+    label: sfp+ 7
   - name: sfp-sfpplus8
     type: 10gbase-x-sfpp
-console-ports:
-  - name: serial0
-    type: rj-45
-    label: CONSOLE
-module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
+    label: sfp+ 8

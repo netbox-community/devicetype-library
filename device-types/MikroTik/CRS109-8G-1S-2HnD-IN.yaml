@@ -9,46 +9,46 @@ airflow: passive
 weight: 0.9
 weight_unit: kg
 comments: '[CRS109-8G-1S-2HnD-IN Datasheet](https://mikrotik.com/product/CRS109-8G-1S-2HnD-IN)'
-interfaces:
-  - name: ether-01
-    label: PORT-01
-    type: 1000base-t
-    poe_mode: pd
-    poe_type: passive-24v-2pair
-  - name: ether-02
-    label: PORT-02
-    type: 1000base-t
-  - name: ether-03
-    label: PORT-03
-    type: 1000base-t
-  - name: ether-04
-    label: PORT-04
-    type: 1000base-t
-  - name: ether-05
-    label: PORT-05
-    type: 1000base-t
-  - name: ether-06
-    label: PORT-06
-    type: 1000base-t
-  - name: ether-07
-    label: PORT-07
-    type: 1000base-t
-  - name: Ether-08
-    label: PORT-08
-    type: 1000base-t
-  - name: Sfp-1
-    label: SFP-08
-    type: 1000base-x-sfp
-  - name: Wireless 2.4 GHz
-    label: WiFi
-    type: ieee802.11g
 console-ports:
-  - name: Serial
+  - name: console
     type: rj-45
-  - name: USB
+  - name: usb
     type: usb-micro-ab
 power-ports:
   - name: Power
     label: DC 8-57 V
     type: dc-terminal
     maximum_draw: 13
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    label: eth 1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether2
+    type: 1000base-t
+    label: eth 2
+  - name: ether3
+    type: 1000base-t
+    label: eth 3
+  - name: ether4
+    type: 1000base-t
+    label: eth 4
+  - name: ether5
+    type: 1000base-t
+    label: eth 5
+  - name: ether6
+    type: 1000base-t
+    label: eth 6
+  - name: ether7
+    type: 1000base-t
+    label: eth 7
+  - name: Ether8
+    type: 1000base-t
+    label: eth 8
+  - name: Sfp-1
+    type: 1000base-x-sfp
+    label: sfp 1
+  - name: Wireless 2.4 GHz
+    label: WiFi
+    type: ieee802.11g
