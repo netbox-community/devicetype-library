@@ -28,6 +28,10 @@ interfaces:
     poe_mode: pd
     poe_type: type2-ieee802.3at
     description: POE-IN
+console-ports:
+  - name: serial0
+    description: header on board
+    type: other
 power-ports:
   - name: psu1
     label: DC1
@@ -41,7 +45,3 @@ power-ports:
     maximum_draw: 18
     allocated_draw: 10
     description: DC 12-57V
-console-ports:
-  - name: serial0
-    description: header on board
-    type: other
