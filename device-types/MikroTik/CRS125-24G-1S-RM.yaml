@@ -1,12 +1,19 @@
 ---
 manufacturer: MikroTik
 model: CRS125-24G-1S-RM
-slug: crs125-24g-1s-rm
-is_full_depth: false
+slug: mikrotik-crs125-24g-1s-rm
+part_number: CRS125-24G-1S-RM
 u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.5
+weight_unit: kg
+comments: '[CRS125-24G-1S-RM Datasheet](https://mikrotik.com/product/crs125_24g_1s_rm)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -55,12 +62,14 @@ interfaces:
     type: 1000base-t
   - name: sfp1
     type: 1000base-x-sfp
-  - name: usb1-0
-    type: other
 console-ports:
   - name: serial0
+    label: CONSOLE
     type: rj-45
+  - name: usb1-0
+    type: usb-micro-ab
 power-ports:
   - name: DC-in
     type: dc-terminal
     maximum_draw: 15
+    allocated_draw: 15
