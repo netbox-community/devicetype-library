@@ -1,20 +1,13 @@
 ---
 manufacturer: Cisco
 model: CATALYST 3850 48PT 12 MGIG+36 GIG UPOE
-slug: catalyst-3850-48pt-12-mgig36-gig-upoe
+slug: cisco-catalyst-3850-48pt-12-mgig36-gig-upoe
 part_number: WS-C3850-12X48U
 u_height: 1
 is_full_depth: false
 console-ports:
   - name: Con 0
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c16
-    maximum_draw: 1100
-  - name: PS2
-    type: iec-60320-c16
-    maximum_draw: 1100
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -193,3 +186,7 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
