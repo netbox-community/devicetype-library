@@ -1,10 +1,14 @@
 ---
 manufacturer: MikroTik
 model: CRS309-1G-8S+IN
-slug: crs309-1g-8splus-in
-part_number: CRS309-1G-8S+
-is_full_depth: false
+slug: mikrotik-crs309-1g-8s-plus-in
+part_number: CRS309-1G-8S+IN
 u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.7
+weight_unit: kg
+comments: '[CRS309-1G-8S+IN Datasheet](https://mikrotik.com/product/crs309_1g_8s_in)'
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1
@@ -33,13 +37,16 @@ interfaces:
   - name: ether1
     label: POE/BOOT
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: POE-IN
 power-ports:
   - name: psu1
     label: DC 12-57V
     type: dc-terminal
     maximum_draw: 23
+    allocated_draw: 17
 console-ports:
   - name: serial0
     label: CONSOLE
-    type: rj-45
-comments: Desktop switch with one Gigabit Ethernet port and eight SFP+ 10Gbps ports.
+    type: de-9
