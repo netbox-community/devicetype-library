@@ -1,10 +1,14 @@
 ---
 manufacturer: MikroTik
 model: CRS317-1G-16S+RM
-slug: crs317-1g-16splus-rm
-part_number: CRS317-1G-16S+
-is_full_depth: false
+slug: mikrotik-crs317-1g-16s-plus-rm
+part_number: CRS317-1G-16S+RM
 u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 2.5
+weight_unit: kg
+comments: '[CRS317-1G-16S+RM Datasheet](https://mikrotik.com/product/crs317_1g_16s_rm)'
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1
@@ -70,4 +74,3 @@ power-ports:
     label: POWER 2
     type: iec-60320-c14
     maximum_draw: 44
-comments: Smart Switch, 1 x Gigabit LAN, 16 x SFP+ cages, Dual Core 800MHz CPU, 1GB RAM, 1U rackmount passive cooling case, Dual Power Supplies.
