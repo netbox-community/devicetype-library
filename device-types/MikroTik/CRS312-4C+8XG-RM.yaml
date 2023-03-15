@@ -1,34 +1,71 @@
 ---
 manufacturer: MikroTik
 model: CRS312-4C+8XG-RM
-slug: crs312-4cplus-8xg-rm
-is_full_depth: false
+slug: mikrotik-crs312-4c-plus-8xg-rm
 u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 2.5
+weight_unit: kg
+comments: '[CRS312-4C+8XG-RM Datasheet](https://mikrotik.com/product/crs312_4c_8xg_rm)'
 interfaces:
+  - name: MGMT/BOOT
+    type: 100base-t
+    description: MGMT
   - name: xether1
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether2
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether3
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether4
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether5
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether6
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether7
-    type: 10gbase-x-sfpp
+    type: 10gbase-t
   - name: xether8
+    type: 10gbase-t
+  - name: xether-1T
+    type: 10gbase-t
+    description: COMBO 1
+  - name: xether-2T
+    type: 10gbase-t
+    description: COMBO 2
+  - name: xether-3T
+    type: 10gbase-t
+    description: COMBO 3
+  - name: xether-4T
+    type: 10gbase-t
+    description: COMBO 4
+  - name: sfp-sfpplus-1F
+    label: SFP+ 16
     type: 10gbase-x-sfpp
-  - name: combo1
+    description: COMBO 1
+  - name: sfp-sfpplus-2F
+    label: SFP+ 16
     type: 10gbase-x-sfpp
-  - name: combo2
+    description: COMBO 2
+  - name: sfp-sfpplus-3F
+    label: SFP+ 16
     type: 10gbase-x-sfpp
-  - name: combo3
+    description: COMBO 3
+  - name: sfp-sfpplus4F
+    label: SFP+ 16
     type: 10gbase-x-sfpp
-  - name: combo4
-    type: 10gbase-x-sfpp
+    description: COMBO 4
 console-ports:
   - name: serial0
     type: rj-45
+    description: CONSOLE
+power-ports:
+  - name: power1
+    label: POWER 1
+    type: iec-60320-c14
+    maximum_draw: 60
+  - name: power2
+    label: POWER 2
+    type: iec-60320-c14
+    maximum_draw: 60
