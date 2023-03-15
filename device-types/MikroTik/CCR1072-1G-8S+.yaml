@@ -32,12 +32,8 @@ console-ports:
   - name: serial0
     type: rj-45
     label: CONSOLE
-power-ports:
-  - name: power1
-    type: iec-60320-c14
-    maximum_draw: 128
-    allocated_draw: 80
-  - name: power2
-    type: iec-60320-c14
-    maximum_draw: 128
-    allocated_draw: 80
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
