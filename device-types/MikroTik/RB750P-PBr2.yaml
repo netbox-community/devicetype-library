@@ -9,12 +9,6 @@ is_full_depth: false
 weight: 0.25
 weight_unit: kg
 comments: '[RB750P-PBr2 Datasheet](https://mikrotik.com/product/RB750P-PBr2)'
-power-ports:
-  - name: Power
-    type: dc-terminal
-    maximum_draw: 50
-    allocated_draw: 2
-    description: DC 8-30V
 interfaces:
   - name: ether1
     type: 100base-tx
@@ -41,3 +35,9 @@ interfaces:
     poe_mode: pse
     poe_type: passive-24v-2pair
     description: POE-OUT
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 50
+    allocated_draw: 2
+    description: DC 8-30V
