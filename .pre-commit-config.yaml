@@ -19,3 +19,12 @@ repos:
       - id: yamllint
         name: Lint YAML files
         args: [--format, parsable, --strict]
+  - repo: local
+    hooks:
+      - id: pytest
+        name: Run PyTest Case Checks
+        entry: pytest
+        language: system
+        args: [--tb=short, -v]
+        pass_filenames: false
+        always_run: true
