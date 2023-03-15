@@ -1,0 +1,87 @@
+---
+manufacturer: MikroTik
+model: netPower 15FR
+slug: mikrotik-netpower-15fr
+part_number: CRS318-1Fi-15Fr-2S-OUT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2.4
+weight_unit: kg
+comments: '[CRS318-1Fi-15Fr-2S-OUT Datasheet](https://mikrotik.com/product/crs318_1fi_15fr_2s_out)'
+interfaces:
+  - name: ether1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether2
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether3
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether4
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether5
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether6
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether7
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether8
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether9
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether10
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether11
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether12
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether13
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether14
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether15
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: ether16
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 29
+    allocated_draw: 10
+    description: DC 18-57V (recommended 36-57V)
