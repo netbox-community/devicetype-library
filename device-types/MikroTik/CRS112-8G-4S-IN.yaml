@@ -1,12 +1,19 @@
 ---
 manufacturer: MikroTik
 model: CRS112-8G-4S-IN
-slug: crs112-8g-4s-in
-is_full_depth: false
+slug: mikrotik-crs112-8g-4s-in
+part_number: CRS112-8G-4S-IN
 u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.1
+weight_unit: kg
+comments: '[CRS112-8G-4S-IN Datasheet](https://mikrotik.com/product/CRS112-8G-4S-IN)'
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -31,4 +38,11 @@ interfaces:
     type: 1000base-x-sfp
 console-ports:
   - name: serial0
+    label: CONSOLE
     type: rj-45
+power-ports:
+  - name: psu1
+    label: DC IN 10-57V
+    type: dc-terminal
+    maximum_draw: 10
+
