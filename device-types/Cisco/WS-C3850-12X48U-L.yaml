@@ -1,20 +1,13 @@
 ---
 manufacturer: Cisco
 model: Catalyst 3850-12X48U-L
-slug: ws-c3850-12x48u-l
+slug: cisco-ws-c3850-12x48u-l
 part_number: WS-C3850-12X48U-L
 u_height: 1
 is_full_depth: false
 console-ports:
   - name: Con 0
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c16
-    maximum_draw: 1100
-  - name: PS2
-    type: iec-60320-c16
-    maximum_draw: 1100
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -238,3 +231,7 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
