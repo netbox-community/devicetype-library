@@ -8,7 +8,7 @@ is_full_depth: false
 airflow: front-to-rear
 weight: 4
 weight_unit: kg
-comments: '[CCR1009-8G-1S-1S+ Datasheet--](https://mikrotik.com/product/CCR1009-8G-1S-1Splus)'
+comments: '[CCR1009-8G-1S-1S+ Datasheet](https://mikrotik.com/product/CCR1009-8G-1S-1Splus)'
 console-ports:
   - name: console
     type: de-9
@@ -24,28 +24,28 @@ power-ports:
 interfaces:
   - name: ether1
     type: 1000base-t
-    label: eth 1
+    label: 'eth 1'
   - name: ether2
     type: 1000base-t
-    label: eth 2
+    label: 'eth 2'
   - name: ether3
     type: 1000base-t
-    label: eth3
+    label: 'eth 3'
   - name: ether4
     type: 1000base-t
-    label: eth 4
+    label: 'eth 4'
   - name: ether5
     type: 1000base-t
-    label: eth 5
+    label: 'eth 5'
   - name: ether6
     type: 1000base-t
-    label: eth 6
+    label: 'eth 6'
   - name: ether7
     type: 1000base-t
-    label: eth 7
+    label: 'eth 7'
   - name: ether8
     type: 1000base-t
-    label: eth 8
+    label: 'eth 8'
     description: POE/BOOT
     poe_mode: pd
     poe_type: passive-24v-2pair

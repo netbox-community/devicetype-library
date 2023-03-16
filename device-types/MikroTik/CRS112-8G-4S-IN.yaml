@@ -9,6 +9,14 @@ airflow: passive
 weight: 1.1
 weight_unit: kg
 comments: '[CRS112-8G-4S-IN Datasheet](https://mikrotik.com/product/CRS112-8G-4S-IN)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: Power
+    label: DC-IN 10-57V
+    type: dc-terminal
+    maximum_draw: 10
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -36,12 +44,3 @@ interfaces:
     type: 1000base-x-sfp
   - name: sfp4
     type: 1000base-x-sfp
-console-ports:
-  - name: serial0
-    label: CONSOLE
-    type: rj-45
-power-ports:
-  - name: psu1
-    label: DC IN 10-57V
-    type: dc-terminal
-    maximum_draw: 10
