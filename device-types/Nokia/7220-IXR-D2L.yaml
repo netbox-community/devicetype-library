@@ -5,6 +5,8 @@ slug: nokia-7220-ixr-d2l
 part_number: 3HE17645AA
 u_height: 1
 is_full_depth: true  # 21.10"
+weight: 22 # fully populated, 16.23 unpopulated
+weight_unit: lb
 comments: '[Datasheet](https://pf.content.nokia.com/too54x-webscale-dc-fabric-product/7220-dc-routers-data-sheet)'
 console-ports:
   - name: Console
@@ -135,14 +137,14 @@ interfaces:
     type: 10gbase-x-sfpp
 module-bays:
   - name: PS1
-    position: "1"
+    position: '1'
   - name: PS2
-    position: "2"
+    position: '2'
   - name: Fan Tray 1
-    position: "1"
+    position: '1'
   - name: Fan Tray 2
-    position: "2"
+    position: '2'
   - name: Fan Tray 3
-    position: "3"
+    position: '3'
   - name: Fan Tray 4
-    position: "4"
+    position: '4'
