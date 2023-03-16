@@ -13,18 +13,3 @@ repos:
     hooks:
       - id: yamlfmt
         args: [--mapping, '2', --sequence, '4', --offset, '2']
-  - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.27.1
-    hooks:
-      - id: yamllint
-        name: Lint YAML files
-        args: [--format, parsable, --strict]
-  - repo: local
-    hooks:
-      - id: pytest
-        name: Run PyTest Case Checks
-        entry: pytest
-        language: system
-        args: [--tb=short, -v]
-        pass_filenames: false
-        always_run: true
