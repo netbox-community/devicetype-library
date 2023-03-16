@@ -19,5 +19,8 @@ jobs:
         run: |
           yamllint --format github --strict \
             device-types/ module-types/
+      - name: Format YAML files (yamlfmt)
+        run: |
+          pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
       - name: Run tests
         run: pytest --tb=short -v
