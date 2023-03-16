@@ -1,0 +1,62 @@
+---
+manufacturer: Albis-Elcon
+model: BIG4862
+slug: albis-elcon-big4862
+u_height: 1
+is_full_depth: false
+weight: 4.5
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 65
+    allocated_draw: 50
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 65
+    allocated_draw: 50
+interfaces:
+  - name: LCT
+    type: 1000base-t
+  - name: T3/T4
+    type: 1000base-t
+  - name: WAN1S
+    type: 10gbase-x-sfpp
+  - name: WAN2S
+    type: 10gbase-x-sfpp
+  - name: LAN1S
+    type: 10gbase-x-sfpp
+  - name: LAN2S
+    type: 10gbase-x-sfpp
+  - name: LAN3S
+    type: 1000base-x-sfp
+  - name: LAN4S
+    type: 1000base-x-sfp
+  - name: LAN5S
+    type: 1000base-x-sfp
+  - name: LAN6S
+    type: 1000base-x-sfp
+  - name: LAN7S
+    type: 1000base-x-sfp
+  - name: LAN8S
+    type: 1000base-x-sfp
+  - name: LAN9S
+    type: 1000base-x-sfp
+  - name: LAN10S
+    type: 1000base-x-sfp
+  - name: LAN11
+    type: 1000base-t
+  - name: LAN12
+    type: 1000base-t
+  - name: LAN11S
+    type: 1000base-x-sfp
+  - name: LAN12S
+    type: 1000base-x-sfp
+  - name: LAN13S
+    type: 1000base-x-sfp
+  - name: LAN14S
+    type: 1000base-x-sfp
+  - name: LAN13
+    type: 1000base-t
+  - name: LAN14
+    type: 1000base-t
