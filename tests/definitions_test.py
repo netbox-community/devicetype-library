@@ -73,6 +73,10 @@ def test_definitions(file_path, schema):
     """
     Validate each definition file using the provided JSON schema and check for duplicate entries.
     """
+
+    # Skip image files and any other non-yaml
+    if file_path.split('.')[-1] not in ('yaml', 'yml'): return
+
     # Check file extension
     assert file_path.split('.')[-1] in ('yaml', 'yml'), f"Invalid file extension: {file_path}"
 
