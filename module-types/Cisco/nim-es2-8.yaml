@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: NIM-ES2-8
+part_number: NIM-ES2-8
+comments: '[Cisco 8-Port Gigabit Ethernet LAN Switch NIM](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)'
+interfaces:
+  - name: GigabitEthernet0/{module}/0
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/1
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/2
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/3
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/4
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/5
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/6
+    type: 1000base-t
+  - name: GigabitEthernet0/{module}/7
+    type: 1000base-t
