@@ -24,12 +24,10 @@ interfaces:
     type: 1000base-t
   - name: GigaEthernet3
     type: 1000base-t
-power-ports:
-  - name: Module 0
-    type: iec-60320-c14
-    maximum_draw: 40
-    allocated_draw: 40
-  - name: Module 1
-    type: iec-60320-c14
-    maximum_draw: 40
-    allocated_draw: 40
+module-bays:
+  - name: Power Supply Slot 0
+    position: '0'
+    label: PSU 0
+  - name: Power Supply Slot 1
+    position: '1'
+    label: PSU 1
