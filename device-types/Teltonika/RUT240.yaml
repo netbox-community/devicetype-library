@@ -1,0 +1,24 @@
+---
+manufacturer: Teltonika
+model: RUT240
+slug: rut240
+part_number: RUT240
+u_height: 0.5
+is_full_depth: false
+comments: '[RUT240 Specs](https://teltonika-networks.com/cdn/products/2023/01/63b7fa83cae9a8-88547107/rut240-datasheet-v12.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 7
+interfaces:
+  - name: lan
+    type: 100base-tx
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: mob1s1a1
+    type: lte
+    mgmt_only: false
+  - name: wan
+    type: 100base-tx
+    mgmt_only: false
