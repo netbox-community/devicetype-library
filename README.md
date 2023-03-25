@@ -10,8 +10,9 @@ new device type definitions manually.
 If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before
 submitting content.
 
-If you would like to automate the import of these devicetype template files, there is a **community based** python script
-that will check for duplicates, allow you to selectively import vendors, etc. available here [minitriga/Netbox-Device-Type-Library-Import](https://github.com/minitriga/Netbox-Device-Type-Library-Import). **Note**: This is not related to NetBox in any official way and you will not get support for it here.
+**Note: As of March 2023 Netbox-Device-Type-Library-Import has been brought into the NetBox Community Organization. We will work to get this fully supported soon.**
+If you would like to automate the import of these devicetype template files, there is a NetBox Community ~~**community based**~~ python script
+that will check for duplicates, allow you to selectively import vendors, etc. available here [netbox-community/Device-Type-Library-Import](https://github.com/netbox-community/Device-Type-Library-Import). ~~**Note**: This is not related to NetBox in any official way and you will not get support for it here.~~
 
 ## Device Type Definitions
 
@@ -54,6 +55,14 @@ The following fields may **optionally** be declared:
     - `side-to-rear`
     - `passive`
 > :test_tube: **Example**: `airflow: side-to-rear`
+- `front_image`: Indicates that this device has a front elevation image within the elevation-imgaes folder. (**Default: None**)
+  - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
+  - Type: Boolean
+> :test_tube: **Example**: `front_image: True`
+- `rear_image`: Indicates that this device has a rear elevation image within the elevation-imgaes folder. (**Default: None**)
+  - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.rear.<acceptable_format>
+  - Type: Boolean
+> :test_tube: **Example**: `rear_image: True`
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (**Default: None**)
   - Type: String
   - Options:
@@ -63,20 +72,20 @@ The following fields may **optionally** be declared:
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
 > :test_tube: **Example**: `comments: This is a comment that will appear on all NetBox devices of this type`
-- `weight`: An array with a **single** item that allow for a value and unit of measurement to be defined. (**Default: None**)
-  - Type: Array
-  - Value: Number - must be multiple of 0.01
-  - Unit: String
-    - Options:
-        - kg
-        - g
-        - lb
-        - oz
+- `weight`: A number representing the numeric weight value. Must be a multiple of 0.01 (2 decimal places). (**Default: None**)
+    - Type: Number
+    - Value: must be a multiple of 0.01
+- `weight_unit`: A string defining the unit of measurement. It must be one of the supported values. (**Default: None**)
+  - Type: String
+  - Value: Enumerated Options
+    - kg
+    - g
+    - lb
+    - oz
 >:test_tube: **Example**:
 >```
->weight:
->  - value: 12.21
->    unit: lb
+>weight: 12.21
+>weight_unit: lb
 >```
 
 For further detail on these attributes and those listed below, please reference the

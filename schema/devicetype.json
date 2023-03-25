@@ -34,11 +34,24 @@
             ]
         },
         "weight": {
-            "type": "array",
-            "items": {
-                "$ref": "components.json#/definitions/weight"
-            },
-            "maxItems": 1
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.01
+        },
+        "weight_unit": {
+            "type": "string",
+            "enum": [
+                "kg",
+                "g",
+                "lb",
+                "oz"
+            ]
+        },
+        "front_image": {
+            "type": "boolean"
+        },
+        "rear_image": {
+            "type": "boolean"
         },
         "subdevice_role": {
             "type": "string",

@@ -1,0 +1,24 @@
+---
+manufacturer: Zyxel
+model: PMG1005-T20B
+slug: zyxel-pmg1005-t20b
+part_number: PMG1005-T20B
+u_height: 0
+weight: 150
+weight_unit: g
+is_full_depth: false
+airflow: passive
+comments: '[PMG1005-T20B series specs](https://service-provider.zyxel.com/global/en/products/fiber-oltsonts/gpon/sfus/pmg1005-series) factory default settings
+  (LAN IP address 192.168.1.1, user name2admin and password 1234)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12 V DC, 0.5 A
+interfaces:
+  - name: PON
+    label: PON
+    type: gpon
+  - name: LAN
+    label: LAN
+    type: 1000base-t

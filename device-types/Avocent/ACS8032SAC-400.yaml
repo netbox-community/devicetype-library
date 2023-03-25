@@ -1,0 +1,89 @@
+---
+manufacturer: Avocent
+model: ACS 8032 Single-AC
+slug: avocent-acs8032sac-400
+part_number: ACS8032SAC-400
+comments: '[Avocent® ACS 8000 Advanced Console Server Data Sheet](https://www.vertiv.com/4ae0c3/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-8000-advanced-console-server-data-sheet.pdf)'
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 7.2
+weight_unit: lb
+console-ports:
+  - name: console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: ttyS9
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+  - name: ttyS17
+    type: rj-45
+  - name: ttyS18
+    type: rj-45
+  - name: ttyS19
+    type: rj-45
+  - name: ttyS20
+    type: rj-45
+  - name: ttyS21
+    type: rj-45
+  - name: ttyS22
+    type: rj-45
+  - name: ttyS23
+    type: rj-45
+  - name: ttyS24
+    type: rj-45
+  - name: ttyS25
+    type: rj-45
+  - name: ttyS26
+    type: rj-45
+  - name: ttyS27
+    type: rj-45
+  - name: ttyS28
+    type: rj-45
+  - name: ttyS29
+    type: rj-45
+  - name: ttyS30
+    type: rj-45
+  - name: ttyS31
+    type: rj-45
+  - name: ttyS32
+    type: rj-45
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    allocated_draw: 11
+    maximum_draw: 33
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t

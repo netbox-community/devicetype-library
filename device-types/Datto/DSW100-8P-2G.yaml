@@ -12,7 +12,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PS1
-    type: iec-60320-c14
+    type: dc-terminal
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -47,6 +47,6 @@ interfaces:
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: SFP 1
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: SFP 2
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp

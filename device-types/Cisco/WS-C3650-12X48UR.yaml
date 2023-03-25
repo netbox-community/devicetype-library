@@ -1,11 +1,21 @@
 ---
 manufacturer: Cisco
-model: Catalyst C3650-12X48UR
-slug: ws-c3650-12x48ur
+model: Catalyst 3650-12X48UR
+slug: cisco-ws-c3650-12x48ur
 part_number: WS-C3650-12X48UR
 is_full_depth: false
 u_height: 1
+weight: 17.80
+weight_unit: lb
 comments: '[Cisco Catalyst 3650 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3650-series-switches/data_sheet-c78-729449.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -218,13 +228,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet1/1/8
     type: 10gbase-x-sfpp
-console-ports:
-  - name: con 0
-    type: rj-45
-power-ports:
-  - name: PS-A
-    type: iec-60320-c16
-    maximum_draw: 1100
-  - name: PS-B
-    type: iec-60320-c16
-    maximum_draw: 1100

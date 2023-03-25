@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst 3750X-24P-S
-slug: ws-c3750x-24p-s
+slug: cisco-ws-c3750x-24p-s
 part_number: WS-C3750X-24P-S
 is_full_depth: false
 u_height: 1
@@ -108,14 +108,12 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 console-ports:
   - name: con0
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 715
-  - name: PSU1
-    type: iec-60320-c14

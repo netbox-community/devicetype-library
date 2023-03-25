@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst C3650-12X48UQ
-slug: ws-c3650-12x48uq
+slug: cisco-ws-c3650-12x48uq
 part_number: WS-C3650-12X48UQ
 is_full_depth: false
 u_height: 1
@@ -212,10 +212,8 @@ interfaces:
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
-  - name: PS-A
-    type: iec-60320-c16
-    maximum_draw: 1100
-  - name: PS-B
-    type: iec-60320-c16
-    maximum_draw: 1100
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
