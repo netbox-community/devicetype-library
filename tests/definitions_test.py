@@ -15,6 +15,10 @@ SCHEMAS = (
     ('module-types', 'moduletype.json'),
 )
 
+IMAGE_FILETYPES = (
+    'bmp', 'gif', 'pjp', 'jpg', 'pjpeg', 'jpeg', 'jfif', 'png', 'tif', 'tiff', 'webp'
+)
+
 COMPONENT_TYPES = (
     'console-ports',
     'console-server-ports',
@@ -49,8 +53,24 @@ def _get_definition_files():
 
     return ret
 
+def _get_image_files():
+    """
+    Return a list of all image files within the specified path and manufacturer.
+    """
+    ret = []
+
+    for f in sorted(glob.glob(f"elevation-images/*/*", recursive=True)):
+        # f = 'elevation-images/Nokia/nokia-7220-ixr-h3-front.png'
+        # f.split('/')[1] = Nokia
+        assert f.split('/')[2].split('.')[-1] in IMAGE_FILETYPES, f"Invalid file extension: {f}"
+        
+        ret.append((f.split('/')[1], f))
+
+    return ret
+
 
 definition_files = _get_definition_files()
+image_files = _get_image_files()
 known_slugs = set()
 
 
@@ -132,5 +152,28 @@ def test_definitions(file_path, schema):
                 iterdict(list_value)
             elif isinstance(list_value, list):
                 iterlist(list_value)
+
+    # Check for images if front_image or rear_image is True
+    if (definition.get('front_image') or definition.get('rear_image')):
+        manufacturer_images = [image for image in image_files if image[0] == file_path.split('/')[1]]
+        if not manufacturer_images:
+            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer', False)
+
+        if(definition.get('front_image')):
+            devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if image_path.split('/')[2].split('.')[1] == 'front']
+            
+            if not devices:
+                pytest.fail(f'{file_path} has front_image set to True but no images found for device', False)
+            
+            for device_image in devices:
+                assert slug.find(device_image.split('.')[0].casefold()) != -1, f'{file_path} has front_image set to True but no images found for device'
+        if(definition.get('rear_image')):
+            devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if image_path.split('/')[2].split('.')[1] == 'rear']
+            
+            if not devices:
+                pytest.fail(f'{file_path} has rear_image set to True but no images found for device', False)
+            
+            for device_image in devices:
+                assert slug.find(device_image.split('.')[0].casefold()) != -1, f'{file_path} has rear_image set to True but no images found for device'  
 
     iterdict(definition)
