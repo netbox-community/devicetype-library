@@ -55,6 +55,14 @@ The following fields may **optionally** be declared:
     - `side-to-rear`
     - `passive`
 > :test_tube: **Example**: `airflow: side-to-rear`
+- `front_image`: Indicates that this device has a front elevation image within the elevation-imgaes folder. (**Default: None**)
+  - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
+  - Type: Boolean
+> :test_tube: **Example**: `front_image: True`
+- `rear_image`: Indicates that this device has a rear elevation image within the elevation-imgaes folder. (**Default: None**)
+  - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.rear.<acceptable_format>
+  - Type: Boolean
+> :test_tube: **Example**: `rear_image: True`
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (**Default: None**)
   - Type: String
   - Options:
