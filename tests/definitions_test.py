@@ -156,21 +156,21 @@ def test_definitions(file_path, schema):
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
         # Find images for given manufacturer, with matching device slug
-        manufacturer_images = [image for image in image_files if image[0] == file_path.split('/')[1] and file_path.split('/')[2].startswith(slug)]
+        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).startswith(slug)]
         if not manufacturer_images:
-            pytest.fail(f"{file_path} has Front or Rear Image set to True but no images found for manufacturer ({file_path.split('/')[2]},{slug})", False)
+            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer/device (slug={slug})', False)
         elif len(manufacturer_images)>2:
             pytest.fail(f'More than 2 images found for device with slug {slug}: {manufacturer_images}', False)
 
         if(definition.get('front_image')):
-            devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
+            devices = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
 
             if not devices:
                 pytest.fail(f'{file_path} has front_image set to True but no matching image found for device ({manufacturer_images})', False)
 
             assert slug.find(devices[0].split('.')[0].casefold()) != -1, f'{file_path} has front_image set to True but no images found for device ({devices})'
         if(definition.get('rear_image')):
-            devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
+            devices = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
 
             if not devices:
                 pytest.fail(f'{file_path} has rear_image set to True but no images found for device', False)
