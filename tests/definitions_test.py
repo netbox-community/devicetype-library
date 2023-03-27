@@ -60,10 +60,10 @@ def _get_image_files():
     ret = []
 
     for f in sorted(glob.glob(f"elevation-images/*/*", recursive=True)):
-        # f = 'elevation-images/Nokia/nokia-7220-ixr-h3-front.png'
+        # f = 'elevation-images/Nokia/nokia-7220-ixr-h3.front.png'
         # f.split('/')[1] = Nokia
         assert f.split('/')[2].split('.')[-1] in IMAGE_FILETYPES, f"Invalid file extension: {f}"
-        
+
         ret.append((f.split('/')[1], f))
 
     return ret
@@ -157,23 +157,23 @@ def test_definitions(file_path, schema):
     if (definition.get('front_image') or definition.get('rear_image')):
         manufacturer_images = [image for image in image_files if image[0] == file_path.split('/')[1]]
         if not manufacturer_images:
-            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer', False)
+            pytest.fail(f'{file_path} has Front or Rear Image set to True but no matching images found ({manufacturer_images})', False)
 
         if(definition.get('front_image')):
             devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if image_path.split('/')[2].split('.')[1] == 'front']
-            
+
             if not devices:
                 pytest.fail(f'{file_path} has front_image set to True but no images found for device', False)
-            
+
             for device_image in devices:
                 assert slug.find(device_image.split('.')[0].casefold()) != -1, f'{file_path} has front_image set to True but no images found for device'
         if(definition.get('rear_image')):
             devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if image_path.split('/')[2].split('.')[1] == 'rear']
-            
+
             if not devices:
                 pytest.fail(f'{file_path} has rear_image set to True but no images found for device', False)
-            
+
             for device_image in devices:
-                assert slug.find(device_image.split('.')[0].casefold()) != -1, f'{file_path} has rear_image set to True but no images found for device'  
+                assert slug.find(device_image.split('.')[0].casefold()) != -1, f'{file_path} has rear_image set to True but no images found for device'
 
     iterdict(definition)
