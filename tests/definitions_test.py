@@ -157,13 +157,13 @@ def test_definitions(file_path, schema):
     if (definition.get('front_image') or definition.get('rear_image')):
         manufacturer_images = [image for image in image_files if image[0] == file_path.split('/')[1]]
         if not manufacturer_images:
-            pytest.fail(f'{file_path} has Front or Rear Image set to True but no matching images found ({manufacturer_images})', False)
+            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer', False)
 
         if(definition.get('front_image')):
             devices = [image_path.split('/')[2] for image, image_path in manufacturer_images if image_path.split('/')[2].split('.')[1] == 'front']
 
             if not devices:
-                pytest.fail(f'{file_path} has front_image set to True but no images found for device', False)
+                pytest.fail(f'{file_path} has front_image set to True but no matching image found for device ({manufacturer_images})', False)
 
             for device_image in devices:
                 assert slug.find(device_image.split('.')[0].casefold()) != -1, f'{file_path} has front_image set to True but no images found for device'
