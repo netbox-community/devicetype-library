@@ -158,7 +158,7 @@ def test_definitions(file_path, schema):
         # Find images for given manufacturer, with matching device slug
         manufacturer_images = [image for image in image_files if image[0] == file_path.split('/')[1] and file_path.split('/')[2].startswith(slug)]
         if not manufacturer_images:
-            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer ({file_path.split('/')[2]},{slug})', False)
+            pytest.fail(f"{file_path} has Front or Rear Image set to True but no images found for manufacturer ({file_path.split('/')[2]},{slug})", False)
         elif len(manufacturer_images)>2:
             pytest.fail(f'More than 2 images found for device with slug {slug}: {manufacturer_images}', False)
 
