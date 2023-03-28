@@ -1,0 +1,195 @@
+#### Product Code:	 N3K-C3132Q-40GX 
+###### Enclosure Type:	1 RU
+###### Switching Capacity:	2.5 Tbps switching capacity
+###### Forwarding Rate	Up to: 1 bpps
+###### Configurable Maximum Transmission Units (MTUs):	Up to 9216 bytes (jumbo frames)
+###### Ports:	32 x QSFP+ ports and 4  X SFP+ ports
+###### System Memory:	4 GB
+###### Number of Power Supplies:	2
+###### Typical Operating Power:	360 W
+###### Dimensions (H x W x D):	4.4 x 43.9 x 50.5 cm
+###### Net Weight:	10 Kg
+
+---
+manufacturer: NetApp
+model: AFF-A300A-C
+slug: aff-a300a-c
+part_number: AFF-A300a-C
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+description: HA Pair Filer Head (AFF-A300A)
+comments: ' #### AFF-A300 Technical Specifications
+
+##### Model:AFF-A300 
+
+###### NAS scale-out :  2-24 nodes (12 HA pairs)
+
+###### Maximum SSD  : 2880 2592 5760 4608 1,728
+
+###### Maximum raw :capacity: all flash 140.5PB/124.8PiB
+
+###### Effective capacity: 562.2PB/499PiB
+
+###### Maximum memory : 3,072GB
+
+###### SAN scale-out : 2-12 nodes (6 HA pairs)
+
+###### Maximum SSD : 2304
+
+###### Maximum raw capacity : 70.3PB/62.4PiB
+
+###### Effective capacity : 281.1PB/249.5PiB
+
+###### Maximum memory : 1536GB
+
+###### Cluster interconnect : 4 x 10GbE
+
+###### Per HA Pair Specifications (Active-Active Dual Controller)
+
+###### 
+
+###### Maximum SSD : 384
+
+###### Maximum raw capacity: all flash : 11.7PB/10.4PiB
+
+###### Effective capacity : 46.9PB/41.6PiB
+
+###### Controller form factor : 
+
+###### 3U chassis with two HA controllers
+
+###### Memory : 256GB
+
+###### NVRAM : 16GB
+
+###### PCIe expansion slots : 6
+
+###### FC target ports (32Gb autoranging) : 8
+
+###### FC target ports (16Gb autoranging) : 24
+
+###### FCoE target ports, UTA2 : 24
+
+###### 100GbE/40GbE ports : n/a
+
+###### 40GbE ports : 8
+
+###### 10GbE ports : 28
+
+###### 10GbE Base-T ports/(1GbE autoranging) : 12
+
+###### 12Gb/6Gb SAS ports : 24
+
+###### Max number of LUNs: 4,096
+
+###### Number of supported SAN hosts: 512
+
+###### Storage networking supported : NVMe/FC; FC; iSCSI; NFS; pNFS; CIFS/SMB
+
+###### OS version ONTAP:  9.4 RC1 or later ONTAP 9.1 GA or later ONTAP 9.1 GA or later ONTAP 9.1 GA or later ONTAP 9.4 RC1 or later
+
+###### Shelves and media :  NVMe Drive Packs DS224C (2U; 24 drives, 2.5” SFF); DS2246 (2U; 24 drives, 2.5” SFF)
+
+
+<https://www.netapp.com/media/19747-storage-review-netapp-a300-print.pdf> 
+
+
+<https://docs.netapp.com/us-en/ontap-systems/a300/index.html>'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+interfaces:
+  - name: controller_A/0a
+    description: MiniSAS HD 
+    type: other
+  - name: controller_A/0b
+    description: MiniSAS HD 
+    type: other
+  - name: controller_A/0c
+    description: MiniSAS HD 
+    type: other
+  - name: controller_A/0d
+    description: MiniSAS HD 
+    type: other
+  - name: controller_A/e0a
+    description: Cluster interconnect
+    type: 10gbase-x-sfpp
+  - name: controller_A/e0b
+    description: Cluster interconnect
+    type: 10gbase-x-sfpp
+  - name: controller_A/e0c
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_A/e0d
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_A/e0e
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_A/e0f
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+    description: 10GbE or 16Gb FC to switches
+  - name: controller_A/e0g
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+    description: 10GbE or 16Gb FC to switches
+  - name: controller_A/e0h
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_A/Con
+    type: other
+  - name: controller_A/USB-2
+    type: other
+  - name: controller_A/e0M
+    type: 1000base-t
+  - name: controller_B/0a
+    description: MiniSAS HD 
+    type: other
+  - name: controller_B/0b
+    description: MiniSAS HD 
+    type: other
+  - name: controller_B/0c
+    description: MiniSAS HD
+    type: other
+  - name: controller_B/0d
+    description: MiniSAS HD 
+    type: other
+  - name: controller_B/e0a
+    description: Cluster interconnect
+    type: 10gbase-x-sfpp
+  - name: controller_B/e0b
+    description: Cluster interconnect
+    type: 10gbase-x-sfpp
+  - name: controller_B/e0c
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_B/e0d
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_B/e0e
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_B/e0f
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+    description: 10GbE or 16Gb FC to switches
+  - name: controller_B/e0g
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+    description: 10GbE or 16Gb FC to switches
+  - name: controller_B/e0h
+    description: 10GbE or 16Gb FC to switches
+    type: 10gbase-x-sfpp
+  - name: controller_B/Con
+    type: other
+  - name: controller_B/USB-2
+    type: other
+  - name: controller_B/e0M
+    type: 1000base-t          
+module-bays:
+  - name: controller_A
+  - name: controller_B
