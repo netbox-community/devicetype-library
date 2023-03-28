@@ -1,0 +1,56 @@
+---
+manufacturer: Versa
+model: CSG1500
+slug: Versa-csg1500
+comments: '[Versa CSG1500] 
+
+
+
+
+https://versa-networks.com/documents/datasheets/versa-csg1000-series.pdf
+
+'
+
+
+u_height: 1
+subdevice_role: parent
+is_full_depth: true
+console-ports:
+  - name: Front USB1 (Top)
+    type: usb-a
+  - name: Front USB2 (Bottom)
+    type: usb-a
+console-server-ports:
+  - name: Port A (Top/left)
+    type: rj-45
+  - name: Port B (Bottom/left)
+    type: rj-45
+    lable: 10/100/1000 Base-T
+  - name: BMC console port RS-232 (Top/right)
+    type: rj-45
+  - name: BMC console port Ethernet (Bottom/right)
+    type: rj-45
+    lable: 10/100/1000 Base-T
+power-ports:
+  - name: Power 1/Rear/Left
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: Power 2/Rear/Right
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: GigabitEthernet0/1
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/6
+    type: 1000base-t
+module-bays:
+  - name: rNDC-1
+  - name: rNDC-2

@@ -1,15 +1,39 @@
 ---
 manufacturer: Cisco
-model: N2K-C2232PP-10GE
-slug: n2k-c2232pp-10ge
-part_number: N2K-C2232PP-10GE
+model: N2K-C2232PP
+slug: n2k-c2232pp
+part_number: N2K-C2232PP
 u_height: 1
 is_full_depth: false
+description: 'Nexus 2232PP Series 10GE Fabric Extender, 2PS, 1 Fan Module, 32x1/10GE (req SFP/SFP+) + 8x10GE (req SFP+)'
+comments: '####   Product Code: N2K-C2232PP
+###### 
+###### Fabric extender host interfaces: 32
+###### 
+###### Fabric extender host interface type: 1/10 Gigabit Ethernet ports SFP/SFP+
+###### 
+###### AOC cables: FP-10G-AOC1M, SFP-10G-AOC2M, SFP-10G-AOC3M, SFP-10G-AOC5M, SFP-10G-AOC7M, and SFP-10G-AOC10M
+###### 
+###### Fabric extender fabric interfaces: 8 × 10-Gigabit parent-switch facing ports for SFP+ transceivers
+###### 
+###### Fabric speed: 80 Gbps in each direction (160-Gbps full duplex)
+###### 
+###### Performance: Hardware forwarding at 800Gbps or 595 mpps
+###### 
+###### FCoE: FCoE supported
+###### 
+###### Cisco parent switch: Cisco Nexus 5000 Series, Cisco Nexus 6000 Series, Cisco Nexus 7000 Series, Cisco Nexus 9000 Series
+###### 
+###### Dimensions (H x W x D): 4.37 x 43.94 x 44.96 cm
+###### 
+###### Net Weight: 8.33 Kg (Systems are fully loaded with two power supplies and one fan tray.)
+
+<https://www.cisco.com/c/en/us/products/collateral/switches/nexus-2000-series-fabric-extenders/data_sheet_c78-507093.html>'
 power-ports:
-  - name: Power Supply 1
+  - name: PS1
     type: iec-60320-c14
     maximum_draw: 400
-  - name: Power Supply 2
+  - name: PS2
     type: iec-60320-c14
     maximum_draw: 400
 interfaces:

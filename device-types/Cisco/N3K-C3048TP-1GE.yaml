@@ -5,6 +5,7 @@ part_number: N3K-C3048TP-1GE
 slug: n3k-c3048tp-1ge
 u_height: 1
 is_full_depth: true
+comments: 
 console-ports:
   - name: Console
     type: rj-45
@@ -14,6 +15,9 @@ power-ports:
   - name: PS2
     type: iec-60320-c14
 interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
   - name: Ethernet1/1
     type: 1000base-t
   - name: Ethernet1/2
@@ -118,6 +122,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/52
     type: 10gbase-x-sfpp
-  - name: mgmt0
-    type: 1000base-t
-    mgmt_only: true
