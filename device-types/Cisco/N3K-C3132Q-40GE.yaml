@@ -5,6 +5,46 @@ slug: n3k-c3132q-40ge
 part_number: N3K-C3132Q-40GE
 u_height: 1
 is_full_depth: false
+comments: '#### Product Code:	 N3K-C3132Q-40GE
+
+
+###### Enclosure Type:	1 RU
+
+###### Switching Capacity:	2.5 Tbps switching capacity
+
+###### Forwarding Rate	Up to: 1 bpps
+
+###### Configurable Maximum Transmission Units (MTUs):	Up to 9216 bytes (jumbo frames)
+
+###### Ports:	32 x QSFP+ ports and 4  X SFP+ ports
+
+###### System Memory:	4 GB
+
+###### Number of Power Supplies:	2
+
+###### Typical Operating Power:	360 W
+
+###### Dimensions (H x W x D):	4.4 x 43.9 x 50.5 cm
+
+###### Net Weight:	10 Kg
+
+<https://www.cisco.com/c/en/us/products/collateral/switches/nexus-3132q-switch/datasheet-c78-729482.pdf>
+
+'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 210
+    maximum_draw: 340
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 210
+    maximum_draw: 340
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -81,17 +121,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/36
     type: 10gbase-x-sfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    allocated_draw: 210
-    maximum_draw: 340
-  - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 210
-    maximum_draw: 340
-console-ports:
-  - name: Console
-    type: rj-45
-  - name: usb0
-    type: usb-mini-b

@@ -5,19 +5,45 @@ slug: fg-40f
 part_number: FGT_40F
 u_height: 1
 is_full_depth: false
-comments: ' '
+comments: ' #### Product Code:	FG-40F
+
+###### Hardware Accelerated GE RJ45 WAN / DMZ Ports:	1
+
+###### Hardware Accelerated GE RJ45 Internal Ports:	3
+
+###### Hardware Accelerated GE RJ45 FortiLink Ports (Default):	1
+
+###### IPS Throughput:  1 Gbps
+
+###### NGFW Throughput: 800 Mbps
+
+###### Threat Protection Throughput: 600 Mbps
+
+###### Height x Width x Length (inches): 	1.5 x 8.5 x 6.3
+
+###### Height x Width x Length (mm): 	38.5 x 216 x 160
+
+###### Input Rating :	12Vdc, 3A
+
+###### Power Required: 	Powered by External DC Power Adapter, 100–240V AC, 50–60 Hz
+
+###### Power Consumption (Average / Maximum):	13.4 W / 15.4 W
+
+<https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-fortiwifi-40f-series.pdf>
+
+'
 console-ports:
   - name: Console
     type: rj-45
 power-ports:
   - name: PS1
     type: nema-5-15p
-    maximum_draw: 14
-    allocated_draw: 12
+    maximum_draw: 16
+    allocated_draw: 14
 interfaces:
   - name: wan1
     type: 1000base-t
-  - name: A
+  - name: FortiLink
     type: 1000base-t
   - name: internal1
     type: 1000base-t
