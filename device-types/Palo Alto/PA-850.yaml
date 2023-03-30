@@ -5,16 +5,15 @@ slug: pa-850
 part_number: PA-850
 u_height: 1
 is_full_depth: false
+airflow: front-to-rear
+weight: 13.5
+weight_unit: lb
 comments: '[PA-800 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet)'
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 240
-    allocated_draw: 64
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 240
-    allocated_draw: 64
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 console-ports:
   - name: console
     type: rj-45
