@@ -1,15 +1,16 @@
 ---
 manufacturer: Eaton
-model: B097-016
-slug: tripp-lite-b097-016
-part_number: '037332218025'
+model: Tripp Lite B096-016
+slug: eaton-tripp-lite-b096-016
+part_number: '037332148902'
 u_height: 1
 is_full_depth: false
-weight: 7.6
+weight: 11
 weight_unit: lb
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b096016.pdf)'
 console-ports:
   - name: '1'
-    type: rj-45
+    type: de-9
 console-server-ports:
   - name: '1'
     type: rj-45
@@ -51,15 +52,15 @@ power-ports:
   - name: '1'
     type: iec-60320-c14
     maximum_draw: 30
-    allocated_draw: 25
+    allocated_draw: 15
   - name: '2'
     type: iec-60320-c14
     maximum_draw: 30
-    allocated_draw: 25
+    allocated_draw: 15
 interfaces:
   - name: eth0_wan
-    type: 1000base-t
+    type: 100base-tx
     mgmt_only: true
   - name: eth1_lan
-    type: 1000base-t
+    type: 100base-tx
     mgmt_only: true
