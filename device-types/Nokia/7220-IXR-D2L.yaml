@@ -7,6 +7,8 @@ u_height: 1
 is_full_depth: true  # 21.10"
 weight: 22 # fully populated, 16.23 unpopulated
 weight_unit: lb
+front_image: true
+rear_image: true
 comments: '[Datasheet](https://pf.content.nokia.com/too54x-webscale-dc-fabric-product/7220-dc-routers-data-sheet)'
 console-ports:
   - name: Console
@@ -148,3 +150,7 @@ module-bays:
     position: '3'
   - name: Fan Tray 4
     position: '4'
+  - name: Fan Tray 5
+    position: '5'
+  - name: Fan Tray 6
+    position: '6'

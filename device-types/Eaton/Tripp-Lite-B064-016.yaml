@@ -1,10 +1,13 @@
 ---
-manufacturer: Tripp Lite
-model: B096-032
-slug: tripp-lite-b096-032
-part_number: 037332181183
+manufacturer: Eaton
+model: Tripp Lite B064-016-02-IPG
+slug: eaton-tripp-lite-b064-016-02-ipg
+part_number: '037332151513'
 u_height: 1
 is_full_depth: false
+weight: 17
+weight_unit: lb
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b06401602ipg.pdf)'
 console-ports:
   - name: '1'
     type: de-9
@@ -42,54 +45,24 @@ console-server-ports:
   - name: '16'
     type: rj-45
   - name: '17'
-    type: rj-45
-  - name: '18'
-    type: rj-45
-  - name: '19'
-    type: rj-45
-  - name: '20'
-    type: rj-45
-  - name: '21'
-    type: rj-45
-  - name: '22'
-    type: rj-45
-  - name: '23'
-    type: rj-45
-  - name: '24'
-    type: rj-45
-  - name: '25'
-    type: rj-45
-  - name: '26'
-    type: rj-45
-  - name: '27'
-    type: rj-45
-  - name: '28'
-    type: rj-45
-  - name: '29'
-    type: rj-45
-  - name: '30'
-    type: rj-45
-  - name: '31'
-    type: rj-45
-  - name: '32'
-    type: rj-45
-  - name: '33'
     type: usb-a
-  - name: '34'
+  - name: '18'
     type: usb-a
 power-ports:
   - name: '1'
     type: iec-60320-c14
     maximum_draw: 30
-    allocated_draw: 20
+    allocated_draw: 15
   - name: '2'
     type: iec-60320-c14
     maximum_draw: 30
-    allocated_draw: 20
+    allocated_draw: 15
 interfaces:
   - name: eth0_wan
+    label: LAN 1
     type: 100base-tx
     mgmt_only: true
   - name: eth1_lan
+    label: LAN 2
     type: 100base-tx
     mgmt_only: true
