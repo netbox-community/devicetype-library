@@ -41,14 +41,14 @@ def _get_definition_files():
     for path, schema in SCHEMAS:
 
         # Initialize the schema
-        with open(f"schema/{schema}") as schema_file:
+        with open(f"schema{os.path.sep}{schema}") as schema_file:
             schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
 
         # Validate that the schema exists
         assert schema, f"Schema definition for {path} is empty!"
 
         # Map each definition file to its schema
-        for f in sorted(glob.glob(f"{path}/*/*", recursive=True)):
+        for f in sorted(glob.glob(f"{path}{os.path.sep}*{os.path.sep}*", recursive=True)):
             ret.append((f, schema))
 
     return ret
@@ -105,7 +105,7 @@ def test_definitions(file_path, schema):
     # Validate YAML definition against the supplied schema
     try:
         resolver = RefResolver(
-            f"file://{os.getcwd()}/schema/devicetype.json",
+            f"file://{os.path.abspath(os.path.join(os.getcwd(), 'schema', 'devicetype.json'))}",
             schema,
             handlers={"file": _decimal_file_handler},
         )
@@ -114,7 +114,7 @@ def test_definitions(file_path, schema):
         pytest.fail(f"{file_path} failed validation: {e}", False)
 
     # Check for duplicate slug
-    if file_path.startswith('device-types/'):
+    if file_path.startswith('device-types' +os.path.sep):
         slug = definition.get('slug')
         if slug and slug in known_slugs:
             pytest.fail(f'{file_path} device type has duplicate slug "{slug}"', False)
@@ -152,20 +152,20 @@ def test_definitions(file_path, schema):
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
         # Find images for given manufacturer, with matching device slug (exact match including case)
-        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).split('.')[0] == slug]
+        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split(os.path.sep)[1] and os.path.basename(image[1]).split('.')[0] == slug]
         if not manufacturer_images:
             pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer/device (slug={slug})', False)
         elif len(manufacturer_images)>2:
             pytest.fail(f'More than 2 images found for device with slug {slug}: {manufacturer_images}', False)
 
         if(definition.get('front_image')):
-            front_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
+            front_image = [image_path.split(os.path.sep)[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
 
             if not front_image:
                 pytest.fail(f'{file_path} has front_image set to True but no matching image found for device ({manufacturer_images})', False)
 
         if(definition.get('rear_image')):
-            rear_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
+            rear_image = [image_path.split(os.path.sep)[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
 
             if not rear_image:
                 pytest.fail(f'{file_path} has rear_image set to True but no images found for device', False)
