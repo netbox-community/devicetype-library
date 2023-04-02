@@ -1,16 +1,19 @@
 ---
 manufacturer: Lenovo
-model: SR630
-slug: sr630
+model: ThinkSystem SR630
+slug: lenovo-sr630
 part_number: 7X02
+u_height: 1
 is_full_depth: true
 subdevice_role: parent
+module-bays:
+  - name: 'PSU1'
+    label: Power supply 1
+    position: '1'
+  - name: 'PSU2'
+    label: Power supply 2
+    position: '2'
 interfaces:
   - name: XCC
     type: 1000base-t
     mgmt_only: true
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14
