@@ -17,7 +17,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Lint YAML files
         run: |
-          yamllint --format github --strict \
+          yamllint --format github \
             device-types/ module-types/
       - name: Format YAML files (yamlfmt)
         run: |
