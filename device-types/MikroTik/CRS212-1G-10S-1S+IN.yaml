@@ -32,3 +32,8 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 20
+    description: DC 8-30V

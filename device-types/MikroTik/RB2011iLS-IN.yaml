@@ -3,7 +3,8 @@ manufacturer: MikroTik
 model: RB2011iLS-IN
 slug: rb2011ils-in
 is_full_depth: false
-u_height: 0.5
+u_height: 0
+airflow: passive
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -25,5 +26,17 @@ interfaces:
     type: 100base-tx
   - name: ether10
     type: 100base-tx
+    description: PoE Out 510mA MAX
+    poe_mode: pse
+    poe_type: passive-24v-2pair
   - name: sfp1
     type: 1000base-x-sfp
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 18
+    description: DC 10-30V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 18
+    description: 10-30V

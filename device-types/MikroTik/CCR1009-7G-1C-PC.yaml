@@ -19,8 +19,21 @@ interfaces:
     type: 1000base-t
   - name: ether7
     type: 1000base-t
-  - name: combo1
+    poe_mode: pd
+    poe_type: passive-48v-2pair
+  - name: combo ETH
+    type: 1000base-t
+  - name: combo SFP
     type: 1000base-x-sfp
 console-ports:
   - name: serial0
     type: de-9
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 30
+    description: DC 18-57V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 30
+    description: 18-57V

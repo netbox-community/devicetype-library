@@ -5,30 +5,47 @@ slug: crs312-4cplus-8xg-rm
 is_full_depth: false
 u_height: 1
 interfaces:
-  - name: xether1
+  - name: ether1
+    type: 10gbase-t
+  - name: ether2
+    type: 10gbase-t
+  - name: ether3
+    type: 10gbase-t
+  - name: ether4
+    type: 10gbase-t
+  - name: ether5
+    type: 10gbase-t
+  - name: ether6
+    type: 10gbase-t
+  - name: ether7
+    type: 10gbase-t
+  - name: ether8
+    type: 10gbase-t
+  - name: combo1 ETH
+    type: 10gbase-t
+  - name: combo1 SFP
     type: 10gbase-x-sfpp
-  - name: xether2
+  - name: combo2 ETH
+    type: 10gbase-t
+  - name: combo2 SFP
     type: 10gbase-x-sfpp
-  - name: xether3
+  - name: combo3 ETH
+    type: 10gbase-t
+  - name: combo3 SFP
     type: 10gbase-x-sfpp
-  - name: xether4
+  - name: combo4 ETH
+    type: 10gbase-t
+  - name: combo4 SFP
     type: 10gbase-x-sfpp
-  - name: xether5
-    type: 10gbase-x-sfpp
-  - name: xether6
-    type: 10gbase-x-sfpp
-  - name: xether7
-    type: 10gbase-x-sfpp
-  - name: xether8
-    type: 10gbase-x-sfpp
-  - name: combo1
-    type: 10gbase-x-sfpp
-  - name: combo2
-    type: 10gbase-x-sfpp
-  - name: combo3
-    type: 10gbase-x-sfpp
-  - name: combo4
-    type: 10gbase-x-sfpp
+  - name: MGMT/BOOT
+    type: 100base-tx
 console-ports:
   - name: serial0
     type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 60
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 60

@@ -2,18 +2,49 @@
 manufacturer: MikroTik
 model: CRS106-1C-5S
 slug: crs106-1c-5s
+comments: Smart Switch, 5x SFP cages, 1x Combo port (SFP or Gigabit Ethernet), 400MHz CPU, 128MB RAM, desktop case, RouterOS L5
 is_full_depth: false
-u_height: 1
+u_height: 0
+airflow: passive
 interfaces:
+  - name: Combo Eth
+    type: 1000base-t
+    label: COMBO PoE In
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: Combo SFP
+    label: COMBO SFP
+    type: 1000base-x-sfp
   - name: sfp1
     type: 1000base-x-sfp
+    label: SFP 1
+    description: 1.25G SFP
   - name: sfp2
     type: 1000base-x-sfp
+    label: SFP 2
+    description: 1.25G SFP
   - name: sfp3
     type: 1000base-x-sfp
+    label: SFP 3
+    description: 1.25G SFP
   - name: sfp4
     type: 1000base-x-sfp
+    label: SFP 4
+    description: 1.25G SFP
   - name: sfp5
     type: 1000base-x-sfp
-  - name: combo1
-    type: 1000base-x-sfp
+    label: SFP 5
+    description: 1.25G SFP
+console-ports:
+  - name: Console
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 11
+    description: DC 10-30V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 11
+    description: 10-30V

@@ -8,6 +8,8 @@ u_height: 1
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -58,3 +60,12 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
     type: 10gbase-x-sfpp
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 19
+    description: DC 10-30V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 19
+    description: 10-30V

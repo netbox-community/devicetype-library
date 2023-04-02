@@ -2,11 +2,14 @@
 manufacturer: MikroTik
 model: RB260GS
 slug: rb260gs
-u_height: 0.5
+u_height: 0
 is_full_depth: false
+airflow: passive
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -15,3 +18,14 @@ interfaces:
     type: 1000base-t
   - name: ether5
     type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 5
+    description: DC 10-30V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 5
+    description: 10-30V

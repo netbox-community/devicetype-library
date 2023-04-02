@@ -4,9 +4,12 @@ model: CRS112-8G-4S-IN
 slug: crs112-8g-4s-in
 is_full_depth: false
 u_height: 1
+airflow: passive
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-48v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -32,3 +35,12 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 10
+    description: DC 10-57V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 10
+    description: 10-57V

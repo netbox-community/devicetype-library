@@ -5,6 +5,7 @@ slug: rbsxtr-r11e-lte6
 part_number: RBSXTR&R11e-LTE6
 u_height: 0
 is_full_depth: false
+airflow: passive
 comments: |
   10.5dBi Outdoor LTE RouterBoard with LTE CAT6 RE-11 Modem with 2 sim slots (MicroSIM).
   Supported Bands:
@@ -18,7 +19,17 @@ comments: |
 interfaces:
   - name: ether1
     type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-48v-2pair
   - name: ether2
     type: 100base-tx
+    description: PoE Out 600mA MAX
+    poe_mode: pse
+    poe_type: passive-48v-2pair
   - name: lte1
     type: lte
+power-ports:
+  - name: Passive PoE
+    type: other
+    maximum_draw: 21
+    description: 12-57V

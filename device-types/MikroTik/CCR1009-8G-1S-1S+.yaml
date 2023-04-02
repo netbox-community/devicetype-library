@@ -3,8 +3,7 @@ manufacturer: MikroTik
 model: CCR1009-8G-1S-1S+
 slug: ccr1009-8g-1s-1splus
 is_full_depth: false
-comments: |
-  [Product Data](https://mikrotik.com/product/CCR1009-8G-1S-1Splus)
+comments: 1U rackmount, 8x Gigabit Ethernet, 1xSFP cage, 1xSFP+ cage, 9 cores x 1.2GHz CPU, 2GB RAM, LCD panel, Dual Power supplies, SmartCard slot, RouterOS L6
 u_height: 1
 interfaces:
   - name: ether1
@@ -23,6 +22,9 @@ interfaces:
     type: 1000base-t
   - name: ether8
     type: 1000base-t
+    label: ETH 8 POE / BOOT
+    poe_mode: pd
+    poe_type: passive-48v-2pair
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp1
@@ -30,3 +32,16 @@ interfaces:
 console-ports:
   - name: serial0
     type: de-9
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 35
+    description: 100-240V
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 35
+    description: 100-240V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 35
+    description: 14-57V

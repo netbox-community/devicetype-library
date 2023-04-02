@@ -4,9 +4,12 @@ model: CRS125-24G-1S-2HnD-IN
 slug: crs125-24g-1s-2hnd-in
 is_full_depth: false
 u_height: 1
+airflow: passive
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -60,3 +63,12 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 19
+    description: DC 10-30V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 19
+    description: 10-30V

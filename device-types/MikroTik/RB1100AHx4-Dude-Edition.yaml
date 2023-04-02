@@ -4,6 +4,7 @@ model: RB1100AHx4 Dude Edition
 slug: rb1100dx4
 is_full_depth: false
 u_height: 1
+airflow: passive
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -31,13 +32,19 @@ interfaces:
     type: 1000base-t
   - name: ether13
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
 console-ports:
   - name: serial0
     type: de-9
 power-ports:
   - name: power1
     type: iec-60320-c14
-    maximum_draw: 20
+    maximum_draw: 33
   - name: power2
     type: iec-60320-c14
-    maximum_draw: 20
+    maximum_draw: 33
+  - name: 802.3af/at PoE
+    type: other
+    maximum_draw: 33
+    description: 20-57V

@@ -5,6 +5,7 @@ slug: rblhg-r11d-lte6
 part_number: RBLHGR&R11e-LTE6
 u_height: 0
 is_full_depth: false
+airflow: passive
 comments: |
   17dBi dish LTE RouterBoard with R11e modem with 1 SIM Slot (MicroSIM).
   Supported Bands:
@@ -18,5 +19,12 @@ comments: |
 interfaces:
   - name: ether1
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: lte1
     type: lte
+power-ports:
+  - name: 802.3af/at PoE
+    type: other
+    maximum_draw: 6
+    description: 12-57V

@@ -4,26 +4,53 @@ model: RB3011UiAS-RM
 slug: rb3011uias-rm
 is_full_depth: false
 u_height: 1
+airflow: passive
 interfaces:
   - name: ether1
     type: 1000base-t
+    label: ETH1
   - name: ether2
     type: 1000base-t
+    label: ETH2
   - name: ether3
     type: 1000base-t
+    label: ETH3
   - name: ether4
     type: 1000base-t
+    label: ETH4
   - name: ether5
     type: 1000base-t
+    label: ETH5
   - name: ether6
     type: 1000base-t
+    label: ETH6
   - name: ether7
     type: 1000base-t
+    label: ETH7
   - name: ether8
     type: 1000base-t
+    label: ETH8
   - name: ether9
     type: 1000base-t
+    label: ETH9
   - name: ether10
     type: 1000base-t
+    label: ETH10
+    description: PoE Out 600mA MAX
+    poe_mode: pse
+    poe_type: passive-24v-2pair
   - name: sfp1
     type: 1000base-x-sfp
+console-ports:
+  - name: Console
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 30
+    description: DC 10-30V
+  - name: Passive PoE
+    type: other
+    maximum_draw: 30
+    description: 10-30V
