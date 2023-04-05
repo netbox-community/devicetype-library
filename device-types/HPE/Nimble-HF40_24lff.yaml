@@ -1,0 +1,159 @@
+---
+manufacturer: HPE
+model: Nimble HF40
+slug: hpe_nimble_Hf40_24lff
+u_height: 4
+is_full_depth: true
+subdevice_role: parent
+comments: '## [ HPE Nimble Storage HF40 24 X 3.5" LFF ]
+
+
+####   Nimble HF40 Specifications
+
+###### Capacity: Up to 504TB raw and 2030TB effective capacity
+
+###### Drive description:  Up to (21) LFF MDL SAS HDDs - 1/2/4/6/10TB drive capacities supported, depending on model. (3 or 6) SFF SSD
+
+###### Enclosures: All-flash chassis with up to one all-flash expansion shelf
+
+###### Maximum drives per enclosure: (21) HDDs and Flash Cache per base array or SF Series Expansion Shelf.
+
+###### Host interface: Each array controller has 2 x 10GbE ports built in. Optional ports are 1GbaseT, 10GbaseT, or 10GbE SFP+, or 8/16G Fibre Channel.
+
+###### Storage controller: Redundant storage controllers
+
+###### Enclosures: (6) Maximum, Expansion Shelves supported
+
+###### Availability features: Triple+ Parity RAID for data protection (triple drive and intra-drive parity), 99.9999% guaranteed availability, redundant hardware/software design, no single points of failure.
+
+###### Product dimensions: (H x W x D) 	6.92 x 17.3 x 35 in
+
+###### Weight: 135 lb
+
+<https://www.hpe.com/psnow/downloadDoc/HPE%20Nimble%20Storage%20Adaptive%20Flash%20Arrays-a00008274enw.pdf?id=a00008274enw.pdf&isFutureVersion=true&ver=31&form=false&preview=false&print=&servePdfFile=true&hf=slim&r=&section=&prelaunchSection=&softrollSection=&deepLink=&isLinearized=false&contentDisposition=attachment>
+
+for NETBOX '
+console-ports:
+  - name: Controll_A Rear Serial
+    type: other
+  - name: Controll_B Rear Serial
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU3
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU4
+    type: iec-60320-c14
+    maximum_draw: 1200
+interfaces:
+  - name: Controll_A/eth0a
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Controll_A/eth0b
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Controll_A/eth1a
+    type: 1000base-t
+  - name: Controll_A/eth1b
+    type: 1000base-t
+  - name: Controll_A/eth2a
+    type: 1000base-t
+  - name: Controll_A/eth2b
+    type: 1000base-t
+  - name: Controll_A/fc3a
+    type: 32gfc-sfp28
+  - name: Controll_A/fc3b
+    type: 32gfc-sfp28
+  - name: Controll_A/fc3c
+    type: 32gfc-sfp28
+  - name: Controll_A/fc3d
+    type: 32gfc-sfp28
+  - name: Controll_A/SAS In
+    description: MiniSAS HD     
+    type: other
+  - name: Controll_A/SAS Out
+    description: MiniSAS HD     
+    type: other    
+  - name: Controll_B/eth0a
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Controll_B/eth0b
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Controll_B/eth1a
+    type: 1000base-t
+  - name: Controll_B/eth1b
+    type: 1000base-t
+  - name: Controll_B/eth2a
+    type: 1000base-t
+  - name: Controll_B/eth2b
+    type: 1000base-t
+  - name: Controll_B/fc3a
+    type: 32gfc-sfp28
+  - name: Controll_B/fc3b
+    type: 32gfc-sfp28
+  - name: Controll_B/fc3c
+    type: 32gfc-sfp28
+  - name: Controll_B/fc3d
+    type: 32gfc-sfp28
+  - name: Controll_B/SAS In
+    description: MiniSAS HD     
+    type: other
+  - name: Controll_B/SAS Out
+    description: MiniSAS HD     
+    type: other
+device-bays:
+  - name: Drive bay-1/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-2/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-3/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-4/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-5/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-6/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-7/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-8/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-9/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-10/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-11/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-12/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-13/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-14/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-15/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-16/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-17/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-18/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-19/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-20/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-21/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-22/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-23/LFF
+    description: '3.5" LFF'
+  - name: Drive bay-24/LFF
+    description: '3.5" LFF'
