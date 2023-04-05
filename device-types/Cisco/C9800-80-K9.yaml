@@ -1,0 +1,58 @@
+---
+manufacturer: Cisco
+model: Catalyst 9800-80-K9
+slug: cisco-c9800-80-k9
+part_number: C9800-80-K9
+u_height: 2
+is_full_depth: false
+comments: '[Cisco Catalyst 9800-80 Wireless Controller Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/nb-06-cat9800-wirel-cont-data-sheet-ctp-en.html)'
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb0
+    type: usb-micro-b
+interfaces:
+  - name: Management Port
+    type: 1000base-t
+    mgmt_only: true
+  - name: Redundancy Ethernet Port
+    type: 1000base-t
+    mgmt_only: true
+  - name: Redundancy SFP Port
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: TenGigabitEthernet0/0/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/7
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 600
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 600
+module-bays:
+  - name: Modular uplink
+    position: '1'
+
+
+module-bays:
+  - name: PSU Slot 1
+    label: Power Supply 1
+    position: '1'
+  - name: PSU Slot 2
+    label: Power Supply 2
+    position: '2'
