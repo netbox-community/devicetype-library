@@ -5,6 +5,7 @@ slug: cisco-c9800-40-k9
 part_number: C9800-40-K9
 u_height: 1
 is_full_depth: false
+comments: '[Cisco Catalyst 9800-40 Wireless Controller Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/nb-06-cat9800-80-wirel-mod-data-sheet-ctp-en.html)'
 console-ports:
   - name: console
     type: rj-45
@@ -14,21 +15,24 @@ interfaces:
   - name: Management Port
     type: 1000base-t
     mgmt_only: true
-  - name: Redundancy Port
+  - name: Redundancy Ethernet Port
     type: 1000base-t
     mgmt_only: true
+  - name: Redundancy SFP Port
+    type: 1000base-x-sfp
+    mgmt_only: true
   - name: TenGigabitEthernet0/0/0
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/1
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/2
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/3
-    type: 10gbase-t
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 381
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 381
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PEM 0 Power Supply
+    label: Right Power Supply
+    position: '1'
+  - name: PEM 1 Power Supply
+    label: Left Power Supply
+    position: '2'
