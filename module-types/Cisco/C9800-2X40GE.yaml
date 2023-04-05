@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: C9800-2X40GE
+part_number: C9800-2X40GE
+comments: 'Optional modular 2-port 40GE uplink'
+interfaces:
+  - name: FortyGigabitEthernet{module}/0/1
+    type: 40gbase-x-qsfpp
+  - name: FortyGigabitEthernet{module}/0/2
+    type: 40gbase-x-qsfpp
