@@ -1,10 +1,21 @@
 ---
 manufacturer: Ubiquiti
-model: UAP pro
-slug: uap-pro
+model: UniFi Access Point Pro
 part_number: UAP-Pro
+slug: unifi-uap-pro
 u_height: 0
 is_full_depth: false
+air_flow: passive
+weight:
+  - value: 298
+    weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11n
+ 
