@@ -1,0 +1,88 @@
+---
+manufacturer: Cisco
+model: N540-28Z4C-SYS-D
+slug: cisco-n540-28z4c-sys-d
+part_number: N540-28Z4C-SYS-D
+is_full_depth: false
+u_height: 1
+comments: '[Cisco Network Convergence System 540 Medium Density Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/network-convergence-system-500-series-routers/datasheet-c78-740296.html)'
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 250
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 250
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB CON
+    type: usb-a
+interfaces:
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigE0/0/0/0
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/11
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/12
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/13
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/14
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/15
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/16
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/17
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/18
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/19
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/20
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/21
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/22
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/23
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/24
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/25
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/26
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/27
+    type: 10gbase-x-sfpp
+  - name: HundredGigE0/0/0/28
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/29
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/30
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/31
+    type: 100gbase-x-qsfp28

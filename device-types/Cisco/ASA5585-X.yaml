@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: ASA5585-X
-slug: asa5585-x
+slug: cisco-asa5585-x
 part_number: ASA5585-K9
 u_height: 1
 is_full_depth: true
@@ -23,31 +23,21 @@ interfaces:
     mgmt_only: true
   - name: GigabitEthernet0/0
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/1
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/2
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/3
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/4
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/5
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/6
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet0/7
     type: 1000base-t
-    mgmt_only: false
   - name: TenGigabitEthernet0/8
     type: 10gbase-x-sfpp
-    mgmt_only: false
   - name: TenGigabitEthernet0/9
     type: 10gbase-x-sfpp
-    mgmt_only: false

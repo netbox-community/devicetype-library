@@ -10,6 +10,20 @@
         "part_number": {
             "type": "string"
         },
+        "weight": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.01
+        },
+        "weight_unit": {
+            "type": "string",
+            "enum": [
+                "kg",
+                "g",
+                "lb",
+                "oz"
+            ]
+        },
         "console-ports": {
             "type": "array",
             "items": {

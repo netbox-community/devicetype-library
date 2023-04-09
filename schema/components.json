@@ -171,7 +171,9 @@
                         "usb-3-micro-b",
                         "dc-terminal",
                         "saf-d-grid",
-                        "hardwired"
+                        "ubiquiti-smartpower",
+                        "hardwired",
+                        "other"
                     ]
                 },
                 "maximum_draw": {
@@ -279,7 +281,9 @@
                         "dc-terminal",
                         "hdot-cx",
                         "saf-d-grid",
-                        "hardwired"
+                        "ubiquiti-smartpower",
+                        "hardwired",
+                        "other"
                     ]
                 },
                 "power_port": {
@@ -308,7 +312,10 @@
                         "virtual",
                         "bridge",
                         "lag",
+                        "100base-fx",
+                        "100base-lfx",
                         "100base-tx",
+                        "100base-t1",
                         "1000base-t",
                         "1000base-x-gbic",
                         "1000base-x-sfp",
@@ -371,6 +378,7 @@
                         "t3",
                         "e3",
                         "xdsl",
+                        "docsis",
                         "cisco-stackwise",
                         "cisco-stackwise-plus",
                         "cisco-flexstack",
@@ -384,7 +392,33 @@
                         "extreme-summitstack-128",
                         "extreme-summitstack-256",
                         "extreme-summitstack-512",
+                        "gpon",
+                        "xg-pon",
+                        "xgs-pon",
+                        "ng-pon2",
+                        "epon",
+                        "10g-epon",
                         "other"
+                    ]
+                },
+                "poe_mode": {
+                    "type": "string",
+                    "enum": [
+                        "pd",
+                        "pse"
+                    ]
+                },
+                "poe_type": {
+                    "type": "string",
+                    "enum": [
+                        "type1-ieee802.3af",
+                        "type2-ieee802.3at",
+                        "type3-ieee802.3bt",
+                        "type4-ieee802.3bt",
+                        "passive-24v-2pair",
+                        "passive-24v-4pair",
+                        "passive-48v-2pair",
+                        "passive-48v-4pair"
                     ]
                 },
                 "mgmt_only": {
@@ -441,7 +475,8 @@
                         "sma-906",
                         "urm-p2",
                         "urm-p4",
-                        "urm-p8"
+                        "urm-p8",
+                        "other"
                     ]
                 },
                 "color": {
