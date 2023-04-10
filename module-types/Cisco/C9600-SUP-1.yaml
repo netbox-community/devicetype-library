@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: C9600-SUP-1
+part_number: C9600-SUP-1
+comments: '[Cisco Catalyst 9600 Series Supervisor Engine Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9600-series-switches/nb-06-cat9600-ser-sup-eng-data-sheet-cte-en.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet{module}/0/0
+    type: 10gbase-x-sfpp
+    mgmt_only: true

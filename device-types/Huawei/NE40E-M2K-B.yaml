@@ -11,6 +11,7 @@ console-ports:
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-t
+    mgmt_only: true
   - name: GigabitEthernet0/3/4
     type: 10gbase-x-sfpp
   - name: GigabitEthernet0/3/5

@@ -1,7 +1,7 @@
 ---
 manufacturer: Ubiquiti
-model: UCK-G2
-slug: uck-g2
+model: Cloud Key Gen2
+slug: cloud-key-gen2
 part_number: uck-g2
 comments: |
   Unifi Cloud Key Generation 2
@@ -12,6 +12,8 @@ is_full_depth: false
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
     mgmt_only: true
 power-ports:
   - name: power1

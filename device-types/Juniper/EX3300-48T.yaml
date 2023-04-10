@@ -2,6 +2,7 @@
 manufacturer: Juniper
 model: EX3300-48T
 slug: ex3300-48t
+u_height: 1
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
@@ -99,13 +100,21 @@ interfaces:
     type: 1000base-t
   - name: ge-0/0/47
     type: 1000base-t
-  - name: xe-0/0/0
+  - name: ge-0/1/0
+    type: 1000base-x-sfp
+  - name: ge-0/1/1
+    type: 1000base-x-sfp
+  - name: ge-0/1/2
+    type: 1000base-x-sfp
+  - name: ge-0/1/3
+    type: 1000base-x-sfp
+  - name: xe-0/1/0
     type: 10gbase-x-sfpp
-  - name: xe-0/0/1
+  - name: xe-0/1/1
     type: 10gbase-x-sfpp
-  - name: xe-0/0/2
+  - name: xe-0/1/2
     type: 10gbase-x-sfpp
-  - name: xe-0/0/3
+  - name: xe-0/1/3
     type: 10gbase-x-sfpp
   - name: me0
     type: 1000base-t

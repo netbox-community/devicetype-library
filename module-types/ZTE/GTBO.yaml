@@ -1,0 +1,21 @@
+---
+manufacturer: ZTE
+model: GTBO
+comments: Provides GPON/XG-PON1 optical interface. GPON complies with ITU-T G.984.2, and XG-PON1 complies with ITU-T G.987.2.
+interfaces:
+  - name: gpon-olt_1/{module}/1
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/2
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/3
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/4
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/5
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/6
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/7
+    type: 10gbase-x-sfpp
+  - name: gpon-olt_1/{module}/8
+    type: 10gbase-x-sfpp

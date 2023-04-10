@@ -1,0 +1,76 @@
+---
+manufacturer: Cisco
+model: ASR-920-24SZ
+slug: cisco-asr-920-24sz
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: |
+  [Cisco ASR 920: High-Port-Density Models Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-733397.html)
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/20
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/21
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/22
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/23
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet0/0/24
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/25
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/26
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/27
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PS0
+    label: Power Supply 0
+    position: PS0
+  - name: PS1
+    label: Power Supply 1
+    position: PS1

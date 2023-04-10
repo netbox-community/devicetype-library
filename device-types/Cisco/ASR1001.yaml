@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: ASR1001
+slug: cisco-asr1001
+part_number: ASR1001
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Aux0
+    type: rj-45
+  - name: Con0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true

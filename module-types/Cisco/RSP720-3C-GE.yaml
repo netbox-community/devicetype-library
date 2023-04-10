@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: RSP720-3C-GE
+part_number: RSP720-3C-GE
+console-ports:
+  - name: console{module}
+    type: rj-45
+interfaces:
+  - name: Gi{module}/1
+    type: 1000base-x-sfp
+  - name: Gi{module}/2
+    type: 1000base-x-sfp
