@@ -1,0 +1,39 @@
+---
+manufacturer: Palo Alto
+model: PA-460
+slug: pa-460
+part_number: PA-460
+u_height: 1
+is_full_depth: false
+comments: '[Palo Alto Networks PA-400 series ML-Powered NGFW](https://www.paloaltonetworks.com/resources/datasheets/pa-400-series)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 41
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-c
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: loopback
+    type: virtual
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
