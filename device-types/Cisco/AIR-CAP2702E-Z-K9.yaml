@@ -5,6 +5,16 @@ slug: cisco-air-cap2702e-z-k9
 part_number: AIR-CAP2702E-Z-K9
 u_height: 0
 is_full_depth: false
+console-ports:
+  - name: con0
+    type: rj-45
 interfaces:
   - name: WiFi
     type: ieee802.11n
+  - name: poe
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: PS1
+    type: dc-terminal
