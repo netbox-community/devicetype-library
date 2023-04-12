@@ -1,0 +1,38 @@
+---
+manufacturer: QNAP
+model: TS-EC1280U
+slug: qnap-ts-ec1280u
+part_number: TS-EC1280U
+u_height: 2
+airflow: front-to-rear
+is_full_depth: true
+subdevice_role: parent
+device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  - name: Disk 5
+  - name: Disk 6
+  - name: Disk 7
+  - name: Disk 8
+  - name: Disk 9
+  - name: Disk 10
+  - name: Disk 11
+  - name: Disk 12
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 400
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 400
+interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 1000base-t
+  - name: Adapter 4
+    type: 1000base-t
