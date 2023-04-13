@@ -1,0 +1,48 @@
+---
+manufacturer: Palo Alto
+model: PA-5450
+slug: pa-5450
+part_number: PA-5450
+u_height: 5.0
+is_full_depth: true
+subdevice_role: ''
+airflow: front-to-rear
+comments: ''
+console-ports:
+- name: console port (Micro USB)
+  type: usb-micro-a
+  label: CONSOLE
+  description: ''
+- name: console port (RJ-45)
+  type: rj-45
+  label: CONSOLE
+  description: ''
+module-bays:
+- name: PAN-PA-5400-DPC-A-1
+  label: DPC1
+  position: Slot 3
+  description: Data Processor Cards (DPC)
+- name: PAN-PA-5400-DPC-A-2
+  label: DPC2
+  position: Slot 4
+  description: Networking Cards (NC)
+- name: PAN-PA-5400-DPC-A-3
+  label: DPC3
+  position: Slot 5
+  description: Networking Cards (NC)
+- name: PAN-PA-5400-DPC-A-4
+  label: DPC4
+  position: Slot 6
+  description: Networking Cards (NC)
+- name: PAN-PA-5400-MPC-A
+  label: MPC
+  position: Slot 7
+  description: Management Processor Card (MPC)
+- name: PAN-PA-5400-NC-A-1
+  label: NC1
+  position: Slot 1
+  description: Networking Cards (NC)
+- name: PAN-PA-5400-NC-A-2
+  label: NC2
+  position: Slot 2
+  description: Networking Cards (NC)
