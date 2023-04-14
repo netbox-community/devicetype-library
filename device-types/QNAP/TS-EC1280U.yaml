@@ -20,13 +20,15 @@ device-bays:
   - name: Disk 10
   - name: Disk 11
   - name: Disk 12
-power-ports:
+module-bays:
   - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 400
+    position: 1
   - name: PSU 2
-    type: iec-60320-c14
-    maximum_draw: 400
+    position: 2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
 interfaces:
   - name: Adapter 1
     type: 1000base-t
