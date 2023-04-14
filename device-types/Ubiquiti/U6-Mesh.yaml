@@ -8,9 +8,8 @@ is_full_depth: false
 comments: |
   [Access Point U6 Mesh](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)
 airflow: passive
-weight:
-  - value: 400
-    weight_unit: g
+weight: 400
+weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t

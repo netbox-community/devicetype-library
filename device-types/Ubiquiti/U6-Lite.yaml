@@ -8,9 +8,8 @@ is_full_depth: false
 comments: |
   [UniFi 6 Lite Access Point](https://store.ui.com/products/unifi-ap-6-lite)
 airflow: passive
-weight:
-  - value: 300
-    weight_unit: g
+weight: 300
+weight_unit: g
 interfaces:
   - name: lan0
     type: 1000base-t
