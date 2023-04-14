@@ -7,6 +7,7 @@ u_height: 2
 airflow: front-to-rear
 is_full_depth: true
 subdevice_role: parent
+comments: '[TS-EC1280U product page](https://www.qnap.com/en/product/ts-ec1280u)'
 device-bays:
   - name: Disk 1
   - name: Disk 2
@@ -22,9 +23,9 @@ device-bays:
   - name: Disk 12
 module-bays:
   - name: PSU 1
-    position: 1
+    position: '1'
   - name: PSU 2
-    position: 2
+    position: '2'
   - name: PCIe1
     position: PCIe1
   - name: PCIe2
