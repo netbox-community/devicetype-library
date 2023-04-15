@@ -6,6 +6,8 @@ part_number: EX4400-48MP
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
+weight: 13.01
+weight_unit: lb
 comments: '[Juniper EX4400 Hardware Guide](https://www.juniper.net/documentation/us/en/hardware/ex4400/topics/topic-map/ex4400-system-overview.html)'
 interfaces:
   - name: me0
@@ -116,10 +118,16 @@ console-ports:
     type: rj-45
   - name: Front Console
     type: usb-c
-power-ports:
+module-bays:
+  - name: Fan Module 0
+    weight: 0.26
+    weight_unit: lb
+  - name: Fan Module 1
+    weight: 0.26
+    weight_unit: lb
+  - name: Extension module
+    position: '2'
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 1600
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 1600
+    position: '1'
