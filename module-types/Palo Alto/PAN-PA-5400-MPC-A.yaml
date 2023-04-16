@@ -2,6 +2,10 @@
 manufacturer: Palo Alto
 model: PAN-PA-5400-MPC-A
 part_number: PAN-PA-5400-MPC-A
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+    label: CONSOLE
 interfaces:
   - name: HA1-A
     type: 10gbase-x-sfpp
@@ -29,3 +33,6 @@ interfaces:
     type: 10gbase-x-sfpp
     mgmt_only: true
     label: MGT-B
+  - name: USB
+    type: other
+    label: USB
