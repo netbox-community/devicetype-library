@@ -2,19 +2,12 @@
 manufacturer: Palo Alto
 model: PA-5450
 slug: palo-alto-pa-5450
-part_number: PA-5450
+part_number: PAN-PA-5450-AC-SYS
 u_height: 5.0
 is_full_depth: true
 airflow: front-to-rear
 weight: 97
 weight_unit: lb
-console-ports:
-  - name: console port (Micro USB)
-    type: usb-micro-a
-    label: CONSOLE
-  - name: console port (RJ-45)
-    type: rj-45
-    label: CONSOLE
 module-bays:
   - name: PAN-PA-5400-DPC-A-1
     label: DPC1
@@ -44,3 +37,19 @@ module-bays:
     label: NC2
     position: Slot 2
     description: Networking Cards (NC)
+  - name: PAN-PWR-2200W-AC-1
+    label: PS1
+    position: '1'
+    description: Power Supply (PS)
+  - name: PAN-PWR-2200W-AC-2
+    label: PS2
+    position: '2'
+    description: Power Supply (PS)
+  - name: PAN-PWR-2200W-AC-3
+    label: PS3
+    position: '3'
+    description: Power Supply (PS)
+  - name: PAN-PWR-2200W-AC-4
+    label: PS4
+    position: '4'
+    description: Power Supply (PS)
