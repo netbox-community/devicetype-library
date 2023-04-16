@@ -1,0 +1,192 @@
+---
+manufacturer: Extreme Networks
+model: 5420F-48T-4XE
+slug: 5420f-48t-4xe
+part_number: 5420F-48T-4XE
+comments: 5420 Universal Switch with 48 x 10/100/1000BASE-T full/half duplex ports, includes 4 x 1/10Gb SFP+ uplink ports, 2 x Stacking/SFP-DD ports, 1
+  internal fixed PSU, one unpopulated PSU slot, fixed fan module, Base software license, includes 1-year XIQ Pilot subscription
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Console_RJ45
+    type: rj-45
+  - name: Console_USB
+    type: usb-micro-b
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '2'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '3'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '4'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '5'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '6'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '7'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '8'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '9'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '10'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '11'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '12'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '13'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '14'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '15'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '16'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '17'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '18'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '19'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '20'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '21'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '22'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '23'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '24'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '25'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '26'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '27'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '28'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '29'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '30'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '31'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '32'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '33'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '34'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '35'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '36'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '37'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '38'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '39'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '40'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '41'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '42'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '43'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '44'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '45'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '46'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '47'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '48'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '49'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '50'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '51'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '52'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '53'
+    type: other
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+
+  - name: '54'
+    type: other
+    mgmt_only: false
+    description: either Stacking-Ports or additional SFP+
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: PSU-2
+power-ports:
+  - name: Internal
+    type: iec-60320-c14
+    maximum_draw: 120
+  - name: Redundant
+    type: iec-60320-c14
+    maximum_draw: 150
