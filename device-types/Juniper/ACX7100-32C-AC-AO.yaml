@@ -1,10 +1,11 @@
 ---
 manufacturer: Juniper
-model: ACX7100-32C
-slug: juniper-acx7100-32c
+model: ACX7100-32C-AC-AO
+slug: juniper-acx7100-32c-ac-ao
 u_height: 1
-weight: 28
+weight: 22.24
 weight_unit: lb
+airflow: front-to-rear
 comments: '[Juniper ACX7100-32C Hardware Guide](https://www.juniper.net/documentation/us/en/hardware/acx7100-32C/topics/topic-map/acx7100-32C-system-overview.html)'
 console-ports:
   - name: Console
@@ -89,9 +90,11 @@ module-bays:
   - name: PSM 0
     # Comment: Power Supply Module 0
     maximum_draw: 1600
+    position: 0
   - name: PSM 1
     # Comment: Power Supply Module 1
     maximum_draw: 1600
+    position: 1
   - name: Fan Module 0
   - name: Fan Module 1
   - name: Fan Module 2
