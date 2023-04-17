@@ -31,6 +31,6 @@ interfaces:
   - name: GigabitEthernet4
     type: 2.5gbase-t
 power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 110
+  - name: DC-IN
+    type: dc-terminal
+    maximum_draw: 85

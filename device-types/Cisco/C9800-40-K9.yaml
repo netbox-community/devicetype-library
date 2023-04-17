@@ -30,9 +30,9 @@ interfaces:
   - name: TenGigabitEthernet0/0/3
     type: 10gbase-x-sfpp
 module-bays:
-  - name: PEM 0 Power Supply
+  - name: PEM 0
     label: Right Power Supply
-    position: '1'
-  - name: PEM 1 Power Supply
+    position: '0'
+  - name: PEM 1
     label: Left Power Supply
-    position: '2'
+    position: '1'
