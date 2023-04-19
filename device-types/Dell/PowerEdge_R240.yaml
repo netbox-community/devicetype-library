@@ -1,0 +1,26 @@
+---
+manufacturer: Dell
+model: PowerEdge R240
+slug: dell_poweredge_r240
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 12.2
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 450
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
