@@ -23,7 +23,7 @@ Each definition **must** include at minimum the following fields:
 - `model`: The model number of the device type. This must be unique per manufacturer.
   - Type: String
 - `slug`: A URL-friendly representation of the model number. Like the model number, this must be unique per
-  manufacturer.
+  manufacturer. All slugs should have the manufacturers name appended to it with a dash, please see the example below.
   - Type: String
   - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
 
