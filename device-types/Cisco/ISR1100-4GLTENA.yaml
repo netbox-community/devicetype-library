@@ -16,13 +16,13 @@ interfaces:
     type: 1000base-t
   - name: Cellular0/1/0
     type: lte
-  - name: Cellular0/1/1
-    type: lte
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
     type: usb-a
+  - name: usb
+    type: usb-c
 power-ports:
   - name: PSU0
     maximum_draw: 30
