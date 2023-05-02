@@ -1,12 +1,12 @@
 ---
 manufacturer: HPE
-model: FlexNetwork 3600 24 PoE+ v2 SI
-slug: hpe-flexnetwork-3600-24-poep-v2-si
-part_number: JG306C
+model: FlexNetwork 3600 24 v2 SI
+slug: hpe-flexnetwork-3600-24-v2-si
+part_number: JG304B
 u_height: 1
 is_full_depth: false
 comments: '[HPE 3600 SI Switch Series - Specifications](https://www.hpe.com/psnow/doc/c04111590?jumpid=in_lit-psnow-red)'
-weight: 10
+weight: 5
 weight_unit: kg
 console-ports:
   - name: Console
@@ -14,7 +14,7 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 795
+    maximum_draw: 26
 interfaces:
   - name: Ethernet1/0/1
     type: 100base-tx
