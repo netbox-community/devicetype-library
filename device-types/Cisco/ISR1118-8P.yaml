@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: ISR 1118-8P
+model: ISR C1118-8P
 part_number: C1118-8P
-slug: cisco-isr1118
+slug: cisco-isr-c1118-8p
 u_height: 1
 is_full_depth: false
 interfaces:
@@ -33,5 +33,5 @@ console-ports:
     type: usb-micro-b
 power-ports:
   - name: PSU0
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 150
