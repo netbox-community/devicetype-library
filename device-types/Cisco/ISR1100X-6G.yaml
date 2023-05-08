@@ -6,6 +6,8 @@ slug: cisco-isr1100x-6g
 comments: '[Cisco ISR1100 and ISR1100X Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-742893.html)'
 u_height: 1
 is_full_depth: false
+weight: 2.67
+weight_unit: lb
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
@@ -26,7 +28,5 @@ console-ports:
     type: usb-a
 power-ports:
   - name: PSU0
-    type: other
+    type: dc-terminal
     maximum_draw: 30
-weight: 1.22
-weight_unit: kg
