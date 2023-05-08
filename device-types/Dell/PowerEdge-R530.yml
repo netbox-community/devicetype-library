@@ -1,13 +1,16 @@
 ---
 manufacturer: Dell
-model: DR4100
-slug: dell-dr4100
+model: PowerEdge R530
+slug: dell-poweredge-r530
 u_height: 2
 is_full_depth: true
+subdevice_role: parent
 console-ports:
   - name: Serial
     type: de-9
-  - name: VGA
+  - name: Rear VGA
+    type: other
+  - name: Front VGA
     type: other
 power-ports:
   - name: Power 1
@@ -15,13 +18,13 @@ power-ports:
   - name: Power 2
     type: iec-60320-c14
 interfaces:
-  - name: NIC.Integrated.1-1-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-2-1
-    type: 10gbase-t
-  - name: NIC.Integrated.1-3-1
+  - name: Gig-E 1
     type: 1000base-t
-  - name: NIC.Integrated.1-4-1
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
     type: 1000base-t
   - name: iDRAC
     type: 1000base-t
