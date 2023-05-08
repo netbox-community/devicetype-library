@@ -5,7 +5,8 @@ slug: dm4615_olt_16gpon-4gt-4xs
 part_number: 800.5198.xx
 u_height: 1.0
 is_full_depth: true
-comments: GPON OLT for installation in a 19" rack, containing 16 GPON interfaces, 4 electrical GE RJ45 interfaces and 4 10GE/GE SFP+ interfaces. Removable ventilation system and two slots for redundant and hot swappable AC or DC power supplies.
+comments: GPON OLT for installation in a 19" rack, containing 16 GPON interfaces, 4 electrical GE RJ45 interfaces and 4 10GE/GE SFP+ interfaces. Removable
+  ventilation system and two slots for redundant and hot swappable AC or DC power supplies.
 console-ports:
   - name: Console0
     type: rj-45
@@ -14,7 +15,7 @@ console-ports:
 console-server-ports:
   - name: Alarmes
     type: rj-45
-    description: '2 inputs and 1 output'
+    description: 2 inputs and 1 output
   - name: Storage
     type: usb-a
 interfaces:
