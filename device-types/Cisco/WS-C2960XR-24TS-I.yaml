@@ -1,6 +1,6 @@
 ---
 manufacturer: Cisco
-model: Catalyst 2960XR-48TS-I
+model: Catalyst 2960XR-24TS-I
 slug: cisco-ws-c2960xr-24ts-i
 part_number: WS-C2960XR-24TS-I
 is_full_depth: false
@@ -11,10 +11,10 @@ console-ports:
   - name: con 0
     type: rj-45
 module-bays:
-  - name: PSU1
-    position: 1A
-  - name: PSU2
-    position: 1B
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
 interfaces:
   - name: FastEthernet0
     type: 100base-tx
