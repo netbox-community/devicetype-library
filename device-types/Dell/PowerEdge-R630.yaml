@@ -4,6 +4,7 @@ model: PowerEdge R630
 slug: dell-poweredge-r630
 u_height: 1
 is_full_depth: true
+subdevice_role: parent
 console-ports:
   - name: Serial
     type: de-9
@@ -26,3 +27,7 @@ interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+device-bays:
+  - name: Riser PCIe-Gen3 1
+  - name: Riser PCIe-Gen3 2
+  - name: Riser PCIe-Gen3 3
