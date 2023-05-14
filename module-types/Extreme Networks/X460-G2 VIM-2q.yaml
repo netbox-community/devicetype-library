@@ -1,0 +1,12 @@
+---
+manufacturer: Extreme Networks
+model: X460-G2 VIM-2q
+part_number: '16710'
+comments: Optional Virtual Interface Module for the rear of the X460-G2 providing 2 40GBASE-X ports unpopulated QSFP+
+weight: 260
+weight_unit: g
+interfaces:
+  - name: '{module}/1'
+    type: 40gbase-x-qsfpp
+  - name: '{module}/2'
+    type: 40gbase-x-qsfpp

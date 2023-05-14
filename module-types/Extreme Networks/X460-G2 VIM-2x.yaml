@@ -1,0 +1,12 @@
+---
+manufacturer: Extreme Networks
+model: X460-G2 VIM-2x
+part_number: '16711'
+comments: Optional Virtual Interface Module for the rear of the X460-G2 providing 2 1000/10GBASE-X ports unpopulated SFP+
+weight: 260
+weight_unit: g
+interfaces:
+  - name: '{module}/1'
+    type: 10gbase-x-sfpp
+  - name: '{module}/2'
+    type: 10gbase-x-sfpp
