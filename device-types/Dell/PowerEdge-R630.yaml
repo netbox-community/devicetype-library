@@ -9,16 +9,17 @@ console-ports:
     type: de-9
   - name: VGA
     type: other
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
 interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: PSU-1
+    label: '⚡1'
+    position: PSU-1
+  - name: PSU-2
+    label: '⚡2'
+    position: PSU-2
   - name: Network Daughter Card slot 1
     position: NDC-1
   - name: Riser PCIe-Gen3 1
