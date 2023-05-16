@@ -1,0 +1,33 @@
+---
+manufacturer: Leviton
+model: FM-A012CAC0BE
+comments: SDX Enterprise Cassette, (0.90dB), 12-fiber OS2, LC to 1x12-fiber MTP, Method B (Edge) Polarity, white plungers
+front-ports:
+  - name: '{module}:1'
+    type: lc
+    rear_port: '{module}:MTP1'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: lc
+    rear_port: '{module}:MTP1'
+    rear_port_position: 2
+  - name: '{module}:3'
+    type: lc
+    rear_port: '{module}:MTP1'
+    rear_port_position: 3
+  - name: '{module}:4'
+    type: lc
+    rear_port: '{module}:MTP1'
+    rear_port_position: 4
+  - name: '{module}:5'
+    type: lc
+    rear_port: '{module}:MTP1'
+    rear_port_position: 5
+  - name: '{module}:6'
+    type: lc
+    rear_port: '{module}:MTP1'
+    rear_port_position: 6
+rear-ports:
+  - name: '{module}:MTP1'
+    type: mpo
+    positions: 12

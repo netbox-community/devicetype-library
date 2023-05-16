@@ -1,0 +1,16 @@
+---
+manufacturer: APC
+model: AP9641
+part_number: AP9641
+comments: UPS Network Management Card 3 with Environmental Monitoring
+console-ports:
+  - name: USB Micro [{module}]
+    type: usb-micro-b
+interfaces:
+  - name: Network [{module}]
+    type: 1000base-t
+    mgmt_only: true
+  - name: Universal I/O 1 (RJ-45) [{module}]
+    type: other
+  - name: Universal I/O 2 (RJ-45) [{module}]
+    type: other

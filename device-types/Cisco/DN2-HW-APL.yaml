@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: DN2-HW-APL
-slug: dn2-hw-apl
+slug: cisco-dn2-hw-apl
 part_number: DN2-HW-APL
 u_height: 1
 is_full_depth: true
@@ -21,7 +21,6 @@ interfaces:
     mgmt_only: true
   - name: eno2
     type: 10gbase-t
-    mgmt_only: false
   - name: enp94s0f0
     type: 10gbase-t
     mgmt_only: true

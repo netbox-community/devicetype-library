@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: UCS-C220-M5SX
-slug: ucs-c220-m5sx
+slug: cisco-ucs-c220-m5sx
 part_number: UCSC-C220-M5SX
 u_height: 1
 is_full_depth: true
@@ -18,10 +18,8 @@ power-ports:
 interfaces:
   - name: enp94s0f0
     type: 10gbase-t
-    mgmt_only: false
   - name: enp94s0f1
     type: 10gbase-t
-    mgmt_only: false
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
