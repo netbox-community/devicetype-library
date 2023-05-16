@@ -1,7 +1,8 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 5018D-MTF
-slug: supermicro-sys-5018d-mtf
+slug: supermicro-superserver-5018d-mtf
+part_number: SYS-5018D-MTF
 u_height: 1
 is_full_depth: true
 weight: 13.8
@@ -10,8 +11,6 @@ airflow: front-to-rear
 console-ports:
   - name: Serial
     type: de-9
-  - name: VGA
-    type: other
 power-ports:
   - name: Power 1
     type: iec-60320-c14
