@@ -1,0 +1,51 @@
+---
+manufacturer: F5
+model: BIG-IP 3900
+slug: f5-big-ip-3900
+part_number: '3900'
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: de-9
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+  - name: Failover
+    type: de-9
+power-ports:
+  - name: psu1
+    type: iec-60320-c14
+    maximum_draw: 240
+  - name: psu2
+    type: iec-60320-c14
+    maximum_draw: 240
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1.1'
+    type: 1000base-t
+  - name: '1.2'
+    type: 1000base-t
+  - name: '1.3'
+    type: 1000base-t
+  - name: '1.4'
+    type: 1000base-t
+  - name: '1.5'
+    type: 1000base-t
+  - name: '1.6'
+    type: 1000base-t
+  - name: '1.7'
+    type: 1000base-t
+  - name: '1.8'
+    type: 1000base-t
+  - name: '2.1'
+    type: 1000base-x-sfp
+  - name: '2.2'
+    type: 1000base-x-sfp
+  - name: '2.3'
+    type: 1000base-x-sfp
+  - name: '2.4'
+    type: 1000base-x-sfp
