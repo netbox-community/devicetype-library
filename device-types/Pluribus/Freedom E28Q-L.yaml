@@ -5,7 +5,7 @@ slug: freedom-e28q-l
 part_number: E28Q-L
 u_height: 2
 is_full_depth: true
-comments: '[Freedom E28Q-L Data Sheet](https://www.pluribusnetworks.com/assets/PluribusFreedomE28Q-LSwitchDatasheet8-17-1.pdf) |
+comments: '[Freedom E28Q-L Data Sheet](https://www.pluribusnetworks.com/assets/PluribusFreedomE28Q-LSwitchDatasheet8-17-1.pdf)|
 [Hardware Installation Guide](https://www.pluribusnetworks.com/assets/PN-HIG-E28Q.pdf)'
 console-ports:
   - name: Console
@@ -101,11 +101,11 @@ interfaces:
     type: 10gbase-x-sfpp
     label: '13..16'
     description: 'Breakout child for port 13'
-  - name: 14-10GbE
+  - name: 15-10GbE
     type: 10gbase-x-sfpp
     label: '13..16'
     description: 'Breakout child for port 13'
-  - name: 15-10GbE
+  - name: 16-10GbE
     type: 10gbase-x-sfpp
     label: '13..16'
     description: 'Breakout child for port 13'
@@ -154,15 +154,15 @@ interfaces:
     type: 10gbase-x-sfpp
     label: '25..28'
     description: 'Breakout child for port 25'
-  - name: 25-10GbE
+  - name: 26-10GbE
     type: 10gbase-x-sfpp
     label: '25..28'
     description: 'Breakout child for port 25'
-  - name: 25-10GbE
+  - name: 27-10GbE
     type: 10gbase-x-sfpp
     label: '25..28'
     description: 'Breakout child for port 25'
-  - name: 25-10GbE
+  - name: 28-10GbE
     type: 10gbase-x-sfpp
     label: '25..28'
     description: 'Breakout child for port 25'
@@ -173,15 +173,15 @@ interfaces:
     type: 10gbase-x-sfpp
     label: '29..32'
     description: 'Breakout child for port 29'
-  - name: 29-10GbE
+  - name: 30-10GbE
     type: 10gbase-x-sfpp
     label: '29..32'
     description: 'Breakout child for port 29'
-  - name: 29-10GbE
+  - name: 31-10GbE
     type: 10gbase-x-sfpp
     label: '29..32'
     description: 'Breakout child for port 29'
-  - name: 29-10GbE
+  - name: 32-10GbE
     type: 10gbase-x-sfpp
     label: '29..32'
     description: 'Breakout child for port 29'
@@ -200,7 +200,7 @@ interfaces:
     type: 10gbase-x-sfpp
     label: '33..36'
     description: 'Breakout child for port 33'
-  - name: 35-10GbE
+  - name: 36-10GbE
     type: 10gbase-x-sfpp
     label: '33..36'
     description: 'Breakout child for port 33'
