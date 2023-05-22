@@ -1,11 +1,11 @@
 ---
 manufacturer: HPE
-model: ProCurve 2610-48
-slug: hpe-procurve-2610-48
-part_number: J9088A
+model: ProCurve 2610-24
+slug: hpe-procurve-2610-24
+part_number: J9085A
 u_height: 1
 is_full_depth: false
-weight: 4.88
+weight: 4.63
 weight_unit: kg
 comments: '[HP Switch 2610 Series](https://www.hpe.com/psnow/doc/c04111724.pdf?jumpid=in_lit-psnow-getpdf)'
 console-ports:
@@ -14,7 +14,7 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 66
+    maximum_draw: 41
 interfaces:
   - name: '1'
     type: 100base-tx
@@ -65,54 +65,6 @@ interfaces:
   - name: '24'
     type: 100base-tx
   - name: '25'
-    type: 100base-tx
-  - name: '26'
-    type: 100base-tx
-  - name: '27'
-    type: 100base-tx
-  - name: '28'
-    type: 100base-tx
-  - name: '29'
-    type: 100base-tx
-  - name: '30'
-    type: 100base-tx
-  - name: '31'
-    type: 100base-tx
-  - name: '32'
-    type: 100base-tx
-  - name: '33'
-    type: 100base-tx
-  - name: '34'
-    type: 100base-tx
-  - name: '35'
-    type: 100base-tx
-  - name: '36'
-    type: 100base-tx
-  - name: '37'
-    type: 100base-tx
-  - name: '38'
-    type: 100base-tx
-  - name: '39'
-    type: 100base-tx
-  - name: '40'
-    type: 100base-tx
-  - name: '41'
-    type: 100base-tx
-  - name: '42'
-    type: 100base-tx
-  - name: '43'
-    type: 100base-tx
-  - name: '44'
-    type: 100base-tx
-  - name: '45'
-    type: 100base-tx
-  - name: '46'
-    type: 100base-tx
-  - name: '47'
-    type: 100base-tx
-  - name: '48'
-    type: 100base-tx
-  - name: '49'
     type: 1000base-t
-  - name: '50'
+  - name: '26'
     type: 1000base-t

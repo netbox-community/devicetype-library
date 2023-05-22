@@ -1,20 +1,20 @@
 ---
 manufacturer: HPE
-model: ProCurve 2610-48
-slug: hpe-procurve-2610-48
-part_number: J9088A
+model: Aruba 2620-48
+slug: hpe-aruba-2620-48
+part_number: J9626A
 u_height: 1
 is_full_depth: false
-weight: 4.88
+weight: 2.94
 weight_unit: kg
-comments: '[HP Switch 2610 Series](https://www.hpe.com/psnow/doc/c04111724.pdf?jumpid=in_lit-psnow-getpdf)'
+comments: '[HPE Aruba 2620 Switch Series](https://www.hpe.com/psnow/doc/c04111491.pdf?jumpid=in_lit-psnow-getpdf)'
 console-ports:
-  - name: Console
+  - name: console
     type: rj-45
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 66
+    maximum_draw: 44
 interfaces:
   - name: '1'
     type: 100base-tx
@@ -116,3 +116,8 @@ interfaces:
     type: 1000base-t
   - name: '50'
     type: 1000base-t
+# slots:
+  - name: '51'
+    type: 1000base-x-sfp
+  - name: '52'
+    type: 1000base-x-sfp

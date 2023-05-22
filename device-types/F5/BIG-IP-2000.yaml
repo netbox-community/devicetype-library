@@ -15,8 +15,6 @@ console-ports:
     type: usb-a
   - name: usb2
     type: usb-a
-  - name: Failover
-    type: rj-45
 module-bays:
   - name: PSU1
     position: '1'
@@ -46,3 +44,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: '2.2'
     type: 10gbase-x-sfpp
+  - name: Failover
+    type: 1000base-t
+    mgmt_only: true
