@@ -1,0 +1,20 @@
+---
+manufacturer: Dell
+model: Unity XT 880F
+slug: dell-unity-xt-880f
+part_number: 100-538-040-030
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+interfaces:
+  - name: SP-A ETH0
+    type: 1000base-t
+    mgmt_only: true
+  - name: SP-B ETH0
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14

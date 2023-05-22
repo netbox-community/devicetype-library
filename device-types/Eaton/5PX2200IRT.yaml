@@ -1,0 +1,38 @@
+---
+manufacturer: Eaton
+model: 5PX2200IRT
+slug: eaton-5px2200irt
+part_number: 920-7374-00P
+u_height: 2
+is_full_depth: true
+comments: Eaton 5PX UPS, 2200 VA, 1980 W, Input C20, Outputs 8 C13, 1 C19, Rack/tower 2U [Product Page](https://www.eaton.com/us/en-us/skuPage.5PX2200IRT.html)
+weight: 28.5
+weight_unit: kg
+power-ports:
+  - name: Input Power
+    type: iec-60320-c20
+    maximum_draw: 1980
+power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+  - name: Power Outlet 2
+    type: iec-60320-c13
+  - name: Power Outlet 3
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
+  - name: Power Outlet C19
+    type: iec-60320-c19
+console-ports:
+  - name: USB
+    type: usb-b
+  - name: RS232
+    type: rj-45
