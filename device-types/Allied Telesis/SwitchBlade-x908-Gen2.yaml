@@ -1,0 +1,44 @@
+---
+manufacturer: Allied Telesis
+model: SwitchBlade x908 Gen2
+slug: allied-telesis-switchblade-x908-gen2
+part_number: AT-SBx908GEN2
+u_height: 3
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU Slot A
+    position: A
+    label: PSU 1
+  - name: PSU Slot B
+    position: B
+    label: PSU 2
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+inventory-items:
+  - name: Fan-Module A
+    manufacturer: Allied Telesis
+    part_id: AT-FAN08
+  - name: Fan-Module B
+    manufacturer: Allied Telesis
+    part_id: AT-FAN08
