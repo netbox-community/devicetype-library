@@ -1,0 +1,25 @@
+---
+manufacturer: Supermicro
+model: SuperServer 5018D-MTF
+slug: supermicro-superserver-5018d-mtf
+part_number: SYS-5018D-MTF
+u_height: 1
+is_full_depth: true
+weight: 13.8
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 350
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
