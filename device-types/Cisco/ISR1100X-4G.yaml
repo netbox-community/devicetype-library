@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: ISR 100X-4G
+part_number: ISR1100X-4G
+slug: cisco-isr1100x-4g
+comments: '[Cisco ISR1100 and ISR1100X Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-742893.html)'
+u_height: 1
+is_full_depth: false
+weight: 2.67
+weight_unit: lb
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 30
