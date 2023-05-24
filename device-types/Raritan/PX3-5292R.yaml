@@ -1,0 +1,58 @@
+---
+manufacturer: Raritan
+model: PX3-5292R
+slug: px3-5292r
+part_number: PX3-5292R
+u_height: 1
+is_full_depth: false
+comments: Rack PDU, Metered, Remote Switching, 7.4kVA, 230V, (12) C13
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Inlet I1
+    type: iec-60309-2p-e-6h
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Inlet I1
+  - name: Outlet 12
+    type: iec-60320-c13
+    power_port: Inlet I1
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth2
+    type: 100base-tx
+    mgmt_only: true
