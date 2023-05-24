@@ -16,11 +16,11 @@ console-ports:
 #     type: usb-mini-b
 module-bays:
   - name: port expansion module slot1
-    type: slot1
+    position: '1'
   - name: PSU1
-    position: PSU1
+    position: '1'
   - name: PSU2
-    position: PSU2
+    position: '2'
 interfaces:
   - name: M-GigabitEthernet1/0/0
     type: 1000base-t
