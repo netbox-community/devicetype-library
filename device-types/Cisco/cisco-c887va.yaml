@@ -1,0 +1,26 @@
+---
+manufacturer: Cisco
+model: C887VA
+part_number: C887VA-K9
+slug: cisco-c887va
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: con 0
+    type: rj-45
+    mgmt_only: true
+interfaces:
+  - name: Ethernet0
+    type: 100base-tx
+  - name: FastEthernet0
+    type: 100base-tx
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+power-ports:
+  - name: PSU0
+    type: iec-60320-c6
+    maximum_draw: 125
