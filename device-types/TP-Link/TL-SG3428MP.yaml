@@ -1,0 +1,134 @@
+---
+manufacturer: TP-Link
+model: TL-SG3428MP
+slug: tp-link-tl-sg3428mp
+part_number: TL-SG3428MP
+u_height: 1.0
+is_full_depth: false
+comments: |-
+  [TP-Link SG3428MP Datasheet (V1-V2,V4-V5)](https://www.tp-link.com/us/business-networking/managed-switch/tl-sg3428mp/#specifications)   
+  [TP-Link SG3428MP Datasheet (V3)](https://www.tp-link.com/uk/business-networking/managed-switch/tl-sg3428mp/#specifications)  
+    
+  MAC Address Table  
+  V1: 8K  
+  V2-V5: 16K  
+    
+  Max Power Consumption   
+  V1: 463.8 W (110 V/60 Hz) (with 384 W PD connected); 31.0 W (110 V/60 Hz) (no PD connected)  
+  V2: 465.8 W (110 V/60 Hz) (with 384 W PD connected); 34.4 W (110 V/60 Hz) (no PD connected)  
+  V3: 442.1 W (220 V/50 Hz) (with 384 W PD connected)  
+  V4: 460.8 W (110 V/60 Hz) (with 384 W PD connected)  
+  V5: 456.4 W (110 V/60 Hz) (with 384 W PD connected)
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '5'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '6'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '7'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '8'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '9'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '10'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '11'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '12'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '13'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '14'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '15'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '16'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '17'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '18'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '19'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '20'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '21'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '22'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '23'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '24'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Serial
+    type: usb-micro-b
+power-ports:
+  - name: Power
+    type: iec-60320-c14
