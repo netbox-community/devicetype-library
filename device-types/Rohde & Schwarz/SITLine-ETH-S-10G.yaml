@@ -1,0 +1,29 @@
+---
+manufacturer: Rohde & Schwarz
+model: SITLine ETH-S 10G
+slug: rohde-and-schwarz-sitline-eth-s-10g
+part_number: 5414.6260.23
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: DC-Input-A
+    type: dc-terminal
+    maximum_draw: 20
+    allocated_draw: 20
+    label: DC-A
+  - name: DC-Input-B
+    type: dc-terminal
+    maximum_draw: 20
+    allocated_draw: 20
+    label: DC-B
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
