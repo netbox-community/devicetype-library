@@ -1,188 +1,120 @@
+---
 manufacturer: Raritan
 model: PX3-5496JV
 slug: px3-5496jv
-default_platform: null
 part_number: PX3-5496JV
-u_height: 0.0
+u_height: 0
 is_full_depth: false
-subdevice_role: ''
-airflow: ''
 comments: Rack PDU, Metered, Remote Switching, ZeroU, 6kVA, 200V, (24) C13
-weight: null
-weight_unit: ''
 console-ports:
 - name: Serial
   type: rj-45
-  label: ''
-  description: ''
 power-ports:
 - name: Intel1
   type: nema-l6-30p
-  maximum_draw: null
-  allocated_draw: null
-  label: ''
-  description: ''
 power-outlets:
 - name: Outlet1
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet2
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet3
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet4
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet5
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet6
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet7
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet8
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet9
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet10
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet11
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet12
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: A
-  label: ''
-  description: ''
 - name: Outlet13
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet14
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet15
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet16
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet17
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet18
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet19
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet20
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet21
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet22
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet23
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 - name: Outlet24
   type: iec-60320-c13
   power_port: Intel1
   feed_leg: B
-  label: ''
-  description: ''
 interfaces:
 - name: Eth1
   type: 1000base-t
   enabled: true
   mgmt_only: true
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
 - name: Eth2
   type: 100base-tx
   enabled: true
   mgmt_only: true
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
