@@ -1,0 +1,52 @@
+---
+manufacturer: MikroTik
+model: CCR2116-12G-4S+
+slug: mikrotik-ccr2116-12g-4s-plus
+part_number: CCR2116-12G-4S+
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: ether13
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 72
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 72
