@@ -7,7 +7,11 @@ u_height: 1
 is_full_depth: true
 console-ports:
   - name: Console
+    label: RJ-45 Console
     type: rj-45
+  - name: USB
+    label: USB Console
+    type: usb-micro-b
 power-ports:
   - name: PSU1
     type: iec-60320-c14
