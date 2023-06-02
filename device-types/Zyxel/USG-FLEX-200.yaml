@@ -1,0 +1,42 @@
+---
+manufacturer: Zyxel
+model: USG FLEX 200
+slug: zyxel-usg-flex-200
+u_height: 1.0
+is_full_depth: false
+comments: '[Zyxel USG FLEX 200 Firewall](https://www.zyxel.com/global/en/products/next-gen-firewall/usg-flex-firewall-usg-flex-200/license-and-spec)'
+console-ports:
+  - name: Console port
+    type: de-9
+power-ports:
+  - name: POWER
+    type: other
+    description: Wallwart to 12V DC, 2.5A max
+interfaces:
+  - name: P1
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: P2
+    type: 1000base-t
+    mgmt_only: false
+    label: WAN1
+  - name: P3
+    type: 1000base-t
+    mgmt_only: false
+    label: WAN2
+  - name: P4
+    type: 1000base-t
+    mgmt_only: false
+    label: LAN/DMZ
+  - name: P5
+    type: 1000base-t
+    mgmt_only: false
+    label: LAN/DMZ
+  - name: P6
+    type: 1000base-t
+    mgmt_only: false
+    label: LAN/DMZ
+  - name: P7
+    type: 1000base-t
+    mgmt_only: false
+    label: LAN/DMZ
