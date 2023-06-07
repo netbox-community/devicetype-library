@@ -16,12 +16,12 @@ console-ports:
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
-    maximum_draw: 119.6
-    allocated_draw: 55.9
+    maximum_draw: 120
+    allocated_draw: 56
   - name: PSU 2
     type: iec-60320-c14
-    maximum_draw: 119.6
-    allocated_draw: 55.9
+    maximum_draw: 120
+    allocated_draw: 56
 interfaces:
   - name: Ethernet 1
     type: 1000base-t
