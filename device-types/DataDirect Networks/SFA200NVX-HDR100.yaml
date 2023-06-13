@@ -1,7 +1,7 @@
 ---
 manufacturer: DataDirect Networks
 model: SFA200NVX-HDR100
-slug: sfa200nvx-hdr100
+slug: datadirect-networks-sfa200nvx-hdr100
 part_number: SFA200NVX-HDR100
 u_height: 2.0
 is_full_depth: true
@@ -23,53 +23,37 @@ power-ports:
 interfaces:
   - name: Controller0 BMC
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 ICL
     type: 10gbase-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 Mgmt 0
     type: 10gbase-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 Mgmt 1
     type: 10gbase-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 RP0 Port0
     type: infiniband-hdr
-    enabled: true
-    mgmt_only: false
     description: HDR100 or 100GbE
   - name: Controller0 RP0 Port1
     type: infiniband-hdr
-    enabled: true
-    mgmt_only: false
     description: HDR100 or 100GbE
   - name: Controller1 BMC
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 ICL
     type: 10gbase-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 Mgmt 0
     type: 10gbase-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 Mgmt 1
     type: 10gbase-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 RP0 Port0
     type: infiniband-hdr
-    enabled: true
-    mgmt_only: false
     description: HDR100 or 100GbE
   - name: Controller1 RP0 Port1
     type: infiniband-hdr
-    enabled: true
-    mgmt_only: false
     description: HDR100 or 100GbE

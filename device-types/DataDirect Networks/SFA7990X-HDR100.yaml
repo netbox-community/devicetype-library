@@ -1,7 +1,7 @@
 ---
 manufacturer: DataDirect Networks
 model: SFA7990X-HDR100
-slug: sfa7990x-hdr100
+slug: datadirect-networks-sfa7990x-hdr100
 part_number: SFA7990X-HDR100
 u_height: 4.0
 is_full_depth: true
@@ -25,41 +25,29 @@ power-ports:
 interfaces:
   - name: Controller0 BMC
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 ICL
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 Mgmt
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller0 RP0 Port0
     type: infiniband-hdr
-    enabled: true
     mgmt_only: false
   - name: Controller0 RP0 Port1
     type: infiniband-hdr
-    enabled: true
     mgmt_only: false
   - name: Controller1 BMC
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 ICL
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 Mgmt
     type: 1000base-t
-    enabled: true
     mgmt_only: true
   - name: Controller1 RP0 Port0
     type: infiniband-hdr
-    enabled: true
-    mgmt_only: false
   - name: Controller1 RP0 Port1
     type: infiniband-hdr
-    enabled: true
-    mgmt_only: false
