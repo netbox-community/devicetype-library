@@ -5,6 +5,9 @@ slug: dell-powerswitch-n2248x-on
 part_number: N2248X-ON
 u_height: 1
 is_full_depth: true
+weight: 6.9
+weight_unit: kg
+subdevice_role: parent
 console-ports:
   - name: Console
     label: RJ-45 Console
@@ -12,11 +15,13 @@ console-ports:
   - name: USB
     label: USB Console
     type: usb-micro-b
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-  - name: PSU2
-    type: iec-60320-c14
+module-bays:
+  - name: '1'
+    label: PSU Slot 1
+    position: '1'
+  - name: '2'
+    label: PSU Slot 2
+    position: '2'
 interfaces:
   - name: Gi1/0/1
     type: 2.5gbase-t
