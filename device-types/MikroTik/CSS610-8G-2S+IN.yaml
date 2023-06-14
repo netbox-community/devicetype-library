@@ -1,28 +1,45 @@
 ---
 manufacturer: MikroTik
-model: CSS610-8G-2S+
-slug: mikrotik-css610-8g-2s-plus
+model: CSS610-8G-2S+IN
+part_number: CSS610-8G-2S+IN
+slug: mikrotik-css610-8g-2s-in
 is_full_depth: false
 airflow: passive
 u_height: 1
+comments: '[Product Page](https://mikrotik.com/product/css610_8g_2s_in)'
 interfaces:
   - name: Port1
     type: 1000base-t
+    label: PoE in
   - name: Port2
     type: 1000base-t
+    label: 2
   - name: Port3
     type: 1000base-t
+    label: 3
   - name: Port4
     type: 1000base-t
+    label: 4
   - name: Port5
     type: 1000base-t
+    label: 5
   - name: Port6
     type: 1000base-t
+    label: 6
   - name: Port7
     type: 1000base-t
+    label: 7
   - name: Port8
     type: 1000base-t
+    label: 8
   - name: SFP1
     type: 10gbase-x-sfpp
+    label: SFP+ 1
   - name: SFP2
     type: 10gbase-x-sfpp
+    label: SFP+ 2
+power-ports:
+  - name: DC
+    label: DC 12-57V
+    type: dc-terminal
+    maximum_draw: 11
