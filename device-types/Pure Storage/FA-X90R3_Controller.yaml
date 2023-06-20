@@ -1,0 +1,66 @@
+---
+manufacturer: Pure Storage
+model: FA-X90R3 Controller
+slug: fa-x90r3-controller
+airflow: front-to-rear
+subdevice_role: child
+u_height: 0
+is_full_depth: true
+console-ports:
+  - name: SS 0
+    type: usb-b
+  - name: SS 1
+    type: usb-b
+interfaces:
+  - name: ETH 0
+    type: 1000base-t
+  - name: ETH 1
+    type: 1000base-t
+  - name: ETH 2
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: ETH 3
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: ETH 4
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: ETH 5
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 0/1
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 0/2
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 0/3
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 0/4
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 1/1
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 1/2
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 1/3
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: FC 1/4
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: SAS 0
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the controller to a disk shelf.
+  - name: SAS 1
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the controller to a disk shelf.
+  - name: SAS 2
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the controller to a disk shelf.
+  - name: SAS 3
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the controller to a disk shelf.

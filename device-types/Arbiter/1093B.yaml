@@ -1,0 +1,21 @@
+---
+manufacturer: Arbiter
+model: 1093B
+slug: 1093b
+airflow: front-to-rear
+u_height: 1
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+console-ports:
+  - name: RS-232
+    type: other
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Port 1
+    type: 100base-tx
+  - name: Port 2
+    type: 100base-tx
+  - name: Antenna
+    type: other

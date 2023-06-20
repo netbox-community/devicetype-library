@@ -1,0 +1,13 @@
+---
+manufacturer: NetApp
+model: FAS8300 Chassis
+slug: fas8300-chassis
+airflow: front-to-rear
+subdevice_role: parent
+u_height: 4
+is_full_depth: true
+device-bays:
+  - name: A
+    description: The bay located at the top half of the chassis.
+  - name: B
+    description: The bay located at the bottom half of the chassis.

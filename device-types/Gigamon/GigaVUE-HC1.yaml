@@ -1,0 +1,57 @@
+---
+manufacturer: Gigamon
+model: GigaVUE-HC1
+slug: gigavue-hc1
+airflow: front-to-rear
+u_height: 1
+power-ports:
+  - name: PWR 1
+    type: iec-60320-c14
+    description: Located on the right side of the chassis.
+  - name: PWR 2
+    type: iec-60320-c14
+    description: Located on the left side of the chassis.
+console-ports:
+  - name: USB
+    type: usb-b
+interfaces:
+  - name: Mgmt
+    type: 1000base-t
+  - name: Console
+    type: 1000base-t
+  - name: Stack
+    type: 1000base-t
+  - name: PTP
+    type: 1000base-t
+  - name: G1
+    type: 1000base-t
+  - name: G2
+    type: 1000base-t
+  - name: G3
+    type: 1000base-t
+  - name: G4
+    type: 1000base-t
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: X2
+    type: 10gbase-x-sfpp
+  - name: X3
+    type: 10gbase-x-sfpp
+  - name: X4
+    type: 10gbase-x-sfpp
+  - name: X5
+    type: 10gbase-x-sfpp
+  - name: X6
+    type: 10gbase-x-sfpp
+  - name: X7
+    type: 10gbase-x-sfpp
+  - name: X8
+    type: 10gbase-x-sfpp
+  - name: X9
+    type: 10gbase-x-sfpp
+  - name: X10
+    type: 10gbase-x-sfpp
+  - name: X11
+    type: 10gbase-x-sfpp
+  - name: X12
+    type: 10gbase-x-sfpp

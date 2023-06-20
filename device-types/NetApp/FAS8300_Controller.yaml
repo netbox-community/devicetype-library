@@ -1,0 +1,66 @@
+---
+manufacturer: NetApp
+model: FAS8300 Controller
+slug: fas8300-controller
+airflow: front-to-rear
+subdevice_role: child
+u_height: 0
+is_full_depth: true
+console-ports:
+  - name: USB-C
+    type: usb-c
+    description: Has a "IOIOI" icon pointing to it.
+  - name: USB-B
+    type: usb-b
+    description: A USB 3.0 port.
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    description: The power port located on the left.
+  - name: Power 2
+    type: iec-60320-c14
+    description: The power port located on the right.
+interfaces:
+  - name: Management
+    type: 1000base-t
+    description: Has a wrench icon next to it.
+    mgmt_only: true
+  - name: IOIOI
+    type: 1000base-t
+    description: Has a "IOIOI" icon pointing to it.
+  - name: 0a
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ Passive Direct Attach Copper Twinax cable is generally used here.
+  - name: 0b
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ Passive Direct Attach Copper Twinax cable is generally used here.
+  - name: 0c
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ Passive Direct Attach Copper Twinax cable is generally used here.
+  - name: 0d
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ Passive Direct Attach Copper Twinax cable is generally used here.
+  - name: e0a
+    type: 40gbase-x-qsfpp
+    description: A QSFP to QSFP External SAS cable is generally used here.
+  - name: e0b
+    type: 40gbase-x-qsfpp
+    description: A QSFP to QSFP External SAS cable is generally used here.
+  - name: e0c
+    type: 40gbase-x-qsfpp
+    description: A QSFP to QSFP External SAS cable is generally used here.
+  - name: e0d
+    type: 40gbase-x-qsfpp
+    description: A QSFP to QSFP External SAS cable is generally used here.
+  - name: e0e
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: e0f
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: e0g
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.
+  - name: e0h
+    type: 10gbase-x-sfpp
+    description: A 10G SFP+ module and a conventional fiber patch cable are generally used here.

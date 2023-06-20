@@ -1,0 +1,30 @@
+---
+manufacturer: ExaGrid
+model: EX84-SEC
+slug: ex84-sec
+part_number: 084TSN22
+u_height: 4.0
+is_full_depth: true
+airflow: front-to-rear
+power-ports:
+  - name: Power Supply (Bottom)
+    type: iec-60320-c14
+  - name: Power Supply (Top)
+    type: iec-60320-c14
+interfaces:
+  - name: Fiber (Bottom)
+    type: 10gbase-x-sfpp
+    description: Bottom port located in the NIC in the PCI slot second from the left as viewed from the rear.
+  - name: Fiber (Top)
+    type: 10gbase-x-sfpp
+    description: Top port located in the NIC in the PCI slot second from the left as viewed from the rear.
+  - name: NIC1
+    type: 1000base-t
+    description: Located in the bottom middle of the rear of the unit.
+  - name: NIC2
+    type: 1000base-t
+    description: Located in the bottom middle of the rear of the unit.
+  - name: Out-of-band Management
+    type: 1000base-t
+    mgmt_only: true
+    description: Furthest left NIC port on the chassis as viewed from the rear of the unit.

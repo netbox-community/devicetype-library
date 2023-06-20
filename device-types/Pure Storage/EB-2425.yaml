@@ -1,0 +1,39 @@
+---
+manufacturer: Pure Storage
+model: EB-2425
+slug: eb-2425
+airflow: front-to-rear
+u_height: 2
+is_full_depth: true
+power-ports:
+  - name: PS 0
+    type: iec-60320-c14
+    description: The power supply located on the left.
+  - name: PS 1
+    type: iec-60320-c14
+    description: The power supply located on the right.
+interfaces:
+  - name: Wrench (Top)
+    type: 1000base-t
+    mgmt_only: true
+  - name: Wrench (Bottom)
+    type: 1000base-t
+    mgmt_only: true
+  - name: SAS 0
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the disk shelf to a controller.
+  - name: SAS 1
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the disk shelf to a controller.
+  - name: SAS 2
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the disk shelf to a controller.
+  - name: SAS 3
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the disk shelf to a controller.
+  - name: SAS 4
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the disk shelf to a controller.
+  - name: SAS 5
+    type: 40gbase-x-qsfpp
+    description: This port is one that connects the disk shelf to a controller.

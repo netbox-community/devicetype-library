@@ -1,0 +1,25 @@
+---
+manufacturer: Pure Storage
+model: FA-X90R3 Chassis
+slug: fa-x90r3-chassis
+airflow: front-to-rear
+subdevice_role: parent
+u_height: 3
+is_full_depth: true
+console-ports:
+  - name: CT0
+    type: usb-b
+  - name: CT1
+    type: usb-b
+device-bays:
+  - name: CT 0
+    description: The controller bay located on the top.
+  - name: CT 1
+    description: The controller bay located on the bottom.
+power-ports:
+  - name: PS 0
+    type: iec-60320-c14
+    description: The power supply located on the top.
+  - name: PS 1
+    type: iec-60320-c14
+    description: The power supply located on the bottom.
