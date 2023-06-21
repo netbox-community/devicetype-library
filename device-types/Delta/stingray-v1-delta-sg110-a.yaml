@@ -1,0 +1,51 @@
+# typically has 4 PSUs, but looks like it can support 6
+# aka OCP ORv2 Power Shelf 4PSU EIA
+# aka OCP ORv2 Power Shelf 6PSU
+# used in both 19" APC and 21" OCP racks
+# 1A, 2A, 3A, 1B, 2B, 3B module slots of power supplies
+# if only using 4: 1A and 3B are covered
+---
+manufacturer: Delta
+model: Stingray v1 SG110 A
+slug: delta-stingray-v1-sg110-a
+part_number: 1234 # ?
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+description: 123 # ?
+weight: 123 # ?
+weight_unit: lb
+comments: Open Compute Project ORv2 Power Shelf
+power-ports:
+  - name: ac-input-a
+    type: other # var claims this is molex.
+    # unsure what connector type, but it is 3-pin and blue
+    # would be the power-outlet end of the pdu-ad-208-24c top or rack pdu
+  - name: ac-input-b
+    type: other
+power-outlets:
+  - name: dc-bus-left
+    type: dc-terminal
+  - name: dc-bus-center
+    type: dc-terminal
+  - name: dc-bus-right
+    type: dc-terminal
+interfaces:
+  - name: Management
+    label: RJ45
+    type: 100base-tx
+    mgmt_only: true
+device-bays:
+  - name: psu-1a
+    label: 1A
+  - name: psu-2a
+    label: 2A
+  - name: psu-3a
+    label: 3A
+  - name: psu-1b
+    label: 1B
+  - name: psu-2b
+    label: 2B
+  - name: psu-3b
+    label: 3B

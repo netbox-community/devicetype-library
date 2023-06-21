@@ -1,0 +1,48 @@
+# aka "ocp orv2 power shelf 6psu 6c13 (14-000071)"
+# modular power supplies
+# technically has some kind of modular COMM card, but details are lacking
+---
+manufacturer: Delta
+model: SG-11M A
+slug: delta-sg-11m-a
+part_number: 14-000071
+u_height: 3
+is_full_depth: true
+comments: Open Compute Project ORv2 Power Shelf
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Source A
+    type: iec-60320-c14
+  - name: Source B
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
+  - name: Outlet 10
+    type: iec-60320-c13
+  - name: Outlet 11
+    type: iec-60320-c13
+  - name: Outlet 12
+    type: iec-60320-c13
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
