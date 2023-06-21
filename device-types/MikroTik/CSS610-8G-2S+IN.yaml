@@ -9,7 +9,7 @@ u_height: 1
 comments: '[Product Page](https://mikrotik.com/product/css610_8g_2s_in)'
 interfaces:
   - name: Port1
-    label: 'PoE in'
+    label: PoE in
     type: 1000base-t
     poe_mode: pd
     poe_type: passive-24v-2pair
@@ -35,13 +35,13 @@ interfaces:
     label: '8'
     type: 1000base-t
   - name: SFP1
-    label: 'SFP+ 1'
+    label: SFP+ 1
     type: 10gbase-x-sfpp
   - name: SFP2
-    label: 'SFP+ 2'
+    label: SFP+ 2
     type: 10gbase-x-sfpp
 power-ports:
   - name: DC
-    label: 'DC 12-57V'
+    label: DC 12-57V
     type: dc-terminal
     maximum_draw: 11
