@@ -1,7 +1,11 @@
 ---
 manufacturer: LiteOn
-model: Power Shelf Controller
+model: CM-12CP-010U
+slug: liteon-cm-12cp-010u
 part_number: CM-12CP-010U
+u_height: 0
+is_full_depth: false
+airflow: passive
 comments: |
   LiteOn Power Shelf Controller
 
@@ -17,17 +21,18 @@ comments: |
   * CAN communication port
 weight: 1.59
 weight_unit: lb
-interfaces:
-  - name: mgmt
-    type: 1000base-t
-    mgmt_only: true
 console-ports:
   - name: serial
+    label: SERVICE
     type: de-9
-    description: For maintenance / configuration
-  - name: can1
+  - name: can-1a
+    label: CAN-1A
     type: rj-45
-    description: communication with SMC
-  - name: can2
+  - name: can-1b
+    label: CAN-1B
     type: rj-45
-    description: communication with SMC
+interfaces:
+  - name: mgmt
+    label: LAN
+    type: 1000base-t
+    mgmt_only: true
