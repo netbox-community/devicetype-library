@@ -1,0 +1,31 @@
+---
+manufacturer: LiteOn
+model: Power Shelf Controller
+part_number: CM-12CP-010U
+comments: |
+  LiteOn Power Shelf Controller
+
+  * Monitors up to 10 PSUs and 8 BBUs
+  * Hot-swappable for easy installation and maintenance
+  * Configurable alarm and reminder notifications
+  * Real-time monitoring capabilities for power shelves and battery backup system
+  * Real-time alarm logging and delivery
+  * SNMP (v2c, v3), Web server, RestAPI, and IPMI support for remote management
+  * Secure web interface
+  * Efficiency management system for optimizing power shelf efficiency
+  * 10/100/1000 Ethernet port support IPv6, SNMPv3
+  * CAN communication port
+weight: 1.596
+weight_unit: lbs
+interfaces:
+  - name: mgmt
+    type: 1000base-tx
+    mgmt_only: true
+console-ports:
+  - name: serial
+    type: d-sub
+    comments: For maintenance
+  - name: CAN1
+    type: rj-45
+  - name: CAN2
+    type: rj-45

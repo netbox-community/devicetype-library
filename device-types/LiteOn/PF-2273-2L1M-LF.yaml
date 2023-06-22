@@ -1,0 +1,74 @@
+---
+manufacturer: LiteOn
+model: LiteOn PF-2273-2L1M-LF
+slug: liteon-pf-2273-2l1m-lf
+part_number: pf-2273-2l1m-lf
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 123 # ?
+weight_unit: lb
+comments: |
+  Open Compute Project ORv2 Power Shelf
+
+  * Supplies power up to ~22.5kW~ N+1
+  * 3U shelf accepts up to 10 hot-swappable ~2.5kW~ Power Supply Units for 9+1 redundant operation
+  * 21-inch shelf with a height of 3 OU (OpenU), 5.17 inches (131 mm)
+  * Communication with Li-ion Battery Backup Shelf (BBS)
+  * Real-time PSU and BBS monitoring and control
+  * Remote control PSU On/Off through the optional Shelf Controller
+  * Supports 3 sets of bus bars to deliver DC power to load
+  * Supports 6x C13 outlets for external AC load
+
+  Takes PSU type PSU-PS-2302-1L1U-LF
+power-ports:
+  - name: ac-input-a
+    type: other
+  - name: ac-input-b
+    type: other
+power-outlets:
+  - name: ac-output-a1
+    power_port: ac-input-a
+    feed_leg: A
+    type: iec-60320-c13
+  - name: ac-output-a2
+    power_port: ac-input-a
+    feed_leg: B
+    type: iec-60320-c13
+  - name: ac-output-a3
+    power_port: ac-input-a
+    feed_leg: C
+    type: iec-60320-c13
+  - name: ac-output-b1
+    power_port: ac-input-b
+    feed_leg: A
+    type: iec-60320-c13
+  - name: ac-output-b2
+    power_port: ac-input-b
+    feed_leg: B
+    type: iec-60320-c13
+  - name: ac-output-b3
+    power_port: ac-input-b
+    feed_leg: C
+    type: iec-60320-c13
+  - name: dc-output-bus-left
+    type: dc-terminal
+  - name: dc-output-bus-center
+    type: dc-terminal
+  - name: dc-output-bus-right
+    type: dc-terminal
+device-bays:
+  - name: psu-01
+  - name: psu-02
+  - name: psu-03
+  - name: psu-04
+  - name: psu-05
+  - name: psu-06
+  - name: psu-07
+  - name: psu-08
+  - name: psu-09
+  - name: psu-10
+module-bays:
+  - name: psc
+    description: Power Shelf Controller

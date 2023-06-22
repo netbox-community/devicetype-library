@@ -1,0 +1,65 @@
+---
+manufacturer: Delta
+model: SG-11M-A
+slug: delta-sg-11m-a
+part_number: SG-11M-A
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 123 # ?
+weight_unit: lb
+comments: |
+  Open Compute Project ORv2 Power Shelf
+
+  Fits 21" ORv2 racks only
+
+  FB PN: 14-000071
+
+  Takes PSU type DPST-2130CB-A
+console-ports:  # one or the other
+  - name: Serial
+    type: rj-45
+interfaces:  # one or the other
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
+power-ports:
+  - name: ac-input-a
+    type: other
+  - name: ac-input-b
+    type: other
+power-outlets:
+  - name: ac-output-a1
+    power_port: ac-input-a
+    feed_leg: A
+    type: iec-60320-c13
+  - name: ac-output-a2
+    power_port: ac-input-a
+    feed_leg: B
+    type: iec-60320-c13
+  - name: ac-output-a3
+    power_port: ac-input-a
+    feed_leg: C
+    type: iec-60320-c13
+  - name: ac-output-b1
+    power_port: ac-input-b
+    feed_leg: A
+    type: iec-60320-c13
+  - name: ac-output-b2
+    power_port: ac-input-b
+    feed_leg: B
+    type: iec-60320-c13
+  - name: ac-output-b3
+    power_port: ac-input-b
+    feed_leg: C
+    type: iec-60320-c13
+  - name: dc-output-bus
+    type: dc-terminal
+device-bays:  # has a bay for some kind of COMM card but I have no details about it
+  - name: psu-1a
+  - name: psu-2a
+  - name: psu-3a
+  - name: psu-1b
+  - name: psu-2b
+  - name: psu-3b
