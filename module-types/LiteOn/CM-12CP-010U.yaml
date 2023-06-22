@@ -15,17 +15,19 @@ comments: |
   * Efficiency management system for optimizing power shelf efficiency
   * 10/100/1000 Ethernet port support IPv6, SNMPv3
   * CAN communication port
-weight: 1.596
-weight_unit: lbs
+weight: 1.59
+weight_unit: lb
 interfaces:
   - name: mgmt
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: true
 console-ports:
   - name: serial
-    type: d-sub
-    comments: For maintenance
-  - name: CAN1
+    type: de-9
+    description: For maintenance / configuration
+  - name: can1
     type: rj-45
-  - name: CAN2
+    description: communication with SMC
+  - name: can2
     type: rj-45
+    description: communication with SMC
