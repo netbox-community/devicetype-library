@@ -14,5 +14,7 @@ console-ports:
 interfaces:
   - name: Port 1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: WiFi
     type: ieee802.11ax
