@@ -1,14 +1,15 @@
 ---
 manufacturer: HPE
-model: Aruba IAP-515
-slug: hpe-aruba-iap-515
-part_number: IAP-515
+model: Aruba AP-505
+slug: hpe-aruba-ap-505
+part_number: AP-505
 u_height: 0
 is_full_depth: false
-comments: '[Aruba 515 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP510Series.pdf)'
+weight: 500
+weight_unit: g
+airflow: passive
+comments: '[Aruba 500 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP500Series.pdf)'
 console-ports:
-  - name: Console
-    type: rj-45
   - name: usb-ble
     type: usb-a
 interfaces:
