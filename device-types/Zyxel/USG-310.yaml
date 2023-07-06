@@ -1,0 +1,36 @@
+---
+manufacturer: Zyxel
+model: USG 310
+slug: zyxel-usg-310
+part_number: USG310-EU0102F
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 3.3
+weight_unit: kg
+comments: '[USG 310 specs](https://www.zyxelguard.com/USG310.asp)'
+power-ports:
+  - name: PS
+    type: iec-60320-c14
+    maximum_draw: 58
+    description: 100 to 240 V AC, 50/60 Hz
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: de-9

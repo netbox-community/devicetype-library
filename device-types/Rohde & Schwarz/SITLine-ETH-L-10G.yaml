@@ -1,0 +1,24 @@
+---
+manufacturer: Rohde & Schwarz
+model: SITLine ETH-L 10G
+slug: rohde-and-schwarz-sitline-eth-l-10g
+part_number: 5414.6282.23
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 100
+    allocated_draw: 80
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 100
+    allocated_draw: 80
+interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-x-sfp
+    mgmt_only: true

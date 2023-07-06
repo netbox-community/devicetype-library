@@ -1,0 +1,22 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR550
+slug: lenovo-thinksystem-sr550
+part_number: 7X04
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+comments: '[Lenovo ThinkSystem SR550 product guide](https://lenovopress.lenovo.com/lp1046.pdf)'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true

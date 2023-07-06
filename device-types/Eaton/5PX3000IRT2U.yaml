@@ -1,0 +1,37 @@
+---
+manufacturer: Eaton
+model: 5PX3000IRT2U
+slug: eaton-5px3000irt2u
+part_number: 5PX3000IRT2U
+u_height: 2
+is_full_depth: true
+weight: 38.08
+weight_unit: kg
+comments: 'Eaton 5PX UPS, 3000 VA, 2700 W, Input: C20, Outputs: (8) C13, (1) C19, Rack/tower, 2U [Product Page](https://www.eaton.com/sg/en-us/skuPage.5PX3000IRT2U.html)'
+power-outlets:
+  - name: Group1 - Outlet1
+    type: iec-60320-c13
+  - name: Group1 - Outlet2
+    type: iec-60320-c13
+  - name: Group2 - Outlet1
+    type: iec-60320-c13
+  - name: Group2 - Outlet2
+    type: iec-60320-c13
+  - name: Primary Group - Outlet1
+    type: iec-60320-c13
+  - name: Primary Group - Outlet2
+    type: iec-60320-c13
+  - name: Primary Group - Outlet3
+    type: iec-60320-c13
+  - name: Primary Group - Outlet4
+    type: iec-60320-c13
+  - name: Primary Group 30R
+    type: iec-60320-c19
+power-ports:
+  - name: Input Power
+    type: iec-60320-c20
+    maximum_draw: 2700
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
