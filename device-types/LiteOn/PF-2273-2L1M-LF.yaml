@@ -6,7 +6,6 @@ part_number: PF-2273-2L1M-LF
 u_height: 3
 is_full_depth: true
 airflow: front-to-rear
-subdevice_role: parent
 comments: |
   Open Compute Project ORv1/v2 compatible Power Shelf
 
@@ -61,7 +60,9 @@ power-outlets:
     type: dc-terminal
   - name: dc-output-bus-right
     type: dc-terminal
-device-bays:
+module-bays:
+  - name: psc
+    description: Power Shelf Controller
   - name: psu-01
     label: N+1 R
   - name: psu-02
@@ -82,6 +83,3 @@ device-bays:
     label: T
   - name: psu-10
     label: R
-module-bays:
-  - name: psc
-    description: Power Shelf Controller

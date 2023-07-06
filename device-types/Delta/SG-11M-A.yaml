@@ -6,7 +6,6 @@ part_number: SG-11M-A
 u_height: 3
 is_full_depth: true
 airflow: front-to-rear
-subdevice_role: parent
 comments: |
   Open Compute Project ORv2 compatible Power Shelf
 
@@ -58,7 +57,7 @@ interfaces:  # one or the other Serial or Management
     label: MGMT
     type: 1000base-t
     mgmt_only: true
-device-bays:  # has a bay for some kind of COMM card but I have no details about it
+module-bays:  # has a bay for some kind of COMM card but I have no details about it
   - name: psu-1a
     label: 1A
   - name: psu-2a
