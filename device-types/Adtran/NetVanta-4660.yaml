@@ -1,0 +1,31 @@
+---
+manufacturer: Adtran
+model: NetVanta 4660
+slug: adtran-netvanta-4660
+part_number: 17004660F1
+weight: 3.2
+weight_unit: kg
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: Power
+    type: other
+    maximum_draw: 40
+interfaces:
+  - name: GIG 0/1
+    type: 1000base-x-sfp
+  - name: GIG 0/2
+    type: 1000base-x-sfp
+  - name: GIG 0/3
+    type: 1000base-x-sfp
+  - name: GIG 0/4
+    type: 1000base-x-sfp
+  - name: GIG 0/5
+    type: 1000base-x-sfp
+  - name: T4
+    type: other
+module-bays:
+  - name: Slot 1

@@ -59,13 +59,9 @@ def _get_image_files():
     """
     ret = []
 
-    for f in sorted(glob.glob(f"elevation-images/*/*", recursive=True)):
-        # f = 'elevation-images/Nokia/nokia-7220-ixr-h3.front.png'
-        # f.split('/')[1] = Nokia
-        assert f.split('/')[2].split('.')[-1] in IMAGE_FILETYPES, f"Invalid file extension: {f}"
-
-        ret.append((f.split('/')[1], f))
-
+    for f in sorted(glob.glob(f"elevation-images{os.path.sep}*{os.path.sep}*", recursive=True)):
+        assert f.split(os.path.sep)[2].split('.')[-1] in IMAGE_FILETYPES, f"Invalid file extension: {f}"
+        ret.append((f.split(os.path.sep)[1], f))
     return ret
 
 

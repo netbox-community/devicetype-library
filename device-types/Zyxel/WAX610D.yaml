@@ -1,0 +1,22 @@
+---
+manufacturer: Zyxel
+model: WAX610D
+part_number: WAX610D
+slug: zyxel-wax610d
+u_height: 0
+is_full_depth: false
+weight: 545
+weight_unit: g
+airflow: passive
+comments: '[802.11ax (WiFi 6) Dual-Radio Unified Pro Access Point](https://www.zyxelguard.com/WAX610D.asp)'
+interfaces:
+  - name: Uplink
+    type: 1000base-t
+  - name: LAN1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: 12V DC
+    type: dc-terminal
+    maximum_draw: 24
