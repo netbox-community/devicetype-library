@@ -3,20 +3,46 @@ manufacturer: Cisco
 model: Catalyst C4507R+E
 slug: cisco-ws-c4507r_plus_e
 part_number: WS-C4507R+E
-u_height: 11
+u_height: 11.0
 is_full_depth: true
 subdevice_role: parent
-console-ports:
-  - name: con0
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 1400
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 1400
-interfaces:
-  - name: FastEthernet1
-    type: 100base-tx
-    mgmt_only: true
+airflow: front-to-rear
+comments: "- [https://www.cisco.com/c/en/us/support/switches/catalyst-4507r-plus-e-switch/model.html](https://www.cisco.com/c/en/us/support/switches/catalyst-4507r-plus-e-switch/model.html)\r\
+  \n- [https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/product_data_sheet0900aecd801792b1.html](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/product_data_sheet0900aecd801792b1.html)"
+module-bays:
+- name: linecard1
+  label: ''
+  position: '1'
+  description: ''
+- name: linecard2
+  label: ''
+  position: '2'
+  description: ''
+- name: linecard5
+  label: ''
+  position: '5'
+  description: ''
+- name: linecard6
+  label: ''
+  position: '6'
+  description: ''
+- name: linecard7
+  label: ''
+  position: '6'
+  description: ''
+- name: powersupply1
+  label: ''
+  position: left
+  description: ''
+- name: powersupply2
+  label: ''
+  position: right
+  description: ''
+- name: supervisorengine1
+  label: ''
+  position: '3'
+  description: ''
+- name: supervisorengine2
+  label: ''
+  position: '4'
+  description: ''
