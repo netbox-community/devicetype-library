@@ -1,4 +1,5 @@
 from test_configuration import KNOWN_SLUGS
+import os
 
 class DeviceType:
     def __new__(cls, *args, **kwargs):
@@ -76,9 +77,29 @@ class ModuleType:
         self.file_path = file_path
         self.isDevice = False
         self.manufacturer = definition.get('manufacturer')
+        self.model = definition.get('model')
+        self._slug_model = self._slugify_model()
+        self.part_number = None
+        self._slug_part_number = None
 
     def get_manufacturer(self):
         return self.manufacturer
 
     def get_filepath(self):
         return self.file_path
+
+    def _slugify_model(self):
+        slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        if slugified.endswith("-"):
+            slugified = slugified[:-1]
+        return slugified
+
+def verify_filename(device: (DeviceType or ModuleType)):
+    head, tail = os.path.split(device.get_filepath())
+    filename = tail.rsplit(".", 1)[0].casefold()
+
+    if not (filename == device._slug_model or filename == device._slug_part_number):
+        device.failureMessage = f'{device.file_path} file is not either the model "{device._slug_model}" or part_number "{device._slug_part_number}"'
+        return False
+
+    return True

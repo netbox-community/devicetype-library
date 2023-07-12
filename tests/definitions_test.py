@@ -1,6 +1,6 @@
 from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS
 from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType
+from device_types import DeviceType, ModuleType, verify_filename
 import decimal
 import glob
 import json
@@ -92,13 +92,17 @@ def test_definitions(file_path, schema):
     except ValidationError as e:
         pytest.fail(f"{file_path} failed validation: {e}", False)
 
+    # Identify if the definition is for a Device or Module
     if "device-types" in file_path:
         this_device = DeviceType(definition, file_path)
     else:
         this_device = ModuleType(definition, file_path)
 
+    # Verify the slug is valid if the definition is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(), pytest.fail(this_device.failureMessage, False)
+
+    assert verify_filename(this_device), pytest.fail(this_device.failureMessage, False)
 
     # Check for duplicate components
     for component_type in COMPONENT_TYPES:
