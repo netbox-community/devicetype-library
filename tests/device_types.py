@@ -6,15 +6,15 @@ class DeviceType:
         self.file_path = file_path
         self.manufacturer = definition.get('manufacturer')
         if file_path.startswith('device-types/'):
-          self.slug = definition.get('slug')
+            self.slug = definition.get('slug')
 
     def get_manufacturer(self):
-      return self.manufacturer
+        return self.manufacturer
 
     def get_slug(self):
-      if hasattr(self, "slug"):
-        return self.slug
-      return None
+        if hasattr(self, "slug"):
+            return self.slug
+        return None
 
     def get_filepath(self):
-      return self.file_path
+        return self.file_path

@@ -1,3 +1,6 @@
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS
+from yaml_loader import DecimalSafeLoader
+from device_types import DeviceType
 import decimal
 import glob
 import json
@@ -8,39 +11,14 @@ import pytest
 import yaml
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
-from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType
-
-SCHEMAS = (
-    ('device-types', 'devicetype.json'),
-    ('module-types', 'moduletype.json'),
-)
-
-IMAGE_FILETYPES = (
-    'bmp', 'gif', 'pjp', 'jpg', 'pjpeg', 'jpeg', 'jfif', 'png', 'tif', 'tiff', 'webp'
-)
-
-COMPONENT_TYPES = (
-    'console-ports',
-    'console-server-ports',
-    'power-ports',
-    'power-outlets',
-    'interfaces',
-    'front-ports',
-    'rear-ports',
-    'device-bays',
-    'module-bays',
-)
-
 
 def _get_definition_files():
     """
     Return a list of all definition files within the specified path.
     """
-    ret = []
+    file_list = []
 
     for path, schema in SCHEMAS:
-
         # Initialize the schema
         with open(f"schema/{schema}") as schema_file:
             schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
@@ -48,34 +26,39 @@ def _get_definition_files():
         # Validate that the schema exists
         assert schema, f"Schema definition for {path} is empty!"
 
-        # Map each definition file to its schema
-        for f in sorted(glob.glob(f"{path}/*/*", recursive=True)):
-            ret.append((f, schema))
+        # Map each definition file to its schema as a tuple (file, schema)
+        for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
+            file_list.append((file, schema))
 
-    return ret
+    return file_list
 
 def _get_image_files():
     """
     Return a list of all image files within the specified path and manufacturer.
     """
-    ret = []
+    file_list = []
 
-    for f in sorted(glob.glob(f"elevation-images{os.path.sep}*{os.path.sep}*", recursive=True)):
-        assert f.split(os.path.sep)[2].split('.')[-1] in IMAGE_FILETYPES, f"Invalid file extension: {f}"
-        ret.append((f.split(os.path.sep)[1], f))
-    return ret
+    # Map each image file to its manufacturer
+    for file in sorted(glob.glob(f"elevation-images{os.path.sep}*{os.path.sep}*", recursive=True)):
+        # Validate that the file extension is valid
+        assert file.split(os.path.sep)[2].split('.')[-1] in IMAGE_FILETYPES, f"Invalid file extension: {file}"
 
+        # Map each image file to its manufacturer as a tuple (manufacturer, file)
+        file_list.append((file.split(os.path.sep)[1], file))
 
-definition_files = _get_definition_files()
-image_files = _get_image_files()
-known_slugs = set()
-
+    return file_list
 
 def _decimal_file_handler(uri):
     with urlopen(uri) as url:
         result = json.loads(url.read().decode("utf-8"), parse_float=decimal.Decimal)
     return result
 
+def _slug_verification(device):
+    thisSlug = device.get_slug()
+    if thisSlug is not None:
+        if thisSlug in KNOWN_SLUGS:
+            pytest.fail(f'{device.get_filepath()} device type has duplicate slug "{thisSlug}"', False)
+        KNOWN_SLUGS.add(thisSlug)
 
 def test_environment():
     """
@@ -84,12 +67,8 @@ def test_environment():
     # Validate that definition files exist
     assert definition_files, "No definition files found!"
 
-def _slug_verification(device):
-  thisSlug = device.get_slug()
-  if thisSlug is not None:
-    if thisSlug in known_slugs:
-      pytest.fail(f'{device.get_filepath()} device type has duplicate slug "{thisSlug}"', False)
-    known_slugs.add(thisSlug)
+definition_files = _get_definition_files()
+image_files = _get_image_files()
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
