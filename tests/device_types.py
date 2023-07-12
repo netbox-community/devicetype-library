@@ -79,8 +79,8 @@ class ModuleType:
         self.manufacturer = definition.get('manufacturer')
         self.model = definition.get('model')
         self._slug_model = self._slugify_model()
-        self.part_number = None
-        self._slug_part_number = None
+        self.part_number = definition.get('part_number', "")
+        self._slug_part_number = self._slugify_part_number()
 
     def get_manufacturer(self):
         return self.manufacturer
@@ -94,12 +94,18 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
+    def _slugify_part_number(self):
+        slugified = self.part_number.casefold().replace(" ", "-").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        if slugified.endswith("-"):
+            slugified = slugified[:-1]
+        return slugified
+
 def verify_filename(device: (DeviceType or ModuleType)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
 
-    if not (filename == device._slug_model or filename == device._slug_part_number):
-        device.failureMessage = f'{device.file_path} file is not either the model "{device._slug_model}" or part_number "{device._slug_part_number}"'
+    if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
+        device.failureMessage = f'{device.file_path} file is not either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
         return False
 
     return True
