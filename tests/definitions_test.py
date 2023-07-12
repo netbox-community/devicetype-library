@@ -1,6 +1,6 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS
 from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType
+from device_types import DeviceType, ModuleType
 import decimal
 import glob
 import json
@@ -53,13 +53,6 @@ def _decimal_file_handler(uri):
         result = json.loads(url.read().decode("utf-8"), parse_float=decimal.Decimal)
     return result
 
-def _slug_verification(device):
-    thisSlug = device.get_slug()
-    if thisSlug is not None:
-        if thisSlug in KNOWN_SLUGS:
-            pytest.fail(f'{device.get_filepath()} device type has duplicate slug "{thisSlug}"', False)
-        KNOWN_SLUGS.add(thisSlug)
-
 def test_environment():
     """
     Run basic sanity checks on the environment to ensure tests are running correctly.
@@ -99,9 +92,13 @@ def test_definitions(file_path, schema):
     except ValidationError as e:
         pytest.fail(f"{file_path} failed validation: {e}", False)
 
-    this_device = DeviceType(definition, file_path)
+    if "device-types" in file_path:
+        this_device = DeviceType(definition, file_path)
+    else:
+        this_device = ModuleType(definition, file_path)
 
-    _slug_verification(this_device)
+    if this_device.isDevice:
+        assert this_device.verify_slug(), pytest.fail(this_device.failureMessage, False)
 
     # Check for duplicate components
     for component_type in COMPONENT_TYPES:
