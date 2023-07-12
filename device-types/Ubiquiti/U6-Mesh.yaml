@@ -1,18 +1,21 @@
 ---
 manufacturer: Ubiquiti
-model: Unifi U6 Mesh Access Point
+model: U6 Mesh
 part_number: U6-Mesh
 slug: ubiquiti-u6-mesh
 u_height: 0
 is_full_depth: false
-comments: '[UniFi 6 Mesh Access Point](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)'
+comments: |
+  [Access Point U6 Mesh](https://store.ui.com/collections/unifi-network-wireless/products/access-point-wifi-6-mesh)
+airflow: passive
+weight: 400
+weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
-    mgmt_only: false
   - name: wlan0
-    type: ieee802.11n
+    type: ieee802.11ax
   - name: wlan1
-    type: ieee802.11ac
+    type: ieee802.11ax
