@@ -1,6 +1,6 @@
 ---
 manufacturer: Ubiquiti
-model: Access Point U6 In-Wall
+model: U6 In-Wall
 slug: ubiquiti-u6-iw
 part_number: U6-IW
 u_height: 0
@@ -23,18 +23,12 @@ interfaces:
   - name: eth2
     label: '2'
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: eth3
     label: '3'
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: eth4
     label: '4'
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: wlan0
     type: ieee802.11ax
   - name: wlan1
