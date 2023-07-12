@@ -9,6 +9,7 @@ import yaml
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
 from yaml_loader import DecimalSafeLoader
+from device_types import DeviceType
 
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
@@ -83,6 +84,12 @@ def test_environment():
     # Validate that definition files exist
     assert definition_files, "No definition files found!"
 
+def _slug_verification(device):
+  thisSlug = device.get_slug()
+  if thisSlug is not None:
+    if thisSlug in known_slugs:
+      pytest.fail(f'{device.get_filepath()} device type has duplicate slug "{thisSlug}"', False)
+    known_slugs.add(thisSlug)
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
@@ -113,13 +120,9 @@ def test_definitions(file_path, schema):
     except ValidationError as e:
         pytest.fail(f"{file_path} failed validation: {e}", False)
 
-    # Check for duplicate slug
-    if file_path.startswith('device-types/'):
-        slug = definition.get('slug')
-        if slug and slug in known_slugs:
-            pytest.fail(f'{file_path} device type has duplicate slug "{slug}"', False)
-        elif slug:
-            known_slugs.add(slug)
+    this_device = DeviceType(definition, file_path)
+
+    _slug_verification(this_device)
 
     # Check for duplicate components
     for component_type in COMPONENT_TYPES:
@@ -152,11 +155,11 @@ def test_definitions(file_path, schema):
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
         # Find images for given manufacturer, with matching device slug (exact match including case)
-        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).split('.')[0] == slug]
+        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).split('.')[0] == this_device.get_slug()]
         if not manufacturer_images:
-            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer/device (slug={slug})', False)
+            pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer/device (slug={this_device.get_slug()})', False)
         elif len(manufacturer_images)>2:
-            pytest.fail(f'More than 2 images found for device with slug {slug}: {manufacturer_images}', False)
+            pytest.fail(f'More than 2 images found for device with slug {this_device.get_slug()}: {manufacturer_images}', False)
 
         if(definition.get('front_image')):
             front_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
