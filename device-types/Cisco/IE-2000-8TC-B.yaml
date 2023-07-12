@@ -8,6 +8,15 @@ is_full_depth: false
 weight: 2.75
 weight_unit: lb
 airflow: passive
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+    maximum_draw: 18
+    allocated_draw: 14
+  - name: DC-B
+    type: dc-terminal
+    maximum_draw: 18
+    allocated_draw: 14
 interfaces:
   - name: FastEthernet1/1
     type: 100base-tx
