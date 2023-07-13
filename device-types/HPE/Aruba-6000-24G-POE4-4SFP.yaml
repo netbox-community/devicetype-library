@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: Aruba 6000-48G-POE4-4SFP 370W
-slug: hpe-aruba-6000-48g-poe4-4sfp-370w
-part_number: R8N85A
+model: Aruba 6000-24G-POE4-4SFP
+slug: hpe-aruba-6000-24g-poe4-4sfp
+part_number: R8N87A
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -64,58 +64,10 @@ interfaces:
   - name: 1/1/24
     type: 1000base-t
   - name: 1/1/25
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: 1/1/26
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: 1/1/27
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: 1/1/28
-    type: 1000base-t
-  - name: 1/1/29
-    type: 1000base-t
-  - name: 1/1/30
-    type: 1000base-t
-  - name: 1/1/31
-    type: 1000base-t
-  - name: 1/1/32
-    type: 1000base-t
-  - name: 1/1/33
-    type: 1000base-t
-  - name: 1/1/34
-    type: 1000base-t
-  - name: 1/1/35
-    type: 1000base-t
-  - name: 1/1/36
-    type: 1000base-t
-  - name: 1/1/37
-    type: 1000base-t
-  - name: 1/1/38
-    type: 1000base-t
-  - name: 1/1/39
-    type: 1000base-t
-  - name: 1/1/40
-    type: 1000base-t
-  - name: 1/1/41
-    type: 1000base-t
-  - name: 1/1/42
-    type: 1000base-t
-  - name: 1/1/43
-    type: 1000base-t
-  - name: 1/1/44
-    type: 1000base-t
-  - name: 1/1/45
-    type: 1000base-t
-  - name: 1/1/46
-    type: 1000base-t
-  - name: 1/1/47
-    type: 1000base-t
-  - name: 1/1/48
-    type: 1000base-t
-  - name: 1/1/49
-    type: 1000base-x-sfp
-  - name: 1/1/50
-    type: 1000base-x-sfp
-  - name: 1/1/51
-    type: 1000base-x-sfp
-  - name: 1/1/52
     type: 1000base-x-sfp

@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: Aruba 6000-24G-POE4-4SFP 370W
-slug: hpe-aruba-6000-24g-poe4-4sfp-370w
-part_number: R8N87A
+model: Aruba 6100-12G-POE4-2SFP+
+slug: hpe-aruba-6100-12g-poe4-2sfpp
+part_number: JL679A
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -13,7 +13,7 @@ console-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    allocated_draw: 370
+    allocated_draw: 139
 interfaces:
   - name: 1/1/1
     type: 1000base-t
@@ -44,30 +44,6 @@ interfaces:
   - name: 1/1/14
     type: 1000base-t
   - name: 1/1/15
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: 1/1/16
-    type: 1000base-t
-  - name: 1/1/17
-    type: 1000base-t
-  - name: 1/1/18
-    type: 1000base-t
-  - name: 1/1/19
-    type: 1000base-t
-  - name: 1/1/20
-    type: 1000base-t
-  - name: 1/1/21
-    type: 1000base-t
-  - name: 1/1/22
-    type: 1000base-t
-  - name: 1/1/23
-    type: 1000base-t
-  - name: 1/1/24
-    type: 1000base-t
-  - name: 1/1/25
-    type: 1000base-x-sfp
-  - name: 1/1/26
-    type: 1000base-x-sfp
-  - name: 1/1/27
-    type: 1000base-x-sfp
-  - name: 1/1/28
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
