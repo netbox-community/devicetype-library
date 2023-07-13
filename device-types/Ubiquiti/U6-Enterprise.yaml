@@ -1,17 +1,23 @@
 ---
 manufacturer: Ubiquiti
-model: UniFi U6 Access Point Enterprise
+model: U6 Enterprise
 part_number: U6-Enterprise
 slug: ubiquiti-u6-enterprise
 u_height: 0
 is_full_depth: false
-weight: 2.1
-weight_unit: lb
-comments: '[UniFi 6 Enterprise Access Point](https://store.ui.com/products/u6-enterprise)'
+airflow: passive
+weight: 960
+weight_unit: g
+comments: |
+  [U6 Access Point Enterprise](https://store.ui.com/products/u6-enterprise)
 interfaces:
-  - name: Port 1
+  - name: eth0
     type: 2.5gbase-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
-  - name: Wlan 0
+  - name: wlan0
+    type: ieee802.11ax
+  - name: wlan1
+    type: ieee802.11ax
+  - name: wlan2
     type: ieee802.11ax
