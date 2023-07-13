@@ -1,15 +1,20 @@
 ---
 manufacturer: Ubiquiti
-model: UAP AC Pro
+model: AC Professional
+part_number: UAP-AC-PRO
 slug: ubiquiti-uap-ac-pro
-part_number: UAP-AC-Pro
 u_height: 0
 is_full_depth: false
-comments: '[Unifi AP AC Pro](https://www.ui.com/unifi/unifi-ap-ac-pro/)'
+comments: |
+  [Access Point AC Pro](https://store.ui.com/collections/wireless/products/uap-ac-pro)'
+weight: 350.0
+weight_unit: g
 interfaces:
-  - name: lan0
+  - name: eth0
     type: 1000base-t
-  - name: lan1
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth1
     type: 1000base-t
   - name: wlan0
     type: ieee802.11n

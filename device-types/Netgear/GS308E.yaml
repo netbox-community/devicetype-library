@@ -1,0 +1,31 @@
+---
+manufacturer: Netgear
+model: GS308E
+slug: netgear-gs308e
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[300 Series SOHO Plus (GS308E)](https://www.netgear.com/business/wired/switches/plus/gs308e/)'
+weight: 0.5
+weight_unit: kg
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+  - name: GigabitEthernet/2
+    type: 1000base-t
+  - name: GigabitEthernet/3
+    type: 1000base-t
+  - name: GigabitEthernet/4
+    type: 1000base-t
+  - name: GigabitEthernet/5
+    type: 1000base-t
+  - name: GigabitEthernet/6
+    type: 1000base-t
+  - name: GigabitEthernet/7
+    type: 1000base-t
+  - name: GigabitEthernet/8
+    type: 1000base-t

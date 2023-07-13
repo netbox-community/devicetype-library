@@ -1,0 +1,32 @@
+---
+manufacturer: HPE
+model: t740
+slug: hpe-t740
+u_height: 0.0
+is_full_depth: false
+airflow: right-to-left
+comments: '[Datasheet](https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4aa7-5975enuc)'
+weight: 2.93
+weight_unit: lb
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 65
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: Realtek RTL8111HSH GbE
+  - name: wl0
+    type: ieee802.11ac
+    description: Intel Wireless-AC 9260 Wi-Fi 5 (2x2)
+  - name: hci0
+    type: ieee802.15.1
+    description: Bluetooth 5
+module-bays:
+  - name: HP Proprietary Extensions
+    position: '2'
+    description: 'Different kinds of HP proprietary extensions port: optional wireless antenna, serial console port, ...'
+  - name: PCIe x16
+    position: '1'
+    description: 1 half-height PCIe x16 (x8)
