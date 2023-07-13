@@ -1,10 +1,21 @@
 ---
 manufacturer: Ubiquiti
-model: U6-LR
+model: U6 Long-Range
+part_number: U6-LR
 slug: ubiquiti-u6-lr
 u_height: 0
 is_full_depth: false
-comments: '[UniFi 6 Long Range Access Point](https://store.ui.com/products/unifi-6-long-range-access-point)'
+comments: |
+  [Access Point U6 Long-Range](https://store.ui.com/products/unifi-6-long-range-access-point)
+airflow: passive
+weight: 800.0
+weight_unit: g
 interfaces:
-  - name: lan0
+  - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: wlan0
+    type: ieee802.11ax
+  - name: wlan1
+    type: ieee802.11ax
