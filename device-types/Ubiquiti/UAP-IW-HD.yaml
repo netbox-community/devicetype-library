@@ -1,27 +1,35 @@
 ---
 manufacturer: Ubiquiti
-model: UniFi UAP InWall HD
-slug: ubiquiti-uap-iw-hd
+model: In-Wall HD
 part_number: UAP-IW-HD
+slug: ubiquiti-uap-iw-hd
 u_height: 0
 is_full_depth: false
+airflow: passive
+comments: |
+  [Access Point In-Wall HD](https://store.ui.com/collections/wireless/products/unifi-in-wall-hd)
+weight: 210.0
+weight_unit: g
 interfaces:
-  - name: Port 1
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
+  - name: eth0
     type: 1000base-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
-    mgmt_only: true
-  - name: Wlan 0
+  - name: eth1
+    label: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: eth2
+    label: '2'
+    type: 1000base-t
+  - name: eth3
+    label: '3'
+    type: 1000base-t
+  - name: eth4
+    label: '4'
+    type: 1000base-t
+  - name: wlan0
     type: ieee802.11n
-  - name: Wlan 1
+  - name: wlan1
     type: ieee802.11ac

@@ -1,0 +1,39 @@
+---
+manufacturer: APC
+model: AP7526
+slug: apc-ap7526
+part_number: AP7526
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 10.65
+weight_unit: lb
+comments: Rack PDU, Basic, 1U, 22kW, 400V, (6) C19
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-3p-n-e-9h
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 5
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 6
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
