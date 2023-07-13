@@ -2,11 +2,13 @@
 manufacturer: FS
 model: FMU-1UFMX-N
 slug: fs-fmu-1ufmx-n
-comments: FMU 2-Slot 1U Rack-Chassis
+comments: FMU 3-Slot 1U Rack-Chassis
 part_number: FMU-1UFMX-N
 u_height: 1
 is_full_depth: false
+airflow: passive
 subdevice_role: parent
 device-bays:
   - name: '1'
   - name: '2'
+  - name: '3'

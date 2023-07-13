@@ -1,0 +1,45 @@
+---
+manufacturer: Raritan
+model: PX3-5138JR
+slug: raritan-px3-5138jr
+part_number: PX3-5138JR
+u_height: 1
+is_full_depth: false
+comments: Rack PDU, Metered, Remote Switching, 1.5kVA, 100V, (8) NEMA 5-15R
+weight: 4
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: Inlet
+    type: nema-l5-15p
+power-outlets:
+  - name: Outlet1
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet2
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet3
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet4
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet5
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet6
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet7
+    type: nema-5-15r
+    power_port: Inlet
+  - name: Outlet8
+    type: nema-5-15r
+    power_port: Inlet
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
