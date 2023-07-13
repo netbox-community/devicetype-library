@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: Aruba 6200F-48G-POE4-4SFP+ 370W
-slug: hpe-aruba-6200f-48g-poe4-4sfpp-370w
-part_number: JL727A
+model: Aruba 6100-48G-POE4-4SFP+
+slug: hpe-aruba-6100-48g-poe4-4sfpp
+part_number: JL675A
 u_height: 1
 is_full_depth: false
 console-ports:
@@ -13,7 +13,6 @@ console-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
-    maximum_draw: 500
     allocated_draw: 370
 interfaces:
   - name: 1/1/1
@@ -120,6 +119,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: 1/1/52
     type: 10gbase-x-sfpp
-  - name: mgmt
-    type: 1000base-t
-    mgmt_only: true
