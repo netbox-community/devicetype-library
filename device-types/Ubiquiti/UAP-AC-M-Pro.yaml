@@ -1,15 +1,20 @@
 ---
 manufacturer: Ubiquiti
-model: Unifi AC Mesh Pro
+model: AC Mesh Professional
+part_number: UAP-AC-M-PRO
 slug: ubiquiti-uap-ac-m-pro
-part_number: UAP-AC-M-Pro
 u_height: 0
 is_full_depth: false
-comments: '[Unifi Mesh](https://unifi-mesh.ui.com/)'
+comments: |
+  [Access Point AC Mesh Pro](https://store.ui.com/collections/wireless/products/unifi-ac-mesh-pro-ap)
+weight: 633.0
+weight_unit: g
 interfaces:
-  - name: main
+  - name: eth0
     type: 1000base-t
-  - name: secondary
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth1
     type: 1000base-t
   - name: wlan0
     type: ieee802.11n
