@@ -15,7 +15,7 @@ for root, dirs, files in walk(root_dir):
         try:
           data = stream.readlines()
           # data = yaml.safe_load(stream)
-          
+
           slugManufacturer = ""
           slugManufacturerIDX = 0
           slug = ""
@@ -24,7 +24,7 @@ for root, dirs, files in walk(root_dir):
           modelIDX = 0
           partNumber = ""
           partNumberIDX = 0
-          
+
           for idx, line in enumerate(data):
             if "manufacturer: " in line:
               # slugManufacturer = data['manufacturer'].casefold().replace(" ", "-")
@@ -43,12 +43,12 @@ for root, dirs, files in walk(root_dir):
           transformedModel = model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
           transformedPartNumber = partNumber.casefold().replace(" ", "-").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
           transformedManufacturer = slugManufacturer.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus-").replace("+", "-plus").replace("_", "-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
-          
+
           if "&" in transformedManufacturer:
             transformedManufacturer = transformedManufacturer.replace("&", "-and-")
             if "--and--" in transformedManufacturer:
               transformedManufacturer = transformedManufacturer.replace("--and--", "-and-")
-          
+
           newSlug = f"{transformedManufacturer}-{transformedModel}"
           newPartSlug = f"{slugManufacturer}-{transformedPartNumber}"
           newComboSlug = f"{slugManufacturer}-{transformedModel}-{transformedPartNumber}"
@@ -60,7 +60,7 @@ for root, dirs, files in walk(root_dir):
               newPartSlug = newPartSlug.replace(f"{slugManufacturer}-", "", 1)
             if newComboSlug.count(slugManufacturerDash) > 1:
               newComboSlug = newComboSlug.replace(f"{slugManufacturer}-", "", 1)
-            
+
             if newSlug[-1] == "-":
                 newSlug = newSlug[:-1]
             if newSlug != slug and newPartSlug != slug and newComboSlug != slug:
@@ -77,5 +77,5 @@ for root, dirs, files in walk(root_dir):
         with open(path.join(root, file), 'w') as file:
           file.writelines(data)
           file.close()
-      
+
 print(f"Total Left: {total}")
