@@ -1,0 +1,18 @@
+---
+manufacturer: Dell
+model: C63DV
+part_number: C63DV
+comments: Intel X520 DP 10Gb DA/SFP+ + I350 DP 1Gb Network Daughter Card  [Specs](https://www.dell.com/en-hk/shop/intel-x520-dual-port-10gigabit-da-sfp-i350-dual-port-1gigabit-ethernet-network-daughter-card/apd/540-bbhj/networking#techspecs_section)
+interfaces:
+  - name: '{module}-1GbE-0'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-1'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-10GbE-0'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '{module}-10GbE-1'
+    type: 10gbase-x-sfpp
+    mgmt_only: false

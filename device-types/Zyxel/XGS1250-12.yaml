@@ -1,0 +1,39 @@
+---
+manufacturer: Zyxel
+model: XGS1250-12
+slug: zyxel-xgs1250-12
+u_height: 0.0
+is_full_depth: false
+airflow: side-to-rear
+comments: '[Specification](https://www.zyxel.com/global/en/products/switch/12-port-web-managed-multi-gigabit-switch-includes-3-port-10g-and-1-port-10g-sfp-xgs1250-12/specifications)'
+weight: 783.0
+weight_unit: g
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 22
+interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+  - name: GigabitEthernet/2
+    type: 1000base-t
+  - name: GigabitEthernet/3
+    type: 1000base-t
+  - name: GigabitEthernet/4
+    type: 1000base-t
+  - name: GigabitEthernet/5
+    type: 1000base-t
+  - name: GigabitEthernet/6
+    type: 1000base-t
+  - name: GigabitEthernet/7
+    type: 1000base-t
+  - name: GigabitEthernet/8
+    type: 1000base-t
+  - name: TenGigabitEthernet/9
+    type: 10gbase-t
+  - name: TenGigabitEthernet/10
+    type: 10gbase-t
+  - name: TenGigabitEthernet/11
+    type: 10gbase-t
+  - name: TenGigabitSfpPlus/12
+    type: 10gbase-x-sfpp
