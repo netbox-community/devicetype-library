@@ -1,28 +1,37 @@
 ---
 manufacturer: Ubiquiti
-model: UniFi U6 In-Wall Access Point
+model: U6 In-Wall
 slug: ubiquiti-u6-iw
-part_number: u6-iw
+part_number: U6-IW
 u_height: 0
-comments: '[UniFi 6 In-Wall Access Point](https://store.ui.com/products/access-point-wifi-6-in-wall)'
+comments: |
+  [Access Point U6 In-Wall](https://store.ui.com/products/access-point-wifi-6-in-wall)
 is_full_depth: false
+airflow: passive
+weight: 460
+weight_unit: g
 interfaces:
-  - name: Port 1
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: Port 5
+  - name: eth0
     type: 1000base-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
-    mgmt_only: true
-  - name: Wlan 0
-    type: ieee802.11n
-  - name: Wlan 1
-    type: ieee802.11ac
+  - name: eth1
+    label: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: eth2
+    label: '2'
+    type: 1000base-t
+  - name: eth3
+    label: '3'
+    type: 1000base-t
+  - name: eth4
+    label: '4'
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ax
+  - name: wlan1
+    type: ieee802.11ax
+  - name: wlan2
+    type: ieee802.11ax
