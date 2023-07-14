@@ -49,6 +49,9 @@ def _get_image_files():
     return file_list
 
 def _decimal_file_handler(uri):
+    """
+    Handler to work with floating decimals that fail normal validation.
+    """
     with urlopen(uri) as url:
         result = json.loads(url.read().decode("utf-8"), parse_float=decimal.Decimal)
     return result
@@ -68,14 +71,14 @@ def test_definitions(file_path, schema):
     """
     Validate each definition file using the provided JSON schema and check for duplicate entries.
     """
-    # Check file extension
+    # Check file extension. Only .yml or .yaml files are supported.
     assert file_path.split('.')[-1] in ('yaml', 'yml'), f"Invalid file extension: {file_path}"
 
     # Read file
     with open(file_path) as definition_file:
         content = definition_file.read()
 
-    # Check for trailing newline
+    # Check for trailing newline. YAML files must end with an emtpy newline.
     assert content.endswith('\n'), "Missing trailing newline"
 
     # Load YAML data from file
@@ -88,23 +91,28 @@ def test_definitions(file_path, schema):
             schema,
             handlers={"file": _decimal_file_handler},
         )
+        # Validate definition against schema
         Draft4Validator(schema, resolver=resolver).validate(definition)
     except ValidationError as e:
+        # Schema validation failure. Ensure you are following the proper format.
         pytest.fail(f"{file_path} failed validation: {e}", False)
 
     # Identify if the definition is for a Device or Module
     if "device-types" in file_path:
+        # A device
         this_device = DeviceType(definition, file_path)
     else:
+        # A module
         this_device = ModuleType(definition, file_path)
 
-    # Verify the slug is valid if the definition is a Device
+    # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(), pytest.fail(this_device.failureMessage, False)
 
+    # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device), pytest.fail(this_device.failureMessage, False)
 
-    # Check for duplicate components
+    # Check for duplicate components within the definition
     for component_type in COMPONENT_TYPES:
         known_names = set()
         defined_components = definition.get(component_type, [])
@@ -114,7 +122,7 @@ def test_definitions(file_path, schema):
                 pytest.fail(f'Duplicate entry "{name}" in {component_type} list', False)
             known_names.add(name)
 
-    # Check for empty quotes
+    # Check for empty quotes and fail if found
     def iterdict(var):
         for dict_value in var.values():
             if isinstance(dict_value, dict):
@@ -141,12 +149,14 @@ def test_definitions(file_path, schema):
         elif len(manufacturer_images)>2:
             pytest.fail(f'More than 2 images found for device with slug {this_device.get_slug()}: {manufacturer_images}', False)
 
+        # If front_image is True, verify that a front image exists
         if(definition.get('front_image')):
             front_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
 
             if not front_image:
                 pytest.fail(f'{file_path} has front_image set to True but no matching image found for device ({manufacturer_images})', False)
 
+        # If rear_image is True, verify that a front image exists
         if(definition.get('rear_image')):
             rear_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
 
