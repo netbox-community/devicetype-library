@@ -17,9 +17,6 @@ class DeviceType:
         self._slug_part_number = self._slugify_part_number()
         self.failureMessage = None
 
-    def get_manufacturer(self):
-        return self.manufacturer
-
     def _slugify_manufacturer(self):
         return self.manufacturer.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus-").replace("+", "-plus").replace("_", "-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-").replace("&", "and")
 
@@ -28,17 +25,11 @@ class DeviceType:
             return self.slug
         return None
 
-    def get_model(self):
-        return self.model
-
     def _slugify_model(self):
         slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
         if slugified.endswith("-"):
             slugified = slugified[:-1]
         return slugified
-
-    def get_part_number(self):
-        return self.part_number
 
     def _slugify_part_number(self):
         slugified = self.part_number.casefold().replace(" ", "-").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
@@ -52,17 +43,17 @@ class DeviceType:
     def verify_slug(self):
         # Verify the slug is unique, and not already known
         if self.slug in KNOWN_SLUGS:
-            self.failureMessage = f'{self.file_path} device type has duplicate slug "{self.slug}"'
+            self.failureMessage = f'{self.file_path} has a duplicate slug "{self.slug}"'
             return False
 
         # Verify the manufacturer is appended to the slug
         if not self.slug.startswith(self._slug_manufacturer):
-            self.failureMessage = f'{self.file_path} device type has slug "{self.slug}" which does not start with manufacturer "{self.manufacturer}"'
+            self.failureMessage = f'{self.file_path} contains slug "{self.slug}". Does not start with manufacturer: "{self.manufacturer.casefold()}-"'
             return False
 
         # Verify the slug ends with either the model or part number
         if not (self.slug.endswith(self._slug_model) or self.slug.endswith(self._slug_part_number)):
-            self.failureMessage = f'{self.file_path} has slug "{self.slug}". Does not end with the model "{self._slug_model}" or part number "{self._slug_part_number}"'
+            self.failureMessage = f'{self.file_path} has slug "{self.slug}". Does not end with the model "{self._slug_model}" or part_number "{self._slug_part_number}"'
             return False
 
         # Add the slug to the list of known slugs
@@ -81,9 +72,6 @@ class ModuleType:
         self._slug_model = self._slugify_model()
         self.part_number = definition.get('part_number', "")
         self._slug_part_number = self._slugify_part_number()
-
-    def get_manufacturer(self):
-        return self.manufacturer
 
     def get_filepath(self):
         return self.file_path
@@ -105,7 +93,7 @@ def verify_filename(device: (DeviceType or ModuleType)):
     filename = tail.rsplit(".", 1)[0].casefold()
 
     if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
-        device.failureMessage = f'{device.file_path} file is not either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
+        device.failureMessage = f'{device.file_path} file name is invalid. Must be either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
         return False
 
     return True
