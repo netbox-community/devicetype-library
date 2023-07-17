@@ -41,7 +41,7 @@ The following fields may **optionally** be declared:
 > :test_tube: **Example**: `part_number: D109-C3`
 - `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
   - Type: number (minimum of `0`, multiple of `0.5`)
-> :test_tube: **Example**: `u_height: 12.5` 
+> :test_tube: **Example**: `u_height: 12.5`
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
   - Type: Boolean
 > :test_tube: **Example**: `is_full_depth: false`
@@ -87,6 +87,9 @@ The following fields may **optionally** be declared:
 >weight: 12.21
 >weight_unit: lb
 >```
+- `is_powered`: A boolean which indicates whether the device type does not take power. This is mainly used as a workaround for validation testing on non-devices (i.e. rackmount kits for mounting desktop devices) (**Default: True**)
+  - Type: Boolean
+> :test_tube: **Example**: `is_powered: false`
 
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
@@ -114,6 +117,7 @@ The available fields for each type of component are listed below.
 - `name`: Name
 - `label`: Label
 - `type`: Port type slug (Array)
+- `poe`: Does this port access/provide POE? (Boolean)
 
 #### Console Server Ports
 
@@ -158,6 +162,7 @@ The available fields for each type of component are listed below.
 - `label`: Label
 - `type`: Port type slug (Array)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
+- `poe`: Does this port access/provide POE? (Boolean)
 
 #### Module Bays
 
