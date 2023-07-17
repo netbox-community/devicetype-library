@@ -5,6 +5,14 @@ slug: hpe-aruba-7005
 part_number: JW634A
 is_full_depth: false
 u_height: 1
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-mini-b
+power-ports:
+  - name: DC
+    type: dc-terminal
 interfaces:
   - name: gigabitethernet 0/0/0
     type: 1000base-t
@@ -14,8 +22,3 @@ interfaces:
     type: 1000base-t
   - name: gigabitethernet 0/0/3
     type: 1000base-t
-console-ports:
-  - name: Console
-    type: rj-45
-  - name: Console USB
-    type: usb-mini-b

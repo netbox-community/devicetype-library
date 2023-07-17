@@ -32,6 +32,9 @@
                         "usb-micro-ab",
                         "other"
                     ]
+                },
+                "poe": {
+                  "type": "boolean"
                 }
             },
             "required": ["name", "type"]
@@ -350,6 +353,7 @@
                         "gsm",
                         "cdma",
                         "lte",
+                        "other-wireless",
                         "sonet-oc3",
                         "sonet-oc12",
                         "sonet-oc48",
@@ -550,6 +554,9 @@
                 },
                 "positions": {
                     "type": "integer"
+                },
+                "poe": {
+                    "type": "boolean"
                 }
             },
             "required": ["name", "type"]

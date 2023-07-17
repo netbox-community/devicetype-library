@@ -10,6 +10,7 @@ is_full_depth: false
 interfaces:
   - name: Port 1 (PoE IN)
     type: 1000base-t
+    poe_mode: pd
   - name: Port 2
     type: 1000base-t
   - name: Port 3
