@@ -6,14 +6,11 @@ u_height: 2
 is_full_depth: false
 comments: |
   [Dell C6420 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/dell-emc-poweredge-c6520-spec-sheet.pdf)
-console-ports:
-  - name: Mini-DP
-    type: other
-power-ports:
+module-bays:
   - name: Power 1
-    type: iec-60320-c14
+    position: '1'
   - name: Power 2
-    type: iec-60320-c14
+    position: '2'
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
