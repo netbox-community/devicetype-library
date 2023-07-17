@@ -1,0 +1,10 @@
+---
+manufacturer: Nokia
+model: MDA-M2-XFP
+part_number: 3HE06337AAAB01
+comments: Media Dependent Adapter (MDA) for the 7210 SAS-M that provides additional physical interface connectivity. '[7210 Data Sheet](https://documentation.nokia.com/cgi-bin/dbaccessfilename.cgi/3HE13778AAACTQZZA01_V1_7210%20SAS-M%20T%20X%20R6%20R12%20Mxp%20Sx%20S%20Interface%20Configuration%20Guide%20R10.0.R6.pdf)'
+interfaces:
+  - name: '{module}/2/1'
+    type: 10gbase-x-xfp
+  - name: '{module}/2/2'
+    type: 10gbase-x-xfp
