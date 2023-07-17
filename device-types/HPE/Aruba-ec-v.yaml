@@ -5,6 +5,9 @@ slug: hpe-aruba-ec-v
 u_height: 1
 is_full_depth: false
 airflow: passive
+power-ports:
+  - name: Power
+    type: dc-terminal
 interfaces:
   - name: lan0
     type: virtual
