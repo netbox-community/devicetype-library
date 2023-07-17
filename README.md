@@ -162,6 +162,7 @@ The available fields for each type of component are listed below.
 - `label`: Label
 - `type`: Port type slug (Array)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
+- `poe`: Does this port access/provide POE? (Boolean)
 
 #### Module Bays
 
