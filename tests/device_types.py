@@ -64,6 +64,10 @@ class DeviceType:
     def validate_power(self):
         # Check if power-ports exists
         if self.definition.get('power-ports', False):
+            # Verify that is_powered is not set to False. If so, there should not be any power-ports defined
+            if not self.definition.get('is_powered', True):
+                self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-ports" are defined.'
+                return False
             return True
 
         # Lastly, check if interfaces exists and has a poe_mode defined
@@ -77,8 +81,15 @@ class DeviceType:
         console_ports = self.definition.get('console-ports', False)
         if console_ports:
             for console_port in console_ports:
-                poe = console_port.get('poe', "")
-                if poe != "" and poe is True:
+                poe = console_port.get('poe', False)
+                if poe:
+                    return True
+
+        rear_ports = self.definition.get('rear-ports', False)
+        if rear_ports:
+            for rear_port in rear_ports:
+                poe = rear_port.get('poe', False)
+                if poe:
                     return True
 
         # Check if the device is a child device, and if so, assume it has a valid power source from the parent
@@ -90,6 +101,14 @@ class DeviceType:
         # Check if module-bays exists
         if self.definition.get('module-bays', False):
             # There is not a standardized way to define PSUs that are module bays, so we will just assume they are valid
+            return True
+
+        # As the very last case, check if is_powered is defined and is False. Otherwise assume the device is powered
+        if not self.definition.get('is_powered', True): # is_powered defaults to True
+            # Arriving here means is_powered is set to False, so verify that there are no power-outlets defined
+            if self.definition.get('power-outlets', False):
+                self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-outlets" are defined.'
+                return False
             return True
 
         self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
