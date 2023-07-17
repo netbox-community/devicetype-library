@@ -18,28 +18,21 @@ power-ports:
 interfaces:
   - name: P1
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: P2
     type: 1000base-t
-    mgmt_only: false
     label: WAN1
   - name: P3
     type: 1000base-t
-    mgmt_only: false
     label: WAN2
   - name: P4
     type: 1000base-t
-    mgmt_only: false
     label: LAN/DMZ
   - name: P5
     type: 1000base-t
-    mgmt_only: false
     label: LAN/DMZ
   - name: P6
     type: 1000base-t
-    mgmt_only: false
     label: LAN/DMZ
   - name: P7
     type: 1000base-t
-    mgmt_only: false
     label: LAN/DMZ
