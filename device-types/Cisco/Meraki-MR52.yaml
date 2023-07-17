@@ -12,6 +12,7 @@ comments: "[Cisco Meraki MR52 Datasheet](https://meraki.cisco.com/product-collat
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
   - name: eth1
     type: 1000base-t
   - name: wlan0

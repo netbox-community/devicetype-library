@@ -8,6 +8,7 @@ is_full_depth: false
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
   - name: eth1
     type: 1000base-t
   - name: wlan0
