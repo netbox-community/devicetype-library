@@ -1,6 +1,6 @@
 from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS
 from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, verify_filename
+from device_types import DeviceType, ModuleType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -113,14 +113,7 @@ def test_definitions(file_path, schema):
     assert verify_filename(this_device), pytest.fail(this_device.failureMessage, False)
 
     # Check for duplicate components within the definition
-    for component_type in COMPONENT_TYPES:
-        known_names = set()
-        defined_components = definition.get(component_type, [])
-        for idx, component in enumerate(defined_components):
-            name = component.get('name')
-            if name in known_names:
-                pytest.fail(f'Duplicate entry "{name}" in {component_type} list', False)
-            known_names.add(name)
+    assert validate_components(COMPONENT_TYPES, this_device), pytest.fail(this_device.failureMessage, False)
 
     # Check for empty quotes and fail if found
     def iterdict(var):
@@ -139,6 +132,10 @@ def test_definitions(file_path, schema):
                 iterdict(list_value)
             elif isinstance(list_value, list):
                 iterlist(list_value)
+
+    # Check for valid power definitions
+    if this_device.isDevice:
+        assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
