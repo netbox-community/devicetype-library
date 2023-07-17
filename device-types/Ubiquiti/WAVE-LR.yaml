@@ -15,6 +15,7 @@ interfaces:
   - name: eth0
     label: Ethernet
     type: 1000base-t
+    poe_mode: pd
   - name: prs0
     label: Wireless
     type: ieee802.11ax

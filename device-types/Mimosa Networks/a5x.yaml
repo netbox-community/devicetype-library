@@ -9,6 +9,7 @@ interfaces:
   - name: eth1_emac1
     label: Ethernet
     type: 1000base-t
+    poe_mode: pd
   - name: wifi0
     label: Wireless
     type: ieee802.11ax
