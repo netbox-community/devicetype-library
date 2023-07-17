@@ -8,6 +8,7 @@ is_full_depth: false
 interfaces:
   - name: lan0
     type: 100base-tx
+    poe_mode: pd
   - name: lan1
     type: 100base-tx
   - name: wlan0
