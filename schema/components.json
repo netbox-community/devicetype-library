@@ -32,6 +32,9 @@
                         "usb-micro-ab",
                         "other"
                     ]
+                },
+                "poe": {
+                  "type": "boolean"
                 }
             },
             "required": ["name", "type"]
@@ -551,6 +554,9 @@
                 },
                 "positions": {
                     "type": "integer"
+                },
+                "poe": {
+                    "type": "boolean"
                 }
             },
             "required": ["name", "type"]
