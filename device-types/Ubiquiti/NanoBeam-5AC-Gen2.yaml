@@ -9,5 +9,6 @@ comments: '[NanoBeam AC Gen2](https://www.ui.com/airmax/nanobeam-ac-gen2/)'
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
   - name: wlan0
     type: ieee802.11ac
