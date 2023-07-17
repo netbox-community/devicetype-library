@@ -5,6 +5,16 @@ part_number: IE-2000-16PTC-G-NX
 slug: cisco-ie-2000-16ptc-g-nx
 u_height: 3
 is_full_depth: false
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: DC-B
+    type: dc-terminal
 interfaces:
   - name: FastEthernet1/1
     type: 100base-tx
@@ -42,8 +52,3 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/2
     type: 1000base-t
-console-ports:
-  - name: con 0
-    type: rj-45
-  - name: usb
-    type: usb-mini-b
