@@ -8,6 +8,7 @@ is_full_depth: false
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
   - name: wlan0
     type: virtual
     description: 900MHz
