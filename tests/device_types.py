@@ -66,11 +66,6 @@ class DeviceType:
         if self.definition.get('power-ports', False):
             return True
 
-        # Check if module-bays exists
-        if self.definition.get('module-bays', False):
-            # There is not a standardized way to define PSUs that are module bays, so we will just assume they are valid
-            return True
-
         # Lastly, check if interfaces exists and has a poe_mode defined
         interfaces = self.definition.get('interfaces', False)
         if interfaces:
@@ -78,6 +73,24 @@ class DeviceType:
                 poe_mode = interface.get('poe_mode', "")
                 if poe_mode != "" and poe_mode == "pd":
                     return True
+
+        console_ports = self.definition.get('console-ports', False)
+        if console_ports:
+            for console_port in console_ports:
+                poe = console_port.get('poe', "")
+                if poe != "" and poe is True:
+                    return True
+
+        # Check if the device is a child device, and if so, assume it has a valid power source from the parent
+        subdevice_role = self.definition.get('subdevice_role', False)
+        if subdevice_role:
+            if subdevice_role == "child":
+                return True
+
+        # Check if module-bays exists
+        if self.definition.get('module-bays', False):
+            # There is not a standardized way to define PSUs that are module bays, so we will just assume they are valid
+            return True
 
         self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
         return False

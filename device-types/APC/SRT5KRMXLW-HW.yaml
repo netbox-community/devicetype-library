@@ -9,6 +9,9 @@ comments: All power ports and outlets are hardwired
 console-ports:
   - name: Serial
     type: rj-45
+power-ports:
+  - name: UPS Input
+    type: hardwired
 interfaces:
   - name: Ethernet
     type: 100base-tx
