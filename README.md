@@ -23,7 +23,7 @@ Each definition **must** include at minimum the following fields:
 - `model`: The model number of the device type. This must be unique per manufacturer.
   - Type: String
 - `slug`: A URL-friendly representation of the model number. Like the model number, this must be unique per
-  manufacturer. All slugs should have the manufacturers name appended to it with a dash, please see the example below.
+  manufacturer. All slugs should have the manufacturers name prepended to it with a dash, please see the example below.
   - Type: String
   - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
 
@@ -55,11 +55,11 @@ The following fields may **optionally** be declared:
     - `side-to-rear`
     - `passive`
 > :test_tube: **Example**: `airflow: side-to-rear`
-- `front_image`: Indicates that this device has a front elevation image within the elevation-imgaes folder. (**Default: None**)
+- `front_image`: Indicates that this device has a front elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
   - Type: Boolean
 > :test_tube: **Example**: `front_image: True`
-- `rear_image`: Indicates that this device has a rear elevation image within the elevation-imgaes folder. (**Default: None**)
+- `rear_image`: Indicates that this device has a rear elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.rear.<acceptable_format>
   - Type: Boolean
 > :test_tube: **Example**: `rear_image: True`
