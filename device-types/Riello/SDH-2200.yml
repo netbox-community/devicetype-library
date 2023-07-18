@@ -1,8 +1,8 @@
 ---
 manufacturer: Riello
-model: Riello UPS SDH 1500
-slug: riello-ups-sdh-1500
-part_number: RISDH1500
+model: SDH 2200
+slug: riello-sdh-2200
+part_number: RISDH2200ER
 u_height: 2
 is_full_depth: true
 weight: 30.5
@@ -12,7 +12,7 @@ module-bays:
     position: '1'
 power-outlets:
   - name: Power Outlet 1
-    type: iec-60320-c13
+    type: iec-60320-c19
   - name: Power Outlet 2
     type: iec-60320-c13
   - name: Power Outlet 3
@@ -27,13 +27,15 @@ power-outlets:
     type: iec-60320-c13
   - name: Power Outlet 8
     type: iec-60320-c13
+  - name: Power Outlet 9
+    type: iec-60320-c13
   - name: Battery Pack Connector
     type: other
   - name: REPO Connector
     type: dc-terminal
 power-ports:
   - name: Power Port 1
-    type: iec-60320-c14
+    type: iec-60320-c20
 console-ports:
   - name: Serial
     type: rj-45

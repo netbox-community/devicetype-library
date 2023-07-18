@@ -1,11 +1,11 @@
 ---
 manufacturer: Riello
-model: Riello UPS SDL 3300
-slug: riello-ups-sdl-3300
-part_number: CSDL3K3AA4
-u_height: 4
+model: SDH 1500
+slug: riello-sdh-1500
+part_number: RISDH1500
+u_height: 2
 is_full_depth: true
-weight: 38
+weight: 30.5
 weight_unit: kg
 module-bays:
   - name: Communications Card Slot
@@ -16,12 +16,24 @@ power-outlets:
   - name: Power Outlet 2
     type: iec-60320-c13
   - name: Power Outlet 3
-    type: iec-60320-c19
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
   - name: Battery Pack Connector
     type: other
+  - name: REPO Connector
+    type: dc-terminal
 power-ports:
   - name: Power Port 1
-    type: iec-60320-c20
+    type: iec-60320-c14
 console-ports:
   - name: Serial
     type: rj-45
