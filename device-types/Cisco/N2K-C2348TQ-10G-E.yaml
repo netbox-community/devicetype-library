@@ -5,13 +5,6 @@ slug: cisco-n2k-c2348tq-10g-e
 part_number: N2K-C2348TQ-E
 u_height: 1
 is_full_depth: true
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 400
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 400
 interfaces:
   - name: Ethernet1/1/1
     type: 10gbase-t
@@ -121,3 +114,8 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet1/2/4
     type: 40gbase-x-qsfpp
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
