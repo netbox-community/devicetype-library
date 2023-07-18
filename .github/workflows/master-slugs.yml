@@ -21,7 +21,7 @@
           run: pip install -r requirements.txt
         - name: Regenerate Master Slug List
           run: python3 tests/generate-slug-list.py
-        - name: Commit and Push Changes
+        - name: Commit and Push Changes to Master
           uses: EndBug/add-and-commit@v9
           with:
             author_name: NetBox Bot
