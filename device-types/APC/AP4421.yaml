@@ -1,0 +1,47 @@
+---
+manufacturer: APC
+model: AP4421
+slug: apc-ap4421
+part_number: AP4421
+u_height: 1
+is_full_depth: false
+comments: RACK ATS, 230V, 10A, C14 IN, (12) C13 OUT
+console-ports:
+  - name: Serial
+    type: rj-12
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: Source A
+    type: iec-60320-c14
+  - name: Source B
+    type: iec-60320-c14
+power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+  - name: Power Outlet 2
+    type: iec-60320-c13
+  - name: Power Outlet 3
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
+  - name: Power Outlet 9
+    type: iec-60320-c13
+  - name: Power Outlet 10
+    type: iec-60320-c13
+  - name: Power Outlet 11
+    type: iec-60320-c13
+  - name: Power Outlet 12
+    type: iec-60320-c13
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
