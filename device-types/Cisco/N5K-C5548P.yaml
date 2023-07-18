@@ -73,15 +73,13 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/32
     type: 10gbase-x-sfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    allocated_draw: 390
-    maximum_draw: 730
-  - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 390
-    maximum_draw: 730
 console-ports:
   - name: Console
     type: rj-45
+module-bays:
+  - name: Slot 2
+    position: '2'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
