@@ -24,3 +24,5 @@ COMPONENT_TYPES = (
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
 KNOWN_SLUGS = set()
+
+USE_LOCAL_KNOWN_SLUGS = True

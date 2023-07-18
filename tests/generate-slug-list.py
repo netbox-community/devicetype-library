@@ -30,7 +30,7 @@ def _get_device_type_files():
 
             # Map each definition file to its schema as a tuple (file, schema)
             for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
-                file_list.append((f'{ROOT_DIR}/{file}', schema))
+                file_list.append((f'{file}', schema))
 
     return file_list
 
@@ -84,7 +84,7 @@ def _generate_known_slugs():
             print(definition)
             exit(1)
 
-        KNOWN_SLUGS.add(definition.get('slug'))
+        KNOWN_SLUGS.add((definition.get('slug'), file_path))
 
 _generate_known_slugs()
 pickle_operations.write_pickle_data(KNOWN_SLUGS, f'{ROOT_DIR}/tests/known-slugs.pickle')

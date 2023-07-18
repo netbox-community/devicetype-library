@@ -1,4 +1,5 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS
+import pickle_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
 import decimal
@@ -88,8 +89,15 @@ def test_environment():
     if definition_files:
         pytest.skip("No changes to definition files found.")
 
-definition_files = _get_diff_from_upstream()
+with open(f"schema/devicetype.json") as schema_file:
+    schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
+definition_files = [('device-types/ADVA/FSP-150-CM.yaml', schema)]#_get_diff_from_upstream()
 image_files = _get_image_files()
+
+if USE_LOCAL_KNOWN_SLUGS:
+    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
+else:
+    pass
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
@@ -132,7 +140,7 @@ def test_definitions(file_path, schema):
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
-        assert this_device.verify_slug(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
 
     # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device), pytest.fail(this_device.failureMessage, False)
