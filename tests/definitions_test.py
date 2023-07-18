@@ -90,9 +90,7 @@ def test_environment():
     if definition_files:
         pytest.skip("No changes to definition files found.")
 
-with open(f"schema/devicetype.json") as schema_file:
-    schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
-definition_files = [('device-types/ADVA/FSP-150-CM.yaml', schema)]#_get_diff_from_upstream()
+definition_files = _get_diff_from_upstream()
 image_files = _get_image_files()
 
 if USE_LOCAL_KNOWN_SLUGS:
