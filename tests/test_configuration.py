@@ -1,3 +1,5 @@
+import os
+
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
@@ -18,5 +20,7 @@ COMPONENT_TYPES = (
     'device-bays',
     'module-bays',
 )
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
 KNOWN_SLUGS = set()
