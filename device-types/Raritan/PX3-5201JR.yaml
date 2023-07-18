@@ -12,40 +12,40 @@ console-ports:
   - name: Serial
     type: rj-45
 power-ports:
-  - name: Intel1
+  - name: Inlet1
     type: nema-l6-30p
 power-outlets:
   - name: Outlet1
     type: iec-60320-c19
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet2
     type: iec-60320-c13
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet3
     type: iec-60320-c13
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet4
     type: iec-60320-c13
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet5
     type: iec-60320-c19
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet6
     type: iec-60320-c13
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet7
     type: iec-60320-c13
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
   - name: Outlet8
     type: iec-60320-c13
-    power_port: Intel1
+    power_port: Inlet1
     feed_leg: A
 interfaces:
   - name: Eth1

@@ -1,10 +1,21 @@
 ---
 manufacturer: Ubiquiti
-model: UAP-FlexHD
+model: FlexHD
+part_number: UAP-FlexHD
 slug: ubiquiti-uap-flexhd
 u_height: 0
 is_full_depth: false
-comments: '[UniFi FlexHD Access Point](https://store.ui.com/products/unifi-flexhd)'
+comments: |
+  [UniFi Access Point FlexHD](https://store.ui.com/collections/wireless/products/unifi-flexhd)
+airflow: passive
+weight: 315
+weight_unit: g
 interfaces:
-  - name: lan0
+  - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
