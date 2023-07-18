@@ -25,4 +25,6 @@ ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
 KNOWN_SLUGS = set()
 
-USE_LOCAL_KNOWN_SLUGS = True
+USE_LOCAL_KNOWN_SLUGS = False
+
+NETBOX_DT_LIBRARY_URL = "https://github.com/danner26/devicetype-library.git"
