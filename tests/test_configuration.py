@@ -27,4 +27,4 @@ KNOWN_SLUGS = set()
 
 USE_LOCAL_KNOWN_SLUGS = False
 
-NETBOX_DT_LIBRARY_URL = "https://github.com/danner26/devicetype-library.git"
+NETBOX_DT_LIBRARY_URL = "https://github.com/netbox-community/devicetype-library.git"
