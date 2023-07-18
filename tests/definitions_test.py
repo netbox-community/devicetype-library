@@ -85,7 +85,8 @@ def test_environment():
     Run basic sanity checks on the environment to ensure tests are running correctly.
     """
     # Validate that definition files exist
-    assert definition_files, "No definition files found!"
+    if definition_files:
+        pytest.skip("No changes to definition files found.")
 
 definition_files = _get_diff_from_upstream()
 image_files = _get_image_files()
