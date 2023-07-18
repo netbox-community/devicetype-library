@@ -11,6 +11,7 @@ import pytest
 import yaml
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
+from git import Repo
 
 def _get_definition_files():
     """
@@ -29,6 +30,29 @@ def _get_definition_files():
         # Map each definition file to its schema as a tuple (file, schema)
         for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
             file_list.append((file, schema))
+
+    return file_list
+
+def _get_diff_from_upstream():
+    file_list = []
+
+    repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+    upstream = repo.remotes.upstream
+    upstream.fetch()
+    changes = repo.head.commit.diff(upstream.refs["master"].object.hexsha)
+
+    for path, schema in SCHEMAS:
+        # Initialize the schema
+        with open(f"schema/{schema}") as schema_file:
+            schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
+
+        # Validate that the schema exists
+        assert schema, f"Schema definition for {path} is empty!"
+
+        for file in changes:
+            if file.b_path is not None:
+                if path in file.b_path:
+                    file_list.append((file.b_path, schema))
 
     return file_list
 
@@ -63,7 +87,7 @@ def test_environment():
     # Validate that definition files exist
     assert definition_files, "No definition files found!"
 
-definition_files = _get_definition_files()
+definition_files = _get_diff_from_upstream()
 image_files = _get_image_files()
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
