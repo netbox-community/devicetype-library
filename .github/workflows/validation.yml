@@ -29,13 +29,9 @@ jobs:
           source ./.venv/bin/activate
           python -m pip install -r requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
-      - name: Install repo project # We do this since the install deps step can be skipped
-        shell: bash
-        run: |
-          source ./.venv/bin/activate
-        #python -m pip install -U -e ./python
       - name: Lint YAML files
         run: |
+          source ./.venv/bin/activate
           yamllint --format github --strict \
             device-types/ module-types/
   format:
@@ -62,16 +58,13 @@ jobs:
           source ./.venv/bin/activate
           python -m pip install -r requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
-      - name: Install repo project # We do this since the install deps step can be skipped
-        shell: bash
-        run: |
-          source ./.venv/bin/activate
-        #python -m pip install -U -e ./python
       - name: Format YAML files (hooks)
         run: |
+          source ./.venv/bin/activate
           pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: |
+          source ./.venv/bin/activate
           pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
   test:
     runs-on: ubuntu-latest
@@ -85,26 +78,22 @@ jobs:
           python-version: '3.8'
       - name: cache virtualenv
         uses: actions/cache@v3
-        id: cache-venv
+        id: cache-venv-pytest
         with:
           path: ./.venv/
-          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-pytest-${{ hashFiles('requirements.txt') }}
           restore-keys: |
-            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-pytest-
       - name: Install dependencies
         shell: bash
         run: |
           python -m venv ./.venv
           source ./.venv/bin/activate
           python -m pip install -r requirements.txt
-        if: steps.cache-venv.outputs.cache-hit != 'true'
-      - name: Install repo project # We do this since the install deps step can be skipped
-        shell: bash
-        run: |
-          source ./.venv/bin/activate
-        #python -m pip install -U -e ./python
-      - name: Install pytest plugin to annotate failures in GitHub
-        run: pip install pytest-github-actions-annotate-failures
+          python -m pip install pytest-github-actions-annotate-failures
+        if: steps.cache-venv-pytest.outputs.cache-hit != 'true'
       - name: Run Test Cases
         id: pytest
-        run: pytest --tb=short -v
+        run: |
+          source ./.venv/bin/activate
+          pytest --tb=short -v
