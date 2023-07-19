@@ -8,15 +8,6 @@ is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: Power Supply 1
-    type: iec-60320-c14
-    maximum_draw: 470
-    allocated_draw: 210
-  - name: Power Supply 2
-    type: iec-60320-c14
-    maximum_draw: 470
-    allocated_draw: 210
 interfaces:
   - name: Ethernet1/1
     type: 25gbase-x-sfp28
@@ -129,3 +120,8 @@ interfaces:
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
