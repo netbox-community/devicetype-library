@@ -11,11 +11,29 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Python
         uses: actions/setup-python@v4
+        id: setup_python
         with:
           python-version: '3.8'
-          cache: 'pip'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+      - name: Install repo project # We do this since the install deps step can be skipped
+        shell: bash
+        run: |
+          source ./.venv/bin/activate
+        #python -m pip install -U -e ./python
       - name: Lint YAML files
         run: |
           yamllint --format github --strict \
@@ -25,11 +43,30 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
+        id: setup_python
         with:
-          python-version: 3.8
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+      - name: Install repo project # We do this since the install deps step can be skipped
+        shell: bash
+        run: |
+          source ./.venv/bin/activate
+        #python -m pip install -U -e ./python
       - name: Format YAML files (hooks)
         run: |
           pre-commit run --config .pre-commit-hooks-config.yaml --all-files
@@ -42,11 +79,30 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
+        id: setup_python
         with:
-          python-version: 3.8
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+      - name: Install repo project # We do this since the install deps step can be skipped
+        shell: bash
+        run: |
+          source ./.venv/bin/activate
+        #python -m pip install -U -e ./python
       - name: Install pytest plugin to annotate failures in GitHub
         run: pip install pytest-github-actions-annotate-failures
       - name: Run Test Cases
