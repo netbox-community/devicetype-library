@@ -38,10 +38,13 @@ def _get_definition_files():
 def _get_diff_from_upstream():
     file_list = []
 
-    repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
-    upstream = repo.remotes.upstream
+    temp_dir = tempfile.TemporaryDirectory()
+    upstream_repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
+
+    # repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+    upstream = upstream_repo.remotes.origin
     upstream.fetch()
-    changes = repo.head.commit.diff(upstream.refs["master"].object.hexsha)
+    changes = upstream_repo.head.commit.diff(upstream.refs["master"].object.hexsha)
 
     for path, schema in SCHEMAS:
         # Initialize the schema
