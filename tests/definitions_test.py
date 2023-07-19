@@ -63,7 +63,7 @@ def _get_diff_from_upstream():
             if file.change_type in CHANGE_TYPE_LIST:
                 if path in file.a_path:
                     file_list.append((file.a_path, schema))
-                else:
+                elif path in file.b_path:
                     file_list.append((file.b_path, schema))
 
     return file_list
