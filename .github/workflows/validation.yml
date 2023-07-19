@@ -11,13 +11,27 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Python
         uses: actions/setup-python@v4
+        id: setup_python
         with:
           python-version: '3.8'
-          cache: 'pip'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Lint YAML files
         run: |
+          source ./.venv/bin/activate
           yamllint --format github --strict \
             device-types/ module-types/
   format:
@@ -25,16 +39,32 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
+        id: setup_python
         with:
-          python-version: 3.8
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Format YAML files (hooks)
         run: |
+          source ./.venv/bin/activate
           pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: |
+          source ./.venv/bin/activate
           pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
   test:
     runs-on: ubuntu-latest
@@ -42,13 +72,28 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
+        id: setup_python
         with:
-          python-version: 3.8
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv-pytest
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-pytest-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-pytest-
       - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Install pytest plugin to annotate failures in GitHub
-        run: pip install pytest-github-actions-annotate-failures
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
+          python -m pip install pytest-github-actions-annotate-failures
+        if: steps.cache-venv-pytest.outputs.cache-hit != 'true'
       - name: Run Test Cases
         id: pytest
-        run: pytest --tb=short -v
+        run: |
+          source ./.venv/bin/activate
+          pytest --tb=short -v
