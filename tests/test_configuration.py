@@ -1,5 +1,3 @@
-import os
-
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
@@ -21,10 +19,4 @@ COMPONENT_TYPES = (
     'module-bays',
 )
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
-
 KNOWN_SLUGS = set()
-
-USE_LOCAL_KNOWN_SLUGS = False
-
-NETBOX_DT_LIBRARY_URL = "https://github.com/netbox-community/devicetype-library.git"
