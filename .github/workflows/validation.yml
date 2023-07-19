@@ -21,12 +21,12 @@ jobs:
             device-types/ module-types/
       - name: Format YAML files (hooks)
         run: |
-          pre-commit run --config .pre-commit-hooks-config.yaml
+          pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: |
-          pre-commit run --config .pre-commit-yamlfmt-config.yaml
-      - name: Install plugin
+          pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
+      - name: Install pytest plugin to annotate failures in GitHub
         run: pip install pytest-github-actions-annotate-failures
-      - name: Run tests
+      - name: Run Test Cases
         id: pytest
         run: pytest --tb=short -v
