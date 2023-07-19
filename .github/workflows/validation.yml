@@ -5,7 +5,22 @@ on: # yamllint disable-line rule:truthy
     branches:
       - master
 jobs:
-  build:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+          cache: 'pip'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Lint YAML files
+        run: |
+          yamllint --format github --strict \
+            device-types/ module-types/
+  format:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -15,16 +30,23 @@ jobs:
           python-version: 3.8
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Lint YAML files
-        run: |
-          yamllint --format github --strict \
-            device-types/ module-types/
       - name: Format YAML files (hooks)
         run: |
           pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: |
           pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
+  test:
+    runs-on: ubuntu-latest
+    needs: [lint, format]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       - name: Install pytest plugin to annotate failures in GitHub
         run: pip install pytest-github-actions-annotate-failures
       - name: Run Test Cases
