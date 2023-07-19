@@ -25,8 +25,8 @@ jobs:
       - name: Format YAML files (yamlfmt)
         run: |
           pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
-      - name: Install plugin
+      - name: Install pytest plugin to annotate failures in GitHub
         run: pip install pytest-github-actions-annotate-failures
-      - name: Run tests
+      - name: Run Test Cases
         id: pytest
         run: pytest --tb=short -v
