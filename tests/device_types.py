@@ -1,4 +1,3 @@
-from test_configuration import KNOWN_SLUGS
 import os
 
 class DeviceType:
@@ -41,9 +40,18 @@ class DeviceType:
     def get_filepath(self):
         return self.file_path
 
-    def verify_slug(self):
+    def verify_slug(self, KNOWN_SLUGS):
         # Verify the slug is unique, and not already known
-        if self.slug in KNOWN_SLUGS:
+        known_slug_list_intersect = [(slug, file_path) for slug, file_path in KNOWN_SLUGS if slug == self.slug]
+
+        if len(known_slug_list_intersect) == 0:
+            pass
+        elif len(known_slug_list_intersect) == 1:
+            if self.file_path not in known_slug_list_intersect[0][1]:
+                self.failureMessage = f'{self.file_path} has a duplicate slug: "{self.slug}"'
+                return False
+            return True
+        else:
             self.failureMessage = f'{self.file_path} has a duplicate slug "{self.slug}"'
             return False
 
@@ -58,7 +66,7 @@ class DeviceType:
             return False
 
         # Add the slug to the list of known slugs
-        KNOWN_SLUGS.add(self.slug)
+        KNOWN_SLUGS.add((self.slug, self.file_path))
         return True
 
     def validate_power(self):
