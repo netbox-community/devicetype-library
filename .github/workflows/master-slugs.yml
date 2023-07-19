@@ -1,14 +1,11 @@
 ---
 name: Create Master Slug List on PR Merge
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - master
-#   pull_request:
-#     types:
-#       - closed
-#     branches:
-#       - master
 permissions:
   contents: write
 jobs:
