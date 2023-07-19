@@ -30,7 +30,6 @@ jobs:
         if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Lint YAML files
         run: |
-          source ./.venv/bin/activate
           yamllint --format github --strict \
             device-types/ module-types/
   format:
