@@ -11,10 +11,40 @@ console-ports:
     type: rj-45
   - name: con1
     type: rj-45
-power-ports:
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: Line Card
+  - name: Slot 2
+    position: '2'
+    description: Line Card
+  - name: Slot 3
+    position: '3'
+    description: Line Card
+  - name: Slot 4
+    position: '4'
+    description: Line Card
+  - name: Slot 5
+    position: '5'
+    description: Supervisor Module
+  - name: Slot 6
+    position: '6'
+    description: Supervisor Module
+  - name: Slot 7
+    position: '7'
+    description: Line Card
+  - name: Slot 8
+    position: '8'
+    description: Line Card
+  - name: Slot 9
+    position: '9'
+    description: Line Card
+  - name: Slot 10
+    position: '10'
+    description: Line Card
   - name: PSU0
-    type: iec-60320-c20
-    maximum_draw: 12000
+    position: '0'
   - name: PSU1
-    type: iec-60320-c20
-    maximum_draw: 12000
+    position: '1'
+  - name: PSU2
+    position: '2'
