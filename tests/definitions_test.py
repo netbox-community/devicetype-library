@@ -1,16 +1,19 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL
+import pickle_operations
 from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, verify_filename
+from device_types import DeviceType, ModuleType, verify_filename, validate_components
 import decimal
 import glob
 import json
 import os
+import tempfile
 from urllib.request import urlopen
 
 import pytest
 import yaml
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
+from git import Repo
 
 def _get_definition_files():
     """
@@ -29,6 +32,33 @@ def _get_definition_files():
         # Map each definition file to its schema as a tuple (file, schema)
         for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
             file_list.append((file, schema))
+
+    return file_list
+
+def _get_diff_from_upstream():
+    file_list = []
+
+    repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+
+    if "upstream" not in repo.remotes:
+        repo.create_remote("upstream", NETBOX_DT_LIBRARY_URL)
+
+    upstream = repo.remotes.upstream
+    upstream.fetch()
+    changes = repo.head.commit.diff(upstream.refs["master"].object.hexsha)
+
+    for path, schema in SCHEMAS:
+        # Initialize the schema
+        with open(f"schema/{schema}") as schema_file:
+            schema = json.loads(schema_file.read(), parse_float=decimal.Decimal)
+
+        # Validate that the schema exists
+        assert schema, f"Schema definition for {path} is empty!"
+
+        for file in changes:
+            if file.b_path is not None:
+                if path in file.b_path:
+                    file_list.append((file.b_path, schema))
 
     return file_list
 
@@ -61,10 +91,18 @@ def test_environment():
     Run basic sanity checks on the environment to ensure tests are running correctly.
     """
     # Validate that definition files exist
-    assert definition_files, "No definition files found!"
+    if definition_files:
+        pytest.skip("No changes to definition files found.")
 
-definition_files = _get_definition_files()
+definition_files = _get_diff_from_upstream()
 image_files = _get_image_files()
+
+if USE_LOCAL_KNOWN_SLUGS:
+    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
+else:
+    temp_dir = tempfile.TemporaryDirectory()
+    repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
+    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
@@ -107,20 +145,13 @@ def test_definitions(file_path, schema):
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
-        assert this_device.verify_slug(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
 
     # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device), pytest.fail(this_device.failureMessage, False)
 
     # Check for duplicate components within the definition
-    for component_type in COMPONENT_TYPES:
-        known_names = set()
-        defined_components = definition.get(component_type, [])
-        for idx, component in enumerate(defined_components):
-            name = component.get('name')
-            if name in known_names:
-                pytest.fail(f'Duplicate entry "{name}" in {component_type} list', False)
-            known_names.add(name)
+    assert validate_components(COMPONENT_TYPES, this_device), pytest.fail(this_device.failureMessage, False)
 
     # Check for empty quotes and fail if found
     def iterdict(var):
@@ -139,6 +170,10 @@ def test_definitions(file_path, schema):
                 iterdict(list_value)
             elif isinstance(list_value, list):
                 iterlist(list_value)
+
+    # Check for valid power definitions
+    if this_device.isDevice:
+        assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
