@@ -39,13 +39,14 @@ def _get_diff_from_upstream():
     file_list = []
 
     repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+    commits_list = list(repo.iter_commits())
 
     if "upstream" not in repo.remotes:
         repo.create_remote("upstream", NETBOX_DT_LIBRARY_URL)
 
     upstream = repo.remotes.upstream
     upstream.fetch()
-    changes = repo.head.commit.diff(upstream.refs["master"].object.hexsha)
+    changes = upstream.refs.master.commit.diff(repo.head)
 
     for path, schema in SCHEMAS:
         # Initialize the schema
@@ -55,9 +56,14 @@ def _get_diff_from_upstream():
         # Validate that the schema exists
         assert schema, f"Schema definition for {path} is empty!"
 
+        # Ensure files are either added, renamed, modified or type changed (do not get deleted files)
+        CHANGE_TYPE_LIST = ['A', 'R', 'M', 'T']
+
         for file in changes:
-            if file.b_path is not None:
-                if path in file.b_path:
+            if file.change_type in CHANGE_TYPE_LIST:
+                if path in file.a_path:
+                    file_list.append((file.a_path, schema))
+                else:
                     file_list.append((file.b_path, schema))
 
     return file_list
