@@ -8,15 +8,15 @@ is_full_depth: true
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 630
-    allocated_draw: 565
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 630
-    allocated_draw: 565
+module-bays:
+  - name: PSU 0
+    maximum_draw: 851
+    allocated_draw: 535
+    position: '0'
+  - name: PSU 1
+    maximum_draw: 851
+    allocated_draw: 535
+    position: '1'
 interfaces:
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
