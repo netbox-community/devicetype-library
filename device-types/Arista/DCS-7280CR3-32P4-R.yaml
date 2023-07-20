@@ -1,12 +1,13 @@
 ---
 manufacturer: Arista
-model: DCS-7280CR3K-32D4A
-slug: arista-dcs-7280cr3k-32d4a
-part_number: DCS-7280CR3K-32D4A
+model: DCS-7280CR3-32P4-R
+slug: arista-dcs-7280cr3-32p4-r
+part_number: DCS-7280CR3-32P4-R
 u_height: 1
-is_full_depth: true
 weight: 27
 weight_unit: lb
+airflow: rear-to-front
+is_full_depth: true
 comments: '[Arista 7280R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3-Data-Sheet.pdf)'
 console-ports:
   - name: Console
@@ -82,13 +83,13 @@ interfaces:
   - name: Ethernet32/1
     type: 100gbase-x-qsfp28
   - name: Ethernet33/1
-    type: 400gbase-x-qsfpdd
+    type: 400gbase-x-osfp
   - name: Ethernet34/1
-    type: 400gbase-x-qsfpdd
+    type: 400gbase-x-osfp
   - name: Ethernet35/1
-    type: 400gbase-x-qsfpdd
+    type: 400gbase-x-osfp
   - name: Ethernet36/1
-    type: 400gbase-x-qsfpdd
+    type: 400gbase-x-osfp
   - name: Management1
     type: 1000base-t
     mgmt_only: true
