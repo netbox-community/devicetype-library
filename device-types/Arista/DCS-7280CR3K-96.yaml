@@ -4,6 +4,8 @@ model: DCS-7280CR3K-96
 slug: arista-dcs-7280cr3k-96
 part_number: DCS-7280CR3K-96
 u_height: 2
+weight: 52
+weight_unit: lb
 is_full_depth: true
 comments: '[Arista 7280R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3-Data-Sheet.pdf)'
 console-ports:
@@ -11,12 +13,8 @@ console-ports:
     type: rj-45
 module-bays:
   - name: PSU 0
-    maximum_draw: 1803
-    allocated_draw: 1003
     position: '0'
   - name: PSU 1
-    maximum_draw: 1803
-    allocated_draw: 1003
     position: '1'
 interfaces:
   - name: Ethernet1/1
