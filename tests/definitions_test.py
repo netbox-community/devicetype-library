@@ -59,9 +59,12 @@ def _get_diff_from_upstream():
         # Ensure files are either added, renamed, modified or type changed (do not get deleted files)
         CHANGE_TYPE_LIST = ['A', 'R', 'M', 'T']
 
+        # Iterate through changed files
         for file in changes:
+            # Ensure the files are modified or added, this will disclude deleted files
             if file.change_type in CHANGE_TYPE_LIST:
-                if 'R' in file.change_type:
+                # If the file is renamed, ensure we are picking the right schema
+                if 'R' in file.change_type and path in file.rename_to:
                     file_list.append((file.rename_to, schema))
                 elif path in file.a_path:
                     file_list.append((file.a_path, schema))
