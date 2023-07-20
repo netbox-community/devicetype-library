@@ -61,13 +61,12 @@ def _get_diff_from_upstream():
 
         for file in changes:
             if file.change_type in CHANGE_TYPE_LIST:
-                if 'DCS-7280CR3-32P4.yaml' in file.a_path or 'DCS-7280CR3-32P4.yaml' in file.b_path:
-                    if 'R' in file.change_type:
-                        file_list.append((file.rename_to, schema))
-                    elif path in file.a_path:
-                        file_list.append((file.a_path, schema))
-                    elif path in file.b_path:
-                        file_list.append((file.b_path, schema))
+                if 'R' in file.change_type:
+                    file_list.append((file.rename_to, schema))
+                elif path in file.a_path:
+                    file_list.append((file.a_path, schema))
+                elif path in file.b_path:
+                    file_list.append((file.b_path, schema))
 
     return file_list
 
