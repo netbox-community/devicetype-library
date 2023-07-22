@@ -1,52 +1,35 @@
 ---
 manufacturer: Juniper
-model: EX4200-48T
-slug: juniper-ex4200-48t
+model: EX4400-48T-DC-AFI
+part_number: EX4400-48T-DC-AFI
+slug: juniper-ex4400-48t-dc-afi
 u_height: 1
-is_full_depth: true
-weight: 7.8
-weight_unit: kg
-comments: '[Juniper EX4200 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000215-en.pdf)'
-console-ports:
-  - name: Console
-    type: rj-45
+airflow: rear-to-front
+weight: 13.01
+weight_unit: lb
+comments: '[Juniper EX4400 Hardware Guide](https://www.juniper.net/documentation/us/en/hardware/ex4400/topics/topic-map/ex4400-system-overview.html)'
 interfaces:
+  - name: me0
+    type: 1000base-t
+    mgmt_only: true
   - name: ge-0/0/0
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/1
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/2
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/3
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/4
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/5
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/6
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/7
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/8
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type1-ieee802.3af
   - name: ge-0/0/9
     type: 1000base-t
   - name: ge-0/0/10
@@ -125,12 +108,25 @@ interfaces:
     type: 1000base-t
   - name: ge-0/0/47
     type: 1000base-t
+  - name: et-0/1/0
+    type: 100gbase-x-qsfp28
+  - name: et-0/1/1
+    type: 100gbase-x-qsfp28
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Front Console
+    type: usb-c
 module-bays:
-  - name: Power Supply 0
-    label: PSU 0
-    position: PSU0
-  - name: Power Supply 1
-    label: PSU 1
-    position: PSU1
-  - name: Uplink Module
+  - name: Fan Module 0
+    weight: 0.26
+    weight_unit: lb
+  - name: Fan Module 1
+    weight: 0.26
+    weight_unit: lb
+  - name: Extension module
+    position: '2'
+  - name: PSU0
+    position: '0'
+  - name: PSU1
     position: '1'
