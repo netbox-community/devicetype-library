@@ -1,0 +1,12 @@
+---
+manufacturer: Juniper
+model: JPSU-1600W-1UDCAFO
+part_number: JPSU-1600W-1UDCAFO
+# airflow: front-to-rear
+weight: 2.40
+weight_unit: lb
+comments: DC PSM for ACX, QFX
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1600
