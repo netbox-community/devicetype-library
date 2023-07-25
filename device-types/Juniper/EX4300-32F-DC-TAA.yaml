@@ -98,3 +98,12 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: xe-0/0/35
     type: 10gbase-x-sfpp
+  # PIC 1 (QSFP+) Used for Stacking
+  - name: et-0/1/0
+    type: 40gbase-x-qsfpp
+  - name: et-0/1/1
+    type: 40gbase-x-qsfpp
+  - name: et-0/1/2
+    type: 40gbase-x-qsfpp
+  - name: et-0/1/3
+    type: 40gbase-x-qsfpp
