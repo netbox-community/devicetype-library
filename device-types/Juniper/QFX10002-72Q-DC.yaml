@@ -1,10 +1,10 @@
 ---
 manufacturer: Juniper
-model: QFX10002-36Q
-slug: juniper-qfx10002-36q
-part_number: QFX10002-36Q
+model: QFX10002-72Q-DC
+slug: juniper-qfx10002-72q-dc
+part_number: QFX10002-72Q-DC
 u_height: 2
-weight: 54
+weight: 67.8
 weight_unit: lb
 airflow: front-to-rear
 is_full_depth: true
@@ -17,6 +17,10 @@ module-bays:
     position: '0'
   - name: PSU 1
     position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PSU 3
+    position: '3'
 interfaces:
   - name: em0
     type: 1000base-t
@@ -95,4 +99,76 @@ interfaces:
   - name: et-0/0/34
     type: 40gbase-x-qsfpp
   - name: et-0/0/35
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/36
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/37
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/38
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/39
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/40
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/41
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/42
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/43
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/44
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/45
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/46
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/47
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/48
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/49
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/50
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/51
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/52
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/53
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/54
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/55
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/56
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/57
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/58
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/59
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/60
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/61
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/62
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/63
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/64
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/65
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/66
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/67
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/68
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/69
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/70
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/71
     type: 40gbase-x-qsfpp
