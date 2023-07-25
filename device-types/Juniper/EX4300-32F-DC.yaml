@@ -12,6 +12,8 @@ comments: '[Juniper EX4300 Data Sheet](https://www.juniper.net/content/dam/www/a
 console-ports:
   - name: Console
     type: rj-45
+  - name: Front Console
+    type: usb-mini-b
 module-bays:
   - name: PSU 0
     position: '0'
