@@ -2,146 +2,48 @@
 manufacturer: Juniper
 model: QFX10008
 slug: qfx10008
-default_platform: Junos
-part_number: ''
+part_number: front-to-rear
 u_height: 13.0
 is_full_depth: true
-subdevice_role: ''
-airflow: ''
 comments: '[Juniper QFX10008 Data Sheet](https://www.juniper.net/us/en/products/switches/qfx-series/qfx10000-qfx10008-qfx10016-spine-and-core-switches.html/)'
-weight: null
-weight_unit: ''
-console-ports:
-- name: re0
-  type: rj-45
-  label: ''
-  description: ''
-- name: re1
-  type: rj-45
-  label: ''
-  description: ''
-power-ports:
-- name: PSU0-inp1
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU0-inp2
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU1-inp1
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU1-inp2
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU2-inp1
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU2-inp2
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU3-inp1
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU3-inp2
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU4-inp1
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU4-inp2
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU5-inp1
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU5-inp2
-  type: iec-60320-c20
-  maximum_draw: 2700
-  allocated_draw: null
-  label: ''
-  description: ''
-interfaces:
-- name: em0
-  type: 1000base-t
-  enabled: true
-  mgmt_only: true
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: em1
-  type: 1000base-t
-  enabled: true
-  mgmt_only: true
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
 module-bays:
-- name: fpc0
-  label: ''
-  position: '0'
-  description: ''
-- name: fpc1
-  label: ''
-  position: '1'
-  description: ''
-- name: fpc2
-  label: ''
-  position: '2'
-  description: ''
-- name: fpc3
-  label: ''
-  position: '3'
-  description: ''
-- name: fpc4
-  label: ''
-  position: '4'
-  description: ''
-- name: fpc5
-  label: ''
-  position: '5'
-  description: ''
-- name: fpc6
-  label: ''
-  position: '6'
-  description: ''
-- name: fpc7
-  label: ''
-  position: '7'
-  description: ''
+  - name: CB0
+    label: Routing Engine 0
+    position: re0
+  - name: CB1
+    label: Routing Engine 1
+    position: re1
+  - name: PEM0
+    label: PSU 0
+    position: PSU0
+  - name: PEM1
+    label: PSU 1
+    position: PSU1
+  - name: PEM2
+    label: PSU 2
+    position: PSU2
+  - name: PEM3
+    label: PSU 3
+    position: PSU3
+  - name: PEM4
+    label: PSU 4
+    position: PSU4
+  - name: PEM5
+    label: PSU 5
+    position: PSU5
+  - name: FPC 0
+    position: '0'
+  - name: FPC 1
+    position: '1'
+  - name: FPC 2
+    position: '2'
+  - name: FPC 3
+    position: '3'
+  - name: FPC 4
+    position: '4'
+  - name: FPC 5
+    position: '5'
+  - name: FPC 6
+    position: '6'
+  - name: FPC 7
+    position: '7'

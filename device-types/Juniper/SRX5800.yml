@@ -1,18 +1,12 @@
 ---
 manufacturer: Juniper
-model: QFX10016
-slug: qfx10016
-u_height: 21.0
+model: SRX5800
+slug: SRX5800
+u_height: 16.0
 is_full_depth: true
 airflow: front-to-rear
-comments: '[Juniper QFX10016 Data Sheet](https://www.juniper.net/us/en/products/switches/qfx-series/qfx10000-qfx10008-qfx10016-spine-and-core-switches.html/)'
+comments: '[Juniper SRX5800 Data Sheet](https://www.juniper.net/us/en/products/security/srx-series/srx5800-large-enterprise-data-center-firewall.html)'
 module-bays:
-  - name: CB0
-    label: Routing Engine 0
-    position: re0
-  - name: CB1
-    label: Routing Engine 1
-    position: re1
   - name: PEM0
     label: PSU 0
     position: PSU0
@@ -25,14 +19,6 @@ module-bays:
   - name: PEM3
     label: PSU 3
     position: PSU3
-  - name: PEM4
-    label: PSU 4
-    position: PSU4
-  - name: PEM5
-    label: PSU 5
-  - name: PEM6
-    label: PSU 6
-    position: PSU6
   - name: PEM7
     label: PSU 7
     position: PSU7
@@ -54,6 +40,15 @@ module-bays:
     position: '4'
   - name: FPC 5
     position: '5'
+  - name: CB0
+    label: Routing Engine 0
+    position: re0
+  - name: CB1
+    label: Routing Engine 1
+    position: re1
+  - name: CB2
+    label: Routing Engine 2
+    position: re2
   - name: FPC 6
     position: '6'
   - name: FPC 7
@@ -66,11 +61,3 @@ module-bays:
     position: '10'
   - name: FPC 11
     position: '11'
-  - name: FPC 12
-    position: '12'
-  - name: FPC 13
-    position: '13'
-  - name: FPC 14
-    position: '14'
-  - name: FPC 15
-    position: '15'
