@@ -1,8 +1,8 @@
 ---
 manufacturer: Juniper
-model: SRX345
-slug: juniper-srx345
-part_number: SRX345-SYS-JB
+model: SRX345-DC
+slug: juniper-srx345-dc
+part_number: SRX345-SYS-JB-DC
 u_height: 1
 weight: 10.80
 weight_unit: lb
@@ -14,7 +14,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PSU0
-    type: iec-60320-c14
+    type: dc-terminal
     allocated_draw: 122
 module-bays:
   - name: PIM 0
