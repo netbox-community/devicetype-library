@@ -1,3 +1,4 @@
+---
 manufacturer: F5
 model: BIG-IP-r4600
 slug: r4600
@@ -5,114 +6,114 @@ default_platform: Big-IP
 part_number: F5-BIG-LTM-R4600
 u_height: 1.0
 is_full_depth: false
-subdevice_role: ''
+subdevice_role: ""
 airflow: front-to-rear
-comments: '[Big IP r4600 Data Sheet](https://www.f5.com/pdf/products/big-ip-platforms-datasheet.pdf)'
+comments: "[Big IP r4600 Data Sheet](https://www.f5.com/pdf/products/big-ip-platforms-datasheet.pdf)"
 console-ports:
-- name: CONSOLE
-  type: rj-45
-  label: ''
-  description: ''
-- name: CONSOLE-Failover
-  type: rj-45
-  label: ''
-  description: ''
-- name: USB
-  type: usb-a
-  label: ''
-  description: ''
+  - name: CONSOLE
+    type: rj-45
+    label: ""
+    description: ""
+  - name: CONSOLE-Failover
+    type: rj-45
+    label: ""
+    description: ""
+  - name: USB
+    type: usb-a
+    label: ""
+    description: ""
 power-ports:
-- name: PSU0
-  type: iec-60320-c14
-  maximum_draw: 250
-  allocated_draw: 130
-  label: ''
-  description: ''
-- name: PSU1
-  type: iec-60320-c14
-  maximum_draw: 250
-  allocated_draw: 130
-  label: ''
-  description: ''
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 130
+    label: ""
+    description: ""
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 130
+    label: ""
+    description: ""
 interfaces:
-- name: '1.0'
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '2.0'
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '3.0'
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '4.0'
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '5.0'
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '6.0'
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '7.0'
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: '8.0'
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-- name: MGMT
-  type: 1000base-t
-  enabled: true
-  mgmt_only: true
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
+  - name: "1.0"
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "2.0"
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "3.0"
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "4.0"
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "5.0"
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "6.0"
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "7.0"
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: "8.0"
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
+  - name: MGMT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: ""
+    description: ""
+    bridge: null
+    poe_mode: ""
+    poe_type: ""
