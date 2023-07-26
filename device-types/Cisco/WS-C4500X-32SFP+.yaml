@@ -9,15 +9,6 @@ comments: '[Cisco Catalyst 4500-X Series Switches Data Sheet](https://www.cisco.
 console-ports:
   - name: con0
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    allocated_draw: 330
-    maximum_draw: 400
-  - name: PS2
-    type: iec-60320-c14
-    allocated_draw: 330
-    maximum_draw: 400
 interfaces:
   - name: FastEthernet1
     type: 100base-tx
@@ -88,4 +79,8 @@ interfaces:
     type: 10gbase-x-sfpp
 module-bays:
   - name: Network Module
+    position: '2'
+  - name: PS1
+    position: '1'
+  - name: PS2
     position: '2'

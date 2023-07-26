@@ -5,6 +5,14 @@ part_number: IE-4000-8GT8GP4G-E
 slug: cisco-ie-4000-8gt8gp4g-e
 u_height: 3
 is_full_depth: false
+console-ports:
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: DC-B
+    type: dc-terminal
 interfaces:
   - name: GigabitEthernet1/1
     type: 1000base-t
@@ -46,6 +54,3 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/20
     type: 1000base-t
-console-ports:
-  - name: usb
-    type: usb-mini-b

@@ -1,4 +1,3 @@
-from test_configuration import KNOWN_SLUGS
 import os
 
 class DeviceType:
@@ -8,6 +7,7 @@ class DeviceType:
     def __init__(self, definition, file_path):
         self.file_path = file_path
         self.isDevice = True
+        self.definition = definition
         self.manufacturer = definition.get('manufacturer')
         self._slug_manufacturer = self._slugify_manufacturer()
         self.slug = definition.get('slug')
@@ -17,9 +17,6 @@ class DeviceType:
         self._slug_part_number = self._slugify_part_number()
         self.failureMessage = None
 
-    def get_manufacturer(self):
-        return self.manufacturer
-
     def _slugify_manufacturer(self):
         return self.manufacturer.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus-").replace("+", "-plus").replace("_", "-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-").replace("&", "and")
 
@@ -28,17 +25,11 @@ class DeviceType:
             return self.slug
         return None
 
-    def get_model(self):
-        return self.model
-
     def _slugify_model(self):
         slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
         if slugified.endswith("-"):
             slugified = slugified[:-1]
         return slugified
-
-    def get_part_number(self):
-        return self.part_number
 
     def _slugify_part_number(self):
         slugified = self.part_number.casefold().replace(" ", "-").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
@@ -49,25 +40,87 @@ class DeviceType:
     def get_filepath(self):
         return self.file_path
 
-    def verify_slug(self):
+    def verify_slug(self, KNOWN_SLUGS):
         # Verify the slug is unique, and not already known
-        if self.slug in KNOWN_SLUGS:
-            self.failureMessage = f'{self.file_path} device type has duplicate slug "{self.slug}"'
+        known_slug_list_intersect = [(slug, file_path) for slug, file_path in KNOWN_SLUGS if slug == self.slug]
+
+        if len(known_slug_list_intersect) == 0:
+            pass
+        elif len(known_slug_list_intersect) == 1:
+            if self.file_path not in known_slug_list_intersect[0][1]:
+                self.failureMessage = f'{self.file_path} has a duplicate slug: "{self.slug}"'
+                return False
+            return True
+        else:
+            self.failureMessage = f'{self.file_path} has a duplicate slug "{self.slug}"'
             return False
 
         # Verify the manufacturer is appended to the slug
         if not self.slug.startswith(self._slug_manufacturer):
-            self.failureMessage = f'{self.file_path} device type has slug "{self.slug}" which does not start with manufacturer "{self.manufacturer}"'
+            self.failureMessage = f'{self.file_path} contains slug "{self.slug}". Does not start with manufacturer: "{self.manufacturer.casefold()}-"'
             return False
 
         # Verify the slug ends with either the model or part number
         if not (self.slug.endswith(self._slug_model) or self.slug.endswith(self._slug_part_number)):
-            self.failureMessage = f'{self.file_path} has slug "{self.slug}". Does not end with the model "{self._slug_model}" or part number "{self._slug_part_number}"'
+            self.failureMessage = f'{self.file_path} has slug "{self.slug}". Does not end with the model "{self._slug_model}" or part_number "{self._slug_part_number}"'
             return False
 
         # Add the slug to the list of known slugs
-        KNOWN_SLUGS.add(self.slug)
+        KNOWN_SLUGS.add((self.slug, self.file_path))
         return True
+
+    def validate_power(self):
+        # Check if power-ports exists
+        if self.definition.get('power-ports', False):
+            # Verify that is_powered is not set to False. If so, there should not be any power-ports defined
+            if not self.definition.get('is_powered', True):
+                self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-ports" are defined.'
+                return False
+            return True
+
+        # Lastly, check if interfaces exists and has a poe_mode defined
+        interfaces = self.definition.get('interfaces', False)
+        if interfaces:
+            for interface in interfaces:
+                poe_mode = interface.get('poe_mode', "")
+                if poe_mode != "" and poe_mode == "pd":
+                    return True
+
+        console_ports = self.definition.get('console-ports', False)
+        if console_ports:
+            for console_port in console_ports:
+                poe = console_port.get('poe', False)
+                if poe:
+                    return True
+
+        rear_ports = self.definition.get('rear-ports', False)
+        if rear_ports:
+            for rear_port in rear_ports:
+                poe = rear_port.get('poe', False)
+                if poe:
+                    return True
+
+        # Check if the device is a child device, and if so, assume it has a valid power source from the parent
+        subdevice_role = self.definition.get('subdevice_role', False)
+        if subdevice_role:
+            if subdevice_role == "child":
+                return True
+
+        # Check if module-bays exists
+        if self.definition.get('module-bays', False):
+            # There is not a standardized way to define PSUs that are module bays, so we will just assume they are valid
+            return True
+
+        # As the very last case, check if is_powered is defined and is False. Otherwise assume the device is powered
+        if not self.definition.get('is_powered', True): # is_powered defaults to True
+            # Arriving here means is_powered is set to False, so verify that there are no power-outlets defined
+            if self.definition.get('power-outlets', False):
+                self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-outlets" are defined.'
+                return False
+            return True
+
+        self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
+        return False
 
 class ModuleType:
     def __new__(cls, *args, **kwargs):
@@ -76,14 +129,12 @@ class ModuleType:
     def __init__(self, definition, file_path):
         self.file_path = file_path
         self.isDevice = False
+        self.definition = definition
         self.manufacturer = definition.get('manufacturer')
         self.model = definition.get('model')
         self._slug_model = self._slugify_model()
         self.part_number = definition.get('part_number', "")
         self._slug_part_number = self._slugify_part_number()
-
-    def get_manufacturer(self):
-        return self.manufacturer
 
     def get_filepath(self):
         return self.file_path
@@ -105,7 +156,29 @@ def verify_filename(device: (DeviceType or ModuleType)):
     filename = tail.rsplit(".", 1)[0].casefold()
 
     if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
-        device.failureMessage = f'{device.file_path} file is not either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
+        device.failureMessage = f'{device.file_path} file name is invalid. Must be either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
         return False
+
+    return True
+
+def validate_components(component_types, device_or_module):
+    for component_type in component_types:
+        known_names = set()
+        defined_components = device_or_module.definition.get(component_type, [])
+        if not isinstance(defined_components, list):
+            device_or_module.failureMessage = f'{device_or_module.file_path} has an invalid definition for {component_type}.'
+            return False
+        for idx, component in enumerate(defined_components):
+            if not isinstance(component, dict):
+                device_or_module.failureMessage = f'{device_or_module.file_path} has an invalid definition for {component_type} ({idx}).'
+                return False
+            name = component.get('name')
+            if not isinstance(name, str):
+                device_or_module.failureMessage = f'{device_or_module.file_path} has an invalid definition for {component_type} name ({idx}).'
+                return False
+            if name in known_names:
+                device_or_module.failureMessage = f'{device_or_module.file_path} has duplicated names within {component_type} ({name}).'
+                return False
+            known_names.add(name)
 
     return True

@@ -11,6 +11,9 @@ console-ports:
     type: rj-45
   - name: usb-ble
     type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
 interfaces:
   - name: Port 1
     type: 1000base-t
