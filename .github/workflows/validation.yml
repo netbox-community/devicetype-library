@@ -87,3 +87,11 @@ jobs:
       - name: Run Test Cases
         id: pytest
         run: pytest --tb=short -v
+      - name: Check for pickle file change
+        id: pickle-change
+        uses: tj-actions/changed-files@v37
+        with:
+          files: 'tests/known-slugs.pickle'
+      - name: Check status
+        if: steps.pickle-change.outputs.any_changed == 'true'
+        run: exit 1
