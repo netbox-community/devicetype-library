@@ -109,3 +109,8 @@ jobs:
           labels: |
             status: revisions needed
             status: pickle-issue
+      - uses: actions-ecosystem/action-remove-labels@v1
+        if: steps.pickle-change.outputs.any_changed != 'true'
+        with:
+          labels: |
+            status: pickle-issue
