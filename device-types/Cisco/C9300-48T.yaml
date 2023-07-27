@@ -110,6 +110,10 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/48
     type: 1000base-t
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise 
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
