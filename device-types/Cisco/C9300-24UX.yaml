@@ -111,6 +111,10 @@ interfaces:
     type: 10gbase-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
 module-bays:
   - name: Network Module
     position: '1'
