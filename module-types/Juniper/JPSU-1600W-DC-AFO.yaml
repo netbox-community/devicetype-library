@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: JPSU-1600W-DC-AFO
+part_number: JPSU-1600W-DC-AFO
+# airflow: front-to-rear
+weight: 2.40
+weight_unit: lb
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1600

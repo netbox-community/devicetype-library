@@ -1,9 +1,13 @@
 ---
 manufacturer: Juniper
 model: ACX7100-48L-AC-AO
+part_number: ACX7100-48L-AC-AO
 slug: juniper-acx7100-48l-ac-ao
 u_height: 1
+weight: 20.54
+weight_unit: lb
 airflow: front-to-rear
+is_full_depth: true
 comments: '[Juniper ACX7100-48L Hardware Guide](https://www.juniper.net/documentation/us/en/hardware/acx7100-48L/topics/topic-map/acx7100-48L-system-overview.html)'
 console-ports:
   - name: Console
@@ -123,11 +127,15 @@ interfaces:
 module-bays:
   - name: PSM 0
     # Comment: Power Supply Module 0
+    maximum_draw: 1600
+    position: '0'
   - name: PSM 1
     # Comment: Power Supply Module 1
-  - name: Fan Tray 0
-  - name: Fan Tray 1
-  - name: Fan Tray 2
-  - name: Fan Tray 3
-  - name: Fan Tray 4
-  - name: Fan Tray 5
+    maximum_draw: 1600
+    poisition: '1'
+  - name: Fan Module 0
+  - name: Fan Module 1
+  - name: Fan Module 2
+  - name: Fan Module 3
+  - name: Fan Module 4
+  - name: Fan Module 5
