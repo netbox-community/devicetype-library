@@ -1,9 +1,22 @@
 ---
 manufacturer: Juniper
-model: QFX5200-48Y
-slug: juniper-qfx5200-48y
-comments: '[Juniper QFX5200 Data Sheet](https://www.juniper.net/us/en/products-services/switching/qfx-series/qfx5200/)'
+model: QFX5200-48Y-AFI
+slug: juniper-qfx5200-48y-afi
+part_number: QFX5200-48Y-AFI
 u_height: 1
+weight: 21.2
+weight_unit: lb
+airflow: rear-to-front
+is_full_depth: true
+comments: '[Juniper QFX5200 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx5200-switch-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
 interfaces:
   - name: fxp0
     type: 1000base-t
@@ -116,13 +129,3 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: et-0/0/53
     type: 100gbase-x-qsfp28
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 650
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
-console-ports:
-  - name: Console
-    type: rj-45
