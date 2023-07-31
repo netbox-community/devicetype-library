@@ -1,20 +1,20 @@
 ---
 manufacturer: NetApp
 model: DS460C
-slug: ds460c
+slug: netapp-ds460c
 airflow: front-to-rear
 u_height: 4
 is_full_depth: true
 module-bays:
   - name: PSU 1
-    position: '1'
+    position: "1"
     description: Located in the top bay.
   - name: IOM A
-    position: '2'
+    position: "2"
     description: Located in the bay second from the top.
   - name: IOM B
-    position: '3'
+    position: "3"
     description: Located in the bay third from the top.
   - name: PSU 2
-    position: '4'
+    position: "4"
     description: Located in the bottom bay.
