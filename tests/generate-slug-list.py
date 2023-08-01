@@ -6,18 +6,18 @@ import decimal
 from yaml_loader import DecimalSafeLoader
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
-from test_configuration import SCHEMAS, KNOWN_SLUGS, ROOT_DIR
+from test_configuration import SCHEMAS, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES
 from urllib.request import urlopen
 import pickle_operations
 
-def _get_device_type_files():
+def _get_type_files(device_or_module):
     """
     Return a list of all definition files within the specified path.
     """
     file_list = []
 
     for path, schema in SCHEMAS:
-        if path == 'device-types':
+        if path == f'{device_or_module}-types':
             # Initialize the schema
             with open(f"{ROOT_DIR}/schema/{schema}") as schema_file:
                 schema = json.loads(schema_file.read(),
@@ -75,8 +75,8 @@ def load_file(file_path, schema):
 
     return (True, definition)
 
-def _generate_known_slugs():
-    all_files = _get_device_type_files()
+def _generate_knowns(device_or_module):
+    all_files = _get_type_files(device_or_module)
 
     for file_path, schema in all_files:
         definition_status, definition = load_file(file_path, schema)
@@ -84,7 +84,13 @@ def _generate_known_slugs():
             print(definition)
             exit(1)
 
-        KNOWN_SLUGS.add((definition.get('slug'), file_path))
+        if device_or_module == 'device':
+            KNOWN_SLUGS.add((definition.get('slug'), file_path))
+        else:
+            KNOWN_MODULES.add((os.path.splitext(os.path.basename(file_path))[0], os.path.dirname(file_path)))
 
-_generate_known_slugs()
+_generate_knowns('device')
 pickle_operations.write_pickle_data(KNOWN_SLUGS, f'{ROOT_DIR}/tests/known-slugs.pickle')
+
+_generate_knowns('module')
+pickle_operations.write_pickle_data(KNOWN_MODULES, f'{ROOT_DIR}/tests/known-modules.pickle')

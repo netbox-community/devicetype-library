@@ -1,16 +1,21 @@
 ---
 manufacturer: Juniper
-model: JNP-SRX380-P
-slug: juniper-jnp-srx380-p
-part_number: SRX380-P
+model: EX2300-24T-DC
+slug: juniper-ex2300-24t-dc
+part_number: EX2300-24T-DC
 u_height: 1
-is_full_depth: true
+weight: 7.25
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Juniper EX2300 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex2300-ethernet-switch-datasheet.pdf)'
 console-ports:
-  - name: console0
+  - name: Console
     type: rj-45
 power-ports:
-  - name: power0
-    type: iec-60320-c14
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 55
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
@@ -44,14 +49,27 @@ interfaces:
     type: 1000base-t
   - name: ge-0/0/15
     type: 1000base-t
-  - name: xe-0/0/16
-    type: 10gbase-x-sfpp
-  - name: xe-0/0/17
-    type: 10gbase-x-sfpp
-  - name: xe-0/0/18
-    type: 10gbase-x-sfpp
-  - name: xe-0/0/19
-    type: 10gbase-x-sfpp
-  - name: fxp0
+  - name: ge-0/0/16
     type: 1000base-t
-    mgmt_only: true
+  - name: ge-0/0/17
+    type: 1000base-t
+  - name: ge-0/0/18
+    type: 1000base-t
+  - name: ge-0/0/19
+    type: 1000base-t
+  - name: ge-0/0/20
+    type: 1000base-t
+  - name: ge-0/0/21
+    type: 1000base-t
+  - name: ge-0/0/22
+    type: 1000base-t
+  - name: ge-0/0/23
+    type: 1000base-t
+  - name: xe-0/0/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/3
+    type: 10gbase-x-sfpp

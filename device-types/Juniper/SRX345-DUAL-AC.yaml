@@ -1,10 +1,10 @@
 ---
 manufacturer: Juniper
-model: SRX345
-slug: juniper-srx345
-part_number: SRX345-SYS-JB
+model: SRX345-DUAL-AC
+slug: juniper-srx345-dual-ac
+part_number: SRX345-SYS-JB-2AC
 u_height: 1
-weight: 10.80
+weight: 11.02
 weight_unit: lb
 airflow: front-to-rear
 is_full_depth: false
@@ -14,6 +14,9 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 122
+  - name: PSU1
     type: iec-60320-c14
     allocated_draw: 122
 module-bays:
