@@ -1,4 +1,4 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
@@ -105,7 +105,10 @@ def test_environment():
     if definition_files:
         pytest.skip("No changes to definition files found.")
 
-definition_files = _get_diff_from_upstream()
+if USE_UPSTREAM_DIFF:
+    definition_files = _get_diff_from_upstream()
+else:
+    definition_files = _get_definition_files()
 image_files = _get_image_files()
 
 if USE_LOCAL_KNOWN_SLUGS:
