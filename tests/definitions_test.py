@@ -1,4 +1,4 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
@@ -105,15 +105,20 @@ def test_environment():
     if definition_files:
         pytest.skip("No changes to definition files found.")
 
-definition_files = _get_diff_from_upstream()
+if USE_UPSTREAM_DIFF:
+    definition_files = _get_diff_from_upstream()
+else:
+    definition_files = _get_definition_files()
 image_files = _get_image_files()
 
 if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
+    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
 else:
     temp_dir = tempfile.TemporaryDirectory()
     repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
+    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
@@ -159,7 +164,7 @@ def test_definitions(file_path, schema):
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
 
     # Verify the filename is valid. Must either be the model or part_number.
-    assert verify_filename(this_device), pytest.fail(this_device.failureMessage, False)
+    assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)
 
     # Check for duplicate components within the definition
     assert validate_components(COMPONENT_TYPES, this_device), pytest.fail(this_device.failureMessage, False)

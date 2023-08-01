@@ -12,7 +12,7 @@ jobs:
       - uses: actions/stale@v5
         with:
           close-pr-message: >
-            This PR has been automatically closed due to lack of activity.
+            This PR has been automatically closed due to lack of activity. Please reopen if you would like to to re-review it.
           days-before-stale: 30
           days-before-close: 7
           operations-per-run: 100
