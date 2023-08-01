@@ -1,24 +1,32 @@
 ---
 manufacturer: Juniper
-model: EX4100-F-12P
-slug: juniper-ex4100-f-12p
-part_number: EX4100-F-12P
+model: SRX380
+slug: juniper-srx380
+part_number: SRX380-P-SYS-JB-AC
 u_height: 1
-weight: 6.61
+weight: 16.76
 weight_unit: lb
-airflow: passive
+airflow: front-to-rear
 is_full_depth: false
-comments: '[Juniper EX4100-F Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex4100-f-line-of-ethernet-datasheet.pdf)'
+comments: '[Juniper SRX300 Series Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
 console-ports:
-  - name: Console
+  - name: console0
     type: rj-45
-  - name: Console (USB)
-    type: usb-c
-power-ports:
-  - name: PSU0
-    type: dc-terminal
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+  - name: PIM 0
+    position: '2'
+  - name: PIM 1
+    position: '3'
+  - name: PIM 2
+    position: '4'
+  - name: PIM 3
+    position: '5'
 interfaces:
-  - name: me0
+  - name: fxp0
     type: 1000base-t
     mgmt_only: true
   - name: ge-0/0/0
@@ -69,15 +77,27 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type1-ieee802.3af
-  - name: xe-0/1/0
+  - name: ge-0/0/12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: ge-0/0/13
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: ge-0/0/14
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: ge-0/0/15
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: xe-0/0/16
     type: 10gbase-x-sfpp
-  - name: xe-0/1/1
+  - name: xe-0/0/17
     type: 10gbase-x-sfpp
-  - name: xe-0/1/2
+  - name: xe-0/0/18
     type: 10gbase-x-sfpp
-  - name: xe-0/1/3
+  - name: xe-0/0/19
     type: 10gbase-x-sfpp
-  - name: mge-0/2/0
-    type: 10gbase-t
-  - name: mge-0/2/1
-    type: 10gbase-t
