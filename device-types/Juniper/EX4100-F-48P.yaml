@@ -1,23 +1,23 @@
 ---
 manufacturer: Juniper
-model: EX3400-48P
-part_number: EX3400-48P
-slug: juniper-ex3400-48p
+model: EX4100-F-48P
+slug: juniper-ex4100-f-48p
+part_number: EX4100-F-48P
 u_height: 1
-airflow: front-to-rear
-weight: 10.49
+weight: 11.46
 weight_unit: lb
-comments: '[Juniper EX3400 Hardware Guide](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex3400-ethernet-switch-datasheet.pdf)'
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Juniper EX4100-F Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex4100-f-line-of-ethernet-datasheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
   - name: Console (USB)
-    type: usb-mini-b
-module-bays:
+    type: usb-c
+power-ports:
   - name: PSU0
-    position: '0'
-  - name: PSU1
-    position: '1'
+    type: iec-60320-c14
+    maximum_draw: 850
 interfaces:
   - name: me0
     type: 1000base-t
@@ -214,23 +214,19 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type1-ieee802.3af
-  - name: et-0/1/0
-    type: 40gbase-x-qsfpp
-  - name: et-0/1/1
-    type: 40gbase-x-qsfpp
-  - name: ge-0/2/0
-    type: 1000base-x-sfp
-  - name: ge-0/2/1
-    type: 1000base-x-sfp
-  - name: ge-0/2/2
-    type: 1000base-x-sfp
-  - name: ge-0/2/3
-    type: 1000base-x-sfp
-  - name: xe-0/2/0
+  - name: xe-0/0/48
     type: 10gbase-x-sfpp
-  - name: xe-0/2/1
+  - name: xe-0/0/49
     type: 10gbase-x-sfpp
-  - name: xe-0/2/2
+  - name: xe-0/0/50
     type: 10gbase-x-sfpp
-  - name: xe-0/2/3
+  - name: xe-0/0/51
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/3
     type: 10gbase-x-sfpp

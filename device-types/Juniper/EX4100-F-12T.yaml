@@ -2,14 +2,25 @@
 manufacturer: Juniper
 model: EX4100-F-12T
 slug: juniper-ex4100-f-12t
+part_number: EX4100-F-12T
 u_height: 1
-part_number: EX4100-F-12t
-is_full_depth: false
-airflow: passive
 weight: 5.95
 weight_unit: lb
-comments: https://www.juniper.net/us/en/company/images/image-library-logos-and-product-photos/products/ex4100-f-12p.html
+airflow: passive
+is_full_depth: false
+comments: '[Juniper EX4100-F Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex4100-f-line-of-ethernet-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-c
+power-ports:
+  - name: PSU0
+    type: dc-terminal
 interfaces:
+  - name: me0
+    type: 1000base-t
+    mgmt_only: true
   - name: ge-0/0/0
     type: 1000base-t
   - name: ge-0/0/1
@@ -46,14 +57,3 @@ interfaces:
     type: 10gbase-t
   - name: mge-0/2/1
     type: 10gbase-t
-  - name: me0
-    type: 1000base-t
-    mgmt_only: true
-power-ports:
-  - name: PSU0
-    type: dc-terminal
-console-ports:
-  - name: Console
-    type: rj-45
-  - name: Console (USB)
-    type: usb-c

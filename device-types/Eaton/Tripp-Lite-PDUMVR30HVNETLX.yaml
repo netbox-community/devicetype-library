@@ -1,0 +1,98 @@
+---
+manufacturer: Eaton
+model: Tripp Lite PDUMVR30HVNETLX
+slug: eaton-tripp-lite-pdumvr30hvnetlx
+part_number: PDUMVR30HVNETLX
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: "[Datasheet](https://assets.tripplite.com/product-pdfs/en/pdumvr30hvnetlx.pdf)\r\n[Drawing](https://assets.tripplite.com/submittal-drawing/pdumvr30hvnetlx-submittal-drawing-en.pdf)"
+weight: 5.44
+weight_unit: kg
+console-ports:
+  - name: Config
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: Power
+    type: nema-l6-30p
+    maximum_draw: 8320
+power-outlets:
+  - name: '01'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '02'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '03'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '04'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '05'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '06'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '07'
+    type: iec-60320-c13
+    power_port: Power
+  - name: 08
+    type: iec-60320-c13
+    power_port: Power
+  - name: 09
+    type: iec-60320-c13
+    power_port: Power
+  - name: '10'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '11'
+    type: iec-60320-c19
+    power_port: Power
+  - name: '12'
+    type: iec-60320-c19
+    power_port: Power
+  - name: '13'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '14'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '15'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '16'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '17'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '18'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '19'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '20'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '21'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '22'
+    type: iec-60320-c13
+    power_port: Power
+  - name: '23'
+    type: iec-60320-c19
+    power_port: Power
+  - name: '24'
+    type: iec-60320-c19
+    power_port: Power
+interfaces:
+  - name: Net
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
