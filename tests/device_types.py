@@ -151,13 +151,19 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
-def verify_filename(device: (DeviceType or ModuleType)):
+def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
 
     if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
         device.failureMessage = f'{device.file_path} file name is invalid. Must be either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
         return False
+
+    if not device.isDevice:
+        matches = [file_name for file_name, file_path in KNOWN_MODULES if file_name.casefold() == filename.casefold()]
+        if len(matches) > 1:
+            device.failureMessage = f'{device.file_path} appears to be duplicated. Found {len(matches)} matches: {", ".join(matches)}'
+            return False
 
     return True
 
