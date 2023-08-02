@@ -34,18 +34,10 @@
             ]
         },
         "weight": {
-            "type": "number",
-            "minimum": 0,
-            "multipleOf": 0.01
+            "$ref": "static.json#/definitions/weight"
         },
         "weight_unit": {
-            "type": "string",
-            "enum": [
-                "kg",
-                "g",
-                "lb",
-                "oz"
-            ]
+            "$ref": "static.json#/definitions/weight_unit"
         },
         "front_image": {
             "type": "boolean"
