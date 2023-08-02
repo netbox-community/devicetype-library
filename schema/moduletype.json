@@ -11,10 +11,10 @@
             "type": "string"
         },
         "weight": {
-            "$ref": "static.json#/definitions/weight"
+            "$ref": "reusable.json#/definitions/weight"
         },
         "weight_unit": {
-            "$ref": "static.json#/definitions/weight_unit"
+            "$ref": "generated.json#/definitions/weight-unit"
         },
         "console-ports": {
             "type": "array",

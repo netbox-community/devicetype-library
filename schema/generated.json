@@ -2,6 +2,33 @@
   "type": "object",
   "additionalProperties": false,
   "definitions": {
+    "airflow": {
+      "type": "string",
+      "enum": [
+        "front-to-rear",
+        "rear-to-front",
+        "left-to-right",
+        "right-to-left",
+        "side-to-rear",
+        "passive"
+      ]
+    },
+    "weight-unit": {
+      "type": "string",
+      "enum": [
+        "kg",
+        "g",
+        "lb",
+        "oz"
+      ]
+    },
+    "subdevice-role": {
+      "type": "string",
+      "enum": [
+        "parent",
+        "child"
+      ]
+    },
     "console-port": {
       "type": "object",
       "properties": {
@@ -30,28 +57,27 @@
     "console-server-port": {
       "type": "object",
       "properties": {
-          "type": {
-            "type": "string",
-            "enum": [
-                "de-9",
-                "db-25",
-                "rj-12",
-                "rj-45",
-                "mini-din-8",
-                "usb-a",
-                "usb-b",
-                "usb-c",
-                "usb-mini-a",
-                "usb-mini-b",
-                "usb-micro-a",
-                "usb-micro-b",
-                "usb-micro-ab",
-                "other"
-            ]
-          }
-      },
-      "required": ["name", "type"]
-  },
+        "type": {
+          "type": "string",
+          "enum": [
+            "de-9",
+            "db-25",
+            "rj-12",
+            "rj-45",
+            "mini-din-8",
+            "usb-a",
+            "usb-b",
+            "usb-c",
+            "usb-mini-a",
+            "usb-mini-b",
+            "usb-micro-a",
+            "usb-micro-b",
+            "usb-micro-ab",
+            "other"
+          ]
+        }
+      }
+    },
     "power-port": {
       "type": "object",
       "properties": {
@@ -249,7 +275,7 @@
             "other"
           ]
         },
-        "feed_leg": {
+        "feed-leg": {
           "type": "string",
           "enum": [
             "A",
