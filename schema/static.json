@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    },
+    "weight_unit": {
+      "type": "string",
+      "enum": [
+        "kg",
+        "g",
+        "lb",
+        "oz"
+      ]
+    }
+  }
+}
