@@ -1,23 +1,26 @@
 ---
 manufacturer: Arista
-model: DCS-7280CR2A-30
-slug: arista-dcs-7280cr2a-30
-part_number: DCS-7280CR2A-30
+model: DCS-7280CR2K-30-F
+slug: arista-dcs-7280cr2k-30-f
+part_number: DCS-7280CR2K-30-F
 u_height: 1
-is_full_depth: true
+weight: 34.2
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista 7280R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R-DataSheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 630
-    allocated_draw: 565
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 630
-    allocated_draw: 565
+module-bays:
+  - name: PSU 1
+    position: '0'
+  - name: PSU 2
+    position: '1'
 interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
 # QSFP28(100G) ports can be broke into 4x25 with a model of [1-30]/[1-4]
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
@@ -79,6 +82,3 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet30/1
     type: 100gbase-x-qsfp28
-  - name: Management1
-    type: 1000base-t
-    mgmt_only: true
