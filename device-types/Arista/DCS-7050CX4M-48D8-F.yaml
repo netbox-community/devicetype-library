@@ -1,24 +1,23 @@
 ---
 manufacturer: Arista
-model: DCS-7280CR2A-30
-slug: arista-dcs-7280cr2a-30
-part_number: DCS-7280CR2A-30
+model: DCS-7050CX4M-48D8-F
+slug: arista-dcs-7050cx4m-48d8-f
+part_number: DCS-7050CX4M-48D8-F
 u_height: 1
+weight: 35.1
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: true
+comments: '[Arista 7050X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7050X4-Datasheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 630
-    allocated_draw: 565
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 630
-    allocated_draw: 565
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
 interfaces:
-# QSFP28(100G) ports can be broke into 4x25 with a model of [1-30]/[1-4]
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
   - name: Ethernet2/1
@@ -79,6 +78,58 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet30/1
     type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet34/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet35/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet36/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet37/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet38/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet39/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet40/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet41/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet42/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet43/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet44/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet45/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet46/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet47/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet48/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet49/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet50/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet51/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet52/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet53/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet54/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet55/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet56/1
+    type: 400gbase-x-qsfpdd
   - name: Management1
     type: 1000base-t
     mgmt_only: true
