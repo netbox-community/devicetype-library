@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: PWR-1900-DC-R
+part_number: PWR-1900-DC-R
+# airflow: rear-to-front
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1900
