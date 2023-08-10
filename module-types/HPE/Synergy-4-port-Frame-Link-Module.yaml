@@ -11,9 +11,9 @@ console-ports:
 interfaces:
   - name: FLM {module}, MGMT
     type: 10gbase-x-sfpp
-  - name: interconnect {module}, LINK
+  - name: FLM {module}, LINK
     type: 10gbase-x-sfpp
-  - name: interconnect {module}, Appliance 1
+  - name: FLM {module}, Appliance 1
     type: 10gbase-x-sfpp
-  - name: interconnect {module}, Appliance 2
+  - name: FLM {module}, Appliance 2
     type: 10gbase-x-sfpp
