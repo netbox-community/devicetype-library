@@ -1,0 +1,16 @@
+---
+manufacturer: HPE
+model: Synergy 4-port Frame Link Module
+part_number: 876852-B21
+console-ports:
+  - name: FLM {module}, Console
+    type: usb-c
+interfaces:
+  - name: FLM {module}, MGMT
+    type: 10gbase-x-sfpp
+  - name: interconnect {module}, LINK
+    type: 10gbase-x-sfpp
+  - name: interconnect {module}, Appliance 1
+    type: 10gbase-x-sfpp
+  - name: interconnect {module}, Appliance 2
+    type: 10gbase-x-sfpp
