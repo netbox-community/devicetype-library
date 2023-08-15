@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    }
+  }
+}

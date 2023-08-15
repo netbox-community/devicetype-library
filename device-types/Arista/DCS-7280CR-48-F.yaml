@@ -1,14 +1,14 @@
 ---
 manufacturer: Arista
-model: DCS-7260CX3-64-F
-slug: arista-dcs-7260cx3-64-f
-part_number: DCS-7260CX3-64-F
+model: DCS-7280CR-48-F
+slug: arista-dcs-7280cr-48-f
+part_number: DCS-7280CR-48-F
 u_height: 2
-weight: 34
+weight: 46.7
 weight_unit: lb
 airflow: front-to-rear
-is_full_depth: true
-comments: '[Arista 7260X3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7260X3_Datasheet.pdf)'
+is_full_depth: false
+comments: '[Arista 7280R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R-DataSheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
@@ -21,6 +21,7 @@ interfaces:
   - name: Management1
     type: 1000base-t
     mgmt_only: true
+# QSFP28(100G) ports can be broke into 4x25 with a model of [1-48]/[1-4]
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
   - name: Ethernet2/1
@@ -117,39 +118,20 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet48/1
     type: 100gbase-x-qsfp28
-  - name: Ethernet49/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet50/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet51/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet52/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet53/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet54/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet55/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet56/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet57/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet58/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet59/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet60/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet61/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet62/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet63/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet64/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet65
-    type: 10gbase-x-sfpp
-  - name: Ethernet66
-    type: 10gbase-x-sfpp
+# QSFP+(40G) ports can be broke into 4x10 with a model of [49-56]/[1-4]
+  - name: Ethernet1/49
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/50
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/51
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/52
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/53
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/54
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/55
+    type: 40gbase-x-qsfpp
+  - name: Ethernet1/56
+    type: 40gbase-x-qsfpp
