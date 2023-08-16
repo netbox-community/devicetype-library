@@ -14,15 +14,11 @@ comments: '[FortiGate 800D Series Datasheet](https://www.fortinet.com/content/da
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PWR1
-    type: iec-60320-c14
-    maximum_draw: 187
-    allocated_draw: 128
-  - name: PWR2
-    type: iec-60320-c14
-    maximum_draw: 187
-    allocated_draw: 128
+module-bays:
+  - name: PS1
+    position: 1
+  - name: PS2
+    position: 2
 interfaces:
   - name: mgmt1
     type: 1000base-t
