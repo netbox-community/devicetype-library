@@ -8,8 +8,8 @@ is_full_depth: false
 weight: 5830
 weight_unit: g
 power-ports:
-  - name: PS1
-    type: iec-60320-c14
+  - name: XPS
+    type: dc-terminal
     maximum_draw: 881
     allocated_draw: 52
 console-ports:
@@ -123,3 +123,4 @@ module-bays:
   - name: Module B
     position: B
   - name: Stacking Module
+  - name: Power Supply
