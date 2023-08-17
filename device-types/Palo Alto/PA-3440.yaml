@@ -12,15 +12,6 @@ comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/a
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 190
-    allocated_draw: 155
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 190
-    allocated_draw: 155
 interfaces:
   - name: ethernet1/1
     type: 10gbase-t
@@ -87,3 +78,8 @@ interfaces:
   - name: management
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
