@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: PWR-750AC-F
+part_number: PWR-750AC-F
+# airflow: front-to-rear
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 750
