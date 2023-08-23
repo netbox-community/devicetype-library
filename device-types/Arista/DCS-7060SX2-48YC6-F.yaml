@@ -1,23 +1,26 @@
 ---
 manufacturer: Arista
-model: DCS-7060SX2-48YC6
-slug: arista-dcs-7060sx2-48yc6
-part_number: DCS-7060SX2-48YC6
+model: DCS-7060SX2-48YC6-F
+slug: arista-dcs-7060sx2-48yc6-f
+part_number: DCS-7060SX2-48YC6-F
 u_height: 1
+weight: 19.4
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: false
+comments: '[Arista 7060X and 7260X Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X_7260X_DS.pdf)'
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 500
-    allocated_draw: 240
+    position: '0'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 500
-    allocated_draw: 240
+    position: '1'
 interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
   - name: Ethernet1
     type: 25gbase-x-sfp28
   - name: Ethernet2
@@ -114,6 +117,8 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet48
     type: 25gbase-x-sfp28
+# QSFP28(100G) ports can be broken into 4x25 with a model of [49-54]/[1-4]
+# QSFP+(40G) ports can be broken into 4x10 with a model of [49-54]/[1-4]
   - name: Ethernet49/1
     type: 100gbase-x-qsfp28
   - name: Ethernet50/1
@@ -126,6 +131,3 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet54/1
     type: 100gbase-x-qsfp28
-  - name: Management1
-    type: 1000base-t
-    mgmt_only: true
