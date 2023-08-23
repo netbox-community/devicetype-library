@@ -1,0 +1,45 @@
+---
+manufacturer: HPE
+model: HPE FlexNetwork 7500 2.4Tbps Fabric with 8-port 1/10GbE SFP+ and 2-port 40GbE QSFP+
+part_number: JH209A
+comments: '[HPE FlexNetwork 7500 2.4Tbps Fabric with 8-port 1/10GbE SFP+ and 2-port 40GbE QSFP+](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c05028833)'
+weight: 4.4
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-a
+interfaces:
+  - name: M-GigabitEthernet{module}/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: M-GigabitEthernet{module}/0/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: M-GigabitEthernet{module}/0/2
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: M-GigabitEthernet{module}/0/3
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: Ten-GigabitEthernet{module}/0/1
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/2
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/3
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/4
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/5
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/6
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/7
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet{module}/0/8
+    type: 10gbase-x-sfpp
+  - name: Forty-GigabitEthernet{module}/0/1
+    type: 40gbase-x-qsfpp
+  - name: Forty-GigabitEthernet{module}/0/2
+    type: 40gbase-x-qsfpp

@@ -1,0 +1,42 @@
+---
+manufacturer: Cisco
+model: Meraki MX105
+slug: cisco-meraki-mx105
+part_number: MX105
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 10.74
+weight_unit: lb
+comments: '[Meraki MX105 Datasheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX95%2F%2F105_Datasheet)'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 123
+    allocated_draw: 55
+interfaces:
+  - name: USB
+    type: lte
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: WAN 1
+    type: 10gbase-x-sfpp
+  - name: WAN 2
+    type: 10gbase-x-sfpp
+  - name: WAN 3
+    type: 2.5gbase-t
+  - name: WAN 4
+    type: 2.5gbase-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 10gbase-x-sfpp
+  - name: Port 10
+    type: 10gbase-x-sfpp
