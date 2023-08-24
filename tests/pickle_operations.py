@@ -1,5 +1,6 @@
 import pickle
 
+
 def write_pickle_data(data, file_path):
     with open(file_path, 'wb') as pickle_file:
         pickle.dump(data, pickle_file)

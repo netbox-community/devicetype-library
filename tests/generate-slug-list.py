@@ -1,14 +1,17 @@
-import os
-import json
-import glob
-import yaml
 import decimal
-from yaml_loader import DecimalSafeLoader
+import glob
+import json
+import os
+from urllib.request import urlopen
+
+import yaml
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
-from test_configuration import SCHEMAS, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES
-from urllib.request import urlopen
+
 import pickle_operations
+from test_configuration import SCHEMAS, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES
+from yaml_loader import DecimalSafeLoader
+
 
 def _get_type_files(device_or_module):
     """
@@ -25,14 +28,15 @@ def _get_type_files(device_or_module):
 
             # Validate that the schema exists
             if not schema:
-              print(f"Schema definition for {path} is empty!")
-              exit(1)
+                print(f"Schema definition for {path} is empty!")
+                exit(1)
 
             # Map each definition file to its schema as a tuple (file, schema)
             for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
                 file_list.append((f'{file}', schema))
 
     return file_list
+
 
 def _decimal_file_handler(uri):
     """
@@ -42,23 +46,24 @@ def _decimal_file_handler(uri):
         result = json.loads(url.read().decode("utf-8"), parse_float=decimal.Decimal)
     return result
 
+
 def load_file(file_path, schema):
     # Read file
     try:
         with open(file_path) as definition_file:
             content = definition_file.read()
     except Exception as exc:
-        return (False, f'Error opening "{file_path}". stderr: {exc}')
+        return False, f'Error opening "{file_path}". stderr: {exc}'
 
     # Check for trailing newline. YAML files must end with an emtpy newline.
     if not content.endswith('\n'):
-      return (False, f'{file_path} is missing trailing newline')
+        return False, f'{file_path} is missing trailing newline'
 
     # Load YAML data from file
     try:
         definition = yaml.load(content, Loader=DecimalSafeLoader)
     except Exception as exc:
-        return (False, f'Error during yaml.load "{file_path}". stderr: {exc}')
+        return False, f'Error during yaml.load "{file_path}". stderr: {exc}'
 
     # Validate YAML definition against the supplied schema
     try:
@@ -71,9 +76,10 @@ def load_file(file_path, schema):
         Draft4Validator(schema, resolver=resolver).validate(definition)
     except ValidationError as exc:
         # Schema validation failure. Ensure you are following the proper format.
-        return (False, f'{file_path} failed validation: {exc}')
+        return False, f'{file_path} failed validation: {exc}'
 
-    return (True, definition)
+    return True, definition
+
 
 def _generate_knowns(device_or_module):
     all_files = _get_type_files(device_or_module)
@@ -88,6 +94,7 @@ def _generate_knowns(device_or_module):
             KNOWN_SLUGS.add((definition.get('slug'), file_path))
         else:
             KNOWN_MODULES.add((os.path.splitext(os.path.basename(file_path))[0], os.path.dirname(file_path)))
+
 
 _generate_knowns('device')
 pickle_operations.write_pickle_data(KNOWN_SLUGS, f'{ROOT_DIR}/tests/known-slugs.pickle')

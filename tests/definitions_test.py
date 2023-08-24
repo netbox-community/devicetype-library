@@ -1,7 +1,3 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
-import pickle_operations
-from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -11,9 +7,16 @@ from urllib.request import urlopen
 
 import pytest
 import yaml
+from git import Repo
 from jsonschema import Draft4Validator, RefResolver
 from jsonschema.exceptions import ValidationError
-from git import Repo
+
+import pickle_operations
+from device_types import DeviceType, ModuleType, verify_filename, validate_components
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, \
+    NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
+from yaml_loader import DecimalSafeLoader
+
 
 def _get_definition_files():
     """
@@ -34,6 +37,7 @@ def _get_definition_files():
             file_list.append((file, schema))
 
     return file_list
+
 
 def _get_diff_from_upstream():
     file_list = []
@@ -73,6 +77,7 @@ def _get_diff_from_upstream():
 
     return file_list
 
+
 def _get_image_files():
     """
     Return a list of all image files within the specified path and manufacturer.
@@ -89,6 +94,7 @@ def _get_image_files():
 
     return file_list
 
+
 def _decimal_file_handler(uri):
     """
     Handler to work with floating decimals that fail normal validation.
@@ -97,6 +103,7 @@ def _decimal_file_handler(uri):
         result = json.loads(url.read().decode("utf-8"), parse_float=decimal.Decimal)
     return result
 
+
 def test_environment():
     """
     Run basic sanity checks on the environment to ensure tests are running correctly.
@@ -104,6 +111,7 @@ def test_environment():
     # Validate that definition files exist
     if definition_files:
         pytest.skip("No changes to definition files found.")
+
 
 if USE_UPSTREAM_DIFF:
     definition_files = _get_diff_from_upstream()
@@ -119,6 +127,7 @@ else:
     repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
+
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
@@ -177,7 +186,7 @@ def test_definitions(file_path, schema):
             if isinstance(dict_value, list):
                 iterlist(dict_value)
             else:
-                if(isinstance(dict_value, str) and not dict_value):
+                if (isinstance(dict_value, str) and not dict_value):
                     pytest.fail(f'{file_path} has empty quotes', False)
 
     def iterlist(var):
@@ -192,7 +201,7 @@ def test_definitions(file_path, schema):
         assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
-    if (definition.get('front_image') or definition.get('rear_image')):
+    if definition.get('front_image') or definition.get('rear_image'):
         # Find images for given manufacturer, with matching device slug (exact match including case)
         manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).split('.')[0] == this_device.get_slug()]
         if not manufacturer_images:
@@ -201,14 +210,14 @@ def test_definitions(file_path, schema):
             pytest.fail(f'More than 2 images found for device with slug {this_device.get_slug()}: {manufacturer_images}', False)
 
         # If front_image is True, verify that a front image exists
-        if(definition.get('front_image')):
+        if definition.get('front_image'):
             front_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
 
             if not front_image:
                 pytest.fail(f'{file_path} has front_image set to True but no matching image found for device ({manufacturer_images})', False)
 
         # If rear_image is True, verify that a front image exists
-        if(definition.get('rear_image')):
+        if definition.get('rear_image'):
             rear_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
 
             if not rear_image:

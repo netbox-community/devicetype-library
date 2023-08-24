@@ -1,5 +1,6 @@
 import os
 
+
 class DeviceType:
     def __new__(cls, *args, **kwargs):
         return super().__new__(cls)
@@ -112,7 +113,7 @@ class DeviceType:
             return True
 
         # As the very last case, check if is_powered is defined and is False. Otherwise assume the device is powered
-        if not self.definition.get('is_powered', True): # is_powered defaults to True
+        if not self.definition.get('is_powered', True):  # is_powered defaults to True
             # Arriving here means is_powered is set to False, so verify that there are no power-outlets defined
             if self.definition.get('power-outlets', False):
                 self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-outlets" are defined.'
@@ -121,6 +122,7 @@ class DeviceType:
 
         self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
         return False
+
 
 class ModuleType:
     def __new__(cls, *args, **kwargs):
@@ -151,6 +153,7 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
+
 def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
@@ -166,6 +169,7 @@ def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or N
             return False
 
     return True
+
 
 def validate_components(component_types, device_or_module):
     for component_type in component_types:
