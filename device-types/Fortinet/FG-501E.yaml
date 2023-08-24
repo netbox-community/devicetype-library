@@ -1,0 +1,60 @@
+---
+manufacturer: Fortinet
+model: FortiGate 501E
+slug: fortinet-fg-501e
+part_number: FG-501E
+u_height: 1
+is_full_depth: false
+weight: 7.3
+weight_unit: kg
+comments: Same as FG-500E, but **WITH** 2 x 240GB SSD onboard storage.
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: ha
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp
+  - name: port11
+    type: 1000base-x-sfp
+  - name: port12
+    type: 1000base-x-sfp
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
