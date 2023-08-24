@@ -1,10 +1,26 @@
 ---
 manufacturer: Arista
-model: DCS-7050S-52
-slug: arista-dcs-7050s-52
-is_full_depth: true
+model: DCS-7050S-52-F
+slug: arista-dcs-7050s-52-f
+part_number: DCS-7050S-52-F
 u_height: 1
+weight: 17
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista 7050S Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7050S_Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '0'
+  - name: PS2
+    position: '1'
 interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
   - name: Ethernet1
     type: 10gbase-x-sfpp
   - name: Ethernet2
@@ -109,17 +125,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet52
     type: 10gbase-x-sfpp
-  - name: Management1
-    type: 1000base-t
-console-ports:
-  - name: Console
-    type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 460
-    allocated_draw: 150
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 460
-    allocated_draw: 150
