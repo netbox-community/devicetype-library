@@ -1,0 +1,61 @@
+---
+manufacturer: Extreme Networks
+model: X620-16x
+slug: extreme-networks-X620-16x
+part_number: '17401'
+u_height: 1
+is_full_depth: false
+weight: 5.0
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Extreme Networks X620 Technical Specifications](https://www.extremenetworks.com/products/switches/extremexos-switches/x620)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: RPS1
+    type: dc-terminal
+    description: Redundant Power Supply
+interfaces:
+  - name: Mgmt-port
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 10gbase-x-sfpp
+  - name: '2'
+    type: 10gbase-x-sfpp
+  - name: '3'
+    type: 10gbase-x-sfpp
+  - name: '4'
+    type: 10gbase-x-sfpp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: '11'
+    type: 10gbase-x-sfpp
+  - name: '12'
+    type: 10gbase-x-sfpp
+  - name: '13'
+    type: 10gbase-x-sfpp
+  - name: '14'
+    type: 10gbase-x-sfpp
+  - name: '15'
+    type: 10gbase-x-sfpp
+  - name: '16'
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: FAN
+    position: '1'
+  - name: PSU1
+    position: '2'
+  - name: PSU2
+    position: '3'
