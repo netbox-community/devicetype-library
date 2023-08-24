@@ -13,8 +13,7 @@ from jsonschema.exceptions import ValidationError
 
 import pickle_operations
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, \
-    NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
+from test_configuration import *
 from yaml_loader import DecimalSafeLoader
 
 
@@ -42,8 +41,7 @@ def _get_definition_files():
 def _get_diff_from_upstream():
     file_list = []
 
-    repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
-    commits_list = list(repo.iter_commits())
+    repo = Repo(ROOT_DIR)
 
     if "upstream" not in repo.remotes:
         repo.create_remote("upstream", NETBOX_DT_LIBRARY_URL)
@@ -65,7 +63,7 @@ def _get_diff_from_upstream():
 
         # Iterate through changed files
         for file in changes:
-            # Ensure the files are modified or added, this will disclude deleted files
+            # Ensure the files are modified or added, this will exclude deleted files
             if file.change_type in CHANGE_TYPE_LIST:
                 # If the file is renamed, ensure we are picking the right schema
                 if 'R' in file.change_type and path in file.rename_to:
