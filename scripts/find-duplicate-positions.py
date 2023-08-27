@@ -3,7 +3,7 @@
 
 import os, re, yaml
 from collections import defaultdict
-from itertools import groupby
+from itertools import groupby, combinations
 from Levenshtein import distance
 
 # Two module names with distance(name1, name2) > DISTANCE_THRESHHOLD are considered to be in different groups
@@ -37,14 +37,8 @@ def get_bays_with_duplicate_positions(device_type):
         if len(bay_names) > 1:
             yield position, bay_names
 
-def iter_pairs(items):
-    count = len(items)
-    for i, item1 in enumerate(items):
-        for item2 in items[i+1:]:
-            yield item1, item2
-
 def iter_similar_pairs(strings, threshold=DISTANCE_THRESHOLD):
-    for s1, s2 in iter_pairs(strings):
+    for s1, s2 in combinations(strings, 2):
         if distance(s1, s2) <= threshold:
             yield s1, s2
 
