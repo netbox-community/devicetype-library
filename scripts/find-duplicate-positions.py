@@ -37,14 +37,18 @@ def get_bays_with_duplicate_positions(device_type):
         if len(bay_names) > 1:
             yield position, bay_names
 
+def iter_pairs(items):
+    count = len(items)
+    for i, item1 in enumerate(items):
+        for item2 in items[i+1:]:
+            yield item1, item2
+
 for file_path, file_rel_path in walk_device_type_files():
     with open(file_path, 'r', encoding='utf8') as f:
         device_type = yaml.safe_load(f)
     for position, bay_names in get_bays_with_duplicate_positions(device_type):
         # Iterate through these, pairwise, and report any bays with the same position and very similar names (low levenshtein distances)
-        count = len(bay_names)
-        for i, bay1 in enumerate(bay_names):
-            for bay2 in bay_names[i+1:]:
-                d = distance(bay1, bay2)
-                if d <= DISTANCE_THRESHOLD:
-                    print(f"In {file_rel_path}, module bays {bay1} and {bay2} both have position {position}.")
+        for bay1, bay2 in iter_pairs(bay_names):
+            d = distance(bay1, bay2)
+            if d <= DISTANCE_THRESHOLD:
+                print(f"In {file_rel_path}, module bays {bay1} and {bay2} both have position {position}.")
