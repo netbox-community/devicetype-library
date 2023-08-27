@@ -50,6 +50,6 @@ def iter_bays_with_duplicate_positions_and_similar_names(device_type):
 if __name__ == '__main__':
     for file_path, file_rel_path in walk_device_type_files():
         with open(file_path, 'r', encoding='utf8') as f:
-            device_type = yaml.safe_load(f)
+            device_type = yaml.load(f, Loader=yaml.CSafeLoader)
         for position, bay1, bay2 in iter_bays_with_duplicate_positions_and_similar_names(device_type):
             print(f"In {file_rel_path}, module bays {bay1} and {bay2} both have position {position}.")
