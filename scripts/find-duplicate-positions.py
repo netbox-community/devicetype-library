@@ -48,10 +48,11 @@ def iter_similar_pairs(strings, threshold=DISTANCE_THRESHOLD):
         if distance(s1, s2) <= threshold:
             yield s1, s2
 
-for file_path, file_rel_path in walk_device_type_files():
-    with open(file_path, 'r', encoding='utf8') as f:
-        device_type = yaml.safe_load(f)
-    for position, bay_names in get_bays_with_duplicate_positions(device_type):
-        # Find any pairs of module bays with the same positions and similar names
-        for bay1, bay2 in iter_similar_pairs(bay_names):
-            print(f"In {file_rel_path}, module bays {bay1} and {bay2} both have position {position}.")
+if __name__ == '__main__':
+    for file_path, file_rel_path in walk_device_type_files():
+        with open(file_path, 'r', encoding='utf8') as f:
+            device_type = yaml.safe_load(f)
+        for position, bay_names in get_bays_with_duplicate_positions(device_type):
+            # Find any pairs of module bays with the same positions and similar names
+            for bay1, bay2 in iter_similar_pairs(bay_names):
+                print(f"In {file_rel_path}, module bays {bay1} and {bay2} both have position {position}.")
