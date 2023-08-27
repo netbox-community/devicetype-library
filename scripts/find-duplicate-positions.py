@@ -7,7 +7,7 @@ from itertools import groupby
 from Levenshtein import distance
 
 # Two module names with distance(name1, name2) > DISTANCE_THRESHHOLD are considered to be in different groups
-DISTANCE_THRESHHOLD = 2
+DISTANCE_THRESHOLD = 2
 
 def walk_device_type_files():
     root_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "device-types")
@@ -46,5 +46,5 @@ for file_path, file_rel_path in walk_device_type_files():
         for i, bay1 in enumerate(bay_names):
             for bay2 in bay_names[i+1:]:
                 d = distance(bay1, bay2)
-                if d <= DISTANCE_THRESHHOLD:
+                if d <= DISTANCE_THRESHOLD:
                     print(f"In {file_rel_path}, module bays {bay1} and {bay2} both have position {position}.")
