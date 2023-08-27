@@ -2,7 +2,6 @@
 # pip install levenshtein
 
 import os, re, yaml
-from collections import defaultdict
 from itertools import groupby, combinations
 from Levenshtein import distance
 
