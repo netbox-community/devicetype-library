@@ -21,10 +21,6 @@ interfaces:
   - name: Redundancy Port
     type: 1000base-t
     mgmt_only: true
-  - name: TenGigabitEthernet0/1/0
-    type: 10gbase-t
-  - name: TenGigabitEthernet0/1/1
-    type: 10gbase-t
   - name: TwoGigabitEthernet0/0/0
     type: 2.5gbase-t
   - name: TwoGigabitEthernet0/0/1
@@ -33,6 +29,10 @@ interfaces:
     type: 2.5gbase-t
   - name: TwoGigabitEthernet0/0/3
     type: 2.5gbase-t
+  - name: TenGigabitEthernet0/1/0
+    type: 10gbase-t
+  - name: TenGigabitEthernet0/1/1
+    type: 10gbase-t
 power-ports:
   - name: PS1
     type: dc-terminal
