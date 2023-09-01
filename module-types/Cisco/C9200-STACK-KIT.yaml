@@ -4,7 +4,7 @@ model: C9200-STACK-KIT
 part_number: C9200-STACK-KIT
 comments: '[Stackwise Architecture](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-stackwise-architecture-cte-en.html)'
 interfaces:
-- name: StackPort1/{module}/1
+- name: StackPort1/1
   type: cisco-stackwise-160
-- name: StackPort1/{module}/2
+- name: StackPort1/2
   type: cisco-stackwise-160
