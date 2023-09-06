@@ -168,7 +168,7 @@ The available fields for each type of component are listed below.
 
 - `name`: Name
 - `label`: Label
-- `position`: The module bay's position within the parent device
+- `position`: The alphanumeric position in which this module bay is situated within the parent device. When creating module components, the string `{module}` in the component name will be replaced with the module bay's `position`. See the [NetBox Documentation](https://docs.netbox.dev/en/stable/models/dcim/moduletype/#automatic-component-renaming) for more details.
 
 #### Device Bays
 
