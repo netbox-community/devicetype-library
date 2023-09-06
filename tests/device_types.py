@@ -151,6 +151,24 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
+def validate_component_names(component_names: (set or None)):
+    if len(component_names) > 1:
+        verify_name = list(component_names[0])
+        for index, name in enumerate(component_names):
+            if index == 0:
+                continue
+
+            intersection = sorted(set(verify_name) & set(list(name)), key = verify_name.index)
+
+            intersection_len = len(intersection)
+            verify_subset = verify_name[:intersection_len]
+            name_subset = list(name)[:intersection_len]
+            subset_match = sorted(set(verify_subset) & set(name_subset), key = name_subset.index)
+
+            if len(intersection) > 2 and len(subset_match) == len(intersection):
+                return False
+    return True
+
 def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
@@ -170,6 +188,7 @@ def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or N
 def validate_components(component_types, device_or_module):
     for component_type in component_types:
         known_names = set()
+        known_components = []
         defined_components = device_or_module.definition.get(component_type, [])
         if not isinstance(defined_components, list):
             device_or_module.failureMessage = f'{device_or_module.file_path} has an invalid definition for {component_type}.'
@@ -179,12 +198,41 @@ def validate_components(component_types, device_or_module):
                 device_or_module.failureMessage = f'{device_or_module.file_path} has an invalid definition for {component_type} ({idx}).'
                 return False
             name = component.get('name')
+            position = component.get('position')
+            eval_component = (name, position)
             if not isinstance(name, str):
                 device_or_module.failureMessage = f'{device_or_module.file_path} has an invalid definition for {component_type} name ({idx}).'
                 return False
-            if name in known_names:
+            if eval_component[0] in known_names:
                 device_or_module.failureMessage = f'{device_or_module.file_path} has duplicated names within {component_type} ({name}).'
                 return False
+            known_components.append(eval_component)
             known_names.add(name)
+
+        # Adding check for duplicate positions within a component type
+        # Stems from https://github.com/netbox-community/devicetype-library/pull/1586
+        # and from https://github.com/netbox-community/devicetype-library/issues/1584
+        position_set = {}
+        index = 0
+        for name, position in known_components:
+            if position is not None:
+                match = []
+                if len(position_set) > 0:
+                    match = [key for key,val in position_set.items() if key == position]
+                if len(match) == 0:
+                    if len(position_set) == 0:
+                        position_set = {position: {known_components[index]}}
+                    else:
+                        position_set.update({position: {known_components[index]}})
+                else:
+                    position_set[position].add(known_components[index])
+            index = index + 1
+
+        for position in position_set:
+            if len(position_set[position]) > 1:
+                component_names = [name for name,pos in position_set[position]]
+                if not validate_component_names(component_names):
+                    device_or_module.failureMessage = f'{device_or_module.file_path} has duplicated positions within {component_type} ({position}).'
+                    return False
 
     return True
