@@ -1,24 +1,24 @@
 ---
 files: ^(device-types|module-types)/
 repos:
-  # - repo: https://github.com/pre-commit/pre-commit-hooks
-  #   rev: v4.4.0
-  #   hooks:
-  #     - id: trailing-whitespace
-  #     - id: end-of-file-fixer
-  #     - id: check-yaml
-  #       name: Check YAML files
-  # - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
-  #   rev: 0.2.3
-  #   hooks:
-  #     - id: yamlfmt
-  #       args: [--mapping, '2', --sequence, '4', --offset, '2']
-  # - repo: https://github.com/adrienverge/yamllint.git
-  #   rev: v1.31.0
-  #   hooks:
-  #     - id: yamllint
-  #       name: Lint YAML files
-  #       args: [--format, parsable, --strict]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+        name: Check YAML files
+  - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
+    rev: 0.2.3
+    hooks:
+      - id: yamlfmt
+        args: [--mapping, '2', --sequence, '4', --offset, '2']
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.31.0
+    hooks:
+      - id: yamllint
+        name: Lint YAML files
+        args: [--format, parsable, --strict]
   - repo: local
     hooks:
       - id: pytest
