@@ -21,6 +21,11 @@ COMPONENT_TYPES = (
     'module-bays',
 )
 
+PRECOMMIT_ALL_SWITCHES = [
+  '-a',
+  '--all-files'
+]
+
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
 KNOWN_SLUGS = set()
