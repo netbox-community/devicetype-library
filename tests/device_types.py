@@ -158,8 +158,15 @@ def validate_component_names(component_names: (set or None)):
         for index, name in enumerate(component_names):
             if index == 0:
                 continue
+
             intersection = sorted(set(verify_name) & set(list(name)), key = verify_name.index)
-            if len(intersection) > 2:
+
+            intersection_len = len(intersection)
+            verify_subset = verify_name[:intersection_len]
+            name_subset = list(name)[:intersection_len]
+            subset_match = sorted(set(verify_subset) & set(name_subset), key = name_subset.index)
+
+            if len(intersection) > 2 and len(subset_match) == len(intersection):
                 return False
     return True
 
