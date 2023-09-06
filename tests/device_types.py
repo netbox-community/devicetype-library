@@ -1,5 +1,4 @@
 import os
-import pytest
 
 class DeviceType:
     def __new__(cls, *args, **kwargs):
