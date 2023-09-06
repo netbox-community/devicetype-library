@@ -14,10 +14,6 @@ comments: |
   FB PN: 14-000071
 
   Takes PSU type DPST-2130CB-A
-console-ports:  # one or the other Serial or Management
-  - name: Serial
-    label: MGMT
-    type: rj-45
 power-ports:
   - name: ac-input-a
     label: AC INPUT A
@@ -52,7 +48,7 @@ power-outlets:
     feed_leg: C
   - name: dc-output-bus
     type: dc-terminal
-interfaces:  # one or the other Serial or Management
+interfaces:
   - name: Management
     label: MGMT
     type: 1000base-t
