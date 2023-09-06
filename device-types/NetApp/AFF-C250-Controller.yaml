@@ -1,0 +1,39 @@
+---
+manufacturer: NetApp
+model: AFF C250 Controller
+slug: netapp-aff-c250-controller
+u_height: 0
+subdevice_role: child
+console-ports:
+  - name: Serial Console
+    type: de-9
+  - name: USB Console
+    type: usb-micro-b
+power-ports:
+  - name: Power In
+    type: iec-60320-c14
+interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+  - name: e0a
+    type: 25gbase-x-sfp28
+  - name: e0b
+    type: 25gbase-x-sfp28
+  - name: e0c
+    type: 25gbase-x-sfp28
+    enabled: true
+  - name: e0d
+    type: 25gbase-x-sfp28
+  - name: e1a
+    type: 100gbase-x-qsfp28
+  - name: e1b
+    type: 100gbase-x-qsfp28
+  - name: e2a
+    type: 25gbase-x-sfp28
+  - name: e2b
+    type: 25gbase-x-sfp28
+  - name: e2c
+    type: 25gbase-x-sfp28
+  - name: e2d
+    type: 25gbase-x-sfp28

@@ -1,0 +1,14 @@
+---
+manufacturer: NetApp
+model: NSM100
+slug: netapp-nsm100
+u_height: 0
+subdevice_role: child
+power-ports:
+  - name: Power In
+    type: iec-60320-c14
+interfaces:
+  - name: e0a
+    type: 100gbase-x-qsfp28
+  - name: e0b
+    type: 100gbase-x-qsfp28
