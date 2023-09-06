@@ -8,3 +8,5 @@ subdevice_role: parent
 device-bays:
   - name: NSM A
   - name: NSM B
+# This is a bit of a white lie, the device is actually powered by the power supplies sitting in the child devices! But we need this here to pass the test suite.
+is_powered: false
