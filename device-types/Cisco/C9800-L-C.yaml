@@ -3,8 +3,12 @@ manufacturer: Cisco
 model: Catalyst 9800-L-C
 slug: cisco-c9800-l-c
 part_number: C9800-L-C
-u_height: 1
+u_height: 0
+subdevice_role: child
 is_full_depth: false
+airflow: front-to-rear
+weight: 3.95
+weight_unit: lb
 console-ports:
   - name: Con
     type: rj-45
@@ -17,19 +21,19 @@ interfaces:
   - name: Redundancy Port
     type: 1000base-t
     mgmt_only: true
-  - name: TenGigabitEthernet1
+  - name: TwoGigabitEthernet0/0/0
+    type: 2.5gbase-t
+  - name: TwoGigabitEthernet0/0/1
+    type: 2.5gbase-t
+  - name: TwoGigabitEthernet0/0/2
+    type: 2.5gbase-t
+  - name: TwoGigabitEthernet0/0/3
+    type: 2.5gbase-t
+  - name: TenGigabitEthernet0/1/0
     type: 10gbase-t
-  - name: TenGigabitEthernet2
+  - name: TenGigabitEthernet0/1/1
     type: 10gbase-t
-  - name: GigabitEthernet1
-    type: 2.5gbase-t
-  - name: GigabitEthernet2
-    type: 2.5gbase-t
-  - name: GigabitEthernet3
-    type: 2.5gbase-t
-  - name: GigabitEthernet4
-    type: 2.5gbase-t
 power-ports:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 110
+    type: dc-terminal
+    maximum_draw: 87

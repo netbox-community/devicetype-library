@@ -48,6 +48,7 @@ def _get_diff_from_upstream():
     upstream = repo.remotes.upstream
     upstream.fetch()
     changes = upstream.refs.master.commit.diff(repo.head)
+    changes = changes + repo.index.diff("HEAD")
 
     for path, schema in SCHEMAS:
         # Initialize the schema
