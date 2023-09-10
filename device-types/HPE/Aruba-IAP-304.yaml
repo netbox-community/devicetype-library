@@ -1,0 +1,21 @@
+---
+manufacturer: HPE
+model: Aruba IAP-304
+slug: hpe-aruba-iap-304
+part_number: IAP-304
+u_height: 0
+is_full_depth: false
+comments: '[Aruba 300 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP300Series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac

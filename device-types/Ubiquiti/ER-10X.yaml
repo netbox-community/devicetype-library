@@ -1,0 +1,36 @@
+---
+manufacturer: Ubiquiti
+model: EdgeRouter 10X
+slug: ubiquiti-er-10x
+part_number: ER-10X
+u_height: 1
+is_full_depth: false
+comments: '[EdgeRouter 10X](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+power-ports:
+  - name: 24VDC
+    type: dc-terminal
+    maximum_draw: 8
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-t
+  - name: eth9
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: rj-45

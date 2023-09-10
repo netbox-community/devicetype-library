@@ -1,0 +1,43 @@
+---
+manufacturer: APC
+model: SMT3000RMI2UC
+slug: apc-smt3000rmi2uc
+part_number: SMT3000RMI2UC
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: APC Smart-UPS, Line Interactive, 3000VA, Rackmount 2U, 230V, 6x IEC C13 outlets, SmartSlot, AVR, LCD
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c14
+    maximum_draw: 3600
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 1 Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: SmartSlot

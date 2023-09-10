@@ -1,0 +1,77 @@
+---
+manufacturer: Ruckus
+model: ICX 7150-C12P-2x10GR
+slug: ruckus-icx7150-c12p-2x10gr
+part_number: ICX7150-C12P-2x10GR
+is_full_depth: false
+u_height: 1
+airflow: passive
+interfaces:
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+  - name: 1/1/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/11
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/1/12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 1/2/1
+    type: 1000base-t
+  - name: 1/2/2
+    type: 1000base-t
+  - name: 1/3/1
+    type: 10gbase-x-sfpp
+  - name: 1/3/2
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: con0
+    type: usb-c
+  - name: con1
+    type: rj-45
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+    maximum_draw: 150

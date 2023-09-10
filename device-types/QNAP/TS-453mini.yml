@@ -1,0 +1,26 @@
+---
+manufacturer: QNAP
+model: TS-453mini
+slug: qnap-ts-453mini
+part_number: TS-453mini
+airflow: side-to-rear
+is_full_depth: false
+subdevice_role: parent
+device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+comments: '[TS-453mini | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453mini/specs/hardware)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 30
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 1000base-t
+  - name: eth1
+    label: '2'
+    type: 1000base-t

@@ -1,0 +1,424 @@
+---
+manufacturer: Arista
+model: CCS-720XP-96ZC2-4F
+slug: arista-ccs-720xp-96zc2-4f
+part_number: CCS-720XP-96ZC2-4F
+u_height: 2
+weight: 31
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista CCS 720XP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XP-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '0'
+  - name: PS2
+    position: '1'
+  - name: PS3
+    position: '2'
+  - name: PS4
+    position: '3'
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet13
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet14
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet15
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet16
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet17
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet18
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet19
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet20
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet21
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet22
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet23
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet24
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet25
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet26
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet27
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet28
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet29
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet30
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet31
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet32
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet33
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet34
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet35
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet36
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet37
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet38
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet39
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet40
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet41
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet42
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet43
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet44
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet45
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet46
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet47
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet48
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet49
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet50
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet51
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet52
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet53
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet54
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet55
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet56
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet57
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet58
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet59
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet60
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet61
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet62
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet63
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet64
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet65
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet66
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet67
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet68
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet69
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet70
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet71
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet72
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet73
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet74
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet75
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet76
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet77
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet78
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet79
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet80
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet81
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet82
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet83
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet84
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet85
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet86
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet87
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet88
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet89
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet90
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet91
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet92
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet93
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet94
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet95
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet96
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet97
+    type: 25gbase-x-sfp28
+  - name: Ethernet98
+    type: 25gbase-x-sfp28
+  - name: Ethernet99
+    type: 25gbase-x-sfp28
+  - name: Ethernet100
+    type: 25gbase-x-sfp28
+# QSFP28(100G) ports can be broke into 4x25 with a model of [101-102]/[1-4]
+  - name: Ethernet101/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet102/1
+    type: 100gbase-x-qsfp28

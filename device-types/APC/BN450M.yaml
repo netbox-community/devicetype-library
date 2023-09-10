@@ -1,10 +1,13 @@
 ---
 manufacturer: APC
 model: BN450M
-slug: BN450M
+slug: apc-bn450m
 u_height: 3
 is_full_depth: false
 comments: '[APC BN450M Datasheet](https://www.se.com/ww/en/product/download-pdf/BN450M)'
+power-ports:
+  - name: Input
+    type: nema-5-15p
 power-outlets:
   - name: Batery + Surge - Outlet 1
     type: nema-5-15r

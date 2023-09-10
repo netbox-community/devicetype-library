@@ -1,0 +1,45 @@
+---
+manufacturer: MikroTik
+model: CRS309-1G-8S+IN
+slug: mikrotik-crs309-1g-8s-plus-in
+part_number: CRS309-1G-8S+
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: sfp-sfpplus1
+    label: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    label: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    label: SFP+ 3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    label: SFP+ 4
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus5
+    label: SFP+ 5
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus6
+    label: SFP+ 6
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus7
+    label: SFP+ 7
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus8
+    label: SFP+ 8
+    type: 10gbase-x-sfpp
+  - name: ether1
+    label: POE/BOOT
+    type: 1000base-t
+power-ports:
+  - name: psu1
+    label: DC 12-57V
+    type: dc-terminal
+    maximum_draw: 23
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
+comments: Desktop switch with one Gigabit Ethernet port and eight SFP+ 10Gbps ports.

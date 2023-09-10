@@ -1,0 +1,56 @@
+---
+name: update-cache
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-validate-cache:
+    name: Build Lint and Format Cache
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        id: setup_python
+        with:
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-
+      - name: Install dependencies
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+  build-pytest-cache:
+    name: Build PyTest Cache
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        id: setup_python
+        with:
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv-pytest
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-pytest-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-pytest-
+      - name: Install dependencies
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pytest-github-actions-annotate-failures
+        if: steps.cache-venv-pytest.outputs.cache-hit != 'true'

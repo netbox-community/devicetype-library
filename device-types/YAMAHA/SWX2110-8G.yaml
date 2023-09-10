@@ -1,0 +1,30 @@
+---
+manufacturer: YAMAHA
+model: SWX2110-8G
+slug: yamaha-swx2110-8g
+u_height: 1
+comments: |
+  "Simple" Layer 2 Switch, manufactured by YAMAHA.
+  https://network.yamaha.com/products/switches/swx2110-8g/index
+is_full_depth: false
+interfaces:
+  - name: port1.1
+    type: 1000base-t
+  - name: port1.2
+    type: 1000base-t
+  - name: port1.3
+    type: 1000base-t
+  - name: port1.4
+    type: 1000base-t
+  - name: port1.5
+    type: 1000base-t
+  - name: port1.6
+    type: 1000base-t
+  - name: port1.7
+    type: 1000base-t
+  - name: port1.8
+    type: 1000base-t
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 3

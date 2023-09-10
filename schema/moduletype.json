@@ -10,6 +10,12 @@
         "part_number": {
             "type": "string"
         },
+        "weight": {
+            "$ref": "reusable.json#/definitions/weight"
+        },
+        "weight_unit": {
+            "$ref": "generated.json#/definitions/weight-unit"
+        },
         "console-ports": {
             "type": "array",
             "items": {
