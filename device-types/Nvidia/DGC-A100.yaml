@@ -1,0 +1,192 @@
+---
+manufacturer: Nvidia
+model: NVIDIA DGX A100 640GB
+part_number: DGXA-G640F+P2EDI36
+slug: nvidia-dgx-a100-640gb
+u_height: 6
+is_full_depth: true
+comments: '# [NVIDIA DGX A100 640GB] 
+
+##### 
+
+####   Feature
+
+###### NVIDIA A100 “Ampere” GPU architecture: built for dramatic gains in AI training, AI inference, and HPC performance
+
+###### Up to 5 PFLOPS of AI Performance per DGX A100 system
+
+###### Increased NVLink Bandwidth (600GB/s per NVIDIA A100 GPU): 
+
+###### Each GPU now supports 12 NVIDIA NVLink bricks for up to 600GB/sec of total bandwidth
+
+###### Up to 10X the training and 56X the inference performance per system
+
+###### Multi Instance GPU: partition your NVIDIA A100 GPUs into slices for individual users or ideally sized segments for particular applications. 
+
+###### Use Multi Instance GPU to share your DGX A100 deployment across a much larger pool of users, all with increased security (full isolation).
+
+###### Arrives with Microway Deployment services: Microway experts will integrate the DGX software stack on your DGX A100 system
+
+##### GPUs: 8 NVIDIA A100 GPUs, 80GB of HBM2/HBM2e GPU memory
+
+##### Performance:
+
+######   Up to 5 PFLOPS of AI performance
+
+######   10 petaOPS INT8
+
+######   Total of 640GB of high-bandwidth GPU memory, interconnected with NVSwitch technology
+
+##### CPU:   Dual AMD Rome 7742, 128 cores total,  2.25 GHz (base), 3.4 GHz (max boost)
+
+##### System Memory:  2TB DDR4 System Memory
+
+##### Networking:
+
+######   Up to 8x Single-Port NVIDIA ConnectX-7  
+
+######   200 Gb/s InfiniBand 
+
+######   Up to 2x Dual-Port NVIDIA  
+
+######   ConnectX-7 VPI
+
+######   10/25/50/100/200 Gb/s Ethernet
+
+######   Eight NVIDIA ConnectX®-6 200Gbps HDR InfiniBand Adapters
+
+######   Additional 200Gb HDR InfiniBand Adapter for connection to storage
+
+##### Storage:
+
+###### OS: 2x 1.92TB M.2 NVME drives
+
+###### Internal Storage: 30TB (8x 3.84 TB) U.2 NVMe drives
+
+##### System Dimensions:
+
+###### Height: 10.4 in (264.0 mm)
+
+###### Width: 19.0 in (482.3 mm) max
+
+###### Length: 35.3 in (897.1 mm) max
+
+###### 
+
+###### System Weight: 271.5 lbs (123.16 kgs) max
+
+###### Packaged System Weight: 359.7 lbs (163.16 kgs) max
+
+###### 
+
+###### 6U Rackmount Form Factor
+
+###### 
+
+###### Power Consumption: 6.5kW at full load
+
+###### Ubuntu Server Linux operating system
+
+<https://resources.nvidia.com/en-us-dgx-systems/dgx-ai>  '
+console-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Rear VGA
+    type: other
+  - name: Rear IPMI
+    type: 1000base-t
+  - name: Rear Serial Option
+    type: de-9
+  - name: Rear VGA
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: Power Supply 1
+    type: iec-60320-c14
+    maximum_draw: 1071
+    allocated_draw: 586
+  - name: Power Supply 2
+    type: iec-60320-c14
+    maximum_draw: 1071
+    allocated_draw: 586
+interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/2
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/3
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/4
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/5
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/6
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/7
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/8
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/9
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/10
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/11
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/12
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/13
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/14
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/15
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/16
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/17
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/18
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/19
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/20
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/21
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/22
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/23
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/24
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/25
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/26
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/27
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/28
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/29
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/30
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/31
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/32
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/33
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/34
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/35
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/36
+    type: 400gbase-x-qsfpdd
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
