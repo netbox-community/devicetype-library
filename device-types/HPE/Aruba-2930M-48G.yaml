@@ -9,6 +9,9 @@ comments: '[Aruba 2930M 48G 1-slot Switch Data sheet](https://www.hpe.com/psnow/
 weight: 10.14
 weight_unit: lb
 module-bays:
+  - name: Uplink
+    position: A
+  - name: Stacking Module
   - name: PS1
     position: '1'
   - name: PS2
