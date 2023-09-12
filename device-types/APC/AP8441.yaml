@@ -1,0 +1,149 @@
+---
+manufacturer: APC
+model: AP8441
+slug: ap8441
+part_number: AP8441
+u_height: 0
+is_full_depth: false
+comments: '## Rack PDU 2G, Switched Plus, ZeroU, 30A, 200/208V, (21) C13 & (3) C19 
+
+## Specifications Electrical
+
+######  Acceptable input voltage: 200–240/208 VAC
+
+######  Maximum input current (phase): 24A cULus/30A PSE
+
+######  Input frequency:50/60 Hz
+
+######  Input connection: NEMA L6-30P
+
+######  Input power: 5.0 kVA
+
+######  Output voltage: 200–240/208 VAC
+
+######  Maximum output current (outlet): IEC-320-C13: 12 A; IEC-320-C19: 16 A
+
+######  Maximum output current (phase): 24 A
+
+######  Maximum output current (bank): 16 A
+
+######  Output connections Twenty-one: (21) IEC-320-C13; three (3) IEC-320-C19
+
+######  Overload protection (internal) : Two (2) 20 A, 2-pole hydraulic-magnetic circuit breakers
+
+######  Physical	Dimensions (H x W x D) : 2.0 x 2.2 x 2.0 in. (182.9 x 5.6 x 5.1 cm)
+
+######  Power cord length:  10 ft (3.0 m)
+
+######  Shipping dimensions (H x W x D):  80.25 x 6.38 x 4.63 in. (203.8 x 16.2 x 11.8 cm)
+
+######  Weight/shipping weight :  18.1 lb (8.2 kg)/23.1 lb (10.5kg
+
+'
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: nema-6-30p
+power-outlets:
+  - name: Bank 1 Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 8
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 9
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 1 Outlet 12
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 13
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 14
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 15
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 16
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 17
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 18
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 19
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 20
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 21
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 22
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 23
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Bank 2 Outlet 24
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true
