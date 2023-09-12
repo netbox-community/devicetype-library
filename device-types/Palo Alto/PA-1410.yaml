@@ -24,21 +24,28 @@ comments: '## [PA-1410 Datasheet]  Ports: 10/100/1000 (8), 1G/2.5G/5G (4)/PoE, 1
 
 <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-1400-series>  '
 
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 290
-    allocated_draw: 250
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 290
-    allocated_draw: 250
 console-ports:
   - name: console
     type: rj-45
-  - name: USB1
-    type: usb-a
+  - name: console USB
+    type: usb-micro-b
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 295
+    allocated_draw: 250
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 295
+    allocated_draw: 250
 interfaces:
+  - name: HA1-A
+    type: 1000base-t
+  - name: HA1-B
+    type: 1000base-t
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
   - name: ethernet1/1
     type: 1000base-t
   - name: ethernet1/2
@@ -83,16 +90,4 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: ethernet1/22
     type: 10gbase-x-sfpp
-  - name: management
-    type: 1000base-t
-    mgmt_only: true
-module-bays:    
-  - name: ha1
-    type: 1000base-t
-  - name: ha2
-    type: 1000base-t
-  - name: loopback
-    type: virtual
-  - name: Storage
-    label: 120GB SSD
-    description: '120GB SSD '
+    
