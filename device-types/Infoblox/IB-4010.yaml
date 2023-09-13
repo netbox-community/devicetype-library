@@ -1,0 +1,31 @@
+manufacturer: Infoblox
+model: IB-4010
+slug: infoblox-ib-4010
+description: Rev-2
+is_full_depth: false
+u_height: 2
+weight: 61
+weight_unit: lb
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: HA
+    type: 1000base-t
+  - name: LOM
+    type: 1000base-t
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 900
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 900
