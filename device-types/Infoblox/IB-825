@@ -1,0 +1,24 @@
+---
+manufacturer: Infoblox
+model: IB-825
+slug: infoblox-ib-825
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: LOM
+    type: 1000base-t
+  - name: MGMT
+    type: 1000base-t
+  - name: LAN1
+    type: 1000base-t
+  - name: HA
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 106
