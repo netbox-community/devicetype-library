@@ -1,8 +1,8 @@
 ---
 manufacturer: Opengear
-model: OM2248-L
-slug: opengear-om2248-l
-part_number: OM2248-L
+model: OM2248-L-DDC
+slug: opengear-om2248-l-ddc
+part_number: OM2248-L-DDC
 u_height: 1
 is_full_depth: false
 weight: 3.5
@@ -133,10 +133,10 @@ console-server-ports:
     type: usb-a
 power-ports:
   - name: PS1
-    type: iec-60320-c14
+    type: dc-terminal
     allocated_draw: 30
   - name: PS2
-    type: iec-60320-c14
+    type: dc-terminal
     allocated_draw: 30
 interfaces:
   - name: eth0
