@@ -1,8 +1,8 @@
 ---
 manufacturer: Opengear
-model: OM2248-L-DDC
-slug: opengear-om2248-l-ddc
-part_number: OM2248-L-DDC
+model: OM2224-24E
+slug: opengear-om2224-24e
+part_number: OM2224-24E
 u_height: 1
 is_full_depth: false
 weight: 3.5
@@ -64,53 +64,53 @@ console-server-ports:
   - name: Port 24
     type: rj-45
   - name: Port 25
-    type: rj-45
+    type: 1000base-t
   - name: Port 26
-    type: rj-45
+    type: 1000base-t
   - name: Port 27
-    type: rj-45
+    type: 1000base-t
   - name: Port 28
-    type: rj-45
+    type: 1000base-t
   - name: Port 29
-    type: rj-45
+    type: 1000base-t
   - name: Port 30
-    type: rj-45
+    type: 1000base-t
   - name: Port 31
-    type: rj-45
+    type: 1000base-t
   - name: Port 32
-    type: rj-45
+    type: 1000base-t
   - name: Port 33
-    type: rj-45
+    type: 1000base-t
   - name: Port 34
-    type: rj-45
+    type: 1000base-t
   - name: Port 35
-    type: rj-45
+    type: 1000base-t
   - name: Port 36
-    type: rj-45
+    type: 1000base-t
   - name: Port 37
-    type: rj-45
+    type: 1000base-t
   - name: Port 38
-    type: rj-45
+    type: 1000base-t
   - name: Port 39
-    type: rj-45
+    type: 1000base-t
   - name: Port 40
-    type: rj-45
+    type: 1000base-t
   - name: Port 41
-    type: rj-45
+    type: 1000base-t
   - name: Port 42
-    type: rj-45
+    type: 1000base-t
   - name: Port 43
-    type: rj-45
+    type: 1000base-t
   - name: Port 44
-    type: rj-45
+    type: 1000base-t
   - name: Port 45
-    type: rj-45
+    type: 1000base-t
   - name: Port 46
-    type: rj-45
+    type: 1000base-t
   - name: Port 47
-    type: rj-45
+    type: 1000base-t
   - name: Port 48
-    type: rj-45
+    type: 1000base-t
   - name: USB A
     type: usb-a
   - name: USB B
@@ -133,10 +133,10 @@ console-server-ports:
     type: usb-a
 power-ports:
   - name: PS1
-    type: dc-terminal
+    type: iec-60320-c14
     allocated_draw: 30
   - name: PS2
-    type: dc-terminal
+    type: iec-60320-c14
     allocated_draw: 30
 interfaces:
   - name: eth0
@@ -144,7 +144,4 @@ interfaces:
     mgmt_only: true
   - name: eth1
     type: 1000base-t
-    mgmt_only: true
-  - name: Cellular Interface (LTE)
-    type: lte
     mgmt_only: true
