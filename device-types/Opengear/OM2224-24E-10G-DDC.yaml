@@ -63,6 +63,36 @@ console-server-ports:
     type: rj-45
   - name: Port 24
     type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+  - name: USB C
+    type: usb-a
+  - name: USB D
+    type: usb-a
+  - name: USB E
+    type: usb-a
+  - name: USB F
+    type: usb-a
+  - name: USB G
+    type: usb-a
+  - name: USB H
+    type: usb-a
+  - name: Front Upper USB
+    type: usb-a
+  - name: Front Lower USB
+    type: usb-a
+interfaces:
+  - name: eth0
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: eth1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: eth2
+    type: 10gbase-t
+    mgmt_only: true
   - name: Port 25
     type: 1000base-t
   - name: Port 26
@@ -111,26 +141,6 @@ console-server-ports:
     type: 1000base-t
   - name: Port 48
     type: 1000base-t
-  - name: USB A
-    type: usb-a
-  - name: USB B
-    type: usb-a
-  - name: USB C
-    type: usb-a
-  - name: USB D
-    type: usb-a
-  - name: USB E
-    type: usb-a
-  - name: USB F
-    type: usb-a
-  - name: USB G
-    type: usb-a
-  - name: USB H
-    type: usb-a
-  - name: Front Upper USB
-    type: usb-a
-  - name: Front Lower USB
-    type: usb-a
 power-ports:
   - name: PS1
     type: dc-terminal
@@ -138,13 +148,3 @@ power-ports:
   - name: PS2
     type: dc-terminal
     allocated_draw: 30
-interfaces:
-  - name: eth0
-    type: 10gbase-x-sfpp
-    mgmt_only: true
-  - name: eth1
-    type: 10gbase-x-sfpp
-    mgmt_only: true
-  - name: eth2
-    type: 10gbase-t
-    mgmt_only: true
