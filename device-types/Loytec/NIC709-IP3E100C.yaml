@@ -6,12 +6,13 @@ part_number: NIC709-IP3E100C
 u_height: 0
 is_full_depth: false
 comments: '[NIC709-IP3E100C datasheet](https://www.loytec.com/component/docman/doc_download/131-nic-datasheet)'
+power-ports:
+  - name: Usb1
+    type: usb-a
+  - name: Usb2
+    type: usb-a
 interfaces:
   - name: Ethernet1
     type: 1000base-t
   - name: Ethernet2
     type: 1000base-t
-  - name: Usb1
-    type: usb-a
-  - name: Usb2
-    type: usb-a

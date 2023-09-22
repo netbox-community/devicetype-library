@@ -2,15 +2,16 @@
 manufacturer: Echelon
 model: iLON 100 e3 Plus
 slug: echelon-ilon-100-e3-plus
-part_number: 72101
+part_number: '72101'
 u_height: 0
 is_full_depth: false
 comments: '[iLON 100 datasheet](http://downloads.echelon.com/support/documentation/datashts/7210x.pdf)'
+power-ports:
+  - name: power
+    type: other
 console-ports:
   - name: Console
-    type: serial
+    type: de-9
 interfaces:
   - name: lan
     type: 1000base-t
-
-
