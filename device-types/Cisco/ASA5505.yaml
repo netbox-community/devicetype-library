@@ -30,12 +30,12 @@ interfaces:
     type: 100base-tx
   - name: Ethernet0/6
     type: 100base-tx
-    poe-mode: pse
-    poe-type: type1-ieee802.3af
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: Ethernet0/7
     type: 100base-tx
-    poe-mode: pse
-    poe-type: type1-ieee802.3af
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
 module-bays:
   - name: AIP Security Services Card
     position: '1'
