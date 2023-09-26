@@ -12,7 +12,7 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/console-port/properties/type"
+          "$ref": "generated_schema.json#/definitions/console-port/properties/type"
         },
         "poe": {
           "type": "boolean"
@@ -33,7 +33,7 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/console-server-port/properties/type"
+          "$ref": "generated_schema.json#/definitions/console-server-port/properties/type"
         }
       },
       "required": [
@@ -51,7 +51,7 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/power-port/properties/type"
+          "$ref": "generated_schema.json#/definitions/power-port/properties/type"
         },
         "maximum_draw": {
           "type": "integer"
@@ -75,13 +75,13 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/power-outlet/properties/type"
+          "$ref": "generated_schema.json#/definitions/power-outlet/properties/type"
         },
         "power_port": {
           "type": "string"
         },
         "feed_leg": {
-          "$ref": "generated.json#/definitions/power-outlet/properties/feed-leg"
+          "$ref": "generated_schema.json#/definitions/power-outlet/properties/feed-leg"
         }
       },
       "required": [
@@ -99,13 +99,13 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/interface/properties/type"
+          "$ref": "generated_schema.json#/definitions/interface/properties/type"
         },
         "poe_mode": {
-          "$ref": "generated.json#/definitions/interface/properties/poe_mode"
+          "$ref": "generated_schema.json#/definitions/interface/properties/poe_mode"
         },
         "poe_type": {
-          "$ref": "generated.json#/definitions/interface/properties/poe_type"
+          "$ref": "generated_schema.json#/definitions/interface/properties/poe_type"
         },
         "mgmt_only": {
           "type": "boolean"
@@ -126,7 +126,7 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/front-port/properties/type"
+          "$ref": "generated_schema.json#/definitions/front-port/properties/type"
         },
         "color": {
           "type": "string",
@@ -155,7 +155,7 @@
           "type": "string"
         },
         "type": {
-          "$ref": "generated.json#/definitions/rear-port/properties/type"
+          "$ref": "generated_schema.json#/definitions/rear-port/properties/type"
         },
         "color": {
           "type": "string",
