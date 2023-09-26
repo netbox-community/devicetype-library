@@ -1,4 +1,4 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
@@ -7,6 +7,7 @@ import glob
 import json
 import os
 import tempfile
+import psutil
 from urllib.request import urlopen
 
 import pytest
@@ -47,6 +48,7 @@ def _get_diff_from_upstream():
     upstream = repo.remotes.upstream
     upstream.fetch()
     changes = upstream.refs.master.commit.diff(repo.head)
+    changes = changes + repo.index.diff("HEAD")
 
     for path, schema in SCHEMAS:
         # Initialize the schema
@@ -105,7 +107,11 @@ def test_environment():
     if definition_files:
         pytest.skip("No changes to definition files found.")
 
-if USE_UPSTREAM_DIFF:
+EVALUATE_ALL = False
+if any(x in PRECOMMIT_ALL_SWITCHES for x in psutil.Process(os.getppid()).cmdline()):
+    EVALUATE_ALL = True
+
+if USE_UPSTREAM_DIFF and not EVALUATE_ALL:
     definition_files = _get_diff_from_upstream()
 else:
     definition_files = _get_definition_files()
@@ -119,6 +125,7 @@ else:
     repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
+
 
 @pytest.mark.parametrize(('file_path', 'schema'), definition_files)
 def test_definitions(file_path, schema):
