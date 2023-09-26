@@ -5,11 +5,12 @@ on:
   # schedule:
   #   - cron: '0 * * * *'
 jobs:
-  stale:
+  schema-update:
     runs-on: ubuntu-latest
     permissions:
       issues: write
       pull-requests: write
+      contents: write
     steps:
       - name: Get NetBox Latest Release
         id: netbox-release
@@ -40,7 +41,7 @@ jobs:
           python -m pip install -r requirements.txt
         if: ${{ steps.cache-venv.outputs.cache-hit != 'true' && steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Regenerate Master Slug List
-        run: python3 tests/generate-slug-list.py
+        run: python3 scripts/update-schema.py
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
