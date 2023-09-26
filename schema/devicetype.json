@@ -23,13 +23,13 @@
             "type": "boolean"
         },
         "airflow": {
-            "$ref": "generated.json#/definitions/airflow"
+            "$ref": "generated_schema.json#/definitions/airflow"
         },
         "weight": {
             "$ref": "reusable.json#/definitions/weight"
         },
         "weight_unit": {
-            "$ref": "generated.json#/definitions/weight-unit"
+            "$ref": "generated_schema.json#/definitions/weight-unit"
         },
         "front_image": {
             "type": "boolean"
@@ -38,7 +38,7 @@
             "type": "boolean"
         },
         "subdevice_role": {
-            "$ref": "generated.json#/definitions/subdevice-role"
+            "$ref": "generated_schema.json#/definitions/subdevice-role"
         },
         "is_powered": {
           "type": "boolean"
