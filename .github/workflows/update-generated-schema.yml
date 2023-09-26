@@ -63,4 +63,5 @@ jobs:
         with:
           name: 'SCHEMA_VERSION'
           value: ${{ steps.netbox-release.outputs.release }}
+          token: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
