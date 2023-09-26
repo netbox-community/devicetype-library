@@ -2,8 +2,8 @@
 name: Gather New NetBox Generated Schema JSON
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 * * * *'
+  schedule:
+    - cron: '0 */12 * * *'
 jobs:
   schema-update:
     runs-on: ubuntu-latest
@@ -59,10 +59,10 @@ jobs:
           assignees: danner26
           reviewers: danner26
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
-      - name: Update Repository SCHEMA_VERSION
-        uses: action-pack/set-variable@v1
-        with:
-          name: 'SCHEMA_VERSION'
-          value: ${{ steps.netbox-release.outputs.release }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      # - name: Update Repository SCHEMA_VERSION
+      #   uses: action-pack/set-variable@v1
+      #   with:
+      #     name: 'SCHEMA_VERSION'
+      #     value: ${{ steps.netbox-release.outputs.release }}
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #   if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
