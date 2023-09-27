@@ -1,7 +1,6 @@
 ---
 name: Gather New NetBox Generated Schema JSON
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 */12 * * *'
 jobs:
