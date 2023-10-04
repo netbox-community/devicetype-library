@@ -1,0 +1,67 @@
+---
+manufacturer: HPE
+model: Aruba ec-m-h
+slug: hpe-aruba-ec-m-h
+part_number: 'JZ872A'
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: console
+    type: rj-45
+    label: console
+power-ports:
+  - name: power0
+    type: iec-60320-c14
+    maximum_draw: 162
+    label: power0
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 162
+    label: power1
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt0
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt1
+  - name: tlan0
+    type: 10gbase-x-sfpp
+    label: tlan0
+  - name: tlan1
+    type: 10gbase-x-sfpp
+    label: tlan1
+  - name: twan0
+    type: 10gbase-x-sfpp
+    label: twan0
+  - name: twan1
+    type: 10gbase-x-sfpp
+    label: twan1
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
+  - name: lan3
+    type: 1000base-t
+    label: lan3
+  - name: lan4
+    type: 1000base-t
+    label: lan4
+  - name: wan0
+    type: 1000base-t
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    label: wan1
+  - name: wan3
+    type: 1000base-t
+    label: wan3
+  - name: wan4
+    type: 1000base-t
+    label: wan4
+    
