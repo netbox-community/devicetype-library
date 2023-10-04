@@ -1,0 +1,40 @@
+---
+manufacturer: HPE
+model: Aruba IAP-575
+slug: hpe-aruba-iap-575
+part_number: R4H18A
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Aruba 570 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP570Series.pdf)'
+weight: 2.5
+weight_unit: kg
+console-ports:
+  - name: Console Interface
+    type: usb-c
+    label: USBC
+interfaces:
+  - name: BLUETOOTH / Zigbee
+    type: ieee802.15.1
+    label: Radio 2
+    description: Integrated
+  - name: Ethernet 0
+    type: 2.5gbase-t
+    label: E0
+    description: Auto-sensing link speed (100/1000/2500BASE-T)
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: Ethernet 1
+    type: 1000base-t
+    label: E1
+    description: Auto-sensing link speed
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: WIFI/2.4 GHz Radio
+    type: ieee802.11ax
+    label: Radio 1
+    description: Integrated
+  - name: WIFI/5GHz Radio
+    type: ieee802.11ax
+    label: Radio 0
+    description: Integrated

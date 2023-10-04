@@ -1,0 +1,49 @@
+---
+manufacturer: HPE
+model: Aruba IAP-635
+slug: hpe-aruba-iap-635
+part_number: R7J28A
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Aruba 630 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP630Series.pdf)'
+weight: 1300.0
+weight_unit: g
+console-ports:
+  - name: USB 2.0
+    type: usb-a
+    label: USBA
+power-ports:
+  - name: 12Vdc
+    type: dc-terminal
+    maximum_draw: 26
+    label: DC
+interfaces:
+  - name: BLUETOOTH / Zigbee
+    type: ieee802.15.1
+    label: Radio 4
+    description: BLE5.0
+  - name: Ethernet 0
+    type: 2.5gbase-t
+    label: E0
+    description: Auto-sensing link speed (100/1000/2500BASE-T)
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: Ethernet 1
+    type: 2.5gbase-t
+    label: E1
+    description: Auto-sensing link speed (100/1000/2500BASE-T)
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: WIFI / 2.4 GHz Radio
+    type: ieee802.11ax
+    label: Radio 0
+    description: Integrated
+  - name: WIFI / 5GHz Radio
+    type: ieee802.11ax
+    label: Radio 1
+    description: Integrated
+  - name: WIFI / 6GHz Radio
+    type: ieee802.11ax
+    label: Radio 2
+    description: Integrated

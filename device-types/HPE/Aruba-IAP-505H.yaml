@@ -1,0 +1,58 @@
+---
+manufacturer: HPE
+model: Aruba IAP-505H
+slug: hpe-aruba-iap-505h
+part_number: R3V48A
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Aruba 500H Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP500HSeries.pdf)'
+weight: 360.0
+weight_unit: g
+console-ports:
+  - name: USB 2.0
+    type: usb-a
+    label: USBA
+power-ports:
+  - name: DC Power Interface
+    type: dc-terminal
+    label: DC Power
+interfaces:
+  - name: BLUETOOTH / Zigbee
+    type: ieee802.15.1
+    label: Radio 2
+    description: Integrated
+  - name: Ethernet 0
+    type: 2.5gbase-t
+    label: E0
+    description: Auto-sensing link speed (100/1000/2500BASE-T)
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: Ethernet 1
+    type: 1000base-t
+    label: E1
+    description: Auto-sensing link speed (10/100/1000BASE-T)
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 2
+    type: 1000base-t
+    label: E2
+    description: Auto-sensing link speed (10/100/1000BASE-T)
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet 3
+    type: 1000base-t
+    label: E3
+    description: Auto-sensing link speed (10/100/1000BASE-T)
+  - name: Ethernet 4
+    type: 1000base-t
+    label: E4
+    description: Auto-sensing link speed (10/100/1000BASE-T)
+  - name: WIFI / 2.4 GHz Radio
+    type: ieee802.11ax
+    label: Radio 0
+    description: Integrated
+  - name: WIFI / 5GHz Radio
+    type: ieee802.11ax
+    label: Radio 1
+    description: Integrated
