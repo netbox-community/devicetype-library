@@ -7,6 +7,21 @@ is_full_depth: true
 console-ports:
   - name: Console
     type: rj-45
+module-bays:
+  - name: Power Supply 0
+    position: PSU 0
+  - name: Power Supply 1
+    position: PSU 1
+  - name: Fan Tray 0
+    position: FAN 0
+  - name: Fan Tray 1
+    position: FAN 1
+  - name: Fan Tray 2
+    position: FAN 2
+  - name: Fan Tray 3
+    position: FAN 3
+  - name: Fan Tray 4
+    position: FAN 4
 interfaces:
   - name: xe-0/0/0
     type: 10gbase-x-sfpp
