@@ -131,3 +131,10 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: et-0/0/53
     type: 40gbase-x-qsfpp
+  - name: em0
+    type: 1000base-t
+    mgmt_only: true
+    # comments: Combination (COMBO) port, either Gigabit Ethernet RJ-45 (1000base-t) or Gigabit Ethernet SFP (1000base-x-sfp)
+  - name: em1
+    type: 1000base-x-sfp
+    mgmt_only: true
