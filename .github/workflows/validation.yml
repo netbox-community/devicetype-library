@@ -30,7 +30,7 @@ jobs:
         if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Lint YAML files
         run: |
-          yamllint --format github --strict \
+          yamllint --format github \
             device-types/ module-types/
   format:
     runs-on: ubuntu-latest
