@@ -1,0 +1,79 @@
+---
+manufacturer: Eltex
+model: MES5324
+slug: eltex-mes5324
+part_number: MES5324
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: OOB
+    type: 1000base-t
+    mgmt_only: true
+  - name: Mgmt
+    type: 1000base-t
+  - name: tengigabitethernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/3
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/5
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/6
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/7
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/8
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/9
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/10
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/13
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/14
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/15
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/16
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/17
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/18
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/19
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/20
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/21
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/22
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/23
+    type: 10gbase-x-sfpp
+  - name: tengigabitethernet1/0/24
+    type: 10gbase-x-sfpp
+  - name: fortygigabitethernet1/0/1
+    type: 40gbase-x-qsfpp
+  - name: fortygigabitethernet1/0/2
+    type: 40gbase-x-qsfpp
+  - name: fortygigabitethernet1/0/3
+    type: 40gbase-x-qsfpp
+  - name: fortygigabitethernet1/0/4
+    type: 40gbase-x-qsfpp
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 107
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 107
