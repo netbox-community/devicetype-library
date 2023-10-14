@@ -1,0 +1,71 @@
+---
+manufacturer: TP-Link
+model: TD-W8950N
+slug: td-w8950n
+default_platform: null
+part_number: TD-W8950N
+u_height: 0.5
+is_full_depth: false
+subdevice_role: ''
+airflow: passive
+comments: ''
+weight: 500.0
+weight_unit: g
+power-ports:
+  - name: power
+    type: dc-terminal
+    maximum_draw: 8
+    allocated_draw: 7
+    label: power
+    description: ''
+interfaces:
+  - name: ADSL
+    type: xdsl
+    enabled: true
+    mgmt_only: false
+    label: ADSL
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN1
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN1
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN2
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN2
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN3
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN4
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN4/WAN
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
