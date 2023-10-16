@@ -2,7 +2,6 @@
 manufacturer: Watchguard
 model: Firebox M370
 slug: watchguard-firebox-m370
-default_platform: null
 u_height: 1.0
 is_full_depth: false
 airflow: 'front-to-rear'
@@ -12,7 +11,7 @@ weight_unit: 'kg'
 console-ports:
   - name: console
     type: rj-45
-    power-ports:
+power-ports:
   - name: PSU
     type: iec-60320-c14
     maximum_draw: 220
@@ -22,39 +21,31 @@ interfaces:
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth1
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth2
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth3
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth4
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth5
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth6
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
   - name: eth7
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    bridge: null
