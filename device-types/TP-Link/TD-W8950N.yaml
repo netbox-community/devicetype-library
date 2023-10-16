@@ -2,9 +2,8 @@
 manufacturer: TP-Link
 model: TD-W8950N
 slug: td-w8950n
-default_platform: null
 part_number: TD-W8950N
-u_height: 0.5
+u_height: 1
 is_full_depth: false
 airflow: passive
 weight: 500.0
@@ -21,28 +20,24 @@ interfaces:
     enabled: true
     mgmt_only: false
     label: ADSL
-    bridge: null
   - name: LAN1
     type: 100base-tx
     enabled: true
     mgmt_only: false
     label: LAN1
-    bridge: null
   - name: LAN2
     type: 100base-tx
     enabled: true
     mgmt_only: false
     label: LAN2
-    bridge: null
   - name: LAN3
     type: 100base-tx
     enabled: true
     mgmt_only: false
     label: LAN3
-    bridge: null
   - name: LAN4
     type: 100base-tx
     enabled: true
     mgmt_only: false
     label: LAN4/WAN
-    bridge: null
+
