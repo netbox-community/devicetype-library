@@ -15,7 +15,7 @@ module-bays:
     position: '2'
 interfaces:
   - name: Management
-    type: 100base-t
+    type: 100base-tx
     mgmt_only: true
   - name: Gi0/1
     type: 1000base-x-sfp
@@ -26,6 +26,6 @@ interfaces:
   - name: Gi0/4
     type: 1000base-x-sfp
   - name: Fa0/1
-    type: 100base-t
+    type: 100base-tx
   - name: Fa0/2
-    type: 100base-t
+    type: 100base-tx
