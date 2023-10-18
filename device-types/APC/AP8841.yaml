@@ -1,0 +1,166 @@
+---
+manufacturer: APC
+model: AP8841
+slug: apc-ap8841
+part_number: AP8841
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 15.08
+weight_unit: lb
+description: APC NetShelter Metered Rack PDU, 0U, 200-240V input, 5kVA, 200/208V output, 36 x C13 and 6 x C19
+comments: |
+  Documentation
+
+  - [Product Page](https://www.apc.com/us/en/product/AP8841/)
+
+  Ports are enumerated left to right, top to bottom, when the PDU is oriented vertically with the power cord up. Port numbers are grouped per bank.
+console-ports:
+  - name: Serial
+    label: Serial
+    type: rj-12
+  - name: CAN In
+    label: In
+    type: rj-45
+  - name: CAN Out
+    label: Out
+    type: rj-45
+interface:
+  - name: Network
+    label: Network
+    type: 100base-tx
+    mgmt_only: true
+power-ports:
+  - name: Power Cord
+    type: nema-l6-30p
+    # allocated_draw: Leave blank for PDUs
+    # maximum_draw: Leave blank for PDUs
+power-outlets:
+# Bank 1
+  - name: Bank 1 C19 01
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: Bank 1 C19 02
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: Bank 1 C19 03
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: Bank 1 C13 01
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 02
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 03
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 04
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 05
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 06
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 07
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 08
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 09
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 10
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 11
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 12
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 14
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 15
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 16
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 17
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 1 C13 18
+    type: iec-60320-c13
+    power_port: Power Cord
+# Bank 2
+  - name: Bank 2 C19 01
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: Bank 2 C19 02
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: Bank 2 C19 03
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: Bank 2 C13 01
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 02
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 03
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 04
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 05
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 06
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 07
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 08
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 09
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 10
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 11
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 12
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 14
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 15
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 16
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 17
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: Bank 2 C13 18
+    type: iec-60320-c13
+    power_port: Power Cord

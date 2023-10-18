@@ -1,0 +1,105 @@
+---
+manufacturer: APC
+model: AP7841
+slug: apc-ap7841
+part_number: AP7841
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 12.58
+weight_unit: lb
+description: APC NetShelter Metered Rack PDU, 0U, 200-230V input, 5kVA, 200-240V output, 20 x C13 and 4 x C19
+comments: |
+  Documentation
+
+  - [Product Page](https://www.apc.com/us/en/product/AP7841/)
+
+  Ports are enumerated as labeled
+console-ports:
+  - name: Serial
+    label: Serial Port
+    type: rj-12
+interface:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true
+power-ports:
+  - name: Power Cord
+    type: nema-l6-30p
+    # allocated_draw: Leave blank for PDUs
+    # maximum_draw: Leave blank for PDUs
+power-outlets:
+# B1 - Bank 1
+  - name: B1 01 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 02 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 03 C19
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: B1 04 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 05 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 06 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 07 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 08 C19
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: B1 09 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 10 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 11 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B1 12 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+# B2 - Bank 2
+  - name: B2 13 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 14 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 15 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 16 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 17 C19
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: B2 18 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 19 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 20 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 21 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 22 C19
+    type: iec-60320-c19
+    power_port: Power Cord
+  - name: B2 23 C13
+    type: iec-60320-c13
+    power_port: Power Cord
+  - name: B2 24 C13
+    type: iec-60320-c13
+    power_port: Power Cord
