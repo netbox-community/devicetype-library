@@ -1,9 +1,11 @@
 ---
 manufacturer: Juniper
 model: EX4200-48T
-slug: ex4200-48t
+slug: juniper-ex4200-48t
 u_height: 1
 is_full_depth: true
+weight: 7.8
+weight_unit: kg
 comments: '[Juniper EX4200 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000215-en.pdf)'
 console-ports:
   - name: Console
@@ -11,22 +13,40 @@ console-ports:
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/2
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/3
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/4
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/5
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/6
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/7
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/8
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: ge-0/0/9
     type: 1000base-t
   - name: ge-0/0/10
@@ -105,18 +125,12 @@ interfaces:
     type: 1000base-t
   - name: ge-0/0/47
     type: 1000base-t
-  - name: et-0/1/0
-    type: 40gbase-x-qsfpp
-  - name: et-0/1/1
-    type: 40gbase-x-qsfpp
-  - name: et-0/1/2
-    type: 40gbase-x-qsfpp
-  - name: et-0/1/3
-    type: 40gbase-x-qsfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 350
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 350
+module-bays:
+  - name: Power Supply 0
+    label: PSU 0
+    position: PSU0
+  - name: Power Supply 1
+    label: PSU 1
+    position: PSU1
+  - name: Uplink Module
+    position: '1'

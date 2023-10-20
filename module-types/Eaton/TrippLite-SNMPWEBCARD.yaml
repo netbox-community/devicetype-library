@@ -1,0 +1,14 @@
+---
+manufacturer: Eaton
+model: TrippLite SNMPWEBCARD
+part_number: SNMPWEBCARD
+comments: SNMPWEBCARD is an optional network card that you can install in the accessory slot of a compatible UPS systems or PDU. [Manual](https://www.tripplite.com/support/owners-manual/843356)
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: CONFIG
+    type: other
+    label: CONFIG
+    comments: Use this port to provide a direct terminal connection to a computer with a terminal emulation program.

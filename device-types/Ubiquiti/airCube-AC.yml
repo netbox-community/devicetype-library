@@ -1,7 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: airCube-AC
-slug: aircube-ac
+slug: ubiquiti-aircube-ac
 part_number: aircube-ac
 comments: |
   24VDC, 0.83A or PoE 24V In on LAN Port 1
@@ -9,6 +9,9 @@ comments: |
   Controllable 24V PoE Out (+4, 5; -7, 8) on WAN Port
 u_height: 0
 is_full_depth: false
+power-ports:
+  - name: Power
+    type: dc-terminal
 interfaces:
   - name: lan1
     type: 1000base-t

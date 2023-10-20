@@ -1,0 +1,24 @@
+---
+manufacturer: TP-Link
+model: TL-SG1005D
+slug: tp-link-tl-sg1005d
+part_number: TL-SG105D
+comments: '[TP-Link TL-SG1005D](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg1005d/#specifications)'
+is_full_depth: false
+u_height: 0
+airflow: passive
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 2
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t

@@ -1,27 +1,43 @@
 ---
 manufacturer: Cisco
 model: Catalyst 3560-CX-8PC-S
-slug: ws-c3560cx-8pc-s
+slug: cisco-ws-c3560cx-8pc-s
 part_number: WS-C3560CX-8PC-S
 is_full_depth: false
 u_height: 1
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/2
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/3
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/4
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/5
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/6
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/7
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/8
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/9
     type: 1000base-t
   - name: GigabitEthernet1/0/10

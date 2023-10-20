@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Nexus 5596UP
-slug: n5k-c5596up
+slug: cisco-n5k-c5596up
 part_number: N5K-C5596UP
 u_height: 2
 is_full_depth: false
@@ -105,15 +105,17 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/48
     type: 10gbase-x-sfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    allocated_draw: 660
-    maximum_draw: 972
-  - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 660
-    maximum_draw: 972
 console-ports:
   - name: Console
     type: rj-45
+module-bays:
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

@@ -1,0 +1,92 @@
+---
+manufacturer: Juniper
+model: EX3400-24T-DC
+part_number: EX3400-24T-DC
+slug: juniper-ex3400-24t-dc
+u_height: 1
+airflow: front-to-rear
+weight: 10.49
+weight_unit: lb
+comments: '[Juniper EX3400 Hardware Guide](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex3400-ethernet-switch-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-mini-b
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+interfaces:
+  - name: me0
+    type: 1000base-t
+    mgmt_only: true
+  - name: ge-0/0/0
+    type: 1000base-t
+  - name: ge-0/0/1
+    type: 1000base-t
+  - name: ge-0/0/2
+    type: 1000base-t
+  - name: ge-0/0/3
+    type: 1000base-t
+  - name: ge-0/0/4
+    type: 1000base-t
+  - name: ge-0/0/5
+    type: 1000base-t
+  - name: ge-0/0/6
+    type: 1000base-t
+  - name: ge-0/0/7
+    type: 1000base-t
+  - name: ge-0/0/8
+    type: 1000base-t
+  - name: ge-0/0/9
+    type: 1000base-t
+  - name: ge-0/0/10
+    type: 1000base-t
+  - name: ge-0/0/11
+    type: 1000base-t
+  - name: ge-0/0/12
+    type: 1000base-t
+  - name: ge-0/0/13
+    type: 1000base-t
+  - name: ge-0/0/14
+    type: 1000base-t
+  - name: ge-0/0/15
+    type: 1000base-t
+  - name: ge-0/0/16
+    type: 1000base-t
+  - name: ge-0/0/17
+    type: 1000base-t
+  - name: ge-0/0/18
+    type: 1000base-t
+  - name: ge-0/0/19
+    type: 1000base-t
+  - name: ge-0/0/20
+    type: 1000base-t
+  - name: ge-0/0/21
+    type: 1000base-t
+  - name: ge-0/0/22
+    type: 1000base-t
+  - name: ge-0/0/23
+    type: 1000base-t
+  - name: et-0/1/0
+    type: 40gbase-x-qsfpp
+  - name: et-0/1/1
+    type: 40gbase-x-qsfpp
+  - name: ge-0/2/0
+    type: 1000base-x-sfp
+  - name: ge-0/2/1
+    type: 1000base-x-sfp
+  - name: ge-0/2/2
+    type: 1000base-x-sfp
+  - name: ge-0/2/3
+    type: 1000base-x-sfp
+  - name: xe-0/2/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/2/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/2/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/2/3
+    type: 10gbase-x-sfpp

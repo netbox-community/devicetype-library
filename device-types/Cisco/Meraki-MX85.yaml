@@ -1,0 +1,50 @@
+---
+manufacturer: Cisco
+model: Meraki MX85
+slug: cisco-meraki-mx85
+part_number: MX85
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 8.2
+weight_unit: lb
+comments: '[Cisco Meraki MX85 Data Sheet](https://documentation.meraki.com/MX/MX_Overviews_and_Specifications/MX85_Datasheet)'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 55
+    allocated_draw: 12
+console-ports:
+  - name: Management
+    type: rj-45
+interfaces:
+  - name: USB
+    type: lte
+  - name: WAN 1
+    type: 1000base-x-sfp
+  - name: WAN 2
+    type: 1000base-x-sfp
+  - name: WAN 3
+    type: 1000base-t
+  - name: WAN 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-x-sfp
+  - name: Port 14
+    type: 1000base-x-sfp

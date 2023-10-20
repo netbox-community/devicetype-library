@@ -1,10 +1,10 @@
 ---
 manufacturer: Cisco
 model: ASA5508-X
-slug: asa5508-x
+slug: cisco-asa5508-x
 part_number: ASA5508
 u_height: 1
-is_full_depth: true
+is_full_depth: false
 console-ports:
   - name: Con 0
     type: rj-45
@@ -16,28 +16,20 @@ power-ports:
 interfaces:
   - name: GigabitEthernet1/1
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/2
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/3
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/4
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/5
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/6
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/7
     type: 1000base-t
-    mgmt_only: false
   - name: GigabitEthernet1/8
     type: 1000base-t
-    mgmt_only: false
   - name: Management1/1
     type: 1000base-t
     mgmt_only: true

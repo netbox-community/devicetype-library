@@ -1,0 +1,20 @@
+---
+manufacturer: Ubiquiti
+model: Instant PoE 802.3af Gigabit Adapter
+slug: ubiquiti-ins-3af-o-g
+part_number: INS-3AF-O-G
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[UBNT Instant PoE Converter Data Sheet](https://dl.ubnt.com/datasheets/instant/Instant_802.3af_Gigabit_PoE_Converters_DS.pdf)'
+front-ports:
+  - name: PoE out
+    type: 8p8c
+    rear_port: PoE in
+    rear_port_position: 1
+rear-ports:
+  - name: PoE in
+    type: 8p8c
+    positions: 1
+    label: PoE IN
+    poe: true

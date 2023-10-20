@@ -1,0 +1,59 @@
+---
+manufacturer: Netgate
+model: 7100 Security Gateway
+slug: netgate-7100-security-gateway
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: console
+    type: usb-mini-a
+    description: |
+      115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
+      or XON/OFF
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 360
+    description: 100-240V, 50-60Hz, 1.5-3A Internal Power Supply
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth2
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth3
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth4
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth5
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth6
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth7
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: eth8
+    type: 1000base-t
+    description: |
+      Marvell 88E6190 switched uplinked at 5 Gbps (2x 2.5 Gbps) to Intel SoC
+  - name: ix0
+    type: 10gbase-x-sfpp
+    description: Intel x553
+  - name: ix1
+    type: 10gbase-x-sfpp
+    description: Intel x553
+module-bays:
+  - name: pci1
+    description: PCI-E 3.0 4x
