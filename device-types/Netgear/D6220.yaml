@@ -1,0 +1,35 @@
+---
+manufacturer: Netgear
+model: D6220
+slug: netgear-d6220
+u_height: 0
+comments: 'WiFi VDSL2/ADSL2+ Modem Router\r\nSpecifications: [D6220](https://www.netgear.com/support/product/d6220)'
+is_full_depth: false
+weight: 341
+weight_unit: g
+airflow: passive
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: LAN1
+    label: '1'
+    type: 1000base-t
+  - name: LAN2
+    label: '2'
+    type: 1000base-t
+  - name: LAN3
+    label: '3'
+    type: 1000base-t
+  - name: LAN4
+    label: '4'
+    type: 1000base-t
+  - name: Internet
+    label: Internet
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac

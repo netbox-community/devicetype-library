@@ -1,0 +1,34 @@
+---
+manufacturer: NEC
+model: UNIVERGE IX2015
+slug: nec-univerge-ix2015
+comments: |
+  NEC UNIVERGE IX2015, 12W
+  (1) RJ-45 Console Port, (2) Ethernet 1000BASE-T, (4) Ethernet 1000BASE-T in Switching Hub, (1) ISDN S/T interface
+
+  Dimentions(WxDxH in mm): 210x297x43
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: GigaEthernet0
+    type: 1000base-t
+  - name: GigaEthernet1
+    type: 1000base-t
+  - name: GigaEthernet2.1
+    type: 1000base-t
+  - name: GigaEthernet2.2
+    type: 1000base-t
+  - name: GigaEthernet2.3
+    type: 1000base-t
+  - name: GigaEthernet2.4
+    type: 1000base-t
+  - name: BRI0 port S/T
+    type: other
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 12
+    allocated_draw: 12

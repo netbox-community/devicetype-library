@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Nexus 93120TX
-slug: n9k-c93120tx
+slug: cisco-n9k-c93120tx
 part_number: N9K-C93120TX
 u_height: 2
 is_full_depth: true
@@ -229,3 +229,8 @@ console-ports:
     type: usb-mini-b
   - name: usb1
     type: usb-mini-b
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

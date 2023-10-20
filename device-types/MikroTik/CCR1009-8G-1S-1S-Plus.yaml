@@ -1,0 +1,35 @@
+---
+manufacturer: MikroTik
+model: CCR1009-8G-1S-1S+
+slug: mikrotik-ccr1009-8g-1s-1s-plus
+is_full_depth: false
+comments: |
+  [Product Data](https://mikrotik.com/product/CCR1009-8G-1S-1Splus)
+u_height: 1
+console-ports:
+  - name: serial0
+    type: de-9
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp1
+    type: 1000base-x-sfp

@@ -1,0 +1,26 @@
+---
+manufacturer: DataDirect Networks
+model: SFA200NVX2 Enclosure
+slug: datadirect-networks-sfa200nvx2-enclosure
+comments: 24bay Enclosure for SFA200NVX2 or SFA400NVX2
+part_number: ENC-200NVX2
+u_height: 2
+weight: 36.36
+weight_unit: kg
+is_full_depth: true
+airflow: front-to-rear
+subdevice_role: parent
+module-bays:
+  - name: PSU 1
+    label: PSU Slot 1
+    position: '1'
+  - name: PSU 2
+    label: PSU Slot 2
+    position: '2'
+device-bays:
+  - name: Controller 0
+    label: Controller Slot 0
+    position: '0'
+  - name: Controller 1
+    label: Controller Slot 1
+    position: '1'

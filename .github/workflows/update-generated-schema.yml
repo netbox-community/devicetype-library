@@ -1,0 +1,67 @@
+---
+name: Gather New NetBox Generated Schema JSON
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+jobs:
+  schema-update:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      issues: write
+      pull-requests: write
+      contents: write
+    steps:
+      - name: Get NetBox Latest Release
+        id: netbox-release
+        uses: pozetroninc/github-action-get-latest-release@master
+        with:
+          repository: netbox-community/netbox
+      - uses: actions/checkout@v3
+        if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        id: setup_python
+        with:
+          python-version: '3.8'
+        if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-
+        if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      - name: Install dependencies
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+        if: ${{ steps.cache-venv.outputs.cache-hit != 'true' && steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      - name: Regenerate Master Slug List
+        run: python3 scripts/update-schema.py
+        if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Regenerate master slug list after successful PR merge"
+          committer: "NetBox-Bot <info@netboxlabs.com>"
+          author: "NetBox-Bot <info@netboxlabs.com>"
+          branch: ${{ steps.netbox-release.outputs.release }}
+          delete-branch: true
+          base: master
+          title: NetBox ${{ steps.netbox-release.outputs.release }} Generated Schema JSON
+          body: |
+            Adding generated_schema.json from NetBox ${{ steps.netbox-release.outputs.release }}
+          assignees: danner26
+          reviewers: danner26
+        if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
+      # - name: Update Repository SCHEMA_VERSION
+      #   uses: action-pack/set-variable@v1
+      #   with:
+      #     name: 'SCHEMA_VERSION'
+      #     value: ${{ steps.netbox-release.outputs.release }}
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #   if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}

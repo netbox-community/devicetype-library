@@ -1,0 +1,14 @@
+---
+manufacturer: Cisco
+model: A99-RP-F
+part_number: A99-RP-F
+console-ports:
+  - name: console{module}
+    type: rj-45
+interfaces:
+  - name: MgmtEth{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: MgmtEth{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true

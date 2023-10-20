@@ -1,11 +1,14 @@
 ---
 manufacturer: Synology
 model: DS220+
-slug: ds220plus
+slug: synology-ds220-plus
 part_number: DS220+
 u_height: 4
 comments: '[Synology DS220+ Specs](https://www.synology.com/en-us/products/DS220+#specs)'
 is_full_depth: false
+power-ports:
+  - name: PSU
+    type: dc-terminal
 interfaces:
   - name: LAN 1
     type: 1000base-t

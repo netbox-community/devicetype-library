@@ -1,0 +1,35 @@
+---
+manufacturer: HPE
+model: ProCurve 6108
+slug: hpe-procurve-6108
+part_number: J4902A
+u_height: 1
+airflow: side-to-rear
+is_full_depth: false
+weight: 3.16
+weight_unit: kg
+comments: (HP ProCurve Switch 6108 - Specification)[https://support.hpe.com/hpesc/public/docDisplay?docId=c01803712&docLocale=en_US]
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 48
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t

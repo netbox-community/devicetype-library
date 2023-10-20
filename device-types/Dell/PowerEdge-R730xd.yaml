@@ -1,0 +1,38 @@
+---
+manufacturer: Dell
+model: PowerEdge R730xd
+slug: dell-poweredge-r730xd
+u_height: 2
+is_full_depth: true
+comments: '[Technical Guide](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)'
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: Network Daughter Card slot 1
+    position: NDC-1
+  - name: PCIe slot 1
+    position: PCIe-1
+    label: '1'
+  - name: Riser PCIe slot 2
+    position: PCIe-2
+    label: '2'
+  - name: Riser PCIe slot 3
+    position: PCIe-3
+    label: '3'
+  - name: PCIe slot 4
+    position: PCIe-4
+    label: '4'
+  - name: Riser PCIe slot 5
+    position: PCIe-5
+    label: '5'
+  - name: Riser PCIe slot 6
+    position: PCIe-6
+    label: '6'
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
