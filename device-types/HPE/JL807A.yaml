@@ -1,13 +1,13 @@
 ---
 manufacturer: HPE
-model: Aruba Instant On 1960 24G 2XGT 2SFP+
-slug: hpe-aruba-instant-on-1960-24g-2xgt-2sfpp
-part_number: JL806A
+model: Aruba Instant On 1960 24G 2XGT 2SFP+ Poe
+slug: hpe-aruba-instant-on-1960-24g-2xgt-2sfpp-poe
+part_number: JL807A
 u_height: 1
 airflow: passive
 is_full_depth: false
 comments: '[Aruba Instant On 1960 Switch Series Data Sheet](https://buy.hpe.com/it/it/networking/switches/fixed-port-web-managed-ethernet-switches/aruba-1900-switch-products/switch-aruba-instant-on-1960-24g-2xgt-2sfp/p/jl806a)'
-weight: 4
+weight: 5
 weight_unit: kg
 power-ports:
   - name: PS1
@@ -16,52 +16,100 @@ power-ports:
 interfaces:
   - name: '1'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '2'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '3'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '4'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '5'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '6'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '7'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '8'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '9'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '10'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '11'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '12'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '13'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '14'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '15'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '16'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '17'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '18'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '19'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '20'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '21'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '22'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '23'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '24'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '25'
     type: 10gbase-t
   - name: '26'
