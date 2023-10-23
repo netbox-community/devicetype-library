@@ -45,7 +45,7 @@ The following fields may **optionally** be declared:
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
   - Type: Boolean
 > :test_tube: **Example**: `is_full_depth: false`
-- `airflow`: A decleration of the airflow pattern for the device. (**Default: None**)
+- `airflow`: A declaration of the airflow pattern for the device. (**Default: None**)
   - Type: String
   - Options:
     - `front-to-rear`
