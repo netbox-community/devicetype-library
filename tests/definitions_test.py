@@ -67,7 +67,7 @@ def _get_diff_from_upstream():
             if file.change_type in CHANGE_TYPE_LIST:
                 # If the file is renamed, ensure we are picking the right schema
                 if 'R' in file.change_type and path in file.rename_to:
-                    file_list.append((file.rename_from, schema, file.change_type))
+                    file_list.append((file.rename_to, schema, file.change_type))
                 elif path in file.a_path:
                     file_list.append((file.a_path, schema, file.change_type))
                 elif path in file.b_path:
