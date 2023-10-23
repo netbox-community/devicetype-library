@@ -1,14 +1,14 @@
 ---
 manufacturer: HPE
-model: Switch Aruba Instant On 1960 24G 2XGT 2SFP+ Poe
-slug: hpe-aruba-1960-24g-poe
+model: Aruba Instant On 1960 24G 2XGT 2SFP+ Poe
+slug: hpe-aruba-instant-on-1960-24g-2xgt-2sfpp-poe
 part_number: JL806A
 u_height: 1
 airflow: passive
 is_full_depth: false
 comments: '[Aruba Instant On 1960 Switch Series Data Sheet](https://buy.hpe.com/it/it/networking/switches/fixed-port-web-managed-ethernet-switches/aruba-1900-switch-products/switch-aruba-instant-on-1960-24g-2xgt-2sfp/p/jl806a)'
 weight: 2.11
-weight_unit: kg
+weight_unit: 4kg
 power-ports:
   - name: PS1
     type: iec-60320-c14
@@ -109,14 +109,12 @@ interfaces:
   - name: '24'
     type: 1000base-t
     poe_mode: pse
-    poe_type: type2-ieee802.3at                                            
+    poe_type: type2-ieee802.3at
   - name: '25'
-    type: 10gbase
+    type: 10gbase-t
   - name: '26'
-    type: 10gbase
+    type: 10gbase-t
   - name: '27'
     type: 10gbase-x-sfpp
   - name: '28'
-    type: 10gbase-x-sfpp    
-
-    
+    type: 10gbase-x-sfpp
