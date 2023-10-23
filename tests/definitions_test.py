@@ -32,7 +32,7 @@ def _get_definition_files():
 
         # Map each definition file to its schema as a tuple (file, schema)
         for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
-            file_list.append((file, schema))
+            file_list.append((file, schema, 'skip'))
 
     return file_list
 
