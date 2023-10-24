@@ -1,0 +1,31 @@
+---
+manufacturer: Datacom
+model: DM2500 4GT+2GX+LTE
+slug: dm2500-4gt-2gx-lte
+part_number: 800.5251.xx
+u_height: 1.0
+is_full_depth: true
+subdevice_role: ''
+airflow: side-to-rear
+comments: "The products from the DM2500 family are compact 1U high equipment in a metal enclosure.
+    They come with a built-in universal AC/DC power supply with automatic
+    selection and offer redundancy through an optional e xternal power source.
+    Up to two devices can be installed side by side in a 19" rack using an adapter."
+console-ports:
+- name: Console0
+  type: rj-45
+interfaces:
+- name: eth1
+  type: 1000base-t
+- name: eth2
+  type: 1000base-x-sfp
+- name: eth3
+  type: 1000base-x-sfp
+- name: eth4
+  type: 1000base-t
+- name: eth5
+  type: 1000base-t
+- name: eth6
+  type: 1000base-t
+- name: wlm0
+  type: lte
