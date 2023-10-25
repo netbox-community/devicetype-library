@@ -9,6 +9,10 @@ is_full_depth: false
 console-ports:
   - name: CONSOLE
     type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 22    
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-t
@@ -31,6 +35,6 @@ interfaces:
   - name: GigabitEthernet0/0/9
     type: 1000base-t
   - name: GigabitEthernet0/0/10
-    type: 000base-x-sfp
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/11
-    type: 000base-x-sfp
+    type: 1000base-x-sfp
