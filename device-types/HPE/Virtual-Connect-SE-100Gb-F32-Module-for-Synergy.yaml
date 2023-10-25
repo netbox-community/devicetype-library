@@ -1,0 +1,46 @@
+---
+manufacturer: HPE
+model: Virtual Connect SE 100Gb F32 Module for Synergy
+slug: hpe-virtual-connect-se-100gb-f32-module-for-synergy
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/a00067745enw)'
+part_number: 867796-B21
+weight: 5
+weight_unit: kg
+u_height: 0
+subdevice_role: child
+interfaces:
+  - name: interconnect {module}, L1
+    description: CXP28 (300 Gb/s Interconnect Link)
+    type: other
+  - name: interconnect {module}, L2
+    description: CXP28 (300 Gb/s Interconnect Link)
+    type: other
+  - name: interconnect {module}, L3
+    description: CXP28 (300 Gb/s Interconnect Link)
+    type: other
+  - name: interconnect {module}, L4
+    description: CXP28 (300 Gb/s Interconnect Link)
+    type: other
+  - name: interconnect {module}, Q1
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q2
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q3
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q4
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q5
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q6
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q7
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, Q8
+    type: 50gbase-x-sfp28
+  - name: interconnect {module}, X1
+    type: 10gbase-x-sfpp
+  - name: interconnect {module}, X2
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: interconnect {module}, Serial Console
+    type: usb-micro-b

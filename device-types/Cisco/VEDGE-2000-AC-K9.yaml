@@ -14,13 +14,6 @@ console-ports:
     type: usb-b
   - name: console
     type: rj-45
-power-ports:
-  - name: PSU-1
-    type: iec-60320-c14
-    allocated_draw: 125
-  - name: PSU-2
-    type: iec-60320-c14
-    allocated_draw: 125
 interfaces:
   - name: mgmt
     type: 1000base-t
@@ -33,3 +26,8 @@ interfaces:
     type: 1000base-x-sfp
   - name: ge0/3
     type: 1000base-x-sfp
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'

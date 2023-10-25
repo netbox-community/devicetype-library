@@ -1,0 +1,44 @@
+---
+name: Create Master Slug List on PR Merge
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        id: setup_python
+        with:
+          python-version: '3.8'
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.pythonLocation }}-
+      - name: Install dependencies
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+      - name: Regenerate Master Slug List
+        run: python3 tests/generate-slug-list.py
+      - name: Commit and Push Changes to Master
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: NetBox-Bot
+          author_email: info@netboxlabs.com
+          committer_name: NetBox-Bot
+          committer_email: info@netboxlabs.com
+          default_author: github_actions
+          message: "Regenerate master slug list after successful PR merge"
+          push: true

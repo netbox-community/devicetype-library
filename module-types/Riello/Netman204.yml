@@ -1,0 +1,14 @@
+---
+manufacturer: Riello
+model: Netman 204
+part_number: NETMAN204
+comments: Riello UPS NetMan 204 Network Card
+console-ports:
+  - name: Netman/Serial
+    type: rj-45
+  - name: Netman/USB
+    type: usb-micro-b
+interfaces:
+  - name: Netman/mgmt
+    type: 100base-tx
+    mgmt_only: true

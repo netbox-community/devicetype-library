@@ -23,29 +23,13 @@
             "type": "boolean"
         },
         "airflow": {
-            "type": "string",
-            "enum": [
-                "front-to-rear",
-                "rear-to-front",
-                "left-to-right",
-                "right-to-left",
-                "side-to-rear",
-                "passive"
-            ]
+            "$ref": "generated_schema.json#/definitions/airflow"
         },
         "weight": {
-            "type": "number",
-            "minimum": 0,
-            "multipleOf": 0.01
+            "$ref": "reusable.json#/definitions/weight"
         },
         "weight_unit": {
-            "type": "string",
-            "enum": [
-                "kg",
-                "g",
-                "lb",
-                "oz"
-            ]
+            "$ref": "generated_schema.json#/definitions/weight-unit"
         },
         "front_image": {
             "type": "boolean"
@@ -54,11 +38,10 @@
             "type": "boolean"
         },
         "subdevice_role": {
-            "type": "string",
-            "enum": [
-                "parent",
-                "child"
-            ]
+            "$ref": "generated_schema.json#/definitions/subdevice-role"
+        },
+        "is_powered": {
+          "type": "boolean"
         },
         "console-ports": {
             "type": "array",

@@ -5,13 +5,21 @@ slug: hpe-flexfabric-5700-32xgt-8xg-2qsfpp
 part_number: JG898A
 u_height: 1
 is_full_depth: false
+comments: '[HPE FlexFabric 5700 Switch Series - Specification](https://support.hpe.com/hpesc/public/docDisplay?docId=c04400247)'
 console-ports:
   - name: console
     type: rj-45
-power-ports:
+  - name: usb
+    type: usb-a
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 350
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: Fan1
+    position: Fan1
+  - name: Fan2
+    position: Fan2
 interfaces:
   - name: Ten-GigabitEthernet1/0/0
     type: 10gbase-t
@@ -95,7 +103,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/40
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/41
+  - name: FortyGigE1/0/41
     type: 40gbase-x-qsfpp
-  - name: Ten-GigabitEthernet1/0/42
+  - name: FortyGigE1/0/42
     type: 40gbase-x-qsfpp

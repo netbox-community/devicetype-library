@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: PWR-1511-DC-RED
+part_number: PWR-1511-DC-RED
+# airflow: front-to-rear
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1500
