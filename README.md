@@ -23,7 +23,7 @@ Each definition **must** include at minimum the following fields:
 - `model`: The model number of the device type. This must be unique per manufacturer.
   - Type: String
 - `slug`: A URL-friendly representation of the model number. Like the model number, this must be unique per
-  manufacturer. All slugs should have the manufacturers name appended to it with a dash, please see the example below.
+  manufacturer. All slugs should have the manufacturers name prepended to it with a dash, please see the example below.
   - Type: String
   - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
 
@@ -41,11 +41,11 @@ The following fields may **optionally** be declared:
 > :test_tube: **Example**: `part_number: D109-C3`
 - `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
   - Type: number (minimum of `0`, multiple of `0.5`)
-> :test_tube: **Example**: `u_height: 12.5` 
+> :test_tube: **Example**: `u_height: 12.5`
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
   - Type: Boolean
 > :test_tube: **Example**: `is_full_depth: false`
-- `airflow`: A decleration of the airflow pattern for the device. (**Default: None**)
+- `airflow`: A declaration of the airflow pattern for the device. (**Default: None**)
   - Type: String
   - Options:
     - `front-to-rear`
@@ -55,11 +55,11 @@ The following fields may **optionally** be declared:
     - `side-to-rear`
     - `passive`
 > :test_tube: **Example**: `airflow: side-to-rear`
-- `front_image`: Indicates that this device has a front elevation image within the elevation-imgaes folder. (**Default: None**)
+- `front_image`: Indicates that this device has a front elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
   - Type: Boolean
 > :test_tube: **Example**: `front_image: True`
-- `rear_image`: Indicates that this device has a rear elevation image within the elevation-imgaes folder. (**Default: None**)
+- `rear_image`: Indicates that this device has a rear elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.rear.<acceptable_format>
   - Type: Boolean
 > :test_tube: **Example**: `rear_image: True`
@@ -87,6 +87,9 @@ The following fields may **optionally** be declared:
 >weight: 12.21
 >weight_unit: lb
 >```
+- `is_powered`: A boolean which indicates whether the device type does not take power. This is mainly used as a workaround for validation testing on non-devices (i.e. rackmount kits for mounting desktop devices) (**Default: True**)
+  - Type: Boolean
+> :test_tube: **Example**: `is_powered: false`
 
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
@@ -114,6 +117,7 @@ The available fields for each type of component are listed below.
 - `name`: Name
 - `label`: Label
 - `type`: Port type slug (Array)
+- `poe`: Does this port access/provide POE? (Boolean)
 
 #### Console Server Ports
 
@@ -158,12 +162,13 @@ The available fields for each type of component are listed below.
 - `label`: Label
 - `type`: Port type slug (Array)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
+- `poe`: Does this port access/provide POE? (Boolean)
 
 #### Module Bays
 
 - `name`: Name
 - `label`: Label
-- `position`: The module bay's position within the parent device
+- `position`: The alphanumeric position in which this module bay is situated within the parent device. When creating module components, the string `{module}` in the component name will be replaced with the module bay's `position`. See the [NetBox Documentation](https://docs.netbox.dev/en/stable/models/dcim/moduletype/#automatic-component-renaming) for more details.
 
 #### Device Bays
 

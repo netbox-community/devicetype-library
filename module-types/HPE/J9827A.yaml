@@ -1,0 +1,14 @@
+---
+manufacturer: HPE
+model: HPE Aruba 5400R zl2 Management Module
+part_number: J9827A
+comments: HPE Aruba 5400R zl2 Management Module
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Aux
+    type: usb-a
+interfaces:
+  - name: '{module}'
+    type: 1000base-t
+    mgmt_only: true

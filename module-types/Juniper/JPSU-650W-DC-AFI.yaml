@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: JPSU-650W-DC-AFI
+part_number: JPSU-650W-DC-AFI
+# airflow: rear-to-front
+weight: 2.2
+weight_unit: lb
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 650
