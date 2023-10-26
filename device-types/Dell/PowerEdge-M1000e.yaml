@@ -4,34 +4,71 @@ model: PowerEdge M1000e
 slug: dell-poweredge-m1000e
 u_height: 10
 is_full_depth: true
+airflow: front-to-rear
+# Maximum weight, until enough device and module models are created. Empty weight 98.1
+weight: 442
+weight_unit: lb
 subdevice_role: parent
+# description: Blade chassis for M630 blades and I/O modules
+comments: |
+  Documentation
+
+  - [Product Support page](https://www.dell.com/support/home/en-us/product-support/product/poweredge-m1000e/overview)
+  - [Dell PowerEdge M1000e Enclosure Owner's Manual](https://www.dell.com/support/manuals/en-us/poweredge-m1000e/m1000eownersmanual/about-your-system)
+interfaces:
+  - name: IOM Slot A1 management backplane
+    type: 1000base-kx
+  - name: IOM Slot A2 management backplane
+    type: 1000base-kx
+  - name: IOM Slot B1 management backplane
+    type: 1000base-kx
+  - name: IOM Slot B2 management backplane
+    type: 1000base-kx
+  - name: IOM Slot C1 management backplane
+    type: 1000base-kx
+  - name: IOM Slot C2 management backplane
+    type: 1000base-kx
+  - name: Chassis CMC
+    type: other
+    mgmt_only: true
 power-ports:
-  - name: PSU1
+  - name: PS-1
     type: iec-60320-c20
-  - name: PSU2
+  - name: PS-2
     type: iec-60320-c20
-  - name: PSU3
+  - name: PS-3
     type: iec-60320-c20
-  - name: PSU4
+  - name: PS-4
     type: iec-60320-c20
-  - name: PSU5
+  - name: PS-5
     type: iec-60320-c20
-  - name: PSU6
+  - name: PS-6
     type: iec-60320-c20
 device-bays:
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
-  - name: Slot 7
-  - name: Slot 8
-  - name: Slot 9
-  - name: Slot 10
-  - name: Slot 11
-  - name: Slot 12
-  - name: Slot 13
-  - name: Slot 14
-  - name: Slot 15
-  - name: Slot 16
+  - name: Server Slot 1
+  - name: Server Slot 2
+  - name: Server Slot 3
+  - name: Server Slot 4
+  - name: Server Slot 5
+  - name: Server Slot 6
+  - name: Server Slot 7
+  - name: Server Slot 8
+  - name: Server Slot 9
+  - name: Server Slot 10
+  - name: Server Slot 11
+  - name: Server Slot 12
+  - name: Server Slot 13
+  - name: Server Slot 14
+  - name: Server Slot 15
+  - name: Server Slot 16
+  - name: IOM Slot A1
+  - name: IOM Slot A2
+  - name: IOM Slot B1
+  - name: IOM Slot B2
+  - name: IOM Slot C1
+  - name: IOM Slot C2
+module-bays:
+  - name: CMC Slot 1
+  - name: CMC Slot 2
+  - name: KVM Slot
+  - name: FlexAddress

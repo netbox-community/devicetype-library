@@ -1,0 +1,27 @@
+---
+manufacturer: Dell
+model: PowerEdge M630
+slug: dell-poweredge-m630
+u_height: 0
+# Disabled until enough device and module models are created to estimate accurately.
+# Chassis has maximum weight set.
+# weight: 15.0
+# weight_unit: lb
+subdevice_role: child
+# description: Node for PowerEdge M1000e chassis
+comments: |
+  Documentation
+
+  - [Product Support page](https://www.dell.com/support/home/en-us/product-support/product/poweredge-m630/overview)
+  - [Dell PowerEdge M630 Owner's Manual](https://www.dell.com/support/manuals/en-us/poweredge-m630/m630ownersmanual/dell-poweredge-m630-overview)
+interfaces:
+  - name: iDRAC
+    type: 1000base-kx
+    mgmt_only: true
+module-bays:
+  - name: Slot A bNDC
+    position: A
+  - name: Slot B Mezzanine
+    position: B
+  - name: Slot C Mezzanine
+    position: C
