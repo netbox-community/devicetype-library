@@ -1,0 +1,28 @@
+---
+manufacturer: QNAP
+model: TS-563
+slug: qnap-ts-563
+part_number: TS-563
+is_full_depth: false
+subdevice_role: parent
+device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  - name: Disk 5
+module-bays:
+  - name: Slot 1
+comments: '[TS-563 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-563/specs/hardware)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 70
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 1000base-t
+  - name: eth1
+    label: '2'
+    type: 1000base-t
