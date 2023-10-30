@@ -18,7 +18,7 @@ power-ports:
   - name: PS2
     type: iec-60320-c14
     maximum_draw: 160
-interfaces:  
+interfaces:
   - name: GigabitEthernet0/1
     type: 1000base-t
     mgmt_only: true
@@ -77,7 +77,7 @@ interfaces:
   - name: GigabitEthernet1/0/22C
     type: 10gbase-t
   - name: GigabitEthernet1/0/22F
-    type: 10gbase-x-sfpp    
+    type: 10gbase-x-sfpp
   - name: GigabitEthernet1/0/23C
     type: 10gbase-t
   - name: GigabitEthernet1/0/23F
