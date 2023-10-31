@@ -19,11 +19,12 @@ console-ports:
   - name: Serial
     label: Serial
     type: rj-12
-  - name: CAN In
-    label: In
-    type: rj-45
   - name: CAN Out
     label: Out
+    type: rj-45
+console-server-ports:
+  - name: CAN In
+    label: In
     type: rj-45
 interfaces:
   - name: Network
