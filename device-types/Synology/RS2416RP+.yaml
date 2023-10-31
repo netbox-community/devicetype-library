@@ -15,15 +15,6 @@ console-ports:
   - name: Console
     type: de-9
     mgmt_only: true
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 120
-    allocated_draw: 56
-  - name: PSU 2
-    type: iec-60320-c14
-    maximum_draw: 120
-    allocated_draw: 56
 interfaces:
   - name: LAN 1
     type: 1000base-t
@@ -35,3 +26,7 @@ interfaces:
     type: 1000base-t
 module-bays:
   - name: PCIe Expansion
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
