@@ -1,0 +1,30 @@
+---
+manufacturer: Supermicro
+model: SYS-6018U-TR4T+
+slug: supermicro-sys-6018u-tr4t
+u_height: 1
+is_full_depth: true
+weight: 18.6
+weight_unit: kg
+airflow: front-to-rear
+comments: 'Specification: [https://www.supermicro.com/en/products/system/1U/6018/SYS-6018U-TR4T_.cfm](https://www.supermicro.com/en/products/system/1U/6018/SYS-6018U-TR4T_.cfm)'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+  - name: Gig-E 3
+    type: 10gbase-t
+  - name: Gig-E 4
+    type: 10gbase-t
+  - name: Gig-E 5
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port

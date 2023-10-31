@@ -1,0 +1,22 @@
+---
+manufacturer: Supermicro
+model: SYS-620C-TN12R
+slug: supermicro-sys-620c-tn12r
+u_height: 2
+is_full_depth: true
+weight: 31.3
+weight_unit: kg
+airflow: front-to-rear
+comments: 'Specification: [https://www.supermicro.com/en/products/system/cloud/2u/sys-620c-tn12r](https://www.supermicro.com/en/products/system/cloud/2u/sys-620c-tn12r)'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1200
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
