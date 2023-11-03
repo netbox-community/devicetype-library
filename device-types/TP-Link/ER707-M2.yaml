@@ -2,90 +2,27 @@
 manufacturer: TP-Link
 model: ER707-M2
 slug: er707-m2
-default_platform: null
 part_number: ER707-M2
 u_height: 0.0
 is_full_depth: false
-subdevice_role: ''
 airflow: passive
 comments: '[TP-Link ER707-M2 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-router/er707-m2/#specifications)'
-weight: null
-weight_unit: ''
 power-ports:
 - name: 12VDC
   type: dc-terminal
   maximum_draw: 7
-  allocated_draw: null
-  label: ''
-  description: ''
 interfaces:
-- name: wan/lan2
-  type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: wan/lan3
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: wan/lan4
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: wan/lan5
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: wan/lan6
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: wan/lan7
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: wan/lan2
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
 - name: wan1
   type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+- name: wan/lan2
+  type: 2.5gbase-t
+- name: wan/lan3
+  type: 1000base-t
+- name: wan/lan4
+  type: 1000base-t
+- name: wan/lan5
+  type: 1000base-t
+- name: wan/lan6
+  type: 1000base-t
+- name: wan/lan7
+  type: 1000base-x-sfp
