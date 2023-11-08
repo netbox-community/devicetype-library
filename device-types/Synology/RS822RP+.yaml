@@ -9,49 +9,49 @@ subdevice_role: ''
 airflow: ''
 comments: ''
 console-ports:
-- name: Console
-  type: de-9
-  label: ''
-  description: ''
+  - name: Console
+    type: de-9
+    label: ''
+    description: ''
 power-ports:
-- name: PSU 1
-  type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
-  label: PSU 1
-  description: ''
-- name: PSU 2
-  type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
-  label: PSU 2
-  description: ''
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: null
+    allocated_draw: null
+    label: PSU 1
+    description: ''
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: null
+    allocated_draw: null
+    label: PSU 2
+    description: ''
 interfaces:
-- name: Ethernet 1
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Ethernet 2
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Ethernet 3
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Ethernet 4
-  type: 1000base-t
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
+  - name: Ethernet 1
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: ''
+    poe_type: ''
+  - name: Ethernet 2
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: ''
+    poe_type: ''
+  - name: Ethernet 3
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: ''
+    poe_type: ''
+   - name: Ethernet 4
+    type: 1000base-t
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: ''
+    poe_type: ''
