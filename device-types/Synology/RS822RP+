@@ -1,0 +1,30 @@
+---
+manufacturer: Synology
+model: RS822RP+
+slug: rs822rp
+part_number: RS822RP+
+u_height: 1.0
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    label: PSU 1
+  - name: PSU 2
+    type: iec-60320-c14
+    label: PSU 2
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet 4
+    type: 1000base-t
+    mgmt_only: false
