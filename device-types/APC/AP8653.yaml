@@ -5,7 +5,6 @@ slug: apc-ap8653
 part_number: AP8653
 u_height: 0.0
 is_full_depth: false
-subdevice_role: ''
 comments: 'comments: Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19'
 console-ports:
   - name: Serial
@@ -76,19 +75,15 @@ power-outlets:
     label: Power Outlet 20
   - name: '21'
     type: iec-60320-c13
-    power_port: null
     label: Power Outlet 21
   - name: '22'
     type: iec-60320-c13
-    power_port: null
     label: Power Outlet 22
   - name: '23'
     type: iec-60320-c13
-    power_port: null
     label: Power Outlet 23
   - name: '24'
     type: iec-60320-c19
-    power_port: null
     label: Power Outlet 24
 interfaces:
   - name: Network
