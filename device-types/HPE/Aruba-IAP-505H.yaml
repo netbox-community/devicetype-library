@@ -13,46 +13,65 @@ console-ports:
   - name: USB 2.0
     type: usb-a
     label: USBA
+  - name: Serial Console Interface
+    type: usb-micro-b
+    label: USBmB
 power-ports:
-  - name: DC Power Interface
+  - name: 48Vdc
     type: dc-terminal
     label: DC Power
+    description: accepts 1.35mm/3.5mm center-positive circular plug with 9.5mm length
 interfaces:
-  - name: BLUETOOTH / Zigbee
-    type: ieee802.15.1
-    label: Radio 2
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    enabled: true
+    label: Radio 0
     description: Integrated
+    rf_role: ap
+  - name: 5GHz WiFi
+    type: ieee802.11ax
+    enabled: true
+    label: Radio 1
+    description: Integrated
+    rf_role: ap
+  - name: Bluetooth
+    type: ieee802.15.1
+    enabled: true
+    label: Radio 2
+    description: BLE5.0
   - name: Ethernet 0
     type: 2.5gbase-t
+    enabled: true
     label: E0
     description: Auto-sensing link speed (100/1000/2500BASE-T)
     poe_mode: pd
     poe_type: type4-ieee802.3bt
   - name: Ethernet 1
     type: 1000base-t
+    enabled: true
     label: E1
     description: Auto-sensing link speed (10/100/1000BASE-T)
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: Ethernet 2
     type: 1000base-t
+    enabled: true
     label: E2
     description: Auto-sensing link speed (10/100/1000BASE-T)
     poe_mode: pse
     poe_type: type1-ieee802.3af
   - name: Ethernet 3
     type: 1000base-t
+    enabled: true
     label: E3
     description: Auto-sensing link speed (10/100/1000BASE-T)
   - name: Ethernet 4
     type: 1000base-t
+    enabled: true
     label: E4
     description: Auto-sensing link speed (10/100/1000BASE-T)
-  - name: WIFI / 2.4 GHz Radio
-    type: ieee802.11ax
-    label: Radio 0
-    description: Integrated
-  - name: WIFI / 5GHz Radio
-    type: ieee802.11ax
-    label: Radio 1
-    description: Integrated
+  - name: Zigbee
+    type: other-wireless
+    enabled: true
+    label: Radio 3
+    description: 802.15.4
