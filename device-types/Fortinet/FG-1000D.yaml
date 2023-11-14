@@ -1,41 +1,49 @@
 ---
 manufacturer: Fortinet
-model: FortiGate 300E
-slug: fortinet-fg-300e
-part_number: FG-300E
-u_height: 1
+model: FortiGate 1000D
+part_number: FG-1000D
+slug: fortinet-fg-1000d
 is_full_depth: false
-comments: Same as FG-301E , but **WITHOUT** 2 x 240GB SSD on-board.
+u_height: 2
+weight: 11.2
+weight_unit: kg
 console-ports:
   - name: Console
     type: rj-45
+  - name: usbmgmt
+    type: usb-mini-b
+  - name: usbport1
+    type: usb-a
+  - name: usbport2
+    type: usb-a
 module-bays:
   - name: PS1
     position: '1'
   - name: PS2
     position: '2'
 interfaces:
-  - name: ha
+  - name: mgmt1
     type: 1000base-t
-  - name: mgmt
+    mgmt_only: true
+  - name: mgmt2
     type: 1000base-t
     mgmt_only: true
   - name: port1
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port2
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port3
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port4
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port5
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port6
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port7
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port8
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port9
     type: 1000base-t
   - name: port10
@@ -69,18 +77,22 @@ interfaces:
   - name: port24
     type: 1000base-x-sfp
   - name: port25
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: port26
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: port27
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: port28
-    type: 1000base-x-sfp
-  - name: s1
-    type: 1000base-x-sfp
-  - name: s2
-    type: 1000base-x-sfp
-  - name: vw1
-    type: 1000base-x-sfp
-  - name: vw2
-    type: 1000base-x-sfp
+    type: 1000base-t
+  - name: port29
+    type: 1000base-t
+  - name: port30
+    type: 1000base-t
+  - name: port31
+    type: 1000base-t
+  - name: port32
+    type: 1000base-t
+  - name: portA
+    type: 10gbase-x-sfpp
+  - name: portB
+    type: 10gbase-x-sfpp
