@@ -26,7 +26,7 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: AHCI controller in SL 6
-    position: 'AHCI.SL.6-1'
+    position: AHCI.SL.6-1
     label: BOSS-S2
   - name: Backplane 1 on Connector 0 of Storage Controller in SL 3
     position: Internal.0-1:NonRAID.SL.3-1
