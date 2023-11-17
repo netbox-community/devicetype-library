@@ -1,27 +1,32 @@
 ---
 manufacturer: Dell
-model: VxRail P670F
-slug: dell-vxrail-p670f
+model: PowerEdge R750xs
+slug: dell-poweredge-r750xs
 u_height: 2
 is_full_depth: true
 front_image: true
 rear_image: true
 comments: |
-  [Dell VxRail P670F](https://dl.dell.com/content/manual44265077-dell-vxrail-p670f-p670n-v670f-and-s670-installation-and-service-manual.pdf?language=en-us)
+  [PowerEdge R750xs](https://dl.dell.com/content/manual49765834-dell-emc-poweredge-r750xs-manuel-d-installation-et-de-maintenance.pdf?language=fr-fr)
 rear-ports:
-  - name: VGA
+  - name: Rear VGA
     type: other
-  - name: USB-A
+  - name: Rear USB 2
     type: other
-  - name: USB-A
+  - name: Rear USB 3
+    type: other
+  - name: iDrac
     type: other
 front-ports:
-  - name: VGA
+  - name: Front VGA
     type: other
-  - name: USB-A
+    rear_port: Rear VGA
+  - name: Front USB 2
     type: other
-  - name: USB-C
+    rear_port: Rear USB 2
+  - name: Front USB micro-AB
     type: other
+    rear_port: iDrac
 power-ports:
   - name: Power 1
     type: iec-60320-c14
