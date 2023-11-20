@@ -1,8 +1,8 @@
 ---
 manufacturer: Opengear
-model: OM2248-L
-slug: opengear-om2248-l
-part_number: OM2248-L
+model: OM2248
+slug: opengear-om2248
+part_number: OM2248
 u_height: 1
 is_full_depth: false
 weight: 3.5
@@ -144,7 +144,4 @@ interfaces:
     mgmt_only: true
   - name: eth1
     type: 1000base-t
-    mgmt_only: true
-  - name: Cellular Interface (LTE)
-    type: lte
     mgmt_only: true
