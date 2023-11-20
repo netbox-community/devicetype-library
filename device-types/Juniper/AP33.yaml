@@ -1,0 +1,26 @@
+---
+manufacturer: Juniper
+model: AP33
+slug: juniper-ap33
+part_number: AP33-WW
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 0.98
+weight_unit: kg
+comments: "- Datasheet: [https://www.juniper.net/content/dam/www/assets/datasheets/us/en/access-points/ap33-access-point-datasheet.pdf](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/access-points/ap33-access-point-datasheet.pdf)\r\
+  \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+interfaces:
+  - name: eth0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: eth1
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ax
+  - name: wlan1
+    type: ieee802.11ax
+  - name: wlan2
+    type: other-wireless
+    description: WIDS/WIPS
