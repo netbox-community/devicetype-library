@@ -1,0 +1,94 @@
+---
+manufacturer: APC
+model: AP8653
+slug: apc-ap8653
+part_number: AP8653
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 8.23
+weight_unit: kg
+comments: 'comments: Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19'
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-2p-e-6h
+power-outlets:
+  - name: '1'
+    type: iec-60320-c13
+    label: Power Outlet 1
+  - name: '2'
+    type: iec-60320-c13
+    label: Power Outlet 2
+  - name: '3'
+    type: iec-60320-c13
+    label: Power Outlet 3
+  - name: '4'
+    type: iec-60320-c13
+    label: Power Outlet 4
+  - name: '5'
+    type: iec-60320-c13
+    label: Power Outlet 5
+  - name: '6'
+    type: iec-60320-c13
+    label: Power Outlet 6
+  - name: '7'
+    type: iec-60320-c13
+    label: Power Outlet 7
+  - name: '8'
+    type: iec-60320-c19
+    label: Power Outlet 8
+  - name: '9'
+    type: iec-60320-c13
+    label: Power Outlet 9
+  - name: '10'
+    type: iec-60320-c13
+    label: Power Outlet 10
+  - name: '11'
+    type: iec-60320-c13
+    label: Power Outlet 11
+  - name: '12'
+    type: iec-60320-c13
+    label: Power Outlet 12
+  - name: '13'
+    type: iec-60320-c13
+    label: Power Outlet 13
+  - name: '14'
+    type: iec-60320-c13
+    label: Power Outlet 14
+  - name: '15'
+    type: iec-60320-c13
+    label: Power Outlet 15
+  - name: '16'
+    type: iec-60320-c19
+    label: Power Outlet 16
+  - name: '17'
+    type: iec-60320-c13
+    label: Power Outlet 17
+  - name: '18'
+    type: iec-60320-c13
+    label: Power Outlet 18
+  - name: '19'
+    type: iec-60320-c13
+    label: Power Outlet 19
+  - name: '20'
+    type: iec-60320-c13
+    label: Power Outlet 20
+  - name: '21'
+    type: iec-60320-c13
+    label: Power Outlet 21
+  - name: '22'
+    type: iec-60320-c13
+    label: Power Outlet 22
+  - name: '23'
+    type: iec-60320-c13
+    label: Power Outlet 23
+  - name: '24'
+    type: iec-60320-c19
+    label: Power Outlet 24
+interfaces:
+  - name: Network
+    type: 1000base-t
+    mgmt_only: true
