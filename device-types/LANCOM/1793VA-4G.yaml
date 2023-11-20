@@ -1,0 +1,38 @@
+---
+manufacturer: LANCOM
+model: 1793VA-4G
+slug: lancom-1793va-4g
+part_number: '62116'
+u_height: 0
+is_full_depth: false
+weight: 520
+weight_unit: g
+comments: '[LANCOM 1793VA-4G Data sheet](https://www.lancom-systems.de/download/LC-1793VA-4G/DS_1793VA-4G_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 18
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: VDSL/ADSL
+    type: xdsl
+  - name: Analog 2/4
+    type: other
+  - name: Analog 1/3
+    type: other
+  - name: ISDN 1
+    type: 1000base-t
+  - name: ISDN 2
+    type: 1000base-t
+  - name: Cellular Interface (LTE)
+    type: lte
+console-ports:
+  - name: com
+    type: mini-din-8
