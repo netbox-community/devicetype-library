@@ -32,7 +32,7 @@ def _get_definition_files():
 
         # Map each definition file to its schema as a tuple (file, schema)
         for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
-            file_list.append((file, schema))
+            file_list.append((file, schema, 'skip'))
 
     return file_list
 
@@ -67,11 +67,11 @@ def _get_diff_from_upstream():
             if file.change_type in CHANGE_TYPE_LIST:
                 # If the file is renamed, ensure we are picking the right schema
                 if 'R' in file.change_type and path in file.rename_to:
-                    file_list.append((file.rename_to, schema))
+                    file_list.append((file.rename_to, schema, file.change_type))
                 elif path in file.a_path:
-                    file_list.append((file.a_path, schema))
+                    file_list.append((file.a_path, schema, file.change_type))
                 elif path in file.b_path:
-                    file_list.append((file.b_path, schema))
+                    file_list.append((file.b_path, schema, file.change_type))
 
     return file_list
 
@@ -127,8 +127,8 @@ else:
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
 
 
-@pytest.mark.parametrize(('file_path', 'schema'), definition_files)
-def test_definitions(file_path, schema):
+@pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
+def test_definitions(file_path, schema, change_type):
     """
     Validate each definition file using the provided JSON schema and check for duplicate entries.
     """
@@ -161,10 +161,10 @@ def test_definitions(file_path, schema):
     # Identify if the definition is for a Device or Module
     if "device-types" in file_path:
         # A device
-        this_device = DeviceType(definition, file_path)
+        this_device = DeviceType(definition, file_path, change_type)
     else:
         # A module
-        this_device = ModuleType(definition, file_path)
+        this_device = ModuleType(definition, file_path, change_type)
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
