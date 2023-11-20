@@ -1,0 +1,153 @@
+---
+manufacturer: Opengear
+model: OM2224-24E-10G-DDC-L
+slug: opengear-om2224-24e-10g-ddc-l
+part_number: OM2224-24E-10G-DDC-L
+u_height: 1
+is_full_depth: false
+weight: 3.5
+weight_unit: kg
+airflow: passive
+comments: '[Operations Manager OM2200 Data Sheet](https://resources.opengear.com/om/datasheets/om2200/)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+  - name: USB C
+    type: usb-a
+  - name: USB D
+    type: usb-a
+  - name: USB E
+    type: usb-a
+  - name: USB F
+    type: usb-a
+  - name: USB G
+    type: usb-a
+  - name: USB H
+    type: usb-a
+  - name: Front Upper USB
+    type: usb-a
+  - name: Front Lower USB
+    type: usb-a
+interfaces:
+  - name: eth0
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: eth1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: eth2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: Cellular Interface (LTE)
+    type: lte
+    mgmt_only: true
+  - name: Port 25
+    type: 1000base-t
+  - name: Port 26
+    type: 1000base-t
+  - name: Port 27
+    type: 1000base-t
+  - name: Port 28
+    type: 1000base-t
+  - name: Port 29
+    type: 1000base-t
+  - name: Port 30
+    type: 1000base-t
+  - name: Port 31
+    type: 1000base-t
+  - name: Port 32
+    type: 1000base-t
+  - name: Port 33
+    type: 1000base-t
+  - name: Port 34
+    type: 1000base-t
+  - name: Port 35
+    type: 1000base-t
+  - name: Port 36
+    type: 1000base-t
+  - name: Port 37
+    type: 1000base-t
+  - name: Port 38
+    type: 1000base-t
+  - name: Port 39
+    type: 1000base-t
+  - name: Port 40
+    type: 1000base-t
+  - name: Port 41
+    type: 1000base-t
+  - name: Port 42
+    type: 1000base-t
+  - name: Port 43
+    type: 1000base-t
+  - name: Port 44
+    type: 1000base-t
+  - name: Port 45
+    type: 1000base-t
+  - name: Port 46
+    type: 1000base-t
+  - name: Port 47
+    type: 1000base-t
+  - name: Port 48
+    type: 1000base-t
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    allocated_draw: 30
+  - name: PS2
+    type: dc-terminal
+    allocated_draw: 30
