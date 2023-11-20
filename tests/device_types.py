@@ -4,7 +4,7 @@ class DeviceType:
     def __new__(cls, *args, **kwargs):
         return super().__new__(cls)
 
-    def __init__(self, definition, file_path):
+    def __init__(self, definition, file_path, change_type):
         self.file_path = file_path
         self.isDevice = True
         self.definition = definition
@@ -16,6 +16,7 @@ class DeviceType:
         self.part_number = definition.get('part_number', "")
         self._slug_part_number = self._slugify_part_number()
         self.failureMessage = None
+        self.change_type = change_type
 
     def _slugify_manufacturer(self):
         return self.manufacturer.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus-").replace("+", "-plus").replace("_", "-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-").replace("&", "and")
@@ -48,8 +49,9 @@ class DeviceType:
             pass
         elif len(known_slug_list_intersect) == 1:
             if self.file_path not in known_slug_list_intersect[0][1]:
-                self.failureMessage = f'{self.file_path} has a duplicate slug: "{self.slug}"'
-                return False
+                if 'R' not in self.change_type:
+                    self.failureMessage = f'{self.file_path} has a duplicate slug: "{self.slug}"'
+                    return False
             return True
         else:
             self.failureMessage = f'{self.file_path} has a duplicate slug "{self.slug}"'
@@ -126,7 +128,7 @@ class ModuleType:
     def __new__(cls, *args, **kwargs):
         return super().__new__(cls)
 
-    def __init__(self, definition, file_path):
+    def __init__(self, definition, file_path, change_type):
         self.file_path = file_path
         self.isDevice = False
         self.definition = definition
@@ -135,6 +137,7 @@ class ModuleType:
         self._slug_model = self._slugify_model()
         self.part_number = definition.get('part_number', "")
         self._slug_part_number = self._slugify_part_number()
+        self.change_type = change_type
 
     def get_filepath(self):
         return self.file_path
