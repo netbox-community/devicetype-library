@@ -1,0 +1,95 @@
+---
+manufacturer: Juniper
+model: QFX5110-32Q-AFO
+slug: juniper-qfx5110-32q-afo
+part_number: QFX5110-32Q-AFO
+u_height: 1
+weight: 24.6
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Juniper QFX5110 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx5110-ethernet-switch-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+  - name: et-0/0/0
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/1
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/2
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/3
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/4
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/5
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/6
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/7
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/8
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/9
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/10
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/11
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/12
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/13
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/14
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/15
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/16
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/17
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/18
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/19
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/20
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/21
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/22
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/23
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/24
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/25
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/26
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/27
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/28
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/29
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/30
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/31
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/32
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/33
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/34
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/35
+    type: 100gbase-x-qsfp28
