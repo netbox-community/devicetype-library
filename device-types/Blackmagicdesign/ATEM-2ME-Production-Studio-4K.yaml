@@ -1,0 +1,123 @@
+---
+manufacturer: Blackmagicdesign
+model: ATEM 2M/E Production Studio 4K
+slug: blackmagicdesign-atem-2me-production-studio-4k
+airflow: right-to-left
+u_height: 2
+is_full_depth: false
+console-ports:
+  - name: USB-2.0
+    type: usb-b
+  - name: REMOTE
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 150
+  - name: PSU2
+    type: iec-60320-c14
+    allocated_draw: 150
+interfaces:
+  - name: CONTROL
+    type: 1000base-t
+rear-ports:
+  - name: Timecode-In-XLR-F
+    type: Other
+  - name: Analog-Audio-In-CH1-XLR-F
+    type: Other
+  - name: Analog-Audio-In-CH2-XLR-F
+    type: Other
+  - name: Analog-Audio-Stereo-In-L-RCA
+    type: Other
+  - name: Analog-Audio-Stereo-In-R-RCA
+    type: Other
+  - name: Timecode-Out-XLR-M
+    type: Other
+  - name: Analog-Audio-Out-Monitor-CH1-XLR-M
+    type: Other
+  - name: Analog-Audio-Out-Monitor-CH2-XLR-M
+    type: Other
+  - name: Analog-Audio-Out-CH1-XLR-M
+    type: Other
+  - name: Analog-Audio-Out-CH2-XLR-M
+    type: Other
+  - name: Talkback-In-XLR-F
+    type: Other
+  - name: Talkback-Out
+    type: Other
+  - name: IN-1-HDMI-IN
+    type: Other
+  - name: IN-1-SDI
+    type: bnc
+  - name: IN-2-SDI
+    type: bnc
+  - name: IN-3-SDI
+    type: bnc
+  - name: IN-4-SDI
+    type: bnc
+  - name: IN-5-SDI
+    type: bnc
+  - name: IN-6-SDI
+    type: bnc
+  - name: IN-7-SDI
+    type: bnc
+  - name: IN-8-SDI
+    type: bnc
+  - name: IN-9-SDI
+    type: bnc
+  - name: IN-10-SDI
+    type: bnc
+  - name: IN-11-SDI
+    type: bnc
+  - name: IN-12-SDI
+    type: bnc
+  - name: IN-13-SDI
+    type: bnc
+  - name: IN-14-SDI
+    type: bnc
+  - name: IN-15-SDI
+    type: bnc
+  - name: IN-16-SDI
+    type: bnc
+  - name: IN-17-SDI
+    type: bnc
+  - name: IN-18-SDI
+    type: bnc
+  - name: IN-19-SDI
+    type: bnc
+  - name: IN-20-SDI
+    type: bnc
+  - name: REF-IN
+    type: bnc
+  - name: Aux-Outputs-1-SDI
+    type: bnc
+  - name: Aux-Outputs-2-SDI
+    type: bnc
+  - name: Aux-Outputs-3-SDI
+    type: bnc
+  - name: Aux-Outputs-4-SDI
+    type: bnc
+  - name: Aux-Outputs-5-SDI
+    type: bnc
+  - name: Aux-Outputs-6-SDI
+    type: bnc
+  - name: ME-1-PVW-SDI
+    type: bnc
+  - name: Program-Outputs-ME-2-SDI
+    type: bnc
+  - name: Program-Outputs-ME-1-SDI
+    type: bnc
+  - name: Program-Outputs-HD-1-SDI
+    type: bnc
+  - name: Program-Outputs-HD-2-SDI
+    type: bnc
+  - name: Program-Outputs-HD-HDMI
+    type: other
+  - name: Multi-View-HD-1-SDI
+    type: bnc
+  - name: Multi-View-HD-2-SDI
+    type: bnc
+  - name: Multi-View-HD-1-HDMI
+    type: other
+  - name: Multi-View-HD-2-HDMI
+    type: other

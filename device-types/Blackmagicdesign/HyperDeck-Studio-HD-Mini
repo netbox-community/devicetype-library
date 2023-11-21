@@ -1,0 +1,37 @@
+---
+manufacturer: Blackmagicdesign
+model: HyperDeck Studio HD Mini
+slug: blackmagicdesign-hyperdeck-studio-hd-mini
+airflow: left-to-right
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: EXT-DISK
+    type: usb-c
+  - name: REMOTE-IN
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 50
+  - name: +12V-DC
+    type: dc-terminal
+    allocated_draw: 50
+interfaces:
+  - name: ETHERNET
+    type: 1000base-t
+rear-ports:
+  - name: HDMI-OUT
+    type: Other
+  - name: REF-OUT
+    type: bnc
+  - name: REF-IN
+    type: bnc
+  - name: TIMECODE-OUT
+    type: bnc
+  - name: TIMECODE-IN
+    type: bnc
+  - name: SDI-OUT
+    type: bnc
+  - name: SDI-IN
+    type: bnc
