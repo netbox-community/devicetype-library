@@ -12,20 +12,20 @@ comments: "The products from the DM2500 family are compact 1U high equipment in 
     selection and offer redundancy through an optional e xternal power source.
     Up to two devices can be installed side by side in a 19" rack using an adapter."
 console-ports:
-    - name: Console0
-      type: rj-45
+  - name: Console0
+  type: rj-45
 interfaces:
-    - name: eth1
-      type: 1000base-t
-    - name: eth2
-      type: 1000base-x-sfp
-    - name: eth3
-      type: 1000base-x-sfp
-    - name: eth4
-      type: 1000base-t
-    - name: eth5
-      type: 1000base-t
-    - name: eth6
-      type: 1000base-t
-    - name: wlm0
-      type: lte
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-x-sfp
+  - name: eth3
+    type: 1000base-x-sfp
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: wlm0
+    type: lte

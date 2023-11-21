@@ -11,12 +11,12 @@ comments: "Switch with L2, L3, and MPLS capabilities, with 12 40GE/100GE interfa
 weight: 4
 weight_unit: kg
 console-ports:
-    - name: Console0
-      type: rj-45
+  - name: Console0
+    type: rj-45
 console-server-ports:
-    - name: Storage
-      type: usb-a
-interfaces:    
+  - name: Storage
+    type: usb-a
+interfaces:
   - name: hundred-gigabit-ethernet 1/1/1
     type: 100gbase-x-qsfp28
     description: 100G/40G Base-X (QSFP28)

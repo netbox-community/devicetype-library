@@ -7,9 +7,7 @@ u_height: 1.0
 is_full_depth: true
 subdevice_role: ''
 airflow: side-to-rear
-comments: "Switch L2 L3 MPLS, wire speed, with 8 optical 10GE ports on SFP+ connectors, 
-  16 optical 25GE 10GE ports on SFP28 connectors, and 6 multi-rate optical 100GE 40GE ports on QSFP28 connectors. 
-  1U metal chassis for 19" rack with 2 fan modules. Power supplies, MPLS license, and optical modules must be purchased separately."
+comments: "Switch L2 L3 MPLS, wire speed, with 8 optical 10GE ports on SFP+ connectors, 16 optical 25GE 10GE ports on SFP28 connectors, and 6 multi-rate optical 100GE 40GE ports on QSFP28 connectors.  1U metal chassis for 19" rack with 2 fan modules. Power supplies, MPLS license, and optical modules must be purchased separately."
 weight: 6.28
 weight_unit: kg
 console-ports:
@@ -17,7 +15,7 @@ console-ports:
     type: rj-45
   - name: Console1
     type: usb-mini-b
-  console-server-ports:
+ console-server-ports:
   - name: Storage
     type: usb-a
 interfaces:
