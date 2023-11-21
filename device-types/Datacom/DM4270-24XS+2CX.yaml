@@ -15,22 +15,22 @@ console-ports:
     type: rj-45
   - name: Console1
     type: usb-mini-b
- console-server-ports:
+console-server-ports:
   - name: Storage
     type: usb-a
 interfaces:
   - name: hundred-gigabit-ethernet 1/1/1
     type: 100gbase-x-qsfp28
-    description: 3x 100GE/40GE ou 4x 40GE(**)
+    description: "3x 100GE/40GE ou 4x 40GE(**)"
   - name: hundred-gigabit-ethernet 1/1/2
     type: 100gbase-x-qsfp28
-    description: 3x 100GE/40GE ou 4x 40GE(**)
+    description: "3x 100GE/40GE ou 4x 40GE(**)"
   - name: hundred-gigabit-ethernet 1/1/3
     type: 100gbase-x-qsfp28
-    description: 3x 100GE/40GE ou 4x 40GE(**)
+    description: "3x 100GE/40GE ou 4x 40GE(**)"
   - name: hundred-gigabit-ethernet 1/1/4
     type: 100gbase-x-qsfp28
-    description: 3x 100GE/40GE ou 4x 40GE(**)
+    description: "3x 100GE/40GE ou 4x 40GE(**)"
   - name: mgmt-1/1/1
     type: 100base-tx
     mgmt_only: true
