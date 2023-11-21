@@ -1,26 +1,29 @@
 ---
 manufacturer: Fortinet
-model: FortiSwitch 224E-POE
-slug: fortinet-fs-224e-poe
-part_number: FS-224E-POE
+model: FortiGate 401E
+slug: fortinet-fg-401e
+part_number: FG-401E
 u_height: 1
-weight: 5.37
+weight: 16.9
 weight_unit: lb
 is_full_depth: false
 airflow: side-to-rear
+comments: 'Same as FG-400E, but **WITH** 2 x 240GB SSD onboard storage. [FortiGate 400E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_400E.pdf).
+  Compatible PSU module: SP-FG300E-PS, maximum power draw 221W, average power draw 115W.'
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 223
-    allocated_draw: 220
-  - name: RPScon
-    type: dc-terminal
-    maximum_draw: 223
-    allocated_draw: 220
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
+  - name: ha
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
   - name: port1
     type: 1000base-t
   - name: port2
@@ -54,21 +57,21 @@ interfaces:
   - name: port16
     type: 1000base-t
   - name: port17
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port18
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port19
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port20
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port21
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port22
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port23
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port24
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: port25
     type: 1000base-x-sfp
   - name: port26
@@ -77,6 +80,11 @@ interfaces:
     type: 1000base-x-sfp
   - name: port28
     type: 1000base-x-sfp
-  - name: mgmt
-    type: 1000base-t
-    mgmt_only: true
+  - name: s1
+    type: 1000base-x-sfp
+  - name: s2
+    type: 1000base-x-sfp
+  - name: vw1
+    type: 1000base-x-sfp
+  - name: vw2
+    type: 1000base-x-sfp
