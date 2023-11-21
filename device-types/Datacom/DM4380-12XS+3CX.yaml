@@ -7,7 +7,7 @@ u_height: 1.0
 is_full_depth: true
 subdevice_role: ''
 airflow: side-to-rear
-comments: "Managed L2, L3, and MPLS switch. MPLS functionality requires a separately purchased license. Includes 12 1/10GbE ports on SFP+, 3 40/100GbE ports on QSFP28, outband management interfaces, RS232 console, and USB ports. SFPs, SFP+, QSFP+, and QSFP28 modules purchased separately. 1U metal chassis for 19” rack. AC or DC power supply with redundancy option (purchased separately)."
+comments: "Managed L2, L3, and MPLS switch. MPLS functionality requires a separately purchased license. Includes 12 1/10GbE ports on SFP+, 3 40/100GbE ports on QSFP28, outband management interfaces, RS232 console, and USB ports. SFPs, SFP+, QSFP+, and QSFP28 modules purchased separately. 1U metal chassis for 19 rack. AC or DC power supply with redundancy option (purchased separately)."
 weight: 3
 weight_unit: kg
 console-ports:
@@ -15,7 +15,7 @@ console-ports:
     type: rj-45
   - name: Console1
     type: usb-mini-b
- console-server-ports:
+console-server-ports:
   - name: Storage
     type: usb-a
 interfaces:
