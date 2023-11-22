@@ -4,13 +4,14 @@ model: VxRail P670F
 slug: dell-vxrail-p670f
 u_height: 2
 is_full_depth: true
+airflow: front-to-rear
+weight: 35.2
+weight_unit: kg
 front_image: true
 rear_image: true
 comments: |
-  [Dell VxRail P670F](https://dl.dell.com/content/manual44265077-dell-vxrail-p670f-p670n-v670f-and-s670-installation-and-service-manual.pdf?language=en-us)
-rear-ports:
-  - name: Rear VGA
-    type: other
+  [Dell VxRail installation](https://dl.dell.com/content/manual44265077-dell-vxrail-p670f-p670n-v670f-and-s670-installation-and-service-manual.pdf?language=en-us)
+  [Dell VxRail datasheet](https://dl.dell.com/content/manual43304433-dell-vxrail-p670f-p670n-v670f-and-s670-technical-specifications.pdf?language=en-us)
 power-ports:
   - name: Power 1
     type: iec-60320-c14
