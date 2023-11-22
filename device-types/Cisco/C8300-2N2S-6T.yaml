@@ -1,0 +1,36 @@
+---
+manufacturer: Cisco
+model: C8300-2N2S-6T
+slug: cisco-c8300-2n2s-6t
+part_number: C8300-2N2S-6T
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Cisco Catalyst 8300 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+front_image: true
+rear_image: true
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 650
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 650
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/5
+    type: 1000base-x-sfp

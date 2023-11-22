@@ -9,31 +9,32 @@ weight_unit: kg
 airflow: front-to-rear
 is_full_depth: true
 comments: '[Cisco Catalyst 8500 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8500-series-edge-platforms/datasheet-c78-744089.html)'
+front_image: true
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
-    type: usb-mini-b
+    type: usb-micro-b
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
   - name: GigabitEthernet0/0/0
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/1
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/2
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/3
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/4
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/5
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/6
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/7
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: TenGigabitEthernet0/1/0
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/1/1
