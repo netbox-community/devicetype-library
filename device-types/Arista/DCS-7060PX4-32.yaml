@@ -4,6 +4,9 @@ model: DCS-7060PX4-32
 slug: arista-dcs-7060px4-32
 is_full_depth: true
 u_height: 1
+airflow: front-to-rear
+front_image: true
+rear_image: true
 interfaces:
   - name: Ethernet1/1
     type: 400gbase-x-osfp
