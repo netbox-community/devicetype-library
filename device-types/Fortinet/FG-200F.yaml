@@ -1,11 +1,10 @@
 ---
 manufacturer: Fortinet
 model: FortiGate 200F
-slug: fg-200f
+slug: fortinet-fg-200f
 part_number: FG-200F
 u_height: 1
 is_full_depth: false
-comments:
 console-ports:
   - name: Console
     type: rj-45
@@ -23,7 +22,6 @@ interfaces:
     type: 1000base-t
   - name: mgmt
     type: 1000base-t
-    mgmt_only: true
   - name: port1
     type: 1000base-t
   - name: port2

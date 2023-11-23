@@ -1,0 +1,33 @@
+---
+manufacturer: Peplink
+model: Balance 305
+slug: peplink-balance-305
+part_number: BPL-305
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+    maximum_draw: 50
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: wan3
+    type: 1000base-t
+  - name: wan4
+    type: other
+    description: usb wan port
+  - name: wan5
+    type: other
+    description: usb wan port

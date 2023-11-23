@@ -1,0 +1,25 @@
+---
+manufacturer: LANCOM
+model: WLC-30
+slug: lancom-wlc-30
+part_number: '61789'
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 9
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: Uplink
+    type: 1000base-t
+console-ports:
+  - name: com
+    type: mini-din-8

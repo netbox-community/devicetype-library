@@ -1,0 +1,23 @@
+---
+manufacturer: LANCOM
+model: LN-1702
+slug: lancom-ln-1702
+part_number: '61764'
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 21
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: WLAN-1
+    type: ieee802.11n
+  - name: WLAN-2
+    type: ieee802.11ac
+console-ports:
+  - name: com
+    type: mini-din-8

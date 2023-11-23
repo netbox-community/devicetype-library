@@ -1,0 +1,16 @@
+---
+manufacturer: APC
+model: AP9631
+part_number: AP9631
+comments: UPS Network Management Card 2 with Environmental Monitoring
+console-ports:
+  - name: Serial (3.5mm) [{module}]
+    type: other
+interfaces:
+  - name: Network [{module}]
+    type: 100base-tx
+    mgmt_only: true
+  - name: Universal I/O 1 (RJ-45) [{module}]
+    type: other
+  - name: Universal I/O 2 (RJ-45) [{module}]
+    type: other

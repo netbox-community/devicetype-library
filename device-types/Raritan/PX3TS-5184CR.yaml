@@ -1,0 +1,56 @@
+---
+manufacturer: Raritan
+model: PX3TS-5184CR
+slug: raritan-px3ts-5184cr
+part_number: PX3TS-5184CR
+u_height: 1
+is_full_depth: true
+comments: '[Rack Transfer Switch PDU, Metered, Remote Switching, (7) C13 & (1) C19](https://www.raritan.com/assets/ram/resources/data_sheets/raritan-ds-rack-transfer-switch.pdf)'
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Inlet1
+    type: iec-60320-c20
+  - name: Inlet2
+    type: iec-60320-c20
+power-outlets:
+  - name: Outlet1
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet2
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet3
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet4
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet5
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet6
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet7
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+  - name: Outlet8
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth2
+    type: 100base-tx
+    mgmt_only: true

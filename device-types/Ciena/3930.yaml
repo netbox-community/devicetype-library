@@ -1,0 +1,39 @@
+---
+manufacturer: Ciena
+model: '3930'
+slug: ciena-3930
+part_number: 170-3930-900
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+power-ports:
+  - name: PSA
+    type: iec-60320-c14
+  - name: PSB
+    type: iec-60320-c14
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,78 @@
+---
+manufacturer: Juniper
+model: NFX250
+slug: juniper-nfx250
+part_number: NFX250-S2
+u_height: 1
+is_full_depth: false
+comments: Juniper NFV Platform for CPE install
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB-Console
+    type: usb-mini-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 140
+    allocated_draw: 40
+interfaces:
+  - name: ge-0/0/0
+    type: 1000base-t
+    label: ge-0/0/0
+    description: access port
+  - name: ge-0/0/1
+    type: 1000base-t
+    label: ge-0/0/1
+    description: access port
+  - name: ge-0/0/2
+    type: 1000base-t
+    label: ge-0/0/2
+    description: access port
+  - name: ge-0/0/3
+    type: 1000base-t
+    label: ge-0/0/3
+    description: access port
+  - name: ge-0/0/4
+    type: 1000base-t
+    label: ge-0/0/4
+    description: access port
+  - name: ge-0/0/5
+    type: 1000base-t
+    label: ge-0/0/5
+    description: access port
+  - name: ge-0/0/6
+    type: 1000base-t
+    label: ge-0/0/6
+    description: access port
+  - name: ge-0/0/7
+    type: 1000base-t
+    label: ge-0/0/7
+    description: access port
+  - name: ge-0/0/8
+    type: 1000base-t
+    label: ge-0/0/8
+    description: access / uplink port
+  - name: ge-0/0/9
+    type: 1000base-t
+    label: ge-0/0/9
+    description: access / uplink port
+  - name: ge-0/0/10
+    type: 1000base-t
+    label: ge-0/0/10
+    description: uplink port
+  - name: ge-0/0/11
+    type: 1000base-t
+    label: ge-0/0/11
+    description: uplink port
+  - name: xe-0/0/12
+    type: 10gbase-x-sfpp
+    label: xe-0/0/12
+    description: uplink port
+  - name: xe-0/0/13
+    type: 10gbase-x-sfpp
+    label: xe-0/0/13
+    description: uplink port
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,35 @@
+---
+manufacturer: MikroTik
+model: CRS504-4XQ-IN
+slug: mikrotik-crs504-4xq-in
+part_number: CRS504-4XQ-IN
+is_full_depth: false
+airflow: front-to-rear
+comments: Careful, there is only qsfp28-1-1, qsfp28-2-1, qsfp28-3-1 and qsfp28-4-1 interfaces for 100Gb, don't forget to add the other if you use breakout
+  cables.
+u_height: 1
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    mgmt_only: true
+  - name: qsfp28-1-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-2-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-3-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-4-1
+    type: 100gbase-x-qsfp28
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 41
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 41
+  - name: power3
+    type: dc-terminal
+    maximum_draw: 41

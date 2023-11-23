@@ -1,0 +1,22 @@
+---
+manufacturer: PC Engines
+model: APU
+slug: pc-engines-apu1
+part_number: apu1
+comments: |
+  Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
+interfaces:
+  - name: re0
+    type: 1000base-t
+  - name: re1
+    type: 1000base-t
+  - name: re2
+    type: 1000base-t
+console-ports:
+  - name: ttyS0
+    type: de-9
+power-ports:
+  - name: Input
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 6

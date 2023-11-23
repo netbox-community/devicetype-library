@@ -1,0 +1,25 @@
+---
+manufacturer: LANCOM
+model: WLC-4025
+slug: lancom-wlc-4025
+part_number: wlc-4025
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 30
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: Uplink
+    type: 1000base-t
+console-ports:
+  - name: com
+    type: mini-din-8

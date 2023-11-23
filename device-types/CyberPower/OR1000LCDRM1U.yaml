@@ -1,0 +1,49 @@
+---
+manufacturer: CyberPower
+model: OR1000LCDRM1U
+slug: cyberpower-or1000lcdrm1u
+part_number: or1000lcdrm1u
+u_height: 1
+is_full_depth: true
+comments: Smart App LCD 1000va UPS
+power-ports:
+  - name: AC Input
+    type: nema-5-15p
+    maximum_draw: 600
+power-outlets:
+  - name: power1
+    type: nema-5-15r
+    description: battery+surge
+    power_port: AC Input
+  - name: power2
+    type: nema-5-15r
+    description: battery+surge
+    power_port: AC Input
+  - name: power3
+    type: nema-5-15r
+    description: battery+surge
+    power_port: AC Input
+  - name: power4
+    type: nema-5-15r
+    description: battery+surge
+    power_port: AC Input
+  - name: power5
+    type: nema-5-15r
+    description: surge-only
+    power_port: AC Input
+  - name: power6
+    type: nema-5-15r
+    description: surge-only
+    power_port: AC Input
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: RMCARD205
+    mgmt_only: true
+console-ports:
+  - name: Serial Port I
+    type: de-9
+  - name: Serial Port II
+    type: de-9
+  - name: USB
+    type: usb-b

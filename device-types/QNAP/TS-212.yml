@@ -1,0 +1,21 @@
+---
+manufacturer: QNAP
+model: TS-212
+slug: qnap-ts-212
+part_number: TS-212
+is_full_depth: false
+subdevice_role: parent
+device-bays:
+  - name: Disk 1
+  - name: Disk 2
+comments: '[TS-212 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-212/specs/hardware)'
+power-ports:
+  - name: Power
+    label: DC 12V
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 13
+interfaces:
+  - name: eth0
+    label: LAN
+    type: 1000base-t

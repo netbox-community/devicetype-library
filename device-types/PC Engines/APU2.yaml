@@ -1,0 +1,24 @@
+---
+manufacturer: PC Engines
+model: APU2
+slug: pc-engines-apu2
+part_number: apu2
+u_height: 1
+is_full_depth: false
+comments: |
+  Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")
+interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+console-ports:
+  - name: ttyS0
+    type: de-9
+power-ports:
+  - name: Input
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 6

@@ -1,0 +1,25 @@
+---
+manufacturer: Allied Telesis
+model: AR1050V
+slug: allied-telesis-ar1050v
+part_number: AT-AR1050V
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 13
+interfaces:
+  - name: eth1
+    type: 1000base-t
+  - name: port1.0.1
+    type: 1000base-t
+  - name: port1.0.2
+    type: 1000base-t
+  - name: port1.0.3
+    type: 1000base-t
+  - name: port1.0.4
+    type: 1000base-t

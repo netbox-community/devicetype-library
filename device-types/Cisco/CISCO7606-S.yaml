@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: 7606-S
+slug: cisco-7606-s
+part_number: CISCO7606-S
+u_height: 7
+is_full_depth: false
+subdevice_role: parent
+airflow: front-to-rear
+power-ports:
+  - name: PS 1
+    type: iec-60320-c20
+    maximum_draw: 2700
+  - name: PS 2
+    type: iec-60320-c20
+    maximum_draw: 2700
+module-bays:
+  - name: slot-1
+    position: '1'
+  - name: slot-2
+    position: '2'
+  - name: slot-3
+    position: '3'
+  - name: slot-4
+    position: '4'
+  - name: slot-5
+    position: '5'
+  - name: slot-6
+    position: '6'

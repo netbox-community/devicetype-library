@@ -1,0 +1,28 @@
+---
+manufacturer: Ubiquiti
+model: EdgeRouter 6P
+slug: ubiquiti-er-6p
+part_number: ER-6P
+u_height: 1
+is_full_depth: false
+comments: '[EdgeRouter 6 with POE](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+power-ports:
+  - name: 24VDC
+    type: dc-terminal
+    maximum_draw: 16
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-x-sfp
+console-ports:
+  - name: Console
+    type: rj-45

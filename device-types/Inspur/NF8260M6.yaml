@@ -1,0 +1,61 @@
+---
+manufacturer: Inspur
+model: NF8260M6
+slug: inspur-nf8260m6
+part_number: NF8260M6
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Inspur NF8260M6 Technical Specifications](https://en.inspur.com/en/servers/rack_servers/2545986/index.html)'
+console-ports:
+  - name: BMC Debug Serial Port
+    type: other
+  - name: System Serial Port
+    type: other
+module-bays:
+  - name: PSU0
+    position: Down
+  - name: PSU1
+    position: Top
+  - name: OCP3
+    position: OCP3
+  - name: PCIe0
+    position: PCIe0
+    label: Motherboard
+  - name: PCIe1
+    position: PCIe1
+    label: Motherboard
+  - name: PCIe2
+    position: PCIe2
+    label: Motherboard
+  - name: PCIe3
+    position: PCIe3
+    label: Motherboard
+  - name: PCIe4
+    position: PCIe4
+    label: Motherboard
+  - name: PCIe5
+    position: PCIe5
+    label: Motherboard
+  - name: PCIe6
+    position: PCIe6
+    label: PCIe riser module 0
+  - name: PCIe7
+    position: PCIe7
+    label: PCIe riser module 0
+  - name: PCIe8
+    position: PCIe8
+    label: PCIe riser module 0
+  - name: PCIe9
+    position: PCIe9
+    label: PCIe riser module 1
+  - name: PCIe10
+    position: PCIe10
+    label: PCIe riser module 1
+  - name: PCIe11
+    position: PCIe11
+    label: PCIe riser module 1
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true

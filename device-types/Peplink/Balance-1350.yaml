@@ -1,0 +1,52 @@
+---
+manufacturer: Peplink
+model: Balance 1350
+slug: peplink-balance-1350
+part_number: BPL-135
+is_full_depth: false
+u_height: 1
+comments: |
+  [Peplink Balance 1350 Data Sheet](https://www.peplink.com/products/balance-1350/#datasheet--resources)
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+    maximum_draw: 70
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: wan3
+    type: 1000base-t
+  - name: wan4
+    type: 1000base-t
+  - name: wan5
+    type: 1000base-t
+  - name: wan6
+    type: 1000base-t
+  - name: wan7
+    type: 1000base-t
+  - name: wan8
+    type: 1000base-t
+  - name: wan9
+    type: 1000base-t
+  - name: wan10
+    type: 1000base-t
+  - name: wan11
+    type: 1000base-t
+  - name: wan12
+    type: 1000base-t
+  - name: wan13
+    type: 1000base-t
+  - name: wan14
+    type: other
+    description: usb wan port

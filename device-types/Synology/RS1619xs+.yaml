@@ -1,0 +1,31 @@
+---
+manufacturer: Synology
+model: RS1619xs+
+slug: synology-rs1619xs-plus
+part_number: RS1619xs+
+u_height: 1
+is_full_depth: true
+comments: '[RS1619xs+ Series Datasheet](https://www.synology.com/en-us/products/RS1619xs+#specs)'
+airflow: front-to-rear
+subdevice_role: parent
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 150
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 150
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+device-bays:
+  - name: PCIe-Gen3 1

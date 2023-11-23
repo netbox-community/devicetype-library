@@ -1,0 +1,26 @@
+---
+manufacturer: Ubiquiti
+model: airCube-ISP
+slug: ubiquiti-aircube-isp
+part_number: aircube-isp
+comments: |
+  PoE 24V In on LAN Port 1 or 2A Micro USB Adapter (Not Included)
+
+  Controllable 24V PoE Out (+4, 5; -7, 8) on WAN Port
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: lan1
+    type: 100base-tx
+  - name: lan2
+    type: 100base-tx
+  - name: lan3
+    type: 100base-tx
+  - name: wan1
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11n
+power-ports:
+  - name: Input
+    type: usb-micro-b
+    maximum_draw: 5

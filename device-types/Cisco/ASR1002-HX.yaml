@@ -1,0 +1,61 @@
+---
+manufacturer: Cisco
+model: ASR1002-HX
+slug: cisco-asr1002-hx
+part_number: ASR1002-HX
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: P0
+    type: iec-60320-c14
+  - name: P1
+    type: iec-60320-c14
+module-bays:
+  - name: ASR1002-HX-EPA
+    label: EPA
+    position: 0/2
+  - name: ASR1002-HX-NIM
+    label: NIM
+    position: '1'
+  - name: ASR1002-HX-CRYPTO
+    label: CRYPTO
+    position: '0'
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/7
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet0/1/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/7
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true

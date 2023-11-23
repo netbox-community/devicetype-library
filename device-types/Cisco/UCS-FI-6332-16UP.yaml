@@ -1,0 +1,104 @@
+---
+manufacturer: Cisco
+model: UCS-FI-6332-16UP
+slug: cisco-ucs-fi-6332-16up
+part_number: UCS-FI-6332-16UP
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: L1
+    type: 1000base-t
+  - name: L2
+    type: 1000base-t
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: 10gbase-x-sfpp
+  - name: Port 2
+    type: 10gbase-x-sfpp
+  - name: Port 3
+    type: 10gbase-x-sfpp
+  - name: Port 4
+    type: 10gbase-x-sfpp
+  - name: Port 5
+    type: 10gbase-x-sfpp
+  - name: Port 6
+    type: 10gbase-x-sfpp
+  - name: Port 7
+    type: 10gbase-x-sfpp
+  - name: Port 8
+    type: 10gbase-x-sfpp
+  - name: Port 9
+    type: 10gbase-x-sfpp
+  - name: Port 10
+    type: 10gbase-x-sfpp
+  - name: Port 11
+    type: 10gbase-x-sfpp
+  - name: Port 12
+    type: 10gbase-x-sfpp
+  - name: Port 13
+    type: 10gbase-x-sfpp
+  - name: Port 14
+    type: 10gbase-x-sfpp
+  - name: Port 15
+    type: 10gbase-x-sfpp
+  - name: Port 16
+    type: 10gbase-x-sfpp
+  - name: Port 17
+    type: 40gbase-x-qsfpp
+  - name: Port 18
+    type: 40gbase-x-qsfpp
+  - name: Port 19
+    type: 40gbase-x-qsfpp
+  - name: Port 20
+    type: 40gbase-x-qsfpp
+  - name: Port 21
+    type: 40gbase-x-qsfpp
+  - name: Port 22
+    type: 40gbase-x-qsfpp
+  - name: Port 23
+    type: 40gbase-x-qsfpp
+  - name: Port 24
+    type: 40gbase-x-qsfpp
+  - name: Port 25
+    type: 40gbase-x-qsfpp
+  - name: Port 26
+    type: 40gbase-x-qsfpp
+  - name: Port 27
+    type: 40gbase-x-qsfpp
+  - name: Port 28
+    type: 40gbase-x-qsfpp
+  - name: Port 29
+    type: 40gbase-x-qsfpp
+  - name: Port 30
+    type: 40gbase-x-qsfpp
+  - name: Port 31
+    type: 40gbase-x-qsfpp
+  - name: Port 32
+    type: 40gbase-x-qsfpp
+  - name: Port 33
+    type: 40gbase-x-qsfpp
+  - name: Port 34
+    type: 40gbase-x-qsfpp
+  - name: Port 35
+    type: 40gbase-x-qsfpp
+  - name: Port 36
+    type: 40gbase-x-qsfpp
+  - name: Port 37
+    type: 40gbase-x-qsfpp
+  - name: Port 38
+    type: 40gbase-x-qsfpp
+  - name: Port 39
+    type: 40gbase-x-qsfpp
+  - name: Port 40
+    type: 40gbase-x-qsfpp
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

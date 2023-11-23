@@ -1,9 +1,10 @@
 ---
 manufacturer: Cisco
 model: NCS 5501-SE
-slug: ncs-5501-se
+slug: cisco-ncs-5501-se
 part_number: NCS-5501-SE
 is_full_depth: false
+u_height: 1
 interfaces:
   - name: MgmtEth0/RP0/CPU0/0
     type: 1000base-t
@@ -96,11 +97,11 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: HundredGigE0/0/1/3
     type: 100gbase-x-qsfp28
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14
 console-ports:
   - name: Console
     type: rj-45
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'

@@ -1,0 +1,40 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Lite 8 PoE
+slug: ubiquiti-unifi-switch-lite-8-poe
+part_number: USW-Lite-8-PoE
+comments: |
+  UniFi Switch Lite 8 PoE (8) Gigabit, (1-4) Gigabit PoE+ IEEE 802.3af/at
+
+  Dimensions: 99.6 x 163.7 x 31.7 mm (3.92 x 6.44 x 1.25")
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+power-ports:
+  - name: Input
+    type: nema-5-15p
+    maximum_draw: 52

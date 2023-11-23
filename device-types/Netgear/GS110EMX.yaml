@@ -1,0 +1,34 @@
+---
+manufacturer: Netgear
+model: GS110EMX
+slug: netgear-gs110emx
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: '[10-Gigabit/Multi-Gigabit Plus (GS110EMX)](https://www.netgear.com/business/wired/switches/plus/gs110emx/)'
+weight: 0.75
+weight_unit: kg
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+  - name: GigabitEthernet/2
+    type: 1000base-t
+  - name: GigabitEthernet/3
+    type: 1000base-t
+  - name: GigabitEthernet/4
+    type: 1000base-t
+  - name: GigabitEthernet/5
+    type: 1000base-t
+  - name: GigabitEthernet/6
+    type: 1000base-t
+  - name: GigabitEthernet/7
+    type: 1000base-t
+  - name: GigabitEthernet/8
+    type: 1000base-t
+  - name: TenGigabitEthernet/9
+    type: 10gbase-t
+  - name: TenGigabitEthernet/10
+    type: 10gbase-t

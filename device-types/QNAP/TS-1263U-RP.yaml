@@ -1,0 +1,33 @@
+---
+manufacturer: QNAP
+model: TS-1263U-RP
+slug: qnap-ts-1263u-rp
+part_number: TS-1263U-RP-4G
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 80
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 80
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    label: LAN1
+  - name: eth1
+    type: 1000base-t
+    label: LAN2
+  - name: eth2
+    type: 1000base-t
+    label: LAN3
+  - name: eth3
+    type: 1000base-t
+    label: LAN4
+  - name: eth4
+    type: 10gbase-x-sfpp
+    label: SFP+

@@ -1,0 +1,91 @@
+---
+manufacturer: APC
+model: AP8965
+slug: apc-ap8965
+part_number: AP8965
+u_height: 0
+is_full_depth: false
+comments: Rack PDU 2G, Switched, 30A, 208V, (21) C13 & (3) C19
+console-ports:
+  - name: Serial
+    type: rj-11
+power-ports:
+  - name: power whip
+    type: nema-l21-30p
+power-outlets:
+  - name: power outlet 1
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 2
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 3
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 4
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 5
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 6
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 7
+    type: iec-60320-c13
+    feed_leg: A
+  - name: power outlet 8
+    type: iec-60320-c19
+    feed_leg: A
+  - name: power outlet 9
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 10
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 11
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 12
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 13
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 14
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 15
+    type: iec-60320-c13
+    feed_leg: B
+  - name: power outlet 16
+    type: iec-60320-c19
+    feed_leg: B
+  - name: power outlet 17
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 18
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 19
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 20
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 21
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 22
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 23
+    type: iec-60320-c13
+    feed_leg: C
+  - name: power outlet 24
+    type: iec-60320-c19
+    feed_leg: C
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true

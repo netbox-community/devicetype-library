@@ -1,0 +1,25 @@
+---
+manufacturer: SonicWall
+model: TZ250
+slug: sonicwall-tz250
+part_number: TZ250
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 24
+interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t

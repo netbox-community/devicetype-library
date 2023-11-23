@@ -1,0 +1,70 @@
+---
+manufacturer: Cisco
+model: SG350-10MP
+slug: cisco-sg350-10mp-k9
+part_number: SG350-10MP-K9
+u_height: 1
+is_full_depth: false
+comments: '[SG350 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/small-business-smart-switches/data-sheet-c78-737359.html)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: External PS
+    type: iec-60320-c14
+    maximum_draw: 152
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet10
+    type: 1000base-x-sfp
+  - name: Port-channel1
+    type: lag
+  - name: Port-channel2
+    type: lag
+  - name: Port-channel3
+    type: lag
+  - name: Port-channel4
+    type: lag
+  - name: Port-channel5
+    type: lag
+  - name: Port-channel6
+    type: lag
+  - name: Port-channel7
+    type: lag
+  - name: Port-channel8
+    type: lag
+  - name: vlan1
+    type: virtual

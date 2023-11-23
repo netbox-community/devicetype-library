@@ -1,0 +1,132 @@
+---
+manufacturer: Cisco
+model: UCS-FI-6454
+slug: cisco-ucs-fi-6454
+part_number: UCS-FI-6454
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: L1
+    type: 1000base-t
+  - name: L2
+    type: 1000base-t
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: 25gbase-x-sfp28
+  - name: Port 2
+    type: 25gbase-x-sfp28
+  - name: Port 3
+    type: 25gbase-x-sfp28
+  - name: Port 4
+    type: 25gbase-x-sfp28
+  - name: Port 5
+    type: 25gbase-x-sfp28
+  - name: Port 6
+    type: 25gbase-x-sfp28
+  - name: Port 7
+    type: 25gbase-x-sfp28
+  - name: Port 8
+    type: 25gbase-x-sfp28
+  - name: Port 9
+    type: 25gbase-x-sfp28
+  - name: Port 10
+    type: 25gbase-x-sfp28
+  - name: Port 11
+    type: 25gbase-x-sfp28
+  - name: Port 12
+    type: 25gbase-x-sfp28
+  - name: Port 13
+    type: 25gbase-x-sfp28
+  - name: Port 14
+    type: 25gbase-x-sfp28
+  - name: Port 15
+    type: 25gbase-x-sfp28
+  - name: Port 16
+    type: 25gbase-x-sfp28
+  - name: Port 17
+    type: 25gbase-x-sfp28
+  - name: Port 18
+    type: 25gbase-x-sfp28
+  - name: Port 19
+    type: 25gbase-x-sfp28
+  - name: Port 20
+    type: 25gbase-x-sfp28
+  - name: Port 21
+    type: 25gbase-x-sfp28
+  - name: Port 22
+    type: 25gbase-x-sfp28
+  - name: Port 23
+    type: 25gbase-x-sfp28
+  - name: Port 24
+    type: 25gbase-x-sfp28
+  - name: Port 25
+    type: 25gbase-x-sfp28
+  - name: Port 26
+    type: 25gbase-x-sfp28
+  - name: Port 27
+    type: 25gbase-x-sfp28
+  - name: Port 28
+    type: 25gbase-x-sfp28
+  - name: Port 29
+    type: 25gbase-x-sfp28
+  - name: Port 30
+    type: 25gbase-x-sfp28
+  - name: Port 31
+    type: 25gbase-x-sfp28
+  - name: Port 32
+    type: 25gbase-x-sfp28
+  - name: Port 33
+    type: 25gbase-x-sfp28
+  - name: Port 34
+    type: 25gbase-x-sfp28
+  - name: Port 35
+    type: 25gbase-x-sfp28
+  - name: Port 36
+    type: 25gbase-x-sfp28
+  - name: Port 37
+    type: 25gbase-x-sfp28
+  - name: Port 38
+    type: 25gbase-x-sfp28
+  - name: Port 39
+    type: 25gbase-x-sfp28
+  - name: Port 40
+    type: 25gbase-x-sfp28
+  - name: Port 41
+    type: 25gbase-x-sfp28
+  - name: Port 42
+    type: 25gbase-x-sfp28
+  - name: Port 43
+    type: 25gbase-x-sfp28
+  - name: Port 44
+    type: 25gbase-x-sfp28
+  - name: Port 45
+    type: 25gbase-x-sfp28
+  - name: Port 46
+    type: 25gbase-x-sfp28
+  - name: Port 47
+    type: 25gbase-x-sfp28
+  - name: Port 48
+    type: 25gbase-x-sfp28
+  - name: Port 49
+    type: 100gbase-x-qsfp28
+  - name: Port 50
+    type: 100gbase-x-qsfp28
+  - name: Port 51
+    type: 100gbase-x-qsfp28
+  - name: Port 52
+    type: 100gbase-x-qsfp28
+  - name: Port 53
+    type: 100gbase-x-qsfp28
+  - name: Port 54
+    type: 100gbase-x-qsfp28
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

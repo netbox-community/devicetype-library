@@ -1,0 +1,37 @@
+---
+manufacturer: Watchguard
+model: Firebox T80
+slug: watchguard-firebox-t80
+u_height: 1.0
+is_full_depth: false
+airflow: left-to-right
+comments: '[Watchguard Firebox T80 Hardware Guide](https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Hardware-Guides/firebox-t80-hardware-guide.html)'
+weight: 2.6
+weight_unit: kg
+console-ports:
+  - name: mgmnt
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: eth7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at

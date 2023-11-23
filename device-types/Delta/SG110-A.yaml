@@ -1,0 +1,50 @@
+---
+manufacturer: Delta
+model: SG110-A
+slug: delta-sg110-a
+part_number: SG110-A
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  Open Compute Project ORv1/v2 compatible Power Shelf
+
+  Stingray v1
+
+  Fits 21" ORv1/v2 racks and 19" EIA racks (with proper adapters)
+
+  Can take up to 6 PSU. In configurations where only 4 PSU are used, slots 1A and 3B are covered / unused.
+
+  Takes PSU type DPST-2130CB-A
+power-ports:
+  - name: ac-input-a
+    label: AC INPUT A
+    type: other
+  - name: ac-input-b
+    label: AC INPUT B
+    type: other
+power-outlets:
+  - name: dc-output-bus-left
+    type: dc-terminal
+  - name: dc-output-bus-center
+    type: dc-terminal
+  - name: dc-output-bus-right
+    type: dc-terminal
+interfaces:
+  - name: Management
+    label: RJ45
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: psu-1a
+    label: 1A
+  - name: psu-2a
+    label: 2A
+  - name: psu-3a
+    label: 3A
+  - name: psu-1b
+    label: 1B
+  - name: psu-2b
+    label: 2B
+  - name: psu-3b
+    label: 3B

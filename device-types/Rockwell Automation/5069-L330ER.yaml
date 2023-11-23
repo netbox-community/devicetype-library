@@ -1,0 +1,24 @@
+---
+manufacturer: Rockwell Automation
+model: CompactLogix 5380 L330ER
+part_number: 5069-L330ER
+slug: rockwell-automation-5069-l330er
+u_height: 3
+is_full_depth: false
+interfaces:
+  - name: A1
+    type: 1000base-t
+  - name: A2
+    type: 1000base-t
+console-ports:
+  - name: usb
+    type: usb-b
+power-ports:
+  - name: MOD
+    type: dc-terminal
+    maximum_draw: 240
+    allocated_draw: 11
+  - name: SA
+    type: dc-terminal
+    maximum_draw: 240
+    allocated_draw: 9

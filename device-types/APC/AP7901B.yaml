@@ -1,0 +1,51 @@
+---
+manufacturer: APC
+model: AP7901B
+slug: apc-ap7901b
+part_number: AP7901B
+u_height: 1
+is_full_depth: false
+comments: Rack PDU, Switched, 1U, 20A, 120V, (8)5-20
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: nema-l5-20p
+power-outlets:
+  - name: Power Outlet 1
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 2
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 3
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 4
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 5
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 6
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 7
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 8
+    type: nema-5-20r
+    power_port: Power Port 1
+    feed_leg: A
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true

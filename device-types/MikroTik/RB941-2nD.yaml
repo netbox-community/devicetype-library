@@ -1,0 +1,26 @@
+---
+manufacturer: MikroTik
+model: hAP lite
+slug: mikrotik-hap-lite
+part_number: RB941-2nD
+is_full_depth: false
+u_height: 0
+power-ports:
+  - name: psu1
+    label: Power
+    type: usb-micro-b
+    maximum_draw: 4
+interfaces:
+  - name: ether1
+    label: '1'
+    type: 1000base-t
+  - name: ether2
+    label: '2'
+    type: 1000base-t
+  - name: ether3
+    label: '3'
+    type: 1000base-t
+  - name: ether4
+    label: '4'
+    type: 1000base-t
+comments: Low cost home wireless AP with dual chain 2.4GHz wireless, powered by USB.

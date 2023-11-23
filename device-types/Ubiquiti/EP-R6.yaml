@@ -1,0 +1,27 @@
+---
+manufacturer: Ubiquiti
+model: EdgePoint Router 6-Port
+slug: ubiquiti-edgepoint-router-6-port
+part_number: EP-R6
+comments: '[EdgePoint Router 6-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
+u_height: 0
+is_full_depth: false
+power-ports:
+  - name: 24VDC
+    type: dc-terminal
+    maximum_draw: 72
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge

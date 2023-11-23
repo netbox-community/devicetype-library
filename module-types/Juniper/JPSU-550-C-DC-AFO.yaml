@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: JPSU-550-C-DC-AFO
+part_number: JPSU-550-C-DC-AFO
+# airflow: front-to-rear
+weight: 1.65
+weight_unit: lb
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 550

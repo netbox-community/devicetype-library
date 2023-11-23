@@ -1,0 +1,38 @@
+---
+manufacturer: Cisco
+part_number: C9400-SUP-1XL-Y
+model: C9400-SUP-1XL-Y
+comments: Cisco Catalyst 9400 Series Supervisor 1 XL Module with 25G <br> [C9400 Supervisor Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9400-series-switches/nb-06-cat9400-ser-sup-eng-data-sheet-cte-en.html)
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+interfaces:
+  - name: TenGigabitEthernet{module}/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/0/8
+    type: 10gbase-x-sfpp
+  - name: FortyGigabitEthernet{module}/0/9
+    type: 40gbase-x-qsfpp
+  - name: FortyGigabitEthernet{module}/0/10
+    type: 40gbase-x-qsfpp
+  - name: TwentyFiveGigE{module}/0/1
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE{module}/0/2
+    type: 25gbase-x-sfp28
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,39 @@
+---
+manufacturer: LANCOM
+model: GS-2310
+slug: lancom-gs-2310
+part_number: '61492'
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 14
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9 RJ45
+    type: 1000base-t
+  - name: Port 10 RJ45
+    type: 1000base-t
+  - name: Port 9 SFP
+    type: 1000base-x-sfp
+  - name: Port 10 SFP
+    type: 1000base-x-sfp
+console-ports:
+  - name: com
+    type: rj-45

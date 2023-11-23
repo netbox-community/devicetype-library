@@ -1,0 +1,35 @@
+---
+manufacturer: Ubiquiti
+model: EdgePoint Router 8-Port
+slug: ubiquiti-edgepoint-router-8-port
+part_number: EP-R8
+comments: '[EdgePoint Router 8-Port](https://www.ui.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf)'
+u_height: 0
+is_full_depth: false
+power-ports:
+  - name: 54VDC
+    type: dc-terminal
+    maximum_draw: 324
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-x-sfp
+  - name: eth9
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge

@@ -1,0 +1,38 @@
+---
+manufacturer: LANCOM
+model: ISG-8000
+slug: lancom-isg-8000
+part_number: '61077'
+u_height: 1
+is_full_depth: true
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 300
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 300
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: ETH-5
+    type: 1000base-t
+  - name: ETH-6
+    type: 1000base-t
+  - name: ETH-7
+    type: 1000base-t
+  - name: ETH-8
+    type: 1000base-t
+  - name: ETH-9
+    type: 10gbase-x-sfpp
+  - name: ETH-10
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: com
+    type: rj-45

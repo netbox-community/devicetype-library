@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: Aruba ec-v
+slug: hpe-aruba-ec-v
+u_height: 1
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: lan0
+    type: virtual
+    label: lan0
+  - name: lan1
+    type: virtual
+    label: lan1
+  - name: wan0
+    type: virtual
+    label: wan0
+  - name: wan1
+    type: virtual
+    label: wan1
+  - name: mgmt0
+    type: virtual
+    mgmt_only: true
+    label: mgmt0
+  - name: mgmt1
+    type: virtual
+    label: mgmt1

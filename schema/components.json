@@ -1,0 +1,228 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "console-port": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/console-port/properties/type"
+        },
+        "poe": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
+    },
+    "console-server-port": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/console-server-port/properties/type"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
+    },
+    "power-port": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/power-port/properties/type"
+        },
+        "maximum_draw": {
+          "type": "integer"
+        },
+        "allocated_draw": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
+    },
+    "power-outlet": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/power-outlet/properties/type"
+        },
+        "power_port": {
+          "type": "string"
+        },
+        "feed_leg": {
+          "$ref": "generated_schema.json#/definitions/power-outlet/properties/feed-leg"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
+    },
+    "interface": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/interface/properties/type"
+        },
+        "poe_mode": {
+          "$ref": "generated_schema.json#/definitions/interface/properties/poe_mode"
+        },
+        "poe_type": {
+          "$ref": "generated_schema.json#/definitions/interface/properties/poe_type"
+        },
+        "mgmt_only": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
+    },
+    "front-port": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/front-port/properties/type"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{6}$"
+        },
+        "rear_port": {
+          "type": "string"
+        },
+        "rear_port_position": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "type",
+        "rear_port"
+      ]
+    },
+    "rear-port": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "generated_schema.json#/definitions/rear-port/properties/type"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{6}$"
+        },
+        "positions": {
+          "type": "integer"
+        },
+        "poe": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
+    },
+    "module-bay": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "position": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "device-bay": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "inventory-item": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "manufacturer": {
+          "type": "string"
+        },
+        "part_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  }
+}

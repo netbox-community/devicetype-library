@@ -1,0 +1,43 @@
+---
+manufacturer: Ubiquiti
+model: 8‑Port GPON Optical Line Terminal
+slug: ubiquiti-uf-olt
+part_number: UF-OLT
+is_full_depth: false
+u_height: 1
+comments: |
+  [8‑Port GPON Optical Line Terminal Data Sheet](https://www.ui.com/downloads/ds/uf_gpon)
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: pon1
+    type: gpon
+  - name: pon2
+    type: gpon
+  - name: pon3
+    type: gpon
+  - name: pon4
+    type: gpon
+  - name: pon5
+    type: gpon
+  - name: pon6
+    type: gpon
+  - name: pon7
+    type: gpon
+  - name: pon8
+    type: gpon
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PSU1
+    label: Power Supply 1
+    position: PSU1
+  - name: PSU2
+    label: Power Supply 2
+    position: PSU2
+console-ports:
+  - name: CONSOLE
+    type: rj-45

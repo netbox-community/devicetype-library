@@ -1,0 +1,47 @@
+---
+manufacturer: Avocent
+model: PM10-L20A
+slug: avocent-pm10-l20a
+u_height: 1
+is_full_depth: false
+comments: AlterPath PM10-L20A
+console-ports:
+  - name: In
+    type: rj-45
+  - name: Out
+    type: rj-45
+power-ports:
+  - name: Power Port 1
+    type: nema-l5-20p
+    maximum_draw: 2400
+power-outlets:
+  - name: PM-1
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-2
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-3
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-4
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-5
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-6
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-7
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-8
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-9
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: PM-10
+    type: nema-5-15r
+    power_port: Power Port 1

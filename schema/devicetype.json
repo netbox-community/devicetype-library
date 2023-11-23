@@ -1,0 +1,112 @@
+{
+    "type": "object",
+    "properties": {
+        "manufacturer": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string",
+            "pattern": "^[-a-z0-9_]+$"
+        },
+        "part_number": {
+            "type": "string"
+        },
+        "u_height": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.5
+        },
+        "is_full_depth": {
+            "type": "boolean"
+        },
+        "airflow": {
+            "$ref": "generated_schema.json#/definitions/airflow"
+        },
+        "weight": {
+            "$ref": "reusable.json#/definitions/weight"
+        },
+        "weight_unit": {
+            "$ref": "generated_schema.json#/definitions/weight-unit"
+        },
+        "front_image": {
+            "type": "boolean"
+        },
+        "rear_image": {
+            "type": "boolean"
+        },
+        "subdevice_role": {
+            "$ref": "generated_schema.json#/definitions/subdevice-role"
+        },
+        "is_powered": {
+          "type": "boolean"
+        },
+        "console-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/console-port"
+            }
+        },
+        "console-server-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/console-server-port"
+            }
+        },
+        "power-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/power-port"
+            }
+        },
+        "power-outlets": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/power-outlet"
+            }
+        },
+        "interfaces": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/interface"
+            }
+        },
+        "front-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/front-port"
+            }
+        },
+        "rear-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/rear-port"
+            }
+        },
+        "module-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/module-bay"
+            }
+        },
+        "device-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/device-bay"
+            }
+        },
+        "inventory-items": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/inventory-item"
+            }
+        },
+        "comments": {
+            "type": "string"
+        }
+    },
+    "required": ["manufacturer", "model", "slug"],
+    "additionalProperties": false
+}

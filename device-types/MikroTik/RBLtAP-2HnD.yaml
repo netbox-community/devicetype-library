@@ -1,0 +1,30 @@
+---
+manufacturer: MikroTik
+model: RBLtAP-2HnD
+slug: mikrotik-rbltap-2hnd
+part_number: RBLtAP-2HnD
+u_height: 0
+is_full_depth: false
+comments: |
+  Outdoor LTE RouterBoard with R11e modem with 3 SIM Slots (MiniSIM) and 2.4 GHz WiFi.
+  Supported Bands:
+    2G Category	Class12
+    2G bands	2 (1900MHz) / 3 (1800MHz) / 5 (850MHz) / 8 (900MHz)
+    3G Category	R7 (21Mbps Downlinks, 5.76Mbps Uplink) / R8 (42.2Mbps Downlink, 5.76Mbps Uplink)
+    3G bands	1 (2100MHz) / 2 (1900MHz) / 5 (850MHz) / 8 (900MHz)
+    LTE Category	6 (300Mbit/s Downlink, 50Mbit/s Uplink)
+    LTE FDD bands	1 (2100MHz) / 2 (1900MHz) / 3 (1800MHz) / 7 (2600MHz) / 8 (900 MHz) / 20 (800MHz) / 5 (850MHz) / 12 (700MHz) / 17 (700MHz) / 25 (1900MHz) / 26 (850MHz)
+    LTE TDD bands	38 (2600MHz) / 40 (2300MHz) / 39 (1900MHz) / 41n (2500MHz)
+interfaces:
+  - name: ether1
+    type: 100base-tx
+  - name: lte1
+    type: lte
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 24
+  - name: power2
+    type: dc-terminal
+    maximum_draw: 24
+    description: dc barrel jack

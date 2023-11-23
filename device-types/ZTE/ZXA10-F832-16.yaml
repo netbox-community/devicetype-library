@@ -1,0 +1,50 @@
+---
+manufacturer: ZTE
+model: ZXA10 F832 16
+slug: zte-zxa10-f832-16
+u_height: 1
+is_full_depth: false
+airflow: rear-to-front
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 50
+    allocated_draw: 30
+interfaces:
+  - name: gei_0/1/1
+    type: 1000base-t
+  - name: gei_0/1/2
+    type: 1000base-t
+  - name: gei_0/1/3
+    type: 1000base-t
+  - name: gei_0/1/4
+    type: 1000base-t
+  - name: gei_0/1/5
+    type: 1000base-t
+  - name: gei_0/1/6
+    type: 1000base-t
+  - name: gei_0/1/7
+    type: 1000base-t
+  - name: gei_0/1/8
+    type: 1000base-t
+  - name: gei_0/1/9
+    type: 1000base-t
+  - name: gei_0/1/10
+    type: 1000base-t
+  - name: gei_0/1/11
+    type: 1000base-t
+  - name: gei_0/1/12
+    type: 1000base-t
+  - name: gei_0/1/13
+    type: 1000base-t
+  - name: gei_0/1/14
+    type: 1000base-t
+  - name: gei_0/1/15
+    type: 1000base-t
+  - name: gei_0/1/16
+    type: 1000base-t
+  - name: gei_0/3/1
+    type: 10gbase-x-sfpp

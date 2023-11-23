@@ -1,0 +1,33 @@
+---
+manufacturer: Cisco
+model: APIC-L3
+slug: cisco-apic-l3
+part_number: APIC-L3
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: eth1-1
+    type: 10gbase-t
+  - name: eth1-2
+    type: 10gbase-t
+  - name: eth2-1
+    type: 25gbase-x-sfp28
+  - name: eth2-2
+    type: 25gbase-x-sfp28
+  - name: eth2-3
+    type: 25gbase-x-sfp28
+  - name: eth2-4
+    type: 25gbase-x-sfp28
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true

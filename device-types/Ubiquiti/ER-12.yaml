@@ -1,0 +1,42 @@
+---
+manufacturer: Ubiquiti
+model: EdgeRouter 12
+slug: ubiquiti-er-12
+part_number: ER-12
+u_height: 1
+is_full_depth: false
+comments: '[EdgeRouter 12](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+power-ports:
+  - name: 24VDC
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t
+  - name: eth8
+    type: 1000base-t
+  - name: eth9
+    type: 1000base-t
+  - name: eth10
+    type: 1000base-x-sfp
+  - name: eth11
+    type: 1000base-x-sfp
+  - name: switch0
+    type: bridge
+console-ports:
+  - name: Console
+    type: rj-45

@@ -1,0 +1,81 @@
+---
+manufacturer: Cisco
+model: ASR-9902
+slug: cisco-asr-9902
+part_number: ASR-9902
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+comments: '[Cisco ASR 9901 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744663.html)'
+module-bays:
+  - name: RP0
+    position: 0/RP0
+    description: Route Processor
+  - name: RP1
+    position: 0/RP1
+    description: Route Processor
+  - name: PM0
+    position: 0/PT0-PM0
+    description: Power module
+  - name: PM1
+    position: 0/PT0-PM1
+    description: Power module
+  - name: FAN0
+    position: 0/FT0
+    description: Fan tray
+  - name: FAN1
+    position: 0/FT1
+    description: Fan tray
+  - name: FAN2
+    position: 0/FT2
+    description: Fan tray
+interfaces:
+  - name: TenGigE0/0/0/0
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/1
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/2
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/3
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/4
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/5
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/6
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/7
+    type: 25gbase-x-sfp28
+  - name: HundredGigE0/0/0/10
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/11
+    type: 400gbase-x-qsfpdd
+  - name: TenGigE0/0/0/22
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/23
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/24
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/25
+    type: 10gbase-x-sfpp
+  - name: HundredGigE0/0/0/36
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/37
+    type: 400gbase-x-qsfpdd
+  - name: TenGigE0/0/0/40
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/41
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/42
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/43
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/44
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/45
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/46
+    type: 25gbase-x-sfp28
+  - name: TenGigE0/0/0/47
+    type: 25gbase-x-sfp28
