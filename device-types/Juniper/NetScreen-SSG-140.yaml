@@ -1,0 +1,47 @@
+---
+manufacturer: Juniper
+model: NetScreen SSG-140
+slug: juniper-netscreen-ssg-140
+u_height: 1
+weight: 10.2
+weight_unit: lb
+is_full_depth: false
+airflow: side-to-rear
+comments: '[SSG 140 Hardware Installation and Configuration Guide](https://www.juniper.net/documentation/hardware/netscreen-systems/netscreen-systems60/HW_SSG140_600.pdf)'
+console-ports:
+  - name: AUX
+    type: rj-45
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 440
+interfaces:
+  - name: ethernet0/0
+    type: 100base-tx
+  - name: ethernet0/1
+    type: 100base-tx
+  - name: ethernet0/2
+    type: 100base-tx
+  - name: ethernet0/3
+    type: 100base-tx
+  - name: ethernet0/4
+    type: 100base-tx
+  - name: ethernet0/5
+    type: 100base-tx
+  - name: ethernet0/6
+    type: 100base-tx
+  - name: ethernet0/7
+    type: 100base-tx
+  - name: ethernet0/8
+    type: 1000base-t
+  - name: ethernet0/9
+    type: 1000base-t
+module-bays:
+  - name: PIM Slot 1
+  - name: PIM Slot 2
+  - name: PIM Slot 3
+  - name: PIM Slot 4
