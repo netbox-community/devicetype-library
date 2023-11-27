@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: Aironet 1242N-C
+slug: cisco-air-lap1242n-c-k9
+part_number: AIR-LAP1242N-C-K9
+u_height: 0
+is_full_depth: false
+console-ports:
+  - name: con0
+    type: rj-45
+    mgmt_only: true
+interfaces:
+  - name: WAN
+    type: 1000base-t
+    poe_mode: pd
+  - name: WiFi
+    type: ieee802.11n
