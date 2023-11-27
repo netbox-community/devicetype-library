@@ -4,6 +4,8 @@ model: CEL48XSFD-G
 part_number: 03058873
 comments: https://support.huawei.com/enterprise/en/doc/EDOC1100095397/2edca9a
 interfaces:
+  - name: 10GE{module}/0/0
+    type: 10gbase-x-sfpp
   - name: 10GE{module}/0/1
     type: 10gbase-x-sfpp
   - name: 10GE{module}/0/2
@@ -97,6 +99,4 @@ interfaces:
   - name: 10GE{module}/0/46
     type: 10gbase-x-sfpp
   - name: 10GE{module}/0/47
-    type: 10gbase-x-sfpp
-  - name: 10GE{module}/0/48
     type: 10gbase-x-sfpp
