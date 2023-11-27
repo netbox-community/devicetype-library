@@ -1,0 +1,61 @@
+---
+manufacturer: Generic
+model: 6 Port LC Fiber Module
+part_number: 6-Port-LC-Fiber-Module
+subdevice_role: child
+front-ports:
+  - name: '{module}1'
+    type: lc
+    rear_port: '{module}1'
+    rear_port_position: 1
+    comments: Front Port 1
+  - name: '{module}2'
+    type: lc
+    rear_port: '{module}2'
+    rear_port_position: 1
+    comments: Front Port 2
+  - name: '{module}3'
+    type: lc
+    rear_port: '{module}3'
+    rear_port_position: 1
+    comments: Front Port 3
+  - name: '{module}4'
+    type: lc
+    rear_port: '{module}4'
+    rear_port_position: 1
+    comments: Front Port 4
+  - name: '{module}5'
+    type: lc
+    rear_port: '{module}5'
+    rear_port_position: 1
+    comments: Front Port 5
+  - name: '{module}6'
+    type: lc
+    rear_port: '{module}6'
+    rear_port_position: 1
+    comments: Front Port 6
+rear-ports:
+  - name: '{module}1'
+    type:
+    positions: 1
+    comments: Rear Port 1
+  - name: '{module}2'
+    type:
+    positions: 1
+    comments: Rear Port 2
+  - name: '{module}3'
+    type:
+    positions: 1
+    comments: Rear Port 3
+  - name: '{module}4'
+    type:
+    positions: 1
+    comments: Rear Port 4
+  - name: '{module}5'
+    type:
+    positions: 1
+    comments: Rear Port 5
+  - name: '{module}6'
+    type:
+    positions: 1
+    comments: Rear Port 6
