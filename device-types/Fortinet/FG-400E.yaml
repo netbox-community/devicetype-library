@@ -4,19 +4,20 @@ model: FortiGate 400E
 slug: fortinet-fg-400e
 part_number: FG-400E
 u_height: 1
+weight: 16.4
+weight_unit: lb
 is_full_depth: false
+airflow: side-to-rear
+comments: '[FortiGate 400E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_400E.pdf). Compatible PSU module:
+  SP-FG300E-PS, maximum power draw 214W, average power draw 109W.'
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 214
-    allocated_draw: 109
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 214
-    allocated_draw: 109
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: ha
     type: 1000base-t
