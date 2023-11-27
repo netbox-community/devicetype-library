@@ -25,10 +25,6 @@ console-ports:
 power-ports:
   - name: psu1
     type: dc-terminal
-    maximum_draw: 360
-    description: |
-      External ITE P/S AC/DC 100-240V, 50-60 Hz, 12V 5.0A (60W), threaded (locking) barrel connector.
-      - AC Inlet: IEC320-C7 (2 PIN) - Power Cord: One US, UK, EU or ANZ power cord included
 interfaces:
   - name: ix0
     type: 10gbase-x-sfpp
