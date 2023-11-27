@@ -24,7 +24,7 @@ console-ports:
       or XON/OFF
 power-ports:
   - name: psu1
-    type: iec-60320-c6
+    type: dc-terminal
     maximum_draw: 360
     description: |
       External ITE P/S AC/DC 100-240V, 50-60 Hz, 12V 5.0A (60W), threaded (locking) barrel connector.
