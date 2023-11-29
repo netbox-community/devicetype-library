@@ -1,0 +1,57 @@
+---
+manufacturer: Generic
+model: 12 Port LC Fiber Patch Panel Module
+part_number: 12-Port-LC-Fiber-Patch-Panel-Module
+front-ports:
+  - name: Port/{module}/1
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 1
+  - name: Port/{module}/2
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 2
+  - name: Port/{module}/1
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 3
+  - name: Port/{module}/4
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 4
+  - name: Port/{module}/5
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 5
+  - name: Port/{module}/6
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 6
+  - name: Port/{module}/7
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 7
+  - name: Port/{module}/8
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 8
+  - name: Port/{module}/9
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 9
+  - name: Port/{module}/10
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 10
+  - name: Port/{module}/11
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 11
+  - name: Port/{module}/12
+    type: lc
+    rear_port: Port/{module}
+    rear_port_position: 12
+rear-ports:
+  - name: Port/{module}
+    type:
+    positions: 12
