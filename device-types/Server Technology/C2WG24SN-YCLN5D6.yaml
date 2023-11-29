@@ -11,16 +11,17 @@ console-ports:
   - name: ser
     label: SER
     type: rj-45
-  - name: link
-    label: LINK
-    type: rj-12
-    poe: true
   - name: th1
     label: T/H1
     type: rj-11
   - name: th2
     label: T/H2
     type: rj-11
+console-server-ports:
+  - name: link
+    label: LINK
+    type: rj-12
+    poe: true
 power-ports:
   - name: Power Port 1
     type: nema-l21-30p
