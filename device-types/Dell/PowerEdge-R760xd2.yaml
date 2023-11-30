@@ -1,0 +1,87 @@
+---
+manufacturer: Dell
+model: PowerEdge R760xd2
+slug: dell-poweredge-r760xd2
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+airflow: front-to-rear
+weight: 46.3
+weight_unit: kg
+comments: |
+  [PowerEdge R760xd2 spec sheet](https://www.delltechnologies.com/asset/fr-fr/products/servers/technical-support/poweredge-r760xd2-spec-sheet.pdf)
+  [PowerEdge R760xd2 tech guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r760xd2-technical-guide.pdf)
+rear-ports:
+  - name: Rear USB 2
+    type: other
+  - name: Rear USB 3
+    type: other
+  - name: iDrac
+    type: other
+front-ports:
+  - name: Front USB 2
+    type: other
+    rear_port: Rear USB 2
+  - name: Front USB micro-AB
+    type: other
+    rear_port: iDrac
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: BOSS in SL 14
+    position: BOSS.SL.14-1
+    label: BOSS-N1 Monolithic
+  - name: Backplane 3 on Connector 0 of RAID Controller in Slot 5
+    position: Enclosure.Internal.0-3:RAID.Slot.5-1
+    label: BP_EXP 0:3
+  - name: Embedded AHCI 1
+    position: AHCI.Embedded.1-1
+    label: Sapphire Rapids SATA AHCI Controller
+  - name: Embedded AHCI 2
+    position: AHCI.Embedded.2-1
+    label: Sapphire Rapids SATA AHCI Controller
+  - name: RAID Controller in Slot 5
+    position: RAID.Slot.5-1
+    label: PERC H965i Adapter
+  - name: CPU 1
+    position: CPU.Socket.1
+    label: Intel(R) Xeon(R) Gold 5416S
+  - name: CPU 2
+    position: CPU.Socket.2
+    label: Intel(R) Xeon(R) Gold 5416S
+  - name: DIMM A1
+    position: DIMM.Socket.A1
+    label: DDR4 DIMM
+  - name: DIMM A2
+    position: DIMM.Socket.A2
+    label: DDR4 DIMM
+  - name: DIMM A3
+    position: DIMM.Socket.A3
+    label: DDR4 DIMM
+  - name: DIMM A4
+    position: DIMM.Socket.A4
+    label: DDR4 DIMM
+  - name: DIMM B1
+    position: DIMM.Socket.B1
+    label: DDR4 DIMM
+  - name: DIMM B2
+    position: DIMM.Socket.B2
+    label: DDR4 DIMM
+  - name: DIMM B3
+    position: DIMM.Socket.B3
+    label: DDR4 DIMM
+  - name: DIMM B4
+    position: DIMM.Socket.B4
+    label: DDR4 DIMM
