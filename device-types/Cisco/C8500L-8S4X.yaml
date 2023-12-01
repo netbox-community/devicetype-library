@@ -44,9 +44,10 @@ interfaces:
   - name: TenGigabitEthernet0/1/3
     type: 10gbase-x-sfpp
 module-bays:
-  - name: Power Supply Module 1
-    label: PS1
+  - name: P0
+    label: Power Supply Module 0
+    position: '0'
+  - name: P1
+    label: Power Supply Module 1
     position: '1'
-  - name: Power Supply Module 2
-    label: PS2
-    position: '2'
+

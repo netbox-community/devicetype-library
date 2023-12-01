@@ -18,10 +18,7 @@ console-ports:
 power-ports:
   - name: P0
     type: iec-60320-c14
-    maximum_draw: 150
-  - name: P1
-    type: iec-60320-c14
-    maximum_draw: 150
+    maximum_draw: 100
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-t
@@ -31,3 +28,7 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet0/0/3
     type: 1000base-x-sfp
+module-bays:
+  - name: P1
+    label: Optional Power over Ethernet PSU
+    position: '1'
