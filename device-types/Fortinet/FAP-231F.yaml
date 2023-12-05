@@ -12,11 +12,11 @@ comments: "[FortiAP Series Datasheet](https://www.fortinet.com/content/dam/forti
   \n\r\n[FortiAP 231F QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-231f-qsg)"
 console-ports:
   - name: CONSOLE
-	type: rj-45
+  	type: rj-45
 power-ports:
   - name: Optional Power (12V DC)
-	type: dc-terminal
-	maximum_draw: 17
+  	type: dc-terminal
+	  maximum_draw: 17
 interfaces:
   - name: LAN 1
     type: 1000base-t
