@@ -12,8 +12,8 @@ comments: "[FortiAP UTP Series Datasheet](https://www.fortinet.com/content/dam/f
 weight: 1.2
 weight_unit: kg
 console-ports:
-- name: CONSOLE
-  type: rj-45
+  - name: CONSOLE
+    type: rj-45
 power-ports:
   - name: Optional Power (12V DC)
     type: dc-terminal
