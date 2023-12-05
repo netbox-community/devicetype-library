@@ -1,0 +1,47 @@
+---
+manufacturer: Fortinet
+model: FortiAP 431F
+slug: fortiap-431f
+part_number: FAP-431F
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: "[FortiAP Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortiap-series.pdf)\r\
+  \n\r\n[FortiAP 431F/433F QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-431f-433f-qsg)"
+weight: 1.0
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+power-ports:
+  - name: Optional Power (12V DC)
+    type: dc-terminal
+    maximum_draw: 25
+interfaces:
+  - name: LAN 1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: LAN 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Radio 1
+    type: ieee802.11ax
+    enabled: true
+    mgmt_only: false
+    rf_role: ap
+  - name: Radio 2
+    type: ieee802.11ax
+    enabled: true
+    mgmt_only: false
+    rf_role: ap
+  - name: Radio 3
+    type: ieee802.11ac
+    enabled: true
+    mgmt_only: false
+    rf_role: ap
