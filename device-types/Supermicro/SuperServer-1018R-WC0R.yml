@@ -19,10 +19,8 @@ interfaces:
   - name: BMC
     type: 1000base-t
     mgmt_only: true
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-    maximum_draw: 700
-  - name: Power 2
-    type: iec-60320-c14
-    maximum_draw: 700
+module-bays:
+  - name: PSU 1
+    position: 1
+  - name: PSU 2
+    position: 2
