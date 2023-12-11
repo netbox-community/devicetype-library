@@ -1,0 +1,38 @@
+---
+manufacturer: Cisco
+model: IE-3000-4TC
+part_number: IE-3000-4TC
+slug: IE-3000-4TC
+u_height: 3
+is_full_depth: false
+subdevice_role: parent
+comments: https://www.cisco.com/c/en/us/td/docs/switches/lan/cisco_ie3000/hardware/installation/guide/IE3000HIG/HIGSPEC.html
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: DC-B
+    type: dc-terminal
+device-bays:
+  - name: Ex1
+    label: ''
+    description: ''
+  - name: Ex2
+    label: ''
+interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp

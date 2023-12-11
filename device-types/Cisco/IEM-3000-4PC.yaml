@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: IEM-3000-4PC
+part_number: IEM-3000-4PC
+slug: iem-3000-4pc
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: https://www.cisco.com/c/en/us/td/docs/switches/lan/cisco_ie3000/hardware/installation/guide/IE3000HIG/HIGSPEC.html
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: FastEthernet1/1
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet1/2
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet1/3
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet1/4
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at

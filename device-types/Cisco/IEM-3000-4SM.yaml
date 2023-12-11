@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: IEM-3000-4SM
+part_number: IEM-3000-4SM
+slug: iem-3000-4sm
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: https://www.cisco.com/c/en/us/td/docs/switches/lan/cisco_ie3000/hardware/installation/guide/IE3000HIG/HIGSPEC.html
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+device-bays:
+  - name: Ex1
+    label: ''
+    description: ''
+interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
