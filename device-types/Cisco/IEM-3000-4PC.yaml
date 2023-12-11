@@ -10,6 +10,7 @@ comments: https://www.cisco.com/c/en/us/td/docs/switches/lan/cisco_ie3000/hardwa
 power-ports:
   - name: DC-A
     type: dc-terminal
+interfaces:
   - name: FastEthernet1/1
     type: 100base-tx
     poe_mode: pse
