@@ -12,6 +12,15 @@ comments: The products from the DM2500 family are compact 1U high equipment in a
 console-ports:
   - name: Console0
     type: rj-45
+power-ports:
+  - name: Power Input AC/DC
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: null
+  - name: Power Input DC
+    type: other
+    maximum_draw: 30
+    description: P4
 interfaces:
   - name: eth1
     type: 1000base-t
