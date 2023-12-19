@@ -1,0 +1,112 @@
+---
+manufacturer: Generic
+model: SC-12-port-duplex Fiber Patch Panel Rear Splice
+slug: generic-sc-12-port-duplex-fiber-patch-panel-rear-splice
+u_height: 1
+is_full_depth: true
+airflow: passive
+is_powered: false
+front-ports:
+  - name: '1.a'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 1
+  - name: '1.b'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 2
+  - name: '2.a'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 3
+  - name: '2.b'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 4
+  - name: '3.a'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 5
+  - name: '3.b'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 6
+  - name: '4.a'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 7
+  - name: '4.b'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 8
+  - name: '5.a'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 9
+  - name: '5.b'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 10
+  - name: '6.a'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 11
+  - name: '6.b'
+    type: sc
+    rear_port: '1'
+    rear_port_position: 12
+  - name: '7.a'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 1
+  - name: '7.b'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 2
+  - name: '8.a'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 3
+  - name: '8.b'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 4
+  - name: '9.a'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 5
+  - name: '9.b'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 6
+  - name: '10.a'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 7
+  - name: '10.b'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 8
+  - name: '11.a'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 9
+  - name: '11.b'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 10
+  - name: '12.a'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 11
+  - name: '12.b'
+    type: sc
+    rear_port: '2'
+    rear_port_position: 12
+rear-ports:
+  - name: '1'
+    type: splice
+    positions: 12
+  - name: '2'
+    type: splice
+    positions: 12
