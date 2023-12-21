@@ -1,12 +1,12 @@
 ---
 manufacturer: Digi
-model: Digi CM 48
-slug: digi-cm-48
-part_number: '70001949'
+model: Digi Passport 32
+slug: digi-passport-32
+part_number: '70002262'
 u_height: 1
 is_full_depth: false
 comments: |
-  [Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Digi%20International%20PDFs/Digi_CM_10-8-15.pdf)
+  [Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Digi%20International%20PDFs/Digi_PASSPORT_10-8-15.pdf)
 console-ports:
   - name: Console
     type: rj-45
@@ -75,42 +75,10 @@ console-server-ports:
     type: rj-45
   - name: Serial_32
     type: rj-45
-  - name: Serial_33
-    type: rj-45
-  - name: Serial_34
-    type: rj-45
-  - name: Serial_35
-    type: rj-45
-  - name: Serial_36
-    type: rj-45
-  - name: Serial_37
-    type: rj-45
-  - name: Serial_38
-    type: rj-45
-  - name: Serial_39
-    type: rj-45
-  - name: Serial_40
-    type: rj-45
-  - name: Serial_41
-    type: rj-45
-  - name: Serial_42
-    type: rj-45
-  - name: Serial_43
-    type: rj-45
-  - name: Serial_44
-    type: rj-45
-  - name: Serial_45
-    type: rj-45
-  - name: Serial_46
-    type: rj-45
-  - name: Serial_47
-    type: rj-45
-  - name: Serial_48
-    type: rj-45
 power-ports:
   - name: PSU
     type: iec-60320-c14
-    maximum_draw: 40
+    maximum_draw: 15
 interfaces:
   - name: Network
     type: 100base-tx
