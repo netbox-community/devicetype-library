@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco
+model: Meraki MR70
+slug: cisco-meraki-mr70
+part_number: MR70
+is_full_depth: false
+comments: 'Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR70.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR70.pdf)'
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

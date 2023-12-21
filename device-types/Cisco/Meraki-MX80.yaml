@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: Meraki MX80
+slug: cisco-meraki-mx80
+part_number: MX80
+u_height: 1
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 14
+    allocated_draw: 5
+interfaces:
+  - name: USB
+    type: lte
+  - name: Internet 1
+    type: 1000base-t
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t

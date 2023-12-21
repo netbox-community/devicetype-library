@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco
+model: Meraki MR66
+slug: cisco-meraki-mr66
+part_number: MR66-HW
+is_full_depth: false
+comments: 'Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR66.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR66.pdf)'
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

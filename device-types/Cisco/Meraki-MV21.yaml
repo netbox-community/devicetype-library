@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco
+model: Meraki MV21
+slug: cisco-meraki-mv21
+part_number: MV21
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.74
+weight_unit: lb
+comments: '[Meraki MV21 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_mv21_mv71.pdf)'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 11
+interfaces:
+  - name: Internet 1
+    type: 1000base-t

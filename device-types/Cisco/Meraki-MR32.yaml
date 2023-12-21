@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: Meraki MR32
+slug: cisco-meraki-mr32
+part_number: MR32-HW
+u_height: 0.0
+is_full_depth: false
+comments: '[MR33 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR32.pdf)'
+interfaces:
+  - name: main
+    type: 1000base-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

@@ -1,0 +1,43 @@
+---
+manufacturer: Cisco
+model: Meraki MX75
+slug: cisco-meraki-mx75
+part_number: MX75
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: '[Meraki MX75 Datasheet](https://meraki.cisco.com/product/security-sd-wan/small-branch/mx75/)'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 14
+    allocated_draw: 5
+interfaces:
+  - name: USB
+    type: lte
+  - name: Internet 1
+    type: 1000base-t
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at

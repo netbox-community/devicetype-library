@@ -1,0 +1,33 @@
+---
+manufacturer: Cisco
+model: C8200-1N-4T
+slug: cisco-c8200-1n-4t
+part_number: C8200-1N-4T
+u_height: 1
+is_full_depth: true
+comments: '[Cisco Catalyst 8200 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8200-series-edge-platforms/nb-06-cat8200-series-edge-plat-ds-cte-en.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+module-bays:
+  - name: Module1
+    position: '0'
+    description: NIM Module
+  - name: Module2
+    position: '1'
+    description: NVME Storage
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 150

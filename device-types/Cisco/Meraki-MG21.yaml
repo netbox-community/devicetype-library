@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: Meraki MG21
+slug: cisco-meraki-mg21
+part_number: MG21
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.74
+weight_unit: lb
+comments: '[Meraki MG21 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MG21.pdf)'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 10
+interfaces:
+  - name: wan
+    type: lte
+  - name: Internet 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t

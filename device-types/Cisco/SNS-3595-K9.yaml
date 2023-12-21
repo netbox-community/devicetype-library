@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: SNS-3595-K9
+slug: cisco-sns-3595-k9
+part_number: SNS-3595-K9
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS-0
+    position: '0'
+  - name: PS-1
+    position: '1'

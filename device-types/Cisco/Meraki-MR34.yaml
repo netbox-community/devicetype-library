@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: Meraki MR34
+slug: cisco-meraki-mr34
+part_number: MR34
+u_height: 0.0
+is_full_depth: false
+comments: '[MR34 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR34.pdf)'
+interfaces:
+  - name: main
+    type: 1000base-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac
