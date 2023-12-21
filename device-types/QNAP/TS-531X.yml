@@ -1,0 +1,28 @@
+---
+manufacturer: QNAP
+model: TS-531X
+slug: qnap-ts-531x
+part_number: TS-531X
+comments: |
+  [Datasheet](https://www.qnap.com/en-in/product/ts-531x/specs/hardware)
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 250
+interfaces:
+  - name: Ethernet0
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: LAN1
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: LAN2
+  - name: Ethernet2
+    type: 1000base-t
+    mgmt_only: false
+    label: LAN3
+  - name: Ethernet3
+    type: 1000base-t
+    mgmt_only: false
+    label: LAN4
