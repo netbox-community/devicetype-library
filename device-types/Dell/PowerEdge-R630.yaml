@@ -2,6 +2,9 @@
 manufacturer: Dell
 model: PowerEdge R630
 slug: dell-poweredge-r630
+part_number: poweredge-r630
+comments: |
+  [PowerEdge R630 Datasheet](https://dl.dell.com/topicspdf/poweredge-r630_owners-manual_en-us.pdf)
 u_height: 1
 is_full_depth: true
 front_image: true
@@ -12,6 +15,14 @@ console-ports:
   - name: VGA
     type: other
 interfaces:
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true

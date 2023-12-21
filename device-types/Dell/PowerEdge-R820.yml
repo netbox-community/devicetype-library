@@ -2,6 +2,9 @@
 manufacturer: Dell
 model: PowerEdge R820
 slug: dell-poweredge-r820
+part_number: poweredge-r820
+comments: |
+  [PowerEdge R820 Datasheet](https://dl.dell.com/topicspdf/poweredge-r820_owners-manual_en-us.pdf)
 u_height: 2
 is_full_depth: true
 console-ports:
@@ -16,9 +19,9 @@ power-ports:
     type: iec-60320-c14
 interfaces:
   - name: Gig-E 1
-    type: 1000base-t
+    type: 10gbase-t
   - name: Gig-E 2
-    type: 1000base-t
+    type: 10gbase-t
   - name: Gig-E 3
     type: 1000base-t
   - name: Gig-E 4

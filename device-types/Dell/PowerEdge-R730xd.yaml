@@ -1,10 +1,17 @@
 ---
 manufacturer: Dell
-model: PowerEdge R730xd
+model: PowerEdge R730XD
 slug: dell-poweredge-r730xd
+part_number: poweredge-r730xd
+comments: |
+  [PowerEdge R730XD Datasheet](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)
 u_height: 2
 is_full_depth: true
-comments: '[Technical Guide](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
 module-bays:
   - name: PSU-1
     label: '1'
@@ -33,6 +40,14 @@ module-bays:
     position: PCIe-6
     label: '6'
 interfaces:
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
