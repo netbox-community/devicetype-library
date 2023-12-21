@@ -1,0 +1,35 @@
+---
+manufacturer: Cisco
+model: UCS C220 M4S
+slug: cisco-ucsc-c220-m4s
+part_number: UCSC-C220-M4S
+comments: |
+  [Cisco UCS C220 M4 High-Density Rack Server Datasheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m4-lff-spec-sheet.pdf)
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Rear VGA
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+interfaces:
+  - name: Ethernet0
+    type: 1000base-t
+  - name: Ethernet1
+    type: 1000base-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCIe 1
+    position: '1'
+  - name: PCIe 2
+    position: '2'
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'

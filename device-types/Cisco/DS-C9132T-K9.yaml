@@ -1,0 +1,114 @@
+---
+manufacturer: Cisco
+model: MDS9132T
+part_number: DS-C9132T-K9
+slug: cisco-ds-c9132t-k9
+u_height: 1
+is_full_depth: true
+comments: |
+  [Cisco MDS 9132T 32-Gbps 32-Port Fibre Channel Switch Data Sheet](https://www.cisco.com/c/en/us/products/collateral/storage-networking/mds-9100-series-multilayer-fabric-switches/datasheet-c78-739613.html)
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+  - name: serial
+    type: db-25
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 650
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 650
+interfaces:
+  - name: fc1/1
+    type: 32gfc-sfp28
+  - name: fc1/2
+    type: 32gfc-sfp28
+  - name: fc1/3
+    type: 32gfc-sfp28
+  - name: fc1/4
+    type: 32gfc-sfp28
+  - name: fc1/5
+    type: 32gfc-sfp28
+  - name: fc1/6
+    type: 32gfc-sfp28
+  - name: fc1/7
+    type: 32gfc-sfp28
+  - name: fc1/8
+    type: 32gfc-sfp28
+  - name: fc1/9
+    type: 32gfc-sfp28
+  - name: fc1/10
+    type: 32gfc-sfp28
+  - name: fc1/11
+    type: 32gfc-sfp28
+  - name: fc1/12
+    type: 32gfc-sfp28
+  - name: fc1/13
+    type: 32gfc-sfp28
+  - name: fc1/14
+    type: 32gfc-sfp28
+  - name: fc1/15
+    type: 32gfc-sfp28
+  - name: fc1/16
+    type: 32gfc-sfp28
+  - name: fc1/17
+    type: 32gfc-sfp28
+  - name: fc1/18
+    type: 32gfc-sfp28
+  - name: fc1/19
+    type: 32gfc-sfp28
+  - name: fc1/20
+    type: 32gfc-sfp28
+  - name: fc1/21
+    type: 32gfc-sfp28
+  - name: fc1/22
+    type: 32gfc-sfp28
+  - name: fc1/23
+    type: 32gfc-sfp28
+  - name: fc1/24
+    type: 32gfc-sfp28
+  - name: fc1/25
+    type: 32gfc-sfp28
+  - name: fc1/26
+    type: 32gfc-sfp28
+  - name: fc1/27
+    type: 32gfc-sfp28
+  - name: fc1/28
+    type: 32gfc-sfp28
+  - name: fc1/29
+    type: 32gfc-sfp28
+  - name: fc1/30
+    type: 32gfc-sfp28
+  - name: fc1/31
+    type: 32gfc-sfp28
+  - name: fc1/32
+    type: 32gfc-sfp28
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: Management0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco
+model: Aironet 3502I-A
+slug: cisco-air-cap3502i-a-k9
+part_number: AIR-CAP3502I-A-K9
+u_height: 0
+is_full_depth: false
+comments: |
+  [Cisco Aironet 3500 Series Access Point Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-1250-series/data_sheet_c78-594630.html)
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: WiFi
+    type: ieee802.11n
+    poe_mode: pd
+  - name: GigabitEthernet0
+    type: 1000base-t

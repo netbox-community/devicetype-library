@@ -1,0 +1,57 @@
+---
+manufacturer: Cisco
+model: UCS C460 M4
+slug: cisco-ucsc-c460-m4
+part_number: UCSC-C460-M4
+comments: |
+  [Cisco UCS C460 M4 Rack Server Data Sheet](https://andovercg.com/datasheets/cisco-ucs-c-series-rack-servers-c460m4_specsheet.pdf)
+u_height: 4
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Rear VGA
+    type: other
+interfaces:
+  - name: Ethernet0
+    type: 10gbase-t
+    description: Intel(R) I350 10 Gbps Network Controller
+  - name: Ethernet1
+    type: 10gbase-t
+    description: Intel(R) I350 10 Gbps Network Controller
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCIe 1
+    position: '1'
+  - name: PCIe 2
+    position: '2'
+  - name: PCIe 3
+    position: '3'
+  - name: PCIe 4
+    position: '4'
+  - name: PCIe 5
+    position: '5'
+  - name: PCIe 6
+    position: '6'
+  - name: PCIe 7
+    position: '7'
+  - name: PCIe 8
+    position: '8'
+  - name: PCIe 9
+    position: '9'
+  - name: PCIe 10
+    position: '10'
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PSU 3
+    position: '3'
+  - name: PSU 4
+    position: '4'

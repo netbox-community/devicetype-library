@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco
+model: Aironet 1815I-B
+slug: cisco-air-ap1815i-b-k9
+part_number: AIR-AP1815I-B-K9
+u_height: 0
+is_full_depth: false
+comments: |
+  [Cisco Aironet 1815i Access Point Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-1815-series-access-points/datasheet-c78-738243.html)
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: WiFi
+    type: ieee802.11n
+    poe_mode: pd
+  - name: GigabitEthernet0
+    type: 1000base-t

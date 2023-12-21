@@ -5,9 +5,14 @@ slug: cisco-air-cap3602i-a-k9
 part_number: AIR-CAP3602I-A-K9
 u_height: 0
 is_full_depth: false
+comments: |
+  [Cisco Aironet 3600 Series Access Point Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-3600-series/data_sheet_c78-686782.html)
+console-ports:
+  - name: console
+    type: rj-45
 interfaces:
-  - name: Port 1
-    type: 1000base-t
-    poe_mode: pd
   - name: WiFi
     type: ieee802.11n
+    poe_mode: pd
+  - name: GigabitEthernet0
+    type: 1000base-t
