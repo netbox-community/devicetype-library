@@ -1,0 +1,24 @@
+---
+manufacturer: Supermicro
+model: SYS-2028TP-HC1R-SIOM
+slug: supermicro-sys-2028tp-hc1r-siom
+part_number: SYS-2028TP-HC1R-SIOM
+subdevice_role: child
+comments: |
+  [SuperServer 2028TP-HC1R-SIOM](https://www.supermicro.com/en/products/system/2U/2028/SYS-2028TP-HC1R-SIOM.cfm)
+u_height: 0
+is_full_depth: true
+console-ports:
+  - name: VGA
+    type: other
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 2000
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 2000

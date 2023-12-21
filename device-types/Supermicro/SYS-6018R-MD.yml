@@ -1,0 +1,27 @@
+---
+manufacturer: Supermicro
+model: SYS-6018R-MD
+slug: supermicro-sys-6018r-md
+part_number: SYS-6018R-MD
+comments: |
+  [SuperServer 6018R-MD](https://www.supermicro.com/en/products/system/1U/6018/SYS-6018R-MD.cfm)
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: VGA
+    type: other
+interfaces:
+  - name: Ethernet0
+    type: 1000base-t
+  - name: Ethernet1
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 500
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 500
