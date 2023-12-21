@@ -1,0 +1,10 @@
+---
+manufacturer: Intel
+model: UCSC-PCIE-ITG
+part_number: UCSC-PCIE-ITG
+comments: Intel X540 Dual Port 10GBase-T Adapter
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-t
+  - name: Ethernet{module}/2
+    type: 10gbase-t

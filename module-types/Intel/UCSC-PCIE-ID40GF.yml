@@ -1,0 +1,10 @@
+---
+manufacturer: Intel
+model: UCSC-PCIE-ID40GF
+part_number: UCSC-PCIE-ID40GF
+comments: Intel XL710 dual-port 40G QSFP+ NIC
+interfaces:
+  - name: Ethernet{module}/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/2
+    type: 40gbase-x-qsfpp

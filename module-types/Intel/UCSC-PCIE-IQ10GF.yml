@@ -1,0 +1,14 @@
+---
+manufacturer: Intel
+model: UCSC-PCIE-IQ10GF
+part_number: UCSC-PCIE-IQ10GF
+comments: Intel X710 quad-port 10G SFP+ NIC
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/2
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/3
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/4
+    type: 10gbase-x-sfpp

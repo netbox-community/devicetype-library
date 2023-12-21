@@ -1,0 +1,10 @@
+---
+manufacturer: Intel
+model: UCSC-PCIE-ID10GF
+part_number: UCSC-PCIE-ID10GF
+comments: Intel X710-DA2 dual-port 10G SFP+ NIC
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/2
+    type: 10gbase-x-sfpp

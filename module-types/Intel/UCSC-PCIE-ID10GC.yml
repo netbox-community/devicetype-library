@@ -1,0 +1,10 @@
+---
+manufacturer: Intel
+model: UCSC-PCIE-ID10GC
+part_number: UCSC-PCIE-ID10GC
+comments: Intel X550-T2 dual-port 10GBase-T NIC
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-t
+  - name: Ethernet{module}/2
+    type: 10gbase-t

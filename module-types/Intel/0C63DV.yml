@@ -1,0 +1,14 @@
+---
+manufacturer: Intel
+model: 0C63DV
+part_number: 0C63DV
+comments: Intel X520 Dual-Ports DA/SFP+ 10Gbps + I350 Dual-Ports 1Gbps Network Daughter Card
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/2
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/3
+    type: 1000base-t
+  - name: Ethernet{module}/4
+    type: 1000base-t
