@@ -8,16 +8,21 @@ is_full_depth: false
 airflow: front-to-rear
 is_powered: true
 comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+weight: 18.0
+weight_unit: kg
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+  - name: SM 1  # SM = Service Module
+  - name: SM 2
+  - name: NIM 1 # NIM = Network Interface Module
+  - name: NIM 2
+  - name: PIM 1 # PIM = Pluggable Interface Module (LTE/5G)
 console-ports:
   - name: con0
     type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 650
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-t
