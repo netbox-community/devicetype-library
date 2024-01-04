@@ -9,16 +9,11 @@ comments: Same as FG-601E , but **WITHOUT** 2 x 240GB SSDs on-board.
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 244
-    allocated_draw: 129
-  # Option to install a second PSU Uncomment out to add
-  #- name: PS1
-  #  type: iec-60320-c14
-  #  maximum_draw: 244
-  #  allocated_draw: 129
+    position: '1'
+  - name: PS2
+    position: '2'
 interfaces:
   - name: ha
     type: 1000base-t
