@@ -1,0 +1,10 @@
+---
+manufacturer: Supermicro
+model: PWS-2K22A-1R
+part_number: PWS-2K22A-1R
+comments: |
+  [2200W 1U Redundant Power Supply](https://store.supermicro.com/media/wysiwyg/productspecs/PWS-2K22A-1R/PWS-2K22A-1R_quick_spec_10052017.pdf)
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 2000
