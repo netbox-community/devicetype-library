@@ -13,34 +13,34 @@ console-ports:
     type: other
 module-bays:
   - name:  PSU1
-    position: 1
+    position: '1'
   - name:  PSU2
-    position: 2
+    position: '2'
   - name: FlexLOM
-    position: FlexLOM
+    position: 'FlexLOM'
   - name: PCIe1
-    position: PCIe1
+    position: 'PCIe1'
     label: primary riser
   - name: PCIe2
-    position: PCIe2
+    position: 'PCIe2'
     label: primary riser
   - name: PCIe3
-    position: PCIe3
+    position: 'PCIe3'
     label: primary riser
   - name: PCIe4
-    position: PCIe4
+    position: 'PCIe4'
     label: secondary riser
   - name: PCIe5
-    position: PCIe5
+    position: 'PCIe5'
     label: secondary riser
   - name: PCIe6
-    position: PCIe6
+    position: 'PCIe6'
     label: secondary riser
   - name: PCIe7
-    position: PCIe7
+    position: 'PCIe7'
     label: tertiary riser
   - name: PCIe8
-    position: PCIe8
+    position: 'PCIe8'
     label: tertiary riser
 interfaces:
   - name: Gig-E 1
