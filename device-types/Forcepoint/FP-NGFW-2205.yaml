@@ -1,0 +1,65 @@
+---
+manufacturer: Forcepoint
+model: NGFW 2205
+part_number: N2205
+slug: forcepoint-ngfw-2205
+u_height: 1
+is_full_depth: true
+weight: 8.23
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+  - name: VGA
+    type: other
+power-ports:
+  - name: Power Supply 1
+    type: iec-60320-c14
+    maximum_draw: 116
+    allocated_draw: 100
+  - name: Power Supply 2
+    type: iec-60320-c14
+    maximum_draw: 116
+    allocated_draw: 100
+interfaces:
+  - name: Eth0_0
+    type: 1000base-t
+  - name: Ethernet0_1
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_2
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_3
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_4
+    type: 10gbase-x-sfpp
+  - name: Eth0_5
+    type: 1000base-t
+  - name: Eth0_6
+    type: 1000base-t
+  - name: Eth0_7
+    type: 1000base-t
+  - name: Eth0_8
+    type: 1000base-t
+  - name: Eth0_9
+    type: 1000base-t
+  - name: Eth0_10
+    type: 1000base-t
+  - name: Eth0_11
+    type: 1000base-t
+  - name: Eth0_12
+    type: 1000base-t
+  - name: Ethernet0_13
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_14
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_15
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_16
+    type: 10gbase-x-sfpp
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Slot 1
+    position: '1'
+
