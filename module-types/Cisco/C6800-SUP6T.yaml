@@ -1,0 +1,36 @@
+---
+manufacturer: Cisco
+model: C6800-SUP6T-XL
+part_number: C6800-SUP6T-XL
+comments: '[Cisco Catalyst 6800 Series Supervisor Engine Data Sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/catalyst-6800-series-supervisor-engine-6t/datasheet-c78-736408.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb 0
+    type: other
+  - name: usb 1
+    type: other
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet1/{module}/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/{module}/8
+    type: 10gbase-x-sfpp
+  - name: FortyGigabitEthernet1/0/1
+    type: 40gbase-x-qsfpp
+  - name: FortyGigabitEthernet1/0/2
+    type: 40gbase-x-qsfpp
