@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: C6800-SUP6T
+part_number: C6800-SUP6T
+interfaces:
+  - name: TenGigabitEthernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet{module}/8
+    type: 10gbase-x-sfpp
+  - name: FortyGigabitEthernet{module}/9
+    type: 40gbase-x-qsfpp
+  - name: FortyGigabitEthernet{module}/10
+    type: 40gbase-x-qsfpp
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: console
+    type: rj-45
