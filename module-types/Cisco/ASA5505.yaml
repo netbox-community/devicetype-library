@@ -1,0 +1,41 @@
+---
+manufacturer: Cisco
+model: ASA5505
+slug: cisco-asa5505
+part_number: ASA5505
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: '[Cisco ASA 5500 Series Adaptive Security Appliances Data Sheet](https://www.cisco.com/c/en/us/products/security/asa-5500-series-next-generation-firewalls/data_sheet_c78-345385.html)'
+console-ports:
+  - name: Con 0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet0/0
+    type: 100base-tx
+  - name: Ethernet0/1
+    type: 100base-tx
+  - name: Ethernet0/2
+    type: 100base-tx
+  - name: Ethernet0/3
+    type: 100base-tx
+  - name: Ethernet1/0
+    type: 100base-tx
+  - name: Ethernet0/4
+    type: 100base-tx
+  - name: Ethernet0/5
+    type: 100base-tx
+  - name: Ethernet0/6
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet0/7
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: AIP Security Services Card
+    position: '1'

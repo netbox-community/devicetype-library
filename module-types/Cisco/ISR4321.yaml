@@ -1,0 +1,24 @@
+---
+manufacturer: Cisco
+model: ISR4321
+part_number: ISR4321/K9
+slug: cisco-isr4321
+u_height: 1
+is_full_depth: true
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c6
+    maximum_draw: 125

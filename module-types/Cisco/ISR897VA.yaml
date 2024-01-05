@@ -1,0 +1,42 @@
+---
+manufacturer: Cisco
+model: ISR897VA
+part_number: C897VA-K9
+slug: cisco-isr897va
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: ISDN
+    type: 1000base-t
+  - name: VDSL/ADSL
+    type: 100base-tx
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/7
+    type: 1000base-t
+  - name: GigabitEthernet0/8
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-x-sfp
+console-ports:
+  - name: con 0
+    type: rj-45
+    mgmt_only: true
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c6
+    maximum_draw: 125

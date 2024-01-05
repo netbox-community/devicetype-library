@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: APIC-M2
+slug: cisco-apic-m2
+part_number: APIC-M2
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+power-ports:
+  - name: PS-0
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: eth2/1
+    type: 10gbase-t
+  - name: eth2/2
+    type: 10gbase-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT-0
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT-1
+    type: 1000base-t
+    mgmt_only: true

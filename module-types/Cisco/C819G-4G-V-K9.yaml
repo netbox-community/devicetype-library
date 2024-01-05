@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: 819G-4G-V
+part_number: C819G-4G-V-K9
+slug: cisco-c819g-4g-v-k9
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: FastEthernet0
+    type: 100base-tx
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+  - name: Cellular0
+    type: lte
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 11

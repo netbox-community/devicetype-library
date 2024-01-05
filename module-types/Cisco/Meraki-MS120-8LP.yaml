@@ -1,0 +1,50 @@
+---
+manufacturer: Cisco
+model: Meraki MS120-8LP
+slug: cisco-meraki-ms120-8lp
+part_number: MS120-8LP-HW
+u_height: 1
+is_full_depth: false
+comments: '[MS120 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS120_Overview_and_Specifications)'
+power-ports:
+  - name: Slot 1
+    type: dc-terminal
+    allocated_draw: 7
+    maximum_draw: 88
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 9
+    type: 1000base-x-sfp
+  - name: Port 10
+    type: 1000base-x-sfp

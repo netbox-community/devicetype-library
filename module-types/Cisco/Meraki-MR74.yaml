@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: Meraki MR74
+slug: cisco-meraki-mr74
+part_number: MR74
+u_height: 0.0
+is_full_depth: false
+weight: 2.4
+weight_unit: lb
+comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR74.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR74.pdf)\r\n- 2.4\
+  \ GHz 802.11b/g/n client access radio, 5 GHz 802.11a/n/ac client access radio"
+interfaces:
+  - name: main
+    type: 1000base-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

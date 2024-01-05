@@ -1,0 +1,35 @@
+---
+manufacturer: Cisco
+model: 7609-S
+slug: cisco-7609-s
+part_number: CISCO7609-S
+u_height: 21
+is_full_depth: false
+subdevice_role: parent
+airflow: front-to-rear
+power-ports:
+  - name: PS 1
+    type: dc-terminal
+    maximum_draw: 4000
+  - name: PS 2
+    type: dc-terminal
+    maximum_draw: 4000
+module-bays:
+  - name: slot-1
+    position: '1'
+  - name: slot-2
+    position: '2'
+  - name: slot-3
+    position: '3'
+  - name: slot-4
+    position: '4'
+  - name: slot-5
+    position: '5'
+  - name: slot-6
+    position: '6'
+  - name: slot-7
+    position: '7'
+  - name: slot-8
+    position: '8'
+  - name: slot-9
+    position: '9'

@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: VG320
+slug: cisco-vg320
+part_number: VG320
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 15.8
+weight_unit: lb
+comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: aux
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    maximum_draw: 135
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t

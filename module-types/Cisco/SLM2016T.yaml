@@ -1,0 +1,59 @@
+---
+manufacturer: Cisco
+model: SG200-18
+slug: cisco-sg200-18
+part_number: SLM2016T
+u_height: 1
+is_full_depth: false
+comments: '[SG200 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/small-business-200-series-smart-switches/data_sheet_c78-634369.html)'
+power-ports:
+  - name: PS A
+    type: iec-60320-c14
+    maximum_draw: 23
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+  - name: GigabitEthernet9
+    type: 1000base-t
+  - name: GigabitEthernet10
+    type: 1000base-t
+  - name: GigabitEthernet11
+    type: 1000base-t
+  - name: GigabitEthernet12
+    type: 1000base-t
+  - name: GigabitEthernet13
+    type: 1000base-t
+  - name: GigabitEthernet14
+    type: 1000base-t
+  - name: GigabitEthernet15
+    type: 1000base-t
+  - name: GigabitEthernet16
+    type: 1000base-t
+  - name: GigabitEthernet17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet18
+    type: 1000base-x-sfp
+  - name: Port-Channel1
+    type: lag
+  - name: Port-Channel2
+    type: lag
+  - name: Port-Channel3
+    type: lag
+  - name: Port-Channel4
+    type: lag
+  - name: vlan 1
+    type: virtual

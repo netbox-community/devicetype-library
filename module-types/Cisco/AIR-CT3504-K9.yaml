@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: AIR-CT3504-K9
+slug: cisco-air-ct3504-k9
+part_number: AIR-CT3504-K9
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Con
+    type: rj-45
+  - name: usb0
+    type: usb-a
+  - name: usb1
+    type: usb-mini-b
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 5gbase-t
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 115

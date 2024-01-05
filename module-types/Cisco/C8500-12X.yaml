@@ -1,0 +1,47 @@
+---
+manufacturer: Cisco
+model: Catalyst 8500-12X
+slug: cisco-c8500-12x
+part_number: C8500-12X
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+power-ports:
+  - name: P0
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: P1
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet0/0/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/11
+    type: 10gbase-x-sfpp

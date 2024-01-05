@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: VG202XM
+slug: cisco-vg202xm
+part_number: VG202XM
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.98
+weight_unit: lb
+comments: '[Cisco VG Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    maximum_draw: 30
+interfaces:
+  - name: FastEthernet0/0
+    type: 100base-tx
+  - name: FastEthernet0/1
+    type: 100base-tx

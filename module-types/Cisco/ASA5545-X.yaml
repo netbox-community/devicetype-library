@@ -1,0 +1,35 @@
+---
+manufacturer: Cisco
+model: ASA5545-X
+slug: cisco-asa5545-x
+part_number: ASA5545-K8
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con 0
+    type: rj-45
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/7
+    type: 1000base-t
+  - name: Management0/0
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: ASA5550
+slug: cisco-asa5550
+part_number: ASA5550
+u_height: 1
+console-ports:
+  - name: Con 0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet1/0
+    type: 1000base-t
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: Management0/0
+    type: 100base-tx
+    mgmt_only: true

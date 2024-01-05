@@ -1,0 +1,33 @@
+---
+manufacturer: Cisco
+model: vEdge 2000
+slug: cisco-vedge-2000-ac-k9
+part_number: VEDGE-2000-AC-K9
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: usb0
+    type: usb-a
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-b
+  - name: console
+    type: rj-45
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: ge0/0
+    type: 1000base-x-sfp
+  - name: ge0/1
+    type: 1000base-x-sfp
+  - name: ge0/2
+    type: 1000base-x-sfp
+  - name: ge0/3
+    type: 1000base-x-sfp
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'

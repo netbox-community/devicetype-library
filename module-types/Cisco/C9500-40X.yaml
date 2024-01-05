@@ -1,0 +1,107 @@
+---
+manufacturer: Cisco
+model: Catalyst 9500-40X
+slug: cisco-c9500-40x
+part_number: C9500-40X
+u_height: 1
+is_full_depth: true
+comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 850
+  - name: PS-2
+    type: iec-60320-c14
+    maximum_draw: 850
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/13
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/14
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/15
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/16
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/17
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/18
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/19
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/20
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/21
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/22
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/23
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/24
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/25
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/26
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/27
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/28
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/29
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/30
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/31
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/32
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/33
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/34
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/35
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/36
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/37
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/38
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/39
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/40
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: Network Module
+    position: '1'
