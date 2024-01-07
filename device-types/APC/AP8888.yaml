@@ -1,3 +1,4 @@
+---
 manufacturer: APC
 model: AP8888
 slug: apc-ap8888
@@ -36,7 +37,7 @@ power-ports:
     # allocated_draw: Leave blank for PDUs
     # maximum_draw: Leave blank for PDUs
 power-outlets:
-  # L1 - Line 1, Bank 1
+# L1 - Line 1, Bank 1
   - name: L1 Bank 1 C13 01
     type: iec-60320-c13
     feed_leg: A
@@ -61,7 +62,7 @@ power-outlets:
     type: iec-60320-c19
     feed_leg: A
     power_port: Power Cord
-    # L1 - Line 1, Bank 2
+# L1 - Line 1, Bank 2
   - name: L1 Bank 2 C13 05
     type: iec-60320-c13
     feed_leg: A
@@ -94,7 +95,7 @@ power-outlets:
     type: iec-60320-c19
     feed_leg: A
     power_port: Power Cord
-    # L2 - Line 2, Bank 3
+# L2 - Line 2, Bank 3
   - name: L2 Bank 3 C13 01
     type: iec-60320-c13
     feed_leg: B
@@ -119,7 +120,7 @@ power-outlets:
     type: iec-60320-c19
     feed_leg: B
     power_port: Power Cord
-    # L2 - Line 2, Bank 4
+# L2 - Line 2, Bank 4
   - name: L2 Bank 4 C13 05
     type: iec-60320-c13
     feed_leg: B
@@ -152,7 +153,7 @@ power-outlets:
     type: iec-60320-c19
     feed_leg: B
     power_port: Power Cord
-    # L3 - Line 3, Bank 5
+# L3 - Line 3, Bank 5
   - name: L3 Bank 5 C13 01
     type: iec-60320-c13
     feed_leg: C
@@ -177,7 +178,7 @@ power-outlets:
     type: iec-60320-c19
     feed_leg: C
     power_port: Power Cord
-    # L3 - Line 3, Bank 6
+# L3 - Line 3, Bank 6
   - name: L3 Bank 6 C13 05
     type: iec-60320-c13
     feed_leg: C

@@ -1,3 +1,4 @@
+---
 manufacturer: APC
 model: AP8881
 slug: apc-ap8881
@@ -36,7 +37,7 @@ power-ports:
     # allocated_draw: Leave blank for PDUs
     # maximum_draw: Leave blank for PDUs
 power-outlets:
-  # L1 - Line 1
+# L1 - Line 1
   - name: L1 C19 01
     type: iec-60320-c19
     feed_leg: A
@@ -93,7 +94,7 @@ power-outlets:
     type: iec-60320-c13
     feed_leg: A
     power_port: Power Cord
-    # L2 - Line 2
+# L2 - Line 2
   - name: L2 C19 01
     type: iec-60320-c19
     feed_leg: B
@@ -150,7 +151,7 @@ power-outlets:
     type: iec-60320-c13
     feed_leg: B
     power_port: Power Cord
-    # L3 - Line 3
+# L3 - Line 3
   - name: L3 C19 01
     type: iec-60320-c19
     feed_leg: C
