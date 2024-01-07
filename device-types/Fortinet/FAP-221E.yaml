@@ -1,4 +1,3 @@
----
 manufacturer: Fortinet
 model: FortiAP 221E
 slug: fortinet-fap-221e
@@ -8,8 +7,7 @@ is_full_depth: false
 airflow: passive
 weight: 1.1
 weight_unit: lb
-comments: '[FortiAP Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortiap-series.pdf), [FortiAP 221E/223E, FAP-221E+/223E+
-  QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-221e-223e-fap-221e-223e-quickstart-guide-gen-2)'
+comments: '[FortiAP Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortiap-series.pdf), [FortiAP 221E/223E, FAP-221E+/223E+ QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-221e-223e-fap-221e-223e-quickstart-guide-gen-2)'
 interfaces:
   - name: wan-poe
     type: 1000base-t

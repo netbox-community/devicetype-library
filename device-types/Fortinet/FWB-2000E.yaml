@@ -1,4 +1,3 @@
----
 manufacturer: Fortinet
 model: FortiWeb 2000E
 part_number: FWB-2000E
@@ -8,8 +7,8 @@ u_height: 2
 interfaces:
   - name: mgmt
     type: 1000base-t
-# ports 1-4 can be configured in bypass mode
-# see front/rear-port if you wish to use it like that
+    # ports 1-4 can be configured in bypass mode
+    # see front/rear-port if you wish to use it like that
   - name: port1
     type: 1000base-t
   - name: port2
@@ -18,7 +17,7 @@ interfaces:
     type: 1000base-t
   - name: port4
     type: 1000base-t
-# ports 5-8, 1G SFP non-bypass
+    # ports 5-8, 1G SFP non-bypass
   - name: port5
     type: 1000base-x-sfp
   - name: port6
@@ -27,7 +26,7 @@ interfaces:
     type: 1000base-x-sfp
   - name: port8
     type: 1000base-x-sfp
-# ports 9-10, 10G SFP+
+    # ports 9-10, 10G SFP+
   - name: port9
     type: 10gbase-x-sfpp
   - name: port10

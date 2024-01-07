@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7050SX-64-R
 slug: arista-dcs-7050sx-64-r
@@ -119,7 +118,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet48
     type: 10gbase-x-sfpp
-# QSFP+(40G) ports can be broken into 4x10 with a model of [49-52]/[1-4]
+    # QSFP+(40G) ports can be broken into 4x10 with a model of [49-52]/[1-4]
   - name: Ethernet49/1
     type: 40gbase-x-qsfpp
   - name: Ethernet50/1

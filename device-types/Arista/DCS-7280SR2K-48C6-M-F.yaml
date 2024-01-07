@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7280SR2K-48C6-M-F
 slug: arista-dcs-7280sr2k-48c6-m-f
@@ -117,7 +116,7 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet48
     type: 25gbase-x-sfp28
-# QSFP28(100G) ports can be broke into 4x25 with a model of [49-54]/[1-4]
+    # QSFP28(100G) ports can be broke into 4x25 with a model of [49-54]/[1-4]
   - name: Ethernet49/1
     type: 100gbase-x-qsfp28
   - name: Ethernet50/1

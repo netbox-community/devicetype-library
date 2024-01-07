@@ -1,4 +1,3 @@
----
 manufacturer: Fortinet
 model: FortiGate 601E
 slug: fortinet-fg-601e
@@ -14,11 +13,11 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 244
     allocated_draw: 129
-  # Option to install a second PSU Uncomment out to add
-  #- name: PS1
-  #  type: iec-60320-c14
-  #  maximum_draw: 244
-  #  allocated_draw: 129
+    # Option to install a second PSU Uncomment out to add
+    #- name: PS1
+    #  type: iec-60320-c14
+    #  maximum_draw: 244
+    #  allocated_draw: 129
 interfaces:
   - name: ha
     type: 1000base-t

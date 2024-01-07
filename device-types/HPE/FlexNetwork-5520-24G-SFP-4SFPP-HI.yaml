@@ -1,4 +1,3 @@
----
 manufacturer: HPE
 model: FlexNetwork 5520-24G-SFP-4SFPP HI
 slug: hpe-flexnetwork-5520-24g-sfp-4sfpp-hi
@@ -73,23 +72,23 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/0/24
     type: 1000base-x-sfp
-# dual personality ports
-# - name: GigabitEthernet1/0/17
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/18
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/19
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/20
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/21
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/22
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/23
-#   type: 1000base-t
-# - name: GigabitEthernet1/0/24
-#   type: 1000base-t
+    # dual personality ports
+    # - name: GigabitEthernet1/0/17
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/18
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/19
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/20
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/21
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/22
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/23
+    #   type: 1000base-t
+    # - name: GigabitEthernet1/0/24
+    #   type: 1000base-t
   - name: Ten-GigabitEthernet1/0/25
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/26

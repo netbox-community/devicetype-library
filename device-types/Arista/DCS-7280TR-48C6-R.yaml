@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7280TR-48C6-R
 slug: arista-dcs-7280tr-48c6-r
@@ -119,7 +118,7 @@ interfaces:
     type: 10gbase-t
   - name: Ethernet48
     type: 10gbase-t
-# QSFP28(100G) ports can be broke into 4x25 with a model of [49-54]/[1-4]
+    # QSFP28(100G) ports can be broke into 4x25 with a model of [49-54]/[1-4]
   - name: Ethernet49/1
     type: 100gbase-x-qsfp28
   - name: Ethernet50/1
