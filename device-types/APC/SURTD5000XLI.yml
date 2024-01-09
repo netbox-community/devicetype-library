@@ -1,0 +1,52 @@
+---
+manufacturer: APC
+model: Smart-UPS RT 5000VA 230V
+slug: apc-smart-ups-rt-5000va-230v
+part_number: SURTD5000XLI
+u_height: 3.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://www.apc.com/my/en/product/SURTD5000XLI/apc-smartups-rt-5000va-230v-rackmount-w-kit-3u-8x-iec-60320-c13-4x-iec-jumpers-2x-iec-60320-c19-outlets/)'
+weight: 54.43
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Inlet
+    type: iec-60309-3p-n-e-4h
+    maximum_draw: 3500
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: 16A Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: 16A Outlet 2
+    type: iec-60320-c19
+    power_port: Inlet
+module-bays:
+  - name: SmartSlot
+    position: Rear
