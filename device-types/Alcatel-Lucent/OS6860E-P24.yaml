@@ -1,12 +1,12 @@
 ---
 manufacturer: Alcatel-Lucent
-model: OS6860E-48
-slug: alcatel-lucent-os6860e-48
-part_number: 903965-90
+model: OS6860E-P24
+slug: alcatel-lucent-os6860e-p24
+part_number: 904059-90
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
-weight: 5.49
+weight: 6.26
 weight_unit: kg
 console-ports:
   - name: Console
@@ -14,12 +14,10 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 60
+    maximum_draw: 600
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 60
+    maximum_draw: 600
 interfaces:
   - name: 1/1/1
     type: 1000base-t
@@ -70,64 +68,16 @@ interfaces:
   - name: 1/1/24
     type: 1000base-t
   - name: 1/1/25
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: 1/1/26
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: 1/1/27
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: 1/1/28
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: 1/1/29
-    type: 1000base-t
-  - name: 1/1/30
-    type: 1000base-t
-  - name: 1/1/31
-    type: 1000base-t
-  - name: 1/1/32
-    type: 1000base-t
-  - name: 1/1/33
-    type: 1000base-t
-  - name: 1/1/34
-    type: 1000base-t
-  - name: 1/1/35
-    type: 1000base-t
-  - name: 1/1/36
-    type: 1000base-t
-  - name: 1/1/37
-    type: 1000base-t
-  - name: 1/1/38
-    type: 1000base-t
-  - name: 1/1/39
-    type: 1000base-t
-  - name: 1/1/40
-    type: 1000base-t
-  - name: 1/1/41
-    type: 1000base-t
-  - name: 1/1/42
-    type: 1000base-t
-  - name: 1/1/43
-    type: 1000base-t
-  - name: 1/1/44
-    type: 1000base-t
-  - name: 1/1/45
-    type: 1000base-t
-  - name: 1/1/46
-    type: 1000base-t
-  - name: 1/1/47
-    type: 1000base-t
-  - name: 1/1/48
-    type: 1000base-t
-  - name: 1/1/49
-    type: 10gbase-x-sfpp
-  - name: 1/1/50
-    type: 10gbase-x-sfpp
-  - name: 1/1/51
-    type: 10gbase-x-sfpp
-  - name: 1/1/52
-    type: 10gbase-x-sfpp
-  - name: 1/1/53
     type: 40gbase-x-qsfpp
-  - name: 1/1/54
+  - name: 1/1/30
     type: 40gbase-x-qsfpp
   - name: EMP
     type: 1000base-t

@@ -1,0 +1,9 @@
+---
+manufacturer: Alcatel-Lucent
+model: OS6450-BP
+part_number: OS6450-BP
+comments: Modular AC power supply. Provides 90 W system power to one OS6450 non-PoE switch
+power-ports:
+  - name: PS{module}
+    type: iec-60320-c14
+    maximum_draw: 90
