@@ -6,7 +6,7 @@ part_number: R4H13A
 u_height: 0.0
 is_full_depth: false
 airflow: passive
-comments: "[Aruba 570 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP570Series.pdf)"
+comments: '[Aruba 570 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP570Series.pdf)'
 weight: 2.7
 weight_unit: kg
 console-ports:
@@ -50,3 +50,14 @@ interfaces:
     enabled: true
     label: Radio 3
     description: 802.15.4
+inventory-items:
+  - name: Aruba Cop Ap Fnd 5-Year Sub E-Stu
+    manufacturer: HPE
+    role: Software License
+    part_id: R6U65AAE
+    description: Subscription License
+  - name: Aruba - license + 1 Year ArubaCare Support
+    manufacturer: HPE
+    role: Software License
+    part_id: JW619AAE
+    description: Subscription License

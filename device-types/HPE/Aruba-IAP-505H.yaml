@@ -10,10 +10,7 @@ comments: '[Aruba 500H Series Datasheet](https://www.arubanetworks.com/assets/ds
 weight: 360.0
 weight_unit: g
 console-ports:
-  - name: USB 2.0
-    type: usb-a
-    label: USBA
-  - name: Serial Console Interface
+  - name: Console Interface
     type: usb-micro-b
     label: USBmB
 power-ports:
@@ -75,3 +72,14 @@ interfaces:
     enabled: true
     label: Radio 3
     description: 802.15.4
+inventory-items:
+  - name: Aruba Cop Ap Fnd 5-Year Sub E-Stu
+    manufacturer: HPE
+    role: Software License
+    part_id: R6U65AAE
+    description: Subscription License
+  - name: Aruba - license + 1 Year ArubaCare Support
+    manufacturer: HPE
+    role: Software License
+    part_id: JW619AAE
+    description: Subscription License
