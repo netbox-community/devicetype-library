@@ -6,13 +6,13 @@ part_number: R7J28A
 u_height: 0.0
 is_full_depth: false
 airflow: passive
-comments: "[Aruba 630 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP630Series.pdf)"
+comments: '[Aruba 630 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP630Series.pdf)'
 weight: 1300.0
 weight_unit: g
 console-ports:
-  - name: USB 2.0
-    type: usb-a
-    label: USBA
+  - name: Console Interface
+    type: usb-micro-b
+    label: USBmB
 power-ports:
   - name: 12Vdc
     type: dc-terminal
