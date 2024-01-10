@@ -4,6 +4,9 @@ model: ASR1002-X
 slug: cisco-asr1002-x
 part_number: ASR1002X-5G-K9
 u_height: 2
+weight: 15.45
+weight_unit: kg
+airflow: front-to-rear
 is_full_depth: false
 console-ports:
   - name: Con 0
@@ -31,6 +34,4 @@ interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
-  - name: Loopback0
-    type: virtual
-    mgmt_only: true
+
