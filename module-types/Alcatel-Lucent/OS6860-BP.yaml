@@ -1,0 +1,9 @@
+---
+manufacturer: Alcatel-Lucent
+model: OS6860-BP 
+part_number: OS6860-BP 
+comments: Modular AC power supply. Provides 150 W system power to one OS6860 non-PoE switch
+power-ports:
+  - name: PS{module}
+    type: iec-60320-c14
+    maximum_draw: 150
