@@ -1,0 +1,9 @@
+---
+manufacturer: Alcatel-Lucent
+model: OS6860-BPPX
+part_number: OS6860-BPPX
+comments: Modular 920-W AC PoE power supply. Provides system and PoE power to one 48-port PoE or one P24Z8 switch
+power-ports:
+  - name: PS{module}
+    type: iec-60320-c14
+    maximum_draw: 920
