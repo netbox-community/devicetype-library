@@ -1,0 +1,9 @@
+---
+manufacturer: Alcatel-Lucent
+model: OS6450-BP-PH
+part_number: OS6450-BP-PH
+comments: 550 W AC external backup power supply installed at 6450 rear. Provides backup PoE power (390 W) to one 24-port PoE switch.
+power-ports:
+  - name: PS{module}
+    type: iec-60320-c14
+    maximum_draw: 550
