@@ -11,6 +11,15 @@ weight_unit: kg
 console-ports:
   - name: Console
     type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 450
+    allocated_draw: 182
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 450
+    allocated_draw: 182
 interfaces:
   - name: 1/1/1
     type: 10gbase-x-sfpp
@@ -68,7 +77,3 @@ module-bays:
     label: Front
   - name: SLOT-3
     label: Rear
-  - name: PS1
-    position: 1
-  - name: PS2
-    position: 2
