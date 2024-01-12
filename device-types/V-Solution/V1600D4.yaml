@@ -1,0 +1,93 @@
+---
+manufacturer: V-Solution
+model: V1600D4
+slug: v-solution-v1600d4
+default_platform: null
+part_number: V1600D4
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: left-to-right
+comments: ''
+weight: 4.2
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+    label: 'Console'
+    description: ''
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 20
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 20
+interfaces:
+  - name: epon 0/1
+    type: epon
+    enabled: true
+    mgmt_only: false
+    label: 'PON1'
+  - name: epon 0/2
+    type: epon
+    enabled: true
+    label: 'PON2'
+    mgmt_only: false
+  - name: epon 0/3
+    type: epon
+    enabled: true
+    label: 'PON3'
+    mgmt_only: false
+  - name: epon 0/4
+    type: epon
+    enabled: true
+    label: 'PON4'
+    mgmt_only: false
+  - name: gigabitethernet 0/1
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: 'GE1'
+    mgmt_only: false
+  - name: gigabitethernet 0/2
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: 'GE2'
+    mgmt_only: false
+  - name: gigabitethernet 0/3
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: 'GE3'
+    mgmt_only: false
+  - name: gigabitethernet 0/4
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: 'GE4'
+    mgmt_only: false
+  - name: gigabitethernet 0/5
+    type: 1000base-t
+    enabled: true
+    label: 'GE5'
+    mgmt_only: false
+  - name: gigabitethernet 0/6
+    type: 1000base-t
+    enabled: true
+    label: 'GE6'
+    mgmt_only: false
+  - name: gigabitethernet 0/7
+    type: 1000base-t
+    enabled: true
+    label: 'GE7'
+    mgmt_only: false
+  - name: gigabitethernet 0/8
+    type: 1000base-t
+    enabled: true
+    label: 'GE8'
+    mgmt_only: false
+  - name: aux
+    type: 100base-tx
+    enabled: true
+    label: 'AUX'
+    mgmt_only: true
