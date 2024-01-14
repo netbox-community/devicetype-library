@@ -8,8 +8,11 @@ is_full_depth: false
 subdevice_role: parent
 module-bays:
   - name: PSU-1
+    position: 1
   - name: PSU-2
+    position: 2
   - name: PSU-3
+    position: 3
 power-ports:
   - name: Port 1
     type: dc-terminal
