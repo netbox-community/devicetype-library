@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: C9124AXI-E
+slug: cisco-c9124axi-e
+part_number: C9124AXI-E
+u_height: 0
+is_full_depth: false
+comments: '[Cisco Catalyst 9124AX Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9100ax-access-points/nb-06-cat9124-ser-ap-ds-cte-en.html)'
+interfaces:
+  - name: WiFi
+    type: ieee802.11ax
+  - name: GigabitEthernet0
+    type: 2.5gbase-t
+    poe_mode: pd
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
