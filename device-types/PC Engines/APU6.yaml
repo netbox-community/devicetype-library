@@ -1,0 +1,30 @@
+---
+manufacturer: PC Engines
+model: APU6
+slug: apu6
+part_number: apu6
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: |
+  Dimensions: 168 x 157 x 30 mm (6.61 x 6.18 x 1.18")  
+weight: 16.00
+weight_unit: oz
+console-ports:
+- name: ttyS0
+  type: usb-micro-a
+  description: micro-USB Serial Port
+power-ports:
+- name: Input
+  type: dc-terminal
+  maximum_draw: 12
+  allocated_draw: 10
+interfaces:
+- name: eth0
+  type: 1000base-x-sfp
+- name: eth1
+  type: 1000base-t
+- name: eth2
+  type: 1000base-t
+- name: eth3
+  type: 1000base-t
