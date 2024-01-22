@@ -17,16 +17,16 @@ jobs:
         uses: pozetroninc/github-action-get-latest-release@master
         with:
           repository: netbox-community/netbox
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         id: setup_python
         with:
-          python-version: '3.8'
+          python-version: '3.9'
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: cache virtualenv
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
