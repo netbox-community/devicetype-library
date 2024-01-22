@@ -27,10 +27,6 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
   - name: ha1
-    type: 1000base-t
-  - name: ha2
-    type: 1000base-t
-  - name: ha1
     type: 25gbase-x-sfp28
   - name: ha2
     type: 25gbase-x-sfp28
@@ -79,10 +75,10 @@ interfaces:
   - name: port22
     type: 25gbase-x-sfp28
   - name: port23
-    type: 100gbase-x-sfp28
+    type: 100gbase-x-qsfp28
   - name: port24
-    type: 100gbase-x-sfp28
+    type: 100gbase-x-qsfp28
   - name: port25
-    type: 100gbase-x-sfp28
+    type: 100gbase-x-qsfp28
   - name: port26
-    type: 100gbase-x-sfp28
+    type: 100gbase-x-qsfp28
