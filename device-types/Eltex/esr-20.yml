@@ -1,0 +1,28 @@
+---
+manufacturer: Eltex
+model: ESR-20
+slug: eltex-esr-20
+part_number: ESR-20
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 2.0
+weight_unit: kg
+console-ports:
+  - name: console01
+    type: rj-45
+power-ports:
+  - name: PSU#1
+    type: iec-60320-c14
+    maximum_draw: 25
+interfaces:
+  - name: gi1/0/1
+    type: 1000base-t
+  - name: gi1/0/2
+    type: 1000base-t
+  - name: gi1/0/3
+    type: 1000base-t
+    description: comboport 1000BASE-T / 1000BASE-X
+  - name: gi1/0/4
+    type: 1000base-t
+    description: comboport 1000BASE-T / 1000BASE-X
