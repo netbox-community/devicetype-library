@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: IE-2000-8TC-B
-part_number: IE-2000-8TC-B
-slug: cisco-ie-2000-8tc-b
+model: IE-3300-8U2X-E
+part_number: IE-3300-8U2X-E
+slug: cisco-ie-3300-8u2x-e
 u_height: 3
 is_full_depth: false
 weight: 2.75
@@ -18,26 +18,26 @@ power-ports:
     maximum_draw: 18
     allocated_draw: 14
 interfaces:
-  - name: FastEthernet1/1
-    type: 1000base-tx
-  - name: FastEthernet1/2
-    type: 1000base-tx
-  - name: FastEthernet1/3
-    type: 1000base-tx
-  - name: FastEthernet1/4
-    type: 1000base-tx
-  - name: FastEthernet1/5
-    type: 1000base-tx
-  - name: FastEthernet1/6
-    type: 1000base-tx
-  - name: FastEthernet1/7
-    type: 1000base-tx
-  - name: FastEthernet1/8
-    type: 1000base-tx
-  - name: FastEthernet1/9
-    type: 1000base-tx
-  - name: FastEthernet1/10
-    type: 1000base-tx
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: TenGigabitEthernet1/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/2
+    type: 10gbase-x-sfpp
 console-ports:
   - name: con 0
     type: rj-45
