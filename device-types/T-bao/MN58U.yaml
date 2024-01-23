@@ -1,0 +1,17 @@
+---
+manufacturer: T-bao
+model: MN58U
+slug: t-bao-mn58u
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 2.5gbase-t
+  - name: wlan0
+    type: ieee802.11ax
+power-ports:
+  - name: PSU
+    type: usb-c
