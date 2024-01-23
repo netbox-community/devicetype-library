@@ -15,8 +15,8 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-  - name: RPS1
-    type: dc-terminal
+  - name: PSU2
+    type: iec-60320-c14
     description: Redundant Power Supply
 interfaces:
   - name: Mgmt-port
