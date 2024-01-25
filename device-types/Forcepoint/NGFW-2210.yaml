@@ -1,8 +1,8 @@
 ---
 manufacturer: Forcepoint
-model: NGFW 2201
-part_number: N2201
-slug: forcepoint-ngfw-2201
+model: NGFW 2210
+part_number: ngfw-2210
+slug: forcepoint-ngfw-2210
 u_height: 1
 is_full_depth: true
 weight: 8.23
@@ -15,12 +15,12 @@ console-ports:
 power-ports:
   - name: Power Supply 1
     type: iec-60320-c14
-    maximum_draw: 94
-    allocated_draw: 80
+    maximum_draw: 140
+    allocated_draw: 115
   - name: Power Supply 2
     type: iec-60320-c14
-    maximum_draw: 94
-    allocated_draw: 80
+    maximum_draw: 140
+    allocated_draw: 115
 interfaces:
   - name: Eth0_0
     type: 1000base-t
@@ -48,6 +48,14 @@ interfaces:
     type: 1000base-t
   - name: Eth0_12
     type: 1000base-t
+  - name: Ethernet0_13
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_14
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_15
+    type: 10gbase-x-sfpp
+  - name: Ethernet0_16
+    type: 10gbase-x-sfpp
   - name: IPMI
     type: 1000base-t
     mgmt_only: true

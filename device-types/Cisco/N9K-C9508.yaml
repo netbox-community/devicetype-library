@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: Nexus 9504
-slug: cisco-n9k-c9504
-part_number: N9K-C9504
+model: Nexus 9508
+slug: cisco-n9k-c9508
+part_number: N9K-C9508
 comments: Cisco Nexus 9508 Chassis / [Cisco Nexus 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-729404.html)
 u_height: 13
 weight: 68.2
@@ -20,6 +20,18 @@ module-bays:
     description: Line Card
   - name: Slot 4
     position: '4'
+    description: Line Card
+  - name: Slot 5
+    position: '5'
+    description: Line Card
+  - name: Slot 6
+    position: '6'
+    description: Line Card
+  - name: Slot 7
+    position: '7'
+    description: Line Card
+  - name: Slot 8
+    position: '8'
     description: Line Card
   - name: SUP 1
     position: '0'
