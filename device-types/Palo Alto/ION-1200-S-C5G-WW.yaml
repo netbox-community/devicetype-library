@@ -1,0 +1,62 @@
+---
+manufacturer: Palo Alto
+model: ION 1200-S-C5G-WW
+slug: palo-alto-ion-1200-s-c5g-ww
+part_number: ION-1200-S-C5G-WW
+u_height: 1
+is_full_depth: false
+weight: 7.85
+weight_unit: lb
+description: Prisma SD-WAN Appliance
+airflow: passive
+comments: '[ION 1200-S Hardware Reference](https://docs.paloaltonetworks.com/hardware/ion-1200-s-hardware-reference/ion-1200-s-overview/ion-1200-s-hardware-specifications)<br>
+[ION 1200-S-C5G-WW Front Panel](https://docs.paloaltonetworks.com/hardware/ion-1200-s-hardware-reference/ion-1200-s-overview/ion-1200-s-c5g-ww-front-panel)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+  - name: PS2
+    type: dc-terminal
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb-console
+    type: usb-micro-b
+interfaces:
+  - name: Port 1
+    type: 1000base-x-sfp
+    description: Dual Personality Port
+  - name: Port 2
+    type: 1000base-x-sfp
+    description: Dual Personality Port
+  - name: Port 3
+    type: 1000base-t
+    description: Hardware bypass group 1
+  - name: Port 4
+    type: 1000base-t
+    description: Hardware bypass group 1
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Cellular1
+    type: lte
+    description: SIM1
+  - name: Cellular2
+    type: lte
+    description: SIM2
