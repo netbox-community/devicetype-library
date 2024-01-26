@@ -5,19 +5,23 @@ slug: cisco-c9500-24y4c-a
 part_number: C9500-24Y4C-A
 u_height: 1
 is_full_depth: true
+weight: 9.52
+weight_unit: kg
 comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
-  - name: PS-0
-    type: iec-60320-c14
-    maximum_draw: 650
-  - name: PS-1
-    type: iec-60320-c14
-    maximum_draw: 650
+module-bays:
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN 1
+  - name: FAN 2
+  - name: FAN 3
+  - name: FAN 4
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
