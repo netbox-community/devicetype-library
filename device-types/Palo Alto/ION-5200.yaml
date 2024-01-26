@@ -1,0 +1,74 @@
+---
+manufacturer: Palo Alto
+model: ION-5200
+slug: palo-alto-ion-5200
+part_number: ION-5200
+u_height: 1
+is_full_depth: false
+weight: 15
+weight_unit: lb
+description: "Prisma SD-WAN Appliance"
+airflow: front-to-rear
+comments: '[ION 5200 Hardware Reference](https://docs.paloaltonetworks.com/hardware/ion-5200-hardware-reference/ion-5200-overview)<br>
+[ION 5200 Front Panel](https://docs.paloaltonetworks.com/hardware/ion-5200-hardware-reference/ion-5200-overview/ion-5200-front-panel)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb-console
+    type: usb-micro-b
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    description: Hardware bypass group 1
+  - name: Port 2
+    type: 1000base-t
+    description: Hardware bypass group 1
+  - name: Port 3
+    type: 1000base-t
+    description: Hardware bypass group 2
+  - name: Port 4
+    type: 1000base-t
+    description: Hardware bypass group 2
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 13
+    type: 10gbase-x-sfpp
+  - name: Port 14
+    type: 10gbase-x-sfpp
+  - name: Port 15
+    type: 10gbase-x-sfpp
+  - name: Port 16
+    type: 10gbase-x-sfpp
+  - name: Port 17
+    type: 1000base-t
+  - name: Port 18
+    type: 1000base-t
+  - name: Port 19
+    type: 1000base-t
