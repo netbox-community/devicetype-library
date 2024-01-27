@@ -1,0 +1,51 @@
+---
+manufacturer: APC
+model: Smart-UPS C 3000VA rack mount LCD 230V
+slug: apc-smart-ups-c-3000va-rack-mount-lcd-230v
+part_number: SMC3000RMI2U
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://www.apc.com/my/en/product/SMC3000RMI2U/smartups-c-3000va-rack-mount-lcd-230v/)'
+weight: 41
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Inlet
+    type: iec-60320-c20
+    maximum_draw: 2100
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: 16A Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+module-bays:
+  - name: SmartSlot
+    position: Rear
