@@ -14,9 +14,7 @@ console-ports:
   - name: Serial
     type: rj-45
 interfaces:
-  - name: 'FC port 1'
+  - name: FC port 1
     type: 8gfc-sfpp
-    enabled: true
-    mgmt_only: false
-    description: 'Interconnect bay port 1'
-    label: 'bay 1'
+#    description: 'Interconnect bay port 1'
+#    label: 'bay 1'
