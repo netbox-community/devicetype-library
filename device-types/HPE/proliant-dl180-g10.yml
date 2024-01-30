@@ -1,14 +1,14 @@
 ---
 manufacturer: HPE
-model: ProLiant DL380 Gen9
-slug: hpe-proliant-dl380-gen9
-u_height: 2
+model: ProLiant DL180 G10
+slug: hpe-proliant-dl180-g10
+u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear
-part_number: 719064-B21
-comments: '[HPE ProLiant DL380 Gen9 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04346247)'
+part_number: 879517-B21
+comments: '[HPE ProLiant DL180 G10 Server QuickSpecs](https://www.hpe.com/psnow/doc/a00021862enw)'
 #minumum weight - one hard drive, power supply and processor installed
-weight: 14.76
+weight: 26.00
 weight_unit: kg
 console-ports:
   - name: Serial
@@ -37,12 +37,10 @@ module-bays:
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
+    mgmt_only: false
   - name: Gig-E 2
     type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
+    mgmt_only: false
   - name: iLO
     type: 1000base-t
     mgmt_only: true
