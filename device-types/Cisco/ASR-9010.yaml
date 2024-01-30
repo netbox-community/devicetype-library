@@ -1,0 +1,61 @@
+---
+manufacturer: Cisco
+model: ASR-9010
+slug: cisco-asr-9010
+part_number: ASR-9010
+u_height: 21
+weight: 70.73
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501767.html)'
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 3000
+  - name: PS3
+    type: iec-60320-c14
+    maximum_draw: 3000
+module-bays:
+  - name: RSP0
+    position: 0/RSP0
+    description: Route Switch Processor 0
+  - name: RSP1
+    position: 0/RSP1
+    description: Route Switch Processor 1
+  - name: LC0
+    label: Line Card 0
+    position: '0'
+  - name: LC1
+    label: Line Card 1
+    position: '1'
+  - name: LC2
+    label: Line Card 2
+    position: '2'
+  - name: LC3
+    label: Line Card 3
+    position: '3'
+  - name: LC4
+    label: Line Card 4
+    position: '4'
+  - name: LC5
+    label: Line Card 5
+    position: '5'
+  - name: LC6
+    label: Line Card 6
+    position: '6'
+  - name: LC7
+    label: Line Card 7
+    position: '7'
+  - name: FAN0
+    position: 0/FT0
+    description: Fan tray
+  - name: FAN1
+    position: 0/FT1
+    description: Fan tray
