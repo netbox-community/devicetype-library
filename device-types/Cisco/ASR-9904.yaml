@@ -24,11 +24,18 @@ power-ports:
     type: iec-60320-c22
     maximum_draw: 3000
 device-bays:
-  - name: Slot 0
-    label: LC 0
-  - name: Slot 1
-    label: RSP 0
-  - name: Slot 2
-    label: RSP 1
-  - name: Slot 3
-    label: LC 1
+  - name: RSP0
+    position: 0/RSP0
+    description: Route Switch Processor 0
+  - name: RSP1
+    position: 0/RSP1
+    description: Route Switch Processor 1
+  - name: LC0
+    label: Line Card 0
+    position: '0'
+  - name: LC1
+    label: Line Card 1
+    position: '1'
+  - name: FAN0
+    position: 0/FT0
+    description: Fan tray
