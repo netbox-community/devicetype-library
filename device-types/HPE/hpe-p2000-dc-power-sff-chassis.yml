@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: HPE P2000 DC-power SFF Chassis
+slug: hpe-p2000-dc-power-sff-chassis
+part_number: AP841B
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 16.3
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 374
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 374
+module-bays:
+  - name: Ctrl A
+    position: A
+  - name: Ctrl B
+    position: B
