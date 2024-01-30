@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: HPE P2000 LFF Modular Smart Array Chassis
+slug: hpe-p2000-lff-modular-smart-array-chassis
+part_number: AP838B
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 15.5
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 432
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 432
+module-bays:
+  - name: Ctrl A
+    position: A
+  - name: Ctrl B
+    position: B
