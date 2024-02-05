@@ -18,6 +18,11 @@ power-ports:
   - name: PS-2
     type: iec-60320-c14
     maximum_draw: 740
+module-bays:
+  - name: Stack-Module-1
+    position: '1'
+  - name: Stack-Module-2
+    position: '2'
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
