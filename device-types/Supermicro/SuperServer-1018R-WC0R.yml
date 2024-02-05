@@ -1,0 +1,26 @@
+---
+manufacturer: Supermicro
+model: SuperServer 1018R-WC0R
+slug: supermicro-superserver-1018r-wc0r
+part_number: SYS-1018R-WC0R
+u_height: 1
+is_full_depth: true
+weight: 11.3
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU 1
+    position: PSU-1
+  - name: PSU 2
+    position: PSU-2
