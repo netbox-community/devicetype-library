@@ -11,14 +11,11 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
-  - name: PS-1
-    type: iec-60320-c14
-    maximum_draw: 600
-  - name: PS-2
-    type: iec-60320-c14
-    maximum_draw: 600
 module-bays:
+  - name: PS-1
+    position: '1'
+  - name: PS-2
+    position: '2'
   - name: Stack-Module-1
     position: '1'
   - name: Stack-Module-2
