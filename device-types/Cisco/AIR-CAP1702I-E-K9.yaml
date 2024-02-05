@@ -15,7 +15,9 @@ interfaces:
     poe_mode: pd
   - name: GigabitEthernet1
     type: 1000base-t
-  - name: WiFi
+  - name: Dot11Radio0
+    type: ieee802.11ac
+  - name: Dot11Radio1
     type: ieee802.11ac
 console-ports:
   - name: console
