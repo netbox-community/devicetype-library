@@ -1,0 +1,10 @@
+---
+manufacturer: Fortinet
+model: 100GE QSFP28
+part_number: FN-TRAN-QSFP28-CWDM4
+description: 100 GE QSFP28 transceivers
+interfaces:
+  - name: '{module}-100ge'
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
