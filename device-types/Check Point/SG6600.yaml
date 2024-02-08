@@ -1,0 +1,152 @@
+---
+manufacturer: Check Point
+model: SG6600
+slug: check-point-sg6600
+default_platform: null
+part_number: CPAP-SG6600-SNBT
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: ''
+comments: ''
+weight: null
+weight_unit: ''
+console-ports:
+- name: ttyS0
+  type: rj-45
+  label: CONSOLE
+  description: ''
+- name: ttyS1
+  type: usb-c
+  label: CONSOLE
+  description: ''
+power-ports:
+- name: PS1
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+- name: PS2
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: Mgmt
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: MGMT
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Sync
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: SYNC
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '1'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '2'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '3'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth4
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '4'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth5
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '5'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth6
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '6'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth7
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '7'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth8
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: '8'
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: lom
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: LOM
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: Line card 1
+  label: ''
+  position: ''
+  description: ''
+---
