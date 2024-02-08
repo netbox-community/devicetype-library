@@ -12,110 +12,110 @@ comments: '[AVM FRITZ!Box 6591 Datasheet](https://avm.de/produkte/fritzbox/fritz
 weight: null
 weight_unit: ''
 power-ports:
-- name: Power
-  type: dc-terminal
-  maximum_draw: 30
-  allocated_draw: null
-  label: ''
-  description: ''
-interfaces:
-- name: CABLE
-  type: docsis
-  enabled: true
-  mgmt_only: false
-  label: CABLE
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: FON1
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: FON 1
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: FON2
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: FON 2
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: FONS0
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: FON S0
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: LAN1
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: LAN 1
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: LAN2
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: LAN 2
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: LAN3
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: LAN 3
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: LAN4
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: LAN 4
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: WAN
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: WAN
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: WiFi
-  type: ieee802.11n
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: null
+    label: ''
+    description: ''
+  interfaces:
+  - name: CABLE
+    type: docsis
+    enabled: true
+    mgmt_only: false
+    label: CABLE
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: FON1
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: FON 1
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: FON2
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: FON 2
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: FONS0
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: FON S0
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: LAN 1
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: LAN 2
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: LAN 3
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN4
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: LAN 4
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: WAN
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: WAN
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: WiFi
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
