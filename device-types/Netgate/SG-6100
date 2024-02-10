@@ -1,0 +1,96 @@
+manufacturer: netgate
+model: SG-6100
+slug: sg-6100
+part_number: ''
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: 'SKU: NETGATE-6100-0000'
+console-ports:
+- name: RJ45 Console Port
+  type: rj-45
+  label: RJ45 Console Port
+  description: ''
+- name: USB Console Port
+  type: usb-micro-b
+  label: USB Console Port
+  description: ''
+power-ports:
+- name: 12V DC in
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: 12V DC in
+  description: ''
+interfaces:
+- name: LAN1
+  type: 2.5gbase-t
+  mgmt_only: false
+  label: LAN1
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN2
+  type: 2.5gbase-t
+  mgmt_only: false
+  label: LAN2
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN3
+  type: 2.5gbase-t
+  mgmt_only: false
+  label: LAN3
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN4
+  type: 2.5gbase-t
+  mgmt_only: false
+  label: LAN4
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN1
+  type: 1000base-t
+  mgmt_only: false
+  label: WAN1
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN1 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: WAN1 SFP
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN2
+  type: 1000base-t
+  mgmt_only: false
+  label: WAN2
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN2 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: WAN2 SFP
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN3
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: WAN3
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN4
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: WAN4
+  description: ''
+  poe_mode: ''
+  poe_type: ''
