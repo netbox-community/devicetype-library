@@ -1,0 +1,69 @@
+manufacturer: netgate
+model: sg-2100
+slug: sg-2100
+part_number: ''
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: ''
+console-ports:
+- name: USB Console Port
+  type: usb-micro-b
+  label: USB Console Port
+  description: ''
+power-ports:
+- name: 12V DC in
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: 12V DC in
+  description: ''
+interfaces:
+- name: LAN1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN3
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN4
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+module-bays:
+- name: Micro-SIM Port
+  label: Micro-SIM Port
+  position: ''
+  description: ''
