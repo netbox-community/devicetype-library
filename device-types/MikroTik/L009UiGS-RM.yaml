@@ -1,19 +1,17 @@
----
-manufacturer: MikroTik
 model: L009UiGS-RM
 slug: mikrotik-l009uigs-rm
 u_height: 0.0
 is_full_depth: false
 airflow: passive
-comments: '[MikroTik L009UiGS-RM Datasheet](https://mikrotik.com/product/l009uigs_rm)'  
+comments: '[MikroTik L009UiGS-RM Datasheet](https://mikrotik.com/product/l009uigs_rm)'
 console-ports:
   - name: serial0
     type: rj-45
 power-ports:
   - name: power1
     type: dc-terminal
-  maximum_draw: 40
-  allocated_draw: 8
+    maximum_draw: 40
+    allocated_draw: 8
 interfaces:
   - name: ether1
     type: 1000base-t
