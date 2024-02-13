@@ -1,0 +1,165 @@
+---
+manufacturer: HPE
+model: ProLiant DL380 Gen10 24SFF
+slug: hpe_dl380_gen10_24sff
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+comments: '##  [HPE ProLiant DL380 Gen10 server 24-SFF] 
+
+### HPE ProLiant DL380 Gen10 - 24 Bay SFF 24x 2.5, Intel Dual Scalable Processor Server
+
+#### Processor type: Intel
+
+#### Processor family : Intel® Xeon® Scalable 8100/8200 series, Intel® Xeon® Scalable 6100/6200 series, Intel® Xeon® Scalable
+
+#### 5100/5200 series, Intel® Xeon® Scalable 4100/4200 series, Intel® Xeon® Scalable 3100/3200 series
+
+#### Processor number : 1 or 2
+
+#### Processor core available : 4 to 28 core, depending on model
+
+#### Processor cache : 8.25 - 38.50 MB L3, depending on processor model
+
+#### Processor speed : 3.9 GHz, maximum depending on processor
+
+#### Expansion slots : 8, for detailed descriptions reference the QuickSpecs
+
+#### Maximum memory  : 3.0 TB with 128 GB DDR4, depending on processor model
+
+##### 				  6.0 TB with HPE 512GB 2666 Persistent Memory Kit, depending on processor model
+
+#### Memory, standard :	3.0 TB (24 X 128 GB) LRDIMM
+
+##### 					6.0 TB (12 X 512 GB) Persistent Memory
+
+#### Memory slots 24 DIMM slots
+
+##### 	Memory type HPE DDR4 Smart Memory with optional Intel® Optane™ persistent memory 100 series for HPE, depending
+
+##### 	on processor model selected. Intel Optane Persistent Memory for HPE only supported on select 2nd
+
+#### 	Generation Intel Scalable Series Processors, to include: 82xx, 62xxR, 62xx, 52xxR, 52xx series processors,
+
+#####	and the 4215R and 4215 processors.
+
+#### System fan features:  Hot-plug redundant fans, standard
+
+#### Network controller : HPE 1 Gb 331i Ethernet adapter 4-ports per controller and/or optional HPE FlexibleLOM, depending on model
+
+#### Storage controller :  1 HPE Smart Array S100i and/or 1 HPE Smart Array P408i-a and/or 1 HPE Smart Array P816i-a and/or 1
+
+#####     HPE Smart Array E208i-a, depending on model
+
+### Product dimensions (imperial) : 17.54 x 28.75 x 3.44 in
+
+### Weight : 32.6 lb
+
+#### Infrastructure management : HPE iLO Standard with Intelligent Provisioning (embedded), HPE OneView Standard (requires download)
+
+##### (standard) HPE iLO Advanced, and HPE OneView Advanced (optional requires licenses
+
+
+<https://www.hpe.com/psnow/doc/PSN1010026818USEN.pdf>
+'
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU1
+  - name: FlexLOM
+    position: FlexLOM
+  - name: PCIe1
+    position: PCIe1
+    label: primary riser
+  - name: PCIe2
+    position: PCIe2
+    label: primary riser
+  - name: PCIe3
+    position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: secondary riser
+  - name: PCIe5
+    position: PCIe5
+    label: secondary riser
+  - name: PCIe6
+    position: PCIe6
+    label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 4
+    type: 1000base-t
+    mgmt_only: false
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'
