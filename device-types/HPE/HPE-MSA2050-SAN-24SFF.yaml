@@ -1,0 +1,192 @@
+---
+manufacturer: HPE
+model: HPE MSA2050 SFF
+slug: hpe_msa2050_sff
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+comments: '##  [HPE MSA 2050 SAN Storage SFF] 
+## HPE MSA 2050 SAN Storage
+ 
+#### Array	
+ 
+###### 	Access Type	:	Block
+ 
+###### 	Form Factor :	2U, SFF or LFF
+ 
+###### 	Number of controllers per array : 2
+ 
+###### 	Number of host ports per array : 8
+ 
+###### 	FC host connectivity : 8/16Gb
+ 
+###### 	iSCSI host connectivity	: 1Gb or 10Gb
+ 
+###### 	SAS host connectivity : 6Gb or 12Gb 
+ 
+###### Cache, per array
+ 
+###### 	Max Read cache per array : 8TB
+ 
+###### 	Data (read/write) cache + system memory per array : 16GB
+ 
+###### 	Pool Capacity (with Large Pool Support) : 562 TB (512 TiB)
+
+###### 	RAID Levels supported: Virtual mode : RAID 0*,1, 5, 6, 10
+
+###### 	Notes: *Read Cache Only
+ 
+#### Enclosures
+ 
+###### 	Expansion Drive Enclosures : 0-7 enclosures
+ 
+###### 	LFF/SFF array/enclosure mixing : Supported
+ 
+###### 	Maximum number of drives per array enclosure : 24 SFF/12 LFF
+ 
+###### 	Maximum number of drives per drive enclosure : 24 SFF/12 LFF
+ 
+###### 	Drive enclosure interface type : 6Gb SAS
+ 
+#### Drives
+ 
+###### 	Maximum total HDDs per array : 192 SFF / 96 LFF
+ 
+###### 	Maximum total SSDs per array : 192 SFF / 96 LFF
+ 
+###### 	Max raw capacity per array enclosure : 76.8 TB SFF / 168TB LFF
+ 
+###### 	Max raw capacity per drive enclosure : 76.8 TB SFF / 168TB LFF
+  
+###### 	Max raw capacity per array : 614.4TB SFF / 1344TB LFF
+ 
+#### Drive Capacities
+  
+###### 	SFF SSDs : 800GB, 960GB, 1.6TB, 1.92TB, 3.2TB
+ 
+###### 	LFF SSDs : 800GB, 960GB, 1.92TB
+ 
+###### 	SFF HDDs : 15K: 600GB, 900GB
+ 
+###### 				10K: 600GB, 1.2TB, 1.8TB, 2.4TB
+ 
+###### 	LFF HDDs : 7.2K: 4TB, 6TB, 8TB, 10TB, 12TB, 14TB
+ 
+#### 	SEDs	:
+ 
+###### 			SSDs: 800GB, 1.6TB
+ 
+###### 			SFF 10K HDD: 1.2TB
+ 
+###### 			LFF 7.2K HDD: 4TB
+
+####  Form factor: Rack 2U)
+
+#####  Height: 42.8mm (1.68”)
+
+#####  Width*: 434mm (17.08”)
+
+#####  Depth*: 714.62mm (28.13”)
+
+#####  Weight: 17.6kg (38.9lbs.)
+
+
+<https://www.hpe.com/psnow/doc/a00008276enw.html?jumpid=in_pdp-psnow-qs>
+
+for NETBOX '
+console-ports:
+  - name: Controll_A Rear USB
+    type: usb-b
+  - name: Controll_B Rear USB
+    type: usb-b
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 800
+module-bays:
+  - name: Controll_A
+    position: Left
+  - name: Controll_B
+    position: Right
+
+interfaces:
+  - name: Controll_A/mgmt
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Controll_A/Port0
+    type: 16gfc-sfpp
+  - name: Controll_A/Port1
+    type: 16gfc-sfpp
+  - name: Controll_A/Port2
+    type: 16gfc-sfpp
+  - name: Controll_A/Port3
+    type: 16gfc-sfpp
+  - name: Controll_B/SAS Out
+    description: MiniSAS HD     
+    type: other    
+  - name: Controll_B/mgmt
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Controll_B/Port0
+    type: 16gfc-sfpp
+  - name: Controll_B/Port1
+    type: 16gfc-sfpp
+  - name: Controll_B/Port2
+    type: 16gfc-sfpp
+  - name: Controll_B/Port3
+    type: 16gfc-sfpp    
+  - name: Controll_B/SAS In
+    description: MiniSAS HD     
+    type: other    
+device-bays:
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-24/SFF
+    description: '2.5" SFF'
