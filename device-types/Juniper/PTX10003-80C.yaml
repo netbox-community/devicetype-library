@@ -18,6 +18,12 @@ module-bays:
   - name: PEM1
     label: PSM 1
     position: PSU1
+  - name: PEM2
+    label: PSM 2
+    position: PSU2
+  - name: PEM3
+    label: PSM 3
+    position: PSU3
 interfaces:
   - name: et-0/0/0
     type: 100gbase-x-qsfp28
