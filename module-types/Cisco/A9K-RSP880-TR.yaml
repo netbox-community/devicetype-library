@@ -1,0 +1,40 @@
+---
+manufacturer: Cisco
+model: A9K-RSP880-TR
+part_number: A9K-RSP880-TR
+comments: '[RSP-880 and RSP880-LT Card Front Panel and Access Ports ](https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/overview-reference/b-asr9k-overview-reference-guide/b-asr9k-overview-reference-guide_chapter_01.html#con_829762)'
+interfaces:
+  - name: MgmtEth0/{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+    comments: Out-of-Band Management Interface
+  - name: MgmtEth0/{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true
+    comments: Out-of-Band Management Interface
+  - name: '{module} External USB2 class-A port'
+    type: other
+    mgmt_only: true
+  - name: '{module} SFP+_00_10GE'
+    type: 10gbase-x-sfpp
+    comments: Virtualization Cluster Port
+    mgmt_only: true
+  - name: '{module} SFP+_01_10GE'
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+    comments: Virtualization Cluster Port
+  - name: '{module} SFP+_02_10GE'
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+    comments: Virtualization Cluster Port
+  - name: '{module} SFP+_03_10GE'
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+    comments: Virtualization Cluster Port
+console-ports:
+  - name: '{module}-con'
+    type: rj-45
+    mgmt_only: true
+  - name: '{module}-aux'
+    type: rj-45
+    mgmt_only: true
