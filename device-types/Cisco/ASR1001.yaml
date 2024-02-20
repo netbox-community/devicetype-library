@@ -5,9 +5,6 @@ slug: cisco-asr1001
 part_number: ASR1001
 u_height: 1
 is_full_depth: true
-airflow: front-to-rear
-weight: 25
-weight_unit: lb
 console-ports:
   - name: Aux0
     type: rj-45
@@ -18,17 +15,7 @@ power-ports:
     type: iec-60320-c14
   - name: PSU1
     type: iec-60320-c14
-module-bays:
-  - name: ASR1001-X-SPA
-    label: SPA
-    position: 0/1
 interfaces:
-  - name: TenGigabitEthernet0/0/0
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet0/0/1
-    type: 10gbase-x-sfpp
-  - name: GigabitEthernet0/0/0
-    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
   - name: GigabitEthernet0/0/1
