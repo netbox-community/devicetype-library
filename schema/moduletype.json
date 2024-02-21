@@ -14,7 +14,7 @@
             "$ref": "reusable.json#/definitions/weight"
         },
         "weight_unit": {
-            "$ref": "generated.json#/definitions/weight-unit"
+            "$ref": "generated_schema.json#/definitions/weight-unit"
         },
         "console-ports": {
             "type": "array",
@@ -57,6 +57,9 @@
             "items": {
                 "$ref": "components.json#/definitions/rear-port"
             }
+        },
+        "description": {
+            "type": "string"
         },
         "comments": {
             "type": "string"

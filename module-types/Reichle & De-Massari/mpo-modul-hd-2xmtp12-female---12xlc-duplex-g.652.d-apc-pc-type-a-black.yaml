@@ -1,0 +1,109 @@
+---
+manufacturer: Reichle & De-Massari
+model: MPO Modul HD, 2xMTP12-female - 12xLC-Duplex, G.652.D, APC/PC, type A, black
+comments: '[Product Website](https://ecatalog.rdm.com/ww/en/product/eCatalog-INT/Fiber-Optics/19-Subrack-Solutions/MPO-MTP-Module-HD-(Type-A)/R515859/MPO-Modul-HD,-2xMTP12-female-12xLC-Duplex,-G.652.D,-APC-PC,-type-A,-black)'
+part_number: R515859
+front-ports:
+  - name: Port/{module}/1.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 1
+  - name: Port/{module}/1.b
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 2
+  - name: Port/{module}/2.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 3
+  - name: Port/{module}/2.b
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 4
+  - name: Port/{module}/3.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 5
+  - name: Port/{module}/3.b
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 6
+  - name: Port/{module}/4.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 7
+  - name: Port/{module}/4.b
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 8
+  - name: Port/{module}/5.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 9
+  - name: Port/{module}/5.b
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 10
+  - name: Port/{module}/6.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 11
+  - name: Port/{module}/6.b
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 12
+  - name: Port/{module}/7.a
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 1
+  - name: Port/{module}/7.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 2
+  - name: Port/{module}/8.a
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 3
+  - name: Port/{module}/8.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 4
+  - name: Port/{module}/9.a
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 5
+  - name: Port/{module}/9.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 6
+  - name: Port/{module}/10.a
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 7
+  - name: Port/{module}/10.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 8
+  - name: Port/{module}/11.a
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 9
+  - name: Port/{module}/11.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 10
+  - name: Port/{module}/12.a
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 11
+  - name: Port/{module}/12.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 12
+rear-ports:
+  - name: Port/{module}/1
+    type: mpo
+    positions: 12
+  - name: Port/{module}/2
+    type: mpo
+    positions: 12
