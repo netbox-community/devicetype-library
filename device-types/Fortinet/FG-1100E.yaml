@@ -4,20 +4,19 @@ model: FortiGate 1100E
 slug: fortinet-fg-1100e
 part_number: FG-1100E
 u_height: 2
+weight: 11.3
+weight_unit: kg
+airflow: front-to-rear
 is_full_depth: false
 comments: Same as FG-1101E , but **WITHOUT** 2 x 480GB SSDs on-board.
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 336
-    allocated_draw: 217
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 336
-    allocated_draw: 217
+    position: '2'
 interfaces:
   - name: ha
     type: 1000base-t
