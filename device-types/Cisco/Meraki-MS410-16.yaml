@@ -2,11 +2,9 @@
 manufacturer: Cisco
 model: Meraki MS410-16
 slug: cisco-meraki-ms410-16
-default_platform: Meraki
-part_number: ''
+part_number: ms410-16
 u_height: 1.0
 is_full_depth: false
-subdevice_role: ''
 airflow: front-to-rear
 comments: '[MS410 Overview and Specifications ](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS410_Overview_and_Specifications)'
 weight: 11.8
@@ -32,7 +30,7 @@ interfaces:
     type: 1000base-x-sfp
   - name: '10'
     type: 1000base-x-sfp
-  - name: '11' 
+  - name: '11'
     type: 1000base-x-sfp
   - name: '12'
     type: 1000base-x-sfp
@@ -43,7 +41,7 @@ interfaces:
   - name: '15'
     type: 1000base-x-sfp
   - name: '16'
-    type: 1000base-x-sfp 
+    type: 1000base-x-sfp
   - name: SPF+ 17
     type: 10gbase-x-sfpp
   - name: SPF+ 18
