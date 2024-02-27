@@ -1,0 +1,38 @@
+---
+manufacturer: iXsystems
+model: TrueNAS Mini R
+slug: ixsystems-truenas-mini-r
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+airflow: front-to-rear
+comments: '[Basic Setup Guide](https://www.truenas.com/docs/files/MiniRBSG1.0.pdf)'
+weight: 18.7
+weight_unit: lb
+console-ports:
+  - name: VGA
+    type: other
+  - name: USB 2.0 - 1
+    type: usb-a
+  - name: USB 2.0 - 2
+    type: usb-a
+  - name: USB 3.0 - 1
+    type: usb-a
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 167
+    allocated_draw: 167
+interfaces:
+  - name: MGMT
+    label: 1Gb MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: ix0
+    type: 10gbase-t
+  - name: ix1
+    type: 10gbase-t
+module-bays:
+  - name: PCIe-1
+    position: PCIe-1
