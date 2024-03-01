@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: Aironet 2802I-B
-slug: cisco-air-ap2802i-b-k9
-part_number: AIR-AP2802I-B-K9
+model: Aironet 2802I-E
+slug: cisco-air-ap2802i-e-k9
+part_number: AIR-AP2802I-E-K9
 comments: '[Cisco Aironet 2800 Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-2800-series-access-points/datasheet-c78-736497.html#Productspecifications)'
 u_height: 0
 is_full_depth: false
@@ -16,6 +16,8 @@ interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
     poe_mode: pd
+  - name: LAN1
+    type: 1000base-t
 console-ports:
   - name: console
     type: rj-45
