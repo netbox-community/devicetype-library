@@ -4,7 +4,7 @@ model: 7750 SR-2se 72QSFPDD-800
 slug: nokia-7750-sr-2se-72qsfpdd-800
 part_number: 3HE18029AA
 u_height: 5
-is_full_depth: true  # 8.67"
+is_full_depth: true  # 31.6"
 weight: 225
 weight_unit: lb
 front_image: true
@@ -16,9 +16,6 @@ console-ports:
   - name: USB
     type: usb-a
 interfaces:
-  - name: mgmt0
-    type: 1000base-t
-    mgmt_only: true
   - name: ethernet-1/1
     type: 800gbase-x-qsfpdd
   - name: ethernet-1/2
@@ -169,7 +166,7 @@ module-bays:
   - name: PS2
     position: '2'
   - name: PS3
-    position: '2'
+    position: '3'
   - name: Fan Tray 1
     position: '1'
   - name: Fan Tray 2
@@ -178,5 +175,7 @@ module-bays:
     position: '3'
   - name: Fan Tray 4
     position: '4'
-  - name: Fan Tray 5
-    position: '5'
+  - name: CPM 1
+    position: '1'
+  - name: CPM 2
+    position: '2'
