@@ -4,9 +4,9 @@ model: CPM-7750-SR-2SE
 part_number: 3HE16469AA
 comments: 'CPM-2se control processor module for 7750 SR-2SE [Datasheet](https://documentation.nokia.com/aces/cgi-bin/dbaccessfilename.cgi/3HE19810AAAATQZZA01_V1_7750%20SR-2se%20Chassis%20Installation%20Guide%2023.7.pdf)'
 console-ports:
-  - name: Console
+  - name: '{module}/Console'
     type: rj-45
-  - name: USB
+  - name: '{module}/USB'
     type: usb-a
 interfaces:
   - name: '{module}/A'
