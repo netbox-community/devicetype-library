@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: HPE MSA 2040 LFF Disk Enclosure
+slug: hpe-msa-2040-lff-disk-enclosure
+part_number: C8R18A
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 14
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 432
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 432
+module-bays:
+  - name: Ctrl A
+    position: A
+  - name: Ctrl B
+    position: B

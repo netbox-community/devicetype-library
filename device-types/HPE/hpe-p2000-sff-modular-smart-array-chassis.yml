@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: HPE P2000 SFF Modular Smart Array Chassis
+slug: hpe-p2000-sff-modular-smart-array-chassis
+part_number: AP839B
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 14.7
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 374
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 374
+module-bays:
+  - name: Ctrl A
+    position: A
+  - name: Ctrl B
+    position: B
