@@ -1,0 +1,19 @@
+---
+manufacturer: Teltonika
+model: TRB500
+slug: teltonika-trb500
+part_number: TRB500
+u_height: 0.5
+is_full_depth: false
+weight: 241
+weight_unit: g
+comments: '[TRB500 Specs](https://teltonika-networks.com/cdn/products/2023/01/63b7fe75556997-52780239/datasheet/trb500-datasheet-2023-v16.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 6
+interfaces:
+  - name: lan
+    type: 1000base-t
+  - name: mob1s1a1
+    type: lte
