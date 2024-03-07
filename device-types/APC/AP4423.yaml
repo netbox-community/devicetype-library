@@ -1,45 +1,59 @@
 ---
 manufacturer: APC
-model: AP7921
-slug: apc-ap7921
-part_number: AP7921
+model: AP4423
+slug: apc-ap4423
+part_number: AP4423
 u_height: 1
-weight: 2.27
-weight_unit: kg
 is_full_depth: false
-comments: APC NetShelter Switched Rack PDU, 1U, 1PH, 3.7kW 230V 16A or 3.3kW 208V 16A, 8 C13 outlets, C20 cord
+weight: 3.74
+weight_unit: kg
+comments: Rack ATS - 20A/208V - 16A/230V - C20 in - (8) C13 (1) C19 out
 console-ports:
   - name: Serial
     type: rj-12
 power-ports:
   - name: Power Port 1
     type: iec-60320-c20
+  - name: Power Port 2
+    type: iec-60320-c20
 power-outlets:
   - name: Outlet 1
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 2
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 3
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 4
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 5
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 6
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 7
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
   - name: Outlet 8
     type: iec-60320-c13
     power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 9
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
 interfaces:
-  - name: Ethernet
+  - name: Network
     type: 100base-tx
     mgmt_only: true
