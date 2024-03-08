@@ -1,0 +1,37 @@
+---
+manufacturer: Tripp Lite
+model: Tripp Lite B051-000
+slug: tripp-lite-b051-000
+part_number: B051-000
+u_height: 0.0
+is_full_depth: false
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b051000.pdf)'
+weight: 1.08
+weight_unit: lb
+console-ports:
+  - name: LUC (Local USB Console) Port
+    type: usb-mini-b
+    label: LUC
+  - name: PS/2-USB Console
+    type: other
+    label: PS/2-USB Console
+    description: A VGA monitor and USB or PS/2 keyboard/mouse connect to the cable kit.
+  - name: Serial Port
+    type: de-9
+    label: RS-232
+    description: RS-232 Serial Port.
+console-server-ports:
+  - name: PC/KVM
+    type: other
+    label: PC/KVM
+    description: Connects a computer or KVM to the unit.
+power-ports:
+  - name: DC Jack
+    type: dc-terminal
+    maximum_draw: 13
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: LAN
