@@ -3,28 +3,31 @@ manufacturer: Server Technology
 model: PRO3X-C3WG36RL-DQJE2NT2
 slug: server-technology-pro3x-c3wg36rl-dqje2nt2
 part_number: PRO3X-C3WG36RL-DQJE2NT2
-u_height: 1
+u_height: 0
 is_full_depth: False
 airflow: passive
-comments: PRO3 Switched, Per-Outlet & Per-Inlet Power Sensing, 60A, 208V, (18) C13 & (18) Cx/C19/C13 "https://www.servertech.com/power-distribution-unit-pdu/switched-pops-pdu/0u-vertical-3G06/c3wg36rl-dqje2mt2"
+comments: PRO3 Switched, Per-Outlet & Per-Inlet Power Sensing, 60A, 208V, (18) C13 & (18) Cx/C19/C13
 console-ports:
   - name: console/modem
     label: SER
     type: rj-45
+    poe: False
   - name: sensor
     label: SENSOR
     type: rj-45
+    poe: False
   - name: usb-a
     label: USB-A
     type: usb-a
+    poe: False
   - name: usb-B
     label: USB-B
     type: usb-b
+    poe: False
 console-server-ports:
   - name: aux
     label: AUX
     type: rj-12
-    poe: true
 power-ports:
   - name: Power Port 1
     type: iec-60309-3p-e-9h
@@ -182,4 +185,3 @@ interfaces:
     label: ETH2
     type: 1000base-t
     mgmt_only: true
-...
