@@ -1,10 +1,10 @@
 ---
 manufacturer: Cisco
-model: ASR-9006
-slug: cisco-asr-9006
-part_number: ASR-9006
-u_height: 10
-weight: 40.7
+model: ASR-9010
+slug: cisco-asr-9010
+part_number: ASR-9010
+u_height: 21
+weight: 70.73
 weight_unit: kg
 airflow: front-to-rear
 is_full_depth: true
@@ -41,6 +41,18 @@ module-bays:
   - name: LC3
     label: Line Card 3
     position: '3'
+  - name: LC4
+    label: Line Card 4
+    position: '4'
+  - name: LC5
+    label: Line Card 5
+    position: '5'
+  - name: LC6
+    label: Line Card 6
+    position: '6'
+  - name: LC7
+    label: Line Card 7
+    position: '7'
   - name: FAN0
     position: 0/FT0
     description: Fan tray
