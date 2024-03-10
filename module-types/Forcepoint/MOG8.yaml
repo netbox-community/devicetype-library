@@ -1,0 +1,37 @@
+---
+manufacturer: Forcepoint
+model: Forcepoint 8 Port Gigabit Ethernet RJ45 Module
+part_number: MOG8
+interfaces:
+  - name: eth{module}_0
+    label: '0'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_1
+    label: '1'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_2
+    label: '2'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_3
+    label: '3'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_4
+    label: '4'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_5
+    label: '5'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_6
+    label: '6'
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth{module}_7
+    label: '7'
+    type: 1000base-t
+    mgmt_only: false

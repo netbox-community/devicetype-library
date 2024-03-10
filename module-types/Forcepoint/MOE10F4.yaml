@@ -1,0 +1,21 @@
+---
+manufacturer: Forcepoint
+model: Forcepoint 4 port 10 Gigabit Ethernet SFP+ Module
+part_number: MOE10F4
+interfaces:
+  - name: eth{module}_0
+    label: '0'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: eth{module}_1
+    label: '1'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: eth{module}_2
+    label: '2'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: eth{module}_3
+    label: '3'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
