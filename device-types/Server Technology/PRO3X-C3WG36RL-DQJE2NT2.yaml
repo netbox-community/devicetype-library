@@ -4,26 +4,26 @@ model: PRO3X-C3WG36RL-DQJE2NT2
 slug: server-technology-pro3x-c3wg36rl-dqje2nt2
 part_number: PRO3X-C3WG36RL-DQJE2NT2
 u_height: 0
-is_full_depth: False
+is_full_depth: false
 airflow: passive
 comments: PRO3 Switched, Per-Outlet & Per-Inlet Power Sensing, 60A, 208V, (18) C13 & (18) Cx/C19/C13
 console-ports:
   - name: console/modem
     label: SER
     type: rj-45
-    poe: False
+    poe: false
   - name: sensor
     label: SENSOR
     type: rj-45
-    poe: False
+    poe: false
   - name: usb-a
     label: USB-A
     type: usb-a
-    poe: False
+    poe: false
   - name: usb-B
     label: USB-B
     type: usb-b
-    poe: False
+    poe: false
 console-server-ports:
   - name: aux
     label: AUX
