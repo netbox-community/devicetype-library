@@ -8,5 +8,5 @@ console-ports:
   - name: com1{module}
     type: rj-45
 interfaces:
-  - name: mgmt0
+  - name: mgmt0-{module}
     type: 1000base-t
