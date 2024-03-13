@@ -1,0 +1,118 @@
+---
+manufacturer: Generic
+model: ST-24-port Fiber Patch Panel Rear x2 Splice
+slug: generic-st-24-port-fiber-patch-panel-rear-x2-splice
+u_height: 1
+is_full_depth: true
+airflow: passive
+is_powered: false
+front-ports:
+  - name: 1-Rx1
+    type: st
+    rear_port: splice 1
+    rear_port_position: 1
+  - name: 1-Tx1
+    type: st
+    rear_port: splice 1
+    rear_port_position: 2
+  - name: 2-Rx2
+    type: st
+    rear_port: splice 1
+    rear_port_position: 3
+  - name: 2-Tx2
+    type: st
+    rear_port: splice 1
+    rear_port_position: 4
+  - name: 3-Rx3
+    type: st
+    rear_port: splice 1
+    rear_port_position: 5
+  - name: 3-Tx3
+    type: st
+    rear_port: splice 1
+    rear_port_position: 6
+  - name: 4-Rx4
+    type: st
+    rear_port: splice 1
+    rear_port_position: 7
+  - name: 4-Tx4
+    type: st
+    rear_port: splice 1
+    rear_port_position: 8
+  - name: 5-Rx5
+    type: st
+    rear_port: splice 1
+    rear_port_position: 9
+  - name: 5-Tx5
+    type: st
+    rear_port: splice 1
+    rear_port_position: 10
+  - name: 6-Rx6
+    type: st
+    rear_port: splice 1
+    rear_port_position: 11
+  - name: 6-Tx6
+    type: st
+    rear_port: splice 1
+    rear_port_position: 12
+  - name: 7-Rx7
+    type: st
+    rear_port: splice 2
+    rear_port_position: 1
+  - name: 7-Tx7
+    type: st
+    rear_port: splice 2
+    rear_port_position: 2
+  - name: 8-Rx8
+    type: st
+    rear_port: splice 2
+    rear_port_position: 3
+  - name: 8-Tx8
+    type: st
+    rear_port: splice 2
+    rear_port_position: 4
+  - name: 9-Rx9
+    type: st
+    rear_port: splice 2
+    rear_port_position: 5
+  - name: 9-Tx9
+    type: st
+    rear_port: splice 2
+    rear_port_position: 6
+  - name: 10-Rx10
+    type: st
+    rear_port: splice 2
+    rear_port_position: 7
+  - name: 10-Tx10
+    type: st
+    rear_port: splice 2
+    rear_port_position: 8
+  - name: 11-Rx11
+    type: st
+    rear_port: splice 2
+    rear_port_position: 9
+  - name: 11-Tx11
+    type: st
+    rear_port: splice 2
+    rear_port_position: 10
+  - name: 12-Rx12
+    type: st
+    rear_port: splice 2
+    rear_port_position: 11
+  - name: 12-Tx12
+    type: st
+    rear_port: splice 2
+    rear_port_position: 12
+rear-ports:
+- name: splice 1
+  type: splice
+  color: ''
+  positions: 12
+  label: ''
+  description: ''
+- name: splice 2
+  type: splice
+  color: ''
+  positions: 12
+  label: ''
+  description: ''
