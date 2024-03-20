@@ -1,0 +1,44 @@
+---
+manufacturer: Cisco
+model: CBS350-12XS
+slug: cisco-cbs350-12xs
+part_number: CBS350-12XS
+comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: Vlan1
+    type: virtual
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 24
