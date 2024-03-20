@@ -4,4 +4,42 @@ model: MX480
 slug: mx480
 u_height: 8
 is_full_depth: true
-comments: '[Juniper MX480 Data Sheet](https://www.juniper.net/us/en/products-services/routing/mx-series/mx480/)'
+subdevice_role: parent
+comments: '[Juniper MX480 Data Sheet]
+
+
+(https://www.juniper.net/us/en/products-services/routing/mx-series/mx480/) '
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 1200
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 1200
+  - name: PS3
+    type: iec-60320-c20
+    maximum_draw: 1200
+  - name: PS4
+    type: iec-60320-c20
+    maximum_draw: 1200
+device-bays:
+  - name: CRAFT-MX480-S
+  - description: 
+  - name: slot-0
+  - description: DPC5
+  - name: slot-1
+  - description: DPC4
+  - name: slot-2
+  - description: DPC3
+  - name: slot-3
+  - description: DPC2
+  - name: slot-4
+  - description: DPC1 
+  - name: slot-5
+  - description: SCB1
+  - name: slot-6
+  - description: SCB0
+  
