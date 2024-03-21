@@ -1,0 +1,348 @@
+---
+manufacturer: Dell
+model: PowerEdge R940XA
+slug: dell_poweredge_r940ax
+u_height: 4
+is_full_depth: true
+subdevice_role: parent
+comments: '## [Dell PowerEdge R940AX] 
+
+##      Dell PowerEdge R940xa
+
+###     General Server Details:
+
+######  Product Class: Server
+
+####     Dell Server Generation: 14th
+
+######  Server Model: R940xa
+
+######  Server Type: Rack
+
+######  CPU: Up to 4 x Intel Xeon SP Multi Core
+
+######  Memory: 48 DIMM Slots (Max 6TB)
+
+######  RAID: HBA330, PERC H330, PERC H730P 2GB NV, PERC H740P 8GB NV
+
+######  HDD: 2.5" Hot Swap SAS, SATA and Near Line SAS, NVMe SSD
+
+######  Power Supply: 1100W, 1600W, 2000w, and 2400W Hot Swap Redundant
+
+######  Riser: Up to 13 PCIe Slots (Gen 3 slots, 3 x8 + 10 x16 bandwidth)
+
+
+###     Base: PowerEdge R940xa Server
+
+###     Processor:
+
+######  Up to four 2nd Generation Intel® Xeon® Scalable processors, up to 28 cores each
+
+###     Memory:
+
+######  48 DDR4 DIMM slots, Supports RDIMM /LRDIMM, up to 2933MT/s, 6TB max
+
+######  Up to 12 NVDIMM, 384GB Max
+
+######  Up to 24 Intel® Optane™ DC persistent memory DCPMM, max 12.28TB, (15.36TB max with DCPMM and LRDIMM)
+
+######  Supports registered ECC DDR4 DIMMs only
+
+###     Storage Controllers:
+
+######  Internal Controllers: PERC H730P, H740P, H330 Software RAID (SWRAID) S140
+
+######  Boot Optimized Storage Subsystem: HWRAID 2 x M.2 SSDs 240GB or 480GB
+
+######  External PERC (RAID): H840
+
+######  12Gbps SAS HBAs (non-RAID): External-12Gbps SAS HBA (non-RAID). Internal-HBA330 (non-RAID)
+
+###     Drive Bays:
+
+######  Front drive bays: Up to 8x 2.5” SAS SATA (HDD/SSD) max 61.44TB, or 
+
+######  up 24 x 2.5” SAS/SATA (HDD/SSD) max 184.32TB, 
+
+######  up to 32 SAS/SATA (HDD/SSD) with up to 4 NVME PCIe SSD max 245.76TB
+
+###     Accelerator Options:
+
+######  Up to 4 doublewidth GPUs or up to 4 double-width
+
+######  or 8 single-width full-height FPGAs
+
+###     Power Supplies:
+
+######  Gold 1100W -48VDC
+
+######  Platinum: 1100W, 1100W 240VDC
+
+######  1600W, 2000W, 2400W
+
+######  Hot plug power supplies with full redundancy option
+
+######  6 hot plugs fans with N +1 redundancy
+
+###     Dimensions:
+
+######  Form Factor: 4U Rack Server
+
+######  Height: 174.3 mm (6.87”)
+
+######  Width: 441.16 mm (17.37”)
+
+######  Depth: 835.9mm (32.9”)
+
+######  Weight: 56.0kg (123.5lbs.)
+
+
+###     Security:
+
+######  TPM 1.2/2.0 optional
+
+######  Cryptographically signed firmware
+
+######  Secure Boot
+
+######  System Lockdown (requires OpenManage Enterprise
+
+######  Silicon Root of Trust
+
+######  Secure Erase
+
+###     I/O & Ports:
+
+######  Network Daughter Card Options
+
+######  4 x 1GbE, 4 x 10GbE, 2 x 10GbE+2 x 1GbE, or 2 x 25GbE
+
+######  Front ports: 1 x Dedicated iDRAC Direct Micro-USB, 2 x USB 2.0, 1 x VGA. (Optional 1 x USB 3.0 only offered on the 8-drive configuration)
+
+######  Rear ports: 1 x Dedicated iDRAC port, 1 x Serial, 2 x USB 3.0, 1 x VGA
+
+######  Internal port: 1 x USB 3.0
+
+######  Video card: 2 x VGA
+
+######  PCIe: Up to 12 x Gen3 slots, (6x16 or 2x16 + 10x8 slots)
+
+###     Supported Operating Systems:
+
+######  Canonical® Ubuntu® LTS
+
+######  Citrix® Hypervisor
+
+######  Oracle® Linux
+
+######  Microsoft Windows Server® LTSC with Hyper-V
+
+######  Red Hat® Enterprise Linux
+
+######  SUSE® Linux Enterprise Server
+
+######  VMware® ESXi
+
+
+###     Tools:
+
+######  Dell EMC Repository Manager
+
+######  Dell EMC Update Package
+
+######  Dell EMC System Update
+
+######  Dell EMC Server Update Utility
+
+######  iDRAC Service Module
+
+######  OpenManage Server Administrator
+
+######  OpenManage Storage Services
+
+###     Embedded Management:
+
+######  iDRAC9
+
+######  iDRAC Direct
+
+######  iDRAC RESTful API with Redfish
+
+######  Quick Sync 2 BLE/wireless
+
+###     Bezel: Optional LCD bezel or security bezel
+
+###     OpenManage™ Software:
+
+######  OpenManage Enterprise
+
+######  OpenManage Essentials
+
+######  OpenManage Mobile
+
+######  OpenManage Power Center
+
+###     Integrations:
+
+######  Microsoft® System Center,
+
+######  VMware® vCenter™,
+
+######  BMC Truesight,
+
+######  Red Hat® Ansible® Modules
+
+###     Connections:
+
+######  Nagios Core & Nagios XI
+
+######  Microfocus Operations Manager I
+
+######  IBM Tivoli Netcool/OMNIbus
+
+<https://dl.dell.com/content/manual34696301-dell-emc-poweredge-r940xa-installation-and-service-manual.pdf?language=en-us>
+
+<https://dl.dell.com/content/manual33684963-dell-emc-poweredge-r940xa-technical-specifications.pdf?language=en-us> 
+
+for NETBOX '
+console-ports:
+  - name: Optional Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Internal USB1
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-micro-ab
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU1
+    position: 1
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PSU2
+    position: 2
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PSU3
+    position: 3
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PSU4
+    position: 4
+    type: iec-60320-c20
+    maximum_draw: 2400
+interfaces:
+  - name: NDC-0
+    type: 1000base-t
+  - name: NDC-1
+    type: 1000base-t
+  - name: NDC-2
+    type: 1000base-t
+  - name: NDC-3
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: TPM Optional
+    description: TPM 2.0 Support
+  - name: PERC
+    description: ' PERC H330, H730P, H740P, HBA330'
+  - name: Optional NDC NIC
+  - name: Optional BOSS-N1 Removed
+  - name: SLOT-1 PCIe-GEN3 x8 
+    lable: Riser1
+  - name: SLOT-2 PCIe-GEN3 x16 
+    lable: Riser1
+  - name: SLOT-3 PCIe-GEN3 x16 
+    lable: Riser1
+  - name: SLOT-4 PCIe-GEN3 x16
+    lable: Riser1
+  - name: SLOT-5 PCIe-GEN3 x8 
+    lable: Riser1
+  - name: SLOT-6 PCIe-GEN3 x8 
+    lable: Baseboard
+  - name: SLOT-7 PCIe GEN3 x16
+    lable: Baseboard
+  - name: SLOT-8 PCIe-GEN3 Optional
+    lable: Riser2
+  - name: SLOT-9 PCIe-GEN3 Optional
+    lable: Riser2
+  - name: SLOT-10 PCIe-GEN3 Optional
+    lable: Riser2
+  - name: SLOT-11 PCIe-GEN3 Optional
+    lable: Riser3
+  - name: SLOT-12 PCIe-GEN3 Optional
+    lable: Riser3
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-24/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-25/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-26/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-27/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-28/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-29/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-30/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-31/SFF
+    description: '2.5" SFF'  

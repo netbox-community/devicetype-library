@@ -2,7 +2,7 @@
 manufacturer: Dell
 model: PowerEdge R940
 slug: dell_poweredge_r940
-u_height: 3
+u_height: 4
 is_full_depth: true
 subdevice_role: parent
 comments: '## [Dell PowerEdge R940] 
@@ -228,31 +228,31 @@ device-bays:
     description: ' PERC H330, H730P, H740P, HBA330'
   - name: Optional NDC NIC
   - name: Optional BOSS-N1 Removed
-  - name: SLOT-1 PCIe GEN3 x8 
+  - name: SLOT-1 PCIe-GEN3 x8 
     lable: Baseboard-CPU1
-  - name: SLOT-2 PCIe GEN3 x16 
+  - name: SLOT-2 PCIe-GEN3 x16 
     lable: Baseboard-CPU1
-  - name: SLOT-3 PCIe GEN3 x16 
+  - name: SLOT-3 PCIe-GEN3 x16 
     lable: Baseboard-CPU1
-  - name: SLOT-4 PCIe GEN3 x16
+  - name: SLOT-4 PCIe-GEN3 x16
     lable: Baseboard-CPU2
-  - name: SLOT-5 PCIe GEN3 x8 
+  - name: SLOT-5 PCIe-GEN3 x8 
     lable: Baseboard-CPU2
-  - name: SLOT-6 PCIe GEN3 x8 
+  - name: SLOT-6 PCIe-GEN3 x8 
     lable: Baseboard-CPU2
-  - name: SLOT-7 PCIe GEN3 x16
+  - name: SLOT-7 PCIe-GEN3 x16
     lable: Baseboard-CPU2
-  - name: SLOT-8 PCIe-Gen4-1 Optional
+  - name: SLOT-8 PCIe-GEN3 Optional
     lable: Riser2-CPU3
-  - name: SLOT-9 PCIe-Gen4-2 Optional
+  - name: SLOT-9 PCIe-GEN3 Optional
     lable: Riser2-CPU3
-  - name: SLOT-10 PCIe-Gen4-3 Optional
+  - name: SLOT-10 PCIe-GEN3 Optional
     lable: Riser2-CPU3
-  - name: SLOT-11 PCIe-Gen4-4 Optional
+  - name: SLOT-11 PCIe-GEN3 Optional
     lable: Riser3-CPU4
-  - name: SLOT-12 PCIe-Gen4-5 Optional
+  - name: SLOT-12 PCIe-GEN3 Optional
     lable: Riser3-CPU4
-  - name: SLOT-13 PCIe-Gen4-6 Optional
+  - name: SLOT-13 PCIe-GEN3 Optional
     lable: Riser3-CPU4
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
