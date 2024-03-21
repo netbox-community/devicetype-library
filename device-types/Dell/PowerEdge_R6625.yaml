@@ -5,6 +5,9 @@ slug: dell_poweredge_r6625
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R6625] 
 
 ### CPU(s): Up to two AMD EPYC 4th Gen 9004 Series with up to 96 cores per processor
@@ -266,12 +269,13 @@ interfaces:
 module-bays:
   - name: Optional BOSS-S2 Removed
   - name: Optional OCP NIC/LOM
-  - name: PCIe-Gen5 SLOT-1
+  - name: SLOT-1 PCIe-Gen5 
     lable: Riser2
-  - name: Optional PCIe-Gen5 SLOT-2
+  - name: SLOT-2 PCIe-Gen5
     lable: Riser2
-  - name: Optional PCIe-Gen5 SLOT-3
+  - name: SLOT-3 PCIe-Gen5
     lable: Riser3
+device-bays:    
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

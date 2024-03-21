@@ -5,6 +5,9 @@ slug: dell_poweredge_r750xa
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 65.0
+weight_unit: lb
 comments: '## [Dell EMC PowerEdge R750xa ] 
 
 
@@ -113,7 +116,6 @@ module-bays:
   - name: PERC
     description: 'PERC H745, HBA355I, S150, H345, H755, H755N'
   - name: BOSS-2 Removed Optional    
-device-bays:
   - name: SLOT-1 PCIe-Gen4
     lable: Riser1
   - name: SLOT-2 PCIe-Gen4
@@ -128,6 +130,7 @@ device-bays:
     lable: Riser4
   - name: SLOT-7 PCIe-Gen4
     lable: Riser4
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

@@ -5,7 +5,35 @@ slug: dell_poweredge_r6515-4lff
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
-comments: '[Dell PowerEdge R6515 4x3.5" LFF/Dell 3rd Generation AMD EPYC] <https://dl.dell.com/content/manual36026131-dell-emc-poweredge-r6515-installation-and-service-manual.pdf?language=en-us&ps=true> '
+airflow: front-to-rear
+weight: 37.0
+weight_unit: lb
+comments: '[Dell PowerEdge R6515 4x3.5" LFF/Dell 3rd Generation AMD EPYC]
+
+###     Product Class: Server
+
+######  Dell Server Generation: 15th
+
+######  Server Model: R6515
+
+######  Server Type: Rack
+
+######  CPU: One 2nd or 3rd Generation AMD EPYC Processor with up to 64 cores
+
+######  Memory: 16 DIMM Slots (Max 2TB)
+
+######  RAID: PERC 9/10 - HBA330, H330, H730P, H740P
+
+######  HDD: 2.5" or 3.5" Hot Swap SATA/SAS/NVMe
+
+######  Power Supply: 550W Platinum
+
+######  Riser: Up to 2 PCIe Slots (1 Gen 3 slots 1x16, 1 gen 4 slot 1x16 bandwidth)
+
+
+ <https://dl.dell.com/content/manual36026131-dell-emc-poweredge-r6515-installation-and-service-manual.pdf?language=en-us&ps=true> 
+ 
+ '
 console-ports:
   - name: Front VGA
     type: other
@@ -16,7 +44,7 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
-    type: usb-mini-b
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -25,8 +53,6 @@ console-ports:
     type: other
   - name: Internal VFLASH
     type: other
-  - name: Internal TPM
-    type: other 
 power-ports:
   - name: PSU2
     position: 'Left'
@@ -50,18 +76,19 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM
     description: TPM 2.0 Support
   - name: PERC
-    description: 'PERC H740P, H730P'
-  - name: LOM2 Optional 
-  - name: BOSS-1 Optional
+    description: 'PERC H730P, H740P, H330'
+  - name: LOM2
+  - name: BOSS-N1 Removed
     description: "2 X M.2 Sticks/size=240GB, 480GB"
-  - name: SLOT-1/PCIe-Gen4-1
+  - name: SLOT-1 PCIe-Gen3
     lable: 'Riser1'
-  - name: SLOT-2/PCIe-Gen4-2
+  - name: SLOT-2 PCIe-Gen4
     lable: 'Riser2'
+device-bays:
   - name: Drive bay-0
     description: '3.5" LFF'
   - name: Drive bay-1

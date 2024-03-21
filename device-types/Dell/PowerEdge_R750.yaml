@@ -5,6 +5,9 @@ slug: dell_poweredge_r750
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 65.0
+weight_unit: lb
 comments: '## [Dell EMC PowerEdge R750 ] 
 
 
@@ -107,29 +110,27 @@ module-bays:
     description:  GbE x 4, 10 GbE x 2, 10 GbE x 4, 25 GbE x 2, 25 GbE x 4
     position: OCP-1
   - name: BOSS-2 Removed
-  - name: Universal Media Bay Option
+  - name: Universal Media Bay 
     description:  DVD ROM, SATA orDVD+/-RW,SATA
   - name: TPM
     description: TPM 2.0 Support
   - name: PERC
     description: 'PERC H840, HBA355E'
+  - name: SLOT-1 PCIe-Gen4
+    lable: Riser1
+  - name: SLOT-2 PCIe-Gen4
+    lable: Riser1
+  - name: SLOT-3 CIe-Gen4
+    lable: Riser2
+  - name: SLOT-4 PCIe-Gen4
+    lable: Riser3
+  - name: SLOT-5 PCIe-Gen4
+    lable: Riser3
+  - name: SLOT-6 PCIe-Gen4
+    lable: Riser6
+  - name: SLOT-7 PCIe-Gen4
+    lable: Riser4
 device-bays:
-  - name: SLOT-1 PCIe-Gen4 1
-    lable: Riser1
-  - name: SLOT-1 PCIe-Gen4 2
-    lable: Riser1
-  - name: SLOT-1 CIe-Gen4 3
-    lable: Riser2
-  - name: SLOT-1 PCIe-Gen4 4
-    lable: Riser3
-  - name: SLOT-1 PCIe-Gen4 5
-    lable: Riser3
-  - name: Optional PCIe-Gen4 6
-    lable: Riser2
-  - name: Optional PCIe-Gen4 7
-    lable: Riser4
-  - name: Optional PCIe-Gen4 8
-    lable: Riser4
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

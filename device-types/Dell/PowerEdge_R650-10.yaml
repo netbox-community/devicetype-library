@@ -6,6 +6,9 @@ part_number: PER650-10
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R650 10x2.5"-SFF/Dell 15th Gen] 
 
 
@@ -138,6 +141,8 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
   - name: PERC
     description: 'PERC H745, H345, HBA355I, H755, H755N'
   - name: BOSS-2 Removed Optional

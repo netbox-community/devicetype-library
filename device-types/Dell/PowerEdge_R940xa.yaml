@@ -5,6 +5,9 @@ slug: dell_poweredge_r940ax
 u_height: 4
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 124.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R940AX] 
 
 ##      Dell PowerEdge R940xa
@@ -251,13 +254,13 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
-  - name: TPM Optional
+module-bays:
+  - name: TPM
     description: TPM 2.0 Support
   - name: PERC
-    description: ' PERC H330, H730P, H740P, HBA330'
-  - name: Optional NDC NIC
-  - name: Optional BOSS-N1 Removed
+    description: 'PERC H730P, H740P, H330'
+  - name: NDC NIC
+  - name: BOSS-N1 Removed    
   - name: SLOT-1 PCIe-GEN3 x8 
     lable: Riser1
   - name: SLOT-2 PCIe-GEN3 x16 
@@ -281,7 +284,8 @@ device-bays:
   - name: SLOT-11 PCIe-GEN3 Optional
     lable: Riser3
   - name: SLOT-12 PCIe-GEN3 Optional
-    lable: Riser3
+    lable: Riser3  
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

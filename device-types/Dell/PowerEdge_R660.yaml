@@ -5,6 +5,9 @@ slug: dell_poweredge_r660
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 63.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R660] 
 
 
@@ -247,14 +250,17 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: Optional BOSS-S2 Removed
-  - name: Optional OCP NIC/LOM
-  - name: PCIe-Gen4 SLOT-1
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: BOSS-S2 Removed
+  - name: OCP NIC/LOM
+  - name: SLOT-1 PCIe-Gen4 
     lable: Riser2
-  - name: Optional PCIe-Gen4 SLOT-2
+  - name: SLOT-2 PCIe-Gen4
     lable: Riser2
-  - name: Optional PCIe-Gen4 SLOT-3
+  - name: PSLOT-3 CIe-Gen4
     lable: Riser3
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

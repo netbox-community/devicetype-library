@@ -5,7 +5,162 @@ slug: dell_poweredge_r7515-24sff
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-comments: '[Dell PowerEdge R7515 24x2.5" SFF/Dell 3rd Generation AMD EPYC]  <https://dl.dell.com/content/manual22344309-dell-emc-poweredge-r7515-installation-and-service-manual.pdf?language=en-us&ps=true> '
+airflow: front-to-rear
+weight: 61.0
+weight_unit: lb
+comments: '[Dell PowerEdge R7515 24x2.5" SFF/Dell 3rd Generation AMD EPYC]  
+
+
+####    Product Class: Server
+
+######  Dell Server Generation: 15th
+
+######  Server Model: R7515
+
+######  Server Type: Rack
+
+######  CPU: One 2nd or 3rd Generation AMD EPYC Processor with up to 64 cores
+
+######  Memory: Up to 16 x DDR4 RDIMM (1TB), LRDIMM (2TB), bandwidth up to 3200 MT/S
+
+######  RAID: PERC 9/10 - HBA330, H330, H730P, H740P
+
+######  HDD: 2.5" or 3.5" Hot Swap SATA/SAS/NVMe
+
+######  Power Supply: 750W, 1100W, and 1600W Hot Swap Redundant
+
+######  Riser: Up to 4 PCIe Slots (2x Gen3 slots, 2 Gen4 slots, x16 bandwidth)
+
+###     PowerEdge R7515 Server
+
+
+###     Form Factor:
+
+######  2U Rack Server
+
+###     Processor:
+
+######  One 2nd or 3rd Generation AMD EPYC Processor with up to 64 cores
+
+
+###     Dimensions & Weight:
+
+######  Height: 86.8mm (3.42”)
+
+######  Width: 434.0mm (17.09”)
+
+######  Depth: 647.1mm (25.48”)
+
+######  Weight: 27.3 kg (60.19 lb)
+
+###    Power Supplies:
+
+######  750W Titanium
+
+######  750W Platinum
+
+######  1100W Platinum
+
+######  1600W Platinum
+
+
+###     Fans:
+
+######  Standard/High Performance Fans  
+
+######  N+1 Fan redundancy.
+
+###     Bezel: Optional LCD or Security Bezel
+
+
+###     Memory:
+
+######  DDR4: Up to 16 x DDR4 RDIMM (1TB), LRDIMM (2TB), bandwidth up to 3200 MT/S
+
+###     Drive Bays:
+
+#####   Front Bays:
+
+######  Up to 8 x3.5” Hot Plug SATA/SAS HDDs
+
+######  Up to 12x 3.5” hot-plug SAS/SATA HDDs
+
+######  Up to 24x 2.5” Hot Plug SATA/SAS/NVMe
+
+#####   Rear Bays:
+
+######  Up to 2x 3.5” hot-plug SAS/SATA HDDs
+
+
+#####   Internal: 2 x M.2 (BOSS)
+
+###     Controllers:
+
+######  HW RAID: PERC 9/10 - HBA330, H330, H730P, H740P, H840, 12G SAS HBA
+
+######  Chipset SATA/SW RAID(S150): Yes
+
+####    Security:
+
+######  Cryptographically signed firmware
+
+######  Secure Boot
+
+######  Secure Erase
+
+######  Silicon Root of Trust
+
+######  System Lockdown
+
+######  TPM 1.2/2.0, TCM 2.0 optional
+
+###     Networking Options (NDC):
+
+######  2 x 1GbE
+
+######  2 x 10GbE BT
+
+######  2 x 10GbE SFP+
+
+######  2 x 25GbE SFP28
+
+######  
+###     GPU Options (NDC): Up to 4 Single-Wide GPU(T4); Up to 1 Full-Height FPGA
+
+###     Ports:
+
+#####   Front Ports:
+
+######  1 x Dedicated iDRAC direct micro-USB
+
+######  1 x USB 2.0
+
+######  1 x Video
+
+#####   Rear Ports:
+
+######  2 x 1GbE
+
+######  1 x Dedicated iDRAC network port
+
+######  1 x Serial
+
+######  2 x USB 3.0
+
+######  1 x Video
+
+######  
+
+###     PCIe:
+
+######  Up to 4:
+
+######  2 x Gen3 slot (2 x16)
+
+######  2 x Gen4 slot (2 x16)
+
+
+<https://dl.dell.com/content/manual22344309-dell-emc-poweredge-r7515-installation-and-service-manual.pdf?language=en-us&ps=true> '
 console-ports:
   - name: Front VGA
     type: other
@@ -50,22 +205,23 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM
     description: TPM 2.0 Support
   - name: PERC
-    description: 'PERC HBA330, H330, H730P, H740P'
-  - name: LOM2 Optional 
-  - name: BOSS-1 Optional
+    description: 'PERC HBA330, H330, H730P, H740P, H840, 12G SAS HBA'
+  - name: LOM2  
+  - name: BOSS-1
     description: "2 X M.2 Sticks/size=240GB, 480GB"
-  - name: SLOT-1/PCIe-Gen3-1
-    lable: 'Riser1'
-  - name: SLOT-2/PCIe-Gen3-2
-    lable: 'Riser1'
-  - name: SLOT-3/PCIe-Gen4-3
-    lable: 'Riser2'
-  - name: SLOT-4/PCIe-Gen4-4
-    lable: 'Riser3'
+  - name: SLOT-1/PCIe-Gen3
+    lable: Riser1
+  - name: SLOT-2/PCIe-Gen3
+    lable: Riser1
+  - name: SLOT-3/PCIe-Gen4
+    lable: Riser2
+  - name: SLOT-4/PCIe-Gen4
+    lable: Riser3
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

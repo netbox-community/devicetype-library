@@ -6,6 +6,9 @@ part_number: PER630-8
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '### [Dell PowerEdge R630 8x2.5"-8SFF/Dell 13th Gen]  
 
 
@@ -93,6 +96,8 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
   - name: PERC
     description: 'PERC S130 (SW RAID), PERC H330, PERC H730, PERC H730P'
   - name: Riser-1/SLOT-1/PCIe-Gen3-1

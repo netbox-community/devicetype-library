@@ -5,6 +5,9 @@ slug: dell_poweredge_r760
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 63.0
+weight_unit: lb
 comments: '## [Dell EMC PowerEdge R760 ] 
 
 ## PowerEdge R760
@@ -348,7 +351,6 @@ module-bays:
   - name: PERC
     description: 'H965i, PERC H755, PERC H755N, PERC H355, HBA355i'
   - name: BOSS-N1 Removed    
-device-bays:
   - name: Slot-1 - 1 x8 Gen5
     lable: Riser1
   - name: Slot-2 - 1 x8/1 x16 Gen5
@@ -365,6 +367,7 @@ device-bays:
     lable: Riser4
   - name: Slot-8 - 1 x8 Gen5
     lable: Riser4
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

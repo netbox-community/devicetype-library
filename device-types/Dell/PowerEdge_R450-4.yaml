@@ -6,6 +6,9 @@ part_number: PER450-4
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [PowerEdge R450 Rack Server 4x3.5 LFF"/Dell 15th Gen]
 
 ###### Features 			: Technical Specifications
@@ -128,7 +131,7 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
-    type: usb-mini-b
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -151,6 +154,8 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
   - name: PERC
     description: 'PERC H345, PERC H355, PERC H745, PERC H755, HBA355i'
   - name: BOSS-2 Optional

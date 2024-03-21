@@ -5,7 +5,140 @@ slug: dell_poweredge_r7525-16sff
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-comments: '[Dell PowerEdge R7525 16x2.5" SFF/Dell 3rd Generation AMD EPYC] <https://dl.dell.com/content/manual26894834-dell-emc-poweredge-r7525-installation-and-service-manual.pdf?language=en-us&ps=true> '
+comments: '[Dell PowerEdge R7525 16x2.5" SFF/Dell 3rd Generation AMD EPYC] 
+
+###     PowerEdge R7525 Server
+
+###     Form Factor:
+
+######  2U Rack Server
+
+
+###     Processor:
+
+######  Two 2nd or 3rd Generation AMD EPYCTM Processors with up to 64 cores per processor
+
+###     Dimensions & Weight:
+
+######  Height: 86.8mm (3.42”)
+
+######  Width: 434.0mm (17.09”)
+
+######  Depth: 647.1mm (25.48”)
+
+######  Weight: 27.3 kg (60.19 lb)
+
+###    Power Supplies:
+
+######  750W Titanium
+
+######  750W Platinum
+
+######  1100W Platinum
+
+######  1600W Platinum
+
+
+###     Fans:
+
+######  Standard/High Performance Fans  
+
+######  N+1 Fan redundancy.
+
+
+###     Bezel: Optional LCD or Security Bezel
+
+###     Memory:
+
+######  DDR4: Up to 32 x DDR4 RDIMM (2TB), LRDIMM (4TB), bandwidth up to 3200 MT/S
+
+###     Drive Bays:
+
+#####   Front Bays:
+
+######  Up to 8 x3.5” Hot Plug SATA/SAS HDDs
+
+######  Up to 12x 3.5” hot-plug SAS/SATA HDDs
+
+######  Up to 24x 2.5” Hot Plug SATA/SAS/NVMe
+
+#####   Rear Bays:
+
+######  Up to 2x 3.5” hot-plug SAS/SATA HDDs
+
+#####   Internal: 2 x M.2 (BOSS)
+
+###     Controllers:
+
+######  HW RAID: HBA345, PERC H345, PERC H745, H840, 12Gbps SAS HBA
+
+######  Chipset SATA/SW RAID(S150): Yes
+
+######  PERC11 – H755, H755N
+
+####    Security:
+
+######  Cryptographically signed firmware
+
+######  Secure Boot
+
+######  Secure Erase
+
+######  Silicon Root of Trust
+
+######  System Lockdown
+
+######  TPM 1.2/2.0, TCM 2.0 optional
+
+
+###     Networking Options (NDC):
+
+######  2 x 1GbE
+
+######  2 x 10GbE BT
+
+######  2 x 10GbE SFP+
+
+######  2 x 25GbE SFP28
+
+###     GPU Options (NDC): Up to 4 Single-Wide GPU(T4); Up to 1 Full-Height FPGA
+
+
+###     Ports:
+
+#####   Front Ports:
+
+######  1 x Dedicated iDRAC direct micro-USB
+
+######  1 x USB 2.0
+
+######  1 x Video
+
+#####   Rear Ports:
+
+######  2 x 1GbE
+
+######  1 x Dedicated iDRAC network port
+
+######  1 x Serial
+
+######  2 x USB 3.0
+
+######  1 x Video
+
+###     PCIe:
+
+######  Up to 8:
+
+######  8 x Slot Gen4 
+
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/PowerEdge-R7525-Spec-Sheet.pdf>
+
+<https://dl.dell.com/content/manual20335723-dell-emc-poweredge-r7525-technical-specifications.pdf?language=en-us>
+
+ <https://dl.dell.com/content/manual26894834-dell-emc-poweredge-r7525-installation-and-service-manual.pdf?language=en-us&ps=true> '
 console-ports:
   - name: Front VGA
     type: other

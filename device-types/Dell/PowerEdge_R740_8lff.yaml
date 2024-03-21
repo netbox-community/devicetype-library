@@ -5,9 +5,9 @@ slug: dell_poweredge_r740_8lff
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-u_height: 2
-is_full_depth: true
-subdevice_role: parent
+airflow: front-to-rear
+weight: 63.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R740 8LFF /Dell 14th Gen] 
 
 
@@ -83,7 +83,7 @@ console-ports:
   - name: Front USB2
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
-    type: usb-mini-b
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -117,29 +117,31 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM
     description: TPM 2.0 Support
-  - name: Universal Media Bay Option
-    description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: Universal Media Bay 
+    description:  DVD ROM, SATA orDVD+/-RW,SATA\
+  - name: OCP NIC Optional
   - name: PERC
     description: 'PERC HBA350, H750, H350'
-  - name: PCIe-Gen3-1
+  - name: SLOT-1 PCIe-Gen3
     lable: Riser1
-  - name: PCIe-Gen3-2
+  - name: SLOT-2 PCIe-Gen3
     lable: Riser1
-  - name: PCIe-Gen3-3
+  - name: SLOT-3 PCIe-Gen3
     lable: Riser1
-  - name: PCIe-Gen3-4
+  - name: SLOT-4 PCIe-Gen3
     lable: Riser2
-  - name: PCIe-Gen3-5
+  - name: SLOT-5 PCIe-Gen3
     lable: Riser2
-  - name: PCIe-Gen3-6
+  - name: SLOT-6 PCIe-Gen3
     lable: Riser2
-  - name: PCIe-Gen3-7
+  - name: SLOT-7 PCIe-Gen3
     lable: Riser3
-  - name: PCIe-Gen3-8
+  - name: SLOT-8 PCIe-Gen3
     lable: Riser3
+device-bays:
   - name: Drive bay-0/LFF
     description: '3.5" LFF'
   - name: Drive bay-1/SFF

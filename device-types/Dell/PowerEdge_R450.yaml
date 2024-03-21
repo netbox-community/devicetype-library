@@ -5,6 +5,9 @@ slug: dell_poweredge_r450
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R450 Rack Server]
 
 ###### Features 			: Technical Specifications
@@ -129,7 +132,7 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
-    type: usb-mini-b
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -152,6 +155,8 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
   - name: PERC
     description: 'PERC H345, PERC H355, PERC H745, PERC H755, HBA355i'
   - name: BOSS-2 Optional
@@ -159,4 +164,19 @@ module-bays:
   - name: OCP NIC Optional
   - name: PCIe-Gen3 1
   - name: PCIe-Gen3 2
-  
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
