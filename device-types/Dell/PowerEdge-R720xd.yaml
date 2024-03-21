@@ -4,7 +4,6 @@ model: PowerEdge R720xd
 slug: dell-poweredge-r720xd
 u_height: 2
 is_full_depth: true
-<<<<<<< HEAD:device-types/Dell/PowerEdge_R720xd.yaml
 subdevice_role: parent
 comments: '## [Dell R720xd Data Sheet] 
 
@@ -45,10 +44,6 @@ comments: '## [Dell R720xd Data Sheet]
 
 
 for NETBOX '
-=======
-comments: |
-  [Dell R610 Data Sheet](https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell_poweredge_r720xd-spec-sheet.pdf)
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Dell/PowerEdge-R720xd.yaml
 console-ports:
   - name: Front USB1
     type: usb-a
