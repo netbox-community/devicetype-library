@@ -1,13 +1,13 @@
 ---
 manufacturer: Dell
-model: PowerEdge R350 4x3.5 LFF
+model: PowerEdge R350
 slug: dell_poweredge_r350
 part_number: PER350
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-comments: '### [Dell PowerEdge R350 Rack Server Chassis 4x3.5" LFF]  
+comments: '### [Dell PowerEdge R350 Rack Server Chassis SFF]  
 
 
 #### One Intel Xeon E-2300 series processor or one Intel Pentium processor
@@ -41,6 +41,36 @@ comments: '### [Dell PowerEdge R350 Rack Server Chassis 4x3.5" LFF]
 
 
 #### Up to eight 2.5-inch SAS/SATA hot-plug drives
+
+#### Embedded NIC: 2 x 1 GbE LOM
+
+#### Ports:
+
+#### Front Ports:
+
+#######   1 x USB 2.0
+
+#######   1 x iDRAC Direct (Micro-AB USB) port
+
+#### Rear Ports:
+
+#######   1 x USB 2.0
+
+#######   1 x iDRAC Ethernet Port
+
+#######   1 x USB 3.0
+
+#######   2 x Serial Port
+
+#######   1 x VGA
+
+#### Internal: 1 x USB 3.0 (optional)
+
+#### 2 x PCIe Gen4 slots:
+
+#######   1 x8 Gen4 (x16 connector) low profile, half length
+
+#######   1 x8 Gen4 (x8 connector) low profile, half length
 
 
 ##### Height: 1.7 in. (42.8 mm)
@@ -102,13 +132,25 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PERC
-    description: 'PERC H355, H345, HBA355i, H755'
+    description: 'PERC H355, PERC H345, H755, HBA35, S150'
   - name: Optional BOSS-2 Removed
     description: 'DELL BOSS M.2 Controller Card'
   - name: PCIe-Gen4-1
   - name: PCIe-Gen4-2
 device-bays:
-  - name: Drive bay-0/LFF
-  - name: Drive bay-1/LFF
-  - name: Drive bay-2/LFF
-  - name: Drive bay-3/LFF
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
