@@ -5,6 +5,9 @@ slug: dell-poweredge-r650
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R650] 
 
 
@@ -107,7 +110,7 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
-    type: usb-a
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -130,12 +133,13 @@ interfaces:
 module-bays:
   - name: Optional BOSS-S2 Removed
   - name: Optional OCP NIC/LOM
-  - name: SLOT-1PCIe-Gen4
+  - name: SLOT-1 PCIe-Gen4
     lable: Riser2
   - name: SLOT-2 PCIe-Gen4
     lable: Riser2
   - name: SLOT-3 PCIe-Gen4
     lable: Riser3
+device-bays:    
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

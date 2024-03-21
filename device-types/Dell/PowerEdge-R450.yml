@@ -5,13 +5,148 @@ slug: dell-poweredge-r450
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
+comments: '## [Dell PowerEdge R450/Dell 15th Gen]  
+
+##      Dell Server Generation: 15th
+
+###     Server Model: R450
+
+###     Server Type: Rack
+
+#####   CPU: Up to two 3rd Generation Intel Xeon Scalable processors, with up to 24 cores per processor
+
+#####   Memory: 16 DDR4 DIMM slots, supports RDIMM max 1 TB, speeds up to 2933 MT/s
+
+#####   RAID: PERC H345, PERC H745, PERC H755, S150
+
+#####   HDD: Up to 4 x 3.5" SAS/SATA (HDD/SSD) max 64 TB
+
+#####   Power Supply: 1100W DC, 800W or 600W Platinum AC
+
+####    Riser: 2 x PCIe Gen4 slots
+
+###     Base: PowerEdge R450 Server
+
+###     Form Factor: 1U Rack Server
+
+###     Processor:
+
+######  Up to two 3rd Generation Intel Xeon Scalable processors, with up to 24 cores per processor
+
+###     Dimensions:
+
+######  Height – 42.8 mm (1.7 inches)
+
+######  Width – 482 mm (18.97 inches)
+
+######  Depth (without bezel) – 734.95 mm (28.92 inches)
+
+######  Depth (with bezel) – 748.79 mm (29.47 inches)
+
+###     Power Supplies:
+
+######  1100 W DC / -48–(-60) V
+
+######  800 W Platinum AC / 240 V HVDC
+
+######  600 W Platinum AC / 240 V HVDC
+
+###     Fans:
+
+######  Standard (STD) fans or High performance SLVR fans
+
+######  Up to seven cold swap fans
+
+######  Cooling Options:
+
+######  Air cooling
+
+###     Bezel:
+
+######  Optional LCD or Security Bezel
+
+###     Memory:
+
+######  16 DDR4 DIMM slots, supports RDIMM max 1 TB, speeds up to 2933 MT/s
+
+###     Storage Controllers:
+
+######  Internal controllers (RAID): PERC H345, PERC H745, PERC H755, S150
+
+######  Internal Boot: Internal Dual SD Module or Boot Optimized Storage Subsystem (BOSS-S2): HWRAID 2x M.2 SSDs or USB
+
+######  External PERC (RAID): PERC H840
+
+######  12 Gbps SAS HBAs (non-RAID): internal-HBA355i, external-HBA355e
+
+###     Drive Bays:
+
+####    Front Bays:
+
+######  Up to 4 x 3.5-inch SAS/SATA (HDD/SSD) max 64 TB
+
+######  Up to 8 x 2.5-inch SAS/SATA (HDD/SSD) max 61.4 TB
+
+######  Embedded NIC : 2 x 1 GbE LOM
+
+######  Networking Options (NDC):
+
+######  1 x OCP 3.0
+
+
+###     Ports:
+
+####    Front Ports:
+
+######  1 x Dedicated iDRAC direct micro-USB
+
+######  1 x USB 3.0
+
+######  1 x VGA
+
+####    Rear Ports:
+
+######  1 x USB 2.0
+
+######  1 x Serial (optional)
+
+######  1 x USB 3.0
+
+######  2 x Ethernet
+
+######  1 x VGA
+
+####    Internal: 1 x USB 3.0 (optional)
+
+####    PCIe: 2 x PCIe Gen4 slots
+ 
+<https://dl.dell.com/content/manual36161887-dell-emc-poweredge-r450-installation-and-service-manual.pdf?language=en-us>
+
+
+<https://dl.dell.com/content/manual27389454-dell-emc-poweredge-r450-technical-specifications.pdf?language=en-us>
+
+
+fOR {NETBOX}'
 console-ports:
-  - name: Serial
+  - name: Optional Rear Serial
     type: de-9
-  - name: Rear VGA
-    type: other
   - name: Front VGA
     type: other
+  - name: Rear VGA
+    type: other
+  - name: Internal USB1
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-micro-ab
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
 power-ports:
   - name: Power 1
     type: iec-60320-c14
@@ -25,6 +160,17 @@ interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PERC
+    description: 'PERC H345, PERC H745, PERC H755, S150'
+  - name: Optional BOSS-2 Removed
+    description: '51CN2 - DELL BOSS M.2 Controller Card'
+  - name: SLOT-1 PCIe4
+    position: PCIe-1
+    label: '1'
+  - name: SLOT-2 PCIe4
+    position: PCIe-2
+    label: '2'    
 device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'

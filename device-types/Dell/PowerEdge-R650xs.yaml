@@ -5,6 +5,9 @@ slug: dell-poweredge-r650xs
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R650XS] 
 
 
@@ -130,21 +133,22 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM Optional
     description: TPM 2.0 Support
   - name: Universal Media Bay Option
     description:  DVD ROM, SATA orDVD+/-RW,SATA
   - name: PERC
     description: 'PERC H745, HBA355I, S150, H345, H755, H755N'
-  - name: Optional OCP NIC
-  - name: Optional BOSS-S2 Removed
-  - name: PCIe-Gen4 SLOT-1
+  - name: OCP NIC
+  - name: BOSS-S2 Removed
+  - name: SLOT-1 PCIe-Gen4
     lable: Riser2
-  - name: Optional PCIe-Gen4 SLOT-2
+  - name: SLOT-2 PCIe-Gen4
     lable: Riser2
-  - name: Optional PCIe-Gen4 SLOT-3
+  - name:  SLOT-3 PCIe-Gen4
     lable: Riser3
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF

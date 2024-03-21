@@ -5,6 +5,9 @@ slug: dell_poweredge_r640
 subdevice_role: parent
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R640 4x3.5" LFF/Dell 14th Gen] 
 
 
@@ -38,7 +41,7 @@ comments: '## [Dell PowerEdge R640 4x3.5" LFF/Dell 14th Gen]
 
 #####  I/O slots             : Up to 3 x PCIeGen slots plus a dedicated PERC and rNDC slot
 
-#####  Storage controllers   : Internal controllers: PERC S140 (SW RAID SATA), PERC H330, PERC H730, PERC H730P, PERC H740P
+#####  Storage controllers   : Internal controllers: PERC H330, H730p, H740p, HBA330, Software RAID (SWRAID) S140
 
 ###### 	● Internal HBA (RAID): PERC HBA330
 
@@ -93,7 +96,7 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front iDRAC Direct micro port
-    type: usb-micro-b
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -119,8 +122,36 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PERC
-    description: 'PERC S140 (SW RAID SATA), PERC H330, PERC H730, PERC H730P, PERC H740P'
-  - name: BOSS-2/Removed Optional 
-  - name: PCIe-Gen3-1
-  - name: PCIe-Gen3-2
-  - name: PCIe-Gen3=3
+    description: 'PERC H330, H730p, H740p, HBA330, Software RAID (SWRAID) S140'
+  - name: Optional BOSS-2 Removed
+    description: '51CN2 - DELL BOSS M.2 Controller Card'
+  - name: SLOT-1 PCIe3
+    position: PCIe-1
+    label: '1'
+  - name: SLOT-2 PCIe3
+    position: PCIe-2
+    label: '2'
+  - name: SLOT-3 PCIe3
+    position: PCIe-3
+    label: '3'    
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'    

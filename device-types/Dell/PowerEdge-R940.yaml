@@ -1,15 +1,13 @@
 ---
 manufacturer: Dell
 model: PowerEdge R940
-<<<<<<< HEAD:device-types/Dell/PowerEdge_R940.yaml
 slug: dell_poweredge_r940
 u_height: 4
-=======
-slug: dell-poweredge-r940
-u_height: 3
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Dell/PowerEdge-R940.yaml
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 110.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R940] 
 
 
@@ -226,7 +224,7 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: TPM Optional
     description: TPM 2.0 Support
   - name: PERC
@@ -259,6 +257,7 @@ device-bays:
     lable: Riser3-CPU4
   - name: SLOT-13 PCIe-GEN3 Optional
     lable: Riser3-CPU4
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF
