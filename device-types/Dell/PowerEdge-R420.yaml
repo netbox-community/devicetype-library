@@ -2,8 +2,16 @@
 manufacturer: Dell
 model: PowerEdge R420
 slug: dell-poweredge-r420
+subdevice_role: parent
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight: 44.0
+weight_unit: lb
+comments: '## [Dell PowerEdge R420 Rack Server Chassis]  
+
+<https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/ja/jp/Dell-PowerEdge-R420Technical-Guide.pdf>
+' 
 console-ports:
   - name: Serial
     type: de-9
@@ -33,3 +41,20 @@ module-bays:
     position: PCIe-2
     label: '2'
     description: PCIe2/3 16x
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'

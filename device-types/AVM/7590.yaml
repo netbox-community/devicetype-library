@@ -1,0 +1,51 @@
+---
+manufacturer: AVM
+model: FRITZ!box 7590
+slug: frtizbox-7590
+part_number: 2000 2804
+u_height: 0
+is_full_depth: false
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+    mgmt_only: false
+  - name: FON1
+    label: FON 1
+    type: other
+    mgmt_only: false
+  - name: FON2
+    label: FON 2
+    type: other
+    mgmt_only: false
+  - name: FONS
+    label: FON S
+    type: xdsl
+    mgmt_only: false
+  - name: WAN
+    label: WAN
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN1
+    label: LAN 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: LAN4
+    label: LAN 4
+    type: 1000base-t
+    mgmt_only: false
+  - name: WiFi
+    type: ieee802.11ac
+    mgmt_only: false

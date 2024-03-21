@@ -5,6 +5,9 @@ slug: dell-poweredge-r440
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+weight: 39.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R630/Dell 13th Gen]  
 
 
@@ -98,3 +101,24 @@ module-bays:
   - name: PCIe-Gen3-1
   - name: PCIe-Gen3-2
   - name: PCIe-Gen3-3
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'    

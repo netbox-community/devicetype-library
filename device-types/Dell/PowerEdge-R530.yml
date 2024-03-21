@@ -30,23 +30,40 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PCIe slot 1
+  - name: SLOT-1
     position: PCIe-1
     label: '1'
     description: PCIe2/3 8x
-  - name: PCIe slot 2
+  - name: SLOT-2
     position: PCIe-2
     label: '2'
     description: PCIe2/3 16x
-  - name: PCIe slot 3
+  - name: SLOT-3
     position: PCIe-3
     label: '3'
     description: PCIe2/3 16x
-  - name: PCIe slot 4
+  - name: SLOT-4
     position: PCIe-4
     label: '4'
     description: PCIe2/3 1x
-  - name: PCIe slot 5
+  - name: SLOT-5
     position: PCIe-5
     label: '5'
     description: PCIe2/3 4x
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'

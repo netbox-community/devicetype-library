@@ -1,15 +1,13 @@
 ---
 manufacturer: Dell
 model: PowerEdge R340
-<<<<<<< HEAD:device-types/Dell/PowerEdge_R340.yaml
 slug: dell_poweredge_r340
 subdevice_role: parent
-=======
-slug: dell-poweredge-r340
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Dell/PowerEdge-R340.yaml
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
+weight: 30.0
+weight_unit: lb
 comments: '## [Dell PowerEdge R340 Rack Server Chassis]  
 
 
@@ -93,7 +91,7 @@ console-ports:
   - name: Front USB1
     type: usb-a
   - name: Front Dedicated iDRAC direct USB
-    type: usb-mini-b
+    type: usb-micro-ab
   - name: Rear USB1
     type: usb-a
   - name: Rear USB2
@@ -120,8 +118,12 @@ module-bays:
     description: 'PERC H730P, H330, HBA330 (non-RAID)'
   - name: Optional BOSS-2 Removed
     description: '51CN2 - DELL BOSS M.2 Controller Card'
-  - name: PCIe-Gen3 1
-  - name: PCIe-Gen3 2
+  - name: SLOT-1 PCIe3
+    position: PCIe-1
+    label: '1'
+  - name: SLOT-2 PCIe3
+    position: PCIe-2
+    label: '2'
 device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
