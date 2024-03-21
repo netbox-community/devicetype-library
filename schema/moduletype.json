@@ -10,6 +10,12 @@
         "part_number": {
             "type": "string"
         },
+        "weight": {
+            "$ref": "reusable.json#/definitions/weight"
+        },
+        "weight_unit": {
+            "$ref": "generated_schema.json#/definitions/weight-unit"
+        },
         "console-ports": {
             "type": "array",
             "items": {
@@ -51,6 +57,9 @@
             "items": {
                 "$ref": "components.json#/definitions/rear-port"
             }
+        },
+        "description": {
+            "type": "string"
         },
         "comments": {
             "type": "string"

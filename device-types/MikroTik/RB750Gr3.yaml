@@ -1,11 +1,18 @@
 ---
 manufacturer: MikroTik
 model: RB750Gr3
+<<<<<<< HEAD
 slug: rb750Gr3
 comments: ' '
+=======
+slug: mikrotik-rb750gr3
+comments: '[MikroTik RB750Gr3 Datasheet](https://mikrotik.com/product/RB750Gr3)'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -14,3 +21,7 @@ interfaces:
     type: 1000base-t
   - name: ether5
     type: 1000base-t
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 10

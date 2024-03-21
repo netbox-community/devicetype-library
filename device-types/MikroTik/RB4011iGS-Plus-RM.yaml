@@ -1,0 +1,47 @@
+---
+manufacturer: MikroTik
+model: RB4011iGS+RM
+slug: mikrotik-rb4011igs-plus-rm
+part_number: RB4011iGS+RM
+is_full_depth: false
+u_height: 1
+comments: '[RB4011iGS+RM Datasheet](https://mikrotik.com/product/rb4011igs_rm)'
+power-ports:
+  - name: Power
+    label: DC 18-57V
+    type: dc-terminal
+    maximum_draw: 33
+    allocated_draw: 18
+console-ports:
+  - name: Serial
+    label: CONSOLE
+    type: rj-45
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: POE-IN
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-48v-2pair
+    description: POE-OUT
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp

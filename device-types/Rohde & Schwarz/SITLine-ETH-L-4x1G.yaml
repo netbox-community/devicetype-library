@@ -1,0 +1,36 @@
+---
+manufacturer: Rohde & Schwarz
+model: SITLine ETH-L 4x1G
+slug: rohde-and-schwarz-sitline-eth-l-4x1g
+part_number: 5414.6282.25
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 100
+    allocated_draw: 80
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 100
+    allocated_draw: 80
+interfaces:
+  - name: A1
+    type: 1000base-x-sfp
+  - name: A2
+    type: 1000base-x-sfp
+  - name: A3
+    type: 1000base-x-sfp
+  - name: A4
+    type: 1000base-x-sfp
+  - name: X1
+    type: 1000base-x-sfp
+  - name: X2
+    type: 1000base-x-sfp
+  - name: X3
+    type: 1000base-x-sfp
+  - name: X4
+    type: 1000base-x-sfp
+  - name: MGMT
+    type: 1000base-x-sfp
+    mgmt_only: true

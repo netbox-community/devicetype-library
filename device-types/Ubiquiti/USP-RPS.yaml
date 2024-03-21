@@ -1,0 +1,41 @@
+---
+manufacturer: Ubiquiti
+model: UniFi SmartPower RPS
+slug: ubiquiti-unifi-smartpower-rps
+airflow: front-to-rear
+part_number: USP-RPS
+comments: |
+  [UniFi Power Backup](https://store.ui.com/products/usp-rps)
+
+  950W backup power unit that provides full redundancy for rack-mounted UniFi devices.
+
+  Dimensions: 442.4 x 43.7 x 325.6 mm (17.42 x 1.72 x 12.82")
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 995
+power-outlets:
+  - name: Port 1
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 2
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 3
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 4
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 5
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 6
+    type: ubiquiti-smartpower
+    power_port: ps1

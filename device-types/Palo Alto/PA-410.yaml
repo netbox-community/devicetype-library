@@ -1,6 +1,7 @@
 ---
 manufacturer: Palo Alto
 model: PA-410
+<<<<<<< HEAD
 slug: pa-410
 part_number: PAN-PA-410
 u_height: 1
@@ -34,6 +35,24 @@ console-ports:
     type: usb-a   
 interfaces:
   - name: MGT
+=======
+slug: palo-alto-pa-410
+part_number: PA-410
+u_height: 1
+is_full_depth: false
+weight: 3.1
+weight_unit: lb
+airflow: passive
+comments: '[Product Summary Specsheet - PAN-OS 10.1](https://www.paloaltonetworks.com/resources/datasheets/palo-alto-networks-product-summary-specsheet-pan-os-10-1)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
     type: 1000base-t
     mgmt_only: true
   - name: ethernet1/1
@@ -51,4 +70,8 @@ interfaces:
   - name: ethernet1/7
     type: 1000base-t
   - name: loopback
+<<<<<<< HEAD
     type: virtual
+=======
+    type: virtual
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

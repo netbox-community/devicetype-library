@@ -1,8 +1,13 @@
 ---
 manufacturer: Palo Alto
 model: PA-3220
+<<<<<<< HEAD
 slug: pa-3220
 part_number: PAN-PA-3220
+=======
+slug: palo-alto-pa-3220
+part_number: PA-3220
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
@@ -96,7 +101,11 @@ interfaces:
     type: 1000base-t
   - name: hsci
     type: 10gbase-x-sfpp
+<<<<<<< HEAD
   - name: MGT
+=======
+  - name: management
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
     type: 1000base-t
     mgmt_only: true
 device-bays:

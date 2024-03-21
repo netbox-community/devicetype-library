@@ -1,8 +1,15 @@
 ---
 manufacturer: MikroTik
 model: RB260GSP
+<<<<<<< HEAD
 slug: rb260gsp
 comments: ' '
+=======
+slug: mikrotik-rb260gsp
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: ether1
     type: 1000base-t

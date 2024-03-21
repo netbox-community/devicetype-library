@@ -333,22 +333,22 @@ interfaces:
     type: 1000base-t
   - name: LOM-2
     type: 1000base-t
-  - name: Optional/OCP-LOM-3
-    type: 1000base-t
-  - name: Optional/OCP-LOM-4
-    type: 1000base-t
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
-  - name: TPM Optional
+module-bays:
+  - name: OCP 3.0
+    description:  GbE x 4, 10 GbE x 2, 10 GbE x 4, 25 GbE x 2, 25 GbE x 4
+    position: OCP-1    
+  - name: TPM
     description: TPM 2.0 Support
+    position: TPM      
   - name: Universal Media Bay Option
     description:  DVD ROM, SATA orDVD+/-RW,SATA
   - name: PERC
     description: 'H965i, PERC H755, PERC H755N, PERC H355, HBA355i'
-  - name: Optional OCP NIC
-  - name: Optional BOSS-N1 Removed
+  - name: BOSS-N1 Removed    
+device-bays:
   - name: Slot-1 - 1 x8 Gen5
     lable: Riser1
   - name: Slot-2 - 1 x8/1 x16 Gen5

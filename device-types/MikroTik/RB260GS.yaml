@@ -1,8 +1,15 @@
 ---
 manufacturer: MikroTik
 model: RB260GS
+<<<<<<< HEAD
 slug: rb260gs
 comments: ' '
+=======
+slug: mikrotik-rb260gs
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: ether1
     type: 1000base-t

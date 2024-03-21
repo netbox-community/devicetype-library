@@ -1,0 +1,18 @@
+---
+manufacturer: Eaton
+model: CBL2OUT32
+slug: eaton-cbl2out32
+part_number: CBL2OUT32
+u_height: 0
+is_full_depth: false
+comments: Eaton Rack PDU Output cable 32A, Hardwired 2 x 32A EN60309, plug 0,75M
+power-ports:
+  - name: Power Port 1
+    type: hardwired
+power-outlets:
+  - name: Outlet 1
+    type: iec-60309-p-n-e-6h
+    power_port: Power Port 1
+  - name: Outlet 2
+    type: iec-60309-p-n-e-6h
+    power_port: Power Port 1

@@ -1,0 +1,54 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Dream Machine Pro
+slug: ubiquiti-unifi-dream-machine-pro
+airflow: front-to-rear
+part_number: UDM-Pro
+comments: |
+  [UniFi Dream Machine Pro](https://store.ui.com/products/udm-pro)
+
+  Enterprise Security Gateway and Network Appliance with 10G SFP+, (8) 1G LAN, (1) 1G WAN, (1) 1/10G SFP+ LAN, (1) 1/10G SFP+ WAN
+
+  Dimensions: 442.4 x 43.7 x 285.6 mm (17.42 x 1.72 x 11.24")
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+interfaces:
+  - name: port.1
+    type: 1000base-t
+    label: Port 1 - LAN
+  - name: port.2
+    type: 1000base-t
+    label: Port 2 - LAN
+  - name: port.3
+    type: 1000base-t
+    label: Port 3 - LAN
+  - name: port.4
+    type: 1000base-t
+    label: Port 4 - LAN
+  - name: port.5
+    type: 1000base-t
+    label: Port 5 - LAN
+  - name: port.6
+    type: 1000base-t
+    label: Port 6 - LAN
+  - name: port.7
+    type: 1000base-t
+    label: Port 7 - LAN
+  - name: port.8
+    type: 1000base-t
+    label: Port 8 - LAN
+  - name: port.9
+    type: 1000base-t
+    label: Port 9 - WAN 1
+  - name: port.10
+    type: 10gbase-x-sfpp
+    label: Port 10 - SFP+ WAN 2
+  - name: port.11
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 33
+    description: 100-240VAC/50-60 Hz

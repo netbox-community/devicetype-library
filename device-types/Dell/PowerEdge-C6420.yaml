@@ -1,0 +1,19 @@
+---
+manufacturer: Dell
+model: PowerEdge C6420
+slug: dell-poweredge-c6420
+u_height: 2
+is_full_depth: false
+comments: |
+  [Dell C6420 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/dell-emc-poweredge-c6520-spec-sheet.pdf)
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true

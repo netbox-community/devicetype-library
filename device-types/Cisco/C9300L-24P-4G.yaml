@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: C9300L-24P-4G
 part_number: C9300L-24P-4G
-slug: c9300l-24p-4g
+slug: cisco-c9300l-24p-4g
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -10,6 +10,7 @@ console-ports:
     type: rj-45
   - name: USB Mini Console
     type: usb-mini-b
+<<<<<<< HEAD
   - name: USB Port
     type: usb-a 
 power-ports:
@@ -19,72 +20,136 @@ power-ports:
   - name: PSU-2
     type: iec-60320-c16
     maximum_draw: 715
+=======
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/2
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/3
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/4
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/5
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/6
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/7
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/8
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/9
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/10
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/11
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/12
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/13
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/14
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/15
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/16
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/17
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/18
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/19
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/20
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/21
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/22
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/23
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/24
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/1/1
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: GigabitEthernet1/1/2
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: GigabitEthernet1/1/3
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: GigabitEthernet1/1/4
     type: 1000base-x-sfp
+<<<<<<< HEAD
     mgmt_only: false
+=======
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
 module-bays:
+<<<<<<< HEAD
   - name: StackPort1/1
     type: cisco-stackwise-320
   - name: StackPort1/2
     type: cisco-stackwise-320
+=======
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN 1
+  - name: FAN 2
+  - name: FAN 3
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

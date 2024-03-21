@@ -1,0 +1,47 @@
+---
+manufacturer: NEC
+model: UNIVERGE IX2215
+slug: nec-univerge-ix2215
+part_number: BI000054
+comments: |
+  NEC UNIVERGE IX2215, VPN-Compatible High speed Access Router, 18W
+  (1) RJ-45 Console Port, (2) Ethernet 1000BASE-T, (8) Ethernet 1000BASE-T in Switching Hub, (1) ISDN LINE interface, (1) ISDN S/T interface, (1) USB2.0 Type-A
+
+  Dimentions(WxDxH in mm): 210x297x43
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: GigaEthernet0
+    type: 1000base-t
+  - name: GigaEthernet1
+    type: 1000base-t
+  - name: GigaEthernet2.1
+    type: 1000base-t
+  - name: GigaEthernet2.2
+    type: 1000base-t
+  - name: GigaEthernet2.3
+    type: 1000base-t
+  - name: GigaEthernet2.4
+    type: 1000base-t
+  - name: GigaEthernet2.5
+    type: 1000base-t
+  - name: GigaEthernet2.6
+    type: 1000base-t
+  - name: GigaEthernet2.7
+    type: 1000base-t
+  - name: GigaEthernet2.8
+    type: 1000base-t
+  - name: USB0
+    type: other
+  - name: BRI0 port LINE
+    type: other
+  - name: BRI0 port S/T
+    type: other
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 18
+    allocated_draw: 14

@@ -1,0 +1,167 @@
+---
+manufacturer: Dell
+model: PowerEdge R650xs
+slug: dell-poweredge-r650xs
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+comments: '## [Dell PowerEdge R650XS] 
+
+
+###   Feature 	    		 : PowerEdge R650XS technical specification
+
+###### Form factor   		 : 1U rack
+
+###### Processor         : Processor Up to two 3rd Generation Intel Xeon Scalable processors, with up to 40 cores per processor
+
+###### Internal interconnect : Up to 3 Intel Ultra Path Interconnect (Intel® UPI); up to 11.2 GT/s
+
+###### Memory DIMM speed:  Up to 3200 MT/s
+
+###### Up to 16 Intel Persistent Memory 200 series (BPS) slots, 12 TB max
+
+###### Memory type:
+
+###### 	● RDIMM             ● LRDIMM
+
+###### 	● NVDIMM            ● DCPMM
+
+##### Memory module slots:
+
+###### 	● 32 DDR4 DIMM slots (12 NVDIMM or 12 DCPMM only)
+
+###### 	● Supports registered ECC DDR4 DIMMs only
+
+####  Maximum RAM:
+
+###### 	● RDIMM 1.53TB      ● LRDIMM 3TB
+
+###### 	● NVDIMM 192GB     	● DCPMM* 6.14TB (7.68TB with LDRDIMM)
+
+#####  I/O slots             : Up to 3 x PCIeGen slots plus a dedicated PERC and rNDC slot
+
+#####  Storage controllers   : Internal controllers: PERC H745, HBA355I, S150, H355, H345, H755, H755N
+
+###### 	● External PERC (RAID): PERC H840, HBA355E
+
+###   Drive Bays 
+
+##### Front bays: ● 10 x 2.5 -inch SATA/SAS/NVMe (up to 8 NVMes)
+
+###### 	10 x 2.5 -inch NVMe
+
+###### 	8 x 2.5 -inch SAS/SATA/NVMe
+
+###### 	8 x 2.5 -inch SATA
+
+###### 	4 x 3.5 -inch SAS/SATA
+
+###   Rear bays:
+
+###### 	Up to 2 x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 30.7 TB
+
+#####  Accelerators : Up to 3 single-width GPU (NVIDIA T4) or up to 1 FPGA
+
+#####  Embedded NIC :  2 x 1GbE
+
+###### 	2 x 10GbE + 2 x 1GbE
+
+###### 	4 x 10GbE     
+
+######  2 x 25GbE
+
+#####  Power supply ● 495W Platinum
+
+###### 	800 W Platinum AC/240 Mixed Mode
+
+###### 	1100 W Titanium AC/240 Mixed Mode
+
+###### 	1400 W Platinum AC/240 Mixed Mode
+
+###### 	1100 W DC -48 - 60 V
+
+#### Sizing
+
+#####  Form factor: Rack (1U)
+
+#####  Height: 42.8mm (1.68”)
+
+#####  Width*: 434mm (17.08”)
+
+#####  Depth*: 714.62mm (28.13”)
+
+#####  Weight: 17.6kg (38.9lbs.)
+
+
+<https://dl.dell.com/content/manual46646525-dell-emc-poweredge-r650-technical-specifications.pdf?language=en-us&ps=true> 
+
+<https://dl.dell.com/content/manual43348652-dell-emc-poweredge-r650xs-installation-and-service-manual.pdf?language=en-us>
+
+for NETBOX '
+console-ports:
+  - name: Optional Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Internal USB1
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-micro-ab
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: LOM-E-1
+    type: 1000base-t
+  - name: LOM-E-2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: TPM Optional
+    description: TPM 2.0 Support
+  - name: Universal Media Bay Option
+    description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: PERC
+    description: 'PERC H745, HBA355I, S150, H345, H755, H755N'
+  - name: Optional OCP NIC
+  - name: Optional BOSS-S2 Removed
+  - name: PCIe-Gen4 SLOT-1
+    lable: Riser2
+  - name: Optional PCIe-Gen4 SLOT-2
+    lable: Riser2
+  - name: Optional PCIe-Gen4 SLOT-3
+    lable: Riser3
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'

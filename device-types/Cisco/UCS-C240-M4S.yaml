@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: UCS-C240-M4S
-slug: ucs-c240-m4s
+slug: cisco-ucs-c240-m4s
 part_number: UCS-C240M4S
 u_height: 2
 is_full_depth: true
@@ -44,6 +44,7 @@ comments: '## Cisco UCSC-C240-M4S Server Configure-to-Order
 
 <https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c240m4-sff-spec-sheet.pdf> '
 console-ports:
+<<<<<<< HEAD
   - name: Console connector
     type: other
   - name: USB1
@@ -59,6 +60,10 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 1200
     allocated_draw: 800
+=======
+  - name: Con
+    type: rj-45
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: enp94s0f0
     type: 10gbase-t
@@ -68,6 +73,7 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+<<<<<<< HEAD
   - name: mLOM
   - name: PCIe-01
   - name: PCIe-02
@@ -76,3 +82,9 @@ module-bays:
   - name: PCIe-05
   - name: PCIe-06
 
+=======
+  - name: PS-0
+    position: '0'
+  - name: PS-1
+    position: '1'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

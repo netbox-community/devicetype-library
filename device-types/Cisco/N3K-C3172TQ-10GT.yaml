@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: Nexus 3172TQ-10GT
 part_number: N3K-C3172TQ-10GT
-slug: n3k-c3172tq-10gt
+slug: cisco-n3k-c3172tq-10gt
 u_height: 1
 is_full_depth: true
 comments: '#### Product Code:	N3K-C3172TQ-10GT
@@ -50,6 +50,7 @@ comments: '#### Product Code:	N3K-C3172TQ-10GT
 console-ports:
   - name: Console
     type: rj-45
+<<<<<<< HEAD
   - name: usb0
     type: usb-mini-b
 power-ports:
@@ -57,6 +58,8 @@ power-ports:
     type: iec-60320-c14
   - name: PS2
     type: iec-60320-c14
+=======
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -169,3 +172,14 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet1/54
     type: 40gbase-x-qsfpp
+<<<<<<< HEAD
+=======
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

@@ -1,11 +1,15 @@
 ---
 manufacturer: Adtran
 model: MX2800
-slug: mx2800
-part_number: MX2800
+slug: adtran-mx2800
+part_number: 1200290L1
 u_height: 1
 is_full_depth: false
+<<<<<<< HEAD
 comments: ' '
+=======
+comments: '[MX2800 Multiplexer Chassis](https://portal.adtran.com/web/page/portal/Adtran/product/1200290L1/3)'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 console-ports:
   - name: LAN
     type: rj-45
@@ -18,13 +22,9 @@ power-ports:
 interfaces:
   - name: DS3 A IN
     type: t3
-    mgmt_only: false
   - name: DS3 A OUT
     type: t3
-    mgmt_only: false
   - name: DS3 B IN
     type: t3
-    mgmt_only: false
   - name: DS3 B OUT
     type: t3
-    mgmt_only: false

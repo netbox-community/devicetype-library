@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: UCSC-PCIE-C40Q-03
+part_number: UCSC-PCIE-C40Q-03
+comments: Cisco VIC 1385 Dual Port 40Gb QSFP+ CNA w/RDMA
+interfaces:
+  - name: Ethernet{module}/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/2
+    type: 40gbase-x-qsfpp

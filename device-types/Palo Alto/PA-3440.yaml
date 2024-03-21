@@ -1,6 +1,7 @@
 ---
 manufacturer: Palo Alto
 model: PA-3440
+<<<<<<< HEAD
 slug: pa-3440
 part_number: PAN-PA-3440
 u_height: 1
@@ -48,6 +49,20 @@ interfaces:
   - name: MGT
     type: 1000base-t
     mgmt_only: true
+=======
+slug: palo-alto-pa-3440
+part_number: PA-3440
+u_height: 1
+is_full_depth: false
+weight: 7.00
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: ethernet1/1
     type: 10gbase-t
   - name: ethernet1/2
@@ -73,11 +88,19 @@ interfaces:
   - name: ethernet1/12
     type: 10gbase-t
   - name: ethernet1/13
+<<<<<<< HEAD
     type: 1000base-x-sfp
   - name: ethernet1/14
     type: 1000base-x-sfp
   - name: ethernet1/15
     type: 1000base-x-sfp
+=======
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: ethernet1/16
     type: 10gbase-x-sfpp
   - name: ethernet1/17
@@ -100,7 +123,28 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: ethernet1/26
     type: 25gbase-x-sfp28
+<<<<<<< HEAD
   - name: ethernet1/27
     type: 40gbase-x-qsfpp
   - name: ethernet1/28
     type: 40gbase-x-qsfpp
+=======
+  - name: ethernet1/35
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/36
+    type: 100gbase-x-qsfp28
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

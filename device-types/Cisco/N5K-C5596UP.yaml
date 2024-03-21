@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Nexus 5596UP
-slug: n5k-c5596up
+slug: cisco-n5k-c5596up
 part_number: N5K-C5596UP
 subdevice_role: parent
 u_height: 2
@@ -126,6 +126,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/48
     type: 10gbase-x-sfpp
+<<<<<<< HEAD
 module-bays:
   - name: Network Module-2
     position: '2'
@@ -133,3 +134,19 @@ module-bays:
     position: '3'
   - name: Network Module-4
     position: '4'
+=======
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

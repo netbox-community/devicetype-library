@@ -1,11 +1,12 @@
 ---
 manufacturer: Cisco
 model: ASR1001-X
-slug: asr1001-x
+slug: cisco-asr1001-x
 part_number: ASR1001-X
 comments: '[Cisco ASR 1000 Series 2.5-Gbps ESP/Upgradable through a software-activated feature license to 5, 10, or 20 Gbps] '
 u_height: 1
 is_full_depth: true
+<<<<<<< HEAD
 console-ports:
   - name: con 0
     type: rj-45
@@ -22,6 +23,11 @@ power-ports:
   - name: PSU1
     type: iec-60320-c14
     maximum_draw: 250
+=======
+airflow: front-to-rear
+weight: 25
+weight_unit: lb
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
@@ -42,6 +48,22 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/1
     type: 10gbase-x-sfpp
+<<<<<<< HEAD
 module-bays:
   - name: NIM slots
   - name: Shared port adapter slot
+=======
+console-ports:
+  - name: con 0
+    type: rj-45
+module-bays:
+  - name: ASR1001-X-SPA
+    label: SPA
+    position: 0/1
+  - name: PSU0
+    position: '0'
+    description: Power module
+  - name: PSU1
+    position: '1'
+    description: Power module
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

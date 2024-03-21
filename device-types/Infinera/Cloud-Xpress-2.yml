@@ -1,0 +1,49 @@
+---
+manufacturer: Infinera
+model: Cloud Xpress 2
+slug: infinera-cloud-xpress-2
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: swp1
+    type: 100gbase-x-qsfp28
+  - name: swp2
+    type: 100gbase-x-qsfp28
+  - name: swp3
+    type: 100gbase-x-qsfp28
+  - name: swp4
+    type: 100gbase-x-qsfp28
+  - name: swp5
+    type: 100gbase-x-qsfp28
+  - name: swp6
+    type: 100gbase-x-qsfp28
+  - name: swp7
+    type: 100gbase-x-qsfp28
+  - name: swp8
+    type: 100gbase-x-qsfp28
+  - name: swp9
+    type: 100gbase-x-qsfp28
+  - name: swp10
+    type: 100gbase-x-qsfp28
+  - name: swp11
+    type: 100gbase-x-qsfp28
+  - name: swp12
+    type: 100gbase-x-qsfp28
+rear-ports:
+  - name: rx-mux0
+    type: lc
+    positions: 1
+  - name: tx-mux0
+    type: lc
+    positions: 1

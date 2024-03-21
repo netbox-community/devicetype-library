@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: UCS-C240-M5SX
-slug: ucs-c240-m5sx
+slug: cisco-ucs-c240-m5sx
 part_number: UCS-C240M5SX
 u_height: 2
 subdevice_role: child
@@ -80,6 +80,7 @@ comments: '## SmartPlay Select C240 M5SX Standard 2 w/ 24 SFF
 
 <https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/c/hw/C240M5/install/C240M5.pdf>'
 console-ports:
+<<<<<<< HEAD
   - name: Console connector
     type: other
   - name: USB1
@@ -95,6 +96,10 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 1200
     allocated_draw: 800
+=======
+  - name: Con
+    type: rj-45
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: enp94s0f0
     type: 10gbase-t
@@ -104,6 +109,7 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+<<<<<<< HEAD
   - name: mLOM
   - name: PCIe-01
   - name: PCIe-02
@@ -111,3 +117,9 @@ module-bays:
   - name: PCIe-04
   - name: PCIe-05
   - name: PCIe-06
+=======
+  - name: PSU-0
+    position: '0'
+  - name: PSU-1
+    position: '1'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

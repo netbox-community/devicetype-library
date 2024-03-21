@@ -1,13 +1,20 @@
 ---
 manufacturer: MikroTik
 model: RB2011UiAS-RM
-slug: rb2011uias-rm
+slug: mikrotik-rb2011uias-rm
 is_full_depth: false
 u_height: 1
+<<<<<<< HEAD
 comments: ' '
+=======
+airflow: passive
+comments: '[RB2011UiAS-RM Datasheet](https://mikrotik.com/product/RB2011UiAS-RM)'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -26,15 +33,24 @@ interfaces:
     type: 100base-tx
   - name: ether10
     type: 100base-tx
+    poe_mode: pse
+    poe_type: passive-24v-2pair
   - name: sfp1
     type: 1000base-x-sfp
 console-ports:
   - name: serial0
     type: rj-45
+<<<<<<< HEAD
   - name: usb
     type: usb-a
+=======
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 power-ports:
   - name: power1
     type: dc-terminal
     maximum_draw: 28
+<<<<<<< HEAD
     
+=======
+    allocated_draw: 6
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

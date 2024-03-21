@@ -1,6 +1,7 @@
 ---
 manufacturer: MikroTik
 model: RB1200
+<<<<<<< HEAD
 slug: rb1200
 is_full_depth: false
 u_height: 1
@@ -12,6 +13,28 @@ power-ports:
   - name: power1
     type: iec-60320-c14
     maximum_draw: 20
+=======
+slug: mikrotik-rb1200
+part_number: RB1200
+u_height: 0
+weight: 0.37
+weight_unit: kg
+is_full_depth: false
+<<<<<<<< HEAD:device-types/MikroTik/RB4011iGS+RM.yaml
+u_height: 1
+comments: ' '
+========
+airflow: passive
+comments: '[RB1200 Datasheet](https://mikrotik.com/product/RB1200)'
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 23
+console-ports:
+  - name: Serial
+    type: de-9
+>>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/MikroTik/RB1200.yaml
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -32,4 +55,8 @@ interfaces:
   - name: ether9
     type: 1000base-t
   - name: ether10
+<<<<<<< HEAD
     type: 1000base-t  
+=======
+    type: 1000base-t
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

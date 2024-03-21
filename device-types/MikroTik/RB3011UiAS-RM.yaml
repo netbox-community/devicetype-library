@@ -1,10 +1,16 @@
 ---
 manufacturer: MikroTik
 model: RB3011UiAS-RM
-slug: rb3011uias-rm
+slug: mikrotik-rb3011uias-rm
 is_full_depth: false
 u_height: 1
+<<<<<<< HEAD
 comments: ' '
+=======
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: ether1
     type: 1000base-t

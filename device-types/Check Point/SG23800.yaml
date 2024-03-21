@@ -1,0 +1,37 @@
+---
+manufacturer: Check Point
+model: SG23800
+slug: check-point-sg23800
+part_number: CPAP-SG23800
+u_height: 2.0
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 394
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 394
+interfaces:
+  - name: LOM
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: SYNC
+    type: 1000base-t
+module-bays:
+  - name: '1'
+    position: '1'
+  - name: '2'
+    position: '2'
+  - name: '3'
+    position: '3'
+  - name: '4'
+    position: '4'
+  - name: '5'
+    position: '5'

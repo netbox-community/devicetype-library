@@ -1,0 +1,133 @@
+---
+manufacturer: Arista
+model: CCS-720DP-24S-2F
+slug: arista-ccs-720dp-24s-2f
+part_number: CCS-720DP-24S-2F
+u_height: 1
+weight: 12.8
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista CCS-720D Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720D-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 460
+    allocated_draw: 65
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 460
+    allocated_draw: 65
+front_image: true
+rear_image: true
+interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet11
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet13
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet14
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet15
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet16
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet17
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet18
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet19
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet20
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet21
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet22
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet23
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet24
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true

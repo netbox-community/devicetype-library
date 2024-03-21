@@ -1,0 +1,92 @@
+---
+manufacturer: Dell
+model: PowerEdge R720xd
+slug: dell-poweredge-r720xd
+u_height: 2
+is_full_depth: true
+<<<<<<< HEAD:device-types/Dell/PowerEdge_R720xd.yaml
+subdevice_role: parent
+comments: '## [Dell R720xd Data Sheet] 
+
+##### Feature	PowerEdge R720xd 
+
+##### Processor	Intel Xeon processor E5-2600 or E5-2600 v2 product families
+
+##### Memory	24 x DDR3 RDIMM,UDIMM and LRDIMM Up to 768GB
+
+##### Storage drives	Up to 24 x 2.5” (front) + 2 x 2.5” (back) or Up to 12 x 3.5” (front) + 2 x 2.5” (back)
+
+##### Storage controllers	PERC S110, H310, H710, H710P, H810 (external); supports multiple (2) internal RAID controllers
+
+##### PCIe slots	6 PCIe 3.0
+
+##### 	One x16 full-length, full-heigh
+
+##### 	Three x8 full-length, full-height
+
+##### 	Three x8 half-length, half-height
+
+##### 	One x16 full-length, full-height (optional)
+
+##### RAID controller	PERC S110 (software RAID; R720 only), PERC H310n,PERC H710,PERC H710P
+
+##### Embedded NICs	Select Network Adapter: minimum configuration of 4 1Gb Optional: 2 x 10GbE 
+
+##### Rack height	2U
+
+##### Power supplies	Hot-plug, redundant power supply units: 495W, 750W, 1100W, 1100W DC
+
+##### Embedded management	● iDRAC7, iDRAC Direct, iDRAC Service Module, iDRAC RESTful API with Redfish
+
+##### Front IO	● Power button w/LED x1,  ID button w/LED x1, USB 2.0 x1, iDRAC MGMT USB x1, System Status LED x1 
+
+
+<https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell-poweredge-r720xd-spec-sheet.pdf>  
+
+
+for NETBOX '
+=======
+comments: |
+  [Dell R610 Data Sheet](https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell_poweredge_r720xd-spec-sheet.pdf)
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Dell/PowerEdge-R720xd.yaml
+console-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2/iDRAC MGMT
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Serial/Console
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: OB-E-1
+    type: 1000base-t
+  - name: OB-E-2
+    type: 1000base-t
+  - name: OB-E-3
+    type: 1000base-t
+  - name: OB-E-4
+    type: 1000base-t
+  - name: iDRAC7
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PERC
+    description: 'PERC H310n,PERC H710,PERC H710P'
+  - name: PCIe-Gen3-1
+  - name: PCIe-Gen3-2
+  - name: PCIe-Gen3-3
+  - name: PCIe-Gen3-4
+  - name: PCIe-Gen3-5
+  - name: PCIe-Gen3-6/Optional

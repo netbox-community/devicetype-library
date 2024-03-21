@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Nexus 3132Q-40GE
-slug: n3k-c3132q-40ge
+slug: cisco-n3k-c3132q-40ge
 part_number: N3K-C3132Q-40GE
 u_height: 1
 is_full_depth: false
@@ -121,3 +121,16 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/36
     type: 10gbase-x-sfpp
+<<<<<<< HEAD
+=======
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

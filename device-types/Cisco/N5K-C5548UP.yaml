@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Nexus 5548UP
-slug: n5k-c5548up
+slug: cisco-n5k-c5548up
 part_number: N5K-C5548UP
 u_height: 1
 is_full_depth: false
@@ -93,6 +93,19 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/32
     type: 10gbase-x-sfpp
+<<<<<<< HEAD
 module-bays:
   - name: Network Module
     position: '2'
+=======
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Slot 2
+    position: '2'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

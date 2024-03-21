@@ -1,0 +1,43 @@
+---
+manufacturer: Cisco
+model: IE-3200-8P2S
+slug: cisco-ie-3200-8p2s
+part_number: IE-3200-8P2S
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+is_powered: true
+comments: '[Cisco Catalyst IE3200 Rugged Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie3200-rugged-series/cat-ie3200-rugged-series-ds.html)'
+weight: 1.7
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+  - name: PSU1
+    type: dc-terminal
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t

@@ -1,17 +1,37 @@
 ---
 manufacturer: Juniper
 model: SRX345
-slug: srx345
+slug: juniper-srx345
+part_number: SRX345-SYS-JB
 u_height: 1
+weight: 10.80
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: false
-comments: '[Juniper SRX345 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
+comments: '[Juniper SRX300 Series Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
 console-ports:
   - name: Serial Console
     type: rj-45
+<<<<<<< HEAD
   - name: Mini-USB slot
     type: usb-mini-b
   - name: usb Port
     type: usb-a
+=======
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 122
+module-bays:
+  - name: PIM 0
+    position: '0'
+  - name: PIM 1
+    position: '1'
+  - name: PIM 2
+    position: '2'
+  - name: PIM 3
+    position: '3'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: fxp0
     type: 1000base-t
@@ -48,6 +68,7 @@ interfaces:
     type: 1000base-x-sfp
   - name: ge-0/0/15
     type: 1000base-x-sfp
+<<<<<<< HEAD
 power-ports:
   - name: PSU0
     type: iec-60320-c14
@@ -59,3 +80,5 @@ power-ports:
     allocated_draw: 122
 device-bays:
   - name: SSD Slot
+=======
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

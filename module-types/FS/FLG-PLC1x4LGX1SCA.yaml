@@ -1,0 +1,32 @@
+---
+manufacturer: FS
+model: FLG-PLC1x4LGX1SCA
+part_number: FLG-PLC1x4LGX1SCA
+comments: 1 x 4 PLC Fiber Splitter, Standard LGX Cassette, SC/APC, Singlemode
+front-ports:
+  - name: '{module}/IN'
+    type: sc
+    rear_port: '{module}/IN'
+  - name: '{module}/1'
+    type: sc
+    rear_port: '{module}/1'
+  - name: '{module}/2'
+    type: sc
+    rear_port: '{module}/2'
+  - name: '{module}/3'
+    type: sc
+    rear_port: '{module}/3'
+  - name: '{module}/4'
+    type: sc
+    rear_port: '{module}/4'
+rear-ports:
+  - name: '{module}/IN'
+    type: sc
+  - name: '{module}/1'
+    type: sc
+  - name: '{module}/2'
+    type: sc
+  - name: '{module}/3'
+    type: sc
+  - name: '{module}/4'
+    type: sc

@@ -1,10 +1,12 @@
 ---
 manufacturer: Ubiquiti
 model: ER-X
-slug: er-x
+slug: ubiquiti-er-x
 u_height: 1
 is_full_depth: false
-comments: '[EdgeRouter X - Advanced Gigabit Ethernet Router](https://www.ui.com/edgemax/edgeswitch-10x/)'
+weight: 215
+weight_unit: g
+comments: '[EdgeRouter X - Advanced Gigabit Ethernet Router](https://dl.ui.com/datasheets/edgemax/EdgeRouter_X_DS.pdf)'
 power-ports:
   - name: 12VDC
     type: dc-terminal
@@ -12,16 +14,11 @@ power-ports:
 interfaces:
   - name: eth0
     type: 1000base-t
-    mgmt_only: false
   - name: eth1
     type: 1000base-t
-    mgmt_only: false
   - name: eth2
     type: 1000base-t
-    mgmt_only: false
   - name: eth3
     type: 1000base-t
-    mgmt_only: false
   - name: eth4
     type: 1000base-t
-    mgmt_only: false

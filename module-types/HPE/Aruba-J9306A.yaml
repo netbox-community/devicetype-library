@@ -1,0 +1,13 @@
+---
+manufacturer: HPE
+model: Aruba J9306A
+part_number: J9306A
+comments: "## Physical characteristics\r\n* Dimensions: 6.05(d) x 7.45(w) x 5.1(h) in. (15.37 x 18.92 x 12.95 cm)\r\n* Weight 7.5 Ib (3.2 kg)\r\n* Electrical\
+  \ characteristics\r\n* Voltage: 100-127 VAC/200-240 VAC\r\n* N3xIimum Current. 13 10A\r\n* Maximum power rating: 1500 W\r\n* Frequency range, 50/60 HZ\r\
+  \n## Notes\r\nMaximum power rating and maximum heat dissipation are the worst-case theoretical maximum\r\nnumbers provided for planning the infrastructure\
+  \ with fully loaded PoE (if equipped), 100% traffic,\r\nall ports plugged in, and all modules populated.\r\nEach J9306A Supplies 600W chassis power, 300W\
+  \ of PoE/POE+ power at 110-127 volts, and 900W of PoE/PoE+ power at 200-240 volts."
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 1500

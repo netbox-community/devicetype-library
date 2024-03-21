@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: C9300-24T-E
 part_number: C9300-24T-E
-slug: c9300-24t-e
+slug: cisco-c9300-24t-e
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
@@ -82,6 +82,7 @@ console-ports:
     type: usb-a 
   - name: Front USB Mini Console
     type: usb-mini-b
+<<<<<<< HEAD
 power-ports:
   - name: PSU-2
     type: iec-60320-c16
@@ -89,6 +90,8 @@ power-ports:
   - name: PSU-1
     type: iec-60320-c16
     maximum_draw: 350
+=======
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -141,10 +144,21 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/24
     type: 1000base-t
+<<<<<<< HEAD
+=======
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 module-bays:
   - name: Network module slots
     Description: 'Listing of Network Module C9300-NM-4G, C9300-NM-4G, C9300-NM-8X, C9300-NM-2Q, C9300-NM-4M or C9300-NM-BLANK'
     position: '1'
+<<<<<<< HEAD
   - name: STACK0
     Description: '(Optional) StackWise-480/1T cable (0.5-meter, 1-meter, or 3-meter)'
     type: cisco-stackwise-480
@@ -155,3 +169,12 @@ module-bays:
     Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
   - name: StackPower1
     Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
+=======
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN 1
+  - name: FAN 2
+  - name: FAN 3
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

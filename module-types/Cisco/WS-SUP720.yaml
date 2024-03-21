@@ -1,0 +1,14 @@
+---
+manufacturer: Cisco
+model: WS-SUP720
+part_number: WS-SUP720
+console-ports:
+  - name: console{module}
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet{module}/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet{module}/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet{module}/3
+    type: 1000base-t

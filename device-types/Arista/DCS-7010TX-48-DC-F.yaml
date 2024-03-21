@@ -1,0 +1,133 @@
+---
+manufacturer: Arista
+model: DCS-7010TX-48-DC-F
+slug: arista-dcs-7010tx-48-dc-f
+part_number: DCS-7010TX-48-DC-F
+u_height: 1
+weight: 8.6
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista 7010X Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7010TX-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 106
+    allocated_draw: 96
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 106
+    allocated_draw: 96
+front_image: true
+rear_image: false
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet1
+    type: 1000base-t
+  - name: Ethernet2
+    type: 1000base-t
+  - name: Ethernet3
+    type: 1000base-t
+  - name: Ethernet4
+    type: 1000base-t
+  - name: Ethernet5
+    type: 1000base-t
+  - name: Ethernet6
+    type: 1000base-t
+  - name: Ethernet7
+    type: 1000base-t
+  - name: Ethernet8
+    type: 1000base-t
+  - name: Ethernet9
+    type: 1000base-t
+  - name: Ethernet10
+    type: 1000base-t
+  - name: Ethernet11
+    type: 1000base-t
+  - name: Ethernet12
+    type: 1000base-t
+  - name: Ethernet13
+    type: 1000base-t
+  - name: Ethernet14
+    type: 1000base-t
+  - name: Ethernet15
+    type: 1000base-t
+  - name: Ethernet16
+    type: 1000base-t
+  - name: Ethernet17
+    type: 1000base-t
+  - name: Ethernet18
+    type: 1000base-t
+  - name: Ethernet19
+    type: 1000base-t
+  - name: Ethernet20
+    type: 1000base-t
+  - name: Ethernet21
+    type: 1000base-t
+  - name: Ethernet22
+    type: 1000base-t
+  - name: Ethernet23
+    type: 1000base-t
+  - name: Ethernet24
+    type: 1000base-t
+  - name: Ethernet25
+    type: 1000base-t
+  - name: Ethernet26
+    type: 1000base-t
+  - name: Ethernet27
+    type: 1000base-t
+  - name: Ethernet28
+    type: 1000base-t
+  - name: Ethernet29
+    type: 1000base-t
+  - name: Ethernet30
+    type: 1000base-t
+  - name: Ethernet31
+    type: 1000base-t
+  - name: Ethernet32
+    type: 1000base-t
+  - name: Ethernet33
+    type: 1000base-t
+  - name: Ethernet34
+    type: 1000base-t
+  - name: Ethernet35
+    type: 1000base-t
+  - name: Ethernet36
+    type: 1000base-t
+  - name: Ethernet37
+    type: 1000base-t
+  - name: Ethernet38
+    type: 1000base-t
+  - name: Ethernet39
+    type: 1000base-t
+  - name: Ethernet40
+    type: 1000base-t
+  - name: Ethernet41
+    type: 1000base-t
+  - name: Ethernet42
+    type: 1000base-t
+  - name: Ethernet43
+    type: 1000base-t
+  - name: Ethernet44
+    type: 1000base-t
+  - name: Ethernet45
+    type: 1000base-t
+  - name: Ethernet46
+    type: 1000base-t
+  - name: Ethernet47
+    type: 1000base-t
+  - name: Ethernet48
+    type: 1000base-t
+  - name: Ethernet49
+    type: 25gbase-x-sfp28
+  - name: Ethernet50
+    type: 25gbase-x-sfp28
+  - name: Ethernet51
+    type: 25gbase-x-sfp28
+  - name: Ethernet52
+    type: 25gbase-x-sfp28

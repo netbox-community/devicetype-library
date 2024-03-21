@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst 3850-12S-E
-slug: ws-c3850-12s-e
+slug: cisco-ws-c3850-12s-e
 part_number: WS-C3850-12S-E
 is_full_depth: false
 u_height: 1
@@ -133,6 +133,7 @@ module-bays:
   - name: Network Module
     Description: Option  C3850-NM-4-1G, C3850-NM-2-10G  
     position: '1'
+<<<<<<< HEAD
 module-bays:
   - name: StackPort1/1
     type: cisco-stackwise-480
@@ -142,3 +143,14 @@ module-bays:
     type: cisco-StackPower
   - name: StackStackPower1/2
     type: cisco-StackPower
+=======
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

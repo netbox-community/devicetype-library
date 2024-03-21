@@ -1,5 +1,6 @@
 ---
 manufacturer: Cisco
+<<<<<<< HEAD:device-types/Cisco/N2K-C2248TP.yaml
 model: N2K-C2248TP
 slug: n2k-c2248tp
 part_number: N2K-C2248TP
@@ -36,6 +37,13 @@ power-ports:
   - name: PS2
     type: iec-60320-c14
     maximum_draw: 400
+=======
+model: N2K-C2248TP-1GE
+slug: cisco-n2k-c2248tp-1ge
+part_number: N2K-C2248TP-1GE
+u_height: 1
+is_full_depth: true
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Cisco/N2K-C2248TP-1GE.yaml
 interfaces:
   - name: Ethernet1/1/1
     type: 1000base-t
@@ -141,3 +149,8 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/2/4
     type: 10gbase-x-sfpp
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

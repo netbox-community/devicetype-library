@@ -1,0 +1,21 @@
+---
+manufacturer: Ubiquiti
+model: Access Point nanoHD
+part_number: UAP-nanoHD
+slug: ubiquiti-uap-nanohd
+u_height: 0
+is_full_depth: false
+comments: |
+  [Datasheet](https://dl.ubnt.com/datasheets/unifi/UniFi_nanoHD_AP_DS.pdf)
+airflow: passive
+weight: 300.0
+weight_unit: g
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

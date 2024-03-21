@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: Catalyst 9130AXI-E
+slug: cisco-c9130axi-e
+part_number: C9130AXI-E
+u_height: 0
+is_full_depth: false
+weight: 1.45
+weight_unit: kg
+comments: '[Cisco Catalyst 9130AX Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9100ax-access-points/nb-06-cat-9130-ser-ap-ds-cte-en.html)'
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
+  - name: Dot11Radio1
+    type: ieee802.11ax
+  - name: GigabitEthernet0
+    type: 5gbase-t
+    poe_mode: pd
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-mini-b

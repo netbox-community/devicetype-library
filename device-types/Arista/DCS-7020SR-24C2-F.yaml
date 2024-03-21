@@ -1,0 +1,78 @@
+---
+manufacturer: Arista
+model: DCS-7020SR-24C2-F
+slug: arista-dcs-7020sr-24c2-f
+part_number: DCS-7020SR-24C2-F
+u_height: 1
+weight: 16.5
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista 7020R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7020R-48_Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '0'
+  - name: PS2
+    position: '1'
+front_image: true
+rear_image: true
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5
+    type: 10gbase-x-sfpp
+  - name: Ethernet6
+    type: 10gbase-x-sfpp
+  - name: Ethernet7
+    type: 10gbase-x-sfpp
+  - name: Ethernet8
+    type: 10gbase-x-sfpp
+  - name: Ethernet9
+    type: 10gbase-x-sfpp
+  - name: Ethernet10
+    type: 10gbase-x-sfpp
+  - name: Ethernet11
+    type: 10gbase-x-sfpp
+  - name: Ethernet12
+    type: 10gbase-x-sfpp
+  - name: Ethernet13
+    type: 10gbase-x-sfpp
+  - name: Ethernet14
+    type: 10gbase-x-sfpp
+  - name: Ethernet15
+    type: 10gbase-x-sfpp
+  - name: Ethernet16
+    type: 10gbase-x-sfpp
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
+  - name: Ethernet19
+    type: 10gbase-x-sfpp
+  - name: Ethernet20
+    type: 10gbase-x-sfpp
+  - name: Ethernet21
+    type: 10gbase-x-sfpp
+  - name: Ethernet22
+    type: 10gbase-x-sfpp
+  - name: Ethernet23
+    type: 10gbase-x-sfpp
+  - name: Ethernet24
+    type: 10gbase-x-sfpp
+# QSFP28(100G) ports can be broke into 4x25 with a model of [25-26]/[1-4]
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28

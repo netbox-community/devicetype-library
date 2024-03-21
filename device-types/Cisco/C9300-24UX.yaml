@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: C9300-24UX
 part_number: C9300-24UX
-slug: c9300-24ux
+slug: cisco-c9300-24ux
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -77,6 +77,7 @@ console-ports:
     type: rj-45
   - name: Front USB Mini Console
     type: usb-mini-b
+<<<<<<< HEAD
   - name: Front USB Port
     type: usb-a 
 power-ports:
@@ -86,6 +87,8 @@ power-ports:
   - name: PSU-1
     type: iec-60320-c16
     maximum_draw: 1100
+=======
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet0/0
     Description: MGMT (RJ-45 10/100/1000 management port) 
@@ -93,56 +96,109 @@ interfaces:
     mgmt_only: true
   - name: TenGigabitEthernet1/0/1
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/2
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/3
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/4
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/5
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/6
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/7
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/8
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/9
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/10
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/11
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/12
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/13
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/14
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/15
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/16
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/17
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/18
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/19
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/20
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/21
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/22
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/23
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: TenGigabitEthernet1/0/24
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
 module-bays:
   - name: Network module slots
     Description: 'Listing of Network Module C9300-NM-4G, C9300-NM-4G, C9300-NM-8X, C9300-NM-2Q, C9300-NM-4M or C9300-NM-BLANK'
     position: '1'
+<<<<<<< HEAD
   - name: STACK0
     Description: '(Optional) StackWise-480/1T cable (0.5-meter, 1-meter, or 3-meter)'
     type: cisco-stackwise-480
@@ -153,3 +209,12 @@ module-bays:
     Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
   - name: StackPower1
     Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
+=======
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN 1
+  - name: FAN 2
+  - name: FAN 3
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

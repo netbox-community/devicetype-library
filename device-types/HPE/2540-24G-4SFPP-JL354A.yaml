@@ -1,0 +1,120 @@
+---
+<<<<<<<< HEAD:device-types/HPE/2540-24G-4SFPP-JL354A.yaml
+manufacturer: Aruba
+model: 2540 24G 4SFP+/JL354A
+slug: 2540-24g-4sfpp
+part_number: JL354A
+u_height: 1
+is_full_depth: false
+Description: 'HPE JL354A - Aruba 2540 Series Switches'
+comments: '## Aruba 2540 24G 4SFP+ Switch/ JL354A
+
+##### Memory and processor :Dual Core ARM Coretex A9 @ 1016 MHz, 1 GB DDR3 SDRAM; Packet buffer size: 12.38 MB
+
+#####                      4.5 MB Ingress/7.875 MB Egress, 4 GB eMMC
+
+### Ports: (24) RJ-45 autosensing 10/100/1000 PoE+ ports; (4) SFP+ 1/10GbE ports
+
+#### Performance: 
+
+##### 1,000 MB Latency: < 3.8 μs (64-byte packets)
+
+##### 10 Gbps Latency: < 1.6 μs (64-byte packets)
+
+##### Throughput: up to 112.0 Mpps
+
+##### Switching capacity: 176 Gbps
+
+##### Routing table size: 2,000 entries (IPv4), 1,000 entries (IPv6)
+
+##### MAC address table size: 16,384 entries
+
+##### PoE capability: 370 W PoE+
+
+#### Dimensions : 17.42(w) x 9.7(d) x 1.73(h) in. (44.25 x 24.63 x 4.39 cm) (1U height)
+
+#### Weight: 6.83 lb (3.10 kg)
+
+
+(https://www.arubanetworks.com/assets/ds/DS_2540SwitchSeries.pdf)'
+========
+manufacturer: HPE
+model: Aruba 2540-24G-4SFP+
+slug: hpe-aruba-2540-24g-4sfpp
+part_number: JL354A
+u_height: 1
+is_full_depth: false
+comments: '[Aruba 2540-24G-4SFP+ Datasheet](https://www.arubanetworks.com/assets/ds/DS_2540SwitchSeries.pdf)'
+weight: 2410
+weight_unit: g
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 29
+>>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/HPE/Aruba-2540-24G-4SFPP.yaml
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 29
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+  - name: '28'
+    type: 10gbase-x-sfpp

@@ -1,14 +1,19 @@
 ---
 manufacturer: Cisco
 model: ASR-920-12SZ-D
-slug: asr-920-12sz-d
+slug: cisco-asr-920-12sz-d
 part_number: ASR-920-12SZ-D
 is_full_depth: false
 u_height: 1
+<<<<<<< HEAD
 comments: '####  [Cisco ASR 920 Series Aggregation Services Class B Timing Compliance Routers Data Sheet]
 
 
 (https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-741006.html)'
+=======
+airflow: front-to-rear
+comments: '[Cisco ASR 920 Series Aggregation Services Class B Timing Compliance Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-741006.html)'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 power-ports:
   - name: PSU0
     type: dc-terminal

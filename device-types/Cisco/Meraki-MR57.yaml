@@ -1,7 +1,8 @@
 ---
 manufacturer: Cisco
-model: MR57
-slug: MR57
+model: Meraki MR57
+slug: cisco-meraki-mr57
+part_number: MR57
 is_full_depth: false
 u_height: 0
 comments: '- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR57_Datasheet]
@@ -13,10 +14,9 @@ comments: '- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Spe
 interfaces:
   - name: main
     type: 2.5gbase-t
-    mgmt_only: false
+    poe_mode: pd
   - name: secondary
     type: 2.5gbase-t
-    mgmt_only: false
   - name: wlan0
     type: ieee802.11n
   - name: wlan1

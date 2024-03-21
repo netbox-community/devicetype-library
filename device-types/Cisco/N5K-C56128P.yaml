@@ -1,7 +1,12 @@
 ---
 manufacturer: Cisco
+<<<<<<< HEAD
 model: N5K 56128P
 slug: n5k-c56128p
+=======
+model: Nexus 56128P
+slug: cisco-n5k-c56128p
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 part_number: N5K-C56128P
 u_height: 2
 is_full_depth: true
@@ -168,6 +173,7 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet1/52
     type: 40gbase-x-qsfpp
+<<<<<<< HEAD
 
   - name: Ethernet2/1
     type: 10gbase-x-sfpp
@@ -279,3 +285,21 @@ module-bays:
     position: '2'
   - name: Network Module-3
     position: '3'
+=======
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: PS3
+    position: '3'
+  - name: PS4
+    position: '4'
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

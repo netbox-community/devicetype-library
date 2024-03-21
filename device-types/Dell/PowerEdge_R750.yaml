@@ -102,25 +102,27 @@ interfaces:
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
-  - name: TPM
-    description: TPM 2.0 Support
+module-bays:
+  - name: OCP 3.0
+    description:  GbE x 4, 10 GbE x 2, 10 GbE x 4, 25 GbE x 2, 25 GbE x 4
+    position: OCP-1
+  - name: BOSS-2 Removed
   - name: Universal Media Bay Option
     description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: TPM
+    description: TPM 2.0 Support
   - name: PERC
     description: 'PERC H840, HBA355E'
-  - name: Optional OCP NIC  
-    description:  GbE x 4, 10 GbE x 2, 10 GbE x 4, 25 GbE x 2, 25 GbE x 4
-  - name: Optional BOSS-2 Removed
-  - name: Optional PCIe-Gen4 1
+device-bays:
+  - name: SLOT-1 PCIe-Gen4 1
     lable: Riser1
-  - name: Optional PCIe-Gen4 2
+  - name: SLOT-1 PCIe-Gen4 2
     lable: Riser1
-  - name: Optional PCIe-Gen4 3
+  - name: SLOT-1 CIe-Gen4 3
     lable: Riser2
-  - name: Optional PCIe-Gen4 4
+  - name: SLOT-1 PCIe-Gen4 4
     lable: Riser3
-  - name: Optional PCIe-Gen4 5
+  - name: SLOT-1 PCIe-Gen4 5
     lable: Riser3
   - name: Optional PCIe-Gen4 6
     lable: Riser2

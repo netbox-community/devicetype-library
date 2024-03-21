@@ -1,7 +1,7 @@
 ---
 manufacturer: MikroTik
 model: CRS125-24G-1S-IN
-slug: crs125-24g-1s-in
+slug: mikrotik-crs125-24g-1s-in
 is_full_depth: false
 u_height: 1
 comments: 
@@ -59,3 +59,12 @@ interfaces:
     type: 1000base-t
   - name: sfp1
     type: 1000base-x-sfp
+<<<<<<< HEAD
+=======
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

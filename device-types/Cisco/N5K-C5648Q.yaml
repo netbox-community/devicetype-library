@@ -2,8 +2,12 @@
 manufacturer: Cisco
 model: N5K C5648Q 
 part_number: N5K-C5648Q
+<<<<<<< HEAD
 slug: n5k-c5648q
 subdevice_role: parent
+=======
+slug: cisco-n5k-c5648q
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 u_height: 2
 is_full_depth: true
 description: 'Cisco ONE Nexus 5648Q VXLAN 2RU Chassis, 24x40G QSFP+'
@@ -70,6 +74,18 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet2/12
     type: 40gbase-x-qsfpp
+<<<<<<< HEAD
+=======
+console-ports:
+  - name: Console
+    type: rj-45
+>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 module-bays:
-  - name: slot 3
-  - name: slot 4
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
