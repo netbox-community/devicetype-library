@@ -95,8 +95,6 @@ console-ports:
     type: usb-a
   - name: Rear VGA
     type: other
-  - name: Rear IPMI
-    type: 1000base-t
   - name: Rear Serial Option
     type: de-9
   - name: Rear VGA
@@ -106,87 +104,65 @@ console-ports:
   - name: Rear USB2
     type: usb-a
 power-ports:
-  - name: Power Supply 1
-    type: iec-60320-c14
+  - name: PSU0
+    type: iec-60320-c20
     maximum_draw: 1071
     allocated_draw: 586
-  - name: Power Supply 2
-    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c20
     maximum_draw: 1071
     allocated_draw: 586
 interfaces:
-  - name: Ethernet1/1
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/2
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/3
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/4
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/5
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/6
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/7
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/8
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/9
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/10
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/11
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/12
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/13
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/14
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/15
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/16
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/17
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/18
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/19
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/20
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/21
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/22
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/23
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/24
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/25
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/26
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/27
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/28
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/29
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/30
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/31
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/32
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/33
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/34
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/35
-    type: 400gbase-x-qsfpdd
-  - name: Ethernet1/36
-    type: 400gbase-x-qsfpdd
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
+  - name:   
+    type: 1000base-t
+  - name: mgmt0
+    type: 1000base-t        
+device-bays:
+  - name: Drive Front-bay-0/NVMe
+    description: '2.5" SFF/09:00/U.2_0'
+  - name: Drive Front-bay-1/NVMe
+    description: '2.5" SFF/08:00/U.2_1'
+  - name: Drive Front-bay-2/NVMe
+    description: '2.5" SFF/52:00/U.2_2'
+  - name: Drive Front-bay-3/NVMe
+    description: '2.5" SFF/53:00/U.2_3'
+  - name: Drive Front-bay-4/NVMe
+    description: '2.5" SFF/8A:00/U.2_4'
+  - name: Drive Front-bay-5/NVMe
+    description: '2.5" SFF/89:00/U.2_5'
+  - name: Drive Front-bay-6/NVMe
+    description: '2.5" SFF/C8:00 or CA:00/U.2_6'
+  - name: Drive Front-bay-7/NVMe
+    description: '2.5" SFF/C9:00 or CB:00/U.2_7'
+  - name: Drive Rear-bay-0/NVMe0
+    description: 'M.2/PCIe BUS 23:00'
+  - name: Drive Front-bay-1/NVMe
+    description: 'M.2/PCIe BUS 22:00'
+  - name: SLOT0
+    description: 'PCIe BUS 4B:00'
+  - name: SLOT1
+    description: 'PCIe BUS 54:00'
+  - name: SLOT2
+    description: 'PCIe BUS BA:00'
+  - name: SLOT3
+    description: 'PCIe BUS CA:00 OR CC:00'
+  - name: SLOT4
+    description: 'PCIe BUS E1:00'
+  - name: SLOT5
+    description: 'PCIe BUS 61:00'
+  - name: SLOT6
+    description: 'PCIe BUS 0C:00'
+  - name: SLOT7
+    description: 'PCIe BUS 12:00'
+  - name: SLOT8
+    description: 'PCIe BUS 8D:00'
+  - name: SLOT9
+    description: 'PCIe BUS 94:00'
+  - name: TPM2
+    description: 'TPM2 '
+  - name: BATTERY
+    description: 'CR2032 '
+      

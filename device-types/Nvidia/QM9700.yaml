@@ -1,0 +1,159 @@
+---
+manufacturer: Nvidia
+model: NVIDIA Quantum-2 QM9700
+part_number: MQM9700-NS2F
+slug: nvidia-quantum-2-qm9700
+u_height: 1
+is_full_depth: true
+comments: '# [NVIDIA Quantum-2 QM9700 - switch - 32 ports] 
+
+##### 
+
+####   Feature
+
+###### NVIDIA MQM9700-NS2F Quantum 2 based NDR InfiniBand 1U switch, 64 NDR ports, 32 OSFP ports, 
+
+###### 2 power supplies (AC), x86 Coffee Lake i3, standard depth, managed, P2C airflow - 920-9B210-00FN-0M0
+
+###### Up to 5 PFLOPS of AI Performance per DGX A100 system
+
+###### Increased NVLink Bandwidth (600GB/s per NVIDIA A100 GPU): 
+
+###### Each GPU now supports 12 NVIDIA NVLink bricks for up to 600GB/sec of total bandwidth
+
+###### Up to 10X the training and 56X the inference performance per system
+
+###### Multi Instance GPU: partition your NVIDIA A100 GPUs into slices for individual users or ideally sized segments for particular applications. 
+
+###### Use Multi Instance GPU to share your DGX A100 deployment across a much larger pool of users, all with increased security (full isolation).
+
+###### Arrives with Microway Deployment services: Microway experts will integrate the DGX software stack on your DGX A100 system
+
+##### GPUs: 8 NVIDIA A100 GPUs, 80GB of HBM2/HBM2e GPU memory
+
+##### Performance:
+
+######   Up to 5 PFLOPS of AI performance
+
+######   10 petaOPS INT8
+
+######   Total of 640GB of high-bandwidth GPU memory, interconnected with NVSwitch technology
+
+##### CPU:   Dual AMD Rome 7742, 128 cores total,  2.25 GHz (base), 3.4 GHz (max boost)
+
+##### System Memory:  2TB DDR4 System Memory
+
+##### Networking:
+
+######   Up to 8x Single-Port NVIDIA ConnectX-7  
+
+######   200 Gb/s InfiniBand 
+
+######   Up to 2x Dual-Port NVIDIA  
+
+######   ConnectX-7 VPI
+
+######   10/25/50/100/200 Gb/s Ethernet
+
+######   Eight NVIDIA ConnectX®-6 200Gbps HDR InfiniBand Adapters
+
+######   Additional 200Gb HDR InfiniBand Adapter for connection to storage
+
+##### Storage:
+
+###### OS: 2x 1.92TB M.2 NVME drives
+
+###### Internal Storage: 30TB (8x 3.84 TB) U.2 NVMe drives
+
+##### System Dimensions:
+
+###### Height: 1.7in (43.6mm)
+
+###### Width: 17.0in (438mm)
+
+###### Depth: 26.0in (660.4mm)
+
+###### 
+
+
+<https://resources.nvidia.com/en-us-dgx-systems/dgx-ai>  '
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1720
+    allocated_draw: 1084
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1720
+    allocated_draw: 1084
+interfaces:
+  - name: Ethernet1/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/2
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/3
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/4
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/5
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/6
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/7
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/8
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/9
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/10
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/11
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/12
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/13
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/14
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/15
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/16
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/17
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/18
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/19
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/20
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/21
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/22
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/23
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/24
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/25
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/26
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/27
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/28
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/29
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/30
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/31
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/32
+    type: 400gbase-x-qsfpdd
+    - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true

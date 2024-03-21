@@ -1,15 +1,30 @@
 ---
 manufacturer: Dell
-model: PowerEdge R760
-slug: dell_poweredge_r760
+model: PowerEdge R7625
+slug: dell_poweredge_r7625
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-comments: '## [Dell EMC PowerEdge R760 ] 
+comments: '## [Dell EMC PowerEdge R7625 ] 
 
-## PowerEdge R760
+## PowerEdge R7625
 
-##    Base: PowerEdge R760 Server
+###  General Server Details:
+
+####  CPU(s): 2x AMD EPYC 4th Generation 9004 Series with up to 96 cores per processor
+
+####  Memory: 24 DDR5 DIMM slots, supports RDIMM 3 TB max, speeds up to 4800 MT/s
+
+####  RAID: PERC H965i, PERC H755, PERC H755N, PERC H355, HBA355i
+
+####  HDD: Up to 24x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 368.64 TB
+
+####  RISER: Up to 8x PCIe slots
+
+####  Power: 2800W, 2400W, 1800W, 1400W, 1100W or 800W
+
+
+##    Base: PowerEdge R7625 Server
 
 ####  
 
@@ -17,13 +32,8 @@ comments: '## [Dell EMC PowerEdge R760 ]
 
 ####  
 
-##    Processor: Up to two 4th Generation Intel Xeon Scalable processor with up to 56 cores per processor and with optional Intel® QuickAssist Technology
+##    Processor: 2x AMD EPYC 4th Generation 9004 Series with up to 96 cores per processor
 
-####  
-
-####  2 x 4th Gen Intel® Xeon® Scalable or Intel® Xeon® Max Processors
-
-####  2 x 5th Gen Intel® Xeon® Scalable Processors
 
 ##    Dimensions:
 
@@ -53,8 +63,6 @@ comments: '## [Dell EMC PowerEdge R760 ]
 
 ####  800W Platinum 100—240 VAC or 240 HVDC, hot swap
 
-####  700W Titanium 200—240 VAC or 240 HVDC, hot swap
-
 ####  
 
 ##    Cooling Options:
@@ -77,21 +85,15 @@ comments: '## [Dell EMC PowerEdge R760 ]
 
 ##    Memory:
 
-####  32 DDR5 DIMM slots, supports RDIMM 8 TB max, speeds up to 4800 MT/s
+####  24 DDR5 DIMM slots, supports RDIMM 3 TB max, speeds up to 4800 MT/s
 
 ####  Supports registered ECC DDR5 DIMMs only
-
-####  32 x DDR5 RDIMM
-
-####  Up to 4800 MT/s (1 DPC) / 4400 MT/s (2 DPC)
-
-####  Up to 5600 MT/s (1DPC) / 4400 MT/s (2 DPC)
-
-####  
 
 ##    Drive Bays:
 
 ###   Front Bays:
+
+####  Up to 8x 3.5-inch SAS/SATA (HDD/SSD) max 160 TB
 
 ####  Up to 12x 3.5-inch SAS/SATA (HDD/SSD) max 240 TB
 
@@ -101,7 +103,6 @@ comments: '## [Dell EMC PowerEdge R760 ]
 
 ####  Up to 24x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 368.64 TB
 
-####  
 
 ##    Rear Bays:
 
@@ -181,6 +182,10 @@ comments: '## [Dell EMC PowerEdge R760 ]
 
 ##    Security:
 
+####  AMD Secure Encrypted Virtualization (SEV)
+
+####  AMD Secure Memory Encryption (SME)
+
 ####  Cryptographically signed firmware
 
 ####  Data at Rest Encryption (SEDs with local or external key mgmt)
@@ -203,27 +208,17 @@ comments: '## [Dell EMC PowerEdge R760 ]
 
 ####  Optional LCD or Security Bezel
 
-####  
 
-##    Embedded NIC
+###    Embedded NIC : 2 x 1 GbE LOM card (optional)
 
-####  2x 1 GbE LOM card (optional)
-
-####  
-
-##    Networking Options (NDC):
-
-####  1x OCP card 3.0 (optional)
+###    Networking Options (NDC): 1x OCP card 3.0 (optional)
 
 ####  Note: The system allows either LOM card or an OCP card or both to be installed in the system.
 
 ####  
 
-##    GPU Options (NDC):
+###    GPU Options (NDC): Up to 2x 300W DW or 6 x 75W SW
 
-####  Up to 2x 350W DW and 6x 75W SW
-
-####  
 
 ##    Ports:
 
@@ -349,21 +344,21 @@ device-bays:
     description: 'H965i, PERC H755, PERC H755N, PERC H355, HBA355i'
   - name: Optional OCP NIC
   - name: Optional BOSS-N1 Removed
-  - name: Slot-1 - 1 x8 Gen5
+  - name: Optional Slot-1 - 1 x 8 Gen5 Half length
     lable: Riser1
-  - name: Slot-2 - 1 x8/1 x16 Gen5
+  - name: Optional Slot-2 - 1 x8/1 x16 Gen5 
     lable: Riser1
-  - name: Slot-3 - 1 x16 Gen4 Low profile, Half length
+  - name: Optional Slot-3 - 1 x16 Gen4 Low profile, Half length
     lable: Riser2
-  - name: Slot-4 - 1 x8 Gen4 Full height, Half length
+  - name: Optional Slot-4 - 1 x8 Gen4 Full height, Half length
     lable: Riser3
-  - name: Slot-5 - 1 x8/1 x16 Gen4 Full height, Half length
+  - name: Optional Slot-5 - 1 x8 Gen4 Full height, Half length
     lable: Riser3
-  - name: Slot-6 - 1 x16 Gen4 Low profile, Half length
+  - name: Optional Slot-6 - 1 x8 Gen4 Full height, Half length
     lable: Riser2
-  - name: Slot-7 - 1 x8/1 x16 Gen5
+  - name: Optional Slot-7 - 1 x8/1 x16 Gen5
     lable: Riser4
-  - name: Slot-8 - 1 x8 Gen5
+  - name: Optional Slot-8 - 1 x8 Gen5
     lable: Riser4
   - name: Drive bay-0/SFF
     description: '2.5" SFF'

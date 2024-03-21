@@ -1,11 +1,11 @@
 ---
 manufacturer: Versa
-model: CSG1500
-slug: Versa-csg1500
+model: CSG350
+slug: Versa-csg350
 u_height: 1
 subdevice_role: parent
 is_full_depth: true
-comments: ' ## [Versa CSG1500] 
+comments: ' ## [Versa CSG350] 
 
 ## Recommended Deployment 	: Enterprise Branch High Performance
 
@@ -87,21 +87,11 @@ comments: ' ## [Versa CSG1500]
 
 
 console-ports:
-  - name: Front USB1 (Top)
-    type: usb-a
-  - name: Front USB2 (Bottom)
+  - name: Front USB1
     type: usb-a
 console-server-ports:
-  - name: Port A (Top/left)
+  - name: Console Port 
     type: rj-45
-  - name: Port B (Bottom/left)
-    type: rj-45
-    lable: 10/100/1000 Base-T
-  - name: BMC console port RS-232 (Top/right)
-    type: rj-45
-  - name: BMC console port Ethernet (Bottom/right)
-    type: rj-45
-    lable: 10/100/1000 Base-T
 power-ports:
   - name: Power 1/Rear/Left
     type: iec-60320-c14
@@ -110,26 +100,15 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 800
 interfaces:
-  - name: GigabitEthernet0/0
-    type: 10gbase-x-sfpp
-  - name: GigabitEthernet0/2
-    type: 10gbase-x-sfpp
-  - name: GigabitEthernet0/3
+  - name: vni-0/0
     type: 1000base-t
-  - name: GigabitEthernet0/5
+  - description: WAN-1    
+  - name: vni-0/1
     type: 1000base-t
-  - name: GigabitEthernet0/4
+  - description: LAN-1 for ZYP (192.168.1.x/24)    
+  - name: vni-0/2
     type: 1000base-t
-  - name: GigabitEthernet0/6
+  - description: WAN-2
+  - name: vni-0/3
     type: 1000base-t
-  - name: GigabitEthernet0/3
-    type: 1000base-t
-  - name: GigabitEthernet0/5
-    type: 1000base-t
-  - name: GigabitEthernet0/4
-    type: 1000base-t
-  - name: GigabitEthernet0/6
-    type: 1000base-t    
-module-bays:
-  - name: rNDC-1
-  - name: rNDC-2
+  - description: eth0/MGMT (10.10.10.10)
