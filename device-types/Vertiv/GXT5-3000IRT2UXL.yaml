@@ -1,0 +1,42 @@
+---
+manufacturer: Vertiv
+model: GXT5-3000IRT2UXL
+slug: vertiv-gxt5-3000irt2uxl
+part_number: GXT5-3000IRT2UXL
+u_height: 2
+is_full_depth: true
+comments: Vertiv GXT5 UPS , 3000 VA, Rack/tower 2U [Product Page](https://www.vertiv.com/4a0991/globalassets/products/critical-power/uninterruptible-power-supplies-ups/user-manual_ap-version.pdf)
+weight: 28.5
+weight_unit: kg
+console-ports:
+  - name: USB
+    type: usb-b
+  - name: RS232
+    type: rj-45
+  - name: RS485
+    type: rj-45
+interfaces:
+  - name: Network Option (IntelliSlot Port)
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: Input Power
+    type: iec-60320-c20
+  - name: Battery connector (EBC)
+    type: other
+    label: ebc-input
+power-outlets:
+  - name: Power Outlet - Non Programmable 1
+    type: iec-60320-c13
+  - name: Power Outlet - Non Programmable 2
+    type: iec-60320-c13
+  - name: Power Outlet - Programmable 1
+    type: iec-60320-c13
+  - name: Power Outlet - Programmable 2
+    type: iec-60320-c13
+  - name: Power Outlet - Programmable 3
+    type: iec-60320-c13
+  - name: Power Outlet - Programmable 4
+    type: iec-60320-c13
+  - name: Power Outlet - Non Programmable 15A
+    type: iec-60320-c19
