@@ -1,0 +1,85 @@
+---
+manufacturer: MikroTik
+model: CRS326-4C+20G+2Q+RM
+slug: mikrotik-crs326-4c-plus-20g-plus-2q-plus-rm
+part_number: CRS326-4C+20G+2Q+RM
+is_full_depth: false
+u_height: 1
+airflow: passive
+comments: '[CRS326-4C+20G+2Q+RM Datasheet](https://mikrotik.com/product/crs326_4c_20g_2q_rm). Smart Switch, 20 x 2.5 Gigabit LAN, 4 x Combo 2.5GBASE-T or
+  SFP+ cages, Single Core 650MHz CPU, 128MB RAM, 32MB FLASH, 1U rackmount passive cooling case, Dual Power Supplies'
+interfaces:
+  - name: ether1
+    type: 2.5gbase-t
+  - name: ether2
+    type: 2.5gbase-t
+  - name: ether3
+    type: 2.5gbase-t
+  - name: ether4
+    type: 2.5gbase-t
+  - name: ether5
+    type: 2.5gbase-t
+  - name: ether6
+    type: 2.5gbase-t
+  - name: ether7
+    type: 2.5gbase-t
+  - name: ether8
+    type: 2.5gbase-t
+  - name: ether9
+    type: 2.5gbase-t
+  - name: ether10
+    type: 2.5gbase-t
+  - name: ether11
+    type: 2.5gbase-t
+  - name: ether12
+    type: 2.5gbase-t
+  - name: ether13
+    type: 2.5gbase-t
+  - name: ether14
+    type: 2.5gbase-t
+  - name: ether15
+    type: 2.5gbase-t
+  - name: ether16
+    type: 2.5gbase-t
+  - name: ether17
+    type: 2.5gbase-t
+  - name: ether18
+    type: 2.5gbase-t
+  - name: ether19
+    type: 2.5gbase-t
+  - name: ether20
+    type: 2.5gbase-t
+  - name: ether21
+    label: ETH/BOOT
+    type: 100base-tx
+  - name: combo1
+    label: SFP+ 1 (1F) or 2.5G (1T)
+    type: 10gbase-x-sfpp
+  - name: combo2
+    label: SFP+ 2 (2F) or 2.5G (2T)
+    type: 10gbase-x-sfpp
+  - name: combo3
+    label: SFP+ 3 (3F) or 2.5G (3T)
+    type: 10gbase-x-sfpp
+  - name: combo4
+    label: SFP+ 4 (4F) or 2.5G (4T)
+    type: 10gbase-x-sfpp
+  - name: qsfpplus1
+    label: QSFP+ 1
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus2
+    label: QSFP+ 2
+    type: 40gbase-x-qsfpp
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: power1
+    label: POWER 1
+    type: iec-60320-c14
+    maximum_draw: 70
+  - name: power2
+    label: POWER 2
+    type: iec-60320-c14
+    maximum_draw: 70
