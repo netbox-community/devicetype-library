@@ -1,0 +1,132 @@
+---
+manufacturer: Dell
+model: PowerEdge MX840c
+slug: dell-poweredge-mx840c
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+subdevice_role: parent
+airflow: front-to-rear
+comments: '## [Dell PowerEdge MX840c 8X2.5"-SFF ] 
+
+###     Base: PowerEdge MX840c Sled
+
+###     CPU(s): Up to 2 x Intel Xeon SP Multi Core
+
+###     Memory: 48 DIMM Slots (Max 6TB)
+
+###     HDD: Up to 8 x 2.5” SAS/SATA (HDD/SDD) or NVMe PCIe SSD
+
+###     RAID: S140 Software RAID, HBA330 Internal SAS HBA, PERC H730P Adapter,
+
+###     PERC H745P Adapter, HBA330 mini-mezzanine SAS HBA
+
+###     Processor:
+
+######  Two or four 2nd Generation Intel™ Xeon™ Scalable Processors, up to 28 cores per processor
+
+######  Intel® C628 Chipset with optional Intel® QuickAssist Technology
+
+###     Memory:
+
+######  48 DIMM slots in total; supports DDR4 RDIMMs, LRDIMMs; up to 2933 MT/s speeds,
+
+######  3TB maximum (RDIMM), 6TB maximum (LRDIMM)
+
+###     Persistent Memory:
+
+######  12 DIMM slots support NVDIMM-N; up to 2933 MT/s, 192GB maximum
+
+######  Supports up to 24 slots for Intel® OptaneTM DC persistent memory PMem (12.2TB) with a maximum total capacity of 15.36TB per server
+
+######  HDD/SDD Drive Bays:
+
+###     Front: Up to 8 x 2.5” SAS/SATA (HDD/SDD) or NVMe PCIe SSD
+
+######  Dimensions (LxWxD):
+
+######  610.39mm (24.03 inches) x 250.2mm (9.8 inches) x 85.5mm (3.37 inches)
+
+###     Controllers:
+
+######  Internal controllers: S140 Software RAID, HBA330 Internal SAS HBA, PERC H730P Adapter,
+
+######  PERC H745P Adapter, HBA330 mini-mezzanine SAS HBA
+
+######  Internal boot options: Choice of optional Boot Optimized Storage Solution (BOSS) (2 X M.2 SDDs) or
+
+######  Internal Dual SD Module (IDSDM
+
+###     Power Supplies:
+
+######  MX7000 chassis: up to 6 3000W; PSU & grid redundancy
+
+###     Fans:
+
+######  MX7000 chassis: 5 rear and 4 front-accessible hot-swap
+
+###     Form Factor:
+
+######  Up to 8 independent hot-swappable, 1U single-width compute sled in a MX7000 chassis
+
+###     Ports:
+
+####    Front ports:
+
+######  1 USB 3.0 port external port
+
+####    Internal port:
+
+######  1 x USB 3.0 internal port
+
+######  Video: Integrated VGA controller in iDRAC, VGA over LAN
+
+###     PCIe:
+
+######  4 PCIe 3.0 x 16 mezzanine slots (Fabric A and B)
+
+######  2 PCIe 3.0 x 16 mini-mezzanine slots (Fabric C)
+
+<https://www.dell.com/support/home/en-us/product-support/product/poweredge-mx840c/docs>
+
+
+<https://dl.dell.com/content/manual57563040-dell-emc-poweredge-mx840c-technical-specifications.pdf?language=en-us>
+
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/PowerEdge_MX7000_Spec_Sheet.pdf>
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/dell_emc_poweredge_mx7000_technical_guide.pdf>
+
+
+<https://dl.dell.com/topicspdf/poweredge-mx7000_owners-manual2_en-us.pdf>
+
+
+For {NETBOX}' 
+console-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front iDRAC Direct port
+    type: usb-micro-ab
+  - name: Internal SD (IDSDM)
+    type: other
+interfaces:
+  - name: iDRAC8
+    type: 1000base-t
+module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: BOSS-2 X M.2 SDDs
+  - name: MEZZ1_A1
+    description: 'mezzanine card connector for the expansion bus'
+  - name: MEZZ2_B1
+    description: 'mezzanine card connector for the expansion bus'
+  - name: MEZZ3_C1
+    description: 'mezzanine card connector for the expansion bus'
+device-bays:
+  - name: Drive bay-0/SSF
+  - name: Drive bay-1/SSF
+  - name: Drive bay-2/SSF
+  - name: Drive bay-3/SSF
+  - name: Drive bay-4/SSF
+  - name: Drive bay-5/SSF
