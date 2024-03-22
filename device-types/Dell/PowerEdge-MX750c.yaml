@@ -1,0 +1,179 @@
+---
+manufacturer: Dell
+model: PowerEdge MX750c
+slug: dell-poweredge-mx750c
+u_height: 1
+is_full_depth: false
+subdevice_role: child
+subdevice_role: parent
+airflow: front-to-rear
+comments: '## [Dell PowerEdge MX750c 6X2.5"-SFF ] 
+
+###     Base: PowerEdge MX750c Sled
+
+###     General Server Details:
+
+####    CPU(s):Up to 2 x 3rd Gen Intel Xeon SP Multi Core
+
+####    Memory:32 DDR4 DIMM Slots (Max 4TB)
+
+####    HDD:Up to 6 x 2.5-inch SAS/SATA/NVMe (HDD/SSD) 7.68 TB per drive
+
+####    RAID:PERC H755 MX, PERC H745P MX, HBA350i MX, S150
+
+
+
+
+
+
+###     Processor:
+
+######  Up to two 3rd Generation Intel Xeon Scalable processors, with up to 40 cores per processor
+
+######  Intel C620 series chipset with optional Intel QuickAssist Technology
+
+###     Memory:
+
+######  32 DDR4 DIMM slots, supports RDIMM max 2 TB or LRDIMM max 4 TB, speeds up to 3200 MT/s
+
+###     Persistent Memory:
+
+######  Supports up to 16 Intel Persistent Memory 200 series (BPS) slots with a maximum total capacity of 7.68 TB per sled
+
+######  HDD/SDD Drive Bays:
+
+######  Up to 4 x 2.5-inch SAS/SATA/NVMe 7.68 TB/drive
+
+######  Up to 6 x 2.5-inch SAS/SATA/NVMe 7.68 TB/drive
+
+###     Embedded Management:
+
+######  MX7000 chassis: OpenManage Enterprise Modular Edition
+
+######  Up to 2 redundant MX9002m management modules
+
+######  Unified control: single management point for server, storage, and networking
+
+######  Intelligent automation: Operational template methodology and comprehensive RESTful API
+
+######  Quick Sync 2 Bluetooth Low Energy (BLE)/wireless module
+
+###     On compute sled:
+
+######  iDRAC9
+
+######  iDRAC Direct
+
+######  iDRAC Service Module
+
+###     Dimensions:
+
+######  Height: 42.15 mm (1.65 inches)
+
+######  Width: 250.2 mm (9.85 inches)
+
+######  Depth: 594.99 mm (23.42 inches)
+
+###     Availability:
+
+######  Supports registered ECC DDR4 DIMMs only
+
+###     Controllers:
+
+######  Internal controllers: PERC H755 MX, PERC H745P MX, HBA350i MX, S150
+
+######  Boot Optimized Storage Subsystem (BOSS-S1): HWRAID 2 x M.2 SSDs 240 GB or 480 GB or Internal Dual SD Module (IDSDM) or USB
+
+######  External PERC (RAID): PERC H745P MX
+
+######  External HBAs (non-RAID): HBA330 MMZ
+
+###     Power Supplies:
+
+######  MX7000 chassis: Up to six 3000 W AC Platinum PSU and grid redundancy support
+
+###     Fans:MX7000 chassis: 5 rear and 4 front-accessible hot-swap fans with full redundancy
+
+###     Form Factor:
+
+######  Up to 8 independent hot-swappable, 1U single-width compute sled in a MX7000 chassis
+
+###     Networking Options (NDC):
+
+######  MX7000 chassis Fabric options: up to 2 pairs redundant general purpose switch or passthrough modular bays (Fabrics A and B); redundant pair of storage specific switch bays (Fabric C)
+
+######  Up to 25 Gb CNA/NIC per port for Mezz A/B, 32 Gb Fibre Channel, 12 Gbps SAS for Mezz C
+
+###     Ports:
+
+####    Front ports:
+
+######  1 x iDRAC Direct port (Micro-AB USB)
+
+######  1 x USB 3.0
+
+####    Internal port:
+
+######  1 x USB 3.0
+
+###    PCIe:
+
+######  1 x16 PCIe Gen4 slot for Mezz A – to processor 1
+
+######  1 x16 PCIe Gen4 slot for Mezz B – to processor 2
+
+######  1 x16 PCIe Gen4 slot for Mini Mezz card – to processor 2
+
+######  1 x16 PCIe Gen4 slot for PERC – to processor 1
+
+######  2 x8 PCIe Gen4 connectors for NVMe drive – to processor 1
+
+######  1 x8 PCIe Gen4 connectors for NVMe drive – to processor 2
+
+######  2 x4 PCIe Gen3 slot for BOSS M.2 HW RAID card – to Platform Controller Hub (PCH)
+
+
+
+<https://dl.dell.com/content/manual16980793-dell-emc-poweredge-mx750c-installation-and-service-manual.pdf?language=en-us>
+
+
+<https://dl.dell.com/content/manual17347970-dell-emc-poweredge-mx750c-technical-specifications.pdf?language=en-us>
+
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/PowerEdge_MX7000_Spec_Sheet.pdf>
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/dell_emc_poweredge_mx7000_technical_guide.pdf>
+
+
+<https://dl.dell.com/topicspdf/poweredge-mx7000_owners-manual2_en-us.pdf>
+
+
+For {NETBOX}' 
+console-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front iDRAC Direct port
+    type: usb-micro-ab
+  - name: Internal SD (IDSDM)
+    type: other
+interfaces:
+  - name: iDRAC8
+    type: 1000base-t
+module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: BOSS-2 X M.2 SDDs
+  - name: MEZZ1_A1
+    description: 'mezzanine card connector for the expansion bus'
+  - name: MEZZ2_B1
+    description: 'mezzanine card connector for the expansion bus'
+  - name: MEZZ3_C1
+    description: 'mezzanine card connector for the expansion bus'
+device-bays:
+  - name: Drive bay-0/SSF
+  - name: Drive bay-1/SSF
+  - name: Drive bay-2/SSF
+  - name: Drive bay-3/SSF
+  - name: Drive bay-4/SSF
+  - name: Drive bay-5/SSF
