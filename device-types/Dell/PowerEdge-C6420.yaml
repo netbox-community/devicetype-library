@@ -2,18 +2,227 @@
 manufacturer: Dell
 model: PowerEdge C6420
 slug: dell-poweredge-c6420
-u_height: 2
+u_height: 0
 is_full_depth: false
-comments: |
-  [Dell C6420 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/dell-emc-poweredge-c6520-spec-sheet.pdf)
-module-bays:
-  - name: Power 1
-    position: '1'
-  - name: Power 2
-    position: '2'
+subdevice_role: child
+comments: '[Dell C6420 Sled Spec Sheet]
+
+
+##       Base: PowerEdge C6420
+
+###      Processor:
+
+######   Up to two 2nd Generation Intel® Xeon® Scalable processors, up to 205W and 28 cores per processor
+
+###      Memory:
+
+######   8 DIMM slots per socket with max of 1024GB with options for 16GB/32GB/64GB RDIMMS @ 2933MT/s, 8GB RDIMMs @2666MT/s, and 128 LRDIMMs @2666MT/s
+
+###      Storage:
+
+######   One 120/240GB M.2 SATA RI SSD boot drive or Two 120/240GB M.2 SATA RI SSD boot drives in RAID 1,
+
+######   One 16/32/64GB MicroSD card
+
+######   Controllers: S140 Software RAID with Intel C620 Chipset SATA controller (RAID 0, 1, 5, 10)
+
+######   Hardware RAID using PERC H330 Mezzanine (RAID 0, 1, 5, 10, 50), PERC H730p Mezzanine (RAID 0, 1, 5, 6, 10, 50, 60)
+
+######   Non RAID: HBA330 Mezzanine, 12Gbps SAS LP PCIe HBA
+
+###      Drive Options:
+
+######   HDD:
+
+######   300/600/900GB 2.5” 15K 12Gb SAS Drives
+
+######   300/600GB/1.2TB/1.8TB/2.4TB 2.5” 10K 12Gb SAS Drives
+
+######   1TB/2TB 2.5” 7.2K 12Gb SAS Drives
+
+######   1/2/4/8/10/12TB 3.5” 7.2K 12Gb SAS/ 6Gbps SATA Drives
+
+
+###      SSD:
+
+######   120GB 2.5” 6Gbps SATA Boot SSD
+
+######   240/480GB/800GB/960GB/1.6TB/1.92TB/3.84TB 6Gbps SATA Read Intensive
+
+######   200/240/400/480/800/960GB/1600/1962GB 6Gbps SATA Mixed Use
+
+######   480/960/1920/3840/7680 GB 12Gb SAS Read Intensive
+
+######   400/480/960/1600/1920/3840GB 12Gbps SAS Mixed Use
+
+######   400/800/1600/3200GB12Gb SAS Write Intensive
+
+###      FIPS-140 Self Encrypting Drives:
+
+######   900GB/1.2TB/2.4TB 2.5” 10K 12Gb SAS FIPS-140 SED HDD
+
+######   2TB 2.5” 7.2K 12Gb SAS FIPS-140 SED HDD
+
+######   4TB/8TB 12Gbps SAS FIPS-140 SED HDD 1.92TB Mixed Use
+
+######   SATA SED SSD
+
+
+###      2.5” NVMe Drives and Add-in PCIe cards:
+
+######   800GB/1TB/1.6TB/2TB/3.2TB/4TB/6.4TB Mixed Use
+
+######   1/2/4/TB Read Intensive
+
+###      Power & Cooling Options:
+
+######   Dual Hot-plug fault-tolerant, fully redundant or non-redundant 1600W AC Power Supply
+
+######   Dual Hot-plug fault-tolerant or fully redundant 2000W and 2400W AC Power Supply
+
+######   Four dual rotor redundant, non-hot swappable fans
+
+######   Air and Direct Contact Liquid Cooling (DCLC) options
+
+###      Chassis Options:
+
+######   24 x 2.5” Direct Backplane w/ up to 6 SAS/SATA drives
+
+######   24 x 2.5” Expander Backplane w/ up to 12 SAS/SATA drives per sled & 2 sleds per C6400 chassis
+
+######   24 x 2.5” NVMe Backplane w/ up to 2 SAS/SATA/NVMe drives & 4 SAS/SATA drives
+
+######   12 x 3.5” Direct Backplane w/ up to 3 SAS/SATA drives
+
+######   No Backplane option w/ no external drives
+
+###      Security:
+
+######   TPM 1.2/2.0 optional
+
+######   Cryptographically signed firmware
+
+######   Secure Boot
+
+######   Hardware Root of Trust
+
+######   System Lockdown
+
+######   Secure Erase
+
+
+###      I/O & Ports:
+
+######   Rear: 2 x USB 3.0 ports, 1 Micro USB port for iDRAC Direct
+
+######   1 x16 PCIe Gen3 riser (low profile, half height & length)
+
+######   1 x8 PCIe Gen3 Mezzanine (for storage controller)
+
+######   1 x16 PCIe Gen3 OCP Mezzanine (for network controller)
+
+######   1 x16 PCIe Gen3 riser (for M.2 Boot Device)
+
+
+###      Network Cards:
+
+######   One 1Gb Ethernet LOM port for systems management or shared with host
+
+
+###      1Gb Ethernet
+
+######   Intel i350 1Gb Dual Port Ethernet LP PCIe
+
+######   Broadcom 5720 1Gb Dual Port Ethernet LP PCIe
+
+
+###      10Gb Ethernet
+
+######   Intel X710 Dual Port 10Gb SFP+ OCP Mezzanine
+
+######   Intel X710 Dual Port 10Gb SFP+ LP PCIe
+
+######   Intel X520 Dual Port 10Gb SFP+ LP PCIe
+
+######   Intel X710 Dual Port 10Gb BASE-T LP PCIe
+
+######   Intel X550 Dual Port 10Gb BASE-T LP PCIe
+
+######   Intel X710 Quad Port 10Gb BASE-T LP PCIe
+
+######   Broadcom 57412 10Gb SFP+ LP PCIer
+
+######   Broadcom 57416 10Gb BASE-T LP LP PCIe
+
+######   QLogic 41162 Dual Port 10Gb BASE-T LP PCIe
+
+######   QLogic 41112 Dual Port 10Gb SFP+ LP PCIe
+
+######   SolarFlare 8522 Dual Port 10Gb SFP+ LP PCIe
+
+######   Mellanox ConnectX-3 Pro 10Gb Dual Port LP PCIe
+
+
+###      25Gb Ethernet:
+
+######   Broadcom 57414 Dual Port 25Gbps SFP28 PCIe LP
+
+######   QLogic 41262 Dual Port 25Gbps SFP28 LP PCIe
+
+######   Intel® 25GBE 2P XXV710
+
+######   Mellanox ConnectX-4 Lx Dual Port 25Gbps SFP28 LP PCIe
+
+
+###      40Gb Ethernet
+
+######   Mellanox ConnectX-3 Pro Dual Port 40Gbps QSFP+ LP PCIe
+
+######   Intel XL710 Dual Port 40Gbps QSFP+ LP PCIe
+
+######   100Gb Ethernet / Infiniband
+
+######   Mellanox ConnectX-4 Dual Port 100Gb QSFP+ LP PCIe
+
+######   Mellanox ConnectX-3 VPI QSFP+ Single Port FDR LP PCIe
+
+######   Mellanox ConnectX-4 Single Port VPI QSFP28 EDR LP PCIe
+
+######   Mellanox ConnectX-4 Dual Port VPI QSFP28 EDR LP PCIe
+
+######   Dual port QSFP carrier card for processors with integrated Intel Omni-Path Fabric
+
+######   ConnectX-5 Single Port VPI EDR QSFP28
+
+
+<https://dl.dell.com/content/manual18564449-dell-emc-poweredge-c6420-installation-and-service-manual.pdf?language=en-us>
+
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/c6420-technical-guide.pdf>
+
+
+for NETBOX '
+console-ports:
+  - name: USB
+    type: usb-a
+  - name: Rear VGA
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear Dedicated iDRAC direct USB
+    type: usb-mini-b
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: iDRAC
+  - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: PERC
+    description: 'PERC H330, H730p'
+  - name: M.2 Boot Device
+  - name: OCP NIC Optional
+  - name: SLOT-1 PCIe-Gen3
+  - name: SLOT-2 PCIe-Gen3    

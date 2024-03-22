@@ -4,8 +4,146 @@ model: PowerEdge C6400
 slug: dell-poweredge-c6400
 u_height: 2
 is_full_depth: false
+airflow: front-to-rear
+subdevice_role: parent
+weight: 97.0
+weight_unit: lb
+comments: '## [Dell PowerEdge C6400 Enclosure 4 X PowerEdge C6420 Node w/ Half-Width Nodes-W/O PCIe support] 
+
+##      Base: PowerEdge C6400
+
+###     Product Class: Server
+
+######  Dell Server Generation: 14th
+
+######  Dell Server Generation: 15th
+
+###     Power Supply: 1600W, 2000W, or 2400W
+
+###     Fan Details: 4
+
+######  Node Options: Up to 4 C-Series Node options
+
+###     Dimensions & Weight:
+
+######  W: 797.3 mm (31.38")
+
+######  H: 86.8 mm (3.41")
+
+######  D: 482.6 mm (19")
+
+
+###     Weight:
+
+######  12 x 3.5-inch hard drive systems 43.62 Kg (96.16 lb)
+
+######  24 x 2.5-inch hard drive systems 41.46 Kg (91.40 lb)
+
+######  No backplane systems 34.56 Kg (76.19 lb)
+
+
+###     Power Supply: Platinum 1600W, 2000W, 2400W AC
+
+
+###     Supported RAID options with M.2 SATA drives:
+
+######  12 x 3.5-inch drive systems; Three SAS or SATA hard drives and SSDs per sled
+
+######  Single M.2 SATA drive without RAID
+
+######  Dual M.2 SATA drives with hardware RAID
+
+
+###     Drives:
+
+######  12 x 3.5-inch drive systems; Three SAS or SATA hard drives and SSDs per sled
+
+######  24 x 2.5-inch drive systems; Six SAS or SATA hard drives and SSDs per sled
+
+######  24 x 2.5-inch drive systems with NVMe; The NVMe backplane supports either of these configurations:
+
+######  Two NVMe drives and four SAS or SATA hard drives and SSDs per sled
+
+######  Six SAS or SATA hard drives and SSDs per sled
+
+######  M.2 SATA drive (optional); The supported capacity of the M.2 SATA card is up to 240 GB
+
+######  Micro-SD card (optional) for boot (up to 64 GB); One on each PCIe riser of each sled
+
+<https://dl.dell.com/content/manual31239427-dell-emc-poweredge-c6400-installation-and-service-manual.pdf?language=en-us>
+
+<https://dl.dell.com/topicspdf/poweredge-c6400_owners-manual2_en-us.pdf>
+
+<https://i.dell.com/sites/csdocuments/Product_Docs/en/c6420-technical-guide.pdf>
+
+
+for NETBOX '
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 2400
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 2400
 module-bays:
-  - name: Power 1
+  - name: Sled 1
+    description: 'PowerEdge C6420 Node per Sled' 
     position: '1'
-  - name: Power 2
+  - name: Sled 2
+    description: 'PowerEdge C6420 Node per Sled' 
     position: '2'
+  - name: Sled 3
+    description: 'PowerEdge C6420 Node per Sled' 
+    position: '3'
+  - name: Sled 4
+    description: 'PowerEdge C6420 Node per Sled' 
+    position: '4'
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF SLED-1'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF SLED-1'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF SLED-1'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF SLED-1'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF SLED-1'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF SLED-1'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF SLED-2'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF SLED-2'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF SLED-2'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF SLED-2'
+  - name: Drive bay-10/SFF
+    description: '2.5" SFF SLED-2'
+  - name: Drive bay-11/SFF
+    description: '2.5" SFF SLED-2'
+  - name: Drive bay-12/SFF
+    description: '2.5" SFF SLED-3'
+  - name: Drive bay-13/SFF
+    description: '2.5" SFF SLED-3'
+  - name: Drive bay-14/SFF
+    description: '2.5" SFF SLED-3'
+  - name: Drive bay-15/SFF
+    description: '2.5" SFF SLED-3'
+  - name: Drive bay-16/SFF
+    description: '2.5" SFF SLED-3'
+  - name: Drive bay-17/SFF
+    description: '2.5" SFF SLED-3'
+  - name: Drive bay-18/SFF
+    description: '2.5" SFF SLED-4'
+  - name: Drive bay-19/SFF
+    description: '2.5" SFF SLED-4'
+  - name: Drive bay-20/SFF
+    description: '2.5" SFF SLED-4'
+  - name: Drive bay-21/SFF
+    description: '2.5" SFF SLED-4'
+  - name: Drive bay-22/SFF
+    description: '2.5" SFF SLED-4'
+  - name: Drive bay-23/SFF
+    description: '2.5" SFF SLED-4'
