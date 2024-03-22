@@ -1,0 +1,121 @@
+---
+manufacturer: Dell
+model: PowerEdge C6520
+slug: dell-poweredge-c6520
+u_height: 0
+is_full_depth: false
+comments: '### Dell C6520 Sled Spec Sheet w/ (Dell EMC PowerEdge C6400 chassis)
+
+##      Base: PowerEdge C6520 Server (Dell EMC PowerEdge C6400 chassis)
+
+###     CPU(s): Up to two 3rd Generation Intel Xeon Scalable processors per node, with up to 40 cores per processor
+
+###     Memory: 16 DDR4 DIMM slots, supports RDIMM of 1 TB max or LRDIMM of 2 TB max, speeds up to 3200 MT/s
+
+###     RAID: PERC H745, H750, HBA345, HBA355i, S150, H345, H350
+
+######  RAID: PERC H745, H750, HBA345, HBA355i, S150, H345, H350
+
+###     HDD: Up to 24 x 2.5-inch SAS/SATA (HDD/SSD)/NVMe drives max 368.64 TB
+
+###     RISER: Up to 4 x PCIe Gen4 slots (3 x16, 1 x8) with support for SNAP I/O modules
+
+###     Power: Dual hot-plug redundant
+
+###     Nodes:
+
+######  4 hot-swappable dual-socket compute nodes in a 2U chassis
+
+###     Processor:
+
+######  Up to two 3rd Generation Intel Xeon Scalable processors per node, with up to 40 cores per processor
+
+###     Dimensions:
+
+######  Height – 86.36 mm (3.4 inches)
+
+######  Width – 447.04 mm (17.6 inches)
+
+######  Depth – 802.64 mm (31.6 inches)
+
+######  Weight (12 x 3.5" Direct Backplane Chassis) – 45.6 kg (100.53 lbs)
+
+######  Weight (24 x 2.5" Direct Backplane Chassis) – 41.4 kg (91.27 lbs)
+
+######  Weight (No Backplane) – 35 kg (77.16 lbs)
+
+###     Power Supplies:
+
+######  Dual hot-plug redundant 100 - 240 V AC Platinum (2600 W, 2400 W, 2000 W, 1600 W) , 200 - 240 V AC Titanium (2600 W, 1600 W) Power supply units
+
+###     Fans:
+
+######  Non-Hot plug fans
+
+###     Cooling Options:
+
+######  Air cooling, optional processor liquid cooling
+
+###     Memory:
+
+######  16 DDR4 DIMM slots, supports RDIMM of 1 TB max or LRDIMM of 2 TB max, speeds up to 3200 MT/s
+
+######  Supports unregistered ECC DDR4 DIMMs only
+
+###     Drive Bays:
+
+####    Front Bays:
+
+######  Up to 12 x 3.5-inch SAS/SATA (HDD/SSD) drives max 92.16 TB
+
+######  Up to 24 x 2.5-inch SAS/SATA (HDD/SSD)/NVMe drives max 368.64 TB
+
+######  Embedded NIC: 1 x 1 GbE LOM riser
+
+######  Network Cards: 1 x OCP 3.0 x16 Gen4 (for network controller)
+
+###     GPU options: Low-profile (Half-height) 70 W GPU
+
+###     Rear Ports:
+
+######  1 x iDRAC Direct (Micro-AB USB) port
+
+######  1 x Mini-DisplayPort
+
+######  1 x USB 3.0
+
+######  1 x iDRAC or NIC port or RJ45
+
+###     PCIe: Up to 4 x PCIe Gen4 slots (3 x16, 1 x8) with support for SNAP I/O modules
+
+<https://dl.dell.com/content/manual31239427-dell-emc-poweredge-c6400-installation-and-service-manual.pdf?language=en-us>
+
+<https://dl.dell.com/topicspdf/poweredge-c6400_owners-manual2_en-us.pdf>
+
+<https://dl.dell.com/content/manual887338-dell-emc-poweredge-c6520-installation-and-service-manual.pdf?language=en-us>
+
+<https://dl.dell.com/content/manual24280391-dell-emc-poweredge-c6520-technical-specifications.pdf?language=en-us> 
+
+for NETBOX '
+console-ports:
+  - name: USB
+    type: usb-a
+  - name: Rear VGA
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear Dedicated iDRAC direct USB
+    type: usb-micro-ab
+interfaces:
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
+  - name: PERC
+    description: 'PERC H330, H730p'
+  - name: M.2 SATA card/BOSS card S1V5
+  - name: OCP NIC Optional
+  - name: SLOT-1 PCIe-Gen3
+  - name: SLOT-2 PCIe-Gen3    
