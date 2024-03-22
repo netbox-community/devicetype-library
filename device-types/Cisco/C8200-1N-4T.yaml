@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: Catalyst C8200-1N-4T
+slug: cisco-c8200-1n-4t
+part_number: C8200-1N-4T
+weight: 4.54
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: false
+u_height: 1
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 100
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+module-bays:
+  - name: PIM1
+    position: '1'
+  - name: NIM1
+    position: '1'

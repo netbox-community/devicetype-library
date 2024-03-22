@@ -4,9 +4,15 @@ model: 2951 ISR
 part_number: CISCO2951/K9
 slug: cisco-2951-isr
 u_height: 2
+weight: 15.5
+weight_unit: kg
+airflow: rear-to-front
 is_full_depth: true
+comments: '[Cisco 2900 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/collateral/routers/2900-series-integrated-services-routers-isr/data_sheet_c78_553896.html)'
 console-ports:
   - name: con 0
+    type: rj-45
+  - name: aux
     type: rj-45
 power-ports:
   - name: PS-1
@@ -20,3 +26,12 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet0/2
     type: 1000base-t
+module-bays:
+  - name: EHWIC-0
+    position: '0'
+  - name: EHWIC-1
+    position: '1'
+  - name: EHWIC-2
+    position: '2'
+  - name: EHWIC-3
+    position: '3'
