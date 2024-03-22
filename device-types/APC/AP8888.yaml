@@ -1,0 +1,213 @@
+---
+manufacturer: APC
+model: AP8888
+slug: apc-ap8888
+part_number: AP8888
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 30.97
+weight_unit: lb
+# description: APC NetShelter Metered Rack PDU, 0U, 400V 3 phase input, 23kVA, 240V output, 30 x C13 and 12 x C19
+comments: |
+  Documentation
+
+  - [Product Page](https://www.apc.com/us/en/product/AP8888/)
+
+  Ports are enumerated left to right, top to bottom, when the PDU is oriented vertically with the power cord up. Port numbers are grouped per line/phase, across banks.
+console-ports:
+  - name: Serial
+    label: Serial
+    type: rj-12
+  - name: CAN Out
+    label: Out
+    type: rj-45
+console-server-ports:
+  - name: CAN In
+    label: In
+    type: rj-45
+interfaces:
+  - name: Network
+    label: Network
+    type: 100base-tx
+    mgmt_only: true
+power-ports:
+  - name: Power Cord
+    type: iec-60309-3p-n-e-6h
+    # allocated_draw: Leave blank for PDUs
+    # maximum_draw: Leave blank for PDUs
+power-outlets:
+# L1 - Line 1, Bank 1
+  - name: L1 Bank 1 C13 01
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 1 C13 02
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 1 C13 03
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 1 C13 04
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 1 C19 01
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 1 C19 02
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+# L1 - Line 1, Bank 2
+  - name: L1 Bank 2 C13 05
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C13 06
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C13 07
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C13 08
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C13 09
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C13 10
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C19 03
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 Bank 2 C19 04
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+# L2 - Line 2, Bank 3
+  - name: L2 Bank 3 C13 01
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 3 C13 02
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 3 C13 03
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 3 C13 04
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 3 C19 01
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 3 C19 02
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+# L2 - Line 2, Bank 4
+  - name: L2 Bank 4 C13 05
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C13 06
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C13 07
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C13 08
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C13 09
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C13 10
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C19 03
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 Bank 4 C19 04
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+# L3 - Line 3, Bank 5
+  - name: L3 Bank 5 C13 01
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 5 C13 02
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 5 C13 03
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 5 C13 04
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 5 C19 01
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 5 C19 02
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord
+# L3 - Line 3, Bank 6
+  - name: L3 Bank 6 C13 05
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C13 06
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C13 07
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C13 08
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C13 09
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C13 10
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C19 03
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 Bank 6 C19 04
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord

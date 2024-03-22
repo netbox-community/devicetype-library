@@ -1,0 +1,10 @@
+---
+manufacturer: Supermicro
+model: PWS-505P-1H
+part_number: PWS-505P-1H
+comments: |
+  [500W 1U Multi-Output Power Supply](https://store.supermicro.com/media/wysiwyg/productspecs/PWS-505P-1H/PWS-505P-1H_quick_spec.pdf)
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 500

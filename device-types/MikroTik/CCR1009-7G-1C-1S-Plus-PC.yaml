@@ -1,0 +1,45 @@
+---
+manufacturer: MikroTik
+model: CCR1009-7G-1C-1S+PC
+slug: mikrotik-ccr1009-7g-1c-1s-plus-pc
+is_full_depth: false
+u_height: 1
+airflow: front-to-rear
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    label: ETH1
+  - name: ether2
+    type: 1000base-t
+    label: ETH2
+  - name: ether3
+    type: 1000base-t
+    label: ETH3
+  - name: ether4
+    type: 1000base-t
+    label: ETH4
+  - name: ether5
+    type: 1000base-t
+    label: ETH5
+  - name: ether6
+    type: 1000base-t
+    label: ETH6
+  - name: ether7
+    type: 1000base-t
+    label: ETH7 (POE/BOOT)
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: combo1
+    type: 1000base-x-sfp
+    label: SFP/ETH
+console-ports:
+  - name: serial0
+    type: de-9
+power-ports:
+  - name: dc-in
+    type: dc-terminal
+    maximum_draw: 33
+    label: DC-In
+    description: Barrel Jack DC In

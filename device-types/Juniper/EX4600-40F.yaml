@@ -1,0 +1,144 @@
+---
+manufacturer: Juniper
+model: EX4600-40F
+slug: juniper-ex4600-40f
+part_number: EX4600-40F
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 9.84
+weight_unit: kg
+comments: '[Juniper EX4600 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex4600-ethernet-switch-datasheet.pdf)'
+interfaces:
+  - name: ge-0/0/0
+    type: 1000base-x-sfp
+  - name: ge-0/0/1
+    type: 1000base-x-sfp
+  - name: ge-0/0/2
+    type: 1000base-x-sfp
+  - name: ge-0/0/3
+    type: 1000base-x-sfp
+  - name: ge-0/0/4
+    type: 1000base-x-sfp
+  - name: ge-0/0/5
+    type: 1000base-x-sfp
+  - name: ge-0/0/6
+    type: 1000base-x-sfp
+  - name: ge-0/0/7
+    type: 1000base-x-sfp
+  - name: ge-0/0/8
+    type: 1000base-x-sfp
+  - name: ge-0/0/9
+    type: 1000base-x-sfp
+  - name: ge-0/0/10
+    type: 1000base-x-sfp
+  - name: ge-0/0/11
+    type: 1000base-x-sfp
+  - name: ge-0/0/12
+    type: 1000base-x-sfp
+  - name: ge-0/0/13
+    type: 1000base-x-sfp
+  - name: ge-0/0/14
+    type: 1000base-x-sfp
+  - name: ge-0/0/15
+    type: 1000base-x-sfp
+  - name: ge-0/0/16
+    type: 1000base-x-sfp
+  - name: ge-0/0/17
+    type: 1000base-x-sfp
+  - name: ge-0/0/18
+    type: 1000base-x-sfp
+  - name: ge-0/0/19
+    type: 1000base-x-sfp
+  - name: ge-0/0/20
+    type: 1000base-x-sfp
+  - name: ge-0/0/21
+    type: 1000base-x-sfp
+  - name: ge-0/0/22
+    type: 1000base-x-sfp
+  - name: ge-0/0/23
+    type: 1000base-x-sfp
+  - name: xe-0/0/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/3
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/4
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/5
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/6
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/7
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/8
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/9
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/10
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/11
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/12
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/13
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/14
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/15
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/16
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/17
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/18
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/19
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/20
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/21
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/22
+    type: 10gbase-x-sfpp
+  - name: xe-0/0/23
+    type: 10gbase-x-sfpp
+  - name: et-0/0/24
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/25
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/26
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/27
+    type: 40gbase-x-qsfpp
+  - name: em0
+    type: 1000base-t
+    mgmt_only: true
+  - name: em1
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PIC 1
+    position: '1'
+  - name: PIC 2
+    position: '2'
+  - name: Power Supply 0
+    position: '0'
+  - name: Power Supply 1
+    position: '1'
+  - name: Fan tray 0
+    position: '0'
+  - name: Fan tray 1
+    position: '1'
+  - name: Fan tray 2
+    position: '2'
+  - name: Fan tray 3
+    position: '3'
+  - name: Fan tray 4
+    position: '4'
+console-ports:
+  - name: Console
+    type: rj-45

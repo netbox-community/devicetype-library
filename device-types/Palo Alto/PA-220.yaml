@@ -1,16 +1,20 @@
 ---
 manufacturer: Palo Alto
 model: PA-220
-slug: pa-220
+slug: palo-alto-pa-220
 part_number: PA-220
-u_height: 1
+u_height: 0
+subdevice_role: child
 is_full_depth: false
 comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
+airflow: passive
+weight: 3
+weight_unit: lb
 power-ports:
   - name: PS1
-    type: nema-1-15p
+    type: dc-terminal
   - name: PS2
-    type: nema-1-15p
+    type: dc-terminal
 console-ports:
   - name: console
     type: rj-45

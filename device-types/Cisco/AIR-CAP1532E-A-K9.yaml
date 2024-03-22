@@ -9,9 +9,10 @@ console-ports:
   - name: Con
     type: rj-45
 interfaces:
-  - name: Port 1
+  - name: GigabitEthernet0
     type: 1000base-t
-  - name: Port 2
+    poe_mode: pd
+  - name: GigabitEthernet1
     type: 1000base-t
   - name: WiFi
     type: ieee802.11n

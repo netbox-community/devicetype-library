@@ -1,14 +1,18 @@
 ---
 manufacturer: Ericsson
 model: R6672
-slug: r6672
+slug: ericsson-r6672
 part_number: R6672
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
 console-ports:
   - name: console
     type: rj-45
     description: baudrate 115200
+power-ports:
+  - name: PSU1
+    type: iec-60320-c16
 interfaces:
   - name: 1/1
     type: 1000base-x-sfp

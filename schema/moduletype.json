@@ -11,18 +11,10 @@
             "type": "string"
         },
         "weight": {
-            "type": "number",
-            "minimum": 0,
-            "multipleOf": 0.01
+            "$ref": "reusable.json#/definitions/weight"
         },
         "weight_unit": {
-            "type": "string",
-            "enum": [
-                "kg",
-                "g",
-                "lb",
-                "oz"
-            ]
+            "$ref": "generated_schema.json#/definitions/weight-unit"
         },
         "console-ports": {
             "type": "array",
@@ -65,6 +57,9 @@
             "items": {
                 "$ref": "components.json#/definitions/rear-port"
             }
+        },
+        "description": {
+            "type": "string"
         },
         "comments": {
             "type": "string"

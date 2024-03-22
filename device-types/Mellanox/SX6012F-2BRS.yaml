@@ -1,0 +1,49 @@
+---
+manufacturer: Mellanox
+model: SX6012F-2BRS
+slug: mellanox-sx6012f-2brs
+part_number: MSX6012F-2BRS
+airflow: front-to-rear
+weight: 2.98
+weight_unit: kg
+subdevice_role: child
+console-ports:
+  - name: Serial Console
+    type: rj-45
+  - name: USB Console
+    type: usb-mini-b
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 152
+  - name: PS2
+    type: iec-60320-c14
+    allocated_draw: 152
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+  - name: IB1/1
+    type: infiniband-fdr
+  - name: IB1/2
+    type: infiniband-fdr
+  - name: IB1/3
+    type: infiniband-fdr
+  - name: IB1/4
+    type: infiniband-fdr
+  - name: IB1/5
+    type: infiniband-fdr
+  - name: IB1/6
+    type: infiniband-fdr
+  - name: IB1/7
+    type: infiniband-fdr
+  - name: IB1/8
+    type: infiniband-fdr
+  - name: IB1/9
+    type: infiniband-fdr
+  - name: IB1/10
+    type: infiniband-fdr
+  - name: IB1/11
+    type: infiniband-fdr
+  - name: IB1/12
+    type: infiniband-fdr

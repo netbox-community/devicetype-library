@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
 model: Nexus 3132Q-40GX
-slug: cisco-n3k-c3132q-40gx
-part_number: s
+slug: cisco-nexus-3132q-40gx
+part_number: N3K-C3132Q-40GX
 u_height: 1
 is_full_depth: false
 interfaces:
@@ -81,17 +81,13 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ethernet1/36
     type: 10gbase-x-sfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    allocated_draw: 170
-    maximum_draw: 290
-  - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 170
-    maximum_draw: 290
 console-ports:
   - name: Console
     type: rj-45
   - name: usb0
     type: usb-mini-b
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

@@ -1,0 +1,35 @@
+---
+manufacturer: WatchGuard
+model: Firebox M370
+slug: watchguard-firebox-m370
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Firebox M370, M470, M570 and M670 Hardware Guide](https://www.watchguard.com/help/docs/hardware%20guides/Firebox_M370_470_570_670_Hardware_Guide.pdf)'
+weight: 5
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 220
+    allocated_draw: 220
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-t
+  - name: eth7
+    type: 1000base-t

@@ -1,7 +1,7 @@
 ---
 manufacturer: Extreme Networks
 model: X460-G2-48p-10GE4
-slug: x460-g2-48p-10ge4
+slug: extreme-networks-x460-g2-48p-10ge4
 part_number: '16704'
 u_height: 1
 is_full_depth: true
@@ -114,16 +114,11 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: '52'
     type: 10gbase-x-sfpp
-  - name: '53'
-    type: other
-    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-  - name: '54'
-    type: other
-    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
   - name: Mgmt
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: PSU-1
   - name: PSU-2
   - name: VIM-2
+    position: VIM
