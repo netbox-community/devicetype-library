@@ -11,10 +11,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
-        with:
-          ref: "main/tests"
-          path: "tests"
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
@@ -39,7 +35,6 @@ jobs:
       - name: Commit and Push Changes to Master
         uses: EndBug/add-and-commit@v9
         with:
-          cwd: "./tests/"
           author_name: NetBox-Bot
           author_email: info@netboxlabs.com
           committer_name: NetBox-Bot
