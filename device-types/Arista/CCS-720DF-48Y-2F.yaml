@@ -4,14 +4,65 @@ model: CCS-720DF-48Y-2F
 slug: arista-ccs-720df-48y-2f
 part_number: CCS-720DF-48Y-2F
 u_height: 1
-weight: 9.92
+weight: 11
 weight_unit: lb
 airflow: front-to-rear
 is_full_depth: false
-comments: '[Arista CCS-720D Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720D-Datasheet.pdf)'
+comments: '### [Arista CCS-720DF-48Y-2F Data Sheet]
+
+###     Arista CCS-720DF-48Y-2F switch:
+
+
+####    Ports:
+
+######  24 mGig (100M - 2.5Gb) RJ45: Each port supports up to 60W PoE.
+
+######  48 SFP (1G): Data-only (non-PoE) ports.
+
+######  4 SFP28 (25G): Uplinks.
+
+######  Throughput (Full Duplex): 148 Gbps
+
+######  Packets/Second: 220 Mpps
+
+######  Latency (RJ-45): 1.2 microseconds
+
+######  System Memory: 4GB
+
+######  System Flash: 8GB
+
+######  Packet Buffer: 8MB
+
+######  Form Factor: Compact 1RU rack-mountable (12.5”/31.75cm deep)
+
+######  Reliability and Efficiency:
+
+######  N+1 cooling
+
+######  Fixed Power Supply and Fans with redundancy
+
+######  Persistent POE on reboot
+
+######  Priority power assignment
+
+######  Less than 175W power for switching (excluding POE)
+
+######  Form Factor: Front-Rear airflow
+
+######  Size (W x H x D): 440 x 43.5 x 330 mm (17.32 x 1.71 x 12.99 inches)
+
+######  Weight:  4.8 kg (10.58 lbs)
+
+
+(https://www.arista.com/assets/data/pdf/Datasheets/CCS-720D-Datasheet.pdf)
+
+
+<https://www.arista.com/assets/data/pdf/qsg/qsg-books/QS_720D_Ethernet.pdf>'
 console-ports:
   - name: Console
     type: rj-45
+  - name: Front USB1
+    type: usb-a    
 power-ports:
   - name: PS1
     type: iec-60320-c14
