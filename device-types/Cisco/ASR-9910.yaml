@@ -44,9 +44,10 @@ power-ports:
   - name: PS11
     type: iec-60320-c22
     maximum_draw: 6000
-device-bays:
+module-bays:
   - name: Slot 0
     label: RSP 0
+    position: 0/RP0
   - name: Slot 1
     label: Line Card 0
   - name: Slot 2
@@ -65,3 +66,4 @@ device-bays:
     label: Line Card 7
   - name: Slot 9
     label: RSP 1
+    position: 0/RP1
