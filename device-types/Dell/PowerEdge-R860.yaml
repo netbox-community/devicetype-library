@@ -1,0 +1,269 @@
+---
+manufacturer: Dell
+model: PowerEdge R860
+slug: dell_poweredge_r860
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 63.0
+weight_unit: lb
+comments: '## [Dell EMC PowerEdge R860 ] 
+
+## PowerEdge R860
+
+###    Base: PowerEdge R860 Server
+
+
+###    Form Factor: 2U Rack Server
+
+
+####    Processor: Up to four 4th Generation Intel Xeon Scalable processor with up to 60 cores per processor and with optional Intel® QuickAssist Technology
+
+######  2 x 4th Gen Intel® Xeon® Scalable or Intel® Xeon® Max Processors
+
+
+####    Memory:
+
+######  64 DDR5 DIMM slots, supports RDIMM 16 TB max, speeds up to 4800 MT/s
+
+######  Supports registered ECC DDR5 DIMMs only
+
+####    Power Supplies:
+
+######  2800 W Titanium 200—240 VAC or 240 HVDC, hot swap redundan
+
+######  2400 W Platinum 100—240 VAC or 240 HVDC, hot swap redundant
+
+######  1800W Titanium 200—240 VAC or 240 HVDC, hot swap
+
+######  1400W Platinum 100—240 VAC or 240 HVDC, hot swap
+
+######  1100W Titanium 100—240 VAC or 240 HVDC, hot swap
+
+####    Cooling Options:
+
+######  Air cooling
+
+######  Optional Direct Liquid Cooling (DLC)
+
+######  Note: DLC is a rack solution and requires rack manifolds and a cooling distribution unit (CDU) to operate.
+
+####  
+
+####    Fans:
+
+######  Standard (STD) fans/High performance Silver (HPR) fans/ High performance Gold (VHP) fans
+
+######  Up to 6 hot plug fans
+
+####    Drive Bays:
+
+#####   Front Bays:
+
+######  Up to 8 x EDSFF E3.S Gen5 NVMe (SSD) drives max 61.44 TB
+
+######  Up to 16 x 2.5-inch SAS/SATA (HDD/SSD) drives + 8 x 2.5-inch NVMe (SSD) drives max 368.34 TB
+
+######  Up to 8x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 122.88 TB
+
+######  Up to 16x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 245.76 TB
+
+######  Up to 24x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 368.64 TB
+
+####    Rear Bays:
+
+#####   Up to 2x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 30.72 TB
+
+#####   Up to 4 x EDSFF E3.S Gen5 NVMe (SSD) drives max 30.72 TB
+
+####    Storage Controllers:
+
+######  Internal Controllers: PERC H965i, PERC H755, PERC H355, HBA355
+
+######  Internal Boot: Boot Optimized Storage Subsystem (BOSS-N1): HWRAID 2x M.2 NVMe SSDs or USB
+
+######  External HBA (non-RAID): HBA355e
+
+######  Software RAID: S160
+
+####    Bezel:
+
+######  Optional LCD or Security Bezel
+
+####    Embedded NIC
+
+######  2x 1 GbE LOM card (optional)
+
+######  
+
+####    Networking Options (NDC):
+
+######  1x OCP card 3.0 (optional)
+
+######  Note: The system allows either LOM card or an OCP card or both to be installed in the system.
+
+######  
+
+####    GPU Options (NDC):
+
+######  Up to 2x 350W DW and 6x 75W SW
+
+####  
+
+####    Ports:
+
+#####   Front Ports:
+
+######  1x iDRAC Direct (Micro-AB USB) port
+
+######  1x USB 2.0
+
+######  1x VGA
+
+######  
+
+####    Internal Ports:
+
+######  1x USB 3.0 (optional)
+
+####    Rear Ports:
+
+######  1x Dedicated iDRAC Ethernet port
+
+######  1x USB 2.0
+
+######  1x USB 3.0
+
+######  1x VGA
+
+######  1x Serial (optional)
+
+######  1x VGA (optional for Direct Liquid Cooling configuration)
+
+####  
+
+####    PCIe:
+
+######  Up to eight PCIe slots:
+
+#######  Slot 1: 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+
+#######  Slot 2: 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+
+#######  Slot 3: 1 x16 Gen5 Low profile, Half length
+
+#######  Slot 4: 1 x16 Gen5 Full height, Half length
+
+#######  Slot 5: 1 x16 Gen5 Full height, Half length
+
+#######  Slot 6: 1 x16 Gen5 Low profile, Half length
+
+#######  Slot 7: 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+
+#######  Slot 8: 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+
+######  
+
+####    Dimensions:
+
+######  Height: 86.8mm (3.41 inches)
+
+######  Width: 482mm (18.97 inches)
+
+######  Depth with Bezel: 772.13mm (30.39 inches)
+
+######  Depth without Bezel: 758.29mm (29.85 inches)
+
+####  
+
+
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r860-spec-sheet.pdf>   
+
+
+<https://dl.dell.com/content/manual30976811-dell-poweredge-r860-installation-and-service-manual.pdf?language=en-us>
+
+
+for NETBOX '
+console-ports:
+  - name: Optional Rear Serial
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-micro-ab  
+  - name: Rear VGA
+    type: other
+  - name: Internal USB1
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Rear Dedicated iDRAC direct USB
+    type: usb-micro-ab
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU1
+    position: 'Top'
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU2
+    position: 'Bottom'
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: LOM-1
+    type: 1000base-t
+  - name: LOM-2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: OCP 3.0
+    description:  GbE x 4, 10 GbE x 2, 10 GbE x 4, 25 GbE x 2, 25 GbE x 4
+    position: OCP-1    
+  - name: TPM
+    description: TPM 2.0 Support
+    position: TPM      
+  - name: Universal Media Bay Option
+    description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: PERC
+    description: 'H965i, PERC H755, PERC H755N, PERC H355, HBA355i'
+  - name: BOSS-N1 Removed    
+  - name: Slot-1 - 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+    lable: Riser1
+  - name: Slot-2 - 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+    lable: Riser1
+  - name: Slot-3 - 1 x16 Gen5 Low profile, Half length
+    lable: Riser2
+  - name: Slot-4 - 1 x16 Gen5 Full height, Half length
+    lable: Riser3
+  - name: Slot-5 - 1 x16 Gen5 Full height, Half length
+    lable: Riser3
+  - name: Slot-6 - 1 x16 Gen5 Low profile, Half length
+    lable: Riser2
+  - name: Slot-7 - 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+    lable: Riser4
+  - name: Slot-8 - 1 x16 Gen5 or 1 x8 Gen4 Full height, Half length
+    lable: Riser4
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
