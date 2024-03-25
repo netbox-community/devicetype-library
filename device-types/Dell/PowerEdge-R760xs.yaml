@@ -1,0 +1,355 @@
+---
+manufacturer: Dell
+model: PowerEdge R760xs
+slug: dell_poweredge_r760xs
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 63.0
+weight_unit: lb
+comments: '## [Dell EMC PowerEdge R760xs ] 
+
+## PowerEdge R760xs
+
+##    Base: PowerEdge R760xs Server
+
+####  
+
+##    Form Factor: 2U Rack Server
+
+####  
+
+##    Processor: Up to two 5th Generation Intel Xeon Scalable processor with up to 28 cores and 4th Generation Intel Xeon Scalable processor with up to 32 cores per processor
+
+####  16 DDR5 DIMM slots, supports RDIMM 1.5 TB max, speeds up to 5200 MT/s, supports registered ECC DDR5 DIMMs only
+
+####  2 x 5th Gen Intel® Xeon® Scalable Processors
+
+##    Dimensions:
+
+####  Height: 86.8mm (3.41 inches)
+
+####  Width: 482mm (18.97 inches)
+
+####  Depth with Bezel: 772.13mm (30.39 inches)
+
+####  Depth without Bezel: 758.29mm (29.85 inches)
+
+####  
+
+##    Power Supplies:
+
+####  1800W Titanium 200—240 VAC or 240 HVDC, hot swap
+
+####  1400W Platinum 100—240 VAC or 240 HVDC, hot swap
+
+####  1100W Titanium 100—240 VAC or 240 HVDC, hot swap
+
+####  1100W LVDC -48 — -60 VDC, hot swap
+
+####  800W Platinum 100—240 VAC or 240 HVDC, hot swap
+
+####  700W Titanium 200—240 VAC or 240 HVDC, hot swap
+
+####  
+
+##    Cooling Options:
+
+####  Air cooling
+
+####  Optional Direct Liquid Cooling (DLC)
+
+####  Note: DLC is a rack solution and requires rack manifolds and a cooling distribution unit (CDU) to operate.
+
+####  
+
+##    Fans:
+
+####  Standard (STD) fans/High performance Silver (HPR) fans/ High performance Gold (VHP) fans
+
+####  Up to 6 hot plug fans
+
+####  
+
+##    Memory:
+
+####  32 DDR5 DIMM slots, supports RDIMM 8 TB max, speeds up to 4800 MT/s
+
+####  Supports registered ECC DDR5 DIMMs only
+
+####  32 x DDR5 RDIMM
+
+####  Up to 5600 MT/s (1DPC) / 4400 MT/s (2 DPC)
+
+####  
+
+##    Drive Bays:
+
+###   Front Bays:
+
+####  Up to 12x 3.5-inch SAS/SATA (HDD/SSD) max 240 TB
+
+####  Up to 8x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 122.88 TB
+
+####  Up to 16x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 245.76 TB
+
+####  Up to 16 x 2.5-inch (SAS/SATA) + 8 x 2.5-inch (NVMe) (HDD/SSD) max 244.48 TB
+
+####  
+
+##    Rear Bays:
+
+###   Up to 2x 2.5-inch SAS/SATA/NVMe (HDD/SSD) max 30.72 TB
+
+####  
+
+##    Storage Controllers:
+
+####  Internal Controllers: PERC H965i, PERC H755, PERC H755N, PERC H355, HBA355
+
+####  Internal Boot: Boot Optimized Storage Subsystem (BOSS-N1): HWRAID 2x M.2 NVMe SSDs or USB
+
+####  External HBA (non-RAID): HBA355e
+
+####  Software RAID: S160
+
+####  
+
+##    Embedded Management:
+
+####  iDRAC9
+
+####  iDRAC Direct
+
+####  iDRAC RESTful API with Redfish
+
+####  iDRAC Service Module
+
+####  Quick Sync 2 wireless module
+
+####  
+
+##    OpenManage Software:
+
+####  OpenManage Enterprise
+
+####  OpenManage Power Manager plugin
+
+####  OpenManage Service plugin
+
+####  OpenManage Update Manager plugin
+
+####  CloudIQ for PowerEdge plugin
+
+####  OpenManage Enterprise Integration for VMware vCenter
+
+####  OpenManage Integration for Microsoft System Center
+
+####  OpenManage Integration with Windows Admin Center
+
+####  
+
+##    Mobility:
+
+####  OpenManage Mobile
+
+##    OpenManage Integrations:
+
+####  BMC Truesight
+
+####  Microsoft System Center
+
+####  Red Hat Ansible Modules
+
+####  OpenManage Integration with ServiceNow
+
+####  Red Hat Ansible Modules
+
+####  Terraform Providers
+
+####  VMware vCenter and vRealize Operations Manager
+
+####  
+
+##    Security:
+
+####  Cryptographically signed firmware
+
+####  Data at Rest Encryption (SEDs with local or external key mgmt)
+
+####  Secure Boot
+
+####  Secure Erase
+
+####  Secured Component Verification (Hardware integrity check)
+
+####  Silicon Root of Trust
+
+####  System Lockdown (requires iDRAC9 Enterprise or Datacenter)
+
+####  TPM 2.0 FIPS, CC-TCG certified, TPM 2.0 China NationZ
+
+####  
+
+##    Bezel:
+
+####  Optional LCD or Security Bezel
+
+####  
+
+##    Embedded NIC
+
+####  2x 1 GbE LOM card (optional)
+
+####  
+
+##    Networking Options (NDC):
+
+####  1x OCP card 3.0 (optional)
+
+####  Note: The system allows either LOM card or an OCP card or both to be installed in the system.
+
+####  
+
+##    GPU Options (NDC):
+
+####  Up to 2x 350W DW and 6x 75W SW
+
+####  
+
+##    Ports:
+
+###   Front Ports:
+
+####  1x iDRAC Direct (Micro-AB USB) port
+
+####  1x USB 2.0
+
+####  1x VGA
+
+####  
+
+##    Internal Ports:
+
+####  1x USB 3.0 (optional)
+
+##    Rear Ports:
+
+####  1x Dedicated iDRAC Ethernet port
+
+####  1x USB 2.0
+
+####  1x USB 3.0
+
+####  1x VGA
+
+####  1x Serial (optional)
+
+####  1x VGA (optional for Direct Liquid Cooling configuration)
+
+####  
+
+##    PCIe:
+
+####  Up to eight PCIe slots:
+
+####  Slot 1: 1 x8 Gen5 or 1 x8/1 x16 Gen4 Full height, Half length or 1 x16 Gen4 Full height, Full length
+
+####  Slot 2: 1 x8/1 x16 Gen5 or 1 x8 Gen4 Full height, Half length or 1 x16 Gen5 Full height, Full length
+
+####  Slot 3: 1 x16 Gen4 Low profile, Half length
+
+####  Slot 4: 1 x8 Gen4 Full height, Half length
+
+####  Slot 5: 1 x8/1 x16 Gen4 Full height, Half length or 1 x16 Gen4 Full height, Full length
+
+####  Slot 6: 1 x16 Gen4 Low profile, Half length
+
+
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r760xs-spec-sheet.pdf>
+
+
+<https://dl.dell.com/content/manual46164916-poweredge-r760xs-installation-and-service-manual.pdf?language=en-us>
+
+
+
+for NETBOX '
+console-ports:
+  - name: Rear Serial Optional
+    type: de-9
+  - name: Front VGA
+    type: other
+  - name: Front Dedicated iDRAC direct USB
+    type: usb-micro-ab    
+  - name: Rear VGA
+    type: other
+  - name: Internal USB1
+    type: usb-a
+  - name: Front USB1
+    type: usb-a
+  - name: Rear Dedicated iDRAC direct USB
+    type: usb-micro-ab
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: PSU2
+    position: 'Left'
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU1
+    position: 'Right'
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: LOM-1
+    type: 1000base-t
+  - name: LOM-2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: OCP 3.0
+    description:  GbE x 4, 10 GbE x 2, 10 GbE x 4, 25 GbE x 2, 25 GbE x 4
+    position: OCP-1    
+  - name: TPM
+    description: TPM 2.0 Support
+    position: TPM      
+  - name: Universal Media Bay Option
+    description:  DVD ROM, SATA orDVD+/-RW,SATA
+  - name: PERC
+    description: 'PERC H965i, PERC H755, PERC H755N, PERC H355, HBA355i'
+  - name: BOSS-N1 Removed    
+  - name: Slot-1 - 1 x8 Gen5
+    lable: Riser1
+  - name: Slot-2 - 1 x8/1 x16 Gen5
+    lable: Riser1
+  - name: Slot-3 - 1 x16 Gen4 Low profile, Half length
+    lable: Riser2
+  - name: Slot-4 - 1 x8 Gen4 Full height, Half length
+    lable: Riser2
+  - name: Slot-5 - 1 x8/1 x16 Gen4 Full height, Half length
+    lable: Riser2
+  - name: Slot-6 - 1 x16 Gen4 Low profile, Half length
+    lable: Riser3
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
