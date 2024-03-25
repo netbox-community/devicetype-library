@@ -18,6 +18,8 @@ jobs:
         with:
           repository: netbox-community/netbox
       - uses: actions/checkout@v4
+        with:
+          submodules: true
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Setup Python
         uses: actions/setup-python@v5
