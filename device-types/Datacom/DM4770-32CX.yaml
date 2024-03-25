@@ -114,6 +114,7 @@ interfaces:
     type: 100gbase-x-qsfp28
     description: 100G/40G Base-X (QSFP28)
   - name: mgmt-1/1/1
+  mgmt_only: true
     type: 100base-tx
   - name: ten-gigabit-ethernet-1/1/1
     type: 10gbase-x-sfpp
