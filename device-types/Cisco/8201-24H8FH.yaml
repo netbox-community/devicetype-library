@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: 8201-24H8FH
 slug: cisco-8201-24h8fh
@@ -240,13 +241,6 @@ interfaces:
 - name: MgmtEth0/RP0/CPU0/0
   type: 1000base-t
   mgmt_only: true
-  label: ''
-  description: ''
-  poe_mode: ''
-  poe_type: ''
-- name: Loopback0
-  type: virtual
-  mgmt_only: false
   label: ''
   description: ''
   poe_mode: ''
