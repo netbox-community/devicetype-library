@@ -1,14 +1,14 @@
 ---
 manufacturer: Dell
-model: PowerEdge R660
-slug: dell_poweredge_r660
+model: PowerEdge R660xs
+slug: dell_poweredge_r660xs
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
 weight: 41.0
 weight_unit: lb
-comments: '## [Dell PowerEdge R660] 
+comments: '## [Dell PowerEdge R660xs] 
 
 
 ##      Base: PowerEdge R660 Server
@@ -17,7 +17,91 @@ comments: '## [Dell PowerEdge R660]
 
 ###     Processor:
 
-######  Up to two 4th Generation Intel Xeon Scalable processors, with up to 56 cores and optional Intel® QuickAssist Technology.
+######  Up to two 4th Generation Intel Xeon Scalable or Intel Xeon Max processors, with up to 56 cores and optional Intel® QuickAssist Technology.
+
+######  Up to two 5th Generation Intel Xeon Scalable processors with up to 64 cores
+
+###     Memory:
+
+######  32 DDR5 DIMM slots, supports RDIMM 8 TB max, speeds up to 4800 MT/s
+
+######  Speeds up to 4800 MT/s on the 4th Generation Intel Xeon Scalable or Intel Xeon Max processors
+
+######  Speeds up to 5600 MT/s on the 5th Generation Intel Xeon Scalable processors
+
+######  Supports registered ECC DDR5 DIMMs only 
+
+##      Drive Bays:
+
+####    Front Bays:
+
+###### 	Up 4 x 3.5 -inch SAS/SATA
+
+######  Up to 10 x 2.5-inch, SAS/SATA/NVMe (HDD/SSD) max 153.6 TB
+
+######  Up to 8 x 2.5-inch, SAS/SATA/NVMe, (HDD/SSD) max 122.88 TB
+
+######  Up to 14 x EDSFF E3.S Gen5 NVMe (SSD) max 179.2 TB
+
+######  Up to 16 x EDSFF E3.S Gen5 NVMe (SSD) max 204.8 TB
+
+####     Rear Bays:
+
+######  Up to 2x 2.5-inch, SAS/SATA/NVMe, max 30.72 TB
+
+######  Up to 2 x EDSFF E3.S Gen5 NVMe (SSD) max 25.6 TB
+
+######  Up to 10x 2.5-inch, SAS/SATA/NVMe (HDD/SSD) max 153.6 TB
+
+######  Up to 8x 2.5-inch, SAS/SATA/NVMe, (HDD/SSD) max 122.88 TB
+
+##      Storage Controllers:
+
+######  Internal Controllers (RAID): PERC H965i, PERC H755, PERC H755N, PERC H355, HBA355i
+
+####    Internal Boot: Boot Optimized Storage Subsystem (BOSS-N1): HWRAID 2x M.2 NVMe SSD drives, or USB
+
+######  External HBAs (non-RAID): HBA355e
+
+######  Software RAID: S160
+
+###     GPU Options (NDC): Up to 2x 75W SW
+
+##      Ports:
+
+####    Front Ports:
+
+######  1x iDRAC Direct (Micro-AB USB) port
+
+######  1x USB 2.0
+
+######  1x VGA
+
+####    Internal Ports:
+
+######  1x USB 3.0 (optional)
+
+####    Rear Ports:
+
+######  1x Dedicated iDRAC Ethernet port
+
+######  1x USB 2.0
+
+######  1x USB 3.0
+
+######  1x Serial (optional)
+
+######  1x VGA (optional for Direct Liquid Cooling configuration)
+
+##      PCIe:
+
+######  Up to three PCIe slots:
+
+######  Slot 1 : 1 x16 Gen5 Full height, 3/4 length, Half length or 1 x8/ 1 x16 Gen 5 or 1 x16 Gen 4 Low profile, Half length
+
+######  Slot 2 : 1 x16 Gen5 Full height, 3/4 length, Half length or 1 x16 Gen 5 or 1 x16 Gen 4 Low profile, Half length
+
+######  Slot 3 : 1 x8/ 1 x16 Gen 5 or 1 x16 Gen 4 Low profile, Half length
 
 ###     Dimensions:
 
@@ -57,79 +141,8 @@ comments: '## [Dell PowerEdge R660]
 
 ######  Up to 4 sets (dual fan module) hot plug fans
 
-###     Memory:
-
-######  32 DDR5 DIMM slots, supports RDIMM 8 TB max, speeds up to 4800 MT/s
-
-######  Supports registered ECC DDR5 DIMMs only
-
-##      Drive Bays:
-
-####    Front Bays:
-
-######  Up to 10x 2.5-inch, SAS/SATA/NVMe (HDD/SSD) max 153.6 TB
-
-######  Up to 8x 2.5-inch, SAS/SATA/NVMe, (HDD/SSD) max 122.88 TB
-
-####     Rear Bays:
-
-######  Up to 2x 2.5-inch, SAS/SATA/NVMe, max 30.72 TB
-
-##      Storage Controllers:
-
-######  Internal Controllers (RAID): PERC H965i, PERC H755, PERC H755N, PERC H355, HBA355i
-
-####    Internal Boot: Boot Optimized Storage Subsystem (BOSS-N1): HWRAID 2x M.2 NVMe SSD drives, or USB
-
-######  External HBAs (non-RAID): HBA355e
-
-######  Software RAID: S160
 
 ##      Embedded Management:
-
-####     Embedded NIC : 2x 1 GbE LOM card (optional)
-
-####    Networking Options (NDC): 1x OCP card 3.0 (optional)
-
-######  Note: The system allows either LOM card or an OCP card or both to be installed in the system.
-
-###     GPU Options (NDC): Up to 2x 75W SW
-
-##      Ports:
-
-####    Front Ports:
-
-######  1x iDRAC Direct (Micro-AB USB) port
-
-######  1x USB 2.0
-
-######  1x VGA
-
-####    Internal Ports:
-
-######  1x USB 3.0 (optional)
-
-####    Rear Ports:
-
-######  1x Dedicated iDRAC Ethernet port
-
-######  1x USB 2.0
-
-######  1x USB 3.0
-
-######  1x Serial (optional)
-
-######  1x VGA (optional for Direct Liquid Cooling configuration)
-
-##      PCIe:
-
-######  Up to three PCIe slots:
-
-######  Slot 1 : 1 x16 Gen5 Full height, 3/4 length, Half length or 1 x8/ 1 x16 Gen 5 or 1 x16 Gen 4 Low profile, Half length
-
-######  Slot 2 : 1 x16 Gen5 Full height, 3/4 length, Half length or 1 x16 Gen 5 or 1 x16 Gen 4 Low profile, Half length
-
-######  Slot 3 : 1 x8/ 1 x16 Gen 5 or 1 x16 Gen 4 Low profile, Half length
 
 ######  iDRAC9
 
@@ -200,16 +213,21 @@ comments: '## [Dell PowerEdge R660]
 
 ####     Bezel: Optional LCD or Security Bezel
 
+####     Embedded NIC : 2x 1 GbE LOM card (optional)
 
-<https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r660-spec-sheet.pdf>
+####    Networking Options (NDC): 1x OCP card 3.0 (optional)
 
-<https://dl.dell.com/content/manual46646525-dell-emc-poweredge-r650-technical-specifications.pdf?language=en-us&ps=true> 
+######  Note: The system allows either LOM card or an OCP card or both to be installed in the system.
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r660xs-spec-sheet.pdf>
+
+<https://dl.dell.com/content/manual42812694-dell-poweredge-r660xs-installation-and-service-manual.pdf?language=en-us>
+
+<https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r660xs-technical-guide.pdf>
 
 
 for NETBOX '
 console-ports:
-  - name: Optional Rear Serial
-    type: de-9
   - name: Front VGA
     type: other
   - name: Rear VGA
@@ -240,15 +258,17 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: Rear Serial Optional
+    type: de-9
   - name: TPM
     description: TPM 2.0 Support
   - name: BOSS-S2 Removed
   - name: OCP NIC/LOM
-  - name: SLOT-1 PCIe-Gen4 
+  - name: SLOT-1 PCIe-Gen5
     lable: Riser2
-  - name: SLOT-2 PCIe-Gen4
+  - name: SLOT-2 PCIe-Gen5
     lable: Riser2
-  - name: PSLOT-3 CIe-Gen4
+  - name: PSLOT-3 CIe-Gen5
     lable: Riser3
 device-bays:
   - name: Drive bay-0/SFF
