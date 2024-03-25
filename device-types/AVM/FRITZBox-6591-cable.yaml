@@ -1,0 +1,46 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 6591 cable
+slug: avm-fritzbox-6591-cable
+default_platform: null
+part_number: '20002857'
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 6591 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-6591-cable/technische-daten/)'
+weight: null
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: null
+interfaces:
+  - name: CABLE
+    type: docsis
+    label: CABLE
+  - name: FON1
+    type: other
+    label: FON 1
+  - name: FON2
+    type: other
+    label: FON 2
+  - name: FONS0
+    type: other
+    label: FON S0
+  - name: LAN1
+    type: 1000base-t
+    label: LAN 1
+  - name: LAN2
+    type: 1000base-t
+    label: LAN 2
+  - name: LAN3
+    type: 1000base-t
+    label: LAN 3
+  - name: LAN4
+    type: 1000base-t
+    label: LAN 4
+  - name: WAN
+    type: 1000base-t
+    label: WAN
+  - name: WiFi
+    type: ieee802.11n
