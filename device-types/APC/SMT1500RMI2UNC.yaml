@@ -1,0 +1,37 @@
+---
+manufacturer: APC
+model: SMT1500RMI2UNC
+slug: apc-smt1500rmi2unc
+part_number: SMT1500RMI2UNC
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 230V, 4x IEC C13 outlets, SmartSlot, AVR, LCD\n Battery SKU: RBC133"
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c14
+    maximum_draw: 2300
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+module-bays:
+  - name: SmartSlot
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    mgmt_only: true
