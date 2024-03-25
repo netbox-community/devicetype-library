@@ -1,0 +1,91 @@
+---
+manufacturer: Reichle & De-Massari
+model: FiberModul HD, splice, 6xLC-Duplex G.652.D, PC, ceramic, C/2, black
+part_number: R808375
+comments: '[Product Website](https://ecatalog.rdm.com/at/en/product/eCatalog-AT/Fiber-Optics/19-Subrack-Solutions/FiberModul-HD/R808375/FiberModul-HD,-splice,-6xLC-Duplex-G.652.D,-PC,-ceramic,-C-2,-black)'
+front-ports:
+  - name: Port/{module}/1.a
+    type: lc-pc
+    rear_port: Port/{module}/1
+    rear_port_position: 1
+  - name: Port/{module}/1.b
+    type: lc-pc
+    rear_port: Port/{module}/2
+    rear_port_position: 1
+  - name: Port/{module}/2.a
+    type: lc-pc
+    rear_port: Port/{module}/3
+    rear_port_position: 1
+  - name: Port/{module}/2.b
+    type: lc-pc
+    rear_port: Port/{module}/4
+    rear_port_position: 1
+  - name: Port/{module}/3.a
+    type: lc-pc
+    rear_port: Port/{module}/5
+    rear_port_position: 1
+  - name: Port/{module}/3.b
+    type: lc-pc
+    rear_port: Port/{module}/6
+    rear_port_position: 1
+  - name: Port/{module}/4.a
+    type: lc-pc
+    rear_port: Port/{module}/7
+    rear_port_position: 1
+  - name: Port/{module}/4.b
+    type: lc-pc
+    rear_port: Port/{module}/8
+    rear_port_position: 1
+  - name: Port/{module}/5.a
+    type: lc-pc
+    rear_port: Port/{module}/9
+    rear_port_position: 1
+  - name: Port/{module}/5.b
+    type: lc-pc
+    rear_port: Port/{module}/10
+    rear_port_position: 1
+  - name: Port/{module}/6.a
+    type: lc-pc
+    rear_port: Port/{module}/11
+    rear_port_position: 1
+  - name: Port/{module}/6.b
+    type: lc-pc
+    rear_port: Port/{module}/12
+    rear_port_position: 1
+rear-ports:
+  - name: Port/{module}/1
+    type: splice
+    positions: 1
+  - name: Port/{module}/2
+    type: splice
+    positions: 1
+  - name: Port/{module}/3
+    type: splice
+    positions: 1
+  - name: Port/{module}/4
+    type: splice
+    positions: 1
+  - name: Port/{module}/5
+    type: splice
+    positions: 1
+  - name: Port/{module}/6
+    type: splice
+    positions: 1
+  - name: Port/{module}/7
+    type: splice
+    positions: 1
+  - name: Port/{module}/8
+    type: splice
+    positions: 1
+  - name: Port/{module}/9
+    type: splice
+    positions: 1
+  - name: Port/{module}/10
+    type: splice
+    positions: 1
+  - name: Port/{module}/11
+    type: splice
+    positions: 1
+  - name: Port/{module}/12
+    type: splice
+    positions: 1

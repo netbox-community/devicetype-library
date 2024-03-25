@@ -1,10 +1,12 @@
 ---
 manufacturer: Cisco
-model: Nexus 3172PQ-10GE
-slug: cisco-n3k-c3172q-10ge
-part_number: N3K-C3172Q-10GE
+model: Nexus C3064PQ-10GE
+slug: cisco-n3k-c3064q-10ge
+part_number: N3K-C3064PQ-10GE
 u_height: 1
 is_full_depth: false
+weight: 9.3
+weight_unit: kg
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -113,10 +115,6 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: Ethernet1/52
     type: 40gbase-x-qsfpp
-  - name: Ethernet1/53
-    type: 40gbase-x-qsfpp
-  - name: Ethernet1/54
-    type: 40gbase-x-qsfpp
 console-ports:
   - name: Console
     type: rj-45
@@ -127,3 +125,5 @@ module-bays:
     position: '1'
   - name: PS2
     position: '2'
+  - name: FAN 1
+    position: '1'
