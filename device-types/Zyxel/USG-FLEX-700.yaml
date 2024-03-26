@@ -1,0 +1,58 @@
+---
+manufacturer: Zyxel
+model: USG FLEX 700
+slug: zyxel-usg-flex-700
+u_height: 1.0
+is_full_depth: false
+weight: 1.4
+weight_unit: kg
+airflow: passive
+comments: '[Zyxel USG FLEX 700 Firewall](https://www.zyxel.com/global/en/products/next-gen-firewall/usg-flex-firewall-usg-flex-700/license-and-spec)'
+console-ports:
+  - name: Console port
+    type: de-9
+power-ports:
+  - name: POWER
+    type: dc-terminal
+    description: Wallwart to 12V DC, 2.5A max
+interfaces:
+  - name: P1
+    type: 1000base-x-sfp
+  - name: P2
+    type: 1000base-x-sfp
+  - name: P3
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P4
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P5
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P6
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P7
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P8
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P9
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P10
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P11
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P12
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P13
+    type: 1000base-t
+    label: WAN/LAN/DMZ
+  - name: P14
+    type: 1000base-t
+    label: WAN/LAN/DMZ
