@@ -1,8 +1,7 @@
 ---
 manufacturer: Dell
 model: PowerEdge R440 10SFF
-slug: dell_poweredge_r440-10
-part_number: PER440-10
+slug: dell_poweredge_r440_10
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -139,9 +138,9 @@ module-bays:
     description: 'DELL BOSS M.2 Controller Card'
   - name: LOM Riser 
     description: '2 x 1GE or 2x 10GE SFP+ or 2 x 10GE BaseT'    
-module-bays:
   - name: SLOT-1 PCIe-Gen3
   - name: SLOT-2 PCIe-Gen3
+device-bays:
   - name: Drive bay-0/SFF
     description: '2.5" SFF'
   - name: Drive bay-1/SFF
