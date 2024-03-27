@@ -4,9 +4,10 @@ import glob
 import yaml
 import decimal
 from yaml_loader import DecimalSafeLoader
-from jsonschema import Draft4Validator, RefResolver
+from referencing import Registry, Resource
+from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
-from test_configuration import SCHEMAS, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES
+from test_configuration import SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES
 from urllib.request import urlopen
 import pickle_operations
 
@@ -33,6 +34,22 @@ def _get_type_files(device_or_module):
                 file_list.append((f'{file}', schema))
 
     return file_list
+
+def _generate_schema_registry():
+    """
+    Return a list of all definition files within the specified path.
+    """
+    registry = Registry()
+
+    for schema_f in os.listdir(SCHEMAS_BASEPATH):
+        # Initialize the schema
+        with open(f"schema/{schema_f}") as schema_file:
+            resource = Resource.from_contents(json.loads(schema_file.read(), parse_float=decimal.Decimal))
+            registry = resource @ registry
+
+    return registry
+
+SCHEMA_REGISTRY = _generate_schema_registry()
 
 def _decimal_file_handler(uri):
     """
@@ -62,13 +79,9 @@ def load_file(file_path, schema):
 
     # Validate YAML definition against the supplied schema
     try:
-        resolver = RefResolver(
-            f"file://{os.getcwd()}/schema/devicetype.json",
-            schema,
-            handlers={"file": _decimal_file_handler},
-        )
         # Validate definition against schema
-        Draft4Validator(schema, resolver=resolver).validate(definition)
+        validator = Draft202012Validator(schema, registry=SCHEMA_REGISTRY)
+        validator.validate(definition)
     except ValidationError as exc:
         # Schema validation failure. Ensure you are following the proper format.
         return (False, f'{file_path} failed validation: {exc}')
