@@ -12,3 +12,7 @@ updates:
     target-branch: master
     assignees:
         - "danner26"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
