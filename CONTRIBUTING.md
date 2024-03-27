@@ -48,6 +48,6 @@ The process of submitting new definitions to the library is as follows:
 1. Submit the [pull request](https://github.com/netbox-community/devicetype-library/compare?expand=1) for review. Please note that submitted PRs
    which do not pass validation will be closed and must be rescinded.
 1. A maintainer will review your PR and take one of three actions:
-   - Accept and merge it
+   - Approve and merge it
    - Request revisions
    - Close the PR citing a reason (e.g. failing validation or not applicable to the library)
