@@ -1,14 +1,13 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen10 10SFF
-slug: hpe_dl360_g10_10sff
+model: ProLiant DL360 Gen10 4LFF
+slug: hpe-dl360-g10-4lff
+comments: '#  [HPE ProLiant DL360 Gen10 Server w/ 4-LFF]  
+
+<https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf> '
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
-airflow: front-to-rear
-comments: '# [HPE ProLiant DL360 Gen10 Server w/ 10-SFF] 
-
-<https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf> '
 console-ports:
   - name: Front iLO Front Service Port
     type: usb-a
@@ -48,8 +47,10 @@ interfaces:
 module-bays:
   - name: TPM
     description: TPM 2.0 Support
-  - name: Universal Media Bay
-    description: '+2-SFF SAS/SATA'
+  - name: Universal Media Bay Option
+    description:  DVD-RW or DVD-ROM
+  - name: Display port & USB 2.0 port Kit Option
+  - name: System insight Display (SID) Option
   - name: RAID Controller
     description: 'Smart Array P408i-a or Smart Array P816i-a or Smart Array E208i-a'
   - name: FlexibleLOM2 
@@ -60,23 +61,11 @@ module-bays:
   - name: PCIe-Gen4-3 Option 
     label: SLOT3
 device-bays:
-  - name: Drive bay-0/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-1/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-2/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-3/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-4/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-5/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-6/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-7/SFF
-    description: '2.5" SFF'
-  - name: Drive bay-8/SFF
-    description: '2.5" SFF from Universal Media Bay'
-  - name: Drive bay-9/SFF
-    description: '2.5" SFF from Universal Media Bay'
+  - name: Drive bay-0
+    description: '3.5" LFF'
+  - name: Drive bay-1
+    description: '3.5" LFF'
+  - name: Drive bay-2
+    description: '3.5" LFF'
+  - name: Drive bay-3
+    description: '3.5" LFF'

@@ -1,0 +1,58 @@
+---
+manufacturer: HPE
+model: ProLiant DL380p Gen8
+slug: hpe-dl380p-g8
+part_number: 670524-001
+model: ProLiant DL380 Gen9
+slug: hpe-proliant-dl380-gen9
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    maximum_draw: 700
+  - name: PSU-2
+    type: iec-60320-c14
+    maximum_draw: 700
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Drive bay-0/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    label: DriveBay2
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    label: DriveBay2
+    description: '2.5" SFF'

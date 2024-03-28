@@ -1,7 +1,7 @@
 ---
 manufacturer: HPE
 model: ProLiant DL325 Gen10 8SFF
-slug: hpe_dl325_gen10-8sff
+slug: hpe-dl325-gen10-8sff
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
@@ -60,19 +60,23 @@ module-bays:
 - name: RAID Controller
   description: HPE Smart Array E208i-a,  E208e-p,  P408i-a, P408e-p, P816i-a
 device-bays:
-- name: Drive bay-0/SFF
-  description: 2.5" SFF
-- name: Drive bay-1/SFF
-  description: 2.5" SFF
-- name: Drive bay-2/SFF
-  description: 2.5" SFF
-- name: Drive bay-3/SFF
-  description: 2.5" SFF
-- name: Drive bay-4/SFF
-  description: 2.5" SFF
-- name: Drive bay-5/SFF
-  description: 2.5" SFF
-- name: Drive bay-6/SFF
-  description: 2.5" SFF
-- name: Drive bay-7/SFF
-  description: 2.5" SFF
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-8/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-9/SFF
+    description: '2.5" SFF'

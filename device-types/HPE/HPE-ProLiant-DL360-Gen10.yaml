@@ -1,13 +1,14 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen9 8SFF
-slug: hpe_dl360_g9_8sff
-comments: '#  [HPE ProLiant DL360 Gen9 Server w/ 8SFF] 
-
-<https://www.hpe.com/psnow/doc/c04346229.pdf?jumpid=in_lit-psnow-getpdf> '
+model: ProLiant DL360 Gen10 8SFF
+slug: hpe-dl360-g10-8sff
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '# [HPE ProLiant DL360 Gen10 Server w/ 8-SFF] 
+
+<https://www.imvendorportal.com/prodpictures/40/30_7140MDF_64656110.pdf> '
 console-ports:
   - name: Front iLO Front Service Port
     type: usb-a
@@ -41,20 +42,22 @@ interfaces:
   - name: Gig-E-4
     label: FlexibleLOM1
     type: 1000base-t
-  - name: iLO4
+  - name: iLO5
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: TPM
+    description: TPM 2.0 Support
   - name: Universal Media Bay
     description:  DVD-RW or DVD-ROM + Display port & USB 2.0 port
   - name: RAID Controller
-    description: 'HPE Flexible Smart Array P440ar or HPE Dynamic Smart Array B140i or HPE Smart HBA H240ar'
+    description: 'Smart Array P408i-a or Smart Array P816i-a or Smart Array E208i-a'
   - name: FlexibleLOM2 
-  - name: PCIe-Gen3-1
+  - name: PCIe-Gen4-1
     label: SLOT1
-  - name: PCIe-Gen3-2
+  - name: PCIe-Gen4-2
     label: SLOT2
-  - name: PCIe-Gen3-3 Option 
+  - name: PCIe-Gen4-3 Option 
     label: SLOT3
 device-bays:
   - name: Drive bay-0/SFF
