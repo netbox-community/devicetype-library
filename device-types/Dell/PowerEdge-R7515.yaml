@@ -9,10 +9,16 @@ slug: dell-poweredge-r7515
 >>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Dell/PowerEdge-R7515.yaml
 u_height: 2
 is_full_depth: true
+<<<<<<< HEAD
 subdevice_role: parent
 comments: '## [Dell PowerEdge R7515 /Dell 3rd Generation AMD EPYC] 
 
 <https://dl.dell.com/content/manual22344309-dell-emc-poweredge-r7515-installation-and-service-manual.pdf?language=en-us&ps=true> '
+=======
+airflow: front-to-rear
+front_image: true
+rear_image: true
+>>>>>>> 15e771f27d23426b0e0a482d2756857e4fa73807
 console-ports:
   - name: Front VGA
     type: other

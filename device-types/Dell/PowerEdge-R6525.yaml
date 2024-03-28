@@ -4,6 +4,7 @@ model: PowerEdge R6525
 slug: dell-poweredge-r6525
 u_height: 1
 is_full_depth: true
+<<<<<<< HEAD
 subdevice_role: parent
 comments: '## [Dell PowerEdge R6525 4x3.5" LFF/Dell 3rd Generation AMD EPYC] 
 
@@ -89,6 +90,15 @@ comments: '## [Dell PowerEdge R6525 4x3.5" LFF/Dell 3rd Generation AMD EPYC]
 
 onsole-ports:
   - name: Front VGA
+=======
+airflow: front-to-rear
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+>>>>>>> 15e771f27d23426b0e0a482d2756857e4fa73807
     type: other
   - name: Rear VGA
     type: other
