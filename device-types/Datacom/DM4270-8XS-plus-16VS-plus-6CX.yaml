@@ -1,0 +1,114 @@
+---
+manufacturer: Datacom
+model: DM4270 8XS+16VS+6CX
+slug: datacom-dm4270-8xs-plus-16vs-plus-6cx
+part_number: 800.5313.xx
+u_height: 1.0
+is_full_depth: true
+airflow: side-to-rear
+comments: Switch L2 L3 MPLS, wire speed, with 8 optical 10GE ports on SFP+ connectors, 16 optical 25GE 10GE ports on SFP28 connectors, and 6 multi-rate
+  optical 100GE 40GE ports on QSFP28 connectors.  1U metal chassis for 19 rack with 2 fan modules. Power supplies, MPLS license, and optical modules must
+  be purchased separately.
+weight: 6.28
+weight_unit: kg
+console-ports:
+  - name: Console0
+    type: rj-45
+  - name: Console1
+    type: usb-mini-b
+interfaces:
+  - name: hundred-gigabit-ethernet 1/1/1
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/2
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/3
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/4
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/5
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/6
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: mgmt-1/1/1
+    type: 100base-tx
+  - name: ten-gigabit-ethernet-1/1/1
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/2
+    mgmt_only: false
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/3
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/4
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/5
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/6
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/7
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/8
+    type: 10gbase-x-sfpp
+  - name: twenty-five-g-ethernet 1/1/1
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/2
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/3
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/4
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/5
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/6
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/7
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/8
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/9
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/10
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/11
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/12
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/13
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/14
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/15
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+  - name: twenty-five-g-ethernet 1/1/16
+    type: 25gbase-x-sfp28
+    description: 25G/10G Base-X (SFP28)
+module-bays:
+  - name: FAN
+    label: '1'
+    position: '1'
+  - name: PSU1
+    label: '1'
+    position: '1'
+  - name: PSU2
+    label: '2'
+    position: '2'
