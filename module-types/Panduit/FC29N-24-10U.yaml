@@ -3,55 +3,130 @@ manufacturer: Panduit
 model: Opticom MPO-LC Fiber Cassette OS2, 24 Fiber, Universal
 part_number: FC29N-24-10U
 front-ports:
-  - name: '01'
+  - name: '{module}:01'
     type: lc
-    rear_port: '01'
-    rear_port_position: 1
-  - name: '02'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 2
-  - name: '03'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 3
-  - name: '04'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 4
-  - name: '05'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 5
-  - name: '06'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 6
-  - name: '07'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 7
-  - name: '08'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 8
-  - name: '09'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 9
-  - name: '10'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 10
-  - name: '11'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 11
-  - name: '12'
-    type: lc
-    rear_port: '01'
+    rear_port: '{module}:1'
+    label: 01-A
     rear_port_position: 12
+  - name: '{module}:02'
+    type: lc
+    rear_port: '{module}:1'
+    label: 01-B
+    rear_port_position: 1
+  - name: '{module}:03'
+    type: lc
+    rear_port: '{module}:1'
+    label: 02-A
+    rear_port_position: 11
+  - name: '{module}:04'
+    type: lc
+    rear_port: '{module}:1'
+    label: 02-B
+    rear_port_position: 2
+  - name: '{module}:05'
+    type: lc
+    rear_port: '{module}:1'
+    label: 03-A
+    rear_port_position: 10
+  - name: '{module}:06'
+    type: lc
+    rear_port: '{module}:1'
+    label: 03-B
+    rear_port_position: 3
+  - name: '{module}:07'
+    type: lc
+    rear_port: '{module}:1'
+    label: 04-A
+    rear_port_position: 9
+  - name: '{module}:08'
+    type: lc
+    rear_port: '{module}:1'
+    label: 04-B
+    rear_port_position: 4
+  - name: '{module}:09'
+    type: lc
+    rear_port: '{module}:1'
+    label: 05-A
+    rear_port_position: 8
+  - name: '{module}:10'
+    type: lc
+    rear_port: '{module}:1'
+    label: 05-B
+    rear_port_position: 5
+  - name: '{module}:11'
+    type: lc
+    rear_port: '{module}:1'
+    label: 06-A
+    rear_port_position: 7
+  - name: '{module}:12'
+    type: lc
+    rear_port: '{module}:1'
+    label: 06-B
+    rear_port_position: 6
+  - name: '{module}:13'
+    type: lc
+    rear_port: '{module}:2'
+    label: 07-A
+    rear_port_position: 12
+  - name: '{module}:14'
+    type: lc
+    rear_port: '{module}:2'
+    label: 07-B
+    rear_port_position: 1
+  - name: '{module}:15'
+    type: lc
+    rear_port: '{module}:2'
+    label: 08-A
+    rear_port_position: 11
+  - name: '{module}:16'
+    type: lc
+    rear_port: '{module}:2'
+    label: 08-B
+    rear_port_position: 2
+  - name: '{module}:17'
+    type: lc
+    rear_port: '{module}:2'
+    label: 09-A
+    rear_port_position: 10
+  - name: '{module}:18'
+    type: lc
+    rear_port: '{module}:2'
+    label: 09-B
+    rear_port_position: 3
+  - name: '{module}:19'
+    type: lc
+    rear_port: '{module}:2'
+    label: 10-A
+    rear_port_position: 9
+  - name: '{module}:20'
+    type: lc
+    rear_port: '{module}:2'
+    label: 10-B
+    rear_port_position: 4
+  - name: '{module}:21'
+    type: lc
+    rear_port: '{module}:2'
+    label: 11-A
+    rear_port_position: 8
+  - name: '{module}:22'
+    type: lc
+    rear_port: '{module}:2'
+    label: 11-B
+    rear_port_position: 5
+  - name: '{module}:23'
+    type: lc
+    rear_port: '{module}:2'
+    label: 12-A
+    rear_port_position: 7
+  - name: '{module}:24'
+    type: lc
+    rear_port: '{module}:2'
+    label: 12-B
+    rear_port_position: 6
 rear-ports:
-  - name: '01'
+  - name: '{module}:1'
+    type: mpo
+    positions: 12
+  - name: '{module}:2'
     type: mpo
     positions: 12

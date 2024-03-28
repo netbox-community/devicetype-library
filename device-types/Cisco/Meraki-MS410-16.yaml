@@ -1,0 +1,65 @@
+---
+manufacturer: Cisco
+model: Meraki MS410-16
+slug: cisco-meraki-ms410-16
+part_number: ms410-16
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+comments: '[MS410 Overview and Specifications ](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS410_Overview_and_Specifications)'
+weight: 11.8
+weight_unit: lb
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp
+  - name: '11'
+    type: 1000base-x-sfp
+  - name: '12'
+    type: 1000base-x-sfp
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  - name: '15'
+    type: 1000base-x-sfp
+  - name: '16'
+    type: 1000base-x-sfp
+  - name: SPF+ 17
+    type: 10gbase-x-sfpp
+  - name: SPF+ 18
+    type: 10gbase-x-sfpp
+  - name: Hardware Stack Port 1
+    type: 40gbase-x-qsfpp
+  - name: Hardware Stack Port 2
+    type: 40gbase-x-qsfpp
+module-bays:
+  - name: Fan 1
+    label: Fan 1
+    position: '1'
+  - name: Fan 2
+    label: Fan 2
+    position: '2'
+  - name: PSU 1
+    label: PSU 1
+    position: '1'
+  - name: PSU 2
+    label: PSU 2
+    position: '2'

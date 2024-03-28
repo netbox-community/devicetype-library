@@ -5,6 +5,9 @@ slug: cisco-asr1001-x
 part_number: ASR1001-X
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight: 25
+weight_unit: lb
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
@@ -28,10 +31,13 @@ interfaces:
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
+module-bays:
+  - name: ASR1001-X-SPA
+    label: SPA
+    position: 0/1
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 250
+    position: '0'
+    description: Power module
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 250
+    position: '1'
+    description: Power module
