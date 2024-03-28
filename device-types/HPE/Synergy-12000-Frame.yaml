@@ -2,7 +2,11 @@
 manufacturer: HPE
 model: Synergy 12000 Frame
 slug: hpe-synergy-12000-frame
-comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04815113)'
+comments: '[Synergy 12000 Frame QuickSpecs]
+
+(https://www.hpe.com/psnow/doc/c04815113)
+
+'
 part_number: P06011-B21
 u_height: 10
 is_full_depth: true
@@ -15,7 +19,20 @@ interfaces:
   - name: Front Panel Console
     type: 1000base-t
     mgmt_only: true
-device-bays:
+
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'
+  - name: Power Supply 5
+    position: '5'
+  - name: Power Supply 6
+    position: '6'
   - name: Device Bay 1
   - name: Device Bay 2
   - name: Device Bay 3
@@ -38,16 +55,3 @@ device-bays:
   - name: Interconnect Bay 6
   - name: Frame Link Module 1
   - name: Frame Link Module 2
-module-bays:
-  - name: Power Supply 1
-    position: '1'
-  - name: Power Supply 2
-    position: '2'
-  - name: Power Supply 3
-    position: '3'
-  - name: Power Supply 4
-    position: '4'
-  - name: Power Supply 5
-    position: '5'
-  - name: Power Supply 6
-    position: '6'
