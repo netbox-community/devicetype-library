@@ -1,0 +1,40 @@
+---
+manufacturer: Nokia
+model: 7750 SR-1
+slug: nokia-7750-sr-1
+part_number: 3HE13571CA
+airflow: front-to-rear
+u_height: 2
+is_full_depth: false
+weight: 33.0 # empty
+weight_unit: lb
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: A/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: A/3
+    type: 1000base-t
+  - name: A/4
+    type: 1000base-t
+module-bays:
+  - name: Slot 1 - MDA 1
+    position: 1/1
+  - name: Slot 1 - MDA 2
+    position: 1/2
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: Fan Tray 1
+    position: '1'
+  - name: Fan Tray 2
+    position: '2'
+  - name: Fan Tray 3
+    position: '3'
+  - name: Fan Tray 4
+    position: '4'
