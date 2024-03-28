@@ -1,0 +1,25 @@
+---
+manufacturer: HPE
+model: ProLiant BL490c G6
+slug: hpe-proliant-bl490c-g6
+part_number: 498357-B21
+u_height: 0
+airflow: passive
+#minumum weight - one hard drive, power supply and processor installed
+weight: 4.87
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04284368)'
+subdevice_role: child
+module-bays:
+  - name: Mezzanine Slot 1
+    position: '1'
+  - name: Mezzanine Slot 2
+    position: '2'
+interfaces:
+  - name: NC532i port 1
+    type: other
+  - name: NC532i port 2
+    type: other
+  - name: iLO
+    type: other
+    mgmt_only: true
