@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: JPSU-3000W-AC-AFO
+part_number: JPSU-3000W-AC-AFO
+# airflow: front-to-rear
+weight: 2.33
+weight_unit: lb
+power-ports:
+  - name: '{module}'
+    type: saf-d-grid
+    maximum_draw: 3000
