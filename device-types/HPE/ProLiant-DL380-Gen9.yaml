@@ -1,20 +1,31 @@
 ---
 manufacturer: HPE
-<<<<<<<< HEAD:device-types/HPE/HPE-ProLiant_DL380p_Gen8.yaml
 model: ProLiant DL380p Gen8
-slug: hpe_dl380p_g8
+slug: hpe-dl380p-g8
 part_number: 670524-001
-========
-model: ProLiant DL380 Gen9
-slug: hpe-proliant-dl380-gen9
->>>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/HPE/ProLiant-DL380-Gen9.yaml
 u_height: 2
 is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+comments: '# [HPE ProLiant DL380 Gen9 Server] 
+
+<https://www.hpe.com/psnow/doc/c04346247>  '
+
 console-ports:
-  - name: Serial
+  - name: Front iLO Front Service Port
+    type: usb-a
+  - name: Rear Serial
     type: de-9
-  - name: VGA
+  - name: Rear VGA
     type: other
+  - name: Front VGA
+    type: other
+  - name: Front USB1
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
 power-ports:
   - name: PSU-1
     type: iec-60320-c14
@@ -34,4 +45,20 @@ interfaces:
   - name: iLO
     type: 1000base-t
     mgmt_only: true
-
+device-bays:
+  - name: Drive bay-0/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-1/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-2/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-3/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-4/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-5/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-6/SFF
+    description: '2.5" SFF'
+  - name: Drive bay-7/SFF
+    description: '2.5" SFF'
