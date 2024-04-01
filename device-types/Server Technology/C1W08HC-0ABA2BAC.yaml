@@ -1,0 +1,67 @@
+---
+manufacturer: Server Technology
+model: C1W08HC-0ABA2BAC
+slug: server-technology-c1w08hc-0aba2bac
+part_number: C1W08HC-0ABA2BAC
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: |
+  PRO1 Switched, Per-Inlet Power Sensing, Primary, 16A, 120-240V, (8) C13,
+  Dimensions: 45 x 437 x 178 mm (1.75 x 17.2 x 7.0")
+console-ports:
+  - name: ser
+    label: SER
+    type: rj-45
+  - name: th1
+    label: T/H1
+    type: rj-11
+  - name: th2
+    label: T/H2
+    type: rj-11
+console-server-ports:
+  - name: link
+    label: LINK
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+    maximum_draw: 3300
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+interfaces:
+  - name: net
+    label: NET
+    type: 1000base-t
+    mgmt_only: true

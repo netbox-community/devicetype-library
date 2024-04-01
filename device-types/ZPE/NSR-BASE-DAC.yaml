@@ -1,0 +1,119 @@
+---
+manufacturer: ZPE
+model: NSR-BASE-DAC
+slug: zpe-nsr-base-dac
+part_number: NSR-BASE-DAC
+u_height: 1
+is_full_depth: true
+comments: ZPE Nodegrid Net Services Router. 16X RJ45 Serial, 20X ETH (18 GbE, 2 SFP+), 3X USB
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1-1
+    type: rj-45
+  - name: ttyS1-2
+    type: rj-45
+  - name: ttyS1-3
+    type: rj-45
+  - name: ttyS1-4
+    type: rj-45
+  - name: ttyS1-5
+    type: rj-45
+  - name: ttyS1-6
+    type: rj-45
+  - name: ttyS1-7
+    type: rj-45
+  - name: ttyS1-8
+    type: rj-45
+  - name: ttyS1-9
+    type: rj-45
+  - name: ttyS1-10
+    type: rj-45
+  - name: ttyS1-11
+    type: rj-45
+  - name: ttyS1-12
+    type: rj-45
+  - name: ttyS1-13
+    type: rj-45
+  - name: ttyS1-14
+    type: rj-45
+  - name: ttyS1-15
+    type: rj-45
+  - name: ttyS1-16
+    type: rj-45
+  - name: usbS0-1
+    type: usb-a
+  - name: usbS0-2
+    type: usb-a
+  - name: usbS0-3
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    allocated_draw: 45
+  - name: PSU2
+    type: dc-terminal
+    allocated_draw: 45
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+  - name: ETH1
+    type: 1000base-t
+  - name: SFP0
+    type: 10gbase-x-sfpp
+  - name: SFP1
+    type: 10gbase-x-sfpp
+  - name: netS2-1
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-2
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-3
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-4
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-5
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-6
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-7
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-8
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-9
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-10
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-11
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-12
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-13
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-14
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-15
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+  - name: netS2-16
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    # TODO 2xGPIO, 1xDigital Out, 1xRelay Port
+    # 1 x optional WiFi module
+    # SLOTS??? this is a modular device but this yaml file is a first pass
+    # 2 x LTE modem slots
+    # 1 x HDMI

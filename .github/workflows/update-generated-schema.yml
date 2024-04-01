@@ -18,6 +18,8 @@ jobs:
         with:
           repository: netbox-community/netbox
       - uses: actions/checkout@v4
+        with:
+          submodules: true
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -44,7 +46,7 @@ jobs:
         run: python3 scripts/update-schema.py
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Regenerate master slug list after successful PR merge"
           committer: "NetBox-Bot <info@netboxlabs.com>"
