@@ -12,6 +12,9 @@ power-ports:
   - name: PS0
     type: dc-terminal
     maximum_draw: 7
+console-ports:
+  - name: USB_1
+    type: usb-a
 interfaces:
   - name: lan1
     type: 100base-tx
@@ -27,13 +30,12 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: passive-24v-2pair
-  - name: USB_0
-    type: other
-  - name: RS232
-    type: other
-  - name: RS485
+  - name: Sensors_1
     type: other
     comments: RS485/Modbus connector Full Duplex and Half Duplex
+  - name: Sensors_2
+    type: other
+    comments: RS232/Modbus connector Full Duplex and Half Duplex
   - name: io_0
     type: other
     comments: sms, email, rms i/o exchange
@@ -44,6 +46,6 @@ interfaces:
     type: other
     comments: Micro SD FAT32, NTFS, ext2, ext3, ext4 up to 64GB
   - name: Wifi_2.4
-    type: ieee802.11ax
+    type: ieee802.11ac
   - name: Wifi_5
-    type: ieee802.11ax
+    type: ieee802.11ac
