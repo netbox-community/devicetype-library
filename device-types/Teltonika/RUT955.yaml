@@ -1,0 +1,49 @@
+---
+manufacturer: Teltonika
+model: RUT955
+slug: teltonika-rut955
+part_number: RUT955
+u_height: 1.15
+is_full_depth: false
+weight: 287
+weight_unit: g
+comments: '[RUT240 Specs](https://teltonika-networks.com/cdn/products/2022/12/639ae8e7c85821-60458654/rut955-datasheet-v13.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 7
+interfaces:
+  - name: lan1
+    type: 100base-tx
+  - name: lan2
+    type: 100base-tx
+  - name: lan3
+    type: 100base-tx
+  - name: mob1s1a1
+    type: lte
+  - name: mob1s2a1
+    type: lte
+  - name: wan
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: USB_0
+    type: usb-a
+  - name: RS232
+    type: de-9
+  - name: RS485
+    type: other
+    comments: RS485/Modbus connector Full Duplex and Half Duplex
+  - name: io_0
+    type: other
+    comments: sms, email, rms i/o exchange
+  - name: gnss_0
+    type: other
+    comments: GPS, GLONASS, BeiDou, Galileo and QZSS
+  - name: SD-Card
+    type: other
+    comments: Micro SD FAT32, NTFS, ext2, ext3, ext4 up to 64GB
+  - name: Wifi_2.4
+    type: ieee802.11ax
+  - name: Wifi_5
+    type: ieee802.11ax
