@@ -19,26 +19,26 @@ power-ports:
 interfaces:
   - name: eth1
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: eth2
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: eth3
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: eth4
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
   - name: eth5
     type: 100base-tx
-    poe_mode: pd
-    poe_type: type1-ieee802.3af
   - name: eth6
     type: 100base-tx
-    poe_mode: pd
-    poe_type: type1-ieee802.3af
   - name: eth7
     type: 100base-tx
-    poe_mode: pd
-    poe_type: type1-ieee802.3af
   - name: G1-sfp
     type: 1000base-x-sfp
     comment: combo port with G1-rj45
