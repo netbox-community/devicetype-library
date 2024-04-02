@@ -1,9 +1,10 @@
 ---
 manufacturer: HPE
-model: ProLiant DX385 Gen10
-slug: hpe-proliant-dx385-gen10
+model: ProLiant DX385 Gen10 Plus
+slug: hpe-proliant-dx385-gen10-plus
 u_height: 2
 is_full_depth: true
+airflow: front-to-rear
 console-ports:
   - name: VGA
     type: other
@@ -20,20 +21,34 @@ module-bays:
     position: FlexLOM
   - name: PCIe1
     position: PCIe1
+    label: primary riser
   - name: PCIe2
     position: PCIe2
+    label: primary riser
   - name: PCIe3
     position: PCIe3
+    label: primary riser
   - name: PCIe4
     position: PCIe4
+    label: secondary riser
   - name: PCIe5
     position: PCIe5
+    label: secondary riser
   - name: PCIe6
     position: PCIe6
+    label: secondary riser
   - name: PCIe7
     position: PCIe7
+    label: tertiary riser
   - name: PCIe8
     position: PCIe8
+    label: tertiary riser
+  - name: HDDBox1
+    position: box1
+  - name: HDDBox2
+    position: box2
+  - name: HDDBox3
+    position: box3
 interfaces:
   - name: iLO
     type: 1000base-t
