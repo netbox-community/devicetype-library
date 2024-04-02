@@ -5,6 +5,8 @@ slug: hpe-proliant-dx385-gen10-plus
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
+front_image: true
+rear_image: true
 console-ports:
   - name: VGA
     type: other
@@ -17,8 +19,8 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
-  - name: FlexLOM
-    position: FlexLOM
+  - name: OCP3
+    position: OCP3
   - name: PCIe1
     position: PCIe1
     label: primary riser
