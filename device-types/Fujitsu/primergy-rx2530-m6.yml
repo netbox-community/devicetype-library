@@ -1,0 +1,39 @@
+---
+manufacturer: Fujitsu
+model: PRIMERGY RX2530 M6
+slug: fujitsu-primergy-rx2530-m6
+part_number: rx2530m6
+u_height: 1
+airflow: front-to-rear
+is_full_depth: true
+weight: 18.2
+weight_unit: kg
+comments: '[Fujitsu Server PRIMERGY RX2530 M6 Rack Server](https://sp.ts.fujitsu.com/dmsp/Publications/public/ds-py-rx2530-m6.pdf)'
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    maximum_draw: 900
+  - name: PSU-2
+    type: iec-60320-c14
+    maximum_draw: 900
+module-bays:
+  - name: PCIe slot 1
+    position: PCIe-1
+    label: '1'
+    description: PCIe4.0 16x
+  - name: PCIe slot 2
+    position: PCIe-2
+    label: '2'
+    description: PCIe4.0 16x
+  - name: PCIe slot 3
+    position: PCIe-3
+    label: '3'
+    description: PCIe4.0 16x
+  - name: PCIe slot 4
+    position: PCIe-4
+    label: '4'
+    description: PCIe4.0 16x
+interfaces:
+  - name: iRMC-S5
+    type: 1000base-t
+    mgmt_only: true
