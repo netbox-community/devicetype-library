@@ -1,0 +1,50 @@
+---
+manufacturer: Ippon
+model: Innova RT II 6000
+slug: ippon-innova-rt-ii-6000
+part_number: '1005639'
+u_height: 5.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://ippon.ru/catalog/item/innova-rt-ll-6000-10000?ysclid=lozv972uyl370246822/)'
+weight: 59.1
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Inlet
+    type: iec-60309-3p-n-e-4h
+    maximum_draw: 6000
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: 16A Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: 16A Outlet 2
+    type: iec-60320-c19
+    power_port: Inlet
+module-bays:
+  - name: IntelligentSlot
+    label: IntelligentSlot
+    position: Rear
+    description: IntelligentSlot
