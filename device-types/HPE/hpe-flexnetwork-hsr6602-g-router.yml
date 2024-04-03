@@ -1,0 +1,39 @@
+---
+manufacturer: HPE
+model: HPE FlexNetwork HSR6602-G Router
+part_number: JG353A
+slug: hpe-flexnetwork-hsr6602-g-router
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 12.1
+weight_unit: kg
+comments: '[HPE FlexNetwork HSR6602 Router Series](http://www.telecomdatasheets.com/ddata/993.pdf)'
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: aux
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+interfaces:
+  - name: M-GigabitEthernet0/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet1/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/3
+    type: 1000base-x-sfp
+module-bays:
+  - name: PS-1
+    position: PS-A
+  - name: PS-2
+    position: PS-B
+  - name: Service Module Slot
+    position: '1'
+    description: FIP10 or FIP20 Modules only
