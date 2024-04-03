@@ -84,63 +84,86 @@ console-server-ports:
   - name: Front Lower USB
     type: usb-a
 interfaces:
-  - name: eth0
+  - name: net1
     type: 1000base-t
-    mgmt_only: true
-  - name: eth1
+  - name: net2
     type: 1000base-t
-    mgmt_only: true
-  - name: Cellular Interface (LTE)
+  - name: wwan0
     type: lte
-    mgmt_only: true
-  - name: Port 25
+  - name: sw0
+    type: bridge
+  - name: sw0p1
     type: 1000base-t
-  - name: Port 26
+    bridge: sw0
+  - name: sw0p2
     type: 1000base-t
-  - name: Port 27
+    bridge: sw0
+  - name: sw0p3
     type: 1000base-t
-  - name: Port 28
+    bridge: sw0
+  - name: sw0p4
     type: 1000base-t
-  - name: Port 29
+    bridge: sw0
+  - name: sw0p5
     type: 1000base-t
-  - name: Port 30
+    bridge: sw0
+  - name: sw0p6
     type: 1000base-t
-  - name: Port 31
+    bridge: sw0
+  - name: sw0p7
     type: 1000base-t
-  - name: Port 32
+    bridge: sw0
+  - name: sw0p8
     type: 1000base-t
-  - name: Port 33
+    bridge: sw0
+  - name: sw0p9
     type: 1000base-t
-  - name: Port 34
+    bridge: sw0
+  - name: sw0p10
     type: 1000base-t
-  - name: Port 35
+    bridge: sw0
+  - name: sw0p11
     type: 1000base-t
-  - name: Port 36
+    bridge: sw0
+  - name: sw0p12
     type: 1000base-t
-  - name: Port 37
+    bridge: sw0
+  - name: sw0p13
     type: 1000base-t
-  - name: Port 38
+    bridge: sw0
+  - name: sw0p14
     type: 1000base-t
-  - name: Port 39
+    bridge: sw0
+  - name: sw0p15
     type: 1000base-t
-  - name: Port 40
+    bridge: sw0
+  - name: sw0p16
     type: 1000base-t
-  - name: Port 41
+    bridge: sw0
+  - name: sw0p17
     type: 1000base-t
-  - name: Port 42
+    bridge: sw0
+  - name: sw0p18
     type: 1000base-t
-  - name: Port 43
+    bridge: sw0
+  - name: sw0p19
     type: 1000base-t
-  - name: Port 44
+    bridge: sw0
+  - name: sw0p20
     type: 1000base-t
-  - name: Port 45
+    bridge: sw0
+  - name: sw0p21
     type: 1000base-t
-  - name: Port 46
+    bridge: sw0
+  - name: sw0p22
     type: 1000base-t
-  - name: Port 47
+    bridge: sw0
+  - name: sw0p23
     type: 1000base-t
-  - name: Port 48
+    bridge: sw0
+  - name: sw0p24
     type: 1000base-t
+    bridge: sw0
 power-ports:
   - name: PS1
     type: iec-60320-c14
