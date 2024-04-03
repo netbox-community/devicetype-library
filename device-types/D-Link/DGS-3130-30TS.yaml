@@ -1,12 +1,12 @@
 ---
 manufacturer: D-Link
-model: DGS-3130-54TS
-slug: d-link-dgs-3130-54ts
-part_number: DGS-3130-54TS
-comments: '[DGS-3130-54TS](https://eu.dlink.com/de/de/products/dgs-3130-gigabit-layer-3-stackable-managed-switches)'
+model: DGS-3130-30TS
+slug: d-link-dgs-3130-30ts
+part_number: DGS-3130-30TS
+comments: '[DGS-3130-30TS](https://www.dlink.com/de/de/products/dgs-3130-gigabit-layer-3-stackable-managed-switches)'
 is_full_depth: false
 airflow: side-to-rear
-weight: 4.2
+weight: 3.2
 weight_unit: kg
 u_height: 1
 console-ports:
@@ -17,7 +17,7 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 46
+    maximum_draw: 31
 interfaces:
   - name: Management
     type: 1000base-t
@@ -71,62 +71,14 @@ interfaces:
   - name: Ethernet1/0/24
     type: 1000base-t
   - name: Ethernet1/0/25
-    type: 1000base-t
+    type: 10gbase-t
   - name: Ethernet1/0/26
-    type: 1000base-t
+    type: 10gbase-t
   - name: Ethernet1/0/27
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: Ethernet1/0/28
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: Ethernet1/0/29
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: Ethernet1/0/30
-    type: 1000base-t
-  - name: Ethernet1/0/31
-    type: 1000base-t
-  - name: Ethernet1/0/32
-    type: 1000base-t
-  - name: Ethernet1/0/33
-    type: 1000base-t
-  - name: Ethernet1/0/34
-    type: 1000base-t
-  - name: Ethernet1/0/35
-    type: 1000base-t
-  - name: Ethernet1/0/36
-    type: 1000base-t
-  - name: Ethernet1/0/37
-    type: 1000base-t
-  - name: Ethernet1/0/38
-    type: 1000base-t
-  - name: Ethernet1/0/39
-    type: 1000base-t
-  - name: Ethernet1/0/40
-    type: 1000base-t
-  - name: Ethernet1/0/41
-    type: 1000base-t
-  - name: Ethernet1/0/42
-    type: 1000base-t
-  - name: Ethernet1/0/43
-    type: 1000base-t
-  - name: Ethernet1/0/44
-    type: 1000base-t
-  - name: Ethernet1/0/45
-    type: 1000base-t
-  - name: Ethernet1/0/46
-    type: 1000base-t
-  - name: Ethernet1/0/47
-    type: 1000base-t
-  - name: Ethernet1/0/48
-    type: 1000base-t
-  - name: Ethernet1/0/49
-    type: 10gbase-t
-  - name: Ethernet1/0/50
-    type: 10gbase-t
-  - name: Ethernet1/0/51
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/0/52
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/0/53
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/0/54
     type: 10gbase-x-sfpp
