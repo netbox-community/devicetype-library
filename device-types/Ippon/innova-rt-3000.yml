@@ -1,0 +1,51 @@
+---
+manufacturer: Ippon
+model: Innova RT 3000
+slug: ippon-innova-rt-3000
+part_number: '621781'
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://ippon.ru/catalog/item/pdf.php?id=621781/)'
+weight: 28.8
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Inlet
+    type: iec-60320-c14
+    maximum_draw: 2700
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: 16A Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+module-bays:
+  - name: IntelligentSlot
+    position: Rear
