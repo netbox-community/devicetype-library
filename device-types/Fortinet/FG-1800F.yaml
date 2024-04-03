@@ -5,29 +5,26 @@ slug: fortinet-fg-1800f
 part_number: FG-1800F
 u_height: 2
 is_full_depth: true
+weight: 13.7
+weight_unit: kg
 airflow: front-to-rear
-comments: Same as FG-1801F , but **WITHOUT** 2 x 480GB SSDs on-board.
+comments: '[FortiGate 1800F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-1800f-series.pdf)'
 console-ports:
   - name: Console
     type: rj-45
   - name: USB
     type: usb-a
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 336
-    allocated_draw: 217
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 336
-    allocated_draw: 217
 interfaces:
   - name: mgmt1
     type: 1000base-t
     mgmt_only: true
-  - name: mgmé
+  - name: mgmt2
     type: 1000base-t
     mgmt_only: true
+  - name: ha1
+    type: 10gbase-x-sfpp
+  - name: ha2
+    type: 10gbase-x-sfpp
   - name: port1
     type: 1000base-t
   - name: port2
@@ -77,34 +74,39 @@ interfaces:
   - name: port24
     type: 1000base-x-sfp
   - name: port25
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port26
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port27
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port28
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port29
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port30
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port31
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port32
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port33
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port34
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port35
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port36
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
   - name: port37
-    type: 40gbase-x-qsfpp
+    type: 100gbase-x-qsfp28
   - name: port38
-    type: 40gbase-x-qsfpp
+    type: 100gbase-x-qsfp28
   - name: port39
-    type: 40gbase-x-qsfpp
+    type: 100gbase-x-qsfp28
   - name: port40
-    type: 40gbase-x-qsfpp
+    type: 100gbase-x-qsfp28
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
