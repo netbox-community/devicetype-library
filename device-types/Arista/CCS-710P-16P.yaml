@@ -1,0 +1,89 @@
+---
+manufacturer: Arista
+model: CCS-710P-16P
+slug: arista-ccs-710p-16p
+part_number: CCS-710P-16P
+u_height: 1
+weight: 5
+weight_unit: lb
+is_full_depth: false
+comments: '[Arista CCS-710P Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710P-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 280
+    allocated_draw: 229
+front_image: true
+rear_image: true
+interfaces:
+  - name: Ethernet1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet11
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet13
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet14
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet15
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: Ethernet16
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: Ethernet17
+    type: 10gbase-x-sfpp
+  - name: Ethernet18
+    type: 10gbase-x-sfpp
