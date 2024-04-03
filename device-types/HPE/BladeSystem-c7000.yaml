@@ -2,9 +2,14 @@
 manufacturer: HPE
 model: BladeSystem c7000
 slug: hpe-bladesystem-c7000
+part_number: 507019-B21
 u_height: 10
 is_full_depth: true
 subdevice_role: parent
+airflow: front-to-rear
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04229580)'
+weight: 67
+weight_unit: kg
 module-bays:
   - name: PS1
     position: '1'
@@ -45,8 +50,3 @@ device-bays:
   - name: Interconnect Bay 8
   - name: Onboard Administrator Bay 1
   - name: Onboard Administrator Bay 2
-interfaces:
-  - name: Enclosure Link Down
-    type: 1000base-t
-  - name: Enclosure Link Up
-    type: 1000base-t
