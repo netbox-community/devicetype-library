@@ -1,0 +1,37 @@
+---
+manufacturer: HPE
+model: HPE MSR3012 AC Router
+part_number: JG409B
+slug: hpe-msr3012-ac-router
+u_height: 1
+is_full_depth: false
+airflow: left-to-right
+# Weight refers to an empty chassis without any modules installed
+weight: 8.05
+weight_unit: kg
+comments: '[HPE FlexNetwork MSR3000 Router Series](https://www.hpe.com/psnow/doc/c04123140.pdf)'
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 100
+interfaces:
+  - name: GigabitEthernet1/0/0
+    type: 1000base-t
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+module-bays:
+  - name: SIC slot 1
+    position: SIC-1
+  - name: SIC slot 2
+    position: SIC-2
+  - name: HMIM slot 1
+    position: HMIM-1
+  - name: VPM slot 1
+    position: VPM-1
