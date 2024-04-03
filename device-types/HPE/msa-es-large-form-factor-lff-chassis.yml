@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: MSA ES Large Form Factor LFF chassis
+slug: hpe-msa-es-large-form-factor-lff-chassis
+part_number: 876131-001
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 13.9
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 595
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 595
+module-bays:
+  - name: Ctrl A
+    position: A
+  - name: Ctrl B
+    position: B
