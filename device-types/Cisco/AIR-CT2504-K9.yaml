@@ -13,16 +13,22 @@ console-ports:
   - name: usb1
     type: usb-mini-b
 interfaces:
-  - name: Port 1
-    type: 1000base-t
-  - name: Port 2
-    type: 1000base-t
-  - name: Port 3
-    type: 1000base-t
-  - name: Port 4
-    type: 1000base-t
-  - name: WiFi
+  - name: Dot11Radio0
+    type: ieee802.11n
+  - name: Dot11Radio1
     type: ieee802.11ac
+  - name: GigabitEthernet0
+    type: 1000base-t
+    poe_mode: pd
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_mode: pd
+  - name: GigabitEthernet2
+    type: 1000base-t
+    poe_mode: pd
+  - name: GigabitEthernet3
+    type: 1000base-t
+    poe_mode: pd
 power-ports:
   - name: PS1
     type: iec-60320-c14
