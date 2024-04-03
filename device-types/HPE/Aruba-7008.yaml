@@ -1,0 +1,36 @@
+---
+manufacturer: HPE
+model: Aruba 7008
+slug: hpe-aruba-7008
+part_number: JX927A
+is_full_depth: false
+front_image: true
+rear_image: true
+u_height: 1
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-mini-b
+power-ports:
+  - name: DC
+    type: dc-terminal
+interfaces:
+  - name: gigabitethernet 0/0/0
+    type: 1000base-t
+  - name: gigabitethernet 0/0/1
+    type: 1000base-t
+  - name: gigabitethernet 0/0/2
+    type: 1000base-t
+  - name: gigabitethernet 0/0/3
+    type: 1000base-t
+  - name: gigabitethernet 0/0/4
+    type: 1000base-t
+  - name: gigabitethernet 0/0/5
+    type: 1000base-t
+  - name: gigabitethernet 0/0/6
+    type: 1000base-t
+  - name: gigabitethernet 0/0/7
+    type: 1000base-t
+  - name: gigabitethernet 0/0/8
+    type: 1000base-t
