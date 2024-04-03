@@ -5,6 +5,8 @@ part_number: N9K-C9364C
 slug: cisco-n9k-c9364c
 u_height: 2
 is_full_depth: true
+weight: 16.74
+weight_unit: kg
 console-ports:
   - name: console
     type: rj-45
@@ -149,3 +151,9 @@ module-bays:
     position: '1'
   - name: PS2
     position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'

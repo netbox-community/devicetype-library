@@ -2,13 +2,31 @@
 manufacturer: Juniper
 model: EX4100-24T
 slug: juniper-ex4100-24t
-u_height: 1
 part_number: EX4100-24T
+u_height: 1
 is_full_depth: false
 airflow: front-to-rear
 weight: 9.72
 weight_unit: lb
+comments: '[Juniper EX4100 Product Overview](https://www.juniper.net/us/en/products/switches/ex-series/ex4100-line-of-ethernet-switches-datasheet.html)'
+module-bays:
+  - name: Power Supply 0
+    position: '0'
+  - name: Power Supply 1
+    position: '1'
+  - name: Fan tray 0
+    position: '0'
+  - name: Fan tray 1
+    position: '1'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-c
 interfaces:
+  - name: me0
+    type: 1000base-t
+    mgmt_only: true
   - name: ge-0/0/0
     type: 1000base-t
   - name: ge-0/0/1
@@ -73,20 +91,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: xe-0/2/3
     type: 10gbase-x-sfpp
-  - name: me0
-    type: 1000base-t
-    mgmt_only: true
-module-bays:
-  - name: Power Supply 0
-    position: '0'
-  - name: Power Supply 1
-    position: '1'
-  - name: Fan tray 0
-    position: '0'
-  - name: Fan tray 1
-    position: '1'
-console-ports:
-  - name: Console
-    type: rj-45
-  - name: Console (USB)
-    type: usb-c
