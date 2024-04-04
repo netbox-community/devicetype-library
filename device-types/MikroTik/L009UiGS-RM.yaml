@@ -1,0 +1,57 @@
+---
+manufacturer: MikroTik
+model: L009UiGS-RM
+slug: mikrotik-l009uigs-rm
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[MikroTik L009UiGS-RM Datasheet](https://mikrotik.com/product/l009uigs_rm)'
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 40
+    allocated_draw: 8
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: ether3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: ether4
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: ether5
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: ether6
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: ether7
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: ether8
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: sfp1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
