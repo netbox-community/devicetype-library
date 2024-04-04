@@ -1,0 +1,53 @@
+---
+manufacturer: Datacom
+model: DM4370 4GT+4GX+4XS
+slug: datacom-dm4370-4gt-plus-4gx-plus-4xs
+part_number: 800.5191.xx
+u_height: 1.0
+is_full_depth: true
+airflow: side-to-rear
+comments: L2 L3 MPLS switch, wirespeed, with 4 Gigabit Electrical ports on RJ45 connectors, 4 Gigabit Ethernet ports on SFP connectors, and 4 10 Gigabit
+  Ethernet ports on SFP+ connectors. Integrated AC/DC power supply with automatic selection and 12V input for redundant power. Compact 1U metal chassis.
+weight: 1.3
+weight_unit: kg
+console-ports:
+  - name: Console0
+    type: rj-45
+  - name: Console1
+    type: usb-mini-b
+power-ports:
+  - name: Power Input AC/DC
+    type: iec-60320-c14
+    maximum_draw: 33
+  - name: Power Input DC
+    type: other
+    maximum_draw: 33
+    description: P4
+interfaces:
+  - name: gigabit-ethernet-1/1/1
+    type: 1000base-t
+  - name: gigabit-ethernet-1/1/2
+    type: 1000base-t
+  - name: gigabit-ethernet-1/1/3
+    type: 1000base-t
+  - name: gigabit-ethernet-1/1/4
+    type: 1000base-t
+  - name: gigabit-ethernet-1/1/5
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/6
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/7
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/8
+    type: 1000base-x-sfp
+  - name: mgmt-1/1/1
+    mgmt_only: true
+    type: 100base-tx
+  - name: ten-gigabit-ethernet-1/1/1
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/2
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/3
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/4
+    type: 10gbase-x-sfpp
