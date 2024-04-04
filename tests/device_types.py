@@ -125,6 +125,37 @@ class DeviceType:
         self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
         return False
 
+    def ensure_no_vga(self):
+                # Lastly, check if interfaces exists and has a poe_mode defined
+        interfaces = self.definition.get('interfaces', False)
+        if interfaces:
+            for interface in interfaces:
+                name = interface.get('name', "")
+                label = interface.get('label', "")
+                if name.casefold() == "vga" or label.casefold() == "vga":
+                    self.failureMessage = f'{self.file_path} has a VGA interface defined. VGA interfaces are not valid at this time.'
+                    return False
+
+        console_ports = self.definition.get('console-ports', False)
+        if console_ports:
+            for console_port in console_ports:
+                name = console_port.get('name', "")
+                label = console_port.get('label', "")
+                if name.casefold() == "vga" or label.casefold() == "vga":
+                    self.failureMessage = f'{self.file_path} has a VGA console_port defined. VGA interfaces are not valid at this time.'
+                    return False
+
+        rear_ports = self.definition.get('rear-ports', False)
+        if rear_ports:
+            for rear_port in rear_ports:
+                name = rear_port.get('name', "")
+                label = rear_port.get('label', "")
+                if name.casefold() == "vga" or label.casefold() == "vga":
+                    self.failureMessage = f'{self.file_path} has a VGA rear_port defined. VGA interfaces are not valid at this time.'
+                    return False
+
+        return True
+
 class ModuleType:
     def __new__(cls, *args, **kwargs):
         return super().__new__(cls)
