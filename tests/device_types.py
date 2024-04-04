@@ -126,33 +126,23 @@ class DeviceType:
         return False
 
     def ensure_no_vga(self):
-                # Lastly, check if interfaces exists and has a poe_mode defined
-        interfaces = self.definition.get('interfaces', False)
-        if interfaces:
-            for interface in interfaces:
-                name = interface.get('name', "")
-                label = interface.get('label', "")
-                if name.casefold() == "vga" or label.casefold() == "vga":
-                    self.failureMessage = f'{self.file_path} has a VGA interface defined. VGA interfaces are not valid at this time.'
-                    return False
+        NO_VGA_COMPONENTS = [
+            'console-ports',
+            'console-server-ports',
+            'interfaces',
+            'front-ports',
+            'rear-ports'
+        ]
+        for component_to_test in NO_VGA_COMPONENTS:
+            test_component = self.definition.get(component_to_test, False)
 
-        console_ports = self.definition.get('console-ports', False)
-        if console_ports:
-            for console_port in console_ports:
-                name = console_port.get('name', "")
-                label = console_port.get('label', "")
-                if name.casefold() == "vga" or label.casefold() == "vga":
-                    self.failureMessage = f'{self.file_path} has a VGA console_port defined. VGA interfaces are not valid at this time.'
-                    return False
-
-        rear_ports = self.definition.get('rear-ports', False)
-        if rear_ports:
-            for rear_port in rear_ports:
-                name = rear_port.get('name', "")
-                label = rear_port.get('label', "")
-                if name.casefold() == "vga" or label.casefold() == "vga":
-                    self.failureMessage = f'{self.file_path} has a VGA rear_port defined. VGA interfaces are not valid at this time.'
-                    return False
+            if test_component:
+                for component in test_component:
+                    name = component.get('name', "")
+                    label = component.get('label', "")
+                    if name.casefold() == "vga" or label.casefold() == "vga":
+                        self.failureMessage = f'{self.file_path} has a VGA component defined. VGA is not a valid definition at this time.'
+                        return False
 
         return True
 
