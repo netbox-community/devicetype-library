@@ -1,4 +1,4 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
@@ -9,10 +9,10 @@ import os
 import tempfile
 import psutil
 from urllib.request import urlopen
-
 import pytest
 import yaml
-from jsonschema import Draft4Validator, RefResolver
+from referencing import Registry, Resource
+from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
 from git import Repo
 
@@ -35,6 +35,20 @@ def _get_definition_files():
             file_list.append((file, schema, 'skip'))
 
     return file_list
+
+def _generate_schema_registry():
+    """
+    Return a list of all definition files within the specified path.
+    """
+    registry = Registry()
+
+    for schema_f in os.listdir(SCHEMAS_BASEPATH):
+        # Initialize the schema
+        with open(f"schema/{schema_f}") as schema_file:
+            resource = Resource.from_contents(json.loads(schema_file.read(), parse_float=decimal.Decimal))
+            registry = resource @ registry
+
+    return registry
 
 def _get_diff_from_upstream():
     file_list = []
@@ -126,6 +140,7 @@ else:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
 
+SCHEMA_REGISTRY = _generate_schema_registry()
 
 @pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
 def test_definitions(file_path, schema, change_type):
@@ -147,13 +162,9 @@ def test_definitions(file_path, schema, change_type):
 
     # Validate YAML definition against the supplied schema
     try:
-        resolver = RefResolver(
-            f"file://{os.getcwd()}/schema/devicetype.json",
-            schema,
-            handlers={"file": _decimal_file_handler},
-        )
         # Validate definition against schema
-        Draft4Validator(schema, resolver=resolver).validate(definition)
+        validator = Draft202012Validator(schema, registry=SCHEMA_REGISTRY)
+        validator.validate(definition)
     except ValidationError as e:
         # Schema validation failure. Ensure you are following the proper format.
         pytest.fail(f"{file_path} failed validation: {e}", False)
@@ -197,6 +208,7 @@ def test_definitions(file_path, schema, change_type):
     # Check for valid power definitions
     if this_device.isDevice:
         assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.ensure_no_vga(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
