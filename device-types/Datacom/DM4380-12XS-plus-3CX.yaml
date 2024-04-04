@@ -1,0 +1,62 @@
+---
+manufacturer: Datacom
+model: DM4380 12XS+3CX
+slug: datacom-dm4380-12xs-plus-3cx
+part_number: 800.5258.xx
+u_height: 1.0
+is_full_depth: true
+airflow: side-to-rear
+comments: Managed L2, L3, and MPLS switch. MPLS functionality requires a separately purchased license. Includes 12 1/10GbE ports on SFP+, 3 40/100GbE ports
+  on QSFP28, outband management interfaces, RS232 console, and USB ports. SFPs, SFP+, QSFP+, and QSFP28 modules purchased separately. 1U metal chassis for
+  19 rack. AC or DC power supply with redundancy option (purchased separately).
+weight: 3
+weight_unit: kg
+console-ports:
+  - name: Console0
+    type: rj-45
+  - name: Console1
+    type: usb-mini-b
+interfaces:
+  - name: hundred-gigabit-ethernet 1/1/1
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/2
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: hundred-gigabit-ethernet 1/1/3
+    type: 100gbase-x-qsfp28
+    description: 100G/40G Base-X (QSFP28)
+  - name: mgmt-1/1/1
+    mgmt_only: true
+    type: 100base-tx
+  - name: ten-gigabit-ethernet-1/1/1
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/2
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/3
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/4
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/5
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/6
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/7
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/8
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/9
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/10
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/11
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/12
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PSU1
+    label: '1'
+    position: '1'
+  - name: PSU2
+    label: '2'
+    position: '2'
