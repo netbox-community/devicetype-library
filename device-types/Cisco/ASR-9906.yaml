@@ -26,16 +26,22 @@ power-ports:
   - name: PS5
     type: iec-60320-c22
     maximum_draw: 6000
-device-bays:
+module-bays:
   - name: Slot 0
+    position: 0/RP0
     label: RSP 0
   - name: Slot 1
     label: Line Card 0
+    position: 0/0/0
   - name: Slot 2
     label: Line Card 1
+    position: 0/1
   - name: Slot 3
     label: Line Card 2
+    position: 0/2
   - name: Slot 4
     label: Line Card 3
+    position: 0/3
   - name: Slot 5
     label: RSP 1
+    position: 0/RP1
