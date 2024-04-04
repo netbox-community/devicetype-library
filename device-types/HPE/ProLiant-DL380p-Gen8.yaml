@@ -2,21 +2,36 @@
 manufacturer: HPE
 model: ProLiant DL380p Gen8
 slug: hpe-proliant-dl380p-gen8
-part_number: 670524-001
+part_number: 653200-B21
+airflow: front-to-rear
 u_height: 2
 is_full_depth: true
+comments: '[HPE ProLiant DL380p Gen8 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04123238)'
+#minumum weight - one hard drive, power supply and processor installed
+weight: 18.59
+weight_unit: kg
 console-ports:
   - name: Serial
     type: de-9
-  - name: VGA
-    type: other
-power-ports:
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6
+  - name: FlexLOM
+    position: FlexLOM
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 700
+    position: PSU1
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 700
+    position: PSU2
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
