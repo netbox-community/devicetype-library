@@ -1,0 +1,76 @@
+---
+manufacturer: HPE
+model: HPE FlexNetwork MSR3026 Router
+part_number: R9J03A
+slug: hpe-flexnetwork-msr3026-router
+u_height: 1
+is_full_depth: false
+# Weight refers to an empty chassis without any modules installed
+weight: 6.7
+weight_unit: kg
+comments: '[HPE FlexNetwork MSR3000 Router Series](https://www.hpe.com/psnow/doc/c04123140.pdf)'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet1/0/0
+    type: 1000base-t
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+  - name: GigabitEthernet1/0/9
+    type: 1000base-t
+  - name: GigabitEthernet1/0/10
+    type: 1000base-t
+  - name: GigabitEthernet1/0/11
+    type: 1000base-t
+  - name: GigabitEthernet1/0/12
+    type: 1000base-t
+  - name: GigabitEthernet1/0/13
+    type: 1000base-t
+  - name: GigabitEthernet1/0/14
+    type: 1000base-t
+  - name: GigabitEthernet1/0/15
+    type: 1000base-t
+  - name: Ten-GigabitEthernet1/0/16
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/17
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/18
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/19
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/20
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/21
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PS-1
+    position: PS-A
+  - name: PS-2
+    position: PS-B
+  - name: SIC slot 1
+    position: SIC-1
+  - name: SIC slot 2
+    position: SIC-2
+  - name: SIC slot 3
+    position: SIC-3
+  - name: SIC slot 4
+    position: SIC-4
+  - name: HMIM slot 1
+    position: HMIM-1
+  - name: HMIM slot 2
+    position: HMIM-2
