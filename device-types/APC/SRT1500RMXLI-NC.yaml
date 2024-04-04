@@ -1,0 +1,42 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT1500RMXLI-NC
+slug: apc-srt1500rmxli-nc
+part_number: SRT1500RMXLI-NC
+comments: APC Smart-UPS On-Line, 1500VA/1500W, Rackmount 2U, 230V, 6x C13 IEC outlets, Network Card, Extended runtime, W/ rail kit
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Source
+module-bays:
+  - name: SmartSlot
+    position: Rear
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    mgmt_only: true

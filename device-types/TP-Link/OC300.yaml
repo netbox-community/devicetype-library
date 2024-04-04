@@ -1,0 +1,23 @@
+---
+manufacturer: TP-Link
+model: OC300
+slug: tp-link-oc300
+u_height: 1
+is_full_depth: false
+comments: '[TP-Link OC300](https://www.tp-link.com/us/business-networking/omada-sdn-controller/oc300/)'
+console-ports:
+  - name: backup-usb
+    type: usb-a
+    description: USB Configuration Backup
+power-ports:
+  - name: PWR
+    type: iec-60320-c14
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: false
+    label: '1'
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: false
+    label: '2'
