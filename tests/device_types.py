@@ -140,7 +140,7 @@ class DeviceType:
                 for component in test_component:
                     name = component.get('name', "")
                     label = component.get('label', "")
-                    if name.casefold() == "vga" or label.casefold() == "vga":
+                    if "vga" in name.casefold() or "vga" in label.casefold():
                         self.failureMessage = f'{self.file_path} has a VGA component defined. VGA is not a valid definition at this time.'
                         return False
 
