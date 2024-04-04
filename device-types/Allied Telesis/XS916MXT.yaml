@@ -1,0 +1,53 @@
+---
+manufacturer: Allied Telesis
+model: XS916MXT
+slug: allied-telesis-xs916mxt
+part_number: AT-XS916MXT
+u_height: 1
+is_full_depth: true
+comments: '[xs900mx Specifications](https://www.alliedtelesis.com/sites/default/files/documents/datasheets/ati-xs900mxseries-ds.pdf)'
+weight: 2.8
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: port1.0.1
+    type: 10gbase-t
+  - name: port1.0.2
+    type: 10gbase-t
+  - name: port1.0.3
+    type: 10gbase-t
+  - name: port1.0.4
+    type: 10gbase-t
+  - name: port1.0.5
+    type: 10gbase-t
+  - name: port1.0.6
+    type: 10gbase-t
+  - name: port1.0.7
+    type: 10gbase-t
+  - name: port1.0.8
+    type: 10gbase-t
+  - name: port1.0.9
+    type: 10gbase-t
+  - name: port1.0.10
+    type: 10gbase-t
+  - name: port1.0.11
+    type: 10gbase-t
+  - name: port1.0.12
+    type: 10gbase-t
+  - name: port1.0.13
+    type: 10gbase-x-sfpp
+  - name: port1.0.14
+    type: 10gbase-x-sfpp
+  - name: port1.0.15
+    type: 10gbase-x-sfpp
+  - name: port1.0.16
+    type: 10gbase-x-sfpp
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 78
