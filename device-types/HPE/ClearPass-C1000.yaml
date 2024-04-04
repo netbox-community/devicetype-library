@@ -5,13 +5,14 @@ slug: hpe-clearpass-c1000
 part_number: JZ508A
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
 front_image: true
 rear_image: true
+weight: 8.5
+weight_unit: lb
 console-ports:
   - name: Serial
     type: rj-45
-  - name: VGA
-    type: other
 power-ports:
   - name: PS1
     type: iec-60320-c14
