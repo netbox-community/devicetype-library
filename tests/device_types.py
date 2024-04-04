@@ -133,6 +133,7 @@ class DeviceType:
             'front-ports',
             'rear-ports'
         ]
+
         for component_to_test in NO_VGA_COMPONENTS:
             test_component = self.definition.get(component_to_test, False)
 
