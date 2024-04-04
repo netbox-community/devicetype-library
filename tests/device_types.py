@@ -125,6 +125,28 @@ class DeviceType:
         self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
         return False
 
+    def ensure_no_vga(self):
+        NO_VGA_COMPONENTS = [
+            'console-ports',
+            'console-server-ports',
+            'interfaces',
+            'front-ports',
+            'rear-ports'
+        ]
+
+        for component_to_test in NO_VGA_COMPONENTS:
+            test_component = self.definition.get(component_to_test, False)
+
+            if test_component:
+                for component in test_component:
+                    name = component.get('name', "")
+                    label = component.get('label', "")
+                    if "vga" in name.casefold() or "vga" in label.casefold():
+                        self.failureMessage = f'{self.file_path} has a VGA component defined. VGA is not a valid definition at this time.'
+                        return False
+
+        return True
+
 class ModuleType:
     def __new__(cls, *args, **kwargs):
         return super().__new__(cls)
