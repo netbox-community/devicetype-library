@@ -1,0 +1,39 @@
+---
+manufacturer: MikroTik
+model: CRS310-8G+2S+IN
+slug: mikrotik-crs310-8g-plus-2s-plus-in
+part_number: CRS310-8G+2S+
+comments: '[CRS310-8G+2S+IN Datasheet](https://mikrotik.com/product/crs310_8g_2s_in). Smart Switch, 8 x 2.5 Gigabit LAN, 2 x SFP+ cages, Dual Core 800MHz
+  CPU, 256MB RAM, 32MB FLASH, 1U rackmount passive cooling case, One DC Power Supply.'
+is_full_depth: false
+u_height: 1
+airflow: front-to-rear
+interfaces:
+  - name: ether1
+    type: 2.5gbase-t
+  - name: ether2
+    type: 2.5gbase-t
+  - name: ether3
+    type: 2.5gbase-t
+  - name: ether4
+    type: 2.5gbase-t
+  - name: ether5
+    type: 2.5gbase-t
+  - name: ether6
+    type: 2.5gbase-t
+  - name: ether7
+    type: 2.5gbase-t
+  - name: ether8
+    type: 2.5gbase-t
+  - name: sfp-sfpplus1
+    label: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    label: SFP+ 2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: power1
+    label: DC 18-57V
+    type: dc-terminal
+    maximum_draw: 34
+    allocated_draw: 21
