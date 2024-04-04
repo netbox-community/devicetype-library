@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: ClearPass C3000
+slug: hpe-clearpass-c3000
+part_number: JZ510A
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 33.3
+weight_unit: lb
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
