@@ -208,6 +208,7 @@ def test_definitions(file_path, schema, change_type):
     # Check for valid power definitions
     if this_device.isDevice:
         assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.ensure_no_vga(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
