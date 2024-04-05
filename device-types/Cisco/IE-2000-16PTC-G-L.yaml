@@ -52,6 +52,11 @@ interfaces:
   - name: FastEthernet1/16
     type: 100base-tx
   - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
+    type: 1000base-t
+# Combo ports (SFP or RJ45)
+#  - name: GigabitEthernet1/1
+#    type: 1000base-x-sfp
+#  - name: GigabitEthernet1/2
+#    type: 1000base-x-sfp
