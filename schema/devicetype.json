@@ -1,7 +1,5 @@
 {
     "type": "object",
-    "$id": "urn:devicetype-library:device-type",
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "properties": {
         "manufacturer": {
             "type": "string"
@@ -25,13 +23,13 @@
             "type": "boolean"
         },
         "airflow": {
-            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
+            "$ref": "generated_schema.json#/definitions/airflow"
         },
         "weight": {
-            "$ref": "urn:devicetype-library:reusable#/definitions/weight"
+            "$ref": "reusable.json#/definitions/weight"
         },
         "weight_unit": {
-            "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
+            "$ref": "generated_schema.json#/definitions/weight-unit"
         },
         "front_image": {
             "type": "boolean"
@@ -40,7 +38,7 @@
             "type": "boolean"
         },
         "subdevice_role": {
-            "$ref": "urn:devicetype-library:generated-schema#/definitions/subdevice-role"
+            "$ref": "generated_schema.json#/definitions/subdevice-role"
         },
         "is_powered": {
           "type": "boolean"
@@ -48,61 +46,61 @@
         "console-ports": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/console-port"
+                "$ref": "components.json#/definitions/console-port"
             }
         },
         "console-server-ports": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/console-server-port"
+                "$ref": "components.json#/definitions/console-server-port"
             }
         },
         "power-ports": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/power-port"
+                "$ref": "components.json#/definitions/power-port"
             }
         },
         "power-outlets": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/power-outlet"
+                "$ref": "components.json#/definitions/power-outlet"
             }
         },
         "interfaces": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/interface"
+                "$ref": "components.json#/definitions/interface"
             }
         },
         "front-ports": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/front-port"
+                "$ref": "components.json#/definitions/front-port"
             }
         },
         "rear-ports": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/rear-port"
+                "$ref": "components.json#/definitions/rear-port"
             }
         },
         "module-bays": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/module-bay"
+                "$ref": "components.json#/definitions/module-bay"
             }
         },
         "device-bays": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/device-bay"
+                "$ref": "components.json#/definitions/device-bay"
             }
         },
         "inventory-items": {
             "type": "array",
             "items": {
-                "$ref": "urn:devicetype-library:components#/definitions/inventory-item"
+                "$ref": "components.json#/definitions/inventory-item"
             }
         },
         "description": {
