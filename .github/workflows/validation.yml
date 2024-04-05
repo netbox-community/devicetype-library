@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: true
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
@@ -38,8 +36,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: true
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
@@ -70,8 +66,6 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: true
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
@@ -97,7 +91,7 @@ jobs:
         run: pytest --tb=short -v
       - name: Check for pickle file change
         id: pickle-change
-        uses: tj-actions/changed-files@v44
+        uses: tj-actions/changed-files@v41
         with:
           files: 'tests/known-slugs.pickle'
       - name: Add PR Comment if pickle file is modified

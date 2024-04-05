@@ -4,7 +4,6 @@ SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
 )
-SCHEMAS_BASEPATH = f"{os.getcwd()}/schema/"
 
 IMAGE_FILETYPES = (
     'bmp', 'gif', 'pjp', 'jpg', 'pjpeg', 'jpeg', 'jfif', 'png', 'tif', 'tiff', 'webp'
