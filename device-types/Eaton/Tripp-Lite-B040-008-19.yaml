@@ -1,0 +1,58 @@
+---
+manufacturer: Eaton
+model: Tripp Lite B040-008-19
+slug: eaton-tripp-lite-b040-008-19
+part_number: B040-008-19
+u_height: 1.0
+is_full_depth: true
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b04000819.pdf)'
+weight: 31.7
+weight_unit: lb
+airflow: passive
+console-ports:
+  - name: Firmware Upgrade Port
+    type: other
+    label: Firmware Upgrade
+    description: HD15 Firmware Upgrade Port
+console-server-ports:
+  - name: '#1'
+    type: other
+    label: '1'
+    description: HD15 KVM Port
+  - name: '#2'
+    type: other
+    label: '2'
+    description: HD15 KVM Port
+  - name: '#3'
+    type: other
+    label: '3'
+    description: HD15 KVM Port
+  - name: '#4'
+    type: other
+    label: '4'
+    description: HD15 KVM Port
+  - name: '#5'
+    type: other
+    label: '5'
+    description: HD15 KVM Port
+  - name: '#6'
+    type: other
+    label: '6'
+    description: HD15 KVM Port
+  - name: '#7'
+    type: other
+    label: '7'
+    description: HD15 KVM Port
+  - name: '#8'
+    type: other
+    label: '8'
+    description: HD15 KVM Port
+  - name: External Expansion Port
+    type: other
+    label: Daisy-Chain-Out
+    description: HD15
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+    maximum_draw: 34
+    description: Cable Dongle to standard NEMA 5-15P
