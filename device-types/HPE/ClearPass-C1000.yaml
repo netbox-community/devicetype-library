@@ -1,0 +1,27 @@
+---
+manufacturer: HPE
+model: ClearPass C1000
+slug: hpe-clearpass-c1000
+part_number: JZ508A
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 8.5
+weight_unit: lb
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
