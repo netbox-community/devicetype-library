@@ -1,0 +1,169 @@
+---
+manufacturer: Juniper
+model: PTX10002-36QDD
+slug: juniper-ptx10002-36qdd
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 25.2
+weight_unit: kg
+comments: '[Juniper PTX10002 Data Sheet](https://www.juniper.net/us/en/products/routers/ptx-series/ptx10002-fixed-configuration-packet-transport-routers-datasheet.html)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PEM0
+    label: PSM 0
+    position: PSU0
+  - name: PEM1
+    label: PSM 1
+    position: PSU1
+interfaces:
+  - name: et-0/0/0
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/1
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/2
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/3
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/4
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/5
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/6
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/7
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/8
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/9
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/10
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/11
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/12
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/13
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/14
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/15
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/16
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/17
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/18
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/19
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/20
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/21
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/22
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/23
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/24
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/25
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/26
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/27
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/28
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/29
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/30
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/31
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/32
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/33
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/34
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: et-0/0/35
+    type: 800gbase-x-qsfpdd
+    enabled: true
+    mgmt_only: false
+  - name: MGMT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
