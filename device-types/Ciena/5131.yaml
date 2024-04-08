@@ -10,23 +10,31 @@ is_full_depth: false
 airflow: passive
 console-ports:
   - name: CONSOLE
-    type: rj-45
+    type: usb-c
+  - name: USB
+    type: usb-c
+  - name: ANT
+    type: other
 module-bays:
-  - name: PSU A
+  - name: PSA
     position: A
-  - name: PSU B
+  - name: PSB
     position: B
 interfaces:
-  - { name: "1", type: 10gbase-x-sfpp }
-  - { name: "2", type: 10gbase-x-sfpp }
-  - { name: "3", type: 1000base-x-sfp }
-  - { name: "4", type: 1000base-x-sfp }
-  - { name: "5", type: 1000base-x-sfp }
-  - { name: "6", type: 1000base-x-sfp }
-  - { name: "7", type: 1000base-t }
-  - { name: "8", type: 1000base-t }
-  - { name: "9", type: 1000base-t }
-  - { name: "10", type: 1000base-t }
+  - { name: "1", type: 25gbase-x-sfp28 }
+  - { name: "2", type: 25gbase-x-sfp28 }
+  - { name: "3", type: 25gbase-x-sfp28 }
+  - { name: "4", type: 25gbase-x-sfp28 }
+  - { name: "5", type: 25gbase-x-sfp28 }
+  - { name: "6", type: 25gbase-x-sfp28 }
+  - { name: "7", type: 25gbase-x-sfp28 }
+  - { name: "8", type: 25gbase-x-sfp28 }
+  - { name: "9", type: 25gbase-x-sfp28 }
+  - { name: "10", type: 25gbase-x-sfp28 }
+  - { name: "11", type: 25gbase-x-sfp28 }
+  - { name: "12", type: 25gbase-x-sfp28 }
+  - { name: "13", type: 400gbase-x-qsfpdd }
+  - { name: "14", type: 400gbase-x-qsfpdd }
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
