@@ -9,21 +9,16 @@ console-ports:
   - name: CONSOLE
     type: rj-45
 module-bays:
-# 170-0014-900 AC
-# 170-0013-900 DC
-  - name: PSU A
+  - name: PS A
     position: A
-  - name: PSU B
+    comments: |
+      * 170-0014-900 AC
+      * 170-0013-900 DC
+  - name: PS B
     position: B
-power-ports:
-  - name: PSA
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 50
-  - name: PSB
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 50
+    comments: |
+      * 170-0014-900 AC
+      * 170-0013-900 DC
 interfaces:
   - {name: '1', type: 1000base-x-sfp}
   - {name: '2', type: 1000base-x-sfp}
