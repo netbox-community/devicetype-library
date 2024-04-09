@@ -18,16 +18,16 @@ module-bays:
   - name: PSU B
     position: B
 interfaces:
-  - { name: "1", type: 10gbase-x-sfpp }
-  - { name: "2", type: 10gbase-x-sfpp }
-  - { name: "3", type: 1000base-x-sfp }
-  - { name: "4", type: 1000base-x-sfp }
-  - { name: "5", type: 1000base-x-sfp }
-  - { name: "6", type: 1000base-x-sfp }
-  - { name: "7", type: 1000base-t }
-  - { name: "8", type: 1000base-t }
-  - { name: "9", type: 1000base-t }
-  - { name: "10", type: 1000base-t }
+  - {name: '1', type: 10gbase-x-sfpp}
+  - {name: '2', type: 10gbase-x-sfpp}
+  - {name: '3', type: 1000base-x-sfp}
+  - {name: '4', type: 1000base-x-sfp}
+  - {name: '5', type: 1000base-x-sfp}
+  - {name: '6', type: 1000base-x-sfp}
+  - {name: '7', type: 1000base-t}
+  - {name: '8', type: 1000base-t}
+  - {name: '9', type: 1000base-t}
+  - {name: '10', type: 1000base-t}
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
