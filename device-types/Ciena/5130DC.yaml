@@ -14,8 +14,8 @@ console-ports:
     type: usb-a
     mgmt_only: true
   - name: 1PPS / 10MHZ
-    description: RJ-45 1PPS / G.703 ToD port in or out (software selectable).
-    type: rj-45
+    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
+    type: other
     mgmt_only: true
   - name: ANT
     type: other

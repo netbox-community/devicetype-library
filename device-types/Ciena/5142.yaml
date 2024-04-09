@@ -2,12 +2,25 @@
 manufacturer: Ciena
 model: '5142'
 slug: ciena-5142
-part_number: 170-5142-900
+part_number: 170-5142-930
 u_height: 1
 is_full_depth: false
 console-ports:
   - name: CONSOLE
     type: rj-45
+    mgmt_only: true
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ-45 sync port
+  - name: 1PPS
+    description: 1PPS. SMB connector
+    type: other
+    mgmt_only: true
+  - name: 10MHZ
+    description: SMB connector
+    type: other
+    mgmt_only: true
 module-bays:
   - name: PS A
     position: A
