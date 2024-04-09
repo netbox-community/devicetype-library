@@ -45,10 +45,16 @@ interfaces:
   - {name: '25', type: 100gbase-x-qsfp28}
   - {name: '26', type: 100gbase-x-qsfp28}
 module-bays:
-  - name: PSU A
+  - name: PS A
     position: A
-  - name: PSU B
+    comments: |
+      170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+      170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
+  - name: PS B
     position: B
+    comments: |
+      170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+      170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
   - name: Slot 1
     position: '1'
   - name: Slot 2
