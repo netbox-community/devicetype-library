@@ -5,6 +5,7 @@ slug: ciena-5142
 part_number: 170-5142-930
 u_height: 1
 is_full_depth: false
+front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
@@ -24,12 +25,12 @@ console-ports:
 module-bays:
   - name: PS A
     position: A
-    comments: |
+    description: |
       * 170-0014-900 AC
       * 170-0013-900 DC
   - name: PS B
     position: B
-    comments: |
+    description: |
       * 170-0014-900 AC
       * 170-0013-900 DC
 interfaces:
