@@ -13,10 +13,10 @@ console-ports:
     type: rj-45
 power-ports:
   - name: DC 12V
-    type: iec-60320-c14
+    type: other
     maximum_draw: 5
   - name: UPS
-    type: iec-60320-c14
+    type: other
     maximum_draw: 5
 interfaces:
   - {name: XGS-PON, type: xgs-pon}
