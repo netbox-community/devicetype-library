@@ -1,6 +1,6 @@
 ---
 manufacturer: Ciena
-model: '5166DC'
+model: 5166DC
 slug: ciena-5166dc
 part_number: 170-5166-900
 u_height: 1
@@ -23,7 +23,7 @@ console-ports:
   - name: SYNC
     type: rj-45
     mgmt_only: true
-    description:  1 RJ45 BITS in or out, ToD in or out, or 1 PPS in or out (software selectable)
+    description: 1 RJ45 BITS in or out, ToD in or out, or 1 PPS in or out (software selectable)
 interfaces:
   - {name: '1', type: 25gbase-x-sfp28}
   - {name: '2', type: 25gbase-x-sfp28}
