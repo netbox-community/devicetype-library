@@ -11,8 +11,36 @@ interfaces:
   - name: XCC
     type: 1000base-t
     mgmt_only: true
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: OCP slot 1
+    position: OCP-1
+  - name: Riser 1 - PCIe slot 1 - LT
+    position: PCIe-1
+    label: '1'
+  - name: Riser 1 - PCIe slot 2 - LC
+    position: PCIe-2
+    label: '2'
+  - name: Riser 1 - PCIe slot 3 - LB
+    position: PCIe-3
+    label: '3'
+  - name: Riser 2 - PCIe slot 4 - CT
+    position: PCIe-4
+    label: '4'
+  - name: Riser 2 - PCIe slot 5 - CC
+    position: PCIe-5
+    label: '5'
+  - name: Riser 2 - PCIe slot 6 - CB
+    position: PCIe-6
+    label: '6'
+  - name: Riser 3 - PCIe slot 7 - RT
+    position: PCIe-7
+    label: '7'
+  - name: Riser 3 - PCIe slot 8 - RC
+    position: PCIe-8
+    label: '8'
