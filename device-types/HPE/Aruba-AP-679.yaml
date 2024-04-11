@@ -13,6 +13,8 @@ comments: '[Aruba 670 Series Datasheet](https://www.arubanetworks.com/assets/ds/
 console-ports:
   - name: Console
     type: usb-micro-b
+  - name: USB1
+    type: usb-a
 power-ports:
   - name: Power
     type: dc-terminal
@@ -25,7 +27,5 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: WiFi
     type: ieee802.11ax
-  - name: USB1
-    type: usb-a
   - name: Bluetooth
     type: ieee802.15.1

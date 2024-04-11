@@ -13,6 +13,8 @@ comments: '[Aruba 610 Series Datasheet](https://www.arubanetworks.com/assets/ds/
 console-ports:
   - name: Console
     type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
 power-ports:
   - name: Power
     type: dc-terminal
@@ -23,7 +25,5 @@ interfaces:
     poe_type: type2-ieee802.3at
   - name: WiFi
     type: ieee802.11ax
-  - name: USB
-    type: usb-a
   - name: Bluetooth
     type: ieee802.15.1
