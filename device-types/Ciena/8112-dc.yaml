@@ -1,31 +1,29 @@
 ---
 manufacturer: Ciena
-model: 5166 AC QSFPDD
-slug: ciena-5166ac
-part_number: 170-5166-901
+model: 8112 DC
+slug: ciena-8112-dc
+part_number: 170-8112-900
 u_height: 1
 is_full_depth: false
-front_image: true
+weight: 7
+weight_unit: kg
+subdevice_role: parent
+airflow: front-to-rear
 console-ports:
   - name: CONSOLE
     type: usb-c
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
-  - name: 1PPS / 10MHZ
-    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
+  - name: 1 PPS/10 MHz
     type: other
-    mgmt_only: true
   - name: ANT
     type: other
-    mgmt_only: true
-    description: GNSS/GPS antenna mini SMB
   - name: SYNC
     type: rj-45
-    mgmt_only: true
-    description: 1 RJ45 BITS in or out, ToD in or out, or 1 PPS in or out (software selectable)
 interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
   - {name: '1', type: 25gbase-x-sfp28}
   - {name: '2', type: 25gbase-x-sfp28}
   - {name: '3', type: 25gbase-x-sfp28}
@@ -58,15 +56,18 @@ interfaces:
   - {name: '30', type: 25gbase-x-sfp28}
   - {name: '31', type: 25gbase-x-sfp28}
   - {name: '32', type: 25gbase-x-sfp28}
-  - {name: '33', type: 400gbase-x-qsfpdd}
-  - {name: '34', type: 400gbase-x-qsfpdd}
-  - name: MGMT
-    type: 1000base-t
-    mgmt_only: true
+  - {name: '33', type: 25gbase-x-sfp28}
+  - {name: '34', type: 25gbase-x-sfp28}
+  - {name: '35', type: 25gbase-x-sfp28}
+  - {name: '36', type: 25gbase-x-sfp28}
+  - {name: '37', type: 400gbase-x-qsfpdd}
+  - {name: '38', type: 400gbase-x-qsfpdd}
+  - {name: '39', type: 400gbase-x-qsfpdd}
+  - {name: '40', type: 400gbase-x-qsfpdd}
 power-ports:
-  - name: PS-A
-    type: iec-60320-c14
-    maximum_draw: 290
-  - name: PS-B
-    type: iec-60320-c14
-    maximum_draw: 290
+  - name: PSA
+    type: dc-terminal
+    maximum_draw: 400
+  - name: PSB
+    type: dc-terminal
+    maximum_draw: 400

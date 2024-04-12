@@ -1,17 +1,17 @@
 ---
 manufacturer: Ciena
-model: 5164 AC QSPF56
-slug: ciena-5164ac
-part_number: 170-5164-901
+model: 5166 AC QSFPDD
+slug: ciena-5166-ac-qsfpdd
+part_number: 170-5166-901
 u_height: 1
 is_full_depth: false
 front_image: true
 console-ports:
   - name: CONSOLE
-    type: rj-45
+    type: usb-c
     mgmt_only: true
   - name: USB
-    type: usb-a
+    type: usb-c
     mgmt_only: true
   - name: 1PPS / 10MHZ
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
@@ -20,11 +20,11 @@ console-ports:
   - name: ANT
     type: other
     mgmt_only: true
-    description: Mini-COAX GPS antenna port.
+    description: GNSS/GPS antenna mini SMB
   - name: SYNC
     type: rj-45
     mgmt_only: true
-    description: RJ-45 sync port
+    description: 1 RJ45 BITS in or out, ToD in or out, or 1 PPS in or out (software selectable)
 interfaces:
   - {name: '1', type: 25gbase-x-sfp28}
   - {name: '2', type: 25gbase-x-sfp28}
@@ -58,10 +58,8 @@ interfaces:
   - {name: '30', type: 25gbase-x-sfp28}
   - {name: '31', type: 25gbase-x-sfp28}
   - {name: '32', type: 25gbase-x-sfp28}
-  - {name: '33', type: 200gbase-x-qsfp56}
-  - {name: '34', type: 200gbase-x-qsfp56}
-  - {name: '35', type: 200gbase-x-qsfp56}
-  - {name: '36', type: 200gbase-x-qsfp56}
+  - {name: '33', type: 400gbase-x-qsfpdd}
+  - {name: '34', type: 400gbase-x-qsfpdd}
   - name: MGMT
     type: 1000base-t
     mgmt_only: true

@@ -1,8 +1,8 @@
 ---
 manufacturer: Ciena
-model: 5144 AC
-slug: ciena-5144ac
-part_number: 170-5144-901
+model: 5144 DC
+slug: ciena-5144-dc
+part_number: 170-5144-900
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
@@ -60,8 +60,8 @@ interfaces:
     mgmt_only: true
 power-ports:
   - name: PS-A
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 100
   - name: PS-B
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 100

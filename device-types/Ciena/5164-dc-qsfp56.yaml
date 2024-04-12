@@ -1,29 +1,30 @@
 ---
 manufacturer: Ciena
-model: 8112 DC
-slug: ciena-8112dc
-part_number: 170-8112-900
+model: 5164 DC QSPF56
+slug: ciena-5164-dc-qsfp56
+part_number: 170-5164-900
 u_height: 1
 is_full_depth: false
-weight: 7
-weight_unit: kg
-subdevice_role: parent
-airflow: front-to-rear
 console-ports:
   - name: CONSOLE
-    type: usb-c
+    type: rj-45
+    mgmt_only: true
   - name: USB
-    type: usb-c
-  - name: 1 PPS/10 MHz
+    type: usb-a
+    mgmt_only: true
+  - name: 1PPS / 10MHZ
+    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
+    mgmt_only: true
   - name: ANT
     type: other
+    mgmt_only: true
+    description: Mini-COAX GPS antenna port.
   - name: SYNC
     type: rj-45
-interfaces:
-  - name: MGMT
-    type: 1000base-t
     mgmt_only: true
+    description: RJ-45 sync port
+interfaces:
   - {name: '1', type: 25gbase-x-sfp28}
   - {name: '2', type: 25gbase-x-sfp28}
   - {name: '3', type: 25gbase-x-sfp28}
@@ -56,18 +57,17 @@ interfaces:
   - {name: '30', type: 25gbase-x-sfp28}
   - {name: '31', type: 25gbase-x-sfp28}
   - {name: '32', type: 25gbase-x-sfp28}
-  - {name: '33', type: 25gbase-x-sfp28}
-  - {name: '34', type: 25gbase-x-sfp28}
-  - {name: '35', type: 25gbase-x-sfp28}
-  - {name: '36', type: 25gbase-x-sfp28}
-  - {name: '37', type: 400gbase-x-qsfpdd}
-  - {name: '38', type: 400gbase-x-qsfpdd}
-  - {name: '39', type: 400gbase-x-qsfpdd}
-  - {name: '40', type: 400gbase-x-qsfpdd}
+  - {name: '33', type: 200gbase-x-qsfp56}
+  - {name: '34', type: 200gbase-x-qsfp56}
+  - {name: '35', type: 200gbase-x-qsfp56}
+  - {name: '36', type: 200gbase-x-qsfp56}
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
 power-ports:
-  - name: PSA
+  - name: PS-A
     type: dc-terminal
-    maximum_draw: 400
-  - name: PSB
+    maximum_draw: 290
+  - name: PS-B
     type: dc-terminal
-    maximum_draw: 400
+    maximum_draw: 290

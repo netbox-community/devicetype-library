@@ -1,12 +1,11 @@
 ---
 manufacturer: Ciena
-model: 5130 AC
-slug: ciena-5130ac
-part_number: 170-5130-901
+model: 5130 DC
+slug: ciena-5130-dc
+part_number: 170-5130-900
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
-front_image: true
 console-ports:
   - name: CONSOLE
     type: usb-c
@@ -46,8 +45,8 @@ interfaces:
     mgmt_only: true
 power-ports:
   - name: PS-A
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 145
   - name: PS-B
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 145
