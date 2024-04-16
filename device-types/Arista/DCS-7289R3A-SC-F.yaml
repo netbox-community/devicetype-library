@@ -12,42 +12,32 @@ comments: '[Arista 7280R3A Modular Series / 7289R3A-SC 100/200/400G Data Center 
 module-bays:
 # supports Power Supplies PWR-1900-AC/DC
   - name: PSU 1
-    position: '0'
+    position: '1'
   - name: PSU 2
-    position: '1'
+    position: '2'
   - name: PSU 3
-    position: '2'
+    position: '3'
   - name: PSU 4
-    position: '3'
-# supports Supervisor Modules DCS-7289-SUP-D, DCS-7289-SUPS-D
-  - name: Slot 0
-    position: '1'
-    label: Supervisor
-# supports Interface Modules DCS-7368-16S, DCS-7358-16C, DCS-7368-4D, DCS-7368-4P, 
-  - name: Slot 1
-    position: '1'
-    label: Line Card
-  - name: Slot 2
-    position: '2'
-    label: Line Card
-  - name: Slot 3
-    position: '3'
-    label: Line Card
-  - name: Slot 4
     position: '4'
-    label: Line Card
-  - name: Slot 5
+# supports Supervisor Modules DCS-7289-SUP-D, DCS-7289-SUPS-D
+  - name: Supervisor1
+    position: '1'
+# supports Interface Modules DCS-7368-16S, DCS-7358-16C, DCS-7368-4D, DCS-7368-4P, 
+  - name: Linecard2
+    position: '2'
+  - name: Linecard3
+    position: '3'
+  - name: Linecard4
+    position: '4'
+  - name: Linecard5
     position: '5'
-    label: Line Card
-  - name: Slot 6
+  - name: Linecard6
     position: '6'
-    label: Line Card
-  - name: Slot 7
+  - name: Linecard7
     position: '7'
-    label: Line Card
-  - name: Slot 8
+  - name: Linecard8
     position: '8'
-    label: Line Card
-  - name: Slot 9
+  - name: Linecard9
     position: '9'
-    label: Line Card
+  - name: Linecard10
+    position: '10'
