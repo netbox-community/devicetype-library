@@ -12,6 +12,8 @@ power-ports:
   - name: PS0
     type: dc-terminal
     maximum_draw: 9
+  - name: USB_1
+    type: usb-a
 interfaces:
   - name: lan1
     type: 1000base-t
@@ -27,8 +29,6 @@ interfaces:
     type: 1000base-t
     poe_mode: pd
     poe_type: passive-24v-2pair
-  - name: USB_0
-    type: other
   - name: gnss_0
     type: other
     comments: GPS, GLONASS, BeiDou, Galileo and QZSS

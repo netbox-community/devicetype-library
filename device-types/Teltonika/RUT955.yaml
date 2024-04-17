@@ -15,6 +15,12 @@ power-ports:
 console-ports:
   - name: USB_1
     type: usb-a
+  - name: Sensor_1
+    type: other
+    comments: RS485/Modbus connector Full Duplex and Half Duplex
+  - name: Sensor_2
+    type: de-9
+    comments: RS232/Modbus connector Full Duplex and Half Duplex
 interfaces:
   - name: lan1
     type: 100base-tx
@@ -30,21 +36,9 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: passive-24v-2pair
-  - name: Sensors_1
-    type: other
-    comments: RS485/Modbus connector Full Duplex and Half Duplex
-  - name: Sensors_2
-    type: other
-    comments: RS232/Modbus connector Full Duplex and Half Duplex
-  - name: io_0
-    type: other
-    comments: sms, email, rms i/o exchange
   - name: gnss_0
     type: other
     comments: GPS, GLONASS, BeiDou, Galileo and QZSS
-  - name: SD-Card
-    type: other
-    comments: Micro SD FAT32, NTFS, ext2, ext3, ext4 up to 64GB
   - name: Wifi_2.4
     type: ieee802.11ac
   - name: Wifi_5
