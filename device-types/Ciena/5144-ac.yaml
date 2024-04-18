@@ -7,6 +7,8 @@ u_height: 1
 is_full_depth: false
 airflow: front-to-rear
 front_image: true
+weight: 4.5
+weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: usb-c
@@ -61,7 +63,9 @@ interfaces:
 power-ports:
   - name: PS-A
     type: iec-60320-c14
+    typical_draw: 70
     maximum_draw: 100
   - name: PS-B
     type: iec-60320-c14
     maximum_draw: 100
+    typical_draw: 70

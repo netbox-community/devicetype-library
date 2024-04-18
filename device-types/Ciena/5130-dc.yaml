@@ -6,6 +6,8 @@ part_number: 170-5130-900
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
+weight: 4.4
+weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: usb-c
@@ -47,6 +49,8 @@ power-ports:
   - name: PS-A
     type: dc-terminal
     maximum_draw: 145
+    typical_draw: 85
   - name: PS-B
     type: dc-terminal
     maximum_draw: 145
+    typical_draw: 85

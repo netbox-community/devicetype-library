@@ -7,6 +7,8 @@ u_height: 1
 is_full_depth: false
 airflow: front-to-rear
 front_image: true
+weight: 4.5
+weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: usb-c
@@ -62,6 +64,8 @@ power-ports:
   - name: PS-A
     type: dc-terminal
     maximum_draw: 100
+    typical_draw: 70
   - name: PS-B
     type: dc-terminal
     maximum_draw: 100
+    typical_draw: 70
