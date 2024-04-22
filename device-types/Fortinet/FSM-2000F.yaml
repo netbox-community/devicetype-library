@@ -1,0 +1,27 @@
+---
+manufacturer: Fortinet
+model: FortiSIEM 2000F
+slug: fortinet-fsm-2000f
+part_number: FSM-2000F
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+weight: 58
+weight_unit: lb
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
