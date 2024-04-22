@@ -1,7 +1,7 @@
 ---
 manufacturer: Nozomi Networks
-model: NSG-M 750
-slug: nozomi-nsg-m-750
+model: NSG-M 1000
+slug: nozomi-networks-nsg-m-1000
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
@@ -13,8 +13,8 @@ module-bays:
     position: PCIe1
 power-ports:
   - name: PSU-1
-    type: iec-60320-c13
-    maximum_draw: 360W
+    type: iec-60320-c14
+    maximum_draw: 360
 interfaces:
   - name: GbE-1
     type: 1000base-t
