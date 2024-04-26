@@ -4,7 +4,6 @@ model: DS-7632NXI-K2
 slug: hikvision-ds-7632nxi-k2
 u_height: 1
 is_full_depth: false
-front_image: true
 airflow: side-to-rear
 weight: 1
 weight_unit: kg
@@ -15,4 +14,4 @@ power-ports:
     maximum_draw: 215
 interfaces:
   - name: '1'
-    type: 1000base-tx
+    type: 1000base-t

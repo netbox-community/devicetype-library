@@ -1,10 +1,9 @@
 ---
 manufacturer: Hikvision
 model: DS-7700NI-I4(B)
-slug: hikvision-ds-7732ni-i4-b
+slug: hikvision-ds-7732ni-i4b
 u_height: 1
 is_full_depth: false
-front_image: true
 airflow: side-to-rear
 weight: 5
 weight_unit: kg
@@ -18,6 +17,6 @@ console-ports:
     type: rj-45
 interfaces:
   - name: '1'
-    type: 1000base-tx
+    type: 1000base-t
   - name: '2'
-    type: 1000base-tx
+    type: 1000base-t

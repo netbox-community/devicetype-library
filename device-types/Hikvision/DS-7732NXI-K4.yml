@@ -4,7 +4,6 @@ model: DS-7732NXI-K4
 slug: hikvision-ds-7732nxi-k4
 u_height: 1.5
 is_full_depth: false
-front_image: true
 airflow: side-to-rear
 weight: 5
 weight_unit: kg
@@ -18,6 +17,6 @@ console-ports:
     type: rj-45
 interfaces:
   - name: '1'
-    type: 1000base-tx
+    type: 1000base-t
   - name: '2'
-    type: 1000base-tx
+    type: 1000base-t
