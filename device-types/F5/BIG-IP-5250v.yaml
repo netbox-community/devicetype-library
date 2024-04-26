@@ -1,0 +1,49 @@
+---
+manufacturer: F5
+model: BIG-IP 5250v
+slug: f5-big-ip-5250v
+part_number: 5250v
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: console
+    type: rj-45
+  - name: serial failover
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 260
+    allocated_draw: 175
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 260
+    allocated_draw: 175
+interfaces:
+  - name: '1.1'
+    type: 1000base-t
+  - name: '1.2'
+    type: 1000base-t
+  - name: '1.3'
+    type: 1000base-t
+  - name: '1.4'
+    type: 1000base-t
+  - name: '2.1'
+    type: 10gbase-x-sfpp
+  - name: '2.2'
+    type: 10gbase-x-sfpp
+  - name: '2.3'
+    type: 10gbase-x-sfpp
+  - name: '2.4'
+    type: 10gbase-x-sfpp
+  - name: '2.5'
+    type: 10gbase-x-sfpp
+  - name: '2.6'
+    type: 10gbase-x-sfpp
+  - name: '2.7'
+    type: 10gbase-x-sfpp
+  - name: '2.8'
+    type: 10gbase-x-sfpp
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

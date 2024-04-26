@@ -1,0 +1,46 @@
+---
+manufacturer: Juniper
+model: SRX-MIC-10XG-SFPP
+part_number: SRX-MIC-10XG-SFPP
+comments: This is a half height card that goes in a two slot SRX5k IOC II card.
+interfaces:
+  - name: xe-{module}/0
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/1
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/2
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/3
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/4
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/5
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/6
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/7
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/8
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: xe-{module}/9
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false

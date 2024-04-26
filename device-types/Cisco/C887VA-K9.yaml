@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: Catalyst 887VA-K9
+part_number: C887VA-K9
+slug: cisco-c887va-k9
+comments: Discontinued and no official datasheet on the Cisco website.
+u_height: 1
+is_full_depth: false
+weight: 2.5
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+    mgmt_only: true
+interfaces:
+  - name: Ethernet0
+    type: 100base-tx
+  - name: FastEthernet0
+    type: 100base-tx
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+power-ports:
+  - name: PSU0
+    type: iec-60320-c6
+    maximum_draw: 80

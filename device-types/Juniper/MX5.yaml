@@ -1,0 +1,38 @@
+---
+manufacturer: Juniper
+model: MX5
+slug: juniper-mx5
+airflow: front-to-rear
+weight: 13.6
+weight_unit: kg
+is_full_depth: true
+u_height: 2
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+  - name: xe-0/0/0
+    type: 10gbase-x-xfp
+  - name: xe-0/0/1
+    type: 10gbase-x-xfp
+  - name: xe-0/0/2
+    type: 10gbase-x-xfp
+  - name: xe-0/0/3
+    type: 10gbase-x-xfp
+power-ports:
+  - name: PEM0
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 365
+  - name: PEM1
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 365
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: MIC0
+    position: '1'
+  - name: MIC1
+    position: '2'

@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: PWR-511-DC-BLUE
+part_number: PWR-511-DC-BLUE
+# airflow: rear-to-front
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 500

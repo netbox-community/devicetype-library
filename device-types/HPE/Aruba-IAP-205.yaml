@@ -9,6 +9,9 @@ comments: '[Aruba 200 Series Datasheet](https://www.arubanetworks.com/assets/ds/
 console-ports:
   - name: Console
     type: rj-45
+power-ports:
+  - name: Power
+    type: dc-terminal
 interfaces:
   - name: Port 1
     type: 1000base-t

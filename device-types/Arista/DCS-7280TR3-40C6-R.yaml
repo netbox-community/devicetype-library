@@ -1,0 +1,118 @@
+---
+manufacturer: Arista
+model: DCS-7280TR3-40C6-R
+slug: arista-dcs-7280tr3-40c6-r
+part_number: DCS-7280TR3-40C6-R
+u_height: 1
+weight: 21.2
+weight_unit: lb
+airflow: rear-to-front
+is_full_depth: false
+comments: '[Arista 7280R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3-Data-Sheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 1
+    position: '0'
+  - name: PSU 2
+    position: '1'
+front_image: true
+rear_image: false
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+  - name: Ethernet5
+    type: 10gbase-t
+  - name: Ethernet6
+    type: 10gbase-t
+  - name: Ethernet7
+    type: 10gbase-t
+  - name: Ethernet8
+    type: 10gbase-t
+  - name: Ethernet9
+    type: 10gbase-t
+  - name: Ethernet10
+    type: 10gbase-t
+  - name: Ethernet11
+    type: 10gbase-t
+  - name: Ethernet12
+    type: 10gbase-t
+  - name: Ethernet13
+    type: 10gbase-t
+  - name: Ethernet14
+    type: 10gbase-t
+  - name: Ethernet15
+    type: 10gbase-t
+  - name: Ethernet16
+    type: 10gbase-t
+  - name: Ethernet17
+    type: 10gbase-t
+  - name: Ethernet18
+    type: 10gbase-t
+  - name: Ethernet19
+    type: 10gbase-t
+  - name: Ethernet20
+    type: 10gbase-t
+  - name: Ethernet21
+    type: 10gbase-t
+  - name: Ethernet22
+    type: 10gbase-t
+  - name: Ethernet23
+    type: 10gbase-t
+  - name: Ethernet24
+    type: 10gbase-t
+  - name: Ethernet25
+    type: 10gbase-t
+  - name: Ethernet26
+    type: 10gbase-t
+  - name: Ethernet27
+    type: 10gbase-t
+  - name: Ethernet28
+    type: 10gbase-t
+  - name: Ethernet29
+    type: 10gbase-t
+  - name: Ethernet30
+    type: 10gbase-t
+  - name: Ethernet31
+    type: 10gbase-t
+  - name: Ethernet32
+    type: 10gbase-t
+  - name: Ethernet33
+    type: 10gbase-t
+  - name: Ethernet34
+    type: 10gbase-t
+  - name: Ethernet35
+    type: 10gbase-t
+  - name: Ethernet36
+    type: 10gbase-t
+  - name: Ethernet37
+    type: 10gbase-t
+  - name: Ethernet38
+    type: 10gbase-t
+  - name: Ethernet39
+    type: 10gbase-t
+  - name: Ethernet40
+    type: 10gbase-t
+# QSFP28(100G) ports can be broke into 4x25 with a model of [41-56]/[1-4]
+  - name: Ethernet41/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet42/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet43/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet44/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet45/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet46/1
+    type: 100gbase-x-qsfp28

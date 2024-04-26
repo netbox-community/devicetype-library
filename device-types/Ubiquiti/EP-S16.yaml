@@ -1,10 +1,13 @@
 ---
 manufacturer: Ubiquiti
 model: EdgePoint EP-S16
-slug: edgepoint-ep-s16
+slug: ubiquiti-edgepoint-ep-s16
 part_number: EP-S16
 u_height: 0
 is_full_depth: false
+power-ports:
+  - name: Power
+    type: dc-terminal
 interfaces:
   - name: '1'
     type: 1000base-t

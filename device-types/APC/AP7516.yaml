@@ -1,0 +1,39 @@
+---
+manufacturer: APC
+model: AP7516
+slug: apc-ap7516
+part_number: AP7516
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 17.59
+weight_unit: lb
+comments: Rack PDU, Basic, 1U, 14.4kW, 208V, (6) C19
+power-ports:
+  - name: Power Port 1
+    type: cs8365c
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 5
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 6
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C

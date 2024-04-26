@@ -1,7 +1,7 @@
 ---
 manufacturer: Allied Telesis
 model: IE300-12GP
-slug: ie300-12gp
+slug: allied-telesis-ie300-12gp
 part_number: AT-IE300-12GP
 u_height: 0
 is_full_depth: false
@@ -17,21 +17,13 @@ power-ports:
     maximum_draw: 320
 interfaces:
   - name: port1.0.1
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
+    type: 1000base-x-sfp
   - name: port1.0.2
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
+    type: 1000base-x-sfp
   - name: port1.0.3
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
+    type: 1000base-x-sfp
   - name: port1.0.4
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
+    type: 1000base-x-sfp
   - name: port1.0.5
     type: 1000base-t
     poe_mode: pse
@@ -49,10 +41,18 @@ interfaces:
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: port1.0.9
-    type: 1000base-x-sfp
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port1.0.10
-    type: 1000base-x-sfp
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port1.0.11
-    type: 1000base-x-sfp
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port1.0.12
-    type: 1000base-x-sfp
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at

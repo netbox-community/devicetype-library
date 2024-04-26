@@ -1,0 +1,85 @@
+---
+manufacturer: LiteOn
+model: PF-2273-2L1M-LF
+slug: liteon-pf-2273-2l1m-lf
+part_number: PF-2273-2L1M-LF
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  Open Compute Project ORv1/v2 compatible Power Shelf
+
+  * 3-phase, 5-wire 220 / 230 / 240VAC
+  * 27kW power output (3kW x 9; 12.5VDC/2160A)
+  * 3OU shelf accepts up to 10 hot-swappable 3kW Power Supply Units for 9+1 redundant operation
+  * 21-inch shelf with a height of 3 OU (OpenU), 5.11 inches (130 mm)
+  * Communication with Li-ion Battery Backup Shelf (BBS)
+  * Real-time PSU and BBS monitoring and control
+  * Remote control PSU On/Off through the optional Shelf Controller
+  * Supports 3 sets of bus bars to deliver DC power to load
+  * Supports 6x C13 outlets for external AC load
+
+  Fits 21" ORv1/v2 racks only
+
+  Takes PSU type PSU-PS-2302-1L1U-LF
+weight: 27
+weight_unit: kg
+power-ports:
+  - name: ac-input-a
+    type: other
+  - name: ac-input-b
+    type: other
+power-outlets:
+  - name: ac-output-a1
+    type: iec-60320-c13
+    power_port: ac-input-a
+    feed_leg: A
+  - name: ac-output-a2
+    type: iec-60320-c13
+    power_port: ac-input-a
+    feed_leg: B
+  - name: ac-output-a3
+    type: iec-60320-c13
+    power_port: ac-input-a
+    feed_leg: C
+  - name: ac-output-b1
+    type: iec-60320-c13
+    power_port: ac-input-b
+    feed_leg: A
+  - name: ac-output-b2
+    type: iec-60320-c13
+    power_port: ac-input-b
+    feed_leg: B
+  - name: ac-output-b3
+    type: iec-60320-c13
+    power_port: ac-input-b
+    feed_leg: C
+  - name: dc-output-bus-left
+    type: dc-terminal
+  - name: dc-output-bus-center
+    type: dc-terminal
+  - name: dc-output-bus-right
+    type: dc-terminal
+module-bays:
+  - name: psc
+    description: Power Shelf Controller
+  - name: psu-01
+    label: N+1 R
+  - name: psu-02
+    label: S
+  - name: psu-03
+    label: T
+  - name: psu-04
+    label: R
+  - name: psu-05
+    label: S
+  - name: psu-06
+    label: T
+  - name: psu-07
+    label: R
+  - name: psu-08
+    label: S
+  - name: psu-09
+    label: T
+  - name: psu-10
+    label: R

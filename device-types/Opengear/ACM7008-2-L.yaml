@@ -1,0 +1,47 @@
+---
+manufacturer: Opengear
+model: ACM7008-2-L
+slug: opengear-acm7008-2-l
+part_number: ACM7008-2-L
+u_height: 1
+is_full_depth: false
+comments: ACM7008 Console Server with 8x RJ45 and 4x USB Console Ports on the rear of the device.
+weight: 1.3
+weight_unit: lb
+airflow: passive
+console-server-ports:
+  - name: port1
+    type: rj-45
+  - name: port2
+    type: rj-45
+  - name: port3
+    type: rj-45
+  - name: port4
+    type: rj-45
+  - name: port5
+    type: rj-45
+  - name: port6
+    type: rj-45
+  - name: port7
+    type: rj-45
+  - name: port8
+    type: rj-45
+  - name: port9
+    type: usb-a
+  - name: port10
+    type: usb-a
+  - name: port11
+    type: usb-a
+  - name: port12
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 12
+interfaces:
+  - name: wan
+    type: 1000base-t
+  - name: lan
+    type: 1000base-t
+  - name: cellmodem
+    type: lte

@@ -1,0 +1,75 @@
+---
+manufacturer: HPE
+model: HP 3100-24 v2 EI
+slug: hpe-hp-3100-24-v2-ei
+part_number: JD320B
+u_height: 1
+is_full_depth: false
+comments: '[HPE FlexNetwork 3100 EI Switch Series - QuickSpecs](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=c04111573)'
+weight: 3.5
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 13
+interfaces:
+  - name: Ethernet1/0/1
+    type: 100base-tx
+  - name: Ethernet1/0/2
+    type: 100base-tx
+  - name: Ethernet1/0/3
+    type: 100base-tx
+  - name: Ethernet1/0/4
+    type: 100base-tx
+  - name: Ethernet1/0/5
+    type: 100base-tx
+  - name: Ethernet1/0/6
+    type: 100base-tx
+  - name: Ethernet1/0/7
+    type: 100base-tx
+  - name: Ethernet1/0/8
+    type: 100base-tx
+  - name: Ethernet1/0/9
+    type: 100base-tx
+  - name: Ethernet1/0/10
+    type: 100base-tx
+  - name: Ethernet1/0/11
+    type: 100base-tx
+  - name: Ethernet1/0/12
+    type: 100base-tx
+  - name: Ethernet1/0/13
+    type: 100base-tx
+  - name: Ethernet1/0/14
+    type: 100base-tx
+  - name: Ethernet1/0/15
+    type: 100base-tx
+  - name: Ethernet1/0/16
+    type: 100base-tx
+  - name: Ethernet1/0/17
+    type: 100base-tx
+  - name: Ethernet1/0/18
+    type: 100base-tx
+  - name: Ethernet1/0/19
+    type: 100base-tx
+  - name: Ethernet1/0/20
+    type: 100base-tx
+  - name: Ethernet1/0/21
+    type: 100base-tx
+  - name: Ethernet1/0/22
+    type: 100base-tx
+  - name: Ethernet1/0/23
+    type: 100base-tx
+  - name: Ethernet1/0/24
+    type: 100base-tx
+# dual personality port
+  - name: GigabitEthernet1/0/25
+    type: 1000base-t
+# - name: GigabitEthernet1/0/25
+#   type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/26
+    type: 1000base-t
+# - name: GigabitEthernet1/0/26
+#   type: 1000base-x-sfp

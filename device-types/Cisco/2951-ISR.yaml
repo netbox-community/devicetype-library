@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: 2951 ISR
+part_number: CISCO2951/K9
+slug: cisco-2951-isr
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    allocated_draw: 70
+    maximum_draw: 340
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t

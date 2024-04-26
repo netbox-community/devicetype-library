@@ -1,0 +1,65 @@
+---
+manufacturer: Juniper
+model: SRX5800
+slug: juniper-srx5800
+u_height: 16.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 151
+weight_unit: kg
+comments: '[Juniper SRX5800 Data Sheet](https://www.juniper.net/us/en/products/security/srx-series/srx5800-large-enterprise-data-center-firewall.html)'
+module-bays:
+  - name: PEM0
+    label: PSU 0
+    position: PSU0
+  - name: PEM1
+    label: PSU 1
+    position: PSU1
+  - name: PEM2
+    label: PSU 2
+    position: PSU2
+  - name: PEM3
+    label: PSU 3
+    position: PSU3
+  - name: PEM7
+    label: PSU 7
+    position: PSU7
+  - name: PEM8
+    label: PSU 8
+    position: PSU8
+  - name: PEM9
+    label: PSU 9
+    position: PSU9
+  - name: FPC 0
+    position: '0'
+  - name: FPC 1
+    position: '1'
+  - name: FPC 2
+    position: '2'
+  - name: FPC 3
+    position: '3'
+  - name: FPC 4
+    position: '4'
+  - name: FPC 5
+    position: '5'
+  - name: CB0
+    label: Routing Engine 0
+    position: re0
+  - name: CB1
+    label: Routing Engine 1
+    position: re1
+  - name: CB2
+    label: Routing Engine 2
+    position: re2
+  - name: FPC 6
+    position: '6'
+  - name: FPC 7
+    position: '7'
+  - name: FPC 8
+    position: '8'
+  - name: FPC 9
+    position: '9'
+  - name: FPC 10
+    position: '10'
+  - name: FPC 11
+    position: '11'

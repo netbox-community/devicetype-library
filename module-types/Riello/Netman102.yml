@@ -1,0 +1,12 @@
+---
+manufacturer: Riello
+model: Netman 102 Plus
+part_number: NETMAN102
+comments: Riello UPS NetMan 102 Plus Network Card
+console-ports:
+  - name: Netman/Serial
+    type: rj-45
+interfaces:
+  - name: Netman/mgmt
+    type: 100base-tx
+    mgmt_only: true

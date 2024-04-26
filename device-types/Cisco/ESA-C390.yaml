@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: ESA C390
+slug: cisco-esa-c390
+part_number: ESA-C390-K9
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: RPC
+    type: rj-45
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: Data 1
+    type: 1000base-t
+  - name: Data 2
+    type: 1000base-t
+  - name: Data 3
+    type: 1000base-t
+  - name: Data 4
+    type: 1000base-t
+  - name: Data 5
+    type: 1000base-t
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

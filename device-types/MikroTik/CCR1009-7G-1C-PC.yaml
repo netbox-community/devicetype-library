@@ -1,7 +1,7 @@
 ---
 manufacturer: MikroTik
 model: CCR1009-7G-1C-PC
-slug: ccr1009-7g-1c-pc
+slug: mikrotik-ccr1009-7g-1c-pc
 is_full_depth: false
 u_height: 1
 interfaces:
@@ -24,3 +24,8 @@ interfaces:
 console-ports:
   - name: serial0
     type: de-9
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14

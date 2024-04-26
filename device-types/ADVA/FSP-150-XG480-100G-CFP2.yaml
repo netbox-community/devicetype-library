@@ -1,0 +1,137 @@
+---
+manufacturer: ADVA
+model: FSP 150-XG480-100G-CFP2
+slug: adva-fsp-150-xg480-100g-cfp2
+part_number: 1078901003-01
+u_height: 2
+is_full_depth: false
+comments: FSP 150-XG480 Carrier Ethernet Aggregation Device 2RU 52x10G + 4x100G (2xQSF28+2xCFP2) [fsp-150-xg400-series.pdf](https://www.adva.com/en/resources/downloads/data-sheets/fsp-150-xg400-series)
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU-2
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: '1'
+    type: 10gbase-x-sfpp
+  - name: '2'
+    type: 10gbase-x-sfpp
+  - name: '3'
+    type: 10gbase-x-sfpp
+  - name: '4'
+    type: 10gbase-x-sfpp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: '11'
+    type: 10gbase-x-sfpp
+  - name: '12'
+    type: 10gbase-x-sfpp
+  - name: '13'
+    type: 10gbase-x-sfpp
+  - name: '14'
+    type: 10gbase-x-sfpp
+  - name: '15'
+    type: 10gbase-x-sfpp
+  - name: '16'
+    type: 10gbase-x-sfpp
+  - name: '17'
+    type: 10gbase-x-sfpp
+  - name: '18'
+    type: 10gbase-x-sfpp
+  - name: '19'
+    type: 10gbase-x-sfpp
+  - name: '20'
+    type: 10gbase-x-sfpp
+  - name: '21'
+    type: 10gbase-x-sfpp
+  - name: '22'
+    type: 10gbase-x-sfpp
+  - name: '23'
+    type: 10gbase-x-sfpp
+  - name: '24'
+    type: 10gbase-x-sfpp
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+  - name: '28'
+    type: 10gbase-x-sfpp
+  - name: '29'
+    type: 10gbase-x-sfpp
+  - name: '30'
+    type: 10gbase-x-sfpp
+  - name: '31'
+    type: 10gbase-x-sfpp
+  - name: '32'
+    type: 10gbase-x-sfpp
+  - name: '33'
+    type: 10gbase-x-sfpp
+  - name: '34'
+    type: 10gbase-x-sfpp
+  - name: '35'
+    type: 10gbase-x-sfpp
+  - name: '36'
+    type: 10gbase-x-sfpp
+  - name: '37'
+    type: 10gbase-x-sfpp
+  - name: '38'
+    type: 10gbase-x-sfpp
+  - name: '39'
+    type: 10gbase-x-sfpp
+  - name: '40'
+    type: 10gbase-x-sfpp
+  - name: '41'
+    type: 10gbase-x-sfpp
+  - name: '42'
+    type: 10gbase-x-sfpp
+  - name: '43'
+    type: 10gbase-x-sfpp
+  - name: '44'
+    type: 10gbase-x-sfpp
+  - name: '45'
+    type: 10gbase-x-sfpp
+  - name: '46'
+    type: 10gbase-x-sfpp
+  - name: '47'
+    type: 10gbase-x-sfpp
+  - name: '48'
+    type: 10gbase-x-sfpp
+  - name: '49'
+    type: 10gbase-x-sfpp
+  - name: '50'
+    type: 10gbase-x-sfpp
+  - name: '51'
+    type: 10gbase-x-sfpp
+  - name: '52'
+    type: 10gbase-x-sfpp
+  - name: '53'
+    type: 100gbase-x-qsfp28
+  - name: '57'
+    type: 100gbase-x-qsfp28
+  - name: '61'
+    type: 100gbase-x-cfp2
+  - name: '62'
+    type: 100gbase-x-cfp2
+  - name: DCN1
+    type: 1000base-t
+    mgmt_only: true
+  - name: DCN2
+    type: 1000base-t
+    mgmt_only: true

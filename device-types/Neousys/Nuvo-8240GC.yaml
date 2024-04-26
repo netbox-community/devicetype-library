@@ -1,0 +1,26 @@
+---
+manufacturer: Neousys
+model: Nuvo-8240GC
+slug: neousys-nuvo-8240gc
+u_height: 1
+comments: '[Neuosys Nuvo-8240GC Datasheet](https://www.neousys-tech.com/en/product/application/edge-ai-gpu-computing/nuvo-8240gc-dual-nvidia-tesla-t4-intel-9th-gpu-computing-ai-platform#specification)'
+is_full_depth: false
+console-ports:
+  - name: COM 1
+    type: de-9
+  - name: COM 2
+    type: de-9
+  - name: DVI-D
+    type: other
+  - name: DisplayPort
+    type: other
+  - name: Audio 3.5m plug
+    type: other
+power-ports:
+  - name: DC
+    type: dc-terminal
+interfaces:
+  - name: enp5s0
+    type: 1000base-t
+  - name: enp0s31f6
+    type: 1000base-t

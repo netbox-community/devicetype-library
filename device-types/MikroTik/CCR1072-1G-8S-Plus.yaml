@@ -1,0 +1,35 @@
+---
+manufacturer: MikroTik
+model: CCR1072-1G-8S+
+slug: mikrotik-ccr1072-1g-8s-plus
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus5
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus6
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus7
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus8
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 125
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 125

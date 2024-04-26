@@ -1,0 +1,34 @@
+---
+manufacturer: Delta
+model: AD-208/24C-A
+slug: delta-ad-208-24c-a
+part_number: AD-208/24C-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  Open Compute Project ORv2 Top of Rack Surge PDU
+
+  V2 AC Power Distribution Unit
+
+  INPUT: 208V~,3W+PE, 50-60HZ,24A MAX (x2)
+
+  OUTPUT: 208V~,3W+PE, 50-60HZ,24A MAX (x2)
+
+  FB PN: 07-000866
+power-ports:
+  - name: ac-input-1
+    label: TOP POWER SHELF
+    type: nema-l21-30p
+  - name: ac-input-2
+    label: BOTTOM POWER SHELF
+    type: nema-l21-30p
+power-outlets:
+  - name: ac-output-1
+    label: TOP POWER SHELF
+    type: other
+    power_port: ac-input-1
+  - name: ac-output-2
+    label: BOTTOM POWER SHELF
+    type: other
+    power_port: ac-input-2

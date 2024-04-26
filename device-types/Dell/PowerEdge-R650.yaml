@@ -1,0 +1,39 @@
+---
+manufacturer: Dell
+model: PowerEdge R650
+slug: dell-poweredge-r650
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Optional Rear Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Optional/OCP Gig-E 1
+    type: 1000base-t
+  - name: Optional/OCP Gig-E 2
+    type: 1000base-t
+  - name: Optional/OCP Gig-E 3
+    type: 1000base-t
+  - name: Optional/OCP Gig-E 4
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Optional OCP NIC
+  - name: Optional BOSS-2 Removed
+  - name: PCIe-Gen4 1
+  - name: Optional PCIe-Gen4 2
+  - name: Optional PCIe-Gen4 3

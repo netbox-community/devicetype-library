@@ -1,0 +1,14 @@
+---
+manufacturer: Dell
+model: NP0K8
+part_number: NP0K8
+comments: QLogic 2x25G SFP28 OCP 3.0
+interfaces:
+  - name: '{module}-25GbE-0'
+    label: '1'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '{module}-25GbE-1'
+    label: '2'
+    type: 25gbase-x-sfp28
+    mgmt_only: false

@@ -5,11 +5,6 @@ slug: cisco-n9k-c93108lc-ex
 part_number: N9K-C93108LC-EX
 u_height: 1
 is_full_depth: true
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
 console-ports:
   - name: Console
     type: rj-45
@@ -81,3 +76,8 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Ethernet1/32
     type: 100gbase-x-qsfp28
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

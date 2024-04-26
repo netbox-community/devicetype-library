@@ -1,13 +1,26 @@
 ---
 manufacturer: Juniper
 model: QFX10002-72Q
-slug: qfx10002-72q
+slug: juniper-qfx10002-72q
+part_number: QFX10002-72Q
 u_height: 2
+weight: 68.6
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: true
-comments: '[Juniper QFX10002 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000531-en.pdf)'
+comments: '[Juniper QFX10002 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx10002-fixed-ethernet-switches.pdf)'
 console-ports:
   - name: Console
     type: rj-45
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PSU 3
+    position: '3'
 interfaces:
   - name: em0
     type: 1000base-t
@@ -159,8 +172,3 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: et-0/0/71
     type: 40gbase-x-qsfpp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14

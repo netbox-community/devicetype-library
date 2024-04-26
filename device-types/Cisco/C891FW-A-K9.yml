@@ -1,0 +1,35 @@
+---
+manufacturer: Cisco
+model: 891fw
+part_number: C891FW-A-K9
+slug: cisco-c891fw-a-k9
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: FastEthernet0
+    type: 100base-tx
+  - name: GigabitEthernet0
+    type: 1000base-t
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 60

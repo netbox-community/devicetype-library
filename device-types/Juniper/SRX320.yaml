@@ -1,13 +1,21 @@
 ---
 manufacturer: Juniper
 model: SRX320
-slug: srx320
+slug: juniper-srx320
+part_number: SRX320-SYS-JB
 u_height: 1
+weight: 3.28
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: false
-comments: '[Juniper SRX320 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
+comments: '[Juniper SRX300 Series Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 46
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
@@ -25,7 +33,3 @@ interfaces:
     type: 1000base-x-sfp
   - name: ge-0/0/7
     type: 1000base-x-sfp
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    allocated_draw: 46

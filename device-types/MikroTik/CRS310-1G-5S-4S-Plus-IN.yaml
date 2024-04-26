@@ -1,0 +1,41 @@
+---
+manufacturer: MikroTik
+model: CRS310-1G-5S-4S+IN
+slug: mikrotik-crs310-1g-5s-4s-plus-in
+part_number: CRS310-1G-5S-4S+
+comments: 10 Gigabit fibre connectivity way over a 100 meters – for small offices or ISPs. Hardware offloaded VLAN-filtering and even some L3 routing
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+  - name: sfp5
+    type: 1000base-x-sfp
+  - name: sfp-sfpplus1
+    label: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    label: SFP+ 2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    label: SFP+ 3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    label: SFP+ 4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: psu1
+    label: DC 18-57V
+    type: dc-terminal
+    maximum_draw: 20

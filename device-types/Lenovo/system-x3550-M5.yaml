@@ -1,0 +1,25 @@
+---
+manufacturer: Lenovo
+model: System x3550 M5
+slug: lenovo-system-x3550-m5
+part_number: 5463AC1
+u_height: 1
+is_full_depth: true
+comments: '[Lenovo System x3550 M5 product guide](https://lenovopress.com/tips1194.pdf)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  - name: IMM
+    type: 100base-tx
+    mgmt_only: true

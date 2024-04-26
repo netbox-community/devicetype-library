@@ -1,0 +1,32 @@
+---
+manufacturer: TP-Link
+model: TL-SG105PE
+slug: tp-link-tl-sg105pe
+part_number: TL-SG105PE
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link TL-SG105PE](https://www.tp-link.com/us/business-networking/poe-switch/tl-sg105pe/#specifications)'
+power-ports:
+  - name: External Power Adapter
+    type: dc-terminal
+    maximum_draw: 4
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t

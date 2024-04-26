@@ -1,0 +1,174 @@
+---
+manufacturer: Juniper
+model: QFX10002-72Q-DC
+slug: juniper-qfx10002-72q-dc
+part_number: QFX10002-72Q-DC
+u_height: 2
+weight: 67.8
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Juniper QFX10002 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx10002-fixed-ethernet-switches.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PSU 3
+    position: '3'
+interfaces:
+  - name: em0
+    type: 1000base-t
+    mgmt_only: true
+  - name: em1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: et-0/0/0
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/1
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/2
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/3
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/4
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/5
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/6
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/7
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/8
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/9
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/10
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/11
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/12
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/13
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/14
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/15
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/16
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/17
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/18
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/19
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/20
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/21
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/22
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/23
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/24
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/25
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/26
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/27
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/28
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/29
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/30
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/31
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/32
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/33
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/34
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/35
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/36
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/37
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/38
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/39
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/40
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/41
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/42
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/43
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/44
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/45
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/46
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/47
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/48
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/49
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/50
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/51
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/52
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/53
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/54
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/55
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/56
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/57
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/58
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/59
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/60
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/61
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/62
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/63
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/64
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/65
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/66
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/67
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/68
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/69
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/70
+    type: 40gbase-x-qsfpp
+  - name: et-0/0/71
+    type: 40gbase-x-qsfpp

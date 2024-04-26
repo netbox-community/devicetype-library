@@ -1,0 +1,20 @@
+---
+manufacturer: HPE
+model: ClearPass C2000
+slug: hpe-clearpass-c2000
+part_number: JZ509A
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 19.18
+weight_unit: lb
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2 / iLO
+    type: 1000base-t

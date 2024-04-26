@@ -1,0 +1,27 @@
+---
+manufacturer: IBM
+model: System x3550
+slug: ibm-system-x3550
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 670
+interfaces:
+  - name: TenGig-E 1
+    type: 10gbase-t
+  - name: TenGig-E 2
+    type: 10gbase-t

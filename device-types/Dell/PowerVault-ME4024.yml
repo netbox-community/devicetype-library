@@ -1,0 +1,22 @@
+---
+manufacturer: Dell
+model: PowerVault ME4024
+slug: dell-powervault-me4024
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+subdevice_role: parent
+module-bays:
+  - name: '1'
+    label: PSU Slot 1
+    position: '1'
+  - name: '2'
+    label: PSU Slot 2
+    position: '2'
+device-bays:
+  - name: A
+    label: Controller Slot A
+  - name: B
+    label: Controller Slot B

@@ -1,0 +1,49 @@
+---
+manufacturer: TP-Link
+model: TL-SE2109PB
+slug: tp-link-tl-se2109pb
+part_number: TL-SE2109PB
+comments: '[TP-Link TL-SE2109PB](https://www.tp-link.com.cn/product_2787.html?v=specification#tag)'
+is_full_depth: false
+u_height: 1
+airflow: left-to-right
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 220
+    maximum_draw: 250
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: Port 9
+    type: 10gbase-x-sfpp

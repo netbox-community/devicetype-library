@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "$id": "urn:devicetype-library:reusable",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "definitions": {
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    }
+  }
+}

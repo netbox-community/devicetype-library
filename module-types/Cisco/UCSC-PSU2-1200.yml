@@ -1,0 +1,9 @@
+---
+manufacturer: Cisco
+model: UCSC-PSU2-1200
+part_number: UCSC-PSU2-1200
+comments: (1200 W power supply (CSCI platinum))[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/c/hw/C420/install/C420/spec.pdf]
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 1200

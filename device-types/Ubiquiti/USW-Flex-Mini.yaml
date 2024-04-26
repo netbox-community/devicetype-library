@@ -1,7 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Switch Flex Mini
-slug: unifi-usw-flex-mini
+slug: ubiquiti-unifi-switch-flex-mini
 part_number: USW-Flex-Mini
 comments: |
   107.16 x 70.15 x 21.17 mm (4.22 x 2.76 x 0.83")
@@ -10,6 +10,7 @@ is_full_depth: false
 interfaces:
   - name: Port 1 (PoE IN)
     type: 1000base-t
+    poe_mode: pd
   - name: Port 2
     type: 1000base-t
   - name: Port 3

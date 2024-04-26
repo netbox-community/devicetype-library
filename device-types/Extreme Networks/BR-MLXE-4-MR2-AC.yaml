@@ -1,0 +1,41 @@
+---
+manufacturer: Extreme Networks
+model: BR-MLXE-4-MR2-AC
+slug: extreme-networks-br-mlxe-4-mr2-ac
+part_number: BR-MLXE-4-MR2-AC
+u_height: 5
+is_full_depth: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 1800
+module-bays:
+  - name: F1
+  - name: F2
+  - name: F3
+  - name: M1
+  - name: M2
+  - name: PSU1
+  - name: PSU2
+  - name: PSU3
+  - name: PSU4
+  - name: S1
+  - name: S2
+  - name: S3
+  - name: S4
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Management 1
+    type: 1000base-t
+    mgmt_only: true

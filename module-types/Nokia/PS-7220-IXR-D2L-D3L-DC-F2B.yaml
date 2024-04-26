@@ -1,0 +1,10 @@
+---
+manufacturer: Nokia
+model: PS-7220-IXR-D2L/D3L-DC-F2B
+part_number: 3HE17649AA
+comments: 650W DC Power Supply F2B airflow
+# airflow: front-to-rear
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+    maximum_draw: 650

@@ -1,0 +1,36 @@
+---
+manufacturer: Dell
+model: PowerEdge R640
+slug: dell-poweredge-r640
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCIe-Gen3 1
+    position: PCIE1
+  - name: PCIe-Gen3 2
+    position: PCIE2
+  - name: PCIe-Gen3 3
+    position: PCIE3

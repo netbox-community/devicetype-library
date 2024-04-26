@@ -1,5 +1,7 @@
 {
     "type": "object",
+    "$id": "urn:devicetype-library:device-type",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "properties": {
         "manufacturer": {
             "type": "string"
@@ -23,29 +25,13 @@
             "type": "boolean"
         },
         "airflow": {
-            "type": "string",
-            "enum": [
-                "front-to-rear",
-                "rear-to-front",
-                "left-to-right",
-                "right-to-left",
-                "side-to-rear",
-                "passive"
-            ]
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
         },
         "weight": {
-            "type": "number",
-            "minimum": 0,
-            "multipleOf": 0.01
+            "$ref": "urn:devicetype-library:reusable#/definitions/weight"
         },
         "weight_unit": {
-            "type": "string",
-            "enum": [
-                "kg",
-                "g",
-                "lb",
-                "oz"
-            ]
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
         },
         "front_image": {
             "type": "boolean"
@@ -54,71 +40,73 @@
             "type": "boolean"
         },
         "subdevice_role": {
-            "type": "string",
-            "enum": [
-                "parent",
-                "child"
-            ]
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/subdevice-role"
+        },
+        "is_powered": {
+          "type": "boolean"
         },
         "console-ports": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/console-port"
+                "$ref": "urn:devicetype-library:components#/definitions/console-port"
             }
         },
         "console-server-ports": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/console-server-port"
+                "$ref": "urn:devicetype-library:components#/definitions/console-server-port"
             }
         },
         "power-ports": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/power-port"
+                "$ref": "urn:devicetype-library:components#/definitions/power-port"
             }
         },
         "power-outlets": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/power-outlet"
+                "$ref": "urn:devicetype-library:components#/definitions/power-outlet"
             }
         },
         "interfaces": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/interface"
+                "$ref": "urn:devicetype-library:components#/definitions/interface"
             }
         },
         "front-ports": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/front-port"
+                "$ref": "urn:devicetype-library:components#/definitions/front-port"
             }
         },
         "rear-ports": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/rear-port"
+                "$ref": "urn:devicetype-library:components#/definitions/rear-port"
             }
         },
         "module-bays": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/module-bay"
+                "$ref": "urn:devicetype-library:components#/definitions/module-bay"
             }
         },
         "device-bays": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/device-bay"
+                "$ref": "urn:devicetype-library:components#/definitions/device-bay"
             }
         },
         "inventory-items": {
             "type": "array",
             "items": {
-                "$ref": "components.json#/definitions/inventory-item"
+                "$ref": "urn:devicetype-library:components#/definitions/inventory-item"
             }
+        },
+        "description": {
+            "type": "string"
         },
         "comments": {
             "type": "string"

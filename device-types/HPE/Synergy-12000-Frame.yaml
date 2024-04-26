@@ -1,0 +1,53 @@
+---
+manufacturer: HPE
+model: Synergy 12000 Frame
+slug: hpe-synergy-12000-frame
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04815113)'
+part_number: P06011-B21
+u_height: 10
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+# Weight refers to empty frame populated with 10 fan modules (not modelled)
+weight: 82
+weight_unit: kg
+interfaces:
+  - name: Front Panel Console
+    type: 1000base-t
+    mgmt_only: true
+device-bays:
+  - name: Device Bay 1
+  - name: Device Bay 2
+  - name: Device Bay 3
+  - name: Device Bay 4
+  - name: Device Bay 5
+  - name: Device Bay 6
+  - name: Device Bay 7
+  - name: Device Bay 8
+  - name: Device Bay 9
+  - name: Device Bay 10
+  - name: Device Bay 11
+  - name: Device Bay 12
+  - name: Appliance Bay 1
+  - name: Appliance Bay 2
+  - name: Interconnect Bay 1
+  - name: Interconnect Bay 2
+  - name: Interconnect Bay 3
+  - name: Interconnect Bay 4
+  - name: Interconnect Bay 5
+  - name: Interconnect Bay 6
+  - name: Frame Link Module 1
+  - name: Frame Link Module 2
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'
+  - name: Power Supply 5
+    position: '5'
+  - name: Power Supply 6
+    position: '6'

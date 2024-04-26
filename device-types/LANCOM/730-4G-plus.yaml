@@ -1,0 +1,22 @@
+---
+manufacturer: LANCOM
+model: 730-4G+
+slug: lancom-730-4g-plus
+part_number: '61705'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+comments: '[LANCOM 730-4G+ Data Sheet](https://www.lancom-systems.de/fileadmin/download/LC-730-4G-plus/DS_730-4G-plus_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: Cellular Interface (LTE)
+    type: lte
+console-ports:
+  - name: com
+    type: mini-din-8

@@ -1,0 +1,45 @@
+---
+manufacturer: Palo Alto
+model: PA-440
+slug: palo-alto-pa-440
+part_number: PA-440
+u_height: 1
+is_full_depth: false
+weight: 5
+weight_unit: lb
+airflow: passive
+front_image: true
+rear_image: true
+comments: '[Product Summary Specsheet - PAN-OS 10.1](https://www.paloaltonetworks.com/resources/datasheets/palo-alto-networks-product-summary-specsheet-pan-os-10-1)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+  - name: PS2
+    type: dc-terminal
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb-console
+    type: usb-mini-a
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: loopback
+    type: virtual

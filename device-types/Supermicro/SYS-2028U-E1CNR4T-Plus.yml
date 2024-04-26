@@ -1,0 +1,37 @@
+---
+manufacturer: Supermicro
+model: SYS-2028U-E1CNR4T+
+slug: supermicro-sys-2028u-e1cnr4t-plus
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Te1
+    type: 10gbase-t
+  - name: Te2
+    type: 10gbase-t
+  - name: Te3
+    type: 10gbase-t
+  - name: Te4
+    type: 10gbase-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+  - name: PCI-E 2
+    position: '2'
+  - name: PCI-E 3
+    position: '3'
+  - name: PCI-E 4
+    position: '4'
+  - name: PCI-E LP 1
+    position: '5'

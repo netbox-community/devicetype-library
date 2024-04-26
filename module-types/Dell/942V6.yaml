@@ -1,0 +1,12 @@
+---
+manufacturer: Dell
+model: 942V6
+part_number: 942V6
+comments: Intel X520 DP 10Gb DA/SFP+ Server Adapter, Low Profile\n[Specs](https://www.dell.com/en-us/shop/intel-ethernet-x520-dp-10gb-da-sfp-server-adapter-low-profile-customer-installation/apd/430-4436/pc-accessories#techspecs_section)
+interfaces:
+  - name: '{module}-10GbE-0'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '{module}-10GbE-1'
+    type: 10gbase-x-sfpp
+    mgmt_only: false

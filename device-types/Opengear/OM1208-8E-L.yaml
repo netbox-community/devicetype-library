@@ -1,0 +1,77 @@
+---
+manufacturer: Opengear
+model: OM1208-8E-L
+slug: opengear-om1208-8e-l
+part_number: OM1208-8E-L
+u_height: 1
+is_full_depth: false
+weight: 1
+weight_unit: kg
+airflow: passive
+comments: '[Operations Manager OM1200 Data Sheet](https://resources.opengear.com/om/datasheets/om1200/)'
+console-ports:
+  - name: Port 1
+    type: rj-45
+console-server-ports:
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+  - name: USB C
+    type: usb-a
+  - name: USB D
+    type: usb-a
+interfaces:
+  - name: net1
+    type: 1000base-t
+  - name: net2
+    type: 1000base-t
+  - name: wwan0
+    type: lte
+  - name: sw0
+    type: bridge
+  - name: sw0p1
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p2
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p3
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p4
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p5
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p6
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p7
+    type: 1000base-t
+    bridge: sw0
+  - name: sw0p8
+    type: 1000base-t
+    bridge: sw0
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    allocated_draw: 25
+  - name: PS2
+    type: dc-terminal
+    allocated_draw: 25

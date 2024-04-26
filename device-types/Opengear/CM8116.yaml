@@ -1,0 +1,64 @@
+---
+manufacturer: Opengear
+model: CM8116
+slug: opengear-cm8116
+part_number: CM8116
+u_height: 1
+is_full_depth: false
+comments: CM8116 with built-in Dual Power Supplies.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 50
+    allocated_draw: 30
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 50
+    allocated_draw: 30
+interfaces:
+  - name: NET1
+    type: 1000base-t
+    mgmt_only: true
+  - name: NET2
+    type: 1000base-t
+    mgmt_only: true

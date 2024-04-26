@@ -1,0 +1,30 @@
+---
+manufacturer: Dell
+model: PowerEdge T310
+slug: dell-poweredge-t310
+u_height: 0
+is_full_depth: false
+subdevice_role: parent
+comments: '[T310-SpecSheet.pdf](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/T310-SpecSheet.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 400
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+device-bays:
+  - name: PCIe-Gen2 1
+  - name: PCIe-Gen2 2
+  - name: PCIe-Gen2 3
+  - name: PCIe-Gen2 4
+  - name: PCIe-Gen2 5

@@ -1,0 +1,67 @@
+---
+manufacturer: APC
+model: AP7954
+slug: apc-ap7954
+part_number: AP7954
+u_height: 0
+is_full_depth: false
+comments: Rack PDU, Switched, Zero U,16A,230V,(21)C13&(3)C19, IEC309
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-p-n-e-6h
+power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c19
+  - name: Power Outlet 2
+    type: iec-60320-c13
+  - name: Power Outlet 3
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c13
+  - name: Power Outlet 8
+    type: iec-60320-c13
+  - name: Power Outlet 9
+    type: iec-60320-c19
+  - name: Power Outlet 10
+    type: iec-60320-c13
+  - name: Power Outlet 11
+    type: iec-60320-c13
+  - name: Power Outlet 12
+    type: iec-60320-c13
+  - name: Power Outlet 13
+    type: iec-60320-c13
+  - name: Power Outlet 14
+    type: iec-60320-c13
+  - name: Power Outlet 15
+    type: iec-60320-c13
+  - name: Power Outlet 16
+    type: iec-60320-c13
+  - name: Power Outlet 17
+    type: iec-60320-c19
+  - name: Power Outlet 18
+    type: iec-60320-c13
+  - name: Power Outlet 19
+    type: iec-60320-c13
+  - name: Power Outlet 20
+    type: iec-60320-c13
+  - name: Power Outlet 21
+    type: iec-60320-c13
+  - name: Power Outlet 22
+    type: iec-60320-c13
+  - name: Power Outlet 23
+    type: iec-60320-c13
+  - name: Power Outlet 24
+    type: iec-60320-c13
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true
