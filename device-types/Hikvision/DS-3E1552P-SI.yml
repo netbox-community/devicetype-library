@@ -4,7 +4,6 @@ model: DS-3E1552P-SI
 slug: hikvision-ds-3e1552p-si
 u_height: 1
 is_full_depth: false
-front_image: true
 airflow: left-to-right
 weight: 4.5
 weight_unit: kg
@@ -207,9 +206,9 @@ interfaces:
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: '49'
-    type: 1000base-tx
+    type: 1000base-t
   - name: '50'
-    type: 1000base-tx
+    type: 1000base-t
 # slots:
   - name: '51'
     type: 1000base-x-sfp
