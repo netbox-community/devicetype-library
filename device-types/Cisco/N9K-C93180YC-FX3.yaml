@@ -6,6 +6,8 @@ slug: cisco-n9k-c93180yc-fx3
 u_height: 1
 is_full_depth: true
 is_powered: true
+front_image: true
+rear_image: true
 console-ports:
   - name: console
     type: rj-45
@@ -123,6 +125,6 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PS1
-    position: "1"
+    position: '1'
   - name: PS2
-    position: "2"
+    position: '2'
