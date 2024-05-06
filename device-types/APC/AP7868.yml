@@ -7,7 +7,6 @@ u_height: 0
 is_full_depth: false
 weight: 15.87
 weight_unit: lb
-maximum_draw: 12500
 description: Rack PDU, Metered, Zero U,12.5kW,208V,(30)C13,(6)C19, 3ft Cord
 comments: |
   Discontinued on 2022.07.10.
@@ -20,6 +19,7 @@ console-ports:
 power-ports:
   - name: Power Port 1
     type: cs8365c
+    maximum_draw: 12500
 power-outlets:
   - name: Power Outlet 1
     type: iec-60320-c19
