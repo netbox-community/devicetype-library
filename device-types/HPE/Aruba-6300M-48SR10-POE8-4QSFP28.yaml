@@ -19,13 +19,13 @@ console-ports:
     type: usb-a
 module-bays:
   - name: PS1
-    position: 1
+    position: '1'
   - name: PS2
-    position: 2
+    position: '2'
   - name: FAN1
-    position: 1
+    position: '1'
   - name: FAN2
-    position: 2
+    position: '2'
 interfaces:
   - name: 1/1/1
     type: 10gbase-t
