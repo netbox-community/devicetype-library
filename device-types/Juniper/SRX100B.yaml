@@ -1,0 +1,34 @@
+---
+manufacturer: Juniper
+model: SRX100B
+slug: juniper-srx100b
+part_number: srx100b
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.86
+weight_unit: lb
+comments: '[Juniper SXR100b](https://www.juniper.net/documentation/en_US/release-independent/junos/information-products/pathway-pages/hardware/srx100/srx100-index.pdf)'
+console-ports:
+  - name: Con0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+interfaces:
+  - name: fe-0/0/0
+    type: 100base-tx
+  - name: fe-0/0/1
+    type: 100base-tx
+  - name: fe-0/0/2
+    type: 100base-tx
+  - name: fe-0/0/3
+    type: 100base-tx
+  - name: fe-0/0/4
+    type: 100base-tx
+  - name: fe-0/0/5
+    type: 100base-tx
+  - name: fe-0/0/6
+    type: 100base-tx
+  - name: fe-0/0/7
+    type: 100base-tx

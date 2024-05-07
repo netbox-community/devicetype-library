@@ -1,0 +1,32 @@
+---
+manufacturer: Fujitsu
+model: PRIMERGY RX2540 M5
+slug: fujitsu-primergy-rx2540-m5
+u_height: 2
+airflow: front-to-rear
+is_full_depth: true
+weight: 25
+weight_unit: kg
+comments: '[Fujitsu Server PRIMERGY RX2540 M5 Rack Server](https://www.fujitsu.com/vn/en/imagesgig5/Data_Sheet_FUJITSU_Server_PRIMERGY_RX2540_M5_Rack_Server.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: TenGig-E 1
+    type: 10gbase-t
+  - name: TenGig-E 2
+    type: 10gbase-t
+  - name: iRMC-S5
+    type: 1000base-t
+    mgmt_only: true

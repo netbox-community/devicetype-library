@@ -1,0 +1,23 @@
+---
+manufacturer: QNAP
+model: TS-251+
+slug: qnap-ts-251-plus
+part_number: TS-251+
+is_full_depth: false
+subdevice_role: parent
+airflow: side-to-rear
+comments: '[TS-251+ | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-251+/specs/hardware)'
+weight: 1.28
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 19
+    allocated_draw: 11
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t

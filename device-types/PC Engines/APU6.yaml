@@ -1,0 +1,33 @@
+---
+manufacturer: PC Engines
+model: APU6
+slug: pc-engines-apu6
+part_number: apu6
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 16.00
+weight_unit: oz
+comments: |
+  Dimensions: 165 x 155 x 26 mm (6.5 x 6.10 x 1.02")
+interfaces:
+  - name: eth0
+    type: 1000base-x-sfp
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: USB1
+    type: other
+  - name: USB2
+    type: other
+console-ports:
+  - name: ttyS0
+    type: usb-micro-b
+power-ports:
+  - name: Input
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 6

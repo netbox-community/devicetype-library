@@ -1,0 +1,10 @@
+---
+manufacturer: Nokia
+model: PS-7220-IXR-H4-AC-F2B
+part_number: 3HE17752AA
+comments: 2400W AC Power Supply F2B airflow
+# airflow: front-to-rear
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 2400

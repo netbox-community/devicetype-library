@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: UCSC-PSU1-770W
+part_number: UCSC-PSU1-770W
+comments: |
+  [770 W AC Power Supply](https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/c/hw/C240M5/install/C240M5/C240M5_appendix_011.pdf)
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 770

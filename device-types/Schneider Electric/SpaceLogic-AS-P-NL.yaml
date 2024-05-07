@@ -1,0 +1,34 @@
+---
+manufacturer: Schneider Electric
+model: SpaceLogic AS-P-NL
+slug: schneider-electric-spacelogic-as-p-nl
+part_number: SXWASPXXX10002
+is_full_depth: false
+u_height: 0
+comments: '[SpaceLogic™ AS-P-NL Hardware Installation](https://ecostruxure-building-help.se.com/bms/Topics/Show.castle?id=13809)'
+weight_unit: g
+weight: 321
+airflow: passive
+interfaces:
+  - name: eth1
+    label: Ethernet 1
+    type: 100base-tx
+    enabled: true
+    description: Default DHCP enabled
+  - name: eth2
+    label: Etrhernet 2
+    type: 100base-tx
+    enabled: false
+    description: Default disabled
+console-ports:
+  - name: serial1
+    label: Device
+    type: usb-mini-b
+  - name: serial2
+    label: Host
+    type: usb-micro-a
+power-ports:
+  - name: power
+    label: Power
+    type: other
+    maximum-draw: 10
