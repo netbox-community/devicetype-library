@@ -29,16 +29,16 @@ power-ports:
 interfaces:
   - name: ix0
     type: 10gbase-x-sfpp
-    description: WAN1
+    description: WAN3
   - name: ix1
     type: 10gbase-x-sfpp
-    description: WAN2
+    description: WAN4
   - name: ix2
     type: 1000base-x-sfp
-    description: WAN3
+    description: WAN2
   - name: ix3
     type: 1000base-x-sfp
-    description: WAN4
+    description: WAN1
   - name: igc0
     type: 2.5gbase-t
     description: LAN1
