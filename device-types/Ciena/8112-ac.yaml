@@ -68,9 +68,9 @@ interfaces:
 power-ports:
   - name: PSA
     type: iec-60320-c14
-    typical_draw: 240
+    allocated_draw: 240
     maximum_draw: 400
   - name: PSB
     type: iec-60320-c14
     maximum_draw: 400
-    typical_draw: 240
+    allocated_draw: 240

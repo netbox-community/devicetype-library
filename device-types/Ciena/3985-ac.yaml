@@ -17,11 +17,11 @@ console-ports:
 power-ports:
   - name: PSU-A
     type: iec-60320-c14
-    typical_draw: 60
+    allocated_draw: 60
     maximum_draw: 90
   - name: PSU-B
     type: iec-60320-c14
-    typical_draw: 60
+    allocated_draw: 60
     maximum_draw: 90
 interfaces:
   - {name: '1', type: 25gbase-x-sfp28}

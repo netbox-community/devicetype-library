@@ -17,11 +17,11 @@ console-ports:
 power-ports:
   - name: PSA
     type: iec-60320-c14
-    typical_draw: 40
+    allocated_draw: 40
     maximum_draw: 96
   - name: PSB
     type: iec-60320-c14
-    typical_draw: 40
+    allocated_draw: 40
     maximum_draw: 96
 interfaces:
   - name: '1'
