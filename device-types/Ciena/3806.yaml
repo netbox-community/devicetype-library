@@ -15,9 +15,11 @@ power-ports:
   - name: DC 12V
     type: other
     maximum_draw: 5
+    allocated_draw: 3
   - name: UPS
     type: other
     maximum_draw: 5
+    allocated_draw: 3
 interfaces:
   - {name: XGS-PON, type: xgs-pon}
   - {name: 2.5G LAN, type: 2.5gbase-t}
