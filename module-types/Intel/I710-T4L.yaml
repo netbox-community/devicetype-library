@@ -1,0 +1,18 @@
+---
+manufacturer: Intel
+model: I710-T4L
+part_number: I710-T4L
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/225772/intel-ethernet-network-adapter-i710t4l.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet/{module}/3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet/{module}/4
+    type: 1000base-t
+    mgmt_only: false
