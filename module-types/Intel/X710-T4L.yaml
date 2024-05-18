@@ -1,0 +1,18 @@
+---
+manufacturer: Intel
+model: X710-T4L
+part_number: X710-T4L
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/189464/intel-ethernet-network-adapter-x710t4l.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/3
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/4
+    type: 10gbase-t
+    mgmt_only: false
