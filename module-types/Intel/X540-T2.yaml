@@ -1,0 +1,12 @@
+---
+manufacturer: Intel
+model: X540-T2
+part_number: X540-T2
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/58954/intel-ethernet-converged-network-adapter-x540t2.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-t
+    mgmt_only: false
