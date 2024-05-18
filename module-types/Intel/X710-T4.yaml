@@ -1,0 +1,18 @@
+---
+manufacturer: Intel
+model: X710-T4
+part_number: X710-T4
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/93428/intel-ethernet-converged-network-adapter-x710t4.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/3
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/4
+    type: 10gbase-t
+    mgmt_only: false
