@@ -1,0 +1,42 @@
+---
+manufacturer: HPE
+model: Aruba AP-605H
+slug: hpe-aruba-ap-605h
+part_number: AP-605H
+u_height: 0
+is_full_depth: false
+weight: 500
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
+comments: '[Aruba 600H Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP600HSeries.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: E0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: E1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: E2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: E3
+    type: 1000base-t
+  - name: E4
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ax
+  - name: Bluetooth
+    type: ieee802.15.1

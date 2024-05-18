@@ -1,0 +1,12 @@
+---
+manufacturer: Intel
+model: E810-XXVDA2
+part_number: E810-XXVDA2
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/189760/intel-ethernet-network-adapter-e810xxvda2.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28
+    mgmt_only: false
