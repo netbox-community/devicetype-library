@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: Aruba AP-615
+slug: hpe-aruba-ap-615
+part_number: AP-615
+u_height: 0
+is_full_depth: false
+weight: 520
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
+comments: '[Aruba 610 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP610Series.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: E0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ax
+  - name: Bluetooth
+    type: ieee802.15.1
