@@ -1,0 +1,12 @@
+---
+manufacturer: Intel
+model: X710-T2L
+part_number: X710-T2L
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/189463/intel-ethernet-network-adapter-x710t2l.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-t
+    mgmt_only: false
