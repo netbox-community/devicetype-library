@@ -1,0 +1,30 @@
+---
+manufacturer: ExaGrid
+model: EX18
+slug: exagrid-ex18
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+part_number: EX18-SEC
+comments: '[ExaGrid Technical Specifications](https://www.exagrid.com/wp-content/uploads/ExaGrid-Technical_Specifications_DS.pdf)'
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: GbE-1
+    type: 1000base-t
+  - name: GbE-2
+    type: 1000base-t
+  - name: SPF-1
+    type: 10gbase-x-sfpp
+  - name: SFP-2
+    type: 10gbase-x-sfpp
+  - name: SPF-3
+    type: 25gbase-x-sfp28
+  - name: SFP-4
+    type: 25gbase-x-sfp28
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
