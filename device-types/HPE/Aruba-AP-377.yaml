@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: Aruba AP-377
+slug: hpe-aruba-ap-377
+part_number: AP-377
+u_height: 0
+is_full_depth: false
+weight: 2.1
+weight_unit: kg
+front_image: true
+rear_image: true
+airflow: passive
+comments: '[Aruba 370 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP370Series.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: E0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: E1
+    type: 1000base-x-sfp
+  - name: WiFi
+    type: ieee802.11ac
+  - name: Bluetooth
+    type: ieee802.15.1
