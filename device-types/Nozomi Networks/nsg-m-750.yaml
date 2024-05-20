@@ -1,0 +1,57 @@
+---
+manufacturer: Nozomi Networks
+model: NSG-M 750
+slug: nozomi-networks-nsg-m-750
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Technical Specification](https://assets-global.website-files.com/645a4534705010e2cb244f50/66070837469004bde082bcb9_Nozomi-Networks-Guardian-Technical-Specifications.pdf)'
+weight: 14
+weight_unit: kg
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    maximum_draw: 360
+interfaces:
+  - name: GbE-1
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-2
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-3
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-4
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-5
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-6
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-7
+    type: 1000base-t
+    comments: monitoring port
+  - name: GbE-8
+    type: 1000base-t
+    comments: communication port
+  - name: SFP-1
+    type: 1000base-x-sfp
+    comments: monitoring port
+  - name: SFP-2
+    type: 1000base-x-sfp
+    comments: monitoring port
+  - name: SFP-3
+    type: 1000base-x-sfp
+    comments: monitoring port
+  - name: SFP-4
+    type: 1000base-x-sfp
+    comments: monitoring/communication port
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
