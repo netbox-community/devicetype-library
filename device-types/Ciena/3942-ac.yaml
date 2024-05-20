@@ -13,9 +13,11 @@ power-ports:
   - name: PSA
     type: iec-60320-c14
     maximum_draw: 96
+    allocated_draw: 60
   - name: PSB
     type: iec-60320-c14
     maximum_draw: 96
+    allocated_draw: 60
 interfaces:
   - {name: '1', type: 1000base-t}
   - {name: '2', type: 1000base-t}
