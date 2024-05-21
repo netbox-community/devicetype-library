@@ -1,0 +1,39 @@
+---
+manufacturer: Arista
+model: AWE-7230R-4TX-4S-F
+slug: arista-awe-7230r-4tx-4s-f
+part_number: AWE-7230R-4TX-4S-F
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 9.3
+weight_unit: kg
+comments: '[Arista AWE-7230R-4TX-4S-F Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/AWE-7200R-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '0'
+  - name: PS2
+    position: '1'
+interfaces:
+  - name: Ethernet1/1
+    type: 10gbase-t
+  - name: Ethernet1/2
+    type: 10gbase-t
+  - name: Ethernet1/3
+    type: 10gbase-t
+  - name: Ethernet1/4
+    type: 10gbase-t
+  - name: Ethernet1/5
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/6
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/7
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/8
+    type: 10gbase-x-sfpp
+  - name: Management1/1
+    type: 1000base-t
+    mgmt_only: true
