@@ -7,19 +7,19 @@ u_height: 0.0
 is_full_depth: false
 subdevice_role: child
 console-ports:
-- name: Console
-  type: de-9
+  - name: Console
+    type: de-9
 power-ports:
-- name: PSU 1
-  type: iec-60320-c14
-  maximum_draw: 1450
-  label: PSU 1
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 1450
+    label: PSU 1
 interfaces:
-- name: Management
-  type: 1000base-t
-  mgmt_only: true
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
 module-bays:
-- name: PCIe1
-  position: PCIe1
-- name: PCIe2
-  position: PCIe2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
