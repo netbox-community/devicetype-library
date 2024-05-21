@@ -1,0 +1,50 @@
+---
+manufacturer: HPE
+model: ProLiant DL385 Gen10 Plus v2
+slug: hpe-proliant-dl385-gen10-plus-v2
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: OCP3
+    position: OCP3
+  - name: PCIe1
+    position: PCIe1
+    label: primary riser
+  - name: PCIe2
+    position: PCIe2
+    label: primary riser
+  - name: PCIe3
+    position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: secondary riser
+  - name: PCIe5
+    position: PCIe5
+    label: secondary riser
+  - name: PCIe6
+    position: PCIe6
+    label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
+  - name: HDDBox1
+    position: box1
+  - name: HDDBox2
+    position: box2
+  - name: HDDBox3
+    position: box3
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
