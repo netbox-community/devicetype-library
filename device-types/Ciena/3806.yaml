@@ -21,6 +21,9 @@ power-ports:
     maximum_draw: 5
     allocated_draw: 3
 interfaces:
-  - {name: XGS-PON, type: xgs-pon}
-  - {name: 2.5G LAN, type: 2.5gbase-t}
-  - {name: '3', type: 1000base-x-sfp}
+  - name: XGS-PON
+    type: xgs-pon
+  - name: 2.5G LAN
+    type: 2.5gbase-t
+  - name: '3'
+    type: 1000base-x-sfp

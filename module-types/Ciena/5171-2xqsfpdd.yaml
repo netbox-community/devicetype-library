@@ -8,5 +8,7 @@ comments: |
   • Port 1 supporting up to 200GbE
   • Port 2 supporting up to 100GbE
 interfaces:
-  - {name: '{module}/1', type: 200gbase-x-qsfpdd}
-  - {name: '{module}/2', type: 100gbase-x-qsfpdd}
+  - name: '{module}/1'
+    type: 200gbase-x-qsfpdd
+  - name: '{module}/2'
+    type: 100gbase-x-qsfpdd
