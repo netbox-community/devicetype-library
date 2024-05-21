@@ -1,0 +1,35 @@
+---
+manufacturer: HPE
+model: ProLiant DL325 Gen11
+slug: hpe-proliant-dl325-gen11
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Data Sheet](https://www.hpe.com/psnow/doc/PSN1014689141NGEN) [QuickSpecs](https://www.hpe.com/psnow/doc/a50004297enw.pdf?jumpid=in_pdp-psnow-qs)'
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: FlexLOM
+    position: FlexLOM
+  - name: PCIe-1 Gen5 raiser
+    position: PCIe-1
+  - name: PCIe-2 NVME
+    position: PCIe-2
+    comments: Optional NS204i-u hot-plug NVME
+  - name: PCIe-3 Gen5 raiser
+    position: PCIe-3
+  - name: OCP-1
+    position: OCP-1
+    comments: OCP 3.0
+  - name: OCP-2
+    position: OCP-2
+    comments: OCP 3.0
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
