@@ -1,0 +1,28 @@
+---
+manufacturer: HPE
+model: Aruba AP-207
+slug: hpe-aruba-ap-207
+part_number: AP-207
+u_height: 0
+is_full_depth: false
+weight: 380
+weight_unit: g
+front_image: true
+rear_image: true
+airflow: passive
+comments: '[Aruba 207 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP207Series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: ENET
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: WiFi
+    type: ieee802.11ac
+  - name: Bluetooth
+    type: ieee802.15.1
