@@ -26,22 +26,47 @@ power-ports:
     maximum_draw: 240
     allocated_draw: 40
 interfaces:
-  - {name: DCN-1, type: 1000base-t, mgmt_only: true}
-  - {name: DCN-2, type: 1000base-t, mgmt_only: true}
-  - {name: Eth-1, type: 1000base-t, mgmt_only: true}
-  - {name: Eth-2, type: 1000base-t, mgmt_only: true}
-  - {name: Eth-3, type: 1000base-t, mgmt_only: true}
-  - {name: Eth-4, type: 1000base-t, mgmt_only: true}
-  - {name: Mon, type: other}
-  - {name: Line, type: other}
-  - {name: Express, type: other}
-  - {name: '61', type: other}
-  - {name: '14', type: other}
-  - {name: '50', type: other}
-  - {name: '49', type: other}
-  - {name: '48', type: other}
-  - {name: '47', type: other}
-  - {name: '46', type: other}
-  - {name: '45', type: other}
-  - {name: '44', type: other}
-  - {name: '43', type: other}
+  - name: DCN-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: DCN-2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-3
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-4
+    type: 1000base-t
+    mgmt_only: true
+  - name: Mon
+    type: other
+  - name: Line
+    type: other
+  - name: Express
+    type: other
+  - name: '61'
+    type: other
+  - name: '14'
+    type: other
+  - name: '50'
+    type: other
+  - name: '49'
+    type: other
+  - name: '48'
+    type: other
+  - name: '47'
+    type: other
+  - name: '46'
+    type: other
+  - name: '45'
+    type: other
+  - name: '44'
+    type: other
+  - name: '43'
+    type: other

@@ -39,38 +39,70 @@ interfaces:
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
-  - {name: '1', type: 100gbase-x-qsfp28}
-  - {name: '2', type: 100gbase-x-qsfp28}
-  - {name: '3', type: 100gbase-x-qsfp28}
-  - {name: '4', type: 100gbase-x-qsfp28}
-  - {name: '5', type: 100gbase-x-qsfp28}
-  - {name: '6', type: 100gbase-x-qsfp28}
-  - {name: '7', type: 100gbase-x-qsfp28}
-  - {name: '8', type: 100gbase-x-qsfp28}
-  - {name: '9', type: 100gbase-x-qsfp28}
-  - {name: '10', type: 100gbase-x-qsfp28}
-  - {name: '11', type: 100gbase-x-qsfp28}
-  - {name: '12', type: 100gbase-x-qsfp28}
-  - {name: '13', type: 100gbase-x-qsfp28}
-  - {name: '14', type: 100gbase-x-qsfp28}
-  - {name: '15', type: 100gbase-x-qsfp28}
-  - {name: '16', type: 100gbase-x-qsfp28}
-  - {name: '17', type: 100gbase-x-qsfp28}
-  - {name: '18', type: 100gbase-x-qsfp28}
-  - {name: '19', type: 100gbase-x-qsfp28}
-  - {name: '20', type: 100gbase-x-qsfp28}
-  - {name: '21', type: 100gbase-x-qsfp28}
-  - {name: '22', type: 100gbase-x-qsfp28}
-  - {name: '23', type: 100gbase-x-qsfp28}
-  - {name: '24', type: 100gbase-x-qsfp28}
-  - {name: '25', type: 100gbase-x-qsfp28}
-  - {name: '26', type: 100gbase-x-qsfp28}
-  - {name: '27', type: 100gbase-x-qsfp28}
-  - {name: '28', type: 100gbase-x-qsfp28}
-  - {name: '29', type: 100gbase-x-qsfp28}
-  - {name: '30', type: 100gbase-x-qsfp28}
-  - {name: '31', type: 100gbase-x-qsfp28}
-  - {name: '32', type: 100gbase-x-qsfp28}
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfp28
+  - name: '4'
+    type: 100gbase-x-qsfp28
+  - name: '5'
+    type: 100gbase-x-qsfp28
+  - name: '6'
+    type: 100gbase-x-qsfp28
+  - name: '7'
+    type: 100gbase-x-qsfp28
+  - name: '8'
+    type: 100gbase-x-qsfp28
+  - name: '9'
+    type: 100gbase-x-qsfp28
+  - name: '10'
+    type: 100gbase-x-qsfp28
+  - name: '11'
+    type: 100gbase-x-qsfp28
+  - name: '12'
+    type: 100gbase-x-qsfp28
+  - name: '13'
+    type: 100gbase-x-qsfp28
+  - name: '14'
+    type: 100gbase-x-qsfp28
+  - name: '15'
+    type: 100gbase-x-qsfp28
+  - name: '16'
+    type: 100gbase-x-qsfp28
+  - name: '17'
+    type: 100gbase-x-qsfp28
+  - name: '18'
+    type: 100gbase-x-qsfp28
+  - name: '19'
+    type: 100gbase-x-qsfp28
+  - name: '20'
+    type: 100gbase-x-qsfp28
+  - name: '21'
+    type: 100gbase-x-qsfp28
+  - name: '22'
+    type: 100gbase-x-qsfp28
+  - name: '23'
+    type: 100gbase-x-qsfp28
+  - name: '24'
+    type: 100gbase-x-qsfp28
+  - name: '25'
+    type: 100gbase-x-qsfp28
+  - name: '26'
+    type: 100gbase-x-qsfp28
+  - name: '27'
+    type: 100gbase-x-qsfp28
+  - name: '28'
+    type: 100gbase-x-qsfp28
+  - name: '29'
+    type: 100gbase-x-qsfp28
+  - name: '30'
+    type: 100gbase-x-qsfp28
+  - name: '31'
+    type: 100gbase-x-qsfp28
+  - name: '32'
+    type: 100gbase-x-qsfp28
 
 module-bays:
   - name: PS A

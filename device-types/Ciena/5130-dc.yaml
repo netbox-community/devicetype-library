@@ -28,20 +28,34 @@ console-ports:
     mgmt_only: true
     description: RJ-45 sync port
 interfaces:
-  - {name: '1', type: 25gbase-x-sfp28}
-  - {name: '2', type: 25gbase-x-sfp28}
-  - {name: '3', type: 25gbase-x-sfp28}
-  - {name: '4', type: 25gbase-x-sfp28}
-  - {name: '5', type: 25gbase-x-sfp28}
-  - {name: '6', type: 25gbase-x-sfp28}
-  - {name: '7', type: 25gbase-x-sfp28}
-  - {name: '8', type: 25gbase-x-sfp28}
-  - {name: '9', type: 25gbase-x-sfp28}
-  - {name: '10', type: 25gbase-x-sfp28}
-  - {name: '11', type: 25gbase-x-sfp28}
-  - {name: '12', type: 25gbase-x-sfp28}
-  - {name: '13', type: 100gbase-x-qsfp28}
-  - {name: '14', type: 100gbase-x-qsfp28}
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+  - name: '5'
+    type: 25gbase-x-sfp28
+  - name: '6'
+    type: 25gbase-x-sfp28
+  - name: '7'
+    type: 25gbase-x-sfp28
+  - name: '8'
+    type: 25gbase-x-sfp28
+  - name: '9'
+    type: 25gbase-x-sfp28
+  - name: '10'
+    type: 25gbase-x-sfp28
+  - name: '11'
+    type: 25gbase-x-sfp28
+  - name: '12'
+    type: 25gbase-x-sfp28
+  - name: '13'
+    type: 100gbase-x-qsfp28
+  - name: '14'
+    type: 100gbase-x-qsfp28
   - name: MGMT
     type: 1000base-t
     mgmt_only: true

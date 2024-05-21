@@ -52,54 +52,102 @@ interfaces:
   - name: BMC MGMT
     type: 1000base-t
     mgmt_only: true
-  - {name: '1', type: 100gbase-x-sfpdd}
-  - {name: '2', type: 100gbase-x-sfpdd}
-  - {name: '3', type: 100gbase-x-sfpdd}
-  - {name: '4', type: 100gbase-x-sfpdd}
-  - {name: '5', type: 100gbase-x-sfpdd}
-  - {name: '6', type: 100gbase-x-sfpdd}
-  - {name: '7', type: 100gbase-x-sfpdd}
-  - {name: '8', type: 100gbase-x-sfpdd}
-  - {name: '9', type: 100gbase-x-sfpdd}
-  - {name: '10', type: 100gbase-x-sfpdd}
-  - {name: '11', type: 100gbase-x-sfpdd}
-  - {name: '12', type: 100gbase-x-sfpdd}
-  - {name: '13', type: 100gbase-x-sfpdd}
-  - {name: '14', type: 100gbase-x-sfpdd}
-  - {name: '15', type: 100gbase-x-sfpdd}
-  - {name: '16', type: 100gbase-x-sfpdd}
-  - {name: '17', type: 100gbase-x-sfpdd}
-  - {name: '18', type: 100gbase-x-sfpdd}
-  - {name: '19', type: 100gbase-x-sfpdd}
-  - {name: '20', type: 100gbase-x-sfpdd}
-  - {name: '21', type: 100gbase-x-sfpdd}
-  - {name: '22', type: 100gbase-x-sfpdd}
-  - {name: '23', type: 100gbase-x-sfpdd}
-  - {name: '24', type: 100gbase-x-sfpdd}
-  - {name: '25', type: 100gbase-x-sfpdd}
-  - {name: '26', type: 100gbase-x-sfpdd}
-  - {name: '27', type: 100gbase-x-sfpdd}
-  - {name: '28', type: 100gbase-x-sfpdd}
-  - {name: '29', type: 100gbase-x-sfpdd}
-  - {name: '30', type: 100gbase-x-sfpdd}
-  - {name: '31', type: 100gbase-x-sfpdd}
-  - {name: '32', type: 100gbase-x-sfpdd}
-  - {name: '33', type: 100gbase-x-sfpdd}
-  - {name: '34', type: 100gbase-x-sfpdd}
-  - {name: '35', type: 100gbase-x-sfpdd}
-  - {name: '36', type: 100gbase-x-sfpdd}
-  - {name: '37', type: 100gbase-x-sfpdd}
-  - {name: '38', type: 100gbase-x-sfpdd}
-  - {name: '39', type: 100gbase-x-sfpdd}
-  - {name: '40', type: 100gbase-x-sfpdd}
-  - {name: '41', type: 400gbase-x-qsfpdd}
-  - {name: '42', type: 400gbase-x-qsfpdd}
-  - {name: '43', type: 400gbase-x-qsfpdd}
-  - {name: '44', type: 400gbase-x-qsfpdd}
-  - {name: '45', type: 400gbase-x-qsfpdd}
-  - {name: '46', type: 400gbase-x-qsfpdd}
-  - {name: '47', type: 400gbase-x-qsfpdd}
-  - {name: '48', type: 400gbase-x-qsfpdd}
+  - name: '1'
+    type: 100gbase-x-sfpdd
+  - name: '2'
+    type: 100gbase-x-sfpdd
+  - name: '3'
+    type: 100gbase-x-sfpdd
+  - name: '4'
+    type: 100gbase-x-sfpdd
+  - name: '5'
+    type: 100gbase-x-sfpdd
+  - name: '6'
+    type: 100gbase-x-sfpdd
+  - name: '7'
+    type: 100gbase-x-sfpdd
+  - name: '8'
+    type: 100gbase-x-sfpdd
+  - name: '9'
+    type: 100gbase-x-sfpdd
+  - name: '10'
+    type: 100gbase-x-sfpdd
+  - name: '11'
+    type: 100gbase-x-sfpdd
+  - name: '12'
+    type: 100gbase-x-sfpdd
+  - name: '13'
+    type: 100gbase-x-sfpdd
+  - name: '14'
+    type: 100gbase-x-sfpdd
+  - name: '15'
+    type: 100gbase-x-sfpdd
+  - name: '16'
+    type: 100gbase-x-sfpdd
+  - name: '17'
+    type: 100gbase-x-sfpdd
+  - name: '18'
+    type: 100gbase-x-sfpdd
+  - name: '19'
+    type: 100gbase-x-sfpdd
+  - name: '20'
+    type: 100gbase-x-sfpdd
+  - name: '21'
+    type: 100gbase-x-sfpdd
+  - name: '22'
+    type: 100gbase-x-sfpdd
+  - name: '23'
+    type: 100gbase-x-sfpdd
+  - name: '24'
+    type: 100gbase-x-sfpdd
+  - name: '25'
+    type: 100gbase-x-sfpdd
+  - name: '26'
+    type: 100gbase-x-sfpdd
+  - name: '27'
+    type: 100gbase-x-sfpdd
+  - name: '28'
+    type: 100gbase-x-sfpdd
+  - name: '29'
+    type: 100gbase-x-sfpdd
+  - name: '30'
+    type: 100gbase-x-sfpdd
+  - name: '31'
+    type: 100gbase-x-sfpdd
+  - name: '32'
+    type: 100gbase-x-sfpdd
+  - name: '33'
+    type: 100gbase-x-sfpdd
+  - name: '34'
+    type: 100gbase-x-sfpdd
+  - name: '35'
+    type: 100gbase-x-sfpdd
+  - name: '36'
+    type: 100gbase-x-sfpdd
+  - name: '37'
+    type: 100gbase-x-sfpdd
+  - name: '38'
+    type: 100gbase-x-sfpdd
+  - name: '39'
+    type: 100gbase-x-sfpdd
+  - name: '40'
+    type: 100gbase-x-sfpdd
+  - name: '41'
+    type: 400gbase-x-qsfpdd
+  - name: '42'
+    type: 400gbase-x-qsfpdd
+  - name: '43'
+    type: 400gbase-x-qsfpdd
+  - name: '44'
+    type: 400gbase-x-qsfpdd
+  - name: '45'
+    type: 400gbase-x-qsfpdd
+  - name: '46'
+    type: 400gbase-x-qsfpdd
+  - name: '47'
+    type: 400gbase-x-qsfpdd
+  - name: '48'
+    type: 400gbase-x-qsfpdd
 
 module-bays:
   - name: PS A

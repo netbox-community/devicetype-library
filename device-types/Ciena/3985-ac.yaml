@@ -24,12 +24,18 @@ power-ports:
     allocated_draw: 60
     maximum_draw: 90
 interfaces:
-  - {name: '1', type: 25gbase-x-sfp28}
-  - {name: '2', type: 25gbase-x-sfp28}
-  - {name: '3', type: 25gbase-x-sfp28}
-  - {name: '4', type: 25gbase-x-sfp28}
-  - {name: '5', type: 25gbase-x-sfp28}
-  - {name: '6', type: 25gbase-x-sfp28}
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+  - name: '5'
+    type: 25gbase-x-sfp28
+  - name: '6'
+    type: 25gbase-x-sfp28
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
