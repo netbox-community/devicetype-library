@@ -1,0 +1,80 @@
+---
+manufacturer: HPE
+model: ProCurve 2520-24-PoE
+slug: hpe-procurve-2520-24-poe
+part_number: J9138A
+u_height: 1
+is_full_depth: false
+front_image: true
+airflow: left-to-right
+comments: '[HP ProCurve 2520 PoE Switch Series - Overview](https://support.hpe.com/hpesc/public/docDisplay?docId=c02563899&docLocale=en_US)'
+weight: 3.2
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 257
+interfaces:
+  - name: '1'
+    type: 100base-tx
+  - name: '2'
+    type: 100base-tx
+  - name: '3'
+    type: 100base-tx
+  - name: '4'
+    type: 100base-tx
+  - name: '5'
+    type: 100base-tx
+  - name: '6'
+    type: 100base-tx
+  - name: '7'
+    type: 100base-tx
+  - name: '8'
+    type: 100base-tx
+  - name: '9'
+    type: 100base-tx
+  - name: '10'
+    type: 100base-tx
+  - name: '11'
+    type: 100base-tx
+  - name: '12'
+    type: 100base-tx
+  - name: '13'
+    type: 100base-tx
+  - name: '14'
+    type: 100base-tx
+  - name: '15'
+    type: 100base-tx
+  - name: '16'
+    type: 100base-tx
+  - name: '17'
+    type: 100base-tx
+  - name: '18'
+    type: 100base-tx
+  - name: '19'
+    type: 100base-tx
+  - name: '20'
+    type: 100base-tx
+  - name: '21'
+    type: 100base-tx
+  - name: '22'
+    type: 100base-tx
+  - name: '23'
+    type: 100base-tx
+  - name: '24'
+    type: 100base-tx
+  - name: '25'
+    type: 1000base-t
+  - name: '26'
+    type: 1000base-t
+  - name: 27T
+    type: 1000base-t
+  - name: 28T
+    type: 1000base-t
+  - name: 27S
+    type: 1000base-x-sfp
+  - name: 28S
+    type: 1000base-x-sfp
