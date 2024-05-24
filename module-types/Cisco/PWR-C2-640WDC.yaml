@@ -4,7 +4,8 @@ model: PWR-C2-640WDC
 part_number: PWR-C2-640WDC
 weight: 1.25
 weight_unit: kg
-power-ports:
+psubdevice_role: child
+ower-ports:
   - name: PS-{module}
     type: dc-terminal
     maximum_draw: 640
