@@ -5,12 +5,12 @@ part_number: C9300L-24P-4G
 slug: cisco-c9300l-24p-4g
 u_height: 1
 is_full_depth: true
+subdevice_role: parent
 console-ports:
   - name: Rear con 0
     type: rj-45
   - name: USB Mini Console
     type: usb-mini-b
-<<<<<<< HEAD
   - name: USB Port
     type: usb-a 
 power-ports:
@@ -20,8 +20,6 @@ power-ports:
   - name: PSU-2
     type: iec-60320-c16
     maximum_draw: 715
-=======
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -127,29 +125,11 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/1/4
     type: 1000base-x-sfp
-<<<<<<< HEAD
-    mgmt_only: false
-=======
-  - name: StackPort1/1
-    type: cisco-stackwise
-  - name: StackPort1/2
-    type: cisco-stackwise
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
 module-bays:
-<<<<<<< HEAD
   - name: StackPort1/1
     type: cisco-stackwise-320
   - name: StackPort1/2
     type: cisco-stackwise-320
-=======
-  - name: PS-A
-    position: A
-  - name: PS-B
-    position: B
-  - name: FAN 1
-  - name: FAN 2
-  - name: FAN 3
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

@@ -1,10 +1,11 @@
 ---
 manufacturer: Cisco
-model: Catalyst 9200L-24P-4X
+model: C9200L-24P-4X
 part_number: C9200L-24P-4X
 slug: cisco-c9200l-24p-4x
 u_height: 1
 is_full_depth: false
+subdevice_role: parent
 comments: '### [Cisco Catalyst 9200 Series Switches Data Sheet]
 
 
@@ -126,20 +127,11 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
-<<<<<<< HEAD
-    mgmt_only: false
-=======
-  - name: StackPort1/1
-    type: cisco-stackwise
-  - name: StackPort1/2
-    type: cisco-stackwise
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
 module-bays:
   - name: StackPort1/1
     type: cisco-stackwise-80
-    mgmt_only: false
   - name: StackPort1/2
     type: cisco-stackwise-80

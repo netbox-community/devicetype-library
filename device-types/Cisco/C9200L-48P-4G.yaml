@@ -3,11 +3,11 @@ manufacturer: Cisco
 model: C9200L-48P-4G
 part_number: C9200L-48P-4G
 slug: cisco-c9200l-48p-4g
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 u_height: 1
 is_full_depth: false
 Weight: 9.6
 Weight unit: Pounds
+subdevice_role: parent
 comments: '[C9200L-48P-4G /w 48 ports full POE+ & 4x 1G fixed uplinks]
 
 ###### Model                                            : C9200L-48P-4G
@@ -245,31 +245,13 @@ interfaces:
     poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/1/1
     type: 1000base-x-sfp
-<<<<<<< HEAD
-    mgmt_only: false
   - name: GigabitEthernet1/1/2
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: GigabitEthernet1/1/3
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: GigabitEthernet1/1/4
     type: 1000base-x-sfp
-    mgmt_only: false
   - name: GigabitEthernet0/0
-=======
-  - name: GigabitEthernet1/1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/1/3
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/1/4
-    type: 1000base-x-sfp
-  - name: StackPort1/1
-    type: cisco-stackwise
-  - name: StackPort1/2
-    type: cisco-stackwise
-  - name: GigabitEthernet0
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
     type: 1000base-t
     mgmt_only: true
 module-bays:

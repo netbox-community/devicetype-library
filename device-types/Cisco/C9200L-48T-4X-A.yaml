@@ -3,9 +3,9 @@ manufacturer: Cisco
 model: C9200L-48P-4X
 part_number: C9200L-48P-4X
 slug: cisco-c9200l-48p-4x
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Cisco/C9200L-48P-4X.yaml
 u_height: 1
 is_full_depth: false
+subdevice_role: parent
 description: C9200L-48T-4X-A/Catalyst w/ 48-port + & 4x10G uplink Switch, Network Advantage
 comments: '[Cisco Catalyst C9200L-48T-4X-A Series Switches Data Sheet] 
 
@@ -253,14 +253,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
-<<<<<<< HEAD:device-types/Cisco/C9200L-48T-4X-A.yaml
-    mgmt_only: false
-=======
-  - name: StackPort1/1
-    type: cisco-stackwise
-  - name: StackPort1/2
-    type: cisco-stackwise
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d:device-types/Cisco/C9200L-48P-4X.yaml
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
