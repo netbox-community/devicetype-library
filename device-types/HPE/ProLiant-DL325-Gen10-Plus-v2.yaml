@@ -4,11 +4,10 @@ model: ProLiant DL325 Gen10 Plus v2
 slug: hpe-proliant-dl325-gen10-plus-v2
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
 console-ports:
   - name: Serial
     type: de-9
-  - name: VGA
-    type: other
 module-bays:
   - name: PSU1
     position: PSU1

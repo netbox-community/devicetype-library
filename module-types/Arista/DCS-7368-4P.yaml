@@ -1,0 +1,15 @@
+---
+manufacturer: Arista
+model: DCS-7368-4P
+part_number: DCS-7368-4P
+comments: '[Arista 7368 Series Overview](https://www.arista.com/en/qsg-7368x-series/7368x-series-overview)'
+interfaces:
+# QSFPDD(400G) ports can be broke into 4x100 with a model of [1-16]/[1-4]
+  - name: Ethernet{module}/1/1
+    type: 400gbase-x-osfp
+  - name: Ethernet{module}/2/1
+    type: 400gbase-x-osfp
+  - name: Ethernet{module}/3/1
+    type: 400gbase-x-osfp
+  - name: Ethernet{module}/4/1
+    type: 400gbase-x-osfp

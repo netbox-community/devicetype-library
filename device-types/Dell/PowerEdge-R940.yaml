@@ -181,20 +181,8 @@ for NETBOX '
 console-ports:
   - name: Optional Rear Serial
     type: de-9
-  - name: Front VGA
+  - name: VGA
     type: other
-  - name: Rear VGA
-    type: other
-  - name: Internal USB1
-    type: usb-a
-  - name: Front USB1
-    type: usb-a
-  - name: Front Dedicated iDRAC direct USB
-    type: usb-micro-ab
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
 power-ports:
   - name: PSU1
     position: 1

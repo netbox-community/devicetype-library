@@ -1,0 +1,28 @@
+---
+manufacturer: HPE
+model: Aruba AP-303
+slug: hpe-aruba-ap-303
+part_number: AP-303
+u_height: 0
+is_full_depth: false
+weight: 260
+weight_unit: g
+front_image: true
+rear_image: true
+airflow: passive
+comments: '[Aruba 303 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP303Series.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: E0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: WiFi
+    type: ieee802.11ac
+  - name: Bluetooth
+    type: ieee802.15.1

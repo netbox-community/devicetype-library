@@ -43,6 +43,7 @@ comments: '## [Dell R720xd Data Sheet]
 <https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell-poweredge-r720xd-spec-sheet.pdf>  
 
 
+
 for NETBOX '
 console-ports:
   - name: Front USB1
@@ -55,7 +56,9 @@ console-ports:
     type: usb-a
   - name: Serial/Console
     type: de-9
-  - name: VGA
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
     type: other
 power-ports:
   - name: PSU0

@@ -10,7 +10,6 @@ weight: 39.0
 weight_unit: lb
 comments: '## [Dell PowerEdge R640 4x3.5" LFF/Dell 14th Gen] 
 
-
 ###### Feature 	    		    	: PowerEdge R640 technical specification
 
 ###### Form factor   		      : 1U rack
@@ -87,20 +86,10 @@ comments: '## [Dell PowerEdge R640 4x3.5" LFF/Dell 14th Gen]
 console-ports:
   - name: Serial
     type: de-9
-  - name: USB Port/Optional
-    type: usb-a
-  - name: Front VGA/Optional
+  - name: Front VGA
     type: other
   - name: Rear VGA
     type: other
-  - name: Front USB1
-    type: usb-a
-  - name: Front iDRAC Direct micro port
-    type: usb-micro-ab
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
 power-ports:
   - name: PSU0
     type: iec-60320-c14

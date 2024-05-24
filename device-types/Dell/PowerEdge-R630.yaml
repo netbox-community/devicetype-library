@@ -7,7 +7,6 @@ is_full_depth: true
 subdevice_role: parent
 comments: '## [Dell PowerEdge R630/Dell 13th Gen]  
 
-
 ###### Feature 	    		  	: PowerEdge R630 technical specification
 
 ###### Form factor 			   : 1U rack
@@ -69,21 +68,6 @@ console-ports:
     type: de-9
   - name: VGA
     type: other
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 750
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 750
 interfaces:
   - name: OB-E-1
     type: 1000base-t

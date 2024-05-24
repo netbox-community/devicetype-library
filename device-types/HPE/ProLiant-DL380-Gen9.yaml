@@ -5,34 +5,20 @@ slug: hpe-dl380p-g8
 part_number: 670524-001
 u_height: 2
 is_full_depth: true
-subdevice_role: parent
-airflow: front-to-rear
-comments: '# [HPE ProLiant DL380 Gen9 Server] 
-
-<https://www.hpe.com/psnow/doc/c04346247>  '
-
 console-ports:
   - name: Front iLO Front Service Port
     type: usb-a
   - name: Rear Serial
     type: de-9
-  - name: Rear VGA
+  - name: VGA
     type: other
-  - name: Front VGA
-    type: other
-  - name: Front USB1
-    type: usb-a
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
 power-ports:
-  - name: PSU-1
+  - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 700
-  - name: PSU-2
+    maximum_draw: 1400
+  - name: PSU2
     type: iec-60320-c14
-    maximum_draw: 700
+    maximum_draw: 1400
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

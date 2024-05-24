@@ -2,9 +2,10 @@
 manufacturer: Cisco
 model: NXA-PAC-350W-PI
 part_number: NXA-PAC-350W-PI
-comments: Nexus AC 350W PSU - Port Side Intake / [Cisco Nexus 9300-FX Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742284.html)
 weight: 1.27
 weight_unit: kg
+subdevice_role: child
+comments: Nexus AC 350W PSU - Port Side Intake / [Cisco Nexus 9300-FX Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742284.html)
 power-ports:
   - name: PS-{module}
     type: iec-60320-c14

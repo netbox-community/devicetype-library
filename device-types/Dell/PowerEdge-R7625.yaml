@@ -302,25 +302,6 @@ console-ports:
     type: other
   - name: Rear VGA
     type: other
-  - name: Internal USB1
-    type: usb-a
-  - name: Front USB1
-    type: usb-a
-  - name: Front Dedicated iDRAC direct USB
-    type: usb-micro-ab
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
-power-ports:
-  - name: PSU1
-    position: 'Left'
-    type: iec-60320-c14
-    maximum_draw: 800
-  - name: PSU2
-    position: 'Right'
-    type: iec-60320-c14
-    maximum_draw: 800
 interfaces:
   - name: LOM-1
     type: 1000base-t

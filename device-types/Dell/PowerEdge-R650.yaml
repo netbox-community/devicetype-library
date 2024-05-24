@@ -10,7 +10,6 @@ weight: 39.0
 weight_unit: lb
 comments: '## [Dell PowerEdge R650] 
 
-
 ##### Feature 	    		 : PowerEdge R650 technical specification
 
 ###### Form factor   		 : 1U rack
@@ -105,16 +104,6 @@ console-ports:
     type: other
   - name: Rear VGA
     type: other
-  - name: Internal USB1
-    type: usb-a
-  - name: Front USB1
-    type: usb-a
-  - name: Front Dedicated iDRAC direct USB
-    type: usb-micro-ab
-  - name: Rear USB1
-    type: usb-a
-  - name: Rear USB2
-    type: usb-a
 power-ports:
   - name: Power 1
     type: iec-60320-c14
@@ -127,7 +116,7 @@ interfaces:
     type: 1000base-t
   - name: LOM-E-2
     type: 1000base-t
-  - name: iDRAC9
+  - name: iDRAC12
     type: 1000base-t
     mgmt_only: true
 module-bays:
