@@ -7,7 +7,27 @@ u_height: 2.0
 is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
-comments: '[Cisco ASR 9901 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744663.html)'
+comments: '[Cisco ASR 9902 Router Data Sheet]
+
+####### 2 ports that support QSFP-DD-based 100GE pluggables
+
+####### 6 ports that support QSFP28-based 100GE pluggables
+
+####### 16 ports that support SFP28-based 25GE/10GE dual-rate pluggables
+
+####### 24 ports that support SFP+- based LAN/WAN (OTN) pluggables
+
+<https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/9001-hig/b-asr9001-hardware-installation-guide/b-asr9001-hardware-installation-guide_chapter_011.html>
+
+
+(https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-744663.html)'
+power-ports:
+  - name: PS0
+    type: iec-60320-c20
+    maximum_draw: 1600
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 1600
 module-bays:
   - name: RP0
     position: 0/RP0

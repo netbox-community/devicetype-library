@@ -1,12 +1,44 @@
 ---
 manufacturer: Cisco
-model: ASR-9910
-slug: cisco-asr-9910
-part_number: ASR-9910
+model: ASR-9010-AC
+slug: cisco-asr-9010-ac
+part_number: ASR-9010-AC
 u_height: 21
 is_full_depth: true
 subdevice_role: parent
 comments: '[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet]
+
+######  Model               : ASR-9010-AC
+
+######  Description         : Cisco ASR 9010 Chassis, ASR-9010-AC, ASR-9010 AC Chassis
+
+######  Slots               : 8 Line Cards, 2 RSPs
+
+######  Rack Size           : 21 RU
+
+######  Bandwidth Per Slot  : 880 Gbps
+
+######  Max Capacity        : 14 Tbps
+
+######  Size (H x W x D)    : 36.75 in. x 17.5 in x 28.65 in
+
+######  Power : AC          : 6 kW or 3 kW power modules
+
+######         DC           : 4.4 kW or 2.1 kW or 1.5 kW power modules
+
+######  Note: Mixing of AC and DC modules is not supported
+
+######  Fan                 : 2 fan trays
+
+######  Airflow             : Front to Back
+
+######  RSP / RP            : 2 (1+1 RSP redundancy)
+
+######  Fabric Architecture : 1+1 fabric redundancy
+
+######  Software            : IOS XR
+
+
 
 (https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501767.html)'
 power-ports:
@@ -29,21 +61,6 @@ power-ports:
     type: iec-60320-c22
     maximum_draw: 6000
   - name: PS6
-    type: iec-60320-c22
-    maximum_draw: 6000
-  - name: PS7
-    type: iec-60320-c22
-    maximum_draw: 6000
-  - name: PS8
-    type: iec-60320-c22
-    maximum_draw: 6000
-  - name: PS9
-    type: iec-60320-c22
-    maximum_draw: 6000
-  - name: PS10
-    type: iec-60320-c22
-    maximum_draw: 6000
-  - name: PS11
     type: iec-60320-c22
     maximum_draw: 6000
 module-bays:

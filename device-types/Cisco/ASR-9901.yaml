@@ -6,36 +6,42 @@ part_number: ASR-9901
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-<<<<<<< HEAD
 comments: '####  [Cisco ASR 9901 Router Data Sheet]
 
+<https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-740540.html>
+
+<https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/9001-hig/b-asr9001-hardware-installation-guide/b-asr9001-hardware-installation-guide_chapter_011.html>
 
 (https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-740540.html)'
-=======
-weight: 25.4
-weight_unit: kg
-comments: '[Cisco ASR 9901 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-740540.html)'
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 console-ports:
   - name: con 0
     type: rj-45
-module-bays:
-  - name: 0/PT0-PM0
-    position: 0/PT0-PM0
-    description: Power module
-  - name: 0/PT0-PM1
-    position: 0/PT0-PM1
-    description: Power module
-  - name: 0/FT0
-    position: 0/FT0
-    description: Fan Tray
-  - name: 0/FT1
-    position: 0/FT1
-    description: Fan Tray
-  - name: 0/FT2
-    position: 0/FT2
-    description: Fan Tray
+power-ports:
+  - name: PS0
+    type: iec-60320-c20
+    maximum_draw: 1600
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 1600
 interfaces:
+  - name: mgt-lan0
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgt-lan2
+    type: 1000base-t
+    mgmt_only: true    
+  - name: Service-LAN
+    type: 1000base-t
+  - name: ToD
+    type: 1000base-t
+  - name: BITS
+    type: 1000base-t
+  - name: J.211
+    type: 1000base-t
+  - name: CLUSTER ports-1
+    type: 1000base-x-sfp
+  - name: CLUSTER ports-2
+    type: 1000base-x-sfp
   - name: MgmtEth0/RSP0/CPU0/0
     type: 1000base-t
   - name: GigabitEthernet0/0/0/1
@@ -120,3 +126,19 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigE0/0/0/33
     type: 10gbase-x-sfpp
+module-bays:
+  - name: 0/PT0-PM0
+    position: 0/PT0-PM0
+    description: Power module
+  - name: 0/PT0-PM1
+    position: 0/PT0-PM1
+    description: Power module
+  - name: 0/FT0
+    position: 0/FT0
+    description: Fan Tray
+  - name: 0/FT1
+    position: 0/FT1
+    description: Fan Tray
+  - name: 0/FT2
+    position: 0/FT2
+    description: Fan Tray
