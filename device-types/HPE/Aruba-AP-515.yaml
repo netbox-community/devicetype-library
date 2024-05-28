@@ -1,0 +1,32 @@
+---
+manufacturer: HPE
+model: Aruba AP-515
+slug: hpe-aruba-ap-515
+part_number: AP-515
+u_height: 0
+is_full_depth: false
+weight: 810
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
+comments: '[Aruba 510 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP510Series.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: E0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: E1
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ax
+  - name: Bluetooth
+    type: ieee802.15.1
