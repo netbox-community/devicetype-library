@@ -29,9 +29,9 @@ module-bays:
     label: primary riser
 interfaces:
   - name: Gig-E 1
-    type: SFP28 (25GE)
+    type: 25gbase-x-sfp28
   - name: Gig-E 2
-    type: SFP28 (25GE)
+    type: 25gbase-x-sfp28
   - name: iLO
     type: 1000base-t
     mgmt_only: true
