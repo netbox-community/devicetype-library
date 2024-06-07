@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: N9K-M4PC-CFP2
+part_number: N9K-M4PC-CFP2
+description: Uplink Module for Nexus 9300, 4p 100G
+comments: provides up to 4 ports for 100 Gigabit Ethernet connectivity [Cisco Nexus 9300 Platform Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-736967.html)
+weight: 1.2
+weight_unit: kg
+interfaces:
+  - name: Ethernet{module}/1
+    type: 100gbase-x-cfp2
+  - name: Ethernet{module}/2
+    type: 100gbase-x-cfp2
+  - name: Ethernet{module}/3
+    type: 100gbase-x-cfp2
+  - name: Ethernet{module}/4
+    type: 100gbase-x-cfp2
