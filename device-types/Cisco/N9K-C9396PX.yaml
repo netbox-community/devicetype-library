@@ -4,6 +4,8 @@ model: Nexus 9396PX
 slug: cisco-n9k-c9396px
 part_number: N9K-C9396PX
 description: Nexus 9300 with 48p 1/10G SFP+ and Expansion Module
+front_image: true
+rear_image: true
 u_height: 2
 weight: 10.2
 weight_unit: kg
@@ -11,9 +13,9 @@ is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
-  - name: usb0
-    type: usb-a
   - name: usb1
+    type: usb-a
+  - name: usb2
     type: usb-a
 interfaces:
   - name: mgmt0

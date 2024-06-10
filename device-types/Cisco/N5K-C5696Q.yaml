@@ -3,14 +3,22 @@ manufacturer: Cisco
 model: Nexus 5696Q
 slug: cisco-n5k-c5696q
 part_number: N5K-C5696Q
+front_image: true
+rear_image: true
 u_height: 4
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
 interfaces:
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
-console-ports:
-  - name: Console
-    type: rj-45
+  - name: L1
+    type: 1000base-t
+  - name: L2
+    type: 1000base-t
 module-bays:
   - name: Slot 1
     position: '1'
