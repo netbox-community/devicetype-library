@@ -3,11 +3,15 @@ manufacturer: Cisco
 model: Nexus 93240YC-FX2
 part_number: N9K-C93240YC-FX2
 slug: cisco-n9k-c93240yc-fx2
+front_image: true
+rear_image: true
 u_height: 2
 is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
+  - name: usb1
+    type: usb-a
 interfaces:
   - name: Ethernet1/1
     type: 25gbase-x-sfp28

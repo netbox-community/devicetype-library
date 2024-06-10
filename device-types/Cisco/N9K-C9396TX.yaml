@@ -11,9 +11,9 @@ is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
-  - name: usb0
-    type: usb-a
   - name: usb1
+    type: usb-a
+  - name: usb2
     type: usb-a
 interfaces:
   - name: mgmt0

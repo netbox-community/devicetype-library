@@ -4,6 +4,8 @@ model: Nexus 93128TX
 slug: cisco-n9k-c93128tx
 part_number: N9K-C93128TX
 description: Nexus 9300 with 96p 100M/1/10G-T and Expansion Module
+front_image: true
+rear_image: true
 u_height: 3
 weight: 14.8
 weight_unit: kg
@@ -11,9 +13,9 @@ is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
-  - name: usb0
-    type: usb-a
   - name: usb1
+    type: usb-a
+  - name: usb2
     type: usb-a
 interfaces:
   - name: mgmt0
