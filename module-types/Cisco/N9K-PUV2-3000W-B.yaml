@@ -9,6 +9,8 @@ weight: 4.5
 weight_unit: kg
 power-ports:
   - name: PSU{module}-1
+    type: iec-60320-c14
     maximum_draw: 3150
   - name: PSU{module}-2
+    type: iec-60320-c14
     maximum_draw: 3150
