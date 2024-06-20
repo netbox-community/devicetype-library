@@ -1,0 +1,91 @@
+---
+manufacturer: FS
+model: S5850-24S2Q-PE
+slug: fs-s5850-24s2q-pe
+part_number: s5850-24s2q-pe
+u_height: 1
+is_full_depth: true
+airflow: rear-to-front
+comments: |
+  [FS S5850-24S2Q Datasheet](https://www.fs.com/de/products_support/preview.html?categories_id=3256,3257,3258,4245,1071,4248,4237,4333&files_id=4488&model_name&is_datasheet=1)
+weight: 5.9
+weight_unit: kg
+console-ports:
+  - name: Management
+    type: rj-45
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: FAN1
+    label: FAN1
+    position: '1'
+  - name: FAN2
+    label: FAN2
+    position: '2'
+  - name: FAN3
+    label: FAN3
+    position: '3'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 59
+  - name: Slot 2
+    type: iec-60320-c14
+    maximum_draw: 59
+interfaces:
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/13
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/14
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/15
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/16
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/17
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/18
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/19
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/20
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/21
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/22
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/23
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/24
+    type: 10gbase-x-sfpp
+  - name: FortyGigabitEthernet1/0/25
+    type: 40gbase-x-qsfpp
+  - name: FortyGigabitEthernet1/0/26
+    type: 40gbase-x-qsfpp
