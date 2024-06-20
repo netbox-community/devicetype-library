@@ -1,0 +1,25 @@
+---
+manufacturer: HPE
+model: StoreServ 8000 SFF Encl
+slug: hpe-storeserv-8000-sff-encl
+part_number: H6Z26A
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 15.2
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04607918)'
+subdevice_role: parent
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 764
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 764
+module-bays:
+  - name: node0
+    position: '0'
+  - name: node1
+    position: '1'
