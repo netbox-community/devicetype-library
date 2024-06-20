@@ -1,0 +1,196 @@
+---
+manufacturer: Netgear
+model: M4300-28G-PoE+
+slug: netgear-m4300-28g-poep
+part_number: GSM4328PA
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 5.65
+weight_unit: kg
+console-ports:
+  - name: Front USB Console
+    type: usb-mini-b
+    description: Serial over USB
+  - name: Rear RJ-45 Console
+    type: rj-45
+    description: Serial over RJ-45
+interfaces:
+  - name: 1/0/1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/4
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/5
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/6
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/7
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/8
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/9
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/10
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/11
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/12
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/13
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/14
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/15
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/16
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/17
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/18
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/19
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/20
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/21
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/22
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/23
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/24
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 1/0/25
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    description: 10GBE / Stacking Ports
+  - name: 1/0/26
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    description: 10GBE / Stacking Ports
+  - name: 1/0/27
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: 1/0/
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: ServicePort
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: ServicePort
+    description: Ethernet Management Service Port
+  - name: vlan 1
+    type: virtual
+    enabled: true
+    mgmt_only: false
+module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
