@@ -1,0 +1,36 @@
+---
+manufacturer: IBM
+model: System x3550 Type 7978
+slug: ibm-system-x3550-type-7978
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+part_number: 39Y9522
+comments: '[Overview - IBM System x3550 (Type 7978)](https://www.ibm.com/support/pages/overview-ibm-system-x3550-type-7978)'
+#minumum weight - one hard drive, power supply and processor instaleld
+weight: 15.6
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: RSA
+    type: 1000base-t
+    mgmt_only: true

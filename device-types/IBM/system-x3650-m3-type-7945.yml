@@ -1,0 +1,48 @@
+---
+manufacturer: IBM
+model: System x3650 M3 Type 7945
+slug: ibm-system-x3650-m3-type-7945
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+part_number: 81Y6842
+comments: '[IBM System x3650 M3](https://lenovopress.lenovo.com/tips0805-system-x3650-m3)'
+#minumum weight - one hard drive, power supply and processor instaleld
+weight: 21.09
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 4
+    type: 1000base-t
+    mgmt_only: false
+  - name: RSA
+    type: 1000base-t
+    mgmt_only: true
