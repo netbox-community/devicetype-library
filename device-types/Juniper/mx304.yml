@@ -1,0 +1,27 @@
+---
+manufacturer: Juniper
+model: MX304
+slug: juniper-mx304
+part_number: MX304
+u_height: 2
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Juniper MX304 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/routers/mx304-universal-routing-platform-datasheet.pdf)'
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: RE0
+    position: '0'
+  - name: RE1
+    position: '1'
+  - name: LMIC0
+    position: '2'
+  - name: LMIC1
+    position: '3'
+power-ports:
+  - name: PEM0
+    type: iec-60320-c20
+  - name: PEM1
+    type: iec-60320-c20

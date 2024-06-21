@@ -1,0 +1,12 @@
+---
+manufacturer: Juniper
+model: JNP304-RE
+part_number: JNP304-RE
+console-ports:
+  - name: '{module}'
+    type: rj-45
+interfaces:
+  - name: '{module}-fxp0'
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
