@@ -1,0 +1,129 @@
+---
+manufacturer: Server Technology
+model: C2WG24SN-4PJN5D (Primary)
+slug: server-technology-c2wg24sn-4pjn5d
+part_number: C2WG24SN-4PJN5D
+u_height: 2
+is_full_depth: true
+airflow: passive
+comments: PRO2 Switched, Per-Outlet Power Sensing, Primary, 32A, 230V/400V, (18) C13 & (6) Cx/C19/C13
+console-ports:
+  - name: ser
+    label: SER
+    type: rj-45
+  - name: th1
+    label: T/H1
+    type: rj-11
+  - name: th2
+    label: T/H2
+    type: rj-11
+console-server-ports:
+  - name: link
+    label: LINK
+    type: rj-12
+    poe: true
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-3p-n-e-6h
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 5
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 9
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 12
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 13
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 16
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 17
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 18
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 19
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 20
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 21
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 22
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 23
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 24
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+interfaces:
+  - name: net
+    label: NET
+    type: 1000base-t
+    mgmt_only: true
