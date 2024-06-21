@@ -2,7 +2,9 @@
 manufacturer: Cisco
 model: N5696-M12Q
 part_number: N5696-M12Q
-comments: '[Cisco Nexus 5600 Platform 40-Gbps Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-5624q-switch/datasheet-c78-733100.html)'
+description: 12-Port 40-Gbps Line-Card Expansion Module
+comments: provides 12 ports of 40 Gigabit Ethernet and FCoE ports using a QSFP interface, or 48 ports of 10 Gbps using breakout cables [Cisco Nexus 5600
+  Platform 40-Gbps Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-5624q-switch/datasheet-c78-733100.html)
 interfaces:
   - name: Ethernet{module}/1
     type: 40gbase-x-qsfpp
