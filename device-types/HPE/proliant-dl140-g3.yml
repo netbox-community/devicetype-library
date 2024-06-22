@@ -1,0 +1,36 @@
+---
+manufacturer: HPE
+model: ProLiant DL140 G3
+slug: hpe-proliant-dl140-g3
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+part_number: 409023-B21
+comments: '[HPE ProLiant DL140 G3 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04282505)'
+#minumum weight - one hard drive, power supply and processor installed
+weight: 15.87
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 650
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: LO100i
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,38 @@
+---
+manufacturer: HPE
+model: ProLiant DL180 G6
+slug: hpe-proliant-dl180-g6
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+part_number: 594911-B21
+comments: '[HPE ProLiant DL180 G6 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04284378.pdf?jumpid=in_lit-psnow-getpdf)'
+#minumum weight - one hard drive, power supply and processor installed
+weight: 11.94
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: VGA
+    type: other
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: LO100i
+    type: 1000base-t
+    mgmt_only: true
