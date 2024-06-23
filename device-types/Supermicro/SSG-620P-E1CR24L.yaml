@@ -24,9 +24,6 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PCI-E A1
-    position: 'A1'
-    description: Supermicro® Advanced I/O Module
   - name: PCI-E 1
     position: '1'
     description: Occupied by 3808 SAS controller
@@ -34,3 +31,6 @@ module-bays:
     position: '2'
   - name: PCI-E 3
     position: '3'
+  - name: PCI-E A1
+    position: '4'
+    description: Supermicro® Advanced I/O Module
