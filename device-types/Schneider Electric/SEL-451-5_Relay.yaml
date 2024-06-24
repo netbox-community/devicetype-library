@@ -12,7 +12,8 @@ console-ports:
 
 interfaces:
   -name: EIA-232-2
-   type: Serial #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
+   type: Serial 
+   #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
   -name: EIA-232-3
    type: Serial
   -name: EIA-232-4
