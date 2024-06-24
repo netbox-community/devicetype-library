@@ -4,7 +4,7 @@ model: SEL-2241 Real-Time Auotmation Controller
 description: Each SEL Axion system requires an RTAC module to serve as the system CPU. The SEL-2241 RTAC has all of the communications and custom logic
   capabilities of the standalone RTAC modules, but is mounted in and receives power from the Axion backplane.
 
-console ports: 
+console ports:
   - name: USB-B
     type: USB-B
 
@@ -29,4 +29,3 @@ interfaces:
     type: Female BNC
   - name: IRIG-B OUTput
     type: Female BNC
-    
