@@ -8,24 +8,24 @@ is_powered: true
 comments: SEL Time-Domain Link (TiDL) technology is a protectioncentered digital secondary system solution engineered with simplicity in mind. This technology minimizes cybersecurity risks and network engineering by using point-to-point communications and a nonroutable protocol.
 
 console-ports:
-  -name: EIA-232-1
-   type: Serial #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
+  - name: EIA-232-1
+    type: Serial #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
 
 interfaces:
-  -name: EIA-232-2
-   type: Serial
-  -name: EIA-232-3
-   type: Serial
-  -name: EIA-232-4
-   type: Serial
+  - name: EIA-232-2
+    type: Serial
+  - name: EIA-232-3
+    type: Serial
+  - name: EIA-232-4
+    type: Serial
   #Utilized cisco formatting for the Eternet numbering below:
-  -name: Ethernet0/0
-   type: 100/1000BASE SFP
-  -name: Ethernet0/1
-   type: 100/1000BASE SFP
-  -name: Ethernet1/0
-   type: 100BASE SFP
-  -name: Ethernet1/1
-   type: 100BASE SFP
-  -name: Ethernet1/2
-   type: 100BASE SFP
+  - name: Ethernet0/0
+    type: 100/1000BASE SFP
+  - name: Ethernet0/1
+    type: 100/1000BASE SFP
+  - name: Ethernet1/0
+    type: 100BASE SFP
+  - name: Ethernet1/1
+    type: 100BASE SFP
+  - name: Ethernet1/2
+    type: 100BASE SFP

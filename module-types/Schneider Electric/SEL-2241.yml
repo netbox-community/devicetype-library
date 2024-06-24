@@ -4,13 +4,7 @@ model: SEL-2241 Real-Time Auotmation Controller
 description: Each SEL Axion system requires an RTAC module to serve as the system CPU. The SEL-2241 RTAC has all of the
 communications and custom logic capabilities of the standalone RTAC modules, but is mounted in and receives power from the Axion backplane.
 
-comments: DNP3 Serial, DNP3 LAN/WAN, Modbus
-RTU, Modbus TCP, SEL ASCII, SEL
-Fast Messaging, LG 8979, IEEE C37.118,
-IEC 61850 MMS, CP2179, IEC 60870-5-
-101/104, SNMP, SES-92, CDC Type II,
-Courier, IEC 60870-5-103, EtherNet/IP
-Explicit Message Client
+comments: DNP3 Serial, DNP3 LAN/WAN, Modbus RTU, Modbus TCP, SEL ASCII, SEL Fast Messaging, LG 8979, IEEE C37.118, IEC 61850 MMS, CP2179, IEC 60870-5- 101/104, SNMP, SES-92, CDC Type II, Courier, IEC 60870-5-103, EtherNet/IP Explicit Message Client
 
 interfaces:
   - name: EIA-232-1 (Nonisolated)
