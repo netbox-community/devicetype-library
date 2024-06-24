@@ -7,7 +7,7 @@ is_full_depth: false
 is_powered: true
 comments: Advanced feeder protection and complete substation bay control in one economical system \ Communications Protocols; FTP, HTTP, TelNet, SEL ASCII,
   SEL Fast Message, Synchrophasors, DNP3, PRP, PTPv2, IEC 61850 v2 (optional)
-#Do we want to make use of the "description"
+
 console-ports:
   - name: EIA-232-1
     type: de-9
@@ -23,3 +23,8 @@ interfaces:
     type: 100base-fx
   - name: Ethernet0/1
     type: 100base-fx
+
+power-ports:
+  - name: power
+    type: hardwired
+    description: 24–48 Vdc; 48–125 Vdc or 110–120 Vac; or 125–250 Vdc or 110–240 Vac.
