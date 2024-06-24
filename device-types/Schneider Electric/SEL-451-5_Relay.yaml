@@ -10,11 +10,10 @@ comments: Advanced feeder protection and complete substation bay control in one 
 #Do we want to make use of the "description"
 console-ports:
   - name: EIA-232-1
-
+    type: de-9
 interfaces:
   - name: EIA-232-2
     type: Serial
-   #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
   - name: EIA-232-3
     type: Serial
   - name: EIA-232-4
