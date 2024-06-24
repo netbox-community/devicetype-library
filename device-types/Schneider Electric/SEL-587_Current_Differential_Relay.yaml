@@ -14,9 +14,9 @@ power-ports:
   - name: Power
     type: dc-terminal
     maximum_draw: 6
-interfaces:
+console-server-ports:
   # Serial Ports
   - name: Port F
     label: Communications with Modbus RTU-Slave, ASCII terminals, local HMI, SCADA, or DCS systems
     type: de-9
-    spee: 38400
+    speed: 38400

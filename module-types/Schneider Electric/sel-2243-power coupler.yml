@@ -6,9 +6,9 @@ description: Every SEL Axion node requires at least one SEL-2243 Power Coupler m
 
 interfaces:
   - name: Eth01
-    type: 10/100BASE-T
+    type: 100base-tx
   - name: Eth02
-    type: 10/100BASE-T
+    type: 100base-tx
 
 power-ports:
   - name: dc power terminal
