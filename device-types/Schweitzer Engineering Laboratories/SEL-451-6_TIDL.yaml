@@ -1,7 +1,7 @@
 ---
 manufacturer: Schweitzer Engineering Laboratories
 model: SEL-451-6 TiDL
-slug: sel-351a-5-tidl
+slug: schweitzer-engineering-laboratories-351a-5-tidl
 u_height: 4
 is_full_depth: false
 is_powered: true
@@ -26,11 +26,11 @@ interfaces:
   - name: Ethernet0/1
     type: 1000base-x-sfp
   - name: Ethernet1/0
-    type: 100BASE SFP
+    type: 100base-fx
   - name: Ethernet1/1
-    type: 100BASE SFP
+    type: 100base-fx
   - name: Ethernet1/2
-    type: 100BASE SFP
+    type: 100base-fx
   #TiDL Interfaces - TiDL uses a point-to-point architecture, implementation is simple and requires zero network engineering.
   - name: TiDL0/0
     type: Fiber
