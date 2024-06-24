@@ -9,7 +9,8 @@ comments: SEL Time-Domain Link (TiDL) technology is a protectioncentered digital
 
 console-ports:
   - name: EIA-232-1
-    type: Serial #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
+    type: Serial
+  #must be the type of serial, e.g. DE-9 under console ports, or listed as other if an interface
 
 interfaces:
   - name: EIA-232-2
