@@ -1,0 +1,21 @@
+---
+manufacturer: Ubiquiti
+model: U6+
+part_number: U6+
+slug: ubiquiti-u6-plus
+u_height: 0
+is_full_depth: false
+comments: |
+  [UniFi 6+ Access Point](https://store.ui.com/us/en/products/u6-plus)
+airflow: passive
+weight: 338.0
+weight_unit: g
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: wlan0
+    type: ieee802.11ax
+  - name: wlan1
+    type: ieee802.11ax

@@ -1,0 +1,31 @@
+---
+manufacturer: Avocent
+model: ACS 5004 Single-AC
+slug: avocent-acs5004-001
+part_number: ACS5004-001
+comments: '[Avocent ACS 5000 Data Sheet](https://www.vertiv.com/4935cd/globalassets/shared/avocent-acs-5000-advanced-console-server-data-sheet.pdf)'
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 3.5
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    allocated_draw: 18
+    maximum_draw: 36
+interfaces:
+  - name: eth0
+    type: 100base-tx

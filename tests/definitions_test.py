@@ -1,4 +1,4 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, verify_filename, validate_components
@@ -7,11 +7,12 @@ import glob
 import json
 import os
 import tempfile
+import psutil
 from urllib.request import urlopen
-
 import pytest
 import yaml
-from jsonschema import Draft4Validator, RefResolver
+from referencing import Registry, Resource
+from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
 from git import Repo
 
@@ -31,9 +32,23 @@ def _get_definition_files():
 
         # Map each definition file to its schema as a tuple (file, schema)
         for file in sorted(glob.glob(f"{path}/*/*", recursive=True)):
-            file_list.append((file, schema))
+            file_list.append((file, schema, 'skip'))
 
     return file_list
+
+def _generate_schema_registry():
+    """
+    Return a list of all definition files within the specified path.
+    """
+    registry = Registry()
+
+    for schema_f in os.listdir(SCHEMAS_BASEPATH):
+        # Initialize the schema
+        with open(f"schema/{schema_f}") as schema_file:
+            resource = Resource.from_contents(json.loads(schema_file.read(), parse_float=decimal.Decimal))
+            registry = resource @ registry
+
+    return registry
 
 def _get_diff_from_upstream():
     file_list = []
@@ -47,6 +62,7 @@ def _get_diff_from_upstream():
     upstream = repo.remotes.upstream
     upstream.fetch()
     changes = upstream.refs.master.commit.diff(repo.head)
+    changes = changes + repo.index.diff("HEAD")
 
     for path, schema in SCHEMAS:
         # Initialize the schema
@@ -65,11 +81,11 @@ def _get_diff_from_upstream():
             if file.change_type in CHANGE_TYPE_LIST:
                 # If the file is renamed, ensure we are picking the right schema
                 if 'R' in file.change_type and path in file.rename_to:
-                    file_list.append((file.rename_to, schema))
+                    file_list.append((file.rename_to, schema, file.change_type))
                 elif path in file.a_path:
-                    file_list.append((file.a_path, schema))
+                    file_list.append((file.a_path, schema, file.change_type))
                 elif path in file.b_path:
-                    file_list.append((file.b_path, schema))
+                    file_list.append((file.b_path, schema, file.change_type))
 
     return file_list
 
@@ -105,7 +121,11 @@ def test_environment():
     if definition_files:
         pytest.skip("No changes to definition files found.")
 
-if USE_UPSTREAM_DIFF:
+EVALUATE_ALL = False
+if any(x in PRECOMMIT_ALL_SWITCHES for x in psutil.Process(os.getppid()).cmdline()):
+    EVALUATE_ALL = True
+
+if USE_UPSTREAM_DIFF and not EVALUATE_ALL:
     definition_files = _get_diff_from_upstream()
 else:
     definition_files = _get_definition_files()
@@ -120,8 +140,10 @@ else:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
 
-@pytest.mark.parametrize(('file_path', 'schema'), definition_files)
-def test_definitions(file_path, schema):
+SCHEMA_REGISTRY = _generate_schema_registry()
+
+@pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
+def test_definitions(file_path, schema, change_type):
     """
     Validate each definition file using the provided JSON schema and check for duplicate entries.
     """
@@ -140,13 +162,9 @@ def test_definitions(file_path, schema):
 
     # Validate YAML definition against the supplied schema
     try:
-        resolver = RefResolver(
-            f"file://{os.getcwd()}/schema/devicetype.json",
-            schema,
-            handlers={"file": _decimal_file_handler},
-        )
         # Validate definition against schema
-        Draft4Validator(schema, resolver=resolver).validate(definition)
+        validator = Draft202012Validator(schema, registry=SCHEMA_REGISTRY)
+        validator.validate(definition)
     except ValidationError as e:
         # Schema validation failure. Ensure you are following the proper format.
         pytest.fail(f"{file_path} failed validation: {e}", False)
@@ -154,10 +172,10 @@ def test_definitions(file_path, schema):
     # Identify if the definition is for a Device or Module
     if "device-types" in file_path:
         # A device
-        this_device = DeviceType(definition, file_path)
+        this_device = DeviceType(definition, file_path, change_type)
     else:
         # A module
-        this_device = ModuleType(definition, file_path)
+        this_device = ModuleType(definition, file_path, change_type)
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
@@ -190,6 +208,7 @@ def test_definitions(file_path, schema):
     # Check for valid power definitions
     if this_device.isDevice:
         assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.ensure_no_vga(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):

@@ -3,11 +3,17 @@ manufacturer: Cisco
 model: Nexus 9364C
 part_number: N9K-C9364C
 slug: cisco-n9k-c9364c
+front_image: true
+rear_image: true
 u_height: 2
 is_full_depth: true
+weight: 16.74
+weight_unit: kg
 console-ports:
   - name: console
     type: rj-45
+  - name: usb1
+    type: usb-a
 interfaces:
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
@@ -146,6 +152,14 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PS1
+    label: Power Supply 1
     position: '1'
   - name: PS2
+    label: Power Supply 2
     position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'

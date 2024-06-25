@@ -1,0 +1,157 @@
+---
+manufacturer: Arista
+model: DCS-7060CX-64-F
+slug: arista-dcs-7060cx-64-f
+part_number: DCS-7060CX-64-F
+u_height: 2
+weight: 44.1
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista 7060X and 7260X Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X_7260X_DS.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '0'
+  - name: PS2
+    position: '1'
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+# QSFP28(100G) ports can be broken into 4x25 with a model of [1-64]/[1-4]
+# QSFP+(40G) ports can be broken into 4x10 with a model of [1-64]/[1-4]
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet34/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet35/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet36/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet37/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet38/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet39/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet40/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet41/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet42/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet43/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet44/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet45/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet46/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet47/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet48/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet49/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet50/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet51/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet52/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet53/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet57/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet58/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet59/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet60/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet61/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet62/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet63/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet64/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet65
+    type: 10gbase-x-sfpp
+  - name: Ethernet66
+    type: 10gbase-x-sfpp

@@ -3,11 +3,17 @@ manufacturer: Cisco
 model: Nexus 9336C-FX2
 part_number: N9K-C9336C-FX2
 slug: cisco-n9k-c9336c-fx2
+front_image: true
+rear_image: true
 u_height: 1
 is_full_depth: true
+weight: 8.5
+weight_unit: kg
 console-ports:
   - name: console
     type: rj-45
+  - name: usb1
+    type: usb-a
 interfaces:
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
@@ -86,6 +92,14 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PS1
+    label: Power Supply 1
     position: '1'
   - name: PS2
+    label: Power Supply 2
     position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'

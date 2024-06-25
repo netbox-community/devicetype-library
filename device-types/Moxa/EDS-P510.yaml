@@ -1,0 +1,59 @@
+---
+manufacturer: Moxa
+model: EDS-P510
+slug: moxa-eds-p510
+part_number: EDS-P510
+u_height: 0.5
+is_full_depth: false
+front_image: true
+weight: 1170
+weight_unit: g
+comments: '[EDS-P510 Specs](https://cdn-cms.azureedge.net/getmedia/ecca16dc-4fee-49af-9c60-5547c513c206/moxa-eds-p510-series-datasheet-v1.6.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 31
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 31
+interfaces:
+  - name: eth1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth2
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth3
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth4
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth5
+    type: 100base-tx
+  - name: eth6
+    type: 100base-tx
+  - name: eth7
+    type: 100base-tx
+  - name: G1-sfp
+    type: 1000base-x-sfp
+    comment: combo port with G1-rj45
+  - name: G1-rj45
+    type: 1000base-t
+    comment: combo port with G1-sfp
+  - name: G2-sfp
+    type: 1000base-x-sfp
+    comment: combo port with G2-rj45
+  - name: G2-rj45
+    type: 1000base-t
+    comment: combo port with G2-sfp
+  - name: G3-sfp
+    type: 1000base-x-sfp
+    comment: combo port with G3-rj45
+  - name: G3-rj45
+    type: 1000base-t
+    comment: combo port with G3-sfp

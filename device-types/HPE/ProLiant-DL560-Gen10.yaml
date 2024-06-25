@@ -7,13 +7,11 @@ is_full_depth: true
 console-ports:
   - name: Serial
     type: de-9
-  - name: VGA
-    type: other
 module-bays:
   - name: PSU1
     position: PSU1
   - name: PSU2
-    position: PSU1
+    position: PSU2
   - name: FlexLOM
     position: FlexLOM
 interfaces:

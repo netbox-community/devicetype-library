@@ -1,0 +1,25 @@
+---
+manufacturer: TP-Link
+model: OC200
+slug: tp-link-oc200
+part_number: OC200
+comments: '[TP-Link OC200 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-controller/oc200/#specifications)'
+is_full_depth: false
+u_height: 1
+console-ports:
+  - name: backup-usb
+    label: USB configuration backup
+    type: usb-a
+power-ports:
+  - name: Micro USB Power
+    label: Optional or backup power if using PoE
+    type: usb-micro-b
+interfaces:
+  - name: '1'
+    label: ETH1 (PoE In)
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: '2'
+    label: ETH2
+    type: 100base-tx

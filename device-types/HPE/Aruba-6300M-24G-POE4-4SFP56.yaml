@@ -5,20 +5,23 @@ slug: hpe-aruba-6300m-24g-poe4-4sfp56
 part_number: JL662A
 u_height: 1
 is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[Aruba 6300 Switch Series](https://www.arubanetworks.com/assets/ds/DS_6300Series.pdf)'
 console-ports:
   - name: usb-c
     type: usb-c
   - name: usb-ble
     type: usb-a
-power-ports:
-  - name: ps1
-    type: iec-60320-c14
-    maximum_draw: 250
-    allocated_draw: 76
-  - name: ps2
-    type: iec-60320-c14
-    maximum_draw: 250
-    allocated_draw: 76
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
 interfaces:
   - name: 1/1/1
     type: 1000base-t

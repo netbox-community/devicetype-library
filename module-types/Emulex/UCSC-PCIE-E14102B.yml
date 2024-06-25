@@ -1,0 +1,10 @@
+---
+manufacturer: Emulex
+model: UCSC-PCIE-E14102B
+part_number: UCSC-PCIE-E14102B
+comments: Emulex OCe14102B-UX dual-port 10G SFP+ with iSCSI, FCoE CNA
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/2
+    type: 10gbase-x-sfpp

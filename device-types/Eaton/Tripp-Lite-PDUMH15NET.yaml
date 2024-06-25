@@ -1,0 +1,79 @@
+---
+manufacturer: Eaton
+model: Tripp Lite PDUMH15NET
+slug: eaton-tripp-lite-pdumh15net
+part_number: '037332157690'
+u_height: 1
+is_full_depth: false
+weight: 12.5
+weight_unit: lb
+comments: 15A 120V Switched Power Distribution Unit / PDU with built-in web/network interface (WEBCARDLX). [Manual](https://tripplite.eaton.com/support/owners-manual/894513)
+interfaces:
+  - name: Mgmt
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: RS232
+    label: Config Port
+    type: de-9
+    description: Configuration port
+  - name: Config
+    label: Console
+    type: usb-micro-b
+    description: Configuration port
+  - name: Sensor
+    type: usb-a
+    description: Supports a variety of Envirosense2 environmental and control modules.
+power-ports:
+  - name: Primary
+    type: nema-5-15p
+    maximum_draw: 1400
+power-outlets:
+  - name: Front 1
+    type: nema-5-15r
+    label: '1'
+  - name: Front 2
+    type: nema-5-15r
+    label: '2'
+  - name: Front 3
+    type: nema-5-15r
+    label: '3'
+  - name: Front 4
+    type: nema-5-15r
+    label: '4'
+  - name: Front 5
+    type: nema-5-15r
+    label: '5'
+  - name: Front 6
+    type: nema-5-15r
+    label: '6'
+  - name: Front 7
+    type: nema-5-15r
+    label: '7'
+  - name: Front 8
+    type: nema-5-15r
+    label: '8'
+  - name: Rear 1
+    type: nema-5-15r
+    label: '9'
+  - name: Rear 2
+    type: nema-5-15r
+    label: '10'
+  - name: Rear 3
+    type: nema-5-15r
+    label: '11'
+  - name: Rear 4
+    type: nema-5-15r
+    label: '12'
+  - name: Rear 5
+    type: nema-5-15r
+    label: '13'
+  - name: Rear 6
+    type: nema-5-15r
+    label: '14'
+  - name: Rear 7
+    type: nema-5-15r
+    label: '15'
+  - name: Rear 8
+    type: nema-5-15r
+    label: '16'

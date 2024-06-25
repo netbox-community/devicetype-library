@@ -1,0 +1,19 @@
+---
+manufacturer: Synology
+model: DS218
+slug: synology-ds218
+part_number: DS218
+u_height: 4
+weight: 1.3
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Synology DS218 Specs](https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS218/enu/Synology_DS218_Data_Sheet_enu.pdf)'
+is_full_depth: false
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+power-ports:
+  - name: External PSU 1
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 15

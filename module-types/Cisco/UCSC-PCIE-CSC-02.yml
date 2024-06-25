@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: UCSC-PCIE-CSC-02
+part_number: UCSC-PCIE-CSC-02
+comments: |
+  [Cisco VIC 1225 Dual Port 10Gb SFP+ CNA](https://www.provantage.com/cisco-systems-ucsc-pcie-02~7CSC98FR.htm)
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/2
+    type: 10gbase-x-sfpp

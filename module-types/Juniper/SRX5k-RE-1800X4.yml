@@ -1,0 +1,14 @@
+---
+manufacturer: Juniper
+model: SRX5k-RE-1800X4
+part_number: SRX5k-RE-1800X4
+console-ports:
+  - name: '{module}-AUX'
+    type: rj-45
+  - name: '{module}-CONSOLE'
+    type: rj-45
+interfaces:
+  - name: '{module}-fxp0'
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true

@@ -4,6 +4,7 @@ SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
 )
+SCHEMAS_BASEPATH = f"{os.getcwd()}/schema/"
 
 IMAGE_FILETYPES = (
     'bmp', 'gif', 'pjp', 'jpg', 'pjpeg', 'jpeg', 'jfif', 'png', 'tif', 'tiff', 'webp'
@@ -20,6 +21,12 @@ COMPONENT_TYPES = (
     'device-bays',
     'module-bays',
 )
+
+PRECOMMIT_ALL_SWITCHES = [
+  '-a',
+  '--all-files',
+  '--all'
+]
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 

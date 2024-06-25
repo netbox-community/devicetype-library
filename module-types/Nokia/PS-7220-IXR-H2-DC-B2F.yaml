@@ -1,0 +1,10 @@
+---
+manufacturer: Nokia
+model: PS-7220-IXR-H2-DC-B2F
+part_number: 3HE16427AA
+comments: 1300W DC Power Supply B2F airflow
+# airflow: rear-to-front
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+    maximum_draw: 1300
