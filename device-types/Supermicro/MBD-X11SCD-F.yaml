@@ -1,0 +1,25 @@
+---
+manufacturer: Supermicro
+model: X11SCD-F
+slug: supermicro-mbd-x11-scd-f
+part_number: MBD-X11SCD-F
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: X11SCD-F (https://www.supermicro.com/en/products/motherboard/X11SCD-F)
+subdevice_role: child
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 3.0 x8 (Micro Low Profile)
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x8
+  - name: M.2
+    position: '3'
+    description: 2242/2280/22110
