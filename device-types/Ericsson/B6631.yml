@@ -1,0 +1,73 @@
+---
+manufacturer: Ericsson
+model: B6631
+description: Ericsson Baseband 6631
+slug: ericsson-b6631
+part_number: B6631
+comments: '[Ericsson Baseband 6631 Data Sheet]()'
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: SYNC
+    type: rj-45
+  - name: TIME
+    type: rj-45
+  - name: ALARM 1
+    type: rj-45
+  - name: ALARM 2
+    type: rj-45
+power-ports:
+  - name: A
+    type: dc-terminal
+    description: -48 VDC
+  - name: B
+    type: dc-terminal
+    description: -48 VDC
+interfaces:
+  - name: TN/IDL A
+    type: 40gbase-x-qsfpp
+  - name: TN/IDL B
+    type: 10gbase-x-sfpp
+  - name: TN/IDL C
+    type: 10gbase-x-sfpp
+  - name: TN/IDL D
+    type: 10gbase-x-sfpp
+  - name: DOT A
+    type: 10gbase-x-sfpp
+  - name: DOT B
+    type: 10gbase-x-sfpp
+  - name: DOT C
+    type: 10gbase-x-sfpp
+  - name: DOT D
+    type: 10gbase-x-sfpp
+  - name: DOT E
+    type: 10gbase-x-sfpp
+  - name: DOT F
+    type: 10gbase-x-sfpp
+  - name: DOT G
+    type: 10gbase-x-sfpp
+  - name: DOT H
+    type: 10gbase-x-sfpp
+  - name: DOT I
+    type: 10gbase-x-sfpp
+  - name: DOT J
+    type: 10gbase-x-sfpp
+  - name: DOT K
+    type: 10gbase-x-sfpp
+  - name: DOT L
+    type: 10gbase-x-sfpp
+  - name: DOT M
+    type: 10gbase-x-sfpp
+  - name: DOT N
+    type: 10gbase-x-sfpp
+  - name: DOT O
+    type: 10gbase-x-sfpp
+  - name: DOT P
+    type: 10gbase-x-sfpp
+  - name: DOT Q
+    type: 10gbase-x-sfpp
+  - name: LMT
+    type: 1000base-t
+    mgmt_only: true
+    description: 100 / 1000 Base-T Ethernet for Out-of-Band Management

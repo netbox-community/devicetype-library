@@ -1,0 +1,42 @@
+---
+manufacturer: Ericsson
+model: P6250
+description: Ericsson Power 6250
+slug: ericsson-p6250
+part_number: P6250
+comments: '[Ericsson Power 6250 Data Sheet]()'
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: RS485
+    type: rj-45
+    description: baudrate 115200
+power-ports:
+  - name: AC IN 1
+    type: iec-60320-c14
+  - name: AC IN 2
+    type: iec-60320-c14
+power-outlets:
+  - name: DC1
+    type: dc-terminal
+    label: DC Outlet 1
+  - name: DC2
+    type: dc-terminal
+    label: DC Outlet 2
+  - name: DC3
+    type: dc-terminal
+    label: DC Outlet 3
+  - name: DC4
+    type: dc-terminal
+    label: DC Outlet 4
+  - name: DC5
+    type: dc-terminal
+    label: DC Outlet 5
+  - name: DC6
+    type: dc-terminal
+    label: DC Outlet 6
+interfaces:
+  - name: LAN
+    type: 1000base-t
+    mgmt_only: true
