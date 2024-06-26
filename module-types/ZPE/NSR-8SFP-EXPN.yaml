@@ -1,0 +1,23 @@
+---
+manufacturer: ZPE
+model: NSR-8SFP-EXPN
+part_number: ZPE-NSR-8SFP-EXPN
+description: NSR 8-Port 10GbE SFP Expansion Card
+comments: '[ZPE Systems Net Services Router Product Sheet](https://www.zpesystems.com/nodegrid/Datasheet/New/NodeGrid%20Services%20Router.pdf)'
+interfaces:
+  - name: netS{module}-1
+    type: 10gbase-x-sfpp
+  - name: netS{module}-2
+    type: 10gbase-x-sfpp
+  - name: netS{module}-3
+    type: 10gbase-x-sfpp
+  - name: netS{module}-4
+    type: 10gbase-x-sfpp
+  - name: netS{module}-5
+    type: 10gbase-x-sfpp
+  - name: netS{module}-6
+    type: 10gbase-x-sfpp
+  - name: netS{module}-7
+    type: 10gbase-x-sfpp
+  - name: netS{module}-8
+    type: 10gbase-x-sfpp
