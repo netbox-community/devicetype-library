@@ -1,0 +1,56 @@
+---
+manufacturer: Check Point
+model: SG6600
+slug: check-point-sg6600
+part_number: CPAP-SG6600-SNBT
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: ttyS0
+    type: rj-45
+    label: CONSOLE
+  - name: ttyS1
+    type: usb-c
+    label: CONSOLE
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    label: MGMT
+  - name: Sync
+    type: 1000base-t
+    label: SYNC
+  - name: eth1
+    type: 1000base-t
+    label: '1'
+  - name: eth2
+    type: 1000base-t
+    label: '2'
+  - name: eth3
+    type: 1000base-t
+    label: '3'
+  - name: eth4
+    type: 1000base-t
+    label: '4'
+  - name: eth5
+    type: 1000base-t
+    label: '5'
+  - name: eth6
+    type: 1000base-t
+    label: '6'
+  - name: eth7
+    type: 1000base-t
+    label: '7'
+  - name: eth8
+    type: 1000base-t
+    label: '8'
+  - name: lom
+    type: 1000base-t
+    label: LOM
+module-bays:
+  - name: Line card 1
