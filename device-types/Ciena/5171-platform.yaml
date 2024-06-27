@@ -1,12 +1,12 @@
 ---
 manufacturer: Ciena
-model: '5170'
-slug: ciena-5170
-part_number: 170-5170-900
-u_height: 1
-weight: 13.4
+model: 5171 Platform
+slug: ciena-5171-platform
+part_number: 170-5171-910
+u_height: 2
+weight: 15.5
 weight_unit: kg
-is_full_depth: true
+is_full_depth: false
 front_image: true
 console-ports:
   - name: CONSOLE
@@ -23,21 +23,14 @@ console-ports:
     type: other
     mgmt_only: true
     description: 1 Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ45 Synchronous Ethernet (SyncE) G.8261 and IEEE 1588v2 port.
   - name: BITS
     type: rj-45
     mgmt_only: true
-    description: RJ45 BITS in or out, ToD in or out, or 1PPS in or out (software selectable)
-module-bays:
-  - name: PS A
-    position: A
-    comments: |
-      170-0092-900 5162/5170,DC PLUGGABLE POWER SUPPLY, -48V
-      170-0093-900 5162/5170,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
-  - name: PS B
-    position: B
-    comments: |
-      170-0092-900 5162/5170,DC PLUGGABLE POWER SUPPLY, -48V
-      170-0093-900 5162/5170,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+    description: RJ-45 BITS in or out, ToD in or out, or 1PPS in or out (software selectable).
 interfaces:
   - name: '1'
     type: 10gbase-x-sfpp
@@ -119,14 +112,33 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: '40'
     type: 10gbase-x-sfpp
-  - name: '41'
-    type: 100gbase-x-qsfp28
-  - name: '42'
-    type: 100gbase-x-qsfp28
-  - name: '43'
-    type: 100gbase-x-qsfp28
-  - name: '44'
-    type: 100gbase-x-qsfp28
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PS A
+    position: A
+    comments: |
+      170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
+      170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    comments: |
+      170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
+      170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: Module 1
+    position: '1'
+    comments: |
+      Accepts:
+      * 170-0312-900 2x100G QSFP28 FRU supporting up to 100GbE
+      * 170-0313-900 2x100G CFP2-DCO FRU supporting up to 100GbE
+      * 170-0314-900 1x200G CFP2-DCO FRU supporting up to 200GbE
+      * 170-0315-900 CFP2/QSFP28 combo FRU supporting up to 100GbE
+  - name: Module 2
+    position: '2'
+    comments: |
+      Accepts:
+      * 170-0312-900 2x100G QSFP28 FRU supporting up to 100GbE
+      * 170-0313-900 2x100G CFP2-DCO FRU supporting up to 100GbE
+      * 170-0314-900 1x200G CFP2-DCO FRU supporting up to 200GbE
+      * 170-0315-900 CFP2/QSFP28 combo FRU supporting up to 100GbE

@@ -1,0 +1,169 @@
+---
+manufacturer: Ciena
+model: '8114'
+slug: ciena-8114
+part_number: 170-8114-900
+u_height: 2
+is_full_depth: false
+weight: 8.16
+weight_unit: kg
+front_image: true
+airflow: front-to-rear
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+    mgmt_only: true
+  - name: USB
+    type: usb-c
+    mgmt_only: true
+  - name: 1 PPS/10 MHz
+    description: Mini-COAX 1PPS/ToD SMB interface in or out (software selectable).
+    type: other
+    mgmt_only: true
+  - name: ANT
+    description: GNSS/GPS antenna mini SMB.
+    type: other
+    mgmt_only: true
+  - name: SYNC
+    type: rj-45
+    description: RJ-45 sync port
+    mgmt_only: true
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfp28
+  - name: '4'
+    type: 100gbase-x-qsfp28
+  - name: '5'
+    type: 100gbase-x-qsfp28
+  - name: '6'
+    type: 100gbase-x-qsfp28
+  - name: '7'
+    type: 25gbase-x-sfp28
+  - name: '8'
+    type: 25gbase-x-sfp28
+  - name: '9'
+    type: 25gbase-x-sfp28
+  - name: '10'
+    type: 25gbase-x-sfp28
+  - name: '11'
+    type: 25gbase-x-sfp28
+  - name: '12'
+    type: 25gbase-x-sfp28
+  - name: '13'
+    type: 25gbase-x-sfp28
+  - name: '14'
+    type: 25gbase-x-sfp28
+  - name: '15'
+    type: 25gbase-x-sfp28
+  - name: '16'
+    type: 25gbase-x-sfp28
+  - name: '17'
+    type: 25gbase-x-sfp28
+  - name: '18'
+    type: 25gbase-x-sfp28
+  - name: '19'
+    type: 25gbase-x-sfp28
+  - name: '20'
+    type: 25gbase-x-sfp28
+  - name: '21'
+    type: 25gbase-x-sfp28
+  - name: '22'
+    type: 25gbase-x-sfp28
+  - name: '23'
+    type: 25gbase-x-sfp28
+  - name: '24'
+    type: 25gbase-x-sfp28
+  - name: '25'
+    type: 25gbase-x-sfp28
+  - name: '26'
+    type: 25gbase-x-sfp28
+  - name: '27'
+    type: 25gbase-x-sfp28
+  - name: '28'
+    type: 25gbase-x-sfp28
+  - name: '29'
+    type: 25gbase-x-sfp28
+  - name: '30'
+    type: 25gbase-x-sfp28
+  - name: '31'
+    type: 25gbase-x-sfp28
+  - name: '32'
+    type: 25gbase-x-sfp28
+  - name: '33'
+    type: 25gbase-x-sfp28
+  - name: '34'
+    type: 25gbase-x-sfp28
+  - name: '35'
+    type: 25gbase-x-sfp28
+  - name: '36'
+    type: 25gbase-x-sfp28
+  - name: '37'
+    type: 25gbase-x-sfp28
+  - name: '38'
+    type: 25gbase-x-sfp28
+  - name: '39'
+    type: 25gbase-x-sfp28
+  - name: '40'
+    type: 25gbase-x-sfp28
+  - name: '41'
+    type: 25gbase-x-sfp28
+  - name: '42'
+    type: 25gbase-x-sfp28
+  - name: '43'
+    type: 25gbase-x-sfp28
+  - name: '44'
+    type: 25gbase-x-sfp28
+  - name: '45'
+    type: 25gbase-x-sfp28
+  - name: '46'
+    type: 25gbase-x-sfp28
+  - name: '47'
+    type: 25gbase-x-sfp28
+  - name: '48'
+    type: 25gbase-x-sfp28
+  - name: '49'
+    type: 25gbase-x-sfp28
+  - name: '50'
+    type: 25gbase-x-sfp28
+  - name: '51'
+    type: 25gbase-x-sfp28
+  - name: '52'
+    type: 25gbase-x-sfp28
+  - name: '53'
+    type: 25gbase-x-sfp28
+  - name: '54'
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PS A
+    position: A
+    description: |
+      170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
+      170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    description: |
+      170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
+      170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: FRU 1
+    position: '1'
+    description: |
+      * 170-0339-900 2x400G QSFP-DD
+      * 170-0339-901 2x400G QSFP-DD-macsec
+      * 170-0340-900 8x100G QSFP28
+      * 170-0389-900 2x400G CFP2-DCO
+      * 170-0404-900 12x25G SFP28
+  - name: FRU 2
+    position: '2'
+    description: |
+      * 170-0339-900 2x400G QSFP-DD
+      * 170-0339-901 2x400G QSFP-DD-macsec
+      * 170-0340-900 8x100G QSFP28
+      * 170-0389-900 2x400G CFP2-DCO
+      * 170-0404-900 12x25G SFP28
