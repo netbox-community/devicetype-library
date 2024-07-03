@@ -1,0 +1,31 @@
+---
+manufacturer: Moxa
+model: EDS-408A-SS-SC-T
+slug: moxa-eds-408a-ss-sc-t
+part_number: EDS-408A-SS-SC-T
+u_height: 0.5
+is_full_depth: false
+front_image: true
+weight: 650
+weight_unit: g
+comments: '[EDS-408A-SS-SC-T Specs](https://www.moxa.com/getmedia/2bf237cd-dc6f-448f-9007-407a2dfe1533/moxa-eds-408a-series-datasheet-v1.5.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+interfaces:
+  - name: eth1
+    type: 100base-tx
+  - name: eth2
+    type: 100base-tx
+  - name: eth3
+    type: 100base-tx
+  - name: eth4
+    type: 100base-tx
+  - name: eth5
+    type: 100base-tx
+  - name: eth6
+    type: 100base-tx
+  - name: eth7
+    type: 100base-fx
+  - name: eth8
+    type: 100base-fx

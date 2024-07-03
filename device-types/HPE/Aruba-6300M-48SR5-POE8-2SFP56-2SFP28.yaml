@@ -4,23 +4,26 @@ model: Aruba 6300M-48SR5-POE8-2SFP56-2SFP28
 slug: hpe-aruba-6300m-48sr5-poe8-2sfp56-2sfp28
 part_number: R8S90A
 u_height: 1.0
-is_full_depth: true
+is_full_depth: false
 weight: 5.48
 weight_unit: kg
+comments: '[Aruba 6300 Switch Series](https://www.arubanetworks.com/assets/ds/DS_6300Series.pdf)'
 console-ports:
   - name: rj45-console
     type: rj-45
   - name: usb-c
     type: usb-c
-power-ports:
-  - name: ps1
-    type: iec-60320-c14
-    maximum_draw: 250
-    allocated_draw: 90
-  - name: ps2
-    type: iec-60320-c14
-    maximum_draw: 250
-    allocated_draw: 90
+  - name: usb-ble
+    type: usb-a
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
 interfaces:
   - name: 1/1/1
     type: 5gbase-t

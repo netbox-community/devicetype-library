@@ -1,0 +1,34 @@
+---
+manufacturer: HPE
+model: Aruba AP-335
+slug: hpe-aruba-ap-335
+part_number: AP-335
+u_height: 0
+is_full_depth: false
+weight: 1150
+weight_unit: g
+front_image: true
+rear_image: true
+airflow: passive
+comments: '[Aruba 330 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP330Series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: ENET0
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ENET1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ac
+  - name: Bluetooth
+    type: ieee802.15.1
