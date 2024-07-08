@@ -1,0 +1,24 @@
+---
+manufacturer: HUBER+SUHNER
+model: ITS-06-LCAD-01-12CM-SM-AP-00WW
+description: IANOS transition module, 6xSM, LCD APC, 1xMTP12, AP
+comments: '[Product Page](https://www.hubersuhner.com/en/shop/product/fiber-cable-management/modules/85072947/ianos-transition-module-6xsm-lcd-apc-1xmtp12-ap)'
+part_number: '85072947'
+weight: 0.152
+weight_unit: kg
+rear-ports:
+  - name: '{module}-MPO-01'
+    type: mpo
+front-ports:
+  - name: '{module}-01'
+    type: lc-apc
+  - name: '{module}-02'
+    type: lc-apc
+  - name: '{module}-03'
+    type: lc-apc
+  - name: '{module}-04'
+    type: lc-apc
+  - name: '{module}-05'
+    type: lc-apc
+  - name: '{module}-06'
+    type: lc-apc
