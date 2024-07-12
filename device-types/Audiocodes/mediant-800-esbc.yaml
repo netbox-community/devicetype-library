@@ -2,37 +2,43 @@
 manufacturer: AudioCodes
 model: Mediant 800 ESBC
 slug: audiocodes-mediant-800-esbc
-part_number: mediant800
-u_height: 1
+part_number: Mediant 800B
+u_height: 1.0
 is_full_depth: false
+subdevice_role: parent
+weight: 5.5
+weight_unit: lb
 console-ports:
-  - name: console
-    type: rj-45
+- name: console
+  type: rj-45
 power-ports:
-  - name: PS1
-    type: iec-60320-c14
+- name: AC POWER INLET
+  type: iec-60320-c14
 interfaces:
-  - name: GigabitEthernet1
-    type: 1000base-t
-  - name: GigabitEthernet2
-    type: 1000base-t
-  - name: GigabitEthernet3
-    type: 1000base-t
-  - name: GigabitEthernet4
-    type: 1000base-t
-  - name: FastEthernet1
-    type: 1000base-t
-  - name: FastEthernet2
-    type: 1000base-t
-  - name: FastEthernet3
-    type: 1000base-t
-  - name: FastEthernet4
-    type: 1000base-t
-  - name: FastEthernet5
-    type: 1000base-t
-  - name: FastEthernet6
-    type: 1000base-t
-  - name: FastEthernet7
-    type: 1000base-t
-  - name: FastEthernet8
-    type: 1000base-t
+- name: FE_5_1
+  type: 100base-tx
+- name: FE_5_2
+  type: 100base-tx
+- name: FE_5_3
+  type: 100base-tx
+- name: FE_5_4
+  type: 100base-tx
+- name: FE_5_5
+  type: 100base-tx
+- name: FE_5_6
+  type: 100base-tx
+- name: FE_5_7
+  type: 100base-tx
+- name: FE_5_8
+  type: 100base-tx
+- name: GE_4_1
+  type: 1000base-tx
+- name: GE_4_2
+  type: 1000base-tx
+- name: GE_4_3
+  type: 1000base-tx
+- name: GE_4_4
+  type: 1000base-tx
+- name: WAN
+  type: 1000base-tx
+  
