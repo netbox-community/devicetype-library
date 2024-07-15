@@ -1,0 +1,25 @@
+---
+manufacturer: LANCOM
+model: LW-600
+slug: lancom-lw-600
+part_number: '61829'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[LANCOM LW-600 Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-LW-600/HWS_LW-600_DE.pdf)'
+power-ports:
+  - name: PS1
+    label: DC 12 V
+    type: dc-terminal
+    maximum_draw: 11
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: wlan0
+    type: ieee802.11ax
+    description: 2.4GHz
+  - name: wlan1
+    type: ieee802.11ax
+    description: 5GHz
