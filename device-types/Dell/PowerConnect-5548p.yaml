@@ -8,7 +8,9 @@ front_image: true
 rear_image: true
 console-ports:
   - name: Serial
-    type: de-9
+    type: rj-45
+  - name: Usb
+    type: usb-a
 power-ports:
   - name: Power
     type: iec-60320-c14
