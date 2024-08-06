@@ -1,0 +1,34 @@
+---
+manufacturer: HPE
+model: Aruba AP-535
+slug: hpe-aruba-ap-535
+part_number: AP-535
+u_height: 0
+is_full_depth: false
+weight: 1270
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
+comments: '[Aruba 530 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP530Series.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: E0
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: E1
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ax
+  - name: Bluetooth
+    type: ieee802.15.1
