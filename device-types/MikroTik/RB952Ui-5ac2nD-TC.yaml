@@ -40,8 +40,8 @@ interfaces:
   - name: usb
     type: lte
 power-ports:
-  - name: PSU1
-    label: '1'
+  - name: DC
+    label: DC
     type: dc-terminal
     maximum_draw: 20
     allocated_draw: 8
