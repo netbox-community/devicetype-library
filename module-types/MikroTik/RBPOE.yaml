@@ -1,0 +1,28 @@
+---
+manufacturer: MikroTik
+model: RBPOE
+slug: rbpoe
+part_number: RBPOE
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 100
+weight_unit: g
+front-ports:
+  - name: IN1
+    label: '1'
+    type: 100base-tx
+    rear_port: OUT1
+    rear_port_position: 1
+rear-ports:
+  - name: OUT1
+    label: '1'
+    type: 100base-tx
+    positions: 1
+    poe: true
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    description: 10 - 28V DC
+comments: '[RBPOE Datasheet by Kolyan](https://mikrotik.com/product/RBPOE)'
