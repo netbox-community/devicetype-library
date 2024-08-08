@@ -11,13 +11,13 @@ weight_unit: g
 front-ports:
   - name: IN1
     label: '1'
-    type: 100base-tx
+    type: 8p4c
     rear_port: OUT1
     rear_port_position: 1
 rear-ports:
   - name: OUT1
     label: '1'
-    type: 100base-tx
+    type: 8p4c
     positions: 1
     poe: true
 power-ports:
