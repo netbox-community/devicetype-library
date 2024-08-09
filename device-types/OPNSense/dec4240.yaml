@@ -1,0 +1,51 @@
+---
+manufacturer: OPNSense
+model: DEC4240
+slug: opnsense-dec4240
+part_number: DEC4240EU
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: front-to-rear
+weight: 4.7
+weight_unit: kg
+comments: '[OPNSense Store](https://shop.opnsense.com/product/dec4240-opnsense-rack-security-appliance/)'
+console-ports:
+  - name: Console
+    type: usb-mini-b
+power-ports:
+  - name: '0'
+    type: iec-60320-c14
+    maximum_draw: 624
+    allocated_draw: 70
+  - name: '1'
+    type: iec-60320-c14
+    maximum_draw: 624
+    allocated_draw: 70
+interfaces:
+  - name: '0'
+    type: 2.5gbase-t
+    enabled: true
+  - name: '1'
+    type: 2.5gbase-t
+    enabled: true
+    rf_role: ''
+  - name: '2'
+    type: 2.5gbase-t
+    enabled: true
+  - name: '3'
+    type: 2.5gbase-t
+    enabled: true
+  - name: X0
+    type: 10gbase-x-sfpp
+    enabled: true
+    rf_role: ''
+  - name: X1
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: X2
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: X3
+    type: 10gbase-x-sfpp
+    enabled: true
