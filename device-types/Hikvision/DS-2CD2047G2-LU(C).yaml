@@ -19,8 +19,8 @@ interfaces:
     type: 100base-tx
     description: POE-IN, 0.25A, 7.5W
 power-ports:
-  - name: PSU1
-    label: '1'
+  - name: DC
+    label: DC
     type: dc-terminal
     maximum_draw: 6
     allocated_draw: 6
