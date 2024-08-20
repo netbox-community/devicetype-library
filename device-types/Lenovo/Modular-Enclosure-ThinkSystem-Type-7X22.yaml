@@ -1,0 +1,48 @@
+---
+manufacturer: Lenovo
+model: Modular Enclosure (ThinkSystem) - Type 7X22
+slug: modular-enclosure-thinksystem-type-7x22
+description: ''
+default_platform: null
+part_number: ''
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: null
+weight_unit: ''
+comments: '[Manual](https://pubs.lenovo.com/sd530/SD530_quick_start.pdf)'
+interfaces:
+  - name: SMM-0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: SMM-1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+device-bays:
+  - name: '1'
+    label: ''
+    description: ''
+  - name: '2'
+    label: ''
+    description: ''
+  - name: '3'
+    label: ''
+    description: ''
+  - name: '4'
+    label: ''
+    description: ''

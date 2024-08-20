@@ -1,0 +1,35 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SD650-N V2
+slug: thinksystem-sd650-n-v2
+description: ''
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+weight: null
+weight_unit: ''
+comments: ''
+interfaces:
+  - name: NIC
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ToManager
+    type: other
+    enabled: true
+    mgmt_only: true
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
