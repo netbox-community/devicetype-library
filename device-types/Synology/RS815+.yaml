@@ -1,0 +1,26 @@
+---
+manufacturer: Synology
+model: RS815+
+slug: synology-rs815-plus
+part_number: RS815+
+u_height: 1
+is_full_depth: true
+weight: 6.73
+weight_unit: kg
+comments: '[RS815 Series Datasheet](https://www.synology.com/en-us/products/RS815+#specs)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: de-9
+    mgmt_only: true

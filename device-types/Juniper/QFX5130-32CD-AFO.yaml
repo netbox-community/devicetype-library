@@ -8,7 +8,7 @@ weight: 24.5
 weight_unit: lb
 airflow: front-to-rear
 is_full_depth: true
-comments: '[Juniper QFX5130 Data Sheet](hhttps://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx5130-switch-datasheet.pdf)'
+comments: '[Juniper QFX5130 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/qfx5130-line-of-switches-datasheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
@@ -18,7 +18,7 @@ module-bays:
   - name: PSU 1
     position: '1'
 interfaces:
-  - name: fxp0
+  - name: re0:mgmt-0
     type: 1000base-t
     mgmt_only: true
   - name: et-0/0/0
@@ -85,7 +85,7 @@ interfaces:
     type: 400gbase-x-qsfpdd
   - name: et-0/0/31
     type: 400gbase-x-qsfpdd
-  - name: xe-0/0/32
+  - name: et-0/0/32
     type: 10gbase-x-sfpp
-  - name: xe-0/0/33
+  - name: et-0/0/33
     type: 10gbase-x-sfpp
