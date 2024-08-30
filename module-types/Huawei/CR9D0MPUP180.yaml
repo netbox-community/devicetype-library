@@ -1,0 +1,19 @@
+---
+manufacturer: Huawei
+model: CR9D0MPUP180
+part_number: '03057531'
+description: NE9000 MPUP1
+comments: '[NE9000-8 Main Processing Unit P1 (MPUP1)](https://info.support.huawei.com/info-finder/enterprisesearch/en?keyword=CR9D0MPUP180)'
+weight: 7.8
+weight_unit: kg
+interfaces:
+  - name: GE0/0/0({module})
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Console({module})
+    type: rj-45
+  - name: AUX({module})
+    type: rj-45
+  - name: USB({module})
+    type: usb-a
