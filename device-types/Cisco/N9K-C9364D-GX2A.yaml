@@ -1,0 +1,165 @@
+---
+manufacturer: Cisco
+model: Nexus 9364D-GX2A
+part_number: N9K-C9364D-GX2A
+slug: cisco-n9k-c9364d-gx2a
+u_height: 2
+weight: 26.3
+weight_unit: kg
+is_full_depth: true
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+interfaces:
+  - name: Ethernet1/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/2
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/3
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/4
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/5
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/6
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/7
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/8
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/9
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/10
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/11
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/12
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/13
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/14
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/15
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/16
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/17
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/18
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/19
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/20
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/21
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/22
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/23
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/24
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/25
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/26
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/27
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/28
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/29
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/30
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/31
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/32
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/33
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/34
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/35
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/36
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/37
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/38
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/39
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/40
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/41
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/42
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/43
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/44
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/45
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/46
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/47
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/48
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/49
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/50
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/51
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/52
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/53
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/54
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/55
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/56
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/57
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/58
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/59
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/60
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/61
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/62
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/63
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/64
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/65
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/66
+    type: 10gbase-x-sfpp
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    label: Power Supply 1
+    position: '1'
+  - name: PS2
+    label: Power Supply 2
+    position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'

@@ -1,0 +1,16 @@
+---
+manufacturer: HPE
+model: Aruba JL368A
+part_number: JL368A
+comments: HPE Aruba Networking 8400 Management Module
+console-ports:
+  - name: Auxiliary Port
+    type: usb-a
+  - name: Console-USB
+    type: usb-micro-b
+  - name: Console-RJ45
+    type: rj-45
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

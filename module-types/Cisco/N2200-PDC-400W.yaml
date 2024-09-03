@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: N2200-PDC-400W
+part_number: N2200-PDC-400W
+description: Cisco Nexus 2200 DC Power supply (Std airflow, port side exhaust)
+weight: 1
+weight_unit: kg
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+    maximum_draw: 400

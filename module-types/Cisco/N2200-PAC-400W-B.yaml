@@ -2,10 +2,11 @@
 manufacturer: Cisco
 model: N2200-PAC-400W-B
 part_number: N2200-PAC-400W-B
+description: Cisco Nexus 2200 AC Power supply, Back-to-front airflow (Reversed airflow, port side intake)
 comments: Nexus AC 400W PSU - Port Side Intake / [Cisco Nexus 2000 Series Fabric Extenders Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-2000-series-fabric-extenders/data_sheet_c78-507093.html)
 weight: 1
 weight_unit: kg
 power-ports:
-  - name: PS{module}
+  - name: PSU{module}
     type: iec-60320-c14
     maximum_draw: 400

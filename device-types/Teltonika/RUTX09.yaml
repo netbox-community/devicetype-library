@@ -1,0 +1,35 @@
+---
+manufacturer: Teltonika
+model: RUTX09
+slug: teltonika-rutx09
+part_number: RUTX09
+u_height: 0.5
+is_full_depth: false
+weight: 455
+weight_unit: g
+comments: '[RUTX09 Specs](https://teltonika-networks.com/cdn/products/2023/01/63b7f7745a32a6-87050095/rutx09-datasheet-v12.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 9
+console-ports:
+  - name: USB_1
+    type: usb-a
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: mob1s1a1
+    type: lte
+  - name: mob1s2a1
+    type: lte
+  - name: wan
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: gnss_0
+    type: other
+    comments: GPS, GLONASS, BeiDou, Galileo and QZSS

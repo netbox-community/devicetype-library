@@ -1,0 +1,19 @@
+---
+manufacturer: Huawei
+model: CR5D0MPUD471
+part_number: 03057248
+description: MPUD4
+comments: '[Huawei Main Processing Unit D4 (16G Memory)](https://support.huawei.com/hedex/hdx.do?docid=EDOC1100259796)'
+weight: 2.4
+weight_unit: kg
+interfaces:
+  - name: GE0/0/0({module})
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: AUX
+    type: rj-45
+  - name: USB
+    type: usb-a

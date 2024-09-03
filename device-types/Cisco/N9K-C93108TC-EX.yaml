@@ -3,11 +3,17 @@ manufacturer: Cisco
 model: Nexus 93108TC-EX
 slug: cisco-n9k-c93108tc-ex
 part_number: N9K-C93108TC-EX
+front_image: true
+rear_image: true
 u_height: 1
 is_full_depth: true
 console-ports:
   - name: Console
     type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -123,5 +129,15 @@ interfaces:
 module-bays:
   - name: PS1
     position: '1'
+    label: Power Supply 1
   - name: PS2
     position: '2'
+    label: Power Supply 2
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'

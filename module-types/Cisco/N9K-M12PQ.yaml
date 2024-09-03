@@ -1,0 +1,33 @@
+---
+manufacturer: Cisco
+model: N9K-M12PQ
+part_number: N9K-M12PQ
+description: Uplink Module for Nexus 9300, 12p 40G QSFP
+comments: provides up to 12 QSFP+ ports for 40 Gigabit Ethernet connectivity [Cisco Nexus 9300 Platform Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-736967.html)
+weight: 1.4
+weight_unit: kg
+interfaces:
+  - name: Ethernet{module}/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/2
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/3
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/4
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/5
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/6
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/7
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/8
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/9
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/10
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/11
+    type: 40gbase-x-qsfpp
+  - name: Ethernet{module}/12
+    type: 40gbase-x-qsfpp

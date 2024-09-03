@@ -1,0 +1,40 @@
+---
+manufacturer: Huawei
+model: AR651W
+slug: huawei-ar651w
+part_number: AR651W
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 50
+interfaces:
+  - name: GE1
+    type: 10gbase-x-sfpp
+  - name: GE2
+    type: 10gbase-x-sfpp
+  - name: GE3
+    type: 1000base-t
+  - name: GE4
+    type: 1000base-t
+  - name: GE5
+    type: 1000base-t
+  - name: GE6
+    type: 1000base-t
+  - name: GE7
+    type: 1000base-t
+  - name: GE8
+    type: 1000base-t
+  - name: GE9
+    type: 1000base-t
+  - name: GE8_1G
+    type: 1000base-x-sfp
+  - name: GE9_1G
+    type: 1000base-x-sfp
+  - name: Mgmt/Ge0
+    type: 1000base-t
+    mgmt_only: true
