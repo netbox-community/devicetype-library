@@ -1,0 +1,84 @@
+---
+manufacturer: Juniper
+model: EX9208
+slug: juniper-ex9208
+u_height: 8
+is_full_depth: true
+subdevice_role: parent
+comments: '[Juniper EX9208 Data Sheet](https://www.juniper.net/documentation/us/en/hardware/ex9208/topics/topic-map/ex9208-system-overview.html)'
+console-ports:
+  - name: Console-RE0
+    type: rj-45
+  - name: Console-RE1
+    type: rj-45
+module-bays:
+  - name: PEM0
+    label: PSU 0
+    position: PSU0
+  - name: PEM1
+    label: PSU 1
+    position: PSU1
+  - name: PEM2
+    label: PSU 2
+    position: PSU2
+  - name: PEM3
+    label: PSU 3
+    position: PSU3
+  - name: FPC 0
+    position: '0'
+  - name: FPC 0 MIC 0
+    position: '0/0'
+  - name: FPC 0 MIC 1
+    position: '0/1'
+  - name: FPC 1
+    position: '1'
+  - name: FPC 1 MIC 0
+    position: '1/0'
+  - name: FPC 1 MIC 1
+    position: '1/1'
+  - name: FPC 2
+    position: '2'
+  - name: FPC 2 MIC 0
+    position: '2/0'
+  - name: FPC 2 MIC 1
+    position: '2/1'
+  - name: FPC 3
+    position: '3'
+  - name: FPC 3 MIC 0
+    position: '3/0'
+  - name: FPC 3 MIC 1
+    position: '3/1'
+  - name: FPC 4
+    position: '4'
+  - name: FPC 4 MIC 0
+    position: '4/0'
+  - name: FPC 4 MIC 1
+    position: '4/1'
+  - name: FPC 5
+    position: '5'
+  - name: FPC 5 MIC 0
+    position: '5/0'
+  - name: FPC 5 MIC 1
+    position: '5/1'
+  - name: FPC 6
+    position: '6'
+  - name: FPC 6 MIC 0
+    position: '6/0'
+  - name: FPC 6 MIC 1
+    position: '6/1'
+  - name: FPC 7
+    position: '7'
+  - name: FPC 7 MIC 0
+    position: '7/0'
+  - name: FPC 7 MIC 1
+    position: '7/1'
+  - name: CB 0
+    position: cb0
+  - name: CB 1
+    position: cb1
+  - name: RE 0
+    position: re0
+  - name: RE 1
+    position: re1
+  - name: Fan Tray 0
+    position: ft0

@@ -1,0 +1,25 @@
+---
+manufacturer: Juniper
+model: MPC4E-3D-2CGE-8XGE
+part_number: MPC4E-3D-2CGE-8XGE
+interfaces:
+  - name: xe-{module}/0/0
+    type: 10gbase-x-sfpp
+  - name: xe-{module}/0/1
+    type: 10gbase-x-sfpp
+  - name: xe-{module}/0/2
+    type: 10gbase-x-sfpp
+  - name: xe-{module}/0/3
+    type: 10gbase-x-sfpp
+  - name: et-{module}/1/0
+    type: 100gbase-x-cfp2
+  - name: xe-{module}/2/0
+    type: 10gbase-x-sfpp
+  - name: xe-{module}/2/1
+    type: 10gbase-x-sfpp
+  - name: xe-{module}/2/2
+    type: 10gbase-x-sfpp
+  - name: xe-{module}/2/3
+    type: 10gbase-x-sfpp
+  - name: et-{module}/3/0
+    type: 100gbase-x-cfp2

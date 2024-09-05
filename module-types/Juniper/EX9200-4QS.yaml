@@ -1,0 +1,13 @@
+---
+manufacturer: Juniper
+model: EX9200-4QS
+comments: 4x40G interfaces
+interfaces:
+  - name: et-{module}/0/0
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/0/1
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/2/0
+    type: 40gbase-x-qsfpp
+  - name: et-{module}/2/1
+    type: 40gbase-x-qsfpp

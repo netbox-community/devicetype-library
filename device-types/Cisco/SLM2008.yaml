@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: SLM2008
+slug: cisco-slm2008
+part_number: SLM2008
+u_height: 1
+is_full_depth: false
+comments: '[SLM Series Datasheet](https://community.cisco.com/legacyfs/online/legacy/1/6/5/36561-SLM2005_SLM2008_V10_UG_A-Web.pdf)'
+power-ports:
+  - name: PS A
+    type: iec-60320-c14
+    maximum_draw: 23
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t

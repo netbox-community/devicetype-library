@@ -1,0 +1,20 @@
+---
+manufacturer: F5
+model: BIG-IP 10250v
+slug: f5-big-ip-10250v
+part_number: 10250v
+is_full_depth: true
+console-ports:
+  - name: console
+    type: rj-45
+  - name: serial failover
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 260
+    allocated_draw: 175
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 260
+    allocated_draw: 175
