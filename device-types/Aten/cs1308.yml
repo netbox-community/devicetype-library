@@ -1,0 +1,44 @@
+---
+manufacturer: Aten
+model: 8-Port-PS/2-USB-VGA-KVM-Switch
+slug: aten-cs1308
+part_number: CS1308
+comments: '[CS1308](https://www.aten.com/de/de/products/kvm/rack-kvm-switches/cs1308/)'
+is_full_depth: false
+weight: 1.9
+weight_unit: kg
+u_height: 1
+power-ports:
+  - name: DC In
+    type: dc-terminal
+    maximum_draw: 3
+    description: DC 5.3 V
+console-ports:
+  - name: console
+    label: console
+    type: other
+console-server-ports:
+  - name: KVM/1
+    label: '1'
+    type: other
+  - name: KVM/2
+    label: '2'
+    type: other
+  - name: KVM/3
+    label: '3'
+    type: other
+  - name: KVM/4
+    label: '4'
+    type: other
+  - name: KVM/5
+    label: '5'
+    type: other
+  - name: KVM/6
+    label: '6'
+    type: other
+  - name: KVM/7
+    label: '7'
+    type: other
+  - name: KVM/8
+    label: '8'
+    type: other

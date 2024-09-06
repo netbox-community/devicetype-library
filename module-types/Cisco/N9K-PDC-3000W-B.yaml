@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco
+model: N9K-PDC-3000W-B
+part_number: N9K-PDC-3000W-B
+description: Cisco Nexus 9500 3000W -48V-60V DC PS, Port-Side Intake
+comments: Cisco Nexus 9500 3000W -48V-60V DC PS, Port-Side Intake / [Cisco Nexus 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-729404.html)
+weight: 2.9
+weight_unit: kg
+power-ports:
+  - name: PSU{module}-1
+    type: dc-terminal
+    maximum_draw: 1500
+  - name: PSU{module}-2
+    type: dc-terminal
+    maximum_draw: 1500
