@@ -4,7 +4,7 @@ model: DCS-7135LB-48Y4C-F
 slug: arista-dcs-7135lb-48y4c-f
 part_number: DCS-7135LB-48Y4C-F
 u_height: 1
-weight: 29
+weight: 27
 weight_unit: lb
 airflow: front-to-rear
 is_full_depth: false
@@ -17,8 +17,12 @@ console-ports:
 module-bays:
   - name: PS1
     position: '0'
+    allocated_draw: 667
+    maximum_draw: 1000
   - name: PS2
     position: '1'
+    allocated_draw: 667
+    maximum_draw: 1000
 interfaces:
   - name: Ethernet1
     type: 25gbase-x-sfp28
@@ -127,11 +131,3 @@ interfaces:
   - name: Management1
     type: 1000base-t
     mgmt_only: true
-  - name: PPS 1 Output
-    type: pps
-  - name: PPS 1 Input
-    type: pps
-  - name: PPS 2 Output
-    type: pps
-  - name: PPS 2 Input
-    type: pps
