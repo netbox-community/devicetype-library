@@ -1,34 +1,40 @@
 import os
 
 SCHEMAS = (
-    ('device-types', 'devicetype.json'),
-    ('module-types', 'moduletype.json'),
+    ("device-types", "devicetype.json"),
+    ("module-types", "moduletype.json"),
 )
 SCHEMAS_BASEPATH = f"{os.getcwd()}/schema/"
 
 IMAGE_FILETYPES = (
-    'bmp', 'gif', 'pjp', 'jpg', 'pjpeg', 'jpeg', 'jfif', 'png', 'tif', 'tiff', 'webp'
+    "bmp",
+    "gif",
+    "pjp",
+    "jpg",
+    "pjpeg",
+    "jpeg",
+    "jfif",
+    "png",
+    "tif",
+    "tiff",
+    "webp",
 )
 
 COMPONENT_TYPES = (
-    'console-ports',
-    'console-server-ports',
-    'power-ports',
-    'power-outlets',
-    'interfaces',
-    'front-ports',
-    'rear-ports',
-    'device-bays',
-    'module-bays',
+    "console-ports",
+    "console-server-ports",
+    "power-ports",
+    "power-outlets",
+    "interfaces",
+    "front-ports",
+    "rear-ports",
+    "device-bays",
+    "module-bays",
 )
 
-PRECOMMIT_ALL_SWITCHES = [
-  '-a',
-  '--all-files',
-  '--all'
-]
+PRECOMMIT_ALL_SWITCHES = ["-a", "--all-files", "--all"]
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 KNOWN_SLUGS = set()
 KNOWN_MODULES = set()

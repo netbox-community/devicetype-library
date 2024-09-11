@@ -24,7 +24,9 @@ DecimalSafeConstructor.add_constructor(
 )
 
 
-class DecimalSafeLoader(Reader, Scanner, Parser, Composer, DecimalSafeConstructor, Resolver):
+class DecimalSafeLoader(
+    Reader, Scanner, Parser, Composer, DecimalSafeConstructor, Resolver
+):
     def __init__(self, stream):
         Reader.__init__(self, stream)
         Scanner.__init__(self)
