@@ -1,0 +1,38 @@
+---
+manufacturer: IBM
+model: System x3650
+slug: ibm-system-x3650
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front USB3
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 670
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 670
+interfaces:
+  - name: Gig-E1
+    type: 1000base-t
+  - name: Gig-E2
+    type: 1000base-t
+  - name: Gig-E3
+    type: 1000base-t
+  - name: Gig-E4
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
