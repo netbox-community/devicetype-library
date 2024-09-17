@@ -1,3 +1,4 @@
+---
 manufacturer: DCN
 model: S4600-28P-P-SI
 part_number: S4600-28P-P-SI
@@ -135,30 +136,23 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    
-    
+
   - name: Ethernet1/0/24
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-    
-    
+
   - name: Ethernet1/0/25
     type: 1000base-x-sfp
-    
-    
+
   - name: Ethernet1/0/26
     type: 1000base-x-sfp
-    
-    
+
   - name: Ethernet1/0/27
     type: 1000base-x-sfp
-    
-    
+
   - name: Ethernet1/0/28
     type: 1000base-x-sfp
-
-
 power-ports:
   - name: PSU0
     type: iec-60320-c14
