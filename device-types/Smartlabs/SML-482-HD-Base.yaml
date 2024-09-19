@@ -1,0 +1,32 @@
+---
+manufacturer: Smartlabs
+model: SML-482 HD Base
+slug: smartlabs-sml-482-hd-base
+part_number: sml-482-hd-base
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 140
+weight_unit: g
+interfaces:
+  - name: ether1
+    label: '1'
+    type: 100base-tx
+  - name: usb
+    type: other
+  - name: hdmi
+    type: other
+  - name: spdif
+    type: other
+  - name: cvbs
+    type: other
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC, 1.2A
+comments: '[SML-482 HD Base Datasheet by Kolyan](https://4pda.to/forum/index.php?showtopic=965786)'
