@@ -1,0 +1,37 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 6670 Cable (DE)
+slug: avm-fritzbox-6670-cable-de
+part_number: '20003047'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 6670 Cable Datasheet](https://avm.de/produkte/fritzbox/fritzbox-6670-cable/technische-daten/)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: Cable
+    label: Cable
+    type: docsis
+  - name: FON1
+    label: FON 1
+    type: other
+  - name: LAN1
+    label: LAN 1
+    type: 2.5gbase-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+  - name: LAN4
+    label: LAN 4
+    type: 1000base-t
+  - name: LAN5
+    label: LAN 5
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ax
