@@ -1,0 +1,40 @@
+manufacturer: Synology
+model: RS3621xs+
+slug: synology-rs3621xs+
+part_number: RS3621xs+
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 1000base-t
+  - name: LAN4
+    type: 1000base-t
+  - name: LAN5
+    type: 10gbase-t
+  - name: LAN6
+    type: 10gbase-t
+  - name: Expansion 1
+    type: infiniband-ndr
+  - name: Expansion 2
+    type: infiniband-ndr
+console-ports:
+  - name: Console
+    type: de-9
+    mgmt_only: true
+rear-ports:
+  - name: USB-1
+    type: usb-a
+  - name: USB-2
+    type: usb-a
