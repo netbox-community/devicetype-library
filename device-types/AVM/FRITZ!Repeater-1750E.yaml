@@ -1,0 +1,19 @@
+---
+manufacturer: AVM
+model: FRITZ!Repeater 1750E
+slug: avm-fritzrepeater-1750e
+part_number: '20002686'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Repeater 1750E Handbuch](https://assets.avm.de/files/docs/fritzwlan/fritzwlan-repeater-1750e/fritzwlan-repeater-1750e_man_de_DE.pdf)'
+power-ports:
+  - name: Power
+    type: ita-c
+    maximum_draw: 6
+interfaces:
+  - name: LAN
+    label: LAN
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac
