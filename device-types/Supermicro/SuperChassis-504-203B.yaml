@@ -1,0 +1,32 @@
+---
+manufacturer: Supermicro
+model: SuperChassis 504-203B
+slug: supermicro-superchassis-504-203b
+part_number: 504-203B
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: Supermicro SuperChassis 504-203B (https://www.supermicro.com/en/products/chassis/Mini-1U/504/SC504-203B)
+weight: 4.54
+weight_unit: kg
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 200
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
