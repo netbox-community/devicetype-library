@@ -1,0 +1,67 @@
+---
+manufacturer: Blackmagicdesign
+model: ATEM Constellation 1 M/E 4k
+slug: blackmagicdesign-atem-constellation-1-m-e-4k
+part_number: W-APS-40
+u_height: 1
+is_full_depth: false
+airflow: right-to-left
+weight: 4.12
+weight_unit: lb
+console-ports:
+  - name: USB0
+    type: usb-c
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    allocated_draw: 90
+interfaces:
+  - name: CONTROL
+    type: 1000base-t
+  - name: TALKBACK
+    type: 1000base-t
+rear-ports:
+  - name: REF-IN
+    type: bnc
+  - name: SDI-INPUT-1
+    type: bnc
+  - name: SDI-INPUT-2
+    type: bnc
+  - name: SDI-INPUT-3
+    type: bnc
+  - name: SDI-INPUT-4
+    type: bnc
+  - name: SDI-INPUT-5
+    type: bnc
+  - name: SDI-INPUT-6
+    type: bnc
+  - name: SDI-INPUT-7
+    type: bnc
+  - name: SDI-INPUT-8
+    type: bnc
+  - name: SDI-INPUT-9
+    type: bnc
+  - name: SDI-INPUT-10
+    type: bnc
+  - name: SDI-INPUT-11
+    type: bnc
+  - name: SDI-INPUT-12
+    type: bnc
+  - name: SDI-OUTPUT-1
+    type: bnc
+  - name: SDI-OUTPUT-2
+    type: bnc
+  - name: SDI-OUTPUT-3
+    type: bnc
+  - name: SDI-OUTPUT-4
+    type: bnc
+  - name: SDI-OUTPUT-5
+    type: bnc
+  - name: SDI-OUTPUT-6
+    type: bnc
+  - name: MULTIVIEW-OUTPUT
+    type: bnc
+  - name: ANALOG-AUDIO-IN-1
+    type: other
+  - name: ANALOG-AUDIO-IN-2
+    type: other
