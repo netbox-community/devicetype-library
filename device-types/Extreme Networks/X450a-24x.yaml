@@ -1,0 +1,70 @@
+---
+manufacturer: Extreme Networks
+model: X450a-24x
+slug: extreme-networks-x450a-24x
+u_height: 1
+is_full_depth: false
+subdevice_role: parent
+comments: '[ExtremeWireless X450a-24x Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-FC2738CB-1588-4F5E-A901-69AF2579B5B7.shtml)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c13
+console-ports:
+  - name: Console
+    type: de-9
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp
+  - name: '11'
+    type: 1000base-x-sfp
+  - name: '12'
+    type: 1000base-x-sfp
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  - name: '15'
+    type: 1000base-x-sfp
+  - name: '16'
+    type: 1000base-x-sfp
+  - name: '17'
+    type: 1000base-x-sfp
+  - name: '18'
+    type: 1000base-x-sfp
+  - name: '19'
+    type: 1000base-x-sfp
+  - name: '20'
+    type: 1000base-x-sfp
+  - name: '21'
+    type: 1000base-t
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '22'
+    type: 1000base-t
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '23'
+    type: 1000base-t
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '24'
+    type: 1000base-t
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
