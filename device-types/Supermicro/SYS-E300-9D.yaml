@@ -1,0 +1,24 @@
+---
+manufacturer: Supermicro
+model: SuperServer SYS-E300-9D
+slug: supermicro-superserver-sys-e300-9d
+part_number: SYS-E300-9D
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: 'Specification: [https://www.supermicro.com/en/products/system/Mini-ITX/SYS-E300-9D.cfm](https://www.supermicro.com/en/products/system/Mini-ITX/SYS-E300-9D.cfm)'
+weight: 1.56
+weight_unit: kg
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: LAN1
+    type: 10gbase-t
+  - name: LAN2
+    type: 10gbase-t
+
+power-ports:
+  - name: PS1
+    type: dc-terminal
