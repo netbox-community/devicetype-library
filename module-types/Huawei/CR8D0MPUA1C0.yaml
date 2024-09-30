@@ -1,0 +1,31 @@
+---
+manufacturer: Huawei
+model: CR8D0MPUA1C0
+part_number: '03059123'
+description: NE8000 MPUP1
+comments: '[NetEngine 8000 Main Processing Unit A1 (MPUA1)](https://info.support.huawei.com/info-finder/enterprisesearch/en?keyword=CR9D0MPUP180)'
+weight: 4
+weight_unit: kg
+interfaces:
+  - name: GE0/0/0({module})
+    label: ETH
+    type: 1000base-t
+    mgmt_only: true
+  - name: FSP0({module})
+    type: 1000base-t
+  - name: FSP1({module})
+    type: 1000base-t
+  - name: SFP+0({module})
+    type: 10gbase-x-sfpp
+  - name: SFP+1({module})
+    type: 10gbase-x-sfpp
+  - name: SFP+2({module})
+    type: 1000base-x-sfp
+  - name: SFP+3({module})
+    type: 1000base-x-sfp
+console-ports:
+  - name: Console({module})
+    label: CONSOLE
+    type: rj-45
+  - name: USB({module})
+    type: usb-a
