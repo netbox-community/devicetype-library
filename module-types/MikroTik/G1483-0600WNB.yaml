@@ -1,0 +1,18 @@
+---
+manufacturer: MikroTik
+model: G1483-0600WNB
+part_number: G1483-0600WNB
+comments: |
+  Hot-swap 54.5V 10.35A 600W power supply for the CRS320-8P-8B-4S+RM PoE++
+  switch.
+
+  Hot-swap 54.5V 10.35A 600W power supply for the CRS320-8P-8B-4S+RM PoE++
+  switch. The switch comes with a single 600W PSU and an expansion slot for
+  a second PSU that can raise the total power output all the way to 1150
+  Watts, up to 90 Watts per PoE++ port.
+
+  [Product Page](https://mikrotik.com/product/g1483_0600wnb)
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 600
