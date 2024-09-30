@@ -1,0 +1,44 @@
+---
+manufacturer: HPE
+model: Aruba AP-505H
+slug: hpe-aruba-ap-505h
+part_number: R3V48A
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Aruba 500H Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP500HSeries.pdf)'
+weight: 360.0
+weight_unit: g
+console-ports:
+  - name: Serial Console
+    type: usb-micro-b
+power-ports:
+  - name: 48Vdc
+    type: dc-terminal
+interfaces:
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: 5GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: Bluetooth
+    type: ieee802.15.1
+  - name: Ethernet 0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: Ethernet 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  - name: Zigbee
+    type: other-wireless
