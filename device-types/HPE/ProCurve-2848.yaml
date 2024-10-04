@@ -15,6 +15,9 @@ power-ports:
   - name: PS1
     type: iec-60320-c14
     maximum_draw: 100
+  - name: RPS
+    type: dc-terminal
+    maximum_draw: 100
 interfaces:
   - name: '1'
     type: 1000base-t
