@@ -1,0 +1,39 @@
+---
+manufacturer: HPE
+model: ProCurve 600
+slug: hpe-procurve-600
+part_number: J8168A
+u_height: 1
+is_full_depth: false
+comments: '[HP ProCurve 600](https://ftp.hp.com/pub/networking/software/59906035-e1.pdf)'
+weight: 5.3
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 821
+power-outlets:
+  - name: RPS1
+    type: dc-terminal
+    power_port: PS1
+  - name: RPS2
+    type: dc-terminal
+    power_port: PS1
+  - name: RPS3
+    type: dc-terminal
+    power_port: PS1
+  - name: RPS4
+    type: dc-terminal
+    power_port: PS1
+  - name: RPS5
+    type: dc-terminal
+    power_port: PS1
+  - name: RPS6
+    type: dc-terminal
+    power_port: PS1
+  - name: EPS1
+    type: dc-terminal
+    power_port: PS1
+  - name: EPS2
+    type: dc-terminal
+    power_port: PS1
