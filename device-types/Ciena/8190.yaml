@@ -1,0 +1,137 @@
+---
+manufacturer: Ciena
+model: '8190'
+slug: ciena-8190
+part_number: 170-8190-900
+u_height: 2
+is_full_depth: false
+weight: 22
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+    mgmt_only: true
+  - name: USB
+    type: usb-c
+    mgmt_only: true
+  - name: 1PPS / 10MHz A
+    description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
+    type: other
+    mgmt_only: true
+  - name: 1PPS / 10MHz B
+    description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
+    type: other
+    mgmt_only: true
+  - name: ANT
+    description: GNSS/GPS antenna mini SMB.
+    type: other
+    mgmt_only: true
+  - name: SYNC
+    type: rj-45
+    description: RJ45 interface G.703 1PPS & ToD input/output
+    mgmt_only: true
+interfaces:
+  - name: M1
+    type: 10gbase-x-sfpp
+    description: host CPU extension port
+  - name: M2
+    type: 10gbase-x-sfpp
+    description: host CPU extension port
+  - name: M3
+    type: 10gbase-x-sfpp
+    description: host CPU extension port
+  - name: M4
+    type: 10gbase-x-sfpp
+    description: host CPU extension port
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: BMC MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 400gbase-x-qsfpdd
+  - name: '2'
+    type: 400gbase-x-qsfpdd
+  - name: '3'
+    type: 400gbase-x-qsfpdd
+  - name: '4'
+    type: 400gbase-x-qsfpdd
+  - name: '5'
+    type: 400gbase-x-qsfpdd
+  - name: '6'
+    type: 400gbase-x-qsfpdd
+  - name: '7'
+    type: 400gbase-x-qsfpdd
+  - name: '8'
+    type: 400gbase-x-qsfpdd
+  - name: '9'
+    type: 400gbase-x-qsfpdd
+  - name: '10'
+    type: 400gbase-x-qsfpdd
+  - name: '11'
+    type: 400gbase-x-qsfpdd
+  - name: '12'
+    type: 400gbase-x-qsfpdd
+  - name: '13'
+    type: 400gbase-x-qsfpdd
+  - name: '14'
+    type: 400gbase-x-qsfpdd
+  - name: '15'
+    type: 400gbase-x-qsfpdd
+  - name: '16'
+    type: 400gbase-x-qsfpdd
+  - name: '17'
+    type: 400gbase-x-qsfpdd
+  - name: '18'
+    type: 400gbase-x-qsfpdd
+  - name: '19'
+    type: 400gbase-x-qsfpdd
+  - name: '20'
+    type: 400gbase-x-qsfpdd
+  - name: '21'
+    type: 400gbase-x-qsfpdd
+  - name: '22'
+    type: 400gbase-x-qsfpdd
+  - name: '23'
+    type: 400gbase-x-qsfpdd
+  - name: '24'
+    type: 400gbase-x-qsfpdd
+  - name: '25'
+    type: 400gbase-x-qsfpdd
+  - name: '26'
+    type: 400gbase-x-qsfpdd
+  - name: '27'
+    type: 400gbase-x-qsfpdd
+  - name: '28'
+    type: 400gbase-x-qsfpdd
+  - name: '29'
+    type: 400gbase-x-qsfpdd
+  - name: '30'
+    type: 400gbase-x-qsfpdd
+  - name: '31'
+    type: 400gbase-x-qsfpdd
+  - name: '32'
+    type: 400gbase-x-qsfpdd
+  - name: '33'
+    type: 400gbase-x-qsfpdd
+  - name: '34'
+    type: 400gbase-x-qsfpdd
+  - name: '35'
+    type: 400gbase-x-qsfpdd
+  - name: '36'
+    type: 400gbase-x-qsfpdd
+
+module-bays:
+  - name: PS A
+    position: A
+    comments: |
+      170-0372-900 8140/8190, DC PLUGGABLE POWER SUPPLY -48V
+      170-0373-900 8140/8190, AC PLUGGABLE POWER SUPPLY
+  - name: PS B
+    position: B
+    comments: |
+      170-0372-900 8140/8190, DC PLUGGABLE POWER SUPPLY -48V
+      170-0373-900 8140/8190, AC PLUGGABLE POWER SUPPLY
