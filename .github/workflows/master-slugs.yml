@@ -6,6 +6,7 @@ on:
       - master
 jobs:
   build:
+    if: "!contains(github.event.head_commit.message, 'Regenerate master slug list after successful PR merge')"
     runs-on: ubuntu-latest
     permissions:
       contents: write
