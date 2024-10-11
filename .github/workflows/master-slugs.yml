@@ -37,7 +37,7 @@ jobs:
       - name: Set-Up Git
         run: |
           git config --global user.name 'NetBox-Bot'
-          git config --global user.email 'info@netboxlabs.com
+          git config --global user.email 'info@netboxlabs.com'
       - name: Commit
         run: |
           git add .
