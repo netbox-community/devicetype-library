@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ssh-key: {{secrets.SLUG_DEPLOY_KEY}}
+          ssh-key: ${{secrets.SLUG_DEPLOY_KEY}}
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
