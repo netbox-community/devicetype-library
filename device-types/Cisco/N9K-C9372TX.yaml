@@ -3,11 +3,20 @@ manufacturer: Cisco
 model: Nexus 9372TX
 part_number: N9K-C9372TX
 slug: cisco-n9k-c9372tx
+description: Nexus 9300 with 48p 100M/1/10G-T and 6p 40G QSFP+
+front_image: true
+rear_image: true
 u_height: 1
-is_full_depth: false
+weight: 10.25
+weight_unit: kg
+is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
 interfaces:
   - name: Ethernet1/1
     type: 10gbase-t
@@ -123,5 +132,15 @@ interfaces:
 module-bays:
   - name: PS1
     position: '1'
+    label: Power Supply 1
   - name: PS2
     position: '2'
+    label: Power Supply 2
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'
