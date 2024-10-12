@@ -1,21 +1,18 @@
 ---
 manufacturer: Huawei
-model: 6885-48YS8CQ-B
-slug: huawei-6885-48ys8cq-b
+model: CE6885-48YS8CQ
+slug: huawei-ce6885-48ys8cq
 u_height: 1
 is_full_depth: true
+comments: '[CE6885-48YS8CQ] (https://support.huawei.com/hedex/hdx.do?docid=EDOC1100345000&id=EN-US_CONCEPT_0000001969420452)'
 console-ports:
   - name: console0
     type: rj-45
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 600
-    allocated_draw: 141
+    position: PSU 1
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 600
-    allocated_draw: 141
+    position: PSU 2
 interfaces:
   - name: MEth0/0/0
     type: 1000base-t
