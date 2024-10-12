@@ -11,11 +11,13 @@ airflow: front-to-rear
 comments: '[Synology RS3621xs+ Datasheet](https://global.synologydownload.com/download/Document/Hardware/DataSheet/RackStation/21-year/RS3621xs%2B/enu/Synology_RS3621xs%2B_Data_Sheet_enu.pdf)'
 front_image: true
 rear_image: true
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
 interfaces:
   - name: LAN1
     type: 1000base-t
