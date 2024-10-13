@@ -11,15 +11,11 @@ rear_image: true
 console-ports:
   - name: Management
     type: rj-45
-power-ports:
-  - name: Slot 1
-    type: iec-60320-c14
-    maximum_draw: 37
-    allocated_draw: 24
-  - name: Slot 2
-    type: iec-60320-c14
-    maximum_draw: 37
-    allocated_draw: 24
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
 interfaces:
   - name: TFGigabitEthernet0/1
     type: 25gbase-x-sfp28
