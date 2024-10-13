@@ -16,13 +16,6 @@ console-ports:
   - name: Serial-2
     type: de-9
     label: Rear
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 650
 interfaces:
   - name: BMC
     type: 1000base-t
@@ -33,6 +26,10 @@ interfaces:
   - name: Gig-E 2
     type: 10gbase-t
 module-bays:
+  - name: PSU1
+    position: PSU 1
+  - name: PSU2
+    position: PSU 2
   - name: PCI-E 1
     position: '1'
     description: PCI-E 3.0 x8 (FH, FL)
