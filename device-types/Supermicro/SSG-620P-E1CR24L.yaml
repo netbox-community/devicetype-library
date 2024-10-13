@@ -12,18 +12,15 @@ airflow: front-to-rear
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: PSU-1
-    type: iec-60320-c14
-    maximum_draw: 1600
-  - name: PSU-2
-    type: iec-60320-c14
-    maximum_draw: 1600
 interfaces:
   - name: BMC
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: PSU1
+    position: PSU 1
+  - name: PSU2
+    position: PSU 2
   - name: PCI-E 1
     position: '1'
     description: Occupied by 3808 SAS controller
@@ -32,5 +29,5 @@ module-bays:
   - name: PCI-E 3
     position: '3'
   - name: PCI-E A1
-    position: '4'
+    position: A1
     description: Supermicro® Advanced I/O Module
