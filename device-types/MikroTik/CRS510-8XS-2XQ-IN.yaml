@@ -1,16 +1,13 @@
 ---
 manufacturer: MikroTik
-model: CRS518-16XS-2XQ
-slug: mikrotik-crs518-16xs-2xq
-part_number: CRS518-16XS-2XQ
+model: CRS510-8XS-2XQ-IN
+slug: mikrotik-crs510-8xs-2xq-in
+part_number: CRS510-8XS-2XQ-IN
 is_full_depth: false
 airflow: front-to-rear
 u_height: 1
 comments: |
-  [Product Page](https://mikrotik.com/product/crs518_16xs_2xq).
-
-  Careful, there is only qsfp28-1-1 and qsfp28-2-1 interfaces for 100Gb,
-  don't forget to add the other if you use breakout cables.
+  [Product Page](https://mikrotik.com/product/crs510_8xs_2xq_in)
 front_image: false
 rear_image: false
 is_powered: true
@@ -34,22 +31,6 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: sfp28-8
     type: 25gbase-x-sfp28
-  - name: sfp28-9
-    type: 25gbase-x-sfp28
-  - name: sfp28-10
-    type: 25gbase-x-sfp28
-  - name: sfp28-11
-    type: 25gbase-x-sfp28
-  - name: sfp28-12
-    type: 25gbase-x-sfp28
-  - name: sfp28-13
-    type: 25gbase-x-sfp28
-  - name: sfp28-14
-    type: 25gbase-x-sfp28
-  - name: sfp28-15
-    type: 25gbase-x-sfp28
-  - name: sfp28-16
-    type: 25gbase-x-sfp28
   - name: qsfp28-1-1
     type: 100gbase-x-qsfp28
   - name: qsfp28-2-1
@@ -66,15 +47,12 @@ module-bays:
   - name: power2
     position: power2
     description: Power module
-  - name: fan1
-    position: '1'
-    description: Fan tray
-  - name: fan2
-    position: '2'
-    description: Fan tray
-  - name: fan3
-    position: '3'
-    description: Fan tray
-  - name: fan4
-    position: '4'
-    description: Fan tray
+power-ports:
+  - name: power3
+    label: DC 36-57V
+    type: dc-terminal
+    maximum_draw: 45
+  - name: power4
+    label: DC 36-57V
+    type: dc-terminal
+    maximum_draw: 45

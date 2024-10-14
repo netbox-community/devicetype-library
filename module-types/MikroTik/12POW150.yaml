@@ -1,0 +1,21 @@
+---
+manufacturer: MikroTik
+model: 12POW150
+part_number: 12POW150
+comments: |
+  Hot Swap power supply for CCR1072/2216 and CRS518/CRS520.
+
+  CCR1072-1G-8S+, CR2216-1G-12XS-2XQ, CRS518-16XS-2XQ-RM and CRS520-4XS-16XQ-RM units
+  are equipped with two redundant Hot Swap 12v 150W AC/DC power supplies. If one
+  of them goes out of order, second one will take over.
+
+  Hot Swap 12v 150W AC/DC power supplies for CCR1072-1G-8, CCR2216-1G-12XS-2XQ,
+  CRS518-16XS-2XQ-RM, and CRS520-4XS-16XQ-RM are now available for purchase
+  separately. You can replace them on the go to ensure zero downtime, no need to
+  even restart the router.
+
+  [Product Page](https://mikrotik.com/product/12pow150)
+power-ports:
+  - name: power{module}
+    type: iec-60320-c14
+    maximum_draw: 150
