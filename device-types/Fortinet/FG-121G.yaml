@@ -1,8 +1,8 @@
 ---
 manufacturer: Fortinet
-model: FortiGate 120G
-slug: fortinet-fg-120g
-part_number: FG-120G
+model: FortiGate 121G
+slug: fortinet-fg-121g
+part_number: FG-121G
 u_height: 1
 is_full_depth: false
 weight: 5.52
@@ -15,18 +15,15 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 40
-    allocated_draw: 38
+    maximum_draw: 47
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 40
-    allocated_draw: 38
+    maximum_draw: 47
 interfaces:
   - name: ha
     type: 1000base-t
   - name: mgmt
     type: 1000base-t
-    mgmt_only: true
   - name: port1
     type: 1000base-t
   - name: port2
