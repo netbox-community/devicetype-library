@@ -1,13 +1,30 @@
 ---
 manufacturer: Palo Alto
-model: M-200
-slug: m-200
-part_number: M-200
+model: PAM-M-200
+slug: pan-m-200
+part_number: PAN-M-200
+description: 'Palo Alto Networks M-200, 16TB RAID storage (4 8TB RAID certified drives preinstalled)'
 u_height: 1
 is_full_depth: true
 subdevice_role: parent
 comments: '## [Palo Alto Networks M-200, 16TB RAID storage (4 8TB RAID certified drives preinstalled)] |
+
+##### I/O: 100/1000/10000 (2), DB9 console serial port (1), USB port (1)
+
+##### Storage: Maximum configuration: 8 TB RAID Certified HDD (4) for 16 TB of RAID storage
+
+##### Power Supply/ Max Power Consumption : Dual power supplies, hot swap redundant configuration 750 W 300 W (total system)
+
+##### Rack: 1U
+
+##### Dimensions : 1.7” H x 29” D x 17.2” W (4.32cm H x 73.67cm D x 43.69cm W)
+
+##### Appliance weight : 26lbs (11.79Kg)
+
+##### Shipping weight : 41lbs (18.59Kg)
+
  <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/m-200-m-600/m-200-m-600-appliances-hardware-reference.pdf>
+
  <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/panorama/9-1/panorama-admin/panorama-admin.pdf>'
 power-ports:
   - name: PS1
@@ -29,20 +46,26 @@ interfaces:
   - name: IPMI Rear
     type: 1000base-t
     mgmt_only: true
+  - name: MGT
+    type: 1000base-t
+    description: 'Upper left—Management (MGT)'
   - name: ethernet1/1
     type: 1000base-t
+    description: 'Upper right—Ethernet1/1'
   - name: ethernet1/2
     type: 1000base-t
+    description: 'Lower left—Ethernet1/2'
   - name: ethernet1/3
     type: 1000base-t
-  - name: ethernet1/4
-    type: 1000base-t
+    description: 'Lower right—Ethernet1/3'
 device-bays:
-  - name: Drive bay-0/LFF
+  - name: Drive SSD
+    description: '2.5" SFF/240GB solid-state drive (SSD)'
+  - name: Drive A1/LFF
     description: '3.5" LFF'
-  - name: Drive bay-1/LFF
+  - name: Drive A2/LFF
     description: '3.5" LFF'
-  - name: Drive bay-2/LFF
+  - name: Drive B1/LFF
     description: '3.5" LFF'
-  - name: Drive bay-3/LFF
+  - name: Drive B2/LFF
     description: '3.5" LFF'

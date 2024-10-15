@@ -1,6 +1,6 @@
 ---
-manu  - name: MGT
-    type: 1000base-tfacturer: Palo Alto
+manufacturer: Palo Alto
+description: '[PA-1420 Datasheet]  Ports: 10/100/1000 (4), 1G/2.5G/5G (4), 1G/2.5G/5G (4)/PoE, 1G SFP (2), 1G/10G SFP/SFP+ (8)'
 model: PA-1420
 slug: pa-1420
 part_number: PAN-PA-1420
@@ -74,21 +74,42 @@ interfaces:
   - name: ethernet1/4
     type: 1000base-t
   - name: ethernet1/5
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/6
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/7
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/8
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/9
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/10
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/11
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/12
-    type: 5GBASE-T
+    type: 1000base-x-sfp
   - name: ethernet1/13
     type: 1000base-x-sfp
   - name: ethernet1/14

@@ -1,10 +1,12 @@
 ---
 manufacturer: Palo Alto
+description: '[PA-1410 Datasheet]  Ports: 10/100/1000 (8), 1G/2.5G/5G (4)/PoE, 1G SFP (6), 1G/10G SFP/SFP+ (4)'
 model: PA-1410
 slug: pa-1410
 part_number: PAN-PA-1410
 u_height: 1
 is_full_depth: false
+subdevice_role: parent
 comments: '## [PA-1410 Datasheet]  Ports: 10/100/1000 (8), 1G/2.5G/5G (4)/PoE, 1G SFP (6), 1G/10G SFP/SFP+ (4)|
 
 ##### 8 Core CPU
@@ -37,8 +39,6 @@ comments: '## [PA-1410 Datasheet]  Ports: 10/100/1000 (8), 1G/2.5G/5G (4)/PoE, 1
 <https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-1400-series>  
 
 <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-1400-series/pa-1400-hardware-reference.pdf> '
-
-
 
 console-ports:
   - name: console
@@ -79,13 +79,25 @@ interfaces:
   - name: ethernet1/8
     type: 1000base-t
   - name: ethernet1/9
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/10
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/11
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/12
-    type: 5GBASE-T
+    type: 5gbase-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
   - name: ethernet1/13
     type: 1000base-x-sfp
   - name: ethernet1/14
