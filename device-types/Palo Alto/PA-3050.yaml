@@ -1,12 +1,12 @@
 ---
 manufacturer: Palo Alto
-model: PA-3050
-<<<<<<< HEAD
-slug: pa-3050
+description: 'PA-3050 Series Datasheet  Ports: 10/100M/1G (8), 1G SFP (8) ' 
+model: PAN-PA-3050
+slug: pan-pa-3050
 part_number: PAN-PA-3050
 u_height: 1
+subdevice_role: parent
 is_full_depth: false
-<<<<<<< HEAD
 comments: '## [PA-3050 Series Datasheet]  Ports: 10/100M/1G (8), 1G SFP (8) |
 
 
@@ -35,11 +35,7 @@ comments: '## [PA-3050 Series Datasheet]  Ports: 10/100M/1G (8), 1G SFP (8) |
 ###### 5,000	Max. number of policies
 
 
-<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf> '
-=======
-front_image: true
-comments: '[PA-3000 Series Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
->>>>>>> 15e771f27d23426b0e0a482d2756857e4fa73807
+-<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf> '
 console-ports:
   - name: console
     type: rj-45

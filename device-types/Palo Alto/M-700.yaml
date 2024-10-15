@@ -1,0 +1,96 @@
+---
+manufacturer: Palo Alto
+description: 'Palo Alto Networks M-700 chassis with 48TB storage (12x8TB RAID certified drives)'
+model: PAN-M-700
+slug: pan-m-700
+part_number: PAN-M-700
+u_height: 2
+subdevice_role: parent
+is_full_depth: true
+comments: '## [Palo Alto Networks M-600 chassis with 48TB storage (12x8TB RAID certified drives)] |
+
+
+##### I/O: 100/1000/10000 (2), DB9 console serial port (1), USB port (1), 10 GigE ports (2)
+
+##### Storage: Maximum configuration: Maximum configuration: 8 TB RAID Certified HDD (12) for 48 TB of RAID storage
+
+##### Power Supply/ Max Power Consumption : Dual power supplies, hot swap redundant configuration 750 W 486 W (total system)
+
+##### Rack: 2U
+
+##### Dimensions : 3.5” H x 28.46” D x 17.2” W (8.89cm H x 72.29cm D x 43.69cm W)
+
+##### Appliance weight : 36lbs (16.33Kg)
+
+##### Shipping weight :72lbs (32.66Kg)
+
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/m-300-m-700/m-300-m-700-appliances-hardware-reference.pdf
+
+ <https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/strata-cloud-manager/strata-cloud-manager-getting-started.pdf>'
+
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 750
+    allocated_draw: 486
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 750
+    allocated_draw: 486
+console-ports:
+  - name: console Rear
+    type: de-9
+  - name: USB1 Rear
+    type: usb-a   
+  - name: USB2 Rear
+    type: usb-a   
+interfaces:
+  - name: IPMI Rear
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGT
+    type: 1000base-t
+    description: 'Upper left—Management (MGT)'
+  - name: ethernet1/1
+    type: 1000base-t
+    description: 'Upper right—Ethernet1/1'
+  - name: ethernet1/4
+    type: 10gbase-x-sfpp
+    description: on PCIe-Gen4-3
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+    description: on PCIe-Gen4-3
+device-bays:
+  - name: PCIe-Gen4-1
+  - name: PCIe-Gen4-2
+  - name: PCIe-Gen4-3
+    label: 10gbase-x-sfpp
+  - name: PCIe-Gen4-4
+  - name: Drive Rear-S1/SFF
+    description: '2.5" SFF/SSD'
+  - name: Drive Rear-S2/SFF
+    description: '2.5" SFF/SSD'
+  - name: Drive A1/LFF
+    description: '3.5" LFF'
+  - name: Drive A2/LFF
+    description: '3.5" LFF'
+  - name: Drive B1/LFF
+    description: '3.5" LFF'
+  - name: Drive B2/LFF
+    description: '3.5" LFF'
+  - name: Drive C1/LFF
+    description: '3.5" LFF'
+  - name: Drive C2/LFF
+    description: '3.5" LFF'
+  - name: Drive D1/LFF
+    description: '3.5" LFF'
+  - name: Drive D2/LFF
+    description: '3.5" LFF'
+  - name: Drive E1/LFF
+    description: '3.5" LFF'
+  - name: Drive E2/LFF
+    description: '3.5" LFF'
+  - name: Drive F1/LFF
+    description: '3.5" LFF'
+  - name: Drive F2/LFF
+    description: '3.5" LFF'
