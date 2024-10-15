@@ -1,0 +1,30 @@
+---
+manufacturer: Schweitzer Engineering Laboratories
+model: SEL-451-5 Relay
+slug: schweitzer-engineering-laboratories-351a-r-relay
+u_height: 2
+is_full_depth: false
+is_powered: true
+comments: Advanced feeder protection and complete substation bay control in one economical system \ Communications Protocols; FTP, HTTP, TelNet, SEL ASCII,
+  SEL Fast Message, Synchrophasors, DNP3, PRP, PTPv2, IEC 61850 v2 (optional)
+
+console-ports:
+  - name: EIA-232-1
+    type: de-9
+interfaces:
+  - name: EIA-232-2
+    type: other
+  - name: EIA-232-3
+    type: other
+  - name: EIA-232-4
+    type: other
+   #Utilized cisco formatting for the Eternet numbering below:
+  - name: Ethernet0/0
+    type: 100base-fx
+  - name: Ethernet0/1
+    type: 100base-fx
+
+power-ports:
+  - name: power
+    type: hardwired
+    description: 24–48 Vdc; 48–125 Vdc or 110–120 Vac; or 125–250 Vdc or 110–240 Vac.

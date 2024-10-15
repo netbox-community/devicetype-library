@@ -1,0 +1,63 @@
+---
+manufacturer: Schweitzer Engineering Laboratories
+model: SEL-451-6 TiDL
+slug: schweitzer-engineering-laboratories-351a-5-tidl
+u_height: 4
+is_full_depth: false
+is_powered: true
+comments: SEL Time-Domain Link (TiDL) technology is a protectioncentered digital secondary system solution engineered with simplicity in mind. This technology
+  minimizes cybersecurity risks and network engineering by using point-to-point communications and a nonroutable protocol \ Communications Protocols - FTP,
+  HTTP, TelNet, SEL ASCII, SEL Fast Message, Synchrophasors, DNP3, PRP, PTPv2, IEC 61850 v2 (optional) \
+
+console-ports:
+  - name: EIA-232-1
+    type: de-9
+
+interfaces:
+  - name: EIA-232-2
+    type: other
+  - name: EIA-232-3
+    type: other
+  - name: EIA-232-4
+    type: other
+   #Utilized cisco formatting for the Eternet numbering below:
+  - name: Ethernet0/0
+    type: 1000base-x-sfp
+  - name: Ethernet0/1
+    type: 1000base-x-sfp
+  - name: Ethernet1/0
+    type: 100base-fx
+  - name: Ethernet1/1
+    type: 100base-fx
+  - name: Ethernet1/2
+    type: 100base-fx
+  #TiDL Interfaces - TiDL uses a point-to-point architecture, implementation is simple and requires zero network engineering.
+  - name: TiDL0/0
+    type: other
+    description: fiber
+  - name: TiDL0/1
+    type: other
+    description: fiber
+  - name: TiDL0/2
+    type: other
+    description: fiber
+  - name: TiDL0/3
+    type: other
+    description: fiber
+  - name: TiDL0/4
+    type: other
+    description: fiber
+  - name: TiDL0/5
+    type: other
+    description: fiber
+  - name: TiDL0/6
+    type: other
+    description: fiber
+  - name: TiDL0/7
+    type: other
+    description: fiber
+
+power-ports:
+  - name: power
+    type: hardwired
+    description: 24–48 Vdc; 48–125 Vdc or 110–120 Vac; or 125–250 Vdc or 110–240 Vac.

@@ -1,0 +1,22 @@
+---
+manufacturer: Schweitzer Engineering Laboratories
+model: SEL-587 Current Differential Relay
+slug: schweitzer-engineering-laboratories-sel-587-current-differential-relay
+part_number: SEL-587
+u_height: 2
+airflow: front-to-rear
+weight: 5.00
+weight_unit: lb
+is_full_depth: true
+comments: |
+  [SEL - 587 Protection System Data Sheet](https://selinc.com/api/download/2845/); Description: Economical Differential Protectionfor Power Apparatus
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 6
+console-server-ports:
+  # Serial Ports
+  - name: Port F
+    label: Communications with Modbus RTU-Slave, ASCII terminals, local HMI, SCADA, or DCS systems
+    type: de-9
+    speed: 38400
