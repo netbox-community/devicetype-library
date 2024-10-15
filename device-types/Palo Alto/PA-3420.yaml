@@ -1,13 +1,14 @@
 ---
 manufacturer: Palo Alto
+description: 'PA-3420: Ports: 1G/2.5G/5G/10G (12), 1G/10G SFP/SFP+ (10), 25G SFP28 (4)'
 model: PA-3420
 slug: pa-3420
 part_number: PAN-PA-3420
 u_height: 1
 is_full_depth: false
-comments: '### [PA-3420 Series Datasheet] 
-
-#### (PA-3420:  Ports: 1G/2.5G/5G/10G (12), 1G/10G SFP/SFP+ (10), 25G SFP28 (4)) |
+subdevice_role: parent
+airflow: front-to-rear
+comments: '### PA-3420: Ports: 1G/2.5G/5G/10G (12), 1G/10G SFP/SFP+ (10), 25G SFP28 (4)
 
 
 ######  20.8 Gbps firewall throughput (HTTP/appmix)
@@ -20,8 +21,34 @@ comments: '### [PA-3420 Series Datasheet]
 
 ######  205,000 New sessions per second
 
+###### Networking I/O: 1G/2.5G/5G/10G (12), 1G/10G SFP/SFP+ (10), 25G SFP28 (4)
 
-<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series>'
+###### Management I/O: 100/1000 out-of-band management port (1),
+
+####### 100/1000 high availability (2), 10G SFP+ high availability (1),
+
+####### RJ-45 console port (1), Micro USB (1)
+
+###### Storage Capacity: 480 GB SSD pair, system storage
+
+###### Power Supply (Avg/Max Power Consumption): Redundant 450-watt AC (145W/178W)
+
+#### Form Factor:	Rack-mountable - 1U
+
+###### Number of Power Supplies:	2
+
+###### Typical Operating Power:	450 W
+
+###### Dimensions (H x W x D):	1.7” H x 14.23” D x 17.12” W (4.32 cm H x 36.14 cm D x 43.49 cm W
+
+###### Net Weight:25 lbs (11.34 kg)
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series> 
+
+
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3400-series/pa-3400-hardware-reference.pdf> '
 console-ports:
   - name: console
     type: rj-45
@@ -32,12 +59,12 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 195
-    allocated_draw: 155
+    maximum_draw: 178
+    allocated_draw: 145
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 195
-    allocated_draw: 155
+    maximum_draw: 178
+    allocated_draw: 145
 interfaces:
   - name: HSCI port
     type: 10gbase-x-sfpp
@@ -48,24 +75,9 @@ interfaces:
   - name: MGT
     type: 1000base-t
     mgmt_only: true
-=======
-slug: palo-alto-pa-3420
-part_number: PA-3420
-u_height: 1
-is_full_depth: false
-weight: 7.00
-weight_unit: kg
-airflow: front-to-rear
-front_image: true
-rear_image: true
-comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
-console-ports:
-  - name: console
-    type: rj-45
-interfaces:
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: ethernet1/1
     type: 10gbase-t
+    description: 'ZTP WAN Port'
   - name: ethernet1/2
     type: 10gbase-t
   - name: ethernet1/3
@@ -116,20 +128,3 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: ethernet1/26
     type: 25gbase-x-sfp28
-<<<<<<< HEAD
-=======
-  - name: ha1-a
-    type: 1000base-t
-  - name: ha1-b
-    type: 1000base-t
-  - name: hsci
-    type: 10gbase-x-sfpp
-  - name: management
-    type: 1000base-t
-    mgmt_only: true
-module-bays:
-  - name: PS1
-    position: '1'
-  - name: PS2
-    position: '2'
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
