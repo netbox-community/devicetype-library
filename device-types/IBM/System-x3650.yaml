@@ -18,13 +18,11 @@ console-server-ports:
     type: usb-a
   - name: Rear USB2
     type: usb-a
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-    maximum_draw: 670
-  - name: Power 2
-    type: iec-60320-c14
-    maximum_draw: 670
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
 interfaces:
   - name: Gig-E1
     type: 1000base-t
