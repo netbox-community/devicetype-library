@@ -1,0 +1,80 @@
+---
+manufacturer: Palo Alto
+model: PA-410R
+slug: PA-410R
+part_number: PAN-PA-410R
+u_height: 1
+is_full_depth: false
+comments: '## [PA-410R Datasheet] Ports: 10/100/1000 (7)  |
+
+
+######  1.4 Gbps firewall throughput (HTTP/appmix)
+
+######  650 Mbps Threat Prevention throughput (HTTP/appmix)
+
+######  650 Mbps Gbps IPsec VPN throughput
+
+######  64,000 Max sessions
+
+######  11,400 New sessions per second
+
+###### Hardware Specifications
+
+###### I/O:	RJ45 (7)
+
+#######    Management I/O	10/100/1000 out-of-band management port (1), RJ45 console port (1), USB port (2)
+
+#######     Storage Capacity	64 GB eMMC 
+
+###### Power Supply (Avg/Max Power Consumption)	17/18 W 
+
+###### Max BTU/hr	78 
+
+###### Input Voltage Frequency	100-240 VAC (50–60 Hz)
+
+###### Max Current Consumption	 1.5 A @ 12 VDC
+
+###### Max Inrush Current	2.1 A
+
+###### Dimensions	3.78" H x 8.19" D x 10.62" W
+
+###### Weight (Standalone Device/As Shipped)	 9/12.3 lbs
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-450r>
+
+
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-400r/pa-400r-hardware-reference.pdf> '
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 18
+console-ports:
+  - name: console
+    type: rj-45
+  - name: USB1
+    type: usb-a   
+  - name: USB2
+    type: usb-a   
+interfaces:
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: loopback
+    type: virtual

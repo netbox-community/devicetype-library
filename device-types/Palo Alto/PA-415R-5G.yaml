@@ -1,0 +1,122 @@
+---
+manufacturer: Palo Alto
+model: PA-415R-5G
+slug: PA-415R-5G
+part_number: PAN-PA-415R-5G
+u_height: 1
+is_full_depth: false
+comments: '## [PA-415R-5G Datasheet] 1G SFP/RJ45 combo (1), RJ45 (4), RJ45/PoE (4) |
+
+#######  Firewall throughput (HTTP/appmix): 1.4 Gbps
+
+######  Threat Prevention throughput (HTTP/appmix): 650 Mbps
+
+######  IPsec VPN throughput:	650 Mbps
+
+######  Max concurrent sessions: 64.000
+
+######  New sessions per second: 111,400
+
+######  Virtual systems:	(1/2)
+
+######  Hardware Specifications
+
+######  I/O:	
+
+########  1G SFP/RJ45 combo (1), RJ45 (4), RJ45/PoE (4)
+
+########  Management I/O	SFP/RJ45(1 GB) combo management port (1)
+
+########  RJ45 console port (1), USB port (2), Micro USB console port (1)
+
+######  Power Over Ethernet (PoE)	PoE RJ45 ports (4)
+
+######  Total PoE Power Budget: 91 W
+
+######  Maximum loading on single port: 60 W
+
+######  Storage Capacity	128 GB eMMC
+
+######  Power Supply (Avg/Max Power Consumption)	29/34 W
+
+######  Max BTU/hr	117
+
+######  Input Voltage Frequency	100-240 VAC (50–60 Hz)
+
+######  Max Current Consumption	 2.9 A @ 12 VDC
+
+######  Max Inrush Current	3.3 A
+
+###### Dimensions	4.13" H x 8.19" D x 10.62" W
+
+######  Weight (Standalone Device/As Shipped) : 9/12.8 lbs
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-450r>
+
+
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-400r/pa-400r-hardware-reference.pdf> '
+power-ports:
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 21
+  - name: PWR2 
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 21
+console-ports:
+  - name: console
+    type: rj-45
+  - name: Micro USB console
+    type: usb-micro-b
+  - name: USB1
+    type: usb-a   
+  - name: USB2
+    type: usb-a   
+interfaces:
+  - name: Cellular1/1
+    type: lte
+  - name: Cellular1/2
+    type: lte    
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGT1
+    type: 1000base-x-sfp
+  - name: ethernet1/0
+    type: 1000base-x-sfp
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at    
+  - name: ethernet1/7
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at    
+  - name: ethernet1/8
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at    
+  - name: ethernet1/9
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at    
+  - name: loopback
+    type: virtual

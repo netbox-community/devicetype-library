@@ -1,0 +1,85 @@
+---
+manufacturer: Palo Alto
+model: PA-450R
+slug: PA-450R
+part_number: PAN-PA-450R
+u_height: 1
+is_full_depth: false
+comments: '## [PA-450R Datasheet] Ports: 10/100/1000 (8) |
+
+######  3.2 Gbps firewall throughput (HTTP/appmix)
+
+######  1.7 Gbps Threat Prevention throughput (HTTP/appmix)
+
+######  1.7 Gbps Gbps IPsec VPN throughput
+
+######  200,000 Max sessions
+
+######  48,000 New sessions per second
+
+######  Hardware Specifications
+
+######  I/O	RJ45 (8)
+
+########  Management I/O	 10/100/1000 out-of-band management port (1), RJ45 console port (1), USB port (2), Micro USB console port (1)
+
+########  Storage Capacity	128 GB eMMC
+
+######  Power Supply (Avg/Max Power Consumption)	33/41 W
+
+######  Max BTU/hr	141
+
+######  Input Voltage Frequency	100-240 VAC (50–60 Hz)
+
+######  Max Current Consumption	3.4 A @ 12 VDC
+
+######  Max Inrush Current	4.2 A
+
+######  Dimensions	1.74" H x 15.35" D x 9.37" W
+
+######  Weight (Standalone Device/As Shipped) 10/14.5 lbs
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-450r>
+
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-400r/pa-400r-hardware-reference.pdf> '
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+    maximum_draw: 35
+    allocated_draw: 25
+  - name: PWR2 
+    type: dc-terminal
+    maximum_draw: 35
+    allocated_draw: 25
+console-ports:
+  - name: console
+    type: rj-45
+  - name: Micro USB console
+    type: usb-micro-b
+  - name: USB1
+    type: usb-a   
+  - name: USB2
+    type: usb-a   
+interfaces:
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: loopback
+    type: virtual
