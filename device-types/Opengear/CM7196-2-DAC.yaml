@@ -1,11 +1,11 @@
 ---
 manufacturer: Opengear
-model: CM7148-2-DAC-US
-slug: opengear-cm7148-2-dac-us
-part_number: CM7148-2-DAC-US
+model: CM7196-2-DAC
+slug: opengear-cm7196-2-dac
+part_number: CM7196-2-DAC
 u_height: 1
 is_full_depth: false
-comments: CM7148 with built-in Dual Power Supplies
+comments: CM7196 with built-in Dual Power Supplies.  48 console ports on the front and 48 console ports on the back of the appliance.
 console-ports:
   - name: Console
     type: rj-45
@@ -106,15 +106,113 @@ console-server-ports:
     type: rj-45
   - name: Port 48
     type: rj-45
+  - name: Port 49
+    type: rj-45
+  - name: Port 50
+    type: rj-45
+  - name: Port 51
+    type: rj-45
+  - name: Port 52
+    type: rj-45
+  - name: Port 53
+    type: rj-45
+  - name: Port 54
+    type: rj-45
+  - name: Port 55
+    type: rj-45
+  - name: Port 56
+    type: rj-45
+  - name: Port 57
+    type: rj-45
+  - name: Port 58
+    type: rj-45
+  - name: Port 59
+    type: rj-45
+  - name: Port 60
+    type: rj-45
+  - name: Port 61
+    type: rj-45
+  - name: Port 62
+    type: rj-45
+  - name: Port 63
+    type: rj-45
+  - name: Port 64
+    type: rj-45
+  - name: Port 65
+    type: rj-45
+  - name: Port 66
+    type: rj-45
+  - name: Port 67
+    type: rj-45
+  - name: Port 68
+    type: rj-45
+  - name: Port 69
+    type: rj-45
+  - name: Port 70
+    type: rj-45
+  - name: Port 71
+    type: rj-45
+  - name: Port 72
+    type: rj-45
+  - name: Port 73
+    type: rj-45
+  - name: Port 74
+    type: rj-45
+  - name: Port 75
+    type: rj-45
+  - name: Port 76
+    type: rj-45
+  - name: Port 77
+    type: rj-45
+  - name: Port 78
+    type: rj-45
+  - name: Port 79
+    type: rj-45
+  - name: Port 80
+    type: rj-45
+  - name: Port 81
+    type: rj-45
+  - name: Port 82
+    type: rj-45
+  - name: Port 83
+    type: rj-45
+  - name: Port 84
+    type: rj-45
+  - name: Port 85
+    type: rj-45
+  - name: Port 86
+    type: rj-45
+  - name: Port 87
+    type: rj-45
+  - name: Port 88
+    type: rj-45
+  - name: Port 89
+    type: rj-45
+  - name: Port 90
+    type: rj-45
+  - name: Port 91
+    type: rj-45
+  - name: Port 92
+    type: rj-45
+  - name: Port 93
+    type: rj-45
+  - name: Port 94
+    type: rj-45
+  - name: Port 95
+    type: rj-45
+  - name: Port 96
+    type: rj-45
 power-ports:
+# best guess on maximum_draw
+# datasheet states 35W power consumption for 96-port models
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 25
-    allocated_draw: 20
+    maximum_draw: 50
+    allocated_draw: 35
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 25
-    allocated_draw: 20
+    maximum_draw: 50
+    allocated_draw: 35
 interfaces:
 # physical interface labels seem different than config labels
   - name: lan
