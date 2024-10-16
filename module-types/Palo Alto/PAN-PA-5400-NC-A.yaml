@@ -2,6 +2,19 @@
 manufacturer: Palo Alto
 model: PAN-PA-5400-NC-A
 part_number: PAN-PA-5400-NC-A
+subdevice_role: child
+comments: '#### [PA-5400-NC-A up to 100Gbps Ethernet connectivity]
+
+########    100/1000/10G Cu (4), 1G/10G SFP/ SFP+ (12), 40G/100G QSFP28 (2); minimum 1 NC and maximum 2 NCs per system; 2 NCs require 2 or more DPCs installed
+
+###### • PA-5400-NC-A Networking I/O:
+
+########    100/1000/10G Cu (4), 1G/10G SFP/ SFP+ (12), 40G/100G QSFP28 (2); 
+
+########    minimum 1 NC and maximum 2 NCs per system; 2 NCs require 2 or more DPCs installed
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf>'
+
 interfaces:
   - name: ethernet{module}/1
     type: 10gbase-t

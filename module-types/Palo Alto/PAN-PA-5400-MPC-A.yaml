@@ -2,6 +2,18 @@
 manufacturer: Palo Alto
 model: PAN-PA-5400-MPC-A
 part_number: PAN-PA-5400-MPC-A
+subdevice_role: child
+comments: '#### [PA-5400-MPC-A Management I/O module]
+
+###### The MPC subsystem (PAN-PA-5400-MPC-A) acts as a dedicated point of contact for controlling all aspects of the PA-5450. 
+
+###### • PAN-PA-5400-MPC-A Management I/O:
+
+########    SFP/SFP+ MGT (2), SFP/SFP+ HA1 (2), HSCI HA2/HA3 QSFP+/ QSFP28 (2)
+
+########    SFP/SFP+ LOG (2),RJ45 serial console (1), Micro USB serial console (1)
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf>'
 interfaces:
   - name: HA1-A
     type: 10gbase-x-sfpp
