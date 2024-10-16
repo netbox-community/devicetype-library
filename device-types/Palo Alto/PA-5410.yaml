@@ -1,22 +1,78 @@
 ---
 manufacturer: Palo Alto
+description: '[PA-5410] 1G/2.5G/5G/10G (8), 1G/10G SFP/SFP+ (12), 25G SFP28 (4), 40G/100G QSPF+/QSFP28 (4)'
 model: PA-5410
 slug: palo-alto-pa-5410
 part_number: PA-5410
 u_height: 2
 is_full_depth: true
-weight: 15.88
+weight: 16.0
 weight_unit: kg
 airflow: front-to-rear
+subdevice_role: parent
 front_image: true
 rear_image: true
-comments: '[PA-5400 Series Next-Gen Firewall Hardware Reference](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf)'
+comments: '### [PA-5410] 1G/2.5G/5G/10G (8), 1G/10G SFP/SFP+ (12), 25G SFP28 (4), 40G/100G QSPF+/QSFP28 (4)
+
+##### 45.2/36.7 Gbps Firewall throughput (HTTP/appmix)
+
+##### 22/23.5 Gbps Threat Prevention throughput (HTTP/appmix)
+
+##### 21 Gbps	IPsec VPN throughput
+
+##### 4.1 M Max sessions
+
+##### 246,000 New sessions per second
+
+##### 10/20 Virtual systems (base/max)
+
+###### Networking I/O:1G/2.5G/5G/10G (8), 1G/10G SFP/SFP+ (12), 25G SFP28 (4), 40G/100G QSPF+/QSFP28 (4)
+
+###### Management I/O: 1G SFP out-of-band management port (1),
+
+####### 1G SFP high availability (2), 40G QSFP+ high availability (1),
+
+####### RJ-45 console port (1), Micro USB
+
+###### Storage Capacity: 480 GB SSD pair, system storage
+
+###### Power Supply (Avg/Max Power Consumption): Redundant 450-watt AC (630/760 Watts)
+
+#### Form Factor:	Rack-mountable - 2U
+
+###### Number of Power Supplies:	2
+
+###### Typical Operating Power:	1200 W
+
+###### Dimensions (H x W x D):	2U, 19” standard rack (3.45” H x 22.5” D x 17.34” W)
+
+###### Net Weight: 35.2 lbs/48.8 lbs
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-5400-series>
+
+
+ 
+(https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf)'
 console-ports:
   - name: console
     type: rj-45
+  - name: console USB
+    type: usb-micro-b
+  - name: USB Port
+    type: usb-a   
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 760
+    allocated_draw: 630
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 760
+    allocated_draw: 630
 interfaces:
   - name: ethernet1/1
     type: 10gbase-t
+    description: 'ZTP WAN Port'    
   - name: ethernet1/2
     type: 10gbase-t
   - name: ethernet1/3
