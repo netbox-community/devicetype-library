@@ -1,21 +1,26 @@
 ---
 manufacturer: HPE
-model: ProCurve 2510G-48
-slug: hpe-procurve-2510g-48
-part_number: J9020A
+model: ProCurve 2900-48G
+slug: hpe-procurve-2900-48g
+part_number: J9050A
 u_height: 1
 is_full_depth: false
-airflow: side-to-rear
-weight: 3900
-weight_unit: g
-console-ports:
-  - name: Console
-    type: rj-45
+weight: 7
+weight_unit: kg
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 92
+    maximum_draw: 200
+  - name: RPS
+    type: dc-terminal
+    maximum_draw: 200
+console-ports:
+  - name: Console
+    type: de-9
 interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
   - name: '1'
     type: 1000base-t
   - name: '2'
@@ -104,7 +109,7 @@ interfaces:
     type: 1000base-t
   - name: '44'
     type: 1000base-t
-## Dual personality ports option 1
+# dual personality, 1000base-t
   - name: '45'
     type: 1000base-t
   - name: '46'
@@ -113,12 +118,20 @@ interfaces:
     type: 1000base-t
   - name: '48'
     type: 1000base-t
- ## Dual personality ports option 2
- ## - name: '45'
- ##   type: 1000base-x-sfp
- ## - name: '46'
- ##   type: 1000base-x-sfp
- ## - name: '47'
- ##   type: 1000base-x-sfp
- ## - name: '48'
- ##   type: 1000base-x-sfp
+# dual personality, 1000base-x-sfp
+#  - name: '45'
+#    type: 1000base-x-sfp
+#  - name: '46'
+#    type: 1000base-x-sfp
+#  - name: '47'
+#    type: 1000base-x-sfp
+#  - name: '48'
+#    type: 1000base-x-sfp
+  - name: A1
+    type: 10gbase-x-x2
+  - name: A2
+    type: 10gbase-cx4
+  - name: A3
+    type: 10gbase-cx4
+  - name: A4
+    type: 10gbase-x-x2
