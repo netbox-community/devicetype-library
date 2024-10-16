@@ -1,0 +1,99 @@
+---
+manufacturer: Palo Alto
+model: PA-5450-AC-SYS
+slug: pa-5450-ac-sys
+part_number: PAN-PA-5450-AC-SYS
+u_height: 5
+is_full_depth: true
+subdevice_role: parent
+comments: '## [PA-5450 ] 6 slots for Networking Cards (NC) and Data Processing Cards (DPC). NCs are dedicated to packet ingress and egress tasks |
+
+##### PA-5400-NC-A Networking I/O	100/1000/10G Cu (4), 1G/10G SFP/ SFP+ (12), 40G/100G QSFP28 (2); 
+
+#####   minimum 1 NC and maximum 2 NCs per system; 2 NCs require 2 or more DPCs installed
+
+##### PAN-PA-5400-MPC-A Management I/O	SFP/SFP+ MGT (2), SFP/SFP+ HA1 (2), 
+
+#####   HSCI HA2/HA3 QSFP+/ QSFP28 (2), RJ45 serial console (1), Micro USB serial console (1)
+
+###### Dimensions: 8.75” H x 30.25” D x 17.38” W
+
+###### Weight (Stand alone device/as shipped): 108 lbs (49 kg)
+
+##### The following NPCs can be installed in a PA-5450 Series firewall in slots 1,2,3,5,6:
+
+###### • 	PAN-PA-5400-BC-A : 
+
+########  1/O:  
+
+########    1G/2.5G/5G/10G (8), 1G/10G SFP/SFP+ (12), 
+
+########    1G/10G/25G SFP/SFP+/SFP28 (4), 40G/100G QSFP+/QSFP28 (4)
+
+########  Management I/O:  
+
+########    1G/10G SFP/SFP+ out-of-band management port (1),
+
+########    1G/10G SFP/SFP+ high availability (2), 40G QSFP+ high availability (1),
+
+########    RJ-45 console port (1), Micro USB
+
+###### • PA-5400-NC-A Networking I/O:
+
+########    100/1000/10G Cu (4), 1G/10G SFP/ SFP+ (12), 40G/100G QSFP28 (2); 
+
+########    minimum 1 NC and maximum 2 NCs per system; 2 NCs require 2 or more DPCs installed
+
+###### • PAN-PA-5400-MPC-A Management I/O:
+
+########    SFP/SFP+ MGT (2), SFP/SFP+ HA1 (2), HSCI HA2/HA3 QSFP+/ QSFP28 (2)
+
+########    SFP/SFP+ LOG (2),RJ45 serial console (1), Micro USB serial console (1)
+
+###### • PA-5400-DPC-A:Palo Alto Data Processing Card - Encryption module
+
+###### 200/200 Gbps 	Firewall throughput (HTTP/appmix)
+
+###### 125/150 Gbps 	Threat Prevention throughput (HTTP/appmix)
+
+###### 95 Gbps**	IPsec VPN throughput
+
+###### 100M	Max sessions
+
+###### 100M	New sessions per second
+
+###### 25/125	Virtual systems (base/max)
+
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-5450-series>
+
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-5400/pa-5400-hardware-reference.pdf>'
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 2200
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 2200
+  - name: PS3
+    type: iec-60320-c20
+    maximum_draw: 2200
+  - name: PS4
+    type: iec-60320-c20
+    maximum_draw: 2200
+device-bays:
+  - name: slot-1
+    description: Networking Cards (NC)
+  - name: slot-2
+    description: Networking Cards (NC)
+  - name: slot-3
+    description: Data Processor Cards (DPC)
+  - name: slot-4
+    description: Data Processor Cards (DPC)
+  - name: slot-5
+    description: Data Processor Cards (DPC)
+  - name: slot-6
+    description: Blank Panel
+  - name: slot-7
+    description: Management Processor Card (MPC)
