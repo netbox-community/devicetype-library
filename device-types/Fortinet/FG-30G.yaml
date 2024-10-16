@@ -1,0 +1,28 @@
+---
+manufacturer: Fortinet
+model: FortiGate 30G
+slug: fortinet-fg-30g
+part_number: FG-30G
+u_height: 1
+is_full_depth: false
+weight: 0.7
+weight_unit: kg
+airflow: passive
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 9
+    allocated_draw: 7
+    label: DC+12V
+interfaces:
+  - name: WAN
+    type: 1000base-t
+  - name: Port1
+    type: 1000base-t
+  - name: Port2
+    type: 1000base-t
+  - name: PortA
+    type: 1000base-t
