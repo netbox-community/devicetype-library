@@ -1,7 +1,6 @@
 ---
 manufacturer: Palo Alto
 model: PA-410
-<<<<<<< HEAD
 slug: pa-410
 part_number: PAN-PA-410
 u_height: 1
@@ -19,8 +18,33 @@ comments: '## [PA-410 Datasheet] Ports: 10/100/1000 (7)  |
 
 ######  13,000 New sessions per second
 
+###### Hardware Specifications
 
-<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-400-series> '
+###### I/O:	RJ45 (7)
+
+#######    Management I/O	10/100/1000 out-of-band management port (1), RJ45 console port (1), USB port (2)
+
+#######     Storage Capacity	64 GB eMMC 
+
+###### Power Supply (Avg/Max Power Consumption)	17/18 W 
+
+###### Max BTU/hr	78 
+
+###### Input Voltage Frequency	100-240 VAC (50–60 Hz)
+
+###### Max Current Consumption	 1.5 A @ 12 VDC
+
+###### Max Inrush Current	2.1 A
+
+###### Dimensions	1.63" H x 6.42" D x 9.53" W
+
+###### Weight (Standalone Device/As Shipped)	 3.1 lbs/5.9 lbs
+
+<https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-400-series> 
+
+
+
+<https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-400/pa-400-hardware-reference.pdf> '
 power-ports:
   - name: PWR1
     type: dc-terminal
@@ -35,24 +59,6 @@ console-ports:
     type: usb-a   
 interfaces:
   - name: MGT
-=======
-slug: palo-alto-pa-410
-part_number: PA-410
-u_height: 1
-is_full_depth: false
-weight: 3.1
-weight_unit: lb
-airflow: passive
-comments: '[Product Summary Specsheet - PAN-OS 10.1](https://www.paloaltonetworks.com/resources/datasheets/palo-alto-networks-product-summary-specsheet-pan-os-10-1)'
-power-ports:
-  - name: PS1
-    type: dc-terminal
-console-ports:
-  - name: console
-    type: rj-45
-interfaces:
-  - name: management
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
     type: 1000base-t
     mgmt_only: true
   - name: ethernet1/1
@@ -70,8 +76,4 @@ interfaces:
   - name: ethernet1/7
     type: 1000base-t
   - name: loopback
-<<<<<<< HEAD
     type: virtual
-=======
-    type: virtual
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
