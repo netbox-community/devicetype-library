@@ -1,25 +1,21 @@
 ---
 manufacturer: HPE
-model: Synergy 12000 Frame
+model: HPE Synergy 12000 Frame
 slug: hpe-synergy-12000-frame
-comments: '[Synergy 12000 Frame QuickSpecs]
-
-(https://www.hpe.com/psnow/doc/c04815113)
-
-'
 part_number: P06011-B21
 u_height: 10
 is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
-# Weight refers to empty frame populated with 10 fan modules (not modelled)
 weight: 82
 weight_unit: kg
+comments: '[HPE Synergy 12000 Frame - rack-mountable - 10U - up to 12 blades]
+
+<https://www.hpe.com/psnow/doc/c04815113> '
 interfaces:
   - name: Front Panel Console
     type: 1000base-t
     mgmt_only: true
-
 module-bays:
   - name: Power Supply 1
     position: '1'
