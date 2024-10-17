@@ -54,7 +54,6 @@ console-ports:
     type: rj-45
   - name: Front USB Mini Console
     type: usb-mini-b
-<<<<<<< HEAD
   - name: Rear USB Port
     type: usb-a 
 power-ports:
@@ -64,8 +63,6 @@ power-ports:
   - name: PSU-1
     type: iec-60320-c16
     maximum_draw: 1100
-=======
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -270,7 +267,6 @@ module-bays:
   - name: Network module slots
     Description: 'Listing of Network Module C9300-NM-4G, C9300-NM-4G, C9300-NM-8X, C9300-NM-2Q, C9300-NM-4M or C9300-NM-BLANK' 
     position: '1'
-<<<<<<< HEAD
   - name: Rear SSD Module
     Description: 'USB 3.0 SSD:  SSD-120G  or  SSD-240G only C9300X '
   - name: STACK0
@@ -281,12 +277,3 @@ module-bays:
     Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
   - name: StackPower1
     Description: '(Optional) StackPower cable (0.3-meter or 1.5-meter): CAB-SPWR-30CM, CAB-SPWR-150CM '
-=======
-  - name: PS-A
-    position: A
-  - name: PS-B
-    position: B
-  - name: FAN 1
-  - name: FAN 2
-  - name: FAN 3
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d

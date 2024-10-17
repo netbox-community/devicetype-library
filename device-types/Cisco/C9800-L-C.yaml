@@ -1,12 +1,7 @@
 ---
 manufacturer: Cisco
-<<<<<<< HEAD
 model: C9800-L-C
 slug: c9800-l-c
-=======
-model: Catalyst 9800-L-C
-slug: cisco-c9800-l-c
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 part_number: C9800-L-C
 u_height: 0
 subdevice_role: child
@@ -19,6 +14,10 @@ console-ports:
     type: rj-45
   - name: usb0
     type: usb-micro-b
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 87
 interfaces:
   - name: Service Port
     type: 1000base-t
@@ -38,7 +37,3 @@ interfaces:
     type: 10gbase-t
   - name: TenGigabitEthernet0/1/1
     type: 10gbase-t
-power-ports:
-  - name: PS1
-    type: dc-terminal
-    maximum_draw: 87

@@ -1,14 +1,14 @@
 ---
 manufacturer: Cisco
-model: Catalyst 9200L-24T-4G
-part_number: C9200L-24T-4G
+description: C9200L-24T-4G /w 24 ports data & 4x 1G fixed uplinks
+model: C9200L-24T-4G
 slug: cisco-c9200l-24t-4g
+part_number: C9200L-24T-4G
 u_height: 1
 is_full_depth: false
 Weight: 9.6
 Weight unit: Pounds
 subdevice_role: parent
-description: C9200L-24T-4G /w 24 ports data & 4x 1G fixed uplinks
 comments: '### [Cisco Catalyst C9200L-24T-4G-A Series Switches Data Sheet]
 
 ###### Model                                            : C9200L-24T-4G
@@ -108,14 +108,6 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/1/4
     type: 1000base-t
-<<<<<<< HEAD
-    mgmt_only: false
-=======
-  - name: StackPort1/1
-    type: cisco-stackwise
-  - name: StackPort1/2
-    type: cisco-stackwise
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true

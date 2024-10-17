@@ -10,7 +10,6 @@ console-ports:
     type: rj-45
   - name: USB Mini Console
     type: usb-mini-b
-<<<<<<< HEAD
   - name: USB Port
     type: usb-a 
 power-ports:
@@ -20,8 +19,6 @@ power-ports:
   - name: PS-B
     type: iec-60320-c16
     maximum_draw: 715
-=======
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -223,34 +220,18 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/1/4
     type: 1000base-x-sfp
-<<<<<<< HEAD
-    mgmt_only: false
-<<<<<<< HEAD
-  - name: STACK0
-    type: cisco-stackwise-320
-    mgmt_only: false
-  - name: STACK1
-    type: cisco-stackwise-320
-=======
-=======
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
-  - name: StackPort1/1
-    type: cisco-stackwise
-  - name: StackPort1/2
-    type: cisco-stackwise
-<<<<<<< HEAD
->>>>>>> upstream/master
-    mgmt_only: false
-=======
->>>>>>> dd0d92f171071b1fa27fd2b8294723b6e327005d
   - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PS-A
-    position: A
-  - name: PS-B
-    position: B
+  - name: STACK0
+    type: cisco-stackwise-320
+  - name: STACK1
+    type: cisco-stackwise-320
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
   - name: FAN 1
   - name: FAN 2
   - name: FAN 3
