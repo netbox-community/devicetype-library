@@ -1,0 +1,115 @@
+---
+manufacturer: Ciena
+model: 8112 AC
+slug: ciena-8112-ac
+part_number: 170-8112-901
+u_height: 1
+is_full_depth: false
+weight: 7
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-c
+  - name: 1 PPS/10 MHz
+    type: other
+  - name: ANT
+    type: other
+  - name: SYNC
+    type: rj-45
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+  - name: '5'
+    type: 25gbase-x-sfp28
+  - name: '6'
+    type: 25gbase-x-sfp28
+  - name: '7'
+    type: 25gbase-x-sfp28
+  - name: '8'
+    type: 25gbase-x-sfp28
+  - name: '9'
+    type: 25gbase-x-sfp28
+  - name: '10'
+    type: 25gbase-x-sfp28
+  - name: '11'
+    type: 25gbase-x-sfp28
+  - name: '12'
+    type: 25gbase-x-sfp28
+  - name: '13'
+    type: 25gbase-x-sfp28
+  - name: '14'
+    type: 25gbase-x-sfp28
+  - name: '15'
+    type: 25gbase-x-sfp28
+  - name: '16'
+    type: 25gbase-x-sfp28
+  - name: '17'
+    type: 25gbase-x-sfp28
+  - name: '18'
+    type: 25gbase-x-sfp28
+  - name: '19'
+    type: 25gbase-x-sfp28
+  - name: '20'
+    type: 25gbase-x-sfp28
+  - name: '21'
+    type: 25gbase-x-sfp28
+  - name: '22'
+    type: 25gbase-x-sfp28
+  - name: '23'
+    type: 25gbase-x-sfp28
+  - name: '24'
+    type: 25gbase-x-sfp28
+  - name: '25'
+    type: 25gbase-x-sfp28
+  - name: '26'
+    type: 25gbase-x-sfp28
+  - name: '27'
+    type: 25gbase-x-sfp28
+  - name: '28'
+    type: 25gbase-x-sfp28
+  - name: '29'
+    type: 25gbase-x-sfp28
+  - name: '30'
+    type: 25gbase-x-sfp28
+  - name: '31'
+    type: 25gbase-x-sfp28
+  - name: '32'
+    type: 25gbase-x-sfp28
+  - name: '33'
+    type: 25gbase-x-sfp28
+  - name: '34'
+    type: 25gbase-x-sfp28
+  - name: '35'
+    type: 25gbase-x-sfp28
+  - name: '36'
+    type: 25gbase-x-sfp28
+  - name: '37'
+    type: 400gbase-x-qsfpdd
+  - name: '38'
+    type: 400gbase-x-qsfpdd
+  - name: '39'
+    type: 400gbase-x-qsfpdd
+  - name: '40'
+    type: 400gbase-x-qsfpdd
+power-ports:
+  - name: PSA
+    type: iec-60320-c14
+    allocated_draw: 240
+    maximum_draw: 400
+  - name: PSB
+    type: iec-60320-c14
+    maximum_draw: 400
+    allocated_draw: 240
