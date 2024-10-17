@@ -1,14 +1,41 @@
 ---
 manufacturer: Cisco
-model: 2951 ISR
-part_number: CISCO2951/K9
+model: 2951-ISR
 slug: cisco-2951-isr
+part_number: CISCO2951-V/K9
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
+comment: '### Cisco 2951 Voice Bundle, PVDM3-32
+
+###### Type : Cisco 2951 Voice Bundle, PVDM3-32, UC License PAK
+
+###### Rack Units:2U
+
+###### Interfaces: 3 integrated 10/100/1000 Ethernet ports with 1 port capable of RJ-45 or SFP connectivity Expansion Slot(s)
+
+###### 2 service module slots
+
+###### 1 Internal Service Module slot
+
+###### 3 onboard digital signal processor slots
+
+###### 4 Enhanced high-speed WAN interface card (EHWIC) slots
+
+###### RAM: 512 MB (installed) / 2 GB (max) - DDR2 SDDRAM Memory
+
+###### Flash Memory: 256 MB (installed) / 8 GB (max)
+
+###### Dimensions: 47 cm x 43.8 cm x 8.9 cm   '
 console-ports:
-  - name: con 0
+  - name: Con
     type: rj-45
+  - name: AUX
+    type: rj-45
+  - name: usb0
+    type: usb-a
+  - name: usb1
+    type: usb-a
 power-ports:
   - name: PS-1
     type: iec-60320-c14
@@ -21,3 +48,4 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet0/2
     type: 1000base-t
+
