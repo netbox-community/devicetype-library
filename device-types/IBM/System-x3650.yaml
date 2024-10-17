@@ -1,0 +1,37 @@
+---
+manufacturer: IBM
+model: System x3650
+slug: ibm-system-x3650
+u_height: 2
+is_full_depth: true
+comments: '[System-X3650](https://www.ibm.com/support/pages/overview-ibm-system-x3650-type-1914-7979)'
+console-ports:
+  - name: Serial
+    type: de-9
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front USB3
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: Gig-E1
+    type: 1000base-t
+  - name: Gig-E2
+    type: 1000base-t
+  - name: Gig-E3
+    type: 1000base-t
+  - name: Gig-E4
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t

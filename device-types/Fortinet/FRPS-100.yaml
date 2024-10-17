@@ -1,0 +1,30 @@
+---
+manufacturer: Fortinet
+model: FortiRPS 100
+slug: fortinet-fortirps-100
+part_number: FRPS-100
+is_full_depth: false
+u_height: 1
+airflow: side-to-rear
+weight: 4.4
+weight_unit: kg
+power-ports:
+  - name: AC Input 1
+    type: iec-60320-c14
+    maximum_draw: 552
+  - name: AC Input 2
+    type: iec-60320-c14
+    maximum_draw: 552
+power-outlets:
+  - name: DC Output 1-1
+    type: dc-terminal
+    power_port: AC-Input 1
+  - name: DC Output 1-2
+    type: dc-terminal
+    power_port: AC-Input 1
+  - name: DC Output 2-1
+    type: dc-terminal
+    power_port: AC-Input 2
+  - name: DC Output 2-2
+    type: dc-terminal
+    power_port: AC-Input 2
