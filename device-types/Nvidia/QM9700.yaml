@@ -1,8 +1,8 @@
 ---
 manufacturer: Nvidia
 model: NVIDIA Quantum-2 QM9700
-part_number: MQM9700-NS2F
 slug: nvidia-quantum-2-qm9700
+part_number: MQM9700-NS2F
 u_height: 1
 is_full_depth: true
 comments: '# [NVIDIA Quantum-2 QM9700 - switch - 32 ports] 
@@ -154,6 +154,6 @@ interfaces:
     type: 400gbase-x-qsfpdd
   - name: Ethernet1/32
     type: 400gbase-x-qsfpdd
-    - name: mgmt0
+  - name: mgmt0
     type: 1000base-t
     mgmt_only: true
