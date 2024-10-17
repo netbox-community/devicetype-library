@@ -12,15 +12,8 @@ front_image: true
 rear_image: true
 comments: '[Aruba 670 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP-670Series.pdf)'
 console-ports:
-  - name: Console
-    type: usb-micro-b
-  - name: USB1
-    type: usb-a
-  - name: USB2
+  - name: Serial Console
     type: usb-c
-power-ports:
-  - name: Power
-    type: dc-terminal
 interfaces:
   - name: E0
     type: 2.5gbase-t
@@ -28,7 +21,16 @@ interfaces:
     poe_type: type4-ieee802.3bt
   - name: E1
     type: 10gbase-x-sfpp
-  - name: WiFi
+  - name: 6GHz WiFi
     type: ieee802.11ax
+    rf_role: ap
+  - name: 5GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
   - name: Bluetooth
     type: ieee802.15.1
+  - name: Zigbee
+    type: other-wireless
