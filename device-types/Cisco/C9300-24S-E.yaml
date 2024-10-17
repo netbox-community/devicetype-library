@@ -7,19 +7,21 @@ u_height: 1
 is_full_depth: true
 airflow: front-to-rear
 subdevice_role: parent
-comments: '# [Cisco Catalyst 9300 Series Switches Data Sheet] | 
+weight: 16.33
+weight_unit: lb
+comments: '# [Cisco Catalyst 9300 Series Switches Data Sheet] |
 
 
-### Product Code : C9300-24S-E 
+### Product Code : C9300-24S-E
 
 
-### Product Description: 
+### Product Description:
 
 
 ####	Catalyst 9300 24 GE SFP Ports, modular uplink Switch
 
 
-#### Total 24x 1G SFP w/ 10/100/1000 
+#### Total 24x 1G SFP w/ 10/100/1000
 
 
 ####  Wireless bandwidth per switch : Up to 96 Gbps on 48-port Gigabit Ethernet model
@@ -40,7 +42,7 @@ comments: '# [Cisco Catalyst 9300 Series Switches Data Sheet] |
 ### Forwarding rate : 154.76 Mpps
 
 
-### Forwarding bandwidth : 208Gbps 
+### Forwarding bandwidth : 208Gbps
 
 
 ### Stacking bandwidth: 688 Gbps
@@ -58,25 +60,25 @@ comments: '# [Cisco Catalyst 9300 Series Switches Data Sheet] |
 ### Dimensions (H x W x D): 1.73 x 17.5 x 17.5 Inches
 
 
-### Weight: 16.33 Pounds 
+### Weight: 16.33 Pounds
 
-  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.pdf> 
+  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.pdf>
 
 
-  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-architecture-cte-en.html> 
+  <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-architecture-cte-en.html>
 
 
   <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html>
 
 
-  <https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/hardware/install/b_c9300_hig/b_c9300_hig_chapter_010.html> 
+  <https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/hardware/install/b_c9300_hig/b_c9300_hig_chapter_010.html>
 
   '
 console-ports:
   - name: Rear con 0
     type: rj-45
   - name: Front USB Port
-    type: usb-a 
+    type: usb-a
   - name: Front USB Mini Console
     type: usb-mini-b
 power-ports:
