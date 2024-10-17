@@ -14,6 +14,7 @@ console-ports:
 power-ports:
   - name: POWER
     type: iec-60320-c14
+    maximum_draw: 12
 interfaces:
   - name: GigabitEthernet0/1
     type: 1000base-t
