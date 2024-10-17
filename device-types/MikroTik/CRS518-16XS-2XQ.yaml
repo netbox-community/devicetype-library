@@ -5,8 +5,15 @@ slug: mikrotik-crs518-16xs-2xq
 part_number: CRS518-16XS-2XQ
 is_full_depth: false
 airflow: front-to-rear
-comments: Careful, there is only qsfp28-1-1 and qsfp28-2-1 interfaces for 100Gb, don't forget to add the other if you use breakout cables.
 u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/crs518_16xs_2xq).
+
+  Careful, there is only qsfp28-1-1 and qsfp28-2-1 interfaces for 100Gb,
+  don't forget to add the other if you use breakout cables.
+front_image: false
+rear_image: false
+is_powered: true
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -52,10 +59,22 @@ console-ports:
     type: rj-45
   - name: USB
     type: usb-a
-power-ports:
+module-bays:
   - name: power1
-    type: iec-60320-c14
-    maximum_draw: 77
+    position: power1
+    description: Power module
   - name: power2
-    type: iec-60320-c14
-    maximum_draw: 77
+    position: power2
+    description: Power module
+  - name: fan1
+    position: '1'
+    description: Fan tray
+  - name: fan2
+    position: '2'
+    description: Fan tray
+  - name: fan3
+    position: '3'
+    description: Fan tray
+  - name: fan4
+    position: '4'
+    description: Fan tray
