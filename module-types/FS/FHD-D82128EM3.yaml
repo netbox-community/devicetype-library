@@ -1,0 +1,55 @@
+---
+manufacturer: FS
+model: FHD-D82128EM3
+part_number: '126899'
+description: 8 Channels DWDM Mux Demux, 100GHz C21-C28, with EXP & Mon and 1310nm Port, 2.4dB Typical IL, LC/UPC, FHD Plug-in Module
+comments: '[Product Page](https://www.fs.com/products/126899.html)'
+front-ports:
+  - name: '{module}:EXP'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 1
+  - name: '{module}:MON'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 2
+  - name: '{module}:1310'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 3
+  - name: '{module}:C21'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 4
+  - name: '{module}:C22'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 5
+  - name: '{module}:C23'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 6
+  - name: '{module}:C24'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 7
+  - name: '{module}:C25'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 8
+  - name: '{module}:C26'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 9
+  - name: '{module}:C27'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 10
+  - name: '{module}:C28'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 11
+rear-ports:
+  - name: '{module}:LINE'
+    type: lc-upc
+    positions: 11
