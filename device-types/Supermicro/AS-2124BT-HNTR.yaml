@@ -1,0 +1,28 @@
+---
+manufacturer: Supermicro
+model: A+ Server 2124BT-HNTR
+slug: supermicro-as-2124bt-hntr
+part_number: AS-2124BT-HNTR
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: SuperServer SYS-5039MC-H8TRF (https://www.supermicro.com/en/Aplus/system/2U/2124/AS-2124BT-HNTR.cfm)
+subdevice_role: parent
+weight: 24.7
+weight_unit: kg
+module-bays:
+  - name: PSU0
+    position: PSU 0
+    maximum_draw: 2200
+  - name: PSU1
+    position: PSU 1
+    maximum_draw: 2200
+device-bays:
+  - name: Node 1
+    label: Compute Node 1
+  - name: Node 2
+    label: Compute Node 2
+  - name: Node 3
+    label: Compute Node 3
+  - name: Node 4
+    label: Compute Node 4
