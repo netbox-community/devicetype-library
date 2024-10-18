@@ -19,11 +19,12 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     description: IPMI LAN port 2
-device-bays:
+module-bays:
   - name: PSU1
     position: PSU1
   - name: PSU2
     position: PSU2
+device-bays:
   - name: Node 1
     position: Node1
     label: Compute Node 1
