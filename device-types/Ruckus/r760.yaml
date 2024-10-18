@@ -20,12 +20,12 @@ interfaces:
   - name: Port 1
     type: 1000base-t
     poe_mode: pd
-    poe_type: type2-ieee802.3bt
+    poe_type: type3-ieee802.3bt
     label: 1G Eth
   - name: Port 2
     type: 10gbase-t
     label: 10G Eth PoE
     poe_mode: pd
-    poe_type: type1-ieee802.3bt
+    poe_type: type3-ieee802.3bt
   - name: WiFi
     type: ieee802.11ax
