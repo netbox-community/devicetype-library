@@ -1,12 +1,24 @@
 ---
 manufacturer: Cisco
-model: CBS350-24P-4G
-slug: cisco-cbs350-24p-4g
-part_number: WCBS350-24P-4G
-comments: https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html
+model: CBS350-16T-2G-EU
+slug: cisco-cbs350-16t-2g-eu
+part_number: CBS350-16T-2G-EU
+u_height: 1.0
 is_full_depth: false
+airflow: passive
 front_image: true
-u_height: 1
+comments: '[Cisco Business 350 Series Managed Switches](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
+weight: 1.78
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: usb-mini-b
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 19
 interfaces:
   - name: GigabitEthernet1
     type: 1000base-t
@@ -41,37 +53,8 @@ interfaces:
   - name: GigabitEthernet16
     type: 1000base-t
   - name: GigabitEthernet17
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet18
-    type: 1000base-t
-  - name: GigabitEthernet19
-    type: 1000base-t
-  - name: GigabitEthernet20
-    type: 1000base-t
-  - name: GigabitEthernet21
-    type: 1000base-t
-  - name: GigabitEthernet22
-    type: 1000base-t
-  - name: GigabitEthernet23
-    type: 1000base-t
-  - name: GigabitEthernet24
-    type: 1000base-t
-  - name: GigabitEthernet25
     type: 1000base-x-sfp
-  - name: GigabitEthernet26
-    type: 1000base-x-sfp
-  - name: GigabitEthernet27
-    type: 1000base-x-sfp
-  - name: GigabitEthernet28
-    type: 1000base-x-sfp
-  - name: Vlan1
+  - name: vlan1
     type: virtual
-console-ports:
-  - name: con0
-    type: rj-45
-  - name: con1
-    type: usb-mini-b
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 236
