@@ -2,6 +2,10 @@
 manufacturer: F5
 model: PWR-0306
 part_number: PWR-0306
+description: 650W AC PS for Big-IP i5000/i7000/i10000/i11000 and r5000
+weight: 0.91
+weight_unit: kg
 power-ports:
   - name: PSU{module}
     type: iec-60320-c14
+    maximum_draw: 650

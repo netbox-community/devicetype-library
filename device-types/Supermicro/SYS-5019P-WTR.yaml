@@ -1,0 +1,41 @@
+---
+manufacturer: Supermicro
+model: SuperServer 5019P-WTR
+slug: supermicro-sys-5019p-wtr
+part_number: SYS-5019P-WTR
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: Superserver SYS-5019P-WTR (https://www.supermicro.com/products/system/1U/5019/SYS-5019P-WTR.cfm)
+weight: 10.89
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+module-bays:
+  - name: PSU1
+    position: PSU 1
+  - name: PSU2
+    position: PSU 2
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x16 (FH, FL)
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 3.0 x16 (FH, FL)
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 3.0 x8 (LP)
+  - name: M.2 1
+    position: '4'
+    description: Form-factors 2280, 22110

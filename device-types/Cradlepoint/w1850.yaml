@@ -1,0 +1,32 @@
+---
+manufacturer: Cradlepoint
+model: W1850
+slug: cradlepoint-w1850
+part_number: w1850
+u_height: 1.0
+is_full_depth: false
+comments: '[Cradlepoint W1850](https://cradlepoint.com/product/endpoints/w1850-series/)'
+console-ports:
+  - name: Con
+    type: rj-45
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: LAN1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: LAN2
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: SIM1
+    type: 5g
+    enabled: true
+    mgmt_only: false
+  - name: SIM2
+    type: 5g
+    enabled: true
+    mgmt_only: false

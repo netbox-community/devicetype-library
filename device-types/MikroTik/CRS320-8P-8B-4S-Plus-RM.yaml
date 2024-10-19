@@ -1,0 +1,99 @@
+---
+manufacturer: MikroTik
+model: CRS320-8P-8B-4S+RM
+slug: mikrotik-crs320-8p-8b-4s-plus-rm
+part_number: CRS320-8P-8B-4S+RM
+is_full_depth: false
+airflow: side-to-rear
+u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/crs320_8p_8b_4s_rm)
+front_image: false
+rear_image: false
+is_powered: true
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether3
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether4
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether6
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether7
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether8
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether9
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether10
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether11
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether12
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether13
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether14
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether15
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether16
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: ether17
+    type: 1000base-t
+    mgmt_only: true
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+module-bays:
+  - name: power1
+    position: power1
+    description: Power module
+  - name: power2
+    position: power2
+    description: Power module

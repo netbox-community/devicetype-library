@@ -12,11 +12,11 @@ rear_image: true
 airflow: passive
 comments: '[Aruba 370 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP370Series.pdf)'
 console-ports:
-  - name: Console
+  - name: Serial Console
     type: usb-micro-b
 power-ports:
-  - name: Power
-    type: dc-terminal
+  - name: AC Power
+    type: other
 interfaces:
   - name: E0
     type: 1000base-t
@@ -24,7 +24,11 @@ interfaces:
     poe_type: type2-ieee802.3at
   - name: E1
     type: 1000base-x-sfp
-  - name: WiFi
+  - name: 5GHz WiFi
     type: ieee802.11ac
+    rf_role: ap
+  - name: 2.4GHz WiFi
+    type: ieee802.11n
+    rf_role: ap
   - name: Bluetooth
     type: ieee802.15.1

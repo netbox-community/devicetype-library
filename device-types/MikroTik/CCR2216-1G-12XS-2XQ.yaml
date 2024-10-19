@@ -3,9 +3,13 @@ manufacturer: MikroTik
 model: CCR2216-1G-12XS-2XQ
 slug: mikrotik-ccr2216-1g-12xs-2xq
 part_number: CCR2216-1G-12XS-2XQ
-comments: '[Mikrotik CCR2216-1G-12XS-2XQ ](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)'
 is_full_depth: false
 u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)
+front_image: false
+rear_image: false
+is_powered: true
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -40,10 +44,22 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
-power-ports:
+module-bays:
   - name: power1
-    type: iec-60320-c14
-    maximum_draw: 128
+    position: power1
+    description: Power module
   - name: power2
-    type: iec-60320-c14
-    maximum_draw: 128
+    position: power2
+    description: Power module
+  - name: fan1
+    position: '1'
+    description: Fan tray
+  - name: fan2
+    position: '2'
+    description: Fan tray
+  - name: fan3
+    position: '3'
+    description: Fan tray
+  - name: fan4
+    position: '4'
+    description: Fan tray

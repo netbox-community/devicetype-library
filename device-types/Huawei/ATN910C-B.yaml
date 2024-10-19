@@ -1,0 +1,112 @@
+---
+manufacturer: Huawei
+model: ATN910C-B
+slug: huawei-atn910c-b
+part_number: 02350TKK
+u_height: 1
+is_full_depth: false
+airflow: left-to-right
+comments: '[Huawei ATN910C-B](https://carrier.huawei.com/en/products/fixed-network/carrier-ip/router/atn/atn910c)'
+weight: 4.9
+weight_unit: kg
+console-ports:
+  - name: OAM
+    type: usb-a
+  - name: CLK
+    type: rj-45
+  - name: TOD
+    type: rj-45
+  - name: ALMI/ALMO
+    type: rj-45
+module-bays:
+  - name: PWR1
+  - name: PWR2
+interfaces:
+  - name: MEthernet0/0/0
+    label: ETH/OAM
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet0/2/0
+    label: XGE 0
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/1
+    label: XGE 1
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/2
+    label: XGE 2
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/3
+    label: XGE 3
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/4
+    label: XGE/GE/FE 4
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/5
+    label: XGE/GE/FE 5
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/6
+    label: XGE/GE/FE 6
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/7
+    label: XGE/GE/FE 7
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/8
+    label: XGE/GE/FE 8
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/9
+    label: XGE/GE/FE 9
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/10
+    label: XGE/GE/FE 10
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/11
+    label: XGE/GE/FE 11
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/2/12
+    label: GE/FE 12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/13
+    label: GE/FE 13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/14
+    label: GE/FE 14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/15
+    label: GE/FE 15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/16
+    label: GE/FE 16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/17
+    label: GE/FE 17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/18
+    label: GE/FE 18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/19
+    label: GE/FE 19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2/20
+    label: GE/FE 20
+    type: 1000base-t
+  - name: GigabitEthernet0/2/21
+    label: GE/FE 21
+    type: 1000base-t
+  - name: GigabitEthernet0/2/22
+    label: GE/FE 22
+    type: 1000base-t
+  - name: GigabitEthernet0/2/23
+    label: GE/FE 23
+    type: 1000base-t
+  - name: GigabitEthernet0/2/24
+    label: GE/FE 24
+    type: 1000base-t
+  - name: GigabitEthernet0/2/25
+    label: GE/FE 25
+    type: 1000base-t
+  - name: GigabitEthernet0/2/26
+    label: GE/FE 26
+    type: 1000base-t
+  - name: GigabitEthernet0/2/27
+    label: GE/FE 27
+    type: 1000base-t

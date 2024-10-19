@@ -1,0 +1,21 @@
+---
+manufacturer: HPE
+model: ProCurve 630
+slug: hpe-procurve-630
+part_number: J9443A
+u_height: 1
+is_full_depth: false
+comments: '[HP ProCurve 630](https://support.hpe.com/hpesc/public/docDisplay?docId=c01844319&page=GUID-1E1EB048-A628-446E-83DF-C2B76B71F107.html&docLocale=en_US)'
+weight: 3.58
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 740
+power-outlets:
+  - name: RPS
+    type: dc-terminal
+    power_port: PS1
+  - name: EPS
+    type: dc-terminal
+    power_port: PS1

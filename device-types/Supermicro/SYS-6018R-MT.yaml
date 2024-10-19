@@ -1,0 +1,32 @@
+---
+manufacturer: Supermicro
+model: SuperServer 6018R-MT
+slug: supermicro-sys-6018r-mt
+part_number: SYS-6018R-MT
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro Superserver 6018R-MT (https://www.supermicro.com/products/system/1U/6018/SYS-6018R-MT.cfm)
+weight: 16.33
+weight_unit: kg
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 480
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x8 (FH, HL)

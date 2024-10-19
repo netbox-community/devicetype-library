@@ -6,29 +6,30 @@ part_number: ASR-9006
 u_height: 10
 is_full_depth: true
 comments: '[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501767.html)'
-power-ports:
-  - name: PS0
-    type: iec-60320-c14
-    maximum_draw: 3000
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 3000
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 3000
-  - name: PS3
-    type: iec-60320-c14
-    maximum_draw: 3000
 module-bays:
   - name: Slot 0
     label: RSP 0
+    position: RSP0
   - name: Slot 1
     label: RSP 1
+    position: RSP1
   - name: Slot 2
     label: Line Card 0
+    position: LC0
   - name: Slot 3
     label: Line Card 1
+    position: LC1
   - name: Slot 4
     label: Line Card 2
+    position: LC2
   - name: Slot 5
     label: Line Card 3
+    position: LC3
+  - name: Power Slot 0
+    position: PSU0
+  - name: Power Slot 1
+    position: PSU1
+  - name: Power Slot 2
+    position: PSU2
+  - name: Power Slot 3
+    position: PSU3

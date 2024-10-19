@@ -1,0 +1,86 @@
+---
+manufacturer: MikroTik
+model: CRS520-4XS-16XQ
+slug: mikrotik-crs520-4xs-16xq
+part_number: CRS520-4XS-16XQ
+is_full_depth: false
+airflow: front-to-rear
+u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/crs520_4xs_16xq_rm).
+
+  Careful, there is only qsfp28-1-[1..16] interfaces for 100Gb,
+  don't forget to add the other if you use breakout cables.
+front_image: false
+rear_image: false
+is_powered: true
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    mgmt_only: true
+  - name: qsfp28-1-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-2-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-3-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-4-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-5-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-6-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-7-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-8-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-9-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-10-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-11-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-12-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-13-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-14-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-15-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-16-1
+    type: 100gbase-x-qsfp28
+  - name: sfp28-1
+    type: 25gbase-x-sfp28
+  - name: sfp28-2
+    type: 25gbase-x-sfp28
+  - name: sfp28-3
+    type: 25gbase-x-sfp28
+  - name: sfp28-4
+    type: 25gbase-x-sfp28
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+module-bays:
+  - name: power1
+    position: power1
+    description: Power module
+  - name: power2
+    position: power2
+    description: Power module
+  - name: fan1
+    position: '1'
+    description: Fan tray
+  - name: fan2
+    position: '2'
+    description: Fan tray
+  - name: fan3
+    position: '3'
+    description: Fan tray
+  - name: fan4
+    position: '4'
+    description: Fan tray

@@ -14,10 +14,8 @@ comments: '[Aruba 500H Series Datasheet](https://www.arubanetworks.com/assets/ds
 console-ports:
   - name: Console
     type: usb-micro-b
-  - name: usb-ble
-    type: usb-a
 power-ports:
-  - name: Power
+  - name: 48 Vdc
     type: dc-terminal
 interfaces:
   - name: E0
@@ -36,7 +34,11 @@ interfaces:
     type: 1000base-t
   - name: E4
     type: 1000base-t
-  - name: WiFi
+  - name: 5GHz WiFi
     type: ieee802.11ax
+    rf_role: ap
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
   - name: Bluetooth
     type: ieee802.15.1

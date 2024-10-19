@@ -12,15 +12,19 @@ rear_image: true
 airflow: passive
 comments: '[Aruba 200 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP200Series.pdf)'
 console-ports:
-  - name: Console
+  - name: Console Interface
     type: rj-45
 power-ports:
-  - name: Power
+  - name: 12 Vdc
     type: dc-terminal
 interfaces:
+  - name: 2.4GHz WiFi
+    type: ieee802.11n
+    rf_role: ap
+  - name: 5GHz WiFi
+    type: ieee802.11ac
+    rf_role: ap
   - name: ENET
     type: 1000base-t
     poe_mode: pd
     poe_type: type1-ieee802.3af
-  - name: WiFi
-    type: ieee802.11ac
