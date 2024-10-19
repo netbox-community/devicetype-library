@@ -13,13 +13,6 @@ console-ports:
   - name: Serial
     type: de-9
     description: Rear port
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 750
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 750
 interfaces:
   - name: BMC
     type: 1000base-t
@@ -34,6 +27,10 @@ interfaces:
   - name: Gig-E 4
     type: 10gbase-t
 module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
   - name: PCI-E 1
     position: '1'
     description: Internal low profile slot
