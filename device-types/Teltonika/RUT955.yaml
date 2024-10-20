@@ -1,0 +1,45 @@
+---
+manufacturer: Teltonika
+model: RUT955
+slug: teltonika-rut955
+part_number: RUT955
+u_height: 0.5
+is_full_depth: false
+weight: 287
+weight_unit: g
+comments: '[RUT955 Specs](https://teltonika-networks.com/cdn/products/2022/12/639ae8e7c85821-60458654/rut955-datasheet-v13.pdf)'
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 7
+console-ports:
+  - name: USB_1
+    type: usb-a
+  - name: Sensor_1
+    type: other
+    comments: RS485/Modbus connector Full Duplex and Half Duplex
+  - name: Sensor_2
+    type: de-9
+    comments: RS232/Modbus connector Full Duplex and Half Duplex
+interfaces:
+  - name: lan1
+    type: 100base-tx
+  - name: lan2
+    type: 100base-tx
+  - name: lan3
+    type: 100base-tx
+  - name: mob1s1a1
+    type: lte
+  - name: mob1s2a1
+    type: lte
+  - name: wan
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: gnss_0
+    type: other
+    comments: GPS, GLONASS, BeiDou, Galileo and QZSS
+  - name: Wifi_2.4
+    type: ieee802.11ac
+  - name: Wifi_5
+    type: ieee802.11ac

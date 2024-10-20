@@ -1,0 +1,38 @@
+---
+manufacturer: Supermicro
+model: Motherboard H12DST-B
+slug: supermicro-mbd-h12dst-b
+part_number: MBD-H12DST-B
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Motherboard H12DST-B for AS-2124BT-HNTR and AS-2124BT-HTR (https://www.supermicro.com/en/products/motherboard/H12DST-B)
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x16
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 4.0 x24
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 4.0 x16 (Low profile 6.6")
+  - name: PCI-E 4
+    position: '4'
+    description: PCI-E 4.0 x16 (Low profile 6.6")
+  - name: PCI-E 5
+    position: '5'
+    description: SIOM Slot
+  - name: M.2
+    position: '6'
+    description: Form Factor 2280, 22110 (M-Key)
