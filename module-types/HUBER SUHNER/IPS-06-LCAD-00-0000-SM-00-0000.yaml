@@ -1,0 +1,52 @@
+---
+manufacturer: HUBER SUHNER
+model: IPS-06-LCAD-00-0000-SM-00-0000
+description: IANOS patch module, 6xSM, LCD APC
+comments: '[Product Page](https://www.hubersuhner.com/en/shop/product/fiber-cable-management/modules/85073353/ianos-patch-module-6xsm-lcd-apc)'
+part_number: '85073353'
+weight: 50
+weight_unit: g
+rear-ports:
+  - name: '{module}-REAR-01'
+    type: lc-apc
+    positions: 1
+  - name: '{module}-REAR-02'
+    type: lc-apc
+    positions: 2
+  - name: '{module}-REAR-03'
+    type: lc-apc
+    positions: 3
+  - name: '{module}-REAR-04'
+    type: lc-apc
+    positions: 4
+  - name: '{module}-REAR-05'
+    type: lc-apc
+    positions: 5
+  - name: '{module}-REAR-06'
+    type: lc-apc
+    positions: 6
+front-ports:
+  - name: '{module}-01'
+    type: lc-apc
+    rear_port: '{module}-REAR-01'
+    rear_port_position: 1
+  - name: '{module}-02'
+    type: lc-apc
+    rear_port: '{module}-REAR-02'
+    rear_port_position: 1
+  - name: '{module}-03'
+    type: lc-apc
+    rear_port: '{module}-REAR-03'
+    rear_port_position: 1
+  - name: '{module}-04'
+    type: lc-apc
+    rear_port: '{module}-REAR-04'
+    rear_port_position: 1
+  - name: '{module}-05'
+    type: lc-apc
+    rear_port: '{module}-REAR-05'
+    rear_port_position: 1
+  - name: '{module}-06'
+    type: lc-apc
+    rear_port: '{module}-REAR-06'
+    rear_port_position: 1

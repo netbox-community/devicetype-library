@@ -1,0 +1,52 @@
+---
+manufacturer: HUBER SUHNER
+model: IPS-06-LCUD-00-0000-SM-00-0000
+description: IANOS patch module, 6xSM, LCD UPC
+comments: '[Product Page](https://www.hubersuhner.com/en/shop/product/fiber-cable-management/modules/85072924/ianos-patch-module-6xsm-lcd-upc)'
+part_number: '85072924'
+weight: 50
+weight_unit: g
+rear-ports:
+  - name: '{module}-REAR-01'
+    type: lc-upc
+    positions: 1
+  - name: '{module}-REAR-02'
+    type: lc-upc
+    positions: 2
+  - name: '{module}-REAR-03'
+    type: lc-upc
+    positions: 3
+  - name: '{module}-REAR-04'
+    type: lc-upc
+    positions: 4
+  - name: '{module}-REAR-05'
+    type: lc-upc
+    positions: 5
+  - name: '{module}-REAR-06'
+    type: lc-upc
+    positions: 6
+front-ports:
+  - name: '{module}-01'
+    type: lc-upc
+    rear_port: '{module}-REAR-01'
+    rear_port_position: 1
+  - name: '{module}-02'
+    type: lc-upc
+    rear_port: '{module}-REAR-02'
+    rear_port_position: 1
+  - name: '{module}-03'
+    type: lc-upc
+    rear_port: '{module}-REAR-03'
+    rear_port_position: 1
+  - name: '{module}-04'
+    type: lc-upc
+    rear_port: '{module}-REAR-04'
+    rear_port_position: 1
+  - name: '{module}-05'
+    type: lc-upc
+    rear_port: '{module}-REAR-05'
+    rear_port_position: 1
+  - name: '{module}-06'
+    type: lc-upc
+    rear_port: '{module}-REAR-06'
+    rear_port_position: 1
