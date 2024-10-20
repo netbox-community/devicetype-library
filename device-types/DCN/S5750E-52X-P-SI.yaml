@@ -1,18 +1,19 @@
 ---
 manufacturer: DCN
-model: S4600-52X-P-SI
-part_number: S4600-52X-P-SI
-slug: dcn-s4600-52x-p-si
+model: S5750E-52X-P-SI
+part_number: S5750E-52X-P-SI
+slug: dcn-s5750e-52x-p-si
 u_height: 1
 is_full_depth: true
 weight: 3
 weight_unit: kg
-comments: "[DCN S4600 Series Switches Data Sheet](https://www.dcneurope.eu/en/product-switches/s5750e-52x-p-si-r2)"
+airflow: front-to-rear
+comments: '[DCN S5750E Series Switches Data Sheet](https://www.dcneurope.eu/en/product-switches/s5750e-52x-p-si-r2)'
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
-    type: rj-45
+    type: usb-a
 interfaces:
   - name: Ethernet1/0/1
     type: 1000base-t
@@ -217,4 +218,4 @@ interfaces:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 50
+    maximum_draw: 897
