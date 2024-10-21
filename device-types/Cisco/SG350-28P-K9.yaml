@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: SG350-28P
-slug: cisco-sg350-28P
+slug: cisco-sg350-28p
 part_number: SG350-28P-K9
 u_height: 1.0
 is_full_depth: false
@@ -14,7 +14,7 @@ console-ports:
 power-ports:
   - name: Power
     type: iec-60320-c14
-    maximum_draw: 255.1
+    maximum_draw: 255
 interfaces:
   - name: GigabitEthernet1
     type: 1000base-t
@@ -95,6 +95,9 @@ interfaces:
     poe_mode: pse
     poe_type: type3-ieee802.3bt
   - name: GigabitEthernet14
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
     poe_mode: pse
     poe_type: type3-ieee802.3bt
   - name: GigabitEthernet15
