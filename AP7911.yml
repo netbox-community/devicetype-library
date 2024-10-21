@@ -6,6 +6,7 @@ part_number: AP7911
 u_height: 2
 weight: 6.32
 weight_unit: kg
+airflow: passive
 is_full_depth: false
 comments: Rack PDU, Switched, 2U, 30A, 208V, (16)C13
 power-ports:
@@ -34,5 +35,29 @@ power-outlets:
     type: iec-60320-c13
     power_port: Power Port 1
   - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 12
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 13
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 16
     type: iec-60320-c13
     power_port: Power Port 1
