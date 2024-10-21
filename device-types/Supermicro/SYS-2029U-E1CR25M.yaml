@@ -1,0 +1,53 @@
+---
+manufacturer: Supermicro
+model: SuperServer 2029U-E1CR25M
+slug: supermicro-sys-2029u-e1cr25m
+part_number: SYS-2029U-E1CR25M
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: Superserver SYS-2029U-E1CR25M (https://www.supermicro.com/products/system/2U/2029/SYS-2029U-E1CR25M.cfm)
+weight: 16.4
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 25gbase-x-sfp28
+  - name: Gig-E 2
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x16 (FH, 10.5"L)
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 3.0 x8 (FH, 10.5"L)
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 3.0 x8 Internal LP
+  - name: PCI-E 4
+    position: '4'
+    description: PCI-E 3.0 x8 LP
+  - name: PCI-E 5
+    position: '5'
+    description: PCI-E 3.0 x8 (FH, 10.5"L)
+  - name: PCI-E 6
+    position: '6'
+    description: PCI-E 3.0 x8 (FH, 10.5"L)
+  - name: PCI-E 7
+    position: '7'
+    description: PCI-E 3.0 x8 (FH, 10.5"L)
+  - name: PCI-E 8
+    position: '8'
+    description: PCI-E 3.0 x8 (FH, 10.5"L)
