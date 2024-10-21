@@ -1,40 +1,27 @@
 ---
 manufacturer: Ciena
-model: '5142'
-slug: ciena-5142
-part_number: 170-5142-930
+model: '3940'
+slug: ciena-3940
+part_number: 170-3940-901
 u_height: 1
 is_full_depth: false
 front_image: true
-weight: 4
+weight: 3.6
 weight_unit: kg
 console-ports:
   - name: CONSOLE
-    type: rj-45
-    mgmt_only: true
-  - name: SYNC
-    type: rj-45
-    mgmt_only: true
-    description: RJ-45 sync port
-  - name: 1PPS
-    description: 1PPS. SMB connector
-    type: other
-    mgmt_only: true
-  - name: 10MHZ
-    description: SMB connector
-    type: other
-    mgmt_only: true
+    type: de-9
 module-bays:
   - name: PS A
     position: A
     description: |
-      * 170-0014-900 AC
-      * 170-0013-900 DC
+      170-0100-901 AC PLUGGABLE POWER SUPPLY, 3940/3960
+      170-0101-901 DC PLUGGABLE POWER SUPPLY, 3940/3960
   - name: PS B
     position: B
     description: |
-      * 170-0014-900 AC
-      * 170-0013-900 DC
+      170-0100-901 AC PLUGGABLE POWER SUPPLY, 3940/3960
+      170-0101-901 DC PLUGGABLE POWER SUPPLY, 3940/3960
 interfaces:
   - name: '1'
     type: 1000base-x-sfp
@@ -77,13 +64,13 @@ interfaces:
   - name: '20'
     type: 1000base-x-sfp
   - name: '21'
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: '22'
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: '23'
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: '24'
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
