@@ -12,13 +12,15 @@ weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: rj-45
-power-ports:
+module-bays:
   - name: PWR-1
-    type: dc-terminal
-    maximum_draw: 20
+    position: 1
+    description: |
+      CN-FC-SPC8-00 AC PLUGGABLE POWER SUPPLY
   - name: PWR-2
-    type: dc-terminal
-    maximum_draw: 20
+    position: 2
+    description: |
+      CN-FC-SPC8-00 AC PLUGGABLE POWER SUPPLY
 interfaces:
   - name: ethA
     type: 1000base-t
