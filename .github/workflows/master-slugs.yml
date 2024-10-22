@@ -6,11 +6,14 @@ on:
       - master
 jobs:
   build:
+    if: "!contains(github.event.head_commit.message, 'Regenerate master slug list after successful PR merge')"
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{secrets.SLUG_DEPLOY_KEY}}
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
@@ -32,13 +35,24 @@ jobs:
         if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Regenerate Master Slug List
         run: python3 tests/generate-slug-list.py
-      - name: Commit and Push Changes to Master
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: NetBox-Bot
-          author_email: info@netboxlabs.com
-          committer_name: NetBox-Bot
-          committer_email: info@netboxlabs.com
-          default_author: github_actions
-          message: "Regenerate master slug list after successful PR merge"
-          push: true
+      - name: Set-Up Git
+        run: |
+          git config --global user.name 'NetBox-Bot'
+          git config --global user.email 'info@netboxlabs.com'
+      - name: Commit
+        run: |
+          git add .
+          git commit -m "Regenerate master slug list after successful PR merge"
+      - name: Push to remote
+        run: |
+          git push
+#      - name: Commit and Push Changes to Master
+#        uses: EndBug/add-and-commit@v9
+#        with:
+#          author_name: NetBox-Bot
+#          author_email: info@netboxlabs.com
+#          committer_name: NetBox-Bot
+#          committer_email: info@netboxlabs.com
+#          default_author: github_actions
+#          message: "Regenerate master slug list after successful PR merge"
+#          push: true
