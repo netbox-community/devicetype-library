@@ -1,0 +1,24 @@
+---
+manufacturer: Extreme Networks
+model: X250e-24xDC
+slug: extreme-networks-x250e-24xdc
+u_height: 1
+is_full_depth: false
+subdevice_role: parent
+comments: '[Extreme Networks X250e-24xDC Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-460B8865-1258-425D-8387-0D0C8B17990B.shtml)'
+power-ports:
+  - name: c14
+    type: iec-60320-c14
+console-ports:
+  - name: Serial console port
+    type: de-9
+interfaces:
+  - name: '25'
+    type: 1000base-x-sfp
+
+  - name: '26'
+    type: 1000base-x-sfp
+
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
