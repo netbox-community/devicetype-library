@@ -9,8 +9,9 @@ weight_unit: kg
 airflow: right-to-left
 comments: '[Extreme Networks X250e-24p Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-03CA8E30-C85E-4BF4-96B1-996DAD552796.shtml)'
 power-ports:
-  - name: DCE2
+  - name: C14
     type: iec-60320-c14
+    maximum_draw: 525
 console-ports:
   - name: Serial console port
     type: de-9
