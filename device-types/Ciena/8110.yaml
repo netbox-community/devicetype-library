@@ -1,0 +1,113 @@
+---
+manufacturer: Ciena
+model: '8110'
+slug: ciena-8110
+part_number: 170-8110-900
+u_height: 2
+is_full_depth: false
+weight: 8.16
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+    mgmt_only: true
+  - name: USB
+    type: usb-c
+    mgmt_only: true
+  - name: 1 PPS/10 MHz
+    description: Mini-COAX 1PPS/ToD SMB interface in or out (software selectable).
+    type: other
+    mgmt_only: true
+  - name: ANT
+    description: GNSS/GPS antenna mini SMB.
+    type: other
+    mgmt_only: true
+  - name: SYNC
+    type: rj-45
+    description: RJ-45 sync port
+    mgmt_only: true
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+  - name: '5'
+    type: 100gbase-x-qsfp28
+  - name: '6'
+    type: 100gbase-x-qsfp28
+  - name: '7'
+    type: 100gbase-x-qsfp28
+  - name: '8'
+    type: 100gbase-x-qsfp28
+  - name: '9'
+    type: 100gbase-x-qsfp28
+  - name: '10'
+    type: 100gbase-x-qsfp28
+  - name: '11'
+    type: 100gbase-x-qsfp28
+  - name: '12'
+    type: 100gbase-x-qsfp28
+  - name: '13'
+    type: 100gbase-x-qsfp28
+  - name: '14'
+    type: 100gbase-x-qsfp28
+  - name: '15'
+    type: 100gbase-x-qsfp28
+  - name: '16'
+    type: 100gbase-x-qsfp28
+  - name: '17'
+    type: 100gbase-x-qsfp28
+  - name: '18'
+    type: 100gbase-x-qsfp28
+  - name: '19'
+    type: 100gbase-x-qsfp28
+  - name: '20'
+    type: 100gbase-x-qsfp28
+  - name: '21'
+    type: 100gbase-x-qsfp28
+  - name: '22'
+    type: 100gbase-x-qsfp28
+  - name: '23'
+    type: 100gbase-x-qsfp28
+  - name: '24'
+    type: 100gbase-x-qsfp28
+  - name: '25'
+    type: 100gbase-x-qsfp28
+  - name: '26'
+    type: 100gbase-x-qsfp28
+module-bays:
+  - name: PS A
+    position: A
+    comments: |
+      170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
+      170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    comments: |
+      170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
+      170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: Module 1
+    position: '1'
+    comments: |
+      * 170-0339-900 2x400G QSFP-DD
+      * 170-0339-901 2x400G QSFP-DD-macsec
+      * 170-0340-900 8x100G QSFP28
+      * 170-0389-900 2x400G CFP2-DCO
+      * 170-0404-900 12x25G SFP28
+  - name: Module 2
+    position: '2'
+    comments: |
+      * 170-0339-900 2x400G QSFP-DD
+      * 170-0339-901 2x400G QSFP-DD-macsec
+      * 170-0340-900 8x100G QSFP28
+      * 170-0389-900 2x400G CFP2-DCO
+      * 170-0404-900 12x25G SFP28
