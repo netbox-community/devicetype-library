@@ -1,0 +1,34 @@
+---
+manufacturer: Ciena
+model: 6500 R2
+slug: ciena-6500-r2
+part_number: NTK803DA
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+module-bays:
+  - name: Access Panel
+    position: '40'
+    description: NTK805NA Access Panel (6500-R2)
+  - name: CTM Front Panel
+    position: '49'
+    description: NTK806DA
+  - name: Module 1
+    position: '1'
+  - name: Module 2
+    position: '2'
+  - name: Module 3
+    position: '3'
+  - name: Module 4
+    position: '4'
+  - name: Power Input Module 1
+    position: '61'
+    comments: |
+      NTK805SA AC
+      NTK805DA DC
+  - name: Power Input Module 2
+    position: '62'
+    comments: |
+      NTK805SA AC
+      NTK805DA DC
