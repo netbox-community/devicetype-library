@@ -1,0 +1,27 @@
+---
+manufacturer: Cudy
+model: WR3000 v1
+slug: cudy-wr3000-v1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 295
+weight_unit: g
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 7
+comments: '[WR3000](https://www.cudy.com/products/wr3000-1-0)'
+interfaces:
+  - name: wan
+    type: 1000base-t
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ax
+  - name: wlan1
+    type: ieee802.11ac
