@@ -2,4 +2,16 @@
 manufacturer: Cisco
 model: N77-SUP2E
 part_number: N77-SUP2E
-comments: Supervisor Module-2
+comments: '[Cisco Nexus 7700 Supervisor 2E Module Data Sheet Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/data_sheet_c78-728591.html)'
+description: Cisco Nexus 7700 Supervisor 2E Module
+weight: 8.5
+weight_unit: lb
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    label: MGMT Ethernet
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
+    label: Serial Port
