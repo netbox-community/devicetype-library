@@ -8,6 +8,7 @@ u_height: 1
 is_full_depth: false
 weight: 3.42
 weight_unit: kg
+airflow: front-to-rear
 front_image: true
 interfaces:
   - name: WAN 1
@@ -20,5 +21,5 @@ interfaces:
     type: 1000base-x-sfp
 power-ports:
   - name: Supply
-    type: iec-60320-c6
+    type: iec-60320-c14
     maximum_draw: 30
