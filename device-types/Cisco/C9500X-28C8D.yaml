@@ -8,18 +8,14 @@ is_full_depth: true
 comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
 front_image: true
 rear_image: true
+weight: 13.28
+weight_unit: kg
+airflow: front-to-rear
 console-ports:
   - name: con0
     type: rj-45
   - name: usb
     type: usb-c
-power-ports:
-  - name: PS-1
-    type: iec-60320-c14
-    maximum_draw: 1500
-  - name: PS-2
-    type: iec-60320-c14
-    maximum_draw: 1500
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -242,6 +238,3 @@ module-bays:
   - name: ps2
     label: PS-2
     position: '2'
-  - name: disk0
-    label: DISK-0
-    position: '1'
