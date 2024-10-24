@@ -12,17 +12,21 @@ rear_image: true
 airflow: passive
 comments: '[Aruba 303 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP303Series.pdf)'
 console-ports:
-  - name: Console
+  - name: Serial Console
     type: usb-micro-b
 power-ports:
-  - name: Power
+  - name: 12 Vdc
     type: dc-terminal
 interfaces:
   - name: E0
     type: 1000base-t
     poe_mode: pd
-    poe_type: type1-ieee802.3af
-  - name: WiFi
+    poe_type: type4-ieee802.3bt
+  - name: 5GHz WiFi
     type: ieee802.11ac
+    rf_role: ap
+  - name: 2.4GHz WiFi
+    type: ieee802.11n
+    rf_role: ap
   - name: Bluetooth
     type: ieee802.15.1
