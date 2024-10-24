@@ -2,21 +2,39 @@
 manufacturer: Ciena
 model: '5142'
 slug: ciena-5142
-part_number: 170-5142-900
+part_number: 170-5142-930
 u_height: 1
 is_full_depth: false
+front_image: true
+weight: 4
+weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: rj-45
-power-ports:
-  - name: PSA
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 50
-  - name: PSB
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 50
+    mgmt_only: true
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ-45 sync port
+  - name: 1PPS
+    description: 1PPS. SMB connector
+    type: other
+    mgmt_only: true
+  - name: 10MHZ
+    description: SMB connector
+    type: other
+    mgmt_only: true
+module-bays:
+  - name: PS A
+    position: A
+    description: |
+      * 170-0014-900 AC
+      * 170-0013-900 DC
+  - name: PS B
+    position: B
+    description: |
+      * 170-0014-900 AC
+      * 170-0013-900 DC
 interfaces:
   - name: '1'
     type: 1000base-x-sfp
