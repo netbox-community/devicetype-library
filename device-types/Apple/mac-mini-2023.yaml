@@ -1,0 +1,32 @@
+---
+manufacturer: Apple
+model: Mac mini (2023)
+slug: apple-mac-mini-2023
+part_number: Mac14,3
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 2.6
+weight_unit: lb
+comments: https://support.apple.com/en-us/111837
+power-ports:
+  - name: Power
+    type: nema-1-15p
+    maximum_draw: 150
+interfaces:
+  - name: eth
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: thunderbolt-1
+    type: other
+    enabled: true
+    mgmt_only: false
+  - name: thunderbolt-2
+    type: other
+    enabled: true
+    mgmt_only: false
+  - name: wireless
+    type: ieee802.11ax
+    enabled: true
+    mgmt_only: false
