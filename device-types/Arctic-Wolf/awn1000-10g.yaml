@@ -84,7 +84,7 @@ interfaces:
     mgmt_only: false
     description: 1G internal tap
 module-bays:
-- name: PS-A
-  position: A
-- name: PS-B
-  position: B
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
