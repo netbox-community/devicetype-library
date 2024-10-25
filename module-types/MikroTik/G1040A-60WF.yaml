@@ -1,0 +1,18 @@
+---
+manufacturer: MikroTik
+model: G1040A-60WF
+part_number: G1040A-60WF
+comments: |
+  Hot-swap power supply: replace the CCR2004, CRS510 or CRS504 power supply without
+  having to turn off or even restart the router. Zero downtime!
+
+  CCR2004-16G-2S+, CRS510-8XS-2XQ-IN+ and CRS504-4XQ-IN units come with two hot-swap
+  dual redundant power supplies. If one of them goes out of order at some point, the
+  other one will take over. Then you can use this kit to replace the old power supply
+  and you don’t even have to restart the router!
+
+  [Product Page](https://mikrotik.com/product/g1040a_60wf)
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 60
