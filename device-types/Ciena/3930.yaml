@@ -5,14 +5,21 @@ slug: ciena-3930
 part_number: 170-3930-900
 u_height: 1
 is_full_depth: false
+front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
-power-ports:
-  - name: PSA
-    type: iec-60320-c14
-  - name: PSB
-    type: iec-60320-c14
+module-bays:
+  - name: PS A
+    position: A
+    description: |
+      170-0013-900 3930/3932/5142/3926, DC PLUGGABLE POWER SUPPLY, WIDE RANGE 24/48V
+      170-0014-900 3930/3932/5142/3926, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    description: |
+      170-0013-900 3930/3932/5142/3926, DC PLUGGABLE POWER SUPPLY, WIDE RANGE 24/48V
+      170-0014-900 3930/3932/5142/3926, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
 interfaces:
   - name: '1'
     type: 1000base-x-sfp

@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: NXA-PHV-1100W-PE
+part_number: NXA-PHV-1100W-PE
+description: Nexus 1100W Platinum HV-AC-DC PS, port side exhaust
+comments: Nexus 1100W Platinum HV-AC-DC PS, port side exhaust / [Cisco Nexus 9300-FX2 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742282.html)
+weight: 1.12
+weight_unit: kg
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 1100
