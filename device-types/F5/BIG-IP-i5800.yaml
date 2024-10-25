@@ -3,8 +3,11 @@ manufacturer: F5
 model: BIG-IP i5800
 slug: f5-big-ip-i5800
 part_number: i5800
+#default_platform: TSOM
 u_height: 1
 is_full_depth: true
+weight: 24.5
+weight_unit: lb
 airflow: front-to-rear
 front_image: true
 rear_image: true
@@ -15,13 +18,6 @@ console-ports:
     type: usb-a
   - name: Failover
     type: rj-45
-power-ports:
-  - name: psu1
-    type: iec-60320-c14
-    maximum_draw: 330
-  - name: psu2
-    type: iec-60320-c14
-    maximum_draw: 330
 interfaces:
   - name: mgmt
     type: 1000base-t
@@ -50,3 +46,8 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: '6.0'
     type: 40gbase-x-qsfpp
+module-bays:
+  - name: psu1
+    position: '1'
+  - name: psu2
+    position: '2'
