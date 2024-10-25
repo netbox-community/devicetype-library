@@ -11,7 +11,7 @@ airflow: passive
 front_image: true
 comments: '[Aruba 570 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP570Series.pdf)'
 console-ports:
-  - name: Console
+  - name: Serial Console
     type: usb-c
 interfaces:
   - name: E0
@@ -22,7 +22,13 @@ interfaces:
     type: 1000base-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
-  - name: WiFi
+  - name: 2.4GHz WiFi
     type: ieee802.11ax
+    rf_role: ap
+  - name: 5GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
   - name: Bluetooth
     type: ieee802.15.1
+  - name: Zigbee
+    type: other-wireless
