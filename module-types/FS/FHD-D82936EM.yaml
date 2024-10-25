@@ -1,0 +1,51 @@
+---
+manufacturer: FS
+model: FHD-D82936EM
+part_number: '126900'
+description: 8 Channels DWDM Mux Demux, 100GHz C29-C36, with Monitor and Expansion Port, 2.4dB Typical IL, LC/UPC, FHD Plug-in Module
+comments: '[Product Page](https://www.fs.com/de-en/products/126900.html)'
+front-ports:
+  - name: '{module}:EXP'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 1
+  - name: '{module}:MON'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 2
+  - name: '{module}:C29'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 3
+  - name: '{module}:C30'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 4
+  - name: '{module}:C31'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 5
+  - name: '{module}:C32'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 6
+  - name: '{module}:C33'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 7
+  - name: '{module}:C34'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 8
+  - name: '{module}:C35'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 9
+  - name: '{module}:C36'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 10
+rear-ports:
+  - name: '{module}:LINE'
+    type: lc-upc
+    positions: 10

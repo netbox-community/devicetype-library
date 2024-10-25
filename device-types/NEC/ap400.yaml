@@ -1,0 +1,23 @@
+---
+manufacturer: NEC
+model: AP400
+slug: nec-ap400
+comments: |
+  NEC AP400, IP DECT Access Point
+  Compatible with all NEC communication platforms: UNIVERGE
+  SL-series, SV8100, SV8300, SV8500
+description: IP DECT Base Station
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 302.0
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: eth0
+    description: eth0
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
