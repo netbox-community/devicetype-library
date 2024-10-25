@@ -1,0 +1,43 @@
+---
+manufacturer: Arista
+model: DCS-7289R3A-SC-F
+slug: arista-dcs-7289r3a-sc-f
+part_number: DCS-7289R3A-SC-F
+u_height: 4
+weight: 16.3
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista 7280R3A Modular Series / 7289R3A-SC 100/200/400G Data Center Switches](https://www.arista.com/assets/data/pdf/Datasheets/7280R3A-Modular-Datasheet.pdf)'
+module-bays:
+# supports Power Supplies PWR-1900-AC/DC
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PSU 3
+    position: '3'
+  - name: PSU 4
+    position: '4'
+# supports Supervisor Modules DCS-7289-SUP-D, DCS-7289-SUPS-D
+  - name: Supervisor1
+    position: '1'
+# supports Interface Modules DCS-7368-16S, DCS-7358-16C, DCS-7368-4D, DCS-7368-4P
+  - name: Linecard2
+    position: '2'
+  - name: Linecard3
+    position: '3'
+  - name: Linecard4
+    position: '4'
+  - name: Linecard5
+    position: '5'
+  - name: Linecard6
+    position: '6'
+  - name: Linecard7
+    position: '7'
+  - name: Linecard8
+    position: '8'
+  - name: Linecard9
+    position: '9'
+  - name: Linecard10
+    position: '10'
