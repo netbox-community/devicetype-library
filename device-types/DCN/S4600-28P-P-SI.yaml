@@ -12,6 +12,8 @@ comments: '[DCN S4600 Series Switches Data Sheet](https://www.dcneurope.eu/en/pr
 console-ports:
   - name: con 0
     type: rj-45
+  - name: usb
+    type: usb-a
 interfaces:
   - name: Ethernet1/0/1
     type: 1000base-t

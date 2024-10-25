@@ -1,0 +1,37 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 7690
+slug: avm-fritzbox-7690
+part_number: '20003057'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 7690 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7690/technische-daten/)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: FON1
+    label: FON 1
+    type: other
+  - name: FON2
+    label: FON 2
+    type: other
+  - name: WAN_LAN
+    label: WAN/LAN
+    type: 2.5gbase-t
+  - name: LAN1
+    label: LAN 1
+    type: 2.5gbase-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11be
