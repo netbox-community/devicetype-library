@@ -10,11 +10,11 @@ weight_unit: kg
 comments: '[DEC2750 Series - Specifications](https://shop.opnsense.com/dec2700-series-opnsense-rack-security-appliance/)'
 interfaces:
   - name: igb0
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: igb1
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: igb2
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: ax0
     type: 10gbase-x-sfpp
   - name: ax1
