@@ -7,11 +7,10 @@ u_height: 1
 is_full_depth: true
 weight: 3
 weight_unit: kg
-comments: '[DCN S4600 Series Switches Data Sheet](https://www.dcneurope.eu/en/product-switches/s5750e-52x-p-si-r2)'
+airflow: front-to-rear
+comments: '[DCN S4600 Series Switches Data Sheet](https://www.dcneurope.eu/en/product-switches/s4600-52x-si)'
 console-ports:
   - name: con 0
-    type: rj-45
-  - name: usb
     type: rj-45
 interfaces:
   - name: Ethernet1/0/1
@@ -217,4 +216,4 @@ interfaces:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 50
+    maximum_draw: 897
