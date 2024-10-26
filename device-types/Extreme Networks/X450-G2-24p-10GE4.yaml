@@ -120,10 +120,15 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: '28'
     type: 10gbase-x-sfpp
-  - name: QSFP
-    type: 10gbase-x-sfpp
-  - name: QSFP
-    type: 10gbase-x-sfpp
   - name: Mgmt
     type: 1000base-t
     mgmt_only: true
+  - name: SP1
+    type: extreme-summitstack
+  - name: SP2
+    type: extreme-summitstack
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'
