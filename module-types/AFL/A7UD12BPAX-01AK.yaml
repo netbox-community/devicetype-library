@@ -1,0 +1,63 @@
+---
+manufacturer: AFL
+model: A7UD12BPAX-01AK
+weight: 0.23
+weight_unit: kg
+description: 12 Fiber, SM, LC Splice Cassette
+comments: U-Series Splice Cassette, 12 Fiber, SM, LC (Blue) Loaded With Premium Easy-Strip Pigtails
+front-ports:
+  - name: '{module}:01-02'
+    type: lc
+    color: 2196f3
+    rear_port: '{module}:01-02'
+    label: 1-2
+    rear_port_position: 1
+  - name: '{module}:03-04'
+    type: lc
+    color: 2196f3
+    rear_port: '{module}:03-04'
+    label: 3-4
+    rear_port_position: 1
+  - name: '{module}:05-06'
+    type: lc
+    color: 2196f3
+    rear_port: '{module}:05-06'
+    label: 5-6
+    rear_port_position: 1
+  - name: '{module}:07-08'
+    type: lc
+    color: 2196f3
+    rear_port: '{module}:07-08'
+    label: 7-8
+    rear_port_position: 1
+  - name: '{module}:09-10'
+    type: lc
+    color: 2196f3
+    rear_port: '{module}:09-10'
+    label: 9-10
+    rear_port_position: 1
+  - name: '{module}:11-12'
+    type: lc
+    color: 2196f3
+    rear_port: '{module}:11-12'
+    label: 11-12
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}:01-02'
+    type: splice
+    positions: 1
+  - name: '{module}:03-04'
+    type: splice
+    positions: 1
+  - name: '{module}:05-06'
+    type: splice
+    positions: 1
+  - name: '{module}:07-08'
+    type: splice
+    positions: 1
+  - name: '{module}:09-10'
+    type: splice
+    positions: 1
+  - name: '{module}:11-12'
+    type: splice
+    positions: 1
