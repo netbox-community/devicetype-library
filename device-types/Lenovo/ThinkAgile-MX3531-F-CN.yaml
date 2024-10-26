@@ -1,0 +1,47 @@
+---
+manufacturer: Lenovo
+model: ThinkAgile MX3531-F CN
+slug: lenovo-thinkagile-mx3531-f-cn
+part_number: 7D66
+u_height: 2
+is_full_depth: true
+comments: '[Lenovo ThinkAgile MX3530 and MX3531 2U Appliances and Certified Nodes](https://lenovopress.lenovo.com/lp1512.pdf)'
+subdevice_role: parent
+airflow: front-to-rear
+weight: 38.8
+weight_unit: kg
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: OCP slot 1
+    position: OCP-1
+  - name: Riser 1 - PCIe slot 1
+    position: PCIe-1
+    label: 1 PCIe
+  - name: Riser 1 - PCIe slot 2
+    position: PCIe-2
+    label: 2 PCIe
+  - name: Riser 1 - PCIe slot 3
+    position: PCIe-3
+    label: 3 PCIe
+  - name: Riser 2 - PCIe slot 4
+    position: PCIe-4
+    label: 4 PCIe
+  - name: Riser 2 - PCIe slot 5
+    position: PCIe-5
+    label: 5 PCIe
+  - name: Riser 2 - PCIe slot 6
+    position: PCIe-6
+    label: 6 PCIe
+  - name: Riser 3 - PCIe slot 7
+    position: PCIe-7
+    label: 7 PCIe
+  - name: Riser 3 - PCIe slot 8
+    position: PCIe-8
+    label: 8 PCIe

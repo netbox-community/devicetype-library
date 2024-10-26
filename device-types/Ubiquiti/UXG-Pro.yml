@@ -1,0 +1,25 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Gateway Pro
+slug: ubiquiti-unifi-gateway-pro
+part_number: UXG-Pro
+comments: '[UniFi Gateway Pro](https://dl.ui.com/ds/uxg-pro_ds.pdf)'
+u_height: 1
+is_full_depth: false
+weight: 3.42
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+interfaces:
+  - name: WAN 1
+    type: 1000base-t
+  - name: Lan 1
+    type: 1000base-t
+  - name: WAN 2
+    type: 1000base-x-sfp
+  - name: Lan 2
+    type: 1000base-x-sfp
+power-ports:
+  - name: Supply
+    type: iec-60320-c14
+    maximum_draw: 30
