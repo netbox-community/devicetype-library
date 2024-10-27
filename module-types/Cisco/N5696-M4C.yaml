@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco
+model: N5696-M4C
+part_number: N5696-M4C
+description: 4-Port 100-Gbps Line-Card Expansion Module
+comments: supports 100 Gigabit Ethernet with CXP optics [Cisco Nexus 5600 Platform 40-Gbps Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-5624q-switch/datasheet-c78-733100.html)
+interfaces:
+  - name: Ethernet{module}/1
+    type: 100gbase-x-cxp
+  - name: Ethernet{module}/2
+    type: 100gbase-x-cxp
+  - name: Ethernet{module}/3
+    type: 100gbase-x-cxp
+  - name: Ethernet{module}/4
+    type: 100gbase-x-cxp

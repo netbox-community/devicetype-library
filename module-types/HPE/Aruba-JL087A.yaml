@@ -2,8 +2,10 @@
 manufacturer: HPE
 model: Aruba JL087A
 part_number: JL087A
-comments: Aruba X372 1050W AC Power Supply
+weight: 880
+weight_unit: g
+comments: Aruba X372 54VDC 1050W 110-240VAC Power Supply
 power-ports:
-  - name: PS{module}
-    type: iec-60320-c14
+  - name: 1/{module}
+    type: iec-60320-c16
     maximum_draw: 1050

@@ -1,0 +1,17 @@
+---
+manufacturer: Arista
+model: DCS-7289-SUP
+part_number: DCS-7289-SUP
+comments: '[Arista 7280R3A Modular Series / 7289R3A-SC 100/200/400G Data Center Switches](https://www.arista.com/assets/data/pdf/Datasheets/7280R3A-Modular-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: Management{module}/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management{module}/2
+    type: 1000base-x-sfp
+    mgmt_only: true
