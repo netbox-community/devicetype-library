@@ -1,0 +1,86 @@
+---
+manufacturer: Extreme Networks
+model: X770-32q
+slug: extreme-networks-x770-32q
+u_height: 1
+is_full_depth: false
+weight: 8.2
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Extreme Networks X770-32q Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-DD9B8B36-2634-42B7-A7A0-861582E84973.shtml)'
+console-ports:
+  - name: Serial console port
+    type: rj-45
+interfaces:
+  - name: '1'
+    type: 40gbase-x-qsfpp
+  - name: '2'
+    type: 40gbase-x-qsfpp
+  - name: '3'
+    type: 40gbase-x-qsfpp
+  - name: '4'
+    type: 40gbase-x-qsfpp
+  - name: '5'
+    type: 40gbase-x-qsfpp
+  - name: '6'
+    type: 40gbase-x-qsfpp
+  - name: '7'
+    type: 40gbase-x-qsfpp
+  - name: '8'
+    type: 40gbase-x-qsfpp
+  - name: '9'
+    type: 40gbase-x-qsfpp
+  - name: '10'
+    type: 40gbase-x-qsfpp
+  - name: '11'
+    type: 40gbase-x-qsfpp
+  - name: '12'
+    type: 40gbase-x-qsfpp
+  - name: '13'
+    type: 40gbase-x-qsfpp
+  - name: '14'
+    type: 40gbase-x-qsfpp
+  - name: '15'
+    type: 40gbase-x-qsfpp
+  - name: '16'
+    type: 40gbase-x-qsfpp
+  - name: '17'
+    type: 40gbase-x-qsfpp
+  - name: '18'
+    type: 40gbase-x-qsfpp
+  - name: '19'
+    type: 40gbase-x-qsfpp
+  - name: '20'
+    type: 40gbase-x-qsfpp
+  - name: '21'
+    type: 40gbase-x-qsfpp
+  - name: '22'
+    type: 40gbase-x-qsfpp
+  - name: '23'
+    type: 40gbase-x-qsfpp
+  - name: '24'
+    type: 40gbase-x-qsfpp
+  - name: '25'
+    type: 40gbase-x-qsfpp
+  - name: '26'
+    type: 40gbase-x-qsfpp
+  - name: '27'
+    type: 40gbase-x-qsfpp
+  - name: '28'
+    type: 40gbase-x-qsfpp
+  - name: '29'
+    type: 40gbase-x-qsfpp
+  - name: '30'
+    type: 40gbase-x-qsfpp
+  - name: '31'
+    type: 40gbase-x-qsfpp
+  - name: '32'
+    type: 40gbase-x-qsfpp
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
