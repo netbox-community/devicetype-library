@@ -1,0 +1,90 @@
+---
+manufacturer: Arctic Wolf
+model: AWN1000 10G
+slug: arctic-wolf-awn1000-10g
+description: 10G security sensor
+part_number: AWN1000 10G
+u_height: 1.0
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Product documentation](https://docs.arcticwolf.com/bundle/sensors/page/deploy_an_awn1000_10g_sensor_with_internal_tap.html)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: LAN0
+    type: 10gbase-t
+    mgmt_only: false
+    description: 10G internal tap
+  - name: LAN1
+    type: 10gbase-t
+    mgmt_only: false
+    description: 10G internal tap
+  - name: LAN2
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: LAN3
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: LAN4
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: LAN5
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: LAN6
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10G Mirror
+    label: '1'
+  - name: LAN7
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10G Mirror
+    label: '2'
+  - name: LAN8
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10G Mirror
+    label: '3'
+  - name: LAN9
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10G Mirror
+    label: '4'
+  - name: WAN0
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10G internal tap
+  - name: WAN1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10G internal tap
+  - name: WAN2
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: WAN3
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: WAN4
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+  - name: WAN5
+    type: 1000base-t
+    mgmt_only: false
+    description: 1G internal tap
+module-bays:
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
