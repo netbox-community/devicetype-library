@@ -15,15 +15,11 @@ console-ports:
     type: rj-45
   - name: BMC
     type: rj-45
-power-ports:
+module-bays:
   - name: Power 1
-    type: iec-60320-c14
-    allocated_draw: 200
-    maximum_draw: 311
+    position: PSU1
   - name: Power 2
-    type: iec-60320-c14
-    allocated_draw: 200
-    maximum_draw: 311
+    position: PSU2
 interfaces:
   - name: Gig-E 3
     type: 1000base-t
