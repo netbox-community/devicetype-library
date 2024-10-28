@@ -1,11 +1,11 @@
 ---
 manufacturer: Meinberg
-description: 'Long-wave receiver for reception of signals from the
-MSF long-wave-transmitter in Anthorn, UK. Requires
-a Meinberg AW02-60 antenna.'
+description: Long-wave receiver for reception of signals from the MSF long-wave-transmitter in Anthorn, UK. Requires a Meinberg AW02-60 antenna.
 model: IMS-MSF
-interfaces:
+console-port:
   - name: COM
     type: de-9
+rear-port:
   - name: Antenna
-    type: BNC
+    type: bnc
+

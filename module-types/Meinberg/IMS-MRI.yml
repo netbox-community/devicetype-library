@@ -1,13 +1,13 @@
 ---
 manufacturer: Meinberg
-description: 'Multi-reference Input Module BNC'
+description: Multi-reference Input Module BNC
 model: IMS-MRI-FO
-interfaces:
+rear-port:
   - name: TC-AM
-    type: BNC
+    type: bnc
   - name: TC-DCLS
-    type: BNC
+    type: bnc
   - name: 10Mhz
-    type: BNC
+    type: bnc
   - name: PPS
-    type: BNC
+    type: bnc
