@@ -7,12 +7,12 @@ u_height: 1
 is_full_depth: false
 front_image: true
 rear_image: true
-weight: 17
-weight_unit: lb
+weight: 7.5
+weight_unit: kg
 comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b06401602ipg.pdf)'
 console-ports:
   - name: '1'
-    type: de-9
+    type: rj-45
 console-server-ports:
   - name: '1'
     type: rj-45
@@ -46,25 +46,21 @@ console-server-ports:
     type: rj-45
   - name: '16'
     type: rj-45
-  - name: '17'
-    type: usb-a
-  - name: '18'
-    type: usb-a
 power-ports:
   - name: '1'
     type: iec-60320-c14
-    maximum_draw: 30
-    allocated_draw: 15
+    maximum_draw: 95
+    allocated_draw: 50
   - name: '2'
     type: iec-60320-c14
-    maximum_draw: 30
-    allocated_draw: 15
+    maximum_draw: 95
+    allocated_draw: 50
 interfaces:
-  - name: eth0_wan
+  - name: 1000M Network Adapter 1
     label: LAN 1
     type: 100base-tx
     mgmt_only: true
-  - name: eth1_lan
+  - name: 1000M Network Adapter 2
     label: LAN 2
     type: 100base-tx
     mgmt_only: true

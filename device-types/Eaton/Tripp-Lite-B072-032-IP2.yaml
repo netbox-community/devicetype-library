@@ -1,0 +1,102 @@
+---
+manufacturer: Eaton
+model: Tripp Lite B072-032-IP2
+slug: eaton-tripp-lite-b072-032-ip2
+part_number: '037332177261'
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 3.5
+weight_unit: kg
+comments: "[Datasheet](https://assets.tripplite.com/product-pdfs/en/b072032ip2.pdf)\n\nThe KVM features two RJ45 LAN ports for connecting to 10/100 Mbps\
+  \ networks. If LAN 1 goes down, LAN 2 takes over. When LAN 1 becomes operational again, the KVM will need to be rebooted to make it the default LAN port\
+  \ again. Note: Only one LAN port can be turned on at a time; they cannot both be turned on. If you don't wish to use network redundancy, connect a single\
+  \ network cable to LAN 2 Port."
+console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: rj-45
+  - name: '18'
+    type: rj-45
+  - name: '19'
+    type: rj-45
+  - name: '20'
+    type: rj-45
+  - name: '21'
+    type: rj-45
+  - name: '22'
+    type: rj-45
+  - name: '23'
+    type: rj-45
+  - name: '24'
+    type: rj-45
+  - name: '25'
+    type: rj-45
+  - name: '26'
+    type: rj-45
+  - name: '27'
+    type: rj-45
+  - name: '28'
+    type: rj-45
+  - name: '29'
+    type: rj-45
+  - name: '30'
+    type: rj-45
+  - name: '31'
+    type: rj-45
+  - name: '32'
+    type: rj-45
+  - name: Serial Port 1
+    label: SERIAL 1
+    type: rj-45
+  - name: Serial Port 2
+    label: SERIAL 2
+    type: rj-45
+power-ports:
+  - name: '1'
+    type: iec-60320-c14
+    maximum_draw: 65
+    allocated_draw: 50
+  - name: '2'
+    type: iec-60320-c14
+    maximum_draw: 65
+    allocated_draw: 50
+interfaces:
+  - name: LAN 1
+    type: 100base-tx
+    mgmt_only: true
+  - name: LAN 2
+    type: 100base-tx
+    mgmt_only: true

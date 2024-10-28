@@ -1,0 +1,136 @@
+---
+manufacturer: Ciena
+model: '8180'
+slug: ciena-8180
+part_number: 192-8180-900
+u_height: 2
+is_full_depth: false
+weight: 15.4
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+    mgmt_only: true
+  - name: USB
+    type: usb-a
+    mgmt_only: true
+  - name: 1PPS
+    description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
+    type: other
+    mgmt_only: true
+  - name: CLK
+    description: Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
+    type: other
+    mgmt_only: true
+  - name: BITS
+    type: rj-45
+    description: RJ45 BITS in or out, ToD in or out, or 1PPS in or out
+    mgmt_only: true
+interfaces:
+  - name: ILAN1
+    type: 100base-tx
+  - name: ILAN2
+    type: 100base-tx
+  - name: AUX
+    type: 1000base-t
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfp28
+  - name: '4'
+    type: 100gbase-x-qsfp28
+  - name: '5'
+    type: 100gbase-x-qsfp28
+  - name: '6'
+    type: 100gbase-x-qsfp28
+  - name: '7'
+    type: 100gbase-x-qsfp28
+  - name: '8'
+    type: 100gbase-x-qsfp28
+  - name: '9'
+    type: 100gbase-x-qsfp28
+  - name: '10'
+    type: 100gbase-x-qsfp28
+  - name: '11'
+    type: 100gbase-x-qsfp28
+  - name: '12'
+    type: 100gbase-x-qsfp28
+  - name: '13'
+    type: 100gbase-x-qsfp28
+  - name: '14'
+    type: 100gbase-x-qsfp28
+  - name: '15'
+    type: 100gbase-x-qsfp28
+  - name: '16'
+    type: 100gbase-x-qsfp28
+  - name: '17'
+    type: 100gbase-x-qsfp28
+  - name: '18'
+    type: 100gbase-x-qsfp28
+  - name: '19'
+    type: 100gbase-x-qsfp28
+  - name: '20'
+    type: 100gbase-x-qsfp28
+  - name: '21'
+    type: 100gbase-x-qsfp28
+  - name: '22'
+    type: 100gbase-x-qsfp28
+  - name: '23'
+    type: 100gbase-x-qsfp28
+  - name: '24'
+    type: 100gbase-x-qsfp28
+  - name: '25'
+    type: 100gbase-x-qsfp28
+  - name: '26'
+    type: 100gbase-x-qsfp28
+  - name: '27'
+    type: 100gbase-x-qsfp28
+  - name: '28'
+    type: 100gbase-x-qsfp28
+  - name: '29'
+    type: 100gbase-x-qsfp28
+  - name: '30'
+    type: 100gbase-x-qsfp28
+  - name: '31'
+    type: 100gbase-x-qsfp28
+  - name: '32'
+    type: 100gbase-x-qsfp28
+
+module-bays:
+  - name: PS A
+    position: A
+    comments: |
+      192-0002-900 8180, DC PLUGGABLE POWER SUPPLY, 2200W
+      192-0003-900 8180, AC PLUGGABLE POWER SUPPLY, 2200W
+  - name: PS B
+    position: B
+    comments: |
+      192-0002-900 8180, DC PLUGGABLE POWER SUPPLY, 2200W
+      192-0003-900 8180, AC PLUGGABLE POWER SUPPLY, 2200W
+  - name: Module 1
+    position: '1'
+    comments: |
+      * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
+      * 192-0050-900 4x100G CFP2-DCO
+  - name: Module 2
+    position: '2'
+    comments: |
+      * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
+      * 192-0050-900 4x100G CFP2-DCO
+  - name: Module 3
+    position: '3'
+    comments: |
+      * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
+      * 192-0050-900 4x100G CFP2-DCO
+  - name: Module 4
+    position: '4'
+    comments: |
+      * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
+      * 192-0050-900 4x100G CFP2-DCO
