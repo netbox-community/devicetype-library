@@ -1,0 +1,42 @@
+---
+manufacturer: Cisco
+model: Catalyst 892FSP-K9
+part_number: C892FSP-K9
+slug: cisco-c892fsp-k9
+u_height: 1
+is_full_depth: false
+comments: Catalyst 892FSP-K9 (https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/data_sheet_c78-519930.html)
+is_powered: true
+weight: 2.5
+weight_unit: kg
+airflow: passive
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/7
+    type: 1000base-t
+  - name: GigabitEthernet1/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet2/0
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 60
