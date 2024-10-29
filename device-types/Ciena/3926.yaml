@@ -3,20 +3,35 @@ manufacturer: Ciena
 model: '3926'
 slug: ciena-3926
 part_number: 170-3926-900
+description: 3926, (2)100M/1G SFP, (6)10/1G SFP+, (1)OPTION SLOT, EXT. TEMP, (2)SLOTS AC/DC PWR SUP
 u_height: 1
+weight: 4
+weight_unit: kg
 is_full_depth: false
+front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
-power-ports:
-  - name: PSA
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 50
-  - name: PSB
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 50
+    mgmt_only: true
+  - name: 1PPS
+    description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
+    type: other
+    mgmt_only: true
+  - name: SYNC
+    type: rj-45
+    description: RJ45 interface G.703 1PPS & ToD input/output
+    mgmt_only: true
+module-bays:
+  - name: PS A
+    position: A
+    description: |
+      170-0013-900 3930/3932/5142/3926, DC PLUGGABLE POWER SUPPLY, WIDE RANGE 24/48V
+      170-0014-900 3930/3932/5142/3926, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    description: |
+      170-0013-900 3930/3932/5142/3926, DC PLUGGABLE POWER SUPPLY, WIDE RANGE 24/48V
+      170-0014-900 3930/3932/5142/3926, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
 interfaces:
   - name: '1.1'
     type: 1000base-x-sfp

@@ -1,0 +1,77 @@
+---
+manufacturer: Ciena
+model: '3940'
+slug: ciena-3940
+part_number: 170-3940-901
+u_height: 1
+is_full_depth: false
+front_image: true
+weight: 3.6
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: CONSOLE
+    type: de-9
+module-bays:
+  - name: PS A
+    position: A
+    description: |
+      170-0100-901 AC PLUGGABLE POWER SUPPLY, 3940/3960
+      170-0101-901 DC PLUGGABLE POWER SUPPLY, 3940/3960
+  - name: PS B
+    position: B
+    description: |
+      170-0100-901 AC PLUGGABLE POWER SUPPLY, 3940/3960
+      170-0101-901 DC PLUGGABLE POWER SUPPLY, 3940/3960
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp
+  - name: '11'
+    type: 1000base-x-sfp
+  - name: '12'
+    type: 1000base-x-sfp
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  - name: '15'
+    type: 1000base-x-sfp
+  - name: '16'
+    type: 1000base-x-sfp
+  - name: '17'
+    type: 1000base-x-sfp
+  - name: '18'
+    type: 1000base-x-sfp
+  - name: '19'
+    type: 1000base-x-sfp
+  - name: '20'
+    type: 1000base-x-sfp
+  - name: '21'
+    type: 1000base-x-sfp
+  - name: '22'
+    type: 1000base-x-sfp
+  - name: '23'
+    type: 1000base-x-sfp
+  - name: '24'
+    type: 1000base-x-sfp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
