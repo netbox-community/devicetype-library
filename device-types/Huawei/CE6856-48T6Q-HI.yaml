@@ -14,13 +14,10 @@ console-ports:
 module-bays:
   - name: FAN1
   - name: FAN2
-power-ports:
   - name: PWR1
-    type: iec-60320-c14
-    maximum_draw: 600
+    position: PWR1
   - name: PWR2
-    type: iec-60320-c14
-    maximum_draw: 600
+    position: PWR2
 interfaces:
   - name: MEth0/0/0
     type: 10gbase-t
