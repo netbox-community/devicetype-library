@@ -1,0 +1,41 @@
+---
+manufacturer: APC
+model: SMT1500RMI2UC
+slug: apc-smt1500rmi2uc
+part_number: SMT1500RMI2UC
+u_height: 2
+is_full_depth: true
+weight: 38.24
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: APC Smart-UPS, Line Interactive, 1500VA, 2HE, 230V, 4 IEC C13-Stecker, SmartConnect Port+SmartSlot, AVR, LCD
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c14
+    maximum_draw: 3600
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 1 Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Group 2 Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: SmartSlot
