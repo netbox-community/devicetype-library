@@ -1,0 +1,23 @@
+---
+manufacturer: QNAP
+model: TS-879 Pro
+slug: qnap-ts-879-pro
+part_number: TS-879-pro
+is_full_depth: false
+subdevice_role: parent
+weight: 13.98
+weight_unit: kg
+airflow: front-to-rear
+comments: '[TS-879 Pro | Hardware Specs | QNAP](https://www.qnap.com/en-me/product/ts-879%20pro/specs/hardware)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 101
+    allocated_draw: 101
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 1000base-t
+  - name: eth1
+    label: '2'
+    type: 1000base-t

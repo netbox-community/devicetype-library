@@ -1,0 +1,54 @@
+---
+manufacturer: Ciena
+model: 3984 DC
+slug: ciena-3984-dc
+part_number: 170-3984-900
+u_height: 1
+weight: 3.4
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+    mgmt_only: true
+  - name: USB
+    type: usb-c
+  - name: 1PPS / 10MHZ
+    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
+    type: other
+    mgmt_only: true
+  - name: ANT
+    type: other
+    mgmt_only: true
+    description: GNSS/GPS antenna mini SMB.
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ-45 sync port
+power-ports:
+  - name: PS-A
+    type: dc-terminal
+    allocated_draw: 80
+    maximum_draw: 110
+  - name: PS-B
+    type: dc-terminal
+    allocated_draw: 80
+    maximum_draw: 110
+interfaces:
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+  - name: '5'
+    type: 25gbase-x-sfp28
+  - name: '6'
+    type: 25gbase-x-sfp28
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
