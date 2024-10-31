@@ -1,0 +1,44 @@
+---
+manufacturer: Supermicro
+model: SuperServer 5018D-FN8T
+slug: supermicro-SYS-5018D-FN8T
+part_number: SYS-5018D-FN8T
+u_height: 1
+is_full_depth: false
+weight: 3.63
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 200
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: Gig-E 5
+    type: 1000base-t
+  - name: Gig-E 6
+    type: 1000base-t
+  - name: Gig-E 7
+    type: 10gbase-x-sfpp
+  - name: Gig-E 8
+    type: 10gbase-x-sfpp
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x8 slot
+  - name: M.2 1
+    position: '2'
+    description: M.2 PCIe 3.0 x4, M Key 2242/2280/22110 Mini-PCIe with mSATA support
