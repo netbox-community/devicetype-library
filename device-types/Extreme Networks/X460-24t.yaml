@@ -1,0 +1,82 @@
+---
+manufacturer: Extreme Networks
+model: X460-24t
+slug: extreme-networks-x460-24t
+u_height: 1
+is_full_depth: false
+weight: 5.81
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Extreme Networks X460-24t Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-98E31F3B-378C-4427-8F21-D15284CBF5E2.shtml)'
+console-ports:
+  - name: Serial console port
+    type: de-9
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: Slot A
+    position: Slot A
+  - name: Slot B
+    position: Slot B

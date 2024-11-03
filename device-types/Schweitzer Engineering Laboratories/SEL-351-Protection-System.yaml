@@ -1,0 +1,43 @@
+---
+manufacturer: Schweitzer Engineering Laboratories
+model: SEL-351 Protection System
+slug: schweitzer-engineering-laboratories-sel-351-protection-system
+part_number: SEL-351
+u_height: 2
+airflow: front-to-rear
+weight: 11.00
+weight_unit: lb
+is_full_depth: true
+comments: |
+  [SEL - 351 Protection System Data Sheet](https://selinc.com/api/download/5523/); Description: Optimize Protection, Automation, and Breaker Control
+console-ports:
+  - name: Port F
+    label: Console Port
+    type: other
+  - name: USB 1
+    label: USB Console Port
+    type: usb-b
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 25
+interfaces:
+  # IRIG port(s)
+  - name: IRIG-B
+    label: NTP, SNTP Time Synchronation
+    type: other
+  # Fast Ethernet ports
+  - name: 5A
+    type: 100base-tx
+  - name: 5B
+    type: 100base-tx
+  # Serial Ports
+  - name: Serial Port 1
+    label: EIA-485 Engineering Compression Terminal
+    type: other
+  - name: Serial Port 2
+    label: Standard multisession Modbus, ASCII, TCP, Modbus RTU, DNP3, Telnet, Webserver, and IEC 61850
+    type: other
+  - name: Serial Port 3
+    label: SEL Dual-channel MIRRORED BITS
+    type: other
