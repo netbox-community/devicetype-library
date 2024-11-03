@@ -1,0 +1,32 @@
+---
+manufacturer: Meinberg
+model: LANTIME M1000
+slug: meinberg-lantime-m1000
+u_height: 1
+is_full_depth: true
+airflow: passive
+front_image: true
+rear_image: true
+comments: '[LANTIME M1000](https://www.meinbergglobal.com/english/products/ims-lantime-m1000-telecom.htm)'
+console-ports:
+  - name: Console
+    type: de-9
+  - name: USB
+    type: usb-a
+module-bays:
+  - name: IO1
+    position: '1'
+  - name: CPU
+    position: '2'
+  - name: IO2
+    position: '3'
+  - name: CLK
+    position: '4'
+  - name: ESI/IO
+    position: '5'
+  - name: MRI/ESI/IO
+    position: '6'
+  - name: PWR1
+    position: '7'
+  - name: PWR2
+    position: '8'

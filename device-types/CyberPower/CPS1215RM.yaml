@@ -1,0 +1,46 @@
+---
+manufacturer: CyberPower
+model: CPS1215RM
+slug: cyberpower-cps1215rm
+part_number: cps1215rm
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 5.0
+weight_unit: lb
+# comments: CyberPower PDU 1u, 10 outlet 15A 100-125V
+power-ports:
+  - name: Power Port 1
+    type: nema-5-15p
+    maximum_draw: 1800
+power-outlets:
+  - name: Rear Outlet 1
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 2
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 3
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 4
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 5
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 6
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 7
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 8
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 9
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Rear Outlet 10
+    type: nema-5-15r
+    power_port: Power Port 1
