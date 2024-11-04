@@ -17,11 +17,6 @@ console-ports:
     type: usb-micro-b
   - name: Serial
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
 interfaces:
   - name: mgmt1/1/1
     type: 1000base-t
@@ -86,3 +81,10 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: ethernet1/1/30
     type: 10gbase-x-sfpp
+module-bays:
+  - name: "1"
+    label: PSU Slot 1
+    position: "1"
+  - name: "2"
+    label: PSU Slot 2
+    position: "2"
