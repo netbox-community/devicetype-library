@@ -1,0 +1,39 @@
+---
+manufacturer: Cisco
+model: UCS C220 M5L
+slug: cisco-ucs-c220-m5l
+part_number: UCSC-C220-M5L
+u_height: 1
+airflow: front-to-rear
+weight: 17.0
+weight_unit: kg
+is_full_depth: true
+comments: '[Cisco UCS C220 M5 Server Large Form (Factor Disk Drive Model) Spec Sheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m5-lff-specsheet.pdf)'
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console
+    label: IOIOI
+    type: rj-45
+interfaces:
+  - name: Ethernet L/1
+    type: 10gbase-t
+  - name: Ethernet L/2
+    type: 10gbase-t
+  - name: CIMC
+    type: 1000base-t
+    label: o]
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: NUMA 0 - PCIe slot 1
+    position: PCIe-1
+  - name: NUMA 1 - PCIe slot 2
+    position: PCIe-2
+  - name: mRAID
+    position: mRAID
+  - name: mLOM
+    position: mLOM
