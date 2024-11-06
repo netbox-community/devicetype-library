@@ -1,13 +1,14 @@
 ---
 manufacturer: Cisco
-model: CBS350-48T-4G
-slug: cisco-cbs350-48t-4g
-part_number: WCBS350-48T-4G
-comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
+model: CBS250-48T-4X
+slug: cisco-cbs250-48t-4x
+part_number: CBS250-48T-4X
+comments: '[CBS250 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
 airflow: side-to-rear
-weight: 2.78
+weight: 3.95
 weight_unit: kg
 is_full_depth: false
+front_image: true
 u_height: 1
 interfaces:
   - name: GigabitEthernet1
@@ -106,22 +107,22 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet48
     type: 1000base-t
-  - name: GigabitEthernet49
+  - name: TenGigabitEthernet1
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet50
+  - name: TenGigabitEthernet2
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet51
+  - name: TenGigabitEthernet3
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet52
+  - name: TenGigabitEthernet4
     type: 10gbase-x-sfpp
   - name: Vlan1
     type: virtual
 console-ports:
-  - name: con0
+  - name: Console
     type: rj-45
-  - name: con1
+  - name: Console (USB)
     type: usb-mini-b
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 236
+    maximum_draw: 49
