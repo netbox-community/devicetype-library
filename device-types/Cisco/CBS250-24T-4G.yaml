@@ -1,9 +1,12 @@
 ---
 manufacturer: Cisco
-model: CBS350-24P-4G
-slug: cisco-cbs350-24p-4g
-part_number: WCBS350-24P-4G
-comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
+model: CBS250-24T-4G
+slug: cisco-cbs250-24t-4g
+part_number: CBS250-24T-4G
+comments: '[CBS250 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
+airflow: passive
+weight: 2.63
+weight_unit: kg
 is_full_depth: false
 front_image: true
 u_height: 1
@@ -67,11 +70,11 @@ interfaces:
   - name: Vlan1
     type: virtual
 console-ports:
-  - name: con0
+  - name: Console
     type: rj-45
-  - name: con1
+  - name: Console (USB)
     type: usb-mini-b
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 236
+    maximum_draw: 26
