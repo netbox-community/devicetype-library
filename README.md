@@ -27,7 +27,7 @@ Each definition **must** include at minimum the following fields:
   - Type: String
   - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
 
-Example:
+:test_tube: Example:
 
   ```yaml
   manufacturer: Dell
@@ -39,13 +39,13 @@ The following fields may **optionally** be declared:
 
 - `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
   - Type: String
-  - Example: `part_number: D109-C3`
+  - :test_tube: Example: `part_number: D109-C3`
 - `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
   - Type: number (minimum of `0`, multiple of `0.5`)
-  - Example: `u_height: 12.5`
+  - :test_tube: Example: `u_height: 12.5`
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
   - Type: Boolean
-  - Example: `is_full_depth: false`
+  - :test_tube: Example: `is_full_depth: false`
 - `airflow`: A declaration of the airflow pattern for the device. (**Default: None**)
   - Type: String
   - Options:
@@ -55,27 +55,27 @@ The following fields may **optionally** be declared:
     - `right-to-left`
     - `side-to-rear`
     - `passive`
-  - Example: `airflow: side-to-rear`
+  - :test_tube: Example: `airflow: side-to-rear`
 - `front_image`: Indicates that this device has a front elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
   - Type: Boolean
-  - Example: `front_image: True`
+  - :test_tube: Example: `front_image: True`
 - `rear_image`: Indicates that this device has a rear elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.rear.<acceptable_format>
   - Type: Boolean
-  - Example: `rear_image: True`
+  - :test_tube: Example: `rear_image: True`
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (**Default: None**)
   - Type: String
   - Options:
     - `parent`
     - `child`
-  - Example: `subdevice_role: parent`
+  - :test_tube: Example: `subdevice_role: parent`
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
-  - Example: `comments: This is a comment that will appear on all NetBox devices of this type`
+  - :test_tube: Example: `comments: This is a comment that will appear on all NetBox devices of this type`
 - `is_powered`: A boolean which indicates whether the device type does not take power. This is mainly used as a workaround for validation testing on non-devices (i.e. rackmount kits for mounting desktop devices) (**Default: True**)
   - Type: Boolean
-  - Example: `is_powered: false`
+  - :test_tube: Example: `is_powered: false`
 - `weight`: A number representing the numeric weight value. Must be a multiple of 0.01 (2 decimal places). (**Default: None**)
   - Type: Number
   - Value: must be a multiple of 0.01
@@ -86,7 +86,7 @@ The following fields may **optionally** be declared:
     - g
     - lb
     - oz
-  - Example:
+  - :test_tube: Example:
 
     ```yaml
     weight: 12.21
