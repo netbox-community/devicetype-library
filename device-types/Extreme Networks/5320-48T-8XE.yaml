@@ -14,12 +14,10 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 64
 console-ports:
-  - name: Serial console port
+  - name: Console
     type: rj-45
-  - name: Serial console port
+  - name: USB console
     type: usb-micro-b
-  - name: Storage
-    type: usb-a
 interfaces:
   - name: '1'
     type: 1000base-t
