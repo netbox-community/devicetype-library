@@ -1,36 +1,36 @@
 ---
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "/"
+  - package-ecosystem: pip
+    directory: /
     schedule:
-      interval: "monthly"
-      time: "02:00"
-      timezone: "America/New_York"
+      interval: monthly
+      time: 02:00
+      timezone: America/New_York
     labels:
-      - "dependencies"
-    target-branch: "master"
+      - dependencies
+    target-branch: master
     assignees:
-      - "danner26"
-  - package-ecosystem: "github-actions"
-    directory: "/"
+      - danner26
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "monthly"
-      time: "02:00"
-      timezone: "America/New_York"
+      interval: monthly
+      time: 02:00
+      timezone: America/New_York
     labels:
-      - "dependencies"
-    target-branch: "master"
+      - dependencies
+    target-branch: master
     assignees:
-      - "danner26"
-  - package-ecosystem: "devcontainers"
-    directory: "/"
+      - danner26
+  - package-ecosystem: devcontainers
+    directory: /
     schedule:
-      interval: "monthly"
-      time: "02:00"
-      timezone: "America/New_York"
+      interval: monthly
+      time: 02:00
+      timezone: America/New_York
     labels:
-      - "dependencies"
-    target-branch: "master"
+      - dependencies
+    target-branch: master
     assignees:
-      - "danner26"
+      - danner26
