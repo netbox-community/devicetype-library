@@ -29,11 +29,11 @@ Each definition **must** include at minimum the following fields:
 
 Example:
 
-```yaml
-manufacturer: Dell
-model: PowerEdge R6515
-slug: dell-poweredge-r6515
-```
+  ```yaml
+  manufacturer: Dell
+  model: PowerEdge R6515
+  slug: dell-poweredge-r6515
+  ```
 
 The following fields may **optionally** be declared:
 
@@ -88,10 +88,10 @@ The following fields may **optionally** be declared:
     - oz
   - Example:
 
-```yaml
-weight: 12.21
-weight_unit: lb
-```
+    ```yaml
+    weight: 12.21
+    weight_unit: lb
+    ```
 
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
