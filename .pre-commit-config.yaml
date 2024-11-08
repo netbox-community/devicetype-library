@@ -22,12 +22,12 @@ repos:
     rev: v0.14.0
     hooks:
       - id: markdownlint-cli2
-  #- repo: local
-  #  hooks:
-  #    - id: pytest
-  #      name: Run PyTest Case Checks
-  #      entry: pytest
-  #      language: system
-  #      args: [--tb=short, -v]
-  #      pass_filenames: false
-  #      always_run: true
+  - repo: local
+    hooks:
+      - id: pytest
+        name: Run PyTest Case Checks
+        entry: pytest
+        language: system
+        args: [--tb=short, -v]
+        pass_filenames: false
+        always_run: true
