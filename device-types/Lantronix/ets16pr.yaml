@@ -1,0 +1,54 @@
+---
+manufacturer: Lantronix
+model: ETS16PR
+slug: lantronix-ets16pr
+part_number: ETS16PR
+u_height: 1
+front_image: true
+weight: 1.6
+weight_unit: kg
+interfaces:
+  - name: 10/100
+    type: 100base-tx
+    mgmt_only: true
+  - name: AUI
+    type: other
+    mgmt_only: true
+console-server-ports:
+  - name: Serial 1
+    type: rj-45
+  - name: Serial 2
+    type: rj-45
+  - name: Serial 3
+    type: rj-45
+  - name: Serial 4
+    type: rj-45
+  - name: Serial 5
+    type: rj-45
+  - name: Serial 6
+    type: rj-45
+  - name: Serial 7
+    type: rj-45
+  - name: Serial 8
+    type: rj-45
+  - name: Serial 9
+    type: rj-45
+  - name: Serial 10
+    type: rj-45
+  - name: Serial 11
+    type: rj-45
+  - name: Serial 12
+    type: rj-45
+  - name: Serial 13
+    type: rj-45
+  - name: Serial 14
+    type: rj-45
+  - name: Serial 15
+    type: rj-45
+  - name: Serial 16
+    type: rj-45
+
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 30
