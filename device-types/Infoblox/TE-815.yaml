@@ -1,14 +1,16 @@
 ---
 manufacturer: Infoblox
-model: TE-1415-NS1GD-AC
-slug: infoblox-te-1415-ns1gd-ac
+model: TE-815
+slug: infoblox-te-815
 is_full_depth: false
 u_height: 1
 interfaces:
   - name: LOM
     type: 1000base-t
+    mgmt_only: true
   - name: MGMT
     type: 1000base-t
+    mgmt_only: true
   - name: LAN1
     type: 1000base-t
   - name: LAN2
@@ -21,7 +23,4 @@ console-ports:
 power-ports:
   - name: PS0
     type: iec-60320-c14
-    maximum_draw: 600
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 600
+    maximum_draw: 350
