@@ -1,0 +1,52 @@
+---
+manufacturer: Supermicro
+model: SuperServer 5019D-FN8TP
+slug: supermicro-sys-5019d-fn8tp
+part_number: SYS-5019D-FN8TP
+u_height: 1
+is_full_depth: false
+weight: 3.63
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+comments: SuperServer 5019D-FN8TP (https://www.supermicro.com/products/system/1u/5019/SYS-5019D-FN8TP.cfm)
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 200
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: Gig-E 5
+    type: 10gbase-t
+  - name: Gig-E 6
+    type: 10gbase-t
+  - name: Gig-E 7
+    type: 10gbase-x-sfpp
+  - name: Gig-E 8
+    type: 10gbase-x-sfpp
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x8 slot
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 3.0 x16 slot
+  - name: PCI-E 3
+    position: '3'
+    description: Mini-PCIe
+  - name: M.2 1
+    position: '4'
+    description: M.2 M key for SSD, 2242/8
+  - name: M.2 2
+    position: '5'
+    description: M.2 B Key for SSD/WAN card
