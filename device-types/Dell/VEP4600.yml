@@ -1,0 +1,35 @@
+---
+manufacturer: Dell
+model: VEP4600
+description: Dell Virtual Edge Platform 4600
+slug: dell-vep4600
+part_number: vep4600
+comments: '[Dell Virtual Edge Platform 4660 Data Sheet](https://www.delltechnologies.com/asset/en-gb/products/networking/technical-support/virtual-edge-platform-4600-spec-sheet.pdf)'
+u_height: 1
+weight: 7.43
+weight_unit: kg
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: CPU
+    type: rj-45
+  - name: BMC
+    type: rj-45
+module-bays:
+  - name: Power 1
+    position: PSU1
+  - name: Power 2
+    position: PSU2
+interfaces:
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: Gig-E 5
+    type: 1000base-t
+  - name: Gig-E 6
+    type: 1000base-t
+  - name: 10GbE 1
+    type: 10gbase-x-sfpp
+  - name: 10GbE 2
+    type: 10gbase-x-sfpp

@@ -1,0 +1,74 @@
+---
+manufacturer: Extreme Networks
+model: X150-24t
+slug: extreme-networks-x150-24t
+u_height: 1
+is_full_depth: false
+weight: 4.8
+weight_unit: kg
+airflow: right-to-left
+front_image: true
+comments: '[Extreme Networks X150-24t Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-A48D9BB9-E0EC-41DB-AE56-F2615275A38A.shtml)'
+power-ports:
+  - name: DCE2
+    type: iec-60320-c14
+    maximum_draw: 36
+console-ports:
+  - name: Serial console port
+    type: de-9
+interfaces:
+  - name: '1'
+    type: 100base-tx
+  - name: '2'
+    type: 100base-tx
+  - name: '3'
+    type: 100base-tx
+  - name: '4'
+    type: 100base-tx
+  - name: '5'
+    type: 100base-tx
+  - name: '6'
+    type: 100base-tx
+  - name: '7'
+    type: 100base-tx
+  - name: '8'
+    type: 100base-tx
+  - name: '9'
+    type: 100base-tx
+  - name: '10'
+    type: 100base-tx
+  - name: '11'
+    type: 100base-tx
+  - name: '12'
+    type: 100base-tx
+  - name: '13'
+    type: 100base-tx
+  - name: '14'
+    type: 100base-tx
+  - name: '15'
+    type: 100base-tx
+  - name: '16'
+    type: 100base-tx
+  - name: '17'
+    type: 100base-tx
+  - name: '18'
+    type: 100base-tx
+  - name: '19'
+    type: 100base-tx
+  - name: '20'
+    type: 100base-tx
+  - name: '21'
+    type: 100base-tx
+  - name: '22'
+    type: 100base-tx
+  - name: '23'
+    type: 100base-tx
+  - name: '24'
+    type: 100base-tx
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true

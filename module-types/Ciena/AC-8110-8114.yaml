@@ -1,0 +1,14 @@
+---
+manufacturer: Ciena
+model: AC-8110-8114
+part_number: 170-0337-900
+description: 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+comments: |
+  Used in:
+  * 8110
+  * 8114
+power-ports:
+  - name: PS-{module}
+    type: iec-60320-c16
+    allocated_draw: 240
+    maximum_draw: 446

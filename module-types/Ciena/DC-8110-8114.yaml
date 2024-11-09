@@ -1,0 +1,14 @@
+---
+manufacturer: Ciena
+model: DC-8110-8114
+part_number: 170-0336-900
+description: 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
+comments: |
+  Used in:
+  * 8110
+  * 8114
+power-ports:
+  - name: PS-{module}
+    type: dc-terminal
+    allocated_draw: 240
+    maximum_draw: 446
