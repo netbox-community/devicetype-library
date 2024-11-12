@@ -1,30 +1,24 @@
 ---
 manufacturer: Extreme Networks
-model: X440-G2-48p-10GE4
-slug: extreme-networks-x440-g2-48p-10ge4
-part_number: '16535'
+model: 5320-48P-8XE
+slug: extreme-networks-5320-48p-8xe
+part_number: 5320-48P-8XE
 u_height: 1
 is_full_depth: false
+weight: 5.0
+weight_unit: kg
 airflow: left-to-right
-comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
-front_image: true
-rear_image: true
-weight: 6600
-weight_unit: g
+comments: '[Extreme Networks 5320 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/d474173d28554fb5925dc4e26312c8fe?v=c6d9813f)'
+power-ports:
+  - name: C14
+    type: iec-60320-c14
+    maximum_draw: 924
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 961
-  - name: RPS1
-    type: dc-terminal
-    description: Redundant Power Supply
+  - name: USB console
+    type: usb-micro-b
 interfaces:
-  - name: Mgmt-port
-    type: 1000base-t
-    mgmt_only: true
   - name: '1'
     type: 1000base-t
     poe_mode: pse
@@ -202,34 +196,39 @@ interfaces:
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: '45'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: '46'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: '47'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: '48'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: '49'
     type: 10gbase-x-sfpp
-    description: For stacking or as additional SFP+
+    description: Reserved for SPBM in Fabric Engine
   - name: '50'
     type: 10gbase-x-sfpp
-    description: For stacking or as additional SFP+
+    description: Reserved for SPBM in Fabric Engine
   - name: '51'
     type: 10gbase-x-sfpp
-    description: Combo Port (either SFP+ or 10GBASE-T)
+    description: Reserved for SPBM in Fabric Engine
   - name: '52'
     type: 10gbase-x-sfpp
-    description: Combo Port (either SFP+ or 10GBASE-T)
+  - name: '53'
+    type: 10gbase-x-sfpp
+  - name: '54'
+    type: 10gbase-x-sfpp
+  - name: '55'
+    type: 10gbase-x-sfpp
+    description: Can be used for stacking in Switch Engine
+  - name: '56'
+    type: 10gbase-x-sfpp
+    description: Can be used for stacking in Switch Engine

@@ -1,13 +1,13 @@
 ---
 manufacturer: Extreme Networks
-model: X440-G2-24t-10GE4
-slug: extreme-networks-x440-g2-24t-10ge4
-part_number: '16532'
+model: X440-G2-12t-10GE4
+slug: extreme-networks-x440-g2-12t-10ge4
+part_number: '16530'
 u_height: 1
 is_full_depth: false
 front_image: true
 rear_image: true
-weight: 3.66
+weight: 2.64
 weight_unit: kg
 comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
 console-ports:
@@ -16,10 +16,10 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 40
+    maximum_draw: 32
   - name: RPS1
     type: dc-terminal
-    description: Redundant Power Supply
+    description: Redundant Power Supply barrel connector
 interfaces:
   - name: Mgmt-port
     type: 1000base-t
@@ -49,40 +49,12 @@ interfaces:
   - name: '12'
     type: 1000base-t
   - name: '13'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: '14'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: '15'
-    type: 1000base-t
-  - name: '16'
-    type: 1000base-t
-  - name: '17'
-    type: 1000base-t
-  - name: '18'
-    type: 1000base-t
-  - name: '19'
-    type: 1000base-t
-  - name: '20'
-    type: 1000base-t
-  - name: '21'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
-  - name: '22'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
-  - name: '23'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
-  - name: '24'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
-  - name: '25'
-    type: 10gbase-x-sfpp
-  - name: '26'
-    type: 10gbase-x-sfpp
-  - name: '27'
     type: 10gbase-x-sfpp
     description: For stacking or as additional SFP+
-  - name: '28'
+  - name: '16'
     type: 10gbase-x-sfpp
     description: For stacking or as additional SFP+
