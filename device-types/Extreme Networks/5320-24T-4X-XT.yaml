@@ -1,25 +1,28 @@
 ---
 manufacturer: Extreme Networks
-model: X440-G2-24t-10GE4
-slug: extreme-networks-x440-g2-24t-10ge4
-part_number: '16532'
+model: 5320-24T-4X-XT
+slug: extreme-networks-5320-24t-4x-xt
+part_number: 5320-24T-4X-XT
 u_height: 1
 is_full_depth: false
-front_image: true
-rear_image: true
-weight: 3.66
+weight: 3.2
 weight_unit: kg
-comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
-console-ports:
-  - name: Console
-    type: rj-45
+airflow: left-to-right
+comments: '[Extreme Networks 5320 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/d474173d28554fb5925dc4e26312c8fe?v=c6d9813f)'
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 40
+    description: Fixed power supply
+    maximum_draw: 49
   - name: RPS1
     type: dc-terminal
-    description: Redundant Power Supply
+    description: Redundant power supply
+    maximum_draw: 49
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB console
+    type: usb-micro-b
 interfaces:
   - name: Mgmt-port
     type: 1000base-t
@@ -65,24 +68,20 @@ interfaces:
   - name: '20'
     type: 1000base-t
   - name: '21'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
   - name: '22'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
   - name: '23'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
   - name: '24'
-    type: 1000base-x-sfp
-    description: Combo Port (either SFP or 1000BASE-T)
+    type: 1000base-t
   - name: '25'
     type: 10gbase-x-sfpp
   - name: '26'
     type: 10gbase-x-sfpp
   - name: '27'
     type: 10gbase-x-sfpp
-    description: For stacking or as additional SFP+
+    description: Can be used for stacking in Switch Engine
   - name: '28'
     type: 10gbase-x-sfpp
-    description: For stacking or as additional SFP+
+    description: Can be used for stacking in Switch Engine
