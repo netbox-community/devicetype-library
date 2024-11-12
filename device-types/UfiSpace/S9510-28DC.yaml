@@ -1,5 +1,5 @@
 ---
-manfuacturer: UfiSpace
+manufacturer: UfiSpace
 model: S9510-28DC
 slug: ufispace-s9510-28dc
 u_height: 1
@@ -11,72 +11,63 @@ comments: '[UfiSpace S9510-28DC Data Sheet](https://www.ufispace.com/files/1r/Uf
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 400
-    allocated_draw: 137
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 400
-    allocated_draw: 137
 interfaces:
-  - name: 1
-    type: 25gbase-sfp28
-  - name: 2
-    type: 25gbase-sfp28
-  - name: 3
-    type: 25gbase-sfp28
-  - name: 4
-    type: 25gbase-sfp28
-  - name: 5
-    type: 25gbase-sfp28
-  - name: 6 
-    type: 25gbase-sfp28 
-  - name: 7
-    type: 25gbase-sfp28
-  - name: 8
-    type: 25gbase-sfp28
-  - name: 9
-    type: 25gbase-sfp28
-  - name: 10  
-    type: 25gbase-sfp28
-  - name: 11
-    type: 25gbase-sfp28
-  - name: 12
-    type: 25gbase-sfp28
-  - name: 13
-    type: 25gbase-sfp28
-  - name: 14
-    type: 25gbase-sfp28
-  - name: 15
-    type: 25gbase-sfp28
-  - name: 16
-    type: 25gbase-sfp28
-  - name: 17
-    type: 25gbase-sfp28
-  - name: 18
-    type: 25gbase-sfp28
-  - name: 19
-    type: 25gbase-sfp28
-  - name: 20
-    type: 25gbase-sfp28
-  - name: 21
-    type: 25gbase-sfp28
-  - name: 22
-    type: 25gbase-sfp28
-  - name: 23
-    type: 25gbase-sfp28
-  - name: 24
-    type: 25gbase-sfp28
-  - name: 25
-    type: 100gbase-qsfp28
-  - name: 26
-    type: 100gbase-qsfp28
-  - name: 27
-    type: 400gbase-qsfp-dd
-  - name: 28
-    type: 400gbase-qsfp-dd
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+  - name: Ethernet25
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet28
+    type: 400gbase-x-qsfpdd
   - name: mgmt
     type: 1000base-t
     mgmt_only: true
@@ -95,10 +86,3 @@ module-bays:
     position: '3'
   - name: Fan tray 4
     position: '4'
-inventory:
-  - name: 400W AC PSU
-    part_number: PSU-401-AISB
-  - name: 400W DC PSU
-    part_number: PSU-401-DISB-1
-  - name: Exhuast Fan
-    part_number: FAN-402825-HD
