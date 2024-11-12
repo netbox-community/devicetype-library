@@ -1,0 +1,96 @@
+---
+manufacturer: Extreme Networks
+model: X480-24x
+slug: extreme-networks-x480-24x
+u_height: 1
+is_full_depth: false
+weight: 9.5
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Extreme Networks X480-24x Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-A2870F78-DF97-464E-814D-852EE8D94EE4.shtml)'
+console-ports:
+  - name: Serial console port
+    type: de-9
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp
+  - name: '11'
+    type: 1000base-x-sfp
+  - name: '12'
+    type: 1000base-x-sfp
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  - name: '15'
+    type: 1000base-x-sfp
+  - name: '16'
+    type: 1000base-x-sfp
+  - name: '17'
+    type: 1000base-x-sfp
+  - name: '18'
+    type: 1000base-x-sfp
+  - name: '19'
+    type: 1000base-x-sfp
+  - name: '20'
+    type: 1000base-x-sfp
+  - name: '21'
+    type: 1000base-x-sfp
+  - name: '22'
+    type: 1000base-x-sfp
+  - name: '23'
+    type: 1000base-x-sfp
+  - name: '24'
+    type: 1000base-x-sfp
+  - name: '25'
+    type: 1000base-t
+  - name: '26'
+    type: 1000base-t
+  - name: '27'
+    type: 1000base-t
+  - name: '28'
+    type: 1000base-t
+  - name: '29'
+    type: 1000base-t
+  - name: '30'
+    type: 1000base-t
+  - name: '31'
+    type: 1000base-t
+  - name: '32'
+    type: 1000base-t
+  - name: '33'
+    type: 1000base-t
+  - name: '34'
+    type: 1000base-t
+  - name: '35'
+    type: 1000base-t
+  - name: '36'
+    type: 1000base-t
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: VIM
+    position: VIM
