@@ -10,6 +10,15 @@ comments: '[MicroCloud A+ Server AS 3015MR-H8TNR](https://www.supermicro.com/en/
 subdevice_role: parent
 weight: 28.21
 weight_unit: kg
+interfaces:
+  - name: IPMI 1
+    type: 1000base-t
+    mgmt_only: true
+    description: Redundant IPMI port
+  - name: IPMI 2
+    type: 1000base-t
+    mgmt_only: true
+    description: Redundant IPMI port
 module-bays:
   - name: PSU0
     position: PSU 0
