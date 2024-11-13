@@ -23,11 +23,13 @@ module-bays:
     position: PSU 2
   - name: PCI-E 1
     position: '1'
-    description: Occupied by 3808 SAS controller
+    description: 1 PCIe 4.0 x8 LP slot (Occupied by 3808 SAS controller)
   - name: PCI-E 2
     position: '2'
+    description: PCIe 4.0 x16 LP slot
   - name: PCI-E 3
     position: '3'
+    description: PCIe 4.0 x16 LP slot
   - name: PCI-E A1
-    position: A1
-    description: Supermicro® Advanced I/O Module
+    position: '4'
+    description: PCIe 4.0 x16 AIOM slot (OCP 3.0 compatible)

@@ -1,0 +1,37 @@
+---
+manufacturer: Cisco
+model: UCS C220 M7S
+slug: cisco-ucs-c220-m7s
+part_number: UCSC-C220-M7S
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 23.5
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: '[Cisco UCS C220 M7 SFF Rack Server Spec Sheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m7-sff-specsheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+    label: IOIOI
+interfaces:
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+    label: o]
+module-bays:
+  - name: PCIe 01
+    position: '1'
+  - name: PCIe 02
+    position: '2'
+  - name: PCIe 03
+    position: '3'
+  - name: PS-0
+    position: '0'
+  - name: PS-1
+    position: '1'
+  - name: RAID-Controller
+    position: '1'
+  - name: mLOM
+    position: '1'
