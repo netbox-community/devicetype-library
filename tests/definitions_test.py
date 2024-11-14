@@ -224,12 +224,12 @@ def test_definitions(file_path, schema, change_type):
             front_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
 
             if not front_image:
-                pytest.fail(f'{file_path} has front_image set to True but no matching front image found for device (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.front.ext\' but found {manufacturer_images})', False)
+                pytest.fail(f'{file_path} has front_image set to True but no matching front image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.front.ext\' but only found {manufacturer_images})', False)
 
         # If rear_image is True, verify that a rear image exists
         if(definition.get('rear_image')):
             rear_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
 
             if not rear_image:
-                pytest.fail(f'{file_path} has resr_image set to True but no matching rear image found for device (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.rear.ext\' but found {manufacturer_images})', False)
+                pytest.fail(f'{file_path} has rear_image set to True but no matching rear image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.rear.ext\' but only found {manufacturer_images})', False)
     iterdict(definition)
