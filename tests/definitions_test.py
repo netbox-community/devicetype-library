@@ -213,7 +213,7 @@ def test_definitions(file_path, schema, change_type):
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
         # Find images for given manufacturer, with matching device slug (exact match including case)
-        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).split('.')[0] == this_device.get_slug()]
+        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split(os.path.sep)[1] and os.path.basename(image[1]).split('.')[0] == this_device.get_slug()]
         if not manufacturer_images:
             pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer/device (slug={this_device.get_slug()})', False)
         elif len(manufacturer_images)>2:
