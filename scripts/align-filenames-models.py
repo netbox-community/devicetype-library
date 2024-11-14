@@ -13,21 +13,21 @@ for root, dirs, files in walk(root_dir):
       if file.split(".")[0].count("_") > 0:
         newname = file.replace("_", "-")
         rename(f"{root}/{file}", f"{root}/{newname}")
-        
+
       data = []
       with open(path.join(root, file), 'r') as stream:
         try:
           data = stream.readlines()
-          
+
           model = ""
           partNumber = ""
-          
+
           for idx, line in enumerate(data):
             if "model: " in line:
               model = line.split(": ")[1].strip().replace(" ", "-")
             if "part_number: " in line:
               partNumber = line.split(": ")[1].strip()
-          
+
           fileName = file.split('.')[0].casefold()
           regModel = model.replace("sfp+", "sfpp").replace("poe+", "poep").replace("!", "").replace("/", "-").replace("SFP+", "SFPP").replace("POE+", "POEP").replace("!", "").replace("/", "-").replace("PoE+", "PoEP")
           modModel = regModel.casefold().replace("'", "").replace("+", "-plus").replace("*", "-")
@@ -38,9 +38,9 @@ for root, dirs, files in walk(root_dir):
             print(file.casefold())
             print("------------")
             total = total + 1
-          
+
         except yaml.YAMLError as exc:
           print(exc)
         stream.close()
-      
+
 print(f"Total Left: {total}")

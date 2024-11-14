@@ -1,0 +1,120 @@
+---
+manufacturer: Cisco
+model: SX550X-16FT
+slug: cisco-sx550x-16ft
+part_number: SX550X-16FT
+u_height: 1
+is_full_depth: false
+weight: 3.8
+weight_unit: kg
+front_image: true
+comments: '[SG500X series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/550x-series-stackable-managed-switches/datasheet-c78-735874.html)'
+console-ports:
+  - name: console
+    type: de-9
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 57
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 10gbase-t
+  - name: GigabitEthernet1/2
+    type: 10gbase-t
+  - name: GigabitEthernet1/3
+    type: 10gbase-t
+  - name: GigabitEthernet1/4
+    type: 10gbase-t
+  - name: GigabitEthernet1/5
+    type: 10gbase-t
+  - name: GigabitEthernet1/6
+    type: 10gbase-t
+  - name: GigabitEthernet1/7
+    type: 10gbase-t
+  - name: GigabitEthernet1/8
+    type: 10gbase-t
+  - name: GigabitEthernet1/9
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/10
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/11
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/12
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/13
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/14
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/15
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/16
+    type: 10gbase-x-sfpp
+  - name: oob
+    type: 1000base-t
+    management-only: true
+  - name: Port-channel1
+    type: lag
+  - name: Port-channel2
+    type: lag
+  - name: Port-channel3
+    type: lag
+  - name: Port-channel4
+    type: lag
+  - name: Port-channel5
+    type: lag
+  - name: Port-channel6
+    type: lag
+  - name: Port-channel7
+    type: lag
+  - name: Port-channel8
+    type: lag
+  - name: Port-channel9
+    type: lag
+  - name: Port-channel10
+    type: lag
+  - name: Port-channel11
+    type: lag
+  - name: Port-channel12
+    type: lag
+  - name: Port-channel13
+    type: lag
+  - name: Port-channel14
+    type: lag
+  - name: Port-channel15
+    type: lag
+  - name: Port-channel16
+    type: lag
+  - name: Port-channel17
+    type: lag
+  - name: Port-channel18
+    type: lag
+  - name: Port-channel19
+    type: lag
+  - name: Port-channel20
+    type: lag
+  - name: Port-channel21
+    type: lag
+  - name: Port-channel22
+    type: lag
+  - name: Port-channel23
+    type: lag
+  - name: Port-channel24
+    type: lag
+  - name: Port-channel25
+    type: lag
+  - name: Port-channel26
+    type: lag
+  - name: Port-channel27
+    type: lag
+  - name: Port-channel28
+    type: lag
+  - name: Port-channel29
+    type: lag
+  - name: Port-channel30
+    type: lag
+  - name: Port-channel31
+    type: lag
+  - name: Port-channel32
+    type: lag
+  - name: vlan1
+    type: virtual
