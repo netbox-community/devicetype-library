@@ -1,0 +1,13 @@
+---
+manufacturer: Supermicro
+model: Add-on Card AOC-S25GC-i2S
+part_number: AOC-S25GC-i2S
+description: Intel E810-XXVAM2 Ethernet Controller - Advanced I/O Module (AIOM) Form Factor
+comments: '[AOC-S25GC-i2S Product Sheet](https://www.supermicro.com/en/products/accessories/addon/AOC-S25GC-i2S.php)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28
+    mgmt_only: false

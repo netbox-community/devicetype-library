@@ -1,0 +1,87 @@
+---
+manufacturer: Extreme Networks
+model: 5320-24T-4X-XT
+slug: extreme-networks-5320-24t-4x-xt
+part_number: 5320-24T-4X-XT
+u_height: 1
+is_full_depth: false
+weight: 3.2
+weight_unit: kg
+airflow: left-to-right
+comments: '[Extreme Networks 5320 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/d474173d28554fb5925dc4e26312c8fe?v=c6d9813f)'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    description: Fixed power supply
+    maximum_draw: 49
+  - name: RPS1
+    type: dc-terminal
+    description: Redundant power supply
+    maximum_draw: 49
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB console
+    type: usb-micro-b
+interfaces:
+  - name: Mgmt-port
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+    description: Can be used for stacking in Switch Engine
+  - name: '28'
+    type: 10gbase-x-sfpp
+    description: Can be used for stacking in Switch Engine
