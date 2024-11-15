@@ -1,0 +1,37 @@
+---
+manufacturer: Datacom
+model: DM2104-2GX
+slug: datacom-dm2104-2gx
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+comments: Reference Datacom DM2104-2GX (https://datacom.com.br/uploads/product/file/d3cab58619e13eedda9def507a9a9b57.pdf)
+weight: 1.0
+weight_unit: kg
+console-ports:
+  - name: Console0
+    type: rj-45
+power-ports:
+  - name: Power Input AC/DC
+    type: iec-60320-c14
+    maximum_draw: 20
+interfaces:
+  - name: eth1
+    type: 1000base-x-sfp
+  - name: eth2
+    type: 1000base-x-sfp
+  - name: eth3
+    type: 1000base-tx
+  - name: eth4
+    type: 1000base-tx
+  - name: eth5
+    type: 1000base-tx
+  - name: eth6
+    type: 1000base-tx
+  - name: eth7
+    type: 1000base-tx
+  - name: eth8
+    type: 1000base-tx
+  - name: MGMT
+    type: 100base-tx
+    mgmt_only: true
