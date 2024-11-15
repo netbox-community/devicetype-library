@@ -18,6 +18,10 @@ module-bays:
   - name: PSU-2
     label: '2'
     position: PSU-2
+  - name: PCIe Slot 1
+    position: '1'
+  - name: PCIe Slot 2
+    position: '2'
 interfaces:
   - name: LAN1
     type: 1000base-t
