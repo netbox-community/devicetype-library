@@ -159,6 +159,14 @@ def test_definitions(file_path, schema, change_type):
 
     # Load YAML data from file
     definition = yaml.load(content, Loader=DecimalSafeLoader)
+    
+    # Check for non-ASCII characters
+    non_ascii_chars = [char for char in content if ord(char) > 127]
+    if non_ascii_chars:
+        pytest.fail(
+            f"{file_path} contains non-ASCII characters: {', '.join(set(non_ascii_chars))}",
+            pytrace=False
+        )
 
     # Validate YAML definition against the supplied schema
     try:
