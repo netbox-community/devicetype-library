@@ -1,16 +1,13 @@
 manufacturer: Cisco
-model: N540-28Z4C-SYS-D 
-slug: cisco-n540-28z4c-sys-d
-part_number: N540-28Z4C-SYS-D
+model: N540-28Z4C-SYS-A 
+slug: cisco-n540-28z4c-sys-a
+part_number: N540-28Z4C-SYS-A
 is_full_depth: false
 airflow: front-to-rear
 u_height: 1
 power-ports:
   - name: PSU0
-    type: dc-terminal
-    maximum_draw: 250
-  - name: PSU1
-    type: dc-terminal
+    type: iec-60320-c14
     maximum_draw: 250
 console-ports:
   - name: Console
