@@ -1,0 +1,31 @@
+{
+	"name": "netbox_devicetype-library",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+    "remoteEnv": {
+        "HISTSIZE": "10000",
+        "HISTFILESIZE": "20000"
+    },
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip install -r requirements.txt",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"DavidAnson.vscode-markdownlint",
+				"EditorConfig.EditorConfig",
+				"Percy.vscode-pydata-viewer",
+				"Tyriar.sort-lines",
+				"charliermarsh.ruff",
+				"esbenp.prettier-vscode",
+				"ms-python.python",
+				"ms-vscode-remote.vscode-remote-extensionpack",
+				"redhat.vscode-yaml"
+			]
+		}
+	}
+}

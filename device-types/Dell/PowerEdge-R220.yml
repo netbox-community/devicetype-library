@@ -1,0 +1,35 @@
+---
+manufacturer: Dell
+model: PowerEdge R220
+slug: dell-poweredge-r220
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+comments: "The one-socket 1U Dell PowerEdge R220 rack server delivers performance, data\r\nstorage and protection, and intuitive systems management in a\
+  \ short-depth form factor optimized for constrained spaces.\r\n\r\n[Specs](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/PowerEdge_R220_Spec_Sheet.pdf)"
+weight: 8.0
+weight_unit: kg
+console-server-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 250
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: iDRAC
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+module-bays:
+  - name: Riser PCIe slot 1
+    label: '1'
+    position: PCIe-1

@@ -1,0 +1,122 @@
+---
+manufacturer: Extreme Networks
+model: X150-24p
+slug: extreme-networks-x150-24p
+u_height: 1
+is_full_depth: false
+weight: 5.5
+weight_unit: kg
+airflow: right-to-left
+front_image: true
+comments: '[Extreme Networks X150-24p Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-0CD347F4-C441-47C3-9D5B-3BA8649DB783.shtml)'
+power-ports:
+  - name: DCE2
+    type: iec-60320-c14
+    maximum_draw: 500
+console-ports:
+  - name: Serial console port
+    type: de-9
+interfaces:
+  - name: '1'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '2'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '3'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '4'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '5'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '6'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '7'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '8'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '9'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '10'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '11'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '12'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '13'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '14'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '15'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '16'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '17'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '18'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '19'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '20'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '21'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '22'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '23'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '24'
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true

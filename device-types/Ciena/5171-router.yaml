@@ -1,0 +1,133 @@
+---
+manufacturer: Ciena
+model: 5171 Router
+slug: ciena-5171-router
+part_number: 170-5171-920
+u_height: 2
+weight: 8.6
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: false
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+    mgmt_only: true
+  - name: USB
+    type: usb-c
+    mgmt_only: true
+  - name: 1PPS / 10MHZ
+    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
+    type: other
+    mgmt_only: true
+  - name: ANT
+    type: other
+    mgmt_only: true
+    description: Mini-COAX SMB GPS antenna port
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ45 interface G.703 1PPS and ToD/10MHz input/output (software selectable)
+interfaces:
+  - name: '1'
+    type: 50gbase-x-sfp56
+  - name: '2'
+    type: 50gbase-x-sfp56
+  - name: '3'
+    type: 50gbase-x-sfp56
+  - name: '4'
+    type: 50gbase-x-sfp56
+  - name: '5'
+    type: 25gbase-x-sfp28
+  - name: '6'
+    type: 25gbase-x-sfp28
+  - name: '7'
+    type: 25gbase-x-sfp28
+  - name: '8'
+    type: 25gbase-x-sfp28
+  - name: '9'
+    type: 25gbase-x-sfp28
+  - name: '10'
+    type: 25gbase-x-sfp28
+  - name: '11'
+    type: 25gbase-x-sfp28
+  - name: '12'
+    type: 25gbase-x-sfp28
+  - name: '13'
+    type: 25gbase-x-sfp28
+  - name: '14'
+    type: 25gbase-x-sfp28
+  - name: '15'
+    type: 25gbase-x-sfp28
+  - name: '16'
+    type: 25gbase-x-sfp28
+  - name: '17'
+    type: 25gbase-x-sfp28
+  - name: '18'
+    type: 25gbase-x-sfp28
+  - name: '19'
+    type: 25gbase-x-sfp28
+  - name: '20'
+    type: 25gbase-x-sfp28
+  - name: '21'
+    type: 50gbase-x-sfp56
+  - name: '22'
+    type: 50gbase-x-sfp56
+  - name: '23'
+    type: 50gbase-x-sfp56
+  - name: '24'
+    type: 50gbase-x-sfp56
+  - name: '25'
+    type: 25gbase-x-sfp28
+  - name: '26'
+    type: 25gbase-x-sfp28
+  - name: '27'
+    type: 25gbase-x-sfp28
+  - name: '28'
+    type: 25gbase-x-sfp28
+  - name: '29'
+    type: 25gbase-x-sfp28
+  - name: '30'
+    type: 25gbase-x-sfp28
+  - name: '31'
+    type: 25gbase-x-sfp28
+  - name: '32'
+    type: 25gbase-x-sfp28
+  - name: '33'
+    type: 25gbase-x-sfp28
+  - name: '34'
+    type: 25gbase-x-sfp28
+  - name: '35'
+    type: 25gbase-x-sfp28
+  - name: '36'
+    type: 25gbase-x-sfp28
+  - name: '37'
+    type: 25gbase-x-sfp28
+  - name: '38'
+    type: 25gbase-x-sfp28
+  - name: '39'
+    type: 25gbase-x-sfp28
+  - name: '40'
+    type: 25gbase-x-sfp28
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS A
+    position: A
+    comments: |
+      170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
+      170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    comments: |
+      170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
+      170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: Module 1
+    position: '1'
+    comments: |
+      170-0460-900 5171-ROUTER, MODULE, (1)200/100G/40G QSFPDD, (1)100/40G QSFP-DD 2xQSFP DD
+  - name: Module 2
+    position: '2'
+    comments: |
+      170-0460-900 5171-ROUTER, MODULE, (1)200/100G/40G QSFPDD, (1)100/40G QSFP-DD 2xQSFP DD
