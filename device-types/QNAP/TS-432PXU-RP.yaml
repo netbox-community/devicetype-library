@@ -1,0 +1,42 @@
+---
+manufacturer: QNAP
+model: TS-432PXU-RP
+slug: qnap-ts-432pxu-rp
+part_number: TS-432PXU-RP
+u_height: 1
+airflow: front-to-rear
+front_image: true
+rear_image: true
+is_full_depth: true
+subdevice_role: parent
+device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+comments: '[TS-432PXU-RP | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-432pxu-rp/specs/hardware)'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 54
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 54
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 2.5gbase-t
+  - name: eth1
+    label: '2'
+    type: 2.5gbase-t
+  - name: eth2
+    label: '3'
+    type: 10gbase-x-sfpp
+  - name: eth3
+    label: '4'
+    type: 10gbase-x-sfpp
