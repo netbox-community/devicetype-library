@@ -18,8 +18,8 @@ console-ports:
 power-ports:
   - name: PS1
     type: dc-terminal
-    maximum_draw: 14
-    allocated_draw: 12
+    maximum_draw: 95
+    allocated_draw: 20
     label: 12V DC
 interfaces:
   - name: dmz
