@@ -1,0 +1,34 @@
+---
+manufacturer: QNAP
+model: TS-432PXU
+slug: qnap-ts-432pxu
+part_number: TS-432PXU
+u_height: 1
+airflow: front-to-rear
+front_image: true
+rear_image: true
+is_full_depth: true
+weight: 9.26
+weight_unit: kg
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+comments: '[TS-432PXU | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-432pxu/specs/hardware)'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 40
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 2.5gbase-t
+  - name: eth1
+    label: '2'
+    type: 2.5gbase-t
+  - name: eth2
+    label: '3'
+    type: 10gbase-x-sfpp
+  - name: eth3
+    label: '4'
+    type: 10gbase-x-sfpp
