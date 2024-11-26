@@ -19,7 +19,6 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 100
   - name: USP-RPS connector for PSU failover
-    # TODO: There is no proper DC "terminalblock" connection type defined
-    type: iec-60320-c20
+    type: ubiquiti-smartpower
     # USP-RPS DC input, 11.5VDC, 10.43A
     maximum_draw: 160
