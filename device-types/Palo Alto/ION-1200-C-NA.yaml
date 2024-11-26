@@ -1,0 +1,29 @@
+---
+manufacturer: Palo Alto
+model: ION 1200-C-NA
+slug: palo-alto-ion-1200-c-na
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+weight: 3.75
+weight_unit: lb
+airflow: passive
+comments: '[ION models datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/prisma-sd-wan-instant-on-network-ion-device-specifications)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    description: DC barrel jack
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Cellular
+    type: 4g
