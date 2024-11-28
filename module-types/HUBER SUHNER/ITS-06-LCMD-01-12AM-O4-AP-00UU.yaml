@@ -1,0 +1,36 @@
+---
+manufacturer: HUBER SUHNER
+model: ITS-06-LCMD-01-12AM-O4-AP-00UU
+description: IANOS transition module, 6xOM4, LCD UPC, 1xMTP12, AP
+comments: '[Product Page](https://www.hubersuhner.com/en/shop/product/fiber-cable-management/modules/85072945/ianos-transition-module-6xom4-lcd-upc-1xmtp12-ap)'
+part_number: '85072945'
+weight: 152
+weight_unit: g
+rear-ports:
+  - name: '{module}-MPO-01'
+    type: mpo
+front-ports:
+  - name: '{module}-01'
+    type: lc-pc
+    rear_port: '{module}-MPO-01'
+    rear_port_position: 1
+  - name: '{module}-02'
+    type: lc-pc
+    rear_port: '{module}-MPO-01'
+    rear_port_position: 2
+  - name: '{module}-03'
+    type: lc-pc
+    rear_port: '{module}-MPO-01'
+    rear_port_position: 3
+  - name: '{module}-04'
+    type: lc-pc
+    rear_port: '{module}-MPO-01'
+    rear_port_position: 4
+  - name: '{module}-05'
+    type: lc-pc
+    rear_port: '{module}-MPO-01'
+    rear_port_position: 5
+  - name: '{module}-06'
+    type: lc-pc
+    rear_port: '{module}-MPO-01'
+    rear_port_position: 6
