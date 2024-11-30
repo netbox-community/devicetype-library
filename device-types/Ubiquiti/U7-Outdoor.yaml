@@ -1,0 +1,67 @@
+---
+manufacturer: Ubiquiti
+model: U7 Outdoor
+part_number: U7-Outdoor
+slug: ubiquiti-u7-outdoor
+u_height: 0
+is_full_depth: false
+comments: |
+  [Access Point U7 Outdoor](https://store.ui.com/products/u7-outdoor)
+
+  High-performance outdoor WiFi 7 access point with 2.5GbE support, directional/internal and external omni antennas, and ruggedized IPX6 weatherproofing. Includes pole-mounting hardware.
+
+  Dimensions: 170 x 208 x 54.5 mm (6.7 x 8.2 x 2.1")
+  Weight: 1.2 kg (2.6 lb)
+  Certifications: CE, FCC, IC
+
+airflow: passive
+weight: 1200
+weight_unit: g
+front_image: true
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    mgmt_only: true
+  - name: WLAN 0
+    type: ieee802.11n
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Directional Antenna Gain: 8 dBi, External Omni Antenna Gain: 3 dBi, Beamwidth: 90°
+  - name: WLAN 1
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 4.3 Gbps (BW240), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 26 dBm, Directional Antenna Gain: 12.5 dBi, External Omni Antenna Gain: 4 dBi, Beamwidth: 45°
+power-ports:
+  - name: PoE+ Input
+    type: ieee802.3at
+    maximum_draw: 19
+antennas:
+  - name: Internal Directional
+    type: internal
+    gain: 8
+    beamwidth: 90
+    frequency: 2.4 GHz
+  - name: Internal Directional
+    type: internal
+    gain: 12.5
+    beamwidth: 45
+    frequency: 5 GHz
+  - name: External Omni
+    type: external
+    gain: 3
+    beamwidth: 360
+    frequency: 2.4 GHz
+  - name: External Omni
+    type: external
+    gain: 4
+    beamwidth: 360
+    frequency: 5 GHz
+  - name: RP-SMA Connector 1
+    type: rp-sma
+    description: External antenna connector
+  - name: RP-SMA Connector 2
+    type: rp-sma
+    description: External antenna connector
