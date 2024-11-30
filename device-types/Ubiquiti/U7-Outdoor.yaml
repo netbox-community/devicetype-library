@@ -28,12 +28,12 @@ interfaces:
     type: ieee802.11n
     label: 2.4 GHz
     description: |
-      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Directional Antenna Gain: 8 dBi, External Omni Antenna Gain: 3 dBi, Beamwidth: 90°
+      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Directional Antenna Gain: 8 dBi, External Omni Antenna Gain: 3 dBi, Beamwidth: 90 degrees
   - name: WLAN 1
     type: ieee802.11ac
     label: 5 GHz
     description: |
-      Max Data Rate: 4.3 Gbps (BW240), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 26 dBm, Directional Antenna Gain: 12.5 dBi, External Omni Antenna Gain: 4 dBi, Beamwidth: 45°
+      Max Data Rate: 4.3 Gbps (BW240), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 26 dBm, Directional Antenna Gain: 12.5 dBi, External Omni Antenna Gain: 4 dBi, Beamwidth: 45 degrees
 antennas:
   - name: Internal Directional
     type: internal
