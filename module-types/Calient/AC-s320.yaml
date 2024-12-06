@@ -1,0 +1,10 @@
+---
+manufacturer: Calient
+model: AC-s320
+part_number: CN-FC-SPC8-00
+description: s320 AC module
+power-ports:
+  - name: PWR-{module}
+    type: iec-60320-c14
+    allocated_draw: 10
+    maximum_draw: 20

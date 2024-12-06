@@ -1,0 +1,90 @@
+---
+manufacturer: Dell
+model: PowerSwitch S4128F-ON
+slug: dell-powerswitch-s4128f-on
+part_number: S4128F-ON
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[dell-networking-s4100-series-spec-sheet.pdf](https://www.delltechnologies.com/asset/en-us/products/networking/technical-support/dell-networking-s4100-series-spec-sheet.pdf)'
+weight: 8.92
+weight_unit: kg
+is_powered: true
+console-ports:
+  - name: Console
+    type: usb-micro-b
+  - name: Serial
+    type: rj-45
+interfaces:
+  - name: mgmt1/1/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1/1
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/2
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/3
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/4
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/5
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/6
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/7
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/8
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/9
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/10
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/11
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/12
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/21
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/22
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/23
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/24
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/25
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/1/26
+    type: 100gbase-x-qsfp28
+  - name: ethernet1/1/27
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/28
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/29
+    type: 10gbase-x-sfpp
+  - name: ethernet1/1/30
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: '1'
+    label: PSU Slot 1
+    position: '1'
+  - name: '2'
+    label: PSU Slot 2
+    position: '2'

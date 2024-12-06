@@ -2,10 +2,10 @@
 manufacturer: Extreme Networks
 model: XN-ACPWR-800W-F
 part_number: XN-ACPWR-800W-F
-comments: 800W front to back PSU
+comments: 800W front-to-back airflow PSU for 7520 and 7720 switches
 weight: 810
 weight_unit: g
 power-ports:
   - name: Ps#{module}
-    type: iec-60320-c16
+    type: iec-60320-c14
     maximum_draw: 800

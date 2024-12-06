@@ -2,6 +2,8 @@
 manufacturer: Supermicro
 model: AS-1114S-WN10RT
 slug: supermicro-as-1114s-wn10rt
+part_number: AS-1114S-WN10RT
+comments: '[MNL-2295.pdf](https://www.supermicro.com/manuals/superserver/1U/MNL-2295.pdf)'
 u_height: 1
 is_full_depth: true
 console-ports:
@@ -13,8 +15,11 @@ power-ports:
   - name: Power 2
     type: iec-60320-c14
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
+  - name: BMC
     type: 1000base-t
     mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t

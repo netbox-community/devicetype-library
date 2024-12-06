@@ -1,0 +1,99 @@
+---
+manufacturer: Ciena
+model: 5144 DC
+slug: ciena-5144-dc
+part_number: 170-5144-900
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+weight: 4.5
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+    mgmt_only: true
+  - name: USB
+    type: usb-a
+    mgmt_only: true
+  - name: 1PPS / 10MHZ
+    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
+    type: other
+    mgmt_only: true
+  - name: ANT
+    type: other
+    mgmt_only: true
+    description: GNSS/GPS antenna mini SMB.
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ-45 sync port
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp
+  - name: '11'
+    type: 1000base-x-sfp
+  - name: '12'
+    type: 1000base-x-sfp
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  - name: '15'
+    type: 1000base-x-sfp
+  - name: '16'
+    type: 1000base-x-sfp
+  - name: '17'
+    type: 1000base-x-sfp
+  - name: '18'
+    type: 1000base-x-sfp
+  - name: '19'
+    type: 1000base-x-sfp
+  - name: '20'
+    type: 1000base-x-sfp
+  - name: '21'
+    type: 10gbase-x-sfpp
+  - name: '22'
+    type: 10gbase-x-sfpp
+  - name: '23'
+    type: 10gbase-x-sfpp
+  - name: '24'
+    type: 10gbase-x-sfpp
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+  - name: '28'
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PS-A
+    type: dc-terminal
+    maximum_draw: 100
+    allocated_draw: 70
+  - name: PS-B
+    type: dc-terminal
+    maximum_draw: 100
+    allocated_draw: 70

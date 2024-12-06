@@ -1,0 +1,29 @@
+---
+manufacturer: ZTE
+model: ZXHN H298Q
+slug: zte-zxhn-h298q
+airflow: passive
+comments: |
+  ZTE Home Gateway (4) 1G LAN, (1) 1G WAN
+
+  [Manual](https://usermanual.wiki/ZTE/ZXHNH298Q-5208129.pdf)
+u_height: 0
+is_full_depth: false
+power-ports:
+  - name: Input
+    type: dc-terminal
+interfaces:
+  - name: Phone1
+    type: other
+  - name: Phone2
+    type: other
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 1000base-t
+  - name: LAN4
+    type: 1000base-t
+  - name: WAN
+    type: 1000base-t
