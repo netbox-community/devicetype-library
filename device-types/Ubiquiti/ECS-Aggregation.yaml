@@ -129,10 +129,10 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: QSFP28 Port 54
     type: 100gbase-x-qsfp28
-power-ports:
+module-bays:
   - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 550
+    position: left
+    installed_module: ubiquiti-uacc-psu-12v-550w
   - name: PSU 2
-    type: iec-60320-c14
-    maximum_draw: 550
+    position: right
+    installed_module: ubiquiti-uacc-psu-12v-550w

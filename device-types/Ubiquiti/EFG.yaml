@@ -38,10 +38,10 @@ interfaces:
     label: Default WAN 2
   - name: Port 6
     type: 25gbase-x-sfp28
-power-ports:
+module-bays:
   - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 150
+    position: left
+    installed_module: ubiquiti-uacc-psu-12v-150w
   - name: PSU 2
-    type: iec-60320-c14
-    maximum_draw: 150
+    position: right
+    installed_module: ubiquiti-uacc-psu-12v-150w
