@@ -1,0 +1,13 @@
+---
+manufacturer: Juniper
+model: JNP304-RE
+part_number: JNP304-RE
+weight: 1
+weight_unit: kg
+console-ports:
+  - name: console_{module}
+    type: rj-45
+interfaces:
+  - name: mgmt_{module}
+    type: 1000base-t
+    mgmt_only: true
