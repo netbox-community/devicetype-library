@@ -1,0 +1,138 @@
+---
+manufacturer: Ubiquiti
+model: Enterprise Campus Aggregation
+slug: ubiquiti-enterprise-campus-aggregation
+part_number: ECS-Aggregation
+comments: |
+  [Enterprise Campus Aggregation](https://store.ui.com/products/ecs-aggregation)
+
+  High-performance campus aggregation switch with (48) 25/10G SFP28 ports and (6) 100/40G QSFP28 ports. Ideal for high-throughput campus environments with total non-blocking throughput of 1.8 Tbps.
+
+  Dimensions: 442.4 x 43.7 x 496 mm (17.4 x 1.7 x 19.5")
+  Weight: 9.9 kg (21.8 lb)
+  Max Power Consumption: 340W
+  Certifications: CE, FCC, IC
+
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
+interfaces:
+  # SFP28 ports (25/10G, 1-48)
+  - name: SFP28 Port 1
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 2
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 3
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 4
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 5
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 6
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 7
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 8
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 9
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 10
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 11
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 12
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 13
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 14
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 15
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 16
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 17
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 18
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 19
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 20
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 21
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 22
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 23
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 24
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 25
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 26
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 27
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 28
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 29
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 30
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 31
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 32
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 33
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 34
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 35
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 36
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 37
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 38
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 39
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 40
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 41
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 42
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 43
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 44
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 45
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 46
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 47
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 48
+    type: 25gbase-x-sfp28
+  # QSFP28 ports (100/40G, 49-54)
+  - name: QSFP28 Port 49
+    type: 100gbase-x-qsfp28
+  - name: QSFP28 Port 50
+    type: 100gbase-x-qsfp28
+  - name: QSFP28 Port 51
+    type: 100gbase-x-qsfp28
+  - name: QSFP28 Port 52
+    type: 100gbase-x-qsfp28
+  - name: QSFP28 Port 53
+    type: 100gbase-x-qsfp28
+  - name: QSFP28 Port 54
+    type: 100gbase-x-qsfp28
+module-bays:
+  - name: PSU 1
+    position: left
+    installed_module: ubiquiti-uacc-psu-12v-550w
+  - name: PSU 2
+    position: right
+    installed_module: ubiquiti-uacc-psu-12v-550w
