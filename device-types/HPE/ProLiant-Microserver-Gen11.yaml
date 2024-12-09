@@ -1,0 +1,31 @@
+---
+manufacturer: HPE
+model: ProLiant MicroServer Gen11
+slug: hpe-proliant-microserver-gen11
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+weight: 8.65
+weight_unit: kg
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: iLO/M.2/Serial port
+    position: iLO/M.2/Serial port
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 180
+description: HPE ProLiant MicroServer Gen11
+comments: '[PSnow: HPE ProLiant MicroServer Gen11](https://www.hpe.com/psnow/doc/PSN1014826370USEN.pdf?jumpid=in_pdp-psnow-dds)'
