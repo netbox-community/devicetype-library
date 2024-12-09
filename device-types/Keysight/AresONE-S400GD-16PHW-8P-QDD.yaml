@@ -3,7 +3,8 @@ manufacturer: Keysight
 model: AresONE-S400GD-16PHW-8P-QDD
 slug: keysight-aresone-s400gd-16phw-8p-qdd
 part_number: 944-1300
-description: IXIA, AresONE S400GD-16PHW-8P-QDD, High Density, 8-port, full performance fixed chassis model with native QSFP-DD 400GE (PAM4) physical interfaces and L1-3 support (944-1300)
+description: IXIA, AresONE S400GD-16PHW-8P-QDD, High Density, 8-port, full performance fixed chassis model with native QSFP-DD 400GE (PAM4) physical interfaces
+  and L1-3 support (944-1300)
 u_height: 2
 weight: 65
 weight_unit: lb
@@ -27,19 +28,19 @@ interfaces:
   - name: MGMT
     type: 10gbase-t
     mgmt_only: true
-  - name: 1
+  - name: '1'
     type: 400gbase-x-qsfpdd
-  - name: 2
+  - name: '2'
     type: 400gbase-x-qsfpdd
-  - name: 3
+  - name: '3'
     type: 400gbase-x-qsfpdd
-  - name: 4
+  - name: '4'
     type: 400gbase-x-qsfpdd
-  - name: 5
+  - name: '5'
     type: 400gbase-x-qsfpdd
-  - name: 6
+  - name: '6'
     type: 400gbase-x-qsfpdd
-  - name: 7
+  - name: '7'
     type: 400gbase-x-qsfpdd
-  - name: 8
+  - name: '8'
     type: 400gbase-x-qsfpdd

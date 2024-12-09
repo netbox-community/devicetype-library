@@ -1,9 +1,10 @@
 ---
 manufacturer: Keysight
-model: AresONE-800GE-8P-OSFP-M
-slug: keysight-aresone-800ge-8p-osfp-m
-part_number: 944-1419
-description: Ixia, AresONE 800GE-8P-OSFP-M, High Density, 8-port, full performance fixed chassis model with native OSFP800 800GE (PAM4) physical interfaces, L1-3, optical transceiver, and copper DAC support
+model: AresONE-800GER-8P-OSFP-M
+slug: keysight-aresone-800ger-8p-osfp-m
+part_number: 944-1420
+description: Ixia, AresONE 800GER-8P-OSFP-M, High Density, 8-port, restricted performance fixed chassis model with native OSFP800 800GE (PAM4) physical
+  interfaces, L1-3, optical transceiver, and copper DAC support
 u_height: 2
 weight: 58.4
 weight_unit: lb
@@ -27,19 +28,19 @@ interfaces:
   - name: MGMT
     type: 10gbase-t
     mgmt_only: true
-  - name: 1
+  - name: '1'
     type: 800gbase-x-osfp
-  - name: 2
+  - name: '2'
     type: 800gbase-x-osfp
-  - name: 3
+  - name: '3'
     type: 800gbase-x-osfp
-  - name: 4
+  - name: '4'
     type: 800gbase-x-osfp
-  - name: 5
+  - name: '5'
     type: 800gbase-x-osfp
-  - name: 6
+  - name: '6'
     type: 800gbase-x-osfp
-  - name: 7
+  - name: '7'
     type: 800gbase-x-osfp
-  - name: 8
+  - name: '8'
     type: 800gbase-x-osfp
