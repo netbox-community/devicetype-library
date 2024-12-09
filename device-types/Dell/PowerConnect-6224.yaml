@@ -10,6 +10,7 @@ console-ports:
 power-ports:
   - name: Power
     type: iec-60320-c14
+    maximum_draw: 70
 interfaces:
   - name: g1
     type: 1000base-t
@@ -53,12 +54,16 @@ interfaces:
     type: 1000base-t
   - name: g21
     type: 1000base-t
+    # comments: Combo port either 1000base-x-sfp or 1000base-t
   - name: g22
     type: 1000base-t
+    # comments: Combo port either 1000base-x-sfp or 1000base-t
   - name: g23
     type: 1000base-t
+    # comments: Combo port either 1000base-x-sfp or 1000base-t
   - name: g24
     type: 1000base-t
+    # comments: Combo port either 1000base-x-sfp or 1000base-t
   - name: Management
     type: virtual
     mgmt_only: true
