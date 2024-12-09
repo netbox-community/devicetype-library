@@ -1,0 +1,39 @@
+---
+manufacturer: Eaton
+model: Tripp Lite PDUMNH15AT1
+slug: eaton-tripp-lite-pdumnh15at1
+part_number: '037332261397'
+u_height: 1
+is_full_depth: false
+weight: 4.99
+weight_unit: kg
+comments: Same as AT model but includes network card module in accessory slot
+console-ports:
+  - name: RS232
+    type: de-9
+power-ports:
+  - name: Primary
+    type: nema-5-15p
+    maximum_draw: 1400
+  - name: Secondary
+    type: iec-60320-c14
+    maximum_draw: 1400
+power-outlets:
+  - name: '1'
+    type: nema-5-15r
+  - name: '2'
+    type: nema-5-15r
+  - name: '3'
+    type: nema-5-15r
+  - name: '4'
+    type: nema-5-15r
+  - name: '5'
+    type: nema-5-15r
+  - name: '6'
+    type: nema-5-15r
+  - name: '7'
+    type: nema-5-15r
+  - name: '8'
+    type: nema-5-15r
+module-bays:
+  - name: Accessory Slot

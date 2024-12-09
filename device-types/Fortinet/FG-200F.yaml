@@ -3,10 +3,14 @@ manufacturer: Fortinet
 model: FortiGate 200F
 slug: fortinet-fg-200f
 part_number: FG-200F
-u_height: 1
-is_full_depth: false
+u_height: 1.0
+airflow: side-to-rear
+weight: 4.5
+weight_unit: kg
+comments: '[FortiGate 200F Series](https://www.fortinet.com/resources/data-sheets/fortigate-200f-series)'
 console-ports:
   - name: Console
+    label: CONSOLE
     type: rj-45
 power-ports:
   - name: PS1
@@ -20,61 +24,122 @@ power-ports:
 interfaces:
   - name: ha
     type: 1000base-t
+    enabled: true
+    label: HA
   - name: mgmt
     type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: MGMT
   - name: port1
     type: 1000base-t
+    enabled: true
+    label: '1'
   - name: port2
     type: 1000base-t
+    enabled: true
+    label: '2'
   - name: port3
     type: 1000base-t
+    enabled: true
+    label: '3'
   - name: port4
     type: 1000base-t
+    enabled: true
+    label: '4'
   - name: port5
     type: 1000base-t
+    enabled: true
+    label: '5'
   - name: port6
     type: 1000base-t
+    enabled: true
+    label: '6'
   - name: port7
     type: 1000base-t
+    enabled: true
+    label: '7'
   - name: port8
     type: 1000base-t
+    enabled: true
+    label: '8'
   - name: port9
     type: 1000base-t
+    enabled: true
+    label: '9'
   - name: port10
     type: 1000base-t
+    enabled: true
+    label: '10'
   - name: port11
     type: 1000base-t
+    enabled: true
+    label: '11'
   - name: port12
     type: 1000base-t
+    enabled: true
+    label: '12'
   - name: port13
     type: 1000base-t
+    enabled: true
+    label: '13'
   - name: port14
     type: 1000base-t
+    enabled: true
+    label: '14'
   - name: port15
     type: 1000base-t
+    enabled: true
+    label: '15'
   - name: port16
     type: 1000base-t
-  - name: x1
-    type: 10gbase-x-sfpp
-  - name: x2
-    type: 10gbase-x-sfpp
-  - name: x3
-    type: 10gbase-x-sfpp
-  - name: x4
-    type: 10gbase-x-sfpp
+    enabled: true
+    label: '16'
   - name: port17
     type: 1000base-x-sfp
+    enabled: true
+    label: '17'
   - name: port18
     type: 1000base-x-sfp
+    enabled: true
+    label: '18'
   - name: port19
     type: 1000base-x-sfp
+    enabled: true
+    label: '19'
   - name: port20
     type: 1000base-x-sfp
+    enabled: true
+    label: '20'
   - name: port21
     type: 1000base-x-sfp
+    enabled: true
+    label: '21'
   - name: port22
     type: 1000base-x-sfp
+    enabled: true
+    label: '22'
   - name: port23
     type: 1000base-x-sfp
+    enabled: true
+    label: '23'
   - name: port24
     type: 1000base-x-sfp
+    enabled: true
+    label: '24'
+  - name: x1
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: X1
+  - name: x2
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: X2
+  - name: x3
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: X3
+  - name: x4
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: X4
