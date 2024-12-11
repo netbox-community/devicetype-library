@@ -1,0 +1,36 @@
+---
+manufacturer: HPE
+model: 1910-8G-POE+ 180W
+slug: hpe-1910-8g-poe-plus
+part_number: JG350A
+u_height: 1
+is_full_depth: false
+comments: 8-port PoE+ switch with 180W power budget
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 180
+interfaces:
+  - name: GigabitEthernet 1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/2
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/3
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/4
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/5
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/6
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/7
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/8
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/9
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/9-SFP
+    type: 1000base-x-sfp
