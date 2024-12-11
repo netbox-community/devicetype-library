@@ -1,0 +1,92 @@
+---
+manufacturer: Ubiquiti
+model: USP PDU HD
+part_number: USP-PDU-HD
+slug: ubiquiti-usp-pdu-hd
+u_height: 0  # 0U, mounted at the back of the rack
+is_full_depth: false
+comments: |
+  High-density rack-mounted PDU with 24 managed outlets (125V AC, 15A Max.), 4 USB-C ports, and redundant network interfaces.
+  Dimensions: 1485 x 55 x 56 mm (58.5 x 2.17 x 2.2").
+airflow: passive
+weight: 6.3
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: Management Port
+    type: 100base-tx
+    label: Management (RJ45)
+  - name: Network Port 1
+    type: 1000base-t
+    label: Network Redundancy Port 1
+  - name: Network Port 2
+    type: 1000base-t
+    label: Network Redundancy Port 2
+  - name: Network Port 3
+    type: 1000base-t
+    label: Network Redundancy Port 3
+power-ports:
+  - name: Power Input
+    type: nema-l5-30p
+    maximum_draw: 3750  # Total max draw in watts
+power-outlets:
+  # Bank 1: Outlets 1-12
+  - name: Outlet 1
+    type: nema-5-15r
+  - name: Outlet 2
+    type: nema-5-15r
+  - name: Outlet 3
+    type: nema-5-15r
+  - name: Outlet 4
+    type: nema-5-15r
+  - name: Outlet 5
+    type: nema-5-15r
+  - name: Outlet 6
+    type: nema-5-15r
+  - name: Outlet 7
+    type: nema-5-15r
+  - name: Outlet 8
+    type: nema-5-15r
+  - name: Outlet 9
+    type: nema-5-15r
+  - name: Outlet 10
+    type: nema-5-15r
+  - name: Outlet 11
+    type: nema-5-15r
+  - name: Outlet 12
+    type: nema-5-15r
+  # USB-C Ports (13-16)
+  - name: USB-C 13
+    type: usb-c
+  - name: USB-C 14
+    type: usb-c
+  - name: USB-C 15
+    type: usb-c
+  - name: USB-C 16
+    type: usb-c
+  # Bank 2: Outlets 17-28
+  - name: Outlet 17
+    type: nema-5-15r
+  - name: Outlet 18
+    type: nema-5-15r
+  - name: Outlet 19
+    type: nema-5-15r
+  - name: Outlet 20
+    type: nema-5-15r
+  - name: Outlet 21
+    type: nema-5-15r
+  - name: Outlet 22
+    type: nema-5-15r
+  - name: Outlet 23
+    type: nema-5-15r
+  - name: Outlet 24
+    type: nema-5-15r
+  - name: Outlet 25
+    type: nema-5-15r
+  - name: Outlet 26
+    type: nema-5-15r
+  - name: Outlet 27
+    type: nema-5-15r
+  - name: Outlet 28
+    type: nema-5-15r
