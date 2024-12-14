@@ -1,0 +1,27 @@
+---
+manufacturer: Ubiquiti
+model: Enterprise Network Video Recorder
+slug: ubiquiti-enterprise-network-video-recorder
+part_number: ENVR
+airflow: front-to-rear
+comments: 'Enterprise-grade 4U NVR with 16 bays for high-capacity video storage.\nDimensions: 481.4 x 480 x 132 mm (19 x 18.9 x 5.2")\nWeight: 36.6 lb\nCertifications: FCC, CE, IC\n[Enterprise Network Video Recorder Techspecs](https://techspecs.ui.com/unifi/cameras-nvrs/envr)'
+u_height: 4
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 36.6
+weight_unit: lb
+interfaces:
+  - name: LAN 1
+    type: 10gbase-t
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 550
+  - name: PSU 2 (redundant)
+    type: iec-60320-c14
+    maximum_draw: 550
