@@ -1,0 +1,72 @@
+---
+manufacturer: Extreme Networks
+model: X650-24x
+slug: extreme-networks-x650-24x
+u_height: 1
+is_full_depth: false
+weight: 10.1
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Extreme Networks X650-24x Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-A13667C4-14C1-4460-9C7B-D319D5FC5E31.shtml)'
+console-ports:
+  - name: Serial console port
+    type: de-9
+interfaces:
+  - name: '1'
+    type: 10gbase-x-sfpp
+  - name: '2'
+    type: 10gbase-x-sfpp
+  - name: '3'
+    type: 10gbase-x-sfpp
+  - name: '4'
+    type: 10gbase-x-sfpp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: '11'
+    type: 10gbase-x-sfpp
+  - name: '12'
+    type: 10gbase-x-sfpp
+  - name: '13'
+    type: 10gbase-x-sfpp
+  - name: '14'
+    type: 10gbase-x-sfpp
+  - name: '15'
+    type: 10gbase-x-sfpp
+  - name: '16'
+    type: 10gbase-x-sfpp
+  - name: '17'
+    type: 10gbase-x-sfpp
+  - name: '18'
+    type: 10gbase-x-sfpp
+  - name: '19'
+    type: 10gbase-x-sfpp
+  - name: '20'
+    type: 10gbase-x-sfpp
+  - name: '21'
+    type: 10gbase-x-sfpp
+  - name: '22'
+    type: 10gbase-x-sfpp
+  - name: '23'
+    type: 10gbase-x-sfpp
+  - name: '24'
+    type: 10gbase-x-sfpp
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: VIM
+    position: VIM

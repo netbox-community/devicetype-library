@@ -1,0 +1,32 @@
+---
+manufacturer: Corvil
+model: CMC-5
+slug: corvil-cmc-5
+part_number: CMC-5
+u_height: 1
+weight: 55
+weight_unit: lb
+is_full_depth: true
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt3
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt4
+    type: 1000base-t
+    mgmt_only: true
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1300
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1300

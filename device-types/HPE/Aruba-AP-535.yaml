@@ -12,12 +12,10 @@ front_image: true
 rear_image: true
 comments: '[Aruba 530 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP530Series.pdf)'
 console-ports:
-  - name: Console
+  - name: Serial Console
     type: usb-micro-b
-  - name: usb-ble
-    type: usb-a
 power-ports:
-  - name: Power
+  - name: 48 Vdc
     type: dc-terminal
 interfaces:
   - name: E0
@@ -28,7 +26,11 @@ interfaces:
     type: 5gbase-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
-  - name: WiFi
+  - name: 5GHz WiFi
     type: ieee802.11ax
+    rf_role: ap
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
   - name: Bluetooth
     type: ieee802.15.1
