@@ -1,22 +1,22 @@
 ---
 manufacturer: Ubiquiti
-model: UniFi Switch 24 Pro
-slug: ubiquiti-unifi-switch-24-pro
-part_number: USW-Pro-24
+model: UniFi Switch Pro Max 24
+slug: ubiquiti-unifi-switch-pro-max-24
+part_number: USW-Pro-Max-24
 comments: |
-  UniFi Switch 24 Pro (50W), (24) Gigabit, (1-16) Gigabit, (17-24) Gigabit, (2) SFP+
+  UniFi Switch 24 Pro Max (non-PoE) with total non-blocking throughput of 56 Gbps. Features (16) Gigabit Ethernet ports, (8) 1/2.5GbE ports, and (2) 10G SFP+ uplink ports.
 
-  Dimensions: 442.4 x 285 x 44 mm (17.4 x 11.2 x 1.7")
-
-  [Switch Switch 24 Pro Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-24)
+  Dimensions: 442 x 325 x 44 mm (17.4 x 12.8 x 1.7")
+  [UniFi Switch Pro Max 24 Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-max-24)
 u_height: 1
+weight: 9.5
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: false
 front_image: true
 rear_image: true
-weight: 7.9
-weight_unit: lb
-airflow: front-to-rear
 interfaces:
+  # Gigabit Ethernet ports (1-16)
   - name: Port 1
     type: 1000base-t
   - name: Port 2
@@ -49,30 +49,32 @@ interfaces:
     type: 1000base-t
   - name: Port 16
     type: 1000base-t
+  # 2.5GbE Ethernet ports (17-24)
   - name: Port 17
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 18
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 19
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 20
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 21
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 22
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 23
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 24
-    type: 1000base-t
-  - name: Port 25 - SFP+
+    type: 2.5gbase-t
+  # SFP+ uplink ports (25-26)
+  - name: SFP+ 25
     type: 10gbase-x-sfpp
-  - name: Port 26 - SFP+
+  - name: SFP+ 26
     type: 10gbase-x-sfpp
 power-ports:
-  - name: Input
+  - name: AC Input
     type: iec-60320-c14
-    maximum_draw: 30
+    maximum_draw: 50
   - name: USP-RPS connector for PSU failover
     type: ubiquiti-smartpower
-    maximum_draw: 30
+    maximum_draw: 50

@@ -1,21 +1,22 @@
 ---
 manufacturer: Ubiquiti
-model: UniFi Switch 48 Pro
-slug: ubiquiti-unifi-switch-48-pro
-part_number: USW-Pro-48
+model: UniFi Switch Pro Max 48
+slug: ubiquiti-unifi-switch-pro-max-48
+part_number: USW-Pro-Max-48
 comments: |
-  UniFi Switch 48 Pro (60W), (48) Gigabit, (4) SFP+
+  UniFi Switch 48 Pro Max (non-PoE) with total non-blocking throughput of 112 Gbps. Features (32) Gigabit Ethernet ports, (16) 1/2.5GbE ports, and (4) 10G SFP+ uplink ports.
 
-  Dimensions: 442.4 x 285 x 44 mm (17.4 x 11.2 x 1.7")
-  [Switch Switch 48 Pro Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-48)
+  Dimensions: 442 x 325 x 44 mm (17.4 x 12.8 x 1.7")
+  [UniFi Switch Pro Max 48 Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-max-48)
 u_height: 1
+weight: 10.8
+weight_unit: lb
+airflow: front-to-rear
 is_full_depth: false
 front_image: true
 rear_image: true
-weight: 9
-weight_unit: lb
-airflow: front-to-rear
 interfaces:
+  # Gigabit Ethernet ports (1-32)
   - name: Port 1
     type: 1000base-t
   - name: Port 2
@@ -80,38 +81,40 @@ interfaces:
     type: 1000base-t
   - name: Port 32
     type: 1000base-t
+  # 2.5GbE Ethernet ports (33-48)
   - name: Port 33
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 34
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 35
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 36
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 37
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 38
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 39
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 40
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 41
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 42
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 43
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 44
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 45
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 46
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 47
-    type: 1000base-t
+    type: 2.5gbase-t
   - name: Port 48
-    type: 1000base-t
+    type: 2.5gbase-t
+  # SFP+ uplink ports (49-52)
   - name: SFP+ 49
     type: 10gbase-x-sfpp
   - name: SFP+ 50
@@ -121,9 +124,9 @@ interfaces:
   - name: SFP+ 52
     type: 10gbase-x-sfpp
 power-ports:
-  - name: Input
+  - name: AC Input
     type: iec-60320-c14
-    maximum_draw: 60
+    maximum_draw: 100
   - name: USP-RPS connector for PSU failover
     type: ubiquiti-smartpower
-    maximum_draw: 60
+    maximum_draw: 100
