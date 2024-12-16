@@ -25,10 +25,8 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: SFP+ 2
     type: 10gbase-x-sfpp
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 550
-  - name: PSU 2 (redundant)
-    type: iec-60320-c14
-    maximum_draw: 550
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
