@@ -1,0 +1,24 @@
+---
+manufacturer: TP-Link
+model: TL-SG605E
+slug: tp-link-tl-sg605e
+part_number: TL-SG605E
+comments: '[TP-Link TL-SG605E](https://www.tp-link.com/uk/business-networking/easy-smart-switch/tl-sg605e/#specifications)'
+is_full_depth: false
+u_height: 0
+airflow: passive
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
