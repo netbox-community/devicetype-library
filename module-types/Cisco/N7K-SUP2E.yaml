@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: N7K-SUP2E
+part_number: N7K-SUP2E
+weight: 5.25
+weight_unit: kg
+comments: '[Cisco Nexus 7000 Series Switches Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/Data_Sheet_C78-437762.pdf)'
+description: Cisco Nexus 7000 Series Supervisor2 Module
+console-ports:
+  - name: console-SUP-slot-{module}
+    type: rj-45
+    label: Serial Port
+interfaces:
+  - name: mgmt0-SUP-slot-{module}
+    type: 1000base-t
+    label: MGMT Ethernet
+    mgmt_only: true
