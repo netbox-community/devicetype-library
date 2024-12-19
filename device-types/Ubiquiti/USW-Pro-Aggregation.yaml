@@ -4,11 +4,17 @@ model: UniFi Switch Pro Aggregation
 slug: ubiquiti-unifi-switch-pro-aggregation
 part_number: USW-Pro-Aggregation
 comments: |
-  UniFi Switch Pro Aggregation, 10G 28-Port and 25G 4-Port Managed Aggregation Switch, 100W, (28) SFP+ (4) SFP28
+  UniFi Switch Pro Aggregation, 10G 28-Port and 25G 4-Port Managed Aggregation Switch, 100W, (28) SFP+ (4) SFP28.
 
   Dimensions: 442 x 325 x 44 mm (17.4 x 12.8 x 1.7")
+  [UniFi Switch Pro Aggregation Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-aggregation)
 u_height: 1
 is_full_depth: false
+front_image: true
+rear_image: true
+weight: 10.4
+weight_unit: lb
+airflow: front-to-rear
 interfaces:
   - name: SFP+ 1
     type: 10gbase-x-sfpp
@@ -80,3 +86,4 @@ power-ports:
     maximum_draw: 100
   - name: USP-RPS DC input
     type: ubiquiti-smartpower
+    maximum_draw: 50

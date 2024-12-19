@@ -6,9 +6,15 @@ part_number: USW-Enterprise-48-PoE
 comments: |
   UniFi Switch Enterprise 48 PoE (150W + max. 720W PoE), (48) 2.5 Gigabit PoE+ IEEE 802.3af/at, (4) SFP+
 
-  Dimensions: 442 x 44 x 400 mm (17.4 x 1.7 x 15.7")
+  Dimensions: 442.4 x 43.7 x 325 mm (17.4 x 1.7 x 12.8")
+  [Switch Enterprise 48 PoE Techspecs](https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe)
 u_height: 1
-is_full_depth: true
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 13.9
+weight_unit: lb
+airflow: front-to-rear
 interfaces:
   - name: Port 1
     type: 2.5gbase-t
@@ -214,3 +220,6 @@ power-ports:
   - name: Input
     type: iec-60320-c14
     maximum_draw: 870
+  - name: USP-RPS connector for PSU failover
+    type: ubiquiti-smartpower
+    maximum_draw: 600
