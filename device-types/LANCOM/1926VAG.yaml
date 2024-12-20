@@ -1,0 +1,47 @@
+---
+manufacturer: LANCOM
+model: 1926VAG
+slug: lancom-1926vag
+part_number: '62122'
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 34
+interfaces:
+  - name: G.FAST/VDSL 1
+    type: xdsl
+  - name: VDSL 2
+    type: xdsl
+  - name: WAN 1 (SFP)
+    type: 1000base-x-sfp
+  - name: WAN 1
+    type: 1000base-t
+  - name: WAN 2
+    type: 1000base-t
+  - name: ETH 1
+    type: 1000base-t
+  - name: ETH 2
+    type: 1000base-t
+  - name: ETH 3
+    type: 1000base-t
+  - name: ETH 4
+    type: 1000base-t
+  - name: ANALOG 1
+    type: other
+  - name: ANALOG 2
+    type: other
+  - name: ANALOG 3
+    type: other
+  - name: ANALOG 4
+    type: other
+  - name: ISDN 1 (NT)
+    type: 1000base-t
+  - name: ISDN 2 (NT)
+    type: 1000base-t
+console-ports:
+  - name: COM
+    type: rj-45
+  - name: USB
+    type: usb-a
