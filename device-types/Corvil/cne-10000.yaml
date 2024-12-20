@@ -1,0 +1,44 @@
+---
+manufacturer: Corvil
+model: CNE-10000
+slug: corvil-cne-10000
+part_number: CNE-10000
+u_height: 2
+weight: 51
+weight_unit: lb
+is_full_depth: true
+interfaces:
+  - name: PortA
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
+  - name: PortB
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
+  - name: mgmt-sfp-1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: mgmt-sfp-2
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt3
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt4
+    type: 1000base-t
+    mgmt_only: true
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1600

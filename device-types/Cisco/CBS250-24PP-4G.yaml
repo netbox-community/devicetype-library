@@ -1,0 +1,128 @@
+---
+manufacturer: Cisco
+model: CBS250-24PP-4G
+slug: cisco-cbs250-24pp-4g
+part_number: CBS250-24PP-4G
+comments: '[CBS250 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
+airflow: passive
+weight: 3.53
+weight_unit: kg
+is_full_depth: false
+front_image: true
+u_height: 1
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet2
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet3
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet4
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet5
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet6
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet7
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet8
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet9
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet10
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet11
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet12
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet13
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet14
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet15
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet16
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet17
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet18
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet19
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet20
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet21
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet22
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet23
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet24
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: GigabitEthernet25
+    type: 1000base-x-sfp
+  - name: GigabitEthernet26
+    type: 1000base-x-sfp
+  - name: GigabitEthernet27
+    type: 1000base-x-sfp
+  - name: GigabitEthernet28
+    type: 1000base-x-sfp
+  - name: Vlan1
+    type: virtual
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 129

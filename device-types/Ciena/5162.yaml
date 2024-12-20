@@ -1,0 +1,132 @@
+---
+manufacturer: Ciena
+model: '5162'
+slug: ciena-5162
+part_number: 170-5162-900
+u_height: 1
+is_full_depth: false
+front_image: true
+weight: 9
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+    mgmt_only: true
+  - name: USB
+    type: usb-a
+    mgmt_only: true
+  - name: 1PPS / 10MHZ
+    description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
+    type: other
+    mgmt_only: true
+  - name: CLK
+    type: other
+    mgmt_only: true
+    description: Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
+  - name: SYNC
+    type: rj-45
+    mgmt_only: true
+    description: RJ-45 sync port
+  - name: BITS
+    type: rj-45
+    mgmt_only: true
+    description: RJ-45 BITS in or out.
+interfaces:
+  - name: '1'
+    type: 10gbase-x-sfpp
+  - name: '2'
+    type: 10gbase-x-sfpp
+  - name: '3'
+    type: 10gbase-x-sfpp
+  - name: '4'
+    type: 10gbase-x-sfpp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp
+  - name: '9'
+    type: 10gbase-x-sfpp
+  - name: '10'
+    type: 10gbase-x-sfpp
+  - name: '11'
+    type: 10gbase-x-sfpp
+  - name: '12'
+    type: 10gbase-x-sfpp
+  - name: '13'
+    type: 10gbase-x-sfpp
+  - name: '14'
+    type: 10gbase-x-sfpp
+  - name: '15'
+    type: 10gbase-x-sfpp
+  - name: '16'
+    type: 10gbase-x-sfpp
+  - name: '17'
+    type: 10gbase-x-sfpp
+  - name: '18'
+    type: 10gbase-x-sfpp
+  - name: '19'
+    type: 10gbase-x-sfpp
+  - name: '20'
+    type: 10gbase-x-sfpp
+  - name: '21'
+    type: 10gbase-x-sfpp
+  - name: '22'
+    type: 10gbase-x-sfpp
+  - name: '23'
+    type: 10gbase-x-sfpp
+  - name: '24'
+    type: 10gbase-x-sfpp
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+  - name: '28'
+    type: 10gbase-x-sfpp
+  - name: '29'
+    type: 10gbase-x-sfpp
+  - name: '30'
+    type: 10gbase-x-sfpp
+  - name: '31'
+    type: 10gbase-x-sfpp
+  - name: '32'
+    type: 10gbase-x-sfpp
+  - name: '33'
+    type: 10gbase-x-sfpp
+  - name: '34'
+    type: 10gbase-x-sfpp
+  - name: '35'
+    type: 10gbase-x-sfpp
+  - name: '36'
+    type: 10gbase-x-sfpp
+  - name: '37'
+    type: 10gbase-x-sfpp
+  - name: '38'
+    type: 10gbase-x-sfpp
+  - name: '39'
+    type: 10gbase-x-sfpp
+  - name: '40'
+    type: 10gbase-x-sfpp
+  - name: '41'
+    type: 100gbase-x-qsfp28
+  - name: '42'
+    type: 100gbase-x-qsfp28
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS A
+    position: A
+    comments: |
+      170-0092-900 5162/5170,DC PLUGGABLE POWER SUPPLY, -48V
+      170-0093-900 5162/5170,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+  - name: PS B
+    position: B
+    comments: |
+      170-0092-900 5162/5170,DC PLUGGABLE POWER SUPPLY, -48V
+      170-0093-900 5162/5170,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V

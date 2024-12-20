@@ -1,0 +1,39 @@
+---
+manufacturer: Cisco
+model: Cisco FMC4600
+slug: cisco-fmc4600
+part_number: FMC4600
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 36
+weight_unit: lb
+comments: '[Data sheet](https://www.cisco.com/c/en/us/products/collateral/security/firesight-management-center/datasheet-c78-736775.pdf)'
+console-ports:
+  - name: Con
+    type: rj-45
+    label: IOIOI
+front_image: true
+rear_image: true
+interfaces:
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+    label: o]
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+    label: '1'
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+    label: '2'
+  - name: eth2
+    type: 10gbase-x-sfpp
+  - name: eth3
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PS-1
+    position: '1'
+  - name: PS-2
+    position: '2'

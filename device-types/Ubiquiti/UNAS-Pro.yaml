@@ -1,0 +1,38 @@
+---
+manufacturer: Ubiquiti
+model: UNAS Pro
+slug: ubiquiti-unas-pro
+part_number: UNAS-Pro
+airflow: front-to-rear
+comments: |
+  Enterprise-grade 7-bay NAS for data storage.
+
+  Dimensions: 442 x 325 x 87 mm (17.4 x 12.8 x 3.4")
+  Weight: 20.3 lb (without mounting brackets)
+  Certifications: FCC, CE, IC
+  Processor: Quad-Core ARM Cortex-A57 at 1.7 GHz
+  Memory: 8 GB
+  Display: 1.3" touchscreen LCM
+
+  [UNAS Pro Techspecs](https://techspecs.ui.com/unifi/integrations/unas-pro)
+u_height: 2
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 20.3
+weight_unit: lb
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: Bluetooth Interface
+    type: other
+    label: Bluetooth 4.1
+power-ports:
+  - name: AC Input
+    type: iec-60320-c14
+    maximum_draw: 200
+  - name: USP-RPS DC Input
+    type: ubiquiti-smartpower
+    maximum_draw: 160

@@ -1,0 +1,51 @@
+---
+manufacturer: FS
+model: FHD-D85360EM
+part_number: '126901'
+description: 8 Channels DWDM Mux Demux, 100GHz C53-C60, with Monitor and Expansion Port, 2.4dB Typical IL, LC/UPC, FHD Plug-in Module, CWDM/DWDM Hybrid
+comments: '[Product Page](https://www.fs.com/products/126901.html)'
+front-ports:
+  - name: '{module}:EXP'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 1
+  - name: '{module}:MON'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 2
+  - name: '{module}:C53'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 3
+  - name: '{module}:C54'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 4
+  - name: '{module}:C55'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 5
+  - name: '{module}:C56'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 6
+  - name: '{module}:C57'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 7
+  - name: '{module}:C58'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 8
+  - name: '{module}:C59'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 9
+  - name: '{module}:C60'
+    type: lc-upc
+    rear_port: '{module}:LINE'
+    rear_port_position: 10
+rear-ports:
+  - name: '{module}:LINE'
+    type: lc-upc
+    positions: 10
