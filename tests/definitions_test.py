@@ -159,7 +159,7 @@ def test_definitions(file_path, schema, change_type):
 
     # Load YAML data from file
     definition = yaml.load(content, Loader=DecimalSafeLoader)
-    
+
     # Check for non-ASCII characters
     non_ascii_chars = [char for char in content if ord(char) > 127]
     if non_ascii_chars:
