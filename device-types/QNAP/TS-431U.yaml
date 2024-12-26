@@ -1,0 +1,21 @@
+---
+manufacturer: QNAP
+model: TS-431U
+slug: qnap-ts-431u
+part_number: TS-431U
+is_full_depth: false
+airflow: side-to-rear
+comments: '[TS-431U | Hardware Specs | QNAP](https://www.qnap.com/de-de/product/ts-431u/specs/hardware)'
+weight: 9.26
+weight_unit: kg
+u_height: 1
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 35
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t

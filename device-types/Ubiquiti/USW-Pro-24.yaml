@@ -1,16 +1,21 @@
 ---
 manufacturer: Ubiquiti
-model: USW-PRO-24
-slug: ubiquiti-usw-pro-24
+model: UniFi Switch 24 Pro
+slug: ubiquiti-unifi-switch-24-pro
+part_number: USW-Pro-24
 comments: |
-  [UniFi Switch Pro 24](https://store.ui.com/collections/unifi-network-switching/products/usw-pro-24)
+  UniFi Switch 24 Pro (50W), (24) Gigabit, (1-16) Gigabit, (17-24) Gigabit, (2) SFP+
 
-  24-port switch with (24) Gigabit RJ45 ports and (2) 10G SFP+ ports. Powerful second-generation UniFi switching
+  Dimensions: 442.4 x 285 x 44 mm (17.4 x 11.2 x 1.7")
 
-  Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
+  [Switch Switch 24 Pro Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-24)
 u_height: 1
+is_full_depth: false
 front_image: true
-is_full_depth: true
+rear_image: true
+weight: 7.9
+weight_unit: lb
+airflow: front-to-rear
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -67,4 +72,7 @@ interfaces:
 power-ports:
   - name: Input
     type: iec-60320-c14
-    maximum_draw: 450
+    maximum_draw: 30
+  - name: USP-RPS connector for PSU failover
+    type: ubiquiti-smartpower
+    maximum_draw: 30
