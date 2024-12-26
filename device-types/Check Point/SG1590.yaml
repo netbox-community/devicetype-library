@@ -1,0 +1,39 @@
+---
+manufacturer: Check Point
+model: SG1590
+slug: check-point-sg1590
+part_number: CPAP-SG1590
+u_height: 1.0
+is_full_depth: false
+weight: 0.87
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: DC
+    type: dc-terminal
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+interfaces:
+  - name: DMZ-RJ-45
+    type: 1000base-t
+  - name: DMZ-SFP
+    type: 1000base-x-sfp
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: WAN
+    type: 1000base-t
