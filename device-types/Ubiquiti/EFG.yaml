@@ -1,0 +1,47 @@
+---
+manufacturer: Ubiquiti
+model: Enterprise Fortress Gateway
+slug: ubiquiti-enterprise-fortress-gateway
+part_number: EFG
+comments: |
+  [Enterprise Fortress Gateway](https://store.ui.com/products/enterprise-fortress-gateway)
+
+  High-performance enterprise gateway with (2) 2.5GbE RJ45 ports, (2) 10G SFP+ ports, and (2) 25G SFP28 ports. Supports redundant WAN failover and load balancing.
+
+  Dimensions: 442.4 x 43.7 x 325 mm (17.4 x 1.7 x 12.8")
+  Weight: 6.5 kg (14.3 lb)
+  Max Power Consumption: 82W
+  Certifications: CE, FCC, IC
+
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
+interfaces:
+  # RJ45 2.5GbE Ports (1-2)
+  - name: Port 1
+    type: 2.5gbase-t
+    label: Default WAN 1
+  - name: Port 2
+    type: 2.5gbase-t
+
+  # SFP+ 10GbE Ports (3-4)
+  - name: Port 3
+    type: 10gbase-x-sfpp
+  - name: Port 4
+    type: 10gbase-x-sfpp
+
+  # SFP28 25GbE Ports (5-6)
+  - name: Port 5
+    type: 25gbase-x-sfp28
+    label: Default WAN 2
+  - name: Port 6
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PSU 1
+    position: left
+    installed_module: ubiquiti-uacc-psu-12v-150w
+  - name: PSU 2
+    position: right
+    installed_module: ubiquiti-uacc-psu-12v-150w
