@@ -1,0 +1,17 @@
+---
+manufacturer: Intel
+model: NUC8i3BEK3
+slug: intel-nuc8i3bek3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.19
+weight_unit: kg
+comments: '[NUC8TNBi5 Data Sheet on intel.com](https://www.intel.com/content/dam/support/us/en/documents/mini-pcs/NUC8i3BE_NUC8i5BE_NUC8i7BE_TechProdSpec.pdf)'
+interfaces:
+  - name: eth0
+    type: 1000base-t
+power-ports:
+  - name: PSU1
+    allocated_draw: 90
+    type: dc-terminal

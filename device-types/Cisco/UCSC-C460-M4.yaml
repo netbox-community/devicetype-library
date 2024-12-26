@@ -1,0 +1,65 @@
+---
+manufacturer: Cisco
+model: UCS C460 M4
+slug: cisco-ucs-c460-m4
+part_number: UCSC-C460-M4
+u_height: 4
+airflow: front-to-rear
+weight: 64.4
+weight_unit: kg
+is_full_depth: true
+comments: '[Cisco UCS C460 M4 High-Performance Rack-Mount Server Spec Sheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c460m4_specsheet.pdf)'
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console
+    label: IOIOI
+    type: de-9
+interfaces:
+  - name: Ethernet L1/1
+    type: 1000base-t
+    label: 1GE 1
+  - name: Ethernet L1/2
+    type: 1000base-t
+    label: 1GE 2
+  - name: Ethernet L2/1
+    type: 10gbase-t
+    label: 10GE 1
+  - name: Ethernet L2/2
+    type: 10gbase-t
+    label: 10GE 2
+  - name: CIMC
+    type: 1000base-t
+    label: M
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
+  - name: PSU4
+    position: '4'
+  - name: PCIe slot 1
+    position: PCIe-1
+  - name: PCIe slot 2
+    position: PCIe-2
+  - name: PCIe slot 3
+    position: PCIe-3
+  - name: PCIe slot 4
+    position: PCIe-4
+  - name: PCIe slot 5
+    position: PCIe-5
+  - name: PCIe slot 6
+    position: PCIe-6
+  - name: PCIe slot 7
+    position: PCIe-7
+  - name: PCIe slot 8
+    position: PCIe-8
+  - name: PCIe slot 9
+    position: PCIe-9
+  - name: PCIe slot 10
+    position: PCIe-10
+  - name: mRAID
+    position: mRAID

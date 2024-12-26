@@ -1,0 +1,25 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 7510
+slug: avm-fritzbox-7510
+part_number: '20002839'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 7510 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7510/technische-daten/)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: FON1
+    label: FON 1
+    type: other
+  - name: LAN1
+    label: LAN 1
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ax

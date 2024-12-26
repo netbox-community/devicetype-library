@@ -15,11 +15,16 @@ module-bays:
     position: '0'
   - name: PSU1
     position: '1'
-  - name: SM 1  # SM = Service Module
+  - name: SM 1  # SM subslot 1/0 (Service Module)
+    position: '1'
   - name: SM 2
-  - name: NIM 1 # NIM = Network Interface Module
-  - name: NIM 2
+    position: '2'
+  - name: NIM 1 # NIM subslot 0/1 (Network Interface Module)
+    position: '1'
+  - name: NIM 2 # NIM subslot 0/2
+    position: '2'
   - name: PIM 1 # PIM = Pluggable Interface Module (LTE/5G)
+    position: '1'
 console-ports:
   - name: con0
     type: rj-45

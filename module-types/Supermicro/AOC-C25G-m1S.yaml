@@ -1,0 +1,10 @@
+---
+manufacturer: Supermicro
+model: Add-on Card AOC-C25G-m1S
+part_number: AOC-C25G-m1S
+description: Mellanox ConnectX-4 Lx EN controller - Advanced I/O Module (AIOM) Form Factor
+comments: '[AOC-C25G-m1S Product Sheet](https://www.supermicro.com/en/products/accessories/addon/AOC-C25G-m1S.php)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+    mgmt_only: false
