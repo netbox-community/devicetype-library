@@ -3,21 +3,18 @@ manufacturer: Cisco
 model: N540-12Z20G-SYS-D
 slug: cisco-n540-12z20g-sys-d
 part_number: N540-12Z20G-SYS-D
-is_full_depth: false
-airflow: front-to-rear
 u_height: 1
+is_full_depth: false
+weight: 5.9
+weight_unit: kg
+airflow: front-to-rear
 power-ports:
-  - name: PSU0
+  - name: PM0
     type: dc-terminal
-    maximum_draw: 250
-  - name: PSU1
-    type: dc-terminal
-    maximum_draw: 250
 console-ports:
-  - name: Console
+  - name: con0
     type: rj-45
-  - name: usb-console
-    type: usb-a
+    description: 'Serial Console port, default: Baud rate (TX/RX) is 115200, "No" Parity, 2 stopbits, 8 databits'
 interfaces:
   - name: GigabitEthernet0/0/0/0
     type: 1000base-x-sfp
@@ -83,3 +80,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/0/31
     type: 10gbase-x-sfpp
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
