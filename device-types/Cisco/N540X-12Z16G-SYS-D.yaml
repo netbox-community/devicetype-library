@@ -1,29 +1,33 @@
 ---
 manufacturer: Cisco
 model: N540X-12Z16G-SYS-D
-slug: cisco-n540x-12z20g-sys-d
+slug: cisco-n540x-12z16g-sys-d
 part_number: N540X-12Z16G-SYS-D
 u_height: 1
 is_full_depth: false
+airflow: front-to-rear
 weight: 5.9
 weight_unit: kg
-module-bays:
-  - name: PM0
-    position: 0/PM0
-    description: Power module
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 250
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 250
 console-ports:
   - name: con0
     type: rj-45
     description: 'Serial Console port, default: Baud rate (TX/RX) is 115200, "No" Parity, 2 stopbits, 8 databits'
 interfaces:
   - name: GigabitEthernet0/0/0/0
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet0/0/0/1
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet0/0/0/2
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet0/0/0/3
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet0/0/0/4
     type: 1000base-x-sfp
   - name: GigabitEthernet0/0/0/5
