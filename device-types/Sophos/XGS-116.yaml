@@ -41,10 +41,10 @@ module-bays:
     position: A
 power-ports:
   - name: DC In 1
-    type: other
+    type: dc-terminal
     maximum_draw: 150
     allocated_draw: 28
   - name: DC In 2
-    type: other
+    type: dc-terminal
     maximum_draw: 150
     allocated_draw: 28
