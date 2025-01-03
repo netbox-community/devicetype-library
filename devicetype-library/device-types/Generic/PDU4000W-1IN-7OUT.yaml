@@ -1,0 +1,52 @@
+---
+manufacturer: Generic
+model: PDU 4000W 1 IN - 7 OUT
+slug: generic-pdu-4000w-1-in-7-out
+default_platform: null
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 1.0
+weight_unit: kg
+power-ports:
+- name: Power Input
+  type: ''
+  maximum_draw: 4000
+  allocated_draw: null
+  label: ''
+power-outlets:
+- name: Power Output 1
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
+- name: Power Output 2
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
+- name: Power Output 3
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
+- name: Power Output 4
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
+- name: Power Output 5
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
+- name: Power Output 6
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
+- name: Power Output 7
+  type: ''
+  power_port: Power Input
+  feed_leg: ''
+  label: ''
