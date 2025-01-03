@@ -1,0 +1,30 @@
+---
+manufacturer: Ciena
+model: '3806'
+slug: ciena-3806
+part_number: 170-3806-900
+comments: Ciena 3806 (https://www.ciena.com/__data/assets/pdf_file/0017/94211/3806_DS.pdf)
+u_height: 0
+weight: .5
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+power-ports:
+  - name: DC 12V
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 3
+  - name: UPS
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 3
+interfaces:
+  - name: XGS-PON
+    type: xgs-pon
+  - name: 2.5G LAN
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

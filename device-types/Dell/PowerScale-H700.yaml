@@ -1,0 +1,30 @@
+---
+manufacturer: Dell
+model: Powerscale H700
+slug: dell-powerscale-h700
+comments: '[Dell Powerscale H700 Specification Sheet](https://www.delltechnologies.com/asset/en-us/products/storage/technical-support/h16071-ss-powerscale-hybrid-nodes.pdf)'
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+console-ports:
+  - name: Console
+    type: de-9
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 32gfc-sfp28
+  - name: Gig-E 2
+    type: 32gfc-sfp28
+  - name: Gig-E 3
+    type: 128gfc-qsfp28
+  - name: Gig-E 4
+    type: 128gfc-qsfp28
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2

@@ -13,5 +13,5 @@ for root, dirs, files in walk(root_dir):
       if file.split(".")[0].count("_") > 0:
         newname = file.replace("_", "-")
         rename(f"{root}/{file}", f"{root}/{newname}")
-      
+
 print(f"Total Left: {total}")

@@ -2,15 +2,19 @@
 manufacturer: Ubiquiti
 model: UniFi Switch 24 Pro PoE Gen2
 slug: ubiquiti-unifi-switch-24-pro-poe-gen2
-part_number: USW-PRO-24-POE
+part_number: USW-Pro-24-POE
 comments: |
   UniFi Switch 24 Pro PoE (50W + max. 400W PoE), Gen2, (24) Gigabit, (1-16) Gigabit PoE+ IEEE 802.3af/at, (17-24) Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
 
   Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 11.24 x 1.72")
+  [Switch Switch 24 Pro PoE Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-24-poe)
 u_height: 1
 is_full_depth: false
 front_image: true
 rear_image: true
+weight: 9.7
+weight_unit: lb
+airflow: front-to-rear
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -115,4 +119,7 @@ interfaces:
 power-ports:
   - name: Input
     type: iec-60320-c14
+    maximum_draw: 450
+  - name: USP-RPS connector for PSU failover
+    type: ubiquiti-smartpower
     maximum_draw: 450
