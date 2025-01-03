@@ -1,0 +1,50 @@
+---
+manufacturer: Ubiquiti
+model: U7 Pro Max
+part_number: U7-Pro-Max
+slug: ubiquiti-u7-pro-max
+u_height: 0
+is_full_depth: false
+comments: |
+  [Access Point U7 Pro Max](https://store.ui.com/us/en/category/wifi-flagship/products/u7-pro-max)
+
+  High-performance WiFi 7 access point with 2.5GbE support and tri-band connectivity for 2.4 GHz, 5 GHz, and 6 GHz. Capable of MU-MIMO with 500+ concurrent clients.
+
+  Dimensions: 206 x 46 mm (8.1 x 1.8")
+  Weight: 680 g (1.5 lb)
+  Certifications: CE, FCC, IC
+airflow: passive
+weight: 680
+weight_unit: g
+front_image: true
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    mgmt_only: false
+  - name: WLAN 0
+    type: ieee802.11n
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 4 dBi
+  - name: WLAN 1
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 8.6 Gbps (BW240), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 29 dBm, Antenna Gain: 6 dBi
+  - name: WLAN 2
+    type: ieee802.11ax
+    label: 6 GHz (WiFi 6E)
+    description: |
+      Max Data Rate: 5.7 Gbps (BW320), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 5.9 dBi
+  - name: WLAN 3
+    type: ieee802.11be
+    label: 5 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 8.6 Gbps (BW240), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 29 dBm, Antenna Gain: 6 dBi
+  - name: WLAN 4
+    type: ieee802.11be
+    label: 6 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 5.7 Gbps (BW320), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 5.9 dBi

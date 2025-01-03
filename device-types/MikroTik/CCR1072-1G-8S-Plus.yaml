@@ -4,6 +4,11 @@ model: CCR1072-1G-8S+
 slug: mikrotik-ccr1072-1g-8s-plus
 is_full_depth: false
 u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/CCR1072-1G-8Splus)
+front_image: false
+rear_image: false
+is_powered: true
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -26,10 +31,10 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
-power-ports:
+module-bays:
   - name: power1
-    type: iec-60320-c14
-    maximum_draw: 125
+    position: power1
+    description: Power module
   - name: power2
-    type: iec-60320-c14
-    maximum_draw: 125
+    position: power2
+    description: Power module

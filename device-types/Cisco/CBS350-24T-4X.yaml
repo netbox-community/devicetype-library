@@ -3,7 +3,7 @@ manufacturer: Cisco
 model: CBS350-24T-4X
 slug: cisco-cbs350-24t-4x
 part_number: WCBS350-24T-4X
-comments: https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html
+comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
 airflow: side-to-rear
 weight: 2.78
 weight_unit: kg
@@ -58,13 +58,13 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet24
     type: 1000base-t
-  - name: GigabitEthernet25
+  - name: TenGigabitEthernet1
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet26
+  - name: TenGigabitEthernet2
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet27
+  - name: TenGigabitEthernet3
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet28
+  - name: TenGigabitEthernet4
     type: 10gbase-x-sfpp
   - name: Vlan1
     type: virtual

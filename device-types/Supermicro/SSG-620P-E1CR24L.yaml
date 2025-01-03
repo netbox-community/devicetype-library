@@ -1,0 +1,35 @@
+---
+manufacturer: Supermicro
+model: Storage SuperServer SSG-620P-E1CR24L
+slug: supermicro-storage-superserver-ssg-620p-e1cr24l
+part_number: SSG-620P-E1CR24L
+u_height: 2
+is_full_depth: true
+comments: '[Storage SuperServer SSG-620P-E1CR24L] (https://www.supermicro.com/en/products/system/Storage/2U/SSG-620P-E1CR24L)'
+weight: 25.39
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: PSU 1
+  - name: PSU2
+    position: PSU 2
+  - name: PCI-E 1
+    position: '1'
+    description: 1 PCIe 4.0 x8 LP slot (Occupied by 3808 SAS controller)
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 4.0 x16 LP slot
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 4.0 x16 LP slot
+  - name: PCI-E A1
+    position: '4'
+    description: PCIe 4.0 x16 AIOM slot (OCP 3.0 compatible)

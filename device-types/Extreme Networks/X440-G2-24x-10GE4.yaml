@@ -5,6 +5,10 @@ slug: extreme-networks-x440-g2-24x-10ge4
 part_number: '16538'
 u_height: 1
 is_full_depth: false
+front_image: true
+rear_image: true
+weight: 3.73
+weight_unit: kg
 comments: '[Extreme Networks X440-G2 Technical Specifications](https://www.extremenetworks.com/product/x440-g2/)'
 console-ports:
   - name: Console
@@ -12,6 +16,7 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
+    maximum_draw: 51
   - name: RPS1
     type: dc-terminal
     description: Redundant Power Supply
@@ -77,7 +82,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: '27'
     type: 10gbase-x-sfpp
-    description: either Stacking-Ports or additional SFP+
+    description: For stacking or as additional SFP+
   - name: '28'
     type: 10gbase-x-sfpp
-    description: either Stacking-Ports or additional SFP+
+    description: For stacking or as additional SFP+

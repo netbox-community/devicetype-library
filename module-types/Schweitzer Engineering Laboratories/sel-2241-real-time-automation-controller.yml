@@ -1,0 +1,33 @@
+---
+manufacturer: Schweitzer Engineering Laboratories
+model: SEL-2241 Real-Time Automation Controller
+description: Each SEL Axion system requires an RTAC module to serve as the system CPU. The SEL-2241 RTAC has all of the communications and custom logic
+  capabilities of the standalone RTAC modules, but is mounted in and receives power from the Axion backplane.
+
+console-ports:
+  - name: USB-B
+    type: usb-b
+
+interfaces:
+  - name: EIA-232-1 (Nonisolated)
+    type: other
+    label: Serial DE-9
+  - name: EIA-232-2 (Nonisolated)
+    type: other
+    label: Serial DE-9
+  - name: EIA-232-3 (Nonisolated)
+    type: other
+    label: Serial DE-9
+  - name: EIA-232-4 (Nonisolated)
+    type: other
+    label: Serial DE-9
+  - name: Eth01
+    type: 100base-tx
+  - name: Eth02
+    type: 100base-tx
+  - name: IRIG-B INput
+    type: other
+    description: Female BNC
+  - name: IRIG-B OUTput
+    type: other
+    description: Female BNC
