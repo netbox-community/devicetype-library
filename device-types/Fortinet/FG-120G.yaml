@@ -30,6 +30,7 @@ interfaces:
   - name: mgmt
     type: 1000base-t
     description: dual management/HA port
+    mgmt_only: true
   - name: port1
     type: 1000base-t
   - name: port2
@@ -64,37 +65,25 @@ interfaces:
     type: 1000base-t
   - name: x1
     type: 10gbase-x-sfpp
-    description: FortiLink slot 1
   - name: x2
     type: 10gbase-x-sfpp
-    description: FortiLink slot 1
   - name: x3
     type: 10gbase-x-sfpp
-    description: FortiLink slot 1
   - name: x4
     type: 10gbase-x-sfpp
-    description: FortiLink slot 1
   - name: port17
     type: 1000base-x-sfp
-    description: SFP port 1
   - name: port18
     type: 1000base-x-sfp
-    description: SFP port 2
   - name: port19
     type: 1000base-x-sfp
-    description: SFP port 3
   - name: port20
     type: 1000base-x-sfp
-    description: SFP port 4
   - name: port21
     type: 1000base-x-sfp
-    description: SFP port 5
   - name: port22
     type: 1000base-x-sfp
-    description: SFP port 6
   - name: port23
     type: 1000base-x-sfp
-    description: SFP port 7
   - name: port24
     type: 1000base-x-sfp
-    description: SFP port 8

@@ -1,0 +1,13 @@
+---
+manufacturer: Meinberg
+description: 'Two BNC outputs and a DB15 multi-output with configurable video and audio signals: Black & Burst and tri-level sync DARS (Digital Audio Reference
+  Signal), unbalanced 15-Pin Multi-Output - LTC (Linear Time Code), balanced and unbalanced DARS (Digital Audio Reference Signal), balanced Word Clock'
+model: IMS-VSG181h
+rear-ports:
+  - name: Black Out
+    type: bnc
+  - name: Black Out 2
+    type: bnc
+  - name: LTC/DARS/Word Clk Out
+    label: DB-15
+    type: other

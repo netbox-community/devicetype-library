@@ -4,11 +4,17 @@ model: UniFi Switch 48 Pro
 slug: ubiquiti-unifi-switch-48-pro
 part_number: USW-Pro-48
 comments: |
-  UniFi Switch 48 Pro, Gen2, (48) Gigabit, (4) SFP+
+  UniFi Switch 48 Pro (60W), (48) Gigabit, (4) SFP+
 
-  Dimensions: 442.4 x 285.4 x 43.7 mm (17.42 x 15.73 x 1.72")
+  Dimensions: 442.4 x 285 x 44 mm (17.4 x 11.2 x 1.7")
+  [Switch Switch 48 Pro Techspecs](https://techspecs.ui.com/unifi/switching/usw-pro-48)
 u_height: 1
-is_full_depth: true
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 9
+weight_unit: lb
+airflow: front-to-rear
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -117,4 +123,7 @@ interfaces:
 power-ports:
   - name: Input
     type: iec-60320-c14
+    maximum_draw: 60
+  - name: USP-RPS connector for PSU failover
+    type: ubiquiti-smartpower
     maximum_draw: 60

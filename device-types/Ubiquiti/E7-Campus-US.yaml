@@ -1,0 +1,49 @@
+---
+manufacturer: Ubiquiti
+model: E7 Campus
+part_number: E7-Campus-US
+slug: ubiquiti-e7-campus-us
+u_height: 0
+is_full_depth: false
+comments: |
+  High-performance outdoor WiFi 7 access point with dual PoE support for high availability, PRISM RF filtering technology, dedicated spectral analyzer, and tri-band connectivity for 2.4 GHz, 5 GHz, and 6 GHz.
+  Weatherproofing: IPX6 (IP67 with Waterproof Door Kit)
+  Wind Survivability: 37 lbf at 125 mph
+  Dimensions: 9.8 x 9.8 x 1.8 in (Device), 4.1 x 5.9 in (Articulating mount)
+  Weight: 4.9 lb (Device), 2 lb (Articulating mount)
+  Certifications: FCC, IC
+  [UniFi E7 Campus Techspecs](https://techspecs.ui.com/unifi/wifi/e7-campus-us)
+airflow: passive
+weight: 4.9
+weight_unit: lb
+front_image: true
+interfaces:
+  - name: Port 1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+  - name: WLAN 0
+    type: ieee802.11n
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 9 dBi
+  - name: WLAN 1
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 8.6 Gbps (BW240), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 30 dBm, Antenna Gain: 12 dBi
+  - name: WLAN 2
+    type: ieee802.11be
+    label: 6 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 11.5 Gbps (BW320), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 30 dBm (36 dBm EIRP with Extended Range Mode), Antenna Gain: 12 dBi
+  - name: Spectrum Radio
+    type: other-wireless
+    description: |
+      Dedicated spectral analysis radio for interference mitigation and spectrum monitoring.
