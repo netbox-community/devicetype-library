@@ -5,11 +5,17 @@ slug: netapp-fas2700-controller-cna
 part_number: X3218A
 u_height: 0
 is_full_depth: true
+description: FAS2720 and FAS2750 controller with 4x SFP+
 subdevice_role: child
 console-ports:
   - name: con0
     type: rj-45
+  - name: con1
+    type: usb-micro-a
 interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
   - name: e0a
     type: 10gbase-x-sfpp
   - name: e0b
@@ -22,5 +28,9 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: e0f
     type: 10gbase-x-sfpp
-  - name: e0m
-    type: 10gbase-x-sfpp
+  - name: 0a
+    type: other
+    description: MiniSAS HD
+  - name: 0b
+    type: other
+    description: MiniSAS HD
