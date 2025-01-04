@@ -2,51 +2,53 @@
 manufacturer: Inter-Tech
 model: 3U-30255
 slug: inter-tech-3u-30255
-description: ''
+description: ""
 default_platform: null
-part_number: '88887108'
+part_number: "88887108"
 u_height: 3.0
 is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
 weight: 10.7
 weight_unit: kg
-comments: "* Features \r\n    * HDD cages removable and optional positionable\r\n\
+comments:
+  "* Features \r\n    * HDD cages removable and optional positionable\r\n\
   \    * Only 5 slot openings + 1 slot with optional Riser Card\r\n    * 4x 120mm\
   \ fan\r\n    * USB 3.0 as block connector\r\n    * Lid with snap-in locks\r\n* Drive\
   \ Bays (*can vary by using several mounting options)\r\n    * 5.25\" external: 6*\r\
   \n    * 3.5\" internal: 12*\r\n    * 2.5\" internal: 14*"
 module-bays:
-- name: Fan 60mm 1
-  label: ''
-  position: '1'
-  description: ''
-- name: Fan 60mm 2
-  label: ''
-  position: '2'
-  description: ''
-- name: Fan 120mm 1
-  label: ''
-  position: '1'
-  description: ''
-- name: Fan 120mm 2
-  label: ''
-  position: '2'
-  description: ''
-- name: Fan 120mm 3
-  label: ''
-  position: '3'
-  description: ''
-- name: Fan 120mm 4
-  label: ''
-  position: '4'
-  description: ''
-- name: Motherboard
-  label: ''
-  position: ''
-  description: "Mini ITX, mATX, \u03BCATX, ATX, SSI CEB. Max motherboard size WxD:\
-    \ 305mm x 270mm, 12\" x 10.6\""
-- name: PSU
-  label: ''
-  position: ''
-  description: ATX
+  - name: Fan 60mm 1
+    label: ""
+    position: "1"
+    description: ""
+  - name: Fan 60mm 2
+    label: ""
+    position: "2"
+    description: ""
+  - name: Fan 120mm 1
+    label: ""
+    position: "1"
+    description: ""
+  - name: Fan 120mm 2
+    label: ""
+    position: "2"
+    description: ""
+  - name: Fan 120mm 3
+    label: ""
+    position: "3"
+    description: ""
+  - name: Fan 120mm 4
+    label: ""
+    position: "4"
+    description: ""
+  - name: Motherboard
+    label: ""
+    position: ""
+    description:
+      "Mini ITX, mATX, \u03BCATX, ATX, SSI CEB. Max motherboard size WxD:\
+      \ 305mm x 270mm, 12\" x 10.6\""
+  - name: PSU
+    label: ""
+    position: ""
+    description: ATX
