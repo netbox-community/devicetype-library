@@ -7,8 +7,10 @@ u_height: 1
 is_full_depth: false
 weight: 5.52
 weight_unit: kg
+front_image: true
+rear_image: true
 airflow: side-to-rear
-comments: '[Fortigate 120G/121G Data Sheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-120g-series.pdf)'
+comments: Same as FG-120G, but **WITH** a 480GB SSD on-board. [FortiGate 120G Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-120g-series.pdf)
 console-ports:
   - name: Console
     type: rj-45
@@ -16,14 +18,19 @@ power-ports:
   - name: PS1
     type: iec-60320-c14
     maximum_draw: 47
+    allocated_draw: 43
   - name: PS2
     type: iec-60320-c14
     maximum_draw: 47
+    allocated_draw: 43
 interfaces:
   - name: ha
     type: 1000base-t
+    description: dual management/HA port
   - name: mgmt
     type: 1000base-t
+    description: dual management/HA port
+    mgmt_only: true
   - name: port1
     type: 1000base-t
   - name: port2
