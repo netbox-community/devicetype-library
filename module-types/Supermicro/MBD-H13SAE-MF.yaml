@@ -1,0 +1,70 @@
+---
+manufacturer: Supermicro
+model: H13SAE-MF
+part_number: MBD-H13SAE-MF
+weight: 1.0
+weight_unit: kg
+interfaces:
+  - name: Network 1GE 0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: "0"
+    description: (Intel I210-AT)
+    bridge: null
+  - name: Network 1GE 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: "1"
+    description: (Intel I210-AT)
+    bridge: null
+  - name: Network 1GE IPMI
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: "3"
+module-bays:
+  - name: CPU AM5
+    position: 1
+    description: (LGA1718)
+  - name: M.2-Slot PCIe 5.0 1
+    position: 1
+    description: M.2/M-Key (PCIe 5.0 x4, 22110/2280)
+  - name: M.2-Slot PCIe 5.0 2
+    position: 2
+    description: M.2/M-Key (PCIe 5.0 x4, 22110/2280)
+  - name: PCIe-Slot 4.0 x4 1
+    position: 1
+  - name: PCIe-Slot 5.0 x16 1
+    position: 1
+    description: (1x x16, 1x x8) [x16/x0 oder x8/x8]
+  - name: PCIe-Slot 5.0 x16 2
+    position: 2
+    description: (1x x16, 1x x8) [x16/x0 oder x8/x8]
+  - name: Ram DDR5 1
+    position: 1
+    description: UDIMM (ECC+Non-ECC)
+  - name: Ram DDR5 2
+    position: 2
+    description: UDIMM (ECC+Non-ECC)
+  - name: Ram DDR5 3
+    position: 3
+    description: UDIMM (ECC+Non-ECC)
+  - name: Ram DDR5 4
+    position: 4
+    description: UDIMM (ECC+Non-ECC)
+  - name: SATA 6Gb/s 1
+    position: 1
+    description: (B650)
+  - name: SATA 6Gb/s 2
+    position: 2
+    description: (B650)
+  - name: SATA 6Gb/s 3
+    position: 3
+    description: (B650)
+  - name: SATA 6Gb/s 4
+    position: 4
+    description: (B650)
+  - name: TPM-Header 1
+    position: 1
