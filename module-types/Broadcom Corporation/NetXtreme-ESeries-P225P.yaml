@@ -1,0 +1,922 @@
+---
+manufacturer: Broadcom
+model: NetXtreme E-Series P225P
+part_number: BCM957414A4142CC
+description: 2x SFP28, PCI-Express Gen3 x8
+weight: 75.0
+weight_unit: g
+comments:
+  "* Jumbo frames up to 9 KB\r\n* IPv4 and IPv6 offloads.\r\n* TCP, UDP, and\
+  \ IP checksum offloads.\r\n* Large Send Offload (LSO).\r\n* Large Receive Offload\
+  \ (LRO).\r\n* TCP Segmentation Offload (TSO).\r\n* Power Consumption 13W"
+interfaces:
+  - name: SFP28 1
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+  - name: SFP28 1 - VF 1
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 2
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 3
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 4
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 5
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 6
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 7
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 8
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 9
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 10
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 11
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 12
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 13
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 14
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 15
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 16
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 17
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 18
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 19
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 20
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 21
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 22
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 23
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 24
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 25
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 26
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 27
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 28
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 29
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 30
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 31
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 32
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 33
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 34
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 35
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 36
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 37
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 38
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 39
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 40
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 41
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 42
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 43
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 44
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 45
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 46
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 47
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 48
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 49
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 50
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 51
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 52
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 53
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 54
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 55
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 56
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 57
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 58
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 59
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 60
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 61
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 62
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 63
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 1 - VF 64
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: SR-IOV
+    bridge: SFP28 1
+  - name: SFP28 2
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: null
+  - name: SFP28 2 - VF 65
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 66
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 67
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 68
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 69
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 70
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 71
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 72
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 73
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 74
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 75
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 76
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 77
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 78
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 79
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 80
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 81
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 82
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 83
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 84
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 85
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 86
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 87
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 88
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 89
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 90
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 91
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 92
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 93
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 94
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 95
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 96
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 97
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 98
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 99
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 100
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 101
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 102
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 103
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 104
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 105
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 106
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 107
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 108
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 109
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 110
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 111
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 112
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 113
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 114
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 115
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 116
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 117
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 118
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 119
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 120
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 121
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 122
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 123
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 124
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 125
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 126
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 127
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
+  - name: SFP28 2 - VF 128
+    type: virtual
+    enabled: false
+    mgmt_only: false
+    label: ""
+    description: ""
+    bridge: SFP28 2
