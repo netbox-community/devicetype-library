@@ -1,0 +1,26 @@
+---
+manufacturer: Adtran
+model: MX2800
+slug: adtran-mx2800
+part_number: 1200290L1
+u_height: 1
+is_full_depth: false
+comments: '[MX2800 Multiplexer Chassis](https://portal.adtran.com/web/page/portal/Adtran/product/1200290L1/3)'
+console-ports:
+  - name: LAN
+    type: rj-45
+  - name: MODEM
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 27
+interfaces:
+  - name: DS3 A IN
+    type: t3
+  - name: DS3 A OUT
+    type: t3
+  - name: DS3 B IN
+    type: t3
+  - name: DS3 B OUT
+    type: t3

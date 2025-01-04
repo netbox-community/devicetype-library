@@ -1,0 +1,93 @@
+---
+manufacturer: Arista
+model: DCS-7050DX4-32S-F
+slug: arista-dcs-7050dx4-32s-f
+part_number: DCS-7050DX4-32S-F
+u_height: 1
+weight: 24.4
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Arista 7050X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7050X4-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+front_image: true
+rear_image: true
+interfaces:
+  - name: Ethernet1/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet2/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet3/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet4/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet5/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet6/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet7/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet8/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet9/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet10/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet11/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet12/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet13/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet14/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet15/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet16/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet17/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet18/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet19/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet20/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet21/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet22/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet23/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet24/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet25/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet26/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet27/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet28/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet29/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet30/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet31/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet32/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet33
+    type: 10gbase-x-sfpp
+  - name: Ethernet34
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true

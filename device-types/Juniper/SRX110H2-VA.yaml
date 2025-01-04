@@ -1,0 +1,34 @@
+---
+manufacturer: Juniper
+model: SRX110H2-VA
+slug: juniper-srx110h2-va
+part_number: srx110h2-va
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: '[Juniper SXR110](https://www.juniper.net/documentation/product/us/en/srx110/#cat=product_literature)'
+console-ports:
+  - name: Con0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+interfaces:
+  - name: fe-0/0/0
+    type: 100base-tx
+  - name: fe-0/0/1
+    type: 100base-tx
+  - name: fe-0/0/2
+    type: 100base-tx
+  - name: fe-0/0/3
+    type: 100base-tx
+  - name: fe-0/0/4
+    type: 100base-tx
+  - name: fe-0/0/5
+    type: 100base-tx
+  - name: fe-0/0/6
+    type: 100base-tx
+  - name: fe-0/0/7
+    type: 100base-tx
+  - name: pt-1/0/0
+    type: xdsl

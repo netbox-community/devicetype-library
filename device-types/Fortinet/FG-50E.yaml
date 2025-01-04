@@ -1,0 +1,33 @@
+---
+manufacturer: Fortinet
+model: FortiGate 50E
+slug: fortinet-fg-50e
+part_number: FG-50E
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[FortiGate 51E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_FortiWiFi_50E_Series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: nema-5-15p
+    maximum_draw: 25
+    allocated_draw: 18
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: lan4
+    type: 1000base-t
+  - name: lan5
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t

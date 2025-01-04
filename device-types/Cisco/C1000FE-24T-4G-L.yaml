@@ -1,0 +1,78 @@
+---
+manufacturer: Cisco
+model: Catalyst 1000FE-24T-4G-L
+slug: cisco-c1000fe-24t-4g-l
+part_number: C1000FE-24T-4G-L
+comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: USB con0
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 250
+interfaces:
+  - name: FastEthernet1/0/1
+    type: 1000base-t
+  - name: FastEthernet1/0/2
+    type: 1000base-t
+  - name: FastEthernet1/0/3
+    type: 1000base-t
+  - name: FastEthernet1/0/4
+    type: 1000base-t
+  - name: FastEthernet1/0/5
+    type: 1000base-t
+  - name: FastEthernet1/0/6
+    type: 1000base-t
+  - name: FastEthernet1/0/7
+    type: 1000base-t
+  - name: FastEthernet1/0/8
+    type: 1000base-t
+  - name: FastEthernet1/0/9
+    type: 1000base-t
+  - name: FastEthernet1/0/10
+    type: 1000base-t
+  - name: FastEthernet1/0/11
+    type: 1000base-t
+  - name: FastEthernet1/0/12
+    type: 1000base-t
+  - name: FastEthernet1/0/13
+    type: 1000base-t
+  - name: FastEthernet1/0/14
+    type: 1000base-t
+  - name: FastEthernet1/0/15
+    type: 1000base-t
+  - name: FastEthernet1/0/16
+    type: 1000base-t
+  - name: FastEthernet1/0/17
+    type: 1000base-t
+  - name: FastEthernet1/0/18
+    type: 1000base-t
+  - name: FastEthernet1/0/19
+    type: 1000base-t
+  - name: FastEthernet1/0/20
+    type: 1000base-t
+  - name: FastEthernet1/0/21
+    type: 1000base-t
+  - name: FastEthernet1/0/22
+    type: 1000base-t
+  - name: FastEthernet1/0/23
+    type: 1000base-t
+  - name: FastEthernet1/0/24
+    type: 1000base-t
+  - name: GigabitEthernet1/0/25
+    type: 1000base-x-sfp
+    description: 1G SFP and RJ-45 combo uplink
+  - name: GigabitEthernet1/0/26
+    type: 1000base-x-sfp
+    description: 1G SFP and RJ-45 combo uplink
+  - name: GigabitEthernet1/0/27
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/28
+    type: 1000base-x-sfp
+  - name: Vlan1
+    type: virtual

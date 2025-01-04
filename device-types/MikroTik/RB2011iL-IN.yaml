@@ -1,0 +1,44 @@
+---
+manufacturer: MikroTik
+model: RB2011iL-IN
+slug: mikrotik-rb2011il-in
+part_number: RB2011iL-IN
+u_height: 0
+weight: 0.15
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+comments: '[RB2011iL-IN Datasheet](https://mikrotik.com/product/RB2011iL-IN)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 7
+    description: DC 8-30 V - 500 mA
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 100base-tx
+  - name: ether8
+    type: 100base-tx
+  - name: ether9
+    type: 100base-tx
+  - name: ether10
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT

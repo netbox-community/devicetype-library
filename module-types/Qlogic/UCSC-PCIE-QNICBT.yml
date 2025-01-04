@@ -1,0 +1,10 @@
+---
+manufacturer: Qlogic
+model: UCSC-PCIE-QNICBT
+part_number: UCSC-PCIE-QNICBT
+comments: QLogic QLE8442 dual-port 10Gbase-T NIC
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-t
+  - name: Ethernet{module}/2
+    type: 10gbase-t

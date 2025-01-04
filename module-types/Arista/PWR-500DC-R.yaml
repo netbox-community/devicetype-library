@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: PWR-500DC-R
+part_number: PWR-500DC-R
+# airflow: rear-to-front
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 500

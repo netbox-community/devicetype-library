@@ -1,0 +1,46 @@
+---
+manufacturer: FS
+model: FMU-MC082745
+slug: fs-fmu-mc082745
+comments: 8Ch CWDM MUX 1270-1450 (Skip 1390,1410)
+part_number: '42937'
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+front-ports:
+  - name: '1270'
+    type: lc
+    rear_port: Line
+    rear_port_position: 1
+  - name: '1290'
+    type: lc
+    rear_port: Line
+    rear_port_position: 2
+  - name: '1310'
+    type: lc
+    rear_port: Line
+    rear_port_position: 3
+  - name: '1330'
+    type: lc
+    rear_port: Line
+    rear_port_position: 4
+  - name: '1350'
+    type: lc
+    rear_port: Line
+    rear_port_position: 5
+  - name: '1370'
+    type: lc
+    rear_port: Line
+    rear_port_position: 6
+  - name: '1430'
+    type: lc
+    rear_port: Line
+    rear_port_position: 7
+  - name: '1450'
+    type: lc
+    rear_port: Line
+    rear_port_position: 8
+rear-ports:
+  - name: Line
+    type: lc
+    positions: 8

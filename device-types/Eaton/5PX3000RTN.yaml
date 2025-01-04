@@ -1,0 +1,28 @@
+---
+manufacturer: Eaton
+model: 5PX3000RTN
+slug: eaton-5px3000rtn
+u_height: 2
+is_full_depth: true
+power-outlets:
+  - name: Group1 - Outlet1
+    type: nema-5-20r
+  - name: Group1 - Outlet2
+    type: nema-5-20r
+  - name: Group2 - Outlet1
+    type: nema-5-20r
+  - name: Group2 - Outlet2
+    type: nema-5-20r
+  - name: Primary Group - Outlet1
+    type: nema-5-20r
+  - name: Primary Group - Outlet2
+    type: nema-5-20r
+  - name: L5-30R
+    type: nema-5-30r
+power-ports:
+  - name: L530R
+    type: nema-5-30p
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true

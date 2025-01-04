@@ -1,0 +1,41 @@
+---
+manufacturer: Cisco
+model: Catalyst 9606R
+slug: cisco-c9606r
+part_number: C9606R
+u_height: 8
+is_full_depth: true
+airflow: right-to-left
+comments: '[Cisco Catalyst 9600 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9600-series-switches/nb-06-cat9600-series-data-sheet-cte-en.html)'
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: Line Card
+  - name: Slot 2
+    position: '2'
+    description: Line Card
+  - name: Slot 3
+    position: '3'
+    description: Supervisor Module
+  - name: Slot 4
+    position: '4'
+    description: Supervisor Module
+  - name: Slot 5
+    position: '5'
+    description: Line Card
+  - name: Slot 6
+    position: '6'
+    description: Line Card
+power-ports:
+  - name: PS-1
+    type: iec-60320-c16
+    maximum_draw: 2000
+  - name: PS-2
+    type: iec-60320-c16
+    maximum_draw: 2000
+  - name: PS-3
+    type: iec-60320-c16
+    maximum_draw: 2000
+  - name: PS-4
+    type: iec-60320-c16
+    maximum_draw: 2000

@@ -1,0 +1,64 @@
+---
+manufacturer: Cisco
+model: Nexus 5696Q
+slug: cisco-n5k-c5696q
+part_number: N5K-C5696Q
+front_image: true
+rear_image: true
+u_height: 4
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+  - name: L1
+    type: 1000base-t
+  - name: L2
+    type: 1000base-t
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  - name: PS1
+    label: Power Supply 1
+    position: '1'
+  - name: PS2
+    label: Power Supply 2
+    position: '2'
+  - name: PS3
+    label: Power Supply 3
+    position: '3'
+  - name: PS4
+    label: Power Supply 4
+    position: '4'
+  - name: PS5
+    label: Power Supply 5
+    position: '5'
+  - name: PS6
+    label: Power Supply 6
+    position: '6'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'

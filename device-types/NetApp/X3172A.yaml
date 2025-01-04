@@ -1,0 +1,31 @@
+---
+manufacturer: NetApp
+model: FAS8200 Controller
+slug: netapp-fas8200-controller
+part_number: X3172A
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: e0a
+    type: 10gbase-x-sfpp
+  - name: e0b
+    type: 10gbase-x-sfpp
+  - name: e0c
+    type: 1000base-t
+  - name: e0d
+    type: 1000base-t
+  - name: e0e
+    type: 10gbase-x-sfpp
+  - name: e0f
+    type: 10gbase-x-sfpp
+  - name: e0g
+    type: 10gbase-x-sfpp
+  - name: e0h
+    type: 10gbase-x-sfpp
+  - name: e0m
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,88 @@
+---
+manufacturer: Cisco
+model: Catalyst 1000-16P-E-2G-L
+slug: cisco-c1000-16p-e-2g-l
+part_number: C1000-16P-E-2G-L
+comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: USB con0
+    type: usb-mini-b
+power-ports:
+  - name: External PSU
+    type: dc-terminal
+    maximum_draw: 200
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/11
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/13
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/14
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/15
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/16
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/18
+    type: 1000base-x-sfp
+  - name: Vlan1
+    type: virtual

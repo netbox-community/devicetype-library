@@ -1,0 +1,23 @@
+---
+manufacturer: QNAP
+model: TS-453D
+slug: qnap-ts-453d
+u_height: 0
+part_number: TS-453d
+airflow: side-to-rear
+is_full_depth: false
+weight: 3.6
+weight_unit: kg
+comments: '[TS-453B | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-453d/specs/hardware)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 26
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 2.5gbase-t
+  - name: eth1
+    label: '2'
+    type: 2.5gbase-t

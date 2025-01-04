@@ -1,0 +1,27 @@
+---
+manufacturer: Juniper
+model: SRX3600
+slug: juniper-srx3600
+u_height: 5
+is_full_depth: true
+comments: '[Juniper SRX3600 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000267-en.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Slot 0
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+power-ports:
+  - name: PEM0
+    type: iec-60320-c20
+  - name: PEM1
+    type: iec-60320-c20
+  - name: PEM2
+    type: iec-60320-c20
+  - name: PEM3
+    type: iec-60320-c20

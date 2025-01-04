@@ -1,0 +1,42 @@
+---
+manufacturer: TP-Link
+model: TD-W8950N
+slug: tp-link-td-w8950n
+part_number: TD-W8950N
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 500.0
+weight_unit: g
+power-ports:
+  - name: power
+    type: dc-terminal
+    maximum_draw: 8
+    allocated_draw: 7
+    label: power
+interfaces:
+  - name: ADSL
+    type: xdsl
+    enabled: true
+    mgmt_only: false
+    label: ADSL
+  - name: LAN1
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN1
+  - name: LAN2
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN2
+  - name: LAN3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN3
+  - name: LAN4
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN4/WAN

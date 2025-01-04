@@ -1,0 +1,10 @@
+---
+manufacturer: Nokia
+model: PS-7220-IXR-D2/D3-DC-F2B
+part_number: 3HE10837AA
+comments: 800W -48V DC Power Supply F2B airflow, same as 210 WBX
+# airflow: front-to-rear
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+    maximum_draw: 800

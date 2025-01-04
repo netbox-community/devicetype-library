@@ -1,0 +1,40 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT5KRMXLT
+slug: apc-srt5krmxlt
+part_number: SRT5KRMXLT
+comments: APC Smart-UPS On-Line, 5.4kVA, Rackmount 3U, 208V, 2x L6-20R+2x L6-30R NEMA outlets, Network Card+SmartSlot, Extended runtime, W/ rail kit
+u_height: 3
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Source
+    type: nema-l6-30p
+  - name: XLBP Source
+    type: dc-terminal
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-l6-20r
+    power_port: Source
+  - name: Group 1 Outlet 2
+    type: nema-l6-20r
+    power_port: Source
+  - name: Group 2 Outlet 1
+    type: nema-l6-30r
+    power_port: Source
+  - name: Group 2 Outlet 2
+    type: nema-l6-30r
+    power_port: Source
+module-bays:
+  - name: SmartSlot
+    position: Rear
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: true
+    label: NMC
+  - name: Universal I/O 1
+    type: other
+    label: RJ-45

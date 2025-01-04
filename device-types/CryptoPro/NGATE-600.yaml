@@ -1,0 +1,33 @@
+---
+manufacturer: CryptoPro
+model: NGATE-600
+slug: cryptopro-ngate-600
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 150
+interfaces:
+  - name: enp0f20s0
+    label: '1'
+    type: 1000base-t
+  - name: enp0f20s1
+    label: '2'
+    type: 1000base-t
+  - name: enp0f20s2
+    label: '3'
+    type: 1000base-t
+  - name: enp0f20s3
+    label: '4'
+    type: 1000base-t
+  - name: enp1s0
+    label: '5'
+    type: 1000base-t
+  - name: enp2s0
+    label: '6'
+    type: 1000base-t

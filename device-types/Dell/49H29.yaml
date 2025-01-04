@@ -1,0 +1,27 @@
+---
+manufacturer: Dell
+model: 49H29 PowerVault ME SAS Controller
+slug: dell-49h29-powervault-me-sas-controller
+part_number: 49H29
+comments: SAS 4 Port Controller for use in the Dell ME4012, ME4024, and ME4084
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+subdevice_role: child
+interfaces:
+  - name: mgmtport_{module}
+    type: 1000base-t
+    mgmt_only: true
+  - name: SAS {module}0
+    type: other #SFF-8644 - SAS-12Gb
+  - name: SAS {module}1
+    type: other #SFF-8644 - SAS-12Gb
+  - name: SAS {module}2
+    type: other #SFF-8644 - SAS-12Gb
+  - name: SAS {module}3
+    type: other #SFF-8644 - SAS-12Gb
+  - name: Expansion Port {module}0
+    type: other #SFF-8644 - SAS-12Gb
+console-ports:
+  - name: Serial{module}
+    type: usb-mini-b

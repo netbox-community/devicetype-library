@@ -1,0 +1,30 @@
+---
+manufacturer: MikroTik
+model: RB2011UiAS-IN
+slug: mikrotik-rb2011uias-in
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 100base-tx
+  - name: ether8
+    type: 100base-tx
+  - name: ether9
+    type: 100base-tx
+  - name: ether10
+    type: 100base-tx
+  - name: sfp1
+    type: 1000base-x-sfp

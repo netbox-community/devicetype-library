@@ -1,0 +1,97 @@
+---
+manufacturer: Arista
+model: DCS-7050QX-32S
+slug: arista-dcs-7050qx-32s
+part_number: DCS-7050QX-32S
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 192
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 192
+front_image: true
+rear_image: false
+interfaces:
+  - name: Ethernet1
+    type: 10gbase-x-sfpp
+  - name: Ethernet2
+    type: 10gbase-x-sfpp
+  - name: Ethernet3
+    type: 10gbase-x-sfpp
+  - name: Ethernet4
+    type: 10gbase-x-sfpp
+  - name: Ethernet5/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet6/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet7/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet8/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet9/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet10/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet11/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet12/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet13/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet14/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet15/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet16/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet17/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet18/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet19/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet20/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet21/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet22/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet23/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet24/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet25/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet26/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet27/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet28/1
+    type: 40gbase-x-qsfpp
+  - name: Ethernet29
+    type: 40gbase-x-qsfpp
+  - name: Ethernet30
+    type: 40gbase-x-qsfpp
+  - name: Ethernet31
+    type: 40gbase-x-qsfpp
+  - name: Ethernet32
+    type: 40gbase-x-qsfpp
+  - name: Ethernet33
+    type: 40gbase-x-qsfpp
+  - name: Ethernet34
+    type: 40gbase-x-qsfpp
+  - name: Ethernet35
+    type: 40gbase-x-qsfpp
+  - name: Ethernet36
+    type: 40gbase-x-qsfpp
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true

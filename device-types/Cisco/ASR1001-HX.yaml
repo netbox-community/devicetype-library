@@ -1,0 +1,53 @@
+---
+manufacturer: Cisco
+model: ASR1001-HX
+slug: cisco-asr1001-hx
+part_number: ASR1001-HX
+u_height: 1
+is_full_depth: true
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/0/7
+    type: 1000base-t
+  - name: TenGigabitEthernet0/1/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/7
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 750
+console-ports:
+  - name: con 0
+    type: rj-45

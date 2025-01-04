@@ -1,0 +1,48 @@
+---
+manufacturer: Dell
+model: PowerEdge R750
+slug: dell-poweredge-r750
+u_height: 2
+is_full_depth: true
+comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r750-technical-guide.pdf)'
+console-ports:
+  - name: Rear Serial
+    type: de-9
+interfaces:
+  - name: iDRAC9 1
+    label: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: NUMA 0 - OCP slot 1
+    position: OCP-1
+  - name: NUMA 0 - PCIe slot 1 - FH
+    position: PCIe-1
+    label: '1'
+  - name: NUMA 0 - PCIe slot 2 - FH
+    position: PCIe-2
+    label: '2'
+  - name: NUMA 0 - PCIe slot 3 - LP
+    position: PCIe-3
+    label: '3'
+  - name: NUMA 0 - PCIe slot 4 - FH
+    position: PCIe-4
+    label: '4'
+  - name: NUMA 1 - PCIe slot 5 - FH
+    position: PCIe-5
+    label: '5'
+  - name: NUMA 1 - PCIe slot 6 - LP
+    position: PCIe-6
+    label: '6'
+  - name: NUMA 1 - PCIe slot 7 - FH
+    position: PCIe-7
+    label: '7'
+  - name: NUMA 1 - PCIe slot 8 - FH
+    position: PCIe-8
+    label: '8'

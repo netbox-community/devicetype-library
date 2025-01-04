@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: UCS-S3260-M5SRB
+slug: cisco-ucs-s3260-m5srb
+part_number: UCS-S3260-M5SRB
+# comments: UCS S3260 M5 Server Node for Intel Scalable CPUs
+u_height: 4
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: sioc1
+    type: 40gbase-x-qsfpp
+  - name: sioc2
+    type: 40gbase-x-qsfpp
+  - name: sioc3
+    type: 40gbase-x-qsfpp
+    mgmt_only: true
+  - name: sioc4
+    type: 40gbase-x-qsfpp
+    mgmt_only: true
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'
+  - name: PSU-3
+    position: '3'
+  - name: PSU-4
+    position: '4'

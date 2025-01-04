@@ -1,0 +1,43 @@
+---
+manufacturer: Cisco
+model: IE-4000-4GC4GP4G-E
+slug: cisco-ie-4000-4gc4gp4g-e
+part_number: IE-4000-4GC4GP4G-E
+# comments: requires seperate PSU which is then wired into DC-A DC-B screw terminals
+u_height: 2
+is_full_depth: false
+console-ports:
+  - name: console
+    type: usb-mini-b
+  - name: console port
+    type: rj-45
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: DC-B
+    type: dc-terminal
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
+  - name: GigabitEthernet1/11
+    type: 1000base-t
+  - name: GigabitEthernet1/12
+    type: 1000base-t

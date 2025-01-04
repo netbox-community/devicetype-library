@@ -1,0 +1,36 @@
+---
+manufacturer: WTI
+model: DSM-8NM
+slug: wti-dsm-8nm
+airflow: passive
+part_number: DSM-8NM
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: usb-mini-b
+console-server-ports:
+  - name: port1
+    type: rj-45
+  - name: port2
+    type: rj-45
+  - name: port3
+    type: rj-45
+  - name: port4
+    type: rj-45
+  - name: port5
+    type: rj-45
+  - name: port6
+    type: rj-45
+  - name: port7
+    type: rj-45
+  - name: port8
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 6
+    allocated_draw: 3

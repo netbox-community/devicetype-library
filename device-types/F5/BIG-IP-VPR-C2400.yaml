@@ -1,0 +1,25 @@
+---
+manufacturer: F5
+model: BIG-IP VPR-C2400
+slug: f5-big-ip-vpr-c2400
+part_number: VPR-C2400
+u_height: 4
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+power-ports:
+  - name: psu1
+    type: iec-60320-c20
+    maximum_draw: 1400
+  - name: psu2
+    type: iec-60320-c20
+    maximum_draw: 1400
+interfaces:
+  - name: 1/mgmt
+    type: 1000base-t
+    mgmt_only: true

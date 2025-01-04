@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: vEdge 100M
+slug: cisco-vedge-100m-vz-k9
+part_number: VEDGE-100M-VZ-K9
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    allocated_draw: 15
+    maximum_draw: 30
+interfaces:
+  - name: ge0/0
+    type: 1000base-t
+  - name: ge0/1
+    type: 1000base-t
+  - name: ge0/2
+    type: 1000base-t
+  - name: ge0/3
+    type: 1000base-t
+  - name: ge0/4
+    type: 1000base-t
+  - name: cellular0
+    type: lte

@@ -1,0 +1,40 @@
+---
+manufacturer: HPE
+model: Aruba 2530-8-PoE+
+slug: hpe-aruba-2530-8-poep
+part_number: J9780A
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[Aruba 2530 Switch Series - Specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03624915#N117E5)'
+weight: 2
+weight_unit: lb
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 77
+interfaces:
+  - name: '1'
+    type: 100base-tx
+  - name: '2'
+    type: 100base-tx
+  - name: '3'
+    type: 100base-tx
+  - name: '4'
+    type: 100base-tx
+  - name: '5'
+    type: 100base-tx
+  - name: '6'
+    type: 100base-tx
+  - name: '7'
+    type: 100base-tx
+  - name: '8'
+    type: 100base-tx
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp

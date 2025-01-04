@@ -1,0 +1,25 @@
+---
+manufacturer: HPE
+model: Aruba IAP-515
+slug: hpe-aruba-iap-515
+part_number: IAP-515
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[Aruba 515 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP510Series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ax

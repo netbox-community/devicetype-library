@@ -1,0 +1,30 @@
+---
+manufacturer: Arista
+model: DCS-7508
+slug: arista-dcs-7508
+part_number: DCS-7508
+u_height: 11
+is_full_depth: false
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 2900
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 2900
+  - name: PS3
+    type: iec-60320-c20
+    maximum_draw: 2900
+  - name: PS4
+    type: iec-60320-c20
+    maximum_draw: 2900
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management2
+    type: 1000base-t
+    mgmt_only: true

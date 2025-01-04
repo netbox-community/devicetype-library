@@ -1,0 +1,36 @@
+---
+manufacturer: NetApp
+model: FAS2700 Controller 10GBASE-T
+slug: netapp-fas2700-controller-10gbase-t
+part_number: X3219A
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+  - name: PSU3
+    type: iec-60320-c14
+  - name: PSU4
+    type: iec-60320-c14
+interfaces:
+  - name: e0a
+    type: 10gbase-x-sfpp
+  - name: e0b
+    type: 10gbase-x-sfpp
+  - name: e0c
+    type: 10gbase-t
+  - name: e0d
+    type: 10gbase-t
+  - name: e0e
+    type: 10gbase-t
+  - name: e0f
+    type: 10gbase-t
+  - name: e0m
+    type: 1000base-t
+    mgmt_only: true

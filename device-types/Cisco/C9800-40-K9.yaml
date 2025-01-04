@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: Catalyst 9800-40-K9
+slug: cisco-c9800-40-k9
+part_number: C9800-40-K9
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb0
+    type: usb-micro-b
+interfaces:
+  - name: Management Port
+    type: 1000base-t
+    mgmt_only: true
+  - name: Redundancy Port
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet0/0/0
+    type: 10gbase-t
+  - name: TenGigabitEthernet0/0/1
+    type: 10gbase-t
+  - name: TenGigabitEthernet0/0/2
+    type: 10gbase-t
+  - name: TenGigabitEthernet0/0/3
+    type: 10gbase-t
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 381
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 381

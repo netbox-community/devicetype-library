@@ -1,0 +1,24 @@
+---
+manufacturer: HPE
+model: ProLiant DL320e Gen8
+slug: hpe-proliant-dl320e-gen8
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 350
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 350
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

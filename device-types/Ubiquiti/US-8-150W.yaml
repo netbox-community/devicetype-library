@@ -1,0 +1,35 @@
+---
+manufacturer: Ubiquiti
+model: US-8-150W
+slug: ubiquiti-us-8-150w
+comments: |
+  [UniFi Switch PoE 8 (150W)](https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w) (20W + max. 130W PoE), Gen1, (8) Gigabit PoE+ IEEE 802.3af/at and 24V Passive PoE, (2) SFP
+
+  Dimensions: 235 x 43 x 204 mm (9.25 x 1.69 x 8.03")
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: Port 1 (PoE)
+    type: 1000base-t
+  - name: Port 2 (PoE)
+    type: 1000base-t
+  - name: Port 3 (PoE)
+    type: 1000base-t
+  - name: Port 4 (PoE)
+    type: 1000base-t
+  - name: Port 5 (PoE)
+    type: 1000base-t
+  - name: Port 6 (PoE)
+    type: 1000base-t
+  - name: Port 7 (PoE)
+    type: 1000base-t
+  - name: Port 8 (PoE)
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 150

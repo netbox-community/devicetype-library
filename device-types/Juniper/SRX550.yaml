@@ -1,0 +1,65 @@
+---
+manufacturer: Juniper
+model: SRX550
+slug: juniper-srx550
+is_full_depth: false
+u_height: 2
+comments: |
+  [Juniper SRX550 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx550m-services-gateway-datasheet.pdf)
+
+  [Juniper SRX550 Chassis](https://www.juniper.net/documentation/en_US/release-independent/junos/topics/concept/services-gateway-srx550-chassis.html)
+interfaces:
+  - name: ge-0/0/0
+    type: 1000base-t
+  - name: ge-0/0/1
+    type: 1000base-t
+  - name: ge-0/0/2
+    type: 1000base-t
+  - name: ge-0/0/3
+    type: 1000base-t
+  - name: ge-0/0/4
+    type: 1000base-t
+  - name: ge-0/0/5
+    type: 1000base-t
+  - name: ge-0/0/6
+    type: 1000base-x-sfp
+  - name: ge-0/0/7
+    type: 1000base-x-sfp
+  - name: ge-0/0/8
+    type: 1000base-x-sfp
+  - name: ge-0/0/9
+    type: 1000base-x-sfp
+module-bays:
+  - name: PIM1
+    label: Mini-PIM 1
+    position: PIM1
+  - name: PIM2
+    label: Mini-PIM 2
+    position: PIM2
+  - name: PIM3
+    label: PIM 3 (10-gigabit XPIM,PoE Capable)
+    position: PIM3
+  - name: PIM4
+    label: PIM 4 (PoE Capable)
+    position: PIM4
+  - name: PIM5
+    label: PIM 5 ()
+    position: PIM5
+  - name: PIM6
+    label: PIM 6 (20-gigabit XPIM,PoE Capable)
+    position: PIM6
+  - name: PIM7
+    label: PIM 7 ()
+    position: PIM7
+  - name: PIM8
+    label: PIM 8 (PoE Capable)
+    position: PIM8
+  - name: PSU0
+    label: Power Supply 0
+    position: PSU0
+  - name: PSU1
+    label: Power Supply 1
+    position: PSU1
+console-ports:
+  - name: Console
+    type: rj-45

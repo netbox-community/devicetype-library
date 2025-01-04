@@ -1,0 +1,30 @@
+---
+manufacturer: Deciso
+model: DEC4610
+part_number: DEC4610
+slug: deciso-dec4610
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: igb4
+    type: 1000base-t
+  - name: igb5
+    type: 1000base-t
+  - name: igb6
+    type: 1000base-t
+  - name: igb7
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14

@@ -1,0 +1,19 @@
+---
+manufacturer: HPE
+model: Aruba IAP-205
+slug: hpe-aruba-iap-205
+part_number: IAP-205
+u_height: 0
+is_full_depth: false
+comments: '[Aruba 200 Series Datasheet](https://www.arubanetworks.com/assets/ds/DS_AP200Series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: Power
+    type: dc-terminal
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac

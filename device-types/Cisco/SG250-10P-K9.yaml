@@ -1,0 +1,63 @@
+---
+manufacturer: Cisco
+model: SG250-10P
+slug: cisco-sg250-10p-k9
+part_number: SG250-10P-K9
+u_height: 1
+is_full_depth: false
+comments: '[SG250 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/250-series-smart-switches/datasheet-c78-737061.html)'
+console-ports:
+  - name: console
+    type: de-9
+power-ports:
+  - name: External PS
+    type: iec-60320-c14
+    maximum_draw: 85
+    allocated_draw: 13
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet10
+    type: 1000base-x-sfp
+  - name: Port-Channel1
+    type: lag
+  - name: Port-Channel2
+    type: lag
+  - name: Port-Channel3
+    type: lag
+  - name: Port-Channel4
+    type: lag
+  - name: vlan 1
+    type: virtual

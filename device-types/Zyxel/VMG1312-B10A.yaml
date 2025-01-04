@@ -1,0 +1,34 @@
+---
+manufacturer: Zyxel
+model: VMG1312-B10A
+slug: zyxel-vmg1312-b10a
+part_number: '402444'
+u_height: 0
+weight: 245
+weight_unit: g
+is_full_depth: false
+airflow: passive
+comments: '[VMG1312-B series specs](https://service-provider.zyxel.com/global/en/products/dsl-cpe/vdsl/modemresidential-gateways/vmg1312-b-series)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12 V DC, 1 A
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: LAN1
+    label: LAN 1
+    type: 100base-tx
+  - name: LAN2
+    label: LAN 2
+    type: 100base-tx
+  - name: LAN3
+    label: LAN 3
+    type: 100base-tx
+  - name: LAN4
+    label: LAN 4
+    type: 100base-tx
+  - name: WiFi
+    type: ieee802.11n

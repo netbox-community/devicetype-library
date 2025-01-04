@@ -1,0 +1,26 @@
+---
+manufacturer: Supermicro
+model: AS-1123US-TR4
+slug: supermicro-as-1123us-tr4
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true

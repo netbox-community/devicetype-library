@@ -1,0 +1,34 @@
+---
+manufacturer: APC
+model: SURT20KRMXLT
+slug: apc-surt20krmxlt
+part_number: SURT20KRMXLT
+comments: "APC Smart-UPS RT 20kVA, 208V, LCD, rackmount, 12U, 4x NEMA L6-20R & 2x NEMA L6-30R outlets\n \n | RBC Information |           |\n | ---------------\
+  \ | --------- |\n | RBC Replacement | APCRBC140 |\n | RBC Quantity    | 4         |"
+u_height: 12
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Source
+    type: hardwired
+  - name: XLBP Source
+    type: dc-terminal
+power-outlets:
+  - name: Hard Wire Output
+    type: hardwired
+  - name: PDU Panel 1 Group 1 Outlet 1
+    type: nema-l6-30r
+  - name: PDU Panel 1 Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: PDU Panel 1 Group 2 Outlet 2
+    type: nema-l6-20r
+  - name: PDU Panel 2 Group 1 Outlet 1
+    type: nema-l6-30r
+  - name: PDU Panel 2 Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: PDU Panel 2 Group 2 Outlet 2
+    type: nema-l6-20r
+module-bays:
+  - name: SmartSlot

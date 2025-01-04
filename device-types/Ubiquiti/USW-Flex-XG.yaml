@@ -1,0 +1,24 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Flex XG
+slug: ubiquiti-unifi-switch-flex-xg
+part_number: USW-Flex-XG
+weight: 1.2
+weight_unit: kg
+comments: |
+  135 x 185 x 32 mm (5.31 x 7.28 x 1.27")
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: Port 1 (PoE IN)
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 10gbase-t
+  - name: Port 3
+    type: 10gbase-t
+  - name: Port 4
+    type: 10gbase-t
+  - name: Port 5
+    type: 10gbase-t

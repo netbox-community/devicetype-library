@@ -1,0 +1,44 @@
+---
+manufacturer: HPE
+model: ProLiant DL380 Gen7
+slug: hpe-proliant-dl380-gen7
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+part_number: 583914-B21
+comments: '[HPE ProLiant DL380 Gen7 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04199811)'
+#minumum weight - one hard drive, power supply and processor installed
+weight: 21.45
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

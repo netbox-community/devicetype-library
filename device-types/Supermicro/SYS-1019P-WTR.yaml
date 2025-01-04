@@ -1,0 +1,29 @@
+---
+manufacturer: Supermicro
+model: SYS-1019P-WTR
+slug: supermicro-sys-1019p-wtr
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: 'Specification: [https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm](https://www.supermicro.com/en/products/system/1U/1019/SYS-1019P-WTR.cfm)'
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+  - name: COM2
+    type: de-9
+    description: Header
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+  - name: Gig-E 3
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port

@@ -1,0 +1,30 @@
+---
+manufacturer: Cisco
+model: ISR3945
+part_number: CISCO3945-CHASSIS
+slug: cisco-isr3945
+u_height: 3
+is_full_depth: true
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: aux 0
+    type: rj-45
+  - name: con usb
+    type: usb-mini-b
+  - name: usb 0
+    type: usb-a
+  - name: usb 1
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14

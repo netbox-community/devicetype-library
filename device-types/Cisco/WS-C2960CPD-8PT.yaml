@@ -1,0 +1,55 @@
+---
+manufacturer: Cisco
+model: Catalyst 2960CPD-8PT
+slug: cisco-ws-c2960cpd-8pt
+part_number: WS-C2960CPD-8PT
+is_full_depth: false
+u_height: 1
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 15
+interfaces:
+  - name: FastEthernet0/1
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/2
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/3
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/4
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/5
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/6
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/7
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/8
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

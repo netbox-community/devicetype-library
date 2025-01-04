@@ -1,0 +1,17 @@
+---
+manufacturer: Eaton
+model: Tripp-Lite WEBCARDLXE
+part_number: WEBCARDLXE
+comments: Allows you to operate a compatible UPS system as a managed network device that you can monitor and control remotely. [Manual](https://assets.tripplite.com/product-pdfs/en/webcardlxe.pdf)
+interfaces:
+  - name: Mgmt
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: Config
+    type: usb-micro-b
+    label: Console
+    description: Use this port to provide a direct terminal connection to a computer with a terminal emulation program.
+  - name: Sensor
+    type: usb-a
+    description: Supports a variety of Envirosense2 environmental and control modules.

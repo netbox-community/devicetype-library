@@ -1,0 +1,30 @@
+---
+manufacturer: Eaton
+model: 9PX6K
+slug: eaton-9px6k
+u_height: 3
+is_full_depth: true
+comments: 9PX6K 6kVA 208V Tower/Rack Mountable UPS
+power-outlets:
+  - name: Outlet 1
+    type: nema-6-20r
+  - name: Outlet 2
+    type: nema-6-20r
+  - name: Outlet 3
+    type: nema-6-30r
+  - name: Outlet 4
+    type: nema-6-30r
+power-ports:
+  - name: L630R
+    type: nema-6-30p
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB management
+    type: usb-b
+  - name: Mgmt Card Debug - "AUX"
+    type: usb-a

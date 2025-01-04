@@ -1,0 +1,72 @@
+---
+manufacturer: WTI
+model: DSM-24NM-DP
+slug: wti-dsm-24nm-dp
+airflow: passive
+part_number: DSM-24NM-DP
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: usb-mini-b
+console-server-ports:
+  - name: port1
+    type: rj-45
+  - name: port2
+    type: rj-45
+  - name: port3
+    type: rj-45
+  - name: port4
+    type: rj-45
+  - name: port5
+    type: rj-45
+  - name: port6
+    type: rj-45
+  - name: port7
+    type: rj-45
+  - name: port8
+    type: rj-45
+  - name: port9
+    type: rj-45
+  - name: port10
+    type: rj-45
+  - name: port11
+    type: rj-45
+  - name: port12
+    type: rj-45
+  - name: port13
+    type: rj-45
+  - name: port14
+    type: rj-45
+  - name: port15
+    type: rj-45
+  - name: port16
+    type: rj-45
+  - name: port17
+    type: rj-45
+  - name: port18
+    type: rj-45
+  - name: port19
+    type: rj-45
+  - name: port20
+    type: rj-45
+  - name: port21
+    type: rj-45
+  - name: port22
+    type: rj-45
+  - name: port23
+    type: rj-45
+  - name: port24
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 8
+    allocated_draw: 4
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 8
+    allocated_draw: 4

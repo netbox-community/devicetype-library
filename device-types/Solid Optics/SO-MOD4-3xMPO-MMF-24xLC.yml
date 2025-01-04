@@ -1,0 +1,67 @@
+---
+manufacturer: Solid Optics
+model: SO-MOD4-3xMPO/MMF-24xLC
+slug: solid-optics-so-mod4-3xmpo-mmf-24xlc
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+is_powered: false
+front-ports:
+  - name: A1
+    type: lc
+    rear_port: A
+    rear_port_position: 1
+  - name: A2
+    type: lc
+    rear_port: A
+    rear_port_position: 2
+  - name: A3
+    type: lc
+    rear_port: A
+    rear_port_position: 3
+  - name: A4
+    type: lc
+    rear_port: A
+    rear_port_position: 4
+  - name: B1
+    type: lc
+    rear_port: B
+    rear_port_position: 1
+  - name: B2
+    type: lc
+    rear_port: B
+    rear_port_position: 2
+  - name: B3
+    type: lc
+    rear_port: B
+    rear_port_position: 3
+  - name: B4
+    type: lc
+    rear_port: B
+    rear_port_position: 4
+  - name: C1
+    type: lc
+    rear_port: C
+    rear_port_position: 1
+  - name: C2
+    type: lc
+    rear_port: C
+    rear_port_position: 2
+  - name: C3
+    type: lc
+    rear_port: C
+    rear_port_position: 3
+  - name: C4
+    type: lc
+    rear_port: C
+    rear_port_position: 4
+rear-ports:
+  - name: A
+    type: mpo
+    positions: 4
+  - name: B
+    type: mpo
+    positions: 4
+  - name: C
+    type: mpo
+    positions: 4

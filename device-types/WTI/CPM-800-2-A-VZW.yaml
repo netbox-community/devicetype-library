@@ -1,0 +1,60 @@
+---
+manufacturer: WTI
+model: CPM-800-2-A-VZW
+slug: wti-cpm-800-2-a-vzw
+airflow: passive
+part_number: CPM-800-2-A-VZW
+is_full_depth: false
+u_height: 1
+# comments: WTI CPM 1U, 1 ethernet, 8 outlet 15A 120V, 8 serial ports, ATS, Verizon Cell modem
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+  - name: PPP0
+    type: lte
+console-ports:
+  - name: Console
+    type: usb-mini-b
+console-server-ports:
+  - name: port1
+    type: rj-45
+  - name: port2
+    type: rj-45
+  - name: port3
+    type: rj-45
+  - name: port4
+    type: rj-45
+  - name: port5
+    type: rj-45
+  - name: port6
+    type: rj-45
+  - name: port7
+    type: rj-45
+  - name: port8
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+power-outlets:
+  - name: Outlet_A1
+    type: iec-60320-c13
+  - name: Outlet_A2
+    type: iec-60320-c13
+  - name: Outlet_A3
+    type: iec-60320-c13
+  - name: Outlet_A4
+    type: iec-60320-c13
+  - name: Outlet_A5
+    type: iec-60320-c13
+  - name: Outlet_A6
+    type: iec-60320-c13
+  - name: Outlet_A7
+    type: iec-60320-c13
+  - name: Outlet_A8
+    type: iec-60320-c13

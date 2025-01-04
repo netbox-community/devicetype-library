@@ -1,0 +1,45 @@
+---
+manufacturer: APC
+model: AP7721
+slug: apc-ap7721
+part_number: AP7721
+u_height: 1
+is_full_depth: false
+comments: RACK ATS, 10A/230V, 12A/208V, C14 IN, (12) C13 OUT
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Source A
+    type: iec-60320-c14
+  - name: Source B
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
+  - name: Outlet 10
+    type: iec-60320-c13
+  - name: Outlet 11
+    type: iec-60320-c13
+  - name: Outlet 12
+    type: iec-60320-c13
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true

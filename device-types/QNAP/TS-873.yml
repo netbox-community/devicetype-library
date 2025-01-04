@@ -1,0 +1,38 @@
+---
+manufacturer: QNAP
+model: TS-873
+slug: qnap-ts-873
+part_number: TS-873
+is_full_depth: false
+subdevice_role: parent
+device-bays:
+  - name: Disk 1
+  - name: Disk 2
+  - name: Disk 3
+  - name: Disk 4
+  - name: Disk 5
+  - name: Disk 6
+  - name: Disk 7
+  - name: Disk 8
+module-bays:
+  - name: Slot 1
+  - name: Slot 2
+comments: '[TS-873 | Hardware Specs | QNAP](https://www.qnap.com/en-me/product/ts-873/specs/hardware)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 70
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 1000base-t
+  - name: eth1
+    label: '2'
+    type: 1000base-t
+  - name: eth2
+    label: '3'
+    type: 1000base-t
+  - name: eth3
+    label: '4'
+    type: 1000base-t

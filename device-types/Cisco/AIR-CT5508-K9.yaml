@@ -1,0 +1,36 @@
+---
+manufacturer: Cisco
+model: AIR-CT5508-K9
+part_number: AIR-CT5508-K9
+slug: cisco-air-ct5508-k9
+u_height: 1
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: 1000base-x-sfp
+  - name: Port 2
+    type: 1000base-x-sfp
+  - name: Port 3
+    type: 1000base-x-sfp
+  - name: Port 4
+    type: 1000base-x-sfp
+  - name: Port 5
+    type: 1000base-x-sfp
+  - name: Port 6
+    type: 1000base-x-sfp
+  - name: Port 7
+    type: 1000base-x-sfp
+  - name: Port 8
+    type: 1000base-x-sfp
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 115
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 115

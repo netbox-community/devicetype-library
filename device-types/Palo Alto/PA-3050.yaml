@@ -1,0 +1,67 @@
+---
+manufacturer: Palo Alto
+model: PA-3050
+slug: palo-alto-pa-3050
+part_number: PA-3050
+u_height: 1
+is_full_depth: false
+front_image: true
+comments: '[PA-3000 Series Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 200
+    allocated_draw: 150
+interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 1000base-x-sfp
+  - name: ethernet1/18
+    type: 1000base-x-sfp
+  - name: ethernet1/19
+    type: 1000base-x-sfp
+  - name: ethernet1/20
+    type: 1000base-x-sfp
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: loopback
+    type: virtual

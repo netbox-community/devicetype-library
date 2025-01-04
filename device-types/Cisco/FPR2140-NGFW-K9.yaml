@@ -1,0 +1,58 @@
+---
+manufacturer: Cisco
+model: FPR2140-NGFW-K9
+slug: cisco-fpr2140-ngfw-k9
+part_number: FPR2140-NGFW-K9
+u_height: 1
+is_full_depth: true
+comments: '[Cisco Firepower 2100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firepower-2100-series/datasheet-c78-742473.html)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 400
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 400
+interfaces:
+  - name: Ethernet1/1
+    type: 1000base-t
+  - name: Ethernet1/2
+    type: 1000base-t
+  - name: Ethernet1/3
+    type: 1000base-t
+  - name: Ethernet1/4
+    type: 1000base-t
+  - name: Ethernet1/5
+    type: 1000base-t
+  - name: Ethernet1/6
+    type: 1000base-t
+  - name: Ethernet1/7
+    type: 1000base-t
+  - name: Ethernet1/8
+    type: 1000base-t
+  - name: Ethernet1/9
+    type: 1000base-t
+  - name: Ethernet1/10
+    type: 1000base-t
+  - name: Ethernet1/11
+    type: 1000base-t
+  - name: Ethernet1/12
+    type: 1000base-t
+  - name: Ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: Ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: Management1/1
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Network Module 1

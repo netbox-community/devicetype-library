@@ -1,0 +1,27 @@
+---
+manufacturer: HPE
+model: Aruba ec-us
+slug: hpe-aruba-ec-us
+part_number: '201106'
+u_height: 1
+is_full_depth: false
+airflow: passive
+console-ports:
+  - name: console
+    type: rj-45
+    label: console
+power-ports:
+  - name: power0
+    type: dc-terminal
+    maximum_draw: 9
+    label: power0
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: wan0
+    type: 1000base-t
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    label: wan1

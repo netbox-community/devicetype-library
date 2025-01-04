@@ -1,0 +1,76 @@
+---
+manufacturer: Cisco
+model: Nexus 9504
+slug: cisco-n9k-c9504
+part_number: N9K-C9504
+front_image: true
+rear_image: true
+u_height: 7
+weight: 38.2
+weight_unit: kg
+is_full_depth: true
+
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: Line Card
+  - name: Slot 2
+    position: '2'
+    description: Line Card
+  - name: Slot 3
+    position: '3'
+    description: Line Card
+  - name: Slot 4
+    position: '4'
+    description: Line Card
+
+  - name: Slot 21
+    label: Fabric Module 1
+    position: '21'
+  - name: Slot 22
+    label: Fabric Module 2
+    position: '22'
+  - name: Slot 23
+    label: Fabric Module 3
+    position: '23'
+  - name: Slot 24
+    label: Fabric Module 4
+    position: '24'
+  - name: Slot 25
+    label: Fabric Module 5
+    position: '25'
+  - name: Slot 26
+    label: Fabric Module 6
+    position: '26'
+
+  - name: Slot 27
+    label: Supervisor Module 1
+    position: '27'
+  - name: Slot 28
+    label: Supervisor Module 2
+    position: '28'
+  - name: Slot 29
+    label: System Controller 1
+    position: '29'
+  - name: Slot 30
+    label: System Controller 2
+    position: '30'
+
+  - name: PS1
+    position: '1'
+    label: Power Supply 1
+  - name: PS2
+    position: '2'
+    label: Power Supply 2
+  - name: PS3
+    position: '3'
+    label: Power Supply 3
+  - name: PS4
+    position: '4'
+    label: Power Supply 4
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'

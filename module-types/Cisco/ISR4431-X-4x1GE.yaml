@@ -1,0 +1,14 @@
+---
+manufacturer: Cisco
+part_number: ISR4431-X-4x1GE
+model: ISR4431-X-4x1GE
+comments: Front Panel 4 ports Gigabitethernet Module
+interfaces:
+  - name: GigabitEthernet{module}/0/0
+    type: 1000base-t
+  - name: GigabitEthernet{module}/0/1
+    type: 1000base-t
+  - name: GigabitEthernet{module}/0/2
+    type: 1000base-t
+  - name: GigabitEthernet{module}/0/3
+    type: 1000base-t

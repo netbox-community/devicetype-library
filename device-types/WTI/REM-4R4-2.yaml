@@ -1,0 +1,46 @@
+---
+manufacturer: WTI
+model: REM-4R4-2
+slug: wti-rem-4r4-2
+airflow: passive
+part_number: REM-4R4-2
+is_full_depth: false
+u_height: 1
+# comments: WTI REM 1U, 1 ethernet, 4 outlet 15A 120V, 4 serial ports, 2 USB host ports
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: usb-mini-b
+console-server-ports:
+  - name: port1
+    type: rj-45
+  - name: port2
+    type: rj-45
+  - name: port3
+    type: rj-45
+  - name: port4
+    type: rj-45
+  - name: U1
+    type: usb-a
+  - name: U2
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 10
+    allocated_draw: 5
+power-outlets:
+  - name: Outlet_A1
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A2
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A3
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A4
+    type: iec-60320-c13
+    power_port: PS1

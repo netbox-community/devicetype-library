@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: SPA112-V05
+slug: cisco-spa112-v05
+part_number: SPA112-V05
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: 'There are models with 1 WAN, 1 LAN under a different hardware revision #. [Cisco SPA122 ATA with Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/unified-communications/small-business-voice-gateways-ata/datasheet_C78-691107.html)'
+weight: 5.4
+weight_unit: oz
+power-ports:
+  - name: POWER
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: WAN
+    type: 100base-tx
+  - name: Phone 1
+    type: other
+  - name: Phone 2
+    type: other

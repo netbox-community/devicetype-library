@@ -1,0 +1,46 @@
+---
+manufacturer: FS
+model: FMU-MD085360EM3
+slug: fs-fmu-md085360em3
+part_number: FMU-MD085360EM3
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: 8 Channels 100GHz C53-C60, with Monitor, Expansion and 1310nm Port, LC/UPC, Dual Fiber DWDM Mux Demux, FMU Plug-in Module
+front-ports:
+  - name: C53
+    type: lc
+    rear_port: LINE
+    rear_port_position: 33
+  - name: C54
+    type: lc
+    rear_port: LINE
+    rear_port_position: 34
+  - name: C55
+    type: lc
+    rear_port: LINE
+    rear_port_position: 35
+  - name: C56
+    type: lc
+    rear_port: LINE
+    rear_port_position: 36
+  - name: C57
+    type: lc
+    rear_port: LINE
+    rear_port_position: 37
+  - name: C58
+    type: lc
+    rear_port: LINE
+    rear_port_position: 38
+  - name: C59
+    type: lc
+    rear_port: LINE
+    rear_port_position: 39
+  - name: C60
+    type: lc
+    rear_port: LINE
+    rear_port_position: 40
+rear-ports:
+  - name: LINE
+    type: lc
+    positions: 40

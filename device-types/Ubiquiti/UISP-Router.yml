@@ -1,0 +1,44 @@
+---
+manufacturer: Ubiquiti
+model: UISP Router
+slug: ubiquiti-uisp-router
+part_number: UISP-R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.32
+weight_unit: lb
+comments: '[UISP Router](https://store.ui.com/collections/operator-isp-infrastructure/products/uisp-router)'
+power-ports:
+  - name: Input 27V
+    type: dc-terminal
+    maximum_draw: 120
+    allocated_draw: 10
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    label: '1'
+  - name: eth1
+    type: 1000base-t
+    label: '2'
+  - name: eth2
+    type: 1000base-t
+    label: '3'
+  - name: eth3
+    type: 1000base-t
+    label: '4'
+  - name: eth4
+    type: 1000base-t
+    label: '5'
+  - name: eth5
+    type: 1000base-t
+    label: '6'
+  - name: eth6
+    type: 1000base-t
+    label: '7'
+  - name: eth7
+    type: 1000base-t
+    label: '8'
+  - name: eth8
+    type: 1000base-x-sfp
+    label: '9'

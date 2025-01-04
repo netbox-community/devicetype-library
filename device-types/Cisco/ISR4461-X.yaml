@@ -1,0 +1,41 @@
+---
+manufacturer: Cisco
+model: ISR4461-X
+part_number: ISR4461-X/K9
+slug: cisco-isr4461-x
+u_height: 3
+is_full_depth: false
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/5
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: aux 0
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 1000
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1000

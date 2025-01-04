@@ -1,0 +1,25 @@
+---
+manufacturer: APC
+model: AP4431
+slug: apc-ap4431
+part_number: AP4431
+u_height: 2
+is_full_depth: false
+comments: Rack ATS, 208V, 30A, (2) L6-30P in, (1) L6-30R Out
+console-ports:
+  - name: Serial
+    type: rj-12
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: Source A
+    type: nema-l6-30p
+  - name: Source B
+    type: nema-l6-30p
+power-outlets:
+  - name: Outlet
+    type: nema-l6-30r
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true

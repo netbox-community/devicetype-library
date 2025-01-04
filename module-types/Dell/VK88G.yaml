@@ -1,0 +1,23 @@
+---
+manufacturer: Dell
+model: VK88G
+part_number: VK88G
+comments: Intel E810-XXVDA4 Quad Port 10 /25GbE SFP28 Adapter, PCIe Full Height\n [Dell Specs](https://www.dell.com/en-hk/shop/intel-e810-xxvda4tg1-quad-port-10-25gbe-sfp28-precision-timing-adapter-pcie-full-height/apd/540-bdjk/networking#techspecs_section)\n
+  [Intel Specs](https://ark.intel.com/content/www/us/en/ark/products/192560/intel-ethernet-network-adapter-e810xxvda4.html)
+interfaces:
+  - name: '{module}-25GbE-0'
+    label: '1'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '{module}-25GbE-1'
+    label: '2'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '{module}-25GbE-2'
+    label: '3'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '{module}-25GbE-3'
+    label: '4'
+    type: 25gbase-x-sfp28
+    mgmt_only: false

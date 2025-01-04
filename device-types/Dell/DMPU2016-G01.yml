@@ -1,0 +1,75 @@
+---
+manufacturer: Dell
+model: DMPU2016-G01
+slug: dell-dmpu2016-g01
+part_number: A7485893
+u_height: 1
+is_full_depth: true
+front_image: true
+rear_image: true
+comments: Dell DMPU2016-G01 16-port remote KVM switch with two remote users, one local user, dual power supply [Manufacturer Part DMPU2016 | Dell Part A7485893
+  | Order Code A7485893 | DELL VERTIV](https://www.dell.com/en-uk/shop/dell-dmpu2016-g01-16-port-remote-kvm-switch-with-two-remote-users-one-local-user-dual-power-supply/apd/a7485893/networking)
+console-ports:
+  - name: PDU1
+    type: rj-45
+  - name: PDU2
+    type: rj-45
+  - name: MODEM
+    type: rj-45
+  - name: SETUP
+    type: rj-45
+  - name: ACI
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+  - name: usb3
+    type: usb-a
+  - name: usb4
+    type: usb-a
+console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 18
+  - name: ps2
+    type: iec-60320-c14
+    maximum_draw: 18
+interfaces:
+  - name: mgmt1
+    type: 1000base-t
+  - name: mgmt2
+    type: 1000base-t

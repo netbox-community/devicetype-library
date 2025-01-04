@@ -1,0 +1,119 @@
+---
+manufacturer: Vertiv
+model: ACS8048SAC
+slug: vertiv-acs8048sac
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: ttyS9
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+  - name: ttyS17
+    type: rj-45
+  - name: ttyS18
+    type: rj-45
+  - name: ttyS19
+    type: rj-45
+  - name: ttyS20
+    type: rj-45
+  - name: ttyS21
+    type: rj-45
+  - name: ttyS22
+    type: rj-45
+  - name: ttyS23
+    type: rj-45
+  - name: ttyS24
+    type: rj-45
+  - name: ttyS25
+    type: rj-45
+  - name: ttyS26
+    type: rj-45
+  - name: ttyS27
+    type: rj-45
+  - name: ttyS28
+    type: rj-45
+  - name: ttyS29
+    type: rj-45
+  - name: ttyS30
+    type: rj-45
+  - name: ttyS31
+    type: rj-45
+  - name: ttyS32
+    type: rj-45
+  - name: ttyS33
+    type: rj-45
+  - name: ttyS34
+    type: rj-45
+  - name: ttyS35
+    type: rj-45
+  - name: ttyS36
+    type: rj-45
+  - name: ttyS37
+    type: rj-45
+  - name: ttyS38
+    type: rj-45
+  - name: ttyS39
+    type: rj-45
+  - name: ttyS40
+    type: rj-45
+  - name: ttyS41
+    type: rj-45
+  - name: ttyS42
+    type: rj-45
+  - name: ttyS43
+    type: rj-45
+  - name: ttyS44
+    type: rj-45
+  - name: ttyS45
+    type: rj-45
+  - name: ttyS46
+    type: rj-45
+  - name: ttyS47
+    type: rj-45
+  - name: ttyS48
+    type: rj-45
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 35
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-t & the other is 1000base-x-sfp.)
+    mgmt_only: true
+  - name: eth1
+    type: 1000base-t
+    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-t & the other is 1000base-x-sfp.)
+    mgmt_only: true

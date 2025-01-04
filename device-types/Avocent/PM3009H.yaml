@@ -1,0 +1,54 @@
+---
+manufacturer: Avocent
+model: PM3009H
+slug: avocent-pm3009h
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: In/Console
+    type: rj-45
+  - name: Out/Aux
+    type: rj-45
+  - name: Sensor 1
+    type: rj-45
+  - name: Sensor 2
+    type: rj-45
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+    maximum_draw: 1800
+power-outlets:
+  - name: PM-1
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-2
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-3
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-4
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-5
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-6
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-7
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-8
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-9
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: PM-10
+    type: iec-60320-c13
+    power_port: Power Port 1
+interfaces:
+  - name: Link
+    type: 1000base-t
+    mgmt_only: true

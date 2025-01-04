@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: Meraki MR53E
+slug: cisco-meraki-mr53e
+part_number: MR53E
+is_full_depth: false
+u_height: 0
+comments: "- Datasheet: [https://meraki.cisco.com/product-collateral/mr53e-datasheet/?file](https://meraki.cisco.com/product-collateral/mr53e-datasheet/?file)\r\
+  \n- IEEE Standards: 802.11ac Wave 2, 802.11a, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, 802.11u"
+interfaces:
+  - name: main
+    type: 2.5gbase-t
+    poe_mode: pd
+  - name: secondary
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

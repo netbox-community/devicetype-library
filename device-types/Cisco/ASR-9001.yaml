@@ -1,0 +1,44 @@
+---
+manufacturer: Cisco
+model: ASR-9001
+slug: cisco-asr-9001
+part_number: ASR-9001
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 16.5
+weight_unit: kg
+comments: '[Cisco ASR 9001 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9001-router/data_sheet_c78-685687.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+module-bays:
+  - name: Slot 0
+    label: Line Card 0
+    position: 0/0/0
+  - name: Slot 1
+    label: Line Card 0
+    position: 0/0/1
+  - name: PM0
+    position: 0/PS0/M0
+    description: Power module
+  - name: PM1
+    position: 0/PS0/M1
+    description: Power module
+  - name: FAN0
+    position: 0/FT0
+    description: Fan tray
+interfaces:
+  - name: MgmtEth0/RSP0/CPU0/0
+    type: 1000base-t
+  - name: MgmtEth0/RSP0/CPU0/1
+    type: 1000base-t
+  - name: TenGigE0/0/2/0
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/2/1
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/2/2
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/2/3
+    type: 10gbase-x-sfpp

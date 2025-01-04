@@ -1,0 +1,16 @@
+---
+manufacturer: HPE
+model: Aruba J9827A
+part_number: J9827A
+comments: HP J9827A Management Module 5400Rzl2
+console-ports:
+  - name: Auxiliary Port
+    type: usb-a
+  - name: Console-RJ45
+    type: rj-45
+  - name: Console-USB
+    type: usb-micro-b
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

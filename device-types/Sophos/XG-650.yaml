@@ -1,0 +1,45 @@
+---
+manufacturer: Sophos
+model: XG 650
+slug: sophos-xg-650
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+console-server-ports:
+  - name: COM
+    type: rj-45
+  - name: Front USB 1
+    type: usb-a
+  - name: Front USB 2
+    type: usb-a
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+interfaces:
+  - name: MGMT 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT 2
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: A
+    position: A
+  - name: B
+    position: B
+  - name: C
+    position: C
+  - name: D
+    position: D
+  - name: Front Hard Disk 1
+    position: FHDD 1
+  - name: Front Hard Disk 2
+    position: FHDD 2
+  - name: Rear Fan 1
+    position: RF 1
+  - name: Rear Fan 2
+    position: RF 2
+  - name: Rear Fan 3
+    position: RF 3

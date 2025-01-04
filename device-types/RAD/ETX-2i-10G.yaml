@@ -1,0 +1,43 @@
+---
+manufacturer: RAD
+model: ETX-2i-10G
+slug: rad-etx-2i-10g
+comments: '[RAD ETX-2i-10G Datasheet](https://www.rad.com/resources/etx-2i-10g-devices-data-sheet)'
+is_full_depth: false
+u_height: 1
+airflow: passive
+interfaces:
+  - name: ETH-1/1
+    type: 10gbase-x-sfpp
+  - name: ETH-1/2
+    type: 10gbase-x-sfpp
+  - name: ETH-1/3
+    type: 10gbase-x-sfpp
+  - name: ETH-1/4
+    type: 10gbase-x-sfpp
+  - name: ETH-1/5
+    type: 1000base-x-sfp
+  - name: ETH-1/6
+    type: 1000base-x-sfp
+  - name: ETH-1/7
+    type: 1000base-x-sfp
+  - name: ETH-1/8
+    type: 1000base-x-sfp
+  - name: ETH-1/9
+    type: 1000base-t
+  - name: ETH-1/10
+    type: 1000base-t
+  - name: ETH-1/11
+    type: 1000base-t
+  - name: ETH-1/12
+    type: 1000base-t
+  - name: MNG-ETH
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: control
+    type: usb-mini-b
+power-ports:
+  - name: power
+    type: iec-60320-c14
+    maximum_draw: 90

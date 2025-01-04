@@ -1,0 +1,20 @@
+---
+manufacturer: Cisco
+model: Meraki MR42
+slug: cisco-meraki-mr42
+part_number: MR42
+u_height: 0.0
+is_full_depth: false
+weight: 25
+weight_unit: oz
+comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR42.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR42.pdf)\r \n- IEEE\
+  \ Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+interfaces:
+  - name: main
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

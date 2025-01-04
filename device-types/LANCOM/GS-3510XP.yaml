@@ -1,0 +1,35 @@
+---
+manufacturer: LANCOM
+model: GS-3510XP
+slug: lancom-gs-3510xp
+part_number: '61849'
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 165
+interfaces:
+  - name: GigabitEthernet 1/1
+    type: 1000base-t
+  - name: GigabitEthernet 1/2
+    type: 1000base-t
+  - name: GigabitEthernet 1/3
+    type: 1000base-t
+  - name: GigabitEthernet 1/4
+    type: 1000base-t
+  - name: 2.5GigabitEthernet 1/5
+    type: 2.5gbase-t
+  - name: 2.5GigabitEthernet 1/6
+    type: 2.5gbase-t
+  - name: 2.5GigabitEthernet 1/7
+    type: 2.5gbase-t
+  - name: 2.5GigabitEthernet 1/8
+    type: 2.5gbase-t
+  - name: 10GigabitEthernet 1/1
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet 1/2
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: com
+    type: rj-45

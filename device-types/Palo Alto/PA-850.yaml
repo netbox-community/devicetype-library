@@ -1,0 +1,57 @@
+---
+manufacturer: Palo Alto
+model: PA-850
+slug: palo-alto-pa-850
+part_number: PA-850
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 13.5
+weight_unit: lb
+front_image: true
+rear_image: true
+comments: '[PA-800 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet)'
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+console-ports:
+  - name: console
+    type: rj-45
+  - name: console USB
+    type: usb-micro-b
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-x-sfp
+  - name: ethernet1/6
+    type: 1000base-x-sfp
+  - name: ethernet1/7
+    type: 1000base-x-sfp
+  - name: ethernet1/8
+    type: 1000base-x-sfp
+  - name: ethernet1/9
+    type: 1000base-x-sfp
+  - name: ethernet1/10
+    type: 1000base-x-sfp
+  - name: ethernet1/11
+    type: 1000base-x-sfp
+  - name: ethernet1/12
+    type: 1000base-x-sfp

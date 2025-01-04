@@ -1,0 +1,24 @@
+---
+manufacturer: Ubiquiti
+model: USG
+slug: ubiquiti-usg
+u_height: 1
+is_full_depth: false
+comments: '[UniFi Security Gateway - Enterprise Gateway Router with Gigabit Ethernet](https://www.ui.com/unifi-routing/usg/)'
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 7
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: eth0
+    label: WAN 1
+    type: 1000base-t
+  - name: eth1
+    label: LAN 1
+    type: 1000base-t
+  - name: eth2
+    label: WAN 2/LAN 2
+    type: 1000base-t

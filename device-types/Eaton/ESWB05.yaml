@@ -1,0 +1,119 @@
+---
+manufacturer: Eaton
+model: ESWB05
+slug: eaton-eswb05
+part_number: ESWB05
+u_height: 0
+is_full_depth: false
+comments: Eaton Switched Rack PDU, ZeroU, 7.4 kW, 200-240V, (20) C13 & (4) C19
+console-ports:
+  - name: Serial or EMP
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+interfaces:
+  - name: Network
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-p-n-e-6h
+power-outlets:
+  - name: A1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A8
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A9
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A11
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A12
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: B1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B8
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B9
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B11
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B12
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B

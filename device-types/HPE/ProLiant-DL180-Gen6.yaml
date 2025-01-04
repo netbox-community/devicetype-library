@@ -1,0 +1,36 @@
+---
+manufacturer: HPE
+model: ProLiant DL180 Gen6
+slug: hpe-proliant-dl180-gen6
+u_height: 2.0
+is_full_depth: true
+part_number: 590638-371
+comments: '[HP ProLiant DL180 G6 QuickSpecs](https://www.hpe.com/psnow/doc/c04284378)'
+weight: 16.80
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,38 @@
+---
+manufacturer: MikroTik
+model: RB2011iL-RM
+slug: mikrotik-rb2011il-rm
+is_full_depth: false
+u_height: 1
+airflow: passive
+comments: '[RB2011iL-RM Datasheet](https://mikrotik.com/product/RB2011iL-RM)'
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 100base-tx
+  - name: ether7
+    type: 100base-tx
+  - name: ether8
+    type: 100base-tx
+  - name: ether9
+    type: 100base-tx
+  - name: ether10
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 16
+    allocated_draw: 6

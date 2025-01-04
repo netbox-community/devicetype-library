@@ -1,0 +1,72 @@
+---
+manufacturer: Fortinet
+model: FortiGate 100D
+slug: fortinet-fg-100d
+part_number: FG-100D
+u_height: 1.0
+weight: 4300
+weight_unit: g
+airflow: front-to-rear
+is_full_depth: false
+front_image: true
+rear_image: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: DC Input for RPS
+    type: dc-terminal
+    maximum_draw: 63
+    allocated_draw: 53
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 63
+    allocated_draw: 53
+interfaces:
+  - name: dmz
+    type: 1000base-t
+  - name: ha1
+    type: 1000base-t
+  - name: ha2
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-x-sfp
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: port16
+    type: 1000base-x-sfp
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t

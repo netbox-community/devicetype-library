@@ -1,0 +1,18 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT 5000VA RM 208/230V HW
+slug: apc-smart-ups-srt-5000va-rm-208-230v-hw
+part_number: SRT5KRMXLW-HW
+u_height: 3
+is_full_depth: true
+comments: All power ports and outlets are hardwired
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: UPS Input
+    type: hardwired
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: true

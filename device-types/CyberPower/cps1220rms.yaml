@@ -1,0 +1,49 @@
+---
+manufacturer: CyberPower
+model: CPS-1220RMS
+slug: cyberpower-cps-1220rms
+part_number: cps1220rms
+u_height: 1
+is_full_depth: false
+# comments: CyberPower PDU 1u, 12 outlet 20A 100-125V
+power-ports:
+  - name: Power Port 1
+    type: nema-5-20p
+    maximum_draw: 1800
+power-outlets:
+  - name: Front Outlet 1
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Front Outlet 2
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 1
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 2
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 3
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 4
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 5
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 6
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 7
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 8
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 9
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: Rear Outlet 10
+    type: nema-5-20r
+    power_port: Power Port 1

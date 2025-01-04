@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: DN2-HW-APL
+slug: cisco-dn2-hw-apl
+part_number: DN2-HW-APL
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+power-ports:
+  - name: PS-0
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: eno1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: eno2
+    type: 10gbase-t
+  - name: enp94s0f0
+    type: 10gbase-t
+    mgmt_only: true
+  - name: enp94s0f1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,83 @@
+---
+manufacturer: Palo Alto
+model: PA-5220
+slug: palo-alto-pa-5220
+part_number: PA-5220
+u_height: 3
+is_full_depth: true
+front_image: true
+rear_image: true
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 685
+    allocated_draw: 571
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 685
+    allocated_draw: 571
+interfaces:
+  - name: ethernet1/1
+    type: 10gbase-t
+  - name: ethernet1/2
+    type: 10gbase-t
+  - name: ethernet1/3
+    type: 10gbase-t
+  - name: ethernet1/4
+    type: 10gbase-t
+  - name: ethernet1/5
+    type: 10gbase-x-sfpp
+  - name: ethernet1/6
+    type: 10gbase-x-sfpp
+  - name: ethernet1/7
+    type: 10gbase-x-sfpp
+  - name: ethernet1/8
+    type: 10gbase-x-sfpp
+  - name: ethernet1/9
+    type: 10gbase-x-sfpp
+  - name: ethernet1/10
+    type: 10gbase-x-sfpp
+  - name: ethernet1/11
+    type: 10gbase-x-sfpp
+  - name: ethernet1/12
+    type: 10gbase-x-sfpp
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/22
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/23
+    type: 40gbase-x-qsfpp
+  - name: ethernet1/24
+    type: 40gbase-x-qsfpp
+  - name: aux-1
+    type: 10gbase-x-sfpp
+  - name: aux-2
+    type: 10gbase-x-sfpp
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 40gbase-x-qsfpp
+  - name: management
+    type: 1000base-t
+    mgmt_only: true

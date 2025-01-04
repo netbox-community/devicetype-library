@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: Meraki MS120-8
+slug: cisco-meraki-ms120-8
+part_number: MS120-8-HW
+u_height: 1
+is_full_depth: false
+comments: '[MS120 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS120_Overview_and_Specifications)'
+power-ports:
+  - name: Slot 1
+    type: dc-terminal
+    allocated_draw: 5
+    maximum_draw: 9
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-x-sfp
+  - name: Port 10
+    type: 1000base-x-sfp

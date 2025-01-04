@@ -1,0 +1,36 @@
+---
+manufacturer: NEC
+model: UNIVERGE IX2025
+slug: nec-univerge-ix2025
+comments: |
+  NEC UNIVERGE IX2025, 9W
+  (1) RJ-45 Console Port, (2) Ethernet 100BASE-TX, (4) Ethernet 100BASE-TX in Switching Hub, (1) ISDN LINE interface, (1) ISDN S/T interface
+
+  Dimentions(WxDxH in mm): 210x297x43
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: FastEthernet0
+    type: 100base-tx
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2 port 1
+    type: 100base-tx
+  - name: FastEthernet2 port 2
+    type: 100base-tx
+  - name: FastEthernet2 port 3
+    type: 100base-tx
+  - name: FastEthernet2 port 4
+    type: 100base-tx
+  - name: BRI0 port LINE
+    type: other
+  - name: BRI0 port S/T
+    type: other
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 9
+    allocated_draw: 9

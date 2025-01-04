@@ -1,0 +1,73 @@
+---
+manufacturer: WTI
+model: VMR-16HD20-2
+slug: wti-vmr-16hd20-2
+airflow: passive
+part_number: VMR-16HD20-2
+is_full_depth: false
+u_height: 2
+# comments: WTI VMR 2U, 1 ethernet, 16 outlet 20A 120V
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+console-server-ports:
+  - name: port1
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+power-outlets:
+  - name: Outlet_A1
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A2
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A3
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A4
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A5
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A6
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A7
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_A8
+    type: iec-60320-c13
+    power_port: PS1
+  - name: Outlet_B1
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B2
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B3
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B4
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B5
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B6
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B7
+    type: iec-60320-c13
+    power_port: PS2
+  - name: Outlet_B8
+    type: iec-60320-c13
+    power_port: PS2

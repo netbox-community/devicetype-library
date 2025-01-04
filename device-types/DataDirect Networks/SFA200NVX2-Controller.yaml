@@ -1,0 +1,30 @@
+---
+manufacturer: DataDirect Networks
+model: SFA200NVX2 Controller
+slug: datadirect-networks-sfa200nvx2-controller
+comments: Controller for SFA200NVX2
+part_number: CTLR-200NVX2E
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+subdevice_role: child
+console-ports:
+  - name: Console
+    type: other
+    description: 3.5mm stereo jack
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Mgmt 0
+    type: 10gbase-t
+    mgmt_only: true
+  - name: Mgmt 1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: RP0 Port0
+    type: infiniband-hdr
+    description: HDR200 or 200GbE
+  - name: RP0 Port1
+    type: infiniband-hdr
+    description: HDR200 or 200GbE

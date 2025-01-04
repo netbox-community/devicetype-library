@@ -1,0 +1,22 @@
+---
+manufacturer: Deciso
+model: DEC600
+part_number: DEC600
+slug: deciso-dec600
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: usb-mini-b
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 184
+    allocated_draw: 15

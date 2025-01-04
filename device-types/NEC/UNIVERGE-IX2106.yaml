@@ -1,0 +1,31 @@
+---
+manufacturer: NEC
+model: UNIVERGE IX2106
+slug: nec-univerge-ix2106
+part_number: BI000087
+comments: |
+  NEC UNIVERGE IX2106, VPN-Compatible High speed Access Router, 7W
+  (1) RJ-45 Console Port, (1) Ethernet 1000BASE-T, (4) Ethernet 1000BASE-T in Switching Hub
+
+  Dimentions(WxDxH in mm): 135x196x36
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: GigaEthernet0
+    type: 1000base-t
+  - name: GigaEthernet1 port 1
+    type: 1000base-t
+  - name: GigaEthernet1 port 2
+    type: 1000base-t
+  - name: GigaEthernet1 port 3
+    type: 1000base-t
+  - name: GigaEthernet1 port 4
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 7
+    allocated_draw: 7

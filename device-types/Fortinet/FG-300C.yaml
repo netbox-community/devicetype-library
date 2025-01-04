@@ -1,0 +1,41 @@
+---
+manufacturer: Fortinet
+model: FortiGate 300C
+slug: fortinet-fg-300c
+part_number: FG-300C
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: false
+weight: 5.9
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 154
+    allocated_draw: 110
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t

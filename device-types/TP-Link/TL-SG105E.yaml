@@ -1,0 +1,24 @@
+---
+manufacturer: TP-Link
+model: TL-SG105E
+slug: tp-link-tl-sg105e
+part_number: TL-SG105E
+comments: '[TP-Link TL-SG105E](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg105e/#specifications)'
+is_full_depth: false
+u_height: 0
+airflow: passive
+power-ports:
+  - name: External Power Adapter
+    type: dc-terminal
+    maximum_draw: 4
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t

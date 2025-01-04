@@ -1,0 +1,43 @@
+---
+manufacturer: APC
+model: AP7921B
+slug: apc-ap7921b
+part_number: AP7921B
+u_height: 1
+is_full_depth: false
+comments: Rack PDU, Switched, 1U, 16A, 208/230V, (8)C13
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: true

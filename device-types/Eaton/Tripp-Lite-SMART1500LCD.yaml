@@ -1,0 +1,41 @@
+---
+manufacturer: Eaton
+model: Tripp Lite SMART1500LCD
+slug: eaton-tripp-lite-smart1500lcd
+part_number: '037332126146'
+u_height: 2
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 30
+weight_unit: lb
+comments: |
+  Battery-backed power supply feeding 8 Nema-5-15R receptables
+
+  Dimensions: 438 x 89 x 267 mm (17.25" x 3.5" x 10.5") Weight: 13.6 kg
+console-ports:
+  - name: RS232
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Primary
+    type: nema-5-15p
+    maximum_draw: 1000
+power-outlets:
+  - name: '1'
+    type: nema-5-15r
+  - name: '2'
+    type: nema-5-15r
+  - name: '3'
+    type: nema-5-15r
+  - name: '4'
+    type: nema-5-15r
+  - name: '5'
+    type: nema-5-15r
+  - name: '6'
+    type: nema-5-15r
+  - name: '7'
+    type: nema-5-15r
+  - name: '8'
+    type: nema-5-15r

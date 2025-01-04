@@ -1,0 +1,24 @@
+---
+manufacturer: Zyxel
+model: FMG3005-R20A
+slug: zyxel-fmg3005-r20a
+part_number: FMG3005-R20A
+u_height: 0
+weight: 150
+weight_unit: g
+is_full_depth: false
+airflow: passive
+comments: '[FMG3005-R20A series specs](https://service-provider.zyxel.com/global/en/products/fiber-oltsonts/active-fiber/sfus/fmg3005-r20a) factory default
+  settings (LAN IP address 192.168.1.1, user name2admin and password 1234)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12 V DC, 0.5 A
+interfaces:
+  - name: PON
+    label: PON
+    type: gpon
+  - name: LAN
+    label: LAN
+    type: 1000base-t

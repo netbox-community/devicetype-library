@@ -1,0 +1,24 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Application Server
+slug: ubiquiti-unifi-application-server
+part_number: UAS-XG
+comments: |
+  10G Rack-Mountable UniFi Application Server, (2) 1/10G LAN, (1) 1G IPMI LAN, (1) VGA rear, (2) USB 3.0 rear, (2) USB 2.0 front
+
+  Dimensions: 442.4 x 43.7 x 305.5 mm (17.42 x 1.72 x 12.03")
+u_height: 1
+is_full_depth: true
+interfaces:
+  - name: IPMI LAN
+    type: 1000base-t
+    mgmt_only: true
+  - name: LAN1
+    type: 10gbase-t
+  - name: LAN2
+    type: 10gbase-t
+power-ports:
+  - name: Supply
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 60

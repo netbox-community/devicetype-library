@@ -1,0 +1,116 @@
+---
+manufacturer: WTI
+model: CPM-1600-1-EC
+slug: wti-cpm-1600-1-ec
+airflow: passive
+part_number: CPM-1600-1-EC
+is_full_depth: false
+u_height: 2
+# comments: WTI CPM 2U, 2 ethernet, 16 outlet 120V, 16 serial ports
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+  - name: ETH1
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: usb-mini-b
+console-server-ports:
+  - name: port1
+    type: rj-45
+  - name: port2
+    type: rj-45
+  - name: port3
+    type: rj-45
+  - name: port4
+    type: rj-45
+  - name: port5
+    type: rj-45
+  - name: port6
+    type: rj-45
+  - name: port7
+    type: rj-45
+  - name: port8
+    type: rj-45
+  - name: port9
+    type: rj-45
+  - name: port10
+    type: rj-45
+  - name: port11
+    type: rj-45
+  - name: port12
+    type: rj-45
+  - name: port13
+    type: rj-45
+  - name: port14
+    type: rj-45
+  - name: port15
+    type: rj-45
+  - name: port16
+    type: rj-45
+power-ports:
+  - name: A1-A4
+    type: iec-60320-c20
+    maximum_draw: 14
+    allocated_draw: 7
+  - name: A5-A8
+    type: iec-60320-c20
+    maximum_draw: 14
+    allocated_draw: 7
+  - name: B1-B4
+    type: iec-60320-c20
+    maximum_draw: 14
+    allocated_draw: 7
+  - name: B5-B8
+    type: iec-60320-c20
+    maximum_draw: 14
+    allocated_draw: 7
+power-outlets:
+  - name: Outlet_A1
+    type: nema-5-15r
+    power_port: A1-A4
+  - name: Outlet_A2
+    type: nema-5-15r
+    power_port: A1-A4
+  - name: Outlet_A3
+    type: nema-5-15r
+    power_port: A1-A4
+  - name: Outlet_A4
+    type: nema-5-15r
+    power_port: A1-A4
+  - name: Outlet_A5
+    type: nema-5-15r
+    power_port: A5-A8
+  - name: Outlet_A6
+    type: nema-5-15r
+    power_port: A5-A8
+  - name: Outlet_A7
+    type: nema-5-15r
+    power_port: A5-A8
+  - name: Outlet_A8
+    type: nema-5-15r
+    power_port: A5-A8
+  - name: Outlet_B1
+    type: nema-5-15r
+    power_port: B1-B4
+  - name: Outlet_B2
+    type: nema-5-15r
+    power_port: B1-B4
+  - name: Outlet_B3
+    type: nema-5-15r
+    power_port: B1-B4
+  - name: Outlet_B4
+    type: nema-5-15r
+    power_port: B1-B4
+  - name: Outlet_B5
+    type: nema-5-15r
+    power_port: B5-B8
+  - name: Outlet_B6
+    type: nema-5-15r
+    power_port: B5-B8
+  - name: Outlet_B7
+    type: nema-5-15r
+    power_port: B5-B8
+  - name: Outlet_B8
+    type: nema-5-15r
+    power_port: B5-B8

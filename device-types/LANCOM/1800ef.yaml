@@ -1,0 +1,30 @@
+---
+manufacturer: LANCOM
+model: 1800EF
+slug: lancom-1800ef
+part_number: '62138'
+u_height: 0
+is_full_depth: false
+weight: 450
+weight_unit: g
+comments: '[LANCOM 1800EF Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-1800EF/DS_1800EF_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 15
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: WAN
+    type: 1000base-t
+  - name: SFP
+    type: 1000base-x-sfp
+console-ports:
+  - name: usb
+    type: usb-c

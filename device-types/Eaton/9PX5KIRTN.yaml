@@ -1,0 +1,57 @@
+---
+manufacturer: Eaton
+model: 9PX5KIRTN
+slug: eaton-9px5kirtn
+u_height: 3
+is_full_depth: true
+comments: 9PX5KIRTN 5kVA 230V Tower/Rack Mountable UPS [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9sx-9px-ups-5-6-kva-ebm-180v-installation-and-user-manual.pdf)
+power-outlets:
+  - name: Primary Group Hardwired
+    type: hardwired
+    power_port: AC Source
+  - name: Primary Group - Output 1
+    type: iec-60320-c19
+    power_port: AC Source
+  - name: Primary Group - Output 2
+    type: iec-60320-c19
+    power_port: AC Source
+  - name: Group 1 - Output 1
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 1 - Output 2
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 1 - Output 3
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 1 - Output 4
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 2 - Output 1
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 2 - Output 2
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 2 - Output 3
+    type: iec-60320-c13
+    power_port: AC Source
+  - name: Group 2 - Output 4
+    type: iec-60320-c13
+    power_port: AC Source
+power-ports:
+  - name: AC Source
+    type: hardwired
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Battery connector
+    type: other
+  - name: Battery detection
+    type: other
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB management
+    type: usb-b

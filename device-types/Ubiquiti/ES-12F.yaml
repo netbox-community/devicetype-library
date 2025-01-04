@@ -1,0 +1,51 @@
+---
+manufacturer: Ubiquiti
+model: ES-12F
+slug: ubiquiti-es-12f
+u_height: 1
+is_full_depth: false
+comments: '[EdgeSwitch 12 Fiber - Managed Gigabit Fiber Switch](https://www.ui.com/edgemax/edgeswitch-12f/)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: AC
+    type: iec-60320-c14
+    maximum_draw: 56
+    description: 100-240VAC/50-60 Hz
+  - name: 25VDC
+    type: dc-terminal
+    maximum_draw: 56
+interfaces:
+  - name: 0/1
+    type: 1000base-x-sfp
+  - name: 0/2
+    type: 1000base-x-sfp
+  - name: 0/3
+    type: 1000base-x-sfp
+  - name: 0/4
+    type: 1000base-x-sfp
+  - name: 0/5
+    type: 1000base-x-sfp
+  - name: 0/6
+    type: 1000base-x-sfp
+  - name: 0/7
+    type: 1000base-x-sfp
+  - name: 0/8
+    type: 1000base-x-sfp
+  - name: 0/9
+    type: 1000base-x-sfp
+  - name: 0/10
+    type: 1000base-x-sfp
+  - name: 0/11
+    type: 1000base-x-sfp
+  - name: 0/12
+    type: 1000base-x-sfp
+  - name: 0/13
+    type: 1000base-t
+  - name: 0/14
+    type: 1000base-t
+  - name: 0/15
+    type: 1000base-t
+  - name: 0/16
+    type: 1000base-t

@@ -1,0 +1,22 @@
+---
+manufacturer: Deciso
+model: DEC2640
+part_number: DEC2640
+slug: deciso-dec2640
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+console-ports:
+  - name: Console
+    type: usb-mini-b
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14

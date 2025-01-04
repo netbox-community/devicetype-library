@@ -1,0 +1,39 @@
+---
+manufacturer: Vertiv
+model: ACS8008SAC
+slug: vertiv-acs8008sac
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 35
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-t & the other is 1000base-x-sfp.)
+    mgmt_only: true
+  - name: eth1
+    type: 1000base-t
+    # comments: shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-t & the other is 1000base-x-sfp.)
+    mgmt_only: true

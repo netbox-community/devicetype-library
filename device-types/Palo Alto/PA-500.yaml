@@ -1,0 +1,39 @@
+---
+manufacturer: Palo Alto
+model: PA-500
+slug: palo-alto-pa-500
+part_number: PA-500
+u_height: 1
+is_full_depth: false
+front_image: true
+comments: '[PA-500 Series Datasheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-500-specsheet)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 75
+    allocated_draw: 40
+interfaces:
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: loopback
+    type: virtual

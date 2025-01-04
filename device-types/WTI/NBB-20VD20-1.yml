@@ -1,0 +1,65 @@
+---
+manufacturer: WTI
+model: NBB-20VD20-1
+slug: wti-nbb-20vd20-1
+airflow: passive
+part_number: NBB-20VD20-1
+is_full_depth: false
+u_height: 0
+# comments: WTI NBB 0U, 1 ethernet, 20 outlet 20A 120V
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+console-server-ports:
+  - name: port1
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+power-outlets:
+  - name: Outlet_A1
+    type: nema-5-15r
+  - name: Outlet_A2
+    type: nema-5-15r
+  - name: Outlet_A3
+    type: nema-5-15r
+  - name: Outlet_A4
+    type: nema-5-15r
+  - name: Outlet_A5
+    type: nema-5-15r
+  - name: Outlet_A6
+    type: nema-5-15r
+  - name: Outlet_A7
+    type: nema-5-15r
+  - name: Outlet_A8
+    type: nema-5-15r
+  - name: Outlet_A9
+    type: nema-5-15r
+  - name: Outlet_A10
+    type: nema-5-15r
+  - name: Outlet_A11
+    type: nema-5-15r
+  - name: Outlet_A12
+    type: nema-5-15r
+  - name: Outlet_A13
+    type: nema-5-15r
+  - name: Outlet_A14
+    type: nema-5-15r
+  - name: Outlet_A15
+    type: nema-5-15r
+  - name: Outlet_A16
+    type: nema-5-15r
+  - name: Outlet_A17
+    type: nema-5-15r
+  - name: Outlet_A18
+    type: nema-5-15r
+  - name: Outlet_A19
+    type: nema-5-15r
+  - name: Outlet_A20
+    type: nema-5-15r

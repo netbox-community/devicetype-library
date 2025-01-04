@@ -1,0 +1,17 @@
+---
+manufacturer: Ubiquiti
+model: AC Mesh
+part_number: UAP-AC-M
+slug: ubiquiti-uap-ac-m
+u_height: 0
+is_full_depth: false
+comments: |
+  [Access Point AC Mesh](https://store.ui.com/collections/wireless/products/unifi-ac-mesh-ap)
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

@@ -1,0 +1,64 @@
+---
+manufacturer: Juniper
+model: SRX340
+slug: juniper-srx340
+part_number: SRX340-SYS-JB
+u_height: 1
+weight: 10.80
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Juniper SRX300 Series Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx300-line-services-gateways-branch-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 122
+    allocated_draw: 122
+module-bays:
+  - name: PIM 0
+    position: '0'
+  - name: PIM 1
+    position: '1'
+  - name: PIM 2
+    position: '2'
+  - name: PIM 3
+    position: '3'
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+  - name: ge-0/0/0
+    type: 1000base-t
+  - name: ge-0/0/1
+    type: 1000base-t
+  - name: ge-0/0/2
+    type: 1000base-t
+  - name: ge-0/0/3
+    type: 1000base-t
+  - name: ge-0/0/4
+    type: 1000base-t
+  - name: ge-0/0/5
+    type: 1000base-t
+  - name: ge-0/0/6
+    type: 1000base-t
+  - name: ge-0/0/7
+    type: 1000base-t
+  - name: ge-0/0/8
+    type: 1000base-x-sfp
+  - name: ge-0/0/9
+    type: 1000base-x-sfp
+  - name: ge-0/0/10
+    type: 1000base-x-sfp
+  - name: ge-0/0/11
+    type: 1000base-x-sfp
+  - name: ge-0/0/12
+    type: 1000base-x-sfp
+  - name: ge-0/0/13
+    type: 1000base-x-sfp
+  - name: ge-0/0/14
+    type: 1000base-x-sfp
+  - name: ge-0/0/15
+    type: 1000base-x-sfp

@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: Aironet 1852I-E
+slug: cisco-air-ap1852i-e-k9
+part_number: AIR-AP1852I-E-K9
+comments: '[Cisco Aironet 1850 Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-1850-series-access-points/datasheet-c78-734256.html#Productspecifications)'
+u_height: 0
+is_full_depth: false
+weight: 1.4
+weight_unit: kg
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11n
+  - name: Dot11Radio1
+    type: ieee802.11ac
+  - name: GigabitEthernet0
+    type: 1000base-t
+    poe_mode: pd
+  - name: LAN1
+    type: 1000base-t
+console-ports:
+  - name: console
+    type: rj-45

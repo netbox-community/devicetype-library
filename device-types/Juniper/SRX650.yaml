@@ -1,0 +1,44 @@
+---
+manufacturer: Juniper
+model: SRX650
+slug: juniper-srx650
+u_height: 2
+is_full_depth: false
+comments: |
+  [Juniper SRX650 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx-series-services-gateways-branch-datasheet.pdf)
+
+  [Juniper SRX650 Chassis Data](https://www.juniper.net/documentation/en_US/release-independent/junos/topics/concept/chassis-srx650.html)
+interfaces:
+  - name: ge-0/0/0
+    type: 1000base-t
+  - name: ge-0/0/1
+    type: 1000base-t
+  - name: ge-0/0/2
+    type: 1000base-t
+  - name: ge-0/0/3
+    type: 1000base-t
+module-bays:
+  - name: PIM1
+    # Comment: PIM 1 ()
+  - name: PIM2
+    # Comment: PIM 2 (10-gigabit XPIM,PoE Capable)
+  - name: PIM3
+    # Comment: PIM 3 ()
+  - name: PIM4
+    # Comment: PIM 4 (PoE Capable)
+  - name: PIM5
+    # Comment: PIM 5 (SATA High-Disk)
+  - name: PIM6
+    # Comment: PIM 6 (10-gigabit XPIM,PoE Capable)
+  - name: PIM7
+    # Comment: PIM 7 (SATA High-Disk)
+  - name: PIM8
+    # Comment: PIM 8 (PoE Capable)
+  - name: SRE0
+    # Comment: Services and Routing Engine 0
+  - name: SRE1
+    # Comment: Services and Routing Engine 1
+  - name: PSU0
+    # Comment: Power Supply 0
+  - name: PSU1
+    # Comment: Power Supply 1

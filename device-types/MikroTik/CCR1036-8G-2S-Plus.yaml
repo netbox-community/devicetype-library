@@ -1,0 +1,38 @@
+---
+manufacturer: MikroTik
+model: CCR1036-8G-2S+
+slug: mikrotik-ccr1036-8g-2s-plus
+is_full_depth: false
+u_height: 1
+airflow: front-to-rear
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 73
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 73

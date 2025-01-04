@@ -1,0 +1,43 @@
+---
+manufacturer: CyberPower
+model: OR2200LCDRT2U
+slug: cyberpower-or2200lcdrt2u
+u_height: 2
+is_full_depth: true
+# comments: Smart App LCD 2200va UPS
+power-ports:
+  - name: AC Input
+    type: nema-5-20p
+    maximum_draw: 1320
+power-outlets:
+  - name: Right Top 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Right Top 2
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Right Bottom 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Right Bottom 2
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left Top 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left Top 2
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left Bottom 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left Bottom 2
+    type: nema-5-20r
+    power_port: AC Input
+console-ports:
+  - name: Serial Port I
+    type: de-9
+  - name: Serial Port II
+    type: de-9
+  - name: USB
+    type: usb-b

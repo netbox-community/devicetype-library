@@ -1,0 +1,81 @@
+---
+manufacturer: Cisco
+model: ASR-920-24SZ-M
+slug: cisco-asr-920-24sz-m
+part_number: ASR-920-24SZ-M
+is_full_depth: false
+u_height: 1
+airflow: front-to-rear
+comments: '[Cisco ASR 920 Series Aggregation Services Routers: High-Port-Density Models Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-733397.html)'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c16
+    maximum_draw: 145
+  - name: PSU1
+    type: iec-60320-c16
+    maximum_draw: 145
+console-ports:
+  - name: Console
+    type: usb-a
+  - name: USB CON
+    type: usb-a
+interfaces:
+  - name: Gi0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gi0/0/0
+    type: 1000base-x-sfp
+  - name: Gi0/0/1
+    type: 1000base-x-sfp
+  - name: Gi0/0/2
+    type: 1000base-x-sfp
+  - name: Gi0/0/3
+    type: 1000base-x-sfp
+  - name: Gi0/0/4
+    type: 1000base-x-sfp
+  - name: Gi0/0/5
+    type: 1000base-x-sfp
+  - name: Gi0/0/6
+    type: 1000base-x-sfp
+  - name: Gi0/0/7
+    type: 1000base-x-sfp
+  - name: Gi0/0/8
+    type: 1000base-x-sfp
+  - name: Gi0/0/9
+    type: 1000base-x-sfp
+  - name: Gi0/0/10
+    type: 1000base-x-sfp
+  - name: Gi0/0/11
+    type: 1000base-x-sfp
+  - name: Gi0/0/12
+    type: 1000base-x-sfp
+  - name: Gi0/0/13
+    type: 1000base-x-sfp
+  - name: Gi0/0/14
+    type: 1000base-x-sfp
+  - name: Gi0/0/15
+    type: 1000base-x-sfp
+  - name: Gi0/0/16
+    type: 1000base-x-sfp
+  - name: Gi0/0/17
+    type: 1000base-x-sfp
+  - name: Gi0/0/18
+    type: 1000base-x-sfp
+  - name: Gi0/0/19
+    type: 1000base-x-sfp
+  - name: Gi0/0/20
+    type: 1000base-x-sfp
+  - name: Gi0/0/21
+    type: 1000base-x-sfp
+  - name: Gi0/0/22
+    type: 1000base-x-sfp
+  - name: Gi0/0/23
+    type: 1000base-x-sfp
+  - name: Te0/0/24
+    type: 10gbase-x-sfpp
+  - name: Te0/0/25
+    type: 10gbase-x-sfpp
+  - name: Te0/0/26
+    type: 10gbase-x-sfpp
+  - name: Te0/0/27
+    type: 10gbase-x-sfpp

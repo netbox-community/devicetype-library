@@ -1,0 +1,32 @@
+---
+manufacturer: Riverbed
+model: CX555
+slug: riverbed-cx555
+part_number: CX555
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: other
+  - name: USB0
+    type: usb-a
+  - name: USB1
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 45
+    maximum_draw: 100
+interfaces:
+  - name: LAN0_0
+    type: 1000base-t
+  - name: WAN0_0
+    type: 1000base-t
+  - name: LAN_0_1
+    type: 1000base-t
+  - name: WAN0_1
+    type: 1000base-t
+  - name: Primary
+    type: 1000base-t
+  - name: Aux
+    type: 1000base-t

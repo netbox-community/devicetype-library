@@ -1,0 +1,48 @@
+---
+manufacturer: Eaton
+model: Tripp Lite SMART2200CRMXL
+slug: eaton-tripp-lite-smart2200crmxl
+part_number: '037332142368'
+u_height: 4
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 100.3
+weight_unit: lb
+comments: Battery-backed power supply feeding 8 Nema-5-20R receptables
+console-ports:
+  - name: COM 1
+    type: usb-b
+  - name: COM 2
+    type: de-9
+power-ports:
+  - name: Primary
+    type: nema-5-20p
+    maximum_draw: 1920
+power-outlets:
+  - name: Load 1
+    description: Output Power Breaker 1
+    type: nema-5-20r
+  - name: Load 2
+    description: Output Power Breaker 1
+    type: nema-5-20r
+  - name: Load 3
+    description: Output Power Breaker 2
+    type: nema-5-20r
+  - name: Load 4 Unswitched 1
+    description: Output Power Breaker 1
+    type: nema-5-20r
+  - name: Load 4 Unswitched 2
+    description: Output Power Breaker 1
+    type: nema-5-20r
+  - name: Load 4 Unswitched 3
+    description: Output Power Breaker 2
+    type: nema-5-20r
+  - name: Load 4 Unswitched 4
+    description: Output Power Breaker 2
+    type: nema-5-20r
+  - name: Load 4 Unswitched 5
+    description: Output Power Breaker 2
+    type: nema-5-20r
+module-bays:
+  - name: Accessory Slot

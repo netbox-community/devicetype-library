@@ -1,0 +1,38 @@
+---
+manufacturer: YAMAHA
+model: SWX2110P-8G
+slug: yamaha-swx2110p-8g
+u_height: 1
+comments: |
+  "Simple" PoE-compatible Layer 2 Switch, manufactured by YAMAHA.
+  https://network.yamaha.com/products/switches/swx2110p-10g/index
+is_full_depth: false
+interfaces:
+  - name: port1.1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: port1.5
+    type: 1000base-t
+  - name: port1.6
+    type: 1000base-t
+  - name: port1.7
+    type: 1000base-t
+  - name: port1.8
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 84

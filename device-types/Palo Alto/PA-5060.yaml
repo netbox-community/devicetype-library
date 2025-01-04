@@ -1,0 +1,75 @@
+---
+manufacturer: Palo Alto
+model: PA-5060
+slug: palo-alto-pa-5060
+part_number: PA-5060
+u_height: 2
+is_full_depth: true
+front_image: true
+comments: '[PA-5000 Series Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-5000-series-specsheet)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: ethernet1/9
+    type: 1000base-t
+  - name: ethernet1/10
+    type: 1000base-t
+  - name: ethernet1/11
+    type: 1000base-t
+  - name: ethernet1/12
+    type: 1000base-t
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
+    type: 1000base-x-sfp
+  - name: ethernet1/17
+    type: 1000base-x-sfp
+  - name: ethernet1/18
+    type: 1000base-x-sfp
+  - name: ethernet1/19
+    type: 1000base-x-sfp
+  - name: ethernet1/20
+    type: 1000base-x-sfp
+  - name: ethernet1/21
+    type: 10gbase-x-sfpp
+  - name: ethernet1/22
+    type: 10gbase-x-sfpp
+  - name: ethernet1/23
+    type: 10gbase-x-sfpp
+  - name: ethernet1/24
+    type: 10gbase-x-sfpp
+  - name: loopback
+    type: virtual

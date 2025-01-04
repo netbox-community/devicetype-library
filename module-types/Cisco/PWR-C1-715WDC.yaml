@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: PWR-C1-715WDC
+part_number: PWR-C1-715WDC
+comments: 715W DC Power Supply / [Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)
+weight: 1.3
+weight_unit: kg
+power-ports:
+  - name: PS-{module}
+    type: dc-terminal
+    maximum_draw: 715

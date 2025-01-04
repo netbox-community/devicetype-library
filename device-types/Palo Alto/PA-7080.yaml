@@ -1,0 +1,39 @@
+---
+manufacturer: Palo Alto
+model: PA-7080
+slug: palo-alto-pa-7080
+part_number: PA-7080
+u_height: 19
+is_full_depth: true
+front_image: true
+rear_image: true
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+  - name: PS2
+    type: iec-60320-c20
+  - name: PS3
+    type: iec-60320-c20
+  - name: PS4
+    type: iec-60320-c20
+  - name: PS5
+    type: iec-60320-c20
+  - name: PS6
+    type: iec-60320-c20
+  - name: PS7
+    type: iec-60320-c20
+  - name: PS8
+    type: iec-60320-c20
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp

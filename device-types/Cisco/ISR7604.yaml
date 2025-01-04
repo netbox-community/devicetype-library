@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: ISR7604
+part_number: ISR7604/K9
+slug: cisco-isr7604
+u_height: 5
+is_full_depth: true
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 2700
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 2700

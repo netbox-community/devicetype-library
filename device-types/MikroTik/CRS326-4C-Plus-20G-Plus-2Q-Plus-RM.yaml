@@ -1,0 +1,88 @@
+---
+manufacturer: MikroTik
+model: CRS326-4C+20G+2Q+RM
+slug: mikrotik-crs326-4c-plus-20g-plus-2q-plus-rm
+part_number: CRS326-4C+20G+2Q+RM
+is_full_depth: false
+airflow: mixed
+u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/crs326_4c_20g_2q_rm)
+
+  Our top-of-the-line switch with incredible 2.5 Gigabit port density,
+  combo ports, and even a pair of 40 Gbps QSFP+ cages. Enterprise-level
+  gamechanger... for the price of a smartphone!
+
+  Note: The combo ports can run in either mode of (F) 10G (SFP+) or
+  (T) 2.5GBASE-T (2.5GE) mode.
+front_image: false
+rear_image: false
+is_powered: true
+interfaces:
+  - name: combo1
+    type: 10gbase-x-sfpp
+  - name: combo2
+    type: 10gbase-x-sfpp
+  - name: combo3
+    type: 10gbase-x-sfpp
+  - name: combo4
+    type: 10gbase-x-sfpp
+  - name: ether1
+    type: 2.5gbase-t
+  - name: ether2
+    type: 2.5gbase-t
+  - name: ether3
+    type: 2.5gbase-t
+  - name: ether4
+    type: 2.5gbase-t
+  - name: ether5
+    type: 2.5gbase-t
+  - name: ether6
+    type: 2.5gbase-t
+  - name: ether7
+    type: 2.5gbase-t
+  - name: ether8
+    type: 2.5gbase-t
+  - name: ether9
+    type: 2.5gbase-t
+  - name: ether10
+    type: 2.5gbase-t
+  - name: ether11
+    type: 2.5gbase-t
+  - name: ether12
+    type: 2.5gbase-t
+  - name: ether13
+    type: 2.5gbase-t
+  - name: ether14
+    type: 2.5gbase-t
+  - name: ether15
+    type: 2.5gbase-t
+  - name: ether16
+    type: 2.5gbase-t
+  - name: ether17
+    type: 2.5gbase-t
+  - name: ether18
+    type: 2.5gbase-t
+  - name: ether19
+    type: 2.5gbase-t
+  - name: ether20
+    type: 2.5gbase-t
+  - name: ether21
+    type: 100base-t1
+    mgmt_only: true
+  - name: qsfp-qsfpplus1
+    type: 40gbase-x-qsfpp
+  - name: qsfp-qsfpplus2
+    type: 40gbase-x-qsfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    label: POWER 1
+    type: iec-60320-c14
+    maximum_draw: 70
+  - name: power2
+    label: POWER 2
+    type: iec-60320-c14
+    maximum_draw: 70

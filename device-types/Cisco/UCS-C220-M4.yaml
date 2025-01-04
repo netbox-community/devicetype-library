@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: UCS-C220-M4
+slug: cisco-ucs-c220-m4
+part_number: UCS-C220M4
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: enp94s0f0
+    type: 10gbase-t
+  - name: enp94s0f1
+    type: 10gbase-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS-0
+    position: '0'
+  - name: PS-1
+    position: '1'

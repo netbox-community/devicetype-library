@@ -1,0 +1,38 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch XG 6PoE
+slug: ubiquiti-unifi-switch-xg-6poe
+part_number: US-XG-6POE
+comments: |
+  UniFi Switch XG 6PoE, 10G 6-Port Switch with 802.3bt PoE++, (40W w/o PoE) External VDC PSU (4) 1/10 Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
+
+  Dimensions: 165 x 268.1 x 31.8 mm (6.50 x 10.56 x 1.25")
+u_height: 1
+is_full_depth: false
+interfaces:
+  - name: RJ45 1 (PoE)
+    type: 10gbase-t
+  - name: RJ45 2 (PoE)
+    type: 10gbase-t
+  - name: RJ45 3 (PoE)
+    type: 10gbase-t
+  - name: RJ45 4 (PoE)
+    type: 10gbase-t
+  - name: SFP+ 5
+    type: 10gbase-x-sfpp
+  - name: SFP+ 6
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-c
+power-ports:
+  - name: 54VDC IN
+    # TODO: There is no proper DC "terminalblock" connection type defined
+    type: iec-60320-c20
+    maximum_draw: 210
+  - name: 54VDC (external)
+    # TODO: There is no proper plug connection type defined
+    type: iec-60320-c20
+    maximum_draw: 210

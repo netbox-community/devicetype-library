@@ -1,0 +1,18 @@
+---
+manufacturer: Eaton
+model: Network-M2
+part_number: 744-A3983-02
+comments: Gigabit Network Card [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-management-software-connectivity/eaton-gigabit-network-card/eaton-network-m2-user-guide.pdf)
+interfaces:
+  - name: RNDIS
+    type: other
+    mgmt_only: true
+    label: Settings
+    comments: RNDIS (Ethernet over USB) connection with USB Micro-B connector
+  - name: Sensors
+    type: other
+    label: AUX
+    comments: USB-A connection for USB to RS485/Modbus connection to environmental sensors
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

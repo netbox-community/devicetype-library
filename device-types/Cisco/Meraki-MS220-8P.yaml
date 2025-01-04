@@ -1,0 +1,49 @@
+---
+manufacturer: Cisco
+model: Meraki MS220-8P
+slug: cisco-meraki-ms220-8p
+part_number: MS220-8P-HW
+u_height: 1
+is_full_depth: false
+comments: '[MS220 Overview and Specifications](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms_220_320_only.pdf)'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 159
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 9
+    type: 1000base-x-sfp
+  - name: Port 10
+    type: 1000base-x-sfp

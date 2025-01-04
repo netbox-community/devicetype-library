@@ -1,0 +1,50 @@
+---
+manufacturer: FS
+model: FMU-MC084761EM3
+slug: fs-fmu-mc084761em3
+comments: '[8ch Dual Fiber 1470-1610nm CWDM Mux Demux + Monitor, Expansion and 1310nm Port END OF SALE](https://www.fs.com/products/72428.html)'
+part_number: '72428'
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+front-ports:
+  - name: '1470'
+    type: lc
+    rear_port: Line
+    rear_port_position: 1
+  - name: '1490'
+    type: lc
+    rear_port: Line
+    rear_port_position: 2
+  - name: '1510'
+    type: lc
+    rear_port: Line
+    rear_port_position: 3
+  - name: '1530'
+    type: lc
+    rear_port: Line
+    rear_port_position: 4
+  - name: '1550'
+    type: lc
+    rear_port: Line
+    rear_port_position: 5
+  - name: '1570'
+    type: lc
+    rear_port: Line
+    rear_port_position: 6
+  - name: '1590'
+    type: lc
+    rear_port: Line
+    rear_port_position: 7
+  - name: '1610'
+    type: lc
+    rear_port: Line
+    rear_port_position: 8
+  - name: '1310'
+    type: lc
+    rear_port: Line
+    rear_port_position: 9
+rear-ports:
+  - name: Line
+    type: lc
+    positions: 9

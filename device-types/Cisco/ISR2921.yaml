@@ -1,0 +1,26 @@
+---
+manufacturer: Cisco
+model: ISR2921
+part_number: ISR2921/K9
+slug: cisco-isr2921
+u_height: 2
+is_full_depth: true
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+  - name: aux
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c6
+    allocated_draw: 60
+    maximum_draw: 320

@@ -1,0 +1,65 @@
+---
+manufacturer: A10
+model: Thunder 6430
+slug: a10-thunder-6430
+part_number: TH6430
+u_height: 1
+comments: '[A10 Thunder 6430 Appliance Datasheet](https://www.loadbalanceworks.com/datasheets/DS-A10_Thunder_6430_and_6430S.pdf)'
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+    maximum_draw: 680
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 680
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: ipmi
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth1
+    type: 10gbase-x-sfpp
+  - name: eth2
+    type: 10gbase-x-sfpp
+  - name: eth3
+    type: 10gbase-x-sfpp
+  - name: eth4
+    type: 10gbase-x-sfpp
+  - name: eth5
+    type: 10gbase-x-sfpp
+  - name: eth6
+    type: 10gbase-x-sfpp
+  - name: eth7
+    type: 10gbase-x-sfpp
+  - name: eth8
+    type: 10gbase-x-sfpp
+  - name: eth9
+    type: 10gbase-x-sfpp
+  - name: eth10
+    type: 10gbase-x-sfpp
+  - name: eth11
+    type: 10gbase-x-sfpp
+  - name: eth12
+    type: 10gbase-x-sfpp
+  - name: eth13
+    type: 10gbase-x-sfpp
+  - name: eth14
+    type: 10gbase-x-sfpp
+  - name: eth15
+    type: 10gbase-x-sfpp
+  - name: eth16
+    type: 10gbase-x-sfpp
+  - name: eth17
+    type: 40gbase-x-qsfpp
+  - name: eth18
+    type: 40gbase-x-qsfpp
+  - name: eth19
+    type: 40gbase-x-qsfpp
+  - name: eth20
+    type: 40gbase-x-qsfpp

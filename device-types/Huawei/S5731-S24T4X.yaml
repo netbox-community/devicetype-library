@@ -1,0 +1,91 @@
+---
+manufacturer: Huawei
+model: S5731-S24T4X
+slug: huawei-s5731-s24t4x
+part_number: 02353AHU-001
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+comments: "CloudEngine S5731-S24T4X (24*10/100/1000BASE-T ports,4*10GE SFP+ ports, without power module)\r\n\r\nDatasheet: [Link](https://support.huawei.com/enterprise/en/doc/EDOC1000013597/320c388e/s5731-s24t4x-02353ahu-02353ahu-001-02353ahu-003)"
+console-ports:
+  - name: con 0
+    type: rj-45
+    label: CONSOLE
+interfaces:
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/0/7
+    type: 1000base-t
+  - name: GigabitEthernet0/0/8
+    type: 1000base-t
+  - name: GigabitEthernet0/0/9
+    type: 1000base-t
+  - name: GigabitEthernet0/0/10
+    type: 1000base-t
+  - name: GigabitEthernet0/0/11
+    type: 1000base-t
+  - name: GigabitEthernet0/0/12
+    type: 1000base-t
+  - name: GigabitEthernet0/0/13
+    type: 1000base-t
+  - name: GigabitEthernet0/0/14
+    type: 1000base-t
+  - name: GigabitEthernet0/0/15
+    type: 1000base-t
+  - name: GigabitEthernet0/0/16
+    type: 1000base-t
+  - name: GigabitEthernet0/0/17
+    type: 1000base-t
+  - name: GigabitEthernet0/0/18
+    type: 1000base-t
+  - name: GigabitEthernet0/0/19
+    type: 1000base-t
+  - name: GigabitEthernet0/0/20
+    type: 1000base-t
+  - name: GigabitEthernet0/0/21
+    type: 1000base-t
+  - name: GigabitEthernet0/0/22
+    type: 1000base-t
+  - name: GigabitEthernet0/0/23
+    type: 1000base-t
+  - name: GigabitEthernet0/0/24
+    type: 1000base-t
+  - name: MEth0/0/1
+    type: 100base-tx
+    mgmt_only: true
+    label: ETH
+  - name: XGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: FAN1
+    label: FAN1
+    position: '1'
+    description: Fan module slot 1
+  - name: FAN2
+    label: FAN2
+    position: '2'
+    description: Fan module slot 2
+  - name: PWR1
+    label: PWR1
+    position: '1'
+    description: Power module slot 1
+  - name: PWR2
+    label: PWR2
+    position: '2'
+    description: Power module slot 2

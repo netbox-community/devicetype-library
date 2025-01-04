@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: Aironet CAP1532E
+slug: cisco-air-cap1532e-a-k9
+part_number: AIR-CAP1532E-A-K9
+u_height: 0
+is_full_depth: false
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    poe_mode: pd
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11n
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 25

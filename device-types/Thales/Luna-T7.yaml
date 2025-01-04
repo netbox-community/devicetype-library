@@ -1,0 +1,28 @@
+---
+manufacturer: Thales
+model: Luna-T7
+slug: thales-luna-t7
+part_number: 972-500080-001
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 28
+weight_unit: lb
+comments: Luna Network HSM T-2000
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t

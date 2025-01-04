@@ -1,0 +1,38 @@
+---
+manufacturer: Citrix
+model: MPX-59xx
+slug: citrix-mpx-59xx
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: PS 1
+    type: iec-60320-c14
+    maximum_draw: 336
+  - name: PS 2
+    type: iec-60320-c14
+    maximum_draw: 336
+interfaces:
+  - name: Interface 0/1
+    type: 1000base-t
+  - name: Interface 1/1
+    type: 1000base-t
+  - name: Interface 1/2
+    type: 1000base-t
+  - name: Interface 1/3
+    type: 1000base-t
+  - name: Interface 1/4
+    type: 1000base-t
+  - name: Interface 1/5
+    type: 1000base-t
+  - name: Interface 1/6
+    type: 1000base-t
+  - name: Interface 10/1
+    type: 10gbase-x-sfpp
+  - name: Interface 10/2
+    type: 10gbase-x-sfpp
+  - name: LOM
+    type: 1000base-t
+    mgmt_only: true

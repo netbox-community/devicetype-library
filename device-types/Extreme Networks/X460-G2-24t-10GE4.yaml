@@ -1,0 +1,93 @@
+---
+manufacturer: Extreme Networks
+model: X460-G2-24t-10GE4
+slug: extreme-networks-x460-g2-24t-10ge4
+part_number: '16701'
+u_height: 1
+is_full_depth: false
+subdevice_role: parent
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-x-sfp
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '22'
+    type: 1000base-x-sfp
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '23'
+    type: 1000base-x-sfp
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '24'
+    type: 1000base-x-sfp
+    description: Combo Port (either SFP or 1000BASE-T)
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp
+  - name: '29'
+    type: 10gbase-x-sfpp
+  - name: '30'
+    type: 10gbase-x-sfpp
+  - name: '31'
+    type: 10gbase-x-sfpp
+  - name: '32'
+    type: 10gbase-x-sfpp
+  - name: '33'
+    type: other
+    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
+  - name: '34'
+    type: other
+    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+  - name: PSU-2
+  - name: VIM-2

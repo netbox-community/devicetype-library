@@ -1,0 +1,72 @@
+---
+manufacturer: HPE
+model: ProLiant DL580 Gen10
+slug: hpe-proliant-dl580-gen10
+u_height: 4
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PSU3
+    position: PSU3
+  - name: PSU4
+    position: PSU4
+  - name: FlexLOM
+    position: FlexLOM
+  - name: PCIe1
+    position: PCIe1
+    label: primary riser
+  - name: PCIe2
+    position: PCIe2
+    label: primary riser
+  - name: PCIe3
+    position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: primary riser
+  - name: PCIe5
+    position: PCIe5
+    label: primary riser
+  - name: PCIe6
+    position: PCIe6
+    label: primary riser
+  - name: PCIe7
+    position: PCIe7
+    label: primary riser
+  - name: PCIe8
+    position: PCIe8
+    label: secondary riser
+  - name: PCIe9
+    position: PCIe9
+    label: secondary riser
+  - name: PCIe10
+    position: PCIe10
+    label: secondary riser
+  - name: PCIe11
+    position: PCIe11
+    label: secondary riser
+  - name: PCIe12
+    position: PCIe12
+    label: secondary riser
+  - name: PCIe13
+    position: PCIe13
+    label: secondary riser
+  - name: PCIe14
+    position: PCIe14
+    label: secondary riser
+  - name: PCIe15
+    position: PCIe15
+    label: tertiary riser
+  - name: PCIe16
+    position: PCIe16
+    label: tertiary riser
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

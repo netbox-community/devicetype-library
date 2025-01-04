@@ -1,0 +1,43 @@
+---
+manufacturer: Cisco
+model: Catalyst C4900M
+slug: cisco-ws-c4900m
+part_number: WS-C4900M
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 960
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 960
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+    mgmt_only: true
+  - name: TenGigabitEthernet1/1
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/2
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/3
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/4
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/5
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/6
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/7
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet1/8
+    type: 10gbase-x-x2
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

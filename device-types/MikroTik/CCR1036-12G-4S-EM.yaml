@@ -1,0 +1,49 @@
+---
+manufacturer: MikroTik
+model: CCR1036-12G-4S-EM
+slug: mikrotik-ccr1036-12g-4s-em
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: ether6
+    type: 1000base-t
+  - name: ether7
+    type: 1000base-t
+  - name: ether8
+    type: 1000base-t
+  - name: ether9
+    type: 1000base-t
+  - name: ether10
+    type: 1000base-t
+  - name: ether11
+    type: 1000base-t
+  - name: ether12
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 60
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 60

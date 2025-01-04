@@ -1,0 +1,61 @@
+---
+manufacturer: Fortinet
+model: FortiWeb 2000E
+part_number: FWB-2000E
+slug: fortinet-fwb-2000e
+is_full_depth: true
+u_height: 2
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+# ports 1-4 can be configured in bypass mode
+# see front/rear-port if you wish to use it like that
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+# ports 5-8, 1G SFP non-bypass
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+# ports 9-10, 10G SFP+
+  - name: port9
+    type: 10gbase-x-sfpp
+  - name: port10
+    type: 10gbase-x-sfpp
+# to emulate bypass mode, front/rear-ports can be used instead of interfaces
+#front-ports:
+#  - name: port1
+#    type: 8p8c
+#    rear_port: port2
+#    position: 1
+#  - name: port3
+#    type: 8p8c
+#    rear_port: port4
+#    position: 1
+#rear-ports:
+#  - name: port2
+#    type: 8p8c
+#    positions: 1
+#  - name: port4
+#    type: 8p8c
+#    positions: 1
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 200
+  - name: PS2
+    type: iec-60320-c14
+    allocated_draw: 200

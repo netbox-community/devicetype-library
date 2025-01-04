@@ -1,0 +1,32 @@
+---
+manufacturer: Juniper
+model: MX240
+slug: juniper-mx240
+comments: '[Juniper MX240 Data Sheet](https://www.juniper.net/us/en/products-services/routing/mx-series/mx240/)'
+u_height: 5
+is_full_depth: true
+module-bays:
+  - name: PEM0
+    label: PSU 0
+    position: PSU0
+  - name: PEM1
+    label: PSU 1
+    position: PSU1
+  - name: PEM2
+    label: PSU 2
+    position: PSU2
+  - name: PEM3
+    label: PSU 3
+    position: PSU3
+  - name: CB0
+    label: Routing Engine 0
+    position: re0
+  - name: CB1
+    label: Routing Engine 1
+    position: re1
+  - name: FPC 0
+    position: '0'
+  - name: FPC 1
+    position: '1'
+  - name: FPC 2
+    position: '2'

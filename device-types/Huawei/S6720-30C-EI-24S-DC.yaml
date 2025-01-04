@@ -1,0 +1,74 @@
+---
+manufacturer: Huawei
+model: S6720-30C-EI-24S-DC
+slug: huawei-s6720-30c-ei-24s-dc
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: console0
+    type: rj-45
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+    maximum_draw: 350
+    allocated_draw: 90
+  - name: PWR2
+    type: dc-terminal
+    maximum_draw: 350
+    allocated_draw: 90
+interfaces:
+  - name: MEth0/0/1
+    type: 100base-tx
+    mgmt_only: true
+  - name: XGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/5
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/6
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/7
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/8
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/9
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/10
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/11
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/12
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/13
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/14
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/15
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/16
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/17
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/18
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/19
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/20
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/21
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/22
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/23
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/24
+    type: 10gbase-x-sfpp
+  - name: 40GE0/0/1
+    type: 40gbase-x-qsfpp
+  - name: 40GE0/0/2
+    type: 40gbase-x-qsfpp

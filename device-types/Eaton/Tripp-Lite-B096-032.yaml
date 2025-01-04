@@ -1,0 +1,99 @@
+---
+manufacturer: Eaton
+model: Tripp Lite B096-032
+slug: eaton-tripp-lite-b096-032
+part_number: '037332181183'
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 8.7
+weight_unit: lb
+console-ports:
+  - name: '1'
+    type: de-9
+console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: rj-45
+  - name: '18'
+    type: rj-45
+  - name: '19'
+    type: rj-45
+  - name: '20'
+    type: rj-45
+  - name: '21'
+    type: rj-45
+  - name: '22'
+    type: rj-45
+  - name: '23'
+    type: rj-45
+  - name: '24'
+    type: rj-45
+  - name: '25'
+    type: rj-45
+  - name: '26'
+    type: rj-45
+  - name: '27'
+    type: rj-45
+  - name: '28'
+    type: rj-45
+  - name: '29'
+    type: rj-45
+  - name: '30'
+    type: rj-45
+  - name: '31'
+    type: rj-45
+  - name: '32'
+    type: rj-45
+  - name: '33'
+    type: usb-a
+  - name: '34'
+    type: usb-a
+power-ports:
+  - name: '1'
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 20
+  - name: '2'
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 20
+interfaces:
+  - name: eth0_wan
+    type: 100base-tx
+    mgmt_only: true
+  - name: eth1_lan
+    type: 100base-tx
+    mgmt_only: true

@@ -1,0 +1,37 @@
+---
+manufacturer: FS
+model: FHX-3LCQSMF73
+part_number: '73676'
+comments: (discontinued) 3x LC Quad, 12 Fibers OS2 Single Mode FHX TAP Cassette, 70/30 Split Ratio (Live/Tap), 1/10/40/100G
+front-ports:
+  - name: '{module}:1'
+    type: lc
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: lc
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - name: '{module}:1-TAP1'
+    type: lc
+    rear_port: '{module}:1'
+    rear_port_position: 2
+  - name: '{module}:1-TAP2'
+    type: lc
+    rear_port: '{module}:1'
+    rear_port_position: 3
+  - name: '{module}:2-TAP1'
+    type: lc
+    rear_port: '{module}:2'
+    rear_port_position: 2
+  - name: '{module}:2-TAP2'
+    type: lc
+    rear_port: '{module}:2'
+    rear_port_position: 3
+rear-ports:
+  - name: '{module}:1'
+    type: lc
+    positions: 3
+  - name: '{module}:2'
+    type: lc
+    positions: 3

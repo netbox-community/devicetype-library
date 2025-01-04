@@ -1,0 +1,33 @@
+---
+manufacturer: APC
+model: SUA1500RMI2U
+slug: apc-sua1500rmi2u
+part_number: SUA1500RMI2U
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: "APC Smart-UPS, Line Interactive, 1500VA, Rackmount 2U, 230V, 4x IEC C13 outlets, SmartSlot, AVR, LED\n Battery SKU: RBC24"
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c14
+    maximum_draw: 2300
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Source
+module-bays:
+  - name: SmartSlot

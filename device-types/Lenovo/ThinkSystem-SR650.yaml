@@ -1,0 +1,18 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR650
+slug: lenovo-thinksystem-sr650
+part_number: 7X06
+u_height: 2
+is_full_depth: true
+comments: '[Lenovo System SR650 product guide](https://lenovopress.lenovo.com/lp1050.pdf)'
+subdevice_role: parent
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+  - name: PSU1
+    type: iec-60320-c14

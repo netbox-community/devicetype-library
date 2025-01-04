@@ -1,0 +1,31 @@
+---
+manufacturer: HPE
+model: FlexFabric 5945 2-slot
+slug: hpe-flexfabric-5945-2-slot
+part_number: JQ075A
+u_height: 1
+is_full_depth: false
+comments: '[HPE FlexFabric 5945 2-slot Switch Data sheet](https://www.hpe.com/psnow/doc/PSN1011424706USEN.pdf)'
+weight: 10.4
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+interfaces:
+  - name: Management1
+    type: 100base-tx
+    mgmt_only: true
+  - name: Management2
+    type: 1000base-x-sfp
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: Module1
+    position: '1'
+  - name: Module2
+    position: '2'

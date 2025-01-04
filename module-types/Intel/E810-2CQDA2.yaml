@@ -1,0 +1,12 @@
+---
+manufacturer: Intel
+model: E810-2CQDA2
+part_number: E810-2CQDA2
+comments: '[Datasheet](https://ark.intel.com/content/www/us/en/ark/products/210969/intel-ethernet-network-adapter-e8102cqda2.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 100gbase-x-qsfp28
+    mgmt_only: false

@@ -1,0 +1,51 @@
+---
+manufacturer: Cisco
+model: Nexus 9316D-GX
+part_number: N9K-C9316D-GX
+slug: cisco-n9k-c9316d-gx
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: Ethernet1/1
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/2
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/3
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/4
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/5
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/6
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/7
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/8
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/9
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/10
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/11
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/12
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/13
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/14
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/15
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet1/16
+    type: 400gbase-x-qsfpdd
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

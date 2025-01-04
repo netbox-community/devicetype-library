@@ -1,0 +1,21 @@
+---
+manufacturer: Cisco
+model: Aironet 3602E-A
+slug: cisco-air-cap3602e-a-k9
+part_number: AIR-CAP3602E-A-K9
+comments: '[Cisco Aironet 3600 Series Access Point Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-3600-series/data_sheet_c78-686782.html)'
+u_height: 0
+is_full_depth: false
+weight: 1.13
+weight_unit: kg
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ac
+  - name: Dot11Radio1
+    type: ieee802.11ac
+  - name: GigabitEthernet0
+    type: 1000base-t
+    poe_mode: pd
+console-ports:
+  - name: Con
+    type: rj-45

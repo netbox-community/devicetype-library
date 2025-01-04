@@ -1,0 +1,97 @@
+---
+manufacturer: SonicWall
+model: NSsp 13700
+slug: sonicwall-nssp-13700
+part_number: NSSP13700
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'
+  - name: Expansion Module
+inventory-items:
+  - name: Storage-Module
+    manufacturer: SonicWall
+  - name: Fan-Module 1
+    manufacturer: SonicWall
+  - name: Fan-Module 2
+    manufacturer: SonicWall
+  - name: Fan-Module 3
+    manufacturer: SonicWall
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-t
+  - name: X9
+    type: 1000base-t
+  - name: X10
+    type: 1000base-t
+  - name: X11
+    type: 1000base-t
+  - name: X12
+    type: 1000base-t
+  - name: X13
+    type: 1000base-t
+  - name: X14
+    type: 1000base-t
+  - name: X15
+    type: 1000base-t
+  - name: X16
+    type: 10gbase-t
+  - name: X17
+    type: 10gbase-t
+  - name: X18
+    type: 10gbase-t
+  - name: X19
+    type: 10gbase-t
+  - name: X20
+    type: 10gbase-x-sfpp
+  - name: X21
+    type: 10gbase-x-sfpp
+  - name: X22
+    type: 10gbase-x-sfpp
+  - name: X23
+    type: 10gbase-x-sfpp
+  - name: X24
+    type: 25gbase-x-sfp28
+  - name: X25
+    type: 25gbase-x-sfp28
+  - name: X26
+    type: 25gbase-x-sfp28
+  - name: X27
+    type: 25gbase-x-sfp28
+  - name: X28
+    type: 25gbase-x-sfp28
+  - name: X29
+    type: 25gbase-x-sfp28
+  - name: X30
+    type: 25gbase-x-sfp28
+  - name: X31
+    type: 25gbase-x-sfp28
+  - name: X32
+    type: 100gbase-x-qsfp28
+  - name: X33
+    type: 100gbase-x-qsfp28

@@ -1,0 +1,36 @@
+---
+manufacturer: MikroTik
+model: RB960PGS
+slug: mikrotik-rb960pgs
+comments: '[MikroTik RB960PGS Datasheet](https://mikrotik.com/product/RB960PGS)'
+is_full_depth: false
+u_height: 0
+airflow: passive
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-48v-4pair
+  - name: ether2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: ether3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: ether4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: ether5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: sfp1
+    type: 1000base-x-sfp
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 54
+    allocated_draw: 10

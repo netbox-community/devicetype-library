@@ -1,0 +1,197 @@
+---
+manufacturer: QTECH
+model: QSW-6900-56LF
+part_number: QSW-6900-56LF
+slug: qtech-qsw-6900-56lf
+u_height: 1
+is_full_depth: false
+weight: 8
+weight_unit: kg
+airflow: front-to-rear
+comments: '[QTECH QSW-6900-56LF](https://ftp.qtech.ru/Switch/Data%20Center/QSW-6900/Manual/Installation%20Guide%20%5bEng%5d/QSW-6900-56LF%20Installation%20Manual_Eng.pdf)'
+console-ports:
+  - name: console
+    label: Console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 300
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 300
+interfaces:
+  - name: TenGigabitEthernet 0/1
+    type: 10gbase-x-sfpp
+    label: 1F
+  - name: TenGigabitEthernet 0/2
+    type: 10gbase-x-sfpp
+    label: 2F
+  - name: TenGigabitEthernet 0/3
+    type: 10gbase-x-sfpp
+    label: 3F
+  - name: TenGigabitEthernet 0/4
+    type: 10gbase-x-sfpp
+    label: 4F
+  - name: TenGigabitEthernet 0/5
+    type: 10gbase-x-sfpp
+    label: 5F
+  - name: TenGigabitEthernet 0/6
+    type: 10gbase-x-sfpp
+    label: 6F
+  - name: TenGigabitEthernet 0/7
+    type: 10gbase-x-sfpp
+    label: 7F
+  - name: TenGigabitEthernet 0/8
+    type: 10gbase-x-sfpp
+    label: 8F
+  - name: TenGigabitEthernet 0/9
+    type: 10gbase-x-sfpp
+    label: 9F
+  - name: TenGigabitEthernet 0/10
+    type: 10gbase-x-sfpp
+    label: 10F
+  - name: TenGigabitEthernet 0/11
+    type: 10gbase-x-sfpp
+    label: 11F
+  - name: TenGigabitEthernet 0/12
+    type: 10gbase-x-sfpp
+    label: 12F
+  - name: TenGigabitEthernet 0/13
+    type: 10gbase-x-sfpp
+    label: 13F
+  - name: TenGigabitEthernet 0/14
+    type: 10gbase-x-sfpp
+    label: 14F
+  - name: TenGigabitEthernet 0/15
+    type: 10gbase-x-sfpp
+    label: 15F
+  - name: TenGigabitEthernet 0/16
+    type: 10gbase-x-sfpp
+    label: 16F
+  - name: TenGigabitEthernet 0/17
+    type: 10gbase-x-sfpp
+    label: 17F
+  - name: TenGigabitEthernet 0/18
+    type: 10gbase-x-sfpp
+    label: 18F
+  - name: TenGigabitEthernet 0/19
+    type: 10gbase-x-sfpp
+    label: 19F
+  - name: TenGigabitEthernet 0/20
+    type: 10gbase-x-sfpp
+    label: 20F
+  - name: TenGigabitEthernet 0/21
+    type: 10gbase-x-sfpp
+    label: 21F
+  - name: TenGigabitEthernet 0/22
+    type: 10gbase-x-sfpp
+    label: 22F
+  - name: TenGigabitEthernet 0/23
+    type: 10gbase-x-sfpp
+    label: 23F
+  - name: TenGigabitEthernet 0/24
+    type: 10gbase-x-sfpp
+    label: 24F
+  - name: TenGigabitEthernet 0/25
+    type: 10gbase-x-sfpp
+    label: 25F
+  - name: TenGigabitEthernet 0/26
+    type: 10gbase-x-sfpp
+    label: 26F
+  - name: TenGigabitEthernet 0/27
+    type: 10gbase-x-sfpp
+    label: 27F
+  - name: TenGigabitEthernet 0/28
+    type: 10gbase-x-sfpp
+    label: 28F
+  - name: TenGigabitEthernet 0/29
+    type: 10gbase-x-sfpp
+    label: 29F
+  - name: TenGigabitEthernet 0/30
+    type: 10gbase-x-sfpp
+    label: 30F
+  - name: TenGigabitEthernet 0/31
+    type: 10gbase-x-sfpp
+    label: 31F
+  - name: TenGigabitEthernet 0/32
+    type: 10gbase-x-sfpp
+    label: 32F
+  - name: TenGigabitEthernet 0/33
+    type: 10gbase-x-sfpp
+    label: 33F
+  - name: TenGigabitEthernet 0/34
+    type: 10gbase-x-sfpp
+    label: 34F
+  - name: TenGigabitEthernet 0/35
+    type: 10gbase-x-sfpp
+    label: 35F
+  - name: TenGigabitEthernet 0/36
+    type: 10gbase-x-sfpp
+    label: 36F
+  - name: TenGigabitEthernet 0/37
+    type: 10gbase-x-sfpp
+    label: 37F
+  - name: TenGigabitEthernet 0/38
+    type: 10gbase-x-sfpp
+    label: 38F
+  - name: TenGigabitEthernet 0/39
+    type: 10gbase-x-sfpp
+    label: 39F
+  - name: TenGigabitEthernet 0/40
+    type: 10gbase-x-sfpp
+    label: 40F
+  - name: TenGigabitEthernet 0/41
+    type: 10gbase-x-sfpp
+    label: 41F
+  - name: TenGigabitEthernet 0/42
+    type: 10gbase-x-sfpp
+    label: 42F
+  - name: TenGigabitEthernet 0/43
+    type: 10gbase-x-sfpp
+    label: 43F
+  - name: TenGigabitEthernet 0/44
+    type: 10gbase-x-sfpp
+    label: 44F
+  - name: TenGigabitEthernet 0/45
+    type: 10gbase-x-sfpp
+    label: 45F
+  - name: TenGigabitEthernet 0/46
+    type: 10gbase-x-sfpp
+    label: 46F
+  - name: TenGigabitEthernet 0/47
+    type: 10gbase-x-sfpp
+    label: 47F
+  - name: TenGigabitEthernet 0/48
+    type: 10gbase-x-sfpp
+    label: 48F
+  - name: HundredGigabitEthernet 0/49
+    type: 100gbase-x-qsfp28
+    label: 49F
+  - name: HundredGigabitEthernet 0/50
+    type: 100gbase-x-qsfp28
+    label: 50F
+  - name: HundredGigabitEthernet 0/51
+    type: 100gbase-x-qsfp28
+    label: 51F
+  - name: HundredGigabitEthernet 0/52
+    type: 100gbase-x-qsfp28
+    label: 52F
+  - name: HundredGigabitEthernet 0/53
+    type: 100gbase-x-qsfp28
+    label: 53F
+  - name: HundredGigabitEthernet 0/54
+    type: 100gbase-x-qsfp28
+    label: 54F
+  - name: HundredGigabitEthernet 0/55
+    type: 100gbase-x-qsfp28
+    label: 55F
+  - name: HundredGigabitEthernet 0/56
+    type: 100gbase-x-qsfp28
+    label: 56F
+  - name: mgmt 0
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: true

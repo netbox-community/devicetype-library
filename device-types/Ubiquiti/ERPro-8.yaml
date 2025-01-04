@@ -1,0 +1,32 @@
+---
+manufacturer: Ubiquiti
+model: EdgeRouter Pro
+slug: ubiquiti-edgerouter-pro
+part_number: ERPro-8
+u_height: 1
+is_full_depth: false
+comments: '[EdgeRouter Pro](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_DS.pdf)'
+power-ports:
+  - name: PS
+    type: iec-60320-c6
+    maximum_draw: 40
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+  - name: eth5
+    type: 1000base-t
+  - name: eth6
+    type: 1000base-x-sfp
+  - name: eth7
+    type: 1000base-x-sfp
+console-ports:
+  - name: Console
+    type: rj-45

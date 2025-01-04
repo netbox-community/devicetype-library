@@ -1,0 +1,42 @@
+---
+manufacturer: Leviton
+model: 5F100-2LL
+comments: SDX Precision Molded Plate (BLUE), Single-mode OS1/2, Duplex LC, 12 fibers, Zirconia Ceramic Sleeve
+front-ports:
+  - name: '{module}:1'
+    type: lc
+    rear_port: '{module}:1'
+  - name: '{module}:2'
+    type: lc
+    rear_port: '{module}:2'
+  - name: '{module}:3'
+    type: lc
+    rear_port: '{module}:3'
+  - name: '{module}:4'
+    type: lc
+    rear_port: '{module}:4'
+  - name: '{module}:5'
+    type: lc
+    rear_port: '{module}:5'
+  - name: '{module}:6'
+    type: lc
+    rear_port: '{module}:6'
+rear-ports:
+  - name: '{module}:1'
+    type: lc
+    positions: 1
+  - name: '{module}:2'
+    type: lc
+    positions: 1
+  - name: '{module}:3'
+    type: lc
+    positions: 1
+  - name: '{module}:4'
+    type: lc
+    positions: 1
+  - name: '{module}:5'
+    type: lc
+    positions: 1
+  - name: '{module}:6'
+    type: lc
+    positions: 1

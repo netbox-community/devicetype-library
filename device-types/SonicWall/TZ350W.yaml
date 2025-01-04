@@ -1,0 +1,27 @@
+---
+manufacturer: SonicWall
+model: TZ350W
+slug: sonicwall-tz350w
+part_number: TZ350W
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 24
+interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: W0
+    type: ieee802.11ac

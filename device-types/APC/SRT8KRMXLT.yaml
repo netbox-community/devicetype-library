@@ -1,0 +1,31 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT 8000VA RM 208V
+slug: apc-smart-ups-srt-8000va-rm-208v
+part_number: SRT8KRMXLT
+u_height: 6
+is_full_depth: true
+comments: Hard wire 3-wire (2P + E) power port
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: UPS Input
+    type: hardwired
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: nema-l6-20r
+  - name: Group 1 Outlet 2
+    type: nema-l6-20r
+  - name: Group 2 Outlet 1
+    type: nema-l6-20r
+  - name: Group 2 Outlet 2
+    type: nema-l6-20r
+  - name: Group 3 Outlet 1
+    type: nema-l6-30r
+  - name: Group 3 Outlet 2
+    type: nema-l6-30r
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: true

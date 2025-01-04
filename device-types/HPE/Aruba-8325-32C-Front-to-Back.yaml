@@ -1,0 +1,94 @@
+---
+manufacturer: HPE
+model: Aruba 8325-32C Front-to-Back
+slug: hpe-aruba-8325-32c-front-to-back
+part_number: JL626A
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+airflow: front-to-rear
+console-ports:
+  - name: rj45-console
+    type: rj-45
+  - name: usb-console
+    type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 650
+    allocated_draw: 550
+  - name: ps2
+    type: iec-60320-c14
+    maximum_draw: 650
+    allocated_draw: 550
+interfaces:
+  - name: 1/1/1
+    type: 100gbase-x-qsfp28
+  - name: 1/1/2
+    type: 100gbase-x-qsfp28
+  - name: 1/1/3
+    type: 100gbase-x-qsfp28
+  - name: 1/1/4
+    type: 100gbase-x-qsfp28
+  - name: 1/1/5
+    type: 100gbase-x-qsfp28
+  - name: 1/1/6
+    type: 100gbase-x-qsfp28
+  - name: 1/1/7
+    type: 100gbase-x-qsfp28
+  - name: 1/1/8
+    type: 100gbase-x-qsfp28
+  - name: 1/1/9
+    type: 100gbase-x-qsfp28
+  - name: 1/1/10
+    type: 100gbase-x-qsfp28
+  - name: 1/1/11
+    type: 100gbase-x-qsfp28
+  - name: 1/1/12
+    type: 100gbase-x-qsfp28
+  - name: 1/1/13
+    type: 100gbase-x-qsfp28
+  - name: 1/1/14
+    type: 100gbase-x-qsfp28
+  - name: 1/1/15
+    type: 100gbase-x-qsfp28
+  - name: 1/1/16
+    type: 100gbase-x-qsfp28
+  - name: 1/1/17
+    type: 100gbase-x-qsfp28
+  - name: 1/1/18
+    type: 100gbase-x-qsfp28
+  - name: 1/1/19
+    type: 100gbase-x-qsfp28
+  - name: 1/1/20
+    type: 100gbase-x-qsfp28
+  - name: 1/1/21
+    type: 100gbase-x-qsfp28
+  - name: 1/1/22
+    type: 100gbase-x-qsfp28
+  - name: 1/1/23
+    type: 100gbase-x-qsfp28
+  - name: 1/1/24
+    type: 100gbase-x-qsfp28
+  - name: 1/1/25
+    type: 100gbase-x-qsfp28
+  - name: 1/1/26
+    type: 100gbase-x-qsfp28
+  - name: 1/1/27
+    type: 100gbase-x-qsfp28
+  - name: 1/1/28
+    type: 100gbase-x-qsfp28
+  - name: 1/1/29
+    type: 100gbase-x-qsfp28
+  - name: 1/1/30
+    type: 100gbase-x-qsfp28
+  - name: 1/1/31
+    type: 100gbase-x-qsfp28
+  - name: 1/1/32
+    type: 100gbase-x-qsfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

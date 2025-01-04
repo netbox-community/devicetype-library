@@ -1,0 +1,13 @@
+---
+manufacturer: Juniper
+model: RE-S-2000-4096
+part_number: RE-S-2000-4096
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: AUX
+    type: rj-45
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true

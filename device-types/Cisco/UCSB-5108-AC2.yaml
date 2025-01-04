@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: UCSB-5108-AC2
+slug: cisco-ucsb-5108-ac2
+part_number: UCSB-5108-AC2
+u_height: 6
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+device-bays:
+  - name: slot-1
+  - name: slot-2
+  - name: slot-3
+  - name: slot-4
+  - name: slot-5
+  - name: slot-6
+  - name: slot-7
+  - name: slot-8
+module-bays:
+  - name: IO Module 1
+    position: '1'
+  - name: IO Module 2
+    position: '2'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
+  - name: PSU4
+    position: '4'

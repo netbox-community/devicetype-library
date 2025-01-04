@@ -1,0 +1,37 @@
+---
+manufacturer: WTI
+model: VMR-HD4D16H
+slug: wti-vmr-hd4d16h
+airflow: passive
+part_number: VMR-HD4D16H
+is_full_depth: false
+u_height: 1
+# comments: WTI VMR 1U, 1 ethernet, 4 outlet 16A 120V
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+console-server-ports:
+  - name: port1
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+  - name: PS2
+    type: iec-60320-c20
+    maximum_draw: 10
+    allocated_draw: 5
+power-outlets:
+  - name: Outlet_A1
+    type: iec-60320-c19
+    power_port: PS1
+  - name: Outlet_A2
+    type: iec-60320-c19
+    power_port: PS1
+  - name: Outlet_A3
+    type: iec-60320-c19
+    power_port: PS2
+  - name: Outlet_A4
+    type: iec-60320-c19
+    power_port: PS2

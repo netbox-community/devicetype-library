@@ -1,0 +1,25 @@
+---
+manufacturer: Dell
+model: PowerEdge 1950
+slug: dell-poweredge-1950
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Dell PowerEdge 1950 Data Sheet](https://www1.la.dell.com/content/products/productdetails.aspx/pedge_1950_3)'
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 670
+    allocated_draw: 300
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 670
+    allocated_draw: 300
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t

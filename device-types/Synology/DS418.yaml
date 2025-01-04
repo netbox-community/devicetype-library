@@ -1,0 +1,18 @@
+---
+manufacturer: Synology
+model: DS418
+slug: synology-ds418
+part_number: DS418
+u_height: 4
+comments: '[Synology DS418 Specs](https://www.synology.com/en-us/products/DS418#specs)'
+is_full_depth: false
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+power-ports:
+  - name: External PSU 1
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 27

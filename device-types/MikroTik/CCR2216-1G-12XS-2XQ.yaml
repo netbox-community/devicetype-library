@@ -1,0 +1,65 @@
+---
+manufacturer: MikroTik
+model: CCR2216-1G-12XS-2XQ
+slug: mikrotik-ccr2216-1g-12xs-2xq
+part_number: CCR2216-1G-12XS-2XQ
+is_full_depth: false
+u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/ccr2216_1g_12xs_2xq)
+front_image: false
+rear_image: false
+is_powered: true
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: sfp28-1
+    type: 25gbase-x-sfp28
+  - name: sfp28-2
+    type: 25gbase-x-sfp28
+  - name: sfp28-3
+    type: 25gbase-x-sfp28
+  - name: sfp28-4
+    type: 25gbase-x-sfp28
+  - name: sfp28-5
+    type: 25gbase-x-sfp28
+  - name: sfp28-6
+    type: 25gbase-x-sfp28
+  - name: sfp28-7
+    type: 25gbase-x-sfp28
+  - name: sfp28-8
+    type: 25gbase-x-sfp28
+  - name: sfp28-9
+    type: 25gbase-x-sfp28
+  - name: sfp28-10
+    type: 25gbase-x-sfp28
+  - name: sfp28-11
+    type: 25gbase-x-sfp28
+  - name: sfp28-12
+    type: 25gbase-x-sfp28
+  - name: qsfp28-1-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-2-1
+    type: 100gbase-x-qsfp28
+console-ports:
+  - name: serial0
+    type: rj-45
+module-bays:
+  - name: power1
+    position: power1
+    description: Power module
+  - name: power2
+    position: power2
+    description: Power module
+  - name: fan1
+    position: '1'
+    description: Fan tray
+  - name: fan2
+    position: '2'
+    description: Fan tray
+  - name: fan3
+    position: '3'
+    description: Fan tray
+  - name: fan4
+    position: '4'
+    description: Fan tray

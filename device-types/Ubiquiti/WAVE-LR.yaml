@@ -1,0 +1,21 @@
+---
+manufacturer: Ubiquiti
+model: UISP Wave LR
+slug: ubiquiti-wave-lr
+part_number: Wave-LR
+u_height: 0
+is_full_depth: false
+comments: The eth0 and prs0 are permanently bridged as this is a L2 bridge device. [](https://dl.ui.com/ds/wave-lr_ds.pdf)
+weight: 5.7
+weight_unit: lb
+interfaces:
+  - name: br0
+    type: bridge
+    mgmt_only: true
+  - name: eth0
+    label: Ethernet
+    type: 1000base-t
+    poe_mode: pd
+  - name: prs0
+    label: Wireless
+    type: ieee802.11ax

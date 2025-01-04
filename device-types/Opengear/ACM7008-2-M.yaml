@@ -1,0 +1,37 @@
+---
+manufacturer: Opengear
+model: ACM7008-2-M
+slug: opengear-acm7008-2-m
+part_number: ACM7008-2-M
+u_height: 1
+is_full_depth: false
+comments: ACM7008 Console Server with 8 Console Ports on the rear of the device.
+console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: net1_copper
+    type: 1000base-t
+  - name: net1_sfp
+    type: 1000base-x-sfp
+  - name: net2_copper
+    type: 1000base-t
+  - name: net2_sfp
+    type: 1000base-x-sfp

@@ -1,0 +1,24 @@
+---
+manufacturer: Palo Alto
+model: M-100
+slug: palo-alto-m-100
+part_number: M-100
+u_height: 1
+is_full_depth: true
+front_image: true
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+console-ports:
+  - name: console
+    type: de-9
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t

@@ -1,0 +1,35 @@
+---
+manufacturer: Cisco
+model: Catalyst 8300-1N1S-6T
+slug: cisco-c8300-1n1s-6t
+part_number: C8300-1N1S-6T
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+weight: 9.0
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+  - name: SM 1  # SM = Service Module
+  - name: NIM 1 # NIM = Network Interface Module
+  - name: PIM 1 # PIM = Pluggable Interface Module (LTE/5G)
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/5
+    type: 1000base-x-sfp

@@ -1,0 +1,64 @@
+---
+manufacturer: Fortinet
+model: FortiGate-600D
+slug: fortinet-fg-600d
+part_number: FG-600D
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: false
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 191
+    allocated_draw: 121
+interfaces:
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 1000base-t
+    mgmt_only: true
+  - name: port1
+    type: 1000base-x-sfp
+  - name: port2
+    type: 1000base-x-sfp
+  - name: port3
+    type: 1000base-x-sfp
+  - name: port4
+    type: 1000base-x-sfp
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 10gbase-x-sfpp
+  - name: port18
+    type: 10gbase-x-sfpp

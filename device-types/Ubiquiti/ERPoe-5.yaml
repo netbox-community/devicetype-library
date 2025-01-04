@@ -1,0 +1,25 @@
+---
+manufacturer: Ubiquiti
+model: EdgeRouter PoE 5-Port
+slug: ubiquiti-erpoe-5
+part_number: ERPoe-5
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: 48V Power Supply
+    type: ita-g
+    maximum_draw: 60
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t
+console-ports:
+  - name: ttyS1
+    type: rj-45

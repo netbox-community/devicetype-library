@@ -1,0 +1,23 @@
+---
+manufacturer: Datto
+model: AP840
+slug: datto-ap840
+part_number: AP840
+u_height: 0
+is_full_depth: false
+comments: '[Datto Access Points](https://www.datto.com/product-assets/wifi/AP840_840E_Datasheet_US.pdf)'
+weight: 2.03
+weight_unit: lb
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 29
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ax

@@ -1,0 +1,24 @@
+---
+manufacturer: CryptoPro
+model: NGATE-320
+slug: cryptopro-ngate-320
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 36
+interfaces:
+  - name: enp1s0
+    label: '1'
+    type: 1000base-t
+  - name: enp2s0
+    label: '2'
+    type: 1000base-t
+  - name: enp3s0
+    label: '3'
+    type: 1000base-t

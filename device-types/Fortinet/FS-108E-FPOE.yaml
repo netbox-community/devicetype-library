@@ -1,0 +1,57 @@
+---
+manufacturer: Fortinet
+model: FortiSwitch 108E-FPOE
+slug: fortinet-fs-108e-fpoe
+part_number: FS-108E-FPOE
+u_height: 1
+weight: 2.04
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf),
+  [FortiSwitch 108E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-108e-series-quickstart-guide)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 136
+    allocated_draw: 135
+interfaces:
+  - name: port1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port9
+    type: 1000base-x-sfp
+  - name: port10
+    type: 1000base-x-sfp

@@ -1,0 +1,14 @@
+---
+manufacturer: Dell
+model: 4TRD3
+part_number: 4TRD3
+comments: Mellanox (nvidia) 2x25G SFP28 OCP 3.0 (Gen3)
+interfaces:
+  - name: '{module}-25GbE-0'
+    label: '1'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '{module}-25GbE-1'
+    label: '2'
+    type: 25gbase-x-sfp28
+    mgmt_only: false

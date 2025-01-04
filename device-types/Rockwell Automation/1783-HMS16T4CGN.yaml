@@ -1,0 +1,64 @@
+---
+manufacturer: Rockwell Automation
+model: 1783-HMS16T4CGN
+part_number: 1783-HMS16T4CGN
+slug: rockwell-automation-1783-hms16t4cgn
+u_height: 3
+is_full_depth: false
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: FastEthernet1/19
+    type: 100base-tx
+  - name: FastEthernet1/20
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: Pwr-A
+    type: dc-terminal
+    maximum_draw: 89
+    allocated_draw: 35
+  - name: Pwr-B
+    type: dc-terminal
+    maximum_draw: 89
+    allocated_draw: 35

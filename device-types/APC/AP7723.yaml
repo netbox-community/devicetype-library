@@ -1,0 +1,39 @@
+---
+manufacturer: APC
+model: AP7723
+slug: apc-ap7723
+part_number: AP7723
+u_height: 1
+is_full_depth: false
+comments: RACK ATS, 16A/230V, C20 IN, (8) C13 + (1) C19 OUT
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Source A
+    type: iec-60320-c20
+  - name: Source B
+    type: iec-60320-c20
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c19
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true

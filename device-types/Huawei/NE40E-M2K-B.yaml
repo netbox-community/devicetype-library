@@ -1,0 +1,67 @@
+---
+manufacturer: Huawei
+model: NE40E-M2K-B
+slug: huawei-ne40e-m2k-b
+is_full_depth: false
+u_height: 2
+comments: '[NE40E-M2K-B Documentation](https://support.huawei.com/hedex/hdx.do?docid=EDOC1100168834)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet0/3/4
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/5
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/6
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/7
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/8
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/9
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/10
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/11
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/12
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/13
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet0/3/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/20
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/21
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/22
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3/23
+    type: 1000base-x-sfp
+  - name: 100GE0/3/0
+    type: 40gbase-x-qsfpp
+  - name: 100GE0/3/1
+    type: 40gbase-x-qsfpp
+  - name: 100GE0/3/2
+    type: 40gbase-x-qsfpp
+  - name: 100GE0/3/3
+    type: 40gbase-x-qsfpp

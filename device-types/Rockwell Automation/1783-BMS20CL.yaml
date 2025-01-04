@@ -1,0 +1,64 @@
+---
+manufacturer: Rockwell Automation
+model: 1783-BMS20CL
+part_number: 1783-BMS20CL
+slug: rockwell-automation-1783-bms20cl
+u_height: 3
+is_full_depth: false
+interfaces:
+  - name: FastEthernet1/1
+    type: 100base-tx
+  - name: FastEthernet1/2
+    type: 100base-tx
+  - name: FastEthernet1/3
+    type: 100base-tx
+  - name: FastEthernet1/4
+    type: 100base-tx
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx
+  - name: FastEthernet1/13
+    type: 100base-tx
+  - name: FastEthernet1/14
+    type: 100base-tx
+  - name: FastEthernet1/15
+    type: 100base-tx
+  - name: FastEthernet1/16
+    type: 100base-tx
+  - name: FastEthernet1/17
+    type: 100base-tx
+  - name: FastEthernet1/18
+    type: 100base-tx
+  - name: FastEthernet1/19
+    type: 100base-tx
+  - name: FastEthernet1/20
+    type: 100base-tx
+  - name: SVI1
+    type: virtual
+console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: Pwr-A
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 21
+  - name: Pwr-B
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 21

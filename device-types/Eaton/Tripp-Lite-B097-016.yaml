@@ -1,0 +1,67 @@
+---
+manufacturer: Eaton
+model: Tripp Lite B097-016
+slug: eaton-tripp-lite-b097-016
+part_number: '037332218025'
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 7.6
+weight_unit: lb
+console-ports:
+  - name: '1'
+    type: rj-45
+console-server-ports:
+  - name: '1'
+    type: rj-45
+  - name: '2'
+    type: rj-45
+  - name: '3'
+    type: rj-45
+  - name: '4'
+    type: rj-45
+  - name: '5'
+    type: rj-45
+  - name: '6'
+    type: rj-45
+  - name: '7'
+    type: rj-45
+  - name: '8'
+    type: rj-45
+  - name: '9'
+    type: rj-45
+  - name: '10'
+    type: rj-45
+  - name: '11'
+    type: rj-45
+  - name: '12'
+    type: rj-45
+  - name: '13'
+    type: rj-45
+  - name: '14'
+    type: rj-45
+  - name: '15'
+    type: rj-45
+  - name: '16'
+    type: rj-45
+  - name: '17'
+    type: usb-a
+  - name: '18'
+    type: usb-a
+power-ports:
+  - name: '1'
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 25
+  - name: '2'
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 25
+interfaces:
+  - name: eth0_wan
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth1_lan
+    type: 1000base-t
+    mgmt_only: true

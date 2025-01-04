@@ -1,0 +1,89 @@
+---
+manufacturer: QTECH
+model: QSW-6900-32H
+part_number: QSW-6900-32H
+slug: qtech-qsw-6900-32h
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: console
+    label: Console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 300
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 300
+interfaces:
+  - name: HundredGigabitEthernet 0/1
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/2
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/3
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/4
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/5
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/6
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/7
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/8
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/9
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/10
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/11
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/12
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/13
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/14
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/15
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/16
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/17
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/18
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/19
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/20
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/21
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/22
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/23
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/24
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/25
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/26
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/27
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/28
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/29
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/30
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/31
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet 0/32
+    type: 100gbase-x-qsfp28
+  - name: mgmt 0
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: true

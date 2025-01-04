@@ -1,0 +1,53 @@
+---
+manufacturer: HPE
+model: Alletra 6050
+slug: hpe-alletra-6050
+u_height: 4
+is_full_depth: true
+subdevice_role: parent
+interfaces:
+  - name: Controller-A eth0a
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-A eth0b
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-A eth0c
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-A eth0d
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-B eth0a
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-B eth0b
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-B eth0c
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-B eth0d
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller-A fc2a
+    type: 32gfc-sfp28
+  - name: Controller-A fc2b
+    type: 32gfc-sfp28
+  - name: Controller-A fc2c
+    type: 32gfc-sfp28
+  - name: Controller-A fc2d
+    type: 32gfc-sfp28
+  - name: Controller-B fc2a
+    type: 32gfc-sfp28
+  - name: Controller-B fc2b
+    type: 32gfc-sfp28
+  - name: Controller-B fc2c
+    type: 32gfc-sfp28
+  - name: Controller-B fc2d
+    type: 32gfc-sfp28
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14

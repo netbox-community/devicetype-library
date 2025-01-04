@@ -1,0 +1,24 @@
+---
+manufacturer: QCT
+model: QuantaGrid D51B-2U
+slug: qct-quantagrid-d51b-2u
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1200
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: bmc nic
+    type: 1000base-t
+    mgmt_only: true

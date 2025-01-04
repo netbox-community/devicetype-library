@@ -1,0 +1,202 @@
+---
+manufacturer: Raritan
+model: PX3-5724V
+slug: raritan-px3-5724v
+part_number: PX3-5724V
+u_height: 0
+is_full_depth: false
+comments: Rack PDU, Metered, Remote Switching, ZeroU, 8.6kVA, 208V, (24) C13 & (12) C19
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Inlet1
+    type: nema-l15-30p
+power-outlets:
+  - name: Outlet1
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+    label: '1'
+  - name: Outlet2
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+    label: '2'
+  - name: Outlet3
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '3'
+  - name: Outlet4
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '4'
+  - name: Outlet5
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '5'
+  - name: Outlet6
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+    label: '6'
+  - name: Outlet7
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+    label: '7'
+  - name: Outlet8
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: A
+    label: '8'
+  - name: Outlet9
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '9'
+  - name: Outlet10
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '10'
+  - name: Outlet11
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '11'
+  - name: Outlet12
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: A
+    label: '12'
+  - name: Outlet13
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: B
+    label: '13'
+  - name: Outlet14
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: B
+    label: '14'
+  - name: Outlet15
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '15'
+  - name: Outlet16
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '16'
+  - name: Outlet17
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '17'
+  - name: Outlet18
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '18'
+  - name: Outlet19
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: B
+    label: '19'
+  - name: Outlet20
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: B
+    label: '20'
+  - name: Outlet21
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '21'
+  - name: Outlet22
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '22'
+  - name: Outlet23
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '23'
+  - name: Outlet24
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: B
+    label: '24'
+  - name: Outlet25
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: C
+    label: '25'
+  - name: Outlet26
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: C
+    label: '26'
+  - name: Outlet27
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '27'
+  - name: Outlet28
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '28'
+  - name: Outlet29
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '29'
+  - name: Outlet30
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '30'
+  - name: Outlet31
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: C
+    label: '31'
+  - name: Outlet32
+    type: iec-60320-c19
+    power_port: Inlet1
+    feed_leg: C
+    label: '32'
+  - name: Outlet33
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '33'
+  - name: Outlet34
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '34'
+  - name: Outlet35
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '35'
+  - name: Outlet36
+    type: iec-60320-c13
+    power_port: Inlet1
+    feed_leg: C
+    label: '36'
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth2
+    type: 100base-tx
+    mgmt_only: true

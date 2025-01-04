@@ -1,0 +1,36 @@
+---
+manufacturer: HPE
+model: Apollo R2600 Chassis
+slug: hpe-apollo-r2600-chassis
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+part_number: 798153-B21
+weight: 25
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  [Apollo R2600 Chassis Spec Sheet](https://psnow.ext.hpe.com/v2/getpdf.aspx/c04542552.pdf?ver=7)
+device-bays:
+  - name: '1'
+    label: Node 1
+    description: Server Tray
+  - name: '2'
+    label: Node 2
+    description: Server Tray
+  - name: '3'
+    label: Node 3
+    description: Server Tray
+  - name: '4'
+    label: Node 4
+    description: Server Tray
+module-bays:
+  - name: RCM
+    position: RCM
+    description: RCM Module
+  - name: Power 1
+    position: '1'
+    description: PSU Slot
+  - name: Power 2
+    position: '2'
+    description: PSU Slot

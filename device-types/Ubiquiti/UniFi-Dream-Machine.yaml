@@ -1,0 +1,35 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Dream Machine
+slug: ubiquiti-udm
+airflow: passive
+part_number: UDM
+comments: |
+  [UniFi Dream Machine](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/udm-us)
+
+  SOHO Security Gateway and Network Appliance (4) 1G LAN, (1) 1G WAN
+
+  Dimensions: 110 x 184.2 mm (4.33 x 7.25")
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: port.1
+    type: 1000base-t
+    label: Port 1 - LAN
+  - name: port.2
+    type: 1000base-t
+    label: Port 2 - LAN
+  - name: port.3
+    type: 1000base-t
+    label: Port 3 - LAN
+  - name: port.4
+    type: 1000base-t
+    label: Port 4 - LAN
+  - name: port.5
+    type: 1000base-t
+    label: Port 5 - WAN
+power-ports:
+  - name: Supply
+    type: iec-60320-c8
+    maximum_draw: 26
+    description: 100-240VAC/50-60 Hz

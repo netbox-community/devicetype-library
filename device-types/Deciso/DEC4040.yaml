@@ -1,0 +1,34 @@
+---
+manufacturer: Deciso
+model: DEC4040
+part_number: DEC4040
+slug: deciso-dec4040
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: igb0
+    type: 1000base-t
+  - name: igb1
+    type: 1000base-t
+  - name: igb2
+    type: 1000base-t
+  - name: igb3
+    type: 1000base-t
+  - name: x0
+    type: 10gbase-x-sfpp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: xxv0
+    type: 25gbase-x-sfp28
+  - name: xxv1
+    type: 25gbase-x-sfp28
+console-ports:
+  - name: Console
+    type: usb-mini-b
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14

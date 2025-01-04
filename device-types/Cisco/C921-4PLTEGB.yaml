@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: Catalyst 921-4PLTEGB
+part_number: C921-4PLTEGB
+slug: cisco-c921-4pltegb
+comments: (Cisco 900 Series Integrated Services Routers Data Sheet)[https://www.cisco.com/c/en/us/products/collateral/routers/900-series-integrated-services-routers-isr/datasheet-c78-741615.html]
+u_height: 1
+is_full_depth: false
+weight: 1.20
+weight_unit: kg
+airflow: passive
+console-ports:
+  - name: con0
+    type: rj-45
+    mgmt_only: true
+interfaces:
+  - name: Cellular0
+    type: lte
+  - name: GigabitEthernet0
+    type: 1000base-t
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 80

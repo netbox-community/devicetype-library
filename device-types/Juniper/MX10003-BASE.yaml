@@ -1,0 +1,25 @@
+---
+manufacturer: Juniper
+model: MX10003-BASE
+slug: juniper-mx10003-base
+u_height: 3
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PEM0
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PEM1
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PEM2
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PEM3
+    type: iec-60320-c14
+    maximum_draw: 1600
+console-ports:
+  - name: Console
+    type: rj-45

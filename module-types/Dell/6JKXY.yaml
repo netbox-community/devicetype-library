@@ -1,0 +1,14 @@
+---
+manufacturer: Dell
+model: 6JKXY
+part_number: 6JKXY
+comments: Broadcom 2x10G SFP+ OCP 3.0
+interfaces:
+  - name: '{module}-10GbE-0'
+    label: '1'
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: '{module}-10GbE-1'
+    label: '2'
+    type: 10gbase-x-sfpp
+    mgmt_only: false

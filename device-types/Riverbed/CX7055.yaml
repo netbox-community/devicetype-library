@@ -1,0 +1,36 @@
+---
+manufacturer: Riverbed
+model: CX7055
+slug: riverbed-cx7055
+part_number: CX7055
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB0
+    type: usb-a
+  - name: USB1
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 420
+    maximum_draw: 770
+  - name: PS2
+    type: iec-60320-c14
+    allocated_draw: 420
+    maximum_draw: 770
+interfaces:
+  - name: LAN0_0
+    type: 1000base-t
+  - name: WAN0_0
+    type: 1000base-t
+  - name: LAN_0_1
+    type: 1000base-t
+  - name: WAN0_1
+    type: 1000base-t
+  - name: Primary
+    type: 1000base-t
+  - name: Aux
+    type: 1000base-t

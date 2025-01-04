@@ -1,0 +1,276 @@
+---
+manufacturer: Juniper
+model: QFX5210-128C
+slug: juniper-qfx5210-128c
+comments: '[Juniper QFX5200 Data Sheet](https://www.juniper.net/us/en/products-services/switching/qfx-series/qfx5200/)'
+u_height: 1
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+  - name: et-0/0/0
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/1
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/2
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/3
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/4
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/5
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/6
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/7
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/8
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/9
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/10
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/11
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/12
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/13
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/14
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/15
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/16
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/17
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/18
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/19
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/20
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/21
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/22
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/23
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/24
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/25
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/26
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/27
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/28
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/29
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/30
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/31
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/32
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/33
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/34
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/35
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/36
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/37
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/38
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/39
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/40
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/41
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/42
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/43
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/44
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/45
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/46
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/47
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/48
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/49
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/50
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/51
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/52
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/53
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/54
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/55
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/56
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/57
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/58
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/59
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/60
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/61
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/62
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/63
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/64
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/65
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/66
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/67
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/68
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/69
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/70
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/71
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/72
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/73
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/74
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/75
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/76
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/77
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/78
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/79
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/80
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/81
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/82
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/83
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/84
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/85
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/86
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/87
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/88
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/89
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/90
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/91
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/92
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/93
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/94
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/95
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/96
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/97
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/98
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/99
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/100
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/101
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/102
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/103
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/104
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/105
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/106
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/107
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/108
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/109
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/110
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/111
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/112
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/113
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/114
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/115
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/116
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/117
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/118
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/119
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/120
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/121
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/122
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/123
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/124
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/125
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/126
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/127
+    type: 100gbase-x-qsfp28
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 650
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 650
+console-ports:
+  - name: Console
+    type: rj-45

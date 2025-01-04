@@ -1,0 +1,33 @@
+---
+manufacturer: Cisco
+model: ISR4351
+slug: cisco-isr4351
+part_number: ISR4351/K9
+u_height: 2
+is_full_depth: false
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: aux 0
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    allocated_draw: 48
+    maximum_draw: 430

@@ -1,0 +1,87 @@
+---
+manufacturer: Raritan
+model: PX2-2493
+slug: raritan-px2-2493
+part_number: PX2-2493
+u_height: 0
+is_full_depth: false
+power-ports:
+  - name: Inlet
+    type: iec-60309-p-n-e-6h
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 6
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 12
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Outlet 13
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 16
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 17
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 18
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Outlet 19
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 20
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 21
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 22
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 23
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 24
+    type: iec-60320-c19
+    power_port: Inlet
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true

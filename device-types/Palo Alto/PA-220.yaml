@@ -1,0 +1,44 @@
+---
+manufacturer: Palo Alto
+model: PA-220
+slug: palo-alto-pa-220
+part_number: PA-220
+u_height: 0
+subdevice_role: child
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[PA-220 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-220-specsheet)'
+airflow: passive
+weight: 3
+weight_unit: lb
+power-ports:
+  - name: PS1
+    type: dc-terminal
+  - name: PS2
+    type: dc-terminal
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: ethernet1/7
+    type: 1000base-t
+  - name: ethernet1/8
+    type: 1000base-t
+  - name: loopback
+    type: virtual

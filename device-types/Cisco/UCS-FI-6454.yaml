@@ -1,0 +1,201 @@
+---
+manufacturer: Cisco
+model: UCS-FI-6454
+slug: cisco-ucs-fi-6454
+part_number: UCS-FI-6454
+description: 54-port fabric interconnect 48x 10/25G SFP28, 6x 40/100G QSFP
+u_height: 1
+weight: 10.10
+weight_unit: kg
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb0
+    type: usb-a
+interfaces:
+  - name: port-1
+    label: Port 1
+    type: 25gbase-x-sfp28
+  - name: port-2
+    label: Port 2
+    type: 25gbase-x-sfp28
+  - name: port-3
+    label: Port 3
+    type: 25gbase-x-sfp28
+  - name: port-4
+    label: Port 4
+    type: 25gbase-x-sfp28
+  - name: port-5
+    label: Port 5
+    type: 25gbase-x-sfp28
+  - name: port-6
+    label: Port 6
+    type: 25gbase-x-sfp28
+  - name: port-7
+    label: Port 7
+    type: 25gbase-x-sfp28
+  - name: port-8
+    label: Port 8
+    type: 25gbase-x-sfp28
+  - name: port-9
+    label: Port 9
+    type: 25gbase-x-sfp28
+  - name: port-10
+    label: Port 10
+    type: 25gbase-x-sfp28
+  - name: port-11
+    label: Port 11
+    type: 25gbase-x-sfp28
+  - name: port-12
+    label: Port 12
+    type: 25gbase-x-sfp28
+  - name: port-13
+    label: Port 13
+    type: 25gbase-x-sfp28
+  - name: port-14
+    label: Port 14
+    type: 25gbase-x-sfp28
+  - name: port-15
+    label: Port 15
+    type: 25gbase-x-sfp28
+  - name: port-16
+    label: Port 16
+    type: 25gbase-x-sfp28
+  - name: port-17
+    label: Port 17
+    type: 25gbase-x-sfp28
+  - name: port-18
+    label: Port 18
+    type: 25gbase-x-sfp28
+  - name: port-19
+    label: Port 19
+    type: 25gbase-x-sfp28
+  - name: port-20
+    label: Port 20
+    type: 25gbase-x-sfp28
+  - name: port-21
+    label: Port 21
+    type: 25gbase-x-sfp28
+  - name: port-22
+    label: Port 22
+    type: 25gbase-x-sfp28
+  - name: port-23
+    label: Port 23
+    type: 25gbase-x-sfp28
+  - name: port-24
+    label: Port 24
+    type: 25gbase-x-sfp28
+  - name: port-25
+    label: Port 25
+    type: 25gbase-x-sfp28
+  - name: port-26
+    label: Port 26
+    type: 25gbase-x-sfp28
+  - name: port-27
+    label: Port 27
+    type: 25gbase-x-sfp28
+  - name: port-28
+    label: Port 28
+    type: 25gbase-x-sfp28
+  - name: port-29
+    label: Port 29
+    type: 25gbase-x-sfp28
+  - name: port-30
+    label: Port 30
+    type: 25gbase-x-sfp28
+  - name: port-31
+    label: Port 31
+    type: 25gbase-x-sfp28
+  - name: port-32
+    label: Port 32
+    type: 25gbase-x-sfp28
+  - name: port-33
+    label: Port 33
+    type: 25gbase-x-sfp28
+  - name: port-34
+    label: Port 34
+    type: 25gbase-x-sfp28
+  - name: port-35
+    label: Port 35
+    type: 25gbase-x-sfp28
+  - name: port-36
+    label: Port 36
+    type: 25gbase-x-sfp28
+  - name: port-37
+    label: Port 37
+    type: 25gbase-x-sfp28
+  - name: port-38
+    label: Port 38
+    type: 25gbase-x-sfp28
+  - name: port-39
+    label: Port 39
+    type: 25gbase-x-sfp28
+  - name: port-40
+    label: Port 40
+    type: 25gbase-x-sfp28
+  - name: port-41
+    label: Port 41
+    type: 25gbase-x-sfp28
+  - name: port-42
+    label: Port 42
+    type: 25gbase-x-sfp28
+  - name: port-43
+    label: Port 43
+    type: 25gbase-x-sfp28
+  - name: port-44
+    label: Port 44
+    type: 25gbase-x-sfp28
+  - name: port-45
+    label: Port 45
+    type: 25gbase-x-sfp28
+  - name: port-46
+    label: Port 46
+    type: 25gbase-x-sfp28
+  - name: port-47
+    label: Port 47
+    type: 25gbase-x-sfp28
+  - name: port-48
+    label: Port 48
+    type: 25gbase-x-sfp28
+  - name: port-49
+    label: Port 49
+    type: 100gbase-x-qsfp28
+  - name: port-50
+    label: Port 50
+    type: 100gbase-x-qsfp28
+  - name: port-51
+    label: Port 51
+    type: 100gbase-x-qsfp28
+  - name: port-52
+    label: Port 52
+    type: 100gbase-x-qsfp28
+  - name: port-53
+    label: Port 53
+    type: 100gbase-x-qsfp28
+  - name: port-54
+    label: Port 54
+    type: 100gbase-x-qsfp28
+  - name: L1
+    type: 1000base-t
+  - name: L2
+    type: 1000base-t
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+    label: Power Supply 1
+  - name: PS2
+    position: '2'
+    label: Power Supply 2
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'

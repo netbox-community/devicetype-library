@@ -1,0 +1,58 @@
+---
+manufacturer: MikroTik
+model: CRS112-8P-4S-IN
+slug: mikrotik-crs112-8p-4s-in
+part_number: CRS112-8P-4S
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: ether1
+    label: '1'
+    type: 1000base-t
+  - name: ether2
+    label: '2'
+    type: 1000base-t
+  - name: ether3
+    label: '3'
+    type: 1000base-t
+  - name: ether4
+    label: '4'
+    type: 1000base-t
+  - name: ether5
+    label: '5'
+    type: 1000base-t
+  - name: ether6
+    label: '6'
+    type: 1000base-t
+  - name: ether7
+    label: '7'
+    type: 1000base-t
+  - name: ether8
+    label: '8'
+    type: 1000base-t
+  - name: sfp1
+    label: '9'
+    type: 1000base-x-sfp
+  - name: sfp2
+    label: '10'
+    type: 1000base-x-sfp
+  - name: sfp3
+    label: '11'
+    type: 1000base-x-sfp
+  - name: sfp4
+    label: '12'
+    type: 1000base-x-sfp
+power-ports:
+  - name: psu1
+    label: DC IN 18-28V
+    type: dc-terminal
+    maximum_draw: 160
+  - name: psu2
+    label: DC IN 48-57V
+    type: dc-terminal
+    maximum_draw: 160
+console-ports:
+  - name: serial0
+    label: CONSOLE
+    type: rj-45
+comments: 8x Gigabit Ethernet Smart Switch with PoE-out, 4x SFP cages, 400MHz CPU, 128MB RAM, desktop case, RouterOS L5

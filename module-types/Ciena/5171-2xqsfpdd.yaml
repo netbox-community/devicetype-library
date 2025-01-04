@@ -1,0 +1,14 @@
+---
+manufacturer: Ciena
+model: 5171 2xQSFPDD
+part_number: 170-0460-900
+description: 5171-ROUTER, MODULE, (1)200/100G/40G QSFP-DD, (1)100/40G QSFP-DD
+comments: |
+  Two QSFP-DD ports:
+  - Port 1 supporting up to 200GbE
+  - Port 2 supporting up to 100GbE
+interfaces:
+  - name: '{module}/1'
+    type: 200gbase-x-qsfpdd
+  - name: '{module}/2'
+    type: 100gbase-x-qsfpdd

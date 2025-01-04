@@ -1,0 +1,29 @@
+---
+manufacturer: Palo Alto
+model: PA-200
+slug: palo-alto-pa-200
+part_number: PA-200
+u_height: 1
+is_full_depth: false
+front_image: true
+comments: '[PA-200 Datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-200-specsheet)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+    type: 100base-tx
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: loopback
+    type: virtual

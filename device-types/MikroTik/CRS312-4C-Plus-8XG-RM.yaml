@@ -1,0 +1,37 @@
+---
+manufacturer: MikroTik
+model: CRS312-4C+8XG-RM
+slug: mikrotik-crs312-4c-plus-8xg-rm
+is_full_depth: false
+u_height: 1
+interfaces:
+  - name: xether1
+    type: 10gbase-x-sfpp
+  - name: xether2
+    type: 10gbase-x-sfpp
+  - name: xether3
+    type: 10gbase-x-sfpp
+  - name: xether4
+    type: 10gbase-x-sfpp
+  - name: xether5
+    type: 10gbase-x-sfpp
+  - name: xether6
+    type: 10gbase-x-sfpp
+  - name: xether7
+    type: 10gbase-x-sfpp
+  - name: xether8
+    type: 10gbase-x-sfpp
+  - name: combo1
+    type: 10gbase-x-sfpp
+  - name: combo2
+    type: 10gbase-x-sfpp
+  - name: combo3
+    type: 10gbase-x-sfpp
+  - name: combo4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: dc-terminal

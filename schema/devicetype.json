@@ -1,0 +1,117 @@
+{
+    "type": "object",
+    "$id": "urn:devicetype-library:device-type",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+        "manufacturer": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string",
+            "pattern": "^[-a-z0-9_]+$"
+        },
+        "part_number": {
+            "type": "string"
+        },
+        "u_height": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.5
+        },
+        "is_full_depth": {
+            "type": "boolean"
+        },
+        "airflow": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
+        },
+        "weight": {
+            "$ref": "urn:devicetype-library:reusable#/definitions/weight"
+        },
+        "weight_unit": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
+        },
+        "front_image": {
+            "type": "boolean"
+        },
+        "rear_image": {
+            "type": "boolean"
+        },
+        "subdevice_role": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/subdevice-role"
+        },
+        "is_powered": {
+          "type": "boolean"
+        },
+        "console-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/console-port"
+            }
+        },
+        "console-server-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/console-server-port"
+            }
+        },
+        "power-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/power-port"
+            }
+        },
+        "power-outlets": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/power-outlet"
+            }
+        },
+        "interfaces": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/interface"
+            }
+        },
+        "front-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/front-port"
+            }
+        },
+        "rear-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/rear-port"
+            }
+        },
+        "module-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/module-bay"
+            }
+        },
+        "device-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/device-bay"
+            }
+        },
+        "inventory-items": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/inventory-item"
+            }
+        },
+        "description": {
+            "type": "string"
+        },
+        "comments": {
+            "type": "string"
+        }
+    },
+    "required": ["manufacturer", "model", "slug"],
+    "additionalProperties": false
+}

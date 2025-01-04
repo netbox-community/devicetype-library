@@ -1,0 +1,29 @@
+---
+manufacturer: Huawei
+model: 2288H V5
+slug: huawei-2288h-v5
+part_number: H22-05-S8AFF
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 900
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 900
+interfaces:
+  - name: Net 1
+    type: 10gbase-x-sfpp
+  - name: Net 2
+    type: 10gbase-x-sfpp
+  - name: Net 3
+    type: 1000base-t
+  - name: Net 4
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

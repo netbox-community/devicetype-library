@@ -1,0 +1,49 @@
+---
+manufacturer: CyberPower
+model: CP1500PFCLCD
+slug: cyberpower-cps1500pfclcd
+part_number: cps1500pfclcd
+#u_height: 2 # Free Standing
+is_full_depth: false
+# comments: CyberPower Systems PFC Sinewave Series UPS 100-125V. 1500 VA, 1000 W, 120 V; 12 Outlets & 2 USB Charging Ports; Coax and Dataline protection; Automatic Voltage Regulation
+power-ports:
+  - name: Power Port 1
+    type: nema-5-15p
+    #maximum_draw:
+power-outlets:
+  - name: Surge 1
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge 2
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge 3
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge 4
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge 5
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge 6
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge + Battery 1
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge + Battery 2
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge + Battery 3
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge + Battery 4
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge + Battery 5
+    type: nema-5-15r
+    power_port: Power Port 1
+  - name: Surge + Battery 6
+    type: nema-5-15r
+    power_port: Power Port 1

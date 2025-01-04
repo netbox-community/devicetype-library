@@ -1,0 +1,72 @@
+{
+    "type": "object",
+    "$id": "urn:devicetype-library:module-type",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+        "manufacturer": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "part_number": {
+            "type": "string"
+        },
+        "weight": {
+            "$ref": "urn:devicetype-library:reusable#/definitions/weight"
+        },
+        "weight_unit": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
+        },
+        "console-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/console-port"
+            }
+        },
+        "console-server-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/console-server-port"
+            }
+        },
+        "power-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/power-port"
+            }
+        },
+        "power-outlets": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/power-outlet"
+            }
+        },
+        "interfaces": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/interface"
+            }
+        },
+        "front-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/front-port"
+            }
+        },
+        "rear-ports": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/rear-port"
+            }
+        },
+        "description": {
+            "type": "string"
+        },
+        "comments": {
+            "type": "string"
+        }
+    },
+    "required": ["manufacturer", "model"],
+    "additionalProperties": false
+}

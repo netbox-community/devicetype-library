@@ -1,0 +1,43 @@
+---
+manufacturer: Cisco
+model: ASR1001-X
+slug: cisco-asr1001-x
+part_number: ASR1001-X
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 25
+weight_unit: lb
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/0/5
+    type: 1000base-t
+  - name: TenGigabitEthernet0/0/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: con 0
+    type: rj-45
+module-bays:
+  - name: ASR1001-X-SPA
+    label: SPA
+    position: 0/1
+  - name: PSU0
+    position: '0'
+    description: Power module
+  - name: PSU1
+    position: '1'
+    description: Power module

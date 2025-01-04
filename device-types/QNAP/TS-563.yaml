@@ -1,0 +1,22 @@
+---
+manufacturer: QNAP
+model: TS-563
+slug: qnap-ts-563
+u_height: 0
+part_number: TS-563
+is_full_depth: false
+weight: 4.4
+weight_unit: kg
+comments: '[TS-563 | Hardware Specs | QNAP](https://www.qnap.com/en/product/ts-563/specs/hardware)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 70
+interfaces:
+  - name: eth0
+    label: '1'
+    type: 1000base-t
+  - name: eth1
+    label: '2'
+    type: 1000base-t

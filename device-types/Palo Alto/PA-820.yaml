@@ -1,0 +1,50 @@
+---
+manufacturer: Palo Alto
+model: PA-820
+slug: palo-alto-pa-820
+part_number: PA-820
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 200
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: dedicated-ha1
+    type: 1000base-t
+  - name: dedicated-ha2
+    type: 1000base-t
+  - name: loopback
+    type: virtual
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-x-sfp
+  - name: ethernet1/6
+    type: 1000base-x-sfp
+  - name: ethernet1/7
+    type: 1000base-x-sfp
+  - name: ethernet1/8
+    type: 1000base-x-sfp
+  - name: ethernet1/9
+    type: 1000base-x-sfp
+  - name: ethernet1/10
+    type: 1000base-x-sfp
+  - name: ethernet1/11
+    type: 1000base-x-sfp
+  - name: ethernet1/12
+    type: 1000base-x-sfp

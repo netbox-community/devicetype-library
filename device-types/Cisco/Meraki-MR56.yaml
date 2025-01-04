@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: Meraki MR56
+slug: cisco-meraki-mr56
+part_number: MR56
+is_full_depth: false
+u_height: 0
+comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR56_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR56_Datasheet)\r\
+  \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+interfaces:
+  - name: main
+    type: 2.5gbase-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

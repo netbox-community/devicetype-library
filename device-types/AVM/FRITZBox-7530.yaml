@@ -1,0 +1,34 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 7530
+slug: avm-fritzbox-7530
+part_number: '20002839'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 7530 Datasheet](https://avm.de/produkte/fritzbox/fritzbox-7530/technische-daten/)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: FON1
+    label: FON 1
+    type: other
+  - name: LAN1
+    label: LAN 1 / WAN
+    type: 1000base-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+  - name: LAN4
+    label: LAN 4
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac

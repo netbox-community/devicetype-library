@@ -1,0 +1,40 @@
+---
+manufacturer: SonicWall
+model: TZ570W
+slug: sonicwall-tz570w
+part_number: TZ570W
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 60
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 60
+interfaces:
+  - name: X0
+    type: 1000base-t
+  - name: X1
+    type: 1000base-t
+  - name: X2
+    type: 1000base-t
+  - name: X3
+    type: 1000base-t
+  - name: X4
+    type: 1000base-t
+  - name: X5
+    type: 1000base-t
+  - name: X6
+    type: 1000base-t
+  - name: X7
+    type: 1000base-t
+  - name: X8
+    type: 1000base-x-sfp
+  - name: X9
+    type: 1000base-x-sfp
+  - name: W0
+    type: ieee802.11ac

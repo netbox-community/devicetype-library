@@ -1,0 +1,50 @@
+---
+manufacturer: Eaton
+model: EMAT09-10
+slug: eaton-emat09-10
+part_number: '743172082664'
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 7.1
+weight_unit: lb
+front_image: true
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+interfaces:
+  - name: Network
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: Power Port 1
+    type: nema-l5-20p
+power-outlets:
+  - name: A1
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A2
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A3
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A4
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A5
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A6
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A7
+    type: nema-5-20r
+    power_port: Power Port 1
+  - name: A8
+    type: nema-5-20r
+    power_port: Power Port 1

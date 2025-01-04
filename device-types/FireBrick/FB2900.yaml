@@ -1,0 +1,23 @@
+---
+manufacturer: FireBrick
+model: FB2900
+slug: firebrick-fb2900
+part_number: FB2900
+u_height: 1
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: PSU1
+    type: iec-60320-c8
+    maximum_draw: 15
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-x-sfp

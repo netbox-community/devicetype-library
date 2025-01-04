@@ -1,0 +1,79 @@
+---
+manufacturer: HPE
+model: Aruba 2920-24G-PoE+
+slug: hpe-aruba-2920-24g-poep
+part_number: J9727A
+u_height: 1
+is_full_depth: false
+weight: 5460
+weight_unit: g
+power-ports:
+  - name: XPS
+    type: dc-terminal
+    maximum_draw: 475
+    allocated_draw: 42
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t
+  - name: '11'
+    type: 1000base-t
+  - name: '12'
+    type: 1000base-t
+  - name: '13'
+    type: 1000base-t
+  - name: '14'
+    type: 1000base-t
+  - name: '15'
+    type: 1000base-t
+  - name: '16'
+    type: 1000base-t
+  - name: '17'
+    type: 1000base-t
+  - name: '18'
+    type: 1000base-t
+  - name: '19'
+    type: 1000base-t
+  - name: '20'
+    type: 1000base-t
+  - name: '21'
+    type: 1000base-t
+  - name: '22'
+    type: 1000base-t
+  - name: '23'
+    type: 1000base-t
+  - name: '24'
+    type: 1000base-t
+module-bays:
+  - name: Module A
+    position: A
+  - name: Module B
+    position: B
+  - name: Stacking Module
+  - name: Power Supply
+    position: '1'

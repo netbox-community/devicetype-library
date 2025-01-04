@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: PWR-400-DC-BLUE
+part_number: PWR-400-DC-BLUE
+# airflow: front-to-rear
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 400

@@ -1,0 +1,42 @@
+---
+manufacturer: Cisco
+model: Meraki MX100
+slug: cisco-meraki-mx100
+part_number: MX100
+u_height: 1
+is_full_depth: false
+comments: Meraki MX100
+front_image: true
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 55
+    allocated_draw: 30
+interfaces:
+  - name: USB
+    type: lte
+  - name: Internet 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-x-sfp
+  - name: Port 11
+    type: 1000base-x-sfp
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
