@@ -1,16 +1,19 @@
 ---
 manufacturer: Extreme Networks
-model: X670V-48t
-slug: extreme-networks-x670v-48t
+model: X690-48t-2q-4c
+slug: extreme-networks-x690-48t-2q-4c
+part_number: '17360'
 u_height: 1
 is_full_depth: true
-weight: 7.0
-weight_unit: kg
-comments: '[Extreme Networks X670V-48t Datasheet](https://documentation.extremenetworks.com/summit_16/GUID-5F1B8657-ECB7-44A2-A73F-1DE56D26589F.shtml)'
+front_image: true
+rear_image: true
 console-ports:
   - name: Serial console port
     type: rj-45
 interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
   - name: '1'
     type: 10gbase-t
   - name: '2'
@@ -101,23 +104,26 @@ interfaces:
     type: 10gbase-t
   - name: '45'
     type: 10gbase-t
-    description: Combo Port (either SFP+ or 10GBASE-T)
   - name: '46'
     type: 10gbase-t
-    description: Combo Port (either SFP+ or 10GBASE-T)
   - name: '47'
     type: 10gbase-t
-    description: Combo Port (either SFP+ or 10GBASE-T)
   - name: '48'
     type: 10gbase-t
-    description: Combo Port (either SFP+ or 10GBASE-T)
-  - name: Mgmt
-    type: 1000base-t
-    mgmt_only: true
+  - name: '49'
+    type: 40gbase-x-qsfpp
+  - name: '53'
+    type: 40gbase-x-qsfpp
+  - name: '57'
+    type: 100gbase-x-qsfp28
+  - name: '61'
+    type: 100gbase-x-qsfp28
+  - name: '65'
+    type: 100gbase-x-qsfp28
+  - name: '69'
+    type: 100gbase-x-qsfp28
 module-bays:
   - name: PSU-1
     position: PSU-1
   - name: PSU-2
     position: PSU-2
-  - name: VIM
-    position: VIM
