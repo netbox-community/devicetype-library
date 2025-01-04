@@ -8,54 +8,54 @@ airflow: passive
 weight: 1.0
 weight_unit: kg
 power-ports:
-- name: Power Input
-  type: ''
-  maximum_draw: 4000
-  allocated_draw: null
-  label: ''
+  - name: Power Input
+    type: ""
+    maximum_draw: 4000
+    allocated_draw: null
+    label: ""
 power-outlets:
-- name: Power Output 1
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 2
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 3
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 4
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 5
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 6
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 7
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 8
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
-- name: Power Output 9
-  type: ''
-  power_port: Power Input
-  feed_leg: ''
-  label: ''
+  - name: Power Output 1
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 2
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 3
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 4
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 5
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 6
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 7
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 8
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
+  - name: Power Output 9
+    type: ""
+    power_port: Power Input
+    feed_leg: ""
+    label: ""
