@@ -13,6 +13,16 @@ power-ports:
     type: iec-60320-c14
   - name: P1
     type: iec-60320-c14
+module-bays:
+  - name: ASR1002-HX-EPA
+    label: EPA
+    position: 0/2
+  - name: ASR1002-HX-NIM
+    label: NIM
+    position: '1'
+  - name: ASR1002-HX-CRYPTO
+    label: CRYPTO
+    position: '0'
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp

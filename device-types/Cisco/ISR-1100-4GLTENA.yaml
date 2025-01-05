@@ -1,0 +1,32 @@
+---
+manufacturer: Cisco
+model: ISR 1100-4GLTENA
+part_number: ISR1100-4GLTENA
+slug: cisco-isr1100-4gltena
+comments: '[Cisco ISR1100 and ISR1100X Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-742893.html)'
+u_height: 1
+is_full_depth: false
+weight: 2.69
+weight_unit: lb
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: Cellular0/1/0
+    type: lte
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb0
+    type: usb-a
+  - name: usb1
+    type: usb-c
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 30

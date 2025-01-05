@@ -1,7 +1,7 @@
 ---
 manufacturer: Fortinet
 model: FortiGate 40F
-slug: fg-40f
+slug: fortinet-fg-40f
 part_number: FG-40F
 u_height: 1
 is_full_depth: false
@@ -14,13 +14,13 @@ power-ports:
     maximum_draw: 14
     allocated_draw: 12
 interfaces:
-  - name: wan1
+  - name: wan
     type: 1000base-t
   - name: A
     type: 1000base-t
-  - name: internal1
+  - name: lan1
     type: 1000base-t
-  - name: internal2
+  - name: lan2
     type: 1000base-t
-  - name: internal3
+  - name: lan3
     type: 1000base-t

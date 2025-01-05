@@ -1,0 +1,230 @@
+---
+manufacturer: Opengear
+model: CM8196-10G
+slug: opengear-cm8196-10g
+part_number: CM8196-10G
+u_height: 2
+is_full_depth: false
+comments: CM8196 with built-in Dual Power Supplies & 10G SFP slots.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+console-server-ports:
+  - name: Port 1
+    type: rj-45
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: Port 5
+    type: rj-45
+  - name: Port 6
+    type: rj-45
+  - name: Port 7
+    type: rj-45
+  - name: Port 8
+    type: rj-45
+  - name: Port 9
+    type: rj-45
+  - name: Port 10
+    type: rj-45
+  - name: Port 11
+    type: rj-45
+  - name: Port 12
+    type: rj-45
+  - name: Port 13
+    type: rj-45
+  - name: Port 14
+    type: rj-45
+  - name: Port 15
+    type: rj-45
+  - name: Port 16
+    type: rj-45
+  - name: Port 17
+    type: rj-45
+  - name: Port 18
+    type: rj-45
+  - name: Port 19
+    type: rj-45
+  - name: Port 20
+    type: rj-45
+  - name: Port 21
+    type: rj-45
+  - name: Port 22
+    type: rj-45
+  - name: Port 23
+    type: rj-45
+  - name: Port 24
+    type: rj-45
+  - name: Port 25
+    type: rj-45
+  - name: Port 26
+    type: rj-45
+  - name: Port 27
+    type: rj-45
+  - name: Port 28
+    type: rj-45
+  - name: Port 29
+    type: rj-45
+  - name: Port 30
+    type: rj-45
+  - name: Port 31
+    type: rj-45
+  - name: Port 32
+    type: rj-45
+  - name: Port 33
+    type: rj-45
+  - name: Port 34
+    type: rj-45
+  - name: Port 35
+    type: rj-45
+  - name: Port 36
+    type: rj-45
+  - name: Port 37
+    type: rj-45
+  - name: Port 38
+    type: rj-45
+  - name: Port 39
+    type: rj-45
+  - name: Port 40
+    type: rj-45
+  - name: Port 41
+    type: rj-45
+  - name: Port 42
+    type: rj-45
+  - name: Port 43
+    type: rj-45
+  - name: Port 44
+    type: rj-45
+  - name: Port 45
+    type: rj-45
+  - name: Port 46
+    type: rj-45
+  - name: Port 47
+    type: rj-45
+  - name: Port 48
+    type: rj-45
+  - name: Port 49
+    type: rj-45
+  - name: Port 50
+    type: rj-45
+  - name: Port 51
+    type: rj-45
+  - name: Port 52
+    type: rj-45
+  - name: Port 53
+    type: rj-45
+  - name: Port 54
+    type: rj-45
+  - name: Port 55
+    type: rj-45
+  - name: Port 56
+    type: rj-45
+  - name: Port 57
+    type: rj-45
+  - name: Port 58
+    type: rj-45
+  - name: Port 59
+    type: rj-45
+  - name: Port 60
+    type: rj-45
+  - name: Port 61
+    type: rj-45
+  - name: Port 62
+    type: rj-45
+  - name: Port 63
+    type: rj-45
+  - name: Port 64
+    type: rj-45
+  - name: Port 65
+    type: rj-45
+  - name: Port 66
+    type: rj-45
+  - name: Port 67
+    type: rj-45
+  - name: Port 68
+    type: rj-45
+  - name: Port 69
+    type: rj-45
+  - name: Port 70
+    type: rj-45
+  - name: Port 71
+    type: rj-45
+  - name: Port 72
+    type: rj-45
+  - name: Port 73
+    type: rj-45
+  - name: Port 74
+    type: rj-45
+  - name: Port 75
+    type: rj-45
+  - name: Port 76
+    type: rj-45
+  - name: Port 77
+    type: rj-45
+  - name: Port 78
+    type: rj-45
+  - name: Port 79
+    type: rj-45
+  - name: Port 80
+    type: rj-45
+  - name: Port 81
+    type: rj-45
+  - name: Port 82
+    type: rj-45
+  - name: Port 83
+    type: rj-45
+  - name: Port 84
+    type: rj-45
+  - name: Port 85
+    type: rj-45
+  - name: Port 86
+    type: rj-45
+  - name: Port 87
+    type: rj-45
+  - name: Port 88
+    type: rj-45
+  - name: Port 89
+    type: rj-45
+  - name: Port 90
+    type: rj-45
+  - name: Port 91
+    type: rj-45
+  - name: Port 92
+    type: rj-45
+  - name: Port 93
+    type: rj-45
+  - name: Port 94
+    type: rj-45
+  - name: Port 95
+    type: rj-45
+  - name: Port 96
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 50
+    allocated_draw: 30
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 50
+    allocated_draw: 30
+interfaces:
+  - name: NET1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: NET2
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: NET3
+    type: 1000base-t
+    mgmt_only: true
+  - name: NET4
+    type: 1000base-t
+    mgmt_only: true

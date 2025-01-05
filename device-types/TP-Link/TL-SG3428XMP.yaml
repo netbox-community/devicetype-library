@@ -1,0 +1,178 @@
+---
+manufacturer: TP-Link
+model: TL-SG3428XMP
+slug: tp-link-tl-sg3428xmp
+u_height: 1
+is_full_depth: false
+comments: '[TP-Link TL-SG3428XMP](https://www.tp-link.com/us/business-networking/omada-sdn-switch/tl-sg3428xmp/)'
+console-ports:
+  - name: Serial Console
+    type: rj-45
+    label: Console(RJ45)
+  - name: USB Serial Console
+    type: usb-micro-b
+    label: Console(USB)
+power-ports:
+  - name: PWR1
+    type: iec-60320-c14
+interfaces:
+  - name: gigabitEthernet 1/0/1
+    type: 1000base-t
+    mgmt_only: false
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/2
+    type: 1000base-t
+    mgmt_only: false
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/3
+    type: 1000base-t
+    mgmt_only: false
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/4
+    type: 1000base-t
+    mgmt_only: false
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/5
+    type: 1000base-t
+    mgmt_only: false
+    label: '5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/6
+    type: 1000base-t
+    mgmt_only: false
+    label: '6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/7
+    type: 1000base-t
+    mgmt_only: false
+    label: '7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/8
+    type: 1000base-t
+    mgmt_only: false
+    label: '8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/9
+    type: 1000base-t
+    mgmt_only: false
+    label: '9'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/10
+    type: 1000base-t
+    mgmt_only: false
+    label: '10'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/11
+    type: 1000base-t
+    mgmt_only: false
+    label: '11'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/12
+    type: 1000base-t
+    mgmt_only: false
+    label: '12'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/13
+    type: 1000base-t
+    mgmt_only: false
+    label: '13'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/14
+    type: 1000base-t
+    mgmt_only: false
+    label: '14'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/15
+    type: 1000base-t
+    mgmt_only: false
+    label: '15'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/16
+    type: 1000base-t
+    mgmt_only: false
+    label: '16'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/17
+    type: 1000base-t
+    mgmt_only: false
+    label: '17'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/18
+    type: 1000base-t
+    mgmt_only: false
+    label: '18'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/19
+    type: 1000base-t
+    mgmt_only: false
+    label: '19'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/20
+    type: 1000base-t
+    mgmt_only: false
+    label: '20'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/21
+    type: 1000base-t
+    mgmt_only: false
+    label: '21'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/22
+    type: 1000base-t
+    mgmt_only: false
+    label: '22'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/23
+    type: 1000base-t
+    mgmt_only: false
+    label: '23'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitEthernet 1/0/24
+    type: 1000base-t
+    mgmt_only: false
+    label: '24'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: ten-gigabitEthernet 1/0/25
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '25'
+  - name: ten-gigabitEthernet 1/0/26
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '26'
+  - name: ten-gigabitEthernet 1/0/27
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '27'
+  - name: ten-gigabitEthernet 1/0/28
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '28'

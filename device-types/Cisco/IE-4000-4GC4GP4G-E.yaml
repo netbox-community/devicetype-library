@@ -11,6 +11,11 @@ console-ports:
     type: usb-mini-b
   - name: console port
     type: rj-45
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: DC-B
+    type: dc-terminal
 interfaces:
   - name: GigabitEthernet1/1
     type: 1000base-t

@@ -1,0 +1,54 @@
+---
+manufacturer: HPE
+model: Aruba 8360-12C Front-to-Back
+slug: hpe-aruba-8360-12c-front-to-back
+part_number: JL708C
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+airflow: front-to-rear
+console-ports:
+  - name: rj45-console
+    type: rj-45
+  - name: usb-console
+    type: usb-micro-b
+  - name: usb-ble
+    type: usb-a
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 375
+    allocated_draw: 120
+  - name: ps2
+    type: iec-60320-c14
+    maximum_draw: 375
+    allocated_draw: 120
+interfaces:
+  - name: 1/1/1
+    type: 100gbase-x-qsfp28
+  - name: 1/1/2
+    type: 100gbase-x-qsfp28
+  - name: 1/1/3
+    type: 100gbase-x-qsfp28
+  - name: 1/1/4
+    type: 100gbase-x-qsfp28
+  - name: 1/1/5
+    type: 100gbase-x-qsfp28
+  - name: 1/1/6
+    type: 100gbase-x-qsfp28
+  - name: 1/1/7
+    type: 100gbase-x-qsfp28
+  - name: 1/1/8
+    type: 100gbase-x-qsfp28
+  - name: 1/1/9
+    type: 100gbase-x-qsfp28
+  - name: 1/1/10
+    type: 100gbase-x-qsfp28
+  - name: 1/1/11
+    type: 100gbase-x-qsfp28
+  - name: 1/1/12
+    type: 100gbase-x-qsfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

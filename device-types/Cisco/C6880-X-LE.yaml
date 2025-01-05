@@ -1,0 +1,65 @@
+---
+manufacturer: Cisco
+model: Catalyst 6880-X-LE
+slug: cisco-c6880-x-le
+part_number: C6880-X-LE
+u_height: 5
+is_full_depth: false
+weight: 29.03
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Cisco Catalyst 6880-X Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6880-x-switch/data_sheet_c78-728228.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-b
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet1/5/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/12
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/13
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/14
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/15
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/5/16
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

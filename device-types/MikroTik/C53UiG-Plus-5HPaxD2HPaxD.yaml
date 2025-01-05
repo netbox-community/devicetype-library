@@ -1,0 +1,27 @@
+---
+manufacturer: MikroTik
+model: C53UiG+5HPaxD2HPaxD
+slug: mikrotik-c53uig-plus-5hpaxd2hpaxd
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 38
+interfaces:
+  - name: ether1
+    type: 2.5gbase-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: wifi1
+    type: ieee802.11ax
+    description: 5ghz
+  - name: wifi2
+    type: ieee802.11ax
+    description: 2.4ghz

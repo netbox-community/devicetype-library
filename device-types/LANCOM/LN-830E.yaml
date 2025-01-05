@@ -1,0 +1,27 @@
+---
+manufacturer: LANCOM
+model: LN-830E
+slug: lancom-ln-830e
+part_number: '61747'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.5
+weight_unit: kg
+comments: '[LANCOM LN-830E Data sheet](https://my.lancom-systems.de/download/documentation/hardware/?id=7d727fda5f49452344fa706eb9188d68&file=/DS_LN-830E_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 11
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: WLAN-1
+    type: ieee802.11n
+  - name: WLAN-2
+    type: ieee802.11ac
+console-ports:
+  - name: com
+    type: mini-din-8

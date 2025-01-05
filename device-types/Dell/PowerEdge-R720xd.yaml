@@ -1,0 +1,28 @@
+---
+manufacturer: Dell
+model: PowerEdge R720xd
+slug: dell-poweredge-r720xd
+u_height: 2
+is_full_depth: true
+comments: |
+  [Dell R610 Data Sheet](https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell_poweredge_r720xd-spec-sheet.pdf)
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true

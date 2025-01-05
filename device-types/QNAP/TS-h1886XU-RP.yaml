@@ -1,0 +1,30 @@
+---
+manufacturer: QNAP
+model: TS-h1886XU-RP
+slug: qnap-ts-h1886xu-rp
+part_number: TS-h1886XU-RP
+u_height: 2
+is_full_depth: true
+comments: '[TS-h1886XU-RP | Hardware Specs | QNAP](https://qnap.ru/ts-h1886xu-rp)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 118
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 118
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 10gbase-x-sfpp
+  - name: eth5
+    type: 10gbase-x-sfpp

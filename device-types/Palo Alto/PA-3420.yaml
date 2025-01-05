@@ -1,0 +1,83 @@
+---
+manufacturer: Palo Alto
+model: PA-3420
+slug: palo-alto-pa-3420
+part_number: PA-3420
+u_height: 1
+is_full_depth: false
+weight: 7.00
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Palo Alto 3400 Series Data Sheet](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-3400-series-pan-os-10-2)'
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: ethernet1/1
+    type: 10gbase-t
+  - name: ethernet1/2
+    type: 10gbase-t
+  - name: ethernet1/3
+    type: 10gbase-t
+  - name: ethernet1/4
+    type: 10gbase-t
+  - name: ethernet1/5
+    type: 10gbase-t
+  - name: ethernet1/6
+    type: 10gbase-t
+  - name: ethernet1/7
+    type: 10gbase-t
+  - name: ethernet1/8
+    type: 10gbase-t
+  - name: ethernet1/9
+    type: 10gbase-t
+  - name: ethernet1/10
+    type: 10gbase-t
+  - name: ethernet1/11
+    type: 10gbase-t
+  - name: ethernet1/12
+    type: 10gbase-t
+  - name: ethernet1/13
+    type: 10gbase-x-sfpp
+  - name: ethernet1/14
+    type: 10gbase-x-sfpp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp
+  - name: ethernet1/17
+    type: 10gbase-x-sfpp
+  - name: ethernet1/18
+    type: 10gbase-x-sfpp
+  - name: ethernet1/19
+    type: 10gbase-x-sfpp
+  - name: ethernet1/20
+    type: 10gbase-x-sfpp
+  - name: ethernet1/21
+    type: 10gbase-x-sfpp
+  - name: ethernet1/22
+    type: 10gbase-x-sfpp
+  - name: ethernet1/23
+    type: 25gbase-x-sfp28
+  - name: ethernet1/24
+    type: 25gbase-x-sfp28
+  - name: ethernet1/25
+    type: 25gbase-x-sfp28
+  - name: ethernet1/26
+    type: 25gbase-x-sfp28
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
+  - name: hsci
+    type: 10gbase-x-sfpp
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

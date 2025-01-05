@@ -1,0 +1,53 @@
+---
+manufacturer: Netgate
+model: 8200 Max PFSense+ Security Gateway
+slug: netgate-8200-max-pfsense-plus-security-gateway
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+console-server-ports:
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+console-ports:
+  - name: console-usb
+    type: usb-micro-b
+    description: |
+      Auto-detect console port: use RJ-45 -OR- micro-USB.
+      115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
+      or XON/OFF
+  - name: console-rj45
+    type: rj-45
+    description: |
+      Auto-detect console port: use RJ-45 -OR- micro-USB.
+      115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
+      or XON/OFF
+power-ports:
+  - name: psu1
+    type: dc-terminal
+interfaces:
+  - name: ix0
+    type: 10gbase-x-sfpp
+    label: WAN3
+  - name: ix1
+    type: 10gbase-x-sfpp
+    label: WAN4
+  - name: ix2
+    type: 1000base-x-sfp
+    label: WAN2
+  - name: ix3
+    type: 1000base-x-sfp
+    label: WAN1
+  - name: igc0
+    type: 2.5gbase-t
+    label: LAN1
+  - name: igc1
+    type: 2.5gbase-t
+    label: LAN2
+  - name: igc2
+    type: 2.5gbase-t
+    label: LAN3
+  - name: igc3
+    type: 2.5gbase-t
+    label: LAN4

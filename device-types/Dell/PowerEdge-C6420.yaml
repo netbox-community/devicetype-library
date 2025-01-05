@@ -1,0 +1,18 @@
+---
+manufacturer: Dell
+model: PowerEdge C6420
+slug: dell-poweredge-c6420
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+weight: 5
+weight_unit: kg
+comments: |
+  [Dell C6420 Spec Sheet](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-c6400-c6420-technical-guide.pdf)
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true

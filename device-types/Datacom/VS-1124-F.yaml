@@ -1,0 +1,71 @@
+---
+manufacturer: Datacom
+model: VS-1124-F
+slug: datacom-vs-1124-f
+u_height: 1
+is_full_depth: true
+airflow: side-to-rear
+weight: 8.23
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: gigabit-ethernet-1/1/1
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/2
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/3
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/4
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/5
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/6
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/7
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/8
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/9
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/10
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/11
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/12
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/13
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/14
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/15
+    type: 1000base-x-sfp
+  - name: gigabit-ethernet-1/1/16
+    type: 1000base-x-sfp
+  - name: ten-gigabit-ethernet-1/1/1
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/2
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/3
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/4
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/5
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/6
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/7
+    type: 10gbase-x-sfpp
+  - name: ten-gigabit-ethernet-1/1/8
+    type: 10gbase-x-sfpp
+  - name: mgmt-1/1/1
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '1'
+    maximum_draw: 200
+  - name: PSU2
+    position: '2'
+    maximum_draw: 200

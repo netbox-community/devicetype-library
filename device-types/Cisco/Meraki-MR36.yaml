@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: Meraki MR36
+slug: cisco-meraki-mr36
+part_number: MR36
+u_height: 0.0
+is_full_depth: false
+comments: "- Datasheet: [https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR36_Datasheet](https://documentation.meraki.com/MR/MR_Overview_and_Specifications/MR36_Datasheet)\r\
+  \n- IEEE Standards: 802.11a, 802.11ac, 802.11ax, 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u"
+interfaces:
+  - name: main
+    type: 2.5gbase-t
+    poe_mode: pd
+  - name: wlan0
+    type: ieee802.11n
+  - name: wlan1
+    type: ieee802.11ac

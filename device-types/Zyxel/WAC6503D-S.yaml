@@ -1,0 +1,27 @@
+---
+manufacturer: Zyxel
+model: WAC6503D-S
+part_number: WAC6503D-S
+slug: zyxel-wac6503d-s
+u_height: 0
+is_full_depth: false
+weight: 982
+weight_unit: g
+airflow: passive
+comments: '[802.11ac Dual Radio Smart Antenna 3x3 Access Point](https://www.zyxelguard.com/WAC6503D-S.asp)'
+interfaces:
+  - name: Uplink
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: LAN1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: 12V DC
+    type: dc-terminal
+    maximum_draw: 24

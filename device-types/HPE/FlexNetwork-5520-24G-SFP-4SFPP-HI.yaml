@@ -1,0 +1,100 @@
+---
+manufacturer: HPE
+model: FlexNetwork 5520-24G-SFP-4SFPP HI
+slug: hpe-flexnetwork-5520-24g-sfp-4sfpp-hi
+part_number: R8M27A
+u_height: 1
+is_full_depth: false
+weight: 6.6
+weight_unit: kg
+comments: '[HPE FlexNetwork 5520 HI Switch Series](https://www.hpe.com/psnow/doc/a50004733enw?jumpId=in_psnow_23944961-f82d-48ce-9f08-ec7c755462e0_gaiw)'
+console-ports:
+  - name: Console
+    type: rj-45
+# dual personality console
+#   - name: Console
+#     type: usb-mini-b
+module-bays:
+  - name: port expansion module slot1
+    position: '1'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: M-GigabitEthernet1/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet1/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/20
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/21
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/22
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/23
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/24
+    type: 1000base-x-sfp
+# dual personality ports
+# - name: GigabitEthernet1/0/17
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/18
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/19
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/20
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/21
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/22
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/23
+#   type: 1000base-t
+# - name: GigabitEthernet1/0/24
+#   type: 1000base-t
+  - name: Ten-GigabitEthernet1/0/25
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/26
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/27
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/28
+    type: 10gbase-x-sfpp

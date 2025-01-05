@@ -1,0 +1,34 @@
+---
+manufacturer: Synology
+model: RS2418RP+
+slug: synology-rs2418rp-plus
+part_number: RS2418RP+
+u_height: 2
+is_full_depth: true
+weight: 13.85
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: de-9
+    mgmt_only: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 120
+    allocated_draw: 56
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 120
+    allocated_draw: 56
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+module-bays:
+  - name: PCIe Expansion

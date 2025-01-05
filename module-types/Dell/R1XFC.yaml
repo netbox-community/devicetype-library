@@ -1,0 +1,18 @@
+---
+manufacturer: Dell
+model: R1XFC
+part_number: R1XFC
+comments: Intel Ethernet i350 QP 1Gb Network Daughter Card\n[Specs](https://www.dell.com/en-us/shop/intel-ethernet-i350-qp-1gb-server-adapter-network-daughter-card-customer-installation/apd/430-4437/pc-accessories#techspecs_section)
+interfaces:
+  - name: '{module}-1GbE-0'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-1'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-2'
+    type: 1000base-t
+    mgmt_only: false
+  - name: '{module}-1GbE-3'
+    type: 1000base-t
+    mgmt_only: false

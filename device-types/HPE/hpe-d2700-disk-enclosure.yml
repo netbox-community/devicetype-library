@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: HPE D2700 Disk Enclosure
+slug: hpe-d2700-disk-enclosure
+part_number: AJ941A
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 13.2
+weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 340
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 340
+module-bays:
+  - name: Ctrl A
+    position: A
+  - name: Ctrl B
+    position: B

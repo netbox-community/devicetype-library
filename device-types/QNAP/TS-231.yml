@@ -1,0 +1,23 @@
+---
+manufacturer: QNAP
+model: TS-231
+slug: qnap-ts-231
+part_number: TS-231
+is_full_depth: false
+subdevice_role: parent
+airflow: side-to-rear
+comments: '[TS-231 | Hardware Specs | QNAP](https://www.qnap.com/de-de/product/ts-253a/specs/hardware)'
+weight: 1.28
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 20
+    allocated_draw: 13
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t

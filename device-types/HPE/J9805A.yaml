@@ -1,0 +1,39 @@
+---
+manufacturer: HPE
+model: Aruba 640 Redundant/External Power Supply Shelf
+slug: hpe-aruba-640-redundant-external-power-supply-shelf
+part_number: J9805A
+u_height: 1
+is_full_depth: false
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+power-outlets:
+  - name: 1A
+    power_port: PS1
+    type: dc-terminal
+  - name: 1B
+    power_port: PS1
+    type: dc-terminal
+  - name: 1C
+    power_port: PS1
+    type: dc-terminal
+  - name: 1D
+    power_port: PS1
+    type: dc-terminal
+  - name: 2A
+    power_port: PS2
+    type: dc-terminal
+  - name: 2B
+    power_port: PS2
+    type: dc-terminal
+  - name: 3A
+    power_port: PS3
+    type: dc-terminal
+  - name: 3B
+    power_port: PS3
+    type: dc-terminal

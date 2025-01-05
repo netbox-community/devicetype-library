@@ -9,19 +9,6 @@ is_full_depth: true
 console-ports:
   - name: Con
     type: rj-45
-power-ports:
-  - name: PSU-1
-    type: iec-60320-c14
-    maximum_draw: 1050
-  - name: PSU-2
-    type: iec-60320-c14
-    maximum_draw: 1050
-  - name: PSU-3
-    type: iec-60320-c14
-    maximum_draw: 1050
-  - name: PSU-4
-    type: iec-60320-c14
-    maximum_draw: 1050
 interfaces:
   - name: sioc1
     type: 40gbase-x-qsfpp
@@ -36,3 +23,12 @@ interfaces:
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'
+  - name: PSU-3
+    position: '3'
+  - name: PSU-4
+    position: '4'

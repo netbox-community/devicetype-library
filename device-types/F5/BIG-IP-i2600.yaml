@@ -1,0 +1,42 @@
+---
+manufacturer: F5
+model: BIG-IP i2600
+slug: f5-big-ip-i2600
+part_number: i2600
+#default_platform: TSOM
+u_height: 1
+is_full_depth: true
+weight: 8.16
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[big-ip-platforms-datasheet](https://www.f5.com/pdf/data-sheet/big-ip-platforms-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: Failover
+    type: rj-45
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1.0'
+    type: 1000base-x-sfp
+  - name: '2.0'
+    type: 1000base-x-sfp
+  - name: '3.0'
+    type: 1000base-x-sfp
+  - name: '4.0'
+    type: 1000base-x-sfp
+  - name: '5.0'
+    type: 10gbase-x-sfpp
+  - name: '6.0'
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: psu1
+    position: '1'
+  - name: psu2
+    position: '2'

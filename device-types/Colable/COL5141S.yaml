@@ -1,0 +1,31 @@
+---
+manufacturer: Colable
+model: COL5141S
+slug: colable-col5141s
+u_height: 1
+is_full_depth: true
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 45
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 45
+interfaces:
+  - name: NMS
+    type: 1000base-t
+    mgmt_only: true
+  - name: DATA
+    type: 1000base-t
+  - name: ASI OUT1
+    type: other
+  - name: ASI OUT2
+    type: other
+  - name: SDI IN1-1
+    type: other
+  - name: SDI IN1-2
+    type: other
+  - name: SDI IN2-1
+    type: other
+  - name: SDI IN2-2
+    type: other

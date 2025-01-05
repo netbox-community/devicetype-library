@@ -1,0 +1,14 @@
+---
+manufacturer: Cisco
+model: N7K-SUP1
+part_number: N7K-SUP1
+console-ports:
+  - name: console{module}
+    type: rj-45
+  - name: com1{module}
+    type: rj-45
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+  - name: cmp-mgmt
+    type: 1000base-t

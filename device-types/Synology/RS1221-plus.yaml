@@ -1,0 +1,29 @@
+---
+manufacturer: Synology
+model: RS1221+
+slug: synology-rs1221-plus
+part_number: RS1221+
+u_height: 2
+is_full_depth: true
+comments: '[Synology RS1221+/RS1221RP+ Datasheet](https://global.synologydownload.com/download/Document/Hardware/DataSheet/RackStation/21-year/RS1221%2B/ger/Synology_RS1221%2B_Data_Sheet_ger.pdf)'
+weight: 6.9
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+module-bays:
+  - name: PCIe expansion slot
+    position: PCIe-1
+    label: PCIe

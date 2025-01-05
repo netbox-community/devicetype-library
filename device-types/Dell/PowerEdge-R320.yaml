@@ -1,0 +1,33 @@
+---
+manufacturer: Dell
+model: PowerEdge R320
+slug: dell-poweredge-r320
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-a
+console-server-ports:
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true

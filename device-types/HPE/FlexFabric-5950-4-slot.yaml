@@ -1,0 +1,43 @@
+---
+manufacturer: HPE
+model: FlexFabric 5950 4-slot
+slug: hpe-flexfabric-5950-4-slot
+part_number: JH404A
+u_height: 2
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[HPE FlexFabric 5950 Switch Series](https://www.arubanetworks.com/assets/ds/DS_5950SwitchSeries.pdf)'
+weight: 10.4
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-mini-b
+  - name: USB
+    type: usb-b
+interfaces:
+  - name: Management1
+    type: 100base-tx
+    mgmt_only: true
+  - name: Management2
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: SFP1
+    type: 1000base-x-sfp
+  - name: SFP2
+    type: 1000base-x-sfp
+module-bays:
+  - name: PWR1
+    position: '1'
+  - name: PWR2
+    position: '2'
+  - name: PWR3
+    position: '3'
+  - name: PWR4
+    position: '4'
+  - name: Fan1
+    position: '1'
+  - name: Fan2
+    position: '2'

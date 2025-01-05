@@ -3,24 +3,20 @@ manufacturer: Cisco
 model: Nexus 9372PX-E
 part_number: N9K-C9372PX-E
 slug: cisco-n9k-c9372px-e
+description: Nexus 9300 with 48p 1/10G SFP+ and 6p 40G QSFP+
+front_image: true
+rear_image: true
 u_height: 1
-is_full_depth: false
+weight: 10.1
+weight_unit: kg
+is_full_depth: true
 console-ports:
   - name: console
     type: rj-45
-  - name: usb0
-    type: usb-mini-b
   - name: usb1
-    type: usb-mini-b
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    allocated_draw: 210
-    maximum_draw: 537
-  - name: PS2
-    type: iec-60320-c14
-    allocated_draw: 210
-    maximum_draw: 537
+    type: usb-a
+  - name: usb2
+    type: usb-a
 interfaces:
   - name: Ethernet1/1
     type: 10gbase-x-sfpp
@@ -133,3 +129,18 @@ interfaces:
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+    label: Power Supply 1
+  - name: PS2
+    position: '2'
+    label: Power Supply 2
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'

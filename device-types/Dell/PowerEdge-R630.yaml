@@ -1,0 +1,30 @@
+---
+manufacturer: Dell
+model: PowerEdge R630
+slug: dell-poweredge-r630
+u_height: 1
+is_full_depth: true
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: Network Daughter Card slot 1
+    position: NDC-1
+  - name: Riser PCIe-Gen3 1
+    position: PCIe-Gen3-1
+  - name: Riser PCIe-Gen3 2
+    position: PCIe-Gen3-2
+  - name: Riser PCIe-Gen3 3
+    position: PCIe-Gen3-3

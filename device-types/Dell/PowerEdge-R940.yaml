@@ -1,0 +1,40 @@
+---
+manufacturer: Dell
+model: PowerEdge R940
+slug: dell-poweredge-r940
+u_height: 3
+is_full_depth: true
+comments: |
+  [Dell R940 Data Sheet](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/poweredge-r940-spec-sheet.pdf)
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+  - name: Power 3
+    type: iec-60320-c14
+  - name: Power 4
+    type: iec-60320-c14
+interfaces:
+  - name: 10GbE 1
+    type: 10gbase-t
+  - name: 10GbE 2'
+    type: 10gbase-t
+  - name: 10GbE 3
+    type: 10gbase-t
+  - name: 10GbE 4
+    type: 10gbase-t
+  - name: 10GbE 5
+    type: 10gbase-t
+  - name: 10GbE 6
+    type: 10gbase-t
+  - name: 10GbE 7
+    type: 10gbase-t
+  - name: 10GbE 8
+    type: 10gbase-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true

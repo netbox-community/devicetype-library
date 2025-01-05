@@ -1,0 +1,10 @@
+---
+manufacturer: Qlogic
+model: UCSC-PCIE-QD25GF
+part_number: UCSC-PCIE-QD25GF
+comments: Qlogic QL41212H dual-port 25G NIC
+interfaces:
+  - name: Ethernet{module}/1
+    type: 25gbase-x-sfp28
+  - name: Ethernet{module}/2
+    type: 25gbase-x-sfp28

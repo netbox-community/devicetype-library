@@ -1,0 +1,11 @@
+---
+manufacturer: Synology
+model: E25G30-F2
+part_number: E25G30-F2
+description: Dual-port 25GbE SFP28 PCIe 3.0 x8 Network adapter
+comments: '[E25G30-F2 Specs](https://www.synology.com/en-us/products/E25G30-F2#specs)'
+interfaces:
+  - name: '{module}/LAN 1'
+    type: 25gbase-x-sfp28
+  - name: '{module}/LAN 2'
+    type: 25gbase-x-sfp28

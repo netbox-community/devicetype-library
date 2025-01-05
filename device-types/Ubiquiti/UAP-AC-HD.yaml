@@ -1,0 +1,20 @@
+---
+manufacturer: Ubiquiti
+model: AC HD
+part_number: UAP-AC-HD
+slug: ubiquiti-uap-ac-hd
+u_height: 0
+is_full_depth: false
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: eth1
+    type: 1000base-t
+  - name: wifi0
+    type: ieee802.11n
+  - name: wifi1
+    type: ieee802.11ac

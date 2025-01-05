@@ -1,0 +1,30 @@
+---
+manufacturer: Cisco
+model: Catalyst 7201
+part_number: C7201
+slug: cisco-c7201
+comments: '[Cisco 7201 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/7201-router/product_data_sheet0900aecd80630b58.html)'
+u_height: 1
+is_full_depth: false
+weight: 7.48
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: FastEthernet0/0
+    type: 100base-tx
+  - name: GigabitEthernet0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/3
+    type: 1000base-x-sfp
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

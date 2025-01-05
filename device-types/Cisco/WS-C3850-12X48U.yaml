@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: CATALYST 3850 48PT 12 MGIG+36 GIG UPOE
-slug: cisco-catalyst-3850-48pt-12-mgig36-gig-upoe
+slug: cisco-catalyst-3850-48pt-12-mgig-plus-36-gig-upoe
 part_number: WS-C3850-12X48U
 u_height: 1
 is_full_depth: false
@@ -186,7 +186,7 @@ interfaces:
 module-bays:
   - name: Network Module
     position: '1'
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B

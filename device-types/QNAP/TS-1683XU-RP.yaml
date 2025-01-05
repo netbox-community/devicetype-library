@@ -1,0 +1,30 @@
+---
+manufacturer: QNAP
+model: TS-1683XU-RP
+slug: qnap-ts-1683xu-rp
+part_number: TS-1683XU-RP
+u_height: 3
+is_full_depth: true
+comments: '[TS-1683XU-RP | Hardware Specs | QNAP](https://qnap.ru/ts-1683xu-rp)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 150
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 150
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 10gbase-x-sfpp
+  - name: eth5
+    type: 10gbase-x-sfpp

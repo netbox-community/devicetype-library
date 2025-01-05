@@ -1,0 +1,91 @@
+---
+manufacturer: D-Link
+model: DXS-3400-24TC
+slug: d-link-dxs-3400-24tc
+part_number: DXS-3400-24TC
+comments: '[D-Link DXS-3400-24TC](https://eu.dlink.com/it/it/products/dxs-3400-series-top-of-rack-10-gigabit-stackable-managed-switches)'
+is_full_depth: false
+airflow: front-to-rear
+weight: 7.6
+weight_unit: kg
+u_height: 1
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+module-bays:
+  - name: '1'
+    label: PSU Slot 1
+    position: '1'
+  - name: '2'
+    label: PSU Slot 2
+    position: '2'
+interfaces:
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet1/0/1
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/2
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/3
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/4
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/5
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/6
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/7
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/8
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/9
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/10
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/11
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/12
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/13
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/14
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/15
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/16
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/17
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/18
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/19
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/20
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/21
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/22
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/23
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/24
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/21C
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/21F
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/22C
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/22F
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/23C
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/23F
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/24C
+    type: 10gbase-t
+  - name: GigabitEthernet1/0/24F
+    type: 10gbase-x-sfpp

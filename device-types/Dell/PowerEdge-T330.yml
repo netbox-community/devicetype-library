@@ -1,0 +1,21 @@
+---
+manufacturer: Dell
+model: PowerEdge T330
+slug: dell-poweredge-t330
+u_height: 5
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 350
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC8
+    type: 1000base-t
+    mgmt_only: true

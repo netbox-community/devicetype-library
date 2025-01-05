@@ -1,0 +1,48 @@
+---
+manufacturer: Dell
+model: PowerEdge R530
+slug: dell-poweredge-r530
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCIe slot 1
+    position: PCIe-1
+    label: '1'
+    description: PCIe2/3 8x
+  - name: PCIe slot 2
+    position: PCIe-2
+    label: '2'
+    description: PCIe2/3 16x
+  - name: PCIe slot 3
+    position: PCIe-3
+    label: '3'
+    description: PCIe2/3 16x
+  - name: PCIe slot 4
+    position: PCIe-4
+    label: '4'
+    description: PCIe2/3 1x
+  - name: PCIe slot 5
+    position: PCIe-5
+    label: '5'
+    description: PCIe2/3 4x

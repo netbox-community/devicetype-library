@@ -1,7 +1,7 @@
 ---
 manufacturer: MikroTik
 model: RBLHGR&R11e-LTE6
-slug: rblhg-r11d-lte6
+slug: mikrotik-rblhgr-and-r11e-lte6
 part_number: RBLHGR&R11e-LTE6
 u_height: 0
 is_full_depth: false
@@ -18,5 +18,6 @@ comments: |
 interfaces:
   - name: ether1
     type: 100base-tx
+    poe_mode: pd
   - name: lte1
     type: lte

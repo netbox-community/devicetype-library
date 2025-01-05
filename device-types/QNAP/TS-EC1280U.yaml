@@ -1,0 +1,29 @@
+---
+manufacturer: QNAP
+model: TS-EC1280U
+slug: qnap-ts-ec1280u
+part_number: TS-EC1280U
+u_height: 2
+airflow: front-to-rear
+is_full_depth: true
+weight: 14.18
+weight_unit: kg
+comments: '[TS-EC1280U product page](https://www.qnap.com/en/product/ts-ec1280u)'
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 1000base-t
+  - name: Adapter 4
+    type: 1000base-t

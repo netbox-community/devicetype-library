@@ -1,0 +1,26 @@
+---
+manufacturer: NetApp
+model: E2824
+slug: netapp-e2824
+part_number: E2824
+u_height: 2
+is_full_depth: true
+weight: 27.44
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: e0a
+    type: 16gfc-sfpp
+  - name: e0b
+    type: 16gfc-sfpp
+  - name: e0c
+    type: 16gfc-sfpp
+  - name: e0d
+    type: 16gfc-sfpp
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

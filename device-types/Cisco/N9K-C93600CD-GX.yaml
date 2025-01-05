@@ -5,18 +5,11 @@ part_number: N9K-C93600CD-GX
 slug: cisco-n9k-c93600cd-gx
 u_height: 1
 is_full_depth: true
+front_image: true
+rear_image: true
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: Power Supply 1
-    type: iec-60320-c14
-    maximum_draw: 1071
-    allocated_draw: 586
-  - name: Power Supply 2
-    type: iec-60320-c14
-    maximum_draw: 1071
-    allocated_draw: 586
 interfaces:
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
@@ -93,3 +86,8 @@ interfaces:
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

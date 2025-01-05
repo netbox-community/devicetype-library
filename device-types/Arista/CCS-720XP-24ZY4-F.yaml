@@ -1,0 +1,129 @@
+---
+manufacturer: Arista
+model: CCS-720XP-24ZY4-F
+slug: arista-ccs-720xp-24zy4-f
+part_number: CCS-720XP-24ZY4-F
+u_height: 1
+weight: 13.6
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Arista CCS 720XP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XP-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '0'
+  - name: PS2
+    position: '1'
+front_image: true
+rear_image: false
+interfaces:
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet13
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet14
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet15
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet16
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Ethernet17
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet18
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet19
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet20
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet21
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet22
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet23
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet24
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet25
+    type: 25gbase-x-sfp28
+  - name: Ethernet26
+    type: 25gbase-x-sfp28
+  - name: Ethernet27
+    type: 25gbase-x-sfp28
+  - name: Ethernet28
+    type: 25gbase-x-sfp28
