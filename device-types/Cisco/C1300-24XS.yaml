@@ -12,16 +12,16 @@ weight: 9.15
 weight_unit: lb
 interfaces:
   - name: TenGigabitEthernet1/0/1
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
     enabled: true
   - name: TenGigabitEthernet1/0/2
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
     enabled: true
   - name: TenGigabitEthernet1/0/3
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
     enabled: true
   - name: TenGigabitEthernet1/0/4
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
     enabled: true
   - name: TenGigabitEthernet1/0/5
     type: 10gbase-x-sfpp
@@ -73,15 +73,19 @@ interfaces:
     enabled: true
   - name: TenGigabitEthernet1/0/21
     type: 10gbase-x-sfpp
+    description: SFP+/RJ45 Combo
     enabled: true
   - name: TenGigabitEthernet1/0/22
     type: 10gbase-x-sfpp
+    description: SFP+/RJ45 Combo
     enabled: true
   - name: TenGigabitEthernet1/0/23
     type: 10gbase-x-sfpp
+    description: SFP+/RJ45 Combo
     enabled: true
   - name: TenGigabitEthernet1/0/24
     type: 10gbase-x-sfpp
+    description: SFP+/RJ45 Combo
     enabled: true
   - name: OOB
     type: 1000base-t
