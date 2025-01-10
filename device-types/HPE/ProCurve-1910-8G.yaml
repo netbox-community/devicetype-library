@@ -1,0 +1,37 @@
+---
+manufacturer: HPE
+model: ProCurve-1910-8G
+part_number: JG348A
+slug: hpe-procurve-1910-8g
+u_height: 1
+is_full_depth: false
+weight: 2
+weight_unit: kg
+airflow: front-to-rear
+comments: '[HPE 1910-8G Datasheet](https://www.hpe.com/psnow/doc/c03824531.pdf?jumpid=in_lit-psnow-getpdf)'
+power-ports:
+  - name: C14
+    type: iec-60320-c14
+    maximum_draw: 14
+console-ports:
+  - name: Serial console port
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet 1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/2
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/3
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/4
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/5
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/6
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/7
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/8
+    type: 1000base-t
+  - name: GigabitEthernet 1/0/9
+    type: 1000base-x-sfp
