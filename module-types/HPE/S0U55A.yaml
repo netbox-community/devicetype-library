@@ -1,0 +1,17 @@
+---
+manufacturer: HPE
+model: Aruba Networking CX 5420 Management Module
+part_number: S0U55A
+weight: 839.1
+weight_unit: g
+console-ports:
+  - name: Auxiliary Port
+    type: usb-a
+  - name: Console-RJ45
+    type: rj-45
+  - name: Console-USB
+    type: usb-c
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

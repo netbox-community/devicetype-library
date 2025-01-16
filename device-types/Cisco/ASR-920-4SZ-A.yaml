@@ -22,18 +22,18 @@ console-ports:
   - name: USB CON
     type: usb-a
 interfaces:
-  - name: Gi0
+  - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
-  - name: Gi0/0/0
+  - name: GigabitEthernet0/0/0
     type: 1000base-t
-  - name: Gi0/0/1
+  - name: GigabitEthernet0/0/1
     type: 1000base-t
-  - name: Te0/0/2
+  - name: TenGigabitEthernet0/0/2
     type: 10gbase-x-sfpp
-  - name: Te0/0/3
+  - name: TenGigabitEthernet0/0/3
     type: 10gbase-x-sfpp
-  - name: Te0/0/4
+  - name: TenGigabitEthernet0/0/4
     type: 10gbase-x-sfpp
-  - name: Te0/0/5
+  - name: TenGigabitEthernet0/0/5
     type: 10gbase-x-sfpp

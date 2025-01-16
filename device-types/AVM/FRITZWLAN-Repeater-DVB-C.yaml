@@ -1,0 +1,22 @@
+---
+manufacturer: AVM
+model: FRITZ!WLAN Repeater DVB-C
+slug: avm-fritzwlan-repeater-dvb-c
+part_number: '20002679'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!WLAN Repeater DVB-C Handbuch](https://assets.avm.de/files/docs/fritzwlan/fritzwlan-repeater-dvb-c/fritzwlan-repeater-dvb-c_man_de_DE.pdf)'
+power-ports:
+  - name: Power
+    type: ita-c
+    maximum_draw: 6
+interfaces:
+  - name: LAN
+    label: LAN
+    type: 1000base-t
+  - name: DVB-C
+    label: DVB-C
+    type: other
+  - name: WiFi
+    type: ieee802.11ac
