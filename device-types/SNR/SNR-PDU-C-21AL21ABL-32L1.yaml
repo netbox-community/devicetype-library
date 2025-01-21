@@ -2,8 +2,9 @@
 manufacturer: SNR
 model: SNR-PDU-C-21AL21ABL-32L1
 slug: snr-pdu-c-21al21abl-32l1
-part_number: SNR-PDU-08A-W2
+part_number: SNR-PDU-C-21AL21ABL-32L1
 u_height: 0
+airflow: passive
 is_full_depth: false
 comments: Rack PDU Switched, 0U, 32A, 230V, (21) C13 + (21) C13/C19
 console-ports:
@@ -144,4 +145,4 @@ power-outlets:
     power_port: Power Port 1
   - name: Outlet 42
     type: iec-60320-c13
-    power_port: Power Port 1  
+    power_port: Power Port 1
