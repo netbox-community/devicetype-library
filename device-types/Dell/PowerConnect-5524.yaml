@@ -1,0 +1,102 @@
+---
+manufacturer: Dell
+model: PowerConnect 5524
+slug: dell-powerconnect-5524
+u_height: 1
+is_full_depth: false
+weight: 3.3
+weight_unit: kg
+airflow: right-to-left
+console-ports:
+  - name: Serial0
+    type: rj-45
+    label: IOIOI
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    label: PSU1
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+    label: Port 1
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+    label: Port 2
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+    label: Port 3
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+    label: Port 4
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+    label: Port 5
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+    label: Port 6
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+    label: Port 7
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+    label: Port 8
+  - name: GigabitEthernet1/0/9
+    type: 1000base-t
+    label: Port 9
+  - name: GigabitEthernet1/0/10
+    type: 1000base-t
+    label: Port 10
+  - name: GigabitEthernet1/0/11
+    type: 1000base-t
+    label: Port 11
+  - name: GigabitEthernet1/0/12
+    type: 1000base-t
+    label: Port 12
+  - name: GigabitEthernet1/0/13
+    type: 1000base-t
+    label: Port 13
+  - name: GigabitEthernet1/0/14
+    type: 1000base-t
+    label: Port 14
+  - name: GigabitEthernet1/0/15
+    type: 1000base-t
+    label: Port 15
+  - name: GigabitEthernet1/0/16
+    type: 1000base-t
+    label: Port 16
+  - name: GigabitEthernet1/0/17
+    type: 1000base-t
+    label: Port 17
+  - name: GigabitEthernet1/0/18
+    type: 1000base-t
+    label: Port 18
+  - name: GigabitEthernet1/0/19
+    type: 1000base-t
+    label: Port 19
+  - name: GigabitEthernet1/0/20
+    type: 1000base-t
+    label: Port 20
+  - name: GigabitEthernet1/0/21
+    type: 1000base-t
+    label: Port 21
+  - name: GigabitEthernet1/0/22
+    type: 1000base-t
+    label: Port 22
+  - name: GigabitEthernet1/0/23
+    type: 1000base-t
+    label: Port 23
+  - name: GigabitEthernet1/0/24
+    type: 1000base-t
+    label: Port 24
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+    label: SFP+ 1
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+    label: SFP+ 2
+  - name: Stack0
+    type: other
+    label: Stacking HDMI 1
+  - name: Stack1
+    type: other
+    label: Stacking HDMI 2
