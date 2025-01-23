@@ -1,0 +1,19 @@
+---
+manufacturer: FS
+model: XL710BM1-4SP
+part_number: XL710BM1-4SP
+description: Intel XL710-BM1 Based Ethernet Network Interface Card, 10G Quad-Port SFP+, PCIe 3.0 x 8
+comments: '[FS XL710-BM1 Product Page](https://www.fs.com/products/75602.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Ethernet/{module}/3
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Ethernet/{module}/4
+    type: 10gbase-x-sfpp
+    mgmt_only: false
