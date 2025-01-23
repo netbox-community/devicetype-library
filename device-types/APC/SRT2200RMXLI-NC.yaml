@@ -45,10 +45,6 @@ power-outlets:
   - name: 16A Outlet 2
     type: iec-60320-c19
     power_port: Inlet
-interfaces:
-  - name: Ethernet
-    type: 100base-tx
-    mgmt_only: true
 module-bays:
   - name: SmartSlot
-    position: Rear
+    position: SmartSlot
