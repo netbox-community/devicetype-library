@@ -1,27 +1,27 @@
 ---
 manufacturer: APC
-model: AP4433A
-slug: apc-ap4433a
-part_number: AP4433A
+model: AP4423A
+slug: apc-ap4423a
+part_number: AP4423A
 u_height: 1
 is_full_depth: false
 airflow: passive
-weight: 8.25
-weight_unit: lb
+weight: 3.74
+weight_unit: kg
 front_image: true
 rear_image: true
-comments: APC Netshelter Rack Automatic Transfer Switch, 1U, 12A, 208V , C14 IN, 12 C13 OUT, 50/60Hz
+comments: APC NetShelter Rack Automatic Transfer Switch, 1U, 16A, 230V, 2 C20 IN, 8 C13, 1 C19 OUT, 50/60Hz
 console-ports:
   - name: Serial
     type: usb-micro-b
 power-ports:
   - name: Source A
-    type: iec-60320-c14
+    type: iec-60320-c20
   - name: Source B
-    type: iec-60320-c14
+    type: iec-60320-c20
 power-outlets:
   - name: Outlet 1
-    type: iec-60320-c13
+    type: iec-60320-c19
   - name: Outlet 2
     type: iec-60320-c13
   - name: Outlet 3
@@ -37,12 +37,6 @@ power-outlets:
   - name: Outlet 8
     type: iec-60320-c13
   - name: Outlet 9
-    type: iec-60320-c13
-  - name: Outlet 10
-    type: iec-60320-c13
-  - name: Outlet 11
-    type: iec-60320-c13
-  - name: Outlet 12
     type: iec-60320-c13
 interfaces:
   - name: Management

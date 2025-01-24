@@ -1,26 +1,28 @@
 ---
 manufacturer: APC
-model: AP4431
-slug: apc-ap4431
-part_number: AP4431
+model: AP4431A
+slug: apc-ap4431a
+part_number: AP4431A
 u_height: 2
 is_full_depth: false
 airflow: passive
-comments: Rack ATS, 208V, 30A, (2) L6-30P in, (1) L6-30R Out
+weight: 6.49
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: APC Netshelter Rack Automatic Transfer Switch, 2U, 30A, 208V, 2 L6-30P IN, 1 L6-30R OUT, 50/60Hz
 console-ports:
   - name: Serial
-    type: rj-12
-  - name: usb
-    type: usb-a
+    type: usb-micro-b
 power-ports:
   - name: Source A
     type: nema-l6-30p
   - name: Source B
     type: nema-l6-30p
 power-outlets:
-  - name: Outlet
+  - name: Outlet 1
     type: nema-l6-30r
 interfaces:
   - name: Management
-    type: 100base-tx
+    type: 1000base-t
     mgmt_only: true
