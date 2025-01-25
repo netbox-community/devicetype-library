@@ -13,6 +13,6 @@ comments: '[Datasheet](https://media.flixcar.com/f360cdn/HP-2323422116-4aa6-1011
 interfaces:
   - name: ethernet-1/1
     type: 1000base-t
-module-bays:
-  - name: PS1
-    position: '1'
+power-ports:
+  - name: External Power Supply
+    type: dc-terminal

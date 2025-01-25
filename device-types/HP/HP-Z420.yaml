@@ -13,6 +13,6 @@ comments: '[Datasheet](http://www.hp.com/united-states/campaigns/workstations/im
 interfaces:
   - name: ethernet-1/1
     type: 1000base-t
-module-bays:
-  - name: PS1
-    position: '1'
+power-ports:
+  - name: External Power Supply
+    type: dc-terminal
