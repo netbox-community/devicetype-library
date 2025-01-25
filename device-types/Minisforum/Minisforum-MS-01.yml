@@ -29,8 +29,9 @@ rear-ports:
   - name: usb-a-1/2
     type: usb-a
 module-bays:
-  - name: PS1
-    position: '1'
   - name: PCIe Slot
     position: '2'
     description: PCIe 4.0 x16
+power-ports:
+  - name: Barrel Jack
+    type: dc-terminal
