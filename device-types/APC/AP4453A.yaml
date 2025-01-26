@@ -1,0 +1,58 @@
+---
+manufacturer: APC
+model: AP4453A
+slug: apc-ap4453a
+part_number: AP4453A
+u_height: 2
+is_full_depth: false
+airflow: passive
+weight: 6.33
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: APC NetShelter Rack Automatic Transfer Switch, 2U, 30A, 120V, 2 L5-30P IN, 16 5-20R OUT, 50/60Hz
+console-ports:
+  - name: Serial
+    type: usb-micro-b
+power-ports:
+  - name: Source A
+    type: nema-l5-30p
+  - name: Source B
+    type: nema-l5-30p
+power-outlets:
+  - name: Bank 1 Outlet 1
+    type: nema-5-20r
+  - name: Bank 1 Outlet 2
+    type: nema-5-20r
+  - name: Bank 1 Outlet 3
+    type: nema-5-20r
+  - name: Bank 1 Outlet 4
+    type: nema-5-20r
+  - name: Bank 1 Outlet 5
+    type: nema-5-20r
+  - name: Bank 1 Outlet 6
+    type: nema-5-20r
+  - name: Bank 1 Outlet 7
+    type: nema-5-20r
+  - name: Bank 1 Outlet 8
+    type: nema-5-20r
+  - name: Bank 2 Outlet 1
+    type: nema-5-20r
+  - name: Bank 2 Outlet 2
+    type: nema-5-20r
+  - name: Bank 2 Outlet 3
+    type: nema-5-20r
+  - name: Bank 2 Outlet 4
+    type: nema-5-20r
+  - name: Bank 2 Outlet 5
+    type: nema-5-20r
+  - name: Bank 2 Outlet 6
+    type: nema-5-20r
+  - name: Bank 2 Outlet 7
+    type: nema-5-20r
+  - name: Bank 2 Outlet 8
+    type: nema-5-20r
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

@@ -26,7 +26,6 @@ power-outlets:
     type: nema-5-15r
   - name: Group 2 Outlet 3
     type: nema-5-15r
-interfaces:
-  - name: Ethernet
-    type: 100base-tx
-    mgmt_only: true
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot
