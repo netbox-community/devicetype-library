@@ -13,6 +13,17 @@ comments: '[Datasheet](https://am4computers.com/Documents/HP%20EliteDesk%20800%2
 interfaces:
   - name: ethernet-1/1
     type: 1000base-t
+front-ports:
+  - name: Front Headphone
+    type: other
+  - name: Front Headphone/Mic Combo
+    type: other
+  - name: Front USB C
+    type: usb-c
+  - name: Front USB A 3.0 1
+    type: usb-a
+  - name: Front USB A 3.0 2
+    type: usb-a
 power-ports:
   - name: External Power Supply
     type: dc-terminal
