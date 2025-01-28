@@ -80,23 +80,6 @@ interfaces:
   - name: 10GigabitEthernet1/2/3
     type: 10gbase-x-sfpp
   - name: 10GigabitEthernet1/2/4
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/3/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/3/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/3/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/3/4
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/4/1
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/4/2
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/4/3
-    type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet1/4/4
-    type: 10gbase-x-sfpp
 console-ports:
   - name: con0
     type: usb-mini-b
@@ -107,8 +90,6 @@ module-bays:
   - name: PSU1
     position: 1
     type: power-supply
-  - name: M2
-    type: stacking
   - name: M3
     type: stacking
   - name: M4
