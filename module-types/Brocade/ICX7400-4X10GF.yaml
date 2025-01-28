@@ -4,11 +4,11 @@ model: ICX7400-4X10GF
 description: 4x 10Gb SFP+ Module Bay for ICX74xx Series Brocade Switches
 part_number: ICX7400-4X10GF
 interfaces:
-  - name: 10GigabitEthernet1
+  - name: 10GigabitEthernet1/{module}/1
     type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet2
+  - name: 10GigabitEthernet1/{module}/2
     type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet3
+  - name: 10GigabitEthernet1/{module}/3
     type: 10gbase-x-sfpp
-  - name: 10GigabitEthernet4
+  - name: 10GigabitEthernet1/{module}/4
     type: 10gbase-x-sfpp
