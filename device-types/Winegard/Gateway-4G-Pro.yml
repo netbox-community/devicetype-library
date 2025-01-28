@@ -1,0 +1,39 @@
+---
+manufacturer: Winegard
+model: Gateway 4G Pro
+slug: winegard-gateway-4g-pro
+part_number: GW-PRO1
+u_height: 0
+is_full_depth: false
+weight: 0.8
+weight_unit: lb
+airflow: passive
+comments: |
+  [Winegard Gateway 4G](https://winegard.com/gateway/)
+  Wireless Standard: 802.11ac
+  LTE Bands: : B2, B4, B5, B12, B13, B14, B66, B71
+  Wireless Speeds: 2.4Ghz: 450Mbps; 5Ghz: 1300Mbps
+  Dual SIM Card: Mini SIM (2FF)
+  Dimensions: 8.13"l x 8.13"w x 1.68"d
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 16
+    label: DC+12V/1A
+interfaces:
+  - name: wlan0
+    type: ieee802.11ac
+    label: Red - WiFi
+  - name: eth0
+    type: 1000base-t
+    label: Ethernet - LAN/WAN
+  - name: ant4
+    type: lte
+    label: Yellow - 4G/LTE
+  - name: ant5
+    type: lte
+    label: Green - 4G/LTE
+  - name: sim0
+    type: other
+  - name: sim1
+    type: other
