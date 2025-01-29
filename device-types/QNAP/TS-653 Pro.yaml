@@ -1,0 +1,87 @@
+---
+manufacturer: QNAP
+model: TS-653 Pro
+slug: qnap-ts-653-pro
+description: ''
+default_platform: null
+part_number: TS-653-Pro
+u_height: 0.0
+is_full_depth: false
+subdevice_role: null
+airflow: front-to-rear
+weight: null
+weight_unit: ''
+comments: ''
+power-ports:
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: 250
+  allocated_draw: 80
+  label: ''
+  description: ''
+interfaces:
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: LAN1
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: LAN2
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: LAN3
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: LAN4
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+rear-ports:
+- name: USB 2.0 - 1
+  type: usb-a
+  color: ''
+  positions: 3
+  label: ''
+  description: ''
+- name: USB 2.0 - 2
+  type: usb-a
+  color: ''
+  positions: 4
+  label: ''
+  description: ''
+- name: USB 3.2 - 1
+  type: usb-a
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: USB 3.2 - 2
+  type: usb-a
+  color: ''
+  positions: 2
+  label: ''
+  description: ''
