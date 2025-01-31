@@ -1,0 +1,24 @@
+---
+manufacturer: Supermicro
+model: SuperChassis 846BE1C-R1K03JBOD
+slug: supermicro-superchassis-846BE1C-R1K03JBOD
+part_number: 846BE1C-R1K03JBOD
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro SuperChassis 846BE1C-R1K03JBOD (https://www.supermicro.com/en/products/chassis/4U/846/SC846BE1C-R1K03JBOD)
+weight: 39
+weight_unit: kg
+console-ports: []
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1000
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1000
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
