@@ -1,0 +1,71 @@
+---
+manufacturer: APC
+model: AP7950B
+slug: apc-ap7950b
+part_number: AP7950B
+u_height: 0
+is_full_depth: false
+comments: Rack PDU, Switched, Zero U, 10A, 230V, (16) C13 [AP7950B Overview and Specifications](https://www.apc.com/us/en/download/document/990-5833_EN/)
+weight: 4.3
+weight_unit: kg
+airflow: passive
+front_image: true
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 9
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 12
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 13
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 14
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 15
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Power Outlet 16
+    type: iec-60320-c13
+    power_port: Power Port 1
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true
