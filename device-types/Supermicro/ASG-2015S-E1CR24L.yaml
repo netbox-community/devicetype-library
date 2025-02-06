@@ -1,0 +1,50 @@
+---
+manufacturer: Supermicro
+model: ASG-2015S-E1CR24L
+slug: supermicro-asg-2015s-e1cr24l
+part_number: ASG-2015S-E1CR24L
+comments: "[User's Manual](https://www.supermicro.com/manuals/superstorage/MNL-2628.pdf)<br />[Datasheet](https://www.supermicro.com/en/products/system/datasheet/asg-2015s-e1cr24l)"
+u_height: 2
+is_full_depth: true
+weight: 23.6
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: PCIe 5.0 x16 slot
+  - name: Slot 2
+    position: '2'
+    description: PCIe 5.0 x8 slot
+  - name: Slot 3
+    position: '3'
+    description: PCIe 5.0 x16 slot
+  - name: Slot 4
+    position: '4'
+    description: PCIe 5.0 x8 slot
+  - name: Slot 5
+    position: '5'
+    description: PCIe 5.0 x16 slot
+  - name: Slot 6
+    position: '6'
+    description: PCIe 5.0 x16 slot
+  - name: Slot A1
+    position: A1
+    description: PCIe 5.0 x16 AIOM
+  - name: Slot A2
+    position: A2
+    description: PCIe 5.0 x16 AIOM
+  - name: PSU1
+    position: '1'
+    description: Upper power supply unit
+  - name: PSU2
+    position: '2'
+    description: Lower power supply unit
