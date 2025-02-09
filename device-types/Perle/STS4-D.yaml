@@ -1,48 +1,40 @@
+---
 manufacturer: Perle
 model: IOLAN STS4-D
-slug: iolan-sts4-d
+slug: perle-iolan-sts4-d
 description: IOLAN STS-D Terminal Server
-default_platform: null
 part_number: STS4-D
 u_height: 1.0
 is_full_depth: false
-subdevice_role: null
 airflow: passive
 weight: 0.77
 weight_unit: lb
-comments: ''
 console-server-ports:
-- name: RS232-1
-  type: rj-45
-  label: RS232-1
-  description: RS232 - Port 1
-- name: RS232-2
-  type: rj-45
-  label: RS232-2
-  description: RS232 - Port 2
-- name: RS232-3
-  type: rj-45
-  label: RS232-3
-  description: RS232 - Port 3
-- name: RS232-4
-  type: rj-45
-  label: RS232-4
-  description: RS232 - Port 4
+  - name: RS232-1
+    type: rj-45
+    label: RS232-1
+    description: RS232 - Port 1
+  - name: RS232-2
+    type: rj-45
+    label: RS232-2
+    description: RS232 - Port 2
+  - name: RS232-3
+    type: rj-45
+    label: RS232-3
+    description: RS232 - Port 3
+  - name: RS232-4
+    type: rj-45
+    label: RS232-4
+    description: RS232 - Port 4
 power-ports:
-- name: DC in
-  type: other
-  maximum_draw: 5
-  allocated_draw: null
-  label: DC in
-  description: ''
+  - name: DC in
+    type: dc-terminal
+    maximum_draw: 5
+    label: DC in
 interfaces:
-- name: Interface 1
-  type: 100base-tx
-  enabled: true
-  mgmt_only: false
-  label: Interface 1
-  description: LAN Interface
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
+  - name: Interface 1
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: Interface 1
+    description: LAN Interface
