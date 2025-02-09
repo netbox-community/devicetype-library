@@ -1,0 +1,9 @@
+---
+manufacturer: Cisco
+model: EHWIC-1GE-SFP-CU
+part_number: EHWIC-1GE-SFP-CU
+comments: This device uses a combo interface. Default in this definition is CU - change the interface type depending on which you are using. [Cisco EHWIC-1GE-SFP-CU
+  Datasheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/high-speed-wan-interface-cards/data_sheet_c78-660124.html
+interfaces:
+  - name: GigabitEthernet{module}/0
+    type: 1000base-t

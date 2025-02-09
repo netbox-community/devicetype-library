@@ -1,0 +1,24 @@
+---
+manufacturer: Overland-Tandberg
+model: NEOs StorageLoader
+slug: overland-tandberg-neos-storageloader
+u_height: 1
+is_full_depth: true
+weight: 12
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  [NEO Firmware and Documents](https://overlandtandberg.atlassian.net/wiki/spaces/KNOW/pages/117637153/NEO+LTO+Firmware+Driver+Links+Release+Notes)
+
+  [BDT FLEXSTOR II - 1U Datasheet](https://www.bdt.de/fileadmin/user_upload/07_Downloads/Storage/Formular_Storage_Data_Sheets_FLEXSTOR_1U.pdf)
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 80
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+module-bays:
+  - name: Drive 1
+    position: '1'

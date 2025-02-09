@@ -1,0 +1,36 @@
+---
+manufacturer: VideoXLink
+model: X2
+slug: videoxlink-x2
+part_number: VideoXLink X2
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 0.6
+weight_unit: kg
+front_image: false
+rear_image: false
+comments: |
+  VideoXLink X2 is the ultimate low latency production solution, suited for remote production usage in
+  the field or being installed in a production studio. X2 is capable of encoding/decoding, NDI, adding
+  even more channels than the 2 SDI ports.
+
+  X2 is equipped with 1 ethernet interface cards and you can add external USB ethernet interface to
+  increase the numbers. All ports are available for usage in the VideoXLink application, making it
+  possible for using several backup connections, layer 2 trunks or high-speed connections to the local
+  network when using NDI network streams.
+
+  [Datasheet](https://www.videoxlink.com/downloads/videoxlink_datasheet_x2.pdf)
+power-ports:
+  - name: POWER1
+    type: iec-60320-c14
+    description: AC plug 100-240V 50/60Hz to Mini XLR 19V
+  - name: POWER2
+    type: dc-terminal
+    description: 12-19V
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '0'

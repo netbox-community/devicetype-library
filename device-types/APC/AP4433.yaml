@@ -1,0 +1,50 @@
+---
+manufacturer: APC
+model: AP4433
+slug: apc-ap4433
+part_number: AP4433
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 8.25
+weight_unit: lb
+front_image: true
+rear_image: true
+comments: Rack ATS, 208V, 12A, C14 in, (12) C13 out
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Source A
+    type: iec-60320-c14
+  - name: Source B
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c13
+  - name: Outlet 10
+    type: iec-60320-c13
+  - name: Outlet 11
+    type: iec-60320-c13
+  - name: Outlet 12
+    type: iec-60320-c13
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
