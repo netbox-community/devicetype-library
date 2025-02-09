@@ -1,0 +1,52 @@
+---
+manufacturer: Ippon
+model: Innova RT II 1000
+slug: ippon-innova-rt-ii-1000
+part_number: '1398359'
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://ippon.ru/catalog/item/ippon-1000-1398359/)'
+weight: 14.3
+weight_unit: kg
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Inlet
+    type: iec-60320-c14
+    maximum_draw: 1000
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet
+module-bays:
+  - name: IntelligentSlot
+    position: Rear
