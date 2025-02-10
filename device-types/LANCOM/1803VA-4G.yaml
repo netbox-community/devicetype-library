@@ -9,8 +9,9 @@ airflow: left-to-right
 weight: 760
 weight_unit: g
 subdevice_role: child
-comments: '[LANCOM 1803VA-4G Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-1803VA-4G/DS_1803VA-4G_DE.pdf)\r\
-  \n\r\nWAN is dual personality (1000base-t/SFP)'
+comments: |
+  [LANCOM 1803VA-4G Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-1803VA-4G/DS_1803VA-4G_DE.pdf)
+  WAN is dual personality (1000base-t/SFP)
 console-ports:
   - name: Config
     type: usb-c
