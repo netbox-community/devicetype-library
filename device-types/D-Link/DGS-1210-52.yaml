@@ -3,126 +3,129 @@ manufacturer: D-Link
 model: DGS-1210-52
 slug: d-link-dgs-1210-52
 part_number: DGS-1210-52
-comments: '[D-Link DGS-1210-52](https://www.dlink.ru/ru/products/1/2225.html)'
+comments: |
+  ## Manufacturer information
+  - [D-Link DGS-1210-52](https://www.dlink.com/en/products/dgs-1210-52-52-port-gigabit-smart-managed-switch)
+  - [D-Link DGS-1210 Series](https://www.dlink.com/en/products/dgs-1210-series-gigabit-smart-plus-switches)
 is_full_depth: false
 u_height: 1
-console-ports:
-  - name: console
-    type: rj-45
+weight: 3.46
+weight_unit: kg
+airflow: passive
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 39
+    maximum_draw: 35
 interfaces:
-  - name: '1'
+  - name: GigabitEthernet1/0/1
     type: 1000base-t
-  - name: '2'
+  - name: GigabitEthernet1/0/2
     type: 1000base-t
-  - name: '3'
+  - name: GigabitEthernet1/0/3
     type: 1000base-t
-  - name: '4'
+  - name: GigabitEthernet1/0/4
     type: 1000base-t
-  - name: '5'
+  - name: GigabitEthernet1/0/5
     type: 1000base-t
-  - name: '6'
+  - name: GigabitEthernet1/0/6
     type: 1000base-t
-  - name: '7'
+  - name: GigabitEthernet1/0/7
     type: 1000base-t
-  - name: '8'
+  - name: GigabitEthernet1/0/8
     type: 1000base-t
-  - name: '9'
+  - name: GigabitEthernet1/0/9
     type: 1000base-t
-  - name: '10'
+  - name: GigabitEthernet1/0/10
     type: 1000base-t
-  - name: '11'
+  - name: GigabitEthernet1/0/11
     type: 1000base-t
-  - name: '12'
+  - name: GigabitEthernet1/0/12
     type: 1000base-t
-  - name: '13'
+  - name: GigabitEthernet1/0/13
     type: 1000base-t
-  - name: '14'
+  - name: GigabitEthernet1/0/14
     type: 1000base-t
-  - name: '15'
+  - name: GigabitEthernet1/0/15
     type: 1000base-t
-  - name: '16'
+  - name: GigabitEthernet1/0/16
     type: 1000base-t
-  - name: '17'
+  - name: GigabitEthernet1/0/17
     type: 1000base-t
-  - name: '18'
+  - name: GigabitEthernet1/0/18
     type: 1000base-t
-  - name: '19'
+  - name: GigabitEthernet1/0/19
     type: 1000base-t
-  - name: '20'
+  - name: GigabitEthernet1/0/20
     type: 1000base-t
-  - name: '21'
+  - name: GigabitEthernet1/0/21
     type: 1000base-t
-  - name: '22'
+  - name: GigabitEthernet1/0/22
     type: 1000base-t
-  - name: '23'
+  - name: GigabitEthernet1/0/23
     type: 1000base-t
-  - name: '24'
+  - name: GigabitEthernet1/0/24
     type: 1000base-t
-  - name: '25'
+  - name: GigabitEthernet1/0/25
     type: 1000base-t
-  - name: '26'
+  - name: GigabitEthernet1/0/26
     type: 1000base-t
-  - name: '27'
+  - name: GigabitEthernet1/0/27
     type: 1000base-t
-  - name: '28'
+  - name: GigabitEthernet1/0/28
     type: 1000base-t
-  - name: '29'
+  - name: GigabitEthernet1/0/29
     type: 1000base-t
-  - name: '30'
+  - name: GigabitEthernet1/0/30
     type: 1000base-t
-  - name: '31'
+  - name: GigabitEthernet1/0/31
     type: 1000base-t
-  - name: '32'
+  - name: GigabitEthernet1/0/32
     type: 1000base-t
-  - name: '33'
+  - name: GigabitEthernet1/0/33
     type: 1000base-t
-  - name: '34'
+  - name: GigabitEthernet1/0/34
     type: 1000base-t
-  - name: '35'
+  - name: GigabitEthernet1/0/35
     type: 1000base-t
-  - name: '36'
+  - name: GigabitEthernet1/0/36
     type: 1000base-t
-  - name: '37'
+  - name: GigabitEthernet1/0/37
     type: 1000base-t
-  - name: '38'
+  - name: GigabitEthernet1/0/38
     type: 1000base-t
-  - name: '39'
+  - name: GigabitEthernet1/0/39
     type: 1000base-t
-  - name: '40'
+  - name: GigabitEthernet1/0/40
     type: 1000base-t
-  - name: '41'
+  - name: GigabitEthernet1/0/41
     type: 1000base-t
-  - name: '42'
+  - name: GigabitEthernet1/0/42
     type: 1000base-t
-  - name: '43'
+  - name: GigabitEthernet1/0/43
     type: 1000base-t
-  - name: '44'
+  - name: GigabitEthernet1/0/44
     type: 1000base-t
-  - name: '45'
+  - name: GigabitEthernet1/0/45
     type: 1000base-t
-  - name: '46'
+  - name: GigabitEthernet1/0/46
     type: 1000base-t
-  - name: '47'
+  - name: GigabitEthernet1/0/47
     type: 1000base-t
-  - name: '48'
+  - name: GigabitEthernet1/0/48
     type: 1000base-t
-  - name: '49'
+  - name: GigabitEthernet1/0/49
     type: 1000base-t
-  - name: '50'
+  - name: GigabitEthernet1/0/50
     type: 1000base-t
-  - name: '51'
+  - name: GigabitEthernet1/0/51
     type: 1000base-t
-  - name: '52'
+  - name: GigabitEthernet1/0/52
     type: 1000base-t
-  - name: 49F
+  - name: GigabitEthernet1/0/49F
     type: 1000base-x-sfp
-  - name: 50F
+  - name: GigabitEthernet1/0/50F
     type: 1000base-x-sfp
-  - name: 51F
+  - name: GigabitEthernet1/0/51F
     type: 1000base-x-sfp
-  - name: 52F
+  - name: GigabitEthernet1/0/52F
     type: 1000base-x-sfp
