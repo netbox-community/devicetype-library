@@ -1,0 +1,31 @@
+---
+manufacturer: Softline
+model: Softline_SL911
+slug: softline_sl911
+u_height: 2
+weight: 20
+weight_unit: kg
+is_full_depth: true
+airflow: front-to-rear
+comments: '2U 8x3.5 bay Storage, Inwin RS208-02M-CR550.H case'
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 200
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 200
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+  - name: Eth2
+    type: 1000base-t
+  - name: Eth3
+    type: 1000base-t
+  - name: Eth4
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
