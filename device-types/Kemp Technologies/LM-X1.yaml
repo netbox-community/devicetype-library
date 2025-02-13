@@ -11,12 +11,9 @@ comments: '[Kemp Technologies LoadMaster X1](https://kemptechnologies.com/server
 front_image: true
 rear_image: false
 power-ports:
-  - name: PSU1
+  - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 82
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 82
+    maximum_draw: 65
 console-ports:
   - name: Console
     type: rj-45
