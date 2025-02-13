@@ -14,16 +14,16 @@ console-ports:
     type: rj-45
 interfaces:
   - name: ethernet1/1
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: false
   - name: ethernet1/2
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: false
   - name: ethernet1/3
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: false
   - name: ethernet1/4
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: false
   - name: ethernet1/5
     type: 5gbase-t
@@ -91,8 +91,12 @@ interfaces:
     type: 10gbase-x-sfpp
     mgmt_only: false
     description: HSCI 10 gigabit high availability
+  - name: ha1-a
+    type: 1000base-t
+  - name: ha1-b
+    type: 1000base-t
   - name: management
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: true
 module-bays:
   - name: PS1
