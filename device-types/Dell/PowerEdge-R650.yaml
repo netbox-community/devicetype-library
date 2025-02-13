@@ -20,20 +20,17 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 2
     type: 1000base-t
-  - name: Optional/OCP Gig-E 1
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 2
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 3
-    type: 1000base-t
-  - name: Optional/OCP Gig-E 4
-    type: 1000base-t
   - name: iDRAC9
     type: 1000base-t
     mgmt_only: true
-device-bays:
+module-bays:
   - name: Optional OCP NIC
+    position: ocp
   - name: Optional BOSS-2 Removed
+    position: boss
   - name: PCIe-Gen4 1
+    position: pcie1
   - name: Optional PCIe-Gen4 2
+    position: pcie2
   - name: Optional PCIe-Gen4 3
+    position: pcie3
