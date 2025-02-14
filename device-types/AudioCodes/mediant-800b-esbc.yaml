@@ -1,0 +1,43 @@
+---
+manufacturer: AudioCodes
+model: Mediant 800B ESBC
+slug: audiocodes-mediant-800b-esbc
+part_number: Mediant 800B
+u_height: 1.0
+is_full_depth: false
+subdevice_role: parent
+weight: 5.5
+weight_unit: lb
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: AC POWER INLET
+    type: iec-60320-c14
+interfaces:
+  - name: FE_5_1
+    type: 100base-tx
+  - name: FE_5_2
+    type: 100base-tx
+  - name: FE_5_3
+    type: 100base-tx
+  - name: FE_5_4
+    type: 100base-tx
+  - name: FE_5_5
+    type: 100base-tx
+  - name: FE_5_6
+    type: 100base-tx
+  - name: FE_5_7
+    type: 100base-tx
+  - name: FE_5_8
+    type: 100base-tx
+  - name: GE_4_1
+    type: 1000base-tx
+  - name: GE_4_2
+    type: 1000base-tx
+  - name: GE_4_3
+    type: 1000base-tx
+  - name: GE_4_4
+    type: 1000base-tx
+  - name: WAN
+    type: 1000base-tx
