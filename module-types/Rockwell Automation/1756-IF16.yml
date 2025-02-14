@@ -1,0 +1,23 @@
+---
+manufacturer: Rockwell Automation
+model: 1756-IF16
+part_number: 1756-IF16
+description: 16-channel analog input module for ControlLogix systems
+
+interfaces:
+  - name: Backplane Connection
+    type: other  # Changed from 'proprietary' to 'other' per NetBox validation requirements
+    mgmt_only: false
+
+power-ports:
+  - name: Backplane Power
+    type: dc-terminal
+    maximum_draw: 1  # Converted to integer per NetBox validation requirements
+
+console-ports:
+  - name: Configuration Port
+    type: usb-mini-b
+
+comments: |
+  The 1756-IF16 module is a 16-channel analog input module designed for ControlLogix systems.
+  It provides high-accuracy signal conversion and supports multiple input types, including voltage and current signals.
