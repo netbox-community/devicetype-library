@@ -101,12 +101,20 @@ interfaces:
     type: 25gbase-x-sfp28
 module-bays:
   - name: PSM 0
-    # Comment: Power Supply Module 0
     maximum_draw: 2200
     position: '0'
   - name: PSM 1
-    # Comment: Power Supply Module 1
     maximum_draw: 2200
+    position: '1'
+  - name: LC 1
+    position: '1'
+  - name: LC 2
+    position: '2'
+  - name: LC 3
+    position: '3'
+  - name: RE 0
+    position: '0'
+  - name: RE 1
     position: '1'
   - name: Fan Tray 0
   - name: Fan Tray 1
