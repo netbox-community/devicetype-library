@@ -10,7 +10,7 @@ weight_unit: kg
 airflow: front-to-rear
 front_image: true
 rear_image: true
-comments: "[HPE ProLiant ML350 Gen10 Server QuickSpecs](https://www.hpe.com/psnow/doc/a00021852)"
+comments: [HPE ProLiant ML350 Gen10 Server QuickSpecs](https://www.hpe.com/psnow/doc/a00021852)
 module-bays:
   - name: PCIe1
     position: PCIe1
@@ -40,19 +40,11 @@ interfaces:
   - name: iLO
     type: 1000base-t
     mgmt_only: true
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
+    position: '1'
   - name: PSU2
-    type: iec-60320-c14
+    position: '2'
 console-ports:
   - name: Serial
     type: de-9
-  - name: front-usb1
-    type: usb-a
-  - name: front-usb2
-    type: usb-a
-  - name: rear-usb1
-    type: usb-a
-  - name: rear-usb2
-    type: usb-a
