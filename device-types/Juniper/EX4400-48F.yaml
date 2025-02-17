@@ -121,9 +121,11 @@ console-ports:
     type: usb-c
 module-bays:
   - name: Fan Module 0
+    position: '0'
     weight: 0.26
     weight_unit: lb
   - name: Fan Module 1
+    position: '1'
     weight: 0.26
     weight_unit: lb
   - name: Extension module

@@ -62,24 +62,35 @@ power-outlets:
     type: dc-terminal
 module-bays:
   - name: psc
+    position: psc
     description: Power Shelf Controller
   - name: psu-01
+    position: '1'
     label: N+1 R
   - name: psu-02
+    position: '2'
     label: S
   - name: psu-03
+    position: '3'
     label: T
   - name: psu-04
+    position: '4'
     label: R
   - name: psu-05
+    position: '5'
     label: S
   - name: psu-06
+    position: '6'
     label: T
   - name: psu-07
+    position: '7'
     label: R
   - name: psu-08
+    position: '8'
     label: S
   - name: psu-09
+    position: '9'
     label: T
   - name: psu-10
+    position: '10'
     label: R
