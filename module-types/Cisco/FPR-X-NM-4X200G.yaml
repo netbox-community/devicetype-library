@@ -1,0 +1,14 @@
+---
+manufacturer: Cisco
+model: FPR-NM-4X200G
+part_number: FPR-NM-4X200G
+comments: '[Cisco Secure Firewall 4200 Series Hardware Installation Guide](https://www.cisco.com/c/en/us/td/docs/security/secure-firewall/hardware/4200/fw-4200-install/m-overview.html)'
+interfaces:
+  - name: Ethernet{module}/1
+    type: 200gbase-x-qsfp28
+  - name: Ethernet{module}/2
+    type: 200gbase-x-qsfp28
+  - name: Ethernet{module}/3
+    type: 200gbase-x-qsfp28
+  - name: Ethernet{module}/4
+    type: 200gbase-x-qsfp28
