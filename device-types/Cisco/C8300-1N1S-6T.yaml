@@ -18,8 +18,11 @@ module-bays:
   - name: PSU1
     position: '1'
   - name: SM 1  # SM = Service Module
+    position: SM1
   - name: NIM 1 # NIM = Network Interface Module
+    position: NIM1
   - name: PIM 1 # PIM = Pluggable Interface Module (LTE/5G)
+    position: PIM1
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-t
