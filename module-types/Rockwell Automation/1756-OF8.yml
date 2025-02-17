@@ -1,0 +1,23 @@
+---
+manufacturer: Rockwell Automation
+model: 1756-OF8
+part_number: 1756-OF8
+description: 8-channel analog output module for ControlLogix systems
+
+power-ports:
+  - name: Backplane Power
+    type: dc-terminal
+    maximum_draw: 7
+
+interfaces:
+  - name: Backplane Connection
+    type: other
+    mgmt_only: false
+
+comments: |
+  The 1756-OF8 module is an 8-channel analog output module used in ControlLogix systems.
+  It supports both voltage and current output signals for industrial automation applications.
+
+console-ports:
+  - name: Configuration Port
+    type: usb-mini-b
