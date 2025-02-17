@@ -121,10 +121,6 @@ interfaces:
     type: 100gbase-x-qsfp28
 module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 405
-    allocated_draw: 313
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 405
-    allocated_draw: 313
+    position: '2'
