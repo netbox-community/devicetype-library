@@ -26,15 +26,19 @@ interfaces:
 module-bays:
   - name: AIM slot 0
     label: AIM 0
+    position: AIM0
     description: Advanced Integration Module Slot
   - name: AIM slot 1
     label: AIM 1
+    position: AIM1
     description: Advanced Integration Module Slot
   - name: Slot 0 SubSlot 4
     label: PVDM0
+    position: PVDM0
     description: Packet Voice Digital Signal Processor Module Slot
   - name: Slot 0 SubSlot 5
     label: PVDM1
+    position: PVDM1
     description: Packet Voice Digital Signal Processor Module Slot
   - name: Slot 0/0
     label: HWIC0
