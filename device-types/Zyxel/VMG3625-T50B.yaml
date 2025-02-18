@@ -1,0 +1,34 @@
+---
+manufacturer: Zyxel
+model: VMG3625-T50B
+slug: zyxel-vmg3625-t50b
+part_number: '4718937620777'
+u_height: 0
+weight: 325
+weight_unit: g
+is_full_depth: false
+airflow: passive
+comments: '[VMG3625-T50B Specs](https://www.zyxel.com/uk/en-gb/products/dsl-cpe/dual-band-wireless-ac-n-vdsl2-gigabit-gateway-vmg3625-t50b/specifications)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12 V DC, 1.5 A
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: LAN1
+    label: LAN 1
+    type: 1000base-tx
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-tx
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-tx
+  - name: LAN4
+    label: LAN 4
+    type: 1000base-tx
+  - name: WiFi
+    type: ieee802.11ac
