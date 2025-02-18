@@ -1,0 +1,134 @@
+---
+manufacturer: HPE
+model: Aruba 8100-48XF4C
+slug: hpe-aruba-8100-48xf4c
+part_number: R9W96A # Specs are listed for R9W90A and R9W91A, which are both just R9W96A switches with front-to-back or back-to-front fan modules preinstalled
+u_height: 1
+is_full_depth: false
+weight: 8.39
+weight_unit: kg
+comments: '[Aruba 8100 Switch Series](https://psnow.ext.hpe.com/doc/a00131340enw.pdf)'
+console-ports:
+  - name: usb-c
+    type: usb-c
+  - name: usb-ble
+    type: usb-a
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+interfaces:
+  - name: 1/1/1
+    type: 10gbase-x-sfpp
+  - name: 1/1/2
+    type: 10gbase-x-sfpp
+  - name: 1/1/3
+    type: 10gbase-x-sfpp
+  - name: 1/1/4
+    type: 10gbase-x-sfpp
+  - name: 1/1/5
+    type: 10gbase-x-sfpp
+  - name: 1/1/6
+    type: 10gbase-x-sfpp
+  - name: 1/1/7
+    type: 10gbase-x-sfpp
+  - name: 1/1/8
+    type: 10gbase-x-sfpp
+  - name: 1/1/9
+    type: 10gbase-x-sfpp
+  - name: 1/1/10
+    type: 10gbase-x-sfpp
+  - name: 1/1/11
+    type: 10gbase-x-sfpp
+  - name: 1/1/12
+    type: 10gbase-x-sfpp
+  - name: 1/1/13
+    type: 10gbase-x-sfpp
+  - name: 1/1/14
+    type: 10gbase-x-sfpp
+  - name: 1/1/15
+    type: 10gbase-x-sfpp
+  - name: 1/1/16
+    type: 10gbase-x-sfpp
+  - name: 1/1/17
+    type: 10gbase-x-sfpp
+  - name: 1/1/18
+    type: 10gbase-x-sfpp
+  - name: 1/1/19
+    type: 10gbase-x-sfpp
+  - name: 1/1/20
+    type: 10gbase-x-sfpp
+  - name: 1/1/21
+    type: 10gbase-x-sfpp
+  - name: 1/1/22
+    type: 10gbase-x-sfpp
+  - name: 1/1/23
+    type: 10gbase-x-sfpp
+  - name: 1/1/24
+    type: 10gbase-x-sfpp
+  - name: 1/1/25
+    type: 10gbase-x-sfpp
+  - name: 1/1/26
+    type: 10gbase-x-sfpp
+  - name: 1/1/27
+    type: 10gbase-x-sfpp
+  - name: 1/1/28
+    type: 10gbase-x-sfpp
+  - name: 1/1/29
+    type: 10gbase-x-sfpp
+  - name: 1/1/30
+    type: 10gbase-x-sfpp
+  - name: 1/1/31
+    type: 10gbase-x-sfpp
+  - name: 1/1/32
+    type: 10gbase-x-sfpp
+  - name: 1/1/33
+    type: 10gbase-x-sfpp
+  - name: 1/1/34
+    type: 10gbase-x-sfpp
+  - name: 1/1/35
+    type: 10gbase-x-sfpp
+  - name: 1/1/36
+    type: 10gbase-x-sfpp
+  - name: 1/1/37
+    type: 10gbase-x-sfpp
+  - name: 1/1/38
+    type: 10gbase-x-sfpp
+  - name: 1/1/39
+    type: 10gbase-x-sfpp
+  - name: 1/1/40
+    type: 10gbase-x-sfpp
+  - name: 1/1/41
+    type: 10gbase-x-sfpp
+  - name: 1/1/42
+    type: 10gbase-x-sfpp
+  - name: 1/1/43
+    type: 10gbase-x-sfpp
+  - name: 1/1/44
+    type: 10gbase-x-sfpp
+  - name: 1/1/45
+    type: 10gbase-x-sfpp
+  - name: 1/1/46
+    type: 10gbase-x-sfpp
+  - name: 1/1/47
+    type: 10gbase-x-sfpp
+  - name: 1/1/48
+    type: 10gbase-x-sfpp
+  - name: 1/1/49
+    type: 100gbase-x-qsfp28
+  - name: 1/1/50
+    type: 100gbase-x-qsfp28
+  - name: 1/1/51
+    type: 100gbase-x-qsfp28
+  - name: 1/1/52
+    type: 100gbase-x-qsfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

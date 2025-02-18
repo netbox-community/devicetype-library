@@ -1,0 +1,79 @@
+---
+manufacturer: Check Point
+model: SG1600
+slug: check-point-sg1600
+part_number: CPAP-SG1600
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 6.17
+weight_unit: kg
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+  - name: ttyS1
+    label: CONSOLE
+    type: usb-c
+power-ports:
+  - name: PSU-External
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 75
+interfaces:
+  - name: DMZ-RJ-45
+    type: 1000base-t
+  - name: DMZ-SFP
+    type: 1000base-x-sfp
+  - name: WAN-RJ-45
+    type: 1000base-t
+  - name: WAN-SFP
+    type: 1000base-x-sfp
+  - name: eth1
+    label: '1'
+    type: 1000base-t
+  - name: eth2
+    label: '2'
+    type: 1000base-t
+  - name: eth3
+    label: '3'
+    type: 1000base-t
+  - name: eth4
+    label: '4'
+    type: 1000base-t
+  - name: eth5
+    label: '5'
+    type: 1000base-t
+  - name: eth6
+    label: '6'
+    type: 1000base-t
+  - name: eth7
+    label: '7'
+    type: 1000base-t
+  - name: eth8
+    label: '8'
+    type: 1000base-t
+  - name: eth9
+    label: '9'
+    type: 1000base-t
+  - name: eth10
+    label: '10'
+    type: 1000base-t
+  - name: eth11
+    label: '11'
+    type: 1000base-t
+  - name: eth12
+    label: '12'
+    type: 1000base-t
+  - name: eth13
+    label: '13'
+    type: 1000base-t
+  - name: eth14
+    label: '14'
+    type: 1000base-t
+  - name: eth15
+    label: '15'
+    type: 1000base-t
+  - name: eth16
+    label: '16'
+    type: 1000base-t
