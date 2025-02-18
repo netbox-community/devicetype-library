@@ -7,6 +7,7 @@ u_height: 0
 is_full_depth: false
 weight: 600
 weight_unit: g
+default_platform: LCOS
 front_image: true
 rear_image: true
 subdevice_role: child
@@ -34,6 +35,8 @@ interfaces:
     type: 1000base-t
   - name: ISDN 2
     type: 1000base-t
+  - name: WLAN
+    type: IEEE 802.11n
 console-ports:
   - name: USB
     type: usb-a
