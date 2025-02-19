@@ -1,0 +1,36 @@
+---
+manufacturer: Dell
+model: PowerEdge R660
+slug: dell-poweredge-r660
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Optional Rear Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: Power 2
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC9
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Optional OCP NIC
+    position: ocp
+  - name: Optional BOSS-2 Removed
+    position: boss
+  - name: PCIe-Gen4 1
+    position: pcie1
+  - name: Optional PCIe-Gen4 2
+    position: pcie2
+  - name: Optional PCIe-Gen4 3
+    position: pcie3

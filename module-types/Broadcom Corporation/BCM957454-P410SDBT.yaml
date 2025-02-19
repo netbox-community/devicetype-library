@@ -1,0 +1,14 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957454-P410SDBT 
+part_number: BCM957454-P410SDBT 
+comments: 'BCM957454 - 4 x 10GbE PCIe NIC'
+interfaces:
+  - name: pcie{module}.nic1
+    type: 10gbase-t
+  - name: pcie{module}.nic2
+    type: 10gbase-t
+  - name: pcie{module}.nic3
+    type: 10gbase-t
+  - name: pcie{module}.nic4
+    type: 10gbase-t

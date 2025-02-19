@@ -1,0 +1,14 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957454-N410SDBT 
+part_number: BCM957454-N410SDBT 
+comments: '[BCM957454 - 4 x 10GbE OCP NIC](https://docs.broadcom.com/doc/12395120)'
+interfaces:
+  - name: ocp{module}.nic1
+    type: 10gbase-t
+  - name: ocp{module}.nic2
+    type: 10gbase-t
+  - name: ocp{module}.nic3
+    type: 10gbase-t
+  - name: ocp{module}.nic4
+    type: 10gbase-t
