@@ -1,0 +1,84 @@
+---
+manufacturer: Fortinet
+model: FortiGate 3701F
+slug: fortinet-fg-3701f
+part_number: FG-3701F
+u_height: 2
+is_full_depth: true
+weight: 22.1
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[FortiGate 3700F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-3700f-series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: ha1
+    type: 50gbase-x-sfp56
+  - name: ha2
+    type: 50gbase-x-sfp56
+  - name: mgmt1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: port1
+    type: 25gbase-x-sfp28
+  - name: port2
+    type: 25gbase-x-sfp28
+  - name: port3
+    type: 25gbase-x-sfp28
+  - name: port4
+    type: 25gbase-x-sfp28
+  - name: port5
+    type: 50gbase-x-sfp56
+  - name: port6
+    type: 50gbase-x-sfp56
+  - name: port7
+    type: 50gbase-x-sfp56
+  - name: port8
+    type: 50gbase-x-sfp56
+  - name: port9
+    type: 50gbase-x-sfp56
+  - name: port10
+    type: 50gbase-x-sfp56
+  - name: port11
+    type: 50gbase-x-sfp56
+  - name: port12
+    type: 50gbase-x-sfp56
+  - name: port13
+    type: 50gbase-x-sfp56
+  - name: port14
+    type: 50gbase-x-sfp56
+  - name: port15
+    type: 50gbase-x-sfp56
+  - name: port16
+    type: 50gbase-x-sfp56
+  - name: port17
+    type: 50gbase-x-sfp56
+  - name: port18
+    type: 50gbase-x-sfp56
+  - name: port19
+    type: 50gbase-x-sfp56
+  - name: port20
+    type: 50gbase-x-sfp56
+  - name: port21
+    type: 50gbase-x-sfp56
+  - name: port22
+    type: 50gbase-x-sfp56
+  - name: port23
+    type: 400gbase-x-qsfpdd
+  - name: port24
+    type: 400gbase-x-qsfpdd
+  - name: port25
+    type: 400gbase-x-qsfpdd
+  - name: port26
+    type: 400gbase-x-qsfpdd
