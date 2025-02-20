@@ -8,7 +8,7 @@ is_full_depth: true
 weight: 43.6
 weight_unit: kg
 airflow: front-to-rear
-comments: 'HPE StoreEver MSL6480, 80 LTO cartridge slots, 6 LTO Drives FC/SAS, Base module, extendable'
+comments: 'HPE StoreEver MSL6480, 80 LTO cartridge slots, 6 LTO Drives FC/SAS, 2 PSU Base module, extendable'
 console-ports:
   - name: console
     type: rj-45
@@ -27,15 +27,10 @@ module-bays:
     position: '5'
   - name: LTO_Drive_6
     position: '6'
-power-ports:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 100
+    position: '7'
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 100
+    position: '8'
 interfaces:
   - name: mgmt
     type: 1000base-t
