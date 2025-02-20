@@ -1,0 +1,104 @@
+---
+manufacturer: Fortinet
+model: FortiGate 3001F
+slug: fortinet-fg-3001f
+part_number: FG-3001F
+u_height: 2
+is_full_depth: true
+weight: 17.3
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[FortiGate 3000F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-3000f-series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: ha1
+    type: 25gbase-x-sfp28
+  - name: ha2
+    type: 25gbase-x-sfp28
+  - name: mgmt1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: port1
+    type: 10gbase-t
+  - name: port2
+    type: 10gbase-t
+  - name: port3
+    type: 10gbase-t
+  - name: port4
+    type: 10gbase-t
+  - name: port5
+    type: 10gbase-t
+  - name: port6
+    type: 10gbase-t
+  - name: port7
+    type: 10gbase-t
+  - name: port8
+    type: 10gbase-t
+  - name: port9
+    type: 10gbase-t
+  - name: port10
+    type: 10gbase-t
+  - name: port11
+    type: 10gbase-t
+  - name: port12
+    type: 10gbase-t
+  - name: port13
+    type: 10gbase-t
+  - name: port14
+    type: 10gbase-t
+  - name: port15
+    type: 10gbase-t
+  - name: port16
+    type: 10gbase-t
+  - name: port17
+    type: 10gbase-x-sfpp
+  - name: port18
+    type: 10gbase-x-sfpp
+  - name: port19
+    type: 10gbase-x-sfpp
+  - name: port20
+    type: 10gbase-x-sfpp
+  - name: port21
+    type: 10gbase-x-sfpp
+  - name: port22
+    type: 10gbase-x-sfpp
+  - name: port23
+    type: 10gbase-x-sfpp
+  - name: port24
+    type: 10gbase-x-sfpp
+  - name: port25
+    type: 25gbase-x-sfp28
+  - name: port26
+    type: 25gbase-x-sfp28
+  - name: port27
+    type: 25gbase-x-sfp28
+  - name: port28
+    type: 25gbase-x-sfp28
+  - name: port29
+    type: 25gbase-x-sfp28
+  - name: port30
+    type: 25gbase-x-sfp28
+  - name: port31
+    type: 100gbase-x-qsfp28
+  - name: port32
+    type: 100gbase-x-qsfp28
+  - name: port33
+    type: 100gbase-x-qsfp28
+  - name: port34
+    type: 100gbase-x-qsfp28
+  - name: port35
+    type: 100gbase-x-qsfp28
+  - name: port36
+    type: 100gbase-x-qsfp28
