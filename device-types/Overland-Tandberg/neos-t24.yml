@@ -1,0 +1,26 @@
+---
+manufacturer: Overland-Tandberg
+model: NEOs T24
+slug: overland-tandberg-neos-t24
+u_height: 2
+is_full_depth: true
+weight: 15
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  [NEO Firmware and Documents](https://overlandtandberg.atlassian.net/wiki/spaces/KNOW/pages/117637153/NEO+LTO+Firmware+Driver+Links+Release+Notes)
+
+  [BDT FLEXSTOR II - 2U Datasheet](https://www.bdt.de/fileadmin/user_upload/07_Downloads/Storage/Formular_Storage_Data_Sheets_FLEXSTOR_2U.pdf)
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 160
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+module-bays:
+  - name: Drive 1
+    position: '1'
+  - name: Drive 2
+    position: '2'

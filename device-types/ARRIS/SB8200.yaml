@@ -1,0 +1,21 @@
+---
+manufacturer: ARRIS
+model: SB8200
+slug: arris-sb8200
+part_number: SB8200
+u_height: 0
+is_full_depth: false
+comments: '[ARRIS Surfboard SB8200 DOCSIS 3.1 Cable Modem](https://www.surfboard.com/products/cable-modems/sb8200/)'
+weight: 2.3
+weight_unit: lb
+airflow: passive
+power-ports:
+  - name: PS
+    type: dc-terminal
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Coax 1
+    type: docsis

@@ -1,0 +1,33 @@
+---
+manufacturer: Netgear
+model: GS305EP
+slug: netgear-gs305ep
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[300 Series SOHO Plus (GS305EP)](https://www.netgear.com/business/wired/switches/plus/gs305ep/)'
+weight: 0.39
+weight_unit: kg
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 70
+interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/5
+    type: 1000base-t
