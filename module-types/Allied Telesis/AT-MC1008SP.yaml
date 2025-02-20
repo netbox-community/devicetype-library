@@ -1,0 +1,10 @@
+---
+manufacturer: Allied Telesis
+model: MC1008/SP
+part_number: AT-MC1008SP
+comments: 1000TX to 1000SFP Gigabit media converter with SFP connector
+interfaces:
+  - name: Slot {module} - Port 1
+    type: 1000base-x-sfp
+  - name: Port 2 (Slot {module})
+    type: 1000base-tx
