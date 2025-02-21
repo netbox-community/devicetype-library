@@ -1,11 +1,11 @@
 ---
-manufacturer: Tripp Lite
+manufacturer: Eaton
 model: Tripp Lite B051-000
-slug: tripp-lite-b051-000
+slug: eaton-tripp-lite-b051-000
 part_number: B051-000
 u_height: 0.0
 is_full_depth: false
-comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b051000.pdf)'
+comments: IP Remote Access Unit for KVM [Datasheet](https://assets.tripplite.com/product-pdfs/en/b051000.pdf)
 weight: 1.08
 weight_unit: lb
 console-ports:
@@ -32,6 +32,5 @@ power-ports:
 interfaces:
   - name: '1'
     type: 1000base-t
-    enabled: true
     mgmt_only: true
     label: LAN
