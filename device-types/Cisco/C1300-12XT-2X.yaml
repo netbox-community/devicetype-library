@@ -1,0 +1,75 @@
+---
+manufacturer: Cisco
+model: Catalyst 1300-12XT-2X
+slug: cisco-c1300-12xt-2x
+part_number: C1300-12XT-2X
+u_height: 1.0
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: '[Catalyst 1300 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html)'
+weight: 5.82
+weight_unit: lb
+airflow: front-to-rear
+interfaces:
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/3
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/4
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/5
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/6
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/7
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/8
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/9
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/10
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/11
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/12
+    type: 10gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/13
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: TenGigabitEthernet1/0/14
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: OOB
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+  - name: Vlan1
+    type: virtual
+    enabled: true
+    mgmt_only: false
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: usb-c
+  - name: con2
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 52
