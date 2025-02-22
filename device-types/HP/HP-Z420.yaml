@@ -1,0 +1,18 @@
+---
+manufacturer: HP
+model: Z420
+slug: hp-z420
+part_number: hp-z420
+u_height: 2
+is_full_depth: false  # 15.75"
+weight: 29.92
+weight_unit: lb
+front_image: true
+rear_image: true
+comments: '[Datasheet](http://www.hp.com/united-states/campaigns/workstations/images/datasheet_z420.pdf)\n\n- Rear ports are listed left-to-right top-to-bottom.'
+interfaces:
+  - name: ethernet-1/1
+    type: 1000base-t
+power-ports:
+  - name: External Power Supply
+    type: iec-60320-c14

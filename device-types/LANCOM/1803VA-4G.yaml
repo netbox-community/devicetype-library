@@ -1,0 +1,44 @@
+---
+manufacturer: LANCOM
+model: 1803VA-4G
+slug: lancom-1803va-4g
+part_number: '62155'
+u_height: 0
+is_full_depth: false
+airflow: left-to-right
+weight: 760
+weight_unit: g
+subdevice_role: child
+comments: |
+  [LANCOM 1803VA-4G Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-1803VA-4G/DS_1803VA-4G_DE.pdf)
+  WAN is dual personality (1000base-t/SFP)
+console-ports:
+  - name: Config
+    type: usb-c
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 28
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: WAN
+    type: 1000base-t
+  - name: DSL
+    type: xdsl
+  - name: Analog 1
+    type: other
+  - name: Analog 2
+    type: other
+  - name: ISDN 1
+    type: other
+  - name: ISDN 2
+    type: other
+  - name: Cellular Interface (LTE)
+    type: lte

@@ -1,0 +1,24 @@
+---
+manufacturer: Bastion
+model: RAPAN-UPS1000-RACK-IN-2X9
+slug: bastion-rapan-ups1000-rack-in-2x9
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Line-interactive UPS 2U 1000VA/700W, Extendable battery support](https://bast.ru/products/rack/rapan-ups-1000-rack-in-2x9)'
+weight: 16.6
+weight_unit: kg
+console-ports:
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Input
+    type: iec-60320-c20
+    maximum_draw: 1300
+power-outlets:
+  - name: Out1
+    type: ita-f
+    power_port: Input
+  - name: Out2
+    type: ita-f
+    power_port: Input
