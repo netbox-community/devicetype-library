@@ -1,12 +1,13 @@
 ---
 manufacturer: Cisco
-model: FirePOWER 3110 Next-Generation Firewall
-slug: cisco-firepower-3110-next-generation-firewall
+model: FPR3110-NGFW-K9
+slug: cisco-fpr3110-ngfw-k9
 part_number: FPR3110-NGFW-K9
 u_height: 1
 is_full_depth: true
 weight: 10.5
 weight_unit: kg
+airflow: front-to-rear
 comments: '[Cisco Firepower 3100 Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firewalls/secure-firewall-3100-series-ds.html)'
 console-ports:
   - name: Console
@@ -14,6 +15,10 @@ console-ports:
 module-bays:
   - name: PS-0
     position: '0'
+  - name: PS-1
+    position: '1'
+  - name: Expansion module
+    position: '1'
 interfaces:
   - name: Ethernet1/1
     type: 1000base-t

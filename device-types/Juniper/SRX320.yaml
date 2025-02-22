@@ -14,7 +14,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: PSU0
-    type: iec-60320-c14
+    type: dc-terminal
     allocated_draw: 46
 interfaces:
   - name: ge-0/0/0

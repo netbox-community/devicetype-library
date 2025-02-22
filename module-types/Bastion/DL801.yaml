@@ -1,0 +1,9 @@
+---
+manufacturer: Bastion
+model: DL801
+part_number: '2159'
+comments: Network card for compatible UPS systems(Netagent9 MiniGo). [Manual](https://bast.ru/ups/snmp-modul-dl-801)
+interfaces:
+  - name: mgmt
+    type: 100base-tx
+    mgmt_only: true
