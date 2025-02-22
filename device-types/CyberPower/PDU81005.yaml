@@ -5,12 +5,12 @@ slug: cyberpower-pdu81005
 part_number: PDU81005
 is_full_depth: false
 u_height: 1
-
-# Power specifications
+weight: 2.1
+weight_unit: kg
+airflow: passive
 power-ports:
   - name: Power Port
     type: iec-60320-c20
-
 power-outlets:
   - name: Outlet 1
     type: iec-60320-c13
@@ -36,11 +36,9 @@ power-outlets:
   - name: Outlet 8
     type: iec-60320-c13
     power_port: Power Port
-
 console-ports:
   - name: Serial
     type: rj-45
-
 interfaces:
   - name: Network
     type: 1000base-t
