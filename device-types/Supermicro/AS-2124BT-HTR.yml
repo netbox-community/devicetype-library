@@ -1,0 +1,30 @@
+---
+manufacturer: Supermicro
+model: A+ Server 2124BT-HTR
+slug: supermicro-as-2124bt-htr
+part_number: AS-2124BT-HTR
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: BigTwin A+ Server AS-2124BT-HTR (https://www.supermicro.com/en/products/system/bigtwin/2u/as-2124bt-htr)
+subdevice_role: parent
+weight: 30
+weight_unit: kg
+front_image: true
+rear_image: true
+module-bays:
+  - name: PSU0
+    position: PSU 0
+    maximum_draw: 2200
+  - name: PSU1
+    position: PSU 1
+    maximum_draw: 2200
+device-bays:
+  - name: Node 1
+    label: Compute Node 1
+  - name: Node 2
+    label: Compute Node 2
+  - name: Node 3
+    label: Compute Node 3
+  - name: Node 4
+    label: Compute Node 4
