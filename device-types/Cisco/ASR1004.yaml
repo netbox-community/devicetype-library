@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: ASR1004
+slug: cisco-asr1004
+part_number: ASR1004
+description: 'Cisco ASR 1004 Router (https://www.cisco.com/c/en/us/products/routers/asr-1004-router/index.html)'
+u_height: 4
+weight: 31.16
+weight_unit: kg
+front_image: true
+rear_image: true
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: Con 0
+    type: rj-45
+  - name: Aux 0
+    type: rj-45
+power-ports:
+  - name: ASR1004-PWR-AC-1
+    type: iec-60320-c14
+    maximum_draw: 765
+  - name: ASR1004-PWR-AC-2
+    type: iec-60320-c14
+    maximum_draw: 765
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    description: Management
