@@ -7,6 +7,7 @@ u_height: 0
 weight: 0.83
 weight_unit: lb
 is_full_depth: false
+airflow: passive
 comments: Built in LTE modem (3 antenna), PoE-capable, Wall-mount.
 console-ports:
   - name: Console
@@ -25,5 +26,7 @@ interfaces:
     type: 1000base-t
   - name: port4
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: LTE
     type: lte
