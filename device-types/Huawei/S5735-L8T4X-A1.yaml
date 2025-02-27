@@ -1,0 +1,45 @@
+---
+manufacturer: Huawei
+model: S5735-L8T4X-A1
+slug: huawei-s5735-l8t4x-a1
+u_height: 1
+is_full_depth: false
+airflow: left-to-right
+weight: 1.44
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: "CloudEngine S5735-L8T4X-A1 (8 * 10/100/1000BASE-T ports, 4 * 10GE SFP+ ports, AC power\r\n\r\nDatasheet: [Link](https://support.huawei.com/enterprise/en/doc/EDOC1000013597/a34cc129/s5735-l8t4x-a1)"
+console-ports:
+  - name: console0
+    type: rj-45
+power-ports:
+  - name: PWR
+    type: iec-60320-c14
+    maximum_draw: 27
+    allocated_draw: 15
+interfaces:
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/0/7
+    type: 1000base-t
+  - name: GigabitEthernet0/0/8
+    type: 1000base-t
+  - name: XGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
