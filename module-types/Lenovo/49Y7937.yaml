@@ -4,6 +4,6 @@ description: RackSwitch Hot-Swap, Front-to-Rear 450W Power Supply
 part_number: 49Y7937
 model: 49Y7937
 power-ports:
-- name: '{module}.IN'
-  type: iec-60320-c14
-  maximum_draw: 450
+  - name: '{module}.IN'
+    type: iec-60320-c14
+    maximum_draw: 450

@@ -9,11 +9,11 @@ airflow: front-to-rear
 front_image: true
 weight: 23.1
 weight_unit: lb
-comments: 'Comes with 2 PSU and 3 Fan modules'
+comments: Comes with 2 PSU and 3 Fan modules
 console-ports:
   - name: Serial
     type: usb-mini-a
-    label: 'Serial'
+    label: Serial
 interfaces:
   - name: '1'
     type: 1000base-tx
@@ -190,4 +190,3 @@ module-bays:
   - name: PWR2
     label: PWR2
     position: PWR2
-
