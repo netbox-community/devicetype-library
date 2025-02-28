@@ -1,0 +1,32 @@
+---
+manufacturer: Fortinet
+model: FortiExtender 101F-EA
+slug: fortinet-fex-101f-ea
+part_number: FEX-101F-EA
+u_height: 0
+weight: 0.83
+weight_unit: lb
+is_full_depth: false
+airflow: passive
+comments: Built in LTE modem (3 antenna), PoE-capable, Wall-mount.
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: dc-terminal
+interfaces:
+  - name: wan
+    type: 1000base-t
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: LTE
+    type: lte
