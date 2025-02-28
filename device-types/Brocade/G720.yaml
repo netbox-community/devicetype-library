@@ -5,11 +5,13 @@ slug: brocade-g720
 part_number: DS7720B
 is_full_depth: true
 u_height: 1
+weight: 7.34
+weight_unit: kg
 comments: '[Link to Brocade G720 Datasheet](https://docs.broadcom.com/doc/G720-Switch-PB)'
 interfaces:
   - name: management
     type: 1000base-t
-	mgmt_only: true
+    mgmt_only: true
   - name: FC port 0
     type: 64gfc-sfpp
   - name: FC port 1
@@ -146,10 +148,8 @@ interfaces:
   - name: FC port 63
     type: 64gfc-sfpdd
     description: Only usable with SFP-DD optic in port 62
-power-ports:
+module-bays:
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 205
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 205
+    position: '1'
