@@ -1,0 +1,62 @@
+---
+manufacturer: Keysight
+model: AresONE-S400GDR-16PHW-16P-QDD
+slug: keysight-aresone-s400gdr-16phw-16p-qdd
+part_number: 944-1187
+description: IXIA, AresONE S400GDR-16PHW-16P-QDD, High Density, 16-port, reduced performance fixed chassis model with native QSFP-DD 400GE (PAM4) physical
+  interfaces and L1-3 support (944-1187)
+u_height: 2
+weight: 65
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: true
+comments: |
+  [AresONE-S-400GE QSFP-DD High-Density 16-Port Test System Data Sheet](https://www.keysight.com/us/en/assets/3121-1007/data-sheets/AresONE-S-400GE-QSFP-DD-High-Density-16-Port-Test-System.pdf)
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: PS3
+    position: '3'
+interfaces:
+  - name: MGMT
+    type: 10gbase-t
+    mgmt_only: true
+  - name: '1'
+    type: 400gbase-x-qsfpdd
+  - name: '2'
+    type: 400gbase-x-qsfpdd
+  - name: '3'
+    type: 400gbase-x-qsfpdd
+  - name: '4'
+    type: 400gbase-x-qsfpdd
+  - name: '5'
+    type: 400gbase-x-qsfpdd
+  - name: '6'
+    type: 400gbase-x-qsfpdd
+  - name: '7'
+    type: 400gbase-x-qsfpdd
+  - name: '8'
+    type: 400gbase-x-qsfpdd
+  - name: '9'
+    type: 400gbase-x-qsfpdd
+  - name: '10'
+    type: 400gbase-x-qsfpdd
+  - name: '11'
+    type: 400gbase-x-qsfpdd
+  - name: '12'
+    type: 400gbase-x-qsfpdd
+  - name: '13'
+    type: 400gbase-x-qsfpdd
+  - name: '14'
+    type: 400gbase-x-qsfpdd
+  - name: '15'
+    type: 400gbase-x-qsfpdd
+  - name: '16'
+    type: 400gbase-x-qsfpdd

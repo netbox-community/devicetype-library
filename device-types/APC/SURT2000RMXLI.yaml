@@ -30,7 +30,6 @@ power-outlets:
   - name: Outlet 6
     type: iec-60320-c13
     power_port: Inlet
-interfaces:
-  - name: Ethernet
-    type: 100base-tx
-    mgmt_only: true
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot

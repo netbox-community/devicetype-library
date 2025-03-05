@@ -1,120 +1,272 @@
 ---
 manufacturer: Dell
-model: PowerConnect 5548p
+model: PowerConnect 5548P
 slug: dell-powerconnect-5548p
 u_height: 1
 is_full_depth: false
 front_image: true
 rear_image: true
+weight: 6.1
+weight_unit: kg
+airflow: right-to-left
 console-ports:
-  - name: Serial
+  - name: Serial0
     type: rj-45
-  - name: Usb
-    type: usb-a
+    label: IOIOI
 power-ports:
-  - name: Power
+  - name: PSU1
     type: iec-60320-c14
+    label: PSU1
 interfaces:
-  - name: gigabitethernet0/1
+  - name: GigabitEthernet1/0/1
     type: 1000base-t
-  - name: gigabitethernet0/2
+    label: Port 1
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/2
     type: 1000base-t
-  - name: gigabitethernet0/3
+    label: Port 2
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/3
     type: 1000base-t
-  - name: gigabitethernet0/4
+    label: Port 3
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/4
     type: 1000base-t
-  - name: gigabitethernet0/5
+    label: Port 4
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/5
     type: 1000base-t
-  - name: gigabitethernet0/6
+    label: Port 5
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/6
     type: 1000base-t
-  - name: gigabitethernet0/7
+    label: Port 6
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/7
     type: 1000base-t
-  - name: gigabitethernet0/8
+    label: Port 7
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/8
     type: 1000base-t
-  - name: gigabitethernet0/9
+    label: Port 8
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/9
     type: 1000base-t
-  - name: gigabitethernet0/10
+    label: Port 9
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/10
     type: 1000base-t
-  - name: gigabitethernet0/11
+    label: Port 10
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/11
     type: 1000base-t
-  - name: gigabitethernet0/12
+    label: Port 11
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/12
     type: 1000base-t
-  - name: gigabitethernet0/13
+    label: Port 12
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/13
     type: 1000base-t
-  - name: gigabitethernet0/14
+    label: Port 13
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/14
     type: 1000base-t
-  - name: gigabitethernet0/15
+    label: Port 14
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/15
     type: 1000base-t
-  - name: gigabitethernet0/16
+    label: Port 15
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/16
     type: 1000base-t
-  - name: gigabitethernet0/17
+    label: Port 16
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/17
     type: 1000base-t
-  - name: gigabitethernet0/18
+    label: Port 17
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/18
     type: 1000base-t
-  - name: gigabitethernet0/19
+    label: Port 18
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/19
     type: 1000base-t
-  - name: gigabitethernet0/20
+    label: Port 19
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/20
     type: 1000base-t
-  - name: gigabitethernet0/21
+    label: Port 20
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/21
     type: 1000base-t
-  - name: gigabitethernet0/22
+    label: Port 21
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/22
     type: 1000base-t
-  - name: gigabitethernet0/23
+    label: Port 22
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/23
     type: 1000base-t
-  - name: gigabitethernet0/24
+    label: Port 23
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/24
     type: 1000base-t
-  - name: gigabitethernet0/25
+    label: Port 24
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/25
     type: 1000base-t
-  - name: gigabitethernet0/26
+    label: Port 25
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/26
     type: 1000base-t
-  - name: gigabitethernet0/27
+    label: Port 26
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/27
     type: 1000base-t
-  - name: gigabitethernet0/28
+    label: Port 27
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/28
     type: 1000base-t
-  - name: gigabitethernet0/29
+    label: Port 28
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/29
     type: 1000base-t
-  - name: gigabitethernet0/30
+    label: Port 29
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/30
     type: 1000base-t
-  - name: gigabitethernet0/31
+    label: Port 30
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/31
     type: 1000base-t
-  - name: gigabitethernet0/32
+    label: Port 31
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/32
     type: 1000base-t
-  - name: gigabitethernet0/33
+    label: Port 32
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/33
     type: 1000base-t
-  - name: gigabitethernet0/34
+    label: Port 33
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/34
     type: 1000base-t
-  - name: gigabitethernet0/35
+    label: Port 34
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/35
     type: 1000base-t
-  - name: gigabitethernet0/36
+    label: Port 35
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/36
     type: 1000base-t
-  - name: gigabitethernet0/37
+    label: Port 36
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/37
     type: 1000base-t
-  - name: gigabitethernet0/38
+    label: Port 37
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/38
     type: 1000base-t
-  - name: gigabitethernet0/39
+    label: Port 38
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/39
     type: 1000base-t
-  - name: gigabitethernet0/40
+    label: Port 39
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/40
     type: 1000base-t
-  - name: gigabitethernet0/41
+    label: Port 40
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/41
     type: 1000base-t
-  - name: gigabitethernet0/42
+    label: Port 41
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/42
     type: 1000base-t
-  - name: gigabitethernet0/43
+    label: Port 42
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/43
     type: 1000base-t
-  - name: gigabitethernet0/44
+    label: Port 43
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/44
     type: 1000base-t
-  - name: gigabitethernet0/45
+    label: Port 44
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/45
     type: 1000base-t
-  - name: gigabitethernet0/46
+    label: Port 45
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/46
     type: 1000base-t
-  - name: gigabitethernet0/47
+    label: Port 46
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/47
     type: 1000base-t
-  - name: gigabitethernet0/48
+    label: Port 47
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet1/0/48
     type: 1000base-t
-  - name: tengigabitethernet0/1
+    label: Port 48
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: TenGigabitEthernet1/0/1
     type: 10gbase-x-sfpp
-  - name: tengigabitethernet0/2
+    label: SFP+ 1
+  - name: TenGigabitEthernet1/0/2
     type: 10gbase-x-sfpp
-  - name: Management
-    type: virtual
-    mgmt_only: true
+    label: SFP+ 2
+  - name: Stack0
+    type: other
+    label: Stacking HDMI 1
+  - name: Stack1
+    type: other
+    label: Stacking HDMI 2

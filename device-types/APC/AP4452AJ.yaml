@@ -1,0 +1,42 @@
+---
+manufacturer: APC
+model: AP4452AJ
+slug: apc-ap4452aj
+part_number: AP4452AJ
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 4.4
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: APC NetShelter Rack Automatic Transfer Switch, 1U, 20A, 100V, 2 L5-20 IN, 8 5-15R OUT, 50/60Hz
+console-ports:
+  - name: Serial
+    type: usb-micro-b
+power-ports:
+  - name: Source A
+    type: nema-l5-20p
+  - name: Source B
+    type: nema-l5-20p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+  - name: Outlet 2
+    type: nema-5-15r
+  - name: Outlet 3
+    type: nema-5-15r
+  - name: Outlet 4
+    type: nema-5-15r
+  - name: Outlet 5
+    type: nema-5-15r
+  - name: Outlet 6
+    type: nema-5-15r
+  - name: Outlet 7
+    type: nema-5-15r
+  - name: Outlet 8
+    type: nema-5-15r
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

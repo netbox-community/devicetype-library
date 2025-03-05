@@ -1,0 +1,46 @@
+---
+manufacturer: Winegard
+model: Gateway 5G
+slug: winegard-gateway-5g
+part_number: GW-5G01
+u_height: 0
+is_full_depth: false
+weight: 1.0
+weight_unit: lb
+airflow: passive
+comments: |
+  [Winegard Gateway 5G](https://winegard.com/gateway-5g/)
+  Supported Bands:
+    LTE: B1/B2/B3/B4/B5/B7/B8/B12(B17)/B13/B14/B18/B19/B20/B25/B26/B28/B29/B30/B32/B66/B71
+    5G: n1/n2/n3/n5/n7/n8/n12/n20/n25/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79
+    Dual Band Wireless Speed: 2.4 GHz: 450Mbps 5 GHz: 1300 Mbps
+    Dual SIM Card: Mini SIM (2FF)
+    Dimensions: 8.13"l x 8.13"w x 1.68"d
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 27
+    label: DC+12V/1.7A
+interfaces:
+  - name: wlan0
+    type: ieee802.11ac
+    label: Red - WiFi
+  - name: eth0
+    type: 1000base-t
+    description: LAN or WAN
+  - name: ant3
+    type: 5g
+    label: Green - 5G/LTE
+  - name: ant4
+    type: 5g
+    label: Yellow - 5G/LTE
+  - name: ant5
+    type: 5g
+    label: Green - 5G/LTE
+  - name: ant6
+    type: 5g
+    label: Yellow - 5G/LTE
+  - name: sim0
+    type: other
+  - name: sim1
+    type: other

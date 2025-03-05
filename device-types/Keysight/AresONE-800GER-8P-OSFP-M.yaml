@@ -1,0 +1,46 @@
+---
+manufacturer: Keysight
+model: AresONE-800GER-8P-OSFP-M
+slug: keysight-aresone-800ger-8p-osfp-m
+part_number: 944-1420
+description: Ixia, AresONE 800GER-8P-OSFP-M, High Density, 8-port, restricted performance fixed chassis model with native OSFP800 800GE (PAM4) physical
+  interfaces, L1-3, optical transceiver, and copper DAC support
+u_height: 2
+weight: 58.4
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: true
+comments: |
+  [Keysight AresONE 800GE OSFP800-M 4/8-Port Test Systems Data Sheet](https://www.keysight.com/us/en/assets/3123-1789/data-sheets/AresONE-800GE-OSFP800-M-4-8-Port-Test-Systems.pdf)
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: PS3
+    position: '3'
+interfaces:
+  - name: MGMT
+    type: 10gbase-t
+    mgmt_only: true
+  - name: '1'
+    type: 800gbase-x-osfp
+  - name: '2'
+    type: 800gbase-x-osfp
+  - name: '3'
+    type: 800gbase-x-osfp
+  - name: '4'
+    type: 800gbase-x-osfp
+  - name: '5'
+    type: 800gbase-x-osfp
+  - name: '6'
+    type: 800gbase-x-osfp
+  - name: '7'
+    type: 800gbase-x-osfp
+  - name: '8'
+    type: 800gbase-x-osfp

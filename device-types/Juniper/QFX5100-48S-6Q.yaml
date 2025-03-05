@@ -4,6 +4,9 @@ model: QFX5100-48S-6q
 slug: juniper-qfx5100-48s-6q
 part_number: QFX5100-48S-6Q
 u_height: 1
+airflow: front-to-rear
+front_image: true
+rear_image: true
 is_full_depth: true
 interfaces:
   - name: ge-0/0/0
@@ -216,13 +219,21 @@ interfaces:
   - name: em1
     type: 1000base-x-sfp
     mgmt_only: true
-power-ports:
+module-bays:
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 650
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
+    position: '1'
+  - name: FAN0
+    position: '0'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+  - name: FAN4
+    position: '4'
 console-ports:
   - name: console
     type: rj-45
