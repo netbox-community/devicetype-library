@@ -1,0 +1,108 @@
+---
+manufacturer: TP-Link
+model: TL-SG3428X
+slug: tp-link-tl-sg3428x
+default_platform: null
+part_number: TL-SG3428X
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 2.0
+weight_unit: kg
+comments: '[TP-Link TL-SG3428X](https://www.omadanetworks.com/pl/business-networking/omada-switch-l3-l2-managed/tl-sg3428x/#specifications)'
+console-ports:
+  - name: Serial Console
+    type: rj-45
+    label: Console(RJ45)
+  - name: USB Serial Console
+    type: usb-micro-b
+    label: Console(USB)
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 24
+interfaces:
+  - name: gigabitEthernet 1/0/1
+    type: 1000base-t
+    label: '1'
+  - name: gigabitEthernet 1/0/2
+    type: 1000base-t
+    label: '2'
+  - name: gigabitEthernet 1/0/3
+    type: 1000base-t
+    label: '3'
+  - name: gigabitEthernet 1/0/4
+    type: 1000base-t
+    label: '4'
+  - name: gigabitEthernet 1/0/5
+    type: 1000base-t
+    label: '5'
+  - name: gigabitEthernet 1/0/6
+    type: 1000base-t
+    label: '6'
+  - name: gigabitEthernet 1/0/7
+    type: 1000base-t
+    label: '7'
+  - name: gigabitEthernet 1/0/8
+    type: 1000base-t
+    label: '8'
+  - name: gigabitEthernet 1/0/9
+    type: 1000base-t
+    label: '9'
+  - name: gigabitEthernet 1/0/10
+    type: 1000base-t
+    label: '10'
+  - name: gigabitEthernet 1/0/11
+    type: 1000base-t
+    label: '11'
+  - name: gigabitEthernet 1/0/12
+    type: 1000base-t
+    label: '12'
+  - name: gigabitEthernet 1/0/13
+    type: 1000base-t
+    label: '13'
+  - name: gigabitEthernet 1/0/14
+    type: 1000base-t
+    label: '14'
+  - name: gigabitEthernet 1/0/15
+    type: 1000base-t
+    label: '15'
+  - name: gigabitEthernet 1/0/16
+    type: 1000base-t
+    label: '16'
+  - name: gigabitEthernet 1/0/17
+    type: 1000base-t
+    label: '17'
+  - name: gigabitEthernet 1/0/18
+    type: 1000base-t
+    label: '18'
+  - name: gigabitEthernet 1/0/19
+    type: 1000base-t
+    label: '19'
+  - name: gigabitEthernet 1/0/20
+    type: 1000base-t
+    label: '20'
+  - name: gigabitEthernet 1/0/21
+    type: 1000base-t
+    label: '21'
+  - name: gigabitEthernet 1/0/22
+    type: 1000base-t
+    label: '22'
+  - name: gigabitEthernet 1/0/23
+    type: 1000base-t
+    label: '23'
+  - name: gigabitEthernet 1/0/24
+    type: 1000base-t
+    label: '24'
+  - name: ten-gigabitEthernet 1/0/25
+    type: 10gbase-x-sfpp
+    label: '25'
+  - name: ten-gigabitEthernet 1/0/26
+    type: 10gbase-x-sfpp
+    label: '26'
+  - name: ten-gigabitEthernet 1/0/27
+    type: 10gbase-x-sfpp
+    label: '27'
+  - name: ten-gigabitEthernet 1/0/28
+    type: 10gbase-x-sfpp
+    label: '28'
