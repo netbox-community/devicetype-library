@@ -7,6 +7,7 @@ u_height: 1
 airflow: rear-to-front
 weight: 13.01
 weight_unit: lb
+is_full_depth: true
 comments: '[Juniper EX4400 Hardware Guide](https://www.juniper.net/documentation/us/en/hardware/ex4400/topics/topic-map/ex4400-system-overview.html)'
 interfaces:
   - name: me0
@@ -72,12 +73,8 @@ console-ports:
 module-bays:
   - name: Fan Module 0
     position: '0'
-    weight: 0.26
-    weight_unit: lb
   - name: Fan Module 1
     position: '1'
-    weight: 0.26
-    weight_unit: lb
   - name: Extension module
     position: '2'
   - name: PSU0
