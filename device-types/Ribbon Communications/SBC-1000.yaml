@@ -1,0 +1,22 @@
+---
+manufacturer: Ribbon Communications
+model: SBC 1000
+slug: ribbon-communications-sbc-1000
+part_number: SBC 1000
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 5.67
+weight_unit: kg
+comments: '[Ribbon Communications SBC 1000](https://ribboncommunications.com/products/enterprise-products/session-border-controllers/sbc-1000-session-border-controller)'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 145
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
