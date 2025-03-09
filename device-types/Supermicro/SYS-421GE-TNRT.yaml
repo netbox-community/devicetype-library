@@ -1,0 +1,77 @@
+---
+manufacturer: Supermicro
+model: SuperServer SYS-421GE-TNRT
+slug: supermicro-sys-421ge-tnrt
+part_number: SYS-421GE-TNRT
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+weight: 29.7
+weight_unit: kg
+comments: '[Supermicro SuperServer SYS-421GE-TNRT](https://www.supermicro.com/en/products/system/gpu/4u/sys-421ge-tnrt)'
+console-ports:
+  - name: Serial
+    type: de-9
+    description: Rear port
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 10gbase-t
+    description: Intel X710-AT2 10GbE controller (Onboard)
+  - name: Gig-E 2
+    type: 10gbase-t
+    description: Intel X710-AT2 10GbE controller (Onboard)
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
+  - name: PSU 3
+    position: PSU3
+  - name: PSU 4
+    position: PSU4
+  - name: AIOM
+    position: AIOM1
+    description: Advanced I/O Module (AIOM) Form Factor Slot, PCI-E 5.0 x16
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 5.0 x16, Full Height, Full-length
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 5.0 x16, Full Height, Full-length
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 5.0 x16, Full Height, Full-length
+  - name: PCI-E 4
+    position: '4'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 5
+    position: '5'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 6
+    position: '6'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 7
+    position: '7'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 8
+    position: '8'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 9
+    position: '9'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 10
+    position: '10'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 11
+    position: '11'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 12
+    position: '12'
+    description: PCI-E 5.0 x16, Full Height, Full Length
+  - name: PCI-E 13
+    position: '13'
+    description: PCI-E 5.0 x16, Full Height, Full Length
