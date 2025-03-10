@@ -5,6 +5,11 @@ part_number: C1111-8P
 slug: cisco-isr-1111-8p
 u_height: 1
 is_full_depth: false
+front_image: true
+rear_image: true
+weight: 1.98
+weight_unit: kg
+comments: 'Data sheet: [Cisco 1000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html#Cisco111xISRsFlexibleWANandLANconnectivity)'
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
@@ -34,4 +39,4 @@ console-ports:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 150
+    maximum_draw: 19
