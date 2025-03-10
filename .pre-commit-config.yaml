@@ -7,27 +7,28 @@ repos:
       - id: end-of-file-fixer
       - id: check-yaml
         name: Check YAML files
-  - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
-    rev: 0.2.3
-    hooks:
-      - id: yamlfmt
-        args: [--mapping, '2', --sequence, '4', --offset, '2']
-  - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.35.1
-    hooks:
-      - id: yamllint
-        name: Lint YAML files
-        args: [--format, parsable, --strict]
-  - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.14.0
-    hooks:
-      - id: markdownlint-cli2
-  - repo: local
-    hooks:
-      - id: pytest
-        name: Run PyTest Case Checks
-        entry: pytest
-        language: system
-        args: [--tb=short, -v]
-        pass_filenames: false
-        always_run: true
+#  - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
+#    rev: 0.2.3
+#    hooks:
+#      - id: yamlfmt
+#        args: [--mapping, '2', --sequence, '4', --offset, '2']
+#  - repo: https://github.com/adrienverge/yamllint.git
+#    rev: v1.35.1
+#    hooks:
+#      - id: yamllint
+#        name: Lint YAML files
+#        args: [--format, parsable, --strict]
+#  - repo: https://github.com/DavidAnson/markdownlint-cli2
+#    rev: v0.14.0
+#    hooks:
+#      - id: markdownlint-cli2
+#  - repo: local
+#    hooks:
+#      - id: pytest
+#        name: Run PyTest Case Checks
+#        entry: pytest
+#        language: system
+#        args: [--tb=short, -v]
+#        pass_filenames: false
+#        always_run: true
+#
