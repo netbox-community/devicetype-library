@@ -1,0 +1,32 @@
+---
+manufacturer: Ribbon Communications
+model: SBC 2000
+slug: ribbon-communications-sbc-2000
+part_number: SBC 2000
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 10.43
+weight_unit: kg
+comments: '[Ribbon Communications SBC 2000](https://ribboncommunications.com/products/enterprise-products/session-border-controllers/sbc-2000-session-border-controller)'
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+  - name: Module0
+    position: '0'
+  - name: Module1
+    position: '1'
+interfaces:
+  - name: Admin
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
