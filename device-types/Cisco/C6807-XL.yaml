@@ -4,10 +4,26 @@ model: Catalyst 6807-XL
 part_number: C6807-XL
 slug: cisco-catalyst-6807-xl
 u_height: 10
+weight: 62
+weight_unit: lb
+airflow: right-to-left
 is_full_depth: false
-console-ports:
-  - name: con 0
-    type: rj-45
+comments: '[Cisco Catalyst 6807-XL Modular Switch Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6807-xl-switch/datasheet-c78-728229.html)'
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
 power-ports:
   - name: PS-1
     type: iec-60320-c14

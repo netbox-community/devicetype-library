@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: Catalyst C8200-1N-4T
+slug: cisco-c8200-1n-4t
+part_number: C8200-1N-4T
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.54
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: '[Cisco Catalyst 8200 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8200-series-edge-platforms/nb-06-cat8200-series-edge-plat-ds-cte-en.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 100
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+module-bays:
+  - name: NIM 1
+    position: '1'
+  - name: PIM 1
+    position: '1'

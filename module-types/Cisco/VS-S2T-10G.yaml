@@ -1,0 +1,24 @@
+---
+manufacturer: Cisco
+model: VS-S2T-10G
+part_number: VS-S2T-10G
+weight: 12.0
+weight_unit: lb
+comments: '[Cisco Catalyst 6500 Series Supervisor Engine 2T Data Sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/catalyst-6500-series-supervisor-engine-2t/data_sheet_c78-648214.html)'
+console-ports:
+  - name: con{module}
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet{module}/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet{module}/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet{module}/3
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet{module}/4
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet{module}/5
+    type: 10gbase-x-x2
+  - name: Mgmt{module}/0
+    type: 1000base-t
+    mgmt_only: true

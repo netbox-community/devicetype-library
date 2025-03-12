@@ -1,0 +1,17 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G5 Flex
+slug: ubiquiti-unifi-uvc-g5-flex
+part_number: UVC-G5-Flex
+comments: '[G5 Flex](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-flex)'
+weight: 170
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    mgmt_only: false
