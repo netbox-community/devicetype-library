@@ -2,9 +2,11 @@
 manufacturer: MikroTik
 model: RB260GS
 slug: mikrotik-rb260gs
+u_height: 0
 power-ports:
   - name: PSU0
     type: dc-terminal
+    maximum_draw: 5
 interfaces:
   - name: ether1
     type: 1000base-t
@@ -16,3 +18,5 @@ interfaces:
     type: 1000base-t
   - name: ether5
     type: 1000base-t
+  - name: ether6
+    type: 1000base-x-sfp

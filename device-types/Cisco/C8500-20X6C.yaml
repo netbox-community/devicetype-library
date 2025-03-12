@@ -1,0 +1,92 @@
+---
+manufacturer: Cisco
+model: Catalyst 8500-20X6C
+slug: cisco-c8500-20x6c
+part_number: C8500-20X6C
+u_height: 3
+is_full_depth: true
+weight: 77.5
+weight_unit: lb
+front_image: true
+rear_image: true
+comments: '[Cisco Catalyst 8500 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8500-series-edge-platforms/datasheet-c78-744089.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: HundredGigE0/0/0
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/1
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/2
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/3
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/4
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/5
+    type: 100gbase-x-qsfp28
+  - name: TenGigabitEthernet0/1/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/12
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/13
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/14
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/15
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/16
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/17
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/18
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/1/19
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PS1
+    position: '1'
+    label: Power Supply 1
+  - name: PS2
+    position: '2'
+    label: Power Supply 2
+  - name: PS3
+    position: '3'
+    label: Power Supply 3
+  - name: PS4
+    position: '4'
+    label: Power Supply 4
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
