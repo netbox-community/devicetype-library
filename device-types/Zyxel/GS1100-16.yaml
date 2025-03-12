@@ -1,18 +1,20 @@
 ---
-manufacturer: Ubiquiti
-model: EdgePoint EP-S16
-slug: ubiquiti-edgepoint-ep-s16
-part_number: EP-S16
-u_height: 0
+manufacturer: Zyxel
+model: GS1100-16
+slug: zyxel-gs1100-16
+part_number: GS1100-16
+u_height: 1
 is_full_depth: false
-comments: '[EdgePoint S16](https://techspecs.ui.com/uisp/wired/ep-s16#datasheet)'
-airflow: passive
-weight: 3.4
+comments: '[Zyxel GS1100-16 16-Port Desktop GbE Switch](https://www.zyxelguard.com/datasheets/GS1100-8HP_1.pdf)'
+weight: 0.92
 weight_unit: kg
+airflow: passive
+front_image: true
+rear_image: true
 power-ports:
-  - name: Power
-    type: dc-terminal
-    maximum_draw: 40
+  - name: PS
+    type: iec-60320-c14
+    maximum_draw: 9
 interfaces:
   - name: '1'
     type: 1000base-t
@@ -46,7 +48,3 @@ interfaces:
     type: 1000base-t
   - name: '16'
     type: 1000base-t
-  - name: '17'
-    type: 10gbase-x-sfpp
-  - name: '18'
-    type: 10gbase-x-sfpp
