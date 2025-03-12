@@ -8,24 +8,24 @@ is_full_depth: false
 airflow: passive
 comments: '[Official documentation](https://help.mikrotik.com/docs/spaces/UM/pages/15303273/wAP+R+ac)'
 power-ports:
-- name: DC-in
-  type: dc-terminal
-  maximum_draw: 11
-  description: 10-57 V
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 11
+    description: 10-57 V
 interfaces:
-- name: ether1
-  type: 1000base-t
-  label: ETH1
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-- name: ether2
-  type: 1000base-t
-  label: ETH2
-- name: lte1
-  type: lte
-- name: wlan1
-  type: ieee802.11n
-  description: 2.4GHz
-- name: wlan2
-  type: ieee802.11ac
-  description: 5GHz
+  - name: ether1
+    type: 1000base-t
+    label: ETH1
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether2
+    type: 1000base-t
+    label: ETH2
+  - name: lte1
+    type: lte
+  - name: wlan1
+    type: ieee802.11n
+    description: 2.4GHz
+  - name: wlan2
+    type: ieee802.11ac
+    description: 5GHz
