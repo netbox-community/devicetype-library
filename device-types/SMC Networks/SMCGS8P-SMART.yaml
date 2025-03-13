@@ -28,24 +28,8 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet8
     type: 1000base-t
-  - name: GigabitEthernet9
-    type: 1000base-t
-  - name: GigabitEthernet10
-    type: 1000base-t
-  - name: GigabitEthernet11
-    type: 1000base-t
-  - name: GigabitEthernet12
-    type: 1000base-t
-  - name: GigabitEthernet13
-    type: 1000base-t
-  - name: GigabitEthernet14
-    type: 1000base-t
-  - name: GigabitEthernet15
-    type: 1000base-t
-  - name: GigabitEthernet16
-    type: 1000base-t
-  - name: TenGigabitEthernet1
-    type: 10gbase-x-sfpp
+  - name: GigabitEthernetSFP1
+    type: 1000base-x-sfp
 power-ports:
   - name: PSU0
     type: iec-60320-c14
