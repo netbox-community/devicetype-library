@@ -20,6 +20,8 @@ console-ports:
 interfaces:
   - name: GE1/0/1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: GE1/0/2
     type: 1000base-t
   - name: GE1/0/3
