@@ -6,6 +6,9 @@ part_number: CBS350-8P-2G
 comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
 is_full_depth: false
 u_height: 1
+weight: 2.59
+weight_unit: kg
+airflow: passive
 console-ports:
   - name: console
     type: rj-45
@@ -52,21 +55,3 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet10
     type: 1000base-x-sfp
-  - name: Port-channel1
-    type: lag
-  - name: Port-channel2
-    type: lag
-  - name: Port-channel3
-    type: lag
-  - name: Port-channel4
-    type: lag
-  - name: Port-channel5
-    type: lag
-  - name: Port-channel6
-    type: lag
-  - name: Port-channel7
-    type: lag
-  - name: Port-channel8
-    type: lag
-  - name: vlan1
-    type: virtual
