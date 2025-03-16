@@ -6,42 +6,45 @@ part_number: '201754'
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
+weight: 32.0
+weight_unit: lb
 console-ports:
   - name: console
     type: de-9
     label: console
 power-ports:
-  - name: power0
+  - name: PS1
     type: iec-60320-c14
-    maximum_draw: 440
-    label: power0
-  - name: power1
+    maximum_draw: 404
+    label: PS1
+  - name: PS2
     type: iec-60320-c14
-    maximum_draw: 440
-    label: power1
+    maximum_draw: 404
+    label: PS2
 interfaces:
-  - name: lan0
-    type: 1000base-t
-    label: lan0
-  - name: lan1
-    type: 1000base-t
-    label: lan1
+  - name: tlan0
+    type: 10gbase-x-sfpp
+    label: tlan0
+  - name: twan0
+    type: 10gbase-x-sfpp
+    label: twan0
+  - name: tlan1
+    type: 10gbase-x-sfpp
+    label: tlan1
+  - name: twan1
+    type: 10gbase-x-sfpp
+    label: twan1
+  - name: tlan2
+    type: 10gbase-x-sfpp
+    label: tlan2
+  - name: twan2
+    type: 10gbase-x-sfpp
+    label: twan2
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
     label: mgmt0
   - name: mgmt1
     type: 1000base-t
+    mgmt_only: true
     label: mgmt1
-  - name: tlan0
-    type: 10gbase-x-sfpp
-    label: tlan0
-  - name: twan0
-    type: 1000base-t
-    label: twan0
-  - name: wan0
-    type: 1000base-t
-    label: wan0
-  - name: wan1
-    type: 1000base-t
-    label: wan1

@@ -6,19 +6,19 @@ part_number: '200887'
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
+weight: 36.0
+weight_unit: lb
 console-ports:
   - name: console
     type: de-9
     label: console
 power-ports:
-  - name: power0
+  - name: PS1
     type: iec-60320-c14
     maximum_draw: 440
-    label: power0
-  - name: power1
+  - name: PS2
     type: iec-60320-c14
     maximum_draw: 440
-    label: power1
 interfaces:
   - name: lan0
     type: 1000base-t
@@ -32,12 +32,13 @@ interfaces:
     label: mgmt0
   - name: mgmt1
     type: 1000base-t
+    mgmt_only: true
     label: mgmt1
   - name: tlan0
     type: 10gbase-x-sfpp
     label: tlan0
   - name: twan0
-    type: 1000base-t
+    type: 10gbase-x-sfpp
     label: twan0
   - name: wan0
     type: 1000base-t
