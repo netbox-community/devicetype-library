@@ -1,0 +1,58 @@
+---
+manufacturer: HPE
+model: Aruba EC-10108
+slug: hpe-aruba-ec-10108
+part_number: '3510326'
+u_height: 1
+is_full_depth: false
+airflow: right-to-left
+weight: 5.08
+weight_unit: lb
+console-ports:
+  - name: console
+    type: rj-45
+    label: console
+  - name: USB console
+    type: usb-c
+    label: console
+power-ports:
+  - name: power0
+    type: dc-terminal
+    maximum_draw: 165
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    label: lan0 (top)
+  - name: lan1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    label: lan1 (bottom)
+  - name: lan2-RJ45
+    type: 1000base-t
+    label: lan2 (combo)
+  - name: lan2-SFP
+    type: 1000base-x-sfp
+    label: lan2 (combo)
+  - name: wan0
+    type: 10gbase-x-sfpp
+    label: wan0 (top)
+  - name: wan1
+    type: 10gbase-x-sfpp
+    label: wan1 (bottom)
+  - name: wan2-RJ45
+    type: 1000base-t
+    label: wan2 (combo)
+  - name: wan2-SFP
+    type: 1000base-x-sfp
+    label: wan2 (combo)
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt0 (top)
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt1 (bottom)
