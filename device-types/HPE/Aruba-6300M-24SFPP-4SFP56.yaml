@@ -4,7 +4,7 @@ model: Aruba 6300M-24SFPP-4SFP56
 slug: hpe-aruba-6300m-24sfpp-4sfp56
 part_number: JL658A
 u_height: 1
-is_full_depth: false
+is_full_depth: true
 front_image: true
 rear_image: true
 comments: '[Aruba 6300 Switch Series](https://www.arubanetworks.com/assets/ds/DS_6300Series.pdf)'
@@ -72,13 +72,13 @@ interfaces:
   - name: 1/1/24
     type: 10gbase-x-sfpp
   - name: 1/1/25
-    type: 25gbase-x-sfp28
+    type: 50gbase-x-sfp56
   - name: 1/1/26
-    type: 25gbase-x-sfp28
+    type: 50gbase-x-sfp56
   - name: 1/1/27
-    type: 25gbase-x-sfp28
+    type: 50gbase-x-sfp56
   - name: 1/1/28
-    type: 25gbase-x-sfp28
+    type: 50gbase-x-sfp56
   - name: mgmt
     type: 1000base-t
     mgmt_only: true
