@@ -6,6 +6,8 @@ part_number: '201106'
 u_height: 1
 is_full_depth: false
 airflow: passive
+weight: 1.1
+weight_unit: lb
 console-ports:
   - name: console
     type: rj-45
@@ -14,7 +16,6 @@ power-ports:
   - name: power0
     type: dc-terminal
     maximum_draw: 9
-    label: power0
 interfaces:
   - name: lan0
     type: 1000base-t
