@@ -2,21 +2,23 @@
 manufacturer: HPE
 model: Aruba ec-10104
 slug: hpe-aruba-ec-10104
-part_number: R9D72A
+part_number: '201857'
 u_height: 1
 is_full_depth: false
-airflow: right-to-left
+airflow: passive
 weight: 2.52
 weight_unit: lb
 console-ports:
   - name: console
     type: rj-45
     label: console
+  - name: USB console
+    type: usb-micro-b
+    label: console
 power-ports:
   - name: power0
     type: dc-terminal
-    maximum_draw: 30
-    label: power0
+    maximum_draw: 48
 interfaces:
   - name: lan0
     type: 1000base-t
