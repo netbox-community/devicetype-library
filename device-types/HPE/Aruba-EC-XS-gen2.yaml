@@ -1,43 +1,34 @@
 ---
 manufacturer: HPE
-model: Aruba ec-m
-slug: hpe-aruba-ec-m
-part_number: '200890'
+model: Aruba EC-XS gen2
+slug: hpe-aruba-ec-xs-gen2
+part_number: '201571'
 u_height: 1
-is_full_depth: true
-airflow: front-to-rear
-weight: 26
+is_full_depth: false
+airflow: right-to-left
+weight: 3.5
 weight_unit: lb
 console-ports:
   - name: console
-    type: de-9
+    type: rj-45
     label: console
 power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 126
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 126
+  - name: power0
+    type: dc-terminal
+    maximum_draw: 34
 interfaces:
   - name: lan0
     type: 1000base-t
     label: lan0
-  - name: wan0
-    type: 1000base-t
-    label: wan0
   - name: lan1
     type: 1000base-t
     label: lan1
+  - name: wan0
+    type: 1000base-t
+    label: wan0
   - name: wan1
     type: 1000base-t
     label: wan1
-  - name: tlan0
-    type: 10gbase-x-sfpp
-    label: tlan0
-  - name: twan0
-    type: 10gbase-x-sfpp
-    label: twan0
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true

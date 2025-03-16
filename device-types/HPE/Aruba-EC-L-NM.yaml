@@ -1,12 +1,12 @@
 ---
 manufacturer: HPE
-model: Aruba ec-m-p
-slug: hpe-aruba-ec-m-p
-part_number: '201274'
+model: Aruba EC-L-NM
+slug: hpe-aruba-ec-l-nm
+part_number: '200887'
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-weight: 24
+weight: 36.0
 weight_unit: lb
 console-ports:
   - name: console
@@ -15,10 +15,10 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 132
+    maximum_draw: 440
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 132
+    maximum_draw: 440
 interfaces:
   - name: lan0
     type: 1000base-t

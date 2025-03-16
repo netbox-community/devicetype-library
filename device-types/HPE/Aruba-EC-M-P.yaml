@@ -1,12 +1,12 @@
 ---
 manufacturer: HPE
-model: Aruba ec-m-p-fips
-slug: hpe-aruba-ec-m-p-fips
-part_number: '201634'
+model: Aruba EC-M-P
+slug: hpe-aruba-ec-m-p
+part_number: '201274'
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-weight: 22
+weight: 24
 weight_unit: lb
 console-ports:
   - name: console
@@ -15,10 +15,10 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 162
+    maximum_draw: 132
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 162
+    maximum_draw: 132
 interfaces:
   - name: lan0
     type: 1000base-t

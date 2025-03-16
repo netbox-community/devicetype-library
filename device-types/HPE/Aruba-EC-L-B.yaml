@@ -1,25 +1,31 @@
 ---
 manufacturer: HPE
-model: Aruba ec-m-h-ac
-slug: hpe-aruba-ec-m-h-ac
-part_number: '201762'
+model: Aruba EC-L-B
+slug: hpe-aruba-ec-l-b
+part_number: '201270'
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-weight: 18.1
+weight: 36.0
 weight_unit: lb
 console-ports:
   - name: console
-    type: rj-45
+    type: de-9
     label: console
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 153
+    maximum_draw: 440
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 153
+    maximum_draw: 440
 interfaces:
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
@@ -34,33 +40,9 @@ interfaces:
   - name: twan0
     type: 10gbase-x-sfpp
     label: twan0
-  - name: tlan1
-    type: 10gbase-x-sfpp
-    label: tlan1
-  - name: twan1
-    type: 10gbase-x-sfpp
-    label: twan1
-  - name: lan0
-    type: 1000base-t
-    label: lan0
-  - name: lan1
-    type: 1000base-t
-    label: lan1
-  - name: lan2
-    type: 1000base-t
-    label: lan2
-  - name: lan3
-    type: 1000base-t
-    label: lan3
   - name: wan0
     type: 1000base-t
     label: wan0
   - name: wan1
     type: 1000base-t
     label: wan1
-  - name: wan2
-    type: 1000base-t
-    label: wan2
-  - name: wan3
-    type: 1000base-t
-    label: wan3

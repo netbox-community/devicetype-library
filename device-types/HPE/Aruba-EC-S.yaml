@@ -1,12 +1,12 @@
 ---
 manufacturer: HPE
-model: Aruba ec-xs
-slug: hpe-aruba-ec-xs
-part_number: '200889'
+model: Aruba EC-S
+slug: hpe-aruba-ec-s
+part_number: '200877'
 u_height: 1
 is_full_depth: false
-airflow: right-to-left
-weight: 3.0
+airflow: front-to-rear
+weight: 11.0
 weight_unit: lb
 console-ports:
   - name: console
@@ -14,21 +14,28 @@ console-ports:
     label: console
 power-ports:
   - name: power0
-    type: dc-terminal
-    maximum_draw: 23
+    type: iec-60320-c14
+    maximum_draw: 100
+    label: Power
 interfaces:
   - name: lan0
     type: 1000base-t
     label: lan0
-  - name: lan1
-    type: 1000base-t
-    label: lan1
   - name: wan0
     type: 1000base-t
     label: wan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
   - name: wan1
     type: 1000base-t
     label: wan1
+  - name: lan2
+    type: 1000base-t
+    label: lan2
+  - name: wan2
+    type: 1000base-t
+    label: wan2
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
@@ -37,3 +44,6 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     label: mgmt1
+module-bays:
+  - name: Fiber Module
+    position: '1'
