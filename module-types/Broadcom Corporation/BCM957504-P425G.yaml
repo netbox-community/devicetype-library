@@ -1,0 +1,15 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957504-P425G
+part_number: BCM957504-P425G
+description: Quad-Port 25 Gb/s SFP28 Ethernet PCI Express 4.0 x16 Network Interface Card
+comments: '[Datasheet](https://docs.broadcom.com/doc/BCM957504-quad-port-25Gb-SFP28-nic)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/3
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/4
+    type: 25gbase-x-sfp28
