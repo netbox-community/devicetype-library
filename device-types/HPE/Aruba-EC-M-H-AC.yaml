@@ -14,13 +14,6 @@ console-ports:
   - name: console
     type: rj-45
     label: console
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 153
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 153
 interfaces:
   - name: mgmt0
     type: 1000base-t
@@ -66,3 +59,8 @@ interfaces:
   - name: wan3
     type: 1000base-t
     label: wan3
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

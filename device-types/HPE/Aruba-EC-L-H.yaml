@@ -14,15 +14,6 @@ console-ports:
   - name: console
     type: de-9
     label: console
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 404
-    label: PS1
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 404
-    label: PS2
 interfaces:
   - name: tlan0
     type: 10gbase-x-sfpp
@@ -50,3 +41,10 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     label: mgmt1
+module-bays:
+  - name: PS1
+    position: '1'
+    label: PS1
+  - name: PS2
+    position: '2'
+    label: PS2
