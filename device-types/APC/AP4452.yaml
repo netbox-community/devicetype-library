@@ -1,0 +1,46 @@
+---
+manufacturer: APC
+model: AP4452
+slug: apc-ap4452
+part_number: AP4452
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 4.4
+weight_unit: kg
+front_image: false
+rear_image: true
+comments: Rack ATS, 120 V, 20 A, L5-20 IN, (10) 5-20R Out
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Source A
+    type: nema-l5-20p
+  - name: Source B
+    type: nema-l5-20p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+  - name: Outlet 2
+    type: nema-5-20r
+  - name: Outlet 3
+    type: nema-5-20r
+  - name: Outlet 4
+    type: nema-5-20r
+  - name: Outlet 5
+    type: nema-5-20r
+  - name: Outlet 6
+    type: nema-5-20r
+  - name: Outlet 7
+    type: nema-5-20r
+  - name: Outlet 8
+    type: nema-5-20r
+  - name: Outlet 9
+    type: nema-5-20r
+  - name: Outlet 10
+    type: nema-5-20r
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
