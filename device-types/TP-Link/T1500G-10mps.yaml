@@ -1,0 +1,35 @@
+---
+manufacturer: TP-Link
+model: T1500g-10MPS
+slug: tp-link-t1500g-10mbps
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 7.05 # 3,2 Kg
+weight_unit: lb
+comments: '[Technical Guide](https://static.tp-link.com/2019/201903/20190321/T1500-Series-Datasheet.pdf) [ean13_code] (6935364098858)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 15.61  # Maximum power consumption in watts without PD. 139.52W if PD Connected
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: SFP1
+    type: 1000base-x-sfp
+  - name: SFP2
+    type: 1000base-x-sfp
