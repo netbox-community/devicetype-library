@@ -1,0 +1,46 @@
+---
+manufacturer: HPE
+model: Aruba EC-M-P
+slug: hpe-aruba-ec-m-p
+part_number: '201274'
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 24
+weight_unit: lb
+console-ports:
+  - name: console
+    type: de-9
+    label: console
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt0
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt1
+  - name: tlan0
+    type: 10gbase-x-sfpp
+    label: tlan0
+  - name: twan0
+    type: 10gbase-x-sfpp
+    label: twan0
+  - name: wan0
+    type: 1000base-t
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    label: wan1
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

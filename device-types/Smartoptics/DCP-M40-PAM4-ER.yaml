@@ -1,0 +1,239 @@
+---
+manufacturer: Smartoptics
+model: DCP-M40-PAM4-ER
+slug: smartoptics-dcp-m40-pam4-er
+part_number: DCP-M40-PAM4-ER
+u_height: 1
+weight: 13
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Smartoptics Datasheet] (https://smartoptics.com/wp-content/uploads/2023/02/so-ds-dcp-m40-pam4-er.pdf) Base HW, 40ch/100GHz Open Line System,
+  PAM4 0-40km, NRZ/Coh, Ch921-960, OSC, Mux/Demux, EDFA, OCM, OCQ, DCM'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 1
+    position: '0'
+  - name: PSU 2
+    position: '1'
+front_image: true
+rear_image: true
+interfaces:
+  - name: Eth0 / Local
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth2
+    type: 1000base-t
+  - name: Eth3
+    type: 1000base-t
+  - name: Eth4
+    type: 1000base-t
+# Eth4 also supports SFP.
+rear-ports:
+  - name: Line
+    type: lc-upc
+    description: WDM Line I/O
+    positions: 40
+front-ports:
+  - name: '921'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 1
+    description: ITU channel 21
+  - name: '922'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 2
+    description: ITU channel 22
+  - name: '923'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 3
+    description: ITU channel 23
+  - name: '924'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 4
+    description: ITU channel 24
+  - name: '925'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 5
+    description: ITU channel 25
+  - name: '926'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 6
+    description: ITU channel 26
+  - name: '927'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 7
+    description: ITU channel 27
+  - name: '928'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 8
+    description: ITU channel 28
+  - name: '929'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 9
+    description: ITU channel 29
+  - name: '930'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 10
+    description: ITU channel 30
+  - name: '931'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 11
+    description: ITU channel 31
+  - name: '932'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 12
+    description: ITU channel 32
+  - name: '933'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 13
+    description: ITU channel 33
+  - name: '934'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 14
+    description: ITU channel 34
+  - name: '935'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 15
+    description: ITU channel 35
+  - name: '936'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 16
+    description: ITU channel 36
+  - name: '937'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 17
+    description: ITU channel 37
+  - name: '938'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 18
+    description: ITU channel 38
+  - name: '939'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 19
+    description: ITU channel 39
+  - name: '940'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 20
+    description: ITU channel 40
+  - name: '941'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 21
+    description: ITU channel 41
+  - name: '942'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 22
+    description: ITU channel 42
+  - name: '943'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 23
+    description: ITU channel 43
+  - name: '944'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 24
+    description: ITU channel 44
+  - name: '945'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 25
+    description: ITU channel 45
+  - name: '946'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 26
+    description: ITU channel 46
+  - name: '947'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 27
+    description: ITU channel 47
+  - name: '948'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 28
+    description: ITU channel 48
+  - name: '949'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 29
+    description: ITU channel 49
+  - name: '950'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 30
+    description: ITU channel 50
+  - name: '951'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 31
+    description: ITU channel 51
+  - name: '952'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 32
+    description: ITU channel 52
+  - name: '953'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 33
+    description: ITU channel 53
+  - name: '954'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 34
+    description: ITU channel 54
+  - name: '955'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 35
+    description: ITU channel 55
+  - name: '956'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 36
+    description: ITU channel 56
+  - name: '957'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 37
+    description: ITU channel 57
+  - name: '958'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 38
+    description: ITU channel 58
+  - name: '959'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 39
+    description: ITU channel 59
+  - name: '960'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 40
+    description: ITU channel 60

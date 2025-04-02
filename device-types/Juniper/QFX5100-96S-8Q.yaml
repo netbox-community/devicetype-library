@@ -4,6 +4,8 @@ model: QFX5100-96S-8Q
 slug: juniper-qfx5100-96s-8q
 part_number: QFX5100-96S-8Q
 u_height: 2
+airflow: front-to-rear
+front_image: true
 is_full_depth: true
 interfaces:
   - name: ge-0/0/0
@@ -412,13 +414,17 @@ interfaces:
   - name: em1
     type: 1000base-x-sfp
     mgmt_only: true
-power-ports:
+module-bays:
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 850
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 850
+    position: '1'
+  - name: FAN0
+    position: '0'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
 console-ports:
   - name: console
     type: rj-45
