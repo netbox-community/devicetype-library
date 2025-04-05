@@ -1,0 +1,36 @@
+---
+manufacturer: SMC Networks
+model: SMCGS8P-SMART
+slug: smc-networks-smcgs8p-smart
+part_number: SMCGS8P-SMART
+comments: '[Datasheet](https://www.use-ip.co.uk/datasheets/442/smc_gs8p_8port_gigabit_poe_switch.pdf)'
+airflow: left-to-right
+weight: 2.06
+weight_unit: kg
+is_full_depth: false
+front_image: true
+rear_image: true
+u_height: 1
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+  - name: GigabitEthernetSFP1
+    type: 1000base-x-sfp
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 165
