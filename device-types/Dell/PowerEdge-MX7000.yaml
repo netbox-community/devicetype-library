@@ -10,31 +10,6 @@ airflow: front-to-rear
 weight: 105.0
 weight_unit: lb
 comments: '[Product Page](https://www.dell.com/en-us/shop/ipovw/poweredge-mx7000)'
-power-ports:
-  - name: PSU.IN.1
-    type: iec-60320-c22
-    max_draw: 3000
-    label: '1'
-  - name: PSU.IN.2
-    type: iec-60320-c22
-    max_draw: 3000
-    label: '2'
-  - name: PSU.IN.3
-    type: iec-60320-c22
-    max_draw: 3000
-    label: '3'
-  - name: PSU.IN.4
-    type: iec-60320-c22
-    max_draw: 3000
-    label: '4'
-  - name: PSU.IN.5
-    type: iec-60320-c22
-    max_draw: 3000
-    label: '5'
-  - name: PSU.IN.6
-    type: iec-60320-c22
-    max_draw: 3000
-    label: '6'
 module-bays:
   - name: IOM-A1
     position: A1
@@ -53,11 +28,17 @@ module-bays:
   - name: MM-2
     position: MM-2
   - name: PSU.Slot.1
+    position: '1'
   - name: PSU.Slot.2
+    position: '2'
   - name: PSU.Slot.3
+    position: '3'
   - name: PSU.Slot.4
+    position: '4'
   - name: PSU.Slot.5
+    position: '5'
   - name: PSU.Slot.6
+    position: '6'
 device-bays:
   - name: Sled-1
   - name: Sled-2
