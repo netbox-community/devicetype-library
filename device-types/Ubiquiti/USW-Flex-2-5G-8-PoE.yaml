@@ -1,0 +1,47 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Flex 2.5G 8 PoE
+slug: ubiquiti-unifi-switch-flex-2-5g-8-poe
+part_number: USW-Flex-2.5G-8-PoE
+comments: |
+  212.9 x 99.4 x 33.5 mm (8.4 x 3.9 x 1.3")
+  https://eu.store.ui.com/eu/en/products/usw-flex-2-5g-8-poe
+u_height: 0
+weight: 567
+weight_unit: g
+is_full_depth: false
+interfaces:
+  - name: Port 1 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 2 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 3 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 4 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 5 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 6 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 7 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 8 (PoE++)
+    type: 2.5gbase-t
+    poe_mode: pse
+  - name: Port 9 (PoE+++)
+    type: 10gbase-t
+    poe_mode: pd
+  - name: Port 10 (PoE++)
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: 54VDC IN
+    # TODO: There is no proper DC "terminalblock" connection type defined
+    type: iec-60320-c20
+    maximum_draw: 210
