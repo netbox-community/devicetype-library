@@ -1,0 +1,22 @@
+---
+manufacturer: Ubiquiti
+model: UniFi 48V PoE Adapter
+slug: ubiquiti-poe-48
+part_number: POE-48-24W-G
+comments: |
+  92 x 60 x 33 mm (3.6 x 2.4 x 1.3")
+  https://eu.store.ui.com/eu/en/products/poe-48
+u_height: 0
+weight: 159
+weight_unit: g
+is_full_depth: false
+interfaces:
+  - name: Port 1 (LAN)
+    type: 1000base-t
+    poe_mode: pse
+  - name: Port 2 (POE)
+    type: 1000base-t
+    poe_mode: pse
+power-ports:
+  - name: 54VDC IN
+    type: iec-60320-c5
