@@ -1,0 +1,55 @@
+---
+manufacturer: ADC
+model: PPP-SC-SM
+part_number: '7033 1 093-000'
+description: PPP module with 3 x Duplex SC Single Mode
+front-ports:
+  - name: '{module}:1'
+    type: sc-upc
+    color: 2196f3
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: sc-upc
+    color: 2196f3
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - name: '{module}:3'
+    type: sc-upc
+    color: 2196f3
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - name: '{module}:4'
+    type: sc-upc
+    color: 2196f3
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - name: '{module}:5'
+    type: sc-upc
+    color: 2196f3
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - name: '{module}:6'
+    type: sc-upc
+    color: 2196f3
+    rear_port: '{module}:6'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}:1'
+    type: splice
+    positions: 1
+  - name: '{module}:2'
+    type: splice
+    positions: 1
+  - name: '{module}:3'
+    type: splice
+    positions: 1
+  - name: '{module}:4'
+    type: splice
+    positions: 1
+  - name: '{module}:5'
+    type: splice
+    positions: 1
+  - name: '{module}:6'
+    type: splice
+    positions: 1
