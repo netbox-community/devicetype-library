@@ -1,0 +1,69 @@
+---
+manufacturer: Huawei
+model: Dorado 5000 V6
+slug: huawei-dorado-5000-v6
+part_number: D5V6-512G-NVMe
+u_height: 2
+weight: 50
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+console-ports:
+  - name: Serial_A
+    type: rj-45
+  - name: Serial_B
+    type: rj-45
+module-bays:
+  - name: PSU0
+    position: PSU0
+  - name: PSU1
+    position: PSU1
+  - name: Slot.A1
+    position: SlotA1
+  - name: Slot.A2
+    position: SlotA2
+  - name: Slot.A3
+    position: SlotA3
+  - name: Slot.A4
+    position: SlotA4
+  - name: Slot.A5
+    position: SlotA5
+  - name: Slot.A6
+    position: SlotA6
+  - name: Slot.B1
+    position: SlotB1
+  - name: Slot.B2
+    position: SlotB2
+  - name: Slot.B3
+    position: SlotB3
+  - name: Slot.B4
+    position: SlotB4
+  - name: Slot.B5
+    position: SlotB5
+  - name: Slot.B6
+    position: SlotB6
+interfaces:
+  - name: Net.A
+    type: 1000base-t
+  - name: Mgmt.A
+    type: 1000base-t
+    mgmt_only: true
+  - name: Service.A
+    type: 1000base-t
+    mgmt_only: true
+  - name: RDMA_Expand_1.A
+    type: 100gbase-x-qsfp28
+  - name: RDMA_Expand_2.A
+    type: 100gbase-x-qsfp28
+  - name: Net.B
+    type: 1000base-t
+  - name: Mgmt.B
+    type: 1000base-t
+    mgmt_only: true
+  - name: Service.B
+    type: 1000base-t
+    mgmt_only: true
+  - name: RDMA_Expand_1.B
+    type: 100gbase-x-qsfp28
+  - name: RDMA_Expand_2.B
+    type: 100gbase-x-qsfp28
