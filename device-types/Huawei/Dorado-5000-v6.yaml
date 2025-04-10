@@ -18,30 +18,30 @@ module-bays:
     position: PSU0
   - name: PSU1
     position: PSU1
-  - name: Slot.A1
-    position: SlotA1
-  - name: Slot.A2
-    position: SlotA2
-  - name: Slot.A3
-    position: SlotA3
-  - name: Slot.A4
-    position: SlotA4
-  - name: Slot.A5
-    position: SlotA5
-  - name: Slot.A6
-    position: SlotA6
-  - name: Slot.B1
-    position: SlotB1
-  - name: Slot.B2
-    position: SlotB2
-  - name: Slot.B3
-    position: SlotB3
-  - name: Slot.B4
-    position: SlotB4
-  - name: Slot.B5
-    position: SlotB5
-  - name: Slot.B6
-    position: SlotB6
+  - name: A.IOM_0
+    position: A.IOM_0
+  - name: A.IOM_1
+    position: A.IOM_1
+  - name: A.IOM_2
+    position: A.IOM_2
+  - name: A.IOM_3
+    position: A.IOM_3
+  - name: A.IOM_4
+    position: A.IOM_4
+  - name: A.IOM_5
+    position: A.IOM_5
+  - name: B.IOM_0
+    position: B.IOM_0
+  - name: B.IOM_1
+    position: B.IOM_1
+  - name: B.IOM_2
+    position: B.IOM_2
+  - name: B.IOM_3
+    position: B.IOM_3
+  - name: B.IOM_4
+    position: B.IOM_4
+  - name: B.IOM_5
+    position: B.IOM_5
 interfaces:
   - name: Net.A
     type: 1000base-t
