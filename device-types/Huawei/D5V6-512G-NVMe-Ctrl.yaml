@@ -1,0 +1,33 @@
+---
+manufacturer: Huawei
+model: D5V6-512G-NVMe-Ctrl
+slug: huawei-d5v6-512g-nvme-ctrl
+part_number: 02355GVC
+u_height: 1
+subdevice_role: child
+module-bays:
+  - name: IOM_0
+    position: IOM_0
+  - name: IOM_1
+    position: IOM_1
+  - name: IOM_2
+    position: IOM_2
+  - name: IOM_3
+    position: IOM_3
+  - name: IOM_4
+    position: IOM_4
+  - name: IOM_5
+    position: IOM_5
+interfaces:
+  - name: Net
+    type: 1000base-t
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: Service
+    type: 1000base-t
+    mgmt_only: true
+  - name: RDMA_Expand_1
+    type: 100gbase-x-qsfp28
+  - name: RDMA_Expand_2
+    type: 100gbase-x-qsfp28
