@@ -1,15 +1,15 @@
 ---
 manufacturer: Fortinet
-model: FortiSwitch 148F-POE
-slug: fortinet-fs-148f-poe
-part_number: FS-148F-POE
+model: FortiSwitch 148F-FPOE
+slug: fortinet-fs-148f-fpoe
+part_number: FS-148F-FPOE
 u_height: 1
-weight: 4.7
+weight: 4.68
 weight_unit: kg
 is_full_depth: false
 airflow: side-to-rear
 comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf),
-  [FortiSwitch FS-148F-POE Series QuickStart Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/3f38a8b3-0a5f-11eb-96b9-00505692583a/FortiSwitch-148F-Series-QSG.pdf)'
+  [FortiSwitch FS-148F-FPOE Series QuickStart Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/3f38a8b3-0a5f-11eb-96b9-00505692583a/FortiSwitch-148F-Series-QSG.pdf)'
 console-ports:
   - name: Console
     type: rj-45
@@ -117,52 +117,100 @@ interfaces:
     poe_type: type2-ieee802.3at
   - name: port25
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port26
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port27
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port28
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port29
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port30
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port31
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port32
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port33
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port34
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port35
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port36
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port37
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port38
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port39
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port40
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port41
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port42
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port43
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port44
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port45
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port46
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port47
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port48
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: port49
     type: 10gbase-x-sfpp
   - name: port50
