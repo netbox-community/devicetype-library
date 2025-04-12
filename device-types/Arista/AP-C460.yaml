@@ -6,6 +6,7 @@ part_number: AP-C460
 weight: 1.73
 weight_unit: kg
 u_height: 0
+airflow: passive
 is_full_depth: false
 comments: >
   '[Arista C-460 Data Sheet]
@@ -23,7 +24,11 @@ front_image: true
 interfaces:
   - name: Ethernet1
     type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
   - name: Ethernet2
     type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
   - name: Radio
     type: ieee802.11be
