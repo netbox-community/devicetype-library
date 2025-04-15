@@ -1,0 +1,75 @@
+---
+manufacturer: Juniper
+model: SRX2300
+slug: juniper-srx2300
+part_number: SRX2300
+front_image: true
+rear_image: true
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Juniper SRX2300 Data Sheet (PDF)](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx2300-firewall-datasheet.pdf)'
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+  - name: em0
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: em1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: mge-0/0/0
+    type: 10gbase-t
+  - name: mge-0/0/1
+    type: 10gbase-t
+  - name: mge-0/0/2
+    type: 10gbase-t
+  - name: mge-0/0/3
+    type: 10gbase-t
+  - name: mge-0/0/4
+    type: 10gbase-t
+  - name: mge-0/0/5
+    type: 10gbase-t
+  - name: mge-0/0/6
+    type: 10gbase-t
+  - name: mge-0/0/7
+    type: 10gbase-t
+  - name: xe-0/1/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/3
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/4
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/5
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/6
+    type: 10gbase-x-sfpp
+  - name: xe-0/1/7
+    type: 10gbase-x-sfpp
+  - name: et-0/2/0
+    type: 25gbase-x-sfp28
+  - name: et-0/2/1
+    type: 25gbase-x-sfp28
+  - name: et-0/2/2
+    type: 25gbase-x-sfp28
+  - name: et-0/2/3
+    type: 25gbase-x-sfp28
+  - name: et-0/3/0
+    type: 100gbase-x-qsfp28
+  - name: et-0/3/1
+    type: 100gbase-x-qsfp28
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 450
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 450
+console-ports:
+  - name: Console
+    type: rj-45
