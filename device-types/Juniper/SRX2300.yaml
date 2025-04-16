@@ -63,13 +63,11 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: et-0/3/1
     type: 100gbase-x-qsfp28
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 450
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 450
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
 console-ports:
   - name: Console
     type: rj-45
