@@ -1,0 +1,87 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G6 Turret
+slug: ubiquiti-unifi-uvc-g6-turret
+part_number: UVC-G6-Turret
+comments: |
+  # G6 Turret
+
+  [Product Link](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g6-turret)
+
+  All-weather, tamper-resistant 4K PoE camera with a 1/1.8" 8MP image sensor, Multi-TOPS AI Engine, and 3-axis manual adjustment for flexible installation.
+
+  ## Overview
+
+  * **Dimensions:** diameter 100 x 95 mm (diameter 3.9 x 3.7")
+  * **IR Night Vision:** 30 m (98 ft)
+  * **Face Recognition:** Yes
+  * **License Plate Recognition:** Yes
+  * **Smart Detections (People, Vehicles, Animals):** Yes
+  * **Resolution:** 4K
+  * **Field of View:** H: 109.9, V: 56.7, D: 134.1 (degree)
+  * **Audio:** Microphone
+  * **Weatherproofing:** IP66
+  * **Tamper Resistance:** IK04
+  * **Mounting**
+      * Ceiling, wall (Included)
+      * Arm, pendant, junction box (Optional)
+  * **UniFi Application Suite**
+      * **Protect:** Yes
+
+  ## Performance
+
+  * **Networking Interface:** 10/100 MbE RJ45 port
+  * **Video**
+      * **Image Settings**
+          * color
+          * brightness
+          * sharpness
+          * contrast
+          * white balance
+          * exposure control
+          * 2DNR
+          * 3DNR
+          * NR by motion
+          * masking
+          * text overlay
+          * HDR
+      * **Max. Frame Rate:** 30 FPS
+      * **Resolution:** 8MP 3840 x 2160 (16:9)
+  * **Optics**
+      * **Sensor:** 1/1.8" 8MP
+      * **Lens:** Fixed focal length
+      * **Night Mode:** Built-in IR LED illumination and IR cut filter
+
+  ## Hardware
+
+  * **Max. Power Consumption:** 12.5W
+  * **Supported Voltage Range:** 37-57V DC
+  * **Power Method:** PoE
+  * **Processor:** Quad-core Arm Cortex-A53 based chip
+  * **Weight:** 550 g (1.2 lb)
+  * **Enclosure Material:** Aluminum alloy, polycarbonate
+  * **Button:** (1) Factory-reset
+  * **Ambient Operating Temperature:** -30 to 50 degree C (-22 to 122 degree F)
+  * **Ambient Operating Humidity:** 0 to 90% noncondensing
+  * **Certifications:** CE, FCC, IC
+  * **NDAA Compliant:** Yes
+  * **Cable**
+      * **Cable Connector Type:** RJ45
+      * **Cable Diameter:** 4.5 mm (0.2")
+      * **Cable Length:** 30 cm (1 ft)
+      * **Jacket Material:** Thermoplastic elastomer
+      * **Jacket Enclosure Dimensions:** diameter 20 x 70.6 mm (0.8 x 2.8")
+      * **Jacket Enclosure Material:** Thermoplastic elastomer, polycarbonate, silicone rubber
+weight: 550
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    mgmt_only: false

@@ -1,0 +1,89 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G6 Bullet
+slug: ubiquiti-unifi-uvc-g6-bullet
+part_number: UVC-G6-Bullet
+comments: |
+  # G6 Bullet
+
+  [Product Link](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g6-bullet)
+
+  All-weather 4K PoE camera with a 1/1.8" 8MP image sensor, Multi-TOPS AI Engine, and long-range IR night vision.
+
+  ## Overview
+
+  * **Dimensions**
+      * Without mount: diameter 82 x 88.8 mm (diameter 3.2 x 3.5")
+      * With mount: diameter 82 x 153 mm (diameter 3.2 x 6")
+  * **IR Night Vision:** 30 m (98 ft)
+  * **Face Recognition:** Yes
+  * **License Plate Recognition:** Yes
+  * **Smart Detections (People, Vehicles, Animals):** Yes
+  * **Resolution:** 4K
+  * **Field of View:** H: 109.9, V: 56.7, D: 134.1 (degree)
+  * **Audio:** Microphone
+  * **Weatherproofing:** IP66
+  * **Tamper Resistance:** IK04
+  * **Mounting**
+      * Wall, ceiling, pole mount (Included)
+      * Junction box, angled base (Optional)
+  * **UniFi Application Suite**
+      * **Protect:** Yes
+
+  ## Performance
+
+  * **Networking Interface:** 10/100 MbE RJ45 port
+  * **Video**
+      * **Image Settings**
+          * color
+          * brightness
+          * sharpness
+          * contrast
+          * white balance
+          * exposure control
+          * 2DNR
+          * 3DNR
+          * NR by motion
+          * masking
+          * text overlay
+          * HDR
+      * **Max. Frame Rate:** 30 FPS
+      * **Resolution:** 8MP 3840 x 2160 (16:9)
+  * **Optics**
+      * **Sensor:** 1/1.8" 8MP
+      * **Lens:** Fixed focal length
+      * **Night Mode:** Built-in IR LED illumination and IR cut filter
+
+  ## Hardware
+
+  * **Max. Power Consumption:** 9.9W
+  * **Supported Voltage Range:** 37-57V DC
+  * **Power Method:** PoE
+  * **Processor:** Quad-core Arm Cortex-A53 based chip
+  * **Pole Mount Diameter:** 1.5-2" (38-50 mm)
+  * **Weight**
+      * Without mount: 587 g (1.3 lb)
+      * With mount: 737 g (1.6 lb)
+  * **Enclosure Material:** Polycarbonate, aluminum alloy
+  * **Mount Material**
+      * Wall mount: aluminum alloy, polycarbonate
+      * Pole mount: aluminum alloy
+  * **Button:** (1) Factory-reset
+  * **Ambient Operating Temperature:** -20 to 50 degree C (-4 to 122 degree F)
+  * **Ambient Operating Humidity:** 0 to 90% noncondensing
+  * **Certifications:** CE, FCC, IC
+  * **NDAA Compliant:** Yes
+
+weight: 737
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    mgmt_only: false
