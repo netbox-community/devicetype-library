@@ -1,9 +1,12 @@
 ---
 manufacturer: Juniper
-model: QFX5210-128C
-slug: juniper-qfx5210-128c
-comments: '[Juniper QFX5200 Data Sheet](https://www.juniper.net/us/en/products-services/switching/qfx-series/qfx5200/)'
-u_height: 1
+model: QFX5220-128C
+slug: juniper-qfx5220-128c
+comments: '[Juniper QFX5220 Data Sheet](https://www.juniper.net/us/en/products/switches/qfx-series/qfx5220-switch-datasheet.html)'
+u_height: 4
+is_full_depth: true
+weight: 44.44
+weight_unit: kg
 interfaces:
   - name: fxp0
     type: 1000base-t
@@ -264,13 +267,15 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: et-0/0/127
     type: 100gbase-x-qsfp28
-power-ports:
+module-bays:
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 650
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
 console-ports:
   - name: Console
     type: rj-45
