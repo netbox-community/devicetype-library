@@ -1,0 +1,99 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G6 Instant
+slug: ubiquiti-unifi-uvc-g6-ins
+part_number: UVC-G6-INS
+comments: |
+  # G6 Instant
+
+  [Product Link](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g6-ins)
+
+  Plug-and-play, 4K WiFi-connected camera with a 1/1.8" 8MP image sensor, Multi-TOPS AI Engine, and two-way audio.
+
+  ## Overview
+
+  * **Dimensions:** 81.7 x 50.1 x 57.2 mm (3.2 x 2 x 2.3")
+  * **IR Night Vision:** 6 m (20 ft)
+  * **Face Recognition:** Yes
+  * **License Plate Recognition:** Yes
+  * **Smart Detections (People, Vehicles, Animals):** Yes
+  * **Resolution:** 4K
+  * **Field of View:** H: 109.9, V: 56.7, D: 134.1  (degree)
+  * **Audio:** Two-way audio
+  * **Weatherproofing:** IPX5
+  * **Tamper Resistance:** IK04
+  * **Mounting:** Wall mount accessory (Included)
+  * **UniFi Application Suite**
+      * **Protect:** Yes
+
+  ## Performance
+
+  * **Networking Interface**
+      * 802.11 a/b/g/n/ac WiFi
+      * Bluetooth
+  * **Video**
+      * **Image Settings:**
+          * color
+          * brightness
+          * sharpness
+          * contrast
+          * white balance
+          * exposure control
+          * 2DNR
+          * 3DNR
+          * NR by motion
+          * masking
+          * text overlay
+          * HDR
+      * **Max. Frame Rate:** 30 FPS
+      * **Resolution:** 8MP 3840 x 2160 (16:9)
+  * **Optics**
+      * **Sensor:** 1/1.8" 8MP
+      * **Lens:** Fixed focal length
+      * **Night Mode:** Built-in IR LED illumination and IR cut filter
+
+  ## Hardware
+
+  * **Max. Power Consumption:** 7W
+  * **Supported Voltage Range:** 5V DC, 2A
+  * **Power Method**
+      * 5V, 2A USB power adapter (Included)
+      * PoE to USB-C adapter (Not included)
+  * **Processor:** Quad-core Arm Cortex-A53 based chip
+  * **Weight:** 180 g (6.3 oz)
+  * **Enclosure Material:** Polycarbonate
+  * **Mount Material:** Polycarbonate
+  * **Button:** (1) Factory-reset
+  * **Ambient Operating Temperature:** -20 to 40 degree C (-4 to 104 degree F)
+  * **Ambient Operating Humidity:** 0 to 90% noncondensing
+  * **Certifications:** CE, FCC, IC
+  * **NDAA Compliant:** Yes
+  * **Cable**
+      * **Cable Connector Type:** USB Type-C to USB Type-C
+      * **Cable Diameter:** 3 mm (0.1")
+      * **Cable Length:** 2 m (6.6 ft)
+      * **Jacket Material:** Thermoplastic elastomer
+  * **Expansion Slot:** MicroSD card
+weight: 180
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+interfaces:
+  - name: wlan
+    type: ieee802.11ac
+    rf_role: station
+  - name: Bluetooth
+    type: ieee802.15.1
+power-ports:
+  - name: Power
+    type: usb-c
+    maximum_draw: 7
+inventory-items:
+  - name: MicroSD Card
+    role: Storage
+    manufacturer: SanDisk
+    part_number: SDSDQ-032G
+    description: 32 GB SD Card for firmware storage
