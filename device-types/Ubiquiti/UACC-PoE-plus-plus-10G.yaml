@@ -1,0 +1,72 @@
+---
+manufacturer: Ubiquiti
+model: 10G PoE++ Adapter (60W)
+part_number: UACC-PoE-plus-plus-10G
+slug: ubiquiti-uacc-poe-plus-plus-10g
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: Port 1
+    type: 10gbase-t
+    mgmt_only: false
+  - name: Port 2
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+power-ports:
+  - name: Power
+    type: iec-60320-c6
+    maximum_draw: 60
+front_image: true
+rear_image: true
+comments: |
+  # 10G PoE++ Adapter (60W)
+
+  [Product Link](https://techspecs.ui.com/unifi/accessories/u-poe-plus-plus)
+
+  An adapter that can power UniFi PoE++ devices, reduce dependency on PoE switch power, and provide a Multi-Gigabit LAN connection.
+
+  ## Overview
+
+  * **Dimensions:** 106 x 63 x 34 mm (4.2 x 2.5 x 1.3")
+  * **Weight:** 210 g (7.4 oz)
+  * **Output voltage:** 48V DC @ 1.25A
+  * **LAN activity indicator:** No
+  * **Gigabit LAN port:** Yes
+  * **Remote reset capability:** No
+  * **Reset button:** No
+  * **Rated voltage:** 100-240V AC @ 50/60Hz
+  * **Input current:**
+      * 1.3A @ 120V AC
+      * 0.75A @ 230V AC
+  * **Inrush current:**
+      * <100A peak @ 120V AC
+      * <200A peak @ 230V AC
+  * **Efficiency:** 85+%
+  * **Output ripple:** 1% max.
+  * **Switching frequency:** 65 kHz
+  * **Line regulation:** <= 1%
+  * **Load regulation:** <= 3%
+  * **2-pair powering:** No
+  * **4-pair powering	Pins:** 1, 2, 4, 5 (+) and 3, 6, 7, 8 (-)
+  * **AC connector:** IEC-320 C6
+  * **Data In / PoE:** RJ45 shielded socket
+  * **Surge protection:** Difference and common mode
+  * **Clamping protection:** 11V data, 60V power
+  * **Max. surge discharge:** 1500A (8/20 us) power
+  * **Peak pulse current:** 36A (10/1000 us) data
+  * **Shunt capacitance:** <5 pF data
+  * **Response time:** <1 ns
+  * **Power method:** Universal AC input, 100-240V AC, 50/60 Hz
+  * **Power supply:** AC/DC
+  * **Supported voltage range:** 100-240V AC
+  * **Max. PoE+ wattage per port by PSE:** 60W
+  * **Ambient operating temperature:** 0 to 40 degree C (32 to 104 degree F)
+  * **Storage temperature:** -30 to 70 degree C (-22 to 158 degree F)
+  * **Ambient operating humidity:** 10 to 95% noncondensing
+  * **Certifications:** CE, FCC, IC, UL, UKCA, KC, CCC, KC, RoHS
+  * **NDAA Compliant:** Yes
