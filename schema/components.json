@@ -8,7 +8,8 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
           "type": "string"
@@ -29,7 +30,8 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
           "type": "string"
@@ -95,7 +97,8 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
           "type": "string"
