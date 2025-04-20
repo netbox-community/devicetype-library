@@ -1,0 +1,135 @@
+---
+manufacturer: Ubiquiti
+model: U7 Pro XG
+part_number: U7-Pro-XG
+slug: ubiquiti-u7-pro-xg
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: Port 1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    mgmt_only: false
+  - name: WLAN 0
+    type: ieee802.11n
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 4 dBi
+  - name: WLAN 1
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 4.3 Gbps (BW240), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 26 dBm, Antenna Gain: 5 dBi
+  - name: WLAN 2
+    type: ieee802.11ax
+    label: 6 GHz (WiFi 6E)
+    description: |
+      Max Data Rate: 5.8 Gbps (BW320), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 24 dBm, Antenna Gain: 6 dBi
+  - name: WLAN 3
+    type: ieee802.11be
+    label: 5 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 4.3 Gbps (BW240), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 26 dBm, Antenna Gain: 5 dBi
+  - name: WLAN 4
+    type: ieee802.11be
+    label: 6 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 5.8 Gbps (BW320), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 24 dBm, Antenna Gain: 6 dBi
+front_image: true
+rear_image: true
+comments: |
+  # U7 Pro XG
+
+  [Product Link](https://techspecs.ui.com/unifi/wifi/u7-pro-xg)
+
+  Ceiling-mounted 6-stream WiFi 7 AP with 10/5/2.5/1 GbE support.
+
+  ## Overview
+
+  * **Dimensions:** diameter 206 x 32.5 mm (diameter 8.1 x 1.3")
+  * **WiFi Standard:** WiFi 7
+  * **Spatial Streams:** 6
+  * **Coverage Area:** 140 sm (1,500 sft)
+  * **Max. Client Count:** 300+
+  * **Uplink:** 10 GbE
+  * **Mounting:** Ceiling, Wall (Lite Mount Included)
+  * **Power Method:** PoE+
+
+  ## Performance
+
+  * **MIMO**
+      * **6 GHz:** 2 x 2 (DL/UL MU-MIMO)
+      * **5 GHz:** 2 x 2 (DL/UL MU-MIMO)
+      * **2.4 GHz:** 2 x 2 (DL/UL MU-MIMO)
+  * **Max. Data Rate**
+      * **6 GHz:** 5.8 Gbps (BW320)
+      * **5 GHz:** 4.3 Gbps (BW240)
+      * **2.4 GHz:** 688 Mbps (BW40)
+  * **Antenna Gain**
+      * **6 GHz:** 6 dBi
+      * **5 GHz:** 5 dBi
+      * **2.4 GHz:** 4 dBi
+  * **Max. TX Power**
+      * **6 GHz:** 24 dBm
+      * **5 GHz:** 26 dBm
+      * **2.4 GHz:** 23 dBm
+  * **Max. BSSIDs:** 8 per Radio
+  * **Supported Data Rates**
+      * **802.11be (WiFi 7)**
+          * 6 GHz: 7.3 Mbps to 5.8 Gbps (MCS0 - MCS13 NSS1/2, EHT 20/40/80/160/320)
+          * 5 GHz: 7.3 Mbps to 4.3 Gbps (MCS0 - MCS13 NSS1/2/3/4, EHT 20/40/80/160/240)
+      * **802.11ax (WiFi 6)**
+          * 7.3 Mbps to 2.4 Gbps (MCS0 - MCS11 NSS1/2, HE 20/40/80/160)
+      * **802.11ac (WiFi 5)**
+          * 6.5 Mbps to 1.4 Gbps (MCS0 - MCS9 NSS1/2, VHT 20/40/80/160)
+      * **802.11n**
+          * 6.5 Mbps to 300 Mbps (MCS0 - MCS15, HT 20/40)
+
+  ## Features
+
+  * **Wireless Meshing:** Yes
+  * **Band Steering:** Yes
+  * **802.11v BSS Transition Management:** Yes
+  * **802.11r Fast Roaming:** Yes
+  * **802.11k Radio Resource Management (RRM):** Yes
+  * **Advanced Radio Management:** Yes
+  * **Passpoint (Hotspot 2.0):** Yes
+  * **Captive Hotspot Portal**
+      * **Custom Branding Landing Page:** Yes
+      * **Voucher Authentication:** Yes
+      * **Payment-Based Authentication:** Yes
+      * **External Portal Server Support:** Yes
+      * **Password Authentication:** Yes
+      * **Guest Network Isolation:** Yes
+  * **Private Pre-Shared Key (PPSK):** Yes
+  * **WiFi Speed Limiting:** Yes
+  * **Client Device Isolation:** Yes
+  * **WiFi Schedules:** Yes
+  * **RADIUS over TLS (RadSec):** Yes
+  * **Dynamic RADIUS-assigned VLAN:** Yes
+
+  ## Hardware
+
+  * **Max. Power Consumption:** 22W
+  * **Supported Voltage Range:** 42.5-57V DC
+  * **Networking Interface:** (1) 10 GbE RJ45 port
+  * **Weight:** 750 g (1.7 lb)
+  * **Management:** Ethernet
+  * **Enclosure Material:** UV-stabilized polycarbonate, aluminum alloy
+  * **Mount Material:** Stainless steel (SUS304), galvanized steel (SGCC)
+  * **LEDs**
+      * **System:** White/Blue
+  * **Channel Bandwidth:** HT 20/40, VHT 20/40/80/160, HE 20/40/80/160, EHT 20/40/80/160/240/320 (MHz)
+  * **Certifications:** CE, FCC, IC
+  * **NDAA Compliant:** Yes
+  * **Ambient Operating Temperature:** -30 to 40 degree C (-22 to 104 degree F)
+  * **Ambient Operating Humidity:** 5 to 95% noncondensing
+
+  ## Software
+
+  * **Application Requirements**
+      * **UniFi Network:** Version 9.0.114 and later
