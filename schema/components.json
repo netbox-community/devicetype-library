@@ -12,7 +12,8 @@
           "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/console-port/properties/type"
@@ -34,7 +35,8 @@
           "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/console-server-port/properties/type"
@@ -49,10 +51,12 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/power-port/properties/type"
@@ -73,16 +77,19 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/power-outlet/properties/type"
         },
         "power_port": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "feed_leg": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/power-outlet/properties/feed-leg"
@@ -101,7 +108,8 @@
           "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/interface/properties/type"
@@ -125,10 +133,12 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/front-port/properties/type"
@@ -154,10 +164,12 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/rear-port/properties/type"
@@ -182,10 +194,12 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "position": {
           "type": "string"
@@ -200,10 +214,12 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         }
       },
       "required": [
@@ -214,10 +230,12 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "label": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "manufacturer": {
           "type": "string"
