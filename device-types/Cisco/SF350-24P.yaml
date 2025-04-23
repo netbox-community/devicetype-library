@@ -1,0 +1,111 @@
+manufacturer: Cisco
+model: SF350-24P
+slug: cisco-sf350-24p
+part_number: SF350-24P-K9
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: |
+  The Cisco SF350-24P is a discontinued Layer 3 managed switch with 24x 10/100 Mbps PoE+ ports 
+  and 4x Gigabit ports (2 combo RJ45/SFP + 2 dedicated SFP slots). It provides a switching capacity 
+  of 12.8 Gbps and supports PoE up to 185W total. Combo ports share connectivity between the RJ45 
+  and SFP interfaces and cannot be used simultaneously. Console access is provided via RJ-45. 
+  Dimensions: 440 x 44 x 257 mm. Weight: 4.08 kg.
+  Datasheet: https://www.cisco.com/c/en/us/products/collateral/switches/small-business-smart-switches/data-sheet-c78-737359.html
+
+console-ports:
+  - name: con0
+    type: rj-45
+
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 230
+
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet2
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet3
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet4
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet5
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet6
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet7
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet8
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet9
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet10
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet11
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet12
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet13
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet14
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet15
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet16
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet17
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet18
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet19
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet20
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet21
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet22
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet23
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet24
+    type: 100base-tx
+    poe_mode: pd
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+
+module-bays:
+  - name: SFP1
+    position: 1
+  - name: SFP2
+    position: 2
