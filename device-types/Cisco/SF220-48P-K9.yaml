@@ -1,0 +1,183 @@
+manufacturer: Cisco
+model: SF220-48P
+slug: cisco-sf220-48p
+part_number: SF220-48P-K9
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: |
+  The Cisco SF220-48P is a discontinued Layer 2 smart switch featuring 48x 10/100 Mbps PoE+ ports 
+  and 2x Gigabit combo uplink ports (RJ45/SFP). It supports IEEE 802.3af and 802.3at PoE standards 
+  with a total PoE power budget of 375W. The combo uplink ports share connectivity between the RJ45 
+  and SFP interfaces and cannot be used simultaneously. Switching capacity: 13.6 Gbps. 
+  Forwarding rate: 10.12 Mpps. Dimensions: 440 x 44 x 350 mm. Weight: 5.12 kg.
+  Datasheet: https://www.cisco.com/c/en/us/products/collateral/switches/220-series-smart-switches/datasheet-c78-732203.html
+
+console-ports:
+  - name: con0
+    type: rj-45
+
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 400
+
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet2
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet3
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet4
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet5
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet6
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet7
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet8
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet9
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet10
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet11
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet12
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet13
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet14
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet15
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet16
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet17
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet18
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet19
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet20
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet21
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet22
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet23
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet24
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet25
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet26
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet27
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet28
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet29
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet30
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet31
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet32
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet33
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet34
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet35
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet36
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet37
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet38
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet39
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet40
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet41
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet42
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet43
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet44
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet45
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet46
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet47
+    type: 100base-tx
+    poe_mode: pd
+  - name: FastEthernet48
+    type: 100base-tx
+    poe_mode: pd
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+
+module-bays:
+  - name: SFP1
+    position: 1
+  - name: SFP2
+    position: 2
