@@ -3,7 +3,7 @@ manufacturer: HPE
 model: HPE Nimble Storage 2x25GbE 2-port FIO Adapter Kit
 part_number: R3Q00A
 interfaces:
-  - name: 'eth{module}a'
+  - name: eth{module}a
     type: 25gbase-x-sfp28
-  - name: 'eth{module}b'
+  - name: eth{module}b
     type: 25gbase-x-sfp28
