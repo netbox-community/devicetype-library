@@ -1,12 +1,12 @@
 ---
 manufacturer: Cisco
-model: NCS-5508
-slug: cisco-ncs-5508
-part_number: NCS-5508
-u_height: 13
+model: NCS-5504
+slug: cisco-ncs-5504
+part_number: NCS-5504
+u_height: 7
 is_full_depth: true
 airflow: front-to-rear
-weight: 68.2
+weight: 38.2
 weight_unit: kg
 comments: '[Hardware Installation Guide for Cisco NCS 5500 Series Modular Routers](https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/hardware-install/b-ncs5500-hardware-installation-guide.html)'
 module-bays:
@@ -22,14 +22,6 @@ module-bays:
     position: '2'
   - name: LC3
     position: '3'
-  - name: LC4
-    position: '4'
-  - name: LC5
-    position: '5'
-  - name: LC6
-    position: '6'
-  - name: LC7
-    position: '7'
   - name: PM0
     position: '0'
   - name: PM1
@@ -38,11 +30,3 @@ module-bays:
     position: '2'
   - name: PM3
     position: '3'
-  - name: PM4
-    position: '4'
-  - name: PM5
-    position: '5'
-  - name: PM6
-    position: '6'
-  - name: PM7
-    position: '7'

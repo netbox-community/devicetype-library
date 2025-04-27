@@ -1,0 +1,14 @@
+---
+manufacturer: Juniper
+model: EX-UM-4SFPP-MR
+part_number: EX-UM-4SFPP-MR
+comments: Compatible with EX4300MP only
+interfaces:
+  - name: xe-0/{module}/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/{module}/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/{module}/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/{module}/3
+    type: 10gbase-x-sfpp
