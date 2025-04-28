@@ -11,8 +11,6 @@ weight_unit: lb
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
-
-
 interfaces:
   - name: fxp0
     type: 1000base-t
@@ -75,5 +73,3 @@ module-bays:
 console-ports:
   - name: Console
     type: rj-45
-inventory-items:
-  - name: USB0
