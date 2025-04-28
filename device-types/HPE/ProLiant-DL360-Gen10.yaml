@@ -13,6 +13,10 @@ weight_unit: kg
 console-ports:
   - name: Serial
     type: de-9
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
 module-bays:
   - name: Embedded ALOM / Flexible LOM
     position: ALOM
@@ -35,15 +39,3 @@ module-bays:
   - name: PSU Bay 2
     position: PSU2
     description: 'rear: left PSU slot. Type: HPE Flexible Slot (Flex Slot)'
-interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
-  - name: iLO
-    type: 1000base-t
-    mgmt_only: true
