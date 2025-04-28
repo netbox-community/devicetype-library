@@ -16,16 +16,22 @@ console-ports:
 module-bays:
   - name: PSU1
     position: PSU1
+    description: 'rear: right PSU slot. Type: HPE Flexible Slot (Flex Slot)'
   - name: PSU2
     position: PSU2
+    description: 'rear: left PSU slot. Type: HPE Flexible Slot (Flex Slot)'
   - name: FlexLOM
     position: FlexLOM
+    description: 'rear: right side of the ILO labeled port. Interfaces numbered left to right.'
   - name: PCIe1
     position: PCIe1
+    description: 'rear: upper left corner, full/standard-height'
   - name: PCIe2
     position: PCIe2
+    description: 'rear: upper middle slot, half-height / low-profile'
   - name: PCIe3
     position: PCIe3
+    description: 'rear: upper right slot, half-height / low-profile'
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
