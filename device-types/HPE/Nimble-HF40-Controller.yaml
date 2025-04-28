@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: Nimble HF40 Controller
+slug: hpe-nimble-hf40-controller
+part_number: Q8H68A
+subdevice_role: child
+u_height: 0
+console-ports:
+  - name: Serial
+    type: other
+    description: 3.5mm
+interfaces:
+  - name: eth0a
+    type: 10gbase-t
+  - name: eth0b
+    type: 10gbase-t
+module-bays:
+  - name: NIC1
+    position: '1'
+  - name: NIC2
+    position: '2'
+  - name: NIC3
+    position: '3'
