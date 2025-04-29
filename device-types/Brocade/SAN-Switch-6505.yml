@@ -1,0 +1,78 @@
+---
+manufacturer: Brocade
+model: SAN Switch 6505
+slug: brocade-6505
+comments: '[Data Sheet](https://docs.broadcom.com/doc/12379859)'
+part_number: '6505'
+is_full_depth: true
+u_height: 1
+weight: 9.2
+weight_unit: kg
+airflow: rear-to-front
+interfaces:
+  - name: mgmt1
+    type: 100base-tx
+    mgmt_only: true
+  - name: fc0
+    type: 16gfc-sfpp
+  - name: fc1
+    type: 16gfc-sfpp
+  - name: fc2
+    type: 16gfc-sfpp
+  - name: fc3
+    type: 16gfc-sfpp
+  - name: fc4
+    type: 16gfc-sfpp
+  - name: fc5
+    type: 16gfc-sfpp
+  - name: fc6
+    type: 16gfc-sfpp
+  - name: fc7
+    type: 16gfc-sfpp
+  - name: fc8
+    type: 16gfc-sfpp
+  - name: fc9
+    type: 16gfc-sfpp
+  - name: fc10
+    type: 16gfc-sfpp
+  - name: fc11
+    type: 16gfc-sfpp
+  - name: fc12
+    type: 16gfc-sfpp
+  - name: fc13
+    type: 16gfc-sfpp
+  - name: fc14
+    type: 16gfc-sfpp
+  - name: fc15
+    type: 16gfc-sfpp
+  - name: fc16
+    type: 16gfc-sfpp
+  - name: fc17
+    type: 16gfc-sfpp
+  - name: fc18
+    type: 16gfc-sfpp
+  - name: fc19
+    type: 16gfc-sfpp
+  - name: fc20
+    type: 16gfc-sfpp
+  - name: fc21
+    type: 16gfc-sfpp
+  - name: fc22
+    type: 16gfc-sfpp
+  - name: fc23
+    type: 16gfc-sfpp
+console-ports:
+  - name: Console
+    label: Serial Console
+    type: rj-45
+rear-ports:
+  - name: USB
+    label: USB disk
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 80
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 80
