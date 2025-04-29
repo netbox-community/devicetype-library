@@ -16,6 +16,10 @@ interfaces:
     label: iDRAC
     type: 1000base-t
     mgmt_only: true
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
 module-bays:
   - name: PSU-1
     label: '1'
