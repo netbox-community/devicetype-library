@@ -1,0 +1,42 @@
+---
+manufacturer: Quantum
+model: Xcellis Workflow Director Gen2 12G
+slug: quantum-xcellis-workflow-director-gen2-12g
+u_height: 1
+is_full_depth: true
+console-ports:
+  - name: ServicePort
+    type: rj-45
+power-ports:
+  - name: "1"
+    type: iec-60320-c14
+    label: PSU Slot 1
+    position: '1'
+  - name: "2"
+    type: iec-60320-c14
+    label: PSU Slot 2
+    position: '2'
+interfaces:
+  - name: FC-1
+    type: 32gfc-sfp28
+  - name: FC-2
+    type: 32gfc-sfp28
+  - name: FC-3
+    type: 32gfc-sfp28
+  - name: FC-4
+    type: 32gfc-sfp28
+  - name: p1p1
+    type: 100gbase-x-qsfp28
+  - name: p1p2
+    type: 100gbase-x-qsfp28
+  - name: em1
+    type: 1000base-t
+  - name: em2
+    type: 1000base-t
+  - name: em3
+    type: 1000base-t
+  - name: em4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
