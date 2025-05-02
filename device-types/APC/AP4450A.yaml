@@ -1,0 +1,46 @@
+---
+manufacturer: APC
+model: AP4450A
+slug: apc-ap4450a
+part_number: AP4450A
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 4.4
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: APC Netshelter Rack Automatic Transfer Switch, 1U, 15A, 100/120V, 5-15 IN, 10 5-15R OUT, 50/60Hz
+console-ports:
+  - name: Serial
+    type: usb-micro-b
+power-ports:
+  - name: Source A
+    type: nema-5-15p
+  - name: Source B
+    type: nema-5-15p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+  - name: Outlet 2
+    type: nema-5-15r
+  - name: Outlet 3
+    type: nema-5-15r
+  - name: Outlet 4
+    type: nema-5-15r
+  - name: Outlet 5
+    type: nema-5-15r
+  - name: Outlet 6
+    type: nema-5-15r
+  - name: Outlet 7
+    type: nema-5-15r
+  - name: Outlet 8
+    type: nema-5-15r
+  - name: Outlet 9
+    type: nema-5-15r
+  - name: Outlet 10
+    type: nema-5-15r
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,15 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957504-N425G
+part_number: BCM957504-N425G
+description: Quad-Port 25 Gb/s SFP28 Ethernet PCI Express 4.0 x16 OCP 3.0 SFF Network Adapter
+comments: '[Datasheet](https://docs.broadcom.com/doc/957504-N425G-DS)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/3
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/4
+    type: 25gbase-x-sfp28

@@ -1,0 +1,10 @@
+---
+manufacturer: QNAP
+model: LAN-10G2SF-MLX
+part_number: lan-10g2sf-mlx
+description: Dual-port SFP+ PCIe3 x8 network card with Mellanox chipset
+interfaces:
+  - name: '{module}/Adapter 1'
+    type: 10gbase-x-sfpp
+  - name: '{module}/Adapter 2'
+    type: 10gbase-x-sfpp

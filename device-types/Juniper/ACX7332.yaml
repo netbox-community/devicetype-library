@@ -1,0 +1,126 @@
+---
+manufacturer: Juniper
+model: ACX7332
+part_number: ACX7332
+slug: juniper-acx7332
+u_height: 3
+weight: 39.33
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: false
+comments: '[Juniper ACX7332 Hardware Guide](https://www.juniper.net/documentation/us/en/hardware/acx7332/acx7332.pdf)'
+front_image: true
+rear_image: true
+console-ports:
+  - name: CON
+    type: rj-45
+interfaces:
+  - name: re0:mgmt-0
+    type: 1000base-t
+    label: MGMT
+    mgmt_only: true
+  - name: et-0/0/0
+    type: 25gbase-x-sfp28
+  - name: et-0/0/1
+    type: 25gbase-x-sfp28
+  - name: et-0/0/2
+    type: 25gbase-x-sfp28
+  - name: et-0/0/3
+    type: 25gbase-x-sfp28
+  - name: et-0/0/4
+    type: 25gbase-x-sfp28
+  - name: et-0/0/5
+    type: 25gbase-x-sfp28
+  - name: et-0/0/6
+    type: 25gbase-x-sfp28
+  - name: et-0/0/7
+    type: 25gbase-x-sfp28
+  - name: et-0/0/8
+    type: 25gbase-x-sfp28
+  - name: et-0/0/9
+    type: 25gbase-x-sfp28
+  - name: et-0/0/10
+    type: 25gbase-x-sfp28
+  - name: et-0/0/11
+    type: 25gbase-x-sfp28
+  - name: et-0/0/12
+    type: 25gbase-x-sfp28
+  - name: et-0/0/13
+    type: 25gbase-x-sfp28
+  - name: et-0/0/14
+    type: 25gbase-x-sfp28
+  - name: et-0/0/15
+    type: 25gbase-x-sfp28
+  - name: et-0/0/16
+    type: 25gbase-x-sfp28
+  - name: et-0/0/17
+    type: 25gbase-x-sfp28
+  - name: et-0/0/18
+    type: 25gbase-x-sfp28
+  - name: et-0/0/19
+    type: 25gbase-x-sfp28
+  - name: et-0/0/20
+    type: 25gbase-x-sfp28
+  - name: et-0/0/21
+    type: 25gbase-x-sfp28
+  - name: et-0/0/22
+    type: 25gbase-x-sfp28
+  - name: et-0/0/23
+    type: 25gbase-x-sfp28
+  - name: et-0/0/24
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/25
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/26
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/27
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/28
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/29
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/30
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/31
+    type: 100gbase-x-qsfp28
+  - name: et-0/0/32
+    type: 25gbase-x-sfp28
+  - name: et-0/0/33
+    type: 25gbase-x-sfp28
+  - name: et-0/0/34
+    type: 25gbase-x-sfp28
+  - name: et-0/0/35
+    type: 25gbase-x-sfp28
+  - name: et-0/0/36
+    type: 25gbase-x-sfp28
+  - name: et-0/0/37
+    type: 25gbase-x-sfp28
+  - name: et-0/0/38
+    type: 25gbase-x-sfp28
+  - name: et-0/0/39
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PSM 0
+    maximum_draw: 2200
+    position: '0'
+  - name: PSM 1
+    maximum_draw: 2200
+    position: '1'
+  - name: LC 1
+    position: '1'
+  - name: LC 2
+    position: '2'
+  - name: LC 3
+    position: '3'
+  - name: RE 0
+    position: '0'
+  - name: RE 1
+    position: '1'
+  - name: Fan Tray 0
+    position: '0'
+  - name: Fan Tray 1
+    position: '1'
+  - name: Fan Tray 2
+    position: '2'
+  - name: Fan Tray 3
+    position: '3'
