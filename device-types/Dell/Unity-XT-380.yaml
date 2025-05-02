@@ -5,32 +5,15 @@ slug: dell-unity-xt-380
 part_number: 100-566-075-03
 u_height: 2
 is_full_depth: true
+weight: 24.6
+weight_unit: kg
+airflow: front-to-rear
 subdevice_role: parent
-interfaces:
-  - name: SP-A ETH0
-    type: 1000base-t
-    mgmt_only: true
-  - name: SP-B ETH0
-    type: 1000base-t
-    mgmt_only: true
-  - name: SP-A I/O Module 1 Eth Port 0
-    type: 10gbase-x-sfpp
-  - name: SP-A I/O Module 1 Eth Port 1
-    type: 10gbase-x-sfpp
-  - name: SP-A I/O Module 1 Eth Port 2
-    type: 10gbase-x-sfpp
-  - name: SP-A I/O Module 1 Eth Port 3
-    type: 10gbase-x-sfpp
-  - name: SP-B I/O Module 1 Eth Port 0
-    type: 10gbase-x-sfpp
-  - name: SP-B I/O Module 1 Eth Port 1
-    type: 10gbase-x-sfpp
-  - name: SP-B I/O Module 1 Eth Port 2
-    type: 10gbase-x-sfpp
-  - name: SP-B I/O Module 1 Eth Port 3
-    type: 10gbase-x-sfpp
-power-ports:
+device-bays:
+  - name: Controller 1
+  - name: Controller 2
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
+    position: '1'
   - name: PSU2
-    type: iec-60320-c14
+    position: '2'
