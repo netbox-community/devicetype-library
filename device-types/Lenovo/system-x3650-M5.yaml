@@ -2,23 +2,20 @@
 manufacturer: Lenovo
 model: System x3650 M5
 slug: lenovo-system-x3650-m5
-part_number: 8871
+part_number: '8871'
 u_height: 2
+weight: 19
+weight_unit: kg
+airflow: front-to-rear
 is_full_depth: true
-comments: '[Lenovo System x3650 M5 product guide](https://lenovopress.com/tips1194.pdf)'
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
-rear-ports:
-  - name: vga
-    type: other
-  - name: usb-left
-    type: usb-a
-  - name: usb-right
-    type: usb-a
+front_image: true
+rear_image: true
+comments: '[Lenovo System x3650 M5 product guide](https://lenovopress.lenovo.com/lp0068.pdf)'
 module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
   - name: PCIe slot 1 - FH
     label: '1'
     position: PCIe-1
@@ -44,7 +41,7 @@ module-bays:
     label: '8'
     position: PCIe-8
   - name: Mezzanine LOM (ML2)
-    label: 'LOM'
+    label: LOM
     position: PCIe-8
 interfaces:
   - name: Ethernet 1
