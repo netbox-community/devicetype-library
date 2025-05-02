@@ -7,6 +7,10 @@ is_full_depth: true
 weight: 64
 weight_unit: kg
 airflow: front-to-rear
+subdevice_role: parent
+device-bays:
+  - name: Controller 1
+  - name: Controller 2
 module-bays:
   - name: PSU-1
     label: '1'
