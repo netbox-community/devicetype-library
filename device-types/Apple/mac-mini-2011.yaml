@@ -11,18 +11,11 @@ weight_unit: lb
 comments: '[Mac Mini 2011 (Macmini5,1) | hardware specs](https://support.apple.com/en-us/112007)'
 power-ports:
   - name: Power
-    type: nema-1-15p
+    type: iec-60320-c8
     maximum_draw: 85
 interfaces:
   - name: eth
     type: 1000base-t
-    enabled: true
-    mgmt_only: false
   - name: thunderbolt-1
-    type: other
-    enabled: true
-    mgmt_only: false
   - name: wireless
     type: ieee802.11n
-    enabled: true
-    mgmt_only: false
