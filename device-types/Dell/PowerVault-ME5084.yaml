@@ -1,0 +1,20 @@
+---
+manufacturer: Dell
+model: PowerVault ME5084
+slug: dell-powervault-me5084
+u_height: 5
+is_full_depth: true
+weight: 64
+weight_unit: kg
+airflow: front-to-rear
+subdevice_role: parent
+device-bays:
+  - name: Controller 1
+  - name: Controller 2
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: '1'
+  - name: PSU-2
+    label: '2'
+    position: '2'
