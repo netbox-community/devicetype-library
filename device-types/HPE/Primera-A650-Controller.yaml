@@ -1,0 +1,23 @@
+---
+manufacturer: HPE
+model: Primera A650 Controller
+slug: hpe-primera-a650-controller
+subdevice_role: child
+u_height: 0
+console-ports:
+  - name: Service
+    type: rj-45
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+  - name: Slot-1
+    type: 10gbase-x-sfpp
+  - name: Slot-2
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: Slot-3
+    position: '3'
+  - name: Slot-4
+    position: '4'
+  - name: Slot-5
+    position: '5'
