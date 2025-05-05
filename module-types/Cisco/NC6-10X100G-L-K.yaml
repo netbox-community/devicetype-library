@@ -1,0 +1,30 @@
+---
+manufacturer: Cisco
+model: NC6-10X100G-L-K
+part_number: NC6-10X100G-L-K
+weight: 11.34
+weight_unit: kg
+description: Cisco NCS 6000 10 Port 100 Gigabit Ethernet LSR Line Card CPAK Optics
+comments: |
+  - [Cisco Network Convergence System 6000 Series 10-Port 100-Gbps Label Switch Router Line Cards with Cisco AnyPort Technology Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/network-convergence-system-6000-series-routers/data_sheet_c78-729172.html)
+interfaces:
+  - name: HundredGigE0/{module}/0/0
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/1
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/2
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/3
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/4
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/5
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/6
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/7
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/8
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/9
+    type: 100gbase-x-cpak
