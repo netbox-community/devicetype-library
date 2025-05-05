@@ -1,11 +1,14 @@
 ---
 manufacturer: HPE
-model: ProLiant DL360 Gen10 Plus
-slug: hpe-proliant-dl360-gen10-plus
-u_height: 1
+model: ProLiant DL345 Gen11
+slug: hpe-proliant-dl345-gen11
+u_height: 2
 is_full_depth: true
 front_image: true
 rear_image: true
+comments: '[HPE ProLiant DL345 Gen11 QuickSpecs](https://www.hpe.com/psnow/doc/a50004298enw)'
+weight: 19
+weight_unit: kg
 console-ports:
   - name: Serial
     type: de-9
@@ -14,14 +17,14 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
-  - name: OCP3
-    position: OCP3
+  - name: OCP3_1
+    position: OCP3_1
+  - name: OCP3_2
+    position: OCP3_2
   - name: PCIe1
     position: PCIe1
   - name: PCIe2
     position: PCIe2
-  - name: PCIe3
-    position: PCIe3
 interfaces:
   - name: iLO
     type: 1000base-t
