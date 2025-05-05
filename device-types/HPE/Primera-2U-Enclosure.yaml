@@ -1,0 +1,21 @@
+---
+manufacturer: HPE
+model: Primera 2U Enclosure
+slug: hpe-primera-2u-enclosure
+u_height: 2
+comments: 16x12gSAS + 8x12gSAS/NVMe SFF Storage Enclosure
+weight: 33
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+subdevice_role: parent
+module-bays:
+  - name: PSU0
+    position: PSU0
+  - name: PSU1
+    position: PSU1
+device-bays:
+  - name: Ctrl1
+    position: Ctrl1
+  - name: Ctrl0
+    position: Ctrl0

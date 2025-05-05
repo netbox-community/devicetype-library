@@ -31,3 +31,6 @@ interfaces:
     type: 1000base-x-sfp
   - name: '6'
     type: 1000base-x-sfp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

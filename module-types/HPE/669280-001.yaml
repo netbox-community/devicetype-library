@@ -1,0 +1,16 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 1Gb 4-port 366FLR ALOM Adapter
+part_number: 669280-001
+description: NIC for Embedded ALOM (Advanced LOM / FlexibleLOM) port on various HP Proliant Gen9 and Gen10; Apollo Gen9 servers
+comments: "Ethernet 1Gb 4-port 366FLR adapter, FlexibleLOM form-factor. Has four 10/100/1000BASE-T RJ45 ports. Requires CAT-5e or better twisted pair\r\n\
+  \r\n**Discontinued**. See:\r\n\r\n- [QuickSpecs](https://www.hpe.com/psnow/doc/c04111405.pdf)"
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-t
+  - name: '{module}/2'
+    type: 1000base-t
+  - name: '{module}/3'
+    type: 1000base-t
+  - name: '{module}/4'
+    type: 1000base-t
