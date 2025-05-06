@@ -97,7 +97,7 @@ jobs:
         run: pytest --tb=short -v
       - name: Check for pickle file change
         id: pickle-change
-        uses: tj-actions/changed-files@v45
+        uses: tj-actions/changed-files@v46
         with:
           files: tests/known-slugs.pickle
       - name: Add PR Comment if pickle file is modified

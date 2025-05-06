@@ -72,5 +72,8 @@ interfaces:
     description: Connects at 1x40Gb, 2x 50Gb, 4x 25Gb, or 4x 10Gb, but not 1x 100Gb.  Or use for stacking.
 module-bays:
   - name: PSU-1
+    position: '1'
   - name: PSU-2
+    position: '2'
   - name: VIM
+    position: VIM

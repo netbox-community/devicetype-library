@@ -1,0 +1,30 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Flex Mini 2.5G
+slug: ubiquiti-usw-flex-2-5g-5
+part_number: USW-Flex-2-5G-5
+comments: |
+  117.1 x 90 x 21.2 mm (4.6 x 3.5 x 0.8")
+  [Flex Mini 2.5G](https://techspecs.ui.com/unifi/switching/usw-flex-2-5g-5)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 206
+weight_unit: g
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+  - name: Port 2
+    type: 2.5gbase-t
+  - name: Port 3
+    type: 2.5gbase-t
+  - name: Port 4
+    type: 2.5gbase-t
+  - name: Port 5 (PoE IN)
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: Supply
+    type: usb-c
+    maximum_draw: 5
