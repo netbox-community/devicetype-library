@@ -1,0 +1,66 @@
+---
+manufacturer: HPE
+model: Aruba EC-S-P AC
+slug: hpe-aruba-ec-s-p-ac
+part_number: '201687'
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 18.14
+weight_unit: lb
+front_image: true
+rear_image: true
+console-ports:
+  - name: console
+    type: rj-45
+    label: console
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt0
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+    label: mgmt1
+  - name: tlan0
+    type: 10gbase-x-sfpp
+    label: tlan0
+  - name: twan0
+    type: 10gbase-x-sfpp
+    label: twan0
+  - name: tlan1
+    type: 10gbase-x-sfpp
+    label: tlan1
+  - name: twan1
+    type: 10gbase-x-sfpp
+    label: twan1
+  - name: lan0
+    type: 1000base-t
+    label: lan0
+  - name: lan1
+    type: 1000base-t
+    label: lan1
+  - name: lan2
+    type: 1000base-t
+    label: lan2
+  - name: lan3
+    type: 1000base-t
+    label: lan3
+  - name: wan0
+    type: 1000base-t
+    label: wan0
+  - name: wan1
+    type: 1000base-t
+    label: wan1
+  - name: wan2
+    type: 1000base-t
+    label: wan2
+  - name: wan3
+    type: 1000base-t
+    label: wan3
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

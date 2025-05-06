@@ -1,0 +1,38 @@
+---
+manufacturer: Ubiquiti
+model: AI Port
+slug: ubiquiti-up-ai-port
+part_number: UP-AI-Port
+u_height: 0
+is_full_depth: false
+airflow: passive
+subdevice_role: child
+weight: 258.3
+weight_unit: g
+interfaces:
+  - name: eth0
+    label: PoE IN
+    type: 1000base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+  - name: eth1
+    label: PoE OUT
+    type: 1000base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    mgmt_only: false
+front_image: true
+rear_image: true
+comments: |
+  [AI Port](https://techspecs.ui.com/unifi/cameras-nvrs/up-ai-port)
+
+  AI appliance that enhances any UniFi or third-party camera with AI detection, classification, and recognition capabilities.
+
+  Dimensions
+      Without mount: 150 x 64 x 38.4 mm (5.9 x 2.5 x 1.5")
+      With mount: 152.7 x 69 x 47.8 mm (6 x 2.7 x 1.9")
+  Weight:
+    Without mount: 258.3 g (9.1 oz)
+    With mount: 294 g (10.4 oz)
+  Certifications: FCC, IC, CE

@@ -1,0 +1,57 @@
+---
+manufacturer: Lenovo
+model: System x3650 M5
+slug: lenovo-system-x3650-m5
+part_number: '8871'
+u_height: 2
+weight: 19
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+front_image: true
+rear_image: true
+comments: '[Lenovo System x3650 M5 product guide](https://lenovopress.lenovo.com/lp0068.pdf)'
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PCIe slot 1 - FH
+    label: '1'
+    position: PCIe-1
+  - name: PCIe slot 2 - FH
+    label: '2'
+    position: PCIe-2
+  - name: PCIe slot 3 or ML2 - FH
+    label: '3'
+    position: PCIe-3
+  - name: PCIe slot 4 - LP
+    label: '4'
+    position: PCIe-4
+  - name: PCIe slot 5 - LP
+    label: '5'
+    position: PCIe-5
+  - name: PCIe slot 6 - FH
+    label: '6'
+    position: PCIe-6
+  - name: PCIe slot 7 - FH
+    label: '7'
+    position: PCIe-7
+  - name: PCIe slot 8 - FH
+    label: '8'
+    position: PCIe-8
+  - name: Mezzanine LOM (ML2)
+    label: LOM
+    position: PCIe-8
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  - name: IMM
+    type: 100base-tx
+    mgmt_only: true
