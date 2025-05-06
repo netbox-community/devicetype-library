@@ -7,13 +7,11 @@ is_full_depth: true
 console-ports:
   - name: ServicePort
     type: rj-45
-power-ports:
-  - name: "1"
-    type: iec-60320-c14
+module-bays:
+  - name: PSU 1
     label: PSU Slot 1
     position: '1'
-  - name: "2"
-    type: iec-60320-c14
+  - name: PSU 2
     label: PSU Slot 2
     position: '2'
 interfaces:
