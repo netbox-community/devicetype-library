@@ -1,0 +1,20 @@
+---
+manufacturer: HPE
+model: MSA 2050 SAS Controller
+slug: hpe-msa-2050-sas-controller
+subdevice_role: child
+u_height: 0
+console-ports:
+  - name: Service
+    type: usb-mini-a
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+  - name: SAS12g-1
+    type: other
+  - name: SAS12g-2
+    type: other
+  - name: SAS12g-3
+    type: other
+  - name: SAS12g-4
+    type: other
