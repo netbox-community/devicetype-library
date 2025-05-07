@@ -65,14 +65,8 @@ console-ports:
   - name: Console
     label: Serial Console
     type: rj-45
-rear-ports:
-  - name: USB
-    label: USB disk
-    type: usb-a
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 80
+    position: '1'
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 80
+    position: '2'
