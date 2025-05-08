@@ -13,7 +13,9 @@ console-ports:
     type: usb-micro-b
 module-bays:
   - name: 1/PS-1
+    position: 1
   - name: 1/PS-2
+    position: 2
 interfaces:
   - name: 1/1/1
     type: 1000base-t
