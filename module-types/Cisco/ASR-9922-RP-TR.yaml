@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: ASR-9922-RP-TR
+part_number: ASR-9922-RP-TR
+comments: '[Cisco ASR 9900 Route Processor Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-733377.html)'
+description: ASR 9922 Route Processor for Packet Transport
+console-ports:
+  - name: console{module}
+    type: rj-45
+interfaces:
+  - name: MgmtEth0/RP{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: MgmtEth0/RP{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true

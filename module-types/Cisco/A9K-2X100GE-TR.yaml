@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: A9K-2X100GE-TR
+part_number: A9K-2X100GE-TR
+comments: '[Cisco ASR 9000 Series 2-Port 100 Gigabit Ethernet Line Cards Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet_C78-662709.html)'
+description: 2-port 100GE, Packet Transport Optimized LC
+interfaces:
+  - name: HundredGigE0/{module}/0/0
+    type: 100gbase-x-cfp
+  - name: HundredGigE0/{module}/0/1
+    type: 100gbase-x-cfp

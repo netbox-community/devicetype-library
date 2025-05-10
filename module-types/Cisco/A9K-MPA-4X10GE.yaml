@@ -2,12 +2,13 @@
 manufacturer: Cisco
 model: A9K-MPA-4X10GE
 part_number: A9K-MPA-4X10GE
+description: ASR 9000 4-port 10GE Modular Port Adapter
 interfaces:
-  - name: TenGigE{module}/0
+  - name: TenGigE0/{module}/{module}/0
     type: 10gbase-x-xfp
-  - name: TenGigE{module}/1
+  - name: TenGigE0/{module}/{module}/1
     type: 10gbase-x-xfp
-  - name: TenGigE{module}/2
+  - name: TenGigE0/{module}/{module}/2
     type: 10gbase-x-xfp
-  - name: TenGigE{module}/3
+  - name: TenGigE0/{module}/{module}/3
     type: 10gbase-x-xfp
