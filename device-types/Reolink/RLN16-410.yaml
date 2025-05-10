@@ -16,72 +16,72 @@ interfaces:
   - name: CAM-1
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-2
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-3
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-4
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-5
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-6
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-7
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-8
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-9
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-10
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-11
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-12
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-13
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-14
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-15
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: CAM-16
     type: 1000base-t
     poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: LAN
     type: 1000base-t
     mgmt_only: true
-console-ports:
-  - name: HDMI-1
-    type: other
-  - name: VGA
-    type: other
-  - name: Front-usb
-    type: usb-a
-  - name: Rear-usb
-    type: usb-a
-  - name: AUDIO-OUT-RCA
-    type: other
 power-ports:
   - name: Power
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 65
     allocated_draw: 30
-module-bays:
-  - name: Drive 1
-    position: '1'
-  - name: Drive 2
-    position: '2'
