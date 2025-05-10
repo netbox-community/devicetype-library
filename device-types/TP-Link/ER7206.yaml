@@ -10,11 +10,12 @@ comments: '[TP-Link ER7206 Datasheet](https://www.tp-link.com/us/business-networ
 power-ports:
   - name: 12VDC
     type: dc-terminal
-    maximum_draw: 8.95
-interfaces:
-  - name: backup-usb
+    maximum_draw: 9
+console-ports:
+  - name: Celullar-modem-usb
     type: usb-a
-  - name: sfp-want/lan1
+interfaces:
+  - name: sfp-wan/lan1
     type: 1000base-x-sfp
   - name: wan2
     type: 1000base-t
