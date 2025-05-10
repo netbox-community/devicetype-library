@@ -1,0 +1,27 @@
+---
+manufacturer: TP-Link
+model: ER7206
+slug: tp-link-er7206
+part_number: ER7206
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link ER7206 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-router/er7206/#specifications)'
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 8.95
+interfaces:
+  - name: backup-usb
+    type: usb-a
+  - name: sfp-want/lan1
+    type: 1000base-x-sfp
+  - name: wan2
+    type: 1000base-t
+  - name: wan/lan3
+    type: 1000base-t
+  - name: wan/lan4
+    type: 1000base-t
+  - name: wan/lan5
+    type: 1000base-t
+  
