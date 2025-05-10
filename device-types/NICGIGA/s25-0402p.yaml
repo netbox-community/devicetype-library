@@ -1,3 +1,4 @@
+---
 manufacturer: NICGIGA
 model: S25-0402P
 slug: s25-0402p
@@ -10,53 +11,53 @@ weight: 2.0
 weight_unit: lb
 comments: "Dimensions: 9.33 x 7.6 x 2.83 inches\r\n\r\n[Product Page at nicgiga.com](https://www.nicgiga.com/collections/2-5g-switch/products/nicgiga-4-port-2-5g-poe-switch-unmanaged-with-4-x-2-5gb-base-t-poe-78w-2-x-10g-sfp-uplink-2-5gbe-ieee802-3af-at-power-over-ethernet-switch-support-wifi6-ap-nas-4k-poe-camera-nvr)"
 power-ports:
-- name: AC Input
-  type: iec-60320-c14
-  maximum_draw: 100
-  label: ''
-  description: ''
+  - name: AC Input
+    type: iec-60320-c14
+    maximum_draw: 100
+    label: ''
+    description: ''
 interfaces:
-- name: 2.5GE 1
-  type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: 2.5GE 2
-  type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: 2.5GE 3
-  type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: 2.5GE 4
-  type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: SFP+ 1
-  type: 10gbase-x-sfpp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-- name: SFP+ 2
-  type: 10gbase-x-sfpp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
+  - name: 2.5GE 1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 2.5GE 2
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 2.5GE 3
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 2.5GE 4
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
