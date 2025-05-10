@@ -2,8 +2,6 @@
 manufacturer: NICGIGA
 model: S25-0402P
 slug: nicgiga-s25-0402p
-description: ''
-part_number: ''
 u_height: 1.0
 is_full_depth: false
 airflow: passive
@@ -14,50 +12,36 @@ power-ports:
   - name: AC Input
     type: iec-60320-c14
     maximum_draw: 100
-    label: ''
-    description: ''
 interfaces:
   - name: 2.5GE 1
     type: 2.5gbase-t
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: 2.5GE 2
     type: 2.5gbase-t
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: 2.5GE 3
     type: 2.5gbase-t
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: 2.5GE 4
     type: 2.5gbase-t
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: SFP+ 1
     type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: SFP+ 2
     type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
