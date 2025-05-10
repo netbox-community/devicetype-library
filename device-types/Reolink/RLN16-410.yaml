@@ -1,0 +1,87 @@
+---
+manufacturer: Reolink
+model: RLN16-410
+slug: reolink-rln16-410
+part_number: RLN16-410
+airflow: front-to-rear
+comments: |
+  [Reolink RLN16-410 Specs](https://reolink.com/it/product/rln16-410/?attribute_pa_version=rln16-410-4tb&lang=en#specifications)
+u_height: 1
+is_full_depth: false
+front_image: false
+rear_image: false
+weight: 36.6
+weight_unit: lb
+interfaces:
+  - name: CAM-1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-11
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-13
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-14
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-15
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: CAM-16
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: LAN
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 65
+    allocated_draw: 30
