@@ -6,14 +6,13 @@ part_number: ER7206
 u_height: 1.0
 is_full_depth: false
 airflow: passive
+weight: 0.9
+weight_unit: kg
 comments: '[TP-Link ER7206 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-router/er7206/#specifications)'
 power-ports:
-  - name: 12VDC
-    type: dc-terminal
+  - name: power
+    type: iec-60320-c6
     maximum_draw: 9
-console-ports:
-  - name: Celullar-modem-usb
-    type: usb-a
 interfaces:
   - name: sfp-wan/lan1
     type: 1000base-x-sfp
