@@ -1,0 +1,37 @@
+---
+manufacturer: Ubiquiti
+model: EdgeRouter Infinity
+slug: ubiquiti-edgerouter-infinity
+part_number: ER-8-XG
+u_height: 1
+is_full_depth: false
+comments: '[EdgeRouter Infinity](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_ER-8-XG_DS.pdf)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c6
+    maximum_draw: 40
+  - name: PSU 2
+    type: iec-60320-c6
+    maximum_draw: 40
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 10gbase-x-sfpp
+  - name: eth2
+    type: 10gbase-x-sfpp
+  - name: eth3
+    type: 10gbase-x-sfpp
+  - name: eth4
+    type: 10gbase-x-sfpp
+  - name: eth5
+    type: 10gbase-x-sfpp
+  - name: eth6
+    type: 10gbase-x-sfpp
+  - name: eth7
+    type: 10gbase-x-sfpp
+  - name: eth8
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: Console
+    type: rj-45
