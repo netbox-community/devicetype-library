@@ -1,0 +1,62 @@
+---
+manufacturer: TP-Link
+model: TL-SG2210MP
+slug: tp-link-sg2210mp
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 0.85
+weight_unit: kg
+comments: '[TP-Link SG2210MP](https://www.tp-link.com/us/business-networking/omada-switch-poe/sg2210mp/) - Omada 10-Port Gigabit Smart Switch with 8-Port
+  PoE+'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 175
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 2
+    type: 1000base-t
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 3
+    type: 1000base-t
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 4
+    type: 1000base-t
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 5
+    type: 1000base-t
+    label: '5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 6
+    type: 1000base-t
+    label: '6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 7
+    type: 1000base-t
+    label: '7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 8
+    type: 1000base-t
+    label: '8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 9
+    type: 1000base-x-sfp
+    label: SFP 1
+  - name: Ethernet 10
+    type: 1000base-x-sfp
+    label: SFP 2
