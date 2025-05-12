@@ -6,6 +6,46 @@ description: 2-Port 10GE, 20-Port GE Low Queue LC Requires XFPs and SFPs
 comments: '[Cisco ASR 9000 Series Modular Line Cards Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501338.html)'
 interfaces:
   - name: TenGigE0/{module}/0/0
-    type: 10gbase-x-sfpp
+    type: 10gbase-x-xfp
   - name: TenGigE0/{module}/0/1
-    type: 10gbase-x-sfpp
+    type: 10gbase-x-xfp
+  - name: GigabitEthernet0/{module}/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/{module}/0/19
+    type: 1000base-x-sfp
