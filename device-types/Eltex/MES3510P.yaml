@@ -1,0 +1,63 @@
+---
+manufacturer: Eltex
+model: MES3510P
+slug: eltex-mes3510p
+part_number: MES3510P
+is_full_depth: false
+weight: 1.74
+weight_unit: kg
+airflow: passive
+front_image: true
+u_height: 4
+comments: '[Eltex MES3510P Data Sheet](https://api.prod.eltex-co.ru/storage/upload_center/files/27/MES3508(P)_MES3510P_datasheet_4.0.24.1.pdf)'
+interfaces:
+  - name: gigabitethernet1/0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet1/0/9
+    type: 1000base-x-sfp
+  - name: gigabitethernet1/0/10
+    type: 1000base-x-sfp
+  - name: gigabitethernet1/0/11
+    type: 1000base-x-sfp
+  - name: gigabitethernet1/0/12
+    type: 1000base-x-sfp
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS0
+    type: dc-terminal
+    maximum_draw: 260
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 260

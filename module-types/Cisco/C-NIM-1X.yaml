@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: C-NIM-1X
+part_number: C-NIM-1X
+description: Cisco 1-port 10-Gbps/1-Gbps SFP+ WAN, Network Interface Module for Catalyst 8300 Series platform
+weight: 0.24
+weight_unit: kg
+comments: '[Data sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/catalyst-8000-gigabit-ethernet-wan-modules-ds.html)'
+interfaces:
+  - name: TenGigabitEthernet0/{module}/0
+    type: 10gbase-x-sfpp
+    enabled: true
