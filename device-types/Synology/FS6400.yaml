@@ -31,16 +31,6 @@ interfaces:
     type: 10gbase-t
   - name: LAN4
     type: 10gbase-t
-  - name: Expansion 1
-    type: infiniband-ndr
-  - name: Expansion 2
-    type: infiniband-ndr
-rear-ports:
-  - name: USB-top
-    type: usb-a
-  - name: USB-bottom
-    type: usb-a
 console-ports:
   - name: Console
     type: de-9
-    mgmt_only: true
