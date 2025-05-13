@@ -1,0 +1,33 @@
+manufacturer: Cisco
+model: IR1101-K9
+slug: ir1101-k9
+part_number: IR1101-K9
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: |
+  - Operating temperature: –40°C to 60°C (standard), up to 75°C with forced air.
+  - Designed for harsh environments with shock, vibration, dust, and humidity resistance.
+  - Power input: 9.6V to 60V DC.
+  - Power consumption: Idle 6.6W, Typical 9.8W, Max 12W.
+  - Mounting options: DIN rail, wall, and panel mount.
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb-console
+    type: usb-mini-b
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: Cellular0/0/0
+    type: lte
+  - name: Cellular0/1/0
+    type: lte
+  - name: SFP0
+    type: 1000base-x-sfp
+power-ports:
+  - name: DC Input
+    type: dc-terminal
+    maximum_draw: 12
