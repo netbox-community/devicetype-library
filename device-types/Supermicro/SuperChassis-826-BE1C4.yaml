@@ -1,0 +1,22 @@
+---
+manufacturer: Supermicro
+model: SuperChassis 826BE1C4
+slug: supermicro-superchassis-628be1c4
+part_number: SuperChassis 826BE1C4-R1K23LPB
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: SuperChassis 628BE1C4 (https://www.supermicro.com/en/products/chassis/2u/826/sc826be1c4-r1k23lpb)
+subdevice_role: parent
+weight: 18.1
+weight_unit: kg
+module-bays:
+  - name: PSU0
+    position: PSU 0
+    maximum_draw: 2200
+  - name: PSU1
+    position: PSU 1
+    maximum_draw: 2200
+device-bays:
+  - name: System Board
+    label: System Board
