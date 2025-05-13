@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: ISR4331/K9
+slug: isr4331-k9
+part_number: ISR4331/K9
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  The ISR4331/K9 is a widely used branch router from the Cisco 4000 Series.
+  It provides 3 integrated 1G Ethernet ports, modular WAN interfaces, and up to 100 Mbps encrypted throughput with optional upgrades.
+  Built for secure, high-performance branch connectivity, it supports services like firewall, voice, and WAN optimization.
+  The router includes dual fans, redundant power options, and multiple NIM/SM slots for modular expansion.
+console-ports:
+  - name: con
+    type: rj-45
+  - name: usb-console
+    type: usb-mini-b
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
