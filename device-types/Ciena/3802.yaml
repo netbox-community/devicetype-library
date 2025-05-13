@@ -1,0 +1,26 @@
+---
+manufacturer: Ciena
+model: '3802'
+slug: ciena-3802
+part_number: 170-3802-900
+comments: Ciena 3806 (https://www.ciena.com/__data/assets/pdf_file/0014/23054/3802_DS.pdf)
+u_height: 0
+weight: .5
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: DC 12V
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 3
+  - name: UPS
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 3
+interfaces:
+  - name: XGS-PON
+    type: xgs-pon
+  - name: 10G LAN
+    type: 10gbase-t
+
