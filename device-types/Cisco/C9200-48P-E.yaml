@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: C9200-48P-E
+slug: c9200-48p-e
+part_number: C9200-48P-E
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: |
+  - Catalyst 9200 Series switch with 48x PoE+ ports.
+  - Up to 740W PoE budget.
+  - Includes modular uplink slots for 1G/10G SFPs.
+  - StackWise-160 supported.
+console-ports:
+  - name: con
+    type: rj-45
+  - name: usb-mini
+    type: usb-mini-b
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet1/0/48
+    type: 1000base-t
+  - name: TenGigabitEthernet1/1/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/1/2
+    type: 10gbase-x-sfpp
+  - name: StackWise1
+    type: other
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
