@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: C3560CX-12PD-S
+slug: c3560cx-12pd-s
+part_number: C3560CX-12PD-S
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: |
+  The Cisco Catalyst C3560CX-12PD-S is a compact, fanless, and silent switch with 12x GigE PoE+ ports and 2x SFP uplinks.
+  Designed for quiet environments like open-plan offices and classrooms, it delivers full Layer 3 services in a small form factor.
+  With up to 240W PoE budget, it can power phones, cameras, access points, and thin clients directly.
+console-ports:
+  - name: con
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet1/0/12
+    type: 1000base-t
+  - name: GigabitEthernet1/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/14
+    type: 1000base-x-sfp
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
