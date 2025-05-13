@@ -1,0 +1,37 @@
+---
+manufacturer: Supermicro
+model: SuperServer 5019S-M
+slug: supermicro-sys-5019s-m
+part_number: SYS-5019S-M
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: SuperServer SYS-5019S-M (https://www.supermicro.com/en/products/system/1u/5019/sys-5019s-m.cfm)
+weight: 13.8
+weight_unit: kg
+console-ports:
+  - name: Serial-1
+    type: de-9
+    label: Front
+  - name: Serial-2
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  - name: PSU
+    position: PSU
+    maximum_draw: 400
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x16 slot
+  - name: M.2 1
+    position: '2'
+    description: Form-factors 2280, 22110
