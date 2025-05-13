@@ -26,7 +26,7 @@ console-ports:
     type: usb-micro-b
 interfaces:
   - name: Management
-    type: 1000base-t
+    type: 100base-t
     mgmt_only: true
   - name: '1'
     type: 1000base-t
