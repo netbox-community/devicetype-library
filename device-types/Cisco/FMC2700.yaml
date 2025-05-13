@@ -15,6 +15,11 @@ console-ports:
     label: IOIOI
 front_image: false
 rear_image: false
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: CIMC
     type: 1000base-t
