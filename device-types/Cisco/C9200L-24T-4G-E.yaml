@@ -1,9 +1,11 @@
+---
 manufacturer: Cisco
 model: C9200L-24T-4G-E
 slug: cisco-c9200l-24t-4g-e
 part_number: C9200L-24T-4G-E
 u_height: 1.0
 is_full_depth: false
+subdevice_role: parent
 airflow: front-to-rear
 comments: '[Cisco Catalyst 9200L Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
@@ -14,7 +16,11 @@ interfaces:
   - name: GigabitEthernet1/0/{{ i }}
     type: 1000base-t
 {% endfor %}
-{% for i in range(1, 5) %}
-  - name: GigabitEthernet1/1/{{ i }}
+  - name: GigabitEthernet1/1/1
     type: 1000base-x-sfp
-{% endfor %}
+  - name: GigabitEthernet1/1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/4
+    type: 1000base-x-sfp
