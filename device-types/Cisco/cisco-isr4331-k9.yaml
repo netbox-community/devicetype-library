@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: ISR4331/K9
+slug: cisco-isr4331-k9
+part_number: ISR4331/K9
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+comments: '[Cisco ISR 4331 Datasheet](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78_610542.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+module-bays:
+  - name: NIM0
+    position: 0/NIM0
+    description: Network Interface Module
+  - name: NIM1
+    position: 0/NIM1
+    description: Network Interface Module
+  - name: SM
+    position: 0/SM
+    description: Service Module
