@@ -1,0 +1,18 @@
+---
+manufacturer: SNOM
+model: M700
+slug: snom-m700
+part_number: M700
+comments: '[SNOM M700 Datasheet](https://service.snom.com/download/attachments/234332150/UM_M700_M300_Admin_Guide_de.pdf)'
+is_full_depth: false
+weight: 300
+weight_unit: g
+airflow: passive
+u_height: 0
+interfaces:
+  - name: LAN
+    type: 100base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: DECT
+    type: other
