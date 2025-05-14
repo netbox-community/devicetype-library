@@ -1,0 +1,21 @@
+---
+manufacturer: Cisco
+model: C1000-16T-2G-L
+slug: cisco-c1000-16t-2g-l
+part_number: C1000-16T-2G-L
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Cisco Catalyst 1000 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1000-ser-data-sheet-cte-en.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+{% for i in range(1, 17) %}
+  - name: GigabitEthernet1/0/{{ i }}
+    type: 1000base-t
+{% endfor %}
+  - name: GigabitEthernet1/1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/2
+    type: 1000base-x-sfp
