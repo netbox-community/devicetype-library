@@ -1,0 +1,20 @@
+manufacturer: Cisco
+model: C2960L-48TS-LL
+slug: cisco-c2960l-48ts-ll
+part_number: C2960L-48TS-LL
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Cisco Catalyst 2960-L Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-l-series-switches/nb-06-cat2960-l-series-data-sheet-cte-en.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+{% for i in range(1, 49) %}
+  - name: GigabitEthernet1/0/{{ i }}
+    type: 1000base-t
+{% endfor %}
+{% for i in range(1, 5) %}
+  - name: GigabitEthernet1/1/{{ i }}
+    type: 1000base-x-sfp
+{% endfor %}
