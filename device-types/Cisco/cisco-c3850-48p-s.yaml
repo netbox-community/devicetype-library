@@ -1,0 +1,26 @@
+---
+manufacturer: Cisco
+model: C3850-48P-S
+slug: cisco-c3850-48p-s
+part_number: C3850-48P-S
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+comments: '[Cisco Catalyst 3850 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/data_sheet_c78-720918.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+{% for i in range(1, 49) %}
+  - name: GigabitEthernet1/0/{{ i }}
+    type: 1000base-t
+{% endfor %}
+  - name: GigabitEthernet1/1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/4
+    type: 1000base-x-sfp
