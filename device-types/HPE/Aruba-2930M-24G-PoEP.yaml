@@ -23,9 +23,10 @@ console-ports:
   - name: USB Console
     type: usb-micro-b
 interfaces:
-  - name: Management
+  - name: oobm
     type: 100base-tx
     mgmt_only: true
+    description: Out of Band Management (oobm) interface
   - name: "1"
     type: 1000base-t
     poe_mode: pse
