@@ -1,0 +1,36 @@
+---
+manufacturer: LANCOM
+model: 1781VAW
+slug: lancom-1781vaw
+part_number: 1781VAW
+u_height: 0
+is_full_depth: false
+weight: 600
+weight_unit: g
+front_image: false
+rear_image: false
+comments: '[LANCOM 1781VAW Data sheet](https://www.lancom-systems.de/fileadmin/produkte/lc_1781VAW/1781VAW_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 14
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: VDSL/ADSL
+    type: xdsl
+  - name: ISDN-S0
+    type: 1000base-t
+  - name: WLAN-1
+    type: ieee802.11n
+console-ports:
+  - name: USB
+    type: usb-a
+  - name: com
+    type: mini-din-8
