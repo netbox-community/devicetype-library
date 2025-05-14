@@ -1,0 +1,28 @@
+---
+manufacturer: Zyxel
+model: GS-105B-v3
+slug: zyxel-gs-105b-v3
+part_number: GS-105B-v3
+u_height: 0
+is_full_depth: false
+comments: '[Zyxel GS-105B v3 5-Port Desktop Gigabit Ethernet Switch](https://www.zyxel.com/de/de/products/switch/5-port-desktop-gigabit-ethernet-switch-gs-105b-v3#)'
+weight: 229
+weight_unit: g
+airflow: passive
+front_image: false
+rear_image: false
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
