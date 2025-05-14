@@ -2,20 +2,67 @@
 manufacturer: Cisco
 model: C9200L-24T-4G-E
 slug: cisco-c9200l-24t-4g-e
+description: 'Cisco Catalyst 9200L-24T-4G-E Layer 3 switch with 24×1 GbE RJ45 and 4×1 GbE SFP uplinks'
 part_number: C9200L-24T-4G-E
 u_height: 1.0
 is_full_depth: false
 subdevice_role: parent
 airflow: front-to-rear
-comments: '[Cisco Catalyst 9200L Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
+front_image: true
+comments: |
+  - '[Cisco Catalyst 9200L Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: con0
     type: rj-45
 interfaces:
-{% for i in range(1, 25) %}
-  - name: GigabitEthernet1/0/{{ i }}
+  - name: GigabitEthernet1/0/1
     type: 1000base-t
-{% endfor %}
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+  - name: GigabitEthernet1/0/9
+    type: 1000base-t
+  - name: GigabitEthernet1/0/10
+    type: 1000base-t
+  - name: GigabitEthernet1/0/11
+    type: 1000base-t
+  - name: GigabitEthernet1/0/12
+    type: 1000base-t
+  - name: GigabitEthernet1/0/13
+    type: 1000base-t
+  - name: GigabitEthernet1/0/14
+    type: 1000base-t
+  - name: GigabitEthernet1/0/15
+    type: 1000base-t
+  - name: GigabitEthernet1/0/16
+    type: 1000base-t
+  - name: GigabitEthernet1/0/17
+    type: 1000base-t
+  - name: GigabitEthernet1/0/18
+    type: 1000base-t
+  - name: GigabitEthernet1/0/19
+    type: 1000base-t
+  - name: GigabitEthernet1/0/20
+    type: 1000base-t
+  - name: GigabitEthernet1/0/21
+    type: 1000base-t
+  - name: GigabitEthernet1/0/22
+    type: 1000base-t
+  - name: GigabitEthernet1/0/23
+    type: 1000base-t
+  - name: GigabitEthernet1/0/24
+    type: 1000base-t
   - name: GigabitEthernet1/1/1
     type: 1000base-x-sfp
   - name: GigabitEthernet1/1/2
