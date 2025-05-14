@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out your code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Python 3.9
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 3. Force-reinstall pip (workaround for the RequirementInformation error)
+      - name: Reinstall pip cleanly
+        run: |
+          curl -sS https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+          python get-pip.py --force-reinstall
+
+      # 4. Install project dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip wheel
+          pip install -r requirements.txt
+
+      # 5. (Optional) Lint all YAML files
+      - name: Lint YAML
+        run: |
+          pip install yamllint
+          yamllint .
+
+      # 6. Run the test suite
+      - name: Run pytest
+        run: |
+          pytest --maxfail=1 --disable-warnings -q
