@@ -1,0 +1,31 @@
+---
+manufacturer: D-Link
+model: DES-1005P
+slug: d-link-des-1005p
+part_number: DES-1005P
+comments: '[D-Link DES-1005P](https://www.dlink.com/de/de/-/media/business_products/des/des-1005p/manual/des-1005p_manual_deu.pdf)'
+is_full_depth: false
+weight: 300
+weight_unit: g
+airflow: passive
+u_height: 1
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 17
+interfaces:
+  - name: Port 1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: Port 2
+    type: 100base-tx
+  - name: Port 3
+    type: 100base-tx
+  - name: Port 4
+    type: 100base-tx
+  - name: Port 5
+    type: 100base-tx
