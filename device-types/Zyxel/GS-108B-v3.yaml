@@ -1,0 +1,33 @@
+---
+manufacturer: Zyxel
+model: GS-108B-v3
+slug: zyxel-gs-108b-v3
+part_number: GS-108B-v3
+u_height: 0
+is_full_depth: false
+comments: '[Zyxel GS-108B v3 8-Port Desktop Gigabit Ethernet Switch](https://www.zyxel.com/de/de/products/switch/8-port-desktop-gigabit-ethernet-switch-gs-108b-v3)'
+weight: 325
+weight_unit: g
+airflow: passive
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 3
+    description: 100-240 V AC
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
