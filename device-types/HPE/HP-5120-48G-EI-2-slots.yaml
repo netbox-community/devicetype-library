@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: HP 5120-48G EI Switch
-slug: hpe-hp-5120-48g-ei
-part_number: JE067A
+model: HP 5120-48G EI Switch with 2 Interface Slots
+slug: hpe-hp-5120-48g-ei-2-slots
+part_number: JE069A
 u_height: 1
 is_full_depth: false
 front_image: true
@@ -17,6 +17,11 @@ power-ports:
   - name: PS1
     type: iec-60320-c14
     maximum_draw: 145
+module-bays:
+  - name: port expansion module slot1
+    position: slot1
+  - name: port expansion module slot2
+    position: slot2
 interfaces:
   - name: GigabitEthernet 1/0/1
     type: 1000base-t
