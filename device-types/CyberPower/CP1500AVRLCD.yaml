@@ -5,13 +5,23 @@ slug: cyberpower-cp1500avrlcd
 u_height: 0
 is_full_depth: false
 airflow: passive
-comments: "Intelligent LCD UPS System, Mini-tower, 1500VA/900W, simulated sine wave output."
+comments: >
+  CyberPower CP1500AVRLCD is a mini-tower UPS system with 1500VA/900W capacity,
+  simulated sine wave output, AVR support, and 12 NEMA 5-15R outlets. Ideal for
+  home offices and network protection.
 is_powered: true
 weight: 11.79
 weight_unit: kg
+
 interfaces:
   - name: USB
     type: usb-a
+
+power-ports:
+  - name: AC Input
+    type: nema-5-15p
+    maximum_draw: 900
+
 power-outlets:
   - name: Outlet-1
     type: nema-5-15r
@@ -37,7 +47,3 @@ power-outlets:
     type: nema-5-15r
   - name: Outlet-12 (Surge Only)
     type: nema-5-15r
-power-ports:
-  - name: AC Input
-    type: nema-5-15p
-    maximum_draw: 900
