@@ -15,7 +15,7 @@ power-ports:
     maximum_draw: 2
 interfaces:
   - name: LAN
-    type: 100base-t
+    type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
   - name: DECT
