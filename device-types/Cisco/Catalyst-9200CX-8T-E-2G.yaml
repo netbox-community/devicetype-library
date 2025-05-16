@@ -4,7 +4,7 @@ model: Catalyst 9200CX-8T-E-2G
 slug: cisco-c9200cx-8t-e-2g
 u_height: 1
 is_full_depth: true
-airflow: front-to-rear
+airflow: passive
 comments: >
   Cisco Catalyst 9200CX-8T-E-2G is a compact, fanless Layer 3 switch featuring
   8x 1G copper ports and 2x 1G SFP uplink ports. Ideal for branch and compact
@@ -12,7 +12,6 @@ comments: >
 is_powered: true
 weight: 3.1
 weight_unit: kg
-
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -34,7 +33,6 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/1/2
     type: 1000base-x-sfp
-
 power-ports:
   - name: PSU
     type: iec-60320-c14
