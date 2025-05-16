@@ -5,13 +5,16 @@ slug: ubiquiti-edgerouter-infinity
 part_number: ER-8-XG
 u_height: 1
 is_full_depth: false
+weight: 5.05
+weight_unit: kg
+airflow: side-to-rear
 comments: '[EdgeRouter Infinity](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_ER-8-XG_DS.pdf)'
-power-ports:
+module-bays:
   - name: PSU 1
-    type: iec-60320-c6
+    position: '1'
     maximum_draw: 40
   - name: PSU 2
-    type: iec-60320-c6
+    position: '2'
     maximum_draw: 40
 interfaces:
   - name: eth0
