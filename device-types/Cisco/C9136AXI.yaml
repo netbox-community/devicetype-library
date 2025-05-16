@@ -1,0 +1,36 @@
+---
+manufacturer: Cisco
+model: Catalyst 9136AXI
+slug: cisco-c9136axi
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: >
+  The Cisco Catalyst 9136AXI is a high-performance indoor Wi-Fi 6E access point
+  with tri-band support (2.4 GHz, 5 GHz, and 6 GHz) and integrated environmental
+  sensors. It is ideal for high-density enterprise and campus deployments with
+  advanced RF and client management features.
+is_powered: true
+weight: 1.7
+weight_unit: kg
+
+interfaces:
+  - name: Ethernet 0
+    type: 2.5gbase-t
+  - name: Ethernet 1 (Uplink/PoE)
+    type: 5gbase-t
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+power-ports:
+  - name: PoE In
+    type: poe
+
+inventory-items:
+  - name: Environmental Sensor
+    label: Temp/Humidity Sensor
+    manufacturer: Cisco
+    part_id: C9136-ENV
+
