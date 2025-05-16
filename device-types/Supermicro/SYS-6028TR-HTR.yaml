@@ -1,0 +1,28 @@
+---
+manufacturer: Supermicro
+model: SuperServer 6028TR-HTR
+slug: supermicro-sys-6028tr-htr
+part_number: SYS-6028TR-HTR
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: SuperServer 6028TR-HTR (https://www.supermicro.com/en/products/system/2u/6028/sys-6028tr-htr.cfm)
+subdevice_role: parent
+weight: 38.6
+weight_unit: kg
+module-bays:
+  - name: PSU0
+    position: PSU 0
+    maximum_draw: 2200
+  - name: PSU1
+    position: PSU 1
+    maximum_draw: 2200
+device-bays:
+  - name: Node 1
+    label: Compute Node 1
+  - name: Node 2
+    label: Compute Node 2
+  - name: Node 3
+    label: Compute Node 3
+  - name: Node 4
+    label: Compute Node 4
