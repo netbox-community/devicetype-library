@@ -2,18 +2,23 @@
 manufacturer: Cisco
 model: C9200L-24T-4G-E
 slug: cisco-c9200l-24t-4g-e
-description: 'Cisco Catalyst 9200L-24T-4G-E Layer 3 switch with 24×1 GbE RJ45 and 4×1 GbE SFP uplinks'
+description: Cisco Catalyst 9200L-24T-4G-E Layer 3 switch with 24x1 GbE RJ45 and 4x1 GbE SFP uplinks
 part_number: C9200L-24T-4G-E
 u_height: 1.0
 is_full_depth: false
-subdevice_role: parent
 airflow: front-to-rear
-front_image: true
+weight: 4.3
+weight_unit: kg
 comments: |
   - '[Cisco Catalyst 9200L Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: con0
     type: rj-45
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
