@@ -1,0 +1,31 @@
+---
+manufacturer: HPE
+model: StoreEver MSL3040
+slug: hpe-storeever-msl3040
+part_number: Q6Q62C
+u_height: 3
+is_full_depth: true
+weight: 25.1
+weight_unit: kg
+airflow: front-to-rear
+comments: HPE StoreEver MSL3040, 40 LTO cartridge slots, 3 LTO Drives FC/SAS, 2 PSU Base module, extendable
+console-ports:
+  - name: console
+    type: rj-45
+  - name: console usb
+    type: usb-a
+module-bays:
+  - name: LTO_Drive_1
+    position: '1'
+  - name: LTO_Drive_2
+    position: '2'
+  - name: LTO_Drive_3
+    position: '3'
+  - name: PSU1
+    position: '4'
+  - name: PSU2
+    position: '5'
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

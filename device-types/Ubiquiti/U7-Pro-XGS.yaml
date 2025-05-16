@@ -1,0 +1,52 @@
+---
+manufacturer: Ubiquiti
+model: U7 Pro XGS
+part_number: U7-Pro-XGS
+slug: ubiquiti-u7-pro-xgs
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: Port 1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+  - name: WLAN 0
+    type: ieee802.11n
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 688 Mbps (BW40), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 4 dBi
+  - name: WLAN 1
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 8.6 Gbps (BW240), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 29 dBm, Antenna Gain: 6 dBi
+  - name: WLAN 2
+    type: ieee802.11ax
+    label: 6 GHz (WiFi 6E)
+    description: |
+      Max Data Rate: 5.8 Gbps (BW320), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 24 dBm, Antenna Gain: 6 dBi
+  - name: WLAN 3
+    type: ieee802.11be
+    label: 5 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 8.6 Gbps (BW240), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 29 dBm, Antenna Gain: 6 dBi
+  - name: WLAN 4
+    type: ieee802.11be
+    label: 6 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 5.8 Gbps (BW320), MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 24 dBm, Antenna Gain: 6 dBi
+front_image: true
+rear_image: true
+comments: |
+  [U7 Pro XGS](https://techspecs.ui.com/unifi/wifi/u7-pro-xgs)
+
+  Ceiling-mounted 8-stream WiFi 7 AP with dedicated spectral scanning radio and 10/5/2.5/1 GbE support.
+
+  Dimensions: diameter 215 x 32.5 mm (diameter 8.5 x 1.3")
+  Max. Power Consumption: 29W
+  Weight: 800 g (1.8 lb)
+  Certifications: CE, FCC, IC
