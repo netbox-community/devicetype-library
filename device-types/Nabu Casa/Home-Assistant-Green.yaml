@@ -1,0 +1,26 @@
+---
+manufacturer: Nabu Casa
+model: Home Assistant Green
+slug: nabu-casa-home-assistant-green
+part_number: NC-GREEN-1175
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+airflow: passive
+weight: 340
+weight_unit: g
+comments: |
+  [Website](https://www.home-assistant.io/green) [Quick Start Guide](https://support.nabucasa.com/hc/en-us/articles/26536395793053-Home-Assistant-Green-Quick-Start-Guide)
+  [Datasheet](https://support.nabucasa.com/hc/en-us/articles/26536174437661-Home-Assistant-Green-Datasheet)
+power-ports:
+  - name: DC Barrel Jack
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 3
+    description: DC barrel connector, 5.5 mm * 2.1 mm 12 V DC, 1 A, center-positive
+interfaces:
+  - name: Gigabit Ethernet
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
