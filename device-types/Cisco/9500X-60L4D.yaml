@@ -1,0 +1,38 @@
+---
+manufacturer: Cisco
+model: Catalyst 9500X-60L4D
+slug: cisco-c9500x-60l4d
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: >
+  Cisco Catalyst 9500X-60L4D is a high-performance 1RU core and aggregation
+  layer switch designed for enterprise and data center deployments.
+  It features 60x 1/10/25G multi-rate SFP28 ports and 4x 40/100G QSFP28 uplinks,
+  running Cisco IOS XE and supporting advanced routing, segmentation, and telemetry.
+is_powered: true
+weight: 9.2
+weight_unit: kg
+
+interfaces:
+  # 60 x 1G/10G/25G SFP28 ports
+{% for i in range(1, 61) %}
+  - name: TenGigabitEthernet1/0/{{ i }}
+    type: 25gbase-x-sfp28
+{% endfor %}
+
+  # 4 x 40G/100G QSFP28 uplink ports
+  - name: FortyGigE1/0/1
+    type: 100gbase-x-qsfp28
+  - name: FortyGigE1/0/2
+    type: 100gbase-x-qsfp28
+  - name: FortyGigE1/0/3
+    type: 100gbase-x-qsfp28
+  - name: FortyGigE1/0/4
+    type: 100gbase-x-qsfp28
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c16
+  - name: PSU2
+    type: iec-60320-c16
