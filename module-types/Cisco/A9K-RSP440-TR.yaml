@@ -2,7 +2,8 @@
 manufacturer: Cisco
 model: A9K-RSP440-TR
 part_number: A9K-RSP440-TR
-comments: '[RSP-440 and RSP-440 Lite Front Panel and Access Ports](https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/overview-reference/b-asr9k-overview-reference-guide/b-asr9k-overview-reference-guide_chapter_01.html#con_829467)'
+description: ASR9K Route Switch Processor with 440G/slot Fabric and 6GB
+comments: '[Cisco ASR 9000 Series Route Switch Processor 440 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-674143.html)'
 interfaces:
   - name: MgmtEth0/RSP{module}/CPU0/0
     type: 1000base-t
@@ -12,21 +13,21 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     comments: Out-of-Band Management Interface
-  - name: External USB2 class-A port
+  - name: External USB2 class-A port{module}
     type: other
     mgmt_only: true
-  - name: SFP+_00_10GE
+  - name: SFP+_00_10GE{module}
     type: 10gbase-x-sfpp
     comments: Virtualization Cluster Port
     mgmt_only: true
-  - name: SFP+_01_10GE
+  - name: SFP+_01_10GE{module}
     type: 10gbase-x-sfpp
     mgmt_only: true
     comments: Virtualization Cluster Port
 console-ports:
-  - name: Console
+  - name: console{module}
     type: rj-45
     mgmt_only: true
-  - name: Auxiliary
+  - name: Auxiliary{module}
     type: rj-45
     mgmt_only: true
