@@ -1,0 +1,59 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR665 V3
+slug: lenovo-thinksystem-sr665-v3
+part_number: 7D9x
+u_height: 2
+is_full_depth: true
+comments: '[Lenovo System SR665 V3 product guide](https://lenovopress.lenovo.com/lp1608-thinksystem-sr665-v3-server)'
+subdevice_role: parent
+airflow: front-to-rear
+weight: 38.8
+weight_unit: kg
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: OCP slot 1
+    position: OCP-1
+  - name: Riser 1 - PCIe slot 1
+    position: PCIe-1
+    label: 1 PCIe
+  - name: Riser 1 - PCIe slot 2
+    position: PCIe-2
+    label: 2 PCIe
+  - name: Riser 1 - PCIe slot 3
+    position: PCIe-3
+    label: 3 PCIe
+  - name: Riser 2 - PCIe slot 4
+    position: PCIe-4
+    label: 4 PCIe
+  - name: Riser 2 - PCIe slot 5
+    position: PCIe-5
+    label: 5 PCIe
+  - name: Riser 2 - PCIe slot 6
+    position: PCIe-6
+    label: 6 PCIe
+  - name: Riser 3 - PCIe slot 7
+    position: PCIe-7
+    label: 7 PCIe
+  - name: Riser 3 - PCIe slot 8
+    position: PCIe-8
+    label: 8 PCIe
+  - name: Riser 4 - PCIe slot 9
+    position: PCIe-9
+    label: 9 PCIe
+  - name: Riser 4 - PCIe slot 10
+    position: PCIe-10
+    label: 10 PCIe
+  - name: Front Riser 1 - PCIe slot 11
+    position: PCIe-11
+    label: 11 PCIe
+  - name: Front Riser 1 - PCIe slot 12
+    position: PCIe-12
+    label: 12 PCIe
