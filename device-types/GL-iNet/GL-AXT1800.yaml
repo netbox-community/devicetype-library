@@ -1,0 +1,30 @@
+---
+manufacturer: GL-iNet
+model: GL-AXT1800
+slug: gl-inet-gl-axt1800
+part_number: GL-AXT1800
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 245
+weight_unit: g
+comments: '[GL-iNet GL-AXT1800](https://www.gl-inet.com/products/gl-axt1800/)'
+front_image: true
+rear_image: true
+power-ports:
+  - name: External Power Adapter
+    type: usb-c
+    maximum_draw: 9
+interfaces:
+  - name: Port 1
+    label: LAN1
+    type: 1000base-t
+  - name: Port 2
+    label: LAN2
+    type: 1000base-t
+  - name: Port 3
+    label: WAN
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ax
+    comments: IEEE 802.11a/b/g/n/ac/ax

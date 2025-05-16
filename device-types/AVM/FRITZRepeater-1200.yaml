@@ -1,0 +1,19 @@
+---
+manufacturer: AVM
+model: FRITZ!Repeater 1200
+slug: avm-fritzrepeater-1200
+part_number: '20002854'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Repeater 1200 Handbuch](https://assets.avm.de/files/docs/fritzwlan/fritzrepeater-1200/fritzrepeater-1200_man_de_DE.pdf)'
+power-ports:
+  - name: Power
+    type: ita-c
+    maximum_draw: 4
+interfaces:
+  - name: LAN
+    label: LAN
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac

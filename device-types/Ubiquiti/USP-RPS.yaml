@@ -5,13 +5,17 @@ slug: ubiquiti-unifi-smartpower-rps
 airflow: front-to-rear
 part_number: USP-RPS
 comments: |
-  [UniFi Power Backup](https://store.ui.com/products/usp-rps)
+  [UniFi Power Backup Techspecs](https://techspecs.ui.com/unifi/power-tech/usp-rps)
 
   950W backup power unit that provides full redundancy for rack-mounted UniFi devices.
 
   Dimensions: 442.4 x 43.7 x 325.6 mm (17.42 x 1.72 x 12.82")
 u_height: 1
+weight: 12.3
+weight_unit: lb
 is_full_depth: false
+front_image: true
+rear_image: true
 interfaces:
   - name: Port 1
     type: 1000base-t

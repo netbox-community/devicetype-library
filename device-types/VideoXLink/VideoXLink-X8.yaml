@@ -1,0 +1,83 @@
+---
+manufacturer: VideoXLink
+model: X8
+slug: videoxlink-x8
+part_number: VideoXLink X8
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 3.4
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  VideoXLink X8 is the ultimate low latency production solution, suited for remote production usage in
+  the field or being installed in a production studio, thanks to its 19" size and rack mount kit. By having 8
+  3G-SDI bidirectional ports, the X8 can be used as a flexible solution, turning inputs to outputs and vice
+  versa. X8 is also capable of encoding/decoding NDI, adding even more channels than the 8 SDI ports.
+
+  X8 is equipped with 10 ethernet interface cards, offering speeds between 1 Gbit/s and 25 Gbit/s. All 10
+  ports are available for usage in the VideoXLink application, making it possible for using several backup
+  connections, layer 2 trunks or high-speed connections to the local network when using NDI network
+  streams.
+
+  [Datasheet](https://www.videoxlink.com/downloads/videoxlink_datasheet_x8.pdf)
+power-ports:
+  - name: POWER1
+    type: iec-60320-c14
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '0'
+  - name: ETH1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '1'
+  - name: ETH2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '2'
+  - name: ETH3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '3'
+  - name: ETH4
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: '4'
+  - name: ETH5
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: '5'
+  - name: ETH6
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+    label: '6'
+  - name: ETH7
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+    label: '7'
+  - name: ETH8
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: '8'
+  - name: ETH9
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: '9'
+  - name: MGMT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: MGMT

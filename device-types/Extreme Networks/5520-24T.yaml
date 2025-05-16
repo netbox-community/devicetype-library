@@ -5,13 +5,17 @@ slug: extreme-networks-5520-24t
 part_number: 5520-24T
 u_height: 1
 is_full_depth: true
-subdevice_role: parent
+weight: 5.54
+weight_unit: kg
 console-ports:
-  - name: Console_RJ45
+  - name: RJ45
     type: rj-45
-  - name: Console_USB
+  - name: USB
     type: usb-micro-b
 interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
   - name: '1'
     type: 1000base-t
   - name: '2'
@@ -60,26 +64,16 @@ interfaces:
     type: 1000base-t
   - name: '24'
     type: 1000base-t
-  - name: '25'
-    type: 25gbase-x-sfp28
-  - name: '26'
-    type: 25gbase-x-sfp28
-  - name: '27'
-    type: other
-    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-  - name: '28'
-    type: other
-    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-  - name: '29'
-    type: other
-    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-  - name: '30'
-    type: other
-    description: either Stacking-Ports or additional SFP+; only with VIM-2 module
-  - name: Mgmt
-    type: 1000base-t
-    mgmt_only: true
+  - name: U1
+    type: 100gbase-x-qsfp28
+    description: Connects at 1x40Gb, 2x 50Gb, 4x 25Gb, or 4x 10Gb, but not 1x 100Gb.  Or use for stacking.
+  - name: U2
+    type: 100gbase-x-qsfp28
+    description: Connects at 1x40Gb, 2x 50Gb, 4x 25Gb, or 4x 10Gb, but not 1x 100Gb.  Or use for stacking.
 module-bays:
   - name: PSU-1
+    position: '1'
   - name: PSU-2
-  - name: VIM-2
+    position: '2'
+  - name: VIM
+    position: VIM

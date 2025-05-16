@@ -1,0 +1,103 @@
+---
+manufacturer: Ubiquiti
+model: Power Distribution Pro
+slug: ubiquiti-usp-pdu-pro
+part_number: USP-PDU-Pro
+u_height: 2
+is_full_depth: false
+comments: |
+  [Power Distribution Pro](https://store.ui.com/products/usp-pdu-pro)
+
+  2U rack-mounted power distribution unit with (16) controllable power outlets, (4) USB-C ports, and (4) Ethernet ports for monitoring and control.
+
+  Dimensions: 442.4 x 87.4 x 106 mm (17.4 x 3.4 x 4.2")
+airflow: passive
+weight: 3.7
+weight_unit: kg
+interfaces:
+  - name: Port 21
+    type: 100base-tx
+    label: Main Internet
+    mgmt_only: true
+  - name: Port 22
+    type: 1000base-t
+    label: Reserved for future use
+    mgmt_only: true
+  - name: Port 23
+    type: 1000base-t
+    label: Reserved for future use
+    mgmt_only: true
+  - name: Port 24
+    type: 1000base-t
+    label: Reserved for future use
+    mgmt_only: true
+power-ports:
+  - name: Input
+    type: nema-5-15p
+    maximum_draw: 1875
+    description: 125V AC, 15A Max., 50/60 Hz
+power-outlets:
+  # USB-C Ports
+  - name: Outlet 1
+    type: usb-c
+    power_port: Input
+  - name: Outlet 2
+    type: usb-c
+    power_port: Input
+  - name: Outlet 3
+    type: usb-c
+    power_port: Input
+  - name: Outlet 4
+    type: usb-c
+    power_port: Input
+  # Power Control Outlets (Top Row: Ports 5-16)
+  - name: Outlet 5
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 6
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 7
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 8
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 9
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 10
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 11
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 12
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 13
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 14
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 15
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 16
+    type: nema-5-15r
+    power_port: Input
+  # Power Control Outlets (Bottom Row: Ports 17-20)
+  - name: Outlet 17
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 18
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 19
+    type: nema-5-15r
+    power_port: Input
+  - name: Outlet 20
+    type: nema-5-15r
+    power_port: Input
+front_image: true

@@ -3,16 +3,19 @@ manufacturer: Ubiquiti
 model: UniFi Switch Enterprise 24 PoE
 slug: ubiquiti-unifi-switch-enterprise-24-poe
 part_number: USW-Enterprise-24-PoE
-comments: 'UniFi Switch Enterprise 24 PoE (150W + max. 400W PoE), (12) 2.5 Gigabit PoE+ IEEE 802.3af/at, (12) 1 Gigabit PoE+ IEEE 802.3af/at, (2) SFP+\nDimensions:
-  442.4 x 43.7 x 325 mm (17.4 x 1.7 x 12.8")\n[Switch Enterprise 24 PoE Datasheet](https://dl.ui.com/ds/usw-enterprise-24-poe_ds)'
+comments: |
+  UniFi Switch Enterprise 24 PoE (150W + max. 400W PoE), (12) 2.5 Gigabit PoE+ IEEE 802.3af/at, (12) 1 Gigabit PoE+ IEEE 802.3af/at, (2) SFP+
+
+  Dimensions: 442.4 x 43.7 x 325 mm (17.4 x 1.7 x 12.8")
+
+  [Switch Enterprise 24 PoE Techspecs](https://techspecs.ui.com/unifi/switching/usw-enterprise-24-poe)
 u_height: 1
 is_full_depth: false
-weight: 11.46
+front_image: true
+rear_image: true
+weight: 11.5
 weight_unit: lb
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 550
+airflow: front-to-rear
 interfaces:
   - name: Port 1
     type: 1000base-t
@@ -114,3 +117,10 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: SFP+ 26
     type: 10gbase-x-sfpp
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 460
+  - name: USP-RPS connector for PSU failover
+    type: ubiquiti-smartpower
+    maximum_draw: 460

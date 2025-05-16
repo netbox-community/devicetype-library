@@ -1,0 +1,43 @@
+---
+manufacturer: Ubiquiti
+model: E7 Audience US
+part_number: E7-Audience-US
+slug: ubiquiti-e7-audience-us
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  High-performance WiFi 7 access point with dual-band 5 GHz and 6 GHz connectivity, high selectivity PRISM RF filtering technology, and support for 1,500+ clients.
+  Dimensions: 18.7 x 10.5 x 1.7 in (Device), 5.9 x 4.5 x 4.9 in (Bracket)
+  Weight: 7.3 lb (Without mount), 9.5 lb (With mount)
+  Certifications: FCC, IC
+  [UniFi E7 Audience US Techspecs](https://techspecs.ui.com/unifi/wifi/e7-audience-us)
+weight: 7.3
+weight_unit: lb
+front_image: true
+interfaces:
+  - name: Port 1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    mgmt_only: false
+  - name: WLAN 0
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 8.6 Gbps (BW240), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 30 dBm, Antenna Gain: 15 dBi (Small Cell), 11 dBi (Large Cell)
+  - name: WLAN 1
+    type: ieee802.11be
+    label: 6 GHz (WiFi 7)
+    description: |
+      Max Data Rate: 11.5 Gbps (BW320), MIMO: 4x4 (DL/UL MU-MIMO), Max TX Power: 30 dBm (36 dBm EIRP with Extended Range), Antenna Gain: 15 dBi (Small Cell), 11 dBi (Large Cell)
+  - name: WLAN 2
+    type: other-wireless
+    label: Spectral Analyzer
+    description: |
+      Dedicated spectral analysis radio for interference mitigation and spectrum monitoring.

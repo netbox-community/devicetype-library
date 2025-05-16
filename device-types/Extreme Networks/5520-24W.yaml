@@ -1,0 +1,127 @@
+---
+manufacturer: Extreme Networks
+model: 5520-24W
+slug: extreme-networks-5520-24w
+part_number: 5520-24W
+u_height: 1
+is_full_depth: true
+weight: 6.25
+weight_unit: kg
+console-ports:
+  - name: RJ45
+    type: rj-45
+  - name: USB
+    type: usb-micro-b
+interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '5'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '6'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '7'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '8'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '9'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '10'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '11'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '12'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '13'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '14'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '15'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '16'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '17'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '18'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '19'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '20'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '21'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '22'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '23'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: '24'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: U1
+    type: 100gbase-x-qsfp28
+    description: Connects at 1x40Gb, 2x 50Gb, 4x 25Gb, or 4x 10Gb, but not 1x 100Gb.  Or use for stacking.
+  - name: U2
+    type: 100gbase-x-qsfp28
+    description: Connects at 1x40Gb, 2x 50Gb, 4x 25Gb, or 4x 10Gb, but not 1x 100Gb.  Or use for stacking.
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'
+  - name: VIM
+    position: VIM

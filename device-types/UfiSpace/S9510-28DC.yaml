@@ -1,0 +1,116 @@
+---
+manufacturer: UfiSpace
+model: S9510-28DC
+slug: ufispace-s9510-28dc
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.9
+weight_unit: kg
+comments: '[UfiSpace S9510-28DC Data Sheet](https://www.ufispace.com/files/1r/UfiSpace-Disaggregated-Cell-Site-Gateway-S9510-28DC-Datasheet.pdf)'
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: cd0
+    label: '0'
+    type: 400gbase-x-qsfpdd
+  - name: cd1
+    label: '1'
+    type: 400gbase-x-qsfpdd
+  - name: ce2
+    label: '2'
+    type: 100gbase-x-qsfp28
+  - name: ce3
+    label: '3'
+    type: 100gbase-x-qsfp28
+  - name: xe4
+    label: '4'
+    type: 25gbase-x-sfp28
+  - name: xe5
+    label: '5'
+    type: 25gbase-x-sfp28
+  - name: xe6
+    label: '6'
+    type: 25gbase-x-sfp28
+  - name: xe7
+    label: '7'
+    type: 25gbase-x-sfp28
+  - name: xe8
+    label: '8'
+    type: 25gbase-x-sfp28
+  - name: xe9
+    label: '9'
+    type: 25gbase-x-sfp28
+  - name: xe10
+    label: '10'
+    type: 25gbase-x-sfp28
+  - name: xe11
+    label: '11'
+    type: 25gbase-x-sfp28
+  - name: xe12
+    label: '12'
+    type: 25gbase-x-sfp28
+  - name: xe13
+    label: '13'
+    type: 25gbase-x-sfp28
+  - name: xe14
+    label: '14'
+    type: 25gbase-x-sfp28
+  - name: xe15
+    label: '15'
+    type: 25gbase-x-sfp28
+  - name: xe16
+    label: '16'
+    type: 25gbase-x-sfp28
+  - name: xe17
+    label: '17'
+    type: 25gbase-x-sfp28
+  - name: xe18
+    label: '18'
+    type: 25gbase-x-sfp28
+  - name: xe19
+    label: '19'
+    type: 25gbase-x-sfp28
+  - name: xe20
+    label: '20'
+    type: 25gbase-x-sfp28
+  - name: xe21
+    label: '21'
+    type: 25gbase-x-sfp28
+  - name: xe22
+    label: '22'
+    type: 25gbase-x-sfp28
+  - name: xe23
+    label: '23'
+    type: 25gbase-x-sfp28
+  - name: xe24
+    label: '24'
+    type: 25gbase-x-sfp28
+  - name: xe25
+    label: '25'
+    type: 25gbase-x-sfp28
+  - name: xe26
+    label: '26'
+    type: 25gbase-x-sfp28
+  - name: xe27
+    label: '27'
+    type: 25gbase-x-sfp28
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Power Supply 0
+    position: PSU0
+  - name: Power Supply 1
+    position: PSU1
+  - name: Fan tray 0
+    position: '0'
+  - name: Fan tray 1
+    position: '1'
+  - name: Fan tray 2
+    position: '2'
+  - name: Fan tray 3
+    position: '3'
+  - name: Fan tray 4
+    position: '4'

@@ -1,0 +1,14 @@
+---
+manufacturer: Juniper
+model: JPSU-150-AC-AFI
+part_number: 640-060604
+comments: |
+  EX Series 150 W AC power supply (back-to-front airflow)
+  Compatible with
+  * EX3400 non-PoE models
+  * EX4100 non-PoE models
+  [Juniper EX4100 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/switches/ex4100-line-of-ethernet-switches-datasheet.pdf)
+power-ports:
+  - name: Power Supply {module}
+    type: iec-60320-c14
+    maximum_draw: 150

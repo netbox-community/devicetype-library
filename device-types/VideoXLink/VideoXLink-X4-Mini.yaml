@@ -1,0 +1,55 @@
+---
+manufacturer: VideoXLink
+model: X4 Mini
+slug: videoxlink-x4-mini
+part_number: VideoXLink X4 Mini
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 2.3
+weight_unit: kg
+front_image: false
+rear_image: false
+comments: |
+  VideoXLink X4 Mini is the ultimate low latency production solution, suited for remote production usage
+  in the field or being installed in a production studio, thanks to its 19" size and rack mount kit. By having
+  4 3G-SDI bidirectional ports, the X4 Mini can be used as a flexible solution, turning inputs to outputs
+  and vice versa. X4 Mini is also capable of encoding/decoding NDI, adding even more channels than
+  the 4 SDI ports.
+
+  X4 Mini is equipped with 4 ethernet interface cards, offering speeds between 1 Gbit/s to 10 Gbit/s and
+  up to 25 Gbit/s with the optional 25 Gbit/s nic. All 4 ports are available for usage in the VideoXLink
+  application, making it possible for using several backup connections, layer 2 trunks or high-speed
+  connections to the local network when using NDI network streams.
+
+  [Datasheet](https://www.videoxlink.com/downloads/videoxlink_datasheet_x4m.pdf)
+power-ports:
+  - name: POWER1
+    type: dc-terminal
+    description: XLR 12V
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '0'
+  - name: ETH1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    label: '1'
+  - name: ETH2
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+    label: '2'
+  - name: ETH3
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+    label: '3'
+  - name: MGMT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: MGMT

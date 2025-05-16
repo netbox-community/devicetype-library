@@ -1,0 +1,35 @@
+---
+manufacturer: Fortinet
+model: FortiAnalyzer 3700G
+slug: fortinet-faz-3700g
+part_number: FAZ-3700G
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+weight: 53.5
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: '[FortiAnalyzer datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortianalyzer.pdf), [FortiAnalyzer 3700G QuickStart
+  Guide](https://docs.fortinet.com/document/fortianalyzer/hardware/fortianalyzer-3700g-quickstart-guide)'
+console-ports:
+  - name: Console
+    type: de-9
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    description: Do not use. Please change the default password.
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28

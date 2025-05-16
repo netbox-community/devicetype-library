@@ -60,6 +60,12 @@
                 "$ref": "urn:devicetype-library:components#/definitions/rear-port"
             }
         },
+        "module-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/module-bay"
+            }
+        },
         "description": {
             "type": "string"
         },

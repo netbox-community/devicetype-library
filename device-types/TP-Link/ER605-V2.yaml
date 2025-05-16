@@ -1,0 +1,34 @@
+---
+manufacturer: TP-Link
+model: ER605-V2
+slug: tp-link-er605-v2
+part_number: TL-R605
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 0.68
+weight_unit: kg
+comments: '[TP-Link ER605 Datasheet](https://www.omadanetworks.com/pl/business-networking/omada-router-wired-router/er605/#specifications)'
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 8
+interfaces:
+  - name: LAN 4
+    type: 1000base-t
+    enabled: true
+  - name: LAN 5
+    type: 1000base-t
+    enabled: true
+  - name: WAN 1
+    type: 1000base-t
+    enabled: true
+  - name: WAN/LAN 2
+    type: 1000base-t
+    enabled: true
+  - name: WAN/LAN 3
+    type: 1000base-t
+    enabled: true

@@ -1,0 +1,26 @@
+---
+manufacturer: TP-Link
+model: ER7206
+slug: tp-link-er7206
+part_number: ER7206
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 0.9
+weight_unit: kg
+comments: '[TP-Link ER7206 Datasheet](https://www.tp-link.com/us/business-networking/omada-sdn-router/er7206/#specifications)'
+power-ports:
+  - name: power
+    type: iec-60320-c6
+    maximum_draw: 9
+interfaces:
+  - name: sfp-wan/lan1
+    type: 1000base-x-sfp
+  - name: wan2
+    type: 1000base-t
+  - name: wan/lan3
+    type: 1000base-t
+  - name: wan/lan4
+    type: 1000base-t
+  - name: wan/lan5
+    type: 1000base-t

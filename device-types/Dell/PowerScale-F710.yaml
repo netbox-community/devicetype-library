@@ -1,0 +1,45 @@
+---
+manufacturer: Dell
+model: PowerScale F710
+slug: dell-powerscale-f710
+comments: |
+  [Dell PowerScale F710 Specification Sheet](https://www.delltechnologies.com/asset/en-us/products/storage/technical-support/h15963-ss-powerscale-all-flash-nodes.pdf)
+  [Dell PowerScale All-Flash F710 Overview](https://infohub.delltechnologies.com/en-us/l/powerscale-all-flash-f210-f710-f910/overview-5806/)
+description: All-Flash NAS Platform
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 22.5
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: de-9
+module-bays:
+  - name: PSU-1
+    position: '1'
+  - name: PSU-2
+    position: '2'
+interfaces:
+  - name: mgmt-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt-2
+    type: 1000base-t
+    mgmt_only: true
+  - name: idrac-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: 100gige-front-end-1
+    type: 100gbase-x-qsfp28
+    description: Front End Interface (Front End Networking)
+  - name: 100gige-front-end-2
+    type: 100gbase-x-qsfp28
+    description: Front End Interface (Front End Networking)
+  - name: 100gige-back-end-1
+    type: 100gbase-x-qsfp28
+    description: Backend Interface (Infrastructure Networking)
+  - name: 100gige-back-end-2
+    type: 100gbase-x-qsfp28
+    description: Backend Interface (Infrastructure Networking)

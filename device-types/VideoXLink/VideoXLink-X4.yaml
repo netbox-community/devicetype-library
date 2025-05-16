@@ -1,0 +1,53 @@
+---
+manufacturer: VideoXLink
+model: X4
+slug: videoxlink-x4
+part_number: VideoXLink X4
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 3.4
+weight_unit: kg
+front_image: true
+rear_image: false
+comments: |
+  VideoXLink X4 UHD is the ultimate low latency production solution, suited for remote production usage
+  in the field or being installed in a production studio, thanks to its 19" size and rack mount kit. By having
+  4 12G-SDI bidirectional ports, the X4 can be used as a flexible solution, turning inputs to outputs and
+  vice versa. X4 is also capable of encoding/decoding NDI, adding even more channels than the 4 SDI.
+
+  X4 is equipped with 4 ethernet interface cards, offering speeds between 1 Gbit/s to 10 Gbit/s and up to
+  25 Gbit/s. All 4 ports are available for usage in the VideoXLink application, making it possible for using
+  several backup connections, layer 2 trunks or high-speed connections to the local network when using
+  NDI network streams.
+
+  [Datasheet](https://www.videoxlink.com/downloads/videoxlink_datasheet_x4.pdf)
+power-ports:
+  - name: POWER1
+    type: iec-60320-c14
+interfaces:
+  - name: ETH0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: '0'
+  - name: ETH1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    label: '1'
+  - name: ETH2
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: '2'
+  - name: ETH3
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: '3'
+  - name: MGMT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: MGMT

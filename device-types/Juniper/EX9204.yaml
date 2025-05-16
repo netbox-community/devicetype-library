@@ -4,17 +4,21 @@ model: EX9204
 slug: juniper-ex9204
 u_height: 5
 is_full_depth: true
-subdevice_role: parent
 comments: '[Juniper EX9204 Data Sheet](https://www.juniper.net/us/en/local/pdf/datasheets/1000432-en.pdf)'
-console-ports:
-  - name: Console-RE0
-    type: rj-45
-power-ports:
+module-bays:
+  - name: SF0
+    position: '0'
+  - name: SF1/LC0
+    position: 1|0
+  - name: LC1
+    position: '1'
+  - name: LC2
+    position: '2'
   - name: PSU0
-    type: iec-60320-c20
+    position: '0'
   - name: PSU1
-    type: iec-60320-c20
+    position: '1'
   - name: PSU2
-    type: iec-60320-c20
+    position: '2'
   - name: PSU3
-    type: iec-60320-c20
+    position: '3'

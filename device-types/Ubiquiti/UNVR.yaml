@@ -3,23 +3,27 @@ manufacturer: Ubiquiti
 model: UniFi Protect Network Video Recorder
 slug: ubiquiti-unifi-protect-network-video-recorder
 part_number: UNVR
+airflow: front-to-rear
 comments: |
-  Network Video Recorder with four bays,
+  Network Video Recorder with four bays.
 
   Dimensions: 442.4 x 325 x 43.7 mm (17.4 x 12.8 x 1.7")
+  [UniFi Protect Network Video Recorder Techspecs](https://techspecs.ui.com/unifi/cameras-nvrs/unvr)
 u_height: 1
-is_full_depth: true
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 11.5
+weight_unit: lb
 interfaces:
   - name: LAN 1
     type: 1000base-t
   - name: SFP+ 2 (LAN)
     type: 10gbase-x-sfpp
 power-ports:
-  - name: Supply
+  - name: Input
     type: iec-60320-c14
     maximum_draw: 100
   - name: USP-RPS connector for PSU failover
-    # TODO: There is no proper DC "terminalblock" connection type defined
-    type: iec-60320-c20
-    # USP-RPS DC input, 11.5VDC, 10.43A
+    type: ubiquiti-smartpower
     maximum_draw: 100

@@ -31,7 +31,4 @@ power-outlets:
     power_port: Source
 module-bays:
   - name: SmartSlot
-interfaces:
-  - name: Ethernet
-    type: 1000base-t
-    mgmt_only: true
+    position: SmartSlot

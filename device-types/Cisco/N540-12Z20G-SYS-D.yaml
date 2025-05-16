@@ -3,83 +3,83 @@ manufacturer: Cisco
 model: N540-12Z20G-SYS-D
 slug: cisco-n540-12z20g-sys-d
 part_number: N540-12Z20G-SYS-D
-is_full_depth: false
-airflow: front-to-rear
 u_height: 1
+is_full_depth: false
+weight: 5.9
+weight_unit: kg
+airflow: front-to-rear
 power-ports:
-  - name: PSU0
+  - name: PM0
     type: dc-terminal
-    maximum_draw: 250
-  - name: PSU1
-    type: dc-terminal
-    maximum_draw: 250
 console-ports:
-  - name: Console
+  - name: con0
     type: rj-45
-  - name: usb-console
-    type: usb-a
+    description: 'Serial Console port, default: Baud rate (TX/RX) is 115200, "No" Parity, 2 stopbits, 8 databits'
 interfaces:
-  - name: Gi0/0/0/0
+  - name: GigabitEthernet0/0/0/0
     type: 1000base-x-sfp
-  - name: Gi0/0/0/1
+  - name: GigabitEthernet0/0/0/1
     type: 1000base-x-sfp
-  - name: Gi0/0/0/2
+  - name: GigabitEthernet0/0/0/2
     type: 1000base-x-sfp
-  - name: Gi0/0/0/3
+  - name: GigabitEthernet0/0/0/3
     type: 1000base-x-sfp
-  - name: Gi0/0/0/4
+  - name: GigabitEthernet0/0/0/4
     type: 1000base-x-sfp
-  - name: Gi0/0/0/5
+  - name: GigabitEthernet0/0/0/5
     type: 1000base-x-sfp
-  - name: Gi0/0/0/6
+  - name: GigabitEthernet0/0/0/6
     type: 1000base-x-sfp
-  - name: Gi0/0/0/7
+  - name: GigabitEthernet0/0/0/7
     type: 1000base-x-sfp
-  - name: Gi0/0/0/8
+  - name: GigabitEthernet0/0/0/8
     type: 1000base-x-sfp
-  - name: Gi0/0/0/9
+  - name: GigabitEthernet0/0/0/9
     type: 1000base-x-sfp
-  - name: Gi0/0/0/10
+  - name: GigabitEthernet0/0/0/10
     type: 1000base-x-sfp
-  - name: Gi0/0/0/11
+  - name: GigabitEthernet0/0/0/11
     type: 1000base-x-sfp
-  - name: Gi0/0/0/12
+  - name: GigabitEthernet0/0/0/12
     type: 1000base-x-sfp
-  - name: Gi0/0/0/13
+  - name: GigabitEthernet0/0/0/13
     type: 1000base-x-sfp
-  - name: Gi0/0/0/14
+  - name: GigabitEthernet0/0/0/14
     type: 1000base-x-sfp
-  - name: Gi0/0/0/15
+  - name: GigabitEthernet0/0/0/15
     type: 1000base-x-sfp
-  - name: Gi0/0/0/16
+  - name: GigabitEthernet0/0/0/16
     type: 1000base-x-sfp
-  - name: Gi0/0/0/17
+  - name: GigabitEthernet0/0/0/17
     type: 1000base-x-sfp
-  - name: Gi0/0/0/18
+  - name: GigabitEthernet0/0/0/18
     type: 1000base-x-sfp
-  - name: Gi0/0/0/19
+  - name: GigabitEthernet0/0/0/19
     type: 1000base-x-sfp
-  - name: Te0/0/0/20
+  - name: TenGigabitEthernet0/0/0/20
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/21
+  - name: TenGigabitEthernet0/0/0/21
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/22
+  - name: TenGigabitEthernet0/0/0/22
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/23
+  - name: TenGigabitEthernet0/0/0/23
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/24
+  - name: TenGigabitEthernet0/0/0/24
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/25
+  - name: TenGigabitEthernet0/0/0/25
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/26
+  - name: TenGigabitEthernet0/0/0/26
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/27
+  - name: TenGigabitEthernet0/0/0/27
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/28
+  - name: TenGigabitEthernet0/0/0/28
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/29
+  - name: TenGigabitEthernet0/0/0/29
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/30
+  - name: TenGigabitEthernet0/0/0/30
     type: 10gbase-x-sfpp
-  - name: Te0/0/0/31
+  - name: TenGigabitEthernet0/0/0/31
     type: 10gbase-x-sfpp
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true

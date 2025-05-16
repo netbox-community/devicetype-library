@@ -1,0 +1,15 @@
+---
+manufacturer: Rockwell Automation
+model: 1756-EN2T
+part_number: 1756-EN2T
+description: EtherNet/IP bridge module for ControlLogix systems
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+    mgmt_only: false
+console-ports:
+  - name: USB Configuration Port
+    type: usb-mini-b
+comments: |
+  The 1756-EN2T module supports real-time I/O messaging and message exchange over an EtherNet/IP network.
+  It enables communication between controllers, remote I/O, and various industrial automation devices.

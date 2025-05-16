@@ -3,20 +3,45 @@ manufacturer: Juniper
 model: EX9214
 slug: juniper-ex9214
 u_height: 16
+weight: 68.04
+weight_unit: kg
+airflow: front-to-rear
 is_full_depth: true
-subdevice_role: parent
 comments: '[Juniper EX9214 Data Sheet](https://www.juniper.net/us/en/local/pdf/datasheets/1000432-en.pdf)'
-console-ports:
-  - name: Console-RE0
-    type: rj-45
-  - name: Console-RE1
-    type: rj-45
-power-ports:
+module-bays:
+  - name: SF0
+    position: '0'
+  - name: SF1
+    position: '1'
+  - name: LC0
+    position: '0'
+  - name: LC1
+    position: '1'
+  - name: LC2
+    position: '2'
+  - name: LC3
+    position: '3'
+  - name: LC4
+    position: '4'
+  - name: LC5
+    position: '5'
+  - name: SF2/LC6
+    position: 2/6
+  - name: LC7
+    position: '7'
+  - name: LC8
+    position: '8'
+  - name: LC9
+    position: '9'
+  - name: LC10
+    position: '10'
+  - name: LC11
+    position: '11'
   - name: PSU0
-    type: iec-60320-c20
+    position: '0'
   - name: PSU1
-    type: iec-60320-c20
+    position: '1'
   - name: PSU2
-    type: iec-60320-c20
+    position: '2'
   - name: PSU3
-    type: iec-60320-c20
+    position: '3'
