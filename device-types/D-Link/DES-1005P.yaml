@@ -21,7 +21,7 @@ power-ports:
 interfaces:
   - name: Port 1
     type: 100base-tx
-    poe_mode: pd
+    poe_mode: pse
     poe_type: type1-ieee802.3af
   - name: Port 2
     type: 100base-tx
