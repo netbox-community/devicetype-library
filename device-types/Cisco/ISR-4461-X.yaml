@@ -27,10 +27,10 @@ module-bays:
     position: '5'
   - name: NIM Slot 4
     position: '6'
-  - name: PSU1
-    type: iec-60320-c14
-  - name: PSU2
-    type: iec-60320-c14
+  - name: PSU Slot 1
+    position: PSU1
+  - name: PSU Slot 2
+    position: PSU2
 
 interfaces:
   - name: GigabitEthernet0/0/0
