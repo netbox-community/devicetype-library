@@ -22,15 +22,6 @@ module-bays:
     position: '1'
   - name: PCIe Slot 2
     position: '2'
-rear-ports:
-  - name: usb2/1
-    type: usb-a
-  - name: usb2/2
-    type: usb-a
-  - name: usb3/1
-    type: usb-a
-  - name: usb3/2
-    type: usb-a
 interfaces:
   - name: LAN1
     type: 1000base-t
@@ -40,10 +31,6 @@ interfaces:
     type: 1000base-t
   - name: LAN4
     type: 1000base-t
-  - name: Expansion 1
-    type: infiniband-ndr
-  - name: Expansion 2
-    type: infiniband-ndr
 console-ports:
   - name: Console
     type: de-9
