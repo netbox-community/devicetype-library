@@ -2,7 +2,8 @@
 manufacturer: WatchGuard
 model: Firebox T45
 slug: watchguard-firebox-t45
-u_height: 1.0
+u_height: 0
+subdevice_role: child
 is_full_depth: false
 airflow: left-to-right
 comments: '[Watchguard Firebox T45 Hardware Guide](https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Hardware-Guides/firebox-t45-hardware-guide.html)'
@@ -26,8 +27,3 @@ interfaces:
     type: 1000base-t
   - name: eth4
     type: 1000base-t
-rear-ports:
-  - name: usb3-left
-    type: usb-a
-  - name: usb3-right
-    type: usb-a
