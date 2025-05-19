@@ -1,0 +1,232 @@
+---
+manufacturer: HPE
+model: Aruba 2930M-40G-8SR-PoE6
+slug: hpe-aruba-2930m-40g-8sr-poe6
+part_number: R0M67A
+u_height: 1
+is_full_depth: false
+comments: "IEEE 802.3bt Type 3 PoE6 maximum power budget: **1440W**. Compatible PSUs:\r\n\r\n- **JL086A** HPE Aruba Networking X372 54V DC **680W** 110-240V\
+  \ AC\r\n- **JL087A** HPE Aruba Networking X372 54V DC **1050W** 110-240V AC\r\n\r\n[HPE Aruba 2930M Switch Series Datasheet](https://www.hpe.com/psnow/doc/a00001977enw)"
+weight: 9.81
+weight_unit: lb
+module-bays:
+  - name: Uplink
+    position: A
+  - name: Stacking Module
+    position: Stack
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+interfaces:
+  - name: oobm
+    type: 100base-tx
+    mgmt_only: true
+    description: Out of Band Management (oobm) interface
+  - name: '1'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '2'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '3'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '4'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '5'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '6'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '7'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '8'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '9'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '10'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '11'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '12'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '13'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '14'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '15'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '16'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '17'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '18'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '19'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '20'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '21'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '22'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '23'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '24'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '25'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '26'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '27'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '28'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '29'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '30'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '31'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '32'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '33'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '34'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '35'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '36'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '37'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '38'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '39'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '40'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '41'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '42'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '43'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '44'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+ # Dual personality ports option 1
+  - name: '45'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '46'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '47'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '48'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+ # Dual personality ports option 2
+ # - name: '45'
+ #   type: 1000base-x-sfp
+ # - name: '46'
+ #   type: 1000base-x-sfp
+ # - name: '47'
+ #   type: 1000base-x-sfp
+ # - name: '48'
+ #   type: 1000base-x-sfp
