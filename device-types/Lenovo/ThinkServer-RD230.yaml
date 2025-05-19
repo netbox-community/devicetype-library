@@ -1,0 +1,20 @@
+---
+manufacturer: Lenovo
+model: ThinkServer RD230
+slug: lenovo-thinkserver-rd230
+u_height: 1
+is_full_depth: true
+weight: 14
+weight_unit: kg
+airflow: front-to-rear
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true

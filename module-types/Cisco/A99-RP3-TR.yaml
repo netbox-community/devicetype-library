@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: A99-RP3-TR
+part_number: A99-RP3-TR
+comments: '[Cisco ASR 9900 Series Route Processor 3 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-741127.html)'
+description: ASR 9900 Route Processor 3 for Packet Transport 24G
+console-ports:
+  - name: console{module}
+    type: rj-45
+interfaces:
+  - name: MgmtEth0/RP{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: MgmtEth0/RP{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: A99-RP2-TR
+part_number: A99-RP2-TR
+comments: '[Cisco ASR 9900 Route Processor 2 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-733761.html)'
+description: ASR 99 Route Processor for Packet Transport
+console-ports:
+  - name: console{module}
+    type: rj-45
+interfaces:
+  - name: MgmtEth0/RP{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: MgmtEth0/RP{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true
