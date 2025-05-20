@@ -1,0 +1,36 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Cloud Gateway Max
+slug: ubiquiti-unifi-cloud-gateway-max
+part_number: UCG-Max
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0
+weight_unit: kg
+comments: >
+  Compact 2.5G Cloud Gateway with support for over 30 UniFi devices and 300+ clients.
+  Features 1.5 Gbps IDS/IPS throughput, 512 GB NVMe SSD for NVR storage, and a 0.96" LCM status display.
+  Includes full UniFi application suite for device management.
+  [Tech Specs](https://techspecs.ui.com/unifi/unifi-cloud-gateways/ucg-max)
+
+power-ports:
+  - name: USB-C Power
+    type: usb-c
+    maximum_draw: 16.1
+
+console-ports:
+  - name: Bluetooth
+    type: other
+
+interfaces:
+  - name: WAN
+    type: 2.5gbase-t
+  - name: LAN1
+    type: 2.5gbase-t
+  - name: LAN2
+    type: 2.5gbase-t
+  - name: LAN3
+    type: 2.5gbase-t
+  - name: LAN4
+    type: 2.5gbase-t
