@@ -1,0 +1,45 @@
+---
+manufacturer: Ciena
+model: 3906-900
+slug: ciena-3906-900
+part_number: 170-3906-900
+u_height: 1
+is_full_depth: false
+weight: 1.6
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+power-ports:
+  - name: PSA
+    type: iec-60320-c14
+    allocated_draw: 40
+    maximum_draw: 96
+  - name: PSB
+    type: iec-60320-c14
+    allocated_draw: 40
+    maximum_draw: 96
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: FRU 1
+    position: '1'
+    description: |
+      * 170-0128-901 BROADWELL D-1548, 32GB RAM, 480GB SSD
+      * 170-0121-901 BROADWELL D-1508, 8GB RAM, 120GB SSD
+      * 170-0122-901 BROADWELL D-1527, 16GB RAM, 120GB SSD

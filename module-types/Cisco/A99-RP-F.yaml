@@ -6,9 +6,9 @@ console-ports:
   - name: console{module}
     type: rj-45
 interfaces:
-  - name: MgmtEth{module}/CPU0/0
+  - name: MgmtEth0/{module}/CPU0/0
     type: 1000base-t
     mgmt_only: true
-  - name: MgmtEth{module}/CPU0/1
+  - name: MgmtEth0/{module}/CPU0/1
     type: 1000base-t
     mgmt_only: true

@@ -1,0 +1,25 @@
+---
+manufacturer: Dell
+model: Unity XT 380 Controller
+slug: dell-unity-xt-380-controller
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+subdevice_role: child
+interfaces:
+  - name: SP-A ETH1
+    type: 1000base-t
+    mgmt_only: true
+  - name: SP-A ETH2
+    type: 10gbase-t
+  - name: SP-A ETH3
+    type: 10gbase-t
+  - name: SP-A ETH4
+    type: 10gbase-x-sfpp
+  - name: SP-A ETH5
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: I/O 1
+    position: '1'
+  - name: I/O 2
+    position: '2'

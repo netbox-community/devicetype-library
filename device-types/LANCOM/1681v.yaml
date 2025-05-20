@@ -1,0 +1,34 @@
+---
+manufacturer: LANCOM
+model: 1681V
+slug: lancom-1681v
+part_number: 1681V
+u_height: 0
+is_full_depth: false
+weight: 600
+weight_unit: g
+front_image: false
+rear_image: false
+comments: '[LANCOM 1681V Data sheet](https://www.lancom-systems.com/fileadmin/produkte/lc_1681V/1681V_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 14
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: VDSL/ADSL
+    type: xdsl
+  - name: ISDN-S0
+    type: 1000base-t
+console-ports:
+  - name: USB
+    type: usb-a
+  - name: com
+    type: mini-din-8
