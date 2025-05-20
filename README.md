@@ -38,7 +38,7 @@ Each definition **must** include at minimum the following fields:
   manufacturer: Dell
   model: PowerEdge R670
   slug: dell-poweredge-r670
-  u_height: 2
+  u_height: 1
   is_full_depth: true
   ```
 **Note: We are asking that all new deivces also include the following optional fields: `airflow`, `weight` and `weight_unit`.**
@@ -65,11 +65,11 @@ The following fields may **optionally** be declared:
 - `front_image`: Indicates that this device has a front elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
   - Type: Boolean
-  - :test_tube: Example: `front_image: True`
+  - :test_tube: Example: `front_image: true`
 - `rear_image`: Indicates that this device has a rear elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.rear.<acceptable_format>
   - Type: Boolean
-  - :test_tube: Example: `rear_image: True`
+  - :test_tube: Example: `rear_image: true`
 - `subdevice_role`: Indicates that this is a `parent` or `child` device. (**Default: None**)
   - Type: String
   - Options:
@@ -79,7 +79,7 @@ The following fields may **optionally** be declared:
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
   - :test_tube: Example: `comments: This is a comment that will appear on all NetBox devices of this type`
-- `is_powered`: A boolean which indicates whether the device type does not take power. This is mainly used as a workaround for validation testing on non-devices (i.e. rackmount kits for mounting desktop devices) (**Default: True**)
+- `is_powered`: A boolean which indicates whether the device type does not take power. This is mainly used as a workaround for validation testing on non powered devices (i.e. rackmount kits or patch pannels.) (**Default: True**)
   - Type: Boolean
   - :test_tube: Example: `is_powered: false`
 - `weight`: A number representing the numeric weight value. Must be a multiple of 0.01 (2 decimal places). (**Default: None**)
@@ -87,11 +87,11 @@ The following fields may **optionally** be declared:
   - Value: must be a multiple of 0.01
 - `weight_unit`: A string defining the unit of measurement. It must be one of the supported values. (**Default: None**)
   - Type: String
-  - Value: Enumerated Options
-    - kg
-    - g
-    - lb
-    - oz
+  - Options:
+    - `kg`
+    - `g`
+    - `lb`
+    - `oz`
   - :test_tube: Example:
 
     ```yaml
@@ -146,6 +146,7 @@ A console server is a device which provides remote access to the local consoles 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/powerport/)**
 
 A power port is a device component which draws power from some external source (e.g. an upstream power outlet), and generally represents a power supply internal to a device.
+**Note: Devices that have removeable Power Supplies, Like FRUs, should be modeled in the device as `module-bays` and then the PSU module should have the required `power-port`**
 
 - `name`: Name
 - `label`: Label
