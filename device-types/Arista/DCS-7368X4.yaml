@@ -9,7 +9,8 @@ airflow: front-to-rear
 weight: 39
 weight_unit: kg
 comments: >
-  The Arista DCS-7368X4 is a 4RU modular data center switch delivering up to 12.8 Tbps of system forwarding capacity and supporting up to 128 x 100G or 32 x 400G ports. It features 8 I/O module slots, a single supervisor slot, and is optimized for hyperscale cloud and AI/ML workloads.
+  The Arista DCS-7368X4 is a 4RU modular data center switch delivering up to 12.8 Tbps of system forwarding capacity and supporting up to 128 x 100G or 32 x 400G ports.
+  It features 8 I/O module slots, a single supervisor slot, and is optimized for hyperscale cloud and AI/ML workloads.
   [Arista 7368X4 Series Overview](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf)
 
 console-ports:
@@ -42,24 +43,24 @@ device-bays:
 
 module-bays:
   - name: Supervisor Slot
-    position: '1'
-  - name: Switch Card Slot
-    position: '2'
-  - name: Fan Module Slot 1
-    position: '3'
-  - name: Fan Module Slot 2
-    position: '4'
-  - name: Fan Module Slot 3
-    position: '5'
-  - name: Fan Module Slot 4
-    position: '6'
-  - name: Fan Module Slot 5
-    position: '7'
-  - name: PSU Slot 1
-    position: '8'
-  - name: PSU Slot 2
     position: '9'
-  - name: PSU Slot 3
+  - name: Switch Card Slot
     position: '10'
-  - name: PSU Slot 4
+  - name: Fan Module Slot 1
     position: '11'
+  - name: Fan Module Slot 2
+    position: '12'
+  - name: Fan Module Slot 3
+    position: '13'
+  - name: Fan Module Slot 4
+    position: '14'
+  - name: Fan Module Slot 5
+    position: '15'
+  - name: PSU Slot 1
+    position: '16'
+  - name: PSU Slot 2
+    position: '17'
+  - name: PSU Slot 3
+    position: '18'
+  - name: PSU Slot 4
+    position: '19'
