@@ -25,8 +25,8 @@ Each definition **must** include at minimum the following fields:
   manufacturer. All slugs should have the manufacturers name prepended to it with a dash, please see the example below.
   - Type: String
   - Pattern: `"^[-a-z0-9_]+$"`. Must match the following characters: `-`, Lowercase `a` to `z`, Numbers `0` to `9`.
-- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
-  - Type: number (minimum of `0`, multiple of `0.5`)
+- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Note: For Child devices u_height must be 0**)
+  - Type: number (minimum of `0`, multiple of `0.5`
   - :test_tube: Example: `u_height: 12.5`
 - `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
   - Type: Boolean
@@ -36,9 +36,12 @@ Each definition **must** include at minimum the following fields:
 
   ```yaml
   manufacturer: Dell
-  model: PowerEdge R6515
-  slug: dell-poweredge-r6515
+  model: PowerEdge R670
+  slug: dell-poweredge-r670
+  u_height: 2
+  is_full_depth: true
   ```
+**Note: We are asking that all new deivces also include the following optional fields: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
 
@@ -204,7 +207,7 @@ Like front ports, rear ports are pass-through ports which represent the continua
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/modulebay/)**
 
 Module bays represent a space or slot within a device in which a field-replaceable module may be installed. A common example is that of a chassis-based switch such as the Cisco Nexus 9000 or Juniper EX9200. Modules in turn hold additional components that become available to the parent device.
-**NOTE: Field Replacable Power Supply’s should also be modeled as module bays**
+**Note: Field Replacable Power Supply’s should also be modeled as module bays**
 
 - `name`: Name
 - `label`: Label
