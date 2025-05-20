@@ -10,9 +10,8 @@ new device type definitions manually.
 If you would like to contribute to this library, please read through our [contributing guide](CONTRIBUTING.md) before
 submitting content.
 
-**Note: As of March 2023 Netbox-Device-Type-Library-Import has been brought into the NetBox Community Organization. We will work to get this fully supported soon.**
-If you would like to automate the import of these devicetype template files, there is a NetBox Community ~~**community based**~~ python script
-that will check for duplicates, allow you to selectively import vendors, etc. available here [netbox-community/Device-Type-Library-Import](https://github.com/netbox-community/Device-Type-Library-Import). ~~**Note**: This is not related to NetBox in any official way and you will not get support for it here.~~
+If you would like to automate the import of these devicetype template files, there is a NetBox Community python script
+that will check for duplicates, allow you to selectively import vendors, etc. available here [netbox-community/Device-Type-Library-Import](https://github.com/netbox-community/Device-Type-Library-Import).
 
 ## Device Type Definitions
 
@@ -25,7 +24,13 @@ Each definition **must** include at minimum the following fields:
 - `slug`: A URL-friendly representation of the model number. Like the model number, this must be unique per
   manufacturer. All slugs should have the manufacturers name prepended to it with a dash, please see the example below.
   - Type: String
-  - Pattern: `"^[-a-zA-Z0-9_]+$"`. Must match the following characters: `-`, `_`, Uppercase or Lowercase `a` to `z`, Numbers `0` to `9`.
+  - Pattern: `"^[-a-z0-9_]+$"`. Must match the following characters: `-`, Lowercase `a` to `z`, Numbers `0` to `9`.
+- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
+  - Type: number (minimum of `0`, multiple of `0.5`)
+  - :test_tube: Example: `u_height: 12.5`
+- `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
+  - Type: Boolean
+  - :test_tube: Example: `is_full_depth: false`
 
 :test_tube: Example:
 
@@ -40,12 +45,6 @@ The following fields may **optionally** be declared:
 - `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
   - Type: String
   - :test_tube: Example: `part_number: D109-C3`
-- `u_height`: The height of the device type in rack units. Increments of 0.5U are supported. (**Default: 1**)
-  - Type: number (minimum of `0`, multiple of `0.5`)
-  - :test_tube: Example: `u_height: 12.5`
-- `is_full_depth`: A boolean which indicates whether the device type consumes both the front and rear rack faces. (**Default: true**)
-  - Type: Boolean
-  - :test_tube: Example: `is_full_depth: false`
 - `airflow`: A declaration of the airflow pattern for the device. (**Default: None**)
   - Type: String
   - Options:
@@ -54,7 +53,11 @@ The following fields may **optionally** be declared:
     - `left-to-right`
     - `right-to-left`
     - `side-to-rear`
+    - `rear-to-side`
+    - `bottom-to-top`
+    - `top-to-bottom`
     - `passive`
+    - `mixed`
   - :test_tube: Example: `airflow: side-to-rear`
 - `front_image`: Indicates that this device has a front elevation image within the [elevation-images](elevation-images/) folder. (**Default: None**)
   - NOTE: The elevation images folder requires the same folder name as this device. The file name must also adhere to <VALUE_IN_SLUG>.front.<acceptable_format>
@@ -169,6 +172,8 @@ Interfaces in NetBox represent network interfaces used to exchange data with con
 - `label`: Label
 - `type`: Interface type slug (Array)
 - `mgmt_only`: A boolean which indicates whether this interface is used for management purposes only (default: false)
+- `poe_mode` : For if a device is POE powered (pd) or provides POE (pse)
+- `poe_type` : The classification of PoE transmission supported, for PoE-enabled interfaces.
 
 #### Front Ports
 
@@ -199,6 +204,7 @@ Like front ports, rear ports are pass-through ports which represent the continua
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/modulebay/)**
 
 Module bays represent a space or slot within a device in which a field-replaceable module may be installed. A common example is that of a chassis-based switch such as the Cisco Nexus 9000 or Juniper EX9200. Modules in turn hold additional components that become available to the parent device.
+**NOTE: Field Replacable Power Supply’s should also be modeled as module bays**
 
 - `name`: Name
 - `label`: Label
@@ -244,7 +250,7 @@ There are two ways this repo focuses on keeping quality device-type definitions:
       - To install the pre-commit script: `pre-commit install`
   - Usage & Useful `pre-commit` Commands
     - After staging your files with `git`, to run the pre-commit script on changed files: `pre-commit run`
-    - To run the pre-commit script on all files: `pre-commit run --all`
+    - To run the pre-commit script on all files: `pre-commit run -a`
     - To uninstall the pre-commit script: `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
 - **GitHub Actions** - Automatically run before a PR can be merged. Repeats yamllint & validates against NetBox Device-Type Schema.
