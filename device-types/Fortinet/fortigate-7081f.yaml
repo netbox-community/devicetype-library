@@ -8,34 +8,48 @@ is_full_depth: true
 airflow: front-to-rear
 weight: 90
 weight_unit: kg
-comments: '[FortiGate 7081F Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortigate-7000f-series.pdf), [FortiGate 7081F Handbook](https://docs.fortinet.com/document/fortigate-7000/7.0.15/fortigate-7000f-handbook/456712/fortigate-7081f)'
-module-bays:
-  - name: FIM Slot 1
-    position: 1
-  - name: FIM Slot 2
-    position: 2
-  - name: FPM Slot 3
-    position: 3
-  - name: FPM Slot 4
-    position: 4
-  - name: FPM Slot 5
-    position: 5
-  - name: FPM Slot 6
-    position: 6
-  - name: FPM Slot 7
-    position: 7
-  - name: FPM Slot 8
-    position: 8
+comments: '[FortiGate 7000F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-7000f-series.pdf)'
+
+console-ports:
+  - name: Console 1
+    type: rj-45
+  - name: Console 2
+    type: rj-45
+
 power-ports:
   - name: PSU1
     type: iec-60320-c20
+    maximum_draw: 2500
   - name: PSU2
     type: iec-60320-c20
+    maximum_draw: 2500
   - name: PSU3
     type: iec-60320-c20
+    maximum_draw: 2500
   - name: PSU4
     type: iec-60320-c20
+    maximum_draw: 2500
   - name: PSU5
     type: iec-60320-c20
+    maximum_draw: 2500
   - name: PSU6
     type: iec-60320-c20
+    maximum_draw: 2500
+
+module-bays:
+  - name: FIM Slot 1
+    position: '1'
+  - name: FIM Slot 2
+    position: '2'
+  - name: FPM Slot 3
+    position: '3'
+  - name: FPM Slot 4
+    position: '4'
+  - name: FPM Slot 5
+    position: '5'
+  - name: FPM Slot 6
+    position: '6'
+  - name: FPM Slot 7
+    position: '7'
+  - name: FPM Slot 8
+    position: '8'
