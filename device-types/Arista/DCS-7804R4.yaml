@@ -1,0 +1,67 @@
+---
+manufacturer: Arista
+model: DCS-7804R4
+slug: arista-dcs-7804r4
+part_number: DCS-7804R4
+u_height: 10
+is_full_depth: true
+airflow: front-to-rear
+weight: 209
+weight_unit: kg
+comments: >
+  The Arista DCS-7804R4 is a 10RU modular chassis designed for high-density 800G networking, optimized for AI/ML workloads.
+  It supports up to 4 line cards, 2 supervisor modules, 6 fabric modules, and 8 power supply units.
+  The chassis offers a system throughput of up to 115 Tbps (230 Tbps full duplex) and supports up to 144 x 800G or 288 x 400G ports.
+  [Arista 7800R4 Series Overview](https://www.arista.com/en/products/7800r4-series)
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU5
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU6
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU7
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU8
+    type: iec-60320-c20
+    maximum_draw: 3000
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+interfaces:
+  - name: Management1
+    type: 1000base-t
+  - name: Management2
+    type: 1000base-t
+
+device-bays:
+  - name: Linecard Slot 1
+  - name: Linecard Slot 2
+  - name: Linecard Slot 3
+  - name: Linecard Slot 4
+
+module-bays:
+  - name: Supervisor Slot 1
+  - name: Supervisor Slot 2
+  - name: Fabric Module Slot 1
+  - name: Fabric Module Slot 2
+  - name: Fabric Module Slot 3
+  - name: Fabric Module Slot 4
+  - name: Fabric Module Slot 5
+  - name: Fabric Module Slot 6
