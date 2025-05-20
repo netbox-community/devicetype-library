@@ -6,10 +6,13 @@ part_number: ASR-9001
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
-airflow: front-to-rear
+airflow: right-to-left
 weight: 16.5
 weight_unit: kg
-comments: '[Cisco ASR 9001 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9001-router/data_sheet_c78-685687.html)'
+front_image: true
+comments: |
+  - [Cisco ASR 9001 Router Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9001-router/data_sheet_c78-685687.html)
+  - [Cisco ASR 9000 Series Fixed-Port Routers Hardware Installation Guide, Chapter: Preparing for Installation](https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/9001-hig/b-asr9001-hardware-installation-guide/b-asr9001-hardware-installation-guide_chapter_01.html#Cisco_Concept.dita_2b236e01-92fc-439c-835d-18d927ae5b83)
 console-ports:
   - name: con 0
     type: rj-45
