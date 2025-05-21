@@ -134,11 +134,13 @@ image_files = _get_image_files()
 if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
+    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
 else:
     temp_dir = tempfile.TemporaryDirectory()
     repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
+    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
@@ -181,6 +183,12 @@ def test_definitions(file_path, schema, change_type):
     if "device-types" in file_path:
         # A device
         this_device = DeviceType(definition, file_path, change_type)
+    elif "module-types" in file_path:
+        # A module type
+        this_device = ModuleType(definition, file_path, change_type)
+    elif "rack-types" in file_path:
+        # A rack type
+        this_device = RackType(definition, file_path, change_type)
     else:
         # A module
         this_device = ModuleType(definition, file_path, change_type)
