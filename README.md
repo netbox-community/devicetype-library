@@ -41,6 +41,7 @@ Each definition **must** include at minimum the following fields:
   u_height: 1
   is_full_depth: true
   ```
+
 **Note: We are asking that all new deivces also include the following optional fields: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
