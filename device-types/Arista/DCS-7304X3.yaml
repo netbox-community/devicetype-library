@@ -6,13 +6,13 @@ part_number: DCS-7304X3
 u_height: 8
 is_full_depth: true
 airflow: front-to-rear
-weight: 49
+weight: 89
 weight_unit: kg
 comments: >
   The Arista DCS-7304X3 is an 8RU modular chassis designed for high-density 10/25/40/100G networking in data center and campus environments.
   It supports up to 4 line card slots, 2 supervisor modules, 4 fabric modules, and multiple power supply units.
-  The chassis offers a system throughput of up to 50 Tbps and supports up to 256 x 100G or 1024 x 10/25G ports.
-  [Arista 7300X3 Series Overview](https://www.arista.com/en/products/7300x3-series)
+  The chassis offers a system throughput of over 50 Tbps and supports up to 256 x 100G or 1024 x 10/25G ports.
+  [Arista 7300X3 Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7300X3-Datasheet.pdf)
 
 console-ports:
   - name: Console
@@ -34,9 +34,9 @@ module-bays:
   - name: Linecard Slot 4
     position: 'L4'
   - name: Supervisor Slot 1
-    position: 'S1'
+    position: 'SU1'
   - name: Supervisor Slot 2
-    position: 'S2'
+    position: 'SU2'
   - name: Fabric Module Slot 1
     position: 'F1'
   - name: Fabric Module Slot 2
@@ -53,3 +53,11 @@ module-bays:
     position: 'P3'
   - name: PSU Slot 4
     position: 'P4'
+  - name: Fan Module Slot 1
+    position: 'FM1'
+  - name: Fan Module Slot 2
+    position: 'FM2'
+  - name: Fan Module Slot 3
+    position: 'FM3'
+  - name: Fan Module Slot 4
+    position: 'FM4'
