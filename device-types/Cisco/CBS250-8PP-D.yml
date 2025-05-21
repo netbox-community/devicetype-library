@@ -1,0 +1,52 @@
+---
+manufacturer: Cisco
+model: CBS250-8PP-D
+slug: cisco-cbs250-8pp-d
+part_number: CBS250-8PP-D
+comments: '[CBS250 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
+airflow: passive
+weight: 0.56
+weight_unit: kg
+is_full_depth: false
+front_image: true
+u_height: 1
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+  - name: GigabitEthernet8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3af
+console-ports:
+  - name: Console
+    type: usb
+power-ports:
+  - name: 12V
+    type: dc-terminal
+    maximum_draw: 60
