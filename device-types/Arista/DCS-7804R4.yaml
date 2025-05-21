@@ -14,32 +14,6 @@ comments: >
   The chassis offers a system throughput of up to 115 Tbps (230 Tbps full duplex) and supports up to 144 x 800G or 288 x 400G ports.
   [Arista 7800R4 Series Overview](https://www.arista.com/en/products/7800r4-series)
 
-power-ports:
-  - name: PSU1
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU2
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU3
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU4
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU5
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU6
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU7
-    type: iec-60320-c20
-    maximum_draw: 3000
-  - name: PSU8
-    type: iec-60320-c20
-    maximum_draw: 3000
-
 console-ports:
   - name: Console
     type: rj-45
@@ -50,7 +24,7 @@ interfaces:
   - name: Management2
     type: 1000base-t
 
-device-bays:
+module-bays:
   - name: Linecard Slot 1
     position: '1'
   - name: Linecard Slot 2
@@ -59,8 +33,6 @@ device-bays:
     position: '3'
   - name: Linecard Slot 4
     position: '4'
-
-module-bays:
   - name: Supervisor Slot 1
     position: '1'
   - name: Supervisor Slot 2
@@ -76,4 +48,20 @@ module-bays:
   - name: Fabric Module Slot 5
     position: '7'
   - name: Fabric Module Slot 6
+    position: '8'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
+  - name: PSU4
+    position: '4'
+  - name: PSU5
+    position: '5'
+  - name: PSU6
+    position: '6'
+  - name: PSU7
+    position: '7'
+  - name: PSU8
     position: '8'
