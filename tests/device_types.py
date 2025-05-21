@@ -217,9 +217,16 @@ def validate_component_names(component_names: (set or None)):
                 return False
     return True
 
-def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or None)):
+def verify_filename(device: (DeviceType or ModuleType or RackType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
+
+    # Check if file is RackType
+    if "rack-types" in device.file_path:
+        if not filename == device._slug_model:
+            device.failureMessage = f'{device.file_path} file name is invalid. Must be the model "{device._slug_model}"'
+            return False
+        return True
 
     if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
         device.failureMessage = f'{device.file_path} file name is invalid. Must be either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
