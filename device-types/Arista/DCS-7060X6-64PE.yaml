@@ -22,9 +22,9 @@ interfaces:
     type: 1000base-t
   - name: Management2
     type: 1000base-t
-  - name: SFP+1
+  - name: SFP1
     type: 1000base-x-sfp
-  - name: SFP+2
+  - name: SFP2
     type: 1000base-x-sfp
   - name: Ethernet1
     type: 800gbase-x-osfp
@@ -154,8 +154,6 @@ interfaces:
     type: 800gbase-x-osfp
   - name: Ethernet64
     type: 800gbase-x-osfp
-
-device-bays: []
 
 module-bays:
   - name: Supervisor Slot
