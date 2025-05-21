@@ -177,6 +177,28 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
+class RackType:
+    def __new__(cls, *args, **kwargs):
+        return super().__new__(cls)
+
+    def __init__(self, definition, file_path, change_type):
+        self.file_path = file_path
+        self.isDevice = False
+        self.definition = definition
+        self.manufacturer = definition.get('manufacturer')
+        self.model = definition.get('model')
+        self._slug_model = self._slugify_model()
+        self.change_type = change_type
+
+    def get_filepath(self):
+        return self.file_path
+
+    def _slugify_model(self):
+        slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        if slugified.endswith("-"):
+            slugified = slugified[:-1]
+        return slugified
+
 def validate_component_names(component_names: (set or None)):
     if len(component_names) > 1:
         verify_name = list(component_names[0])
