@@ -24,34 +24,32 @@ interfaces:
   - name: Management2
     type: 1000base-t
 
-device-bays:
-  - name: Linecard Slot 1
-    position: '1'
-  - name: Linecard Slot 2
-    position: '2'
-  - name: Linecard Slot 3
-    position: '3'
-  - name: Linecard Slot 4
-    position: '4'
-
 module-bays:
+  - name: Linecard Slot 1
+    position: 'L1'
+  - name: Linecard Slot 2
+    position: 'L2'
+  - name: Linecard Slot 3
+    position: 'L3'
+  - name: Linecard Slot 4
+    position: 'L4'
   - name: Supervisor Slot 1
-    position: '5'
+    position: 'S1'
   - name: Supervisor Slot 2
-    position: '6'
+    position: 'S2'
   - name: Fabric Module Slot 1
-    position: '7'
+    position: 'F1'
   - name: Fabric Module Slot 2
-    position: '8'
+    position: 'F2'
   - name: Fabric Module Slot 3
-    position: '9'
+    position: 'F3'
   - name: Fabric Module Slot 4
-    position: '10'
+    position: 'F4'
   - name: PSU Slot 1
-    position: '11'
+    position: 'P1'
   - name: PSU Slot 2
-    position: '12'
+    position: 'P1'
   - name: PSU Slot 3
-    position: '13'
+    position: 'P3'
   - name: PSU Slot 4
-    position: '14'
+    position: 'P4'
