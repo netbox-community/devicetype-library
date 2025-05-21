@@ -13,14 +13,6 @@ comments: >
   It supports flexible port configurations including 800G, 400G, 200G, and 100G, making it ideal for AI/ML workloads and hyperscale data centers.
   [7060X6 Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
 
-power-ports:
-  - name: PSU1
-    type: iec-60320-c20
-    maximum_draw: 2218
-  - name: PSU2
-    type: iec-60320-c20
-    maximum_draw: 2218
-
 console-ports:
   - name: Console
     type: rj-45
@@ -167,4 +159,9 @@ device-bays: []
 
 module-bays:
   - name: Supervisor Slot
-    position: '1'
+    position: 'S1'
+  - name: PSU1
+    position: 'P1'
+  - name: PSU2
+    position: 'P2'
+
