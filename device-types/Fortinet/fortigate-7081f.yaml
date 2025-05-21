@@ -16,27 +16,25 @@ console-ports:
   - name: Console 2
     type: rj-45
 
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c20
+    position: '1'
     maximum_draw: 2500
   - name: PSU2
-    type: iec-60320-c20
+    position: '2'
     maximum_draw: 2500
   - name: PSU3
-    type: iec-60320-c20
+    position: '3'
     maximum_draw: 2500
   - name: PSU4
-    type: iec-60320-c20
+   position: '4'
     maximum_draw: 2500
   - name: PSU5
-    type: iec-60320-c20
+    position: '5'
     maximum_draw: 2500
   - name: PSU6
-    type: iec-60320-c20
+    position: '6'
     maximum_draw: 2500
-
-module-bays:
   - name: FIM Slot 1
     position: '1'
   - name: FIM Slot 2
