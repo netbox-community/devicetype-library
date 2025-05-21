@@ -1,0 +1,48 @@
+---
+manufacturer: Fortinet
+model: FortiGate 7081F
+slug: fortinet-fortigate-7081f
+part_number: FG-7081F
+u_height: 12.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 90
+weight_unit: kg
+comments: >
+  [FortiGate 7000F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-7000f-series.pdf)
+
+console-ports:
+  - name: Console 1
+    type: rj-45
+  - name: Console 2
+    type: rj-45
+
+module-bays:
+  - name: PSU1
+    position: P1
+  - name: PSU2
+    position: P2
+  - name: PSU3
+    position: P3
+  - name: PSU4
+    position: P4
+  - name: PSU5
+    position: P5
+  - name: PSU6
+    position: P6
+  - name: FIM Slot 1
+    position: F1
+  - name: FIM Slot 2
+    position: F2
+  - name: FPM Slot 3
+    position: F3
+  - name: FPM Slot 4
+    position: F4
+  - name: FPM Slot 5
+    position: F5
+  - name: FPM Slot 6
+    position: F6
+  - name: FPM Slot 7
+    position: F7
+  - name: FPM Slot 8
+    position: F8
