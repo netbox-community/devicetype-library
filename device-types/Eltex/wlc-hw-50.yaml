@@ -1,0 +1,29 @@
+---
+manufacturer: Eltex
+model: WLC-HW-50
+slug: eltex-wlc-hw-50
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+weight: 8.35
+weight_unit: kg
+comments: '[Datasheet](https://api.prod.eltex-co.ru/storage/upload_center/files/13/WLC-HW-50.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+console-server-ports:
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB4
+    type: usb-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+    maximum_draw: 450
+interfaces:
+  - name: Eth 1
+    type: 1000base-t
