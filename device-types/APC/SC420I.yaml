@@ -14,6 +14,11 @@ console-ports:
 power-ports:
   - name: Power Port 1
     type: iec-60320-c14
+interfaces:
+  - name: 'ISDN in'
+    type: 1000base-t
+  - name: 'ISDN out'
+    type: 1000base-t
 power-outlets:
   - name: Power Outlet 1
     type: iec-60320-c13
