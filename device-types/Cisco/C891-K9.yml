@@ -6,31 +6,39 @@ slug: cisco-c891-k9
 u_height: 1
 is_full_depth: false
 is_powered: true
-weight: 2.5
+weight: 4.84
 weight_unit: kg
 airflow: passive
 interfaces:
   - name: FastEthernet0
     type: 100base-tx
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+  - name: FastEthernet4
+    type: 100base-tx
+  - name: FastEthernet5
+    type: 100base-tx
+  - name: FastEthernet6
+    type: 100base-tx
+  - name: FastEthernet7
+    type: 100base-tx
+  - name: FastEthernet8
+    type: 100base-tx
   - name: GigabitEthernet0
-    type: 1000base-t
-  - name: GigabitEthernet1
-    type: 1000base-t
-  - name: GigabitEthernet2
-    type: 1000base-t
-  - name: GigabitEthernet3
-    type: 1000base-t
-  - name: GigabitEthernet4
-    type: 1000base-t
-  - name: GigabitEthernet5
-    type: 1000base-t
-  - name: GigabitEthernet6
-    type: 1000base-t
-  - name: GigabitEthernet7
     type: 1000base-t
 console-ports:
   - name: con 0
     type: rj-45
+  - name: aux 0
+    type: rj-45
+  - name: v.92
+    type: rj-45
+  - name: usb
+    type: usb-a
   - name: usb
     type: usb-a
 power-ports:
