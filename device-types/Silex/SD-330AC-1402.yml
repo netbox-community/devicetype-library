@@ -1,0 +1,24 @@
+---
+manufacturer: Silex
+model: SD-330AC-1402
+slug: silex-sd-330ac-1402
+part_number: SD-330AC-1402
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 305
+weight_unit: g
+front_image: false
+rear_image: false
+comments: 'SD-330AC-1402 Wireless / Wired Serial Device Server / Ethernet to Wi-Fi Bridge [SD-330AC-1402 Product Brochure](https://f.hubspotusercontent00.net/hubfs/205257/Resource%20PDF/SD-330AC-1402_Product_Brief_v2.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: ETH1
+    type: 100base-tx
+  - name: SERIAL1
+    type: other
+  - name: WLAN0
+    type: ieee802.11ac
