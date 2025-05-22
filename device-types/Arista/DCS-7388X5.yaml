@@ -23,25 +23,23 @@ interfaces:
   - name: Management2
     type: 1000base-t
 
-device-bays:
-  - name: Linecard Slot 1
-    position: '1'
-  - name: Linecard Slot 2
-    position: '2'
-  - name: Linecard Slot 3
-    position: '3'
-  - name: Linecard Slot 4
-    position: '4'
-  - name: Linecard Slot 5
-    position: '5'
-  - name: Linecard Slot 6
-    position: '6'
-  - name: Linecard Slot 7
-    position: '7'
-  - name: Linecard Slot 8
-    position: '8'
-
 module-bays:
+  - name: Linecard Slot 1
+    position: 'L1'
+  - name: Linecard Slot 2
+    position: 'L2'
+  - name: Linecard Slot 3
+    position: 'L3'
+  - name: Linecard Slot 4
+    position: 'L4'
+  - name: Linecard Slot 5
+    position: 'L5'
+  - name: Linecard Slot 6
+    position: 'L6'
+  - name: Linecard Slot 7
+    position: 'L7'
+  - name: Linecard Slot 8
+    position: 'L8'
   - name: Supervisor Slot
     position: '1'
   - name: Switch Card Slot
