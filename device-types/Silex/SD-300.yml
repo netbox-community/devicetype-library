@@ -1,0 +1,23 @@
+---
+manufacturer: Silex
+model: SD-300
+slug: silex-sd-300
+part_number: SD-300
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+front_image: false
+rear_image: false
+comments: SD-300 Serial Device Server [SD-300 / SD-310AN Product Brochure](https://www.silextechnology.com/hubfs/Product%20Documentation%20Files%20/SD-300-SD-310AN_ds_de.pdf)
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: ETH1
+    type: 100base-tx
+console-server-ports:
+  - name: SERIAL1
+    type: de-9

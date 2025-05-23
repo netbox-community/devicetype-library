@@ -1,18 +1,20 @@
 ---
 manufacturer: HPE
-model: OfficeConnect 1820-48G
-slug: hpe-officeconnect-1820-48g
-part_number: J9981A
+model: OfficeConnect 1820-24G
+slug: hpe-officeconnect-1820-24g
+part_number: J9980A
 u_height: 1
 is_full_depth: false
+weight: 2.72
+weight_unit: kg
 front_image: true
 rear_image: false
 comments: '[HPE OfficeConnect 1820 Switch Series](https://www.hpe.com/psnow/doc/c04518995?jumpid=in_lit-psnow-red)'
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    allocated_draw: 29
-    maximum_draw: 39
+    allocated_draw: 17
+    maximum_draw: 22
 interfaces:
   - name: '1'
     type: 1000base-t
@@ -63,58 +65,6 @@ interfaces:
   - name: '24'
     type: 1000base-t
   - name: '25'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '26'
-    type: 1000base-t
-  - name: '27'
-    type: 1000base-t
-  - name: '28'
-    type: 1000base-t
-  - name: '29'
-    type: 1000base-t
-  - name: '30'
-    type: 1000base-t
-  - name: '31'
-    type: 1000base-t
-  - name: '32'
-    type: 1000base-t
-  - name: '33'
-    type: 1000base-t
-  - name: '34'
-    type: 1000base-t
-  - name: '35'
-    type: 1000base-t
-  - name: '36'
-    type: 1000base-t
-  - name: '37'
-    type: 1000base-t
-  - name: '38'
-    type: 1000base-t
-  - name: '39'
-    type: 1000base-t
-  - name: '40'
-    type: 1000base-t
-  - name: '41'
-    type: 1000base-t
-  - name: '42'
-    type: 1000base-t
-  - name: '43'
-    type: 1000base-t
-  - name: '44'
-    type: 1000base-t
-  - name: '45'
-    type: 1000base-t
-  - name: '46'
-    type: 1000base-t
-  - name: '47'
-    type: 1000base-t
-  - name: '48'
-    type: 1000base-t
-  - name: '49'
-    type: 1000base-x-sfp
-  - name: '50'
-    type: 1000base-x-sfp
-  - name: '51'
-    type: 1000base-x-sfp
-  - name: '52'
     type: 1000base-x-sfp
