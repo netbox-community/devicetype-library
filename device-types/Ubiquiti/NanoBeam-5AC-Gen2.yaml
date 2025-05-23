@@ -2,13 +2,17 @@
 manufacturer: Ubiquiti
 model: NanoBeam 5AC Gen2
 slug: ubiquiti-nanobeam-5ac-gen2
-part_number: NBE-5AC-Ge2n
+part_number: NBE-5AC-Gen2
 u_height: 0
 is_full_depth: false
 comments: '[NanoBeam AC Gen2](https://www.ui.com/airmax/nanobeam-ac-gen2/)'
+weight: 530
+weight_unit: g
+airflow: passive
 interfaces:
   - name: eth0
     type: 1000base-t
     poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: wlan0
     type: ieee802.11ac
