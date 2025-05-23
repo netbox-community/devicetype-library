@@ -1,0 +1,25 @@
+---
+manufacturer: Silex
+model: SD-300AC
+slug: silex-sd-300ac
+part_number: SD-300AC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 305
+weight_unit: g
+front_image: false
+rear_image: false
+comments: SD-300AC Serial Device Server [SD-300 / SD-310AN Product Brochure](https://www.silextechnology.com/hubfs/Product%20Documentation%20Files%20/SD-300-SD-310AN_ds_de.pdf)
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: ETH1
+    type: 100base-tx
+  - name: WLAN0
+    type: ieee802.11ac
+console-server-ports:
+  - name: SERIAL1
+    type: de-9
