@@ -8,6 +8,8 @@ is_full_depth: false
 interfaces:
   - name: FastEthernet0
     type: 100base-tx
-    poe_mode: pd
   - name: Dot11Radio0
     type: ieee802.11g
+power-ports:
+  - name: Power
+    type: dc-terminal
