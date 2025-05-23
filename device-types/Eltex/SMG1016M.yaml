@@ -1,0 +1,33 @@
+---
+manufacturer: Eltex
+model: SMG1016M
+slug: eltex-smg1016m
+part_number: SMG1016M
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 3.2
+weight_unit: kg
+console-ports:
+  - name: console
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 25
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: ge0
+    type: 1000base-t
+  - name: ge1
+    type: 1000base-t
+  - name: ge2
+    type: 1000base-t
+  - name: sfp0
+    type: 1000base-x-sfp
+  - name: sfp1
+    type: 1000base-x-sfp

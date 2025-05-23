@@ -1,0 +1,37 @@
+---
+manufacturer: HPE
+model: OfficeConnect 1820-8G
+slug: hpe-officeconnect-1820-8g
+part_number: J9979A
+u_height: 1
+is_full_depth: false
+airflow: left-to-right
+weight: 0.82
+weight_unit: kg
+front_image: true
+rear_image: false
+comments: '[HPE OfficeConnect 1820 Switch Series](https://www.hpe.com/psnow/doc/c04518995?jumpid=in_lit-psnow-red)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 10
+    maximum_draw: 12
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
