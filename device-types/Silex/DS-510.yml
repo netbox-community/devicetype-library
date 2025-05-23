@@ -10,7 +10,7 @@ weight: 96
 weight_unit: g
 front_image: false
 rear_image: false
-comments: 'DS-510 USB2.0 [DS-510 Product Brochure](https://www.silextechnology.com/hubfs/Resource%20PDF/DS-510%20Product%20Brochure.pdf)'
+comments: DS-510 USB2.0 [DS-510 Product Brochure](https://www.silextechnology.com/hubfs/Resource%20PDF/DS-510%20Product%20Brochure.pdf)
 power-ports:
   - name: PS1
     type: dc-terminal
@@ -18,7 +18,8 @@ power-ports:
 interfaces:
   - name: ETH1
     type: 1000base-t
+console-server-ports:
   - name: USB1
-    type: other
+    type: usb-a
   - name: USB2
-    type: other
+    type: usb-a

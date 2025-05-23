@@ -10,7 +10,7 @@ weight: 118
 weight_unit: g
 front_image: false
 rear_image: false
-comments: 'DS-520AN USB2.0 [DS-520AN Product Brochure](https://www.silextechnology.com/hubfs/Resource%20PDF/DS-520AN%20Product%20Brochure%20.pdf)'
+comments: DS-520AN USB2.0 [DS-520AN Product Brochure](https://www.silextechnology.com/hubfs/Resource%20PDF/DS-520AN%20Product%20Brochure%20.pdf)
 power-ports:
   - name: PS1
     type: dc-terminal
@@ -18,7 +18,8 @@ power-ports:
 interfaces:
   - name: ETH1
     type: 1000base-t
-  - name: USB1
-    type: other
   - name: WLAN0
     type: ieee802.11ac
+console-server-ports:
+  - name: USB1
+    type: usb-a

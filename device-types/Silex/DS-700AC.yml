@@ -10,7 +10,7 @@ weight: 135
 weight_unit: g
 front_image: false
 rear_image: false
-comments: 'DS-700AC USB 3.0 [DS-700AC Product Brochure](https://gzhls.at/blob/ldb/8/3/4/f/7f65daef016ce03911f80b252ae62d17ba71.pdf)'
+comments: DS-700AC USB 3.0 [DS-700AC Product Brochure](https://gzhls.at/blob/ldb/8/3/4/f/7f65daef016ce03911f80b252ae62d17ba71.pdf)
 power-ports:
   - name: PS1
     type: dc-terminal
@@ -18,9 +18,10 @@ power-ports:
 interfaces:
   - name: ETH1
     type: 1000base-t
-  - name: USB1
-    type: other
-  - name: USB2
-    type: other
   - name: WLAN0
     type: ieee802.11ac
+console-server-ports:
+  - name: USB1
+    type: usb-a
+  - name: USB2
+    type: usb-a
