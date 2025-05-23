@@ -19,16 +19,16 @@ interfaces:
     type: ieee802.11ac
   - name: GigabitEthernet0
     type: 1000base-t
-    poe_mode: pd
   - name: GigabitEthernet1
     type: 1000base-t
-    poe_mode: pd
   - name: GigabitEthernet2
     type: 1000base-t
     poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet3
     type: 1000base-t
     poe_mode: pd
+    poe_type: type1-ieee802.3af
 power-ports:
   - name: PS1
     type: iec-60320-c14

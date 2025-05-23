@@ -7,10 +7,14 @@ u_height: 0
 is_full_depth: false
 comments: |
   [Access Point AC Mesh](https://store.ui.com/collections/wireless/products/unifi-ac-mesh-ap)
+weight: 152
+weight_unit: g
+airflow: passive
 interfaces:
   - name: lan0
     type: 1000base-t
     poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: wlan0
     type: ieee802.11n
   - name: wlan1
