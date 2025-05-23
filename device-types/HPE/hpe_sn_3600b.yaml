@@ -1,0 +1,928 @@
+manufacturer: HPE
+model: ProLiant DL360 Gen10
+slug: hpe-proliant-dl360-gen10
+description: ''
+default_platform: null
+part_number: P19766-B21
+u_height: 1.0
+is_full_depth: true
+subdevice_role: null
+airflow: front-to-rear
+weight: 13.04
+weight_unit: kg
+comments: '[HPE ProLiant DL360 G10 Server QuickSpecs](https://www.hpe.com/psnow/doc/a00008159enw)'
+console-ports:
+- name: Serial
+  type: de-9
+  label: ''
+  description: ''
+interfaces:
+- name: iLO
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: Embedded ALOM / Flexible LOM
+  label: ''
+  position: ALOM
+  description: 'rear: bottom left corner. Advanced LOM / Flexible LOM. Interfaces
+    numbered right to left. ALOM cards available e.g. 4x1Gig, 2x10Gig, 4x10Gig, 2x25Gig,
+    2x40G'
+- name: Embedded LOM
+  label: ''
+  position: LOM
+  description: 'rear: right side of the ILO labeled port. Interfaces numbered left
+    to right. LOM port, only 4-Gig Ethernet cards available if purchased.'
+- name: PCI-E Slot 1
+  label: ''
+  position: PCIe1
+  description: 'rear: upper left corner, full/standard-height'
+- name: PCI-E Slot 2
+  label: ''
+  position: PCIe2
+  description: 'rear: upper middle slot, half-height / low-profile'
+- name: PCI-E Slot 3
+  label: ''
+  position: PCIe3
+  description: 'rear: upper right slot, half-height / low-profile'
+- name: PSU Bay 1
+  label: ''
+  position: PSU1
+  description: 'rear: right PSU slot. Type: HPE Flexible Slot (Flex Slot)'
+- name: PSU Bay 2
+  label: ''
+  position: PSU2
+  description: 'rear: left PSU slot. Type: HPE Flexible Slot (Flex Slot)'
+---
+manufacturer: HPE
+model: SAN Switch B-series SN3600B
+slug: san-switch-b-series-sn3600b
+description: ''
+default_platform: null
+part_number: R8P28A
+u_height: 1.0
+is_full_depth: true
+subdevice_role: null
+airflow: front-to-rear
+weight: 5.76
+weight_unit: kg
+comments: ''
+console-ports:
+- name: mgmt
+  type: rj-45
+  label: ''
+  description: ''
+- name: serial
+  type: rj-45
+  label: ''
+  description: ''
+interfaces:
+- name: port0
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port1
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port2
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port3
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port4
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port5
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port6
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port7
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port8
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port9
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port10
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port11
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port12
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port13
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port14
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port15
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port16
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port17
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port18
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port19
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port20
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port21
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port22
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: port23
+  type: 32gfc-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+---
+manufacturer: HPE
+model: StoreEver MSL6480
+slug: hpe-storeever-msl6480
+description: ''
+default_platform: null
+part_number: QU625A
+u_height: 6.0
+is_full_depth: true
+subdevice_role: null
+airflow: front-to-rear
+weight: 43.6
+weight_unit: kg
+comments: HPE StoreEver MSL6480, 80 LTO cartridge slots, 6 LTO Drives FC/SAS, 2 PSU
+  Base module, extendable
+console-ports:
+- name: console
+  type: rj-45
+  label: ''
+  description: ''
+- name: console usb
+  type: usb-a
+  label: ''
+  description: ''
+interfaces:
+- name: mgmt
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: LTO_Drive_1
+  label: ''
+  position: '1'
+  description: ''
+- name: LTO_Drive_2
+  label: ''
+  position: '2'
+  description: ''
+- name: LTO_Drive_3
+  label: ''
+  position: '3'
+  description: ''
+- name: LTO_Drive_4
+  label: ''
+  position: '4'
+  description: ''
+- name: LTO_Drive_5
+  label: ''
+  position: '5'
+  description: ''
+- name: LTO_Drive_6
+  label: ''
+  position: '6'
+  description: ''
+- name: PSU1
+  label: ''
+  position: '7'
+  description: ''
+- name: PSU2
+  label: ''
+  position: '8'
+  description: ''
+---
+manufacturer: HPE
+model: Synergy 12000 Frame
+slug: hpe-synergy-12000-frame
+description: ''
+default_platform: null
+part_number: P06011-B21
+u_height: 10.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 82.0
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04815113)'
+interfaces:
+- name: Front Panel Console
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: Power Supply 1
+  label: ''
+  position: '1'
+  description: ''
+- name: Power Supply 2
+  label: ''
+  position: '2'
+  description: ''
+- name: Power Supply 3
+  label: ''
+  position: '3'
+  description: ''
+- name: Power Supply 4
+  label: ''
+  position: '4'
+  description: ''
+- name: Power Supply 5
+  label: ''
+  position: '5'
+  description: ''
+- name: Power Supply 6
+  label: ''
+  position: '6'
+  description: ''
+device-bays:
+- name: Appliance Bay 1
+  label: ''
+  description: ''
+- name: Appliance Bay 2
+  label: ''
+  description: ''
+- name: Device Bay 1
+  label: ''
+  description: ''
+- name: Device Bay 2
+  label: ''
+  description: ''
+- name: Device Bay 3
+  label: ''
+  description: ''
+- name: Device Bay 4
+  label: ''
+  description: ''
+- name: Device Bay 5
+  label: ''
+  description: ''
+- name: Device Bay 6
+  label: ''
+  description: ''
+- name: Device Bay 7
+  label: ''
+  description: ''
+- name: Device Bay 8
+  label: ''
+  description: ''
+- name: Device Bay 9
+  label: ''
+  description: ''
+- name: Device Bay 10
+  label: ''
+  description: ''
+- name: Device Bay 11
+  label: ''
+  description: ''
+- name: Device Bay 12
+  label: ''
+  description: ''
+- name: Frame Link Module 1
+  label: ''
+  description: ''
+- name: Frame Link Module 2
+  label: ''
+  description: ''
+- name: Interconnect Bay 1
+  label: ''
+  description: ''
+- name: Interconnect Bay 2
+  label: ''
+  description: ''
+- name: Interconnect Bay 3
+  label: ''
+  description: ''
+- name: Interconnect Bay 4
+  label: ''
+  description: ''
+- name: Interconnect Bay 5
+  label: ''
+  description: ''
+- name: Interconnect Bay 6
+  label: ''
+  description: ''
+---
+manufacturer: HPE
+model: Synergy 480 Gen10
+slug: hpe-synergy-480-gen10
+description: ''
+default_platform: null
+part_number: 871940-B21
+u_height: 0.0
+is_full_depth: true
+subdevice_role: child
+airflow: null
+weight: 8.0
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/a00008520enw)'
+---
+manufacturer: HPE
+model: Synergy 480 Gen10 Plus
+slug: hpe-synergy-480-gen10-plus
+description: ''
+default_platform: null
+part_number: P22139-B21
+u_height: 0.0
+is_full_depth: true
+subdevice_role: child
+airflow: null
+weight: 8.0
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/a50004318enw)'
+---
+manufacturer: HPE
+model: Synergy 4-port Frame Link Module
+slug: hpe-synergy-4-port-frame-link-module
+description: ''
+default_platform: null
+part_number: 876852-B21
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: null
+weight: 1.0
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/a00030303enw)'
+console-ports:
+- name: Console
+  type: usb-c
+  label: ''
+  description: ''
+interfaces:
+- name: Appliance 1
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Appliance 2
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: LINK
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: MGMT
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+---
+manufacturer: HPE
+model: Synergy Composer2 Management Appliance
+slug: hpe-synergy-composer2-management-appliance
+description: ''
+default_platform: null
+part_number: 872957-B21
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: null
+weight: 1400.0
+weight_unit: g
+comments: '[QuickSpecs](https://psnow.ext.hpe.com/doc/c04815139)'
+interfaces:
+- name: iLO
+  type: virtual
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Management
+  type: virtual
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+---
+manufacturer: HPE
+model: Virtual Connect SE 100Gb F32 Module for Synergy
+slug: hpe-virtual-connect-se-100gb-f32-module-for-synergy
+description: ''
+default_platform: null
+part_number: 867796-B21
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: null
+weight: 5.0
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/a00067745enw)'
+console-ports:
+- name: interconnect {module}, Serial Console
+  type: usb-micro-b
+  label: ''
+  description: ''
+interfaces:
+- name: interconnect {module}, L1
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP28 (300 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, L2
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP28 (300 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, L3
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP28 (300 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, L4
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP28 (300 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q1
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q2
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q3
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q4
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q5
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q6
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q7
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q8
+  type: 50gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, X1
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, X2
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+---
+manufacturer: HPE
+model: Virtual Connect SE 40Gb F8 Module for Synergy
+slug: hpe-virtual-connect-se-40gb-f8-module-for-synergy
+description: ''
+default_platform: null
+part_number: 794502-B23
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: null
+weight: 5.0
+weight_unit: kg
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04815258)'
+interfaces:
+- name: interconnect {module}, L1
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP (120 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, L2
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP (120 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, L3
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP (120 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, L4
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: CXP (120 Gb/s Interconnect Link)
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q1
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q2
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q3
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q4
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q5
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q6
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q7
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: interconnect {module}, Q8
+  type: 40gbase-x-qsfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
