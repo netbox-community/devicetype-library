@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7060X6-64PE
 slug: arista-dcs-7060x6-64pe
@@ -9,14 +8,11 @@ airflow: front-to-rear
 weight: 21
 weight_unit: kg
 comments: >
-  The Arista DCS-7060X6-64PE is a 2RU fixed-configuration switch featuring 64 OSFP800 ports and 2 SFP+ ports, delivering up to 51.2 Tbps of throughput.
-  It supports flexible port configurations including 800G, 400G, 200G, and 100G, making it ideal for AI/ML workloads and hyperscale data centers.
-  [7060X6 Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
+  The Arista DCS-7060X6-64PE is a 2RU fixed-configuration switch featuring 64 OSFP800 ports and 2 SFP+ ports, delivering up to 51.2 Tbps of throughput. It supports flexible port configurations including 800G, 400G, 200G, and 100G, making it ideal for AI/ML workloads and hyperscale data centers. [7060X6 Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
 
 console-ports:
   - name: Console
     type: rj-45
-
 interfaces:
   - name: Management1
     type: 1000base-t
@@ -154,7 +150,6 @@ interfaces:
     type: 800gbase-x-osfp
   - name: Ethernet64
     type: 800gbase-x-osfp
-
 module-bays:
   - name: Supervisor Slot
     position: S1

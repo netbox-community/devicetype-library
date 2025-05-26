@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7060SX2-48YC6-R
 slug: arista-dcs-7060sx2-48yc6-r
@@ -119,8 +118,8 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet48
     type: 25gbase-x-sfp28
-# QSFP28(100G) ports can be broken into 4x25 with a model of [49-54]/[1-4]
-# QSFP+(40G) ports can be broken into 4x10 with a model of [49-54]/[1-4]
+    # QSFP28(100G) ports can be broken into 4x25 with a model of [49-54]/[1-4]
+    # QSFP+(40G) ports can be broken into 4x10 with a model of [49-54]/[1-4]
   - name: Ethernet49/1
     type: 100gbase-x-qsfp28
   - name: Ethernet50/1

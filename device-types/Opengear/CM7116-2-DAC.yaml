@@ -1,4 +1,3 @@
----
 manufacturer: Opengear
 model: CM7116-2-DAC
 slug: opengear-cm7116-2-dac
@@ -52,7 +51,7 @@ power-ports:
     maximum_draw: 25
     allocated_draw: 20
 interfaces:
-# physical interface labels seem different than config labels
+  # physical interface labels seem different than config labels
   - name: lan
     type: 1000base-t
     mgmt_only: true

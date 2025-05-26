@@ -1,11 +1,8 @@
----
 manufacturer: HPE
 model: HPE Ethernet 1Gb 4-port 331T PCIe Adapter
 part_number: 649871-001
 description: NIC for PCIe port on various HP Proliant Gen9 and Gen10; Apollo Gen9 servers
-comments: "Ethernet 1Gb 4-port 331T adapter, PCIe form-factor. Has four 10/100/1000BASE-T RJ45 ports. Requires CAT5 or better twisted-pair.\r\n\r\n**Discontinued**.\
-  \ See:\r\n\r\n- [QuickSpecs](https://www.hpe.com/psnow/doc/c04111478)\r\n- [System specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=c03225747&docLocale=en_US)\r\
-  \n- [Product Information Reference](https://support.hpe.com/hpesc/public/docDisplay?docId=c03225735&page=index.html)"
+comments: "Ethernet 1Gb 4-port 331T adapter, PCIe form-factor. Has four 10/100/1000BASE-T RJ45 ports. Requires CAT5 or better twisted-pair.\r\n\r\n**Discontinued**. See:\r\n\r\n- [QuickSpecs](https://www.hpe.com/psnow/doc/c04111478)\r\n- [System specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=c03225747&docLocale=en_US)\r\n- [Product Information Reference](https://support.hpe.com/hpesc/public/docDisplay?docId=c03225735&page=index.html)"
 interfaces:
   - name: '{module}/1'
     type: 1000base-t

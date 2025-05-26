@@ -1,8 +1,6 @@
----
 manufacturer: Cisco
 model: VWIC2-1MFT-T1-E1
-comments: This device uses a single E1/T1 combo port. Since E1 supports more D channels and higher bandwidth this is the default interface in this definition.
-  Change as required.
+comments: This device uses a single E1/T1 combo port. Since E1 supports more D channels and higher bandwidth this is the default interface in this definition. Change as required.
 interfaces:
   - name: controller e1 0
     type: e1
