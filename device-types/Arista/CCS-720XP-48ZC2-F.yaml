@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: CCS-720XP-48ZC2-F
 slug: arista-ccs-720xp-48zc2-f
@@ -223,7 +222,7 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet52
     type: 25gbase-x-sfp28
-# QSFP28(100G) ports can be broke into 4x25 with a model of [53-54]/[1-4]
+    # QSFP28(100G) ports can be broke into 4x25 with a model of [53-54]/[1-4]
   - name: Ethernet53/1
     type: 100gbase-x-qsfp28
   - name: Ethernet54/1

@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7280SR3E-40YC6-F
 slug: arista-dcs-7280sr3e-40yc6-f
@@ -103,7 +102,7 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: Ethernet40
     type: 25gbase-x-sfp28
-# QSFP28(100G) ports can be broke into 4x25 with a model of [41-46]/[1-4]
+    # QSFP28(100G) ports can be broke into 4x25 with a model of [41-46]/[1-4]
   - name: Ethernet41/1
     type: 100gbase-x-qsfp28
   - name: Ethernet42/1

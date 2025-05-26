@@ -1,4 +1,3 @@
----
 manufacturer: Netonix
 model: WS-24-400A
 slug: netonix-ws-24-400a
@@ -52,7 +51,7 @@ interfaces:
     type: 1000base-t
   - name: '20'
     type: 1000base-t
-# Ports 21 - 24 are dual purpose 1000base-t / 1000base-x-sfp ports.
+    # Ports 21 - 24 are dual purpose 1000base-t / 1000base-x-sfp ports.
   - name: '21'
     type: 1000base-x-sfp
   - name: '22'

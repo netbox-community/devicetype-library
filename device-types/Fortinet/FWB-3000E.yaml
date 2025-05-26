@@ -1,4 +1,3 @@
----
 manufacturer: Fortinet
 model: FortiWeb 3000E
 part_number: FWB-3000E
@@ -15,7 +14,7 @@ interfaces:
   - name: mgmt2
     type: 1000base-t
     mgmt_only: true
-# ports 1-4, 10G SFP+
+    # ports 1-4, 10G SFP+
   - name: port1
     type: 10gbase-x-sfpp
   - name: port2
@@ -24,7 +23,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: port4
     type: 10gbase-x-sfpp
-# ports 5-8, 1G SFP
+    # ports 5-8, 1G SFP
   - name: port5
     type: 1000base-x-sfp
   - name: port6
@@ -33,8 +32,8 @@ interfaces:
     type: 1000base-x-sfp
   - name: port8
     type: 1000base-x-sfp
-# ports 9-16 can be configured in bypass mode
-# see front/rear-port if you wish to use it like that
+    # ports 9-16 can be configured in bypass mode
+    # see front/rear-port if you wish to use it like that
   - name: port9
     type: 1000base-t
   - name: port10

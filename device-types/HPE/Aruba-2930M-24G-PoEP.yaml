@@ -1,12 +1,10 @@
----
 manufacturer: HPE
 model: Aruba 2930M-24G-PoE+
 slug: hpe-aruba-2930m-24g-poep
 part_number: JL320A
 u_height: 1
 is_full_depth: false
-comments: "IEEE 802.3at Type 2 PoE+ maximum power budget: **840W**. Compatible PSUs:\r\n\r\n- **JL086A** HPE Aruba Networking X372 54V DC **680W** 110-240V\
-  \ AC\r\n- **JL087A** HPE Aruba Networking X372 54V DC **1050W** 110-240V AC\r\n\r\n[HPE Aruba 2930M Switch Series Datasheet](https://www.hpe.com/psnow/doc/a00001977enw)"
+comments: "IEEE 802.3at Type 2 PoE+ maximum power budget: **840W**. Compatible PSUs:\r\n\r\n- **JL086A** HPE Aruba Networking X372 54V DC **680W** 110-240V AC\r\n- **JL087A** HPE Aruba Networking X372 54V DC **1050W** 110-240V AC\r\n\r\n[HPE Aruba 2930M Switch Series Datasheet](https://www.hpe.com/psnow/doc/a00001977enw)"
 weight: 9.92
 weight_unit: lb
 module-bays:
@@ -125,12 +123,12 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  # Dual personality ports option 2
-  # - name: '21'
-  #   type: 1000base-x-sfp
-  # - name: '22'
-  #   type: 1000base-x-sfp
-  # - name: '23'
-  #   type: 1000base-x-sfp
-  # - name: '24'
-  #   type: 1000base-x-sfp
+# Dual personality ports option 2
+# - name: '21'
+#   type: 1000base-x-sfp
+# - name: '22'
+#   type: 1000base-x-sfp
+# - name: '23'
+#   type: 1000base-x-sfp
+# - name: '24'
+#   type: 1000base-x-sfp

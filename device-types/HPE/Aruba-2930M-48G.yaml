@@ -1,4 +1,3 @@
----
 manufacturer: HPE
 model: Aruba 2930M-48G
 slug: hpe-aruba-2930m-48g
@@ -115,7 +114,7 @@ interfaces:
     type: 1000base-t
   - name: '43'
     type: 1000base-t
- # Dual personality ports option 1
+    # Dual personality ports option 1
   - name: '44'
     type: 1000base-t
   - name: '45'
@@ -126,12 +125,12 @@ interfaces:
     type: 1000base-t
   - name: '48'
     type: 1000base-t
- # Dual personality ports option 2
- # - name: '45'
- #   type: 1000base-x-sfp
- # - name: '46'
- #   type: 1000base-x-sfp
- # - name: '47'
- #   type: 1000base-x-sfp
- # - name: '48'
- #   type: 1000base-x-sfp
+# Dual personality ports option 2
+# - name: '45'
+#   type: 1000base-x-sfp
+# - name: '46'
+#   type: 1000base-x-sfp
+# - name: '47'
+#   type: 1000base-x-sfp
+# - name: '48'
+#   type: 1000base-x-sfp

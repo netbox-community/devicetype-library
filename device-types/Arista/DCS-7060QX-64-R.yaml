@@ -1,4 +1,3 @@
----
 manufacturer: Arista
 model: DCS-7060QX-64-R
 slug: arista-dcs-7060qx-64-r
@@ -21,7 +20,7 @@ interfaces:
   - name: Management1
     type: 1000base-t
     mgmt_only: true
-# QSFP+(40G) ports can be broken into 4x10 with a model of [1-64]/[1-4]
+    # QSFP+(40G) ports can be broken into 4x10 with a model of [1-64]/[1-4]
   - name: Ethernet1/1
     type: 40gbase-x-qsfpp
   - name: Ethernet2/1

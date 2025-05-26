@@ -1,9 +1,8 @@
----
 manufacturer: Ubiquiti
 model: USP PDU HD
 part_number: USP-PDU-HD
 slug: ubiquiti-usp-pdu-hd
-u_height: 0  # 0U, mounted at the back of the rack
+u_height: 0 # 0U, mounted at the back of the rack
 is_full_depth: false
 comments: |
   High-density rack-mounted PDU with 24 managed outlets (125V AC, 15A Max.), 4 USB-C ports, and redundant network interfaces.
@@ -29,7 +28,7 @@ interfaces:
 power-ports:
   - name: Power Input
     type: nema-l5-30p
-    maximum_draw: 3750  # Total max draw in watts
+    maximum_draw: 3750 # Total max draw in watts
 power-outlets:
   # Bank 1: Outlets 1-12
   - name: Outlet 1

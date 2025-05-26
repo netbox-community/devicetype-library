@@ -1,4 +1,3 @@
----
 manufacturer: HPE
 model: HP 3100-24 v2 EI
 slug: hpe-hp-3100-24-v2-ei
@@ -64,11 +63,11 @@ interfaces:
     type: 100base-tx
   - name: Ethernet1/0/24
     type: 100base-tx
-# dual personality port
+    # dual personality port
   - name: GigabitEthernet1/0/25
     type: 1000base-t
-# - name: GigabitEthernet1/0/25
-#   type: 1000base-x-sfp
+    # - name: GigabitEthernet1/0/25
+    #   type: 1000base-x-sfp
   - name: GigabitEthernet1/0/26
     type: 1000base-t
 # - name: GigabitEthernet1/0/26

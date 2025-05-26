@@ -1,4 +1,3 @@
----
 manufacturer: HPE
 model: ProLiant DL360 Gen10
 slug: hpe-proliant-dl360-gen10
@@ -22,8 +21,7 @@ interfaces:
 module-bays:
   - name: Embedded ALOM / Flexible LOM
     position: ALOM
-    description: 'rear: bottom left corner. Advanced LOM / Flexible LOM. Interfaces numbered right to left. ALOM cards available e.g. 4x1Gig, 2x10Gig, 4x10Gig,
-      2x25Gig, 2x40G'
+    description: 'rear: bottom left corner. Advanced LOM / Flexible LOM. Interfaces numbered right to left. ALOM cards available e.g. 4x1Gig, 2x10Gig, 4x10Gig, 2x25Gig, 2x40G'
   - name: Embedded LOM
     position: LOM
     description: 'rear: right side of the ILO labeled port. Interfaces numbered left to right. LOM port, only 4-Gig Ethernet cards available if purchased.'

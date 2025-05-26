@@ -1,4 +1,3 @@
----
 manufacturer: Ubiquiti
 model: Enterprise Fortress Gateway
 slug: ubiquiti-enterprise-fortress-gateway
@@ -12,7 +11,6 @@ comments: |
   Weight: 6.5 kg (14.3 lb)
   Max Power Consumption: 82W
   Certifications: CE, FCC, IC
-
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
@@ -25,13 +23,11 @@ interfaces:
     label: Default WAN 1
   - name: Port 2
     type: 2.5gbase-t
-
   # SFP+ 10GbE Ports (3-4)
   - name: Port 3
     type: 10gbase-x-sfpp
   - name: Port 4
     type: 10gbase-x-sfpp
-
   # SFP28 25GbE Ports (5-6)
   - name: Port 5
     type: 25gbase-x-sfp28

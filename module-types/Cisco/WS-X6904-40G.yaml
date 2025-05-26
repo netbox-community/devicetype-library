@@ -1,4 +1,3 @@
----
 manufacturer: Cisco
 model: WS-X6904-40G
 part_number: WS-X6904-40G
@@ -6,9 +5,9 @@ weight: 12.0
 weight_unit: lb
 comments: '[Cisco Catalyst 6900 Series 40 Gigabit Ethernet Interface Module for Cisco Catalyst 6500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/data_sheet_c78-696623.html)'
 interfaces:
-# Two possible optical modes for 4 optical slots (40GE using a CFP-40G or 10GE using a CVR-CFP-4SFP10G):
-#  - name: FortyGigabitEthernet{module}/1
-#    type: 40gbase-x-qsfpp
+  # Two possible optical modes for 4 optical slots (40GE using a CFP-40G or 10GE using a CVR-CFP-4SFP10G):
+  #  - name: FortyGigabitEthernet{module}/1
+  #    type: 40gbase-x-qsfpp
   - name: TenGigabitEthernet{module}/5
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/6
@@ -17,8 +16,8 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/8
     type: 10gbase-x-sfpp
-#  - name: FortyGigabitEthernet{module}/2
-#    type: 40gbase-x-qsfpp
+    #  - name: FortyGigabitEthernet{module}/2
+    #    type: 40gbase-x-qsfpp
   - name: TenGigabitEthernet{module}/9
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/10
@@ -27,8 +26,8 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/12
     type: 10gbase-x-sfpp
-#  - name: FortyGigabitEthernet{module}/3
-#    type: 40gbase-x-qsfpp
+    #  - name: FortyGigabitEthernet{module}/3
+    #    type: 40gbase-x-qsfpp
   - name: TenGigabitEthernet{module}/13
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/14
@@ -37,8 +36,8 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/16
     type: 10gbase-x-sfpp
-#  - name: FortyGigabitEthernet{module}/4
-#    type: 40gbase-x-qsfpp
+    #  - name: FortyGigabitEthernet{module}/4
+    #    type: 40gbase-x-qsfpp
   - name: TenGigabitEthernet{module}/17
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet{module}/18
