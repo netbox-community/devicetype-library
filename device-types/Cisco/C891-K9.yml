@@ -42,6 +42,9 @@ console-ports:
   - name: usb1
     type: usb-a
 power-ports:
-  - name: PSU0
-    type: iec-60320-c14
+  - name: DC-IN
+    type: dc-terminal
     maximum_draw: 60
+  - name: PoE-IN
+    type: poe
+    maximum_draw: 80
