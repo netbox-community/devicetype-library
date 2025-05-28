@@ -1,9 +1,9 @@
 ---
 manufacturer: Cisco
-model: C9K-PWR-650WAC-R
-part_number: C9K-PWR-650WAC-R
+model: C9K-PWR-1500WAC
+part_number: C9K-PWR-1500WAC
 comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
 power-ports:
   - name: PSU{module}
-    type: iec-60320-c16
-    maximum_draw: 650
+    type: iec-60320-c22
+    maximum_draw: 1500
