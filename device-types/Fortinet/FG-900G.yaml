@@ -12,15 +12,6 @@ comments: '[Fortinet FortiGate 900G Data Sheet](https://www.fortinet.com/content
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 252
-    allocated_draw: 134
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 252
-    allocated_draw: 134
 interfaces:
   - name: ha
     type: 2.5gbase-t
@@ -95,3 +86,8 @@ interfaces:
   - name: X8
     type: 25gbase-x-sfp28
     comments: ULL (ultra-low latency)
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
