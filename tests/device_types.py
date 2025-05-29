@@ -263,6 +263,17 @@ def validate_components(component_types, device_or_module):
                 return False
             known_components.append(eval_component)
             known_names.add(name)
+            # Bi-directional POE validation for interfaces
+            if component_type == "interfaces":
+                poe_mode_present = "poe_mode" in component and bool(component["poe_mode"])
+                poe_type_present = "poe_type" in component and bool(component["poe_type"])
+
+                if poe_mode_present and not poe_type_present:
+                    device_or_module.failureMessage = f'{device_or_module.file_path} has "poe_mode" defined in an interface without a matching "poe_type".'
+                    return False
+                if poe_type_present and not poe_mode_present:
+                    device_or_module.failureMessage = f'{device_or_module.file_path} has "poe_type" defined in an interface without a matching "poe_mode".'
+                    return False
 
         # Adding check for duplicate positions within a component type
         # Stems from https://github.com/netbox-community/devicetype-library/pull/1586
