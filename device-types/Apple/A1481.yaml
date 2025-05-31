@@ -11,6 +11,7 @@ comments: |
 power-ports:
   - name: Power
     type: iec-60320-c14
+    maximum_draw: 450
 interfaces:
   - name: eth0
     type: 1000base-t
