@@ -16,7 +16,10 @@ rear_image: false
 is_powered: true
 interfaces:
   - name: ether1
-    type: 1000base-t
+    type: 10gbase-t
+    mgmt_only: true
+  - name: ether2
+    type: 10gbase-t
     mgmt_only: true
   - name: qsfp28-1-1
     type: 100gbase-x-qsfp28
@@ -58,10 +61,6 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: sfp28-4
     type: 25gbase-x-sfp28
-  - name: sfp-sfpplus1
-    type: 10gbase-x-sfpp
-  - name: sfp-sfpplus2
-    type: 10gbase-x-sfpp
 console-ports:
   - name: serial0
     type: rj-45

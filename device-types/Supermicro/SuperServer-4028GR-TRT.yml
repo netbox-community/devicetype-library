@@ -1,0 +1,27 @@
+---
+manufacturer: Supermicro
+model: SuperServer 4028GR-TRT
+slug: supermicro-superserver-4028gr-trt
+part_number: SYS-4028GR-TRT07-NC24B
+u_height: 4
+is_full_depth: true
+weight: 29.7
+weight_unit: kg
+airflow: front-to-rear
+interfaces:
+  - name: Eth-1
+    type: 1000base-t
+  - name: Eth-2
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU 1
+    position: PSU-1
+  - name: PSU 2
+    position: PSU-2
+  - name: PSU 3
+    position: PSU-3
+  - name: PSU 4
+    position: PSU-4
