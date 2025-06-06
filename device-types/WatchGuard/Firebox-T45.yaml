@@ -1,0 +1,30 @@
+---
+manufacturer: WatchGuard
+model: Firebox T45
+slug: watchguard-firebox-t45
+u_height: 0
+subdevice_role: child
+is_full_depth: false
+airflow: left-to-right
+comments: '[Watchguard Firebox T45 Hardware Guide](https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Hardware-Guides/firebox-t45-hardware-guide.html)'
+front_image: true
+rear_image: true
+weight: 0.88
+weight_unit: kg
+console-ports:
+  - name: mgmnt
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+  - name: eth4
+    type: 1000base-t

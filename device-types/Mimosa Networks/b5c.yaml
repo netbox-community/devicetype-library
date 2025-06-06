@@ -10,6 +10,7 @@ interfaces:
     label: Ethernet
     type: 1000base-t
     poe_mode: pd
+    poe_type: passive-48v-2pair
   - name: wifi0
     label: Wireless
     type: ieee802.11ax

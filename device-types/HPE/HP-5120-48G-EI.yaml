@@ -2,10 +2,12 @@
 manufacturer: HPE
 model: HP 5120-48G EI
 slug: hpe-hp-5120-48g-ei
-part_number: JE069A
+part_number: JE067A
 u_height: 1
 is_full_depth: false
-comments: '[HPE 5120 EI Switch Series](https://www.hpe.com/psnow/doc/c04111657.pdf?jumpid=in_lit-psnow-getpdf)'
+front_image: true
+rear_image: true
+comments: '[HPE 5120 EI Switch Series](https://www.hpe.com/psnow/doc/c04111657.pdf) [Install Guide](https://support.hpe.com/hpesc/public/docDisplay?docId=c03580479)'
 weight: 5
 weight_unit: kg
 console-ports:
@@ -15,11 +17,6 @@ power-ports:
   - name: PS1
     type: iec-60320-c14
     maximum_draw: 145
-module-bays:
-  - name: port expansion module slot1
-    position: slot1
-  - name: port expansion module slot2
-    position: slot2
 interfaces:
   - name: GigabitEthernet 1/0/1
     type: 1000base-t
