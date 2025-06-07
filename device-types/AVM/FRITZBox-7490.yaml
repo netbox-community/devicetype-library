@@ -1,0 +1,43 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 7490
+slug: avm-fritzbox-7490
+part_number: '20002678'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 7490 Datasheet](https://fritz.com/fileadmin/user_upload/Global/Produkte/FRITZBox/7490/Special_en/7490_special_en.html)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 25
+interfaces:
+  - name: DSL
+    label: DSL
+    type: xdsl
+  - name: FON1
+    label: FON 1
+    type: other
+  - name: FON2
+    label: FON 2
+    type: other
+  - name: FONS0
+    label: FON S0
+    type: other
+  - name: WAN
+    label: WAN
+    type: 1000base-t
+  - name: LAN1
+    label: LAN 1
+    type: 1000base-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+  - name: LAN4
+    label: LAN 4
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac
