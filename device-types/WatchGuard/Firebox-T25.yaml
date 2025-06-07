@@ -17,6 +17,7 @@ console-ports:
 power-ports:
   - name: PSU0
     type: dc-terminal
+    maximum_draw: 21
 interfaces:
   - name: eth0
     type: 1000base-t
