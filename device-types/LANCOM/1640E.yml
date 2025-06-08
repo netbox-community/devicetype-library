@@ -7,6 +7,7 @@ u_height: 0
 is_full_depth: false
 weight: 600
 weight_unit: g
+airflow: passive
 front_image: false
 rear_image: true
 comments: '[LANCOM 1640E Data sheet](https://www.lancom-systems.de/download/LC-1640E/DS_1640E_DE.pdf)'
@@ -22,8 +23,6 @@ interfaces:
   - name: ETH-2
     type: 1000base-t
   - name: ETH-3
-    type: 1000base-t
-  - name: ETH-4
     type: 1000base-t
 console-ports:
   - name: USB
