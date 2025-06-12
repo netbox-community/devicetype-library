@@ -1,10 +1,11 @@
+---
 manufacturer: Supermicro
-model: X8STi
-slug: x8sti
-part_number: X8STi
+model: Motherboard X8STi
+slug: supermicro-mbd-x8sti
+part_number: MBD-X8STi
 u_height: 1
 is_full_depth: true
-comments: "Supermicro X8STi motherboard - LGA1366, 2x1GbE, 6xDDR3, IPMI supported"
+comments: Supermicro X8STi motherboard - LGA1366, 2x1GbE, 6xDDR3, IPMI supported
 
 interfaces:
   - name: eth0
@@ -13,9 +14,6 @@ interfaces:
   - name: eth1
     type: 1000base-t
     mgmt_only: false
-console-ports:
-  - name: VGA
-    type: vga
 power-ports:
   - name: PSU1
     type: iec-60320-c14
@@ -24,19 +22,19 @@ module-bays: []
 inventory-items:
   - name: CPU socket LGA1366
     part_id: LGA1366
-    description: "Supports Intel Core i7 / Xeon 5500/3500 (Socket LGA1366)"
+    description: Supports Intel Core i7 / Xeon 5500/3500 (Socket LGA1366)
   - name: Memory slots
     part_id: DDR3 DIMM
-    description: "6x DDR3 slots supporting up to 24GB ECC/no-ECC DDR3 800/1066/1333 MHz"
+    description: 6x DDR3 slots supporting up to 24GB ECC/no-ECC DDR3 800/1066/1333 MHz
   - name: Chipset
     part_id: Intel X58 + ICH10R
-    description: "Intel X58 chipset with ICH10R southbridge"
+    description: Intel X58 chipset with ICH10R southbridge
   - name: BMC controller
     part_id: Winbond WPCM450
-    description: "Integrated BMC supporting IPMI 2.0 and KVM over LAN"
+    description: Integrated BMC supporting IPMI 2.0 and KVM over LAN
   - name: Video controller
     part_id: Matrox G200eW
-    description: "Integrated VGA graphics (16 MB DDR2)"
+    description: Integrated VGA graphics (16 MB DDR2)
   - name: SATA controller
     part_id: ICH10R
-    description: "6x SATA 3Gb/s ports with RAID 0/1/5/10 support"
+    description: 6x SATA 3Gb/s ports with RAID 0/1/5/10 support
