@@ -1,32 +1,11 @@
----
 manufacturer: Supermicro
-model: Motherboard X8STi
-slug: supermicro-mbd-x8sti
-part_number: MBD-X8STi
+model: X8STi
+slug: x8sti
+part_number: X8STi
 u_height: 1
 is_full_depth: true
-airflow: front-to-rear
-comments: Supermicro motherboard X8STi (https://www.supermicro.com/products/archive/motherboard/x8sti)
-subdevice_role: child
-module-bays:
-  - name: PCI-E 1
-    position: "1"
-    description: PCI-E 2.0 x16
-  - name: PCI-E 2
-    position: "2"
-    description: PCI-E 2.0 x16
-  - name: PCI-E 3
-    position: "3"
-    description: PCI-E x4 (in x8 slot)
-  - name: PCI 1
-    position: "4"
-    description: 32-bit 33MHz PCI
-  - name: PCI 2
-    position: "5"
-    description: 32-bit 33MHz PCI
-  - name: PCI 3
-    position: "6"
-    description: 32-bit 33MHz PCI
+comments: "Supermicro X8STi motherboard - LGA1366, 2x1GbE, 6xDDR3, IPMI supported"
+
 interfaces:
   - name: eth0
     type: 1000base-t
@@ -36,17 +15,28 @@ interfaces:
     mgmt_only: false
 console-ports:
   - name: VGA
-    type: other
-console-server-ports: []
+    type: vga
 power-ports:
   - name: PSU1
     type: iec-60320-c14
 device-bays: []
+module-bays: []
 inventory-items:
-  - name: CPU
-    manufacturer: Intel
-    part_id: Xeon 3400 Series
-    description: "Supports Intel Xeon 3400 Series CPUs"
-  - name: RAM
-    part_id: DDR3
-    description: "Supports DDR3 ECC UDIMM"
+  - name: CPU socket LGA1366
+    part_id: LGA1366
+    description: "Supports Intel Core i7 / Xeon 5500/3500 (Socket LGA1366)"
+  - name: Memory slots
+    part_id: DDR3 DIMM
+    description: "6x DDR3 slots supporting up to 24GB ECC/no-ECC DDR3 800/1066/1333 MHz"
+  - name: Chipset
+    part_id: Intel X58 + ICH10R
+    description: "Intel X58 chipset with ICH10R southbridge"
+  - name: BMC controller
+    part_id: Winbond WPCM450
+    description: "Integrated BMC supporting IPMI 2.0 and KVM over LAN"
+  - name: Video controller
+    part_id: Matrox G200eW
+    description: "Integrated VGA graphics (16 MB DDR2)"
+  - name: SATA controller
+    part_id: ICH10R
+    description: "6x SATA 3Gb/s ports with RAID 0/1/5/10 support"
