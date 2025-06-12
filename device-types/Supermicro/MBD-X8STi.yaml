@@ -1,0 +1,52 @@
+---
+manufacturer: Supermicro
+model: Motherboard X8STi
+slug: supermicro-mbd-x8sti
+part_number: MBD-X8STi
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X8STi (https://www.supermicro.com/products/archive/motherboard/x8sti)
+subdevice_role: child
+module-bays:
+  - name: PCI-E 1
+    position: "1"
+    description: PCI-E 2.0 x16
+  - name: PCI-E 2
+    position: "2"
+    description: PCI-E 2.0 x16
+  - name: PCI-E 3
+    position: "3"
+    description: PCI-E x4 (in x8 slot)
+  - name: PCI 1
+    position: "4"
+    description: 32-bit 33MHz PCI
+  - name: PCI 2
+    position: "5"
+    description: 32-bit 33MHz PCI
+  - name: PCI 3
+    position: "6"
+    description: 32-bit 33MHz PCI
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: false
+console-ports:
+  - name: VGA
+    type: other
+console-server-ports: []
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+device-bays: []
+inventory-items:
+  - name: CPU
+    manufacturer: Intel
+    part_id: Xeon 3400 Series
+    description: "Supports Intel Xeon 3400 Series CPUs"
+  - name: RAM
+    part_id: DDR3
+    description: "Supports DDR3 ECC UDIMM"
