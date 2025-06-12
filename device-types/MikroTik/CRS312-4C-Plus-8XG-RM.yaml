@@ -4,34 +4,70 @@ model: CRS312-4C+8XG-RM
 slug: mikrotik-crs312-4c-plus-8xg-rm
 is_full_depth: false
 u_height: 1
+comments: |
+  Ports 1T-4T and 1F-4F are actualy four XOR'ed COMBO ports.
+  They can be used either as RJ-45 or SFP+.
+  See https://mikrotik.com/product/crs312_4c_8xg_rm
 interfaces:
-  - name: xether1
+  - name: ether1
+    type: 10gbase-t
+    label: Port1
+  - name: ether2
+    type: 10gbase-t
+    label: Port2
+  - name: ether3
+    type: 10gbase-t
+    label: Port3
+  - name: ether4
+    type: 10gbase-t
+    label: Port4
+  - name: ether5
+    type: 10gbase-t
+    label: Port5
+  - name: ether6
+    type: 10gbase-t
+    label: Port6
+  - name: ether7
+    type: 10gbase-t
+    label: Port7
+  - name: ether8
+    type: 10gbase-t
+    label: Port8
+  - name: ether9
+    type: 10gbase-t
+    label: COMBO1T
+  - name: ether10
+    type: 10gbase-t
+    label: COMBO2T
+  - name: ether11
+    type: 10gbase-t
+    label: COMBO3T
+  - name: ether12
+    type: 10gbase-t
+    label: COMBO4T
+  - name: sfp1
     type: 10gbase-x-sfpp
-  - name: xether2
+    label: COMBO1F
+  - name: sfp2
     type: 10gbase-x-sfpp
-  - name: xether3
+    label: COMBO2F
+  - name: sfp3
     type: 10gbase-x-sfpp
-  - name: xether4
+    label: COMBO3F
+  - name: sfp4
     type: 10gbase-x-sfpp
-  - name: xether5
-    type: 10gbase-x-sfpp
-  - name: xether6
-    type: 10gbase-x-sfpp
-  - name: xether7
-    type: 10gbase-x-sfpp
-  - name: xether8
-    type: 10gbase-x-sfpp
-  - name: combo1
-    type: 10gbase-x-sfpp
-  - name: combo2
-    type: 10gbase-x-sfpp
-  - name: combo3
-    type: 10gbase-x-sfpp
-  - name: combo4
-    type: 10gbase-x-sfpp
+    label: COMBO4F
+  - name: mgmt1
+    type: rj-45
+    label: MGMT/BOOT
+    mgmt_only: true
 console-ports:
-  - name: serial0
+  - name: serial1
     type: rj-45
 power-ports:
-  - name: PSU0
-    type: dc-terminal
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 60
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 60
