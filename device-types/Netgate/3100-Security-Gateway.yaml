@@ -3,10 +3,12 @@ manufacturer: Netgate
 model: 3100 Security Gateway
 slug: netgate-3100-security-gateway
 u_height: 1
-weight: 1.35
-weight_unit: kg
 is_full_depth: false
 airflow: passive
+weight: 1.35
+weight_unit: kg
+comments: |
+  See https://docs.netgate.com/pfsense/en/latest/solutions/sg-3100/index.html
 console-ports:
   - name: console-usb
     type: usb-mini-b
