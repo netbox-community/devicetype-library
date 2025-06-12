@@ -11,6 +11,11 @@ airflow: passive
 weight: null
 weight_unit: null
 comments: 'https://firewalla.com/products/firewalla-gold-plus'
+console-ports:
+- name: Console01
+  type: rj-45
+  label: ''
+  description: ''
 power-ports:
 - name: Power01
   type: dc-terminal
