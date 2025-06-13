@@ -1,20 +1,20 @@
 ---
 manufacturer: LANCOM
-model: 1793VAW
-slug: lancom-1793vaw
-part_number: '62115'
+model: 1781VA
+slug: lancom-1781va
+part_number: 1781VA
 u_height: 0
 is_full_depth: false
-weight: 520
+weight: 600
 weight_unit: g
-subdevice_role: child
+airflow: passive
 front_image: false
 rear_image: true
-comments: '[LANCOM 1793VAW Data sheet](https://www.lancom-systems.de/download/LC-1793VAW/DS_1793VAW_DE.pdf)'
+comments: '[LANCOM 1781VA Data sheet](https://www.lancom-systems.de/download/LC-1781VA/DS_1781VA_DE.pdf)'
 power-ports:
   - name: PS1
     type: dc-terminal
-    maximum_draw: 17
+    maximum_draw: 14
 interfaces:
   - name: ETH-1
     type: 1000base-t
@@ -26,16 +26,8 @@ interfaces:
     type: 1000base-t
   - name: VDSL/ADSL
     type: xdsl
-  - name: Analog 2/4
-    type: other
-  - name: Analog 1/3
-    type: other
-  - name: ISDN 1
+  - name: ISDN-S0
     type: 1000base-t
-  - name: ISDN 2
-    type: 1000base-t
-  - name: WLAN-1
-    type: ieee802.11n
 console-ports:
   - name: USB
     type: usb-a
