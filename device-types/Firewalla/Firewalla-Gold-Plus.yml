@@ -9,8 +9,8 @@ u_height: 1.0
 is_full_depth: false
 subdevice_role: ''
 airflow: passive
-weight: null
-weight_unit: ''
+weight: 19.9
+weight_unit: 'oz'
 comments: ''
 console-ports:
   - name: Console01
@@ -20,8 +20,8 @@ console-ports:
 power-ports:
   - name: Power01
     type: dc-terminal
-    maximum_draw: null
-    allocated_draw: null
+    maximum_draw: 15
+    allocated_draw: 10
     label: ''
     description: Standard Barrel Plug
 interfaces:
