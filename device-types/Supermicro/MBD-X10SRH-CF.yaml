@@ -27,46 +27,46 @@ interfaces:
 # Counting up from the slot closest to the CPU/RAM
 module-bays:
   - name: PCI-E 1
-    position: "1"
+    position: '1'
     description: PCIe 3.0 x4 (in x8 slot) [CPU SLOT7]
   - name: PCI-E 2
-    position: "2"
+    position: '2'
     description: PCIe 3.0 x8 (in x16 slot) [CPU SLOT6]
   - name: PCI-E 3
-    position: "3"
+    position: '3'
     description: PCIe 3.0 x8 [CPU SLOT5]
   - name: PCI-E 4
-    position: "4"
+    position: '4'
     description: PCIe 3.0 x8 [CPU SLOT4]
   - name: PCI-E 5
-    position: "5"
+    position: '5'
     description: PCIe 2.0 x2 (in x4 slot) [PCH SLOT3]
   - name: PCI-E 6
-    position: "6"
+    position: '6'
     description: PCIe 2.0 x4 (in x8 slot) [PCH SLOT2]
 
   # DIMM also counts as a module-bay, i think?
   - name: DIMM A1
-    position: "1"
+    position: '1'
     description: DDR4 DIMM slot (Blue)
   - name: DIMM A2
-    position: "2"
+    position: '2'
     description: DDR4 DIMM slot (White)
   - name: DIMM B1
-    position: "3"
+    position: '3'
     description: DDR4 DIMM slot (Blue)
   - name: DIMM B2
-    position: "4"
+    position: '4'
     description: DDR4 DIMM slot (White)
   - name: DIMM C1
-    position: "5"
+    position: '5'
     description: DDR4 DIMM slot (Blue)
   - name: DIMM C2
-    position: "6"
+    position: '6'
     description: DDR4 DIMM slot (White)
   - name: DIMM D1
-    position: "7"
+    position: '7'
     description: DDR4 DIMM slot (Blue)
   - name: DIMM D2
-    position: "8"
+    position: '8'
     description: DDR4 DIMM slot (White)
