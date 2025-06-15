@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../../schema/devicetype.json
+---
+manufacturer: Ubiquiti
+model: Unifi G3 Pro
+slug: ubiquiti-unifi-uvc-g3-pro
+part_number: UVC-G3-Pro
+# Ubiquiti does not keep product links up, best I can do is the datasheet
+comments: |
+  Varifocal Full HD (1080p) bullet camera with 3x optical zoom and powerful infrared LEDs. IP67 rated.
+  "[G3 Pro Datasheet](https://dl.ui.com/ds/uvc-g3-pro_ds.pdf)"
+# This includes the mount which weighs 20g
+weight: 660
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    # or type2-ieee802.3at or their passive 24v variant
+    poe_type: type1-ieee802.3af
+    mgmt_only: false
