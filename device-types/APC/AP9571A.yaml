@@ -1,0 +1,48 @@
+---
+manufacturer: APC
+model: AP9571A
+slug: apc-ap9571a
+part_number: AP9571A
+u_height: 1
+weight: 2.55
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+front_image: false
+rear_image: false
+comments: Rack PDU, Basic, 1U, 30A, 208V, (10) C13
+power-ports:
+  - name: Source
+    type: nema-l6-30p
+    comments: 12ft cord
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Source
