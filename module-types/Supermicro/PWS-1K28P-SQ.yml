@@ -1,0 +1,13 @@
+---
+manufacturer: Supermicro
+model: PWS-1K28P-SQ
+part_number: PWS-1K28P-SQ
+description: 1000W 1U Redundant Power Supply
+comments: |
+  "[Datasheet](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-1K28P-SQ/PWS-1K28P-SQ_quick_spec.pdf)"
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    # 1000W @ 100-140Vac
+    # 1280W @ 200-240Vac
+    maximum_draw: 1000
