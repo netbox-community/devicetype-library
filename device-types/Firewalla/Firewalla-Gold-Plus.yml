@@ -2,11 +2,11 @@
 manufacturer: Firewalla
 model: Firewalla Gold Plus
 slug: firewalla-gold-plus
-u_height: 1.0
+u_height: 1
 is_full_depth: false
 airflow: passive
 weight: 19.9
-weight_unit: 'oz'
+weight_unit: oz
 console-ports:
   - name: Console01
     type: rj-45
@@ -19,22 +19,12 @@ power-ports:
 interfaces:
   - name: GigE0/1
     type: 2.5gbase-t
-    enabled: true
-    mgmt_only: false
   - name: GigE0/2
     type: 2.5gbase-t
-    enabled: true
-    mgmt_only: false
   - name: GigE0/3
     type: 2.5gbase-t
-    enabled: true
-    mgmt_only: false
   - name: GigE0/4
     type: 2.5gbase-t
-    enabled: true
-    mgmt_only: false
   - name: USB01
     type: other
     description: USB port for Wifi Adapter, etc.
-    enabled: true
-    mgmt_only: false
