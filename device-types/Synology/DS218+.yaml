@@ -1,0 +1,21 @@
+---
+manufacturer: Synology
+model: DS218+
+slug: synology-ds218-plus
+part_number: DS218+
+airflow: front-to-rear
+front_image: true
+rear_image: true
+u_height: 0
+comments: '[Synology DS218+ Specs](https://www.synology.com/en-us/support/download/DS218+)'
+is_full_depth: false
+weight: 1.3
+weight_unit: kg
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 17
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
