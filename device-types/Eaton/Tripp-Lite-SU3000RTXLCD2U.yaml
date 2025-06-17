@@ -1,0 +1,43 @@
+---
+manufacturer: Eaton
+model: Tripp Lite SU3000RTXLCD2U
+slug: eaton-tripp-lite-su3000rtxlcd2u
+part_number: '037332180100'
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 70.5
+weight_unit: lb
+comments: UPS NEMA L5-30P input; 4 NEMA 5-15R, 4 5-15/20R & 1 L5-30R outlets
+console-ports:
+  - name: COM 1
+    type: usb-b
+  - name: COM 2
+    type: de-9
+power-ports:
+  - name: Primary
+    type: nema-5-30p
+    maximum_draw: 2400
+power-outlets:
+  - name: '1'
+    type: nema-5-30r
+  - name: '2'
+    type: nema-5-20r
+  - name: '3'
+    type: nema-5-20r
+  - name: '4'
+    type: nema-5-20r
+  - name: '5'
+    type: nema-5-20r
+  - name: '6'
+    type: nema-5-15r
+  - name: '7'
+    type: nema-5-15r
+  - name: '8'
+    type: nema-5-15r
+  - name: '9'
+    type: nema-5-15r
+module-bays:
+  - name: Accessory Slot
+    position: '1'
