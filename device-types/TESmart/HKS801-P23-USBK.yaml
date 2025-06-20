@@ -1,0 +1,65 @@
+---
+manufacturer: TESmart
+model: HKS801-P23-USBK
+slug: tesmart-hks801-p23-usbk
+part_number: HKS801-P23-USBK
+comments: |
+  [Upgraded 8 Port HDMI KVM Switch with USB 3.0 (5Gbps), 4K60Hz, and RS232/LAN Control](https://www.tesmart.com/products/hks801-p23)
+
+is_full_depth: false
+weight: 1.9
+weight_unit: kg
+u_height: 1
+
+airflow: passive
+front_image: true
+rear_image: true
+
+power-ports:
+  - name: DC In
+    type: dc-terminal
+    maximum_draw: 1
+    description: DC 12 V
+# The device uses RS232 as the primary control.
+# There is a LAN port but the only thing on it is is a basic serial-over-tcp
+# I can't find prescient for an IR port, so I'm not including it here.
+console-ports:
+  - name: console
+    label: RS232
+    type: other
+  - name: lan
+    label: LAN
+    type: rj-45
+  # There are dedicated USB ports for keyboard and mouse
+  - name: keyboard
+    label: USB Keyboard
+    type: usb-a
+  - name: mouse
+    label: USB Mouse
+    type: usb-a
+
+console-server-ports:
+  - name: KVM/1
+    label: "1"
+    type: other
+  - name: KVM/2
+    label: "2"
+    type: other
+  - name: KVM/3
+    label: "3"
+    type: other
+  - name: KVM/4
+    label: "4"
+    type: other
+  - name: KVM/5
+    label: "5"
+    type: other
+  - name: KVM/6
+    label: "6"
+    type: other
+  - name: KVM/7
+    label: "7"
+    type: other
+  - name: KVM/8
+    label: "8"
+    type: other
