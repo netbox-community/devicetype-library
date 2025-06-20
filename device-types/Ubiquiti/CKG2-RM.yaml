@@ -18,6 +18,10 @@ rear_image: true
 # When inserted, it should be modeled as a child of this parent device.
 # Unclear how best to model this for this repo; probably best to let user modify the cloud-key manually post import?
 subdevice_role: parent
+module-bays:
+  - name: '1'
+    label: Cloud Key
+    position: '1'
 
 interfaces:
   - name: eth0
