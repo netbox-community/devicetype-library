@@ -22,6 +22,6 @@ subdevice_role: parent
 interfaces:
   - name: eth0
     type: 1000base-t
-    poe_mode: pse
+    poe_mode: pd
     poe_type: type1-ieee802.3af
     mgmt_only: true
