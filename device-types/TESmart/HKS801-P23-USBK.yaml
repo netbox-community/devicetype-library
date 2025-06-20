@@ -20,16 +20,12 @@ power-ports:
     type: dc-terminal
     maximum_draw: 1
     description: DC 12 V
-# The device uses RS232 as the primary control.
-# There is a LAN port but the only thing on it is a basic serial-over-tcp
+# The device uses RS232 as the primary control but supports IR and LAN control as well.
 # I can't find precedent for an IR port, so I'm not including it here.
 console-ports:
   - name: console
     label: RS232
     type: other
-  - name: lan
-    label: LAN
-    type: rj-45
   # There are dedicated USB ports for keyboard and mouse
   - name: keyboard
     label: USB Keyboard
@@ -37,6 +33,14 @@ console-ports:
   - name: mouse
     label: USB Mouse
     type: usb-a
+
+# There is a LAN por on the front that exposes the serial port over TCP/IP
+# There is no web interface to speak of.
+interfaces:
+  - name: LAN
+    type: 100base-t
+    mgmt_only: true
+    description: 10/100 Mbps Ethernet port for serial over IP control
 
 console-server-ports:
   - name: KVM/1
