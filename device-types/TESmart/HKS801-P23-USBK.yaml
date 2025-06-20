@@ -38,7 +38,7 @@ console-ports:
 # There is no web interface to speak of.
 interfaces:
   - name: LAN
-    type: 100base-t
+    type: 100base-tx
     mgmt_only: true
     description: 10/100 Mbps Ethernet port for serial over IP control
 
