@@ -14,8 +14,8 @@ weight_unit: g
 airflow: passive
 front_image: true
 rear_image: true
-# This is always a parent device. The cloudkey that inserts into it could be a child device.
-# But if it's standalone, it is still a parent device.
+# This is always a parent device. When standalone, the cloud key is technically is not a parent or child.
+# When inserted, it should be modeled as a child of this parent device.
 # Unclear how best to model this for this repo; probably best to let user modify the cloud-key manually post import?
 subdevice_role: parent
 
