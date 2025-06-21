@@ -1,0 +1,11 @@
+---
+manufacturer: Supermicro
+model: PWS-920P-SQ
+part_number: PWS-920P-SQ
+description: 920W 1U Redundant Power Supply
+comments: |
+  "[Datasheet](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-920P-SQ/PWS-920P-SQ_quick_spec.pdf)"
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 920
