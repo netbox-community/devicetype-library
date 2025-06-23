@@ -9,15 +9,18 @@ airflow: front-to-rear
 weight: 39
 weight_unit: kg
 comments: >
-  The Arista DCS-7368X4 is a 4RU modular data center switch delivering up to 12.8 Tbps of system forwarding capacity and supporting up to 128 x 100G or
+  The Arista DCS-7368X4 is a 4RU modular data center switch delivering up to 12.8
+  Tbps of system forwarding capacity and supporting up to 128 x 100G or
   32 x 400G ports.
-  It features 8 I/O module slots, a single supervisor slot, and is optimized for hyperscale cloud and AI/ML workloads.
+  It features 8 I/O module slots, a single supervisor slot, and is optimized for hyperscale
+  cloud and AI/ML workloads.
   [Arista 7368X4 Series Overview](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf)
-
 console-ports:
   - name: Console
     type: rj-45
 
+front_image: true
+rear_image: true
 interfaces:
   - name: Management1
     type: 1000base-t
