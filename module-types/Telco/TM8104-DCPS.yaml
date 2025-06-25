@@ -8,10 +8,9 @@ weight: null
 weight_unit: null
 comments: ''
 power-ports:
-- name: DC{module}
-  type: dc-terminal
-  maximum_draw: 400
-  allocated_draw: null
-  label: ''
-  description: ''
-  
+  - name: 'DC{module}'
+    type: dc-terminal
+    maximum_draw: 400
+    allocated_draw: null
+    label: ''
+    description: ''
