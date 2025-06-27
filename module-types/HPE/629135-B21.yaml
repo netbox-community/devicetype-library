@@ -1,0 +1,15 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 1Gb 4-port 331FLR Adapter
+part_number: 629135-B21 or 629135-B22
+description: NIC for Embedded LOM port on various HPE Proliant Gen8, Gen9 and Gen10; Apollo Gen9 servers
+comments: [QuickSpecs](https://www.hpe.com/psnow/doc/c04111540)
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-t
+  - name: '{module}/2'
+    type: 1000base-t
+  - name: '{module}/3'
+    type: 1000base-t
+  - name: '{module}/4'
+    type: 1000base-t
