@@ -1,417 +1,115 @@
 ---
 manufacturer: UfiSpace
 model: S9600-32X
-slug: s9600-32x
+slug: ufispace-s9600-32x
 description: 32 QSFP28 Port Router
-default_platform: null
 part_number: S9600-32X
 u_height: 2
 is_full_depth: true
-subdevice_role: null
 airflow: front-to-rear
 weight: 17.73
 weight_unit: kg
-comments: ''
 front_image: true
 rear_image: true
 console-ports:
   - name: Console
     type: rj-45
-    label: ''
-    description: ''
 interfaces:
   - name: ce0
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: 'May be disabled and replaced by xe0-3, requires reboot'
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
+    description: May be disabled and replaced by xe0-3, requires reboot
   - name: ce1
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce2
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce3
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce4
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce5
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce6
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce7
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce8
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce9
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce10
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce11
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce12
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce13
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce14
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce15
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce16
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce17
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce18
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce19
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce20
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce21
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce22
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce23
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce24
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce25
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce26
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce27
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce28
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce29
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce30
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: ce31
     type: 100gbase-x-qsfp28
-    enabled: true
-    mgmt_only: false
-    label: ''
-    description: ''
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: eth0
     type: 1000base-t
-    enabled: true
     mgmt_only: true
-    label: ''
     description: Management Interface
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
   - name: xe0
     type: 25gbase-x-sfp28
     enabled: false
-    mgmt_only: false
-    label: ''
-    description: 'Ports xe0-3 replace ce0 when enabled, requires reboot.'
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
   - name: xe1
     type: 25gbase-x-sfp28
     enabled: false
-    mgmt_only: false
-    label: ''
-    description: 'Ports xe0-3 replace ce0 when enabled, requires reboot.'
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
   - name: xe2
     type: 25gbase-x-sfp28
     enabled: false
-    mgmt_only: false
-    label: ''
-    description: 'Ports xe0-3 replace ce0 when enabled, requires reboot.'
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
   - name: xe3
     type: 25gbase-x-sfp28
     enabled: false
-    mgmt_only: false
-    label: ''
-    description: 'Ports xe0-3 replace ce0 when enabled, requires reboot.'
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
 module-bays:
   - name: FAN0
-    label: ''
     position: '0'
-    description: ''
   - name: FAN1
-    label: ''
     position: '1'
-    description: ''
   - name: FAN2
-    label: ''
     position: '2'
-    description: ''
   - name: FAN3
-    label: ''
     position: '3'
-    description: ''
   - name: PSU0
-    label: ''
     position: '0'
-    description: ''
   - name: PSU1
-    label: ''
     position: '1'
-    description: ''

@@ -1,16 +1,9 @@
 ---
-profile: Power supply
 manufacturer: UfiSpace
 model: PSU-162-DESR
 part_number: PSU-162-DESR
 description: 1600W DC Power Supply
-weight: null
-weight_unit: null
-comments: ''
 power-ports:
-  - name: 'DC{module}'
+  - name: DC{module}
     type: dc-terminal
     maximum_draw: 1600
-    allocated_draw: null
-    label: ''
-    description: ''
