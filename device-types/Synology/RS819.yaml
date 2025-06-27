@@ -4,10 +4,7 @@ model: RS819
 slug: synology-rs819
 part_number: RS819
 u_height: 1
-default_platform: null
-exclude_from_utilization: false
 is_full_depth: false
-subdevice_role: null
 airflow: front-to-rear
 description: Synology RackStation RS819 1U rackmount NAS with quad-core processor and 4x 3.5-inch/2.5-inch drive bays.
 weight: 4.34
@@ -34,16 +31,3 @@ power-ports:
     maximum_draw: 100
     allocated_draw: 100
     description: Primary power supply (100W)
-inventory-items:
-  - name: Drive Bay 1
-    description: 3.5-inch or 2.5-inch hot-swap SATA drive bay
-  - name: Drive Bay 2
-    description: 3.5-inch or 2.5-inch hot-swap SATA drive bay
-  - name: Drive Bay 3
-    description: 3.5-inch or 2.5-inch hot-swap SATA drive bay
-  - name: Drive Bay 4
-    description: 3.5-inch or 2.5-inch hot-swap SATA drive bay
-  - name: USB1
-    description: USB 3.0 port 1
-  - name: USB2
-    description: USB 3.0 port 2

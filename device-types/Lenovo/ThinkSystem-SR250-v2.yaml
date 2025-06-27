@@ -1,66 +1,32 @@
 ---
 manufacturer: Lenovo
 model: ThinkSystem SR250 V2
-slug: thinksystem-sr250-v2
+slug: lenovo-thinksystem-sr250-v2
 part_number: 7D7Q
 u_height: 1
-default_platform: null
-exclude_from_utilization: false
 is_full_depth: true
-subdevice_role: null
 airflow: front-to-rear
 description: Lenovo ThinkSystem SR250 V2 single-socket 1U rack server with Intel Xeon E-2300 Series processors.
 weight: 12.3
 weight_unit: kg
+front_image: true
+rear_image: true
 comments: |
   Withdrawn from marketing. Supports up to 4x 3.5-inch or 10x 2.5-inch hot-swap drives.
   Reference: https://lenovopress.lenovo.com/lp1549-thinksystem-sr250-v2
 interfaces:
   - name: eno1
     type: 1000base-t
-    mgmt_only: true
     description: Onboard 1GbE RJ45 port 1
   - name: eno2
     type: 1000base-t
-    mgmt_only: true
     description: Onboard 1GbE RJ45 port 2
   - name: XCC
-    type: virtual
+    type: 1000base-t
     mgmt_only: true
     description: Lenovo XClarity Controller (XCC) management port
-console-ports:
-  - name: VGA
-    type: other
-    description: Front or rear VGA port for console display
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 300
-    allocated_draw: 300
-    description: Primary power supply (300W, 80 PLUS Platinum)
+    position: '1'
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 300
-    allocated_draw: 300
-    description: Optional redundant power supply (300W, 80 PLUS Platinum)
-inventory-items:
-  - name: Drive Bay 1
-    description: 3.5-inch or 2.5-inch hot-swap drive bay
-  - name: Drive Bay 2
-    description: 3.5-inch or 2.5-inch hot-swap drive bay
-  - name: Drive Bay 3
-    description: 3.5-inch or 2.5-inch hot-swap drive bay
-  - name: Drive Bay 4
-    description: 3.5-inch or 2.5-inch hot-swap drive bay
-  - name: Drive Bay 5
-    description: 2.5-inch hot-swap drive bay (optional)
-  - name: Drive Bay 6
-    description: 2.5-inch hot-swap drive bay (optional)
-  - name: Drive Bay 7
-    description: 2.5-inch hot-swap drive bay (optional)
-  - name: Drive Bay 8
-    description: 2.5-inch hot-swap drive bay (optional)
-  - name: Drive Bay 9
-    description: 2.5-inch hot-swap drive bay (optional)
-  - name: Drive Bay 10
-    description: 2.5-inch hot-swap drive bay (optional)
+    position: '2'
