@@ -1,16 +1,9 @@
 ---
-profile: Power supply
 manufacturer: Telco Systems
 model: TM8104-DCPS
 part_number: TM8104-DCPS
 description: T-Metro 8104 48V DC PWR SUPPLY
-weight: null
-weight_unit: null
-comments: ''
 power-ports:
-  - name: 'DC{module}'
+  - name: DC{module}
     type: dc-terminal
     maximum_draw: 400
-    allocated_draw: null
-    label: ''
-    description: ''
