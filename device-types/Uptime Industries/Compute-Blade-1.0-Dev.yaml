@@ -5,7 +5,7 @@ model: Compute Blade 1.0 Dev
 slug: uptime-industries-compute-blade-1.0-dev
 # There is no official part number that I can find
 # https://docs.computeblade.com/bladerunner/19inch
-part_number: "BladeDev-V1-0"
+part_number: BladeDev-V1-0
 
 comments: |
   [Docs](https://docs.computeblade.com/blade)
@@ -39,10 +39,10 @@ console-ports:
 
 # Really only supports a M2 NVMe SSD, microSD and a rPi CM4/5 module
 module-bays:
-  - name: "Raspberry Pi CM4/5 Connector"
-    position: "1"
+  - name: Raspberry Pi CM4/5 Connector
+    position: '1'
     # 2230, 2242, 2260, 2280, 22110
-  - name: "M.2 NVMe SSD"
-    position: "2"
-  - name: "microSD Card"
-    position: "3"
+  - name: M.2 NVMe SSD
+    position: '2'
+  - name: microSD Card
+    position: '3'
