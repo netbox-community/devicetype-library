@@ -1,0 +1,16 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 1Gb 4-port 331FLR Adapter 
+part_number: 629135-B21
+description: NIC for Embedded FlexibleLOM port on various HP Proliant Gen8 servers
+comments: "Ethernet 1Gb 4-port 331FLR Adapter, FlexibleLOM form-factor. Has four 10/100/1000BASE-T RJ45 ports. Requires CAT-5e or better twisted pair\r\n\
+  \r\n**Discontinued**. See:\r\n\r\n- [QuickSpecs](https://www.hpe.com/psnow/doc/c04111540.pdf)"
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-t
+  - name: '{module}/2'
+    type: 1000base-t
+  - name: '{module}/3'
+    type: 1000base-t
+  - name: '{module}/4'
+    type: 1000base-t
