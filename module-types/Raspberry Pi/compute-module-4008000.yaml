@@ -1,0 +1,27 @@
+---
+manufacturer: Raspberry Pi
+model: Compute Module 4008000
+##
+# Compute Module 4 comes in one of _many_ flavors
+# RAM: 1/2/4/8 gig
+# eMMC: 0/8/16/32 gig  (0 = "lite" version)
+# Wireless: yes/no
+# There are also extended temperatures versions, not included here as they're custom order for industrial use.
+#
+# The part number is in the format:
+#     CM4WWRRFF where
+#    WW = Wireless (00 = no, 10 = wifi)
+#    RR = RAM (01 = 1 gig, 02 = 2 gig, 04 = 4 gig, 08 = 8 gig)
+#    FF = Flash (00 = no flash, 08 = 8 gig, 16 = 16 gig, 32 = 32 gig)
+# So a module with no flash, no wifi and 8 gig ram would be CM4008000
+# As far as I can tell, the number does not change to account for the various PCB revisions.
+# See: https://datasheets.raspberrypi.com/cm4/cm4-product-brief.pdf
+##
+part_number: CM4008000
+
+comments: |
+  Raspberry Pi Compute Module 4
+  * WiFi: No
+  * RAM: 8 GB
+  * Flash: 0 GB (Lite version, no eMMC)
+  [Product Family](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4008000)
