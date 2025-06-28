@@ -1,0 +1,48 @@
+---
+manufacturer: Uptime Industries
+# First generation has 3 SKUs: dev, tpm, basic
+model: Compute Blade 1.0 Dev
+slug: uptime-industries-compute-blade-1.0-dev
+# Part number pulled off of sticker on shipping box seen here
+# https://docs.computeblade.com/blade
+part_number: BladeDev-V1-0
+comments: |
+  [Docs](https://docs.computeblade.com/blade)
+
+is_full_depth: false
+weight: 1.5
+weight_unit: kg
+airflow: passive
+# Fits inside a BladeRunner chassis
+subdevice_role: child
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3at
+
+# USB A, C (exclusive, switchable), HDMI and 2 UARTs
+console-ports:
+  - name: HDMI 4K60
+    type: other
+  - name: USB-A
+    type: usb-a
+  - name: USB-C
+    type: usb-c
+
+  - name: UART REAR
+    type: other
+  - name: UART FRONT
+    type: other
+
+# Really only supports a M2 NVMe SSD, microSD and a rPi CM4/5 module
+module-bays:
+  - name: Raspberry Pi CM4/5 Connector
+    position: '1'
+    # 2230, 2242, 2260, 2280, 22110
+  - name: M.2 NVMe SSD
+    position: '2'
+    # Optional, can boot off of the m2 SSD
+  - name: microSD Card
+    position: '3'
