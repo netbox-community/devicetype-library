@@ -12,19 +12,14 @@ comments: >
   The Arista DCS-7700R4C-38PE-F is a 2RU distributed leaf switch in the 7700R4 Series, offering 18 x 800GbE host ports and 20 x 800GbE fabric ports.
   It provides 14.4 Tbps of wire-speed performance with 16GB of buffers, optimized for AI/ML workloads.
   [Arista 7700R4 Series Overview](https://www.arista.com/en/products/7700r4-series)
-
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c20
-    maximum_draw: 2400
+    position: '1'
   - name: PSU2
-    type: iec-60320-c20
-    maximum_draw: 2400
-
+    position: '2'
 console-ports:
   - name: Console
     type: rj-45
-
 interfaces:
   - name: Management1
     type: 1000base-t
