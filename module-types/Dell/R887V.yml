@@ -1,0 +1,14 @@
+---
+manufacturer: Dell
+model: R887V
+part_number: R887V
+comments: Mellanox 25GbE 2P ConnectX4LX RNDC [Datasheet](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/ConnectX-4_Lx-EN_25GB_rNDC.pdf)
+interfaces:
+  - name: '{module}-25GbE-0'
+    label: '1'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: '{module}-25GbE-2'
+    label: '2'
+    type: 25gbase-x-sfp28
+    mgmt_only: false
