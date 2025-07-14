@@ -1,0 +1,55 @@
+---
+manufacturer: Seagate Systems
+model: Exos CORVAULT 4U106
+slug: seagate-exos-corvault-4U106
+part_number: R4106I2500T002
+u_height: 4
+is_full_depth: true
+description: '[Seagate Exos CORVAULT 4U106](https://www.seagate.com/products/storage/data-storage-systems/corvault/4U106/)'
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c20
+  - name: PSU 2
+    type: iec-60320-c20
+interfaces:
+  - name: 0a
+    type: other
+    description: MiniSAS HD
+  - name: 1a
+    type: other
+    description: MiniSAS HD
+  - name: 2a
+    type: other
+    description: MiniSAS HD
+  - name: 3a
+    type: other
+    description: MiniSAS HD
+  - name: 0b
+    type: other
+    description: MiniSAS HD
+  - name: 1b
+    type: other
+    description: MiniSAS HD
+  - name: 2b
+    type: other
+    description: MiniSAS HD
+  - name: 3b
+    type: other
+    description: MiniSAS HD
+console-ports:
+  - name: manufacturer-do-not-use-a
+    type: usb-micro-a
+  - name: con-a
+    type: usb-micro-a
+    mgmt_only: true
+  - name: eth-a
+    type: rj-45
+    mgmt_only: true
+  - name: manufacturer-do-not-use-b
+    type: usb-micro-a
+  - name: con-b
+    type: usb-micro-a
+    mgmt_only: true
+  - name: eth-b
+    type: rj-45
+    mgmt_only: true
