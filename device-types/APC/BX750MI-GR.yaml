@@ -48,12 +48,10 @@ power-outlets:
   - name: '4'
     type: ita-f
     power_port: Input
-    feed_leg: ''
-    label: ''    
+    feed_leg: ''   
 front-ports:
   - name: IN
     type: 8p8c
-    color: ''
     rear_port: OUT
     rear_port_position: 1
     label: IN
@@ -61,7 +59,6 @@ front-ports:
 rear-ports:    
   - name: OUT
     type: 8p8c
-    color: ''
     positions: 1
     label: OUT
     description: OUT
