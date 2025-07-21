@@ -1,0 +1,15 @@
+---
+manufacturer: IBM
+model: Quad-port 64 Gbps FC-NVMe adapter
+part_number: 03JK911
+description: IBM 
+comments: '[Datasheet](https://www.ibm.com/docs/en/sanvolumecontroller/8.7.0?topic=canisters-quad-port-64-gbps-fibre-channel-adapter)'
+interfaces:
+  - name: Adapter {module}/1
+    type: 64gfc-sfpp
+  - name: Adapter {module}/2
+    type: 64gfc-sfpp
+  - name: Adapter {module}/3
+    type: 64gfc-sfpp
+  - name: Adapter {module}/4
+    type: 64gfc-sfpp
