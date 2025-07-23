@@ -1,17 +1,17 @@
+---
 manufacturer: D-Link
 model: DGS-1100-16
 slug: d-link-dgs-1100-16
 part_number: DGS-1100-16
 comments: |
-  [D-Link DGS-1100 Series Datasheet v1.11 WW](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1100/datasheet/dgs1100mpmppc1surveillancedatasheetv111ww.pdf)
+  [D-Link DGS-1100 Series Datasheet](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1100/datasheet/dgs1100seriesdatasheetv110ww.pdf)
   - 16 x 10/100/1000BASE-T ports
-  - Fanless design, energy-efficient Ethernet
-  - Supports VLANs, QoS, IGMP Snooping, and Loopback Detection
-  - Smart Managed Layer 2 switch ideal for surveillance and SMB
+  - Fanless design for silent operation
+  - Supports VLANs, QoS, and cable diagnostics
 
 is_full_depth: false
 u_height: 1
-weight: 1300
+weight: 1500
 weight_unit: g
 airflow: passive
 
@@ -20,7 +20,7 @@ console-ports: []
 power-ports:
   - name: PSU
     type: iec-60320-c14
-    maximum_draw: 10
+    maximum_draw: 13
 
 interfaces:
   - name: Port 1
