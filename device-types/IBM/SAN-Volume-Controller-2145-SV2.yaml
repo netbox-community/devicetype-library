@@ -29,12 +29,8 @@ module-bays:
   - name: Adapter 3
     position: Adapter 3
     description: Slot 3 for Host Interface cards
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c20
-    maximum_draw: 530
-    allocated_draw: 530
+    position: PSU1
   - name: PSU2
-    type: iec-60320-c20
-    maximum_draw: 530
-    allocated_draw: 530
+    position: PSU2
