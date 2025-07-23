@@ -4,13 +4,13 @@ model: DGS-1510-52X
 slug: d-link-dgs-1510-52x
 part_number: DGS-1510-52X
 comments: |
-  [D-Link DGS-1510 Series A1 Datasheet v1.12 WW](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1510/datasheet/dgs1510seriesa1datasheetv112ww.pdf)
+  [D-Link DGS-1510 Series Datasheet v1.12 WW](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1510/datasheet/dgs1510seriesa1datasheetv112ww.pdf)
   - 48 x 10/100/1000BASE-T ports
-  - 4 x 10G SFP+ ports
-  - Layer 3 Lite Smart Managed Switch
-  - Static routing, VLAN, QoS, LACP, and loopback detection
-  - Redundant power supply supported (RPS)
-  - Switching capacity: 176 Gbps
+  - 4 x 10G SFP+ ports (supports stacking and uplinks)
+  - Smart Managed Layer 2+ with static routing, MSTP, VLANs, QoS
+  - Energy Efficient Ethernet (EEE)
+  - Front-to-rear airflow
+  - 1U rackmount, full depth
 
 is_full_depth: true
 u_height: 1
@@ -125,10 +125,10 @@ interfaces:
   - name: Port 48
     type: 1000base-t
   - name: Port 49
-    type: 10gbase-x-sfp+
+    type: 10gbase-x-sfpp
   - name: Port 50
-    type: 10gbase-x-sfp+
+    type: 10gbase-x-sfpp
   - name: Port 51
-    type: 10gbase-x-sfp+
+    type: 10gbase-x-sfpp
   - name: Port 52
-    type: 10gbase-x-sfp+
+    type: 10gbase-x-sfpp
