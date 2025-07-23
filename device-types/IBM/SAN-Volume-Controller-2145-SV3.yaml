@@ -42,12 +42,8 @@ module-bays:
   - name: Adapter 8
     position: Adapter 8
     description: Adapter cage 3, Slot 2 for Host Interface cards
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c20
-    maximum_draw: 806
-    allocated_draw: 450
+    position: PSU1
   - name: PSU2
-    type: iec-60320-c20
-    maximum_draw: 806
-    allocated_draw: 450
+    position: PSU2
