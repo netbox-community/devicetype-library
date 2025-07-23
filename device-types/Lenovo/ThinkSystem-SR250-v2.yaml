@@ -1,0 +1,32 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR250 V2
+slug: lenovo-thinksystem-sr250-v2
+part_number: 7D7Q
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+description: Lenovo ThinkSystem SR250 V2 single-socket 1U rack server with Intel Xeon E-2300 Series processors.
+weight: 12.3
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  Withdrawn from marketing. Supports up to 4x 3.5-inch or 10x 2.5-inch hot-swap drives.
+  Reference: https://lenovopress.lenovo.com/lp1549-thinksystem-sr250-v2
+interfaces:
+  - name: eno1
+    type: 1000base-t
+    description: Onboard 1GbE RJ45 port 1
+  - name: eno2
+    type: 1000base-t
+    description: Onboard 1GbE RJ45 port 2
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+    description: Lenovo XClarity Controller (XCC) management port
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

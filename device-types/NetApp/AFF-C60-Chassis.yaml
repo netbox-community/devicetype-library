@@ -1,0 +1,24 @@
+---
+manufacturer: NetApp
+model: AFF-C60 Chassis
+slug: netapp-aff-c60-chassis
+description: AFF C60 HA System Chassis
+part_number: AFF-C60A-100-C
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 27.5
+weight_unit: kg
+front_image: true
+rear_image: true
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+device-bays:
+  - name: A
+    description: A
+  - name: B
+    description: B
