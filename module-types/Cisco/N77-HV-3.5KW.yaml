@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: N77-HV-3.5KW
+part_number: N77-HV-3.5KW
+description: Nexus 7700 3.5kW AC Power Supply Module
+comments: '[Cisco Nexus 7700 Platform 3.5-kW High-Voltage Power Supply Modules Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/datasheet-c78-736900.html)'
+weight: 5
+weight_unit: kg
+power-ports:
+  - name: PSU{module}
+    type: saf-d-grid
+    maximum_draw: 3500
