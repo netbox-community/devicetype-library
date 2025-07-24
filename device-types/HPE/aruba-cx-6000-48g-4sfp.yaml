@@ -1,0 +1,41 @@
+---
+manufacturer: HPE Aruba
+model: Aruba CX 6000‑48G 4SFP
+slug: hpe-aruba-cx-6000-48g-4sfp
+part_number: R8N85A
+comments: |
+  HPE Aruba CX 6000 Switch Series – entry-level Layer 2 fixed‑port access switches.
+  Official datasheet: https://www.hpe.com/psnow/doc/PSN1014098570UKEN :contentReference[oaicite:1]{index=1}
+  – 48× 10/100/1000BASE-T ports  
+  – 4× 1000BASE-X SFP uplinks  
+  – Up to 740 W IEEE 802.3at Class 4 PoE (30 W/port) :contentReference[oaicite:2]{index=2}  
+  – Fanless/AC, moderate buffer & latency via AOS‑CX ASIC
+
+is_full_depth: false
+u_height: 1
+weight: 5000
+weight_unit: g
+airflow: passive
+
+console-ports:
+  - name: Console
+    type: usb-mini-b
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 900
+
+interfaces:
+{% for i in range(1,49) %}
+  - name: Port {{ i }}
+    type: 1000base-t
+{% endfor %}
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  - name: SFP 3
+    type: 1000base-x-sfp
+  - name: SFP 4
+    type: 1000base-x-sfp
