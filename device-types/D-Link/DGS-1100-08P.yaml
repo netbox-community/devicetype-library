@@ -4,7 +4,7 @@ model: DGS-1100-08P
 slug: d-link-dgs-1100-08p
 part_number: DGS-1100-08P
 comments: |
-  8-Port Gigabit PoE Smart Managed Switch with 64W PoE Budget.
+  8-Port Gigabit PoE Smart Managed Switch with 64W PoE Budget.  
   [Datasheet](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1100/datasheet/dgs1100mpmppc1surveillancedatasheetv111ww.pdf)
 
 is_full_depth: false
@@ -26,32 +26,32 @@ interfaces:
   - name: GigabitEthernet1
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet2
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet3
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet4
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet5
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet6
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet7
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet8
     type: 1000base-t
     poe_mode: pse
-    poe_type: ieee802.3af
+    poe_type: type1-ieee802.3af
