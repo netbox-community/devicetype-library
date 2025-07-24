@@ -1,0 +1,38 @@
+---
+manufacturer: Supermicro
+model: Storage SuperServer SSG-610P-ACR12N4H
+slug: supermicro-ssg-610p-acr12n4h
+part_number: SSG-610P-ACR12N4H
+u_height: 1
+is_full_depth: true
+comments: '[Storage SuperServer SSG-610P-ACR12N4H ] (https://www.supermicro.com/en/products/system/megadc/1u/ssg-610p-acr12n4h)'
+front_image: true
+rear_image: true
+weight: 17.9
+weight_unit: kg
+airflow: front-to-rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 25gbase-x-sfp28
+  - name: Gig-E 2
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PSU1
+    position: PSU 1
+  - name: PSU2
+    position: PSU 2
+  - name: PCI-E 1
+    position: '1'
+    description: 1 PCIe 4.0 x16 LP slot
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 4.0 x8 LP slot (Occupied by 3816L SAS controller)
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 4.0 x16 LP slot
+  - name: PCI-E A1
+    position: '4'
+    description: PCIe 4.0 x16 AIOM slot (OCP 3.0 compatible)

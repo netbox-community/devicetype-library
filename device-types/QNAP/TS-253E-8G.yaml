@@ -1,0 +1,23 @@
+---
+manufacturer: QNAP
+model: TS-253E-8G
+slug: qnap-ts-253e-8g
+part_number: TS-253E
+is_full_depth: false
+u_height: 0
+airflow: side-to-rear
+comments: '[TS-253E | Hardware Specs | QNAP](https://www.qnap.com/de-de/product/ts-253e/specs/hardware)'
+weight: 2.57
+weight_unit: kg
+front_image: false
+rear_image: false
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 25
+    allocated_draw: 20
+interfaces:
+  - name: eth0
+    type: 2.5gbase-t
+  - name: eth1
+    type: 2.5gbase-t
