@@ -1,47 +1,49 @@
 ---
-manufacturer: HPE Aruba
-model: CX 8400 Switch Series
-slug: hpe-aruba-cx-8400-switch-series
-part_number: CX 8400
+manufacturer: HPE
+model: Aruba CX 8400
+slug: aruba-cx-8400
+part_number: JL375A
 comments: |
-  [HPE Aruba CX 8400 Switch Series Data Sheet (a00021508enw)](https://www.hpe.com/psnow/doc/a00021508enw)
-  - Modular 8‑slot chassis with redundant chassis, fans, power, fabric modules
-  - Up to 19.2 Tbps switching capacity (1.2 Tbps per slot), supporting 10/25/40/100 GbE line modules :contentReference[oaicite:1]{index=1}
-  - Carrier‑class high availability with VSX, redundant control/fabric/power :contentReference[oaicite:2]{index=2}
-  - AOS‑CX OS with REST APIs, Python scripting, Analytics Engine, NetEdit, VXLAN BGP‑EVPN :contentReference[oaicite:3]{index=3}
-  - Compact 8U rack mount, hot‑swappable modules
+  The Aruba CX 8400 Series is a modular core and aggregation switch designed for enterprise campus and data center networks. 
+  It supports high-density 10/25/40/100GbE interfaces and advanced features like VSX, ArubaOS-CX automation, and robust security.
+  Datasheet: https://www.hpe.com/psnow/doc/a00021508enw
 
+u_height: 7
 is_full_depth: true
-u_height: 8
-weight: null
-weight_unit: g
 airflow: front-to-rear
+weight: 17.4
+weight_unit: kg
+
+module-bays:
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  - name: Slot 10
+
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c20
+  - name: PSU 2
+    type: iec-60320-c20
 
 console-ports:
   - name: Console
     type: rj-45
-
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
+  - name: USB Console
+    type: usb-mini-b
 
 interfaces:
-  # Example placeholder line modules; actual ports depend on installed modules
-  - name: Line Module Slot 1
-    type: chassis-module
-  - name: Line Module Slot 2
-    type: chassis-module
-  - name: Line Module Slot 3
-    type: chassis-module
-  - name: Line Module Slot 4
-    type: chassis-module
-  - name: Line Module Slot 5
-    type: chassis-module
-  - name: Line Module Slot 6
-    type: chassis-module
-  - name: Line Module Slot 7
-    type: chassis-module
-  - name: Line Module Slot 8
-    type: chassis-module
+  - name: Management1
+    type: 1000base-t
+  - name: Management2
+    type: 1000base-t
+  - name: SFP1
+    type: 1000base-x-sfp
+  - name: SFP2
+    type: 1000base-x-sfp
