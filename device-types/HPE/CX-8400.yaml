@@ -1,0 +1,47 @@
+---
+manufacturer: HPE Aruba
+model: CX 8400 Switch Series
+slug: hpe-aruba-cx-8400-switch-series
+part_number: CX 8400
+comments: |
+  [HPE Aruba CX 8400 Switch Series Data Sheet (a00021508enw)](https://www.hpe.com/psnow/doc/a00021508enw)
+  - Modular 8‑slot chassis with redundant chassis, fans, power, fabric modules
+  - Up to 19.2 Tbps switching capacity (1.2 Tbps per slot), supporting 10/25/40/100 GbE line modules :contentReference[oaicite:1]{index=1}
+  - Carrier‑class high availability with VSX, redundant control/fabric/power :contentReference[oaicite:2]{index=2}
+  - AOS‑CX OS with REST APIs, Python scripting, Analytics Engine, NetEdit, VXLAN BGP‑EVPN :contentReference[oaicite:3]{index=3}
+  - Compact 8U rack mount, hot‑swappable modules
+
+is_full_depth: true
+u_height: 8
+weight: null
+weight_unit: g
+airflow: front-to-rear
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+
+interfaces:
+  # Example placeholder line modules; actual ports depend on installed modules
+  - name: Line Module Slot 1
+    type: chassis-module
+  - name: Line Module Slot 2
+    type: chassis-module
+  - name: Line Module Slot 3
+    type: chassis-module
+  - name: Line Module Slot 4
+    type: chassis-module
+  - name: Line Module Slot 5
+    type: chassis-module
+  - name: Line Module Slot 6
+    type: chassis-module
+  - name: Line Module Slot 7
+    type: chassis-module
+  - name: Line Module Slot 8
+    type: chassis-module
