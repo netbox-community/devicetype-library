@@ -15,7 +15,7 @@ airflow: passive
 
 power-ports:
   - name: PSU
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 4
 
 interfaces:
