@@ -23,27 +23,35 @@ power-ports:
     maximum_draw: 72
 
 interfaces:
-  - name: Port 1
+  - name: GigabitEthernet1
     type: 1000base-t
     poe_mode: pse
-  - name: Port 2
+    poe_type: ieee802.3af
+  - name: GigabitEthernet2
     type: 1000base-t
     poe_mode: pse
-  - name: Port 3
+    poe_type: ieee802.3af
+  - name: GigabitEthernet3
     type: 1000base-t
     poe_mode: pse
-  - name: Port 4
+    poe_type: ieee802.3af
+  - name: GigabitEthernet4
     type: 1000base-t
     poe_mode: pse
-  - name: Port 5
+    poe_type: ieee802.3af
+  - name: GigabitEthernet5
     type: 1000base-t
     poe_mode: pse
-  - name: Port 6
+    poe_type: ieee802.3af
+  - name: GigabitEthernet6
     type: 1000base-t
     poe_mode: pse
-  - name: Port 7
+    poe_type: ieee802.3af
+  - name: GigabitEthernet7
     type: 1000base-t
     poe_mode: pse
-  - name: Port 8
+    poe_type: ieee802.3af
+  - name: GigabitEthernet8
     type: 1000base-t
     poe_mode: pse
+    poe_type: ieee802.3af
