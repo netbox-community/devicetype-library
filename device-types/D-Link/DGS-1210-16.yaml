@@ -17,8 +17,6 @@ weight: 1750
 weight_unit: g
 airflow: passive
 
-console-ports: []
-
 power-ports:
   - name: PSU
     type: iec-60320-c14
@@ -66,10 +64,10 @@ interfaces:
   - name: Port 20
     type: 1000base-t
   - name: Port 21
-    type: 1000base-sx
+    type: 1000base-x-sfp
   - name: Port 22
-    type: 1000base-sx
+    type: 1000base-x-sfp
   - name: Port 23
-    type: 1000base-sx
+    type: 1000base-x-sfp
   - name: Port 24
-    type: 1000base-sx
+    type: 1000base-x-sfp
