@@ -18,11 +18,9 @@ weight: 750
 weight_unit: g
 airflow: passive
 
-console-ports: []
-
 power-ports:
   - name: PSU
-    type: iec-60320-c6
+    type: dc-terminal
     maximum_draw: 78
 
 interfaces:
