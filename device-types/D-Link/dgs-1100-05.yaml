@@ -1,0 +1,31 @@
+---
+manufacturer: D-Link
+model: DGS-1100-05
+slug: d-link-dgs-1100-05
+part_number: DGS-1100-05
+comments: |
+  5-Port Gigabit Smart Managed Switch.
+  [Datasheet](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1100/datasheet/dgs1100mpmppc1surveillancedatasheetv111ww.pdf)
+
+is_full_depth: false
+u_height: 1
+weight: 500
+weight_unit: g
+airflow: passive
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 4
+
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
