@@ -1,0 +1,48 @@
+---
+manufacturer: IBM
+model: SAN Volume Controller 2145-SV3
+slug: ibm-san-volume-controller-2145-sv3
+part_number: 2145-SV3
+is_full_depth: true
+u_height: 2
+airflow: front-to-rear
+weight: 30
+weight_unit: kg
+description: IBM SAN Volume Controller 2145-SV3
+comments: '[Datasheet](https://www.redbooks.ibm.com/redpapers/pdfs/redp5670.pdf)'
+interfaces:
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Adapter 1
+    position: Adapter 1
+    description: Adapter cage 1, Slot 1 for Host Interface cards
+  - name: Adapter 2
+    position: Adapter 2
+    description: Adapter cage 1, Slot 2 for Host Interface cards
+  - name: Adapter 3
+    position: Adapter 3
+    description: Slot 3 for Dedicated Compression Assist adapter card
+  - name: Adapter 4
+    position: Adapter 4
+    description: Slot 4 for Dedicated Compression Assist adapter card
+  - name: Adapter 5
+    position: Adapter 5
+    description: Adapter cage 2, Slot 1 for Host Interface cards
+  - name: Adapter 6
+    position: Adapter 6
+    description: Adapter cage 2, Slot 2 for Host Interface cards
+  - name: Adapter 7
+    position: Adapter 7
+    description: Adapter cage 3, Slot 1 for Host Interface cards
+  - name: Adapter 8
+    position: Adapter 8
+    description: Adapter cage 3, Slot 2 for Host Interface cards
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2

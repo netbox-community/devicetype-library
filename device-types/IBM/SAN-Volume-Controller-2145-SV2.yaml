@@ -1,0 +1,35 @@
+---
+manufacturer: IBM
+model: SAN Volume Controller 2145-SV2
+slug: ibm-san-volume-controller-2145-sv2
+part_number: 2145-SV2
+is_full_depth: true
+u_height: 2
+airflow: front-to-rear
+weight: 30
+weight_unit: kg
+description: IBM SAN Volume Controller 2145-SV2
+comments: '[Datasheet](https://www.ibm.com/docs/en/sanvolumecontroller/8.6.0?topic=pip-san-volume-controller-2145-sv2-2145-sa2-environment-requirements)'
+interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+  - name: Ethernet2
+    type: 10gbase-t
+  - name: Ethernet3
+    type: 10gbase-t
+  - name: Ethernet4
+    type: 10gbase-t
+module-bays:
+  - name: Adapter 1
+    position: Adapter 1
+    description: Slot 1 for Host Interface cards
+  - name: Adapter 2
+    position: Adapter 2
+    description: Slot 2 for Host Interface cards
+  - name: Adapter 3
+    position: Adapter 3
+    description: Slot 3 for Host Interface cards
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
