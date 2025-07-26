@@ -7,37 +7,35 @@ u_height: 1
 is_full_depth: true
 front_image: true
 rear_image: true
-comments: "[S6730-H48Y6C-V2(48*25GE SFP28 ports, 6*100GE QSFP28 ports, without power module)](https://support.huawei.com/enterprise/en/doc/EDOC1100214356/7a23a1e6/s6730-h48y6c-v2)"
+comments: '[S6730-H48Y6C-V2(48*25GE SFP28 ports, 6*100GE QSFP28 ports, without power module)](https://support.huawei.com/enterprise/en/doc/EDOC1100214356/7a23a1e6/s6730-h48y6c-v2)'
 console-ports:
   - name: console
     type: rj-45
 module-bays:
   - name: FAN1
     label: FAN1
-    position: "1"
+    position: '1'
     description: Fan module slot 1
   - name: FAN2
     label: FAN2
-    position: "2"
+    position: '2'
     description: Fan module slot 2
   - name: FAN3
     label: FAN3
-    position: "3"
+    position: '3'
     description: Fan module slot 3
   - name: FAN4
     label: FAN4
-    position: "4"
+    position: '4'
     description: Fan module slot 4
   - name: PWR1
-    type: iec-60320-c14
     label: PWR1
-    position: "5"
-    description: Power module slot 5
+    position: '1'
+    description: Power module slot 1
   - name: PWR2
-    type: iec-60320-c14
     label: PWR2
-    position: "6"
-    description: Power module slot 6
+    position: '2'
+    description: Power module slot 2
 interfaces:
   - name: MEth0/0/1
     type: 1000base-t
