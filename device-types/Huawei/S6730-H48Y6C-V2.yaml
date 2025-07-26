@@ -11,11 +11,6 @@ comments: '[S6730-H48Y6C-V2(48*25GE SFP28 ports, 6*100GE QSFP28 ports, without p
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: PWR1
-    type: iec-60320-c14
-  - name: PWR2
-    type: iec-60320-c14
 module-bays:
   - name: FAN1
     label: FAN1
@@ -33,6 +28,16 @@ module-bays:
     label: FAN4
     position: '4'
     description: Fan module slot 4
+  - name: PWR1
+    type: iec-60320-c14
+    label: PWR1
+    position: '5'
+    description: Power module slot 5
+  - name: PWR2
+    type: iec-60320-c14
+    label: PWR2
+    position: '6'
+    description: Power module slot 6
 interfaces:
   - name: MEth0/0/1
     type: 1000base-t
