@@ -18,9 +18,6 @@ interfaces:
     type: 1000base-t
   - name: lan
     type: 1000base-t
-  - name: wlan0
-    type: ieee802.11n
-    label: radio0
-  - name: wlan1
-    type: ieee802.11ac
-    label: radio1
+  - name: wlan
+    type: ieee802.11n/802.11ac
+    label: dual-band-radio
