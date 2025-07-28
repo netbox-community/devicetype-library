@@ -9,8 +9,6 @@ weight_unit: kg
 is_full_depth: false
 airflow: front-to-rear
 console-ports:
-  - name: console-rj45
-    type: rj-45
   - name: USB
     type: usb-a
 power-ports:
@@ -29,6 +27,9 @@ interfaces:
   - name: igb1
     type: 1000base-t
     label: LAN
+  - name: ipmi
+    type: 1000base-t
+    mgmt_only: true
 module-bays:
   - name: Slot 1
     position: '1'
