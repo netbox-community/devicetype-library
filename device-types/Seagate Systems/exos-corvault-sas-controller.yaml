@@ -16,12 +16,11 @@ interfaces:
     type: other #SFF-8644
   - name: SAS 3
     type: other #SFF-8644
-
+  - name: management
+    type: 1000base-t #SFF-8644
+    mgmt_only: true
 console-ports:
   - name: manufacturer-do-not-use
     type: usb-micro-a
   - name: serial
     type: usb-micro-a
-  - name: eth
-    type: rj-45
-    mgmt_only: true
