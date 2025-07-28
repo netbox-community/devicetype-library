@@ -1,7 +1,7 @@
 ---
 manufacturer: Google
-model: Wifi
-slug: google-wifi
+model: WiFi AC-1304
+slug: google-wifi-ac-1304
 part_number: AC-1304
 comments: '[Google WiFi](https://support.google.com/googlenest/answer/7168315)'
 u_height: 0
@@ -19,5 +19,5 @@ interfaces:
   - name: lan
     type: 1000base-t
   - name: wlan
-    type: ieee802.11n/802.11ac
+    type: ieee802.11ac
     label: dual-band-radio
