@@ -8,20 +8,20 @@ u_height: 0
 is_full_depth: true
 subdevice_role: child
 interfaces:
-  - name: SAS {module}0
+  - name: SAS 0
     type: other #SFF-8644
-  - name: SAS {module}1
+  - name: SAS 1
     type: other #SFF-8644
-  - name: SAS {module}2
+  - name: SAS 2
     type: other #SFF-8644
-  - name: SAS {module}3
+  - name: SAS 3
     type: other #SFF-8644
 
 console-ports:
-  - name: manufacturer-do-not-use-{module}
+  - name: manufacturer-do-not-use
     type: usb-micro-a
-  - name: Serial{module}
+  - name: Serial
     type: usb-micro-a
-  - name: eth-{module}
+  - name: eth
     type: rj-45
     mgmt_only: true
