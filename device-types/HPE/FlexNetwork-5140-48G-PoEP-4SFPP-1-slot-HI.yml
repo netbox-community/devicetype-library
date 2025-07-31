@@ -23,10 +23,6 @@ interfaces:
   - name: Management
     type: 1000base-t
     mgmt_only: true
-  - name: GigabitEthernet1/0/0
-    type: 1000base-t
-    poe_type: type2-ieee802.3at
-    poe_mode: pse
   - name: GigabitEthernet1/0/1
     type: 1000base-t
     poe_type: type2-ieee802.3at
