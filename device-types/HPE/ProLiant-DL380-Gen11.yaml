@@ -20,8 +20,6 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
-  - name: FlexLOM
-    position: FlexLOM
   - name: PCIe1
     position: PCIe1
     label: primary riser
@@ -46,15 +44,13 @@ module-bays:
   - name: PCIe8
     position: PCIe8
     label: tertiary riser
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: OCP2
+    position: OCP2
+    label: OCP 3.0
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
   - name: iLO
     type: 1000base-t
     mgmt_only: true
