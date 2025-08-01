@@ -1,0 +1,11 @@
+---
+manufacturer: Supermicro
+model: Add-on Card AOC-A100G-b2CM
+part_number: AOC-A100G-b2CM
+description: SuperMicro dual port 100Gb AIOM nic based on Broadcom BCM57508.
+comments: Supermicro AOC-A100G-b2CM (https://www.supermicro.com/en/products/accessories/addon/AOC-A100G-b2CM.php)
+interfaces:
+  - name: 100ge-{module}-0
+    type: 100gbase-x-qsfp28
+  - name: 100ge-{module}-1
+    type: 100gbase-x-qsfp28
