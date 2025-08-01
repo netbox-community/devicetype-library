@@ -1,0 +1,331 @@
+---
+manufacturer: SNR
+model: S2989G-48TX-POE
+slug: snr-s2989g-48tx-poe
+part_number: S2989G-48TX-POE
+u_height: 1.0
+is_full_depth: false
+airflow: right-to-left
+comments: '[SNR-S2989G-24TX](https://snr.systems/ru/catalog/setevoe-oborudovanie/kommutatory-dostupa/snr-s2989g/snr-s2989g-24tx)'
+console-ports:
+  - name: con0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: power AC
+    type: iec-60320-c14
+    maximum_draw: 790
+power-outlets:
+  - name: usb
+    type: usb-a
+    label: USB
+interfaces:
+  - name: Ethernet0
+    type: 100base-tx
+    enabled: true
+    mgmt_only: true
+    label: MGMT
+  - name: Ethernet1/0/1
+    type: 1000base-t
+    enabled: true
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/2
+    type: 1000base-t
+    enabled: true
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/3
+    type: 1000base-t
+    enabled: true
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/4
+    type: 1000base-t
+    enabled: true
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/5
+    type: 1000base-t
+    enabled: true
+    label: '5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/6
+    type: 1000base-t
+    enabled: true
+    label: '6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/7
+    type: 1000base-t
+    enabled: true
+    label: '7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/8
+    type: 1000base-t
+    enabled: true
+    label: '8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/9
+    type: 1000base-t
+    enabled: true
+    label: '9'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/10
+    type: 1000base-t
+    enabled: true
+    label: '10'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/11
+    type: 1000base-t
+    enabled: true
+    label: '11'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/12
+    type: 1000base-t
+    enabled: true
+    label: '12'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/13
+    type: 1000base-t
+    enabled: true
+    label: '13'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/14
+    type: 1000base-t
+    enabled: true
+    label: '14'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/15
+    type: 1000base-t
+    enabled: true
+    label: '15'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/16
+    type: 1000base-t
+    enabled: true
+    label: '16'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/17
+    type: 1000base-t
+    enabled: true
+    label: '17'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/18
+    type: 1000base-t
+    enabled: true
+    label: '18'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/19
+    type: 1000base-t
+    enabled: true
+    label: '19'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/20
+    type: 1000base-t
+    enabled: true
+    label: '20'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/21
+    type: 1000base-t
+    enabled: true
+    label: '21'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/22
+    type: 1000base-t
+    enabled: true
+    label: '22'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/23
+    type: 1000base-t
+    enabled: true
+    label: '23'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/24
+    type: 1000base-t
+    enabled: true
+    label: '24'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/25
+    type: 1000base-t
+    enabled: true
+    label: '25'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/26
+    type: 1000base-t
+    enabled: true
+    label: '26'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/27
+    type: 1000base-t
+    enabled: true
+    label: '27'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/28
+    type: 1000base-t
+    enabled: true
+    label: '28'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/29
+    type: 1000base-t
+    enabled: true
+    label: '29'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/30
+    type: 1000base-t
+    enabled: true
+    label: '30'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/31
+    type: 1000base-t
+    enabled: true
+    label: '31'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/32
+    type: 1000base-t
+    enabled: true
+    label: '32'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/33
+    type: 1000base-t
+    enabled: true
+    label: '33'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/34
+    type: 1000base-t
+    enabled: true
+    label: '34'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/35
+    type: 1000base-t
+    enabled: true
+    label: '35'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/36
+    type: 1000base-t
+    enabled: true
+    label: '36'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/37
+    type: 1000base-t
+    enabled: true
+    label: '37'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/38
+    type: 1000base-t
+    enabled: true
+    label: '38'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/39
+    type: 1000base-t
+    enabled: true
+    label: '39'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/40
+    type: 1000base-t
+    enabled: true
+    label: '40'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/41
+    type: 1000base-t
+    enabled: true
+    label: '41'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/42
+    type: 1000base-t
+    enabled: true
+    label: '42'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/43
+    type: 1000base-t
+    enabled: true
+    label: '43'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/44
+    type: 1000base-t
+    enabled: true
+    label: '44'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/45
+    type: 1000base-t
+    enabled: true
+    label: '45'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/46
+    type: 1000base-t
+    enabled: true
+    label: '46'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/47
+    type: 1000base-t
+    enabled: true
+    label: '47'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/48
+    type: 1000base-t
+    enabled: true
+    label: '48'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/49
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '49'
+  - name: Ethernet1/0/50
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '50'
+  - name: Ethernet1/0/51
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '51'
+  - name: Ethernet1/0/52
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '52'
