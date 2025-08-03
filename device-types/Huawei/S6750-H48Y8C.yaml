@@ -1,16 +1,16 @@
 ---
 manufacturer: Huawei
-model: S6730-H48Y6C-V2
-slug: huawei-s6730-h48y6c-v2
-part_number: 02354NGU
+model: S6750-H48Y8C
+slug: huawei-s6750-h48y8c
+part_number: 02355UEL
 u_height: 1
 is_full_depth: true
-weight: 7.03
+weight: 6.96
 weight_unit: kg
 airflow: front-to-rear
 front_image: true
 rear_image: true
-comments: '[S6730-H48Y6C-V2(48*25GE SFP28 ports, 6*100GE QSFP28 ports, without power module)](https://support.huawei.com/enterprise/en/doc/EDOC1100214356/7a23a1e6/s6730-h48y6c-v2)'
+comments: '[S6750-H48Y8C (48*25GE SFP28 ports, 8*100GE QSFP28 ports, without power module)](https://support.huawei.com/enterprise/en/doc/EDOC1100214356/84b14050/s6750-h48y8c-02355uel)'
 console-ports:
   - name: console
     type: rj-45
@@ -31,6 +31,10 @@ module-bays:
     label: FAN4
     position: '4'
     description: Fan module slot 4
+  - name: FAN5
+    label: FAN5
+    position: '5'
+    description: Fan module slot 5
   - name: PWR1
     label: PWR1
     position: '1'
@@ -150,4 +154,8 @@ interfaces:
   - name: 100GE1/0/5
     type: 100gbase-x-qsfp28
   - name: 100GE1/0/6
+    type: 100gbase-x-qsfp28
+  - name: 100GE1/0/7
+    type: 100gbase-x-qsfp28
+  - name: 100GE1/0/8
     type: 100gbase-x-qsfp28
