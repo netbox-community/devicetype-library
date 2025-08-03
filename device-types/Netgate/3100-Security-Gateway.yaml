@@ -1,0 +1,39 @@
+---
+manufacturer: Netgate
+model: 3100 Security Gateway
+slug: netgate-3100-security-gateway
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.35
+weight_unit: kg
+comments: |
+  See https://docs.netgate.com/pfsense/en/latest/solutions/sg-3100/index.html
+console-ports:
+  - name: console-usb
+    type: usb-mini-b
+    description: |
+      115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control
+      or XON/OFF
+power-ports:
+  - name: psu1
+    type: dc-terminal
+interfaces:
+  - name: mvneta0
+    type: 1000base-t
+    label: OPT1
+  - name: mvneta1-1
+    type: 1000base-t
+    label: LAN1
+  - name: mvneta1-2
+    type: 1000base-t
+    label: LAN2
+  - name: mvneta1-3
+    type: 1000base-t
+    label: LAN3
+  - name: mvneta1-4
+    type: 1000base-t
+    label: LAN4
+  - name: mvneta2
+    type: 1000base-t
+    label: WAN
