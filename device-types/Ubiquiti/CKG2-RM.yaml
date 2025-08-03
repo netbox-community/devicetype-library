@@ -1,0 +1,26 @@
+---
+manufacturer: Ubiquiti
+model: CloudKey Rack Mount
+slug: ubiquiti-ckg2-rm
+part_number: CKG2-RM
+comments: |
+  CloudKey Rack Mount
+  Mount your CloudKey or CloudKey+ into a 19" rack.
+u_height: 1
+subdevice_role: parent
+is_full_depth: false
+weight: 600
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
+device-bays:
+  - name: Cloud Key
+    label: 2nd Gen Cloud Key
+    description: Socket/Bay for Cloud Key Gen2 device
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    mgmt_only: true

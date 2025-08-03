@@ -1,0 +1,23 @@
+---
+manufacturer: Google
+model: WiFi AC-1304
+slug: google-wifi-ac-1304
+part_number: AC-1304
+comments: '[Google WiFi](https://support.google.com/googlenest/answer/7168315)'
+u_height: 0
+is_full_depth: false
+weight: 0.33
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: PSU
+    type: usb-c
+    label: DC+5V/3A
+interfaces:
+  - name: wan
+    type: 1000base-t
+  - name: lan
+    type: 1000base-t
+  - name: wlan
+    type: ieee802.11ac
+    label: dual-band-radio
