@@ -2,19 +2,27 @@
 manufacturer: HPE
 model: ProLiant DL385 Gen11
 slug: hpe-proliant-dl385-gen11
-comments: 2U 2 socket AMD 9004 and 9005 CPU server, 32 DDR5 DIMM slot
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
+part_number: P53921-B21
+comments: '[HPE ProLiant DL385 G11 Server QuickSpecs](https://www.hpe.com/psnow/doc/a50004300enw.pdf)'
 weight: 17
 weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
 module-bays:
   - name: PSU1
     position: PSU1
   - name: PSU2
     position: PSU2
-  - name: OCP3
-    position: OCP3
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: OCP2
+    position: OCP2
+    label: OCP 3.0
   - name: PCIe1
     position: PCIe1
     label: primary riser
@@ -33,6 +41,12 @@ module-bays:
   - name: PCIe6
     position: PCIe6
     label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
 interfaces:
   - name: iLO
     type: 1000base-t
