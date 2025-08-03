@@ -1,0 +1,137 @@
+---
+manufacturer: Cisco
+model: CBS220-24T-4G
+slug: cisco-cbs220-24t-4g
+part_number: CBS250-24T-4G
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.75
+weight_unit: kg
+comments: '[CBS220 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-220-series-smart-switches/datasheet-c78-744915.html)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console (USB)
+    type: usb-mini-b
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 18
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet4
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet5
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet6
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet7
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet8
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet9
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet10
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet11
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet12
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet13
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet14
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet15
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet16
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet17
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet18
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet19
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet20
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet21
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet22
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet23
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet24
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet25
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet26
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet27
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: GigabitEthernet28
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: Vlan1
+    type: virtual
+    enabled: true
+    mgmt_only: false

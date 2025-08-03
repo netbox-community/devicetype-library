@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: PSU6.3KW-HV
+part_number: PSU6.3KW-HV
+description: 6.3KW AC/HVAC/HVDC Power Supply
+power-ports:
+  - name: 0/PT{module}-PM{module}
+    type: iec-60320-c20
+    maximum_draw: 6300
+comments: |
+  - [Hardware Installation Guide for Cisco 8800 Series Routers, Chapter: Powering on the Router](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/hardware/hig-modular/b-8800-hardware-installation-guide-modular/powering_on_the_router.html#task_txx_wpt_zhb)

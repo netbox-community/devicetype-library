@@ -7,11 +7,13 @@ u_height: 0
 is_full_depth: false
 weight: 170
 weight_unit: g
+airflow: passive
 comments: '[AC Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)'
 interfaces:
   - name: lan0
     type: 1000base-t
     poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: wlan0
     type: ieee802.11n
   - name: wlan1

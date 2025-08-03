@@ -9,6 +9,7 @@ interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
     poe_mode: pd
+    poe_type: type1-ieee802.3af
   - name: WiFi
     type: ieee802.11n
 console-ports:
