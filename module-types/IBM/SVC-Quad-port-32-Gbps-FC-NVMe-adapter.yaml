@@ -1,0 +1,14 @@
+---
+manufacturer: IBM
+model: SVC Quad-port 32 Gbps FC-NVMe adapter
+part_number: 03JK177
+comments: '[Datasheet](https://www.ibm.com/docs/en/sanvolumecontroller/8.7.0?topic=canisters-quad-port-32-gbps-fibre-channel-adapter)'
+interfaces:
+  - name: '{module}/1'
+    type: 32gfc-sfpp
+  - name: '{module}/2'
+    type: 32gfc-sfpp
+  - name: '{module}/3'
+    type: 32gfc-sfpp
+  - name: '{module}/4'
+    type: 32gfc-sfpp

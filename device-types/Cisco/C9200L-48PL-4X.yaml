@@ -1,226 +1,229 @@
 ---
-manufacturer: Huawei
-model: S5735-L48P4XE-A-V2
-slug: huawei-s5735-l48p4xe-a-v2
-part_number: '98012120'
-u_height: 1.0
-is_full_depth: true
-weight: 6.10
-weight_unit: kg
+manufacturer: Cisco
+model: Catalyst 9200L-48PL-4X
+part_number: C9200L-48PL-4X
+slug: cisco-c9200l-48pl-4x
+u_height: 1
 airflow: front-to-rear
-comments: '[S5735-L48P4XE-A-V2 (48*10/100/1000BASE-T ports, 4*10GE SFP+ ports, 2*12GE stack ports, PoE+, 1*AC power)](https://support.huawei.com/enterprise/en/doc/EDOC1100277349/a75e5938)'
-front_image: true
-rear_image: true
+weight: 4.8
+weight_unit: kg
+is_full_depth: true
+comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
-  - name: con 0
+  - name: Console
     type: rj-45
-    label: CONSOLE
-module-bays:
-  - name: PWR1
-    position: '1'
-    label: PWR1
+  - name: usb
+    type: usb-mini-b
 interfaces:
-  - name: GE1/0/1
+  - name: GigabitEthernet1/0/1
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/2
+  - name: GigabitEthernet1/0/2
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/3
+  - name: GigabitEthernet1/0/3
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/4
+  - name: GigabitEthernet1/0/4
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/5
+  - name: GigabitEthernet1/0/5
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/6
+  - name: GigabitEthernet1/0/6
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/7
+  - name: GigabitEthernet1/0/7
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/8
+  - name: GigabitEthernet1/0/8
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/9
+  - name: GigabitEthernet1/0/9
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/10
+  - name: GigabitEthernet1/0/10
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/11
+  - name: GigabitEthernet1/0/11
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/12
+  - name: GigabitEthernet1/0/12
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/13
+  - name: GigabitEthernet1/0/13
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/14
+  - name: GigabitEthernet1/0/14
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/15
+  - name: GigabitEthernet1/0/15
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/16
+  - name: GigabitEthernet1/0/16
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/17
+  - name: GigabitEthernet1/0/17
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/18
+  - name: GigabitEthernet1/0/18
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/19
+  - name: GigabitEthernet1/0/19
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/20
+  - name: GigabitEthernet1/0/20
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/21
+  - name: GigabitEthernet1/0/21
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/22
+  - name: GigabitEthernet1/0/22
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/23
+  - name: GigabitEthernet1/0/23
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/24
+  - name: GigabitEthernet1/0/24
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/25
+  - name: GigabitEthernet1/0/25
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/26
+  - name: GigabitEthernet1/0/26
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/27
+  - name: GigabitEthernet1/0/27
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/28
+  - name: GigabitEthernet1/0/28
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/29
+  - name: GigabitEthernet1/0/29
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/30
+  - name: GigabitEthernet1/0/30
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/31
+  - name: GigabitEthernet1/0/31
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/32
+  - name: GigabitEthernet1/0/32
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/33
+  - name: GigabitEthernet1/0/33
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/34
+  - name: GigabitEthernet1/0/34
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/35
+  - name: GigabitEthernet1/0/35
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/36
+  - name: GigabitEthernet1/0/36
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/37
+  - name: GigabitEthernet1/0/37
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/38
+  - name: GigabitEthernet1/0/38
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/39
+  - name: GigabitEthernet1/0/39
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/40
+  - name: GigabitEthernet1/0/40
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/41
+  - name: GigabitEthernet1/0/41
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/42
+  - name: GigabitEthernet1/0/42
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/43
+  - name: GigabitEthernet1/0/43
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/44
+  - name: GigabitEthernet1/0/44
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/45
+  - name: GigabitEthernet1/0/45
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/46
+  - name: GigabitEthernet1/0/46
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/47
+  - name: GigabitEthernet1/0/47
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GE1/0/48
+  - name: GigabitEthernet1/0/48
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 10GE1/0/1
+  - name: TenGigabitEthernet1/1/1
     type: 10gbase-x-sfpp
-  - name: 10GE1/0/2
+  - name: TenGigabitEthernet1/1/2
     type: 10gbase-x-sfpp
-  - name: 10GE1/0/3
+  - name: TenGigabitEthernet1/1/3
     type: 10gbase-x-sfpp
-  - name: 10GE1/0/4
+  - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
-  - name: 10GE1/0/5
-    type: 10gbase-x-sfpp
-  - name: 10GE1/0/6
-    type: 10gbase-x-sfpp
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
