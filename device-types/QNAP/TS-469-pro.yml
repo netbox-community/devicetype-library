@@ -1,0 +1,29 @@
+---
+manufacturer: QNAP
+model: TS-469 Pro
+slug: qnap-ts-469-pro
+part_number: TS-469 Pro
+u_height: 0
+is_full_depth: false
+comments: '[TS-469 Pro Series Datasheet](https://www.qnap.com/en/product/ts-469 pro/specs/hardware)'
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 43
+    allocated_draw: 25
+module-bays:
+  - name: HDD1
+    position: HDD1
+  - name: HDD2
+    position: HDD2
+  - name: HDD3
+    position: HDD3
+  - name: HDD4
+    position: HDD4
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t

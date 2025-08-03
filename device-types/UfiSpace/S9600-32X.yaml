@@ -1,0 +1,115 @@
+---
+manufacturer: UfiSpace
+model: S9600-32X
+slug: ufispace-s9600-32x
+description: 32 QSFP28 Port Router
+part_number: S9600-32X
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 17.73
+weight_unit: kg
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: ce0
+    type: 100gbase-x-qsfp28
+    description: May be disabled and replaced by xe0-3, requires reboot
+  - name: ce1
+    type: 100gbase-x-qsfp28
+  - name: ce2
+    type: 100gbase-x-qsfp28
+  - name: ce3
+    type: 100gbase-x-qsfp28
+  - name: ce4
+    type: 100gbase-x-qsfp28
+  - name: ce5
+    type: 100gbase-x-qsfp28
+  - name: ce6
+    type: 100gbase-x-qsfp28
+  - name: ce7
+    type: 100gbase-x-qsfp28
+  - name: ce8
+    type: 100gbase-x-qsfp28
+  - name: ce9
+    type: 100gbase-x-qsfp28
+  - name: ce10
+    type: 100gbase-x-qsfp28
+  - name: ce11
+    type: 100gbase-x-qsfp28
+  - name: ce12
+    type: 100gbase-x-qsfp28
+  - name: ce13
+    type: 100gbase-x-qsfp28
+  - name: ce14
+    type: 100gbase-x-qsfp28
+  - name: ce15
+    type: 100gbase-x-qsfp28
+  - name: ce16
+    type: 100gbase-x-qsfp28
+  - name: ce17
+    type: 100gbase-x-qsfp28
+  - name: ce18
+    type: 100gbase-x-qsfp28
+  - name: ce19
+    type: 100gbase-x-qsfp28
+  - name: ce20
+    type: 100gbase-x-qsfp28
+  - name: ce21
+    type: 100gbase-x-qsfp28
+  - name: ce22
+    type: 100gbase-x-qsfp28
+  - name: ce23
+    type: 100gbase-x-qsfp28
+  - name: ce24
+    type: 100gbase-x-qsfp28
+  - name: ce25
+    type: 100gbase-x-qsfp28
+  - name: ce26
+    type: 100gbase-x-qsfp28
+  - name: ce27
+    type: 100gbase-x-qsfp28
+  - name: ce28
+    type: 100gbase-x-qsfp28
+  - name: ce29
+    type: 100gbase-x-qsfp28
+  - name: ce30
+    type: 100gbase-x-qsfp28
+  - name: ce31
+    type: 100gbase-x-qsfp28
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+    description: Management Interface
+  - name: xe0
+    type: 25gbase-x-sfp28
+    enabled: false
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
+  - name: xe1
+    type: 25gbase-x-sfp28
+    enabled: false
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
+  - name: xe2
+    type: 25gbase-x-sfp28
+    enabled: false
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
+  - name: xe3
+    type: 25gbase-x-sfp28
+    enabled: false
+    description: Ports xe0-3 replace ce0 when enabled, requires reboot.
+module-bays:
+  - name: FAN0
+    position: '0'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'

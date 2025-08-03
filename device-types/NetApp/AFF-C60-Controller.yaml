@@ -1,0 +1,33 @@
+---
+manufacturer: NetApp
+model: AFF-C60 Controller
+slug: netapp-aff-c60-001
+description: AFF C60 HA System Controller
+part_number: AFF-C60-001
+u_height: 0.0
+is_full_depth: true
+subdevice_role: child
+console-ports:
+  - name: IOIOI
+    type: rj-45
+interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+rear-ports:
+  - name: IOIOI
+    type: usb-c
+    positions: 1
+module-bays:
+  - name: Karte 1
+    position: '1'
+    description: Karte 1
+  - name: Karte 2
+    position: '2'
+    description: Karte 2
+  - name: Karte 3
+    position: '3'
+    description: Karte 3
+  - name: Karte 4
+    position: '4'
+    description: Karte 4
