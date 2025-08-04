@@ -1,20 +1,18 @@
 ---
 manufacturer: MikroTik
-model: CCR1016-12S-1S+
-slug: mikrotik-ccr1016-12s-1s-plus
+model: CCR1016-12S-1S+-r2
+slug: mikrotik-ccr1016-12s-1s-plus-r2
 description: '[CCR1016-12S-1S+](https://mikrotik.com/product/CCR1016-12S-1Splus)'
-part_number: CCR1016-12S-1S+
+part_number: CCR1016-12S-1S+r2
 is_full_depth: false
 weight: 2.55
 weight_unit: kg
-u_height: 1.0
-comments: first revision with microUSB and DB-9 RS232
-front_image: true
-rear_image: true
+u_height: 1
+comments: second revision with USB typeA and RJ-45 RS232
 airflow: front-to-rear
 console-ports:
   - name: serial0
-    type: de-9
+    type: rj-45
 power-ports:
   - name: power1
     type: iec-60320-c14
@@ -23,9 +21,8 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 48
 power-outlets:
-  - name: microUSB
-    type: usb-micro-b
-    description: OTG support
+  - name: usb
+    type: usb-a
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
@@ -63,6 +60,6 @@ interfaces:
   - name: sfp12
     type: 1000base-x-sfp
     label: SFP12
-  - name: sfpplus1
+  - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
-    label: SFP+
+    label: SFP+1
