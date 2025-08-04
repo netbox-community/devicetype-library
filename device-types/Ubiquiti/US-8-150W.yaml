@@ -2,6 +2,9 @@
 manufacturer: Ubiquiti
 model: US-8-150W
 slug: ubiquiti-us-8-150w
+weight: 1.65
+weight_unit: kg
+airflow: passive
 comments: |
   [UniFi Switch PoE 8 (150W)](https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w) (20W + max. 130W PoE), Gen1, (8) Gigabit PoE+ IEEE 802.3af/at and 24V Passive PoE, (2) SFP
 
@@ -11,20 +14,36 @@ is_full_depth: false
 interfaces:
   - name: Port 1 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 2 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 3 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 4 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 5 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 6 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 7 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 8 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: SFP 1
     type: 1000base-x-sfp
   - name: SFP 2
