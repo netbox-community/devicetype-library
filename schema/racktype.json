@@ -40,7 +40,7 @@
         "u_height": {
             "type": "number",
             "minimum": 0,
-            "multipleOf": 0.5
+            "multipleOf": 1
         },
         "outer_width": {
             "type": "number",
@@ -75,13 +75,7 @@
             "multipleOf": 0.01
         },
         "weight_unit": {
-            "type": "string",
-            "enum": [
-                "kg",
-                "g",
-                "lb",
-                "oz"
-            ]
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
         },
         "mounting_depth": {
             "type": "number",
