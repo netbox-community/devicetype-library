@@ -22,9 +22,9 @@ power-ports:
     maximum_draw: 50
 interfaces:
   - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: FastEthernet1/1
     type: 100base-tx
   - name: FastEthernet1/2
