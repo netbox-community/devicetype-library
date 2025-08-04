@@ -20,10 +20,9 @@ power-ports:
   - name: power2
     type: iec-60320-c14
     maximum_draw: 48
-# "USB ports as power-outlets is not something currently being modeled in this repo"
-# power-outlets:
-#   - name: usb
-#     type: usb-a
+power-outlets:
+  - name: usb
+    type: usb-a
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp

@@ -22,11 +22,10 @@ power-ports:
   - name: power2
     type: iec-60320-c14
     maximum_draw: 48
-# "USB ports as power-outlets is not something currently being modeled in this repo"
-# power-outlets:
-#   - name: microUSB
-#     type: usb-micro-b
-#     description: OTG support
+power-outlets:
+  - name: microUSB
+    type: usb-micro-b
+    description: OTG support
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
