@@ -5,8 +5,12 @@ slug: mikrotik-ccr1016-12s-1s-plus
 description: '[CCR1016-12S-1S+](https://mikrotik.com/product/CCR1016-12S-1Splus)'
 part_number: CCR1016-12S-1S+
 is_full_depth: false
+weight: 2.55
+weight_unit: kg
 u_height: 1.0
 comments: first revision with microUSB and DB-9 RS232
+front_image: true
+rear_image: true
 airflow: front-to-rear
 console-ports:
   - name: serial0
@@ -18,10 +22,11 @@ power-ports:
   - name: power2
     type: iec-60320-c14
     maximum_draw: 48
-power-outlets:
-  - name: microUSB
-    type: usb-micro-b
-    description: OTG support
+# "USB ports as power-outlets is not something currently being modeled in this repo"
+# power-outlets:
+#   - name: microUSB
+#     type: usb-micro-b
+#     description: OTG support
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
