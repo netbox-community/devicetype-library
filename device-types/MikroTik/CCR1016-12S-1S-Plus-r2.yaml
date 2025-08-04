@@ -5,6 +5,8 @@ slug: mikrotik-ccr1016-12s-1s-plus-r2
 description: '[CCR1016-12S-1S+](https://mikrotik.com/product/CCR1016-12S-1Splus)'
 part_number: CCR1016-12S-1S+r2
 is_full_depth: false
+weight: 2.55
+weight_unit: kg
 u_height: 1
 comments: second revision with USB typeA and RJ-45 RS232
 airflow: front-to-rear
@@ -18,9 +20,10 @@ power-ports:
   - name: power2
     type: iec-60320-c14
     maximum_draw: 48
-power-outlets:
-  - name: usb
-    type: usb-a
+# "USB ports as power-outlets is not something currently being modeled in this repo"
+# power-outlets:
+#   - name: usb
+#     type: usb-a
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
