@@ -1,6 +1,6 @@
 ---
 manufacturer: HPE
-model: MSR1002-4 Router JG875A
+model: MSR1002-4 AC Router
 part_number: JG875A
 slug: hpe-msr1002-4-ac-router
 u_height: 1
@@ -12,12 +12,8 @@ front_image: true
 rear_image: true
 comments: '[HPE MSR1000 Router Series QuickSpecs - Page 17](https://shoredata.us.com/wp-content/uploads/2016/03/MSR1000.pdf)'
 console-ports:
-  - name: 'CON/AUX'
+  - name: CON/AUX
     type: rj-45
-  - name: SERIAL-0
-    type: other
-  - name: USB-1
-    type: usb-a
 power-ports:
   - name: PS-1
     type: iec-60320-c14
