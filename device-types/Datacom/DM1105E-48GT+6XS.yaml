@@ -2,11 +2,9 @@
 manufacturer: Datacom
 model: DM1105E-48GT+6XS
 slug: dm1105e-48gt6xs
-default_platform: null
 part_number: 825.4525.xx
 u_height: 1.0
 is_full_depth: false
-subdevice_role: null
 airflow: front-to-rear
 weight: 4600.0
 weight_unit: g
@@ -29,7 +27,6 @@ console-ports:
 power-ports:
   - name: Power Input AC
     type: iec-60320-c14
-    maximum_draw: null
     allocated_draw: 48
 interfaces:
   - name: Ethernet1/0/1

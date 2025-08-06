@@ -1,12 +1,12 @@
 ---
 manufacturer: Datacom
-model: DM1105E-24GT+4GX
-slug: dm1105e-24gt4gx
-part_number: 825.4523.xx
+model: DM1305E-24GT+4XS
+slug: dm1305e-24gt4xs
+part_number: 825.4531.xx
 u_height: 1.0
 is_full_depth: false
-airflow: rear-to-front
-weight: 2500.0
+airflow: front-to-rear
+weight: 4300.0
 weight_unit: g
 comments: >
   The DM1005E switch line is a wire-speed Gigabit Ethernet solution designed
@@ -22,12 +22,14 @@ comments: >
 console-ports:
   - name: Console0
     type: rj-45
+  - name: Console1
+    type: usb-a
   - name: Reset button
     description: Physical reset button located on the front panel.
 power-ports:
   - name: Power Input AC
     type: iec-60320-c14
-    allocated_draw: 20
+    allocated_draw: 30
 interfaces:
   - name: Ethernet1/0/1
     type: 1000base-t
@@ -126,18 +128,22 @@ interfaces:
     enabled: true
     mgmt_only: false
   - name: Ethernet1/0/25
-    type: 1000base-sx
+    type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false
   - name: Ethernet1/0/26
-    type: 1000base-sx
+    type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false
   - name: Ethernet1/0/27
-    type: 1000base-sx
+    type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false
   - name: Ethernet1/0/28
-    type: 1000base-sx
+    type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false
+  - name: mgmt-1/1/1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true

@@ -2,11 +2,9 @@
 manufacturer: Datacom
 model: DM1205E-48GT+4XS
 slug: dm1205e-48gt4xs
-default_platform: null
 part_number: 825.4529.xx
 u_height: 1.0
 is_full_depth: false
-subdevice_role: null
 airflow: front-to-rear
 weight: 4699.99
 weight_unit: g
@@ -31,7 +29,6 @@ console-ports:
 power-ports:
   - name: Power Input AC
     type: iec-60320-c14
-    maximum_draw: null
     allocated_draw: 50
 interfaces:
   - name: Ethernet1/0/1
