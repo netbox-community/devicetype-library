@@ -1,3 +1,4 @@
+
 ---
 manufacturer: Datacom
 model: DM1205E-48GP+4XS
@@ -25,6 +26,7 @@ console-ports:
   - name: Console1
     type: usb-a
   - name: Reset button
+    type: other
     description: Physical reset button located on the front panel.
 power-ports:
   - name: Power Input AC
