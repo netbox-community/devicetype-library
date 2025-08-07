@@ -1,6 +1,6 @@
 ---
 manufacturer: HPE
-model: MSR954 Router JH296A
+model: MSR954 AC Router
 part_number: JH296A
 slug: hpe-msr954-ac-router
 u_height: 1
@@ -9,15 +9,11 @@ weight: 1
 weight_unit: kg
 airflow: left-to-right
 front_image: true
-rear_image: false
+rear_image: true
 comments: '[HPE MSR954 1GbE SFP 2GbE-WAN 4GbE-LAN CWv7 Router](https://www.hpe.com/psnow/doc/PSN1008605484NOEN)'
 console-ports:
   - name: CONSOLE
     type: rj-45
-  - name: USB-1
-    type: usb-a
-  - name: USB-2
-    type: usb-a
 power-ports:
   - name: PS-1
     type: iec-60320-c14
