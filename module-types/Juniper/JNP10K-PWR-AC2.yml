@@ -1,0 +1,15 @@
+---
+manufacturer: Juniper
+model: JNP10K-PWR-AC2
+part_number: 740-069994
+description: JNP10K 5500W AC/HVDC Power Supply
+comments: |
+  [JNP10K-PWR-AC2 Power Supply](https://www.juniper.net/documentation/us/en/hardware/ptx10008/topics/topic-map/ptx10008-power-system.html#jnp10k-pwr-ac2-power-supply)
+
+  ## JNP10K-PWR-AC2 Power Supply
+
+  The JNP10K-PWR-AC2 power supply is a high-capacity model that is designed to support AC, high-voltage AC (HVAC), or high-voltage DC (HVDC) systems in either a 20-A or a 30-A mode; see [Figure 4](https://www.juniper.net/documentation/us/en/hardware/ptx10008/topics/topic-map/ptx10008-power-system.html#jnp10k-pwr-ac2-power-supply__ptx10-ac2). The power supply feeds AC input and provides DC output of 5000 W with a single feed and 5500 W with a dual feed. The operating input voltage range is 180 to 305 VAC for AC systems and 190 to 410 VDC for DC systems.
+power-ports:
+  - name: PSU {module}
+    type: iec-60320-c14
+    maximum_draw: 5500
