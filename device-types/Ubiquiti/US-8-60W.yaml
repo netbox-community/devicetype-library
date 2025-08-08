@@ -3,6 +3,9 @@ manufacturer: Ubiquiti
 model: UniFi Switch 8 PoE 60W Gen1
 slug: ubiquiti-unifi-switch-8-poe-60w-gen1
 part_number: US-8-60W
+weight: 432
+weight_unit: g
+airflow: passive
 comments: |
   UniFi Switch 8 PoE 60W (12.4W + PoE), Gen1, Desk/WallMount, External VDC PSU, (8) Gigabit, (5-8) Gigabit PoE: IEEE802.3a
 
@@ -20,13 +23,21 @@ interfaces:
     type: 1000base-t
   - name: Port 5 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: Port 6 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: Port 7 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: Port 8 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
 power-ports:
   - name: Input
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 60

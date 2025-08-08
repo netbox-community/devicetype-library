@@ -9,42 +9,76 @@ comments: |
   Dimensions: 443 x 43 x 221 mm (17.44 x 1.69 x 8.70")
 u_height: 1
 is_full_depth: false
+weight: 2.89
+weight_unit: kg
 airflow: front-to-rear
 front_image: true
 rear_image: false
 interfaces:
   - name: Port 1 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 2 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 3 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 4 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 5 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 6 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 7 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 8 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 9 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 10 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 11 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 12 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 13 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 14 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 15 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 16 (PoE)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: SFP 1
     type: 1000base-x-sfp
   - name: SFP 2

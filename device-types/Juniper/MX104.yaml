@@ -1,0 +1,35 @@
+---
+manufacturer: Juniper
+model: MX104
+slug: juniper-mx104
+is_full_depth: true
+weight: 9
+weight_unit: kg
+airflow: right-to-left
+u_height: 4
+interfaces:
+  - name: xe-2/0/0
+    type: 10gbase-x-sfpp
+  - name: xe-2/0/1
+    type: 10gbase-x-sfpp
+  - name: xe-2/0/2
+    type: 10gbase-x-sfpp
+  - name: xe-2/0/3
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PEM0
+    position: '0'
+  - name: PEM1
+    position: '1'
+  - name: RE0
+    position: '0'
+  - name: RE1
+    position: '1'
+  - name: MIC0/0
+    position: 0/0
+  - name: MIC0/1
+    position: 0/1
+  - name: MIC1/0
+    position: 1/0
+  - name: MIC1/1
+    position: 1/1
