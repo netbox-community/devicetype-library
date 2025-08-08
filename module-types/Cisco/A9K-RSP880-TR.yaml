@@ -15,11 +15,11 @@ interfaces:
   - name: MgmtEth0/RSP{module}/CPU0/0
     type: 1000base-t
     mgmt_only: true
-    comments: Out-of-Band Management Port
+    description: Out-of-Band Management Port
   - name: MgmtEth0/RSP{module}/CPU0/1
     type: 1000base-t
     mgmt_only: true
-    comments: Out-of-Band Management Port
+    description: Out-of-Band Management Port
   - name: External USB2 class-A port{module}
     type: other
     mgmt_only: true
