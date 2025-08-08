@@ -2,7 +2,6 @@
   "type": "object",
   "$id": "urn:devicetype-library:components",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "additionalProperties": false,
   "definitions": {
     "console-port": {
       "type": "object",
@@ -25,7 +24,8 @@
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "console-server-port": {
       "type": "object",
@@ -45,7 +45,8 @@
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "power-port": {
       "type": "object",
@@ -71,7 +72,8 @@
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "power-outlet": {
       "type": "object",
@@ -98,7 +100,8 @@
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "interface": {
       "type": "object",
@@ -127,7 +130,8 @@
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "front-port": {
       "type": "object",
@@ -158,7 +162,8 @@
         "name",
         "type",
         "rear_port"
-      ]
+      ],
+      "additionalProperties": false
     },
     "rear-port": {
       "type": "object",
@@ -188,7 +193,8 @@
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "module-bay": {
       "type": "object",
@@ -208,7 +214,8 @@
       "required": [
         "name",
         "position"
-      ]
+      ],
+      "additionalProperties": false
     },
     "device-bay": {
       "type": "object",
@@ -224,7 +231,8 @@
       },
       "required": [
         "name"
-      ]
+      ],
+      "additionalProperties": false
     },
     "inventory-item": {
       "type": "object",
@@ -246,7 +254,8 @@
       },
       "required": [
         "name"
-      ]
+      ],
+      "additionalProperties": false
     }
   }
 }
