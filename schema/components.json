@@ -20,9 +20,8 @@
         "description": {
           "type": "string"
         },
-        "poe": {
-          "type": "boolean",
-          "$comment": "Non-NetBox property for validation"
+        "_is_power_source": {
+          "$ref": "urn:devicetype-library:reusable#/definitions/_is_power_source"
         }
       },
       "required": [
@@ -223,9 +222,8 @@
         "description": {
           "type": "string"
         },
-        "poe": {
-          "type": "boolean",
-          "$comment": "Non-NetBox property for validation"
+        "_is_power_source": {
+          "$ref": "urn:devicetype-library:reusable#/definitions/_is_power_source"
         }
       },
       "required": [
