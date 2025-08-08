@@ -10,13 +10,13 @@ weight_unit: kg
 airflow: left-to-right
 comments: '[Extreme Networks 5320 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/d474173d28554fb5925dc4e26312c8fe?v=c6d9813f)'
 power-ports:
-  - name: C14
+  - name: PS#1
     type: iec-60320-c14
     maximum_draw: 924
 console-ports:
-  - name: Console
+  - name: CONSOLE
     type: rj-45
-  - name: USB console
+  - name: USB CONSOLE
     type: usb-micro-b
 interfaces:
   - name: 1/1
@@ -265,7 +265,7 @@ module-bays:
     label: '49'
     description: Reserved for SPBM in Fabric Engine
   - name: SFP-50
-    position: 51/0
+    position: 1/50
     label: '50'
     description: Reserved for SPBM in Fabric Engine
   - name: SFP-51
