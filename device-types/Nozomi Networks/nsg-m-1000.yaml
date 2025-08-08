@@ -18,40 +18,40 @@ power-ports:
 interfaces:
   - name: GbE-1
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-2
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-3
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-4
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-5
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-6
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-7
     type: 1000base-t
-    comments: monitoring port
+    description: monitoring port
   - name: GbE-8
     type: 1000base-t
-    comments: communication port
+    description: communication port
   - name: SFP-1
     type: 1000base-x-sfp
-    comments: monitoring port
+    description: monitoring port
   - name: SFP-2
     type: 1000base-x-sfp
-    comments: monitoring port
+    description: monitoring port
   - name: SFP-3
     type: 1000base-x-sfp
-    comments: monitoring port
+    description: monitoring port
   - name: SFP-4
     type: 1000base-x-sfp
-    comments: monitoring/communication port
+    description: monitoring/communication port
   - name: iLO
     type: 1000base-t
     mgmt_only: true

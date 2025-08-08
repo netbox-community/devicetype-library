@@ -4,13 +4,16 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "properties": {
         "manufacturer": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "model": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "part_number": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 50
         },
         "weight": {
             "$ref": "urn:devicetype-library:reusable#/definitions/weight"
