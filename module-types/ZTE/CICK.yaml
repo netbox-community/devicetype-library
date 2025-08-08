@@ -7,60 +7,45 @@ console-ports:
   - name: CLKI1 {module}
     description: The first BITS clock input interface, 75ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKI2 {module}
     description: The second BITS clock input interface, 75ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKO/1PPSO {module}
     description: BITS/1PPS+TOD clock output interface, 75ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKI1/TIMI1 {module}
     description: The first BITS/1PPS+TOD clock input interface, 120ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKI2/TIMI2 {module}
     description: The second BITS/1PPS+TOD clock input interface, 120ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKO/TIMO {module}
     description: BITS/1PPS+TOD clock output interface, 120ohm
     type: rj-45
-    mgmt_only: true
   - name: ETH {module}
     description: Out-of-band maintenance network interface
     type: rj-45
-    mgmt_only: true
   - name: COM {module}
     description: Public serial port
     type: rj-45
-    mgmt_only: true
   - name: TEM {module}
     description: Temperature sensor interface
     type: rj-45
-    mgmt_only: true
   - name: HUM
     description: Humid sensor interface
     type: rj-45
-    mgmt_only: true
   - name: SMO {module}
     description: Smog sensor interface
     type: rj-45
-    mgmt_only: true
   - name: LIQ {module}
     description: Liquid sensor interface
     type: rj-45
-    mgmt_only: true
   - name: DOR {module}
     description: Entrance control sensor interface
     type: rj-45
-    mgmt_only: true
   - name: DIN {module}
     description: Digit input interface, four channels
     type: rj-45
-    mgmt_only: true
   - name: DOT {module}
     description: Digit input interface, four channels
     type: rj-45
-    mgmt_only: true

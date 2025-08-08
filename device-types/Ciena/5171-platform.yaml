@@ -12,25 +12,19 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-a
-    mgmt_only: true
   - name: 1PPS / 10MHZ
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
-    mgmt_only: true
   - name: CLK
     type: other
-    mgmt_only: true
     description: 1 Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
   - name: SYNC
     type: rj-45
-    mgmt_only: true
     description: RJ45 Synchronous Ethernet (SyncE) G.8261 and IEEE 1588v2 port.
   - name: BITS
     type: rj-45
-    mgmt_only: true
     description: RJ-45 BITS in or out, ToD in or out, or 1PPS in or out (software selectable).
 interfaces:
   - name: '1'

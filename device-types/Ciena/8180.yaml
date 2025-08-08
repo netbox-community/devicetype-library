@@ -12,22 +12,17 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-a
-    mgmt_only: true
   - name: 1PPS
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
-    mgmt_only: true
   - name: CLK
     description: Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
     type: other
-    mgmt_only: true
   - name: BITS
     type: rj-45
     description: RJ45 BITS in or out, ToD in or out, or 1PPS in or out
-    mgmt_only: true
 interfaces:
   - name: ILAN1
     type: 100base-tx
