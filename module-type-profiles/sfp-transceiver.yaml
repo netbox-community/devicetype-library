@@ -1,0 +1,29 @@
+---
+name: SFP Transceiver
+schema: {
+    "properties": {
+        "connector_type": {
+            "description": "Physical connector type",
+            "enum": [
+                "LC",
+                "SC",
+                "MPO",
+                "RJ45"
+            ],
+            "type": "string"
+        },
+        "wavelength": {
+            "description": "Operating wavelength",
+            "enum": [
+                "850nm",
+                "1310nm",
+                "1550nm",
+                "SWDM",
+                "CWDM",
+                "DWDM",
+                "copper"
+            ],
+            "type": "string"
+        }
+    }
+}
