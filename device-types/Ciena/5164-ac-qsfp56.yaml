@@ -11,21 +11,16 @@ weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-a
-    mgmt_only: true
   - name: 1PPS / 10MHZ
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
-    mgmt_only: true
   - name: ANT
     type: other
-    mgmt_only: true
     description: Mini-COAX GPS antenna port.
   - name: SYNC
     type: rj-45
-    mgmt_only: true
     description: RJ-45 sync port
 interfaces:
   - name: '1'

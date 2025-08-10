@@ -12,15 +12,14 @@ interfaces:
   - name: xgei_1/{module}/4
     type: 10gbase-x-sfpp
   - name: gei_1/{module}/5
-    comments: For out-of-band network management
+    description: For out-of-band network management
     type: 1000base-t
     mgmt_only: true
   - name: gei_1/{module}/6
-    comments: For mirroring service traffic
+    description: For mirroring service traffic
     type: 1000base-t
     mgmt_only: true
 console-ports:
   - name: CLI {module}
-    comments: RS-232 port,for local debugging
+    description: RS-232 port,for local debugging
     type: rj-45
-    mgmt_only: true
