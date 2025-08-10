@@ -1,0 +1,90 @@
+---
+manufacturer: Fortinet
+model: FortiGate 401F
+slug: fortinet-fg-401f
+part_number: FG-401F
+u_height: 1
+weight: 16.9
+weight_unit: lb
+is_full_depth: false
+airflow: side-to-rear
+comments: 'Same as FG-400E, but **WITH** 2 x 240GB SSD onboard storage. [FortiGate 400F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortigate-400f-series.pdf).
+  Compatible PSU module: SP-FG400F-PS, maximum power draw 221W, average power draw 161W.'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: ha
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-x-sfp
+  - name: port18
+    type: 1000base-x-sfp
+  - name: port19
+    type: 1000base-x-sfp
+  - name: port20
+    type: 1000base-x-sfp
+  - name: port21
+    type: 1000base-x-sfp
+  - name: port22
+    type: 1000base-x-sfp
+  - name: port23
+    type: 1000base-x-sfp
+  - name: port24
+    type: 1000base-x-sfp
+  - name: x1
+    type: 10gbase-x-sfpp
+  - name: x2
+    type: 10gbase-x-sfpp
+  - name: x3
+    type: 10gbase-x-sfpp
+  - name: x4
+    type: 10gbase-x-sfpp
+  - name: x5
+    type: 10gbase-x-sfpp
+  - name: x6
+    type: 10gbase-x-sfpp
+  - name: x7
+    type: 10gbase-x-sfpp
+  - name: x8
+    type: 10gbase-x-sfpp
