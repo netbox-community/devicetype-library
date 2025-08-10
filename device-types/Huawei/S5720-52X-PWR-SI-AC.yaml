@@ -14,11 +14,13 @@ comments: '[S5720-52X-PWR-SI-AC](https://support.huawei.com/enterprise/en/doc/ED
 console-ports:
   - name: CONSOLE
     type: rj-45
-power-ports:
+module-bays:
   - name: PWR1
-    type: iec-60320-c14
+    position: '1'
+    description: Power module slot 1
   - name: PWR2
-    type: iec-60320-c14
+    position: '2'
+    description: Power module slot 2
 interfaces:
   - name: MEth0/0/1
     type: 100base-tx
