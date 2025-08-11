@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JNP10K-RE1
 part_number: JNP10K-RE1
+weight: 5
+weight_unit: kg
 description: RE X10
 comments: |
   [MX10008 Routing and Control Board Components and Descriptions](https://www.juniper.net/documentation/us/en/hardware/mx10008/topics/topic-map/mx10008-16-rcb-description.html)
@@ -16,7 +18,7 @@ comments: |
   - JNP10K-RE1-LT
   - JNP10K-RE1-128G
 console-ports:
-  - name: '{module}'
+  - name: '{module}-con'
     type: rj-45
 interfaces:
   - name: '{module}-em0'

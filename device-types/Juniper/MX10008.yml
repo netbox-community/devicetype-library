@@ -5,9 +5,11 @@ slug: juniper-mx10008
 part_number: JNP10008 [MX10008]
 u_height: 13.0
 is_full_depth: true
+front_image: true
 airflow: front-to-rear
 weight: 127
 weight_unit: kg
+description: JNP10008-CHAS
 comments: |
   [MX10008 Modular Universal Routing Platforms Datasheet](https://www.juniper.net/us/en/products/routers/mx-series/mx10000-modular-universal-routing-platforms-datasheet.html)
 
@@ -32,39 +34,47 @@ module-bays:
     label: Routing Engine 1
     position: re1
   - name: FPC 0
+    label: FPC 0
     position: '0'
   - name: FPC 1
+    label: FPC 1
     position: '1'
   - name: FPC 2
+    label: FPC 2
     position: '2'
   - name: FPC 3
+    label: FPC 3
     position: '3'
   - name: FPC 4
+    label: FPC 4
     position: '4'
   - name: FPC 5
+    label: FPC 5
     position: '5'
   - name: FPC 6
+    label: FPC 6
     position: '6'
   - name: FPC 7
+    label: FPC 7
     position: '7'
   - name: PEM0
     label: PSU 0
-    position: PSU0
+    position: '0'
   - name: PEM1
     label: PSU 1
-    position: PSU1
+    position: '1'
   - name: PEM2
     label: PSU 2
-    position: PSU2
+    position: '2'
   - name: PEM3
     label: PSU 3
-    position: PSU3
+    position: '3'
   - name: PEM4
     label: PSU 4
-    position: PSU4
+    position: '4'
   - name: PEM5
     label: PSU 5
-    position: PSU5
+    position: '5'
   - name: Fan Tray 0
     label: Fan Tray 0
     position: FanTray0
