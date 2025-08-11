@@ -73,6 +73,8 @@ class DeviceType:
         return True
 
     def validate_power(self):
+        CUSTOM_POWER_SOURCE_PROPERTY = '_is_power_source'
+
         # Check if power-ports exists
         if self.definition.get('power-ports', False):
             # Verify that is_powered is not set to False. If so, there should not be any power-ports defined
@@ -92,15 +94,15 @@ class DeviceType:
         console_ports = self.definition.get('console-ports', False)
         if console_ports:
             for console_port in console_ports:
-                poe = console_port.get('poe', False)
-                if poe:
+                power_source = console_port.get(CUSTOM_POWER_SOURCE_PROPERTY, False)
+                if power_source:
                     return True
 
         rear_ports = self.definition.get('rear-ports', False)
         if rear_ports:
             for rear_port in rear_ports:
-                poe = rear_port.get('poe', False)
-                if poe:
+                power_source = rear_port.get(CUSTOM_POWER_SOURCE_PROPERTY, False)
+                if power_source:
                     return True
 
         # Check if the device is a child device, and if so, assume it has a valid power source from the parent

@@ -11,11 +11,9 @@ console-ports:
   - name: console/modem
     label: SER
     type: rj-45
-    poe: false
   - name: usb-a
     label: USB-A
     type: usb-a
-    poe: false
 console-server-ports:
   - name: aux
     label: AUX
