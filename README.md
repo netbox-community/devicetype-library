@@ -172,7 +172,7 @@ A console port provides connectivity to the physical console of a device. These 
 - `name`: Name
 - `label`: Label
 - `type`: Port type slug (Array)
-- `poe`: Does this port access/provide POE? (Boolean)
+- `_is_power_source`: Indicates that the port provides power to the device, only used internally for power validation (default: false)
 
 #### Console Server Ports
 
@@ -244,7 +244,7 @@ Like front ports, rear ports are pass-through ports which represent the continua
 - `label`: Label
 - `type`: Port type slug (Array)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
-- `poe`: Does this port access/provide POE? (Boolean)
+- `_is_power_source`: Indicates that the port provides power to the device, only used internally for power validation (default: false)
 
 #### Module Bays
 
