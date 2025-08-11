@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../schema/racktype.json
+# https://support.hpe.com/connect/s/product?language=en_US&kmpmoid=1155226
+---
+manufacturer: HPE
+model: 10642 G2
+slug: hpe-10642-g2
+form_factor: 4-post-cabinet
+description: 42U variant of HP 10000 G2 Series Rack
+width: 19
+u_height: 42
+starting_unit: 1
+outer_width: 600
+outer_unit: mm
+mounting_depth: 1000
+# I can't find this anywhere, but the 22U version has a listed weight of 80 kg
+weight: 160
+max_weight: 1360
+weight_unit: kg
+desc_units: false

@@ -1,0 +1,24 @@
+---
+manufacturer: Cisco
+model: NCS-DC-PWRTRAY
+part_number: NCS-DC-PWRTRAY
+description: NCS DC Power Tray
+comments: |
+  - [Cisco Network Convergence System 6000 Series Routers Hardware Installation Guide, Chapter: Installing Power Components](https://www.cisco.com/c/en/us/td/docs/iosxr/ncs6000/hardware-install/hig/b-ncs6000-hardware-installation-guide/b-ncs6000-hardware-installation-guide_chapter_0100.html)
+module-bays:
+  - name: 0/PT0
+    label: 0/PT
+    position: '0'
+    description: Power Tray Slot
+  - name: 0/PT1
+    label: 0/PT
+    position: '1'
+    description: Power Tray Slot
+  - name: 0/PT2
+    label: 0/PT
+    position: '2'
+    description: Power Tray Slot
+  - name: 0/PT3
+    label: 0/PT
+    position: '3'
+    description: Power Tray Slot

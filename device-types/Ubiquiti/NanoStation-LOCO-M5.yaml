@@ -5,9 +5,13 @@ slug: ubiquiti-nanostation-loco-m5
 part_number: nanostation loco m5
 u_height: 0
 is_full_depth: false
+weight: 180
+weight_unit: g
+airflow: passive
 interfaces:
   - name: eth0
     type: 1000base-t
     poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: wlan0
     type: ieee802.11n

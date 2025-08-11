@@ -329,6 +329,7 @@
                         "100base-tx",
                         "100base-t1",
                         "1000base-t",
+                        "1000base-sx",
                         "1000base-lx",
                         "1000base-tx",
                         "2.5gbase-t",
@@ -472,6 +473,13 @@
                         "passive-24v-4pair",
                         "passive-48v-2pair",
                         "passive-48v-4pair"
+                    ]
+                },
+                "rf_role": {
+                    "type": "string",
+                    "enum": [
+                        "ap",
+                        "station"
                     ]
                 }
             }

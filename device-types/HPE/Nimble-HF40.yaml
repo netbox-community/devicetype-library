@@ -1,0 +1,22 @@
+---
+manufacturer: HPE
+model: Nimble-HF40
+slug: hpe-nimble-hf40
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+part_number: Q8H39A
+comments: HPE Nimble Storage HF40 Adaptive Dual Controller 10GBASE-T 2-port Configure-to-order Base Array
+weight: 65
+weight_unit: kg
+subdevice_role: parent
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+device-bays:
+  - name: A
+    label: Controller A
+  - name: B
+    label: Controller B
