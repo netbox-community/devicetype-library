@@ -11,19 +11,15 @@ weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: SYNC
     type: rj-45
-    mgmt_only: true
     description: RJ-45 sync port
   - name: 1PPS
     description: 1PPS. SMB connector
     type: other
-    mgmt_only: true
   - name: 10MHZ
     description: SMB connector
     type: other
-    mgmt_only: true
 module-bays:
   - name: PS A
     position: A
