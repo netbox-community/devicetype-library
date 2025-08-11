@@ -125,6 +125,12 @@ interfaces:
     type: 1000base-t
   - name: ge-0/0/47
     type: 1000base-t
+  - name: vcp-0
+    label: Virtual Chassis Port 0
+    type: juniper-vcp
+  - name: vcp-1
+    label: Virtual Chassis Port 1
+    type: juniper-vcp
 module-bays:
   - name: Power Supply 0
     label: PSU 0

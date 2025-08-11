@@ -19,7 +19,7 @@ power-ports:
     maximum_draw: 30
     label: 100-240V; 50/60Hz; 1.0A
   - name: battery DC
-    type: other
+    type: dc-terminal
     maximum_draw: 30
 power-outlets:
   - name: usb
