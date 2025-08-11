@@ -107,3 +107,6 @@ pickle_operations.write_pickle_data(KNOWN_SLUGS, f'{ROOT_DIR}/tests/known-slugs.
 
 _generate_knowns('module')
 pickle_operations.write_pickle_data(KNOWN_MODULES, f'{ROOT_DIR}/tests/known-modules.pickle')
+
+_generate_knowns('rack')
+pickle_operations.write_pickle_data(KNOWN_MODULES, f'{ROOT_DIR}/tests/known-racks.pickle')
