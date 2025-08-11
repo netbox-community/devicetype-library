@@ -1,0 +1,189 @@
+---
+manufacturer: SNR
+model: S2995G-24TX-POE
+slug: snr-s2995g-24tx-poe
+part_number: SNR-S2995G-24TX-POE
+u_height: 1.0
+is_full_depth: false
+weight: 6
+weight_unit: kg
+airflow: right-to-left
+comments: '[SNR-S2995G-24TX-POE](https://snr.systems/ru/catalog/setevoe-oborudovanie/kommutatory-dostupa/snr-s2995gtx/snr-s2995g-24tx-poe)'
+console-ports:
+  - name: con0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: power AC
+    type: iec-60320-c14
+    maximum_draw: 400
+power-outlets:
+  - name: usb
+    type: usb-a
+    label: USB
+interfaces:
+  - name: Ethernet0
+    type: 100base-tx
+    enabled: true
+    mgmt_only: true
+    label: MGMT
+  - name: Ethernet1/0/1
+    type: 1000base-t
+    enabled: true
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/2
+    type: 1000base-t
+    enabled: true
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/3
+    type: 1000base-t
+    enabled: true
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/4
+    type: 1000base-t
+    enabled: true
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/5
+    type: 1000base-t
+    enabled: true
+    label: '5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/6
+    type: 1000base-t
+    enabled: true
+    label: '6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/7
+    type: 1000base-t
+    enabled: true
+    label: '7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/8
+    type: 1000base-t
+    enabled: true
+    label: '8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/9
+    type: 1000base-t
+    enabled: true
+    label: '9'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/10
+    type: 1000base-t
+    enabled: true
+    label: '10'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/11
+    type: 1000base-t
+    enabled: true
+    label: '11'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/12
+    type: 1000base-t
+    enabled: true
+    label: '12'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/13
+    type: 1000base-t
+    enabled: true
+    label: '13'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/14
+    type: 1000base-t
+    enabled: true
+    label: '14'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/15
+    type: 1000base-t
+    enabled: true
+    label: '15'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/16
+    type: 1000base-t
+    enabled: true
+    label: '16'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/17
+    type: 1000base-t
+    enabled: true
+    label: '17'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/18
+    type: 1000base-t
+    enabled: true
+    label: '18'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/19
+    type: 1000base-t
+    enabled: true
+    label: '19'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/20
+    type: 1000base-t
+    enabled: true
+    label: '20'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/21
+    type: 1000base-t
+    enabled: true
+    label: '21'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/22
+    type: 1000base-t
+    enabled: true
+    label: '22'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/23
+    type: 1000base-t
+    enabled: true
+    label: '23'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/24
+    type: 1000base-t
+    enabled: true
+    label: '24'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/25
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '25'
+  - name: Ethernet1/0/26
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '26'
+  - name: Ethernet1/0/27
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '27'
+  - name: Ethernet1/0/28
+    type: 10gbase-x-sfpp
+    enabled: true
+    label: '28'
