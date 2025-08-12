@@ -3,63 +3,94 @@ manufacturer: Cisco
 model: N77-C7706
 slug: cisco-n77-c7706
 part_number: N77-C7706
+description: Nexus 7700 Switches 6-Slot Chassis
+comments: '[Cisco Nexus 7700 Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/data_sheet_c78-728187.html)'
+weight: 65.8
+weight_unit: kg
 u_height: 9
 is_full_depth: true
+airflow: front-to-rear
+interfaces:
+  - name: mgmt0
+    type: virtual
+    mgmt_only: true
 module-bays:
-  - name: Slot 1
+  - name: Line Card 1
     position: '1'
-    description: Line Card
-  - name: Slot 2
+    label: '1'
+    description: Slot 1
+  - name: Line Card 2
     position: '2'
-    description: Line Card
-  - name: Slot 3
+    label: '2'
+    description: Slot 2
+  - name: Supervisor Module 1
     position: '3'
-    description: Supervisor Module
-  - name: Slot 4
+    label: '3'
+    description: Slot 3
+  - name: Supervisor Module 2
     position: '4'
-    description: Supervisor Module
-  - name: Slot 5
+    label: '4'
+    description: Slot 4
+  - name: Line Card 3
     position: '5'
-    description: Line Card
-  - name: Slot 6
+    label: '5'
+    description: Slot 5
+  - name: Line Card 4
     position: '6'
-    description: Line Card
-  - name: PS1
-    label: Power Supply 1
+    label: '6'
+    description: Slot 6
+
+  - name: Fabric Module 1
     position: '1'
-  - name: PS2
-    label: Power Supply 2
+    label: Fabric 1
+    description: Slot 7
+  - name: Fabric Module 2
     position: '2'
-  - name: PS3
-    label: Power Supply 3
+    label: Fabric 2
+    description: Slot 8
+  - name: Fabric Module 3
     position: '3'
-  - name: PS4
-    label: Power Supply 4
+    label: Fabric 3
+    description: Slot 9
+  - name: Fabric Module 4
     position: '4'
-  - name: Slot 7
-    label: Fabric Module 1
-    position: '7'
-  - name: Slot 8
-    label: Fabric Module 2
-    position: '8'
-  - name: Slot 9
-    label: Fabric Module 3
-    position: '9'
-  - name: Slot 10
-    label: Fabric Module 4
-    position: '10'
-  - name: Slot 11
-    label: Fabric Module 5
-    position: '11'
-  - name: Slot 12
-    label: Fabric Module 6
-    position: '12'
-  - name: Slot 37
-    label: FAN1
-    position: '37'
-  - name: Slot 38
-    label: FAN2
-    position: '38'
-  - name: Slot 39
-    label: FAN3
-    position: '39'
+    label: Fabric 4
+    description: Slot 10
+  - name: Fabric Module 5
+    position: '5'
+    label: Fabric 5
+    description: Slot 11
+  - name: Fabric Module 6
+    position: '6'
+    label: Fabric 6
+    description: Slot 12
+
+  - name: Power Supply 1
+    position: '1'
+    label: PS 1
+    description: Slot 33
+  - name: Power Supply 2
+    position: '2'
+    label: PS 2
+    description: Slot 34
+  - name: Power Supply 3
+    position: '3'
+    label: PS 3
+    description: Slot 35
+  - name: Power Supply 4
+    position: '4'
+    label: PS 4
+    description: Slot 36
+
+  - name: Fan 1
+    position: '1'
+    label: Fan 1
+    description: Slot 37
+  - name: Fan 2
+    position: '2'
+    label: Fan 2
+    description: Slot 38
+  - name: Fan 3
+    position: '3'
+    label: Fan 3
+    description: Slot 39

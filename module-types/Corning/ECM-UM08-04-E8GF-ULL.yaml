@@ -9,24 +9,24 @@ front-ports:
     type: lc
     rear_port: '{module}1-4'
     rear_port_position: 1
-    comments: Front Port 1 (Strands 1, 12)
+    description: Front Port 1 (Strands 1, 12)
   - name: '{module}2'
     type: lc
     rear_port: '{module}1-4'
     rear_port_position: 2
-    comments: Front Port 2 (Strands 2, 11)
+    description: Front Port 2 (Strands 2, 11)
   - name: '{module}3'
     type: lc
     rear_port: '{module}1-4'
     rear_port_position: 3
-    comments: Front Port 3 (Strands 3, 10)
+    description: Front Port 3 (Strands 3, 10)
   - name: '{module}4'
     type: lc
     rear_port: '{module}1-4'
     rear_port_position: 4
-    comments: Front Port 4 (Strands 4, 9)
+    description: Front Port 4 (Strands 4, 9)
 rear-ports:
   - name: '{module}1-4'
     type: mpo
     positions: 4
-    comments: Rear Port MPO connector ports 1-4 (strands 1-12)
+    description: Rear Port MPO connector ports 1-4 (strands 1-12)
