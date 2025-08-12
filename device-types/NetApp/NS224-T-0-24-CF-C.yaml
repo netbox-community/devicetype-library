@@ -1,0 +1,27 @@
+---
+manufacturer: NetApp
+model: NS224-T-0-24-CF-C
+slug: netapp-ns224-t-0-24-cf-c
+description: NVMe SHLF,2U24,Empty,NSM100B,CF
+part_number: NS224-T-0-24-CF-C
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 23.0
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: a-e0a
+    type: 100gbase-x-qsfp28
+  - name: a-e0b
+    type: 100gbase-x-qsfp28
+  - name: b-e0a
+    type: 100gbase-x-qsfp28
+  - name: b-e0b
+    type: 100gbase-x-qsfp28
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'

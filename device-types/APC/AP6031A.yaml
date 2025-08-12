@@ -1,0 +1,30 @@
+---
+manufacturer: APC
+model: AP6031A
+slug: apc-ap6031a
+part_number: AP6031A
+u_height: 1
+weight: 3.8
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+comments: Rack PDU, Basic, 0U/1U, 208V, 30A, (4) C19
+power-ports:
+  - name: Source
+    type: nema-l6-30p
+    description: 12f cord
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c19
+    power_port: Source
+  - name: Outlet 2
+    type: iec-60320-c19
+    power_port: Source
+  - name: Outlet 3
+    type: iec-60320-c19
+    power_port: Source
+  - name: Outlet 4
+    type: iec-60320-c19
+    power_port: Source
