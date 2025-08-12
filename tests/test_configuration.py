@@ -3,6 +3,7 @@ import os
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
+    ('rack-types', 'racktype.json'),
 )
 SCHEMAS_BASEPATH = f"{os.getcwd()}/schema/"
 

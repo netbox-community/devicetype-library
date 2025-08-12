@@ -12,26 +12,20 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: usb-c
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
   - name: 1PPS / 10MHz A
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
-    mgmt_only: true
   - name: 1PPS / 10MHz B
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
-    mgmt_only: true
   - name: ANT
     description: GNSS/GPS antenna mini SMB.
     type: other
-    mgmt_only: true
   - name: SYNC
     type: rj-45
     description: RJ45 interface G.703 1PPS & ToD input/output
-    mgmt_only: true
 interfaces:
   - name: M1
     type: 10gbase-x-sfpp
@@ -127,11 +121,11 @@ interfaces:
 module-bays:
   - name: PS A
     position: A
-    comments: |
+    description: |
       170-0372-900 8140/8190, DC PLUGGABLE POWER SUPPLY -48V
       170-0373-900 8140/8190, AC PLUGGABLE POWER SUPPLY
   - name: PS B
     position: B
-    comments: |
+    description: |
       170-0372-900 8140/8190, DC PLUGGABLE POWER SUPPLY -48V
       170-0373-900 8140/8190, AC PLUGGABLE POWER SUPPLY
