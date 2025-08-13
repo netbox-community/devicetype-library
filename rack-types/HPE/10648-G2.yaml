@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../schema/racktype.json
+# https://www.hpe.com/psnow/doc/PSN1009694916WWEN.pdf?jumpid=in_pdp-psnow-dds
+# https://www.hpe.com/psnow/doc/c05324689.html
+---
+manufacturer: HPE
+model: 10648 G2
+slug: hpe-10648-g2
+form_factor: 4-post-cabinet
+description: 48U x 600mm variant of HP 10000 G2 Series Rack
+width: 19
+u_height: 48
+starting_unit: 1
+outer_width: 600
+outer_height: 2299
+outer_depth: 1112
+outer_unit: mm
+mounting_depth: 1075
+# HP QuickSpec has kg and lb weights mixed up
+weight: 141.5
+max_weight: 1360
+weight_unit: kg
+desc_units: false

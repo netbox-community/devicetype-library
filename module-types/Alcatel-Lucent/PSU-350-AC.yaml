@@ -1,0 +1,8 @@
+---
+manufacturer: Alcatel-Lucent
+model: PSU-350-AC
+comments: 350W PSU for the OAW-4X50 controllers
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 350
