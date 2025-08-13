@@ -1,0 +1,25 @@
+---
+manufacturer: QNAP
+model: TS-233
+slug: qnap-ts-233
+part_number: TS-233
+is_full_depth: false
+u_height: 0
+airflow: side-to-rear
+comments: '[TS-233 | Hardware Specs | QNAP](https://www.qnap.com/de-de/product/ts-233/specs/hardware)'
+weight: 1.69
+weight_unit: kg
+front_image: true
+rear_image: true
+module-bays:
+  - name: HDD1
+    position: HDD1
+  - name: HDD2
+    position: HDD2
+power-ports:
+  - name: Power
+    type: dc-terminal
+    allocated_draw: 11
+interfaces:
+  - name: eth0
+    type: 1000base-t

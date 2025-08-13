@@ -1,0 +1,72 @@
+---
+manufacturer: Supermicro
+model: Motherboard X10SRH-CF
+slug: supermicro-mbd-x10srh-cf
+part_number: MBD-X10SRH-CF
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X10SRH-CF (https://www.supermicro.com/en/products/motherboard/X10SRH-CF)
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC IPMI port for Aspeed AST2400
+  # The CLN4f variant has 4 LAN ports, but this is the standard variant with 2 via the I350-AM2
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+# 6 PCI-E slots, 4 are 3.0 and hang off the CPU, 2 are 2.0 and hang off the chipset
+# Annoyingly, some of the slots are oversized for the lane-count
+# Counting up from the slot closest to the CPU/RAM
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 3.0 x4 (in x8 slot) [CPU SLOT7]
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x8 (in x16 slot) [CPU SLOT6]
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 3.0 x8 [CPU SLOT5]
+  - name: PCI-E 4
+    position: '4'
+    description: PCIe 3.0 x8 [CPU SLOT4]
+  - name: PCI-E 5
+    position: '5'
+    description: PCIe 2.0 x2 (in x4 slot) [PCH SLOT3]
+  - name: PCI-E 6
+    position: '6'
+    description: PCIe 2.0 x4 (in x8 slot) [PCH SLOT2]
+
+  # DIMM also counts as a module-bay, i think?
+  - name: DIMM A1
+    position: '1'
+    description: DDR4 DIMM slot (Blue)
+  - name: DIMM A2
+    position: '2'
+    description: DDR4 DIMM slot (White)
+  - name: DIMM B1
+    position: '3'
+    description: DDR4 DIMM slot (Blue)
+  - name: DIMM B2
+    position: '4'
+    description: DDR4 DIMM slot (White)
+  - name: DIMM C1
+    position: '5'
+    description: DDR4 DIMM slot (Blue)
+  - name: DIMM C2
+    position: '6'
+    description: DDR4 DIMM slot (White)
+  - name: DIMM D1
+    position: '7'
+    description: DDR4 DIMM slot (Blue)
+  - name: DIMM D2
+    position: '8'
+    description: DDR4 DIMM slot (White)

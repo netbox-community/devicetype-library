@@ -8,36 +8,36 @@ front-ports:
     type: mpo
     rear_port: '{module}1'
     rear_port_position: 1
-    comments: Front Port MPO conector port 1 (Strands 1-12)
+    description: Front Port MPO conector port 1 (Strands 1-12)
   - name: '{module}2'
     type: mpo
     rear_port: '{module}2'
     rear_port_position: 1
-    comments: Front Port MPO conector port 2 (Strands 13-24)
+    description: Front Port MPO conector port 2 (Strands 13-24)
   - name: '{module}3'
     type: mpo
     rear_port: '{module}3'
     rear_port_position: 1
-    comments: Front Port MPO conector port 3 (Strands 25-36)
+    description: Front Port MPO conector port 3 (Strands 25-36)
   - name: '{module}4'
     type: mpo
     rear_port: '{module}4'
     rear_port_position: 1
-    comments: Front Port MPO conector port 4 (Strands 37-48)
+    description: Front Port MPO conector port 4 (Strands 37-48)
 rear-ports:
   - name: '{module}1'
     type: mpo
     positions: 1
-    comments: Rear Port MPO connector port 1 (Strands 1-12)
+    description: Rear Port MPO connector port 1 (Strands 1-12)
   - name: '{module}2'
     type: mpo
     positions: 1
-    comments: Rear Port MPO connector port 2 (strands 13-24)
+    description: Rear Port MPO connector port 2 (strands 13-24)
   - name: '{module}3'
     type: mpo
     positions: 1
-    comments: Rear Port MPO connector port 3 (strands 25-36)
+    description: Rear Port MPO connector port 3 (strands 25-36)
   - name: '{module}4'
     type: mpo
     positions: 1
-    comments: Rear Port MPO connector port 4 (strands 37-48)
+    description: Rear Port MPO connector port 4 (strands 37-48)
