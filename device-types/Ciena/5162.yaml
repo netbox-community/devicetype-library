@@ -11,25 +11,19 @@ weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-a
-    mgmt_only: true
   - name: 1PPS / 10MHZ
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
-    mgmt_only: true
   - name: CLK
     type: other
-    mgmt_only: true
     description: Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
   - name: SYNC
     type: rj-45
-    mgmt_only: true
     description: RJ-45 sync port
   - name: BITS
     type: rj-45
-    mgmt_only: true
     description: RJ-45 BITS in or out.
 interfaces:
   - name: '1'
@@ -122,11 +116,11 @@ interfaces:
 module-bays:
   - name: PS A
     position: A
-    comments: |
+    description: |
       170-0092-900 5162/5170,DC PLUGGABLE POWER SUPPLY, -48V
       170-0093-900 5162/5170,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
   - name: PS B
     position: B
-    comments: |
+    description: |
       170-0092-900 5162/5170,DC PLUGGABLE POWER SUPPLY, -48V
       170-0093-900 5162/5170,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V

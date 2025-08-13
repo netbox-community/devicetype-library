@@ -20,15 +20,15 @@ module-bays:
     position: PCIe-1
   - name: PCIe-2 NVME
     position: PCIe-2
-    comments: Optional NS204i-u hot-plug NVME
+    description: Optional NS204i-u hot-plug NVME
   - name: PCIe-3 Gen5 raiser
     position: PCIe-3
   - name: OCP-1
     position: OCP-1
-    comments: OCP 3.0
+    description: OCP 3.0
   - name: OCP-2
     position: OCP-2
-    comments: OCP 3.0
+    description: OCP 3.0
 interfaces:
   - name: iLO
     type: 1000base-t
