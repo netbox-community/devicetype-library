@@ -1,0 +1,34 @@
+---
+manufacturer: Generic
+model: TEST-2000
+slug: generic-test-2000
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+console-ports:
+  - name: Console Port 1
+    type: de-9
+  - name: Console Port 2
+    type: de-9
+  - name: Console Port 3
+    type: de-9
+console-server-ports:
+  - name: Console Server Port 1
+    type: rj-45
+  - name: Console Server Port 2
+    type: rj-45
+interfaces:
+  - name: Interface 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Interface 2
+    type: 1000base-t
+  - name: Interface 3
+    type: 1000base-t
+module-bays:
+  - name: Module Bay 1
+    position: '1'
+  - name: Module Bay 2
+    position: '2'
+  - name: Module Bay 3
+    position: '3'
