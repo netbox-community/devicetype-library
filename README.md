@@ -125,7 +125,7 @@ Each definition **must** include at minimum the following fields:
   - Type: Number
   - :test_tube: Example: `u_height: 42`
 - `starting_unit`: The unit number at which the rack starts. This is used to indicate the starting unit number of the rack, such as whether it starts at 1 or 42. The starting unit is normally defined from bottom to top, with the bottom unit being 1.
-  - Type: Number 
+  - Type: Number
   - :test_tube: Example: `starting_unit: 1`
 
 :test_tube: Example:
