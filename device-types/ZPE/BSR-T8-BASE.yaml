@@ -14,10 +14,7 @@ console-ports:
   - name: Console
     label: CONSOLE
     type: rj-45
-  - name: Monitor
-    label: MONITOR
-    type: other
-    description: VGA
+  # 1x VGA
 console-server-ports:
   - name: ttyS1
     label: '1'
