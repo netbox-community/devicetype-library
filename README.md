@@ -80,9 +80,9 @@ The following fields may **optionally** be declared:
 - `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
   - Type: String
   - :test_tube: Example: `comments: This is a comment that will appear on all NetBox devices of this type`
-- `is_powered`: A boolean which indicates whether the device type does not take power. This is mainly used as a workaround for validation testing on non powered devices (i.e. rackmount kits or patch pannels.) (**Default: True**)
+- `_is_powered`: Indicates that the device type requires power to operate. Only used internally for power validation testing on non-powered devices (i.e. rackmount kits or patch pannels.) (**Default: True**)
   - Type: Boolean
-  - :test_tube: Example: `is_powered: false`
+  - :test_tube: Example: `_is_powered: false`
 - `weight`: A number representing the numeric weight value. Must be a multiple of 0.01 (2 decimal places). (**Default: None**)
   - Type: Number
   - Value: must be a multiple of 0.01
