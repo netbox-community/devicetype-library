@@ -1,15 +1,15 @@
 ---
 manufacturer: ZPE
-model: Net SR 4C DAC
-slug: zpe-nsr-base-dac
-part_number: NSR-BASE-DAC
+model: Net SR Lite
+slug: zpe-nsr-lite-dac
+part_number: NSR-LITE-DAC
 u_height: 1
 is_full_depth: false
 airflow: side-to-rear
 weight: 4.9
 weight_unit: kg
 description: >-
-  Modular chassis, 4-Core Intel CPU, Backplane Switch, 32GB mSATA, 5 Slots,
+  Modular chassis, 4-Core Intel CPU, No dedicated Backplane Switch, 32GB mSATA, 5 Slots,
   2x SFP+, 2x GbE, 3x USB, 1x HDMI, 1x Console, Dual AC Power Supply
 comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
 console-ports:
@@ -48,17 +48,12 @@ interfaces:
   - name: sfp0
     label: SFP 0
     type: 10gbase-x-sfpp
-    bridge: backplane0
   - name: sfp1
     label: SFP 1
     type: 10gbase-x-sfpp
-    bridge: backplane0
 
   - name: backplane0
     type: 10gbase-kr
-  - name: backplane1
-    type: 10gbase-kr
-    bridge: backplane0
 module-bays:
   - name: slot-1
     position: '1'
