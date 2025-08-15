@@ -62,11 +62,6 @@ power-ports:
     label: PWR IN
     type: dc-terminal
 interfaces:
-  - name: lo
-    type: virtual
-  - name: loopback0
-    type: virtual
-
   - name: eth0
     label: ETH 0
     type: 1000base-t

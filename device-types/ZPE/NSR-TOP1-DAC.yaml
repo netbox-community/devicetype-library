@@ -38,11 +38,6 @@ power-ports:
     type: iec-60320-c14
     description: Rear Center
 interfaces:
-  - name: lo
-    type: virtual
-  - name: loopback0
-    type: virtual
-
   - name: eth0
     label: ETH 0
     type: 1000base-t
