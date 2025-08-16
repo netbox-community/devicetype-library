@@ -1,28 +1,23 @@
 ---
 manufacturer: Extreme Networks
-model: 7720-32C
-slug: extreme-networks-7720-32c
-part_number: 7720-32C
+model: 7520-48YE-8CE
+slug: extreme-networks-7520-48ye-8ce
+part_number: 7520-48YE-8CE
 u_height: 1.0
 is_full_depth: true
-weight: 7.4
+weight: 7.41
 weight_unit: kg
-comments: '[Extreme Networks 7720 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/a7b2d7f8cf024e12af4ccf0284ac5359?v=41536a67)'
+comments: '[Extreme Networks 7520 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/b5da59835f5d4d10b740208284c8bc09?v=9df9bc2b)'
 console-ports:
   - name: CONSOLE
     type: rj-45
 interfaces:
-  - name: MGMT1
+  - name: MGMT
     type: 1000base-t
     mgmt_only: true
-    description: Direct to CPU (primary)
-  - name: MGMT2
-    type: 1000base-t
-    mgmt_only: true
-    description: CPU and BMC (secondary)
 module-bays:
   - name: PS#1
-    position: PS#2
+    position: PS#1
   - name: PS#2
     position: PS#2
   - name: SFP-1
@@ -121,3 +116,77 @@ module-bays:
   - name: SFP-32
     label: '32'
     position: 1/32
+  - name: SFP-33
+    label: '33'
+    position: 1/33
+  - name: SFP-34
+    label: '34'
+    position: 1/34
+  - name: SFP-35
+    label: '35'
+    position: 1/35
+  - name: SFP-36
+    label: '36'
+    position: 1/36
+  - name: SFP-37
+    label: '37'
+    position: 1/37
+  - name: SFP-38
+    label: '38'
+    position: 1/38
+  - name: SFP-39
+    label: '39'
+    position: 1/39
+  - name: SFP-40
+    label: '40'
+    position: 1/40
+  - name: SFP-41
+    label: '41'
+    position: 1/41
+  - name: SFP-42
+    label: '42'
+    position: 1/42
+  - name: SFP-43
+    label: '43'
+    position: 1/43
+  - name: SFP-44
+    label: '44'
+    position: 1/44
+  - name: SFP-45
+    label: '45'
+    position: 1/45
+  - name: SFP-46
+    label: '46'
+    position: 1/46
+  - name: SFP-47
+    label: '47'
+    position: 1/47
+  - name: SFP-48
+    label: '48'
+    position: 1/48
+  - name: SFP-49
+    label: '49'
+    position: 1/49
+  - name: SFP-50
+    label: '50'
+    position: 1/50
+  - name: SFP-51
+    label: '51'
+    position: 1/51
+  - name: SFP-52
+    label: '52'
+    position: 1/52
+  - name: SFP-53
+    label: '53'
+    position: 1/53
+  - name: SFP-54
+    label: '54'
+    position: 1/54
+  - name: SFP-55
+    label: '55'
+    position: 1/55
+    description: Reserved for SPBM in Fabric Engine
+  - name: SFP-56
+    label: '56'
+    position: 1/56
+    description: Reserved for SPBM in Fabric Engine
