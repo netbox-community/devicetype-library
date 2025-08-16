@@ -7,8 +7,9 @@ u_height: 2
 is_full_depth: false
 weight: 6.26
 weight_unit: kg
-comments: "[Datasheet](https://assets.tripplite.com/product-pdfs/en/pdumh30hvnet.pdf)\r\n12 foot power input cord\r\nNOTE - the outlet ports are numbered\
-  \ 1-8 on top, and reverse 16-9 on the bottom"
+airflow: passive
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/pdumh30hvnet.pdf)\r\n12 foot power input cord\r\nNOTE - the outlet ports are numbered\
+  \ 1-8 on top, and reverse 16-9 on the bottom'
 console-ports:
   - name: Config
     type: rj-45
@@ -68,6 +69,6 @@ power-outlets:
     power_port: Primary
 interfaces:
   - name: Net
-    type: 1000base-t
+    type: 100base-tx
     enabled: true
     mgmt_only: true
