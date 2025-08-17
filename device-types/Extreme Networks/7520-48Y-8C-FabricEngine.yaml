@@ -13,6 +13,7 @@ console-ports:
     type: rj-45
 interfaces:
   - name: MGMT
+    type: 1000base-t
     mgmt_only: true
 module-bays:
   - name: PS#1
