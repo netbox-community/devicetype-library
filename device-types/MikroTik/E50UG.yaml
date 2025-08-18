@@ -23,6 +23,7 @@ interfaces:
   - name: ether5
     type: 1000base-t
 power-ports:
-  - name: power1
+  - name: DC jack
     type: dc-terminal
     maximum_draw: 10
+    description: DC jack input 12-28V
