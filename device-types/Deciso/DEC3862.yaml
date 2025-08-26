@@ -1,8 +1,8 @@
 ---
 manufacturer: Deciso
-model: DEC740
-part_number: DEC740
-slug: deciso-dec740
+model: DEC3862
+part_number: DEC3862
+slug: deciso-dec3862
 is_full_depth: false
 u_height: 1
 interfaces:
@@ -15,17 +15,18 @@ interfaces:
   - name: igc2
     label: '2'
     type: 2.5gbase-t
+  - name: igc3
+    label: '3'
+    type: 2.5gbase-t    
   - name: ax0
-    label: X0
     type: 10gbase-x-sfpp
   - name: ax1
-    label: X1
     type: 10gbase-x-sfpp
 console-ports:
   - name: Console
     type: usb-mini-b
 power-ports:
-  - name: pwr
-    type: dc-terminal
-    maximum_draw: 36
-    allocated_draw: 15
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 506
+    allocated_draw: 45
