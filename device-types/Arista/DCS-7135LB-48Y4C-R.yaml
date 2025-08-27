@@ -17,12 +17,8 @@ console-ports:
 module-bays:
   - name: PS1
     position: '0'
-    allocated_draw: 667
-    maximum_draw: 1000
   - name: PS2
     position: '1'
-    allocated_draw: 667
-    maximum_draw: 1000
 interfaces:
   - name: Ethernet1
     type: 25gbase-x-sfp28

@@ -10,7 +10,7 @@ comments: MPU IQ Serial Adapter
 console-ports:
   - name: KVM
     type: rj-45
-    poe: true
+    _is_power_source: true
 console-server-ports:
   - name: con0
     type: rj-45

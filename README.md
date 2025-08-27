@@ -103,6 +103,48 @@ The following fields may **optionally** be declared:
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
 
+## Rack Type Definitions
+
+Each definition **must** include at minimum the following fields:
+
+- `manufacturer`: The name of the manufacturer which produces this rack type.
+  - Type: String
+- `model`: The model number of the rack type. This must be unique per manufacturer.
+  - Type: String
+- `slug`: A URL-friendly representation of the model number. Like the model number, this must be unique per
+  manufacturer. All slugs should have the manufacturers name prepended to it with a dash, please see the example below.
+  - Type: String
+  - Pattern: `"^[-a-z0-9_]+$"`. Must match the following characters: `-`, Lowercase `a` to `z`, Numbers `0` to `9`.
+- `form_factor`: The form factor of the rack type. This is used to indicate the physical characteristics of the rack, such as whether it is a 4-post frame or a wall-cabinet etc.
+  - Type: String
+  - :test_tube: Example: `form_factor: 4-post-frame`
+- `width`: The width of the rack type in zoll/inches. This is used to indicate the physical width of the rack, such as whether it is a 19" or 23" rack.
+  - Type: Integer
+  - :test_tube: Example: `width: 19`
+- `u_height`: The height of the rack type in rack units.
+  - Type: Number
+  - :test_tube: Example: `u_height: 42`
+- `starting_unit`: The unit number at which the rack starts. This is used to indicate the starting unit number of the rack, such as whether it starts at 1 or 42. The starting unit is normally defined from bottom to top, with the bottom unit being 1.
+  - Type: Number
+  - :test_tube: Example: `starting_unit: 1`
+
+:test_tube: Example:
+
+  ```yaml
+  manufacturer: Startech
+  model: 4 Post 42U
+  slug: startech-4postrack42
+  form_factor: 4-post-frame
+  width: 19
+  u_height: 42
+  starting_unit: 1
+  ```
+
+**Note: We are asking that all new racks also include the following optional fields: `outer_width`, `outer_height`, `outer_depth`, `outer_unit`, `weight`, `max_weight`, `weight_unit`, `mounting_depth`, and `desc_units`.**
+
+For further detail on these attributes and those listed below, please reference the
+[racktype schema definition](schema/racktype.json)
+
 ### Component Definitions
 
 Valid component types are listed below. Each type of component must declare a list of the individual component templates
@@ -130,7 +172,7 @@ A console port provides connectivity to the physical console of a device. These 
 - `name`: Name
 - `label`: Label
 - `type`: Port type slug (Array)
-- `poe`: Does this port access/provide POE? (Boolean)
+- `_is_power_source`: Indicates that the port provides power to the device, only used internally for power validation (default: false)
 
 #### Console Server Ports
 
@@ -202,7 +244,7 @@ Like front ports, rear ports are pass-through ports which represent the continua
 - `label`: Label
 - `type`: Port type slug (Array)
 - `positions`: The number of front ports that can map to this rear port (default: 1)
-- `poe`: Does this port access/provide POE? (Boolean)
+- `_is_power_source`: Indicates that the port provides power to the device, only used internally for power validation (default: false)
 
 #### Module Bays
 

@@ -1,0 +1,55 @@
+---
+manufacturer: Ubiquiti
+model: Unifi Switch Pro XG 8 PoE
+slug: ubiquiti-unifi-switch-pro-xg-8-poe
+part_number: USW-Pro-XG-8-PoE
+comments: |
+  UniFi Switch Pro XG 8PoE, 10G 8-Port Switch with 802.3bt PoE++, (60W w/o PoE) External VDC PSU (8) 1/10 Gigabit 60W PoE++ IEEE 802.3bt, (2) SFP+
+
+  Dimensions: 210.4 x 173.8 x 43.7 mm (8.28 x 6.84 x 1.7")
+u_height: 1
+weight: 1.6
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: false
+interfaces:
+  - name: Port 1 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 2 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 3 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 4 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 5 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 6 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 7 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 8 (PoE++)
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: DC Input
+    type: dc-terminal
+    maximum_draw: 220

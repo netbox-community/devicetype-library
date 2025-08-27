@@ -1,0 +1,47 @@
+---
+manufacturer: ZPE
+model: NSR-8ETH-POE-EXPN
+part_number: NSR-8ETH-POE-EXPN
+description: NSR 8-Port 1GbE PoE+ Ethernet Expansion Card
+comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
+interfaces:
+  - name: netS{module}-1
+    label: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-2
+    label: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-3
+    label: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-4
+    label: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-5
+    label: '5'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-6
+    label: '6'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-7
+    label: '7'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: netS{module}-8
+    label: '8'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
