@@ -8,6 +8,8 @@ is_full_depth: false
 weight: 520
 weight_unit: g
 subdevice_role: child
+front_image: false
+rear_image: true
 comments: '[LANCOM 1793VAW Data sheet](https://www.lancom-systems.de/download/LC-1793VAW/DS_1793VAW_DE.pdf)'
 power-ports:
   - name: PS1
@@ -32,6 +34,8 @@ interfaces:
     type: 1000base-t
   - name: ISDN 2
     type: 1000base-t
+  - name: WLAN-1
+    type: ieee802.11n
 console-ports:
   - name: USB
     type: usb-a

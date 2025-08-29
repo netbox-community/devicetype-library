@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: Meraki MR53
 slug: cisco-meraki-mr53
-part_number: MR53
+part_number: MR53-HW
 is_full_depth: false
 u_height: 0
 comments: "- Datasheet: [https://meraki.cisco.com/product-collateral/mr53-datasheet/?file](https://meraki.cisco.com/product-collateral/mr53-datasheet/?file)\r\
@@ -11,6 +11,7 @@ interfaces:
   - name: eth0
     type: 2.5gbase-t
     poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: eth1
     type: 1000base-t
   - name: wlan0

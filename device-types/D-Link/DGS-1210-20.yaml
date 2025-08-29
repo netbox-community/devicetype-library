@@ -3,7 +3,10 @@ manufacturer: D-Link
 model: DGS-1210-20
 slug: d-link-dgs-1210-20
 part_number: DGS-1210-20
-comments: '[D-Link DGS-1210-20](https://www.dlink.ru/ru/products/1/2636.html)'
+comments: |
+  ## Manufacturer information
+  - [D-Link DGS-1210-20](https://www.dlink.com/en/products/dgs-1210-20--20-port-gigabit-smart-managed-switch)
+  - [D-Link DGS-1210 Series](https://www.dlink.com/en/products/dgs-1210-series-gigabit-smart-plus-switches)
 is_full_depth: false
 airflow: passive
 weight: 1.75
@@ -14,51 +17,51 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 14
 interfaces:
-  - name: '1'
+  - name: GigabitEthernet1/0/1
     type: 1000base-t
-  - name: '2'
+  - name: GigabitEthernet1/0/2
     type: 1000base-t
-  - name: '3'
+  - name: GigabitEthernet1/0/3
     type: 1000base-t
-  - name: '4'
+  - name: GigabitEthernet1/0/4
     type: 1000base-t
-  - name: '5'
+  - name: GigabitEthernet1/0/5
     type: 1000base-t
-  - name: '6'
+  - name: GigabitEthernet1/0/6
     type: 1000base-t
-  - name: '7'
+  - name: GigabitEthernet1/0/7
     type: 1000base-t
-  - name: '8'
+  - name: GigabitEthernet1/0/8
     type: 1000base-t
-  - name: '9'
+  - name: GigabitEthernet1/0/9
     type: 1000base-t
-  - name: '10'
+  - name: GigabitEthernet1/0/10
     type: 1000base-t
-  - name: '11'
+  - name: GigabitEthernet1/0/11
     type: 1000base-t
-  - name: '12'
+  - name: GigabitEthernet1/0/12
     type: 1000base-t
-  - name: '13'
+  - name: GigabitEthernet1/0/13
     type: 1000base-t
-  - name: '14'
+  - name: GigabitEthernet1/0/14
     type: 1000base-t
-  - name: '15'
+  - name: GigabitEthernet1/0/15
     type: 1000base-t
-  - name: '16'
+  - name: GigabitEthernet1/0/16
     type: 1000base-t
-  - name: '17'
+  - name: GigabitEthernet1/0/17
     type: 1000base-t
-  - name: '18'
+  - name: GigabitEthernet1/0/18
     type: 1000base-t
-  - name: '19'
+  - name: GigabitEthernet1/0/19
     type: 1000base-t
-  - name: '20'
+  - name: GigabitEthernet1/0/20
     type: 1000base-t
-  - name: 17F
+  - name: GigabitEthernet1/0/17F
     type: 1000base-x-sfp
-  - name: 18F
+  - name: GigabitEthernet1/0/18F
     type: 1000base-x-sfp
-  - name: 19F
+  - name: GigabitEthernet1/0/19F
     type: 1000base-x-sfp
-  - name: 20F
+  - name: GigabitEthernet1/0/20F
     type: 1000base-x-sfp

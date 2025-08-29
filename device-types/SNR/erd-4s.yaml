@@ -1,0 +1,19 @@
+---
+manufacturer: SNR
+model: erd-4s
+slug: snr-erd-4s
+u_height: 0
+is_full_depth: false
+comments: ERD-4s monotoring ethernet device [Overview and Specifications](https://data.nag.ru/SNR%20ERD/SNR-ERD-4/Documents/)
+weight: 0.3
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: PWR
+    type: hardwired
+    maximum_draw: 15
+interfaces:
+  - name: Eth
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

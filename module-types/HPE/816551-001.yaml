@@ -1,0 +1,17 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 1Gb 4-port 366T PCIe Adapter
+part_number: 816551-001
+description: PCIe Full-Height and Half-Height NIC on various HP Proliant Gen9 and Gen10; Apollo Gen9 servers
+comments: "PCIe port Ethernet 1Gb 4-port 366T adapter. Has four 10/100/1000BASE-T RJ45 ports. Requires CAT5 or better twisted-pair.\r\n\r\n**Discontinued**.\
+  \ See:\r\n\r\n- [QuickSpecs](https://www.hpe.com/psnow/doc/c04605552)\r\n- [Technical specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=c04770273&page=GUID-97F533AE-68B3-4323-BFC9-C44F3B3D0EDE.html)\r\
+  \n- [Product Information Reference](https://support.hpe.com/hpesc/public/docDisplay?docId=c04770273&page=index.html)"
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-t
+  - name: '{module}/2'
+    type: 1000base-t
+  - name: '{module}/3'
+    type: 1000base-t
+  - name: '{module}/4'
+    type: 1000base-t

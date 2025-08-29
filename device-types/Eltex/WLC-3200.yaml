@@ -1,0 +1,47 @@
+---
+manufacturer: Eltex
+model: WLC-3200
+slug: eltex-wlc-3200
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 6.1
+weight_unit: kg
+comments: '[Datasheet](https://api.prod.eltex-co.ru/storage/upload_center/files/40/WLC-Series_datasheet_1.30.4.pdf)'
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+interfaces:
+  - name: Eth1
+    type: 25gbase-x-sfp28
+  - name: Eth2
+    type: 25gbase-x-sfp28
+  - name: Eth3
+    type: 25gbase-x-sfp28
+  - name: Eth4
+    type: 25gbase-x-sfp28
+  - name: Eth5
+    type: 25gbase-x-sfp28
+  - name: Eth6
+    type: 25gbase-x-sfp28
+  - name: Eth7
+    type: 25gbase-x-sfp28
+  - name: Eth8
+    type: 25gbase-x-sfp28
+  - name: Eth9
+    type: 25gbase-x-sfp28
+  - name: Eth10
+    type: 25gbase-x-sfp28
+  - name: Eth11
+    type: 25gbase-x-sfp28
+  - name: Eth12
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PS1
+    position: '1'
+    label: Power Supply 1
+  - name: PS2
+    position: '2'
+    label: Power Supply 2

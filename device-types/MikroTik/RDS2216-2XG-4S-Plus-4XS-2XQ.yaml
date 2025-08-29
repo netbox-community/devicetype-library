@@ -1,0 +1,123 @@
+---
+manufacturer: MikroTik
+model: RDS2216-2XG-4S+4XS-2XQ
+slug: mikrotik-rds2216-2xg-4s-plus-4xs-2xq
+part_number: RDS2216-2XG-4S+4XS-2XQ
+is_full_depth: true
+weight: 11.6
+weight_unit: kg
+airflow: front-to-rear
+u_height: 1
+comments: |
+  [Product Page](https://mikrotik.com/product/rds2216)
+front_image: true
+rear_image: true
+is_powered: true
+interfaces:
+  - name: ether1
+    type: 10gbase-t
+  - name: ether2
+    type: 10gbase-t
+  - name: ether3
+    type: 1000base-t
+    mgmt_only: true
+  - name: qsfp28-1-1
+    type: 100gbase-x-qsfp28
+  - name: qsfp28-2-1
+    type: 100gbase-x-qsfp28
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus2
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus3
+    type: 10gbase-x-sfpp
+  - name: sfp-sfpplus4
+    type: 10gbase-x-sfpp
+  - name: sfp28-1
+    type: 25gbase-x-sfp28
+  - name: sfp28-2
+    type: 25gbase-x-sfp28
+  - name: sfp28-3
+    type: 25gbase-x-sfp28
+  - name: sfp28-4
+    type: 25gbase-x-sfp28
+  - name: SSF-8644 1
+    type: other
+    description: SSF-8644 1, PCIe 3.0 x4 mode only
+  - name: SSF-8644 2
+    type: other
+    description: SSF-8644 2, PCIe 3.0 x4 mode only
+console-ports:
+  - name: serial0
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: sata1
+    position: sata1
+    description: SATA 6.0 Gbps, M.2 NVMe slot 1
+  - name: sata2
+    position: sata2
+    description: SATA 6.0 Gbps, M.2 NVMe slot 2
+  - name: nvme1
+    position: nvme1
+    description: U.2 NVMe slot 1, PCIe 2x8 GT/s
+  - name: nvme2
+    position: nvme2
+    description: U.2 NVMe slot 2, PCIe 2x8 GT/s
+  - name: nvme3
+    position: nvme3
+    description: U.2 NVMe slot 3, PCIe 2x8 GT/s
+  - name: nvme4
+    position: nvme4
+    description: U.2 NVMe slot 4, PCIe 2x8 GT/s
+  - name: nvme5
+    position: nvme5
+    description: U.2 NVMe slot 5, PCIe 2x8 GT/s
+  - name: nvme6
+    position: nvme6
+    description: U.2 NVMe slot 6, PCIe 2x8 GT/s
+  - name: nvme7
+    position: nvme7
+    description: U.2 NVMe slot 7, PCIe 2x8 GT/s
+  - name: nvme8
+    position: nvme8
+    description: U.2 NVMe slot 8, PCIe 2x8 GT/s
+  - name: nvme9
+    position: nvme9
+    description: U.2 NVMe slot 9, PCIe 2x8 GT/s
+  - name: nvme10
+    position: nvme10
+    description: U.2 NVMe slot 10, PCIe 2x8 GT/s
+  - name: nvme11
+    position: nvme11
+    description: U.2 NVMe slot 11, PCIe 2x8 GT/s
+  - name: nvme12
+    position: nvme12
+    description: U.2 NVMe slot 12, PCIe 2x8 GT/s
+  - name: nvme13
+    position: nvme13
+    description: U.2 NVMe slot 13, PCIe 2x8 GT/s
+  - name: nvme14
+    position: nvme14
+    description: U.2 NVMe slot 14, PCIe 2x8 GT/s
+  - name: nvme15
+    position: nvme15
+    description: U.2 NVMe slot 15, PCIe 2x8 GT/s
+  - name: nvme16
+    position: nvme16
+    description: U.2 NVMe slot 16, PCIe 2x8 GT/s
+  - name: nvme17
+    position: nvme17
+    description: U.2 NVMe slot 17, PCIe 2x8 GT/s
+  - name: nvme18
+    position: nvme18
+    description: U.2 NVMe slot 18, PCIe 2x8 GT/s
+  - name: nvme19
+    position: nvme19
+    description: U.2 NVMe slot 19, PCIe 2x8 GT/s
+  - name: nvme20
+    position: nvme20
+    description: U.2 NVMe slot 20, PCIe 2x8 GT/s

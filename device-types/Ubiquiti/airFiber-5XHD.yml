@@ -11,6 +11,9 @@ comments: |
   The eth0 and ath0 are permanently bridged as this is a L2 bridge device.
 u_height: 0
 is_full_depth: false
+airflow: passive
+weight: 0.35
+weight_unit: kg
 interfaces:
   - name: br0
     type: bridge
@@ -19,6 +22,7 @@ interfaces:
     label: Ethernet
     type: 1000base-t
     poe_mode: pd
+    poe_type: passive-48v-4pair
   - name: ath0
     label: Wireless
     type: ieee802.11ax

@@ -2,12 +2,17 @@
 manufacturer: Ubiquiti
 model: LiteAP 120
 slug: ubiquiti-liteap-120
+part_number: LAP-120
 u_height: 0
 is_full_depth: false
 comments: '[LiteAP AC](https://www.ui.com/airmax/liteap-ac/)'
+weight: 420
+weight_unit: g
+airflow: passive
 interfaces:
   - name: lan0
     type: 1000base-t
     poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: wlan0
     type: ieee802.11ac

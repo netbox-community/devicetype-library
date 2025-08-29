@@ -1,0 +1,119 @@
+---
+manufacturer: Netgear
+model: GS728TP
+slug: netgear-gs728tp
+u_height: 1
+is_full_depth: false
+airflow: left-to-right
+weight: 2.71
+weight_unit: kg
+comments: 'Netgear Smart Managed Pro Switch - 24x 1G PoE+ (190W Budget), 4x SFP. Datasheet: https://www.downloads.netgear.com/files/GDC/datasheet/en/GS516TP-GS728TP-GS728TPP-GS752TP.pdf'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 222
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '5'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '6'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '7'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '8'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '9'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '10'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '11'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '12'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '13'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '14'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '15'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '16'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '17'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '18'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '19'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '20'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '21'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '22'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '23'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '24'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: '25'
+    type: 1000base-x-sfp
+  - name: '26'
+    type: 1000base-x-sfp
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp
