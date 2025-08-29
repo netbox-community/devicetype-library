@@ -1,0 +1,54 @@
+---
+manufacturer: Olencom
+model: FM-16M
+slug: olencom-fm-16m
+comments: Olencom E1 and Fast Ethernet optic Multiplexor
+is_full_depth: false
+weight: 2
+weight_unit: kg
+airflow: passive
+u_height: 1
+console-ports:
+  - name: console
+    type: de-9
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 20
+interfaces:
+  - name: line
+    type: 1000base-sx
+  - name: lan
+    type: 100base-tx
+  - name: e1/1
+    type: e1
+  - name: e1/2
+    type: e1
+  - name: e1/3
+    type: e1
+  - name: e1/4
+    type: e1
+  - name: e1/5
+    type: e1
+  - name: e1/6
+    type: e1
+  - name: e1/7
+    type: e1
+  - name: e1/8
+    type: e1
+  - name: e1/9
+    type: e1
+  - name: e1/10
+    type: e1
+  - name: e1/11
+    type: e1
+  - name: e1/12
+    type: e1
+  - name: e1/13
+    type: e1
+  - name: e1/14
+    type: e1
+  - name: e1/15
+    type: e1
+  - name: e1/16
+    type: e1
