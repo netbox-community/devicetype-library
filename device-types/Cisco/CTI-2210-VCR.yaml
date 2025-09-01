@@ -5,7 +5,7 @@ part_number: CTI-2210-VCR-K9
 slug: cisco-cti-2210-vcr
 is_full_depth: true
 airflow: side-to-rear
-comments: 'Tandberg by Codian by Cisco VCR'
+comments: Tandberg by Codian by Cisco VCR
 u_height: 1
 weight: 4
 weight_unit: kg
@@ -18,6 +18,6 @@ interfaces:
   - name: GigabitEthernet0/1
     type: 1000base-t
 power-ports:
-  - name: PSU0
+  - name: PSU
     type: iec-60320-c14
     maximum_draw: 110
