@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: MCU-4510
+part_number: MCU-4510-K9
+slug: cisco-mcu-4510
+airflow: side-to-rear
+comments: Tandberg by Codian by Cisco MCU
+u_height: 2
+is_full_depth: true
+weight: 15
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 787
