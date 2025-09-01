@@ -46,8 +46,11 @@
         "subdevice_role": {
             "$ref": "urn:devicetype-library:generated-schema#/definitions/subdevice-role"
         },
-        "is_powered": {
-          "type": "boolean"
+        "_is_powered": {
+            "title": "Device requires Power",
+            "description": "Custom non-NetBox property used for power validation",
+            "type": "boolean",
+            "default": true
         },
         "console-ports": {
             "type": "array",

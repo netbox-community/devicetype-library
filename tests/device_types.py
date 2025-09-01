@@ -73,13 +73,14 @@ class DeviceType:
         return True
 
     def validate_power(self):
+        CUSTOM_POWERED_PROPERTY = '_is_powered'
         CUSTOM_POWER_SOURCE_PROPERTY = '_is_power_source'
 
         # Check if power-ports exists
         if self.definition.get('power-ports', False):
-            # Verify that is_powered is not set to False. If so, there should not be any power-ports defined
-            if not self.definition.get('is_powered', True):
-                self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-ports" are defined.'
+            # Verify that _is_powered is not set to False. If so, there should not be any power-ports defined
+            if not self.definition.get(CUSTOM_POWERED_PROPERTY, True):
+                self.failureMessage = f'{self.file_path} has {CUSTOM_POWERED_PROPERTY} set to False, but "power-ports" are defined.'
                 return False
             return True
 
@@ -116,11 +117,11 @@ class DeviceType:
             # There is not a standardized way to define PSUs that are module bays, so we will just assume they are valid
             return True
 
-        # As the very last case, check if is_powered is defined and is False. Otherwise assume the device is powered
-        if not self.definition.get('is_powered', True): # is_powered defaults to True
-            # Arriving here means is_powered is set to False, so verify that there are no power-outlets defined
+        # As the very last case, check if _is_powered is defined and is False. Otherwise assume the device is powered
+        if not self.definition.get(CUSTOM_POWERED_PROPERTY, True):
+            # Arriving here means _is_powered is set to False, so verify that there are no power-outlets defined
             if self.definition.get('power-outlets', False):
-                self.failureMessage = f'{self.file_path} has is_powered set to False, but "power-outlets" are defined.'
+                self.failureMessage = f'{self.file_path} has {CUSTOM_POWERED_PROPERTY} set to False, but "power-outlets" are defined.'
                 return False
             return True
 
