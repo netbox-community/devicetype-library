@@ -11,13 +11,6 @@ weight_unit: kg
 console-ports:
   - name: Con
     type: rj-45
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 1050
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 1050
 interfaces:
   - name: CIMC
     type: 1000base-t
@@ -40,3 +33,9 @@ module-bays:
   - name: PCIe slot 3
     label: PCIe-3
     position: '3'
+  - name: PSU1
+    label: Power Supply 1
+    position: PS1
+  - name: PSU2
+    label: Power Supply 2
+    position: PS2
