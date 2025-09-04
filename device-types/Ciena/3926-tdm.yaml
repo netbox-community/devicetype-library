@@ -12,15 +12,12 @@ weight_unit: kg
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: 1PPS
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
-    mgmt_only: true
   - name: SYNC
     type: rj-45
     description: RJ45 interface G.703 1PPS & ToD input/output
-    mgmt_only: true
 module-bays:
   - name: PS A
     position: A

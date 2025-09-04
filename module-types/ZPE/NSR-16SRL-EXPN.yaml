@@ -1,39 +1,55 @@
 ---
 manufacturer: ZPE
 model: NSR-16SRL-EXPN
-part_number: ZPE-NSR-16SRL-EXPN
+part_number: NSR-16SRL-EXPN
 description: NSR 16-Port RJ45 Serial Rolled Expansion Card
-comments: '[ZPE Systems Net Services Router Product Sheet](https://www.zpesystems.com/nodegrid/Datasheet/New/NodeGrid%20Services%20Router.pdf)'
+comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
 console-server-ports:
   - name: ttyS{module}-1
+    label: '1'
     type: rj-45
   - name: ttyS{module}-2
+    label: '2'
     type: rj-45
   - name: ttyS{module}-3
+    label: '3'
     type: rj-45
   - name: ttyS{module}-4
+    label: '4'
     type: rj-45
   - name: ttyS{module}-5
+    label: '5'
     type: rj-45
   - name: ttyS{module}-6
+    label: '6'
     type: rj-45
   - name: ttyS{module}-7
+    label: '7'
     type: rj-45
   - name: ttyS{module}-8
+    label: '8'
     type: rj-45
   - name: ttyS{module}-9
+    label: '9'
     type: rj-45
   - name: ttyS{module}-10
+    label: '10'
     type: rj-45
   - name: ttyS{module}-11
+    label: '11'
     type: rj-45
   - name: ttyS{module}-12
+    label: '12'
     type: rj-45
   - name: ttyS{module}-13
+    label: '13'
     type: rj-45
   - name: ttyS{module}-14
+    label: '14'
     type: rj-45
   - name: ttyS{module}-15
+    label: '15'
     type: rj-45
   - name: ttyS{module}-16
+    label: '16'
     type: rj-45

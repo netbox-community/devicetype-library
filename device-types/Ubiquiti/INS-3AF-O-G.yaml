@@ -5,6 +5,8 @@ slug: ubiquiti-ins-3af-o-g
 part_number: INS-3AF-O-G
 u_height: 0.0
 is_full_depth: false
+weight: 90
+weight_unit: g
 airflow: passive
 comments: '[UBNT Instant PoE Converter Data Sheet](https://dl.ubnt.com/datasheets/instant/Instant_802.3af_Gigabit_PoE_Converters_DS.pdf)'
 front-ports:
@@ -17,4 +19,4 @@ rear-ports:
     type: 8p8c
     positions: 1
     label: PoE IN
-    poe: true
+    _is_power_source: true

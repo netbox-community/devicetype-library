@@ -9,6 +9,8 @@ comments: |
   Dimensions: 443 x 221 x 43 mm (17.44 x 8.70 x 1.69")
 u_height: 1
 is_full_depth: false
+weight: 2.71
+weight_unit: kg
 airflow: front-to-rear
 front_image: true
 rear_image: false
@@ -53,6 +55,5 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 56
   - name: 48/24VDC
-    # TODO: There is no proper DC "terminalblock" connection type defined
-    type: iec-60320-c20
+    type: dc-terminal
     maximum_draw: 56
