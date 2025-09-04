@@ -1,0 +1,32 @@
+---
+manufacturer: Accedian
+model: MetroNID TE
+slug: accedian-metro-nid-te
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+comments: '[MetroNID Datasheet](https://www.tempestns.com/wp-content/uploads/2020/06/Accedian-TE-TE-S-data.pdf)'
+power-ports:
+  - name: AC Power Adapter
+    type: dc-terminal
+    maximum_draw: 13
+  - name: Dual DC Power
+    type: dc-terminal
+    maximum_draw: 13
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: RJ-45 A
+    type: 1000base-t
+  - name: RJ-45 B
+    type: 1000base-t
+  - name: SFP-A
+    type: 1000base-x-sfp
+  - name: SFP-B
+    type: 1000base-x-sfp
+  - name: RJ-45 C/MGMT
+    type: 1000base-t
+    mgmt_only: true
