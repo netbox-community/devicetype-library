@@ -1,0 +1,40 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Flex 2.5G 8
+slug: ubiquiti-usw-flex-2-5g-8
+part_number: USW-Flex-2-5G-8
+comments: |
+  212.9 x 76 x 33.5 mm
+  https://eu.store.ui.com/eu/en/products/usw-flex-2-5g-8
+u_height: 0
+weight: 395
+weight_unit: g
+airflow: passive
+is_full_depth: false
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+  - name: Port 2
+    type: 2.5gbase-t
+  - name: Port 3
+    type: 2.5gbase-t
+  - name: Port 4
+    type: 2.5gbase-t
+  - name: Port 5
+    type: 2.5gbase-t
+  - name: Port 6
+    type: 2.5gbase-t
+  - name: Port 7
+    type: 2.5gbase-t
+  - name: Port 8
+    type: 2.5gbase-t
+  - name: Port 9 (PoE+)
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: Port 10
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: 5VDC IN
+    type: usb-c
+    maximum_draw: 14
