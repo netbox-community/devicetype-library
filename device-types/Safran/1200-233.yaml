@@ -1,8 +1,8 @@
 ---
 manufacturer: Safran
 model: SecureSync Enterprise
-slug: safran-secure-sync-enterprise-1200-233
-part_number: 1200-233
+slug: safran-secure-sync-enterprise-1200-011
+part_number: 1200-011
 u_height: 1
 is_full_depth: false
 airflow: passive
@@ -12,20 +12,11 @@ comments: '[SecureSync Datasheet](https://safran-navigation-timing.com/wp-conten
 power-ports:
   - name: AC Input
     type: iec-60320-c14
-    allocated_draw: 50
-    maximum_draw: 80
-  - name: DC Input
-    type: dc-terminal
-    allocated_draw: 50
-    maximum_draw: 80
+    allocated_draw: 40
+    maximum_draw: 50
+console-ports:
+  - name: Console
+    type: de-9
 interfaces:
-  - name: Management
+  - name: Ethernet
     type: 100base-tx
-    mgmt_only: true
-module-bays:
-  - name: Slot 1
-  - name: Slot 2
-  - name: Slot 3
-  - name: Slot 4
-  - name: Slot 5
-  - name: Slot 6
