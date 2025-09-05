@@ -1,0 +1,29 @@
+---
+manufacturer: Fortinet
+model: FAZ-1000E
+slug: fortinet-faz-1000e
+part_number: FAZ-1000E
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Fortinet FortiAnalyzer 1000E - Enterprise log analysis and reporting appliance](https://www.avfirewalls.com/fortianalyzer-1000e.asp)'
+
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet2
+    type: 1000base-t
+    mgmt_only: false
+
+console-ports:
+  - name: console
+    type: rj-45
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 275
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 275
