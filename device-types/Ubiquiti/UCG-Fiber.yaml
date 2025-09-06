@@ -9,7 +9,7 @@ airflow: passive
 weight: 675
 weight_unit: g
 comments: >
-  Desktop 10G Cloud Gateway with integrated 4-port 2.5 GbE switch, selectable NVR storage, and full UniFi application support.
+  Desktop 10G Cloud Gateway with integrated 4-port 2.5 GbE switch, selectable NVR storage, and full UniFi application support. One of the 2.5GbE ports also supplies PoE+ power
   [Tech Specs](https://techspecs.ui.com/unifi/cloud-gateways/ucg-fiber)
 power-ports:
   - name: Power Supply
@@ -24,6 +24,8 @@ interfaces:
     type: 2.5gbase-t
   - name: LAN4
     type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: WAN1
     type: 10gbase-t
   - name: LAN5
