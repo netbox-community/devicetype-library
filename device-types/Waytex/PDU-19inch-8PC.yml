@@ -1,0 +1,41 @@
+---
+manufacturer: Waytex
+model: PDU-19inch-8PC
+slug: waytex-pdu-19inch-8pc
+comments: |
+  Bloc multiprise boitier alu 8 prises ROUGE + inter rackable 19 -
+  Nombre de prises : 8 ROUGE - Rackable : 19
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 810.0
+weight_unit: g
+power-ports:
+  - name: Primary
+    type: nbr-14136-20a
+    maximum_draw: 3500
+power-outlets:
+  - name: Outlet 1
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 2
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 3
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 4
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 5
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 6
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 7
+    type: nbr-14136-10a
+    power_port: Primary
+  - name: Outlet 8
+    type: nbr-14136-10a
+    power_port: Primary
