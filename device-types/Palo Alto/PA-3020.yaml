@@ -6,10 +6,15 @@ part_number: PA-3020
 u_height: 1
 is_full_depth: false
 front_image: true
+weight: 15.0
+weight_unit: lb
 comments: '[PA-3020 Datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-3000-series/pa-3000-series-hardware-reference-guide.pdf)'
 power-ports:
   - name: PS1
     type: iec-60320-c14
+    maximum_draw: 200
+    allocated_draw: 150
+    description: 250 Watt AC Internal Power Supply
 console-ports:
   - name: console
     type: rj-45

@@ -1,19 +1,21 @@
 ---
 manufacturer: Cisco
-model: Catalyst 3750X-24T-S
-slug: cisco-ws-c3750x-24t-s
-part_number: WS-C3750X-24T-S
-is_full_depth: false
-airflow: side-to-rear
-weight: 7.1
-weight_unit: kg
+model: Catalyst 9300L-24T-4X
+slug: cisco-9300l-24t-4x
+part_number: C9300L-24T-4X
 u_height: 1
-airflow: front-to-rear
-weight: 7.1
+is_full_depth: true
+weight: 6.8
 weight_unit: kg
+comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
 interfaces:
-  - name: FastEthernet0
-    type: 100base-tx
+  - name: GigabitEthernet0/0
+    type: 1000base-t
     mgmt_only: true
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -63,15 +65,25 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/24
     type: 1000base-t
+  - name: TenGigabitEthernet1/1/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/1/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/1/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/1/4
+    type: 10gbase-x-sfpp
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
 module-bays:
+  - name: FAN 1
+  - name: FAN 2
+  - name: FAN 3
   - name: Network Module
     position: '1'
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
-console-ports:
-  - name: con0
-    type: rj-45
-  - name: usb
-    type: usb-mini-b
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
