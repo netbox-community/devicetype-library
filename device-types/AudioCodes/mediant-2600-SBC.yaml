@@ -5,6 +5,7 @@ slug: audiocodes-mediant-2600-sbc
 part_number: Mediant 2600
 u_height: 1.0
 is_full_depth: true
+airflow: front-to-rear
 subdevice_role: parent
 weight: 11.7
 weight_unit: lb
@@ -16,18 +17,18 @@ power-ports:
     type: iec-60320-c14
 interfaces:
   - name: GE_1_1
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_1_2
-    type: 1000base-tx  
+    type: 1000base-t
   - name: GE_1_3
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_1_4
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_1_5
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_1_6
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_1_7
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_1_8
-    type: 1000base-tx
+    type: 1000base-t
