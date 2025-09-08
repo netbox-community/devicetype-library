@@ -9,8 +9,13 @@ weight: 2.34
 weight_unit: lb
 comments: '[MS130 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS130_Datasheet)'
 
+power_ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 54
+    allocated_draw: null
+
 interfaces:
-  # 4x GbE
   - name: Port 1
     type: 1000base-t
     poe_mode: pse
@@ -35,8 +40,6 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-
-  # 4x mGig (2.5GbE)
   - name: Port 7 (mGig)
     type: 2.5gbase-t
     poe_mode: pse
@@ -53,16 +56,7 @@ interfaces:
     type: 2.5gbase-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-
-  # 2x SFP+ 10GbE
   - name: SFP+1
     type: 10gbase-x-sfpp
   - name: SFP+2
     type: 10gbase-x-sfpp
-
-power_ports:
-  - name: PS1
-    type: dc-terminal
-    maximum_draw: 54
-    allocated_draw: null
-    
