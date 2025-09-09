@@ -79,10 +79,13 @@ interfaces:
     type: cisco-stackwise
 module-bays:
   - name: FAN 1
-  - name: FAN 2
-  - name: FAN 3
-  - name: Network Module
     position: '1'
+  - name: FAN 2
+    position: '2'
+  - name: FAN 3
+    position: '3'
+  - name: Network Module
+    position: '4'
   - name: PS-A
     position: A
   - name: PS-B
