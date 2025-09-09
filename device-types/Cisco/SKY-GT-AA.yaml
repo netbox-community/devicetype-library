@@ -22,13 +22,13 @@ console-ports:
     type: rj-45
 interfaces:
   - name: GigabitEthernet1
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet2
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: GigabitEthernet3
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitEthernet4
-    type: 1000base-x-sfp
-  - name: CIMC
+    type: 1000base-t
+  - name: MGMT
     type: 100base-tx
     mgmt_only: true
