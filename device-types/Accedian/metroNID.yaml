@@ -19,14 +19,14 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: RJ-45 A
+  - name: Monitor-1
     type: 1000base-t
-  - name: RJ-45 B
+  - name: Monitor-2
     type: 1000base-t
-  - name: SFP-A
+  - name: A_Client
     type: 1000base-x-sfp
-  - name: SFP-B
+  - name: B_Network
     type: 1000base-x-sfp
-  - name: RJ-45 C/MGMT
+  - name: C_Management
     type: 1000base-t
     mgmt_only: true
