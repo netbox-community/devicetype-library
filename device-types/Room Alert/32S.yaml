@@ -11,11 +11,8 @@ power-ports:
   - name: DC Input
     type: dc-terminal
     maximum_draw: 5
-  - name: PoE Input
-    type: other
-    maximum_draw: 5
 interfaces:
   - name: Ethernet
     type: 100base-tx
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
