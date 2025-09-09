@@ -18,13 +18,6 @@ module-bays:
   - name: PWR2
     label: PWR2
     position: '2'
-power-ports:
-  - name: PWR1
-    type: iec-60320-c14
-    maximum_draw: 70
-  - name: PWR2
-    type: iec-60320-c14
-    maximum_draw: 70
 interfaces:
   - name: ethernet 1/1
     type: 1000base-t
