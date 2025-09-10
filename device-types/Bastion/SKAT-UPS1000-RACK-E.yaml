@@ -1,0 +1,47 @@
+---
+manufacturer: Bastion
+model: SKAT-UPS1000-RACK-E
+slug: bastion-skat-ups1000-rack-e
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[1000VA 700W Online 2U Rack UPS 2x9Ah Battery Quickspecs](https://skat-ups.ru/catalog/ups/istochnik-bespereboynogo-pitaniya-skat-ups-1000-rack-2x9ah-isp-e/)'
+weight: 12.4
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 1200
+power-outlets:
+  - name: Segment1_1
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment1_2
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment1_3
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment1_4
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_1
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_2
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_3
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_4
+    type: iec-60320-c13
+    power_port: Input
+module-bays:
+  - name: IntelligentSlot
+    position: Rear
