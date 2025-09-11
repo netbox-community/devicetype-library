@@ -11,19 +11,19 @@ comments: '[AirEngine6776-56TP Access Point](https://e.huawei.com/en/products/wl
 front_image: true
 rear_image: true
 power-ports:
-- name: 48V
-  type: dc-terminal
-  maximum_draw: 22
+  - name: 48V
+    type: dc-terminal
+    maximum_draw: 22
 interfaces:
-- name: 5GE/PoE_IN
-  type: 5gbase-t
-  enabled: true
-  mgmt_only: false
-  poe_mode: pd
-  poe_type: type3-ieee802.3bt
-- name: GE/PoE_OUT
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  poe_mode: pse
-  poe_type: type3-ieee802.3bt
+  - name: 5GE/PoE_IN
+    type: 5gbase-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: GE/PoE_OUT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt

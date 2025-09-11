@@ -11,17 +11,17 @@ comments: "[AirEngine 6760R-51 & 6760R-51E Access Points](https://e.huawei.com/e
 front_image: true
 rear_image: true
 interfaces:
-- name: 5GE/PoE_IN
-  type: 5gbase-t
-  enabled: true
-  mgmt_only: false
-  poe_mode: pd
-  poe_type: type3-ieee802.3bt
-- name: GE
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-- name: SFP+
-  type: 10gbase-x-sfpp
-  enabled: true
-  mgmt_only: false
+  - name: 5GE/PoE_IN
+    type: 5gbase-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: GE
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: SFP+
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false

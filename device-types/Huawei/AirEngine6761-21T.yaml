@@ -11,17 +11,17 @@ comments: '[AirEngine6761-21T Access Point](https://e.huawei.com/en/products/wla
 front_image: true
 rear_image: true
 power-ports:
-- name: DC-12V
-  type: dc-terminal
-  maximum_draw: 21
+  - name: DC-12V
+    type: dc-terminal
+    maximum_draw: 21
 interfaces:
-- name: 2.5GE/PoE_IN
-  type: 2.5gbase-t
-  enabled: true
-  mgmt_only: false
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-- name: GE
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
+  - name: 2.5GE/PoE_IN
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
