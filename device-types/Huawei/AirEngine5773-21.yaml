@@ -1,0 +1,24 @@
+---
+manufacturer: Huawei
+model: AirEngine5773-21
+slug: huawei-airengine5773-21
+description: Indoor Access Point (AP) in compliance with Wi-Fi 7 (802.11be)
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.47
+weight_unit: g
+comments: '[Huawei AirEngine 5773-21 Access Point](https://e.huawei.com/en/products/wlan/indoor-access-points/airengine-5773-21)'
+front_image: true
+rear_image: true
+power-ports:
+  - name: DC-12V
+    type: molex-micro-fit-2x4
+    maximum_draw: 13
+interfaces:
+  - name: 2.5GE/PoE_IN
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

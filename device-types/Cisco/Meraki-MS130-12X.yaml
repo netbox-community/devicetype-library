@@ -1,0 +1,60 @@
+---
+manufacturer: Cisco
+model: Meraki MS130-12X
+slug: cisco-meraki-ms130-12x
+part_number: Meraki MS130-12X
+weight: 1.06
+weight_unit: kg
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: '[MS130 Overview and Specifications](https://documentation.meraki.com/MS/MS_Overview_and_Specifications/MS130_Datasheet)'
+power-ports:
+  - name: Slot 1
+    type: dc-terminal
+    maximum_draw: 54
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 7 (mGig)
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 8 (mGig)
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 9 (mGig)
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 10 (mGig)
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: SFP+1
+    type: 10gbase-x-sfpp
+  - name: SFP+2
+    type: 10gbase-x-sfpp
