@@ -6,17 +6,9 @@ part_number: Mediant 2600 SBC
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear
-subdevice_role: parent
 weight: 11.7
 weight_unit: lb
 comments: '[Mediant 2600 SBC Datasheet](https://www.audiocodes.com/media/2414/mediant-2600-sbc-datasheet.pdf)'
-
-power-ports:
-  - name: AC POWER INLET 1
-    type: iec-60320-c14
-  - name: AC POWER INLET 2
-    type: iec-60320-c14
-
 module-bays:
   - name: PS-A
     position: A
