@@ -1,18 +1,17 @@
 ---
 manufacturer: Eaton
-model: Tripp Lite B096-032
-slug: eaton-tripp-lite-b096-032
-part_number: '037332181183'
+model: Tripp Lite B097-048
+slug: eaton-tripp-lite-b097-048
+part_number: '037332218032'
 u_height: 1
 is_full_depth: false
-front_image: true
-rear_image: true
-weight: 8.7
+airflow: passive
+weight: 7.6
 weight_unit: lb
-comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b096032.pdf)'
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/b097048.pdf)'
 console-ports:
   - name: '1'
-    type: de-9
+    type: rj-45
 console-server-ports:
   - name: '1'
     type: rj-45
@@ -79,22 +78,54 @@ console-server-ports:
   - name: '32'
     type: rj-45
   - name: '33'
-    type: usb-a
+    type: rj-45
   - name: '34'
+    type: rj-45
+  - name: '35'
+    type: rj-45
+  - name: '36'
+    type: rj-45
+  - name: '37'
+    type: rj-45
+  - name: '38'
+    type: rj-45
+  - name: '39'
+    type: rj-45
+  - name: '40'
+    type: rj-45
+  - name: '41'
+    type: rj-45
+  - name: '42'
+    type: rj-45
+  - name: '43'
+    type: rj-45
+  - name: '44'
+    type: rj-45
+  - name: '45'
+    type: rj-45
+  - name: '46'
+    type: rj-45
+  - name: '47'
+    type: rj-45
+  - name: '48'
+    type: rj-45
+  - name: '49'
+    type: usb-a
+  - name: '50'
     type: usb-a
 power-ports:
   - name: '1'
     type: iec-60320-c14
     maximum_draw: 30
-    allocated_draw: 20
+    allocated_draw: 25
   - name: '2'
     type: iec-60320-c14
     maximum_draw: 30
-    allocated_draw: 20
+    allocated_draw: 25
 interfaces:
   - name: eth0_wan
-    type: 100base-tx
+    type: 1000base-t
     mgmt_only: true
   - name: eth1_lan
-    type: 100base-tx
+    type: 1000base-t
     mgmt_only: true
