@@ -126,13 +126,6 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: SFP28 Port 26
     type: 25gbase-x-sfp28
-power-ports:
-  - name: PSU 1 AC Input
-    type: iec-60320-c14
-    maximum_draw: 1200
-  - name: PSU 2 AC Input
-    type: iec-60320-c14
-    maximum_draw: 1200
 module-bays:
   - name: PSU 1
     position: left
