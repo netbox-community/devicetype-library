@@ -5,6 +5,7 @@ slug: huawei-airengine6776-56tp
 description: Indoor Access Point (AP) in compliance with Wi-Fi 7 (802.11be)
 u_height: 0.0
 is_full_depth: false
+airflow: passive
 weight: 0.74
 weight_unit: kg
 comments: '[AirEngine6776-56TP Access Point](https://e.huawei.com/en/products/wlan/indoor-access-points/airengine-6776-56tp)'
@@ -26,4 +27,4 @@ interfaces:
     enabled: true
     mgmt_only: false
     poe_mode: pse
-    poe_type: type3-ieee802.3bt
+    poe_type: type1-ieee802.3af
