@@ -16,15 +16,6 @@ console-ports:
   - name: ttyS1
     label: CONSOLE
     type: usb-c
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 90
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 90
 interfaces:
   - name: eth1
     label: '1'
@@ -61,5 +52,9 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
   - name: Line card 1
     position: '1'
