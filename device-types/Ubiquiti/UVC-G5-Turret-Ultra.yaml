@@ -1,0 +1,27 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G5 Turret Ultra
+slug: ubiquiti-unifi-uvc-g5-turret-ultra
+part_number: UVC-G5-Turret-Ultra
+comments: |
+  G5 Turret Ultra (https://eu.store.ui.com/eu/en/category/cameras-dome-turret/products/uvc-g5-turret-ultra)
+  Dimensions: diameter 90 x 71.2 mm (diameter 3.5 x 2.8")
+  IR Night Vision: 20 m (65 ft)
+  Smart Detections (People, Vehicles, Animals): Yes
+  Resolution: 2K
+  Field of View:   H: 102.4, V: 54.9, D: 120.6 (degree)
+  Tamper Resistance: IK06
+  Mounting: Wall, ceiling mount (Included)
+            Junction box, arm mount (Optional)
+  UniFi Application Suite: Protect
+airflow: passive
+weight: 175
+weight_unit: g
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    mgmt_only: false
