@@ -1,0 +1,76 @@
+manufacturer: Avaya
+model: ERS 3526T-PWR+
+slug: avaya-ers-3526t-pwr-plus
+part_number: AL3500E05-E6
+u_height: 1
+is_full_depth: false
+description: "Avaya Ethernet Routing Switch 3526T-PWR+, 24x 10/100 PoE+ RJ45, 2x Combo GbE (RJ45/SFP), 2x rear SFP for stacking, 370W PoE budget."
+comments: |
+  Avaya ERS 3526T-PWR+:
+  - 24 Fast Ethernet PoE+ ports (10/100)
+  - 2 combo uplink ports (RJ45/SFP)
+  - 2 dedicated rear SFP (1G) stacking ports
+  - PoE+ budget: 370W
+  - Switching capacity: 12.8Gbps
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+  - name: FastEthernet4
+    type: 100base-tx
+  - name: FastEthernet5
+    type: 100base-tx
+  - name: FastEthernet6
+    type: 100base-tx
+  - name: FastEthernet7
+    type: 100base-tx
+  - name: FastEthernet8
+    type: 100base-tx
+  - name: FastEthernet9
+    type: 100base-tx
+  - name: FastEthernet10
+    type: 100base-tx
+  - name: FastEthernet11
+    type: 100base-tx
+  - name: FastEthernet12
+    type: 100base-tx
+  - name: FastEthernet13
+    type: 100base-tx
+  - name: FastEthernet14
+    type: 100base-tx
+  - name: FastEthernet15
+    type: 100base-tx
+  - name: FastEthernet16
+    type: 100base-tx
+  - name: FastEthernet17
+    type: 100base-tx
+  - name: FastEthernet18
+    type: 100base-tx
+  - name: FastEthernet19
+    type: 100base-tx
+  - name: FastEthernet20
+    type: 100base-tx
+  - name: FastEthernet21
+    type: 100base-tx
+  - name: FastEthernet22
+    type: 100base-tx
+  - name: FastEthernet23
+    type: 100base-tx
+  - name: FastEthernet24
+    type: 100base-tx
+  - name: GigabitEthernet25
+    type: 1000base-t
+  - name: GigabitEthernet25-SFP
+    type: 1000base-x-sfp
+  - name: GigabitEthernet26
+    type: 1000base-t
+  - name: GigabitEthernet26-SFP
+    type: 1000base-x-sfp
+  - name: Rear-SFP1
+    type: 1000base-x-sfp
+  - name: Rear-SFP2
+    type: 1000base-x-sfp
+
