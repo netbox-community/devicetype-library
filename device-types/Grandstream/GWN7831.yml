@@ -1,0 +1,104 @@
+manufacturer: Grandstream
+model: GWN7831
+slug: grandstream-gwn7831
+part_number: GWN7831
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  Grandstream GWN7831 Layer-3 Aggregation Switch.
+  - 4x Combo GE (RJ45)
+  - 24x SFP (1G)
+  - 4x SFP+ (10G, DAC ≤5m destekli)
+  - 1x Console
+  - Dual fans
+  - Optional Redundant Power Supply (12V/60W RPS)
+  - Switching capacity: 128Gbps, Forwarding rate: 95.232Mpps
+  - Supports L3 routing (Static, RIP, OSPF/OSPFv3)
+  - Max supported modules: SM-1G: 24, RJ45-1G: 12 (interval inserted), SM-10G: 4, RJ45-10G: 2
+description: |
+  Grandstream GWN7831 Layer-3 aggregation switch with 4x Combo GE, 24x SFP 1G, 12x SFP+ 10G, and advanced Layer-3 features.
+
+interfaces:
+  - name: Combo-GE1
+    type: 1000base-t
+  - name: Combo-GE2
+    type: 1000base-t
+  - name: Combo-GE3
+    type: 1000base-t
+  - name: Combo-GE4
+    type: 1000base-t
+  - name: SFP1
+    type: 1000base-x-sfp
+  - name: SFP2
+    type: 1000base-x-sfp
+  - name: SFP3
+    type: 1000base-x-sfp
+  - name: SFP4
+    type: 1000base-x-sfp
+  - name: SFP5
+    type: 1000base-x-sfp
+  - name: SFP6
+    type: 1000base-x-sfp
+  - name: SFP7
+    type: 1000base-x-sfp
+  - name: SFP8
+    type: 1000base-x-sfp
+  - name: SFP9
+    type: 1000base-x-sfp
+  - name: SFP10
+    type: 1000base-x-sfp
+  - name: SFP11
+    type: 1000base-x-sfp
+  - name: SFP12
+    type: 1000base-x-sfp
+  - name: SFP13
+    type: 1000base-x-sfp
+  - name: SFP14
+    type: 1000base-x-sfp
+  - name: SFP15
+    type: 1000base-x-sfp
+  - name: SFP16
+    type: 1000base-x-sfp
+  - name: SFP17
+    type: 1000base-x-sfp
+  - name: SFP18
+    type: 1000base-x-sfp
+  - name: SFP19
+    type: 1000base-x-sfp
+  - name: SFP20
+    type: 1000base-x-sfp
+  - name: SFP21
+    type: 1000base-x-sfp
+  - name: SFP22
+    type: 1000base-x-sfp
+  - name: SFP23
+    type: 1000base-x-sfp
+  - name: SFP24
+    type: 1000base-x-sfp
+  - name: SFP+1
+    type: 10gbase-x-sfpp
+  - name: SFP+2
+    type: 10gbase-x-sfpp
+  - name: SFP+3
+    type: 10gbase-x-sfpp
+  - name: SFP+4
+    type: 10gbase-x-sfpp
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 60
+  - name: RPS
+    type: other
+    maximum_draw: 60
+
+custom_fields:
+  poe_supported: false
+  poe_budget: 0
+  fan_count: 2
+  redundant_power_supply: true
