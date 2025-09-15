@@ -19,12 +19,20 @@ console-ports:
     label: CONSOLE
     type: usb-c
 module-bays:
-  - name: PSU1
+  - name: PSU 1
     position: '1'
     description: Power Supply Unit 1 with Fan
-  - name: PSU2
+  - name: PSU 2
     position: '2'
     description: Power Supply Unit 2 with Fan
+  - name: Line card 1
+    position: '1'
+  - name: Line card 2
+    position: '2'
+  - name: Line card 3
+    position: '3'
+  - name: Line card 4
+    position: '4'
 interfaces:
   - name: Mgmt
     label: MGMT
@@ -36,58 +44,4 @@ interfaces:
     mgmt_only: true
   - name: sync
     label: SYNC
-    type: 1000base-t
-  - name: eth1-01
-    label: '40G 1'
-    type: 40gbase-x-qsfpp
-  - name: eth1-02
-    label: '40G 2'
-    type: 40gbase-x-qsfpp
-  - name: eth2-01
-    label: '10G 1'
-    type: 10gbase-x-sfpp
-  - name: eth2-02
-    label: '10G 2'
-    type: 10gbase-x-sfpp
-  - name: eth2-03
-    label: '10G 3'
-    type: 10gbase-x-sfpp
-  - name: eth2-04
-    label: '10G 4'
-    type: 10gbase-x-sfpp
-  - name: eth3-01
-    label: '10G 1'
-    type: 10gbase-x-sfpp
-  - name: eth3-02
-    label: '10G 2'
-    type: 10gbase-x-sfpp
-  - name: eth3-03
-    label: '10G 3'
-    type: 10gbase-x-sfpp
-  - name: eth3-04
-    label: '10G 4'
-    type: 10gbase-x-sfpp
-  - name: eth4-01
-    label: '1'
-    type: 1000base-t
-  - name: eth4-02
-    label: '2'
-    type: 1000base-t
-  - name: eth4-03
-    label: '3'
-    type: 1000base-t
-  - name: eth4-04
-    label: '4'
-    type: 1000base-t
-  - name: eth4-05
-    label: '5'
-    type: 1000base-t
-  - name: eth4-06
-    label: '6'
-    type: 1000base-t
-  - name: eth4-07
-    label: '7'
-    type: 1000base-t
-  - name: eth4-08
-    label: '8'
     type: 1000base-t
