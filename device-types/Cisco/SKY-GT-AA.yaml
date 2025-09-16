@@ -12,10 +12,10 @@ comments: '[Assurance Sensor Datasheet](https://www.cisco.com/c/en/us/products/c
   [Assurance Sensor Installation Overview](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/provider-connectivity-assurance/hardware/assurance-sensor-gt/gt-install/m_overview.pdf)'
 power-ports:
   - name: PS A
-    type: iec-60320-c6
+    type: dc-terminal
     maximum_draw: 22
   - name: PS B
-    type: iec-60320-c6
+    type: dc-terminal
     maximum_draw: 22
 console-ports:
   - name: Console
