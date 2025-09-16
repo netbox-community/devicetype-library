@@ -1,0 +1,53 @@
+---
+manufacturer: HITACHI
+model: Compute Blade 2000
+slug: hitachi-compute-blade-2000
+u_height: 10
+comments: 10U 8xServer 4xPSU 6xSWITCH Blade Enclosure
+weight: 60
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+subdevice_role: parent
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PSU3
+    position: PSU3
+  - name: PSU4
+    position: PSU4
+  - name: MGMT1
+    position: MGMT1
+  - name: MGMT2
+    position: MGMT2
+  - name: SWITCH1
+    position: SWITCH1
+  - name: SWITCH2
+    position: SWITCH2
+  - name: SWITCH3
+    position: SWITCH3
+  - name: SWITCH4
+    position: SWITCH4
+  - name: SWITCH5
+    position: SWITCH5
+  - name: SWITCH6
+    position: SWITCH6
+device-bays:
+  - name: Blade-1
+    label: Blade-1
+  - name: Blade-2
+    label: Blade-2
+  - name: Blade-3
+    label: Blade-3
+  - name: Blade-4
+    label: Blade-4
+  - name: Blade-5
+    label: Blade-5
+  - name: Blade-6
+    label: Blade-6
+  - name: Blade-7
+    label: Blade-7
+  - name: Blade-8
+    label: Blade-8
