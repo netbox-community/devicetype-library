@@ -17,10 +17,11 @@ console-ports:
 power-ports:
   - name: PSU1
     type: iec-60320-c14
-    maximum_draw: 99
+    maximum_draw: 200
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 99
+    type: dc-terminal
+    maximum_draw: 150
+    description: "12V DC @ 12.5A (Optional redundant power supply connection)"
 
 interfaces:
   - name: Management1
