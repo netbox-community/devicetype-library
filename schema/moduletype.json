@@ -15,6 +15,9 @@
             "type": "string",
             "maxLength": 50
         },
+        "airflow": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
+        },
         "weight": {
             "$ref": "urn:devicetype-library:reusable#/definitions/weight"
         },
