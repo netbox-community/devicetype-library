@@ -1,13 +1,10 @@
 ---
 manufacturer: Eaton
 model: 9PX3000iRT3U
-slug: eaton-9px-3000i-rt-3u
-description: ''
-default_platform: ''
+slug: eaton-9px3000irt3u
 part_number: 9PX3000iRT3U
 u_height: 3.0
 is_full_depth: true
-subdevice_role: ''
 airflow: front-to-rear
 weight: 28.0
 weight_unit: kg
@@ -16,114 +13,72 @@ console-ports:
   - name: Serial
     type: de-9
     label: RS232
-    description: ''
   - name: USB Console
     type: usb-b
     label: USB
-    description: ''
 power-ports:
   - name: Mains Utility
     type: iec-60320-c20
     maximum_draw: 3000
-    allocated_draw: ''
     label: Input 16A
-    description: ''
 power-outlets:
   - name: Group 1 - Output 1
     type: iec-60320-c19
     power_port: Mains Utility
-    feed_leg: ''
     label: Output
-    description: ''
   - name: Group 1 - Output 2
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Group 1 - Output 3
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Group 2 - Output 1
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Group 2 - Output 2
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Primary Group - Output 1
     type: iec-60320-c19
     power_port: Mains Utility
-    feed_leg: ''
     label: Output
-    description: ''
   - name: Primary Group - Output 2
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Primary Group - Output 3
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Primary Group - Output 4
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
   - name: Primary Group - Output 5
     type: iec-60320-c13
     power_port: Mains Utility
-    feed_leg: ''
     label: Output 10A
-    description: ''
 interfaces:
   - name: Battery connector
     type: other
     enabled: true
     mgmt_only: false
     label: 72V DC 40A
-    description: ''
-    bridge: ''
-    poe_mode: ''
-    poe_type: ''
-    rf_role: ''
   - name: Battery detection
     type: other
     enabled: true
     mgmt_only: false
     label: Battery detection
-    description: ''
-    bridge: ''
-    poe_mode: ''
-    poe_type: ''
-    rf_role: ''
 module-bays:
   - name: Communication card slot
-    label: ''
-    position: ''
-    description: ''
+    position: '1'
   - name: Environmental Sensor 1
-    label: ''
-    position: ''
-    description: ''
+    position: '1'
   - name: Environmental Sensor 2
-    label: ''
-    position: ''
-    description: ''
+    position: '2'
   - name: Environmental Sensor 3
-    label: ''
-    position: ''
-    description: ''
+    position: '3'
