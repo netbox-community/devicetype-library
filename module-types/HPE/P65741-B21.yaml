@@ -1,0 +1,12 @@
+---
+manufacturer: HPE
+model: ML30 Gen11 iLO/NIC/M.2/COM Port Kit
+part_number: P65741-B21
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
