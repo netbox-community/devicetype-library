@@ -8,10 +8,15 @@ comments: |
 
   PoE in 24V or USB-type C Power
 u_height: 1
+weight: 110
+weight_unit: g
+airflow: passive
 is_full_depth: false
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
     mgmt_only: true
 power-ports:
   - name: power1

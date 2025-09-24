@@ -6,6 +6,7 @@ part_number: Wave-LR
 u_height: 0
 is_full_depth: false
 comments: The eth0 and prs0 are permanently bridged as this is a L2 bridge device. [](https://dl.ui.com/ds/wave-lr_ds.pdf)
+airflow: passive
 weight: 5.7
 weight_unit: lb
 interfaces:
@@ -16,6 +17,7 @@ interfaces:
     label: Ethernet
     type: 1000base-t
     poe_mode: pd
+    poe_type: passive-48v-4pair
   - name: prs0
     label: Wireless
     type: ieee802.11ax

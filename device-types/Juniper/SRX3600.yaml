@@ -3,6 +3,9 @@ manufacturer: Juniper
 model: SRX3600
 slug: juniper-srx3600
 u_height: 5
+weight: 33
+weight_unit: kg
+airflow: left-to-right
 is_full_depth: true
 comments: '[Juniper SRX3600 Data Sheet](https://www.juniper.net/assets/us/en/local/pdf/datasheets/1000267-en.pdf)'
 console-ports:
@@ -10,18 +13,24 @@ console-ports:
     type: rj-45
 module-bays:
   - name: Slot 0
+    position: '0'
   - name: Slot 1
+    position: '1'
   - name: Slot 2
+    position: '2'
   - name: Slot 3
+    position: '3'
   - name: Slot 4
+    position: '4'
   - name: Slot 5
+    position: '5'
   - name: Slot 6
-power-ports:
+    position: '6'
   - name: PEM0
-    type: iec-60320-c20
+    position: '0'
   - name: PEM1
-    type: iec-60320-c20
+    position: '1'
   - name: PEM2
-    type: iec-60320-c20
+    position: '2'
   - name: PEM3
-    type: iec-60320-c20
+    position: '3'

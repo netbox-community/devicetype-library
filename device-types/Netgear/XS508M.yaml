@@ -1,0 +1,32 @@
+---
+manufacturer: Netgear
+model: XS508M
+slug: netgear-xs508m
+u_height: 1
+is_full_depth: false
+comments: '[10-Gigabit Ethernet Smart Switches (XS5xxM)](https://www.downloads.netgear.com/files/GDC/XS505M/XS505M_XS508M_DS.pdf)'
+weight: 1.49
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 39
+interfaces:
+  - name: '1'
+    type: 10gbase-t
+  - name: '2'
+    type: 10gbase-t
+  - name: '3'
+    type: 10gbase-t
+  - name: '4'
+    type: 10gbase-t
+  - name: '5'
+    type: 10gbase-t
+  # Only for XS508M
+  - name: '6'
+    type: 10gbase-t
+  - name: '7'
+    type: 10gbase-t
+  - name: '8'
+    type: 10gbase-t

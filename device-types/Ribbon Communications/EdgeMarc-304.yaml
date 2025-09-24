@@ -1,0 +1,27 @@
+---
+manufacturer: Ribbon Communications
+model: EdgeMarc 304
+slug: ribbon-communications-edgemarc-304
+part_number: EdgeMarc 304
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 0.4
+weight_unit: kg
+comments: '[Ribbon Communications Edgemarc](https://ribboncommunications.com/products/enterprise-products/media-gateways/ribbon-edgemarc-300-series-gateway)'
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 36
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t

@@ -1,0 +1,15 @@
+---
+manufacturer: Raspberry Pi
+model: Compute Module 4108000
+# See note in compute-module-4008000.yaml about the part number format
+part_number: '4108000'
+comments: |
+  Raspberry Pi Compute Module 4
+  * WiFi: Yes
+  * RAM: 8 GB
+  * Flash: 0 GB (Lite version, no eMMC)
+  [Product Family](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4108000)
+
+interfaces:
+  - name: wlan0
+    type: ieee802.11ac

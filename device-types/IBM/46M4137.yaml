@@ -1,0 +1,120 @@
+---
+manufacturer: IBM
+model: 46M4137
+slug: ibm-46m4137
+part_number: 46M4137
+u_height: 0
+is_full_depth: false
+weight: 11
+weight_unit: kg
+airflow: passive
+comments: IBM Metered & Switched Rack PDU, 0U, 400V 3 phase input, 12 x C13 and 12 x C19
+console-ports:
+  - name: Serial
+    label: Serial
+    type: rj-12
+interfaces:
+  - name: Network
+    label: Network
+    type: 100base-tx
+    mgmt_only: true
+power-ports:
+  - name: Power Cord
+    type: iec-60309-3p-n-e-6h
+power-outlets:
+  - name: L1 C13-01
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C13-02
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C13-03
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C13-04
+    type: iec-60320-c13
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C19-01
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C19-02
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C19-03
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+  - name: L1 C19-04
+    type: iec-60320-c19
+    feed_leg: A
+    power_port: Power Cord
+  - name: L2 C13-01
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C13-02
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C13-03
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C13-04
+    type: iec-60320-c13
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C19-01
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C19-02
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C19-03
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+  - name: L2 C19-04
+    type: iec-60320-c19
+    feed_leg: B
+    power_port: Power Cord
+  - name: L3 C13-01
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C13-02
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C13-03
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C13-04
+    type: iec-60320-c13
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C19-01
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C19-02
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C19-03
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord
+  - name: L3 C19-04
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power Cord

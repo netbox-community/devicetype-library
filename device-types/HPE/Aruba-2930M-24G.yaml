@@ -14,6 +14,7 @@ module-bays:
   - name: Uplink
     position: A
   - name: Stacking Module
+    position: Stack
   - name: PS1
     position: '1'
   - name: PS2
@@ -24,9 +25,10 @@ console-ports:
   - name: USB Console
     type: usb-micro-b
 interfaces:
-  - name: Management
-    type: 1000base-t
+  - name: oobm
+    type: 100base-tx
     mgmt_only: true
+    description: Out of Band Management (oobm) interface
   - name: '1'
     type: 1000base-t
   - name: '2'

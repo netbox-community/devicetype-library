@@ -1,0 +1,234 @@
+---
+manufacturer: Fortinet
+model: FortiSwitch 648F-FPOE
+slug: fortinet-fs-648f-fpoe
+part_number: FS-648F-FPOE
+u_height: 1
+weight: 7.83
+weight_unit: kg
+is_full_depth: true
+airflow: front-to-rear
+comments: '[FortiSwitch Secure Campus Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortiswitch-campus-series.pdf),
+  [FortiSwitch 648F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-624f-648f-series-qsg)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: port1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port13
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port14
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port15
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port16
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port17
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port18
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port19
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port20
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port21
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port22
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port23
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port24
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port25
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port26
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port27
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port28
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port29
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port30
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port31
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port32
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port33
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port34
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port35
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port36
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port37
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port38
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port39
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port40
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port41
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port42
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port43
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port44
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port45
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port46
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port47
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port48
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: port49
+    type: 25gbase-x-sfp28
+  - name: port50
+    type: 25gbase-x-sfp28
+  - name: port51
+    type: 25gbase-x-sfp28
+  - name: port52
+    type: 25gbase-x-sfp28
+  - name: port53
+    type: 25gbase-x-sfp28
+  - name: port54
+    type: 25gbase-x-sfp28
+  - name: port55
+    type: 25gbase-x-sfp28
+  - name: port56
+    type: 25gbase-x-sfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

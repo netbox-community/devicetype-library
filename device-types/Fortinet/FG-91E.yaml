@@ -1,0 +1,55 @@
+---
+manufacturer: Fortinet
+model: FortiGate 91E
+slug: fortinet-fg-91e
+part_number: FG-91E
+u_height: 1
+is_full_depth: false
+weight: 1.31
+airflow: side-to-rear
+weight_unit: kg
+comments: Has a 128GB SSD disk.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 28
+    allocated_draw: 23
+    label: DC+12V
+interfaces:
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: internal6
+    type: 1000base-t
+  - name: internal7
+    type: 1000base-t
+  - name: internal8
+    type: 1000base-t
+  - name: internal9
+    type: 1000base-t
+  - name: internal10
+    type: 1000base-t
+  - name: internal11
+    type: 1000base-t
+  - name: internal12
+    type: 1000base-t
+  - name: dmz
+    type: 1000base-t
+  - name: ha
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t

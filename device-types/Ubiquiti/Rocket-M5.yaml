@@ -5,9 +5,13 @@ slug: ubiquiti-rocket-m5
 part_number: Rocket M5
 u_height: 0
 is_full_depth: false
+weight: 500
+weight_unit: g
+airflow: passive
 interfaces:
   - name: lan0
     type: 100base-tx
     poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: wlan0
     type: ieee802.11n

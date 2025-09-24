@@ -1,0 +1,23 @@
+---
+manufacturer: Synology
+model: DS918+
+slug: synology-ds918-plus
+part_number: DS918+
+airflow: front-to-rear
+front_image: true
+rear_image: true
+u_height: 0
+comments: '[Synology DS918+ Specs](https://www.synology.com/en-us/support/download/DS918+)'
+is_full_depth: false
+weight: 2.28
+weight_unit: kg
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 100
+    allocated_draw: 29
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t

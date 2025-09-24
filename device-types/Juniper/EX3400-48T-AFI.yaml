@@ -4,6 +4,7 @@ model: EX3400-48T-AFI
 part_number: EX3400-48T-AFI
 slug: juniper-ex3400-48t-afi
 u_height: 1
+is_full_depth: true
 airflow: rear-to-front
 weight: 10.49
 weight_unit: lb
@@ -17,6 +18,10 @@ module-bays:
   - name: PSU0
     position: '0'
   - name: PSU1
+    position: '1'
+  - name: FAN0
+    position: '0'
+  - name: FAN1
     position: '1'
 interfaces:
   - name: me0

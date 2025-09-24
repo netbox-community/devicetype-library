@@ -1,0 +1,81 @@
+---
+manufacturer: HPE
+model: Aruba 1430-26G 2SFP
+slug: hpe-aruba-1430-26g-2sfp
+part_number: R8R50A
+comments: |
+  HPE Instant On 1430-26G 2SFP Switch is an unmanaged Layer 2 Gigabit Ethernet switch with 26 RJ-45 ports and 2 SFP uplinks. It is fanless, supports 802.3az Energy Efficient Ethernet, and is ideal for small business deployments.
+  Datasheet: https://www.hpe.com/psnow/doc/a00123902enw
+
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.22
+weight_unit: kg
+
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 29
+
+console-ports:
+  - name: Console
+    type: usb-mini-b
+
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+  - name: GigabitEthernet9
+    type: 1000base-t
+  - name: GigabitEthernet10
+    type: 1000base-t
+  - name: GigabitEthernet11
+    type: 1000base-t
+  - name: GigabitEthernet12
+    type: 1000base-t
+  - name: GigabitEthernet13
+    type: 1000base-t
+  - name: GigabitEthernet14
+    type: 1000base-t
+  - name: GigabitEthernet15
+    type: 1000base-t
+  - name: GigabitEthernet16
+    type: 1000base-t
+  - name: GigabitEthernet17
+    type: 1000base-t
+  - name: GigabitEthernet18
+    type: 1000base-t
+  - name: GigabitEthernet19
+    type: 1000base-t
+  - name: GigabitEthernet20
+    type: 1000base-t
+  - name: GigabitEthernet21
+    type: 1000base-t
+  - name: GigabitEthernet22
+    type: 1000base-t
+  - name: GigabitEthernet23
+    type: 1000base-t
+  - name: GigabitEthernet24
+    type: 1000base-t
+  - name: GigabitEthernet25
+    type: 1000base-t
+  - name: GigabitEthernet26
+    type: 1000base-t
+  - name: SFP1
+    type: 1000base-x-sfp
+  - name: SFP2
+    type: 1000base-x-sfp

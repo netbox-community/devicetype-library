@@ -4,6 +4,7 @@ model: EX3400-24T-DC
 part_number: EX3400-24T-DC
 slug: juniper-ex3400-24t-dc
 u_height: 1
+is_full_depth: true
 airflow: front-to-rear
 weight: 10.49
 weight_unit: lb
@@ -17,6 +18,10 @@ module-bays:
   - name: PSU0
     position: '0'
   - name: PSU1
+    position: '1'
+  - name: FAN0
+    position: '0'
+  - name: FAN1
     position: '1'
 interfaces:
   - name: me0

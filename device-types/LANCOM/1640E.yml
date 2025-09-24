@@ -1,0 +1,31 @@
+---
+manufacturer: LANCOM
+model: 1640E
+slug: lancom-1640e
+part_number: 1640E
+u_height: 0
+is_full_depth: false
+weight: 600
+weight_unit: g
+airflow: passive
+front_image: false
+rear_image: true
+comments: '[LANCOM 1640E Data sheet](https://www.lancom-systems.de/download/LC-1640E/DS_1640E_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 14
+interfaces:
+  - name: WAN
+    type: 1000base-t
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+console-ports:
+  - name: USB
+    type: usb-a
+  - name: com
+    type: mini-din-8
