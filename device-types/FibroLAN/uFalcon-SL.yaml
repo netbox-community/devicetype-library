@@ -9,6 +9,9 @@ airflow: passive
 weight: 1.43
 weight_unit: lb
 comments: https://www.fibrolan.com/files/files_data/items/source/uFalcon_SL_DS7077R0415_20191031085305_765.pdf
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
 console-ports:
   - name: Console Port
     type: rj-45
