@@ -1,0 +1,12 @@
+---
+manufacturer: Check Point
+model: CPAC-2-100/25F
+part_number: CPAC-2-100/25F
+comments: 2 Port 100/25G QSFP28 interface card
+interfaces:
+  - name: eth{module}-01
+    label: '1'
+    type: 100gbase-x-qsfp28
+  - name: eth{module}-02
+    label: '2'
+    type: 100gbase-x-qsfp28
