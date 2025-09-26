@@ -71,7 +71,14 @@ class DeviceType:
         # Add the slug to the list of known slugs
         KNOWN_SLUGS.add((self.slug, self.file_path))
         return True
+    def validate_child_u_height(self):
+        subdevice_role = self.definition.get('subdevice_role')
+        u_height = self.definition.get('u_height', None)
 
+        if subdevice_role == "child" and u_height != 0:
+            self.failureMessage = f'{self.file_path} is a child device but has u_height={u_height}. Must be 0.'
+            return False
+        return True
     def validate_power(self):
         CUSTOM_POWER_SOURCE_PROPERTY = '_is_power_source'
 
