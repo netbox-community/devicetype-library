@@ -1,0 +1,35 @@
+---
+manufacturer: HPE
+model: Aruba AP-518
+slug: hpe-aruba-ap-518
+part_number: AP-518
+u_height: 0
+is_full_depth: false
+weight: 1.5
+weight_unit: kg
+front_image: true
+rear_image: true
+airflow: passive
+comments: '[Aruba 518 Datasheet](https://www.hpe.com/psnow/doc/a00096371enw)'
+console-ports:
+  - name: Serial Console
+    type: usb-c
+interfaces:
+  - name: E0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: E1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: 5GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: Bluetooth
+    type: ieee802.15.1
+  - name: Zigbee
+    type: other-wireless
