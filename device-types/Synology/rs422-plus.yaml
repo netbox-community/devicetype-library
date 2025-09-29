@@ -1,0 +1,51 @@
+---
+manufacturer: Synology
+model: RS422+
+slug: synology-rs422-plus
+description: ''
+default_platform: null
+part_number: RS422+
+u_height: 1.0
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+weight: null
+weight_unit: ''
+comments: ''
+console-ports:
+  - name: Console
+    type: de-9
+    label: ''
+    description: ''
+  - name: USB-1
+    type: usb-a
+    label: ''
+    description: ''
+power-ports:
+  - name: External PSU 1
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 27
+    label: ''
+    description: ''
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LAN 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
