@@ -1,0 +1,87 @@
+---
+manufacturer: Patton
+model: SN4658 ADSL2+
+slug: patton-sn4658
+description: ''
+default_platform: null
+part_number: '4658'
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: ''
+weight: null
+weight_unit: ''
+comments: ''
+console-ports:
+- name: Console
+  type: de-9
+  label: ''
+  description: ''
+power-ports:
+- name: External PSU 1
+  type: dc-terminal
+  maximum_draw: 15
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: BRI0 port LINE
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: BRI1 port LINE
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: BRI2 port LINE
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: BRI3 port LINE
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: BRI4 port LINE
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Eth0
+  type: 100base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''

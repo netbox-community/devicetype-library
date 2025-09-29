@@ -1,0 +1,47 @@
+---
+manufacturer: Patton
+model: SN4170 VOIP
+slug: patton-sn4170
+description: ''
+default_platform: null
+part_number: '4170'
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: ''
+weight: null
+weight_unit: ''
+comments: ''
+console-ports:
+- name: Console
+  type: de-9
+  label: ''
+  description: ''
+power-ports:
+- name: External PSU 1
+  type: dc-terminal
+  maximum_draw: 15
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: PRI0/0
+  type: other
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Eth0/0
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
