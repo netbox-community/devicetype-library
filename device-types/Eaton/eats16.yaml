@@ -1,0 +1,96 @@
+---
+manufacturer: Eaton
+model: EATS16
+slug: eaton-eats16
+description: "Fournit une alimentation redondante \xE0 des \xE9quipements sensibles"
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+weight: null
+weight_unit: ''
+comments: ''
+console-ports:
+  - name: RS232
+    type: de-9
+    label: ''
+    description: ''
+console-server-ports:
+  - name: Ethernet
+    type: rj-45
+    label: SNMP and HTTP access
+    description: ''
+  - name: Sensor
+    type: rj-45
+    label: RS232
+    description: ''
+power-ports:
+  - name: Source A
+    type: iec-60320-c20
+    maximum_draw: null
+    allocated_draw: null
+    label: Input Source 1
+    description: ''
+  - name: Source B
+    type: iec-60320-c20
+    maximum_draw: null
+    allocated_draw: null
+    label: Input Source 2
+    description: ''
+power-outlets:
+  - name: Output 1
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 1-10A
+    description: ''
+  - name: Output 2
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 2-10A
+    description: ''
+  - name: Output 3
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 3-10A
+    description: ''
+  - name: Output 4
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 4-10A
+    description: ''
+  - name: Output 5
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 5-10A
+    description: ''
+  - name: Output 6
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 6-10A
+    description: ''
+  - name: Output 7
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 7-10A
+    description: ''
+  - name: Output 8
+    type: iec-60320-c13
+    power_port: null
+    feed_leg: ''
+    label: Output 8-10A
+    description: ''
+  - name: Output 9
+    type: iec-60320-c19
+    power_port: null
+    feed_leg: ''
+    label: Output 9-16A
+    description: ''
