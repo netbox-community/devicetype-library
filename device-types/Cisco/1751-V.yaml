@@ -24,6 +24,6 @@ module-bays:
   - name: VIC2
     position: '2'
 power-ports:
-  - name: PSU
-    type: iec-60320-c6
+  - name: External-PSU
+    type: dc-terminal
     maximum_draw: 160
