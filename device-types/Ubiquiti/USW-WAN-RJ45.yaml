@@ -10,14 +10,14 @@ weight: 2.3
 weight_unit: kg
 comments: '[USW-WAN-RJ45 Techspecs]https://techspecs.ui.com/unifi/switching/usw-wan-rj45'
 power-ports:
-- name: Input1
-- name: Input2
+  - name: Input1
+  - name: Input2
 interfaces:
-- name: MGMT
-  type: 1000base-t
-- name: Port1
-  type: 10gbase-t
-- name: Port2
-  type: 10gbase-t
-- name: Port3
-  type: 10gbase-t
+  - name: MGMT
+    type: 1000base-t
+  - name: Port1
+    type: 10gbase-t
+  - name: Port2
+    type: 10gbase-t
+  - name: Port3
+    type: 10gbase-t
