@@ -1,0 +1,23 @@
+---
+manufacturer: Ubiquiti
+model: Unifi WAN Switch RJ45
+slug: ubiquiti-unifi-switch-wan-rj45
+description: U10 GbE WAN Switch linking two Shadow Mode High Availability UniFi Gateways to a single ISP.
+part_number: USW-WAN-RJ45
+u_height: 1.0
+is_full_depth: false
+weight: 2.3
+weight_unit: kg
+comments: '[USW-WAN-RJ45 Techspecs]https://techspecs.ui.com/unifi/switching/usw-wan-rj45'
+power-ports:
+- name: Input1
+- name: Input2
+interfaces:
+- name: MGMT
+  type: 1000base-t
+- name: Port1
+  type: 10gbase-t
+- name: Port2
+  type: 10gbase-t
+- name: Port3
+  type: 10gbase-t
