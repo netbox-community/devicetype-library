@@ -1,0 +1,32 @@
+---
+manufacturer: HPE
+model: HPE MSA D3600 LLF Disk Enclosure
+slug: hpe-msa-d3600-lff-disk-enclosure
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+part_number: qw968a
+weight: 20
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  D3600: supports up to 12 Large Form Factor (LFF) SAS drives for a maximum capacity of 7.2 TB with 600GB SAS drives or 48 TB with 4 TB SAS MDL or 4TB SATA MDL drives
+device-bays:
+  - name: I/O Cable 1
+    label: Node 1
+    description: Back I/O Cable Module 1
+  - name: I/O Cable 2
+    label: Node 2
+    description: Back I/O Cable Module 2
+module-bays:
+  - name: UID-health
+    position: PCIe1
+    label: UID-health module
+  - name: fan module
+    position: PCIe2
+    label: FAN module
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
