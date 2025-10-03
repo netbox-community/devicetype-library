@@ -19,20 +19,14 @@ power-ports:
     allocated_draw: 10
 interfaces:
   - name: BRI0 port LINE
-    type: other
-    mgmt_only: false
+    type: xdsl
   - name: BRI1 port LINE
-    type: other
-    mgmt_only: false
+    type: xdsl
   - name: BRI2 port LINE
-    type: other
-    mgmt_only: false
+    type: xdsl
   - name: BRI3 port LINE
-    type: other
-    mgmt_only: false
+    type: xdsl
   - name: BRI4 port LINE
-    type: other
-    mgmt_only: false
+    type: xdsl
   - name: Eth0
     type: 100base-tx
-    mgmt_only: false
