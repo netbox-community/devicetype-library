@@ -18,6 +18,9 @@
         "airflow": {
             "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
         },
+        "airflow": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
+        },
         "weight": {
             "$ref": "urn:devicetype-library:reusable#/definitions/weight"
         },
@@ -76,6 +79,9 @@
             "type": "string"
         },
         "comments": {
+            "type": "string"
+        },
+        "profile": {
             "type": "string"
         }
     },
