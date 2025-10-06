@@ -1,0 +1,30 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2047G2-LU(C)
+slug: hikvision-ds-2cd2047g2-luc
+part_number: DS-2CD2047G2-LU(C)
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth1
+    label: '1'
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+    description: POE-IN, 0.25A, 7.5W
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 6
+    allocated_draw: 6
+    description: 12V DC, 0.5A
+module-bays:
+  - name: microSD/microSDHC/microSDXC
+    position: microSD
+comments: '[1/1.8" Progressive Scan CMOS 2688X1520 DS-2CD2047G2-LU(C) Datasheet Firmware by Kolyan](https://www.hikvision.com/cis/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2047g2-l-u-/?subName=DS-2CD2047G2-LU+%28C%29)'
