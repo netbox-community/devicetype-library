@@ -54,13 +54,6 @@ power-outlets:
     type: iec-60320-c13
     power_port: Mains Utility
     label: Output 10A
-interfaces:
-  - name: Battery connector
-    type: other
-    label: 48V DC 35A
-  - name: Battery detection
-    type: other
-    label: Batt detection
 module-bays:
   - name: Communication card slot
     position: '1'
