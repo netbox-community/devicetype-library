@@ -79,6 +79,16 @@
             "type": "string"
         }
     },
+    "allOf": [
+      {
+        "if": { "required": ["weight"] },
+        "then": { "required": ["weight_unit"] }
+      },
+      {
+        "if": { "required": ["weight_unit"] },
+        "then": { "required": ["weight"] }
+      }
+    ],
     "required": ["manufacturer", "model"],
     "additionalProperties": false
 }
