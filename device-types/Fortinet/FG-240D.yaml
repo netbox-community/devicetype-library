@@ -21,17 +21,16 @@ power-ports:
   - name: PSU2
     type: dc-terminal
     maximum_draw: 150
-    description: '12V DC @ 12.5A (Optional redundant power supply connection)'
+    description: 12V DC @ 12.5A (Optional redundant power supply connection)
 
 interfaces:
   - name: Management1
     type: 1000base-t
     mgmt_only: true
-
   - name: GigabitWAN1
-    type: 1000base-x-sfp
+    type: 1000base-t
   - name: GigabitWAN2
-    type: 1000base-x-sfp
+    type: 1000base-t
 
   - name: GigabitEthernet1
     type: 1000base-t
@@ -113,9 +112,7 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet40
     type: 1000base-t
-
-module-bays:
   - name: GbESfpDMZInerface1
-    position: '1'
+    type: 1000base-x-sfp
   - name: GbESfpDMZInerface2
-    position: '2'
+    type: 1000base-x-sfp
