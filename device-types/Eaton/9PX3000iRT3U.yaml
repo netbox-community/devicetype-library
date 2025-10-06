@@ -62,17 +62,6 @@ power-outlets:
     type: iec-60320-c13
     power_port: Mains Utility
     label: Output 10A
-interfaces:
-  - name: Battery connector
-    type: other
-    enabled: true
-    mgmt_only: false
-    label: 72V DC 40A
-  - name: Battery detection
-    type: other
-    enabled: true
-    mgmt_only: false
-    label: Battery detection
 module-bays:
   - name: Communication card slot
     position: '1'
