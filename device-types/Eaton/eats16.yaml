@@ -12,12 +12,13 @@ console-ports:
   - name: RS232
     type: de-9
 console-server-ports:
-  - name: Ethernet
-    type: rj-45
-    label: SNMP and HTTP access
   - name: Sensor
     type: rj-45
     label: RS232
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    label: SNMP and HTTP access
 power-ports:
   - name: Source A
     type: iec-60320-c20
