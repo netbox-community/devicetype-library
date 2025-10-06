@@ -69,3 +69,11 @@ interfaces:
 console-ports:
   - name: Console
     type: rj-45
+# Add fictive power source
+# All power supplies are within the chassis
+# This is to pass definitions_test
+module-bays:
+  - name: POWER1
+    position: '1'
+  - name: POWER2
+    position: '2'
