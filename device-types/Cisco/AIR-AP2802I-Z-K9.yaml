@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: Aironet 2802I-Z
+slug: cisco-air-ap2802i-z-k9
+part_number: AIR-AP2802I-Z-K9
+comments: '[Cisco Aironet 2800 Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-2800-series-access-points/datasheet-c78-736497.html#Productspecifications)'
+airflow: passive
+u_height: 0
+is_full_depth: false
+weight: 1.6
+weight_unit: kg
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11n
+  - name: Dot11Radio1
+    type: ieee802.11ac
+  - name: GigabitEthernet0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: LAN1
+    type: 1000base-t
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-mini-b

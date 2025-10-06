@@ -1,0 +1,34 @@
+---
+manufacturer: FS
+model: FHD-1MTP6LCDOM4A
+part_number: '57017'
+comments: FHD MTP-12 Cassette, 12 Fibers OM4 Multi Mode, Type A, MTP to 6 x LC Duplex (Blue), 0.35dB max
+front-ports:
+  - name: '{module}:1-2'
+    type: lc
+    rear_port: '{module}:1-12'
+    rear_port_position: 1
+  - name: '{module}:3-4'
+    type: lc
+    rear_port: '{module}:1-12'
+    rear_port_position: 2
+  - name: '{module}:5-6'
+    type: lc
+    rear_port: '{module}:1-12'
+    rear_port_position: 3
+  - name: '{module}:7-8'
+    type: lc
+    rear_port: '{module}:1-12'
+    rear_port_position: 4
+  - name: '{module}:9-10'
+    type: lc
+    rear_port: '{module}:1-12'
+    rear_port_position: 5
+  - name: '{module}:11-12'
+    type: lc
+    rear_port: '{module}:1-12'
+    rear_port_position: 6
+rear-ports:
+  - name: '{module}:1-12'
+    type: mpo
+    positions: 6
