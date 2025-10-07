@@ -1,0 +1,50 @@
+---
+manufacturer: Supermicro
+model: SuperChassis CSE-846E16-R1200B
+slug: supermicro-superchassis-cse-846e16-r1200b
+part_number: CSE-846E16-R1200B
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  "[SuperChassis CSE-846E16-R1200B] (https://www.supermicro.com/en/products/chassis/4u/846/sc846e16-r1200b)"
+weight: 26
+weight_unit: kg
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  # Power
+  - name: PSU1
+    position: PSU 1
+  - name: PSU2
+    position: PSU 2
+  # PCI-E
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe LP slot
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe LP slot
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe LP slot
+  - name: PCI-E 4
+    position: '4'
+    description: PCIe LP slot
+  - name: PCI-E 5
+    position: '5'
+    description: PCIe LP slot
+  - name: PCI-E 6
+    position: '6'
+    description: PCIe LP slot
+  - name: PCI-E 7
+    position: '7'
+    description: PCIe LP slot  
