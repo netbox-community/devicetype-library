@@ -2,7 +2,6 @@
 manufacturer: MikroTik
 model: CRS112-8P-4S-IN
 slug: mikrotik-crs112-8p-4s-in
-description: 'MikroTik CRS112-8P-4S-IN'
 part_number: CRS112-8P-4S
 is_full_depth: false
 u_height: 1
@@ -12,13 +11,12 @@ rear_image: true
 subdevice_role: parent
 weight: 0.85
 weight_unit: kg
-default_platform: RouterOS
 interfaces:
   - name: ether1
     label: '1'
     type: 1000base-t
     poe_mode: pse
-    poe_type: type2-ieee802.3at    
+    poe_type: type2-ieee802.3at
   - name: ether2
     label: '2'
     type: 1000base-t
@@ -69,7 +67,7 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
-    label: CONSOLE    
+    label: CONSOLE
 power-ports:
   - name: DC1
     label: DC IN
