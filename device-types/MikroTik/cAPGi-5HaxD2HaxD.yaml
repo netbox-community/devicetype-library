@@ -15,18 +15,18 @@ weight: 600
 weight_unit: g
 default_platform: RouterOS
 interfaces:
-  - name: ether1
-    label: ETH1
+  - name: 'ether1'
+    label: 'ETH1'
     poe_mode: pd
     poe_type: passive-24v-2pair
     type: 1000base-t
-    description: POE-IN
-  - name: ether2
-    label: ETH2
+    description: 'POE-IN'
+  - name: 'ether2'
+    label: 'ETH2'
     poe_mode: pse
     poe_type: passive-24v-2pair
     type: 1000base-t
-    description: POE-OUT
+    description: 'POE-OUT'
   - name: Wireless 2.4 GHz
     type: ieee802.11ax
   - name: Wireless 5 GHz
