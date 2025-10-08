@@ -20,13 +20,13 @@ interfaces:
     poe_mode: pd
     poe_type: passive-24v-2pair
     type: 1000base-t
-    description: 'POE-IN'
+    description: POE-IN
   - name: ether2
     label: ETH2
     poe_mode: pse
     poe_type: passive-24v-2pair
     type: 1000base-t
-    description: 'POE-OUT'
+    description: POE-OUT
   - name: Wireless 2.4 GHz
     type: ieee802.11ax
   - name: Wireless 5 GHz
@@ -38,4 +38,3 @@ power-ports:
     maximum_draw: 36
     allocated_draw: 11
     description: 18 - 57V DC, 0.95A
-    
