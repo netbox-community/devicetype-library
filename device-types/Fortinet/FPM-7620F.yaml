@@ -2,6 +2,7 @@
 manufacturer: Fortinet
 model: FortiGate Module 7620F
 slug: fortinet-fpm-7620f
+subdevice_role: child
 part_number: FPM-7620F
 u_height: 2
 is_full_depth: true
@@ -36,8 +37,3 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: port10
     type: 25gbase-x-sfp28
-module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
