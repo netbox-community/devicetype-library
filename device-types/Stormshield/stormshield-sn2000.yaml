@@ -1,0 +1,65 @@
+---
+manufacturer: Stormshield
+model: Stormshield SN2000
+slug: stormshield-sn2000
+part_number: sn2000
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 8.6
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Keyboard
+    type: other
+  - name: Rear USB1
+    type: usb-a
+  - name: Rear USB2
+    type: usb-a
+  - name: Rear USB3
+    type: usb-a
+  - name: Rear USB4
+    type: usb-a
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+interfaces:
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 1000base-t
+    mgmt_only: true
+  - name: port1
+    type: 1000base-t
+    mgmt_only: false
+  - name: port2
+    type: 1000base-t
+    mgmt_only: false
+  - name: port3
+    type: 1000base-t
+    mgmt_only: false
+  - name: port4
+    type: 1000base-t
+    mgmt_only: false
+  - name: port5
+    type: 1000base-t
+    mgmt_only: false
+  - name: port6
+    type: 1000base-t
+    mgmt_only: false
+  - name: port7
+    type: 1000base-t
+    mgmt_only: false
+  - name: port8
+    type: 1000base-t
+    mgmt_only: false
