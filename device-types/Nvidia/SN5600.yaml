@@ -1,0 +1,151 @@
+---
+manufacturer: Nvidia
+model: SN5600
+slug: nvidia-sn5600
+u_height: 2
+is_full_depth: true
+airflow: rear-to-front
+weight: 23.5
+weight_unit: kg
+comments: |
+  Data sheet: https://nvdam.widen.net/s/mmvbnpk8qk/networking-ethernet-switches-sn5000-datasheet-us
+console-ports:
+  - name: con0
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: swp1
+    type: 800gbase-x-osfp
+  - name: swp2
+    type: 800gbase-x-osfp
+  - name: swp3
+    type: 800gbase-x-osfp
+  - name: swp4
+    type: 800gbase-x-osfp
+  - name: swp5
+    type: 800gbase-x-osfp
+  - name: swp6
+    type: 800gbase-x-osfp
+  - name: swp7
+    type: 800gbase-x-osfp
+  - name: swp8
+    type: 800gbase-x-osfp
+  - name: swp9
+    type: 800gbase-x-osfp
+  - name: swp10
+    type: 800gbase-x-osfp
+  - name: swp11
+    type: 800gbase-x-osfp
+  - name: swp12
+    type: 800gbase-x-osfp
+  - name: swp13
+    type: 800gbase-x-osfp
+  - name: swp14
+    type: 800gbase-x-osfp
+  - name: swp15
+    type: 800gbase-x-osfp
+  - name: swp16
+    type: 800gbase-x-osfp
+  - name: swp17
+    type: 800gbase-x-osfp
+  - name: swp18
+    type: 800gbase-x-osfp
+  - name: swp19
+    type: 800gbase-x-osfp
+  - name: swp20
+    type: 800gbase-x-osfp
+  - name: swp21
+    type: 800gbase-x-osfp
+  - name: swp22
+    type: 800gbase-x-osfp
+  - name: swp23
+    type: 800gbase-x-osfp
+  - name: swp24
+    type: 800gbase-x-osfp
+  - name: swp25
+    type: 800gbase-x-osfp
+  - name: swp26
+    type: 800gbase-x-osfp
+  - name: swp27
+    type: 800gbase-x-osfp
+  - name: swp28
+    type: 800gbase-x-osfp
+  - name: swp29
+    type: 800gbase-x-osfp
+  - name: swp30
+    type: 800gbase-x-osfp
+  - name: swp31
+    type: 800gbase-x-osfp
+  - name: swp32
+    type: 800gbase-x-osfp
+  - name: swp33
+    type: 800gbase-x-osfp
+  - name: swp34
+    type: 800gbase-x-osfp
+  - name: swp35
+    type: 800gbase-x-osfp
+  - name: swp36
+    type: 800gbase-x-osfp
+  - name: swp37
+    type: 800gbase-x-osfp
+  - name: swp38
+    type: 800gbase-x-osfp
+  - name: swp39
+    type: 800gbase-x-osfp
+  - name: swp40
+    type: 800gbase-x-osfp
+  - name: swp41
+    type: 800gbase-x-osfp
+  - name: swp42
+    type: 800gbase-x-osfp
+  - name: swp43
+    type: 800gbase-x-osfp
+  - name: swp44
+    type: 800gbase-x-osfp
+  - name: swp45
+    type: 800gbase-x-osfp
+  - name: swp46
+    type: 800gbase-x-osfp
+  - name: swp47
+    type: 800gbase-x-osfp
+  - name: swp48
+    type: 800gbase-x-osfp
+  - name: swp49
+    type: 800gbase-x-osfp
+  - name: swp50
+    type: 800gbase-x-osfp
+  - name: swp51
+    type: 800gbase-x-osfp
+  - name: swp52
+    type: 800gbase-x-osfp
+  - name: swp53
+    type: 800gbase-x-osfp
+  - name: swp54
+    type: 800gbase-x-osfp
+  - name: swp55
+    type: 800gbase-x-osfp
+  - name: swp56
+    type: 800gbase-x-osfp
+  - name: swp57
+    type: 800gbase-x-osfp
+  - name: swp58
+    type: 800gbase-x-osfp
+  - name: swp59
+    type: 800gbase-x-osfp
+  - name: swp60
+    type: 800gbase-x-osfp
+  - name: swp61
+    type: 800gbase-x-osfp
+  - name: swp62
+    type: 800gbase-x-osfp
+  - name: swp63
+    type: 800gbase-x-osfp
+  - name: swp64
+    type: 800gbase-x-osfp

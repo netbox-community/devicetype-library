@@ -5,7 +5,10 @@ slug: synology-rs820-plus
 part_number: RS820+
 u_height: 1
 is_full_depth: true
-comments: '[RS820 Series Datasheet](https://www.synology.com/en-us/products/RS820+#specs)'
+airflow: front-to-rear
+weight: 6.4
+weight_unit: kg
+comments: '[RS820 Series Datasheet](https://global.download.synology.com/download/Document/Hardware/DataSheet/RackStation/20-year/RS820+/fre/Synology_RS820_RP__Plus_Data_Sheet_fre.pdf)'
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
@@ -21,4 +24,3 @@ interfaces:
 console-ports:
   - name: Console
     type: de-9
-    mgmt_only: true

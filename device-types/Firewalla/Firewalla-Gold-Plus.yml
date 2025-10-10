@@ -1,0 +1,32 @@
+---
+manufacturer: Firewalla
+model: Firewalla Gold Plus
+slug: firewalla-gold-plus
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 19.9
+weight_unit: oz
+front_image: true
+rear_image: true
+console-ports:
+  - name: Console01
+    type: rj-45
+power-ports:
+  - name: Power01
+    type: dc-terminal
+    maximum_draw: 15
+    allocated_draw: 10
+    description: Standard Barrel Plug
+interfaces:
+  - name: GigE0/1
+    type: 2.5gbase-t
+  - name: GigE0/2
+    type: 2.5gbase-t
+  - name: GigE0/3
+    type: 2.5gbase-t
+  - name: GigE0/4
+    type: 2.5gbase-t
+  - name: USB01
+    type: other
+    description: USB port for Wifi Adapter, etc.

@@ -1,0 +1,151 @@
+---
+manufacturer: Ciena
+model: FLA2-48-M-AC
+slug: ciena-fla2-48-m-ac
+part_number: 196-1201-900
+u_height: 2
+weight: 7.0
+weight_unit: kg
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+  - name: USB
+    type: usb-c
+power-ports:
+  - name: Power A
+    type: iec-60320-c14
+    maximum_draw: 240
+    allocated_draw: 40
+  - name: Power B
+    type: iec-60320-c14
+    maximum_draw: 240
+    allocated_draw: 40
+interfaces:
+  - name: DCN-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: DCN-2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-3
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth-4
+    type: 1000base-t
+    mgmt_only: true
+  - name: Mon
+    type: other
+  - name: Line
+    type: other
+  - name: Express
+    type: other
+  - name: '61'
+    type: other
+  - name: '14'
+    type: other
+  - name: '59'
+    type: other
+  - name: '58'
+    type: other
+  - name: '57'
+    type: other
+  - name: '56'
+    type: other
+  - name: '55'
+    type: other
+  - name: '54'
+    type: other
+  - name: '53'
+    type: other
+  - name: '52'
+    type: other
+
+  - name: '50'
+    type: other
+  - name: '49'
+    type: other
+  - name: '48'
+    type: other
+  - name: '47'
+    type: other
+  - name: '46'
+    type: other
+  - name: '45'
+    type: other
+  - name: '44'
+    type: other
+  - name: '43'
+    type: other
+
+  - name: '41'
+    type: other
+  - name: '40'
+    type: other
+  - name: '39'
+    type: other
+  - name: '38'
+    type: other
+  - name: '37'
+    type: other
+  - name: '36'
+    type: other
+  - name: '35'
+    type: other
+  - name: '34'
+    type: other
+
+  - name: '32'
+    type: other
+  - name: '31'
+    type: other
+  - name: '30'
+    type: other
+  - name: '29'
+    type: other
+  - name: '28'
+    type: other
+  - name: '27'
+    type: other
+  - name: '26'
+    type: other
+  - name: '25'
+    type: other
+
+  - name: '23'
+    type: other
+  - name: '22'
+    type: other
+  - name: '21'
+    type: other
+  - name: '20'
+    type: other
+  - name: '19'
+    type: other
+  - name: '18'
+    type: other
+  - name: '17'
+    type: other
+  - name: '16'
+    type: other
+
+  - name: '60'
+    type: other
+  - name: '51'
+    type: other
+  - name: '42'
+    type: other
+  - name: '33'
+    type: other
+  - name: '24'
+    type: other
+  - name: '15'
+    type: other

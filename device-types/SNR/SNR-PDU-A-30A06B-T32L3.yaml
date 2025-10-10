@@ -1,0 +1,172 @@
+---
+manufacturer: SNR
+model: SNR-PDU-A-30A06B-T32L3
+slug: snr-pdu-a-30a06b-t32l3
+part_number: SNR-PDU-A-30A06B-T32L3
+u_height: 0
+airflow: passive
+weight: 8
+weight_unit: kg
+is_full_depth: false
+comments: Rack PDU Metered, 0U, 32A, 380V, (30) C13 + (6) C19
+console-ports:
+  - name: CAN Out
+    label: Out
+    type: rj-45
+console-server-ports:
+  - name: CAN In
+    label: In
+    type: rj-45
+interfaces:
+  - name: Ethernet
+    type: 1000base-tx
+    mgmt_only: true
+power-ports:
+  - name: Power Port 1
+    label: 3Phase 32A terminal
+    type: hardwired
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 6
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 12
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 13
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 16
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 17
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 18
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 19
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 20
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 21
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 22
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 23
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 24
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: Outlet 25
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 26
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 27
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 28
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 29
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 30
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 31
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 32
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 33
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 34
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 35
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: Outlet 36
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
