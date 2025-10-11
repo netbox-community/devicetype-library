@@ -1,0 +1,31 @@
+---
+manufacturer: HPE
+model: ProLiant-DL120-Gen7
+slug: hpe-proliant-dl120-gen7
+u_height: 1.0
+is_full_depth: true
+part_number: 628690-421
+weight: 26.23
+weight_unit: lb
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 400
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Gig-E 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
