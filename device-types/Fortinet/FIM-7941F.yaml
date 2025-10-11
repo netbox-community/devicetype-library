@@ -1,0 +1,75 @@
+---
+manufacturer: Fortinet
+model: Fortinet Interface Module
+part_number: FIM-7941F
+slug: fortinet-fim-7941f
+subdevice_role: child
+is_full_depth: true
+u_height: 2
+airflow: passive
+weight: 11.65
+weight_unit: kg
+interfaces:
+  - name: mgmt1
+    type: 1000base-t
+  - name: mgmt2
+    type: 1000base-t
+# Port 1 - 18 100/40GigE
+# QSFP28
+  - name: port1
+    type: 100gbase-x-qsfp28
+  - name: port2
+    type: 100gbase-x-qsfp28
+  - name: port3
+    type: 100gbase-x-qsfp28
+  - name: port4
+    type: 100gbase-x-qsfp28
+  - name: port5
+    type: 100gbase-x-qsfp28
+  - name: port6
+    type: 100gbase-x-qsfp28
+  - name: port7
+    type: 100gbase-x-qsfp28
+  - name: port8
+    type: 100gbase-x-qsfp28
+  - name: port9
+    type: 100gbase-x-qsfp28
+  - name: port10
+    type: 100gbase-x-qsfp28
+  - name: port11
+    type: 100gbase-x-qsfp28
+  - name: port12
+    type: 100gbase-x-qsfp28
+  - name: port13
+    type: 100gbase-x-qsfp28
+  - name: port14
+    type: 100gbase-x-qsfp28
+  - name: port15
+    type: 100gbase-x-qsfp28
+  - name: port16
+    type: 100gbase-x-qsfp28
+  - name: port17
+    type: 100gbase-x-qsfp28
+  - name: port18
+    type: 100gbase-x-qsfp28
+# ports 19-20 400/100GigE
+# QSFP-DD
+  - name: port19
+    type: 400gbase-x-qsfpdd
+  - name: port20
+    type: 400gbase-x-qsfpdd
+# m1-2 100/40GigE
+# QSFP28
+  - name: m1
+    type: 100gbase-x-qsfp28
+  - name: m2
+    type: 100gbase-x-qsfp28
+# m3-4 25/10gigE
+# SFP28
+  - name: m3
+    type: 25gbase-x-sfp28
+  - name: m4
+    type: 25gbase-x-sfp28
+console-ports:
+  - name: Console
+    type: rj-45
