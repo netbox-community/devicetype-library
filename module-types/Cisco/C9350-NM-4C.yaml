@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco
+part_number: C9350-NM-4C
+model: C9350-NM-4C
+description: Cisco Catalyst 9350 Series Uplink 4-Port 100 Gigabit Ethernet (QSFP28)
+comments: '[Cisco Catalyst 9350 Series Switches Data Sheet](https://www.cisco.com/site/us/en/products/collateral/networking/switches/c9350-series-smart-switches/c9350-series-smart-switches-ds.html)'
+interfaces:
+  - name: HundredGigE{module}/0/1
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE{module}/0/2
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE{module}/0/3
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE{module}/0/4
+    type: 100gbase-x-qsfp28
