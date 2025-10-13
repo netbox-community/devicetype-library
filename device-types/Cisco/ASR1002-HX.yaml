@@ -5,14 +5,12 @@ slug: cisco-asr1002-hx
 part_number: ASR1002-HX
 u_height: 2
 is_full_depth: true
+weight: 15.42
+weight_unit: kg
+airflow: front-to-rear
 console-ports:
   - name: con 0
     type: rj-45
-power-ports:
-  - name: P0
-    type: iec-60320-c14
-  - name: P1
-    type: iec-60320-c14
 module-bays:
   - name: ASR1002-HX-EPA
     label: EPA
@@ -23,6 +21,12 @@ module-bays:
   - name: ASR1002-HX-CRYPTO
     label: CRYPTO
     position: '0'
+  - name: PSU0
+    position: PSU0
+    description: Power module 0
+  - name: PSU1
+    position: PSU1
+    description: Power module 1
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
