@@ -1,0 +1,48 @@
+---
+manufacturer: Cisco
+model: IE-4000-4T4P4G-E
+part_number: IE-4000-4T4P4G-E
+slug: cisco-ie-4000-4t4p4g-e
+u_height: 3
+is_full_depth: false
+weight: 2.88
+weight_unit: kg
+airflow: passive
+comments: '[Industrial Ethernet 4000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/industrial-ethernet-4000-series-switches/datasheet-c78-733058.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+    allocated_draw: 35
+    maximum_draw: 50
+  - name: DC-B
+    type: dc-terminal
+    allocated_draw: 35
+    maximum_draw: 50
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-t
+  - name: GigabitEthernet1/2
+    type: 1000base-t
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: FastEthernet1/5
+    type: 100base-tx
+  - name: FastEthernet1/6
+    type: 100base-tx
+  - name: FastEthernet1/7
+    type: 100base-tx
+  - name: FastEthernet1/8
+    type: 100base-tx
+  - name: FastEthernet1/9
+    type: 100base-tx
+  - name: FastEthernet1/10
+    type: 100base-tx
+  - name: FastEthernet1/11
+    type: 100base-tx
+  - name: FastEthernet1/12
+    type: 100base-tx

@@ -1,0 +1,51 @@
+---
+manufacturer: D-Link
+model: DES-1210-08P
+slug: d-link-des-1210-08p
+part_number: DES-1210-08P
+comments: '[D-Link DES-1210-08P](https://www.dlink.ru/ru/products/1/2054.html)'
+is_full_depth: false
+u_height: 1
+airflow: passive
+weight: 0.95
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 80
+interfaces:
+  - name: slot0/1
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: slot0/2
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+  - name: slot0/3
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+  - name: slot0/4
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+  - name: slot0/5
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+  - name: slot0/6
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+  - name: slot0/7
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+  - name: slot0/8
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    type: 100base-tx

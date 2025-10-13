@@ -5,10 +5,8 @@ part_number: 186-1031-900
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
 interfaces:
   - name: ILAN-1
     type: 1000base-t

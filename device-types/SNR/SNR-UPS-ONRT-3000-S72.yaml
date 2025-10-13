@@ -1,0 +1,50 @@
+---
+manufacturer: SNR
+model: SNR-UPS-ONRT-3000-S72
+slug: snr-snr-ups-onrt-3000-s72
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://shop.nag.ru/catalog/09836.istochniki-besperebojnogo-pitaniya-ibp-ups/09839.on-line-ibp-ups/56727.snr-ups-onrt-3000-s72)'
+weight: 26.2
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Input
+    type: iec-60320-c20
+    maximum_draw: 3600
+power-outlets:
+  - name: Segment1_1
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment1_2
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment1_3
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment1_4
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_1
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_2
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_3
+    type: iec-60320-c13
+    power_port: Input
+  - name: Segment2_4
+    type: iec-60320-c13
+    power_port: Input
+  - name: High
+    type: iec-60320-c19
+    power_port: Input
+module-bays:
+  - name: IntelligentSlot
+    position: Rear

@@ -1,0 +1,31 @@
+---
+manufacturer: MitraStar
+model: GPT-2541GNAC
+slug: mitrastar-gpt-2541gnac
+part_number: GPT-2541-GNAC
+u_height: 1
+is_full_depth: false
+weight: 1
+weight_unit: kg
+airflow: passive
+front_image: true
+rear_image: true
+power-ports:
+  - name: 12V-2A
+    type: dc-terminal
+    maximum_draw: 24
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+  - name: Eth2
+    type: 1000base-t
+  - name: Eth3
+    type: 1000base-t
+  - name: Eth4
+    type: 1000base-t
+  - name: GPON
+    type: gpon
+  - name: wlan24
+    type: ieee802.11n
+  - name: wlan50
+    type: ieee802.11ac

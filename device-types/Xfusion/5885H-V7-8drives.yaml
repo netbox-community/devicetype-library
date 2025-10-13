@@ -1,0 +1,34 @@
+---
+manufacturer: Xfusion
+model: 5885H-V7-8drives
+slug: xfusion-5885h-v7-8drives
+airflow: front-to-rear
+comments: '[Technical Specification 5885H V7 8 drives(64DIMM DDR5, 4CPU Intel Xeon 4 series, 4PSU, 8*2.5" SATA/NVME)](https://www.xfusion.com/en/product/rack-server/fusionserver-5885h-v7)'
+u_height: 4
+is_full_depth: true
+weight: 52.3
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PSU3
+    position: PSU3
+  - name: PSU4
+    position: PSU4
+interfaces:
+  - name: Eth-1
+    type: 10gbase-t
+  - name: Eth-2
+    type: 10gbase-t
+  - name: Eth-3
+    type: 1000base-t
+  - name: Eth-4
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
