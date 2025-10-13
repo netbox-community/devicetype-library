@@ -1,0 +1,39 @@
+---
+manufacturer: MikroTik
+model: cAP ax
+slug: mikrotik-cap-ax
+description: MikroTik cAP ax cAPGi-5HaxD2HaxD
+part_number: cAPGi-5HaxD2HaxD
+is_full_depth: false
+u_height: 0
+airflow: passive
+comments: '[cAPGi-5HaxD2HaxD Datasheet by Kolyan](https://mikrotik.com/product/cap_ax#fndtn-specifications)'
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 600
+weight_unit: g
+interfaces:
+  - name: ether1
+    label: ETH1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-IN
+  - name: ether2
+    label: ETH2
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-OUT
+  - name: Wireless 2.4 GHz
+    type: ieee802.11ax
+  - name: Wireless 5 GHz
+    type: ieee802.11ax
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 11
+    description: 18 - 57V DC, 0.95A

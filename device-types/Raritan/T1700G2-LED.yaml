@@ -1,0 +1,28 @@
+---
+manufacturer: Raritan
+model: T1700G2-LED
+slug: raritan-t1700g2-led
+part_number: T1700G2-LED
+comments: |
+  [17" and 19" LCD Console Drawers](https://www.raritan.com/products/kvm-serial/rackmount-console-drawers/led-backlit-lcd-console-drawers)
+u_height: 1
+is_full_depth: false
+weight: 12
+weight_unit: kg
+airflow: passive
+console-server-ports:
+  - name: DP
+    type: other
+  - name: DVI-I
+    type: other
+  - name: HDMI
+    type: other
+  - name: USB1
+    type: usb-a
+  - name: USB2
+    type: usb-a
+  - name: USB3
+    type: usb-b
+power-ports:
+  - name: PowerIn1
+    type: iec-60320-c14
