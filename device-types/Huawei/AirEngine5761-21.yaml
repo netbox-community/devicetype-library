@@ -21,8 +21,10 @@ interfaces:
   - name: Dot11Radio1
     type: ieee802.11ax
   - name: GE0/PoE_IN
-    type: 1000base-t
+    type: 2.5gbase-t
     enabled: true
     mgmt_only: false
     poe_mode: pd
     poe_type: type2-ieee802.3at
+- name: GE1
+    type: 1000base-t 
