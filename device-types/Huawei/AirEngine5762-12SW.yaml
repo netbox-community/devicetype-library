@@ -10,6 +10,8 @@ weight: 185.0
 weight_unit: g
 comments: '[AirEngine 5762-12SW Access Point](https://e.huawei.com/en/products/wlan/indoor-access-points/airengine-5762-12sw)'
 interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
   - name: GE0/PoE_IN
     type: 1000base-t
     enabled: true
