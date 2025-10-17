@@ -1,0 +1,28 @@
+---
+manufacturer: Huawei
+model: AirEngine5761R-11E
+slug: huawei-airengine5761r-11e
+description: Wi-Fi 6 (802.11ax) outdoor Access Point (AP)
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 2040
+weight_unit: g
+comments: '[AirEngine 5761R-11E Access Point](https://e.huawei.com/id/products/wlan/outdoor-access-points/airengine-5761r-11-airengine-5761r-11e)'
+power-ports:
+  - name: DC-12V
+    type: dc-terminal
+    maximum_draw: 19
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
+  - name: Dot11Radio1
+    type: ieee802.11ax
+  - name: GE0/PoE_IN
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE1
+    type: 1000base-x-sfp
