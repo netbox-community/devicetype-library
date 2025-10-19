@@ -1,3 +1,4 @@
+---
 manufacturer: RuggedCOM
 model: Rugged Switch RST2228
 slug: ruggedcom-rugged-switch-rst2228p
@@ -19,22 +20,16 @@ console-ports:
 module-bays:
   - name: 1
     position: TOP 1
-    description: Power module
   - name: 2
     position: Bottom 1
-    description: Power module
   - name: 3
     position: TOP 2
-    description: Power module
   - name: 4
     position: Bottom 2
-    description: Power module
   - name: 5
     position: TOP 3
-    description: Power module
   - name: 6
     position: Bottom 3
-    description: Power module
 interfaces:
   - name: '0/1'
     type: 10gbase-x-sfpp
