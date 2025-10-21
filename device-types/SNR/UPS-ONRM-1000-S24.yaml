@@ -32,46 +32,38 @@ power-ports:
     label: Input
     description: 110 - 300V AC, 3.4A
 power-outlets:
-  - name: 'Segment1 1'
+  - name: Segment1 1
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment1 1'
-    description: 'Segment1 1'
-  - name: 'Segment1 2'
+    label: Segment1 1
+  - name: Segment1 2
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment1 2'
-    description: 'Segment1 2'
-  - name: 'Segment1 3'
+    label: Segment1 2
+  - name: Segment1 3
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment1 3'
-    description: 'Segment1 3'
-  - name: 'Segment1 4'
+    label: Segment1 3
+  - name: Segment1 4
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment1 4'
-    description: 'Segment1 4'
-  - name: 'Segment2 1'
+    label: Segment1 4
+  - name: Segment2 1
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment2 1'
-    description: 'Segment2 1'
-  - name: 'Segment2 2'
+    label: Segment2 1
+  - name: Segment2 2
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment2 2'
-    description: 'Segment2 2'
-  - name: 'Segment2 3'
+    label: Segment2 2
+  - name: Segment2 3
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment2 3'
-    description: 'Segment2 3'
-  - name: 'Segment2 4'
+    label: Segment2 3
+  - name: Segment2 4
     type: iec-60320-c13
     power_port: Input
-    label: 'Segment2 4'
-    description: 'Segment2 4'
+    label: Segment2 4
 front-ports:
   - name: IN
     type: 8p8c
