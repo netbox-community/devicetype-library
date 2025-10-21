@@ -14,8 +14,12 @@ comments: '[SNR-UPS-ONRT-1000-S24 ELEMENT II Datasheet by Kolyan](https://shop.n
 front-ports:
   - name: IN RG45 NET SURGE PROTECTION
     type: 8p8c
-    rear_port: OUT
+    rear_port: '1'
     rear_port_position: 1
+rear-ports:
+  - name: OUT RG45 NET SURGE PROTECTION
+    type: 8p8c
+    positions: 1
 console-ports:
   - name: usb
     type: usb-b
@@ -66,11 +70,6 @@ power-outlets:
     type: iec-60320-c13
     power_port: Input
     label: Segment2-4
-rear-ports:
-  - name: OUT
-    type: 8p8c
-    positions: 1
-    label: 'RG45 NET SURGE PROTECTION'
 module-bays:
   - name: INTELLIGENT SLOT
     label: INTELLIGENT SLOT
