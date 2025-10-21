@@ -1,0 +1,157 @@
+---
+manufacturer: V-Solution
+model: V1600D4
+slug: v1600d4
+description: V-SOL 4 Port EPON OLT (Rebranded by Syrotech, Digiway, Sharp Vision etc)
+default_platform: null
+part_number: V1600D4
+u_height: 1.0
+is_full_depth: false
+subdevice_role: null
+airflow: left-to-right
+weight: 1400.0
+weight_unit: g
+comments: '[Datasheet](https://www.scribd.com/document/667911092/V1600D4-Datasheet-V1-3-EN)'
+console-ports:
+- name: Console
+  type: rj-45
+  label: Console
+  description: ''
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 40
+  allocated_draw: 30
+  label: ''
+  description: ''
+interfaces:
+- name: AUX Interface
+  type: 100base-fx
+  enabled: true
+  mgmt_only: true
+  label: AUX
+  description: 'Default Web management IP: 192.168.8.100'
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: epon 0/1
+  type: epon
+  enabled: true
+  mgmt_only: false
+  label: PON1
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: epon 0/2
+  type: epon
+  enabled: true
+  mgmt_only: false
+  label: PON2
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: epon 0/3
+  type: epon
+  enabled: true
+  mgmt_only: false
+  label: PON3
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: epon 0/4
+  type: epon
+  enabled: true
+  mgmt_only: false
+  label: PON4
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/1
+  type: 1000base-x-sfp
+  enabled: true
+  mgmt_only: false
+  label: GE1
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/2
+  type: 1000base-x-sfp
+  enabled: true
+  mgmt_only: false
+  label: GE2
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/3
+  type: 1000base-x-sfp
+  enabled: true
+  mgmt_only: false
+  label: GE3
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/4
+  type: 1000base-x-sfp
+  enabled: true
+  mgmt_only: false
+  label: GE4
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/5
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE5
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/6
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE6
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/7
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE7
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: gigabitethernet 0/8
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE8
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
