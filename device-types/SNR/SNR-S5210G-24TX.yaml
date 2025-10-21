@@ -11,11 +11,6 @@ rear_image: true
 subdevice_role: parent
 weight: 3.25
 weight_unit: kg
-console-ports:
-- name: console
-  type: rj-45
-  label: CONSOLE
-  description: 'console'
 interfaces:
   - name: ge1
     label: '1'
@@ -101,6 +96,11 @@ interfaces:
   - name: xe4
     label: xe4
     type: 10gbase-x-sfpp
+console-ports:
+  - name: console
+    type: rj-45
+    label: CONSOLE
+    description: 'console'    
 power-ports:
   - name: PSU
     label: '~100-240V;50/60Hz'
