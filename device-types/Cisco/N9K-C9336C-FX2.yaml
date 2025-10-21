@@ -90,16 +90,19 @@ interfaces:
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
+  - name: mgmt1
+    type: 1000base-x-sfp
+    mgmt_only: true
 module-bays:
   - name: PS1
     label: Power Supply 1
-    position: '1'
+    position: PS1
   - name: PS2
     label: Power Supply 2
-    position: '2'
+    position: PS2
   - name: Fan 1
-    position: '1'
+    position: F1
   - name: Fan 2
-    position: '2'
+    position: F2
   - name: Fan 3
-    position: '3'
+    position: F3
