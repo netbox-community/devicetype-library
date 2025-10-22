@@ -3,7 +3,7 @@ manufacturer: mdx
 model: N00T01-FA-L-IO
 slug: mdx-n00t01-fa-l-io
 part_number: N00T01-FA-L-IO
-airflow: passive
+airflow: side-to-rear
 comments: |
   [Network Video Recorder RAID 128 Channel with Facial Recognition](https://mdxtelecom.com.br/produto/reconhecimento-facial/gravadores-nvr-faciais-reconhecimento-facial/gravador-nvr-raid-128-canais-com-reconhecimento-facial/)
 
@@ -18,15 +18,14 @@ front_image: true
 rear_image: true
 weight: 7.30
 weight_unit: kg
+console-ports:
+  - name: RS232
+    type: rj-45
 interfaces:
-  - name: LAN 1
+  - name: LAN1
     type: 10gbase-t
-  - name: SFP+ 1
-    type: 10gbase-x-sfpp
-  - name: SFP+ 2
-    type: 10gbase-x-sfpp
-module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
+  - name: LAN2
+    type: 10gbase-t
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
