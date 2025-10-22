@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: CBS350-24T-4X
-slug: cisco-cbs350-24t-4x
-part_number: WCBS350-24T-4X
+model: CBS350-24FP-4X
+slug: cisco-cbs350-24fp-4x
+part_number: WCBS350-24FP-4X
 comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
 airflow: side-to-rear
 weight: 2.78
@@ -12,52 +12,100 @@ u_height: 1
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/2
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/3
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/4
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/5
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/6
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/7
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/8
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/9
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/10
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/11
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/12
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/13
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/14
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/15
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/16
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/17
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/18
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/19
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/20
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/21
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/22
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/23
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/24
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: TenGigabitEthernet1/0/1
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet1/0/2
