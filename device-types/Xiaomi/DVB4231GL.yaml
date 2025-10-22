@@ -16,16 +16,13 @@ interfaces:
     label: Internet
     type: 100base-tx
   - name: ether1
-    label: '.'
     type: 100base-tx
   - name: ether2
-    label: '..'
     type: 100base-tx
   - name: Wireless 2.4 GHz
     type: ieee802.11n
 power-ports:
   - name: DC
-    label: '..._'
     type: dc-terminal
     maximum_draw: 5
     allocated_draw: 5
