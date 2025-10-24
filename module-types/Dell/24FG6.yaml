@@ -1,0 +1,14 @@
+---
+manufacturer: Dell
+model: 24FG6
+part_number: 24FG6
+comments: Broadcom 57414 Dual Port 10/25GbE SFP28, OCP NIC 3.0
+interfaces:
+  - name: '{module}-25GbE-1'
+    type: 25gbase-x-sfp28
+    label: '1'
+    mgmt_only: false
+  - name: '{module}-25GbE-2'
+    type: 25gbase-x-sfp28
+    label: '2'
+    mgmt_only: false
