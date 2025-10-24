@@ -81,12 +81,12 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: Hu0/0/1/33
     type: 100gbase-x-qsfp28
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-  - name: PSU1
-    type: iec-60320-c14
 console-ports:
   - name: Console
     type: rj-45
     label: CON
+module-bays:
+  - name: PSU1
+    position: 1
+  - name: PSU2
+    position: 2
