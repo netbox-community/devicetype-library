@@ -1,93 +1,50 @@
+---
 manufacturer: CyberPower
 model: PDU20BHVIEC12R
-slug: pdu20bhviec12r
-description: ''
-default_platform: null
-part_number: ''
+slug: cyberpower-pdu20bhviec12r
 u_height: 1.0
 is_full_depth: false
-subdevice_role: null
-airflow: null
+airflow: passive
 weight: 2.0
 weight_unit: kg
-comments: ''
 power-ports:
 - name: IN01
   type: iec-60320-c20
   maximum_draw: 3600
-  allocated_draw: null
-  label: ''
-  description: ''
 power-outlets:
 - name: OUT1
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT2
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT3
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT4
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT5
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT6
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT7
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT8
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT9
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT10
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT11
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
 - name: OUT12
   type: iec-60320-c13
   power_port: IN01
-  feed_leg: null
-  label: ''
-  description: ''
