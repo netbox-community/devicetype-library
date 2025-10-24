@@ -6,11 +6,19 @@ description: RuggedCom 297-3PD4 4 port 1000base-t POE card
 weight: 250
 weight_unit: g
 interfaces:
-  - name: {module}/1
+  - name: '{module}/1'
     type: 1000base-t
-  - name: {module}/2
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '{module}/2'
     type: 1000base-t
-  - name: {module}/3
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '{module}/3'
     type: 1000base-t
-  - name: {module}/4
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: '{module}/4'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
