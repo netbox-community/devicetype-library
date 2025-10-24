@@ -1,0 +1,43 @@
+---
+manufacturer: CyberPower
+model: PR2000RT2UC
+slug: cyberpower-pr2000rt2uc
+u_height: 2
+is_full_depth: true
+# comments: CyberPower PR2000RT2UC
+power-ports:
+  - name: AC Input
+    type: nema-l5-20p
+    maximum_draw: 1320
+power-outlets:
+  - name: Right/Critical Top 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Right/Critical Top 2
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Right/Critical Bottom 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Right/Critical Bottom 2
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left/Non-Critical Top 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left/Non-Critical Top 2
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left/Non-Critical Bottom 1
+    type: nema-5-20r
+    power_port: AC Input
+  - name: Left/Non-Critical Bottom 2
+    type: nema-5-20r
+    power_port: AC Input
+console-ports:
+  - name: Serial Port I
+    type: de-9
+  - name: Serial Port II
+    type: de-9
+  - name: USB
+    type: usb-b
