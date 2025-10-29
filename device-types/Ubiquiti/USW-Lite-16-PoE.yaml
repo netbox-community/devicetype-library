@@ -3,6 +3,9 @@ manufacturer: Ubiquiti
 model: UniFi Switch Lite 16 PoE
 slug: ubiquiti-unifi-switch-lite-16-poe
 part_number: USW-Lite-16-PoE
+weight: 1.2
+weight_unit: kg
+airflow: passive
 comments: |
   UniFi Switch Lite 16 PoE (16) Gigabit, (1-8) Gigabit PoE+ IEEE 802.3af/at
 
@@ -12,20 +15,36 @@ is_full_depth: false
 interfaces:
   - name: Port 1 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 2 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 3 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 4 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 5 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 6 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 7 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 8 (PoE+)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: Port 9
     type: 1000base-t
   - name: Port 10
@@ -44,5 +63,5 @@ interfaces:
     type: 1000base-t
 power-ports:
   - name: Input
-    type: nema-5-15p
+    type: iec-60320-c14
     maximum_draw: 60

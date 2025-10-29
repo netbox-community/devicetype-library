@@ -1,0 +1,21 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G3 Bullet
+slug: ubiquiti-unifi-uvc-g3-bullet
+part_number: UVC-G3-Bullet
+# Ubiquiti does not keep product links up, best I can do is the datasheet
+comments: |
+  Varifocal Full HD (1080p) bullet camera with infrared LEDs. Outdoor Weather Resistant.
+  "[G3 Family Datasheet](https://dl.ubnt.com/datasheets/unifi/UniFi_Video_G3_DS.pdf)"
+weight: 300
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    #or their passive 24v variant
+    poe_type: type1-ieee802.3af
+    mgmt_only: false

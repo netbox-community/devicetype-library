@@ -1,0 +1,75 @@
+---
+manufacturer: Juniper
+model: SRX1600
+slug: juniper-srx1600
+part_number: SRX1600-CHAS
+comments: |
+  [Juniper SRX1600 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx1600-firewall-datasheet.pdf)
+  [SRX1600 Documentation Hub](https://www.juniper.net/documentation/product/us/en/srx1600/)
+weight: 15.7
+weight_unit: lb
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
+  - name: ctl0
+    type: 1000base-x-sfp
+    description: Cluster Control Link
+  - name: ctl1
+    type: 1000base-x-sfp
+    description: Cluster Control Link
+  - name: ge-0/0/0
+    type: 1000base-t
+  - name: ge-0/0/1
+    type: 1000base-t
+  - name: ge-0/0/2
+    type: 1000base-t
+  - name: ge-0/0/3
+    type: 1000base-t
+  - name: ge-0/0/4
+    type: 1000base-t
+  - name: ge-0/0/5
+    type: 1000base-t
+  - name: ge-0/0/6
+    type: 1000base-t
+  - name: ge-0/0/7
+    type: 1000base-t
+  - name: ge-0/0/8
+    type: 1000base-t
+  - name: ge-0/0/9
+    type: 1000base-t
+  - name: ge-0/0/10
+    type: 1000base-t
+  - name: ge-0/0/11
+    type: 1000base-t
+  - name: ge-0/0/12
+    type: 1000base-t
+  - name: ge-0/0/13
+    type: 1000base-t
+  - name: ge-0/0/14
+    type: 1000base-t
+  - name: ge-0/0/15
+    type: 1000base-t
+  - name: et-0/1/0
+    type: 25gbase-x-sfp28
+  - name: et-0/1/1
+    type: 25gbase-x-sfp28
+  - name: xe-0/2/0
+    type: 10gbase-x-sfpp
+  - name: xe-0/2/1
+    type: 10gbase-x-sfpp
+  - name: xe-0/2/2
+    type: 10gbase-x-sfpp
+  - name: xe-0/2/3
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+console-ports:
+  - name: Console
+    type: rj-45

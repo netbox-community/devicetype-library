@@ -1,0 +1,15 @@
+---
+manufacturer: ZPE
+model: NSR-M2-EXPN
+part_number: NSR-M2-EXPN
+description: NSR M.2 / SATA Expansion Card
+comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
+module-bays:
+  - name: S{module}-A
+    label: Channel A
+    position: '0'  # TODO this should be (module*2)-2
+    description: Cellular Modem, Sim A1, M.2 B-Key
+  - name: S{module}-B
+    label: Channel B
+    position: '1'  # TODO this should be (module*2)-1
+    description: Cellular Modem, Sim B1, M.2 B-Key

@@ -1,0 +1,74 @@
+---
+manufacturer: Eaton
+model: PDUMH30HVNET
+slug: eaton-pdumh30hvnet
+part_number: PDUMH30HVNET
+u_height: 2
+is_full_depth: false
+weight: 6.26
+weight_unit: kg
+airflow: passive
+comments: '[Datasheet](https://assets.tripplite.com/product-pdfs/en/pdumh30hvnet.pdf)\r\n12 foot power input cord\r\nNOTE - the outlet ports are numbered\
+  \ 1-8 on top, and reverse 16-9 on the bottom'
+console-ports:
+  - name: Config
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: Primary
+    type: nema-l6-30p
+power-outlets:
+  - name: Rear 1
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 2
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 3
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 4
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 5
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 6
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 7
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 8
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 9
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 10
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 11
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 12
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 13
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 14
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 15
+    type: iec-60320-c13
+    power_port: Primary
+  - name: Rear 16
+    type: iec-60320-c13
+    power_port: Primary
+interfaces:
+  - name: Net
+    type: 100base-tx
+    enabled: true
+    mgmt_only: true

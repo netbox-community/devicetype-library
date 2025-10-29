@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: 8800-RP2
+part_number: 8800-RP2
+weight: 2.72
+weight_unit: kg
+comments: |
+  - [Cisco 8000 Series Routers](https://www.cisco.com/c/en/us/support/routers/8000-series-routers/series.html#~tab-documents)
+  - [Hardware Installation Guide for Cisco 8800 Series Routers, Chapter: Connect Router to the Network](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/hardware/hig-modular/b-8800-hardware-installation-guide-modular/connect_router_to_the_network.html)
+  - [Cisco 8800 Series Modular Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/8800-series-modular-routers-ds.html)
+  - [Interface and Hardware Component Command Reference for Cisco 8000 Series Routers, Chapter: Management Ethernet Interface Commands](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/Interfaces/b-interfaces-hardware-component-cr-8000/m-management-ethernet-interface-commands.html)
+  - [Interface and Hardware Component Configuration Guide for Cisco 8000 Series Routers, IOS XR Release 25.1.x](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/Interfaces/25xx/configuration/guide/b-interfaces-config-guide-cisco8k-r25xx/m-advanced-config-modification-mgmt-ether-interface.html)
+description: Cisco 8000 Router Processor 2
+console-ports:
+  - name: console{module}
+    type: rj-45
+  - name: usb-a
+    type: usb-a
+interfaces:
+  - name: MgmtEth0/RP{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: MgmtEth0/RP{module}/CPU0/1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: MgmtEth0/RP{module}/CPU0/2
+    type: 1000base-x-sfp
+    mgmt_only: true

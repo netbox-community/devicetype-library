@@ -1,0 +1,40 @@
+---
+manufacturer: Uptime Industries
+# There are 20 bay, 4 bay and 2 bay versions
+model: BladeRunner 1.0 20 blade
+slug: uptime-industries-bladerunner-20
+# There is no official part number that I can find
+# https://docs.computeblade.com/bladerunner/19inch
+part_number: bladerunner-20
+comments: |
+  [Datasheet](https://docs.computeblade.com/bladerunner/19inch)
+u_height: 1
+# 377 mm deep
+is_full_depth: false
+weight: 1.5
+weight_unit: kg
+airflow: passive
+subdevice_role: parent
+is_powered: false
+# Can fit 20 Compute Blades
+device-bays:
+  - name: '1'
+  - name: '2'
+  - name: '3'
+  - name: '4'
+  - name: '5'
+  - name: '6'
+  - name: '7'
+  - name: '8'
+  - name: '9'
+  - name: '10'
+  - name: '11'
+  - name: '12'
+  - name: '13'
+  - name: '14'
+  - name: '15'
+  - name: '16'
+  - name: '17'
+  - name: '18'
+  - name: '19'
+  - name: '20'
