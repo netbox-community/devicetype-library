@@ -1,0 +1,24 @@
+---
+manufacturer: TP-Link
+model: TL-SG105
+slug: tp-link-tl-sg105
+part_number: TL-SG105
+comments: '[TP-Link TL-SG105](https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/tl-sg105/#specifications)'
+is_full_depth: false
+u_height: 0
+airflow: passive
+power-ports:
+  - name: External Power Adapter
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
