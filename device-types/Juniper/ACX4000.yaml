@@ -3,7 +3,10 @@ manufacturer: Juniper
 model: ACX4000
 slug: juniper-acx4000
 u_height: 3
-is_full_depth: false
+weight: 10.82
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
 comments: 2.5U Height
 console-ports:
   - name: Console
@@ -45,4 +48,6 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: MIC0
+    position: '0'
   - name: MIC1
+    position: '1'

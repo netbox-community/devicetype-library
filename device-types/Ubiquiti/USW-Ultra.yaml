@@ -1,0 +1,65 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Ultra
+slug: ubiquiti-unifi-switch-ultra
+part_number: USW-Ultra
+weight: 320
+weight_unit: g
+airflow: passive
+comments: |
+  UniFi Switch Ultra (7) Gigabit PoE+ IEEE 802.3af/at, (1) Gigabit PoE++ input
+
+  Total PoE Availability
+
+  PoE++ input: 42W
+
+  PoE+ input: 16W
+
+  60W PoE adapter input: 42W
+
+  60W AC adapter input: 52W
+
+  210W AC adapter input: 202W
+
+  Dimensions: 203 x 76 x 33 mm (8 x 3 x 1.3")
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8 (PoE IN)
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE++ (max 51W)/PoE+ (max 25W) Input
+power-ports:
+  - name: Input
+    type: dc-terminal
+    maximum_draw: 210
+    description: 60W and 210W AC adapter available

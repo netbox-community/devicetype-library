@@ -31,5 +31,6 @@ console-ports:
   - name: Serial
     type: rj-45
 interfaces:
-  - name: Network
+  - name: SmartConnect
     type: 1000base-t
+    mgmt_only: true

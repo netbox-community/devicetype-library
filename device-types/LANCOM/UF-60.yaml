@@ -1,0 +1,29 @@
+---
+manufacturer: LANCOM
+model: UF-60
+slug: lancom-uf-60
+part_number: '55002'
+u_height: 1
+is_full_depth: false
+weight: 1.77
+weight_unit: kg
+airflow: passive
+front_image: false
+rear_image: false
+comments: '[LANCOM UF-60 Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-RS_Unified_Firewalls/DS_R-S-Unified-Firewalls-Desktop-Modelle_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 14
+interfaces:
+  - name: ETH-0
+    type: 1000base-t
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+console-ports:
+  - name: com
+    type: rj-45

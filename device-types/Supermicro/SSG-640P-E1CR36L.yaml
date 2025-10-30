@@ -1,0 +1,43 @@
+---
+manufacturer: Supermicro
+model: Storage SuperServer SSG-640P-E1CR36L
+slug: supermicro-ssg-640p-e1cr36l
+part_number: SSG-640P-E1CR36L
+u_height: 4
+is_full_depth: true
+weight: 48
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Technical Specification Storage SuperServer SSG-640P-E1CR36L](https://www.supermicro.com/en/products/system/storage/4u/ssg-640p-e1cr36l)'
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe-1 LP x16
+    position: PCIe-1
+  - name: PCIe-2 LP x8
+    position: PCIe-2
+  - name: PCIe-3 LP x8
+    position: PCIe-3
+  - name: PCIe-4 LP x8
+    position: PCIe-4
+  - name: PCIe-5 LP x8
+    position: PCIe-5
+  - name: PCIe-6 LP x8
+    position: PCIe-6
+interfaces:
+  - name: Eth-1
+    type: 10gbase-t
+  - name: Eth-2
+    type: 10gbase-t
+  - name: Eth-3
+    type: 1000base-t
+  - name: Eth-4
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true

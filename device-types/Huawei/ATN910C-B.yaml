@@ -20,7 +20,9 @@ console-ports:
     type: rj-45
 module-bays:
   - name: PWR1
+    position: '1'
   - name: PWR2
+    position: '2'
 interfaces:
   - name: MEthernet0/0/0
     label: ETH/OAM

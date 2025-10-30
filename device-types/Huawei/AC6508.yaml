@@ -1,0 +1,43 @@
+---
+manufacturer: Huawei
+model: AC6508
+slug: huawei-ac6508
+u_height: 0.5
+is_full_depth: false
+weight: 1.47
+weight_unit: kg
+airflow: passive
+comments: '[AC6508 (small-capacity box wireless access controller (AC) up to 512 access points (APs))](https://support.huawei.com/enterprise/en/wlan/ac6508-pid-23144741)'
+console-ports:
+  - name: con 0
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: AC-DC_adapter(12v2a)
+    type: dc-terminal
+    maximum_draw: 26
+interfaces:
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/0/7
+    type: 1000base-t
+  - name: GigabitEthernet0/0/8
+    type: 1000base-t
+  - name: GigabitEthernet0/0/9
+    type: 1000base-t
+  - name: GigabitEthernet0/0/10
+    type: 1000base-t
+  - name: XGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: XGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp

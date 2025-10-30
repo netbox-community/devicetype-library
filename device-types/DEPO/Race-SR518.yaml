@@ -1,0 +1,36 @@
+---
+manufacturer: DEPO
+model: Race-SR518
+slug: depo-race-sr518
+part_number: Race-SR518
+u_height: 2
+is_full_depth: true
+weight: 8.7
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Technical Specification](https://www.etm.ru/cat/nn/8691862)'
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 500
+    allocated_draw: 200
+module-bays:
+  - name: PCIe-1 LP x16
+    position: PCIe-1
+  - name: PCIe-2 LP x16
+    position: PCIe-2
+  - name: PCIe-3 LP x16
+    position: PCIe-3
+  - name: PCIe-4 LP x8
+    position: PCIe-4
+  - name: PCIe-5 LP x8
+    position: PCIe-7
+    description: M-Key M.2
+interfaces:
+  - name: Eth-1
+    type: 1000base-t
+  - name: Eth-2
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true

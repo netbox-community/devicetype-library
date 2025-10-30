@@ -1,0 +1,49 @@
+---
+manufacturer: Thomas-Krenn
+model: RI1208-SMXS (V1.0)
+slug: thomas-krenn-ri1208-smxs-v1-0
+u_height: 2
+is_full_depth: true
+weight: 24
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: |
+  [Thomas-Krenn 2U Intel single-CPU RI1208-SMXS server ](https://www.thomas-krenn.com/en/products/rack-server/2u-servers/intel-single-cpu/2u-intel-single-cpu-ri1208-smxs-server.html)
+
+  [Supermicro X12SPL-F](https://www.supermicro.com/en/products/motherboard/X12SPL-F)
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: SLOT1
+    position: PCIe1
+    description: CPU SLOT1 PCIe 3.0 X8
+  - name: PCIe SLOT2
+    position: PCIe2
+    description: CPU SLOT2 PCIe 3.0 X8
+  - name: PCIe SLOT3
+    position: PCIe3
+    description: CPU SLOT3 PCIe 3.0 X8
+  - name: PCIe SLOT4
+    position: PCIe4
+    description: CPU SLOT4 PCIe 4.0 X8 (IN X 16)
+  - name: PCIe SLOT5
+    position: PCIe5
+    description: CPU SLOT5 PCIe 4.0 X8
+  - name: PCIe SLOT6
+    position: PCIe6
+    description: CPU SLOT6 PCIe 4.0 X16
+  - name: PCIe SLOT7
+    position: PCIe7
+    description: CPU SLOT7 PCIe 4.0 X8

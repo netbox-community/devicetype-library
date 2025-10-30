@@ -3,6 +3,7 @@ manufacturer: Generic
 model: TEST-1000
 slug: generic-test-1000
 u_height: 2
+is_full_depth: true
 subdevice_role: parent
 console-ports:
   - name: Console Port 1
@@ -65,8 +66,11 @@ front-ports:
     rear_port: Rear Port 3
 module-bays:
   - name: Module Bay 1
+    position: '1'
   - name: Module Bay 2
+    position: '2'
   - name: Module Bay 3
+    position: '3'
 device-bays:
   - name: Device Bay 1
   - name: Device Bay 2

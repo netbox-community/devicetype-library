@@ -1,0 +1,34 @@
+---
+manufacturer: Arista
+model: AP-C330
+slug: arista-ap-c330
+part_number: AP-C330
+weight: 1.24
+weight_unit: kg
+u_height: 0
+airflow: passive
+is_full_depth: false
+comments: >
+  '[Arista C-330 Data Sheet]
+  (https://www.arista.com/assets/data/pdf/Datasheets/
+  Arista-C-330-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 25
+    allocated_draw: 25
+front_image: true
+interfaces:
+  - name: Ethernet1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Ethernet2
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Radio
+    type: ieee802.11ax

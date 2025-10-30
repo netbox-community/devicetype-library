@@ -1,0 +1,26 @@
+---
+manufacturer: Bastion
+model: SKAT-UPS10000-RACK-ON
+slug: bastion-skat-ups10000-rack-on
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Quickspecs](https://bast.ru/ups/skat-ups-10000-rack)'
+weight: 17.4
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Input
+    type: hardwired
+    maximum_draw: 12000
+power-outlets:
+  - name: Output
+    type: hardwired
+    power_port: Input
+module-bays:
+  - name: IntelligentSlot
+    position: Rear

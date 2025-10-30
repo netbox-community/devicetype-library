@@ -1,8 +1,7 @@
 ---
 manufacturer: Schweitzer Engineering Laboratories
 model: SEL-2243 Power Coupler
-description: Every SEL Axion node requires at least one SEL-2243 Power Coupler module. The SEL-2243 serves two purposes in an Axion system. It is the power
-  supply for all modules installed in the node, and; It provides two dedicated EtherCAT ports so that mutiple Axion nodes can operate together.
+description: Every SEL Axion node requires at least one SEL-2243 Power Coupler module. The SEL-2243 serves two purposes in an Axion system.
 interfaces:
   - name: Eth01
     type: 100base-tx
@@ -11,4 +10,4 @@ interfaces:
 power-ports:
   - name: dc power terminal
     type: dc-terminal
-    maxiumum draw: 75 W
+    maximum_draw: 75

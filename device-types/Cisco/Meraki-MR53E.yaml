@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: Meraki MR53E
 slug: cisco-meraki-mr53e
-part_number: MR53E
+part_number: MR53E-HW
 is_full_depth: false
 u_height: 0
 comments: "- Datasheet: [https://meraki.cisco.com/product-collateral/mr53e-datasheet/?file](https://meraki.cisco.com/product-collateral/mr53e-datasheet/?file)\r\
@@ -11,6 +11,7 @@ interfaces:
   - name: main
     type: 2.5gbase-t
     poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: secondary
     type: 1000base-t
   - name: wlan0

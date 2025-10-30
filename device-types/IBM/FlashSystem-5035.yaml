@@ -1,0 +1,20 @@
+---
+manufacturer: IBM
+model: FlashSystem 5035
+slug: ibm-flashsystem-5035
+is_full_depth: true
+u_height: 2
+airflow: front-to-rear
+weight: 16.7
+weight_unit: kg
+subdevice_role: parent
+device-bays:
+  - name: Controller 1
+  - name: Controller 2
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: '1'
+  - name: PSU-2
+    label: '2'
+    position: '2'

@@ -2,7 +2,11 @@
 manufacturer: Juniper
 model: QFX5100-48S-3afo
 slug: juniper-qfx5100-48s-3afo
+u_height: 1
 is_full_depth: true
+weight: 9.9
+weight_unit: kg
+airflow: front-to-rear
 part_number: QFX5100-48S-3AFO
 interfaces:
   - name: fxp0
@@ -122,13 +126,11 @@ interfaces:
   - name: em1
     type: 1000base-x-sfp
     mgmt_only: true
-power-ports:
+module-bays:
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 650
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 650
+    position: '1'
 console-ports:
   - name: Console
     type: rj-45

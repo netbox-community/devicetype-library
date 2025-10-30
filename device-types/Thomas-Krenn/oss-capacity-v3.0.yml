@@ -1,0 +1,51 @@
+---
+manufacturer: Thomas-Krenn
+model: OSS Capacity (V3.0)
+slug: thomas-krenn-oss-capacity-v3-0
+u_height: 4
+is_full_depth: true
+weight: 30
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: |
+  [Thomas-Krenn OSS Capacity](https://www.thomas-krenn.com/en/products/storage-systems/open-storage-systems/oss-capacity.html)
+
+  [Supermicro H12SSL-NT](https://www.supermicro.com/en/products/motherboard/H12SSL-NT)
+interfaces:
+  - name: LAN 1
+    type: 10gbase-t
+  - name: LAN 2
+    type: 10gbase-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: PSU1
+    description: Fits Chenbro FSF050
+  - name: PSU2
+    position: PSU2
+    description: Fits Chenbro FSF050
+  - name: JPCIE1
+    position: PCI-E 1
+    description: CPU SLOT1 PCI-E 4.0 x16
+  - name: JPCIE2
+    position: PCI-E 2
+    description: CPU SLOT2 PCI-E 4.0 x8
+  - name: JPCIE3
+    position: PCI-E 3
+    description: CPU SLOT3 PCI-E 4.0 x16
+  - name: JPCIE4
+    position: PCI-E 4
+    description: CPU SLOT4 PCI-E 4.0 x8
+  - name: JPCIE5
+    position: PCI-E 5
+    description: CPU SLOT5 PCI-E 4.0 x16
+  - name: JPCIE6
+    position: PCI-E 6
+    description: CPU SLOT6 PCI-E 4.0 x16
+  - name: JPCIE7
+    position: PCI-E 7
+    description: CPU SLOT7 PCI-E 4.0 x16

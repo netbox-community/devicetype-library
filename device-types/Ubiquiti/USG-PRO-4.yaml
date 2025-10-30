@@ -3,6 +3,9 @@ manufacturer: Ubiquiti
 model: UniFi Security Gateway Pro
 slug: ubiquiti-unifi-security-gateway-pro
 part_number: USG-PRO-4
+weight: 2.3
+weight_unit: kg
+airflow: side-to-rear
 comments: |
   UniFi Security Gateway Pro, (2) Gigabit LAN, (2) 1 Gbps RJ45/SFP Combination WAN Ports*
 
@@ -11,6 +14,8 @@ comments: |
   (*, see datasheet) The USG-PRO-4 WAN port, as a result of being a combination SFP/GigE port, is a pure 1Gbps port - it is incapable of both 10Mbps and 100Mbps FDX/HDX settings
 u_height: 1
 is_full_depth: false
+front_image: true
+rear_image: true
 interfaces:
   - name: LAN 1
     type: 1000base-t

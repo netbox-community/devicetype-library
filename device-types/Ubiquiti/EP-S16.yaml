@@ -5,9 +5,14 @@ slug: ubiquiti-edgepoint-ep-s16
 part_number: EP-S16
 u_height: 0
 is_full_depth: false
+comments: '[EdgePoint S16](https://techspecs.ui.com/uisp/wired/ep-s16#datasheet)'
+airflow: passive
+weight: 3.4
+weight_unit: kg
 power-ports:
   - name: Power
     type: dc-terminal
+    maximum_draw: 40
 interfaces:
   - name: '1'
     type: 1000base-t

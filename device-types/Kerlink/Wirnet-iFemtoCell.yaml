@@ -1,0 +1,21 @@
+---
+manufacturer: Kerlink
+model: Wirnet iFemtoCell
+slug: kerlink-wirnet-ifemtocell
+description: LoRaWAN indoor gateway
+u_height: 0.0
+is_full_depth: false
+weight: 500.0
+weight_unit: g
+airflow: passive
+comments: '[Wirnet iFemtoCell Product Page](https://www.kerlink.com/product/wirnet-ifemtocell/) and [Datasheet](https://web.archive.org/web/20250916151914/https://sw28016.smartweb-static.com/upload_dir/docs/DataSheet_Wirnet_iFemtoCell.pdf)'
+front_image: true
+rear_image: true
+power-ports:
+  - name: DC-12V
+    type: dc-terminal
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false

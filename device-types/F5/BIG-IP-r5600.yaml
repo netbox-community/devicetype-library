@@ -1,0 +1,50 @@
+---
+manufacturer: F5
+model: BIG-IP r5600
+slug: f5-big-ip-r5600
+part_number: r5600
+#default_platform: TSOM
+u_height: 1
+is_full_depth: true
+weight: 24.5
+weight_unit: lb
+airflow: front-to-rear
+front_image: true
+rear_image: false
+comments: '[F5 BIG-IP Systems](https://www.f5.com/pdf/products/big-ip-platforms-datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1.0'
+    type: 100gbase-x-qsfp28
+  - name: '2.0'
+    type: 100gbase-x-qsfp28
+  - name: '3.0'
+    type: 25gbase-x-sfp28
+  - name: '4.0'
+    type: 25gbase-x-sfp28
+  - name: '5.0'
+    type: 25gbase-x-sfp28
+  - name: '6.0'
+    type: 25gbase-x-sfp28
+  - name: '7.0'
+    type: 25gbase-x-sfp28
+  - name: '8.0'
+    type: 25gbase-x-sfp28
+  - name: '9.0'
+    type: 25gbase-x-sfp28
+  - name: '10.0'
+    type: 25gbase-x-sfp28
+  - name: Failover
+    type: 1000base-t
+module-bays:
+  - name: psu1
+    position: '1'
+  - name: psu2
+    position: '2'
