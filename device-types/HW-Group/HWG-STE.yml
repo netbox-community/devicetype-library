@@ -1,7 +1,7 @@
 ---
 manufacturer: HW-GROUP
 model: HWG-STE
-slug: hwg-ste
+slug: hw-group-hwg-ste
 u_height: 0.0
 comments: '[HWg-STE (PoE)](https://www.hw-group.com/files/download/man/version/hwg-ste-man_1-0-1_en.pdf)'
 is_full_depth: false
@@ -17,7 +17,7 @@ console-ports:
 power-ports:
   - name: Power supply 5V
     type: other
-    maximum_draw: 0.75
+    maximum_draw: 1
 interfaces:
   - name: Ethernet 0/1
     type: 100base-tx
