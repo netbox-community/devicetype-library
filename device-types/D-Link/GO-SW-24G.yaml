@@ -8,6 +8,9 @@ is_full_depth: false
 airflow: passive
 weight: 1.35
 weight_unit: kg
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
 interfaces:
   - name: Port 1
     type: 1000base-t
