@@ -8,7 +8,10 @@ weight_unit: kg
 is_full_depth: true
 airflow: side-to-rear
 front_image: true
-comments: '[ZTE ZXR10 5950-L Series Switch DataSheet](https://www.etd.fi/downloads/products/0/00000109/DS_ZXR10_5950-L_Series_Switch.pdf)'
+comments: |
+  [ZTE ZXR10 5950-L Series Switch DataSheet](https://usermanual.wiki/m/5b37c0e8f9c877c32e1058b58760e41ae1581d78d17ac8d43ddc6561ef7953b5.pdf)
+
+  More info also at [ZXR10 5950-L Series - Full Gigabit Intelligent Routing Switches Datasheet](https://www.etd.fi/downloads/products/0/00000109/DS_ZXR10_5950-L_Series_Switch.pdf)
 console-ports:
   - name: console
     type: rj-45
@@ -19,8 +22,7 @@ module-bays:
   - name: PSU 2
     position: '2'
     description: Power Supply Unit 2 with Fan
-  - name: FAN1
-    label: FAN1
+  - name: FAN 1
     position: '1'
     description: Fan module slot 1
 interfaces:
