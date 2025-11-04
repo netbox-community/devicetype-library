@@ -1,0 +1,92 @@
+---
+manufacturer: Cisco
+model: N540-24Z8Q2C-M
+slug: cisco-n540-24z8q2c-m
+part_number: N540-24Z8Q2C-M
+is_full_depth: false
+weight: 5.9
+weight_unit: kg
+airflow: front-to-rear
+u_height: 1
+interfaces:
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+    label: MGMT
+  - name: TenGigabitEthernet0/0/0/0/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/12
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/13
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/14
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/15
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/16
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/17
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/18
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/19
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/20
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/21
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/22
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/0/0/23
+    type: 10gbase-x-sfpp
+  - name: TwentyFiveGigE0/0/0/24
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/25
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/26
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/27
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/28
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/29
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/30
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/31
+    type: 25gbase-x-sfp28
+  - name: Hu0/0/1/32
+    type: 100gbase-x-qsfp28
+  - name: Hu0/0/1/33
+    type: 100gbase-x-qsfp28
+console-ports:
+  - name: Console
+    type: rj-45
+    label: CON
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
