@@ -58,12 +58,13 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: et-0/0/19 # This interface is disabled on the router if PTP (precision time protocol) is enabled
     type: 10gbase-x-sfpp
-module-bays:
+power-ports:
   - name: PSM 0
+    type: iec-60320-c14
     # Comment: Power Supply Module 0
     position: '0'
   - name: PSM 1
+    type: iec-60320-c14
     # Comment: Power Supply Module 1
     position: '1'
-  - name: Fan Module 0
-    position: '0'
+
