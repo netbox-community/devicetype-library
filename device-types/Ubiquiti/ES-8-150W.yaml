@@ -18,41 +18,41 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: '0/1'
+  - name: 0/1
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/2'
+  - name: 0/2
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/3'
+  - name: 0/3
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/4'
+  - name: 0/4
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/5'
+  - name: 0/5
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/6'
+  - name: 0/6
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/7'
+  - name: 0/7
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/8'
+  - name: 0/8
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: '0/9'
+  - name: 0/9
     type: 1000base-x-sfp
-  - name: '0/10'
+  - name: 0/10
     type: 1000base-x-sfp
 power-ports:
   - name: PSU1
