@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW2431R-ZS-S2
+slug: dahua-ipc-hdbw2431r-zs-s2
+description: CCTV Camera Dahua IPC-HDBW2431R-ZS-S2
+part_number: IPC-HDBW2431R-ZS-S2
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.47
+weight_unit: kg
+comments: https://www.dahuasecurity.com/asset/upload/uploads/cpq/DH-IPC-HDBW2431R-ZS-S2_datasheet_20201215.pdf
+power-outlets:
+  - name: DC 12V
+    type: dc-terminal
+interfaces:
+  - name: ETH-1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
