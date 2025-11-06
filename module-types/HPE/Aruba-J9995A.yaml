@@ -2,21 +2,37 @@
 manufacturer: HPE
 model: Aruba J9995A
 part_number: J9995A
-comments: HPE Aruba J9995A 8p 1G/2.5G/5G/XGT v3 zl2 Module
+comments: HPE Aruba 8 port 1/2.5/5/10GT PoE+ v3 zl2 Module (https://www.hpe.com/psnow/doc/PSN8084196FRFR.pdf)
 interfaces:
-  - name: '{module}1'
+  - name: '{module}/1'
     type: 10gbase-t
-  - name: '{module}2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/2'
     type: 10gbase-t
-  - name: '{module}3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/3'
     type: 10gbase-t
-  - name: '{module}4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/4'
     type: 10gbase-t
-  - name: '{module}5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/5'
     type: 10gbase-t
-  - name: '{module}6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/6'
     type: 10gbase-t
-  - name: '{module}7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/7'
     type: 10gbase-t
-  - name: '{module}8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '{module}/8'
     type: 10gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at

@@ -1,0 +1,11 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957414-N-4140-C
+part_number: BCM957414-N-4140-C
+comments: '[BCM57414-2P - 2 x 25GbE OCP 3.0](https://docs.broadcom.com/doc/957414N4140C-DS)'
+description: Dual-Port 25/10 Gb/s Ethernet PCI Express 3.0 x8 OCP 3.0 Small-Form-Factor Network Adapter
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28
