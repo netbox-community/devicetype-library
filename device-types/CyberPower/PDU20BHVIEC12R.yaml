@@ -1,0 +1,50 @@
+---
+manufacturer: CyberPower
+model: PDU20BHVIEC12R
+slug: cyberpower-pdu20bhviec12r
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 2.0
+weight_unit: kg
+power-ports:
+  - name: IN01
+    type: iec-60320-c20
+    maximum_draw: 3600
+power-outlets:
+  - name: OUT1
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT2
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT3
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT4
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT5
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT6
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT7
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT8
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT9
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT10
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT11
+    type: iec-60320-c13
+    power_port: IN01
+  - name: OUT12
+    type: iec-60320-c13
+    power_port: IN01
