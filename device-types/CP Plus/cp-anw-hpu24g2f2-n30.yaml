@@ -1,0 +1,149 @@
+---
+manufacturer: CP Plus
+model: CP-ANW-HPU24G2F2-N30
+slug: cp-plus-cp-anw-hpu24g2f2-n30
+part_number: CP-ANW-HPU24G2F2-N30
+u_height: 1.0
+is_full_depth: false
+airflow: side-to-rear
+weight: 2.65
+weight_unit: kg
+comments: '[Datasheet](https://www.cpplusworld.com/prodassets/datasheet/CP-ANW-HPU24G2F2-N30.pdf)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 300
+    allocated_draw: 120
+interfaces:
+  - name: fastethernet 0/1
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 1
+  - name: fastethernet 0/2
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 2
+  - name: fastethernet 0/3
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 3
+  - name: fastethernet 0/4
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 4
+  - name: fastethernet 0/5
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 5
+  - name: fastethernet 0/6
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 6
+  - name: fastethernet 0/7
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 7
+  - name: fastethernet 0/8
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 8
+  - name: fastethernet 0/9
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 9
+  - name: fastethernet 0/10
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 10
+  - name: fastethernet 0/11
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 11
+  - name: fastethernet 0/12
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 12
+  - name: fastethernet 0/13
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 13
+  - name: fastethernet 0/14
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 14
+  - name: fastethernet 0/15
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 15
+  - name: fastethernet 0/16
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 16
+  - name: fastethernet 0/17
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 17
+  - name: fastethernet 0/18
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 18
+  - name: fastethernet 0/19
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 19
+  - name: fastethernet 0/20
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 20
+  - name: fastethernet 0/21
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 21
+  - name: fastethernet 0/22
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    label: POE 22
+  - name: fastethernet 0/23
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    label: POE 23
+  - name: fastethernet 0/24
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    label: POE 24
+  - name: gigabitethernet 0/25
+    type: 1000base-t
+    label: LAN 25
+  - name: gigabitethernet 0/26
+    type: 1000base-t
+    label: LAN 26
+  - name: gigabitethernet 0/27
+    type: 1000base-x-sfp
+    label: SFP 27
+  - name: gigabitethernet 0/28
+    type: 1000base-x-sfp
+    label: SFP 28
