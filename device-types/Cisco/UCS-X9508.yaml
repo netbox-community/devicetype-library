@@ -10,16 +10,24 @@ subdevice_role: parent
 airflow: front-to-rear
 weight: 43.09
 weight_unit: kg
-is_powered: false
+is_powered: true
 device-bays:
   - name: slot-1
+    label: 1
   - name: slot-2
+    label: 2
   - name: slot-3
+    label: 3
   - name: slot-4
+    label: 4
   - name: slot-5
+    label: 5
   - name: slot-6
+    label: 6
   - name: slot-7
+    label: 7
   - name: slot-8
+    label: 8
 module-bays:
   - name: Intelligent Fabric Module 1
     label: IFM1
