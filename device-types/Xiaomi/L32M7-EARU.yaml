@@ -21,31 +21,6 @@ interfaces:
   - name: ethernet
     label: Network
     type: 100base-tx
-  - name: usb1
-    label: USB
-    type: other
-  - name: usb2
-    label: USB
-    type: other
-  - name: hdmi1
-    label: HDMI
-    type: other
-  - name: hdmi2
-    label: HDMI
-    type: other
-  - name: ant
-    label: Antenna
-    type: other
-  - name: sat
-    label: Satellite
-    type: other
-  - name: jack3.5
-    label: Earphone
-    type: other
-  - name: CI
-    type: other
-  - name: AV input
-    type: other
 power-ports:
   - name: AC
     label: AC
@@ -53,4 +28,3 @@ power-ports:
     maximum_draw: 50
     allocated_draw: 50
     description: 100 - 240V AC
-comments: '[L32M7-EARU Datasheet by Kolyan](https://ru-mi.com/product/L32M7-EARU/#spec'
