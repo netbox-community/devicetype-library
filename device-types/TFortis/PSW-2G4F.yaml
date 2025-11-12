@@ -13,23 +13,23 @@ power-ports:
     type: dc-terminal
     maximum_draw: 120
 interfaces:
-  - name: 1
+  - name: eth1
     type: 100base-tx
     poe_type: type1-ieee802.3af
     poe_mode: pse
-  - name: 2
+  - name: eth2
     type: 100base-tx
     poe_type: type1-ieee802.3af
     poe_mode: pse
-  - name: 3
+  - name: eth3
     type: 100base-tx
     poe_type: type1-ieee802.3af
     poe_mode: pse
-  - name: 4
+  - name: eth4
     type: 100base-tx
     poe_type: type1-ieee802.3af
     poe_mode: pse
-  - name: 5
+  - name: sfp5
     type: 1000base-x-sfp
-  - name: 6
+  - name: sfp6
     type: 1000base-x-sfp
