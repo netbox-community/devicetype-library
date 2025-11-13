@@ -24,3 +24,7 @@ module-bays:
   - name: NUMA 0 - PCIe slot 3 - LP
     position: PCIe-3
     label: '3'
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
