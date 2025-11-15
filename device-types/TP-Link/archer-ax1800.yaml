@@ -1,0 +1,43 @@
+---
+manufacturer: TP-Link
+model: Archer AX1800
+slug: tp-link-archer-ax1800
+part_number: archer-ax1800
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 900
+weight_unit: g
+interfaces:
+  - name: WAN
+    label: WAN
+    type: 1000base-t
+  - name: LAN1
+    label: LAN1
+    type: 1000base-t
+  - name: LAN2
+    label: LAN2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN3
+    type: 1000base-t
+  - name: LAN4
+    label: LAN4
+    type: 1000base-t
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ax
+  - name: usb
+    type: lte
+power-ports:
+  - name: Power
+    label: Power
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 12
+    description: 12V DC, 1A
+comments: '[Archer AX1800 Datasheet by Kolyan](https://www.tp-link.com/ru/home-networking/wifi-router/archer-ax1800/#specifications)'

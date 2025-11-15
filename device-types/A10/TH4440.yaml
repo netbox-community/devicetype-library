@@ -6,16 +6,15 @@ part_number: TH4440
 u_height: 1
 comments: '[A10 Thunder 4440 Applcation Delivery Controller Datasheet](https://www.a10networks.com/wp-content/uploads/A10-DS-Thunder-ADC.pdf)'
 is_full_depth: true
+airflow: front-to-rear
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS0
-    type: iec-60320-c14
-    maximum_draw: 445
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 445
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
 interfaces:
   - name: mgmt
     type: 1000base-t
