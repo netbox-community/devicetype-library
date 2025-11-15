@@ -1,0 +1,44 @@
+manufacturer: Hitron Technologies Inc.
+model: HT-EM4
+slug: ht-em4
+description: ''
+default_platform: null
+part_number: 1420700003V2
+u_height: 0.0
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: 110.0
+weight_unit: g
+comments: ''
+interfaces:
+- name: Cable Connection
+  type: docsis
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Gigabit Ethernet Port
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: MoCA 2.5
+  type: moca
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
