@@ -1,0 +1,38 @@
+---
+manufacturer: Supermicro
+model: AS-1115CS-TNR
+slug: supermicro-as-1115cs-tnr
+part_number: AS-1115CS-TNR
+comments: "[User's Manual](https://www.supermicro.com/manuals/superserver/1U/Lot9_AS-1115CS-TNR.pdf)<br />[Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-1115cs-tnr)"
+u_height: 1
+is_full_depth: true
+weight: 11.3
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: PCIe 5.0 x16 slot (full-height, full-length)
+  - name: Slot 2
+    position: '2'
+    description: PCIe 5.0 x16 slot (full-height, full-length)
+  - name: Slot A1
+    position: A1
+    description: PCIe 5.0 x16 slot (AIOM)
+  - name: Slot A2
+    position: A2
+    description: PCIe 5.0 x16 slot (AIOM)
+  - name: PSU1
+    position: '1'
+    description: Left power supply unit
+  - name: PSU2
+    position: '2'
+    description: Right power supply unit
