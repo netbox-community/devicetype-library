@@ -1,0 +1,77 @@
+---
+manufacturer: SNR
+model: SNR-UPS-ONRT-1000-S24 ELEMENT II
+slug: snr-ups-onrt-1000-s24
+description: SNR UPS-ONRT-1000-S24 ELEMENT II
+part_number: SNR-UPS-ONRT-1000-S24
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 8.1
+weight_unit: kg
+front-ports:
+  - name: IN RG45 NET SURGE PROTECTION
+    type: 8p8c
+    rear_port: '1'
+    rear_port_position: 1
+rear-ports:
+  - name: OUT RG45 NET SURGE PROTECTION
+    type: 8p8c
+    positions: 1
+console-ports:
+  - name: usb
+    type: usb-b
+    label: usb
+  - name: rs232
+    type: de-9
+    label: rs232
+  - name: epo
+    type: other
+    label: epo
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    maximum_draw: 1000
+    allocated_draw: 1000
+    label: Input
+    description: 110 - 300V AC, 3.4A
+power-outlets:
+  - name: Segment1-1
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment1-1
+  - name: Segment1-2
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment1-2
+  - name: Segment1-3
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment1-3
+  - name: Segment1-4
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment1-4
+  - name: Segment2-1
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment2-1
+  - name: Segment2-2
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment2-2
+  - name: Segment2-3
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment2-3
+  - name: Segment2-4
+    type: iec-60320-c13
+    power_port: Input
+    label: Segment2-4
+module-bays:
+  - name: INTELLIGENT SLOT
+    label: INTELLIGENT SLOT
+    description: INTELLIGENT SLOT
+    position: INTELLIGENT SLOT

@@ -2,132 +2,109 @@
 manufacturer: SNR
 model: S5210G-24TX
 slug: snr-s5210g-24tx
-part_number: SNR-S5210G-24TX
-u_height: 1.0
+part_number: s5210g-24tx
 is_full_depth: false
+u_height: 1
 airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
 weight: 3.25
 weight_unit: kg
-comments: '[SNR-S5210G-24TX](https://snr.systems/ru/catalog/setevoe-oborudovanie/kommutatory-dostupa/snr-s5210g/snr-s5210g-24tx)'
-console-ports:
-  - name: con 0
-    label: CONSOLE
-    type: rj-45
-power-ports:
-  - name: PS
-    type: iec-60320-c14
-    maximum_draw: 45
-    allocated_draw: 30
 interfaces:
   - name: ge1
-    type: 1000base-t
-    enabled: true
     label: '1'
+    type: 1000base-t
   - name: ge2
-    type: 1000base-t
-    enabled: true
     label: '2'
+    type: 1000base-t
   - name: ge3
-    type: 1000base-t
-    enabled: true
     label: '3'
+    type: 1000base-t
   - name: ge4
-    type: 1000base-t
-    enabled: true
     label: '4'
+    type: 1000base-t
   - name: ge5
-    type: 1000base-t
-    enabled: true
     label: '5'
+    type: 1000base-t
   - name: ge6
-    type: 1000base-t
-    enabled: true
     label: '6'
+    type: 1000base-t
   - name: ge7
-    type: 1000base-t
-    enabled: true
     label: '7'
+    type: 1000base-t
   - name: ge8
-    type: 1000base-t
-    enabled: true
     label: '8'
+    type: 1000base-t
   - name: ge9
-    type: 1000base-t
-    enabled: true
     label: '9'
+    type: 1000base-t
   - name: ge10
-    type: 1000base-t
-    enabled: true
     label: '10'
+    type: 1000base-t
   - name: ge11
-    type: 1000base-t
-    enabled: true
     label: '11'
+    type: 1000base-t
   - name: ge12
-    type: 1000base-t
-    enabled: true
     label: '12'
+    type: 1000base-t
   - name: ge13
-    type: 1000base-t
-    enabled: true
     label: '13'
+    type: 1000base-t
   - name: ge14
-    type: 1000base-t
-    enabled: true
     label: '14'
+    type: 1000base-t
   - name: ge15
-    type: 1000base-t
-    enabled: true
     label: '15'
+    type: 1000base-t
   - name: ge16
-    type: 1000base-t
-    enabled: true
     label: '16'
+    type: 1000base-t
   - name: ge17
-    type: 1000base-t
-    enabled: true
     label: '17'
+    type: 1000base-t
   - name: ge18
-    type: 1000base-t
-    enabled: true
     label: '18'
+    type: 1000base-t
   - name: ge19
-    type: 1000base-t
-    enabled: true
     label: '19'
+    type: 1000base-t
   - name: ge20
-    type: 1000base-t
-    enabled: true
     label: '20'
+    type: 1000base-t
   - name: ge21
-    type: 1000base-t
-    enabled: true
     label: '21'
+    type: 1000base-t
   - name: ge22
-    type: 1000base-t
-    enabled: true
     label: '22'
+    type: 1000base-t
   - name: ge23
-    type: 1000base-t
-    enabled: true
     label: '23'
-  - name: ge24
     type: 1000base-t
-    enabled: true
+  - name: ge24
     label: '24'
+    type: 1000base-t
   - name: xe1
-    type: 10gbase-x-sfpp
-    enabled: true
     label: xe1
+    type: 10gbase-x-sfpp
   - name: xe2
-    type: 10gbase-x-sfpp
-    enabled: true
     label: xe2
+    type: 10gbase-x-sfpp
   - name: xe3
-    type: 10gbase-x-sfpp
-    enabled: true
     label: xe3
-  - name: xe4
     type: 10gbase-x-sfpp
-    enabled: true
+  - name: xe4
     label: xe4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: console
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: PSU
+    label: ~100-240V;50/60Hz
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 30
+    description: 90 - 264V AC
+comments: '[SNR-S5210G-24TX Datasheet by Kolyan](https://shop.nag.ru/catalog/00001.kommutatory/40213.fiksirovannye-kommutatory/34613.snr-s5210g-24tx#description)'
