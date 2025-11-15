@@ -1,0 +1,31 @@
+---
+manufacturer: Powercom
+model: WOW-300
+slug: powercom-wow-300
+description: Powercom WOW-300
+part_number: WOW-300
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+weight: 1.9
+weight_unit: kg
+comments: '[WOW-300 Datasheet by Kolyan](https://pcm.ru/product/pcm-wow-300u-41484/)'
+power-ports:
+  - name: Input
+    type: ita-ef
+    maximum_draw: 300
+    allocated_draw: 165
+    label: Input
+    description: 220 - 240V AC, 5A
+power-outlets:
+  - name: '01'
+    type: ita-f
+    power_port: Input
+  - name: '02'
+    type: ita-f
+    power_port: Input
+  - name: '03'
+    type: ita-f
+    power_port: Input
