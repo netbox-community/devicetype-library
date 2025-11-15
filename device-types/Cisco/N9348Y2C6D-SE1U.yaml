@@ -1,21 +1,42 @@
 ---
 manufacturer: Cisco
-model: Nexus 93180YC-FX3
-part_number: N9K-C93180YC-FX3
-slug: cisco-n9k-c93180yc-fx3
-front_image: true
-rear_image: true
+model: N9348Y2C6D-SE1U
+slug: cisco-n9348y2c6d-se1u
+part_number: N9348Y2C6D-SE1U
 u_height: 1
-weight: 9.52
-weight_unit: kg
 is_full_depth: true
-comments: '[Cisco Nexus 9300 Datacenter Switches Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-744052.html)'
+weight: 36.8
+weight_unit: lb
+comments: '[Cisco N9300 Smart Switches Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/9300-series-smart-switches/n9300-series-smart-switch-ds.html)'
 console-ports:
-  - name: console
+  - name: con 0
     type: rj-45
-  - name: usb1
-    type: usb-a
+  - name: usb
+    type: usb-c
+module-bays:
+  - name: PS-0
+    position: PS-0
+  - name: PS-1
+    position: PS-1
+  - name: Fan 1
+    position: F1
+  - name: Fan 2
+    position: F2
+  - name: Fan 3
+    position: F3
+  - name: Fan 4
+    position: F4
+  - name: Fan 5
+    position: F5
+  - name: Fan 6
+    position: F6
 interfaces:
+  - name: mgmt0
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: mgmt1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
   - name: Ethernet1/1
     type: 25gbase-x-sfp28
   - name: Ethernet1/2
@@ -117,28 +138,10 @@ interfaces:
   - name: Ethernet1/50
     type: 100gbase-x-qsfp28
   - name: Ethernet1/51
-    type: 100gbase-x-qsfp28
+    type: 400gbase-x-qsfp112
   - name: Ethernet1/52
-    type: 100gbase-x-qsfp28
+    type: 400gbase-x-qsfp112
   - name: Ethernet1/53
-    type: 100gbase-x-qsfp28
+    type: 400gbase-x-qsfp112
   - name: Ethernet1/54
-    type: 100gbase-x-qsfp28
-  - name: mgmt0
-    type: 1000base-t
-    mgmt_only: true
-module-bays:
-  - name: PS1
-    position: PS1
-    label: Power Supply 1
-  - name: PS2
-    position: PS2
-    label: Power Supply 2
-  - name: Fan 1
-    position: F1
-  - name: Fan 2
-    position: F2
-  - name: Fan 3
-    position: F3
-  - name: Fan 4
-    position: F4
+    type: 400gbase-x-qsfp112

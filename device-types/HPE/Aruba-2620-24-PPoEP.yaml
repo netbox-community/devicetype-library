@@ -1,0 +1,98 @@
+---
+manufacturer: HPE
+model: Aruba 2620-24-PPoE+
+slug: hpe-aruba-2620-24-ppoep
+part_number: J9624A
+u_height: 1
+is_full_depth: false
+weight: 3.19
+weight_unit: kg
+comments: '[HPE Aruba 2620 Switch 12x100Mbit+12x100MbitPOE, 128W total](https://www.hpe.com/psnow/doc/c04111491.pdf?jumpid=in_lit-psnow-getpdf)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 167
+interfaces:
+  - name: '1'
+    type: 100base-tx
+  - name: '2'
+    type: 100base-tx
+  - name: '3'
+    type: 100base-tx
+  - name: '4'
+    type: 100base-tx
+  - name: '5'
+    type: 100base-tx
+  - name: '6'
+    type: 100base-tx
+  - name: '7'
+    type: 100base-tx
+  - name: '8'
+    type: 100base-tx
+  - name: '9'
+    type: 100base-tx
+  - name: '10'
+    type: 100base-tx
+  - name: '11'
+    type: 100base-tx
+  - name: '12'
+    type: 100base-tx
+  - name: '13'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '14'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '15'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '16'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '17'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '18'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '19'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '20'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '21'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '22'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '23'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '24'
+    type: 100base-tx
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '25'
+    type: 1000base-t
+  - name: '26'
+    type: 1000base-t
+  - name: '27'
+    type: 1000base-x-sfp
+  - name: '28'
+    type: 1000base-x-sfp
