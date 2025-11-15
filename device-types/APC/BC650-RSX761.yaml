@@ -1,0 +1,34 @@
+---
+manufacturer: APC
+model: BC650-RSX761
+slug: apc-bc650-rsx761
+description: APC BC650-RSX761
+part_number: Back-UPS-BC650-RSX761
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+weight: 5.5
+weight_unit: kg
+comments: '[BC650-RSX761 Datasheet by Kolyan](https://www.se.com/kz/ru/product/BC650-RSX761/%D0%B8%D0%B1%D0%BF-apc-backups-650-%D0%B2%D0%B0-230-%D0%B2-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D1%81-%D1%80%D0%BE%D0%B7%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8-schuko/)'
+power-ports:
+  - name: Input
+    type: ita-ef
+    maximum_draw: 360
+    allocated_draw: 360
+    label: Input
+    description: 220 - 240V AC, 3.5A, 50/60Hz
+power-outlets:
+  - name: '1'
+    type: ita-f
+    power_port: Input
+  - name: '2'
+    type: ita-f
+    power_port: Input
+  - name: '3'
+    type: ita-f
+    power_port: Input
+  - name: '4'
+    type: ita-f
+    power_port: Input
