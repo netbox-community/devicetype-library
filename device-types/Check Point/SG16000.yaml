@@ -1,0 +1,47 @@
+---
+manufacturer: Check Point
+model: SG16000
+slug: check-point-sg16000
+part_number: CPAP-SG16000-PLUS-SNBT
+u_height: 2.0
+is_full_depth: true
+weight: 18
+weight_unit: kg
+airflow: side-to-rear
+front_image: true
+rear_image: true
+comments: '[Check Point Quantum 16000 Security Gateway DATASHEET](https://www.checkpoint.com/downloads/products/16000-security-gateway-datasheet.pdf)'
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+  - name: ttyS1
+    label: CONSOLE
+    type: usb-c
+module-bays:
+  - name: PSU 1
+    position: '1'
+    description: Power Supply Unit 1 with Fan
+  - name: PSU 2
+    position: '2'
+    description: Power Supply Unit 2 with Fan
+  - name: Line card 1
+    position: '1'
+  - name: Line card 2
+    position: '2'
+  - name: Line card 3
+    position: '3'
+  - name: Line card 4
+    position: '4'
+interfaces:
+  - name: Mgmt
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true
+  - name: sync
+    label: SYNC
+    type: 1000base-t

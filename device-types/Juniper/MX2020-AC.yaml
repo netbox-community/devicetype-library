@@ -1,0 +1,252 @@
+---
+manufacturer: Juniper
+model: MX2020-AC
+slug: juniper-mx2020-ac
+part_number: MX2020
+u_height: 45
+weight: 680.39
+weight_unit: kg
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Juniper MX2020 Data Sheet](https://www.juniper.net/us/en/products-services/routing/mx-series/mx2020/)'
+module-bays:
+# Front
+  # Modular Port Concentrators/FPC Slots:
+  - name: FPC10
+    label: FPC Slot 10
+    position: '10'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 10
+  - name: FPC11
+    label: FPC Slot 11
+    position: '11'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 11
+  - name: FPC12
+    label: FPC Slot 12
+    position: '12'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 12
+  - name: FPC13
+    label: FPC Slot 13
+    position: '13'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 13
+  - name: FPC14
+    label: FPC Slot 14
+    position: '14'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 14
+  - name: FPC15
+    label: FPC Slot 15
+    position: '15'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 15
+  - name: FPC16
+    label: FPC Slot 16
+    position: '16'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 16
+  - name: FPC17
+    label: FPC Slot 17
+    position: '17'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 17
+  - name: FPC18
+    label: FPC Slot 18
+    position: '18'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 18
+  - name: FPC19
+    label: FPC Slot 19
+    position: '19'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 19
+  # Switch Fabric Boards (SFB):
+  - name: SFB0
+    label: Switch Fabric Board 0
+    position: '0'
+    description: Front Switch Fabric Board 0
+  - name: SFB1
+    label: Switch Fabric Board 1
+    position: '1'
+    description: Front Switch Fabric Board 1
+  - name: SFB2
+    label: Switch Fabric Board 2
+    position: '2'
+    description: Front Switch Fabric Board 2
+  - name: SFB3
+    label: Switch Fabric Board 3
+    position: '3'
+    description: Front Switch Fabric Board 3
+  - name: SFB4
+    label: Switch Fabric Board 4
+    position: '4'
+    description: Front Switch Fabric Board 4
+  - name: SFB5
+    label: Switch Fabric Board 5
+    position: '5'
+    description: Front Switch Fabric Board 5
+  - name: SFB6
+    label: Switch Fabric Board 6
+    position: '6'
+    description: Front Switch Fabric Board 6
+  - name: SFB7
+    label: Switch Fabric Board 7
+    position: '7'
+    description: Front Switch Fabric Board 7
+  # Control Board and Routing Engines (CB-RE):
+  - name: CB-RE0
+    label: Control Board and Routing Engine 0
+    position: '0'
+    description: Front Control Board and Routing Engine 0
+  - name: CB-RE1
+    label: Control Board and Routing Engine 1
+    position: '1'
+    description: Front Control Board and Routing Engine 1
+  # Modular Port Concentrators/Flexible PIC Concentrator Slots:
+  - name: FPC0
+    label: FPC Slot 0
+    position: '0'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 0
+  - name: FPC1
+    label: FPC Slot 1
+    position: '1'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 1
+  - name: FPC2
+    label: FPC Slot 2
+    position: '2'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 2
+  - name: FPC3
+    label: FPC Slot 3
+    position: '3'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 3
+  - name: FPC4
+    label: FPC Slot 4
+    position: '4'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 4
+  - name: FPC5
+    label: FPC Slot 5
+    position: '5'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 5
+  - name: FPC6
+    label: FPC Slot 6
+    position: '6'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 6
+  - name: FPC7
+    label: FPC Slot 7
+    position: '7'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 7
+  - name: FPC8
+    label: FPC Slot 8
+    position: '8'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 8
+  - name: FPC9
+    label: FPC Slot 9
+    position: '9'
+    description: Modular Port Concentrators/Flexible PIC Concentrator Slot 9
+# Rear
+  # Fan Trays (FT):
+  - name: FT2
+    label: Fan Tray 2
+    position: '2'
+    description: Rear Fan Tray 2
+  - name: FT3
+    label: Fan Tray 3
+    position: '3'
+    description: Rear Fan Tray 3
+  # Power Distribution Module (PDM):
+  - name: PDM3
+    label: Power Distribution Module 3
+    position: '3'
+    description: Rear Power Distribution Module 3
+  # Power Supply Modules (PSM):
+  - name: PSM9
+    label: Power Supply Module 9
+    position: '9'
+    description: Rear Power Supply Module 9
+  - name: PSM10
+    label: Power Supply Module 10
+    position: '10'
+    description: Rear Power Supply Module 10
+  - name: PSM11
+    label: Power Supply Module 11
+    position: '11'
+    description: Rear Power Supply Module 11
+  - name: PSM12
+    label: Power Supply Module 12
+    position: '12'
+    description: Rear Power Supply Module 12
+  - name: PSM13
+    label: Power Supply Module 13
+    position: '13'
+    description: Rear Power Supply Module 13
+  - name: PSM14
+    label: Power Supply Module 14
+    position: '14'
+    description: Rear Power Supply Module 14
+  - name: PSM15
+    label: Power Supply Module 15
+    position: '15'
+    description: Rear Power Supply Module 15
+  - name: PSM16
+    label: Power Supply Module 16
+    position: '16'
+    description: Rear Power Supply Module 16
+  - name: PSM17
+    label: Power Supply Module 17
+    position: '17'
+    description: Rear Power Supply Module 17
+  # Power Distribution Modules (PDM):
+  - name: PDM2
+    label: Power Distribution Module 2
+    position: '2'
+    description: Rear Power Distribution Module 2
+  - name: PDM1
+    label: Power Distribution Module 1
+    position: '1'
+    description: Rear Power Distribution Module 1
+  # Power Supply Modules (PSM):
+  - name: PSM0
+    label: Power Supply Module 0
+    position: '0'
+    description: Rear Power Supply Module 0
+  - name: PSM1
+    label: Power Supply Module 1
+    position: '1'
+    description: Rear Power Supply Module 1
+  - name: PSM2
+    label: Power Supply Module 2
+    position: '2'
+    description: Rear Power Supply Module 2
+  - name: PSM3
+    label: Power Supply Module 3
+    position: '3'
+    description: Rear Power Supply Module 3
+  - name: PSM4
+    label: Power Supply Module 4
+    position: '4'
+    description: Rear Power Supply Module 4
+  - name: PSM5
+    label: Power Supply Module 5
+    position: '5'
+    description: Rear Power Supply Module 5
+  - name: PSM6
+    label: Power Supply Module 6
+    position: '6'
+    description: Rear Power Supply Module 6
+  - name: PSM7
+    label: Power Supply Module 7
+    position: '7'
+    description: Rear Power Supply Module 7
+  - name: PSM8
+    label: Power Supply Module 8
+    position: '8'
+    description: Rear Power Supply Module 8
+  # Power Distribution Modules (PDM):
+  - name: PDM0
+    label: Power Distribution Module 0
+    position: '0'
+    description: Rear Power Distribution Module 0
+  # Fan Trays (FT):
+  - name: FT0
+    label: Fan Tray 0
+    position: '0'
+    description: Rear Fan Tray 0
+  - name: FT1
+    label: Fan Tray 1
+    position: '1'
+    description: Rear Fan Tray 1

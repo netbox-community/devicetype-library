@@ -1,0 +1,40 @@
+---
+manufacturer: Check Point
+model: SG2530
+slug: check-point-sg2530
+part_number: CPAP-SG2530
+u_height: 1.0
+is_full_depth: false
+weight: 0.87
+weight_unit: kg
+comments: '[Check Point Quantum Spark 2500 Data Sheet](https://www.checkpoint.com/downloads/products/quantum-spark-2500-datasheet.pdf)'
+airflow: passive
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 40
+    allocated_draw: 26
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+interfaces:
+  - name: WAN-RJ-45
+    type: 1000base-t
+  - name: WAN-SFP
+    type: 1000base-x-sfp
+  - name: DMZ-RJ-45
+    type: 1000base-t
+  - name: DMZ-SFP
+    type: 1000base-x-sfp
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t

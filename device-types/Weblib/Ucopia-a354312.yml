@@ -1,0 +1,33 @@
+---
+manufacturer: Weblib
+model: Ucopia A354312
+slug: weblib-ucopia-a354312
+part_number: a354312
+u_height: 0.0
+is_full_depth: false
+weight: 0.6
+weight_unit: kg
+subdevice_role: child
+airflow: passive
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Front USB1
+    type: usb-a
+  - name: Front USB2
+    type: usb-a
+  - name: Front USB3
+    type: usb-a
+  - name: Front USB4
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 15
+interfaces:
+  - name: Eth0
+    type: 1000base-tx
+  - name: Eth1
+    type: 1000base-tx
+  - name: Admin
+    type: 1000base-tx

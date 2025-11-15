@@ -9,13 +9,11 @@ is_full_depth: true
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS0
-    type: iec-60320-c14
-    maximum_draw: 680
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 680
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
 interfaces:
   - name: mgmt
     type: 1000base-t

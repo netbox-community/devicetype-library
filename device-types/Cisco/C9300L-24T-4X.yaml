@@ -1,12 +1,12 @@
 ---
 manufacturer: Cisco
-model: Catalyst C9300L-24T-4X
-slug: cisco-c9300l-24t-4x
+model: Catalyst 9300L-24T-4X
 part_number: C9300L-24T-4X
+slug: cisco-c9300l-24t-4x
 u_height: 1
-is_full_depth: true
-weight: 6.8
+weight: 6.78
 weight_unit: kg
+is_full_depth: true
 comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: con 0
@@ -78,6 +78,10 @@ interfaces:
   - name: StackPort1/2
     type: cisco-stackwise
 module-bays:
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
   - name: FAN 1
     position: '1'
   - name: FAN 2
@@ -86,7 +90,3 @@ module-bays:
     position: '3'
   - name: Network Module
     position: '4'
-  - name: PS-A
-    position: A
-  - name: PS-B
-    position: B

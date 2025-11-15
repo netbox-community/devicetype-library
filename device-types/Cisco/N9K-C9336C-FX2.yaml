@@ -9,6 +9,7 @@ u_height: 1
 is_full_depth: true
 weight: 8.5
 weight_unit: kg
+comments: '[Cisco Nexus 9300 Datacenter FX2 Switches Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742282.html)'
 console-ports:
   - name: console
     type: rj-45
@@ -90,16 +91,19 @@ interfaces:
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
+  - name: mgmt1
+    type: 1000base-x-sfp
+    mgmt_only: true
 module-bays:
   - name: PS1
     label: Power Supply 1
-    position: '1'
+    position: PS1
   - name: PS2
     label: Power Supply 2
-    position: '2'
+    position: PS2
   - name: Fan 1
-    position: '1'
+    position: F1
   - name: Fan 2
-    position: '2'
+    position: F2
   - name: Fan 3
-    position: '3'
+    position: F3
