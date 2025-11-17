@@ -17,16 +17,10 @@ power-ports:
 interfaces:
   - name: Port 1
     type: 2.5gbase-t
-    enabled: true
-    mgmt_only: false
     label: LAN
   - name: Port 2
     type: 2.5gbase-t
-    enabled: true
-    mgmt_only: false
     label: WAN
   - name: wlan0
     type: ieee802.11be
-    enabled: true
-    mgmt_only: false
     description: IEEE 802.11a/n/ac/ax/be
