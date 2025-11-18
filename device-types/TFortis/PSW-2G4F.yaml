@@ -1,0 +1,35 @@
+---
+manufacturer: TFortis
+model: PSW-2G4F
+slug: tfortis-psw-2g4f
+u_height: 2
+is_full_depth: false
+weight: 1.3
+airflow: passive
+weight_unit: kg
+comments: '[TFortis Outdoor Switch Series](https://tfortis.ru/support/snyato-s-proizvodstva/kommutatory/psw-2g4f/)'
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 120
+interfaces:
+  - name: eth1
+    type: 100base-tx
+    poe_type: type1-ieee802.3af
+    poe_mode: pse
+  - name: eth2
+    type: 100base-tx
+    poe_type: type1-ieee802.3af
+    poe_mode: pse
+  - name: eth3
+    type: 100base-tx
+    poe_type: type1-ieee802.3af
+    poe_mode: pse
+  - name: eth4
+    type: 100base-tx
+    poe_type: type1-ieee802.3af
+    poe_mode: pse
+  - name: sfp5
+    type: 1000base-x-sfp
+  - name: sfp6
+    type: 1000base-x-sfp
