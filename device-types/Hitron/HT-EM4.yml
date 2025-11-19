@@ -1,0 +1,22 @@
+---
+manufacturer: Hitron
+model: HT-EM4
+slug: hitron-ht-em4
+part_number: 1420700003V2
+comments: '[Hitron HT-EM4](https://us.hitrontech.com/products/consumers/ht-em4-coax-to-ethernet-adapter/)'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 110
+weight_unit: g
+power-ports:
+  - name: External Power Adapter
+    type: dc-terminal
+    maximum_draw: 12
+interfaces:
+  - name: Cable Connection
+    type: docsis
+  - name: Gigabit Ethernet Port
+    type: 1000base-t
+  - name: MoCA 2.5
+    type: moca
