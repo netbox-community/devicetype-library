@@ -20,13 +20,12 @@ interfaces:
     label: 1GbE RJ45 LAN port 2
   - name: Lan 3
     type: 10gbase-x-sfpp
-	mgmt_only: false
+    mgmt_only: false
     label: 10Gb SFP+ LAN Port 3	
   - name: Lan 4
     type: 10gbase-x-sfpp
-	mgmt_only: false
+    mgmt_only: false
     label: 10Gb SFP+ LAN Port 3
-	
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
