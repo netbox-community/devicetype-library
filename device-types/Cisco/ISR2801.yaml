@@ -1,32 +1,25 @@
 ---
 manufacturer: Cisco
-model: ISR2821
-slug: cisco-isr2821
-part_number: CISCO2821
-u_height: 2
-is_full_depth: true
-weight: 11.4
+model: ISR2801
+part_number: ISR2801/K9
+slug: cisco-isr2801
+u_height: 1
+is_full_depth: false
+weight: 6.2
 weight_unit: kg
 comments: 'Datasheet: [Link](https://www.cisco.com/c/dam/global/de_at/assets/unified_partners/smb/vertriebliche-positionierung/routing/downloads/isr_2800_datenblatt_e.pdf)'
+interfaces:
+  - name: FastEthernet0/0
+    type: 100base-tx
+  - name: FastEthernet0/1
+    type: 100base-tx
 console-ports:
-  - name: aux 0
-    type: rj-45
-    label: AUX
   - name: con 0
     type: rj-45
-    label: CONSOLE
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    allocated_draw: 120
-    maximum_draw: 240
-interfaces:
-  - name: GigabitEthernet0/0
-    type: 1000base-t
-    label: GE 0/0
-  - name: GigabitEthernet0/1
-    type: 1000base-t
-    label: GE 0/1
+  - name: aux
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
 module-bays:
   - name: AIM slot 0
     label: AIM 0
@@ -44,10 +37,6 @@ module-bays:
     label: PVDM1
     position: PVDM1
     description: Packet Voice Digital Signal Processor Module Slot
-  - name: Slot 0 SubSlot 6
-    label: PVDM2
-    position: PVDM2
-    description: Packet Voice Digital Signal Processor Module Slot
   - name: Slot 0/0
     label: HWIC0
     position: 0/0
@@ -64,7 +53,7 @@ module-bays:
     label: HWIC3
     position: 0/3
     description: High-Speed WAN Interface Card Slot
-  - name: Slot 1/0
-    label: '1'
-    position: 1/0
-    description: Single-wide / Extended single-wide Network Module Slot
+power-ports:
+  - name: PSU0
+    type: iec-60320-c6
+    maximum_draw: 120

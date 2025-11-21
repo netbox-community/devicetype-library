@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: ISR2821
-slug: cisco-isr2821
-part_number: CISCO2821
+model: ISR2851
+slug: cisco-isr2851
+part_number: CISCO2851
 u_height: 2
 is_full_depth: true
 weight: 11.4
@@ -18,8 +18,8 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    allocated_draw: 120
-    maximum_draw: 240
+    allocated_draw: 180
+    maximum_draw: 360
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
