@@ -8,11 +8,11 @@ is_full_depth: true
 console-ports:
   - name: Con 0
     type: rj-45
-power-ports:
-  - name: PS0
-    type: iec-60320-c14
+module-bays:
   - name: PS1
-    type: iec-60320-c14
+    position: PS1
+  - name: PS2
+    position: PS2
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
