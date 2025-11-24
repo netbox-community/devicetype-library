@@ -4,14 +4,7 @@ model: Catalyst 6509
 slug: cisco-ws-c6509
 part_number: WS-C6509
 u_height: 14
-is_full_depth: false
-console-ports:
-  - name: con0
-    type: rj-45
-interfaces:
-  - name: FastEthernet1
-    type: 100base-tx
-    mgmt_only: true
+is_full_depth: true
 module-bays:
   - name: Slot 1
     position: '1'
@@ -32,6 +25,6 @@ module-bays:
   - name: Slot 9
     position: '9'
   - name: PS1
-    position: '1'
+    position: 'PS1'
   - name: PS2
-    position: '2'
+    position: 'PS2'
