@@ -40,10 +40,10 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet0/0/7
     type: 10gbase-x-sfpp
-power-ports:
-  - name: P0
-    type: iec-60320-c14
-    maximum_draw: 1100
-  - name: P1
-    type: iec-60320-c14
-    maximum_draw: 1100
+module-bays:
+  - name: PSU0
+    position: PSU0
+  - name: PSU1
+    position: PSU1
+  - name: Bay 1
+    position: '1'
