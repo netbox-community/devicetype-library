@@ -1,0 +1,56 @@
+---
+manufacturer: Huawei
+model: 2288H-V6
+slug: huawei-2288h-v6
+part_number: H22H-06
+airflow: front-to-rear
+comments: '[Technical Specification 2288H V6 (32DIMM DDR4, 2CPU Intel Xeon 2/3 series, 2PSU)](https://support.huawei.com/enterprise/en/intelligent-servers/2288h-v6-pid-23692812)'
+u_height: 2
+is_full_depth: true
+weight: 20
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: OCP2
+    position: OCP2
+    label: OCP 3.0
+  - name: PCIe1
+    position: PCIe1
+    label: primary riser
+  - name: PCIe2
+    position: PCIe2
+    label: primary riser
+  - name: PCIe3
+    position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: secondary riser
+  - name: PCIe5
+    position: PCIe5
+    label: secondary riser
+  - name: PCIe6
+    position: PCIe6
+    label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
+  - name: PCIe9
+    position: PCIe9
+    label: tertiary riser
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
