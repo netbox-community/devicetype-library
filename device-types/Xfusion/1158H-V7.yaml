@@ -1,7 +1,7 @@
 ---
 manufacturer: Xfusion
 model: 1158H-V7
-slug: xfusion-1288h-v7
+slug: xfusion-1158h-v7
 airflow: front-to-rear
 comments: '[Technical Specification 1158H V7 (24DIMM DDR5, 1CPU AMD Genoa, 2PSU)](https://www.xfusion.com/en/product/rack-server/fusionserver-1158h-v7)'
 u_height: 1
@@ -18,9 +18,6 @@ module-bays:
     position: PSU2
   - name: OCP1
     position: OCP1
-    label: OCP 3.0
-  - name: OCP2
-    position: OCP2
     label: OCP 3.0
   - name: PCIe1
     position: PCIe1
