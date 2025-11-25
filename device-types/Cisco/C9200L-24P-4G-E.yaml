@@ -11,13 +11,11 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
+module-bays:
+  - name: PS-0
+    position: PS-0
   - name: PS-1
-    type: iec-60320-c14
-    maximum_draw: 600
-  - name: PS-2
-    type: iec-60320-c14
-    maximum_draw: 600
+    position: PS-1
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
