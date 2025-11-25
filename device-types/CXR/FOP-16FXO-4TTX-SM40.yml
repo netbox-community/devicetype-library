@@ -1,0 +1,67 @@
+---
+manufacturer: CXR
+model: Modem Fibre Optique 16 voies FXO/SC - FOP-16FXO-4TTX-SM40
+slug: cxr-fop-16fxo-4ttx-sm40
+part_number: FOP-16FXO-4TTX-SM40
+airflow: passive
+weight: 2.5
+is_full_depth: false
+weight_unit: kg
+u_height: 1.0
+comments: '[Modem Fibre Optique 16 voies FXO/SC](https://www.cxr.com/documents/brochures/fop_32fxo_s_4ttx.pdf)'
+power-ports:
+  - name: Power
+    type: iec-60320-c6
+    maximum_draw: 5
+console-ports:
+  - name: USB
+    type: usb-b
+  - name: RS232
+    type: rj-45
+interfaces:
+  - name: Ethernet LAN
+    type: 100base-tx
+  - name: Ethernet 1
+    type: 100base-tx
+  - name: Ethernet 2
+    type: 100base-tx
+  - name: Ethernet 3
+    type: 100base-tx
+  - name: Ethernet 4
+    type: 100base-tx
+console-server-ports:
+  - name: ANALOG 01
+    type: rj-45
+  - name: ANALOG 02
+    type: rj-45
+  - name: ANALOG 03
+    type: rj-45
+  - name: ANALOG 04
+    type: rj-45
+  - name: ANALOG 05
+    type: rj-45
+  - name: ANALOG 06
+    type: rj-45
+  - name: ANALOG 07
+    type: rj-45
+  - name: ANALOG 08
+    type: rj-45
+  - name: ANALOG 09
+    type: rj-45
+  - name: ANALOG 10
+    type: rj-45
+  - name: ANALOG 11
+    type: rj-45
+  - name: ANALOG 12
+    type: rj-45
+  - name: ANALOG 13
+    type: rj-45
+  - name: ANALOG 14
+    type: rj-45
+  - name: ANALOG 15
+    type: rj-45
+  - name: ANALOG 16
+    type: rj-45
+rear-ports:
+  - name: LAN-FO
+    type: sc-upc
