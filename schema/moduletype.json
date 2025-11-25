@@ -73,7 +73,8 @@
             }
         },
         "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "comments": {
             "type": "string"
