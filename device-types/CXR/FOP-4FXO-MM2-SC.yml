@@ -1,0 +1,25 @@
+---
+manufacturer: CXR
+model: Modem Fibre Optique 4 voies FXO/SC - FOP-4FXO-MM2-SC
+slug: cxr-fop-4fxo-mm2-sc
+part_number: fop-4fxo-mm2-sc
+airflow: passive
+is_full_depth: false
+weight: 0.5
+weight_unit: kg
+u_height: 0.0
+comments: '[Modem Fibre Optique 4 voies FXO/SC](https://www.cxr.com/documents/brochures/fop-4fxo-mm2-sc.pdf)'
+power-ports:
+  - name: Power
+    type: iec-60320-c6
+    maximum_draw: 5
+interfaces:
+  - name: Ethernet 1
+    type: 100base-tx
+front-ports:
+  - name: Phone
+    type: 8p8c
+    rear_port: LAN
+rear-ports:
+  - name: LAN
+    type: sc-upc
