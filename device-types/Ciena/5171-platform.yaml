@@ -113,27 +113,13 @@ interfaces:
 module-bays:
   - name: PS A
     position: A
-    description: |
-      170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
-      170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+    description: 170-0310-900 5171 DC or 170-0311-900 5171 AC
   - name: PS B
     position: B
-    description: |
-      170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
-      170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+    description: 170-0310-900 5171 DC or 170-0311-900 5171 AC
   - name: Module 1
     position: '1'
-    description: |
-      Accepts:
-      * 170-0312-900 2x100G QSFP28 FRU supporting up to 100GbE
-      * 170-0313-900 2x100G CFP2-DCO FRU supporting up to 100GbE
-      * 170-0314-900 1x200G CFP2-DCO FRU supporting up to 200GbE
-      * 170-0315-900 CFP2/QSFP28 combo FRU supporting up to 100GbE
+    description: 170-0312-900 2x100G QSFP28/170-0313-900 2x100G CFP2-DCO/170-0314-900 1x200G CFP2-DCO/170-0315-900 CFP2/QSFP28
   - name: Module 2
     position: '2'
-    description: |
-      Accepts:
-      * 170-0312-900 2x100G QSFP28 FRU supporting up to 100GbE
-      * 170-0313-900 2x100G CFP2-DCO FRU supporting up to 100GbE
-      * 170-0314-900 1x200G CFP2-DCO FRU supporting up to 200GbE
-      * 170-0315-900 CFP2/QSFP28 combo FRU supporting up to 100GbE
+    description: 170-0312-900 2x100G QSFP28/170-0313-900 2x100G CFP2-DCO/170-0314-900 1x200G CFP2-DCO/170-0315-900 CFP2/QSFP28
