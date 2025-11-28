@@ -1,12 +1,12 @@
 ---
 manufacturer: Xfusion
-model: 5885H-V7-8drives
-slug: xfusion-5885h-v7-8drives
+model: 5288-V7
+slug: xfusion-5288-v7
 airflow: front-to-rear
-comments: '[Technical Specification 5885H V7 8 drives(64DIMM DDR5, 4CPU Intel Xeon 4 series, 4PSU, 8*2.5" SATA/NVME)](https://www.xfusion.com/en/product/rack-server/fusionserver-5885h-v7)'
+comments: '[Technical Specification 5288 V7 (32DIMM DDR5, 2CPU Intel Xeon 4 or 5 series, 2PSU)](https://www.xfusion.com/en/product/rack-server/fusionserver-5288-v7)'
 u_height: 4
 is_full_depth: true
-weight: 52.3
+weight: 51
 weight_unit: kg
 console-ports:
   - name: Serial
@@ -16,12 +16,11 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
-  - name: PSU3
-    position: PSU3
-  - name: PSU4
-    position: PSU4
   - name: OCP1
     position: OCP1
+    label: OCP 3.0
+  - name: OCP2
+    position: OCP2
     label: OCP 3.0
   - name: PCIe1
     position: PCIe1
@@ -43,28 +42,6 @@ module-bays:
     position: PCIe9
   - name: PCIe10
     position: PCIe10
-  - name: PCIe11
-    position: PCIe11
-  - name: PCIe12
-    position: PCIe12
-  - name: PCIe13
-    position: PCIe13
-  - name: PCIe14
-    position: PCIe14
-  - name: PCIe15
-    position: PCIe15
-  - name: PCIe16
-    position: PCIe16
-  - name: PCIe17
-    position: PCIe17
-  - name: PCIe18
-    position: PCIe18
-  - name: PCIe19
-    position: PCIe19
-  - name: PCIe20
-    position: PCIe20
-  - name: PCIe21
-    position: PCIe21
 interfaces:
   - name: Eth-1
     type: 10gbase-t

@@ -13,18 +13,43 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: OCP2
+    position: OCP2
+    label: OCP 3.0
+  - name: PCIe1
+    position: PCIe1
+    label: primary riser
+  - name: PCIe2
+    position: PCIe2
+    label: primary riser
+  - name: PCIe3
+    position: PCIe3
+    label: primary riser
+  - name: PCIe4
+    position: PCIe4
+    label: secondary riser
+  - name: PCIe5
+    position: PCIe5
+    label: secondary riser
+  - name: PCIe6
+    position: PCIe6
+    label: secondary riser
+  - name: PCIe7
+    position: PCIe7
+    label: tertiary riser
+  - name: PCIe8
+    position: PCIe8
+    label: tertiary riser
+  - name: PCIe9
+    position: PCIe9
+    label: tertiary riser
 console-ports:
   - name: Serial
     type: rj-45
 interfaces:
-  - name: Net 1
-    type: 10gbase-x-sfpp
-  - name: Net 2
-    type: 10gbase-x-sfpp
-  - name: Net 3
-    type: 1000base-t
-  - name: Net 4
-    type: 1000base-t
   - name: mgmt
     type: 1000base-t
     mgmt_only: true
