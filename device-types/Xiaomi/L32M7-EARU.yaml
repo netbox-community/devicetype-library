@@ -1,0 +1,30 @@
+---
+manufacturer: Xiaomi
+model: L32M7-EARU
+slug: xiaomi-l32m7-earu
+part_number: Mi TV A2
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 3.9
+weight_unit: kg
+interfaces:
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
+  - name: Bluetooth 5.0
+    type: ieee802.15.1
+  - name: ethernet
+    label: Network
+    type: 100base-tx
+power-ports:
+  - name: AC
+    label: AC
+    type: dc-terminal
+    maximum_draw: 50
+    allocated_draw: 50
+    description: 100 - 240V AC
