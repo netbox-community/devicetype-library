@@ -1,0 +1,86 @@
+---
+manufacturer: Cisco
+model: N9324C-SE1U
+part_number: N9324C-SE1U
+slug: cisco-n9324c-se1u
+u_height: 1
+is_full_depth: true
+weight: 36.8
+weight_unit: lb
+comments: '[Cisco N9300 Smart Switches Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/9300-series-smart-switches/n9300-series-smart-switch-ds.html)'
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb1
+    type: usb-c
+interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/2
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/3
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/4
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/5
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/6
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/7
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/8
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/9
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/10
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/11
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/12
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/13
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/14
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/15
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/16
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/17
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/18
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/19
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/20
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/21
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/22
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/23
+    type: 100gbase-x-qsfp28
+  - name: Ethernet1/24
+    type: 100gbase-x-qsfp28
+  - name: mgmt0
+    type: 1000base-x-sfp
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    label: Power Supply 1
+    position: PS1
+  - name: PS2
+    label: Power Supply 2
+    position: PS2
+  - name: Fan 1
+    position: F1
+  - name: Fan 2
+    position: F2
+  - name: Fan 3
+    position: F3
+  - name: Fan 4
+    position: F4
+  - name: Fan 5
+    position: F5
+  - name: Fan 6
+    position: F6
