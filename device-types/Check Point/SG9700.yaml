@@ -19,28 +19,28 @@ console-ports:
 interfaces:
   - name: eth1
     label: '1'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: eth2
     label: '2'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: eth3
     label: '3'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: eth4
     label: '4'
-    type: 1000base-t
+    type: 10gbase-x-sfpp
   - name: eth5
     label: '5'
-    type: 10gbase-x-sfpp
+    type: 1000base-t
   - name: eth6
     label: '6'
-    type: 10gbase-x-sfpp
+    type: 1000base-t
   - name: eth7
     label: '7'
-    type: 10gbase-x-sfpp
+    type: 1000base-t
   - name: eth8
     label: '8'
-    type: 10gbase-x-sfpp
+    type: 1000base-t
   - name: Sync
     label: SYNC
     type: 1000base-t
