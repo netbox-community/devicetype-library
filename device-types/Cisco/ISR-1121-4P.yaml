@@ -1,0 +1,52 @@
+---
+manufacturer: Cisco
+model: ISR 1121-4P
+part_number: C1121-4P
+slug: cisco-isr-1121-4p
+u_height: 1
+is_full_depth: false
+weight: 1.58
+weight_unit: kg
+comments: 'Data sheet: [Cisco 1000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html#Cisco112xISRsBringingmodularityforcellulartechnology)'
+
+interfaces:
+  # === WAN ===
+
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+    description: WAN SFP (Combo with GE0/0/1)
+
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+    description: WAN RJ-45 (Combo with GE0/0/0)
+
+  # === LAN (4 ports) ===
+
+  - name: GigabitEthernet0/1/0
+    type: 1000base-t
+    description: LAN Port 1
+
+  - name: GigabitEthernet0/1/1
+    type: 1000base-t
+    description: LAN Port 2
+
+  - name: GigabitEthernet0/1/2
+    type: 1000base-t
+    description: LAN Port 3
+
+  - name: GigabitEthernet0/1/3
+    type: 1000base-t
+    description: LAN Port 4
+
+console-ports:
+  - name: con0
+    type: rj-45
+
+  - name: usb
+    type: usb-micro-b
+
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 20
+
