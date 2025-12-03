@@ -7,46 +7,69 @@ u_height: 1
 is_full_depth: false
 weight: 1.58
 weight_unit: kg
-comments: 'Data sheet: [Cisco 1000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html#Cisco112xISRsBringingmodularityforcellulartechnology)'
+comments: >
+  Supports dual power input: 12V DC and -53.5V PoE.
+  LAN ports provide PoE OUT (2x 373mA or 1x 560mA).
+  WAN Combo port supports either RJ-45 or SFP.
+  Data sheet:
+  https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html
 
 interfaces:
-  # === WAN ===
-
+  # === WAN COMBO ===
   - name: GigabitEthernet0/0/0
-    type: 1000base-x-sfp
-    description: WAN SFP (Combo with GE0/0/1)
+    type: 1000base-t
+    description: WAN RJ-45 (Combo with GE0/0/1)
 
   - name: GigabitEthernet0/0/1
-    type: 1000base-t
-    description: WAN RJ-45 (Combo with GE0/0/0)
+    type: 1000base-x-sfp
+    description: WAN SFP (Combo with GE0/0/0)
 
-  # === LAN (4 ports) ===
-
+  # === LAN with PoE OUT ===
   - name: GigabitEthernet0/1/0
     type: 1000base-t
-    description: LAN Port 1
+    description: LAN Port 1 (PoE OUT)
 
   - name: GigabitEthernet0/1/1
     type: 1000base-t
-    description: LAN Port 2
+    description: LAN Port 2 (PoE OUT)
 
   - name: GigabitEthernet0/1/2
     type: 1000base-t
-    description: LAN Port 3
+    description: LAN Port 3 (PoE OUT)
 
   - name: GigabitEthernet0/1/3
     type: 1000base-t
-    description: LAN Port 4
+    description: LAN Port 4 (PoE OUT)
 
 console-ports:
   - name: con0
     type: rj-45
 
-  - name: usb
-    type: usb-micro-b
-
 power-ports:
   - name: PSU0
     type: dc-terminal
-    maximum_draw: 20
+    maximum_draw: 30
+    description: 12V DC Input
 
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 40
+    description: -53.5V PoE Input
+
+front-ports:
+  - name: USB-C
+    type: usb-c
+    description: USB Type-C (recovery/service)
+
+  - name: USB-A
+    type: usb-a
+    description: USB 3.0 Type-A
+
+rear-ports:
+  - name: Ground
+    type: other
+    description: Protective Earth Ground
+
+device-bays:
+  - name: Kensington
+    description: Physical security lock slot
