@@ -1,0 +1,87 @@
+---
+manufacturer: Fortinet
+model: FortiSwitch 3032E
+slug: fortinet-fs-3032e
+part_number: FS-3032E
+u_height: 1
+weight: 8.37
+weight_unit: kg
+is_full_depth: true
+comments: '[Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Data_Center_Series.pdf)  [Quickstart](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/002ca2c6-586f-11ec-bdf2-fa163e15d75b/FortiSwitch-1024E-Series-QSG.pdf)'
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: port1
+    type: 100gbase-x-qsfp28
+  - name: port2
+    type: 100gbase-x-qsfp28
+  - name: port3
+    type: 100gbase-x-qsfp28
+  - name: port4
+    type: 100gbase-x-qsfp28
+  - name: port5
+    type: 100gbase-x-qsfp28
+  - name: port6
+    type: 100gbase-x-qsfp28
+  - name: port7
+    type: 100gbase-x-qsfp28
+  - name: port8
+    type: 100gbase-x-qsfp28
+  - name: port9
+    type: 100gbase-x-qsfp28
+  - name: port10
+    type: 100gbase-x-qsfp28
+  - name: port11
+    type: 100gbase-x-qsfp28
+  - name: port12
+    type: 100gbase-x-qsfp28
+  - name: port13
+    type: 100gbase-x-qsfp28
+  - name: port14
+    type: 100gbase-x-qsfp28
+  - name: port15
+    type: 100gbase-x-qsfp28
+  - name: port16
+    type: 100gbase-x-qsfp28
+  - name: port17
+    type: 100gbase-x-qsfp28
+  - name: port18
+    type: 100gbase-x-qsfp28
+  - name: port19
+    type: 100gbase-x-qsfp28
+  - name: port20
+    type: 100gbase-x-qsfp28
+  - name: port21
+    type: 100gbase-x-qsfp28
+  - name: port22
+    type: 100gbase-x-qsfp28
+  - name: port23
+    type: 100gbase-x-qsfp28
+  - name: port24
+    type: 100gbase-x-qsfp28
+  - name: port25
+    type: 100gbase-x-qsfp28
+  - name: port26
+    type: 100gbase-x-qsfp28
+  - name: port27
+    type: 100gbase-x-qsfp28
+  - name: port28
+    type: 100gbase-x-qsfp28
+  - name: port29
+    type: 100gbase-x-qsfp28
+  - name: port30
+    type: 100gbase-x-qsfp28
+  - name: port31
+    type: 100gbase-x-qsfp28
+  - name: port32
+    type: 100gbase-x-qsfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
