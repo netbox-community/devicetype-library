@@ -8,10 +8,10 @@ is_full_depth: false
 weight: 1.58
 weight_unit: kg
 comments: >
-  Supports dual power input: 12V DC and -53.5V PoE.
-  LAN ports provide PoE OUT (2x 373mA or 1x 560mA).
-  WAN Combo port supports either RJ-45 or SFP.
-  Data sheet:
+  Dual power input: 12V DC and -53.5V DC (PoE-IN).
+  LAN ports provide PoE-OUT (2x 373 mA or 1x 560 mA).
+  WAN combo port supports either RJ-45 or SFP.
+  Datasheet:
   https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html
 
 interfaces:
@@ -49,27 +49,30 @@ power-ports:
   - name: PSU0
     type: dc-terminal
     maximum_draw: 30
-    description: 12V DC Input
+    description: 12V DC input
 
   - name: PSU1
     type: dc-terminal
     maximum_draw: 40
-    description: -53.5V PoE Input
+    description: -53.5V DC (PoE-IN)
 
-front-ports:
+inventory-items:
   - name: USB-C
-    type: usb-c
+    manufacturer: Cisco
+    part_number: internal
     description: USB Type-C (recovery/service)
 
   - name: USB-A
-    type: usb-a
+    manufacturer: Cisco
+    part_number: internal
     description: USB 3.0 Type-A
 
-rear-ports:
   - name: Ground
-    type: other
+    manufacturer: Cisco
+    part_number: internal
     description: Protective Earth Ground
 
-device-bays:
   - name: Kensington
+    manufacturer: Cisco
+    part_number: internal
     description: Physical security lock slot
