@@ -1,0 +1,133 @@
+---
+manufacturer: Cisco
+model: Catalyst 9300-24UXB
+part_number: C9300-24UXB
+slug: cisco-c9300-24uxb
+u_height: 1
+is_full_depth: true
+weight: 8.25
+weight_unit: kg
+airflow: front-to-side
+comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/3
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/4
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/5
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/6
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/7
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/8
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/9
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/10
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/11
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/12
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/13
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/14
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/15
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/16
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/17
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/18
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/19
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/20
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/21
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/22
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/23
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/24
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
+module-bays:
+  - name: Network Module
+    position: '1'
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN 1
+    position: '1'
+  - name: FAN 2
+    position: '2'
+  - name: FAN 3
+    position: '3'
