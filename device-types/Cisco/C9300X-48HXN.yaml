@@ -1,6 +1,6 @@
 ---
 manufacturer: Cisco
-model: C9300X-48HXN
+model: Catalyst 9300X-48HXN
 part_number: C9300X-48HXN
 slug: cisco-c9300x-48hxn
 airflow: front-to-rear
@@ -15,36 +15,36 @@ console-ports:
   - name: usb
     type: usb-mini-b
 interfaces:
-  - name: TenGigabitEthernet1/0/1
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/1
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/2
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/2
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/3
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/3
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/4
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/4
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/5
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/5
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/6
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/6
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/7
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/7
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: TenGigabitEthernet1/0/8
-    type: 10gbase-t
+  - name: FiveGigabitEthernet1/0/8
+    type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
   - name: FiveGigabitEthernet1/0/9
@@ -175,36 +175,36 @@ interfaces:
     type: 5gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/41
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/41
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/42
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/42
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/43
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/43
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/44
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/44
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/45
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/45
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/46
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/46
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/47
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/47
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
-  - name: FiveGigabitEthernet1/0/48
-    type: 5gbase-t
+  - name: TenGigabitEthernet1/0/48
+    type: 10gbase-t
     poe_mode: pse
     poe_type: type4-ieee802.3bt
   - name: StackPort1/1
