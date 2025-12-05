@@ -13,9 +13,9 @@ console-ports:
     type: usb-mini-b
 module-bays:
   - name: PS-0
-    position: PS-0
+    position: '0'
   - name: PS-1
-    position: PS-1
+    position: '1'
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t

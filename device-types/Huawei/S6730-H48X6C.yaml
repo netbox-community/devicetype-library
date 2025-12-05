@@ -13,9 +13,9 @@ console-ports:
     type: rj-45
 module-bays:
   - name: PSU1
-    position: PSU1
+    position: '1'
   - name: PSU2
-    position: PSU2
+    position: '2'
 interfaces:
   - name: MEth0/0/1
     type: 1000base-t

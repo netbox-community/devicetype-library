@@ -102,10 +102,10 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type1-ieee802.3af
-  - name: GigabitEthernet0/25
-    type: 1000base-x-sfp
-  - name: GigabitEthernet0/26
-    type: 1000base-x-sfp
+  - name: TenGigabitEthernet0/1
+    type: 10gbase-x-x2
+  - name: TenGigabitEthernet0/2
+    type: 10gbase-x-x2
 console-ports:
   - name: con0
     type: rj-45

@@ -8,15 +8,11 @@ is_full_depth: true
 console-ports:
   - name: Con 0
     type: rj-45
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    allocated_draw: 670
-    maximum_draw: 770
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    allocated_draw: 670
-    maximum_draw: 770
+    position: '2'
 interfaces:
   - name: Management0/0
     type: 1000base-t
