@@ -5,6 +5,8 @@ part_number: C9200-48P
 slug: cisco-c9200-48p
 u_height: 1
 is_full_depth: false
+weight: 5.5
+weight_unit: kg
 airflow: front-to-rear
 comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 console-ports:
@@ -216,6 +218,6 @@ module-bays:
   - name: StackPort1/2
     position: 1/2
   - name: PS-0
-    position: PS-0
+    position: '0'
   - name: PS-1
-    position: PS-1
+    position: '1'
