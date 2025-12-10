@@ -1,0 +1,44 @@
+---
+manufacturer: HPE
+model: StoreEasy 1460 Gen10
+slug: hpe-storeeasy-1460-gen10
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+part_number: to_be_filled
+front_image: true
+rear_image: true
+comments: '[HPE StoreEasy 1460 Storage](https://support.hpe.com/hpesc/public/docDisplay?docId=a00076208en_us&page=GUID-B01C0612-BBDB-4439-A08A-E688379356C4.html)'
+#maximum weight - Four drives, two power supplies and processors installed
+weight: 16.78
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Embedded ALOM / Flexible LOM
+    position: ALOM
+    description: 'rear: bottom left corner. Advanced LOM / Flexible LOM. Interfaces numbered right to left. ALOM cards available e.g. 4x1Gig, 2x10Gig, 4x10Gig,
+      2x25Gig, 2x40G'
+  - name: Embedded LOM
+    position: LOM
+    description: 'rear: right side of the ILO labeled port. Interfaces numbered left to right. LOM port, only 4-Gig Ethernet cards available if purchased.'
+  - name: PCI-E Slot 1
+    position: PCIe1
+    description: 'rear: upper left corner, full/standard-height'
+  - name: PCI-E Slot 2
+    position: PCIe2
+    description: 'rear: upper middle slot, half-height / low-profile'
+  - name: PCI-E Slot 3
+    position: PCIe3
+    description: 'rear: upper right slot, half-height / low-profile'
+  - name: PSU Bay 1
+    position: PSU1
+    description: 'rear: right PSU slot. Type: HPE Flexible Slot (Flex Slot)'
+  - name: PSU Bay 2
+    position: PSU2
+    description: 'rear: left PSU slot. Type: HPE Flexible Slot (Flex Slot)'
