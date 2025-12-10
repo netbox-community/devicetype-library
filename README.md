@@ -1,4 +1,4 @@
-# NetBox Device Type Library
+# NetBox Device Type Library - REGAL
 
 ## About this Library
 
