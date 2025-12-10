@@ -1,0 +1,36 @@
+---
+manufacturer: BiZone
+model: sdwan-ce3000d-2t4xs
+slug: bizone-sdwan-ce3000d-2t4xs
+part_number: sdwan-ce3000d-2t4xs
+u_height: 4
+is_full_depth: false
+weight: 13
+weight_unit: kg
+comments: '[SD-wan Data Sheet](https://bi.zone/catalog/products/secure-sd-wan/?tb=tab4)'
+airflow: front-to-rear
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 850
+    allocated_draw: 300
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 850
+    allocated_draw: 300
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 25gbase-x-sfp28
+  - name: port4
+    type: 25gbase-x-sfp28
+  - name: port5
+    type: 25gbase-x-sfp28
+  - name: port6
+    type: 25gbase-x-sfp28
