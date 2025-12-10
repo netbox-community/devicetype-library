@@ -1,0 +1,32 @@
+---
+manufacturer: BiZone
+model: sdwan-ce100n-4t1sm
+slug: bizone-sdwan-ce100n-4t1sm
+part_number: sdwan-ce100n-4t1sm
+u_height: 1.0
+is_full_depth: false
+weight: 1.4
+weight_unit: kg
+comments: '[SD-wan Data Sheet](https://bi.zone/catalog/products/secure-sd-wan/?tb=tab4)'
+airflow: passive
+power-ports:
+  - name: PSU 12v 3a
+    type: dc-terminal
+    maximum_draw: 40
+    allocated_draw: 30
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port1
+    type: 1000base-x-sfp
+  - name: LTE0
+    type: lte
