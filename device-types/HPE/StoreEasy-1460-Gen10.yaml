@@ -21,15 +21,23 @@ interfaces:
 module-bays:
   - name: Embedded ALOM / Flexible LOM
     position: ALOM
+    description: 'rear: bottom left corner. Advanced LOM / Flexible LOM. Interfaces numbered right to left. ALOM cards available e.g. 4x1Gig, 2x10Gig, 4x10Gig,
+      2x25Gig, 2x40G'
   - name: Embedded LOM
     position: LOM
+    description: 'rear: right side of the ILO labeled port. Interfaces numbered left to right. LOM port, only 4-Gig Ethernet cards available if purchased.'
   - name: PCI-E Slot 1
     position: PCIe1
+    description: 'rear: upper left corner, full/standard-height'
   - name: PCI-E Slot 2
     position: PCIe2
+    description: 'rear: upper middle slot, half-height / low-profile'
   - name: PCI-E Slot 3
     position: PCIe3
+    description: 'rear: upper right slot, half-height / low-profile'
   - name: PSU Bay 1
     position: PSU1
+    description: 'rear: right PSU slot. Type: HPE Flexible Slot (Flex Slot)'
   - name: PSU Bay 2
     position: PSU2
+    description: 'rear: left PSU slot. Type: HPE Flexible Slot (Flex Slot)'
