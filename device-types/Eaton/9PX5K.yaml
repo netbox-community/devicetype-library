@@ -1,0 +1,47 @@
+---
+manufacturer: Eaton
+model: 9PX5K
+slug: eaton-9px5k
+part_number: 9PX5K
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+weight: 106.0
+weight_unit: lb
+comments: 9PX5K 5kVA 208V Rack/Tower UPS with Gigabit Network Card included
+console-ports:
+  - name: Serial
+    type: de-9
+    label: RS232
+  - name: USB management
+    type: usb-b
+    label: USB
+power-ports:
+  - name: AC Source
+    type: nema-l6-30p
+    maximum_draw: 5000
+power-outlets:
+  - name: Outlet 1
+    type: nema-l6-20r
+    power_port: AC Source
+  - name: Outlet 2
+    type: nema-l6-20r
+    power_port: AC Source
+  - name: Outlet 3
+    type: nema-l6-30r
+    power_port: AC Source
+  - name: Outlet 4
+    type: nema-l6-30r
+    power_port: AC Source
+  - name: Hardwired Output
+    type: hardwired
+    power_port: AC Source
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+    label: Network Card
+module-bays:
+  - name: MiniSlot expansion port
+    label: MS
+    position: '1'
