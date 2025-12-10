@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: IR1833-K9
 part_number: IR1833-K9
@@ -7,32 +8,31 @@ is_full_depth: false
 weight: 2.4
 weight_unit: kg
 airflow: passive
+comments: 'IR1833 rugged router. 4x LAN, combo WAN, WiFi6 and 5G cellular (0/4/0 & 0/4/1). airflow: passive'
 console-ports:
-- name: Console-USB
-  type: usb-micro-b
+  - name: Console-USB
+    type: usb-micro-b
 power-ports:
-- name: DC-Input
-  type: dc-terminal
-  maximum_draw: 71
-  allocated_draw: 23
+  - name: DC-Input
+    type: dc-terminal
+    maximum_draw: 71
+    allocated_draw: 23
 interfaces:
-- name: GigabitEthernet0/0/0
-  type: 1000base-t
-- name: GigabitEthernet0/0/1
-  type: 1000base-t
-- name: GigabitEthernet0/0/2
-  type: 1000base-t
-- name: GigabitEthernet0/0/3
-  type: 1000base-t
-- name: GigabitEthernet0/1/0
-  type: 1000base-t
-- name: GigabitEthernet0/1/1
-  type: 1000base-t
-- name: Wlan0/3/0
-  type: wifi6
-- name: Cellular0/4/0
-  type: 5g
-- name: Cellular0/4/1
-  type: 5g
-comments: 'IR1833 rugged router. 4x LAN, combo WAN, WiFi6 and 5G cellular (0/4/0 &
-  0/4/1). airflow: passive'
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/1/0
+    type: 1000base-t
+  - name: GigabitEthernet0/1/1
+    type: 1000base-t
+  - name: Wlan0/3/0
+    type: wifi6
+  - name: Cellular0/4/0
+    type: 5g
+  - name: Cellular0/4/1
+    type: 5g

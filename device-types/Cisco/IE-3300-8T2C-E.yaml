@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: IE-3300-8T2C-E
 part_number: IE-3300-8T2C-E
@@ -7,33 +8,34 @@ is_full_depth: false
 weight: 0,93
 weight_unit: kg
 airflow: passive
-console-ports:
-- name: con 0
-  type: rj-45
-- name: usb
-  type: usb-mini-b
-interfaces:
-- name: GigabitEthernet1/1
-  type: 1000base-t
-- name: GigabitEthernet1/2
-  type: 1000base-t
-- name: GigabitEthernet1/3
-  type: 1000base-t
-- name: GigabitEthernet1/4
-  type: 1000base-t
-- name: GigabitEthernet1/5
-  type: 1000base-t
-- name: GigabitEthernet1/6
-  type: 1000base-t
-- name: GigabitEthernet1/7
-  type: 1000base-t
-- name: GigabitEthernet1/8
-  type: 1000base-t
-- name: GigabitEthernet1/9
-  type: 1000base-t
-- name: GigabitEthernet1/10
-  type: 1000base-t
-device-bays:
-- name: Module-Slot
-  type: ie3300-module
 comments: 'IE-3300 modular switch. airflow: passive'
+console-ports:
+    - name: con 0
+      type: rj-45
+    - name: usb
+      type: usb-mini-b
+interfaces:
+    - name: GigabitEthernet1/1
+      type: 1000base-t
+    - name: GigabitEthernet1/2
+      type: 1000base-t
+    - name: GigabitEthernet1/3
+      type: 1000base-t
+    - name: GigabitEthernet1/4
+      type: 1000base-t
+    - name: GigabitEthernet1/5
+      type: 1000base-t
+    - name: GigabitEthernet1/6
+      type: 1000base-t
+    - name: GigabitEthernet1/7
+      type: 1000base-t
+    - name: GigabitEthernet1/8
+      type: 1000base-t
+    - name: GigabitEthernet1/9
+      type: 1000base-t
+    - name: GigabitEthernet1/10
+      type: 1000base-t
+device-bays:
+    - name: Module-Slot
+      type: ie3300-module
+
