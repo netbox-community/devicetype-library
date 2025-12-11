@@ -1,0 +1,40 @@
+---
+manufacturer: Cisco
+model: ISR 1121-4P
+part_number: C1121-4P
+slug: cisco-isr-1121-4p
+u_height: 1
+is_full_depth: false
+weight: 1.58
+weight_unit: kg
+airflow: passive
+front_image: true
+rear_image: true
+comments: |
+  LAN ports provide PoE-OUT (2x 373 mA or 1x 560 mA).
+  WAN combo port supports either RJ-45 or SFP.
+  Datasheet: https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+    description: WAN RJ-45 (Combo with GE0/0/1)
+  - name: GigabitEthernet0/0/1
+    type: 1000base-x-sfp
+    description: WAN SFP (Combo with GE0/0/0)
+  - name: GigabitEthernet0/1/0
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet0/1/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet0/1/2
+    type: 1000base-t
+  - name: GigabitEthernet0/1/3
+    type: 1000base-t
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 115
+    description: 12V DC input
