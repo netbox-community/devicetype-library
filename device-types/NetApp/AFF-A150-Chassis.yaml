@@ -1,0 +1,25 @@
+---
+manufacturer: NetApp
+model: AFF A150
+slug: netapp-aff-a150
+part_number: A150
+description: NetApp AFF A150 Chassis
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+airflow: front-to-rear
+weight: 26
+weight_unit: kg
+subdevice_role: parent
+console-ports:
+  - name: con0
+    type: rj-45
+device-bays:
+  - name: A
+  - name: B
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
