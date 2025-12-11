@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
-model: IE3300-8P2C-E
-part_number: IE3300-8P2C-E
+model: IE3300-8P2S-E
+part_number: IE3300-8P2S-E
 slug: cisco-ie3300-8p2c-e
 u_height: 3
 is_full_depth: false
@@ -14,6 +14,15 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+    maximum_draw: 360
+    allocated_draw: 32
+  - name: DC-B
+    type: dc-terminal
+    maximum_draw: 360
+    allocated_draw: 32
 interfaces:
   - name: GigabitEthernet1/1
     type: 1000base-t
