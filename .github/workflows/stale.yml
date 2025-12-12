@@ -11,7 +11,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v10
         with:
           close-pr-message: >
             This PR has been automatically closed due to lack of activity. Please reopen if you would like to to re-review it.
