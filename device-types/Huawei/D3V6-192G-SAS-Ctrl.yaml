@@ -1,0 +1,37 @@
+---
+manufacturer: Huawei
+model: D3V6-192G-SAS-Ctrl
+slug: huawei-d3v6-192g-sas-ctrl
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+module-bays:
+  - name: IOM_0
+    position: IOM_0
+  - name: IOM_1
+    position: IOM_1
+  - name: IOM_2
+    position: IOM_2
+interfaces:
+  - name: Net P2
+    type: 10gbase-x-sfpp
+  - name: Net P3
+    type: 10gbase-x-sfpp
+  - name: Net P4
+    type: 10gbase-x-sfpp
+  - name: Net P5
+    type: 10gbase-x-sfpp
+  - name: Net P6
+    type: 1000base-t
+  - name: Net P7
+    type: 1000base-t
+  - name: Net P8
+    type: 1000base-t
+  - name: Net P9
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: service
+    type: 1000base-t
+    mgmt_only: true

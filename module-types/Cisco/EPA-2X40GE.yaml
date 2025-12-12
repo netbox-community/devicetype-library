@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: EPA-2X40GE
+part_number: EPA-2X40GE
+comments: '[Two 40GE-ports that support quad small form-factor pluggable (QSFP) optical transceivers](https://www.cisco.com/c/en/us/products/collateral/application-networking-services/wide-area-application-services-waas-software/data-sheet-c78-729778.pdf)'
+interfaces:
+  - name: FortyGigE{module}/0
+    type: 40gbase-x-qsfpp
+  - name: FortyGigE{module}/1
+    type: 40gbase-x-qsfpp

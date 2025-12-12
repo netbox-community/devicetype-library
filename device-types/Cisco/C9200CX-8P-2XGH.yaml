@@ -1,0 +1,61 @@
+---
+manufacturer: Cisco
+model: Catalyst C9200CX-8P-2XGH
+part_number: C9200CX-8P-2XGH
+slug: cisco-c9200cx-8p-2xgh
+u_height: 1
+is_full_depth: false
+comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+power-ports:
+  - name: PS-1
+    type: iec-60320-c14
+    maximum_draw: 315
+weight: 2.99
+weight_unit: kg
+airflow: passive
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/1/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/1/2
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet1/1/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/1/4
+    type: 10gbase-x-sfpp
