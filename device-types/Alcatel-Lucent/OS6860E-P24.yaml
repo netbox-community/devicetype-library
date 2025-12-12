@@ -11,13 +11,11 @@ weight_unit: kg
 console-ports:
   - name: Console
     type: usb-micro-b
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 600
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 600
+    position: '2'
 interfaces:
   - name: 1/1/1
     type: 1000base-t
@@ -79,14 +77,6 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: 1/1/30
     type: 40gbase-x-qsfpp
-  - name: EMP-CHAS1
-    type: virtual
-    mgmt_only: true
-  - name: EMP-VC
-    type: virtual
-    mgmt_only: true
   - name: EMP
     type: 1000base-t
     mgmt_only: true
-  - name: Loopback0
-    type: virtual
