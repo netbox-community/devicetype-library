@@ -1,0 +1,39 @@
+---
+manufacturer: ASUS
+model: RS521A-E12-RS12U
+slug: asus-rs521a-e12-rs12u
+description: AMD Single Socket, 2U Server, 5th Generation AMD EPYC Processors with AMD 3D V-Cache technology
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 18.0
+weight_unit: kg
+comments: "See [datasheet](https://dlcdnets.asus.com/pub/ASUS/server/RS521A-E12-RS12U/DataSheet/DataSheet_RS521A-E12-RS12U_20251016.pdf).\r\n\r\nSee [OS\
+  \ Compatibility Guide](https://servers.asus.com/support/os)."
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 1600
+    description: 80 PLUS Titanium Power Supply
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 1600
+    description: 80 PLUS Titanium Power Supply
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    enabled: true
+    description: Intel I350-AM2 Gigabit
+  - name: Gig-E 2
+    type: 1000base-t
+    enabled: true
+    description: Intel I350-AM2 Gigabit
+  - name: MGMT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
