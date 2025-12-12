@@ -1,13 +1,12 @@
 ---
-manufacturer: Huawei
-model: 2288H-V6
-slug: huawei-2288h-v6
-part_number: H22H-06
+manufacturer: Xfusion
+model: 1158H-V7
+slug: xfusion-1158h-v7
 airflow: front-to-rear
-comments: '[Technical Specification 2288H V6 (32DIMM DDR4, 2CPU Intel Xeon 2/3 series, 2PSU)](https://support.huawei.com/enterprise/en/intelligent-servers/2288h-v6-pid-23692812)'
-u_height: 2
+comments: '[Technical Specification 1158H V7 (24DIMM DDR5, 1CPU AMD Genoa, 2PSU)](https://www.xfusion.com/en/product/rack-server/fusionserver-1158h-v7)'
+u_height: 1
 is_full_depth: true
-weight: 20
+weight: 18
 weight_unit: kg
 console-ports:
   - name: Serial
@@ -17,6 +16,15 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
 interfaces:
   - name: Eth-1
     type: 10gbase-t

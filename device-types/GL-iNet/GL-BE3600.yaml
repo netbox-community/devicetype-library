@@ -1,0 +1,29 @@
+---
+manufacturer: GL-iNet
+model: GL-BE3600
+slug: gl-inet-gl-be3600
+description: >-
+  Portable dual-band Wi-Fi 7 travel router with up to 2.5 GbE WAN/LAN ports,
+  2,882 Mbps (5 GHz) + 688 Mbps (2.4 GHz), touchscreen, OpenWRT, and VPN
+  support.
+part_number: GL-BE3600
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 295
+weight_unit: g
+comments: '[GL-iNet GL-BE3600](https://www.gl-inet.com/products/gl-be3600/)'
+power-ports:
+  - name: External Power Adapter
+    type: usb-c
+    maximum_draw: 30
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    label: LAN
+  - name: Port 2
+    type: 2.5gbase-t
+    label: WAN
+  - name: wlan0
+    type: ieee802.11be
+    description: IEEE 802.11a/n/ac/ax/be
