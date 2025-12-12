@@ -1,0 +1,35 @@
+---
+manufacturer: Extreme Networks
+model: nx5500-6t
+slug: extreme-networks-nx5500-6t
+part_number: nx5500-6t
+u_height: 1
+weight: 4.5
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: false
+subdevice_role: parent
+console-ports:
+  - name: Console_RJ45
+    type: rj-45
+  - name: Console_USB_1
+    type: usb-micro-b
+  - name: Console_USB_2
+    type: usb-micro-b
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 100

@@ -1,0 +1,47 @@
+---
+manufacturer: Cisco
+model: UCS C240 M8L
+slug: cisco-ucsc-c240-m8l
+part_number: UCSC-C240-M8L
+u_height: 2
+comments: '[Ciisco UCS C240 M8 LFF Rack Server Data Sheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-lff-rack-server.pdf)'
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 25
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    label: IOIOI
+    type: rj-45
+interfaces:
+  - name: CIMC
+    type: 1000base-t
+    label: o]
+    mgmt_only: true
+module-bays:
+  - name: PSU 01
+    position: '1'
+  - name: PSU 02
+    position: '2'
+  - name: RAID
+    position: RAID
+  - name: mLOM
+    position: mLOM
+  - name: PCIe slot 1
+    position: PCIe-1
+  - name: PCIe slot 2
+    position: PCIe-2
+  - name: PCIe slot 3
+    position: PCIe-3
+  - name: PCIe slot 4
+    position: PCIe-4
+  - name: PCIe slot 5
+    position: PCIe-5
+  - name: PCIe slot 6
+    position: PCIe-6
+  - name: PCIe slot 7
+    position: PCIe-7
+  - name: PCIe slot 8
+    position: PCIe-8

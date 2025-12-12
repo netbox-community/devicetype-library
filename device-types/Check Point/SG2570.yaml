@@ -1,0 +1,48 @@
+---
+manufacturer: Check Point
+model: SG2570
+slug: check-point-sg2570
+part_number: CPAP-SG2570
+u_height: 1.0
+is_full_depth: false
+weight: 0.87
+weight_unit: kg
+comments: '[Check Point Quantum Spark 2500 Data Sheet](https://www.checkpoint.com/downloads/products/quantum-spark-2500-datasheet.pdf)'
+airflow: passive
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 40
+  - name: PSU2
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 40
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+interfaces:
+  - name: WAN
+    type: 1000base-t
+  - name: DMZ
+    type: 1000base-x-sfp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: X2
+    type: 10gbase-x-sfpp
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t

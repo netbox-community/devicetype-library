@@ -1,0 +1,28 @@
+---
+manufacturer: Intel
+model: R1304WFTZSR
+slug: intel-r1304wftzsr
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 18
+weight_unit: kg
+comments: R1304WFTZSR (https://ark.intel.com/content/www/us/en/ark/products/192586/intel-server-system-r1304wftzsr.html)
+interfaces:
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: PCIe-1 x16
+    position: PCIe-1
+  - name: PCIe-2 x16
+    position: PCIe-2
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
