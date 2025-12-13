@@ -1,0 +1,28 @@
+---
+manufacturer: HW-Group
+model: HWG-STE
+slug: hw-group-hwg-ste
+airflow: passive
+weight: 0.5
+weight_unit: kg
+u_height: 0.0
+comments: '[HWg-STE (PoE)](https://www.hw-group.com/files/download/man/version/hwg-ste-man_1-0-1_en.pdf)'
+is_full_depth: false
+console-server-ports:
+  - name: Serial 0/1
+    type: rj-11
+    label: SER
+    description: RJ11 (1-Wire) port for Sensors
+  - name: Serial 0/2
+    type: rj-11
+    label: T/H
+    description: RJ11 (1-Wire) port for Sensors
+power-ports:
+  - name: Power supply 5V
+    type: other
+    maximum_draw: 1
+interfaces:
+  - name: Ethernet 0/1
+    type: 100base-tx
+    mgmt_only: true
+    label: LINK
