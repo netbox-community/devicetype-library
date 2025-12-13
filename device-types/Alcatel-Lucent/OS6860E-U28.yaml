@@ -5,6 +5,9 @@ slug: alcatel-lucent-os6860e-u28
 part_number: 903712-90
 u_height: 1
 is_full_depth: false
+airflow: front-to-rear
+weight: 5.26
+weight_unit: kg
 console-ports:
   - name: Console
     type: usb-micro-b
@@ -86,14 +89,14 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: 1/1/34
     type: 40gbase-x-qsfpp
-  - name: EMP
-    type: 1000base-t
-    mgmt_only: true
-  - name: EMP-CMMA-CHAS1
+  - name: EMP-CHAS1
     type: virtual
     mgmt_only: true
   - name: EMP-VC
     type: virtual
+    mgmt_only: true
+  - name: EMP
+    type: 1000base-t
     mgmt_only: true
   - name: Loopback0
     type: virtual
