@@ -1,12 +1,12 @@
 ---
 manufacturer: Alcatel-Lucent
-model: OS6450-24
-slug: alcatel-lucent-os6450-24
-part_number: 903772-90
+model: OS6360-P24
+slug: alcatel-lucent-os6360-p24
+part_number: 904152-90
 u_height: 1
 is_full_depth: false
 airflow: passive
-weight: 4.08
+weight: 3.2
 weight_unit: kg
 console-ports:
   - name: Console
@@ -14,8 +14,7 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 65
-    allocated_draw: 48
+    maximum_draw: 260
 interfaces:
   - name: 1/1
     type: 1000base-t
@@ -66,9 +65,10 @@ interfaces:
   - name: 1/24
     type: 1000base-t
   - name: 1/25
-    type: 10gbase-x-sfpp
+    type: 1000base-x-sfp
   - name: 1/26
+    type: 1000base-x-sfp
+  - name: 1/27
     type: 10gbase-x-sfpp
-module-bays:
-  - name: PS2
-    position: '2'
+  - name: 1/28
+    type: 10gbase-x-sfpp
