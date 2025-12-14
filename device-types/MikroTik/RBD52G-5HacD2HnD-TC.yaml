@@ -3,33 +3,32 @@ manufacturer: MikroTik
 model: hAP ac2
 slug: mikrotik-hap-ac2
 part_number: RBD52G-5HacD2HnD-TC
-u_height: 0
-weight: 0.35
-weight_unit: kg
 is_full_depth: false
+u_height: 0
 airflow: passive
-comments: '[RBD52G-5HacD2HnD-TC Datasheet](https://mikrotik.com/product/hap_ac2)'
-power-ports:
-  - name: Power
-    type: dc-terminal
-    maximum_draw: 15
-    description: DC 12-30 V
-console-ports:
-  - name: Usb-storage
-    type: usb-a
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 370
+weight_unit: g
 interfaces:
-  - name: Ether1
-    type: 1000base-t
+  - name: ether1
+    label: '1'
     poe_mode: pd
     poe_type: passive-24v-2pair
+    type: 1000base-t
     description: POE-IN
-  - name: Ether2
+  - name: ether2
+    label: '2'
     type: 1000base-t
-  - name: Ether3
+  - name: ether3
+    label: '3'
     type: 1000base-t
-  - name: Ether4
+  - name: ether4
+    label: '4'
     type: 1000base-t
-  - name: Ether5
+  - name: ether5
+    label: '5'
     type: 1000base-t
   - name: Wireless 2.4 GHz
     type: ieee802.11n
@@ -37,3 +36,11 @@ interfaces:
     type: ieee802.11ac
   - name: usb
     type: lte
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 21
+    allocated_draw: 16
+    description: 12 - 30V DC, 0.8A
+comments: '[RBD52G-5HacD2HnD-TC Datasheet by Kolyan](https://mikrotik.com/product/hap_ac2)'

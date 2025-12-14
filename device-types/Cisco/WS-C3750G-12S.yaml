@@ -4,6 +4,9 @@ model: Catalyst 3750G-12S
 slug: cisco-ws-c3750g-12s
 part_number: WS-C3750G-12S
 is_full_depth: false
+weight: 4.6
+airflow: side-to-rear
+weight_unit: kg
 u_height: 1
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -36,3 +39,4 @@ console-ports:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
+    maximum_draw: 120
