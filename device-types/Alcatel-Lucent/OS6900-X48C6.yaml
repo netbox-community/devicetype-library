@@ -1,25 +1,21 @@
 ---
 manufacturer: Alcatel-Lucent
-model: OS6900-X40
-slug: alcatel-lucent-os6900-x40
-part_number: 903168-90
+model: OS6900-X48C6
+slug: alcatel-lucent-os6900-x48c6
+part_number: 904094-90
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
-weight: 10.86
+weight: 10.48
 weight_unit: kg
 console-ports:
   - name: Console
-    type: usb-a
-power-ports:
+    type: rj-45
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 450
-    allocated_draw: 242
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 450
-    allocated_draw: 242
+    position: '2'
 interfaces:
   - name: 1/1/1
     type: 10gbase-x-sfpp
@@ -101,21 +97,34 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: 1/1/40
     type: 10gbase-x-sfpp
-  - name: EMP-CHAS1
-    type: virtual
-    mgmt_only: true
-  - name: EMP-VC
-    type: virtual
-    mgmt_only: true
+  - name: 1/1/41
+    type: 10gbase-x-sfpp
+  - name: 1/1/42
+    type: 10gbase-x-sfpp
+  - name: 1/1/43
+    type: 10gbase-x-sfpp
+  - name: 1/1/44
+    type: 10gbase-x-sfpp
+  - name: 1/1/45
+    type: 10gbase-x-sfpp
+  - name: 1/1/46
+    type: 10gbase-x-sfpp
+  - name: 1/1/47
+    type: 10gbase-x-sfpp
+  - name: 1/1/48
+    type: 10gbase-x-sfpp
+  - name: 1/1/49A
+    type: 100gbase-x-qsfp28
+  - name: 1/1/50A
+    type: 100gbase-x-qsfp28
+  - name: 1/1/51A
+    type: 100gbase-x-qsfp28
+  - name: 1/1/52A
+    type: 100gbase-x-qsfp28
+  - name: 1/1/53A
+    type: 100gbase-x-qsfp28
+  - name: 1/1/54A
+    type: 100gbase-x-qsfp28
   - name: EMP
     type: 1000base-t
     mgmt_only: true
-  - name: Loopback0
-    type: virtual
-module-bays:
-  - name: SLOT-2
-    label: Front
-    position: '2'
-  - name: SLOT-3
-    label: Rear
-    position: '3'

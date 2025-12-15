@@ -1,25 +1,21 @@
 ---
 manufacturer: Alcatel-Lucent
-model: OS6860E-U28
-slug: alcatel-lucent-os6860e-u28
-part_number: 903712-90
+model: OS6860N-U28
+slug: alcatel-lucent-os6860n-u28
+part_number: 904091-90
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear
-weight: 5.26
+weight: 4.99
 weight_unit: kg
 console-ports:
   - name: Console
     type: usb-micro-b
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 73
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 150
-    allocated_draw: 73
+    position: '2'
 interfaces:
   - name: 1/1/1
     type: 1000base-x-sfp
@@ -89,14 +85,6 @@ interfaces:
     type: 40gbase-x-qsfpp
   - name: 1/1/34
     type: 40gbase-x-qsfpp
-  - name: EMP-CHAS1
-    type: virtual
-    mgmt_only: true
-  - name: EMP-VC
-    type: virtual
-    mgmt_only: true
   - name: EMP
     type: 1000base-t
     mgmt_only: true
-  - name: Loopback0
-    type: virtual
