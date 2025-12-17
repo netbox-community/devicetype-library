@@ -6,13 +6,17 @@ slug: cisco-c9300l-24t-4x
 u_height: 1
 weight: 6.78
 weight_unit: kg
-is_full_depth: false
+is_full_depth: true
+comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
     type: usb-mini-b
 interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
   - name: GigabitEthernet1/0/1
     type: 1000base-t
   - name: GigabitEthernet1/0/2
@@ -73,9 +77,6 @@ interfaces:
     type: cisco-stackwise
   - name: StackPort1/2
     type: cisco-stackwise
-  - name: GigabitEthernet0/0
-    type: 1000base-t
-    mgmt_only: true
 module-bays:
   - name: PS-A
     position: A
@@ -87,3 +88,5 @@ module-bays:
     position: '2'
   - name: FAN 3
     position: '3'
+  - name: Network Module
+    position: '4'
