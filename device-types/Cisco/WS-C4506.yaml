@@ -5,14 +5,7 @@ slug: cisco-ws-c4506
 part_number: WS-C4506
 u_height: 10
 is_full_depth: true
-subdevice_role: parent
-console-ports:
-  - name: con0
-    type: rj-45
-interfaces:
-  - name: FastEthernet1
-    type: 100base-tx
-    mgmt_only: true
+airflow: right-to-left
 module-bays:
   - name: Slot 1
     position: '1'

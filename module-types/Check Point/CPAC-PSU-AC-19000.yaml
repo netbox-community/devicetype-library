@@ -1,0 +1,11 @@
+---
+manufacturer: Check Point
+model: CPAC-PSU-AC-19000
+part_number: CPAC-PSU-AC-19000
+comments: Replacement AC Power Supply for 19000/29000 appliances
+power-ports:
+  - name: PSU-{module}
+    type: iec-60320-c14
+    maximum_draw: 1300
+    description: 100-240VAC
+    allocated_draw: 999

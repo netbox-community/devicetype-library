@@ -70,17 +70,15 @@
             "multipleOf": 0.01
         },
         "max_weight": {
-            "type": "number",
-            "minimum": 0,
-            "multipleOf": 0.01
+            "type": "integer",
+            "minimum": 0
         },
         "weight_unit": {
             "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
         },
         "mounting_depth": {
-            "type": "number",
-            "minimum": 0,
-            "multipleOf": 0.01
+            "type": "integer",
+            "minimum": 0
         },
         "starting_unit": {
             "type": "number",
