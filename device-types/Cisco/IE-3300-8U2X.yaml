@@ -3,20 +3,15 @@ manufacturer: Cisco
 model: IE-3300-8U2X
 slug: cisco-ie-3300-8u2x
 part_number: IE-3300-8U2X
-description: >
-  Cisco Catalyst IE3300 Rugged Series switch with 8x 1G/2.5G copper ports (PoE++),
-  and 2x 10G SFP+ uplinks. Fanless, DIN-rail mountable, hardened for industrial environments.
 u_height: 3
 is_full_depth: false
 front_image: true
-rear_image: true
 airflow: passive
 comments: '[Cisco Catalyst IE3300 Rugged Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie3300-rugged-series/catalyst-ie3300-rugged-series-ds.html)'
 console-ports:
   - name: Console
     type: rj-45
     description: RJ-45 console port for local management
-
 power-ports:
   - name: DC-A
     type: other
@@ -24,51 +19,26 @@ power-ports:
   - name: DC-B
     type: other
     description: 9.6-60 VDC input (secondary)
-
 interfaces:
-  - name: Gi1/1
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/2
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/3
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/4
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/5
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/6
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/7
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
-  - name: Gi1/8
-    type: 2.5gbase-t
-    description: Copper port with PoE++
-    poe_mode: pse
-    poe_type: 802.3bt
   - name: Te1/1
     type: 10gbase-x-sfpp
     description: 10G SFP+ uplink
   - name: Te1/2
     type: 10gbase-x-sfpp
     description: 10G SFP+ uplink
+  - name: Gi1/3
+    type: 1000base-t
+  - name: Gi1/4
+    type: 1000base-t
+  - name: Gi1/5
+    type: 1000base-t
+  - name: Gi1/6
+    type: 1000base-t
+  - name: Gi1/7
+    type: 1000base-t
+  - name: Gi1/8
+    type: 1000base-t
+  - name: Gi1/9
+    type: 1000base-t
+  - name: Gi1/10
+    type: 1000base-t
