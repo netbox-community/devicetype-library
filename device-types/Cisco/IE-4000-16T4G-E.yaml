@@ -1,0 +1,76 @@
+---
+manufacturer: Cisco
+model: IE-4000-16T4G-E
+part_number: IE-4000-16T4G-E
+slug: cisco-ie-4000-16t4g-e
+u_height: 3
+is_full_depth: false
+front_image: false
+rear_image: false
+weight: 6.35
+weight_unit: lb
+airflow: passive
+comments: '[Cisco Industrial Ethernet 4000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/industrial-ethernet-4000-series-switches/datasheet-c78-733058.html)'
+console-ports:
+  - name: usb
+    type: usb-mini-b
+  - name: console
+    type: rj-45
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+  - name: DC-B
+    type: dc-terminal
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: GigabitEthernet1/3
+    type: 1000base-x-sfp
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: GigabitEthernet1/4
+    type: 1000base-x-sfp
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+  - name: FastEthernet1/5
+    type: 100base-t
+  - name: FastEthernet1/6
+    type: 100base-t
+  - name: FastEthernet1/7
+    type: 100base-t
+  - name: FastEthernet1/8
+    type: 100base-t
+  - name: FastEthernet1/9
+    type: 100base-t
+  - name: FastEthernet1/10
+    type: 100base-t
+  - name: FastEthernet1/11
+    type: 100base-t
+  - name: FastEthernet1/12
+    type: 100base-t
+  - name: FastEthernet1/13
+    type: 100base-t
+  - name: FastEthernet1/14
+    type: 100base-t
+  - name: FastEthernet1/15
+    type: 100base-t
+  - name: FastEthernet1/16
+    type: 100base-t
+  - name: FastEthernet1/17
+    type: 100base-t
+  - name: FastEthernet1/18
+    type: 100base-t
+  - name: FastEthernet1/19
+    type: 100base-t
+  - name: FastEthernet1/20
+    type: 100base-t
+  - name: FastEthernet1/21
+    type: 100base-t
+  - name: FastEthernet1/22
+    type: 100base-t
+  - name: FastEthernet1/23
+    type: 100base-t
+  - name: FastEthernet1/24
+    type: 100base-t
