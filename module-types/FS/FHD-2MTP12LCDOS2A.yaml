@@ -1,69 +1,68 @@
 ---
 manufacturer: FS
-model: FHD-2MTP12LCDOM4A
-part_number: '57342'
-comments: FHD MTP-LC Cassette, OM4 Multimode, Type A, 24 Fibers, 2x MTP-12 (Male) to 12x LC Duplex (Aqua)
+model: FHD-2MTP12LCDOS2A
+part_number: '57341'
+comments: FHD MTP-LC Cassette, OS2 Single Mode, Type A, 24 Fibers, 2x MTP-12 (Male) to 12x LC Duplex (Blue)
 front-ports:
   - name: '{module}:1-2'
     type: lc
     rear_port: '{module}:1-12'
     rear_port_position: 1
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:3-4'
     type: lc
     rear_port: '{module}:1-12'
     rear_port_position: 2
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:5-6'
     type: lc
     rear_port: '{module}:1-12'
     rear_port_position: 3
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:7-8'
     type: lc
     rear_port: '{module}:1-12'
     rear_port_position: 4
-    color: 00ffff
   - name: '{module}:9-10'
     type: lc
     rear_port: '{module}:1-12'
     rear_port_position: 5
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:11-12'
     type: lc
     rear_port: '{module}:1-12'
     rear_port_position: 6
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:13-14'
     type: lc
     rear_port: '{module}:13-24'
     rear_port_position: 1
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:15-16'
     type: lc
     rear_port: '{module}:13-24'
     rear_port_position: 2
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:17-18'
     type: lc
     rear_port: '{module}:13-24'
     rear_port_position: 3
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:19-20'
     type: lc
     rear_port: '{module}:13-24'
     rear_port_position: 4
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:21-22'
     type: lc
     rear_port: '{module}:13-24'
     rear_port_position: 5
-    color: 00ffff
+    color: 0000ff
   - name: '{module}:23-24'
     type: lc
     rear_port: '{module}:13-24'
     rear_port_position: 6
-    color: 00ffff
+    color: 0000ff
 rear-ports:
   - name: '{module}:1-12'
     type: mpo
