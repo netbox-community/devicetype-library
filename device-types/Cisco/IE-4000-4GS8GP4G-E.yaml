@@ -5,11 +5,10 @@ part_number: IE-4000-4GS8GP4G-E
 slug: cisco-ie-4000-4gs8gp4g-e
 u_height: 3
 is_full_depth: false
-front_image: false
-rear_image: false
+front_image: true
+airflow: passive
 weight: 6.35
 weight_unit: lb
-airflow: passive
 comments: '[Cisco Industrial Ethernet 4000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/industrial-ethernet-4000-series-switches/datasheet-c78-733058.html)'
 console-ports:
   - name: usb
@@ -45,32 +44,32 @@ interfaces:
   - name: GigabitEthernet1/9
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/10
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/11
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet11/12
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet11/13
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet11/14
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet11/15
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet11/16
     type: 1000base-t
     poe_mode: pse
-    poe_type: type3-ieee802.3at
+    poe_type: type2-ieee802.3at
