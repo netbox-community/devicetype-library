@@ -102,6 +102,10 @@ interfaces:
     type: 1000base-t
   - name: ether48
     type: 1000base-t
+  - name: ether49
+    type: 100base-tx
+    label: MGMT
+    mgmt_only: true
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
