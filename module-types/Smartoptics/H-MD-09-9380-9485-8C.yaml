@@ -1,0 +1,69 @@
+---
+manufacturer: Smartoptics
+model: H-MD-09-9380-9485-8C
+part_number: H-MD-09-9380-9485-8C
+weight: 0.2
+weight_unit: kg
+comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2025/02/so-ds-h-md-09-xxxx-yyyy-8c-r5.5.pdf) 8-channel 800G 16QAM DWDM Mux/Demux
+  with Extension and Monitor ports'
+rear-ports:
+  - name: Line
+    type: lc-upc
+    description: WDM Line I/O
+    positions: 13
+front-ports:
+  - name: Ext
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 1
+    description: Incoming fiber for extension channel
+  - name: Mon
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 2
+    description: Monitor port for line channel
+  - name: NC
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 3
+    description: Not connected port
+  - name: '938'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 4
+    description: 193.800 THz
+  - name: '939.5'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 5
+    description: 193.950 THz
+  - name: '941'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 6
+    description: 194.100 THz
+  - name: '942.5'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 7
+    description: 194.250 THz
+  - name: '944'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 8
+    description: 194.400 THz
+  - name: '945.5'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 9
+    description: 194.550 THz
+  - name: '947'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 10
+    description: 194.700 THz
+  - name: '948.5'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 11
+    description: 194.850 THz

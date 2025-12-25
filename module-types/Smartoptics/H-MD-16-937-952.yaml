@@ -1,0 +1,109 @@
+---
+manufacturer: Smartoptics
+model: H-MD-16-937-952
+part_number: H-MD-16-937-952
+weight: 0.3
+weight_unit: kg
+comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2023/01/so-ds-h-md-16-xxx-yyy-r5.4.pdf) 16-channel 16QAM supporting DWDM Mux/Demux
+  with Extension and Monitor ports'
+rear-ports:
+  - name: Line
+    type: lc-upc
+    description: WDM Line I/O
+    positions: 19
+front-ports:
+  - name: Ext
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 1
+    description: Incoming fiber for extension channel
+  - name: Mon
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 2
+    description: Monitor port for line channel
+  - name: NC
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 3
+    description: Not connected port
+  - name: '937'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 4
+    description: 193.7 THz
+  - name: '938'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 5
+    description: 193.8 THz
+  - name: '939'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 6
+    description: 193.9 THz
+  - name: '940'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 7
+    description: 194.0 THz
+  - name: '941'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 8
+    description: 194.1 THz
+  - name: '942'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 9
+    description: 194.2 THz
+  - name: '943'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 10
+    description: 194.3 THz
+  - name: '944'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 11
+    description: 194.4 THz
+  - name: '945'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 12
+    description: 194.5 THz
+  - name: '946'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 13
+    description: 194.6 THz
+  - name: '947'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 14
+    description: 194.7 THz
+  - name: '948'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 15
+    description: 194.8 THz
+  - name: '949'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 16
+    description: 194.9 THz
+  - name: '950'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 17
+    description: 195.0 THz
+  - name: '951'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 18
+    description: 195.1 THz
+  - name: '952'
+    type: lc-upc
+    rear_port: Line
+    rear_port_position: 19
+    description: 195.2 THz
