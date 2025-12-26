@@ -1,0 +1,75 @@
+---
+manufacturer: Supermicro
+model: Motherboard X9DRT-HF
+slug: supermicro-mbd-x9drt-hf
+part_number: MBD-X9DRT-HF
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X9DRT-HF (https://www.supermicro.com/products/archive/motherboard/x9drt-hf)
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC IPMI port for Nuvoton WPCM450
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  # Closest to IO Ports
+  - name: CPU 1
+    position: '1'
+    description: LGA 2011 Socket
+  # Closest to cooling fans
+  - name: CPU 2
+    position: '2'
+    description: LGA 2011 Socket
+
+  # PCI-E 3.0 x16 Slot for SMB-Proprietary Add-On Riser Card
+  # Closest to IO ports
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 3.0 x16 [CPU1 SXB1]
+  # PCI-E 3.0 x8 Slot for SMB-Proprietary Riser Card
+  # Directly next to x16 slot under the SATA ports
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x8 [CPU1 SXB2]
+  # PCI-E 3.0 x8 Slot for SMB-Proprietary Add-On (Daughter) Card
+  # Directly under CPU1 SXB2 closest to the edge of the board
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 3.0 x8 [CPU2 SXB3]
+
+  # DIMMs A1-D1 use CPU 1 (closest to IO ports)
+  - name: DIMM A1
+    position: '1'
+    description: DDR3 DIMM slot
+  - name: DIMM B1
+    position: '2'
+    description: DDR3 DIMM slot
+  - name: DIMM C1
+    position: '3'
+    description: DDR3 DIMM slot
+  - name: DIMM D1
+    position: '4'
+    description: DDR3 DIMM slot
+  # DIMMs E1-G1 use CPU 2 (closest to cooling fans)
+  - name: DIMM E1
+    position: '5'
+    description: DDR3 DIMM slot
+  - name: DIMM F1
+    position: '6'
+    description: DDR3 DIMM slot
+  - name: DIMM G1
+    position: '7'
+    description: DDR3 DIMM slot
+  - name: DIMM H1
+    position: '8'
+    description: DDR3 DIMM slot
