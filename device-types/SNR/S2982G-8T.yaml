@@ -1,0 +1,40 @@
+---
+manufacturer: SNR
+model: S2982G-8T
+slug: snr-s2982g-8t
+part_number: S2982G-8T
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 1.64
+weight_unit: kg
+comments: '[SNR-S2982G-8T](https://shop.nag.ru/catalog/00001.kommutatory/40213.fiksirovannye-kommutatory/41500.snr-s2982g-8t)'
+console-ports:
+  - name: con0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: power AC
+    type: iec-60320-c14
+    maximum_draw: 22
+interfaces:
+  - name: Ethernet1/0/1
+    type: 1000base-t
+  - name: Ethernet1/0/2
+    type: 1000base-t
+  - name: Ethernet1/0/3
+    type: 1000base-t
+  - name: Ethernet1/0/4
+    type: 1000base-t
+  - name: Ethernet1/0/5
+    type: 1000base-t
+  - name: Ethernet1/0/6
+    type: 1000base-t
+  - name: Ethernet1/0/7
+    type: 1000base-t
+  - name: Ethernet1/0/8
+    type: 1000base-t
+  - name: Ethernet1/0/9
+    type: 1000base-x-sfp
+  - name: Ethernet1/0/10
+    type: 1000base-x-sfp
