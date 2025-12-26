@@ -194,7 +194,7 @@ def test_definitions(file_path, schema, change_type):
         this_device = ModuleType(definition, file_path, change_type)
 
     # Validate that front-ports reference existing rear-ports
-    if this_device.isDevice:
+    if any(x in file_path for x in ("device-types", "module-types")):
         rear_ports = definition.get("rear-ports", []) or []
         front_ports = definition.get("front-ports", []) or []
 
