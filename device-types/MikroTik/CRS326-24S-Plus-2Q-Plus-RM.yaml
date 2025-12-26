@@ -5,6 +5,10 @@ slug: mikrotik-crs326-24s-plus-2q-plus-rm
 is_full_depth: false
 u_height: 1
 interfaces:
+  - name: ether1
+    type: 100base-tx
+    label: MGMT/BOOT
+    mgmt_only: true
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
