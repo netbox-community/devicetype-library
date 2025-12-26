@@ -1,0 +1,49 @@
+---
+manufacturer: Cisco
+model: IE-3100-8T2C
+slug: cisco-ie-3100-8t2c
+part_number: IE-3100-8T2C
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+is_powered: true
+comments: '[Cisco Catalyst IE3100 Rugged Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/networking/industrial-switches/catalyst-ie3100-rugged-series/catalyst-ie3100-rugged-series-ds.html)'
+weight: 0.86
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-micro-b
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 17.8
+  - name: DC-B
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 17.8
+interfaces:
+  - name: GigabitEthernet1/1
+    type: 1000base-x-sfp
+    description: Combo Port (Change type to 1000base-t if using RJ45 interface)
+  - name: GigabitEthernet1/2
+    type: 1000base-x-sfp
+    description: Combo Port (Change type to 1000base-t if using RJ45 interface)
+  - name: GigabitEthernet1/3
+    type: 1000base-t
+  - name: GigabitEthernet1/4
+    type: 1000base-t
+  - name: GigabitEthernet1/5
+    type: 1000base-t
+  - name: GigabitEthernet1/6
+    type: 1000base-t
+  - name: GigabitEthernet1/7
+    type: 1000base-t
+  - name: GigabitEthernet1/8
+    type: 1000base-t
+  - name: GigabitEthernet1/9
+    type: 1000base-t
+  - name: GigabitEthernet1/10
+    type: 1000base-t
