@@ -18,12 +18,12 @@ console-ports:
 power-ports:
   - name: DC-A
     type: dc-terminal
-    maximum_draw: 50.4
-    allocated_draw: 36.7
+    maximum_draw: 51
+    allocated_draw: 37
   - name: DC-B
     type: dc-terminal
-    maximum_draw: 50.4
-    allocated_draw: 36.7
+    maximum_draw: 51
+    allocated_draw: 37
 interfaces:
   - name: GigabitEthernet1/1
     type: 1000base-x-sfp

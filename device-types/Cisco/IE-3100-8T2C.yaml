@@ -19,11 +19,11 @@ power-ports:
   - name: DC-A
     type: dc-terminal
     maximum_draw: 24
-    allocated_draw: 17.8
+    allocated_draw: 18
   - name: DC-B
     type: dc-terminal
     maximum_draw: 24
-    allocated_draw: 17.8
+    allocated_draw: 18
 interfaces:
   - name: GigabitEthernet1/1
     type: 1000base-x-sfp
