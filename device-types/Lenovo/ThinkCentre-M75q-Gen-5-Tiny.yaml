@@ -12,10 +12,10 @@ comments: |
  Supporting AMD Ryzen 3 8300GE, AMD Ryzen 5 8500GE and AMD Ryzen 7 PRO 8700GE
  Official Specsheet: https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M75q_Gen_5/ThinkCentre_M75q_Gen_5_Spec.pdf
 power-ports:
-- name: power1
-  type: dc-terminal
-  maximum_draw: 90
-  allocated_draw: 66
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 66
 interfaces:
-- name: ether1
-  type: 1000base-t
+  - name: ether1
+    type: 1000base-t
