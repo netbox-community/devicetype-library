@@ -1,0 +1,21 @@
+---
+manufacturer: Lenovo
+model: ThinkCentre M75q Gen 5 Tiny
+slug: lenovo-thinkcentre-m75q-gen-5-tiny
+description: ThinkCentre M75q Gen 5 Tiny Mini PC System
+u_height: 1.0
+is_full_depth: false
+airflow: top-to-bottom
+weight: 1.32
+weight_unit: kg
+comments: |
+ Supporting AMD Ryzen 3 8300GE, AMD Ryzen 5 8500GE and AMD Ryzen 7 PRO 8700GE
+ Official Specsheet: https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M75q_Gen_5/ThinkCentre_M75q_Gen_5_Spec.pdf
+power-ports:
+- name: power1
+  type: dc-terminal
+  maximum_draw: 90
+  allocated_draw: 66
+interfaces:
+- name: ether1
+  type: 1000base-t
