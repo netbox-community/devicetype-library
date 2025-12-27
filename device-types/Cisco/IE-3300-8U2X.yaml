@@ -6,6 +6,8 @@ part_number: IE-3300-8U2X
 u_height: 3
 is_full_depth: false
 front_image: true
+weight: 2
+weight_unit: kg
 airflow: passive
 comments: '[Cisco Catalyst IE3300 Rugged Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie3300-rugged-series/catalyst-ie3300-rugged-series-ds.html)'
 console-ports:
@@ -14,10 +16,10 @@ console-ports:
     description: RJ-45 console port for local management
 power-ports:
   - name: DC-A
-    type: other
+    type: dc-terminal
     description: 9.6-60 VDC input (primary)
   - name: DC-B
-    type: other
+    type: dc-terminal
     description: 9.6-60 VDC input (secondary)
 interfaces:
   - name: Te1/1
