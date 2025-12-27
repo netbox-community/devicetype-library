@@ -1,0 +1,89 @@
+---
+manufacturer: Cisco
+model: IE-9320-26S2C
+slug: cisco-ie-9320-26s2c
+part_number: IE-9320-26S2C
+u_height: 1
+is_full_depth: false
+airflow: passive
+is_powered: true
+comments: '[Cisco Catalyst IE9300 Rugged Series Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-ie9300-rugged-series/catalyst-ie9300-rugged-series-ds.html)'
+description: Catalyst IE9300 w/ 24 Ports GE SFP Downlinks and 4 Ports GE SFP uplinks, Stackable
+weight: 5.53
+weight_unit: kg
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-micro-b
+  - name: ALARM
+    description: RJ45 Alarm port for 4 dry-contact alarm inputs and 1 dry-contact Form-C relay alarm output
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/20
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/21
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/22
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/23
+    type: 1000base-x-sfp
+    description: Combo Port (Change type to 1000base-t if using RJ45 interface)
+  - name: GigabitEthernet1/0/24
+    type: 1000base-x-sfp
+    description: Combo Port (Change type to 1000base-t if using RJ45 interface)
+  - name: GigabitEthernet1/0/25
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/26
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/27
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/28
+    type: 1000base-x-sfp
+  - name: StackPort1/1
+    type: cisco-stackwise
+  - name: StackPort1/2
+    type: cisco-stackwise
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
