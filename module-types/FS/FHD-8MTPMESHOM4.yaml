@@ -1,0 +1,71 @@
+---
+manufacturer: FS
+model: FHD-8MTPMESHOM4
+part_number: '181825'
+comments: FHD 8x MTP-8 Mesh Cassette, 64 Fibers OM4 Multimode, 8x MTP-8 to 8x MTP-8 (Aqua)
+front-ports:
+  - name: '{module}:A-1'
+    type: mpo
+    rear_port: '{module}:A-1'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:A-2'
+    type: mpo
+    rear_port: '{module}:A-2'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:A-3'
+    type: mpo
+    rear_port: '{module}:A-3'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:A-4'
+    type: mpo
+    rear_port: '{module}:A-4'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:B-1'
+    type: mpo
+    rear_port: '{module}:B-1'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:B-2'
+    type: mpo
+    rear_port: '{module}:A-2'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:B-3'
+    type: mpo
+    rear_port: '{module}:B-3'
+    rear_port_position: 1
+    color: 00ffff
+  - name: '{module}:B-4'
+    type: mpo
+    rear_port: '{module}:B-4'
+    rear_port_position: 1
+    color: 00ffff
+rear-ports:
+  - name: '{module}:A-1'
+    type: mpo
+    positions: 1
+  - name: '{module}:A-2'
+    type: mpo
+    positions: 1
+  - name: '{module}:A-3'
+    type: mpo
+    positions: 1
+  - name: '{module}:A-4'
+    type: mpo
+    positions: 1
+  - name: '{module}:B-1'
+    type: mpo
+    positions: 1
+  - name: '{module}:B-2'
+    type: mpo
+    positions: 1
+  - name: '{module}:B-3'
+    type: mpo
+    positions: 1
+  - name: '{module}:B-4'
+    type: mpo
+    positions: 1
