@@ -14,7 +14,7 @@ import yaml
 from referencing import Registry, Resource
 from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
-from git import Repo
+from git import Git, Repo
 
 def _get_definition_files():
     """
@@ -136,11 +136,20 @@ if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
     KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
 else:
-    temp_dir = tempfile.TemporaryDirectory()
-    repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
-    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
-    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
-    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
+    clone_kwargs = {
+        'depth': 1,
+        'no-checkout': True,
+    }
+    if Git().version_info >= (2, 18):
+        # partial clone
+        clone_kwargs['filter'] = 'blob:none'
+    with tempfile.TemporaryDirectory() as temp_dir, \
+         Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir, **clone_kwargs) as repo \
+    :
+        repo.git.checkout('HEAD', 'tests/*.pickle')
+        KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-slugs.pickle')
+        KNOWN_MODULES = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-modules.pickle')
+        KNOWN_RACKS = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-racks.pickle')
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
@@ -194,7 +203,7 @@ def test_definitions(file_path, schema, change_type):
         this_device = ModuleType(definition, file_path, change_type)
 
     # Validate that front-ports reference existing rear-ports
-    if this_device.isDevice:
+    if any(x in file_path for x in ("device-types", "module-types")):
         rear_ports = definition.get("rear-ports", []) or []
         front_ports = definition.get("front-ports", []) or []
 
