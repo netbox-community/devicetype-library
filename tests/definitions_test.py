@@ -211,6 +211,7 @@ def test_definitions(file_path, schema, change_type):
             rp.get("name") for rp in rear_ports if isinstance(rp, dict)
         }
 
+        rear_port_positions = {}
         for fp in front_ports:
             if not isinstance(fp, dict):
                 continue
@@ -224,6 +225,19 @@ def test_definitions(file_path, schema, change_type):
                     f"Defined rear-ports: {sorted(rear_port_names)}",
                     pytrace=False,
                 )
+
+            # Check for duplicate (rear_port, rear_port_position) combinations
+            if rear_port_ref:
+                rear_port_pos = fp.get("rear_port_position", 1)
+                key = (rear_port_ref, rear_port_pos)
+                if key in rear_port_positions:
+                    pytest.fail(
+                        f"{file_path}: front-port '{fp.get('name')}' has duplicate "
+                        f"(rear_port, rear_port_position) = ('{rear_port_ref}', {rear_port_pos}). "
+                        f"Already used by front-port '{rear_port_positions[key]}'.",
+                        pytrace=False,
+                    )
+                rear_port_positions[key] = fp.get("name")
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
