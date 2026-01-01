@@ -1,7 +1,7 @@
 ---
 manufacturer: Intellinet
-model: 163682
-part_number: 163682
+model: '163682'
+part_number: '163682'
 slug: intellinet-163682
 u_height: 1
 is_full_depth: false
@@ -13,7 +13,7 @@ weight_unit: kg
 interfaces:
   - name: Management Port
     type: 100base-tx
-    speed: 10000
+    mgmt_only: true
 power-ports:
   - name: Power Input
     type: iec-60320-c20
