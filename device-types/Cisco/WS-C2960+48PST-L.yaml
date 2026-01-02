@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: Catalyst 2960+24PC-L
-slug: cisco-catalyst-2960-plus-24pc-l
-part_number: WS-C2960+24PC-L
+model: Catalyst 2960+48PST-L
+slug: cisco-catalyst-2960-plus-48pst-l
+part_number: WS-C2960+48PST-L
 is_full_depth: false
 u_height: 1
 weight: 5.4
@@ -104,14 +104,114 @@ interfaces:
     type: 100base-tx
     poe_mode: pse
     poe_type: type1-ieee802.3af
+  - name: FastEthernet0/25
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/26
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/27
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/28
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/29
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/30
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/31
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/32
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/33
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/34
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/35
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/36
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/37
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/38
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/39
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/40
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/41
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/42
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/43
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/44
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/45
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/46
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/47
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: FastEthernet0/48
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
   - name: GigabitEthernet0/1
     type: 1000base-x-sfp
   - name: GigabitEthernet0/2
     type: 1000base-x-sfp
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
 console-ports:
   - name: con0
     type: rj-45
 power-ports:
   - name: PSU0
     type: iec-60320-c14
-    maximum_draw: 36
+    maximum_draw: 460
