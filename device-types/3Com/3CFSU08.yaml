@@ -1,0 +1,31 @@
+---
+manufacturer: 3Com
+model: 3CFSU08
+slug: 3com-3cfsu08
+part_number: 3CFSU08
+u_height: 0
+weight: 252
+airflow: passive
+weight_unit: g
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: iec-60320-c8
+    maximum_draw: 20
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+  - name: FastEthernet4
+    type: 100base-tx
+  - name: FastEthernet5
+    type: 100base-tx
+  - name: FastEthernet6
+    type: 100base-tx
+  - name: FastEthernet7
+    type: 100base-tx
+  - name: FastEthernet8
+    type: 100base-tx

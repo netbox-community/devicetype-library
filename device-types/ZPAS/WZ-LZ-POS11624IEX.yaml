@@ -1,0 +1,137 @@
+---
+manufacturer: ZPAS
+model: POS11624IEX
+slug: zpas-pos11624iex
+part_number: WZ-LZ-POS11624IEX
+u_height: 0
+weight: 7.34
+weight_unit: kg
+airflow: passive
+is_full_depth: false
+comments: Smart PDU, Remote monitoring per inut line + sockets switching, ZeroU, 16A, 230V, 24 "IEX" sockets
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-p-n-e-6h
+power-outlets:
+  - name: Power Outlet 1
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 2
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 3
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 4
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 5
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 6
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 7
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 8
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 9
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 10
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 11
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 12
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 13
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 14
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 15
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 16
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 17
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 18
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 19
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 20
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 21
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 22
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 23
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Power Outlet 24
+    type: eaton-c39
+    power_port: Power Port 1
+    feed_leg: A
+interfaces:
+  - name: IP1
+    type: 1000base-t
+    mgmt_only: true
+  - name: IP2
+    type: 1000base-t
+    mgmt_only: true
+rear-ports:
+  - name: USB-A 1
+    type: usb-a
+    description: Configuration Port
+  - name: USB-A 2
+    type: usb-a
+    description: Configuration
+  - name: Power Share
+    type: 8p8c
+    description: PDU Clustering
+  - name: EMD Sensor
+    type: 8p8c
+    description: for ZPAS EMD Temperature / humidity sensors
+  - name: PDU Cascading 1
+    type: 8p8c
+    description: PDU Cascading
+  - name: PDU Cascading 2
+    type: 8p8c
+    description: PDU Cascading

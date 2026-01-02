@@ -4,12 +4,15 @@ model: CRS125-24G-1S-2HnD-IN
 slug: mikrotik-crs125-24g-1s-2hnd-in
 is_full_depth: false
 u_height: 1
+weight: 1.28
+weight_unit: kg
 console-ports:
   - name: serial0
     type: rj-45
 power-ports:
   - name: PSU0
     type: dc-terminal
+    maximum_draw: 15
 interfaces:
   - name: ether1
     type: 1000base-t

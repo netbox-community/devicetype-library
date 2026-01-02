@@ -5,6 +5,9 @@ slug: cisco-ws-c3750e-24td
 part_number: WS-C3750E-24TD
 is_full_depth: false
 u_height: 1
+weight: 7.26
+airflow: side-to-rear
+weight_unit: kg
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -65,7 +68,6 @@ interfaces:
 console-ports:
   - name: con0
     type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 265
+module-bays:
+  - name: PSU1
+    position: '1'
