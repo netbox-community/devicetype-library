@@ -1,0 +1,11 @@
+---
+manufacturer: HPE
+model: HPE Ethernet 10/25Gb 2-port 640SFP28 Adapter
+part_number: 817753-B21
+description: PCIe Full-Height and Half-Height NIC on various HP Proliant Gen9 and Gen10; Apollo Gen9 servers
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/c04849446)'
+interfaces:
+  - name: '{module}/1'
+    type: 25gbase-x-sfp28
+  - name: '{module}/2'
+    type: 25gbase-x-sfp28

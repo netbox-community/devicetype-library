@@ -5,6 +5,9 @@ slug: cisco-ws-c3750-48ts-s
 part_number: WS-C3750-48TS-S
 is_full_depth: false
 u_height: 1
+weight: 4.1
+airflow: side-to-rear
+weight_unit: kg
 interfaces:
   - name: FastEthernet1/0/1
     type: 100base-tx
@@ -117,6 +120,7 @@ interfaces:
 power-ports:
   - name: PSU0
     type: iec-60320-c14
+    maximum_draw: 75
 console-ports:
   - name: Console
     type: rj-45

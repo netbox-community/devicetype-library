@@ -1,0 +1,44 @@
+---
+manufacturer: RuggedCOM
+model: Rugged Switch RST2228P
+slug: ruggedcom-rugged-switch-rst2228p
+part_number: RST2228P
+u_height: 1
+is_full_depth: false
+airflow: side-to-rear
+weight: 10
+weight_unit: kg
+comments: '[RST2228 Datasheet](https://cache.industry.siemens.com/dl/files/348/109766348/att_980977/v1/SIE_RST2228.pdf)'
+power-ports:
+  - name: DC Input 1
+    type: dc-terminal
+    maximum_draw: 600
+  - name: DC Input 2
+    type: dc-terminal
+    maximum_draw: 600
+console-ports:
+  - name: Console
+    type: usb-b
+    label: Console
+module-bays:
+  - name: '1'
+    position: TOP 1
+  - name: '2'
+    position: Bottom 1
+  - name: '3'
+    position: TOP 2
+  - name: '4'
+    position: Bottom 2
+  - name: '5'
+    position: TOP 3
+  - name: '6'
+    position: Bottom 3
+interfaces:
+  - name: 0/1
+    type: 10gbase-x-sfpp
+  - name: 0/2
+    type: 10gbase-x-sfpp
+  - name: 0/3
+    type: 10gbase-x-sfpp
+  - name: 0/4
+    type: 10gbase-x-sfpp
