@@ -1,0 +1,32 @@
+---
+manufacturer: Bonch
+model: ATS/PDU-8A-2S/6C13-C14/C14
+slug: bonch-ats-pdu-8a-2s-6c13-c14-c14
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.15
+weight_unit: kg
+comments: Bonch Rack Automatic Transfer Switch, 1U, 8A, 230V, Dual C14 IN, 2 Shuko and 6 C13 OUT, 50/60Hz
+power-ports:
+  - name: Source A
+    type: iec-60320-c14
+  - name: Source B
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: ita-f
+  - name: Outlet 2
+    type: ita-f
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c13
+  - name: Outlet 5
+    type: iec-60320-c13
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
