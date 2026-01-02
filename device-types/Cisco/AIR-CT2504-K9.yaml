@@ -4,30 +4,24 @@ model: Aironet CT2504-K9
 slug: cisco-air-ct2504-k9
 part_number: AIR-CT2504-K9
 u_height: 1
+weight: 1.59
+weight_unit: kg
 is_full_depth: false
 console-ports:
   - name: Con
     type: rj-45
-  - name: usb0
-    type: usb-a
-  - name: usb1
-    type: usb-mini-b
 interfaces:
-  - name: Dot11Radio0
-    type: ieee802.11n
-  - name: Dot11Radio1
-    type: ieee802.11ac
   - name: GigabitEthernet0
     type: 1000base-t
   - name: GigabitEthernet1
     type: 1000base-t
   - name: GigabitEthernet2
     type: 1000base-t
-    poe_mode: pd
+    poe_mode: pse
     poe_type: type1-ieee802.3af
   - name: GigabitEthernet3
     type: 1000base-t
-    poe_mode: pd
+    poe_mode: pse
     poe_type: type1-ieee802.3af
 power-ports:
   - name: PS1
