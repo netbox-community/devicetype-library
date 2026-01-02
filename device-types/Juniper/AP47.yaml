@@ -1,0 +1,36 @@
+---
+manufacturer: Juniper
+model: AP47
+slug: juniper-ap47
+part_number: AP47-WW
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 2.0
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: "- [Official Datasheet](https://www.juniper.net/us/en/products/access-points/ap47-access-point-datasheet.html)\r\n- Wi-Fi 7 802.11be (4x4:4) tri-band\
+  \ access point\r\n- Combined data rate: 28.8 Gbps (2.4GHz: 1376 Mbps, 5GHz: 5764 Mbps, 6GHz: 11528 Mbps)\r\n- Dedicated fourth radio for WIDS/WIPS, spectrum\
+  \ analysis\r\n- Dual 10GbE ports with PoE failover\r\n- vBLE, UWB, IoT sensors (pressure, temperature, accelerometer)\r\n- IEEE Standards: 802.11a/b/g/n/ac/ax/be"
+interfaces:
+  - name: eth0
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: eth1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: wlan0
+    type: ieee802.11be
+    description: 2.4GHz 4x4:4
+  - name: wlan1
+    type: ieee802.11be
+    description: 5GHz 4x4:4
+  - name: wlan2
+    type: ieee802.11be
+    description: 6GHz 4x4:4
+  - name: wlan3
+    type: other-wireless
+    description: Dedicated scanning radio (2.4/5/6GHz)
