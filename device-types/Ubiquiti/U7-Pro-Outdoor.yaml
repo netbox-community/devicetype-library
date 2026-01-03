@@ -1,0 +1,33 @@
+---
+manufacturer: Ubiquiti
+model: U7 Pro Outdoor
+part_number: U7-Pro-Outdoor
+slug: ubiquiti-u7-pro-outdoor
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.2
+weight_unit: kg
+comments: |
+  The U7 Pro Outdoor has the following antenna configurations and stats:
+  - (1) Directional internal antenna:
+    - 2.4 GHz: 8 dBi, 90° x 90°
+    - 5 GHz: 12.5 dBi, 45° x 45°
+  - (2) External omni antennas:
+    - 2.4 GHz: 3 dBi, 360° x 30°
+    - 5 GHz: 4 dBi, 360° x 30°
+  - (2) RP-SMA connectors for external antennas
+  Additional features:
+  - Weatherproofing: IPX6, IP67 (With cable-gland door kit)
+  - Wind survivability: 74.6 N at 200 km/h (16.8 lbf at 125 mph)
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ac
+  - name: Wlan 2
+    type: ieee802.11ax
