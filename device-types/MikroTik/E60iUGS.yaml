@@ -1,0 +1,34 @@
+---
+manufacturer: MikroTik
+model: E60iUGS
+slug: mikrotik-e60iugs
+part_number: E60iUGS
+u_height: 0
+is_full_depth: false
+weight: 0.28
+weight_unit: kg
+airflow: passive
+comments: '[MikroTik E60iUGS hEX S (2025) Datasheet](https://mikrotik.com/product/hex_s_2025)'
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: sfp1
+    type: 10gbase-x-sfpp
+    label: 2.5G SFP
+power-ports:
+  - name: DC jack
+    type: dc-terminal
+    maximum_draw: 10
+    description: DC jack input 12-57V

@@ -1,0 +1,70 @@
+---
+manufacturer: FS
+model: FHD-1MTP12LCDOM5AF
+part_number: '174251'
+comments: FHD MTP-LC Cassette, OM5 Multimode, Type AF, 24 Fibers, 1x MTP-24 (Male) to 12x LC Duplex
+front-ports:
+  - name: '{module}:1-2'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 1
+    color: 32cd32
+  - name: '{module}:3-4'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 2
+    color: 32cd32
+  - name: '{module}:5-6'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 3
+    color: 32cd32
+  - name: '{module}:7-8'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 4
+    color: 32cd32
+  - name: '{module}:9-10'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 5
+    color: 32cd32
+  - name: '{module}:11-12'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 6
+    color: 32cd32
+  - name: '{module}:13-14'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 7
+    color: 32cd32
+  - name: '{module}:15-16'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 8
+    color: 32cd32
+  - name: '{module}:17-18'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 9
+    color: 32cd32
+  - name: '{module}:19-20'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 10
+    color: 32cd32
+  - name: '{module}:21-22'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 11
+    color: 32cd32
+  - name: '{module}:23-24'
+    type: lc
+    rear_port: '{module}:1-24'
+    rear_port_position: 12
+    color: 32cd32
+rear-ports:
+  - name: '{module}:1-24'
+    type: mpo
+    positions: 12
