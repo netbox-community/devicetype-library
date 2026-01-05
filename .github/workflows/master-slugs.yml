@@ -11,14 +11,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ssh-key: ${{secrets.SLUG_DEPLOY_KEY}}
       - name: Setup Python
         uses: actions/setup-python@v5
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.12'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv
