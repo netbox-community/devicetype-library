@@ -1,0 +1,37 @@
+---
+manufacturer: Supermicro
+model: SuperChassis 113TQ-R700WB
+slug: supermicro-superchassis-113TQ-R700WB
+part_number: CSE-113TQ-R700WB
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: Supermicro SuperChassis 113TQ-R700WB (https://www.supermicro.com/en/products/archive/chassis/sc113tq-r700wb)
+weight: 16.78
+weight_unit: kg
+console-ports:
+  - name: COM1
+    type: de-9
+module-bays:
+  - name: PSU0
+    position: PSU 0
+  - name: PSU1
+    position: PSU 1
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe FH slot
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe FH slot
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe LP slot
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
