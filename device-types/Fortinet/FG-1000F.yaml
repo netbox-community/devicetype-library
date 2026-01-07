@@ -14,15 +14,11 @@ airflow: front-to-rear
 console-ports:
   - name: Console
     type: rj-45
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 408
-    allocated_draw: 210
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 408
-    allocated_draw: 210
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: ha
     type: 2.5gbase-t
