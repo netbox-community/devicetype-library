@@ -1,0 +1,26 @@
+---
+manufacturer: Dell
+model: VxRail VP-760
+slug: dell-vxrail-vp-760
+weight: 25.1
+weight_unit: kg
+u_height: 1
+is_full_depth: true
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: power supply unit 1
+    position: PSU-1
+    label: '1'
+    description: 1800W
+  - name: power supply unit 2
+    position: PSU-2
+    label: '2'
+    description: 1800W
