@@ -7,63 +7,63 @@ weight_unit: kg
 comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2025/02/so-ds-h-md-09-xxxx-yyyy-8c-r5.5.pdf) 8-channel 800G 16QAM DWDM Mux/Demux
   with Extension and Monitor ports'
 rear-ports:
-  - name: Line
+  - name: Filter/{module}/Line
     type: lc-upc
     description: WDM Line I/O
     positions: 13
 front-ports:
-  - name: Ext
+  - name: Filter/{module}/Ext
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 1
     description: Incoming fiber for extension channel
-  - name: Mon
+  - name: Filter/{module}/Mon
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 2
     description: Monitor port for line channel
-  - name: NC
+  - name: Filter/{module}/NC
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 3
     description: Not connected port
-  - name: '950'
+  - name: 'Filter/{module}/950'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 4
     description: 195.000 THz
-  - name: '951.5'
+  - name: 'Filter/{module}/951.5'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 5
     description: 195.150 THz
-  - name: '953'
+  - name: 'Filter/{module}/953'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 6
     description: 195.300 THz
-  - name: '954.5'
+  - name: 'Filter/{module}/954.5'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 7
     description: 195.450 THz
-  - name: '956'
+  - name: 'Filter/{module}/956'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 8
     description: 195.600 THz
-  - name: '957.5'
+  - name: 'Filter/{module}/957.5'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 9
     description: 195.750 THz
-  - name: '959'
+  - name: 'Filter/{module}/959'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 10
     description: 195.900 THz
-  - name: '960.5'
+  - name: 'Filter/{module}/960.5'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 11
     description: 196.050 THz

@@ -7,63 +7,63 @@ weight_unit: kg
 comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2023/01/so-ds-h-md-09-xxx-yyy-r5.5.pdf) 8-channel DWDM Mux/Demux with Extension
   and Monitor ports'
 rear-ports:
-  - name: Line
+  - name: Filter/{module}/Line
     type: lc-upc
     description: WDM Line I/O
     positions: 13
 front-ports:
-  - name: Ext
+  - name: Filter/{module}/Ext
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 1
     description: Incoming fiber for extension channel
-  - name: Mon
+  - name: Filter/{module}/Mon
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 2
     description: Monitor port for line channel
-  - name: NC
+  - name: Filter/{module}/NC
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 3
     description: Not connected port
-  - name: '953'
+  - name: 'Filter/{module}/953'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 4
     description: 195.3 THz
-  - name: '954'
+  - name: 'Filter/{module}/954'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 5
     description: 195.4 THz
-  - name: '955'
+  - name: 'Filter/{module}/955'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 6
     description: 195.5 THz
-  - name: '956'
+  - name: 'Filter/{module}/956'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 7
     description: 195.6 THz
-  - name: '957'
+  - name: 'Filter/{module}/957'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 8
     description: 195.7 THz
-  - name: '958'
+  - name: 'Filter/{module}/958'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 9
     description: 195.8 THz
-  - name: '959'
+  - name: 'Filter/{module}/959'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 10
     description: 195.9 THz
-  - name: '960'
+  - name: 'Filter/{module}/960'
     type: lc-upc
-    rear_port: Line
+    rear_port: Filter/{module}/Line
     rear_port_position: 11
     description: 196.0 THz
