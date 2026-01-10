@@ -1,0 +1,76 @@
+---
+manufacturer: Complete Connect
+model: MX-PSM4-SM-MOD-CASS
+description: MTP/MPO BASE-8 SM Cassette Module 24 Fibre
+comments: '[Product Page](https://www.completeconnect.co.uk/products/mx-series-plr4-24-fibre-singlemode-breakout-modular-cassette)'
+front-ports:
+  - name: '{module}:A1'
+    type: lc
+    rear_port: '{module}:A'
+    rear_port_position: 1
+    color: 0000ff
+  - name: '{module}:A2'
+    type: lc
+    rear_port: '{module}:A'
+    rear_port_position: 2
+    color: 0000ff
+  - name: '{module}:A3'
+    type: lc
+    rear_port: '{module}:A'
+    rear_port_position: 3
+    color: 0000ff
+  - name: '{module}:A4'
+    type: lc
+    rear_port: '{module}:A'
+    rear_port_position: 4
+    color: 0000ff
+  - name: '{module}:B1'
+    type: lc
+    rear_port: '{module}:B'
+    rear_port_position: 1
+    color: 0000ff
+  - name: '{module}:B2'
+    type: lc
+    rear_port: '{module}:B'
+    rear_port_position: 2
+    color: 0000ff
+  - name: '{module}:B3'
+    type: lc
+    rear_port: '{module}:B'
+    rear_port_position: 3
+    color: 0000ff
+  - name: '{module}:B4'
+    type: lc
+    rear_port: '{module}:B'
+    rear_port_position: 4
+    color: 0000ff
+  - name: '{module}:C1'
+    type: lc
+    rear_port: '{module}:C'
+    rear_port_position: 1
+    color: 0000ff
+  - name: '{module}:C2'
+    type: lc
+    rear_port: '{module}:C'
+    rear_port_position: 2
+    color: 0000ff
+  - name: '{module}:C3'
+    type: lc
+    rear_port: '{module}:C'
+    rear_port_position: 3
+    color: 0000ff
+  - name: '{module}:C4'
+    type: lc
+    rear_port: '{module}:C'
+    rear_port_position: 4
+    color: 0000ff
+rear-ports:
+  - name: '{module}:A'
+    type: mpo
+    positions: 4
+  - name: '{module}:B'
+    type: mpo
+    positions: 4
+  - name: '{module}:C'
+    type: mpo
+    positions: 4

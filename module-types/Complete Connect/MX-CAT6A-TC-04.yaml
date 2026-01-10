@@ -1,0 +1,35 @@
+---
+manufacturer: Complete Connect
+model: MX-CAT6A-TC-04
+description: MX Series RJ45 Through Coupler Cassette, 4 Ports Cat6A
+comments: '[Product Page](https://www.completeconnect.co.uk/products/mx-series-rj45-through-coupler-cassette)'
+front-ports:
+  - name: '{module}:1'
+    type: 8p8c
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: 8p8c
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - name: '{module}:3'
+    type: 8p8c
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - name: '{module}:4'
+    type: 8p8c
+    rear_port: '{module}:4'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}:1'
+    type: 8p8c
+    positions: 1
+  - name: '{module}:2'
+    type: 8p8c
+    positions: 1
+  - name: '{module}:3'
+    type: 8p8c
+    positions: 1
+  - name: '{module}:4'
+    type: 8p8c
+    positions: 1
