@@ -1,0 +1,22 @@
+---
+manufacturer: UGREEN
+model: DXP8800Plus
+slug: ugreen-dxp8800plus
+description: NASync DXP8800 Plus 8-Bay 10GbE NAS
+part_number: dxp8800plus
+u_height: 5.0
+airflow: rear-to-front
+weight: 9.6
+weight_unit: kg
+is_full_depth: false
+comments: '[UGREEN NASync DXP8800 Plus Specs](https://support.ugnas.com/knowledgecenter/#/detail/eyJjb2RlIjoiMiYmNzg2In0=)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+interfaces:
+  - name: LAN 1
+    type: 10gbase-t
+    label: LAN 1
+  - name: LAN 2
+    type: 10gbase-t
+    label: LAN 2
