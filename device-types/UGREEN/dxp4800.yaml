@@ -1,0 +1,22 @@
+---
+manufacturer: UGREEN
+model: DXP4800
+slug: ugreen-dxp4800
+description: NASync DXP4800 4-Bay 2.5GbE NAS
+part_number: dxp4800
+u_height: 4.0
+airflow: rear-to-front
+weight: 3.79
+weight_unit: kg
+is_full_depth: false
+comments: '[UGREEN NASync DXP4800 Specs](https://support.ugnas.com/knowledgecenter/#/detail/eyJjb2RlIjoiMiYmNzg2In0=)'
+power-ports:
+  - name: PSU
+    type: dc-terminal
+interfaces:
+  - name: LAN 1
+    type: 2.5gbase-t
+    label: LAN 1
+  - name: LAN 2
+    type: 2.5gbase-t
+    label: LAN 2
