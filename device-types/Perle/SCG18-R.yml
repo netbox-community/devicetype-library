@@ -1,0 +1,181 @@
+---
+manufacturer: Perle
+model: IOLAN SCG18 R
+slug: perle-iolan-scg18-r
+description: IOLAN SCG18-R Terminal Server
+part_number: 04032838
+u_height: 1.0
+is_full_depth: false
+airflow: right-to-left
+weight: 3.25
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 15
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 15
+console-server-ports:
+  - name: tty1
+    type: rj-45
+    label: RS232-1
+  - name: tty2
+    type: rj-45
+    label: RS232-2
+  - name: tty3
+    type: rj-45
+    label: RS232-3
+  - name: tty4
+    type: rj-45
+    label: RS232-4
+  - name: tty5
+    type: rj-45
+    label: RS232-5
+  - name: tty6
+    type: rj-45
+    label: RS232-6
+  - name: tty7
+    type: rj-45
+    label: RS232-7
+  - name: tty8
+    type: rj-45
+    label: RS232-8
+  - name: tty9
+    type: rj-45
+    label: RS232-9
+  - name: tty10
+    type: rj-45
+    label: RS232-10
+  - name: tty11
+    type: rj-45
+    label: RS232-11
+  - name: tty12
+    type: rj-45
+    label: RS232-12
+  - name: tty13
+    type: rj-45
+    label: RS232-13
+  - name: tty14
+    type: rj-45
+    label: RS232-14
+  - name: tty15
+    type: rj-45
+    label: RS232-15
+  - name: tty16
+    type: rj-45
+    label: RS232-16
+  - name: tty17
+    type: rj-45
+    label: RS232-17
+  - name: tty18
+    type: rj-45
+    label: RS232-18
+  - name: tty19
+    type: rj-45
+    label: RS232-19
+  - name: tty20
+    type: rj-45
+    label: RS232-20
+  - name: tty21
+    type: rj-45
+    label: RS232-21
+  - name: tty22
+    type: rj-45
+    label: RS232-22
+  - name: tty23
+    type: rj-45
+    label: RS232-23
+  - name: tty24
+    type: rj-45
+    label: RS232-24
+  - name: tty25
+    type: rj-45
+    label: RS232-25
+  - name: tty26
+    type: rj-45
+    label: RS232-26
+  - name: tty27
+    type: rj-45
+    label: RS232-27
+  - name: tty28
+    type: rj-45
+    label: RS232-28
+  - name: tty29
+    type: rj-45
+    label: RS232-29
+  - name: tty30
+    type: rj-45
+    label: RS232-30
+  - name: tty31
+    type: rj-45
+    label: RS232-31
+  - name: tty32
+    type: rj-45
+    label: RS232-32
+  - name: tty33
+    type: rj-45
+    label: RS232-33
+  - name: tty34
+    type: rj-45
+    label: RS232-34
+  - name: tty35
+    type: rj-45
+    label: RS232-35
+  - name: tty36
+    type: rj-45
+    label: RS232-36
+  - name: tty37
+    type: rj-45
+    label: RS232-37
+  - name: tty38
+    type: rj-45
+    label: RS232-38
+  - name: tty39
+    type: rj-45
+    label: RS232-39
+  - name: tty40
+    type: rj-45
+    label: RS232-40
+  - name: tty41
+    type: rj-45
+    label: RS232-41
+  - name: tty42
+    type: rj-45
+    label: RS232-42
+  - name: tty43
+    type: rj-45
+    label: RS232-43
+  - name: tty44
+    type: rj-45
+    label: RS232-44
+  - name: tty45
+    type: rj-45
+    label: RS232-45
+  - name: tty46
+    type: rj-45
+    label: RS232-46
+  - name: tty47
+    type: rj-45
+    label: RS232-47
+  - name: tty48
+    type: rj-45
+    label: RS232-48
+  - name: tty50
+    type: usb-a
+    label: A
+  - name: tty51
+    type: usb-a
+    label: B
+interfaces:
+  - name: eth1
+    type: 1000base-x-sfp
+    description: 1G SFP and RJ-45 combo uplink
+  - name: eth2
+    type: 1000base-x-sfp
+    description: 1G SFP and RJ-45 combo uplink
