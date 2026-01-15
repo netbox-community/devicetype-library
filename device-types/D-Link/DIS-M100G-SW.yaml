@@ -1,0 +1,25 @@
+---
+manufacturer: D-Link
+model: DIS-M100G-SW
+slug: d-link-dis-M100g-sw
+part_number: DIS-M100G-SW
+comments: |
+  ## Manufacturer information
+  - [D-Link DIS-M100G-SW DIN Rail Unmanaged Mediaconverter](https://dlink.ru/ru/products/4/2458.html)
+is_full_depth: false
+airflow: passive
+weight: 0.19
+weight_unit: kg
+u_height: 0
+power-ports:
+  - name: DC
+    label: 12-48V 0.5-0.1A
+    type: dc-terminal
+    maximum_draw: 4
+front-ports:
+  - name: Ethernet
+    type: 8p8c
+    rear_port: Optic
+rear-ports:
+  - name: Optic
+    type: sc-upc
