@@ -10,16 +10,10 @@ weight: 9.93
 weight_unit: kg
 airflow: front-to-rear
 console-ports:
-  - name: Concole
+  - name: concole0
     type: rj-45
-  - name: Front USB1
-    type: usb-a
-  - name: Front USB2
-    type: usb-a
-  - name: Front USB3
+  - name: console1
     type: usb-c
-  - name: Back USB1
-    type: usb-a
 module-bays:
   - name: Module 1
     position: '1'
