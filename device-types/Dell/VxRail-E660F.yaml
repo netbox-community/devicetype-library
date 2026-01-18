@@ -1,0 +1,44 @@
+---
+manufacturer: Dell
+model: VxRail E660F
+slug: dell-vxrail-e660f
+weight: 21
+weight_unit: kg
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Owner Manual](https://www.delltechnologies.com/asset/en-us/products/converged-infrastructure/technical-support/docu87343.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Network daughter card PCI
+    position: NDC-1
+    label: '1'
+    description: PCIe2/3 8x Network daughter card
+  - name: Riser PCIe slot 1
+    position: PCIe-1
+    label: '1'
+    description: PCIe2/3 4/16x Low profile
+  - name: Riser PCIe slot 2
+    position: PCIe-2
+    label: '2'
+    description: PCIe2/3 16x Low profile
+  - name: Riser PCIe slot 3
+    position: PCIe-3
+    label: '3'
+    description: PCIe2/3 16x Low profile
+  - name: power supply unit 1
+    position: PSU-1
+    label: '1'
+    description: 1100W
+  - name: power supply unit 2
+    position: PSU-2
+    label: '2'
+    description: 1100W
