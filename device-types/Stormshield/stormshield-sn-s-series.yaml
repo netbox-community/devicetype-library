@@ -1,22 +1,17 @@
 ---
 manufacturer: Stormshield
-model: SN-M-SERIES-520
-slug: stormshield-sn-m-series-520
-part_number: SN-M-SERIES-520
-u_height: 1
-is_full_depth: True
-comments: '[Stormshield SN-M-SERIES-520 Data Sheet](https://www.stormshield.com/wp-content/uploads/SN-M-Series-520-Datasheet-EN.pdf)'
-weight: 4.17
+model: SN-S-SERIES
+slug: stormshield-sn-s-series
+part_number: SN-S-SERIES
+u_height: 0.5
+is_full_depth: false
+comments: '[Stormshield SN-S-SERIES (220 & 320) Data Sheet](https://www.stormshield.com/wp-content/uploads/SN-S-Series-220-320-Datasheet-EN.pdf)'
+weight: 1.67
 weight_unit: kg
 airflow: front-to-rear
 console-ports:
   - name: console0
-    type: rj-45
-  - name: console1
     type: usb-c
-module-bays:
-  - name: Module 1
-    position: '1'
 power-ports:
   - name: PS1
   - name: PS2
@@ -38,6 +33,4 @@ interfaces:
   - name: port8
     type: 2.5gbase-t
   - name: port9
-    type: 1000base-x-sfp
-  - name: port10
     type: 1000base-x-sfp
