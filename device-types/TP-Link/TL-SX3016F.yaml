@@ -4,6 +4,7 @@ model: TL-SX3016F
 slug: tp-link-tl-sx3016f
 u_height: 1
 is_full_depth: false
+airflow: rear-to-side
 comments: '[TP-Link TL-SX3016F](https://www.tp-link.com/us/business-networking/omada-sdn-switch/tl-sx3016f/)'
 console-ports:
   - name: Serial Console
@@ -18,9 +19,11 @@ power-ports:
   - name: PWR1
     type: iec-60320-c14
     label: PWR1
+    maximum_draw: 33
   - name: PWR2
     type: iec-60320-c14
     label: PWR2
+    maximum_draw: 33
 interfaces:
   - name: ten-gigabitEthernet 1/0/1
     type: 10gbase-x-sfpp

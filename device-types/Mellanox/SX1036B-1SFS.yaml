@@ -1,0 +1,102 @@
+---
+manufacturer: Mellanox
+model: SX1036B-1SFS
+slug: mellanox-sx1036b-1sfs
+part_number: MSX1036B-1SFS
+u_height: 1.0
+is_full_depth: true
+airflow: rear-to-front
+weight: 8.02
+weight_unit: kg
+comments: '[Mellanox SX1036B Datasheet](https://network.nvidia.com/pdf/user_manuals/1U_HW_UM_SX10XX_SX1X00.pdf)'
+console-ports:
+  - name: Serial Console
+    type: rj-45
+    label: CONSOLE
+  - name: USB Console
+    type: usb-mini-b
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+    maximum_draw: 224
+interfaces:
+  - name: IB1/1
+    type: infiniband-fdr
+  - name: IB1/2
+    type: infiniband-fdr
+  - name: IB1/3
+    type: infiniband-fdr
+  - name: IB1/4
+    type: infiniband-fdr
+  - name: IB1/5
+    type: infiniband-fdr
+  - name: IB1/6
+    type: infiniband-fdr
+  - name: IB1/7
+    type: infiniband-fdr
+  - name: IB1/8
+    type: infiniband-fdr
+  - name: IB1/9
+    type: infiniband-fdr
+  - name: IB1/10
+    type: infiniband-fdr
+  - name: IB1/11
+    type: infiniband-fdr
+  - name: IB1/12
+    type: infiniband-fdr
+  - name: IB1/13
+    type: infiniband-fdr
+  - name: IB1/14
+    type: infiniband-fdr
+  - name: IB1/15
+    type: infiniband-fdr
+  - name: IB1/16
+    type: infiniband-fdr
+  - name: IB1/17
+    type: infiniband-fdr
+  - name: IB1/18
+    type: infiniband-fdr
+  - name: IB1/19
+    type: infiniband-fdr
+  - name: IB1/20
+    type: infiniband-fdr
+  - name: IB1/21
+    type: infiniband-fdr
+  - name: IB1/22
+    type: infiniband-fdr
+  - name: IB1/23
+    type: infiniband-fdr
+  - name: IB1/24
+    type: infiniband-fdr
+  - name: IB1/25
+    type: infiniband-fdr
+  - name: IB1/26
+    type: infiniband-fdr
+  - name: IB1/27
+    type: infiniband-fdr
+  - name: IB1/28
+    type: infiniband-fdr
+  - name: IB1/29
+    type: infiniband-fdr
+  - name: IB1/30
+    type: infiniband-fdr
+  - name: IB1/31
+    type: infiniband-fdr
+  - name: IB1/32
+    type: infiniband-fdr
+  - name: IB1/33
+    type: infiniband-fdr
+  - name: IB1/34
+    type: infiniband-fdr
+  - name: IB1/35
+    type: infiniband-fdr
+  - name: IB1/36
+    type: infiniband-fdr
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: MGT
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+    label: MGT
