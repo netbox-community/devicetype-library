@@ -32,7 +32,6 @@ console-ports:
     description: 2nd Controller Area Network communication port 
 interfaces:
   - name: '{module}-eth0'
-    label: '0'
     type: 100base-tx
     poe_mode: pse
     poe_type: type1-ieee802.3af
