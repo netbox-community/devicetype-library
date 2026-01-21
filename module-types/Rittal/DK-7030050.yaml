@@ -1,7 +1,7 @@
 ---
 manufacturer: Rittal
 model: DK 7030050
-part_number: "4028177659377"
+part_number: '4028177659377'
 comments: |
   [Rittal CMC III Power Supply Unit for monitoring system](https://www.rittal.com/us-en_US/products/PG20231215ZUB101/PG20240405ZUB001/PG20240405ZUB002/PRO23680?variantId=7030050):
 
@@ -13,21 +13,21 @@ comments: |
 
   [Documentation here](https://www.rittal.com/imf/none/3_5181/7030050_Instructions_EN).
 console-ports:
-  - name: "{module}-can1"
+  - name: unit{module}/can1
     label: CAN 1
     type: rj-45
     description: 1st CAN BUS connection port
-  - name: "{module}-can2"
+  - name: unit{module}/can2
     label: CAN 2
     type: rj-45
     description: 2nd CAN BUS connection port
 power-outlets:
-  - name: "{module}-outlet1"
+  - name: unit{module}/outlet1
     type: iec-60320-c13
-  - name: "{module}-outlet2"
+  - name: unit{module}/outlet2
     type: iec-60320-c13
 power-ports:
-  - name: "{module}-power"
+  - name: unit{module}/power
     type: iec-60320-c14
     maximum_draw: 2300
     description: Input of 100 - 230 V, 10 A, 50/60 Hz

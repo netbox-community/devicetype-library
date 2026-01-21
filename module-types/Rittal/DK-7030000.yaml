@@ -1,7 +1,7 @@
 ---
 manufacturer: Rittal
 model: DK 7030000
-part_number: "4028177659322"
+part_number: '4028177659322'
 comments: |
   [Rittal CMC III Processing Unit for monitoring system](https://www.rittal.com/com-en/products/PG20231215ZUB101/PG20240405ZUB001/PG20240405ZUB002/PRO23677?variantId=7030000):
 
@@ -13,30 +13,30 @@ comments: |
 
   [Datasheet here](https://www.rittal.com/imf/none/3_6067/7030000_Technical_system_catalogue_EN).
 console-ports:
-  - name: "{module}-init-0"
+  - name: unit{module}/init0
     type: usb-mini-b
     description: Mini-USB console port (Type B) for initial configuration
-  - name: "{module}-master"
+  - name: unit{module}/master
     type: usb-a
     description: USB master port
-  - name: "{module}-serial"
+  - name: unit{module}/serial
     type: rj-12
     description: Socket for accessory modules (GSM, ISDN or Display Units)
-  - name: "{module}-can1"
+  - name: unit{module}/can1
     label: CAN 1
     type: rj-45
     description: 1st Controller Area Network communication port
-  - name: "{module}-can2"
+  - name: unit{module}/can2
     label: CAN 2
     type: rj-45
     description: 2nd Controller Area Network communication port
 interfaces:
-  - name: "{module}-eth0"
+  - name: unit{module}/eth0
     type: 100base-tx
     poe_mode: pse
     poe_type: type1-ieee802.3af
 power-ports:
-  - name: "{module}-power"
+  - name: unit{module}/power
     type: dc-terminal
     maximum_draw: 48
     description: 24V DC max. 2A

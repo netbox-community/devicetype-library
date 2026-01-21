@@ -1,7 +1,7 @@
 ---
 manufacturer: Rittal
 model: DK 7030040
-part_number: "4028177659360"
+part_number: '4028177659360'
 comments: |
   [Rittal CMC III I/O Unit for monitoring system](https://www.rittal.com/com-en/products/PG20231215ZUB101/PG20240405ZUB001/PG20240405ZUB002/PRO23679?variantId=7030040):
 
@@ -12,11 +12,11 @@ comments: |
 
   [Documentation here](https://www.rittal.com/imf/none/3_5176/7030040_Instructions_EN).
 console-ports:
-  - name: "{module}-can1"
+  - name: unit{module}/can1
     label: CAN 1
     type: rj-45
     description: 1st CAN BUS connection port
-  - name: "{module}-can2"
+  - name: unit{module}/can2
     label: CAN 2
     type: rj-45
     description: 2nd CAN BUS connection port
