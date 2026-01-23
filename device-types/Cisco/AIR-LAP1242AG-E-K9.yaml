@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: Aironet 1242AG-E
+slug: cisco-air-lap1242ag-e-k9
+part_number: AIR-LAP1242AG-E-K9
+u_height: 0
+is_full_depth: false
+weight: 0.9
+weight_unit: kg
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: WAN
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11g
