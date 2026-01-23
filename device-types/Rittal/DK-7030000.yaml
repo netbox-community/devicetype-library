@@ -1,0 +1,50 @@
+---
+manufacturer: Rittal
+model: DK 7030000
+slug: rittal-dk-7030000
+part_number: '4028177659322'
+comments: |
+  [Rittal CMC III Processing Unit for monitoring system](https://www.rittal.com/com-en/products/PG20231215ZUB101/PG20240405ZUB001/PG20240405ZUB002/PRO23677?variantId=7030000):
+
+  Dimensions (W x H x D): 138 mm x 40 mm x 132 mm.
+  Temperature range in Celsius: 0 ... 45.
+  Gross weight: 0.64 kg.
+  Protection category: IP 30 according to IEC 60 529.
+  NOTE: Central unit of the CMC III monitoring system. Maximum number of sensors is 32.
+
+  [Datasheet here](https://www.rittal.com/imf/none/3_6067/7030000_Technical_system_catalogue_EN).
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 0.64
+weight_unit: kg
+front_image: true
+rear_image: true
+console-ports:
+  - name: init0
+    type: usb-mini-b
+    description: Mini-USB console port (Type B) for initial configuration
+  - name: master
+    type: usb-a
+    description: USB master port
+  - name: serial
+    type: rj-12
+    description: Socket for accessory modules (GSM, ISDN or Display Units)
+  - name: can1
+    label: CAN 1
+    type: rj-45
+    description: 1st Controller Area Network communication port
+  - name: can2
+    label: CAN 2
+    type: rj-45
+    description: 2nd Controller Area Network communication port
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: power
+    type: dc-terminal
+    maximum_draw: 48
+    description: 24V DC max. 2A
