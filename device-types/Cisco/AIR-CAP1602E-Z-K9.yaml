@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: Aironet 1602E
+slug: cisco-air-cap1602e-z-k9
+part_number: AIR-CAP1602E-Z-K9
+comments: '[Cisco Aironet 2600 Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-2600-series/data_sheet_c78-709514.html)'
+u_height: 0
+is_full_depth: false
+weight: 1
+weight_unit: kg
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11n
+  - name: Dot11Radio1
+    type: ieee802.11n
+  - name: GigabitEthernet0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+console-ports:
+  - name: Con
+    type: rj-45
