@@ -15,13 +15,10 @@ airflow: passive
 weight: 0.54
 weight_unit: kg
 front_image: true
-module-bays:
+device-bays:
   - name: CMC III SU 1
-    position: '1'
-    description: 1st slot for CMC III module Unit
+    description: 1st slot for CMC III device Unit
   - name: CMC III SU 2
-    position: '2'
-    description: 2nd slot for CMC III module Unit
+    description: 2nd slot for CMC III device Unit
   - name: CMC III SU 3
-    position: '3'
-    description: 3rd slot for CMC III module Unit
+    description: 3rd slot for CMC III device Unit
