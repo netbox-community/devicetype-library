@@ -23,8 +23,10 @@ console-ports:
   - name: can1
     label: CAN 1
     type: rj-45
+    _is_power_source: true
     description: 1st CAN BUS connection port
   - name: can2
     label: CAN 2
     type: rj-45
+    _is_power_source: true
     description: 2nd CAN BUS connection port
