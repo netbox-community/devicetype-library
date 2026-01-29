@@ -1,0 +1,61 @@
+---
+manufacturer: Ubiquiti
+model: USW-Pro-8-PoE
+slug: ubiquiti-usw-pro-8-poe
+part_number: USW-Pro-8-PoE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2.1
+weight_unit: kg
+front_image: true
+rear_image: true
+description: "8-port managed Layer 3 switch with (6) 1G PoE+ ports, (2) 1G PoE++ ports, and (2) 10G SFP+ ports."
+
+width: 200
+height: 44
+depth: 248
+
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: SFP+ 9
+    type: 10gbase-x-sfpp
+  - name: SFP+ 10
+    type: 10gbase-x-sfpp
+
+power-ports:
+  - name: AC Input
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 30
