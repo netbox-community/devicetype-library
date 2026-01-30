@@ -1,0 +1,29 @@
+---
+manufacturer: QNAP
+model: TVS-EC1580MU-SAS-RP
+slug: qnap-tvs-ec1580mu-sas-rp
+part_number: TVS-EC1580MU-SAS-RP
+u_height: 2
+airflow: front-to-rear
+is_full_depth: true
+weight: 14.18
+weight_unit: kg
+comments: '[TVS-EC1580MU-SAS-RP product page](https://www.qnap.com/en/product/tvs-ec1580mu-sas-rp)'
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+interfaces:
+  - name: Adapter 1
+    type: 1000base-t
+  - name: Adapter 2
+    type: 1000base-t
+  - name: Adapter 3
+    type: 1000base-t
+  - name: Adapter 4
+    type: 1000base-t

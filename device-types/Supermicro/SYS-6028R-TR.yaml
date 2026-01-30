@@ -1,0 +1,47 @@
+---
+manufacturer: Supermicro
+model: SuperServer 6028R-TR
+slug: supermicro-sys-6028r-tr
+part_number: SYS-6028R-TR
+u_height: 2
+is_full_depth: true
+comments: '[SuperServer 6028R-TR (Black)] (https://www.supermicro.com/products/system/2U/6028/SYS-6028R-TR.cfm)'
+weight: 31.2
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+    description: Rear port
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI port
+  - name: Gig-E 1
+    type: 10gbase-t
+  - name: Gig-E 2
+    type: 10gbase-t
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0x 8-slot (CPU1)
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 3.0x 16-slot (CPU1)
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 3.0x 8-slot (CPU1)
+  - name: PCI-E 4
+    position: '4'
+    description: PCI-E 3.0x 16-slot (CPU2)
+  - name: PCI-E 5
+    position: '5'
+    description: PCI-E 3.0x 8-slot (CPU2)
+  - name: PCI-E 6
+    position: '6'
+    description: PCI-E 3.0x 16-slot (CPU2)

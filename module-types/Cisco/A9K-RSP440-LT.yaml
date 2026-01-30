@@ -7,26 +7,24 @@ interfaces:
   - name: MgmtEth0/RSP{module}/CPU0/0
     type: 1000base-t
     mgmt_only: true
-    comments: Out-of-Band Management Interface
+    description: Out-of-Band Management Interface
   - name: MgmtEth0/RSP{module}/CPU0/1
     type: 1000base-t
     mgmt_only: true
-    comments: Out-of-Band Management Interface
+    description: Out-of-Band Management Interface
   - name: External USB2 class-A port
     type: other
     mgmt_only: true
   - name: SFP+_00_10GE
     type: 10gbase-x-sfpp
-    comments: Virtualization Cluster Port
+    description: Virtualization Cluster Port
     mgmt_only: true
   - name: SFP+_01_10GE
     type: 10gbase-x-sfpp
     mgmt_only: true
-    comments: Virtualization Cluster Port
+    description: Virtualization Cluster Port
 console-ports:
   - name: Console
     type: rj-45
-    mgmt_only: true
   - name: Auxiliary
     type: rj-45
-    mgmt_only: true

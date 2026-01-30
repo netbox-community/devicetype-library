@@ -5,14 +5,14 @@ slug: huawei-dorado-5000-v6-enclosure
 u_height: 2
 weight: 50
 weight_unit: kg
+subdevice_role: parent
 airflow: front-to-rear
 is_full_depth: true
 module-bays:
   - name: PSU0
-    position: PSU0
+    position: '0'
   - name: PSU1
-    position: PSU1
-  - name: A(up)
-    position: A
-  - name: B(down)
-    position: B
+    position: '1'
+device-bays:
+  - name: Contoller A
+  - name: Contoller B

@@ -1,0 +1,30 @@
+---
+manufacturer: SecurityCode
+model: IPC-R50
+slug: securitycode-ipc-r50
+part_number: ipc-r50
+u_height: 1.0
+is_full_depth: false
+weight: 1
+weight_unit: kg
+comments: '[Cryptogate Data Sheet](https://www.securitycode.ru/upload/iblock/6b0/87i3wadv04rr64kgq9lvnfyjeh7xrdiz/IPC-R50_DataSheet.pdf)'
+airflow: passive
+power-ports:
+  - name: PSU 12v 3a
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 30
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+interfaces:
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port1
+    type: 1000base-x-sfp

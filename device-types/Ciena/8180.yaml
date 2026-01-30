@@ -12,22 +12,17 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-a
-    mgmt_only: true
   - name: 1PPS
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
-    mgmt_only: true
   - name: CLK
     description: Mini SMB GPS (10 MHz) coax connector, in or out, (SW selectable)
     type: other
-    mgmt_only: true
   - name: BITS
     type: rj-45
     description: RJ45 BITS in or out, ToD in or out, or 1PPS in or out
-    mgmt_only: true
 interfaces:
   - name: ILAN1
     type: 100base-tx
@@ -106,31 +101,31 @@ interfaces:
 module-bays:
   - name: PS A
     position: A
-    comments: |
+    description: |
       192-0002-900 8180, DC PLUGGABLE POWER SUPPLY, 2200W
       192-0003-900 8180, AC PLUGGABLE POWER SUPPLY, 2200W
   - name: PS B
     position: B
-    comments: |
+    description: |
       192-0002-900 8180, DC PLUGGABLE POWER SUPPLY, 2200W
       192-0003-900 8180, AC PLUGGABLE POWER SUPPLY, 2200W
   - name: Module 1
     position: '1'
-    comments: |
+    description: |
       * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
       * 192-0050-900 4x100G CFP2-DCO
   - name: Module 2
     position: '2'
-    comments: |
+    description: |
       * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
       * 192-0050-900 4x100G CFP2-DCO
   - name: Module 3
     position: '3'
-    comments: |
+    description: |
       * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
       * 192-0050-900 4x100G CFP2-DCO
   - name: Module 4
     position: '4'
-    comments: |
+    description: |
       * 192-0001-900 1xWAVELOGIC AI 35G/56GBAUD C-BAND FRU MODULE
       * 192-0050-900 4x100G CFP2-DCO

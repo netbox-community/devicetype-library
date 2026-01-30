@@ -4,21 +4,17 @@ model: DCS-7368
 slug: arista-dcs-7368
 part_number: DCS-7368
 u_height: 4
-is_full_depth: false
-comments: '[Arista 7368X4 Series 100/200/400G Data Center Switches](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf'
-power-ports:
-  - name: PS1
-    type: iec-60320-c20
-    maximum_draw: 2000
-  - name: PS2
-    type: iec-60320-c20
-    maximum_draw: 2000
-  - name: PS3
-    type: iec-60320-c20
-    maximum_draw: 2000
-  - name: PS4
-    type: iec-60320-c20
-    maximum_draw: 2000
+is_full_depth: true
+weight: 39
+weight_unit: kg
+comments: >
+  The Arista DCS-7368 is a 4RU modular data center switch delivering up to 12.8
+  Tbps of system forwarding capacity and supporting up to 128 x 100G or
+  32 x 400G ports.
+  It features 8 I/O module slots, a single supervisor slot, and is optimized for hyperscale
+  cloud and AI/ML workloads.
+  [Arista 7368X4 Series Overview](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf)
+
 module-bays:
   - name: Slot 1
     position: '1'
@@ -47,3 +43,14 @@ module-bays:
   - name: Slot 9
     position: '9'
     label: Line Card
+  - name: Switchcard Slot
+    position: SW1
+    label: Switchcard
+  - name: PSU Slot 1
+    position: P1
+  - name: PSU Slot 2
+    position: P2
+  - name: PSU Slot 3
+    position: P3
+  - name: PSU Slot 4
+    position: P4

@@ -11,21 +11,16 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: usb-c
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
   - name: 1PPS / 10MHZ
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
-    mgmt_only: true
   - name: ANT
     type: other
-    mgmt_only: true
     description: GNSS/GPS antenna mini SMB
   - name: SYNC
     type: rj-45
-    mgmt_only: true
     description: 1 RJ45 BITS in or out, ToD in or out, or 1 PPS in or out (software selectable)
 interfaces:
   - name: '1'

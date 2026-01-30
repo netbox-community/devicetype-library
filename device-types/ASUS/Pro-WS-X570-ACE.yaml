@@ -1,0 +1,79 @@
+---
+manufacturer: ASUS
+model: Pro WS X570-ACE
+slug: asus-pro-ws-x570-ace
+comments: |
+  AMD AM4 X570 ATX Workstation motherboard with 3 PCIe 4.0 x16, 14 with IR3555 power stages, DDR4 ECC memory support, Intel Gigabit LAN, dual M.2, U.2, and ASUS Control Center Express
+  [Pro WS X570-ACE](https://www.asus.com/us/motherboards-components/motherboards/all-series/pro-ws-x570-ace/)
+
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.5
+weight_unit: kg
+
+# Should be inside of a case
+subdevice_role: child
+
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    # Unlike a "full" BMC, most functionality requires a windows only client app to use
+    description: RTL8117 pseudo BMC
+
+  # There is a built in NIC from Intel I211-AT
+  - name: Gig-E 1
+    type: 1000base-t
+
+module-bays:
+  - name: CPU 0
+    position: '1'
+    description: AMD AM4 Socket
+
+  # DIMM modeled as newer module-bay instead of inventory item
+  # Bank B.1 is closest to the CPU
+  - name: DIMM B1
+    position: '2'
+    description: DDR4 DIMM slot
+  - name: DIMM B2
+    position: '3'
+    description: DDR4 DIMM slot
+  - name: DIMM A1
+    position: '4'
+    description: DDR4 DIMM slot
+  - name: DIMM A2
+    position: '5'
+    description: DDR4 DIMM slot
+
+  # There are 4 physical slots, 3 are x16, 1 is x1.
+  # Between the x16 slots, there are 24 total lanes to split.
+  # The most optimistic configuration is a single x16 card; once there is more than one x16 slot used
+  # each slot is capped at x8
+  - name: PCIe 1
+    position: '6'
+    description: PCIe 4.0 x16 slot
+
+  - name: PCIe 2
+    position: '7'
+    description: PCIe 4.0 8x (in x16 slot)
+
+  - name: PCIe 3
+    position: '8'
+    # See note about M2_2 below
+    description: PCIe 4.0 x1 slot
+
+  - name: PCIe 4
+    position: '9'
+    description: PCIe 4.0 8x (in x16 slot)
+
+  # There are 2 m.2 slots
+  # Like the PCIe ports, the lanes/speeds can be adjusted in BIOS
+  - name: M.2 1
+    position: '10'
+    description: PCIe 4.0 x4 (M-key 22110, 2280, 2260, 2242)
+
+  - name: M.2 2
+    position: '11'
+    # This socket shares lanes with the PCIe x1 slot. If that is in use, this port is x1 speed, not x2
+    description: PCIe 4.0 x2 (M-key 2280, 2260, 2242)

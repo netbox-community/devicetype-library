@@ -1,0 +1,29 @@
+---
+manufacturer: MikroTik
+model: E50UG
+slug: mikrotik-e50ug
+part_number: E50UG
+u_height: 0
+is_full_depth: false
+weight: 0.28
+weight_unit: kg
+airflow: passive
+comments: '[MikroTik E50UG Datasheet](https://mikrotik.com/product/hex_2024)'
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+power-ports:
+  - name: DC jack
+    type: dc-terminal
+    maximum_draw: 10
+    description: DC jack input 12-28V

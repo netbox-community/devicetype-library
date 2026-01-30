@@ -1,0 +1,70 @@
+---
+manufacturer: APC
+model: AP7822B
+slug: apc-ap7822b
+part_number: AP7822B
+u_height: 2
+is_full_depth: false
+airflow: passive
+weight: 3.36
+weight_unit: kg
+comments: '[APC NetShelter Metered Rack PDU, 2U, 1 phase, 7.4kW 230V 32A, 12 C13 and 4 C19 outlets, IEC 309 inlet](https://www.se.com/au/en/product/download-pdf/AP7822B?filename=Schneider+Electric_NetShelter-Metered-Rack-PDUs_AP7822B.pdf)'
+console-ports:
+  - name: Serial
+    type: rj-12
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-p-n-e-6h
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 12
+    type: iec-60320-c13
+    power_port: Power Port 1
+  - name: Outlet 13
+    type: iec-60320-c19
+    power_port: Power Port 1
+  - name: Outlet 14
+    type: iec-60320-c19
+    power_port: Power Port 1
+  - name: Outlet 15
+    type: iec-60320-c19
+    power_port: Power Port 1
+  - name: Outlet 16
+    type: iec-60320-c19
+    power_port: Power Port 1
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true

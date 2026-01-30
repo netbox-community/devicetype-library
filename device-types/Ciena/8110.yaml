@@ -12,22 +12,17 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: usb-c
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
   - name: 1 PPS/10 MHz
     description: Mini-COAX 1PPS/ToD SMB interface in or out (software selectable).
     type: other
-    mgmt_only: true
   - name: ANT
     description: GNSS/GPS antenna mini SMB.
     type: other
-    mgmt_only: true
   - name: SYNC
     type: rj-45
     description: RJ-45 sync port
-    mgmt_only: true
 interfaces:
   - name: MGMT
     type: 1000base-t
@@ -87,17 +82,17 @@ interfaces:
 module-bays:
   - name: PS A
     position: A
-    comments: |
+    description: |
       170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
       170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
   - name: PS B
     position: B
-    comments: |
+    description: |
       170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
       170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
   - name: Module 1
     position: '1'
-    comments: |
+    description: |
       * 170-0339-900 2x400G QSFP-DD
       * 170-0339-901 2x400G QSFP-DD-macsec
       * 170-0340-900 8x100G QSFP28
@@ -105,7 +100,7 @@ module-bays:
       * 170-0404-900 12x25G SFP28
   - name: Module 2
     position: '2'
-    comments: |
+    description: |
       * 170-0339-900 2x400G QSFP-DD
       * 170-0339-901 2x400G QSFP-DD-macsec
       * 170-0340-900 8x100G QSFP28

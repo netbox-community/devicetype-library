@@ -1,0 +1,45 @@
+---
+manufacturer: Cisco
+model: UCSC-C240-M4L
+slug: cisco-ucsc-c240-m4l
+part_number: UCSC-C240-M4L
+u_height: 2
+weight: 17.8
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+front_image: true
+rear_image: true
+comments: '[Cisco UCS C240 M4 High-Density Rack Server (Large Form Factor Disk Drive Model) Data Sheet](https://andovercg.com/datasheets/cisco-ucs-c-series-rack-servers-c240m4-lff-spec-sheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: Ethernet0
+    type: 1000base-t
+  - name: Ethernet1
+    type: 1000base-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '0'
+  - name: PSU2
+    position: '1'
+  - name: RAID-Controller
+    position: '0'
+  - name: mLOM
+    position: '0'
+  - name: PCI-Slot1
+    position: '1'
+  - name: PCI-Slot2
+    position: '2'
+  - name: PCI-Slot3
+    position: '3'
+  - name: PCI-Slot4
+    position: '4'
+  - name: PCI-Slot5
+    position: '5'
+  - name: PCI-Slot6
+    position: '6'

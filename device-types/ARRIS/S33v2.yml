@@ -1,0 +1,21 @@
+---
+manufacturer: ARRIS
+model: S33v2
+slug: arris-s33v2
+part_number: SB00DAD3S33V2RT
+u_height: 0
+is_full_depth: false
+comments: '[ARRIS Surfboard SB8200 DOCSIS 3.1 Cable Modem](https://www.surfboard.com/products/cable-modems/s33/)'
+weight: 1.52
+weight_unit: lb
+airflow: passive
+power-ports:
+  - name: PS
+    type: dc-terminal
+interfaces:
+  - name: Ethernet 1
+    type: 2.5gbase-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Coax 1
+    type: docsis

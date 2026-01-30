@@ -1,0 +1,32 @@
+---
+manufacturer: Accedian
+model: MetroNID TE
+slug: accedian-metronid-te
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+comments: '[MetroNID Datasheet](https://www.tempestns.com/wp-content/uploads/2020/06/Accedian-TE-TE-S-data.pdf)'
+power-ports:
+  - name: AC Power Adapter
+    type: dc-terminal
+    maximum_draw: 13
+  - name: Dual DC Power
+    type: dc-terminal
+    maximum_draw: 13
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: Monitor-1
+    type: 1000base-t
+  - name: Monitor-2
+    type: 1000base-t
+  - name: A_Client
+    type: 1000base-x-sfp
+  - name: B_Network
+    type: 1000base-x-sfp
+  - name: C_Management
+    type: 1000base-t
+    mgmt_only: true

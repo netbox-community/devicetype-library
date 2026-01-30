@@ -12,10 +12,8 @@ console-ports:
 module-bays:
   - name: PSU1
     position: PSU1
-    type: iec-60320-c14
   - name: PSU2
     position: PSU2
-    type: iec-60320-c14
 interfaces:
   - name: eth0
     type: 1000base-t

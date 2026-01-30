@@ -1,0 +1,25 @@
+---
+manufacturer: Ruckus
+model: ZoneDirector 3000
+slug: ruckus-zonedirector-3000
+part_number: 909-0XXX-ZD00
+u_height: 1
+is_full_depth: true
+weight: 6.37
+weight_unit: kg
+airflow: side-to-rear
+front_image: true
+rear_image: true
+comments: '[Ruckus ZoneDirector 3000 Enterprise-Class Wireless LAN Controller Datasheet](https://webresources.ruckuswireless.com/pdf/datasheets/ds-zonedirector-3000.pdf)'
+console-ports:
+  - name: console
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t

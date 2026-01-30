@@ -62,10 +62,10 @@ interfaces:
     type: 1000base-x-sfp
   - name: vcp-0
     label: Virtual Chassis Port 0
-    type: other
+    type: juniper-vcp
   - name: vcp-1
     label: Virtual Chassis Port 1
-    type: other
+    type: juniper-vcp
 module-bays:
   - name: Power Supply 0
     label: PSU 0

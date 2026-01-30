@@ -3,6 +3,11 @@ manufacturer: Ubiquiti
 model: UniFi Switch Lite 8 PoE
 slug: ubiquiti-unifi-switch-lite-8-poe
 part_number: USW-Lite-8-PoE
+weight: 295
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
 comments: |
   UniFi Switch Lite 8 PoE (8) Gigabit, (1-4) Gigabit PoE+ IEEE 802.3af/at
 
@@ -36,5 +41,5 @@ interfaces:
     type: 1000base-t
 power-ports:
   - name: Input
-    type: nema-5-15p
+    type: dc-terminal
     maximum_draw: 52

@@ -7,7 +7,7 @@ is_full_depth: false
 console-ports:
   - name: DSR
     type: rj-45
-    poe: true
+    _is_power_source: true
 console-server-ports:
   - name: Keyboard
     type: other

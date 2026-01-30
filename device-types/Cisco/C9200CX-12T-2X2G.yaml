@@ -12,11 +12,8 @@ console-ports:
   - name: usb
     type: usb-mini-b
 power-ports:
-  - name: PS-1
-    type: iec-60320-c14
-    maximum_draw: 80
-  - name: PS-Aux
-    type: other
+  - name: PSU
+    type: dc-terminal
     maximum_draw: 80
 interfaces:
   - name: GigabitEthernet1/0/1
@@ -51,3 +48,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: TenGigabitEthernet1/1/4
     type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/1/5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt

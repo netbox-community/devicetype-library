@@ -8,11 +8,11 @@ interfaces:
     type: other
     mgmt_only: true
     label: Settings
-    comments: RNDIS (Ethernet over USB) connection with USB Micro-B connector
+    description: RNDIS (Ethernet over USB) connection with USB Micro-B connector
   - name: Sensors
     type: other
     label: AUX
-    comments: USB-A connection for USB to RS485/Modbus connection to environmental sensors
+    description: USB-A connection for USB to RS485/Modbus connection to environmental sensors
   - name: mgmt
     type: 1000base-t
     mgmt_only: true

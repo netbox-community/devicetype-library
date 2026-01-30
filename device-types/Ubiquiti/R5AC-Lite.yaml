@@ -1,0 +1,18 @@
+---
+manufacturer: Ubiquiti
+model: Rocket 5AC Lite
+slug: ubiquiti-r5ac-lite
+part_number: R5AC-Lite
+u_height: 0
+is_full_depth: false
+comments: '[Rocket 5AC Lite 5GHz](https://dl.ubnt.com/datasheets/RocketAC/Rocket5ac_DS.pdf)'
+weight: 250
+weight_unit: g
+airflow: passive
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: wlan0
+    type: ieee802.11ac

@@ -17,10 +17,10 @@ console-ports:
     type: usb-a
   - name: Sensor_1
     type: other
-    comments: RS485/Modbus connector Full Duplex and Half Duplex
+    description: RS485/Modbus connector Full Duplex and Half Duplex
   - name: Sensor_2
     type: de-9
-    comments: RS232/Modbus connector Full Duplex and Half Duplex
+    description: RS232/Modbus connector Full Duplex and Half Duplex
 interfaces:
   - name: lan1
     type: 100base-tx
@@ -38,7 +38,7 @@ interfaces:
     poe_type: passive-24v-2pair
   - name: gnss_0
     type: other
-    comments: GPS, GLONASS, BeiDou, Galileo and QZSS
+    description: GPS, GLONASS, BeiDou, Galileo and QZSS
   - name: Wifi_2.4
     type: ieee802.11ac
   - name: Wifi_5

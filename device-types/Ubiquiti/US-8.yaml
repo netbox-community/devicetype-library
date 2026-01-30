@@ -3,6 +3,9 @@ manufacturer: Ubiquiti
 model: UniFi Switch 8 Gen1
 slug: ubiquiti-unifi-switch-8-gen1
 part_number: US-8
+weight: 432
+weight_unit: g
+airflow: passive
 comments: |
   UniFi Switch 8 non-PoE, Gen1, Desk/WallMount, External VDC PSU, (8) Gigabit, (1/8) Gigabit PoE Passthrough Port: 802.3af/at or 48V
 
@@ -12,6 +15,8 @@ is_full_depth: false
 interfaces:
   - name: Port 1 (PoE in)
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: Port 2
     type: 1000base-t
   - name: Port 3
@@ -26,7 +31,9 @@ interfaces:
     type: 1000base-t
   - name: Port 8 (PoE out)
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
 power-ports:
   - name: Input
-    type: iec-60320-c14
+    type: dc-terminal
     maximum_draw: 12

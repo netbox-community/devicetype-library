@@ -1,0 +1,60 @@
+---
+manufacturer: D-Link
+model: DGS-1100-10MP
+slug: d-link-dgs-1100-10mp
+part_number: DGS-1100-10MP
+comments: |
+  [D-Link DGS-1100MP/MPP Surveillance Datasheet v1.11 WW](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1100/datasheet/dgs1100mpmppc1surveillancedatasheetv111ww.pdf)
+  - 8 x 10/100/1000BASE-T PoE+ ports (IEEE 802.3af/at)
+  - 2 x 1000BASE-X SFP uplink ports
+  - 130W PoE budget, 30W per port max
+  - Fanless design, compact and silent operation
+
+is_full_depth: false
+u_height: 1
+weight: 1200
+weight_unit: g
+airflow: passive
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 150
+
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 9
+    type: 1000base-x-sfp
+  - name: Port 10
+    type: 1000base-x-sfp

@@ -6,10 +6,8 @@ comments: The power card PRWG card uses-48 V DC power and provides power supply 
 console-ports:
   - name: TST1 {module}
     type: rj-45
-    mgmt_only: true
   - name: TST2 {module}
     type: rj-45
-    mgmt_only: true
 power-ports:
   - name: PSU {module}
     type: dc-terminal

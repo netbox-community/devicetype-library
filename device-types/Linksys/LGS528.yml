@@ -1,0 +1,87 @@
+---
+manufacturer: Linksys
+model: LGS528
+slug: linksys-lgs528
+description: 28-Port Business Managed Gigabit Switch
+part_number: LGS528
+u_height: 1.0
+is_full_depth: true
+airflow: passive
+weight: 2.43
+weight_unit: kg
+comments: "26-Port Gigabit RJ45 Managed Switch + 2 Mixed RJ45/SFP Ports (28 ports in total) \r\n\r\n[Datasheet](https://downloads.linksys.com/downloads/datasheet/en/LGS528_LGS552_English.pdf)"
+front_image: true
+rear_image: true
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: power
+    type: iec-60320-c14
+    maximum_draw: 20
+    allocated_draw: 20
+interfaces:
+  - name: gi1
+    type: 1000base-t
+  - name: gi2
+    type: 1000base-t
+  - name: gi3
+    type: 1000base-t
+  - name: gi4
+    type: 1000base-t
+  - name: gi5
+    type: 1000base-t
+  - name: gi6
+    type: 1000base-t
+  - name: gi7
+    type: 1000base-t
+  - name: gi8
+    type: 1000base-t
+  - name: gi9
+    type: 1000base-t
+  - name: gi10
+    type: 1000base-t
+  - name: gi11
+    type: 1000base-t
+  - name: gi12
+    type: 1000base-t
+  - name: gi13
+    type: 1000base-t
+  - name: gi14
+    type: 1000base-t
+  - name: gi15
+    type: 1000base-t
+  - name: gi16
+    type: 1000base-t
+  - name: gi17
+    type: 1000base-t
+  - name: gi18
+    type: 1000base-t
+  - name: gi19
+    type: 1000base-t
+  - name: gi20
+    type: 1000base-t
+  - name: gi21
+    type: 1000base-t
+  - name: gi22
+    type: 1000base-t
+  - name: gi23
+    type: 1000base-t
+  - name: gi24
+    type: 1000base-t
+  - name: gi25
+    type: 1000base-t
+  - name: gi26
+    type: 1000base-t
+  - name: gi27T
+    type: 1000base-t
+     # comments: Combo port either 1000base-x-sfp or 1000base-t
+  - name: gi28T
+    type: 1000base-t
+     # comments: Combo port either 1000base-x-sfp or 1000base-t
+  - name: gi27F
+    type: 1000base-x-sfp
+     # comments: Combo port either 1000base-x-sfp or 1000base-t
+  - name: gi28F
+    type: 1000base-x-sfp
+     # comments: Combo port either 1000base-x-sfp or 1000base-t

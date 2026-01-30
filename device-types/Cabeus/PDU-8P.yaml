@@ -1,0 +1,43 @@
+---
+manufacturer: Cabeus
+model: PDU-8P
+slug: cabeus-pdu-8p
+description: Cabeus PDU-8P
+part_number: Cabeus-PDU-8P
+u_height: 1
+is_full_depth: false
+airflow: passive
+front_image: true
+weight: 800
+weight_unit: g
+comments: '[PDU-8P Datasheet by Kolyan](https://cabeus.ru/product/7961/)'
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    label: Input
+    description: 220 - 250V AC, 10A
+power-outlets:
+  - name: '1'
+    type: ita-f
+    power_port: Input
+  - name: '2'
+    type: ita-f
+    power_port: Input
+  - name: '3'
+    type: ita-f
+    power_port: Input
+  - name: '4'
+    type: ita-f
+    power_port: Input
+  - name: '5'
+    type: ita-f
+    power_port: Input
+  - name: '6'
+    type: ita-f
+    power_port: Input
+  - name: '7'
+    type: ita-f
+    power_port: Input
+  - name: '8'
+    type: ita-f
+    power_port: Input

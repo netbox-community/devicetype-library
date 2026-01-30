@@ -1,0 +1,110 @@
+---
+manufacturer: SNR
+model: S5210G-24TX
+slug: snr-s5210g-24tx
+part_number: s5210g-24tx
+is_full_depth: false
+u_height: 1
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 3.25
+weight_unit: kg
+interfaces:
+  - name: ge1
+    label: '1'
+    type: 1000base-t
+  - name: ge2
+    label: '2'
+    type: 1000base-t
+  - name: ge3
+    label: '3'
+    type: 1000base-t
+  - name: ge4
+    label: '4'
+    type: 1000base-t
+  - name: ge5
+    label: '5'
+    type: 1000base-t
+  - name: ge6
+    label: '6'
+    type: 1000base-t
+  - name: ge7
+    label: '7'
+    type: 1000base-t
+  - name: ge8
+    label: '8'
+    type: 1000base-t
+  - name: ge9
+    label: '9'
+    type: 1000base-t
+  - name: ge10
+    label: '10'
+    type: 1000base-t
+  - name: ge11
+    label: '11'
+    type: 1000base-t
+  - name: ge12
+    label: '12'
+    type: 1000base-t
+  - name: ge13
+    label: '13'
+    type: 1000base-t
+  - name: ge14
+    label: '14'
+    type: 1000base-t
+  - name: ge15
+    label: '15'
+    type: 1000base-t
+  - name: ge16
+    label: '16'
+    type: 1000base-t
+  - name: ge17
+    label: '17'
+    type: 1000base-t
+  - name: ge18
+    label: '18'
+    type: 1000base-t
+  - name: ge19
+    label: '19'
+    type: 1000base-t
+  - name: ge20
+    label: '20'
+    type: 1000base-t
+  - name: ge21
+    label: '21'
+    type: 1000base-t
+  - name: ge22
+    label: '22'
+    type: 1000base-t
+  - name: ge23
+    label: '23'
+    type: 1000base-t
+  - name: ge24
+    label: '24'
+    type: 1000base-t
+  - name: xe1
+    label: xe1
+    type: 10gbase-x-sfpp
+  - name: xe2
+    label: xe2
+    type: 10gbase-x-sfpp
+  - name: xe3
+    label: xe3
+    type: 10gbase-x-sfpp
+  - name: xe4
+    label: xe4
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: console
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: PSU
+    label: ~100-240V;50/60Hz
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 30
+    description: 90 - 264V AC
+comments: '[SNR-S5210G-24TX Datasheet by Kolyan](https://shop.nag.ru/catalog/00001.kommutatory/40213.fiksirovannye-kommutatory/34613.snr-s5210g-24tx#description)'

@@ -1,0 +1,26 @@
+---
+manufacturer: Patton
+model: SN4170 VOIP
+slug: patton-sn4170
+part_number: SN4170
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: passive
+weight: 0.45
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: Power-In
+    type: dc-terminal
+    maximum_draw: 15
+    allocated_draw: 5
+interfaces:
+  - name: PRI0/0
+    type: other
+    mgmt_only: false
+  - name: Eth0/0
+    type: 1000base-tx
+    mgmt_only: false

@@ -71,8 +71,17 @@ class DeviceType:
         # Add the slug to the list of known slugs
         KNOWN_SLUGS.add((self.slug, self.file_path))
         return True
+    def validate_child_u_height(self):
+        subdevice_role = self.definition.get('subdevice_role')
+        u_height = self.definition.get('u_height', None)
 
+        if subdevice_role == "child" and u_height != 0:
+            self.failureMessage = f'{self.file_path} is a child device but has u_height={u_height}. Must be 0.'
+            return False
+        return True
     def validate_power(self):
+        CUSTOM_POWER_SOURCE_PROPERTY = '_is_power_source'
+
         # Check if power-ports exists
         if self.definition.get('power-ports', False):
             # Verify that is_powered is not set to False. If so, there should not be any power-ports defined
@@ -92,15 +101,15 @@ class DeviceType:
         console_ports = self.definition.get('console-ports', False)
         if console_ports:
             for console_port in console_ports:
-                poe = console_port.get('poe', False)
-                if poe:
+                power_source = console_port.get(CUSTOM_POWER_SOURCE_PROPERTY, False)
+                if power_source:
                     return True
 
         rear_ports = self.definition.get('rear-ports', False)
         if rear_ports:
             for rear_port in rear_ports:
-                poe = rear_port.get('poe', False)
-                if poe:
+                power_source = rear_port.get(CUSTOM_POWER_SOURCE_PROPERTY, False)
+                if power_source:
                     return True
 
         # Check if the device is a child device, and if so, assume it has a valid power source from the parent
@@ -177,6 +186,28 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
+class RackType:
+    def __new__(cls, *args, **kwargs):
+        return super().__new__(cls)
+
+    def __init__(self, definition, file_path, change_type):
+        self.file_path = file_path
+        self.isDevice = False
+        self.definition = definition
+        self.manufacturer = definition.get('manufacturer')
+        self.model = definition.get('model')
+        self._slug_model = self._slugify_model()
+        self.change_type = change_type
+
+    def get_filepath(self):
+        return self.file_path
+
+    def _slugify_model(self):
+        slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        if slugified.endswith("-"):
+            slugified = slugified[:-1]
+        return slugified
+
 def validate_component_names(component_names: (set or None)):
     if len(component_names) > 1:
         verify_name = list(component_names[0])
@@ -195,9 +226,16 @@ def validate_component_names(component_names: (set or None)):
                 return False
     return True
 
-def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or None)):
+def verify_filename(device: (DeviceType or ModuleType or RackType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
+
+    # Check if file is RackType
+    if "rack-types" in device.file_path:
+        if not filename == device._slug_model:
+            device.failureMessage = f'{device.file_path} file name is invalid. Must be the model "{device._slug_model}"'
+            return False
+        return True
 
     if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
         device.failureMessage = f'{device.file_path} file name is invalid. Must be either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'

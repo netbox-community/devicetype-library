@@ -1,0 +1,24 @@
+---
+manufacturer: Huawei
+model: AirEngine5762-12
+slug: huawei-airengine5762-12
+description: Wi-Fi 6 (802.11ax) Access Point (AP)
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 515.0
+weight_unit: g
+comments: '[AirEngine 5762-12 Access Point](https://e.huawei.com/en/products/wlan/indoor-access-points/airengine-5762-12)'
+front_image: true
+rear_image: true
+power-ports:
+  - name: DC-12V
+    type: dc-terminal
+    maximum_draw: 11
+interfaces:
+  - name: GE0/PoE_IN
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

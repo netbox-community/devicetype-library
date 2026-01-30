@@ -1,0 +1,28 @@
+---
+manufacturer: Huawei
+model: AirEngine6761-21T
+slug: huawei-airengine6761-21t
+description: Indoor Wi-Fi 6 (802.11ax) Access Point (AP)
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 1.8
+weight_unit: kg
+comments: '[AirEngine6761-21T Access Point](https://e.huawei.com/en/products/wlan/indoor-access-points/airengine-6761-21t)'
+front_image: true
+rear_image: true
+power-ports:
+  - name: DC-12V
+    type: dc-terminal
+    maximum_draw: 21
+interfaces:
+  - name: 2.5GE/PoE_IN
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false

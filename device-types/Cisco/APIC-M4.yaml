@@ -1,0 +1,41 @@
+---
+manufacturer: Cisco
+model: APIC-M4
+slug: cisco-apic-m4
+part_number: APIC-M4
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 17
+weight_unit: kg
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: mLOM-1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mLOM-2
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCIe slot 1
+    label: PCIe-1
+    description: 'APIC M4 requires at least one of the following NICs: APIC-P-I8D25GF (2 x 10/25G SFP28), APIC-P-ID10GC (2 x 10GBase-T), APIC-PCIE-C25Q-04
+      (4 x 10/25G SFP28)'
+    position: '1'
+  - name: PCIe slot 2
+    label: PCIe-2
+    position: '2'
+  - name: PCIe slot 3
+    label: PCIe-3
+    position: '3'
+  - name: PSU1
+    label: Power Supply 1
+    position: '1'
+  - name: PSU2
+    label: Power Supply 2
+    position: '2'

@@ -1,0 +1,101 @@
+---
+manufacturer: Juniper
+model: MX10008
+slug: juniper-mx10008
+part_number: JNP10008 [MX10008]
+u_height: 13.0
+is_full_depth: true
+front_image: true
+airflow: front-to-rear
+weight: 127
+weight_unit: kg
+description: JNP10008-CHAS
+comments: |
+  [MX10008 Modular Universal Routing Platforms Datasheet](https://www.juniper.net/us/en/products/routers/mx-series/mx10000-modular-universal-routing-platforms-datasheet.html)
+
+  ## MX10008 Hardware Overview
+
+  Juniper Networks MX10008 Universal Routing Platform enables cloud and data center operators to transition from 10-Gigabit Ethernet and 40-Gigabit Ethernet networks to 100-Gigabit Ethernet high-performance networks. The 13 rack unit (13 U) modular chassis can provide 76.8 Tbps of throughput and 20 Bpps of forwarding capacity. The MX10008 router has eight slots for the line cards that can support a maximum of 768 100-Gigabit Ethernet ports (4x100 GbE breakout cables), 192 40-Gigabit Ethernet ports, 192 100-Gigabit Ethernet ports, or 192 400-Gigabit Ethernet ports. You can deploy the MX10008 router in an IP edge network.
+
+  You can deploy MX10008 in the edge of the network for the following functions:
+
+  - Layer 3 Peering
+  - Data Center Gateway
+  - VPLS aggregation
+  - Layer 3 Aggregation
+  - Video Distribution
+
+  The MX10008 router is available in both base and redundant configurations for both AC and DC operation. MX10008 features front to back airflow (also know as airflow out or AFO).
+module-bays:
+  - name: CB0
+    label: Routing Engine 0
+    position: re0
+  - name: CB1
+    label: Routing Engine 1
+    position: re1
+  - name: FPC 0
+    label: FPC 0
+    position: '0'
+  - name: FPC 1
+    label: FPC 1
+    position: '1'
+  - name: FPC 2
+    label: FPC 2
+    position: '2'
+  - name: FPC 3
+    label: FPC 3
+    position: '3'
+  - name: FPC 4
+    label: FPC 4
+    position: '4'
+  - name: FPC 5
+    label: FPC 5
+    position: '5'
+  - name: FPC 6
+    label: FPC 6
+    position: '6'
+  - name: FPC 7
+    label: FPC 7
+    position: '7'
+  - name: PEM0
+    label: PSU 0
+    position: '0'
+  - name: PEM1
+    label: PSU 1
+    position: '1'
+  - name: PEM2
+    label: PSU 2
+    position: '2'
+  - name: PEM3
+    label: PSU 3
+    position: '3'
+  - name: PEM4
+    label: PSU 4
+    position: '4'
+  - name: PEM5
+    label: PSU 5
+    position: '5'
+  - name: Fan Tray 0
+    label: Fan Tray 0
+    position: FanTray0
+  - name: Fan Tray 1
+    label: Fan Tray 1
+    position: FanTray1
+  - name: SFB0
+    label: SFB 0
+    position: SFB0
+  - name: SFB1
+    label: SFB 1
+    position: SFB1
+  - name: SFB2
+    label: SFB 2
+    position: SFB2
+  - name: SFB3
+    label: SFB 3
+    position: SFB3
+  - name: SFB4
+    label: SFB 4
+    position: SFB4
+  - name: SFB5
+    label: SFB 5
+    position: SFB5

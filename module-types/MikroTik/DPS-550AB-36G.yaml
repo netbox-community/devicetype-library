@@ -1,0 +1,14 @@
+---
+manufacturer: MikroTik
+model: DPS-550AB-36G
+part_number: DPS-550AB-36G
+comments: |
+  Hot-swap power supply unit for the ROSE Data Server (RDS2216-2XG-4S+4XS-2XQ).
+
+  Output voltage: 12V / Output power: 550W
+
+  [Product Page](https://mikrotik.com/product/dps_550ab_36g)
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 550

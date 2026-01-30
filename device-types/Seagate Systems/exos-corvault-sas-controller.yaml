@@ -1,0 +1,26 @@
+---
+manufacturer: Seagate Systems
+model: Exos CORVAULT SAS Controller
+slug: seagate-systems-exos-corvault-sas-controller
+part_number: R4106I2500T002-controller
+comments: activ-activ velosCT Controller with 4x MiniSAS HD Ports
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+interfaces:
+  - name: SAS 0
+    type: other #SFF-8644
+  - name: SAS 1
+    type: other #SFF-8644
+  - name: SAS 2
+    type: other #SFF-8644
+  - name: SAS 3
+    type: other #SFF-8644
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: manufacturer-do-not-use
+    type: usb-micro-a
+  - name: serial
+    type: usb-micro-a

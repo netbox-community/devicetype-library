@@ -1,0 +1,84 @@
+---
+manufacturer: ZPE
+model: Net SR Lite
+slug: zpe-nsr-lite-dac
+part_number: NSR-LITE-DAC
+u_height: 1
+is_full_depth: false
+airflow: side-to-rear
+weight: 4.9
+weight_unit: kg
+description: >-
+  Modular chassis, 4-Core Intel CPU, No dedicated Backplane Switch, 32GB mSATA, 5 Slots,
+  2x SFP+, 2x GbE, 3x USB, 1x HDMI, 1x Console, Dual AC Power Supply
+comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
+console-ports:
+  - name: Console
+    label: CONSOLE
+    type: rj-45
+  # 1x HDMI
+console-server-ports:
+  - name: usbS0-1
+    label: USB
+    type: usb-a
+    description: USB 3.0, Front
+  - name: usbS0-2
+    label: USB
+    type: usb-a
+    description: USB 2.0, Rear Top
+  - name: usbS0-3
+    label: USB
+    type: usb-a
+    description: USB 2.0, Rear Bottom (above HDMI)
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    description: Rear Left
+  - name: PS2
+    type: iec-60320-c14
+    description: Rear Center
+interfaces:
+  - name: eth0
+    label: ETH 0
+    type: 1000base-t
+  - name: eth1
+    label: ETH 1
+    type: 1000base-t
+
+  - name: sfp0
+    label: SFP 0
+    type: 10gbase-x-sfpp
+  - name: sfp1
+    label: SFP 1
+    type: 10gbase-x-sfpp
+
+  - name: backplane0
+    type: 10gbase-kr
+module-bays:
+  - name: slot-1
+    position: '1'
+    description: Module Slot, Front Left
+  - name: slot-2
+    position: '2'
+    description: Module Slot, Front Center
+  - name: slot-3
+    position: '3'
+    description: Module Slot, Front Right
+  - name: slot-4
+    position: '4'
+    description: Module Slot, Rear Right
+  - name: slot-5
+    position: '5'
+    description: Module Slot, Rear Center
+
+  - name: system fan 1
+    position: '1'
+    description: Fan Slot, Rear Center
+  - name: system fan 2
+    position: '2'
+    description: Fan Slot, Rear Left (next to Power Supply)
+
+  # There are two stacked DDR4 SO-DIMM slots
+  # DIMM0 is the top one, DIMM1 the bottom one (closer to Mainboard)
+
+  # The integrated storage is in a mSATA slot

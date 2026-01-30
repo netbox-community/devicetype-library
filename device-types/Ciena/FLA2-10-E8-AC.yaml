@@ -12,10 +12,8 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: rj-45
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
 power-ports:
   - name: Power A
     type: iec-60320-c14

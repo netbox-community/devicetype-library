@@ -36,10 +36,10 @@ interfaces:
     type: 1000base-t
 power-ports:
   - name: DC In 1
-    type: other
+    type: dc-terminal
     maximum_draw: 54
     allocated_draw: 26
   - name: DC In 2
-    type: other
+    type: dc-terminal
     maximum_draw: 54
     allocated_draw: 26

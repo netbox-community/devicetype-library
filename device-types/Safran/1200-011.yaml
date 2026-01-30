@@ -1,0 +1,22 @@
+---
+manufacturer: Safran
+model: SecureSync Enterprise
+slug: safran-secure-sync-enterprise-1200-011
+part_number: 1200-011
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.95
+weight_unit: kg
+comments: '[SecureSync Datasheet](https://safran-navigation-timing.com/wp-content/uploads/2021/07/securesync_enterprise_05-29-19-1.pdf)'
+power-ports:
+  - name: AC Input
+    type: iec-60320-c14
+    allocated_draw: 40
+    maximum_draw: 50
+console-ports:
+  - name: Console
+    type: de-9
+interfaces:
+  - name: Ethernet
+    type: 100base-tx

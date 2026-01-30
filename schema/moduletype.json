@@ -4,13 +4,19 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "properties": {
         "manufacturer": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "model": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "part_number": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 50
+        },
+        "airflow": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
         },
         "weight": {
             "$ref": "urn:devicetype-library:reusable#/definitions/weight"
@@ -67,12 +73,23 @@
             }
         },
         "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 200
         },
         "comments": {
             "type": "string"
         }
     },
+    "allOf": [
+      {
+        "if": { "required": ["weight"] },
+        "then": { "required": ["weight_unit"] }
+      },
+      {
+        "if": { "required": ["weight_unit"] },
+        "then": { "required": ["weight"] }
+      }
+    ],
     "required": ["manufacturer", "model"],
     "additionalProperties": false
 }

@@ -1,0 +1,65 @@
+---
+manufacturer: MikroTik
+model: CCR1016-12S-1S+-r2
+slug: mikrotik-ccr1016-12s-1s-plus-r2
+description: '[CCR1016-12S-1S+](https://mikrotik.com/product/CCR1016-12S-1Splus)'
+part_number: CCR1016-12S-1S+r2
+is_full_depth: false
+weight: 2.55
+weight_unit: kg
+u_height: 1
+comments: second revision with USB typeA and RJ-45 RS232
+airflow: front-to-rear
+console-ports:
+  - name: serial0
+    type: rj-45
+power-ports:
+  - name: power1
+    type: iec-60320-c14
+    maximum_draw: 48
+  - name: power2
+    type: iec-60320-c14
+    maximum_draw: 48
+power-outlets:
+  - name: usb
+    type: usb-a
+interfaces:
+  - name: sfp1
+    type: 1000base-x-sfp
+    label: SFP1
+  - name: sfp2
+    type: 1000base-x-sfp
+    label: SFP2
+  - name: sfp3
+    type: 1000base-x-sfp
+    label: SFP3
+  - name: sfp4
+    type: 1000base-x-sfp
+    label: SFP4
+  - name: sfp5
+    type: 1000base-x-sfp
+    label: SFP5
+  - name: sfp6
+    type: 1000base-x-sfp
+    label: SFP6
+  - name: sfp7
+    type: 1000base-x-sfp
+    label: SFP7
+  - name: sfp8
+    type: 1000base-x-sfp
+    label: SFP8
+  - name: sfp9
+    type: 1000base-x-sfp
+    label: SFP9
+  - name: sfp10
+    type: 1000base-x-sfp
+    label: SFP10
+  - name: sfp11
+    type: 1000base-x-sfp
+    label: SFP11
+  - name: sfp12
+    type: 1000base-x-sfp
+    label: SFP12
+  - name: sfp-sfpplus1
+    type: 10gbase-x-sfpp
+    label: SFP+1

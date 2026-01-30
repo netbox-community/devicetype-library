@@ -4,6 +4,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "definitions": {
+    "_is_power_source": {
+      "title": "Port is a Power-Source for the Device",
+      "description": "Custom non-NetBox property used for power validation",
+      "type": "boolean",
+      "default": false
+    },
     "weight": {
       "type": "number",
       "minimum": 0,

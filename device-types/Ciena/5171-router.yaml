@@ -12,21 +12,16 @@ front_image: true
 console-ports:
   - name: CONSOLE
     type: usb-c
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
   - name: 1PPS / 10MHZ
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
-    mgmt_only: true
   - name: ANT
     type: other
-    mgmt_only: true
     description: Mini-COAX SMB GPS antenna port
   - name: SYNC
     type: rj-45
-    mgmt_only: true
     description: RJ45 interface G.703 1PPS and ToD/10MHz input/output (software selectable)
 interfaces:
   - name: '1'
@@ -115,19 +110,19 @@ interfaces:
 module-bays:
   - name: PS A
     position: A
-    comments: |
+    description: |
       170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
       170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
   - name: PS B
     position: B
-    comments: |
+    description: |
       170-0310-900 5171, DC PLUGGABLE POWER SUPPLY, -48V
       170-0311-900 5171, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
   - name: Module 1
     position: '1'
-    comments: |
+    description: |
       170-0460-900 5171-ROUTER, MODULE, (1)200/100G/40G QSFPDD, (1)100/40G QSFP-DD 2xQSFP DD
   - name: Module 2
     position: '2'
-    comments: |
+    description: |
       170-0460-900 5171-ROUTER, MODULE, (1)200/100G/40G QSFPDD, (1)100/40G QSFP-DD 2xQSFP DD

@@ -1,0 +1,168 @@
+---
+manufacturer: Supermicro
+model: SuperChassis 847BE1C4-R1K23LPB
+slug: supermicro-storage-superchassis-847be1c4-r1k23lpb
+part_number: CSE-847BE1C-R1K23LPB
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  "[SuperChassis 847BE1C4-R1K23LPB] (https://www.supermicro.com/en/products/chassis/4u/847/sc847be1c4-r1k23lpb)"
+weight: 39
+weight_unit: kg
+front_image: true
+rear_image: true
+subdevice_role: parent
+# Supports:
+#   - 2 hot-swappable power supplies
+#   - 36 x 3.5" hot-swap SAS/SATA drive bay  (24 on the front, 12 on the back)
+#   - 2 x 2.5" hot-swap drive bay
+#   - 7x low-profile PCI-E slots
+module-bays:
+  # Power
+  - name: PSU1
+    position: PSU 1
+    description: 1U 1200W/1000W Titanium Power Supply W/PMbus W76xL336xH40mm
+  - name: PSU2
+    position: PSU 2
+    description: 1U 1200W/1000W Titanium Power Supply W/PMbus W76xL336xH40mm
+  # PCI-E
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe LP slot
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe LP slot
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe LP slot
+  - name: PCI-E 4
+    position: '4'
+    description: PCIe LP slot
+  - name: PCI-E 5
+    position: '5'
+    description: PCIe LP slot
+  - name: PCI-E 6
+    position: '6'
+    description: PCIe LP slot
+  - name: PCI-E 7
+    position: '7'
+    description: PCIe LP slot
+  # Drive Bays
+  - name: HDD 1
+    position: '1'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 2
+    position: '2'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 3
+    position: '3'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 4
+    position: '4'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 5
+    position: '5'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 6
+    position: '6'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 7
+    position: '7'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 8
+    position: '8'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 9
+    position: '9'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 10
+    position: '10'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 11
+    position: '11'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 12
+    position: '12'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 13
+    position: '13'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 14
+    position: '14'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 15
+    position: '15'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 16
+    position: '16'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 17
+    position: '17'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 18
+    position: '18'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 19
+    position: '19'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 20
+    position: '20'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 21
+    position: '21'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 22
+    position: '22'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 23
+    position: '23'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 24
+    position: '24'
+    description: 3.5" hot-swap drive bay
+    # And on the back
+  - name: HDD 25
+    position: '25'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 26
+    position: '26'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 27
+    position: '27'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 28
+    position: '28'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 29
+    position: '29'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 30
+    position: '30'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 31
+    position: '31'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 32
+    position: '32'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 33
+    position: '33'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 34
+    position: '34'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 35
+    position: '35'
+    description: 3.5" hot-swap drive bay
+  - name: HDD 36
+    position: '36'
+    description: 3.5" hot-swap drive bay
+  # Optional 2.5" SSD bays; I have never seen these not available on this chassis.
+  # If there is a version of this chassis without these, the model number will be slightly different and thus warn a different YAML file.
+  - name: SSD 1
+    position: '1'
+    description: 2.5" hot-swap drive bay
+  - name: SSD 2
+    position: '2'
+    description: 2.5" hot-swap drive bay

@@ -2,23 +2,38 @@
 manufacturer: Huawei
 model: S5731-H24T4XC
 slug: huawei-s5731-h24t4xc
+part_number: 02352QPP
 u_height: 1
 is_full_depth: true
 weight: 8.4
 weight_unit: kg
 airflow: front-to-rear
+front_image: true
+rear_image: true
 comments: '[CloudEngine S5731-H24T4XC (24 * 10/100/1000BASE-T ports, 4 * 10GE SFP+ ports, 2 AC power)](https://support.huawei.com/enterprise/en/doc/EDOC1000013597/523c958c/s5731-h24t4xc-02352qpp-02352qpp-001-02352qpp-005)'
 console-ports:
   - name: con 0
     type: rj-45
     label: CONSOLE
 module-bays:
+  - name: FAN1
+    label: FAN1
+    position: '1'
+    description: Fan module slot 1
+  - name: FAN2
+    label: FAN2
+    position: '2'
+    description: Fan module slot 2
   - name: PSU1
-    position: PSU1
+    label: PWR1
+    position: '1'
+    description: Power module slot 1
   - name: PSU2
-    position: PSU2
+    label: PWR2
+    position: '2'
+    description: Power module slot 2
   - name: Extend_slot
-    position: Rear
+    position: '1'
 interfaces:
   - name: MEth0/0/1
     type: 1000base-t
@@ -71,11 +86,11 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet0/0/24
     type: 1000base-t
-  - name: interface XGigabitEthernet0/0/1
+  - name: XGigabitEthernet0/0/1
     type: 10gbase-x-sfpp
-  - name: interface XGigabitEthernet0/0/2
+  - name: XGigabitEthernet0/0/2
     type: 10gbase-x-sfpp
-  - name: interface XGigabitEthernet0/0/3
+  - name: XGigabitEthernet0/0/3
     type: 10gbase-x-sfpp
-  - name: interface XGigabitEthernet0/0/4
+  - name: XGigabitEthernet0/0/4
     type: 10gbase-x-sfpp

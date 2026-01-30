@@ -1,0 +1,80 @@
+---
+manufacturer: Arista
+model: DCS-7050SX3-24YC4C-S-F
+slug: arista-dcs-7050sx3-24yc4c-s-f
+part_number: DCS-7050SX3-24YC4C-S-F
+u_height: 1
+weight: 21
+weight_unit: lb
+airflow: front-to-rear
+is_full_depth: true
+comments: '[Arista 7050X3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7050X3-Datasheet.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 0
+    position: '0'
+  - name: PSU 1
+    position: '1'
+interfaces:
+  - name: Ethernet1
+    type: 25gbase-x-sfp28
+  - name: Ethernet2
+    type: 25gbase-x-sfp28
+  - name: Ethernet3
+    type: 25gbase-x-sfp28
+  - name: Ethernet4
+    type: 25gbase-x-sfp28
+  - name: Ethernet5
+    type: 25gbase-x-sfp28
+  - name: Ethernet6
+    type: 25gbase-x-sfp28
+  - name: Ethernet7
+    type: 25gbase-x-sfp28
+  - name: Ethernet8
+    type: 25gbase-x-sfp28
+  - name: Ethernet9
+    type: 25gbase-x-sfp28
+  - name: Ethernet10
+    type: 25gbase-x-sfp28
+  - name: Ethernet11
+    type: 25gbase-x-sfp28
+  - name: Ethernet12
+    type: 25gbase-x-sfp28
+  - name: Ethernet13
+    type: 25gbase-x-sfp28
+  - name: Ethernet14
+    type: 25gbase-x-sfp28
+  - name: Ethernet15
+    type: 25gbase-x-sfp28
+  - name: Ethernet16
+    type: 25gbase-x-sfp28
+  - name: Ethernet17
+    type: 25gbase-x-sfp28
+  - name: Ethernet18
+    type: 25gbase-x-sfp28
+  - name: Ethernet19
+    type: 25gbase-x-sfp28
+  - name: Ethernet20
+    type: 25gbase-x-sfp28
+  - name: Ethernet21
+    type: 25gbase-x-sfp28
+  - name: Ethernet22
+    type: 25gbase-x-sfp28
+  - name: Ethernet23
+    type: 25gbase-x-sfp28
+  - name: Ethernet24
+    type: 25gbase-x-sfp28
+# QSFP28(100G) ports can be broken into 4x25 with a model of [25-28]/[1-4]
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true

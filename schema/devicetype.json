@@ -4,17 +4,21 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "properties": {
         "manufacturer": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "model": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "slug": {
             "type": "string",
+            "maxLength": 100,
             "pattern": "^[-a-z0-9_]+$"
         },
         "part_number": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 50
         },
         "u_height": {
             "type": "number",
@@ -106,12 +110,23 @@
             }
         },
         "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 200
         },
         "comments": {
             "type": "string"
         }
     },
+    "allOf": [
+      {
+        "if": { "required": ["weight"] },
+        "then": { "required": ["weight_unit"] }
+      },
+      {
+        "if": { "required": ["weight_unit"] },
+        "then": { "required": ["weight"] }
+      }
+    ],
     "required": ["manufacturer", "model", "slug", "u_height","is_full_depth"],
     "additionalProperties": false
 }

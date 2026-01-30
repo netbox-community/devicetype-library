@@ -1,0 +1,64 @@
+---
+manufacturer: D-Link
+model: DGS-1210-10P-ME
+slug: d-link-dgs-1210-10p-me
+part_number: DGS-1210-10P-ME
+comments: |
+  [D-Link DGS-1210M Series Datasheet v1.0 WW](https://www.dlink.com/en/-/media/business_products/dgs/dgs-1210-10p-me/datasheet/dgs1210meseriesdatasheetv1000ww.pdf)
+  - 8 x 10/100/1000BASE-T PoE+ ports (IEEE 802.3af/at), 40W per port
+  - 2 x 1000BASE-X SFP uplink ports
+  - 60W total PoE budget
+  - Smart Managed Layer 2 switch with VLAN, QoS, Loopback Detection, Cable Diagnostics
+
+is_full_depth: false
+u_height: 1
+weight: 1500
+weight_unit: g
+airflow: front-to-rear
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 100
+
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 9
+    type: 1000base-x-sfp
+  - name: Port 10
+    type: 1000base-x-sfp

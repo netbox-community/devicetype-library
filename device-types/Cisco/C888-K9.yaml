@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: C888-K9
+part_number: C888-K9
+slug: cisco-c888-k9
+u_height: 1
+is_full_depth: false
+weight: 2.49
+weight_unit: kg
+airflow: passive
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PS-1
+    type: dc-terminal
+    allocated_draw: 25
+    maximum_draw: 60
+interfaces:
+  - name: ATM0
+    type: xdsl
+  - name: FastEthernet0
+    type: 100base-tx
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx

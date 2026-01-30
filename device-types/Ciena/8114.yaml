@@ -12,22 +12,17 @@ airflow: front-to-rear
 console-ports:
   - name: CONSOLE
     type: usb-c
-    mgmt_only: true
   - name: USB
     type: usb-c
-    mgmt_only: true
   - name: 1 PPS/10 MHz
     description: Mini-COAX 1PPS/ToD SMB interface in or out (software selectable).
     type: other
-    mgmt_only: true
   - name: ANT
     description: GNSS/GPS antenna mini SMB.
     type: other
-    mgmt_only: true
   - name: SYNC
     type: rj-45
     description: RJ-45 sync port
-    mgmt_only: true
 interfaces:
   - name: MGMT
     type: 1000base-t

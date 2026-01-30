@@ -1,0 +1,59 @@
+---
+manufacturer: Socomec
+model: Statys-XS-16a
+slug: socomec-statys-xs-16a
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 4
+weight_unit: kg
+comments: Rack ATS - 16A/230V dual C20 in - (8) C13 (1) C19 out
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+  - name: Power Port 2
+    type: iec-60320-c20
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: Outlet 9
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true

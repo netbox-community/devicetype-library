@@ -1,0 +1,133 @@
+---
+manufacturer: Arista
+model: DCS-720DP-24ZP
+slug: arista-dcs-720dp-24zp
+part_number: DCS-720DP-24ZP
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 7
+weight_unit: kg
+comments: >
+  The Arista DCS-720DP-24ZP is a compact 1RU campus aggregation switch featuring 24 x 2.5G RJ45 PoE ports
+  and 4 x 10G SFP+ uplinks. It supports up to 60W PoE per port (802.3bt), making it ideal for high-performance
+  access layer deployments in modern enterprise or campus networks.
+  [Arista CCS-720D Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720D-Datasheet.pdf)
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+interfaces:
+  - name: Ethernet1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet13
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet14
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet15
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet16
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet17
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet18
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet19
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet20
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet21
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet22
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet23
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet24
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet25
+    type: 10gbase-x-sfpp
+  - name: Ethernet26
+    type: 10gbase-x-sfpp
+  - name: Ethernet27
+    type: 10gbase-x-sfpp
+  - name: Ethernet28
+    type: 10gbase-x-sfpp
+  - name: Management1
+    type: 1000base-t
+
+module-bays:
+  - name: PSU Slot 1
+    position: '1'
+  - name: PSU Slot 2
+    position: '2'

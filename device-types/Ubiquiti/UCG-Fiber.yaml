@@ -1,0 +1,34 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Cloud Gateway Fiber
+slug: ubiquiti-unifi-cloud-gateway-fiber
+part_number: UCG-Fiber
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 675
+weight_unit: g
+comments: |
+  Desktop 10G Cloud Gateway with integrated 4-port 2.5 GbE switch, selectable NVR storage, and full UniFi application support. One of the 2.5GbE ports also supplies PoE+ power. 30W w/o PoE, 30W PoE Budget
+  [Tech Specs](https://techspecs.ui.com/unifi/cloud-gateways/ucg-fiber)
+power-ports:
+  - name: Power Supply
+    type: dc-terminal
+    maximum_draw: 60
+interfaces:
+  - name: LAN1
+    type: 2.5gbase-t
+  - name: LAN2
+    type: 2.5gbase-t
+  - name: LAN3
+    type: 2.5gbase-t
+  - name: LAN4 (PoE)
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: WAN1
+    type: 10gbase-t
+  - name: LAN5
+    type: 10gbase-x-sfpp
+  - name: WAN2
+    type: 10gbase-x-sfpp

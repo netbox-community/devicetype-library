@@ -1,0 +1,15 @@
+---
+manufacturer: Generic
+model: 1u-fan-panel
+slug: generic-1u-fan-panel
+u_height: 1
+is_full_depth: true
+airflow: bottom-to-top
+comments: Generic 1u fan panel
+weight: 4
+weight_unit: kg
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 50
+    allocated_draw: 30

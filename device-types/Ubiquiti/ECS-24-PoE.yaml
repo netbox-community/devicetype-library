@@ -1,0 +1,141 @@
+---
+manufacturer: Ubiquiti
+model: Enterprise Campus Switch 24-Port PoE
+slug: ubiquiti-enterprise-campus-switch-24-port-poe
+part_number: ECS-24-PoE
+comments: |
+  [Enterprise Campus Switch 24-Port PoE](https://store.ui.com/products/ecs-24-poe)
+
+  High-performance campus access switch with (8) 2.5G PoE+++ RJ45 ports, (16) 10G PoE+++ RJ45 ports, and (2) 25G SFP28 ports. Features hot-swappable PSUs and fans with up to 2,250W total PoE availability.
+
+  Dimensions: 442.4 x 43.7 x 496 mm (17.4 x 1.7 x 19.5")
+  Weight: 9.46 kg (20.9 lb) without mounting brackets
+  Max Power Consumption: 150W (excluding PoE), 2400W (including PoE)
+  Switching Capacity: 460 Gbps
+  Total Non-Blocking Throughput: 230 Gbps
+  Certifications: CE, FCC, IC, NDAA Compliant
+
+u_height: 1
+is_full_depth: true
+weight: 9.46
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+interfaces:
+  # 2.5G PoE+++ RJ45 ports (1-8)
+  - name: 2.5G Port 1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5G Port 8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  # 10G PoE+++ RJ45 ports (9-24)
+  - name: 10G Port 9
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 10
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 11
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 12
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 13
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 14
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 15
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 16
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 17
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 18
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 19
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 20
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 21
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 22
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 23
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10G Port 24
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  # 25G SFP28 ports (25-26)
+  - name: SFP28 Port 25
+    type: 25gbase-x-sfp28
+  - name: SFP28 Port 26
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: PSU 1
+    position: left
+  - name: PSU 2
+    position: right
+  - name: Fan Module 1
+    position: front-left
+  - name: Fan Module 2
+    position: front-center-left
+  - name: Fan Module 3
+    position: front-center-right
+  - name: Fan Module 4
+    position: front-right

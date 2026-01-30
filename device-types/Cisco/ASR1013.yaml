@@ -5,21 +5,32 @@ slug: cisco-asr1013
 part_number: ASR1013
 u_height: 13
 is_full_depth: true
-console-ports:
-  - name: Con 0
-    type: rj-45
-  - name: Con 1
-    type: rj-45
-power-ports:
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot RP1
+    position: RP1
+  - name: Slot RP2
+    position: RP2
+  - name: Slot ESP1
+    position: ESP1
+  - name: Slot ESP2
+    position: ESP2
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 4000
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 4000
+    position: '2'
   - name: PS3
-    type: iec-60320-c14
-    maximum_draw: 4000
+    position: '3'
   - name: PS4
-    type: iec-60320-c14
-    maximum_draw: 4000
+    position: '4'

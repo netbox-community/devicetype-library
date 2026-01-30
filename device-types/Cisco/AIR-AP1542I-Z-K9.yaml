@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: Aironet AP1542I-Z
+slug: cisco-air-ap1542i-z-k9
+part_number: AIR-AP1542I-Z-K9
+u_height: 0
+comments: '[Cisco Aironet 1540 Series Outdoor Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-1540-series/datasheet-c78-738585.html#Productspecifications)'
+airflow: passive
+weight: 1.25
+weight_unit: kg
+is_full_depth: false
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: WAN
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Dot11Radio0
+    type: ieee802.11n
+  - name: Dot11Radio1
+    type: ieee802.11ac

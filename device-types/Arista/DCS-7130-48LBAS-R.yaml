@@ -17,10 +17,8 @@ console-ports:
 module-bays:
   - name: PS1
     position: '0'
-    maximum_draw: 190
   - name: PS2
     position: '1'
-    maximum_draw: 190
 interfaces:
   - name: Ethernet1
     type: 10gbase-x-sfpp

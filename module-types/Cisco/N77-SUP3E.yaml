@@ -2,11 +2,16 @@
 manufacturer: Cisco
 model: N77-SUP3E
 part_number: N77-SUP3E
+description: Nexus 7700 Switch Supervisor 3 Enhanced Module
 comments: '[Cisco Nexus 7700 Supervisor 3E Module Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/datasheet-c78-740949.html)'
+weight: 3.5
+weight_unit: kg
 interfaces:
-  - name: mgmt0
+  - name: mgmt{module}
+    label: MGMT Ethernet
     type: 1000base-t
     mgmt_only: true
 console-ports:
-  - name: Console
+  - name: con{module}
+    label: Serial Console
     type: rj-45

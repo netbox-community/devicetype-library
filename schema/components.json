@@ -2,7 +2,6 @@
   "type": "object",
   "$id": "urn:devicetype-library:components",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "additionalProperties": false,
   "definitions": {
     "console-port": {
       "type": "object",
@@ -18,14 +17,19 @@
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/console-port/properties/type"
         },
-        "poe": {
-          "type": "boolean"
+        "description": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "_is_power_source": {
+          "$ref": "urn:devicetype-library:reusable#/definitions/_is_power_source"
         }
       },
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "console-server-port": {
       "type": "object",
@@ -40,12 +44,17 @@
         },
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/console-server-port/properties/type"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "power-port": {
       "type": "object",
@@ -62,16 +71,23 @@
           "$ref": "urn:devicetype-library:generated-schema#/definitions/power-port/properties/type"
         },
         "maximum_draw": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 1
         },
         "allocated_draw": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 1
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "power-outlet": {
       "type": "object",
@@ -93,12 +109,17 @@
         },
         "feed_leg": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/power-outlet/properties/feed-leg"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "interface": {
       "type": "object",
@@ -114,20 +135,35 @@
         "type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/interface/properties/type"
         },
+        "enabled": {
+          "type": "boolean"
+        },
+        "mgmt_only": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "bridge": {
+          "type": "string",
+          "maxLength": 64
+        },
         "poe_mode": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/interface/properties/poe_mode"
         },
         "poe_type": {
           "$ref": "urn:devicetype-library:generated-schema#/definitions/interface/properties/poe_type"
         },
-        "mgmt_only": {
-          "type": "boolean"
+        "rf_role": {
+          "$ref": "urn:devicetype-library:generated-schema#/definitions/interface/properties/rf_role"
         }
       },
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "front-port": {
       "type": "object",
@@ -148,17 +184,24 @@
           "pattern": "^[a-f0-9]{6}$"
         },
         "rear_port": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 64
         },
         "rear_port_position": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 1
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name",
         "type",
         "rear_port"
-      ]
+      ],
+      "additionalProperties": false
     },
     "rear-port": {
       "type": "object",
@@ -179,16 +222,22 @@
           "pattern": "^[a-f0-9]{6}$"
         },
         "positions": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 1
         },
-        "poe": {
-          "type": "boolean"
+        "description": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "_is_power_source": {
+          "$ref": "urn:devicetype-library:reusable#/definitions/_is_power_source"
         }
       },
       "required": [
         "name",
         "type"
-      ]
+      ],
+      "additionalProperties": false
     },
     "module-bay": {
       "type": "object",
@@ -202,13 +251,19 @@
           "maxLength": 64
         },
         "position": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 30
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name",
         "position"
-      ]
+      ],
+      "additionalProperties": false
     },
     "device-bay": {
       "type": "object",
@@ -220,11 +275,16 @@
         "label": {
           "type": "string",
           "maxLength": 64
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name"
-      ]
+      ],
+      "additionalProperties": false
     },
     "inventory-item": {
       "type": "object",
@@ -238,15 +298,22 @@
           "maxLength": 64
         },
         "manufacturer": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 100
         },
         "part_id": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 50
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
         "name"
-      ]
+      ],
+      "additionalProperties": false
     }
   }
 }

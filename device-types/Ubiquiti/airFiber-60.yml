@@ -11,6 +11,9 @@ comments: |
   The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
 u_height: 0
 is_full_depth: false
+weight: 1.8
+weight_unit: kg
+airflow: passive
 interfaces:
   - name: br0
     type: bridge

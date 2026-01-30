@@ -1,0 +1,35 @@
+---
+manufacturer: Huawei
+model: D5V6-256G-NVMe-Ctrl
+slug: huawei-d5v6-256g-nvme-ctrl
+part_number: 03050MRN
+u_height: 0
+comments: Controller Module - Kunpeng920 64 Cores, 1xM.2,PALM,100G Expansion board,8x32GB,TPM Overseas
+is_full_depth: false
+weight: 3
+weight_unit: kg
+subdevice_role: child
+module-bays:
+  - name: IOM_0
+    position: IOM_0
+  - name: IOM_1
+    position: IOM_1
+  - name: IOM_2
+    position: IOM_2
+  - name: IOM_3
+    position: IOM_3
+  - name: IOM_4
+    position: IOM_4
+  - name: IOM_5
+    position: IOM_5
+interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: Maintenance
+    type: 1000base-t
+    mgmt_only: true
+  - name: RDMA_Expand_1
+    type: 100gbase-x-qsfp28
+  - name: RDMA_Expand_2
+    type: 100gbase-x-qsfp28

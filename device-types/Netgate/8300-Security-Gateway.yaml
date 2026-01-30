@@ -7,13 +7,17 @@ weight: 6.05
 weight_unit: kg
 is_full_depth: false
 airflow: front-to-rear
+front_image: true
+rear_image: true
 console-ports:
   - name: console-rj45
     type: rj-45
     description: 115200 baud rate, 8 data bits, no parity, 1 stop bit, no flow control or XON/OFF
-power-ports:
-  - name: psu1
-    type: iec-60320-c16
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: ice0
     type: 10gbase-x-sfpp

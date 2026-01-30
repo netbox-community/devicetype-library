@@ -4,63 +4,17 @@ model: Dorado 3000 V6
 slug: huawei-dorado-3000-v6
 part_number: D3V6-192G-SAS
 u_height: 2
+weight: 35
+weight_unit: kg
+subdevice_role: parent
 is_full_depth: true
 front_image: true
 rear_image: true
-console-ports:
-  - name: Serial_A
-    type: rj-45
-  - name: Serial_B
-    type: rj-45
-power-ports:
+module-bays:
+  - name: PSU0
+    position: '0'
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 900
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 900
-interfaces:
-  - name: Net P2.A
-    type: 10gbase-x-sfpp
-  - name: Net P3.A
-    type: 10gbase-x-sfpp
-  - name: Net P4.A
-    type: 10gbase-x-sfpp
-  - name: Net P5.A
-    type: 10gbase-x-sfpp
-  - name: Net P6.A
-    type: 1000base-t
-  - name: Net P7.A
-    type: 1000base-t
-  - name: Net P8.A
-    type: 1000base-t
-  - name: Net P9.A
-    type: 1000base-t
-  - name: mgmt.A
-    type: 1000base-t
-    mgmt_only: true
-  - name: service.A
-    type: 1000base-t
-    mgmt_only: true
-  - name: Net P2.B
-    type: 10gbase-x-sfpp
-  - name: Net P3.B
-    type: 10gbase-x-sfpp
-  - name: Net P4.B
-    type: 10gbase-x-sfpp
-  - name: Net P5.B
-    type: 10gbase-x-sfpp
-  - name: Net P6.B
-    type: 1000base-t
-  - name: Net P7.B
-    type: 1000base-t
-  - name: Net P8.B
-    type: 1000base-t
-  - name: Net P9.B
-    type: 1000base-t
-  - name: mgmt.B
-    type: 1000base-t
-    mgmt_only: true
-  - name: service.B
-    type: 1000base-t
-    mgmt_only: true
+    position: '1'
+device-bays:
+  - name: Contoller A
+  - name: Contoller B

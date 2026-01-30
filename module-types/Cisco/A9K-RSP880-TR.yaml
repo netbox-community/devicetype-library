@@ -7,19 +7,17 @@ description: ASR9K Route Switch Processor with 880G/slot Fabric and 16GB
 console-ports:
   - name: console{module}
     type: rj-45
-    mgmt_only: true
   - name: Auxiliary{module}
     type: rj-45
-    mgmt_only: true
 interfaces:
   - name: MgmtEth0/RSP{module}/CPU0/0
     type: 1000base-t
     mgmt_only: true
-    comments: Out-of-Band Management Port
+    description: Out-of-Band Management Port
   - name: MgmtEth0/RSP{module}/CPU0/1
     type: 1000base-t
     mgmt_only: true
-    comments: Out-of-Band Management Port
+    description: Out-of-Band Management Port
   - name: External USB2 class-A port{module}
     type: other
     mgmt_only: true

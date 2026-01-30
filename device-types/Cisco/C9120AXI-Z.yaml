@@ -1,0 +1,25 @@
+---
+manufacturer: Cisco
+model: Catalyst 9120AXI-Z
+slug: cisco-c9120axi-z
+part_number: C9120AXI-Z
+u_height: 0
+is_full_depth: false
+weight: 1.3
+weight_unit: kg
+comments: '[Cisco Catalyst 9120AX Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9120ax-series-access-points/datasheet-c78-742115.html)'
+airflow: passive
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
+  - name: Dot11Radio1
+    type: ieee802.11ax
+  - name: GigabitEthernet0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-mini-b

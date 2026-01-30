@@ -1,0 +1,29 @@
+---
+manufacturer: HPE
+model: StoreEver MSL2024
+slug: hpe-storeever-msl2024
+part_number: AK379A
+u_height: 2
+is_full_depth: true
+weight: 14.9
+weight_unit: kg
+airflow: front-to-rear
+comments: HPE StoreEver MSL2024, 24 LTO cartridge slots, 2 LTO Drives FC/SAS, 1 PSU
+console-ports:
+  - name: console
+    type: rj-45
+  - name: console usb
+    type: usb-a
+module-bays:
+  - name: LTO Drive 1
+    position: '1'
+  - name: LTO Drive 2
+    position: '2'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 168
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true

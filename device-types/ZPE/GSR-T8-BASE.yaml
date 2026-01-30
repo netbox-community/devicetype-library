@@ -1,78 +1,161 @@
 ---
 manufacturer: ZPE
-model: GSR-T8-BASE
+model: Gate SR 4C
 slug: zpe-gsr-t8-base
 part_number: GSR-T8-BASE
 u_height: 1
 is_full_depth: false
-comments: ZPE Nodegrid Gate SR. 8X RJ45 Serial, 13X ETH (5 GbE, 4X PoE+, 2 SFP+)
+airflow: passive
+weight: 0.9
+weight_unit: kg
+description: 4-Core Intel CPU, 8x RJ45 Serial rolled, 2x SFP+, 5x GbE, 4x PoE+, Dual DC input (wide range DC)
+comments: '[ZPE Nodegrid Gate SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Gate-SR.pdf)'
 console-ports:
   - name: Console
+    label: CONSOLE
     type: rj-45
+  # 1x HDMI
 console-server-ports:
   - name: ttyS1
+    label: '1'
     type: rj-45
   - name: ttyS2
+    label: '2'
     type: rj-45
   - name: ttyS3
+    label: '3'
     type: rj-45
   - name: ttyS4
+    label: '4'
     type: rj-45
   - name: ttyS5
+    label: '5'
     type: rj-45
   - name: ttyS6
+    label: '6'
     type: rj-45
   - name: ttyS7
+    label: '7'
     type: rj-45
   - name: ttyS8
+    label: '8'
     type: rj-45
+
   - name: usbS0-1
+    label: USB
     type: usb-a
+    description: USB 3.0, Rear Top (below ETH 0)
   - name: usbS0-2
+    label: USB
     type: usb-a
+    description: USB 3.0, Rear Bottom
   - name: usbS0-3
+    label: USB
     type: usb-a
+    description: USB 2.0, Front Top
   - name: usbS0-4
+    label: USB
     type: usb-a
+    description: USB 2.0, Front Bottom (above HDMI)
+
+  - name: DIO0
+    label: DIO 0
+    type: other
+    description: Digital I/O Port
+  - name: DIO1
+    label: DIO 1
+    type: other
+    description: Digital I/O Port
+  - name: OUT0
+    label: OUT 0
+    type: other
+    description: Digital Out Port
+  - name: Relay
+    type: other
+    description: Relay Port, next to OUT 0
 power-ports:
-  - name: PSU1
+  - name: PS1
+    label: V1
     type: dc-terminal
-    allocated_draw: 45
-  - name: PSU2
+  - name: PS2
+    label: V2
     type: dc-terminal
-    allocated_draw: 45
 interfaces:
-  - name: ETH0
+  - name: eth0
+    label: ETH 0
     type: 1000base-t
-  - name: SFP0
+
+  - name: sfp0
+    label: SFP+ 0
     type: 10gbase-x-sfpp
-  - name: SFP1
+  - name: sfp1
+    label: SFP+ 1
     type: 10gbase-x-sfpp
+
+  - name: backplane0
+    type: 2.5gbase-t
+  - name: backplane1
+    type: 2.5gbase-t
+    bridge: backplane0
+
   - name: netS1
+    label: '1'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
+    bridge: backplane0
   - name: netS2
+    label: '2'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
+    bridge: backplane0
   - name: netS3
+    label: '3'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
+    bridge: backplane0
   - name: netS4
+    label: '4'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
+    bridge: backplane0
+
   - name: netS5
+    label: '5'
     type: 1000base-t
+    bridge: backplane0
   - name: netS6
+    label: '6'
     type: 1000base-t
+    bridge: backplane0
   - name: netS7
+    label: '7'
     type: 1000base-t
+    bridge: backplane0
   - name: netS8
+    label: '8'
     type: 1000base-t
-    # TODO 2xGPIO, 1xDigital Out, 1xRelay Port
-    # 1 x optional WiFi module
-    # 2 x LTE modem slots
-    # 1 x HDMI
+    bridge: backplane0
+module-bays:
+  - name: Mini PCIe
+    position: '0'
+    description: Wi-Fi, Front
+  - name: SATA DOM 1
+    position: '1'
+    description: Primary Storage, Center (next to Mini PCIe)
+  - name: SATA DOM 2
+    position: '2'
+    description: Secondary Storage, Rear
+
+  - name: Channel-A
+    position: '0'
+    description: Cellular Modem, Sim A1 and A2, M.2 B-Key, Center (next to SFP)
+  - name: Channel-B
+    position: '1'
+    description: Cellular Modem, Sim B1 and B2, M.2 B-Key, Left
+
+  # There are two stacked DDR4 SO-DIMM slots
+  # DIMM0 is the top one, DIMM1 the bottom one (closer to Mainboard)

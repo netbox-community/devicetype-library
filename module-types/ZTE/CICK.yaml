@@ -5,62 +5,47 @@ comments: The power card PRWG card uses-48 V DC power and provides power supply 
   of two power supplies is equal, the two PRWG cards work in load-balance mode.
 console-ports:
   - name: CLKI1 {module}
-    comments: The first BITS clock input interface, 75ohm
+    description: The first BITS clock input interface, 75ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKI2 {module}
-    comments: The second BITS clock input interface, 75ohm
+    description: The second BITS clock input interface, 75ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKO/1PPSO {module}
-    comments: BITS/1PPS+TOD clock output interface, 75ohm
+    description: BITS/1PPS+TOD clock output interface, 75ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKI1/TIMI1 {module}
-    comments: The first BITS/1PPS+TOD clock input interface, 120ohm
+    description: The first BITS/1PPS+TOD clock input interface, 120ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKI2/TIMI2 {module}
-    comments: The second BITS/1PPS+TOD clock input interface, 120ohm
+    description: The second BITS/1PPS+TOD clock input interface, 120ohm
     type: rj-45
-    mgmt_only: true
   - name: CLKO/TIMO {module}
-    comments: BITS/1PPS+TOD clock output interface, 120ohm
+    description: BITS/1PPS+TOD clock output interface, 120ohm
     type: rj-45
-    mgmt_only: true
   - name: ETH {module}
-    comments: Out-of-band maintenance network interface
+    description: Out-of-band maintenance network interface
     type: rj-45
-    mgmt_only: true
   - name: COM {module}
-    comments: Public serial port
+    description: Public serial port
     type: rj-45
-    mgmt_only: true
   - name: TEM {module}
-    comments: Temperature sensor interface
+    description: Temperature sensor interface
     type: rj-45
-    mgmt_only: true
   - name: HUM
-    comments: Humid sensor interface
+    description: Humid sensor interface
     type: rj-45
-    mgmt_only: true
   - name: SMO {module}
-    comments: Smog sensor interface
+    description: Smog sensor interface
     type: rj-45
-    mgmt_only: true
   - name: LIQ {module}
-    comments: Liquid sensor interface
+    description: Liquid sensor interface
     type: rj-45
-    mgmt_only: true
   - name: DOR {module}
-    comments: Entrance control sensor interface
+    description: Entrance control sensor interface
     type: rj-45
-    mgmt_only: true
   - name: DIN {module}
-    comments: Digit input interface, four channels
+    description: Digit input interface, four channels
     type: rj-45
-    mgmt_only: true
   - name: DOT {module}
-    comments: Digit input interface, four channels
+    description: Digit input interface, four channels
     type: rj-45
-    mgmt_only: true

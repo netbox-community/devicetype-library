@@ -8,13 +8,13 @@ is_full_depth: false
 airflow: passive
 weight: 1.3
 weight_unit: lb
-comments: '[FortiAP C Series Datasheet](https://fortinet.globalgate.com.ar/pdfs/FortiAP/FortiAP_C_Series.pdf), [FortiAP C24JE QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-c24je-quickstart-guide)'
+comments: '[FortiAP C24JE QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-c24je-quickstart-guide)'
 console-ports:
   - name: Console
     type: rj-45
 power-ports:
   - name: DC-In
-    type: other
+    type: dc-terminal
     maximum_draw: 15
     allocated_draw: 15
 interfaces:

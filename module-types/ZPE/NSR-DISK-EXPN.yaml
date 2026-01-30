@@ -1,0 +1,11 @@
+---
+manufacturer: ZPE
+model: NSR-DISK-EXPN
+part_number: NSR-DISK-EXPN
+description: NSR Storage Expansion Card
+comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
+# TODO instead of module-bay use "Hard disk" profile
+module-bays:
+  - name: Hard disk
+    position: '1'
+    description: 2.5" SATA

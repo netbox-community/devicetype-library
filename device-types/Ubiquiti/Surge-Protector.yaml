@@ -4,7 +4,11 @@ model: Surge Protector
 slug: ubiquiti-surge-protector
 part_number: ETH-SP-G2
 u_height: 0
+weight: 80
+weight_unit: g
+airflow: passive
 is_full_depth: false
+is_powered: false
 comments: '[Ethernet Surge Protector](https://www.ui.com/accessories/ethernet-surge-protector/)'
 front-ports:
   - name: '1'
@@ -15,4 +19,3 @@ rear-ports:
   - name: '1'
     type: 8p8c
     positions: 1
-    poe: true

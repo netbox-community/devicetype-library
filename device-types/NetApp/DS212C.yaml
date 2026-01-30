@@ -1,0 +1,20 @@
+---
+manufacturer: NetApp
+model: DS212C
+slug: netapp-ds212c
+u_height: 2
+part_number: DS212C
+comments: FAS2700 12xSAS LFF Storage Expansion Enclosure
+weight: 22.2
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+subdevice_role: parent
+module-bays:
+  - name: PSU0
+    position: PSU0
+  - name: PSU1
+    position: PSU1
+device-bays:
+  - name: Ctrl1
+  - name: Ctrl0

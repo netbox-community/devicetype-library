@@ -1,0 +1,45 @@
+---
+manufacturer: Cisco
+model: Catalyst 8300-2N2S-6T
+slug: cisco-c8300-2n2s-6t
+part_number: C8300-2N2S-6T
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+is_powered: true
+comments: '[Cisco 8000 Series Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+weight: 18.0
+weight_unit: kg
+front_image: true
+rear_image: true
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+  - name: SM 1  # SM subslot 1/0 (Service Module)
+    position: '1'
+  - name: SM 2
+    position: '2'
+  - name: NIM 1 # NIM subslot 0/1 (Network Interface Module)
+    position: '1'
+  - name: NIM 2 # NIM subslot 0/2
+    position: '2'
+  - name: PIM 1 # PIM = Pluggable Interface Module (LTE/5G)
+    position: '1'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+  - name: TenGigabitEthernet0/0/4
+    type: 1000base-x-sfp
+  - name: TenGigabitEthernet0/0/5
+    type: 1000base-x-sfp

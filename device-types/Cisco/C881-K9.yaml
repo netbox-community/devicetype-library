@@ -12,7 +12,6 @@ airflow: passive
 console-ports:
   - name: con0
     type: rj-45
-    mgmt_only: true
 interfaces:
   - name: Ethernet0
     type: 100base-tx

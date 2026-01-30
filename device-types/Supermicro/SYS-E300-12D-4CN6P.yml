@@ -1,0 +1,31 @@
+---
+manufacturer: Supermicro
+model: IoT SuperServer SYS-E300-12D-4CN6P
+slug: supermicro-superserver-sys-e300-12d-4cn6p
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+part_number: SYS-E300-12D-4CN6P
+weight: 1.6
+weight_unit: kg
+comments: https://www.supermicro.com/en/products/system/iot/1u/sys-e300-12d-4cn6p
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: LAN-ice0
+    type: 25gbase-x-sfp28
+  - name: LAN-ice1
+    type: 25gbase-x-sfp28
+  - name: LAN-igb0
+    type: 1000base-t
+  - name: LAN-igb1
+    type: 1000base-t
+  - name: LAN-igb2
+    type: 1000base-t
+  - name: LAN-igb3
+    type: 1000base-t
+power-ports:
+  - name: PS1
+    type: dc-terminal

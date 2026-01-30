@@ -1,0 +1,39 @@
+---
+manufacturer: HPE
+model: D2D-4300
+slug: hpe-d2d-4300
+u_height: 4
+is_full_depth: true
+weight: 20
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6
+  - name: PCIe7
+    position: PCIe7
+  - name: PCIe8
+    position: PCIe8
+  - name: PCIe9
+    position: PCIe9
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

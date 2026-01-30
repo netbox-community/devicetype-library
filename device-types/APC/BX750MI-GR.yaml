@@ -1,0 +1,47 @@
+---
+manufacturer: APC
+model: BX750MI-GR
+slug: apc-bx750mi-gr
+description: APC BX750MI-GR
+part_number: Back-UPS-BX750MI-GR
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+weight: 5.4
+weight_unit: kg
+comments: '[BX750MI-GR Datasheet by Kolyan](https://www.apc.com/kz/ru/product/BX750MI-GR/apc-backups-750va-tower-230v-4x-cee-7-7-schuko-outlets-avr/)'
+front-ports:
+  - name: IN
+    type: 8p8c
+    rear_port: OUT
+    rear_port_position: 1
+rear-ports:
+  - name: OUT
+    type: 8p8c
+    positions: 1
+console-ports:
+  - name: usb
+    type: usb-b
+    label: Data port
+power-ports:
+  - name: Input
+    type: ita-ef
+    maximum_draw: 410
+    allocated_draw: 410
+    label: Input
+    description: 130 - 300V AC, 3.4A
+power-outlets:
+  - name: '1'
+    type: ita-f
+    power_port: Input
+  - name: '2'
+    type: ita-f
+    power_port: Input
+  - name: '3'
+    type: ita-f
+    power_port: Input
+  - name: '4'
+    type: ita-f
+    power_port: Input

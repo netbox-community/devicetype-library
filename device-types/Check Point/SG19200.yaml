@@ -1,0 +1,49 @@
+---
+manufacturer: Check Point
+model: SG19200
+slug: check-point-sg19200
+part_number: CPAP-SG19200-PLUS-SNBT
+u_height: 2
+weight: 36.3
+weight_unit: lb
+is_full_depth: true
+comments: '[Check Point 19200 Data Sheet](https://www.checkpoint.com/downloads/products/quantum-force-19200-datasheet.pdf)'
+airflow: side-to-rear
+front_image: true
+rear_image: true
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+interfaces:
+  - name: Mgmt1
+    label: MGMT1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: Mgmt2
+    label: MGMT2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: Sync1
+    label: SYNC1
+    type: 25gbase-x-sfp28
+  - name: Sync2
+    label: SYNC2
+    type: 25gbase-x-sfp28
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: Interface Card 1
+    position: '1'
+  - name: Interface Card 2
+    position: '2'
+  - name: Interface Card 3
+    position: '3'
+  - name: Interface Card 4
+    position: '4'

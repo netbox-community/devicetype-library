@@ -1,0 +1,79 @@
+---
+manufacturer: Fortinet
+model: FortiSwitch 124F
+slug: fortinet-fs-124f
+part_number: FS-124F
+u_height: 1
+weight: 2.03
+weight_unit: kg
+is_full_depth: false
+airflow: side-to-rear
+comments: '[FortiSwitch Secure Access Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiSwitch_Secure_Access_Series.pdf),
+  [FortiSwitch 124F Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-124f-series-qsg)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 26
+    allocated_draw: 25
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t
+  - name: port7
+    type: 1000base-t
+  - name: port8
+    type: 1000base-t
+  - name: port9
+    type: 1000base-t
+  - name: port10
+    type: 1000base-t
+  - name: port11
+    type: 1000base-t
+  - name: port12
+    type: 1000base-t
+  - name: port13
+    type: 1000base-t
+  - name: port14
+    type: 1000base-t
+  - name: port15
+    type: 1000base-t
+  - name: port16
+    type: 1000base-t
+  - name: port17
+    type: 1000base-t
+  - name: port18
+    type: 1000base-t
+  - name: port19
+    type: 1000base-t
+  - name: port20
+    type: 1000base-t
+  - name: port21
+    type: 1000base-t
+  - name: port22
+    type: 1000base-t
+  - name: port23
+    type: 1000base-t
+  - name: port24
+    type: 1000base-t
+  - name: port25
+    type: 10gbase-x-sfpp
+  - name: port26
+    type: 10gbase-x-sfpp
+  - name: port27
+    type: 10gbase-x-sfpp
+  - name: port28
+    type: 10gbase-x-sfpp

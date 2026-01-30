@@ -1,0 +1,98 @@
+{
+    "type": "object",
+    "$id": "urn:devicetype-library:rack-type",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+        "manufacturer": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string",
+            "pattern": "^[-a-z0-9_]+$"
+        },
+        "description": {
+            "type": "string"
+        },
+        "form_factor": {
+            "type": "string",
+            "enum": [
+                "wall-cabinet",
+                "4-post-frame",
+                "2-post-frame",
+                "4-post-cabinet",
+                "wall-frame",
+                "wall-frame-vertical",
+                "wall-cabinet-vertical"
+            ]
+        },
+        "width": {
+            "type": "integer",
+            "enum": [
+                10,
+                19,
+                20,
+                23
+            ]
+        },
+        "u_height": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 1
+        },
+        "outer_width": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.01
+        },
+        "outer_height": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.01
+        },
+        "outer_depth": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.01
+        },
+        "outer_unit": {
+            "type": "string",
+            "enum": [
+                "mm",
+                "in"
+            ]
+        },
+        "weight": {
+            "type": "number",
+            "minimum": 0,
+            "multipleOf": 0.01
+        },
+        "max_weight": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "weight_unit": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/weight-unit"
+        },
+        "mounting_depth": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "starting_unit": {
+            "type": "number",
+            "minimum": 1,
+            "multipleOf": 1
+        },
+        "desc_units": {
+            "type": "boolean",
+            "default": false
+        },
+        "comments": {
+            "type": "string"
+        }
+    },
+    "required": ["manufacturer", "model", "slug", "form_factor", "width", "u_height", "starting_unit"],
+    "additionalProperties": false
+}

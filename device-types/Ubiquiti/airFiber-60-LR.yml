@@ -13,6 +13,9 @@ comments: |
   [Ubiquiti AF60-LR Data Sheet](https://dl.ui.com/ds/af60-lr_ds)
 u_height: 0
 is_full_depth: false
+airflow: passive
+weight: 1.5
+weight_unit: kg
 interfaces:
   - name: br0
     type: bridge

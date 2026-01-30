@@ -1,0 +1,40 @@
+---
+manufacturer: Cisco
+model: CMICR-4PS
+part_number: CMICR-4PS
+slug: cisco-cmicr-4ps
+u_height: 1
+is_full_depth: false
+weight: 0.60
+weight_unit: kg
+airflow: passive
+comments: '[Cisco Catalyst Micro Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-micro-switches/nb-06-cat-micro-switch-series-ds-cte-en.html)'
+console-ports:
+  - name: usb0
+    type: usb-micro-b
+power-ports:
+  - name: PS-1
+    type: molex-micro-fit-1x2
+    allocated_draw: 18
+    maximum_draw: 80
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/6
+    type: 1000base-x-sfp

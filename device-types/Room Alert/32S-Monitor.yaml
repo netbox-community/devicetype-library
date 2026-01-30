@@ -1,0 +1,20 @@
+---
+manufacturer: Room Alert
+model: 32S Monitor
+slug: room-alert-32s-monitor
+part_number: RA32S-RPD-RAS
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.36
+weight_unit: kg
+comments: '[Room Alert 32S Datasheet](https://avtech.com/Products/Room_Alert_PRO/Room_Alert_32S/Responder.htm)'
+power-ports:
+  - name: DC Input
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

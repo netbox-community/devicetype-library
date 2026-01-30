@@ -51,7 +51,7 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: oob
     type: 1000base-t
-    management-only: true
+    mgmt_only: true
   - name: Port-channel1
     type: lag
   - name: Port-channel2

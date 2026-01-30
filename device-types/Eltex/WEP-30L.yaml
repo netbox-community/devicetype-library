@@ -1,0 +1,22 @@
+---
+manufacturer: Eltex
+model: WEP-30L
+slug: eltex-wep-30l
+comments: '[Eltex Indoor Series Access Point WEP-30L] (https://api.prod.eltex-co.ru/storage/upload_center/files/47/WEP-30L_WEP-30L-Z_datasheet_2.7.1.pdf)'
+u_height: 0
+is_full_depth: false
+weight: 0.5
+weight_unit: kg
+airflow: passive
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
+  - name: Dot11Radio1
+    type: ieee802.11ax
+  - name: GigabitEthernet0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+console-ports:
+  - name: console
+    type: rj-45

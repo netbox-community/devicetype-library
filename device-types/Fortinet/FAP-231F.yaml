@@ -1,0 +1,28 @@
+---
+manufacturer: Fortinet
+model: FortiAP 231F
+slug: fortinet-fap-231f
+part_number: FAP-231F
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 1
+weight_unit: lb
+comments: '[FortiAP 231F Quick Start Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-231f-qsg)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: lan1-poe
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: lan2
+    type: 1000base-t
+  - name: radio-1
+    type: ieee802.11n
+  - name: radio-2
+    type: ieee802.11ax
+  - name: radio-3
+    type: other-wireless
+    description: Frequency scanning only

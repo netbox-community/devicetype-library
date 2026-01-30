@@ -19,198 +19,159 @@ console-ports:
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
-    speed: 1000000
     mgmt_only: true
   - name: HundredGigE1/0/1
     label: Hu1/0/1
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/2
     label: Hu1/0/2
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/3
     label: Hu1/0/3
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/4
     label: Hu1/0/4
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/5
     label: Hu1/0/5
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/6
     label: Hu1/0/6
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/7
     label: Hu1/0/7
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/8
     label: Hu1/0/8
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/9
     label: Hu1/0/9
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/10
     label: Hu1/0/10
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/11
     label: Hu1/0/11
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/12
     label: Hu1/0/12
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/13
     label: Hu1/0/13
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/14
     label: Hu1/0/14
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: FourHundredGigE1/0/15
     label: Fou1/0/15
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/16
     label: Fou1/0/16
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/17
     label: Fou1/0/17
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/18
     label: Fou1/0/18
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/19
     label: Fou1/0/19
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/20
     label: Fou1/0/20
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/21
     label: Fou1/0/21
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: FourHundredGigE1/0/22
     label: Fou1/0/22
     type: 400gbase-x-qsfpdd
-    speed: 400000000
     mgmt_only: false
   - name: HundredGigE1/0/23
     label: Hu1/0/23
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/24
     label: Hu1/0/24
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/25
     label: Hu1/0/25
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/26
     label: Hu1/0/26
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/27
     label: Hu1/0/27
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/28
     label: Hu1/0/28
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/29
     label: Hu1/0/29
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/30
     label: Hu1/0/30
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/31
     label: Hu1/0/31
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/32
     label: Hu1/0/32
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/33
     label: Hu1/0/33
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/34
     label: Hu1/0/34
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/35
     label: Hu1/0/35
     type: 100gbase-x-qsfp28
-    speed: 100000000
     mgmt_only: false
   - name: HundredGigE1/0/36
     label: Hu1/0/36
     type: 100gbase-x-qsfp28
-    speed: 10000000
     mgmt_only: false
   - name: appGigabitEthernet1/0/1
     label: Ap1/0/1
     type: virtual
-    speed: 10000000
     mgmt_only: false
     description: App-hosting Gigabit Ethernet
   - name: appGigabitEthernet1/0/2
     label: Ap1/0/2
     type: virtual
-    speed: 10000000
     mgmt_only: false
     description: App-hosting Gigabit Ethernet
 module-bays:

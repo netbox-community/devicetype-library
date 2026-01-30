@@ -1,0 +1,9 @@
+---
+manufacturer: Niagara
+model: PSU-575-AC
+comments: 575W PSU for the 4248-6C packet broker
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    allocated_draw: 332
+    maximum_draw: 575
