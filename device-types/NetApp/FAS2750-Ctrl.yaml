@@ -1,0 +1,38 @@
+---
+manufacturer: Netapp
+model: FAS2750-Ctrl
+slug: netapp-fas2750-ctrl
+u_height: 0
+weight: 3
+weight_unit: kg
+is_full_depth: false
+subdevice_role: child
+console-ports:
+  - name: S0
+    label: CONSOLE
+    type: rj-45
+  - name: S1
+    label: CONSOLE
+    type: usb-micro-b
+interfaces:
+  - name: e0a
+    type: 10gbase-x-sfpp
+  - name: e0b
+    type: 10gbase-x-sfpp
+  - name: e0c
+    type: 10gbase-x-sfpp
+  - name: e0d
+    type: 10gbase-x-sfpp
+  - name: e0e
+    type: 10gbase-x-sfpp
+  - name: e0f
+    type: 10gbase-x-sfpp
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: 0a
+    type: other
+    label: "sas0"
+  - name: 0b
+    type: other
+    label: "sas1"
