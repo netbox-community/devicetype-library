@@ -1,0 +1,21 @@
+---
+manufacturer: Cudy
+model: LT300 v3
+slug: cudy-lt300-v3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 126
+weight_unit: g
+power-ports:
+  - name: PS1
+    type: usb-c
+    maximum_draw: 8
+comments: '[LT300 v3](https://www.cudy.com/products/lt300-3-0)'
+interfaces:
+  - name: wan
+    type: 100base-t
+  - name: lan1
+    type: 100base-t
+  - name: wlan0
+    type: ieee802.11n
