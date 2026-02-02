@@ -9,10 +9,10 @@ is_full_depth: false
 subdevice_role: child
 console-ports:
   - name: S0
-    label: CONSOLE
+    label: CONSOLE0
     type: rj-45
   - name: S1
-    label: CONSOLE
+    label: CONSOLE1
     type: usb-micro-b
 interfaces:
   - name: e0a
@@ -32,7 +32,7 @@ interfaces:
     mgmt_only: true
   - name: 0a
     type: other
-    label: "sas0"
+    label: sas0
   - name: 0b
     type: other
-    label: "sas1"
+    label: sas1
