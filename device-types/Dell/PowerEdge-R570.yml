@@ -1,0 +1,76 @@
+---
+manufacturer: Dell
+model: PowerEdge R570
+slug: dell-poweredge-r570
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r570-technical-guide.pdf)'
+
+console-ports:
+  - name: Serial Front
+    type: de-9
+    label: Front DB9 Serial
+# VGA is not a valid definition at this time
+#  - name: VGA Rear
+#    type: other
+#    label: Rear VGA
+
+interfaces:
+  - name: iDRAC Rear
+    label: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 800
+    label: Power Supply 1
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 800
+    label: Power Supply 2
+
+# All PCIe and OCP slots defined as Module Bays
+module-bays:
+  # Standard PCIe Slots
+  - name: Slot 2
+    label: PCIe x16 Gen5 (FHHL/FHFL)
+    position: '2'
+  - name: Slot 3
+    label: PCIe x16 Gen5 (FHHL)
+    position: '3'
+  - name: Slot 4
+    label: PCIe x16 Gen5 (FHHL/FHFL) or OCP 3.0
+    position: '4'
+  - name: Slot 6
+    label: BOSS x4 Gen4
+    position: '6'
+  - name: Slot 7
+    label: PCIe x16 Gen5 (FHHL/FHFL)
+    position: '7'
+  - name: Slot 9
+    label: PCIe x16 Gen5 (FHHL)
+    position: '9'
+
+  # OCP Specific Slot
+  - name: Slot 10
+    label: OCP 3.0 x16
+    position: '10'
+
+  # High Number Slots (Often specific riser configs)
+  - name: Slot 31
+    label: PCIe x16 Gen5 (FHHL)
+    position: '31'
+  - name: Slot 34
+    label: OCP 3.0 x16 or BOSS x4 Gen4
+    position: '34'
+  - name: Slot 36
+    label: PCIe x16 Gen5 (FHHL)
+    position: '36'
+  - name: Slot 38
+    label: OCP 3.0 x16
+    position: '38'
