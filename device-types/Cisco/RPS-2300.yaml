@@ -1,0 +1,36 @@
+---
+manufacturer: Cisco
+model: Redundant Power System 2300
+slug: cisco-rps-2300
+part_number: RPS2300
+weight: 4.9
+weight_unit: kg
+comments: '[RPS2300 Datasheet by Cisco](https://www.cisco.com/c/en/us/products/collateral/switches/redundant-power-system-2300/product_data_sheet0900aecd805bbef6.pdf)'
+u_height: 1
+is_full_depth: true
+module-bays:
+  - name: PSU Bay 1
+    position: 1
+  - name: PSU Bay 2
+    position: 2
+  - name: Fan Module
+    position: 3
+power-outlets:
+  - name: RPS-OUT-1
+    type: other
+    description: Cisco proprietary RPS output (6-port)
+  - name: RPS-OUT-2
+    type: other
+    description: Cisco proprietary RPS output (6-port)
+  - name: RPS-OUT-3
+    type: other
+    description: Cisco proprietary RPS output (6-port)
+  - name: RPS-OUT-4
+    type: other
+    description: Cisco proprietary RPS output (6-port)
+  - name: RPS-OUT-5
+    type: other
+    description: Cisco proprietary RPS output (6-port)
+  - name: RPS-OUT-6
+    type: other
+    description: Cisco proprietary RPS output (6-port)
