@@ -15,6 +15,8 @@ module-bays:
   - name: PSU-2
     label: '2'
     position: '2'
+  - name: OCP 3.0
+    position: OCP-1
   - name: NUMA 0 - PCIe slot 1 - LP
     position: PCIe-1
     label: '1'
@@ -28,3 +30,7 @@ interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+  - name: 1GbE 1
+    type: 1000base-t
+  - name: 1GbE 2
+    type: 1000base-t
