@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Redundant Power System 2300
-slug: cisco-rps-2300
+slug: cisco-rps2300
 part_number: RPS2300
 weight: 4.9
 weight_unit: kg
@@ -10,11 +10,11 @@ u_height: 1
 is_full_depth: true
 module-bays:
   - name: PSU Bay 1
-    position: 1
+    position: '1'
   - name: PSU Bay 2
-    position: 2
+    position: '2'
   - name: Fan Module
-    position: 3
+    position: '3'
 power-outlets:
   - name: RPS-OUT-1
     type: other
