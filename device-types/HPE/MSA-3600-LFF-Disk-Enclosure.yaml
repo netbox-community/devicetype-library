@@ -6,14 +6,21 @@ part_number: QW968A
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
-weight: 17.2
+weight: 27.2
 weight_unit: kg
+description: 'D3600: supports up to 12 Large Form Factor (LFF) SAS drives for a maximum capacity of 7.2 TB with 600GB SAS drives or 48 TB with 4 TB SAS
+  MDL or 4TB SATA MDL drives'
 module-bays:
   - name: PS1
     position: PS1
   - name: PS2
     position: PS2
-  - name: Ctrl A
-    position: A
-  - name: Ctrl B
-    position: B
+interfaces:
+  - name: LFF I/O Controller 1-DP1
+    type: other
+  - name: LFF I/O Controller 1-DP2
+    type: other
+  - name: LFF I/O Controller 2-DP1
+    type: other
+  - name: LFF I/O Controller 2-DP2
+    type: other
