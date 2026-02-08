@@ -1,0 +1,33 @@
+---
+manufacturer: Arista
+model: AP-C360
+slug: arista-ap-c360
+part_number: AP-C360
+weight: 1.45
+weight_unit: kg
+u_height: 0
+airflow: passive
+is_full_depth: false
+comments: >
+  '[Arista C-360 Data Sheet]
+  https://www.arista.com/assets/data/pdf/Datasheets/Arista-C-360-Datasheet.pdf'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 39
+    allocated_draw: 39
+front_image: true
+interfaces:
+  - name: Ethernet1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: Ethernet2
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: Radio
+    type: ieee802.11ax
