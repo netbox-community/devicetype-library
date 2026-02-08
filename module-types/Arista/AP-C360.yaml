@@ -9,8 +9,7 @@ u_height: 0
 airflow: passive
 is_full_depth: false
 comments: >
-  '[Arista C-360 Data Sheet]
-  https://www.arista.com/assets/data/pdf/Datasheets/Arista-C-360-Datasheet.pdf'
+  '[Arista C-360 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/Arista-C-360-Datasheet.pdf)'
 console-ports:
   - name: Console
     type: rj-45
@@ -19,7 +18,6 @@ power-ports:
     type: dc-terminal
     maximum_draw: 39
     allocated_draw: 39
-front_image: true
 interfaces:
   - name: Ethernet1
     type: 10gbase-t
