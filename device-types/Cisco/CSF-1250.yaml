@@ -1,0 +1,40 @@
+manufacturer: Cisco
+model: Secure Firewall 1250
+slug: cisco-csf-1250
+part_number: CSF1250-K9
+u_height: 1
+is_full_depth: false
+comments: '[Cisco Secure Firewall 1200 Series](https://www.cisco.com/site/us/en/products/security/firewalls/secure-firewall-1200-series/index.html)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-c
+interfaces:
+  - name: Management1/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: GigabitEthernet1/1
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/2
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/3
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/4
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/5
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/6
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/7
+    type: 2.5gbase-t
+  - name: GigabitEthernet1/8
+    type: 2.5gbase-t
+  - name: TenGigabitEthernet1/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/12
+    type: 10gbase-x-sfpp
