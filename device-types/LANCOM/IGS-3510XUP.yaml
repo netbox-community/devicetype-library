@@ -10,10 +10,12 @@ weight: 900
 weight_unit: g
 power-ports:
   - name: PS1
-    type: 44-57vcd
+    label: DC 44-57 V
+    type: dc-terminal
     maximum_draw: 375
   - name: PS2
-    type: 44-57vcd
+    label: DC 44-57 V
+    type: dc-terminal
     maximum_draw: 375
 interfaces:
   - name: GigabitEthernet 1/1
