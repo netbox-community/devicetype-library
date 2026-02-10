@@ -1,0 +1,33 @@
+---
+manufacturer: HPE
+model: ProLiant ML30 Gen9
+slug: hpe-proliant-ml30-gen9
+u_height: 4.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 13.56
+weight_unit: kg
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 350
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    enabled: true
+  - name: Gig-E 2
+    type: 1000base-t
+    enabled: true
+  - name: iLO
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
