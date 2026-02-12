@@ -1,0 +1,29 @@
+manufacturer: DELL
+model: PowerVault MD1220
+slug: powervault-md1220
+u_height: 2.0
+is_full_depth: true
+front_image: true
+rear_image: true
+airflow: front-to-rear
+subdevice_role: parent
+power-ports:
+- name: PSU1
+  maximum_draw: 600
+  allocated_draw: 350
+- name: PSU2
+  maximum_draw: 600
+  allocated_draw: 350
+device-bays:
+- name: Disk 1
+- name: Disk 2
+- name: Disk 3
+- name: Disk 4
+- name: Disk 5
+- name: Disk 6
+- name: Disk 7
+- name: Disk 8
+- name: Disk 9
+- name: Disk 10
+- name: Disk 11
+- name: Disk 12
