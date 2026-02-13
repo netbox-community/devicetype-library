@@ -1,0 +1,27 @@
+---
+manufacturer: NetApp
+model: ASA A30 r2 Controller
+slug: netapp-asa-a30-r2-controller
+part_number: ASA-A30-R2
+subdevice_role: child
+console-ports:
+  - name: Console
+    type: rj-45
+    label: Console (RJ45)
+  - name: USB Console
+    type: usb-c
+    label: Console (USB-C)
+interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+    label: Management Port (SP/BMC)
+module-bays:
+  - name: Slot 1
+    label: Expansion Slot 1
+  - name: Slot 2
+    label: Expansion Slot 2
+  - name: Slot 3
+    label: Expansion Slot 3
+  - name: Slot 4
+    label: Expansion Slot 4

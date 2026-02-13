@@ -1,0 +1,23 @@
+---
+manufacturer: NetApp
+model: ASA r2 2U (Chassis)
+slug: netapp-asa-r2-2u-chassis
+subdevice_role: parent
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 27.9
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: "[NetApp ASA r2 documentation](https://docs.netapp.com/us-en/asa-r2/)"
+device-bays:
+  - name: Controller A
+    label: Slot A (Top)
+  - name: Controller B
+    label: Slot B (Bottom)
+module-bays:
+  - name: PSU 1
+    label: Power Supply 1
+  - name: PSU 2
+    label: Power Supply 2
