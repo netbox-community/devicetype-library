@@ -1,15 +1,23 @@
 manufacturer: NetApp
-model: ASA A30 r2 Chassis
+model: ASA A30 r2 (Chassis)
 slug: netapp-asa-a30-r2-chassis
+part_number: ASA-A30-R2
+subdevice_role: parent
 u_height: 2
 is_full_depth: true
+airflow: front-to-rear
+weight: 27.9
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: "[NetApp ASA r2 documentation](https://docs.netapp.com/us-en/asa-r2/)"
 device-bays:
   - name: Controller A
+    label: Slot A (Top)
   - name: Controller B
+    label: Slot B (Bottom)
 module-bays:
-  - name: PSU-1
-    label: '1'
-    position: '1'
-  - name: PSU-2
-    label: '2'
-    position: '2'
+  - name: PSU 1
+    label: Power Supply 1
+  - name: PSU 2
+    label: Power Supply 2
