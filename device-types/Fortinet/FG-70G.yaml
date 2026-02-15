@@ -1,0 +1,44 @@
+---
+manufacturer: Fortinet
+model: FortiGate 70G
+slug: fortinet-fg-70g
+part_number: FG-70G
+u_height: 1
+weight: 0.91
+weight_unit: kg
+airflow: passive
+is_full_depth: false
+front_image: false
+rear_image: false
+comments: '[FortiGate 70G Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortigate-fortiwifi-70g-series.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 14
+    allocated_draw: 12
+interfaces:
+  - name: internal1
+    type: 1000base-t
+  - name: internal2
+    type: 1000base-t
+  - name: internal3
+    type: 1000base-t
+  - name: internal4
+    type: 1000base-t
+  - name: internal5
+    type: 1000base-t
+  - name: internal6
+    type: 1000base-t
+  - name: A
+    type: 1000base-t
+  - name: B
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
