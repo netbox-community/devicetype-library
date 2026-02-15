@@ -1,0 +1,17 @@
+---
+manufacturer: Broadcom Corporation
+model: NetXtreme BCM5719-4P (DLPCT)
+part_number: BCM95719A1904DLPCT
+comments: >
+  Dell OEM variant of the
+  [Broadcom BCM5719-4P - 4 x 1GbE PCIe NIC](https://www.broadcom.com/products/ethernet-connectivity/network-adapters/bcm5719-4p).
+  Commonly found in Dell PowerEdge servers.
+interfaces:
+  - name: pcie{module}.nic1
+    type: 1000base-t
+  - name: pcie{module}.nic2
+    type: 1000base-t
+  - name: pcie{module}.nic3
+    type: 1000base-t
+  - name: pcie{module}.nic4
+    type: 1000base-t
