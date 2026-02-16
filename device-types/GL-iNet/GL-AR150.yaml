@@ -1,0 +1,22 @@
+---
+manufacturer: GL-iNet
+model: GL-AR150
+slug: gl-inet-gl-ar150
+u_height: 1.0
+is_full_depth: false
+power-ports:
+  - name: PS1
+    type: other
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: WAN
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: wifi0
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false

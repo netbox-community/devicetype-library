@@ -1,0 +1,36 @@
+---
+manufacturer: TP-Link
+model: TL-WR841N/ND v11
+slug: tp-link-tl-wr841nnd-v11
+u_height: 0.0
+is_full_depth: false
+power-ports:
+  - name: DC-In
+    type: other
+    description: External PSU
+comments: https://www.tp-link.com/de/support/download/tl-wr841nd/
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: eth1
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: eth2
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: eth3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: WAN
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: wifi0
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false

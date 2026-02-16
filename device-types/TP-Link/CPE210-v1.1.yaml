@@ -1,0 +1,28 @@
+---
+manufacturer: TP-Link
+model: CPE210 v1.1
+slug: tp-link-cpe210-v1-1
+u_height: 0.0
+is_full_depth: false
+comments: https://openwrt.org/toh/hwdata/tp-link/tp-link_cpe210_v1
+power-ports:
+  - name: PoE
+    type: other
+interfaces:
+  - name: eth0
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    description: PoE Passive In
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: eth1
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    description: Data Pass-through
+  - name: wifi0
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false
+    description: 2.4GHz Wireless Interface

@@ -1,0 +1,24 @@
+---
+manufacturer: TP-Link
+model: CPE210 v3.20
+slug: tp-link-cpe210-v3-20
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: https://openwrt.org/toh/hwdata/tp-link/tp-link_cpe210_v3
+power-ports:
+  - name: PoE
+    type: other
+interfaces:
+  - name: eth0
+    type: 1000base-tx
+    enabled: true
+    mgmt_only: false
+    description: PoE Passive In
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: wifi0
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false
+    description: 2.4GHz Wireless Interface
