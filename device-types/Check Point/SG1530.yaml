@@ -18,15 +18,15 @@ console-ports:
   - name: CONSOLE
     type: usb-c
 interfaces:
-  - name: 'eth1'
+  - name: LAN1
     type: 1000base-t
-  - name: 'eth2'
+  - name: LAN2
     type: 1000base-t
-  - name: 'eth3'
+  - name: LAN3
     type: 1000base-t
-  - name: 'eth4'
+  - name: LAN4
     type: 1000base-t
-  - name: 'eth5'
+  - name: LAN5
     type: 1000base-t
   - name: WAN
     type: 1000base-t
