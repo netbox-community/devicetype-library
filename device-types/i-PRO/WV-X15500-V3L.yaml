@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-X15500-V3L
+slug: i-pro-wv-x15500-v3l
+description: 5MP AI Outdoor IR Bullet Camera (3.1x zoom)
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 2.5
+weight_unit: kg
+comments: |
+  '[i-PRO WV-X15500-V3L](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-x15500-v3l)'
+front_image: true
+interfaces:
+  - name: RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

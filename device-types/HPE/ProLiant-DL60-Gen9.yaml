@@ -1,0 +1,28 @@
+---
+manufacturer: HPE
+model: ProLiant DL60 Gen9
+slug: hpe-proliant-dl60-gen9
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 9.0
+weight_unit: kg
+comments: See [Quick Specificatsions](https://www.hpe.com/psnow/downloadDoc/HPE%20ProLiant%20DL60%20Generation9%20(Gen9)-c04447824.pdf?id=c04447824&isFutureVersion=true&ver=25&form=false&preview=false&print=&servePdfFile=true&hf=slim&r=%C2%A7ion=&prelaunchSection=&softrollSection=&deepLink=&isLinearized=false&contentDisposition=attachment).
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 550
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+    enabled: true
+  - name: Gig-E 2
+    type: 1000base-t
+    enabled: true
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
