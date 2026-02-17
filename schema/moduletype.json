@@ -18,6 +18,9 @@
         "airflow": {
             "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
         },
+        "airflow": {
+            "$ref": "urn:devicetype-library:generated-schema#/definitions/airflow"
+        },
         "weight": {
             "$ref": "urn:devicetype-library:reusable#/definitions/weight"
         },
@@ -77,6 +80,9 @@
             "maxLength": 200
         },
         "comments": {
+            "type": "string"
+        },
+        "profile": {
             "type": "string"
         }
     },
