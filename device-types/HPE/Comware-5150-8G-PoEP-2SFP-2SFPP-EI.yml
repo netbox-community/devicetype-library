@@ -1,22 +1,22 @@
 ---
-manufacturer: Cisco
-model: Catalyst 1000-8P-2G-L
-slug: cisco-c1000-8p-2g-l
-part_number: C1000-8P-2G-L
-comments: '[Cisco Catalyst 1000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html)'
+manufacturer: HPE
+model: Comware 5150-8G-PoE+-2SFP-2SFP+ EI
+slug: hpe-comware-5150-8g-poep-2sfp-2sfpp-ei
+part_number: S5T54A
 u_height: 1
-weight: 2.7
-weight_unit: kg
 is_full_depth: false
+airflow: passive
+weight: 1.5
+weight_unit: kg
+comments: '[HPE Comware 5150 EI Switch Series QuickSpecs] (https://www.hpe.com/psnow/doc/a50009238enw.pdf)'
 console-ports:
-  - name: con0
+  - name: console
     type: rj-45
-  - name: USB con0
-    type: usb-a
 power-ports:
-  - name: PSU1
+  - name: PSU
     type: iec-60320-c14
-    maximum_draw: 110
+    allocated_draw: 8
+    maximum_draw: 152
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -52,9 +52,12 @@ interfaces:
     poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/9
     type: 1000base-x-sfp
-    description: 1G SFP and RJ-45 combo uplink
   - name: GigabitEthernet1/0/10
     type: 1000base-x-sfp
-    description: 1G SFP and RJ-45 combo uplink
-  - name: Vlan1
-    type: virtual
+  - name: GigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
