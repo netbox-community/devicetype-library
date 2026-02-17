@@ -4,13 +4,15 @@ model: QM8790
 slug: mellanox-qm8790     
 u_height: 1
 is_full_depth: true
+weight: 11.4
+weight_unit: kg
 comments: |
   Data sheet: https://network.nvidia.com/files/doc-2020/pb-qm8790.pdf
-power-ports:
+module-bays:
   - name: psu0
-    type: iec-60320-c14
+    position: '0'
   - name: psu1
-    type: iec-60320-c14
+    position: '1'
 interfaces:
   - name: swp1
     type: 200gbase-x-qsfp56
