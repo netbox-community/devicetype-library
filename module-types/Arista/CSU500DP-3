@@ -1,0 +1,13 @@
+---
+manufacturer: Arista
+model: CSU500DP-3
+part_number: PWR-00326-03 A0
+# airflow: rear-to-front
+# description: "PSU for Arista DCS-7050SX3-48YC8-R"
+weight: 0.93
+weight_unit: kg
+power-ports:
+  - name: 'PWR{module}'
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 500
