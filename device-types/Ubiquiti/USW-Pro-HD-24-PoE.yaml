@@ -11,7 +11,7 @@ weight_unit: kg
 comments: |
   UniFi Switch Pro HD 24 PoE: Professional-grade, Layer 3 Etherlighting switch with (2) 10 GbE PoE++, (22) 2.5 GbE PoE++, and (4) 10G SFP+ ports.
 
-  [Technical specification on store.ui.com](https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-hd-24-poe)."
+  [Technical specification on store.ui.com](https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-hd-24-poe).
 interfaces:
   - name: Port 1
     type: 2.5gbase-t
@@ -122,5 +122,5 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 660
     description: Universal input, 100-240V AC, 50/60 Hz
-  - name: USP RPS DC input
+  - name: USP-RPS DC input
     type: ubiquiti-smartpower
