@@ -1,7 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Switch Pro HD 24
-slug: unifi-switch-pro-hd-24
+slug: ubiquiti-unifi-switch-pro-hd-24
 part_number: USW-Pro-HD-24
 u_height: 1
 is_full_depth: true
@@ -9,8 +9,8 @@ airflow: front-to-rear
 weight: 4.3
 weight_unit: kg
 comments: |
-  UniFi Switch Pro HD 24: Professional-grade L3 Etherlighting™ switch with (2) 10 GbE, (22) 2.5 GbE, and (4) 10G SFP+ ports. Dimensions: 442 x 285 x 44 mm. No PoE.
-  
+  UniFi Switch Pro HD 24: Professional-grade L3 Etherlighting switch with (2) 10 GbE, (22) 2.5 GbE, and (4) 10G SFP+ ports. Dimensions: 442 x 285 x 44 mm. No PoE.
+
   [Technical specification on store.ui.com](https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-hd-24)."
 interfaces:
   - name: Port 1
@@ -71,7 +71,7 @@ interfaces:
     type: 10gbase-x-sfpp
 power-ports:
   - name: Universal AC input
-    description: Universal input, 100–240V AC, 50/60 Hz
+    description: Universal input, 100-240V AC, 50/60 Hz
     type: iec-60320-c14
     maximum_draw: 60
   - name: USP RPS DC input
