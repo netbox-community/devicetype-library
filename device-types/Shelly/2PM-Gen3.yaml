@@ -11,15 +11,15 @@ comments: "[Shelly 2PM Gen3](https://www.shelly.com/products/shelly-2pm-gen3-1)"
 power-ports:
   - name: L
     type: hardwired
-    description: "110-240Vac or 24Vdc; 16A max"
+    description: 110-240Vac or 24Vdc; 16A max
 power-outlets:
   - name: O1
     type: hardwired
-    description: "10A max"
+    description: 10A max
     power_port: L
   - name: O2
     type: hardwired
-    description: "10A max"
+    description: 10A max
     power_port: L
 interfaces:
   - name: Wireless
