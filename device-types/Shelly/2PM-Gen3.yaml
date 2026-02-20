@@ -1,0 +1,28 @@
+---
+manufacturer: Shelly
+model: 2PM Gen3
+slug: shelly-2pm-gen3
+u_height: 0
+is_full_depth: false
+weight: 30
+weight_unit: g
+airflow: passive
+comments: "[Shelly 2PM Gen3](https://www.shelly.com/products/shelly-2pm-gen3-1)"
+power-ports:
+  - name: L
+    type: hardwired
+    description: "110-240Vac or 24Vdc; 16A max"
+power-outlets:
+  - name: O1
+    type: hardwired
+    description: "10A max"
+    power_port: L
+  - name: O2
+    type: hardwired
+    description: "10A max"
+    power_port: L
+interfaces:
+  - name: Wireless
+    type: ieee802.11n
+  - name: Bluetooth
+    type: ieee802.15.1
