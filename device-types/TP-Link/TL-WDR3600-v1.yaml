@@ -1,0 +1,31 @@
+---
+manufacturer: TP-Link
+model: TL-WDR3600 v1
+slug: tp-link-tl-wdr3600-v1
+u_height: 0.0
+is_full_depth: false
+power-ports:
+  - name: DC-In
+    type: other
+    description: External PSU
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Port 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Port 3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Port 4
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: WAN
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false

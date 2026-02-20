@@ -1,0 +1,27 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 6860 5G
+slug: avm-fritzbox-6860-5g
+u_height: 0.0
+is_full_depth: false
+power-ports:
+  - name: DC-In
+    type: other
+    description: External PSU (DC barrel, typically 12V)
+interfaces:
+  - name: dect
+    type: other-wireless
+    enabled: true
+    mgmt_only: false
+  - name: eth0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: mobile
+    type: other-wireless
+    enabled: true
+    mgmt_only: false
+  - name: wlan0
+    type: ieee802.11ax
+    enabled: true
+    mgmt_only: false
