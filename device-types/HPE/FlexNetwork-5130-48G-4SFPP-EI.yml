@@ -6,14 +6,16 @@ part_number: JG934A
 u_height: 1
 is_full_depth: false
 comments: '[HPE FlexNetwork 5130 EI Switch Series QuickSpecs](https://www.hpe.com/psnow/doc/c04394228.pdf)'
+airflow: side-to-rear
 weight: 5
 weight_unit: kg
 console-ports:
   - name: console
     type: rj-45
 power-ports:
-  - name: PSU1
+  - name: PSU
     type: iec-60320-c14
+    allocated_draw: 38
     maximum_draw: 45
 interfaces:
   - name: GigabitEthernet1/0/1
