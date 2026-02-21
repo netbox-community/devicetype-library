@@ -1,13 +1,16 @@
 ---
 manufacturer: HPE
-model: Aruba 8325-48Y8C Back-to-Front
-slug: hpe-aruba-8325-48y8c-back-to-front
-part_number: JL625A
+model: Aruba 8325-48Y8C
+slug: hpe-aruba-8325-48y8c
+part_number: JL635A
 u_height: 1
 is_full_depth: false
+weight: 7.6
+weight_unit: kg
 front_image: true
 rear_image: true
-airflow: rear-to-front
+comments: '[QuickSpecs (PDF)](https://www.hpe.com/psnow/doc/a00056519enw.pdf)<br>[QuickSpecs (HTML)](https://www.hpe.com/psnow/doc/a00056519enw.html)<br>[Switch
+  Product Page](https://buy.hpe.com/us/en/p/jl635a)'
 console-ports:
   - name: rj45-console
     type: rj-45
@@ -15,15 +18,23 @@ console-ports:
     type: usb-micro-b
   - name: usb-ble
     type: usb-a
-power-ports:
-  - name: ps1
-    type: iec-60320-c14
-    maximum_draw: 650
-    allocated_draw: 550
-  - name: ps2
-    type: iec-60320-c14
-    maximum_draw: 650
-    allocated_draw: 550
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+  - name: FAN4
+    position: '4'
+  - name: FAN5
+    position: '5'
+  - name: FAN6
+    position: '6'
 interfaces:
   - name: 1/1/1
     type: 25gbase-x-sfp28
