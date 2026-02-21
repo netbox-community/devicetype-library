@@ -1,23 +1,28 @@
 ---
 manufacturer: HPE
-model: FlexNetwork 5130-24G-PoEP-4SFP+ EI
-slug: hpe-flexnetwork-5130-24g-poep-4sfpp-ei
-part_number: JG936A
+model: FlexNetwork 5140-24G-PoE+-4SFP+-1-slot HI
+slug: hpe-flexnetwork-5140-24g-poep-4sfpp-1-slot-hi
+part_number: R9L63A
 u_height: 1
 is_full_depth: false
-comments: '[HPE FlexNetwork 5130 EI Switch Series QuickSpecs](https://www.hpe.com/psnow/doc/c04394228.pdf)'
+comments: '[HPE FlexNetwork 5140 HI Switch Series QuickSpecs](https://www.hpe.com/psnow/doc/a50004280enw.pdf)'
 airflow: side-to-rear
-weight: 8
+weight: 9.2
 weight_unit: kg
 console-ports:
   - name: console
     type: rj-45
-power-ports:
-  - name: PSU
-    type: iec-60320-c14
-    allocated_draw: 30
-    maximum_draw: 460
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: port expansion module
+    position: '3'
 interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
   - name: GigabitEthernet1/0/1
     type: 1000base-t
     poe_type: type2-ieee802.3at
