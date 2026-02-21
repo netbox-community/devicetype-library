@@ -1,0 +1,71 @@
+---
+manufacturer: Perle
+model: IOLAN SCG16
+slug: perle-iolan-scg16
+description: IOLAN SCG16 Terminal Server
+part_number: '04032652'
+u_height: 1.0
+is_full_depth: false
+airflow: right-to-left
+weight: 3.06
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+console-server-ports:
+  - name: tty1
+    type: rj-45
+    label: RS232-1
+  - name: tty2
+    type: rj-45
+    label: RS232-2
+  - name: tty3
+    type: rj-45
+    label: RS232-3
+  - name: tty4
+    type: rj-45
+    label: RS232-4
+  - name: tty5
+    type: rj-45
+    label: RS232-5
+  - name: tty6
+    type: rj-45
+    label: RS232-6
+  - name: tty7
+    type: rj-45
+    label: RS232-7
+  - name: tty8
+    type: rj-45
+    label: RS232-8
+  - name: tty9
+    type: rj-45
+    label: RS232-9
+  - name: tty10
+    type: rj-45
+    label: RS232-10
+  - name: tty11
+    type: rj-45
+    label: RS232-11
+  - name: tty12
+    type: rj-45
+    label: RS232-12
+  - name: tty13
+    type: rj-45
+    label: RS232-13
+  - name: tty14
+    type: rj-45
+    label: RS232-14
+  - name: tty15
+    type: rj-45
+    label: RS232-15
+  - name: tty16
+    type: rj-45
+    label: RS232-16
+interfaces:
+  - name: eth1
+    type: 1000base-t
