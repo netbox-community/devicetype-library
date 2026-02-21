@@ -2,6 +2,7 @@
 manufacturer: Synology
 model: RS822+
 slug: synology-rs822-plus
+part_number: RS822+
 description: 4-bay rackmount NAS enclosed in a compact 1U chassis
 u_height: 1.0
 is_full_depth: false
@@ -26,16 +27,3 @@ interfaces:
   - name: LAN4
     type: 1000base-x-sfp
     enabled: true
-rear-ports:
-  - name: eSATA
-    type: other
-    positions: 1
-    description: eSATA
-  - name: USB1
-    type: usb-a
-    positions: 1
-    description: USB 3.2 Gen 1
-  - name: USB2
-    type: usb-a
-    positions: 1
-    description: USB 3.2 Gen 1
