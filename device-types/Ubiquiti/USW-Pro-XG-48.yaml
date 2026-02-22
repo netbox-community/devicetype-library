@@ -1,0 +1,129 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Pro XG 48
+slug: ubiquiti-unifi-switch-pro-xg-48
+part_number: USW-Pro-XG-48
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 7.6
+weight_unit: kg
+comments: |
+  UniFi Switch Pro XG 48, (32) 10 GbE, (16) 2.5 GbE PoE, and (4) 25G SFP28 ports
+
+  Dimensions: 442 x 480 x 44 mm
+
+  [UniFi Switch Pro XG 48 Techspecs](https://eu.store.ui.com/eu/en/category/switching-professional-max-xg/products/usw-pro-xg-48)
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+  - name: Port 2
+    type: 2.5gbase-t
+  - name: Port 3
+    type: 2.5gbase-t
+  - name: Port 4
+    type: 2.5gbase-t
+  - name: Port 5
+    type: 2.5gbase-t
+  - name: Port 6
+    type: 2.5gbase-t
+  - name: Port 7
+    type: 2.5gbase-t
+  - name: Port 8
+    type: 2.5gbase-t
+  - name: Port 9
+    type: 2.5gbase-t
+  - name: Port 10
+    type: 2.5gbase-t
+  - name: Port 11
+    type: 2.5gbase-t
+  - name: Port 12
+    type: 2.5gbase-t
+  - name: Port 13
+    type: 2.5gbase-t
+  - name: Port 14
+    type: 2.5gbase-t
+  - name: Port 15
+    type: 2.5gbase-t
+  - name: Port 16
+    type: 2.5gbase-t
+  - name: Port 17
+    type: 10gbase-t
+  - name: Port 18
+    type: 10gbase-t
+  - name: Port 19
+    type: 10gbase-t
+  - name: Port 20
+    type: 10gbase-t
+  - name: Port 21
+    type: 10gbase-t
+  - name: Port 22
+    type: 10gbase-t
+  - name: Port 23
+    type: 10gbase-t
+  - name: Port 24
+    type: 10gbase-t
+  - name: Port 25
+    type: 10gbase-t
+  - name: Port 26
+    type: 10gbase-t
+  - name: Port 27
+    type: 10gbase-t
+  - name: Port 28
+    type: 10gbase-t
+  - name: Port 29
+    type: 10gbase-t
+  - name: Port 30
+    type: 10gbase-t
+  - name: Port 31
+    type: 10gbase-t
+  - name: Port 32
+    type: 10gbase-t
+  - name: Port 33
+    type: 10gbase-t
+  - name: Port 34
+    type: 10gbase-t
+  - name: Port 35
+    type: 10gbase-t
+  - name: Port 36
+    type: 10gbase-t
+  - name: Port 37
+    type: 10gbase-t
+  - name: Port 38
+    type: 10gbase-t
+  - name: Port 39
+    type: 10gbase-t
+  - name: Port 40
+    type: 10gbase-t
+  - name: Port 41
+    type: 10gbase-t
+  - name: Port 42
+    type: 10gbase-t
+  - name: Port 43
+    type: 10gbase-t
+  - name: Port 44
+    type: 10gbase-t
+  - name: Port 45
+    type: 10gbase-t
+  - name: Port 46
+    type: 10gbase-t
+  - name: Port 47
+    type: 10gbase-t
+  - name: Port 48
+    type: 10gbase-t
+  - name: SFP+ 49
+    type: 25gbase-x-sfpp
+  - name: SFP+ 50
+    type: 25gbase-x-sfpp
+  - name: SFP+ 51
+    type: 25gbase-x-sfpp
+  - name: SFP+ 52
+    type: 25gbase-x-sfpp
+power-ports:
+  - name: Universal AC input
+    type: iec-60320-c14
+    maximum_draw: 250
+    description: Universal input, 100-240V AC, 50/60 Hz
+  - name: USP-RPS DC input
+    type: ubiquiti-smartpower
+    maximum_draw: 250
