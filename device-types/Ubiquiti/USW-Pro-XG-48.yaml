@@ -9,7 +9,7 @@ airflow: front-to-rear
 weight: 7.6
 weight_unit: kg
 comments: |
-  UniFi Switch Pro XG 48, (32) 10 GbE, (16) 2.5 GbE PoE, and (4) 25G SFP28 ports
+  UniFi Switch Pro XG 48, (32) 10 GbE, (16) 2.5 GbE, and (4) 25G SFP28 ports
 
   Dimensions: 442 x 480 x 44 mm
 
@@ -111,13 +111,13 @@ interfaces:
     type: 10gbase-t
   - name: Port 48
     type: 10gbase-t
-  - name: SFP+ 49
+  - name: SFP28 49
     type: 25gbase-x-sfp28
-  - name: SFP+ 50
+  - name: SFP28 50
     type: 25gbase-x-sfp28
-  - name: SFP+ 51
+  - name: SFP28 51
     type: 25gbase-x-sfp28
-  - name: SFP+ 52
+  - name: SFP28 52
     type: 25gbase-x-sfp28
 power-ports:
   - name: Universal AC input
