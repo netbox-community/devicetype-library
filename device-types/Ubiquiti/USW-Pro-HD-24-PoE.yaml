@@ -1,0 +1,129 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Pro HD 24 PoE
+slug: ubiquiti-unifi-switch-pro-hd-24-poe
+part_number: USW-Pro-HD-24-PoE
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 6.3
+weight_unit: kg
+comments: |
+  UniFi Switch Pro HD 24 (600W), (2) 10 GbE PoE++, (22) 2.5 GbE PoE++, and (4) 10G SFP+ ports
+
+  Dimensions: 442 x 400 x 44 mm
+
+  [UniFi Switch Pro HD 24 PoE Techspecs](https://store.ui.com/us/en/category/switching-professional-max-xg/products/usw-pro-hd-24-poe)
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 2
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 3
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 5
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 6
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 7
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 8
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 13
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 14
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 15
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 16
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 17
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 18
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 19
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 20
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 21
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 22
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 23
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: Port 24
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: SFP+ 25
+    type: 10gbase-x-sfpp
+  - name: SFP+ 26
+    type: 10gbase-x-sfpp
+  - name: SFP+ 27
+    type: 10gbase-x-sfpp
+  - name: SFP+ 28
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: Universal AC input
+    type: iec-60320-c14
+    maximum_draw: 660
+    description: Universal input, 100-240V AC, 50/60 Hz
+  - name: USP-RPS DC input
+    type: ubiquiti-smartpower
+    maximum_draw: 660
