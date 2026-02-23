@@ -4,6 +4,7 @@ model: FRITZ!Box 6860 5G
 slug: avm-fritzbox-6860-5g
 u_height: 0.0
 is_full_depth: false
+airflow: passive
 power-ports:
   - name: DC-In
     type: dc-terminal
@@ -19,7 +20,7 @@ interfaces:
     mgmt_only: false
   - name: mobile
     type: 5
-G    enabled: true
+    enabled: true
     mgmt_only: false
   - name: wlan0
     type: ieee802.11ax
