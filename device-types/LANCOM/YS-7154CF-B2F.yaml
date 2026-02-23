@@ -9,13 +9,22 @@ u_height: 1
 is_full_depth: true
 weight: 8700
 weight_unit: g
-power-ports:
+airflow: rear-to-front
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 220
+    position: 1
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 220
+    position: 2
+  - name: FAN0
+    position: 0
+  - name: FAN1
+    position: 1
+  - name: FAN2
+    position: 2
+  - name: FAN3
+    position: 3
+  - name: FAN4
+    position: 4
 interfaces:
   - name: 1/0/1
     type: 25gbase-x-sfp28

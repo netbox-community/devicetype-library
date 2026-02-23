@@ -1,0 +1,15 @@
+---
+manufacturer: LANCOM
+model: "LANCOM SPSU-400-B2F"
+part_number: '61923'
+# optional description or comments
+comments: 'Hot‑swappable, field‑replaceable power supply module used in the YS‑7154CF Back to Front Airflow series (220 W max draw).
+[LANCOM SPSU-400 Data sheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-400/DS_SPSU-400_EN.pdf)'
+# the module itself provides a power port which is what the parent device will consume
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 400
+weight: 1.2
+weight_unit: kg
+airflow: rear-to-front
