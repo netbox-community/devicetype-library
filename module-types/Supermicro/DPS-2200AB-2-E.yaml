@@ -3,7 +3,7 @@ manufacturer: Supermicro
 model: DPS-2200AB-2 E
 part_number: 0A100-00380100
 description: PSU for ESC8000 G4
-interfaces:
-  - name: 'PWR{module}'
+power-ports:
+  - name: PWR{module}
     type: iec-60320-c14
     maximum_draw: 2200
