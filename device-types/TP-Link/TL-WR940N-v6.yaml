@@ -8,7 +8,7 @@ is_full_depth: false
 airflow: passive
 power-ports:
   - name: DC-IN
-    type: other
+    type: dc-terminal
     description: External PSU
 interfaces:
   - name: LAN1

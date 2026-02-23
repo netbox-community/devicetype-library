@@ -6,7 +6,7 @@ u_height: 0.0
 is_full_depth: false
 power-ports:
   - name: DC-In
-    type: other
+    type: dc-terminal
     description: External PSU (DC barrel, typically 12V)
 interfaces:
   - name: dect
@@ -18,8 +18,8 @@ interfaces:
     enabled: true
     mgmt_only: false
   - name: mobile
-    type: other-wireless
-    enabled: true
+    type: 5
+G    enabled: true
     mgmt_only: false
   - name: wlan0
     type: ieee802.11ax
