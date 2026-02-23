@@ -12,19 +12,19 @@ weight_unit: g
 airflow: front-to-rear
 module-bays:
   - name: PS1
-    position: 1
+    position: '1'
   - name: PS2
-    position: 2
+    position: '2'
   - name: FAN0
-    position: 0
+    position: '0'
   - name: FAN1
-    position: 1
+    position: '1'
   - name: FAN2
-    position: 2
+    position: '2'
   - name: FAN3
-    position: 3
+    position: '3'
   - name: FAN4
-    position: 4
+    position: '4'
 interfaces:
   - name: 1/0/1
     type: 25gbase-x-sfp28
