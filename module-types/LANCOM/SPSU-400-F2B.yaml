@@ -1,10 +1,9 @@
 ---
 manufacturer: LANCOM
-model: "LANCOM SPSU-400-F2B"
+model: SPSU-400-F2B
 part_number: '61922'
-# optional description or comments
-comments: 'Hot‑swappable, field‑replaceable power supply module used in the YS‑7154CF Front to Back Airflow series (220 W max draw).
-[LANCOM SPSU-400 Data sheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-400/DS_SPSU-400_EN.pdf)'
+comments: Hot-swappable, field-replaceable power supply module used in the YS-7154CF Front to Back Airflow series (220 W max draw). [LANCOM SPSU-400 Data
+  sheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-400/DS_SPSU-400_EN.pdf)
 # the module itself provides a power port which is what the parent device will consume
 power-ports:
   - name: PSU{module}
