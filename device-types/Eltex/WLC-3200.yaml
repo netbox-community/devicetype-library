@@ -14,30 +14,33 @@ console-ports:
   - name: usb1
     type: usb-a
 interfaces:
-  - name: Eth1
+  - name: twentyfivegigabitethernet 1/0/1
     type: 25gbase-x-sfp28
-  - name: Eth2
+  - name: twentyfivegigabitethernet 1/0/2
     type: 25gbase-x-sfp28
-  - name: Eth3
+  - name: twentyfivegigabitethernet 1/0/3
     type: 25gbase-x-sfp28
-  - name: Eth4
+  - name: twentyfivegigabitethernet 1/0/4
     type: 25gbase-x-sfp28
-  - name: Eth5
+  - name: twentyfivegigabitethernet 1/0/5
     type: 25gbase-x-sfp28
-  - name: Eth6
+  - name: twentyfivegigabitethernet 1/0/6
     type: 25gbase-x-sfp28
-  - name: Eth7
+  - name: twentyfivegigabitethernet 1/0/7
     type: 25gbase-x-sfp28
-  - name: Eth8
+  - name: twentyfivegigabitethernet 1/0/8
     type: 25gbase-x-sfp28
-  - name: Eth9
+  - name: twentyfivegigabitethernet 1/0/9
     type: 25gbase-x-sfp28
-  - name: Eth10
+  - name: twentyfivegigabitethernet 1/0/10
     type: 25gbase-x-sfp28
-  - name: Eth11
+  - name: twentyfivegigabitethernet 1/0/11
     type: 25gbase-x-sfp28
-  - name: Eth12
+  - name: twentyfivegigabitethernet 1/0/12
     type: 25gbase-x-sfp28
+  - name: oob 1/0/1
+    type: 1000base-t
+    mgmt_only: true
 module-bays:
   - name: PS1
     position: '1'
