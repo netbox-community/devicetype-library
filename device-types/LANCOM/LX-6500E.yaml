@@ -1,23 +1,23 @@
 ---
 manufacturer: LANCOM
-model: LX-7300
-slug: lancom-lx-7300
-part_number: '61893'
+model: LX-6500E
+slug: lancom-lx-6500e
+part_number: '61872'
 u_height: 0
 is_full_depth: false
 airflow: passive
-comments: '[LANCOM LX-7300 Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-LX-7300/DS_LX-7300_DE.pdf)'
-weight: 2440
+comments: '[LANCOM LX-6500E Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-LX-6500E/DS_LX-6500E_DE.pdf)'
+weight: 1485
 weight_unit: g
 power-ports:
   - name: PS1
     label: DC 12 V
     type: dc-terminal
-    maximum_draw: 28
+    maximum_draw: 33
 interfaces:
   - name: eth1
     label: ETH1 (PoE)
-    type: 10gbase-t
+    type: 2.5gbase-t
     poe_mode: pd
     poe_type: type3-ieee802.3bt
   - name: eth2
@@ -29,6 +29,6 @@ interfaces:
   - name: wlan1
     type: ieee802.11ax
     description: 5GHz
-  - name: wlan2
-    type: ieee802.11be
+  - name: wlan3
+    type: ieee802.11ax
     description: 6GHz
