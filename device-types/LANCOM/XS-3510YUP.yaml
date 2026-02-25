@@ -1,14 +1,18 @@
 ---
 manufacturer: LANCOM
-model: GS-3510XP
-slug: lancom-gs-3510xp
-part_number: '61849'
+model: XS-3510YUP
+slug: lancom-xs-3510yup
+part_number: '61889'
 u_height: 1
 is_full_depth: false
+airflow: passive
+comments: '[LANCOM XS-3510YUP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-XS-3510YUP/DS_XS-3510YUP_DE.pdf)'
+weight: 3400
+weight_unit: g
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 145
+    maximum_draw: 405
 interfaces:
   - name: GigabitEthernet 1/1
     label: '1'
@@ -30,32 +34,34 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 2.5GigabitEthernet 1/1
-    label: '5'
-    type: 2.5gbase-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: 2.5GigabitEthernet 1/2
-    label: '6'
-    type: 2.5gbase-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: 2.5GigabitEthernet 1/3
-    label: '7'
-    type: 2.5gbase-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: 2.5GigabitEthernet 1/4
-    label: '8'
-    type: 2.5gbase-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: 10GigabitEthernet 1/1
-    label: '9'
-    type: 10gbase-x-sfpp
+    label: '5'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
   - name: 10GigabitEthernet 1/2
+    label: '6'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/3
+    label: '7'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/4
+    label: '8'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 25GigabitEthernet 1/1
+    label: '9'
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet 1/2
     label: '10'
-    type: 10gbase-x-sfpp
+    type: 25gbase-x-sfp28
 console-ports:
-  - name: com
+  - name: Console
     type: rj-45
+  - name: USB
+    type: usb-micro-b
