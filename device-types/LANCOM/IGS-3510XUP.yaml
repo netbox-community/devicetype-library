@@ -1,0 +1,69 @@
+---
+manufacturer: LANCOM
+model: IGS-3510XUP
+slug: lancom-igs-3510xup
+part_number: '61912'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+power-ports:
+  - name: PS1
+    label: DC 44-57 V
+    type: dc-terminal
+    maximum_draw: 375
+  - name: PS2
+    label: DC 44-57 V
+    type: dc-terminal
+    maximum_draw: 375
+interfaces:
+  - name: GigabitEthernet 1/1
+    label: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet 1/2
+    label: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet 1/3
+    label: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet 1/4
+    label: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 2.5GigabitEthernet 1/1
+    label: '5'
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5GigabitEthernet 1/2
+    label: '6'
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5GigabitEthernet 1/3
+    label: '7'
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 2.5GigabitEthernet 1/4
+    label: '8'
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/1
+    label: '9'
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet 1/2
+    label: '10'
+    type: 10gbase-x-sfpp
+console-ports:
+  - name: com
+    type: rj-45
