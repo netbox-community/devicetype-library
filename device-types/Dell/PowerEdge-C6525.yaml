@@ -1,0 +1,26 @@
+---
+manufacturer: Dell
+model: PowerEdge C6525
+slug: dell-poweredge-c6525
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+comments: |
+  [Dell C6525 Spec Sheet](https://www.dell.com/support/manuals/it-it/poweredge-c6525/pec6525_ts_pub/technical-specifications?guid=guid-ecb5cfaa-cf2b-46f6-ab1e-1839d086bc6a&lang=en-us)
+console-ports:
+  - name: iDRAC Direct
+    type: usb-micro-b
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: false
+module-bays:
+  - name: OCP slot 1
+    position: OCP-1
+  - name: PCIe slot 1 - LP
+    position: PCIe-1
+    label: '1'
+  - name: PCIe slot 2 - LP
+    position: PCIe-2
+    label: '2'

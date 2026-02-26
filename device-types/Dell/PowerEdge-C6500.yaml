@@ -1,0 +1,26 @@
+---
+manufacturer: Dell
+model: PowerEdge C6500
+slug: dell-poweredge-c6500
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+weight: 41.5
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  [Dell C6500 Spec Sheet](https://www.dell.com/support/manuals/it-it/poweredge-c6525/pec6525_ts_pub/technical-specifications?guid=guid-ecb5cfaa-cf2b-46f6-ab1e-1839d086bc6a&lang=en-us)
+device-bays:
+  - name: '1'
+    label: Sled 1
+  - name: '2'
+    label: Sled 2
+  - name: '3'
+    label: Sled 3
+  - name: '4'
+    label: Sled 4
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'
