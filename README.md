@@ -281,6 +281,15 @@ Inventory items are hierarchical in nature, such that any individual item may be
 - `manufacturer`: The name of the manufacturer which produces this item
 - `part_id`: The part ID assigned by the manufacturer
 
+## Module Type Images
+
+Module type images are stored under `module-images/<manufacturer>/<module-type>/` where `<module-type>` matches
+the YAML definition filename (without extension). A corresponding module-type definition **must** exist in
+`module-types/` before adding images.
+
+- **Naming**: `<module-type>[.<qualifier>].<ext>` (e.g. `RMCARD205.front.png`, `VIC-1227.png`)
+- **Limit**: Maximum **2 images** per module type
+
 ## Data Validation / Commit Quality Checks
 
 There are two ways this repo focuses on keeping quality device-type definitions:
