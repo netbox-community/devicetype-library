@@ -1,0 +1,36 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR570
+slug: lenovo-thinksystem-sr570
+part_number: 7Y0x
+u_height: 1
+is_full_depth: true
+comments: '[Lenovo ThinkSystem SR570 product guide](https://lenovopress.lenovo.com/lp1047-thinksystem-sr570-server)'
+subdevice_role: parent
+airflow: front-to-rear
+weight: 16
+weight_unit: kg
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: LOM slot 1
+    position: LOM-1
+  - name: Riser 1 - PCIe slot 1
+    position: PCIe-1
+    label: 1 PCIe
+  - name: Riser 1 - PCIe slot 2
+    position: PCIe-2
+    label: 2 PCIe
+  - name: Riser 2 - PCIe slot 3
+    position: PCIe-3
+    label: 3 PCIe
