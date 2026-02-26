@@ -8,7 +8,7 @@ is_full_depth: true
 front_image: true
 rear_image: true
 comments: 'Avaya Ethernet Routing Switch 3526T-PWR+, 24x 10/100 PoE+ RJ45, 2x Combo GbE (RJ45/SFP), 2x rear SFP for stacking, 370W PoE budget.'
-console_ports:
+console-ports:
   - name: Console
     type: rj-45
 interfaces:
@@ -116,7 +116,7 @@ interfaces:
     type: 1000base-x-sfp
   - name: Stack2
     type: 1000base-x-sfp
-power_ports:
+power-ports:
   - name: PSU
     type: iec-60320-c14
     maximum_draw: 370
