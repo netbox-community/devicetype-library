@@ -1,0 +1,34 @@
+---
+manufacturer: LANCOM
+model: LX-6500E
+slug: lancom-lx-6500e
+part_number: '61872'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[LANCOM LX-6500E Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-LX-6500E/DS_LX-6500E_DE.pdf)'
+weight: 1485
+weight_unit: g
+power-ports:
+  - name: PS1
+    label: DC 12 V
+    type: dc-terminal
+    maximum_draw: 33
+interfaces:
+  - name: eth1
+    label: ETH1 (PoE)
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: eth2
+    label: ETH2
+    type: 2.5gbase-t
+  - name: wlan0
+    type: ieee802.11ax
+    description: 2.4GHz
+  - name: wlan1
+    type: ieee802.11ax
+    description: 5GHz
+  - name: wlan3
+    type: ieee802.11ax
+    description: 6GHz
