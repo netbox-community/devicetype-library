@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
