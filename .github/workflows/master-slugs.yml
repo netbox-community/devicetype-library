@@ -15,7 +15,7 @@ jobs:
         with:
           ssh-key: ${{secrets.SLUG_DEPLOY_KEY}}
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         id: setup_python
         with:
           python-version: '3.12'
