@@ -1,0 +1,35 @@
+---
+manufacturer: TP-Link
+model: TL-WR940N v6
+slug: tp-link-tl-wr940n-v6
+part_number: TL-WR940N(EU)_v6
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.73
+weight_unit: kg
+power-ports:
+  - name: DC-IN
+    type: dc-terminal
+    description: External PSU
+interfaces:
+  - name: LAN1
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: LAN2
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: LAN3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: LAN4
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: WAN
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false

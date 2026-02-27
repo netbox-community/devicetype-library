@@ -1,0 +1,27 @@
+---
+manufacturer: TP-Link
+model: CPE210 v1.1
+slug: tp-link-cpe210-v1-1
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.3
+weight_unit: kg
+interfaces:
+  - name: eth0
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    description: PoE Passive In
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: eth1
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    description: Data Pass-through
+  - name: wifi0
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false
+    description: 2.4GHz Wireless Interface
