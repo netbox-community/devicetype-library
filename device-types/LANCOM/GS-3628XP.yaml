@@ -1,18 +1,18 @@
 ---
 manufacturer: LANCOM
-model: GS-3528XP
-slug: lancom-gs-3528xp
-part_number: '61850'
-comments: '[LANCOM GS-3528XP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3528XP/DS_GS-3528XP_DE.pdf)'
+model: GS-3628XP
+slug: lancom-gs-3628xp
+part_number: '61881'
 u_height: 1
 is_full_depth: false
 airflow: side-to-rear
-weight: 4.9
-weight_unit: kg
+comments: '[LANCOM GS-3628XP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3628XP/DS_GS-3628XP_DE.pdf)'
+weight: 4900
+weight_unit: g
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 480
+    maximum_draw: 455
 interfaces:
   - name: GigabitEthernet 1/1
     label: '1'
