@@ -1,0 +1,39 @@
+---
+manufacturer: TP-Link
+model: TL-WR1043N/ND v2
+slug: tp-link-tl-wr1043nnd-v2
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.4
+weight_unit: kg
+power-ports:
+  - name: DC-In
+    type: dc-terminal
+    description: External PSU
+comments: https://www.tp-link.com/de/home-networking/wifi-router/tl-wr1043nd/
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: eth1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: eth2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: eth3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: WAN
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: wifi0
+    type: ieee802.11n
+    enabled: true
+    mgmt_only: false
