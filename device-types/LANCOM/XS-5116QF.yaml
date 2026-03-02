@@ -54,16 +54,16 @@ interfaces:
     label: '12'
     type: 10gbase-x-sfpp
   - name: 1/0/13 sfp
-    label: '13-sfp'
+    label: 13-sfp
     type: 10gbase-x-sfpp
   - name: 1/0/14 sfp
-    label: '14-sfp'
+    label: 14-sfp
     type: 10gbase-x-sfpp
   - name: 1/0/13 rj45
-    label: '13-rj45'
+    label: 13-rj45
     type: 10gbase-t
   - name: 1/0/14 rj45
-    label: '14-rj45'
+    label: 14-rj45
     type: 10gbase-t
   - name: 1/0/15
     label: '15'
@@ -79,4 +79,3 @@ console-ports:
   - name: USB-A
     type: usb-a
     description: USB port for firmware and configuration transfer
-

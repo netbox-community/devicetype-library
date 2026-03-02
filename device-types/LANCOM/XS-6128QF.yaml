@@ -66,46 +66,46 @@ interfaces:
     label: '16'
     type: 10gbase-x-sfpp
   - name: 1/0/17 sfp
-    label: '17-sfp'
+    label: 17-sfp
     type: 10gbase-x-sfpp
   - name: 1/0/18 sfp
-    label: '18-sfp'
+    label: 18-sfp
     type: 10gbase-x-sfpp
   - name: 1/0/19 sfp
-    label: '19-sfp'
+    label: 19-sfp
     type: 10gbase-x-sfpp
   - name: 1/0/20 sfp
-    label: '20-sfp'
+    label: 20-sfp
     type: 10gbase-x-sfpp
   - name: 1/0/17 rj45
-    label: '17-rj45'
+    label: 17-rj45
     type: 10gbase-t
   - name: 1/0/18 rj45
-    label: '18-rj45'
+    label: 18-rj45
     type: 10gbase-t
   - name: 1/0/19 rj45
-    label: '19-rj45'
+    label: 19-rj45
     type: 10gbase-t
   - name: 1/0/20 rj45
-    label: '20-rj45'
+    label: 20-rj45
     type: 10gbase-t
   - name: 1/0/21 sfp28
-    label: '21-sfp28'
+    label: 21-sfp28
     type: 25gbase-x-sfp28
   - name: 1/0/22 sfp28
-    label: '22-sfp28'
+    label: 22-sfp28
     type: 25gbase-x-sfp28
   - name: 1/0/23 sfp28
-    label: '23-sfp28'
+    label: 23-sfp28
     type: 25gbase-x-sfp28
   - name: 1/0/24 sfp28
-    label: '24-sfp28'
+    label: 24-sfp28
     type: 25gbase-x-sfp28
   - name: 1/0/21 qsfpp
-    label: '21-qsfpp'
+    label: 21-qsfpp
     type: 40gbase-x-qsfpp
   - name: 1/0/22 qsfpp
-    label: '22-qsfpp'
+    label: 22-qsfpp
     type: 40gbase-x-qsfpp
 # this should be 50G SFP-DD but netbox does not support it yet, so we use 25gbase-x-sfp28 for now
 # i've already created a feature request #21548 and a pull request #21549 for this in the netbox repository
@@ -121,7 +121,7 @@ interfaces:
   - name: 1/0/26
     label: '26'
     type: 25gbase-x-sfp28
-    
+
 console-ports:
   - name: com
     type: rj-45
@@ -130,4 +130,3 @@ console-ports:
   - name: USB-A
     type: usb-a
     description: USB port for firmware and configuration transfer
-
