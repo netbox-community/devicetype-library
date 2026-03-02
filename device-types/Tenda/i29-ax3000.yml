@@ -1,0 +1,25 @@
+---
+manufacturer: Tenda
+model: i29 AX3000
+slug: tenda-i29-ax3000
+u_height: 0
+part_number: i29AX3000
+is_full_depth: false
+airflow: passive
+weight: 0.6
+weight_unit: kg
+
+power-ports:
+  - name: DC-In
+    type: dc-terminal
+    maximum_draw: 36000
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t

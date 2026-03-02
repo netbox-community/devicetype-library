@@ -1,0 +1,20 @@
+---
+manufacturer: TP-Link
+model: EAP225-Outdoor
+slug: tp-link-eap225-outdoor
+part_number: EAP225-Outdoor
+u_height: 0
+is_full_depth: false
+is_powered: true
+airflow: passive
+weight: 0.43
+weight_unit: kg
+
+power-ports:
+  - name: PoE-In
+    type: dc-terminal
+    maximum_draw: 12000
+
+interfaces:
+  - name: eth0
+    type: 1000base-t

@@ -1,0 +1,21 @@
+---
+manufacturer: Banana Pi
+model: OpenWrt One (AP-24-XY / MT7981B)
+slug: banana-pi-openwrt-one-ap-24-xy---mt7981b
+part_number: AP-24.XY
+u_height: 0
+is_full_depth: false
+is_powered: true
+airflow: passive
+
+power-ports:
+  - name: USB-C-PD (15V)
+    type: dc-terminal
+  - name: PoE-In (optional module)
+    type: dc-terminal
+
+interfaces:
+  - name: wan
+    type: other
+  - name: lan
+    type: 1000base-t

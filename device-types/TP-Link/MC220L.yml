@@ -1,0 +1,22 @@
+---
+manufacturer: TP-Link
+model: MC220L
+slug: tp-link-mc220l
+part_number: MC220L
+u_height: 0
+is_full_depth: false
+is_powered: true
+airflow: passive
+weight: 0.23
+weight_unit: kg
+
+power-ports:
+  - name: DC-In
+    type: dc-terminal
+    maximum_draw: 5000
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
