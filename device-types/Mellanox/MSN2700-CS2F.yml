@@ -1,0 +1,95 @@
+---
+manufacturer: Mellanox
+model: MSN2700-CS2F
+slug: mellanox-msn2700-cs2f
+part_number: MSN2700-CS2F
+airflow: rear-to-front
+u_height: 1
+is_full_depth: true
+weight: 11.1
+weight_unit: kg
+comments: '[Mellanox SN2700 Datasheet](https://network.nvidia.com/files/doc-2020/pb-sn2700.pdf)'
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+  - name: FAN4
+    position: '4'
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth1/1
+    type: 100gbase-x-qsfp28
+  - name: Eth1/2
+    type: 100gbase-x-qsfp28
+  - name: Eth1/3
+    type: 100gbase-x-qsfp28
+  - name: Eth1/4
+    type: 100gbase-x-qsfp28
+  - name: Eth1/5
+    type: 100gbase-x-qsfp28
+  - name: Eth1/6
+    type: 100gbase-x-qsfp28
+  - name: Eth1/7
+    type: 100gbase-x-qsfp28
+  - name: Eth1/8
+    type: 100gbase-x-qsfp28
+  - name: Eth1/9
+    type: 100gbase-x-qsfp28
+  - name: Eth1/10
+    type: 100gbase-x-qsfp28
+  - name: Eth1/11
+    type: 100gbase-x-qsfp28
+  - name: Eth1/12
+    type: 100gbase-x-qsfp28
+  - name: Eth1/13
+    type: 100gbase-x-qsfp28
+  - name: Eth1/14
+    type: 100gbase-x-qsfp28
+  - name: Eth1/15
+    type: 100gbase-x-qsfp28
+  - name: Eth1/16
+    type: 100gbase-x-qsfp28
+  - name: Eth1/17
+    type: 100gbase-x-qsfp28
+  - name: Eth1/18
+    type: 100gbase-x-qsfp28
+  - name: Eth1/19
+    type: 100gbase-x-qsfp28
+  - name: Eth1/20
+    type: 100gbase-x-qsfp28
+  - name: Eth1/21
+    type: 100gbase-x-qsfp28
+  - name: Eth1/22
+    type: 100gbase-x-qsfp28
+  - name: Eth1/23
+    type: 100gbase-x-qsfp28
+  - name: Eth1/24
+    type: 100gbase-x-qsfp28
+  - name: Eth1/25
+    type: 100gbase-x-qsfp28
+  - name: Eth1/26
+    type: 100gbase-x-qsfp28
+  - name: Eth1/27
+    type: 100gbase-x-qsfp28
+  - name: Eth1/28
+    type: 100gbase-x-qsfp28
+  - name: Eth1/29
+    type: 100gbase-x-qsfp28
+  - name: Eth1/30
+    type: 100gbase-x-qsfp28
+  - name: Eth1/31
+    type: 100gbase-x-qsfp28
+  - name: Eth1/32
+    type: 100gbase-x-qsfp28
