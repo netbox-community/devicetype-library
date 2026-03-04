@@ -3,19 +3,20 @@ manufacturer: LANCOM
 model: GS-3152XSP
 slug: lancom-gs-3152xsp
 part_number: '61486'
-comments: 'EoS:08/2023 EoL:08/2028 Successor: GS-3652XUP [LANCOM GS-3152XSP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3152XSP/DS_GS-3152XSP_DE.pdf)'
+comments: >
+  EoS:08/2023 EoL:08/2028 Successor: GS-3652XUP
+  [LANCOM GS-3152XSP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3152XSP/DS_GS-3152XSP_DE.pdf)
+  [Power Supply SPSU-920 Datasheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-920/DS_SPSU-920_EN.pdf)
 u_height: 1
 is_full_depth: false
 airflow: left-to-right
 weight: 5.5
 weight_unit: kg
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 920
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 920
+    position: '2'
 interfaces:
   - name: GigabitEthernet 1/1
     label: '1'

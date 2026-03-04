@@ -1,0 +1,132 @@
+---
+manufacturer: LANCOM
+model: XS-6128QF
+slug: lancom-xs-6128qf
+part_number: '61860'
+comments: >
+  [LANCOM XS-6128QF Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-XS-6128QF/DS_XS-6128QF_DE.pdf)
+  [Power Supply SPSU-250 Datasheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-250/DS_SPSU-250_EN.pdf)
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 6.0
+weight_unit: kg
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: 1/0/1
+    label: '1'
+    type: 10gbase-x-sfpp
+  - name: 1/0/2
+    label: '2'
+    type: 10gbase-x-sfpp
+  - name: 10gbase-x-sfpp 1/0/3
+    label: '3'
+    type: 10gbase-x-sfpp
+  - name: 1/0/4
+    label: '4'
+    type: 10gbase-x-sfpp
+  - name: 1/0/5
+    label: '5'
+    type: 10gbase-x-sfpp
+  - name: 1/0/6
+    label: '6'
+    type: 10gbase-x-sfpp
+  - name: 1/0/7
+    label: '7'
+    type: 10gbase-x-sfpp
+  - name: 1/0/8
+    label: '8'
+    type: 10gbase-x-sfpp
+  - name: 1/0/9
+    label: '9'
+    type: 10gbase-x-sfpp
+  - name: 1/0/10
+    label: '10'
+    type: 10gbase-x-sfpp
+  - name: 1/0/11
+    label: '11'
+    type: 10gbase-x-sfpp
+  - name: 1/0/12
+    label: '12'
+    type: 10gbase-x-sfpp
+  - name: 1/0/13
+    label: '13'
+    type: 10gbase-x-sfpp
+  - name: 1/0/14
+    label: '14'
+    type: 10gbase-x-sfpp
+  - name: 1/0/15
+    label: '15'
+    type: 10gbase-x-sfpp
+  - name: 1/0/16
+    label: '16'
+    type: 10gbase-x-sfpp
+  - name: 1/0/17 sfp
+    label: 17-sfp
+    type: 10gbase-x-sfpp
+  - name: 1/0/18 sfp
+    label: 18-sfp
+    type: 10gbase-x-sfpp
+  - name: 1/0/19 sfp
+    label: 19-sfp
+    type: 10gbase-x-sfpp
+  - name: 1/0/20 sfp
+    label: 20-sfp
+    type: 10gbase-x-sfpp
+  - name: 1/0/17 rj45
+    label: 17-rj45
+    type: 10gbase-t
+  - name: 1/0/18 rj45
+    label: 18-rj45
+    type: 10gbase-t
+  - name: 1/0/19 rj45
+    label: 19-rj45
+    type: 10gbase-t
+  - name: 1/0/20 rj45
+    label: 20-rj45
+    type: 10gbase-t
+  - name: 1/0/21 sfp28
+    label: 21-sfp28
+    type: 25gbase-x-sfp28
+  - name: 1/0/22 sfp28
+    label: 22-sfp28
+    type: 25gbase-x-sfp28
+  - name: 1/0/23 sfp28
+    label: 23-sfp28
+    type: 25gbase-x-sfp28
+  - name: 1/0/24 sfp28
+    label: 24-sfp28
+    type: 25gbase-x-sfp28
+  - name: 1/0/21 qsfpp
+    label: 21-qsfpp
+    type: 40gbase-x-qsfpp
+  - name: 1/0/22 qsfpp
+    label: 22-qsfpp
+    type: 40gbase-x-qsfpp
+# this should be 50G SFP-DD but netbox does not support it yet, so we use 25gbase-x-sfp28 for now
+# i've already created a feature request #21548 and a pull request #21549 for this in the netbox repository
+  - name: 1/0/23
+    label: '23'
+    type: 25gbase-x-sfp28
+  - name: 1/0/24
+    label: '24'
+    type: 25gbase-x-sfp28
+  - name: 1/0/25
+    label: '25'
+    type: 25gbase-x-sfp28
+  - name: 1/0/26
+    label: '26'
+    type: 25gbase-x-sfp28
+
+console-ports:
+  - name: com
+    type: rj-45
+  - name: USB
+    type: usb-micro-b
+  - name: USB-A
+    type: usb-a
+    description: USB port for firmware and configuration transfer
