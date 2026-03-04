@@ -1,0 +1,111 @@
+---
+manufacturer: Mellanox
+model: MSX1036B-1SFS
+slug: mellanox-msx1036b-1sfs
+part_number: MSX1036B-1SFS
+u_height: 1.0
+is_full_depth: true
+airflow: rear-to-front
+weight: 8.76
+weight_unit: kg
+comments: '[Mellanox SX1036B Datasheet](https://network.nvidia.com/pdf/user_manuals/1U_HW_UM_SX10XX_SX1X00.pdf)'
+console-ports:
+  - name: Serial Console
+    type: rj-45
+    label: CONSOLE
+  - name: USB Console
+    type: usb-mini-b
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: FAN1
+    position: FAN1
+  - name: FAN2
+    position: FAN2
+  - name: FAN3
+    position: FAN3
+  - name: FAN4
+    position: FAN4
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: MGT
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+    label: MGT
+  - name: Eth1/1
+    type: 40gbase-x-qsfpp
+  - name: Eth1/2
+    type: 40gbase-x-qsfpp
+  - name: Eth1/3
+    type: 40gbase-x-qsfpp
+  - name: Eth1/4
+    type: 40gbase-x-qsfpp
+  - name: Eth1/5
+    type: 40gbase-x-qsfpp
+  - name: Eth1/6
+    type: 40gbase-x-qsfpp
+  - name: Eth1/7
+    type: 40gbase-x-qsfpp
+  - name: Eth1/8
+    type: 40gbase-x-qsfpp
+  - name: Eth1/9
+    type: 40gbase-x-qsfpp
+  - name: Eth1/10
+    type: 40gbase-x-qsfpp
+  - name: Eth1/11
+    type: 40gbase-x-qsfpp
+  - name: Eth1/12
+    type: 40gbase-x-qsfpp
+  - name: Eth1/13
+    type: 40gbase-x-qsfpp
+  - name: Eth1/14
+    type: 40gbase-x-qsfpp
+  - name: Eth1/15
+    type: 40gbase-x-qsfpp
+  - name: Eth1/16
+    type: 40gbase-x-qsfpp
+  - name: Eth1/17
+    type: 40gbase-x-qsfpp
+  - name: Eth1/18
+    type: 40gbase-x-qsfpp
+  - name: Eth1/19
+    type: 40gbase-x-qsfpp
+  - name: Eth1/20
+    type: 40gbase-x-qsfpp
+  - name: Eth1/21
+    type: 40gbase-x-qsfpp
+  - name: Eth1/22
+    type: 40gbase-x-qsfpp
+  - name: Eth1/23
+    type: 40gbase-x-qsfpp
+  - name: Eth1/24
+    type: 40gbase-x-qsfpp
+  - name: Eth1/25
+    type: 40gbase-x-qsfpp
+  - name: Eth1/26
+    type: 40gbase-x-qsfpp
+  - name: Eth1/27
+    type: 40gbase-x-qsfpp
+  - name: Eth1/28
+    type: 40gbase-x-qsfpp
+  - name: Eth1/29
+    type: 40gbase-x-qsfpp
+  - name: Eth1/30
+    type: 40gbase-x-qsfpp
+  - name: Eth1/31
+    type: 40gbase-x-qsfpp
+  - name: Eth1/32
+    type: 40gbase-x-qsfpp
+  - name: Eth1/33
+    type: 40gbase-x-qsfpp
+  - name: Eth1/34
+    type: 40gbase-x-qsfpp
+  - name: Eth1/35
+    type: 40gbase-x-qsfpp
+  - name: Eth1/36
+    type: 40gbase-x-qsfpp
