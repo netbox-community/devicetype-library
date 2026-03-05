@@ -1,0 +1,26 @@
+---
+manufacturer: ADVA
+model: FSP-150-GE102Pro
+slug: adva-fsp-150-ge102pro
+part_number: 1078904890-01
+u_height: 1
+is_full_depth: false
+comments: >
+  [Datasheet](https://www.adtran.com/-/media/adtran/resources/data-sheets/pdfs/fsp-150-ge-100-pro-series.pdf)
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU-1
+    type: iec-60320-c14
+    allocated_draw: 15
+interfaces:
+  - name: ACCESS-1
+    type: 1000base-x-sfp
+  - name: NETWORK-1
+    type: 1000base-x-sfp
+  - name: NETWORK-2
+    type: 1000base-x-sfp
+  - name: MGMT
+    type: 100base-tx
+    mgmt_only: true
