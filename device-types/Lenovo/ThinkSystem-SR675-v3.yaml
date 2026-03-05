@@ -1,0 +1,69 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR675 V3
+slug: lenovo-thinksystem-sr675-v3
+part_number: 7D9x
+u_height: 3
+is_full_depth: true
+comments: '[Lenovo System SR675 V3 and SR675i V3 product guide](https://lenovopress.lenovo.com/lp1611-thinksystem-sr675-v3-server)'
+subdevice_role: parent
+airflow: front-to-rear
+weight: 39
+weight_unit: kg
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+  - name: PSU-2
+    position: PSU-2
+  - name: PSU-3
+    position: PSU-3
+  - name: PSU-4
+    position: PSU-4
+  - name: OCP slot 1
+    position: OCP-1
+  - name: Front Riser 1 - PCIe slot 1
+    position: PCIe-1
+    label: 1 PCIe
+  - name: Front Riser 1 - PCIe slot 2
+    position: PCIe-2
+    label: 2 PCIe
+  - name: Front PCIe slot 3
+    position: PCIe-3
+    label: 3 PCIe
+  - name: Front PCIe slot 4
+    position: PCIe-4
+    label: 4 PCIe
+  - name: Front PCIe slot 5
+    position: PCIe-5
+    label: 5 PCIe
+  - name: Front PCIe slot 6
+    position: PCIe-6
+    label: 6 PCIe
+  - name: Front PCIe slot 7
+    position: PCIe-7
+    label: 7 PCIe
+  - name: Front PCIe slot 8
+    position: PCIe-8
+    label: 8 PCIe
+  - name: Front PCIe slot 9
+    position: PCIe-9
+    label: 9 PCIe
+  - name: Front PCIe slot 10
+    position: PCIe-10
+    label: 10 PCIe
+  - name: Riser 1 - PCIe slot 15
+    position: PCIe-11
+    label: 15 PCIe
+  - name: Riser 1 - PCIe slot 16
+    position: PCIe-12
+    label: 16 PCIe
+  - name: Riser 2 - PCIe slot 20
+    position: PCIe-13
+    label: 20 PCIe
+  - name: Riser 2 - PCIe slot 21
+    position: PCIe-14
+    label: 21 PCIe
