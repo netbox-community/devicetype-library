@@ -10,12 +10,12 @@ airflow: passive
 
 power-ports:
   - name: USB-C-PD (15V)
-    type: dc-terminal
+    type: usb-c
   - name: PoE-In (optional module)
     type: dc-terminal
 
 interfaces:
   - name: wan
-    type: other
+    type: 2.5gbase-t
   - name: lan
     type: 1000base-t

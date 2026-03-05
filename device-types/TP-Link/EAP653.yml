@@ -13,10 +13,10 @@ weight_unit: kg
 power-ports:
   - name: PoE-In
     type: dc-terminal
-    maximum_draw: 12500
+    maximum_draw: 15
   - name: DC-In
     type: dc-terminal
-    maximum_draw: 12500
+    maximum_draw: 15
 
 interfaces:
   - name: eth0
