@@ -1,0 +1,23 @@
+---
+manufacturer: Dell
+model: OptiPlex 3070 Micro
+slug: dell-optiplex-3070-micro
+u_height: 0
+is_full_depth: false
+part_number: D10U003
+front_image: true
+rear_image: true
+comments: '[Dell OptiPlex 3070 Micro Setup and Specifications](https://www.dell.com/support/manuals/en-us/optiplex-3070-micro/opti3070_micro_setiup_specs/)'
+# Weight approx. 1.18 kg (typical configuration, may vary)
+weight: 1.18
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: NIC
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c6
+    maximum_draw: 65
