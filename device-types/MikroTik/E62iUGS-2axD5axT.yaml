@@ -1,15 +1,15 @@
 ---
 manufacturer: MikroTik
-model: hEX
-slug: mikrotik-hex
-part_number: RB750Gr3
+model: hAP ax S
+slug: mikrotik-hap-ax-s
+part_number: E62iUGS-2axD5axT
 is_full_depth: false
 u_height: 0
 airflow: passive
 front_image: true
 rear_image: true
 subdevice_role: parent
-weight: 129
+weight: 820
 weight_unit: g
 interfaces:
   - name: ether1
@@ -29,17 +29,23 @@ interfaces:
     type: 1000base-t
   - name: ether5
     label: '5'
+    poe_mode: pse
+    poe_type: passive-24v-2pair
     type: 1000base-t
+  - name: sfp1
+    label: 2.5G
+    type: 1000base-x-sfp
+  - name: Wireless 2.4 GHz
+    type: ieee802.11ax
+  - name: Wireless 5 GHz
+    type: ieee802.11ax
   - name: usb
     type: lte
-module-bays:
-  - name: microSD/microSDHC/microSDXC
-    position: microSD
 power-ports:
   - name: DC
     label: DC
     type: dc-terminal
-    maximum_draw: 10
-    allocated_draw: 5
-    description: 8 - 30 V DC
-comments: '[RB750Gr3 Datasheet by Kolyan](https://mikrotik.com/product/RB750Gr3#product_specification)'
+    maximum_draw: 34
+    allocated_draw: 11
+    description: 12 - 28 V DC SAW36-240-1500G 24V 1.5A
+comments: '[E62iUGS-2axD5axT Datasheet by Kolyan](https://mikrotik.com/product/hap_ax_s#product_specification)'
