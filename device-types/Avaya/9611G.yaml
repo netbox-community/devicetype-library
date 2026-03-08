@@ -1,0 +1,19 @@
+---
+manufacturer: Avaya
+model: 9611G
+slug: avaya-9611g
+part_number: '700516565'
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 0.70
+weight_unit: kg
+comments: 'Avaya 9611G IP Phone - Supports SIP and UNIStim protocols - PoE powered (802.3af) - 12-line monochrome display - eth0: to switch, eth1: PC passthrough'
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth1
+    type: 1000base-t
