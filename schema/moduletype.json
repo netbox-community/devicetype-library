@@ -147,7 +147,7 @@
 		}
 	    }
 	},
-    "if": { "required": ["profile"] }, #This line allows modules that don't have a profile to not require attribute_data This can be removed once all modules have profiles assigned.
+    "if": { "required": ["profile"] },
     "then": {
         "oneOf": [
     {
