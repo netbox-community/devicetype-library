@@ -1,0 +1,18 @@
+---
+manufacturer: MikroTik
+model: wAP LR8G kit
+slug: mikrotik-rbwapr-2nd-and-r11e-lr8g
+description: A compact, weatherproof gateway with 2.4 GHz Wireless, 868MHz LoRa, and a built-in GPS.
+part_number: RBwAPR-2nD&R11e-LR8G
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Specifications](https://mikrotik.com/product/wap_lr8g_kit), [User Manual](https://help.mikrotik.com/docs/spaces/UM/pages/298975307/wAP+LR8G+kit)'
+front_image: true
+interfaces:
+  - name: RJ-45 PoE PD
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: passive-24v-2pair
