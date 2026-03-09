@@ -2,6 +2,12 @@
 manufacturer: Juniper
 model: EX-PWR-320-AC
 part_number: 740-020957
+profile: power_supply
+attribute_data:
+  input_current: AC
+  input_voltage: 230
+  hot_swappable: true
+  wattage: 320
 power-ports:
   - name: PSU {module}
     type: iec-60320-c14

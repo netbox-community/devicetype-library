@@ -5,6 +5,12 @@ comments: 150W Power Supply for non-PoE OS6860 or OS6860E switches
 part_number: PS-150W-AC
 weight: 0.7
 weight_unit: kg
+profile: power_supply
+attribute_data:
+  input_current: AC
+  wattage: 150
+  input_voltage: 230
+  hot_swappable: true
 power-ports:
   - name: PSU{module}
     type: iec-60320-c14

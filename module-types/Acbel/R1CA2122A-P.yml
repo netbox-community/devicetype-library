@@ -3,6 +3,12 @@ manufacturer: Acbel
 model: R1CA2122A-P
 part_number: FSF050
 description: 1200w Power Supply
+profile: power_supply
+attribute_data:
+  input_current: AC
+  wattage: 1200
+  hot_swappable: true
+  input_voltage: 230
 comments: '[R1C Series 1200W Power Module Specification](https://web.archive.org/web/20250107112430/http://www.iway-tech.com/Uploads/Content/2020-11-30/5fc46bfc5f6d8.pdf)'
 power-ports:
   - name: '{module}'
