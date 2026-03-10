@@ -1,0 +1,49 @@
+---
+manufacturer: XikeStor
+model: SKS3200-8E1X-P
+slug: xikestor-sks3200-8e1x-p
+u_height: 0.0
+is_full_depth: false
+weight: 0.2
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+interfaces:
+  - name: eth0/1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/2
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/3
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/4
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/5
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/6
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/7
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: eth0/8
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: sfp+1
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
