@@ -1,0 +1,39 @@
+---
+manufacturer: RuggedCOM
+model: Rugged Switch RSG2488
+slug: ruggedcom-rugged-switch-rsg2488
+part_number: RSG2488
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 10
+weight_unit: kg
+comments: '[RSG2488 Equipment Manual](https://cache.industry.siemens.com/dl/files/529/109983529/att_1316698/v1/C79000-G8976-1048-16_RSG2488_EquipmentManual.pdf)'
+power-ports:
+  - name: DC Input 1
+    type: dc-terminal
+    maximum_draw: 600
+  - name: DC Input 2
+    type: dc-terminal
+    maximum_draw: 600
+console-ports:
+  - name: Console
+    type: de-9
+    label: Console
+module-bays:
+  - name: '1'
+    position: TOP 1
+  - name: '2'
+    position: Bottom 1
+  - name: '3'
+    position: TOP 2
+  - name: '4'
+    position: Bottom 2
+  - name: '5'
+    position: TOP 3
+  - name: '6'
+    position: Bottom 3
+  - name: '7'
+    position: TOP 4
+  - name: '8'
+    position: Bottom 4
