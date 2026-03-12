@@ -4,20 +4,18 @@ model: ISCOM2924GF-4GE
 slug: raisecom-iscom2924gf-4ge
 u_height: 1.0
 is_full_depth: false
-airflow: left-to-right
+airflow: front-to-rear
 weight: 5.5
 weight_unit: kg
-comments: See [Datasheet](https://www.proficomms.eu/files/datasheets/Raisecom/Datasheet_ISCOM2924GF-4GE.pdf).
+comments: See [Product Catalog 2017 v2](https://www.raisecom.com/sites/default/files/RC%20Catalog%202017%20v2.pdf).
 console-ports:
   - name: MGMT
     type: usb-a
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 45
+    position: '1'
   - name: PSU2
-    type: dc-terminal
-    maximum_draw: 45
+    position: '2'
 interfaces:
   - name: '1'
     type: 1000base-x-sfp
