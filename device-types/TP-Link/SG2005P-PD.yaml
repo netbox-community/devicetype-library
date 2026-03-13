@@ -21,53 +21,53 @@ comments: "[TP-Link SG2005P-PD](https://www.omadanetworks.com/au/business-networ
   \t\t-6 W when powered by 802.3af\r\n\r\nDimensions ( W x D x H ) : 100 \xD7 38.5\
   \ \xD7 170 mm"
 interfaces:
-- name: Port 1
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-  rf_role: null
-- name: Port 2
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-  rf_role: null
-- name: Port 3
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-  rf_role: null
-- name: Port 4
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-  rf_role: null
-- name: Port 5
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: pse
-  poe_type: type3-ieee802.3bt
-  rf_role: null
+  - name: Port 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: null
+  - name: Port 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: null
+  - name: Port 3
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: null
+  - name: Port 4
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: null
+  - name: Port 5
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+    rf_role: null
