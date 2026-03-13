@@ -1,0 +1,73 @@
+---
+manufacturer: TP-Link
+model: SG2005P-PD
+slug: tp-link-tl-sg2005p-pd
+description: Omada 5-Port Gigabit Smart Switch with 1-Port PoE++ In and 4-Port PoE+
+  Out
+default_platform: null
+part_number: SG2005P-PD
+u_height: 0.0
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: null
+weight_unit: null
+comments: "[TP-Link SG2005P-PD](https://www.omadanetworks.com/au/business-networking/omada-switch-access/sg2005p-pd/#specifications)\r\
+  \n\r\nPower Supply\tObtain Power from 802.3af/at/bt PoE Source\r\n\r\nPoE Ports\
+  \ (RJ45)\r\n\r\n\t\u2022 PoE In Port: Port 5, Compliance with 802.3af/at/bt\r\n\t\
+  \u2022 PoE Out Ports: Ports 1-4, compliance with 802.3af/at PoE\r\n\t\u2022 PoE\
+  \ Power Budget:\r\n\t\t-64 W when powered by 802.3bt Type 4 (90 W)\r\n\t\t-44 W\
+  \ when powered by 802.3bt Type 3 (60 W)\r\n\t\t-19 W when powered by 802.3at\r\n\
+  \t\t-6 W when powered by 802.3af\r\n\r\nDimensions ( W x D x H ) : 100 \xD7 38.5\
+  \ \xD7 170 mm"
+interfaces:
+- name: Port 1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type2-ieee802.3at
+  rf_role: null
+- name: Port 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type2-ieee802.3at
+  rf_role: null
+- name: Port 3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type2-ieee802.3at
+  rf_role: null
+- name: Port 4
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type2-ieee802.3at
+  rf_role: null
+- name: Port 5
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type3-ieee802.3bt
+  rf_role: null
