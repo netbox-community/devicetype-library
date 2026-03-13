@@ -11,43 +11,43 @@ attribute_data:
   connector_type: SC x 4
 comments: ''
 interfaces:
-- name: '{module}/1'
-  type: 100base-fx
-  enabled: true
-  mgmt_only: false
-  label: '1'
-  description: 100FX MM (Multi-Mode) SC
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: '{module}/2'
-  type: 100base-fx
-  enabled: true
-  mgmt_only: false
-  label: '2'
-  description: 100FX MM (Multi-Mode) SC
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: '{module}/3'
-  type: 100base-fx
-  enabled: true
-  mgmt_only: false
-  label: '3'
-  description: 100FX MM (Multi-Mode) SC
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: '{module}/4'
-  type: 100base-fx
-  enabled: true
-  mgmt_only: false
-  label: '4'
-  description: 100FX MM (Multi-Mode) SC
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
+  - name: '{module}/1'
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    label: '1'
+    description: 100FX MM (Multi-Mode) SC
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
+  - name: '{module}/2'
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    label: '2'
+    description: 100FX MM (Multi-Mode) SC
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
+  - name: '{module}/3'
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    label: '3'
+    description: 100FX MM (Multi-Mode) SC
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
+  - name: '{module}/4'
+    type: 100base-fx
+    enabled: true
+    mgmt_only: false
+    label: '4'
+    description: 100FX MM (Multi-Mode) SC
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
