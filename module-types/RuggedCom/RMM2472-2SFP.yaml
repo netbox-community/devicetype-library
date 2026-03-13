@@ -11,23 +11,24 @@ attribute_data:
   connector_type: SFP x 2
 comments: ''
 interfaces:
-- name: '{module}/1'
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: '1'
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: '{module}/2'
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: '2'
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
+        - name: '{module}/1'
+          type: 1000base-x-sfp
+          enabled: true
+          mgmt_only: false
+          label: '1'
+          description: ''
+          bridge: null
+          poe_mode: null
+          poe_type: null
+          rf_role: null
+        - name: '{module}/2'
+          type: 1000base-x-sfp
+          enabled: true
+          mgmt_only: false
+          label: '2'
+          description: ''
+          bridge: null
+          poe_mode: null
+          poe_type: null
+          rf_role: null
+  
