@@ -82,6 +82,6 @@ interfaces:
   - name: SFP+28
     type: 10gbase-x-sfpp
 power-ports:
-  - name: PSU1
+  - name: PSU
     type: iec-60320-c14
-
+    maximum_draw: 400
