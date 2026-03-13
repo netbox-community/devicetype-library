@@ -1,0 +1,71 @@
+---
+manufacturer: Cisco
+model: CBS350-8MGP-2X
+slug: cisco-cbs350-8mgp-2x
+part_number: CBS350-8MGP-2X
+u_height: 1.0
+is_full_depth: false
+front_image: false
+rear_image: false
+airflow: front-to-rear
+comments: '[CBS350 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html)'
+weight: 5.51
+weight_unit: lb
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/7
+    type: 2.5gbase-t
+    enabled: true
+  - name: GigabitEthernet1/0/8
+    type: 2.5gbase-t
+    enabled: true
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+    description: SFP+/RJ45 Combo
+    enabled: true
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+    description: SFP+/RJ45 Combo
+    enabled: true
+  - name: Vlan1
+    type: virtual
+    enabled: true
+    mgmt_only: false
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 167

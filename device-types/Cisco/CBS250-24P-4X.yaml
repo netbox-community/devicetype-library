@@ -1,0 +1,159 @@
+---
+manufacturer: Cisco
+model: CBS250-24P-4X
+slug: cisco-cbs250-24p-4x
+part_number: CBS250-24P-4X
+u_height: 1.0
+is_full_depth: false
+front_image: false
+rear_image: false
+airflow: front-to-rear
+comments: '[CBS250 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
+weight: 8.11
+weight_unit: lb
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet2
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet3
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet4
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet5
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet6
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet7
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet8
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet9
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet10
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet11
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet12
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet13
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet14
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet15
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet16
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet17
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet18
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet19
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet20
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet21
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet22
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet23
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet24
+    type: 1000base-t
+    enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: TenGigabitEthernet1
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: TenGigabitEthernet2
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: TenGigabitEthernet3
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: TenGigabitEthernet4
+    type: 10gbase-x-sfpp
+    enabled: true
+  - name: Vlan1
+    type: virtual
+    enabled: true
+    mgmt_only: false
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 240
