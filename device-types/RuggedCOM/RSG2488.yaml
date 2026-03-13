@@ -2,9 +2,7 @@
 manufacturer: RuggedCOM
 model: Rugged Switch RSG2488
 slug: ruggedcom-rugged-switch-rsg2488
-description: RUGGEDCOM RSG2488 switch supports up to 28 electrical and/ or optical
-  interfaces with data transfer rates of 10/100/1000 Mbit/s.
-default_platform: null
+description: RUGGEDCOM RSG2488 switch supports up to 28 electrical and/ or optical interfaces with data transfer rates of 10/100/1000 Mbit/s.
 part_number: RSG2488
 u_height: 1.0
 is_full_depth: true
@@ -23,36 +21,19 @@ power-ports:
   - name: DC Input 1
     type: dc-terminal
     maximum_draw: 600
-    allocated_draw: null
-    label: ''
-    description: ''
   - name: DC Input 2
     type: dc-terminal
     maximum_draw: 600
-    allocated_draw: null
-    label: ''
-    description: ''
 interfaces:
   - name: MGMT
     type: 100base-tx
-    enabled: true
     mgmt_only: true
     label: MGMT
     description: Management Port
-    bridge: null
-    poe_mode: ''
-    poe_type: ''
-    rf_role: ''
   - name: SVI1
     type: virtual
-    enabled: true
     mgmt_only: false
-    label: ''
     description: In band virtual interface
-    bridge: null
-    poe_mode: null
-    poe_type: null
-    rf_role: null
 module-bays:
   - name: '1'
     label: Slot01
