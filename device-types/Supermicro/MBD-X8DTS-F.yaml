@@ -24,39 +24,29 @@ interfaces:
     type: 1000base-t
     description: Onboard LAN 2 (Intel 82576) - External
   - name: int-10g-1
-    type: 10gbase-sfp+
+    type: 10gbase-t
     description: Internal 10GbE Node Link 1 (Intel 82599)
   - name: int-10g-2
-    type: 10gbase-sfp+
+    type: 10gbase-t
     description: Internal 10GbE Node Link 2 (Intel 82599)
-  - name: SAS
-    type: sas-sff-8088
-    description: External SAS Port (for JBOD expansion)
-  - name: Internal USB
-    type: usb-a
-    description: Onboard USB-A port
-  - name: SATA DOM 1
-    position: 1
-    description: SATADOM 1 (near P2 DIMMs)
 
 module-bays:
-  # Chassis Rear CPU
+  # CPUs
   - name: CPU 1
-    position: 1
+    position: Rear
     description: LGA 1366 Socket
-  # Chassis Front CPU
   - name: CPU 2
-    position: 2
+    position: Front
     description: LGA 1366 Socket
-
+    # PCI
   - name: PCI-E 1
-    position: 1
+    position: '1'
     description: PCIe 2.0 x8 (Riser 1, Slot 1)
   - name: PCI-E 2
-    position: 2
+    position: '2'
     description: PCIe 2.0 x4 (Riser 1, Slot 2)
   - name: PCI-E 3
-    position: 3
+    position: '3'
     description: PCIe 2.0 x4 (Riser 1, Slot 3)
 
   # Memory
@@ -80,3 +70,15 @@ module-bays:
   - name: P2 DIMM 3A
     position: '6'
     description: DDR3 DIMM slot (ECC compatible)
+  # SAS connector
+  - name: SAS
+    position: Rear
+    description: External SAS Port (for JBOD expansion)
+  # USB connector
+  - name: Internal USB
+    position: USB3
+    description: Onboard USB-A port
+  # SATADOM
+  - name: SATA DOM 1
+    position: SATADOM1
+    description: SATADOM 1 (near P2 DIMMs)
