@@ -78,18 +78,120 @@
         },
         "comments": {
             "type": "string"
-        }
-    },
-    "allOf": [
-      {
-        "if": { "required": ["weight"] },
-        "then": { "required": ["weight_unit"] }
-      },
-      {
-        "if": { "required": ["weight_unit"] },
-        "then": { "required": ["weight"] }
+        },
+        "profile": {
+            "type": "string",
+            "enum": ["cpu", "fan", "gpu", "hard_disk", "memory", "power_supply"]
+        },
+        "attribute_data": {
+            "type": "object"
+		}
+	},
+	"$defs": {
+            "cpu_attributes": {
+                "type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "architecture": { "type": "string" },
+		    "cores": { "type": "integer", "minimum": 1 },
+		    "speed": { "type": "number" }
+		}
+	    },
+	    "fan_attributes": {
+	        "type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "rpm": { "type": "integer", "minimum": 0 }
+		}
+	    },
+	    "gpu_attributes": {
+	        "type": "object",
+		"additionalProperties": false,
+                "required": ["memory"],
+		"properties": {
+		    "gpu": { "type": "string" },
+		    "interface": { "type": "string", "enum": [ "PCIe 4.0", "PCIe 4.0 x8", "PCIe 4.0 x16", "PCIe 5.0 x16"] },
+		    "memory": { "type": "integer" }
+		}
+            },
+	    "hard_disk_attributes": {
+		"type": "object",
+		"additionalProperties": false,
+                "required": ["size"],
+		"properties": {
+		    "size": { "type": "integer" },
+		    "speed": { "type": "integer" },
+		    "disk_type": { "type": "string", "enum": ["HD", "SSD", "NVME"] }
+		}
+	    },
+	    "memory_attributes": {
+		"type": "object",
+		"additionalProperties": false,
+                "required": ["class", "size"],
+		"properties": {
+		    "class": { "type": "string", "enum": ["DDR3", "DDR4", "DDR5"] },
+		    "data_rate": { "type": "integer" },
+		    "ecc": { "type": "boolean" },
+		    "size": { "type": "integer" }
+		}
+	    },
+	    "psu_attributes": {
+		"type": "object",
+		"additionalProperties": false,
+                "required": ["input_current", "input_voltage", "hot_swappable"],
+		"properties": {
+		    "wattage": { "type": "integer", "minimum": 0 },
+		    "hot_swappable": { "type": "boolean" },
+		    "input_current": { "type": "string", "enum": ["AC", "DC"] },
+		    "input_voltage": { "type": "number", "minimum": 0 }
+		}
+	    }
+	},
+    "if": { "required": ["profile"] },
+    "then": {
+        "oneOf": [
+    {
+     "properties": {
+        "profile": { "const": "cpu" },
+        "attribute_data": { "$ref": "#/$defs/cpu_attributes" }
       }
-    ],
+    },
+    {
+      "properties": {
+        "profile": { "const": "fan" },
+        "attribute_data": { "$ref": "#/$defs/fan_attributes" }
+      }
+    },
+    {
+      "properties": {
+        "profile": { "const": "gpu" },
+        "attribute_data": { "$ref": "#/$defs/gpu_attributes" }
+      }
+    },
+    {
+      "properties": {
+        "profile": { "const": "hard_disk" },
+        "attribute_data": { "$ref": "#/$defs/hard_disk_attributes" }
+      }
+    },
+    {
+      "properties": {
+        "profile": { "const": "memory" },
+        "attribute_data": { "$ref": "#/$defs/memory_attributes" }
+      }
+    },
+    {
+      "properties": {
+        "profile": { "const": "power_supply" },
+        "attribute_data": { "$ref": "#/$defs/psu_attributes" }
+      }
+    }
+    ]
+    },
+    "dependentRequired": {
+        "weight": ["weight_unit"],
+        "weight_unit": ["weight"]
+    },
     "required": ["manufacturer", "model"],
     "additionalProperties": false
 }
