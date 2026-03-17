@@ -1,0 +1,30 @@
+---
+manufacturer: Cisco
+model: Meraki MX80
+slug: cisco-meraki-mx80
+part_number: MX80-HW
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 8
+weight_unit: lb
+comments: '[Meraki MX80 Datasheet](https://www.barcodesinc.com/media/pdf/Meraki/mx80.pdf) - Medium branch security appliance (EOS/EOL)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 32
+    allocated_draw: 26
+interfaces:
+  - name: USB
+    type: usb-a
+    description: 3G/4G USB modem support
+  - name: Internet 1
+    type: 1000base-t
+  - name: Internet 2
+    type: 1000base-t
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t

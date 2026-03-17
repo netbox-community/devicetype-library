@@ -1,0 +1,31 @@
+manufacturer: Cisco
+model: Meraki MX65
+slug: meraki-mx65
+part_number: MX65-HW
+is_full_depth: false
+airflow: passive
+weight_unit: lb
+weight: 1.61
+u_height: 1
+comments: '[Meraki MX65 Datasheet](https://documentation.meraki.com/SASE_and_SD-WAN/MX/Product_Information/Overviews_and_Datasheets/MX64_and_MX65_Overview_and_Specifications)'
+interfaces:
+- name: Internet 1
+  type: 1000base-t
+- name: Internet 2
+  type: 1000base-t
+- name: Port 1
+  type: 1000base-t
+- name: Port 2
+  type: 1000base-t
+- name: Port 3
+  type: 1000base-t
+- name: Port 4
+  type: 1000base-t
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 72
+    allocated_draw: 6
+console-ports:
+- name: Console
+  type: rj-45
