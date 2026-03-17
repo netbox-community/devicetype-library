@@ -1,3 +1,4 @@
+---
 manufacturer: Cisco
 model: Meraki MX64
 slug: meraki-mx64
@@ -9,24 +10,23 @@ weight: 1.61
 u_height: 1
 comments: '[Meraki MX64 Datasheet](https://documentation.meraki.com/SASE_and_SD-WAN/MX/Product_Information/Overviews_and_Datasheets/MX64_and_MX65_Overview_and_Specifications)'
 interfaces:
-- name: Internet 1
-  type: 1000base-t
-- name: Internet 2
-  type: 1000base-t
-- name: Port 1
-  type: 1000base-t
-- name: Port 2
-  type: 1000base-t
-- name: Port 3
-  type: 1000base-t
-- name: Port 4
-  type: 1000base-t
+  - name: Internet 1
+    type: 1000base-t
+  - name: Internet 2
+    type: 1000base-t
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
 power-ports:
   - name: Slot 1
     type: iec-60320-c14
     maximum_draw: 10
     allocated_draw: 4
 console-ports:
-- name: Console
-  type: rj-45
-
+  - name: Console
+    type: rj-45
