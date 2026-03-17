@@ -1,4 +1,3 @@
----
 manufacturer: Cisco
 model: Meraki MX80
 slug: cisco-meraki-mx80
@@ -15,9 +14,6 @@ power-ports:
     maximum_draw: 32
     allocated_draw: 26
 interfaces:
-  - name: USB
-    type: usb-a
-    description: 3G/4G USB modem support
   - name: Internet 1
     type: 1000base-t
   - name: Internet 2

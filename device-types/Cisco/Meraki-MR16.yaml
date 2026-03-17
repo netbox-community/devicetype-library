@@ -1,4 +1,3 @@
----
 manufacturer: Cisco
 model: Meraki MR16
 slug: cisco-meraki-mr16
@@ -8,8 +7,7 @@ is_full_depth: false
 airflow: passive
 weight: 17
 weight_unit: oz
-comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR16.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR16.pdf)\r \n- IEEE\
-  \ Standards: 802.11a, 802.11b, 802.11g, 802.11n"
+comments: "- Datasheet: [https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR16.pdf](https://meraki.cisco.com/lib/pdf/meraki_datasheet_MR16.pdf)\r \n- IEEE Standards: 802.11a, 802.11b, 802.11g, 802.11n"
 interfaces:
   - name: main
     type: 1000base-t
