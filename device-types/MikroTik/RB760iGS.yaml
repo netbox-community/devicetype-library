@@ -1,29 +1,50 @@
 ---
 manufacturer: MikroTik
-model: RB760iGS
-slug: mikrotik-rb760igs
+model: hEX S
+slug: mikrotik-hex-s
 part_number: RB760iGS
-u_height: 0
 is_full_depth: false
-weight: 139
-weight_unit: g
+u_height: 0
 airflow: passive
-comments: "[Mikrotik Product Website](https://mikrotik.com/product/hex_s)\r\nMaximum CPU Network bandwidth is 2GBit/s, see block diagram on Website"
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 350
+weight_unit: g
+interfaces:
+  - name: ether1
+    label: '1'
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-IN
+  - name: ether2
+    label: '2'
+    type: 1000base-t
+  - name: ether3
+    label: '3'
+    type: 1000base-t
+  - name: ether4
+    label: '4'
+    type: 1000base-t
+  - name: ether5
+    label: '5'
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+  - name: sfp1
+    label: SFP
+    type: 1000base-x-sfp
+  - name: usb
+    type: lte
+module-bays:
+  - name: microSD/microSDHC/microSDXC
+    position: microSD
 power-ports:
-  - name: Input
+  - name: DC
+    label: DC
     type: dc-terminal
     maximum_draw: 24
     allocated_draw: 6
-interfaces:
-  - name: ether1
-    type: 1000base-t
-  - name: ether2
-    type: 1000base-t
-  - name: ether3
-    type: 1000base-t
-  - name: ether4
-    type: 1000base-t
-  - name: ether5
-    type: 1000base-t
-  - name: sfp1
-    type: 1000base-x-sfp
+    description: 12 - 57 V DC
+comments: '[RB760iGS Datasheet by Kolyan](https://mikrotik.com/product/hex_s#product_specification)'
