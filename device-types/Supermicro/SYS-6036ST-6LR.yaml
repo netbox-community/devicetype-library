@@ -1,0 +1,73 @@
+---
+manufacturer: Supermicro
+model: SYS-6036ST-6LR
+slug: supermicro-sys-6036st-6lr
+part_number: SYS-6036ST-6LR
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+comments: SuperServer SYS-6036ST-6LR
+subdevice_role: parent
+weight: 22.0
+weight_unit: kg
+module-bays:
+  # Power
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  # Drive Bays
+  - name: HDD Bay 1
+    description: '3.5" Hot-Swap SAS/SATA (SAS #0 - J1)'
+    position: '1'
+  - name: HDD Bay 2
+    description: '3.5" Hot-Swap SAS/SATA (SAS #1 - J2)'
+    position: '2'
+  - name: HDD Bay 3
+    description: '3.5" Hot-Swap SAS/SATA (SAS #2 - J3)'
+    position: '3'
+  - name: HDD Bay 4
+    description: '3.5" Hot-Swap SAS/SATA (SAS #3 - J4)'
+    position: '4'
+  - name: HDD Bay 5
+    description: '3.5" Hot-Swap SAS/SATA (SAS #4 - J5)'
+    position: '5'
+  - name: HDD Bay 6
+    description: '3.5" Hot-Swap SAS/SATA (SAS #5 - J6)'
+    position: '6'
+  - name: HDD Bay 7
+    description: '3.5" Hot-Swap SAS/SATA (SAS #6 - J7)'
+    position: '7'
+  - name: HDD Bay 8
+    description: '3.5" Hot-Swap SAS/SATA (SAS #7 - J8)'
+    position: '8'
+  - name: HDD Bay 9
+    description: '3.5" Hot-Swap SAS/SATA (SAS #8 - J9)'
+    position: '9'
+  - name: HDD Bay 10
+    description: '3.5" Hot-Swap SAS/SATA (SAS #9 - J10)'
+    position: '10'
+  - name: HDD Bay 11
+    description: '3.5" Hot-Swap SAS/SATA (SAS #10 - J11)'
+    position: '11'
+  - name: HDD Bay 12
+    description: '3.5" Hot-Swap SAS/SATA (SAS #11 - J12)'
+    position: '12'
+  - name: HDD Bay 13
+    description: '3.5" Hot-Swap SAS/SATA (SAS #12 - J13)'
+    position: '13'
+  - name: HDD Bay 14
+    description: '3.5" Hot-Swap SAS/SATA (SAS #13 - J14)'
+    position: '14'
+  - name: HDD Bay 15
+    description: '3.5" Hot-Swap SAS/SATA (SAS #14 - J15)'
+    position: '15'
+  - name: HDD Bay 16
+    description: '3.5" Hot-Swap SAS/SATA (SAS #15 - J16)'
+    position: '16'
+
+device-bays:
+  - name: Node 1 (Rear Left)
+    description: Compute Node 1
+  - name: Node 2 (Rear Right)
+    description: Compute Node 2
