@@ -70,15 +70,3 @@ module-bays:
   - name: P2 DIMM 3A
     position: '6'
     description: DDR3 DIMM slot (ECC compatible)
-  # SAS connector
-  - name: SAS
-    position: Rear
-    description: External SAS Port (for JBOD expansion)
-  # USB connector
-  - name: Internal USB
-    position: USB3
-    description: Onboard USB-A port
-  # SATADOM
-  - name: SATA DOM 1
-    position: SATADOM1
-    description: SATADOM 1 (near P2 DIMMs)
