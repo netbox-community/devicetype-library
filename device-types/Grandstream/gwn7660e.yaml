@@ -1,0 +1,20 @@
+---
+manufacturer: Grandstream
+model: GWN7660E
+slug: grandstream-gwn7660e
+part_number: GWN7660E
+front_image: true
+rear_image: true
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1
+weight_unit: kg
+description: Enterprise-grade 802.11ax Wi-Fi 6 Access Point
+comments: 3Gbps aggregate throughput, 2.4G 2x2:2, 5G 3x3:2 MU-MIMO. Supports up to 256 clients.
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: Supports PoE 802.3af / 802.3at; Maximum Power Consumption 12.95W
