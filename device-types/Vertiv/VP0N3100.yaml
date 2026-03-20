@@ -1,0 +1,65 @@
+---
+manufacturer: Vertiv
+model: VP0N3100
+slug: vertiv-vp0n3100
+part_number: MN00X1R1-16MCQ9-3TL14A0A10-S
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: rPDU, Basic, Standard, 30A, 120/208V, 5.7kW, Horizontal, (12) Combination C13/C19, (4) NEMA 5-20R, 10ft power cord with L14-30P, Black Powder
+  Coat
+weight: 6.8
+weight_unit: kg
+power-ports:
+  - name: Power
+    type: nema-l14-30p
+    maximum_draw: 5700
+power-outlets:
+  - name: Front circuit 1 outlet 1
+    type: nema-5-20r
+    power_port: Power
+  - name: Front circuit 1 outlet 2
+    type: nema-5-20r
+    power_port: Power
+  - name: Front circuit 2 outlet 1
+    type: nema-5-20r
+    power_port: Power
+  - name: Front circuit 2 outlet 2
+    type: nema-5-20r
+    power_port: Power
+  - name: Rear circuit 1 outlet 1
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 1 outlet 2
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 1 outlet 3
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 1 outlet 4
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 1 outlet 5
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 1 outlet 6
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 2 outlet 1
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 2 outlet 2
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 2 outlet 3
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 2 outlet 4
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 2 outlet 5
+    type: eaton-c39
+    power_port: Power
+  - name: Rear circuit 2 outlet 6
+    type: eaton-c39
+    power_port: Power
