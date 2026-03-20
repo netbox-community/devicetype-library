@@ -1,0 +1,52 @@
+---
+manufacturer: Vertiv
+model: VP5N31A0
+slug: vertiv-vp5n31a0
+part_number: MNS5M1R6-12S203-3TL5A0H10-S
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: rPDU, Switched Unit Level Monitoring EC, 30A, 120V, 2.8kW, Horizontal, (12) NEMA 5-20R, 10ft / 3m power cord with L5-30P, Black Powder Coat
+weight: 5.44
+weight_unit: kg
+power-ports:
+  - name: Power
+    type: nema-l5-30p
+    maximum_draw: 2800
+power-outlets:
+  - name: '1'
+    type: nema-5-20r
+    power_port: Power
+  - name: '2'
+    type: nema-5-20r
+    power_port: Power
+  - name: '3'
+    type: nema-5-20r
+    power_port: Power
+  - name: '4'
+    type: nema-5-20r
+    power_port: Power
+  - name: '5'
+    type: nema-5-20r
+    power_port: Power
+  - name: '6'
+    type: nema-5-20r
+    power_port: Power
+  - name: '7'
+    type: nema-5-20r
+    power_port: Power
+  - name: '8'
+    type: nema-5-20r
+    power_port: Power
+  - name: '9'
+    type: nema-5-20r
+    power_port: Power
+  - name: '10'
+    type: nema-5-20r
+    power_port: Power
+  - name: '11'
+    type: nema-5-20r
+    power_port: Power
+  - name: '12'
+    type: nema-5-20r
+    power_port: Power

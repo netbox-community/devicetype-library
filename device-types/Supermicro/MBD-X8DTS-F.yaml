@@ -1,0 +1,72 @@
+---
+manufacturer: Supermicro
+model: MBD-X8DTS-F
+slug: supermicro-mbd-x8dts-f
+part_number: MBD-X8DTS-F
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X8DTS-F (https://www.supermicro.com/manuals/motherboard/5500/MNL-1046.pdf)
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    description: Rear port
+
+# --- Network Interfaces (Onboard) ---
+# - 2x 1GbE (Intel 82576) - Primary external data ports
+# - 2x 10GbE (Intel 82599) - Internal node-to-node failover
+interfaces:
+  - name: Gig-E 1 (MGMT)
+    type: 1000base-t
+    description: Onboard LAN 1 (Intel 82576) - External (Shared WPCM450R BMC)
+  - name: Gig-E 2
+    type: 1000base-t
+    description: Onboard LAN 2 (Intel 82576) - External
+  - name: int-10g-1
+    type: 10gbase-t
+    description: Internal 10GbE Node Link 1 (Intel 82599)
+  - name: int-10g-2
+    type: 10gbase-t
+    description: Internal 10GbE Node Link 2 (Intel 82599)
+
+module-bays:
+  # CPUs
+  - name: CPU 1
+    position: Rear
+    description: LGA 1366 Socket
+  - name: CPU 2
+    position: Front
+    description: LGA 1366 Socket
+    # PCI
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 2.0 x8 (Riser 1, Slot 1)
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 2.0 x4 (Riser 1, Slot 2)
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 2.0 x4 (Riser 1, Slot 3)
+
+  # Memory
+  # - Registered ECC: 1333/1066/800 MHz, Max 48GB
+  # - Unbuffered ECC/Non-ECC: 1333/1066/800 MHz, Max 24GB
+  - name: P1 DIMM 1A
+    position: '1'
+    description: DDR3 DIMM slot (ECC compatible)
+  - name: P1 DIMM 2A
+    position: '2'
+    description: DDR3 DIMM slot (ECC compatible)
+  - name: P1 DIMM 3A
+    position: '3'
+    description: DDR3 DIMM slot (ECC compatible)
+  - name: P2 DIMM 1A
+    position: '4'
+    description: DDR3 DIMM slot (ECC compatible)
+  - name: P2 DIMM 2A
+    position: '5'
+    description: DDR3 DIMM slot (ECC compatible)
+  - name: P2 DIMM 3A
+    position: '6'
+    description: DDR3 DIMM slot (ECC compatible)
