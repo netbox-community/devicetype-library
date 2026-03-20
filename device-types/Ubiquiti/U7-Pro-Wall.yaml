@@ -1,0 +1,26 @@
+---
+manufacturer: Ubiquiti
+model: U7 Pro Wall
+part_number: U7-Pro-Wall
+slug: ubiquiti-u7-pro-wall
+u_height: 0
+is_full_depth: false
+comments: |
+  [Access Point U7 Pro Wall](https://store.ui.com/us/en/category/wifi-flagship/products/u7-pro-wall)
+airflow: passive
+weight: 580
+weight_unit: g
+interfaces:
+  - name: Port 1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    mgmt_only: true
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ac
+  - name: Wlan 3
+    type: ieee802.11ax
+  - name: Wlan 4
+    type: ieee802.11be

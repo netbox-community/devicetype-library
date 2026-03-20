@@ -2,6 +2,12 @@
 manufacturer: Juniper
 model: EX-PWR-600-AC
 part_number: EX-PWR-600-AC
+profile: power_supply
+attribute_data:
+  input_current: AC
+  input_voltage: 230
+  hot_swappable: true
+  wattage: 600
 power-ports:
   - name: PSU {module}
     type: iec-60320-c14
