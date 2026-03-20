@@ -1,0 +1,43 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 6690 Cable
+slug: avm-fritzbox-6690-cable
+part_number: '20002965'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 6690 Cable Datasheet](https://fritz.com/products/fritz-box-6690-cable-20002965)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 15
+interfaces:
+  - name: WAN
+    label: Cable (DOCSIS 3.1)
+    type: docsis
+  - name: LAN1
+    label: LAN 1
+    type: 2.5gbase-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+  - name: LAN4
+    label: LAN 4
+    type: 1000base-t
+  - name: FON1
+    label: FON 1
+    type: other
+  - name: FON2
+    label: FON 2
+    type: other
+  - name: DECT
+    type: other-wireless
+  - name: WiFi 5GHz
+    type: ieee802.11ax
+    description: 5ghz, 4800 Mbit/s
+  - name: WiFi 2.4GHz
+    type: ieee802.11ax
+    description: 2.4ghz, 1200 Mbit/s
