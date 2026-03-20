@@ -1,0 +1,112 @@
+---
+manufacturer: FS
+model: S5850-24S2Q-PE
+slug: fs-s5850-24s2q-pe
+part_number: 174495
+u_height: 1
+is_full_depth: true
+airflow: rear-to-front
+comments: |
+  [FS S5850 Series Datasheet](https://resource.fs.com/mall/resource/s5850-series-switches-data-sheet.pdf)
+weight: 5.95
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU1
+    label: PSU1
+    position: '1'
+  - name: PSU2
+    label: PSU2
+    position: '2'
+  - name: FAN1
+    label: FAN1
+    position: '1'
+  - name: FAN2
+    label: FAN2
+    position: '2'
+  - name: FAN3
+    label: FAN3
+    position: '3'
+power-ports:
+  - name: Slot 1
+    type: iec-60320-c14
+    maximum_draw: 59
+    allocated_draw: 59
+  - name: Slot 2
+    type: iec-60320-c14
+    maximum_draw: 59
+    allocated_draw: 59
+interfaces:
+  - name: eth-0-1
+    type: 10gbase-x-sfpp
+  - name: eth-0-2
+    type: 10gbase-x-sfpp
+  - name: eth-0-3
+    type: 10gbase-x-sfpp
+  - name: eth-0-4
+    type: 10gbase-x-sfpp
+  - name: eth-0-5
+    type: 10gbase-x-sfpp
+  - name: eth-0-6
+    type: 10gbase-x-sfpp
+  - name: eth-0-7
+    type: 10gbase-x-sfpp
+  - name: eth-0-8
+    type: 10gbase-x-sfpp
+  - name: eth-0-9
+    type: 10gbase-x-sfpp
+  - name: eth-0-10
+    type: 10gbase-x-sfpp
+  - name: eth-0-11
+    type: 10gbase-x-sfpp
+  - name: eth-0-12
+    type: 10gbase-x-sfpp
+  - name: eth-0-13
+    type: 10gbase-x-sfpp
+  - name: eth-0-14
+    type: 10gbase-x-sfpp
+  - name: eth-0-15
+    type: 10gbase-x-sfpp
+  - name: eth-0-16
+    type: 10gbase-x-sfpp
+  - name: eth-0-17
+    type: 10gbase-x-sfpp
+  - name: eth-0-18
+    type: 10gbase-x-sfpp
+  - name: eth-0-19
+    type: 10gbase-x-sfpp
+  - name: eth-0-20
+    type: 10gbase-x-sfpp
+  - name: eth-0-21
+    type: 10gbase-x-sfpp
+  - name: eth-0-22
+    type: 10gbase-x-sfpp
+  - name: eth-0-23
+    type: 10gbase-x-sfpp
+  - name: eth-0-24
+    type: 10gbase-x-sfpp
+  - name: eth-0-25
+    type: 40gbase-x-qsfpp
+  - name: eth-0-26
+    type: 40gbase-x-qsfpp
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+inventory-items:
+  - name: Fan-Module 1
+    manufacturer: FS
+    part_id: AFM-5850-8050
+  - name: Fan-Module 2
+    manufacturer: FS
+    part_id: AFM-5850-8050
+  - name: Fan-Module 3
+    manufacturer: FS
+    part_id: AFM-5850-8050
+  - name: Power-Module 1
+    manufacturer: FS
+    part_id: GPR150-A1M
+  - name: Power-Module 2
+    manufacturer: FS
+    part_id: GPR150-A1M
