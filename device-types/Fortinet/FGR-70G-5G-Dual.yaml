@@ -1,0 +1,42 @@
+---
+manufacturer: Fortinet
+model: FortiGate Rugged 70G 5G Dual
+slug: fortinet-fgr-70g-5g-dual
+part_number: FGR-70G-5G-DUAL
+is_full_depth: false
+u_height: 3
+weight: 2.1
+weight_unit: kg
+airflow: passive
+comments: '[FortiGate Rugged 70G-5G-Dual Datasheet](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/a1edabaa-6ec8-11ef-8355-fa163e15d75b/FGR-70G-5G-DUAL-QSG.pdf)'
+console-ports:
+  - name: COM1
+    type: rj-45
+  - name: COM2
+    type: rj-45
+power-ports:
+  - name: DC1
+    type: dc-terminal
+    maximum_draw: 27
+    allocated_draw: 25
+  - name: DC2
+    type: dc-terminal
+    maximum_draw: 27
+    allocated_draw: 25
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: lan4
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
