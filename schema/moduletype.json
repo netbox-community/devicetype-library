@@ -81,15 +81,15 @@
         },
         "profile": {
             "type": "string",
-            "enum": ["cpu", "fan", "gpu", "hard_disk", "memory", "power_supply"]
+            "enum": ["CPU", "Fan", "GPU", "Hard disk", "Memory", "Power supply", "Expansion card"]
         },
         "attribute_data": {
             "type": "object"
 		}
 	},
 	"$defs": {
-            "cpu_attributes": {
-                "type": "object",
+        "cpu_attributes": {
+        "type": "object",
 		"additionalProperties": false,
 		"properties": {
 		    "architecture": { "type": "string" },
@@ -98,16 +98,16 @@
 		}
 	    },
 	    "fan_attributes": {
-	        "type": "object",
+	    "type": "object",
 		"additionalProperties": false,
 		"properties": {
 		    "rpm": { "type": "integer", "minimum": 0 }
 		}
 	    },
 	    "gpu_attributes": {
-	        "type": "object",
+	    "type": "object",
 		"additionalProperties": false,
-                "required": ["memory"],
+        "required": ["memory"],
 		"properties": {
 		    "gpu": { "type": "string" },
 		    "interface": { "type": "string", "enum": [ "PCIe 4.0", "PCIe 4.0 x8", "PCIe 4.0 x16", "PCIe 5.0 x16"] },
@@ -117,7 +117,7 @@
 	    "hard_disk_attributes": {
 		"type": "object",
 		"additionalProperties": false,
-                "required": ["size"],
+        "required": ["size"],
 		"properties": {
 		    "size": { "type": "integer" },
 		    "speed": { "type": "integer" },
@@ -127,7 +127,7 @@
 	    "memory_attributes": {
 		"type": "object",
 		"additionalProperties": false,
-                "required": ["class", "size"],
+        "required": ["class", "size"],
 		"properties": {
 		    "class": { "type": "string", "enum": ["DDR3", "DDR4", "DDR5"] },
 		    "data_rate": { "type": "integer" },
@@ -138,12 +138,20 @@
 	    "psu_attributes": {
 		"type": "object",
 		"additionalProperties": false,
-                "required": ["input_current", "input_voltage", "hot_swappable"],
+        "required": ["input_current", "input_voltage", "hot_swappable"],
 		"properties": {
 		    "wattage": { "type": "integer", "minimum": 0 },
 		    "hot_swappable": { "type": "boolean" },
 		    "input_current": { "type": "string", "enum": ["AC", "DC"] },
 		    "input_voltage": { "type": "number", "minimum": 0 }
+		}
+	    },
+	    "expansion_attributes": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "bandwidth": { "type": "integer", "minimum": 0 },
+		    "connector_type": { "type": "string" }
 		}
 	    }
 	},
@@ -152,38 +160,44 @@
         "oneOf": [
     {
      "properties": {
-        "profile": { "const": "cpu" },
+        "profile": { "const": "CPU" },
         "attribute_data": { "$ref": "#/$defs/cpu_attributes" }
       }
     },
     {
       "properties": {
-        "profile": { "const": "fan" },
+        "profile": { "const": "Fan" },
         "attribute_data": { "$ref": "#/$defs/fan_attributes" }
       }
     },
     {
       "properties": {
-        "profile": { "const": "gpu" },
+        "profile": { "const": "GPU" },
         "attribute_data": { "$ref": "#/$defs/gpu_attributes" }
       }
     },
     {
       "properties": {
-        "profile": { "const": "hard_disk" },
+        "profile": { "const": "Hard disk" },
         "attribute_data": { "$ref": "#/$defs/hard_disk_attributes" }
       }
     },
     {
       "properties": {
-        "profile": { "const": "memory" },
+        "profile": { "const": "Memory" },
         "attribute_data": { "$ref": "#/$defs/memory_attributes" }
       }
     },
     {
       "properties": {
-        "profile": { "const": "power_supply" },
+        "profile": { "const": "Power supply" },
         "attribute_data": { "$ref": "#/$defs/psu_attributes" }
+      }
+    },
+    {
+      "properties": {
+        "profile": { "const": "Expansion card" },
+        "attribute_data": { "$ref": "#/$defs/expansion_attributes" }
       }
     }
     ]
