@@ -1,0 +1,19 @@
+---
+manufacturer: SNR
+model: ERS2000
+slug: snr-ers2000
+u_height: 0
+is_full_depth: false
+comments: ERS2000 monotoring ethernet device [Overview and Specifications](https://shop.nag.ru/catalog/00007.avtomatizatsiya-i-monitoring/05629.ustrojstva-monitoringa/86851.snr-ers2000#downloads)
+weight: 0.32
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: PWR
+    type: hardwired
+    maximum_draw: 15
+interfaces:
+  - name: Eth
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

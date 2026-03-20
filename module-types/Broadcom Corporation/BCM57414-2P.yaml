@@ -1,0 +1,10 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM57414-2P
+part_number: BCM957414N4140C
+comments: '[BCM57412-2P - 2 x 25GbE OCP NIC](https://docs.broadcom.com/doc/957414N4140C-DS)'
+interfaces:
+  - name: pcie{module}.nic1
+    type: 25gbase-x-sfp28
+  - name: pcie{module}.nic2
+    type: 25gbase-x-sfp28

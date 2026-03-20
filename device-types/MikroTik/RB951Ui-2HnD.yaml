@@ -1,0 +1,39 @@
+---
+manufacturer: MikroTik
+model: RB951Ui-2HnD
+slug: mikrotik-rb951ui-2hnd
+part_number: RB951Ui-2HnD
+u_height: 0
+weight: 0.3
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+comments: '[RB951Ui-2HnD Datasheet](https://mikrotik.com/product/RB951Ui-2HnD)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 7
+    description: DC 8-30 V - 500 mA
+console-ports:
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: Ether1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: Ether2
+    type: 100base-tx
+  - name: Ether3
+    type: 100base-tx
+  - name: Ether4
+    type: 100base-tx
+  - name: Ether5
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: Wireless 2.4 GHz
+    type: ieee802.11g

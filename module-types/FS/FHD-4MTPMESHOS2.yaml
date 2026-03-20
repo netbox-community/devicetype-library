@@ -1,0 +1,35 @@
+---
+manufacturer: FS
+model: FHD-4MTPMESHOS2
+part_number: '230563'
+comments: FHD 4x MTP-8 Mesh Cassette, 32 Fibers OS2 Single Mode, 4x MTP-8 to 4x MTP-8 (Green)
+front-ports:
+  - name: '{module}:A-1'
+    type: mpo
+    rear_port: '{module}:A-1'
+    rear_port_position: 1
+  - name: '{module}:A-2'
+    type: mpo
+    rear_port: '{module}:A-2'
+    rear_port_position: 1
+  - name: '{module}:A-3'
+    type: mpo
+    rear_port: '{module}:A-3'
+    rear_port_position: 1
+  - name: '{module}:A-4'
+    type: mpo
+    rear_port: '{module}:A-4'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}:A-1'
+    type: mpo
+    positions: 1
+  - name: '{module}:A-2'
+    type: mpo
+    positions: 1
+  - name: '{module}:A-3'
+    type: mpo
+    positions: 1
+  - name: '{module}:A-4'
+    type: mpo
+    positions: 1

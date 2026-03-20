@@ -1,0 +1,48 @@
+---
+manufacturer: HPE
+model: ProLiant DL380e Gen8
+slug: hpe-proliant-dl380e-gen8
+part_number: 669257-B21
+airflow: front-to-rear
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+comments: '[HPE ProLiant DL380e Gen8 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04128166)'
+#minumum weight
+weight: 14.00
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6
+  - name: FlexLOM
+    position: FlexLOM
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

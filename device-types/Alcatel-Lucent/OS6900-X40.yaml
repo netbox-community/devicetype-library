@@ -5,6 +5,9 @@ slug: alcatel-lucent-os6900-x40
 part_number: 903168-90
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight: 10.86
+weight_unit: kg
 console-ports:
   - name: Console
     type: usb-a
@@ -98,14 +101,14 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: 1/1/40
     type: 10gbase-x-sfpp
-  - name: EMP
-    type: 1000base-t
-    mgmt_only: true
-  - name: EMP-CMMA-CHAS1
+  - name: EMP-CHAS1
     type: virtual
     mgmt_only: true
   - name: EMP-VC
     type: virtual
+    mgmt_only: true
+  - name: EMP
+    type: 1000base-t
     mgmt_only: true
   - name: Loopback0
     type: virtual

@@ -26,14 +26,14 @@ module-bays:
     description: Fan module slot 2
   - name: PSU1
     label: PWR1
-    position: PSU1
+    position: '1'
     description: Power module slot 1
   - name: PSU2
     label: PWR2
-    position: PSU2
+    position: '2'
     description: Power module slot 2
   - name: Extend_slot
-    position: Rear
+    position: '1'
 interfaces:
   - name: MEth0/0/1
     type: 1000base-t

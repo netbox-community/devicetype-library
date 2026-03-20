@@ -5,55 +5,79 @@ slug: mikrotik-ccr2004-16g-2s-plus
 part_number: CCR2004-16G-2S+
 is_full_depth: false
 u_height: 1
-comments: |
-  [Product Page](https://mikrotik.com/product/ccr2004_16g_2splus)
-front_image: false
-rear_image: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
 is_powered: true
+subdevice_role: parent
+weight: 1.18
+weight_unit: kg
 interfaces:
   - name: ether1
+    label: '1'
     type: 1000base-t
   - name: ether2
+    label: '2'
     type: 1000base-t
   - name: ether3
+    label: '3'
     type: 1000base-t
   - name: ether4
+    label: '4'
     type: 1000base-t
   - name: ether5
+    label: '5'
     type: 1000base-t
   - name: ether6
+    label: '6'
     type: 1000base-t
   - name: ether7
+    label: '7'
     type: 1000base-t
   - name: ether8
+    label: '8'
     type: 1000base-t
   - name: ether9
+    label: '9'
     type: 1000base-t
   - name: ether10
+    label: '10'
     type: 1000base-t
   - name: ether11
+    label: '11'
     type: 1000base-t
   - name: ether12
+    label: '12'
     type: 1000base-t
   - name: ether13
+    label: '13'
     type: 1000base-t
   - name: ether14
+    label: '14'
     type: 1000base-t
   - name: ether15
+    label: '15'
     type: 1000base-t
   - name: ether16
+    label: '16'
     type: 1000base-t
   - name: sfp-sfpplus1
+    label: SFP+ 1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
+    label: SFP+ 2
     type: 10gbase-x-sfpp
+  - name: usb
+    type: lte
 console-ports:
   - name: serial0
     type: rj-45
+    label: CONSOLE
 module-bays:
-  - name: power1
-    position: power1
-    description: Power module
-  - name: power2
-    position: power2
-    description: Power module
+  - name: PSU1
+    position: PSU1
+    description: 100 - 240V AC
+  - name: PSU2
+    position: PSU2
+    description: 100 - 240V AC
+comments: '[CCR2004-16G-2S+ Datasheet by Kolyan](https://mikrotik.com/product/ccr2004_16g_2splus#fndtn-specifications)'

@@ -4,17 +4,25 @@ model: ASR1001
 slug: cisco-asr1001
 part_number: ASR1001
 u_height: 1
+weight: 10.59
+weight_unit: kg
+airflow: front-to-rear
 is_full_depth: true
 console-ports:
   - name: Aux0
     type: rj-45
   - name: Con0
     type: rj-45
-power-ports:
+module-bays:
+  - name: SPA0
+    label: SPA
+    position: 0/1
   - name: PSU0
-    type: iec-60320-c14
+    position: '0'
+    description: Power module 0
   - name: PSU1
-    type: iec-60320-c14
+    position: '1'
+    description: Power module 1
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp

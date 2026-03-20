@@ -1,0 +1,11 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957414-A-4142-CC
+part_number: BCM957414-A-4142-CC
+comments: '[BCM57414-2P - 2 x 25GbE PCIe3](https://docs.broadcom.com/doc/957414N4140C-DS)'
+description: Dual-Port 25 Gb/s SFP28 Ethernet PCI Express 3 x8 Network Interface Card
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28

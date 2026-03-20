@@ -1,0 +1,59 @@
+---
+manufacturer: Cisco
+model: SG300-20
+part_number: SRW2016-K9
+slug: cisco-sg300-20
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.17
+weight_unit: kg
+comments: '[SG300 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/small-business-smart-switches/data_sheet_c78-610061.html)'
+console-ports:
+  - name: con 0
+    type: de-9
+    label: CONSOLE
+power-ports:
+  - name: PS-A
+    type: iec-60320-c14
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+  - name: GigabitEthernet9
+    type: 1000base-t
+  - name: GigabitEthernet10
+    type: 1000base-t
+  - name: GigabitEthernet11
+    type: 1000base-t
+  - name: GigabitEthernet12
+    type: 1000base-t
+  - name: GigabitEthernet13
+    type: 1000base-t
+  - name: GigabitEthernet14
+    type: 1000base-t
+  - name: GigabitEthernet15
+    type: 1000base-t
+  - name: GigabitEthernet16
+    type: 1000base-t
+  - name: GigabitEthernet17
+    type: 1000base-t
+  - name: GigabitEthernet18
+    type: 1000base-t
+  - name: GigabitEthernet19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet20
+    type: 1000base-x-sfp

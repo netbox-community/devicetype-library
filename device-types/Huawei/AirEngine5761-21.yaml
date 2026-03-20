@@ -1,0 +1,28 @@
+---
+manufacturer: Huawei
+model: AirEngine5761-21
+slug: huawei-airengine5761-21
+description: Wi-Fi 6 (802.11ax) Access Point (AP)
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 1060
+weight_unit: g
+comments: '[AirEngine 5761-21 Access Point](https://e.huawei.com/en/products/wlan/indoor-access-points/airengine-5761-21)'
+power-ports:
+  - name: DC-12V
+    type: dc-terminal
+    maximum_draw: 17
+interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
+  - name: Dot11Radio1
+    type: ieee802.11ax
+  - name: GE0/PoE_IN
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE1
+    type: 1000base-t

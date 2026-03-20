@@ -1,0 +1,56 @@
+---
+manufacturer: Eaton
+model: EATS16
+slug: eaton-eats16
+description: Provides redundant power to sensitive equipment
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 3.5
+weight_unit: kg
+console-ports:
+  - name: RS232
+    type: de-9
+console-server-ports:
+  - name: Sensor
+    type: rj-45
+    label: RS232
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    label: SNMP and HTTP access
+power-ports:
+  - name: Source A
+    type: iec-60320-c20
+    label: Input Source 1
+  - name: Source B
+    type: iec-60320-c20
+    label: Input Source 2
+power-outlets:
+  - name: Output 1
+    type: iec-60320-c13
+    label: Output 1-10A
+  - name: Output 2
+    type: iec-60320-c13
+    label: Output 2-10A
+  - name: Output 3
+    type: iec-60320-c13
+    label: Output 3-10A
+  - name: Output 4
+    type: iec-60320-c13
+    label: Output 4-10A
+  - name: Output 5
+    type: iec-60320-c13
+    label: Output 5-10A
+  - name: Output 6
+    type: iec-60320-c13
+    label: Output 6-10A
+  - name: Output 7
+    type: iec-60320-c13
+    label: Output 7-10A
+  - name: Output 8
+    type: iec-60320-c13
+    label: Output 8-10A
+  - name: Output 9
+    type: iec-60320-c19
+    label: Output 9-16A

@@ -1,0 +1,38 @@
+---
+manufacturer: Netlink
+model: FD-6166-2xRJ-45-8p-8c-5
+slug: netlink-fd-6166-2xrj-45-8p-8c-5
+part_number: fd-6166-2xrj-45-8p-8c-5
+u_height: 0.5
+is_full_depth: false
+subdevice_role: parent
+airflow: passive
+front_image: true
+weight: 70
+weight_unit: g
+comments: '[Netlink FD-6166-2xRJ-45-8p-8c-5 Datasheet by Kolyan](https://www.vseinstrumenti.ru/product/kompyuternaya-rozetka-netlink-fd-6166-2hrj-45-8r-8s-5-kat-00000000425-1751122/)'
+is_powered: false
+front-ports:
+  - name: '1'
+    type: 8p8c
+    rear_port: '1'
+    rear_port_position: 1
+    label: '1'
+    description: '1'
+  - name: '2'
+    type: 8p8c
+    rear_port: '2'
+    rear_port_position: 2
+    label: '2'
+    description: '2'
+rear-ports:
+  - name: '1'
+    type: 110-punch
+    positions: 1
+    label: '1'
+    description: '1'
+  - name: '2'
+    type: 110-punch
+    positions: 2
+    label: '2'
+    description: '2'

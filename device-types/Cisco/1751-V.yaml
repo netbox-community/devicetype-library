@@ -1,0 +1,29 @@
+---
+manufacturer: Cisco
+model: 1751-V
+part_number: 1751-V
+slug: cisco-1751-v
+u_height: 3
+weight: 2.4
+airflow: passive
+weight_unit: kg
+is_full_depth: false
+interfaces:
+  - name: FastEthernet0/0
+    type: 100base-tx
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: aux
+    type: rj-45
+module-bays:
+  - name: VIC-WIC0
+    position: '0'
+  - name: VIC-WIC1
+    position: '1'
+  - name: VIC2
+    position: '2'
+power-ports:
+  - name: External-PSU
+    type: dc-terminal
+    maximum_draw: 160

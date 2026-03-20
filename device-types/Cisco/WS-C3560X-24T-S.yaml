@@ -57,18 +57,6 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet0/24
     type: 1000base-t
-  - name: GigabitEthernet1/1
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/2
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/3
-    type: 1000base-t
-  - name: GigabitEthernet1/4
-    type: 1000base-t
-  - name: TenGigabitEthernet1/1
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet1/2
-    type: 10gbase-x-sfpp
 console-ports:
   - name: con0
     type: rj-45
@@ -81,3 +69,6 @@ module-bays:
     position: '1'
   - name: PSU2
     position: '2'
+  - name: Network Module
+    position: '1'
+    description: Optional network module slot (e.g., C3KX-NM-1G, C3KX-NM-10G, C3KX-NM-10GT)

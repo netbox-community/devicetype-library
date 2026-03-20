@@ -1,0 +1,46 @@
+---
+manufacturer: SecurityCode
+model: IPC-50
+slug: securitycode-ipc-50
+part_number: LN-010C
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 1.3
+weight_unit: kg
+interfaces:
+  - name: igb0
+    label: '1'
+    type: 1000base-x-sfp
+  - name: igb1
+    label: '2'
+    type: 1000base-t
+  - name: igb2
+    label: '3'
+    type: 1000base-t
+  - name: igb3
+    label: '4'
+    type: 1000base-t
+  - name: igb4
+    label: '5'
+    type: 1000base-t
+  - name: usb1
+    type: lte
+  - name: usb2
+    type: lte
+console-ports:
+  - name: serial
+    type: rj-45
+  - name: iButton
+    type: rj-12
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 36
+    description: 12V DC, 3A
+comments: '[IPC-50 Datasheet by Kolyan](https://www.securitycode.ru/upload/iblock/a09/03xqm2jgzq7n4h13q7k24t6pafv0p00w/%D0%9A%D0%BE%D0%BD%D1%82%D0%B8%D0%BD%D0%B5%D0%BD%D1%82%204%20IPC-50_DataSheat.pdf)'

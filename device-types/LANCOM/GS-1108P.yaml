@@ -3,8 +3,12 @@ manufacturer: LANCOM
 model: GS-1108P
 slug: lancom-gs-1108p
 part_number: '61430'
+comments: '[LANCOM GS-1108P Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-1108P/DS_GS-1108P_DE.pdf)'
+weight: 1.0
+weight_unit: kg
 u_height: 1
 is_full_depth: false
+airflow: passive
 power-ports:
   - name: PS1
     type: iec-60320-c14
@@ -12,17 +16,33 @@ power-ports:
 interfaces:
   - name: '1'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '2'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '3'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '4'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '5'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '6'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '7'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '8'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at

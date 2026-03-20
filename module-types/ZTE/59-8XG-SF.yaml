@@ -1,0 +1,21 @@
+---
+manufacturer: ZTE
+model: 59-8XG-SF
+comments: 8-port 10GE optical interface Ethernet uplink card; fits into the dedicated expansion slot of a ZXR10 5950 Series.
+interfaces:
+  - name: xgei_1/{module}/1
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/2
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/3
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/4
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/5
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/6
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/7
+    type: 10gbase-x-sfpp
+  - name: xgei_1/{module}/8
+    type: 10gbase-x-sfpp

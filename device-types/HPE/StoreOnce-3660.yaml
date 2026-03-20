@@ -1,0 +1,30 @@
+---
+manufacturer: HPE
+model: StoreOnce 3660
+slug: hpe-storeonce-3660
+u_height: 2
+is_full_depth: true
+weight: 15
+weight_unit: kg
+airflow: front-to-rear
+part_number: R6U02A
+comments: '[HPE StoreOnce QuickSpecs](https://www.hpe.com/psnow/doc/c04328820.pdf)'
+module-bays:
+  - name: OCP3
+    position: OCP3
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true

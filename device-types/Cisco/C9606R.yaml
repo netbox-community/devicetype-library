@@ -4,6 +4,8 @@ model: Catalyst 9606R
 slug: cisco-c9606r
 part_number: C9606R
 u_height: 8
+weight: 25.36
+weight_unit: kg
 is_full_depth: true
 airflow: right-to-left
 front_image: true
@@ -28,16 +30,15 @@ module-bays:
   - name: Slot 6
     position: '6'
     description: Line Card
-power-ports:
   - name: PS-1
-    type: iec-60320-c16
-    maximum_draw: 2000
+    position: '1'
+    description: PSU-1
   - name: PS-2
-    type: iec-60320-c16
-    maximum_draw: 2000
+    position: '2'
+    description: PSU-2
   - name: PS-3
-    type: iec-60320-c16
-    maximum_draw: 2000
+    position: '3'
+    description: PSU-3
   - name: PS-4
-    type: iec-60320-c16
-    maximum_draw: 2000
+    position: '4'
+    description: PSU-4

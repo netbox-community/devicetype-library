@@ -1,0 +1,109 @@
+---
+manufacturer: Smartoptics
+model: H-MD-16-921-936
+part_number: H-MD-16-921-936
+weight: 0.3
+weight_unit: kg
+comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2023/01/so-ds-h-md-16-xxx-yyy-r5.4.pdf) 16-channel 16QAM supporting DWDM Mux/Demux
+  with Extension and Monitor ports'
+rear-ports:
+  - name: Filter/{module}/Line
+    type: lc-upc
+    description: WDM Line I/O
+    positions: 19
+front-ports:
+  - name: Filter/{module}/Ext
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 1
+    description: Incoming fiber for extension channel
+  - name: Filter/{module}/Mon
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 2
+    description: Monitor port for line channel
+  - name: Filter/{module}/NC
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 3
+    description: Not connected port
+  - name: Filter/{module}/921
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 4
+    description: 192.1 THz
+  - name: Filter/{module}/922
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 5
+    description: 192.2 THz
+  - name: Filter/{module}/923
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 6
+    description: 192.3 THz
+  - name: Filter/{module}/924
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 7
+    description: 192.4 THz
+  - name: Filter/{module}/925
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 8
+    description: 192.5 THz
+  - name: Filter/{module}/926
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 9
+    description: 192.6 THz
+  - name: Filter/{module}/927
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 10
+    description: 192.7 THz
+  - name: Filter/{module}/928
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 11
+    description: 192.8 THz
+  - name: Filter/{module}/929
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 12
+    description: 192.9 THz
+  - name: Filter/{module}/930
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 13
+    description: 193.0 THz
+  - name: Filter/{module}/931
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 14
+    description: 193.1 THz
+  - name: Filter/{module}/932
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 15
+    description: 193.2 THz
+  - name: Filter/{module}/933
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 16
+    description: 193.3 THz
+  - name: Filter/{module}/934
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 17
+    description: 193.4 THz
+  - name: Filter/{module}/935
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 18
+    description: 193.5 THz
+  - name: Filter/{module}/936
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 19
+    description: 193.6 THz
