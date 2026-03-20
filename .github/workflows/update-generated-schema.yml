@@ -22,7 +22,7 @@ jobs:
           submodules: true
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         id: setup_python
         with:
           python-version: '3.12'
