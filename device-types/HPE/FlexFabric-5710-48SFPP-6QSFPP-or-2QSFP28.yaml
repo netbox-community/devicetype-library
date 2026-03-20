@@ -1,12 +1,10 @@
 ---
 manufacturer: HPE
-model: FlexFabric 5710 24SFP+ 6QSFP+ or 2QSFP28
-slug: hpe-flexfabric-5710-24sfpp-6qsfpp-or-2qsfp28
-part_number: JL587A
+model: FlexFabric 5710 48SFP+ 6QSFP+ or 2QSFP28
+slug: hpe-flexfabric-5710-48sfpp-6qsfpp-or-2qsfp28
+part_number: JL586A
 u_height: 1
 is_full_depth: false
-front_image: true
-rear_image: true
 comments: '[HPE FlexFabric 5710 Switch Series - Specification](https://www.hpe.com/psnow/doc/a00045647enw.html?jumpid=in_pdp-psnow-qs)'
 weight: 10
 weight_unit: kg
@@ -35,8 +33,6 @@ interfaces:
   - name: M-GigabitEthernet0/0/1
     type: 1000base-x-sfp
     mgmt_only: true
-  - name: Ten-GigabitEthernet1/0/0
-    type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/1
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/2
@@ -85,29 +81,77 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: Ten-GigabitEthernet1/0/24
     type: 10gbase-x-sfpp
-  - name: FortyGigE1/0/25
+  - name: Ten-GigabitEthernet1/0/25
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/26
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/27
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/28
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/29
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/30
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/31
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/32
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/33
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/34
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/35
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/36
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/37
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/38
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/39
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/40
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/41
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/42
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/43
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/44
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/45
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/46
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/47
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/48
+    type: 10gbase-x-sfpp
+  - name: FortyGigE1/0/49
     type: 40gbase-x-qsfpp
-  - name: FortyGigE1/0/26
+  - name: FortyGigE1/0/50
     type: 40gbase-x-qsfpp
-  - name: FortyGigE1/0/27
+  - name: FortyGigE1/0/51
     type: 40gbase-x-qsfpp
-  - name: FortyGigE1/0/28
+  - name: FortyGigE1/0/52
     type: 40gbase-x-qsfpp
-  - name: FortyGigE1/0/29
+  - name: FortyGigE1/0/53
     type: 40gbase-x-qsfpp
-  - name: FortyGigE1/0/30
+  - name: FortyGigE1/0/54
     type: 40gbase-x-qsfpp
 # or
-#   - name: FortyGigE1/0/25
-#     type: 40gbase-x-qsfp28
-#   - name: FortyGigE1/0/26
-#     type: 40gbase-x-qsfp28
-#   - name: FortyGigE1/0/27
-#     type: 40gbase-x-qsfp28
-#   - name: HundredGigE1/0/28
+#   - name: FortyGigE1/0/49
+#     type: 40gbase-x-qsfpp
+#   - name: FortyGigE1/0/50
+#     type: 40gbase-x-qsfpp
+#   - name: FortyGigE1/0/51
+#     type: 40gbase-x-qsfpp
+#   - name: HundredGigE1/0/52
 #     type: 100gbase-x-qsfp28
 # or
-#   - name: HundredGigE1/0/25
+#   - name: HundredGigE1/0/49
 #     type: 100gbase-x-qsfp28
-#   - name: HundredGigE1/0/26
+#   - name: HundredGigE1/0/50
 #     type: 100gbase-x-qsfp28
