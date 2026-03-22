@@ -1,0 +1,64 @@
+---
+manufacturer: EtherWAN
+model: EG97023-2VWR
+slug: etherwan-eg97023-2vwr
+part_number: EG97023-2VWR
+u_height: 1
+is_full_depth: true
+weight: 13.7
+weight_unit: lb
+airflow: passive
+comments: '[EG97023 Series datasheet](https://www.etherwan.com/us/products/eg97023-series)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  - name: SFP 3
+    type: 1000base-x-sfp
+  - name: SFP 4
+    type: 1000base-x-sfp
+  - name: SFP 5
+    type: 1000base-x-sfp
+  - name: SFP 6
+    type: 1000base-x-sfp
+  - name: SFP 7
+    type: 1000base-x-sfp
+  - name: SFP 8
+    type: 1000base-x-sfp
+  - name: SFP+ 9
+    type: 10gbase-x-sfpp
+  - name: SFP+ 10
+    type: 10gbase-x-sfpp
+  - name: SFP+ 11
+    type: 10gbase-x-sfpp
+  - name: SFP+ 12
+    type: 10gbase-x-sfpp
+  - name: SFP+ 13
+    type: 10gbase-x-sfpp
+  - name: SFP+ 14
+    type: 10gbase-x-sfpp
+  - name: SFP+ 15
+    type: 10gbase-x-sfpp
+  - name: SFP+ 16
+    type: 10gbase-x-sfpp
+  - name: SFP+ 17
+    type: 10gbase-x-sfpp
+  - name: SFP+ 18
+    type: 10gbase-x-sfpp
+  - name: SFP+ 19
+    type: 10gbase-x-sfpp
+  - name: SFP+ 20
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 75
+    description: 100-240VAC terminal block
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 75
+    description: 100-240VAC terminal block
