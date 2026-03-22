@@ -8,7 +8,7 @@ is_full_depth: false
 weight: 9
 weight_unit: lb
 airflow: passive
-comments: '[PA-400R series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-400r-series-datasheet)'
+ccomments: '[PA-400R series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-400r-series)'
 power-ports:
   - name: PS1
     type: dc-terminal
@@ -21,8 +21,6 @@ power-ports:
 console-ports:
   - name: console
     type: rj-45
-  - name: USB
-    type: usb-a
 interfaces:
   - name: management
     type: 1000base-t
