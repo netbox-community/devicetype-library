@@ -13,109 +13,109 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: 1
+  - name: ge1
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 2
+  - name: ge2
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 3
+  - name: ge3
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 4
+  - name: ge4
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 5
+  - name: ge5
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 6
+  - name: ge6
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 7
+  - name: ge7
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 8
+  - name: ge8
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 9
+  - name: ge9
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 10
+  - name: ge10
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 11
+  - name: ge11
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 12
+  - name: ge12
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 13
+  - name: ge13
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 14
+  - name: ge14
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 15
+  - name: ge15
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 16
+  - name: ge16
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 17
+  - name: ge17
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 18
+  - name: ge18
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 19
+  - name: ge19
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 20
+  - name: ge20
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 21
+  - name: ge21
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 22
+  - name: ge22
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 23
+  - name: ge23
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 24
+  - name: ge24
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: SFP 25
+  - name: ge25
     type: 1000base-x-sfp
-  - name: SFP 26
+  - name: ge26
     type: 1000base-x-sfp
-  - name: SFP 27
+  - name: ge27
     type: 1000base-x-sfp
-  - name: SFP 28
+  - name: ge28
     type: 1000base-x-sfp
 power-ports:
   - name: PS1
@@ -125,4 +125,4 @@ power-ports:
   - name: PS2
     type: dc-terminal
     maximum_draw: 360
-    description: 46-57VDC terminal block
+    description: 46-57VDC terminal block (redundant)

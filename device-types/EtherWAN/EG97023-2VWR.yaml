@@ -13,45 +13,45 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: SFP 1
+  - name: ge1
     type: 1000base-x-sfp
-  - name: SFP 2
+  - name: ge2
     type: 1000base-x-sfp
-  - name: SFP 3
+  - name: ge3
     type: 1000base-x-sfp
-  - name: SFP 4
+  - name: ge4
     type: 1000base-x-sfp
-  - name: SFP 5
+  - name: ge5
     type: 1000base-x-sfp
-  - name: SFP 6
+  - name: ge6
     type: 1000base-x-sfp
-  - name: SFP 7
+  - name: ge7
     type: 1000base-x-sfp
-  - name: SFP 8
+  - name: ge8
     type: 1000base-x-sfp
-  - name: SFP+ 9
+  - name: xe1
     type: 10gbase-x-sfpp
-  - name: SFP+ 10
+  - name: xe2
     type: 10gbase-x-sfpp
-  - name: SFP+ 11
+  - name: xe3
     type: 10gbase-x-sfpp
-  - name: SFP+ 12
+  - name: xe4
     type: 10gbase-x-sfpp
-  - name: SFP+ 13
+  - name: xe5
     type: 10gbase-x-sfpp
-  - name: SFP+ 14
+  - name: xe6
     type: 10gbase-x-sfpp
-  - name: SFP+ 15
+  - name: xe7
     type: 10gbase-x-sfpp
-  - name: SFP+ 16
+  - name: xe8
     type: 10gbase-x-sfpp
-  - name: SFP+ 17
+  - name: xe9
     type: 10gbase-x-sfpp
-  - name: SFP+ 18
+  - name: xe10
     type: 10gbase-x-sfpp
-  - name: SFP+ 19
+  - name: xe11
     type: 10gbase-x-sfpp
-  - name: SFP+ 20
+  - name: xe12
     type: 10gbase-x-sfpp
 power-ports:
   - name: PS1

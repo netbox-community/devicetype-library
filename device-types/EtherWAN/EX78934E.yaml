@@ -13,61 +13,61 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: 1
+  - name: ge1
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 2
+  - name: ge2
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 3
+  - name: ge3
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 4
+  - name: ge4
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 5
+  - name: ge5
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 6
+  - name: ge6
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 7
+  - name: ge7
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 8
+  - name: ge8
     type: 1000base-t
     poe_mode: pse
     poe_type: type3-ieee802.3bt
-  - name: 9
+  - name: ge9
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 10
+  - name: ge10
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 11
+  - name: ge11
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: 12
+  - name: ge12
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: SFP 13
+  - name: ge13
     type: 1000base-x-sfp
-  - name: SFP 14
+  - name: ge14
     type: 1000base-x-sfp
-  - name: SFP 15
+  - name: ge15
     type: 1000base-x-sfp
-  - name: SFP 16
+  - name: ge16
     type: 1000base-x-sfp
 power-ports:
   - name: PS1
@@ -77,4 +77,4 @@ power-ports:
   - name: PS2
     type: dc-terminal
     maximum_draw: 260
-    description: 46-57VDC terminal block
+    description: 46-57VDC terminal block (redundant)

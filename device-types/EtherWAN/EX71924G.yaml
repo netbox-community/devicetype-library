@@ -13,29 +13,29 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: 1
+  - name: ge1
     type: 1000base-t
-  - name: 2
+  - name: ge2
     type: 1000base-t
-  - name: 3
+  - name: ge3
     type: 1000base-t
-  - name: 4
+  - name: ge4
     type: 1000base-t
-  - name: 5
+  - name: ge5
     type: 1000base-t
-  - name: 6
+  - name: ge6
     type: 1000base-t
-  - name: 7
+  - name: ge7
     type: 1000base-t
-  - name: 8
+  - name: ge8
     type: 1000base-t
-  - name: SFP 9
+  - name: xe1
     type: 2.5gbase-x-sfp
-  - name: SFP 10
+  - name: xe2
     type: 2.5gbase-x-sfp
-  - name: SFP 11
+  - name: xe3
     type: 2.5gbase-x-sfp
-  - name: SFP 12
+  - name: xe4
     type: 2.5gbase-x-sfp
 power-ports:
   - name: PS1
