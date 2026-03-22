@@ -1,76 +1,76 @@
 ---
 manufacturer: Phoenix Contact
 model: FL SWITCH 5924-4SFP+
-slug: phoenix-contact-fl-switch-5924-4sfpplus
-part_number: "1525939"
+slug: phoenix-contact-fl-switch-5924-4sfpp
+part_number: '1525939'
 u_height: 1
-is_full_depth: false
+is_full_depth: true
 weight: 10.54
 weight_unit: lb
 airflow: passive
 comments: '[FL SWITCH 5924-4SFP+ product page](https://www.phoenixcontact.com/en-us/products/industrial-ethernet-switch-fl-switch-5924-4sfp-1525939)'
 console-ports:
   - name: Console
-    type: usb-type-c
+    type: usb-c
 interfaces:
-  - name: 1
+  - name: xf1
     type: 1000base-t
-  - name: 2
+  - name: xf2
     type: 1000base-t
-  - name: 3
+  - name: xf3
     type: 1000base-t
-  - name: 4
+  - name: xf4
     type: 1000base-t
-  - name: 5
+  - name: xf5
     type: 1000base-t
-  - name: 6
+  - name: xf6
     type: 1000base-t
-  - name: 7
+  - name: xf7
     type: 1000base-t
-  - name: 8
+  - name: xf8
     type: 1000base-t
-  - name: 9
+  - name: xf9
     type: 1000base-t
-  - name: 10
+  - name: xf10
     type: 1000base-t
-  - name: 11
+  - name: xf11
     type: 1000base-t
-  - name: 12
+  - name: xf12
     type: 1000base-t
-  - name: 13
+  - name: xf13
     type: 1000base-t
-  - name: 14
+  - name: xf14
     type: 1000base-t
-  - name: 15
+  - name: xf15
     type: 1000base-t
-  - name: 16
+  - name: xf16
     type: 1000base-t
-  - name: 17
+  - name: xf17
     type: 1000base-t
-  - name: 18
+  - name: xf18
     type: 1000base-t
-  - name: 19
+  - name: xf19
     type: 1000base-t
-  - name: 20
+  - name: xf20
     type: 1000base-t
-  - name: 21
+  - name: xf21
     type: 1000base-t
-  - name: 22
+  - name: xf22
     type: 1000base-t
-  - name: 23
+  - name: xf23
     type: 1000base-t
-  - name: 24
+  - name: xf24
     type: 1000base-t
-  - name: 25
+  - name: xf25
     type: 10gbase-x-sfpp
-  - name: 26
+  - name: xf26
     type: 10gbase-x-sfpp
-  - name: 27
+  - name: xf27
     type: 10gbase-x-sfpp
-  - name: 28
+  - name: xf28
     type: 10gbase-x-sfpp
 module-bays:
   - name: PSU1
-    position: "1"
+    position: '1'
   - name: PSU2
-    position: "2"
+    position: '2'
