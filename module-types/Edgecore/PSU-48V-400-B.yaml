@@ -9,8 +9,8 @@ attribute_data:
   wattage: 400
   hot_swappable: true
   input_current: DC
-  input_voltage: -48
-comments: "For switches:\r\n\r\n  - Edgecore 5600-52X\r\n  - Edgecore 5610-52X\r\n  - Edgecore 5710-54X\r\n  - Edgecore 5712-54X"
+  input_voltage: 48
+comments: 'For switches:\r\n\r\n  - Edgecore 5600-52X\r\n  - Edgecore 5610-52X\r\n  - Edgecore 5710-54X\r\n  - Edgecore 5712-54X'
 power-ports:
   - name: PSU{module}
     type: dc-terminal
