@@ -1,0 +1,52 @@
+---
+manufacturer: EtherWAN
+model: EX78912G
+slug: etherwan-ex78912g
+part_number: EX78912G-0BT
+u_height: 0
+is_full_depth: false
+weight: 1.65
+weight_unit: lb
+airflow: passive
+comments: '[EX78900G Series datasheet](https://www.etherwan.com/us/products/ex78900g-series)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: ge1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ge2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ge3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ge4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ge5
+    type: 1000base-t
+  - name: ge6
+    type: 1000base-t
+  - name: ge7
+    type: 1000base-t
+  - name: ge8
+    type: 1000base-t
+  - name: xe1
+    type: 1000base-x-sfp
+  - name: xe2
+    type: 1000base-x-sfp
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 254
+    description: 46-57VDC terminal block
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 254
+    description: 46-57VDC terminal block
