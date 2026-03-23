@@ -15,10 +15,19 @@ console-ports:
   - name: con 0
     type: rj-45
     label: CONSOLE
-power-ports:
-  - name: PS0
-    type: iec-60320-c14
-    maximum_draw: 53
+module-bays:
+  - name: FAN1
+    label: FAN1
+    position: '1'
+    description: Fan module slot 1
+  - name: PWR1
+    label: PWR1
+    position: '1'
+    description: Power module slot 1
+  - name: PWR2
+    label: PWR2
+    position: '2'
+    description: Power module slot 2
 interfaces:
   - name: 10GE0/0/0
     type: 10gbase-x-sfpp
