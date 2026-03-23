@@ -29,15 +29,6 @@ module-bays:
   - name: FAN3
     label: FAN3
     position: '3'
-power-ports:
-  - name: Slot 1
-    type: iec-60320-c14
-    maximum_draw: 59
-    allocated_draw: 59
-  - name: Slot 2
-    type: iec-60320-c14
-    maximum_draw: 59
-    allocated_draw: 59
 interfaces:
   - name: eth-0-1
     type: 10gbase-x-sfpp
@@ -94,19 +85,3 @@ interfaces:
   - name: management
     type: 1000base-t
     mgmt_only: true
-inventory-items:
-  - name: Fan-Module 1
-    manufacturer: FS
-    part_id: AFM-5850-8050
-  - name: Fan-Module 2
-    manufacturer: FS
-    part_id: AFM-5850-8050
-  - name: Fan-Module 3
-    manufacturer: FS
-    part_id: AFM-5850-8050
-  - name: Power-Module 1
-    manufacturer: FS
-    part_id: GPR150-A1M
-  - name: Power-Module 2
-    manufacturer: FS
-    part_id: GPR150-A1M
