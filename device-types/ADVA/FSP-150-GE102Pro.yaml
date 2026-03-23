@@ -24,10 +24,6 @@ interfaces:
     type: 1000base-x-sfp
     label: '2'
     description: "Network Uplink 2"
-  - name: '3'
-    type: other
-    label: '3'
-    description: "Access Combo port"
   - name: '3-rj45'
     type: 1000base-tx
     parent: '3'
