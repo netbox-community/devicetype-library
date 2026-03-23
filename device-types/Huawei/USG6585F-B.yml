@@ -1,0 +1,88 @@
+---
+manufacturer: Huawei
+model: USG6585F-B
+slug: huawei-usg6585f-b
+description: The HiSecEngine USG6500F series AI firewalls provide content security functions, such as application identification, IPS, antivirus, and URL
+  filtering.
+part_number: 02355FCS
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 5.4
+weight_unit: kg
+comments: USG6585F-B(HTM) AC Host(16*GE RJ45 + 8*GE combo + 2*10GE SFP+,Support bypass,1 AC power,Include SSL VPN 100 users)
+console-ports:
+  - name: con 0
+    type: rj-45
+    label: CONSOLE
+module-bays:
+  - name: FAN1
+    label: FAN1
+    position: '1'
+    description: Fan module slot 1
+  - name: PWR1
+    label: PWR1
+    position: '1'
+    description: Power module slot 1
+  - name: PWR2
+    label: PWR2
+    position: '2'
+    description: Power module slot 2
+interfaces:
+  - name: 10GE0/0/0
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/1
+    type: 10gbase-x-sfpp
+
+  - name: GE0/0/0
+    type: 1000base-t
+  - name: GE0/0/1
+    type: 1000base-t
+  - name: GE0/0/2
+    type: 1000base-t
+  - name: GE0/0/3
+    type: 1000base-t
+  - name: GE0/0/4
+    type: 1000base-t
+  - name: GE0/0/5
+    type: 1000base-t
+  - name: GE0/0/6
+    type: 1000base-t
+  - name: GE0/0/7
+    type: 1000base-t
+  - name: GE0/0/8
+    type: 1000base-t
+  - name: GE0/0/9
+    type: 1000base-t
+  - name: GE0/0/10
+    type: 1000base-t
+  - name: GE0/0/11
+    type: 1000base-t
+  - name: GE0/0/12
+    type: 1000base-t
+  - name: GE0/0/13
+    type: 1000base-t
+  - name: GE0/0/14
+    type: 1000base-t
+  - name: GE0/0/15
+    type: 1000base-t
+  - name: GE0/0/16
+    type: 1000base-t
+  - name: GE0/0/17
+    type: 1000base-t
+  - name: GE0/0/18
+    type: 1000base-t
+  - name: GE0/0/19
+    type: 1000base-t
+  - name: GE0/0/20
+    type: 1000base-t
+  - name: GE0/0/21
+    type: 1000base-t
+  - name: GE0/0/22
+    type: 1000base-t
+  - name: GE0/0/23
+    type: 1000base-t
+
+  - name: MEth0/0/0
+    type: 100base-tx
+    mgmt_only: true
