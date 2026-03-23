@@ -19,22 +19,20 @@ interfaces:
   - name: '1'
     type: 1000base-x-sfp
     label: '1'
-    description: "Network Uplink 2"
+    description: Network Uplink 2
   - name: '2'
     type: 1000base-x-sfp
     label: '2'
-    description: "Network Uplink 2"
-  - name: '3-rj45'
+    description: Network Uplink 2
+  - name: 3-rj45
     type: 1000base-tx
-    parent: '3'
     label: '3'
-    description: "Combo port copper interface"
-  - name: '3-sfp'
+    description: Combo port copper interface
+  - name: 3-sfp
     type: 1000base-x-sfp
-    parent: '3'
     label: '3'
-    description: "Combo port SFP interface"
+    description: Combo port SFP interface
   - name: MGMT LAN
     type: 100base-tx
-    description: "Management LAN Interface"
+    description: Management LAN Interface
     mgmt_only: true
