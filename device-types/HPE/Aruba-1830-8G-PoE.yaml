@@ -16,12 +16,20 @@ power-ports:
 interfaces:
   - name: '1'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '2'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '3'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '4'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: '5'
     type: 1000base-t
   - name: '6'
