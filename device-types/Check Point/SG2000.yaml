@@ -27,28 +27,20 @@ power-ports:
     allocated_draw: 94
 interfaces:
   - name: DMZ-RJ-45
-    label: 'DMZ'
     type: 1000base-t
   - name: DMZ-SFP
-    label: 'DMZ'
     type: 10gbase-x-sfpp
   - name: WAN-RJ-45
-    label: 'WAN'
     type: 1000base-t
   - name: WAN-SFP
-    label: 'WAN'
     type: 1000base-x-sfp
-  - name: X1-SFP
-    label: 'X1'
+  - name: X1
     type: 10gbase-x-sfpp
-  - name: X2-SFP
-    label: 'X2'
+  - name: X2
     type: 10gbase-x-sfpp
-  - name: X3-SFP
-    label: 'X3'
+  - name: X3
     type: 10gbase-x-sfpp
-  - name: X4-SFP
-    label: 'X4'
+  - name: X4
     type: 10gbase-x-sfpp
   - name: eth1
     label: '1'
