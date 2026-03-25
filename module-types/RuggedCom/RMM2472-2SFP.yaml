@@ -1,0 +1,18 @@
+---
+profile: Expansion card
+manufacturer: RuggedCOM
+model: RMM2472-2SFP
+part_number: 6GK6000-8FG50-2EA0
+description: RSG2488 Slot 7 & 8; SFP Module
+airflow: passive
+attribute_data:
+  connector_type: SFP x 2
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-x-sfp
+    mgmt_only: false
+    label: '1'
+  - name: '{module}/2'
+    type: 1000base-x-sfp
+    mgmt_only: false
+    label: '2'
