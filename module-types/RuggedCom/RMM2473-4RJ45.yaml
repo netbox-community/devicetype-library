@@ -1,0 +1,28 @@
+---
+profile: Expansion card
+manufacturer: RuggedCOM
+model: RMM2473-4RJ45
+part_number: 6GK6000-8CG01-4EA0
+description: RSG2488 Slot 1 - 6; 10/100/1000Base-TX x 4
+airflow: passive
+attribute_data:
+  connector_type: RJ45 x 4
+comments: "Cable Type : > CAT-5\r\nSpeed : 1000 Mbps\r\nConnector : RJ45\r\nDuplex : FDX/HDX\r\nWiring Standard : TIA/EIA T568A/B\r\nMaximum Distance :\
+  \ 100m"
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-tx
+    mgmt_only: false
+    label: '1'
+  - name: '{module}/2'
+    type: 1000base-tx
+    mgmt_only: false
+    label: '2'
+  - name: '{module}/3'
+    type: 1000base-tx
+    mgmt_only: false
+    label: '3'
+  - name: '{module}/4'
+    type: 1000base-tx
+    mgmt_only: false
+    label: '4'
