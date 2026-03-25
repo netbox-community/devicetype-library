@@ -4,6 +4,8 @@ model: PowerEdge R360
 slug: dell-poweredge-r360
 u_height: 1
 is_full_depth: true
+comments: |
+  [Dell R360 Data Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r360-spec-sheet.pdf)
 weight: 9
 weight_unit: kg
 airflow: front-to-rear
@@ -15,6 +17,12 @@ module-bays:
     position: '1'
   - name: PSU 2
     position: '2'
+  - name: PCIe slot 1
+    position: PCIe-1
+    description: Half Length, LP 8x
+  - name: PCIe slot 2
+    position: PCIe-2
+    description: Half Length, LP 16x
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

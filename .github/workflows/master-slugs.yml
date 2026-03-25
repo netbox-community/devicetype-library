@@ -15,12 +15,12 @@ jobs:
         with:
           ssh-key: ${{secrets.SLUG_DEPLOY_KEY}}
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         id: setup_python
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
