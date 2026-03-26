@@ -105,6 +105,40 @@ def _get_image_files():
 
     return file_list
 
+def _get_module_image_files():
+    """
+    Return a list of added, renamed, or modified module-image files from git diff against upstream.
+    """
+    file_list = []
+
+    repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+
+    if "upstream" not in repo.remotes:
+        repo.create_remote("upstream", NETBOX_DT_LIBRARY_URL)
+
+    upstream = repo.remotes.upstream
+    upstream.fetch()
+
+    changes = upstream.refs.master.commit.diff(repo.head)
+    changes = changes + repo.index.diff("HEAD")
+
+    # TODO: Expand to ['A', 'R', 'M', 'T'] once pre-existing images
+    # are merged to master — they predate the naming/limit rules and
+    # only show up as renames in the diff until then.
+    CHANGE_TYPE_LIST = ['A']
+
+    for change in changes:
+        if change.change_type in CHANGE_TYPE_LIST:
+            # Diff direction varies (committed vs staged), so resolve the
+            # current on-disk path by checking all candidates.
+            for candidate in (change.rename_from, change.rename_to, change.a_path, change.b_path):
+                if candidate and candidate.startswith('module-images/') and os.path.isfile(candidate):
+                    if candidate not in file_list:
+                        file_list.append(candidate)
+                    break
+
+    return file_list
+
 def _decimal_file_handler(uri):
     """
     Handler to work with floating decimals that fail normal validation.
@@ -130,6 +164,11 @@ if USE_UPSTREAM_DIFF and not EVALUATE_ALL:
 else:
     definition_files = _get_definition_files()
 image_files = _get_image_files()
+
+if USE_UPSTREAM_DIFF:
+    module_image_files = _get_module_image_files()
+else:
+    module_image_files = []
 
 if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
@@ -296,3 +335,54 @@ def test_definitions(file_path, schema, change_type):
             if not rear_image:
                 pytest.fail(f'{file_path} has rear_image set to True but no matching image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.rear.ext\' but only found {manufacturer_images})', False)
     iterdict(definition)
+
+@pytest.mark.parametrize('file_path', module_image_files)
+def test_module_images(file_path):
+    """
+    Validate module-image files: structure, naming, module-type existence, and image count.
+    """
+    parts = file_path.split(os.path.sep)
+
+    # Must follow module-images/<manufacturer>/<module-type>/<image> structure
+    if len(parts) != 4:
+        pytest.fail(
+            f"Invalid module-image path: {file_path}. "
+            f"Expected: module-images/<manufacturer>/<module-type>/<filename>",
+            pytrace=False,
+        )
+
+    manufacturer, module_name, image_file = parts[1], parts[2], parts[3]
+
+    # Valid image extension
+    ext = image_file.rsplit('.', 1)[-1].lower()
+    if ext not in IMAGE_FILETYPES:
+        pytest.fail(f"Invalid image file extension in {file_path}", pytrace=False)
+
+    # Corresponding module-type YAML must exist
+    yaml_path = os.path.join('module-types', manufacturer, f'{module_name}.yaml')
+    yml_path = os.path.join('module-types', manufacturer, f'{module_name}.yml')
+    if not (os.path.isfile(yaml_path) or os.path.isfile(yml_path)):
+        pytest.fail(
+            f"No module-type definition found for {file_path}. Expected: {yaml_path}",
+            pytrace=False,
+        )
+
+    # Filename must match <module-type>[.<qualifier>].<ext>
+    name_stem = image_file.split('.')[0]
+    if name_stem != module_name:
+        pytest.fail(
+            f"Module image filename must start with '{module_name}': got '{image_file}'. "
+            f"Expected pattern: {module_name}[.<qualifier>].<ext>",
+            pytrace=False,
+        )
+
+    # Maximum 2 images per module
+    module_dir = os.path.join('module-images', manufacturer, module_name)
+    if os.path.isdir(module_dir):
+        images = os.listdir(module_dir)
+        if len(images) > 2:
+            pytest.fail(
+                f"Maximum 2 images per module type. "
+                f"Found {len(images)} in {module_dir}: {images}",
+                pytrace=False,
+            )
