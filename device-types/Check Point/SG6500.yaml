@@ -16,11 +16,6 @@ console-ports:
   - name: ttyS1
     label: CONSOLE
     type: usb-c
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
 interfaces:
   - name: eth1
     label: '1'
@@ -58,8 +53,8 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PSU1
-    position: PSU1
+    position: '1'
   - name: PSU2
-    position: PSU2
+    position: '2'
   - name: Line card 1
     position: '1'
