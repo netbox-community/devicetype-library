@@ -8,7 +8,7 @@ is_full_depth: true
 airflow: front-to-rear
 weight: 21
 weight_unit: lb
-# comments: '[Arista AWE-5310 Data Sheet]
+comments: ### [Arista AWE-5310 Data Sheet]
 
 ####   Feature/Model : AWE-5310
 
@@ -27,7 +27,7 @@ weight_unit: lb
 #####   System Memory: 32GB
 
 
-# <https://www.arista.com/assets/data/pdf/Datasheets/Arista-5000-Datasheet.pdf> '
+#####  <https://www.arista.com/assets/data/pdf/Datasheets/Arista-5000-Datasheet.pdf> 
 console-ports:
   - name: Console
     type: rj-45

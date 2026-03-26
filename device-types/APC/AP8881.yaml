@@ -8,10 +8,10 @@ is_full_depth: false
 airflow: passive
 weight: 14.07
 weight_unit: lb
-# description: APC NetShelter Metered Rack PDU, 0U, 400V 3 phase input, 11kVA, 230V output, 36 x C13 and 6 x C19
-# comments: ' (https://www.apc.com/us/en/product/AP8881/)
+description: AP8881 - APC NetShelter Metered Rack PDU, 0U, 400V 3 phase input, 11kVA, 230V output, 36 x C13 and 6 x C19
+comments: ### [AP8881] (https://www.apc.com/us/en/product/AP8881/)
 
-  # Ports are enumerated left to right, top to bottom, when the PDU is oriented vertically with the power cord up. Port numbers are grouped per line/phase. '
+#####  Ports are enumerated left to right, top to bottom, when the PDU is oriented vertically with the power cord up. Port numbers are grouped per line/phase. '
 console-ports:
   - name: Serial
     label: Serial

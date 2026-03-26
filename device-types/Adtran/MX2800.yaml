@@ -7,11 +7,15 @@ description: ''
 default_platform: null
 u_height: 1
 is_full_depth: false
-comments: '### MX2800 M13 Multiplexer | Adtran ###
-  - The MX2800 M13 Multiplexer is a high-performance, cost-effective solution for transporting DS3 and E1 traffic over T1/E1 lines. It is designed to provide reliable and efficient data transmission for various applications, including voice, video, and data services.
-  - The device supports multiple DS3 and E1 interfaces, allowing for flexible configuration and scalability to meet the needs of different network environments.
-  - The MX2800 M13 Multiplexer is equipped with advanced features such as built-in diagnostics, performance monitoring, and network management capabilities, ensuring optimal performance and easy maintenance.
-  - For more information, please refer to the official datasheet: <https://portal.adtran.com/pub/Library/Data_Sheets/Default_Public/MX2800_M13_Multiplexer_Data_Sheet.pdf> '
+comments: # MX2800 M13 Multiplexer | Adtran ###
+  ### - The MX2800 M13 Multiplexer is a high-performance, cost-effective solution for transporting DS3 and E1 traffic over T1/E1 lines.
+  ###       It is designed to provide reliable and efficient data transmission for various applications, including voice, video, and data services.
+  ### - The device supports multiple DS3 and E1 interfaces, allowing for flexible configuration and
+  ###       scalability to meet the needs of different network environments.
+  ### - The MX2800 M13 Multiplexer is equipped with advanced features such as built-in diagnostics, performance monitoring,
+  ###      and network management capabilities, ensuring optimal performance and easy maintenance.
+  ### - For more information, please refer to the official datasheet:
+  ### <https://portal.adtran.com/pub/Library/Data_Sheets/Default_Public/MX2800_M13_Multiplexer_Data_Sheet.pdf> '
 console-ports:
   - name: LAN
     type: rj-45
