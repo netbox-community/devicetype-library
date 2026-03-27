@@ -1,0 +1,162 @@
+---
+manufacturer: nVent
+model: EN6952
+slug: nvent-en6952
+part_number: EN6952
+u_height: 0
+is_full_depth: false
+comments: |
+  nVent Enlogic Advantage Series Outlet Metered, Outlet Switched PDU.
+  Input: 60A (48A derated), 208VAC, 3-phase. 17.3 kVA max power. Plug: 460P9 (IP44).
+  Outlets: 21 x C13/C15, 21 x C13/C15/C19/C21 Combo.
+  Features dual network interfaces, environmental sensor support, and 6x 20A breakers.
+  [nVent EN6952 Overview](https://www.nvent.com/en-us/schroff/products/encen6952?srsltid=AfmBOorvvo4gB5YRINzzhBLy0tJM9aaLdWqLyoafSaZ-yMTW0fEeT1Zs#Resources)
+  [nVent EN6952 Datasheet](https://www.nvent.com/en-us/schroff/products/encen6952/pdf?measure_system=metric)
+weight: 13.0
+weight_unit: kg
+
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    description: 1x Gigabit Ethernet (10/100/1000 Mbps)
+  - name: mgmt1
+    type: 100base-tx
+    mgmt_only: true
+    description: 1x Fast Ethernet (10/100 Mbps) / Cascading
+
+power-ports:
+  - name: Power Input
+    type: iec-60309-3p-e-9h
+    maximum_draw: 17300
+    allocated_draw: 17300
+    description: 460P9 (IP44) 60A 3-Phase 208V
+
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 2
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 3
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 4
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 5
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 6
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 7
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 8
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 9
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 10
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 11
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 12
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 13
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 14
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 15
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 16
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 17
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 18
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 19
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 20
+    type: iec-60320-c15
+    power_port: Power Input
+  - name: Outlet 21
+    type: iec-60320-c15
+    power_port: Power Input
+
+  - name: Outlet 22
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 23
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 24
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 25
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 26
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 27
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 28
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 29
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 30
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 31
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 32
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 33
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 34
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 35
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 36
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 37
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 38
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 39
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 40
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 41
+    type: eaton-c39
+    power_port: Power Input
+  - name: Outlet 42
+    type: eaton-c39
+    power_port: Power Input
