@@ -1,0 +1,170 @@
+---
+manufacturer: Edgecore
+model: AS9817-64O-O-AC-F
+slug: edgecore-as9817-64o-o-ac-f
+part_number: FP6ZZ9664xxxx
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: >
+  Base Model: AS9817-64O; Intel Xeon Processor D-1713NTE 4-Core; 64-Port 800G OSFP800; ONIE Software Installer
+  [Edgecore AS9817-64O Datasheet](https://www.edge-core.com/_upload/images/DCS560_AS9817-64O_AS9817-64D_DS_R02_20231025.pdf)
+
+weight: 21.5
+weight_unit: kg
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+module-bays:
+  - name: PSU1
+    position: "1"
+  - name: PSU2
+    position: "2"
+  - name: Fan Module Slot 1
+    position: "1"
+  - name: Fan Module Slot 2
+    position: "2"
+  - name: Fan Module Slot 3
+    position: "3"
+  - name: Fan Module Slot 4
+    position: "4"
+
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ASIC Management Port 1
+    type: 25gbase-sfp28
+  - name: ASIC Management Port 2
+    type: 25gbase-sfp28
+
+  - name: Port 1
+    type: 800gbase-osfp800
+  - name: Port 2
+    type: 800gbase-osfp800
+  - name: Port 3
+    type: 800gbase-osfp800
+  - name: Port 4
+    type: 800gbase-osfp800
+  - name: Port 5
+    type: 800gbase-osfp800
+  - name: Port 6
+    type: 800gbase-osfp800
+  - name: Port 7
+    type: 800gbase-osfp800
+  - name: Port 8
+    type: 800gbase-osfp800
+  - name: Port 9
+    type: 800gbase-osfp800
+  - name: Port 10
+    type: 800gbase-osfp800
+  - name: Port 11
+    type: 800gbase-osfp800
+  - name: Port 12
+    type: 800gbase-osfp800
+  - name: Port 13
+    type: 800gbase-osfp800
+  - name: Port 14
+    type: 800gbase-osfp800
+  - name: Port 15
+    type: 800gbase-osfp800
+  - name: Port 16
+    type: 800gbase-osfp800
+  - name: Port 17
+    type: 800gbase-osfp800
+  - name: Port 18
+    type: 800gbase-osfp800
+  - name: Port 19
+    type: 800gbase-osfp800
+  - name: Port 20
+    type: 800gbase-osfp800
+  - name: Port 21
+    type: 800gbase-osfp800
+  - name: Port 22
+    type: 800gbase-osfp800
+  - name: Port 23
+    type: 800gbase-osfp800
+  - name: Port 24
+    type: 800gbase-osfp800
+  - name: Port 25
+    type: 800gbase-osfp800
+  - name: Port 26
+    type: 800gbase-osfp800
+  - name: Port 27
+    type: 800gbase-osfp800
+  - name: Port 28
+    type: 800gbase-osfp800
+  - name: Port 29
+    type: 800gbase-osfp800
+  - name: Port 30
+    type: 800gbase-osfp800
+  - name: Port 31
+    type: 800gbase-osfp800
+  - name: Port 32
+    type: 800gbase-osfp800
+  - name: Port 33
+    type: 800gbase-osfp800
+  - name: Port 34
+    type: 800gbase-osfp800
+  - name: Port 35
+    type: 800gbase-osfp800
+  - name: Port 36
+    type: 800gbase-osfp800
+  - name: Port 37
+    type: 800gbase-osfp800
+  - name: Port 38
+    type: 800gbase-osfp800
+  - name: Port 39
+    type: 800gbase-osfp800
+  - name: Port 40
+    type: 800gbase-osfp800
+  - name: Port 41
+    type: 800gbase-osfp800
+  - name: Port 42
+    type: 800gbase-osfp800
+  - name: Port 43
+    type: 800gbase-osfp800
+  - name: Port 44
+    type: 800gbase-osfp800
+  - name: Port 45
+    type: 800gbase-osfp800
+  - name: Port 46
+    type: 800gbase-osfp800
+  - name: Port 47
+    type: 800gbase-osfp800
+  - name: Port 48
+    type: 800gbase-osfp800
+  - name: Port 49
+    type: 800gbase-osfp800
+  - name: Port 50
+    type: 800gbase-osfp800
+  - name: Port 51
+    type: 800gbase-osfp800
+  - name: Port 52
+    type: 800gbase-osfp800
+  - name: Port 53
+    type: 800gbase-osfp800
+  - name: Port 54
+    type: 800gbase-osfp800
+  - name: Port 55
+    type: 800gbase-osfp800
+  - name: Port 56
+    type: 800gbase-osfp800
+  - name: Port 57
+    type: 800gbase-osfp800
+  - name: Port 58
+    type: 800gbase-osfp800
+  - name: Port 59
+    type: 800gbase-osfp800
+  - name: Port 60
+    type: 800gbase-osfp800
+  - name: Port 61
+    type: 800gbase-osfp800
+  - name: Port 62
+    type: 800gbase-osfp800
+  - name: Port 63
+    type: 800gbase-osfp800
+  - name: Port 64
+    type: 800gbase-osfp800
