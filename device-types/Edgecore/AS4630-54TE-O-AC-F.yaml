@@ -1,8 +1,8 @@
 ---
 manufacturer: Edgecore
-model: AS4630-54TE-O-AC-F-US
-slug: edgecore-as4630-54te-O-AC-F-US
-part_number: F0PZZ4654410A
+model: AS4630-54TE-O-AC-F
+slug: edgecore-as4630-54te-o-ac-f
+part_number: F0PZZ4654xxxx
 u_height: 1.0
 is_full_depth: false
 airflow: front-to-rear
@@ -18,120 +18,130 @@ console-ports:
   - name: Console
     type: rj-45
 
-interfaces:
-  - name: Management
-    type: 1000base-t
-  - name: Port 1
-    type: 1000base-t
-  - name: Port2
-    type: 1000base-t
-  - name: Port3
-    type: 1000base-t
-  - name: Port4
-    type: 1000base-t
-  - name: Port5
-    type: 1000base-t
-  - name: Port6
-    type: 1000base-t
-  - name: Port7
-    type: 1000base-t
-  - name: Port8
-    type: 1000base-t
-  - name: Port9
-    type: 1000base-t
-  - name: Port10
-    type: 1000base-t
-  - name: Port11
-    type: 1000base-t
-  - name: Port12
-    type: 1000base-t
-  - name: Port13
-    type: 1000base-t
-  - name: Port14
-    type: 1000base-t
-  - name: Port15
-    type: 1000base-t
-  - name: Port16
-    type: 1000base-t
-  - name: Port17
-    type: 1000base-t
-  - name: Port18
-    type: 1000base-t
-  - name: Port19
-    type: 1000base-t
-  - name: Port20
-    type: 1000base-t
-  - name: Port21
-    type: 1000base-t
-  - name: Port22
-    type: 1000base-t
-  - name: Port23
-    type: 1000base-t
-  - name: Port24
-    type: 1000base-t
-  - name: Port25
-    type: 1000base-t
-  - name: Port26
-    type: 1000base-t
-  - name: Port27
-    type: 1000base-t
-  - name: Port28
-    type: 1000base-t
-  - name: Port29
-    type: 1000base-t
-  - name: Port30
-    type: 1000base-t
-  - name: Port31
-    type: 1000base-t
-  - name: Port32
-    type: 1000base-t
-  - name: Port33
-    type: 1000base-t
-  - name: Port34
-    type: 1000base-t
-  - name: Port35
-    type: 1000base-t
-  - name: Port36
-    type: 1000base-t
-  - name: Port37
-    type: 1000base-t
-  - name: Port38
-    type: 1000base-t
-  - name: Port39
-    type: 1000base-t
-  - name: Port40
-    type: 1000base-t
-  - name: Port41
-    type: 1000base-t
-  - name: Port42
-    type: 1000base-t
-  - name: Port43
-    type: 1000base-t
-  - name: Port44
-    type: 1000base-t
-  - name: Port45
-    type: 1000base-t
-  - name: Port46
-    type: 1000base-t
-  - name: Port47
-    type: 1000base-t
-  - name: Port48
-    type: 1000base-t
-  - name: Port49
-    type: 25gbase-sfp28
-  - name: Port50
-    type: 25gbase-sfp28
-  - name: Port51
-    type: 25gbase-sfp28
-  - name: Port52
-    type: 25gbase-sfp28
-  - name: Port53
-    type: 100gbase-qsfp28
-  - name: Port54
-    type: 100gbase-qsfp28
-
 module-bays:
   - name: PSU1
     position: "1"
   - name: PSU2
     position: "2"
+  - name: Fan Module Slot 1
+    position: "1"
+  - name: Fan Module Slot 2
+    position: "2"
+  - name: Fan Module Slot 3
+    position: "3"
+
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+
+  - name: Port 1
+    type: 1000base-t
+  - name: Port 2
+    type: 1000base-t
+  - name: Port 3
+    type: 1000base-t
+  - name: Port 4
+    type: 1000base-t
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t
+  - name: Port 9
+    type: 1000base-t
+  - name: Port 10
+    type: 1000base-t
+  - name: Port 11
+    type: 1000base-t
+  - name: Port 12
+    type: 1000base-t
+  - name: Port 13
+    type: 1000base-t
+  - name: Port 14
+    type: 1000base-t
+  - name: Port 15
+    type: 1000base-t
+  - name: Port 16
+    type: 1000base-t
+  - name: Port 17
+    type: 1000base-t
+  - name: Port 18
+    type: 1000base-t
+  - name: Port 19
+    type: 1000base-t
+  - name: Port 20
+    type: 1000base-t
+  - name: Port 21
+    type: 1000base-t
+  - name: Port 22
+    type: 1000base-t
+  - name: Port 23
+    type: 1000base-t
+  - name: Port 24
+    type: 1000base-t
+  - name: Port 25
+    type: 1000base-t
+  - name: Port 26
+    type: 1000base-t
+  - name: Port 27
+    type: 1000base-t
+  - name: Port 28
+    type: 1000base-t
+  - name: Port 29
+    type: 1000base-t
+  - name: Port 30
+    type: 1000base-t
+  - name: Port 31
+    type: 1000base-t
+  - name: Port 32
+    type: 1000base-t
+  - name: Port 33
+    type: 1000base-t
+  - name: Port 34
+    type: 1000base-t
+  - name: Port 35
+    type: 1000base-t
+  - name: Port 36
+    type: 1000base-t
+  - name: Port 37
+    type: 1000base-t
+  - name: Port 38
+    type: 1000base-t
+  - name: Port 39
+    type: 1000base-t
+  - name: Port 40
+    type: 1000base-t
+  - name: Port 41
+    type: 1000base-t
+  - name: Port 42
+    type: 1000base-t
+  - name: Port 43
+    type: 1000base-t
+  - name: Port 44
+    type: 1000base-t
+  - name: Port 45
+    type: 1000base-t
+  - name: Port 46
+    type: 1000base-t
+  - name: Port 47
+    type: 1000base-t
+  - name: Port 48
+    type: 1000base-t
+
+  - name: Port 49
+    type: 25gbase-sfp28
+  - name: Port 50
+    type: 25gbase-sfp28
+  - name: Port 51
+    type: 25gbase-sfp28
+  - name: Port 52
+    type: 25gbase-sfp28
+
+  - name: Port53
+    type: 100gbase-qsfp28
+  - name: Port54
+    type: 100gbase-qsfp28
