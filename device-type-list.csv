@@ -1,7 +1,7 @@
-vendor,device_type_name,slug,created
+vendor,device_type_name,slug,created," note"
 arista,DCS-7050DX4-32S-F,arista-dcs-7050dx4-32s-f,yes
-arista,DCS-7060X6-64PE-F,arista-dcs-7060x6-64pe-f,no
-arista,DCS-7808-CH,arista-dcs-7808-ch,no
+arista,DCS-7060X6-64PE-F,arista-dcs-7060x6-64pe-f,no,We can use `device-types/Arista/DCS-7060X6-64PE.yaml` It's same spec but -F means front-rear airflow.
+arista,DCS-7808-CH,arista-dcs-7808-ch,yes,using 7800r3 datasheet
 dell,PowerEdge C6525,dell-poweredge-c6525,yes
 dell,PowerEdge R740xd,dell-poweredge-r740xd,yes
 edgecore,Accton-AS4630-54TE,edgecore-accton-as4630-54te,no
