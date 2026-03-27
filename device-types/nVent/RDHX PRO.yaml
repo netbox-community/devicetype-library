@@ -1,0 +1,80 @@
+---
+manufacturer: nVent
+model: RDHX PRO
+slug: nvent-rdhx-pro
+part_number: RDHX PRO
+u_height: 0
+is_full_depth: false
+comments: >
+  RDHX PRO chilled water cooling units are designed to deliver localized and energy efficient cooling in data centers, featuring toolless, hot-swappable components for maximum uptime and serviceability creating longer lifetime and ensuring customer productivity
+  [nVent RDHX PRO Overview](https://www.nvent.com/en-us/data-solutions/rear-door-heat-exchangers)
+  [nVent RDHX PRO Datasheet](https://nvent.widen.net/s/kn9hnh7tn6/schroff-spec-n00647-rdhxpro-en)
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+    description: Gigabit Ethernet 1
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+    description: Gigabit Ethernet 2
+  - name: rs485
+    type: other
+    mgmt_only: true
+    description: Serial RS485 (Modbus RTU)
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 800
+    description: Hot-Swappable Wide Range PSU 1
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 800
+    description: Hot-Swappable Wide Range PSU 2
+
+inventory-items:
+  # Main Controller
+  - name: Main Controller
+    role: Controller
+    is_replaceable: true
+    description: Hot-swappable smart controller with 7" Touch Panel
+
+  # 12x Smart Fan Modules
+  - name: Fan Module 1
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 2
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 3
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 4
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 5
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 6
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 7
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 8
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 9
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 10
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 11
+    role: Fan
+    is_replaceable: true
+  - name: Fan Module 12
+    role: Fan
+    is_replaceable: true
