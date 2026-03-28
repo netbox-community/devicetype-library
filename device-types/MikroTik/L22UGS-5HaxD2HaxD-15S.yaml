@@ -11,7 +11,9 @@ comments: '[L22UGS-5HaxD2HaxD-15S Datasheet](https://mikrotik.com/product/mantbo
 front_image: true
 rear_image: true
 subdevice_role: parent
-
+console-ports:
+  - name: usb
+    type: usb-a
 interfaces:
   - name: ether1
     label: ETH1
