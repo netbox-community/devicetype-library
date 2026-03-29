@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: '1721'
+part_number: CISCO1721
+slug: cisco-1721
+u_height: 2
+weight: 1.32
+airflow: passive
+weight_unit: kg
+is_full_depth: false
+interfaces:
+  - name: FastEthernet0
+    type: 100base-tx
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: aux
+    type: rj-45
+module-bays:
+  - name: WIC0
+    position: '0'
+  - name: WIC1
+    position: '1'
+power-ports:
+  - name: External-PSU
+    type: dc-terminal
+    maximum_draw: 30

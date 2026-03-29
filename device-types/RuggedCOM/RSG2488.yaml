@@ -1,0 +1,77 @@
+---
+manufacturer: RuggedCOM
+model: Rugged Switch RSG2488
+slug: ruggedcom-rugged-switch-rsg2488
+description: RUGGEDCOM RSG2488 switch supports up to 28 electrical and/ or optical interfaces with data transfer rates of 10/100/1000 Mbit/s.
+part_number: RSG2488
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: passive
+weight: 10.0
+weight_unit: kg
+comments: "[RSG2488 Equipment Manual](https://cache.industry.siemens.com/dl/files/529/109983529/att_1316698/v1/C79000-G8976-1048-16_RSG2488_EquipmentManual.pdf)\r\
+  \n\r\n[RSG2488 Module Manual](https://support.industry.siemens.com/cs/attachments/109757282/C79000-G8976-1322_RSG2488_Catalog.pdf)"
+console-ports:
+  - name: Console
+    type: de-9
+    label: Console
+    description: 57600 baud
+power-ports:
+  - name: DC Input 1
+    type: dc-terminal
+    maximum_draw: 600
+  - name: DC Input 2
+    type: dc-terminal
+    maximum_draw: 600
+interfaces:
+  - name: MGMT
+    type: 100base-tx
+    mgmt_only: true
+    label: MGMT
+    description: Management Port
+  - name: SVI1
+    type: virtual
+    mgmt_only: false
+    description: In band virtual interface
+module-bays:
+  - name: '1'
+    label: Slot01
+    position: '1'
+    description: Top 1
+  - name: '2'
+    label: Slot02
+    position: '2'
+    description: Bottom 1
+  - name: '3'
+    label: Slot03
+    position: '3'
+    description: Top 2
+  - name: '4'
+    label: Slot04
+    position: '4'
+    description: Bottom 2
+  - name: '5'
+    label: Slot05
+    position: '5'
+    description: Top 3
+  - name: '6'
+    label: Slot06
+    position: '6'
+    description: Bottom 3
+  - name: '7'
+    label: Slot07
+    position: '7'
+    description: Top 4
+  - name: '8'
+    label: Slot08
+    position: '8'
+    description: Bottom 4
+  - name: PSU1
+    label: PSU1
+    position: PSU1
+    description: Rear 1
+  - name: PSU2
+    label: PSU2
+    position: PSU2
+    description: Rear 2
