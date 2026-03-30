@@ -25,56 +25,46 @@ interfaces:
     description: Serial RS485 (Modbus RTU)
 
 power-ports:
-  - name: PSU1
+  - name: PSU 01
     type: iec-60320-c14
     maximum_draw: 800
     description: Hot-Swappable Wide Range PSU 1
-  - name: PSU2
+  - name: PSU 02
     type: iec-60320-c14
     maximum_draw: 800
     description: Hot-Swappable Wide Range PSU 2
 
 inventory-items:
-  # Main Controller
+  - name: Power Supply 01
+    role: Power Supply
+  - name: Power Supply 02
+    role: Power Supply
+
   - name: Main Controller
     role: Controller
-    is_replaceable: true
     description: Hot-swappable smart controller with 7" Touch Panel
 
-  # 12x Smart Fan Modules
-  - name: Fan Module 1
+  - name: Fan 01
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 2
+  - name: Fan 02
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 3
+  - name: Fan 03
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 4
+  - name: Fan 04
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 5
+  - name: Fan 05
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 6
+  - name: Fan 06
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 7
+  - name: Fan 07
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 8
+  - name: Fan 08
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 9
+  - name: Fan 09
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 10
+  - name: Fan 10
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 11
+  - name: Fan 11
     role: Fan
-    is_replaceable: true
-  - name: Fan Module 12
+  - name: Fan 12
     role: Fan
-    is_replaceable: true
