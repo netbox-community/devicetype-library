@@ -14,60 +14,87 @@ weight_unit: kg
 airflow: front-to-rear
 
 interfaces:
-  - name: IPMI
+  - name: BMC LAN
     type: 1000base-t
     mgmt_only: true
-    description: Dedicated BMC LAN port
-
-module-bays:
-  - name: AIOM Slot
-    description: PCIe 5.0 x16 AIOM slot (OCP 3.0 compatible)
+    description: 1 RJ45 1 GbE Dedicated BMC LAN port
 
 power-ports:
-  - name: PSU1
+  - name: PSU 01
     type: iec-60320-c14
     maximum_draw: 1600
-  - name: PSU2
+  - name: PSU 02
     type: iec-60320-c14
     maximum_draw: 1600
 
 inventory-items:
-  - name: Power Supply 1
+  - name: Power Supply 01
     role: Power Supply
-    is_replaceable: true
-  - name: Power Supply 2
+  - name: Power Supply 02
     role: Power Supply
-    is_replaceable: true
 
-  - name: Fan 1
-    role: Fan
-    description: 8cm heavy duty fan
-  - name: Fan 2
-    role: Fan
-    description: 8cm heavy duty fan
-  - name: Fan 3
-    role: Fan
-    description: 8cm heavy duty fan
-  - name: Fan 4
-    role: Fan
-    description: 8cm heavy duty fan
+  - name: Motherboard
+    role: Motherboard
+    manufacturer: Supermicro
+    description: Super H13SSH
 
-  - name: Node 1
-    label: Compute Node 1
-  - name: Node 2
-    label: Compute Node 2
-  - name: Node 3
-    label: Compute Node 3
-  - name: Node 4
-    label: Compute Node 4
-  - name: Node 5
-    label: Compute Node 5
-  - name: Node 6
-    label: Compute Node 6
-  - name: Node 7
-    label: Compute Node 7
-  - name: Node 8
-    label: Compute Node 8
+  - name: CPU
+    role: CPU
+    manufacturer: Advanced Micro Devices
+
+  - name: GPU 01
+    role: GPU
+  - name: GPU 02
+    role: GPU
+
+  - name: Memory 01
+    role: Memory
+  - name: Memory 02
+    role: Memory
+  - name: Memory 03
+    role: Memory
+  - name: Memory 04
+    role: Memory
+  - name: Memory 05
+    role: Memory
+  - name: Memory 06
+    role: Memory
+  - name: Memory 07
+    role: Memory
+  - name: Memory 08
+    role: Memory
+  - name: Memory 09
+    role: Memory
+  - name: Memory 10
+    role: Memory
+  - name: Memory 11
+    role: Memory
+  - name: Memory 12
+    role: Memory
+  - name: Memory 13
+    role: Memory
+  - name: Memory 14
+    role: Memory
+  - name: Memory 15
+    role: Memory
+  - name: Memory 16
+    role: Memory
+  - name: Memory 17
+    role: Memory
+  - name: Memory 18
+    role: Memory
+  - name: Memory 19
+    role: Memory
+  - name: Memory 20
+    role: Memory
+  - name: Memory 21
+    role: Memory
+  - name: Memory 22
+    role: Memory
+  - name: Memory 23
+    role: Memory
+  - name: Memory 24
+    role: Memory
 
   - name: Drive Bay 00
     role: Storage
