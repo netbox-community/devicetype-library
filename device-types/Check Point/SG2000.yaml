@@ -1,0 +1,98 @@
+---
+manufacturer: Check Point
+model: SG2000
+slug: check-point-sg2000
+part_number: CPAP-SG2000
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 6.76
+weight_unit: kg
+comments: '[Check Point Quantum Spark 2000 Datasheet](https://www.checkpoint.com/downloads/quantum-spark-1900-2000-datasheet.pdf)'
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+  - name: ttyS1
+    label: CONSOLE
+    type: usb-c
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 94
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 94
+interfaces:
+  - name: DMZ-RJ-45
+    type: 1000base-t
+  - name: DMZ-SFP
+    type: 10gbase-x-sfpp
+  - name: WAN-RJ-45
+    type: 1000base-t
+  - name: WAN-SFP
+    type: 1000base-x-sfp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: X2
+    type: 10gbase-x-sfpp
+  - name: X3
+    type: 10gbase-x-sfpp
+  - name: X4
+    type: 10gbase-x-sfpp
+  - name: eth1
+    label: '1'
+    type: 2.5gbase-t
+  - name: eth2
+    label: '2'
+    type: 2.5gbase-t
+  - name: eth3
+    label: '3'
+    type: 1000base-t
+  - name: eth4
+    label: '4'
+    type: 1000base-t
+  - name: eth5
+    label: '5'
+    type: 1000base-t
+  - name: eth6
+    label: '6'
+    type: 1000base-t
+  - name: eth7
+    label: '7'
+    type: 1000base-t
+  - name: eth8
+    label: '8'
+    type: 1000base-t
+  - name: eth9
+    label: '9'
+    type: 1000base-t
+  - name: eth10
+    label: '10'
+    type: 1000base-t
+  - name: eth11
+    label: '11'
+    type: 1000base-t
+  - name: eth12
+    label: '12'
+    type: 1000base-t
+  - name: eth13
+    label: '13'
+    type: 1000base-t
+  - name: eth14
+    label: '14'
+    type: 1000base-t
+  - name: eth15
+    label: '15'
+    type: 1000base-t
+  - name: eth16
+    label: '16'
+    type: 1000base-t
+  - name: eth17
+    label: '17'
+    type: 1000base-t
+  - name: eth18
+    label: '18'
+    type: 1000base-t
