@@ -1,0 +1,67 @@
+---
+manufacturer: Cisco
+model: Catalyst 2924 XL
+slug: cisco-catalyst-2924-xl
+part_number: WS-C2924-XL-EN
+u_height: 1
+weight: 3.2
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+comments: '[Catalyst 2900 XL Technical Specs](https://www.cisco.com/en/US/docs/switches/lan/catalyst2900xl_3500xl/releasesa6/hig/2900xl/matechsp_external_docbase_0900e4b18042dc1f_4container_external_docbase_0900e4b18042ef55.html)'
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 30
+interfaces:
+  - name: FastEthernet0/1
+    type: 100base-tx
+  - name: FastEthernet0/2
+    type: 100base-tx
+  - name: FastEthernet0/3
+    type: 100base-tx
+  - name: FastEthernet0/4
+    type: 100base-tx
+  - name: FastEthernet0/5
+    type: 100base-tx
+  - name: FastEthernet0/6
+    type: 100base-tx
+  - name: FastEthernet0/7
+    type: 100base-tx
+  - name: FastEthernet0/8
+    type: 100base-tx
+  - name: FastEthernet0/9
+    type: 100base-tx
+  - name: FastEthernet0/10
+    type: 100base-tx
+  - name: FastEthernet0/11
+    type: 100base-tx
+  - name: FastEthernet0/12
+    type: 100base-tx
+  - name: FastEthernet0/13
+    type: 100base-tx
+  - name: FastEthernet0/14
+    type: 100base-tx
+  - name: FastEthernet0/15
+    type: 100base-tx
+  - name: FastEthernet0/16
+    type: 100base-tx
+  - name: FastEthernet0/17
+    type: 100base-tx
+  - name: FastEthernet0/18
+    type: 100base-tx
+  - name: FastEthernet0/19
+    type: 100base-tx
+  - name: FastEthernet0/20
+    type: 100base-tx
+  - name: FastEthernet0/21
+    type: 100base-tx
+  - name: FastEthernet0/22
+    type: 100base-tx
+  - name: FastEthernet0/23
+    type: 100base-tx
+  - name: FastEthernet0/24
+    type: 100base-tx
