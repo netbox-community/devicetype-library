@@ -20,28 +20,16 @@ interfaces:
     description: 1 RJ45 1 GbE Dedicated BMC LAN port
 
 power-ports:
-  - name: PSU1
+  - name: PSU 01
     type: iec-60320-c20
     maximum_draw: 6600
-  - name: PSU2
+  - name: PSU 02
     type: iec-60320-c20
     maximum_draw: 6600
-  - name: PSU3
+  - name: PSU 03
     type: iec-60320-c20
     maximum_draw: 6600
-  - name: PSU4
-    type: iec-60320-c20
-    maximum_draw: 6600
-  - name: PSU5
-    type: iec-60320-c20
-    maximum_draw: 6600
-  - name: PSU6
-    type: iec-60320-c20
-    maximum_draw: 6600
-  - name: PSU7
-    type: iec-60320-c20
-    maximum_draw: 6600
-  - name: PSU8
+  - name: PSU 04
     type: iec-60320-c20
     maximum_draw: 6600
 

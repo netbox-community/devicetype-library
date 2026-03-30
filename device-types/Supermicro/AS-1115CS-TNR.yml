@@ -14,15 +14,11 @@ weight: 11.3
 weight_unit: kg
 airflow: front-to-rear
 
-console-ports:
-  - name: Serial
-    type: de-9
-
 power-ports:
-  - name: PSU1
+  - name: PSU 01
     type: iec-60320-c14
     maximum_draw: 860
-  - name: PSU2
+  - name: PSU 02
     type: iec-60320-c14
     maximum_draw: 860
 
@@ -30,48 +26,72 @@ interfaces:
   - name: BMC
     type: 1000base-t
     mgmt_only: true
-    description: Dedicated IPMI LAN port
-
-module-bays:
-  - name: Slot 1
-    position: "1"
-    description: PCIe 5.0 x16 slot (full-height, full-length)
-  - name: Slot 2
-    position: "2"
-    description: PCIe 5.0 x16 slot (full-height, full-length)
-  - name: Slot A1
-    position: A1
-    description: PCIe 5.0 x16 slot (AIOM)
-  - name: Slot A2
-    position: A2
-    description: PCIe 5.0 x16 slot (AIOM)
-  - name: PSU1
-    position: "1"
-    description: Left power supply unit
-  - name: PSU2
-    position: "2"
-    description: Right power supply unit
+    description: 1 RJ45 1 GbE Dedicated BMC LAN port
 
 inventory-items:
-  - name: Drive Bay 00
+  - name: Power Supply 01
+    role: Power Supply
+  - name: Power Supply 02
+    role: Power Supply
+
+  - name: Motherboard
+    role: Motherboard
+    manufacturer: Supermicro
+    description: Super H13SSW
+
+  - name: CPU
+    role: CPU
+    manufacturer: Advanced Micro Devices
+
+  - name: GPU 01
+    role: GPU
+  - name: GPU 02
+    role: GPU
+
+  - name: Memory 01
+    role: Memory
+  - name: Memory 02
+    role: Memory
+  - name: Memory 03
+    role: Memory
+  - name: Memory 04
+    role: Memory
+  - name: Memory 05
+    role: Memory
+  - name: Memory 06
+    role: Memory
+  - name: Memory 07
+    role: Memory
+  - name: Memory 08
+    role: Memory
+  - name: Memory 09
+    role: Memory
+  - name: Memory 10
+    role: Memory
+  - name: Memory 11
+    role: Memory
+  - name: Memory 12
+    role: Memory
+
+  - name: Drive 00
     role: Storage
-  - name: Drive Bay 01
+  - name: Drive 01
     role: Storage
-  - name: Drive Bay 02
+  - name: Drive 02
     role: Storage
-  - name: Drive Bay 03
+  - name: Drive 03
     role: Storage
-  - name: Drive Bay 04
+  - name: Drive 04
     role: Storage
-  - name: Drive Bay 05
+  - name: Drive 05
     role: Storage
-  - name: Drive Bay 06
+  - name: Drive 06
     role: Storage
-  - name: Drive Bay 07
+  - name: Drive 07
     role: Storage
-  - name: Drive Bay 08
+  - name: Drive 08
     role: Storage
-  - name: Drive Bay 09
+  - name: Drive 09
     role: Storage
-  - name: Drive Bay 10
+  - name: Drive 10
     role: Storage
