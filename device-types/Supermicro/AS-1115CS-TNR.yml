@@ -12,6 +12,15 @@ airflow: front-to-rear
 console-ports:
   - name: Serial
     type: de-9
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 860
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 860
+
 interfaces:
   - name: BMC
     type: 1000base-t
@@ -19,10 +28,10 @@ interfaces:
     description: Dedicated IPMI LAN port
 module-bays:
   - name: Slot 1
-    position: '1'
+    position: "1"
     description: PCIe 5.0 x16 slot (full-height, full-length)
   - name: Slot 2
-    position: '2'
+    position: "2"
     description: PCIe 5.0 x16 slot (full-height, full-length)
   - name: Slot A1
     position: A1
@@ -31,8 +40,32 @@ module-bays:
     position: A2
     description: PCIe 5.0 x16 slot (AIOM)
   - name: PSU1
-    position: '1'
+    position: "1"
     description: Left power supply unit
   - name: PSU2
-    position: '2'
+    position: "2"
     description: Right power supply unit
+
+inventory-items:
+  - name: Drive Bay 00
+    role: Storage
+  - name: Drive Bay 01
+    role: Storage
+  - name: Drive Bay 02
+    role: Storage
+  - name: Drive Bay 03
+    role: Storage
+  - name: Drive Bay 04
+    role: Storage
+  - name: Drive Bay 05
+    role: Storage
+  - name: Drive Bay 06
+    role: Storage
+  - name: Drive Bay 07
+    role: Storage
+  - name: Drive Bay 08
+    role: Storage
+  - name: Drive Bay 09
+    role: Storage
+  - name: Drive Bay 10
+    role: Storage
