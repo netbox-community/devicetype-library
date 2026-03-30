@@ -4,16 +4,20 @@ model: PowerEdge R740xd
 slug: dell-poweredge-r740xd
 u_height: 2
 is_full_depth: true
+
 comments: |
-  [Dell R740xd Data Sheet](https://www.dell.com/learn/yu/en/yupad1/shared-content~data-sheets~en/documents~poweredge-r740xd-spec-sheet.pdf)
+  [Dell R740xd Data Sheet](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/poweredge-r740xd-spec-sheet.pdf)
+
 console-ports:
   - name: Serial
     type: de-9
+
 power-ports:
   - name: Power 1
     type: iec-60320-c14
   - name: Power 2
     type: iec-60320-c14
+
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
@@ -26,3 +30,114 @@ interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+
+inventory-items:
+  - name: Power Supply 01
+    role: Power Supply
+  - name: Power Supply 02
+    role: Power Supply
+
+  - name: CPU 01
+    role: CPU
+    description: Intel Xeon Processor (Up to 28 cores)
+  - name: CPU 02
+    role: CPU
+    description: Intel Xeon Processor (Up to 28 cores)
+
+  - name: Memory 01
+    role: Memory
+  - name: Memory 02
+    role: Memory
+  - name: Memory 03
+    role: Memory
+  - name: Memory 04
+    role: Memory
+  - name: Memory 05
+    role: Memory
+  - name: Memory 06
+    role: Memory
+  - name: Memory 07
+    role: Memory
+  - name: Memory 08
+    role: Memory
+  - name: Memory 09
+    role: Memory
+  - name: Memory 10
+    role: Memory
+  - name: Memory 11
+    role: Memory
+  - name: Memory 12
+    role: Memory
+  - name: Memory 13
+    role: Memory
+  - name: Memory 14
+    role: Memory
+  - name: Memory 15
+    role: Memory
+  - name: Memory 16
+    role: Memory
+  - name: Memory 17
+    role: Memory
+  - name: Memory 18
+    role: Memory
+  - name: Memory 19
+    role: Memory
+  - name: Memory 20
+    role: Memory
+  - name: Memory 21
+    role: Memory
+  - name: Memory 22
+    role: Memory
+  - name: Memory 23
+    role: Memory
+  - name: Memory 24
+    role: Memory
+
+  - name: Drive 01
+    role: Storage
+  - name: Drive 02
+    role: Storage
+  - name: Drive 03
+    role: Storage
+  - name: Drive 04
+    role: Storage
+  - name: Drive 05
+    role: Storage
+  - name: Drive 06
+    role: Storage
+  - name: Drive 07
+    role: Storage
+  - name: Drive 08
+    role: Storage
+  - name: Drive 09
+    role: Storage
+  - name: Drive 10
+    role: Storage
+  - name: Drive 11
+    role: Storage
+  - name: Drive 12
+    role: Storage
+  - name: Drive 13
+    role: Storage
+  - name: Drive 14
+    role: Storage
+  - name: Drive 15
+    role: Storage
+  - name: Drive 16
+    role: Storage
+  - name: Drive 17
+    role: Storage
+  - name: Drive 18
+    role: Storage
+  - name: Drive 19
+    role: Storage
+  - name: Drive 20
+    role: Storage
+  - name: Drive 21
+    role: Storage
+  - name: Drive 22
+    role: Storage
+  - name: Drive 23
+    role: Storage
+  - name: Drive 24
+    role: Storage
