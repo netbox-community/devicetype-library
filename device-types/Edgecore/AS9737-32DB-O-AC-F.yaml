@@ -20,23 +20,32 @@ console-ports:
   - name: Console (Micro-USB)
     type: micro-usb
 
-module-bays:
-  - name: PSU1
-    position: "1"
-  - name: PSU2
-    position: "2"
-  - name: Fan Module Slot 1
-    position: "1"
-  - name: Fan Module Slot 2
-    position: "2"
-  - name: Fan Module Slot 3
-    position: "3"
-  - name: Fan Module Slot 4
-    position: "4"
-  - name: Fan Module Slot 5
-    position: "5"
-  - name: Fan Module Slot 6
-    position: "6"
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c13
+    maximum_draw: 1370
+  - name: PSU 02
+    type: iec-60320-c13
+    maximum_draw: 1370
+
+inventory-items:
+  - name: Power Supply 01
+    role: Power Supply
+  - name: Power Supply 02
+    role: Power Supply
+
+  - name: Fan 01
+    role: Fan
+  - name: Fan 02
+    role: Fan
+  - name: Fan 03
+    role: Fan
+  - name: Fan 04
+    role: Fan
+  - name: Fan 05
+    role: Fan
+  - name: Fan 06
+    role: Fan
 
 interfaces:
   - name: Management
