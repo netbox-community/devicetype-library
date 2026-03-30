@@ -1,0 +1,119 @@
+---
+manufacturer: Supermicro
+model: AS-2115HS-TNR
+slug: supermicro-as-2115hs-tnr
+part_number: AS-2115HS-TNR
+comments: >
+  [Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-2115hs-tnr)"
+
+u_height: 2
+is_full_depth: true
+
+weight: 17.7
+weight_unit: kg
+airflow: front-to-rear
+
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC LAN port
+
+module-bays:
+  - name: AIOM Slot
+    description: PCIe 5.0 x16 AIOM slot (OCP 3.0 compatible)
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1600
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1600
+
+inventory-items:
+  - name: Power Supply 1
+    role: Power Supply
+    is_replaceable: true
+  - name: Power Supply 2
+    role: Power Supply
+    is_replaceable: true
+
+  - name: Fan 1
+    role: Fan
+    description: 8cm heavy duty fan
+  - name: Fan 2
+    role: Fan
+    description: 8cm heavy duty fan
+  - name: Fan 3
+    role: Fan
+    description: 8cm heavy duty fan
+  - name: Fan 4
+    role: Fan
+    description: 8cm heavy duty fan
+
+  - name: Node 1
+    label: Compute Node 1
+  - name: Node 2
+    label: Compute Node 2
+  - name: Node 3
+    label: Compute Node 3
+  - name: Node 4
+    label: Compute Node 4
+  - name: Node 5
+    label: Compute Node 5
+  - name: Node 6
+    label: Compute Node 6
+  - name: Node 7
+    label: Compute Node 7
+  - name: Node 8
+    label: Compute Node 8
+
+  - name: Drive Bay 00
+    role: Storage
+  - name: Drive Bay 01
+    role: Storage
+  - name: Drive Bay 02
+    role: Storage
+  - name: Drive Bay 03
+    role: Storage
+  - name: Drive Bay 04
+    role: Storage
+  - name: Drive Bay 05
+    role: Storage
+  - name: Drive Bay 06
+    role: Storage
+  - name: Drive Bay 07
+    role: Storage
+  - name: Drive Bay 08
+    role: Storage
+  - name: Drive Bay 09
+    role: Storage
+  - name: Drive Bay 10
+    role: Storage
+  - name: Drive Bay 11
+    role: Storage
+  - name: Drive Bay 12
+    role: Storage
+  - name: Drive Bay 13
+    role: Storage
+  - name: Drive Bay 14
+    role: Storage
+  - name: Drive Bay 15
+    role: Storage
+  - name: Drive Bay 16
+    role: Storage
+  - name: Drive Bay 17
+    role: Storage
+  - name: Drive Bay 18
+    role: Storage
+  - name: Drive Bay 19
+    role: Storage
+  - name: Drive Bay 20
+    role: Storage
+  - name: Drive Bay 21
+    role: Storage
+  - name: Drive Bay 22
+    role: Storage
+  - name: Drive Bay 23
+    role: Storage
