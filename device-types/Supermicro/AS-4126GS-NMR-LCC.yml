@@ -1,0 +1,166 @@
+---
+manufacturer: Supermicro
+model: AS-4126GS-NMR-LCC
+slug: supermicro-as-4126gs-nmr-lcc
+part_number: AS-4126GS-NMR-LCC
+comments: >
+  [Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-4126gs-nmr-lcc)
+
+u_height: 4
+is_full_depth: true
+
+weight: 53
+weight_unit: kg
+airflow: front-to-rear
+
+interfaces:
+  - name: BMC LAN
+    type: 1000base-t
+    mgmt_only: true
+    description: 1 RJ45 1 GbE Dedicated BMC LAN port
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU5
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU6
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU7
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU8
+    type: iec-60320-c20
+    maximum_draw: 6600
+
+inventory-items:
+  - name: Motherboard
+    role: Motherboard
+    manufacturer: Supermicro
+    description: Super H14DSG-OD
+
+  - name: CPU
+    role: CPU
+    manufacturer: Advanced Micro Devices
+
+  - name: GPU 01
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 02
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 03
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 04
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 05
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 06
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 07
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+  - name: GPU 08
+    role: GPU
+    manufacturer: Advanced Micro Devices
+    description: AMD Instinct MI325X GPU
+
+  - name: Power Supply 01
+    role: Power Supply
+  - name: Power Supply 02
+    role: Power Supply
+  - name: Power Supply 03
+    role: Power Supply
+  - name: Power Supply 04
+    role: Power Supply
+
+  - name: Drive 00
+    role: Storage
+  - name: Drive 01
+    role: Storage
+  - name: Drive 02
+    role: Storage
+  - name: Drive 03
+    role: Storage
+  - name: Drive 04
+    role: Storage
+  - name: Drive 05
+    role: Storage
+  - name: Drive 06
+    role: Storage
+  - name: Drive 07
+    role: Storage
+  - name: Drive 08
+    role: Storage
+
+  - name: Memory 01
+    role: Memory
+  - name: Memory 02
+    role: Memory
+  - name: Memory 03
+    role: Memory
+  - name: Memory 04
+    role: Memory
+  - name: Memory 05
+    role: Memory
+  - name: Memory 06
+    role: Memory
+  - name: Memory 07
+    role: Memory
+  - name: Memory 08
+    role: Memory
+  - name: Memory 09
+    role: Memory
+  - name: Memory 10
+    role: Memory
+  - name: Memory 11
+    role: Memory
+  - name: Memory 12
+    role: Memory
+  - name: Memory 13
+    role: Memory
+  - name: Memory 14
+    role: Memory
+  - name: Memory 15
+    role: Memory
+  - name: Memory 16
+    role: Memory
+  - name: Memory 17
+    role: Memory
+  - name: Memory 18
+    role: Memory
+  - name: Memory 19
+    role: Memory
+  - name: Memory 20
+    role: Memory
+  - name: Memory 21
+    role: Memory
+  - name: Memory 22
+    role: Memory
+  - name: Memory 23
+    role: Memory
+  - name: Memory 24
+    role: Memory
