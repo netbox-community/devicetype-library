@@ -1,0 +1,101 @@
+---
+manufacturer: Juniper
+model: SRX4700
+slug: juniper-srx4700
+u_height: 1
+weight: 14.9
+weight_unit: kg
+airflow: front-to-rear
+is_full_depth: true
+comments: >
+  [Juniper SRX4700 Data Sheet](https://www.hpe.com/psnow/doc/a00150839enw)
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+interfaces:
+  - name: Port 1
+    type: 400gbase-qsfpdd
+  - name: Port 2
+    type: 400gbase-qsfpdd
+
+  - name: Port 3
+    type: 100gbase-qsfp28
+  - name: Port 4
+    type: 100gbase-qsfp28
+  - name: Port 5
+    type: 100gbase-qsfp28
+  - name: Port 6
+    type: 100gbase-qsfp28
+  - name: Port 7
+    type: 100gbase-qsfp28
+  - name: Port 8
+    type: 100gbase-qsfp28
+  - name: Port 9
+    type: 100gbase-qsfp28
+  - name: Port 10
+    type: 100gbase-qsfp28
+  - name: Port 11
+    type: 100gbase-qsfp28
+  - name: Port 12
+    type: 100gbase-qsfp28
+
+  - name: Port 13
+    type: 50gbase-sfp56
+  - name: Port 14
+    type: 50gbase-sfp56
+  - name: Port 15
+    type: 50gbase-sfp56
+  - name: Port 16
+    type: 50gbase-sfp56
+  - name: Port 17
+    type: 50gbase-sfp56
+  - name: Port 18
+    type: 50gbase-sfp56
+  - name: Port 19
+    type: 50gbase-sfp56
+  - name: Port 20
+    type: 50gbase-sfp56
+  - name: Port 21
+    type: 50gbase-sfp56
+  - name: Port 22
+    type: 50gbase-sfp56
+  - name: Port 23
+    type: 50gbase-sfp56
+  - name: Port 24
+    type: 50gbase-sfp56
+  - name: Port 25
+    type: 50gbase-sfp56
+  - name: Port 26
+    type: 50gbase-sfp56
+  - name: Port 27
+    type: 50gbase-sfp56
+  - name: Port 28
+    type: 50gbase-sfp56
+
+  - name: OOB
+    type: 1000base-t
+  - name: HA Control
+    type: 1000base-t
+  - name: HA Data
+    type: 1000base-t
+
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c20
+    maximum_draw: 1100
+  - name: PSU 02
+    type: iec-60320-c20
+    maximum_draw: 1100
+
+inventory-items:
+  - name: Power Supply 01
+    role: Power Supply
+  - name: Power Supply 02
+    role: Power Supply
+
+  - name: Drive 01
+    role: Storage
+  - name: Drive 02
+    role: Storage
