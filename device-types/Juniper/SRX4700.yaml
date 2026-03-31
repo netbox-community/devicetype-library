@@ -89,13 +89,13 @@ power-ports:
     type: iec-60320-c20
     maximum_draw: 1100
 
-inventory-items:
-  - name: Power Supply 01
-    role: Power Supply
-  - name: Power Supply 02
-    role: Power Supply
+module-bays:
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
 
   - name: Drive 01
-    role: Storage
+    position: Storage Slot 1
   - name: Drive 02
-    role: Storage
+    position: Storage Slot 2
