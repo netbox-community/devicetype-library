@@ -28,24 +28,24 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 1370
 
-inventory-items:
-  - name: Power Supply 01
-    role: Power Supply
-  - name: Power Supply 02
-    role: Power Supply
+module-bays:
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
 
   - name: Fan 01
-    role: Fan
+    position: Fan Slot 1
   - name: Fan 02
-    role: Fan
+    position: Fan Slot 2
   - name: Fan 03
-    role: Fan
+    position: Fan Slot 3
   - name: Fan 04
-    role: Fan
+    position: Fan Slot 4
   - name: Fan 05
-    role: Fan
+    position: Fan Slot 5
   - name: Fan 06
-    role: Fan
+    position: Fan Slot 6
 
 interfaces:
   - name: Management
