@@ -1,0 +1,33 @@
+---
+manufacturer: NetApp
+model: AFF-C30 Controller
+slug: netapp-aff-c30-001
+description: AFF C30 HA System Controller
+part_number: AFF-C30-001
+u_height: 0.0
+is_full_depth: true
+subdevice_role: child
+console-ports:
+  - name: IOIOI
+    type: rj-45
+interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+rear-ports:
+  - name: IOIOI
+    type: usb-c
+    positions: 1
+module-bays:
+  - name: IOExpansion 1
+    position: '1'
+    description: IOModuleHotSwappable 1
+  - name: IOExpansion 2
+    position: '2'
+    description: IOModuleHotSwappable 2
+  - name: IOExpansion 3
+    position: '3'
+    description: IOModuleHotSwappable 3
+  - name: IOExpansion 4
+    position: '4'
+    description: IOModuleHotSwappable 4
