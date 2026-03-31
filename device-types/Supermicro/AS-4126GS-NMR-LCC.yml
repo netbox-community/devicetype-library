@@ -37,122 +37,112 @@ power-ports:
     type: iec-60320-c20
     maximum_draw: 6600
 
-inventory-items:
+module-bays:
   - name: Motherboard
-    role: Motherboard
-    manufacturer: Supermicro
+    position: Motherboard Slot 1
     description: Super H14DSG-OD
 
   - name: CPU
-    role: CPU
-    manufacturer: Advanced Micro Devices
+    position: CPU Slot 1
 
   - name: GPU 01
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 1
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 02
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 2
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 03
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 3
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 04
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 4
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 05
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 5
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 06
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 6
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 07
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 7
+    description: AMD Instinct MI325X/MI355X GPU
   - name: GPU 08
-    role: GPU
-    manufacturer: Advanced Micro Devices
-    description: AMD Instinct MI325X GPU
+    position: GPU Slot 8
+    description: AMD Instinct MI325X/MI355X GPU
 
-  - name: Power Supply 01
-    role: Power Supply
-  - name: Power Supply 02
-    role: Power Supply
-  - name: Power Supply 03
-    role: Power Supply
-  - name: Power Supply 04
-    role: Power Supply
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
+  - name: PSU 03
+    position: PSU Slot 3
+  - name: PSU 04
+    position: PSU Slot 4
 
   - name: Drive 00
-    role: Storage
+    position: Storage Slot 1
   - name: Drive 01
-    role: Storage
+    position: Storage Slot 2
   - name: Drive 02
-    role: Storage
+    position: Storage Slot 3
   - name: Drive 03
-    role: Storage
+    position: Storage Slot 4
   - name: Drive 04
-    role: Storage
+    position: Storage Slot 5
   - name: Drive 05
-    role: Storage
+    position: Storage Slot 6
   - name: Drive 06
-    role: Storage
+    position: Storage Slot 7
   - name: Drive 07
-    role: Storage
+    position: Storage Slot 8
   - name: Drive 08
-    role: Storage
+    position: Storage
 
   - name: Memory 01
-    role: Memory
+    position: Memory Slot 1
   - name: Memory 02
-    role: Memory
+    position: Memory Slot 2
   - name: Memory 03
-    role: Memory
+    position: Memory Slot 3
   - name: Memory 04
-    role: Memory
+    position: Memory Slot 4
   - name: Memory 05
-    role: Memory
+    position: Memory Slot 5
   - name: Memory 06
-    role: Memory
+    position: Memory Slot 6
   - name: Memory 07
-    role: Memory
+    position: Memory Slot 7
   - name: Memory 08
-    role: Memory
+    position: Memory Slot 8
   - name: Memory 09
-    role: Memory
+    position: Memory Slot 9
   - name: Memory 10
-    role: Memory
+    position: Memory Slot 10
   - name: Memory 11
-    role: Memory
+    position: Memory Slot 11
   - name: Memory 12
-    role: Memory
+    position: Memory Slot 12
   - name: Memory 13
-    role: Memory
+    position: Memory Slot 13
   - name: Memory 14
-    role: Memory
+    position: Memory Slot 14
   - name: Memory 15
-    role: Memory
+    position: Memory Slot 15
   - name: Memory 16
-    role: Memory
+    position: Memory Slot 16
   - name: Memory 17
-    role: Memory
+    position: Memory Slot 17
   - name: Memory 18
-    role: Memory
+    position: Memory Slot 18
   - name: Memory 19
-    role: Memory
+    position: Memory Slot 19
   - name: Memory 20
-    role: Memory
+    position: Memory Slot 20
   - name: Memory 21
-    role: Memory
+    position: Memory Slot 21
   - name: Memory 22
-    role: Memory
+    position: Memory Slot 22
   - name: Memory 23
-    role: Memory
+    position: Memory Slot 23
   - name: Memory 24
-    role: Memory
+    position: Memory Slot 24
