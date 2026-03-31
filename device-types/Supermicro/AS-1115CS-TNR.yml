@@ -28,70 +28,67 @@ interfaces:
     mgmt_only: true
     description: 1 RJ45 1 GbE Dedicated BMC LAN port
 
-inventory-items:
-  - name: Power Supply 01
-    role: Power Supply
-  - name: Power Supply 02
-    role: Power Supply
+module-bays:
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
 
   - name: Motherboard
-    role: Motherboard
-    manufacturer: Supermicro
-    description: Super H13SSW
+    position: Motherboard Slot 1
 
   - name: CPU
-    role: CPU
-    manufacturer: Advanced Micro Devices
+    position: CPU Slot 1
 
   - name: GPU 01
-    role: GPU
+    position: GPU Slot 1
   - name: GPU 02
-    role: GPU
+    position: GPU Slot 2
 
   - name: Memory 01
-    role: Memory
+    position: Memory Slot 1
   - name: Memory 02
-    role: Memory
+    position: Memory Slot 2
   - name: Memory 03
-    role: Memory
+    position: Memory Slot 3
   - name: Memory 04
-    role: Memory
+    position: Memory Slot 4
   - name: Memory 05
-    role: Memory
+    position: Memory Slot 5
   - name: Memory 06
-    role: Memory
+    position: Memory Slot 6
   - name: Memory 07
-    role: Memory
+    position: Memory Slot 7
   - name: Memory 08
-    role: Memory
+    position: Memory Slot 8
   - name: Memory 09
-    role: Memory
+    position: Memory Slot 9
   - name: Memory 10
-    role: Memory
+    position: Memory Slot 10
   - name: Memory 11
-    role: Memory
+    position: Memory Slot 11
   - name: Memory 12
-    role: Memory
+    position: Memory Slot 12
 
   - name: Drive 00
-    role: Storage
+    position: Storage Slot 1
   - name: Drive 01
-    role: Storage
+    position: Storage Slot 2
   - name: Drive 02
-    role: Storage
+    position: Storage Slot 3
   - name: Drive 03
-    role: Storage
+    position: Storage Slot 4
   - name: Drive 04
-    role: Storage
+    position: Storage Slot 5
   - name: Drive 05
-    role: Storage
+    position: Storage Slot 6
   - name: Drive 06
-    role: Storage
+    position: Storage Slot 7
   - name: Drive 07
-    role: Storage
+    position: Storage Slot 8
   - name: Drive 08
-    role: Storage
+    position: Storage Slot 9
   - name: Drive 09
-    role: Storage
+    position: Storage Slot 10
   - name: Drive 10
-    role: Storage
+    position: Storage Slot 11
