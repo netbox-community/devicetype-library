@@ -14,10 +14,14 @@ weight_unit: kg
 airflow: front-to-rear
 
 interfaces:
-  - name: BMC LAN
+  - name: BMC
     type: 1000base-t
     mgmt_only: true
     description: 1 RJ45 1 GbE Dedicated BMC LAN port
+
+  - name: vpc0
+    type: virtual
+    description: VPCIP
 
 power-ports:
   - name: PSU 01
