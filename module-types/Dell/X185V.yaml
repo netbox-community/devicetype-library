@@ -1,0 +1,16 @@
+---
+profile: Power supply
+manufacturer: Dell
+model: X185V
+part_number: X185V
+description: Dell PE Hot Swap 550W Power Supply
+airflow: front-to-rear
+attribute_data:
+  wattage: 550
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 550
