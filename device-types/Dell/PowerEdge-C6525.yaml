@@ -23,33 +23,40 @@ interfaces:
     description: Embedded Single port 1GbE LOM
 
 module-bays:
-  - name: OCP Slot
+  # OCP Slot
+  - name: OCP
+    position: OCP Slot 1
     description: 1x OCP 3.0 x16 Gen4 Networking Slot
 
-inventory-items:
   # Processors
   - name: CPU 01
-    role: CPU
+    position: CPU Slot 1
     description: AMD EPYC Processor (Up to 64 cores)
   - name: CPU 02
-    role: CPU
+    position: CPU Slot 2
     description: AMD EPYC Processor (Up to 64 cores)
 
   # GPU
   - name: GPU 01
-    role: GPU
+    position: GPU Slot 1
     description: 1x Single-Wide GPU support
 
   # 6x Direct Backplane Drive Bays per Node
   - name: Drive 01
-    role: Storage
+    position: Drive Slot 1
+    description: 1x 2.5" Drive Bay
   - name: Drive 02
-    role: Storage
+    position: Drive Slot 2
+    description: 1x 2.5" Drive Bay
   - name: Drive 03
-    role: Storage
+    position: Drive Slot 3
+    description: 1x 2.5" Drive Bay
   - name: Drive 04
-    role: Storage
+    position: Drive Slot 4
+    description: 1x 2.5" Drive Bay
   - name: Drive 05
-    role: Storage
+    position: Drive Slot 5
+    description: 1x 2.5" Drive Bay
   - name: Drive 06
-    role: Storage
+    position: Drive Slot 6
+    description: 1x 2.5" Drive Bay
