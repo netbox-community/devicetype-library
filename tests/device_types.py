@@ -208,6 +208,22 @@ class RackType:
             slugified = slugified[:-1]
         return slugified
 
+class PlatformType:
+    def __new__(cls, *args, **kwargs):
+        return super().__new__(cls)
+
+    def __init__(self, definition, file_path, change_type):
+        self.file_path = file_path
+        self.isDevice = False
+        self.definition = definition
+        self.manufacturer = definition.get('manufacturer')
+        self.name = definition.get('name')
+        self.slug = definition.get('slug')
+        self.change_type = change_type
+
+    def get_filepath(self):
+        return self.file_path
+
 def validate_component_names(component_names: (set or None)):
     if len(component_names) > 1:
         verify_name = list(component_names[0])

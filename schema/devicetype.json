@@ -115,6 +115,11 @@
         },
         "comments": {
             "type": "string"
+        },
+        "default_platform": {
+            "type": "string",
+            "maxLength": 100,
+            "pattern": "^[-a-zA-Z0-9_]+$"
         }
     },
     "allOf": [

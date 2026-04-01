@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "$id": "urn:devicetype-library:platform-type",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+        "manufacturer": {
+            "type": "string",
+            "maxLength": 100
+        },
+        "name": {
+            "type": "string",
+            "maxLength": 100
+        },
+        "slug": {
+            "type": "string",
+            "maxLength": 100,
+            "pattern": "^[-a-zA-Z0-9_]+$"
+        },
+        "description": {
+            "type": "string",
+            "maxLength": 200
+        }
+    },
+    "required": ["manufacturer", "name", "slug"],
+    "additionalProperties": false
+}
