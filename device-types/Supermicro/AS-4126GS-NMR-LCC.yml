@@ -24,16 +24,28 @@ interfaces:
     description: VPCIP
 
 power-ports:
-  - name: PSU 01
+  - name: PSU 01 - Left
     type: iec-60320-c20
     maximum_draw: 6600
-  - name: PSU 02
+  - name: PSU 01 - Right
     type: iec-60320-c20
     maximum_draw: 6600
-  - name: PSU 03
+  - name: PSU 02 - Left
     type: iec-60320-c20
     maximum_draw: 6600
-  - name: PSU 04
+  - name: PSU 02 - Right
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU 03 - Left
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU 03 - Right
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU 04 - Left
+    type: iec-60320-c20
+    maximum_draw: 6600
+  - name: PSU 04 - Right
     type: iec-60320-c20
     maximum_draw: 6600
 
