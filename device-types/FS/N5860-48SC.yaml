@@ -8,128 +8,136 @@ is_full_depth: true
 airflow: front-to-rear
 front_image: true
 rear_image: true
+weight: 8
+weight_unit: kg
 console-ports:
   - name: Management
     type: rj-45
-power-ports:
-  - name: Slot 1
-    type: iec-60320-c14
-    maximum_draw: 37
-    allocated_draw: 24
-  - name: Slot 2
-    type: iec-60320-c14
-    maximum_draw: 37
-    allocated_draw: 24
+  - name: USB Console
+    type: usb-a
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
+  - name: FAN 1
+    position: FAN1
+  - name: FAN 2
+    position: FAN2
+  - name: FAN 3
+    position: FAN3
+  - name: FAN 4
+    position: FAN4
 interfaces:
-  - name: Te0/1
+  - name: TenGigabitEthernet0/1
     type: 10gbase-x-sfpp
-  - name: Te0/2
+  - name: TenGigabitEthernet0/2
     type: 10gbase-x-sfpp
-  - name: Te0/3
+  - name: TenGigabitEthernet0/3
     type: 10gbase-x-sfpp
-  - name: Te0/4
+  - name: TenGigabitEthernet0/4
     type: 10gbase-x-sfpp
-  - name: Te0/5
+  - name: TenGigabitEthernet0/5
     type: 10gbase-x-sfpp
-  - name: Te0/6
+  - name: TenGigabitEthernet0/6
     type: 10gbase-x-sfpp
-  - name: Te0/7
+  - name: TenGigabitEthernet0/7
     type: 10gbase-x-sfpp
-  - name: Te0/8
+  - name: TenGigabitEthernet0/8
     type: 10gbase-x-sfpp
-  - name: Te0/9
+  - name: TenGigabitEthernet0/9
     type: 10gbase-x-sfpp
-  - name: Te0/10
+  - name: TenGigabitEthernet0/10
     type: 10gbase-x-sfpp
-  - name: Te0/11
+  - name: TenGigabitEthernet0/11
     type: 10gbase-x-sfpp
-  - name: Te0/12
+  - name: TenGigabitEthernet0/12
     type: 10gbase-x-sfpp
-  - name: Te0/13
+  - name: TenGigabitEthernet0/13
     type: 10gbase-x-sfpp
-  - name: Te0/14
+  - name: TenGigabitEthernet0/14
     type: 10gbase-x-sfpp
-  - name: Te0/15
+  - name: TenGigabitEthernet0/15
     type: 10gbase-x-sfpp
-  - name: Te0/16
+  - name: TenGigabitEthernet0/16
     type: 10gbase-x-sfpp
-  - name: Te0/17
+  - name: TenGigabitEthernet0/17
     type: 10gbase-x-sfpp
-  - name: Te0/18
+  - name: TenGigabitEthernet0/18
     type: 10gbase-x-sfpp
-  - name: Te0/19
+  - name: TenGigabitEthernet0/19
     type: 10gbase-x-sfpp
-  - name: Te0/20
+  - name: TenGigabitEthernet0/20
     type: 10gbase-x-sfpp
-  - name: Te0/21
+  - name: TenGigabitEthernet0/21
     type: 10gbase-x-sfpp
-  - name: Te0/22
+  - name: TenGigabitEthernet0/22
     type: 10gbase-x-sfpp
-  - name: Te0/23
+  - name: TenGigabitEthernet0/23
     type: 10gbase-x-sfpp
-  - name: Te0/24
+  - name: TenGigabitEthernet0/24
     type: 10gbase-x-sfpp
-  - name: Te0/25
+  - name: TenGigabitEthernet0/25
     type: 10gbase-x-sfpp
-  - name: Te0/26
+  - name: TenGigabitEthernet0/26
     type: 10gbase-x-sfpp
-  - name: Te0/27
+  - name: TenGigabitEthernet0/27
     type: 10gbase-x-sfpp
-  - name: Te0/28
+  - name: TenGigabitEthernet0/28
     type: 10gbase-x-sfpp
-  - name: Te0/29
+  - name: TenGigabitEthernet0/29
     type: 10gbase-x-sfpp
-  - name: Te0/30
+  - name: TenGigabitEthernet0/30
     type: 10gbase-x-sfpp
-  - name: Te0/31
+  - name: TenGigabitEthernet0/31
     type: 10gbase-x-sfpp
-  - name: Te0/32
+  - name: TenGigabitEthernet0/32
     type: 10gbase-x-sfpp
-  - name: Te0/33
+  - name: TenGigabitEthernet0/33
     type: 10gbase-x-sfpp
-  - name: Te0/34
+  - name: TenGigabitEthernet0/34
     type: 10gbase-x-sfpp
-  - name: Te0/35
+  - name: TenGigabitEthernet0/35
     type: 10gbase-x-sfpp
-  - name: Te0/36
+  - name: TenGigabitEthernet0/36
     type: 10gbase-x-sfpp
-  - name: Te0/37
+  - name: TenGigabitEthernet0/37
     type: 10gbase-x-sfpp
-  - name: Te0/38
+  - name: TenGigabitEthernet0/38
     type: 10gbase-x-sfpp
-  - name: Te0/39
+  - name: TenGigabitEthernet0/39
     type: 10gbase-x-sfpp
-  - name: Te0/40
+  - name: TenGigabitEthernet0/40
     type: 10gbase-x-sfpp
-  - name: Te0/41
+  - name: TenGigabitEthernet0/41
     type: 10gbase-x-sfpp
-  - name: Te0/42
+  - name: TenGigabitEthernet0/42
     type: 10gbase-x-sfpp
-  - name: Te0/43
+  - name: TenGigabitEthernet0/43
     type: 10gbase-x-sfpp
-  - name: Te0/44
+  - name: TenGigabitEthernet0/44
     type: 10gbase-x-sfpp
-  - name: Te0/45
+  - name: TenGigabitEthernet0/45
     type: 10gbase-x-sfpp
-  - name: Te0/46
+  - name: TenGigabitEthernet0/46
     type: 10gbase-x-sfpp
-  - name: Te0/47
+  - name: TenGigabitEthernet0/47
     type: 10gbase-x-sfpp
-  - name: Te0/48
+  - name: TenGigabitEthernet0/48
     type: 10gbase-x-sfpp
-  - name: Hu0/49
+  - name: HundredGigabitEthernet0/49
     type: 100gbase-x-qsfp28
-  - name: Hu0/50
+  - name: HundredGigabitEthernet0/50
     type: 100gbase-x-qsfp28
-  - name: Hu0/51
+  - name: HundredGigabitEthernet0/51
     type: 100gbase-x-qsfp28
-  - name: Hu0/52
+  - name: HundredGigabitEthernet0/52
     type: 100gbase-x-qsfp28
-  - name: Hu0/53
+  - name: HundredGigabitEthernet0/53
     type: 100gbase-x-qsfp28
-  - name: Hu0/54
+  - name: HundredGigabitEthernet0/54
     type: 100gbase-x-qsfp28
-  - name: Hu0/55
+  - name: HundredGigabitEthernet0/55
     type: 100gbase-x-qsfp28
-  - name: Hu0/56
+  - name: HundredGigabitEthernet0/56
     type: 100gbase-x-qsfp28
