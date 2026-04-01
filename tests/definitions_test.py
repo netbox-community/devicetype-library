@@ -1,7 +1,7 @@
 from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from device_types import DeviceType, ModuleType, RackType, PlatformType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -188,7 +188,7 @@ def test_definitions(file_path, schema, change_type):
         # Schema validation failure. Ensure you are following the proper format.
         pytest.fail(f"{file_path} failed validation: {e}", False)
 
-    # Identify if the definition is for a Device or Module
+    # Identify if the definition is for a Device, Module, Rack, or Platform
     if "device-types" in file_path:
         # A device
         this_device = DeviceType(definition, file_path, change_type)
@@ -198,9 +198,21 @@ def test_definitions(file_path, schema, change_type):
     elif "rack-types" in file_path:
         # A rack type
         this_device = RackType(definition, file_path, change_type)
+    elif "platforms" in file_path:
+        # A platform
+        this_device = PlatformType(definition, file_path, change_type)
     else:
         # A module
         this_device = ModuleType(definition, file_path, change_type)
+
+    # Validate platform filename matches slug
+    if "platforms" in file_path:
+        platform_filename = os.path.basename(file_path).rsplit(".", 1)[0]
+        if platform_filename != definition.get('slug'):
+            pytest.fail(
+                f"{file_path}: filename '{platform_filename}' does not match slug '{definition.get('slug')}'",
+                pytrace=False,
+            )
 
     # Validate that front-ports reference existing rear-ports
     if any(x in file_path for x in ("device-types", "module-types")):
@@ -244,10 +256,12 @@ def test_definitions(file_path, schema, change_type):
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
 
     # Verify the filename is valid. Must either be the model or part_number.
-    assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)
+    if not isinstance(this_device, PlatformType):
+        assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)
 
     # Check for duplicate components within the definition
-    assert validate_components(COMPONENT_TYPES, this_device), pytest.fail(this_device.failureMessage, False)
+    if not isinstance(this_device, PlatformType):
+        assert validate_components(COMPONENT_TYPES, this_device), pytest.fail(this_device.failureMessage, False)
 
     # Check for empty quotes and fail if found
     def iterdict(var):
@@ -295,4 +309,18 @@ def test_definitions(file_path, schema, change_type):
 
             if not rear_image:
                 pytest.fail(f'{file_path} has rear_image set to True but no matching image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.rear.ext\' but only found {manufacturer_images})', False)
+
+    # Validate default_platform references an existing platform file
+    if "device-types" in file_path and definition.get('default_platform'):
+        platform_slug = definition['default_platform']
+        matching_platforms = glob.glob(f"platforms{os.path.sep}*{os.path.sep}{platform_slug}.yaml")
+        if not matching_platforms:
+            matching_platforms = glob.glob(f"platforms{os.path.sep}*{os.path.sep}{platform_slug}.yml")
+        if not matching_platforms:
+            pytest.fail(
+                f"{file_path} has default_platform '{platform_slug}' but no matching platform definition "
+                f"was found in platforms/*/. Expected file: platforms/<manufacturer>/{platform_slug}.yaml",
+                pytrace=False,
+            )
+
     iterdict(definition)
