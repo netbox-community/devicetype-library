@@ -131,6 +131,12 @@ else:
     definition_files = _get_definition_files()
 image_files = _get_image_files()
 
+# Precompute known platform slugs for default_platform cross-validation
+KNOWN_PLATFORMS = {}
+for platform_file in sorted(glob.glob(f"platforms{os.path.sep}*{os.path.sep}*.yaml")) + sorted(glob.glob(f"platforms{os.path.sep}*{os.path.sep}*.yml")):
+    platform_slug = os.path.basename(platform_file).rsplit(".", 1)[0]
+    KNOWN_PLATFORMS.setdefault(platform_slug, []).append(platform_file)
+
 if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
@@ -313,13 +319,17 @@ def test_definitions(file_path, schema, change_type):
     # Validate default_platform references an existing platform file
     if "device-types" in file_path and definition.get('default_platform'):
         platform_slug = definition['default_platform']
-        matching_platforms = glob.glob(f"platforms{os.path.sep}*{os.path.sep}{platform_slug}.yaml")
-        if not matching_platforms:
-            matching_platforms = glob.glob(f"platforms{os.path.sep}*{os.path.sep}{platform_slug}.yml")
+        matching_platforms = KNOWN_PLATFORMS.get(platform_slug, [])
         if not matching_platforms:
             pytest.fail(
                 f"{file_path} has default_platform '{platform_slug}' but no matching platform definition "
                 f"was found in platforms/*/. Expected file: platforms/<manufacturer>/{platform_slug}.yaml",
+                pytrace=False,
+            )
+        elif len(matching_platforms) > 1:
+            pytest.fail(
+                f"{file_path} has default_platform '{platform_slug}' but multiple matching platform definitions "
+                f"were found: {matching_platforms}. Platform slugs must be globally unique.",
                 pytrace=False,
             )
 
