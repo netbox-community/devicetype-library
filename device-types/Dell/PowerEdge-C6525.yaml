@@ -7,7 +7,7 @@ is_full_depth: false
 comments: >
   Dell EMC PowerEdge C6525 Compute Sled.
   Installs into a PowerEdge C6525 Chassis. (We currently don't have chassis device defined)
-  Supports dual AMD EPYC processors, 16x DDR4 DIMMs, and up to 6x 2.5" drives.
+  Supports dual AMD EPYC processors, 16x DDR4 DIMMs, and up to 24 x 2.5" drives.
 
 interfaces:
   - name: iDRAC
@@ -59,4 +59,58 @@ module-bays:
     description: 1x 2.5" Drive Bay
   - name: Drive 06
     position: Drive Slot 6
+    description: 1x 2.5" Drive Bay
+  - name: Drive 07
+    position: Drive Slot 7
+    description: 1x 2.5" Drive Bay
+  - name: Drive 08
+    position: Drive Slot 8
+    description: 1x 2.5" Drive Bay
+  - name: Drive 09
+    position: Drive Slot 9
+    description: 1x 2.5" Drive Bay
+  - name: Drive 10
+    position: Drive Slot 10
+    description: 1x 2.5" Drive Bay
+  - name: Drive 11
+    position: Drive Slot 11
+    description: 1x 2.5" Drive Bay
+  - name: Drive 12
+    position: Drive Slot 12
+    description: 1x 2.5" Drive Bay
+  - name: Drive 13
+    position: Drive Slot 13
+    description: 1x 2.5" Drive Bay
+  - name: Drive 14
+    position: Drive Slot 14
+    description: 1x 2.5" Drive Bay
+  - name: Drive 15
+    position: Drive Slot 15
+    description: 1x 2.5" Drive Bay
+  - name: Drive 16
+    position: Drive Slot 16
+    description: 1x 2.5" Drive Bay
+  - name: Drive 17
+    position: Drive Slot 17
+    description: 1x 2.5" Drive Bay
+  - name: Drive 18
+    position: Drive Slot 18
+    description: 1x 2.5" Drive Bay
+  - name: Drive 19
+    position: Drive Slot 19
+    description: 1x 2.5" Drive Bay
+  - name: Drive 20
+    position: Drive Slot 20
+    description: 1x 2.5" Drive Bay
+  - name: Drive 21
+    position: Drive Slot 21
+    description: 1x 2.5" Drive Bay
+  - name: Drive 22
+    position: Drive Slot 22
+    description: 1x 2.5" Drive Bay
+  - name: Drive 23
+    position: Drive Slot 23
+    description: 1x 2.5" Drive Bay
+  - name: Drive 24
+    position: Drive Slot 24
     description: 1x 2.5" Drive Bay
