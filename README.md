@@ -283,10 +283,12 @@ Inventory items are hierarchical in nature, such that any individual item may be
 
 ## Module Type Images
 
-Module type images are stored flat under `module-images/<manufacturer>/` — no per-model subdirectory.
+Module type images are stored flat under `module-images/<manufacturer>/` — images live directly in the manufacturer
+directory with **no per-module subdirectories**.
 A corresponding module-type definition **must** exist in `module-types/` before adding images.
 
 - **Naming**: `<module-type>.(front|rear).<ext>` (e.g. `RMCARD205.front.png`, `RMCARD205.rear.png`)
+  - Filenames **must** include `.front` or `.rear`; bare names like `VIC-1227.png` (without a side qualifier) are not accepted.
 - **Content**: Only clean orthogonal front or rear face views. Angled, marketing, or side/top shots are not accepted.
 - **Limit**: Maximum **2 images** per module type (one front, one rear)
 
