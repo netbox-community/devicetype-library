@@ -105,6 +105,12 @@ def _get_image_files():
 
     return file_list
 
+def _get_all_module_image_files():
+    """
+    Return a list of all module-image files in the repository.
+    """
+    return [f for f in glob.glob('module-images/*/*') if os.path.isfile(f)]
+
 def _get_module_image_files():
     """
     Return a list of added, renamed, or modified module-image files from git diff against upstream.
@@ -162,10 +168,10 @@ else:
     definition_files = _get_definition_files()
 image_files = _get_image_files()
 
-if USE_UPSTREAM_DIFF:
+if USE_UPSTREAM_DIFF and not EVALUATE_ALL:
     module_image_files = _get_module_image_files()
 else:
-    module_image_files = []
+    module_image_files = _get_all_module_image_files()
 
 if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
