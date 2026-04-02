@@ -1,0 +1,77 @@
+---
+manufacturer: Huawei
+model: S6720-16X-LI-16S-AC
+slug: huawei-s6720-16x-li-16s-ac
+u_height: 1.0
+is_full_depth: false
+airflow: left-to-right
+weight: 4.1
+weight_unit: kg
+comments: See [Product documentation](https://support.huawei.com/enterprise/en/doc/EDOC1000013621/a94df57d/s6720-16x-li-16s-ac).
+console-ports:
+  - name: Console
+    type: rj-45
+    label: CONSOLE
+    description: RS-232
+  - name: USB
+    type: usb-a
+    description: Can have a USB 2.0 flash drive connected to upgrade the switch, or transfer configuration files or other files.
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 68
+interfaces:
+  - name: MEth0/0/1
+    type: 100base-tx
+    mgmt_only: true
+    label: ETH
+    description: IEEE 802.3, 10/100 Mbit/s. For configuration terminal or network management workstation to configure the switch locally or remotely by
+      using an Ethernet cable.
+  - name: XGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+    label: '1'
+  - name: XGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+    label: '2'
+  - name: XGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+    label: '3'
+  - name: XGigabitEthernet0/0/4
+    type: 10gbase-x-sfpp
+    label: '4'
+  - name: XGigabitEthernet0/0/5
+    type: 10gbase-x-sfpp
+    label: '5'
+  - name: XGigabitEthernet0/0/6
+    type: 10gbase-x-sfpp
+    label: '6'
+  - name: XGigabitEthernet0/0/7
+    type: 10gbase-x-sfpp
+    label: '7'
+  - name: XGigabitEthernet0/0/8
+    type: 10gbase-x-sfpp
+    label: '8'
+  - name: XGigabitEthernet0/0/9
+    type: 10gbase-x-sfpp
+    label: '9'
+  - name: XGigabitEthernet0/0/10
+    type: 10gbase-x-sfpp
+    label: '10'
+  - name: XGigabitEthernet0/0/11
+    type: 10gbase-x-sfpp
+    label: '11'
+  - name: XGigabitEthernet0/0/12
+    type: 10gbase-x-sfpp
+    label: '12'
+  - name: XGigabitEthernet0/0/13
+    type: 10gbase-x-sfpp
+    label: '13'
+  - name: XGigabitEthernet0/0/14
+    type: 10gbase-x-sfpp
+    label: '14'
+  - name: XGigabitEthernet0/0/15
+    type: 10gbase-x-sfpp
+    label: '15'
+  - name: XGigabitEthernet0/0/16
+    type: 10gbase-x-sfpp
+    label: '16'
