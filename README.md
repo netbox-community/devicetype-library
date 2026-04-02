@@ -283,12 +283,12 @@ Inventory items are hierarchical in nature, such that any individual item may be
 
 ## Module Type Images
 
-Module type images are stored under `module-images/<manufacturer>/<module-type>/` where `<module-type>` matches
-the YAML definition filename (without extension). A corresponding module-type definition **must** exist in
-`module-types/` before adding images.
+Module type images are stored flat under `module-images/<manufacturer>/` — no per-model subdirectory.
+A corresponding module-type definition **must** exist in `module-types/` before adding images.
 
-- **Naming**: `<module-type>[.<qualifier>].<ext>` (e.g. `RMCARD205.front.png`, `VIC-1227.png`)
-- **Limit**: Maximum **2 images** per module type
+- **Naming**: `<module-type>.(front|rear).<ext>` (e.g. `RMCARD205.front.png`, `RMCARD205.rear.png`)
+- **Content**: Only clean orthogonal front or rear face views. Angled, marketing, or side/top shots are not accepted.
+- **Limit**: Maximum **2 images** per module type (one front, one rear)
 
 ## Data Validation / Commit Quality Checks
 
