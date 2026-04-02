@@ -122,10 +122,7 @@ def _get_module_image_files():
     changes = upstream.refs.master.commit.diff(repo.head)
     changes = changes + repo.index.diff("HEAD")
 
-    # TODO: Expand to ['A', 'R', 'M', 'T'] once pre-existing images
-    # are merged to master — they predate the naming/limit rules and
-    # only show up as renames in the diff until then.
-    CHANGE_TYPE_LIST = ['A']
+    CHANGE_TYPE_LIST = ['A', 'R', 'M', 'T']
 
     for change in changes:
         if change.change_type in CHANGE_TYPE_LIST:
@@ -341,22 +338,33 @@ def test_module_images(file_path):
     """
     Validate module-image files: structure, naming, module-type existence, and image count.
     """
+    import re
+
     parts = file_path.split(os.path.sep)
 
-    # Must follow module-images/<manufacturer>/<module-type>/<image> structure
-    if len(parts) != 4:
+    # Must follow module-images/<manufacturer>/<image-file> flat structure
+    if len(parts) != 3:
         pytest.fail(
             f"Invalid module-image path: {file_path}. "
-            f"Expected: module-images/<manufacturer>/<module-type>/<filename>",
+            f"Expected: module-images/<manufacturer>/<filename> (flat, no per-model subdir)",
             pytrace=False,
         )
 
-    manufacturer, module_name, image_file = parts[1], parts[2], parts[3]
+    manufacturer, image_file = parts[1], parts[2]
 
     # Valid image extension
     ext = image_file.rsplit('.', 1)[-1].lower()
     if ext not in IMAGE_FILETYPES:
         pytest.fail(f"Invalid image file extension in {file_path}", pytrace=False)
+
+    # Filename must follow <module-name>.(front|rear).<ext> pattern
+    match = re.match(r'^(.+)\.(front|rear)\.[^.]+$', image_file, re.IGNORECASE)
+    if not match:
+        pytest.fail(
+            f"Module image filename must follow '<module-name>.(front|rear).<ext>': got '{image_file}'",
+            pytrace=False,
+        )
+    module_name = match.group(1)
 
     # Corresponding module-type YAML must exist
     yaml_path = os.path.join('module-types', manufacturer, f'{module_name}.yaml')
@@ -367,22 +375,13 @@ def test_module_images(file_path):
             pytrace=False,
         )
 
-    # Filename must match <module-type>[.<qualifier>].<ext>
-    name_stem = image_file.split('.')[0]
-    if name_stem != module_name:
-        pytest.fail(
-            f"Module image filename must start with '{module_name}': got '{image_file}'. "
-            f"Expected pattern: {module_name}[.<qualifier>].<ext>",
-            pytrace=False,
-        )
-
-    # Maximum 2 images per module
-    module_dir = os.path.join('module-images', manufacturer, module_name)
-    if os.path.isdir(module_dir):
-        images = os.listdir(module_dir)
+    # Maximum 2 images per module (one front, one rear)
+    vendor_dir = os.path.join('module-images', manufacturer)
+    if os.path.isdir(vendor_dir):
+        images = [f for f in os.listdir(vendor_dir) if f.startswith(module_name + '.')]
         if len(images) > 2:
             pytest.fail(
                 f"Maximum 2 images per module type. "
-                f"Found {len(images)} in {module_dir}: {images}",
+                f"Found {len(images)} for '{module_name}' in {vendor_dir}: {images}",
                 pytrace=False,
             )
