@@ -1,0 +1,13 @@
+---
+manufacturer: Supermicro
+model: PWS-1K2-1R
+part_number: PWS-1K2-1R
+description: 1200W 1U Redundant Power Supply
+comments: |
+  "[Datasheet](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-1K21P-1R/PWS-1K21P-1R_quick_spec_12032018.pdf)"
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    # 1000W @ 100-140Vac
+    # 1200W @ 180-240Vac
+    maximum_draw: 1000

@@ -1,0 +1,121 @@
+---
+manufacturer: LANCOM
+model: GS-4530X
+slug: lancom-gs-4530x
+part_number: '61867'
+comments: >
+  [LANCOM GS-4530X Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-4530X/DS_GS-4530X_DE.pdf)
+  [Power Supply SPSU-250 Datasheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-250/DS_SPSU-250_EN.pdf)
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 5.5
+weight_unit: kg
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: 1/0/1
+    label: '1'
+    type: 1000base-t
+  - name: 1/0/2
+    label: '2'
+    type: 1000base-t
+  - name: 1/0/3
+    label: '3'
+    type: 1000base-t
+  - name: 1/0/4
+    label: '4'
+    type: 1000base-t
+  - name: 1/0/5
+    label: '5'
+    type: 1000base-t
+  - name: 1/0/6
+    label: '6'
+    type: 1000base-t
+  - name: 1/0/7
+    label: '7'
+    type: 1000base-t
+  - name: 1/0/8
+    label: '8'
+    type: 1000base-t
+  - name: 1/0/9
+    label: '9'
+    type: 1000base-t
+  - name: 1/0/10
+    label: '10'
+    type: 1000base-t
+  - name: 1/0/11
+    label: '11'
+    type: 1000base-t
+  - name: 1/0/12
+    label: '12'
+    type: 1000base-t
+  - name: 1/0/13
+    label: '13'
+    type: 2.5gbase-t
+  - name: 1/0/14
+    label: '14'
+    type: 2.5gbase-t
+  - name: 1/0/15
+    label: '15'
+    type: 2.5gbase-t
+  - name: 1/0/16
+    label: '16'
+    type: 2.5gbase-t
+  - name: 1/0/17
+    label: '17'
+    type: 2.5gbase-t
+  - name: 1/0/18
+    label: '18'
+    type: 2.5gbase-t
+  - name: 1/0/19
+    label: '19'
+    type: 2.5gbase-t
+  - name: 1/0/20
+    label: '20'
+    type: 2.5gbase-t
+  - name: 1/0/21
+    label: '21'
+    type: 2.5gbase-t
+  - name: 1/0/22
+    label: '22'
+    type: 2.5gbase-t
+  - name: 1/0/23
+    label: '23'
+    type: 2.5gbase-t
+  - name: 1/0/24
+    label: '24'
+    type: 2.5gbase-t
+  - name: 1/0/25
+    label: '25'
+    type: 10gbase-x-sfpp
+  - name: 1/0/26
+    label: '26'
+    type: 10gbase-x-sfpp
+  - name: 1/0/27
+    label: '27'
+    type: 10gbase-x-sfpp
+  - name: 1/0/28
+    label: '28'
+    type: 10gbase-x-sfpp
+  - name: 1/0/29
+    label: '29'
+    type: 40gbase-x-qsfpp
+  - name: 1/0/30
+    label: '30'
+    type: 40gbase-x-qsfpp
+  - name: mgmt
+    label: OOB
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: com
+    type: rj-45
+  - name: USB
+    type: usb-micro-b
+  - name: USB-A
+    type: usb-a
+    description: USB port for firmware and configuration transfer

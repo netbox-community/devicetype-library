@@ -1,0 +1,63 @@
+---
+manufacturer: Bachmann
+model: BlueNet BN7500 BM0019988
+slug: bachmann-bluenet-bn7500-bm0019988
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: '[BN7500 Datasheet by BlueNet](https://bluenet.de/wp-content/uploads/bluenet_bn3000-bn7500_v2.03.xx_bedienungsanleitung_de_rev_01.pdf.pdf)'
+power-ports:
+  - name: Input
+    type: iec-60309-p-n-e-6h
+    maximum_draw: 7400
+    description: Single-phase CEE inlet
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+  - name: Outlet 2
+    type: iec-60320-c13
+  - name: Outlet 3
+    type: iec-60320-c13
+  - name: Outlet 4
+    type: iec-60320-c19
+  - name: Outlet 5
+    type: iec-60320-c19
+  - name: Outlet 6
+    type: iec-60320-c13
+  - name: Outlet 7
+    type: iec-60320-c13
+  - name: Outlet 8
+    type: iec-60320-c13
+  - name: Outlet 9
+    type: iec-60320-c19
+  - name: Outlet 10
+    type: iec-60320-c19
+  - name: Outlet 11
+    type: iec-60320-c13
+  - name: Outlet 12
+    type: iec-60320-c13
+  - name: Outlet 13
+    type: iec-60320-c13
+  - name: Outlet 14
+    type: iec-60320-c19
+  - name: Outlet 15
+    type: iec-60320-c19
+  - name: Outlet 16
+    type: iec-60320-c13
+  - name: Outlet 17
+    type: iec-60320-c13
+  - name: Outlet 18
+    type: iec-60320-c13
+  - name: Outlet 19
+    type: ita-g
+  - name: Outlet 20
+    type: ita-g
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: gpio
+    type: rj-12
+  - name: usb
+    type: usb-a
