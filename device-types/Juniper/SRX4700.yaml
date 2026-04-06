@@ -74,8 +74,9 @@ interfaces:
   - name: Port 28
     type: 50gbase-x-sfp56
 
-  - name: OOB
+  - name: Management
     type: 1000base-t
+    mgmt_only: true
   - name: HA Control
     type: 1000base-t
   - name: HA Data
