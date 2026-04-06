@@ -4,7 +4,7 @@ model: AS-2115HS-TNR
 slug: supermicro-as-2115hs-tnr
 part_number: AS-2115HS-TNR
 comments: >
-  [Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-2115hs-tnr)"
+  [Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-2115hs-tnr)
 
 u_height: 2
 is_full_depth: true
@@ -14,7 +14,7 @@ weight_unit: kg
 airflow: front-to-rear
 
 interfaces:
-  - name: BMC LAN
+  - name: BMC
     type: 1000base-t
     mgmt_only: true
     description: 1 RJ45 1 GbE Dedicated BMC LAN port
