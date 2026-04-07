@@ -1,0 +1,76 @@
+---
+manufacturer: Nokia
+model: 7750-SR-7s
+slug: nokia-7750-sr-7s
+u_height: 12
+is_full_depth: true
+airflow: front-to-rear
+weight: 45.3
+weight_unit: kg
+description: Nokia 7750 SR-7s Service Router
+comments: >-
+  7-slot chassis (SR-s platform). Provides 7 horizontal line card slots
+  (IOM-s, XCM-7s, XCM2-7s) plus dedicated CPM, SFM, power, and fan bays.
+  CPM slots A/B are housed in the CMA2-7s carrier bracket.
+  4 SFM slots for full fabric redundancy.
+module-bays:
+  # Line card slots 1-7 (accept IOM-s, XCM-7s, XCM2-7s)
+  - name: Card 1
+    position: '1'
+    label: IOM/XCM
+  - name: Card 2
+    position: '2'
+    label: IOM/XCM
+  - name: Card 3
+    position: '3'
+    label: IOM/XCM
+  - name: Card 4
+    position: '4'
+    label: IOM/XCM
+  - name: Card 5
+    position: '5'
+    label: IOM/XCM
+  - name: Card 6
+    position: '6'
+    label: IOM/XCM
+  - name: Card 7
+    position: '7'
+    label: IOM/XCM
+  # CMA2-7s carrier bracket (accepts CMA2-7s module; CPM-A/B slots are inside the CMA2-7s)
+  # Example: chassis slot CMA -> insert CMA2-7s -> insert CPM-A and CPM-B into CMA2-7s
+  - name: CMA
+    position: CMA
+    label: CMA Carrier
+  # Switch Fabric Modules (1-4)
+  - name: SFM 1
+    position: SFM1
+    label: SFM
+  - name: SFM 2
+    position: SFM2
+    label: SFM
+  - name: SFM 3
+    position: SFM3
+    label: SFM
+  - name: SFM 4
+    position: SFM4
+    label: SFM
+  # Power Modules (1-4)
+  - name: PM 1
+    position: PM1
+    label: Power Module
+  - name: PM 2
+    position: PM2
+    label: Power Module
+  - name: PM 3
+    position: PM3
+    label: Power Module
+  - name: PM 4
+    position: PM4
+    label: Power Module
+  # Fan Modules
+  - name: FAN 1
+    position: FAN1
+    label: Fan Module
+  - name: FAN 2
+    position: FAN2
+    label: Fan Module

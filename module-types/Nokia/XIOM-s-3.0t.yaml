@@ -1,0 +1,20 @@
+---
+# Nokia XIOM-s (eXtended IO Module)
+# Goes in XMA/XIOM slot of IOM-s/IOM-s-e or XCM
+# XIOM hosts 1-2 MDA-s sub-modules
+# xiom-type in SROS config: iom-s-3.0t
+manufacturer: Nokia
+model: XIOM-s-3.0t
+part_number: 3HE18883AA
+comments: >-
+  XIOM-s (eXtended IO Module) for 7750 SR-s series.
+  Installs in XMA/XIOM slot of IOM-s/XCM.
+  Hosts 1-2 MDA-s sub-modules with "ms" prefix MDA types.
+  xiom-type: iom-s-3.0t
+module-bays:
+  - name: '{module}/1'
+    position: '1'
+    label: MDA 1
+  - name: '{module}/2'
+    position: '2'
+    label: MDA 2

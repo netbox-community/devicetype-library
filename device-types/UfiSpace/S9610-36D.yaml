@@ -1,0 +1,155 @@
+---
+manufacturer: UfiSpace
+model: S9610-36D
+slug: ufispace-s9610-36d
+part_number: S9610-36D
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 22.0
+weight_unit: kg
+description: UfiSpace S9610-36D 400G Open Aggregation Router
+comments: 2RU disaggregated router with 36x QSFP-DD (400GE) ports. Broadcom Jericho2c+ ASIC, 14.4 Tbps switching capacity. 2x 10G SFP+ management ports,
+  4 fan modules, 2 power supplies.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-micro-b
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt-sfp0
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: mgmt-sfp1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+module-bays:
+  - name: Transceiver 0
+    position: swp0
+    label: QSFP-DD
+  - name: Transceiver 1
+    position: swp1
+    label: QSFP-DD
+  - name: Transceiver 2
+    position: swp2
+    label: QSFP-DD
+  - name: Transceiver 3
+    position: swp3
+    label: QSFP-DD
+  - name: Transceiver 4
+    position: swp4
+    label: QSFP-DD
+  - name: Transceiver 5
+    position: swp5
+    label: QSFP-DD
+  - name: Transceiver 6
+    position: swp6
+    label: QSFP-DD
+  - name: Transceiver 7
+    position: swp7
+    label: QSFP-DD
+  - name: Transceiver 8
+    position: swp8
+    label: QSFP-DD
+  - name: Transceiver 9
+    position: swp9
+    label: QSFP-DD
+  - name: Transceiver 10
+    position: swp10
+    label: QSFP-DD
+  - name: Transceiver 11
+    position: swp11
+    label: QSFP-DD
+  - name: Transceiver 12
+    position: swp12
+    label: QSFP-DD
+  - name: Transceiver 13
+    position: swp13
+    label: QSFP-DD
+  - name: Transceiver 14
+    position: swp14
+    label: QSFP-DD
+  - name: Transceiver 15
+    position: swp15
+    label: QSFP-DD
+  - name: Transceiver 16
+    position: swp16
+    label: QSFP-DD
+  - name: Transceiver 17
+    position: swp17
+    label: QSFP-DD
+  - name: Transceiver 18
+    position: swp18
+    label: QSFP-DD
+  - name: Transceiver 19
+    position: swp19
+    label: QSFP-DD
+  - name: Transceiver 20
+    position: swp20
+    label: QSFP-DD
+  - name: Transceiver 21
+    position: swp21
+    label: QSFP-DD
+  - name: Transceiver 22
+    position: swp22
+    label: QSFP-DD
+  - name: Transceiver 23
+    position: swp23
+    label: QSFP-DD
+  - name: Transceiver 24
+    position: swp24
+    label: QSFP-DD
+  - name: Transceiver 25
+    position: swp25
+    label: QSFP-DD
+  - name: Transceiver 26
+    position: swp26
+    label: QSFP-DD
+  - name: Transceiver 27
+    position: swp27
+    label: QSFP-DD
+  - name: Transceiver 28
+    position: swp28
+    label: QSFP-DD
+  - name: Transceiver 29
+    position: swp29
+    label: QSFP-DD
+  - name: Transceiver 30
+    position: swp30
+    label: QSFP-DD
+  - name: Transceiver 31
+    position: swp31
+    label: QSFP-DD
+  - name: Transceiver 32
+    position: swp32
+    label: QSFP-DD
+  - name: Transceiver 33
+    position: swp33
+    label: QSFP-DD
+  - name: Transceiver 34
+    position: swp34
+    label: QSFP-DD
+  - name: Transceiver 35
+    position: swp35
+    label: QSFP-DD
+  - name: Fan 0
+    position: FAN0
+    label: Fan Module
+  - name: Fan 1
+    position: FAN1
+    label: Fan Module
+  - name: Fan 2
+    position: FAN2
+    label: Fan Module
+  - name: Fan 3
+    position: FAN3
+    label: Fan Module
+  - name: PSU 0
+    position: PSU0
+    label: Power Supply
+  - name: PSU 1
+    position: PSU1
+    label: Power Supply

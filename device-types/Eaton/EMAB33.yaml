@@ -1,0 +1,127 @@
+---
+manufacturer: Eaton
+model: EMAB33
+slug: eaton-emab33
+u_height: 0
+is_full_depth: false
+subdevice_role: parent
+airflow: passive
+comments: '[Eaton Managed Rack PDU EMAB33 Data Sheet](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/eaton-basic-rack-pdu/EMAB33.pdf)'
+weight: 8.9
+weight_unit: kg
+front_image: false
+rear_image: false
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: Daisy Chain
+    type: rj-45
+  - name: USB management
+    type: usb-a
+power-ports:
+  - name: Power Port 1
+    type: iec-60309-3p-n-e-4h
+    maximum_draw: 22000
+    allocated_draw: 17000
+power-outlets:
+  - name: A1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: A4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: B1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: B4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: C1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: C2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: C3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: C4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+  - name: D1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: D2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: D3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: A
+  - name: D4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: A
+  - name: E1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: E2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: E3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: B
+  - name: E4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: B
+  - name: F1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: F2
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: F3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    feed_leg: C
+  - name: F4
+    type: iec-60320-c19
+    power_port: Power Port 1
+    feed_leg: C
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
