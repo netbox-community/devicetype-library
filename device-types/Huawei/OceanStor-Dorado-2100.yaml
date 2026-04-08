@@ -7,7 +7,7 @@ u_height: 2
 is_full_depth: true
 airflow: front-to-rear
 
-# Console ports
+# Puertos de Consola / Gestion
 console-ports:
   - name: CTE0.A.Console
     type: rj-45
@@ -16,7 +16,7 @@ console-ports:
 
 interfaces:
   # --- CONTROLADOR A ---
-  # Gestión y Mantenimiento
+  # Gestion y Mantenimiento
   - name: CTE0.A.MGMT
     type: 1000base-t
     mgmt_only: true
