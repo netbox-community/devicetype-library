@@ -2,8 +2,10 @@
 manufacturer: MikroTik
 model: CRS212-1G-10S-1S+IN
 slug: mikrotik-crs212-1g-10s-1s-plus-in
+part_number: CRS212-1G-10S-1S+
 is_full_depth: false
 u_height: 1
+comments: '[CRS212-1G-10S-1S+IN Datasheet](https://mikrotik.com/product/CRS212-1G-10S-1SplusIN)'
 interfaces:
   - name: sfp1
     type: 1000base-x-sfp
@@ -33,5 +35,5 @@ console-ports:
   - name: serial0
     type: rj-45
 power-ports:
-  - name: PSU0
+  - name: psu0
     type: dc-terminal
