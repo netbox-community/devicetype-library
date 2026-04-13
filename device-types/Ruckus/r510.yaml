@@ -1,0 +1,31 @@
+---
+manufacturer: Ruckus
+model: R510
+slug: ruckus-r510
+part_number: 901-R510-XX00
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Ruckus R510 Datasheet](https://webresources.ruckuswireless.com/datasheets/r510/ds-ruckus-r510.html)'
+weight: 0.350
+weight_unit: kg
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 12
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    label: PoE
+  - name: Port 2
+    type: 1000base-t
+    label: 1G Eth
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: WiFi
+    type: ieee802.11ac
