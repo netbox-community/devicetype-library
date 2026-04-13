@@ -5,16 +5,15 @@ slug: palo-alto-m-700
 part_number: M-700
 u_height: 2
 is_full_depth: true
-front_image: true
-airflow: front-to-back
+airflow: front-to-rear
 weight: 36
-weight_unit: lbs
+weight_unit: lb
 comments: '[M-700 Appliance Hardware Reference](https://docs.paloaltonetworks.com/hardware/m-300-m-700-appliances-hardware-reference/m-300_m-700-overview/back-panel-m-700#id178OF07042N)'
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
+    position: '2'
 console-ports:
   - name: console
     type: de-9
