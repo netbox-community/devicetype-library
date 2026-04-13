@@ -27,6 +27,12 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     description: 1 RJ45 1 GbE Dedicated BMC LAN port
+  - name: eth0
+    type: 10gbase-x-sfpp
+    description: AIOM1 Port 1
+  - name: eth1
+    type: 10gbase-x-sfpp
+    description: AIOM1 Port 2
 
 module-bays:
   - name: PSU 01
