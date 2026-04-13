@@ -30,9 +30,11 @@ power-ports:
 
 interfaces:
   - name: mgmt0
+    type: 1000base-t
     mgmt_only: true
 
   - name: mgmt1
+    type: 1000base-t
     mgmt_only: true
 
 module-bays:
