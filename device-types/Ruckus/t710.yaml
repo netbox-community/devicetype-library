@@ -1,0 +1,24 @@
+---
+manufacturer: Ruckus
+model: T710
+slug: ruckus-t710
+part_number: 901-T710-XX01
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Ruckus T710 Datasheet](https://webresources.ruckuswireless.com/pdf/datasheets/ds-ruckus-t710-series.pdf)'
+weight: 2.95
+weight_unit: kg
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    label: 1G Eth
+  - name: Port 2
+    type: 1000base-t
+    label: PoE
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ac
