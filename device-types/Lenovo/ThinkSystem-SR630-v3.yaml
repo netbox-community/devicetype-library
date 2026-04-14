@@ -1,0 +1,35 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR630 V3
+slug: lenovo-thinksystem-sr630-v3
+part_number: 7D7x
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Lenovo System SR630 V3 product guide](https://lenovopress.com/lp1600)'
+subdevice_role: parent
+weight: 20.8
+weight_unit: kg
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+  - name: OCP slot 1
+    position: OCP1
+  - name: Riser 1 - PCIe slot 1
+    position: PCIe1
+  - name: Riser 1 - PCIe slot 2
+    position: PCIe2
+  - name: Riser 2 - PCIe slot 3
+    position: PCIe3
+  - name: Riser 3 - PCIe slot 4
+    position: PCIe4
+  - name: Riser 4 - PCIe slot 5
+    position: PCIe5

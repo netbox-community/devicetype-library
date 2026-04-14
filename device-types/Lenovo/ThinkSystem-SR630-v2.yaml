@@ -1,0 +1,31 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR630 V2
+slug: lenovo-thinksystem-sr630-v2
+part_number: 7Z7x
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Lenovo System SR630 V2 product guide](https://lenovopress.com/lp1391)'
+subdevice_role: parent
+weight: 20.8
+weight_unit: kg
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+  - name: OCP slot 1
+    position: OCP1
+  - name: Riser 1 - PCIe slot 1
+    position: PCIe1
+  - name: Riser 1 - PCIe slot 2
+    position: PCIe2
+  - name: Riser 2 - PCIe slot 3
+    position: PCIe3

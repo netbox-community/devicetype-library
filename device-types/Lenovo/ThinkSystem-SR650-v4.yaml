@@ -1,0 +1,47 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR650 V4
+slug: lenovo-thinksystem-sr650-v4
+part_number: 7DGx
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Lenovo System SR650 V4 product guide](https://lenovopress.lenovo.com/lp2127)'
+subdevice_role: parent
+weight: 38.8
+weight_unit: kg
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: OCP slot 1
+    position: OCP1
+  - name: OCP slot 2
+    position: OCP2
+  - name: Riser 1 - PCIe slot 1
+    position: PCIe1
+  - name: Riser 1 - PCIe slot 2
+    position: PCIe2
+  - name: Riser 2 - PCIe slot 3
+    position: PCIe3
+  - name: Riser 2 - PCIe slot 4
+    position: PCIe4
+  - name: Riser 2 - PCIe slot 5
+    position: PCIe5
+  - name: Riser 3 - PCIe slot 6
+    position: PCIe6
+  - name: Riser 3 - PCIe slot 7
+    position: PCIe7
+  - name: Riser 3 - PCIe slot 8
+    position: PCIe8
+  - name: Riser 4 - PCIe slot 9
+    position: PCIe9
+  - name: Riser 4 - PCIe slot 10
+    position: PCIe10
