@@ -13,15 +13,10 @@ weight_unit: kg
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
-  - name: PSU 3
-    type: iec-60320-c14
-  - name: PSU 4
-    type: iec-60320-c14
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
 interfaces:
   - name: BMC
     type: 1000base-t
@@ -32,6 +27,18 @@ interfaces:
   - name: Gig-E 2
     type: 1000base-t
 module-bays:
+  - name: PSU 1
+    position: Rear Power 1
+    description: Hot-swappable power supply
+  - name: PSU 2
+    position: Rear Power 2
+    description: Hot-swappable power supply
+  - name: PSU 3
+    position: Rear Power 3
+    description: Hot-swappable power supply
+  - name: PSU 4
+    position: Rear Power 4
+    description: Hot-swappable power supply
   - name: PCI-E 1
     position: Rear 1
     description: PCIe 5.0 x16 (FHFL)
@@ -47,12 +54,6 @@ module-bays:
   - name: PCI-E 5
     position: Rear 6
     description: PCIe 5.0 x16 (FHFL)
-  - name: USB 1
-    position: Rear 7
-    description: FRU USB-A
-  - name: USB 2
-    position: Rear 8
-    description: FRU USB-A
   - name: PCI-E 6
     position: Rear 9
     description: PCIe 5.0 x16 (FHFL)
