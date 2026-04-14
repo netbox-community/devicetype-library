@@ -3,14 +3,17 @@ manufacturer: TP-Link
 model: ER706W-4G
 slug: tp-link-er706w-4g
 part_number: er706w-4g
-is_full_depth: false
 u_height: 0
+is_full_depth: false
 airflow: passive
-front_image: true
-rear_image: true
-subdevice_role: parent
+comments: '[TP-Link Omada ER706W-4G Datasheet](https://support.omadanetworks.com/pt/document/106266/)'
 weight: 960
 weight_unit: g
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC, 2.0A
 interfaces:
   - name: lte1
     type: lte
@@ -32,11 +35,3 @@ interfaces:
     type: ieee802.11n
   - name: wlan1
     type: ieee802.11ax
-power-ports:
-  - name: Power
-    label: Power
-    type: dc-terminal
-    maximum_draw: 15
-    allocated_draw: 15
-    description: 12V DC, 2.0A
-comments: '[TP-Link Omada ER706W-4G Datasheet](https://support.omadanetworks.com/pt/document/106266/)'
