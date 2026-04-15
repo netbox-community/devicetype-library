@@ -1,0 +1,33 @@
+---
+manufacturer: MikroTik
+model: mANTBox ax 15s
+slug: mikrotik-mantbox-ax-15s
+description: MikroTik mANTBox ax 15s
+part_number: L22UGS-5HaxD2HaxD-15S
+is_full_depth: false
+u_height: 0
+airflow: passive
+comments: '[L22UGS-5HaxD2HaxD-15S Datasheet](https://mikrotik.com/product/mantbox_ax_15s#product_specification)'
+subdevice_role: parent
+console-ports:
+  - name: usb
+    type: usb-a
+interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-IN
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: Wireless 2.4 GHz
+    type: ieee802.11ax
+  - name: Wireless 5 GHz
+    type: ieee802.11ax
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 21
+    allocated_draw: 11
+    description: 12 - 28V DC

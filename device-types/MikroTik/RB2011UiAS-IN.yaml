@@ -2,14 +2,25 @@
 manufacturer: MikroTik
 model: RB2011UiAS-IN
 slug: mikrotik-rb2011uias-in
+part_number: RB2011UiAS-2HnD-IN
 u_height: 1
 is_full_depth: false
+comments: '[RB2011UiAS-2HnD-IN Datasheet](https://mikrotik.com/product/RB2011UiAS-2HnD-IN#product_specification)'
+console-ports:
+  - name: serial0
+    type: rj-45
+  - name: usb
+    type: usb-a
 power-ports:
-  - name: PSU0
+  - name: psu0
     type: dc-terminal
+    maximum_draw: 11
+    description: 8 - 30 V DC
 interfaces:
   - name: ether1
     type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
   - name: ether2
     type: 1000base-t
   - name: ether3
@@ -28,5 +39,9 @@ interfaces:
     type: 100base-tx
   - name: ether10
     type: 100base-tx
+    poe_mode: pse
+    poe_type: passive-24v-2pair
   - name: sfp1
     type: 1000base-x-sfp
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
