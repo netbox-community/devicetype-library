@@ -16,11 +16,11 @@ interfaces:
   - name: XCC
     type: 1000base-t
     mgmt_only: true
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
+    position: PSU1
   - name: PSU2
-    type: iec-60320-c14
+    position: PSU2
   - name: OCP slot 1
     position: OCP1
   - name: Riser 1 - PCIe slot 1
