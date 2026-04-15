@@ -15,33 +15,33 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: PSU-1
-    position: PSU-1
-  - name: PSU-2
-    position: PSU-2
+  - name: PSU1
+    position: PSU1
+  - name: PSUU2
+    position: PSUU2
   - name: OCP slot 1
-    position: OCP-1
+    position: OCP1
   - name: Riser 1 - PCIe slot 1
-    position: PCIe-1
+    position: PCIe1
     label: 1 PCIe
   - name: Riser 1 - PCIe slot 2
-    position: PCIe-2
+    position: PCIe2
     label: 2 PCIe
   - name: Riser 1 - PCIe slot 3
-    position: PCIe-3
+    position: PCIe3
     label: 3 PCIe
   - name: Riser 2 - PCIe slot 4
-    position: PCIe-4
+    position: PCIe4
     label: 4 PCIe
   - name: Riser 2 - PCIe slot 5
-    position: PCIe-5
+    position: PCIe5
     label: 5 PCIe
   - name: Riser 2 - PCIe slot 6
-    position: PCIe-6
+    position: PCIe6
     label: 6 PCIe
   - name: Riser 3 - PCIe slot 7
-    position: PCIe-7
+    position: PCIe7
     label: 7 PCIe
   - name: Riser 3 - PCIe slot 8
-    position: PCIe-8
+    position: PCIe8
     label: 8 PCIe
