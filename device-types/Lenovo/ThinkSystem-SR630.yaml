@@ -2,16 +2,28 @@
 manufacturer: Lenovo
 model: ThinkSystem SR630
 slug: lenovo-thinksystem-sr630
-part_number: 7X02
+part_number: 7X0x
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+comments: '[Lenovo System SR630 product guide](https://lenovopress.lenovo.com/lp1049)'
 subdevice_role: parent
+weight: 11.9
+weight_unit: kg
 interfaces:
   - name: XCC
     type: 1000base-t
     mgmt_only: true
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: LOM slot 1
+    position: LOM1
+  - name: PCIe slot 1
+    position: PCIe1
+  - name: PCIe slot 2
+    position: PCIe2
+  - name: PCIe slot 3
+    position: PCIe3
