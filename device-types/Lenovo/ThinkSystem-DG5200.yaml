@@ -1,0 +1,48 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem DG5200
+slug: lenovo-thinksystem-dg5200
+part_number: 7DHY
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: '[Lenovo System DG5200 product guide](https://lenovopress.lenovo.com/lp2074)'
+subdevice_role: parent
+weight: 25.3
+weight_unit: kg
+power-ports:
+  - name: Controller A - PSU
+    type: iec-60320-c14
+  - name: Controller B - PSU
+    type: iec-60320-c14
+console-ports:
+  - name: Controller A Console
+    type: rj-45
+  - name: Controller B Console
+    type: rj-45
+interfaces:
+  - name: Controller A - e0M
+    type: 1000base-t
+    mgmt_only: true
+  - name: Controller B - e0M
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Controller A - HIC1
+    position: HIC1A
+  - name: Controller B - HIC1
+    position: HIC1B
+  - name: Controller A - HIC2
+    position: HIC2A
+  - name: Controller B - HIC2
+    position: HIC2B
+  - name: Controller A - HIC3
+    position: HIC3A
+  - name: Controller B - HIC3
+    position: HIC3B
+  - name: Controller A - HIC4
+    position: HIC4A
+  - name: Controller B - HIC4
+    position: HIC4B
