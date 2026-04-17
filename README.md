@@ -155,7 +155,7 @@ The following fields may **optionally** be declared:
     - For: `profile: Expansion card`
       - `bandwidth` Type: integer
       - `connector_type` Type: string
-  -:test_tube: Example:
+  - :test_tube: Example:
     ```yaml
     profile: Power supply
     attribute_date:
