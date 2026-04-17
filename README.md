@@ -115,6 +115,7 @@ Each definition **must** include at minimum the following fields:
 **Note: We are asking that new modules also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
+
 - `profile`: A declaration of the module profile for the device, only the default Netbox Module Profiles are supported. (**Default: None**)
   - Type: String
   - Options:
@@ -156,6 +157,7 @@ The following fields may **optionally** be declared:
       - `bandwidth` Type: integer
       - `connector_type` Type: string
   - :test_tube: Example:
+
     ```yaml
     profile: Power supply
     attribute_date:
