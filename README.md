@@ -155,16 +155,15 @@ The following fields may **optionally** be declared:
     - For: `profile: Expansion card`
       - `bandwidth` Type: integer
       - `connector_type` Type: string
-
-:test_tube: Example:
-  ```yaml
-  profile: Power supply
-  attribute_date:
-    wattage: 550
-    hot_swappable: true
-    input_current: AC
-    input_voltage: 240
-  ```
+  -:test_tube: Example:
+    ```yaml
+    profile: Power supply
+    attribute_date:
+      wattage: 550
+      hot_swappable: true
+      input_current: AC
+      input_voltage: 240
+    ```
 
 - `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
   - Type: String
