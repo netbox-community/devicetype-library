@@ -1,0 +1,167 @@
+---
+manufacturer: Supermicro
+model: AS-4125GS-TNRT
+slug: supermicro-as-4125gs-tnrt
+part_number: AS-4125GS-TNRT
+comments: '[MNL-2614.pdf](https://www.supermicro.com/manuals/superserver/4U/MNL-2614.pdf)'
+u_height: 4
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 29.7
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  - name: PSU 1
+    position: Rear Power 1
+    description: Hot-swappable power supply
+  - name: PSU 2
+    position: Rear Power 2
+    description: Hot-swappable power supply
+  - name: PSU 3
+    position: Rear Power 3
+    description: Hot-swappable power supply
+  - name: PSU 4
+    position: Rear Power 4
+    description: Hot-swappable power supply
+  - name: PCI-E 1
+    position: Rear 1
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 2
+    position: Rear 2
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 3
+    position: Rear 3
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 4
+    position: Rear 4
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 5
+    position: Rear 6
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 6
+    position: Rear 9
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 7
+    position: Rear 10
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 8
+    position: Rear 11
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 9
+    position: Rear 12
+    description: PCIe 5.0 x16 (FHFL)
+  - name: PCI-E 10
+    position: Rear 13
+    description: PCIe 5.0 x8 (FHFL)
+  - name: NVMe Bay 0
+    position: Front 0
+    label: NVMe Slot 0
+    description: Hot-swap 2.5" NVMe Drive Bay
+  - name: NVMe Bay 1
+    position: Front 1
+    label: NVMe Slot 1
+    description: Hot-swap 2.5" NVMe Drive Bay
+  - name: NVMe Bay 2
+    position: Front 2
+    label: NVMe Slot 2
+    description: Hot-swap 2.5" NVMe Drive Bay
+  - name: NVMe Bay 3
+    position: Front 3
+    label: NVMe Slot 3
+    description: Hot-swap 2.5" NVMe Drive Bay
+  - name: SATA Bay 0
+    position: Front 4
+    label: SATA Slot 0
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 1
+    position: Front 5
+    label: SATA Slot 1
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 2
+    position: Front 6
+    label: SATA Slot 2
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 3
+    position: Front 7
+    label: SATA Slot 3
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 4
+    position: Front 8
+    label: SATA Slot 4
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 5
+    position: Front 9
+    label: SATA Slot 5
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 6
+    position: Front 10
+    label: SATA Slot 6
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 7
+    position: Front 11
+    label: SATA Slot 7
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 8
+    position: Front 12
+    label: SATA Slot 8
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 9
+    position: Front 13
+    label: SATA Slot 9
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 10
+    position: Front 14
+    label: SATA Slot 10
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 11
+    position: Front 15
+    label: SATA Slot 11
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 12
+    position: Front 16
+    label: SATA Slot 12
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 13
+    position: Front 17
+    label: SATA Slot 13
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 14
+    position: Front 18
+    label: SATA Slot 14
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 15
+    position: Front 19
+    label: SATA Slot 15
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 16
+    position: Front 20
+    label: SATA Slot 16
+    description: Hot-swap 2.5" SATA Drive Bay
+  - name: SATA Bay 17
+    position: Front 21
+    label: SATA Slot 17
+    description: Hot-swap 2.5" SATA Drive Bay
+  - name: SATA Bay 18
+    position: Front 22
+    label: SATA Slot 18
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
+  - name: SATA Bay 19
+    position: Front 23
+    label: SATA Slot 19
+    description: Hot-swap 2.5" SATA Drive Bay (optional)
