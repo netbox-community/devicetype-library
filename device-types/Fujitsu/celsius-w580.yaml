@@ -1,0 +1,21 @@
+---
+manufacturer: Fujitsu
+model: CELSIUS W580
+slug: fujitsu-celsius-w580
+part_number: S26361-K1446-V515
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Fujitsu CELSIUS W580 Data Sheet](https://sp.ts.fujitsu.com/dmsp/Publications/public/ds-CELSIUS-W580.pdf). Microtower workstation (21 L). Base
+  configuration uses a 280 W PSU; CELSIUS W580power / W580power+ use up to 400 W. Optional RS-232 and second serial (POS) per configuration.'
+# Weight approx. 10 kg base model (12 kg for W580power); actual weight varies by configuration
+weight: 10.0
+weight_unit: kg
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 280
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+    description: Intel I219LM 10/100/1000 Mbit/s (RJ-45)
