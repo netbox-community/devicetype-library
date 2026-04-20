@@ -1,0 +1,22 @@
+---
+manufacturer: Cohesity
+model: C5036-10G-40G-NODE
+slug: cohesity-c5036-10g-40g-node
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+comments: C5036-10G-40G Expansion Node with 36 TB Secure Erase HDD, 1.6 TB PCI-e Flash, 128 GB RAM, 2x 10GbE SFP+ OCP and 2x 40GbE QSFP+ PCIe, 1x IPMI;
+  Hardware Only
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: Network 1
+    type: 10gbase-x-sfpp
+  - name: Network 2
+    type: 10gbase-x-sfpp
+  - name: Network 3
+    type: 40gbase-x-qsfpp
+  - name: Network 4
+    type: 40gbase-x-qsfpp
