@@ -1,0 +1,39 @@
+---
+manufacturer: NetApp
+model: StorageGRID SG5812
+slug: netapp-sg5812
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 29.45
+weight_unit: kg
+rear_image: true
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  # Four 10/25GbE SFP28 data ports (1-4), used for Grid/Client depending on bond mode
+  - name: e1a
+    label: Port 1 (10/25GbE Client)
+    type: 25gbase-x-sfp28
+  - name: e1b
+    label: Port 2 (10/25GbE Grid)
+    type: 25gbase-x-sfp28
+  - name: e1c
+    label: Port 3 (10/25GbE Client)
+    type: 25gbase-x-sfp28
+  - name: e1d
+    label: Port 4 (10/25GbE Grid)
+    type: 25gbase-x-sfp28
+
+  # 1Gb RJ45 management ports (Admin / appliance mgmt)
+  - name: mgmt-1
+    label: Management 1 (1GbE)
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt-2
+    label: Management 2 (1GbE)
+    type: 1000base-t
+    mgmt_only: true
