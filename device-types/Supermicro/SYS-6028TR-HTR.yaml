@@ -16,11 +16,44 @@ module-bays:
   - name: PSU1
     position: PSU 1
 device-bays:
-  - name: Node 1
-    label: Compute Node 1
-  - name: Node 2
-    label: Compute Node 2
-  - name: Node 3
-    label: Compute Node 3
-  - name: Node 4
-    label: Compute Node 4
+  - name: Node A
+  - name: Node B
+  - name: Node C
+  - name: Node D
+
+  - name: HDD bay A1
+    description: 'Connected to node A'
+    position: '1'
+  - name: HDD bay A2
+    description: 'Connected to node A'
+    position: '2'
+  - name: HDD bay A3
+    description: 'Connected to node A'
+    position: '3'
+  - name: HDD bay B1
+    description: 'Connected to node B'
+    position: '4'
+  - name: HDD bay B2
+    description: 'Connected to node B'
+    position: '5'
+  - name: HDD bay B3
+    description: 'Connected to node B'
+    position: '6'
+  - name: HDD bay C1
+    description: 'Connected to node C'
+    position: '7'
+  - name: HDD bay C2
+    description: 'Connected to node C'
+    position: '8'
+  - name: HDD bay C3
+    description: 'Connected to node C'
+    position: '9'
+  - name: HDD bay D1
+    description: 'Connected to node D'
+    position: '10'
+  - name: HDD bay D2
+    description: 'Connected to node D'
+    position: '11'
+  - name: HDD bay D3
+    description: 'Connected to node D'
+    position: '12'

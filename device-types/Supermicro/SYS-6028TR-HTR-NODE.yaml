@@ -1,0 +1,63 @@
+---
+manufacturer: Supermicro
+model: SuperServer 6028TR-HTR node
+slug: supermicro-sys-6028tr-htr-node
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: A node with Super X10DRT-H motherboard which gets installed in a SuperServer 6028TR-HTR (https://www.supermicro.com/en/products/system/2u/6028/sys-6028tr-htr.cfm)
+subdevice_role: child
+console-ports:
+  - name: RS-232
+    type: de-9
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+    
+module-bays:
+  - name: CPU 0
+    position: '1'
+    description: Socket R LGA 2011
+  - name: CPU 0
+    position: '2'
+    description: Socket R LGA 2011
+
+  - name: DIMM A1
+    position: '1'
+    description: DDR4 DIMM slot
+  - name: DIMM B1
+    position: '2'
+    description: DDR4 DIMM slot
+  - name: DIMM 31
+    position: '4'
+    description: DDR4 DIMM slot
+  - name: DIMM D1
+    position: '4'
+    description: DDR4 DIMM slot
+  - name: DIMM E1
+    position: '5'
+    description: DDR4 DIMM slot
+  - name: DIMM R1
+    position: '6'
+    description: DDR4 DIMM slot
+  - name: DIMM G1
+    position: '7'
+    description: DDR4 DIMM slot
+  - name: DIMM H1
+    position: '8'
+    description: DDR4 DIMM slot
+
+  - name: PCIe slot 1
+    position: '1'
+    description: PCIe 3.0 x16 slot
+  - name: PCIe slot 2
+    position: '2'
+    description: PCIe 3.0 x8 slot
+  - name: PCIe slot 3
+    position: '3'
+    description: PCIe 3.0 x8 slot
