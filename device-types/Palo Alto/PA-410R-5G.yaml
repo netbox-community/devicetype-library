@@ -1,0 +1,41 @@
+---
+manufacturer: Palo Alto
+model: PA-410R-5G
+slug: palo-alto-pa-410r-5g
+part_number: PA-410R-5G
+u_height: 0
+is_full_depth: false
+weight: 9
+weight_unit: lb
+airflow: passive
+comments: '[PA-400R series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-400r-series)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 29
+    description: DC terminal block
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 29
+    description: DC terminal block
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-x-sfp
+  - name: ethernet1/2
+    type: 1000base-x-sfp
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+  - name: ethernet1/6
+    type: 1000base-t
+  - name: cellular1/1
+    type: 5g

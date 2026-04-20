@@ -2,6 +2,7 @@
 manufacturer: MikroTik
 model: RB2011iL-RM
 slug: mikrotik-rb2011il-rm
+part_number: RB2011iL-RM
 is_full_depth: false
 u_height: 1
 airflow: passive
@@ -34,5 +35,6 @@ interfaces:
 power-ports:
   - name: power1
     type: dc-terminal
-    maximum_draw: 16
+    maximum_draw: 18
     allocated_draw: 6
+    description: DC jack input 8-30V
