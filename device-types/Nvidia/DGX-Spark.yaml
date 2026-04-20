@@ -1,0 +1,24 @@
+---
+manufacturer: Nvidia
+model: DGX Spark
+slug: nvidia-dgx-spark
+part_number: 940-54242-0000-000
+u_height: 0
+is_full_depth: false
+weight: 1.2
+weight_unit: kg
+comments: >-
+  NVIDIA DGX Spark personal AI supercomputer powered by the GB10 Grace Blackwell Superchip.
+  128 GB unified LPDDR5x memory, 1 PFLOP FP4 AI performance.
+  [Datasheet](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
+interfaces:
+  - name: eth0
+    type: 10gbase-t
+  - name: cx7-port1
+    type: 200gbase-x-qsfp56
+  - name: cx7-port2
+    type: 200gbase-x-qsfp56
+power-ports:
+  - name: PSU
+    type: usb-c
+    maximum_draw: 240
