@@ -1,0 +1,19 @@
+---
+manufacturer: MikroTik
+model: cAP RBcAP2nD
+slug: mikrotik-cap-rbcap2nd
+part_number: RBcAP2nD
+is_full_depth: false
+u_height: 0
+weight: 240
+weight_unit: g
+airflow: passive
+interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    type: 100base-tx
+    description: POE-IN
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+comments: '[RBcAP2nD Datasheet](https://mikrotik.com/product/RBcAP2nD#product_specification)'
