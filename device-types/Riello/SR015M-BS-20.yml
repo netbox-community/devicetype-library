@@ -1,0 +1,28 @@
+---
+manufacturer: Riello
+model: Master MPS MCM 10
+slug: riello-master-mps-mcm-10
+part_number: SR015M-BS-20
+description: 10 kVA Three-Phase/Single-Phase Inverter - Tower Format
+u_height: 21
+outer_width: 320
+outer_height: 930
+outer_depth: 840
+outer_unit: mm
+weight: 115.00
+weight_unit: kg
+starting Unit: 1
+is_full_depth: true
+is_powered: true
+airflow: passive
+comments: "Note: This model is a physical tower. The U height is a theoretical conversion for space utilization."
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
+power-outlets:
+  - name: Power Outlet 1
+    type: other
+power-ports:
+  - name: Power Port 1
+    type: other
