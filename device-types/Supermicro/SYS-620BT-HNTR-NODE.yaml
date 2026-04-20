@@ -1,0 +1,82 @@
+---
+manufacturer: Supermicro
+model: SuperServer 620BT-HNTR node
+slug: supermicro-sys-620bt-hntr-node
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: A node with Super X12DPT-B6 motherboard which gets installed in a SuperServer 620BT-HNTR (https://www.supermicro.com/en/products/system/bigtwin/2u/sys-620bt-hntr)
+subdevice_role: child
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    
+module-bays:
+  - name: CPU 1
+    position: '1'
+    description: LGA-4189
+  - name: CPU 2
+    position: '2'
+    description: LGA-4189
+
+  - name: CPU1 DIMM A1
+    position: '1'
+  - name: CPU1 DIMM B1
+    position: '2'
+  - name: CPU1 DIMM C1
+    position: '3'
+  - name: CPU1 DIMM D1
+    position: '4'
+  - name: CPU1 DIMM E1
+    position: '5'
+  - name: CPU1 DIMM F1
+    position: '6'
+  - name: CPU1 DIMM G1
+    position: '7'
+  - name: CPU1 DIMM H1
+    position: '8'
+  - name: CPU2 DIMM A1
+    position: '9'
+  - name: CPU2 DIMM B1
+    position: '10'
+  - name: CPU2 DIMM C1
+    position: '11'
+  - name: CPU2 DIMM D1
+    position: '12'
+  - name: CPU2 DIMM E1
+    position: '13'
+  - name: CPU2 DIMM F1
+    position: '14'
+  - name: CPU2 DIMM G1
+    position: '15'
+  - name: CPU2 DIMM H1
+    position: '16'
+
+  - name: CPU1 DIMM C2
+    position: '1'
+    description: Reserved for PMem 200 Series only
+  - name: CPU2 DIMM C2
+    position: '2'
+    description: Reserved for PMem 200 Series only
+
+  - name: SLOT1
+    position: '1'
+    description: PCIe 4.0 x16 slot (right hand riser) supported by CPU1
+  - name: SLOT2
+    position: '2'
+    description: PCIe 4.0 x16 slot (left hand riser, via cable) supported by CPU2
+  - name: SXB1
+    position: '3'
+    description: PCIe 4.0 x16 slot supported by CPU2
+  - name: SXB2
+    position: '4'
+    description: PCIe 4.0 x8 slot supported by CPU2
+  - name: SXB3
+    position: '5'
+    description: PCIe 4.0 x16 slot supported by CPU1
+  - name: SXB4
+    position: '6'
+    description: PCIe 4.0 x8 slot supported by CPU1 for SMCI-proprietary storage devices
+  - name: Advanced I/O Module (AIOM) slot
+    description: CPU1 PCIe 4.0x16 for networking
