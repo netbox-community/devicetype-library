@@ -1,0 +1,17 @@
+---
+profile: Power supply
+manufacturer: Supermicro
+model: PWS-501P-1R
+part_number: PWS-501P-1R
+description: The Supermicro PWS-501P-1R is an 80 Plus Platinum level redundant power supply capable of supplying 500W output power at 94% efficiency.
+airflow: front-to-rear
+attribute_data:
+  wattage: 500
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+comments: See [Specification](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-501P-1R/PWS-501P-1R_quick_spec_07112018.pdf).
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 500
