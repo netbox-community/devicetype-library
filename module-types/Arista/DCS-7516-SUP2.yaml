@@ -3,9 +3,9 @@ manufacturer: Arista
 model: DCS-7516-SUP2
 weight: 12
 weight_unit: lb
-comments: 'Supervisor module for 7516N chassis'
+comments: Supervisor module for 7516N chassis
 console-ports:
-  - name: 'Console {module}'
+  - name: Console {module}
     type: rj-45
 interfaces:
   - name: Management{module}/1
