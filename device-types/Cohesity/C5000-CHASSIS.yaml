@@ -1,0 +1,27 @@
+---
+manufacturer: Cohesity
+model: C5000-CHASSIS
+slug: cohesity-c5000-chassis
+part_number: C5000-CHASSIS
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+comments: C5000 chassis (https://www.cohesity.com/resources/datasheet/c5000-data-sheet/)
+subdevice_role: parent
+weight: 110
+weight_unit: lb
+module-bays:
+  - name: PSU0
+    position: PSU 0
+  - name: PSU1
+    position: PSU 1
+device-bays:
+  - name: Node 1
+    label: Compute Node 1
+  - name: Node 2
+    label: Compute Node 2
+  - name: Node 3
+    label: Compute Node 3
+  - name: Node 4
+    label: Compute Node 4

@@ -1,0 +1,34 @@
+---
+manufacturer: HPE
+model: ProLiant DL20 Gen9
+slug: hpe-proliant-dl20-gen9
+u_height: 1.0
+is_full_depth: true
+front_image: true
+airflow: front-to-rear
+comments: |
+  About HPE ProLiant DL20 Gen9 Server:
+   - [Identifying Components](https://support.hpe.com/hpesc/public/docDisplay?docId=c04912841)
+   - [User Guide](https://support.hpe.com/hpesc/public/docDisplay?docId=c04898522)
+   - [Maintenance and Service Guide](https://support.hpe.com/hpesc/public/docDisplay?docId=c04903922)
+   - [All and more](https://support.hpe.com/connect/s/product?language=en_US&sp4ts.oid=1008556819&kmpmoid=1008556817&actTab=all&manualsFilter=all)
+weight: 8.7
+weight_unit: kg
+module-bays:
+  - name: PSU1
+    position: PSU1
+    description: Either a Power Supply Unit or a Fan Unit
+  - name: PSU2
+    position: PSU2
+    description: Either a Power Supply Unit or a Fan Unit
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+interfaces:
+  - name: Gig-E 1
+    label: NIC1/iLO
+    type: 1000base-t
+  - name: Gig-E 2
+    label: NIC2
+    type: 1000base-t

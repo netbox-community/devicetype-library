@@ -13,6 +13,10 @@ module-bays:
     position: A
   - name: PSU B
     position: B
+  - name: Fan A
+    position: A
+  - name: Fan B
+    position: B
 interfaces:
   - name: port1.0.1
     type: 10gbase-t
@@ -121,10 +125,3 @@ interfaces:
   - name: eth0
     type: 1000base-t
     mgmt_only: true
-inventory-items:
-  - name: Fan-Module A
-    manufacturer: Allied Telesis
-    part_id: AT-SBxFAN05
-  - name: Fan-Module B
-    manufacturer: Allied Telesis
-    part_id: AT-SBxFAN05
