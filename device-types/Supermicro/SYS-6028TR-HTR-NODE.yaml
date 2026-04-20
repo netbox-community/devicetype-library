@@ -20,44 +20,44 @@ interfaces:
     type: 1000base-t
     
 module-bays:
-  - name: CPU 0
+  - name: CPU 1
     position: '1'
     description: Socket R LGA 2011
-  - name: CPU 0
+  - name: CPU 2
     position: '2'
     description: Socket R LGA 2011
 
   - name: DIMM A1
     position: '1'
-    description: DDR4 DIMM slot
+    description: Connected to CPU 1
   - name: DIMM B1
     position: '2'
-    description: DDR4 DIMM slot
-  - name: DIMM 31
-    position: '4'
-    description: DDR4 DIMM slot
+    description: Connected to CPU 1
+  - name: DIMM C1
+    position: '3'
+    description: Connected to CPU 1
   - name: DIMM D1
     position: '4'
-    description: DDR4 DIMM slot
+    description: Connected to CPU 1
   - name: DIMM E1
     position: '5'
-    description: DDR4 DIMM slot
-  - name: DIMM R1
+    description: Connected to CPU 2
+  - name: DIMM F1
     position: '6'
-    description: DDR4 DIMM slot
+    description: Connected to CPU 2
   - name: DIMM G1
     position: '7'
-    description: DDR4 DIMM slot
+    description: Connected to CPU 2
   - name: DIMM H1
     position: '8'
-    description: DDR4 DIMM slot
+    description: Connected to CPU 2
 
-  - name: PCIe slot 1
+  - name: Slot1
     position: '1'
-    description: PCIe 3.0 x16 slot
-  - name: PCIe slot 2
+    description: PCI-E 3.0 x16 Slot supported by CPU1
+  - name: SXB1
     position: '2'
-    description: PCIe 3.0 x8 slot
-  - name: PCIe slot 3
+    description: PCI-E 3.0 x8 (in x4) Slot supported by CPU1
+  - name: SXB2
     position: '3'
-    description: PCIe 3.0 x8 slot
+    description: PCI-E 3.0 x8 (in x4) Slot supported by CPU2
