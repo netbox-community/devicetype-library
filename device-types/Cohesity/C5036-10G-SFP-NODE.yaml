@@ -1,0 +1,21 @@
+---
+manufacturer: Cohesity
+model: C5036-10G-SFP-NODE
+slug: cohesity-c5036-10g-sfp-node
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+comments: C5036-SFP Expansion Node with 36 TB Secure Erase HDD, 1.6 TB PCI-e Flash, 128 GB RAM, 4x 10GbE SFP+ PCIe, 1x IPMI; Hardware Only
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: Network 1
+    type: 10gbase-x-sfpp
+  - name: Network 2
+    type: 10gbase-x-sfpp
+  - name: Network 3
+    type: 10gbase-x-sfpp
+  - name: Network 4
+    type: 10gbase-x-sfpp

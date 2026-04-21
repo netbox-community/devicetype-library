@@ -1,0 +1,20 @@
+---
+manufacturer: Apple
+model: Mac mini (M1 2020)
+slug: apple-mac-mini-m1-2020
+part_number: A2348
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2.6
+weight_unit: lb
+comments: '[Mac Mini M1 2020 (Macmini9,1) | hardware specs](https://support.apple.com/en-us/111894)'
+power-ports:
+  - name: Power
+    type: iec-60320-c8
+    maximum_draw: 150
+interfaces:
+  - name: eth
+    type: 1000base-t
+  - name: wireless
+    type: ieee802.11ac
