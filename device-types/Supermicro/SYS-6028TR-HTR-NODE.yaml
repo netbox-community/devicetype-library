@@ -1,11 +1,11 @@
 ---
 manufacturer: Supermicro
-model: SuperServer 6028TR-HTR node
+model: SuperServer 6028TR-HTR-NODE
 slug: supermicro-sys-6028tr-htr-node
 u_height: 0
 is_full_depth: true
 airflow: front-to-rear
-comments: A node with Super X10DRT-H motherboard which gets installed in a SuperServer 6028TR-HTR (https://www.supermicro.com/en/products/system/2u/6028/sys-6028tr-htr.cfm)
+comments: A node with Super X10DRT-H motherboard which gets installed in a SuperServer 6028TR-HTR (https://www.supermicro.com/en/products/system/2u/6028/sys-6028tr-htr.php)
 subdevice_role: child
 console-ports:
   - name: RS-232
@@ -52,12 +52,12 @@ module-bays:
     position: '8'
     description: Connected to CPU 2
 
-  - name: Slot1
-    position: '1'
+  - name: Slot 1
+    position: Slot 1
     description: PCI-E 3.0 x16 Slot supported by CPU1
   - name: SXB1
-    position: '2'
+    position: SXB1
     description: PCI-E 3.0 x8 (in x4) Slot supported by CPU1
   - name: SXB2
-    position: '3'
+    position: SXB2
     description: PCI-E 3.0 x8 (in x4) Slot supported by CPU2

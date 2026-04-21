@@ -71,14 +71,20 @@ module-bays:
     description: DDR4 DIMM slot
 
   - name: SXB1
+    position: SXB1
     description: PCI-E 3.0 x8 slot supported by CPU1 for use of S-SATA 0-5 devices
   - name: SXB2
+    position: SXB2
     description: PCI-E 3.0 x16 slot supported by CPU2 for use of I-SATA 0-3 devices
   - name: SXB3_1
+    position: SXB3_1
     description: PCI-E 3.0 x16 slot supported by CPU1
   - name: SXB3_2
+    position: SXB3_2
     description: PCI-E 3.0 x8 slot supported by CPU2
   - name: SXB4
+    position: SXB4
     description: PCI-E 3.0 x16 slot supported by CPU2
   - name: Super I/O Module (SIOM) slot
+    position: SIOM
     description: PCI-E 3.0 x16 slot supported by CPU1

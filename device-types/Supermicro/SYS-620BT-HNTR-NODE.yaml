@@ -68,22 +68,23 @@ module-bays:
     description: Generally unused
 
   - name: SLOT1
-    position: '1'
+    position: SLOT1
     description: PCIe 4.0 x16 slot (right hand riser) supported by CPU1
   - name: SLOT2
-    position: '2'
+    position: SLOT2
     description: PCIe 4.0 x16 slot (left hand riser, via cable) supported by CPU2
   - name: SXB1
-    position: '3'
+    position: SXB1
     description: PCIe 4.0 x16 slot supported by CPU2
   - name: SXB2
-    position: '4'
+    position: SXB2
     description: PCIe 4.0 x8 slot supported by CPU2
   - name: SXB3
-    position: '5'
+    position: SXB3
     description: PCIe 4.0 x16 slot supported by CPU1
   - name: SXB4
-    position: '6'
+    position: SXB4
     description: PCIe 4.0 x8 slot supported by CPU1 for SMCI-proprietary storage devices
   - name: Advanced I/O Module (AIOM) slot
+    position: AIOM
     description: CPU1 PCIe 4.0x16 for networking
