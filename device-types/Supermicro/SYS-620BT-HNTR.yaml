@@ -1,15 +1,15 @@
 ---
 manufacturer: Supermicro
-model: SuperChassis CSE-827HQ-R2K20BP2
-slug: supermicro-cse-827hq-r2kw0bp2
-part_number: CSE-827HQ-R2K20BP2
+model: SYS-620BT-HNTR
+slug: supermicro-sys-620bt-hntr
+part_number: CSE-827BQ-000NP
 u_height: 2
 is_full_depth: true
-comments: 'Used in system [Supermicro SuperServer 6029TP-HTR](https://www.supermicro.com/en/products/system/2U/6029/SYS-6029TP-HTR.php)'
-subdevice_role: parent
-weight: 24.7
-weight_unit: kg
 airflow: front-to-rear
+comments: Chassis for [SuperServer 620BT-HNTR](https://www.supermicro.com/en/products/system/bigtwin/2u/sys-620bt-hntr)
+subdevice_role: parent
+weight: 30
+weight_unit: kg
 front_image: true
 rear_image: true
 
@@ -25,39 +25,39 @@ module-bays:
   - name: PSU2
     position: PSU2
 
-  - name: HDD bay A1
+  - name: HDD bay A0
     description: 'Connected to node A'
     position: '1'
-  - name: HDD bay A2
+  - name: HDD bay A1
     description: 'Connected to node A'
     position: '2'
-  - name: HDD bay A3
+  - name: HDD bay A2
     description: 'Connected to node A'
     position: '3'
-  - name: HDD bay B1
+  - name: HDD bay B0
     description: 'Connected to node B'
     position: '4'
-  - name: HDD bay B2
+  - name: HDD bay B1
     description: 'Connected to node B'
     position: '5'
-  - name: HDD bay B3
+  - name: HDD bay B2
     description: 'Connected to node B'
     position: '6'
-  - name: HDD bay C1
+  - name: HDD bay C0
     description: 'Connected to node C'
     position: '7'
-  - name: HDD bay C2
+  - name: HDD bay C1
     description: 'Connected to node C'
     position: '8'
-  - name: HDD bay C3
+  - name: HDD bay C2
     description: 'Connected to node C'
     position: '9'
-  - name: HDD bay D1
+  - name: HDD bay D0
     description: 'Connected to node D'
     position: '10'
-  - name: HDD bay D2
+  - name: HDD bay D1
     description: 'Connected to node D'
     position: '11'
-  - name: HDD bay D3
+  - name: HDD bay D2
     description: 'Connected to node D'
     position: '12'
