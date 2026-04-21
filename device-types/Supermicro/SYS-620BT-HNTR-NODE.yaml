@@ -60,6 +60,13 @@ module-bays:
     position: '2'
     description: Reserved for PMem 200 Series only
 
+  - name: CPU1 DIMM G2
+    position: '1'
+    description: Generally unused
+  - name: CPU2 DIMM G2
+    position: '2'
+    description: Generally unused
+
   - name: SLOT1
     position: '1'
     description: PCIe 4.0 x16 slot (right hand riser) supported by CPU1
