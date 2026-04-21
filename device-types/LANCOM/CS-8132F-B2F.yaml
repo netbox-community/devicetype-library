@@ -1,0 +1,104 @@
+---
+manufacturer: LANCOM
+model: CS-8132F-B2F
+slug: lancom-cs-8132f-b2f
+part_number: '61910'
+comments: >
+  This is the "Back to Front" Airflow variant.
+  [LANCOM CS-8132F Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-CS-8132F/DS_CS-8132F_DE.pdf)
+  [LANCOM SFAN-CS8 Data sheet](https://www.lancom-systems.com/fileadmin/download/LC-SFAN-CS8/DS_SFAN-CS8_EN.pdf)
+  [LANCOM SSPSU-750 Data sheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-750/DS_SPSU-750_EN.pdf)
+  "Front to Back" variant (Part Number 61909) also available as CS-8132F-F2B.yaml'
+u_height: 1
+is_full_depth: true
+weight: 7.44
+weight_unit: kg
+airflow: rear-to-front
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: FAN0
+    position: '1'
+  - name: FAN1
+    position: '2'
+  - name: FAN2
+    position: '3'
+interfaces:
+  - name: 1/0/1
+    type: 100gbase-x-qsfp28
+  - name: 1/0/2
+    type: 100gbase-x-qsfp28
+  - name: 1/0/3
+    type: 100gbase-x-qsfp28
+  - name: 1/0/4
+    type: 100gbase-x-qsfp28
+  - name: 1/0/5
+    type: 100gbase-x-qsfp28
+  - name: 1/0/6
+    type: 100gbase-x-qsfp28
+  - name: 1/0/7
+    type: 100gbase-x-qsfp28
+  - name: 1/0/8
+    type: 100gbase-x-qsfp28
+  - name: 1/0/9
+    type: 100gbase-x-qsfp28
+  - name: 1/0/10
+    type: 100gbase-x-qsfp28
+  - name: 1/0/11
+    type: 100gbase-x-qsfp28
+  - name: 1/0/12
+    type: 100gbase-x-qsfp28
+  - name: 1/0/13
+    type: 100gbase-x-qsfp28
+  - name: 1/0/14
+    type: 100gbase-x-qsfp28
+  - name: 1/0/15
+    type: 100gbase-x-qsfp28
+  - name: 1/0/16
+    type: 100gbase-x-qsfp28
+  - name: 1/0/17
+    type: 100gbase-x-qsfp28
+  - name: 1/0/18
+    type: 100gbase-x-qsfp28
+  - name: 1/0/19
+    type: 100gbase-x-qsfp28
+  - name: 1/0/20
+    type: 100gbase-x-qsfp28
+  - name: 1/0/21
+    type: 100gbase-x-qsfp28
+  - name: 1/0/22
+    type: 100gbase-x-qsfp28
+  - name: 1/0/23
+    type: 100gbase-x-qsfp28
+  - name: 1/0/24
+    type: 100gbase-x-qsfp28
+  - name: 1/0/25
+    type: 100gbase-x-qsfp28
+  - name: 1/0/26
+    type: 100gbase-x-qsfp28
+  - name: 1/0/27
+    type: 100gbase-x-qsfp28
+  - name: 1/0/28
+    type: 100gbase-x-qsfp28
+  - name: 1/0/29
+    type: 100gbase-x-qsfp28
+  - name: 1/0/30
+    type: 100gbase-x-qsfp28
+  - name: 1/0/31
+    type: 100gbase-x-qsfp28
+  - name: 1/0/32
+    type: 100gbase-x-qsfp28
+  - name: mgmt-rj45
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt-sfp
+    type: 25gbase-x-sfp28
+    mgmt_only: true
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-a
+    description: USB port for firmware and configuration transfer

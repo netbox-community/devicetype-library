@@ -32,9 +32,10 @@ interfaces:
   - name: Ethernet1/8
     type: 25gbase-x-sfp28
   - name: Management 1/1
-    type: 1000base-x-sfp
+    type: 25gbase-x-sfp28
+    mgmt_only: true
   - name: Management 1/2
-    type: 1000base-x-sfp
+    type: 25gbase-x-sfp28
     mgmt_only: true
 module-bays:
   - name: Network Module 2

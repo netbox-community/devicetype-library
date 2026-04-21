@@ -1,0 +1,19 @@
+---
+manufacturer: Dell
+model: OptiPlex SFF 7010
+slug: dell-optiplex-sff-7010
+part_number: 4PS9N04
+u_height: 2.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 3.68
+weight_unit: kg
+comments: See [Product documentation](https://www.dell.com/support/product-details/en-us/servicetag/0-Y25KTzdwZ3d0R01ZRzFpWCtmVklQUT090/resources/manuals).
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 260
+    description: Internal power supply unit, 85% Efficient, 80 Plus Bronze
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t

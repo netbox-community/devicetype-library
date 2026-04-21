@@ -1,0 +1,29 @@
+---
+profile: Expansion card
+manufacturer: RuggedCOM
+model: RMM2464-4SC2
+part_number: 6GK6000-8FX02-4EA0
+description: RSG2488 Slot 1 - 6; 100FX MM SC Module
+attribute_data:
+  connector_type: SC x 4
+interfaces:
+  - name: '{module}/1'
+    type: 100base-fx
+    mgmt_only: false
+    label: '1'
+    description: 100FX MM (Multi-Mode) SC
+  - name: '{module}/2'
+    type: 100base-fx
+    mgmt_only: false
+    label: '2'
+    description: 100FX MM (Multi-Mode) SC
+  - name: '{module}/3'
+    type: 100base-fx
+    mgmt_only: false
+    label: '3'
+    description: 100FX MM (Multi-Mode) SC
+  - name: '{module}/4'
+    type: 100base-fx
+    mgmt_only: false
+    label: '4'
+    description: 100FX MM (Multi-Mode) SC
