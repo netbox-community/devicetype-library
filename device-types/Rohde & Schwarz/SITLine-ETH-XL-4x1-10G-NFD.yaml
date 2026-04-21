@@ -1,10 +1,13 @@
 ---
 manufacturer: Rohde & Schwarz
-model: SITLine ETH-L 4x10G
-slug: rohde-and-schwarz-sitline-eth-l-4x10g
-part_number: 5414.6282.24
+model: SITLine ETH-XL 4x1/10G NFD
+slug: rohde-and-schwarz-sitline-eth-xl-4x1-10g-nfd
+part_number: 5414.8110K22
 u_height: 1
 is_full_depth: false
+weight: 8.7
+weight_unit: kg
+airflow: front-to-rear
 module-bays:
   - name: PS1
     position: '1'
@@ -27,6 +30,10 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: X4
     type: 10gbase-x-sfpp
-  - name: MGMT
+  - name: Aux
+    type: 1000base-t
+  - name: Console
+    type: 1000base-t
+  - name: Management
     type: 1000base-x-sfp
     mgmt_only: true

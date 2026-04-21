@@ -1,0 +1,55 @@
+---
+manufacturer: Rohde & Schwarz
+model: SITLine ETH-XL 8x1/10G NFD
+slug: rohde-and-schwarz-sitline-eth-xl-8x1-10g-nfd
+part_number: 5414.8110K22
+u_height: 1
+is_full_depth: false
+weight: 9.5
+weight_unit: kg
+airflow: front-to-rear
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: A1
+    type: 10gbase-x-sfpp
+  - name: A2
+    type: 10gbase-x-sfpp
+  - name: A3
+    type: 10gbase-x-sfpp
+  - name: A4
+    type: 10gbase-x-sfpp
+  - name: A5
+    type: 10gbase-x-sfpp
+  - name: A6
+    type: 10gbase-x-sfpp
+  - name: A7
+    type: 10gbase-x-sfpp
+  - name: A8
+    type: 10gbase-x-sfpp
+  - name: X1
+    type: 10gbase-x-sfpp
+  - name: X2
+    type: 10gbase-x-sfpp
+  - name: X3
+    type: 10gbase-x-sfpp
+  - name: X4
+    type: 10gbase-x-sfpp
+  - name: X5
+    type: 10gbase-x-sfpp
+  - name: X6
+    type: 10gbase-x-sfpp
+  - name: X7
+    type: 10gbase-x-sfpp
+  - name: X8
+    type: 10gbase-x-sfpp
+  - name: Aux
+    type: 1000base-t
+  - name: Console
+    type: 1000base-t
+  - name: Management
+    type: 1000base-x-sfp
+    mgmt_only: true
