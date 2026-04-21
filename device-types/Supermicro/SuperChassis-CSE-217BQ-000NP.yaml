@@ -1,0 +1,99 @@
+---
+manufacturer: Supermicro
+model: SuperChassis CSE-217BQ-000NP
+slug: supermicro-cse-217bw-000np
+part_number: CSE-217BQ-000NP
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: Used in system [SuperServer 220BT-HNTR](https://www.supermicro.com/en/products/system/bigtwin/2u/sys-220bt-hntr)
+subdevice_role: parent
+weight: 30
+weight_unit: kg
+front_image: true
+rear_image: true
+
+device-bays:
+  - name: Node A
+  - name: Node B
+  - name: Node C
+  - name: Node D
+
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+
+  - name: Storage bay A1
+    description: 'Connected to node A'
+    position: '1'
+  - name: Storage bay A2
+    description: 'Connected to node A'
+    position: '2'
+  - name: Storage bay A3
+    description: 'Connected to node A'
+    position: '3'
+  - name: Storage bay A4
+    description: 'Connected to node A'
+    position: '4'
+  - name: Storage bay A5
+    description: 'Connected to node A'
+    position: '5'
+  - name: Storage bay A6
+    description: 'Connected to node A'
+    position: '6'
+  - name: Storage bay B1
+    description: 'Connected to node B'
+    position: '7'
+  - name: Storage bay B2
+    description: 'Connected to node B'
+    position: '8'
+  - name: Storage bay B3
+    description: 'Connected to node B'
+    position: '9'
+  - name: Storage bay B4
+    description: 'Connected to node B'
+    position: '10'
+  - name: Storage bay B5
+    description: 'Connected to node B'
+    position: '11'
+  - name: Storage bay B6
+    description: 'Connected to node B'
+    position: '12'
+  - name: Storage bay C1
+    description: 'Connected to node C'
+    position: '13'
+  - name: Storage bay C2
+    description: 'Connected to node C'
+    position: '14'
+  - name: Storage bay C3
+    description: 'Connected to node C'
+    position: '15'
+  - name: Storage bay C4
+    description: 'Connected to node C'
+    position: '16'
+  - name: Storage bay C5
+    description: 'Connected to node C'
+    position: '17'
+  - name: Storage bay C6
+    description: 'Connected to node C'
+    position: '18'
+  - name: Storage bay D1
+    description: 'Connected to node D'
+    position: '19'
+  - name: Storage bay D2
+    description: 'Connected to node D'
+    position: '20'
+  - name: Storage bay D3
+    description: 'Connected to node D'
+    position: '21'
+  - name: Storage bay D4
+    description: 'Connected to node D'
+    position: '22'
+  - name: Storage bay D5
+    description: 'Connected to node D'
+    position: '23'
+  - name: Storage bay D6
+    description: 'Connected to node D'
+    position: '24'
