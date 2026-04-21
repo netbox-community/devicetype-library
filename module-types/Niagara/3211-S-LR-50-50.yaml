@@ -1,0 +1,19 @@
+---
+manufacturer: Niagara
+model: Network TAP Passive Fiber Optics Module Single Width 1310nm 1550nm 50/50
+part_number: 3211-S-LR-50/50
+comments: '[TAP Datasheet](https://info.niagaranetworks.com/hubfs/Product%20Data%20Sheets/3225/3225.pdf)'
+interfaces:
+  - name: Port/{module}/A_Monitor
+    type: 100gbase-x-qsfp28
+    description: Passive optical single mode simplex LC
+  - name: Port/{module}/B_Monitor
+    type: 100gbase-x-qsfp28
+    description: Passive optical single mode simplex LC
+front-ports:
+  - name: Port/{module}/A
+    type: lc
+    rear_port: Port/{module}/B
+rear-ports:
+  - name: Port/{module}/B
+    type: lc
