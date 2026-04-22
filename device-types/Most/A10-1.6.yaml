@@ -1,0 +1,37 @@
+---
+manufacturer: Most
+model: A10-1-6
+slug: most-a10-1-6
+description: Most A10-1.6
+part_number: A10-1.6
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+weight: 500
+weight_unit: g
+comments: '[A10-1.6 Datasheet by Kolyan](https://most2000.ru/catalog/seriya-active/most-a10.html)'
+power-ports:
+  - name: Input
+    type: ita-ef
+    label: Input
+    description: 220V AC, 10A, 50-60HZ, 2200W, 1.8m
+power-outlets:
+  - name: '01'
+    type: iec-60906-1
+    power_port: Input
+  - name: '02'
+    type: iec-60906-1
+    power_port: Input
+  - name: '03'
+    type: ita-f
+    power_port: Input
+  - name: '04'
+    type: ita-f
+    power_port: Input
+  - name: '05'
+    type: ita-f
+    power_port: Input
+  - name: '06'
+    type: ita-f
+    power_port: Input

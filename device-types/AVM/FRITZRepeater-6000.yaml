@@ -1,0 +1,22 @@
+---
+manufacturer: AVM
+model: FRITZ!Repeater 6000
+slug: avm-fritzrepeater-6000
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 11
+interfaces:
+  - name: LAN 1
+    type: 2.5gbase-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: WiFi 2.4 GHz
+    type: ieee802.11ax
+  - name: WiFi 5 GHz
+    type: ieee802.11ax

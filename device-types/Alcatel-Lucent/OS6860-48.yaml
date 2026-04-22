@@ -2,10 +2,14 @@
 manufacturer: Alcatel-Lucent
 model: OS6860-48
 slug: alcatel-lucent-os6860-48
+part_number: 903715-90
 u_height: 1
 is_full_depth: false
 front_image: true
 rear_image: true
+airflow: front-to-rear
+weight: 5.4
+weight_unit: kg
 console-ports:
   - name: Console
     type: usb-micro-b
@@ -13,11 +17,11 @@ power-ports:
   - name: PS1
     type: iec-60320-c14
     maximum_draw: 150
-    allocated_draw: 57
+    allocated_draw: 60
   - name: PS2
     type: iec-60320-c14
     maximum_draw: 150
-    allocated_draw: 57
+    allocated_draw: 60
 interfaces:
   - name: 1/1/1
     type: 1000base-t

@@ -1,0 +1,69 @@
+---
+manufacturer: Smartoptics
+model: H-MD-09-945-952
+part_number: H-MD-09-945-952
+weight: 0.2
+weight_unit: kg
+comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2023/01/so-ds-h-md-09-xxx-yyy-r5.5.pdf) 8-channel DWDM Mux/Demux with Extension
+  and Monitor ports'
+rear-ports:
+  - name: Filter/{module}/Line
+    type: lc-upc
+    description: WDM Line I/O
+    positions: 13
+front-ports:
+  - name: Filter/{module}/Ext
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 1
+    description: Incoming fiber for extension channel
+  - name: Filter/{module}/Mon
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 2
+    description: Monitor port for line channel
+  - name: Filter/{module}/NC
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 3
+    description: Not connected port
+  - name: Filter/{module}/945
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 4
+    description: 194.5 THz
+  - name: Filter/{module}/946
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 5
+    description: 194.6 THz
+  - name: Filter/{module}/947
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 6
+    description: 194.7 THz
+  - name: Filter/{module}/948
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 7
+    description: 194.8 THz
+  - name: Filter/{module}/949
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 8
+    description: 194.9 THz
+  - name: Filter/{module}/950
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 9
+    description: 195.0 THz
+  - name: Filter/{module}/951
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 10
+    description: 195.1 THz
+  - name: Filter/{module}/952
+    type: lc-upc
+    rear_port: Filter/{module}/Line
+    rear_port_position: 11
+    description: 195.2 THz

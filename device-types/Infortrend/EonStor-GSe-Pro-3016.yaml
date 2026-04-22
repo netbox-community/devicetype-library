@@ -1,0 +1,25 @@
+---
+manufacturer: Infortrend
+model: EonStor-GSe-Pro-3016
+slug: infortrend-eonstor-gse-pro-3016
+part_number: EonStor-GSe-Pro-3016
+u_height: 3
+is_full_depth: false
+airflow: front-to-rear
+weight: 14.81
+weight_unit: kg
+comments: '[EonStor-GSe-Pro-3016 3U 16LFF 1Controller storage | Hardware Specs](https://www.infortrend.com/ru/products/families/gsepro/pro3000)'
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t

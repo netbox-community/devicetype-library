@@ -1,0 +1,76 @@
+---
+manufacturer: SNR
+model: S2985G-8T-POE
+slug: snr-s2985g-8t-poe
+part_number: S2985G-8T-POE
+u_height: 1.0
+is_full_depth: false
+airflow: right-to-left
+weight: 1.5
+weight_unit: kg
+comments: '[SNR-S2985G-8T-POE](https://snr.global/en/PoE-PoE-Switches/981-SNR-S2985G-8T-POE.html)'
+console-ports:
+  - name: con0
+    label: CONSOLE
+    type: rj-45
+power-ports:
+  - name: power AC
+    type: iec-60320-c14
+    maximum_draw: 124
+interfaces:
+  - name: Ethernet1/0/1
+    type: 1000base-t
+    enabled: true
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/2
+    type: 1000base-t
+    enabled: true
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/3
+    type: 1000base-t
+    enabled: true
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/4
+    type: 1000base-t
+    enabled: true
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/5
+    type: 1000base-t
+    enabled: true
+    label: '5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/6
+    type: 1000base-t
+    enabled: true
+    label: '6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/7
+    type: 1000base-t
+    enabled: true
+    label: '7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/8
+    type: 1000base-t
+    enabled: true
+    label: '8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet1/0/9
+    type: 1000base-x-sfp
+    enabled: true
+    label: '9'
+  - name: Ethernet1/0/10
+    type: 1000base-x-sfp
+    enabled: true
+    label: '10'

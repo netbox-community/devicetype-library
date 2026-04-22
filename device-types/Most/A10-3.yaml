@@ -1,0 +1,37 @@
+---
+manufacturer: Most
+model: A10-3
+slug: most-a10-3
+description: Most A10-3
+part_number: A10-3
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+weight: 510
+weight_unit: g
+comments: '[A10-3 Datasheet by Kolyan](https://most2000.ru/catalog/seriya-active/most-a10.html)'
+power-ports:
+  - name: Input
+    type: ita-ef
+    label: Input
+    description: 220V AC, 10A, 50-60HZ, 2200W, 3m
+power-outlets:
+  - name: '01'
+    type: iec-60906-1
+    power_port: Input
+  - name: '02'
+    type: iec-60906-1
+    power_port: Input
+  - name: '03'
+    type: ita-f
+    power_port: Input
+  - name: '04'
+    type: ita-f
+    power_port: Input
+  - name: '05'
+    type: ita-f
+    power_port: Input
+  - name: '06'
+    type: ita-f
+    power_port: Input

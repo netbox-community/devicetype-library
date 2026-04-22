@@ -2,12 +2,21 @@
 manufacturer: MikroTik
 model: CRS326-24G-2S+RM
 slug: mikrotik-crs326-24g-2s-plus-rm
-part_number: CRS326-24G-2S
+part_number: CRS326-24G-2S+RM
 is_full_depth: false
 u_height: 1
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 1.08
+weight_unit: kg
 interfaces:
   - name: ether1
     label: '1'
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
     type: 1000base-t
   - name: ether2
     label: '2'
@@ -85,7 +94,7 @@ interfaces:
     label: SFP+ 2
     type: 10gbase-x-sfpp
 power-ports:
-  - name: psu1
+  - name: DC
     label: DC 10-28V
     type: dc-terminal
     maximum_draw: 24
@@ -93,4 +102,4 @@ console-ports:
   - name: serial0
     label: CONSOLE
     type: rj-45
-comments: 24x Gigabit Switch with 2x SFP+ Cages in 1U Rackmount Case
+comments: '[CRS326-24G-2S+RM Datasheet by Kolyan](https://mikrotik.com/product/CRS326-24G-2SplusRM#fndtn-specifications)'

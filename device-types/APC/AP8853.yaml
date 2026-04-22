@@ -4,6 +4,8 @@ model: AP8853
 slug: apc-ap8853
 part_number: AP8853
 u_height: 0
+weight: 6.93
+weight_unit: kg
 is_full_depth: false
 comments: Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19
 console-ports:
@@ -16,171 +18,129 @@ power-outlets:
   - name: Power Outlet 1
     type: iec-60320-c19
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 2
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 3
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 4
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 5
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 6
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 7
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 8
     type: iec-60320-c19
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 9
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 10
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 11
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 12
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 13
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 14
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 15
     type: iec-60320-c19
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 16
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 17
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 18
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 19
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 20
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: A
   - name: Power Outlet 21
-    type: iec-60320-c19
-    power_port: Power Port 1
-    feed_leg: B
-  - name: Power Outlet 22
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
+  - name: Power Outlet 22
+    type: iec-60320-c19
+    power_port: Power Port 1
   - name: Power Outlet 23
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 24
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 25
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 26
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 27
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 28
-    type: iec-60320-c19
-    power_port: Power Port 1
-    feed_leg: B
-  - name: Power Outlet 29
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
+  - name: Power Outlet 29
+    type: iec-60320-c19
+    power_port: Power Port 1
   - name: Power Outlet 30
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 31
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 32
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 33
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 34
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 35
-    type: iec-60320-c19
-    power_port: Power Port 1
-    feed_leg: B
-  - name: Power Outlet 36
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
+  - name: Power Outlet 36
+    type: iec-60320-c19
+    power_port: Power Port 1
   - name: Power Outlet 37
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 38
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 39
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 40
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 41
     type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
   - name: Power Outlet 42
-    type: iec-60320-c19
+    type: iec-60320-c13
     power_port: Power Port 1
-    feed_leg: B
 interfaces:
   - name: Network
     type: 100base-tx

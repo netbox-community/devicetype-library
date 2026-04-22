@@ -1,0 +1,30 @@
+---
+manufacturer: BiZone
+model: sdwan-ce20n-3t2m
+slug: bizone-sdwan-ce20n-3t2m
+part_number: sdwan-ce20n-3t2m
+u_height: 1
+is_full_depth: false
+weight: 1.3
+weight_unit: kg
+comments: BI.ZONE CyberEdge 20, 4 Cores, 4 GB RAM, 16GB storage, 3x1G RJ45, 2xLTE, ext. PSU
+airflow: passive
+power-ports:
+  - name: PSU 12v 3a
+    type: dc-terminal
+    maximum_draw: 40
+    allocated_draw: 30
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: lte0
+    type: lte
+  - name: lte1
+    type: lte

@@ -4,6 +4,8 @@ model: S5735-L48P4X-A
 slug: huawei-s5735-l48p4x-a
 part_number: S5735-L48P4X-A
 u_height: 1.0
+weight: 3.23
+weight_unit: kg
 is_full_depth: false
 airflow: front-to-rear
 comments: CloudEngine S5735-L48P4X-A (48 * 10/100/1000BASE-T ports, 4 * 10GE SFP+ ports, PoE+, AC power)
@@ -211,11 +213,11 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: interface XGigabitEthernet0/0/1
+  - name: XGigabitEthernet0/0/1
     type: 10gbase-x-sfpp
-  - name: interface XGigabitEthernet0/0/2
+  - name: XGigabitEthernet0/0/2
     type: 10gbase-x-sfpp
-  - name: interface XGigabitEthernet0/0/3
+  - name: XGigabitEthernet0/0/3
     type: 10gbase-x-sfpp
-  - name: interface XGigabitEthernet0/0/4
+  - name: XGigabitEthernet0/0/4
     type: 10gbase-x-sfpp

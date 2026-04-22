@@ -1,0 +1,45 @@
+---
+manufacturer: Xfusion
+model: 5298-V7
+slug: xfusion-5298-v7
+airflow: front-to-rear
+comments: '[Technical Specification 5298 V7 (32DIMM DDR5, 2CPU Intel Xeon 4 or 5 series, 4PSU, 60*3.5" SAS/SATA drive)](https://www.xfusion.com/en/product/rack-server/fusionserver-5298-v7)'
+u_height: 4
+is_full_depth: true
+weight: 64
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PSU3
+    position: PSU3
+  - name: PSU4
+    position: PSU4
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: RAID
+    position: RAID
+interfaces:
+  - name: Eth-1
+    type: 10gbase-t
+  - name: Eth-2
+    type: 10gbase-t
+  - name: Eth-3
+    type: 1000base-t
+  - name: Eth-4
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true

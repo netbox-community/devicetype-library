@@ -1,0 +1,18 @@
+---
+manufacturer: Ubiquiti
+model: LiteAP GPS
+slug: ubiquiti-liteap-gps
+part_number: LAP-GPS
+u_height: 0
+is_full_depth: false
+comments: '[LiteAP GPS](https://store.ui.com/us/en/category/wireless-airmax-5ghz/products/lite-ap-gps?c=US)'
+weight: 752
+weight_unit: g
+airflow: passive
+interfaces:
+  - name: lan0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+  - name: wlan0
+    type: ieee802.11ac

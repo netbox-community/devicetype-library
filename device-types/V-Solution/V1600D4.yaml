@@ -1,0 +1,63 @@
+---
+manufacturer: V-Solution
+model: V1600D4
+slug: v-solution-v1600d4
+description: V-SOL 4 Port EPON OLT (Rebranded by Syrotech, Digiway, Sharp Vision etc)
+part_number: V1600D4
+u_height: 1.0
+is_full_depth: false
+airflow: left-to-right
+weight: 1.4
+weight_unit: kg
+comments: 'Datasheet: https://www.scribd.com/document/667911092/V1600D4-Datasheet-V1-3-EN'
+console-ports:
+  - name: Console
+    type: rj-45
+    label: Console
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 40
+    allocated_draw: 30
+interfaces:
+  - name: AUX Interface
+    type: 100base-fx
+    mgmt_only: true
+    label: AUX
+    description: 'Default Web management IP: 192.168.8.100'
+  - name: epon 0/1
+    type: epon
+    label: PON1
+  - name: epon 0/2
+    type: epon
+    label: PON2
+  - name: epon 0/3
+    type: epon
+    label: PON3
+  - name: epon 0/4
+    type: epon
+    label: PON4
+  - name: gigabitethernet 0/1
+    type: 1000base-x-sfp
+    label: GE1
+  - name: gigabitethernet 0/2
+    type: 1000base-x-sfp
+    label: GE2
+  - name: gigabitethernet 0/3
+    type: 1000base-x-sfp
+    label: GE3
+  - name: gigabitethernet 0/4
+    type: 1000base-x-sfp
+    label: GE4
+  - name: gigabitethernet 0/5
+    type: 1000base-t
+    label: GE5
+  - name: gigabitethernet 0/6
+    type: 1000base-t
+    label: GE6
+  - name: gigabitethernet 0/7
+    type: 1000base-t
+    label: GE7
+  - name: gigabitethernet 0/8
+    type: 1000base-t
+    label: GE8

@@ -1,0 +1,12 @@
+---
+manufacturer: FS
+model: SFP-10GSR-85
+part_number: SFP-10GSR-85
+description: 10GBASE-SR SFP+ 850nm 300m DOM Duplex LC/UPC MMF Transceiver Module for FS Switch
+comments: |
+  [10GBASE-SR SFP+](https://www.fs.com/it/products/11589.html)
+interfaces:
+  - name: ethernet 1/{module}
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false

@@ -1,0 +1,70 @@
+---
+manufacturer: Cisco
+model: ISR2851
+slug: cisco-isr2851
+part_number: CISCO2851
+u_height: 2
+is_full_depth: true
+weight: 11.4
+weight_unit: kg
+comments: 'Datasheet: [Link](https://www.cisco.com/c/dam/global/de_at/assets/unified_partners/smb/vertriebliche-positionierung/routing/downloads/isr_2800_datenblatt_e.pdf)'
+console-ports:
+  - name: aux 0
+    type: rj-45
+    label: AUX
+  - name: con 0
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    allocated_draw: 180
+    maximum_draw: 360
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    label: GE 0/0
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+    label: GE 0/1
+module-bays:
+  - name: AIM slot 0
+    label: AIM 0
+    position: AIM0
+    description: Advanced Integration Module Slot
+  - name: AIM slot 1
+    label: AIM 1
+    position: AIM1
+    description: Advanced Integration Module Slot
+  - name: Slot 0 SubSlot 4
+    label: PVDM0
+    position: PVDM0
+    description: Packet Voice Digital Signal Processor Module Slot
+  - name: Slot 0 SubSlot 5
+    label: PVDM1
+    position: PVDM1
+    description: Packet Voice Digital Signal Processor Module Slot
+  - name: Slot 0 SubSlot 6
+    label: PVDM2
+    position: PVDM2
+    description: Packet Voice Digital Signal Processor Module Slot
+  - name: Slot 0/0
+    label: HWIC0
+    position: 0/0
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 0/1
+    label: HWIC1
+    position: 0/1
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 0/2
+    label: HWIC2
+    position: 0/2
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 0/3
+    label: HWIC3
+    position: 0/3
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 1/0
+    label: '1'
+    position: 1/0
+    description: Single-wide / Extended single-wide Network Module Slot

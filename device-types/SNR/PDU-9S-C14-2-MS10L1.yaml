@@ -1,0 +1,41 @@
+---
+manufacturer: SNR
+model: PDU-9S-C14-2-MS10L1
+slug: snr-pdu-9s-c14-ms10l1
+u_height: 1
+is_full_depth: false
+weight: 0.8
+weight_unit: kg
+airflow: passive
+comments: Rack PDU, 1U, 10A, 230V, (9)Schuko
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 2
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 3
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 4
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 5
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 6
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 7
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 8
+    type: ita-f
+    power_port: Power Port 1
+  - name: Outlet 9
+    type: ita-f
+    power_port: Power Port 1

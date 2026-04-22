@@ -1,0 +1,29 @@
+---
+manufacturer: Quantum
+model: Scalar i3
+slug: quantum-scalar-i3
+description: LTO library for long-term data archiving
+u_height: 3.0
+is_full_depth: true
+comments: '[Scalar Tape Libraries Datasheet](https://cdn.allbound.com/iq-ab/2021/11/Scalar-Tape-DS00559A.pdf)'
+front_image: true
+rear_image: true
+interfaces:
+  - name: GB1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: GB2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Management
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    description: Remote GUI and RESTful Web Services for library mgmt
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2

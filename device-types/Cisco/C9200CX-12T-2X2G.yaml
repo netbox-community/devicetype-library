@@ -11,6 +11,10 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 80
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t

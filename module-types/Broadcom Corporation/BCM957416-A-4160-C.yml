@@ -1,0 +1,11 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957416-A-4160-C
+part_number: BCM957416-A-4160-C
+comments: '[BCM57416-2P - 2 x 10GBASE-T PCIe3](https://docs.broadcom.com/doc/957416A4160C-DS)'
+description: Dual-Port 10GBASE-T Ethernet PCI Express 3.0 x8 Network Interface Card
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-t
+  - name: Ethernet/{module}/2
+    type: 10gbase-t

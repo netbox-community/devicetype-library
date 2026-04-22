@@ -1,0 +1,33 @@
+---
+manufacturer: Sprinter
+model: Sprinter TX 48-2E1-2FE-AC220
+slug: sprinter-tx-48-2e1-2fe-ac220
+part_number: Sprinter-TX-48-2E1-2FE-AC220
+comments: '[Sprinter-TX-48-2E1-2FE-AC220  TDMoP MUX](https://www.nsc-com.com/productions/telecommunications/sprinter-tx-48)'
+is_full_depth: false
+weight: 0.55
+weight_unit: kg
+airflow: passive
+u_height: 1
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-b
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 6
+interfaces:
+  - name: port0
+    type: 1000base-x-sfp
+  - name: port1
+    type: 1000base-x-sfp
+  - name: eth-0
+    type: 100base-tx
+  - name: eth-1
+    type: 100base-tx
+  - name: e1-port1
+    type: e1
+  - name: e1-port2
+    type: e1

@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: Assurance Sensor GT
+slug: cisco-assurance-gt-sky-gt-aa
+part_number: SKY-GT-AA
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 3
+weight_unit: lb
+comments: '[Assurance Sensor Datasheet](https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/provider-connectivity-assurance-sensors/provider-connect-assurance-sensors-gts-ds.html)
+  [Assurance Sensor Installation Overview](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/provider-connectivity-assurance/hardware/assurance-sensor-gt/gt-install/m_overview.pdf)'
+power-ports:
+  - name: PS A
+    type: dc-terminal
+    maximum_draw: 22
+  - name: PS B
+    type: dc-terminal
+    maximum_draw: 22
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: MGMT
+    type: 100base-tx
+    mgmt_only: true

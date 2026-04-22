@@ -18,7 +18,8 @@
           "$ref": "urn:devicetype-library:generated-schema#/definitions/console-port/properties/type"
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         },
         "_is_power_source": {
           "$ref": "urn:devicetype-library:reusable#/definitions/_is_power_source"
@@ -45,7 +46,8 @@
           "$ref": "urn:devicetype-library:generated-schema#/definitions/console-server-port/properties/type"
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
@@ -77,7 +79,8 @@
           "minimum": 1
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
@@ -108,7 +111,8 @@
           "$ref": "urn:devicetype-library:generated-schema#/definitions/power-outlet/properties/feed-leg"
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
@@ -138,7 +142,8 @@
           "type": "boolean"
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         },
         "bridge": {
           "type": "string",
@@ -187,7 +192,8 @@
           "minimum": 1
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
@@ -220,7 +226,8 @@
           "minimum": 1
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         },
         "_is_power_source": {
           "$ref": "urn:devicetype-library:reusable#/definitions/_is_power_source"
@@ -248,7 +255,8 @@
           "maxLength": 30
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
@@ -269,7 +277,8 @@
           "maxLength": 64
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [
@@ -297,7 +306,8 @@
           "maxLength": 50
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "maxLength": 200
         }
       },
       "required": [

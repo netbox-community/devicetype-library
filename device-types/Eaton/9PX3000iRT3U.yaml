@@ -1,0 +1,75 @@
+---
+manufacturer: Eaton
+model: 9PX3000iRT3U
+slug: eaton-9px3000irt3u
+part_number: 9PX3000iRT3U
+u_height: 3.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 28.0
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: 9PX 1-3kVA Series [Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-9px-ups/eaton-9px-1-3kva-ups-manual.pdf)
+console-ports:
+  - name: Serial
+    type: de-9
+    label: RS232
+  - name: USB Console
+    type: usb-b
+    label: USB
+power-ports:
+  - name: Mains Utility
+    type: iec-60320-c20
+    maximum_draw: 3000
+    label: Input 16A
+power-outlets:
+  - name: Group 1 - Output 1
+    type: iec-60320-c19
+    power_port: Mains Utility
+    label: Output
+  - name: Group 1 - Output 2
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Group 1 - Output 3
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Group 2 - Output 1
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Group 2 - Output 2
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Primary Group - Output 1
+    type: iec-60320-c19
+    power_port: Mains Utility
+    label: Output
+  - name: Primary Group - Output 2
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Primary Group - Output 3
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Primary Group - Output 4
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+  - name: Primary Group - Output 5
+    type: iec-60320-c13
+    power_port: Mains Utility
+    label: Output 10A
+module-bays:
+  - name: Communication card slot
+    position: '1'
+  - name: Environmental Sensor 1
+    position: '1'
+  - name: Environmental Sensor 2
+    position: '2'
+  - name: Environmental Sensor 3
+    position: '3'

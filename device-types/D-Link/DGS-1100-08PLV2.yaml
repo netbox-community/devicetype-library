@@ -1,0 +1,54 @@
+---
+manufacturer: D-Link
+model: DGS-1100-08PLV2
+slug: d-link-dgs-1100-08plv2
+part_number: DGS-1100-08PLV2
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 0.6
+weight_unit: kg
+interfaces:
+  - name: eth1
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: eth2
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: eth3
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: eth4
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+    type: 1000base-t
+  - name: eth5
+    label: '5'
+    type: 1000base-t
+  - name: eth6
+    label: '6'
+    type: 1000base-t
+  - name: eth7
+    label: '7'
+    type: 1000base-t
+  - name: eth8
+    label: '8'
+    type: 1000base-t
+power-ports:
+  - name: DC
+    label: 54V 1.67A
+    type: dc-terminal
+    maximum_draw: 84
+    allocated_draw: 4
+    description: NU90-J540167-I1, ESV160535, 100-240V AC, 50-60Hz, 1.2A
+comments: '[DGS-1100-08PLV2 Datasheet by Kolyan](https://www.dlink.ru/ru/products/1366/2518.html)'
