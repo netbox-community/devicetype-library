@@ -2,62 +2,89 @@
 manufacturer: Supermicro
 model: SYS-6029TP-HTR
 slug: supermicro-sys-6029tp-htr
-part_number: CSE-827HQ+-R2K20BP2
-u_height: 2
+u_height: 0
 is_full_depth: true
-comments: Chassis for [Supermicro SuperServer 6029TP-HTR](https://www.supermicro.com/en/products/system/2U/6029/SYS-6029TP-HTR.php)
-subdevice_role: parent
-weight: 24.7
-weight_unit: kg
 airflow: front-to-rear
-front_image: true
-rear_image: true
+comments: A node with Super X11DPT-PS motherboard which gets installed in a SYS-6029TP-CHASSIS (https://www.supermicro.com/en/products/system/2U/6029/SYS-6029TP-HTR.php)
+subdevice_role: child
 
-device-bays:
-  - name: Node A
-  - name: Node B
-  - name: Node C
-  - name: Node D
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
 
 module-bays:
-  - name: PSU1
-    position: PSU1
-  - name: PSU2
-    position: PSU2
+  - name: CPU 1
+    position: 'CPU 1'
+    description: Socket R LGA 2011
+  - name: CPU 2
+    position: 'CPU 2'
+    description: Socket R LGA 2011
 
-  - name: HDD bay A1
-    description: Connected to node A
-    position: '1'
-  - name: HDD bay A2
-    description: Connected to node A
-    position: '2'
-  - name: HDD bay A3
-    description: Connected to node A
-    position: '3'
-  - name: HDD bay B1
-    description: Connected to node B
-    position: '4'
-  - name: HDD bay B2
-    description: Connected to node B
-    position: '5'
-  - name: HDD bay B3
-    description: Connected to node B
-    position: '6'
-  - name: HDD bay C1
-    description: Connected to node C
-    position: '7'
-  - name: HDD bay C2
-    description: Connected to node C
-    position: '8'
-  - name: HDD bay C3
-    description: Connected to node C
-    position: '9'
-  - name: HDD bay D1
-    description: Connected to node D
-    position: '10'
-  - name: HDD bay D2
-    description: Connected to node D
-    position: '11'
-  - name: HDD bay D3
-    description: Connected to node D
-    position: '12'
+  - name: P1-DIMM-A1
+    position: P1-DIMM-A1
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-A2
+    position: P1-DIMM-A2
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-B1
+    position: P1-DIMM-B1
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-C1
+    position: P1-DIMM-C1
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-D1
+    position: P1-DIMM-D1
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-D2
+    position: P1-DIMM-D2
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-E1
+    position: P1-DIMM-E1
+    description: DDR4 DIMM slot
+  - name: P1-DIMM-F1
+    position: P1-DIMM-F1
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-A1
+    position: P2-DIMM-A1
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-A2
+    position: P2-DIMM-A2
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-B1
+    position: P2-DIMM-B1
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-C1
+    position: P2-DIMM-C1
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-D1
+    position: P2-DIMM-D1
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-D2
+    position: P2-DIMM-D2
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-E1
+    position: P2-DIMM-E1
+    description: DDR4 DIMM slot
+  - name: P2-DIMM-F1
+    position: P2-DIMM-F1
+    description: DDR4 DIMM slot
+
+  - name: SXB1
+    position: SXB1
+    description: PCI-E 3.0 x8 slot supported by CPU1 for use of S-SATA 0-5 devices
+  - name: SXB2
+    position: SXB2
+    description: PCI-E 3.0 x16 slot supported by CPU2 for use of I-SATA 0-3 devices
+  - name: SXB3_1
+    position: SXB3_1
+    description: PCI-E 3.0 x16 slot supported by CPU1
+  - name: SXB3_2
+    position: SXB3_2
+    description: PCI-E 3.0 x8 slot supported by CPU2
+  - name: SXB4
+    position: SXB4
+    description: PCI-E 3.0 x16 slot supported by CPU2
+  - name: Super I/O Module (SIOM) slot
+    position: SIOM
+    description: PCI-E 3.0 x16 slot supported by CPU1

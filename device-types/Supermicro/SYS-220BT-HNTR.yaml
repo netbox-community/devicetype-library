@@ -2,98 +2,92 @@
 manufacturer: Supermicro
 model: SYS-220BT-HNTR
 slug: supermicro-sys-220bt-hntr
-part_number: CSE-217BQ-000NP
-u_height: 2
+u_height: 0
 is_full_depth: true
 airflow: front-to-rear
-comments: Chassis for [SuperServer 220BT-HNTR](https://www.supermicro.com/en/products/system/bigtwin/2u/sys-220bt-hntr)
-subdevice_role: parent
-weight: 30
-weight_unit: kg
-front_image: true
-rear_image: true
-
-device-bays:
-  - name: Node A
-  - name: Node B
-  - name: Node C
-  - name: Node D
+comments: A node with Super X12DPT-B6 motherboard which gets installed in a SYS-220BT-HNTR chassis (https://www.supermicro.com/en/products/system/bigtwin/2u/sys-220bt-hntr)
+subdevice_role: child
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
 
 module-bays:
-  - name: PSU1
-    position: PSU1
-  - name: PSU2
-    position: PSU2
+  - name: CPU 1
+    position: CPU 1
+    description: LGA-4189
+  - name: CPU 2
+    position: CPU 2
+    description: LGA-4189
 
-  - name: Storage bay A1
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node A
-    position: '1'
-  - name: Storage bay A2
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node A
-    position: '2'
-  - name: Storage bay A3
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node A
-    position: '3'
-  - name: Storage bay A4
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node A
-    position: '4'
-  - name: Storage bay A5
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node A
-    position: '5'
-  - name: Storage bay A6
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node A
-    position: '6'
-  - name: Storage bay B1
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node B
-    position: '7'
-  - name: Storage bay B2
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node B
-    position: '8'
-  - name: Storage bay B3
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node B
-    position: '9'
-  - name: Storage bay B4
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node B
-    position: '10'
-  - name: Storage bay B5
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node B
-    position: '11'
-  - name: Storage bay B6
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node B
-    position: '12'
-  - name: Storage bay C1
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node C
-    position: '13'
-  - name: Storage bay C2
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node C
-    position: '14'
-  - name: Storage bay C3
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node C
-    position: '15'
-  - name: Storage bay C4
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node C
-    position: '16'
-  - name: Storage bay C5
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node C
-    position: '17'
-  - name: Storage bay C6
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node C
-    position: '18'
-  - name: Storage bay D1
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node D
-    position: '19'
-  - name: Storage bay D2
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node D
-    position: '20'
-  - name: Storage bay D3
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node D
-    position: '21'
-  - name: Storage bay D4
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node D
-    position: '22'
-  - name: Storage bay D5
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node D
-    position: '23'
-  - name: Storage bay D6
-    description: Hot-swap 2.5" NVMe/SATA hybrid bay for node D
-    position: '24'
+  - name: CPU1 DIMM A1
+    position: CPU1 DIMM A1
+  - name: CPU1 DIMM B1
+    position: CPU1 DIMM B1
+  - name: CPU1 DIMM C1
+    position: CPU1 DIMM C1
+  - name: CPU1 DIMM D1
+    position: CPU1 DIMM D1
+  - name: CPU1 DIMM E1
+    position: CPU1 DIMM E1
+  - name: CPU1 DIMM F1
+    position: CPU1 DIMM F1
+  - name: CPU1 DIMM G1
+    position: CPU1 DIMM G1
+  - name: CPU1 DIMM H1
+    position: CPU1 DIMM H1
+  - name: CPU2 DIMM A1
+    position: CPU2 DIMM A1
+  - name: CPU2 DIMM B1
+    position: CPU2 DIMM B1
+  - name: CPU2 DIMM C1
+    position: CPU2 DIMM C1
+  - name: CPU2 DIMM D1
+    position: CPU2 DIMM D1
+  - name: CPU2 DIMM E1
+    position: CPU2 DIMM E1
+  - name: CPU2 DIMM F1
+    position: CPU2 DIMM F1
+  - name: CPU2 DIMM G1
+    position: CPU2 DIMM G1
+  - name: CPU2 DIMM H1
+    position: CPU2 DIMM H1
+
+  - name: CPU1 DIMM C2
+    position: CPU1 DIMM C2
+    description: Reserved for PMem 200 Series only
+  - name: CPU2 DIMM C2
+    position: CPU2 DIMM C2
+    description: Reserved for PMem 200 Series only
+
+  - name: CPU1 DIMM G2
+    position: CPU1 DIMM G2
+    description: Generally unused
+  - name: CPU2 DIMM G2
+    position: CPU2 DIMM G2
+    description: Generally unused
+
+  - name: SLOT1
+    position: SLOT1
+    description: PCIe 4.0 x16 slot (right hand riser) supported by CPU1
+  - name: SLOT2
+    position: SLOT2
+    description: PCIe 4.0 x16 slot (left hand riser, via cable) supported by CPU2
+  - name: SXB1
+    position: SXB1
+    description: PCIe 4.0 x16 slot supported by CPU2
+  - name: SXB2
+    position: SXB2
+    description: PCIe 4.0 x8 slot supported by CPU2
+  - name: SXB3
+    position: SXB3
+    description: PCIe 4.0 x16 slot supported by CPU1
+  - name: SXB4
+    position: SXB4
+    description: PCIe 4.0 x8 slot supported by CPU1 for SMCI-proprietary storage devices
+  - name: SXB5
+    position: SXB5
+    description: PCIe 4.0 x8 slot supported by CPU1 for dual hybrid M.2
+  - name: Advanced I/O Module (AIOM) slot
+    position: AIOM
+    description: CPU1 PCIe 4.0x16 for networking
