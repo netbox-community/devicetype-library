@@ -1,0 +1,16 @@
+---
+manufacturer: Arista
+model: PWR-3KT-DC-RED
+weight: 5.5
+weight_unit: lb
+profile: Power supply
+comments: Power supply for DCS-7504N, 7508N, 7512N, and 7516N chassis
+attribute_data:
+  wattage: 3000
+  hot_swappable: true
+  input_current: DC
+  input_voltage: 240
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 3000

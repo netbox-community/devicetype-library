@@ -9,6 +9,9 @@ u_height: 1
 interfaces:
   - name: ether1
     type: 1000base-t
+    label: ETH/PoE in
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
   - name: sfp1
     type: 1000base-x-sfp
   - name: sfp2
@@ -34,6 +37,7 @@ interfaces:
 console-ports:
   - name: serial0
     type: rj-45
+    label: CONSOLE
 power-ports:
   - name: psu1
     label: DC 18-57V

@@ -1,0 +1,13 @@
+---
+manufacturer: Juniper
+model: RE-S-1800x4
+part_number: 740-031116
+console-ports:
+  - name: console
+    type: rj-45
+  - name: AUX
+    type: rj-45
+interfaces:
+  - name: fxp0
+    type: 1000base-t
+    mgmt_only: true
