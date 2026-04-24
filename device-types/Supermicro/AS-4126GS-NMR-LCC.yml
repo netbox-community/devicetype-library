@@ -23,6 +23,54 @@ interfaces:
     type: virtual
     description: VPCIP
 
+  - name: eno0
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE (port 1/2 on dual-port card)
+
+  - name: eno1
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE (port 2/2 on dual-port card)
+
+  - name: enp81s0f1np0
+    type: 10gbase-t
+    description: Intel X710
+
+  - name: enp81s0f1np1
+    type: 10gbase-t
+    description: Intel X710
+
+  - name: eth0
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-01
+
+  - name: eth1
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-02
+
+  - name: eth2
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-03
+
+  - name: eth3
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-04
+
+  - name: eth4
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-05
+
+  - name: eth5
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-06
+
+  - name: eth6
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-07
+
+  - name: eth7
+    type: 400gbase-x-qsfp112
+    description: Broadcom BCM57608 400GbE - GPU Fabric NIC for MI325X-08
+
 power-ports:
   - name: PSU 01 - Left
     type: iec-60320-c20
