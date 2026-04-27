@@ -1,0 +1,23 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G4 Dome
+slug: ubiquiti-unifi-uvc-g4-dome
+part_number: UVC-G4-DOME
+comments: |
+  [G4 Dome](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-dome)
+  [Datasheet](https://dl.ubnt.com/ds/uvc-g4-dome-ds.pdf)
+
+  Dimensions: 109.2 x 64.5 mm (4.3 x 2.5")
+  Resolution: 2688 x 1512 (4MP) at 24 FPS
+  Audio: Two-way audio
+weight: 370
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    mgmt_only: false

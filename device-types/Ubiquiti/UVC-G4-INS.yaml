@@ -1,0 +1,25 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G4 Instant
+slug: ubiquiti-unifi-uvc-g4-ins
+part_number: UVC-G4-INS
+comments: |
+  [G4 Instant](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-ins)
+  [Datasheet](https://dl.ubnt.com/ds/uvc-g4-ins-ds.pdf)
+
+  Dimensions: 81.6 x 50 x 47.2 mm (3.21 x 1.97 x 1.86")
+  Resolution: 2688 x 1512 (4MP) at 30 FPS
+  Audio: Two-way audio
+weight: 125
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: wlan
+    type: ieee802.11ac
+    rf_role: station
+power-ports:
+  - name: Power
+    type: usb-c
+    maximum_draw: 6
