@@ -51,14 +51,13 @@ interfaces:
   - name: Management
     type: 1000base-t
     mgmt_only: true
-  - name: SFP-MGMT (1G)
+
+  - name: CPU Management Port
     type: 1000base-x-sfp
     mgmt_only: true
-    description: CPU Management Port (SFP)
-  - name: SFP+ MGMT (10G)
+  - name: ASIC Management Port
     type: 10gbase-x-sfpp
     mgmt_only: true
-    description: MAC Management Port (SFP+)
 
   - name: Port 01
     type: 400gbase-x-qsfpdd

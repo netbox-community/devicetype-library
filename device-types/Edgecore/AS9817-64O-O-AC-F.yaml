@@ -44,10 +44,13 @@ interfaces:
   - name: Management
     type: 1000base-t
     mgmt_only: true
+
   - name: ASIC Management Port 1
     type: 25gbase-x-sfp28
+    mgmt_only: true
   - name: ASIC Management Port 2
     type: 25gbase-x-sfp28
+    mgmt_only: true
 
   - name: Port 1
     type: 800gbase-x-osfp
