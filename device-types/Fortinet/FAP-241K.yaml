@@ -1,0 +1,27 @@
+---
+manufacturer: Fortinet
+model: FortiAP 241K
+slug: fortinet-fap-241k
+part_number: FAP-241K
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 1.09
+weight_unit: kg
+comments: '[FortiAP Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortiap-series.pdf), [FortiAP 241K QuickStartGuide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-241k-qsg)'
+interfaces:
+  - name: lan-1-poe
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: lan-2
+    type: 1000base-t
+  - name: radio-1
+    type: ieee802.11ax
+  - name: radio-2
+    type: ieee802.11ax
+  - name: radio-3
+    type: ieee802.11ax
+  - name: radio-4
+    type: other-wireless
+    description: Scanning only (2.4/5.0/6.0GHz)
