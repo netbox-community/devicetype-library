@@ -42,7 +42,7 @@ Each definition **must** include at minimum the following fields:
   is_full_depth: true
   ```
 
-**Note: We are asking that all new deivces also include the following optional fields: `airflow`, `weight` and `weight_unit`.**
+**Note: We are asking that all new deivces also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
 
@@ -103,6 +103,101 @@ The following fields may **optionally** be declared:
 For further detail on these attributes and those listed below, please reference the
 [schema definitions](schema/) and the [Component Definitions](#component-definitions) below.
 
+## Module Type Definitions
+
+Each definition **must** include at minimum the following fields:
+
+- `manufacturer`: The name of the manufacturer which produces this device type.
+  - Type: String
+- `model`: The model number of the device type. This must be unique per manufacturer.
+  - Type: String
+
+**Note: We are asking that new modules also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
+
+The following fields may **optionally** be declared:
+
+- `profile`: A declaration of the module profile for the device, only the default Netbox Module Profiles are supported. (**Default: None**)
+  - Type: String
+  - Options:
+    - `CPU`
+    - `Fan`
+    - `GPU`
+    - `Hard disk`
+    - `Memory`
+    - `Power supply`
+    - `Expansion card`
+- `attribute_data`: This is for the data associated with the module profile.
+  - Type: Object
+  - Options:
+    - For: `profile: CPU`
+      - `architecture` Type: string
+      - `cores` Type: integer
+      - `speed` Type: number
+    - For: `profile: Fan`
+      - `rpm` Type: integer
+    - For: `profile: GPU`
+      - `gpu` Type: string
+      - `interface` Type: string (Options: `PCIe 4.0`, `PCIe 4.0 x8`, `PCIe 4.0 x16`, `PCIe 5.0 x16`)
+      - `memory` Type: integer **Required**
+    - For: `profile: Hard disk`
+      - `size` Type: integer
+      - `speed` Type: integer
+      - `disk_type` Type: string (Options: `HD`, `SSD`, `NVME`) **Required**
+    - For: `profile: Memory`
+      - `class` Type: string (Options: `DDR3`, `DDR4`, `DDR5`) **Required**
+      - `data_rate` Type: integer
+      - `ecc` Type: boolean
+      - `size` Type: integer **Required**
+    - For: `profile: Power supply`
+      - `wattage` Type: integer
+      - `hot_swappable` Type: boolean **Required**
+      - `input_current` Type: string (Options: `AC`, `DC`) **Required**
+      - `input_voltage` Type: number **Required**
+    - For: `profile: Expansion card`
+      - `bandwidth` Type: integer
+      - `connector_type` Type: string
+  - :test_tube: Example:
+
+    ```yaml
+    profile: Power supply
+    attribute_date:
+      wattage: 550
+      hot_swappable: true
+      input_current: AC
+      input_voltage: 240
+    ```
+
+- `part_number`: An alternative representation of the model number (e.g. a SKU). (**Default: None**)
+  - Type: String
+  - :test_tube: Example: `part_number: D109-C3`
+- `airflow`: A declaration of the airflow pattern for the device. (**Default: None**)
+  - Type: String
+  - Options:
+    - `front-to-rear`
+    - `rear-to-front`
+    - `left-to-right`
+    - `right-to-left`
+    - `side-to-rear`
+    - `rear-to-side`
+    - `bottom-to-top`
+    - `top-to-bottom`
+    - `passive`
+    - `mixed`
+  - :test_tube: Example: `airflow: side-to-rear`
+- `comments`: A string field which allows for comments to be added to the device. (**Default: None**)
+  - Type: String
+  - :test_tube: Example: `comments: This is a comment that will appear on all NetBox devices of this type`
+- `weight`: A number representing the numeric weight value. Must be a multiple of 0.01 (2 decimal places). (**Default: None**)
+  - Type: Number
+  - Value: must be a multiple of 0.01
+- `weight_unit`: A string defining the unit of measurement. It must be one of the supported values. (**Default: None**)
+  - Type: String
+  - Options:
+    - `kg`
+    - `g`
+    - `lb`
+    - `oz`
+
 ## Rack Type Definitions
 
 Each definition **must** include at minimum the following fields:
@@ -145,7 +240,7 @@ Each definition **must** include at minimum the following fields:
 For further detail on these attributes and those listed below, please reference the
 [racktype schema definition](schema/racktype.json)
 
-### Component Definitions
+## Component Definitions
 
 Valid component types are listed below. Each type of component must declare a list of the individual component templates
 to be added.
@@ -163,7 +258,7 @@ to be added.
 
 The available fields for each type of component are listed below.
 
-#### Console Ports
+### Console Ports
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/consoleport/)**
 
@@ -174,7 +269,7 @@ A console port provides connectivity to the physical console of a device. These 
 - `type`: Port type slug (Array)
 - `_is_power_source`: Indicates that the port provides power to the device, only used internally for power validation (default: false)
 
-#### Console Server Ports
+### Console Server Ports
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/consoleserverport/)**
 
@@ -184,7 +279,7 @@ A console server is a device which provides remote access to the local consoles 
 - `label`: Label
 - `type`: Port type slug (Array)
 
-#### Power Ports
+### Power Ports
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/powerport/)**
 
@@ -197,7 +292,7 @@ A power port is a device component which draws power from some external source (
 - `maximum_draw`: The port's maximum power draw, in watts (optional)
 - `allocated_draw`: The port's allocated power draw, in watts (optional)
 
-#### Power Outlets
+### Power Outlets
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/poweroutlet/)**
 
@@ -209,7 +304,7 @@ Power outlets represent the outlets on a power distribution unit (PDU) or other 
 - `power_port`: The name of the power port on the device which powers this outlet (optional)
 - `feed_leg`: The phase (leg) of power to which this outlet is mapped; A, B, or C (optional)
 
-#### Interfaces
+### Interfaces
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/interface/)**
 
@@ -222,7 +317,7 @@ Interfaces in NetBox represent network interfaces used to exchange data with con
 - `poe_mode` : For if a device is POE powered (pd) or provides POE (pse)
 - `poe_type` : The classification of PoE transmission supported, for PoE-enabled interfaces.
 
-#### Front Ports
+### Front Ports
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/frontport/)**
 
@@ -234,7 +329,7 @@ Front ports are pass-through ports which represent physical cable connections th
 - `rear_port`: The name of the rear port on this device to which the front port maps
 - `rear_port_position`: The corresponding position on the mapped rear port (default: 1)
 
-#### Rear Ports
+### Rear Ports
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/rearport/)**
 
@@ -246,7 +341,7 @@ Like front ports, rear ports are pass-through ports which represent the continua
 - `positions`: The number of front ports that can map to this rear port (default: 1)
 - `_is_power_source`: Indicates that the port provides power to the device, only used internally for power validation (default: false)
 
-#### Module Bays
+### Module Bays
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/modulebay/)**
 
@@ -257,7 +352,7 @@ Module bays represent a space or slot within a device in which a field-replaceab
 - `label`: Label
 - `position`: The alphanumeric position in which this module bay is situated within the parent device. When creating module components, the string `{module}` in the component name will be replaced with the module bay's `position`. See the [NetBox Documentation](https://docs.netbox.dev/en/stable/models/dcim/moduletype/#automatic-component-renaming) for more details.
 
-#### Device Bays
+### Device Bays
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/devicebay/)**
 
@@ -268,10 +363,11 @@ Child devices are first-class Devices in their own right: That is, they are full
 - `name`: Name
 - `label`: Label
 
-#### Inventory Items
+### Inventory Items
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/inventoryitem/)**
 
+**As of Netbox 4.3 the use of Inventory Items has been deprecated therefore they are no longer going to be added to this repo.**
 Inventory items represent hardware components installed within a device, such as a power supply or CPU or line card. They are intended to be used primarily for inventory purposes.
 
 Inventory items are hierarchical in nature, such that any individual item may be designated as the parent for other items. For example, an inventory item might be created to represent a line card which houses several SFP optics, each of which exists as a child item within the device. An inventory item may also be associated with a specific component within the same device. For example, you may wish to associate a transceiver with an interface.
@@ -296,7 +392,7 @@ A corresponding module-type definition **must** exist in `module-types/` before 
 
 There are two ways this repo focuses on keeping quality device-type definitions:
 
-- **Pre-Commit Checks** - Optional, but **highly recommended**, for helping to identify simple issues before committing. (trailing-whitespace, end-of-file-fixer, check-yaml, yamlfmt, yamllint)
+- **Pre-Commit Checks** - Optional, but **highly recommended**, for helping to identify simple issues before raising a PR. (trailing-whitespace, end-of-file-fixer, check-yaml, yamlfmt, yamllint)
   - Installation
     - Virtual Environment Route
       - It is recommended to create a virtual env for your repo (`python3 -m venv venv`)
@@ -311,4 +407,4 @@ There are two ways this repo focuses on keeping quality device-type definitions:
     - To run the pre-commit script on all files: `pre-commit run -a`
     - To uninstall the pre-commit script: `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
-- **GitHub Actions** - Automatically run before a PR can be merged. Repeats yamllint & validates against NetBox Device-Type Schema.
+- **GitHub Actions** - Automatically run before a PR can be merged. Repeats yamllint & validates against NetBox Device-Type Schema, note that if this fails then the PR cannot be merged.
