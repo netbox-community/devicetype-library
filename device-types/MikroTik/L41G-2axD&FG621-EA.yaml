@@ -1,0 +1,29 @@
+---
+manufacturer: MikroTik
+model: hAP ax lite LTE6
+slug: mikrotik-hap-ax-lite-lte6
+part_number: L41G-2axD&FG621-EA
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+power-ports:
+  - name: USB-C
+    type: usb-c
+    maximum_draw: 12
+    description: 5 V
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: wifi1
+    type: ieee802.11ax
+    description: 2.4ghz
+  - name: lte1
+    type: lte
+comments: '[MikroTik hAP ax lite LTE6 Datasheet](https://mikrotik.com/product/hap_ax_lite_lte6)'

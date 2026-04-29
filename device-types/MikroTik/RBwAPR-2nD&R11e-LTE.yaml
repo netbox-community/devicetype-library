@@ -1,0 +1,31 @@
+---
+manufacturer: MikroTik
+model: wAP LTE kit
+slug: mikrotik-wap-lte-kit
+part_number: RBwAPR-2nD&R11e-LTE
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+interfaces:
+  - name: ether1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: lte1
+    type: lte
+module-bays:
+  - name: miniPCIe
+    position: 1
+power-ports:
+  - name: DC jack
+    type: dc-terminal
+    maximum_draw: 8
+    description: 9 - 30 V DC
+comments: |
+  Small weatherproof wireless access point with built-in LTE modem.
+  Supports DC jack, passive PoE-in, and automotive power input.
+  [MikroTik wAP LTE kit Datasheet](https://mikrotik.com/product/wap_lte_kit)
