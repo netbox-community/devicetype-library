@@ -1,0 +1,93 @@
+---
+manufacturer: Supermicro
+model: SYS-220BT-HNTR
+slug: supermicro-sys-220bt-hntr
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: A node with Super X12DPT-B6 motherboard which gets installed in a SYS-220BT-HNTR chassis (https://www.supermicro.com/en/products/system/bigtwin/2u/sys-220bt-hntr)
+subdevice_role: child
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+
+module-bays:
+  - name: CPU 1
+    position: CPU 1
+    description: LGA-4189
+  - name: CPU 2
+    position: CPU 2
+    description: LGA-4189
+
+  - name: CPU1 DIMM A1
+    position: CPU1 DIMM A1
+  - name: CPU1 DIMM B1
+    position: CPU1 DIMM B1
+  - name: CPU1 DIMM C1
+    position: CPU1 DIMM C1
+  - name: CPU1 DIMM D1
+    position: CPU1 DIMM D1
+  - name: CPU1 DIMM E1
+    position: CPU1 DIMM E1
+  - name: CPU1 DIMM F1
+    position: CPU1 DIMM F1
+  - name: CPU1 DIMM G1
+    position: CPU1 DIMM G1
+  - name: CPU1 DIMM H1
+    position: CPU1 DIMM H1
+  - name: CPU2 DIMM A1
+    position: CPU2 DIMM A1
+  - name: CPU2 DIMM B1
+    position: CPU2 DIMM B1
+  - name: CPU2 DIMM C1
+    position: CPU2 DIMM C1
+  - name: CPU2 DIMM D1
+    position: CPU2 DIMM D1
+  - name: CPU2 DIMM E1
+    position: CPU2 DIMM E1
+  - name: CPU2 DIMM F1
+    position: CPU2 DIMM F1
+  - name: CPU2 DIMM G1
+    position: CPU2 DIMM G1
+  - name: CPU2 DIMM H1
+    position: CPU2 DIMM H1
+
+  - name: CPU1 DIMM C2
+    position: CPU1 DIMM C2
+    description: Reserved for PMem 200 Series only
+  - name: CPU2 DIMM C2
+    position: CPU2 DIMM C2
+    description: Reserved for PMem 200 Series only
+
+  - name: CPU1 DIMM G2
+    position: CPU1 DIMM G2
+    description: Generally unused
+  - name: CPU2 DIMM G2
+    position: CPU2 DIMM G2
+    description: Generally unused
+
+  - name: SLOT1
+    position: SLOT1
+    description: PCIe 4.0 x16 slot (right hand riser) supported by CPU1
+  - name: SLOT2
+    position: SLOT2
+    description: PCIe 4.0 x16 slot (left hand riser, via cable) supported by CPU2
+  - name: SXB1
+    position: SXB1
+    description: PCIe 4.0 x16 slot supported by CPU2
+  - name: SXB2
+    position: SXB2
+    description: PCIe 4.0 x8 slot supported by CPU2
+  - name: SXB3
+    position: SXB3
+    description: PCIe 4.0 x16 slot supported by CPU1
+  - name: SXB4
+    position: SXB4
+    description: PCIe 4.0 x8 slot supported by CPU1 for SMCI-proprietary storage devices
+  - name: SXB5
+    position: SXB5
+    description: PCIe 4.0 x8 slot supported by CPU1 for dual hybrid M.2
+  - name: Advanced I/O Module (AIOM) slot
+    position: AIOM
+    description: CPU1 PCIe 4.0x16 for networking

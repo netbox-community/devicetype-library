@@ -1,0 +1,99 @@
+---
+manufacturer: Supermicro
+model: SYS-2028TP-CHASSIS
+slug: supermicro-sys-2028tp-chassis
+part_number: CSE-217HQ+-R2K04B
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: Chassis for SuperServer 2028TP series
+subdevice_role: parent
+weight: 32.7
+weight_unit: kg
+front_image: true
+rear_image: true
+
+device-bays:
+  - name: Node A
+  - name: Node B
+  - name: Node C
+  - name: Node D
+
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+
+  - name: Storage bay A1
+    description: Hot-swap 2.5" SAS/SATA bay for node A
+    position: '1'
+  - name: Storage bay A2
+    description: Hot-swap 2.5" SAS/SATA bay for node A
+    position: '2'
+  - name: Storage bay A3
+    description: Hot-swap 2.5" SAS/SATA bay for node A
+    position: '3'
+  - name: Storage bay A4
+    description: Hot-swap 2.5" SAS/SATA bay for node A
+    position: '4'
+  - name: Storage bay A5
+    description: Hot-swap 2.5" SAS/SATA bay for node A
+    position: '5'
+  - name: Storage bay A6
+    description: Hot-swap 2.5" SAS/SATA bay for node A
+    position: '6'
+  - name: Storage bay B1
+    description: Hot-swap 2.5" SAS/SATA bay for node B
+    position: '7'
+  - name: Storage bay B2
+    description: Hot-swap 2.5" SAS/SATA bay for node B
+    position: '8'
+  - name: Storage bay B3
+    description: Hot-swap 2.5" SAS/SATA bay for node B
+    position: '9'
+  - name: Storage bay B4
+    description: Hot-swap 2.5" SAS/SATA bay for node B
+    position: '10'
+  - name: Storage bay B5
+    description: Hot-swap 2.5" SAS/SATA bay for node B
+    position: '11'
+  - name: Storage bay B6
+    description: Hot-swap 2.5" SAS/SATA bay for node B
+    position: '12'
+  - name: Storage bay C1
+    description: Hot-swap 2.5" SAS/SATA bay for node C
+    position: '13'
+  - name: Storage bay C2
+    description: Hot-swap 2.5" SAS/SATA bay for node C
+    position: '14'
+  - name: Storage bay C3
+    description: Hot-swap 2.5" SAS/SATA bay for node C
+    position: '15'
+  - name: Storage bay C4
+    description: Hot-swap 2.5" SAS/SATA bay for node C
+    position: '16'
+  - name: Storage bay C5
+    description: Hot-swap 2.5" SAS/SATA bay for node C
+    position: '17'
+  - name: Storage bay C6
+    description: Hot-swap 2.5" SAS/SATA bay for node C
+    position: '18'
+  - name: Storage bay D1
+    description: Hot-swap 2.5" SAS/SATA bay for node D
+    position: '19'
+  - name: Storage bay D2
+    description: Hot-swap 2.5" SAS/SATA bay for node D
+    position: '20'
+  - name: Storage bay D3
+    description: Hot-swap 2.5" SAS/SATA bay for node D
+    position: '21'
+  - name: Storage bay D4
+    description: Hot-swap 2.5" SAS/SATA bay for node D
+    position: '22'
+  - name: Storage bay D5
+    description: Hot-swap 2.5" SAS/SATA bay for node D
+    position: '23'
+  - name: Storage bay D6
+    description: Hot-swap 2.5" SAS/SATA bay for node D
+    position: '24'
