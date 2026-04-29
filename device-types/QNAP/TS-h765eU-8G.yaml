@@ -1,0 +1,30 @@
+---
+manufacturer: QNAP
+model: TS-h765eU-8G
+slug: qnap-ts-h765eu-8g
+description: 1U short-depth rackmount; 4x 3.5" drive bays; Dual 2.5GbE; expandable to 2x 10GbE ports; DDR5 RAM; Intel Atom x7000C Series processor
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.5
+weight_unit: kg
+comments: See [Datasheet](https://www.qnap.com/en/product/ts-h765eu/specs/hardware/TS-h765eU-8G.pdf).
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 150
+    description: 150W, 100-240V, AC
+interfaces:
+  - name: LAN1
+    type: 2.5gbase-t
+    label: LAN1
+  - name: LAN2
+    type: 2.5gbase-t
+    label: LAN2
+module-bays:
+  - name: E1.S 1
+    position: '1'
+  - name: E1.S 2
+    position: '2'
+  - name: E1.S 3
+    position: '3'
