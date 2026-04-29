@@ -1,0 +1,24 @@
+---
+manufacturer: MikroTik
+model: NetMetal 5SHP
+slug: mikrotik-netmetal-5shp
+part_number: RB921UAGS-5SHPacD-NM
+is_full_depth: false
+u_height: 0
+weight: 865
+weight_unit: g
+airflow: passive
+comments: '[RB921UAGS-5SHPacD-NM Datasheet](https://mikrotik.com/product/RB921UAGS-5SHPacD-NM#product_specification)'
+console-ports:
+  - name: usb
+    type: usb-a
+interfaces:
+  - name: ether1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-IN
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
