@@ -1,0 +1,164 @@
+---
+manufacturer: Edgecore
+model: AS5835-54T
+slug: edgecore-as5835-54t
+part_number: FP1ZZ5654XXXA
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+comments: >
+  Base Model: AS5835-54T; Intel Atom Processor C3558 4-Core; 48 x 1G/10G RJ45 + 6 x 40G/100G QSFP28; ONIE Software Installer
+  [Edgecore AS5835-54T Datasheet](https://www.edge-core.com/wp-content/uploads/2025/07/2025-043-DCS202_AS5835-54T-DS-R08-20250723.pdf)
+
+weight: 6.98
+weight_unit: kg
+
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+    description: USB port for storage devices
+
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c20
+    maximum_draw: 1500
+  - name: PSU 02
+    type: iec-60320-c20
+    maximum_draw: 1500
+
+module-bays:
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
+
+  - name: Fan 01
+    position: Fan Slot 1
+  - name: Fan 02
+    position: Fan Slot 2
+  - name: Fan 03
+    position: Fan Slot 3
+  - name: Fan 04
+    position: Fan Slot 4
+  - name: Fan 05
+    position: Fan Slot 5
+
+interfaces:
+  - name: Management 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management 2
+    type: 1000base-t
+    mgmt_only: true
+
+  - name: Port 1
+    type: 10gbase-t
+  - name: Port 2
+    type: 10gbase-t
+  - name: Port 3
+    type: 10gbase-t
+  - name: Port 4
+    type: 10gbase-t
+  - name: Port 5
+    type: 10gbase-t
+  - name: Port 6
+    type: 10gbase-t
+  - name: Port 7
+    type: 10gbase-t
+  - name: Port 8
+    type: 10gbase-t
+  - name: Port 9
+    type: 10gbase-t
+  - name: Port 10
+    type: 10gbase-t
+  - name: Port 11
+    type: 10gbase-t
+  - name: Port 12
+    type: 10gbase-t
+  - name: Port 13
+    type: 10gbase-t
+  - name: Port 14
+    type: 10gbase-t
+  - name: Port 15
+    type: 10gbase-t
+  - name: Port 16
+    type: 10gbase-t
+  - name: Port 17
+    type: 10gbase-t
+  - name: Port 18
+    type: 10gbase-t
+  - name: Port 19
+    type: 10gbase-t
+  - name: Port 20
+    type: 10gbase-t
+  - name: Port 21
+    type: 10gbase-t
+  - name: Port 22
+    type: 10gbase-t
+  - name: Port 23
+    type: 10gbase-t
+  - name: Port 24
+    type: 10gbase-t
+  - name: Port 25
+    type: 10gbase-t
+  - name: Port 26
+    type: 10gbase-t
+  - name: Port 27
+    type: 10gbase-t
+  - name: Port 28
+    type: 10gbase-t
+  - name: Port 29
+    type: 10gbase-t
+  - name: Port 30
+    type: 10gbase-t
+  - name: Port 31
+    type: 10gbase-t
+  - name: Port 32
+    type: 10gbase-t
+  - name: Port 33
+    type: 10gbase-t
+  - name: Port 34
+    type: 10gbase-t
+  - name: Port 35
+    type: 10gbase-t
+  - name: Port 36
+    type: 10gbase-t
+  - name: Port 37
+    type: 10gbase-t
+  - name: Port 38
+    type: 10gbase-t
+  - name: Port 39
+    type: 10gbase-t
+  - name: Port 40
+    type: 10gbase-t
+  - name: Port 41
+    type: 10gbase-t
+  - name: Port 42
+    type: 10gbase-t
+  - name: Port 43
+    type: 10gbase-t
+  - name: Port 44
+    type: 10gbase-t
+  - name: Port 45
+    type: 10gbase-t
+  - name: Port 46
+    type: 10gbase-t
+  - name: Port 47
+    type: 10gbase-t
+  - name: Port 48
+    type: 10gbase-t
+
+  - name: Port 49
+    type: 100gbase-x-qsfp28
+  - name: Port 50
+    type: 100gbase-x-qsfp28
+  - name: Port 51
+    type: 100gbase-x-qsfp28
+  - name: Port 52
+    type: 100gbase-x-qsfp28
+  - name: Port 53
+    type: 100gbase-x-qsfp28
+  - name: Port 54
+    type: 100gbase-x-qsfp28
