@@ -25,9 +25,21 @@ interfaces:
   - name: Gig-E 2
     type: 10gbase-t
 module-bays:
-  - name: PCI-E 1
+  - name: HDD Bay 1
     position: '1'
+    description: 'Hot-swap 3.5" SATA3 bay'
+  - name: HDD Bay 2
+    position: '2'
+    description: 'Hot-swap 3.5" SATA3 bay'
+  - name: HDD Bay 3
+    position: '3'
+    description: 'Hot-swap 3.5" SATA3 bay'
+  - name: HDD Bay 4
+    position: '4'
+    description: 'Hot-swap 3.5" SATA3 bay'
+  - name: PCI-E 1
+    position: PCIe-1
     description: PCI-E 3.0 x16 slot
   - name: M.2 1
-    position: '2'
+    position: M.2-1
     description: Form-factors 2280, 22110
