@@ -17,21 +17,21 @@ console-ports:
     description: USB port for storage devices
 module-bays:
   - name: PSU 1
-    position: '1'
+    position: PSU1
   - name: PSU 2
-    position: '2'
+    position: PSU2
   - name: FAN 1
-    position: '1'
+    position: FAN1
   - name: FAN 2
-    position: '2'
+    position: FAN2
   - name: FAN 3
-    position: '3'
+    position: FAN3
   - name: FAN 4
-    position: '4'
+    position: FAN4
   - name: FAN 5
-    position: '5'
+    position: FAN5
   - name: FAN 6
-    position: '6'
+    position: FAN6
 interfaces:
   - name: '1'
     type: 10gbase-x-sfpp
