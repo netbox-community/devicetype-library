@@ -10,7 +10,7 @@ comments: >
 u_height: 1
 is_full_depth: true
 
-weight: 23.1
+weight: 14.5
 weight_unit: kg
 airflow: front-to-rear
 
@@ -37,39 +37,91 @@ module-bays:
   - name: Motherboard
     position: Motherboard Slot 1
 
-  - name: Drive 00
+  - name: CPU
+    position: CPU Slot 1
+
+  - name: Memory 01
+    position: Memory Slot 1
+  - name: Memory 02
+    position: Memory Slot 2
+  - name: Memory 03
+    position: Memory Slot 3
+  - name: Memory 04
+    position: Memory Slot 4
+  - name: Memory 05
+    position: Memory Slot 5
+  - name: Memory 06
+    position: Memory Slot 6
+  - name: Memory 07
+    position: Memory Slot 7
+  - name: Memory 08
+    position: Memory Slot 8
+  - name: Memory 09
+    position: Memory Slot 9
+  - name: Memory 10
+    position: Memory Slot 10
+  - name: Memory 11
+    position: Memory Slot 11
+  - name: Memory 12
+    position: Memory Slot 12
+  - name: Memory 13
+    position: Memory Slot 13
+  - name: Memory 14
+    position: Memory Slot 14
+  - name: Memory 15
+    position: Memory Slot 15
+  - name: Memory 16
+    position: Memory Slot 16
+  - name: Memory 17
+    position: Memory Slot 17
+  - name: Memory 18
+    position: Memory Slot 18
+  - name: Memory 19
+    position: Memory Slot 19
+  - name: Memory 20
+    position: Memory Slot 20
+  - name: Memory 21
+    position: Memory Slot 21
+  - name: Memory 22
+    position: Memory Slot 22
+  - name: Memory 23
+    position: Memory Slot 23
+  - name: Memory 24
+    position: Memory Slot 24
+
+  - name: Drive 01
     position: Storage Slot 1
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 01
+  - name: Drive 02
     position: Storage Slot 2
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 02
+  - name: Drive 03
     position: Storage Slot 3
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 03
+  - name: Drive 04
     position: Storage Slot 4
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 04
+  - name: Drive 05
     position: Storage Slot 5
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 05
+  - name: Drive 06
     position: Storage Slot 6
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 06
+  - name: Drive 07
     position: Storage Slot 7
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 07
+  - name: Drive 08
     position: Storage Slot 8
     description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
-  - name: Drive 08
+  - name: Drive 09
     position: Storage Slot 9
     description: Hot-swap 2.5" SAS/SATA Drive Bay
-  - name: Drive 09
+  - name: Drive 10
     position: Storage Slot 10
     description: Hot-swap 2.5" SAS/SATA Drive Bay
-  - name: Drive 10
+  - name: Drive 11
     position: Storage Slot 11
     description: Hot-swap 2.5" SAS/SATA Drive Bay
-  - name: Drive 11
+  - name: Drive 12
     position: Storage Slot 12
     description: Hot-swap 2.5" SAS/SATA Drive Bay
