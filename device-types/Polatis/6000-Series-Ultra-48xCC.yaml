@@ -9,9 +9,8 @@ weight_unit: kg
 # Polatis Series 6000 Ultra all-optical circuit switch, DirectLight beam-steering technology.
 # 48 customer-configurable (CC) bidirectional optical ports. Typical deployment: 1-24 IN, 25-48 OUT.
 # Connector type: LC/APC (QuPC ultra-low loss, green connectors).
-# Front panel: 2x RJ45 NIC (Eth0 default 192.168.0.1, Eth1 default 192.168.1.1), RS-232 serial, USB-A.
+# Front panel: 2x RJ45 NIC, serial, USB-A.
 # Rear panel: all 48 optical ports (Port 1-48), 2x hot-swap PSU bays.
-# Note: NetBox interfaces have no front/rear attribute; rear placement noted here only.
 console-ports:
   - name: Console
     type: other
