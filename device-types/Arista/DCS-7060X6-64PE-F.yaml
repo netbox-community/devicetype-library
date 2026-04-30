@@ -1,0 +1,170 @@
+---
+manufacturer: Arista
+model: DCS-7060X6-64PE-F
+slug: arista-dcs-7060x6-64pe-f
+part_number: DCS-7060X6-64PE-F
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 21
+weight_unit: kg
+comments: >
+  The Arista DCS-7060X6-64PE-F is a 2RU fixed-configuration switch featuring 64 OSFP800 ports and 2 SFP+ ports, delivering up to 51.2 Tbps of throughput.
+  It supports flexible port configurations including 800G, 400G, 200G, and 100G, making it ideal for AI/ML workloads and hyperscale data centers.
+  [7060X6 Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 2400
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 2400
+
+interfaces:
+  - name: Management1
+    type: 1000base-t
+  - name: SFP1
+    type: 25gbase-x-sfp28
+  - name: SFP2
+    type: 25gbase-x-sfp28
+  - name: Ethernet1/1
+    type: 800gbase-x-osfp
+  - name: Ethernet2/1
+    type: 800gbase-x-osfp
+  - name: Ethernet3/1
+    type: 800gbase-x-osfp
+  - name: Ethernet4/1
+    type: 800gbase-x-osfp
+  - name: Ethernet5/1
+    type: 800gbase-x-osfp
+  - name: Ethernet6/1
+    type: 800gbase-x-osfp
+  - name: Ethernet7/1
+    type: 800gbase-x-osfp
+  - name: Ethernet8/1
+    type: 800gbase-x-osfp
+  - name: Ethernet9/1
+    type: 800gbase-x-osfp
+  - name: Ethernet10/1
+    type: 800gbase-x-osfp
+  - name: Ethernet11/1
+    type: 800gbase-x-osfp
+  - name: Ethernet12/1
+    type: 800gbase-x-osfp
+  - name: Ethernet13/1
+    type: 800gbase-x-osfp
+  - name: Ethernet14/1
+    type: 800gbase-x-osfp
+  - name: Ethernet15/1
+    type: 800gbase-x-osfp
+  - name: Ethernet16/1
+    type: 800gbase-x-osfp
+  - name: Ethernet17/1
+    type: 800gbase-x-osfp
+  - name: Ethernet18/1
+    type: 800gbase-x-osfp
+  - name: Ethernet19/1
+    type: 800gbase-x-osfp
+  - name: Ethernet20/1
+    type: 800gbase-x-osfp
+  - name: Ethernet21/1
+    type: 800gbase-x-osfp
+  - name: Ethernet22/1
+    type: 800gbase-x-osfp
+  - name: Ethernet23/1
+    type: 800gbase-x-osfp
+  - name: Ethernet24/1
+    type: 800gbase-x-osfp
+  - name: Ethernet25/1
+    type: 800gbase-x-osfp
+  - name: Ethernet26/1
+    type: 800gbase-x-osfp
+  - name: Ethernet27/1
+    type: 800gbase-x-osfp
+  - name: Ethernet28/1
+    type: 800gbase-x-osfp
+  - name: Ethernet29/1
+    type: 800gbase-x-osfp
+  - name: Ethernet30/1
+    type: 800gbase-x-osfp
+  - name: Ethernet31/1
+    type: 800gbase-x-osfp
+  - name: Ethernet32/1
+    type: 800gbase-x-osfp
+  - name: Ethernet33/1
+    type: 800gbase-x-osfp
+  - name: Ethernet34/1
+    type: 800gbase-x-osfp
+  - name: Ethernet35/1
+    type: 800gbase-x-osfp
+  - name: Ethernet36/1
+    type: 800gbase-x-osfp
+  - name: Ethernet37/1
+    type: 800gbase-x-osfp
+  - name: Ethernet38/1
+    type: 800gbase-x-osfp
+  - name: Ethernet39/1
+    type: 800gbase-x-osfp
+  - name: Ethernet40/1
+    type: 800gbase-x-osfp
+  - name: Ethernet41/1
+    type: 800gbase-x-osfp
+  - name: Ethernet42/1
+    type: 800gbase-x-osfp
+  - name: Ethernet43/1
+    type: 800gbase-x-osfp
+  - name: Ethernet44/1
+    type: 800gbase-x-osfp
+  - name: Ethernet45/1
+    type: 800gbase-x-osfp
+  - name: Ethernet46/1
+    type: 800gbase-x-osfp
+  - name: Ethernet47/1
+    type: 800gbase-x-osfp
+  - name: Ethernet48/1
+    type: 800gbase-x-osfp
+  - name: Ethernet49/1
+    type: 800gbase-x-osfp
+  - name: Ethernet50/1
+    type: 800gbase-x-osfp
+  - name: Ethernet51/1
+    type: 800gbase-x-osfp
+  - name: Ethernet52/1
+    type: 800gbase-x-osfp
+  - name: Ethernet53/1
+    type: 800gbase-x-osfp
+  - name: Ethernet54/1
+    type: 800gbase-x-osfp
+  - name: Ethernet55/1
+    type: 800gbase-x-osfp
+  - name: Ethernet56/1
+    type: 800gbase-x-osfp
+  - name: Ethernet57/1
+    type: 800gbase-x-osfp
+  - name: Ethernet58/1
+    type: 800gbase-x-osfp
+  - name: Ethernet59/1
+    type: 800gbase-x-osfp
+  - name: Ethernet60/1
+    type: 800gbase-x-osfp
+  - name: Ethernet61/1
+    type: 800gbase-x-osfp
+  - name: Ethernet62/1
+    type: 800gbase-x-osfp
+  - name: Ethernet63/1
+    type: 800gbase-x-osfp
+  - name: Ethernet64/1
+    type: 800gbase-x-osfp
+
+module-bays:
+  - name: Supervisor Slot
+    position: S1
+  - name: PSU1
+    position: P1
+  - name: PSU2
+    position: P2
