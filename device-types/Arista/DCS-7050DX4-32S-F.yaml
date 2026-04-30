@@ -13,12 +13,10 @@ console-ports:
   - name: Console
     type: rj-45
 module-bays:
-  - name: PSU 0
+  - name: PSU 01
     position: "0"
-  - name: PSU 1
+  - name: PSU 02
     position: "1"
-front_image: true
-rear_image: true
 interfaces:
   - name: Ethernet1/1
     type: 400gbase-x-qsfpdd

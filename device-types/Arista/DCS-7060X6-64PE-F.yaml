@@ -18,10 +18,10 @@ console-ports:
     type: rj-45
 
 power-ports:
-  - name: PSU1
+  - name: PSU 01
     type: iec-60320-c14
     maximum_draw: 2400
-  - name: PSU2
+  - name: PSU 02
     type: iec-60320-c14
     maximum_draw: 2400
 
@@ -164,7 +164,7 @@ interfaces:
 module-bays:
   - name: Supervisor Slot
     position: S1
-  - name: PSU1
-    position: P1
-  - name: PSU2
-    position: P2
+  - name: PSU 01
+    position: "0"
+  - name: PSU 02
+    position: "1"
