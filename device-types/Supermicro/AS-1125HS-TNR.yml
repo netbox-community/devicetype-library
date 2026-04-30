@@ -1,0 +1,75 @@
+---
+manufacturer: Supermicro
+model: AS-1125HS-TNR
+slug: supermicro-as-1125hs-tnr
+part_number: AS-1125HS-TNR
+comments: >
+  [User's Manual](https://www.supermicro.com/manuals/superserver/1U/Lot9_AS-1125HS-TNR.pdf)
+  [Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-1125hs-tnr)
+
+u_height: 1
+is_full_depth: true
+
+weight: 23.1
+weight_unit: kg
+airflow: front-to-rear
+
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU 02
+    type: iec-60320-c14
+    maximum_draw: 1200
+
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: 1 RJ45 1 GbE Dedicated BMC LAN port
+
+module-bays:
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
+
+  - name: Motherboard
+    position: Motherboard Slot 1
+
+  - name: Drive 00
+    position: Storage Slot 1
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 01
+    position: Storage Slot 2
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 02
+    position: Storage Slot 3
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 03
+    position: Storage Slot 4
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 04
+    position: Storage Slot 5
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 05
+    position: Storage Slot 6
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 06
+    position: Storage Slot 7
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 07
+    position: Storage Slot 8
+    description: Hot-swap 2.5" NVMe/SAS/SATA Drive Bay
+  - name: Drive 08
+    position: Storage Slot 9
+    description: Hot-swap 2.5" SAS/SATA Drive Bay
+  - name: Drive 09
+    position: Storage Slot 10
+    description: Hot-swap 2.5" SAS/SATA Drive Bay
+  - name: Drive 10
+    position: Storage Slot 11
+    description: Hot-swap 2.5" SAS/SATA Drive Bay
+  - name: Drive 11
+    position: Storage Slot 12
+    description: Hot-swap 2.5" SAS/SATA Drive Bay
