@@ -1,0 +1,30 @@
+---
+manufacturer: Nokia
+model: AirFrame AR-D52B
+slug: nokia-airframe-ar-d52b
+part_number: AR-D52B
+description: Nokia AirFrame Rackmount 2U server, dual-socket Intel Xeon Scalable, 4x LFF bays
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 25
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 800
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 800
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC management port
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
