@@ -1,0 +1,21 @@
+---
+# Nokia 7750 SR-s XCM2-7s (Extended Control Module 2)
+# Second generation XCM for SR-7s
+# Goes in line card slots 1-6 of SR-7s
+# Has 2 MDA half-slots + optional XIOM slot
+manufacturer: Nokia
+model: XCM2-7s
+part_number: 3HE16472AA
+comments: >-
+  XCM2-7s (Extended Control Module 2) for 7750 SR-7s.
+  CLI: xcm2-7s. Hosts 2 MDA-s half-slots and 1 XIOM slot.
+module-bays:
+  - name: '{module}/1'
+    position: '1'
+    label: MDA 1
+  - name: '{module}/2'
+    position: '2'
+    label: MDA 2
+  - name: '{module}/x1'
+    position: x1
+    label: XIOM

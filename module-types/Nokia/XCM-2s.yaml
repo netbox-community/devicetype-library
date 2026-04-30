@@ -1,0 +1,17 @@
+---
+# Nokia 7750 SR-2s XCM (Cross-Connect Module)
+# FP4-based, goes in card slots 1-2 of SR-2s
+# Has 1 XMA/XIOM slot and 1 MDA slot
+manufacturer: Nokia
+model: XCM-2s
+part_number: 3HE12379AARB01
+comments: >-
+  XCM-2s (Cross-Connect Module) for 7750 SR-2s.
+  FP4 silicon. Hosts 1 MDA-s slot and 1 XMA/XIOM slot.
+module-bays:
+  - name: '{module}/1'
+    position: '1'
+    label: MDA 1
+  - name: '{module}/x1'
+    position: x1
+    label: XMA/XIOM

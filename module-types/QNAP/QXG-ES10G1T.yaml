@@ -1,0 +1,10 @@
+---
+manufacturer: QNAP
+model: QXG-ES10G1T
+description: Supporting 10G/5G/2.5G/1G/100M LAN speeds to meet various network requirements.
+airflow: passive
+comments: See [Datasheet](https://www.qnap.com/en/product/qxg-es10g1t/specs/hardware/Single-port,%205-speed%2010%20GbE%20network%20expansion%20card.pdf).
+interfaces:
+  - name: '{module}/1'
+    type: 10gbase-t
+    description: 10Gbps/5Gbps/2.5Gbps/1Gbps/100Mbps

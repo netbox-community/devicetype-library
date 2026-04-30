@@ -1,0 +1,125 @@
+---
+manufacturer: Raritan
+model: PX4-5884J-E7
+slug: raritan-px4-5884j-e7
+part_number: PX4-5884J-E7
+u_height: 0
+is_full_depth: false
+comments: '[PX4-5884J-E7 Product Selector](https://www.raritan.com/product-selector/pdu-detail/PX4-5884J-E7)'
+weight: 5.44
+weight_unit: kg
+airflow: passive
+console-ports:
+  - name: USB-A 1
+    type: usb-a
+  - name: USB-A 2
+    type: usb-a
+  - name: USB-B
+    type: usb-b
+power-ports:
+  - name: Inlet I1
+    type: nema-l6-30p
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 4
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 5
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 6
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 10
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 11
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 12
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 13
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 16
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 17
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 18
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 19
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 20
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 21
+    type: iec-60320-c13
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 22
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 23
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+  - name: Outlet 24
+    type: hdot-cx
+    power_port: Inlet I1
+    feed_leg: A
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth2
+    type: 1000base-t
+    mgmt_only: true

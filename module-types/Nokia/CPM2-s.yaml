@@ -1,0 +1,18 @@
+---
+# Nokia 7750 SR-s CPM2-s (Control Processor Module)
+# Goes in CPM slots A/B
+manufacturer: Nokia
+model: CPM2-s
+part_number: 3HE12559AARC01
+comments: >-
+  CPM2-s (Control Processor Module) for 7750 SR-7s/14s.
+  Redundant pair in slots A and B.
+console-ports:
+  - name: '{module}/Console'
+    type: rj-45
+  - name: '{module}/USB'
+    type: usb-a
+interfaces:
+  - name: '{module}/1'
+    type: 1000base-t
+    mgmt_only: true
