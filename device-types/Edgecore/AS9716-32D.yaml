@@ -1,0 +1,121 @@
+---
+manufacturer: Edgecore
+model: AS9716-32D
+slug: edgecore-as9716-32d
+part_number: FP5ZZ8632XXXA
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+comments: >
+  Base Model: AS9716-32D; Intel Xeon Processor D-1518 4-Core; 32 x QSFP56-DD 400GbE; ONIE Software Installer
+  [Edgecore AS9716-32D Datasheet](https://www.edge-core.com/wp-content/uploads/2024/07/DCS510-AS9716-32D-Datasheet-R09.pdf)
+
+weight: 11.06
+weight_unit: kg
+
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+    description: USB port for storage devices
+
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c20
+    maximum_draw: 1300
+  - name: PSU 02
+    type: iec-60320-c20
+    maximum_draw: 1300
+
+module-bays:
+  - name: PSU 01
+    position: PSU Slot 1
+  - name: PSU 02
+    position: PSU Slot 2
+
+  - name: Fan 01
+    position: Fan Slot 1
+  - name: Fan 02
+    position: Fan Slot 2
+  - name: Fan 03
+    position: Fan Slot 3
+  - name: Fan 04
+    position: Fan Slot 4
+  - name: Fan 05
+    position: Fan Slot 5
+  - name: Fan 06
+    position: Fan Slot 6
+
+interfaces:
+  - name: Management 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: ToD 1
+    type: 1000base-t
+    mgmt_only: true
+
+  - name: Port 1
+    type: 400gbase-x-qsfpdd
+  - name: Port 2
+    type: 400gbase-x-qsfpdd
+  - name: Port 3
+    type: 400gbase-x-qsfpdd
+  - name: Port 4
+    type: 400gbase-x-qsfpdd
+  - name: Port 5
+    type: 400gbase-x-qsfpdd
+  - name: Port 6
+    type: 400gbase-x-qsfpdd
+  - name: Port 7
+    type: 400gbase-x-qsfpdd
+  - name: Port 8
+    type: 400gbase-x-qsfpdd
+  - name: Port 9
+    type: 400gbase-x-qsfpdd
+  - name: Port 10
+    type: 400gbase-x-qsfpdd
+  - name: Port 11
+    type: 400gbase-x-qsfpdd
+  - name: Port 12
+    type: 400gbase-x-qsfpdd
+  - name: Port 13
+    type: 400gbase-x-qsfpdd
+  - name: Port 14
+    type: 400gbase-x-qsfpdd
+  - name: Port 15
+    type: 400gbase-x-qsfpdd
+  - name: Port 16
+    type: 400gbase-x-qsfpdd
+  - name: Port 17
+    type: 400gbase-x-qsfpdd
+  - name: Port 18
+    type: 400gbase-x-qsfpdd
+  - name: Port 19
+    type: 400gbase-x-qsfpdd
+  - name: Port 20
+    type: 400gbase-x-qsfpdd
+  - name: Port 21
+    type: 400gbase-x-qsfpdd
+  - name: Port 22
+    type: 400gbase-x-qsfpdd
+  - name: Port 23
+    type: 400gbase-x-qsfpdd
+  - name: Port 24
+    type: 400gbase-x-qsfpdd
+  - name: Port 25
+    type: 400gbase-x-qsfpdd
+  - name: Port 26
+    type: 400gbase-x-qsfpdd
+  - name: Port 27
+    type: 400gbase-x-qsfpdd
+  - name: Port 28
+    type: 400gbase-x-qsfpdd
+  - name: Port 29
+    type: 400gbase-x-qsfpdd
+  - name: Port 30
+    type: 400gbase-x-qsfpdd
+  - name: Port 31
+    type: 400gbase-x-qsfpdd
+  - name: Port 32
+    type: 400gbase-x-qsfpdd
