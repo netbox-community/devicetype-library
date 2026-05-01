@@ -1,0 +1,78 @@
+---
+manufacturer: ASRock
+model: 6U8M-GENOA2 MI300X
+slug: asrock-6u8m-genoa2-mi300x
+part_number: 6U8M-GENOA2 MI300X
+u_height: 6
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  [Datasheet](https://www.asrockrack.com/general/productdetail.asp?Model=6U8M-GENOA2%20MI300X#Specifications)
+
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 02
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 03
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 04
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 05
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 06
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 07
+    type: iec-60320-c14
+    maximum_draw: 3002
+  - name: PSU 08
+    type: iec-60320-c14
+    maximum_draw: 3002
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: Intel i350-AM2 (RJ45)
+  - name: eth1
+    type: 1000base-t
+    description: Intel i350-AM2 (RJ45)
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN (Realtek RTL8211F)
+
+module-slots:
+  - name: M.2_1
+    description: PCIe3.0 x4 or SATA 6Gb/s [CPU0]
+  - name: M.2_2
+    description: PCIe3.0 x4 or SATA 6Gb/s [CPU1]
+
+  - name: Slot 01
+    description: HHHL PCIe5.0 x16
+  - name: Slot 02
+    description: HHHL PCIe5.0 x16
+  - name: Slot 03
+    description: HHHL PCIe5.0 x16
+  - name: Slot 04
+    description: HHHL PCIe5.0 x16
+  - name: Slot 05
+    description: HHHL PCIe5.0 x16
+  - name: Slot 06
+    description: HHHL PCIe5.0 x16
+  - name: Slot 07
+    description: HHHL PCIe5.0 x16
+  - name: Slot 08
+    description: HHHL PCIe5.0 x16
+
+  - name: Slot 09
+    description: FHHL PCIe5.0 x16
+  - name: Slot 10
+    description: FHHL PCIe5.0 x16
+  - name: Slot 11
+    description: FHHL PCIe5.0 x16
