@@ -1,7 +1,7 @@
 ---
 manufacturer: MikroTik
 model: CRS418-8P-8G-2S+RM
-slug: mikrotik-crs418-8p-8g-2s-rm
+slug: mikrotik-crs418-8p-8g-2s-plus-rm
 part_number: CRS418-8P-8G-2S+RM
 is_full_depth: false
 airflow: front-to-rear
@@ -20,20 +20,28 @@ console-ports:
     type: usb-a
 interfaces:
   - name: ether1
+    label: '1'
     type: 1000base-t
   - name: ether2
+    label: '2'
     type: 1000base-t
   - name: ether3
+    label: '3'
     type: 1000base-t
   - name: ether4
+    label: '4'
     type: 1000base-t
   - name: ether5
+    label: '5'
     type: 1000base-t
   - name: ether6
+    label: '6'
     type: 1000base-t
   - name: ether7
+    label: '7'
     type: 1000base-t
   - name: ether8
+    label: '8'
     type: 1000base-t
   - name: ether9
     label: '9'
@@ -64,21 +72,21 @@ interfaces:
     label: '14'
     type: 1000base-t
     poe_mode: pse
-    poe_type: type2-ieee802.3at   
+    poe_type: type2-ieee802.3at
   - name: ether15
     label: '15'
     type: 1000base-t
     poe_mode: pse
-    poe_type: type2-ieee802.3at  
+    poe_type: type2-ieee802.3at
   - name: ether16
     label: '16'
     type: 1000base-t
     poe_mode: pse
-    poe_type: type2-ieee802.3at    
+    poe_type: type2-ieee802.3at
   - name: ether17
     label: '17'
     type: 1000base-t
-    mgmt_only: true   
+    mgmt_only: true
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
