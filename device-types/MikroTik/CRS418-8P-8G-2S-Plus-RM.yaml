@@ -16,7 +16,9 @@ is_powered: true
 console-ports:
   - name: serial0
     type: rj-45
+    label: CONSOLE
   - name: USB
+    label: USB
     type: usb-a
 interfaces:
   - name: ether1
@@ -84,12 +86,14 @@ interfaces:
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: ether17
-    label: '17'
+    label: MGMT/BOOT
     type: 1000base-t
     mgmt_only: true
   - name: sfp-sfpplus1
+    label: SFP+ 1
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus2
+    label: SFP+ 2
     type: 10gbase-x-sfpp
 power-ports:
   - name: power1
