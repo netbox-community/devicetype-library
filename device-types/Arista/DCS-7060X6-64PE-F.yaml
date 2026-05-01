@@ -28,10 +28,12 @@ power-ports:
 interfaces:
   - name: Management1
     type: 1000base-t
+
   - name: SFP1
     type: 25gbase-x-sfp28
   - name: SFP2
     type: 25gbase-x-sfp28
+
   - name: Ethernet1/1
     type: 800gbase-x-osfp
   - name: Ethernet2/1
