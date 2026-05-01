@@ -1,0 +1,107 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR685a V3
+slug: lenovo-thinksystem-sr685a-v3
+part_number: 7DHCCTO1WW
+u_height: 8
+is_full_depth: true
+weight: 109.4
+description: 8U Air-Cooled Generative AI Server, 8x SXM5 GPUs, Dual AMD EPYC 9005/9004
+
+power-ports:
+  - name: PSU 01
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 02
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 03
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 04
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 05
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 06
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 07
+    type: iec-60320-c20
+    maximum_draw: 2600
+  - name: PSU 08
+    type: iec-60320-c20
+    maximum_draw: 2600
+
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated RJ-45 1GbE XCC Remote Management (Rear)
+
+module-slots:
+  # Front PCIe Slots (Typically for GPU Direct Networking)
+  - name: Slot 01
+    description: Front PCIe 5.0 x16 FHHL (CPU 2)
+  - name: Slot 02
+    description: Front PCIe 5.0 x16 FHHL (CPU 2)
+  - name: Slot 03
+    description: Front PCIe 5.0 x16 FHHL (CPU 2)
+  - name: Slot 04
+    description: Front PCIe 5.0 x16 FHHL (CPU 2)
+  - name: Slot 05
+    description: Front PCIe 5.0 x16 FHHL (CPU 1)
+  - name: Slot 06
+    description: Front PCIe 5.0 x16 FHHL (CPU 1)
+  - name: Slot 07
+    description: Front PCIe 5.0 x16 FHHL (CPU 1)
+  - name: Slot 08
+    description: Front PCIe 5.0 x16 FHHL (CPU 1)
+
+  # Rear PCIe Slots (Typically for DPU/User Plane)
+  - name: Slot 09
+    description: Rear PCIe 5.0 x16 FHHL (CPU 1) - Mutually exclusive with OCP
+  - name: Slot 10
+    description: Rear PCIe 5.0 x16 FHHL (CPU 2)
+  - name: Slot 11 (OCP)
+    description: Rear OCP 3.0 SFF PCIe 5.0 x16 (CPU 1) - Mutually exclusive with Slot 9
+
+  # Internal Storage Slots
+  - name: Storage 01
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 02
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 03
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 04
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 05
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 06
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 07
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 08
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 09
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 10
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 11
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 12
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 13
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 14
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 15
+    description: PCIe 5.0 x4 NVMe SSD
+  - name: Storage 16
+    description: PCIe 5.0 x4 NVMe SSD
+
+  - name: Storage 17
+    description: Internal M.2 NVMe
+  - name: Storage 18
+    description: Internal M.2 NVMe
