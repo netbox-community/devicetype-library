@@ -1,0 +1,44 @@
+---
+manufacturer: Extreme Networks
+model: 4220-8X
+slug: extreme-networks-4220-8x
+part_number: 4220-8X
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 2.37
+weight_unit: kg
+airflow: left-to-right
+comments: '[Extreme Networks 4000 series datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/4000-Series-Data-Sheet%27?v=bb9ebc88)'
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 65
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB console
+    type: usb-micro-b
+interfaces:
+  - name: Mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 10gbase-x-sfpp
+  - name: '2'
+    type: 10gbase-x-sfpp
+  - name: '3'
+    type: 10gbase-x-sfpp
+  - name: '4'
+    type: 10gbase-x-sfpp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: U1
+    type: 10gbase-x-sfpp
+    description: Can be used for stacking or 10Gb ethernet
+  - name: U2
+    type: 10gbase-x-sfpp
+    description: Can be used for stacking or 10Gb ethernet
