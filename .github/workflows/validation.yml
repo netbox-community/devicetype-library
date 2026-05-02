@@ -101,7 +101,7 @@ jobs:
         with:
           files: tests/known-slugs.pickle
       - name: Add PR Comment if pickle file is modified
-        uses: mshick/add-pr-comment@v2
+        uses: mshick/add-pr-comment@v3
         if: steps.pickle-change.outputs.any_changed == 'true'
         with:
           message: |
@@ -114,9 +114,4 @@ jobs:
         with:
           labels: |
             status: revisions needed
-            status: pickle-issue
-      - uses: actions-ecosystem/action-remove-labels@v1
-        if: steps.pickle-change.outputs.any_changed != 'true'
-        with:
-          labels: |
             status: pickle-issue
