@@ -1,15 +1,13 @@
 ---
 manufacturer: Fortinet
-model: FortiSwitch 424E-POE
-slug: fortinet-fs-424e-poe
-part_number: FS-424E-POE
+model: FortiSwitch 424E
+slug: fortinet-fs-424e
+part_number: FS-424E
 u_height: 1.0
 is_full_depth: false
 airflow: side-to-rear
-weight: 5.25
+weight: 3.1
 weight_unit: kg
-front_image: true
-rear_image: true
 comments: '[FortiSwitch Secure Campus Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortiswitch-campus-series.pdf),
   [FortiSwitch 424E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-424e-series-quickstart-guide)'
 console-ports:
@@ -19,112 +17,64 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
-    maximum_draw: 284
-    allocated_draw: 281
+    maximum_draw: 24
+    allocated_draw: 22
   - name: PS2
     type: iec-60320-c14
-    maximum_draw: 284
-    allocated_draw: 281
+    maximum_draw: 24
+    allocated_draw: 22
 interfaces:
   - name: mgmt
     type: 1000base-t
     mgmt_only: true
   - name: port1
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port2
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port3
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port4
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port5
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port6
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port7
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port8
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port9
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port10
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port11
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port12
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port13
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port14
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port15
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port16
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port17
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port18
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port19
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port20
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port21
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port22
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port23
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port24
     type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: port25
     type: 10gbase-x-sfpp
   - name: port26
