@@ -1,0 +1,17 @@
+---
+# Nokia IOM2-se (Input/Output Module, FP5 generation)
+# FP5-based, up to 6 Tb/s per slot
+# For SR-7s/14s
+manufacturer: Nokia
+model: IOM2-se
+part_number: 3HE18880AA
+comments: >-
+  IOM2-se (Input/Output Module, FP5 enhanced) for 7750 SR-7s/14s.
+  FP5 silicon, up to 6.0 Tb/s full duplex. Hosts 2 MDA-se half-slots.
+module-bays:
+  - name: '{module}/1'
+    position: '1'
+    label: MDA 1
+  - name: '{module}/2'
+    position: '2'
+    label: MDA 2
