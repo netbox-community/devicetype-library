@@ -1,0 +1,38 @@
+---
+manufacturer: ACEMAGICIAN
+model: Matrix Mini M1 Ryzen 7 7735HS
+slug: acemagician-matrix-mini-m1-ryzen-7-7735hs
+# Yes, really, it does just say model: m1 on the label on the bottom of the device. 
+part_number: M1
+u_height: 0
+# Dimensions are about 133mm x 133mm x 35mm
+is_full_depth: false
+weight: 520
+weight_unit: g
+# Their website doesn't appear to be super well maintained, this is the closest thing that I could find
+#  https://acemagic.net/products/kronmini-series-k1
+# But I think the amazon link is more durable since it's probably not going to rot away as quickly as the product page on their website
+comments: "[ACEMAGICIAN Matrix Mini M1 (Ryzen 7 7735HS)](https://www.amazon.com/dp/B0BQHBWPYX)"
+interfaces:
+  # Single Realtek 2.5GbE port
+  - name: eth0
+    type: 2.5gbase-t
+  # Does feature a RTL8852BE WiFi card
+  - name: wireless
+    type: ieee802.11ax
+  - name: Bluetooth 5.2
+    type: ieee802.15.1
+power-ports:
+  - name: PSU
+    type: dc-terminal
+console-ports:
+  - name: HDMI
+    type: other
+  - name: DisplayPort
+    type: other
+
+# Only supports a M2 NVMe SSD
+module-bays:
+    # 22110
+  - name: M.2 NVMe SSD
+    position: '1'
