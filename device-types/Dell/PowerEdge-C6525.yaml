@@ -21,6 +21,9 @@ interfaces:
   - name: LOM1
     type: 1000base-t
     description: Embedded Single port 1GbE LOM
+  - name: vpc0
+    type: virtual
+    description: VPCIP
 
 module-bays:
   # OCP Slot

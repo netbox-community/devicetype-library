@@ -19,17 +19,26 @@ power-ports:
     type: iec-60320-c14
 
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+  - name: vpc0
+    type: virtual
+    description: VPCIP
+  - name: NIC0
+    type: 1000base-t
+  - name: NIC1
+    type: 1000base-t
+  - name: NIC2
+    type: 1000base-t
+  - name: NIC3
+    type: 1000base-t
+  - name: ens1f0
+    type: 1000base-t
+    description: Full-height PCIe slot 1
+  - name: ens1f1
+    type: 1000base-t
+    description: Full-height PCIe slot 2
 
 module-bays:
   - name: Power Supply 01
