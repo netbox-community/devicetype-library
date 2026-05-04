@@ -24,6 +24,12 @@ interfaces:
   - name: vpc0
     type: virtual
     description: VPCIP
+  - name: eth1
+    type: 10gbase-x-sfpp
+    description: PCIe 5.0 x8 (FH, 10.5"L)
+  - name: eth2
+    type: 10gbase-x-sfpp
+    description: PCIe 5.0 x8 (FH, 10.5"L)
 
 power-ports:
   - name: PSU 01
