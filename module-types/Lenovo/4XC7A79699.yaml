@@ -10,43 +10,43 @@ airflow: null
 attribute_data: null
 comments: '[ThinkSystem Intel X710-T4L 10GBase-T 4-Port PCIe Ethernet Adapter](https://lenovopress.lenovo.com/tips1229-intel-x710-10gbe)'
 interfaces:
-- name: 10GE/{module}/1
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: 10GE/{module}/2
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: 10GE/{module}/3
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: 10GE/{module}/4
-  type: 10gbase-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
+  - name: 10GE/{module}/1
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
+  - name: 10GE/{module}/2
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
+  - name: 10GE/{module}/3
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
+  - name: 10GE/{module}/4
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: null
+    poe_type: null
+    rf_role: null
