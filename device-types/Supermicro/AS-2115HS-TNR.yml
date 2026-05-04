@@ -24,12 +24,12 @@ interfaces:
   - name: vpc0
     type: virtual
     description: VPCIP
-  - name: eth1
-    type: 10gbase-x-sfpp
-    description: PCIe 5.0 x8 (FH, 10.5"L)
-  - name: eth2
-    type: 10gbase-x-sfpp
-    description: PCIe 5.0 x8 (FH, 10.5"L)
+  - name: eth1 (Port 1)
+    type: 400gbase-x-qsfp112
+    description: BCM957608-P2200GQF0 400GbE NIC
+  - name: eth2 (Port 7)
+    type: 400gbase-x-qsfp112
+    description: BCM957608-P2200GQF0 400GbE NIC
 
 power-ports:
   - name: PSU 01
