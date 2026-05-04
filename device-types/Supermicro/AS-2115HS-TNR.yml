@@ -21,6 +21,9 @@ interfaces:
   - name: eth0
     type: 10gbase-x-sfpp
     description: AIOM Port
+  - name: vpc0
+    type: virtual
+    description: VPCIP
 
 power-ports:
   - name: PSU 01
