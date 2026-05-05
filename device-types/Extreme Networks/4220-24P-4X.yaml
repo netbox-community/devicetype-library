@@ -1,135 +1,132 @@
 ---
-manufacturer: Fortinet
-model: FortiSwitch 424E-POE
-slug: fortinet-fs-424e-poe
-part_number: FS-424E-POE
-u_height: 1.0
+manufacturer: Extreme Networks
+model: 4220-24P-4X
+slug: extreme-networks-4220-24p-4x
+part_number: 4220-24P-4X
+u_height: 1
 is_full_depth: false
-airflow: side-to-rear
-weight: 5.25
-weight_unit: kg
 front_image: true
 rear_image: true
-comments: '[FortiSwitch Secure Campus Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortiswitch-campus-series.pdf),
-  [FortiSwitch 424E Series QuickStart Guide](https://docs.fortinet.com/document/fortiswitch/hardware/fortiswitch-424e-series-quickstart-guide)'
+weight: 4.37
+weight_unit: kg
+airflow: left-to-right
+comments: '[Extreme Networks 4000 series datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/4000-Series-Data-Sheet%27?v=bb9ebc88)'
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 370
 console-ports:
   - name: Console
     type: rj-45
-    description: Rear of the device
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 284
-    allocated_draw: 281
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 284
-    allocated_draw: 281
+  - name: USB console
+    type: usb-micro-b
 interfaces:
-  - name: mgmt
+  - name: Mgmt
     type: 1000base-t
     mgmt_only: true
-  - name: port1
+  - name: '1'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port2
+  - name: '2'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port3
+  - name: '3'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port4
+  - name: '4'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port5
+  - name: '5'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port6
+  - name: '6'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port7
+  - name: '7'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port8
+  - name: '8'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port9
+  - name: '9'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port10
+  - name: '10'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port11
+  - name: '11'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port12
+  - name: '12'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port13
+  - name: '13'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port14
+  - name: '14'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port15
+  - name: '15'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port16
+  - name: '16'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port17
+  - name: '17'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port18
+  - name: '18'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port19
+  - name: '19'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port20
+  - name: '20'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port21
+  - name: '21'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port22
+  - name: '22'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port23
+  - name: '23'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port24
+  - name: '24'
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: port25
+  - name: '25'
     type: 10gbase-x-sfpp
-  - name: port26
+  - name: '26'
     type: 10gbase-x-sfpp
-  - name: port27
+  - name: U1
     type: 10gbase-x-sfpp
-  - name: port28
+    description: Can be used for stacking or 10Gb ethernet
+  - name: U2
     type: 10gbase-x-sfpp
+    description: Can be used for stacking or 10Gb ethernet
