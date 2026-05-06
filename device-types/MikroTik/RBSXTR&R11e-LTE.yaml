@@ -1,0 +1,27 @@
+---
+manufacturer: MikroTik
+model: SXT LTE kit
+slug: mikrotik-sxt-lte-kit
+part_number: RBSXTR&R11e-LTE
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: ether1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: POE-IN
+  - name: ether2
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+    description: POE-OUT
+  - name: lte1
+    type: lte
+module-bays:
+  - name: miniPCIe
+    position: '1'
+comments: |
+  SXT LTE kit with LTE Cat4 modem and two Micro SIM slots.
+  [MikroTik SXT LTE kit Datasheet](https://mikrotik.com/product/sxt_lte_kit)
