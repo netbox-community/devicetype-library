@@ -7,128 +7,133 @@ u_height: 1
 is_full_depth: true
 front_image: true
 rear_image: true
-comments: '[HPE FlexFabric 5900 Switch Series](https://h41111.www4.hpe.com/jrit/uk-en/pdf/UK-2018_FlexFabric-5900-Switch.pdf)'
+comments: '[HPE FlexFabric 5900 Switch Series](https://www.hpe.com/psnow/doc/c04111469)'
 weight: 13
 weight_unit: kg
 console-ports:
   - name: Console
     type: rj-45
-  - name: USB Console
-    type: usb-mini-b
   - name: USB
-    type: usb-b
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 650
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 650
 interfaces:
-  - name: Management
+  - name: M-GE0/0/0
     type: 1000base-t
     mgmt_only: true
-  - name: Ten-GigabitEthernet1/0/1
+  - name: XGE1/0/1
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/2
+  - name: XGE1/0/2
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/3
+  - name: XGE1/0/3
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/4
+  - name: XGE1/0/4
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/5
+  - name: XGE1/0/5
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/6
+  - name: XGE1/0/6
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/7
+  - name: XGE1/0/7
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/8
+  - name: XGE1/0/8
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/9
+  - name: XGE1/0/9
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/10
+  - name: XGE1/0/10
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/11
+  - name: XGE1/0/11
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/12
+  - name: XGE1/0/12
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/13
+  - name: XGE1/0/13
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/14
+  - name: XGE1/0/14
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/15
+  - name: XGE1/0/15
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/16
+  - name: XGE1/0/16
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/17
+  - name: XGE1/0/17
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/18
+  - name: XGE1/0/18
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/19
+  - name: XGE1/0/19
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/20
+  - name: XGE1/0/20
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/21
+  - name: XGE1/0/21
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/22
+  - name: XGE1/0/22
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/23
+  - name: XGE1/0/23
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/24
+  - name: XGE1/0/24
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/25
+  - name: XGE1/0/25
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/26
+  - name: XGE1/0/26
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/27
+  - name: XGE1/0/27
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/28
+  - name: XGE1/0/28
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/29
+  - name: XGE1/0/29
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/30
+  - name: XGE1/0/30
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/31
+  - name: XGE1/0/31
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/32
+  - name: XGE1/0/32
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/33
+  - name: XGE1/0/33
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/34
+  - name: XGE1/0/34
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/35
+  - name: XGE1/0/35
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/36
+  - name: XGE1/0/36
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/37
+  - name: XGE1/0/37
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/38
+  - name: XGE1/0/38
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/39
+  - name: XGE1/0/39
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/40
+  - name: XGE1/0/40
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/41
+  - name: XGE1/0/41
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/42
+  - name: XGE1/0/42
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/43
+  - name: XGE1/0/43
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/44
+  - name: XGE1/0/44
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/45
+  - name: XGE1/0/45
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/46
+  - name: XGE1/0/46
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/47
+  - name: XGE1/0/47
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/48
+  - name: XGE1/0/48
     type: 10gbase-x-sfpp
-  - name: Ten-GigabitEthernet1/0/49
+  - name: FGE1/0/49
     type: 40gbase-x-qsfpp
-  - name: Ten-GigabitEthernet1/0/50
+  - name: FGE1/0/50
     type: 40gbase-x-qsfpp
-  - name: Ten-GigabitEthernet1/0/51
+  - name: FGE1/0/51
     type: 40gbase-x-qsfpp
-  - name: Ten-GigabitEthernet1/0/52
+  - name: FGE1/0/52
     type: 40gbase-x-qsfpp
 module-bays:
-  - name: PWR1
+  - name: PSU1
     position: '1'
-  - name: PWR2
+  - name: PSU2
     position: '2'
   - name: Fan1
     position: '1'
