@@ -41,6 +41,10 @@ interfaces:
     mgmt_only: true
     description: Dedicated RJ-45 1GbE XCC Remote Management (Rear)
 
+  - name: vpc0
+    type: virtual
+    description: VPCIP
+
 module-slots:
   # Front PCIe Slots (Typically for GPU Direct Networking)
   - name: Slot 01

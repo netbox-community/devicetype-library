@@ -28,6 +28,10 @@ interfaces:
     mgmt_only: true
     description: 1 RJ45 1 GbE Dedicated BMC LAN port
 
+  - name: vpc0
+    type: virtual
+    description: VPCIP
+
 module-bays:
   - name: PSU 01
     position: PSU Slot 1

@@ -46,6 +46,9 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     description: Dedicated IPMI LAN (Realtek RTL8211F)
+  - name: vpc0
+    type: virtual
+    description: VPCIP
 
 module-slots:
   - name: M.2_1
