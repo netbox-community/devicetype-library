@@ -48,10 +48,10 @@ module-bays:
     position: Fan Slot 6
 
 interfaces:
-  - name: Management 1
+  - name: Management
     type: 1000base-t
     mgmt_only: true
-  - name: ToD 1
+  - name: ToD
     type: 1000base-t
     mgmt_only: true
 
@@ -119,7 +119,3 @@ interfaces:
     type: 400gbase-x-qsfpdd
   - name: Port 32
     type: 400gbase-x-qsfpdd
-
-  - name: vpc0
-    type: virtual
-    description: VPCIP

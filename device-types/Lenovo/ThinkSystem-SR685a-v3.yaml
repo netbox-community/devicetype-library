@@ -45,6 +45,10 @@ interfaces:
     type: virtual
     description: VPCIP
 
+  - name: eth0
+    type: 1000base-t
+    description: Network Adaptor RJ-45 (Rear)
+
 module-slots:
   # Front PCIe Slots (Typically for GPU Direct Networking)
   - name: Slot 01
