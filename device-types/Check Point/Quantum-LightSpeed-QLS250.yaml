@@ -1,0 +1,34 @@
+---
+manufacturer: Check Point
+model: Quantum LightSpeed QLS250
+slug: check-point-quantum-lightspeed-qls250
+part_number: CPAP-QSLS250-B-SNBT
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Check Point Quantum LightSpeed QLS250 Data Sheet](https://www.checkpoint.com/downloads/products/quantum-lightspeed-qls250-datasheet.pdf)'
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+interfaces:
+  - name: Mgmt
+    label: MGMT
+    type: 10gbase-t
+    mgmt_only: true
+  - name: Sync
+    label: SYNC
+    type: 25gbase-x-sfp28
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: Interface Card 1
+    position: '1'
+  - name: Interface Card 2
+    position: '2'

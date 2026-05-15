@@ -1,0 +1,26 @@
+---
+manufacturer: Cisco
+model: Catalyst 8355-G2
+part_number: C8355-G2
+slug: cisco-c8355-g2
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: '[Cisco Catalyst 8300 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8300-series-edge-platforms/datasheet-c78-744088.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/0/3
+    type: 1000base-t
+module-bays:
+  - name: SM 1
+    position: '1'
+  - name: NIM 1
+    position: '1'

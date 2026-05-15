@@ -1,0 +1,27 @@
+---
+manufacturer: Check Point
+model: Smart-1 6000-XL
+slug: check-point-smart-1-6000-xl
+part_number: CPAP-SMART1-6000-XL
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Check Point Smart-1 6000 Appliances Data Sheet](https://www.checkpoint.com/downloads/products/smart-1-6000-datasheet.pdf)'
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+interfaces:
+  - name: Mgmt
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
