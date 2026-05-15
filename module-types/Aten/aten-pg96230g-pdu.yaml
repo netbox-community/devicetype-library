@@ -1,20 +1,20 @@
 ---
 manufacturer: Aten
-model: ATEN PG96230G PDU
-part_number: 66653O
-comments: '[66653O](https://www.aten.com/global/en/products/power-distribution/rack-pdu/pg96230/)'
+model: ATEN 30-Outlet 3-Phase PDU
+part_number: PG96230G
+comments: '[PG96230G](https://www.aten.com/global/en/products/power-distribution/rack-pdu/pg96230/)'
 airflow: passive
 weight: 7.4
 weight_unit: kg
 console-ports:
   - name: COM
     type: rj-45
+  - name: SENSOR
+    type: rj-11
 interfaces:
   - name: Lan 1
     type: 1000base-t
   - name: Lan 2
-    type: 1000base-t
-  - name: SENSOR
     type: 1000base-t
 power-ports:
   - name: Power In
