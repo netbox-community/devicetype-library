@@ -1,0 +1,38 @@
+---
+manufacturer: Check Point
+model: SG15600
+slug: check-point-sg15600
+part_number: CPAP-SG15600-SNBT
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Check Point 15600 Data Sheet](https://www.checkpoint.com/downloads/products/15600-security-gateway-datasheet.pdf)'
+console-ports:
+  - name: ttyS0
+    label: CONSOLE
+    type: rj-45
+interfaces:
+  - name: Mgmt
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: Sync
+    label: SYNC
+    type: 1000base-t
+  - name: lom
+    label: LOM
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: Interface Card 1
+    position: '1'
+  - name: Interface Card 2
+    position: '2'
+  - name: Interface Card 3
+    position: '3'
+  - name: Interface Card 4
+    position: '4'
