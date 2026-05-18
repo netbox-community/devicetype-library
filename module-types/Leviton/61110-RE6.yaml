@@ -2,15 +2,15 @@
 manufacturer: Leviton
 model: 61110-RE6
 part_number: 61110-RE6
-description: "eXtreme Cat 6 QuickPort Jack, 8P8C (1), 110 Punch (1), Black"
+description: eXtreme Cat 6 QuickPort Jack, 8P8C (1), 110 Punch (1), Black
 comments: |
   Leviton eXtreme Cat 6 QuickPort connector. Snaps into any Leviton
   QuickPort-compatible patch panel, surface-mount box, or wall plate.
 rear-ports:
-  - name: "{module}"
-    type: 110 punch
+  - name: '{module}'
+    type: 110-punch
 front-ports:
-  - name: "{module}"
+  - name: '{module}'
     type: 8p8c
-    rear_port: "{module}"
+    rear_port: '{module}'
     rear_port_position: 1
