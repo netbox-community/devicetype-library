@@ -1,0 +1,87 @@
+---
+manufacturer: Supermicro
+model: SYS-2028TP-HTTR
+slug: supermicro-sys-2028tp-httr
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: A node with Super X10DRT-PT motherboard which gets installed in a SuperServer 2028TP chassis (https://www.supermicro.com/en/products/system/2u/2028/sys-2028tp-httr.php)
+subdevice_role: child
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: LAN 1
+    type: 10gbase-t
+  - name: LAN 2
+    type: 10gbase-t
+
+module-bays:
+  - name: CPU 1
+    position: CPU 1
+    description: Socket R3 LGA 2011
+  - name: CPU 2
+    position: CPU 2
+    description: Socket R3 LGA 2011
+
+  - name: DIMM A1
+    position: DIMM A1
+    description: Connected to CPU 1
+  - name: DIMM A2
+    position: DIMM A2
+    description: Connected to CPU 1
+  - name: DIMM B1
+    position: DIMM B1
+    description: Connected to CPU 1
+  - name: DIMM B2
+    position: DIMM B2
+    description: Connected to CPU 1
+  - name: DIMM C1
+    position: DIMM C1
+    description: Connected to CPU 1
+  - name: DIMM C2
+    position: DIMM C2
+    description: Connected to CPU 1
+  - name: DIMM D1
+    position: DIMM D1
+    description: Connected to CPU 1
+  - name: DIMM D2
+    position: DIMM D2
+    description: Connected to CPU 1
+  - name: DIMM E1
+    position: DIMM E1
+    description: Connected to CPU 2
+  - name: DIMM E2
+    position: DIMM E2
+    description: Connected to CPU 2
+  - name: DIMM F1
+    position: DIMM F1
+    description: Connected to CPU 2
+  - name: DIMM F2
+    position: DIMM F2
+    description: Connected to CPU 2
+  - name: DIMM G1
+    position: DIMM G1
+    description: Connected to CPU 2
+  - name: DIMM G2
+    position: DIMM G2
+    description: Connected to CPU 2
+  - name: DIMM H1
+    position: DIMM H1
+    description: Connected to CPU 2
+  - name: DIMM H2
+    position: DIMM H2
+    description: Connected to CPU 2
+
+  - name: Slot 1
+    position: Slot 1
+    description: PCI-E 3.0 x16 Slot supported by CPU2
+  - name: Slot 2
+    position: Slot 2
+    description: PCI-E 3.0 x8 Slot supported by CPU2
+  - name: SXB1
+    position: SXB1
+    description: S-SATA 0-2/PCI-E 3.0 x16 Slot supported by CPU2
+  - name: SXB2
+    position: SXB2
+    description: I-SATA 0-5/PCI-E 3.0 x8 Slot supported by CPU1
