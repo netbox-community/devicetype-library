@@ -1,0 +1,125 @@
+---
+manufacturer: Polatis
+model: 6000 Series Ultra 48xCC
+slug: polatis-6000-series-ultra-48xcc
+u_height: 2
+is_full_depth: true
+airflow: passive
+weight: 12.0
+weight_unit: kg
+# Polatis Series 6000 Ultra all-optical circuit switch, DirectLight beam-steering technology.
+# 48 customer-configurable (CC) bidirectional optical ports. Typical deployment: 1-24 IN, 25-48 OUT.
+# Connector type: LC/APC (QuPC ultra-low loss, green connectors).
+# Front panel: 2x RJ45 NIC, serial, USB-A.
+# Rear panel: all 48 optical ports (Port 1-48), 2x PSU bays.
+console-ports:
+  - name: Console
+    type: other
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
+interfaces:
+  - name: Eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Port 1
+    type: other
+  - name: Port 2
+    type: other
+  - name: Port 3
+    type: other
+  - name: Port 4
+    type: other
+  - name: Port 5
+    type: other
+  - name: Port 6
+    type: other
+  - name: Port 7
+    type: other
+  - name: Port 8
+    type: other
+  - name: Port 9
+    type: other
+  - name: Port 10
+    type: other
+  - name: Port 11
+    type: other
+  - name: Port 12
+    type: other
+  - name: Port 13
+    type: other
+  - name: Port 14
+    type: other
+  - name: Port 15
+    type: other
+  - name: Port 16
+    type: other
+  - name: Port 17
+    type: other
+  - name: Port 18
+    type: other
+  - name: Port 19
+    type: other
+  - name: Port 20
+    type: other
+  - name: Port 21
+    type: other
+  - name: Port 22
+    type: other
+  - name: Port 23
+    type: other
+  - name: Port 24
+    type: other
+  - name: Port 25
+    type: other
+  - name: Port 26
+    type: other
+  - name: Port 27
+    type: other
+  - name: Port 28
+    type: other
+  - name: Port 29
+    type: other
+  - name: Port 30
+    type: other
+  - name: Port 31
+    type: other
+  - name: Port 32
+    type: other
+  - name: Port 33
+    type: other
+  - name: Port 34
+    type: other
+  - name: Port 35
+    type: other
+  - name: Port 36
+    type: other
+  - name: Port 37
+    type: other
+  - name: Port 38
+    type: other
+  - name: Port 39
+    type: other
+  - name: Port 40
+    type: other
+  - name: Port 41
+    type: other
+  - name: Port 42
+    type: other
+  - name: Port 43
+    type: other
+  - name: Port 44
+    type: other
+  - name: Port 45
+    type: other
+  - name: Port 46
+    type: other
+  - name: Port 47
+    type: other
+  - name: Port 48
+    type: other

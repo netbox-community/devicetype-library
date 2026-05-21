@@ -1,0 +1,63 @@
+---
+manufacturer: Supermicro
+model: SYS-620BT-CHASSIS
+slug: supermicro-sys-620bt-chassis
+part_number: CSE-827BQ-000NP
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: Chassis for SYS-620BT series
+subdevice_role: parent
+weight: 30
+weight_unit: kg
+front_image: true
+rear_image: true
+
+device-bays:
+  - name: Node A
+  - name: Node B
+  - name: Node C
+  - name: Node D
+
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+
+  - name: HDD bay A0
+    description: Connected to node A
+    position: '1'
+  - name: HDD bay A1
+    description: Connected to node A
+    position: '2'
+  - name: HDD bay A2
+    description: Connected to node A
+    position: '3'
+  - name: HDD bay B0
+    description: Connected to node B
+    position: '4'
+  - name: HDD bay B1
+    description: Connected to node B
+    position: '5'
+  - name: HDD bay B2
+    description: Connected to node B
+    position: '6'
+  - name: HDD bay C0
+    description: Connected to node C
+    position: '7'
+  - name: HDD bay C1
+    description: Connected to node C
+    position: '8'
+  - name: HDD bay C2
+    description: Connected to node C
+    position: '9'
+  - name: HDD bay D0
+    description: Connected to node D
+    position: '10'
+  - name: HDD bay D1
+    description: Connected to node D
+    position: '11'
+  - name: HDD bay D2
+    description: Connected to node D
+    position: '12'
