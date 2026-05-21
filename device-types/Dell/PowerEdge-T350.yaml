@@ -1,0 +1,25 @@
+---
+manufacturer: Dell
+model: PowerEdge T350
+slug: dell-poweredge-t350
+u_height: 5
+is_full_depth: true
+comments: '[PowerEdge T350 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-t350-spec-sheet.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power Supply 1
+    type: iec-60320-c14
+    maximum_draw: 700
+  - name: Power Supply 2
+    type: iec-60320-c14
+    maximum_draw: 700
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
