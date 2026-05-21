@@ -1,84 +1,122 @@
 ---
-# Nokia MDA-m: m36-800g-qsfpdd (36x 800GE QSFP-DD)
-# mda-type in SROS config: m36-800g-qsfpdd
-# FP5-based MDA for IOM2-se or IOM-s-e
+# Nokia XMA2-s (eXtended Media Adapter 2 for SR-s)
+# Installs in XIOM slot of XCM2-7s/14s cards
+# Integrated module - mda-type m36-800g-qsfpdd is auto-configured
+# xiom-type in SROS config: x2-s36-800g-qsfpdd-6.0t
 manufacturer: Nokia
-model: MDA-m36-800g-qsfpdd
-part_number: 3HE18882AA
+model: XMA2-s
+part_number: 3HE18883AA
 comments: >-
-  MDA-m 36-port 800GE QSFP-DD for 7750 SR-s series.
-  FP5 silicon. Up to 6.0 Tb/s aggregate capacity.
-  Supports 800GBASE-DR8/2xFR4 transceivers.
+  XMA2-s 36-port 800GE QSFP-DD for 7750 SR-7s/14s XCM2 series. FP5 silicon.
+  Installs in XIOM slot of XCM2-7s/14s. SROS xiom-type: x2-s36-800g-qsfpdd-6.0t.
+  mda-type m36-800g-qsfpdd is automatically configured; the XMA2-s is an integrated
+  unit (same PN and serial for both XIOM and MDA CLI views).
 module-bays:
   - name: '{module}/c1'
     position: c1
+    label: QSFP-DD
   - name: '{module}/c2'
     position: c2
+    label: QSFP-DD
   - name: '{module}/c3'
     position: c3
+    label: QSFP-DD
   - name: '{module}/c4'
     position: c4
+    label: QSFP-DD
   - name: '{module}/c5'
     position: c5
+    label: QSFP-DD
   - name: '{module}/c6'
     position: c6
+    label: QSFP-DD
   - name: '{module}/c7'
     position: c7
+    label: QSFP-DD
   - name: '{module}/c8'
     position: c8
+    label: QSFP-DD
   - name: '{module}/c9'
     position: c9
+    label: QSFP-DD
   - name: '{module}/c10'
     position: c10
+    label: QSFP-DD
   - name: '{module}/c11'
     position: c11
+    label: QSFP-DD
   - name: '{module}/c12'
     position: c12
+    label: QSFP-DD
   - name: '{module}/c13'
     position: c13
+    label: QSFP-DD
   - name: '{module}/c14'
     position: c14
+    label: QSFP-DD
   - name: '{module}/c15'
     position: c15
+    label: QSFP-DD
   - name: '{module}/c16'
     position: c16
+    label: QSFP-DD
   - name: '{module}/c17'
     position: c17
+    label: QSFP-DD
   - name: '{module}/c18'
     position: c18
+    label: QSFP-DD
   - name: '{module}/c19'
     position: c19
+    label: QSFP-DD
   - name: '{module}/c20'
     position: c20
+    label: QSFP-DD
   - name: '{module}/c21'
     position: c21
+    label: QSFP-DD
   - name: '{module}/c22'
     position: c22
+    label: QSFP-DD
   - name: '{module}/c23'
     position: c23
+    label: QSFP-DD
   - name: '{module}/c24'
     position: c24
+    label: QSFP-DD
   - name: '{module}/c25'
     position: c25
+    label: QSFP-DD
   - name: '{module}/c26'
     position: c26
+    label: QSFP-DD
   - name: '{module}/c27'
     position: c27
+    label: QSFP-DD
   - name: '{module}/c28'
     position: c28
+    label: QSFP-DD
   - name: '{module}/c29'
     position: c29
+    label: QSFP-DD
   - name: '{module}/c30'
     position: c30
+    label: QSFP-DD
   - name: '{module}/c31'
     position: c31
+    label: QSFP-DD
   - name: '{module}/c32'
     position: c32
+    label: QSFP-DD
   - name: '{module}/c33'
     position: c33
+    label: QSFP-DD
   - name: '{module}/c34'
     position: c34
+    label: QSFP-DD
   - name: '{module}/c35'
     position: c35
+    label: QSFP-DD
   - name: '{module}/c36'
     position: c36
+    label: QSFP-DD

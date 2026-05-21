@@ -1,0 +1,41 @@
+---
+manufacturer: Nokia
+model: 7750 SR-2s
+slug: nokia-7750-sr-2s
+part_number: 3HE12340BA
+u_height: 5
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: A/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: B/1
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Slot 1
+    position: SLOT1
+    description: IOM slot
+  - name: Slot 2
+    position: SLOT2
+    description: IOM slot
+  - name: CPM A
+    position: A
+  - name: CPM B
+    position: B
+  - name: PS1
+    position: PS1
+  - name: PS2
+    position: PS2
+  - name: PS3
+    position: PS3
+  - name: Fan Tray 1
+    position: FAN1
+  - name: Fan Tray 2
+    position: FAN2
+  - name: Fan Tray 3
+    position: FAN3
