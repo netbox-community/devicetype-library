@@ -4,17 +4,18 @@ model: PowerEdge T350
 slug: dell-poweredge-t350
 u_height: 5
 is_full_depth: true
-comments: '[PowerEdge T350 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-t350-spec-sheet.pdf)'
+weight: 19.54
+weight_unit: kg
+airflow: front-to-rear
+comments: '[PowerEdge T350 Spec Sheet](https://i.dell.com/sites/csdocuments/product_docs/en/dell-emc-poweredge-t350-spec-sheet.pdf)'
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: Power Supply 1
-    type: iec-60320-c14
-    maximum_draw: 700
-  - name: Power Supply 2
-    type: iec-60320-c14
-    maximum_draw: 700
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
 interfaces:
   - name: iDRAC
     type: 1000base-t
