@@ -1,0 +1,15 @@
+---
+manufacturer: Lenovo
+model: 4XC7A80266
+part_number: 4XC7A80266
+description: ThinkSystem Intel X710-T2L 10GBase-T 2-Port PCIe Ethernet Adapter
+comments: '[ThinkSystem Intel X710-T2L 10GBase-T 2-Port PCIe Ethernet Adapter](https://lenovopress.lenovo.com/tips1229-intel-x710-10gbe)'
+interfaces:
+  - name: 10GE/{module}/1
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: 10GE/{module}/2
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
