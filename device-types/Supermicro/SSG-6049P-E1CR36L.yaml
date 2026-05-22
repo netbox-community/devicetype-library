@@ -1,0 +1,52 @@
+---
+manufacturer: Supermicro
+model: SuperStorage 6049P-E1CR36L
+slug: supermicro-ssg-6049p-e1cr36l
+part_number: SSG-6049P-E1CR36L
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 29.7
+weight_unit: kg
+comments: '[Supermicro SuperStorage 6049P-E1CR36L](https://www.supermicro.com/en/products/system/4U/6049/SSG-6049P-E1CR36L.cfm)'
+console-ports:
+  - name: Serial
+    type: de-9
+    description: Rear port
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI port
+  - name: 10GbE 1
+    type: 10gbase-t
+  - name: 10GbE 2
+    type: 10gbase-t
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 3.0 x16 slot
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 3.0 x16 slot
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 3.0 x16 slot
+  - name: PCI-E 4
+    position: '4'
+    description: PCI-E 3.0 x8 slot
+  - name: PCI-E 5
+    position: '5'
+    description: PCI-E 3.0 x8 slot
+  - name: PCI-E 6
+    position: '6'
+    description: PCI-E 3.0 x8 slot
+  - name: PCI-E 7
+    position: '7'
+    description: PCI-E 3.0 x8 slot

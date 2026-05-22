@@ -1,9 +1,8 @@
 ---
 manufacturer: Supermicro
-model: AS-1114S-WN10RT
-slug: supermicro-as-1114s-wn10rt
-part_number: AS-1114S-WN10RT
-comments: '[MNL-2295.pdf](https://www.supermicro.com/manuals/superserver/1U/MNL-2295.pdf)'
+model: AS-1124US-TNRP
+slug: supermicro-as-1124us-tnrp
+part_number: AS-1124US-TNRP
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear
@@ -12,17 +11,21 @@ rear_image: true
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
 interfaces:
   - name: BMC
     type: 1000base-t
     mgmt_only: true
     description: Dedicated IPMI LAN port
-  - name: Gig-E 1
+  - name: 10GbE 1
     type: 10gbase-t
-  - name: Gig-E 2
+  - name: 10GbE 2
     type: 10gbase-t
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
