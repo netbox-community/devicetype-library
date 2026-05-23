@@ -281,6 +281,89 @@ def test_definitions(file_path, schema, change_type):
                     )
                 rear_port_positions[key] = fp.get("name")
 
+        # Validate the optional `port-mappings` stanza (NetBox v4.5+ format).
+        # The library accepts both formats: the legacy inline `rear_port` /
+        # `rear_port_position` on each front-port (checked in the loop above),
+        # and the new top-level `port-mappings:` list. A given front-port must
+        # use only one of the two formats.
+        #
+        # Note: we deliberately do NOT require every front-port to be referenced
+        # by some mapping (inline or stanza). NetBox v4.5+ permits unmapped
+        # front-ports — `FrontPortTemplate.clean()` enforces only the upper
+        # bound `positions >= mappings.count()` — so DTL matches that
+        # permissiveness rather than being stricter than the target system.
+        if any(x in file_path for x in ("device-types", "module-types")):
+            port_mappings = definition.get("port-mappings", []) or []
+            front_port_names = {
+                fp.get("name") for fp in front_ports if isinstance(fp, dict)
+            }
+            front_ports_with_inline_rear = {
+                fp.get("name") for fp in front_ports
+                if isinstance(fp, dict) and fp.get("rear_port")
+            }
+            front_port_positions = {}
+
+            for pm in port_mappings:
+                if not isinstance(pm, dict):
+                    continue
+
+                fp_ref = pm.get("front_port")
+                rp_ref = pm.get("rear_port")
+
+                if fp_ref and fp_ref not in front_port_names:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry references "
+                        f"front_port '{fp_ref}', but no such front-port exists. "
+                        f"Defined front-ports: {sorted(front_port_names)}",
+                        pytrace=False,
+                    )
+
+                if rp_ref and rp_ref not in rear_port_names:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry references "
+                        f"rear_port '{rp_ref}', but no such rear-port exists. "
+                        f"Defined rear-ports: {sorted(rear_port_names)}",
+                        pytrace=False,
+                    )
+
+                # Reject mixing inline `rear_port` and a stanza entry for the
+                # same front-port — pick one format per port.
+                if fp_ref in front_ports_with_inline_rear:
+                    pytest.fail(
+                        f"{file_path}: front-port '{fp_ref}' has inline "
+                        f"'rear_port' AND appears in 'port-mappings' stanza. "
+                        f"Use only one format per front-port.",
+                        pytrace=False,
+                    )
+
+                # (rear_port, rear_port_position) uniqueness — checked across
+                # both formats by reusing `rear_port_positions` from above.
+                if rp_ref:
+                    rear_port_pos = pm.get("rear_port_position", 1)
+                    key = (rp_ref, rear_port_pos)
+                    if key in rear_port_positions:
+                        pytest.fail(
+                            f"{file_path}: port-mappings entry for front_port "
+                            f"'{fp_ref}' has duplicate (rear_port, "
+                            f"rear_port_position) = ('{rp_ref}', {rear_port_pos}). "
+                            f"Already used by '{rear_port_positions[key]}'.",
+                            pytrace=False,
+                        )
+                    rear_port_positions[key] = f"port-mappings entry for '{fp_ref}'"
+
+                # (front_port, front_port_position) uniqueness within the stanza.
+                if fp_ref:
+                    front_port_pos = pm.get("front_port_position", 1)
+                    fkey = (fp_ref, front_port_pos)
+                    if fkey in front_port_positions:
+                        pytest.fail(
+                            f"{file_path}: port-mappings entry has duplicate "
+                            f"(front_port, front_port_position) = "
+                            f"('{fp_ref}', {front_port_pos}).",
+                            pytrace=False,
+                        )
+                    front_port_positions[fkey] = True
+
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
