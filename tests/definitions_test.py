@@ -301,12 +301,13 @@ def test_definitions(file_path, schema, change_type):
                 fp.get("name") for fp in front_ports
                 if isinstance(fp, dict) and fp.get("rear_port")
             }
-            front_port_positions = {}
+            stanza_front_port_positions = set()
 
             # Structural validity of each entry (object shape, required keys,
-            # non-empty strings) is enforced by the JSON schema at line 228 —
-            # don't re-check those invariants here. This block only enforces
-            # cross-document rules the schema can't express.
+            # non-empty strings) is enforced by the JSON schema validated
+            # earlier in this test — don't re-check those invariants here.
+            # This block only enforces cross-document rules the schema can't
+            # express.
             for pm in port_mappings:
                 fp_ref = pm["front_port"]
                 rp_ref = pm["rear_port"]
@@ -354,14 +355,14 @@ def test_definitions(file_path, schema, change_type):
                 # (front_port, front_port_position) uniqueness within the stanza.
                 front_port_pos = pm.get("front_port_position", 1)
                 fkey = (fp_ref, front_port_pos)
-                if fkey in front_port_positions:
+                if fkey in stanza_front_port_positions:
                     pytest.fail(
                         f"{file_path}: port-mappings entry has duplicate "
                         f"(front_port, front_port_position) = "
                         f"('{fp_ref}', {front_port_pos}).",
                         pytrace=False,
                     )
-                front_port_positions[fkey] = True
+                stanza_front_port_positions.add(fkey)
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
