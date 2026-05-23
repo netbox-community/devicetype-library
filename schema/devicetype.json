@@ -96,9 +96,9 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "front_port":          { "type": "string", "maxLength": 64 },
+                    "front_port":          { "type": "string", "minLength": 1, "maxLength": 64 },
                     "front_port_position": { "type": "integer", "minimum": 1, "maximum": 1024 },
-                    "rear_port":           { "type": "string", "maxLength": 64 },
+                    "rear_port":           { "type": "string", "minLength": 1, "maxLength": 64 },
                     "rear_port_position":  { "type": "integer", "minimum": 1, "maximum": 1024 }
                 },
                 "required": ["front_port", "rear_port"],
