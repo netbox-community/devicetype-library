@@ -303,14 +303,15 @@ def test_definitions(file_path, schema, change_type):
             }
             front_port_positions = {}
 
+            # Structural validity of each entry (object shape, required keys,
+            # non-empty strings) is enforced by the JSON schema at line 228 —
+            # don't re-check those invariants here. This block only enforces
+            # cross-document rules the schema can't express.
             for pm in port_mappings:
-                if not isinstance(pm, dict):
-                    continue
+                fp_ref = pm["front_port"]
+                rp_ref = pm["rear_port"]
 
-                fp_ref = pm.get("front_port")
-                rp_ref = pm.get("rear_port")
-
-                if fp_ref and fp_ref not in front_port_names:
+                if fp_ref not in front_port_names:
                     pytest.fail(
                         f"{file_path}: port-mappings entry references "
                         f"front_port '{fp_ref}', but no such front-port exists. "
@@ -318,7 +319,7 @@ def test_definitions(file_path, schema, change_type):
                         pytrace=False,
                     )
 
-                if rp_ref and rp_ref not in rear_port_names:
+                if rp_ref not in rear_port_names:
                     pytest.fail(
                         f"{file_path}: port-mappings entry references "
                         f"rear_port '{rp_ref}', but no such rear-port exists. "
@@ -338,31 +339,29 @@ def test_definitions(file_path, schema, change_type):
 
                 # (rear_port, rear_port_position) uniqueness — checked across
                 # both formats by reusing `rear_port_positions` from above.
-                if rp_ref:
-                    rear_port_pos = pm.get("rear_port_position", 1)
-                    key = (rp_ref, rear_port_pos)
-                    if key in rear_port_positions:
-                        pytest.fail(
-                            f"{file_path}: port-mappings entry for front_port "
-                            f"'{fp_ref}' has duplicate (rear_port, "
-                            f"rear_port_position) = ('{rp_ref}', {rear_port_pos}). "
-                            f"Already used by '{rear_port_positions[key]}'.",
-                            pytrace=False,
-                        )
-                    rear_port_positions[key] = f"port-mappings entry for '{fp_ref}'"
+                rear_port_pos = pm.get("rear_port_position", 1)
+                key = (rp_ref, rear_port_pos)
+                if key in rear_port_positions:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry for front_port "
+                        f"'{fp_ref}' has duplicate (rear_port, "
+                        f"rear_port_position) = ('{rp_ref}', {rear_port_pos}). "
+                        f"Already used by '{rear_port_positions[key]}'.",
+                        pytrace=False,
+                    )
+                rear_port_positions[key] = f"port-mappings entry for '{fp_ref}'"
 
                 # (front_port, front_port_position) uniqueness within the stanza.
-                if fp_ref:
-                    front_port_pos = pm.get("front_port_position", 1)
-                    fkey = (fp_ref, front_port_pos)
-                    if fkey in front_port_positions:
-                        pytest.fail(
-                            f"{file_path}: port-mappings entry has duplicate "
-                            f"(front_port, front_port_position) = "
-                            f"('{fp_ref}', {front_port_pos}).",
-                            pytrace=False,
-                        )
-                    front_port_positions[fkey] = True
+                front_port_pos = pm.get("front_port_position", 1)
+                fkey = (fp_ref, front_port_pos)
+                if fkey in front_port_positions:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry has duplicate "
+                        f"(front_port, front_port_position) = "
+                        f"('{fp_ref}', {front_port_pos}).",
+                        pytrace=False,
+                    )
+                front_port_positions[fkey] = True
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
