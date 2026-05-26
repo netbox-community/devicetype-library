@@ -66,23 +66,23 @@ interfaces:
     type: 1000base-x-sfp
     mgmt_only: true
 module-bays:
-  - name: PSU0
+  - name: Power Supply 0
     position: '0'
-  - name: PSU1
+  - name: Power Supply 1
     position: '1'
   - name: Module 1
     position: '1'
   - name: Module 2
     position: '2'
-  - name: FAN0
+  - name: Fan Tray 0
     position: '0'
-  - name: FAN1
+  - name: Fan Tray 1
     position: '1'
-  - name: FAN2
+  - name: Fan Tray 2
     position: '2'
-  - name: FAN3
+  - name: Fan Tray 3
     position: '3'
-  - name: FAN4
+  - name: Fan Tray 4
     position: '4'
 console-ports:
   - name: console
