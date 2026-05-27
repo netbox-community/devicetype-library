@@ -1,0 +1,64 @@
+---
+manufacturer: TP-Link
+model: SG2210P
+slug: tp-link-sg2210p
+part_number: SG2210P v5.20
+u_height: 0
+airflow: passive
+is_full_depth: false
+comments: '[TP-Link SG2210P](https://www.tp-link.com/us/business-networking/omada-switch-poe/sg2210p/) - Omada 10-Port Gigabit Smart Switch with 8-Port
+  PoE+'
+
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 78
+    allocated_draw: 8
+
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+    label: '1'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 2
+    type: 1000base-t
+    label: '2'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 3
+    type: 1000base-t
+    label: '3'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 4
+    type: 1000base-t
+    label: '4'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 5
+    type: 1000base-t
+    label: '5'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 6
+    type: 1000base-t
+    label: '6'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 7
+    type: 1000base-t
+    label: '7'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 8
+    type: 1000base-t
+    label: '8'
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Ethernet 9
+    type: 1000base-x-sfp
+    label: SFP 1
+  - name: Ethernet 10
+    type: 1000base-x-sfp
+    label: SFP 2
