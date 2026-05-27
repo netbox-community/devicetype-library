@@ -1,0 +1,26 @@
+---
+manufacturer: Dell
+model: PowerEdge T350
+slug: dell-poweredge-t350
+u_height: 5
+is_full_depth: true
+weight: 19.54
+weight_unit: kg
+airflow: front-to-rear
+comments: '[PowerEdge T350 Spec Sheet](https://i.dell.com/sites/csdocuments/product_docs/en/dell-emc-poweredge-t350-spec-sheet.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
