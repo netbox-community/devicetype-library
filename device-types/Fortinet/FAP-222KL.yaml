@@ -1,0 +1,36 @@
+---
+manufacturer: Fortinet
+model: FortiAP 222KL
+slug: fortinet-fap-222kl
+part_number: FAP-222KL
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[FortiAP 222KL QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-222kl-quickstart-guide)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: lan1-poe
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: lan2-pse
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: radio-1
+    type: ieee802.15.1
+    description: BLE/ZigBee IoT radio
+  - name: radio-2
+    type: ieee802.11ax
+    description: 2.4GHz
+  - name: radio-3
+    type: ieee802.11ax
+    description: 5GHz
+  - name: radio-4
+    type: lte
+    description: LTE cellular radio
+  - name: radio-5
+    type: other-wireless
+    description: LoRa IoT radio

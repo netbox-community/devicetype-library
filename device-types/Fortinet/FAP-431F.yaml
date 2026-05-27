@@ -1,0 +1,35 @@
+---
+manufacturer: Fortinet
+model: FortiAP 431F
+slug: fortinet-fap-431f
+part_number: FAP-431F
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[FortiAP 431F QuickStart Guide](https://docs.fortinet.com/document/fortiap/hardware/fortiap-431f-quickstart-guide)'
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: DC-In
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 30
+interfaces:
+  - name: lan1-poe
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: lan2-poe
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: radio-1
+    type: ieee802.11ax
+    description: 2.4GHz
+  - name: radio-2
+    type: ieee802.11ax
+    description: 5GHz
+  - name: radio-3
+    type: other-wireless
+    description: BLE/ZigBee and scanning radio
