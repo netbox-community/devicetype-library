@@ -1,0 +1,111 @@
+---
+# NetBox Device Type Definition
+# VAST Data CBox SMC Gen6 (1U-1N-GEN6)
+# Source: SMC 6th Generation CBox Datasheet
+#
+# NIC configurations:
+#   1U-1N-GEN6-1NIC: 1x Mellanox CX7 Dual Port MCX755106AS-HEAT (2x data ports)
+#   1U-1N-GEN6-2NIC: 2x Mellanox CX7 Dual Port MCX755106AS-HEAT (4x data ports)
+# This YAML models the 2NIC (full) configuration.
+# For 1NIC: remove nic2-port1 and nic2-port2 interfaces.
+
+manufacturer: VAST Data
+model: CBox SMC Gen6
+slug: vast-cbox-smc-gen6
+part_number: 1U-1N-GEN6
+u_height: 1
+is_full_depth: true
+subdevice_role: null
+
+# To add images: upload via NetBox UI > Device Types > Images
+# Suggested filenames:
+#   front_image: vast_cbox_smc_gen6_front.png
+#   rear_image:  vast_cbox_smc_gen6_rear.png
+
+comments: |
+  VAST Data CBox SMC Gen6 (1U-1N-GEN6).
+  1U single server node (Supermicro AS-1115CS-TNR, Turin, L9).
+  CPU: AMD EPYC 9555P 64-Core (Turin / SP5).
+  Memory: 384GB (12x 32GB) DDR5-6400.
+  NIC: 2x NVIDIA CX7 Dual Port MCX755106AS-HEAT (QSFP112).
+  I/O: 4x 200GbE / NDR200 IB total (2NIC config).
+  Management: 4x 1GbE OCP Intel i350 (AOC-AGI4M-P).
+  Boot Drive: 1x 960GB NVMe U.3 Micron 7500 Pro (MTFDKCC960TGP-1BK1JABYY).
+  Power: Active 550W / Max 775W.
+  Power connectors: 2x C14 inputs, requiring C13 cables.
+  Rear: PCIe Slot 1 (Bus 01h), PCIe Slot 2 (Bus 81h), AIOM (Bus 41h).
+
+# ------------------------------------------------------------
+# Interfaces
+# ------------------------------------------------------------
+interfaces:
+  # --- NIC 1: NVIDIA CX7 Dual Port (PCIe Slot 1 / Bus 01h) ---
+  - name: "nic1-port1"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 1 – Port 1 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 1"
+
+  - name: "nic1-port2"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 1 – Port 2 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 1"
+
+  # --- NIC 2: NVIDIA CX7 Dual Port (PCIe Slot 2 / Bus 81h) — 2NIC config only ---
+  - name: "nic2-port1"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 2 – Port 1 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 2 (2NIC only)"
+
+  - name: "nic2-port2"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 2 – Port 2 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 2 (2NIC only)"
+
+  # --- AIOM Management: Intel i350 Quad-Port 1GbE (Bus 41h) ---
+  - name: "mgmt-port1"
+    type: "1000base-t"
+    label: "AIOM – Management Port 1 (Intel i350)"
+    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port – Port 1"
+    mgmt_only: true
+
+  - name: "mgmt-port2"
+    type: "1000base-t"
+    label: "AIOM – Management Port 2 (Intel i350)"
+    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port – Port 2"
+    mgmt_only: true
+
+  - name: "mgmt-port3"
+    type: "1000base-t"
+    label: "AIOM – Management Port 3 (Intel i350)"
+    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port – Port 3"
+    mgmt_only: true
+
+  - name: "mgmt-port4"
+    type: "1000base-t"
+    label: "AIOM – Management Port 4 (Intel i350)"
+    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port – Port 4"
+    mgmt_only: true
+
+  # --- BMC ---
+  - name: "bmc"
+    type: "1000base-t"
+    label: "BMC (Dedicated Management)"
+    description: "Baseboard Management Controller"
+    mgmt_only: true
+
+# ------------------------------------------------------------
+# Power Ports — 2x redundant 860W Platinum (94%)
+# C14 inlets — require C13 cables
+# ------------------------------------------------------------
+power-ports:
+  - name: "PSU1"
+    type: "iec-60320-c14"
+    maximum_draw: 860
+    allocated_draw: 860
+    label: "PSU 1 (860W Platinum – C14)"
+
+  - name: "PSU2"
+    type: "iec-60320-c14"
+    maximum_draw: 860
+    allocated_draw: 860
+    label: "PSU 2 (860W Platinum – C14)"
