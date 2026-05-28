@@ -1,0 +1,110 @@
+---
+# NetBox Device Type Definition
+# VAST Data CBox SMC Gen5 (1U-1N-GEN5)
+# Source: SMC Gen5 CBox Datasheet
+#
+# NIC configurations:
+#   1U-1N-GEN5-1NIC: 1x Mellanox CX7 Dual Port MCX755106AS-HEAT (2x data ports)
+#   1U-1N-GEN5-2NIC: 2x Mellanox CX7 Dual Port MCX755106AS-HEAT (4x data ports)
+# This YAML models the 2NIC (full) configuration.
+# For 1NIC: remove nic2-port0 and nic2-port1 interfaces.
+
+manufacturer: VAST Data
+model: CBox SMC Gen5
+slug: vast-cbox-smc-gen5
+part_number: 1U-1N-GEN5
+u_height: 1
+is_full_depth: true
+subdevice_role: null
+
+# To add images: upload via NetBox UI > Device Types > Images
+# Suggested filenames:
+#   front_image: vast_cbox_smc_gen5_front.png
+#   rear_image:  vast_cbox_smc_gen5_rear.png
+
+comments: |
+  VAST Data CBox SMC Gen5 (1U-1N-GEN5).
+  1U single server node (Supermicro AS-1115HS-TNR, Genoa, L8).
+  CPU: AMD EPYC 9454P 48-Core (Genoa).
+  Memory: 384GB (12x 32GB) DDR5-4800.
+  NIC: 2x Mellanox CX7 Dual Port MCX755106AS-HEAT (QSFP112).
+  I/O: 4x 200GbE / NDR200 IB total (2NIC config).
+  Management: 4x 1GbE OCP Intel i350.
+  Boot Drive: 1x 960GB NVMe U.2 Samsung MZQL2960HCJR-00A07.
+  Power: Active 500W / Max 700W.
+  Rear: PCIe Slot 1 (Bus 01h), PCIe Slot 2 (Bus 81h), AIOM (Bus 41h).
+
+# ------------------------------------------------------------
+# Interfaces
+# ------------------------------------------------------------
+interfaces:
+  # --- NIC 1: Mellanox CX7 Dual Port (PCIe Slot 1 / Bus 01h) ---
+  - name: "nic1-port1"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 1 – Port 1 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 1"
+
+  - name: "nic1-port2"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 1 – Port 2 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 1"
+
+  # --- NIC 2: Mellanox CX7 Dual Port (PCIe Slot 2 / Bus 81h) — 2NIC config only ---
+  - name: "nic2-port1"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 2 – Port 1 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 2 (2NIC only)"
+
+  - name: "nic2-port2"
+    type: "200gbase-x-qsfp56"
+    label: "NIC 2 – Port 2 (CX7 MCX755106AS-HEAT)"
+    description: "200GbE or NDR200 IB – QSFP112 – PCIe Slot 2 (2NIC only)"
+
+  # --- AIOM Management: Intel i350 Quad-Port 1GbE (Bus 41h) ---
+  - name: "mgmt-port1"
+    type: "1000base-t"
+    label: "AIOM – Management Port 1 (Intel i350)"
+    description: "OCP Intel i350 Quad-Port – Port 1"
+    mgmt_only: true
+
+  - name: "mgmt-port2"
+    type: "1000base-t"
+    label: "AIOM – Management Port 2 (Intel i350)"
+    description: "OCP Intel i350 Quad-Port – Port 2"
+    mgmt_only: true
+
+  - name: "mgmt-port3"
+    type: "1000base-t"
+    label: "AIOM – Management Port 3 (Intel i350)"
+    description: "OCP Intel i350 Quad-Port – Port 3"
+    mgmt_only: true
+
+  - name: "mgmt-port4"
+    type: "1000base-t"
+    label: "AIOM – Management Port 4 (Intel i350)"
+    description: "OCP Intel i350 Quad-Port – Port 4"
+    mgmt_only: true
+
+  # --- BMC ---
+  - name: "bmc"
+    type: "1000base-t"
+    label: "BMC (Dedicated Management)"
+    description: "Baseboard Management Controller"
+    mgmt_only: true
+
+# ------------------------------------------------------------
+# Power Ports — 2x redundant 1200W Titanium (96%)
+# C14 inlets — require C13 cables
+# ------------------------------------------------------------
+power-ports:
+  - name: "PSU1"
+    type: "iec-60320-c14"
+    maximum_draw: 1200
+    allocated_draw: 1200
+    label: "PSU 1 (1200W Titanium – C14)"
+
+  - name: "PSU2"
+    type: "iec-60320-c14"
+    maximum_draw: 1200
+    allocated_draw: 1200
+    label: "PSU 2 (1200W Titanium – C14)"
