@@ -1,0 +1,41 @@
+---
+manufacturer: Cisco
+model: SG200-08
+slug: cisco-sg200-08
+part_number: SLM2008T
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: External PS
+    type: dc-terminal
+    maximum_draw: 7
+    allocated_draw: 7
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+  - name: Port-Channel1
+    type: lag
+  - name: Port-Channel2
+    type: lag
+  - name: Port-Channel3
+    type: lag
+  - name: Port-Channel4
+    type: lag
+  - name: vlan 1
+    type: virtual
