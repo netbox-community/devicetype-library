@@ -11,7 +11,7 @@ comments: |
   - Smart Managed Layer 2+ with static routing, MSTP, VLANs, QoS
   - Energy Efficient Ethernet (EEE)
   - Front-to-rear airflow
-  - 1U rackmount, full depth
+  - 1U rackmount
 
 is_full_depth: false
 u_height: 1
@@ -62,9 +62,9 @@ interfaces:
   - name: Port 16
     type: 1000base-t
   - name: Port 17
-    type: 1000base-sx
+    type: 1000base-x-sfp
   - name: Port 18
-    type: 1000base-sx
+    type: 1000base-x-sfp
   - name: Port 19
     type: 10gbase-x-sfpp
   - name: Port 20
