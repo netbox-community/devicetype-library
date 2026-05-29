@@ -1,0 +1,14 @@
+---
+manufacturer: Gigabyte
+model: PSU-2000W-Titanium
+comments: 2000W 80 PLUS Titanium Hot-Swap Redundant Power Supply (used in XV23-ZX0-AAJ1)
+profile: Power supply
+attribute_data:
+  wattage: 2000
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 230
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 2000

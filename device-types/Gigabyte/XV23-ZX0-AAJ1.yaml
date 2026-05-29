@@ -1,0 +1,50 @@
+---
+manufacturer: Gigabyte
+model: XV23-ZX0-AAJ1
+slug: gigabyte-xv23-zx0-aaj1
+part_number: XV23-ZX0-AAJ1
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 48.41
+weight_unit: kg
+comments: |
+  [XV23-ZX0-AAJ1 (Rev. 3.x) Rack Server](https://www.gigabyte.com/Enterprise/Rack-Server/XV23-ZX0-AAJ1-rev-3x)
+interfaces:
+  - name: LAN1
+    type: 10gbase-t
+  - name: LAN2
+    type: 10gbase-t
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PSU3
+    position: PSU3
+  - name: PSU4
+    position: PSU4
+  - name: PCIe1
+    position: '1'
+    description: FHFL PCIe Gen5 x16 (CPU0, GPU)
+  - name: PCIe2
+    position: '2'
+    description: FHFL PCIe Gen5 x16 (CPU0, GPU)
+  - name: PCIe3
+    position: '3'
+    description: FHFL PCIe Gen5 x16 (CPU1, GPU)
+  - name: PCIe4
+    position: '4'
+    description: FHFL PCIe Gen5 x16 (CPU1, GPU)
+  - name: PCIe5
+    position: '5'
+    description: FHFL PCIe Gen5 x16 (CPU0)
+  - name: PCIe6
+    position: '6'
+    description: FHFL PCIe Gen5 x16 (CPU0)
+  - name: PCIe7
+    position: '7'
+    description: FHFL PCIe Gen5 x16 (CPU1)
