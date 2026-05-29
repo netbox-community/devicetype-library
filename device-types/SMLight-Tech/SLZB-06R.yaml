@@ -22,7 +22,7 @@ interfaces:
   - name: Mgmt
     type: virtual
     mgmt_only: true
+power-ports:
   - name: USB-C
-    type: usb-c
-    poe_mode: pd
-    poe_type: type3-ieee802.3bt
+    type: other
+    maximum_draw: 15
