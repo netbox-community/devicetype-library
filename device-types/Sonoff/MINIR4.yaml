@@ -1,0 +1,26 @@
+---
+manufacturer: Sonoff 
+model: MINIR4
+slug: sonoff-minir4
+part_number: MINIR4
+u_height: 0
+is_full_depth: false
+comments: Wi-Fi IOT Smart Switch 
+interfaces:
+  - name: wlan0
+    type: ieee802.11n
+    description: "IEEE 802.11b/g/n"
+power-ports:
+  - name: L-In
+    type: hardwired
+    description: 110/220V AC, 10A Max
+  - name: N-In
+    type: hardwired
+  - name: L-Out
+    type: hardwired
+  - name: N-Out
+    type: hardwired
+  - name: S1
+    type: hardwired
+  - name: S2
+    type: hardwired
