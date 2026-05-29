@@ -1,0 +1,28 @@
+---
+manufacturer: SMLight-Tech
+model: SLZB-06R
+slug: slzb-06r
+part_number: SLZB-06R
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 300
+weight_unit: g
+interfaces:
+  - name: LAN
+    label: LAN
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Mgmt
+    type: Virtual
+	mgmt_only: true
+  - name: USB-C
+    type: usb-c
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
