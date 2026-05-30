@@ -12,17 +12,17 @@ subdevice_role: parent
 weight: 300
 weight_unit: g
 interfaces:
-    - name: LAN
-      label: LAN
-      type: 1000base-t
-      poe_mode: pse
-      poe_type: type2-ieee802.3at
-    - name: Wireless 2.4 GHz
-      type: ieee802.11n
-    - name: Mgmt
-      type: virtual
-      mgmt_only: true
+  - name: LAN
+    label: LAN
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Mgmt
+    type: virtual
+    mgmt_only: true
 power-ports:
-    - name: USB-C
-      type: other
-      maximum_draw: 15
+  - name: USB-C
+    type: other
+    maximum_draw: 15
