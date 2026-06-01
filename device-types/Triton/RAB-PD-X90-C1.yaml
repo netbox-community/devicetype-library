@@ -1,0 +1,27 @@
+---
+manufacturer: Triton
+model: RAB-PD-X90-C1
+slug: triton-rab-pd-x90-c1
+description: 230 V, 16 A, 50/60 Hz, Pmax=3680 W
+part_number: BXPPD090XC01
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: "10\" PDU, 4 sockets ČSN standard, max. 16 A, cable 3 x 1.5mm x 2m long, DIN49441 16 A plug, RAL 9005\r\n\r\nSee [Specifications](https://www2.triton.cz/uploads/pdu/rab-pd-x90-c1_en.pdf)."
+power-ports:
+  - name: power port
+    type: ita-e
+    maximum_draw: 3680
+power-outlets:
+  - name: power outlet 1
+    type: ita-e
+    power_port: power port
+  - name: power outlet 2
+    type: ita-e
+    power_port: power port
+  - name: power outlet 3
+    type: ita-e
+    power_port: power port
+  - name: power outlet 4
+    type: ita-e
+    power_port: power port
