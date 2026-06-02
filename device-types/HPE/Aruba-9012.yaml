@@ -1,0 +1,63 @@
+---
+manufacturer: HPE
+model: Aruba 9012
+slug: hpe-aruba-9012
+part_number: R1B32A
+is_full_depth: false
+u_height: 1
+weight: 7.54
+weight_unit: lb
+comments: |-
+  HPE Aruba Networking 9012 Series Branch Gateway, RW regional model.
+  RW model availability: available everywhere except US, Israel, Egypt, and Japan.
+  Physical dimensions: 1.72 x 15.55 x 10.24 in.
+  Input: 90-264 VAC, 47-63 Hz, 3A at 100Vrms.
+  Maximum power consumption: 160W with 120W of PoE.
+  Rackmount ears are shipped with the unit.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-mini-b
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 160
+interfaces:
+  - name: gigabitethernet 0/0/0
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet 0/0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet 0/0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet 0/0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet 0/0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet 0/0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: gigabitethernet 0/0/6
+    type: 1000base-t
+  - name: gigabitethernet 0/0/7
+    type: 1000base-t
+  - name: gigabitethernet 0/0/8
+    type: 1000base-t
+  - name: gigabitethernet 0/0/9
+    type: 1000base-t
+  - name: gigabitethernet 0/0/10
+    type: 1000base-t
+  - name: gigabitethernet 0/0/11
+    type: 1000base-t
+

@@ -1,0 +1,35 @@
+---
+manufacturer: HPE
+model: Aruba 9004
+slug: hpe-aruba-9004
+part_number: R1B21A
+is_full_depth: false
+u_height: 1
+weight: 2.7
+weight_unit: lb
+comments: |-
+  HPE Aruba Networking 9004 Series Branch Gateway, RW regional model.
+  RW model availability: available everywhere except US, Israel, Egypt, and Japan.
+  Physical dimensions: 1.5 x 7.8 x 6.0 in.
+  Input: 12V DC, 2.5A AC-to-DC power adapter.
+  Maximum power consumption: 25W with USB.
+  Desktop fanless chassis with optional 19-inch rack mount tray.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-mini-b
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 25
+interfaces:
+  - name: gigabitethernet 0/0/0
+    type: 1000base-t
+  - name: gigabitethernet 0/0/1
+    type: 1000base-t
+  - name: gigabitethernet 0/0/2
+    type: 1000base-t
+  - name: gigabitethernet 0/0/3
+    type: 1000base-t
+
