@@ -1,0 +1,54 @@
+---
+manufacturer: APC
+model: AP7752
+slug: apc-ap7752
+u_height: 1
+is_full_depth: false
+
+power-ports:
+  - name: Source A
+    type: nema-l5-20p
+  - name: Source B
+    type: nema-l5-20p
+
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+    power_port: Source A
+  - name: Outlet 2
+    type: nema-5-20r
+    power_port: Source A
+  - name: Outlet 3
+    type: nema-5-20r
+    power_port: Source A
+  - name: Outlet 4
+    type: nema-5-20r
+    power_port: Source A
+  - name: Outlet 5
+    type: nema-5-20r
+    power_port: Source A
+  - name: Outlet 6
+    type: nema-5-20r
+    power_port: Source B
+  - name: Outlet 7
+    type: nema-5-20r
+    power_port: Source B
+  - name: Outlet 8
+    type: nema-5-20r
+    power_port: Source B
+  - name: Outlet 9
+    type: nema-5-20r
+    power_port: Source B
+  - name: Outlet 10
+    type: nema-5-20r
+    power_port: Source B
+
+interfaces:
+  - name: Network
+    type: 10base-t
+    mgmt_only: true
+
+console-ports:
+  - name: Serial
+    type: rj-11
+
