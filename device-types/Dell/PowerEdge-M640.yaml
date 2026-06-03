@@ -1,0 +1,17 @@
+---
+manufacturer: Dell
+model: PowerEdge M640
+slug: dell-poweredge-m640
+u_height: 0
+subdevice_role: child
+interfaces:
+  - name: iDRAC
+    type: 1000base-kx
+    mgmt_only: true
+module-bays:
+  - name: Slot A bNDC
+    position: A
+  - name: Slot B Mezzanine
+    position: B
+  - name: Slot C Mezzanine
+    position: C
