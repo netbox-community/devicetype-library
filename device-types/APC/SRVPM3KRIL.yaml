@@ -1,0 +1,37 @@
+---
+manufacturer: APC
+model: SRVPM3KRIL
+slug: apc-srvpm3kril
+part_number: SRVPM3KRIL
+u_height: 2
+is_full_depth: true
+weight: 13.0
+weight_unit: kg
+power-ports:
+  - name: Power Port 1
+    type: iec-60320-c20
+    maximum_draw: 2700
+  - name: Battery In
+    type: dc-terminal
+    description: External Battery Pack Inlet
+power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+  - name: Power Outlet 2
+    type: iec-60320-c13
+  - name: Power Outlet 3
+    type: iec-60320-c13
+  - name: Power Outlet 4
+    type: iec-60320-c13
+  - name: Power Outlet 5
+    type: iec-60320-c13
+  - name: Power Outlet 6
+    type: iec-60320-c13
+  - name: Power Outlet 7
+    type: iec-60320-c19
+console-ports:
+  - name: USB
+  - name: Serial
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot
