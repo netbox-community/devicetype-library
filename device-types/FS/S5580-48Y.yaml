@@ -1,0 +1,213 @@
+---
+manufacturer: FS
+model: S5580-48Y
+slug: fs-s5580-48y
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: te-1/1/1
+    label: '1'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/2
+    label: '2'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/3
+    label: '3'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/4
+    label: '4'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/5
+    label: '5'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/6
+    label: '6'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/7
+    label: '7'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/8
+    label: '8'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/9
+    label: '9'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/10
+    label: '10'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/11
+    label: '11'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/12
+    label: '12'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/13
+    label: '13'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/14
+    label: '14'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/15
+    label: '15'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/16
+    label: '16'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/17
+    label: '17'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/18
+    label: '18'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/19
+    label: '19'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/20
+    label: '20'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/21
+    label: '21'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/22
+    label: '22'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/23
+    label: '23'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/24
+    label: '24'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/25
+    label: '25'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/26
+    label: '26'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/27
+    label: '27'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/28
+    label: '28'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/29
+    label: '29'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/30
+    label: '30'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/31
+    label: '31'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/32
+    label: '32'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/33
+    label: '33'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/34
+    label: '34'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/35
+    label: '35'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/36
+    label: '36'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/37
+    label: '37'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/38
+    label: '38'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/39
+    label: '39'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/40
+    label: '40'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/41
+    label: '41'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/42
+    label: '42'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/43
+    label: '43'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/44
+    label: '44'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/45
+    label: '45'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/46
+    label: '46'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/47
+    label: '47'
+    type: 25gbase-x-sfp28
+  - name: te-1/1/48
+    label: '48'
+    type: 25gbase-x-sfp28
+  - name: xe-1/1/1
+    label: '49'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/2
+    label: '50'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/3
+    label: '51'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/4
+    label: '52'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/5
+    label: '53'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/6
+    label: '54'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/7
+    label: '55'
+    type: 100gbase-x-qsfp28
+  - name: xe-1/1/8
+    label: '56'
+    type: 100gbase-x-qsfp28
+  - name: me-1/1/1
+    label: '57'
+    type: 10gbase-x-sfpp
+  - name: me-1/1/2
+    label: '58'
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PSU1
+    label: PSU1
+    position: '1'
+  - name: PSU2
+    label: PSU2
+    position: '2'
+  - name: FAN1
+    label: FAN1
+    position: '1'
+  - name: FAN2
+    label: FAN2
+    position: '2'
+  - name: FAN3
+    label: FAN3
+    position: '3'
+  - name: FAN4
+    label: FAN4
+    position: '4'
+  - name: FAN5
+    label: FAN5
+    position: '5'
+  - name: FAN6
+    label: FAN6
+    position: '6'
