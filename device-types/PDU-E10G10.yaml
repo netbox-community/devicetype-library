@@ -1,0 +1,44 @@
+---
+manufacturer: PremiumCord
+model: Rack PDU 10x IEC C13, 2m cable
+slug: premiumcord-pdu-e10g10
+description: 10x C13, 16 A, 230 V, 50 Hz
+part_number: PDU-E10G10
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: See [Product description](https://www.krup.eu/default.asp?cls=stoitem&stiid=3330).
+power-ports:
+  - name: power port
+    type: ita-ef
+power-outlets:
+  - name: power outlet 1
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 2
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 3
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 4
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 5
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 6
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 7
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 8
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 9
+    type: iec-60320-c13
+    power_port: power port
+  - name: power outlet 10
+    type: iec-60320-c13
+    power_port: power port
