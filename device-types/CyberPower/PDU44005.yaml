@@ -1,0 +1,53 @@
+---
+manufacturer: CyberPower
+model: PDU44005
+slug: cyberpower-pdu44005
+part_number: PDU44005
+u_height: 1
+is_full_depth: false
+weight: 3.76
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: Inlet A
+    type: iec-60320-c20
+  - name: Inlet B
+    type: iec-60320-c20
+power-outlets:
+  - name: Power Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 7
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 8
+    type: iec-60320-c13
+    power_port: Inlet A
+  - name: Power Outlet 9
+    type: iec-60320-c19
+    power_port: Inlet A
+  - name: Power Outlet 10
+    type: iec-60320-c19
+    power_port: Inlet A
+console-ports:
+  - name: Serial
+    type: rj-45
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: true
