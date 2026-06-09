@@ -10,6 +10,10 @@ def write_known_data(data, file_path):
     test suite. The data is sorted so the on-disk output is deterministic and
     produces clean diffs. A slug may be None, so the sort key coerces each
     element to str to avoid TypeError when comparing None with str.
+
+    A trailing newline is written so the generated file is already in the
+    fixed point of the end-of-file-fixer pre-commit hook; without it the hook
+    (or an editor) would append one after generation and create spurious diffs.
     """
     with open(file_path, 'w') as json_file:
         json.dump(
@@ -17,6 +21,7 @@ def write_known_data(data, file_path):
             json_file,
             indent=0,
         )
+        json_file.write('\n')
 
 
 def read_known_data(file_path):
