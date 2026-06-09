@@ -1,5 +1,5 @@
 from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
-import pickle_operations
+import cache_operations
 from yaml_loader import DecimalSafeLoader
 from device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
 import decimal
@@ -174,9 +174,9 @@ else:
     module_image_files = _get_all_module_image_files()
 
 if USE_LOCAL_KNOWN_SLUGS:
-    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
-    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
-    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
+    KNOWN_SLUGS = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-slugs.json')
+    KNOWN_MODULES = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-modules.json')
+    KNOWN_RACKS = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-racks.json')
 else:
     clone_kwargs = {
         'depth': 1,
@@ -188,10 +188,10 @@ else:
     with tempfile.TemporaryDirectory() as temp_dir, \
          Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir, **clone_kwargs) as repo \
     :
-        repo.git.checkout('HEAD', 'tests/*.pickle')
-        KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-slugs.pickle')
-        KNOWN_MODULES = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-modules.pickle')
-        KNOWN_RACKS = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-racks.pickle')
+        repo.git.checkout('HEAD', 'tests/*.json')
+        KNOWN_SLUGS = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-slugs.json')
+        KNOWN_MODULES = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-modules.json')
+        KNOWN_RACKS = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-racks.json')
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
