@@ -130,8 +130,9 @@ jobs:
             status: pickle-issue
       # Informational reviewer awareness only — the preventive control is the pinned
       # collection above (pytest tests/definitions_test.py) plus confcutdir/testpaths in
-      # pytest.ini. This flags a PR that touches test-harness code so a maintainer reviews
-      # it before approving the workflow run.
+      # pytest.ini. This flags a PR that touches test-harness code via a non-gating CI
+      # annotation (no PR comment/label, so it needs no writable token and works on fork
+      # PRs). Enforced maintainer review of these paths is via .github/CODEOWNERS.
       - name: Check for test-harness code change
         id: harness-change
         uses: tj-actions/changed-files@v47
@@ -140,17 +141,7 @@ jobs:
             tests/*.py
             tests/**/*.py
             **/conftest.py
-      - name: Add PR Comment if test-harness code is modified
-        uses: mshick/add-pr-comment@v3
+      - name: Flag test-harness code change
         if: steps.harness-change.outputs.any_changed == 'true'
-        with:
-          message: |
-            Heads up: this PR modifies test-harness code (`tests/**/*.py` or a `conftest.py`). This code runs inside our CI, so it requires **maintainer review** before the workflow is approved.
-
-            If you intended only to add device/module definitions, please double-check that no test or `conftest.py` files were included. A maintainer will review the harness changes.
-      - name: Add Label if test-harness code is modified
-        uses: actions-ecosystem/action-add-labels@v1
-        if: steps.harness-change.outputs.any_changed == 'true'
-        with:
-          labels: |
-            status: maintainer review needed
+        run: |
+          echo "::warning title=Test-harness code modified::This PR changes tests/*.py or a conftest.py, which runs inside CI. A maintainer must review the harness changes before approving the workflow run."
