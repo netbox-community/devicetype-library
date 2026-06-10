@@ -5,7 +5,14 @@ slug: apc-ap8959eu3
 part_number: AP8959EU3
 u_height: 0
 is_full_depth: false
-comments: Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19, 2p-e-6h
+airflow: passive
+weight: 5.73
+weight_unit: kg
+comments: |
+  Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19, 2p-e-6h
+  [Product Page](https://www.se.com/uk/en/product/AP8959EU3/rack-pdu-2g-switched-16a-230v-21-c13-3-c19-iec309-cord/)
+  [Datasheet](https://www.se.com/uk/en/product/download-pdf/AP8959?filename=Schneider+Electric_APC-NetShelter-Switched-Rack-PDUs_AP8959.pdf)
+  [User Guide](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=NetShelter+AP89%E2%80%A2%E2%80%A2+Switched+Rack+PDU_990-5569T-001.pdf&p_Doc_Ref=990-5569_EN)
 console-ports:
   - name: Serial
     type: rj-12
@@ -113,3 +120,9 @@ interfaces:
   - name: Network
     type: 100base-tx
     mgmt_only: true
+  - name: Temp/Humidity
+    type: other
+  - name: In
+    type: other
+  - name: Out
+    type: other
