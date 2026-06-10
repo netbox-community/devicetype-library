@@ -1,7 +1,7 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
-import cache_operations
-from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from tests.test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
+from tests import cache_operations
+from tests.yaml_loader import DecimalSafeLoader
+from tests.device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
 import decimal
 import glob
 import json
