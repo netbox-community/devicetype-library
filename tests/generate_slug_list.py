@@ -3,13 +3,13 @@ import json
 import glob
 import yaml
 import decimal
-from yaml_loader import DecimalSafeLoader
+from tests.yaml_loader import DecimalSafeLoader
 from referencing import Registry, Resource
 from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
-from test_configuration import SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES, KNOWN_RACKS
+from tests.test_configuration import SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, KNOWN_MODULES, KNOWN_RACKS
 from urllib.request import urlopen
-import cache_operations
+from tests import cache_operations
 
 def _get_type_files(device_or_module):
     """

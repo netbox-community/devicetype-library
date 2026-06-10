@@ -63,6 +63,13 @@ jobs:
         run: pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
+  # Security note: this job executes pytest against repository code. Test collection is
+  # pinned to a known module (see the "Run Test Cases" step) to avoid collecting PR-added
+  # test_*.py files, but pytest will still import any conftest.py in the collected test's
+  # directories.
+  # The primary control is GitHub's "require approval for workflows from fork PRs /
+  # first-time contributors" setting (repo Settings > Actions > General > Fork pull request
+  # workflows) — keep it enabled so PR-supplied code never runs in CI without maintainer approval.
   test:
     runs-on: ubuntu-latest
     needs: [lint, format]
@@ -94,7 +101,10 @@ jobs:
         if: steps.cache-venv-pytest.outputs.cache-hit != 'true'
       - name: Run Test Cases
         id: pytest
-        run: pytest --tb=short -v
+        # Collection is intentionally pinned to the known test module for security:
+        # bare `pytest` would collect/execute any test_*.py a PR adds (even under tests/).
+        # Adding a new test module requires updating this invocation.
+        run: pytest tests/definitions_test.py --tb=short -v
       - name: Check for known data cache file change
         id: cache-change
         uses: tj-actions/changed-files@v47
@@ -118,3 +128,20 @@ jobs:
           labels: |
             status: revisions needed
             status: pickle-issue
+      # Informational reviewer awareness only — the preventive control is the pinned
+      # collection above (pytest tests/definitions_test.py) plus confcutdir/testpaths in
+      # pytest.ini. This flags a PR that touches test-harness code via a non-gating CI
+      # annotation (no PR comment/label, so it needs no writable token and works on fork
+      # PRs). Enforced maintainer review of these paths is via .github/CODEOWNERS.
+      - name: Check for test-harness code change
+        id: harness-change
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            tests/*.py
+            tests/**/*.py
+            **/conftest.py
+      - name: Flag test-harness code change
+        if: steps.harness-change.outputs.any_changed == 'true'
+        run: |
+          echo "::warning title=Test-harness code modified::This PR changes tests/*.py or a conftest.py, which runs inside CI. A maintainer must review the harness changes before approving the workflow run."
