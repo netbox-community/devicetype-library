@@ -26,7 +26,7 @@ repos:
     hooks:
       - id: pytest
         name: Run PyTest Case Checks
-        entry: pytest
+        entry: python -m pytest
         language: system
         # Collection is intentionally pinned to the known test module for security:
         # bare `pytest` would collect/execute any test_*.py a PR adds (even under tests/).

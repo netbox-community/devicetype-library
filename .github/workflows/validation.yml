@@ -137,6 +137,7 @@ jobs:
         uses: tj-actions/changed-files@v47
         with:
           files: |
+            tests/*.py
             tests/**/*.py
             **/conftest.py
       - name: Add PR Comment if test-harness code is modified
