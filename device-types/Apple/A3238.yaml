@@ -1,0 +1,21 @@
+---
+manufacturer: Apple
+model: Mac Mini 2024 M4
+slug: apple-mac-mini-2024-m4
+part_number: A3238
+u_height: 0
+subdevice_role: child
+is_full_depth: false
+airflow: passive
+weight: 670
+weight_unit: g
+comments: '[Mac Mini 2024 M4 | hardware specs](https://support.apple.com/en-us/121555)'
+power-ports:
+  - name: Power
+    type: iec-60320-c8
+    maximum_draw: 155
+interfaces:
+  - name: eth
+    type: 1000base-t
+  - name: wireless
+    type: ieee802.11ax
