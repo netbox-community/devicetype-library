@@ -7,6 +7,7 @@ part_number: CPM-1600-1-ECAM
 is_full_depth: false
 u_height: 2
 # comments: WTI CPM 2U, 2 ethernet, 16 outlet 120V, 8 serial ports, ATS
+comments: '[Datasheet](https://ftp.wti.com/download/datasheets/specs_cpm_gige_console_server-switched_pdu.pdf)'
 interfaces:
   - name: ETH0
     type: 1000base-t
@@ -53,20 +54,12 @@ console-server-ports:
 power-ports:
   - name: PRIMARY1
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
   - name: SECONDARY1
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
   - name: PRIMARY2
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
   - name: SECONDARY2
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
 power-outlets:
   - name: Outlet_A1
     type: nema-5-15r
