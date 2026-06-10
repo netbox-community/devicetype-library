@@ -12,6 +12,8 @@ console-ports:
 power-ports:
   - name: PS1
     type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
 interfaces:
   - name: Ethernet 1/1/1
     type: 1000base-t
