@@ -1,4 +1,5 @@
 import os
+from urllib.parse import urlparse
 
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
@@ -42,4 +43,27 @@ KNOWN_RACKS = set()
 USE_LOCAL_KNOWN_SLUGS = os.environ.get("DTL_USE_LOCAL_KNOWN_SLUGS") == "1"
 USE_UPSTREAM_DIFF = True
 
-NETBOX_DT_LIBRARY_URL = "https://github.com/netbox-community/devicetype-library.git"
+# Source the upstream clone/fetch URL from the environment (so CI or a maintainer can
+# override it) with the canonical upstream as the default, then validate it strictly.
+# A pull request must not be able to point the harness's git clone/fetch at an arbitrary
+# host (SSRF) or a non-upstream repo (validation-data substitution) — GHSA-8cfp-3c4q-xr6x.
+def _resolve_netbox_dt_library_url():
+    url = os.environ.get(
+        "DTL_NETBOX_DT_LIBRARY_URL",
+        "https://github.com/netbox-community/devicetype-library.git",
+    )
+    parsed = urlparse(url)
+    allowed_paths = (
+        "/netbox-community/devicetype-library",
+        "/netbox-community/devicetype-library.git",
+    )
+    if (parsed.scheme != "https"
+            or parsed.hostname != "github.com"
+            or parsed.path.rstrip("/") not in allowed_paths):
+        raise ValueError(
+            f"Refusing untrusted NETBOX_DT_LIBRARY_URL {url!r}: it must be "
+            "https://github.com/netbox-community/devicetype-library(.git)."
+        )
+    return url
+
+NETBOX_DT_LIBRARY_URL = _resolve_netbox_dt_library_url()
