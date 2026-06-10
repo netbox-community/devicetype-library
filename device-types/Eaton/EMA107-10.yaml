@@ -12,13 +12,14 @@ comments: Rack PDU, Metered, ZeroU, 5.76kW, 208V, (20) C13 & (4) C19
 console-ports:
   - name: Serial
     type: rj-45
-  - name: Daisy Chain
-    type: rj-45
   - name: USB management
     type: usb-a
 interfaces:
   - name: Network
     type: 1000base-t
+    mgmt_only: true
+  - name: Daisy Chain
+    type: other
     mgmt_only: true
 power-ports:
   - name: Power Port 1
