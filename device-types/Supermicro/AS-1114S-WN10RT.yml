@@ -25,9 +25,9 @@ interfaces:
     mgmt_only: true
     description: Dedicated IPMI LAN port
   - name: Gig-E 1
-    type: 10gbase-t
+    type: 1000base-t
   - name: Gig-E 2
-    type: 10gbase-t
+    type: 1000base-t
 module-bays:
   - name: PCIe slot 1
     position: PCIe-1
