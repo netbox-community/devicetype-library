@@ -1,0 +1,57 @@
+---
+manufacturer: Eaton
+model: FLEXPDU 12 IEC
+slug: eaton-eflx12i
+part_number: EFLX12I
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.6
+weight_unit: kg
+comments: |
+  Eaton FlexPDU, 1U, C20 input, 4 kW, 16A, 200-240V, Outlets: (12) C13/(1) C19
+  [User Manual](https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/flexpdu-hotswap-mbp/Eaton%20Flex%20PDU%20-%20Installation%20and%20User%20Manual.pdf)
+  [Product Page](https://www.eaton.com/gb/en-gb/skuPage.EFLX12I.html)
+power-ports:
+  - name: Power In
+    type: iec-60320-c20
+power-outlets:
+  - name: P1
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P2
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P3
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P4
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P5
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P6
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P7
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P8
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P9
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P10
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P11
+    type: iec-60320-c13
+    power_port: Power In
+  - name: P12
+    type: iec-60320-c13
+    power_port: Power In
+  - name: Power Out
+    type: iec-60320-c19
+    power_port: Power In
