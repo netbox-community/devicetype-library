@@ -19,18 +19,12 @@ power-ports:
   - name: Power 2
     type: iec-60320-c14
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
 module-bays:
+  - name: NUMA 0 - NDC slot 1
+    position: NDC-1
   - name: NUMA 0 - PCIe slot 1 - FH
     position: PCIe-1
     label: '1'
