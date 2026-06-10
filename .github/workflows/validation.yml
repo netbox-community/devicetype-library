@@ -63,13 +63,13 @@ jobs:
         run: pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
-  # Security note: this job executes the repo's pytest suite. The collection scope is
-  # pinned to a known test module (see the "Run Test Cases" step and pytest.ini) so a PR
-  # cannot get arbitrary test_*.py / conftest.py executed at collection time. The ultimate
-  # backstop, however, is GitHub's "require approval for workflows from fork PRs /
+  # Security note: this job executes pytest against repository code. Test collection is
+  # pinned to a known module (see the "Run Test Cases" step) to avoid collecting PR-added
+  # test_*.py files, but pytest will still import any conftest.py in the collected test's
+  # directories.
+  # The primary control is GitHub's "require approval for workflows from fork PRs /
   # first-time contributors" setting (repo Settings > Actions > General > Fork pull request
-  # workflows) — keep it enabled so PR-supplied code never runs in CI without maintainer
-  # approval.
+  # workflows) — keep it enabled so PR-supplied code never runs in CI without maintainer approval.
   test:
     runs-on: ubuntu-latest
     needs: [lint, format]
