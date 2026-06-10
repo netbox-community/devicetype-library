@@ -16,6 +16,10 @@ console-ports:
   - name: Rear Serial
     type: de-9
 interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
   - name: iDRAC9 1
     label: iDRAC
     type: 1000base-t
