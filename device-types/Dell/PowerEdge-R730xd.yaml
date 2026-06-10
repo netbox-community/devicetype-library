@@ -4,7 +4,12 @@ model: PowerEdge R730xd
 slug: dell-poweredge-r730xd
 u_height: 2
 is_full_depth: true
-comments: '[Technical Guide](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)'
+airflow: front-to-rear
+weight: 36.5
+weight_unit: kg
+comments: |
+  [Specsheet](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/PowerEdge-OEM-R730xd-Carrier-Grade-Spec-Sheet.pdf)
+  [Technical Guide](https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Dell-PowerEdge-R730-and-R730xd-Technical-Guide-v1-7.pdf)
 module-bays:
   - name: PSU-1
     label: '1'

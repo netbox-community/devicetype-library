@@ -4,7 +4,12 @@ model: PowerEdge R6615
 slug: dell-poweredge-r6615
 u_height: 1
 is_full_depth: true
-comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r6615-technical-guide.pdf)'
+airflow: front-to-rear
+weight: 16.75
+weight_unit: kg
+comments: |
+  [Specsheet](https://www.delltechnologies.com/asset/no-no/products/servers/technical-support/poweredge-r6615-spec-sheet.pdf)
+  [Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r6615-technical-guide.pdf)
 console-ports:
   - name: Rear Serial
     type: de-9
