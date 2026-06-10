@@ -1,0 +1,41 @@
+---
+manufacturer: Dell
+model: PowerVault MD1400
+part_number: MD1400
+slug: dell-md1400
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 28.59
+weight_unit: kg
+comments: |
+  [Product Page](https://www.dell.com/support/product-details/en-uk/product/storage-md1400/overview)
+  [Datasheet](https://i.dell.com/sites/csdocuments/shared-content_data-sheets_documents/en/dellstorage_md1400_md1420_082114.pdf)
+  [Manual](https://dl.dell.com/topicspdf/md1400om_en-us.pdf)
+console-ports:
+  - name: EMM0 USB
+    type: usb-mini-b
+  - name: EMM1 USB
+    type: usb-mini-b
+interfaces:
+  - name: EMM0 SAS Port 1
+    type: other
+  - name: EMM0 SAS Port 2
+    type: other
+  - name: EMM0 SAS Port 3
+    type: other
+  - name: EMM0 SAS Port 4
+    type: other
+  - name: EMM1 SAS Port 1
+    type: other
+  - name: EMM1 SAS Port 2
+    type: other
+  - name: EMM1 SAS Port 3
+    type: other
+  - name: EMM1 SAS Port 4
+    type: other
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
