@@ -28,6 +28,9 @@ repos:
         name: Run PyTest Case Checks
         entry: pytest
         language: system
-        args: [--tb=short, -v]
+        # Collection is intentionally pinned to the known test module for security:
+        # bare `pytest` would collect/execute any test_*.py a PR adds (even under tests/).
+        # Adding a new test module requires updating this invocation.
+        args: [tests/definitions_test.py, --tb=short, -v]
         pass_filenames: false
         always_run: true
