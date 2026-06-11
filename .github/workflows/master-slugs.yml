@@ -42,7 +42,11 @@ jobs:
       - name: Commit
         run: |
           git add .
-          git commit -m "Regenerate master slug list after successful PR merge"
+          if git diff --cached --quiet; then
+            echo "No slug changes to commit."
+          else
+            git commit -m "Regenerate master slug list after successful PR merge"
+          fi
       - name: Push to remote
         run: |
           git push
