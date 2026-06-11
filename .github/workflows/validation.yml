@@ -137,9 +137,11 @@ jobs:
   # pinned to a known module (see the "Run Test Cases" step) to avoid collecting PR-added
   # test_*.py files, but pytest will still import any conftest.py in the collected test's
   # directories.
-  # The primary control is GitHub's "require approval for workflows from fork PRs /
-  # first-time contributors" setting (repo Settings > Actions > General > Fork pull request
-  # workflows) — keep it enabled so PR-supplied code never runs in CI without maintainer approval.
+  # Fork-PR approval is intentionally NOT required, so routine data contributions run
+  # without maintainer intervention. PR-supplied code is instead gated by the
+  # validate-inputs job above, which confines untrusted authors to the contribution
+  # directories; impact is further capped because fork PRs run with a read-only token
+  # and no secrets.
   test:
     runs-on: ubuntu-latest
     needs: [validate-inputs, lint, format]
