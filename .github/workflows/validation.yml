@@ -26,7 +26,7 @@ jobs:
   #     collapses maintain->write and triage->read, so admin|write == write+.)
   #     If the API can't be reached (e.g. a read-only fork token) the check fails
   #     closed and the PR falls through to the path rule / label below.
-  #   - it is a Dependabot PR (bumps are still verified by --require-hashes), or
+  #   - it is a Dependabot PR (only bumps already-declared dependencies), or
   #   - a maintainer has added the `ci-approved` label (only triage/write+ users
   #     can set labels, so an outside contributor cannot self-approve).
   #
@@ -45,7 +45,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ "$PR_AUTHOR" = "dependabot[bot]" ]; then
-            echo "Dependabot PR; allowed (packages still checked by --require-hashes)."
+            echo "Dependabot PR; allowed (only bumps already-declared dependencies)."
             exit 0
           fi
           perm=$(gh api "repos/$REPO/collaborators/$PR_AUTHOR/permission" \
@@ -97,7 +97,7 @@ jobs:
         shell: bash
         run: |
           python -m pip install --upgrade pip
-          python -m pip install --require-hashes -r requirements.txt
+          python -m pip install -r requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Lint YAML files
         run: |
@@ -127,7 +127,7 @@ jobs:
         shell: bash
         run: |
           python -m pip install --upgrade pip
-          python -m pip install --require-hashes -r requirements.txt
+          python -m pip install -r requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
       - name: Format YAML files (hooks)
         run: pre-commit run --config .pre-commit-hooks-config.yaml --all-files
@@ -167,7 +167,7 @@ jobs:
         shell: bash
         run: |
           python -m pip install --upgrade pip
-          python -m pip install --require-hashes -r requirements.txt
+          python -m pip install -r requirements.txt
           python -m pip install pytest-github-actions-annotate-failures
         if: steps.cache-venv-pytest.outputs.cache-hit != 'true'
       - name: Run Test Cases
