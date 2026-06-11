@@ -4,55 +4,75 @@ on: # yamllint disable-line rule:truthy
   pull_request:
     branches:
       - master
+    # `labeled` lets a maintainer re-trigger CI by adding the `ci-approved` label
+    # (re-running a workflow replays the original event, so it would not see a
+    # label added afterward — a fresh event is required).
+    types: [opened, synchronize, reopened, labeled]
 permissions:
   contents: read
 jobs:
-  # Gate that runs before any job checks out submodules or runs pre-commit, so a
-  # PR-supplied .gitmodules or pre-commit config can't pull in untrusted code.
+  # Untrusted PRs may only touch the contribution directories. Everything else
+  # (requirements*, .gitmodules, pre-commit configs, tests/, scripts/, .github/, …)
+  # can install or run code in CI, so changes there require a trusted author or an
+  # explicit maintainer sign-off. The file check is a plain `git diff` against the
+  # PR base, which is immune to the YAML/.gitmodules formatting tricks a line-based
+  # parser would miss (flow-style repos, quoted/commented values, etc.).
+  #
+  # A PR may change any path when:
+  #   - the author has write/maintain/admin on the repo. We read the *effective*
+  #     permission from the API, which folds in direct access, team roles, and org
+  #     access — so it tracks the Collaborators & teams settings exactly, and is
+  #     unaffected by whether the PR comes from a fork. (The `permission` field
+  #     collapses maintain->write and triage->read, so admin|write == write+.)
+  #     If the API can't be reached (e.g. a read-only fork token) the check fails
+  #     closed and the PR falls through to the path rule / label below.
+  #   - it is a Dependabot PR (bumps are still verified by --require-hashes), or
+  #   - a maintainer has added the `ci-approved` label (only triage/write+ users
+  #     can set labels, so an outside contributor cannot self-approve).
+  #
   # Failure here skips lint/format/test (they `needs:` this job).
   validate-inputs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6  # no submodules: validate .gitmodules first
-      - name: Validate submodule URLs in .gitmodules
+      - uses: actions/checkout@v6  # no submodules: don't fetch an untrusted .gitmodules
+      - name: Gate changes outside the contribution directories
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           set -euo pipefail
-          if [ ! -f .gitmodules ]; then
-            echo "No .gitmodules present; nothing to validate."
+          if [ "$PR_AUTHOR" = "dependabot[bot]" ]; then
+            echo "Dependabot PR; allowed (packages still checked by --require-hashes)."
             exit 0
           fi
-          rc=0
-          while read -r _ url; do
-            case "$url" in
-              https://github.com/netbox-community/*)
-                echo "OK: $url" ;;
-              *)
-                echo "::error file=.gitmodules::Disallowed submodule URL: $url"
-                rc=1 ;;
-            esac
-          done < <(git config --file .gitmodules --get-regexp '\.url$')
-          exit "$rc"
-      - name: Validate hook repos in pre-commit configs
-        run: |
-          set -euo pipefail
-          rc=0
-          for config in .pre-commit-hooks-config.yaml \
-                        .pre-commit-yamlfmt-config.yaml; do
-            [ -f "$config" ] || continue
-            while read -r repo; do
-              case "$repo" in
-                local) ;;
-                https://github.com/netbox-community/*) ;;
-                https://github.com/pre-commit/pre-commit-hooks) ;;
-                https://github.com/jumanjihouse/pre-commit-hook-yamlfmt) ;;
-                *)
-                  echo "::error file=$config::Disallowed pre-commit repo: $repo"
-                  rc=1 ;;
-              esac
-            done < <(grep -E '^[[:space:]]*-?[[:space:]]*repo:' "$config" \
-                     | sed -E 's/^[[:space:]]*-?[[:space:]]*repo:[[:space:]]*//')
-          done
-          exit "$rc"
+          perm=$(gh api "repos/$REPO/collaborators/$PR_AUTHOR/permission" \
+                   --jq '.permission' 2>/dev/null || true)
+          case "$perm" in
+            admin | write)
+              echo "Author '$PR_AUTHOR' has '$perm' access; trusted, no path restriction."
+              exit 0 ;;
+          esac
+          echo "Author '$PR_AUTHOR' permission='${perm:-unknown}'; applying path restriction."
+          case ",$LABELS," in
+            *,ci-approved,*)
+              echo "PR carries the 'ci-approved' label; allowed by maintainer review."
+              exit 0 ;;
+          esac
+          git fetch --no-tags --depth 1 origin "$BASE_SHA"
+          outside=$(git diff --name-only "$BASE_SHA" HEAD \
+            | grep -Ev '^(device-types|module-types|rack-types|elevation-images|module-images)/' \
+            || true)
+          if [ -n "$outside" ]; then
+            echo "::error::This PR changes files outside the contribution directories:"
+            echo "$outside"
+            echo "Outside contributors may only change device-types/, module-types/, rack-types/, elevation-images/, and module-images/."
+            echo "To improve tests, scripts, or CI, ask a maintainer to review and add the 'ci-approved' label (which re-runs CI)."
+            exit 1
+          fi
+          echo "OK: all changed files are within the contribution directories."
   lint:
     runs-on: ubuntu-latest
     needs: validate-inputs
