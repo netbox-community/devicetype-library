@@ -4,7 +4,12 @@ model: PowerEdge R7625
 slug: dell-poweredge-r7625
 u_height: 2
 is_full_depth: true
-comments: '[Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r7625-technical-guide.pdf)'
+airflow: front-to-rear
+weight: 34.4
+weight_unit: kg
+comments: |
+  [Specsheet](https://www.delltechnologies.com/asset/en-gb/solutions/oem-solutions/technical-support/poweredge-r7615-oem-spec-sheet.pdf)
+  [Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r7625-technical-guide.pdf)
 console-ports:
   - name: Rear Serial
     type: de-9
@@ -25,3 +30,27 @@ module-bays:
   - name: PSU-2
     label: '2'
     position: PSU-2
+  - name: PCIe slot 1 - FH
+    position: PCIe-1
+    label: '1'
+  - name: PCIe slot 2 - FH
+    position: PCIe-2
+    label: '2'
+  - name: PCIe slot 3 - LP
+    position: PCIe-3
+    label: '3'
+  - name: PCIe slot 4 - FH
+    position: PCIe-4
+    label: '4'
+  - name: PCIe slot 5 - FH
+    position: PCIe-5
+    label: '5'
+  - name: PCIe slot 6 - LP
+    position: PCIe-6
+    label: '6'
+  - name: PCIe slot 7 - FH
+    position: PCIe-7
+    label: '7'
+  - name: PCIe slot 8 - FH
+    position: PCIe-8
+    label: '8'

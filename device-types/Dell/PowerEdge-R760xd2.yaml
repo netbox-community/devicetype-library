@@ -7,12 +7,19 @@ weight: 46.3
 weight_unit: kg
 is_full_depth: true
 airflow: front-to-rear
+comments: |
+  [Specsheet](https://www.delltechnologies.com/asset/en-gb/products/servers/technical-support/poweredge-r760xd2-spec-sheet.pdf)
+  [Technical Guide](https://www.delltechnologies.com/asset/en-gb/products/servers/technical-support/poweredge-r760xd2-technical-guide.pdf)
+console-ports:
+  - name: Rear Serial
+    type: de-9
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
   - name: Gig-E 2
     type: 1000base-t
   - name: iDRAC
+    label: iDRAC
     type: 1000base-t
     mgmt_only: true
 module-bays:
