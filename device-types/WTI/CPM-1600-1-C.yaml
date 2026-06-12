@@ -11,6 +11,7 @@ front_image: true
 rear_image: true
 u_height: 2
 # comments: WTI CPM 2U, 1 ethernet, 16 outlet 120V, 16 serial ports
+comments: '[Datasheet](https://ftp.wti.com/download/datasheets/specs_cpm_gige_console_server-switched_pdu.pdf)'
 interfaces:
   - name: ETH0
     type: 1000base-t
@@ -53,20 +54,12 @@ console-server-ports:
 power-ports:
   - name: A1-A4
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
   - name: A5-A8
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
   - name: B1-B4
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
   - name: B5-B8
     type: iec-60320-c20
-    maximum_draw: 14
-    allocated_draw: 7
 power-outlets:
   - name: Outlet_A1
     type: nema-5-15r
