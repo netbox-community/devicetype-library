@@ -1,0 +1,33 @@
+---
+manufacturer: Dell
+model: PowerVault MD2412
+part_number: MD2412
+slug: dell-md2412
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 25.58
+weight_unit: kg
+comments: |
+  [Product Page](https://www.dell.com/support/product-details/en-uk/product/storage-md2412/overview),
+  [Manual](https://dl.dell.com/content/manual48914611-md2412-and-md2424-direct-attach-storage-for-poweredge-servers-owner-s-manual.pdf?language=en-us)
+
+  Power Supply Model: 4H60R
+interfaces:
+  - name: EMM1 SAS Port 1
+    type: other
+  - name: EMM1 SAS Port 2
+    type: other
+  - name: EMM2 SAS Port 1
+    type: other
+  - name: EMM2 SAS Port 2
+    type: other
+module-bays:
+  - name: PSU A
+    position: A
+    label: A
+    description: Right side
+  - name: PSU B
+    position: B
+    label: B
+    description: Left side
