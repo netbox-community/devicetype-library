@@ -1,12 +1,14 @@
 ---
 manufacturer: WTI
-model: CPM-800-1-ECA
-slug: wti-cpm-800-1-eca
+model: CPM-800-2-ECAM
+slug: wti-cpm-800-2-ecam
 airflow: passive
-part_number: CPM-800-1-ECA
+part_number: CPM-800-2-ECAM
 is_full_depth: false
+weight: 4.5
+weight_unit: kg
 u_height: 1
-# comments: WTI CPM 1U, 2 ethernet, 8 outlet 15A 120V, 8 serial ports, ATS, Current Monitoring
+# comments: WTI CPM 1U, 2 ethernet, 8 outlet 15A 120V, 8 serial ports, V.92 Analog Modem, ATS
 comments: '[Datasheet](https://ftp.wti.com/download/datasheets/specs_cpm_gige_console_server-switched_pdu.pdf)'
 interfaces:
   - name: ETH0
@@ -16,6 +18,8 @@ interfaces:
 console-ports:
   - name: Console
     type: usb-mini-b
+  - name: Modem
+    type: rj-11
 console-server-ports:
   - name: port1
     type: rj-45
@@ -40,18 +44,18 @@ power-ports:
     type: iec-60320-c20
 power-outlets:
   - name: Outlet_A1
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A2
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A3
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A4
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A5
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A6
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A7
-    type: nema-5-15r
+    type: iec-60320-c13
   - name: Outlet_A8
-    type: nema-5-15r
+    type: iec-60320-c13
