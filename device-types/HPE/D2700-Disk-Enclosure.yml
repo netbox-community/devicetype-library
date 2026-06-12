@@ -1,17 +1,18 @@
 ---
 manufacturer: HPE
-model: HPE D3700 Disk Enclosure
-slug: hpe-d3700-disk-enclosure
-part_number: QW967A
+model: D2700 Disk Enclosure
+slug: hpe-d2700-disk-enclosure
+part_number: AJ941A
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
-weight: 17.2
+# Weight refers to an empty chassis without any modules installed
+weight: 13.2
 weight_unit: kg
 comments: |
   Part numbers:
-  I/O module: 700521-001
-  PSU: 511777-001, 536404-001
+  I/O module: 519320-001
+  PSU: 536404-001
 module-bays:
   - name: I/O Module A
     position: A
