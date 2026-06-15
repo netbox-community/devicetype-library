@@ -10,8 +10,6 @@ airflow: front-to-rear
 weight: 23.72
 weight_unit: kg
 comments: '[UfiSpace S9321-64E Datasheet](https://www.ufispace.com/files/45/UfiSpace%20S9321-64E%20Data%20Center%20Switch%20Datasheet.pdf)'
-front_image: true
-rear_image: true
 console-ports:
   - name: console
     type: rj-45
@@ -214,14 +212,14 @@ interfaces:
     type: 800gbase-x-qsfpdd
 module-bays:
   - name: PSU0
-    position: '0'
+    position: 0
   - name: PSU1
-    position: '1'
+    position: 1
   - name: FAN0
-    position: '0'
+    position: 0
   - name: FAN1
-    position: '1'
+    position: 1
   - name: FAN2
-    position: '2'
+    position: 2
   - name: FAN3
-    position: '3'
+    position: 3
