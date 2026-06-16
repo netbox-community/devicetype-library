@@ -12,11 +12,13 @@ comments: '[Specsheet](https://img-en.fs.com/file/datasheet/l3-stackable-poe+-sw
 console-ports:
   - name: Console
     type: usb-mini-b
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-  - name: PS2
-    type: iec-60320-c14
+module-bays:
+  - name: PWR1
+    position: '1'
+    description: Right side
+  - name: PWR2
+    position: '2'
+    description: Left side
 interfaces:
   - name: GigabitEthernet 1/1
     type: 1000base-t
