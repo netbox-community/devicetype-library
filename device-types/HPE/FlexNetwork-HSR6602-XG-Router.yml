@@ -1,8 +1,8 @@
 ---
 manufacturer: HPE
-model: HPE FlexNetwork HSR6602-G Router
-part_number: JG353A
-slug: hpe-flexnetwork-hsr6602-g-router
+model: FlexNetwork HSR6602-XG Router
+part_number: JG354A
+slug: hpe-flexnetwork-hsr6602-xg-router
 u_height: 2
 is_full_depth: false
 airflow: front-to-rear
@@ -29,6 +29,10 @@ interfaces:
     type: 1000base-x-sfp
   - name: GigabitEthernet1/0/3
     type: 1000base-x-sfp
+  - name: Ten-GigabitEthernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/5
+    type: 10gbase-x-sfpp
 module-bays:
   - name: PS-1
     position: PS-A
