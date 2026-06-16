@@ -4,6 +4,8 @@ model: ACS48
 slug: avocent-acs48
 u_height: 1
 is_full_depth: false
+weight: 3.67
+weight_unit: kg
 interfaces:
   - name: Ethernet
     type: 100base-tx
@@ -110,5 +112,7 @@ console-server-ports:
 power-ports:
   - name: ps1
     type: iec-60320-c14
+    maximum_draw: 35
   - name: ps2
     type: iec-60320-c14
+    maximum_draw: 35
