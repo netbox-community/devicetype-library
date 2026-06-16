@@ -24,21 +24,14 @@ module-bays:
   - name: PSU2
     label: Power Supply Slot 2
     position: '2'
-  - name: Sled1
-    label: Sled Slot 1
-    position: '1'
-  - name: Sled2
-    label: Sled Slot 2
-    position: '2'
-  - name: Sled3
-    label: Sled Slot 3
-    position: '3'
-  - name: Sled4
-    label: Sled Slot 4
-    position: '4'
   - name: IOM1
     label: I/O Module Slot 1
     position: A1
   - name: IOM2
     label: I/O Module Slot 2
     position: A2
+device-bays:
+  - name: Sled 1
+  - name: Sled 2
+  - name: Sled 3
+  - name: Sled 4
