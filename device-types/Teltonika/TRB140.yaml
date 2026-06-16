@@ -1,0 +1,33 @@
+---
+manufacturer: Teltonika
+model: TRB140
+slug: teltonika-trb140
+part_number: TRB140003000
+u_height: 0
+is_full_depth: false
+description: "Industrial Rugged LTE Cat 4 Gateway"
+weight: 136
+weight_unit: g
+comments: '[TRB140 Specs](https://www.teltonika-networks.com/products/gateways/trb140)'
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    label: LAN
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    mgmt_only: false
+  - name: mob1s1a1
+    type: lte
+    label: Mobile (LTE Cat 4)
+
+console-ports:
+  - name: usb0
+    type: usb-micro-b
+    label: Micro-USB Config Port
+
+power-ports:
+  - name: Power
+    type: molex-micro-fit-2x2
+    maximum_draw: 5
+    label: 4-pin DC (9-30 VDC)
