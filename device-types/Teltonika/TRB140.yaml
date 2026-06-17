@@ -8,8 +8,8 @@ is_full_depth: false
 description: Industrial Rugged LTE Cat 4 Gateway
 weight: 136
 weight_unit: g
+airflow: passive
 comments: '[TRB140 Specs](https://www.teltonika-networks.com/products/gateways/trb140)'
-
 interfaces:
   - name: eth0
     type: 1000base-t
@@ -20,12 +20,10 @@ interfaces:
   - name: mob1s1a1
     type: lte
     label: Mobile (LTE Cat 4)
-
 console-ports:
   - name: usb0
     type: usb-micro-b
     label: Micro-USB Config Port
-
 power-ports:
   - name: Power
     type: molex-micro-fit-2x2
