@@ -13,6 +13,7 @@ console-ports:
 interfaces:
   - name: MGMT
     type: 1000base-t
+    mgmt_only: true
   - name: SAS12g-1
     type: other
   - name: SAS12g-2
