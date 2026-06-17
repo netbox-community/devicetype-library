@@ -1,0 +1,33 @@
+---
+manufacturer: ACAR
+model: 504 WF
+slug: acar-504-wf
+description: '230 V, 50 Hz, 10 A, Pmax=2300 W, power cord length: 1.5 m'
+part_number: W0072
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 0.54
+weight_unit: kg
+comments: "See [Technical Specification](https://acar.pl/en/produkty/acar-surge-protectors/acar-504-wf-2/).\r\n\r\nSee [European Plugs and Sockets](https://en.wikipedia.org/wiki/CEE_7#/media/File:European_plug_and_sockets,_UE_standard,_EU_plug_and_socket_wiring_diagram,_schuko,_french_socket,_cee_7-7.jpg).\r\
+  \n\r\nSee [Power plug & outlet Type E](https://www.worldstandards.eu/electricity/plugs-and-sockets/e/)."
+power-ports:
+  - name: power port
+    type: ita-ef
+    maximum_draw: 2300
+power-outlets:
+  - name: power outlets 1
+    type: ita-e
+    power_port: power port
+  - name: power outlets 2
+    type: ita-e
+    power_port: power port
+  - name: power outlets 3
+    type: ita-e
+    power_port: power port
+  - name: power outlets 4
+    type: ita-e
+    power_port: power port
+  - name: power outlets 5
+    type: ita-e
+    power_port: power port
