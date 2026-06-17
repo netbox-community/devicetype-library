@@ -1,0 +1,225 @@
+---
+manufacturer: UfiSpace
+model: S9321-64E
+slug: ufispace-s9321-64e
+description: 64-port 800G QSFP-DD Data Center Switch for AI/ML
+part_number: S9321-64E
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 23.72
+weight_unit: kg
+comments: '[UfiSpace S9321-64E Datasheet](https://www.ufispace.com/files/45/UfiSpace%20S9321-64E%20Data%20Center%20Switch%20Datasheet.pdf)'
+console-ports:
+  - name: console
+    type: rj-45
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+    description: OOB Management
+  - name: ethernet0
+    label: '0'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet1
+    label: '1'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet2
+    label: '2'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet3
+    label: '3'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet4
+    label: '4'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet5
+    label: '5'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet6
+    label: '6'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet7
+    label: '7'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet8
+    label: '8'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet9
+    label: '9'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet10
+    label: '10'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet11
+    label: '11'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet12
+    label: '12'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet13
+    label: '13'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet14
+    label: '14'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet15
+    label: '15'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet16
+    label: '16'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet17
+    label: '17'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet18
+    label: '18'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet19
+    label: '19'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet20
+    label: '20'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet21
+    label: '21'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet22
+    label: '22'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet23
+    label: '23'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet24
+    label: '24'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet25
+    label: '25'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet26
+    label: '26'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet27
+    label: '27'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet28
+    label: '28'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet29
+    label: '29'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet30
+    label: '30'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet31
+    label: '31'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet32
+    label: '32'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet33
+    label: '33'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet34
+    label: '34'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet35
+    label: '35'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet36
+    label: '36'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet37
+    label: '37'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet38
+    label: '38'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet39
+    label: '39'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet40
+    label: '40'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet41
+    label: '41'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet42
+    label: '42'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet43
+    label: '43'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet44
+    label: '44'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet45
+    label: '45'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet46
+    label: '46'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet47
+    label: '47'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet48
+    label: '48'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet49
+    label: '49'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet50
+    label: '50'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet51
+    label: '51'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet52
+    label: '52'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet53
+    label: '53'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet54
+    label: '54'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet55
+    label: '55'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet56
+    label: '56'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet57
+    label: '57'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet58
+    label: '58'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet59
+    label: '59'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet60
+    label: '60'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet61
+    label: '61'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet62
+    label: '62'
+    type: 800gbase-x-qsfpdd
+  - name: ethernet63
+    label: '63'
+    type: 800gbase-x-qsfpdd
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+  - name: FAN0
+    position: '0'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
