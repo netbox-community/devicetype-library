@@ -3,7 +3,7 @@ manufacturer: Palo Alto
 model: PA-550
 slug: palo-alto-pa-550
 part_number: PA-550
-u_height: 0
+u_height: 1
 is_full_depth: false
 weight: 11.2
 weight_unit: lb
@@ -55,5 +55,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: ethernet1/16
     type: 10gbase-x-sfpp
-  - name: loopback
-    type: virtual

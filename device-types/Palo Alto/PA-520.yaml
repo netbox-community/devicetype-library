@@ -8,6 +8,7 @@ is_full_depth: false
 weight: 5.8
 weight_unit: lb
 airflow: front-to-rear
+subdevice_role: child
 comments: '[PA-500 series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-500-series)'
 power-ports:
   - name: PS1
@@ -37,5 +38,3 @@ interfaces:
     type: 1000base-t
   - name: ethernet1/8
     type: 1000base-t
-  - name: loopback
-    type: virtual
