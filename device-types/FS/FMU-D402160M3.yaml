@@ -1,12 +1,13 @@
 ---
 manufacturer: FS
-model: FMU-D402160M
-slug: fs-fmu-d402160m
-part_number: FMU-D402160M
+model: FMU-D402160M3
+slug: fs-fmu-d402160m3
+part_number: FMU-D402160M3
 u_height: 1
 is_full_depth: false
-comments: 40 Channels 100GHz C21-C60, with Monitor Port, LC/UPC, Dual Fiber DWDM Mux Demux, 1U Rack Mount
+comments: 40 Channels 100GHz C21-C60, with Monitor and 1310nm Port, LC/UPC, Dual Fiber DWDM Mux Demux, 1U Rack Mount
 is_powered: false
+airflow: passive
 front-ports:
   - name: C21
     type: lc
@@ -168,11 +169,15 @@ front-ports:
     type: lc
     rear_port: LINE
     rear_port_position: 40
-  - name: MON
+  - name: '1310'
     type: lc
     rear_port: LINE
     rear_port_position: 41
+  - name: MON
+    type: lc
+    rear_port: LINE
+    rear_port_position: 42
 rear-ports:
   - name: LINE
     type: lc
-    positions: 41
+    positions: 42
