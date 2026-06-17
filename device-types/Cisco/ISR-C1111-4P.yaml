@@ -12,6 +12,10 @@ airflow: passive
 interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
+    description: WAN interface, shared RJ-45/SFP port
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+    description: WAN interface
   - name: GigabitEthernet0/1/0
     type: 1000base-t
   - name: GigabitEthernet0/1/1
