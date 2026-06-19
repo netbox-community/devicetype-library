@@ -15,7 +15,7 @@ console-ports:
     type: rj-45
 power-ports:
   - name: 12V==1.0A
-    type: other
+    type: dc-terminal
     maximum_draw: 7
 interfaces:
   - name: GigabitEthernet1
@@ -36,5 +36,3 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet8
     type: 1000base-t
-  - name: Vlan1
-    type: virtual
