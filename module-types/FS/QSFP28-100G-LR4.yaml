@@ -1,0 +1,11 @@
+---
+profile: Network
+manufacturer: Huawei
+model: QSFP28-100G-LR4
+part_number: 02311KNU
+description: 100G optical module, single-mode fiber
+airflow: passive
+comments: For more details see [Hardware Description](https://support.huawei.com/enterprise/en/doc/EDOC1100095397/1bbfcb97/qsfp28-100g-lr4-02311knu).
+interfaces:
+  - name: '{module}/1'
+    type: 100gbase-x-qsfp28
