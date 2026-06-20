@@ -1,0 +1,61 @@
+---
+manufacturer: MikroTik
+model: netPower Lite 8P
+slug: mikrotik-netpower-lite-8p
+part_number: CSS610-8P-2S+OUT
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  [netPower Lite 8P](https://mikrotik.com/product/netpower_lite_ups)
+
+  Dimensions: 303 x 212 x 78 mm
+interfaces:
+  - name: Port1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: SFP+1
+    type: 10gbase-x-sfpp
+  - name: SFP+2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: DC1
+    type: dc-terminal
+    maximum_draw: 208
+    description: 24-57 V
+  - name: DC2
+    type: dc-terminal
+    maximum_draw: 208
+    description: 24-57 V
+  - name: Battery
+    type: dc-terminal
+    description: 22-30 V (Nominal 24V)
