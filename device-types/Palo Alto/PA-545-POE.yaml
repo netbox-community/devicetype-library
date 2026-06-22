@@ -1,17 +1,19 @@
 ---
 manufacturer: Palo Alto
-model: PA-540
-slug: palo-alto-pa-540
-part_number: PA-540
+model: PA-545-POE
+slug: palo-alto-pa-545-poe
+part_number: PA-545-POE
 u_height: 0
 is_full_depth: false
-weight: 5.8
+weight: 13.5
 weight_unit: lb
 airflow: passive
 subdevice_role: child
 comments: '[PA-500 series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-500-series)'
 power-ports:
   - name: PS1
+    type: dc-terminal
+  - name: PS2
     type: dc-terminal
 console-ports:
   - name: console
@@ -39,6 +41,26 @@ interfaces:
   - name: ethernet1/8
     type: 1000base-t
   - name: ethernet1/9
-    type: 1000base-x-sfp
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3bt
   - name: ethernet1/10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3bt
+  - name: ethernet1/11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3bt
+  - name: ethernet1/12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3bt
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 1000base-x-sfp
+  - name: ethernet1/16
     type: 1000base-x-sfp
