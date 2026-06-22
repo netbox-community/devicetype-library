@@ -20,31 +20,26 @@ console-ports:
 
 front_image: true
 rear_image: false
-interfaces:
-  - name: Management1
-    type: 1000base-t
-  - name: Management2
-    type: 1000base-t
 
 module-bays:
   - name: Linecard Slot 1
-    position: '1'
-  - name: Linecard Slot 2
     position: '2'
-  - name: Linecard Slot 3
+  - name: Linecard Slot 2
     position: '3'
-  - name: Linecard Slot 4
+  - name: Linecard Slot 3
     position: '4'
-  - name: Linecard Slot 5
+  - name: Linecard Slot 4
     position: '5'
-  - name: Linecard Slot 6
+  - name: Linecard Slot 5
     position: '6'
-  - name: Linecard Slot 7
+  - name: Linecard Slot 6
     position: '7'
-  - name: Linecard Slot 8
+  - name: Linecard Slot 7
     position: '8'
-  - name: Supervisor Slot
+  - name: Linecard Slot 8
     position: '9'
+  - name: Supervisor Slot
+    position: '1'
   - name: Switch Card Slot
     position: '10'
   - name: Fan Module Slot 1
