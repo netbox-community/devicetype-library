@@ -6,20 +6,34 @@ part_number: AS-1114S-WN10RT
 comments: '[MNL-2295.pdf](https://www.supermicro.com/manuals/superserver/1U/MNL-2295.pdf)'
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight: 17.69
+weight_unit: kg
+front_image: true
+rear_image: true
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
 interfaces:
   - name: BMC
     type: 1000base-t
     mgmt_only: true
     description: Dedicated IPMI LAN port
   - name: Gig-E 1
-    type: 10gbase-t
+    type: 1000base-t
   - name: Gig-E 2
-    type: 10gbase-t
+    type: 1000base-t
+module-bays:
+  - name: PSU 1
+    position: PSU-1
+  - name: PSU 2
+    position: PSU-2
+  - name: PCIe slot 1
+    position: PCIe-1
+    description: PCIe Slot LP, middle
+  - name: PCIe slot 2
+    position: PCIe-2
+    description: PCIe Slot FH, upper right
+  - name: PCIe slot 3
+    position: PCIe-3
+    description: PCIe Slot FH, lower right

@@ -4,25 +4,49 @@ model: PowerEdge R740xd
 slug: dell-poweredge-r740xd
 u_height: 2
 is_full_depth: true
+airflow: front-to-rear
+weight: 33.1
+weight_unit: kg
 comments: |
-  [Dell R740xd Data Sheet](https://www.dell.com/learn/yu/en/yupad1/shared-content~data-sheets~en/documents~poweredge-r740xd-spec-sheet.pdf)
+  [Specsheet](https://i.dell.com/sites/csdocuments/product_docs/en/poweredge-r740xd-spec-sheet.pdf)
+  [Technical Guide](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/aa/PowerEdge_R740_R740xd_Technical_Guide.pdf)
 console-ports:
   - name: Serial
     type: de-9
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-  - name: Power 2
-    type: iec-60320-c14
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: '1'
+  - name: PSU-2
+    label: '2'
+    position: '2'
+  - name: NUMA 0 - NDC slot 1
+    position: NDC-1
+  - name: NUMA 0 - PCIe slot 1 - FH
+    position: PCIe-1
+    label: '1'
+  - name: NUMA 0 - PCIe slot 2 - FH
+    position: PCIe-2
+    label: '2'
+  - name: NUMA 0 - PCIe slot 3 - FH
+    position: PCIe-3
+    label: '3'
+  - name: NUMA 1 - PCIe slot 4 - FH
+    position: PCIe-4
+    label: '4'
+  - name: NUMA 1 - PCIe slot 5 - FH
+    position: PCIe-5
+    label: '5'
+  - name: NUMA 0 - PCIe slot 6 - LP
+    position: PCIe-6
+    label: '6'
+  - name: NUMA 1 - PCIe slot 7 - FH
+    position: PCIe-7
+    label: '7'
+  - name: NUMA 1 - PCIe slot 8 - FH
+    position: PCIe-8
+    label: '8'
