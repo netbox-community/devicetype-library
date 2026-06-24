@@ -9,13 +9,33 @@ airflow: front-to-rear
 weight: 5
 weight_unit: kg
 comments: |
+  Dell EMC PowerEdge C6420 Compute Sled.
+  Installs into a PowerEdge C6400 Chassis.
+  Supports dual Intel Xeon Scalable processors, 16x DDR4 DIMMs.
   [Dell C6420 Spec Sheet](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-c6400-c6420-technical-guide.pdf)
 interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+    description: Dedicated iDRAC Enterprise Management Port
+  - name: iDRAC Direct
+    type: other
+    mgmt_only: true
+    description: Front-panel micro-USB direct management
+  - name: LOM1
+    type: 10gbase-t
+    description: Embedded LOM Port (Configurable 1GbE/10GbE)
   - name: vpc0
     type: virtual
     description: VPCIP
+
+module-bays:
+  - name: OCP
+    position: OCP Slot 1
+    description: OCP 2.0 Mezzanine Networking Slot
+  - name: CPU 01
+    position: CPU Slot 1
+    description: Intel Xeon Scalable Processor
+  - name: CPU 02
+    position: CPU Slot 2
+    description: Intel Xeon Scalable Processor
