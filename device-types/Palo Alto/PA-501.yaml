@@ -1,23 +1,21 @@
 ---
 manufacturer: Palo Alto
-model: PA-540
-slug: palo-alto-pa-540
-part_number: PA-540
+model: PA-501
+slug: palo-alto-pa-501
+part_number: PA-501
 u_height: 0
+subdevice_role: child
 is_full_depth: false
-weight: 5.8
+weight: 3.0
 weight_unit: lb
 airflow: passive
-subdevice_role: child
-comments: '[PA-500 series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-500-series)'
+comments: '[PA-500 series datasheet](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/hardware/pa-500-series/pa-500-hardware-reference.pdf)'
 power-ports:
   - name: PS1
     type: dc-terminal
 console-ports:
   - name: console
     type: rj-45
-  - name: usb-console
-    type: usb-c
 interfaces:
   - name: management
     type: 1000base-t
@@ -36,9 +34,5 @@ interfaces:
     type: 1000base-t
   - name: ethernet1/7
     type: 1000base-t
-  - name: ethernet1/8
-    type: 1000base-t
-  - name: ethernet1/9
-    type: 1000base-x-sfp
-  - name: ethernet1/10
-    type: 1000base-x-sfp
+  - name: loopback
+    type: virtual
