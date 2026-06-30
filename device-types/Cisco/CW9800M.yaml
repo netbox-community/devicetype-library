@@ -9,13 +9,13 @@ weight: 9.3
 weight_unit: kg
 airflow: front-to-rear
 comments: '[Cisco Catalyst CW9800M Wireless Controller Data Sheet](https://www.cisco.com/c/en/us/products/collateral/networking/wireless/wireless-lan-controllers/catalyst-cw9800m-wireless-controller-ds.html)'
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 350
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 350
+module-bays:
+  - name: Power Supply Module 1
+    label: PS1
+    position: '1'
+  - name: Power supply module 2
+    label: PS2
+    position: '2'
 
 console-ports:
   - name: Console
