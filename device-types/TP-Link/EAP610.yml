@@ -1,0 +1,23 @@
+---
+manufacturer: TP-Link
+model: EAP610
+slug: tp-link-eap610
+part_number: EAP610
+u_height: 0
+is_full_depth: false
+is_powered: true
+airflow: passive
+weight: 0.39
+weight_unit: kg
+
+power-ports:
+  - name: PoE-In
+    type: dc-terminal
+    maximum_draw: 11
+  - name: DC-In
+    type: dc-terminal
+    maximum_draw: 10
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
