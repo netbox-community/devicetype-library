@@ -1,0 +1,72 @@
+---
+manufacturer: Ubiquiti
+model: UPS 2U
+slug: ubiquiti-ups-2u-eu
+part_number: UPS-2U-EU
+u_height: 2
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: |
+  [UPS 2U](https://eu.store.ui.com/eu/en/products/ups-2u-eu)
+
+  UniFi managed 1.5kVA rackmount uninterruptible power supply with 4 backup outlets, 4 surge outlets, and a field replaceable battery, 216Wh, half load (500W) runtime of 8 minutes. Supports Graceful Shutdown for UNVR and UNAS (UniFi OS 4.4.3+), and includes NUT compatibility for third-party devices.
+
+  European version with IEC C13/C14 outlets and 170-280V AC input.
+
+  Dimensions: 442.4 x 300 x 87.4 mm (17.4 x 11.8 x 3.4")
+airflow: front-to-rear
+weight: 13.7
+weight_unit: kg
+
+interfaces:
+  - name: Management
+    label: MGMT 100/10 MbE
+    type: 100base-tx
+    mgmt_only: true
+  - name: Surge In/Out 1
+    label: GbE Surge In/Out 1
+    type: 1000base-t
+  - name: Surge In/Out 2
+    label: GbE Surge In/Out 2
+    type: 1000base-t
+
+power-ports:
+  - name: AC Input
+    label: AC In (IEC C14)
+    type: iec-60320-c14
+    maximum_draw: 1500
+
+power-outlets:
+  - name: Battery Backup/Surge 1
+    label: Battery Backup/Surge (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Battery Backup/Surge 2
+    label: Battery Backup/Surge (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Battery Backup/Surge 3
+    label: Battery Backup/Surge (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Battery Backup/Surge 4
+    label: Battery Backup/Surge (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Surge Only 1
+    label: Surge Only (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Surge Only 2
+    label: Surge Only (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Surge Only 3
+    label: Surge Only (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
+  - name: Surge Only 4
+    label: Surge Only (IEC C13)
+    type: iec-60320-c13
+    power_port: AC Input
