@@ -1,0 +1,23 @@
+---
+manufacturer: Hitron
+model: HT-EM5
+slug: hitron-ht-em5
+part_number: 860009155343
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 110
+weight_unit: g
+front_image: false
+rear_image: false
+description: Hitron MoCA 2.5 Coax to Ethernet Adapter
+comments: '[Hitron HT-EM5](https://us.hitrontech.com/products/consumers/htem5-moca-2-5-coax-to-ethernet-adapter/)'
+power-ports:
+  - name: 12V DC
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: Ethernet 1
+    type: 2.5gbase-t
+  - name: Coax
+    type: moca
