@@ -1,0 +1,26 @@
+---
+manufacturer: AXIS
+model: Q1971-LE (7mm)
+slug: axis-q1971-le-7mm
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: false
+weight: 1400
+weight_unit: g
+
+interfaces:
+  - name: RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+
+module-bays:
+  - name: microSD/microSDHC/microSDXC
+    position: microSD
+
+comments: >
+  [Product support for AXIS Q1971-E Thermal Camera](https://www.axis.com/products/axis-q1971-e/support)
