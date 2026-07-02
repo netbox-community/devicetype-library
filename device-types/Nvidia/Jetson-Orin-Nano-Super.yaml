@@ -1,0 +1,20 @@
+---
+manufacturer: Nvidia
+model: Jetson Orin Nano Super
+slug: nvidia-jetson-orin-nano-super
+part_number: 945-137766-0000-000
+u_height: 0
+is_full_depth: false
+comments: >-
+  NVIDIA Jetson Orin Nano Super Developer Kit. 67 TOPS AI performance, 8GB 128-bit LPDDR5,
+  6-core Arm Cortex-A78AE CPU, NVIDIA Ampere GPU with 1024 CUDA cores and 32 tensor cores.
+  Also includes 4x USB 3.2 Gen2 Type-A, 1x USB Type-C (UFP), and 1x DisplayPort 1.2 (+MST).
+  [Datasheet](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: PSU
+    type: dc-terminal
