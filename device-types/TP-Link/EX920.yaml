@@ -1,0 +1,37 @@
+manufacturer: TP-Link
+model: EX920
+slug: tp-link-ex920
+part_number: EX920
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AXE7800 Tri-Band Wi-Fi 6E Router. ISP-grade CPE for FTTH deployment. Wi-Fi 6E tri-band (574/4804/2402 Mbps). EasyMesh compatible. Dimensions: 115 x 115 x 232 mm.] [https://www.tp-link.com/us/service-provider/home-wifi-system/ex920/]'
+front_image: true
+rear_image: true
+
+interfaces:
+  - name: WAN
+    type: "2.5gbase-t"
+    mgmt_only: false
+  - name: LAN1
+    type: "2.5gbase-t"
+    mgmt_only: false
+  - name: LAN2
+    type: "1000base-t"
+    mgmt_only: false
+  - name: LAN3
+    type: "1000base-t"
+    mgmt_only: false
+  - name: WLAN 2.4GHz
+    type: "ieee802.11ax"
+    mgmt_only: false
+  - name: WLAN 5GHz
+    type: "ieee802.11ax"
+    mgmt_only: false
+  - name: WLAN 6GHz
+    type: "ieee802.11ax"
+    mgmt_only: false
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
