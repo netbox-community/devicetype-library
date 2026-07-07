@@ -8,7 +8,7 @@ is_full_depth: false
 airflow: passive
 weight: 0.4
 weight_unit: kg
-comments: "See [Technical parameters](https://www.unipi.technology/unipi-axon-m205-p164?categoryId=27).\r\n\r\nSee [Datasheet](https://www.unipi.technology/shop/product/download?fileId=3702)."
+comments: 'See [Technical parameters](https://www.unipi.technology/unipi-axon-m205-p164?categoryId=27).\r\n\r\nSee [Datasheet](https://www.unipi.technology/shop/product/download?fileId=3702).'
 console-ports:
   - name: 1-Wire
     type: other
@@ -17,7 +17,7 @@ console-ports:
     type: other
     description: RS-232
   - name: Serial 2
-    type: other
+    type: de-9
     description: RS-485
   - name: Serial 3
     type: other
