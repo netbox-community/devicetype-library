@@ -1,0 +1,33 @@
+---
+manufacturer: D-Link
+model: DIR-615
+slug: d-link-dir-615
+part_number: DIR-615
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 215
+weight_unit: g
+interfaces:
+  - name: WAN
+    label: Internet
+    type: 100base-tx
+  - name: LAN1
+    type: 100base-tx
+  - name: LAN2
+    type: 100base-tx
+  - name: LAN3
+    type: 100base-tx
+  - name: LAN4
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+console-ports:
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 5
+    description: 5V DC, 1A
