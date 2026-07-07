@@ -1,0 +1,35 @@
+---
+manufacturer: D-Link
+model: DIR-815
+slug: d-link-dir-815
+part_number: DIR-815
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 289
+weight_unit: g
+interfaces:
+  - name: WAN
+    label: Internet
+    type: 100base-tx
+  - name: LAN1
+    type: 100base-tx
+  - name: LAN2
+    type: 100base-tx
+  - name: LAN3
+    type: 100base-tx
+  - name: LAN4
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
+console-ports:
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 12
+    description: 12V DC, 1A

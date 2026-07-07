@@ -1,0 +1,21 @@
+---
+manufacturer: MikroTik
+model: SXT Lite5
+slug: mikrotik-sxt-lite5
+part_number: RBSXT5nDr2
+u_height: 0
+weight: 265
+weight_unit: g
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: ether1
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: wireless
+    type: ieee802.11n
+comments: |
+  SXT Lite5 - 16dBi integrated CPE/Backbone, 5GHz dual chain, 600MHz CPU
+  [MikroTik SXT Lite5 Datasheet](https://mikrotik.com/product/RBSXT5nDr2)
