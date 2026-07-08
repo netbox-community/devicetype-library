@@ -1,0 +1,128 @@
+---
+manufacturer: Fortinet
+model: FortiGate 701G
+slug: fortinet-fg-701g
+part_number: FG-701G
+u_height: 1
+airflow: front-to-rear
+weight: 3.5
+weight_unit: kg
+is_full_depth: false
+comments: '[Fortinet FortiGate 700G Data Sheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/pdf/fortigate-700g-series.pdf)'
+console-ports:
+  - name: Console
+    label: CONSOLE
+    type: rj-45
+interfaces:
+  - name: ha
+    type: 2.5gbase-t
+    label: HA
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+    label: MGMT
+  - name: wan1
+    type: 5gbase-t
+    label: WAN1
+  - name: wan2
+    type: 5gbase-t
+    label: WAN2
+  - name: port1
+    type: 5gbase-t
+    label: LAN1
+  - name: port2
+    type: 5gbase-t
+    label: LAN2
+  - name: port3
+    type: 5gbase-t
+    label: LAN3
+  - name: port4
+    type: 5gbase-t
+    label: LAN4
+  - name: port5
+    type: 5gbase-t
+    label: LAN5
+  - name: port6
+    type: 5gbase-t
+    label: LAN6
+  - name: port7
+    type: 1000base-x-sfp
+    label: LAN7
+  - name: port8
+    type: 1000base-x-sfp
+    label: LAN8
+  - name: port9
+    type: 1000base-x-sfp
+    label: LAN9
+  - name: port10
+    type: 1000base-x-sfp
+    label: LAN10
+  - name: port11
+    type: 1000base-x-sfp
+    label: LAN11
+  - name: port12
+    type: 1000base-x-sfp
+    label: LAN12
+  - name: port13
+    type: 1000base-x-sfp
+    label: LAN13
+  - name: port14
+    type: 1000base-x-sfp
+    label: LAN14
+  - name: port15
+    type: 1000base-x-sfp
+    label: LAN15
+  - name: port16
+    type: 1000base-x-sfp
+    label: LAN16
+  - name: port17
+    type: 1000base-x-sfp
+    label: LAN17
+  - name: port18
+    type: 1000base-x-sfp
+    label: LAN18
+  - name: port19
+    type: 1000base-x-sfp
+    label: LAN19
+  - name: port20
+    type: 1000base-x-sfp
+    label: LAN20
+  - name: port21
+    type: 1000base-x-sfp
+    label: LAN21
+  - name: port22
+    type: 1000base-x-sfp
+    label: LAN22
+  - name: X1
+    type: 10gbase-x-sfpp
+    label: X1
+  - name: X2
+    type: 10gbase-x-sfpp
+    label: X2
+  - name: X3
+    type: 10gbase-x-sfpp
+    label: X3
+  - name: X4
+    type: 10gbase-x-sfpp
+    label: X4
+  - name: X5
+    type: 25gbase-x-sfp28
+    label: X5
+  - name: X6
+    type: 25gbase-x-sfp28
+    label: X6
+  - name: X7
+    type: 25gbase-x-sfp28
+    label: X7
+  - name: X8
+    type: 25gbase-x-sfp28
+    label: X8
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 283
+    allocated_draw: 230
+  - name: PS2
+    type: iec-60320-c14
+    maximum_draw: 295
+    allocated_draw: 240
