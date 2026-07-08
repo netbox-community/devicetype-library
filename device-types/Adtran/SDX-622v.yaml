@@ -1,0 +1,19 @@
+---
+manufacturer: Adtran
+model: SDX 622v
+slug: adtran-sdx-622v
+part_number: 1287843F1
+comments: '[Adtran SDX 620 Series Datasheet](https://www.adtran.com/-/media/adtran/resources/data-sheets/pdfs/sdx-620-series.pdf)'
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: XGS-PON
+    type: xgs-pon
+  - name: 10GE
+    type: 10gbase-t
+  - name: GE
+    type: 1000base-t
+power-ports:
+  - name: 12V DC
+    type: dc-terminal
