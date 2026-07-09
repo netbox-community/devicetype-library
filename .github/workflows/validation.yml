@@ -86,7 +86,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
@@ -116,7 +116,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
@@ -158,7 +158,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv-pytest
         with:
           path: ${{ env.pythonLocation }}
