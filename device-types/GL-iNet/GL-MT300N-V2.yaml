@@ -1,0 +1,19 @@
+---
+manufacturer: GL.iNet
+model: GL-MT300N-V2
+slug: gl-inet-gl-mt300n-v2
+part_number: GL-MT300N-V2
+u_height: 0
+is_full_depth: false
+comments: See [Product documentation](https://www.gl-inet.com/products/gl-mt300n-v2/).
+power-ports:
+  - name: USB Power
+    type: usb-micro-b
+    maximum_draw: 5
+interfaces:
+  - name: WAN
+    type: 100base-tx
+  - name: LAN
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11n
