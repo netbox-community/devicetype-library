@@ -17,6 +17,8 @@ When writing new definitions, there are some important guidelines to follow:
 
 - Every unique model number requires a discrete definition file, even if the set of components is identical.
 - Definition files must end in `.yaml`, or `.yml`
+- **Filenames must match the model name or part number** — do not include the manufacturer name in the filename. For example, a Cisco device with model `C9300-24P` should be named `C9300-24P.yaml`, not `cisco-C9300-24P.yaml`.
+- **Slugs must begin with the slugified manufacturer name** and end with the slugified model or part number, using only lowercase letters, digits, and hyphens (no dots). For example: `cisco-c9300-24p`. Dots in manufacturer or model names (e.g. `GL.iNet`, `v2.1`) should be replaced with hyphens.
 - Use proper, human-friendly names when creating manufacturer directories (e.g. `Alcatel-Lucent` versus `alcatel`).
 - Include only components which are fixed to the chassis. Module bays and associated module types should be included for
   all modular components which can be modelled in NetBox (network modules, power supplies, etc).
@@ -44,7 +46,7 @@ The process of submitting new definitions to the library is as follows:
 1. Introduce the new content exactly as it should appear once accepted.
 1. Create a [draft pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) to merge your new branch into the `master` branch. Include a brief description of the changes introduced in the PR.
 1. GitHub will automatically run tests against your draft PR to validate it. If the tests fail, make the necessary changes to
-   your branch so that they pass.
+   your branch so that they pass. Note that the `test` CI job validates slugs against a list of known slugs from `master` — new device slugs will be fully validated against the naming rules above, while existing slugs (already merged to `master`) skip those checks. If you see a slug-related failure on a new device, verify it follows the naming guidelines rather than assuming the local pre-commit result is authoritative.
 1. Submit the [pull request](https://github.com/netbox-community/devicetype-library/compare?expand=1) for review. Please note that submitted PRs
    which do not pass validation will be closed and must be rescinded.
 1. A maintainer will review your PR and take one of three actions:
