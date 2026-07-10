@@ -1,0 +1,38 @@
+---
+manufacturer: TP-Link
+model: TL-SG2008P
+slug: tp-link-tl-sg2008p
+part_number: TL-SG2008P
+comments: '[TP-Link TL-SG2008P](https://www.tp-link.com/de/business-networking/smart-switch/sg2008p/#specifications)'
+is_full_depth: false
+u_height: 1
+airflow: passive
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 82
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+  - name: Port 6
+    type: 1000base-t
+  - name: Port 7
+    type: 1000base-t
+  - name: Port 8
+    type: 1000base-t

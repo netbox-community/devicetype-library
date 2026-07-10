@@ -17,7 +17,7 @@ jobs:
         uses: pozetroninc/github-action-get-latest-release@master
         with:
           repository: netbox-community/netbox
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           submodules: true
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
@@ -28,7 +28,7 @@ jobs:
           python-version: '3.12'
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
@@ -43,10 +43,10 @@ jobs:
           python -m pip install -r requirements.txt
         if: ${{ steps.cache-venv.outputs.cache-hit != 'true' && steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Regenerate Master Slug List
-        run: python3 scripts/update-schema.py
+        run: python3 -P scripts/update-schema.py
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: Regenerate master slug list after successful PR merge
           committer: NetBox-Bot <info@netboxlabs.com>
