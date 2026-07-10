@@ -1,0 +1,74 @@
+---
+manufacturer: Palo Alto
+model: PA-555-POE
+slug: palo-alto-pa-555-poe
+part_number: PA-555-POE
+u_height: 0
+is_full_depth: false
+weight: 13.5
+weight_unit: lb
+airflow: passive
+subdevice_role: child
+comments: '[PA-500 series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-500-series)'
+power-ports:
+  - name: PS1
+    type: dc-terminal
+  - name: PS2
+    type: dc-terminal
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb-console
+    type: usb-c
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+  - name: ethernet1/1
+    type: 1000base-t
+  - name: ethernet1/2
+    type: 1000base-t
+  - name: ethernet1/3
+    type: 1000base-t
+  - name: ethernet1/4
+    type: 1000base-t
+  - name: ethernet1/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/9
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/10
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/11
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/12
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: ethernet1/13
+    type: 1000base-x-sfp
+  - name: ethernet1/14
+    type: 1000base-x-sfp
+  - name: ethernet1/15
+    type: 10gbase-x-sfpp
+  - name: ethernet1/16
+    type: 10gbase-x-sfpp

@@ -1,0 +1,17 @@
+---
+manufacturer: Cohesity
+model: C5036-100G-NODE
+slug: cohesity-c5036-100g-node
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+comments: C5036-100G Expansion Node with 36 TB Secure Erase HDD, 1.6 TB PCI-e Flash, 128 GB RAM, 2x 100GbE QSFP28 PCIe, 1x IPMI; Hardware Only
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: Network 1
+    type: 100gbase-x-qsfp28
+  - name: Network 2
+    type: 100gbase-x-qsfp28
