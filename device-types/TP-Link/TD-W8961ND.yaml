@@ -1,0 +1,29 @@
+---
+manufacturer: TP-Link
+model: TD-W8961ND
+slug: tp-link-td-w8961nd
+part_number: TD-W8961ND
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 354
+weight_unit: g
+interfaces:
+  - name: ADSL
+    type: xdsl
+  - name: LAN1
+    type: 100base-tx
+  - name: LAN2
+    type: 100base-tx
+  - name: LAN3
+    type: 100base-tx
+  - name: LAN4
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 6
+    allocated_draw: 6
+    description: 9V DC, 0.6A
