@@ -1,0 +1,35 @@
+---
+manufacturer: LANCOM
+model: 1900EF
+slug: lancom-1900ef
+part_number: '62105'
+u_height: 1
+is_full_depth: false
+airflow: side-to-rear
+weight: 2.5
+weight_unit: kg
+comments: '[LANCOM 1900EF Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-1900EF/DS_1900EF_DE.pdf)'
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 18
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: WAN 1 (SFP)
+    type: 1000base-x-sfp
+  - name: WAN 1
+    type: 1000base-t
+  - name: WAN 2
+    type: 1000base-t
+console-ports:
+  - name: COM
+    type: rj-45
+  - name: USB
+    type: usb-a
