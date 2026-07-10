@@ -9,11 +9,8 @@ is_powered: true
 airflow: passive
 weight: 1.45
 weight_unit: kg
-power-ports:
-  - name: PoE-In
-    type: dc-terminal
-    maximum_draw: 3
-    allocated_draw: 3
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: passive-24v-2pair
