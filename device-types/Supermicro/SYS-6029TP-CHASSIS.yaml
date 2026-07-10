@@ -1,0 +1,63 @@
+---
+manufacturer: Supermicro
+model: SYS-6029TP-CHASSIS
+slug: supermicro-sys-6029tp-chassis
+part_number: CSE-827HQ+-R2K20BP2
+u_height: 2
+is_full_depth: true
+comments: Chassis for Supermicro SuperServer 6029TP series
+subdevice_role: parent
+weight: 24.7
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+
+device-bays:
+  - name: Node A
+  - name: Node B
+  - name: Node C
+  - name: Node D
+
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+
+  - name: HDD bay A1
+    description: Connected to node A
+    position: '1'
+  - name: HDD bay A2
+    description: Connected to node A
+    position: '2'
+  - name: HDD bay A3
+    description: Connected to node A
+    position: '3'
+  - name: HDD bay B1
+    description: Connected to node B
+    position: '4'
+  - name: HDD bay B2
+    description: Connected to node B
+    position: '5'
+  - name: HDD bay B3
+    description: Connected to node B
+    position: '6'
+  - name: HDD bay C1
+    description: Connected to node C
+    position: '7'
+  - name: HDD bay C2
+    description: Connected to node C
+    position: '8'
+  - name: HDD bay C3
+    description: Connected to node C
+    position: '9'
+  - name: HDD bay D1
+    description: Connected to node D
+    position: '10'
+  - name: HDD bay D2
+    description: Connected to node D
+    position: '11'
+  - name: HDD bay D3
+    description: Connected to node D
+    position: '12'

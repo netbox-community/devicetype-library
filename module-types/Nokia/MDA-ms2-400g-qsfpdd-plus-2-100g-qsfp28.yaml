@@ -1,0 +1,23 @@
+---
+# Nokia MDA-s for XIOM: ms2-400g-qsfpdd+2-100g-qsfp28
+# "ms" prefix indicates this MDA goes inside XIOM
+# 2x 400GE QSFP-DD + 2x 100GE QSFP28
+manufacturer: Nokia
+model: MDA-ms2-400g-qsfpdd+2-100g-qsfp28
+part_number: 3HE18884AA
+comments: >-
+  MDA-s for XIOM: 2x 400GE QSFP-DD + 2x 100GE QSFP28.
+  "ms" prefix indicates XIOM-hosted MDA.
+module-bays:
+  - name: '{module}/c1'
+    position: c1
+    label: QSFP-DD
+  - name: '{module}/c2'
+    position: c2
+    label: QSFP-DD
+  - name: '{module}/c3'
+    position: c3
+    label: QSFP28
+  - name: '{module}/c4'
+    position: c4
+    label: QSFP28

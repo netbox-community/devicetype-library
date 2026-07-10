@@ -1,0 +1,15 @@
+---
+# Nokia 7750 SR-7s XCM (Cross-Connect Module)
+# Alternative to IOM-s in card slots 1-6 of SR-7s
+# Has 1 XMA/XIOM slot
+manufacturer: Nokia
+model: XCM-7s
+part_number: 3HE12556AA
+comments: >-
+  XCM-7s (Cross-Connect Module) for 7750 SR-7s.
+  FP4 silicon. Hosts 1 XMA/XIOM slot.
+  Alternative to IOM-s/IOM-s-e in line card slots.
+module-bays:
+  - name: '{module}/x1'
+    position: x1
+    label: XMA/XIOM

@@ -1,0 +1,22 @@
+---
+manufacturer: Cohesity
+model: C5036-25G-32G-NODE
+slug: cohesity-c5036-25g-32g-node
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+comments: C5036-25G-32G Expansion Node with 36 TB Secure Erase HDD, 1.6 TB PCI-e Flash, 128 GB RAM, 2x 25GbE SFP28 OCP and 2x 32GbE FC PCIe, 1x IPMI; Hardware
+  Only
+interfaces:
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+  - name: Network 1
+    type: 25gbase-x-sfp28
+  - name: Network 2
+    type: 25gbase-x-sfp28
+  - name: Network 3
+    type: 32gfc-sfpp
+  - name: Network 4
+    type: 32gfc-sfpp

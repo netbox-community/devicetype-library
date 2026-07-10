@@ -1,0 +1,32 @@
+---
+manufacturer: MikroTik
+model: hAP ac3 LTE6 kit
+slug: mikrotik-hap-ac3-lte6-kit
+part_number: RBD53GR-5HacD2HnD&R11e-LTE6
+u_height: 0
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: DC jack
+    type: dc-terminal
+    maximum_draw: 20
+    allocated_draw: 16
+    description: DC jack input 12 - 28 V
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
+  - name: lte1
+    type: lte
+comments: '[MikroTik hAP ac3 LTE6 kit Datasheet](https://mikrotik.com/product/hap_ac3_lte6_kit#product_specification)'

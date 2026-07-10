@@ -1,0 +1,14 @@
+---
+manufacturer: NetApp
+model: SG5812 Power Supply
+part_number: SG5812-PSU
+profile: Power supply
+attribute_data:
+  wattage: 600
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+power-ports:
+  - name: AC In
+    type: iec-60320-c14
+    maximum_draw: 600

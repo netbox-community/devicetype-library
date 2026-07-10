@@ -1,0 +1,15 @@
+---
+manufacturer: Nokia
+model: XCM2-7s
+part_number: 3HE16472AA
+comments: >-
+  XCM2-7s (Extended Control Module 2) for 7750 SR-7s.
+  FP5 silicon (2 FPs). Combines control, fabric, and I/O functions.
+  Hosts 1 MDA-s slot and 1 XIOM slot.
+module-bays:
+  - name: '{module}/1'
+    position: '1'
+    label: MDA 1
+  - name: '{module}/x1'
+    position: x1
+    label: XIOM

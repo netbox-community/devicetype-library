@@ -10,27 +10,27 @@ is_full_depth: false
 airflow: passive
 comments: '[RB951Ui-2HnD Datasheet](https://mikrotik.com/product/RB951Ui-2HnD)'
 power-ports:
-  - name: Power
+  - name: power
     type: dc-terminal
     maximum_draw: 24
     allocated_draw: 7
     description: DC 8-30 V - 500 mA
 console-ports:
-  - name: USB
+  - name: usb
     type: usb-a
 interfaces:
-  - name: Ether1
+  - name: ether1
     type: 100base-tx
     poe_mode: pd
     poe_type: passive-24v-2pair
     description: POE-IN
-  - name: Ether2
+  - name: ether2
     type: 100base-tx
-  - name: Ether3
+  - name: ether3
     type: 100base-tx
-  - name: Ether4
+  - name: ether4
     type: 100base-tx
-  - name: Ether5
+  - name: ether5
     type: 100base-tx
     poe_mode: pse
     poe_type: passive-24v-2pair
