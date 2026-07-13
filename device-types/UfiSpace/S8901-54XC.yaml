@@ -3,547 +3,547 @@ manufacturer: UfiSpace
 model: S8901-54XC
 slug: ufispace-s8901-54xc
 description: Data Center Leaf/ToR Switch 48 x 25G SFP28 & 6 x 100G QSFP28 Ports
-default_platform: null
+default_platform:
 part_number: s8901-54xc
 u_height: 1.0
 is_full_depth: true
-subdevice_role: null
+subdevice_role:
 airflow: front-to-rear
 weight: 8.7
 weight_unit: kg
 comments: ''
 console-ports:
-- name: console
-  type: rj-45
-  label: ''
-  description: ''
+  - name: console
+    type: rj-45
+    label: ''
+    description: ''
 interfaces:
-- name: eth0
-  type: 1000base-t
-  enabled: true
-  mgmt_only: true
-  label: ''
-  description: OOB Management
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet0
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet1
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet2
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet3
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet4
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet5
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet6
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet7
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet8
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet9
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet10
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet11
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet12
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet13
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet14
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet15
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet16
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet17
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet18
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet19
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet20
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet21
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet22
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet23
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet24
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet25
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet26
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet27
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet28
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet29
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet30
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet31
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet32
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet33
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet34
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet35
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet36
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet37
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet38
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet39
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet40
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet41
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet42
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet43
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet44
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet45
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet46
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet46-53]
-  type: 100gbase-x-qsfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
-- name: ethernet47
-  type: 25gbase-x-sfp28
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: null
-  poe_type: null
-  rf_role: null
+  - name: eth0
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    label: ''
+    description: OOB Management
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet0
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet1
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet2
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet3
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet4
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet5
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet6
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet7
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet8
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet9
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet10
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet11
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet12
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet13
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet14
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet15
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet16
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet17
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet18
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet19
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet20
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet21
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet22
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet23
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet24
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet25
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet26
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet27
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet28
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet29
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet30
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet31
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet32
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet33
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet34
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet35
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet36
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet37
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet38
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet39
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet40
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet41
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet42
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet43
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet44
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet45
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet46
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet46-53]
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
+  - name: ethernet47
+    type: 25gbase-x-sfp28
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge:
+    poe_mode:
+    poe_type:
+    rf_role:
 module-bays:
-- name: FAN0
-  label: ''
-  position: '0'
-  description: ''
-- name: FAN1
-  label: ''
-  position: '1'
-  description: ''
-- name: FAN2
-  label: ''
-  position: '2'
-  description: ''
-- name: FAN3
-  label: ''
-  position: '3'
-  description: ''
-- name: FAN4
-  label: ''
-  position: '4'
-  description: ''
-- name: PSU0
-  label: ''
-  position: ''
-  description: ''
-- name: PSU1
-  label: ''
-  position: '1'
-  description: ''
+  - name: FAN0
+    label: ''
+    position: '0'
+    description: ''
+  - name: FAN1
+    label: ''
+    position: '1'
+    description: ''
+  - name: FAN2
+    label: ''
+    position: '2'
+    description: ''
+  - name: FAN3
+    label: ''
+    position: '3'
+    description: ''
+  - name: FAN4
+    label: ''
+    position: '4'
+    description: ''
+  - name: PSU0
+    label: ''
+    position: ''
+    description: ''
+  - name: PSU1
+    label: ''
+    position: '1'
+    description: ''
