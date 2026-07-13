@@ -1,0 +1,70 @@
+---
+manufacturer: Ubiquiti
+model: UPS 2U (US)
+slug: ubiquiti-ups-2u-us
+part_number: UPS-2U-US
+u_height: 2
+is_full_depth: false
+front_image: true
+rear_image: true
+comments: |
+  [UPS 2U](https://store.ui.com/products/ups-2u-us)
+
+  UniFi managed 1.44kVA rackmount uninterruptible power supply with 4 backup outlets, 4 surge outlets, and a field replaceable battery, 216Wh, half load (500W) runtime of 8 minutes. Supports Graceful Shutdown for UNVR and UNAS (UniFi OS 4.4.3+), and includes NUT compatibility for third-party devices.
+
+  Dimensions: 442.4 x 300 x 87.4 mm (17.4 x 11.8 x 3.4")
+airflow: front-to-rear
+weight: 14
+weight_unit: kg
+
+interfaces:
+  - name: Management
+    label: MGMT 100/10 MbE
+    type: 100base-tx
+    mgmt_only: true
+  - name: Surge In/Out 1
+    label: GbE Surge In/Out 1
+    type: 1000base-t
+  - name: Surge In/Out 2
+    label: GbE Surge In/Out 2
+    type: 1000base-t
+
+power-ports:
+  - name: AC Input
+    label: AC In (NEMA 5-15P)
+    type: nema-5-15p
+    maximum_draw: 1440
+
+power-outlets:
+  - name: Battery Backup/Surge 1
+    label: Battery Backup/Surge (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Battery Backup/Surge 2
+    label: Battery Backup/Surge (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Battery Backup/Surge 3
+    label: Battery Backup/Surge (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Battery Backup/Surge 4
+    label: Battery Backup/Surge (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Surge Only 1
+    label: Surge Only (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Surge Only 2
+    label: Surge Only (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Surge Only 3
+    label: Surge Only (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
+  - name: Surge Only 4
+    label: Surge Only (NEMA 5-15R)
+    type: nema-5-15r
+    power_port: AC Input
