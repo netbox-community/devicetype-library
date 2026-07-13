@@ -7,9 +7,9 @@ weight: null
 weight_unit: null
 comments: ''
 power-ports:
-- name: '{module}'
-  type: iec-60320-c16
-  maximum_draw: 400
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: '{module}'
+    type: iec-60320-c16
+    maximum_draw: 400
+    allocated_draw: null
+    label: ''
+    description: ''
