@@ -1,41 +1,70 @@
 ---
 manufacturer: Panduit
-model: Opticom Fiber Adapter Panel (8 LC Duplex/16 Strand, Blue)
+model: Opticom Fiber Adapter Panel, OS2, 8 LC Duplex, Blue
 part_number: FAP8WBUDLCZ
 front-ports:
-  - name: '01'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 1
-  - name: '02'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 2
-  - name: '03'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 3
-  - name: '04'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 4
-  - name: '05'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 5
-  - name: '06'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 6
-  - name: '07'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 7
-  - name: '08'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 8
+  - name: '{module}:1-2'
+    type: lc-upc
+    rear_port: '{module}:1-2'
+    description: Duplex LC Port
+  - name: '{module}:3-4'
+    type: lc-upc
+    rear_port: '{module}:3-4'
+    description: Duplex LC Port
+  - name: '{module}:5-6'
+    type: lc-upc
+    rear_port: '{module}:5-6'
+    description: Duplex LC Port
+  - name: '{module}:7-8'
+    type: lc-upc
+    rear_port: '{module}:7-8'
+    description: Duplex LC Port
+  - name: '{module}:9-10'
+    type: lc-upc
+    rear_port: '{module}:9-10'
+    description: Duplex LC Port
+  - name: '{module}:11-12'
+    type: lc-upc
+    rear_port: '{module}:11-12'
+    description: Duplex LC Port
+  - name: '{module}:13-14'
+    type: lc-upc
+    rear_port: '{module}:13-14'
+    description: Duplex LC Port
+  - name: '{module}:15-16'
+    type: lc-upc
+    rear_port: '{module}:15-16'
+    description: Duplex LC Port
 rear-ports:
-  - name: '01'
-    type: lc
-    positions: 8
+  - name: '{module}:1-2'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:3-4'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:5-6'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:7-8'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:9-10'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:11-12'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:13-14'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
+  - name: '{module}:15-16'
+    type: lc-upc
+    positions: 1
+    description: Duplex LC Port
