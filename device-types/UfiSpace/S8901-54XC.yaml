@@ -7,341 +7,225 @@ part_number: s8901-54xc
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear
-weight: 8.7
+weight: 8
 weight_unit: kg
-comments: ''
 console-ports:
   - name: console
     type: rj-45
-    label: ''
-    description: ''
 interfaces:
   - name: eth0
     type: 1000base-t
     enabled: true
     mgmt_only: true
-    label: ''
     description: OOB Management
   - name: ethernet0
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet1
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet2
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet3
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet4
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet5
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet6
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet7
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet8
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet9
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet10
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet11
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet12
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet13
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet14
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet15
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet16
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet17
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet18
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet19
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet20
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet21
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet22
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet23
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet24
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet25
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet26
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet27
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet28
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet29
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet30
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet31
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet32
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet33
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet34
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet35
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet36
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet37
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet38
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet39
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet40
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet41
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet42
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet43
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet44
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet45
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet46
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet46-53]
     type: 100gbase-x-qsfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
   - name: ethernet47
     type: 25gbase-x-sfp28
     enabled: true
     mgmt_only: false
-    label: ''
-    description: ''
 module-bays:
   - name: FAN0
-    label: ''
     position: '0'
-    description: ''
   - name: FAN1
-    label: ''
     position: '1'
-    description: ''
   - name: FAN2
-    label: ''
     position: '2'
-    description: ''
   - name: FAN3
-    label: ''
     position: '3'
-    description: ''
   - name: FAN4
-    label: ''
     position: '4'
-    description: ''
   - name: PSU0
-    label: ''
-    position: ''
-    description: ''
+    position: '0'
   - name: PSU1
-    label: ''
     position: '1'
-    description: ''
