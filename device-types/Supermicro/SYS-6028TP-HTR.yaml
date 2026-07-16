@@ -1,11 +1,11 @@
 ---
 manufacturer: Supermicro
-model: SYS-6028TR-HTR
-slug: supermicro-sys-6028tr-htr
+model: SYS-6028TP-HTR
+slug: supermicro-sys-6028tp-htr
 u_height: 0
 is_full_depth: true
 airflow: front-to-rear
-comments: A node with Super X10DRT-H motherboard which gets installed in a SuperServer 6028TR chassis (https://www.supermicro.com/en/products/system/2u/6028/sys-6028tr-htr.php)
+comments: A node with Super X10DRT-P motherboard which gets installed in a SuperServer 6028TP chassis (https://www.supermicro.com/en/products/system/2u/6028/sys-6028tp-htr.php)
 subdevice_role: child
 console-ports:
   - name: RS-232
@@ -39,6 +39,18 @@ module-bays:
   - name: DIMM D1
     position: DIMM D1
     description: Connected to CPU 1
+  - name: DIMM A2
+    position: DIMM A2
+    description: Connected to CPU 1
+  - name: DIMM B2
+    position: DIMM B2
+    description: Connected to CPU 1
+  - name: DIMM C2
+    position: DIMM C2
+    description: Connected to CPU 1
+  - name: DIMM D2
+    position: DIMM D2
+    description: Connected to CPU 1
   - name: DIMM E1
     position: DIMM E1
     description: Connected to CPU 2
@@ -51,13 +63,28 @@ module-bays:
   - name: DIMM H1
     position: DIMM H1
     description: Connected to CPU 2
+  - name: DIMM E2
+    position: DIMM E2
+    description: Connected to CPU 2
+  - name: DIMM F2
+    position: DIMM F2
+    description: Connected to CPU 2
+  - name: DIMM G2
+    position: DIMM G2
+    description: Connected to CPU 2
+  - name: DIMM H2
+    position: DIMM H2
+    description: Connected to CPU 2
 
   - name: Slot 1
     position: Slot 1
-    description: PCI-E 3.0 x16 Slot supported by CPU1
+    description: PCI-E 3.0 x16 Slot supported by CPU2
+  - name: Slot 2
+    position: Slot 2
+    description: PCI-E 3.0 x8 Slot supported by CPU2
   - name: SXB1
     position: SXB1
-    description: PCI-E 3.0 x8 (in x4) Slot supported by CPU1
+    description: I-SATA 0-5/PCI-E 3.0 x8 Slot supported by CPU1
   - name: SXB2
     position: SXB2
-    description: PCI-E 3.0 x8 (in x4) Slot supported by CPU2
+    description: S-SATA 0-2/PCI-E 3.0 x16 Slot supported by CPU2
