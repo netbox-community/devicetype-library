@@ -1,0 +1,45 @@
+---
+manufacturer: ISCOM
+model: S2600-8T4S
+slug: iscom-s2600-8t4s
+part_number: S2600-8T4S
+u_height: 1
+is_full_depth: false
+airflow: passive
+console-ports:
+  - name: con 0
+    type: rj-45
+weight: 1.08
+weight_unit: kg
+power-ports:
+  - name: Front PS
+    type: iec-60320-c14
+    maximum_draw: 13
+interfaces:
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+  - name: GigabitEthernet0/5
+    type: 1000base-t
+  - name: GigabitEthernet0/6
+    type: 1000base-t
+  - name: GigabitEthernet0/7
+    type: 1000base-t
+  - name: GigabitEthernet0/8
+    type: 1000base-t
+  - name: GigabitEthernet0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/12
+    type: 1000base-x-sfp
+  - name: SNMP
+    type: 100base-tx
+    mgmt_only: true
