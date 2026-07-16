@@ -1,0 +1,131 @@
+---
+manufacturer: Draytek
+model: Vigor2860
+slug: vigor2860
+description: 'Advanced DSL firewall'
+default_platform: null
+part_number: ''
+u_height: 0.0
+is_full_depth: false
+subdevice_role: null
+airflow: null
+weight: 530.0
+weight_unit: g
+comments: ''
+console-ports:
+- name: usb1
+  type: usb-a
+  label: ''
+  description: ''
+- name: usb2
+  type: usb-a
+  label: ''
+  description: ''
+power-ports:
+- name: pwr-1
+  type: iec-60320-c14
+  maximum_draw: 24
+  allocated_draw: 24
+  label: PWR
+  description: ''
+interfaces:
+- name: lan1
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: lan2
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: lan3
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: lan4
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: lan5
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: lan6
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: wan1
+  type: xdsl
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: wan2
+  type: 1000base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: wlan1
+  type: ieee802.11g
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: wlan2
+  type: ieee802.11ac
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
