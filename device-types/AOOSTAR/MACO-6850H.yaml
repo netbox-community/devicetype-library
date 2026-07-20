@@ -1,0 +1,47 @@
+---
+manufacturer: AOOSTAR
+model: MACO 6850H
+slug: aoostar-maco-6850h
+u_height: 0
+weight: 680
+weight_unit: g
+is_full_depth: false
+front_image: true
+rear_image: true
+description: Mini PC with an AMD Ryzen 7 PRO 6850H CPU, Radeon 680M graphics and 24 GB LPDDR5-6400 memory.
+comments: |
+  The 24 GB LPDDR5-6400 memory is soldered and is not replaceable.
+  The three M.2 slots support up to 24 TB total.
+  External I/O includes 2 USB4, 2 USB 3.2 Gen 2, 1 USB 3.0, 1 USB 2.0, HDMI 2.1, DisplayPort 1.4,
+  a 3.5 mm audio jack, and a dedicated OCuLink port which does not support hot-swap or consume an M.2 slot.
+  [Product page](https://aoostar.com/collections/mini-pc/products/aoostar-maco-6850h)
+  [Processor specifications](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-6000-series/amd-ryzen-7-pro-6850h.html)
+power-ports:
+  - name: DC IN
+    # DC Barrel plug, 5.4mm OD, 2.5mm ID
+    type: other
+    # 19V @ 6.32A
+    maximum_draw: 120
+interfaces:
+  - name: LAN 1
+    type: 2.5gbase-t
+    description: Intel I226-V
+  - name: LAN 2
+    type: 2.5gbase-t
+    description: Intel I226-V
+  - name: WiFi
+    type: ieee802.11ax
+    description: Wi-Fi 6
+  - name: Bluetooth
+    type: ieee802.15.1
+    description: Bluetooth 5.2
+module-bays:
+  - name: M.2 1
+    position: '1'
+    description: M.2 2280 M-key PCIe 4.0 x4 NVMe SSD slot
+  - name: M.2 2
+    position: '2'
+    description: M.2 2280 M-key PCIe 4.0 x4 NVMe SSD slot
+  - name: M.2 3
+    position: '3'
+    description: M.2 2280 M-key PCIe 4.0 x4 NVMe SSD slot
