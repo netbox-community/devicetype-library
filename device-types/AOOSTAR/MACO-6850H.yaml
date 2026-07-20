@@ -8,6 +8,8 @@ weight_unit: g
 is_full_depth: false
 front_image: true
 rear_image: true
+# Left to rear isn't aq valid enum value in the schema
+airflow: mixed
 description: Mini PC with an AMD Ryzen 7 PRO 6850H CPU, Radeon 680M graphics and 24 GB LPDDR5-6400 memory.
 comments: |
   The 24 GB LPDDR5-6400 memory is soldered and is not replaceable.
@@ -19,7 +21,7 @@ comments: |
 power-ports:
   - name: DC IN
     # DC Barrel plug, 5.4mm OD, 2.5mm ID
-    type: other
+    type: dc-terminal
     # 19V @ 6.32A
     maximum_draw: 120
 interfaces:
