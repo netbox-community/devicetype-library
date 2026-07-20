@@ -1,0 +1,14 @@
+---
+manufacturer: Lanner
+model: NCS2-IXM407A
+part_number: NCS2-IXM407A
+comments: 4x 10GbE SFP+ Ports, Slim-type Module
+interfaces:
+  - name: eth{module}/0
+    type: 10gbase-x-sfpp
+  - name: eth{module}/1
+    type: 10gbase-x-sfpp
+  - name: eth{module}/2
+    type: 10gbase-x-sfpp
+  - name: eth{module}/3
+    type: 10gbase-x-sfpp
