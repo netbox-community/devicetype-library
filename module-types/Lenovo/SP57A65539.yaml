@@ -4,6 +4,12 @@ model: SP57A65539
 part_number: SP57A65539
 profile: Power supply
 comments: ThinkSystem 1100W 230V/115V Platinum Hot-Swap Power Supply
+airflow: front-to-rear
+attribute_data:
+  wattage: 1100
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 230
 power-ports:
   - name: '{module}'
     type: iec-60320-c14
