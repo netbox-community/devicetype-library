@@ -1,0 +1,12 @@
+---
+manufacturer: Intel
+model: 82599EB
+part_number: JL82599EB
+comments: '[Datasheet](https://www.intel.com/content/www/us/en/products/sku/60263/dual-port-intel-82599eb-10gbe-io-module-axx10gbniaiom/specifications.html)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
