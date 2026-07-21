@@ -18,8 +18,13 @@ interfaces:
   - name: Network
     type: 1000base-t
     mgmt_only: true
+    bridge: Bridge 0
   - name: Daisy Chain
-    type: other
+    type: 1000base-t
+    mgmt_only: true
+    bridge: Bridge 0
+  - name: Bridge 0
+    type: bridge
     mgmt_only: true
 power-ports:
   - name: Power Port 1
