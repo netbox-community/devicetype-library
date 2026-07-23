@@ -42,7 +42,7 @@ Each definition **must** include at minimum the following fields:
   is_full_depth: true
   ```
 
-**Note: We are asking that all new deivces also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
+**Note: We are asking that all new deivces also include the following optional fields where possible: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
 
@@ -112,7 +112,7 @@ Each definition **must** include at minimum the following fields:
 - `model`: The model number of the device type. This must be unique per manufacturer.
   - Type: String
 
-**Note: We are asking that new modules also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
+**Note: We are asking that new modules also include the following optional fields where possible: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
 
