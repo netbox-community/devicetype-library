@@ -1,0 +1,50 @@
+---
+manufacturer: Infoblox
+model: TE-1506
+slug: infoblox-te-1506
+part_number: TE-1506
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 20.0
+weight_unit: lb
+console-ports:
+  - name: Console Port
+    type: de-9
+    description: Male DE-9 serial port
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 475
+    allocated_draw: 375
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 475
+    allocated_draw: 375
+interfaces:
+  - name: HA Port
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: RJ-45 10/100/1000 Base-T auto-sensing gigabit Ethernet port through which the active node in an HA pair connects to the network.
+  - name: iLO/IPMI Port
+    type: other
+    enabled: false
+    mgmt_only: true
+    description: RJ-45 10/100/1000 iLO/IPMI port. Dedicated Ethernet port used for LOM (integrated Lights Out Management) with specific releases of NIOS.
+  - name: LAN1 Port
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: RJ-45 10/100/1000 Base-T auto-sensing gigabit Ethernet port. LAN1 connects the NIOS appliance to the network.
+  - name: LAN2 Port
+    type: 1000base-t
+    enabled: false
+    mgmt_only: false
+    description: RJ-45 10/100/1000 Base-T auto-sensing gigabit Ethernet port. LAN2 connects a NIOS appliance to the network. LAN2 is disabled by default.
+  - name: MGMT Port
+    type: 1000base-t
+    enabled: false
+    mgmt_only: true
+    description: A 1000-Mbps gigabit Ethernet port for appliance management, or for appliance services on the network
