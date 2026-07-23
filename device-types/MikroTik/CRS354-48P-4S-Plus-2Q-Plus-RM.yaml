@@ -114,9 +114,21 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: sfp-sfpplus4
     type: 10gbase-x-sfpp
-  - name: qsfpplus1
+  - name: qsfpplus1-1
     type: 40gbase-x-qsfpp
-  - name: qsfpplus2
+  - name: qsfpplus1-2
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus1-3
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus1-4
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus2-1
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus2-2
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus2-3
+    type: 40gbase-x-qsfpp
+  - name: qsfpplus2-4
     type: 40gbase-x-qsfpp
 console-ports:
   - name: serial0
