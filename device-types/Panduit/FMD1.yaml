@@ -1,14 +1,21 @@
 ---
 manufacturer: Panduit
-model: Opticom Fiber Drawer (4 Adapters, 1RU)
+model: Opticom Fiber Drawer, Black, 1 RU
 slug: panduit-fmd1
 part_number: FMD1
 u_height: 1
 is_full_depth: false
 subdevice_role: parent
 is_powered: false
-device-bays:
+airflow: passive
+weight: 11.00
+weight_unit: lb
+module-bays:
   - name: '01'
+    position: '01'
   - name: '02'
+    position: '02'
   - name: '03'
+    position: '03'
   - name: '04'
+    position: '04'
