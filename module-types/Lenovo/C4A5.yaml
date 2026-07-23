@@ -1,0 +1,26 @@
+---
+manufacturer: Lenovo
+model: C4A5
+part_number: C4A5
+description: Lenovo ThinkSystem DM/DG5200 Series Controller, 64GB
+rear-ports:
+  - name: Controller {module}/USB
+    type: usb-c
+console-ports:
+  - name: Controller {module}/Console
+    type: rj-45
+interfaces:
+  - name: Controller {module}/e0M
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Controller {module}/PSU
+    position: PSU
+  - name: Controller {module}/HIC1
+    position: Controller {module}/e1
+  - name: Controller {module}/HIC2
+    position: Controller {module}/e2
+  - name: Controller {module}/HIC3
+    position: Controller {module}/e3
+  - name: Controller {module}/HIC4
+    position: Controller {module}/e4
