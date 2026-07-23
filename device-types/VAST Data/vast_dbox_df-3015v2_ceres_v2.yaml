@@ -1,0 +1,192 @@
+---
+# NetBox Device Type Definition
+# VAST Data DBox DF-3015V2 (Ceres V2)
+# Source: DBox DF-3015V2/DF-3060V2 Ceres Datasheet
+#
+# NOTE: DF-3060V2 is the same chassis — higher capacity config.
+#   DF-3015V2: 6.4TB Persistent Memory  | 338TB  HyperScale Flash
+#   DF-3060V2: 12TB  Persistent Memory  | 1352TB HyperScale Flash
+# Create a separate device type entry for DF-3060V2 if needed,
+# or track capacity variant via a Custom Field on the Device.
+
+manufacturer: VAST Data
+model: DBox DF-3015V2
+slug: vast-dbox-df-3015v2
+part_number: DF-3015V2
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+
+# To add images: upload via NetBox UI > Device Types > Images
+# Suggested filenames:
+#   front_image: vast_dbox_ceres_v2_front.png
+#   rear_image:  vast_dbox_ceres_v2_rear.png
+
+comments: |
+  VAST Data DBox DF-3015V2 (Ceres V2).
+  1U storage chassis hosting 2x Active/Active Fabric Modules (DTrays).
+  Persistent Memory: 6.4TB | HyperScale Flash: 338TB.
+  (DF-3060V2 variant: 12TB PM / 1352TB Flash — same chassis.)
+  Per DTray: 1x Nvidia BlueField-3 E-Series (NVIDIA P/N 900-9D3C6-00SV-DA0),
+  16x Arm cores, 48GB DDR5 ECC, 2x 200GbE/NDR200 IB (QSFP112), 2x 1GbE mgmt.
+  Chassis I/O: 4x 200GbE OR 4x HDR200 IB total (2 per DTray).
+  Power: Idle 368W / Active 400-728W / Max 850W.
+
+# ------------------------------------------------------------
+# Interfaces — Per Chassis (2 DTrays, BF3 per tray)
+# Each DTray has:
+#   - 2x 200GbE / NDR200 IB (QSFP112) data ports
+#   - 2x 1GbE management ports
+#   - 1x USB-C management (per chassis rear)
+# Total per chassis: 4x data + 4x mgmt + 1x USB-C
+# ------------------------------------------------------------
+interfaces:
+  # --- DTray 1 (BF3 Canister #1) ---
+  - name: "dtray1-port0"
+    type: "200gbase-x-qsfp56"
+    label: "DTray 1 – Port 0 (BF3 Canister #1)"
+    description: "200GbE or NDR200 IB – QSFP112"
+
+  - name: "dtray1-port1"
+    type: "200gbase-x-qsfp56"
+    label: "DTray 1 – Port 1 (BF3 Canister #1)"
+    description: "200GbE or NDR200 IB – QSFP112"
+
+  - name: "dtray1-lan0"
+    type: "1000base-t"
+    label: "DTray 1 – RJ45 LAN1 (VLAN70 Host+BMC)"
+    description: "1GbE management – Host+BMC"
+    mgmt_only: true
+
+  - name: "dtray1-lan1"
+    type: "1000base-t"
+    label: "DTray 1 – RJ45 LAN2 (VLAN71 Host only)"
+    description: "1GbE management – Host only"
+    mgmt_only: true
+
+  # --- DTray 2 (BF3 Canister #2) ---
+  - name: "dtray2-port0"
+    type: "200gbase-x-qsfp56"
+    label: "DTray 2 – Port 0 (BF3 Canister #2)"
+    description: "200GbE or NDR200 IB – QSFP112"
+
+  - name: "dtray2-port1"
+    type: "200gbase-x-qsfp56"
+    label: "DTray 2 – Port 1 (BF3 Canister #2)"
+    description: "200GbE or NDR200 IB – QSFP112"
+
+  - name: "dtray2-lan0"
+    type: "1000base-t"
+    label: "DTray 2 – RJ45 LAN1 (VLAN70 Host+BMC)"
+    description: "1GbE management – Host+BMC"
+    mgmt_only: true
+
+  - name: "dtray2-lan1"
+    type: "1000base-t"
+    label: "DTray 2 – RJ45 LAN2 (VLAN71 Host only)"
+    description: "1GbE management – Host only"
+    mgmt_only: true
+
+  # --- Chassis USB-C management (rear) ---
+  - name: "usb-c-mgmt"
+    type: "other"
+    label: "USB-C Management (Chassis Rear)"
+    description: "USB-C management port on rear panel"
+    mgmt_only: true
+
+# ------------------------------------------------------------
+# Power Ports — 2x redundant 1600W 80+ Platinum
+# ------------------------------------------------------------
+power-ports:
+  - name: "PSU1"
+    type: "iec-60320-c20"
+    maximum_draw: 1600
+    allocated_draw: 1600
+    label: "Power Supply 1 (1600W 80+ Platinum)"
+
+  - name: "PSU2"
+    type: "iec-60320-c20"
+    maximum_draw: 1600
+    allocated_draw: 1600
+    label: "Power Supply 2 (1600W 80+ Platinum)"
+
+# ------------------------------------------------------------
+# Module Bays — 2x DTray fabric modules (BF3 canisters)
+# ------------------------------------------------------------
+module-bays:
+  - name: "DTray 1"
+    label: "Fabric Module / DTray 1 (BF3 Canister #1)"
+    description: "Active/Active DTray – Nvidia BlueField-3 – slot 1"
+    position: "1"
+
+  - name: "DTray 2"
+    label: "Fabric Module / DTray 2 (BF3 Canister #2)"
+    description: "Active/Active DTray – Nvidia BlueField-3 – slot 2"
+    position: "2"
+
+# ------------------------------------------------------------
+# Device Bays — 22x E1.L SSD + 8x U.2 SCM per chassis
+# ------------------------------------------------------------
+device-bays:
+  # E1.L SSDs (22 slots)
+  - name: "SSD-00"
+    label: "E1.L SSD Slot 00 (PCIe Gen.4)"
+  - name: "SSD-01"
+    label: "E1.L SSD Slot 01 (PCIe Gen.4)"
+  - name: "SSD-02"
+    label: "E1.L SSD Slot 02 (PCIe Gen.4)"
+  - name: "SSD-03"
+    label: "E1.L SSD Slot 03 (PCIe Gen.4)"
+  - name: "SSD-04"
+    label: "E1.L SSD Slot 04 (PCIe Gen.4)"
+  - name: "SSD-05"
+    label: "E1.L SSD Slot 05 (PCIe Gen.4)"
+  - name: "SSD-06"
+    label: "E1.L SSD Slot 06 (PCIe Gen.4)"
+  - name: "SSD-07"
+    label: "E1.L SSD Slot 07 (PCIe Gen.4)"
+  - name: "SSD-08"
+    label: "E1.L SSD Slot 08 (PCIe Gen.4)"
+  - name: "SSD-09"
+    label: "E1.L SSD Slot 09 (PCIe Gen.4)"
+  - name: "SSD-10"
+    label: "E1.L SSD Slot 10 (PCIe Gen.4)"
+  - name: "SSD-11"
+    label: "E1.L SSD Slot 11 (PCIe Gen.4)"
+  - name: "SSD-12"
+    label: "E1.L SSD Slot 12 (PCIe Gen.4)"
+  - name: "SSD-13"
+    label: "E1.L SSD Slot 13 (PCIe Gen.4)"
+  - name: "SSD-14"
+    label: "E1.L SSD Slot 14 (PCIe Gen.4)"
+  - name: "SSD-15"
+    label: "E1.L SSD Slot 15 (PCIe Gen.4)"
+  - name: "SSD-16"
+    label: "E1.L SSD Slot 16 (PCIe Gen.4)"
+  - name: "SSD-17"
+    label: "E1.L SSD Slot 17 (PCIe Gen.4)"
+  - name: "SSD-18"
+    label: "E1.L SSD Slot 18 (PCIe Gen.4)"
+  - name: "SSD-19"
+    label: "E1.L SSD Slot 19 (PCIe Gen.4)"
+  - name: "SSD-20"
+    label: "E1.L SSD Slot 20 (PCIe Gen.4)"
+  - name: "SSD-21"
+    label: "E1.L SSD Slot 21 (PCIe Gen.4)"
+  # SCMs (8 slots)
+  - name: "SCM-00"
+    label: "U.2 SCM Slot 00 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-01"
+    label: "U.2 SCM Slot 01 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-02"
+    label: "U.2 SCM Slot 02 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-03"
+    label: "U.2 SCM Slot 03 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-04"
+    label: "U.2 SCM Slot 04 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-05"
+    label: "U.2 SCM Slot 05 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-06"
+    label: "U.2 SCM Slot 06 (PCIe Gen.4 – Persistent Memory)"
+  - name: "SCM-07"
+    label: "U.2 SCM Slot 07 (PCIe Gen.4 – Persistent Memory)"
