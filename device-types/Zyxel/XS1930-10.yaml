@@ -9,7 +9,7 @@ is_full_depth: false
 comments: >-
   Zyxel 8-port 10G Multi-Gig Lite-L3 Smart Managed Switch with 2 SFP+
   https://www.zyxel.com/de/de/products/switch/10-12-port-10g-multi-gigabit-lite-l3-smart-managed-switch-xs1930-series/specifications
-  
+
 console-ports:
   - name: console
     type: rj-45
@@ -41,4 +41,3 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: SFP2 # SFP+
     type: 10gbase-x-sfpp
-    
