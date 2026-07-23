@@ -13,15 +13,11 @@ console-ports:
   - name: Console Port
     type: de-9
     description: Male DE-9 serial port
-power-ports:
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 475
-    allocated_draw: 375
+    position: '1'
   - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 475
-    allocated_draw: 375
+    position: '2'
 interfaces:
   - name: HA Port
     type: 1000base-t
@@ -29,7 +25,7 @@ interfaces:
     mgmt_only: false
     description: RJ-45 10/100/1000 Base-T auto-sensing gigabit Ethernet port through which the active node in an HA pair connects to the network.
   - name: iLO/IPMI Port
-    type: other
+    type: 1000base-t
     enabled: false
     mgmt_only: true
     description: RJ-45 10/100/1000 iLO/IPMI port. Dedicated Ethernet port used for LOM (integrated Lights Out Management) with specific releases of NIOS.
