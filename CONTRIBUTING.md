@@ -26,8 +26,14 @@ When writing new definitions, there are some important guidelines to follow:
   different).
 - Use the complete form of interface names where applicable. For example, use `TenGigabitEthernet1/2/3` instead of
 `Te1/2/3`.
+- Please note that any properties with an empty or null value which are added by default when exporting from netbox, will fail the automatic validation, therefore these should be removed from any yaml files.
 
-Additionally, be sure to adhere to the following style guidance:
+- **Note:** to improve the data within this repo we are asking at all device yamls include the following propertys where possible:
+  - `weight`
+  - `weight_unit`
+  - `airflow`
+
+###Additionally, be sure to adhere to the following style guidance:
 
 - Use two spaces for indenting.
 - Specify a device type's attributes before listing its components.
