@@ -1,0 +1,21 @@
+---
+manufacturer: Genexis
+model: FiberTwist G2110-EU-2
+slug: genexis-fibertwist-g2110-eu-2
+part_number: '99819025'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 132
+weight_unit: g
+description: 1-port GPON optical network terminal
+power-ports:
+  - name: Power
+    type: other
+    description: 12 V DC (+/- 5%) barrel connector
+interfaces:
+  - name: GPON
+    type: gpon
+    description: SC/APC optical WAN interface
+  - name: LAN
+    type: 1000base-t
