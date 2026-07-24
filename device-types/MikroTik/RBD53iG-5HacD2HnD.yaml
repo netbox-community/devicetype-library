@@ -1,0 +1,35 @@
+---
+manufacturer: MikroTik
+model: hAP ac3
+slug: mikrotik-hap-ac3
+part_number: RBD53iG-5HacD2HnD
+u_height: 0
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: DC jack
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 12
+    description: DC jack input 12 - 28 V
+console-ports:
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    description: PoE-in 18-28 V
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+    description: PoE-out passive
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
+comments: '[MikroTik hAP ac³ Datasheet](https://mikrotik.com/product/hap_ac3#product_specification)'
