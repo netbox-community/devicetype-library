@@ -5,17 +5,14 @@ slug: cisco-c9500-32qc
 part_number: C9500-32QC
 u_height: 1
 is_full_depth: true
+weight: 9.91
+weight_unit: kg
 comments: '[Cisco Catalyst 9500 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/nb-06-cat9500-ser-data-sheet-cte-en.html)'
 console-ports:
   - name: con 0
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
-  - name: PS-0
-    type: iec-60320-c14
-  - name: PS-1
-    type: iec-60320-c14
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t
@@ -116,3 +113,8 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: HundredGigE1/0/48
     type: 100gbase-x-qsfp28
+module-bays:
+  - name: PS-0
+    position: '0'
+  - name: PS-1
+    position: '1'

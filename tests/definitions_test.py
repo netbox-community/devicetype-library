@@ -1,7 +1,7 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
-import pickle_operations
-from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from tests.test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
+from tests import cache_operations
+from tests.yaml_loader import DecimalSafeLoader
+from tests.device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -14,7 +14,7 @@ import yaml
 from referencing import Registry, Resource
 from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
-from git import Repo
+from git import Git, Repo
 
 def _get_definition_files():
     """
@@ -79,9 +79,12 @@ def _get_diff_from_upstream():
         for file in changes:
             # Ensure the files are modified or added, this will disclude deleted files
             if file.change_type in CHANGE_TYPE_LIST:
-                # If the file is renamed, ensure we are picking the right schema
-                if 'R' in file.change_type and path in file.rename_to:
-                    file_list.append((file.rename_to, schema, file.change_type))
+                # Rename endpoints flip between commit.diff (new path on b_path) and
+                # index.diff (new path on a_path), so pick the side that exists on disk.
+                if 'R' in file.change_type:
+                    existing = file.b_path if os.path.exists(file.b_path) else file.a_path
+                    if path in existing:
+                        file_list.append((existing, schema, file.change_type))
                 elif path in file.a_path:
                     file_list.append((file.a_path, schema, file.change_type))
                 elif path in file.b_path:
@@ -102,6 +105,43 @@ def _get_image_files():
 
         # Map each image file to its manufacturer as a tuple (manufacturer, file)
         file_list.append((file.split(os.path.sep)[1], file))
+
+    return file_list
+
+def _get_all_module_image_files():
+    """
+    Return a list of all module-image files in the repository.
+    """
+    return [f for f in glob.glob('module-images/*/*') if os.path.isfile(f)]
+
+def _get_module_image_files():
+    """
+    Return a list of added, renamed, or modified module-image files from git diff against upstream.
+    """
+    file_list = []
+
+    repo = Repo(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+
+    if "upstream" not in repo.remotes:
+        repo.create_remote("upstream", NETBOX_DT_LIBRARY_URL)
+
+    upstream = repo.remotes.upstream
+    upstream.fetch()
+
+    changes = upstream.refs.master.commit.diff(repo.head)
+    changes = changes + repo.index.diff("HEAD")
+
+    CHANGE_TYPE_LIST = ['A', 'R', 'M', 'T']
+
+    for change in changes:
+        if change.change_type in CHANGE_TYPE_LIST:
+            # Diff direction varies (committed vs staged), so resolve the
+            # current on-disk path by checking all candidates.
+            for candidate in (change.rename_from, change.rename_to, change.a_path, change.b_path):
+                if candidate and candidate.startswith('module-images/') and os.path.isfile(candidate):
+                    if candidate not in file_list:
+                        file_list.append(candidate)
+                    break
 
     return file_list
 
@@ -131,16 +171,30 @@ else:
     definition_files = _get_definition_files()
 image_files = _get_image_files()
 
-if USE_LOCAL_KNOWN_SLUGS:
-    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
-    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
-    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
+if USE_UPSTREAM_DIFF and not EVALUATE_ALL:
+    module_image_files = _get_module_image_files()
 else:
-    temp_dir = tempfile.TemporaryDirectory()
-    repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
-    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
-    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
-    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
+    module_image_files = _get_all_module_image_files()
+
+if USE_LOCAL_KNOWN_SLUGS:
+    KNOWN_SLUGS = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-slugs.json')
+    KNOWN_MODULES = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-modules.json')
+    KNOWN_RACKS = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-racks.json')
+else:
+    clone_kwargs = {
+        'depth': 1,
+        'no-checkout': True,
+    }
+    if Git().version_info >= (2, 18):
+        # partial clone
+        clone_kwargs['filter'] = 'blob:none'
+    with tempfile.TemporaryDirectory() as temp_dir, \
+         Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir, **clone_kwargs) as repo \
+    :
+        repo.git.checkout('HEAD', 'tests/*.json')
+        KNOWN_SLUGS = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-slugs.json')
+        KNOWN_MODULES = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-modules.json')
+        KNOWN_RACKS = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-racks.json')
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
@@ -193,6 +247,43 @@ def test_definitions(file_path, schema, change_type):
         # A module
         this_device = ModuleType(definition, file_path, change_type)
 
+    # Validate that front-ports reference existing rear-ports
+    if any(x in file_path for x in ("device-types", "module-types")):
+        rear_ports = definition.get("rear-ports", []) or []
+        front_ports = definition.get("front-ports", []) or []
+
+        rear_port_names = {
+            rp.get("name") for rp in rear_ports if isinstance(rp, dict)
+        }
+
+        rear_port_positions = {}
+        for fp in front_ports:
+            if not isinstance(fp, dict):
+                continue
+
+            rear_port_ref = fp.get("rear_port")
+
+            if rear_port_ref and rear_port_ref not in rear_port_names:
+                pytest.fail(
+                    f"{file_path}: front-port '{fp.get('name')}' references "
+                    f"rear_port '{rear_port_ref}', but no such rear-port exists. "
+                    f"Defined rear-ports: {sorted(rear_port_names)}",
+                    pytrace=False,
+                )
+
+            # Check for duplicate (rear_port, rear_port_position) combinations
+            if rear_port_ref:
+                rear_port_pos = fp.get("rear_port_position", 1)
+                key = (rear_port_ref, rear_port_pos)
+                if key in rear_port_positions:
+                    pytest.fail(
+                        f"{file_path}: front-port '{fp.get('name')}' has duplicate "
+                        f"(rear_port, rear_port_position) = ('{rear_port_ref}', {rear_port_pos}). "
+                        f"Already used by front-port '{rear_port_positions[key]}'.",
+                        pytrace=False,
+                    )
+                rear_port_positions[key] = fp.get("name")
+
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
@@ -225,6 +316,7 @@ def test_definitions(file_path, schema, change_type):
     if this_device.isDevice:
         assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
         assert this_device.ensure_no_vga(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.validate_child_u_height(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
@@ -249,3 +341,56 @@ def test_definitions(file_path, schema, change_type):
             if not rear_image:
                 pytest.fail(f'{file_path} has rear_image set to True but no matching image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.rear.ext\' but only found {manufacturer_images})', False)
     iterdict(definition)
+
+@pytest.mark.parametrize('file_path', module_image_files)
+def test_module_images(file_path):
+    """
+    Validate module-image files: structure, naming, module-type existence, and image count.
+    """
+    import re
+
+    parts = file_path.split(os.path.sep)
+
+    # Must follow module-images/<manufacturer>/<image-file> flat structure
+    if len(parts) != 3:
+        pytest.fail(
+            f"Invalid module-image path: {file_path}. "
+            f"Expected: module-images/<manufacturer>/<filename> (flat, no per-model subdir)",
+            pytrace=False,
+        )
+
+    manufacturer, image_file = parts[1], parts[2]
+
+    # Valid image extension
+    ext = image_file.rsplit('.', 1)[-1].lower()
+    if ext not in IMAGE_FILETYPES:
+        pytest.fail(f"Invalid image file extension in {file_path}", pytrace=False)
+
+    # Filename must follow <module-name>.(front|rear).<ext> pattern
+    match = re.match(r'^(.+)\.(front|rear)\.[^.]+$', image_file, re.IGNORECASE)
+    if not match:
+        pytest.fail(
+            f"Module image filename must follow '<module-name>.(front|rear).<ext>': got '{image_file}'",
+            pytrace=False,
+        )
+    module_name = match.group(1)
+
+    # Corresponding module-type YAML must exist
+    yaml_path = os.path.join('module-types', manufacturer, f'{module_name}.yaml')
+    yml_path = os.path.join('module-types', manufacturer, f'{module_name}.yml')
+    if not (os.path.isfile(yaml_path) or os.path.isfile(yml_path)):
+        pytest.fail(
+            f"No module-type definition found for {file_path}. Expected: {yaml_path}",
+            pytrace=False,
+        )
+
+    # Maximum 2 images per module (one front, one rear)
+    vendor_dir = os.path.join('module-images', manufacturer)
+    if os.path.isdir(vendor_dir):
+        images = [f for f in os.listdir(vendor_dir) if f.startswith(module_name + '.')]
+        if len(images) > 2:
+            pytest.fail(
+                f"Maximum 2 images per module type. "
+                f"Found {len(images)} for '{module_name}' in {vendor_dir}: {images}",
+                pytrace=False,
+            )

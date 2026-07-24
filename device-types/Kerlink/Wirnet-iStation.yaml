@@ -1,0 +1,21 @@
+---
+manufacturer: Kerlink
+model: Wirnet iStation
+slug: kerlink-wirnet-istation
+description: LoRaWAN gateway for outdoor deployments
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 1.4
+weight_unit: kg
+comments: Kerlink Wirnet iStation [Specifications](https://wikikerlink.fr/wirnet-productline/lib/exe/fetch.php?media=documentation:commercial_leaflet_wirnet_istation_v3.4.pdf)
+  and [Product Page](https://www.kerlink.com/product/wirnet-istation/)
+front_image: true
+rear_image: true
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

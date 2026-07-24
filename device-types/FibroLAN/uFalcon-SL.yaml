@@ -1,0 +1,31 @@
+---
+manufacturer: FibroLAN
+model: uFalcon SL
+slug: fibrolan-ufalcon-sl
+part_number: '7077'
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 1.43
+weight_unit: lb
+comments: https://www.fibrolan.com/files/files_data/items/source/uFalcon_SL_DS7077R0415_20191031085305_765.pdf
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+console-ports:
+  - name: Console Port
+    type: rj-45
+    description: Console (RS232)
+interfaces:
+  - name: GigabitEthernet 1/1
+    type: 1000base-t
+  - name: GigabitEthernet 1/2
+    type: 1000base-t
+  - name: GigabitEthernet 1/3
+    type: 1000base-t
+  - name: GigabitEthernet 1/4
+    type: 1000base-t
+  - name: GigabitEthernet 1/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet 1/6
+    type: 1000base-x-sfp

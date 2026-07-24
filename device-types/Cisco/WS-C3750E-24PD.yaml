@@ -8,6 +8,7 @@ airflow: front-to-rear
 weight: 18.30
 weight_unit: lb
 u_height: 1
+comments: '[Specsheet](https://community.cisco.com/legacyfs/online/legacy/7/0/8/10807-Cisco%20Catalyst%203750-E%20Series%20Switches.pdf)'
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -129,5 +130,3 @@ console-ports:
 module-bays:
   - name: PSU1
     position: '1'
-  - name: PSU2
-    position: '2'

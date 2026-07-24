@@ -5,6 +5,8 @@ part_number: AIR-CT5508-K9
 slug: cisco-air-ct5508-k9
 u_height: 1
 is_full_depth: true
+weight: 9.1
+weight_unit: kg
 console-ports:
   - name: Con
     type: rj-45
@@ -28,10 +30,8 @@ interfaces:
     type: 1000base-x-sfp
   - name: Port 8
     type: 1000base-x-sfp
-power-ports:
-  - name: PS1
-    type: iec-60320-c14
-    maximum_draw: 115
-  - name: PS2
-    type: iec-60320-c14
-    maximum_draw: 115
+module-bays:
+  - name: PS-1
+    position: '1'
+  - name: PS-2
+    position: '2'

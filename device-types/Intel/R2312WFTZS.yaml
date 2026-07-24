@@ -1,0 +1,34 @@
+---
+manufacturer: Intel
+model: R2312WFTZS
+slug: intel-r2312wftzs
+airflow: front-to-rear
+weight: 23.35
+weight_unit: kg
+u_height: 2
+is_full_depth: false
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6

@@ -1,0 +1,30 @@
+---
+manufacturer: HiWatch
+model: DS-I252L
+slug: hiwatch-ds-i252l
+part_number: DS-I252L
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth1
+    label: '1'
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    type: 100base-tx
+    description: POE-IN, 0.2A, 6.5W
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 5
+    description: 12V DC, 0.4A
+module-bays:
+  - name: microSD/microSDHC/microSDXC
+    position: microSD
+comments: '[1/2.8" Progressive Scan CMOS 1920X11080 DS-I252L Firmware by Kolyan](http://ftp.hikvision.ru/01.%20Firmware/02.%20HiWatch%20Value/01.%20IP%20Cameras/DS-I25XL/)'

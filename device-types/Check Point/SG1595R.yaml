@@ -1,0 +1,40 @@
+---
+manufacturer: Check Point
+model: SG1595R
+slug: check-point-sg1595r
+part_number: CPAP-SG1595R
+u_height: 1.0
+is_full_depth: false
+weight: 1.21
+weight_unit: kg
+comments: '[Check Point 1500 Rugged Data Sheet](https://www.checkpoint.com/downloads/products/quantum-rugged-1595r-datasheet.pdf)'
+airflow: passive
+power-ports:
+  - name: PSU_12V
+    type: dc-terminal
+    maximum_draw: 120
+    allocated_draw: 30
+  - name: DC_12-60V
+    type: dc-terminal
+    maximum_draw: 40
+    allocated_draw: 30
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+interfaces:
+  - name: DMZ-RJ-45
+    type: 1000base-t
+  - name: DMZ-SFP
+    type: 1000base-x-sfp
+  - name: WAN-RJ-45
+    type: 1000base-t
+  - name: WAN-SFP
+    type: 1000base-x-sfp
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t

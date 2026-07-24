@@ -1,0 +1,63 @@
+---
+manufacturer: HPE
+model: Comware 5150-8G-PoE+-2SFP-2SFP+ EI
+slug: hpe-comware-5150-8g-poep-2sfp-2sfpp-ei
+part_number: S5T54A
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.5
+weight_unit: kg
+comments: '[HPE Comware 5150 EI Switch Series QuickSpecs] (https://www.hpe.com/psnow/doc/a50009238enw.pdf)'
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    allocated_draw: 8
+    maximum_draw: 152
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: GigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

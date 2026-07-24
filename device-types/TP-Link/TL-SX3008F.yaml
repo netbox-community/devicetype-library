@@ -1,0 +1,56 @@
+---
+manufacturer: TP-Link
+model: TL-SX3008F
+slug: tp-link-tl-sx3008f
+u_height: 1
+is_full_depth: false
+weight: 1.65
+weight_unit: kg
+airflow: passive
+comments: '[TP-Link TL-SX3008F](https://www.tp-link.com/us/business-networking/omada-sdn-switch/tl-sx3008f/)'
+console-ports:
+  - name: Serial Console
+    type: rj-45
+    label: Console(RJ45)
+    description: Serial Console
+  - name: USB Serial Console
+    type: usb-micro-b
+    label: Console(USB)
+    description: Serial Console
+power-ports:
+  - name: PWR1
+    type: iec-60320-c14
+    maximum_draw: 16
+interfaces:
+  - name: ten-gigabitEthernet 1/0/1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '1'
+  - name: ten-gigabitEthernet 1/0/2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '2'
+  - name: ten-gigabitEthernet 1/0/3
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '3'
+  - name: ten-gigabitEthernet 1/0/4
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '4'
+  - name: ten-gigabitEthernet 1/0/5
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '5'
+  - name: ten-gigabitEthernet 1/0/6
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '6'
+  - name: ten-gigabitEthernet 1/0/7
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '7'
+  - name: ten-gigabitEthernet 1/0/8
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: '8'

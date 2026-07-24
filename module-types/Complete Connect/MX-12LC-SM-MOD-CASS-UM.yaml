@@ -1,0 +1,40 @@
+---
+manufacturer: Complete Connect
+model: MX-12LC-SM-MOD-CASS-UM
+description: MTP/MPO to LC Cassette Module SM (9/125) 12 Fibre, Universal
+comments: '[Product Page](https://www.completeconnect.co.uk/products/mpo-mtp-mx-series-12-fibre-singlemode-os2-modular-cassette)'
+front-ports:
+  - name: '{module}:1'
+    type: lc
+    rear_port: '{module}:1-6'
+    rear_port_position: 1
+    color: 0000ff
+  - name: '{module}:2'
+    type: lc
+    rear_port: '{module}:1-6'
+    rear_port_position: 2
+    color: 0000ff
+  - name: '{module}:3'
+    type: lc
+    rear_port: '{module}:1-6'
+    rear_port_position: 3
+    color: 0000ff
+  - name: '{module}:4'
+    type: lc
+    rear_port: '{module}:1-6'
+    rear_port_position: 4
+    color: 0000ff
+  - name: '{module}:5'
+    type: lc
+    rear_port: '{module}:1-6'
+    rear_port_position: 5
+    color: 0000ff
+  - name: '{module}:6'
+    type: lc
+    rear_port: '{module}:1-6'
+    rear_port_position: 6
+    color: 0000ff
+rear-ports:
+  - name: '{module}:1-6'
+    type: mpo
+    positions: 6

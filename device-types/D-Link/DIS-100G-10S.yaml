@@ -1,0 +1,37 @@
+---
+manufacturer: D-Link
+model: DIS-100G-10S
+slug: d-link-dis-100g-10s
+part_number: DIS-100G-10S
+comments: D-Link DIS-100G-10S DIN Rail Unmanaged Switch
+is_full_depth: false
+airflow: passive
+weight: 0.5
+weight_unit: kg
+u_height: 0
+power-ports:
+  - name: DC
+    label: 48V
+    type: dc-terminal
+    maximum_draw: 8
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+  - name: GigabitEthernet9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet10
+    type: 1000base-x-sfp

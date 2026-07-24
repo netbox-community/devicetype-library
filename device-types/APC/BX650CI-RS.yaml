@@ -1,0 +1,38 @@
+---
+manufacturer: APC
+model: BX650CI-RS
+slug: apc-bx650ci-rs
+description: APC BX650CI-RS
+part_number: Back-UPS-BX650CI-RS
+u_height: 0
+is_full_depth: false
+airflow: passive
+front_image: true
+rear_image: true
+weight: 6.2
+weight_unit: kg
+comments: '[BX650CI-RS Datasheet by Kolyan](https://www.se.com/kz/ru/product/BX650CI-RS/%D0%B8%D0%B1%D0%BF-apc-backups-650-%D0%B2%D0%B0-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-230-%D0%B2-%D1%80%D0%B0%D0%B7%D1%8A%D0%B5%D0%BC%D1%8B-schuko-%D1%81%D0%BD%D0%B3-%D0%B1%D1%83%D0%B4%D0%B5%D1%82-%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD-%D0%BD%D0%B0-bvx700ligr/)'
+console-ports:
+  - name: usb
+    type: usb-b
+    label: PowerChute USB Port
+power-ports:
+  - name: Input
+    type: ita-ef
+    maximum_draw: 390
+    allocated_draw: 390
+    label: Input
+    description: 220 - 240V AC, 6A, 50/60Hz
+power-outlets:
+  - name: '1'
+    type: ita-f
+    power_port: Input
+  - name: '2'
+    type: ita-f
+    power_port: Input
+  - name: '3'
+    type: ita-f
+    power_port: Input
+  - name: '4'
+    type: ita-f
+    power_port: Input

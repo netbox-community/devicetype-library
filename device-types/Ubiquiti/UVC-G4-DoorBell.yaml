@@ -1,0 +1,28 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G4 Doorbell
+slug: ubiquiti-unifi-uvc-g4-doorbell
+part_number: UVC-G4-DoorBell
+comments: |
+  [G4 Doorbell](https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-doorbell)
+  [Datasheet](https://dl.ubnt.com/ds/uvc-g4-doorbell-ds.pdf)
+
+  Dimensions: 118.3 x 46.8 x 25.8 mm (4.66 x 1.84 x 1.02")
+  Resolution: 1600 x 1200 (2MP) at 30 FPS
+  Audio: Two-way audio
+weight: 130
+weight_unit: g
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: wlan
+    type: ieee802.11ac
+    rf_role: station
+  - name: Bluetooth
+    type: ieee802.15.1
+power-ports:
+  - name: Power
+    type: hardwired
+    maximum_draw: 12
+    description: 16-24VAC, 20VA, 50/60 Hz

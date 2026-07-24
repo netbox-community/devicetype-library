@@ -1,0 +1,70 @@
+---
+manufacturer: Cisco
+model: Catalyst 1300X-10NU-2X
+slug: cisco-c1300x-10nu-2x
+part_number: C1300X-10NU-2X
+u_height: 1.0
+is_full_depth: false
+comments: '[Catalyst 1300X Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html)'
+weight: 3.03
+weight_unit: kg
+airflow: side-to-rear
+interfaces:
+  - name: FiveGigabitEthernet1/0/1
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/2
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/3
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/4
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/5
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/6
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/7
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/8
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/9
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: FiveGigabitEthernet1/0/10
+    type: 5gbase-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: TenGigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: Vlan1
+    type: virtual
+    mgmt_only: false
+console-ports:
+  - name: con0
+    type: rj-45
+  - name: con1
+    type: usb-c
+  - name: con2
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 443

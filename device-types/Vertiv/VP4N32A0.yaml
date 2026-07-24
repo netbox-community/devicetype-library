@@ -1,0 +1,68 @@
+---
+manufacturer: Vertiv
+model: VP4N32A0
+slug: vertiv-vp4n32a0
+part_number: MN05M2R1-16IB48-3TL6A0H10-S
+u_height: 2.0
+is_full_depth: false
+airflow: passive
+comments: rPDU, Monitored Unit Level EC, 30A, 208V, 4.9kW, Horizontal, (12) IEC C13, (4) IEC C19, 10ft power cord with L6-30P, Black Powder Coat
+weight: 6.35
+weight_unit: kg
+module-bays:
+  - name: IMD
+    position: 0/IMD
+    description: Interchangeable Monitoring Device
+power-ports:
+  - name: Power
+    type: nema-l6-30p
+    maximum_draw: 4900
+power-outlets:
+  - name: Circuit 1 outlet 1
+    type: iec-60320-c19
+    power_port: Power
+  - name: Circuit 1 outlet 2
+    type: iec-60320-c19
+    power_port: Power
+  - name: Circuit 1 outlet 3
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 1 outlet 4
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 1 outlet 5
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 1 outlet 6
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 1 outlet 7
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 1 outlet 8
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 2 outlet 1
+    type: iec-60320-c19
+    power_port: Power
+  - name: Circuit 2 outlet 2
+    type: iec-60320-c19
+    power_port: Power
+  - name: Circuit 2 outlet 3
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 2 outlet 4
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 2 outlet 5
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 2 outlet 6
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 2 outlet 7
+    type: iec-60320-c13
+    power_port: Power
+  - name: Circuit 2 outlet 8
+    type: iec-60320-c13
+    power_port: Power

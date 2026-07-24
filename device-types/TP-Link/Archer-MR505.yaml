@@ -1,0 +1,32 @@
+---
+manufacturer: TP-Link
+model: Archer MR505
+slug: tp-link-archer-mr505
+part_number: archer-mr505
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: WAN/LAN1
+    label: WAN/LAN1
+    type: 1000base-t
+  - name: LAN2
+    label: LAN2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN3
+    type: 1000base-t
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ax
+power-ports:
+  - name: Power
+    label: Power
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 12
+    description: 12V DC, 1A
+comments: '[Archer MR505 Specifications](https://www.tp-link.com/en/home-networking/5g-4g-router/archer-mr505/#specifications)'

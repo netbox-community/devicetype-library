@@ -1,0 +1,32 @@
+---
+manufacturer: RAD
+model: ETX-203AM
+slug: rad-etx-203am
+comments: '[RAD ETX-203AM Datasheet](https://www.rad.com/wp-content/uploads/2024/10/etx-2_ds_0.pdf)'
+is_full_depth: false
+u_height: 1
+airflow: front-to-rear
+weight: 2.3
+weight_unit: kg
+console-ports:
+  - name: con 0
+    type: rj-45
+interfaces:
+  - name: User3
+    type: 1000base-x-sfp
+  - name: User4
+    type: 1000base-x-sfp
+  - name: User5
+    type: 1000base-t
+  - name: User6
+    type: 1000base-t
+  - name: MNT-ETH
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Network Module
+    position: '1'
+power-ports:
+  - name: power
+    type: iec-60320-c14
+    maximum_draw: 17

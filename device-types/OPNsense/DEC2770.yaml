@@ -1,0 +1,56 @@
+---
+manufacturer: OPNsense
+model: DEC2770
+slug: opnsense-dec2770
+description: OPNsense Rack Security Appliance
+u_height: 1.0
+is_full_depth: false
+airflow: front-to-rear
+weight: 2.75
+weight_unit: kg
+comments: '[OPNsense DEC2770](https://shop.opnsense.com/product/dec2770-opnsense-rack-security-appliance/)'
+front_image: true
+console-ports:
+  - name: Console
+    type: usb-mini-b
+power-ports:
+  - name: Power
+    type: iec-60320-c16
+    allocated_draw: 20
+interfaces:
+  - name: ax0
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: ax1
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false
+  - name: igc0
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: igc1
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: igc2
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: igc3
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: igc4
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: igc5
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: igc6
+    type: 2.5gbase-t
+    enabled: true
+    mgmt_only: false

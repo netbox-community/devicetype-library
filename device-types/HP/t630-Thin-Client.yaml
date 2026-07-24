@@ -1,0 +1,20 @@
+---
+manufacturer: HP
+model: t630 Thin Client
+slug: hp-t630-thin-client
+part_number: 3KX20UT
+u_height: 0
+is_full_depth: false
+weight: 1.52
+weight_unit: kg
+airflow: passive
+front_image: true
+comments: '[HP t630 Thin Client Datasheet](https://support.hp.com/us-en/document/c05240287)'
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 65
+interfaces:
+  - name: NIC1
+    label: Ethernet
+    type: 1000base-t

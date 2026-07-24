@@ -14,6 +14,12 @@ is_powered: true
 weight: 1.7
 weight_unit: kg
 interfaces:
+  - name: Dot11Radio0
+    type: ieee802.11ax
+  - name: Dot11Radio1
+    type: ieee802.11ax
+  - name: Dot11Radio2
+    type: ieee802.11ax
   - name: Ethernet 0
     type: 5gbase-t
   - name: Ethernet 1 (Uplink/PoE)

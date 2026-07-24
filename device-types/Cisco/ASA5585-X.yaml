@@ -5,18 +5,17 @@ slug: cisco-asa5585-x
 part_number: ASA5585-K9
 u_height: 1
 is_full_depth: true
+airflow: front-to-rear
+weight: 22.7
+weight_unit: kg
 console-ports:
   - name: Con 0
     type: rj-45
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c14
-    allocated_draw: 670
-    maximum_draw: 770
+    position: '1'
   - name: PS2
-    type: iec-60320-c14
-    allocated_draw: 670
-    maximum_draw: 770
+    position: '2'
 interfaces:
   - name: Management0/0
     type: 1000base-t

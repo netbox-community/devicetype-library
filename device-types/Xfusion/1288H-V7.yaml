@@ -17,6 +17,18 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
+  - name: OCP1
+    position: OCP1
+    label: OCP 3.0
+  - name: OCP2
+    position: OCP2
+    label: OCP 3.0
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
 interfaces:
   - name: Eth-1
     type: 10gbase-t

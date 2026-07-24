@@ -1,0 +1,128 @@
+---
+manufacturer: EtherWAN
+model: EX75960
+slug: etherwan-ex75960
+part_number: EX75960-0VTU
+u_height: 1
+is_full_depth: false
+weight: 11.2
+weight_unit: lb
+airflow: passive
+comments: '[EX75900 Series datasheet](https://www.etherwan.com/us/products/ex75900-series)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: ge1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge9
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge10
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge11
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge12
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge13
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge14
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge15
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge16
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge17
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge18
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge19
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge20
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge21
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge22
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge23
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge24
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt
+  - name: ge25
+    type: 1000base-x-sfp
+  - name: ge26
+    type: 1000base-x-sfp
+  - name: ge27
+    type: 1000base-x-sfp
+  - name: ge28
+    type: 1000base-x-sfp
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 360
+    description: 46-57VDC terminal block
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 360
+    description: 46-57VDC terminal block (redundant)

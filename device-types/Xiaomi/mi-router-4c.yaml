@@ -1,0 +1,30 @@
+---
+manufacturer: Xiaomi
+model: Mi Router 4C
+slug: xiaomi-mi-router-4c
+part_number: Mi Router 4C DVB4231GL
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 260
+weight_unit: g
+interfaces:
+  - name: Internet
+    label: Internet
+    type: 100base-tx
+  - name: ether1
+    type: 100base-tx
+  - name: ether2
+    type: 100base-tx
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 5
+    description: 5V DC, 1A
+comments: '[Mi Router 4C Datasheet by Kolyan](https://www.mi.com/ru/mi-router-4c/specs/)'

@@ -1,0 +1,14 @@
+---
+manufacturer: HPE
+model: HPE FlxFbrc 10Gb 4p 536FLR-T Adptr
+description: HPE 536FLR-T 10Gb 4-port FlexLOM Ethernet Adapter
+part_number: 768082-001
+interfaces:
+  - name: Eth-{module}-1
+    type: 10gbase-t
+  - name: Eth-{module}-2
+    type: 10gbase-t
+  - name: Eth-{module}-3
+    type: 10gbase-t
+  - name: Eth-{module}-4
+    type: 10gbase-t

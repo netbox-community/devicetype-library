@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: FPR4K-XNM-4X200G
+part_number: FPR4K-XNM-4X200G
+comments: Cisco Secure Firewall 4200 Series 4-Port 40/100/200G QSFP56 Network Module
+weight: 2.2
+weight_unit: lb
+interfaces:
+  - name: Ethernet{module}/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet{module}/2
+    type: 200gbase-x-qsfp56
+  - name: Ethernet{module}/3
+    type: 200gbase-x-qsfp56
+  - name: Ethernet{module}/4
+    type: 200gbase-x-qsfp56

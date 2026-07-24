@@ -1,0 +1,19 @@
+---
+manufacturer: HP
+model: t640 Thin Client
+slug: hp-t640-thin-client
+part_number: 12H46EA
+u_height: 0
+is_full_depth: false
+weight: 980
+weight_unit: g
+airflow: passive
+comments: '[HP t640 Thin Client Support Page](https://support.hp.com/us-en/product/details/hp-t640-thin-client/29378707)'
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 65
+interfaces:
+  - name: NIC1
+    label: Ethernet
+    type: 1000base-t

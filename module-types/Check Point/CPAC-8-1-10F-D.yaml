@@ -1,0 +1,30 @@
+---
+manufacturer: Check Point
+model: CPAC-8-1/10F-D
+part_number: CPAC-8-1/10F-D
+comments: 8 Port 10GBase-F SFP+ interface card for 19000/29000 appliances
+interfaces:
+  - name: eth{module}-01
+    label: '1'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-02
+    label: '2'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-03
+    label: '3'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-04
+    label: '4'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-05
+    label: '5'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-06
+    label: '6'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-07
+    label: '7'
+    type: 10gbase-x-sfpp
+  - name: eth{module}-08
+    label: '8'
+    type: 10gbase-x-sfpp

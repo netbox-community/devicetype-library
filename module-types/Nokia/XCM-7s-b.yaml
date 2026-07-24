@@ -1,0 +1,15 @@
+---
+manufacturer: Nokia
+model: XCM-7s-b
+part_number: 3HE16474AA
+comments: >-
+  XCM-7s-b (Extended Control Module, rev B) for 7750 SR-7s.
+  FP4 silicon (4 FPs). Combines control, fabric, and I/O functions.
+  Hosts 1 MDA-s slot and 1 XIOM slot.
+module-bays:
+  - name: '{module}/1'
+    position: '1'
+    label: MDA 1
+  - name: '{module}/x1'
+    position: x1
+    label: XIOM

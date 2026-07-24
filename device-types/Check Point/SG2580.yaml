@@ -1,0 +1,54 @@
+---
+manufacturer: Check Point
+model: SG2580
+slug: check-point-sg2580
+part_number: CPAP-SG2580
+u_height: 1.0
+is_full_depth: false
+weight: 0.98
+weight_unit: kg
+comments: '[Check Point Quantum Spark 2500 Data Sheet](https://www.checkpoint.com/downloads/products/quantum-spark-2500-datasheet.pdf)'
+airflow: front-to-rear
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 40
+  - name: PSU2
+    type: dc-terminal
+    maximum_draw: 60
+    allocated_draw: 40
+console-ports:
+  - name: CONSOLE-U
+    type: usb-c
+  - name: CONSOLE-S
+    type: rj-45
+interfaces:
+  - name: WAN-RJ-45
+    type: 10gbase-t
+  - name: WAN-SFP+
+    type: 10gbase-x-sfpp
+  - name: DMZ-RJ-45
+    type: 10gbase-t
+  - name: DMZ-SFP+
+    type: 10gbase-x-sfpp
+  - name: '1'
+    type: 2.5gbase-t
+  - name: '2'
+    type: 2.5gbase-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t
+  - name: '9'
+    type: 1000base-t
+  - name: '10'
+    type: 1000base-t

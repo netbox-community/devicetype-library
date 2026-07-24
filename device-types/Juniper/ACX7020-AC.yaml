@@ -1,0 +1,65 @@
+---
+manufacturer: Juniper
+model: ACX7020-AC
+part_number: ACX7020-AC
+slug: juniper-acx7020-ac
+u_height: 1
+weight: 4.45
+weight_unit: kg
+airflow: right-to-left
+is_full_depth: false
+comments: '[Juniper ACX7020-AC Datasheet](https://www.juniper.net/us/en/products/routers/acx-series/acx7000-family-cloud-metro-routers/acx7000-line/acx7020-cloud-metro-routers-datasheet.html)'
+front_image: true
+rear_image: false
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: re0:mgmt-0
+    type: 1000base-t
+    mgmt_only: true
+  - name: et-0/0/0
+    type: 25gbase-x-sfp28
+  - name: et-0/0/1
+    type: 25gbase-x-sfp28
+  - name: et-0/0/2
+    type: 25gbase-x-sfp28
+  - name: et-0/0/3
+    type: 25gbase-x-sfp28
+  - name: et-0/0/4
+    type: 10gbase-x-sfpp
+  - name: et-0/0/5
+    type: 10gbase-x-sfpp
+  - name: et-0/0/6
+    type: 10gbase-x-sfpp
+  - name: et-0/0/7
+    type: 10gbase-x-sfpp
+  - name: et-0/0/8
+    type: 10gbase-x-sfpp
+  - name: et-0/0/9
+    type: 10gbase-x-sfpp
+  - name: et-0/0/10
+    type: 10gbase-x-sfpp
+  - name: et-0/0/11
+    type: 10gbase-x-sfpp
+  - name: et-0/0/12
+    type: 10gbase-x-sfpp
+  - name: et-0/0/13
+    type: 10gbase-x-sfpp
+  - name: et-0/0/14
+    type: 10gbase-x-sfpp
+  - name: et-0/0/15
+    type: 10gbase-x-sfpp
+  - name: et-0/0/16
+    type: 10gbase-x-sfpp
+  - name: et-0/0/17
+    type: 10gbase-x-sfpp
+  - name: et-0/0/18
+    type: 10gbase-x-sfpp
+  - name: et-0/0/19 # This interface is disabled on the router if PTP (precision time protocol) is enabled
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: PSM 0
+    type: iec-60320-c14
+  - name: PSM 1
+    type: iec-60320-c14

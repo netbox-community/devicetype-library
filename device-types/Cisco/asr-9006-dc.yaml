@@ -1,0 +1,61 @@
+---
+manufacturer: Cisco
+model: ASR-9006-DC
+slug: cisco-asr-9006-dc
+description: ASR-9006 DC Chassis
+part_number: ASR-9006-DC
+u_height: 10
+is_full_depth: true
+subdevice_role: parent
+airflow: side-to-rear
+front_image: true
+weight: 40.7
+weight_unit: kg
+comments: |
+  - '[Cisco ASR 9000 Series Aggregation Services Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/data_sheet_c78-501767.html)'
+  - '[Cisco ASR 9000 Series Aggregation Services Router Hardware Installation Guide](https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/hig/b-asr9k-hardware-installation-guide.html)'
+  - '[Cisco ASR 9000 Series Aggregation Services Router Overview and Reference Guide](https://www.cisco.com/c/en/us/td/docs/iosxr/asr9000/hardware-install/overview-reference/b-asr9k-overview-reference-guide.html)'
+module-bays:
+  - name: Rack 0(Chassis)
+    position: '0'
+    description: ASR-9006 DC Chassis
+  - name: Line Card Slot 0
+    label: LC0
+    position: '0'
+    description: Line Card Slot
+  - name: Line Card Slot 1
+    label: LC1
+    position: '1'
+    description: Line Card Slot
+  - name: Line Card Slot 2
+    label: LC2
+    position: '2'
+    description: Line Card Slot
+  - name: Line Card Slot 3
+    label: LC3
+    position: '3'
+    description: Line Card Slot
+  - name: Route Processor Slot 0
+    label: RSP0
+    position: '0'
+    description: Route Processor Slot
+  - name: Route Processor Slot 1
+    label: RSP1
+    position: '1'
+    description: Route Processor Slot
+  - name: Power Module Slot0
+    label: PM0
+    position: '0'
+    description: Power Module Slot
+  - name: Power Module Slot1
+    label: PM1
+    position: '1'
+    description: Power Module Slot
+  - name: Power Module Slot2
+    label: PM2
+    position: '2'
+    description: Power Module Slot
+  - name: Power Module Slot3
+    label: PM3
+    position: '3'
+    description: Power Module Slot

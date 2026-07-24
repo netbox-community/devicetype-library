@@ -5,31 +5,53 @@ slug: mikrotik-crs112-8p-4s-in
 part_number: CRS112-8P-4S
 is_full_depth: false
 u_height: 1
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 0.85
+weight_unit: kg
 interfaces:
   - name: ether1
     label: '1'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether2
     label: '2'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether3
     label: '3'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether4
     label: '4'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether5
     label: '5'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether6
     label: '6'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether7
     label: '7'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: ether8
     label: '8'
     type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: sfp1
     label: '9'
     type: 1000base-x-sfp
@@ -42,17 +64,21 @@ interfaces:
   - name: sfp4
     label: '12'
     type: 1000base-x-sfp
-power-ports:
-  - name: psu1
-    label: DC IN 18-28V
-    type: dc-terminal
-    maximum_draw: 160
-  - name: psu2
-    label: DC IN 48-57V
-    type: dc-terminal
-    maximum_draw: 160
 console-ports:
   - name: serial0
-    label: CONSOLE
     type: rj-45
-comments: 8x Gigabit Ethernet Smart Switch with PoE-out, 4x SFP cages, 400MHz CPU, 128MB RAM, desktop case, RouterOS L5
+    label: CONSOLE
+power-ports:
+  - name: DC1
+    label: DC IN
+    type: dc-terminal
+    maximum_draw: 160
+    allocated_draw: 10
+    description: 18 - 28V DC, 3.4A DQS961-280340-3 MT96-280340-12DT
+  - name: DC2
+    label: DC IN
+    type: dc-terminal
+    maximum_draw: 160
+    allocated_draw: 10
+    description: 48 - 57V DC, 2A 48V2A96W MT-96-480200-12DG
+comments: '[CRS112-8P-4S-IN Datasheet by Kolyan](https://mikrotik.com/product/crs112_8p_4s_in#fndtn-specifications)'

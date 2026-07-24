@@ -1,0 +1,26 @@
+---
+manufacturer: Supermicro
+model: Motherboard X11SSW-F
+slug: supermicro-mbd-x11ssw-f
+part_number: MBD-X11SSW-F
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X11SSD-W (https://www.supermicro.com/en/products/motherboard/X11SSW-F)
+subdevice_role: child
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC IPMI port
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 3.0 x8 (Micro Low Profile)
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x8 (Low Profile)

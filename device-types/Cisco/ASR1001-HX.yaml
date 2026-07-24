@@ -43,13 +43,13 @@ interfaces:
   - name: GigabitEthernet0
     type: 1000base-t
     mgmt_only: true
-power-ports:
+module-bays:
   - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 750
+    position: '0'
+    description: Power module
   - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 750
+    position: '1'
+    description: Power module
 console-ports:
   - name: con 0
     type: rj-45

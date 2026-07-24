@@ -1,0 +1,52 @@
+---
+manufacturer: Fujitsu
+model: Primergy RX300 S6
+slug: fujitsu-primergy-rx300-s6
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 25.0
+weight_unit: kg
+comments: See [Operating manual](https://manuals.ts.fujitsu.com/isc_illustrated_spares/content/RX300_S6/pdf/ba.pdf).
+console-ports:
+  - name: Serial 1
+    type: de-9
+    description: Serial RS-232-C usable for iRMC S2 or system
+  - name: Serial 2
+    type: de-9
+    description: Serial RS-232-C
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iRMC
+    type: 100base-tx
+    mgmt_only: true
+    description: integrated Remote Management Controller S2
+module-bays:
+  - name: PCIe 1
+    position: PCIe 1
+    description: PCI-Express 2.0 (x4)
+  - name: PCIe 2
+    position: PCIe 2
+    description: PCI-Express 2.0 (x4)
+  - name: PCIe 3
+    position: PCIe 3
+    description: PCI-Express 2.0 (x4)
+  - name: PCIe 4
+    position: PCIe 4
+    description: PCI-Express 2.0 (x4)
+  - name: PCIe 5
+    position: PCIe 5
+    description: PCI-Express 2.0 (x4)
+  - name: PCIe 6
+    position: PCIe 6
+    description: PCI-Express 2.0 (x8)
+  - name: PCIe 7
+    position: PCIe 7
+    description: PCI-Express 2.0 (x8)
+  - name: PSU Slot 1
+    position: PSU Slot 1
+  - name: PSU Slot 2
+    position: PSU Slot 2

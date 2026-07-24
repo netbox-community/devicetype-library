@@ -1,0 +1,43 @@
+---
+manufacturer: Huawei
+model: HG8245Hv5
+slug: huawei-hg8245hv5
+part_number: HG8245Hv5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+comments: |
+  [HG8245H5](https://carrier.huawei.com/en/products/fixed-network/access/cpe/h-series-products/hg8245h)
+
+  Note: v5 has a different configuration: GPON ONT with 1GE/3FE ports, 1 POTS, WiFi 2.4 GHz.
+
+  Dimensions: 176 x 138 x 28 mm
+  Power: 12V DC, max 18W
+  Weight: 250 g
+
+  Also used as an OEM device in BELTELECOM (BY)
+interfaces:
+  - name: PON
+    type: gpon
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 100base-tx
+  - name: LAN3
+    type: 100base-tx
+  - name: LAN4
+    type: 100base-tx
+  - name: wlan
+    type: ieee802.11n
+    rf_role: ap
+console-ports:
+  - name: TEL
+    type: rj-11
+    description: POTS
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC (5.5x2.1)

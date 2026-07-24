@@ -1,0 +1,99 @@
+---
+manufacturer: FS
+model: N8560-32C
+slug: fs-n8560-32c
+part_number: n8560-32c
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 12.8
+weight_unit: kg
+console-ports:
+  - name: Management
+    type: rj-45
+  - name: USB Console
+    type: usb-a
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
+  - name: FAN 1
+    position: FAN1
+  - name: FAN 2
+    position: FAN2
+  - name: FAN 3
+    position: FAN3
+  - name: FAN 4
+    position: FAN4
+  - name: FAN 5
+    position: FAN5
+interfaces:
+  - name: HundredGigabitEthernet0/1
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/2
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/3
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/4
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/5
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/6
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/7
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/8
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/9
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/10
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/11
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/12
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/13
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/14
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/15
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/16
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/17
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/18
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/19
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/20
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/21
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/22
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/23
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/24
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/25
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/26
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/27
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/28
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/29
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/30
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/31
+    type: 100gbase-x-qsfp28
+  - name: HundredGigabitEthernet0/32
+    type: 100gbase-x-qsfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+    label: MGT

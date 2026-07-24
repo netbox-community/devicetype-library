@@ -1,0 +1,47 @@
+---
+manufacturer: Dell
+model: PowerProtect DP4400
+slug: dell-powerprotect-dp4400
+weight: 33
+weight_unit: kg
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: 10GbE 1
+    type: 10gbase-t
+  - name: 10GbE 2
+    type: 10gbase-t
+  - name: 10GbE 3
+    type: 10gbase-t
+  - name: 10GbE 4
+    type: 10gbase-t
+  - name: 10GbE 5
+    type: 10gbase-t
+  - name: 10GbE 6
+    type: 10gbase-t
+  - name: 10GbE 7
+    type: 10gbase-t
+  - name: 10GbE 8
+    type: 10gbase-t
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+    label: '1'
+    description: 1100W
+  - name: PSU-2
+    position: PSU-2
+    label: '2'
+    description: 1100W

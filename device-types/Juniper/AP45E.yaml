@@ -1,0 +1,40 @@
+---
+manufacturer: Juniper
+model: AP45E
+slug: juniper-ap45e
+part_number: AP45E-WW
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 1.2
+weight_unit: kg
+comments: |-
+  - Datasheet: https://www.juniper.net/content/dam/www/assets/datasheets/us/en/access-points/ap45-datasheet.pdf
+  - IEEE Standards: 802.11a, 802.11ac, 802.11ax (Wi-Fi 6E), 802.11b, 802.11e, 802.11g, 802.11h, 802.11i, 802.11k, 802.11n, 802.11r, and 802.11u
+  - Wi-Fi 6E (802.11ax) tri-band access point with external antennas
+  - 4 radios (3 client-serving + 1 dedicated scanning radio)
+  - Maximum data rates: 4800 Mbps (6GHz), 2400 Mbps (5GHz), 1148 Mbps (2.4GHz)
+  - 16-element virtual BLE (vBLE) antenna array
+  - Bluetooth 5.1 support
+  - External antenna model with pluggable antenna ports (6-pin and 4-pin)
+interfaces:
+  - name: eth0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: eth1
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: wlan0
+    type: ieee802.11ax
+    description: 2.4GHz radio
+  - name: wlan1
+    type: ieee802.11ax
+    description: 5GHz radio
+  - name: wlan2
+    type: ieee802.11ax
+    description: 6GHz radio (Wi-Fi 6E)
+  - name: wlan3
+    type: other-wireless
+    description: Dedicated scanning radio (WIDS/WIPS/RRM)

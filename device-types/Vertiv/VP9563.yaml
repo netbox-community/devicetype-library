@@ -1,0 +1,46 @@
+---
+manufacturer: Vertiv
+model: VP9563
+slug: vertiv-vp9563
+part_number: BRN100-1025
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: rPDU, Basic Standard, 20A, 120V, 1.9kW, Horizontal, (10) NEMA 5-20R, 10ft power cord with 5-20P, Black Powder Coat
+weight: 2.72
+weight_unit: kg
+power-ports:
+  - name: Power
+    type: nema-5-20p
+    maximum_draw: 1900
+power-outlets:
+  - name: '1'
+    type: nema-5-20r
+    power_port: Power
+  - name: '2'
+    type: nema-5-20r
+    power_port: Power
+  - name: '3'
+    type: nema-5-20r
+    power_port: Power
+  - name: '4'
+    type: nema-5-20r
+    power_port: Power
+  - name: '5'
+    type: nema-5-20r
+    power_port: Power
+  - name: '6'
+    type: nema-5-20r
+    power_port: Power
+  - name: '7'
+    type: nema-5-20r
+    power_port: Power
+  - name: '8'
+    type: nema-5-20r
+    power_port: Power
+  - name: '9'
+    type: nema-5-20r
+    power_port: Power
+  - name: '10'
+    type: nema-5-20r
+    power_port: Power

@@ -1,0 +1,49 @@
+---
+manufacturer: MikroTik
+model: hAP ac lite TC
+slug: mikrotik-hap-ac-lite-tc
+part_number: RB952Ui-5ac2nD-TC
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 370
+weight_unit: g
+interfaces:
+  - name: ether1
+    label: '1'
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 100base-tx
+    description: POE-IN
+  - name: ether2
+    label: '2'
+    type: 100base-tx
+  - name: ether3
+    label: '3'
+    type: 100base-tx
+  - name: ether4
+    label: '4'
+    type: 100base-tx
+  - name: ether5
+    label: '5'
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+    type: 100base-tx
+    description: POE-OUT
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
+  - name: usb
+    type: lte
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 20
+    allocated_draw: 8
+    description: 10 - 28V DC, 1.2A
+comments: '[RB952Ui-5ac2nD-TC Datasheet by Kolyan](https://mikrotik.com/product/RB952Ui-5ac2nD-TC#fndtn-specifications)'

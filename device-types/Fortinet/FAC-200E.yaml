@@ -1,0 +1,32 @@
+---
+manufacturer: Fortinet
+model: FAC-200E
+slug: fortinet-fac-200e
+part_number: FAC-200E
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 6.1
+weight_unit: kg
+comments: >-
+  Fortinet FortiAuthenticator 200E - Identity management and multi-factor
+  authentication appliance.
+
+console-ports:
+  - name: Console
+    type: rj-45
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 200
+
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t

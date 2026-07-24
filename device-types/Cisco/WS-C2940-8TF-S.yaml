@@ -1,0 +1,38 @@
+---
+manufacturer: Cisco
+model: Catalyst 2940-8TF-S
+part_number: WS-C2940-8TF-S
+slug: cisco-ws-c2940-8tf-s
+u_height: 1
+is_full_depth: false
+weight: 1.36
+airflow: passive
+weight_unit: kg
+console-ports:
+  - name: con 0
+    type: rj-45
+power-ports:
+  - name: POWER
+    type: iec-60320-c14
+    maximum_draw: 15
+interfaces:
+  - name: FastEthernet0/1
+    type: 100base-tx
+  - name: FastEthernet0/2
+    type: 100base-tx
+  - name: FastEthernet0/3
+    type: 100base-tx
+  - name: FastEthernet0/4
+    type: 100base-tx
+  - name: FastEthernet0/5
+    type: 100base-tx
+  - name: FastEthernet0/6
+    type: 100base-tx
+  - name: FastEthernet0/7
+    type: 100base-tx
+  - name: FastEthernet0/8
+    type: 100base-tx
+  - name: FastEthernet0/9
+    type: 100base-fx
+  - name: GigabitEthernet0/1
+    type: 1000base-x-sfp

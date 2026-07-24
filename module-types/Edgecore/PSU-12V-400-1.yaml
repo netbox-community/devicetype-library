@@ -1,0 +1,17 @@
+---
+profile: Power supply
+manufacturer: Edgecore
+model: PSU-12V-400-1
+part_number: PSU-12V-400-1
+description: 12 VDC power input unit FRU
+airflow: passive
+attribute_data:
+  wattage: 400
+  hot_swappable: true
+  input_current: DC
+  input_voltage: 12
+comments: "For switches:\r\n\r\n  - Edgecore 5600-52X\r\n  - Edgecore 5610-52X\r\n  - Edgecore 5710-54X\r\n  - Edgecore 5712-54X"
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+    maximum_draw: 400

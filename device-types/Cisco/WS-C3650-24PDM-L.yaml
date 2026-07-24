@@ -11,13 +11,11 @@ comments: '[Cisco Catalyst 3650 Series Switches Data Sheet](https://www.cisco.co
 console-ports:
   - name: con0
     type: rj-45
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 640
-  - name: RPS2300
-    type: dc-terminal
-    maximum_draw: 390
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
 interfaces:
   - name: GigabitEthernet0/0
     type: 1000base-t

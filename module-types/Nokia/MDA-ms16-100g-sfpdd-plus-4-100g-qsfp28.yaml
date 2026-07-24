@@ -1,0 +1,71 @@
+---
+# Nokia MDA-s for XIOM: ms16-100g-sfpdd+4-100g-qsfp28
+# "ms" prefix indicates this MDA goes inside XIOM
+# 16x 100GE SFP-DD + 4x 100GE QSFP28
+manufacturer: Nokia
+model: MDA-ms16-100g-sfpdd+4-100g-qsfp28
+part_number: 3HE18885AA
+comments: >-
+  MDA-s for XIOM: 16x 100GE SFP-DD + 4x 100GE QSFP28.
+  "ms" prefix indicates XIOM-hosted MDA.
+module-bays:
+  - name: '{module}/c1'
+    position: c1
+    label: SFP-DD
+  - name: '{module}/c2'
+    position: c2
+    label: SFP-DD
+  - name: '{module}/c3'
+    position: c3
+    label: SFP-DD
+  - name: '{module}/c4'
+    position: c4
+    label: SFP-DD
+  - name: '{module}/c5'
+    position: c5
+    label: SFP-DD
+  - name: '{module}/c6'
+    position: c6
+    label: SFP-DD
+  - name: '{module}/c7'
+    position: c7
+    label: SFP-DD
+  - name: '{module}/c8'
+    position: c8
+    label: SFP-DD
+  - name: '{module}/c9'
+    position: c9
+    label: SFP-DD
+  - name: '{module}/c10'
+    position: c10
+    label: SFP-DD
+  - name: '{module}/c11'
+    position: c11
+    label: SFP-DD
+  - name: '{module}/c12'
+    position: c12
+    label: SFP-DD
+  - name: '{module}/c13'
+    position: c13
+    label: SFP-DD
+  - name: '{module}/c14'
+    position: c14
+    label: SFP-DD
+  - name: '{module}/c15'
+    position: c15
+    label: SFP-DD
+  - name: '{module}/c16'
+    position: c16
+    label: SFP-DD
+  - name: '{module}/c17'
+    position: c17
+    label: QSFP28
+  - name: '{module}/c18'
+    position: c18
+    label: QSFP28
+  - name: '{module}/c19'
+    position: c19
+    label: QSFP28
+  - name: '{module}/c20'
+    position: c20
+    label: QSFP28

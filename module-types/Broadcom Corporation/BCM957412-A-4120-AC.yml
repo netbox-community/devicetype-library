@@ -1,0 +1,11 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957412-A-4120-AC
+part_number: BCM957412-A-4120-AC
+comments: '[BCM57412-2P - 2 x 10GbE PCIe](https://docs.broadcom.com/doc/957412A4120AC-DS)'
+description: Dual-Port 10 Gb/s Ethernet PCI Express Gen3 x8 Network Interface Card
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet/{module}/2
+    type: 10gbase-x-sfpp

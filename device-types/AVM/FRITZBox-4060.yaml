@@ -1,0 +1,37 @@
+---
+manufacturer: AVM
+model: FRITZ!Box 4060
+slug: avm-fritzbox-4060
+part_number: '20002931'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Box 4060 Technical Specifications](https://en.fritz.com/products/fritzbox/fritzbox-4060/technical-specifications/)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 20
+interfaces:
+  - name: WAN
+    label: WAN
+    type: 2.5gbase-t
+  - name: LAN1
+    label: LAN 1
+    type: 1000base-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: LAN3
+    label: LAN 3
+    type: 1000base-t
+  - name: DECT
+    type: other-wireless
+  - name: WiFi 5GHz-1
+    type: ieee802.11ax
+    description: 5ghz, 2400 Mbit/s
+  - name: WiFi 5GHz-2
+    type: ieee802.11ax
+    description: 5ghz, 2400 Mbit/s
+  - name: WiFi 2.4GHz
+    type: ieee802.11ax
+    description: 2.4ghz, 1200 Mbit/s

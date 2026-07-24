@@ -5,6 +5,9 @@ part_number: ISR2811/K9
 slug: cisco-isr2811
 u_height: 1
 is_full_depth: false
+weight: 6.4
+weight_unit: kg
+comments: 'Datasheet: [Link](https://www.cisco.com/c/dam/global/de_at/assets/unified_partners/smb/vertriebliche-positionierung/routing/downloads/isr_2800_datenblatt_e.pdf)'
 interfaces:
   - name: FastEthernet0/0
     type: 100base-tx
@@ -17,8 +20,43 @@ console-ports:
     type: rj-45
   - name: usb0
     type: usb-mini-b
-  - name: usb1
-    type: usb-mini-b
+module-bays:
+  - name: AIM slot 0
+    label: AIM 0
+    position: AIM0
+    description: Advanced Integration Module Slot
+  - name: AIM slot 1
+    label: AIM 1
+    position: AIM1
+    description: Advanced Integration Module Slot
+  - name: Slot 0 SubSlot 4
+    label: PVDM0
+    position: PVDM0
+    description: Packet Voice Digital Signal Processor Module Slot
+  - name: Slot 0 SubSlot 5
+    label: PVDM1
+    position: PVDM1
+    description: Packet Voice Digital Signal Processor Module Slot
+  - name: Slot 0/0
+    label: HWIC0
+    position: 0/0
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 0/1
+    label: HWIC1
+    position: 0/1
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 0/2
+    label: HWIC2
+    position: 0/2
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 0/3
+    label: HWIC3
+    position: 0/3
+    description: High-Speed WAN Interface Card Slot
+  - name: Slot 1/0
+    label: '1'
+    position: 1/0
+    description: Single-wide / Extended single-wide Network Module Slot
 power-ports:
   - name: PSU0
     type: iec-60320-c6

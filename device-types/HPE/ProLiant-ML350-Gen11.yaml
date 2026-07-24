@@ -1,0 +1,47 @@
+---
+manufacturer: HPE
+model: ProLiant ML350 Gen11
+slug: hpe-proliant-ml350-gen11
+u_height: 4
+is_full_depth: true
+part_number: P70195-291
+weight: 25
+weight_unit: kg
+airflow: front-to-rear
+comments: '[HPE ProLiant ML350 Gen11 Server QuickSpecs](https://www.hpe.com/psnow/doc/a50004308enw.pdf)'
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6
+  - name: PCIe7
+    position: PCIe7
+  - name: PCIe8
+    position: PCIe8
+interfaces:
+  - name: ETH-1
+    type: 1000base-t
+  - name: ETH-2
+    type: 1000base-t
+  - name: ETH-3
+    type: 1000base-t
+  - name: ETH-4
+    type: 1000base-t
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Serial
+    type: de-9

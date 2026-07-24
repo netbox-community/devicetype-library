@@ -1,0 +1,20 @@
+---
+manufacturer: Apple
+model: Mac Studio 2025 M4 Max
+slug: apple-mac-studio-2025-m4-max
+part_number: A3143
+u_height: 3
+is_full_depth: false
+airflow: bottom-to-top
+weight: 2.74
+weight_unit: kg
+comments: '[Mac Studio 2025 (Mac16,9) | hardware specs](https://support.apple.com/en-us/122211)'
+power-ports:
+  - name: Power
+    type: iec-60320-c6
+    maximum_draw: 480
+interfaces:
+  - name: eth0
+    type: 10gbase-t
+  - name: wireless
+    type: ieee802.11ax

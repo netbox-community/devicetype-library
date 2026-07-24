@@ -1,0 +1,61 @@
+---
+manufacturer: Ubiquiti
+model: EdgeSwitch 8 150W
+part_number: ES-8-150W
+slug: ubiquiti-es-8-150w
+u_height: 0
+is_full_depth: false
+comments: |
+  [EdgeSwitch 8 150W](https://www.ui.com/edgemax/edgeswitch-8-150w/)
+  Managed PoE+ Gigabit Switch with SFP
+  Non-blocking throughput: 10 Gbps
+  Switching capacity: 20 Gbps
+  Wallmountable or desktop (not rackmountable)
+airflow: front-to-rear
+weight: 1720.0
+weight_unit: g
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: 0/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: 0/9
+    type: 1000base-x-sfp
+  - name: 0/10
+    type: 1000base-x-sfp
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 150
+    allocated_draw: 150

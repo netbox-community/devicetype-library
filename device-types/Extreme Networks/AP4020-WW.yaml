@@ -1,0 +1,51 @@
+---
+manufacturer: Extreme Networks
+model: AP4020-WW
+slug: extreme-networks-ap4020-ww
+description: AP4020 Access Point
+part_number: AP4020-WW
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 1.3
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: '[Extreme Network AP4020 Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/6c4cd97dc1db45478295b8f74d2c6c82?v=22db8284)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+    description: Serial Console Management
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 21
+interfaces:
+  - name: ETH0/POE
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+  - name: ETH1
+    type: 2.5gbase-t
+  - name: radio 0
+    type: ieee802.11be
+    description: Wi-Fi 7 Radio (2.4 GHz)
+    rf_role: ap
+  - name: radio 1
+    type: ieee802.11be
+    description: Wi-Fi 7 Radio (5 GHz)
+    rf_role: ap
+  - name: radio 2
+    type: ieee802.11be
+    description: Wi-Fi 7 Radio (6 GHz)
+    rf_role: ap
+  - name: sensor
+    type: ieee802.11be
+    description: Dedicated Tri-Frequency Security Sensor
+  - name: ble0
+    type: ieee802.15.1
+    description: Bluetooth Low Energy (BLE) Radio
+  - name: iot0
+    type: ieee802.15.4
+    description: Thread/Zigbee IoT Radio

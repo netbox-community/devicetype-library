@@ -1,0 +1,43 @@
+---
+manufacturer: Sysmatrix
+model: ABS-PD-0802-000
+slug: sysmatrix-abs-pd-0802-000
+description: SYSMATRIX ABS-PD 0802.000
+part_number: PD-0802.000
+u_height: 1
+is_full_depth: false
+airflow: passive
+front_image: true
+weight: 0.56
+weight_unit: kg
+comments: '[ABS-PD 0802.000 Datasheet by Kolyan](https://sysmatrix.ru/catalog/accessories/bloki-rozetok-19/8-portov-c14/)'
+power-ports:
+  - name: Input
+    type: iec-60320-c14
+    label: Input
+    description: 220 - 250V AC, 16A
+power-outlets:
+  - name: '1'
+    type: ita-f
+    power_port: Input
+  - name: '2'
+    type: ita-f
+    power_port: Input
+  - name: '3'
+    type: ita-f
+    power_port: Input
+  - name: '4'
+    type: ita-f
+    power_port: Input
+  - name: '5'
+    type: ita-f
+    power_port: Input
+  - name: '6'
+    type: ita-f
+    power_port: Input
+  - name: '7'
+    type: ita-f
+    power_port: Input
+  - name: '8'
+    type: ita-f
+    power_port: Input

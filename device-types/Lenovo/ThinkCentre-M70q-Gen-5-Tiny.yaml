@@ -1,0 +1,21 @@
+---
+manufacturer: Lenovo
+model: ThinkCentre M70q Gen 5 Tiny
+slug: lenovo-thinkcentre-m70q-gen-5-tiny
+description: ThinkCentre M70q Gen 5 Tiny Mini PC System (Intel)
+u_height: 1.0
+is_full_depth: false
+airflow: top-to-bottom
+weight: 1.25
+weight_unit: kg
+comments: |
+  Supporting 14th Gen Intel Core i3, i5, i7, and i9 Processors (e.g., i5-14500T).
+  [Official Specsheet](https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M70q_Gen_5/ThinkCentre_M70q_Gen_5_Spec.pdf)
+power-ports:
+  - name: power1
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 65
+interfaces:
+  - name: ether1
+    type: 1000base-t

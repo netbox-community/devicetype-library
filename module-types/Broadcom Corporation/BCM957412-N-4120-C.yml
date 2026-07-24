@@ -1,0 +1,11 @@
+---
+manufacturer: Broadcom Corporation
+model: BCM957412-N-4120-C
+part_number: BCM957412-N-4120-C
+comments: '[BCM57412-2P - 2 x 10GbE OCP 3.0](https://docs.broadcom.com/doc/957412N4120C-DS)'
+description: Dual-Port 10 Gb/s Ethernet PCI Express 3.0 x8 OCP 3.0 Small-Form-Factor Network Adapter
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet/{module}/2
+    type: 10gbase-x-sfpp

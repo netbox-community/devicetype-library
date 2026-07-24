@@ -1,0 +1,61 @@
+---
+manufacturer: Avocent
+model: ACS 6016
+slug: avocent-acs6016
+part_number: ACS6016
+comments: '[Avocent ACS 6000 User Guide](https://www.vertiv.com/4af99d/globalassets/products/monitoring-control-and-management/serial-consoles-and-gateways/avocent-acs-6000-advanced-console-server-installeruser-guide.pdf)'
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 3.2
+weight_unit: kg
+console-ports:
+  - name: console
+    type: rj-45
+console-server-ports:
+  - name: ttyS1
+    type: rj-45
+  - name: ttyS2
+    type: rj-45
+  - name: ttyS3
+    type: rj-45
+  - name: ttyS4
+    type: rj-45
+  - name: ttyS5
+    type: rj-45
+  - name: ttyS6
+    type: rj-45
+  - name: ttyS7
+    type: rj-45
+  - name: ttyS8
+    type: rj-45
+  - name: ttyS9
+    type: rj-45
+  - name: ttyS10
+    type: rj-45
+  - name: ttyS11
+    type: rj-45
+  - name: ttyS12
+    type: rj-45
+  - name: ttyS13
+    type: rj-45
+  - name: ttyS14
+    type: rj-45
+  - name: ttyS15
+    type: rj-45
+  - name: ttyS16
+    type: rj-45
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    allocated_draw: 23
+    maximum_draw: 35
+  - name: ps2
+    type: iec-60320-c14
+    allocated_draw: 23
+    maximum_draw: 35
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t

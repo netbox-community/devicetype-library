@@ -1,0 +1,48 @@
+---
+manufacturer: Cisco
+model: SF100-16
+slug: cisco-sf100-16
+part_number: SF100-16
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 1.25
+weight_unit: kg
+comments: '[Cisco 100 Series Unmanaged Switches Datasheet (PDF)](https://community.cisco.com/kxiwq67737/attachments/kxiwq67737/5976-discussions-small-business-switches/7255/1/138184-datasheet_SF100D-16.pdf)'
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    label: POWER
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+  - name: FastEthernet4
+    type: 100base-tx
+  - name: FastEthernet5
+    type: 100base-tx
+  - name: FastEthernet6
+    type: 100base-tx
+  - name: FastEthernet7
+    type: 100base-tx
+  - name: FastEthernet8
+    type: 100base-tx
+  - name: FastEthernet9
+    type: 100base-tx
+  - name: FastEthernet10
+    type: 100base-tx
+  - name: FastEthernet11
+    type: 100base-tx
+  - name: FastEthernet12
+    type: 100base-tx
+  - name: FastEthernet13
+    type: 100base-tx
+  - name: FastEthernet14
+    type: 100base-tx
+  - name: FastEthernet15
+    type: 100base-tx
+  - name: FastEthernet16
+    type: 100base-tx

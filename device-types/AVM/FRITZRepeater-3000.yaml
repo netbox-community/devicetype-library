@@ -1,0 +1,29 @@
+---
+manufacturer: AVM
+model: FRITZ!Repeater 3000
+slug: avm-fritzrepeater-3000
+part_number: '20002856'
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[AVM FRITZ!Repeater 3000 Technische Daten](https://avm.de/produkte/wlan-mesh/fritzrepeater-3000/technische-daten/)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 12
+interfaces:
+  - name: LAN1
+    label: LAN 1
+    type: 1000base-t
+  - name: LAN2
+    label: LAN 2
+    type: 1000base-t
+  - name: WiFi 5GHz-1
+    type: ieee802.11ac
+    description: 5ghz, 1733 Mbit/s
+  - name: WiFi 5GHz-2
+    type: ieee802.11ac
+    description: 5ghz, 866 Mbit/s (backhaul)
+  - name: WiFi 2.4GHz
+    type: ieee802.11n
+    description: 2.4ghz, 400 Mbit/s

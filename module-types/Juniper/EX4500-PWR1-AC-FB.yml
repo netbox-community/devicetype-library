@@ -3,6 +3,12 @@ manufacturer: Juniper
 model: EX4500-PWR1-AC-FB
 part_number: 740-029654
 comments: front-to-back airflow
+airflow: front-to-rear
+attribute_data:
+  input_current: AC
+  input_voltage: 230
+  hot_swappable: true
+  wattage: 1200
 power-ports:
   - name: PSU {module}
     type: iec-60320-c20

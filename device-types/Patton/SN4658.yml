@@ -1,0 +1,32 @@
+---
+manufacturer: Patton
+model: SN4658 ADSL2+
+slug: patton-sn4658
+part_number: SN4658
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: passive
+weight: 0.40
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: Power-In
+    type: dc-terminal
+    maximum_draw: 15
+    allocated_draw: 10
+interfaces:
+  - name: BRI0 port LINE
+    type: xdsl
+  - name: BRI1 port LINE
+    type: xdsl
+  - name: BRI2 port LINE
+    type: xdsl
+  - name: BRI3 port LINE
+    type: xdsl
+  - name: BRI4 port LINE
+    type: xdsl
+  - name: Eth0
+    type: 100base-tx

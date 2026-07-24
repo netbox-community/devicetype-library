@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: NC6-10X100G-M-K
+part_number: NC6-10X100G-M-K
+weight: 12.8
+weight_unit: kg
+description: Cisco NCS 6000 Series 10x100GE multi-service CPAK
+comments: |
+  - [Cisco Network Convergence System (NCS) 6000 Series Routers](https://www.cisco.com/c/en/us/support/routers/network-convergence-system-6000-series-router/series.html)
+  - [End-of-Sale and End-of-Life Announcement for the Cisco NCS 6000 1st Gen 100Gig Linecard, Fantry and Fabric Card](https://www.cisco.com/c/en/us/products/collateral/routers/network-convergence-system-6000-series-routers/eos-eol-notice-c51-743977.html)
+interfaces:
+  - name: HundredGigE0/{module}/0/0
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/1
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/2
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/3
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/4
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/5
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/6
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/7
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/8
+    type: 100gbase-x-cpak
+  - name: HundredGigE0/{module}/0/9
+    type: 100gbase-x-cpak

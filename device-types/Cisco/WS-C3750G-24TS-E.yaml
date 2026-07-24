@@ -1,0 +1,81 @@
+---
+manufacturer: Cisco
+model: Catalyst 3750G-24TS-E
+slug: cisco-ws-c3750g-24ts-e
+part_number: WS-C3750G-24TS-E
+is_full_depth: false
+u_height: 1.5
+airflow: side-to-rear
+weight: 5.7
+weight_unit: kg
+comments: '[Cisco Catalyst 3750 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/product_data_sheet0900aecd80371991.html)'
+interfaces:
+  - name: GigabitEthernet1/0/1
+    type: 1000base-t
+  - name: GigabitEthernet1/0/2
+    type: 1000base-t
+  - name: GigabitEthernet1/0/3
+    type: 1000base-t
+  - name: GigabitEthernet1/0/4
+    type: 1000base-t
+  - name: GigabitEthernet1/0/5
+    type: 1000base-t
+  - name: GigabitEthernet1/0/6
+    type: 1000base-t
+  - name: GigabitEthernet1/0/7
+    type: 1000base-t
+  - name: GigabitEthernet1/0/8
+    type: 1000base-t
+  - name: GigabitEthernet1/0/9
+    type: 1000base-t
+  - name: GigabitEthernet1/0/10
+    type: 1000base-t
+  - name: GigabitEthernet1/0/11
+    type: 1000base-t
+  - name: GigabitEthernet1/0/12
+    type: 1000base-t
+  - name: GigabitEthernet1/0/13
+    type: 1000base-t
+  - name: GigabitEthernet1/0/14
+    type: 1000base-t
+  - name: GigabitEthernet1/0/15
+    type: 1000base-t
+  - name: GigabitEthernet1/0/16
+    type: 1000base-t
+  - name: GigabitEthernet1/0/17
+    type: 1000base-t
+  - name: GigabitEthernet1/0/18
+    type: 1000base-t
+  - name: GigabitEthernet1/0/19
+    type: 1000base-t
+  - name: GigabitEthernet1/0/20
+    type: 1000base-t
+  - name: GigabitEthernet1/0/21
+    type: 1000base-t
+  - name: GigabitEthernet1/0/22
+    type: 1000base-t
+  - name: GigabitEthernet1/0/23
+    type: 1000base-t
+  - name: GigabitEthernet1/0/24
+    type: 1000base-t
+  - name: GigabitEthernet1/0/25
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/26
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/27
+    type: 1000base-x-sfp
+  - name: GigabitEthernet1/0/28
+    type: 1000base-x-sfp
+  - name: StackPort1/1
+    type: cisco-stackwise-plus
+    label: STACK 1
+  - name: StackPort1/2
+    type: cisco-stackwise-plus
+    label: STACK 2
+console-ports:
+  - name: con0
+    type: rj-45
+    label: CONSOLE
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14

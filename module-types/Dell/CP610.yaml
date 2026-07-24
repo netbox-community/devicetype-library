@@ -1,0 +1,14 @@
+---
+manufacturer: Dell
+model: CP610
+part_number: CP610
+comments: Broadcom 57412 Dual Port 10GbE SFP+, OCP NIC 3.0
+interfaces:
+  - name: '{module}-10GbE-1'
+    type: 10gbase-x-sfpp
+    label: '1'
+    mgmt_only: false
+  - name: '{module}-10GbE-2'
+    type: 10gbase-x-sfpp
+    label: '2'
+    mgmt_only: false

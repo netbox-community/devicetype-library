@@ -1,0 +1,43 @@
+---
+manufacturer: Check Point
+model: SG19100
+slug: check-point-sg19100
+part_number: CPAP-SG19100
+u_height: 2.0
+is_full_depth: true
+weight: 16.5
+weight_unit: kg
+comments: '[Check Point Quantum Force 19100 Data Sheet](https://www.checkpoint.com/downloads/products/quantum-force-19100-datasheet.pdf)'
+airflow: front-to-rear
+console-ports:
+  - name: Console1
+    type: rj-45
+  - name: Console2
+    type: usb-c
+interfaces:
+  - name: LOM
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: MGMT2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: SYNC1
+    type: 25gbase-x-sfp28
+  - name: SYNC2
+    type: 25gbase-x-sfp28
+module-bays:
+  - name: '1'
+    position: '1'
+  - name: '2'
+    position: '2'
+  - name: '3'
+    position: '3'
+  - name: '4'
+    position: '4'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

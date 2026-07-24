@@ -1,0 +1,24 @@
+---
+manufacturer: Shelly
+model: 1PM Gen3
+slug: shelly-1pm-gen3
+u_height: 0
+is_full_depth: false
+weight: 27
+weight_unit: g
+airflow: passive
+comments: '[Shelly 1PM Gen3](https://www.shelly.com/products/shelly-1pm-gen3)'
+power-ports:
+  - name: L
+    type: hardwired
+    description: 110-240Vac/16A max; 24Vdc/10A max
+power-outlets:
+  - name: O
+    type: hardwired
+    description: 110-240Vac/16A max; 24Vdc/10A max
+    power_port: L
+interfaces:
+  - name: Wireless
+    type: ieee802.11n
+  - name: Bluetooth
+    type: ieee802.15.1

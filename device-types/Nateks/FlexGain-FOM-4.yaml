@@ -1,0 +1,31 @@
+---
+manufacturer: Nateks
+model: FlexGain-FOM-4
+slug: nateks-flexgain-fom-4
+part_number: FlexGain-FOM-4
+comments: Nateks FlexGain-FOM-4  TDMoP MUX - 4*E1 + 1FE over 1/2 Fiber
+is_full_depth: false
+weight: 3
+weight_unit: kg
+airflow: passive
+u_height: 1
+console-ports:
+  - name: console
+    type: de-9
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 12
+interfaces:
+  - name: TDM
+    type: 1000base-x-sfp
+  - name: eth-0
+    type: 100base-tx
+  - name: e1-port1
+    type: e1
+  - name: e1-port2
+    type: e1
+  - name: e1-port3
+    type: e1
+  - name: e1-port4
+    type: e1

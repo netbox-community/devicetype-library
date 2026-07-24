@@ -4,22 +4,32 @@ model: UCS-X9508
 slug: cisco-ucs-x9508
 part_number: UCS-X9508
 comments: '[UCS-X9508 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2472574.html)'
+front_image: true
+rear_image: true
 u_height: 7
 is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
 weight: 43.09
 weight_unit: kg
-is_powered: false
+is_powered: true
 device-bays:
   - name: slot-1
+    label: '1'
   - name: slot-2
+    label: '2'
   - name: slot-3
+    label: '3'
   - name: slot-4
+    label: '4'
   - name: slot-5
+    label: '5'
   - name: slot-6
+    label: '6'
   - name: slot-7
+    label: '7'
   - name: slot-8
+    label: '8'
 module-bays:
   - name: Intelligent Fabric Module 1
     label: IFM1

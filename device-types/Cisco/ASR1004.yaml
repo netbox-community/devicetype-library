@@ -18,25 +18,25 @@ console-ports:
     type: rj-45
 module-bays:
   - name: PSU1
-    position: PSU1
+    position: '1'
   - name: PSU2
-    position: PSU2
+    position: '2'
   - name: SPA subslot 0/0
-    position: SPA subslot 0/0
+    position: 0/0
   - name: SPA subslot 0/1
-    position: SPA subslot 0/1
+    position: 0/1
   - name: SPA subslot 0/2
-    position: SPA subslot 0/2
+    position: 0/2
   - name: SPA subslot 0/3
-    position: SPA subslot 0/3
+    position: 0/3
   - name: SPA subslot 1/0
-    position: SPA subslot 1/0
+    position: 1/0
   - name: SPA subslot 1/1
-    position: SPA subslot 1/1
+    position: 1/1
   - name: SPA subslot 1/2
-    position: SPA subslot 1/2
+    position: 1/2
   - name: SPA subslot 1/3
-    position: SPA subslot 1/3
+    position: 1/3
 interfaces:
   - name: GigabitEthernet0
     type: 1000base-t

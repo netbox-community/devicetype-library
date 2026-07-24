@@ -1,0 +1,40 @@
+---
+manufacturer: SecurityCode
+model: IPC-10
+slug: securitycode-ipc-10
+part_number: LN-010A
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 1.2
+weight_unit: kg
+interfaces:
+  - name: igb0
+    label: '1'
+    type: 1000base-t
+  - name: igb1
+    label: '2'
+    type: 1000base-t
+  - name: igb2
+    label: '3'
+    type: 1000base-t
+  - name: usb1
+    type: lte
+  - name: usb2
+    type: lte
+console-ports:
+  - name: serial
+    type: rj-45
+  - name: iButton
+    type: rj-12
+power-ports:
+  - name: DC
+    label: DC
+    type: dc-terminal
+    maximum_draw: 36
+    allocated_draw: 36
+    description: 12V DC, 3A
+comments: '[IPC-10 Datasheet by Kolyan](https://www.securitycode.ru/upload/iblock/c57/IPC-10.pdf)'

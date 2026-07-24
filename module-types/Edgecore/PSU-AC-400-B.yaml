@@ -1,0 +1,17 @@
+---
+profile: Power supply
+manufacturer: Edgecore
+model: PSU-AC-400-B
+part_number: PSU-AC-400-B
+description: 400W AC Power Supply FRU, power-to-port airflow
+airflow: rear-to-front
+attribute_data:
+  wattage: 400
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+comments: "For switches:\r\n\r\n  - Edgecore 5600-52X\r\n  - Edgecore 5610-52X\r\n  - Edgecore 5710-54X\r\n  - Edgecore 5712-54X"
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 400

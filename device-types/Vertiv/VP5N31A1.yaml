@@ -1,0 +1,57 @@
+---
+manufacturer: Vertiv
+model: VP5N31A1
+slug: vertiv-vp5n31a1
+part_number: MNS5M1R6-12CF18-3TL6A0H10-S
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: rPDU, Switched Unit Level Monitoring EC, 30A, 208V, 4.9kW, Horizontal, (12) Combination C13/C19, 10ft / 3m power cord with L6-30P, Black Powder
+  Coat
+weight: 6.35
+weight_unit: kg
+module-bays:
+  - name: IMD
+    position: 0/IMD
+    description: Interchangeable Monitoring Device
+power-ports:
+  - name: Power
+    type: nema-l6-30p
+    maximum_draw: 4900
+power-outlets:
+  - name: '1'
+    type: eaton-c39
+    power_port: Power
+  - name: '2'
+    type: eaton-c39
+    power_port: Power
+  - name: '3'
+    type: eaton-c39
+    power_port: Power
+  - name: '4'
+    type: eaton-c39
+    power_port: Power
+  - name: '5'
+    type: eaton-c39
+    power_port: Power
+  - name: '6'
+    type: eaton-c39
+    power_port: Power
+  - name: '7'
+    type: eaton-c39
+    power_port: Power
+  - name: '8'
+    type: eaton-c39
+    power_port: Power
+  - name: '9'
+    type: eaton-c39
+    power_port: Power
+  - name: '10'
+    type: eaton-c39
+    power_port: Power
+  - name: '11'
+    type: eaton-c39
+    power_port: Power
+  - name: '12'
+    type: eaton-c39
+    power_port: Power

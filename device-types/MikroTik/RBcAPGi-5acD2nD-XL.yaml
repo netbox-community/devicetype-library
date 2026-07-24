@@ -1,0 +1,31 @@
+---
+manufacturer: MikroTik
+model: cAP XL ac
+slug: mikrotik-cap-xl-ac
+part_number: RBcAPGi-5acD2nD-XL
+is_full_depth: false
+u_height: 0
+airflow: passive
+front_image: true
+rear_image: true
+subdevice_role: parent
+weight: 700
+weight_unit: g
+interfaces:
+  - name: ether1
+    label: ETH1
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-IN
+  - name: ether2
+    label: ETH2
+    poe_mode: pse
+    poe_type: passive-24v-2pair
+    type: 1000base-t
+    description: POE-OUT
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+  - name: Wireless 5 GHz
+    type: ieee802.11ac
+comments: '[RBcAPGi-5acD2nD-XL Datasheet by Kolyan](https://mikrotik.com/product/cap_xl_ac#fndtn-specifications)'

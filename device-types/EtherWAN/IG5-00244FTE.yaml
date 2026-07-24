@@ -1,0 +1,80 @@
+---
+manufacturer: EtherWAN
+model: IG5-00244FTE
+slug: etherwan-ig5-00244fte
+part_number: IG5-00244FTE
+u_height: 1
+is_full_depth: false
+weight: 8.82
+weight_unit: lb
+airflow: passive
+comments: '[IG5 SV Series datasheet](https://www.etherwan.com/us/products/ig5-sv-series)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: ge1
+    type: 1000base-x-sfp
+  - name: ge2
+    type: 1000base-x-sfp
+  - name: ge3
+    type: 1000base-x-sfp
+  - name: ge4
+    type: 1000base-x-sfp
+  - name: ge5
+    type: 1000base-x-sfp
+  - name: ge6
+    type: 1000base-x-sfp
+  - name: ge7
+    type: 1000base-x-sfp
+  - name: ge8
+    type: 1000base-x-sfp
+  - name: ge9
+    type: 1000base-x-sfp
+  - name: ge10
+    type: 1000base-x-sfp
+  - name: ge11
+    type: 1000base-x-sfp
+  - name: ge12
+    type: 1000base-x-sfp
+  - name: ge13
+    type: 1000base-x-sfp
+  - name: ge14
+    type: 1000base-x-sfp
+  - name: ge15
+    type: 1000base-x-sfp
+  - name: ge16
+    type: 1000base-x-sfp
+  - name: ge17
+    type: 1000base-x-sfp
+  - name: ge18
+    type: 1000base-x-sfp
+  - name: ge19
+    type: 1000base-x-sfp
+  - name: ge20
+    type: 1000base-x-sfp
+  - name: ge21
+    type: 1000base-x-sfp
+  - name: ge22
+    type: 1000base-x-sfp
+  - name: ge23
+    type: 1000base-x-sfp
+  - name: ge24
+    type: 1000base-x-sfp
+  - name: xe1
+    type: 10gbase-x-sfpp
+  - name: xe2
+    type: 10gbase-x-sfpp
+  - name: xe3
+    type: 10gbase-x-sfpp
+  - name: xe4
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 50
+    description: 18-60VDC terminal block
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 50
+    description: 18-60VDC terminal block
