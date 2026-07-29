@@ -22,13 +22,13 @@ console-ports:
     type: rj-45
   - name: Console USB
     type: usb-c
-power-ports:
+module-bays:
   - name: PSU 1
-    type: iec-60320-c14
-    maximum_draw: 550
+    label: '1'
+    position: PSU-1
   - name: PSU 2
-    type: iec-60320-c14
-    maximum_draw: 550
+    label: '2'
+    position: PSU-2
 interfaces:
   - name: gigabitethernet 0/0/0
     type: 25gbase-x-sfp28
