@@ -28,12 +28,12 @@ When writing new definitions, there are some important guidelines to follow:
 `Te1/2/3`.
 - Please note that any properties with an empty or null value which are added by default when exporting from netbox, will fail the automatic validation, therefore these should be removed from any yaml files.
 
-- **Note:** to improve the data within this repo we are asking at all device yamls include the following propertys where possible:
+- **Note:** to improve the data within this repo we are asking that all device yamls include the following properties where possible:
   - `weight`
   - `weight_unit`
   - `airflow`
 
-###Additionally, be sure to adhere to the following style guidance:
+### Additionally, be sure to adhere to the following style guidance:
 
 - Use two spaces for indenting.
 - Specify a device type's attributes before listing its components.
