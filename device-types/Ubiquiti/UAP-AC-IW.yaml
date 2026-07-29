@@ -1,0 +1,36 @@
+---
+manufacturer: Ubiquiti
+model: AC In-Wall
+part_number: UAP-AC-IW
+slug: ubiquiti-uap-ac-iw
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  [Access Point AC In-Wall](https://techspecs.ui.com/unifi/wifi/uap-ac-iw)
+  Dimensions: 139.7 x 86.7 x 25.8 mm (5.5 x 3.4 x 1")
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: eth1
+    label: PoE Out + Data
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: eth2
+    label: Data
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11n
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 300 Mbps, MIMO: 2x2, Max TX Power: 20 dBm, Antenna Gain: 1 dBi
+  - name: wlan1
+    type: ieee802.11ac
+    label: 5 GHz
+    description: |
+      Max Data Rate: 867 Mbps, MIMO: 2x2, Max TX Power: 20 dBm, Antenna Gain: 2 dBi
