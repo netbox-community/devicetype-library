@@ -13,11 +13,6 @@ comments: |-
   Physical dimensions: 88 mm x 482 mm x 578 mm.
   Two 550 W power supply units; ships with two AC power cords.
   [Hardware Specifications](https://www.synology.com/en-us/products/RS2423+#specs)
-power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
 interfaces:
   - name: LAN1
     type: 1000base-t
@@ -26,5 +21,11 @@ interfaces:
   - name: LAN3
     type: 10gbase-t
 module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
   - name: PCIe Slot 1
     position: '1'
