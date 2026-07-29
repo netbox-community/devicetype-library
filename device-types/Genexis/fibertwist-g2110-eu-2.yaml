@@ -11,7 +11,7 @@ weight_unit: g
 description: 1-port GPON optical network terminal
 power-ports:
   - name: Power
-    type: other
+    type: dc-terminal
     description: 12 V DC (+/- 5%) barrel connector
 interfaces:
   - name: GPON
