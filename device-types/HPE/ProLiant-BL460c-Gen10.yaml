@@ -6,5 +6,14 @@ part_number: 863442-B21
 u_height: 0
 is_full_depth: false
 subdevice_role: child
-weight: 8
+airflow: front-to-rear
+comments: '[QuickSpecs](https://www.hpe.com/psnow/doc/a00008517enus)'
+weight: 6.33
 weight_unit: kg
+module-bays:
+  - name: FlexibleLOM
+    position: FLB
+  - name: Mezzanine 1
+    position: '1'
+  - name: Mezzanine 2
+    position: '2'
