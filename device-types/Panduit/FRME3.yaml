@@ -1,13 +1,15 @@
 ---
 manufacturer: Panduit
-model: Quicknet Rack Mount Fiber Enclosure, 2 RU
-slug: panduit-fce2
-part_number: FCE2
-u_height: 2
+model: Opticom Rack Mount Fiber Enclosure, 3 RU
+slug: panduit-frme3
+part_number: FRME3
+u_height: 3
 is_full_depth: false
 subdevice_role: parent
 is_powered: false
 airflow: passive
+weight: 13.5
+weight_unit: lb
 module-bays:
   - name: A
     position: A
@@ -25,3 +27,5 @@ module-bays:
     position: G
   - name: H
     position: H
+  - name: J
+    position: J
