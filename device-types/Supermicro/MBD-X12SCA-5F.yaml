@@ -13,9 +13,9 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     description: Dedicated BMC IPMI port
-  - name: Gig-E 1
+  - name: LAN 1
     type: 2.5gbase-t
-  - name: Gig-E 2
+  - name: LAN 2
     type: 1000base-t
 module-bays:
   - name: PCI-E 1
