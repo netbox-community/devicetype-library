@@ -1,0 +1,14 @@
+---
+manufacturer: HPE
+model: HPE Alletra Storage MP 4-port 25GbE HBA
+part_number: R7C82A
+description: OCP host bus adapter option (iSCSI/NVMe-TCP) for HPE Alletra Storage MP B10000 platform controller nodes
+interfaces:
+  - name: Ethernet{module}a
+    type: 25gbase-x-sfp28
+  - name: Ethernet{module}b
+    type: 25gbase-x-sfp28
+  - name: Ethernet{module}c
+    type: 25gbase-x-sfp28
+  - name: Ethernet{module}d
+    type: 25gbase-x-sfp28

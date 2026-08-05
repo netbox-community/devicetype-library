@@ -1,0 +1,14 @@
+---
+manufacturer: HPE
+model: HPE Alletra Storage MP 4-port 32Gb Fibre Channel HBA
+part_number: S2S64A
+description: OCP host bus adapter option for HPE Alletra Storage MP B10000 platform controller nodes
+interfaces:
+  - name: fc{module}a
+    type: 32gfc-sfp28
+  - name: fc{module}b
+    type: 32gfc-sfp28
+  - name: fc{module}c
+    type: 32gfc-sfp28
+  - name: fc{module}d
+    type: 32gfc-sfp28
