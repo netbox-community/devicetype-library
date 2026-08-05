@@ -1,0 +1,31 @@
+---
+manufacturer: Synology
+model: RS2423RP+II
+slug: synology-rs2423rp-plus-ii
+part_number: RS2423RP+II
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 11.9
+weight_unit: kg
+comments: |-
+  12-bay 2U RackStation with redundant power supplies, expandable to 24 bays with one RX1223RP expansion unit.
+  Physical dimensions: 88 mm x 482 mm x 578 mm.
+  Two 550 W power supply units; ships with two AC power cords.
+  [Hardware Specifications](https://www.synology.com/en-us/products/RS2423+#specs)
+interfaces:
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 10gbase-t
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: PCIe Slot 1
+    position: '1'

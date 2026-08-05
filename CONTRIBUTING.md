@@ -33,7 +33,7 @@ When writing new definitions, there are some important guidelines to follow:
   - `weight_unit`
   - `airflow`
 
-### Additionally, be sure to adhere to the following style guidance:
+### Additionally, be sure to adhere to the following style guidance
 
 - Use two spaces for indenting.
 - Specify a device type's attributes before listing its components.
