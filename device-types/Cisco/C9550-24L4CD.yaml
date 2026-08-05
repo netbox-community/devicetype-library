@@ -1,0 +1,91 @@
+---
+manufacturer: Cisco
+model: Catalyst C9550-24L4CD
+slug: cisco-c9550-24l4cd
+part_number: C9550-24L4CD
+u_height: 1
+is_full_depth: true
+weight: 8.6
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Cisco C9550 Series Smart Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/networking/switches/c9550-series-smart-switches-ds.html)'
+interfaces:
+  - name: FiftyGigE1/0/1
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/2
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/3
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/4
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/5
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/6
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/7
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/8
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/9
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/10
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/11
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/12
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/13
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/14
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/15
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/16
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/17
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/18
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/19
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/20
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/21
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/22
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/23
+    type: 50gbase-x-sfp56
+  - name: FiftyGigE1/0/24
+    type: 50gbase-x-sfp56
+  - name: FourHundredGigE1/0/25
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE1/0/26
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE1/0/27
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE1/0/28
+    type: 400gbase-x-qsfpdd
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-c
+module-bays:
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN-1
+    position: '1'
+  - name: FAN-2
+    position: '2'
+  - name: FAN-3
+    position: '3'
+  - name: FAN-4
+    position: '4'
+  - name: FAN-5
+    position: '5'
