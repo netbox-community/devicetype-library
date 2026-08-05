@@ -1,0 +1,9 @@
+---
+manufacturer: H3C
+model: 2000W Platinum Hot Swap Power Supply
+description: 1+1 redundant hot-swap Platinum-rated power supply option for H3C UniServer R4900 G7
+comments: 'Connector type inferred from typical industry standard for this wattage class — not explicitly confirmed by an H3C source. [H3C UniServer R4900 G7 Datasheet](https://www.h3c.com/en/Products_and_Solutions/Computing/UniServer_Series/Products_With_Picture/2U/R4900_G7/R4900_G7/)'
+power-ports:
+- name: '{module}'
+  type: iec-60320-c20
+  maximum_draw: 2000
