@@ -1,34 +1,16 @@
 ---
 manufacturer: Eaton
-model: EMA107-10
-slug: eaton-ema107-10
-part_number: '743172069184'
+model: EBAB05
+slug: eaton-ebab05
+part_number: EBAB05
 u_height: 0
 is_full_depth: false
-airflow: passive
-weight: 17.3
-weight_unit: lb
-comments: Rack PDU, Metered, ZeroU, 5.76kW, 208V, (20) C13 & (4) C19
-console-ports:
-  - name: Serial
-    type: rj-45
-  - name: USB management
-    type: usb-a
-interfaces:
-  - name: Network
-    type: 1000base-t
-    mgmt_only: true
-    bridge: Bridge 0
-  - name: Daisy Chain
-    type: 1000base-t
-    mgmt_only: true
-    bridge: Bridge 0
-  - name: Bridge 0
-    type: bridge
-    mgmt_only: true
+weight: 2.4
+weight_unit: kg
+comments: Eaton basic power distribution unit PDU, ZeroU, 7.4 kW, 200-240V, (20) C13 & (4) C19
 power-ports:
   - name: Power Port 1
-    type: nema-l6-30p
+    type: iec-60309-p-n-e-6h
 power-outlets:
   - name: A1
     type: iec-60320-c13
@@ -59,7 +41,7 @@ power-outlets:
     power_port: Power Port 1
     feed_leg: A
   - name: A8
-    type: iec-60320-c19
+    type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: A
   - name: A9
@@ -107,7 +89,7 @@ power-outlets:
     power_port: Power Port 1
     feed_leg: B
   - name: B8
-    type: iec-60320-c19
+    type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: B
   - name: B9
