@@ -632,6 +632,10 @@
 "device-types/Alpha/CXCM1-HP.yaml"
 ],
 [
+"aoostar-maco-6850h",
+"device-types/AOOSTAR/MACO-6850H.yaml"
+],
+[
 "apc-acf202blk",
 "device-types/APC/ACF202BLK.yaml"
 ],
@@ -2474,6 +2478,10 @@
 [
 "arris-sb8200",
 "device-types/ARRIS/SB8200.yaml"
+],
+[
+"asrockrack-4u8g-turin2",
+"device-types/ASRockRack/4U8G-TURIN2.yml"
 ],
 [
 "asus-pro-ws-x570-ace",
@@ -4834,6 +4842,18 @@
 [
 "cisco-c9500x-60l4d",
 "device-types/Cisco/Catalyst-9500X-60L4D.yaml"
+],
+[
+"cisco-c9550-24l4cd",
+"device-types/Cisco/C9550-24L4CD.yaml"
+],
+[
+"cisco-c9550-48l4cd",
+"device-types/Cisco/C9550-48L4CD.yaml"
+],
+[
+"cisco-c9550-96l4d",
+"device-types/Cisco/C9550-96L4D.yaml"
 ],
 [
 "cisco-c9606r",
@@ -7648,6 +7668,10 @@
 "device-types/Citrix/SDX-14000.yaml"
 ],
 [
+"cmykzone-24-port-keystone-patch-panel",
+"device-types/CMYKZONE/24-port-keystone-patch-panel.yml"
+],
+[
 "cohesity-c5000-chassis",
 "device-types/Cohesity/C5000-CHASSIS.yaml"
 ],
@@ -7904,6 +7928,10 @@
 "device-types/CyberPower/PDU20BHVIEC12R.yaml"
 ],
 [
+"cyberpower-pdu20mt8fnet",
+"device-types/CyberPower/PDU20MT8FNET.yaml"
+],
+[
 "cyberpower-pdu24004",
 "device-types/CyberPower/PDU24004.yaml"
 ],
@@ -7942,6 +7970,10 @@
 [
 "d-link-des-1008d",
 "device-types/D-Link/DES-1008D.yaml"
+],
+[
+"d-link-des-1016d",
+"device-types/D-Link/DES-1016D.yaml"
 ],
 [
 "d-link-des-1210-08p",
@@ -8806,6 +8838,10 @@
 [
 "dell-poweredge-r6625",
 "device-types/Dell/PowerEdge-R6625.yaml"
+],
+[
+"dell-poweredge-r670",
+"device-types/Dell/PowerEdge-R670.yaml"
 ],
 [
 "dell-poweredge-r6715",
@@ -11932,6 +11968,10 @@
 "device-types/Generic/wall-box-6-utp-plugs.yaml"
 ],
 [
+"genexis-fibertwist-g2110-eu-2",
+"device-types/Genexis/fibertwist-g2110-eu-2.yaml"
+],
+[
 "ghipsystems-gs5104-1271-0",
 "device-types/ghipsystems/GS5104-1271-0.yaml"
 ],
@@ -12890,6 +12930,10 @@
 [
 "hpe-aruba-9012",
 "device-types/HPE/Aruba-9012.yaml"
+],
+[
+"hpe-aruba-9240",
+"device-types/HPE/Aruba-9240.yaml"
 ],
 [
 "hpe-aruba-ap-205",
@@ -14764,8 +14808,20 @@
 "device-types/Infoblox/TE-1425.yaml"
 ],
 [
+"infoblox-te-1506",
+"device-types/Infoblox/TE-1506.yaml"
+],
+[
+"infoblox-te-1606",
+"device-types/Infoblox/TE-1606.yaml"
+],
+[
 "infoblox-te-2220",
 "device-types/Infoblox/TE-2220.yaml"
+],
+[
+"infoblox-te-2306",
+"device-types/Infoblox/TE-2306.yaml"
 ],
 [
 "infoblox-te-805",
@@ -16652,6 +16708,10 @@
 "device-types/Lenovo/ThinkServer-RD230.yaml"
 ],
 [
+"lenovo-thinksystem-dg5200",
+"device-types/Lenovo/ThinkSystem-DG5200.yaml"
+],
+[
 "lenovo-thinksystem-sr250-v2",
 "device-types/Lenovo/ThinkSystem-SR250-v2.yaml"
 ],
@@ -17640,6 +17700,10 @@
 "device-types/Netgear/GS324TP.yaml"
 ],
 [
+"netgear-gs418tpp",
+"device-types/Netgear/GS418TPP.yaml"
+],
+[
 "netgear-gs510tlp",
 "device-types/Netgear/GS510TLP.yml"
 ],
@@ -17654,6 +17718,14 @@
 [
 "netgear-gs728tp",
 "device-types/Netgear/GS728TP.yml"
+],
+[
+"netgear-gs728tppv3",
+"device-types/Netgear/GS728TPPv3.yaml"
+],
+[
+"netgear-gs752tpv3",
+"device-types/Netgear/GS752TPv3.yaml"
 ],
 [
 "netgear-jgs524",
@@ -18000,6 +18072,14 @@
 "device-types/Opengear/ACM5003-M-F-E.yaml"
 ],
 [
+"opengear-acm7004-2-l",
+"device-types/Opengear/ACM7004-2-L.yaml"
+],
+[
+"opengear-acm7004-2-lmp",
+"device-types/Opengear/ACM7004-2-LMP.yaml"
+],
+[
 "opengear-acm7008-2-l",
 "device-types/Opengear/ACM7008-2-L.yaml"
 ],
@@ -18232,320 +18312,320 @@
 "device-types/Overland-Tandberg/neos-t48.yml"
 ],
 [
-"palo-alto-ion-1200",
-"device-types/Palo Alto/ION-1200.yaml"
+"palo-alto-networks-ion-1200",
+"device-types/Palo Alto Networks/ION-1200.yaml"
 ],
 [
-"palo-alto-ion-1200-c-na",
-"device-types/Palo Alto/ION-1200-C-NA.yaml"
+"palo-alto-networks-ion-1200-c-na",
+"device-types/Palo Alto Networks/ION-1200-C-NA.yaml"
 ],
 [
-"palo-alto-ion-1200-c-row",
-"device-types/Palo Alto/ION-1200-C-ROW.yaml"
+"palo-alto-networks-ion-1200-c-row",
+"device-types/Palo Alto Networks/ION-1200-C-ROW.yaml"
 ],
 [
-"palo-alto-ion-1200-c5g-ww",
-"device-types/Palo Alto/ION-1200-C5G-WW.yaml"
+"palo-alto-networks-ion-1200-c5g-ww",
+"device-types/Palo Alto Networks/ION-1200-C5G-WW.yaml"
 ],
 [
-"palo-alto-ion-1200-s",
-"device-types/Palo Alto/ION-1200-S.yaml"
+"palo-alto-networks-ion-1200-s",
+"device-types/Palo Alto Networks/ION-1200-S.yaml"
 ],
 [
-"palo-alto-ion-1200-s-c-na",
-"device-types/Palo Alto/ION-1200-S-C-NA.yaml"
+"palo-alto-networks-ion-1200-s-c-na",
+"device-types/Palo Alto Networks/ION-1200-S-C-NA.yaml"
 ],
 [
-"palo-alto-ion-1200-s-c-row",
-"device-types/Palo Alto/ION-1200-S-C-ROW.yaml"
+"palo-alto-networks-ion-1200-s-c-row",
+"device-types/Palo Alto Networks/ION-1200-S-C-ROW.yaml"
 ],
 [
-"palo-alto-ion-1200-s-c5g-ww",
-"device-types/Palo Alto/ION-1200-S-C5G-WW.yaml"
+"palo-alto-networks-ion-1200-s-c5g-ww",
+"device-types/Palo Alto Networks/ION-1200-S-C5G-WW.yaml"
 ],
 [
-"palo-alto-ion-3200",
-"device-types/Palo Alto/ION-3200.yaml"
+"palo-alto-networks-ion-3200",
+"device-types/Palo Alto Networks/ION-3200.yaml"
 ],
 [
-"palo-alto-ion-9000",
-"device-types/Palo Alto/ION-9000.yaml"
+"palo-alto-networks-ion-9000",
+"device-types/Palo Alto Networks/ION-9000.yaml"
 ],
 [
-"palo-alto-ion-9200",
-"device-types/Palo Alto/ION-9200.yaml"
+"palo-alto-networks-ion-9200",
+"device-types/Palo Alto Networks/ION-9200.yaml"
 ],
 [
-"palo-alto-m-100",
-"device-types/Palo Alto/M-100.yaml"
+"palo-alto-networks-m-100",
+"device-types/Palo Alto Networks/M-100.yaml"
 ],
 [
-"palo-alto-m-500",
-"device-types/Palo Alto/M-500.yaml"
+"palo-alto-networks-m-500",
+"device-types/Palo Alto Networks/M-500.yaml"
 ],
 [
-"palo-alto-m-700",
-"device-types/Palo Alto/M-700.yaml"
+"palo-alto-networks-m-700",
+"device-types/Palo Alto Networks/M-700.yaml"
 ],
 [
-"palo-alto-pa-1410",
-"device-types/Palo Alto/PA-1410.yaml"
+"palo-alto-networks-pa-1410",
+"device-types/Palo Alto Networks/PA-1410.yaml"
 ],
 [
-"palo-alto-pa-1420",
-"device-types/Palo Alto/PA-1420.yaml"
+"palo-alto-networks-pa-1420",
+"device-types/Palo Alto Networks/PA-1420.yaml"
 ],
 [
-"palo-alto-pa-200",
-"device-types/Palo Alto/PA-200.yaml"
+"palo-alto-networks-pa-200",
+"device-types/Palo Alto Networks/PA-200.yaml"
 ],
 [
-"palo-alto-pa-220",
-"device-types/Palo Alto/PA-220.yaml"
+"palo-alto-networks-pa-220",
+"device-types/Palo Alto Networks/PA-220.yaml"
 ],
 [
-"palo-alto-pa-220-rack-kit",
-"device-types/Palo Alto/PA-220-Rack-Kit.yaml"
+"palo-alto-networks-pa-220-rack-kit",
+"device-types/Palo Alto Networks/PA-220-Rack-Kit.yaml"
 ],
 [
-"palo-alto-pa-220-rack-tray-kit",
-"device-types/Palo Alto/PA-220-Rack-Tray-Kit.yaml"
+"palo-alto-networks-pa-220-rack-tray-kit",
+"device-types/Palo Alto Networks/PA-220-Rack-Tray-Kit.yaml"
 ],
 [
-"palo-alto-pa-3020",
-"device-types/Palo Alto/PA-3020.yaml"
+"palo-alto-networks-pa-3020",
+"device-types/Palo Alto Networks/PA-3020.yaml"
 ],
 [
-"palo-alto-pa-3050",
-"device-types/Palo Alto/PA-3050.yaml"
+"palo-alto-networks-pa-3050",
+"device-types/Palo Alto Networks/PA-3050.yaml"
 ],
 [
-"palo-alto-pa-3060",
-"device-types/Palo Alto/PA-3060.yaml"
+"palo-alto-networks-pa-3060",
+"device-types/Palo Alto Networks/PA-3060.yaml"
 ],
 [
-"palo-alto-pa-3220",
-"device-types/Palo Alto/PA-3220.yaml"
+"palo-alto-networks-pa-3220",
+"device-types/Palo Alto Networks/PA-3220.yaml"
 ],
 [
-"palo-alto-pa-3250",
-"device-types/Palo Alto/PA-3250.yaml"
+"palo-alto-networks-pa-3250",
+"device-types/Palo Alto Networks/PA-3250.yaml"
 ],
 [
-"palo-alto-pa-3260",
-"device-types/Palo Alto/PA-3260.yaml"
+"palo-alto-networks-pa-3260",
+"device-types/Palo Alto Networks/PA-3260.yaml"
 ],
 [
-"palo-alto-pa-3410",
-"device-types/Palo Alto/PA-3410.yaml"
+"palo-alto-networks-pa-3410",
+"device-types/Palo Alto Networks/PA-3410.yaml"
 ],
 [
-"palo-alto-pa-3420",
-"device-types/Palo Alto/PA-3420.yaml"
+"palo-alto-networks-pa-3420",
+"device-types/Palo Alto Networks/PA-3420.yaml"
 ],
 [
-"palo-alto-pa-3430",
-"device-types/Palo Alto/PA-3430.yaml"
+"palo-alto-networks-pa-3430",
+"device-types/Palo Alto Networks/PA-3430.yaml"
 ],
 [
-"palo-alto-pa-3440",
-"device-types/Palo Alto/PA-3440.yaml"
+"palo-alto-networks-pa-3440",
+"device-types/Palo Alto Networks/PA-3440.yaml"
 ],
 [
-"palo-alto-pa-410",
-"device-types/Palo Alto/PA-410.yaml"
+"palo-alto-networks-pa-410",
+"device-types/Palo Alto Networks/PA-410.yaml"
 ],
 [
-"palo-alto-pa-410r",
-"device-types/Palo Alto/PA-410R.yaml"
+"palo-alto-networks-pa-410r",
+"device-types/Palo Alto Networks/PA-410R.yaml"
 ],
 [
-"palo-alto-pa-410r-5g",
-"device-types/Palo Alto/PA-410R-5G.yaml"
+"palo-alto-networks-pa-410r-5g",
+"device-types/Palo Alto Networks/PA-410R-5G.yaml"
 ],
 [
-"palo-alto-pa-415",
-"device-types/Palo Alto/PA-415.yaml"
+"palo-alto-networks-pa-415",
+"device-types/Palo Alto Networks/PA-415.yaml"
 ],
 [
-"palo-alto-pa-415-5g",
-"device-types/Palo Alto/PA-415-5G.yaml"
+"palo-alto-networks-pa-415-5g",
+"device-types/Palo Alto Networks/PA-415-5G.yaml"
 ],
 [
-"palo-alto-pa-440",
-"device-types/Palo Alto/PA-440.yaml"
+"palo-alto-networks-pa-440",
+"device-types/Palo Alto Networks/PA-440.yaml"
 ],
 [
-"palo-alto-pa-445",
-"device-types/Palo Alto/PA-445.yaml"
+"palo-alto-networks-pa-445",
+"device-types/Palo Alto Networks/PA-445.yaml"
 ],
 [
-"palo-alto-pa-450",
-"device-types/Palo Alto/PA-450.yaml"
+"palo-alto-networks-pa-450",
+"device-types/Palo Alto Networks/PA-450.yaml"
 ],
 [
-"palo-alto-pa-450r",
-"device-types/Palo Alto/PA-450R.yaml"
+"palo-alto-networks-pa-450r",
+"device-types/Palo Alto Networks/PA-450R.yaml"
 ],
 [
-"palo-alto-pa-450r-5g",
-"device-types/Palo Alto/PA-450R-5G.yaml"
+"palo-alto-networks-pa-450r-5g",
+"device-types/Palo Alto Networks/PA-450R-5G.yaml"
 ],
 [
-"palo-alto-pa-455",
-"device-types/Palo Alto/PA-455.yaml"
+"palo-alto-networks-pa-455",
+"device-types/Palo Alto Networks/PA-455.yaml"
 ],
 [
-"palo-alto-pa-455-5g",
-"device-types/Palo Alto/PA-455-5G.yaml"
+"palo-alto-networks-pa-455-5g",
+"device-types/Palo Alto Networks/PA-455-5G.yaml"
 ],
 [
-"palo-alto-pa-455r-5g",
-"device-types/Palo Alto/PA-455R-5G.yaml"
+"palo-alto-networks-pa-455r-5g",
+"device-types/Palo Alto Networks/PA-455R-5G.yaml"
 ],
 [
-"palo-alto-pa-460",
-"device-types/Palo Alto/PA-460.yaml"
+"palo-alto-networks-pa-460",
+"device-types/Palo Alto Networks/PA-460.yaml"
 ],
 [
-"palo-alto-pa-500",
-"device-types/Palo Alto/PA-500.yaml"
+"palo-alto-networks-pa-500",
+"device-types/Palo Alto Networks/PA-500.yaml"
 ],
 [
-"palo-alto-pa-501",
-"device-types/Palo Alto/PA-501.yaml"
+"palo-alto-networks-pa-501",
+"device-types/Palo Alto Networks/PA-501.yaml"
 ],
 [
-"palo-alto-pa-505",
-"device-types/Palo Alto/PA-505.yaml"
+"palo-alto-networks-pa-505",
+"device-types/Palo Alto Networks/PA-505.yaml"
 ],
 [
-"palo-alto-pa-5050",
-"device-types/Palo Alto/PA-5050.yaml"
+"palo-alto-networks-pa-5050",
+"device-types/Palo Alto Networks/PA-5050.yaml"
 ],
 [
-"palo-alto-pa-5060",
-"device-types/Palo Alto/PA-5060.yaml"
+"palo-alto-networks-pa-5060",
+"device-types/Palo Alto Networks/PA-5060.yaml"
 ],
 [
-"palo-alto-pa-510",
-"device-types/Palo Alto/PA-510.yaml"
+"palo-alto-networks-pa-510",
+"device-types/Palo Alto Networks/PA-510.yaml"
 ],
 [
-"palo-alto-pa-520",
-"device-types/Palo Alto/PA-520.yaml"
+"palo-alto-networks-pa-520",
+"device-types/Palo Alto Networks/PA-520.yaml"
 ],
 [
-"palo-alto-pa-5220",
-"device-types/Palo Alto/PA-5220.yaml"
+"palo-alto-networks-pa-5220",
+"device-types/Palo Alto Networks/PA-5220.yaml"
 ],
 [
-"palo-alto-pa-5250",
-"device-types/Palo Alto/PA-5250.yaml"
+"palo-alto-networks-pa-5250",
+"device-types/Palo Alto Networks/PA-5250.yaml"
 ],
 [
-"palo-alto-pa-5260",
-"device-types/Palo Alto/PA-5260.yaml"
+"palo-alto-networks-pa-5260",
+"device-types/Palo Alto Networks/PA-5260.yaml"
 ],
 [
-"palo-alto-pa-5280",
-"device-types/Palo Alto/PA-5280.yaml"
+"palo-alto-networks-pa-5280",
+"device-types/Palo Alto Networks/PA-5280.yaml"
 ],
 [
-"palo-alto-pa-540",
-"device-types/Palo Alto/PA-540.yaml"
+"palo-alto-networks-pa-540",
+"device-types/Palo Alto Networks/PA-540.yaml"
 ],
 [
-"palo-alto-pa-5410",
-"device-types/Palo Alto/PA-5410.yaml"
+"palo-alto-networks-pa-5410",
+"device-types/Palo Alto Networks/PA-5410.yaml"
 ],
 [
-"palo-alto-pa-5420",
-"device-types/Palo Alto/PA-5420.yaml"
+"palo-alto-networks-pa-5420",
+"device-types/Palo Alto Networks/PA-5420.yaml"
 ],
 [
-"palo-alto-pa-5430",
-"device-types/Palo Alto/PA-5430.yaml"
+"palo-alto-networks-pa-5430",
+"device-types/Palo Alto Networks/PA-5430.yaml"
 ],
 [
-"palo-alto-pa-5440",
-"device-types/Palo Alto/PA-5440.yaml"
+"palo-alto-networks-pa-5440",
+"device-types/Palo Alto Networks/PA-5440.yaml"
 ],
 [
-"palo-alto-pa-545-poe",
-"device-types/Palo Alto/PA-545-POE.yaml"
+"palo-alto-networks-pa-545-poe",
+"device-types/Palo Alto Networks/PA-545-POE.yaml"
 ],
 [
-"palo-alto-pa-550",
-"device-types/Palo Alto/PA-550.yaml"
+"palo-alto-networks-pa-550",
+"device-types/Palo Alto Networks/PA-550.yaml"
 ],
 [
-"palo-alto-pa-555-poe",
-"device-types/Palo Alto/PA-555-POE.yaml"
+"palo-alto-networks-pa-555-poe",
+"device-types/Palo Alto Networks/PA-555-POE.yaml"
 ],
 [
-"palo-alto-pa-560",
-"device-types/Palo Alto/PA-560.yaml"
+"palo-alto-networks-pa-560",
+"device-types/Palo Alto Networks/PA-560.yaml"
 ],
 [
-"palo-alto-pa-7080",
-"device-types/Palo Alto/PA-7080.yaml"
+"palo-alto-networks-pa-7080",
+"device-types/Palo Alto Networks/PA-7080.yaml"
 ],
 [
-"palo-alto-pa-820",
-"device-types/Palo Alto/PA-820.yaml"
+"palo-alto-networks-pa-820",
+"device-types/Palo Alto Networks/PA-820.yaml"
 ],
 [
-"palo-alto-pa-850",
-"device-types/Palo Alto/PA-850.yaml"
+"palo-alto-networks-pa-850",
+"device-types/Palo Alto Networks/PA-850.yaml"
 ],
 [
-"palo-alto-pan-1ru-4post-rack-10",
-"device-types/Palo Alto/PAN-1RU-4POST-RACK-10.yaml"
+"palo-alto-networks-pan-1ru-4post-rack-10",
+"device-types/Palo Alto Networks/PAN-1RU-4POST-RACK-10.yaml"
 ],
 [
-"palo-alto-pan-1ru-4post-rack-11",
-"device-types/Palo Alto/PAN-1RU-4POST-RACK-11.yaml"
+"palo-alto-networks-pan-1ru-4post-rack-11",
+"device-types/Palo Alto Networks/PAN-1RU-4POST-RACK-11.yaml"
 ],
 [
-"palo-alto-pan-1ru-4post-rack-12",
-"device-types/Palo Alto/PAN-1RU-4POST-RACK-12.yaml"
+"palo-alto-networks-pan-1ru-4post-rack-12",
+"device-types/Palo Alto Networks/PAN-1RU-4POST-RACK-12.yaml"
 ],
 [
-"palo-alto-pan-1ru-rgd-rack-kit-4post",
-"device-types/Palo Alto/PAN-1RU-RGD-RACK-KIT-4POST.yaml"
+"palo-alto-networks-pan-1ru-rgd-rack-kit-4post",
+"device-types/Palo Alto Networks/PAN-1RU-RGD-RACK-KIT-4POST.yaml"
 ],
 [
-"palo-alto-pan-1ru-small-rack4",
-"device-types/Palo Alto/PAN-1RU-SMALL-RACK4.yaml"
+"palo-alto-networks-pan-1ru-small-rack4",
+"device-types/Palo Alto Networks/PAN-1RU-SMALL-RACK4.yaml"
 ],
 [
-"palo-alto-pan-ion-1200-c5g-racktray",
-"device-types/Palo Alto/PAN-ION-1200-C5G-RACKTRAY.yaml"
+"palo-alto-networks-pan-ion-1200-c5g-racktray",
+"device-types/Palo Alto Networks/PAN-ION-1200-C5G-RACKTRAY.yaml"
 ],
 [
-"palo-alto-pan-ion-1200-racktray",
-"device-types/Palo Alto/PAN-ION-1200-RACKTRAY.yaml"
+"palo-alto-networks-pan-ion-1200-racktray",
+"device-types/Palo Alto Networks/PAN-ION-1200-RACKTRAY.yaml"
 ],
 [
-"palo-alto-pan-ion-racktray-1200-s-c",
-"device-types/Palo Alto/PAN-ION-RACKTRAY-1200-S-C.yaml"
+"palo-alto-networks-pan-ion-racktray-1200-s-c",
+"device-types/Palo Alto Networks/PAN-ION-RACKTRAY-1200-S-C.yaml"
 ],
 [
-"palo-alto-pan-ion-racktray-1200-s-c5g",
-"device-types/Palo Alto/PAN-ION-RACKTRAY-1200-S-C5G.yaml"
+"palo-alto-networks-pan-ion-racktray-1200-s-c5g",
+"device-types/Palo Alto Networks/PAN-ION-RACKTRAY-1200-S-C5G.yaml"
 ],
 [
-"palo-alto-pan-ion-racktray-3200",
-"device-types/Palo Alto/PAN-ION-RACKTRAY-3200.yaml"
+"palo-alto-networks-pan-ion-racktray-3200",
+"device-types/Palo Alto Networks/PAN-ION-RACKTRAY-3200.yaml"
 ],
 [
-"palo-alto-pan-pa-400-poe-racktray",
-"device-types/Palo Alto/PAN-PA-400-POE-RACKTRAY.yaml"
+"palo-alto-networks-pan-pa-400-poe-racktray",
+"device-types/Palo Alto Networks/PAN-PA-400-POE-RACKTRAY.yaml"
 ],
 [
-"palo-alto-pan-pa-400-racktray",
-"device-types/Palo Alto/PAN-PA-400-RACKTRAY.yaml"
+"palo-alto-networks-pan-pa-400-racktray",
+"device-types/Palo Alto Networks/PAN-PA-400-RACKTRAY.yaml"
 ],
 [
 "panduit-cdpp8rg",
@@ -18660,24 +18740,96 @@
 "device-types/Panduit/FCE2U.yaml"
 ],
 [
+"panduit-fce4u",
+"device-types/Panduit/FCE4U.yaml"
+],
+[
 "panduit-fmd1",
 "device-types/Panduit/FMD1.yaml"
+],
+[
+"panduit-fmd1wh",
+"device-types/Panduit/FMD1WH.yaml"
 ],
 [
 "panduit-fmd2",
 "device-types/Panduit/FMD2.yaml"
 ],
 [
+"panduit-fmt1",
+"device-types/Panduit/FMT1.yaml"
+],
+[
+"panduit-fmt1a",
+"device-types/Panduit/FMT1A.yaml"
+],
+[
+"panduit-fmt1j",
+"device-types/Panduit/FMT1J.yaml"
+],
+[
+"panduit-fmt2",
+"device-types/Panduit/FMT2.yaml"
+],
+[
+"panduit-fmt2a",
+"device-types/Panduit/FMT2A.yaml"
+],
+[
+"panduit-fmt2j",
+"device-types/Panduit/FMT2J.yaml"
+],
+[
+"panduit-fre1ubl",
+"device-types/Panduit/FRE1UBL.yaml"
+],
+[
+"panduit-fre1uwh",
+"device-types/Panduit/FRE1UWH.yaml"
+],
+[
+"panduit-fre2ubl",
+"device-types/Panduit/FRE2UBL.yaml"
+],
+[
+"panduit-fre2uwh",
+"device-types/Panduit/FRE2UWH.yaml"
+],
+[
+"panduit-fre4ubl",
+"device-types/Panduit/FRE4UBL.yaml"
+],
+[
+"panduit-fre4uwh",
+"device-types/Panduit/FRE4UWH.yaml"
+],
+[
 "panduit-frme1",
 "device-types/Panduit/FRME1.yaml"
+],
+[
+"panduit-frme1u",
+"device-types/Panduit/FRME1U.yaml"
 ],
 [
 "panduit-frme2",
 "device-types/Panduit/FRME2.yaml"
 ],
 [
+"panduit-frme2u",
+"device-types/Panduit/FRME2U.yaml"
+],
+[
+"panduit-frme3",
+"device-types/Panduit/FRME3.yaml"
+],
+[
 "panduit-frme4",
 "device-types/Panduit/FRME4.yaml"
+],
+[
+"panduit-fwme1bl",
+"device-types/Panduit/FWME1BL.yaml"
 ],
 [
 "panduit-fwme2",
@@ -18730,6 +18882,10 @@
 [
 "pc-engines-apu6",
 "device-types/PC Engines/APU6.yaml"
+],
+[
+"penn-elcom-5008-pec",
+"device-types/Penn Elcom/5008-PEC.yml"
 ],
 [
 "peplink-balance-1350",
@@ -20188,6 +20344,10 @@
 "device-types/RuggedCOM/RST2228P.yaml"
 ],
 [
+"ruijie-rg-es205gc",
+"device-types/Ruijie/RG-ES205GC.yaml"
+],
+[
 "ruijie-rg-nbs3100-24gt4sfp-p",
 "device-types/Ruijie/RG-NBS3100-24GT4SFP-P.yaml"
 ],
@@ -20800,6 +20960,10 @@
 "device-types/Sophos/SD-RED-60.yaml"
 ],
 [
+"sophos-xg-135w",
+"device-types/Sophos/XG-135w.yaml"
+],
+[
 "sophos-xg-650",
 "device-types/Sophos/XG-650.yaml"
 ],
@@ -20990,6 +21154,10 @@
 [
 "supermicro-mbd-x11ssw-f",
 "device-types/Supermicro/MBD-X11SSW-F.yaml"
+],
+[
+"supermicro-mbd-x12sca-5f",
+"device-types/Supermicro/MBD-X12SCA-5F.yaml"
 ],
 [
 "supermicro-mbd-x12std-f",
@@ -21352,6 +21520,10 @@
 "device-types/Synology/DS212.yaml"
 ],
 [
+"synology-ds213",
+"device-types/Synology/DS213.yaml"
+],
+[
 "synology-ds214play",
 "device-types/Synology/DS214play.yaml"
 ],
@@ -21404,6 +21576,10 @@
 "device-types/Synology/DS920+.yaml"
 ],
 [
+"synology-ds925-plus",
+"device-types/Synology/DS925+.yaml"
+],
+[
 "synology-fs6400",
 "device-types/Synology/FS6400.yaml"
 ],
@@ -21446,6 +21622,14 @@
 [
 "synology-rs2421rp-plus",
 "device-types/Synology/RS2421RP+.yaml"
+],
+[
+"synology-rs2423-plus",
+"device-types/Synology/RS2423+.yaml"
+],
+[
+"synology-rs2423rp-plus-ii",
+"device-types/Synology/RS2423RP+II.yaml"
 ],
 [
 "synology-rs3614xs-plus",
@@ -22352,6 +22536,10 @@
 "device-types/Ubiquiti/UAP-AC-HD.yaml"
 ],
 [
+"ubiquiti-uap-ac-iw",
+"device-types/Ubiquiti/UAP-AC-IW.yaml"
+],
+[
 "ubiquiti-uap-ac-lite",
 "device-types/Ubiquiti/UAP-AC-Lite.yaml"
 ],
@@ -22390,6 +22578,10 @@
 [
 "ubiquiti-uap-pro",
 "device-types/Ubiquiti/UAP-Pro.yaml"
+],
+[
+"ubiquiti-ubb",
+"device-types/Ubiquiti/UBB.yaml"
 ],
 [
 "ubiquiti-uc-ck",
@@ -22442,6 +22634,10 @@
 [
 "ubiquiti-unifi-dream-machine-pro-special-edition",
 "device-types/Ubiquiti/UniFi-Dream-Machine-Pro-Special-Edition.yaml"
+],
+[
+"ubiquiti-unifi-express-7",
+"device-types/Ubiquiti/UX7.yaml"
 ],
 [
 "ubiquiti-unifi-express-ux",
@@ -22642,6 +22838,10 @@
 [
 "ubiquiti-unifi-switch-pro-xg-8-poe",
 "device-types/Ubiquiti/USW-Pro-XG-8-PoE.yaml"
+],
+[
+"ubiquiti-unifi-switch-pro-xg-aggregation",
+"device-types/Ubiquiti/USW-Pro-XG-Aggregation.yaml"
 ],
 [
 "ubiquiti-unifi-switch-ultra",
@@ -22966,6 +23166,10 @@
 [
 "watchguard-firebox-m370",
 "device-types/WatchGuard/Firebox-M370.yaml"
+],
+[
+"watchguard-firebox-m570",
+"device-types/WatchGuard/Firebox-M570.yaml"
 ],
 [
 "watchguard-firebox-t25",
@@ -23452,6 +23656,10 @@
 "device-types/Yealink/W60B.yaml"
 ],
 [
+"yeastar-p550",
+"device-types/Yeastar/P550.yaml"
+],
+[
 "yeastar-te200",
 "device-types/Yeastar/TE200.yaml"
 ],
@@ -23614,6 +23822,10 @@
 [
 "zyxel-usg-flex-200",
 "device-types/Zyxel/USG-FLEX-200.yaml"
+],
+[
+"zyxel-usg-flex-200h",
+"device-types/Zyxel/USG-FLEX-200H.yaml"
 ],
 [
 "zyxel-usg-flex-700",

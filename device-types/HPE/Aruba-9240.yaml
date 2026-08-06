@@ -1,0 +1,44 @@
+---
+manufacturer: HPE
+model: Aruba 9240
+slug: hpe-aruba-9240
+part_number: R7H97A
+is_full_depth: false
+u_height: 1
+weight: 18.08
+weight_unit: lb
+airflow: rear-to-front
+comments: |-
+  HPE Aruba Networking 9240 Campus Gateway, RW regional model.
+  RW model availability: available everywhere except US, Israel, Egypt, and Japan.
+  Physical dimensions: 1.73 x 17.40 x 15.60 in (4.4 cm x 44.2 cm x 39.6 cm).
+  Input: 100 VAC to 240 VAC, 50-60 Hz. Maximum power consumption: 190 W.
+  Power supply slots: 1 + redundant, using the 550 W PSU-550-AC (R7J63A).
+  Also includes one expansion slot reserved for future use, five fan trays and an LCD display.
+  Regional SKUs: R7H95A (US), R7H97A (RW), R7H99A (IL), R7J00A (JP), R7J01A (EG).
+  TAA SKUs: R7J02A (US), R7J03A (RW), R7J04A (IL), R7J05A (JP), R7J06A (EG).
+  [QuickSpecs](https://www.hpe.com/us/en/collaterals/collateral.a50004272enw.html)
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-c
+module-bays:
+  - name: PSU 1
+    label: '1'
+    position: PSU-1
+  - name: PSU 2
+    label: '2'
+    position: PSU-2
+interfaces:
+  - name: gigabitethernet 0/0/0
+    type: 25gbase-x-sfp28
+  - name: gigabitethernet 0/0/1
+    type: 25gbase-x-sfp28
+  - name: gigabitethernet 0/0/2
+    type: 25gbase-x-sfp28
+  - name: gigabitethernet 0/0/3
+    type: 25gbase-x-sfp28
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
