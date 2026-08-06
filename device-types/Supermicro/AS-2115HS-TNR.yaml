@@ -1,0 +1,25 @@
+---
+manufacturer: Supermicro
+model: AS-2115HS-TNR
+slug: supermicro-as-2115hs-tnr
+part_number: AS-2115HS-TNR
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 32.7
+weight_unit: kg
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'

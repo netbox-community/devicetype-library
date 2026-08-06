@@ -1,0 +1,33 @@
+---
+manufacturer: Supermicro
+model: AS-1124US-TNRP
+slug: supermicro-as-1124us-tnrp
+part_number: AS-1124US-TNRP
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 21.8
+weight_unit: kg
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+  - name: 10GbE 1
+    type: 10gbase-t
+  - name: 10GbE 2
+    type: 10gbase-t
+  - name: SFP+ 1
+    type: 10gbase-x-sfpp
+  - name: SFP+ 2
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'

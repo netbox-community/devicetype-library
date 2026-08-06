@@ -2,6 +2,8 @@
 manufacturer: Dell
 model: PowerEdge R7715
 slug: dell-poweredge-r7715
+front_image: true
+rear_image: true
 u_height: 2
 weight: 28.68
 weight_unit: kg
@@ -23,3 +25,19 @@ module-bays:
   - name: PSU-2
     label: '2'
     position: PSU-2
+  - name: PCIe Slot 1
+    position: PCIe-1
+  - name: PCIe Slot 2
+    position: PCIe-2
+  - name: PCIe Slot 3
+    position: PCIe-3
+  - name: PCIe Slot 4
+    position: PCIe-4
+  - name: PCIe Slot 5
+    position: PCIe-5
+  - name: PCIe Slot 6
+    position: PCIe-6
+  - name: PCIe Slot 7
+    position: PCIe-7
+  - name: PCIe Slot 8
+    position: PCIe-8

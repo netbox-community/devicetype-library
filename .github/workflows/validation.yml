@@ -4,11 +4,80 @@ on: # yamllint disable-line rule:truthy
   pull_request:
     branches:
       - master
+    # `labeled` lets a maintainer re-trigger CI by adding the `ci-approved` label
+    # (re-running a workflow replays the original event, so it would not see a
+    # label added afterward — a fresh event is required).
+    types: [opened, synchronize, reopened, labeled]
+permissions:
+  contents: read
 jobs:
-  lint:
+  # Untrusted PRs may only touch the contribution directories. Everything else
+  # (requirements*, .gitmodules, pre-commit configs, tests/, scripts/, .github/, …)
+  # can install or run code in CI, so changes there require a trusted author or an
+  # explicit maintainer sign-off. The file check is a plain `git diff` against the
+  # PR base, which is immune to the YAML/.gitmodules formatting tricks a line-based
+  # parser would miss (flow-style repos, quoted/commented values, etc.).
+  #
+  # A PR may change any path when:
+  #   - the author has write/maintain/admin on the repo. We read the *effective*
+  #     permission from the API, which folds in direct access, team roles, and org
+  #     access — so it tracks the Collaborators & teams settings exactly, and is
+  #     unaffected by whether the PR comes from a fork. (The `permission` field
+  #     collapses maintain->write and triage->read, so admin|write == write+.)
+  #     If the API can't be reached (e.g. a read-only fork token) the check fails
+  #     closed and the PR falls through to the path rule / label below.
+  #   - it is a Dependabot PR (only bumps already-declared dependencies), or
+  #   - a maintainer has added the `ci-approved` label (only triage/write+ users
+  #     can set labels, so an outside contributor cannot self-approve).
+  #
+  # Failure here skips lint/format/test (they `needs:` this job).
+  validate-inputs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7  # no submodules: don't fetch an untrusted .gitmodules
+      - name: Gate changes outside the contribution directories
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          if [ "$PR_AUTHOR" = "dependabot[bot]" ]; then
+            echo "Dependabot PR; allowed (only bumps already-declared dependencies)."
+            exit 0
+          fi
+          perm=$(gh api "repos/$REPO/collaborators/$PR_AUTHOR/permission" \
+                   --jq '.permission' 2>/dev/null || true)
+          case "$perm" in
+            admin | write)
+              echo "Author '$PR_AUTHOR' has '$perm' access; trusted, no path restriction."
+              exit 0 ;;
+          esac
+          echo "Author '$PR_AUTHOR' permission='${perm:-unknown}'; applying path restriction."
+          case ",$LABELS," in
+            *,ci-approved,*)
+              echo "PR carries the 'ci-approved' label; allowed by maintainer review."
+              exit 0 ;;
+          esac
+          git fetch --no-tags --depth 1 origin "$BASE_SHA"
+          outside=$(git diff --name-only "$BASE_SHA" HEAD \
+            | grep -Ev '^(device-types|module-types|rack-types|elevation-images|module-images)/' \
+            || true)
+          if [ -n "$outside" ]; then
+            echo "::error::This PR changes files outside the contribution directories:"
+            echo "$outside"
+            echo "Outside contributors may only change device-types/, module-types/, rack-types/, elevation-images/, and module-images/."
+            echo "To improve tests, scripts, or CI, ask a maintainer to review and add the 'ci-approved' label (which re-runs CI)."
+            exit 1
+          fi
+          echo "OK: all changed files are within the contribution directories."
+  lint:
+    runs-on: ubuntu-latest
+    needs: validate-inputs
+    steps:
+      - uses: actions/checkout@v7
         with:
           submodules: true
       - name: Setup Python
@@ -17,7 +86,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
@@ -36,8 +105,9 @@ jobs:
             device-types/ module-types/
   format:
     runs-on: ubuntu-latest
+    needs: validate-inputs
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           submodules: true
       - name: Setup Python
@@ -46,7 +116,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv
         with:
           path: ${{ env.pythonLocation }}
@@ -63,13 +133,23 @@ jobs:
         run: pre-commit run --config .pre-commit-hooks-config.yaml --all-files
       - name: Format YAML files (yamlfmt)
         run: pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
+  # Security note: this job executes pytest against repository code. Test collection is
+  # pinned to a known module (see the "Run Test Cases" step) to avoid collecting PR-added
+  # test_*.py files, but pytest will still import any conftest.py in the collected test's
+  # directories.
+  # Fork-PR approval is intentionally NOT required, so routine data contributions run
+  # without maintainer intervention. PR-supplied code is instead gated by the
+  # validate-inputs job above, which confines untrusted authors to the contribution
+  # directories; impact is further capped because fork PRs run with a read-only token
+  # and no secrets.
   test:
     runs-on: ubuntu-latest
-    needs: [lint, format]
+    needs: [validate-inputs, lint, format]
     permissions:
+      contents: read  # job-level perms replace top-level, so re-grant for checkout
       pull-requests: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           submodules: true
       - name: Setup Python
@@ -78,7 +158,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: cache virtualenv
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-venv-pytest
         with:
           path: ${{ env.pythonLocation }}
@@ -94,24 +174,47 @@ jobs:
         if: steps.cache-venv-pytest.outputs.cache-hit != 'true'
       - name: Run Test Cases
         id: pytest
-        run: pytest --tb=short -v
-      - name: Check for pickle file change
-        id: pickle-change
+        # Collection is intentionally pinned to the known test module for security:
+        # bare `pytest` would collect/execute any test_*.py a PR adds (even under tests/).
+        # Adding a new test module requires updating this invocation.
+        run: pytest tests/definitions_test.py --tb=short -v
+      - name: Check for known data cache file change
+        id: cache-change
         uses: tj-actions/changed-files@v47
         with:
-          files: tests/known-slugs.pickle
-      - name: Add PR Comment if pickle file is modified
+          files: |
+            tests/known-slugs.json
+            tests/known-modules.json
+            tests/known-racks.json
+      - name: Add PR Comment if cache file is modified
         uses: mshick/add-pr-comment@v3
-        if: steps.pickle-change.outputs.any_changed == 'true'
+        if: steps.cache-change.outputs.any_changed == 'true'
         with:
           message: |
-            Hello, it appears that you have modified the `tests/known-slugs.pickle` file. This file is automatically generated via a GitHub Action, which contains all currently available slugs. This file should **never** be commited by a contributor in a PR.
+            Hello, it appears that you have modified one of the `tests/known-*.json` cache files. These files are automatically generated via a GitHub Action, which contains all currently available slugs, modules, and racks. These files should **never** be commited by a contributor in a PR.
 
-            In order to fix this, you will need to remove the modification on the pickle file. There are a handful of ways to do so but often it is easiest to revert the commit and force push it again without the pickle file included. If you need assistance you are welcome to ping a maintainer via this PR, or via our NetDev Slack.
-      - name: Add Labels if pickle file is modified
+            In order to fix this, you will need to remove the modification on the cache file(s). There are a handful of ways to do so but often it is easiest to revert the commit and force push it again without the cache files included. If you need assistance you are welcome to ping a maintainer via this PR, or via our NetDev Slack.
+      - name: Add Labels if cache file is modified
         uses: actions-ecosystem/action-add-labels@v1
-        if: steps.pickle-change.outputs.any_changed == 'true'
+        if: steps.cache-change.outputs.any_changed == 'true'
         with:
           labels: |
             status: revisions needed
             status: pickle-issue
+      # Informational reviewer awareness only — the preventive control is the pinned
+      # collection above (pytest tests/definitions_test.py) plus confcutdir/testpaths in
+      # pytest.ini. This flags a PR that touches test-harness code via a non-gating CI
+      # annotation (no PR comment/label, so it needs no writable token and works on fork
+      # PRs). Enforced maintainer review of these paths is via .github/CODEOWNERS.
+      - name: Check for test-harness code change
+        id: harness-change
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            tests/*.py
+            tests/**/*.py
+            **/conftest.py
+      - name: Flag test-harness code change
+        if: steps.harness-change.outputs.any_changed == 'true'
+        run: |
+          echo "::warning title=Test-harness code modified::This PR changes tests/*.py or a conftest.py, which runs inside CI. A maintainer must review the harness changes before approving the workflow run."

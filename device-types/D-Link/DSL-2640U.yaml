@@ -1,0 +1,33 @@
+---
+manufacturer: D-Link
+model: DSL-2640U
+slug: d-link-dsl-2640u
+part_number: DSL-2640U
+is_full_depth: false
+u_height: 0
+airflow: passive
+weight: 150
+weight_unit: g
+interfaces:
+  - name: WAN
+    label: Internet
+    type: 100base-tx
+  - name: LAN1
+    type: 100base-tx
+  - name: LAN2
+    type: 100base-tx
+  - name: LAN3
+    type: 100base-tx
+  - name: DSL
+    type: xdsl
+  - name: Wireless 2.4 GHz
+    type: ieee802.11n
+console-ports:
+  - name: usb
+    type: usb-a
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 6
+    allocated_draw: 6
+    description: 12V DC, 0.5A

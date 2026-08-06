@@ -1,0 +1,48 @@
+---
+manufacturer: EGSMTPC
+model: M8A-J6412L6
+slug: egsmtpc-m8a-j6412l6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2.5
+weight_unit: kg
+front_image: false
+rear_image: false
+comments: >-
+  [Amazon Product Page](https://www.amazon.com/EGSMTPC-Firewall-OPNsense-Business-Security/dp/B0GQ6M1WFV?ref_=ast_sto_dp)
+  - Firewall Mini PC Router J6412 | 6-Port 2.5GbE Network | 8GB RAM + 128GB SSD | Support pfSense/OPNsense | Home
+  and Small Business Network Security. Also features 2x USB 2.0, 2x USB 3.0, a built-in SIM slot, and 2x
+  Kensington lock slots (not represented below - no corresponding NetBox component types).
+console-ports:
+  - name: Serial Console
+    type: rj-45
+    label: COM
+power-ports:
+  - name: 12V DC
+    type: dc-terminal
+    maximum_draw: 10
+interfaces:
+  - name: igc0
+    type: 2.5gbase-t
+  - name: igc1
+    type: 2.5gbase-t
+  - name: igc2
+    type: 2.5gbase-t
+  - name: igc3
+    type: 2.5gbase-t
+  - name: igc4
+    type: 2.5gbase-t
+  - name: igc5
+    type: 2.5gbase-t
+module-bays:
+  - name: SO-DIMM 1
+    position: '1'
+  - name: SO-DIMM 2
+    position: '2'
+  - name: mSATA
+    position: '3'
+    description: mSATA SSD slot
+  - name: SATA
+    position: '4'
+    description: SATA 3.0 (6Gb/s) SSD/HDD slot

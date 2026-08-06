@@ -17,6 +17,11 @@ interfaces:
 console-ports:
   - name: ttyS0
     type: de-9
+console-server-ports:
+  - name: USB 1
+    type: usb-a
+  - name: USB 2
+    type: usb-a
 power-ports:
   - name: Input
     type: dc-terminal

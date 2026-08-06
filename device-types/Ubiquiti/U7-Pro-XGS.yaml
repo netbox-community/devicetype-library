@@ -9,7 +9,7 @@ airflow: passive
 weight: 800
 weight_unit: g
 interfaces:
-  - name: Port 1
+  - name: eth0
     type: 10gbase-t
     poe_mode: pd
     poe_type: type3-ieee802.3bt

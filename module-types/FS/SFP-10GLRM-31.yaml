@@ -1,0 +1,12 @@
+---
+manufacturer: FS
+model: SFP-10GLRM-31
+part_number: '74669'
+description: 10GBASE-LRM SFP+ 1310nm 220m DOM Duplex LC/UPC MMF Transceiver Module for FS Switch
+comments: |
+  [10GBASE-LRM SFP+](https://www.fs.com/products/74669.html)
+interfaces:
+  - name: ethernet 1/{module}
+    type: 10gbase-x-sfpp
+    enabled: true
+    mgmt_only: false

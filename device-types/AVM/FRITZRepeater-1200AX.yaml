@@ -16,5 +16,9 @@ interfaces:
   - name: LAN
     label: LAN
     type: 1000base-t
-  - name: WiFi
-    type: ieee802.11ac
+  - name: WiFi 5GHz
+    type: ieee802.11ax
+    description: 5 GHz, 2400 Mbit/s
+  - name: WiFi 2.4GHz
+    type: ieee802.11ax
+    description: 2.4 GHz, 600 Mbit/s

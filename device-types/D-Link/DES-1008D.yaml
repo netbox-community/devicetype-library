@@ -1,0 +1,35 @@
+---
+manufacturer: D-Link
+model: DES-1008D
+slug: d-link-des-1008d
+part_number: DES-1008D
+comments: '[D-Link DES-1008D](https://dlink.ru/ru/products/1/1950.html)'
+is_full_depth: false
+weight: 412
+weight_unit: g
+airflow: passive
+u_height: 1
+console-ports:
+  - name: console
+    type: rj-45
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 3
+interfaces:
+  - name: Port 1
+    type: 100base-tx
+  - name: Port 2
+    type: 100base-tx
+  - name: Port 3
+    type: 100base-tx
+  - name: Port 4
+    type: 100base-tx
+  - name: Port 5
+    type: 100base-tx
+  - name: Port 6
+    type: 100base-tx
+  - name: Port 7
+    type: 100base-tx
+  - name: Port 8
+    type: 100base-tx

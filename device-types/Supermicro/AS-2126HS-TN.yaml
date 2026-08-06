@@ -1,0 +1,46 @@
+---
+manufacturer: Supermicro
+model: AS-2126HS-TN
+slug: supermicro-as-2126hs-tn
+part_number: AS-2126HS-TN
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 20.5
+weight_unit: kg
+comments: |
+  [AS-2126HS-TN](https://www.supermicro.com/en/products/system/hyper/2u/as-2126hs-tn)
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: PSU 1
+    position: PSU1
+  - name: PSU 2
+    position: PSU2
+  - name: AIOM 1
+    position: AIOM1
+    description: AIOM / OCP3.0 NIC Slot, PCIe 5.0 x16
+  - name: SLOT1
+    position: SLOT1
+    description: RSC-H-68G5, PCIe 5.0 x16 FHHL
+  - name: SLOT3
+    position: SLOT3
+    description: RSC-H-68G5, PCIe 5.0 x16 FHHL
+  - name: SLOT5
+    position: SLOT5
+    description: RSC-H2-6888G5L, PCIe 5.0 x16 FHHL
+  - name: SLOT7
+    position: SLOT7
+    description: RSC-H2-6888G5L, PCIe 5.0 x8 FHHL
+  - name: SLOT8
+    position: SLOT8
+    description: RSC-H2-6888G5L, PCIe 5.0 x8 FHHL
+  - name: M.2 1
+    position: M.2-1
+    description: PCIe 3.0 x4 NVMe
+  - name: M.2 2
+    position: M.2-2
+    description: PCIe 3.0 x4 NVMe

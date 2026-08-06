@@ -1,0 +1,38 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Express 7
+slug: ubiquiti-unifi-express-7
+part_number: UX7
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 443
+weight_unit: g
+comments: |
+  Compact desktop UniFi cloud gateway with an integrated tri-band WiFi 7 access point, 2.3 Gbps IDS/IPS throughput, and support for 30+ UniFi devices / 300+ clients.
+  Dimensions: 117 x 117 x 42.5 mm (4.61 x 4.61 x 1.67")
+  [UniFi Express 7 Tech Specs](https://techspecs.ui.com/unifi/cloud-gateways/ux7)
+power-ports:
+  - name: USB-C Power
+    type: usb-c
+    maximum_draw: 22
+interfaces:
+  - name: WAN
+    type: 10gbase-t
+  - name: LAN
+    type: 2.5gbase-t
+  - name: WLAN 0
+    type: ieee802.11ax
+    label: 2.4 GHz
+    description: |
+      Max Data Rate: 688 Mbps, MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 23 dBm, Antenna Gain: 4 dBi
+  - name: WLAN 1
+    type: ieee802.11be
+    label: 5 GHz
+    description: |
+      Max Data Rate: 4.3 Gbps, MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 26 dBm, Antenna Gain: 7 dBi
+  - name: WLAN 2
+    type: ieee802.11be
+    label: 6 GHz
+    description: |
+      Max Data Rate: 5.7 Gbps, MIMO: 2x2 (DL/UL MU-MIMO), Max TX Power: 24 dBm, Antenna Gain: 6 dBi
