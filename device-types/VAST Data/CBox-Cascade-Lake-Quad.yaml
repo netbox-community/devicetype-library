@@ -18,20 +18,20 @@ comments: |
   Power: 2x 1600W shared chassis PSUs.
   Performance per CNode: Read 8.8GB/s / 42K IOPs, Write 2.3GB/s / 23.6K IOPs.
 module-bays:
-  - name: "PSU1"
+  - name: PSU1
     position: '1'
-  - name: "PSU2"
+  - name: PSU2
     position: '2'
 device-bays:
-  - name: "CN1"
-    label: "CNode 1 (bottom-right)"
-    description: "Cascade Lake CNode blade - CN1"
-  - name: "CN2"
-    label: "CNode 2 (bottom-left)"
-    description: "Cascade Lake CNode blade - CN2"
-  - name: "CN3"
-    label: "CNode 3 (top-right)"
-    description: "Cascade Lake CNode blade - CN3"
-  - name: "CN4"
-    label: "CNode 4 (top-left)"
-    description: "Cascade Lake CNode blade - CN4"
+  - name: CN1
+    label: CNode 1 (bottom-right)
+    description: Cascade Lake CNode blade - CN1
+  - name: CN2
+    label: CNode 2 (bottom-left)
+    description: Cascade Lake CNode blade - CN2
+  - name: CN3
+    label: CNode 3 (top-right)
+    description: Cascade Lake CNode blade - CN3
+  - name: CN4
+    label: CNode 4 (top-left)
+    description: Cascade Lake CNode blade - CN4

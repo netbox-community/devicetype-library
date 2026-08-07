@@ -22,30 +22,30 @@ comments: |
   Rear: PCIe Slot 1 (Bus 01h), PCIe Slot 2 (Bus 81h), AIOM (Bus 41h).
 interfaces:
   # --- AIOM Management: Intel i350 Quad-Port 1GbE (Bus 41h) ---
-  - name: "mgmt-port1"
-    type: "1000base-t"
-    label: "AIOM - Management Port 1 (Intel i350)"
-    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 1"
+  - name: mgmt-port1
+    type: 1000base-t
+    label: AIOM - Management Port 1 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 1
     mgmt_only: true
-  - name: "mgmt-port2"
-    type: "1000base-t"
-    label: "AIOM - Management Port 2 (Intel i350)"
-    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 2"
+  - name: mgmt-port2
+    type: 1000base-t
+    label: AIOM - Management Port 2 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 2
     mgmt_only: true
-  - name: "mgmt-port3"
-    type: "1000base-t"
-    label: "AIOM - Management Port 3 (Intel i350)"
-    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 3"
+  - name: mgmt-port3
+    type: 1000base-t
+    label: AIOM - Management Port 3 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 3
     mgmt_only: true
-  - name: "mgmt-port4"
-    type: "1000base-t"
-    label: "AIOM - Management Port 4 (Intel i350)"
-    description: "OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 4"
+  - name: mgmt-port4
+    type: 1000base-t
+    label: AIOM - Management Port 4 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 4
     mgmt_only: true
-  - name: "bmc"
-    type: "1000base-t"
-    label: "BMC (Dedicated Management)"
-    description: "Baseboard Management Controller"
+  - name: bmc
+    type: 1000base-t
+    label: BMC (Dedicated Management)
+    description: Baseboard Management Controller
     mgmt_only: true
 module-bays:
   - name: PCIe-1
