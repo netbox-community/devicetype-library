@@ -1,0 +1,58 @@
+---
+manufacturer: VAST Data
+model: CBox SMC Gen6
+slug: vast-data-cbox-smc-gen6
+part_number: 1U-1N-GEN6
+u_height: 1
+is_full_depth: true
+weight: 11.3
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  VAST Data CBox SMC Gen6 (1U-1N-GEN6).
+  1U single server node (Supermicro AS-1115CS-TNR, Turin, L9).
+  CPU: AMD EPYC 9555P 64-Core (Turin / SP5).
+  Memory: 384GB (12x 32GB) DDR5-6400.
+  NIC: 2x NVIDIA CX7 Dual Port MCX755106AS-HEAT (QSFP112).
+  I/O: 4x 200GbE / NDR200 IB total (2NIC config).
+  Management: 4x 1GbE OCP Intel i350 (AOC-AGI4M-P).
+  Boot Drive: 1x 960GB NVMe U.3 Micron 7500 Pro (MTFDKCC960TGP-1BK1JABYY).
+  Power: Active 550W / Max 775W.
+  Power connectors: 2x C14 inputs, requiring C13 cables.
+  Rear: PCIe Slot 1 (Bus 01h), PCIe Slot 2 (Bus 81h), AIOM (Bus 41h).
+interfaces:
+  # --- AIOM Management: Intel i350 Quad-Port 1GbE (Bus 41h) ---
+  - name: mgmt-port1
+    type: 1000base-t
+    label: AIOM - Management Port 1 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 1
+    mgmt_only: true
+  - name: mgmt-port2
+    type: 1000base-t
+    label: AIOM - Management Port 2 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 2
+    mgmt_only: true
+  - name: mgmt-port3
+    type: 1000base-t
+    label: AIOM - Management Port 3 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 3
+    mgmt_only: true
+  - name: mgmt-port4
+    type: 1000base-t
+    label: AIOM - Management Port 4 (Intel i350)
+    description: OCP AOC-AGI4M-P Intel i350 Quad-Port - Port 4
+    mgmt_only: true
+  - name: bmc
+    type: 1000base-t
+    label: BMC (Dedicated Management)
+    description: Baseboard Management Controller
+    mgmt_only: true
+module-bays:
+  - name: PCIe-1
+    position: '1'
+  - name: PCIe-2
+    position: '2'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
