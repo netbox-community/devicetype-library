@@ -8,124 +8,173 @@ airflow: passive
 is_powered: false
 front_image: true
 front-ports:
-  - name: Port 1
+  - name: Front 1
     type: 8p8c
-    rear_port: Port 1
-  - name: Port 2
+  - name: Front 2
     type: 8p8c
-    rear_port: Port 2
-  - name: Port 3
+  - name: Front 3
     type: 8p8c
-    rear_port: Port 3
-  - name: Port 4
+  - name: Front 4
     type: 8p8c
-    rear_port: Port 4
-  - name: Port 5
+  - name: Front 5
     type: 8p8c
-    rear_port: Port 5
-  - name: Port 6
+  - name: Front 6
     type: 8p8c
-    rear_port: Port 6
-  - name: Port 7
+  - name: Front 7
     type: 8p8c
-    rear_port: Port 7
-  - name: Port 8
+  - name: Front 8
     type: 8p8c
-    rear_port: Port 8
-  - name: Port 9
+  - name: Front 9
     type: 8p8c
-    rear_port: Port 9
-  - name: Port 10
+  - name: Front 10
     type: 8p8c
-    rear_port: Port 10
-  - name: Port 11
+  - name: Front 11
     type: 8p8c
-    rear_port: Port 11
-  - name: Port 12
+  - name: Front 12
     type: 8p8c
-    rear_port: Port 12
-  - name: Port 13
+  - name: Front 13
     type: 8p8c
-    rear_port: Port 13
-  - name: Port 14
+  - name: Front 14
     type: 8p8c
-    rear_port: Port 14
-  - name: Port 15
+  - name: Front 15
     type: 8p8c
-    rear_port: Port 15
-  - name: Port 16
+  - name: Front 16
     type: 8p8c
-    rear_port: Port 16
-  - name: Port 17
+  - name: Front 17
     type: 8p8c
-    rear_port: Port 17
-  - name: Port 18
+  - name: Front 18
     type: 8p8c
-    rear_port: Port 18
-  - name: Port 19
+  - name: Front 19
     type: 8p8c
-    rear_port: Port 19
-  - name: Port 20
+  - name: Front 20
     type: 8p8c
-    rear_port: Port 20
-  - name: Port 21
+  - name: Front 21
     type: 8p8c
-    rear_port: Port 21
-  - name: Port 22
+  - name: Front 22
     type: 8p8c
-    rear_port: Port 22
-  - name: Port 23
+  - name: Front 23
     type: 8p8c
-    rear_port: Port 23
-  - name: Port 24
+  - name: Front 24
     type: 8p8c
-    rear_port: Port 24
 rear-ports:
-  - name: Port 1
+  - name: Rear 1
     type: 8p8c
-  - name: Port 2
+    positions: 1
+  - name: Rear 2
     type: 8p8c
-  - name: Port 3
+    positions: 1
+  - name: Rear 3
     type: 8p8c
-  - name: Port 4
+    positions: 1
+  - name: Rear 4
     type: 8p8c
-  - name: Port 5
+    positions: 1
+  - name: Rear 5
     type: 8p8c
-  - name: Port 6
+    positions: 1
+  - name: Rear 6
     type: 8p8c
-  - name: Port 7
+    positions: 1
+  - name: Rear 7
     type: 8p8c
-  - name: Port 8
+    positions: 1
+  - name: Rear 8
     type: 8p8c
-  - name: Port 9
+    positions: 1
+  - name: Rear 9
     type: 8p8c
-  - name: Port 10
+    positions: 1
+  - name: Rear 10
     type: 8p8c
-  - name: Port 11
+    positions: 1
+  - name: Rear 11
     type: 8p8c
-  - name: Port 12
+    positions: 1
+  - name: Rear 12
     type: 8p8c
-  - name: Port 13
+    positions: 1
+  - name: Rear 13
     type: 8p8c
-  - name: Port 14
+    positions: 1
+  - name: Rear 14
     type: 8p8c
-  - name: Port 15
+    positions: 1
+  - name: Rear 15
     type: 8p8c
-  - name: Port 16
+    positions: 1
+  - name: Rear 16
     type: 8p8c
-  - name: Port 17
+    positions: 1
+  - name: Rear 17
     type: 8p8c
-  - name: Port 18
+    positions: 1
+  - name: Rear 18
     type: 8p8c
-  - name: Port 19
+    positions: 1
+  - name: Rear 19
     type: 8p8c
-  - name: Port 20
+    positions: 1
+  - name: Rear 20
     type: 8p8c
-  - name: Port 21
+    positions: 1
+  - name: Rear 21
     type: 8p8c
-  - name: Port 22
+    positions: 1
+  - name: Rear 22
     type: 8p8c
-  - name: Port 23
+    positions: 1
+  - name: Rear 23
     type: 8p8c
-  - name: Port 24
+    positions: 1
+  - name: Rear 24
     type: 8p8c
+    positions: 1
+port-mappings:
+  - front_port: Front 1
+    rear_port: Rear 1
+  - front_port: Front 2
+    rear_port: Rear 2
+  - front_port: Front 3
+    rear_port: Rear 3
+  - front_port: Front 4
+    rear_port: Rear 4
+  - front_port: Front 5
+    rear_port: Rear 5
+  - front_port: Front 6
+    rear_port: Rear 6
+  - front_port: Front 7
+    rear_port: Rear 7
+  - front_port: Front 8
+    rear_port: Rear 8
+  - front_port: Front 9
+    rear_port: Rear 9
+  - front_port: Front 10
+    rear_port: Rear 10
+  - front_port: Front 11
+    rear_port: Rear 11
+  - front_port: Front 12
+    rear_port: Rear 12
+  - front_port: Front 13
+    rear_port: Rear 13
+  - front_port: Front 14
+    rear_port: Rear 14
+  - front_port: Front 15
+    rear_port: Rear 15
+  - front_port: Front 16
+    rear_port: Rear 16
+  - front_port: Front 17
+    rear_port: Rear 17
+  - front_port: Front 18
+    rear_port: Rear 18
+  - front_port: Front 19
+    rear_port: Rear 19
+  - front_port: Front 20
+    rear_port: Rear 20
+  - front_port: Front 21
+    rear_port: Rear 21
+  - front_port: Front 22
+    rear_port: Rear 22
+  - front_port: Front 23
+    rear_port: Rear 23
+  - front_port: Front 24
+    rear_port: Rear 24
