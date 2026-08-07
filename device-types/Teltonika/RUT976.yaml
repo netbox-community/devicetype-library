@@ -1,0 +1,34 @@
+---
+manufacturer: Teltonika
+model: RUT976
+slug: teltonika-rut976
+part_number: RUT976
+u_height: 0
+weight: 265
+weight_unit: g
+is_full_depth: false
+comments: >-
+  Teltonika RUT976 5G RedCap Router
+  https://www.yeint.fi/media/akeneo_connector/asset_files/T/e/Teltonika_rut976_datasheet_7796.pdf
+
+console-ports:
+  - name: RS232
+    type: de-9
+  - name: RS485
+    type: other
+
+power-ports:
+  - name: DC-IN
+    type: dc-terminal
+
+interfaces:
+  - name: LAN1
+    type: 100base-tx
+  - name: LAN2
+    type: 100base-tx
+  - name: LAN3
+    type: 100base-tx
+  - name: WAN1
+    type: 100base-tx
+  - name: cellular0
+    type: lte
