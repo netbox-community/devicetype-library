@@ -8,7 +8,11 @@ is_full_depth: false
 airflow: passive
 weight: 8.23
 weight_unit: kg
-comments: 'comments: Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19'
+comments: |
+  Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19
+  [Product Page](https://www.se.com/uk/en/product/AP8653/rack-pdu-2g-metered-by-outlet-with-switching-zerou-32a-230v-21-c13-3-c19/)
+  [Datasheet](https://www.se.com/uk/en/product/download-pdf/AP8653?filename=Schneider+Electric_NetShelter-Switched-Metered-Outlet-PDUs_AP8653.pdf)
+  [User Guide](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=NetShelter+AP86%E2%80%A2%E2%80%A2+Metered-by-Outlet+Switched+Rack_990-5570T-001.pdf&p_Doc_Ref=990-5570_EN)
 console-ports:
   - name: Serial
     type: rj-12
@@ -92,3 +96,9 @@ interfaces:
   - name: Network
     type: 1000base-t
     mgmt_only: true
+  - name: Temp/Humidity
+    type: other
+  - name: In
+    type: other
+  - name: Out
+    type: other

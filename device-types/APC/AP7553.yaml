@@ -1,21 +1,18 @@
 ---
 manufacturer: APC
-model: AP8959EU3
-slug: apc-ap8959eu3
-part_number: AP8959EU3
+model: AP7553
+slug: apc-ap7553
+part_number: AP7553
 u_height: 0
 is_full_depth: false
 airflow: passive
-weight: 5.73
+weight: 5.57
 weight_unit: kg
 comments: |
-  Rack PDU 2G, Switched, ZeroU, 16A, 230V, (21) C13 & (3) C19, 2p-e-6h
-  [Product Page](https://www.se.com/uk/en/product/AP8959EU3/rack-pdu-2g-switched-16a-230v-21-c13-3-c19-iec309-cord/)
-  [Datasheet](https://www.se.com/uk/en/product/download-pdf/AP8959?filename=Schneider+Electric_APC-NetShelter-Switched-Rack-PDUs_AP8959.pdf)
-  [User Guide](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=NetShelter+AP89%E2%80%A2%E2%80%A2+Switched+Rack+PDU_990-5569T-001.pdf&p_Doc_Ref=990-5569_EN)
-console-ports:
-  - name: Serial
-    type: rj-12
+  Rack PDU, Basic, Zero U, 32A, 230V, (20)C13 & (4)C19
+  [Product Page](https://www.se.com/uk/en/product/AP7553/rack-pdu-basic-zero-u-32a-230v-20c13-4c19/)
+  [Datasheet](https://www.se.com/uk/en/product/download-pdf/AP7553?filename=Schneider+Electric_APC-NetShelter-Basic-Rack-PDUs_AP7553.pdf)
+  [User Guide](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=ASTE-6Z6JZ8_R0_EN.pdf&p_Doc_Ref=SPD_ASTE-6Z6JZ8_EN)
 power-ports:
   - name: Power Port 1
     type: iec-60309-2p-e-6h
@@ -29,7 +26,7 @@ power-outlets:
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 3
-    type: iec-60320-c13
+    type: iec-60320-c19
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 4
@@ -81,11 +78,11 @@ power-outlets:
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 16
-    type: iec-60320-c19
+    type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 17
-    type: iec-60320-c13
+    type: iec-60320-c19
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 18
@@ -105,7 +102,7 @@ power-outlets:
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 22
-    type: iec-60320-c13
+    type: iec-60320-c19
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 23
@@ -113,16 +110,6 @@ power-outlets:
     power_port: Power Port 1
     feed_leg: A
   - name: Power Outlet 24
-    type: iec-60320-c19
+    type: iec-60320-c13
     power_port: Power Port 1
     feed_leg: A
-interfaces:
-  - name: Network
-    type: 100base-tx
-    mgmt_only: true
-  - name: Temp/Humidity
-    type: other
-  - name: In
-    type: other
-  - name: Out
-    type: other
