@@ -1,0 +1,18 @@
+---
+manufacturer: Ubiquiti
+model: UniFi U7 Long-Range
+slug: ubiquiti-unifi-u7-long-range
+part_number: U7-Long-Range
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[Ubiquiti UniFi U7 Long-Range](https://ui.com/us/en/wifi/flagship)'
+power-ports:
+  - name: PoE
+    type: dc-terminal
+interfaces:
+  - name: Ethernet
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: ap
