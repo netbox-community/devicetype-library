@@ -4,9 +4,10 @@ model: UniServer R4900 G7
 slug: h3c-uniserver-r4900-g7
 u_height: 2
 is_full_depth: true
+airflow: front-to-rear
 weight: 25.0
 weight_unit: kg
-comments: '[H3C UniServer R4900 G7 2U Rack Server](https://www.h3c.com/en/Products_and_Solutions/Computing/UniServer_Series/Products_With_Picture/2U/R4900_G7/R4900_G7/)'
+comments: '[H3C UniServer R4900 G7 2U Rack Server](https://www.h3c.com/en/Products_and_Solutions/Computing/UniServer_Series/Products_With_Picture/2U/R4900_G7/R4900_G7/) — network interfaces confirmed against this page: 1x onboard 1Gbps management port (H3C calls this "HDM", not "iLO" — a third-party NDX reference for this model incorrectly used HPE''s iLO branding, and also lists two extra onboard "NIC1 Port 1/2" 1000base-t interfaces not found anywhere on H3C''s own product page; both are treated as errors in that source and intentionally not replicated here) plus 2x onboard OCP 3.0 NIC bays (hot-swap). PSU wattage/rating options (Platinum 800/1300/1600/2000/2700W, Titanium 1600/3200W) match this page exactly.'
 interfaces:
 - name: HDM
   type: 1000base-t
