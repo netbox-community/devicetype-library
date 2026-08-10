@@ -1,0 +1,11 @@
+---
+manufacturer: H3C
+model: NIC-ETH640F-3S-2P
+part_number: NIC-ETH640F-3S-2P
+description: 2-port 25-GE optical OCP 3.0 Ethernet adapter (SFP28, Mellanox ConnectX-4 Lx chipset) - hot-swap network module option for H3C UniServer R4900 G7 OCP1/OCP2 bays
+comments: 'Model, chipset and port spec sourced from H3C''s general OCP 3.0 network adapter datasheet (support doc 6W101, "06-OCP network adapter specifications"): https://www.h3c.com/en/d_202206/1616871_294551_0.htm — that document lists this adapter across H3C UniServer G7-series servers without naming R4900 G7 specifically; applicability to R4900 G7''s OCP1/OCP2 bays is inferred from the R4900 G7 datasheet''s confirmed spec "2 Onboard OCP 3.0 NICs, support Hot Swap and PCIe 5.0" (https://www.bainisys.com/wp-content/uploads/2025/08/H3C-UniServer-R4900-G7-Rack-Server-Data-sheet-1.pdf), which uses the same standard OCP 3.0 SFF mezzanine interface. Not confirmed against an official H3C compatibility matrix for this exact model.'
+interfaces:
+  - name: Ethernet{module}a
+    type: 25gbase-x-sfp28
+  - name: Ethernet{module}b
+    type: 25gbase-x-sfp28
