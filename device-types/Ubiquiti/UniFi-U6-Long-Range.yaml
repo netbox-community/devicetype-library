@@ -1,0 +1,18 @@
+---
+manufacturer: Ubiquiti
+model: UniFi U6 Long-Range
+slug: ubiquiti-unifi-u6-long-range
+part_number: U6-LR
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[Ubiquiti UniFi U6 Long-Range](https://ui.com/us/en/wifi/flagship)'
+power-ports:
+  - name: PoE
+    type: dc-terminal
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: ap
