@@ -9,8 +9,10 @@ weight_unit: kg
 module-bays:
   - name: PSU1
     label: Power Supply Slot 1
+    position: '1'
   - name: PSU2
     label: Power Supply Slot 2
+    position: '2'
 console-ports:
   - name: Serial
     type: de-9
