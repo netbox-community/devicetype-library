@@ -12,7 +12,15 @@ power-ports:
     type: dc-terminal
 interfaces:
   - name: Uplink
-    type: 2.5gbase-t
+    type: 1000base-t
     poe_mode: pd
     poe_type: type2-ieee802.3at
     rf_role: ap
+  - name: Downlink 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Downlink 2
+    type: 1000base-t
+  - name: Downlink 3
+    type: 1000base-t
