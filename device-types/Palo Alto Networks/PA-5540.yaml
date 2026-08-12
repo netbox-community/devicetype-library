@@ -14,23 +14,15 @@ console-ports:
     type: rj-45
   - name: console (USB-C)
     type: usb-c
-power-ports:
+module-bays:
   - name: PS1
-    type: iec-60320-c20
-    maximum_draw: 2700
-    allocated_draw: 1550
+    position: '1'
   - name: PS2
-    type: iec-60320-c20
-    maximum_draw: 2700
-    allocated_draw: 1550
+    position: '2'
   - name: PS3
-    type: iec-60320-c20
-    maximum_draw: 2700
-    allocated_draw: 1550
+    position: '3'
   - name: PS4
-    type: iec-60320-c20
-    maximum_draw: 2700
-    allocated_draw: 1550
+    position: '4'
 interfaces:
   - name: ethernet1/1
     type: 25gbase-x-sfp28
