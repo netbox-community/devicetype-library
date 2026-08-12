@@ -11,8 +11,10 @@ power-ports:
   - name: PoE
     type: dc-terminal
 interfaces:
-  - name: LAN
+  - name: LAN1
     type: 10gbase-t
     poe_mode: pd
     poe_type: type4-ieee802.3bt
     rf_role: ap
+  - name: LAN2
+    type: 10gbase-t
