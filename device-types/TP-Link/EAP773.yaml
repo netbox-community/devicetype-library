@@ -1,0 +1,18 @@
+---
+manufacturer: TP-Link
+model: EAP773
+slug: tp-link-eap773
+part_number: EAP773
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link Omada EAP773 Specifications](https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap773/)'
+power-ports:
+  - name: DC
+    type: dc-terminal
+interfaces:
+  - name: LAN
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: ap
