@@ -6,5 +6,15 @@ u_height: 3
 is_full_depth: true
 weight: 36.9
 weight_unit: kg
+power-ports:
+  - name: Input
+    type: nema-l5-30p
+    maximum_draw: 3000
+    allocated_draw: 2700
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+  - name: Outlet 2
+    type: nema-5-20r
 comments: |
   Line-interactive rack UPS, 3000VA/2700W, 30A input (NEMA L5-30P).
