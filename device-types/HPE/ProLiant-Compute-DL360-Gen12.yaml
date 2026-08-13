@@ -1,0 +1,29 @@
+---
+manufacturer: HPE
+model: ProLiant Compute DL360 Gen12
+slug: hpe-proliant-compute-dl360-gen12
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 14.87
+weight_unit: kg
+comments: '[HPE ProLiant Compute DL360 Gen12](https://www.hpe.com/us/en/compute/hpe-proliant-compute/dl360-gen12.html)'
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: OCPA
+    position: OCPA
+  - name: OCPB
+    position: OCPB
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
