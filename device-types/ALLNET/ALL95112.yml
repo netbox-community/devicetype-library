@@ -1,0 +1,44 @@
+---
+manufacturer: ALLNET
+model: ALL95112
+slug: allnet-all95112
+u_height: 1
+is_full_depth: false
+is_powered: true
+airflow: passive
+weight: 2.3
+weight_unit: kg
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 90
+
+interfaces:
+  - name: eth1
+    type: 100base-tx
+  - name: eth2
+    type: 100base-tx
+  - name: eth3
+    type: 100base-tx
+  - name: eth4
+    type: 100base-tx
+  - name: eth5
+    type: 100base-tx
+  - name: eth6
+    type: 100base-tx
+  - name: eth7
+    type: 100base-tx
+  - name: eth8
+    type: 100base-tx
+  - name: eth9
+    type: 100base-tx
+  - name: eth10
+    type: 100base-tx
+  - name: eth11
+    type: 100base-tx
+  - name: eth12
+    type: 100base-tx
+  - name: eth13
+    type: 100base-tx
+  - name: eth14
+    type: 100base-tx

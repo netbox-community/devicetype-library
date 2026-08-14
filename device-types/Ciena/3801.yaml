@@ -1,0 +1,21 @@
+---
+manufacturer: Ciena
+model: '3801'
+slug: ciena-3801
+part_number: 170-3801-900
+comments: '[Ciena 3801](https://www.ciena.com/__data/assets/pdf_file/0022/27319/3801_DS.pdf)'
+u_height: 0
+weight: 0.22
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: DC 12V
+    type: dc-terminal
+    maximum_draw: 5
+    allocated_draw: 3
+interfaces:
+  - name: XGS-PON
+    type: xgs-pon
+  - name: 2.5G LAN
+    type: 2.5gbase-t

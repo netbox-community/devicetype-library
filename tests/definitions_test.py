@@ -79,9 +79,12 @@ def _get_diff_from_upstream():
         for file in changes:
             # Ensure the files are modified or added, this will disclude deleted files
             if file.change_type in CHANGE_TYPE_LIST:
-                # If the file is renamed, ensure we are picking the right schema
-                if 'R' in file.change_type and path in file.rename_to:
-                    file_list.append((file.rename_to, schema, file.change_type))
+                # Rename endpoints flip between commit.diff (new path on b_path) and
+                # index.diff (new path on a_path), so pick the side that exists on disk.
+                if 'R' in file.change_type:
+                    existing = file.b_path if os.path.exists(file.b_path) else file.a_path
+                    if path in existing:
+                        file_list.append((existing, schema, file.change_type))
                 elif path in file.a_path:
                     file_list.append((file.a_path, schema, file.change_type))
                 elif path in file.b_path:

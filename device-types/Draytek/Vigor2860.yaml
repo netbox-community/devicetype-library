@@ -1,0 +1,42 @@
+---
+manufacturer: Draytek
+model: Vigor2860
+slug: draytek-vigor2860
+description: Advanced DSL firewall
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 530.0
+weight_unit: g
+console-ports:
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+power-ports:
+  - name: pwr-1
+    type: iec-60320-c14
+    maximum_draw: 24
+    allocated_draw: 24
+    label: PWR
+interfaces:
+  - name: lan1
+    type: 1000base-tx
+  - name: lan2
+    type: 1000base-tx
+  - name: lan3
+    type: 1000base-tx
+  - name: lan4
+    type: 1000base-tx
+  - name: lan5
+    type: 1000base-tx
+  - name: lan6
+    type: 1000base-tx
+  - name: wan1
+    type: xdsl
+  - name: wan2
+    type: 1000base-tx
+  - name: wlan1
+    type: ieee802.11g
+  - name: wlan2
+    type: ieee802.11ac
