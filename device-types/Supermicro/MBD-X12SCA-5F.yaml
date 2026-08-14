@@ -1,0 +1,38 @@
+---
+manufacturer: Supermicro
+model: Motherboard X12SCA-5F
+slug: supermicro-mbd-x12sca-5f
+part_number: MBD-X12SCA-5F
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Supermicro motherboard X12SCA-5F](www.supermicro.com/en/products/motherboard/x12sca-5f)'
+subdevice_role: child
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC IPMI port
+  - name: LAN 1
+    type: 2.5gbase-t
+  - name: LAN 2
+    type: 1000base-t
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 3.0 x1
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x1
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 4.0 x16
+  - name: PCI-E 4
+    position: '4'
+    description: PCIe 4.0 x16
+  - name: M.2 1
+    position: '5'
+    description: PCIe 4.0 x4 - Form factor 2280/22110
+  - name: M.2 2
+    position: '6'
+    description: PCIe 4.0 x4 - Form factor 2280/22110

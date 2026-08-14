@@ -1,0 +1,23 @@
+---
+manufacturer: QNAP
+model: TS-431X3
+slug: qnap-ts-431x3
+part_number: TS-431X3
+is_full_depth: false
+u_height: 0
+airflow: side-to-rear
+comments: '[TS-431X3 | Hardware Specs | QNAP](https://www.qnap.com/en-us/product/ts-431x3/specs/hardware)'
+weight: 7.03
+weight_unit: lb
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 15
+    allocated_draw: 10
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 2.5gbase-t
+  - name: sfpp0
+    type: 10gbase-x-sfpp
