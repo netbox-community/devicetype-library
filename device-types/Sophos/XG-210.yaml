@@ -28,6 +28,8 @@ power-ports:
   - name: PSU
     type: iec-60320-c14
     maximum_draw: 35
+  - name: PSU-EXT
+    type: dc-terminal
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
@@ -46,9 +48,6 @@ interfaces:
   - name: SFP(2)
     type: 1000base-x-sfp
 module-bays:
-  - name: PSU-EXT
-    position: '1'
-    description: Connector for optional 2nd external power supply
   - name: SFP(1)
     position: '1'
   - name: SFP(2)
