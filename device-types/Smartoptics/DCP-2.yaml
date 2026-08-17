@@ -8,8 +8,8 @@ weight: 2
 weight_unit: kg
 airflow: front-to-rear
 is_full_depth: true
-comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2023/01/so-ds-dcp-2-r4.3.pdf) 1U 2 slot chassis. Bay names match the Location
-  column of "show inventory".'
+comments: '[Smartoptics Datasheet](https://smartoptics.com/wp-content/uploads/2023/01/so-ds-dcp-2-r4.3.pdf) 1U 2 slot chassis. Bay and interface names match
+  the output of "show inventory" and "show network interfaces".'
 console-ports:
   - name: Console
     type: rj-45
@@ -33,10 +33,20 @@ interfaces:
   - name: eth0 / local
     type: 1000base-t
     mgmt_only: true
-  - name: eth2
+    description: Local craft port
+  - name: if-1/eth1
     type: 1000base-t
-  - name: eth3
+    mgmt_only: true
+    description: Management
+  - name: if-1/eth2
     type: 1000base-t
-  - name: eth4
+    mgmt_only: true
+    description: Management
+  - name: if-1/eth3
     type: 1000base-t
-# Eth4 also supports SFP.
+    mgmt_only: true
+    description: Management
+  - name: if-1/eth4
+    type: 1000base-t
+    mgmt_only: true
+    description: Management, also supports SFP
