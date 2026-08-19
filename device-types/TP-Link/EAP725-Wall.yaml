@@ -1,0 +1,26 @@
+---
+manufacturer: TP-Link
+model: EAP725-Wall
+slug: tp-link-eap725-wall
+part_number: EAP725-Wall
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: V1.2 [TP-Link Omada EAP725-Wall](https://www.omadanetworks.com/us/business-networking/omada-wifi-wall-plate/eap725-wall/)
+power-ports:
+  - name: PoE
+    type: dc-terminal
+interfaces:
+  - name: Uplink
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    rf_role: ap
+  - name: Downlink 2.5G
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Downlink 1
+    type: 1000base-t
+  - name: Downlink 2
+    type: 1000base-t

@@ -1,16 +1,16 @@
 ---
 manufacturer: Moxa
-model: NPort 5610-16
-slug: moxa-nport-5610-16
+model: NPort 5610-8
+slug: moxa-nport-5610-8
 u_height: 1
 is_full_depth: false
-weight: 2490
+weight: 2290
 weight_unit: g
 airflow: passive
 power-ports:
   - name: AC Power Input
     type: iec-60320-c14
-    allocated_draw: 16
+    allocated_draw: 15
 interfaces:
   - name: Ethernet
     type: 100base-tx
@@ -47,36 +47,4 @@ console-server-ports:
   - name: P8
     type: rj-45
     label: Port 8
-    description: RS-232
-  - name: P9
-    type: rj-45
-    label: Port 9
-    description: RS-232
-  - name: P10
-    type: rj-45
-    label: Port 10
-    description: RS-232
-  - name: P11
-    type: rj-45
-    label: Port 11
-    description: RS-232
-  - name: P12
-    type: rj-45
-    label: Port 12
-    description: RS-232
-  - name: P13
-    type: rj-45
-    label: Port 13
-    description: RS-232
-  - name: P14
-    type: rj-45
-    label: Port 14
-    description: RS-232
-  - name: P15
-    type: rj-45
-    label: Port 15
-    description: RS-232
-  - name: P16
-    type: rj-45
-    label: Port 16
     description: RS-232
