@@ -10,17 +10,12 @@ comments: '[Lenovo ThinkSystem DE4000H product guide](https://lenovopress.lenovo
 subdevice_role: parent
 weight: 25
 weight_unit: kg
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-    maximum_draw: 667
-    allocated_draw: 333
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 667
-    allocated_draw: 333
 module-bays:
   - name: Controller 1
     position: '1'
   - name: Controller 2
     position: '2'
+  - name: PSU1
+    position: 'PSU1'
+  - name: PSU2
+    position: 'PSU2'
