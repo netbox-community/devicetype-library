@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: XND-A9085RV
+slug: hanwha-xnd-a9085rv
+part_number: XND-A9085RV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 14.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha XND-A9085RV datasheet](https://www.hanwhavision.com/en/products/product-details/xnd-a9085rv) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-xnd-a9085rv)

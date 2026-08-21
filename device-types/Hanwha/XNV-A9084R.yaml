@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: XNV-A9084R
+slug: hanwha-xnv-a9084r
+part_number: XNV-A9084R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1220
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11.2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha XNV-A9084R datasheet](https://www.hanwhavision.com/en/products/camera/network/dome/xnv-a9084r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-xnv-a9084r)

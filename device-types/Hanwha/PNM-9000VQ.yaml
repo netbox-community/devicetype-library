@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: PNM-9000VQ
+slug: hanwha-pnm-9000vq
+part_number: PNM-9000VQ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha PNM-9000VQ datasheet](https://www.hanwhavision.com/en/products/camera/network/multi-sensor/pnm-9000vq/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pnm-9000vq)

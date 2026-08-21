@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: PNM-9322VQP
+slug: hanwha-pnm-9322vqp
+part_number: PNM-9322VQP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7050
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 65 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha PNM-9322VQP datasheet](https://hanwhavision.eu/product/pnm-9322vqp/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pnm-9322vqp)

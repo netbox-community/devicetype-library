@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: XNP-9300RW
+slug: hanwha-xnp-9300rw
+part_number: XNP-9300RW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 42 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha XNP-9300RW datasheet](https://www.hanwhavision.com/en/products/product-details/xnp-9300rw) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-xnp-9300rw)
