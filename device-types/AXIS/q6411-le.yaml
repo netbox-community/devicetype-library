@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: Q6411-LE
+slug: axis-q6411-le
+part_number: Q6411-LE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 51 W
+comments: >
+  [Axis Q6411-LE datasheet](https://www.axis.com/products/axis-q6411-le) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-q6411-le)
