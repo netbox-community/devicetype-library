@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HDW5259TM-ASE-IL
+slug: dahua-ipc-hdw5259tm-ase-il
+part_number: IPC-HDW5259TM-ASE-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua IPC-HDW5259TM-ASE-IL datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/WizMind-Series/5-Series/IPC-HDW5259TM-ASE-IL)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw5259tm-ase-il)

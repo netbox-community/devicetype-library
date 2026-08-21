@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3449T1-AS-PV
+slug: dahua-ipc-hfw3449t1-as-pv
+part_number: IPC-HFW3449T1-AS-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW3449T1-AS-PV datasheet](https://www.dahuasecurity.com/mena/products/All-Products/Discontinued-Products/Network-Cameras/IPC-HFW3449T1-AS-PV)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw3449t1-as-pv)
