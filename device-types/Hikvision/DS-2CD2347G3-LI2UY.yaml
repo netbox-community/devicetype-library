@@ -1,0 +1,24 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2347G3-LI2UY
+slug: hikvision-ds-2cd2347g3-li2uy
+part_number: DS-2CD2347G3-LI2UY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Hikvision DS-2CD2347G3-LI2UY datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000077863/DS-2CD2347G3-LI2UY_Datasheet_20260713.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2347g3-li2uy)

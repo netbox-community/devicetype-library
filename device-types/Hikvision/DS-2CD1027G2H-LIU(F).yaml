@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD1027G2H-LIU(F)
+slug: hikvision-ds-2cd1027g2h-liuf
+part_number: DS-2CD1027G2H-LIU(F)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD1027G2H-LIU(F) datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000059821/DS-2CD1027G2H-LIUF_Datasheet_20240718.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd1027g2h-liu)
