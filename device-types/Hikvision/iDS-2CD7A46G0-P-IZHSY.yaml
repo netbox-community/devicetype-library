@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: iDS-2CD7A46G0/P-IZHS(Y)
+slug: hikvision-ids-2cd7a46g0-p-izhsy
+part_number: iDS-2CD7A46G0/P-IZHS(Y)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hikvision iDS-2CD7A46G0/P-IZHS(Y) datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000080301/iDS-2CD7A46G0_P-IZHSY-C_Datasheet_20231122.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ids-2cd7a46g0-p-izhs-y)
