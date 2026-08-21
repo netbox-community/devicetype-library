@@ -1,0 +1,28 @@
+---
+manufacturer: Uniview
+model: IPC2B14SS-ADF28KMC-I1
+slug: uniview-ipc2b14ss-adf28kmc-i1
+part_number: IPC2B14SS-ADF28KMC-I1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC2B14SS-ADF28KMC-I1 datasheet](https://www.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEII_Series/IPC2B14SS-ADF28KMC-I1/) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/uniview-ipc2b14ss-adf28kmc-i1)

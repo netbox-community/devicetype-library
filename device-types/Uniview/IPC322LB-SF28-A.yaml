@@ -1,0 +1,23 @@
+---
+manufacturer: Uniview
+model: IPC322LB-SF28-A
+slug: uniview-ipc322lb-sf28-a
+part_number: IPC322LB-SF28-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Uniview IPC322LB-SF28-A datasheet](https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC322LB-SF28-A/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc322lb-sf28-a)
