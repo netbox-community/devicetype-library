@@ -1,0 +1,19 @@
+---
+manufacturer: Hanwha
+model: QND-8020R
+slug: hanwha-qnd-8020r
+part_number: QND-8020R
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha QND-8020R datasheet](https://hanwhavisionamerica.com/product/qnd-8020r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-qnd-8020r)

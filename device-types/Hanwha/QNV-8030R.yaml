@@ -1,0 +1,19 @@
+---
+manufacturer: Hanwha
+model: QNV-8030R
+slug: hanwha-qnv-8030r
+part_number: QNV-8030R
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha QNV-8030R datasheet](https://hanwhavisionamerica.com/product/qnv-8030r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-qnv-8030r)

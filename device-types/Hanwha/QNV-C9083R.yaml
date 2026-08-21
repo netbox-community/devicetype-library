@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: QNV-C9083R
+slug: hanwha-qnv-c9083r
+part_number: QNV-C9083R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 875
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha QNV-C9083R datasheet](https://hanwhavisionamerica.com/product/qnv-c9083r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-qnv-c9083r)
