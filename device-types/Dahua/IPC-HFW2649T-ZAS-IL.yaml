@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2649T-ZAS-IL
+slug: dahua-ipc-hfw2649t-zas-il
+part_number: IPC-HFW2649T-ZAS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW2649T-ZAS-IL datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/WizSense-Series/2-Series/IPC-HFW2649T-ZAS-IL)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2649t-zas-il)

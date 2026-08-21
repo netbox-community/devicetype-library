@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HDW2849T-S-PRO
+slug: dahua-ipc-hdw2849t-s-pro
+part_number: IPC-HDW2849T-S-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDW2849T-S-PRO datasheet](https://www.dahuasecurity.com/mena/products/All-Products/Network-Cameras/WizSense-2-Series/WizColor/IPC-HDW2849T-S-PRO)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw2849t-s-pro)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD4D825MB-HNR
+slug: dahua-sd4d825mb-hnr
+part_number: SD4D825MB-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD4D825MB-HNR datasheet](https://www.dahuasecurity.com/products/All-Products/PTZ-Cameras/WizSense-Series/SD4D825MB-HNR) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd4d825mb-hnr)
