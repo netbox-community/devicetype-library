@@ -27,7 +27,7 @@ jobs:
       - name: Checkout slim repo
         uses: actions/checkout@v4
         with:
-          repository: samsclub91/netbox-devicetype-library-slim
+          repository: watermarkautogroup/netbox-devicetype-library-slim
           token: ${{ secrets.SLIM_REPO_TOKEN }}
           path: slim
 
