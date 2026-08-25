@@ -1,0 +1,119 @@
+---
+manufacturer: VAST Data
+model: DBox DF-3015
+slug: vast-data-dbox-df-3015
+part_number: DF-3015
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+weight: 29.5
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  VAST Data DBox DF-3015 (Ceres V1).
+  1U storage chassis hosting 2x Active/Active Fabric Modules (DTrays).
+  Persistent Memory: 6.4TB | HyperScale Flash: 338TB.
+  (DF-3060 variant: 12TB PM / 1352TB Flash - same chassis.)
+  Per DTray: 2x Nvidia BlueField BF1600 (MBF1M606A-ESNAT), 16x Arm A72 cores,
+  64GB DDR4, 4x 100GbE/EDR IB, 2x 1GbE mgmt.
+  Chassis I/O: 8x 100GbE OR 8x EDR IB total (4 per DTray).
+device-bays:
+  - name: Tray 1
+  - name: Tray 2
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  # E1.L SSDs (22 slots)
+  - name: SSD-00
+    label: E1.L SSD Slot 00 (PCIe Gen.4)
+    position: '0'
+  - name: SSD-01
+    label: E1.L SSD Slot 01 (PCIe Gen.4)
+    position: '1'
+  - name: SSD-02
+    label: E1.L SSD Slot 02 (PCIe Gen.4)
+    position: '2'
+  - name: SSD-03
+    label: E1.L SSD Slot 03 (PCIe Gen.4)
+    position: '3'
+  - name: SSD-04
+    label: E1.L SSD Slot 04 (PCIe Gen.4)
+    position: '4'
+  - name: SSD-05
+    label: E1.L SSD Slot 05 (PCIe Gen.4)
+    position: '5'
+  - name: SSD-06
+    label: E1.L SSD Slot 06 (PCIe Gen.4)
+    position: '6'
+  - name: SSD-07
+    label: E1.L SSD Slot 07 (PCIe Gen.4)
+    position: '7'
+  - name: SSD-08
+    label: E1.L SSD Slot 08 (PCIe Gen.4)
+    position: '8'
+  - name: SSD-09
+    label: E1.L SSD Slot 09 (PCIe Gen.4)
+    position: '9'
+  - name: SSD-10
+    label: E1.L SSD Slot 10 (PCIe Gen.4)
+    position: '10'
+  - name: SSD-11
+    label: E1.L SSD Slot 11 (PCIe Gen.4)
+    position: '11'
+  - name: SSD-12
+    label: E1.L SSD Slot 12 (PCIe Gen.4)
+    position: '12'
+  - name: SSD-13
+    label: E1.L SSD Slot 13 (PCIe Gen.4)
+    position: '13'
+  - name: SSD-14
+    label: E1.L SSD Slot 14 (PCIe Gen.4)
+    position: '14'
+  - name: SSD-15
+    label: E1.L SSD Slot 15 (PCIe Gen.4)
+    position: '15'
+  - name: SSD-16
+    label: E1.L SSD Slot 16 (PCIe Gen.4)
+    position: '16'
+  - name: SSD-17
+    label: E1.L SSD Slot 17 (PCIe Gen.4)
+    position: '17'
+  - name: SSD-18
+    label: E1.L SSD Slot 18 (PCIe Gen.4)
+    position: '18'
+  - name: SSD-19
+    label: E1.L SSD Slot 19 (PCIe Gen.4)
+    position: '19'
+  - name: SSD-20
+    label: E1.L SSD Slot 20 (PCIe Gen.4)
+    position: '20'
+  - name: SSD-21
+    label: E1.L SSD Slot 21 (PCIe Gen.4)
+    position: '21'
+  # SCMs (8 slots)
+  - name: SCM-00
+    label: U.2 SCM Slot 00 (PCIe Gen.4 - Persistent Memory)
+    position: '0'
+  - name: SCM-01
+    label: U.2 SCM Slot 01 (PCIe Gen.4 - Persistent Memory)
+    position: '1'
+  - name: SCM-02
+    label: U.2 SCM Slot 02 (PCIe Gen.4 - Persistent Memory)
+    position: '2'
+  - name: SCM-03
+    label: U.2 SCM Slot 03 (PCIe Gen.4 - Persistent Memory)
+    position: '3'
+  - name: SCM-04
+    label: U.2 SCM Slot 04 (PCIe Gen.4 - Persistent Memory)
+    position: '4'
+  - name: SCM-05
+    label: U.2 SCM Slot 05 (PCIe Gen.4 - Persistent Memory)
+    position: '5'
+  - name: SCM-06
+    label: U.2 SCM Slot 06 (PCIe Gen.4 - Persistent Memory)
+    position: '6'
+  - name: SCM-07
+    label: U.2 SCM Slot 07 (PCIe Gen.4 - Persistent Memory)
+    position: '7'
