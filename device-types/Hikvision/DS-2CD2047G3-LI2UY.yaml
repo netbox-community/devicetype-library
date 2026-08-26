@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2047G3-LI2UY
+slug: hikvision-ds-2cd2047g3-li2uy
+part_number: DS-2CD2047G3-LI2UY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2047G3-LI2UY datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000077841/DS-2CD2047G3-LI2UY_SRB_Datasheet_20260105.pdf) |
+  [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2047g3-li2uy)
