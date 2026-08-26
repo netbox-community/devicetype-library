@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: TNV-C7013RC
+slug: hanwha-tnv-c7013rc
+part_number: TNV-C7013RC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1935
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha TNV-C7013RC datasheet](https://www.hanwhavision.com/en/products/product-details/tnv-c7013rc) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-tnv-c7013rc)
