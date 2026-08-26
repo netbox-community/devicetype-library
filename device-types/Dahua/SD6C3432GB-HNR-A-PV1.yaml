@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: SD6C3432GB-HNR-A-PV1
+slug: dahua-sd6c3432gb-hnr-a-pv1
+part_number: SD6C3432GB-HNR-A-PV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 23 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD6C3432GB-HNR-A-PV1 datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD6C3432GB-HNR-A-PV1_S0_datasheet_20250123.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd6c3432gb-hnr-a-pv1)
