@@ -40,16 +40,14 @@ comments: |
       - Output 12V 1A DC
   - Dimensions (L x W x H 142*90*24mm)
   - Environment:
-      - Operating temperature: 0°C - 40°C
-      - Storage temperature: -40°C - 70°C
+      - Operating temperature: 0C - 40C
+      - Storage temperature: -40C - 70C
       - Operating humidity: (10% - 90%) RH, non-condensing
       - Storage humidity: (5% - 90%) RH, non-condensing
-
 power-ports:
   - name: 12V1A
     type: dc-terminal
     maximum_draw: 7
-
 interfaces:
   - name: eth0
     type: 2.5gbase-t
