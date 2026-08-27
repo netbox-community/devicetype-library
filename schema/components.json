@@ -198,9 +198,11 @@
       },
       "required": [
         "name",
-        "type",
-        "rear_port"
+        "type"
       ],
+      "dependentRequired": {
+        "rear_port_position": ["rear_port"]
+      },
       "additionalProperties": false
     },
     "rear-port": {
