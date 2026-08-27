@@ -1,0 +1,20 @@
+---
+manufacturer: HP
+model: HP 260 G2
+slug: hp-260-g2
+part_number: 260 G2
+u_height: 0
+is_full_depth: false
+is_powered: true
+airflow: passive
+weight: 1.25
+weight_unit: kg
+
+power-ports:
+  - name: DC-In
+    type: dc-terminal
+    maximum_draw: 65
+
+interfaces:
+  - name: eth0
+    type: 1000base-t

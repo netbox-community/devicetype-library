@@ -1,0 +1,28 @@
+---
+manufacturer: MikroTik
+model: wAP 60G
+slug: mikrotik-wap-60g
+part_number: RBwAPG-60ad
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  [wAP 60G](https://mikrotik.com/product/wap_60g)
+
+  Dimensions: 185 x 85 x 30 mm
+
+  Hardware identical to
+  - wAP 60G AP (RBwAPG-60ad-SA, differs in license level).
+  - Wireless Wire (RBwAPG-60adkit, is a pre-configured pair of wAP 60G units).
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: wlan60-1
+    type: ieee802.11ad
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12-57 V

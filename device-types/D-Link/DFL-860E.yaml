@@ -1,0 +1,45 @@
+---
+manufacturer: D-Link
+model: DFL-860E
+slug: d-link-dfl-860e
+part_number: DFL-860E
+comments: '[DFL-860E NetDefend UTM Firewall](https://dlink.ru/ru/products/6/1381.html)'
+is_full_depth: false
+airflow: passive
+weight: 1.62
+weight_unit: kg
+u_height: 1
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb1
+    type: usb-a
+  - name: usb2
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    maximum_draw: 23
+interfaces:
+  - name: WAN1
+    type: 1000base-t
+  - name: WAN2
+    type: 1000base-t
+  - name: DMZ
+    type: 1000base-t
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 1000base-t
+  - name: LAN4
+    type: 1000base-t
+  - name: LAN5
+    type: 1000base-t
+  - name: LAN6
+    type: 1000base-t
+  - name: LAN7
+    type: 1000base-t
+  - name: LAN8
+    type: 1000base-t

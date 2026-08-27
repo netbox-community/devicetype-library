@@ -1,0 +1,44 @@
+---
+manufacturer: CyberPower
+model: PDU20MT8FNET
+slug: cyberpower-pdu20mt8fnet
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 5.73
+weight_unit: lb
+power-ports:
+  - name: Power Input
+    type: nema-l5-20p
+    maximum_draw: 2000
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 2
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 3
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 4
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 5
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 6
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 7
+    type: nema-5-20r
+    power_port: Power Input
+  - name: Outlet 8
+    type: nema-5-20r
+    power_port: Power Input
+console-ports:
+  - name: Serial
+    type: rj-45
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
