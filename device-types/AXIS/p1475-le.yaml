@@ -1,0 +1,22 @@
+---
+manufacturer: AXIS
+model: P1475-LE
+slug: axis-p1475-le
+part_number: P1475-LE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Axis P1475-LE datasheet](https://www.axis.com/products/axis-p1475-le) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-p1475-le)

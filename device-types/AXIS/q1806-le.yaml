@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: Q1806-LE
+slug: axis-q1806-le
+part_number: Q1806-LE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 31.1 W
+comments: >
+  [Axis Q1806-LE datasheet](https://www.axis.com/products/axis-q1806-le) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-q1806-le)
