@@ -1,0 +1,32 @@
+---
+manufacturer: Hanwha
+model: PNM-9085RQZ1
+slug: hanwha-pnm-9085rqz1
+part_number: PNM-9085RQZ1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5200
+weight_unit: g
+front_image: true
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: PoE Class 8, max 45W
+module-bays:
+  - name: microSD1
+    position: microSD1
+    description: up to 256 GB
+  - name: microSD2
+    position: microSD2
+    description: up to 256 GB
+  - name: microSD3
+    position: microSD3
+    description: up to 256 GB
+  - name: microSD4
+    position: microSD4
+    description: up to 256 GB
+comments: >
+  [Hanwha PNM-9085RQZ1 datasheet](https://www.hanwhavision.com/en/products/product-details/PNM-9085RQZ1)
