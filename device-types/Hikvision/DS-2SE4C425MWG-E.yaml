@@ -1,0 +1,19 @@
+---
+manufacturer: Hikvision
+model: DS-2SE4C425MWG-E
+slug: hikvision-ds-2se4c425mwg-e
+part_number: DS-2SE4C425MWG-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2SE4C425MWG-E datasheet](https://www.hikvision.com/en/products/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2se4c425mwg-e)

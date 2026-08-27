@@ -1,0 +1,26 @@
+---
+manufacturer: Hikvision
+model: DS-2CD3386G2-IS(U)
+slug: hikvision-ds-2cd3386g2-isu
+part_number: DS-2CD3386G2-IS(U)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD3386G2-IS(U) datasheet](https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Ultra-Series-SmartIP-/ds-2cd3386g2-is-u-/)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd3386g2-is-u)
