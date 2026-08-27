@@ -1,0 +1,23 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2043G2-I
+slug: hikvision-ds-2cd2043g2-i
+part_number: DS-2CD2043G2-I
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2CD2043G2-I datasheet](https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2043g2-i)

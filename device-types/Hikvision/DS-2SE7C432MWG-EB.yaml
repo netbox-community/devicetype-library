@@ -1,0 +1,22 @@
+---
+manufacturer: Hikvision
+model: DS-2SE7C432MWG-EB
+slug: hikvision-ds-2se7c432mwg-eb
+part_number: DS-2SE7C432MWG-EB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2SE7C432MWG-EB datasheet](https://assets.hikvision.com/prd/public/all/doc/m000072481/DS-2SE7C432MWG-EB_26F0_Datasheet_20250522.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2se7c432mwg-eb)

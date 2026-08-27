@@ -1,0 +1,24 @@
+---
+manufacturer: Hikvision
+model: iDS-2CD5T87G2/V-XZHSY
+slug: hikvision-ids-2cd5t87g2-v-xzhsy
+part_number: iDS-2CD5T87G2/V-XZHSY
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hikvision iDS-2CD5T87G2/V-XZHSY datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000172234/iDS-2CD5T87G2_V-XHSY_Datasheet_20250924.pdf) |
+  [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ids-2cd5t87g2-v-xzhsy)
