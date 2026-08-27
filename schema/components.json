@@ -183,11 +183,7 @@
           "type": "string",
           "pattern": "^[a-f0-9]{6}$"
         },
-        "rear_port": {
-          "type": "string",
-          "maxLength": 64
-        },
-        "rear_port_position": {
+        "positions": {
           "type": "integer",
           "minimum": 1
         },
