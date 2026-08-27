@@ -1,0 +1,24 @@
+---
+manufacturer: Lenovo
+model: 4XC7A97032
+part_number: 4XC7A97032
+profile: Expansion card
+description: Lenovo ThinkSystem Storage 10Gb BaseT 4 Port Adapter
+comments: '[Lenovo ThinkSystem Storage 10Gb BaseT 4 Port Adapter](https://lenovopress.lenovo.com/lp2074-lenovo-thinksystem-dg5200-and-dg7200-unified-storage-arrays#controllers)'
+interfaces:
+  - name: '{module}a'
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: '{module}b'
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: '{module}c'
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false
+  - name: '{module}d'
+    type: 10gbase-t
+    enabled: true
+    mgmt_only: false

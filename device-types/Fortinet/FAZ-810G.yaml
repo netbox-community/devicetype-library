@@ -1,0 +1,35 @@
+---
+manufacturer: Fortinet
+model: FortiAnalyzer 810G
+slug: fortinet-faz-810g
+part_number: FAZ-810G
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 11.68
+weight_unit: kg
+front_image: false
+rear_image: false
+comments: '[FortiAnalyzer datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortianalyzer.pdf), [FortiAnalyzer 810G QuickStart
+  Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/d5bd149c-a1be-11ee-8673-fa163e15d75b/FAZ-810G-QSG.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+interfaces:
+  - name: port1
+    type: 1000base-x-sfp
+  - name: port2
+    type: 1000base-x-sfp
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-t
+  - name: port6
+    type: 1000base-t

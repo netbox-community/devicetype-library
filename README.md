@@ -42,7 +42,7 @@ Each definition **must** include at minimum the following fields:
   is_full_depth: true
   ```
 
-**Note: We are asking that all new deivces also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
+**Note: We are asking that all new deivces also include the following optional fields where possible: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
 
@@ -112,7 +112,7 @@ Each definition **must** include at minimum the following fields:
 - `model`: The model number of the device type. This must be unique per manufacturer.
   - Type: String
 
-**Note: We are asking that new modules also include the following optional fields were possible: `airflow`, `weight` and `weight_unit`.**
+**Note: We are asking that new modules also include the following optional fields where possible: `airflow`, `weight` and `weight_unit`.**
 
 The following fields may **optionally** be declared:
 
@@ -254,7 +254,7 @@ to be added.
 - [rear-ports](#rear-ports "Availible in NetBox 2.5 and later")
 - [module-bays](#module-bays "Availible in NetBox 3.2 and later")
 - [device-bays](#device-bays "Availible in all versions of NetBox")
-- [inventory-items](#inventory-items "Availible in NetBox 3.2 and later")
+- [inventory-items](#inventory-items "Availible in NetBox 3.2 and later (As of 4.3 this has been depricated)")
 
 The available fields for each type of component are listed below.
 
@@ -367,7 +367,7 @@ Child devices are first-class Devices in their own right: That is, they are full
 
 **[Documentation](https://docs.netbox.dev/en/stable/models/dcim/inventoryitem/)**
 
-**As of Netbox 4.3 the use of Inventory Items has been deprecated therefore they are no longer going to be added to this repo.**
+**As of Netbox 4.3 the use of Inventory Items has been deprecated therefore they are no longer going to be added to this repo, please use `module-bays` instead**
 Inventory items represent hardware components installed within a device, such as a power supply or CPU or line card. They are intended to be used primarily for inventory purposes.
 
 Inventory items are hierarchical in nature, such that any individual item may be designated as the parent for other items. For example, an inventory item might be created to represent a line card which houses several SFP optics, each of which exists as a child item within the device. An inventory item may also be associated with a specific component within the same device. For example, you may wish to associate a transceiver with an interface.
@@ -404,7 +404,7 @@ There are two ways this repo focuses on keeping quality device-type definitions:
       - To install the pre-commit script: `pre-commit install`
   - Usage & Useful `pre-commit` Commands
     - After staging your files with `git`, to run the pre-commit script on changed files: `pre-commit run`
-    - To run the pre-commit script on all files: `pre-commit run -a`
+    - To run the pre-commit script on all files: `pre-commit run -all`
     - To uninstall the pre-commit script: `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
 - **GitHub Actions** - Automatically run before a PR can be merged. Repeats yamllint & validates against NetBox Device-Type Schema, note that if this fails then the PR cannot be merged.
