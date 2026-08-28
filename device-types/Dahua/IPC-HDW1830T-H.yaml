@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: IPC-HDW1830T-H
+slug: dahua-ipc-hdw1830t-h
+part_number: IPC-HDW1830T-H
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDW1830T-H datasheet](https://www.dahuasecurity.com/products/productDetail/94597) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw1830t-h)

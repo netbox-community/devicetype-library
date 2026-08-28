@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: ITC237-PW1B-IRZ-LR
+slug: dahua-itc237-pw1b-irz-lr
+part_number: ITC237-PW1B-IRZ-LR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua ITC237-PW1B-IRZ-LR datasheet](https://www.dahuasecurity.com/asset/upload/product/20180110/ITC237-PW1B-IRZ_Datasheet_20180105.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-itc237-pw1b-irz-lr)

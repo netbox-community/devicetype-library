@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2241T-ZS
+slug: dahua-ipc-hfw2241t-zs
+part_number: IPC-HFW2241T-ZS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW2241T-ZS datasheet](https://www.dahuasecurity.com/products/network-products/Network-Cameras/WizSense-2-Series/IR/IPC-HFW2241T-ZS) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2241t-zs)

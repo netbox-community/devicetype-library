@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2831TP-ZS
+slug: dahua-ipc-hfw2831tp-zs
+part_number: IPC-HFW2831TP-ZS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW2831TP-ZS datasheet](https://material.dahuasecurity.com/uploads/cpq/DH-IPC-HFW2831T-ZS-S2_datasheet_20201204.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2831tp-zs)

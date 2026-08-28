@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2549TL-S-PV
+slug: dahua-ipc-hfw2549tl-s-pv
+part_number: IPC-HFW2549TL-S-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW2549TL-S-PV datasheet](https://www.dahuasecurity.com/products/network-products/Network-Cameras/WizSense-2-Series/Smart-Dual-Light/IPC-HFW2549TL-S-PV)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2549tl-s-pv)

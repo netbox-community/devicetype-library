@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-PDW31259-A180-AS-PV-ATC
+slug: dahua-ipc-pdw31259-a180-as-pv-atc
+part_number: IPC-PDW31259-A180-AS-PV-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 13.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-PDW31259-A180-AS-PV-ATC datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-3-series/anti-corrosion/ipc-pdw31259-a180-as-pv-atc)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-pdw31259-a180-as-pv-atc)

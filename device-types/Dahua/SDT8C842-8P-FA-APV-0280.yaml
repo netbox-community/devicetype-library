@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: SDT8C842-8P-FA-APV-0280
+slug: dahua-sdt8c842-8p-fa-apv-0280
+part_number: SDT8C842-8P-FA-APV-0280
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 58 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SDT8C842-8P-FA-APV-0280 datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/x-spans-series/project/sdt8c842-8p-fa-apv-0280)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sdt8c842-8p-fa-apv-0280)

@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3849H-ZAS-PV-PRO
+slug: dahua-ipc-hdw3849h-zas-pv-pro
+part_number: IPC-HDW3849H-ZAS-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 940
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 13.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HDW3849H-ZAS-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-3-series/tioc-pro-wizcolor/ipc-hdw3849h-zas-pv-pro)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw3849h-zas-pv-pro)

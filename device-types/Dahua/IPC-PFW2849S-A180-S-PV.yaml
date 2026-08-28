@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-PFW2849S-A180-S-PV
+slug: dahua-ipc-pfw2849s-a180-s-pv
+part_number: IPC-PFW2849S-A180-S-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-PFW2849S-A180-S-PV datasheet](https://www.dahuasecurity.com/products/network-products/Network-Cameras/WizSense-2-Series/Smart-Dual-Light/IPC-PFW2849S-A180-S-PV)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-pfw2849s-a180-s-pv)

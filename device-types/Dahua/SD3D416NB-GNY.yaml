@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: SD3D416NB-GNY
+slug: dahua-sd3d416nb-gny
+part_number: SD3D416NB-GNY
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD3D416NB-GNY datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizsense-series/sd3/sd3d416nb-gny) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd3d416nb-gny)

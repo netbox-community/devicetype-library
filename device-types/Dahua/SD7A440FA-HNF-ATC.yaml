@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: SD7A440FA-HNF-ATC
+slug: dahua-sd7a440fa-hnf-atc
+part_number: SD7A440FA-HNF-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 33 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 33
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua SD7A440FA-HNF-ATC datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizmind-series/sd7/sd7a440fa-hnf-atc) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/dahua-sd7a440fa-hnf-atc)

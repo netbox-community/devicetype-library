@@ -1,0 +1,19 @@
+---
+manufacturer: Dahua
+model: SD49825GB-HNR
+slug: dahua-sd49825gb-hnr
+part_number: SD49825GB-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD49825GB-HNR datasheet](https://www.dahuasecurity.com/products/All-Products/PTZ-Cameras/WizSense-Series/SD4/SD49825GB-HNR) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd49825gb-hnr)

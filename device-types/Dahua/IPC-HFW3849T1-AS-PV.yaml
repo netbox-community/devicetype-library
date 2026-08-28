@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3849T1-AS-PV
+slug: dahua-ipc-hfw3849t1-as-pv
+part_number: IPC-HFW3849T1-AS-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW3849T1-AS-PV datasheet](https://www.dahuasecurity.com/asset/upload/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HFW3849T1-AS-PV-S3_datasheet_20220525.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw3849t1-as-pv)
