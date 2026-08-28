@@ -1,0 +1,27 @@
+---
+manufacturer: GeoVision
+model: GV-GBLF4813
+slug: geovision-gv-gblf4813
+part_number: GV-GBLF4813
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 710
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [GeoVision GV-GBLF4813 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/Bullet/Datasheet_GV-GBLF4813.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-gblf4813)

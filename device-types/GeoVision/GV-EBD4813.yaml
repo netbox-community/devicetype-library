@@ -1,0 +1,27 @@
+---
+manufacturer: GeoVision
+model: GV-EBD4813
+slug: geovision-gv-ebd4813
+part_number: GV-EBD4813
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-EBD4813 datasheet](https://www.geovision.com.tw/product/GV-EBD4813) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-ebd4813)

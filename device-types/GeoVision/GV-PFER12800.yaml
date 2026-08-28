@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-PFER12800
+slug: geovision-gv-pfer12800
+part_number: GV-PFER12800
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [GeoVision GV-PFER12800 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/Fisheye/Datasheet_IPCam_GV-PFER12800.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-pfer12800)

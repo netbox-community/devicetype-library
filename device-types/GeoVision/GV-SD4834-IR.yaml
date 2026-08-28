@@ -1,0 +1,27 @@
+---
+manufacturer: GeoVision
+model: GV-SD4834-IR
+slug: geovision-gv-sd4834-ir
+part_number: GV-SD4834-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-SD4834-IR datasheet](https://dlcdn.geovision.com.tw/Manual/Speed-Dome/Datasheet/Datasheet_IPCamSD4834-IR.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-sd4834-ir)

@@ -1,0 +1,27 @@
+---
+manufacturer: GeoVision
+model: GV-GBL12811
+slug: geovision-gv-gbl12811
+part_number: GV-GBL12811
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-GBL12811 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/Bullet/Datasheet_GV-GBL12811.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-gbl12811)

@@ -1,0 +1,28 @@
+---
+manufacturer: GeoVision
+model: GV-FER5702
+slug: geovision-gv-fer5702
+part_number: GV-FER5702
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-FER5702 datasheet](https://s3.amazonaws.com/geovision_downloads/Manual/IPCAM/Datasheet/Fisheye/Datasheet_IPCam_GV-FER5702.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/geovision-gv-fer5702)

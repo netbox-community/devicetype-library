@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-ABL4701
+slug: geovision-gv-abl4701
+part_number: GV-ABL4701
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [GeoVision GV-ABL4701 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/ABL/Datasheet_IPCamABL4701.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-abl4701)

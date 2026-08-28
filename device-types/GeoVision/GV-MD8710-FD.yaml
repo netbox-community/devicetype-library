@@ -1,0 +1,24 @@
+---
+manufacturer: GeoVision
+model: GV-MD8710-FD
+slug: geovision-gv-md8710-fd
+part_number: GV-MD8710-FD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [GeoVision GV-MD8710-FD datasheet](https://s3.amazonaws.com/geovision_downloads/Manual/IPCAM/Datasheet/FaceDetect/Datasheet_IPCamH265MD8710FD.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/geovision-gv-md8710-fd)
