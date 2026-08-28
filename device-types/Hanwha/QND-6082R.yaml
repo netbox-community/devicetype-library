@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: QND-6082R
+slug: hanwha-qnd-6082r
+part_number: QND-6082R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha QND-6082R datasheet](https://hanwhavisionamerica.com/product/qnd-6082r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-qnd-6082r)
