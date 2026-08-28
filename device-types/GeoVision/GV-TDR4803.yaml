@@ -1,0 +1,27 @@
+---
+manufacturer: GeoVision
+model: GV-TDR4803
+slug: geovision-gv-tdr4803
+part_number: GV-TDR4803
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-TDR4803 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/TDR/Datasheet_IPCamTDR4803.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-tdr4803)

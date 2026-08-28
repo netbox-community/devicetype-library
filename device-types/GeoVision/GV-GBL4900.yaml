@@ -1,0 +1,27 @@
+---
+manufacturer: GeoVision
+model: GV-GBL4900
+slug: geovision-gv-gbl4900
+part_number: GV-GBL4900
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 670
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [GeoVision GV-GBL4900 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/Bullet/Datasheet_GV-GBL4900.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-gbl4900)

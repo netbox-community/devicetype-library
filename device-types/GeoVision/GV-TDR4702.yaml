@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-TDR4702
+slug: geovision-gv-tdr4702
+part_number: GV-TDR4702
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [GeoVision GV-TDR4702 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/TDR/Datasheet_IPCamTDR4702.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-tdr4702)

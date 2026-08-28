@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-FER12700
+slug: geovision-gv-fer12700
+part_number: GV-FER12700
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+comments: >
+  [GeoVision GV-FER12700 datasheet](https://s3.amazonaws.com/geovision_downloads/Manual/Fisheye/Datasheet_IPCamH265FER12700.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-fer12700)
