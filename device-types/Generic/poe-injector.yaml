@@ -13,7 +13,12 @@ power-ports:
 front-ports:
   - name: POE
     type: 8p8c
-    rear_port: LAN
+    positions: 1
 rear-ports:
   - name: LAN
     type: 8p8c
+port-mappings:
+  - front_port: POE
+    front_port_position: 1
+    rear_port: LAN
+    rear_port_position: 1

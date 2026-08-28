@@ -28,41 +28,47 @@ rear-ports:
   - name: '{module}:8'
     type: sc-upc
     positions: 1
-
 front-ports:
   - name: '{module}:1'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 1
+    positions: 1
   - name: '{module}:2'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 2
+    positions: 1
   - name: '{module}:3'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 3
+    positions: 1
   - name: '{module}:4'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 4
+    positions: 1
   - name: '{module}:5'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 5
+    positions: 1
   - name: '{module}:6'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 6
+    positions: 1
   - name: '{module}:7'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 7
+    positions: 1
   - name: '{module}:8'
     type: sc-upc
     color: 0000ff
     description: SC/UPC Port 8
-
+    positions: 1
 port-mappings:
   - front_port: '{module}:1'
     front_port_position: 1

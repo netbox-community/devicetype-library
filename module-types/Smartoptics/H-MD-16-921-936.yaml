@@ -11,66 +11,83 @@ rear-ports:
     type: lc-upc
     positions: 19
     description: WDM Line I/O
-
 front-ports:
   - name: Filter/{module}/Ext
     type: lc-upc
     description: Incoming fiber for extension channel
+    positions: 1
   - name: Filter/{module}/Mon
     type: lc-upc
     description: Monitor port for line channel
+    positions: 1
   - name: Filter/{module}/NC
     type: lc-upc
     description: Not connected port
+    positions: 1
   - name: Filter/{module}/921
     type: lc-upc
     description: 192.1 THz
+    positions: 1
   - name: Filter/{module}/922
     type: lc-upc
     description: 192.2 THz
+    positions: 1
   - name: Filter/{module}/923
     type: lc-upc
     description: 192.3 THz
+    positions: 1
   - name: Filter/{module}/924
     type: lc-upc
     description: 192.4 THz
+    positions: 1
   - name: Filter/{module}/925
     type: lc-upc
     description: 192.5 THz
+    positions: 1
   - name: Filter/{module}/926
     type: lc-upc
     description: 192.6 THz
+    positions: 1
   - name: Filter/{module}/927
     type: lc-upc
     description: 192.7 THz
+    positions: 1
   - name: Filter/{module}/928
     type: lc-upc
     description: 192.8 THz
+    positions: 1
   - name: Filter/{module}/929
     type: lc-upc
     description: 192.9 THz
+    positions: 1
   - name: Filter/{module}/930
     type: lc-upc
     description: 193.0 THz
+    positions: 1
   - name: Filter/{module}/931
     type: lc-upc
     description: 193.1 THz
+    positions: 1
   - name: Filter/{module}/932
     type: lc-upc
     description: 193.2 THz
+    positions: 1
   - name: Filter/{module}/933
     type: lc-upc
     description: 193.3 THz
+    positions: 1
   - name: Filter/{module}/934
     type: lc-upc
     description: 193.4 THz
+    positions: 1
   - name: Filter/{module}/935
     type: lc-upc
     description: 193.5 THz
+    positions: 1
   - name: Filter/{module}/936
     type: lc-upc
     description: 193.6 THz
-
+    positions: 1
 port-mappings:
   - front_port: Filter/{module}/Ext
     front_port_position: 1

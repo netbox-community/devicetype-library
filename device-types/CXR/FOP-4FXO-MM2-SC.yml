@@ -20,7 +20,12 @@ interfaces:
 front-ports:
   - name: Phone
     type: 8p8c
-    rear_port: LAN
+    positions: 1
 rear-ports:
   - name: LAN
     type: sc-upc
+port-mappings:
+  - front_port: Phone
+    front_port_position: 1
+    rear_port: LAN
+    rear_port_position: 1

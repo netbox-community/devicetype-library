@@ -14,76 +14,76 @@ comments: '[KU 24x Specifications](https://itinfra.datwyler.com/en/copper-networ
 front-ports:
   - name: Port 01
     type: 8p8c
-    rear_port: Port 01
+    positions: 1
   - name: Port 02
     type: 8p8c
-    rear_port: Port 02
+    positions: 1
   - name: Port 03
     type: 8p8c
-    rear_port: Port 03
+    positions: 1
   - name: Port 04
     type: 8p8c
-    rear_port: Port 04
+    positions: 1
   - name: Port 05
     type: 8p8c
-    rear_port: Port 05
+    positions: 1
   - name: Port 06
     type: 8p8c
-    rear_port: Port 06
+    positions: 1
   - name: Port 07
     type: 8p8c
-    rear_port: Port 07
+    positions: 1
   - name: Port 08
     type: 8p8c
-    rear_port: Port 08
+    positions: 1
   - name: Port 09
     type: 8p8c
-    rear_port: Port 09
+    positions: 1
   - name: Port 10
     type: 8p8c
-    rear_port: Port 10
+    positions: 1
   - name: Port 11
     type: 8p8c
-    rear_port: Port 11
+    positions: 1
   - name: Port 12
     type: 8p8c
-    rear_port: Port 12
+    positions: 1
   - name: Port 13
     type: 8p8c
-    rear_port: Port 13
+    positions: 1
   - name: Port 14
     type: 8p8c
-    rear_port: Port 14
+    positions: 1
   - name: Port 15
     type: 8p8c
-    rear_port: Port 15
+    positions: 1
   - name: Port 16
     type: 8p8c
-    rear_port: Port 16
+    positions: 1
   - name: Port 17
     type: 8p8c
-    rear_port: Port 17
+    positions: 1
   - name: Port 18
     type: 8p8c
-    rear_port: Port 18
+    positions: 1
   - name: Port 19
     type: 8p8c
-    rear_port: Port 19
+    positions: 1
   - name: Port 20
     type: 8p8c
-    rear_port: Port 20
+    positions: 1
   - name: Port 21
     type: 8p8c
-    rear_port: Port 21
+    positions: 1
   - name: Port 22
     type: 8p8c
-    rear_port: Port 22
+    positions: 1
   - name: Port 23
     type: 8p8c
-    rear_port: Port 23
+    positions: 1
   - name: Port 24
     type: 8p8c
-    rear_port: Port 24
+    positions: 1
 rear-ports:
   - name: Port 01
     type: 8p8c
@@ -133,3 +133,100 @@ rear-ports:
     type: 8p8c
   - name: Port 24
     type: 8p8c
+port-mappings:
+  - front_port: Port 01
+    front_port_position: 1
+    rear_port: Port 01
+    rear_port_position: 1
+  - front_port: Port 02
+    front_port_position: 1
+    rear_port: Port 02
+    rear_port_position: 1
+  - front_port: Port 03
+    front_port_position: 1
+    rear_port: Port 03
+    rear_port_position: 1
+  - front_port: Port 04
+    front_port_position: 1
+    rear_port: Port 04
+    rear_port_position: 1
+  - front_port: Port 05
+    front_port_position: 1
+    rear_port: Port 05
+    rear_port_position: 1
+  - front_port: Port 06
+    front_port_position: 1
+    rear_port: Port 06
+    rear_port_position: 1
+  - front_port: Port 07
+    front_port_position: 1
+    rear_port: Port 07
+    rear_port_position: 1
+  - front_port: Port 08
+    front_port_position: 1
+    rear_port: Port 08
+    rear_port_position: 1
+  - front_port: Port 09
+    front_port_position: 1
+    rear_port: Port 09
+    rear_port_position: 1
+  - front_port: Port 10
+    front_port_position: 1
+    rear_port: Port 10
+    rear_port_position: 1
+  - front_port: Port 11
+    front_port_position: 1
+    rear_port: Port 11
+    rear_port_position: 1
+  - front_port: Port 12
+    front_port_position: 1
+    rear_port: Port 12
+    rear_port_position: 1
+  - front_port: Port 13
+    front_port_position: 1
+    rear_port: Port 13
+    rear_port_position: 1
+  - front_port: Port 14
+    front_port_position: 1
+    rear_port: Port 14
+    rear_port_position: 1
+  - front_port: Port 15
+    front_port_position: 1
+    rear_port: Port 15
+    rear_port_position: 1
+  - front_port: Port 16
+    front_port_position: 1
+    rear_port: Port 16
+    rear_port_position: 1
+  - front_port: Port 17
+    front_port_position: 1
+    rear_port: Port 17
+    rear_port_position: 1
+  - front_port: Port 18
+    front_port_position: 1
+    rear_port: Port 18
+    rear_port_position: 1
+  - front_port: Port 19
+    front_port_position: 1
+    rear_port: Port 19
+    rear_port_position: 1
+  - front_port: Port 20
+    front_port_position: 1
+    rear_port: Port 20
+    rear_port_position: 1
+  - front_port: Port 21
+    front_port_position: 1
+    rear_port: Port 21
+    rear_port_position: 1
+  - front_port: Port 22
+    front_port_position: 1
+    rear_port: Port 22
+    rear_port_position: 1
+  - front_port: Port 23
+    front_port_position: 1
+    rear_port: Port 23
+    rear_port_position: 1
+  - front_port: Port 24
+    front_port_position: 1
+    rear_port: Port 24
+    rear_port_position: 1

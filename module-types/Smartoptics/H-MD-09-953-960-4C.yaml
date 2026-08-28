@@ -11,42 +11,51 @@ rear-ports:
     type: lc-upc
     description: WDM Line I/O
     positions: 13
-
 front-ports:
   - name: Filter/{module}/Ext
     type: lc-upc
     description: Incoming fiber for extension channel
+    positions: 1
   - name: Filter/{module}/Mon
     type: lc-upc
     description: Monitor port for line channel
+    positions: 1
   - name: Filter/{module}/NC
     type: lc-upc
     description: Not connected port
+    positions: 1
   - name: Filter/{module}/953
     type: lc-upc
     description: 195.3 THz
+    positions: 1
   - name: Filter/{module}/954
     type: lc-upc
     description: 195.4 THz
+    positions: 1
   - name: Filter/{module}/955
     type: lc-upc
     description: 195.5 THz
+    positions: 1
   - name: Filter/{module}/956
     type: lc-upc
     description: 195.6 THz
+    positions: 1
   - name: Filter/{module}/957
     type: lc-upc
     description: 195.7 THz
+    positions: 1
   - name: Filter/{module}/958
     type: lc-upc
     description: 195.8 THz
+    positions: 1
   - name: Filter/{module}/959
     type: lc-upc
     description: 195.9 THz
+    positions: 1
   - name: Filter/{module}/960
     type: lc-upc
     description: 196.0 THz
-
+    positions: 1
 port-mappings:
   - front_port: Filter/{module}/Ext
     front_port_position: 1

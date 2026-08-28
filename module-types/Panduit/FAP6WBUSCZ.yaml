@@ -5,56 +5,87 @@ part_number: FAP6WBUSCZ
 front-ports:
   - name: '{module}:1'
     type: sc-upc
-    rear_port: '{module}:1'
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:2'
     type: sc-upc
-    rear_port: '{module}:2'
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:3'
     type: sc-upc
-    rear_port: '{module}:3'
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:4'
     type: sc-upc
-    rear_port: '{module}:4'
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:5'
     type: sc-upc
-    rear_port: '{module}:5'
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:6'
     type: sc-upc
-    rear_port: '{module}:6'
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: sc-upc
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:2'
     type: sc-upc
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:3'
     type: sc-upc
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:4'
     type: sc-upc
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:5'
     type: sc-upc
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:6'
     type: sc-upc
     color: 007cb0
     description: Simplex SC Port
+    positions: 1
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:6'
+    rear_port_position: 1
