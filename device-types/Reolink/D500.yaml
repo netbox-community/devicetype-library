@@ -1,0 +1,23 @@
+---
+manufacturer: Reolink
+model: D500
+slug: reolink-d500
+part_number: D500
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Reolink D500 datasheet](https://reolink.com/product/rlk8-520d4/) | [Specs on cctv-database.com](https://cctv-database.com/camera/reolink-d500)

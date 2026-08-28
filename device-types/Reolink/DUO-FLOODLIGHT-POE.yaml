@@ -1,0 +1,25 @@
+---
+manufacturer: Reolink
+model: Duo Floodlight PoE
+slug: reolink-duo-floodlight-poe
+part_number: Duo Floodlight PoE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Reolink Duo Floodlight PoE datasheet](https://reolink.com/product/reolink-duo-floodlight-poe/) | [Specs on cctv-database.com](https://cctv-database.com/camera/reolink-duo-floodlight-poe)
