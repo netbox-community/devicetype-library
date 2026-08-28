@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2849M-S-B-PRO
+slug: dahua-ipc-hfw2849m-s-b-pro
+part_number: IPC-HFW2849M-S-B-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW2849M-S-B-PRO datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/wizcolor/ipc-hfw2849m-s-b-pro)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2849m-s-b-pro)

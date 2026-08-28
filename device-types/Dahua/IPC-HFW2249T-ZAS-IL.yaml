@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2249T-ZAS-IL
+slug: dahua-ipc-hfw2249t-zas-il
+part_number: IPC-HFW2249T-ZAS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HFW2249T-ZAS-IL datasheet](https://www.dahuasecurity.com/products/network-products/Network-Cameras/WizSense-2-Series/Smart-Dual-Light/IPC-HFW2249T-ZAS-IL=S2)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2249t-zas-il)

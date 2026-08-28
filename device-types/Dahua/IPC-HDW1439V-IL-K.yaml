@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HDW1439V-IL-K
+slug: dahua-ipc-hdw1439v-il-k
+part_number: IPC-HDW1439V-IL-K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDW1439V-IL-K datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/Entry-Level-Series/1-Series/IPC-HDW1439V-IL-K)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw1439v-il-k)

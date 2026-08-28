@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2449S-S-IL
+slug: dahua-ipc-hfw2449s-s-il
+part_number: IPC-HFW2449S-S-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW2449S-S-IL datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/WizSense-2-Series/Smart-Dual-Light/IPC-HFW2449S-S-IL)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw2449s-s-il)

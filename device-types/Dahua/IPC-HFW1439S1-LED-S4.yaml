@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: IPC-HFW1439S1-LED-S4
+slug: dahua-ipc-hfw1439s1-led-s4
+part_number: IPC-HFW1439S1-LED-S4
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW1439S1-LED-S4 datasheet](https://material.dahuasecurity.com/uploads/soft/20230201/DH-IPC-HFW1439S1-LED-S4_datasheet_20220408-(1).pdf) |
+  [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw1439s1-led-s4)

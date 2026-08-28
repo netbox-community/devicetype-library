@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: PTZ1A225-HNR-GB
+slug: dahua-ptz1a225-hnr-gb
+part_number: PTZ1A225-HNR-GB
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua PTZ1A225-HNR-GB datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/positioning-systems/ptz1a225-hnr-gb)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ptz1a225-hnr-gb)

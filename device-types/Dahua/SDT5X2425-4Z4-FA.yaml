@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SDT5X2425-4Z4-FA
+slug: dahua-sdt5x2425-4z4-fa
+part_number: SDT5X2425-4Z4-FA
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 51 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 51
+    description: 36V DC
+comments: >
+  [Dahua SDT5X2425-4Z4-FA datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/x-spans-series/project/sdt5x2425-4z4-fa) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/dahua-sdt5x2425-4z4-fa)

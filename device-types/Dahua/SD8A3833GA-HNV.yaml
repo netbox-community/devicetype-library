@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: SD8A3833GA-HNV
+slug: dahua-sd8a3833ga-hnv
+part_number: SD8A3833GA-HNV
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 33 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 33
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD8A3833GA-HNV datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizmind-series/sd8/sd8a3833ga-hnv) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd8a3833ga-hnv)

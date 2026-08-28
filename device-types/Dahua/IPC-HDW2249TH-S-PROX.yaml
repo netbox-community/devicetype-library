@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HDW2249TH-S-PROX
+slug: dahua-ipc-hdw2249th-s-prox
+part_number: IPC-HDW2249TH-S-PROX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 580
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HDW2249TH-S-PROX datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/wizcolor/ipc-hdw2249th-s-prox)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw2249th-s-prox)

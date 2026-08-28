@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW2841R-ZAS
+slug: dahua-ipc-hdbw2841r-zas
+part_number: IPC-HDBW2841R-ZAS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDBW2841R-ZAS datasheet](https://www.dahuasecurity.com/products/network-products/Network-Cameras/WizSense-2-Series/IR/IPC-HDBW2841R-ZAS) |
+  [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdbw2841r-zas)

@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: SD4E825GB-HNR-A-PV1
+slug: dahua-sd4e825gb-hnr-a-pv1
+part_number: SD4E825GB-HNR-A-PV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD4E825GB-HNR-A-PV1 datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizsense-series/sd4/sd4e825gb-hnr-a-pv1) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/dahua-sd4e825gb-hnr-a-pv1)

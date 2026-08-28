@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3441E-S
+slug: dahua-ipc-hfw3441e-s
+part_number: IPC-HFW3441E-S
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW3441E-S datasheet](https://www.dahuasecurity.com/ph/products/All-Products/Network-Cameras/WizSense-Series/3-Series/4MP/IPC-HFW3441E-S-S2=S2)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw3441e-s)

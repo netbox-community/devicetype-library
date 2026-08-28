@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: SD5A445GB-HNR
+slug: dahua-sd5a445gb-hnr
+part_number: SD5A445GB-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD5A445GB-HNR datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizsense-series/sd5/sd5a445gb-hnr) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd5a445gb-hnr)
