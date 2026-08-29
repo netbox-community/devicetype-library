@@ -1,0 +1,23 @@
+---
+manufacturer: Reolink
+model: B400
+slug: reolink-b400
+part_number: B400
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 415
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Reolink B400 datasheet](https://reolink.com/product/b400/) | [Specs on cctv-database.com](https://cctv-database.com/camera/reolink-b400)

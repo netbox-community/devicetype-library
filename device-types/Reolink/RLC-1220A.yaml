@@ -1,0 +1,27 @@
+---
+manufacturer: Reolink
+model: RLC-1220A
+slug: reolink-rlc-1220a
+part_number: RLC-1220A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 467.5
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Reolink RLC-1220A datasheet](https://reolink.com/product/rlc-1220a/) | [Specs on cctv-database.com](https://cctv-database.com/camera/reolink-rlc-1220a)

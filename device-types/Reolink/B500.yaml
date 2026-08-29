@@ -1,0 +1,23 @@
+---
+manufacturer: Reolink
+model: B500
+slug: reolink-b500
+part_number: B500
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Reolink B500 datasheet](https://cdn.reolink.com/files/docs/specs/RLK8-410B4-NVR-Kit-IP-Camera-Specifications.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/reolink-b500)
