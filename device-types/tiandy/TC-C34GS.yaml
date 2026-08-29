@@ -1,0 +1,23 @@
+---
+manufacturer: Tiandy
+model: TC-C34GS
+slug: tiandy-tc-c34gs
+part_number: TC-C34GS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Tiandy TC-C34GS datasheet](https://www.anabon.com/wp-content/uploads/2020/12/TC-C34GS-Spec-I5-E-C-4mm.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/tiandy-tc-c34gs)
