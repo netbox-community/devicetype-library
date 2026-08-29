@@ -1,0 +1,23 @@
+---
+manufacturer: FLIR
+model: Elara FC-324T
+slug: flir-elara-fc-324t
+part_number: Elara FC-324T
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [FLIR Elara FC-324T datasheet](https://www.flir.com/security/) | [Specs on cctv-database.com](https://cctv-database.com/camera/flir-elara-fc-324t)

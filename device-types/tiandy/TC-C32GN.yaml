@@ -1,0 +1,23 @@
+---
+manufacturer: Tiandy
+model: TC-C32GN
+slug: tiandy-tc-c32gn
+part_number: TC-C32GN
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Tiandy TC-C32GN datasheet](https://en.tiandy.com/index.php?s=%2FHome%2FFile%2FdownloadFile%2Fid%2F1811.html) | [Specs on cctv-database.com](https://cctv-database.com/camera/tiandy-tc-c32gn)

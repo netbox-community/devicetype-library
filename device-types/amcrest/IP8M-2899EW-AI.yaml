@@ -1,0 +1,24 @@
+---
+manufacturer: Amcrest
+model: IP8M-2899EW-AI
+slug: amcrest-ip8m-2899ew-ai
+part_number: IP8M-2899EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Amcrest IP8M-2899EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/4505722116621-Technical-Specifications-IP8M-2899EW-AI) | [Specs on cctv-database.com](https://cctv-database.com/camera/amcrest-ip8m-2899ew-ai)

@@ -1,0 +1,23 @@
+---
+manufacturer: FLIR
+model: Quasar CP-6302-11-I
+slug: flir-quasar-cp-6302-11-i
+part_number: Quasar CP-6302-11-I
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [FLIR Quasar CP-6302-11-I datasheet](https://www.flir.com/security/) | [Specs on cctv-database.com](https://cctv-database.com/camera/flir-quasar-cp-6302-11-i)

@@ -1,0 +1,15 @@
+---
+manufacturer: Mobotix
+model: M73
+slug: mobotix-m73
+part_number: M73
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [Mobotix M73 datasheet](https://www.mobotix.com/en/m73-high-performance-iot-camera) | [Specs on cctv-database.com](https://cctv-database.com/camera/mobotix-m73)
