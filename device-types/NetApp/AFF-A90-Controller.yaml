@@ -1,0 +1,59 @@
+---
+manufacturer: NetApp
+model: AFF A90 Controller
+slug: netapp-aff-a90-controller
+description: AFF A90 HA System Controller
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+comments: |
+  NetApp AFF A70/A90 controller module. There are no onboard data ports; all data
+  connectivity is via PCIe slots. In a typical population slots 1 and 7 hold dual-port
+  ConnectX-6 Dx (40/100GbE), slots 6 and 11 hold dual-port ConnectX-7 (up to
+  400GbE), slot 4 holds NVRAM. The e0M management port and the BMC share a single
+  1GbE RJ45 wrench port via NC-SI sideband.
+  Specifications: https://docs.netapp.com/us-en/ontap-systems/a70-90/aff-a-series-affa90-overview.html
+console-ports:
+  - name: console
+    type: rj-45
+module-bays:
+  - name: PSU 1
+    label: PSU Slot 1
+    position: '1'
+  - name: PSU 2
+    label: PSU Slot 2
+    position: '2'
+interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+    label: wrench
+    description: Onboard management port
+  - name: bmc
+    type: virtual
+    mgmt_only: true
+    description: Service processor, NC-SI sideband sharing the e0M port
+  - name: e1a
+    type: 100gbase-x-qsfp28
+    description: Slot 1 ConnectX-6 Dx
+  - name: e1b
+    type: 100gbase-x-qsfp28
+    description: Slot 1 ConnectX-6 Dx
+  - name: e7a
+    type: 100gbase-x-qsfp28
+    description: Slot 7 ConnectX-6 Dx
+  - name: e7b
+    type: 100gbase-x-qsfp28
+    description: Slot 7 ConnectX-6 Dx
+  - name: e6a
+    type: 400gbase-x-qsfp112
+    description: Slot 6 ConnectX-7
+  - name: e6b
+    type: 400gbase-x-qsfp112
+    description: Slot 6 ConnectX-7
+  - name: e11a
+    type: 400gbase-x-qsfp112
+    description: Slot 11 ConnectX-7
+  - name: e11b
+    type: 400gbase-x-qsfp112
+    description: Slot 11 ConnectX-7
