@@ -1,0 +1,19 @@
+---
+manufacturer: Milesight
+model: MS-C9674-PB
+slug: milesight-ms-c9674-pb
+part_number: MS-C9674-PB
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Milesight MS-C9674-PB datasheet](https://www.milesight.com/product/ms-c9674-pb) | [Specs on cctv-database.com](https://cctv-database.com/camera/milesight-ms-c9674-pb)
