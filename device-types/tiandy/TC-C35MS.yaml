@@ -1,0 +1,24 @@
+---
+manufacturer: Tiandy
+model: TC-C35MS
+slug: tiandy-tc-c35ms
+part_number: TC-C35MS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Tiandy TC-C35MS datasheet](https://allysec.com/products/tiandy-pro-series-starlight-5mp-ip-dome-camera-tc-c35ms-spec-i3-a-e-y-m-c-h-2-7-13-5mm-v4-0)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/tiandy-tc-c35ms)

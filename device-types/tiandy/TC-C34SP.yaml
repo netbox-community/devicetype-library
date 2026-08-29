@@ -1,0 +1,23 @@
+---
+manufacturer: Tiandy
+model: TC-C34SP
+slug: tiandy-tc-c34sp
+part_number: TC-C34SP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Tiandy TC-C34SP datasheet](https://rxtx.com.au/tc-c34sp-spec-w-e-y-m-2-8mm-tiandy-4mp-fixed-color-maker-turret-camera/) | [Specs on cctv-database.com](https://cctv-database.com/camera/tiandy-tc-c34sp)
