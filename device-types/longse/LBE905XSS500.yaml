@@ -6,6 +6,9 @@ part_number: LBE905XSS500
 u_height: 0
 is_full_depth: false
 airflow: passive
+power-ports:
+  - name: DC IN
+    type: dc-terminal
 interfaces:
   - name: eth0
     type: 100base-tx
