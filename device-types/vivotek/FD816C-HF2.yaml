@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: FD816C-HF2
+slug: vivotek-fd816c-hf2
+part_number: FD816C-HF2
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vivotek FD816C-HF2 datasheet](https://www.vivotek.com/en-US/products/network-cameras/dome) | [Specs on cctv-database.com](https://cctv-database.com/camera/vivotek-fd816c-hf2)

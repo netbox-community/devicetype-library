@@ -1,0 +1,18 @@
+---
+manufacturer: Vivotek
+model: MS9321-EHV-V2
+slug: vivotek-ms9321-ehv-v2
+part_number: MS9321-EHV-V2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 18.81 W
+comments: >
+  [Vivotek MS9321-EHV-V2 datasheet](https://www.vivotek.com/products/network-cameras/panoramic/ms9321-ehv-v2?tab=spec) | [Specs on cctv-database.com](https://cctv-database.com/camera/vivotek-ms9321-ehv-v2)
