@@ -1,0 +1,23 @@
+---
+manufacturer: FLIR
+model: Elara FB-632T
+slug: flir-elara-fb-632t
+part_number: Elara FB-632T
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [FLIR Elara FB-632T datasheet](https://www.flir.com/security/) | [Specs on cctv-database.com](https://cctv-database.com/camera/flir-elara-fb-632t)
