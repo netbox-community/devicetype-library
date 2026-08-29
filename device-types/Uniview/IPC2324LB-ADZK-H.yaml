@@ -1,0 +1,28 @@
+---
+manufacturer: Uniview
+model: IPC2324LB-ADZK-H
+slug: uniview-ipc2324lb-adzk-h
+part_number: IPC2324LB-ADZK-H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC2324LB-ADZK-H datasheet](https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/c7aea8f5-b257-4309-bb57-05d83e5f46f3/e33396f1-b169-47bf-973c-60a26ba1b4d8.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc2324lb-adzk-h)
