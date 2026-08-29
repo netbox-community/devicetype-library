@@ -1,0 +1,21 @@
+---
+manufacturer: Amcrest
+model: IP5M-B1186EW
+slug: amcrest-ip5m-b1186ew
+part_number: IP5M-B1186EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Amcrest IP5M-B1186EW datasheet](https://amcrest.com/5mp-poe-camera-bullet-ip5m-b1186ew-28mm.html) | [Specs on cctv-database.com](https://cctv-database.com/camera/amcrest-ip5m-b1186ew)
