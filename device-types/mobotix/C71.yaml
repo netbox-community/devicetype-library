@@ -1,0 +1,19 @@
+---
+manufacturer: Mobotix
+model: C71
+slug: mobotix-c71
+part_number: C71
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Mobotix C71 datasheet](https://www.mobotix.com/en/c71) | [Specs on cctv-database.com](https://cctv-database.com/camera/mobotix-c71)
