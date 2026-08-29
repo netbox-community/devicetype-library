@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP 1230 B G4
+slug: intelbras-vip-1230-b-g4
+part_number: VIP 1230 B G4
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 1230 B G4 datasheet](https://www.intelbras.com/en/1000-series-intelligent-ip-camera-vip-1230-b-g4) | [Specs on cctv-database.com](https://cctv-database.com/camera/intelbras-vip-1230-b-g4)
