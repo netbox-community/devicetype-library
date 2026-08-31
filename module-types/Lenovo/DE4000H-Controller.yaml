@@ -3,11 +3,11 @@ manufacturer: Lenovo
 model: DE4000H-Controller
 comments: ThinkSystem DE4000H-Controller
 console-ports:
-  - name: serial
+  - name: {module}:serial
     type: rj-45
-  - name: usb
+  - name: {module}:usb
     type: usb-micro-a
-  - name: flash
+  - name: {module}:flash
     type: usb-a
 interfaces:
   - name: 10GE(16g FC)/{module}/0
