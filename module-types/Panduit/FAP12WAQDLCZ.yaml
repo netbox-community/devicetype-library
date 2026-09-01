@@ -1,57 +1,126 @@
 ---
 manufacturer: Panduit
-model: Opticom Fiber Adapter Panel (12 LC Duplex/24 Strand, Aqua)
+model: Opticom Fiber Adapter Panel, OM4, 12 LC Duplex, Aqua
 part_number: FAP12WAQDLCZ
 front-ports:
-  - name: '01'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 1
-  - name: '02'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 2
-  - name: '03'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 3
-  - name: '04'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 4
-  - name: '05'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 5
-  - name: '06'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 6
-  - name: '07'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 7
-  - name: '08'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 8
-  - name: '09'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 9
-  - name: '10'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 10
-  - name: '11'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 11
-  - name: '12'
-    type: lc
-    rear_port: '01'
-    rear_port_position: 12
+  - name: '{module}:1-2'
+    type: lc-upc
+    rear_port: '{module}:1-2'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:3-4'
+    type: lc-upc
+    rear_port: '{module}:3-4'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:5-6'
+    type: lc-upc
+    rear_port: '{module}:5-6'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:7-8'
+    type: lc-upc
+    rear_port: '{module}:7-8'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:9-10'
+    type: lc-upc
+    rear_port: '{module}:9-10'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:11-12'
+    type: lc-upc
+    rear_port: '{module}:11-12'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:13-14'
+    type: lc-upc
+    rear_port: '{module}:13-14'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:15-16'
+    type: lc-upc
+    rear_port: '{module}:15-16'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:17-18'
+    type: lc-upc
+    rear_port: '{module}:17-18'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:19-20'
+    type: lc-upc
+    rear_port: '{module}:19-20'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:21-22'
+    type: lc-upc
+    rear_port: '{module}:21-22'
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:23-24'
+    type: lc-upc
+    rear_port: '{module}:23-24'
+    color: 00ffff
+    description: Duplex LC Port
 rear-ports:
-  - name: '01'
-    type: lc
-    positions: 12
+  - name: '{module}:1-2'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:3-4'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:5-6'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:7-8'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:9-10'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:11-12'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:13-14'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:15-16'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:17-18'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:19-20'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:21-22'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port
+  - name: '{module}:23-24'
+    type: lc-upc
+    positions: 1
+    color: 00ffff
+    description: Duplex LC Port

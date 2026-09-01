@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: M2036-LE
+slug: axis-m2036-le
+part_number: M2036-LE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 491
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 12.95 W
+comments: >
+  [Axis M2036-LE datasheet](https://www.axis.com/products/axis-m2036-le) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-m2036-le)

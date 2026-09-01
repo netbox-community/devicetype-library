@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC98246EFW-X42-W-VH1
+slug: uniview-ipc98246efw-x42-w-vh1
+part_number: IPC98246EFW-X42-W-VH1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 4, max 74 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 74
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC98246EFW-X42-W-VH1 datasheet](https://www.uniview.com/Products/PTZ_Cameras/Pro_Series/Pro_Series/IPC98246EFW-X42-W-VH1/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc98246efw-x42-w-vh1)

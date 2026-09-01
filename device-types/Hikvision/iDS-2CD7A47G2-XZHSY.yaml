@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: iDS-2CD7A47G2-XZHSY
+slug: hikvision-ids-2cd7a47g2-xzhsy
+part_number: iDS-2CD7A47G2-XZHSY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hikvision iDS-2CD7A47G2-XZHSY datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000066340/iDS-2CD7A47G2-XZHSY_Datasheet_20251205.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ids-2cd7a47g2-xzhsy)

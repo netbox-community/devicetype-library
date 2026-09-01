@@ -1,0 +1,46 @@
+---
+manufacturer: Dell
+model: PowerEdge R670
+slug: dell-poweredge-r670
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 20.42
+weight_unit: kg
+description: Dell PowerEdge R670 1U Rack Server
+comments: >-
+  1U dual-socket rack server with two Intel Xeon 6 processors (E-cores or
+  P-cores) and 32 DDR5 DIMM slots. Front bays support up to 20x EDSFF E3.S Gen5
+  NVMe or up to 10x 2.5-inch drives. Available in rear I/O (hot aisle) and front
+  I/O (cold aisle) configurations. Hot swap redundant power supplies from 800 W
+  to 1800 W. The rear I/O configuration modelled here has PCIe slots 1 and 4 and
+  OCP NIC 3.0 slots 2 and 5. The front riser can carry PCIe slots 31 and 32.
+  BOSS-N1 occupies slot 34 (front) or slot 3 (rear). Dimensions: 42.8 mm x 482 mm x 815.14 mm
+  (rear I/O, without bezel).
+  [Specification Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r670-spec-sheet.pdf)
+console-ports:
+  - name: iDRAC Direct
+    type: usb-c
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: OCP NIC Slot 2 (3.0)
+    label: '2'
+    position: PCIe-2
+  - name: OCP NIC Slot 5 (3.0)
+    label: '5'
+    position: PCIe-5
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: PCIe Slot 1
+    label: '1'
+    position: PCIe-1
+  - name: PCIe Slot 4
+    label: '4'
+    position: PCIe-4
