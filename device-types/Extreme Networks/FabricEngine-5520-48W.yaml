@@ -1,0 +1,295 @@
+---
+manufacturer: Extreme Networks
+model: FabricEngine-5520-48W
+slug: extreme-networks-fabricengine-5520-48w
+part_number: 5520-48W
+u_height: 1
+is_full_depth: true
+weight: 6.06
+weight_unit: kg
+airflow: front-to-rear
+comments: Dual-persona Universal Hardware running Fabric Engine (VOSS). [5520 Series Datasheet](https://extr-p-001.sitecorecontenthub.cloud/api/public/content/5520-Series-Data-Sheet)
+console-ports:
+  - name: Console
+    label: CONSOLE
+    type: rj-45
+  - name: USB console
+    label: CONSOLE
+    type: usb-micro-b
+interfaces:
+  - name: Mgmt-oob
+    label: Management
+    type: 1000base-t
+    mgmt_only: true
+  - name: Mgmt-clip
+    type: virtual
+    mgmt_only: true
+  - name: Mgmt-vlan
+    type: virtual
+    mgmt_only: true
+  - name: 1/1
+    label: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/2
+    label: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/3
+    label: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/4
+    label: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/5
+    label: '5'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/6
+    label: '6'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/7
+    label: '7'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/8
+    label: '8'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/9
+    label: '9'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/10
+    label: '10'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/11
+    label: '11'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/12
+    label: '12'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/13
+    label: '13'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/14
+    label: '14'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/15
+    label: '15'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/16
+    label: '16'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/17
+    label: '17'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/18
+    label: '18'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/19
+    label: '19'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/20
+    label: '20'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/21
+    label: '21'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/22
+    label: '22'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/23
+    label: '23'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/24
+    label: '24'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/25
+    label: '25'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/26
+    label: '26'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/27
+    label: '27'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/28
+    label: '28'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/29
+    label: '29'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/30
+    label: '30'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/31
+    label: '31'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/32
+    label: '32'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/33
+    label: '33'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/34
+    label: '34'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/35
+    label: '35'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/36
+    label: '36'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/37
+    label: '37'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/38
+    label: '38'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/39
+    label: '39'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/40
+    label: '40'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/41
+    label: '41'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/42
+    label: '42'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/43
+    label: '43'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/44
+    label: '44'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/45
+    label: '45'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/46
+    label: '46'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/47
+    label: '47'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 1/48
+    label: '48'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+module-bays:
+  - name: PS#1
+    label: PSU1
+    position: PS#1
+  - name: PS#2
+    label: PSU2
+    position: PS#2
+  - name: Fan#1
+    label: FAN1
+    position: Fan#1
+  - name: Fan#2
+    label: FAN2
+    position: Fan#2
+  - name: Fan#3
+    label: FAN3
+    position: Fan#3
+  - name: VIM
+    position: '2'
+  - name: 1/49
+    label: U1
+    position: 1/49
+    description: Reserved for internal loopback in SPBM mode if VIM module is installed
+  - name: 1/50
+    label: U2
+    position: 1/50
+    description: Reserved for internal loopback in SPBM mode if VIM module is installed
