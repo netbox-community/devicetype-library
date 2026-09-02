@@ -21,10 +21,10 @@ power-ports:
     type: dc-terminal
     maximum_draw: 260
 interfaces:
-  - name: Mgmt-clip
+  - name: mgmt-clip
     type: virtual
     mgmt_only: true
-  - name: Mgmt-vlan
+  - name: mgmt-vlan
     type: virtual
     mgmt_only: true
   - name: 1/1

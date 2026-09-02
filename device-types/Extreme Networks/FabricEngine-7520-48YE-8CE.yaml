@@ -13,14 +13,14 @@ console-ports:
     label: CONSOLE
     type: rj-45
 interfaces:
-  - name: Mgmt-oob
+  - name: mgmt-oob
     label: MGMT
     type: 1000base-t
     mgmt_only: true
-  - name: Mgmt-clip
+  - name: mgmt-clip
     type: virtual
     mgmt_only: true
-  - name: Mgmt-vlan
+  - name: mgmt-vlan
     type: virtual
     mgmt_only: true
 module-bays:

@@ -13,14 +13,14 @@ console-ports:
     label: CONSOLE
     type: rj-45
 interfaces:
-  - name: Mgmt-oob1
+  - name: mgmt-oob1
     label: MGMT 10GT
     type: 10gbase-t
     mgmt_only: true
-  - name: Mgmt-clip
+  - name: mgmt-clip
     type: virtual
     mgmt_only: true
-  - name: Mgmt-vlan
+  - name: mgmt-vlan
     type: virtual
     mgmt_only: true
 module-bays:
@@ -46,7 +46,7 @@ module-bays:
     position: '2'
   - name: VIM2
     position: '3'
-  - name: Mgmt-oobe2
+  - name: mgmt-oobe2
     label: MGMT SFP+
     position: Mgmt-oobe2
   - name: 1/1

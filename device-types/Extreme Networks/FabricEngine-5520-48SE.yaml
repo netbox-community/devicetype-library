@@ -17,14 +17,14 @@ console-ports:
     label: CONSOLE
     type: usb-micro-b
 interfaces:
-  - name: Mgmt-oob
+  - name: mgmt-oob
     label: Management
     type: 1000base-t
     mgmt_only: true
-  - name: Mgmt-clip
+  - name: mgmt-clip
     type: virtual
     mgmt_only: true
-  - name: Mgmt-vlan
+  - name: mgmt-vlan
     type: virtual
     mgmt_only: true
 module-bays:

@@ -21,10 +21,10 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 924
 interfaces:
-  - name: Mgmt-clip
+  - name: mgmt-clip
     type: virtual
     mgmt_only: true
-  - name: Mgmt-vlan
+  - name: mgmt-vlan
     type: virtual
     mgmt_only: true
   - name: 1/1
