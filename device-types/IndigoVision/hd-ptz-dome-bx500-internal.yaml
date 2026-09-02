@@ -1,0 +1,20 @@
+---
+manufacturer: IndigoVision
+model: HD PTZ Dome BX500 Internal
+slug: indigovision-hd-ptz-dome-bx500-internal
+part_number: 511787
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB

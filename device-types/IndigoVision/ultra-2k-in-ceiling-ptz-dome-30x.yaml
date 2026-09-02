@@ -1,0 +1,20 @@
+---
+manufacturer: IndigoVision
+model: Ultra 2K In-Ceiling PTZ Dome 30x
+slug: indigovision-ultra-2k-in-ceiling-ptz-dome-30x
+part_number: 562143
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
