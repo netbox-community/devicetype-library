@@ -1,0 +1,34 @@
+---
+manufacturer: Crestron
+model: TSS-770
+slug: crestron-tss-770
+part_number: TSS-770
+u_height: 0
+is_full_depth: false
+subdevice_role: parent
+airflow: passive
+weight: 14.10
+weight_unit: oz
+comments: |
+  7 in. wall mount room scheduling touch screen. PoE/PoE+ powered.
+  Supports one TSW-770-LB light bar or hallway sign via USB (child device).
+  Wi-Fi 802.11a/b/g/n/ac, Bluetooth beacon. Not rack-mountable.
+
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+
+  - name: USB1
+    type: other
+    label: USB 2.0 Host Port 1
+
+  - name: USB2
+    type: other
+    label: USB 2.0 Host Port 2 - RFID Card Reader
+
+  - name: Wi-Fi
+    type: ieee802.11ac
+    label: 802.11a/b/g/n/ac 2.4/5 GHz
