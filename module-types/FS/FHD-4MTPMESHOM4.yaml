@@ -6,24 +6,20 @@ comments: FHD 4x MTP-8 Mesh Cassette, 32 Fibers OM4 Multimode, 4x MTP-8 to 4x MT
 front-ports:
   - name: '{module}:A-1'
     type: mpo
-    rear_port: '{module}:A-1'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:A-2'
     type: mpo
-    rear_port: '{module}:A-2'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:A-3'
     type: mpo
-    rear_port: '{module}:A-3'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:A-4'
     type: mpo
-    rear_port: '{module}:A-4'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
 rear-ports:
   - name: '{module}:A-1'
     type: mpo
@@ -37,3 +33,20 @@ rear-ports:
   - name: '{module}:A-4'
     type: mpo
     positions: 1
+port-mappings:
+  - front_port: '{module}:A-1'
+    front_port_position: 1
+    rear_port: '{module}:A-1'
+    rear_port_position: 1
+  - front_port: '{module}:A-2'
+    front_port_position: 1
+    rear_port: '{module}:A-2'
+    rear_port_position: 1
+  - front_port: '{module}:A-3'
+    front_port_position: 1
+    rear_port: '{module}:A-3'
+    rear_port_position: 1
+  - front_port: '{module}:A-4'
+    front_port_position: 1
+    rear_port: '{module}:A-4'
+    rear_port_position: 1

@@ -6,35 +6,54 @@ comments: '[Product Page](https://www.completeconnect.co.uk/products/mpo-mtp-mx-
 front-ports:
   - name: '{module}:1'
     type: lc
-    rear_port: '{module}:1-6'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:2'
     type: lc
-    rear_port: '{module}:1-6'
-    rear_port_position: 2
     color: 00ffff
+    positions: 1
   - name: '{module}:3'
     type: lc
-    rear_port: '{module}:1-6'
-    rear_port_position: 3
     color: 00ffff
+    positions: 1
   - name: '{module}:4'
     type: lc
-    rear_port: '{module}:1-6'
-    rear_port_position: 4
     color: 00ffff
+    positions: 1
   - name: '{module}:5'
     type: lc
-    rear_port: '{module}:1-6'
-    rear_port_position: 5
     color: 00ffff
+    positions: 1
   - name: '{module}:6'
     type: lc
-    rear_port: '{module}:1-6'
-    rear_port_position: 6
     color: 00ffff
+    positions: 1
 rear-ports:
   - name: '{module}:1-6'
     type: mpo
     positions: 6
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1-6'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:1-6'
+    rear_port_position: 2
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:1-6'
+    rear_port_position: 3
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:1-6'
+    rear_port_position: 4
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:1-6'
+    rear_port_position: 5
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:1-6'
+    rear_port_position: 6
