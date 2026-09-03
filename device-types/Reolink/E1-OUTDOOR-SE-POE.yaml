@@ -1,0 +1,23 @@
+---
+manufacturer: Reolink
+model: E1 Outdoor SE PoE
+slug: reolink-e1-outdoor-se-poe
+part_number: E1 Outdoor SE PoE
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Reolink E1 Outdoor SE PoE datasheet](https://reolink.com/product/e1-outdoor-se-poe/)
