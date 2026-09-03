@@ -1,0 +1,341 @@
+---
+manufacturer: Nvidia
+model: Q3400-RA
+slug: nvidia-q3400-ra
+part_number: 920-9B36F-00RX-8S0
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+weight: 60
+weight_unit: kg
+comments: |
+  NVIDIA Quantum-X800 Q3400-RA. 144x 800Gb/s XDR InfiniBand ports over 72 twin-port
+  OSFP cages, powered by the Quantum-3 ASIC. fnm1 is the dedicated in-band fabric
+  node management port used by NVIDIA UFM.
+  Product page: https://www.nvidia.com/en-us/networking/products/infiniband/quantum-x800/
+  User manual: https://networking-docs.nvidia.com/xdrswitcheshw/introduction
+console-ports:
+  - name: uart
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU5
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU6
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU7
+    type: iec-60320-c20
+    maximum_draw: 875
+  - name: PSU8
+    type: iec-60320-c20
+    maximum_draw: 875
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth1
+    type: 1000base-t
+  - name: fnm1
+    type: infiniband-xdr
+    description: In-band fabric node management (UFM)
+  - name: sw1p1
+    type: infiniband-xdr
+  - name: sw1p2
+    type: infiniband-xdr
+  - name: sw2p1
+    type: infiniband-xdr
+  - name: sw2p2
+    type: infiniband-xdr
+  - name: sw3p1
+    type: infiniband-xdr
+  - name: sw3p2
+    type: infiniband-xdr
+  - name: sw4p1
+    type: infiniband-xdr
+  - name: sw4p2
+    type: infiniband-xdr
+  - name: sw5p1
+    type: infiniband-xdr
+  - name: sw5p2
+    type: infiniband-xdr
+  - name: sw6p1
+    type: infiniband-xdr
+  - name: sw6p2
+    type: infiniband-xdr
+  - name: sw7p1
+    type: infiniband-xdr
+  - name: sw7p2
+    type: infiniband-xdr
+  - name: sw8p1
+    type: infiniband-xdr
+  - name: sw8p2
+    type: infiniband-xdr
+  - name: sw9p1
+    type: infiniband-xdr
+  - name: sw9p2
+    type: infiniband-xdr
+  - name: sw10p1
+    type: infiniband-xdr
+  - name: sw10p2
+    type: infiniband-xdr
+  - name: sw11p1
+    type: infiniband-xdr
+  - name: sw11p2
+    type: infiniband-xdr
+  - name: sw12p1
+    type: infiniband-xdr
+  - name: sw12p2
+    type: infiniband-xdr
+  - name: sw13p1
+    type: infiniband-xdr
+  - name: sw13p2
+    type: infiniband-xdr
+  - name: sw14p1
+    type: infiniband-xdr
+  - name: sw14p2
+    type: infiniband-xdr
+  - name: sw15p1
+    type: infiniband-xdr
+  - name: sw15p2
+    type: infiniband-xdr
+  - name: sw16p1
+    type: infiniband-xdr
+  - name: sw16p2
+    type: infiniband-xdr
+  - name: sw17p1
+    type: infiniband-xdr
+  - name: sw17p2
+    type: infiniband-xdr
+  - name: sw18p1
+    type: infiniband-xdr
+  - name: sw18p2
+    type: infiniband-xdr
+  - name: sw19p1
+    type: infiniband-xdr
+  - name: sw19p2
+    type: infiniband-xdr
+  - name: sw20p1
+    type: infiniband-xdr
+  - name: sw20p2
+    type: infiniband-xdr
+  - name: sw21p1
+    type: infiniband-xdr
+  - name: sw21p2
+    type: infiniband-xdr
+  - name: sw22p1
+    type: infiniband-xdr
+  - name: sw22p2
+    type: infiniband-xdr
+  - name: sw23p1
+    type: infiniband-xdr
+  - name: sw23p2
+    type: infiniband-xdr
+  - name: sw24p1
+    type: infiniband-xdr
+  - name: sw24p2
+    type: infiniband-xdr
+  - name: sw25p1
+    type: infiniband-xdr
+  - name: sw25p2
+    type: infiniband-xdr
+  - name: sw26p1
+    type: infiniband-xdr
+  - name: sw26p2
+    type: infiniband-xdr
+  - name: sw27p1
+    type: infiniband-xdr
+  - name: sw27p2
+    type: infiniband-xdr
+  - name: sw28p1
+    type: infiniband-xdr
+  - name: sw28p2
+    type: infiniband-xdr
+  - name: sw29p1
+    type: infiniband-xdr
+  - name: sw29p2
+    type: infiniband-xdr
+  - name: sw30p1
+    type: infiniband-xdr
+  - name: sw30p2
+    type: infiniband-xdr
+  - name: sw31p1
+    type: infiniband-xdr
+  - name: sw31p2
+    type: infiniband-xdr
+  - name: sw32p1
+    type: infiniband-xdr
+  - name: sw32p2
+    type: infiniband-xdr
+  - name: sw33p1
+    type: infiniband-xdr
+  - name: sw33p2
+    type: infiniband-xdr
+  - name: sw34p1
+    type: infiniband-xdr
+  - name: sw34p2
+    type: infiniband-xdr
+  - name: sw35p1
+    type: infiniband-xdr
+  - name: sw35p2
+    type: infiniband-xdr
+  - name: sw36p1
+    type: infiniband-xdr
+  - name: sw36p2
+    type: infiniband-xdr
+  - name: sw37p1
+    type: infiniband-xdr
+  - name: sw37p2
+    type: infiniband-xdr
+  - name: sw38p1
+    type: infiniband-xdr
+  - name: sw38p2
+    type: infiniband-xdr
+  - name: sw39p1
+    type: infiniband-xdr
+  - name: sw39p2
+    type: infiniband-xdr
+  - name: sw40p1
+    type: infiniband-xdr
+  - name: sw40p2
+    type: infiniband-xdr
+  - name: sw41p1
+    type: infiniband-xdr
+  - name: sw41p2
+    type: infiniband-xdr
+  - name: sw42p1
+    type: infiniband-xdr
+  - name: sw42p2
+    type: infiniband-xdr
+  - name: sw43p1
+    type: infiniband-xdr
+  - name: sw43p2
+    type: infiniband-xdr
+  - name: sw44p1
+    type: infiniband-xdr
+  - name: sw44p2
+    type: infiniband-xdr
+  - name: sw45p1
+    type: infiniband-xdr
+  - name: sw45p2
+    type: infiniband-xdr
+  - name: sw46p1
+    type: infiniband-xdr
+  - name: sw46p2
+    type: infiniband-xdr
+  - name: sw47p1
+    type: infiniband-xdr
+  - name: sw47p2
+    type: infiniband-xdr
+  - name: sw48p1
+    type: infiniband-xdr
+  - name: sw48p2
+    type: infiniband-xdr
+  - name: sw49p1
+    type: infiniband-xdr
+  - name: sw49p2
+    type: infiniband-xdr
+  - name: sw50p1
+    type: infiniband-xdr
+  - name: sw50p2
+    type: infiniband-xdr
+  - name: sw51p1
+    type: infiniband-xdr
+  - name: sw51p2
+    type: infiniband-xdr
+  - name: sw52p1
+    type: infiniband-xdr
+  - name: sw52p2
+    type: infiniband-xdr
+  - name: sw53p1
+    type: infiniband-xdr
+  - name: sw53p2
+    type: infiniband-xdr
+  - name: sw54p1
+    type: infiniband-xdr
+  - name: sw54p2
+    type: infiniband-xdr
+  - name: sw55p1
+    type: infiniband-xdr
+  - name: sw55p2
+    type: infiniband-xdr
+  - name: sw56p1
+    type: infiniband-xdr
+  - name: sw56p2
+    type: infiniband-xdr
+  - name: sw57p1
+    type: infiniband-xdr
+  - name: sw57p2
+    type: infiniband-xdr
+  - name: sw58p1
+    type: infiniband-xdr
+  - name: sw58p2
+    type: infiniband-xdr
+  - name: sw59p1
+    type: infiniband-xdr
+  - name: sw59p2
+    type: infiniband-xdr
+  - name: sw60p1
+    type: infiniband-xdr
+  - name: sw60p2
+    type: infiniband-xdr
+  - name: sw61p1
+    type: infiniband-xdr
+  - name: sw61p2
+    type: infiniband-xdr
+  - name: sw62p1
+    type: infiniband-xdr
+  - name: sw62p2
+    type: infiniband-xdr
+  - name: sw63p1
+    type: infiniband-xdr
+  - name: sw63p2
+    type: infiniband-xdr
+  - name: sw64p1
+    type: infiniband-xdr
+  - name: sw64p2
+    type: infiniband-xdr
+  - name: sw65p1
+    type: infiniband-xdr
+  - name: sw65p2
+    type: infiniband-xdr
+  - name: sw66p1
+    type: infiniband-xdr
+  - name: sw66p2
+    type: infiniband-xdr
+  - name: sw67p1
+    type: infiniband-xdr
+  - name: sw67p2
+    type: infiniband-xdr
+  - name: sw68p1
+    type: infiniband-xdr
+  - name: sw68p2
+    type: infiniband-xdr
+  - name: sw69p1
+    type: infiniband-xdr
+  - name: sw69p2
+    type: infiniband-xdr
+  - name: sw70p1
+    type: infiniband-xdr
+  - name: sw70p2
+    type: infiniband-xdr
+  - name: sw71p1
+    type: infiniband-xdr
+  - name: sw71p2
+    type: infiniband-xdr
+  - name: sw72p1
+    type: infiniband-xdr
+  - name: sw72p2
+    type: infiniband-xdr
