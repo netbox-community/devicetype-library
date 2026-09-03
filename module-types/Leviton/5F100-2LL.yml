@@ -5,22 +5,22 @@ comments: SDX Precision Molded Plate (BLUE), Single-mode OS1/2, Duplex LC, 12 fi
 front-ports:
   - name: '{module}:1'
     type: lc
-    rear_port: '{module}:1'
+    positions: 1
   - name: '{module}:2'
     type: lc
-    rear_port: '{module}:2'
+    positions: 1
   - name: '{module}:3'
     type: lc
-    rear_port: '{module}:3'
+    positions: 1
   - name: '{module}:4'
     type: lc
-    rear_port: '{module}:4'
+    positions: 1
   - name: '{module}:5'
     type: lc
-    rear_port: '{module}:5'
+    positions: 1
   - name: '{module}:6'
     type: lc
-    rear_port: '{module}:6'
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: lc
@@ -40,3 +40,28 @@ rear-ports:
   - name: '{module}:6'
     type: lc
     positions: 1
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:6'
+    rear_port_position: 1
