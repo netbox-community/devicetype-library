@@ -6,44 +6,36 @@ comments: '[Product Page](https://www.completeconnect.co.uk/products/mx-series-m
 front-ports:
   - name: '{module}:1'
     type: mpo
-    rear_port: '{module}:1'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:2'
     type: mpo
-    rear_port: '{module}:2'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:3'
     type: mpo
-    rear_port: '{module}:3'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:4'
     type: mpo
-    rear_port: '{module}:4'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:5'
     type: mpo
-    rear_port: '{module}:5'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:6'
     type: mpo
-    rear_port: '{module}:6'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:7'
     type: mpo
-    rear_port: '{module}:7'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
   - name: '{module}:8'
     type: mpo
-    rear_port: '{module}:8'
-    rear_port_position: 1
     color: 00ffff
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: mpo
@@ -69,3 +61,36 @@ rear-ports:
   - name: '{module}:8'
     type: mpo
     positions: 1
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:6'
+    rear_port_position: 1
+  - front_port: '{module}:7'
+    front_port_position: 1
+    rear_port: '{module}:7'
+    rear_port_position: 1
+  - front_port: '{module}:8'
+    front_port_position: 1
+    rear_port: '{module}:8'
+    rear_port_position: 1

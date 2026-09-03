@@ -1,0 +1,19 @@
+---
+manufacturer: TP-Link
+model: EAP783
+slug: tp-link-eap783
+part_number: EAP783
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link Omada EAP783 Specifications](https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap783/)'
+power-ports:
+  - name: PoE
+    type: dc-terminal
+interfaces:
+  - name: LAN1
+    type: 10gbase-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+  - name: LAN2
+    type: 10gbase-t

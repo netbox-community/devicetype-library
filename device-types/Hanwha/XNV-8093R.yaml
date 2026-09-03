@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: XNV-8093R
+slug: hanwha-xnv-8093r
+part_number: XNV-8093R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 22.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha XNV-8093R datasheet](https://www.hanwhavision.com/en/products/camera/network/dome/xnv-8093r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-xnv-8093r)
