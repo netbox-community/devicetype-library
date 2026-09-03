@@ -1,0 +1,28 @@
+---
+manufacturer: GeoVision
+model: GV-TMS20811
+slug: geovision-gv-tms20811
+part_number: GV-TMS20811
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 49
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-TMS20811 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/Multi-Sensor_Panoramic/Datasheet_GV-TMS20811.pdf) | [Specs on
+  cctv-database.com](https://cctv-database.com/camera/geovision-gv-tms20811)

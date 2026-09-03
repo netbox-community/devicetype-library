@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-TBL4700
+slug: geovision-gv-tbl4700
+part_number: GV-TBL4700
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [GeoVision GV-TBL4700 datasheet](https://dlcdn.geovision.com.tw/Manual/IPCAM/Datasheet/TBL/Datasheet_IPCamTBL4700.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-tbl4700)

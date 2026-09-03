@@ -1,0 +1,21 @@
+---
+manufacturer: GeoVision
+model: GV-QSD5731-IR
+slug: geovision-gv-qsd5731-ir
+part_number: GV-QSD5731-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 30V DC
+comments: >
+  [GeoVision GV-QSD5731-IR datasheet](https://dlcdn.geovision.com.tw/Manual/Speed-Dome/Datasheet/Datasheet_IPCamQSD5731-IR.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-qsd5731-ir)

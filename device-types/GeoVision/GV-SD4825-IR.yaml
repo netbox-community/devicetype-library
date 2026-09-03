@@ -1,0 +1,20 @@
+---
+manufacturer: GeoVision
+model: GV-SD4825-IR
+slug: geovision-gv-sd4825-ir
+part_number: GV-SD4825-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 21 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [GeoVision GV-SD4825-IR datasheet](https://dlcdn.geovision.com.tw/Manual/Speed-Dome/Datasheet/Datasheet_IPCamSD4825-IR.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/geovision-gv-sd4825-ir)
