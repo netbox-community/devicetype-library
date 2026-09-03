@@ -5,9 +5,13 @@ part_number: Keystone-LC-Fiber
 front-ports:
   - name: '{module}-LC'
     type: lc
-    rear_port: '{module}-LC'
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: '{module}-LC'
     type: lc
     positions: 1
+port-mappings:
+  - front_port: '{module}-LC'
+    front_port_position: 1
+    rear_port: '{module}-LC'
+    rear_port_position: 1

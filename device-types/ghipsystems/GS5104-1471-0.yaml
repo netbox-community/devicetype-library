@@ -11,21 +11,34 @@ airflow: passive
 front-ports:
   - name: '1471'
     type: lc
-    rear_port: Network
-    rear_port_position: 1
+    positions: 1
   - name: '1491'
     type: lc
-    rear_port: Network
-    rear_port_position: 2
+    positions: 1
   - name: '1511'
     type: lc
-    rear_port: Network
-    rear_port_position: 3
+    positions: 1
   - name: '1531'
     type: lc
-    rear_port: Network
-    rear_port_position: 4
+    positions: 1
 rear-ports:
   - name: Network
     type: lc
     positions: 4
+port-mappings:
+  - front_port: '1471'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 1
+  - front_port: '1491'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 2
+  - front_port: '1511'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 3
+  - front_port: '1531'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 4

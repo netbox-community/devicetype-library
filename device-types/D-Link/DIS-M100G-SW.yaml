@@ -17,7 +17,13 @@ power-ports:
 front-ports:
   - name: Ethernet
     type: 8p8c
-    rear_port: Optic
+    positions: 1
 rear-ports:
   - name: Optic
     type: sc-upc
+    positions: 1
+port-mappings:
+  - front_port: Ethernet
+    front_port_position: 1
+    rear_port: Optic
+    rear_port_position: 1
