@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD5R404GA-HNF
+slug: dahua-sd5r404ga-hnf
+part_number: SD5R404GA-HNF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD5R404GA-HNF datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizmind-series/sd5/sd5r404ga-hnf) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd5r404ga-hnf)

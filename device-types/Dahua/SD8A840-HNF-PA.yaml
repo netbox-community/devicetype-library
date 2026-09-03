@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD8A840-HNF-PA
+slug: dahua-sd8a840-hnf-pa
+part_number: SD8A840-HNF-PA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 48
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD8A840-HNF-PA datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizmind-series/sd8/sd8a840-hnf-pa) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd8a840-hnf-pa)

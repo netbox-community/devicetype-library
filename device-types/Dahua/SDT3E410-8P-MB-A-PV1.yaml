@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: SDT3E410-8P-MB-A-PV1
+slug: dahua-sdt3e410-8p-mb-a-pv1
+part_number: SDT3E410-8P-MB-A-PV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2170
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SDT3E410-8P-MB-A-PV1 datasheet](https://www.dahuasecurity.com/products/network-products/pt-cameras/ip-pt-3-series/multivision/sdt3e410-8p-mb-a-pv1)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sdt3e410-8p-mb-a-pv1)

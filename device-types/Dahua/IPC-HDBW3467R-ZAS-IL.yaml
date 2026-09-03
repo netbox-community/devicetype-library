@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW3467R-ZAS-IL
+slug: dahua-ipc-hdbw3467r-zas-il
+part_number: IPC-HDBW3467R-ZAS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HDBW3467R-ZAS-IL datasheet](https://www.dahuasecurity.com/au/products/network-products/network-cameras/wizsense-3-series/smart-dual-light/ipc-hdbw3467r-zas-il-anz)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdbw3467r-zas-il)

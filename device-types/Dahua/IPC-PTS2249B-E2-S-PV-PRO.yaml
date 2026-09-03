@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: IPC-PTS2249B-E2-S-PV-PRO
+slug: dahua-ipc-pts2249b-e2-s-pv-pro
+part_number: IPC-PTS2249B-E2-S-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-PTS2249B-E2-S-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/wizcolor/ipc-pts2249b-e2-s-pv-pro)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-pts2249b-e2-s-pv-pro)

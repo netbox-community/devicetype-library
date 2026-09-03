@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD4F420DA-HNY
+slug: dahua-sd4f420da-hny
+part_number: SD4F420DA-HNY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD4F420DA-HNY datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizsense-series/sd4/sd4f420da-hny) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd4f420da-hny)

@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW2831E-S-S2
+slug: dahua-ipc-hdbw2831e-s-s2
+part_number: IPC-HDBW2831E-S-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDBW2831E-S-S2 datasheet](https://www.dahuasecurity.com/in/products/All-Products/Network-Cameras/Lite-Series/8-MP/IPC-HDBW2831E-S-S2) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdbw2831e-s-s2)

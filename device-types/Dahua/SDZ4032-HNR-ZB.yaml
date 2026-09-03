@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SDZ4032-HNR-ZB
+slug: dahua-sdz4032-hnr-zb
+part_number: SDZ4032-HNR-ZB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SDZ4032-HNR-ZB datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizsense-series/sdz/sdz4032-hnr-zb) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sdz4032-hnr-zb)

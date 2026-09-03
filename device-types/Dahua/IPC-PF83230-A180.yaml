@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-PF83230-A180
+slug: dahua-ipc-pf83230-a180
+part_number: IPC-PF83230-A180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-PF83230-A180 datasheet](https://www.dahuasecurity.com/products/All-Products/Discontinued-Products/Network-Cameras/IPC-PF83230-A180) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-pf83230-a180)

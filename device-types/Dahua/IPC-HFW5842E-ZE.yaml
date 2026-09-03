@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5842E-ZE
+slug: dahua-ipc-hfw5842e-ze
+part_number: IPC-HFW5842E-ZE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HFW5842E-ZE datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/WizMind-5-Series/S-Series/8MP/IPC-HFW5842E-ZE=S3)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw5842e-ze)

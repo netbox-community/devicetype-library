@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD4A216DB-HNY
+slug: dahua-sd4a216db-hny
+part_number: SD4A216DB-HNY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 19 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 19
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD4A216DB-HNY datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizsense-series/sd4/sd4a216db-hny) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd4a216db-hny)

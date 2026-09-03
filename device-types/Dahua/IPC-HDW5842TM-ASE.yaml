@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HDW5842TM-ASE
+slug: dahua-ipc-hdw5842tm-ase
+part_number: IPC-HDW5842TM-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua IPC-HDW5842TM-ASE datasheet](https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HDW5842TM-ASE_S3_datasheet_20250311.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw5842tm-ase)

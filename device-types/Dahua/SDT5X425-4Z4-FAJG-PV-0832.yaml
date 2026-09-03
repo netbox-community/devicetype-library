@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: SDT5X425-4Z4-FAJG-PV-0832
+slug: dahua-sdt5x425-4z4-fajg-pv-0832
+part_number: SDT5X425-4Z4-FAJG-PV-0832
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SDT5X425-4Z4-FAJG-PV-0832 datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/x-spans-series/project/sdt5x425-4z4-fajg-pv-0832)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sdt5x425-4z4-fajg-pv-0832)

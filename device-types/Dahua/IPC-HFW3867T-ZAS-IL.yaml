@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3867T-ZAS-IL
+slug: dahua-ipc-hfw3867t-zas-il
+part_number: IPC-HFW3867T-ZAS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 835
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HFW3867T-ZAS-IL datasheet](https://www.dahuasecurity.com/au/products/network-products/network-cameras/wizsense-3-series/smart-dual-light/ipc-hfw3867t-zas-il-anz)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw3867t-zas-il)

@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: SD5A432GB-HNR
+slug: dahua-sd5a432gb-hnr
+part_number: SD5A432GB-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD5A432GB-HNR datasheet](https://www.dahuasecurity.com/products/All-Products/PTZ-Cameras/WizSense-Series/SD5/SD5A432GB-HNR) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd5a432gb-hnr)

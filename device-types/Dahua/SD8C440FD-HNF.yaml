@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SD8C440FD-HNF
+slug: dahua-sd8c440fd-hnf
+part_number: SD8C440FD-HNF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 9600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 33 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD8C440FD-HNF datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wizmind-series/sd8/sd8c440fd-hnf) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd8c440fd-hnf)

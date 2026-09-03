@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3841TP-ZAS
+slug: dahua-ipc-hdw3841tp-zas
+part_number: IPC-HDW3841TP-ZAS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 685
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDW3841TP-ZAS datasheet](https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HDW3841T-ZAS_Datasheet_20210330.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hdw3841tp-zas)

@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: PTZ19245U-IRB-N
+slug: dahua-ptz19245u-irb-n
+part_number: PTZ19245U-IRB-N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 9800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 80 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua PTZ19245U-IRB-N datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/positioning-systems/ptz19245u-irb-n(-b))
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ptz19245u-irb-n)

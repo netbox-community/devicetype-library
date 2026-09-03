@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3649T1-AS-PV-S2
+slug: dahua-ipc-hfw3649t1-as-pv-s2
+part_number: IPC-HFW3649T1-AS-PV-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW3649T1-AS-PV-S2 datasheet](https://www.dahuasecurity.com/au/products/All-Products/Network-Cameras/WizSense-Series/TiOC/IPC-HFW3649T1-AS-PV-ANZ-S2)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-ipc-hfw3649t1-as-pv-s2)

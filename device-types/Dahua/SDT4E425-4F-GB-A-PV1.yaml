@@ -1,0 +1,28 @@
+---
+manufacturer: Dahua
+model: SDT4E425-4F-GB-A-PV1
+slug: dahua-sdt4e425-4f-gb-a-pv1
+part_number: SDT4E425-4F-GB-A-PV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SDT4E425-4F-GB-A-PV1 datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/x-spans-series/distribution/sdt4e425-4f-gb-a-pv1-s2=s2)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sdt4e425-4f-gb-a-pv1)
