@@ -131,6 +131,19 @@
       {
         "if": { "required": ["weight_unit"] },
         "then": { "required": ["weight"] }
+      },
+      {
+        "if": {
+            "required": ["device-bays"]
+        },
+        "then": {
+            "required": ["subdevice_role"],
+            "properties": {
+                "subdevice_role": {
+                    "const": "parent"
+                }
+            }
+        }
       }
     ],
     "required": ["manufacturer", "model", "slug", "u_height","is_full_depth"],
