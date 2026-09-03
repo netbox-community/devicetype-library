@@ -163,6 +163,30 @@
         "name",
         "type"
       ],
+      "if": {
+        "required": [
+          "rf_role"
+        ]
+      },
+      "then": {
+        "properties": {
+          "type": {
+            "enum": [
+              "ieee802.11a",
+              "ieee802.11g",
+              "ieee802.11n",
+              "ieee802.11ac",
+              "ieee802.11ad",
+              "ieee802.11ax",
+              "ieee802.11ay",
+              "ieee802.11be",
+              "ieee802.15.1",
+              "ieee802.15.4",
+              "other-wireless"
+            ]
+          }
+        }
+      },
       "additionalProperties": false
     },
     "front-port": {
