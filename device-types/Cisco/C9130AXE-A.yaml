@@ -1,0 +1,20 @@
+---
+manufacturer: Cisco
+model: Catalyst 9130AXE-A
+slug: cisco-c9130axe-a
+part_number: C9130AXE-A
+u_height: 0
+is_full_depth: false
+weight: 1.71
+weight_unit: kg
+comments: '[Cisco Catalyst 9130AX Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9100ax-access-points/nb-06-cat-9130-ser-ap-ds-cte-en.html)'
+interfaces:
+  - name: GigabitEthernet0
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
