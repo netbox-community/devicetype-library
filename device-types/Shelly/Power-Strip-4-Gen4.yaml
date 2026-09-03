@@ -1,0 +1,41 @@
+---
+manufacturer: Shelly
+model: Power Strip 4 Gen4
+slug: shelly-power-strip-4-gen4
+part_number: S4PL-00416EU
+u_height: 0
+is_full_depth: false
+weight: 560
+weight_unit: g
+airflow: passive
+front_image: false
+rear_image: false
+comments: '[Shelly Power Strip 4 Gen4](https://www.shelly.com/products/shelly-power-strip-4-gen4)'
+power-ports:
+  - name: input
+    type: ita-ef
+    maximum_draw: 1
+    allocated_draw: 1
+    description: 220-240V ~ 50/60 Hz; 16A max
+power-outlets:
+  - name: '0'
+    type: ita-f
+    description: 12A max
+    power_port: input
+  - name: '1'
+    type: ita-f
+    description: 12A max
+    power_port: input
+  - name: '2'
+    type: ita-f
+    description: 12A max
+    power_port: input
+  - name: '3'
+    type: ita-f
+    description: 12A max
+    power_port: input
+interfaces:
+  - name: Wireless
+    type: ieee802.11n
+  - name: Bluetooth
+    type: ieee802.15.1
