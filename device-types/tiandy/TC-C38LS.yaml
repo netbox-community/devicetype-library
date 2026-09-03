@@ -1,0 +1,23 @@
+---
+manufacturer: Tiandy
+model: TC-C38LS
+slug: tiandy-tc-c38ls
+part_number: TC-C38LS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Tiandy TC-C38LS datasheet](https://tiandy.com.au/product/tc-c38ls/)

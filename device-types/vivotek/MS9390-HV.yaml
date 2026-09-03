@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: MS9390-HV
+slug: vivotek-ms9390-hv
+part_number: MS9390-HV
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek MS9390-HV datasheet](https://networkcamerastore.com/products/vivotek-ms9390-hv-8mp-4mp-x-2-multi-sensor-180-panoramic-ir-network-camera)
