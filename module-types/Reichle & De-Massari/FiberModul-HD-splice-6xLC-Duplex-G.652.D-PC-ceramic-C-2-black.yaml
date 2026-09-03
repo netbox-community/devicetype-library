@@ -6,52 +6,40 @@ comments: '[Product Website](https://ecatalog.rdm.com/at/en/product/eCatalog-AT/
 front-ports:
   - name: Port/{module}/1.a
     type: lc-pc
-    rear_port: Port/{module}/1
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/1.b
     type: lc-pc
-    rear_port: Port/{module}/2
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/2.a
     type: lc-pc
-    rear_port: Port/{module}/3
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/2.b
     type: lc-pc
-    rear_port: Port/{module}/4
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/3.a
     type: lc-pc
-    rear_port: Port/{module}/5
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/3.b
     type: lc-pc
-    rear_port: Port/{module}/6
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/4.a
     type: lc-pc
-    rear_port: Port/{module}/7
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/4.b
     type: lc-pc
-    rear_port: Port/{module}/8
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/5.a
     type: lc-pc
-    rear_port: Port/{module}/9
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/5.b
     type: lc-pc
-    rear_port: Port/{module}/10
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/6.a
     type: lc-pc
-    rear_port: Port/{module}/11
-    rear_port_position: 1
+    positions: 1
   - name: Port/{module}/6.b
     type: lc-pc
-    rear_port: Port/{module}/12
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: Port/{module}/1
     type: splice
@@ -89,3 +77,52 @@ rear-ports:
   - name: Port/{module}/12
     type: splice
     positions: 1
+port-mappings:
+  - front_port: Port/{module}/1.a
+    front_port_position: 1
+    rear_port: Port/{module}/1
+    rear_port_position: 1
+  - front_port: Port/{module}/1.b
+    front_port_position: 1
+    rear_port: Port/{module}/2
+    rear_port_position: 1
+  - front_port: Port/{module}/2.a
+    front_port_position: 1
+    rear_port: Port/{module}/3
+    rear_port_position: 1
+  - front_port: Port/{module}/2.b
+    front_port_position: 1
+    rear_port: Port/{module}/4
+    rear_port_position: 1
+  - front_port: Port/{module}/3.a
+    front_port_position: 1
+    rear_port: Port/{module}/5
+    rear_port_position: 1
+  - front_port: Port/{module}/3.b
+    front_port_position: 1
+    rear_port: Port/{module}/6
+    rear_port_position: 1
+  - front_port: Port/{module}/4.a
+    front_port_position: 1
+    rear_port: Port/{module}/7
+    rear_port_position: 1
+  - front_port: Port/{module}/4.b
+    front_port_position: 1
+    rear_port: Port/{module}/8
+    rear_port_position: 1
+  - front_port: Port/{module}/5.a
+    front_port_position: 1
+    rear_port: Port/{module}/9
+    rear_port_position: 1
+  - front_port: Port/{module}/5.b
+    front_port_position: 1
+    rear_port: Port/{module}/10
+    rear_port_position: 1
+  - front_port: Port/{module}/6.a
+    front_port_position: 1
+    rear_port: Port/{module}/11
+    rear_port_position: 1
+  - front_port: Port/{module}/6.b
+    front_port_position: 1
+    rear_port: Port/{module}/12
+    rear_port_position: 1

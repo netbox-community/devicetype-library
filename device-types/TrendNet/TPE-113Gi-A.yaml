@@ -10,7 +10,13 @@ power-ports:
 front-ports:
   - name: Data In
     type: 8p8c
-    rear_port: PWR+Data Out
+    positions: 1
 rear-ports:
   - name: PWR+Data Out
     type: 8p8c
+    positions: 1
+port-mappings:
+  - front_port: Data In
+    front_port_position: 1
+    rear_port: PWR+Data Out
+    rear_port_position: 1

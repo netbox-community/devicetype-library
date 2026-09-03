@@ -6,20 +6,16 @@ comments: '[Product Page](https://www.completeconnect.co.uk/products/mx-series-r
 front-ports:
   - name: '{module}:1'
     type: 8p8c
-    rear_port: '{module}:1'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:2'
     type: 8p8c
-    rear_port: '{module}:2'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:3'
     type: 8p8c
-    rear_port: '{module}:3'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:4'
     type: 8p8c
-    rear_port: '{module}:4'
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: 8p8c
@@ -33,3 +29,20 @@ rear-ports:
   - name: '{module}:4'
     type: 8p8c
     positions: 1
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
