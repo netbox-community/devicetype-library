@@ -1,11 +1,12 @@
 ---
 manufacturer: Extreme Networks
 model: XN-ACPWR-550W-FB
-part_number: xn-acpwr-550w-fb
-comments: 550W AC Power Supply [https://documentation.extremenetworks.com/wired/5520/GUID-E504B7F1-BD7C-47B9-988E-B711DA714651.shtml]
-weight: 810
-weight_unit: g
+part_number: XN-ACPWR-550W-FB
+weight: 0.81
+weight_unit: kg
+airflow: front-to-rear
+comments: 550W AC PSU, for use in 5520
 power-ports:
-  - name: Ps#{module}
+  - name: '{module}'
     type: iec-60320-c14
     maximum_draw: 550

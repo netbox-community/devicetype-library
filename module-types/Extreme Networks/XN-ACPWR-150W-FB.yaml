@@ -1,7 +1,11 @@
 ---
 manufacturer: Extreme Networks
 model: XN-ACPWR-150W-FB
+part_number: XN-ACPWR-150W-FB
+# TODO: Ask Extreme for weight: XN-ACPWR-150W-FB
+airflow: front-to-rear
+comments: 150W AC PSU, for use in 5420F and 5420M
 power-ports:
-  - name: Ps#{module}
+  - name: '{module}'
     type: iec-60320-c14
     maximum_draw: 150
