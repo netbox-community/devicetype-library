@@ -1,0 +1,22 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2367G2P-LSU/SL
+slug: hikvision-ds-2cd2367g2p-lsu-sl
+part_number: DS-2CD2367G2P-LSU/SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Hikvision DS-2CD2367G2P-LSU/SL datasheet](https://www.hikvision.com/content/dam/hikvision/pl/firmware/DS-2CD2367G2P-LSU_SLC_Datasheet_20240731_PL.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2367g2p-lsu-sl)

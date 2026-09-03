@@ -1,0 +1,22 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2367G3-LIS2UY/SL
+slug: hikvision-ds-2cd2367g3-lis2uy-sl
+part_number: DS-2CD2367G3-LIS2UY/SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2367G3-LIS2UY/SL datasheet](https://assets.hikvision.com/prd/public/all/doc/m000144452/DS-2CD2367G3-LIS2UY_SLRB_Datasheet_20241021.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2367g3-lis2uy-sl)

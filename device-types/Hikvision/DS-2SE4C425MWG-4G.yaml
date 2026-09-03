@@ -1,0 +1,26 @@
+---
+manufacturer: Hikvision
+model: DS-2SE4C425MWG-4G
+slug: hikvision-ds-2se4c425mwg-4g
+part_number: DS-2SE4C425MWG-4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2SE4C425MWG-4G datasheet](https://assets.hikvision.com/prd/public/all/doc/m000159416/DS-2SE4C425MWG-4G_14_Datasheet_20250615.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2se4c425mwg-4g)

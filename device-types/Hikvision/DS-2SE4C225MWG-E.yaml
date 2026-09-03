@@ -1,0 +1,26 @@
+---
+manufacturer: Hikvision
+model: DS-2SE4C225MWG-E
+slug: hikvision-ds-2se4c225mwg-e
+part_number: DS-2SE4C225MWG-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2SE4C225MWG-E datasheet](https://assets.hikvision.com/prd/public/all/doc/m000070245/DS-2SE4C225MWG-E_26F0_Datasheet_20241017.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2se4c225mwg-e)

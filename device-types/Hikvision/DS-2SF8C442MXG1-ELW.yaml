@@ -1,0 +1,26 @@
+---
+manufacturer: Hikvision
+model: DS-2SF8C442MXG1-ELW
+slug: hikvision-ds-2sf8c442mxg1-elw
+part_number: DS-2SF8C442MXG1-ELW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hikvision DS-2SF8C442MXG1-ELW datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000074502/DS-2SF8C442MXG1-ELW_26_Datasheet_20260620.pdf) |
+  [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2sf8c442mxg1-elw)
