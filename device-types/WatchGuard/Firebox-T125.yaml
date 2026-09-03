@@ -1,0 +1,39 @@
+# (c) 2026 NetBox Labs, Inc.
+# Licensed under the NetBox Limited Use License v1.0
+# https://netboxlabs.com/ndx/license
+# Community DTL portions licensed under Apache 2.0:
+# https://github.com/netbox-community/devicetype-library
+---
+manufacturer: WatchGuard
+model: Firebox T125
+slug: watchguard-firebox-t125
+part_number: WGT125001
+u_height: 0
+is_full_depth: false
+weight: 2.07
+weight_unit: kg
+airflow: left-to-right
+comments: '[WatchGuard Firebox T125 Hardware Guide](http://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Hardware-Guides/firebox-t125-hardware-guide.html)'
+interfaces:
+- name: eth0
+  type: 2.5gbase-t
+- name: eth1
+  type: 1000base-t
+- name: eth2
+  type: 1000base-t
+- name: eth3
+  type: 1000base-t
+- name: eth4
+  type: 1000base-t
+console-ports:
+- name: serial
+  type: rj-45
+- name: usb1
+  type: usb-a
+- name: usb2
+  type: usb-a
+power-ports:
+- name: PSU0
+  type: dc-terminal
+  maximum_draw: 30
+description: Tabletop UTM firewall with 1x 2.5GbE and 4x 1GbE ports

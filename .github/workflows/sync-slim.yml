@@ -1,0 +1,74 @@
+name: Sync slim repo
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    # Run daily even without pushes, to catch upstream merges
+    - cron: '0 6 * * *'
+
+jobs:
+  sync-slim:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full repo (sparse)
+        uses: actions/checkout@v4
+        with:
+          path: full
+          sparse-checkout: |
+            device-types
+            module-types
+            rack-types
+            schema
+            CONTRIBUTING.md
+            LICENSE.txt
+            README.md
+
+      - name: Checkout slim repo
+        uses: actions/checkout@v4
+        with:
+          repository: samsclub91/netbox-devicetype-library-slim
+          token: ${{ secrets.SLIM_REPO_TOKEN }}
+          path: slim
+
+      - name: Copy files to slim repo
+        run: |
+          # Remove old content in slim repo (keep .git and .github)
+          cd slim
+          find . -maxdepth 1 -not -name '.git' -not -name '.github' -not -name '.' -not -name '.gitignore' -exec rm -rf {} +
+          cd ..
+
+          # Copy directories and files from full repo
+          cp -r full/device-types slim/
+          cp -r full/module-types slim/
+          cp -r full/rack-types slim/
+          cp -r full/schema slim/
+          cp full/CONTRIBUTING.md slim/ 2>/dev/null || true
+          cp full/LICENSE.txt slim/ 2>/dev/null || true
+          cp full/README.md slim/ 2>/dev/null || true
+
+          # Ensure .gitignore exists to block image dirs
+          if [ ! -f slim/.gitignore ]; then
+            cat > slim/.gitignore << 'EOF'
+          elevation-images/
+          module-images/
+          *.png
+          *.jpg
+          *.jpeg
+          *.gif
+          *.svg
+          EOF
+          fi
+
+      - name: Commit and push to slim repo
+        run: |
+          cd slim
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to sync"
+          else
+            git commit -m "Sync from full repo - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
