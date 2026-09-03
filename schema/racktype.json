@@ -14,7 +14,8 @@
             "pattern": "^[-a-z0-9_]+$"
         },
         "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 200
         },
         "form_factor": {
             "type": "string",
