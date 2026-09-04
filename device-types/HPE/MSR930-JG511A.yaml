@@ -1,0 +1,42 @@
+---
+manufacturer: HPE
+model: MSR930 JG511A
+slug: hpe-msr930-jg511a
+part_number: JG511A
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.0
+weight_unit: kg
+comments: |-
+  - HPE MSR93x Router Series documentation: https://www.hpe.com/psnow/doc/c04315114.pdf
+  - Additional HPE support reference: https://support.hpe.com/hpesc/public/docDisplay?docId=c03762326
+  - MSR930 series router.
+  - Console/AUX ports: 1
+  - USB ports: 1
+  - GE WAN ports: 1
+  - GE LAN ports: 4
+  - Max AC power: 24 W
+console-ports:
+  - name: Console/AUX
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    description: GE WAN
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+    description: GE LAN
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+    description: GE LAN
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+    description: GE LAN
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+    description: GE LAN
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 24
