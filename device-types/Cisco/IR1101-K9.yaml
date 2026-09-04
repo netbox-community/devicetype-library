@@ -1,0 +1,35 @@
+---
+manufacturer: Cisco
+model: IR1101-K9
+slug: cisco-ir1101-k9
+part_number: IR1101-K9
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |-
+  - Cisco Catalyst IR1101 Rugged Series Router Data Sheet: https://www.cisco.com/c/en/us/products/collateral/routers/1101-industrial-integrated-services-router/datasheet-c78-741709.html
+  - Cisco Catalyst IR1101 Rugged Series Router.
+  - IP30 ingress protection rating.
+  - 4 GB DRAM.
+  - 4 GB usable flash memory.
+  - DIN rail / industrial router form factor.
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+    description: WAN
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+    description: LAN
+  - name: Cellular0/1/0
+    type: lte
+    description: Cellular interface
+module-bays:
+  - name: Expansion Module
+    position: '1'
+    description: Expansion module slot
+power-ports:
+  - name: PWR
+    type: dc-terminal
