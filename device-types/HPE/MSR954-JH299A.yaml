@@ -1,0 +1,43 @@
+---
+manufacturer: HPE
+model: MSR954 JH299A
+slug: hpe-msr954-jh299a
+part_number: JH299A
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: |-
+  - HPE FlexNetwork MSR954 Routers Installation Guide: https://arubanetworking.hpe.com/techdocs/comware/MSR/MSR954/HPEMSR954Installation_Guide_5998-8750a.pdf
+  - HPE description: HPE MSR95X-W 1GbE+SFP LTE (WW) Router.
+  - GE WAN port: GE0
+  - GE LAN ports: GE1 to GE4
+  - Gigabit fiber port: SFP5
+  - Console port, USB port, Micro SD slot, LTE antenna ports, 4G SIM slot.
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: GE0
+    type: 1000base-t
+    description: Gigabit Ethernet WAN port
+  - name: GE1
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: GE2
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: GE3
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: GE4
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: SFP5
+    type: 1000base-x-sfp
+    description: Gigabit fiber port
+  - name: Cellular0
+    type: lte
+    description: Built-in LTE module
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
