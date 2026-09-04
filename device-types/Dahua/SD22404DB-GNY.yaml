@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD22404DB-GNY
+slug: dahua-sd22404db-gny
+part_number: SD22404DB-GNY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD22404DB-GNY datasheet](https://www.dahuasecurity.com/products/all-products/ptz-cameras/wizsense-series/sd2/sd22404db-gny) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd22404db-gny)

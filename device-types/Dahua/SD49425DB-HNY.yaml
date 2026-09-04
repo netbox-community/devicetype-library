@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD49425DB-HNY
+slug: dahua-sd49425db-hny
+part_number: SD49425DB-HNY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD49425DB-HNY datasheet](https://www.dahuasecurity.com/products/All-Products/PTZ-Cameras/WizSense-Series/SD49425DB-HNY) | [Specs on cctv-database.com](https://cctv-database.com/camera/dahua-sd49425db-hny)

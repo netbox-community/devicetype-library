@@ -1,0 +1,17 @@
+---
+manufacturer: DITEK
+model: DTK-NETMS
+description: Rapid-Replacement Surge Protection Module
+front-ports:
+  - name: '{module}:IN'
+    type: 8p8c
+    positions: 1
+rear-ports:
+  - name: '{module}:OUT'
+    type: 8p8c
+    positions: 1
+port-mappings:
+  - front_port: '{module}:IN'
+    front_port_position: 1
+    rear_port: '{module}:OUT'
+    rear_port_position: 1

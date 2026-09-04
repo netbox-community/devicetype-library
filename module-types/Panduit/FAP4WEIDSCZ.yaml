@@ -5,24 +5,24 @@ part_number: FAP4WEIDSCZ
 front-ports:
   - name: '{module}:1-2'
     type: sc-upc
-    rear_port: '{module}:1-2'
     color: d7c5a2
     description: Duplex SC Port
+    positions: 1
   - name: '{module}:3-4'
     type: sc-upc
-    rear_port: '{module}:3-4'
     color: d7c5a2
     description: Duplex SC Port
+    positions: 1
   - name: '{module}:5-6'
     type: sc-upc
-    rear_port: '{module}:5-6'
     color: d7c5a2
     description: Duplex SC Port
+    positions: 1
   - name: '{module}:7-8'
     type: sc-upc
-    rear_port: '{module}:7-8'
     color: d7c5a2
     description: Duplex SC Port
+    positions: 1
 rear-ports:
   - name: '{module}:1-2'
     type: sc-upc
@@ -44,3 +44,20 @@ rear-ports:
     positions: 1
     color: d7c5a2
     description: Duplex SC Port
+port-mappings:
+  - front_port: '{module}:1-2'
+    front_port_position: 1
+    rear_port: '{module}:1-2'
+    rear_port_position: 1
+  - front_port: '{module}:3-4'
+    front_port_position: 1
+    rear_port: '{module}:3-4'
+    rear_port_position: 1
+  - front_port: '{module}:5-6'
+    front_port_position: 1
+    rear_port: '{module}:5-6'
+    rear_port_position: 1
+  - front_port: '{module}:7-8'
+    front_port_position: 1
+    rear_port: '{module}:7-8'
+    rear_port_position: 1
