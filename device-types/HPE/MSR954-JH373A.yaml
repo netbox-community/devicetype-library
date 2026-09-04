@@ -1,0 +1,45 @@
+---
+manufacturer: HPE
+model: MSR954 JH373A
+slug: hpe-msr954-jh373a
+part_number: JH373A
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: |-
+  - HPE FlexNetwork MSR954 Routers Installation Guide: https://arubanetworking.hpe.com/techdocs/comware/MSR/MSR954/HPEMSR954Installation_Guide_5998-8750a.pdf
+  - HPE description: HPE MSR954 1GbE Dual 4G (WW) Router.
+  - GE WAN port: GE0
+  - GE LAN ports: GE1 to GE4
+  - Console/AUX port, USB port, serial port, dual 4G antenna connectors.
+console-ports:
+  - name: CON/AUX
+    type: rj-45
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: GE0
+    type: 1000base-t
+    description: Gigabit Ethernet WAN port
+  - name: GE1
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: GE2
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: GE3
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: GE4
+    type: 1000base-t
+    description: Gigabit Ethernet LAN port
+  - name: Cellular0
+    type: lte
+    description: Built-in 4G module MAIN1/DIV1
+  - name: Cellular1
+    type: lte
+    description: Built-in 4G module MAIN2/DIV2
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    description: Power adapter receptacle
