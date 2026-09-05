@@ -7,49 +7,83 @@ comments: '[Product Page](https://www.fs.com/products/126899.html)'
 front-ports:
   - name: '{module}:EXP'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:MON'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 2
+    positions: 1
   - name: '{module}:1310'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 3
+    positions: 1
   - name: '{module}:C21'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 4
+    positions: 1
   - name: '{module}:C22'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 5
+    positions: 1
   - name: '{module}:C23'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 6
+    positions: 1
   - name: '{module}:C24'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 7
+    positions: 1
   - name: '{module}:C25'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 8
+    positions: 1
   - name: '{module}:C26'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 9
+    positions: 1
   - name: '{module}:C27'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 10
+    positions: 1
   - name: '{module}:C28'
     type: lc-upc
-    rear_port: '{module}:LINE'
-    rear_port_position: 11
+    positions: 1
 rear-ports:
   - name: '{module}:LINE'
     type: lc-upc
     positions: 11
+port-mappings:
+  - front_port: '{module}:EXP'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 1
+  - front_port: '{module}:MON'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 2
+  - front_port: '{module}:1310'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 3
+  - front_port: '{module}:C21'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 4
+  - front_port: '{module}:C22'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 5
+  - front_port: '{module}:C23'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 6
+  - front_port: '{module}:C24'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 7
+  - front_port: '{module}:C25'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 8
+  - front_port: '{module}:C26'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 9
+  - front_port: '{module}:C27'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 10
+  - front_port: '{module}:C28'
+    front_port_position: 1
+    rear_port: '{module}:LINE'
+    rear_port_position: 11
