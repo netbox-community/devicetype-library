@@ -1,13 +1,11 @@
 ---
 manufacturer: Tiandy
-model: TC-C34GS
-slug: tiandy-tc-c34gs
-part_number: TC-C34GS
+model: TC-C32MS
+slug: tiandy-tc-c32ms
+part_number: TC-C32MS
 u_height: 0
 is_full_depth: false
 airflow: passive
-weight: 350
-weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
@@ -21,5 +19,3 @@ module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
-comments: >
-  [Tiandy TC-C34GS datasheet](https://www.anabon.com/wp-content/uploads/2020/12/TC-C34GS-Spec-I5-E-C-4mm.pdf)

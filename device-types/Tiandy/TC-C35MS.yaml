@@ -1,11 +1,13 @@
 ---
 manufacturer: Tiandy
-model: TC-C32MS
-slug: tiandy-tc-c32ms
-part_number: TC-C32MS
+model: TC-C35MS
+slug: tiandy-tc-c35ms
+part_number: TC-C35MS
 u_height: 0
 is_full_depth: false
 airflow: passive
+weight: 880
+weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
@@ -19,5 +21,3 @@ module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
-comments: >
-  [Tiandy TC-C32MS datasheet](https://www.cctvcameraexpert.com/network-ip-camera/57613765.html)
