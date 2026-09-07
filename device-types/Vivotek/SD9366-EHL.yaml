@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: SD9366-EHL
+slug: vivotek-sd9366-ehl
+part_number: SD9366-EHL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 70 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 70
+    description: 24V DC
+comments: >
+  [Vivotek SD9366-EHL datasheet](https://download.vivotek.com/downloadfile/downloads/datasheets/sd9366-ehldatasheet_en.pdf)
