@@ -1,13 +1,11 @@
 ---
-manufacturer: Reolink
-model: E1 Outdoor SE PoE
-slug: reolink-e1-outdoor-se-poe
-part_number: E1 Outdoor SE PoE
+manufacturer: Milesight
+model: MS-C2972-FPB
+slug: milesight-ms-c2972-fpb
+part_number: MS-C2972-FPB
 u_height: 0
 is_full_depth: false
 airflow: passive
-weight: 446
-weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
@@ -20,6 +18,6 @@ power-ports:
 module-bays:
   - name: microSD
     position: microSD
-    description: up to 512 GB
+    description: up to 256 GB
 comments: >
-  [Reolink E1 Outdoor SE PoE datasheet](https://reolink.com/product/e1-outdoor-se-poe/)
+  [Milesight MS-C2972-FPB datasheet](https://www.milesight.com/product/ms-c2972-fpb)
