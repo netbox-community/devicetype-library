@@ -1,12 +1,12 @@
 ---
-manufacturer: Reolink
-model: E1 Outdoor SE PoE
-slug: reolink-e1-outdoor-se-poe
-part_number: E1 Outdoor SE PoE
+manufacturer: Tiandy
+model: TC-C35MS
+slug: tiandy-tc-c35ms
+part_number: TC-C35MS
 u_height: 0
 is_full_depth: false
 airflow: passive
-weight: 446
+weight: 880
 weight_unit: g
 interfaces:
   - name: eth0
@@ -20,6 +20,4 @@ power-ports:
 module-bays:
   - name: microSD
     position: microSD
-    description: up to 512 GB
-comments: >
-  [Reolink E1 Outdoor SE PoE datasheet](https://reolink.com/product/e1-outdoor-se-poe/)
+    description: up to 256 GB
