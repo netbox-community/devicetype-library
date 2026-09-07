@@ -13,100 +13,76 @@ subdevice_role: child
 front-ports:
   - name: Port q1p1
     type: lc
-    rear_port: Port 1
-    rear_port_position: 1
+    positions: 1
   - name: Port q1p2
     type: lc
-    rear_port: Port 1
-    rear_port_position: 2
+    positions: 1
   - name: Port q1p3
     type: lc
-    rear_port: Port 1
-    rear_port_position: 3
+    positions: 1
   - name: Port q1p4
     type: lc
-    rear_port: Port 1
-    rear_port_position: 4
+    positions: 1
   - name: Port q2p1
     type: lc
-    rear_port: Port 1
-    rear_port_position: 5
+    positions: 1
   - name: Port q2p2
     type: lc
-    rear_port: Port 1
-    rear_port_position: 6
+    positions: 1
   - name: Port q2p3
     type: lc
-    rear_port: Port 1
-    rear_port_position: 7
+    positions: 1
   - name: Port q2p4
     type: lc
-    rear_port: Port 1
-    rear_port_position: 8
+    positions: 1
   - name: Port q3p1
     type: lc
-    rear_port: Port 1
-    rear_port_position: 9
+    positions: 1
   - name: Port q3p2
     type: lc
-    rear_port: Port 1
-    rear_port_position: 10
+    positions: 1
   - name: Port q3p3
     type: lc
-    rear_port: Port 1
-    rear_port_position: 11
+    positions: 1
   - name: Port q3p4
     type: lc
-    rear_port: Port 1
-    rear_port_position: 12
+    positions: 1
   - name: Port q4p1
     type: lc
-    rear_port: Port 2
-    rear_port_position: 1
+    positions: 1
   - name: Port q4p2
     type: lc
-    rear_port: Port 2
-    rear_port_position: 2
+    positions: 1
   - name: Port q4p3
     type: lc
-    rear_port: Port 2
-    rear_port_position: 3
+    positions: 1
   - name: Port q4p4
     type: lc
-    rear_port: Port 2
-    rear_port_position: 4
+    positions: 1
   - name: Port q5p1
     type: lc
-    rear_port: Port 2
-    rear_port_position: 5
+    positions: 1
   - name: Port q5p2
     type: lc
-    rear_port: Port 2
-    rear_port_position: 6
+    positions: 1
   - name: Port q5p3
     type: lc
-    rear_port: Port 2
-    rear_port_position: 7
+    positions: 1
   - name: Port q5p4
     type: lc
-    rear_port: Port 2
-    rear_port_position: 8
+    positions: 1
   - name: Port q6p1
     type: lc
-    rear_port: Port 2
-    rear_port_position: 9
+    positions: 1
   - name: Port q6p2
     type: lc
-    rear_port: Port 2
-    rear_port_position: 10
+    positions: 1
   - name: Port q6p3
     type: lc
-    rear_port: Port 2
-    rear_port_position: 11
+    positions: 1
   - name: Port q6p4
     type: lc
-    rear_port: Port 2
-    rear_port_position: 12
+    positions: 1
 rear-ports:
   - name: Port 1
     type: mpo
@@ -114,3 +90,100 @@ rear-ports:
   - name: Port 2
     type: mpo
     positions: 12
+port-mappings:
+  - front_port: Port q1p1
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 1
+  - front_port: Port q1p2
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 2
+  - front_port: Port q1p3
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 3
+  - front_port: Port q1p4
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 4
+  - front_port: Port q2p1
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 5
+  - front_port: Port q2p2
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 6
+  - front_port: Port q2p3
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 7
+  - front_port: Port q2p4
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 8
+  - front_port: Port q3p1
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 9
+  - front_port: Port q3p2
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 10
+  - front_port: Port q3p3
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 11
+  - front_port: Port q3p4
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 12
+  - front_port: Port q4p1
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 1
+  - front_port: Port q4p2
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 2
+  - front_port: Port q4p3
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 3
+  - front_port: Port q4p4
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 4
+  - front_port: Port q5p1
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 5
+  - front_port: Port q5p2
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 6
+  - front_port: Port q5p3
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 7
+  - front_port: Port q5p4
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 8
+  - front_port: Port q6p1
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 9
+  - front_port: Port q6p2
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 10
+  - front_port: Port q6p3
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 11
+  - front_port: Port q6p4
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 12

@@ -207,11 +207,7 @@
           "type": "string",
           "pattern": "^[a-f0-9]{6}$"
         },
-        "rear_port": {
-          "type": "string",
-          "maxLength": 64
-        },
-        "rear_port_position": {
+        "positions": {
           "type": "integer",
           "minimum": 1
         },
@@ -223,8 +219,11 @@
       "required": [
         "name",
         "type",
-        "rear_port"
+        "positions"
       ],
+      "dependentRequired": {
+        "rear_port_position": ["rear_port"]
+      },
       "additionalProperties": false
     },
     "rear-port": {
@@ -259,8 +258,36 @@
       },
       "required": [
         "name",
-        "type"
+        "type",
+        "positions"
       ],
+      "additionalProperties": false
+    },
+    "port-mappings": {
+      "type": "object",
+      "properties": {
+        "front_port": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "front_port_position": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1024
+        },
+        "rear_port": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "rear_port_position": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1024
+        }
+      },
+      "required": ["front_port", "front_port_position","rear_port","rear_port_position"],
       "additionalProperties": false
     },
     "module-bay": {

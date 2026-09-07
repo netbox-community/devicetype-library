@@ -91,6 +91,12 @@
                 "$ref": "urn:devicetype-library:components#/definitions/rear-port"
             }
         },
+        "port-mappings": {
+            "type": "array",
+            "items": {
+                "$ref": "urn:devicetype-library:components#/definitions/port-mappings"
+            }
+        },
         "module-bays": {
             "type": "array",
             "items": {

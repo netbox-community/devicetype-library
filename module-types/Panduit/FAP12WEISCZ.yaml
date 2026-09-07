@@ -5,110 +5,171 @@ part_number: FAP12WEISCZ
 front-ports:
   - name: '{module}:1'
     type: sc-upc
-    rear_port: '{module}:1'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:2'
     type: sc-upc
-    rear_port: '{module}:2'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:3'
     type: sc-upc
-    rear_port: '{module}:3'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:4'
     type: sc-upc
-    rear_port: '{module}:4'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:5'
     type: sc-upc
-    rear_port: '{module}:5'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:6'
     type: sc-upc
-    rear_port: '{module}:6'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:7'
     type: sc-upc
-    rear_port: '{module}:7'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:8'
     type: sc-upc
-    rear_port: '{module}:8'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:9'
     type: sc-upc
-    rear_port: '{module}:9'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:10'
     type: sc-upc
-    rear_port: '{module}:10'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:11'
     type: sc-upc
-    rear_port: '{module}:11'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:12'
     type: sc-upc
-    rear_port: '{module}:12'
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:2'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:3'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:4'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:5'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:6'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:7'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:8'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:9'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:10'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:11'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
   - name: '{module}:12'
     type: sc-upc
     color: d7c5a2
     description: Simplex SC Port
+    positions: 1
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:6'
+    rear_port_position: 1
+  - front_port: '{module}:7'
+    front_port_position: 1
+    rear_port: '{module}:7'
+    rear_port_position: 1
+  - front_port: '{module}:8'
+    front_port_position: 1
+    rear_port: '{module}:8'
+    rear_port_position: 1
+  - front_port: '{module}:9'
+    front_port_position: 1
+    rear_port: '{module}:9'
+    rear_port_position: 1
+  - front_port: '{module}:10'
+    front_port_position: 1
+    rear_port: '{module}:10'
+    rear_port_position: 1
+  - front_port: '{module}:11'
+    front_port_position: 1
+    rear_port: '{module}:11'
+    rear_port_position: 1
+  - front_port: '{module}:12'
+    front_port_position: 1
+    rear_port: '{module}:12'
+    rear_port_position: 1
