@@ -9,11 +9,13 @@ weight_unit: kg
 is_full_depth: false
 airflow: passive
 comments: '[Arista CCS-710HXP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710HXP-Datasheet.pdf)'
-module-bays:
+power-ports:
   - name: PSU 0
-    position: '0'
+    type: dc-terminal
+    description: Terminal block for external AC (PWR-462-AC-ADP-H) or DC supply (PWR-462-DC-ADP-H).
   - name: PSU 1
-    position: '1'
+    type: dc-terminal
+    description: Terminal block for external AC (PWR-462-AC-ADP-H) or DC supply (PWR-462-DC-ADP-H).
 console-ports:
   - name: Console
     type: rj-45
