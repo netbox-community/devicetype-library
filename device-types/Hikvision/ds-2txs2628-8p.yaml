@@ -1,0 +1,13 @@
+---
+manufacturer: Hikvision
+model: DS-2TXS2628-8P
+slug: hikvision-ds-2txs2628-8p
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 30 W
