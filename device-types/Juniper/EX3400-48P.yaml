@@ -17,13 +17,13 @@ console-ports:
   - name: Console (USB)
     type: usb-mini-b
 module-bays:
-  - name: PSU0
+  - name: Power Supply 0
     position: '0'
-  - name: PSU1
+  - name: Power Supply 1
     position: '1'
-  - name: FAN0
+  - name: Fan Tray 0
     position: '0'
-  - name: FAN1
+  - name: Fan Tray 1
     position: '1'
 interfaces:
   - name: me0
