@@ -1,0 +1,19 @@
+---
+manufacturer: Hanwha
+model: SNO-7080RN
+slug: hanwha-sno-7080rn
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SNO-7080RN datasheet](https://www.hanwhavision.com/)

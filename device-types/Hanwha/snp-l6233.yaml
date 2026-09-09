@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: SNP-L6233
+slug: hanwha-snp-l6233
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: AC IN
+    type: iec-60320-c14
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha SNP-L6233 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-L6233)

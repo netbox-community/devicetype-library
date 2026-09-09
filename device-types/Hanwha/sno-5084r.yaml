@@ -1,0 +1,19 @@
+---
+manufacturer: Hanwha
+model: SNO-5084R
+slug: hanwha-sno-5084r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1170
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SNO-5084R datasheet](https://www.hanwhavision.com/global/products/product-details/SNO-5084R)

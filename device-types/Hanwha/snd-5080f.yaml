@@ -1,0 +1,19 @@
+---
+manufacturer: Hanwha
+model: SND-5080F
+slug: hanwha-snd-5080f
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SND-5080F datasheet](https://www.hanwhavision.com/)

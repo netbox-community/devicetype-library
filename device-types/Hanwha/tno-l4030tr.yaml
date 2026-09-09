@@ -1,0 +1,23 @@
+---
+manufacturer: Hanwha
+model: TNO-L4030TR
+slug: hanwha-tno-l4030tr
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3124
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha TNO-L4030TR datasheet](https://www.hanwhavision.com/global/products/product-details/TNO-L4030TR)

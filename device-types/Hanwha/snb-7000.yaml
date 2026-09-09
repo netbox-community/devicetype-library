@@ -1,0 +1,19 @@
+---
+manufacturer: Hanwha
+model: SNB-7000
+slug: hanwha-snb-7000
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SNB-7000 datasheet](https://www.hanwhavision.com/)

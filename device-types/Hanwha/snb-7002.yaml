@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: SNB-7002
+slug: hanwha-snb-7002
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 468
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SNB-7002 datasheet](https://www.hanwhavision.com/global/products/product-details/SNB-7002)

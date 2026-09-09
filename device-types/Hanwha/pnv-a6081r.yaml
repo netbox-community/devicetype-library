@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: PNV-A6081R
+slug: hanwha-pnv-a6081r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha PNV-A6081R datasheet](https://www.hanwhavision.com/global/products/product-details/PNV-A6081R)

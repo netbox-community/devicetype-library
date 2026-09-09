@@ -1,0 +1,20 @@
+---
+manufacturer: Hanwha
+model: SNP-5321
+slug: hanwha-snp-5321
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SNP-5321 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-5321)

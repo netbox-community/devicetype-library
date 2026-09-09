@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: SNO-7084R
+slug: hanwha-sno-7084r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1190
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 19 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+comments: >
+  [Hanwha SNO-7084R datasheet](https://www.hanwhavision.com/global/products/product-details/SNO-7084R)

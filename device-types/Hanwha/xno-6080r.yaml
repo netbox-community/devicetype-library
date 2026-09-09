@@ -1,0 +1,26 @@
+---
+manufacturer: Hanwha
+model: XNO-6080R
+slug: hanwha-xno-6080r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2180
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha XNO-6080R datasheet](https://www.hanwhavision.com/global/products/product-details/XNO-6080R)
