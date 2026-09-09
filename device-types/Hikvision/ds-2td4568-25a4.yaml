@@ -1,0 +1,19 @@
+---
+manufacturer: Hikvision
+model: DS-2TD4568-25A4
+slug: hikvision-ds-2td4568-25a4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+interfaces:
+  - name: eth0
+    type: 100base-tx
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
