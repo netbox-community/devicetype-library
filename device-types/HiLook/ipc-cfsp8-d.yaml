@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: IPC-CFSP8-D
+slug: hilook-ipc-cfsp8-d
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1560
+weight_unit: g
+interfaces:
+  - name: lte0
+    type: lte
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-CFSP8-D datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000186921/IPC-CFSP8-D_4GEU_Datasheet_20260806.pdf)
