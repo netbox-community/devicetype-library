@@ -308,6 +308,15 @@
         "description": {
           "type": "string",
           "maxLength": 200
+        },
+        "module_bay_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "uniqueItems": true
         }
       },
       "required": [
