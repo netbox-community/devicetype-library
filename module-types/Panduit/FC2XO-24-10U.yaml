@@ -2,127 +2,6 @@
 manufacturer: Panduit
 model: Opticom MPO-LC Fiber Cassette OM3, 24 Fiber, Universal
 part_number: FC2XO-24-10U
-front-ports:
-  - name: '{module}:01'
-    type: lc
-    rear_port: '{module}:1'
-    label: 01-A
-    rear_port_position: 12
-  - name: '{module}:02'
-    type: lc
-    rear_port: '{module}:1'
-    label: 01-B
-    rear_port_position: 1
-  - name: '{module}:03'
-    type: lc
-    rear_port: '{module}:1'
-    label: 02-A
-    rear_port_position: 11
-  - name: '{module}:04'
-    type: lc
-    rear_port: '{module}:1'
-    label: 02-B
-    rear_port_position: 2
-  - name: '{module}:05'
-    type: lc
-    rear_port: '{module}:1'
-    label: 03-A
-    rear_port_position: 10
-  - name: '{module}:06'
-    type: lc
-    rear_port: '{module}:1'
-    label: 03-B
-    rear_port_position: 3
-  - name: '{module}:07'
-    type: lc
-    rear_port: '{module}:1'
-    label: 04-A
-    rear_port_position: 9
-  - name: '{module}:08'
-    type: lc
-    rear_port: '{module}:1'
-    label: 04-B
-    rear_port_position: 4
-  - name: '{module}:09'
-    type: lc
-    rear_port: '{module}:1'
-    label: 05-A
-    rear_port_position: 8
-  - name: '{module}:10'
-    type: lc
-    rear_port: '{module}:1'
-    label: 05-B
-    rear_port_position: 5
-  - name: '{module}:11'
-    type: lc
-    rear_port: '{module}:1'
-    label: 06-A
-    rear_port_position: 7
-  - name: '{module}:12'
-    type: lc
-    rear_port: '{module}:1'
-    label: 06-B
-    rear_port_position: 6
-  - name: '{module}:13'
-    type: lc
-    rear_port: '{module}:2'
-    label: 07-A
-    rear_port_position: 12
-  - name: '{module}:14'
-    type: lc
-    rear_port: '{module}:2'
-    label: 07-B
-    rear_port_position: 1
-  - name: '{module}:15'
-    type: lc
-    rear_port: '{module}:2'
-    label: 08-A
-    rear_port_position: 11
-  - name: '{module}:16'
-    type: lc
-    rear_port: '{module}:2'
-    label: 08-B
-    rear_port_position: 2
-  - name: '{module}:17'
-    type: lc
-    rear_port: '{module}:2'
-    label: 09-A
-    rear_port_position: 10
-  - name: '{module}:18'
-    type: lc
-    rear_port: '{module}:2'
-    label: 09-B
-    rear_port_position: 3
-  - name: '{module}:19'
-    type: lc
-    rear_port: '{module}:2'
-    label: 10-A
-    rear_port_position: 9
-  - name: '{module}:20'
-    type: lc
-    rear_port: '{module}:2'
-    label: 10-B
-    rear_port_position: 4
-  - name: '{module}:21'
-    type: lc
-    rear_port: '{module}:2'
-    label: 11-A
-    rear_port_position: 8
-  - name: '{module}:22'
-    type: lc
-    rear_port: '{module}:2'
-    label: 11-B
-    rear_port_position: 5
-  - name: '{module}:23'
-    type: lc
-    rear_port: '{module}:2'
-    label: 12-A
-    rear_port_position: 7
-  - name: '{module}:24'
-    type: lc
-    rear_port: '{module}:2'
-    label: 12-B
-    rear_port_position: 6
 rear-ports:
   - name: '{module}:1'
     type: mpo
@@ -130,3 +9,199 @@ rear-ports:
   - name: '{module}:2'
     type: mpo
     positions: 12
+
+front-ports:
+  - name: '{module}:01'
+    type: lc
+    positions: 1
+    label: 01-A
+  - name: '{module}:02'
+    type: lc
+    positions: 1
+    label: 01-B
+  - name: '{module}:03'
+    type: lc
+    positions: 1
+    label: 02-A
+  - name: '{module}:04'
+    type: lc
+    positions: 1
+    label: 02-B
+  - name: '{module}:05'
+    type: lc
+    positions: 1
+    label: 03-A
+  - name: '{module}:06'
+    type: lc
+    positions: 1
+    label: 03-B
+  - name: '{module}:07'
+    type: lc
+    positions: 1
+    label: 04-A
+  - name: '{module}:08'
+    type: lc
+    positions: 1
+    label: 04-B
+  - name: '{module}:09'
+    type: lc
+    positions: 1
+    label: 05-A
+  - name: '{module}:10'
+    type: lc
+    positions: 1
+    label: 05-B
+  - name: '{module}:11'
+    type: lc
+    positions: 1
+    label: 06-A
+  - name: '{module}:12'
+    type: lc
+    positions: 1
+    label: 06-B
+  - name: '{module}:13'
+    type: lc
+    positions: 1
+    label: 07-A
+  - name: '{module}:14'
+    type: lc
+    positions: 1
+    label: 07-B
+  - name: '{module}:15'
+    type: lc
+    positions: 1
+    label: 08-A
+  - name: '{module}:16'
+    type: lc
+    positions: 1
+    label: 08-B
+  - name: '{module}:17'
+    type: lc
+    positions: 1
+    label: 09-A
+  - name: '{module}:18'
+    type: lc
+    positions: 1
+    label: 09-B
+  - name: '{module}:19'
+    type: lc
+    positions: 1
+    label: 10-A
+  - name: '{module}:20'
+    type: lc
+    positions: 1
+    label: 10-B
+  - name: '{module}:21'
+    type: lc
+    positions: 1
+    label: 11-A
+  - name: '{module}:22'
+    type: lc
+    positions: 1
+    label: 11-B
+  - name: '{module}:23'
+    type: lc
+    positions: 1
+    label: 12-A
+  - name: '{module}:24'
+    type: lc
+    positions: 1
+    label: 12-B
+
+port-mappings:
+  - front_port: '{module}:01'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 12
+  - front_port: '{module}:02'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:03'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 11
+  - front_port: '{module}:04'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 2
+  - front_port: '{module}:05'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 10
+  - front_port: '{module}:06'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 3
+  - front_port: '{module}:07'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 9
+  - front_port: '{module}:08'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 4
+  - front_port: '{module}:09'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 8
+  - front_port: '{module}:10'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 5
+  - front_port: '{module}:11'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 7
+  - front_port: '{module}:12'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 6
+  - front_port: '{module}:13'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 12
+  - front_port: '{module}:14'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:15'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 11
+  - front_port: '{module}:16'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 2
+  - front_port: '{module}:17'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 10
+  - front_port: '{module}:18'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 3
+  - front_port: '{module}:19'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 9
+  - front_port: '{module}:20'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 4
+  - front_port: '{module}:21'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 8
+  - front_port: '{module}:22'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 5
+  - front_port: '{module}:23'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 7
+  - front_port: '{module}:24'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 6

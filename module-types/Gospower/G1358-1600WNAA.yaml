@@ -1,0 +1,16 @@
+---
+profile: Power supply
+manufacturer: Gospower
+model: G1358-1600WNAA
+description: Power supply 1600 W, AC 200-240 V, 50-60 Hz, T185 Titanium Series
+airflow: front-to-rear
+attribute_data:
+  wattage: 1600
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+comments: See [Product information](https://www.gospower.com/productinfo104.html).
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 1600

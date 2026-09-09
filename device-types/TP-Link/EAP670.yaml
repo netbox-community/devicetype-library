@@ -1,0 +1,17 @@
+---
+manufacturer: TP-Link
+model: EAP670
+slug: tp-link-eap670
+part_number: EAP670
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link Omada EAP670 Specifications](https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap670/)'
+power-ports:
+  - name: PoE
+    type: dc-terminal
+interfaces:
+  - name: LAN
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

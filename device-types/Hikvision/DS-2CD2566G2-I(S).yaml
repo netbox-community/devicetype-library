@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2566G2-I(S)
+slug: hikvision-ds-2cd2566g2-is
+part_number: DS-2CD2566G2-I(S)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 375
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2566G2-I(S) datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000059285/DS-2CD2566G2-IS-C_Datasheet_V5.7.11_20230201.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2566g2-is)

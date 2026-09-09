@@ -1,0 +1,199 @@
+---
+manufacturer: VAST Data
+model: DBox DF-5615-CX5X2
+slug: vast-data-dbox-df-5615-cx5x2
+part_number: DF-5615-CX5X2
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+weight: 39
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  VAST Data DBox DF-5615-CX5X2 (Mavericks) - Single NIC Configuration.
+  2U storage chassis hosting 2x Active/Active Fabric Modules (DNodes).
+  Persistent Memory: 9.6TB | HyperScale Flash: 664TB.
+  Per node: Dual Intel Xeon E5-2630 v4, 64GB DDR4, Single NIC MCX556A-ECAT (CX5 Dual Port).
+
+device-bays:
+  - name: DNode 0
+  - name: DNode 1
+module-bays:
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
+  # SSDs (44 slots)
+  - name: SSD-00
+    label: U.2 SSD Slot 00
+    position: '0'
+  - name: SSD-01
+    label: U.2 SSD Slot 01
+    position: '1'
+  - name: SSD-02
+    label: U.2 SSD Slot 02
+    position: '2'
+  - name: SSD-03
+    label: U.2 SSD Slot 03
+    position: '3'
+  - name: SSD-04
+    label: U.2 SSD Slot 04
+    position: '4'
+  - name: SSD-05
+    label: U.2 SSD Slot 05
+    position: '5'
+  - name: SSD-06
+    label: U.2 SSD Slot 06
+    position: '6'
+  - name: SSD-07
+    label: U.2 SSD Slot 07
+    position: '7'
+  - name: SSD-08
+    label: U.2 SSD Slot 08
+    position: '8'
+  - name: SSD-09
+    label: U.2 SSD Slot 09
+    position: '9'
+  - name: SSD-10
+    label: U.2 SSD Slot 10
+    position: '10'
+  - name: SSD-11
+    label: U.2 SSD Slot 11
+    position: '11'
+  - name: SSD-12
+    label: U.2 SSD Slot 12
+    position: '12'
+  - name: SSD-13
+    label: U.2 SSD Slot 13
+    position: '13'
+  - name: SSD-14
+    label: U.2 SSD Slot 14
+    position: '14'
+  - name: SSD-15
+    label: U.2 SSD Slot 15
+    position: '15'
+  - name: SSD-16
+    label: U.2 SSD Slot 16
+    position: '16'
+  - name: SSD-17
+    label: U.2 SSD Slot 17
+    position: '17'
+  - name: SSD-18
+    label: U.2 SSD Slot 18
+    position: '18'
+  - name: SSD-19
+    label: U.2 SSD Slot 19
+    position: '19'
+  - name: SSD-20
+    label: U.2 SSD Slot 20
+    position: '20'
+  - name: SSD-21
+    label: U.2 SSD Slot 21
+    position: '21'
+  - name: SSD-22
+    label: U.2 SSD Slot 22
+    position: '22'
+  - name: SSD-23
+    label: U.2 SSD Slot 23
+    position: '23'
+  - name: SSD-24
+    label: U.2 SSD Slot 24
+    position: '24'
+  - name: SSD-25
+    label: U.2 SSD Slot 25
+    position: '25'
+  - name: SSD-26
+    label: U.2 SSD Slot 26
+    position: '26'
+  - name: SSD-27
+    label: U.2 SSD Slot 27
+    position: '27'
+  - name: SSD-28
+    label: U.2 SSD Slot 28
+    position: '28'
+  - name: SSD-29
+    label: U.2 SSD Slot 29
+    position: '29'
+  - name: SSD-30
+    label: U.2 SSD Slot 30
+    position: '30'
+  - name: SSD-31
+    label: U.2 SSD Slot 31
+    position: '31'
+  - name: SSD-32
+    label: U.2 SSD Slot 32
+    position: '32'
+  - name: SSD-33
+    label: U.2 SSD Slot 33
+    position: '33'
+  - name: SSD-34
+    label: U.2 SSD Slot 34
+    position: '34'
+  - name: SSD-35
+    label: U.2 SSD Slot 35
+    position: '35'
+  - name: SSD-36
+    label: U.2 SSD Slot 36
+    position: '36'
+  - name: SSD-37
+    label: U.2 SSD Slot 37
+    position: '37'
+  - name: SSD-38
+    label: U.2 SSD Slot 38
+    position: '38'
+  - name: SSD-39
+    label: U.2 SSD Slot 39
+    position: '39'
+  - name: SSD-40
+    label: U.2 SSD Slot 40
+    position: '40'
+  - name: SSD-41
+    label: U.2 SSD Slot 41
+    position: '41'
+  - name: SSD-42
+    label: U.2 SSD Slot 42
+    position: '42'
+  - name: SSD-43
+    label: U.2 SSD Slot 43
+    position: '43'
+  # SCMs (12 slots)
+  - name: SCM-00
+    label: U.2 SCM Slot 00 (Persistent Memory)
+    position: '0'
+  - name: SCM-01
+    label: U.2 SCM Slot 01 (Persistent Memory)
+    position: '1'
+  - name: SCM-02
+    label: U.2 SCM Slot 02 (Persistent Memory)
+    position: '2'
+  - name: SCM-03
+    label: U.2 SCM Slot 03 (Persistent Memory)
+    position: '3'
+  - name: SCM-04
+    label: U.2 SCM Slot 04 (Persistent Memory)
+    position: '4'
+  - name: SCM-05
+    label: U.2 SCM Slot 05 (Persistent Memory)
+    position: '5'
+  - name: SCM-06
+    label: U.2 SCM Slot 06 (Persistent Memory)
+    position: '6'
+  - name: SCM-07
+    label: U.2 SCM Slot 07 (Persistent Memory)
+    position: '7'
+  - name: SCM-08
+    label: U.2 SCM Slot 08 (Persistent Memory)
+    position: '8'
+  - name: SCM-09
+    label: U.2 SCM Slot 09 (Persistent Memory)
+    position: '9'
+  - name: SCM-10
+    label: U.2 SCM Slot 10 (Persistent Memory)
+    position: '10'
+  - name: SCM-11
+    label: U.2 SCM Slot 11 (Persistent Memory)
+    position: '11'

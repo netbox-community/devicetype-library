@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: ANE-L6012R
+slug: hanwha-ane-l6012r
+part_number: ANE-L6012R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 630
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Hanwha ANE-L6012R datasheet](https://www.hanwhavision.com/en/products/product-details/ane-l6012r) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-ane-l6012r)

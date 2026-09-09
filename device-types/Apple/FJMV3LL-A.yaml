@@ -1,0 +1,20 @@
+---
+manufacturer: Apple
+model: Mac Studio (2022)
+slug: apple-mac-studio-2022
+part_number: FJMV3LL/A
+u_height: 3
+is_full_depth: false
+airflow: bottom-to-top
+weight: 3
+weight_unit: kg
+comments: '[Mac Studio (2022) | hardware specs](https://support.apple.com/en-us/111900)'
+power-ports:
+  - name: Power
+    type: iec-60320-c6
+    maximum_draw: 215
+interfaces:
+  - name: eth0
+    type: 10gbase-t
+  - name: wireless
+    type: ieee802.11ax

@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC3615LB-SF28-A
+slug: uniview-ipc3615lb-sf28-a
+part_number: IPC3615LB-SF28-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC3615LB-SF28-A datasheet](https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC3615LB-SF28-A/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc3615lb-sf28-a)

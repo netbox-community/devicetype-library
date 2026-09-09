@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD20166G3-IUY/SL
+slug: hikvision-ds-2cd20166g3-iuy-sl
+part_number: DS-2CD20166G3-IUY/SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD20166G3-IUY/SL datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000106868/DS-2CD20166G3-IUY_SL_Datasheet_20260724.pdf) |
+  [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd20166g3-iuy-sl)

@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: P1487-LE
+slug: axis-p1487-le
+part_number: P1487-LE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 13 W
+comments: >
+  [Axis P1487-LE datasheet](https://www.axis.com/products/axis-p1487-le) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-p1487-le)

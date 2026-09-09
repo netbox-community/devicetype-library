@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC9312LFW-AF28-2X4
+slug: uniview-ipc9312lfw-af28-2x4
+part_number: IPC9312LFW-AF28-2X4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1030
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC9312LFW-AF28-2X4 datasheet](https://www.uniview.com/Products/PTZ_Cameras/Easy_Series/Easy_Series/IPC9312LFW-AF28-2X4/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc9312lfw-af28-2x4)

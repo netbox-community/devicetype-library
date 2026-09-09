@@ -1,0 +1,30 @@
+---
+manufacturer: Dell
+model: EqualLogic PS6100
+slug: dell-equallogic-ps6100
+u_height: 4
+is_full_depth: true
+weight: 44.45
+weight_unit: kg
+module-bays:
+  - name: PSU1
+    label: Power Supply Slot 1
+    position: '1'
+  - name: PSU2
+    label: Power Supply Slot 2
+    position: '2'
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Ethernet 0
+    type: 1000base-t
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

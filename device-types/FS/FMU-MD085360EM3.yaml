@@ -10,37 +10,62 @@ comments: 8 Channels 100GHz C53-C60, with Monitor, Expansion and 1310nm Port, LC
 front-ports:
   - name: C53
     type: lc
-    rear_port: LINE
-    rear_port_position: 33
+    positions: 1
   - name: C54
     type: lc
-    rear_port: LINE
-    rear_port_position: 34
+    positions: 1
   - name: C55
     type: lc
-    rear_port: LINE
-    rear_port_position: 35
+    positions: 1
   - name: C56
     type: lc
-    rear_port: LINE
-    rear_port_position: 36
+    positions: 1
   - name: C57
     type: lc
-    rear_port: LINE
-    rear_port_position: 37
+    positions: 1
   - name: C58
     type: lc
-    rear_port: LINE
-    rear_port_position: 38
+    positions: 1
   - name: C59
     type: lc
-    rear_port: LINE
-    rear_port_position: 39
+    positions: 1
   - name: C60
     type: lc
-    rear_port: LINE
-    rear_port_position: 40
+    positions: 1
 rear-ports:
   - name: LINE
     type: lc
     positions: 40
+port-mappings:
+  - front_port: C53
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 33
+  - front_port: C54
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 34
+  - front_port: C55
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 35
+  - front_port: C56
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 36
+  - front_port: C57
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 37
+  - front_port: C58
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 38
+  - front_port: C59
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 39
+  - front_port: C60
+    front_port_position: 1
+    rear_port: LINE
+    rear_port_position: 40

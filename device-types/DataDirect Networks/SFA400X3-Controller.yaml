@@ -1,0 +1,29 @@
+---
+manufacturer: DataDirect Networks
+model: SFA400X3 Controller
+slug: datadirect-networks-sfa400x3-controller
+comments: |
+  Controller module for the DDN SFA400X3E / SFA400X3IE (AI400X3) enclosure.
+  halink is the inter-controller high-availability link.
+  Product page: https://www.ddn.com/products/ai400x3/
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+subdevice_role: child
+interfaces:
+  - name: bmc
+    type: 1000base-t
+    mgmt_only: true
+  - name: halink
+    type: 1000base-t
+    description: Inter-controller HA link
+  - name: mgmt0
+    type: 10gbase-t
+    mgmt_only: true
+  - name: mgmt1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: mlxen0
+    type: 400gbase-x-qsfp112
+  - name: mlxen1
+    type: 400gbase-x-qsfp112

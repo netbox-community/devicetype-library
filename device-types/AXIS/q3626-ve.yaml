@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: Q3626-VE
+slug: axis-q3626-ve
+part_number: Q3626-VE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+comments: >
+  [Axis Q3626-VE datasheet](https://www.axis.com/products/axis-q3626-ve) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-q3626-ve)

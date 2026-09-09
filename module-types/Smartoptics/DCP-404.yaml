@@ -6,13 +6,18 @@ weight: 1.8
 weight_unit: kg
 comments: '[DCP-404 Datasheet](https://smartoptics.com/wp-content/uploads/2024/07/so-ds-dcp-404-r1.9.pdf)'
 interfaces:
-  - name: Line/{module}/1
+  - name: if-1/{module}/1
+    type: 100gbase-x-qsfp28
+    label: Client 1
+  - name: if-1/{module}/2
+    type: 100gbase-x-qsfp28
+    label: Client 2
+  - name: if-1/{module}/3
+    type: 100gbase-x-qsfp28
+    label: Client 3
+  - name: if-1/{module}/4
+    type: 100gbase-x-qsfp28
+    label: Client 4
+  - name: if-1/{module}/5
     type: 400gbase-x-qsfpdd
-  - name: Client/{module}/1
-    type: 100gbase-x-qsfp28
-  - name: Client/{module}/2
-    type: 100gbase-x-qsfp28
-  - name: Client/{module}/3
-    type: 100gbase-x-qsfp28
-  - name: Client/{module}/4
-    type: 100gbase-x-qsfp28
+    label: Line 1
