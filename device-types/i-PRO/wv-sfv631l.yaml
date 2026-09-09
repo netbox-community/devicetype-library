@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-SFV631L
+slug: i-pro-wv-sfv631l
+part_number: WV-SFV631L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [i-PRO WV-SFV631L datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-sfv631l)

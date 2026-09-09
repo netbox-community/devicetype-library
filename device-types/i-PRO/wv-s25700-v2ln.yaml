@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S25700-V2LN
+slug: i-pro-wv-s25700-v2ln
+part_number: WV-S25700-V2LN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [i-PRO WV-S25700-V2LN datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s25700-v2ln)
