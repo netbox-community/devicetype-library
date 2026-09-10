@@ -1,0 +1,22 @@
+---
+manufacturer: Uniview
+model: IPC2122LB-AF28WK-WF
+slug: uniview-ipc2122lb-af28wk-wf
+part_number: IPC2122LB-AF28WK-WF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

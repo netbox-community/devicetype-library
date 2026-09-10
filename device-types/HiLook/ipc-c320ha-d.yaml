@@ -1,0 +1,26 @@
+---
+manufacturer: HiLook
+model: IPC-C320HA-D
+slug: hilook-ipc-c320ha-d
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4.9 W
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-C320HA-D datasheet](https://assets.hikvision.com/prd/public/all/doc/m000147483/IPC-C320HA-D_WW_Datasheet_20250703.pdf)
