@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5259E1-ZE-IL
+slug: dahua-ipc-hdbw5259e1-ze-il
+part_number: IPC-HDBW5259E1-ZE-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 16.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+comments: >
+  [Dahua IPC-HDBW5259E1-ZE-IL datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/smart-dual-light/2mp/ipc-hdbw5259e1-ze-il)

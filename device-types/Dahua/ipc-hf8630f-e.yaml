@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HF8630F-E
+slug: dahua-ipc-hf8630f-e
+part_number: IPC-HF8630F-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua IPC-HF8630F-E datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hf8630f-e)

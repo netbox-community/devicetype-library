@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6C3432XB-HNR-AGQ-PV
+slug: dahua-sd6c3432xb-hnr-agq-pv
+part_number: SD6C3432XB-HNR-AGQ-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 27 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 27
+comments: >
+  [Dahua SD6C3432XB-HNR-AGQ-PV datasheet](https://www.dahuasecurity.com/products/discontinued-products/ptz-cameras/sd6c3432xb-hnr-agq-pv)

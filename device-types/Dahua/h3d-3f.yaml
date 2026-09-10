@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: H3D-3F
+slug: dahua-h3d-3f
+part_number: H3D-3F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 233
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua H3D-3F datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/h3d-3f)

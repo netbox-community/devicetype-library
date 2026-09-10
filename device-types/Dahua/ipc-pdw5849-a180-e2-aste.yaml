@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-PDW5849-A180-E2-ASTE
+slug: dahua-ipc-pdw5849-a180-e2-aste
+part_number: IPC-PDW5849-A180-E2-ASTE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 990
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 11.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-PDW5849-A180-E2-ASTE datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/WizMind-Series/5-Series/Full-color/IPC-PDW5849-A180-E2-ASTE)

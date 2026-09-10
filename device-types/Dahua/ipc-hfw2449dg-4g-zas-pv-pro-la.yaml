@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2449DG-4G-ZAS-PV-PRO-LA
+slug: dahua-ipc-hfw2449dg-4g-zas-pv-pro-la
+part_number: IPC-HFW2449DG-4G-ZAS-PV-PRO-LA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+comments: >
+  [Dahua IPC-HFW2449DG-4G-ZAS-PV-PRO-LA datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/4g-camera/ipc-hfw2449dg-4g-zas-pv-pro-la)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW1339DA-SAW-IL
+slug: dahua-ipc-hdw1339da-saw-il
+part_number: IPC-HDW1339DA-SAW-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua IPC-HDW1339DA-SAW-IL datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/Entry-Level-Series/1-Series/IPC-HDW1339DA-SAW-IL)

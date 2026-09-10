@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6AL445XA-HNR
+slug: dahua-sd6al445xa-hnr
+part_number: SD6AL445XA-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 36
+comments: >
+  [Dahua SD6AL445XA-HNR datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/38837/datasheet/SD6AL445XA-HNR_datasheet_20200605.pdf)
