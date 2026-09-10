@@ -10,8 +10,7 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
-power-ports:
-  - name: AC IN
-    type: iec-60320-c14
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
 comments: >
   [Hanwha SNP-5200N datasheet](https://www.hanwhavision.com/)
