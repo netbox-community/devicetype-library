@@ -1,0 +1,19 @@
+---
+manufacturer: Bosch
+model: NBI-7803-AXT
+slug: bosch-nbi-7803-axt
+part_number: NBI-7803-AXT
+description: DINION 7100s Starlight X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 830
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
