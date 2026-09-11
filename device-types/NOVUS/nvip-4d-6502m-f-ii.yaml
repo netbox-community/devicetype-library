@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-4D-6502M/F-II
+slug: novus-nvip-4d-6502m-f-ii
+part_number: NVIP-4D-6502M/F-II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [NOVUS NVIP-4D-6502M/F-II datasheet](https://www.novuscctv.com/en/products/6058/NVIP-4D-6502M_F-II)

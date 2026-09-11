@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-5SD-4550/33/F
+slug: novus-nvip-5sd-4550-33-f
+part_number: NVIP-5SD-4550/33/F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [NOVUS NVIP-5SD-4550/33/F datasheet](https://www.novuscctv.com/en/products/6173/NVIP-5SD-4550_33_F)
