@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: HY-FT443HFP
+slug: dahua-hy-ft443hfp
+part_number: HY-FT443HFP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1710
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 13.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua HY-FT443HFP datasheet](https://www.dahuasecurity.com/products/fire-alarm/fire-safety-cameras/flame-detection-camera/hy-ft443hfp)

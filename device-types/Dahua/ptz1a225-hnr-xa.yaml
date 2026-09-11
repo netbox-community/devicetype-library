@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: PTZ1A225-HNR-XA
+slug: dahua-ptz1a225-hnr-xa
+part_number: PTZ1A225-HNR-XA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+comments: >
+  [Dahua PTZ1A225-HNR-XA datasheet](https://materialfile.dahuasecurity.com/uploads/soft/20201211/DH-PTZ1A225-HNR-XA_datasheet_20201207.pdf)

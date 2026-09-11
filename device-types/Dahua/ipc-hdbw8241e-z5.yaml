@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW8241E-Z5
+slug: dahua-ipc-hdbw8241e-z5
+part_number: IPC-HDBW8241E-Z5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1060
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 15.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+comments: >
+  [Dahua IPC-HDBW8241E-Z5 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw8241e-z5)

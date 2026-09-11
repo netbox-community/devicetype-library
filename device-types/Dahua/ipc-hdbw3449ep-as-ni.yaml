@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW3449EP-AS-NI
+slug: dahua-ipc-hdbw3449ep-as-ni
+part_number: IPC-HDBW3449EP-AS-NI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 378
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-HDBW3449EP-AS-NI datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-IPC-HDBW3449EP-AS-NI_S0_datasheet_20240323.pdf)
