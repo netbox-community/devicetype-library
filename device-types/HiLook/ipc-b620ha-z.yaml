@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-B620HA-Z
+slug: hilook-ipc-b620ha-z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 705
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook IPC-B620HA-Z datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000041071/IPC-B620HA-Z_Datasheet_V5.7.1_20221223.pdf)
