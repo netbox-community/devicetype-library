@@ -1,0 +1,22 @@
+---
+manufacturer: Uniview
+model: IPC2122LE-ADF40KMC-WL
+slug: uniview-ipc2122le-adf40kmc-wl
+part_number: IPC2122LE-ADF40KMC-WL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Uniview IPC2122LE-ADF40KMC-WL datasheet](https://www.uniview.com/Backup_Products/Cameras/Easy/IPC2122LE-ADF28(40)KMC-WL/)

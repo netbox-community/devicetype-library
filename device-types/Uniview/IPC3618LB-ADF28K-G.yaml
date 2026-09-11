@@ -1,0 +1,28 @@
+---
+manufacturer: Uniview
+model: IPC3618LB-ADF28K-G
+slug: uniview-ipc3618lb-adf28k-g
+part_number: IPC3618LB-ADF28K-G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC3618LB-ADF28K-G datasheet](https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC3618LB-ADF28K-G/) | [Specs on
+  cctv-database.com](https://cctv-database.com/camera/uniview-ipc3618lb-adf28k-g)

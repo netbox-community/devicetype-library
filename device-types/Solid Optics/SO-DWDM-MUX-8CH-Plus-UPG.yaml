@@ -8,41 +8,69 @@ is_powered: false
 front-ports:
   - name: C20
     type: lc
-    rear_port: COM
-    rear_port_position: 1
+    positions: 1
   - name: C21
     type: lc
-    rear_port: COM
-    rear_port_position: 2
+    positions: 1
   - name: C22
     type: lc
-    rear_port: COM
-    rear_port_position: 3
+    positions: 1
   - name: C23
     type: lc
-    rear_port: COM
-    rear_port_position: 4
+    positions: 1
   - name: C24
     type: lc
-    rear_port: COM
-    rear_port_position: 5
+    positions: 1
   - name: C25
     type: lc
-    rear_port: COM
-    rear_port_position: 6
+    positions: 1
   - name: C26
     type: lc
-    rear_port: COM
-    rear_port_position: 7
+    positions: 1
   - name: C27
     type: lc
-    rear_port: COM
-    rear_port_position: 8
+    positions: 1
   - name: UPG
     type: lc
-    rear_port: COM
-    rear_port_position: 9
+    positions: 1
 rear-ports:
   - name: COM
     type: lc
     positions: 9
+port-mappings:
+  - front_port: C20
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 1
+  - front_port: C21
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 2
+  - front_port: C22
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 3
+  - front_port: C23
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 4
+  - front_port: C24
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 5
+  - front_port: C25
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 6
+  - front_port: C26
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 7
+  - front_port: C27
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 8
+  - front_port: UPG
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 9

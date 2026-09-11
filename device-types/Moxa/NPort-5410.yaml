@@ -1,0 +1,41 @@
+---
+manufacturer: Moxa
+model: NPort 5410
+slug: moxa-nport-5410
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 740.0
+weight_unit: g
+console-server-ports:
+  - name: P1
+    type: de-9
+    label: Port 1
+    description: RS-232
+  - name: P2
+    type: de-9
+    label: Port 2
+    description: RS-232
+  - name: P3
+    type: de-9
+    label: Port 3
+    description: RS-232
+  - name: P4
+    type: de-9
+    label: Port 4
+    description: RS-232
+power-ports:
+  - name: Screw power jack
+    type: dc-terminal
+    allocated_draw: 5
+    label: 12-48 VDC
+  - name: Terminal Block
+    type: hardwired
+    allocated_draw: 5
+    label: 12-48 VDC
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN

@@ -10,48 +10,37 @@ weight_unit: kg
 front-ports:
   - name: C28
     type: lc
-    rear_port: COM
-    rear_port_position: 1
+    positions: 1
   - name: C29
     type: lc
-    rear_port: COM
-    rear_port_position: 2
+    positions: 1
   - name: C30
     type: lc
-    rear_port: COM
-    rear_port_position: 3
+    positions: 1
   - name: C31
     type: lc
-    rear_port: COM
-    rear_port_position: 4
+    positions: 1
   - name: C32
     type: lc
-    rear_port: COM
-    rear_port_position: 5
+    positions: 1
   - name: C34
     type: lc
-    rear_port: COM
-    rear_port_position: 6
+    positions: 1
   - name: C35
     type: lc
-    rear_port: COM
-    rear_port_position: 7
+    positions: 1
   - name: C59
     type: lc
-    rear_port: COM
-    rear_port_position: 8
+    positions: 1
   - name: C60
     type: lc
-    rear_port: COM
-    rear_port_position: 9
+    positions: 1
   - name: EXT
     type: lc
-    rear_port: COM
-    rear_port_position: 10
+    positions: 1
   - name: MON
     type: lc
-    rear_port: COM
-    rear_port_position: 11
+    positions: 1
 interfaces:
   - name: Ethernet1
     type: 1000base-t
@@ -63,3 +52,48 @@ power-ports:
   - name: PSU1
     type: iec-60320-c14
     maximum_draw: 100
+port-mappings:
+  - front_port: C28
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 1
+  - front_port: C29
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 2
+  - front_port: C30
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 3
+  - front_port: C31
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 4
+  - front_port: C32
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 5
+  - front_port: C34
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 6
+  - front_port: C35
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 7
+  - front_port: C59
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 8
+  - front_port: C60
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 9
+  - front_port: EXT
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 10
+  - front_port: MON
+    front_port_position: 1
+    rear_port: COM
+    rear_port_position: 11

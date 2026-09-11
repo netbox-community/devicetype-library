@@ -14,56 +14,90 @@ rear-ports:
 front-ports:
   - name: Filter/{module}/Ext
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 1
     description: Incoming fiber for extension channel
+    positions: 1
   - name: Filter/{module}/Mon
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 2
     description: Monitor port for line channel
+    positions: 1
   - name: Filter/{module}/NC
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 3
     description: Not connected port
+    positions: 1
   - name: Filter/{module}/953
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 4
     description: 195.3 THz
+    positions: 1
   - name: Filter/{module}/954
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 5
     description: 195.4 THz
+    positions: 1
   - name: Filter/{module}/955
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 6
     description: 195.5 THz
+    positions: 1
   - name: Filter/{module}/956
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 7
     description: 195.6 THz
+    positions: 1
   - name: Filter/{module}/957
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 8
     description: 195.7 THz
+    positions: 1
   - name: Filter/{module}/958
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 9
     description: 195.8 THz
+    positions: 1
   - name: Filter/{module}/959
     type: lc-upc
-    rear_port: Filter/{module}/Line
-    rear_port_position: 10
     description: 195.9 THz
+    positions: 1
   - name: Filter/{module}/960
     type: lc-upc
+    description: 196.0 THz
+    positions: 1
+port-mappings:
+  - front_port: Filter/{module}/Ext
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 1
+  - front_port: Filter/{module}/Mon
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 2
+  - front_port: Filter/{module}/NC
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 3
+  - front_port: Filter/{module}/953
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 4
+  - front_port: Filter/{module}/954
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 5
+  - front_port: Filter/{module}/955
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 6
+  - front_port: Filter/{module}/956
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 7
+  - front_port: Filter/{module}/957
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 8
+  - front_port: Filter/{module}/958
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 9
+  - front_port: Filter/{module}/959
+    front_port_position: 1
+    rear_port: Filter/{module}/Line
+    rear_port_position: 10
+  - front_port: Filter/{module}/960
+    front_port_position: 1
     rear_port: Filter/{module}/Line
     rear_port_position: 11
-    description: 196.0 THz

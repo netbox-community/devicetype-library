@@ -1,0 +1,28 @@
+---
+manufacturer: Uniview
+model: IPC3614LE-ADF28K-WP-L2
+slug: uniview-ipc3614le-adf28k-wp-l2
+part_number: IPC3614LE-ADF28K-WP-L2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 3.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC3614LE-ADF28K-WP-L2 datasheet](https://www.uniview.com/Products/Network_Cameras/Owlview_Series/Owlview/IPC3614LE-ADF28K-WP-L2/) | [Specs on
+  cctv-database.com](https://cctv-database.com/camera/uniview-ipc3614le-adf28k-wp-l2)

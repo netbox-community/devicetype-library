@@ -1,0 +1,21 @@
+---
+manufacturer: AXIS
+model: Q9307-LV
+slug: axis-q9307-lv
+part_number: Q9307-LV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Axis Q9307-LV datasheet](https://www.axis.com/products/axis-q9307-lv) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-q9307-lv)

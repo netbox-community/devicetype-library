@@ -50,20 +50,23 @@ interfaces:
 rear-ports:
   - name: Rear Port 1
     type: 8p8c
+    positions: 1
   - name: Rear Port 2
     type: 8p8c
+    positions: 1
   - name: Rear Port 3
     type: 8p8c
+    positions: 1
 front-ports:
   - name: Front Port 1
     type: 8p8c
-    rear_port: Rear Port 1
+    positions: 1
   - name: Front Port 2
     type: 8p8c
-    rear_port: Rear Port 2
+    positions: 1
   - name: Front Port 3
     type: 8p8c
-    rear_port: Rear Port 3
+    positions: 1
 module-bays:
   - name: Module Bay 1
     position: '1'
@@ -75,3 +78,16 @@ device-bays:
   - name: Device Bay 1
   - name: Device Bay 2
   - name: Device Bay 3
+port-mappings:
+  - front_port: Front Port 1
+    front_port_position: 1
+    rear_port: Rear Port 1
+    rear_port_position: 1
+  - front_port: Front Port 2
+    front_port_position: 1
+    rear_port: Rear Port 2
+    rear_port_position: 1
+  - front_port: Front Port 3
+    front_port_position: 1
+    rear_port: Rear Port 3
+    rear_port_position: 1

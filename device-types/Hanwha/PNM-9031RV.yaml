@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: PNM-9031RV
+slug: hanwha-pnm-9031rv
+part_number: PNM-9031RV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 23.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha PNM-9031RV datasheet](https://www.hanwhavision.com/en/products/product-details/pnm-9031rv) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pnm-9031rv)

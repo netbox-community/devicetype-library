@@ -8,8 +8,7 @@ front-ports:
   - name: IN
     label: IN
     type: 8p8c
-    rear_port: OUT
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: OUT
     label: OUT
@@ -22,3 +21,8 @@ power-ports:
     type: dc-terminal
     description: 18 - 57V DC 2A
 comments: '[RBGPOE Datasheet by Kolyan](https://mikrotik.com/product/RBGPOE)'
+port-mappings:
+  - front_port: IN
+    front_port_position: 1
+    rear_port: OUT
+    rear_port_position: 1

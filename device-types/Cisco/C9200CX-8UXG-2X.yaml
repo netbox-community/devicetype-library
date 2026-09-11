@@ -2,7 +2,7 @@
 manufacturer: Cisco
 model: Catalyst C9200CX-8UXG-2X
 part_number: C9200CX-8UXG-2X
-slug: cisco-cc9200cx-8uxg-2x
+slug: cisco-c9200cx-8uxg-2x
 u_height: 1
 is_full_depth: false
 comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
@@ -33,23 +33,23 @@ interfaces:
     type: 1000base-tx
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: Te1/0/5
+  - name: TenGigabitEthernet1/0/5
     type: 10gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: Te1/0/6
+  - name: TenGigabitEthernet1/0/6
     type: 10gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: Te1/0/7
+  - name: TenGigabitEthernet1/0/7
     type: 10gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: Te1/0/8
+  - name: TenGigabitEthernet1/0/8
     type: 10gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: Te1/1/1
+  - name: TenGigabitEthernet1/1/1
     type: 10gbase-x-sfpp
-  - name: Te1//1/2
+  - name: TenGigabitEthernet1/1/2
     type: 10gbase-x-sfpp

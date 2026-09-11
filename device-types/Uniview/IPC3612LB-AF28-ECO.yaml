@@ -1,0 +1,24 @@
+---
+manufacturer: Uniview
+model: IPC3612LB-AF28-ECO
+slug: uniview-ipc3612lb-af28-eco
+part_number: IPC3612LB-AF28-ECO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 190
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Uniview IPC3612LB-AF28-ECO datasheet](https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC3612LB-AF28-ECO/) | [Specs on
+  cctv-database.com](https://cctv-database.com/camera/uniview-ipc3612lb-af28-eco)

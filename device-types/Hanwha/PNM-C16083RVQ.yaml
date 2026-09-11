@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: PNM-C16083RVQ
+slug: hanwha-pnm-c16083rvq
+part_number: PNM-C16083RVQ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2730
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 30 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha PNM-C16083RVQ datasheet](https://www.hanwhavision.com/en/products/product-details/pnm-c16083rvq) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pnm-c16083rvq)

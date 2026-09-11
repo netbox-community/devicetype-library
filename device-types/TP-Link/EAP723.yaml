@@ -1,0 +1,17 @@
+---
+manufacturer: TP-Link
+model: EAP723
+slug: tp-link-eap723
+part_number: EAP723
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link Omada EAP723](https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap723/)'
+power-ports:
+  - name: PoE
+    type: dc-terminal
+interfaces:
+  - name: LAN
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

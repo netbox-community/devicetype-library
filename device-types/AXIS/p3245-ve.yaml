@@ -1,0 +1,21 @@
+---
+manufacturer: AXIS
+model: P3245-VE
+slug: axis-p3245-ve
+part_number: P3245-VE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Axis P3245-VE datasheet](https://www.axis.com/products/axis-p3245-ve) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-p3245-ve)
