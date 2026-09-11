@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S2270L
+slug: i-pro-wv-s2270l
+part_number: WV-S2270L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 780
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [i-PRO WV-S2270L datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2270l)

@@ -1,0 +1,22 @@
+---
+manufacturer: i-PRO
+model: WV-X2571LN
+slug: i-pro-wv-x2571ln
+part_number: WV-X2571LN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [i-PRO WV-X2571LN datasheet](https://i-pro.com/products_and_solutions/sites/default/files/2023-01/WV-X2571LN_2A-248BL_1646899075.682.pdf)

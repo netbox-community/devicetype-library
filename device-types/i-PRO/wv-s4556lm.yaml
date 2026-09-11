@@ -1,0 +1,22 @@
+---
+manufacturer: i-PRO
+model: WV-S4556LM
+slug: i-pro-wv-s4556lm
+part_number: WV-S4556LM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 870
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [i-PRO WV-S4556LM datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s4556lm)

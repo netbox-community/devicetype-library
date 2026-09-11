@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: M-49-FW-V2
+slug: i-pro-m-49-fw-v2
+part_number: M-49-FW-V2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [i-PRO M-49-FW-V2 datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/m-49-fw-v2)
