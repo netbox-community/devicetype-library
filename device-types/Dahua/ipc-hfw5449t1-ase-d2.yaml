@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5449T1-ASE-D2
+slug: dahua-ipc-hfw5449t1-ase-d2
+part_number: IPC-HFW5449T1-ASE-D2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-HFW5449T1-ASE-D2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5449t1-ase-d2)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PT2549DC1-SW-PV
+slug: dahua-ipc-pt2549dc1-sw-pv
+part_number: IPC-PT2549DC1-SW-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [Dahua IPC-PT2549DC1-SW-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/ipc-pt2549dc1-sw-pv)

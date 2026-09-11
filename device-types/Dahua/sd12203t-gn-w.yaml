@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD12203T-GN-W
+slug: dahua-sd12203t-gn-w
+part_number: SD12203T-GN-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 485
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua SD12203T-GN-W datasheet](https://materialfile.dahuasecurity.com/product/20180706/SD12203T-GN-W_Datasheet_20180705.pdf)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFS8449G-Z7-LED
+slug: dahua-ipc-hfs8449g-z7-led
+part_number: IPC-HFS8449G-Z7-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 26 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 26
+comments: >
+  [Dahua IPC-HFS8449G-Z7-LED datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-8-series/high-temperature-tolerance-series/ipc-hfs8449g-z7-led)

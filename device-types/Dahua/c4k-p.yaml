@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: C4K-P
+slug: dahua-c4k-p
+part_number: C4K-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.85 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua C4K-P datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/cube-series/c4k-p)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5449T-ASE-LED
+slug: dahua-ipc-hfw5449t-ase-led
+part_number: IPC-HFW5449T-ASE-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 825
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [Dahua IPC-HFW5449T-ASE-LED datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5449t-ase-led)

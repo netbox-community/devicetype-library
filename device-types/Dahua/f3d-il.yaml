@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: F3D-IL
+slug: dahua-f3d-il
+part_number: F3D-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 331
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.66 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua F3D-IL datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/bullet-series/f3d-il)
