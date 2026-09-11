@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SD5A232GB-HNR
+slug: dahua-sd5a232gb-hnr
+part_number: SD5A232GB-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua SD5A232GB-HNR datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD5A232GB-HNR_S0_datasheet-20250115.pdf)

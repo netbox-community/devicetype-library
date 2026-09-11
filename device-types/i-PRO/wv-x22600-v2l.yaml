@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-X22600-V2L
+slug: i-pro-wv-x22600-v2l
+part_number: WV-X22600-V2L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 14.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [i-PRO WV-X22600-V2L datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-x22600-v2l)

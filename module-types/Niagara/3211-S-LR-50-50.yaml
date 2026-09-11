@@ -13,7 +13,13 @@ interfaces:
 front-ports:
   - name: Port/{module}/A
     type: lc
-    rear_port: Port/{module}/B
+    positions: 1
 rear-ports:
   - name: Port/{module}/B
     type: lc
+    positions: 1
+port-mappings:
+  - front_port: Port/{module}/A
+    front_port_position: 1
+    rear_port: Port/{module}/B
+    rear_port_position: 1

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-EBW8630
+slug: dahua-ipc-ebw8630
+part_number: IPC-EBW8630
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 580
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-EBW8630 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-ebw8630)

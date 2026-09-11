@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW4831EM-ASE
+slug: dahua-ipc-hdw4831em-ase
+part_number: IPC-HDW4831EM-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 470
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HDW4831EM-ASE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw4831em-ase)

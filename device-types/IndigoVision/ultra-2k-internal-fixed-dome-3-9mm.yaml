@@ -1,0 +1,20 @@
+---
+manufacturer: IndigoVision
+model: Ultra 2K Internal Fixed Dome 3-9mm
+slug: indigovision-ultra-2k-internal-fixed-dome-3-9mm
+part_number: '562417'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 15.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB

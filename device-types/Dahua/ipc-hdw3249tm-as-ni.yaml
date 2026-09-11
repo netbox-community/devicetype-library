@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3249TM-AS-NI
+slug: dahua-ipc-hdw3249tm-as-ni
+part_number: IPC-HDW3249TM-AS-NI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-HDW3249TM-AS-NI datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw3249tm-as-ni)

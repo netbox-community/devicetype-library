@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PT1339DA1-SW-PV
+slug: dahua-ipc-pt1339da1-sw-pv
+part_number: IPC-PT1339DA1-SW-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [Dahua IPC-PT1339DA1-SW-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/ipc-pt1339da1-sw-pv)

@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S2252L
+slug: i-pro-wv-s2252l
+part_number: WV-S2252L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 830
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [i-PRO WV-S2252L datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2252l)

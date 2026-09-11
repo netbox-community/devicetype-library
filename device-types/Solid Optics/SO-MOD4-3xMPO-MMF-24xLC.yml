@@ -9,52 +9,40 @@ is_powered: false
 front-ports:
   - name: A1
     type: lc
-    rear_port: A
-    rear_port_position: 1
+    positions: 1
   - name: A2
     type: lc
-    rear_port: A
-    rear_port_position: 2
+    positions: 1
   - name: A3
     type: lc
-    rear_port: A
-    rear_port_position: 3
+    positions: 1
   - name: A4
     type: lc
-    rear_port: A
-    rear_port_position: 4
+    positions: 1
   - name: B1
     type: lc
-    rear_port: B
-    rear_port_position: 1
+    positions: 1
   - name: B2
     type: lc
-    rear_port: B
-    rear_port_position: 2
+    positions: 1
   - name: B3
     type: lc
-    rear_port: B
-    rear_port_position: 3
+    positions: 1
   - name: B4
     type: lc
-    rear_port: B
-    rear_port_position: 4
+    positions: 1
   - name: C1
     type: lc
-    rear_port: C
-    rear_port_position: 1
+    positions: 1
   - name: C2
     type: lc
-    rear_port: C
-    rear_port_position: 2
+    positions: 1
   - name: C3
     type: lc
-    rear_port: C
-    rear_port_position: 3
+    positions: 1
   - name: C4
     type: lc
-    rear_port: C
-    rear_port_position: 4
+    positions: 1
 rear-ports:
   - name: A
     type: mpo
@@ -65,3 +53,52 @@ rear-ports:
   - name: C
     type: mpo
     positions: 4
+port-mappings:
+  - front_port: A1
+    front_port_position: 1
+    rear_port: A
+    rear_port_position: 1
+  - front_port: A2
+    front_port_position: 1
+    rear_port: A
+    rear_port_position: 2
+  - front_port: A3
+    front_port_position: 1
+    rear_port: A
+    rear_port_position: 3
+  - front_port: A4
+    front_port_position: 1
+    rear_port: A
+    rear_port_position: 4
+  - front_port: B1
+    front_port_position: 1
+    rear_port: B
+    rear_port_position: 1
+  - front_port: B2
+    front_port_position: 1
+    rear_port: B
+    rear_port_position: 2
+  - front_port: B3
+    front_port_position: 1
+    rear_port: B
+    rear_port_position: 3
+  - front_port: B4
+    front_port_position: 1
+    rear_port: B
+    rear_port_position: 4
+  - front_port: C1
+    front_port_position: 1
+    rear_port: C
+    rear_port_position: 1
+  - front_port: C2
+    front_port_position: 1
+    rear_port: C
+    rear_port_position: 2
+  - front_port: C3
+    front_port_position: 1
+    rear_port: C
+    rear_port_position: 3
+  - front_port: C4
+    front_port_position: 1
+    rear_port: C
+    rear_port_position: 4

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW8630E-ZE
+slug: dahua-ipc-hfw8630e-ze
+part_number: IPC-HFW8630E-ZE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua IPC-HFW8630E-ZE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw8630e-ze)

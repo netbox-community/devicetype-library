@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD5A225XA-HNR-SL
+slug: dahua-sd5a225xa-hnr-sl
+part_number: SD5A225XA-HNR-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+comments: >
+  [Dahua SD5A225XA-HNR-SL datasheet](https://www.dahuasecurity.com/products/discontinued-products/ptz-cameras/sd5a225xa-hnr-sl)

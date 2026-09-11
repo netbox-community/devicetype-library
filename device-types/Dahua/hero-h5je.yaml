@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: HERO-H5JE
+slug: dahua-hero-h5je
+part_number: HERO-H5JE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua HERO-H5JE datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/hero-h5je)
