@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PT2449C1-S-PV-PRO
+slug: dahua-ipc-pt2449c1-s-pv-pro
+part_number: IPC-PT2449C1-S-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-PT2449C1-S-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/pt-cameras/ip-pt-2-series/single-lens/ipc-pt2449c1-s-pv-pro)

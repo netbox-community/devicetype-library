@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SDT8C442-4P-GA-APV-0280
+slug: dahua-sdt8c442-4p-ga-apv-0280
+part_number: SDT8C442-4P-GA-APV-0280
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 58 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 58
+comments: >
+  [Dahua SDT8C442-4P-GA-APV-0280 datasheet](https://www.dahuasecurity.com/products/discontinued-products/ptz-cameras/sdt8c442-4p-ga-apv-0280)

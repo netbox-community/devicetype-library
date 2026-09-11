@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5859T-ASE-IL-LE
+slug: dahua-ipc-hfw5859t-ase-il-le
+part_number: IPC-HFW5859T-ASE-IL-LE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 835
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+comments: >
+  [Dahua IPC-HFW5859T-ASE-IL-LE datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/smart-dual-light/8mp/ipc-hfw5859t-ase-il-le)

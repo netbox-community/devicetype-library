@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6C3432GB-HNR-AGQ-PV1-EAU
+slug: dahua-sd6c3432gb-hnr-agq-pv1-eau
+part_number: SD6C3432GB-HNR-AGQ-PV1-EAU
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+comments: >
+  [Dahua SD6C3432GB-HNR-AGQ-PV1-EAU datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wireless-series/4g-camera/sd6c3432gb-hnr-agq-pv1-eau)

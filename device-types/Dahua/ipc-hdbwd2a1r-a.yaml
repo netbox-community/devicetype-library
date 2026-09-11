@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBWD2A1R-A
+slug: dahua-ipc-hdbwd2a1r-a
+part_number: IPC-HDBWD2A1R-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 470
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HDBWD2A1R-A datasheet](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hdbwd2a1r-a)

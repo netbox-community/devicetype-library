@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD5A225GB-HNR-SL
+slug: dahua-sd5a225gb-hnr-sl
+part_number: SD5A225GB-HNR-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua SD5A225GB-HNR-SL datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/anti-corrosion-cameras/sd5a225gb-hnr-sl)

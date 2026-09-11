@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-ACPT8620A-B
+slug: dahua-tpc-acpt8620a-b
+part_number: TPC-ACPT8620A-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 13000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+comments: >
+  [Dahua TPC-ACPT8620A-B datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-acpt8620a-b)

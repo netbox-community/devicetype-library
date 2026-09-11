@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PT2449Z-Z5-A1S-PV
+slug: dahua-ipc-pt2449z-z5-a1s-pv
+part_number: IPC-PT2449Z-Z5-A1S-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua IPC-PT2449Z-Z5-A1S-PV datasheet](https://www.dahuasecurity.com/products/network-products/pt-cameras/ip-pt-2-series/single-lens/ipc-pt2449z-z5-a1s-pv)
