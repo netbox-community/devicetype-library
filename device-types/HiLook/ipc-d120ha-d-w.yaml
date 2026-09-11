@@ -1,0 +1,23 @@
+---
+manufacturer: HiLook
+model: IPC-D120HA-D/W
+slug: hilook-ipc-d120ha-d-w
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 593
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-D120HA-D/W datasheet](https://assets.hikvision.com/prd/public/all/doc/m000147481/IPC-D120HA-D_WW_Datasheet_20240625.pdf)

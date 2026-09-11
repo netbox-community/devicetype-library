@@ -12,33 +12,37 @@ front_image: true
 rear_image: true
 comments: '[Cisco Catalyst 9600 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9600-series-switches/nb-06-cat9600-series-data-sheet-cte-en.html)'
 module-bays:
-  - name: Slot 1
+  - name: Slot 1 line card
+    label: '1'
     position: '1'
-    description: Line Card
-  - name: Slot 2
+  - name: Slot 2 line card
+    label: '2'
     position: '2'
-    description: Line Card
-  - name: Slot 3
+  - name: Slot 3 supervisor
+    label: '3'
     position: '3'
-    description: Supervisor Module
-  - name: Slot 4
+  - name: Slot 4 supervisor
+    label: '4'
     position: '4'
-    description: Supervisor Module
-  - name: Slot 5
+  - name: Slot 5 line card
+    label: '5'
     position: '5'
-    description: Line Card
-  - name: Slot 6
+  - name: Slot 6 line card
+    label: '6'
     position: '6'
-    description: Line Card
-  - name: PS-1
+  - name: Power Supply 1
+    label: PS1
     position: '1'
-    description: PSU-1
-  - name: PS-2
+  - name: Power Supply 2
+    label: PS2
     position: '2'
-    description: PSU-2
-  - name: PS-3
+  - name: Power Supply 3
+    label: PS3
     position: '3'
-    description: PSU-3
-  - name: PS-4
+  - name: Power Supply 4
+    label: PS4
     position: '4'
-    description: PSU-4
+  - name: Fan Tray
+    label: Fan
+    position: '1'
+    description: front and rear serviceable and hot-swappable fan tray

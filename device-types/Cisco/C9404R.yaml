@@ -10,27 +10,31 @@ weight_unit: kg
 is_full_depth: true
 airflow: right-to-left
 module-bays:
-  - name: Slot 1 Line-card
+  - name: Slot 1 line card
     label: '1'
     position: '1'
-  - name: Slot 2 Supervisor
+  - name: Slot 2 supervisor
     label: '2'
     position: '2'
-  - name: Slot 3 Supervisor
+  - name: Slot 3 supervisor
     label: '3'
     position: '3'
-  - name: Slot 4 Line-card
+  - name: Slot 4 line card
     label: '4'
     position: '4'
-  - name: Power Supply Module 1
+  - name: Power Supply 1
     label: PS1
     position: '1'
-  - name: Power Supply Module 2
+  - name: Power Supply 2
     label: PS2
     position: '2'
-  - name: Power Supply Module 3
+  - name: Power Supply 3
     label: PS3
     position: '3'
-  - name: Power Supply Module 4
+  - name: Power Supply 4
     label: PS4
     position: '4'
+  - name: Fan Tray
+    label: Fan
+    position: '1'
+    description: front and rear serviceable and hot-swappable fan tray
