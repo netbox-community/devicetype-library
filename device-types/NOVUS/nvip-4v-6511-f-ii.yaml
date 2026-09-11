@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-4V-6511/F-II
+slug: novus-nvip-4v-6511-f-ii
+part_number: NVIP-4V-6511/F-II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [NOVUS NVIP-4V-6511/F-II datasheet](https://www.novuscctv.com/en/products/5853/NVIP-4V-6511_F-II)
