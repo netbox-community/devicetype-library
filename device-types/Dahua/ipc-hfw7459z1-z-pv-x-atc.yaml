@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW7459Z1-Z-PV-X-ATC
+slug: dahua-ipc-hfw7459z1-z-pv-x-atc
+part_number: IPC-HFW7459Z1-Z-PV-X-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 11.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua IPC-HFW7459Z1-Z-PV-X-ATC datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-7-series/anti-corrosion/ipc-hfw7459z1-z-pv-x-atc)

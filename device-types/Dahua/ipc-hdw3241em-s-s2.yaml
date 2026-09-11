@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3241EM-S-S2
+slug: dahua-ipc-hdw3241em-s-s2
+part_number: IPC-HDW3241EM-S-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HDW3241EM-S-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw3241em-s-s2=s2)

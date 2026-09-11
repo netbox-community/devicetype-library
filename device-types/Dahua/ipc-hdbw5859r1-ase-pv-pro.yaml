@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5859R1-ASE-PV-PRO
+slug: dahua-ipc-hdbw5859r1-ase-pv-pro
+part_number: IPC-HDBW5859R1-ASE-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 730
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 23.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+comments: >
+  [Dahua IPC-HDBW5859R1-ASE-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/pro/8mp/ipc-hdbw5859r1-ase-pv-pro)

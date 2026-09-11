@@ -1,0 +1,18 @@
+---
+manufacturer: Bosch
+model: NBN-63013-B
+slug: bosch-nbn-63013-b
+part_number: NBN-63013-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
