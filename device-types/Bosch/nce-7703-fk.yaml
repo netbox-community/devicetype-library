@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: NCE-7703-FK
+slug: bosch-nce-7703-fk
+part_number: NCE-7703-FK
+description: FLEXIDOME corner 7100i IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2964
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [Bosch NCE-7703-FK datasheet](https://commerce.boschsecurity.com/xl/en/FLEXIDOME-corner-7100i-IR/p/F.01U.418.462/)

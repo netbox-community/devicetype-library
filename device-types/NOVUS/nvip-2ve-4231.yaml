@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-2VE-4231
+slug: novus-nvip-2ve-4231
+part_number: NVIP-2VE-4231
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 1.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+comments: >
+  [NOVUS NVIP-2VE-4231 datasheet](https://www.novuscctv.com/en/products/5385/NVIP-2VE-4231)
