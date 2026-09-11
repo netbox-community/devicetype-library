@@ -1,0 +1,35 @@
+---
+manufacturer: Synology
+model: RS3618xs
+slug: synology-rs3618xs
+part_number: RS3618xs
+u_height: 2
+is_full_depth: true
+weight: 14.5
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Synology RS3618xs Product Page](https://www.synology.com/en-us/products/RS3618xs)'
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+- name: LAN 2
+  type: 1000base-t
+- name: LAN 3
+  type: 1000base-t
+- name: LAN 4
+  type: 1000base-t
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: 500
+  allocated_draw: 143
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: 500
+  allocated_draw: 143
+module-bays:
+- name: PCIe Slot 1
+  position: '1'
+- name: PCIe Slot 2
+  position: '2'
+description: 12-bay 2U rackmount NAS with Intel Xeon D-1521
