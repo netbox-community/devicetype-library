@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: QNO-C8013R
+slug: hanwha-qno-c8013r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 890
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.1 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha QNO-C8013R datasheet](https://www.hanwhavision.com/global/products/product-details/QNO-C8013R)

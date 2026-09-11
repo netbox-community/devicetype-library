@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: PNM-C19183RVTP
+slug: hanwha-pnm-c19183rvtp
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 42 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Hanwha PNM-C19183RVTP datasheet](https://www.hanwhavision.com/global/products/product-details/PNM-C19183RVTP)
