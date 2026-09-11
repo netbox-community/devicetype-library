@@ -1,0 +1,21 @@
+---
+manufacturer: Crestron
+model: TSW-770-LB
+slug: crestron-tsw-770-lb
+part_number: TSW-770-LB
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+airflow: passive
+weight: 18.71
+weight_unit: oz
+comments: |
+  Room availability light bar for TSS-770 / TSW-770 series touch screens.
+  RGB LED, 180 degree visibility. Powered and controlled via USB 2.0 from
+  parent touch screen. Flex circuit slot is mechanical only - not modeled.
+  Max power draw: 2.5 W (USB powered).
+
+interfaces:
+  - name: USB
+    type: other
+    label: Connects to parent touch screen USB host port.
