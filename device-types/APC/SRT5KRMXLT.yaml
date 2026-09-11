@@ -6,6 +6,8 @@ part_number: SRT5KRMXLT
 comments: APC Smart-UPS On-Line, 5.4kVA, Rackmount 3U, 208V, 2x L6-20R+2x L6-30R NEMA outlets, Network Card+SmartSlot, Extended runtime, W/ rail kit
 u_height: 3
 is_full_depth: true
+front_image: true
+rear_image: true
 console-ports:
   - name: Serial
     type: rj-45
@@ -32,7 +34,7 @@ module-bays:
     position: SmartSlot
 interfaces:
   - name: Ethernet
-    type: 100base-tx
+    type: 1000base-t
     mgmt_only: true
     label: NMC
   - name: Universal I/O 1
