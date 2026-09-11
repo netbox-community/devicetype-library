@@ -1,0 +1,20 @@
+---
+manufacturer: Hikvision
+model: DS-2CD63C5G1-IVS
+slug: hikvision-ds-2cd63c5g1-ivs
+part_number: DS-2CD63C5G1-IVS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2CD63C5G1-IVS datasheet](https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Panoramic-Series/ds-2cd63c5g1-ivs/) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd63c5g1-ivs)

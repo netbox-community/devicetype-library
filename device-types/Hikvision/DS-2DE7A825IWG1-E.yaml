@@ -1,0 +1,26 @@
+---
+manufacturer: Hikvision
+model: DS-2DE7A825IWG1-E
+slug: hikvision-ds-2de7a825iwg1-e
+part_number: DS-2DE7A825IWG1-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2DE7A825IWG1-E datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000171699/DS-2DE7A825IWG1-E_Datasheet_20260528.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2de7a825iwg1-e)

@@ -1,0 +1,19 @@
+---
+manufacturer: Hikvision
+model: DS-2DE4425IWG-E
+slug: hikvision-ds-2de4425iwg-e
+part_number: DS-2DE4425IWG-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2DE4425IWG-E datasheet](https://www.hikvision.com/in-en/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2de4425iw-de-t5-india)
