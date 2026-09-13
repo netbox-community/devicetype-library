@@ -9,10 +9,12 @@ airflow: passive
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
     description: max 6.9 W
 power-ports:
   - name: DC IN
     type: dc-terminal
     maximum_draw: 7
 comments: >
-  [AVYCON AVC-NBE41F28 product page](https://www.avycon.com/)
+  [AVYCON AVC-NBE41F28 product page](https://www.avycon.com)

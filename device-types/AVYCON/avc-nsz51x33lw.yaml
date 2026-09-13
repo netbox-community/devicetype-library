@@ -11,10 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
     description: max 25.6 W
 power-ports:
   - name: DC IN
     type: dc-terminal
     maximum_draw: 26
 comments: >
-  [AVYCON AVC-NSZ51X33LW product page](https://www.avycon.com/)
+  [AVYCON AVC-NSZ51X33LW product page](https://avyconaivo.com/shop/item.php)

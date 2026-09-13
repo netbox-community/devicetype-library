@@ -11,10 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
     description: max 43 W
 power-ports:
   - name: DC IN
     type: dc-terminal
     maximum_draw: 43
 comments: >
-  [AVYCON AVC-NCMS321M04 product page](https://www.avycon.com/)
+  [AVYCON AVC-NCMS321M04 product page](https://www.avycon.com)
