@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: A383
+slug: acti-a383
+part_number: A383
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [ACTi A383 product page](https://www.acti.com/product/A383)

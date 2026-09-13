@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E923M
+slug: acti-e923m
+part_number: E923M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 466
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 1, max 3.84 W
+comments: >
+  [ACTi E923M product page](https://www.acti.com/product/E923M)
