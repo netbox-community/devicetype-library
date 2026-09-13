@@ -1,0 +1,26 @@
+---
+manufacturer: LILIN
+model: F2R3682IM
+slug: lilin-f2r3682im
+part_number: F2R3682IM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 485
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN F2R3682IM product page](https://meritlilin.com/)

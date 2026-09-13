@@ -1,0 +1,26 @@
+---
+manufacturer: LILIN
+model: V1W4182AX
+slug: lilin-v1w4182ax
+part_number: V1W4182AX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 825
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN V1W4182AX product page](https://meritlilin.com/)

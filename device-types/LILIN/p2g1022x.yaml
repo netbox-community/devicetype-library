@@ -1,0 +1,26 @@
+---
+manufacturer: LILIN
+model: P2G1022X
+slug: lilin-p2g1022x
+part_number: P2G1022X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN P2G1022X product page](https://meritlilin.com/)

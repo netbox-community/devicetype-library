@@ -1,0 +1,24 @@
+---
+manufacturer: LILIN
+model: Z7R8182X3-P
+slug: lilin-z7r8182x3-p
+part_number: Z7R8182X3-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN Z7R8182X3-P product page](https://meritlilin.com/)
