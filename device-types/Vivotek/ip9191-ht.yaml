@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP9191-HT
+slug: vivotek-ip9191-ht
+part_number: IP9191-HT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 671
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek IP9191-HT product page](https://www.vivotek.com/resource/download-center/product/download/70932)
