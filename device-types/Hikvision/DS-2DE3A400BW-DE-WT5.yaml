@@ -1,0 +1,23 @@
+---
+manufacturer: Hikvision
+model: DS-2DE3A400BW-DE/WT5
+slug: hikvision-ds-2de3a400bw-de-wt5
+part_number: DS-2DE3A400BW-DE/WT5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1125
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
