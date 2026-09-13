@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: F4C-PV
+slug: dahua-f4c-pv
+part_number: F4C-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 254.5
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua F4C-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/bullet-series/f4c-pv)

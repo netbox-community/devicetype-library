@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: PSDW83242M-A360-D845L
+slug: dahua-psdw83242m-a360-d845l
+part_number: PSDW83242M-A360-D845L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 71.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 72
+comments: >
+  [Dahua PSDW83242M-A360-D845L datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-PSDW83242M-A360-D845L-S3_S3_datasheet_20250926.pdf)

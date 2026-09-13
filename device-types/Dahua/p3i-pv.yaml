@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: P3I-PV
+slug: dahua-p3i-pv
+part_number: P3I-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 336
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua P3I-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/p3i-pv)

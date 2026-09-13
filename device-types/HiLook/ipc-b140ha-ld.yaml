@@ -1,0 +1,19 @@
+---
+manufacturer: HiLook
+model: IPC-B140HA-LD
+slug: hilook-ipc-b140ha-ld
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-B140HA-LD datasheet](https://assets.hikvision.com/prd/public/all/doc/m000068309/IPC-B140HA-LD_W_Datasheet_20250424.pdf)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3449QM-S-IL
+slug: dahua-ipc-hdw3449qm-s-il
+part_number: IPC-HDW3449QM-S-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [Dahua IPC-HDW3449QM-S-IL datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/82340/datasheet/DH-IPC-HDW3449QM-S-IL_S0_datasheet_20250716.pdf)

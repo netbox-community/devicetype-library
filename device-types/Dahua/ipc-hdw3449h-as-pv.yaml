@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3449H-AS-PV
+slug: dahua-ipc-hdw3449h-as-pv
+part_number: IPC-HDW3449H-AS-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-HDW3449H-AS-PV datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw3449h-as-pv)

@@ -1,0 +1,24 @@
+---
+manufacturer: Uniview
+model: Uho-S3S-M33D-U
+slug: uniview-uho-s3s-m33d-u
+part_number: Uho-S3S-M33D-U
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 220
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview Uho-S3S-M33D-U datasheet](https://www.uniview.com/Products/Network_Cameras/)

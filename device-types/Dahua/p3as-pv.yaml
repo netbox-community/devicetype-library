@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: P3AS-PV
+slug: dahua-p3as-pv
+part_number: P3AS-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [Dahua P3AS-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/p3as-pv)

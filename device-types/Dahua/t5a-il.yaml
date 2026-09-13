@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: T5A-IL
+slug: dahua-t5a-il
+part_number: T5A-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua T5A-IL datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/turret-series/t5a-il)

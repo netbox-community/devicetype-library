@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW1235E-W-S2
+slug: dahua-ipc-hdbw1235e-w-s2
+part_number: IPC-HDBW1235E-W-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 408
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua IPC-HDBW1235E-W-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw1235e-w-s2)

@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-B127HA-LUFC
+slug: hilook-ipc-b127ha-lufc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 315
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-B127HA-LUFC datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000185225/IPC-B127HA-LUFC_Datasheet_20260521.pdf)

@@ -1,0 +1,20 @@
+---
+manufacturer: NOVUS
+model: NVIP-2DPT-8701/30/T
+slug: novus-nvip-2dpt-8701-30-t
+part_number: NVIP-2DPT-8701/30/T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 16500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 80 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 80
+comments: >
+  [NOVUS NVIP-2DPT-8701/30/T datasheet](https://www.novuscctv.com/en/products/6048/NVIP-2DPT-8701_30_T)

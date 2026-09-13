@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-T581H-MU
+slug: hilook-ipc-t581h-mu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-T581H-MU datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000168252/IPC-T581H-MU__datasheet-20250321.pdf)

@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-D169HAA-LU
+slug: hilook-ipc-d169haa-lu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 490
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-D169HAA-LU datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000118715/IPC-D169HAA-LUF_SL_SRB_Datasheet_20260320.pdf)

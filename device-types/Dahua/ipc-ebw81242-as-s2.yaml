@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-EBW81242-AS-S2
+slug: dahua-ipc-ebw81242-as-s2
+part_number: IPC-EBW81242-AS-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 790
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 13.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [Dahua IPC-EBW81242-AS-S2 datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-panoramic-series/fisheye-series/ipc-ebw81242-as-s2)

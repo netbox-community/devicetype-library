@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-5SD-8570/40/F
+slug: novus-nvip-5sd-8570-40-f
+part_number: NVIP-5SD-8570/40/F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+comments: >
+  [NOVUS NVIP-5SD-8570/40/F datasheet](https://www.novuscctv.com/en/products/6322/NVIP-5SD-8570_40_F)

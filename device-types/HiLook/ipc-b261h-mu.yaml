@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-B261H-MU
+slug: hilook-ipc-b261h-mu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 485
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook IPC-B261H-MU datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000051745/IPC-B261H-MU_Datasheet.pdf)

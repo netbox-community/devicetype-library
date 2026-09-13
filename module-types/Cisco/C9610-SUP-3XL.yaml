@@ -1,0 +1,20 @@
+---
+manufacturer: Cisco
+model: C9610-SUP-3XL
+part_number: C9610-SUP-3XL
+description: Cisco C9610 Series Supervisor 3XL module
+comments: '[Cisco C9610 Series Supervisor Engine Installation Note](https://www.cisco.com/c/en/us/td/docs/switches/lan/cisco9610/hardware/c9610R-series-supervisor-engine-installation-note.html)'
+weight: 14.1
+weight_unit: kg
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb-c
+    type: usb-c
+interfaces:
+  - name: GigabitEthernet0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet0/1
+    type: 10gbase-x-sfpp
+    mgmt_only: true

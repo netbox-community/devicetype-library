@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-T249HA-LU
+slug: hilook-ipc-t249ha-lu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 375
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-T249HA-LU datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000108265/IPC-T249HA-LU_Datasheet_20260701.pdf)

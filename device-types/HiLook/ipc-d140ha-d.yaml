@@ -1,0 +1,19 @@
+---
+manufacturer: HiLook
+model: IPC-D140HA-D
+slug: hilook-ipc-d140ha-d
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-D140HA-D datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000094080/IPC-D140HA-D_W_Datasheet_20250403.pdf)

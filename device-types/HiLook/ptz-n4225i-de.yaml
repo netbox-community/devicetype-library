@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: PTZ-N4225I-DE
+slug: hilook-ptz-n4225i-de
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook PTZ-N4225I-DE datasheet](https://assets.hikvision.com/prd/public/all/doc/m000005863/Datasheet-of-PTZ-N4225I-DEG_V5.7.1_20220704.pdf)

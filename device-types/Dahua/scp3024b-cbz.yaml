@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SCP3024B-CBZ
+slug: dahua-scp3024b-cbz
+part_number: SCP3024B-CBZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [Dahua SCP3024B-CBZ datasheet](https://www.dahuasecurity.com/products/video-intercoms/android-series/ultra-series/scp3024b-cbz)
