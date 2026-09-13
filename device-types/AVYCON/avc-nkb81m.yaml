@@ -1,0 +1,20 @@
+---
+manufacturer: AVYCON
+model: AVC-NKB81M
+slug: avycon-avc-nkb81m
+part_number: AVC-NKB81M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 811
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [AVYCON AVC-NKB81M product page](https://www.avycon.com/)

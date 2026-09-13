@@ -1,0 +1,21 @@
+---
+manufacturer: AVYCON
+model: AVC-NDV81M
+slug: avycon-avc-ndv81m
+part_number: AVC-NDV81M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NDV81M product page](https://www.avycon.com/)

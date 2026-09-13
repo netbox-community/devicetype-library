@@ -1,0 +1,18 @@
+---
+manufacturer: AVYCON
+model: AVC-NUE41M
+slug: avycon-avc-nue41m
+part_number: AVC-NUE41M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [AVYCON AVC-NUE41M product page](https://www.avycon.com/)

@@ -1,0 +1,20 @@
+---
+manufacturer: AVYCON
+model: AVC-NKV51M
+slug: avycon-avc-nkv51m
+part_number: AVC-NKV51M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 318
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [AVYCON AVC-NKV51M product page](https://www.avycon.com/)

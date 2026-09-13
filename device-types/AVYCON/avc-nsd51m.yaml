@@ -1,0 +1,22 @@
+---
+manufacturer: AVYCON
+model: AVC-NSD51M
+slug: avycon-avc-nsd51m
+part_number: AVC-NSD51M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 317
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [AVYCON AVC-NSD51M product page](https://www.avycon.com/)

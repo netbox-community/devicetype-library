@@ -1,0 +1,21 @@
+---
+manufacturer: AVYCON
+model: AVC-NDB51M
+slug: avycon-avc-ndb51m
+part_number: AVC-NDB51M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NDB51M product page](https://www.avycon.com/)

@@ -1,0 +1,20 @@
+---
+manufacturer: AVYCON
+model: AVC-NKD51F28
+slug: avycon-avc-nkd51f28
+part_number: AVC-NKD51F28
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 276
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [AVYCON AVC-NKD51F28 product page](https://www.avycon.com/)
