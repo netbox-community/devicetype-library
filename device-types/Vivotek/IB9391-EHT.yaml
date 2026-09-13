@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: IB9391-EHT
+slug: vivotek-ib9391-eht
+part_number: IB9391-EHT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+comments: >
+  [Vivotek IB9391-EHT datasheet](https://download.vivotek.com/downloadfile/downloads/datasheets/ib9391-ehtdatasheet_en.pdf)
