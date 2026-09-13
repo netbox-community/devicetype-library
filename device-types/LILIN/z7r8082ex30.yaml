@@ -11,14 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
     description: max 18.3 W
 power-ports:
   - name: DC IN
     type: dc-terminal
     maximum_draw: 18
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [LILIN Z7R8082EX30 product page](https://meritlilin.com/)
+  [LILIN Z7R8082EX30 product page](https://www.meritlilin.com/en/product/Z7R8082EX30)
