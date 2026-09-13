@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: Z413
+slug: acti-z413
+part_number: Z413
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [ACTi Z413 product page](https://www.acti.com/product/Z413)

@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: B43
+slug: acti-b43
+part_number: B43
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2248
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+comments: >
+  [ACTi B43 product page](https://www.acti.com/product/B43)

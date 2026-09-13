@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: K953-2MP
+slug: acti-k953-2mp
+part_number: K953-2MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [ACTi K953-2MP product page](https://www.acti.com/product/K953-2MP)
