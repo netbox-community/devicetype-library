@@ -11,12 +11,15 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
-    poe_mode: pd
-    poe_type: type4-ieee802.3bt
     description: max 89 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 89
+    description: 24V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [LILIN S8R5554X30 product page](https://meritlilin.com/)
+  [LILIN S8R5554X30 product page](https://www.meritlilin.com/en/product/S8R5554X30)
