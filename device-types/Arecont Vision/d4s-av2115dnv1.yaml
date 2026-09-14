@@ -1,0 +1,20 @@
+---
+manufacturer: Arecont Vision
+model: D4S-AV2115DNV1
+slug: arecont-vision-d4s-av2115dnv1
+part_number: D4S-AV2115DNV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Arecont Vision D4S-AV2115DNV1 product page](https://sales.arecontvision.com/product/D4+Series/D4S-AV2115DNv1-3312)
