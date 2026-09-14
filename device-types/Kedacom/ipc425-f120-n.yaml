@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC425-F120-N
+slug: kedacom-ipc425-f120-n
+part_number: IPC425-F120-N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 45 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 45
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC425-F120-N product page](https://www.kedacom.com/en/ythwlsxj/4538.jhtml)
