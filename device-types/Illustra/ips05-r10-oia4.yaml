@@ -1,0 +1,26 @@
+---
+manufacturer: Illustra
+model: IPS05-R10-OIA4
+slug: illustra-ips05-r10-oia4
+part_number: IPS05-R10-OIA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Illustra IPS05-R10-OIA4 product page](https://illustracameras.com/wp-content/uploads/2023/11/Illustra-IQ-Pro-Gen4-Corner-Data-Sheet_R01-1.pdf)
