@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-4VE-4231/WLAD
+slug: novus-nvip-4ve-4231-wlad
+part_number: NVIP-4VE-4231/WLAD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [NOVUS NVIP-4VE-4231/WLAD datasheet](https://www.novuscctv.com/en/products/5935/NVIP-4VE-4231_WLAD)

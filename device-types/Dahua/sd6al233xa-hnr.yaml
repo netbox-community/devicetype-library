@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6AL233XA-HNR
+slug: dahua-sd6al233xa-hnr
+part_number: SD6AL233XA-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+comments: >
+  [Dahua SD6AL233XA-HNR datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD6AL233XA-HNR_datasheet_20210529.pdf)

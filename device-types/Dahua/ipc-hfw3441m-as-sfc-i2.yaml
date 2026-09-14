@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3441M-AS-SFC-I2
+slug: dahua-ipc-hfw3441m-as-sfc-i2
+part_number: IPC-HFW3441M-AS-SFC-I2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 755
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-HFW3441M-AS-SFC-I2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw3441m-as-sfc-i2)

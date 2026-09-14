@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: H4C
+slug: dahua-h4c
+part_number: H4C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua H4C datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/h4c)

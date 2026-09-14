@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6E432MB-HNR-A-PV1-ATC
+slug: dahua-sd6e432mb-hnr-a-pv1-atc
+part_number: SD6E432MB-HNR-A-PV1-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5060
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+comments: >
+  [Dahua SD6E432MB-HNR-A-PV1-ATC datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/anti-corrosion-cameras/sd6e432mb-hnr-a-pv1-atc)

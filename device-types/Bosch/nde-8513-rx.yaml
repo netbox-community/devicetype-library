@@ -1,0 +1,20 @@
+---
+manufacturer: Bosch
+model: NDE-8513-RX
+slug: bosch-nde-8513-rx
+part_number: NDE-8513-RX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13

@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-4VE-6502M/F-II/7043
+slug: novus-nvip-4ve-6502m-f-ii-7043
+part_number: NVIP-4VE-6502M/F-II/7043
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [NOVUS NVIP-4VE-6502M/F-II/7043 datasheet](https://www.novuscctv.com/en/product/5700)

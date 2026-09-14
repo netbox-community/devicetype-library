@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2449S-S-LED
+slug: dahua-ipc-hfw2449s-s-led
+part_number: IPC-HFW2449S-S-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 470
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-HFW2449S-S-LED datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw2449s-s-led)

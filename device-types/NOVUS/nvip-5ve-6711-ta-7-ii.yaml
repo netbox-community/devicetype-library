@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-5VE-6711/TA/7-II
+slug: novus-nvip-5ve-6711-ta-7-ii
+part_number: NVIP-5VE-6711/TA/7-II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+comments: >
+  [NOVUS NVIP-5VE-6711/TA/7-II datasheet](https://www.novuscctv.com/en/products/6158/NVIP-5VE-6711_TA_7-II)

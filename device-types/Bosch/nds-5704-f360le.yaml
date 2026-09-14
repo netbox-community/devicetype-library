@@ -1,0 +1,19 @@
+---
+manufacturer: Bosch
+model: NDS-5704-F360LE
+slug: bosch-nds-5704-f360le
+part_number: NDS-5704-F360LE
+description: FLEXIDOME panoramic 5100i IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal

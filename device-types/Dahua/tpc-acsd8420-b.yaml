@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-ACSD8420-B
+slug: dahua-tpc-acsd8420-b
+part_number: TPC-ACSD8420-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 24 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 24
+comments: >
+  [Dahua TPC-ACSD8420-B datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-acsd8420-b)

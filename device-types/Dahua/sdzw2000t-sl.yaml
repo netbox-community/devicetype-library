@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SDZW2000T-SL
+slug: dahua-sdzw2000t-sl
+part_number: SDZW2000T-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua SDZW2000T-SL datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/anti-corrosion-cameras/sdzw2000t-sl)

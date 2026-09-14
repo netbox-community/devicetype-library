@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW5859H-ASE-PV-PRO-ATC
+slug: dahua-ipc-hdw5859h-ase-pv-pro-atc
+part_number: IPC-HDW5859H-ASE-PV-PRO-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 21.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua IPC-HDW5859H-ASE-PV-PRO-ATC datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/anti-corrosion/ipc-hdw5859h-ase-pv-pro-atc)

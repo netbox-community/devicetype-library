@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5442T-AS-LED
+slug: dahua-ipc-hfw5442t-as-led
+part_number: IPC-HFW5442T-AS-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 815
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua IPC-HFW5442T-AS-LED datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5442t-as-led)

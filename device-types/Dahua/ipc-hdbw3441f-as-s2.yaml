@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW3441F-AS-S2
+slug: dahua-ipc-hdbw3441f-as-s2
+part_number: IPC-HDBW3441F-AS-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 423
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HDBW3441F-AS-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw3441f-as-s2=s2)
