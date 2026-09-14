@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-K1430K-STW
+slug: dahua-ipc-k1430k-stw
+part_number: IPC-K1430K-STW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua IPC-K1430K-STW datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/cube-series/ipc-k1430k-stw)

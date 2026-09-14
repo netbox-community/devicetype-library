@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-X15301A-Z1L
+slug: i-pro-wv-x15301a-z1l
+part_number: WV-X15301A-Z1L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 24.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+comments: >
+  [i-PRO WV-X15301A-Z1L datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-x15301a-z1l)

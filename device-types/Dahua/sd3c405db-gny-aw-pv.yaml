@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD3C405DB-GNY-AW-PV
+slug: dahua-sd3c405db-gny-aw-pv
+part_number: SD3C405DB-GNY-AW-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua SD3C405DB-GNY-AW-PV datasheet](https://www.dahuasecurity.com/products/network-products/pt-cameras/ip-pt-3-series/sd3/sd3c405db-gny-aw-pv)

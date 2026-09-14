@@ -1,0 +1,48 @@
+---
+manufacturer: APC
+model: SUA2200R2X180
+slug: apc-sua2200r2x180
+part_number: SUA2200R2X180
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 96.21
+weight_unit: lb
+comments: "APC Smart-UPS, Line Interactive, 2200VA, Rackmount 2U, 120V, 6x NEMA 5-15R + 2x Nema 5-20R outlets, SmartSlot, AVR, LED\n Battery SKU: RBC43"
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: nema-5-20p
+    maximum_draw: 1980
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 2
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 3
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 4
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 5
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 6
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 7
+    type: nema-5-20r
+    power_port: Source
+  - name: Outlet 8
+    type: nema-5-20r
+    power_port: Source
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot

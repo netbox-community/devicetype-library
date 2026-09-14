@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-PT8420A-TB
+slug: dahua-tpc-pt8420a-tb
+part_number: TPC-PT8420A-TB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 13000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 30 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 30
+comments: >
+  [Dahua TPC-PT8420A-TB datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-pt8420a-tb)

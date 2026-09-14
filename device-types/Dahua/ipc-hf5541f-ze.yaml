@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HF5541F-ZE
+slug: dahua-ipc-hf5541f-ze
+part_number: IPC-HF5541F-ZE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua IPC-HF5541F-ZE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hf5541f-ze)

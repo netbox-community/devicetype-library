@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW5241TM-ASE
+slug: dahua-ipc-hdw5241tm-ase
+part_number: IPC-HDW5241TM-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-HDW5241TM-ASE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw5241tm-ase)

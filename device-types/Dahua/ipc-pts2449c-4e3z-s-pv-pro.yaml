@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PTS2449C-4E3Z-S-PV-PRO
+slug: dahua-ipc-pts2449c-4e3z-s-pv-pro
+part_number: IPC-PTS2449C-4E3Z-S-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-PTS2449C-4E3Z-S-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/pt-cameras/ip-pt-2-series/multivision/ipc-pts2449c-4e3z-s-pv-pro)

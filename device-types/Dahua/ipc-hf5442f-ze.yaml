@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HF5442F-ZE
+slug: dahua-ipc-hf5442f-ze
+part_number: IPC-HF5442F-ZE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [Dahua IPC-HF5442F-ZE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hf5442f-ze)

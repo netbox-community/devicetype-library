@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-X15500A-V3LN
+slug: i-pro-wv-x15500a-v3ln
+part_number: WV-X15500A-V3LN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 14.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [i-PRO WV-X15500A-V3LN datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-x15500a-v3ln)

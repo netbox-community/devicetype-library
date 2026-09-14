@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SD2A200HB-GN-A-PV-S2
+slug: dahua-sd2a200hb-gn-a-pv-s2
+part_number: SD2A200HB-GN-A-PV-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua SD2A200HB-GN-A-PV-S2 datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD2A200HB-GN-A-PV-S2_S0_datasheet_20230627.pdf)

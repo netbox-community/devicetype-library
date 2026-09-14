@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: T5A-PV
+slug: dahua-t5a-pv
+part_number: T5A-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua T5A-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/turret-series/t5a-pv)

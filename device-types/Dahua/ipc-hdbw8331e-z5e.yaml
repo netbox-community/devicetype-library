@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW8331E-Z5E
+slug: dahua-ipc-hdbw8331e-z5e
+part_number: IPC-HDBW8331E-Z5E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 960
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+comments: >
+  [Dahua IPC-HDBW8331E-Z5E datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw8331e-z5e)

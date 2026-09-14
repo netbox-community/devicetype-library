@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: PSDW82442M-A270-D440
+slug: dahua-psdw82442m-a270-d440
+part_number: PSDW82442M-A270-D440
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 99 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 99
+comments: >
+  [Dahua PSDW82442M-A270-D440 datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/54627/datasheet/PSDW82442M-A270-D440-S3_S3_datasheet_20260127.pdf)

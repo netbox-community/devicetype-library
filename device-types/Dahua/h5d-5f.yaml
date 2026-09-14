@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: H5D-5F
+slug: dahua-h5d-5f
+part_number: H5D-5F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 233
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua H5D-5F datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/h5d-5f)
