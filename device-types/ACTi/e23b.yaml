@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E23B
+slug: acti-e23b
+part_number: E23B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 445
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.32 W
+comments: >
+  [ACTi E23B product page](https://www.acti.com/product/E23B)

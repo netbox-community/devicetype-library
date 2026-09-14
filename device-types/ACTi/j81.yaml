@@ -1,0 +1,19 @@
+---
+manufacturer: ACTi
+model: J81
+slug: acti-j81
+part_number: J81
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi J81 product page](https://www.acti.com/product/J81)
