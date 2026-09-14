@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: SND-L5083R
+slug: hanwha-snd-l5083r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 5.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Hanwha SND-L5083R datasheet](https://www.hanwhavision.com/global/products/product-details/SND-L5083R)

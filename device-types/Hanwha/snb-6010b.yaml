@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: SNB-6010B
+slug: hanwha-snb-6010b
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 335
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha SNB-6010B datasheet](https://www.hanwhavision.com/global/products/product-details/SNB-6010B)

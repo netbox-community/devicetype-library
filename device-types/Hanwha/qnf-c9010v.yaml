@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: QNF-C9010V
+slug: hanwha-qnf-c9010v
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 583
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.7 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha QNF-C9010V datasheet](https://www.hanwhavision.com/global/products/product-details/QNF-C9010V)
