@@ -85,6 +85,15 @@
         "comments": {
             "type": "string"
         },
+        "module_bay_types": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+            },
+            "uniqueItems": true
+        },
         "profile": {
             "type": "string",
             "enum": ["CPU", "Fan", "GPU", "Hard disk", "Memory", "Power supply", "Expansion card"]

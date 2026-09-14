@@ -1,0 +1,14 @@
+---
+manufacturer: Nokia
+model: QSFP28-100G-LR4
+part_number: 3HE10550AA
+description: Nokia QSFP28 100GBASE-LR4 Transceiver
+comments: >-
+  Nokia-branded 100GBASE-LR4 QSFP28 transceiver.
+  1310nm LAN-WDM, SMF, duplex LC, up to 10km.
+  4x 25Gbps lanes. DOM supported.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28
