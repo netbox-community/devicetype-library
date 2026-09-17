@@ -16,19 +16,19 @@ module-bays:
     position: PSU2
   - name: PCI-E 1
     description: x16 Full height slot
-    position: 1
+    position: '1'
   - name: PCI-E 2
     description: x16 Full height slot
-    position: 2
+    position: '2'
   - name: PCI-E 3
     description: x8 Low profile slot
-    position: 3
+    position: '3'
   - name: PCI-E 4
     description: x16 for Add-on-module (AOM)
-    position: 4
+    position: '4'
   - name: PCI-E 5
     description: x4 NVMe M.2 slot
-    position: 5
+    position: '5'
 interfaces:
   - name: LAN1
     type: 10gbase-t
