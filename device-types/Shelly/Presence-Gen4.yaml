@@ -1,0 +1,24 @@
+---
+manufacturer: Shelly
+model: Presence Gen4
+slug: shelly-presence-gen4
+part_number: S4SN-0U61X
+u_height: 0
+is_full_depth: false
+weight: 85
+weight_unit: g
+airflow: passive
+comments: '[Shelly Presence Gen4](https://kb.shelly.cloud/knowledge-base/shelly-presence-gen4)'
+power-ports:
+  - name: USB
+    type: usb-c
+    maximum_draw: 5
+    description: 5Vdc via USB-C; 2.5W nominal, 3.5W max
+interfaces:
+  - name: Wireless
+    type: ieee802.11ax
+    description: 2.4GHz only (802.11b/g/n/ax)
+  - name: Bluetooth
+    type: ieee802.15.1
+  - name: Zigbee
+    type: ieee802.15.4
