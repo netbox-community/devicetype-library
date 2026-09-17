@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-PT8641C
+slug: dahua-tpc-pt8641c
+part_number: TPC-PT8641C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 75000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 260 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 260
+comments: >
+  [Dahua TPC-PT8641C datasheet](https://www.dahuasecurity.com/products/thermal-products/thermal-cameras/ultra-series/tpc-pt8641c)

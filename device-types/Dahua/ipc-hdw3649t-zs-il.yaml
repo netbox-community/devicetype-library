@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3649T-ZS-IL
+slug: dahua-ipc-hdw3649t-zs-il
+part_number: IPC-HDW3649T-ZS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-HDW3649T-ZS-IL datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-3-series/smart-dual-light/ipc-hdw3649t-zs-il)

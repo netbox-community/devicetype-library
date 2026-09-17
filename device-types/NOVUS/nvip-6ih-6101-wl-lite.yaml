@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-6IH-6101/WL/LITE
+slug: novus-nvip-6ih-6101-wl-lite
+part_number: NVIP-6IH-6101/WL/LITE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [NOVUS NVIP-6IH-6101/WL/LITE datasheet](https://www.novuscctv.com/en/products/6332/NVIP-6IH-6101_WL_LITE)

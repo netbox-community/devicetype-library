@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: P5I-PV
+slug: dahua-p5i-pv
+part_number: P5I-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 336
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua P5I-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/p5i-pv)

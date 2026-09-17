@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: PTZ-N2C200C-DE
+slug: hilook-ptz-n2c200c-de
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 780
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook PTZ-N2C200C-DE datasheet](https://assets.hikvision.com/prd/public/all/doc/m000059113/PTZ-N2C200C-DE_Datasheet_V5.7.4_20220513.pdf)

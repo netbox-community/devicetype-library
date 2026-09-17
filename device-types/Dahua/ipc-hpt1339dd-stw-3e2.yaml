@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HPT1339DD-STW-3E2
+slug: dahua-ipc-hpt1339dd-stw-3e2
+part_number: IPC-HPT1339DD-STW-3E2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 233
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua IPC-HPT1339DD-STW-3E2 datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/ipc-hpt1339dd-stw-3e2)

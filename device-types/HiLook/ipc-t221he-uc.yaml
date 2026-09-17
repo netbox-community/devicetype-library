@@ -1,0 +1,16 @@
+---
+manufacturer: HiLook
+model: IPC-T221HE-UC
+slug: hilook-ipc-t221he-uc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 265
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [HiLook IPC-T221HE-UC datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000081465/IPC-T221HE-UC_Datasheet_20260703.pdf)

@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: PTZ-N3204M-DE
+slug: hilook-ptz-n3204m-de
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook PTZ-N3204M-DE datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000178623/PTZ-N3204M-DE_Datasheet_20260622.pdf)

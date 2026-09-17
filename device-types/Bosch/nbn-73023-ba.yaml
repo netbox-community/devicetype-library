@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: NBN-73023-BA
+slug: bosch-nbn-73023-ba
+part_number: NBN-73023-BA
+description: DINION IP starlight 7000 HD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 840
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [Bosch NBN-73023-BA datasheet](https://cdn.commerce.boschsecurity.com/public/documents/NBN_7300_Data_sheet_enUS_22455561611.pdf)

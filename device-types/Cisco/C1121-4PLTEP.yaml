@@ -1,0 +1,47 @@
+---
+manufacturer: Cisco
+model: C1121-4PLTEP
+slug: cisco-c1121-4pltep
+part_number: C1121-4PLTEP
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.68
+weight_unit: kg
+comments: |-
+  - Cisco 1000 Series Integrated Services Routers Data Sheet: https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/datasheet-c78-739512.html
+  - Cisco 112x ISR model.
+  - 2 WAN GE interfaces.
+  - 4 LAN GE interfaces.
+  - LTE-capable model.
+  - Dimensions: 1.65 x 10.80 x 7.85 in.
+  - Maximum power consumption: 23.5 W.
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+    description: WAN
+  - name: GigabitEthernet0/0/1
+    type: 1000base-t
+    description: WAN
+  - name: GigabitEthernet0/1/0
+    type: 1000base-t
+    description: LAN
+  - name: GigabitEthernet0/1/1
+    type: 1000base-t
+    description: LAN
+  - name: GigabitEthernet0/1/2
+    type: 1000base-t
+    description: LAN
+  - name: GigabitEthernet0/1/3
+    type: 1000base-t
+    description: LAN
+  - name: Cellular0/2/0
+    type: lte
+    description: LTE interface
+power-ports:
+  - name: PSU0
+    type: dc-terminal
+    maximum_draw: 24

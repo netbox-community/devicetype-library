@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-8VE-6201/WL-II
+slug: novus-nvip-8ve-6201-wl-ii
+part_number: NVIP-8VE-6201/WL-II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [NOVUS NVIP-8VE-6201/WL-II datasheet](https://www.novuscctv.com/en/products/6166/NVIP-8VE-6201_WL-II)

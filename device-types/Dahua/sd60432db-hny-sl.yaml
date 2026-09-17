@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SD60432DB-HNY-SL
+slug: dahua-sd60432db-hny-sl
+part_number: SD60432DB-HNY-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+comments: >
+  [Dahua SD60432DB-HNY-SL datasheet](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/anti-corrosion-cameras/sd60432db-hny-sl)

@@ -1,0 +1,20 @@
+---
+manufacturer: NOVUS
+model: NVIP-6H-6211/WLAD
+slug: novus-nvip-6h-6211-wlad
+part_number: NVIP-6H-6211/WLAD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [NOVUS NVIP-6H-6211/WLAD datasheet](https://www.novuscctv.com/en/products/6534/NVIP-6H-6211_WLAD)

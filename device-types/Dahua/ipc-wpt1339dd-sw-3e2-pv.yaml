@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-WPT1339DD-SW-3E2-PV
+slug: dahua-ipc-wpt1339dd-sw-3e2-pv
+part_number: IPC-WPT1339DD-SW-3E2-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 585
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-WPT1339DD-SW-3E2-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/ipc-wpt1339dd-sw-3e2-pv)

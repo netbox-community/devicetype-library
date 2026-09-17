@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW5859H-ZE-PV-PRO
+slug: dahua-ipc-hdw5859h-ze-pv-pro
+part_number: IPC-HDW5859H-ZE-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 21.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua IPC-HDW5859H-ZE-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/pro/8mp/ipc-hdw5859h-ze-pv-pro)

@@ -1,0 +1,15 @@
+---
+manufacturer: Hikvision
+model: DS-2TXS2628-7P
+slug: hikvision-ds-2txs2628-7p
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 26600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.1 W

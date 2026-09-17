@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5241T-ASE-NI
+slug: dahua-ipc-hfw5241t-ase-ni
+part_number: IPC-HFW5241T-ASE-NI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 805
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-HFW5241T-ASE-NI datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5241t-ase-ni)
