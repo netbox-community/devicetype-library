@@ -1,0 +1,40 @@
+---
+manufacturer: Securepoint
+model: RC100 G5
+slug: securepoint-rc100-g5
+description: UTM firewall for up to 25 users, desktop appliance with 4x 1GbE. Rack-mount kit available.
+u_height: 1
+is_full_depth: false
+comments: 'Datasheet: https://www.securepoint.de/en/for-companies/utm-firewall/rc-serie/g5/rc100/technology'
+airflow: passive
+weight: 2
+weight_unit: kg
+console-ports:
+  - name: USB1
+    type: usb-a
+    description: USB 2.0
+  - name: USB2
+    type: usb-a
+    description: USB 2.0
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 46
+    description: 'External 12V 3.34A 40W screwed, 110-240VAC 50-60Hz'
+  - name: PSU2
+    type: dc-terminal
+    maximum_draw: 46
+    description: Optional 2nd redundant power supply
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: 1GbE RJ45 LAN port
+  - name: eth1
+    type: 1000base-t
+    description: 1GbE RJ45 LAN port
+  - name: eth2
+    type: 1000base-t
+    description: 1GbE RJ45 LAN port
+  - name: eth3
+    type: 1000base-t
+    description: 1GbE RJ45 LAN port
