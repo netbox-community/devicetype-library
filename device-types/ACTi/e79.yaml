@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: E79
+slug: acti-e79
+part_number: E79
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 568
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [ACTi E79 product page](https://www.acti.com/product/E79)
