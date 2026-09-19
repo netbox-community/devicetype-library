@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IP5M-20FFQ
+slug: illustra-ip5m-20ffq
+part_number: IP5M-20FFQ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Illustra IP5M-20FFQ product page](https://illustracameras.com/wp-content/uploads/2026/02/illustra-Multisensor-Fixed-Datasheet-Specs_de_FINAL.pdf)
