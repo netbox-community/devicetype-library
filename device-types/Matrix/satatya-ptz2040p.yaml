@@ -1,0 +1,25 @@
+---
+manufacturer: Matrix
+model: SATATYA PTZ2040P
+slug: matrix-satatya-ptz2040p
+part_number: SATATYA PTZ2040P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
