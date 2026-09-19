@@ -1,0 +1,20 @@
+---
+manufacturer: Hanwha
+model: SNP-L5233
+slug: hanwha-snp-l5233
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha SNP-L5233 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-L5233)

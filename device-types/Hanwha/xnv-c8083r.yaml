@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: XNV-C8083R
+slug: hanwha-xnv-c8083r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha XNV-C8083R datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-C8083R)
