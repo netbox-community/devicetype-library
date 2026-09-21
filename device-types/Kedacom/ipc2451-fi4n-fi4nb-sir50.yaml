@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC2451-Fi4N/Fi4NB-SIR50
+slug: kedacom-ipc2451-fi4n-fi4nb-sir50
+part_number: IPC2451-Fi4N/Fi4NB-SIR50
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2451-Fi4N/Fi4NB-SIR50 product page](https://www.kedacom.com/th/rykksxj/4581.jhtml)
