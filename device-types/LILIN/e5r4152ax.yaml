@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: E5R4152AX
+slug: lilin-e5r4152ax
+part_number: E5R4152AX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [LILIN E5R4152AX product page](https://meritlilin.com)
