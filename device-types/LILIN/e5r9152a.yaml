@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: E5R9152A
+slug: lilin-e5r9152a
+part_number: E5R9152A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 349
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [LILIN E5R9152A product page](https://meritlilin.com)
