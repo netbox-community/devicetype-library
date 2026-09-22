@@ -18,18 +18,18 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: PSU 1
-    position: 1
+    position: '1'
   - name: PSU 2
-    position: 2
+    position: '2'
   - name: PCIe 1
-    position: 1
+    position: '1'
     description: PCIe 4.0 x16 FHHL Upper Right
   - name: PCIe 2
-    position: 2
+    position: '2'
     description: PCIe 4.0 x16 AIOM (OCP 3.0) Lower Right
   - name: PCIe 3
-    position: 3
+    position: '3'
     description: PCIe 4.0 x16 FHHL Upper Left
   - name: PCIe 4
-    position: 4
+    position: '4'
     description: PCIe 4.0 x16 AIOM (OCP 3.0) Lower Left
