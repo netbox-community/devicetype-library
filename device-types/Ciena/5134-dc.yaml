@@ -1,26 +1,36 @@
 ---
-# NOTE: weight not published in a public Ciena datasheet, omitted. Power-port
-# wattages and physical layout sourced from netbox labs NDX catalog (a
-# third-party aggregator of Ciena spec data, not ciena.com directly) -
-# treat power figures as lower-confidence until cross-checked against an
-# official Ciena PDF.
-# Sources: https://netboxlabs.com/ndx/ciena/ciena-5168/
-#          https://www.anycomm.net/datasheet/RLS/5168_DS.pdf
 manufacturer: Ciena
-model: '5168'
-slug: ciena-5168
-part_number: 170-5168-900
+model: 5134 DC
+slug: ciena-5134-dc
+part_number: 170-5134-900
 u_height: 1
 is_full_depth: false
+airflow: front-to-rear
+weight: 5.7
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-a
+  - name: 1PPS / 10MHZ
+    type: other
+    description: SMB connector (50 ohm), 1PPS/10 MHz in or out (software selectable)
+  - name: ANT
+    type: other
+    description: SMB connector (50 ohm) GNSS/GPS antenna port
+  - name: SYNC
+    type: rj-45
+    description: RJ-45 SYNC port
 power-ports:
   - name: PS-A
-    type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 100
+    type: dc-terminal
+    maximum_draw: 254
+    allocated_draw: 115
   - name: PS-B
-    type: iec-60320-c14
-    maximum_draw: 200
-    allocated_draw: 100
+    type: dc-terminal
+    maximum_draw: 254
+    allocated_draw: 115
 interfaces:
   - name: '1'
     type: 25gbase-x-sfp28
@@ -71,29 +81,13 @@ interfaces:
   - name: '24'
     type: 25gbase-x-sfp28
   - name: '25'
-    type: 25gbase-x-sfp28
+    type: 100gbase-x-qsfpdd
   - name: '26'
-    type: 25gbase-x-sfp28
+    type: 100gbase-x-qsfpdd
   - name: '27'
-    type: 25gbase-x-sfp28
+    type: 100gbase-x-qsfpdd
   - name: '28'
-    type: 25gbase-x-sfp28
-  - name: '29'
-    type: 25gbase-x-sfp28
-  - name: '30'
-    type: 25gbase-x-sfp28
-  - name: '31'
-    type: 25gbase-x-sfp28
-  - name: '32'
-    type: 25gbase-x-sfp28
-  - name: '33'
-    type: 100gbase-x-qsfp28
-  - name: '34'
-    type: 100gbase-x-qsfp28
-  - name: '35'
-    type: 100gbase-x-qsfp28
-  - name: '36'
-    type: 100gbase-x-qsfp28
+    type: 100gbase-x-qsfpdd
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
