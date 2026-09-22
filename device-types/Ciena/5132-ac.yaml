@@ -1,0 +1,29 @@
+---
+manufacturer: Ciena
+model: 5132 AC
+slug: ciena-5132-ac
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PS-A
+    type: iec-60320-c14
+  - name: PS-B
+    type: iec-60320-c14
+interfaces:
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfpdd
+  - name: '4'
+    type: 100gbase-x-qsfpdd
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

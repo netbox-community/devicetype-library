@@ -1,69 +1,76 @@
 ---
-# NOTE: weight and power-draw not published in a public Ciena datasheet;
-# omitted per contribution guidance.
-# Sources: https://www.ciena.com/insights/data-sheets/3949
-#          https://hssl.us/ciena-3949-24-100m-1g-sfp-6-10-1g-sfp-saos-10-x-sync-ext-temp-2-slots-ac-or-dc-plug-power-supply-170-3949-900/
 manufacturer: Ciena
 model: '3949'
 slug: ciena-3949
 part_number: 170-3949-900
 u_height: 1
 is_full_depth: false
-power-ports:
-  # Power supply count/type/wattage not confirmed in an official Ciena
-  # datasheet - placeholder entries only (name/type are schema-required);
-  # confirm against primary source before submitting upstream.
-  - name: PS-A
-    type: iec-60320-c14
+airflow: front-to-rear
+weight: 4.0
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-c
+  - name: 1PPS
+    type: other
+    description: SMB connector (50 ohm) 1PPS in or out (software selectable)
+  - name: 10MHZ
+    type: other
+    description: SMB connector (50 ohm) 10 MHz in or out (software selectable)
+  - name: SYNC
+    type: rj-45
+    description: RJ-45 SYNC port
 interfaces:
   - name: '1'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '2'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '3'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '4'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '5'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '6'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '7'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '8'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '9'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '10'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '11'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '12'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '13'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '14'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '15'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '16'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '17'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '18'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '19'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '20'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '21'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '22'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '23'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '24'
-    type: 1000base-t
+    type: 1000base-x-sfp
   - name: '25'
     type: 10gbase-x-sfpp
   - name: '26'
@@ -76,3 +83,17 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: '30'
     type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS A
+    position: A
+    description: |
+      170-0492-900 3949, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+      170-0493-900 3949, DC PLUGGABLE POWER SUPPLY, WIDE RANGE 48V
+  - name: PS B
+    position: B
+    description: |
+      170-0492-900 3949, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+      170-0493-900 3949, DC PLUGGABLE POWER SUPPLY, WIDE RANGE 48V

@@ -1,0 +1,29 @@
+---
+manufacturer: Ciena
+model: 5132 DC
+slug: ciena-5132-dc
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PS-A
+    type: dc-terminal
+  - name: PS-B
+    type: dc-terminal
+interfaces:
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfpdd
+  - name: '4'
+    type: 100gbase-x-qsfpdd
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
