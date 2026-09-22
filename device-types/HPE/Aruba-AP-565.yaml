@@ -1,0 +1,29 @@
+---
+manufacturer: HPE
+model: Aruba AP-565
+slug: hpe-aruba-ap-565
+part_number: AP-565
+u_height: 0
+is_full_depth: false
+weight: 1.03
+weight_unit: kg
+airflow: passive
+comments: '[HPE Aruba Networking 560 Series Datasheet](https://www.hpe.com/psnow/doc/PSN1013033909ATEN)'
+console-ports:
+  - name: USB Console
+    type: usb-c
+interfaces:
+  - name: E0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: 5GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: 2.4GHz WiFi
+    type: ieee802.11ax
+    rf_role: ap
+  - name: Bluetooth
+    type: ieee802.15.1
+  - name: Zigbee
+    type: other-wireless
