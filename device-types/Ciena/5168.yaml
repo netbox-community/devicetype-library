@@ -1,0 +1,99 @@
+---
+# NOTE: weight not published in a public Ciena datasheet, omitted. Power-port
+# wattages and physical layout sourced from netbox labs NDX catalog (a
+# third-party aggregator of Ciena spec data, not ciena.com directly) -
+# treat power figures as lower-confidence until cross-checked against an
+# official Ciena PDF.
+# Sources: https://netboxlabs.com/ndx/ciena/ciena-5168/
+#          https://www.anycomm.net/datasheet/RLS/5168_DS.pdf
+manufacturer: Ciena
+model: '5168'
+slug: ciena-5168
+part_number: 170-5168-900
+u_height: 1
+is_full_depth: false
+power-ports:
+  - name: PS-A
+    type: iec-60320-c14
+    maximum_draw: 200
+    allocated_draw: 100
+  - name: PS-B
+    type: iec-60320-c14
+    maximum_draw: 200
+    allocated_draw: 100
+interfaces:
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+  - name: '5'
+    type: 25gbase-x-sfp28
+  - name: '6'
+    type: 25gbase-x-sfp28
+  - name: '7'
+    type: 25gbase-x-sfp28
+  - name: '8'
+    type: 25gbase-x-sfp28
+  - name: '9'
+    type: 25gbase-x-sfp28
+  - name: '10'
+    type: 25gbase-x-sfp28
+  - name: '11'
+    type: 25gbase-x-sfp28
+  - name: '12'
+    type: 25gbase-x-sfp28
+  - name: '13'
+    type: 25gbase-x-sfp28
+  - name: '14'
+    type: 25gbase-x-sfp28
+  - name: '15'
+    type: 25gbase-x-sfp28
+  - name: '16'
+    type: 25gbase-x-sfp28
+  - name: '17'
+    type: 25gbase-x-sfp28
+  - name: '18'
+    type: 25gbase-x-sfp28
+  - name: '19'
+    type: 25gbase-x-sfp28
+  - name: '20'
+    type: 25gbase-x-sfp28
+  - name: '21'
+    type: 25gbase-x-sfp28
+  - name: '22'
+    type: 25gbase-x-sfp28
+  - name: '23'
+    type: 25gbase-x-sfp28
+  - name: '24'
+    type: 25gbase-x-sfp28
+  - name: '25'
+    type: 25gbase-x-sfp28
+  - name: '26'
+    type: 25gbase-x-sfp28
+  - name: '27'
+    type: 25gbase-x-sfp28
+  - name: '28'
+    type: 25gbase-x-sfp28
+  - name: '29'
+    type: 25gbase-x-sfp28
+  - name: '30'
+    type: 25gbase-x-sfp28
+  - name: '31'
+    type: 25gbase-x-sfp28
+  - name: '32'
+    type: 25gbase-x-sfp28
+  - name: '33'
+    type: 100gbase-x-qsfp28
+  - name: '34'
+    type: 100gbase-x-qsfp28
+  - name: '35'
+    type: 100gbase-x-qsfp28
+  - name: '36'
+    type: 100gbase-x-qsfp28
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

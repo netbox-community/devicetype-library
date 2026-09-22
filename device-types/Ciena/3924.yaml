@@ -1,0 +1,35 @@
+---
+# NOTE: physical weight and power-draw are not published in a public Ciena
+# datasheet at time of writing (only third-party/reseller estimates found);
+# omitted per contribution guidance to avoid unverified data.
+# Sources: https://www.ciena.com/products/3924
+#          https://hssl.us/ciena-3924-4-100m-1g-sfp-4-10-1g-sfp-saos-10-x-sync-single-ac-power-req-power-cable/
+manufacturer: Ciena
+model: '3924'
+slug: ciena-3924
+part_number: 170-3924-904
+u_height: 1
+is_full_depth: false
+power-ports:
+  # Power supply count/type/wattage not confirmed in an official Ciena
+  # datasheet - placeholder entries only (name/type are schema-required);
+  # confirm against primary source before submitting upstream.
+  - name: PS-A
+    type: iec-60320-c14
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp

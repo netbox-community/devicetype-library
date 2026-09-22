@@ -1,0 +1,99 @@
+---
+# NOTE: weight and power-port wattages sourced from netbox labs NDX catalog
+# (a third-party aggregator of Ciena spec data, not ciena.com directly) -
+# treat as lower-confidence until cross-checked against an official Ciena PDF.
+# Sources: https://netboxlabs.com/ndx/ciena/ciena-5184/
+#          https://www.ciena.com/insights/data-sheets/5184
+manufacturer: Ciena
+model: '5184'
+slug: ciena-5184
+part_number: 170-5184-900
+u_height: 1
+is_full_depth: false
+weight: 7.3
+weight_unit: kg
+power-ports:
+  - name: PS-A
+    type: iec-60320-c14
+    maximum_draw: 400
+    allocated_draw: 200
+  - name: PS-B
+    type: iec-60320-c14
+    maximum_draw: 400
+    allocated_draw: 200
+interfaces:
+  - name: '1'
+    type: 50gbase-x-sfp56
+  - name: '2'
+    type: 50gbase-x-sfp56
+  - name: '3'
+    type: 50gbase-x-sfp56
+  - name: '4'
+    type: 50gbase-x-sfp56
+  - name: '5'
+    type: 50gbase-x-sfp56
+  - name: '6'
+    type: 50gbase-x-sfp56
+  - name: '7'
+    type: 50gbase-x-sfp56
+  - name: '8'
+    type: 50gbase-x-sfp56
+  - name: '9'
+    type: 50gbase-x-sfp56
+  - name: '10'
+    type: 50gbase-x-sfp56
+  - name: '11'
+    type: 50gbase-x-sfp56
+  - name: '12'
+    type: 50gbase-x-sfp56
+  - name: '13'
+    type: 50gbase-x-sfp56
+  - name: '14'
+    type: 50gbase-x-sfp56
+  - name: '15'
+    type: 50gbase-x-sfp56
+  - name: '16'
+    type: 50gbase-x-sfp56
+  - name: '17'
+    type: 50gbase-x-sfp56
+  - name: '18'
+    type: 50gbase-x-sfp56
+  - name: '19'
+    type: 50gbase-x-sfp56
+  - name: '20'
+    type: 50gbase-x-sfp56
+  - name: '21'
+    type: 50gbase-x-sfp56
+  - name: '22'
+    type: 50gbase-x-sfp56
+  - name: '23'
+    type: 50gbase-x-sfp56
+  - name: '24'
+    type: 50gbase-x-sfp56
+  - name: '25'
+    type: 50gbase-x-sfp56
+  - name: '26'
+    type: 50gbase-x-sfp56
+  - name: '27'
+    type: 50gbase-x-sfp56
+  - name: '28'
+    type: 50gbase-x-sfp56
+  - name: '29'
+    type: 50gbase-x-sfp56
+  - name: '30'
+    type: 50gbase-x-sfp56
+  - name: '31'
+    type: 50gbase-x-sfp56
+  - name: '32'
+    type: 50gbase-x-sfp56
+  - name: '33'
+    type: 400gbase-x-qsfpdd
+  - name: '34'
+    type: 400gbase-x-qsfpdd
+  - name: '35'
+    type: 400gbase-x-qsfpdd
+  - name: '36'
+    type: 400gbase-x-qsfpdd
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
