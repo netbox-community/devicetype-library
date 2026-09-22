@@ -1,0 +1,46 @@
+---
+manufacturer: Supermicro
+model: ARS-121GL-NB3-LCC-R1
+slug: supermicro-ars-121gl-nb3-lcc-r1
+part_number: ARS-121GL-NB3-LCC-R1
+u_height: 1
+is_full_depth: true
+weight: 32
+weight_unit: kg
+comments: |
+  Liquid-cooled 1U GB300 compute tray for the Supermicro SRS-GB300-NVL72 rack
+  (18 trays per rack). Each tray carries 2x NVIDIA GB300 Grace Blackwell
+  Superchips (2x 72-core Grace CPU, 4x B300 GPU), 4x ConnectX-8 800Gb/s HCAs and
+  1x BlueField-3 DPU. Power is supplied by the rack power shelves, so the tray
+  has no individual power inlets.
+  Data sheet: https://www.supermicro.com/datasheet/datasheet_SuperCluster_GB300_NVL72.pdf
+is_powered: false
+interfaces:
+  - name: bmc
+    type: 1000base-t
+    mgmt_only: true
+  - name: bmc-bf3
+    type: 1000base-t
+    mgmt_only: true
+    description: BlueField-3 DPU BMC
+  - name: enP5p9s0
+    type: 1000base-t
+    description: ConnectX-8 1GbE management NIC
+  - name: enP22s22f0np0
+    type: 400gbase-x-qsfp112
+    description: BlueField-3 port 0
+  - name: enP22s22f1np1
+    type: 400gbase-x-qsfp112
+    description: BlueField-3 port 1
+  - name: ibp3s0
+    type: infiniband-xdr
+    description: ConnectX-8 XDR InfiniBand
+  - name: ibP2p3s0
+    type: infiniband-xdr
+    description: ConnectX-8 XDR InfiniBand
+  - name: ibP16p3s0
+    type: infiniband-xdr
+    description: ConnectX-8 XDR InfiniBand
+  - name: ibP18p3s0
+    type: infiniband-xdr
+    description: ConnectX-8 XDR InfiniBand
