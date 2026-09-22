@@ -1,0 +1,25 @@
+---
+# PARTIAL DRAFT - Waveserver 6 (WaveLogic 6 Extreme-based transport
+# platform, successor to Waveserver 5 / Waveserver Ai). Chassis part
+# number, weight, and PSU details are not published in freely accessible
+# sources at time of writing; only the WL6e client module (8x QSFP-DD /
+# QSFP-DD800, up to 3.2Tb/s) is publicly documented. Module-bay layout is
+# NOT modeled here for the same reason - do not submit upstream until
+# chassis-level specs are confirmed against an official Ciena datasheet.
+# Sources: https://www.ciena.com/insights/data-sheets/wavelogic-6-extreme-2-x-16t-8-x-qsfp-dd-qsfp-dd800-module
+#          https://subtelforum.com/flag-launches-400gbe-and-800gbe-on-echo/
+#          https://www.thefastmode.com/technology-solutions/50687-flag-to-deliver-400gbe-and-800gbe-services-via-echo-cable-with-ciena
+manufacturer: Ciena
+model: Waveserver 6
+slug: ciena-waveserver-6
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+power-ports:
+  # Power supply count/type/wattage not confirmed publicly - placeholder
+  # entries only (name/type are schema-required); DO NOT submit upstream
+  # until confirmed against an official Ciena hardware/install guide.
+  - name: PS-1
+    type: iec-60320-c14
+  - name: PS-2
+    type: iec-60320-c14
