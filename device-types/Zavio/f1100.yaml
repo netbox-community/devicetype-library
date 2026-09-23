@@ -1,0 +1,19 @@
+---
+manufacturer: Zavio
+model: F1100
+slug: zavio-f1100
+part_number: F1100
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 71
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 5V DC
