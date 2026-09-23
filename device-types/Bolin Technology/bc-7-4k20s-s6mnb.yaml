@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: BC-7-4K20S-S6MNB
+slug: bolin-technology-bc-7-4k20s-s6mnb
+part_number: BC-7-4K20S-S6MNB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: 'PoE Class 8, max 38 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 38
+    description: 12V DC
+comments: >
+  [Bolin Technology BC-7-4K20S-S6MNB product page](https://bolintechnology.com/product/6g-sdi-4k-ptz-hdbaset-camera-bc-7-series)

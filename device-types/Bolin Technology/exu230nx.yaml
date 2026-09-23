@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: EXU230NX
+slug: bolin-technology-exu230nx
+part_number: EXU230NX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: 'PoE Class 8, max 85 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 85
+    description: 36V DC
+comments: >
+  [Bolin Technology EXU230NX product page](https://bolintechnology.com/product/exu230nx-low-light-outdoor-ndi-hx3-ptz-camera)

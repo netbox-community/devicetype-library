@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: R9-L420N
+slug: bolin-technology-r9-l420n
+part_number: R9-L420N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 42 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 42
+    description: 12V DC
+comments: >
+  [Bolin Technology R9-L420N product page](https://bolintechnology.com/product/r9-l420n-large-sensor-4k-ptz-camera)

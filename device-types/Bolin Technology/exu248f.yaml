@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: EXU248F
+slug: bolin-technology-exu248f
+part_number: EXU248F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: 'PoE Class 8, max 85 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 85
+    description: 36V DC
+comments: >
+  [Bolin Technology EXU248F product page](https://bolintechnology.com/product/exu248f-outdoor-long-range-professional-ptz-camera)
