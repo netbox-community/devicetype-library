@@ -1,0 +1,12 @@
+---
+manufacturer: HPE
+model: Broadcom BCM57416 Ethernet 10Gb 2-port BASE-T OCP3 Adapter for HPE
+part_number: P10097-B21
+description: NIC for Embedded OCP3 port on various HP Proliant Gen10+, Gen11 and Gen12 servers
+comments: "BCM57416 Ethernet 10Gb 2-port BASE-T adapter, OCP3 form-factor. SKU P10095-001.\r\
+  \n\r\nSee:\r\n\r\n- [QuickSpecs](https://www.hpe.com/us/en/collaterals/collateral.a00047734enw.html)
+interfaces:
+  - name: '{module}/1'
+    type: 10gbase-t
+  - name: '{module}/2'
+    type: 10gbase-t
