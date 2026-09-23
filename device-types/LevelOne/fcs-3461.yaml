@@ -1,0 +1,25 @@
+---
+manufacturer: LevelOne
+model: FCS-3461
+slug: levelone-fcs-3461
+part_number: FCS-3461
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: 'PoE Class 3, max 12 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LevelOne FCS-3461 product page](https://www.level1.com/level1_en/fcs-3461-gemini-2mp-zoom-dome-ip-camera-4x-zoom-h-265-wdr-ip67-indoor-outdoor-57308207101)

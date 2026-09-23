@@ -1,0 +1,25 @@
+---
+manufacturer: LevelOne
+model: FCS-5095
+slug: levelone-fcs-5095
+part_number: FCS-5095
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: 'PoE Class 4, max 15 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LevelOne FCS-5095 product page](https://www.level1.com/level1_en/fcs-5095-gemini-zoom-ip-camera-8-mp-h-265-802-3at-poe-ir-leds-indoor-outdoor-two-way-audio-57303607201)

@@ -1,0 +1,25 @@
+---
+manufacturer: LevelOne
+model: FCS-5096
+slug: levelone-fcs-5096
+part_number: FCS-5096
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LevelOne FCS-5096 product page](https://www.level1.com/level1_en/fcs-5096-gemini-zoom-ip-camera-2-mp-h-265-60fps-802-3af-poe-ir-leds-indoor-outdoor-two-way-audio-57304207)
