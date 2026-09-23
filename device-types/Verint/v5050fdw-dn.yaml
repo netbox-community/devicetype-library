@@ -1,0 +1,23 @@
+---
+manufacturer: Verint
+model: V5050FDW-DN
+slug: verint-v5050fdw-dn
+part_number: V5050FDW-DN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: 'PoE Class 5, max 32.34 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+    description: 24V DC
+comments: >
+  [Verint V5050FDW-DN product page](https://www.verint.com/wp-content/uploads/2024/09/verint-fss-v5050fdw-dn-camera-datasheet.pdf)

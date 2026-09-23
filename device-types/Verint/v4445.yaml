@@ -1,0 +1,27 @@
+---
+manufacturer: Verint
+model: V4445
+slug: verint-v4445
+part_number: V4445
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 190
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: 'PoE Class 0, max 8.5 W'
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [Verint V4445 product page](https://www.verint.com/wp-content/uploads/2025/12/verint-fss-V4445.pdf)
