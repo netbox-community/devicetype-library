@@ -1,0 +1,23 @@
+---
+manufacturer: Yudor
+model: HLZ-61KDS
+slug: yudor-hlz-61kds
+part_number: HLZ-61KDS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Yudor HLZ-61KDS product page](https://www.yudor.com.tw/product_d.php)
