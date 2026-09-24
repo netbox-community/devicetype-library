@@ -1,0 +1,22 @@
+---
+manufacturer: ALLNET
+model: ALL-BM200VDSL2V
+slug: allnet-all-bm200vdsl2v
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 235
+weight_unit: g
+comments: '[ALLNET ALL-BM200VDSL2V Datasheet](https://cdn-reichelt.de/documents/datenblatt/E910/ALLNET_ALLBM200V_DB-EN.pdf)'
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 6
+    label: 12 VDC
+interfaces:
+  - name: DSL
+    type: xdsl
+    label: RJ-11
+  - name: LAN
+    type: 100base-tx
+    label: RJ-45
