@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: SD9368-EHL
+slug: vivotek-sd9368-ehl
+part_number: SD9368-EHL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 48V DC
+comments: >
+  [Vivotek SD9368-EHL product page](https://www.vivotek.com/resource/download-center/product/download/71142)
