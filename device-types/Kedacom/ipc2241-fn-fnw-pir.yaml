@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC2241-FN/FNW-PIR
+slug: kedacom-ipc2241-fn-fnw-pir
+part_number: IPC2241-FN/FNW-PIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Kedacom IPC2241-FN/FNW-PIR product page](https://www.kedacom.com/en/bqwlsxj/4633.jhtml)
