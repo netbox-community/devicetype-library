@@ -1,0 +1,35 @@
+---
+manufacturer: Supermicro
+model: SuperStorage 6029P-E1CR24H
+slug: supermicro-superstorage-6029p-e1cr24h
+part_number: SSG-6029P-E1CR24H
+u_height: 2
+is_full_depth: true
+weight: 23.6
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Technical Specification](https://www.supermicro.com/en/products/system/2U/6029/SSG-6029P-E1CR24H.php)'
+console-ports:
+  - name: Serial
+    type: de-9
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe-1 LP x16
+    position: PCIe-1
+    description: Vertical Right
+  - name: PCIe-2 LP x16
+    position: PCIe-2
+    description: Vertical Middle
+  - name: PCIe-3 LP x8
+    position: PCIe-3
+    description: Vertical Left
+  - name: PCIe-4 FP x8
+    position: PCIe-4
+    description: Horizontal (SIOM Slot)
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
