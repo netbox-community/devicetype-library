@@ -17,16 +17,16 @@ module-bays:
     position: PSU1
   - name: PSU2
     position: PSU2
-  - name: PCIe-1 LP x16
+  - name: PCIe-1 LP x8
     position: PCIe-1
     description: Vertical Right
   - name: PCIe-2 LP x16
     position: PCIe-2
     description: Vertical Middle
-  - name: PCIe-3 LP x8
+  - name: PCIe-3 LP x16
     position: PCIe-3
     description: Vertical Left
-  - name: PCIe-4 FP x8
+  - name: PCIe-4 FP x16
     position: PCIe-4
     description: Horizontal (SIOM Slot)
 interfaces:
