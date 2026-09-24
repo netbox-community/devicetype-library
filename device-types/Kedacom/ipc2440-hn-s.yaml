@@ -1,0 +1,21 @@
+---
+manufacturer: Kedacom
+model: IPC2440-HN-S
+slug: kedacom-ipc2440-hn-s
+part_number: IPC2440-HN-S
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Kedacom IPC2440-HN-S product page](https://www.kedacom.com/en/bqwlsxj/858.jhtml)

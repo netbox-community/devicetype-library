@@ -1,0 +1,21 @@
+---
+manufacturer: Kedacom
+model: IPC2241-FN-SIR
+slug: kedacom-ipc2241-fn-sir
+part_number: IPC2241-FN-SIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Kedacom IPC2241-FN-SIR product page](https://www.kedacom.com/en/bqwlsxj/4684.jhtml)

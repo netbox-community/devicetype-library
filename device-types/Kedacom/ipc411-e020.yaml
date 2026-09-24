@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC411-E020
+slug: kedacom-ipc411-e020
+part_number: IPC411-E020
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 45 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 45
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC411-E020 product page](https://www.kedacom.com/en/ythwlsxj/881.jhtml)
