@@ -1,0 +1,35 @@
+---
+manufacturer: Supermicro
+model: SYS-1028U-E1CR4+
+slug: supermicro-sys-1028u-e1cr4+
+part_number: SYS-1028U-E1CR4+
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 18.6
+weight_unit: kg
+comments: '[SuperServer 1028U-E1CR4+](https://www.supermicro.com/en/products/system/1U/1028/SYS-1028U-E1CR4_.php)'
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: PCIe-1 LP x16
+    position: PCIe-1
+  - name: PCIe-2 LP x16
+    position: PCIe-2
+  - name: PCIe-3 LP x8
+    position: PCIe-3
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
