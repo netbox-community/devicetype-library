@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC421-FB
+slug: kedacom-ipc421-fb
+part_number: IPC421-FB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 20000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 55 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 55
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC421-FB product page](https://www.kedacom.com/en/ytwlsxj/4544.jhtml)
