@@ -1,0 +1,49 @@
+---
+manufacturer: Netgear
+model: GS308EP
+slug: netgear-gs308ep
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+airflow: passive
+weight: 0.49
+weight_unit: kg
+comments: '[8-Port Gigabit Ethernet PoE+ Easy Smart Switch (62W) GS308EP](https://www.netgear.com/business/wired/switches/easy-smart/gs308ep/)'
+power-ports:
+  - name: PS
+    type: dc-terminal
+    maximum_draw: 75
+interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
