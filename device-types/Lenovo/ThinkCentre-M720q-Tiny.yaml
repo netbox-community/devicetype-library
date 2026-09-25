@@ -1,0 +1,18 @@
+---
+manufacturer: Lenovo
+model: ThinkCentre M720q Tiny
+slug: lenovo-thinkcentre-m720q-tiny
+description: ThinkCentre M720q Tiny Mini PC (Intel 8th/9th Gen)
+u_height: 0
+is_full_depth: false
+weight: 1.32
+weight_unit: kg
+comments: |
+  Machine types 10T7, 10T8, 10T9, 10TA, 10TC, 10U8, 10U9, 10UA. Wi-Fi and the PCIe expansion riser are optional and not modelled.
+  [Official Specsheet](https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M720_Tiny/ThinkCentre_M720_Tiny_Spec.pdf)
+power-ports:
+  - name: PSU
+    type: dc-terminal
+interfaces:
+  - name: eth0
+    type: 1000base-t
