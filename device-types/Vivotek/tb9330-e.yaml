@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: TB9330-E
+slug: vivotek-tb9330-e
+part_number: TB9330-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2080
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek TB9330-E product page](https://www.vivotek.com/resource/download-center/product/download/71180)
