@@ -1,0 +1,36 @@
+---
+manufacturer: Ciena
+model: 5132 DC
+slug: ciena-5132-dc
+part_number: 170-5132-900
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 3.4
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-c
+power-ports:
+  - name: PS-A
+    type: dc-terminal
+    maximum_draw: 125
+    allocated_draw: 85
+  - name: PS-B
+    type: dc-terminal
+    maximum_draw: 125
+    allocated_draw: 85
+interfaces:
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfpdd
+  - name: '4'
+    type: 100gbase-x-qsfpdd
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

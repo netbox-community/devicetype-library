@@ -1,0 +1,42 @@
+---
+manufacturer: Ciena
+model: '3924'
+slug: ciena-3924
+part_number: 170-3924-904
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 1.77
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+    description: Serial EIA-561 (RJ-45) console port
+  - name: USB
+    type: usb-a
+    description: USB 2.0 port
+power-ports:
+  - name: PS-A
+    type: iec-60320-c14
+    maximum_draw: 35
+    allocated_draw: 28
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 10gbase-x-sfpp
+  - name: '6'
+    type: 10gbase-x-sfpp
+  - name: '7'
+    type: 10gbase-x-sfpp
+  - name: '8'
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true

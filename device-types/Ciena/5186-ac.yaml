@@ -1,0 +1,61 @@
+---
+manufacturer: Ciena
+model: 5186 AC
+slug: ciena-5186-ac
+part_number: 170-5186-901
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 7.3
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: usb-c
+  - name: USB
+    type: usb-c
+  - name: 1PPS / 10MHZ
+    type: other
+    description: SMB connector (50 ohm), 1PPS/10 MHz in or out (software selectable)
+  - name: ANT
+    type: other
+    description: SMB connector (50 ohm) GNSS/GPS antenna port
+  - name: SYNC
+    type: rj-45
+    description: RJ-45 SYNC port
+power-ports:
+  - name: PS-A
+    type: iec-60320-c14
+    maximum_draw: 360
+    allocated_draw: 250
+  - name: PS-B
+    type: iec-60320-c14
+    maximum_draw: 360
+    allocated_draw: 250
+interfaces:
+  - name: '1'
+    type: 200gbase-x-qsfp56
+  - name: '2'
+    type: 200gbase-x-qsfp56
+  - name: '3'
+    type: 200gbase-x-qsfp56
+  - name: '4'
+    type: 200gbase-x-qsfp56
+  - name: '5'
+    type: 200gbase-x-qsfp56
+  - name: '6'
+    type: 200gbase-x-qsfp56
+  - name: '7'
+    type: 200gbase-x-qsfp56
+  - name: '8'
+    type: 200gbase-x-qsfp56
+  - name: '9'
+    type: 400gbase-x-qsfpdd
+  - name: '10'
+    type: 400gbase-x-qsfpdd
+  - name: '11'
+    type: 400gbase-x-qsfpdd
+  - name: '12'
+    type: 400gbase-x-qsfpdd
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
