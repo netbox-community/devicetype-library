@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: TT9333-E
+slug: vivotek-tt9333-e
+part_number: TT9333-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1040
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek TT9333-E product page](https://www.vivotek.com/resource/download-center/product/download/69715)
