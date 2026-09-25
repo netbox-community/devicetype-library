@@ -1,0 +1,17 @@
+---
+manufacturer: Hanwha
+model: SND-1011N
+slug: hanwha-snd-1011n
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [Hanwha SND-1011N datasheet](https://www.hanwhavision.com/)

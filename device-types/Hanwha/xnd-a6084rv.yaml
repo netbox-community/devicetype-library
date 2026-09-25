@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: XND-A6084RV
+slug: hanwha-xnd-a6084rv
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1032
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha XND-A6084RV datasheet](https://www.hanwhavision.com/global/products/product-details/XND-A6084RV)

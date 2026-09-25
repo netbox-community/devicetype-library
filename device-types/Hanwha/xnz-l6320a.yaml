@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: XNZ-L6320A
+slug: hanwha-xnz-l6320a
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha XNZ-L6320A datasheet](https://www.hanwhavision.com/global/products/product-details/XNZ-L6320A)
