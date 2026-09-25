@@ -208,6 +208,22 @@ class RackType:
             slugified = slugified[:-1]
         return slugified
 
+class ModuleBayType:
+    def __new__(cls, *args, **kwargs):
+        return super().__new__(cls)
+
+    def __init__(self, definition, file_path, change_type):
+        self.file_path = file_path
+        self.isDevice = False
+        self.definition = definition
+        self.manufacturer = definition.get('manufacturer')
+        self.name = definition.get('name')
+        self.slug = definition.get('slug')
+        self.change_type = change_type
+
+    def get_filepath(self):
+        return self.file_path
+
 def validate_component_names(component_names: (set or None)):
     if len(component_names) > 1:
         verify_name = list(component_names[0])
@@ -226,9 +242,16 @@ def validate_component_names(component_names: (set or None)):
                 return False
     return True
 
-def verify_filename(device: (DeviceType or ModuleType or RackType), KNOWN_MODULES: (set or None)):
+def verify_filename(device: (DeviceType or ModuleType or RackType or ModuleBayType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
+
+    # Check if file is ModuleBayType
+    if "module-bay-types" in device.file_path:
+        if not filename == device.slug.casefold():
+            device.failureMessage = f'{device.file_path} file name is invalid. Must be the slug "{device.slug}"'
+            return False
+        return True
 
     # Check if file is RackType
     if "rack-types" in device.file_path:
