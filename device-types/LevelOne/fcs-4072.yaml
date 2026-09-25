@@ -1,0 +1,22 @@
+---
+manufacturer: LevelOne
+model: FCS-4072
+slug: levelone-fcs-4072
+part_number: FCS-4072
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 42 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LevelOne FCS-4072 product page](https://www.level1.com/level1_en/fcs-4072-gemini-4mp-zoom-ptz-ip-camera-32x-zoom-h-265-ir-leds-ip66-indoor-outdoor-57308103101)

@@ -1,0 +1,27 @@
+---
+manufacturer: LevelOne
+model: FCS-5212
+slug: levelone-fcs-5212
+part_number: FCS-5212
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1385
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LevelOne FCS-5212 product page](https://www.level1.com/level1_en/fcs-5212-gemini-ip-camera-6-mp-h-265-802-3af-poe-ir-leds-indoor-outdoor-two-way-audio-57305507201)
