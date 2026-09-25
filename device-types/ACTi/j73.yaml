@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: J73
+slug: acti-j73
+part_number: J73
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 340
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi J73 product page](https://www.acti.com/product/J73)

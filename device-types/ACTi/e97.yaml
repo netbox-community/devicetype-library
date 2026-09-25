@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E97
+slug: acti-e97
+part_number: E97
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.4 W
+comments: >
+  [ACTi E97 product page](https://www.acti.com/product/E97)
