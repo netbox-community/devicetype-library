@@ -1,0 +1,27 @@
+---
+manufacturer: Bolin Technology
+model: BC-9-4K12S-S6MN
+slug: bolin-technology-bc-9-4k12s-s6mn
+part_number: BC-9-4K12S-S6MN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Bolin Technology BC-9-4K12S-S6MN product page](https://bolintechnology.com/product/4k-ptz-camera-w-1-cmos-sensor-bc-9-series)

@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: N2-210X
+slug: bolin-technology-n2-210x
+part_number: N2-210X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Bolin Technology N2-210X product page](https://bolintechnology.com/product/n2-210x-n2-220x-fhd-ndi-hx3-ptz-camera)

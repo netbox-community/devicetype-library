@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: SD530SHD-B-RSN2PW
+slug: bolin-technology-sd530shd-b-rsn2pw
+part_number: SD530SHD-B-RSN2PW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 48
+    description: 24V DC
+comments: >
+  [Bolin Technology SD530SHD-B-RSN2PW product page](https://bolintechnology.com/product/pro-dual-output-sdi-outdoor-ptz-camera-discontinued)
