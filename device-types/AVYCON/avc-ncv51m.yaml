@@ -1,0 +1,22 @@
+---
+manufacturer: AVYCON
+model: AVC-NCV51M
+slug: avycon-avc-ncv51m
+part_number: AVC-NCV51M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 963
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [AVYCON AVC-NCV51M product page](https://www.avycon.com)
