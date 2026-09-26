@@ -1,0 +1,19 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G6 180
+slug: ubiquiti-uvc-g6-180
+part_number: UVC-G6-180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 839
+weight_unit: g
+comments: |
+  Indoor/outdoor dual sensor 16MP 20 FPS PoE+ camera, with a Multi-TOPS AI Engine and panoramic 180-degree coverage.
+
+  [G6 180](https://store.ui.com/us/en/category/physical-security-dome-turret/products/uvc-g6-180)
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
