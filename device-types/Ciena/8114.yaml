@@ -14,7 +14,7 @@ console-ports:
     type: usb-c
   - name: USB
     type: usb-c
-  - name: 1 PPS/10 MHz
+  - name: 1PPS / 10MHZ
     description: Mini-COAX 1PPS/ToD SMB interface in or out (software selectable).
     type: other
   - name: ANT
@@ -146,7 +146,7 @@ module-bays:
     description: |
       170-0336-900 8110/8114,DC PLUGGABLE POWER SUPPLY 48V
       170-0337-900 8110/8114,AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
-  - name: FRU 1
+  - name: Module 1
     position: '1'
     description: |
       * 170-0339-900 2x400G QSFP-DD
@@ -154,7 +154,7 @@ module-bays:
       * 170-0340-900 8x100G QSFP28
       * 170-0389-900 2x400G CFP2-DCO
       * 170-0404-900 12x25G SFP28
-  - name: FRU 2
+  - name: Module 2
     position: '2'
     description: |
       * 170-0339-900 2x400G QSFP-DD
