@@ -1,0 +1,27 @@
+---
+manufacturer: Secureye
+model: SR-C4P-25X-ASC-IR
+slug: secureye-sr-c4p-25x-asc-ir
+part_number: SR-C4P-25X-ASC-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SR-C4P-25X-ASC-IR product page](https://www.secureye.com/product/sr-c4p-25x-asc-ir-4mp-ip-dual-lens-25x-network-ptz-camera)
