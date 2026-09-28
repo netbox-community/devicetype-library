@@ -1,0 +1,45 @@
+---
+manufacturer: Cisco
+model: ASR1002
+slug: cisco-asr1002
+part_number: ASR1002
+u_height: 2
+is_full_depth: true
+weight: 18.14
+weight_unit: kg
+airflow: front-to-rear
+console-ports:
+  - name: Aux0
+    type: rj-45
+  - name: Con0
+    type: rj-45
+module-bays:
+  - name: SPA0
+    label: SPA
+    position: 0/1
+  - name: SPA1
+    label: SPA
+    position: 0/2
+  - name: SPA2
+    label: SPA
+    position: 0/3
+  - name: Slot ESP1
+    position: ESP1
+  - name: PSU0
+    position: '0'
+    description: Power module 0
+  - name: PSU1
+    position: '1'
+    description: Power module 1
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true

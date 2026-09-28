@@ -1,0 +1,22 @@
+---
+manufacturer: Verint
+model: VRT-08-CID
+slug: verint-vrt-08-cid
+part_number: VRT-08-CID
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 308
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Verint VRT-08-CID product page](https://www.verint.com/wp-content/uploads/verint-fss-oncam-c-08-indoor-datasheet.pdf)
