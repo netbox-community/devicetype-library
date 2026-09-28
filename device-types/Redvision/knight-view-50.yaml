@@ -1,0 +1,23 @@
+---
+manufacturer: Redvision
+model: Knight View 50
+slug: redvision-knight-view-50
+part_number: Knight View 50
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Redvision Knight View 50 product page](https://redvisioncctv.com/products/knight-view-50-box-camera)
