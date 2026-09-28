@@ -1,16 +1,14 @@
 ---
 manufacturer: Fortinet
-model: FortiGate 3001F
-slug: fortinet-fg-3001f
-part_number: FG-3001F
+model: FortiGate 3600E
+slug: fortinet-fg-3600e
+part_number: FG-3600E
 u_height: 2
 is_full_depth: true
-weight: 17.3
+weight: 19.6
 weight_unit: kg
 airflow: front-to-rear
-front_image: true
-rear_image: true
-comments: '[FortiGate 3000F Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-3000f-series.pdf)'
+comments: '[FortiGate 3600E Series Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_3600E.pdf)'
 console-ports:
   - name: Console
     type: rj-45
@@ -20,48 +18,48 @@ module-bays:
   - name: PS2
     position: '2'
 interfaces:
+  - name: mgmt1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmt2
+    type: 1000base-t
+    mgmt_only: true
   - name: ha1
     type: 25gbase-x-sfp28
   - name: ha2
     type: 25gbase-x-sfp28
-  - name: mgmt1
-    type: 10gbase-t
-    mgmt_only: true
-  - name: mgmt2
-    type: 10gbase-t
-    mgmt_only: true
   - name: port1
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port2
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port3
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port4
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port5
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port6
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port7
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port8
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port9
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port10
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port11
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port12
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port13
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port14
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port15
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port16
-    type: 10gbase-t
+    type: 25gbase-x-sfp28
   - name: port17
     type: 25gbase-x-sfp28
   - name: port18
