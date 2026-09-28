@@ -1,0 +1,27 @@
+---
+manufacturer: Verint
+model: VRT-12-COD
+slug: verint-vrt-12-cod
+part_number: VRT-12-COD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 28V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Verint VRT-12-COD product page](https://www.verint.com/wp-content/uploads/VRT-12-COD-C12-Outdoor-Plus-Datasheet_V2.pdf)
