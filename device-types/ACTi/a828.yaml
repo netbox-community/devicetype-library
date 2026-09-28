@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: A828
+slug: acti-a828
+part_number: A828
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi A828 product page](https://www.acti.com/product/A828)

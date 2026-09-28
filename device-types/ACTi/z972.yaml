@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: Z972
+slug: acti-z972
+part_number: Z972
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 780
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi Z972 product page](https://www.acti.com/product/Z972)

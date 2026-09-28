@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: Z319
+slug: acti-z319
+part_number: Z319
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi Z319 product page](https://www.acti.com/product/Z319)

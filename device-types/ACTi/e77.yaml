@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E77
+slug: acti-e77
+part_number: E77
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1006
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 6.49 W
+comments: >
+  [ACTi E77 product page](https://www.acti.com/product/E77)

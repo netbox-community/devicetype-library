@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: I98-K1
+slug: acti-i98-k1
+part_number: I98-K1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 50 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 50
+    description: 48V DC
+comments: >
+  [ACTi I98-K1 product page](https://www.acti.com/product/I98-K1)

@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E21F
+slug: acti-e21f
+part_number: E21F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 429
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.31 W
+comments: >
+  [ACTi E21F product page](https://www.acti.com/product/E21F)
