@@ -1,0 +1,21 @@
+---
+manufacturer: Pixord
+model: PD614E(F)
+slug: pixord-pd614ef
+part_number: PD614E(F)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Pixord PD614E(F) product page](https://www.pixord.com/en/products_show.php)
