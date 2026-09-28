@@ -1,0 +1,21 @@
+---
+manufacturer: AirLive
+model: PTZD-630MAI
+slug: airlive-ptzd-630mai
+part_number: PTZD-630MAI
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [AirLive PTZD-630MAI product page](https://www.airlive.com/en/product/AirCam-PTZD-630MAI)
