@@ -1,0 +1,27 @@
+---
+manufacturer: CNB
+model: VP5Z
+slug: cnb-vp5z
+part_number: VP5Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 67 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 67
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [CNB VP5Z product page](https://cnbtec.com/en/products/vp5z)
