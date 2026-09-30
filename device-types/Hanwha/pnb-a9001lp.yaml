@@ -1,0 +1,24 @@
+---
+manufacturer: Hanwha
+model: PNB-A9001LP
+slug: hanwha-pnb-a9001lp
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha PNB-A9001LP datasheet](https://www.hanwhavision.com/global/products/product-details/PNB-A9001LP)

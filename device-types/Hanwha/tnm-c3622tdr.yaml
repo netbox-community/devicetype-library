@@ -1,0 +1,24 @@
+---
+manufacturer: Hanwha
+model: TNM-C3622TDR
+slug: hanwha-tnm-c3622tdr
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha TNM-C3622TDR datasheet](https://www.hanwhavision.com/global/products/product-details/TNM-C3622TDR)

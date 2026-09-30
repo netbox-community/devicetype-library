@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: XNF-9010RS
+slug: hanwha-xnf-9010rs
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha XNF-9010RS datasheet](https://www.hanwhavision.com/global/products/product-details/XNF-9010RS)
