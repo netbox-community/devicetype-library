@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD8177-HT
+slug: vivotek-fd8177-ht
+part_number: FD8177-HT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 472
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC

@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: FD816BA-HT
+slug: vivotek-fd816ba-ht
+part_number: FD816BA-HT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 541
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Vivotek FD816BA-HT product page](https://download.vivotek.com/downloadfile/downloads/datasheets/fd816ba-htdatasheet_en.pdf)

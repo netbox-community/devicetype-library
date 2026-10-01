@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD9381-HTV
+slug: vivotek-fd9381-htv
+part_number: FD9381-HTV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 927
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
