@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FE9381-EHV
+slug: vivotek-fe9381-ehv
+part_number: FE9381-EHV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 548
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC

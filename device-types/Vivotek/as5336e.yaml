@@ -1,0 +1,18 @@
+---
+manufacturer: Vivotek
+model: AS5336E
+slug: vivotek-as5336e
+part_number: AS5336E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 19 W
+comments: >
+  [Vivotek AS5336E product page](https://download.vivotek.com/downloadfile/downloads/datasheets/as5336edatasheet_en.pdf)
