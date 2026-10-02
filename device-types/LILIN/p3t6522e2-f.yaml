@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: P3T6522E2-F
+slug: lilin-p3t6522e2-f
+part_number: P3T6522E2-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [LILIN P3T6522E2-F product page](https://meritlilin.com/en/product/P3T6522E2F)

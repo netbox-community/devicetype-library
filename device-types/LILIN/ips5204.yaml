@@ -1,0 +1,20 @@
+---
+manufacturer: LILIN
+model: IPS5204
+slug: lilin-ips5204
+part_number: IPS5204
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 15.5 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 16
+comments: >
+  [LILIN IPS5204 product page](https://meritlilin.com/en/product/IPS5204_IPS5208)
