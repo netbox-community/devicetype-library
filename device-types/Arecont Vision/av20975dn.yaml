@@ -1,0 +1,23 @@
+---
+manufacturer: Arecont Vision
+model: AV20975DN
+slug: arecont-vision-av20975dn
+part_number: AV20975DN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 48V DC
+comments: >
+  [Arecont Vision AV20975DN product page](https://sales.arecontvision.com/product/SurroundVideo+Omni+SX)
