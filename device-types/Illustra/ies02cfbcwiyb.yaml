@@ -1,0 +1,23 @@
+---
+manufacturer: Illustra
+model: IES02CFBCWIYB
+slug: illustra-ies02cfbcwiyb
+part_number: IES02CFBCWIYB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4.12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Illustra IES02CFBCWIYB product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/essentials-outdoor-mini-dome/Data%20Sheets/Illustra-Essentials-IR-MiniDome-IP-Camera-Datasheet-R06-hs_en.pdf)

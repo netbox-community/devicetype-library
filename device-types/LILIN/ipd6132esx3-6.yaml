@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: IPD6132ESX3.6
+slug: lilin-ipd6132esx3-6
+part_number: IPD6132ESX3.6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 960
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [LILIN IPD6132ESX3.6 product page](https://meritlilin.com/en/product/IPD6132ESX3_6)
