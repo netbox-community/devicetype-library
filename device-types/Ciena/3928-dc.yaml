@@ -7,17 +7,30 @@ u_height: 1
 is_full_depth: false
 weight: 5
 weight_unit: kg
+front_image: true
 airflow: front-to-rear
 console-ports:
   - name: CONSOLE
     type: rj-45
   - name: USB
     type: usb-a
+  - name: SYNC
+    type: rj-45
+    description: RJ45 SYNC port (BITS/ToD), DC model only
+  - name: BITS
+    type: rj-45
+    description: RJ45 BITS port (BITS/ToD), DC model only
+  - name: 10MHZ
+    type: other
+    description: SMB connector (50 ohm) 10 MHz, DC model only
+  - name: 1PPS
+    type: other
+    description: SMB connector (50 ohm) 1PPS, DC model only
 power-ports:
-  - name: PSA
+  - name: PS-A
     type: dc-terminal
     maximum_draw: 62
-  - name: PSB
+  - name: PS-B
     type: dc-terminal
     maximum_draw: 62
 interfaces:

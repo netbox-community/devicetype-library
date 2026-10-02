@@ -14,7 +14,7 @@ console-ports:
     type: usb-c
   - name: USB
     type: usb-c
-  - name: 1 PPS/10 MHz
+  - name: 1PPS / 10MHZ
     type: other
   - name: ANT
     type: other
@@ -105,11 +105,11 @@ interfaces:
   - name: '40'
     type: 400gbase-x-qsfpdd
 power-ports:
-  - name: PSA
+  - name: PS-A
     type: iec-60320-c14
     allocated_draw: 240
     maximum_draw: 400
-  - name: PSB
+  - name: PS-B
     type: iec-60320-c14
     maximum_draw: 400
     allocated_draw: 240
