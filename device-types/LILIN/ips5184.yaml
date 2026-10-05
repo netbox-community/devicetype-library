@@ -1,0 +1,20 @@
+---
+manufacturer: LILIN
+model: IPS5184
+slug: lilin-ips5184
+part_number: IPS5184
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 15.5 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 16
+comments: >
+  [LILIN IPS5184 product page](https://meritlilin.com/en/product/IPS5184_IPS5188)
