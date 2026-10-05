@@ -1,0 +1,27 @@
+---
+manufacturer: CNB
+model: TDV25R-W
+slug: cnb-tdv25r-w
+part_number: TDV25R-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [CNB TDV25R-W product page](https://cnbtec.com/en/products/tdv25r-w)

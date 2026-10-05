@@ -1,0 +1,22 @@
+---
+manufacturer: LevelOne
+model: FCS-3303
+slug: levelone-fcs-3303
+part_number: FCS-3303
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [LevelOne FCS-3303 product page](https://www.level1.com/level1_en/fcs-3303-hubble-zoom-dome-ip-camera-h-265-3-mp-57302107)
