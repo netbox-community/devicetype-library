@@ -1,0 +1,25 @@
+---
+manufacturer: Secureye
+model: SP-H24S-25X
+slug: secureye-sp-h24s-25x
+part_number: SP-H24S-25X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-H24S-25X product page](https://www.secureye.com/product/sp-h24s-25x-2mp-ip-ptz-camera-with-25x-optical-zoom-ir-poe-pro-series)
