@@ -1,0 +1,23 @@
+---
+manufacturer: Secureye
+model: SG-C4D-F2-IR
+slug: secureye-sg-c4d-f2-ir
+part_number: SG-C4D-F2-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 340
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Secureye SG-C4D-F2-IR product page](https://www.secureye.com/product/sg-c4d-f2-ir-4mp-fixed-dome-network-camera-eco-)
