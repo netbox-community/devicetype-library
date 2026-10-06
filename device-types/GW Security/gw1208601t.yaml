@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW1208601T
+slug: gw-security-gw1208601t
+part_number: GW1208601T
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [GW Security GW1208601T product page](https://gwsecurityusa.com/product/gw1208601t-12mp-ip-poe-3-6mm-10mm-motorized-lens-turret-security-camera-3x-optical-zoom-two-way-audio-full-time-color-night-vision-dual-light)

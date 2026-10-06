@@ -1,0 +1,25 @@
+---
+manufacturer: Secureye
+model: SP-H54S-23X
+slug: secureye-sp-h54s-23x
+part_number: SP-H54S-23X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-H54S-23X product page](https://www.secureye.com/product/sp-h54s-23x-5mp-ip-ptz-camera-23x-optical-zoom-ir-poe-intelligent-surveillance)
