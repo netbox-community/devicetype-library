@@ -1,0 +1,21 @@
+---
+manufacturer: Nvidia
+model: NVLink 5 Switch
+slug: nvidia-nvlink-5-switch
+u_height: 1
+is_full_depth: true
+comments: |
+  NVIDIA fifth-generation NVLink switch tray, as deployed in GB200/GB300 NVL72
+  racks (9 trays per rack). Only the out-of-band management interfaces are
+  modelled: the NVLink ports themselves are backplane cartridge connections to
+  the compute trays rather than field-cabled ports.
+  The tray is fed by the NVL72 rack busbar and has no power inlet of its own.
+is_powered: false
+interfaces:
+  - name: bmc
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
