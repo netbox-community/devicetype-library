@@ -16,10 +16,10 @@ console-ports:
     type: usb-a
   - name: SYNC
     type: rj-45
-    description: RJ45 SYNC port (BITS/ToD), DC model only
+    description: RJ45 SYNC port (1PPS/ToD in or out), DC model only
   - name: BITS
     type: rj-45
-    description: RJ45 BITS port (BITS/ToD), DC model only
+    description: RJ45 BITS port (BITS in or out), DC model only
   - name: 10MHZ
     type: other
     description: SMB connector (50 ohm) 10 MHz, DC model only
