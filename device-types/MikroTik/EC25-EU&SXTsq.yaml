@@ -1,0 +1,20 @@
+---
+manufacturer: MikroTik
+model: SXTsq Embedded LTE4
+slug: mikrotik-sxtsq-embedded-lte4
+part_number: EC25-EU&SXTsq
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  Outdoor LTE Cat4 device with one Nano SIM slot and integrated eSIM.
+  [MikroTik SXTsq Embedded LTE4](https://mikrotik.com/product/sxtsq_emb_lte4)
+  [MikroTik SXTsq Embedded LTE4 Manual](https://manual.mikrotik.com/hardware/sxtsq-embedded-lte4/)
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: PoE-IN (Passive), 12-28 V
+  - name: lte1
+    type: lte
