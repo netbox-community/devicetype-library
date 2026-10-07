@@ -1,0 +1,24 @@
+---
+manufacturer: Hanwha
+model: XNO-8020R
+slug: hanwha-xno-8020r
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1220
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha XNO-8020R datasheet](https://www.hanwhavision.com/global/products/product-details/XNO-8020R)
