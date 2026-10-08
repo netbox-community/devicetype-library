@@ -1,0 +1,25 @@
+---
+manufacturer: Secureye
+model: SP-H66V-25X
+slug: secureye-sp-h66v-25x
+part_number: SP-H66V-25X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-H66V-25X product page](https://www.secureye.com/product/sp-h66v-25x-6mp-ip-25x-panoramic-ptz-camera-with-auto-tracking-white-light)
