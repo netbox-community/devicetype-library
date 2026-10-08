@@ -1,0 +1,109 @@
+---
+manufacturer: Cisco
+model: 8011-12G12X4Y-D
+slug: cisco-8011-12g12x4y-d
+part_number: 8011-12G12X4Y-D
+u_height: 1
+is_full_depth: false
+airflow: right-to-left
+weight: 5.4
+weight_unit: kg
+comments: '[Cisco 8010 Series Medium Density Fixed Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/8010-series-medium-density-fixed-routers-ds.html).
+  Ports 0/0/0/0 to 0/0/0/23 are twelve cSFP cages, two 1G ports each; with a standard SFP in a cage only ports 0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20 and
+  23 are usable.'
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PM0
+    type: dc-terminal
+  - name: PM1
+    type: dc-terminal
+module-bays:
+  - name: SYNC0
+    position: 0/SYNC0
+    description: Timing Interfaces Card (8000-TIC or 8000-TIC-GNSS)
+interfaces:
+  - name: GigabitEthernet0/0/0/0
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/1
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/4
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/5
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/6
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/7
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/8
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/9
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/10
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/11
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/12
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/13
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/14
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/15
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/16
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/17
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/18
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/19
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/20
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/21
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/22
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/0/23
+    type: 1000base-x-sfp
+  - name: TenGigE0/0/0/24
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/25
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/26
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/27
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/28
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/29
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/30
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/31
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/32
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/33
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/34
+    type: 10gbase-x-sfpp
+  - name: TenGigE0/0/0/35
+    type: 10gbase-x-sfpp
+  - name: TwentyFiveGigE0/0/0/36
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/37
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/38
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/39
+    type: 25gbase-x-sfp28
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
