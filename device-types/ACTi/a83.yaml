@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: A83
+slug: acti-a83
+part_number: A83
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 878
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [ACTi A83 product page](https://www.acti.com/product/A83)

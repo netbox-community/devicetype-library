@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: L33-P1
+slug: acti-l33-p1
+part_number: L33-P1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 285
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi L33-P1 product page](https://www.acti.com/product/L33-P1)

@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E922
+slug: acti-e922
+part_number: E922
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 460
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 1, max 3.84 W
+comments: >
+  [ACTi E922 product page](https://www.acti.com/product/E922)

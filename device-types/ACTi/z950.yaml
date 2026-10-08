@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: Z950
+slug: acti-z950
+part_number: Z950
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 42 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 42
+    description: 24V DC
+comments: >
+  [ACTi Z950 product page](https://www.acti.com/product/Z950)

@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E215
+slug: acti-e215
+part_number: E215
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 364
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 6 W
+comments: >
+  [ACTi E215 product page](https://www.acti.com/product/E215)

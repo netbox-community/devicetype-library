@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E59
+slug: acti-e59
+part_number: E59
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 377
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.8 W
+comments: >
+  [ACTi E59 product page](https://www.acti.com/product/E59)

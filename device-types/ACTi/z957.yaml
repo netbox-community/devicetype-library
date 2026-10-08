@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: Z957
+slug: acti-z957
+part_number: Z957
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+comments: >
+  [ACTi Z957 product page](https://www.acti.com/product/Z957)
