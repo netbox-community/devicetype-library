@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: IPR6122ESX3.6
+slug: lilin-ipr6122esx3-6
+part_number: IPR6122ESX3.6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [LILIN IPR6122ESX3.6 product page](https://meritlilin.com/en/product/IPR6122ESX)

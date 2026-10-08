@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: EX1030H
+slug: bolin-technology-ex1030h
+part_number: EX1030H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 58 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 58
+    description: 36V DC
+comments: >
+  [Bolin Technology EX1030H product page](https://bolintechnology.com/product/ex1030h-sdi-ip-outdoor-ptz-camera)

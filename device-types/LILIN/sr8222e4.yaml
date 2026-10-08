@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: SR8222E4
+slug: lilin-sr8222e4
+part_number: SR8222E4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 13.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [LILIN SR8222E4 product page](https://meritlilin.com/en/product/SR8222E4)

@@ -1,0 +1,44 @@
+---
+manufacturer: Fortinet
+model: FortiADC 420F
+slug: fortinet-fad-420f
+part_number: FAD-420F
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 6.4
+weight_unit: kg
+comments: '[FortiADC datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiADC.pdf), [FortiADC 320F/420F QuickStart Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/279e4bfb-55d1-11ef-bfe5-fa163e15d75b/FortiADC-320F-420F-QSG.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+  - name: port5
+    type: 1000base-x-sfp
+  - name: port6
+    type: 1000base-x-sfp
+  - name: port7
+    type: 1000base-x-sfp
+  - name: port8
+    type: 1000base-x-sfp
+  - name: port9
+    type: 10gbase-x-sfpp
+  - name: port10
+    type: 10gbase-x-sfpp
+  - name: port11
+    type: 10gbase-x-sfpp
+  - name: port12
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
