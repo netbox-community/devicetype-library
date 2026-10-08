@@ -1,0 +1,20 @@
+---
+manufacturer: LILIN
+model: IPS8364N
+slug: lilin-ips8364n
+part_number: IPS8364N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 25 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 25
+comments: >
+  [LILIN IPS8364N product page](https://meritlilin.com/en/product/IPS8364N_IPS8368N_IPS8364P_IPS8368P)

@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: FR3362
+slug: lilin-fr3362
+part_number: FR3362
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [LILIN FR3362 product page](https://meritlilin.com/en/product/FR3362)

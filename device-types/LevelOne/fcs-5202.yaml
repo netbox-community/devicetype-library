@@ -1,0 +1,27 @@
+---
+manufacturer: LevelOne
+model: FCS-5202
+slug: levelone-fcs-5202
+part_number: FCS-5202
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 490
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LevelOne FCS-5202 product page](https://www.level1.com/level1_en/fcs-5202-gemini-fixed-ip-camera-4-mp-802-3af-poe-indoor-outdoor-ir-led-57305307201)

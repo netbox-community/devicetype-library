@@ -1,0 +1,21 @@
+---
+manufacturer: Secureye
+model: S-PTZ2-W
+slug: secureye-s-ptz2-w
+part_number: S-PTZ2-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Secureye S-PTZ2-W product page](https://www.secureye.com/product/s-ptz2-w-lensguard-wifi-pt-camera-with-auto-human-tracking-3mp-hd)

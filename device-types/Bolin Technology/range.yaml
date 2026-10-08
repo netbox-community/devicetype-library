@@ -1,0 +1,22 @@
+---
+manufacturer: Bolin Technology
+model: RANGE
+slug: bolin-technology-range
+part_number: RANGE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5150
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 78 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 78
+comments: >
+  [Bolin Technology RANGE product page](https://bolintechnology.com/product/range-ptz-camera-all-weather-indoor-outdoor-professional-ptz)

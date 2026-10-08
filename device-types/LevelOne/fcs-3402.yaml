@@ -1,0 +1,27 @@
+---
+manufacturer: LevelOne
+model: FCS-3402
+slug: levelone-fcs-3402
+part_number: FCS-3402
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LevelOne FCS-3402 product page](https://www.level1.com/level1_en/fcs-3402-gemini-fixed-dome-ip-network-camera-2-megapixel-h-265-vandalproof-802-3af-poe-indoor-outdoor-57304807201)
