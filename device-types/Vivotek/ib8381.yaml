@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IB8381
+slug: vivotek-ib8381
+part_number: IB8381
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1348
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12.36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC

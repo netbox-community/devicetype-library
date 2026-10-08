@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD9387-EHV
+slug: vivotek-fd9387-ehv
+part_number: FD9387-EHV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 909
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 21.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+    description: 12V DC
