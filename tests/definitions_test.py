@@ -1,7 +1,7 @@
 from tests.test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 from tests import cache_operations
 from tests.yaml_loader import DecimalSafeLoader
-from tests.device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from tests.device_types import DeviceType, ModuleType, RackType, ModuleBayType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -243,6 +243,9 @@ def test_definitions(file_path, schema, change_type):
     elif "rack-types" in file_path:
         # A rack type
         this_device = RackType(definition, file_path, change_type)
+    elif "module-bay-types" in file_path:
+        # A module bay type
+        this_device = ModuleBayType(definition, file_path, change_type)
     else:
         # A module
         this_device = ModuleType(definition, file_path, change_type)

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:devicetype-library:module-bay-type",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "slug": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "^[a-z0-9]+(?:[-_][a-z0-9]+)*$",
+      "description": "Lowercase slug. The file name must match this value."
+    },
+    "manufacturer": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "comments": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "slug",
+    "manufacturer"
+  ],
+  "additionalProperties": false
+}
