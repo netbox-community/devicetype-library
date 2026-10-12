@@ -1,0 +1,23 @@
+---
+manufacturer: Illustra
+model: IES02CFACWSY
+slug: illustra-ies02cfacwsy
+part_number: IES02CFACWSY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 390
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Illustra IES02CFACWSY product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/essentials-indoor-mini-dome/Data%20Sheets/Illustra-Essentials-IP-Indoor-Mini-Dome-Datasheet-R03-lt_en.pdf)
