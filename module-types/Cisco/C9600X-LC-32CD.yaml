@@ -55,8 +55,6 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: HundredGigE{module}/0/24
     type: 100gbase-x-qsfp28
-
-  # Port Group 1 (Ports 25-28): Shared bandwidth group. Activating 400G on Port 27 disables 25, 26, 28.
   - name: HundredGigE{module}/0/25
     type: 100gbase-x-qsfp28
     description: "Port Group 1 (Disabled if Port 27 is 400G)"
@@ -73,8 +71,6 @@ interfaces:
   - name: HundredGigE{module}/0/28
     type: 100gbase-x-qsfp28
     description: "Port Group 1 (Disabled if Port 27 is 400G)"
-
-  # Port Group 2 (Ports 29-32): Shared bandwidth group. Activating 400G on Port 31 disables 29, 30, 32.
   - name: HundredGigE{module}/0/29
     type: 100gbase-x-qsfp28
     description: "Port Group 2 (Disabled if Port 31 is 400G)"
