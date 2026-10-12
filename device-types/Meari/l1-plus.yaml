@@ -1,0 +1,23 @@
+---
+manufacturer: Meari
+model: L1 Plus
+slug: meari-l1-plus
+part_number: L1 Plus
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Meari L1 Plus product page](https://www.meari.com/zh/products/L1Plus)

@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: P2R3052
+slug: lilin-p2r3052
+part_number: P2R3052
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 365
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [LILIN P2R3052 product page](https://meritlilin.com/en/product/P2R3052)
