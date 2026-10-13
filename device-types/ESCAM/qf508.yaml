@@ -1,0 +1,20 @@
+---
+manufacturer: ESCAM
+model: QF508
+slug: escam-qf508
+part_number: QF508
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [ESCAM QF508 product page](http://www.escam.cn/product/76-en.html)

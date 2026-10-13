@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: ADCi825LT-F311
+slug: illustra-adci825lt-f311
+part_number: ADCi825LT-F311
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Illustra ADCi825LT-F311 product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/pro-fisheye-lt/Data%20Sheets/Illustra-Pro-5mp-Fisheye-LT-Data-Sheet-r03_hs_en.pdf)

@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IFS03D1ICWTT
+slug: illustra-ifs03d1icwtt
+part_number: IFS03D1ICWTT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 970
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Illustra IFS03D1ICWTT product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/flex-3mp-4k-mini-domes/Data%20Sheets/Illustra-Flex-3MP-8MP-Mini-Dome-Data-Sheet-r01_hs_en.pdf)
