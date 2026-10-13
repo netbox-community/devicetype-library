@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: D412
+slug: bolin-technology-d412
+part_number: D412
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 35 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 35
+    description: 12V DC
+comments: >
+  [Bolin Technology D412 product page](https://bolintechnology.com/product/d412-dante-av-ultra-ptz-camera-discontinued)
