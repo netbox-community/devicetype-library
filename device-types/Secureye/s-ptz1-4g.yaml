@@ -1,0 +1,21 @@
+---
+manufacturer: Secureye
+model: S-PTZ1-4G
+slug: secureye-s-ptz1-4g
+part_number: S-PTZ1-4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Secureye S-PTZ1-4G product page](https://www.secureye.com/product/s-ptz1-4g-lensguard-3mp-4g-pt-camera-with-night-vision-ai-tracking)
