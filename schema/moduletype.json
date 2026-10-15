@@ -87,7 +87,7 @@
         },
         "profile": {
             "type": "string",
-            "enum": ["CPU", "Fan", "GPU", "Hard disk", "Memory", "Power supply", "Expansion card"]
+            "enum": ["CPU", "Fan", "GPU", "Hard disk", "Memory", "Power supply", "Expansion card", "Transceiver"]
         },
         "attribute_data": {
             "type": "object"
@@ -159,6 +159,18 @@
 		    "bandwidth": { "type": "integer", "minimum": 0 },
 		    "connector_type": { "type": "string" }
 		}
+	    },
+	    "transceiver_attributes": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "form_factor": { "type": "string" },
+		    "media": { "type": "string" },
+		    "phy": { "type": "string" },
+		    "data_rate": { "type": "string" },
+		    "reach": { "type": "number", "minimum": 0 },
+		    "connector_type": { "type": "string" }
+		}
 	    }
 	},
     "if": { "required": ["profile"] },
@@ -204,6 +216,12 @@
       "properties": {
         "profile": { "const": "Expansion card" },
         "attribute_data": { "$ref": "#/$defs/expansion_attributes" }
+      }
+    },
+    {
+      "properties": {
+        "profile": { "const": "Transceiver" },
+        "attribute_data": { "$ref": "#/$defs/transceiver_attributes" }
       }
     }
     ]

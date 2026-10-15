@@ -1,0 +1,18 @@
+---
+manufacturer: Interlogix
+model: TVP-3102
+slug: interlogix-tvp-3102
+part_number: TVP-3102
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
