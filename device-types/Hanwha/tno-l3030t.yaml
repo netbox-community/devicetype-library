@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: TNO-L3030T
+slug: hanwha-tno-l3030t
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2512
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha TNO-L3030T datasheet](https://www.hanwhavision.com/global/products/product-details/TNO-L3030T)

@@ -1,0 +1,24 @@
+---
+manufacturer: Hanwha
+model: PND-A9081RF
+slug: hanwha-pnd-a9081rf
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha PND-A9081RF datasheet](https://www.hanwhavision.com/global/products/product-details/PND-A9081RF)

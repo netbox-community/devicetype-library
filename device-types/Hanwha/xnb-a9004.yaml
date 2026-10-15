@@ -1,0 +1,24 @@
+---
+manufacturer: Hanwha
+model: XNB-A9004
+slug: hanwha-xnb-a9004
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 851
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Hanwha XNB-A9004 datasheet](https://www.hanwhavision.com/global/products/product-details/XNB-A9004)

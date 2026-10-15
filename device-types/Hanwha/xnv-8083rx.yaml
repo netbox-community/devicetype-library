@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: XNV-8083RX
+slug: hanwha-xnv-8083rx
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hanwha XNV-8083RX datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-8083RX)

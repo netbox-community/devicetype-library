@@ -1,0 +1,24 @@
+---
+manufacturer: Hanwha
+model: TNB-9000
+slug: hanwha-tnb-9000
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 5, max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha TNB-9000 datasheet](https://www.hanwhavision.com/global/products/product-details/TNB-9000)

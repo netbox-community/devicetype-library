@@ -1,0 +1,21 @@
+---
+manufacturer: Hanwha
+model: TNV-7011RC
+slug: hanwha-tnv-7011rc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha TNV-7011RC datasheet](https://www.hanwhavision.com/global/products/product-details/TNV-7011RC)

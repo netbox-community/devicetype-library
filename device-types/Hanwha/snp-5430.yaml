@@ -1,0 +1,17 @@
+---
+manufacturer: Hanwha
+model: SNP-5430
+slug: hanwha-snp-5430
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+comments: >
+  [Hanwha SNP-5430 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-5430)
