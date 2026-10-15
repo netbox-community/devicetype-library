@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: I71
+slug: acti-i71
+part_number: I71
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 909
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.06 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [ACTi I71 product page](https://www.acti.com/product/I71)

@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E45A
+slug: acti-e45a
+part_number: E45A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1007
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 5.28 W
+comments: >
+  [ACTi E45A product page](https://www.acti.com/product/E45A)

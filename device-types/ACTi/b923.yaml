@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: B923
+slug: acti-b923
+part_number: B923
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1578
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ACTi B923 product page](https://www.acti.com/product/B923)
