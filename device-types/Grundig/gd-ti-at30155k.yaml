@@ -1,0 +1,21 @@
+---
+manufacturer: Grundig
+model: GD-TI-AT30155K
+slug: grundig-gd-ti-at30155k
+part_number: GD-TI-AT30155K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 35000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 100 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 100
+    description: 24V DC
+comments: >
+  [Grundig GD-TI-AT30155K product page](https://de.grundig-security.com/catalog/camera/thermal-imaging/positioning-system/GD-TI-AT30155K)

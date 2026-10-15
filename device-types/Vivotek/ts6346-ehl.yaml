@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: TS6346-EHL
+slug: vivotek-ts6346-ehl
+part_number: TS6346-EHL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6030
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 87 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 87
+    description: 48V DC
+comments: >
+  [Vivotek TS6346-EHL product page](https://download.vivotek.com/downloadfile/downloads/datasheets/ts6346-ehldatasheet_en.pdf)

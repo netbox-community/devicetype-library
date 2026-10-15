@@ -1,0 +1,25 @@
+---
+manufacturer: Secureye
+model: SP-H56S-30X
+slug: secureye-sp-h56s-30x
+part_number: SP-H56S-30X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-H56S-30X product page](https://www.secureye.com/product/sp-h56s-30x-5mp-ip-30x-ptz-camera-with-auto-tracking-200m-ir)
