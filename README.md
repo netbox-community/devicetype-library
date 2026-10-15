@@ -163,7 +163,7 @@ The following fields may **optionally** be declared:
       - `phy` Type: string
       - `data_rate` Type: string
       - `reach` Type: number
-      - `connector_type` Type: number
+      - `connector_type` Type: string
   - :test_tube: Example:
 
     ```yaml
