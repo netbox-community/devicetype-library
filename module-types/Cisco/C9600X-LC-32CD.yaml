@@ -57,17 +57,33 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: HundredGigE{module}/0/25
     type: 100gbase-x-qsfp28
+    description: Port Group 1 (Disabled if Port 27 is 400G)
   - name: HundredGigE{module}/0/26
     type: 100gbase-x-qsfp28
+    description: Port Group 1 (Disabled if Port 27 is 400G)
   - name: HundredGigE{module}/0/27
     type: 100gbase-x-qsfp28
+    description: Port Group 1 Default (Can be changed to 400G)
+  - name: FourHundredGigE{module}/0/27
+    type: 400gbase-x-qsfpdd
+    description: Port Group 1 400G Mode (Disables ports 25, 26, 28)
+    enabled: false
   - name: HundredGigE{module}/0/28
     type: 100gbase-x-qsfp28
+    description: Port Group 1 (Disabled if Port 27 is 400G)
   - name: HundredGigE{module}/0/29
     type: 100gbase-x-qsfp28
+    description: Port Group 2 (Disabled if Port 31 is 400G)
   - name: HundredGigE{module}/0/30
     type: 100gbase-x-qsfp28
+    description: Port Group 2 (Disabled if Port 31 is 400G)
+  - name: HundredGigE{module}/0/31
+    type: 100gbase-x-qsfp28
+    description: Port Group 2 Default (Can be changed to 400G)
   - name: FourHundredGigE{module}/0/31
     type: 400gbase-x-qsfpdd
-  - name: FourHundredGigE{module}/0/32
-    type: 400gbase-x-qsfpdd
+    description: Port Group 2 400G Mode (Disables ports 29, 30, 32)
+    enabled: false
+  - name: HundredGigE{module}/0/32
+    type: 100gbase-x-qsfp28
+    description: Port Group 2 (Disabled if Port 31 is 400G)
