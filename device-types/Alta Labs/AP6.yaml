@@ -1,0 +1,24 @@
+---
+manufacturer: Alta Labs
+model: AP6
+slug: alta-labs-ap6
+part_number: AP6
+comments: '[Alta Labs AP6 product page](https://alta.inc/ap6)'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.4
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: wifi0
+    type: ieee802.11ax
+    description: 2.4GHz radio (2x2 MIMO)
+  - name: wifi1
+    type: ieee802.11ax
+    description: 5GHz radio (2x2 MIMO)
