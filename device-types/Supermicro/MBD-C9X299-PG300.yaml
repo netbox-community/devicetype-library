@@ -1,0 +1,32 @@
+---
+manufacturer: Supermicro
+model: Motherboard C9X299-PG300
+slug: supermicro-mbd-c9x299-pg300
+part_number: MBD-C9X299-PG300
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: '[Supermicro motherboard C9X299-PG300](https://www.supermicro.com/en/products/motherboard/c9x299-pg300)'
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+interfaces:
+  - name: Gig-E
+    type: 1000base-t
+  - name: Ten-Gig-E
+    type: 10gbase-t
+module-bays:
+  - name: PCI-E 1
+    position: '1'
+    description: PCIe 3.0 x16
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x16
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 3.0 x16
+  - name: PCI-E 4
+    position: '4'
+    description: PCIe 3.0 x16

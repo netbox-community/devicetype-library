@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-8VE-4511/FWLAD
+slug: novus-nvip-8ve-4511-fwlad
+part_number: NVIP-8VE-4511/FWLAD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [NOVUS NVIP-8VE-4511/FWLAD datasheet](https://www.novuscctv.com/en/product/5950)

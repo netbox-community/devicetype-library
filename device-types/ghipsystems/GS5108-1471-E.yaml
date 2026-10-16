@@ -1,0 +1,79 @@
+---
+manufacturer: ghipsystems
+model: GS5108-1471-E
+slug: ghipsystems-gs5108-1471-e
+comments: '[8 Channels 1471-1611nm, LC/UPC, Dual Fiber, CWDM, Extension Port 1271nm](https://ghipsystems.com/cms/en/wdm-catalogue/express-cwdm/)'
+part_number: GS5108-1471-E
+u_height: 1
+is_full_depth: false
+is_powered: false
+front-ports:
+  - name: '1471'
+    type: lc
+    positions: 1
+  - name: '1491'
+    type: lc
+    positions: 1
+  - name: '1511'
+    type: lc
+    positions: 1
+  - name: '1531'
+    type: lc
+    positions: 1
+  - name: '1551'
+    type: lc
+    positions: 1
+  - name: '1571'
+    type: lc
+    positions: 1
+  - name: '1591'
+    type: lc
+    positions: 1
+  - name: '1611'
+    type: lc
+    positions: 1
+  - name: Extension
+    description: Extension Port 1271nm
+    type: lc
+    positions: 1
+rear-ports:
+  - name: Network
+    type: lc
+    positions: 9
+port-mappings:
+  - front_port: '1471'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 1
+  - front_port: '1491'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 2
+  - front_port: '1511'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 3
+  - front_port: '1531'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 4
+  - front_port: '1551'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 5
+  - front_port: '1571'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 6
+  - front_port: '1591'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 7
+  - front_port: '1611'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 8
+  - front_port: Extension
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 9

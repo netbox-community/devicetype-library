@@ -5,9 +5,13 @@ part_number: Keystone-RJ45
 front-ports:
   - name: '{module}-RJ45'
     type: 8p8c
-    rear_port: '{module}-RJ45'
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: '{module}-RJ45'
     type: 8p8c
     positions: 1
+port-mappings:
+  - front_port: '{module}-RJ45'
+    front_port_position: 1
+    rear_port: '{module}-RJ45'
+    rear_port_position: 1

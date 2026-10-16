@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-B189H-MU
+slug: hilook-ipc-b189h-mu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 525
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-B189H-MU datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000062210/IPC-B189H-MU.pdf)

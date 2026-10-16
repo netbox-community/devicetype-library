@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-B440HAA-LU
+slug: hilook-ipc-b440haa-lu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-B440HAA-LU datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000109452/IPC-B440HAA-LU_Datasheet_20260514.pdf)

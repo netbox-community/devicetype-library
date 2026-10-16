@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IFS10-M10-OIA4
+slug: illustra-ifs10-m10-oia4
+part_number: IFS10-M10-OIA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 23.1 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Illustra IFS10-M10-OIA4 product page](https://illustracameras.com/wp-content/uploads/2023/08/Illustra-Flex-Gen4-Dual-Sensor-Data-Sheet_draft1_cs.pdf)

@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: PTZ-N5225I-A
+slug: hilook-ptz-n5225i-a
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: AC IN
+    type: iec-60320-c14
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook PTZ-N5225I-A datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000001233/Datasheet-of-PTZ-N5225I-AEG_V5.7.1_20220704.pdf)

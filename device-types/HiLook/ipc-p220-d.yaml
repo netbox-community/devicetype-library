@@ -1,0 +1,23 @@
+---
+manufacturer: HiLook
+model: IPC-P220-D
+slug: hilook-ipc-p220-d
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 216
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-P220-D datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000147487/IPC-P220-D_WW_Datasheet_20250928.pdf)

@@ -14,7 +14,13 @@ power-ports:
 front-ports:
   - name: Ethernet
     type: 8p8c
-    rear_port: LAN
+    positions: 1
 rear-ports:
   - name: LAN
     type: sc-upc
+    positions: 1
+port-mappings:
+  - front_port: Ethernet
+    front_port_position: 1
+    rear_port: LAN
+    rear_port_position: 1

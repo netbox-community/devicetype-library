@@ -1,0 +1,49 @@
+---
+manufacturer: Panduit
+model: Opticom Fiber Adapter Panel, OS2, 3 SC Duplex, APC, Green
+part_number: FAP3WAGDSCZ
+front-ports:
+  - name: '{module}:1-2'
+    type: sc-apc
+    color: 2f6a31
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:3-4'
+    type: sc-apc
+    color: 2f6a31
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:5-6'
+    type: sc-apc
+    color: 2f6a31
+    description: Duplex SC Port
+    positions: 1
+rear-ports:
+  - name: '{module}:1-2'
+    type: sc-apc
+    positions: 1
+    color: 2f6a31
+    description: Duplex SC Port
+  - name: '{module}:3-4'
+    type: sc-apc
+    positions: 1
+    color: 2f6a31
+    description: Duplex SC Port
+  - name: '{module}:5-6'
+    type: sc-apc
+    positions: 1
+    color: 2f6a31
+    description: Duplex SC Port
+port-mappings:
+  - front_port: '{module}:1-2'
+    front_port_position: 1
+    rear_port: '{module}:1-2'
+    rear_port_position: 1
+  - front_port: '{module}:3-4'
+    front_port_position: 1
+    rear_port: '{module}:3-4'
+    rear_port_position: 1
+  - front_port: '{module}:5-6'
+    front_port_position: 1
+    rear_port: '{module}:5-6'
+    rear_port_position: 1

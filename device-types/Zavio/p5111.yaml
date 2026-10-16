@@ -1,0 +1,21 @@
+---
+manufacturer: Zavio
+model: P5111
+slug: zavio-p5111
+part_number: P5111
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 232.6
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC

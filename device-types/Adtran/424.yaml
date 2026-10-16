@@ -1,0 +1,28 @@
+---
+manufacturer: Adtran
+model: '424'
+slug: adtran-424
+part_number: 1287835F1
+u_height: 0
+weight: 0.82
+weight_unit: kg
+is_full_depth: false
+comments: Adtran 424
+airflow: passive
+front_image: true
+rear_image: true
+interfaces:
+  - name: G-PON
+    type: gpon
+  - name: GE1
+    type: 1000base-t
+  - name: GE2
+    type: 1000base-t
+  - name: GE3
+    type: 1000base-t
+  - name: GE4
+    type: 1000base-t
+power-ports:
+  - name: 12V DC
+    type: dc-terminal
+    maximum_draw: 15

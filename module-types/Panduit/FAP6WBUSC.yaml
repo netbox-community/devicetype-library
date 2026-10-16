@@ -1,0 +1,80 @@
+---
+manufacturer: Panduit
+model: FAP6WBUSC
+comments: Opticom Fiber Adapter Panel, MM, 6 SC Simplex
+part_number: FAP6WBUSC
+front-ports:
+  - name: '{module}:1'
+    type: sc
+    description: Simplex SC Port
+    positions: 1
+  - name: '{module}:2'
+    type: sc
+    description: Simplex SC Port
+    positions: 1
+  - name: '{module}:3'
+    type: sc
+    description: Simplex SC Port
+    positions: 1
+  - name: '{module}:4'
+    type: sc
+    description: Simplex SC Port
+    positions: 1
+  - name: '{module}:5'
+    type: sc
+    description: Simplex SC Port
+    positions: 1
+  - name: '{module}:6'
+    type: sc
+    description: Simplex SC Port
+    positions: 1
+rear-ports:
+  - name: '{module}:1'
+    type: sc
+    positions: 1
+    description: Simplex SC Port
+  - name: '{module}:2'
+    type: sc
+    positions: 1
+    description: Simplex SC Port
+  - name: '{module}:3'
+    type: sc
+    positions: 1
+    description: Simplex SC Port
+  - name: '{module}:4'
+    type: sc
+    positions: 1
+    description: Simplex SC Port
+  - name: '{module}:5'
+    type: sc
+    positions: 1
+    description: Simplex SC Port
+  - name: '{module}:6'
+    type: sc
+    positions: 1
+    description: Simplex SC Port
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:6'
+    rear_port_position: 1

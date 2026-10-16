@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HF8232F-E
+slug: dahua-ipc-hf8232f-e
+part_number: IPC-HF8232F-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HF8232F-E datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hf8232f-e)

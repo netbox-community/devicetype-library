@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: PSDW81642S-A360-D425
+slug: dahua-psdw81642s-a360-d425
+part_number: PSDW81642S-A360-D425
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+comments: >
+  [Dahua PSDW81642S-A360-D425 datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/WizMind-Panoramic-Series/Hubble-Series/PSDW81642S-A360-D425)

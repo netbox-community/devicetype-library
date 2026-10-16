@@ -1,0 +1,27 @@
+---
+manufacturer: Grundig
+model: GD-CI-CT4537T
+slug: grundig-gd-ci-ct4537t
+part_number: GD-CI-CT4537T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Grundig GD-CI-CT4537T product page](https://download.grundig-security.com/DSH-GD-CI-CT4537T-V1-DE.pdf)

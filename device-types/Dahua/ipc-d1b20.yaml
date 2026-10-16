@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-D1B20
+slug: dahua-ipc-d1b20
+part_number: IPC-D1B20
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 190
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-D1B20 datasheet](https://www.dahuasecurity.com/products/discontinued-products/ez-ip/ipc-d1b20)

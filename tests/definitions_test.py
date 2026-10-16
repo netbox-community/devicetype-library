@@ -1,7 +1,7 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
-import pickle_operations
-from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from tests.test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
+from tests import cache_operations
+from tests.yaml_loader import DecimalSafeLoader
+from tests.device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -79,9 +79,12 @@ def _get_diff_from_upstream():
         for file in changes:
             # Ensure the files are modified or added, this will disclude deleted files
             if file.change_type in CHANGE_TYPE_LIST:
-                # If the file is renamed, ensure we are picking the right schema
-                if 'R' in file.change_type and path in file.rename_to:
-                    file_list.append((file.rename_to, schema, file.change_type))
+                # Rename endpoints flip between commit.diff (new path on b_path) and
+                # index.diff (new path on a_path), so pick the side that exists on disk.
+                if 'R' in file.change_type:
+                    existing = file.b_path if os.path.exists(file.b_path) else file.a_path
+                    if path in existing:
+                        file_list.append((existing, schema, file.change_type))
                 elif path in file.a_path:
                     file_list.append((file.a_path, schema, file.change_type))
                 elif path in file.b_path:
@@ -174,9 +177,9 @@ else:
     module_image_files = _get_all_module_image_files()
 
 if USE_LOCAL_KNOWN_SLUGS:
-    KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
-    KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
-    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
+    KNOWN_SLUGS = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-slugs.json')
+    KNOWN_MODULES = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-modules.json')
+    KNOWN_RACKS = cache_operations.read_known_data(f'{ROOT_DIR}/tests/known-racks.json')
 else:
     clone_kwargs = {
         'depth': 1,
@@ -188,10 +191,10 @@ else:
     with tempfile.TemporaryDirectory() as temp_dir, \
          Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir, **clone_kwargs) as repo \
     :
-        repo.git.checkout('HEAD', 'tests/*.pickle')
-        KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-slugs.pickle')
-        KNOWN_MODULES = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-modules.pickle')
-        KNOWN_RACKS = pickle_operations.read_pickle_data(f'{repo.working_dir}/tests/known-racks.pickle')
+        repo.git.checkout('HEAD', 'tests/*.json')
+        KNOWN_SLUGS = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-slugs.json')
+        KNOWN_MODULES = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-modules.json')
+        KNOWN_RACKS = cache_operations.read_known_data(f'{repo.working_dir}/tests/known-racks.json')
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
@@ -280,6 +283,89 @@ def test_definitions(file_path, schema, change_type):
                         pytrace=False,
                     )
                 rear_port_positions[key] = fp.get("name")
+
+        # Validate the optional `port-mappings` stanza (NetBox v4.5+ format).
+        # The library accepts both formats: the legacy inline `rear_port` /
+        # `rear_port_position` on each front-port (checked in the loop above),
+        # and the new top-level `port-mappings:` list. A given front-port must
+        # use only one of the two formats.
+        #
+        # Note: we deliberately do NOT require every front-port to be referenced
+        # by some mapping (inline or stanza). NetBox v4.5+ permits unmapped
+        # front-ports — `FrontPortTemplate.clean()` enforces only the upper
+        # bound `positions >= mappings.count()` — so DTL matches that
+        # permissiveness rather than being stricter than the target system.
+        if any(x in file_path for x in ("device-types", "module-types")):
+            port_mappings = definition.get("port-mappings", []) or []
+            front_port_names = {
+                fp.get("name") for fp in front_ports if isinstance(fp, dict)
+            }
+            front_ports_with_inline_rear = {
+                fp.get("name") for fp in front_ports
+                if isinstance(fp, dict) and fp.get("rear_port")
+            }
+            stanza_front_port_positions = set()
+
+            # Structural validity of each entry (object shape, required keys,
+            # non-empty strings) is enforced by the JSON schema validated
+            # earlier in this test — don't re-check those invariants here.
+            # This block only enforces cross-document rules the schema can't
+            # express.
+            for pm in port_mappings:
+                fp_ref = pm["front_port"]
+                rp_ref = pm["rear_port"]
+
+                if fp_ref not in front_port_names:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry references "
+                        f"front_port '{fp_ref}', but no such front-port exists. "
+                        f"Defined front-ports: {sorted(front_port_names)}",
+                        pytrace=False,
+                    )
+
+                if rp_ref not in rear_port_names:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry references "
+                        f"rear_port '{rp_ref}', but no such rear-port exists. "
+                        f"Defined rear-ports: {sorted(rear_port_names)}",
+                        pytrace=False,
+                    )
+
+                # Reject mixing inline `rear_port` and a stanza entry for the
+                # same front-port — pick one format per port.
+                if fp_ref in front_ports_with_inline_rear:
+                    pytest.fail(
+                        f"{file_path}: front-port '{fp_ref}' has inline "
+                        f"'rear_port' AND appears in 'port-mappings' stanza. "
+                        f"Use only one format per front-port.",
+                        pytrace=False,
+                    )
+
+                # (rear_port, rear_port_position) uniqueness — checked across
+                # both formats by reusing `rear_port_positions` from above.
+                rear_port_pos = pm.get("rear_port_position", 1)
+                key = (rp_ref, rear_port_pos)
+                if key in rear_port_positions:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry for front_port "
+                        f"'{fp_ref}' has duplicate (rear_port, "
+                        f"rear_port_position) = ('{rp_ref}', {rear_port_pos}). "
+                        f"Already used by '{rear_port_positions[key]}'.",
+                        pytrace=False,
+                    )
+                rear_port_positions[key] = f"port-mappings entry for '{fp_ref}'"
+
+                # (front_port, front_port_position) uniqueness within the stanza.
+                front_port_pos = pm.get("front_port_position", 1)
+                fkey = (fp_ref, front_port_pos)
+                if fkey in stanza_front_port_positions:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry has duplicate "
+                        f"(front_port, front_port_position) = "
+                        f"('{fp_ref}', {front_port_pos}).",
+                        pytrace=False,
+                    )
+                stanza_front_port_positions.add(fkey)
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:

@@ -1,0 +1,26 @@
+---
+manufacturer: Ubiquiti
+model: Unifi Building Bridge
+slug: ubiquiti-ubb
+part_number: UBB
+comments: |
+  The eth0 and ubond0 are permanently bridged as this is a L2 bridge device.
+
+  [Ubiquiti UBB Data Sheet](https://dl.ubnt.com/ds/ubb_ds.pdf)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.4
+weight_unit: kg
+interfaces:
+  - name: br0
+    type: bridge
+    mgmt_only: true
+  - name: eth0
+    label: Ethernet
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-48v-4pair
+  - name: ath0
+    label: Wireless
+    type: ieee802.11ax

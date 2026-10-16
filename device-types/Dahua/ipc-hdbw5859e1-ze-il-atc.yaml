@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5859E1-ZE-IL-ATC
+slug: dahua-ipc-hdbw5859e1-ze-il-atc
+part_number: IPC-HDBW5859E1-ZE-IL-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 16.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+comments: >
+  [Dahua IPC-HDBW5859E1-ZE-IL-ATC datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/anti-corrosion/ipc-hdbw5859e1-ze-il-atc)

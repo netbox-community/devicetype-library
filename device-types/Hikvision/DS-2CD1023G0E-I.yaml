@@ -1,0 +1,23 @@
+---
+manufacturer: Hikvision
+model: DS-2CD1023G0E-I
+slug: hikvision-ds-2cd1023g0e-i
+part_number: DS-2CD1023G0E-I
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Hikvision DS-2CD1023G0E-I datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000007714/DS-2CD1023G0E-I_Datasheet_20260409.pdf) | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd1023g0e-i)

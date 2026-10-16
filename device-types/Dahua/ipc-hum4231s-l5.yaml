@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HUM4231S-L5
+slug: dahua-ipc-hum4231s-l5
+part_number: IPC-HUM4231S-L5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 81
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 1.56 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+comments: >
+  [Dahua IPC-HUM4231S-L5 datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/Special-Series/Pinhole-Series/2-MP/IPC-HUM4231S-L5=S3)

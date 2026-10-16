@@ -1,0 +1,22 @@
+---
+manufacturer: TP-Link
+model: EAP655-Wall
+slug: tp-link-eap655-wall
+part_number: EAP655-Wall
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link Omada EAP655-Wall Specifications](https://www.omadanetworks.com/us/business-networking/omada-wifi-wall-plate/eap655-wall/)'
+interfaces:
+  - name: Uplink
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Downlink 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type1-ieee802.3af
+  - name: Downlink 2
+    type: 1000base-t
+  - name: Downlink 3
+    type: 1000base-t

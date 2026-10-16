@@ -1,0 +1,20 @@
+---
+manufacturer: Vivotek
+model: IP3133
+slug: vivotek-ip3133
+part_number: IP3133
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 274
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.64 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Vivotek IP3133 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/ip3133datasheet_en.pdf)

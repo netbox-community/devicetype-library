@@ -1,0 +1,38 @@
+---
+manufacturer: Unipi technology
+model: Neuron S103 (RPi4)
+slug: unipi-technology-neuron-s103-rpi4
+description: A programmable logic controller designed for automation, control, regulation and monitoring.
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.19
+weight_unit: kg
+comments: "See [Technical parameters](https://www.unipi.technology/unipi-neuron-s103-rpi4-2gb-p363).\r\n\r\nSee [Product datasheet](https://www.unipi.technology/shop/product/download?fileId=3322)."
+console-ports:
+  - name: 1-Wire
+    type: other
+    description: 1-Wire bus
+  - name: RS485
+    type: other
+    description: RS-485
+  - name: USB1
+    type: usb-a
+    description: USB 2.0
+  - name: USB2
+    type: usb-a
+    description: USB 2.0
+  - name: USB3
+    type: usb-a
+    description: USB 3.0
+  - name: USB4
+    type: usb-a
+    description: USB 3.0
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 12
+    description: 'Power: 24 V DC'
+interfaces:
+  - name: ETH
+    type: 1000base-t

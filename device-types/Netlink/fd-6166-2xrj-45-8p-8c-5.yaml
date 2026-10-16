@@ -15,16 +15,14 @@ is_powered: false
 front-ports:
   - name: '1'
     type: 8p8c
-    rear_port: '1'
-    rear_port_position: 1
     label: '1'
     description: '1'
+    positions: 1
   - name: '2'
     type: 8p8c
-    rear_port: '2'
-    rear_port_position: 2
     label: '2'
     description: '2'
+    positions: 1
 rear-ports:
   - name: '1'
     type: 110-punch
@@ -36,3 +34,12 @@ rear-ports:
     positions: 2
     label: '2'
     description: '2'
+port-mappings:
+  - front_port: '1'
+    front_port_position: 1
+    rear_port: '1'
+    rear_port_position: 1
+  - front_port: '2'
+    front_port_position: 1
+    rear_port: '2'
+    rear_port_position: 2

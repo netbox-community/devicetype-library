@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2787G3-LIPTRZSY
+slug: hikvision-ds-2cd2787g3-liptrzsy
+part_number: DS-2CD2787G3-LIPTRZSY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2787G3-LIPTRZSY datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000107003/DS-2CD2787G3-LIPTRZSY_Datasheet_20260629.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2787g3-liptrzsy)

@@ -1,0 +1,52 @@
+---
+manufacturer: ghipsystems
+model: GS5104-1271-C
+slug: ghipsystems-gs5104-1271-c
+comments: '[4 Channels 1271-1331nm, LC/UPC, Dual Fiber, CWDM, Cascading Port 1351nm](https://ghipsystems.com/cms/en/wdm-catalogue/express-cwdm/)'
+part_number: GS5104-1271-C
+u_height: 1
+is_full_depth: false
+is_powered: false
+airflow: passive
+front-ports:
+  - name: '1271'
+    type: lc
+    positions: 1
+  - name: '1291'
+    type: lc
+    positions: 1
+  - name: '1311'
+    type: lc
+    positions: 1
+  - name: '1331'
+    type: lc
+    positions: 1
+  - name: Cascading
+    description: Cascading Port 1351nm
+    type: lc
+    positions: 1
+rear-ports:
+  - name: Network
+    type: lc
+    positions: 5
+port-mappings:
+  - front_port: '1271'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 1
+  - front_port: '1291'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 2
+  - front_port: '1311'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 3
+  - front_port: '1331'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 4
+  - front_port: Cascading
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 5

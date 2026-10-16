@@ -1,0 +1,26 @@
+---
+manufacturer: Inelt
+model: SPI-UPS-33-010
+slug: inelt-spi-ups-33-010
+u_height: 19
+is_full_depth: true
+airflow: front-to-rear
+comments: '[NOT Racked UPS 3Phase IN/OUT 10KVa, Dimension-630x250x826mm](https://inelt.by/products/istochniki-besperebojnogo-pitaniya/trekhfaznye-ibp/spi-monoblochnyy-10-200-kva/)'
+weight: 124
+weight_unit: kg
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Input
+    type: hardwired
+    maximum_draw: 12000
+power-outlets:
+  - name: Output
+    type: hardwired
+    power_port: Input
+interfaces:
+  - name: SNMP
+    type: 100base-tx

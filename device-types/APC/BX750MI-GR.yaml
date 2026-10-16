@@ -15,8 +15,7 @@ comments: '[BX750MI-GR Datasheet by Kolyan](https://www.apc.com/kz/ru/product/BX
 front-ports:
   - name: IN
     type: 8p8c
-    rear_port: OUT
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: OUT
     type: 8p8c
@@ -45,3 +44,8 @@ power-outlets:
   - name: '4'
     type: ita-f
     power_port: Input
+port-mappings:
+  - front_port: IN
+    front_port_position: 1
+    rear_port: OUT
+    rear_port_position: 1

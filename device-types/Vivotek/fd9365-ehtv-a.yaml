@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD9365-EHTV-A
+slug: vivotek-fd9365-ehtv-a
+part_number: FD9365-EHTV-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 909
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek FD9365-EHTV-A product page](https://www.vivotek.com/resource/download-center/product/download/70431)

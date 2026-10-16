@@ -1,0 +1,25 @@
+---
+manufacturer: TVT Digital
+model: TD-8523IE3N
+slug: tvt-digital-td-8523ie3n
+part_number: TD-8523IE3N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [TVT Digital TD-8523IE3N product page](https://en.tvt.net.cn/products/1614.html)

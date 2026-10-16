@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HUM8441-E1-L4
+slug: dahua-ipc-hum8441-e1-l4
+part_number: IPC-HUM8441-E1-L4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua IPC-HUM8441-E1-L4 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hum8441-e1-l4)

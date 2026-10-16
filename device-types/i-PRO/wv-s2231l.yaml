@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S2231L
+slug: i-pro-wv-s2231l
+part_number: WV-S2231L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [i-PRO WV-S2231L datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2231l)

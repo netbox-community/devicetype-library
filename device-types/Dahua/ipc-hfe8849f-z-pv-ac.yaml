@@ -1,0 +1,18 @@
+---
+manufacturer: Dahua
+model: IPC-HFE8849F-Z-PV-AC
+slug: dahua-ipc-hfe8849f-z-pv-ac
+part_number: IPC-HFE8849F-Z-PV-AC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4190
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 16.1 W
+comments: >
+  [Dahua IPC-HFE8849F-Z-PV-AC datasheet](https://www.dahuasecurity.com/products/network-products/explosion-proof/optical-series/ipc-hfe8849f-z-pv-ac)

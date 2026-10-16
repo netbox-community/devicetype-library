@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: T2A-LED
+slug: dahua-t2a-led
+part_number: T2A-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 323
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua T2A-LED datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/turret-series/t2a-led)

@@ -1,0 +1,22 @@
+---
+manufacturer: Reolink
+model: Elite Pro Floodlight PoE
+slug: reolink-elite-pro-floodlight-poe
+part_number: Elite Pro Floodlight PoE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Reolink Elite Pro Floodlight PoE datasheet](https://reolink.com/product/elite-pro-floodlight-poe/)

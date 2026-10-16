@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2147G3-LIS2UY
+slug: hikvision-ds-2cd2147g3-lis2uy
+part_number: DS-2CD2147G3-LIS2UY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2147G3-LIS2UY datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000077854/DS-2CD2147G3-LIS2UY_Datasheet_20250827.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2147g3-lis2uy)

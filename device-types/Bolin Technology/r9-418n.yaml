@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: R9-418N
+slug: bolin-technology-r9-418n
+part_number: R9-418N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 7, max 46 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 46
+    description: 12V DC
+comments: >
+  [Bolin Technology R9-418N product page](https://bolintechnology.com/product/r9-418n-1-inch-4k-high-bandwidth-ndi-ptz-camera)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-BF2221-T
+slug: dahua-tpc-bf2221-t
+part_number: TPC-BF2221-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua TPC-BF2221-T datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-bf2221-t)

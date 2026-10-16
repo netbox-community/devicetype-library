@@ -30,7 +30,6 @@ interfaces:
     type: 1000base-t
   - name: Eth4
     type: 1000base-t
-# Eth4 also supports SFP.
 rear-ports:
   - name: Line
     type: lc-upc
@@ -39,201 +38,322 @@ rear-ports:
 front-ports:
   - name: '921'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 1
     description: ITU channel 21
+    positions: 1
   - name: '922'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 2
     description: ITU channel 22
+    positions: 1
   - name: '923'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 3
     description: ITU channel 23
+    positions: 1
   - name: '924'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 4
     description: ITU channel 24
+    positions: 1
   - name: '925'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 5
     description: ITU channel 25
+    positions: 1
   - name: '926'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 6
     description: ITU channel 26
+    positions: 1
   - name: '927'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 7
     description: ITU channel 27
+    positions: 1
   - name: '928'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 8
     description: ITU channel 28
+    positions: 1
   - name: '929'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 9
     description: ITU channel 29
+    positions: 1
   - name: '930'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 10
     description: ITU channel 30
+    positions: 1
   - name: '931'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 11
     description: ITU channel 31
+    positions: 1
   - name: '932'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 12
     description: ITU channel 32
+    positions: 1
   - name: '933'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 13
     description: ITU channel 33
+    positions: 1
   - name: '934'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 14
     description: ITU channel 34
+    positions: 1
   - name: '935'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 15
     description: ITU channel 35
+    positions: 1
   - name: '936'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 16
     description: ITU channel 36
+    positions: 1
   - name: '937'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 17
     description: ITU channel 37
+    positions: 1
   - name: '938'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 18
     description: ITU channel 38
+    positions: 1
   - name: '939'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 19
     description: ITU channel 39
+    positions: 1
   - name: '940'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 20
     description: ITU channel 40
+    positions: 1
   - name: '941'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 21
     description: ITU channel 41
+    positions: 1
   - name: '942'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 22
     description: ITU channel 42
+    positions: 1
   - name: '943'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 23
     description: ITU channel 43
+    positions: 1
   - name: '944'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 24
     description: ITU channel 44
+    positions: 1
   - name: '945'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 25
     description: ITU channel 45
+    positions: 1
   - name: '946'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 26
     description: ITU channel 46
+    positions: 1
   - name: '947'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 27
     description: ITU channel 47
+    positions: 1
   - name: '948'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 28
     description: ITU channel 48
+    positions: 1
   - name: '949'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 29
     description: ITU channel 49
+    positions: 1
   - name: '950'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 30
     description: ITU channel 50
+    positions: 1
   - name: '951'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 31
     description: ITU channel 51
+    positions: 1
   - name: '952'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 32
     description: ITU channel 52
+    positions: 1
   - name: '953'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 33
     description: ITU channel 53
+    positions: 1
   - name: '954'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 34
     description: ITU channel 54
+    positions: 1
   - name: '955'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 35
     description: ITU channel 55
+    positions: 1
   - name: '956'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 36
     description: ITU channel 56
+    positions: 1
   - name: '957'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 37
     description: ITU channel 57
+    positions: 1
   - name: '958'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 38
     description: ITU channel 58
+    positions: 1
   - name: '959'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 39
     description: ITU channel 59
+    positions: 1
   - name: '960'
     type: lc-upc
+    description: ITU channel 60
+    positions: 1
+port-mappings:
+  - front_port: '921'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 1
+  - front_port: '922'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 2
+  - front_port: '923'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 3
+  - front_port: '924'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 4
+  - front_port: '925'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 5
+  - front_port: '926'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 6
+  - front_port: '927'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 7
+  - front_port: '928'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 8
+  - front_port: '929'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 9
+  - front_port: '930'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 10
+  - front_port: '931'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 11
+  - front_port: '932'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 12
+  - front_port: '933'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 13
+  - front_port: '934'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 14
+  - front_port: '935'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 15
+  - front_port: '936'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 16
+  - front_port: '937'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 17
+  - front_port: '938'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 18
+  - front_port: '939'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 19
+  - front_port: '940'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 20
+  - front_port: '941'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 21
+  - front_port: '942'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 22
+  - front_port: '943'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 23
+  - front_port: '944'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 24
+  - front_port: '945'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 25
+  - front_port: '946'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 26
+  - front_port: '947'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 27
+  - front_port: '948'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 28
+  - front_port: '949'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 29
+  - front_port: '950'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 30
+  - front_port: '951'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 31
+  - front_port: '952'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 32
+  - front_port: '953'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 33
+  - front_port: '954'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 34
+  - front_port: '955'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 35
+  - front_port: '956'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 36
+  - front_port: '957'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 37
+  - front_port: '958'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 38
+  - front_port: '959'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 39
+  - front_port: '960'
+    front_port_position: 1
     rear_port: Line
     rear_port_position: 40
-    description: ITU channel 60

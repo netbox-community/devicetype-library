@@ -4,10 +4,13 @@ model: Catalyst 3750E-24TD
 slug: cisco-ws-c3750e-24td
 part_number: WS-C3750E-24TD
 is_full_depth: false
+front_image: true
+rear_image: true
 u_height: 1
 weight: 7.26
-airflow: side-to-rear
 weight_unit: kg
+airflow: side-to-rear
+comments: '[Specsheet](https://community.cisco.com/legacyfs/online/legacy/7/0/8/10807-Cisco%20Catalyst%203750-E%20Series%20Switches.pdf)'
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t

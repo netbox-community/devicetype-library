@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-SD2221-T
+slug: dahua-tpc-sd2221-t
+part_number: TPC-SD2221-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+comments: >
+  [Dahua TPC-SD2221-T datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-sd2221-t)

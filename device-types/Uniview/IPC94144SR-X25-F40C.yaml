@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC94144SR-X25-F40C
+slug: uniview-ipc94144sr-x25-f40c
+part_number: IPC94144SR-X25-F40C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC94144SR-X25-F40C datasheet](https://www.uniview.com/Products/PTZ_Cameras/Prime_Series/Prime_Series/IPC94144SR-X25-F40C/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc94144sr-x25-f40c)

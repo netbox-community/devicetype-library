@@ -6,24 +6,20 @@ comments: "Corning EDGE MTP Adapter Panel: \r\n\r\n* CP = MTP Adaper Panel \r\n*
 front-ports:
   - name: '{module}1'
     type: mpo
-    rear_port: '{module}1'
-    rear_port_position: 1
     description: Front Port MPO conector port 1 (Strands 1-12)
+    positions: 1
   - name: '{module}2'
     type: mpo
-    rear_port: '{module}2'
-    rear_port_position: 1
     description: Front Port MPO conector port 2 (Strands 13-24)
+    positions: 1
   - name: '{module}3'
     type: mpo
-    rear_port: '{module}3'
-    rear_port_position: 1
     description: Front Port MPO conector port 3 (Strands 25-36)
+    positions: 1
   - name: '{module}4'
     type: mpo
-    rear_port: '{module}4'
-    rear_port_position: 1
     description: Front Port MPO conector port 4 (Strands 37-48)
+    positions: 1
 rear-ports:
   - name: '{module}1'
     type: mpo
@@ -41,3 +37,20 @@ rear-ports:
     type: mpo
     positions: 1
     description: Rear Port MPO connector port 4 (strands 37-48)
+port-mappings:
+  - front_port: '{module}1'
+    front_port_position: 1
+    rear_port: '{module}1'
+    rear_port_position: 1
+  - front_port: '{module}2'
+    front_port_position: 1
+    rear_port: '{module}2'
+    rear_port_position: 1
+  - front_port: '{module}3'
+    front_port_position: 1
+    rear_port: '{module}3'
+    rear_port_position: 1
+  - front_port: '{module}4'
+    front_port_position: 1
+    rear_port: '{module}4'
+    rear_port_position: 1

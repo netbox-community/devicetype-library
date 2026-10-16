@@ -16,76 +16,64 @@ is_powered: false
 front-ports:
   - name: '1'
     type: 8p8c
-    rear_port: '1'
-    rear_port_position: 1
     label: '1'
     description: '1'
+    positions: 1
   - name: '2'
     type: 8p8c
-    rear_port: '2'
-    rear_port_position: 2
     label: '2'
     description: '2'
+    positions: 1
   - name: '3'
     type: 8p8c
-    rear_port: '3'
-    rear_port_position: 3
     label: '3'
     description: '3'
+    positions: 1
   - name: '4'
     type: 8p8c
-    rear_port: '4'
-    rear_port_position: 4
     label: '4'
     description: '4'
+    positions: 1
   - name: '5'
     type: 8p8c
-    rear_port: '5'
-    rear_port_position: 5
     label: '5'
     description: '5'
+    positions: 1
   - name: '6'
     type: 8p8c
-    rear_port: '6'
-    rear_port_position: 6
     label: '6'
     description: '6'
+    positions: 1
   - name: '7'
     type: 8p8c
-    rear_port: '7'
-    rear_port_position: 7
     label: '7'
     description: '7'
+    positions: 1
   - name: '8'
     type: 8p8c
-    rear_port: '8'
-    rear_port_position: 8
     label: '8'
     description: '8'
+    positions: 1
   - name: '9'
     type: 8p8c
-    rear_port: '9'
-    rear_port_position: 9
     label: '9'
     description: '9'
+    positions: 1
   - name: '10'
     type: 8p8c
-    rear_port: '10'
-    rear_port_position: 10
     label: '10'
     description: '10'
+    positions: 1
   - name: '11'
     type: 8p8c
-    rear_port: '11'
-    rear_port_position: 11
     label: '11'
     description: '11'
+    positions: 1
   - name: '12'
     type: 8p8c
-    rear_port: '12'
-    rear_port_position: 12
     label: '12'
     description: '12'
+    positions: 1
 rear-ports:
   - name: '1'
     type: 110-punch
@@ -147,3 +135,52 @@ rear-ports:
     positions: 12
     label: '12'
     description: '12'
+port-mappings:
+  - front_port: '1'
+    front_port_position: 1
+    rear_port: '1'
+    rear_port_position: 1
+  - front_port: '2'
+    front_port_position: 1
+    rear_port: '2'
+    rear_port_position: 2
+  - front_port: '3'
+    front_port_position: 1
+    rear_port: '3'
+    rear_port_position: 3
+  - front_port: '4'
+    front_port_position: 1
+    rear_port: '4'
+    rear_port_position: 4
+  - front_port: '5'
+    front_port_position: 1
+    rear_port: '5'
+    rear_port_position: 5
+  - front_port: '6'
+    front_port_position: 1
+    rear_port: '6'
+    rear_port_position: 6
+  - front_port: '7'
+    front_port_position: 1
+    rear_port: '7'
+    rear_port_position: 7
+  - front_port: '8'
+    front_port_position: 1
+    rear_port: '8'
+    rear_port_position: 8
+  - front_port: '9'
+    front_port_position: 1
+    rear_port: '9'
+    rear_port_position: 9
+  - front_port: '10'
+    front_port_position: 1
+    rear_port: '10'
+    rear_port_position: 10
+  - front_port: '11'
+    front_port_position: 1
+    rear_port: '11'
+    rear_port_position: 11
+  - front_port: '12'
+    front_port_position: 1
+    rear_port: '12'
+    rear_port_position: 12

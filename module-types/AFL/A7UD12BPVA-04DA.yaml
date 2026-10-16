@@ -5,65 +5,102 @@ comments: U-Series Module 1xMPO12(m)-12xLC/UPC SM G.657.A1, Base-12 Pol. A/C, Pr
 front-ports:
   - name: '{module}:01'
     type: lc
-    rear_port: '{module}:1'
     label: 01-A
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:02'
     type: lc
-    rear_port: '{module}:1'
     label: 01-B
-    rear_port_position: 12
+    positions: 1
   - name: '{module}:03'
     type: lc
-    rear_port: '{module}:1'
     label: 02-A
-    rear_port_position: 2
+    positions: 1
   - name: '{module}:04'
     type: lc
-    rear_port: '{module}:1'
     label: 02-B
-    rear_port_position: 11
+    positions: 1
   - name: '{module}:05'
     type: lc
-    rear_port: '{module}:1'
     label: 03-A
-    rear_port_position: 3
+    positions: 1
   - name: '{module}:06'
     type: lc
-    rear_port: '{module}:1'
     label: 03-B
-    rear_port_position: 10
+    positions: 1
   - name: '{module}:07'
     type: lc
-    rear_port: '{module}:1'
     label: 04-A
-    rear_port_position: 4
+    positions: 1
   - name: '{module}:08'
     type: lc
-    rear_port: '{module}:1'
     label: 04-B
-    rear_port_position: 9
+    positions: 1
   - name: '{module}:09'
     type: lc
-    rear_port: '{module}:1'
     label: 05-A
-    rear_port_position: 5
+    positions: 1
   - name: '{module}:10'
     type: lc
-    rear_port: '{module}:1'
     label: 05-B
-    rear_port_position: 8
+    positions: 1
   - name: '{module}:11'
     type: lc
-    rear_port: '{module}:1'
     label: 06-A
-    rear_port_position: 6
+    positions: 1
   - name: '{module}:12'
     type: lc
-    rear_port: '{module}:1'
     label: 06-B
-    rear_port_position: 7
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: mpo
     positions: 12
+port-mappings:
+  - front_port: '{module}:01'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:02'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 12
+  - front_port: '{module}:03'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 2
+  - front_port: '{module}:04'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 11
+  - front_port: '{module}:05'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 3
+  - front_port: '{module}:06'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 10
+  - front_port: '{module}:07'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 4
+  - front_port: '{module}:08'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 9
+  - front_port: '{module}:09'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 5
+  - front_port: '{module}:10'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 8
+  - front_port: '{module}:11'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 6
+  - front_port: '{module}:12'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 7

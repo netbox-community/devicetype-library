@@ -1,0 +1,23 @@
+---
+manufacturer: LILIN
+model: LR832
+slug: lilin-lr832
+part_number: LR832
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [LILIN LR832 product page](https://meritlilin.com/en/product/LR832)

@@ -1,0 +1,17 @@
+---
+profile: Power supply
+manufacturer: Supermicro
+model: PWS-1K23A-1R
+part_number: PWS-1K23A-1R
+description: PSU 80 Plus Titanium power supply capable of supplying 1200W output power at 96% efficiency
+airflow: front-to-rear
+attribute_data:
+  wattage: 1200
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+comments: See [Detailed Specification](https://store.supermicro.com/us_en/pub/media/wysiwyg/productspecs/PWS-1K23A-1R/PWS-1K23A-1R_quick_spec.pdf).
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 1200

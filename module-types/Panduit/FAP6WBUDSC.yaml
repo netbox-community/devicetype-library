@@ -1,0 +1,79 @@
+---
+manufacturer: Panduit
+model: Opticom Fiber Adapter Panel, MM, 6 SC Duplex
+part_number: FAP6WBUDSC
+front-ports:
+  - name: '{module}:1-2'
+    type: sc
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:3-4'
+    type: sc
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:5-6'
+    type: sc
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:7-8'
+    type: sc
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:9-10'
+    type: sc
+    description: Duplex SC Port
+    positions: 1
+  - name: '{module}:11-12'
+    type: sc
+    description: Duplex SC Port
+    positions: 1
+rear-ports:
+  - name: '{module}:1-2'
+    type: sc
+    positions: 1
+    description: Duplex SC Port
+  - name: '{module}:3-4'
+    type: sc
+    positions: 1
+    description: Duplex SC Port
+  - name: '{module}:5-6'
+    type: sc
+    positions: 1
+    description: Duplex SC Port
+  - name: '{module}:7-8'
+    type: sc
+    positions: 1
+    description: Duplex SC Port
+  - name: '{module}:9-10'
+    type: sc
+    positions: 1
+    description: Duplex SC Port
+  - name: '{module}:11-12'
+    type: sc
+    positions: 1
+    description: Duplex SC Port
+port-mappings:
+  - front_port: '{module}:1-2'
+    front_port_position: 1
+    rear_port: '{module}:1-2'
+    rear_port_position: 1
+  - front_port: '{module}:3-4'
+    front_port_position: 1
+    rear_port: '{module}:3-4'
+    rear_port_position: 1
+  - front_port: '{module}:5-6'
+    front_port_position: 1
+    rear_port: '{module}:5-6'
+    rear_port_position: 1
+  - front_port: '{module}:7-8'
+    front_port_position: 1
+    rear_port: '{module}:7-8'
+    rear_port_position: 1
+  - front_port: '{module}:9-10'
+    front_port_position: 1
+    rear_port: '{module}:9-10'
+    rear_port_position: 1
+  - front_port: '{module}:11-12'
+    front_port_position: 1
+    rear_port: '{module}:11-12'
+    rear_port_position: 1

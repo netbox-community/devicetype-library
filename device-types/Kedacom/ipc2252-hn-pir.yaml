@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC2252-HN-PIR
+slug: kedacom-ipc2252-hn-pir
+part_number: IPC2252-HN-PIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2252-HN-PIR product page](https://www.kedacom.com/th/hwqxwlsxj/4496.jhtml)

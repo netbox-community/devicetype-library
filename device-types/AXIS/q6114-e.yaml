@@ -1,0 +1,21 @@
+---
+manufacturer: AXIS
+model: Q6114-E
+slug: axis-q6114-e
+part_number: Q6114-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Axis Q6114-E datasheet](https://www.axis.com/products/axis-q6114-e) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-q6114-e)

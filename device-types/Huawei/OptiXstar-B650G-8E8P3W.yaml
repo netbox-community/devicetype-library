@@ -1,0 +1,71 @@
+---
+manufacturer: Huawei
+model: OptiXstar B650G-8E8P3W
+slug: huawei-optixstar-b650g-8e8p3w
+part_number: B650G-8E8P3W
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.4
+weight_unit: kg
+comments: '[EchoLife HG8310M Quick Start 01](https://support.huawei.com/enterprise/en/doc/EDOC1100532334/82d93e37/technical-specifications)'
+power-ports:
+  - name: DC 12V
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 6
+interfaces:
+  - name: PON
+    type: gpon
+    enabled: true
+  - name: LAN1
+    type: 1000base-t
+    enabled: true
+  - name: LAN2
+    type: 1000base-t
+    enabled: true
+  - name: LAN3
+    type: 1000base-t
+    enabled: true
+  - name: LAN4
+    type: 1000base-t
+    enabled: true
+  - name: LAN5
+    type: 1000base-t
+    enabled: true
+  - name: LAN6
+    type: 1000base-t
+    enabled: true
+  - name: LAN7
+    type: 1000base-t
+    enabled: true
+  - name: LAN8
+    type: 1000base-t
+    enabled: true
+console-ports:
+  - name: USB
+    type: usb-a
+  - name: TEL1
+    type: rj-11
+    description: POTS
+  - name: TEL2
+    type: rj-11
+    description: POTS
+  - name: TEL3
+    type: rj-11
+    description: POTS
+  - name: TEL4
+    type: rj-11
+    description: POTS
+  - name: TEL5
+    type: rj-11
+    description: POTS
+  - name: TEL6
+    type: rj-11
+    description: POTS
+  - name: TEL7
+    type: rj-11
+    description: POTS
+  - name: TEL8
+    type: rj-11
+    description: POTS

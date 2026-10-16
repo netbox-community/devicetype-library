@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2767G3T-LIZSY
+slug: hikvision-ds-2cd2767g3t-lizsy
+part_number: DS-2CD2767G3T-LIZSY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2767G3T-LIZSY datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000106992/DS-2CD2767G3T-LIZSY_Datasheet_20250506.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2767g3t-lizsy)

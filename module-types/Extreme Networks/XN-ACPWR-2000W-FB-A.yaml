@@ -1,7 +1,11 @@
 ---
 manufacturer: Extreme Networks
 model: XN-ACPWR-2000W-FB-A
+part_number: XN-ACPWR-2000W-FB-A
+# TODO: Ask Extreme for weight: XN-ACPWR-2000W-FB-A
+airflow: front-to-rear
+comments: 2000W AC PSU, for use in 5420M
 power-ports:
-  - name: Ps#{module}
+  - name: '{module}'
     type: iec-60320-c14
     maximum_draw: 2000

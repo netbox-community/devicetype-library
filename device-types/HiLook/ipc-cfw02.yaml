@@ -1,0 +1,19 @@
+---
+manufacturer: HiLook
+model: IPC-CFW02
+slug: hilook-ipc-cfw02
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-CFW02 datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000087600/IPC-CFW02_EU_Datasheet_20250121.pdf)

@@ -1,0 +1,19 @@
+---
+manufacturer: HiLook
+model: IPC-CFW06-P
+slug: hilook-ipc-cfw06-p
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-CFW06-P datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000165190/IPC-CFW06-P_Datasheet_20250410.pdf)

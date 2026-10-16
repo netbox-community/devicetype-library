@@ -5,7 +5,10 @@ slug: opengear-acm7008-2-m
 part_number: ACM7008-2-M
 u_height: 1
 is_full_depth: false
-comments: ACM7008 Console Server with 8 Console Ports on the rear of the device.
+comments: ACM7008 Console Server with 8x RJ45 and 4x USB Console Ports on the rear of the device. [Data sheet](https://opengear.com/wp-content/uploads/2017/06/Remote_Site_Gateway-Data_Sheet.pdf)
+weight: 0.6
+weight_unit: kg
+airflow: passive
 console-server-ports:
   - name: Port 1
     type: rj-45
@@ -23,15 +26,32 @@ console-server-ports:
     type: rj-45
   - name: Port 8
     type: rj-45
+  - name: port9
+    type: usb-a
+  - name: port10
+    type: usb-a
+  - name: port11
+    type: usb-a
+  - name: port12
+    type: usb-a
+console-ports:
+  - name: Modem
+    type: rj-11
+    description: V.92 POTS modem
 power-ports:
   - name: PS1
     type: iec-60320-c14
+    maximum_draw: 12
 interfaces:
   - name: net1_copper
     type: 1000base-t
-  - name: net1_sfp
-    type: 1000base-x-sfp
+    description: Combo Port with net1_sfp
   - name: net2_copper
     type: 1000base-t
+    description: Combo Port with net2_sfp
+  - name: net1_sfp
+    type: 1000base-x-sfp
+    description: Combo Port with net1_copper
   - name: net2_sfp
     type: 1000base-x-sfp
+    description: Combo Port with net2_copper

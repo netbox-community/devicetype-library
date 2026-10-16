@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2T87G3P-LIS2UY/SL
+slug: hikvision-ds-2cd2t87g3p-lis2uy-sl
+part_number: DS-2CD2T87G3P-LIS2UY/SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2T87G3P-LIS2UY/SL datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000107027/DS-2CD2T87G3P-LIS2UY_SLBlack_Datasheet_20260711.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2t87g3p-lis2uy-sl)

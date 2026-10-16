@@ -1,0 +1,38 @@
+---
+manufacturer: MikroTik
+model: CRS304-4XG-IN
+slug: mikrotik-crs304-4xg-in
+part_number: CRS304-4XG
+u_height: 0
+is_full_depth: false
+weight: 0.61
+weight_unit: kg
+airflow: passive
+comments: '[MikroTik CRS304-4XG-IN Datasheet](https://mikrotik.com/product/crs304_4xg_in)'
+interfaces:
+  - name: ether1
+    type: 10gbase-t
+  - name: ether2
+    type: 10gbase-t
+  - name: ether3
+    type: 10gbase-t
+  - name: ether4
+    type: 10gbase-t
+  - name: ether5
+    type: 1000base-t
+    label: MGMT/BOOT
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC jack 1
+    type: dc-terminal
+    maximum_draw: 21
+    description: DC jack input 12-57V
+  - name: DC jack 2
+    type: dc-terminal
+    maximum_draw: 21
+    description: DC jack input 12-57V
+  - name: DC 2 pin terminal
+    type: dc-terminal
+    maximum_draw: 21
+    description: DC 2 pin terminal input 12-57V

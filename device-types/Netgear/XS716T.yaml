@@ -1,0 +1,69 @@
+---
+manufacturer: Netgear
+model: XS716T
+slug: netgear-xs716t
+u_height: 1.0
+is_full_depth: false
+airflow: right-to-left
+comments: '[10-Gigabit Ethernet Smart Switches (XS7xxT)](https://www.downloads.netgear.com/files/GDC/XS708T/XS708T_XS712Tv2_XS716T_XS728T_XS748T_DS.pdf)'
+weight: 2.98
+weight_unit: kg
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 96
+interfaces:
+  - name: TenGigabitEthernet/1
+    type: 10gbase-t
+    label: '1'
+  - name: TenGigabitEthernet/2
+    type: 10gbase-t
+    label: '2'
+  - name: TenGigabitEthernet/3
+    type: 10gbase-t
+    label: '3'
+  - name: TenGigabitEthernet/4
+    type: 10gbase-t
+    label: '4'
+  - name: TenGigabitEthernet/5
+    type: 10gbase-t
+    label: '5'
+  - name: TenGigabitEthernet/6
+    type: 10gbase-t
+    label: '6'
+  - name: TenGigabitEthernet/7
+    type: 10gbase-t
+    label: '7'
+  - name: TenGigabitEthernet/8
+    type: 10gbase-t
+    label: '8'
+  - name: TenGigabitEthernet/9
+    type: 10gbase-t
+    label: '9'
+  - name: TenGigabitEthernet/10
+    type: 10gbase-t
+    label: '10'
+  - name: TenGigabitEthernet/11
+    type: 10gbase-t
+    label: '11'
+  - name: TenGigabitEthernet/12
+    type: 10gbase-t
+    label: '12'
+  - name: TenGigabitEthernet/13
+    type: 10gbase-t
+    label: '13'
+  - name: TenGigabitEthernet/14
+    type: 10gbase-t
+    label: '14'
+  - name: TenGigabitEthernet/15T
+    type: 10gbase-t
+    label: 15T
+  - name: TenGigabitEthernet/16T
+    type: 10gbase-t
+    label: 16T
+  - name: TenGigabitEthernet/15F
+    type: 10gbase-x-sfpp
+    label: 15F
+  - name: TenGigabitEthernet/16F
+    type: 10gbase-x-sfpp
+    label: 16F

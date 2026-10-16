@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5842H-ZHE
+slug: dahua-ipc-hfw5842h-zhe
+part_number: IPC-HFW5842H-ZHE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 16.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+comments: >
+  [Dahua IPC-HFW5842H-ZHE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5842h-zhe)

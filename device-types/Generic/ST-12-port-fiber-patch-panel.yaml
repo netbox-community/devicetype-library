@@ -12,62 +12,123 @@ is_powered: false
 front-ports:
   - name: FP_1
     type: st
-    rear_port: RP_1
+    positions: 1
   - name: FP_2
     type: st
-    rear_port: RP_2
+    positions: 1
   - name: FP_3
     type: st
-    rear_port: RP_3
+    positions: 1
   - name: FP_4
     type: st
-    rear_port: RP_4
+    positions: 1
   - name: FP_5
     type: st
-    rear_port: RP_5
+    positions: 1
   - name: FP_6
     type: st
-    rear_port: RP_6
+    positions: 1
   - name: FP_7
     type: st
-    rear_port: RP_7
+    positions: 1
   - name: FP_8
     type: st
-    rear_port: RP_8
+    positions: 1
   - name: FP_9
     type: st
-    rear_port: RP_9
+    positions: 1
   - name: FP_10
     type: st
-    rear_port: RP_10
+    positions: 1
   - name: FP_11
     type: st
-    rear_port: RP_11
+    positions: 1
   - name: FP_12
     type: st
-    rear_port: RP_12
+    positions: 1
 rear-ports:
   - name: RP_1
     type: st
+    positions: 1
   - name: RP_2
     type: st
+    positions: 1
   - name: RP_3
     type: st
+    positions: 1
   - name: RP_4
     type: st
+    positions: 1
   - name: RP_5
     type: st
+    positions: 1
   - name: RP_6
     type: st
+    positions: 1
   - name: RP_7
     type: st
+    positions: 1
   - name: RP_8
     type: st
+    positions: 1
   - name: RP_9
     type: st
+    positions: 1
   - name: RP_10
     type: st
+    positions: 1
   - name: RP_11
     type: st
+    positions: 1
   - name: RP_12
     type: st
+    positions: 1
+port-mappings:
+  - front_port: FP_1
+    front_port_position: 1
+    rear_port: RP_1
+    rear_port_position: 1
+  - front_port: FP_2
+    front_port_position: 1
+    rear_port: RP_2
+    rear_port_position: 1
+  - front_port: FP_3
+    front_port_position: 1
+    rear_port: RP_3
+    rear_port_position: 1
+  - front_port: FP_4
+    front_port_position: 1
+    rear_port: RP_4
+    rear_port_position: 1
+  - front_port: FP_5
+    front_port_position: 1
+    rear_port: RP_5
+    rear_port_position: 1
+  - front_port: FP_6
+    front_port_position: 1
+    rear_port: RP_6
+    rear_port_position: 1
+  - front_port: FP_7
+    front_port_position: 1
+    rear_port: RP_7
+    rear_port_position: 1
+  - front_port: FP_8
+    front_port_position: 1
+    rear_port: RP_8
+    rear_port_position: 1
+  - front_port: FP_9
+    front_port_position: 1
+    rear_port: RP_9
+    rear_port_position: 1
+  - front_port: FP_10
+    front_port_position: 1
+    rear_port: RP_10
+    rear_port_position: 1
+  - front_port: FP_11
+    front_port_position: 1
+    rear_port: RP_11
+    rear_port_position: 1
+  - front_port: FP_12
+    front_port_position: 1
+    rear_port: RP_12
+    rear_port_position: 1

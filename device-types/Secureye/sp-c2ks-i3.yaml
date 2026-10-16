@@ -1,0 +1,22 @@
+---
+manufacturer: Secureye
+model: SP-C2KS-I3
+slug: secureye-sp-c2ks-i3
+part_number: SP-C2KS-I3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-C2KS-I3 product page](https://www.secureye.com/product/sp-c2ks-i3-2mp-ip-dome-camera-30m-ir-poe-audio-tf-slot-2.8mm-pro-series)

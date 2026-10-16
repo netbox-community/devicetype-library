@@ -1,0 +1,27 @@
+---
+manufacturer: LILIN
+model: Z6R8952X3
+slug: lilin-z6r8952x3
+part_number: Z6R8952X3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 575
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN Z6R8952X3 product page](https://www.meritlilin.com/en/product/Z6R8952X3)

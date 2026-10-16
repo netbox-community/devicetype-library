@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: D2-210H
+slug: bolin-technology-d2-210h
+part_number: D2-210H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Bolin Technology D2-210H product page](https://bolintechnology.com/product/d2-210h-d2-220h-dante-av-h-ptz-camera)

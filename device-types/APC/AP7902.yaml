@@ -1,0 +1,68 @@
+---
+manufacturer: APC
+model: AP7902
+slug: apc-ap7902
+u_height: 2
+is_full_depth: false
+weight: 4.5
+weight_unit: kg
+airflow: passive
+power-ports:
+  - name: Input Cord
+    type: nema-l5-30p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 2
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 3
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 4
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 5
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 6
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 7
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 8
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 9
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 10
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 11
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 12
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 13
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 14
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 15
+    type: nema-5-20r
+    power_port: Input Cord
+  - name: Outlet 16
+    type: nema-5-20r
+    power_port: Input Cord
+interfaces:
+  - name: Network
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: Serial
+    type: rj-45

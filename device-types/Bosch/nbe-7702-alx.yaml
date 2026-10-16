@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: NBE-7702-ALX
+slug: bosch-nbe-7702-alx
+part_number: NBE-7702-ALX
+description: DINION 7100i IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [Bosch NBE-7702-ALX datasheet](https://commerce.boschsecurity.com/xf/en/DINION-7100i-IR/p/F.01U.390.686/)

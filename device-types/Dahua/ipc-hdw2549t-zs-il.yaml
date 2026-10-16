@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW2549T-ZS-IL
+slug: dahua-ipc-hdw2549t-zs-il
+part_number: IPC-HDW2549T-ZS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-HDW2549T-ZS-IL datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw2549t-zs-il)

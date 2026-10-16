@@ -1,0 +1,25 @@
+---
+manufacturer: GW Security
+model: GW802702M
+slug: gw-security-gw802702m
+part_number: GW802702M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GW Security GW802702M product page](https://gwsecurityusa.com/product/gw802702m-8mp-2-8mm-fixed-lens-bullet-security-camera-built-in-microphone-human-vehicle-detection-area-intrusion-white-light)

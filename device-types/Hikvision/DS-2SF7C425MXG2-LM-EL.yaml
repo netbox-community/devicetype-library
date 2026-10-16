@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2SF7C425MXG2/LM-EL
+slug: hikvision-ds-2sf7c425mxg2-lm-el
+part_number: DS-2SF7C425MXG2/LM-EL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 90 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 90
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Hikvision DS-2SF7C425MXG2/LM-EL datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000101372/DS-2SF7C425MXG2_LM-EL_26_Datasheet_20260417.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2sf7c425mxg2-lm-el)

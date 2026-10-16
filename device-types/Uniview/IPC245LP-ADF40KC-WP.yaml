@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC245LP-ADF40KC-WP
+slug: uniview-ipc245lp-adf40kc-wp
+part_number: IPC245LP-ADF40KC-WP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 870
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC245LP-ADF40KC-WP datasheet](https://www.uniview.com/Products/Network_Cameras/Owlview_Series/Owlview/IPC245LP-ADF40KC-WP/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc245lp-adf40kc-wp)

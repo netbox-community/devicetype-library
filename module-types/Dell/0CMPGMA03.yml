@@ -1,9 +1,16 @@
 ---
+profile: Power supply
 manufacturer: Dell
 model: 0CMPGMA03
 part_number: 0CMPGMA03
-comments: Dell 110W power supply
+description: Dell 1100 W power supply
+airflow: front-to-rear
+attribute_data:
+  wattage: 1100
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 230
 power-ports:
-  - name: PSU-{module}
+  - name: PSU{module}
     type: iec-60320-c14
     maximum_draw: 1100

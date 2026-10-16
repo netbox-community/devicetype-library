@@ -1,0 +1,10 @@
+---
+manufacturer: Supermicro
+model: PWS-903-PQ
+part_number: PWS-903-PQ
+description: 900W Power Supply
+comments: '[Datasheet](https://store.supermicro.com/media/wysiwyg/productspecs/PWS-903-PQ/PWS-903-PQ_Quick_spec.pdf)'
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 900

@@ -9,11 +9,17 @@ weight_unit: kg
 airflow: front-to-rear
 front_image: true
 rear_image: true
-comments: '[Technical Guide](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r760-technical-guide.pdf)'
+comments: |
+  [Specsheet](https://servermall.ru/upload/datasheet/dell-poweredge-r760-datasheet.pdf)
+  [Technical Guide](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r760-technical-guide.pdf)
 console-ports:
   - name: Rear Serial
     type: de-9
 interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
   - name: iDRAC9 1
     label: iDRAC
     type: 1000base-t

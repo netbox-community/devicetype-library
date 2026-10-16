@@ -1,0 +1,25 @@
+---
+manufacturer: TVT Digital
+model: TD-9545A3BH-SD
+slug: tvt-digital-td-9545a3bh-sd
+part_number: TD-9545A3BH-SD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [TVT Digital TD-9545A3BH-SD product page](https://en.tvt.net.cn/products/1391.html)

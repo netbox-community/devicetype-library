@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HF7842F-Z-X
+slug: dahua-ipc-hf7842f-z-x
+part_number: IPC-HF7842F-Z-X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-HF7842F-Z-X datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-7-series/ir-series/ipc-hf7842f-z-x)

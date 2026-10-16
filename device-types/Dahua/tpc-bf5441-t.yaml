@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-BF5441-T
+slug: dahua-tpc-bf5441-t
+part_number: TPC-BF5441-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua TPC-BF5441-T datasheet](https://www.dahuasecurity.com/products/thermal-products/thermal-cameras/thermography-series/tpc-bf5441-t-v1)

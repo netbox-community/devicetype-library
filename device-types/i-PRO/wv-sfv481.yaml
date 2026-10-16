@@ -1,0 +1,22 @@
+---
+manufacturer: i-PRO
+model: WV-SFV481
+slug: i-pro-wv-sfv481
+part_number: WV-SFV481
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 860
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [i-PRO WV-SFV481 datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-sfv481)

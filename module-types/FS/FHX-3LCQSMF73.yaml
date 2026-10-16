@@ -6,28 +6,22 @@ comments: (discontinued) 3x LC Quad, 12 Fibers OS2 Single Mode FHX TAP Cassette,
 front-ports:
   - name: '{module}:1'
     type: lc
-    rear_port: '{module}:1'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:2'
     type: lc
-    rear_port: '{module}:2'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:1-TAP1'
     type: lc
-    rear_port: '{module}:1'
-    rear_port_position: 2
+    positions: 1
   - name: '{module}:1-TAP2'
     type: lc
-    rear_port: '{module}:1'
-    rear_port_position: 3
+    positions: 1
   - name: '{module}:2-TAP1'
     type: lc
-    rear_port: '{module}:2'
-    rear_port_position: 2
+    positions: 1
   - name: '{module}:2-TAP2'
     type: lc
-    rear_port: '{module}:2'
-    rear_port_position: 3
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: lc
@@ -35,3 +29,28 @@ rear-ports:
   - name: '{module}:2'
     type: lc
     positions: 3
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:1-TAP1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 2
+  - front_port: '{module}:1-TAP2'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 3
+  - front_port: '{module}:2-TAP1'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 2
+  - front_port: '{module}:2-TAP2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 3

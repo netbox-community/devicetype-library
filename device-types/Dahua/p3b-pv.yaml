@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: P3B-PV
+slug: dahua-p3b-pv
+part_number: P3B-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 425
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.56 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua P3B-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/p3b-pv)

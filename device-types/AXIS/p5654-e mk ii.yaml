@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: P5654-E Mk II
+slug: axis-p5654-e-mk-ii
+part_number: P5654-E Mk II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16 W
+comments: >
+  [Axis P5654-E Mk II datasheet](https://www.axis.com/products/axis-p5654-e-mk-ii) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-p5654-e-mk-ii)

@@ -1,0 +1,26 @@
+---
+manufacturer: Illustra
+model: IES02-B10-BI04
+slug: illustra-ies02-b10-bi04
+part_number: IES02-B10-BI04
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 490
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Illustra IES02-B10-BI04 product page](https://illustracameras.com/wp-content/uploads/2022/08/Illustra-Essentials-Gen4-Bullet-Data-Sheet_R06.pdf)

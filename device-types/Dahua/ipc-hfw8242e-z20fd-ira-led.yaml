@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW8242E-Z20FD-IRA-LED
+slug: dahua-ipc-hfw8242e-z20fd-ira-led
+part_number: IPC-HFW8242E-Z20FD-IRA-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2460
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 21 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+comments: >
+  [Dahua IPC-HFW8242E-Z20FD-IRA-LED datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw8242e-z20fd-ira-led)

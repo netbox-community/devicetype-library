@@ -1,0 +1,28 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2787G3-LIPTRZS2UY/SRB
+slug: hikvision-ds-2cd2787g3-liptrzs2uy-srb
+part_number: DS-2CD2787G3-LIPTRZS2UY/SRB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1230
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2787G3-LIPTRZS2UY/SRB datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000106989/DS-2CD2787G3-LIPTRZS2UY_SRBBlack_Datasheet_20260629.pdf)
+  | [Specs on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd2787g3-liptrzs2uy-srb)

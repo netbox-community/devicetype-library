@@ -14,7 +14,7 @@ weight_unit: kg
 front-ports:
   - name: IN RG45 NET SURGE PROTECTION
     type: 8p8c
-    rear_port: OUT RG45 NET SURGE PROTECTION
+    positions: 1
 rear-ports:
   - name: OUT RG45 NET SURGE PROTECTION
     type: 8p8c
@@ -74,3 +74,8 @@ module-bays:
     label: INTELLIGENT SLOT
     description: INTELLIGENT SLOT
     position: INTELLIGENT SLOT
+port-mappings:
+  - front_port: IN RG45 NET SURGE PROTECTION
+    front_port_position: 1
+    rear_port: OUT RG45 NET SURGE PROTECTION
+    rear_port_position: 1

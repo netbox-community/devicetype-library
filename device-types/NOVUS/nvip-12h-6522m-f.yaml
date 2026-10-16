@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-12H-6522M/F
+slug: novus-nvip-12h-6522m-f
+part_number: NVIP-12H-6522M/F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [NOVUS NVIP-12H-6522M/F datasheet](https://www.novuscctv.com/en/products/6307/NVIP-12H-6522M_F)

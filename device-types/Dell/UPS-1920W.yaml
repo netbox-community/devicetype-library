@@ -1,0 +1,47 @@
+---
+manufacturer: Dell
+model: UPS 1920W
+slug: dell-ups-1920w
+u_height: 2
+is_full_depth: true
+weight: 31
+weight_unit: kg
+airflow: front-to-rear
+power-ports:
+  - name: Input
+    type: iec-60320-c20
+    maximum_draw: 1920
+    allocated_draw: 1920
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+    power_port: Input
+  - name: Outlet 2
+    type: nema-5-20r
+    power_port: Input
+  - name: Outlet 3
+    type: nema-5-20r
+    power_port: Input
+  - name: Outlet 4
+    type: nema-5-20r
+    power_port: Input
+  - name: Outlet 5
+    type: nema-5-20r
+    power_port: Input
+  - name: Outlet 6
+    type: nema-5-20r
+    power_port: Input
+  - name: Outlet 7
+    type: iec-60320-c19
+    power_port: Input
+  - name: Outlet 8
+    type: iec-60320-c19
+    power_port: Input
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Input
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: Input
+comments: |
+  Line-interactive rack UPS, 1920W/1920VA, 120V, 20A input (IEC 320-C20).

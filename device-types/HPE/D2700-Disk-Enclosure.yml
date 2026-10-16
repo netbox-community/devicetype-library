@@ -1,0 +1,28 @@
+---
+manufacturer: HPE
+model: D2700 Disk Enclosure
+slug: hpe-d2700-disk-enclosure
+part_number: AJ941A
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+# Weight refers to an empty chassis without any modules installed
+weight: 13.2
+weight_unit: kg
+comments: |
+  Part numbers:
+  I/O module: 519320-001
+  PSU: 536404-001
+module-bays:
+  - name: I/O Module A
+    position: A
+    description: Upper middle
+  - name: I/O Module B
+    position: B
+    description: Lower middle
+  - name: PS1
+    position: '1'
+    description: Lower left
+  - name: PS2
+    position: '2'
+    description: Upper left

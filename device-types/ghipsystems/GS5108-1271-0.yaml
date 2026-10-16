@@ -1,0 +1,71 @@
+---
+manufacturer: ghipsystems
+model: GS5108-1271-0
+slug: ghipsystems-gs5108-1271-0
+comments: '[8 Channels 1271-1451nm, LC/UPC, Dual Fiber, CWDM](https://ghipsystems.com/cms/en/wdm-catalogue/express-cwdm/)'
+part_number: GS5108-1271-0
+u_height: 1
+is_full_depth: false
+is_powered: false
+front-ports:
+  - name: '1271'
+    type: lc
+    positions: 1
+  - name: '1291'
+    type: lc
+    positions: 1
+  - name: '1311'
+    type: lc
+    positions: 1
+  - name: '1331'
+    type: lc
+    positions: 1
+  - name: '1351'
+    type: lc
+    positions: 1
+  - name: '1371'
+    type: lc
+    positions: 1
+  - name: '1431'
+    type: lc
+    positions: 1
+  - name: '1451'
+    type: lc
+    positions: 1
+rear-ports:
+  - name: Network
+    type: lc
+    positions: 8
+port-mappings:
+  - front_port: '1271'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 1
+  - front_port: '1291'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 2
+  - front_port: '1311'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 3
+  - front_port: '1331'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 4
+  - front_port: '1351'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 5
+  - front_port: '1371'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 6
+  - front_port: '1431'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 7
+  - front_port: '1451'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 8

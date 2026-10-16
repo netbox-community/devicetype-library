@@ -1,0 +1,12 @@
+---
+manufacturer: FS
+model: QSFPP-40GBASE-LR4
+part_number: '36114'
+description: 40GBASE-LR4 QSFP+ 1310nm 10km DOM Duplex LC/UPC SMF Transceiver Module, Juniper QSFPP-40GBASE-LR4 Compatible
+comments: |
+  [40GBASE-LR4 QSFP+](https://www.fs.com/products/36114.html)
+interfaces:
+  - name: ethernet 1/{module}
+    type: 40gbase-x-qsfpp
+    enabled: true
+    mgmt_only: false

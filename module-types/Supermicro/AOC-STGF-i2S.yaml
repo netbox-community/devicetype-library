@@ -1,0 +1,11 @@
+---
+manufacturer: Supermicro
+model: Add-on Card AOC-STGF-i2S
+part_number: AOC-STGF-i2S
+description: Intel X710-BM2 network controller with dual SFP+ port
+comments: '[Specifications](https://www.supermicro.com/en/products/accessories/addon/AOC-ATG-i2S.php)'
+interfaces:
+  - name: Gig-E {module}/1
+    type: 10gbase-x-sfpp
+  - name: Gig-E {module}/2
+    type: 10gbase-x-sfpp

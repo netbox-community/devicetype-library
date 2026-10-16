@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-T2120HAP-LUF
+slug: hilook-ipc-t2120hap-luf
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-T2120HAP-LUF datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000185873/IPC-T2120HAP-LUF_SLEU_Datasheet_20260211.pdf)

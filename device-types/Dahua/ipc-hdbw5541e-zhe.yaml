@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5541E-ZHE
+slug: dahua-ipc-hdbw5541e-zhe
+part_number: IPC-HDBW5541E-ZHE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 910
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-HDBW5541E-ZHE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw5541e-zhe)

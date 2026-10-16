@@ -8,6 +8,8 @@ u_height: 6
 weight: 17.21
 weight_unit: kg
 is_full_depth: true
+front_image: true
+rear_image: true
 airflow: right-to-left
 module-bays:
   - name: Slot 1 Line-card
@@ -34,3 +36,7 @@ module-bays:
   - name: Power Supply Module 4
     label: PS4
     position: '4'
+  - name: Fan Tray
+    label: Fan
+    position: '1'
+    description: front and rear serviceable and hot-swappable fan tray

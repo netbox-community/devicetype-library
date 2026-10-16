@@ -5,6 +5,7 @@ part_number: C9200-48T
 slug: cisco-c9200-48t
 u_height: 1
 is_full_depth: false
+front_image: true
 comments: '[Cisco Catalyst 9200 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)'
 weight: 5.0
 weight_unit: kg
@@ -115,7 +116,7 @@ interfaces:
     type: cisco-stackwise
   - name: StackPort1/2
     type: cisco-stackwise
-  - name: GigabitEthernet0
+  - name: GigabitEthernet0/0
     type: 1000base-t
     mgmt_only: true
 module-bays:

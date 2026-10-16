@@ -1,0 +1,27 @@
+---
+manufacturer: Amcrest
+model: IP5M-D1188EW-AI-V3
+slug: amcrest-ip5m-d1188ew-ai-v3
+part_number: IP5M-D1188EW-AI-V3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Amcrest IP5M-D1188EW-AI-V3 datasheet](https://support.amcrest.com/hc/en-us/articles/25855591714573-Technical-Specifications-IP5M-D1188EW-AI-V3)

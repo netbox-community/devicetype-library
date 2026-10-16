@@ -1,18 +1,29 @@
 ---
 manufacturer: Panduit
-model: Opticom Fiber Drawer (8 Adapters, 2RU)
+model: Opticom Fiber Drawer, Black, 2 RU
 slug: panduit-fmd2
 part_number: FMD2
 u_height: 2
 is_full_depth: false
 subdevice_role: parent
 is_powered: false
-device-bays:
+airflow: passive
+weight: 12.65
+weight_unit: lb
+module-bays:
   - name: '01'
+    position: '01'
   - name: '02'
+    position: '02'
   - name: '03'
+    position: '03'
   - name: '04'
+    position: '04'
   - name: '05'
+    position: '05'
   - name: '06'
+    position: '06'
   - name: '07'
+    position: '07'
   - name: '08'
+    position: '08'

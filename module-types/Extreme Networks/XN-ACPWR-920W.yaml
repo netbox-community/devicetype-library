@@ -1,7 +1,11 @@
 ---
 manufacturer: Extreme Networks
 model: XN-ACPWR-920W
+part_number: XN-ACPWR-920W
+# TODO: Ask Extreme for weight: XN-ACPWR-920W
+airflow: front-to-rear
+comments: 920W AC PoE PSU, for use in 4120, 5420F, and 5420M
 power-ports:
-  - name: Ps#{module}
+  - name: '{module}'
     type: iec-60320-c14
     maximum_draw: 920

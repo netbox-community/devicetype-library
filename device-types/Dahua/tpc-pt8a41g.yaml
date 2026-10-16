@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-PT8A41G
+slug: dahua-tpc-pt8a41g
+part_number: TPC-PT8A41G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 26000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 112 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 112
+comments: >
+  [Dahua TPC-PT8A41G datasheet](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/thermal-cameras/tpc-pt8a41g(for-project))

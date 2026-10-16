@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: QND-8080R (Korea)
+slug: hanwha-qnd-8080r-korea
+part_number: QND-8080R (Korea)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.9 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Hanwha QND-8080R (Korea) datasheet](https://www.hanwhavision.com/en/products/camera/network/dome/qnd-8080r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-qnd-8080r-kr)

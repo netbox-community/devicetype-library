@@ -2,7 +2,14 @@
 manufacturer: Lenovo
 model: 4P57A75973
 part_number: 4P57A75973
+profile: Power supply
 comments: ThinkSystem 750W 230V Titanium Hot-Swap Gen2 Power Supply v2
+airflow: front-to-rear
+attribute_data:
+  wattage: 750
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 230
 power-ports:
   - name: '{module}'
     type: iec-60320-c14

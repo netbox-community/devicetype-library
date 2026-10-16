@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-4H-6211/WL-II
+slug: novus-nvip-4h-6211-wl-ii
+part_number: NVIP-4H-6211/WL-II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [NOVUS NVIP-4H-6211/WL-II datasheet](https://www.novuscctv.com/en/products/6299/NVIP-4H-6211_WL-II)
