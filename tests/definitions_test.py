@@ -203,7 +203,7 @@ MODULE_BAY_TYPE_SLUGS = {}
 for bay_type_file in glob.glob('module-bay-types/*/*.y*ml'):
     with open(bay_type_file) as f:
         bay_type = yaml.safe_load(f)
-    KNOWN_MODULE_BAY_TYPES.add(bay_type['name'])
+    KNOWN_MODULE_BAY_TYPES.add((bay_type['manufacturer'], bay_type['name']))
     MODULE_BAY_TYPE_SLUGS.setdefault(bay_type['slug'], []).append(bay_type_file)
 
 @pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
@@ -265,8 +265,8 @@ def test_definitions(file_path, schema, change_type):
         for bay in definition.get("module-bays", []) or []:
             bay_type_refs += bay.get("module_bay_types", [])
         for ref in bay_type_refs:
-            if ref not in KNOWN_MODULE_BAY_TYPES:
-                pytest.fail(f"{file_path}: module bay type '{ref}' is not defined in module-bay-types/", False)
+            if not {(definition['manufacturer'], ref), ('Generic', ref)} & KNOWN_MODULE_BAY_TYPES:
+                pytest.fail(f"{file_path}: module bay type '{ref}' is not defined for {definition['manufacturer']} or Generic", False)
 
         rear_ports = definition.get("rear-ports", []) or []
         front_ports = definition.get("front-ports", []) or []
