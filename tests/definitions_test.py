@@ -198,6 +198,14 @@ else:
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
+KNOWN_MODULE_BAY_TYPES = set()
+MODULE_BAY_TYPE_SLUGS = {}
+for bay_type_file in glob.glob('module-bay-types/*/*.y*ml'):
+    with open(bay_type_file) as f:
+        bay_type = yaml.safe_load(f)
+    KNOWN_MODULE_BAY_TYPES.add(bay_type['name'])
+    MODULE_BAY_TYPE_SLUGS.setdefault(bay_type['slug'], []).append(bay_type_file)
+
 @pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
 def test_definitions(file_path, schema, change_type):
     """
@@ -252,6 +260,14 @@ def test_definitions(file_path, schema, change_type):
 
     # Validate that front-ports reference existing rear-ports
     if any(x in file_path for x in ("device-types", "module-types")):
+        # Every referenced module bay type must exist in module-bay-types/
+        bay_type_refs = list(definition.get("module_bay_types", []))
+        for bay in definition.get("module-bays", []) or []:
+            bay_type_refs += bay.get("module_bay_types", [])
+        for ref in bay_type_refs:
+            if ref not in KNOWN_MODULE_BAY_TYPES:
+                pytest.fail(f"{file_path}: module bay type '{ref}' is not defined in module-bay-types/", False)
+
         rear_ports = definition.get("rear-ports", []) or []
         front_ports = definition.get("front-ports", []) or []
 
@@ -373,6 +389,10 @@ def test_definitions(file_path, schema, change_type):
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
+
+    if isinstance(this_device, ModuleBayType) and len(MODULE_BAY_TYPE_SLUGS[this_device.slug]) > 1:
+        duplicates = ", ".join(sorted(MODULE_BAY_TYPE_SLUGS[this_device.slug]))
+        pytest.fail(f'{file_path} has a duplicate slug "{this_device.slug}": {duplicates}', False)
 
     # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)

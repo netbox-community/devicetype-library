@@ -248,8 +248,8 @@ def verify_filename(device: (DeviceType or ModuleType or RackType or ModuleBayTy
 
     # Check if file is ModuleBayType
     if "module-bay-types" in device.file_path:
-        if not filename == device.slug.casefold():
-            device.failureMessage = f'{device.file_path} file name is invalid. Must be the slug "{device.slug}"'
+        if not filename == device.name.casefold():
+            device.failureMessage = f'{device.file_path} file name is invalid. Must be the name "{device.name}"'
             return False
         return True
 
