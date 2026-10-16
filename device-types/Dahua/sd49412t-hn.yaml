@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD49412T-HN
+slug: dahua-sd49412t-hn
+part_number: SD49412T-HN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua SD49412T-HN datasheet](https://www.dahuasecurity.com/products/discontinued-products/ptz-cameras/sd49412t-hn)

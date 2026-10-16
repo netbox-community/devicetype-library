@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC980
+slug: kedacom-ipc980
+part_number: IPC980
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 40000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 120 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 120
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Kedacom IPC980 product page](https://www.kedacom.com/en/ythwlsxj/4718.jhtml)

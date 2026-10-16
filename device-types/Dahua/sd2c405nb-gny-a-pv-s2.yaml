@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD2C405NB-GNY-A-PV-S2
+slug: dahua-sd2c405nb-gny-a-pv-s2
+part_number: SD2C405NB-GNY-A-PV-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua SD2C405NB-GNY-A-PV-S2 datasheet](https://www.dahuasecurity.com/products/network-products/pt-cameras/ip-pt-2-series/single-lens/sd2c405nb-gny-a-pv-s2)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HCBW8442
+slug: dahua-ipc-hcbw8442
+part_number: IPC-HCBW8442
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1365
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-HCBW8442 datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-8-series/corner-series/ipc-hcbw8442)

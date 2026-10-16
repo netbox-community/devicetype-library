@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HUM8241-E2
+slug: dahua-ipc-hum8241-e2
+part_number: IPC-HUM8241-E2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HUM8241-E2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hum8241-e2)

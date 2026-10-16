@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-MFW7842K1-Z7-T20
+slug: dahua-ipc-mfw7842k1-z7-t20
+part_number: IPC-MFW7842K1-Z7-T20
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1905
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-MFW7842K1-Z7-T20 datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-7-series/dual-sight/ipc-mfw7842k1-z7-t20)

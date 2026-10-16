@@ -1,0 +1,27 @@
+---
+manufacturer: TVT Digital
+model: TD-9482C2H-PA
+slug: tvt-digital-td-9482c2h-pa
+part_number: TD-9482C2H-PA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [TVT Digital TD-9482C2H-PA product page](https://en.tvt.net.cn/products/1340.html)

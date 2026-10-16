@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5541E-Z5E
+slug: dahua-ipc-hfw5541e-z5e
+part_number: IPC-HFW5541E-Z5E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1130
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua IPC-HFW5541E-Z5E datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5541e-z5e)

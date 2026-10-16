@@ -1,0 +1,19 @@
+---
+manufacturer: Bosch
+model: NDE-8704-RL
+slug: bosch-nde-8704-rl
+part_number: NDE-8704-RL
+description: FLEXIDOME 8100i IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal

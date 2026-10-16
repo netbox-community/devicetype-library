@@ -1,0 +1,18 @@
+---
+manufacturer: Dahua
+model: IPC-PT1439H-PV
+slug: dahua-ipc-pt1439h-pv
+part_number: IPC-PT1439H-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+comments: >
+  [Dahua IPC-PT1439H-PV datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-IPC-PT1439H-PV_S0_datasheet_20250908.pdf)

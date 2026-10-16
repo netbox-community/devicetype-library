@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD9167-H
+slug: vivotek-fd9167-h
+part_number: FD9167-H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 459
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC

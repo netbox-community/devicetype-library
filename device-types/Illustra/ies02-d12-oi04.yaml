@@ -1,0 +1,26 @@
+---
+manufacturer: Illustra
+model: IES02-D12-OI04
+slug: illustra-ies02-d12-oi04
+part_number: IES02-D12-OI04
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Illustra IES02-D12-OI04 product page](https://illustracameras.com/wp-content/uploads/2022/08/Illustra-Essentials-Gen4-Varifocal-Mini-Dome-Data-Sheet_R05.pdf)

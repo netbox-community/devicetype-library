@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6AL433XA-HNR
+slug: dahua-sd6al433xa-hnr
+part_number: SD6AL433XA-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+comments: >
+  [Dahua SD6AL433XA-HNR datasheet](https://www.dahuasecurity.com/products/discontinued-products/ptz-cameras/sd6al433xa-hnr)

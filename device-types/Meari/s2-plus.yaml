@@ -1,0 +1,23 @@
+---
+manufacturer: Meari
+model: S2 Plus
+slug: meari-s2-plus
+part_number: S2 Plus
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Meari S2 Plus product page](https://www.meari.com/zh/products/S2Plus)

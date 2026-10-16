@@ -1,0 +1,23 @@
+---
+manufacturer: Kedacom
+model: LC2150-AN-D
+slug: kedacom-lc2150-an-d
+part_number: LC2150-AN-D
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom LC2150-AN-D product page](https://www.kedacom.com/th/hwqxwlsxj/4351.jhtml)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD3E410DB-GNY-A-PV1
+slug: dahua-sd3e410db-gny-a-pv1
+part_number: SD3E410DB-GNY-A-PV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1580
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [Dahua SD3E410DB-GNY-A-PV1 datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-SD3E410DB-GNY-A-PV1_datasheet_20251104.pdf)

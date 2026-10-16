@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW2230T-AS-S2
+slug: dahua-ipc-hdw2230t-as-s2
+part_number: IPC-HDW2230T-AS-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 390
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HDW2230T-AS-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw2230t-as-s2)

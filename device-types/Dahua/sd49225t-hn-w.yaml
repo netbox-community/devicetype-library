@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD49225T-HN-W
+slug: dahua-sd49225t-hn-w
+part_number: SD49225T-HN-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua SD49225T-HN-W datasheet](https://materialfile.dahuasecurity.com/product/20180821/SD49225T-HN-W_Datasheet_20180821.pdf)

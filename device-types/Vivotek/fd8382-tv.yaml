@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD8382-TV
+slug: vivotek-fd8382-tv
+part_number: FD8382-TV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC

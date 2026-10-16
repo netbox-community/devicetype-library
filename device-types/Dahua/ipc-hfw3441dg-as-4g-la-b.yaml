@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3441DG-AS-4G-LA-B
+slug: dahua-ipc-hfw3441dg-as-4g-la-b
+part_number: IPC-HFW3441DG-AS-4G-LA-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-HFW3441DG-AS-4G-LA-B datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-3-series/4g-camera/ipc-hfw3441dg-as-4g-la-b)

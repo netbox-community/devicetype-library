@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-MFW5241T2-E3-ASE
+slug: dahua-ipc-mfw5241t2-e3-ase
+part_number: IPC-MFW5241T2-E3-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua IPC-MFW5241T2-E3-ASE datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/perimeter-protection-camera/ipc-mfw5241t2-e3-ase)

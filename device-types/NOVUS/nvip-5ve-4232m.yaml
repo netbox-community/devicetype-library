@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-5VE-4232M
+slug: novus-nvip-5ve-4232m
+part_number: NVIP-5VE-4232M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 860
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [NOVUS NVIP-5VE-4232M datasheet](https://www.novuscctv.com/en/products/5468/NVIP-5VE-4232M)

@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-X4573LM
+slug: i-pro-wv-x4573lm
+part_number: WV-X4573LM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [i-PRO WV-X4573LM datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-x4573lm)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD49425XB-HNR-G
+slug: dahua-sd49425xb-hnr-g
+part_number: SD49425XB-HNR-G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 22.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+comments: >
+  [Dahua SD49425XB-HNR-G datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/DH-SD49425XB-HNR-G_datasheet_20200605.pdf)

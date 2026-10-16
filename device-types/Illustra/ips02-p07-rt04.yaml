@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IPS02-P07-RT04
+slug: illustra-ips02-p07-rt04
+part_number: IPS02-P07-RT04
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 30 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Illustra IPS02-P07-RT04 product page](https://illustracameras.com/wp-content/uploads/2022/08/Illustra-pro-Gen4-Indoor-PTZ_ds_r10_hs_en-1.pdf)

@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC981-T230-NIR
+slug: kedacom-ipc981-t230-nir
+part_number: IPC981-T230-NIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 36
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Kedacom IPC981-T230-NIR product page](https://www.kedacom.com/en/chezai/284.jhtml)

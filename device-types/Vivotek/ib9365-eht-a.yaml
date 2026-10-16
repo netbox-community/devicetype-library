@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IB9365-EHT-A
+slug: vivotek-ib9365-eht-a
+part_number: IB9365-EHT-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek IB9365-EHT-A product page](https://www.vivotek.com/resource/download-center/product/download/70614)

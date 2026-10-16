@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD6CE245U-HNI
+slug: dahua-sd6ce245u-hni
+part_number: SD6CE245U-HNI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+comments: >
+  [Dahua SD6CE245U-HNI datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/16627/datasheet/SD6CE245U-HNI_Datasheet_20230602.pdf)

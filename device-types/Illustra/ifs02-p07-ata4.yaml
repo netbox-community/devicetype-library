@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IFS02-P07-ATA4
+slug: illustra-ifs02-p07-ata4
+part_number: IFS02-P07-ATA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Illustra IFS02-P07-ATA4 product page](https://illustracameras.com/wp-content/uploads/2023/04/Illustra-Flex-G4-PTZ-IR_Bubble-Data-Sheet_9-20-25.pdf)

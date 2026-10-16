@@ -1,0 +1,27 @@
+---
+manufacturer: LILIN
+model: P5R6352E2
+slug: lilin-p5r6352e2
+part_number: P5R6352E2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN P5R6352E2 product page](https://www.meritlilin.com/en/product/P5R6352E2)

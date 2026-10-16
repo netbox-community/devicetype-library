@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5241R-ASE-NI
+slug: dahua-ipc-hdbw5241r-ase-ni
+part_number: IPC-HDBW5241R-ASE-NI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 453
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-HDBW5241R-ASE-NI datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw5241r-ase-ni)

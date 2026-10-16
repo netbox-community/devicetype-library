@@ -1,0 +1,22 @@
+---
+manufacturer: i-PRO
+model: WV-S15700-V2LN
+slug: i-pro-wv-s15700-v2ln
+part_number: WV-S15700-V2LN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [i-PRO WV-S15700-V2LN datasheet](https://i-pro.com/products_and_solutions/sites/default/files/2024-01/WV-S15700-V2LN%20_%20i-PRO%20Global_R4_240123.pdf)

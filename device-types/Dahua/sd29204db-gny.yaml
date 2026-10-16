@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD29204DB-GNY
+slug: dahua-sd29204db-gny
+part_number: SD29204DB-GNY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 713
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua SD29204DB-GNY datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-SD29204DB-GNY_S0_datasheet_20251104.pdf)

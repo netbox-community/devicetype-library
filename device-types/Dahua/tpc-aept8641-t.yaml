@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-AEPT8641-T
+slug: dahua-tpc-aept8641-t
+part_number: TPC-AEPT8641-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 47000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 120 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 120
+comments: >
+  [Dahua TPC-AEPT8641-T datasheet](https://www.dahuasecurity.com/products/thermal-products/thermal-cameras/explosion-proof-series/tpc-aept8641-t)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: PICOO-P5D
+slug: dahua-picoo-p5d
+part_number: PICOO-P5D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 585
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua PICOO-P5D datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/picoo-p5d)

@@ -7,60 +7,78 @@ u_height: 18
 weight: 83.5
 weight_unit: kg
 is_full_depth: true
+front_image: true
+rear_image: true
 airflow: front-to-rear
 comments: '[Cisco Catalyst 9610 Series Switches Data Sheet](https://www.cisco.com/site/us/en/products/collateral/networking/switches/c9610-series-smart-switches/c9610-series-smart-switches-ds.html)'
 module-bays:
-  - name: Slot 1
+  - name: Slot 1 Line-card
+    label: '1'
     position: '1'
-    description: Line Card
-  - name: Slot 2
+  - name: Slot 2 Line-card
+    label: '2'
     position: '2'
-    description: Line Card
-  - name: Slot 3
+  - name: Slot 3 Line-card
+    label: '3'
     position: '3'
-    description: Line Card
-  - name: Slot 4
+  - name: Slot 4 Line-card
+    label: '4'
     position: '4'
-    description: Line Card
-  - name: Slot 5
+  - name: Slot 5 Supervisor
+    label: '5'
     position: '5'
-    description: Supervisor Module
-  - name: Slot 6
+  - name: Slot 6 Supervisor
+    label: '6'
     position: '6'
-    description: Supervisor Module
-  - name: Slot 7
+  - name: Slot 7 Line-card
+    label: '7'
     position: '7'
-    description: Line Card
-  - name: Slot 8
+  - name: Slot 8 Line-card
+    label: '8'
     position: '8'
-    description: Line Card
-  - name: Slot 9
+  - name: Slot 9 Line-card
+    label: '9'
     position: '9'
-    description: Line Card
-  - name: Slot 10
+  - name: Slot 10 Line-card
+    label: '10'
     position: '10'
-    description: Line Card
-  - name: PS-1
+  - name: Power Supply Module 1
+    label: PS1
     position: '1'
-    description: PSU-1
-  - name: PS-2
+  - name: Power Supply Module 2
+    label: PS2
     position: '2'
-    description: PSU-2
-  - name: PS-3
+  - name: Power Supply Module 3
+    label: PS3
     position: '3'
-    description: PSU-3
-  - name: PS-4
+  - name: Power Supply Module 4
+    label: PS4
     position: '4'
-    description: PSU-4
-  - name: PS-5
+  - name: Power Supply Module 5
+    label: PS5
     position: '5'
-    description: PSU-5
-  - name: PS-6
+  - name: Power Supply Module 6
+    label: PS6
     position: '6'
-    description: PSU-6
-  - name: PS-7
+  - name: Power Supply Module 7
+    label: PS7
     position: '7'
-    description: PSU-7
-  - name: PS-8
+  - name: Power Supply Module 8
+    label: PS8
     position: '8'
-    description: PSU-8
+  - name: Fan Tray 1
+    label: Fan 1
+    position: '1'
+    description: rear serviceable and hot-swappable fan tray
+  - name: Fan Tray 2
+    label: Fan 2
+    position: '2'
+    description: rear serviceable and hot-swappable fan tray
+  - name: Fan Tray 3
+    label: Fan 3
+    position: '3'
+    description: rear serviceable and hot-swappable fan tray
+  - name: Fan Tray 4
+    label: Fan 4
+    position: '4'
+    description: rear serviceable and hot-swappable fan tray

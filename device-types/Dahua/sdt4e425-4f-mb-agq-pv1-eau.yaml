@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SDT4E425-4F-MB-AGQ-PV1-EAU
+slug: dahua-sdt4e425-4f-mb-agq-pv1-eau
+part_number: SDT4E425-4F-MB-AGQ-PV1-EAU
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+comments: >
+  [Dahua SDT4E425-4F-MB-AGQ-PV1-EAU datasheet](https://www.dahuasecurity.com/ceen/products/All-Products/PTZ-Cameras/Wireless-Series/4G-camera/SDT4E425-4F-MB-AGQ-PV1-EAU=S2)

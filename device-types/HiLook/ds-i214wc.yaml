@@ -1,0 +1,26 @@
+---
+manufacturer: HiLook
+model: DS-I214W(C)
+slug: hilook-ds-i214wc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 115
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.9 W
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook DS-I214W(C) datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000056171/RU_DS-I214W-C_Datasheet_V5.5.801_20210716_210927.pdf)

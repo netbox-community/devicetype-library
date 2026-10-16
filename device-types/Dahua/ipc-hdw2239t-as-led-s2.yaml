@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW2239T-AS-LED-S2
+slug: dahua-ipc-hdw2239t-as-led-s2
+part_number: IPC-HDW2239T-AS-LED-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 365
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua IPC-HDW2239T-AS-LED-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw2239t-as-led-s2)

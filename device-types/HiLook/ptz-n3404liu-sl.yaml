@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: PTZ-N3404LIU/SL
+slug: hilook-ptz-n3404liu-sl
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1125
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HiLook PTZ-N3404LIU/SL datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000140881/Datasheet-of-PTZ-N3404LIU-SL-20240801.pdf)

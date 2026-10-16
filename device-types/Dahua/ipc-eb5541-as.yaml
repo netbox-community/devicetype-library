@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-EB5541-AS
+slug: dahua-ipc-eb5541-as
+part_number: IPC-EB5541-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 387
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-EB5541-AS datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-eb5541-as)

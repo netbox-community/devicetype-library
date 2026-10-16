@@ -1,0 +1,22 @@
+---
+manufacturer: Arecont Vision
+model: AV1125
+slug: arecont-vision-av1125
+part_number: AV1125
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1697
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Arecont Vision AV1125 product page](https://sales.arecontvision.com/product/MegaView+2+Series/AV1125)

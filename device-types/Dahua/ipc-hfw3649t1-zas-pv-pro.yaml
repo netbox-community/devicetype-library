@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3649T1-ZAS-PV-PRO
+slug: dahua-ipc-hfw3649t1-zas-pv-pro
+part_number: IPC-HFW3649T1-ZAS-PV-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HFW3649T1-ZAS-PV-PRO datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-3-series/tioc-pro-wizcolor/ipc-hfw3649t1-zas-pv-pro)

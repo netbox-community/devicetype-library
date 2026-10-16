@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW5442H-Z4HE
+slug: dahua-ipc-hfw5442h-z4he
+part_number: IPC-HFW5442H-Z4HE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua IPC-HFW5442H-Z4HE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5442h-z4he)

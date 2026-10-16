@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW8341X-BV-3D
+slug: dahua-ipc-hdw8341x-bv-3d
+part_number: IPC-HDW8341X-BV-3D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 810
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua IPC-HDW8341X-BV-3D datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw8341x-bv-3d)

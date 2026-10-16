@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: PSDW81642M-A360-D440-S3
+slug: dahua-psdw81642m-a360-d440-s3
+part_number: PSDW81642M-A360-D440-S3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 99 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 99
+comments: >
+  [Dahua PSDW81642M-A360-D440-S3 datasheet](https://materialfile.dahuasecurity.com/uploads/soft/20250624/PSDW81642M-A360-D440-S3_S3_datasheet_for-project.pdf)

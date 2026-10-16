@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: H5A
+slug: dahua-h5a
+part_number: H5A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 195
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua H5A datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/hero-series/h5a)

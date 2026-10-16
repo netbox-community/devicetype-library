@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW22C4X-BV-3D-UMCS
+slug: dahua-ipc-hdw22c4x-bv-3d-umcs
+part_number: IPC-HDW22C4X-BV-3D-UMCS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 12.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [Dahua IPC-HDW22C4X-BV-3D-UMCS datasheet](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hdw22c4x-bv-3d-umcs)
