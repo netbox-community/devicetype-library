@@ -9,39 +9,37 @@ weight_unit: kg
 u_height: 0
 is_full_depth: false
 subdevice_role: child
-interfaces:
-  - name: interconnect {module}, L1
-    description: CXP28 (300 Gb/s Interconnect Link)
-    type: other
-  - name: interconnect {module}, L2
-    description: CXP28 (300 Gb/s Interconnect Link)
-    type: other
-  - name: interconnect {module}, L3
-    description: CXP28 (300 Gb/s Interconnect Link)
-    type: other
-  - name: interconnect {module}, L4
-    description: CXP28 (300 Gb/s Interconnect Link)
-    type: other
-  - name: interconnect {module}, Q1
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q2
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q3
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q4
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q5
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q6
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q7
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, Q8
-    type: 50gbase-x-sfp28
-  - name: interconnect {module}, X1
-    type: 10gbase-x-sfpp
-  - name: interconnect {module}, X2
-    type: 10gbase-x-sfpp
 console-ports:
-  - name: interconnect {module}, Serial Console
+  - name: Serial Console
     type: usb-micro-b
+module-bays:
+  - name: L1
+    position: L1
+  - name: L2
+    position: L2
+  - name: L3
+    position: L3
+  - name: L4
+    position: L4
+  - name: Q1
+    position: Q1
+  - name: Q2
+    position: Q2
+  - name: Q3
+    position: Q3
+  - name: Q4
+    position: Q4
+  - name: Q5
+    position: Q5
+  - name: Q6
+    position: Q6
+  - name: Q7
+    position: Q7
+    description: Stacking only
+  - name: Q8
+    position: Q8
+    description: Stacking only
+  - name: X1
+    position: X1
+  - name: X2
+    position: X2
