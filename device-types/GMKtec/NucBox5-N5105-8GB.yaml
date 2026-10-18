@@ -1,0 +1,49 @@
+---
+manufacturer: GMKtec
+model: NucBox5 N5105 8GB
+slug: gmktec-nucbox5-n5105-8gb
+u_height: 0
+is_full_depth: false
+airflow: side-to-rear
+weight: 250
+weight_unit: g
+front_image: true
+rear_image: true
+comments: |-
+  GMKtec NucBox5 with an Intel Celeron N5105 (4 cores / 4 threads).
+  It appears that GMKtec has created other devices with similar names.
+  This listing is for the one with 8 GB onboard LPDDR4 RAM and Intel
+  Dual Band Wireless-AC 7265 provides 2x2 Wi-Fi 5 (802.11ac).
+
+  The USB-C connector is a 12 V DC power input only; the supplied adapter is rated at 3 A.
+  See [product documentation](https://www.gmktec.com/products/gmktec-nucbox-5-mini-pc-intel%C2%AE-11th-jasper-lake-n5105-wi-fi-5)
+  and the [manufacturer's user manual](https://manuals.plus/m/99d2ef12321808f8922920f353fa0eba3def4ddfc8525ab047f4781dd8b093c6_optim.pdf).
+power-ports:
+  - name: PSU
+    type: usb-c
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ac
+console-ports:
+  - name: USB-A 1
+    type: usb-a
+    description: Front USB 3.2 Gen 1 (5 Gbps)
+  - name: USB-A 2
+    type: usb-a
+    description: Front USB 3.2 Gen 1 (5 Gbps)
+  - name: USB-A 3
+    type: usb-a
+    description: Rear USB 3.2 Gen 1 (5 Gbps)
+  # HDMI has no dedicated connector type in the schema.
+  - name: HDMI 1
+    type: other
+    description: Rear HDMI 2.0 output (4K at 60 Hz)
+  - name: HDMI 2
+    type: other
+    description: Rear HDMI 2.0 output (4K at 60 Hz)
+module-bays:
+  - name: M.2
+    position: '1'
+    label: M.2 2242
