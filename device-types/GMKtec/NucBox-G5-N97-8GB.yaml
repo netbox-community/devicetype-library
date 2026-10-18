@@ -1,7 +1,7 @@
 ---
 manufacturer: GMKtec
-model: NucBox5
-slug: gmktec-nucbox5
+model: NucBox G5 N97 8GB
+slug: gmktec-nucbox-g5-n97-8gb
 u_height: 0
 is_full_depth: false
 airflow: side-to-rear
@@ -10,12 +10,11 @@ weight_unit: g
 front_image: true
 rear_image: true
 comments: |-
-  Intel Celeron N5105 mini PC with 8 GB onboard LPDDR4 RAM.
-  This definition describes the Wi-Fi 5 variant with an Intel Wireless-AC 7265.
+  Intel N97 mini PC with 8 GB RAM.
+  This definition identifies the 8 GB variant separately from the 12 GB NucBox G5.
+  Memory generation and wireless chipset are not specified for this variant.
 
   The USB-C connector is a 12 V DC power input only; the supplied adapter is rated at 3 A.
-  See [product documentation](https://www.gmktec.com/products/gmktec-nucbox-5-mini-pc-intel%C2%AE-11th-jasper-lake-n5105-wi-fi-5)
-  and the [manufacturer's user manual](https://manuals.plus/m/99d2ef12321808f8922920f353fa0eba3def4ddfc8525ab047f4781dd8b093c6_optim.pdf).
 power-ports:
   - name: PSU
     type: usb-c
