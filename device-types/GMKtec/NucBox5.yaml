@@ -1,0 +1,25 @@
+---
+manufacturer: GMKtec
+model: NucBox5
+slug: gmktec-nucbox5
+u_height: 0
+is_full_depth: false
+comments: |-
+  Intel Celeron N5105 mini PC with 8 GB onboard LPDDR4 RAM.
+  This definition describes the Wi-Fi 5 variant with an Intel Wireless-AC 7265.
+  Interface names were observed under Ubuntu Linux.
+
+  The USB-C connector is a 12 V DC power input only; the supplied adapter is rated at 3 A.
+  See [product documentation](https://www.gmktec.com/products/gmktec-nucbox-5-mini-pc-intel%C2%AE-11th-jasper-lake-n5105-wi-fi-5)
+  and the [manufacturer's user manual](https://manuals.plus/m/99d2ef12321808f8922920f353fa0eba3def4ddfc8525ab047f4781dd8b093c6_optim.pdf).
+power-ports:
+  - name: PSU
+    type: usb-c
+interfaces:
+  - name: enp2s0
+    type: 1000base-t
+  - name: wlp1s0
+    type: ieee802.11ac
+module-bays:
+  - name: M.2
+    label: M.2 2242
