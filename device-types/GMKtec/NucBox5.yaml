@@ -4,6 +4,9 @@ model: NucBox5
 slug: gmktec-nucbox5
 u_height: 0
 is_full_depth: false
+airflow: side-to-rear
+weight: 250
+weight_unit: g
 front_image: true
 rear_image: true
 comments: |-
@@ -21,6 +24,23 @@ interfaces:
     type: 1000base-t
   - name: wlan0
     type: ieee802.11ac
+console-ports:
+  - name: USB-A 1
+    type: usb-a
+    description: Front USB 3.2 Gen 1 (5 Gbps)
+  - name: USB-A 2
+    type: usb-a
+    description: Front USB 3.2 Gen 1 (5 Gbps)
+  - name: USB-A 3
+    type: usb-a
+    description: Rear USB 3.2 Gen 1 (5 Gbps)
+  # HDMI has no dedicated connector type in the schema.
+  - name: HDMI 1
+    type: other
+    description: Rear HDMI 2.0 output (4K at 60 Hz)
+  - name: HDMI 2
+    type: other
+    description: Rear HDMI 2.0 output (4K at 60 Hz)
 module-bays:
   - name: M.2
     position: '1'
