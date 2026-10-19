@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP9167-HT
+slug: vivotek-ip9167-ht
+part_number: IP9167-HT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
