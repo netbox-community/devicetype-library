@@ -22,3 +22,7 @@ interfaces:
   - name: '{module}Qx0/2'
     type: 40gbase-x-qsfpp
     mgmt_only: false
+console-ports:
+  - name: '{module}/console'
+    label: RS232
+    type: rj-45
