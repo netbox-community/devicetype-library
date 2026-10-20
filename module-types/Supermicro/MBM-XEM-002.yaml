@@ -4,22 +4,22 @@ model: Blade Switch Module MBM-XEM-002
 part_number: MBM-XEM-002
 comments: '[Supermicro Blade Networking Product Page](https://www.supermicro.com/en/products/microblade/networking)'
 interfaces:
-  - name: '{module}Ex0/57'
+  - name: '{module}-Ex0/57'
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: '{module}Ex0/58'
+  - name: '{module}-Ex0/58'
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: '{module}Ex0/59'
+  - name: '{module}-Ex0/59'
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: '{module}Ex0/60'
+  - name: '{module}-Ex0/60'
     type: 10gbase-x-sfpp
     mgmt_only: false
-  - name: '{module}Qx0/1'
+  - name: '{module}-Qx0/1'
     type: 40gbase-x-qsfpp
     mgmt_only: false
-  - name: '{module}Qx0/2'
+  - name: '{module}-Qx0/2'
     type: 40gbase-x-qsfpp
     mgmt_only: false
 console-ports:
