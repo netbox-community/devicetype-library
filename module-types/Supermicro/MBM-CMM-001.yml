@@ -8,9 +8,9 @@ interfaces:
   - name: eth-{module}-1
     type: 1000base-t
     mgmt_only: true
-  - name: 100ge-{module}-1
+  - name: eth-{module}-2
     type: 1000base-t
     mgmt_only: true
 console-ports:
   - name: console
-    type: rj-45
+    type: de-9
