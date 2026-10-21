@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: IP7137
+slug: vivotek-ip7137
+part_number: IP7137
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 165
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
