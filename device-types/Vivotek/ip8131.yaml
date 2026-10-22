@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: IP8131
+slug: vivotek-ip8131
+part_number: IP8131
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 123
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC

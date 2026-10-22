@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: SD8121-SS
+slug: vivotek-sd8121-ss
+part_number: SD8121-SS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Vivotek SD8121-SS product page](https://download.vivotek.com/downloadfile/downloads/datasheets/sd8121-ssdatasheet_en.pdf)

@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IB836BA-EHF3
+slug: vivotek-ib836ba-ehf3
+part_number: IB836BA-EHF3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1264
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
