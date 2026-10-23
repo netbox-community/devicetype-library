@@ -14,10 +14,10 @@ console-ports:
     type: usb-c
   - name: USB
     type: usb-c
-  - name: 1PPS / 10MHz A
+  - name: 1PPS / 10MHZ A
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
-  - name: 1PPS / 10MHz B
+  - name: 1PPS / 10MHZ B
     description: Mini SMB interface for 1PPS/ToD in/out (software selectable)
     type: other
   - name: ANT
@@ -117,7 +117,6 @@ interfaces:
     type: 400gbase-x-qsfpdd
   - name: '36'
     type: 400gbase-x-qsfpdd
-
 module-bays:
   - name: PS A
     position: A
