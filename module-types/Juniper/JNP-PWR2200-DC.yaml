@@ -1,0 +1,17 @@
+---
+manufacturer: Juniper
+model: JNP-PWR2200-DC
+part_number: 740-110420
+profile: Power supply
+attribute_data:
+  wattage: 2200
+  hot_swappable: true
+  input_current: DC
+  input_voltage: 48
+comments: 2200W DC PSU for MX304. 40-72V DC input, 12V output.
+module_bay_types:
+  - MX304-PSU
+power-ports:
+  - name: PSU {module}
+    type: dc-terminal
+    maximum_draw: 2200

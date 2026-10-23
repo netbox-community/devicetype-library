@@ -1,0 +1,17 @@
+---
+manufacturer: Juniper
+model: JNP-PWR2200-AC
+part_number: 740-110419
+profile: Power supply
+attribute_data:
+  wattage: 2200
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 230
+comments: 2200W AC PSU for MX304. 90-264V AC input, 12V output.
+module_bay_types:
+  - MX304-PSU
+power-ports:
+  - name: PSU {module}
+    type: iec-60320-c20
+    maximum_draw: 2200
