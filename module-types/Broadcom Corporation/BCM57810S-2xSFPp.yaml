@@ -1,0 +1,12 @@
+---
+profile: Expansion card
+manufacturer: Broadcom Corporation
+model: BCM57810S 2xSFP+
+attribute_data:
+  connector_type: PCIe Gen 2 x8
+comments: '[BCM57810S - 2 x SFP+](https://docs.broadcom.com/doc/1211168568697)'
+interfaces:
+  - name: pcie.nic1
+    type: 10gbase-x-sfpp
+  - name: pcie.nic2
+    type: 10gbase-x-sfpp
