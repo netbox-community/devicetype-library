@@ -3,7 +3,7 @@ manufacturer: Lenovo
 model: 4P57A72667
 part_number: 4P57A72667
 profile: Power supply
-comments: ThinkSystem 2600W 230V Titanium Hot-Swap Gen2 Power Supply
+comments: ThinkSystem 2600W 230V Titanium Hot-Swap Gen2 Power Supply v4
 airflow: front-to-rear
 attribute_data:
   wattage: 2600
@@ -12,5 +12,5 @@ attribute_data:
   input_voltage: 230
 power-ports:
   - name: '{module} (AC)'
-    type: iec-60320-c14
+    type: iec-60320-c20
     maximum_draw: 2600
