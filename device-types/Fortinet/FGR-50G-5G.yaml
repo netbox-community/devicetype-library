@@ -1,0 +1,44 @@
+---
+manufacturer: Fortinet
+model: FortiGate Rugged 50G 5G
+slug: fortinet-fgr-50g-5g
+part_number: FGR-50G-5G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.8
+weight_unit: kg
+comments: '[FortiGate Rugged 50G-5G Datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_Rugged_Series.pdf)'
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+power-ports:
+  - name: DC1
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 16
+  - name: DC2
+    type: dc-terminal
+    maximum_draw: 24
+    allocated_draw: 16
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: serial
+    type: 1000base-t
+  - name: SFP 1
+    type: 1000base-x-sfp
+  - name: SFP 2
+    type: 1000base-x-sfp
+  - name: WAN1
+    type: 1000base-t
+  - name: WAN2
+    type: 1000base-t
+  - name: wwan
+    type: 5g
