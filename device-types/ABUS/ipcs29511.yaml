@@ -1,0 +1,19 @@
+---
+manufacturer: ABUS
+model: IPCS29511
+slug: abus-ipcs29511
+part_number: IPCS29511
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ABUS IPCS29511 product page](https://c1.abus.com/asc-pim-assets-01/medias/docus/28/20230425-IPCS29511_BDA_INT.pdf)
