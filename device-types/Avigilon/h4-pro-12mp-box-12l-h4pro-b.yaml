@@ -1,0 +1,27 @@
+---
+manufacturer: Avigilon
+model: H4 Pro 12MP Box (12L-H4PRO-B)
+slug: avigilon-h4-pro-12mp-box-12l-h4pro-b
+part_number: H4 Pro 12MP Box (12L-H4PRO-B)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Avigilon H4 Pro 12MP Box (12L-H4PRO-B) product page](https://assets.avigilon.com/file_library/pdf/h4-pro/avigilon-h4pro-analytics-datasheet-en-rev13.pdf)

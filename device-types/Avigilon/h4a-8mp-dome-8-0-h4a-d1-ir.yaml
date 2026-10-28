@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4A 8MP Dome (8.0-H4A-D1-IR)
+slug: avigilon-h4a-8mp-dome-8-0-h4a-d1-ir
+part_number: H4A 8MP Dome (8.0-H4A-D1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Avigilon H4A 8MP Dome (8.0-H4A-D1-IR) product page](https://assets.avigilon.com/file_library/pdf/h4-dome/avigilon-h4a-ddc-b-datasheet-en-rev9.pdf)

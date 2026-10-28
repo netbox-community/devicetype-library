@@ -1,0 +1,21 @@
+---
+manufacturer: Avigilon
+model: H5A Explosion-Protected Bullet 2MP (H5EX-BO1)
+slug: avigilon-h5a-explosion-protected-bullet-2mp-h5ex-bo1
+part_number: H5A Explosion-Protected Bullet 2MP (H5EX-BO1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 53 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 53
+    description: 12V DC
+comments: >
+  [Avigilon H5A Explosion-Protected Bullet 2MP (H5EX-BO1) product page](https://docs.avigilon.com/bundle/h5-a-explosion-protected-bullet-camera-datasheet/resource/h5-a-explosion-protected-bullet-camera-datasheet.pdf)

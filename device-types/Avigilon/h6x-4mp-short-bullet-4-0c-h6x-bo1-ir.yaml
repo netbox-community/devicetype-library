@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H6X 4MP Short Bullet (4.0C-H6X-BO1-IR)
+slug: avigilon-h6x-4mp-short-bullet-4-0c-h6x-bo1-ir
+part_number: H6X 4MP Short Bullet (4.0C-H6X-BO1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Avigilon H6X 4MP Short Bullet (4.0C-H6X-BO1-IR) product page](https://docs.avigilon.com/bundle/h6-a-bullet-camera-datasheet/resource/h6-a-bullet-camera-datasheet.pdf)

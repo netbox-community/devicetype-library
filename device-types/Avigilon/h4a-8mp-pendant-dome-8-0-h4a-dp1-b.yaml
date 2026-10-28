@@ -1,0 +1,21 @@
+---
+manufacturer: Avigilon
+model: H4A 8MP Pendant Dome (8.0-H4A-DP1(-B))
+slug: avigilon-h4a-8mp-pendant-dome-8-0-h4a-dp1-b
+part_number: H4A 8MP Pendant Dome (8.0-H4A-DP1(-B))
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Avigilon H4A 8MP Pendant Dome (8.0-H4A-DP1(-B)) product page](https://assets.avigilon.com/file_library/pdf/h4-dome/avigilon-h4a-dodp-b-datasheet-en-rev10.pdf)
