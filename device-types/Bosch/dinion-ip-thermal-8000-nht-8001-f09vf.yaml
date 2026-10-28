@@ -1,0 +1,24 @@
+---
+manufacturer: Bosch
+model: DINION IP thermal 8000 (NHT-8001-F09VF)
+slug: bosch-dinion-ip-thermal-8000-nht-8001-f09vf
+part_number: DINION IP thermal 8000 (NHT-8001-F09VF)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 34 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 34
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Bosch DINION IP thermal 8000 (NHT-8001-F09VF) product page](https://assets.portfolio.boschbuildingtechnologies.com/public/documents/DINION_IP_thermal_80_Data_sheet_enUS_23112691083.pdf)

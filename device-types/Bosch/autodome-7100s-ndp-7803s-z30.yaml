@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: AUTODOME 7100s (NDP-7803S-Z30)
+slug: bosch-autodome-7100s-ndp-7803s-z30
+part_number: AUTODOME 7100s (NDP-7803S-Z30)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 48.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 49
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB

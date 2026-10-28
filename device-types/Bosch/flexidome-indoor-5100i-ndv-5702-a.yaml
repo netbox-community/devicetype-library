@@ -1,0 +1,22 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME indoor 5100i (NDV-5702-A)
+slug: bosch-flexidome-indoor-5100i-ndv-5702-a
+part_number: FLEXIDOME indoor 5100i (NDV-5702-A)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Bosch FLEXIDOME indoor 5100i (NDV-5702-A) product page](https://assets.catalog.boschbuildingtechnologies.com/public/documents/NDV_5702_A_GOV_Data_sheet_enUS_101276183563.pdf)

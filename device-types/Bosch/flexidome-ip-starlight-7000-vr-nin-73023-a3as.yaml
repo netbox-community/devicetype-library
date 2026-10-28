@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME IP starlight 7000 VR (NIN-73023-A3AS)
+slug: bosch-flexidome-ip-starlight-7000-vr-nin-73023-a3as
+part_number: FLEXIDOME IP starlight 7000 VR (NIN-73023-A3AS)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB

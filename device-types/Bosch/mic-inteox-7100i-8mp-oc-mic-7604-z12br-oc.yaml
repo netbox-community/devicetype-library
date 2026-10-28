@@ -1,0 +1,20 @@
+---
+manufacturer: Bosch
+model: MIC inteox 7100i 8MP OC (MIC-7604-Z12BR-OC)
+slug: bosch-mic-inteox-7100i-8mp-oc-mic-7604-z12br-oc
+part_number: MIC inteox 7100i 8MP OC (MIC-7604-Z12BR-OC)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB

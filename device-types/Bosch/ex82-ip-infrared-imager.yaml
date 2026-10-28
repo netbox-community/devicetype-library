@@ -1,0 +1,19 @@
+---
+manufacturer: Bosch
+model: EX82-IP Infrared Imager
+slug: bosch-ex82-ip-infrared-imager
+part_number: EX82-IP Infrared Imager
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 36
+    description: 12V DC
