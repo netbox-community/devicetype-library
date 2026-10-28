@@ -1,0 +1,42 @@
+---
+manufacturer: Lantronix
+model: EMG851020S
+slug: lantronix-emg851020s
+part_number: EMG851020S
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 3.0
+weight_unit: lb
+comments: EMG 8500, 4x RJ45 serial, 2x 1GbE or 2x SFP, LTE APAC, external 9-30 VDC power. https://www.lantronix.com/products/lantronix-emg-8500/
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Port-01
+    type: rj-45
+  - name: Port-02
+    type: rj-45
+  - name: Port-03
+    type: rj-45
+  - name: Port-04
+    type: rj-45
+power-ports:
+  - name: DC In
+    type: dc-terminal
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: true
+  - name: SFP1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: SFP2
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: cell
+    type: lte
+    mgmt_only: true
