@@ -1,0 +1,17 @@
+---
+manufacturer: ABUS
+model: IPCB72515A
+slug: abus-ipcb72515a
+part_number: IPCB72515A
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
