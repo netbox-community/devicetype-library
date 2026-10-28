@@ -1,0 +1,19 @@
+---
+manufacturer: Bolide
+model: BN1009PTZM/NDAA
+slug: bolide-bn1009ptzm-ndaa
+part_number: BN1009PTZM/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 640
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
