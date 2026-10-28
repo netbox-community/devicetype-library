@@ -1,0 +1,20 @@
+---
+manufacturer: Anpviz
+model: PTZIP3C404XD-SU
+slug: anpviz-ptzip3c404xd-su
+part_number: PTZIP3C404XD-SU
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+comments: >
+  [Anpviz PTZIP3C404XD-SU product page](https://anpviz.com/products/ptzip3c404xd-su)
