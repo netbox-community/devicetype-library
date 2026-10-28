@@ -1,0 +1,23 @@
+---
+manufacturer: CP Plus
+model: CP-VNP-3321L20-DAS
+slug: cp-plus-cp-vnp-3321l20-das
+part_number: CP-VNP-3321L20-DAS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 47 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 47
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
