@@ -1,0 +1,21 @@
+---
+manufacturer: AXIS
+model: Q8752-E Mk II
+slug: axis-q8752-e-mk-ii
+part_number: Q8752-E Mk II
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 185 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 185
+    description: 58V DC
+comments: >
+  [AXIS Q8752-E Mk II product page](https://www.axis.com/products/axis-q8752-e-mk-ii)
