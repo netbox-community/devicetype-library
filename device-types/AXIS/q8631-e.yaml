@@ -1,0 +1,20 @@
+---
+manufacturer: AXIS
+model: Q8631-E
+slug: axis-q8631-e
+part_number: Q8631-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 17500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 55 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 55
+comments: >
+  [AXIS Q8631-E product page](https://www.axis.com/products/axis-q8631-e)
