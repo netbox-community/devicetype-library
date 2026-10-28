@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H5A QVGA Thermal Bullet 18mm (320F-H5A-THC-BO12-B)
+slug: avigilon-h5a-qvga-thermal-bullet-18mm-320f-h5a-thc-bo12-b
+part_number: H5A QVGA Thermal Bullet 18mm (320F-H5A-THC-BO12-B)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Avigilon H5A QVGA Thermal Bullet 18mm (320F-H5A-THC-BO12-B) product page](https://docs-be.avigilon.com/bundle/h5-a-thermal-camera-datasheet/raw/resource/enus/h5-a-thermal-camera-datasheet.pdf)

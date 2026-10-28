@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H5A Modular 5MP Bullet Imager (5C-H5MOD-MB2)
+slug: avigilon-h5a-modular-5mp-bullet-imager-5c-h5mod-mb2
+part_number: H5A Modular 5MP Bullet Imager (5C-H5MOD-MB2)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 43
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Avigilon H5A Modular 5MP Bullet Imager (5C-H5MOD-MB2) product page](https://docs.avigilon.com/bundle/alta-h5a-modular-camera/resource/alta-h5a-modular-camera.pdf)

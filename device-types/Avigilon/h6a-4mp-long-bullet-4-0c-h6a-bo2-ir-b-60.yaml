@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H6A 4MP Long Bullet (4.0C-H6A-BO2-IR-B-60)
+slug: avigilon-h6a-4mp-long-bullet-4-0c-h6a-bo2-ir-b-60
+part_number: H6A 4MP Long Bullet (4.0C-H6A-BO2-IR-B-60)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Avigilon H6A 4MP Long Bullet (4.0C-H6A-BO2-IR-B-60) product page](https://docs.avigilon.com/bundle/alta-h6a-bullet-camera/resource/alta-h6a-bullet-camera.pdf)
