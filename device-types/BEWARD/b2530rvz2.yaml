@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: B2530RVZ2
+slug: beward-b2530rvz2
+part_number: B2530RVZ2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 8.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD B2530RVZ2 product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-serii-b1000/ip-kamera-b2530rvz2)

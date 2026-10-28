@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: B2720RV
+slug: beward-b2720rv
+part_number: B2720RV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 835
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 6.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD B2720RV product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/b2720rv)
