@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP8165HP
+slug: vivotek-ip8165hp
+part_number: IP8165HP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 623
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC

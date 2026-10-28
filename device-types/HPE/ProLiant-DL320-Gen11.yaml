@@ -1,0 +1,32 @@
+---
+manufacturer: HPE
+model: ProLiant DL320 Gen11
+slug: hpe-proliant-dl320-gen11
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 12.0
+weight_unit: kg
+comments: '[HPE ProLiant DL320 Gen11](https://www.hpe.com/psnow/doc/a50004315enw.pdf)'
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3 NVMe
+    position: PCIe3
+    description: Optional NS204i-u Hot-Plug NVMe
+  - name: OCP3
+    position: OCP3
+interfaces:
+  - name: iLO
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t

@@ -1,0 +1,21 @@
+---
+manufacturer: 360 Vision Technology
+model: Predator HD PTZ
+slug: 360-vision-technology-predator-hd-ptz
+part_number: Predator HD PTZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 36V DC
+comments: >
+  [360 Vision Technology Predator HD PTZ product page](https://www.360visiontechnology.com/predator-hd)

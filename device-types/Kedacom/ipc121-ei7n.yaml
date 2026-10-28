@@ -1,0 +1,23 @@
+---
+manufacturer: Kedacom
+model: IPC121-Ei7N
+slug: kedacom-ipc121-ei7n
+part_number: IPC121-Ei7N
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC121-Ei7N product page](https://www.kedacom.com/th/tzfxsxj/604.jhtml)

@@ -1,0 +1,27 @@
+---
+manufacturer: TVT Digital
+model: TD-9843A3BH-LR
+slug: tvt-digital-td-9843a3bh-lr
+part_number: TD-9843A3BH-LR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 21.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [TVT Digital TD-9843A3BH-LR product page](https://en.tvt.net.cn/products/1411.html)

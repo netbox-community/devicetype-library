@@ -1,0 +1,20 @@
+---
+manufacturer: Shelly
+model: Flood Gen4
+slug: shelly-flood-gen4
+part_number: S4SN-0071A
+u_height: 0
+is_full_depth: false
+is_powered: false
+weight: 185
+weight_unit: g
+airflow: passive
+comments: '[Shelly Flood Gen4](https://www.shelly.com/products/shelly-flood-gen4)'
+interfaces:
+  - name: Wireless
+    type: ieee802.11ax
+    description: 2.4GHz only (802.11b/g/n/ax)
+  - name: Bluetooth
+    type: ieee802.15.1
+  - name: Zigbee
+    type: ieee802.15.4

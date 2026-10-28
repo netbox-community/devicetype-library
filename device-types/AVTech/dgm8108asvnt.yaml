@@ -1,0 +1,18 @@
+---
+manufacturer: AVTech
+model: DGM8108ASVNT
+slug: avtech-dgm8108asvnt
+part_number: DGM8108ASVNT
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8

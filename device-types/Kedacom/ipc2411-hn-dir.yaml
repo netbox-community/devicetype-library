@@ -1,0 +1,19 @@
+---
+manufacturer: Kedacom
+model: IPC2411-HN-DIR
+slug: kedacom-ipc2411-hn-dir
+part_number: IPC2411-HN-DIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Kedacom IPC2411-HN-DIR product page](https://www.kedacom.com/en/bqwlsxj/852.jhtml)

@@ -1,0 +1,23 @@
+---
+manufacturer: AVYCON
+model: AVC-NSV81F28
+slug: avycon-avc-nsv81f28
+part_number: AVC-NSV81F28
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 570
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NSV81F28 product page](https://avyconaivo.com/shop/item.php)

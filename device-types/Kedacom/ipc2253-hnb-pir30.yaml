@@ -1,0 +1,27 @@
+---
+manufacturer: Kedacom
+model: IPC2253-HNB-PIR30
+slug: kedacom-ipc2253-hnb-pir30
+part_number: IPC2253-HNB-PIR30
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2253-HNB-PIR30 product page](https://www.kedacom.com/en/hwqxwlsxj/4522.jhtml)

@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW805201M
+slug: gw-security-gw805201m
+part_number: GW805201M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [GW Security GW805201M product page](https://gwsecurityusa.com/product/gw805201m-8mp-ip-poe-5x-optical-2-7-13-5mm-varifocal-lens-bullet-security-camera-human-vehicle-detection-built-in-microphone-white-light-copyyyyyyyy)

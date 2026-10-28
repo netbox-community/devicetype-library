@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: FD9387-FR-V2
+slug: vivotek-fd9387-fr-v2
+part_number: FD9387-FR-V2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 909
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 22.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+comments: >
+  [Vivotek FD9387-FR-V2 product page](https://www.vivotek.com/en-US/products/network-cameras/application-camera/fd9387-fr-v2)
