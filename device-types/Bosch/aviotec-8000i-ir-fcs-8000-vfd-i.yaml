@@ -1,0 +1,27 @@
+---
+manufacturer: Bosch
+model: AVIOTEC 8000i IR (FCS-8000-VFD-I)
+slug: bosch-aviotec-8000i-ir-fcs-8000-vfd-i
+part_number: AVIOTEC 8000i IR (FCS-8000-VFD-I)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 26V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Bosch AVIOTEC 8000i IR (FCS-8000-VFD-I) product page](https://assets.catalog.boschbuildingtechnologies.com/public/documents/Datasheet_Data_sheet_esES_107063611275.pdf)
