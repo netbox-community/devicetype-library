@@ -1,0 +1,21 @@
+---
+manufacturer: Brickcom
+model: FB-H200Np-S-WDRPro
+slug: brickcom-fb-h200np-s-wdrpro
+part_number: FB-H200Np-S-WDRPro
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Brickcom FB-H200Np-S-WDRPro product page](https://www.brickcom.com/products/DetailView.php)
