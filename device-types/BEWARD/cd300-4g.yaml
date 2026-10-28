@@ -1,0 +1,25 @@
+---
+manufacturer: BEWARD
+model: CD300-4G
+slug: beward-cd300-4g
+part_number: CD300-4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 415
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD CD300-4G product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-camdrive/ip-kamera-cd300-4g)

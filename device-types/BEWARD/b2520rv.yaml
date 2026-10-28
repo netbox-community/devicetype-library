@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: B2520RV
+slug: beward-b2520rv
+part_number: B2520RV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 810
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 5.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD B2520RV product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-b2520rv)

@@ -1,0 +1,21 @@
+---
+manufacturer: BEWARD
+model: N13102
+slug: beward-n13102
+part_number: N13102
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 96
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [BEWARD N13102 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-n13102)

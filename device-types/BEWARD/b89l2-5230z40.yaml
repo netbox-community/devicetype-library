@@ -1,0 +1,24 @@
+---
+manufacturer: BEWARD
+model: B89L2-5230Z40
+slug: beward-b89l2-5230z40
+part_number: B89L2-5230Z40
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 105 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 105
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD B89L2-5230Z40 product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-ptz/b89l2-5230z40_ptz_ip_kamera)

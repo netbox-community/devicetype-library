@@ -1,0 +1,23 @@
+---
+manufacturer: BEWARD
+model: B96-30H
+slug: beward-b96-30h
+part_number: B96-30H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 33 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 33
+    description: 12V DC
+comments: >
+  [BEWARD B96-30H product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/kupolnaya-ip-kamera-b96-30h)

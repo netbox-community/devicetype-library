@@ -1,0 +1,21 @@
+---
+manufacturer: BEWARD
+model: N1251
+slug: beward-n1251
+part_number: N1251
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 116
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+comments: >
+  [BEWARD N1251 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-n1251)
