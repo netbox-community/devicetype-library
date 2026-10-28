@@ -1,0 +1,24 @@
+---
+manufacturer: BEWARD
+model: CD630-4G
+slug: beward-cd630-4g
+part_number: CD630-4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 965
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 25 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 25
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD CD630-4G product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-camdrive/ip-kamera-cd630-4g)

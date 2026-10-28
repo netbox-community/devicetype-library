@@ -1,0 +1,21 @@
+---
+manufacturer: BEWARD
+model: B1076FRV
+slug: beward-b1076frv
+part_number: B1076FRV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [BEWARD B1076FRV product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-b1076frv)

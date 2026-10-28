@@ -1,0 +1,21 @@
+---
+manufacturer: BEWARD
+model: CD100
+slug: beward-cd100
+part_number: CD100
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 5V DC
+comments: >
+  [BEWARD CD100 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-cd100)
