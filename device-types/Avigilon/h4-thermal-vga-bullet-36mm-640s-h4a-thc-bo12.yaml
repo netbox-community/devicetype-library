@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4 Thermal VGA Bullet 36mm (640S-H4A-THC-BO12)
+slug: avigilon-h4-thermal-vga-bullet-36mm-640s-h4a-thc-bo12
+part_number: H4 Thermal VGA Bullet 36mm (640S-H4A-THC-BO12)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Avigilon H4 Thermal VGA Bullet 36mm (640S-H4A-THC-BO12) product page](https://www.avigilon.com/fs/documents/avigilon-h4-thermal-datasheet-en.pdf)
