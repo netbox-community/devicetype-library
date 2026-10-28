@@ -1,0 +1,69 @@
+---
+manufacturer: Huawei
+model: OceanStor Dorado 2100
+slug: huawei-oceanstor-dorado-2100
+part_number: Dorado 2100
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+
+# Puertos de Consola / Gestion
+console-ports:
+  - name: CTE0.A.Console
+    type: rj-45
+  - name: CTE0.B.Console
+    type: rj-45
+
+interfaces:
+  # --- CONTROLADOR A ---
+  # Gestion y Mantenimiento
+  - name: CTE0.A.MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: CTE0.A.MAINTENANCE
+    type: 1000base-t
+    mgmt_only: true
+
+  # Puertos Front-end (Datos)
+  # Basado en tu imagen: P0-P3 parecen ser 1G/SFP y P4-P5 son 10G (Bonded)
+  - name: CTE0.A.P0
+    type: 1000base-t
+  - name: CTE0.A.P1
+    type: 1000base-t
+  - name: CTE0.A.P2
+    type: 1000base-t
+  - name: CTE0.A.P3
+    type: 1000base-t
+  - name: CTE0.A.P4
+    type: 10gbase-x-sfpp
+  - name: CTE0.A.P5
+    type: 10gbase-x-sfpp
+
+  # --- CONTROLADOR B ---
+  # Gestion y Mantenimiento
+  - name: CTE0.B.MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: CTE0.B.MAINTENANCE
+    type: 1000base-t
+    mgmt_only: true
+
+  # Puertos Front-end (Datos)
+  - name: CTE0.B.P0
+    type: 1000base-t
+  - name: CTE0.B.P1
+    type: 1000base-t
+  - name: CTE0.B.P2
+    type: 1000base-t
+  - name: CTE0.B.P3
+    type: 1000base-t
+  - name: CTE0.B.P4
+    type: 10gbase-x-sfpp
+  - name: CTE0.B.P5
+    type: 10gbase-x-sfpp
+
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
