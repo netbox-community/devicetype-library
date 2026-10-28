@@ -1,0 +1,27 @@
+---
+manufacturer: Bolide
+model: BN1908FE/NDAA
+slug: bolide-bn1908fe-ndaa
+part_number: BN1908FE/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 399
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Bolide BN1908FE/NDAA product page](https://bolideco.com/products/12mp-ndaa-h-265-fisheye-camera-bn1908fe-ndaa-1)

@@ -1,0 +1,26 @@
+---
+manufacturer: Bolide
+model: BN8019LL/NDAA
+slug: bolide-bn8019ll-ndaa
+part_number: BN8019LL/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.47 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Bolide BN8019LL/NDAA product page](https://bolideco.com/products/4mp-fixed-lens-ir-eyeball-camera-bn8019ll-ndaa)

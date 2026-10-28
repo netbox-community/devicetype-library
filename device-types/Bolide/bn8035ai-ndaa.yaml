@@ -1,0 +1,22 @@
+---
+manufacturer: Bolide
+model: BN8035AI/NDAA
+slug: bolide-bn8035ai-ndaa
+part_number: BN8035AI/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 327
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Bolide BN8035AI/NDAA product page](https://bolideco.com/products/5mp-fixed-lens-ir-bullet-camera-bn8035ai-ndaa)
