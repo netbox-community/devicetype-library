@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: A376
+slug: acti-a376
+part_number: A376
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+comments: >
+  [ACTi A376 product page](https://www.acti.com/product/A376)

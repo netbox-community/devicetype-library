@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: B67
+slug: acti-b67
+part_number: B67
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.76 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [ACTi B67 product page](https://www.acti.com/product/B67)

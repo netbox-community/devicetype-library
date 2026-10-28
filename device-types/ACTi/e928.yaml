@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E928
+slug: acti-e928
+part_number: E928
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 474
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 5.04 W
+comments: >
+  [ACTi E928 product page](https://www.acti.com/product/E928)

@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: A423-00C-V01-261
+slug: acti-a423-00c-v01-261
+part_number: A423-00C-V01-261
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [ACTi A423-00C-V01-261 product page](https://www.acti.com/product/A423-00C-V01-261)
