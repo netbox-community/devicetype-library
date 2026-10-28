@@ -1,0 +1,27 @@
+---
+manufacturer: Alibi
+model: ALI-XB81-UZAI
+slug: alibi-ali-xb81-uzai
+part_number: ALI-XB81-UZAI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Alibi ALI-XB81-UZAI product page](https://www.alibisecurity.com/media/docs/ali-xb81-uzai-datasheet-as.pdf)

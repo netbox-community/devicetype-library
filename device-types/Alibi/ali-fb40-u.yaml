@@ -1,0 +1,23 @@
+---
+manufacturer: Alibi
+model: ALI-FB40-U
+slug: alibi-ali-fb40-u
+part_number: ALI-FB40-U
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 499
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Alibi ALI-FB40-U product page](https://www.alibisecurity.com/media/docs/ali-fb40-u-datasheet-dlr.pdf)

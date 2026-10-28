@@ -1,0 +1,21 @@
+---
+manufacturer: Alibi
+model: ALI-FD20-VAW
+slug: alibi-ali-fd20-vaw
+part_number: ALI-FD20-VAW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 454
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Alibi ALI-FD20-VAW product page](https://www.alibisecurity.com/media/docs/ali-fd20-vaw-datasheet-as.pdf)

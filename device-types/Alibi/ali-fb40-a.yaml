@@ -1,0 +1,25 @@
+---
+manufacturer: Alibi
+model: ALI-FB40-A
+slug: alibi-ali-fb40-a
+part_number: ALI-FB40-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 170
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Alibi ALI-FB40-A product page](https://www.alibisecurity.com/media/docs/ali-fb40-a-datasheet-as.pdf)

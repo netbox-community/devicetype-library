@@ -1,0 +1,23 @@
+---
+manufacturer: Alibi
+model: ALI-NS2002R
+slug: alibi-ali-ns2002r
+part_number: ALI-NS2002R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 381
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Alibi ALI-NS2002R product page](https://www.alibisecurity.com/media/docs/ali-ns2002r-datasheet-dlr.pdf)
