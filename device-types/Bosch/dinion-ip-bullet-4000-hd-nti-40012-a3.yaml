@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: DINION IP bullet 4000 HD (NTI-40012-A3)
+slug: bosch-dinion-ip-bullet-4000-hd-nti-40012-a3
+part_number: DINION IP bullet 4000 HD (NTI-40012-A3)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 13.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB

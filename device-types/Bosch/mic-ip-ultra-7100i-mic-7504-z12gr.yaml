@@ -1,0 +1,23 @@
+---
+manufacturer: Bosch
+model: MIC IP ultra 7100i (MIC-7504-Z12GR)
+slug: bosch-mic-ip-ultra-7100i-mic-7504-z12gr
+part_number: MIC IP ultra 7100i (MIC-7504-Z12GR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+    description: 56V DC
+comments: >
+  [Bosch MIC IP ultra 7100i (MIC-7504-Z12GR) product page](https://commerce.boschsecurity.com/xf/en/MIC-IP-ultra-7100i/p/F.01U.353.587)

@@ -1,0 +1,20 @@
+---
+manufacturer: Bosch
+model: AUTODOME IP starlight 5100i (NDP-5523-Z20C)
+slug: bosch-autodome-ip-starlight-5100i-ndp-5523-z20c
+part_number: AUTODOME IP starlight 5100i (NDP-5523-Z20C)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 14.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
