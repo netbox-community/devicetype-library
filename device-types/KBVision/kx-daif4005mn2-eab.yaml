@@ -1,0 +1,27 @@
+---
+manufacturer: KBVision
+model: KX-DAiF4005MN2-EAB
+slug: kbvision-kx-daif4005mn2-eab
+part_number: KX-DAiF4005MN2-EAB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1050
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [KBVision KX-DAiF4005MN2-EAB product page](https://kbvisiongroup.com/product/kx-daif4005mn2-eab.html)
