@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-T4214-0360G
+slug: hi-focus-hc-ipc-t4214-0360g
+part_number: HC-IPC-T4214-0360G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1176
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-T4214-0360G product page](https://hifocuscctv.com/categories/anpr-network-camera/4mp-anpr-network-camera-hc-ipc-t4214-0360g)
