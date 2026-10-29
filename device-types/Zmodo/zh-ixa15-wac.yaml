@@ -1,0 +1,22 @@
+---
+manufacturer: Zmodo
+model: ZH-IXA15-WAC
+slug: zmodo-zh-ixa15-wac
+part_number: ZH-IXA15-WAC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 111
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
