@@ -1,0 +1,24 @@
+---
+manufacturer: Sunell
+model: SN-IPT8650PAR(-K)-Z30-SS
+slug: sunell-sn-ipt8650par-k-z30-ss
+part_number: SN-IPT8650PAR(-K)-Z30-SS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 38000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 75 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 75
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-IPT8650PAR(-K)-Z30-SS product page](https://www.sunellsecurity.com/products/explosion-proof-network-cameras/sn-ipt8650par%28-k%29-z30-ss.shtml)

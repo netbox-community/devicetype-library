@@ -1,0 +1,27 @@
+---
+manufacturer: Sunell
+model: SN-IPV5340HZBR-B
+slug: sunell-sn-ipv5340hzbr-b
+part_number: SN-IPV5340HZBR-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-IPV5340HZBR-B product page](https://www.sunellsecurity.com/products/lite-series-ip-camera/sn-ipv5340hzbr-b.shtml)

@@ -1,0 +1,25 @@
+---
+manufacturer: Sunell
+model: SN-TPT4234QZ-M
+slug: sunell-sn-tpt4234qz-m
+part_number: SN-TPT4234QZ-M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 36
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-TPT4234QZ-M product page](https://www.sunellsecurity.com/products/pt-thermal-camera/sn-tpt4234qz-m.shtml)

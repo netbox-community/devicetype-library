@@ -1,0 +1,25 @@
+---
+manufacturer: Sunell
+model: SN-TPT4233LZ-F
+slug: sunell-sn-tpt4233lz-f
+part_number: SN-TPT4233LZ-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 16500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 80 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 80
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Sunell SN-TPT4233LZ-F product page](https://www.sunellsecurity.com/products/pt-thermal-camera/sn-tpt4233lz-f.shtml)

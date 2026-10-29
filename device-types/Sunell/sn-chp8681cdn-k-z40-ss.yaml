@@ -1,0 +1,24 @@
+---
+manufacturer: Sunell
+model: SN-CHP8681CDN(-K)-Z40-SS
+slug: sunell-sn-chp8681cdn-k-z40-ss
+part_number: SN-CHP8681CDN(-K)-Z40-SS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 25 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 25
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-CHP8681CDN(-K)-Z40-SS product page](https://www.sunellsecurity.com/products/explosion-proof-network-cameras/sn-chp8681cdn%28-k%29-z40-ss.shtml)
