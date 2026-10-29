@@ -1,0 +1,23 @@
+---
+manufacturer: Tiandy
+model: TC-NCL514S
+slug: tiandy-tc-ncl514s
+part_number: TC-NCL514S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Tiandy TC-NCL514S product page](https://en.tiandy.com/index.php)

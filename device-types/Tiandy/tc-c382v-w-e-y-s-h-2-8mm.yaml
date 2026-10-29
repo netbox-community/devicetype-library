@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-C382V W/E/Y/S/H/2.8mm
+slug: tiandy-tc-c382v-w-e-y-s-h-2-8mm
+part_number: TC-C382V W/E/Y/S/H/2.8mm
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-C382V W/E/Y/S/H/2.8mm product page](https://en.tiandy.com/pro-2023790/63693590.html)
