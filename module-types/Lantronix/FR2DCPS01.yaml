@@ -1,0 +1,12 @@
+---
+manufacturer: Lantronix
+model: FR2DCPS01
+part_number: FR2DCPS01
+comments: SLC 8000 dual DC power supply module, -20 to -72 VDC. https://www.lantronix.com/products/lantronix-slc-8000/
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 30
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 30

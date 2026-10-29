@@ -1,0 +1,41 @@
+---
+manufacturer: Lantronix
+model: SLC80082211S
+slug: lantronix-slc80082211s
+part_number: SLC80082211S
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 11.1
+weight_unit: lb
+comments: SLC 8000, 8x RJ45 serial, 2x SFP, dual AC PSU. https://www.lantronix.com/products/lantronix-slc-8000/
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Port-01
+    type: rj-45
+  - name: Port-02
+    type: rj-45
+  - name: Port-03
+    type: rj-45
+  - name: Port-04
+    type: rj-45
+  - name: Port-05
+    type: rj-45
+  - name: Port-06
+    type: rj-45
+  - name: Port-07
+    type: rj-45
+  - name: Port-08
+    type: rj-45
+interfaces:
+  - name: eth1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-x-sfp
+    mgmt_only: true
+module-bays:
+  - name: Power Supply
+    position: PSU

@@ -1,0 +1,42 @@
+---
+manufacturer: Lantronix
+model: EMG852020S
+slug: lantronix-emg852020s
+part_number: EMG852020S
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 3.0
+weight_unit: lb
+comments: EMG 8500, 4x USB serial, 2x 1GbE or 2x SFP, LTE APAC, external 9-30 VDC power. https://www.lantronix.com/products/lantronix-emg-8500/
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Port-01
+    type: usb-a
+  - name: Port-02
+    type: usb-a
+  - name: Port-03
+    type: usb-a
+  - name: Port-04
+    type: usb-a
+power-ports:
+  - name: DC In
+    type: dc-terminal
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: true
+  - name: SFP1
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: SFP2
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: cell
+    type: lte
+    mgmt_only: true
