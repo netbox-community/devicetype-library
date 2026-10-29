@@ -1,0 +1,21 @@
+---
+manufacturer: TrendNet
+model: TV-IP201
+slug: trendnet-tv-ip201
+part_number: TV-IP201
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 247
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 5V DC
+comments: >
+  [TrendNet TV-IP201 product page](https://www.trendnet.com/products/product-detail.asp)

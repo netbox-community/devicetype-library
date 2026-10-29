@@ -1,0 +1,25 @@
+---
+manufacturer: TrendNet
+model: TV-IP762IC
+slug: trendnet-tv-ip762ic
+part_number: TV-IP762IC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 85
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [TrendNet TV-IP762IC product page](https://www.trendnet.com/products/product-detail.asp)

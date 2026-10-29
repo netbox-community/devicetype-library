@@ -1,0 +1,22 @@
+---
+manufacturer: TrendNet
+model: TV-IP440PI
+slug: trendnet-tv-ip440pi
+part_number: TV-IP440PI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [TrendNet TV-IP440PI product page](https://www.trendnet.com/products/product-detail.asp)

@@ -1,0 +1,26 @@
+---
+manufacturer: TrendNet
+model: TV-IP572P
+slug: trendnet-tv-ip572p
+part_number: TV-IP572P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [TrendNet TV-IP572P product page](https://www.trendnet.com/products/product-detail.asp)
