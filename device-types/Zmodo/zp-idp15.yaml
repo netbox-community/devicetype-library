@@ -1,0 +1,17 @@
+---
+manufacturer: Zmodo
+model: ZP-IDP15
+slug: zmodo-zp-idp15
+part_number: ZP-IDP15
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC

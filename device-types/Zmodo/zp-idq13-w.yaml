@@ -1,0 +1,17 @@
+---
+manufacturer: Zmodo
+model: ZP-IDQ13-W
+slug: zmodo-zp-idq13-w
+part_number: ZP-IDQ13-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
