@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPPTZA02Z25A
+slug: comelit-ipptza02z25a
+part_number: IPPTZA02Z25A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPPTZA02Z25A product page](https://staticpro.comelitgroup.com/en-001/datasheets/19270-ipptza02z25a.pdf)
