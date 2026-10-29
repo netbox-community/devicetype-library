@@ -1,0 +1,23 @@
+---
+manufacturer: IC Realtime
+model: IPFX-P4004-IRW1
+slug: ic-realtime-ipfx-p4004-irw1
+part_number: IPFX-P4004-IRW1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

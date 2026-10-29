@@ -1,0 +1,24 @@
+---
+manufacturer: IC Realtime
+model: IPMX-B40F-W1-LED
+slug: ic-realtime-ipmx-b40f-w1-led
+part_number: IPMX-B40F-W1-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
