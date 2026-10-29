@@ -1,0 +1,23 @@
+---
+manufacturer: HiLook
+model: PTZ-N3D404M-D/4G/14
+slug: hilook-ptz-n3d404m-d-4g-14
+part_number: PTZ-N3D404M-D/4G/14
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 19.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
