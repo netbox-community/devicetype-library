@@ -1,0 +1,23 @@
+---
+manufacturer: Trassir
+model: TR-D7111IR1W
+slug: trassir-tr-d7111ir1w
+part_number: TR-D7111IR1W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB

@@ -1,0 +1,25 @@
+---
+manufacturer: Trassir
+model: TR-W2S1PT
+slug: trassir-tr-w2s1pt
+part_number: TR-W2S1PT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Trassir TR-W2S1PT product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_w2s1pt_2_8)
