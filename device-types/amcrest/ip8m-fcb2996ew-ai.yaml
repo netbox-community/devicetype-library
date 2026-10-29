@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-FCB2996EW-AI
+slug: amcrest-ip8m-fcb2996ew-ai
+part_number: IP8M-FCB2996EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [amcrest IP8M-FCB2996EW-AI product page](https://support.amcrest.com/hc/en-us/articles/16256419653517-Technical-Specifications-IP8M-FCB2996EW-AI)
