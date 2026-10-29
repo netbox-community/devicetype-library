@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-4TVC/BS-256L2/M1L1-C
+slug: rvi-rvi-4tvc-bs-256l2-m1l1-c
+part_number: RVi-4TVC/BS-256L2/M1L1-C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [RVi RVi-4TVC/BS-256L2/M1L1-C product page](https://rvigroup.ru/catalog-v2/rvi_4tvc_bs_256l2_m1l1_c)

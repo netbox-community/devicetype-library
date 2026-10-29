@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-CFG20/56V5/S rev.D
+slug: rvi-rvi-cfg20-56v5-s-rev-d
+part_number: RVi-CFG20/56V5/S rev.D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [RVi RVi-CFG20/56V5/S rev.D product page](https://rvigroup.ru/catalog-v2/rvi_cfg20_56v5_s_rev_d)

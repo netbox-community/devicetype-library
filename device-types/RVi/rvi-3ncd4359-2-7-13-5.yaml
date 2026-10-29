@@ -1,0 +1,25 @@
+---
+manufacturer: RVi
+model: RVi-3NCD4359 (2.7-13.5)
+slug: rvi-rvi-3ncd4359-2-7-13-5
+part_number: RVi-3NCD4359 (2.7-13.5)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 890
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-3NCD4359 (2.7-13.5) product page](https://rvigroup.ru/catalog-v2/rvi_3ncd4359_2_7_13_5)
