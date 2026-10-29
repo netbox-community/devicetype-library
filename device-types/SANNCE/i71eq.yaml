@@ -1,0 +1,23 @@
+---
+manufacturer: SANNCE
+model: I71EQ
+slug: sannce-i71eq
+part_number: I71EQ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [SANNCE I71EQ product page](https://www.sannce.com/products/4pcs-3mp-full-hd-poe-ip-bullet-security-camera-two-way-communication)
