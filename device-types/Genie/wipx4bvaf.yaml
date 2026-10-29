@@ -1,0 +1,27 @@
+---
+manufacturer: Genie
+model: WIPX4BVAF
+slug: genie-wipx4bvaf
+part_number: WIPX4BVAF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1040
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Genie WIPX4BVAF product page](https://genieproducts.co.uk/shop/product/wipx4bvaf-genie-cctv-ip-camera-bullet-4mp-poe-2-8-12mm-auto-focus-ir-tdn-intelligent-analytics)
