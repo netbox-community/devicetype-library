@@ -1,0 +1,23 @@
+---
+manufacturer: EZVIZ
+model: C8W Pro 3K
+slug: ezviz-c8w-pro-3k
+part_number: C8W Pro 3K
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EZVIZ C8W Pro 3K product page](https://www.ezviz.com/product/C8W-Pro-3K/41124)

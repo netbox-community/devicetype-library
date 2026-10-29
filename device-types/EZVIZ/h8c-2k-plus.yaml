@@ -1,0 +1,21 @@
+---
+manufacturer: EZVIZ
+model: H8c 2K+
+slug: ezviz-h8c-2k-plus
+part_number: H8c 2K+
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 435
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [EZVIZ H8c 2K+ product page](https://www.ezviz.com/eu/product/h8c-2k%E2%81%BA/46419)

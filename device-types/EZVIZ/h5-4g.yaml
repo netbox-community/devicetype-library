@@ -1,0 +1,25 @@
+---
+manufacturer: EZVIZ
+model: H5 4G
+slug: ezviz-h5-4g
+part_number: H5 4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 482
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EZVIZ H5 4G product page](https://www.ezviz.com/product/h5-4g/56952)

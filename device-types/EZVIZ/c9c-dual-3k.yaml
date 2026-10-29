@@ -1,0 +1,25 @@
+---
+manufacturer: EZVIZ
+model: C9c Dual 3K
+slug: ezviz-c9c-dual-3k
+part_number: C9c Dual 3K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 626
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EZVIZ C9c Dual 3K product page](https://www.ezviz.com/product/c9c-dual-3k/283762)
