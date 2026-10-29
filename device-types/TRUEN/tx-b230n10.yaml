@@ -1,0 +1,22 @@
+---
+manufacturer: TRUEN
+model: TX-B230N10
+slug: truen-tx-b230n10
+part_number: TX-B230N10
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 863.6
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [TRUEN TX-B230N10 product page](https://www.truen.co.kr/product/product01.php)
