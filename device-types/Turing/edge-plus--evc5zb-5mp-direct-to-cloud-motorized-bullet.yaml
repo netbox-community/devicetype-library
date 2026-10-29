@@ -1,0 +1,27 @@
+---
+manufacturer: Turing
+model: Edge+ EVC5ZB 5MP Direct-to-Cloud Motorized Bullet
+slug: turing-edge-plus--evc5zb-5mp-direct-to-cloud-motorized-bullet
+part_number: Edge+ EVC5ZB 5MP Direct-to-Cloud Motorized Bullet
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 757
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [Turing Edge+ EVC5ZB 5MP Direct-to-Cloud Motorized Bullet product page](https://turing-marketing-assets.s3.us-west-2.amazonaws.com/book/EVC5ZB256-1Y.pdf)
