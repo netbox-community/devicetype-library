@@ -1,0 +1,21 @@
+---
+manufacturer: Mapesen
+model: F7DQ81WM1A2-P
+slug: mapesen-f7dq81wm1a2-p
+part_number: F7DQ81WM1A2-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Mapesen F7DQ81WM1A2-P product page](https://www.mapesen.com/acusense-ptz/f7d-ai-analysis-ptz-series.html)
