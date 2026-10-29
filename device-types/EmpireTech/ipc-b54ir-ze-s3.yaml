@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-B54IR-ZE-S3
+slug: empiretech-ipc-b54ir-ze-s3
+part_number: IPC-B54IR-ZE-S3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-B54IR-ZE-S3 product page](https://empiretech01.com/products/empiretech-ipc-b54ir-ze-s3-1-1-8-cmos-4mp-4mp-ir-2-7mm-12mm-vari-focal-bullet-network-camera)

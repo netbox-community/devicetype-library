@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-F56IR-AS
+slug: empiretech-ipc-f56ir-as
+part_number: IPC-F56IR-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 460
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-F56IR-AS product page](https://empiretech01.com/products/empiretech-ipc-f56ir-as-1-2-5-cmos-6mp-ir-fisheye-network-camera)
