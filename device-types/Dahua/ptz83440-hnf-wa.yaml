@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: PTZ83440-HNF-WA
+slug: dahua-ptz83440-hnf-wa
+part_number: PTZ83440-HNF-WA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 61.35 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 61
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua PTZ83440-HNF-WA product page](https://www.dahuasecurity.com/uk/products/discontinued-products/ptz-cameras/ptz83440-hnf-wa)

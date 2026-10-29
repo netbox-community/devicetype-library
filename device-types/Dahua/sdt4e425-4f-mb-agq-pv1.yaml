@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: SDT4E425-4F-MB-AGQ-PV1
+slug: dahua-sdt4e425-4f-mb-agq-pv1
+part_number: SDT4E425-4F-MB-AGQ-PV1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua SDT4E425-4F-MB-AGQ-PV1 product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wireless-series/4g-camera/sdt4e425-4f-mb-agq-pv1-la=s2)

@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDW2233DT-A-LED
+slug: dahua-dh-ipc-hdw2233dt-a-led
+part_number: DH-IPC-HDW2233DT-A-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Dahua DH-IPC-HDW2233DT-A-LED product page](https://www.dahuatech.com/product/info/5068.html)

@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SD60230U-HNI-SL
+slug: dahua-sd60230u-hni-sl
+part_number: SD60230U-HNI-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD60230U-HNI-SL product page](https://www.dahuasecurity.com/products/discontinued-products/explosion-proof-&-anti-corrosion/sd60230u-hni-sl)

@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HFW8449DK2
+slug: dahua-dh-ipc-hfw8449dk2
+part_number: DH-IPC-HFW8449DK2
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua DH-IPC-HFW8449DK2 product page](https://www.dahuatech.com/product/info/13745.html)

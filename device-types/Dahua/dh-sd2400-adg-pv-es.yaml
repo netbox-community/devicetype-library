@@ -1,0 +1,19 @@
+---
+manufacturer: Dahua
+model: DH-SD2400-ADG-PV-ES
+slug: dahua-dh-sd2400-adg-pv-es
+part_number: DH-SD2400-ADG-PV-ES
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC

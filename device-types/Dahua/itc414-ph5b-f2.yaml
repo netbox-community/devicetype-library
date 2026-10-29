@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: ITC414-PH5B-F2
+slug: dahua-itc414-ph5b-f2
+part_number: ITC414-PH5B-F2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 48V DC
+comments: >
+  [Dahua ITC414-PH5B-F2 product page](https://www.dahuasecurity.com/products/intelligent-traffic/smart-parking-products/indoor-parking/itc414-series-spot-detection-camera/itc414-ph5b-f2)

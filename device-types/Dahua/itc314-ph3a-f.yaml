@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: ITC314-PH3A-F
+slug: dahua-itc314-ph3a-f
+part_number: ITC314-PH3A-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Dahua ITC314-PH3A-F product page](https://www.dahuasecurity.com/uk/products/discontinued-products/mobile-&-traffic/itc314-ph3a-f-series)

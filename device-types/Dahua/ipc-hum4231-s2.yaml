@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: IPC-HUM4231-S2
+slug: dahua-ipc-hum4231-s2
+part_number: IPC-HUM4231-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 82
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 1.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 1
+    description: 12V DC
+comments: >
+  [Dahua IPC-HUM4231-S2 product page](https://materialfile.dahuasecurity.com/uploads/cpq/DH-IPC-HUM4231-S2_datsheet_20210305.pdf)

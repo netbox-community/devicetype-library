@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: ESD8A1425-HNR-F
+slug: dahua-esd8a1425-hnr-f
+part_number: ESD8A1425-HNR-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 19300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 31.5 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 32
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua ESD8A1425-HNR-F product page](https://www.dahuasecurity.com/products/network-products/explosion-proof/optical-series/esd8a1425-hnr-f)
