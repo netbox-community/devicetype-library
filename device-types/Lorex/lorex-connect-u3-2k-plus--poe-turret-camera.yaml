@@ -1,0 +1,25 @@
+---
+manufacturer: Lorex
+model: Lorex Connect U3 2K+ PoE Turret Camera
+slug: lorex-lorex-connect-u3-2k-plus--poe-turret-camera
+part_number: Lorex Connect U3 2K+ PoE Turret Camera
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Lorex Lorex Connect U3 2K+ PoE Turret Camera product page](https://www.lorex.com/products/cn201-lorex-connect-u3-2k-poe-turret-camera)

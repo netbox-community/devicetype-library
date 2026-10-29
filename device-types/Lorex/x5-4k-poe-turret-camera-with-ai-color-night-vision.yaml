@@ -1,0 +1,25 @@
+---
+manufacturer: Lorex
+model: X5 4K PoE Turret Camera with AI Color Night Vision
+slug: lorex-x5-4k-poe-turret-camera-with-ai-color-night-vision
+part_number: X5 4K PoE Turret Camera with AI Color Night Vision
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Lorex X5 4K PoE Turret Camera with AI Color Night Vision product page](https://www.lorex.com/products/connect-x5-series-turret-ip-camera-fixed)

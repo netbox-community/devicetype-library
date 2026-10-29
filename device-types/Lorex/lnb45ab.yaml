@@ -1,0 +1,23 @@
+---
+manufacturer: Lorex
+model: LNB45AB
+slug: lorex-lnb45ab
+part_number: LNB45AB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Lorex LNB45AB product page](https://www.lorex.com/products/lnb45ab-a4-ip-wired-bullet-cameras)
