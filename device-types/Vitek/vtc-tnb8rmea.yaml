@@ -1,0 +1,23 @@
+---
+manufacturer: Vitek
+model: VTC-TNB8RMEA
+slug: vitek-vtc-tnb8rmea
+part_number: VTC-TNB8RMEA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 730
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Vitek VTC-TNB8RMEA product page](https://vitekcctv.com/product/vtc-tnb8rmea-8mp-indoor-outdoor-wdr-ip-motorized-turret-camera-with-matrix-irs)

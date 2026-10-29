@@ -1,0 +1,23 @@
+---
+manufacturer: Vitek
+model: VTC-PIR4CN-4
+slug: vitek-vtc-pir4cn-4
+part_number: VTC-PIR4CN-4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 105
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Vitek VTC-PIR4CN-4 product page](https://vitekcctv.com/product/vtc-pir4cn-4-4-0-megapixel-passive-infrared-pir-h-265-network-camera-with-discreet-illumination)
