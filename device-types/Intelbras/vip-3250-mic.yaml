@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP 3250 MIC
+slug: intelbras-vip-3250-mic
+part_number: VIP 3250 MIC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Intelbras VIP 3250 MIC product page](https://backend.intelbras.com/sites/default/files/2021-06/Datasheet_VIP_3250_MIC_V1.pdf)

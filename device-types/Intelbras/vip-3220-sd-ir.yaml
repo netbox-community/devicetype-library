@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3220 SD IR
+slug: intelbras-vip-3220-sd-ir
+part_number: VIP 3220 SD IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3220 SD IR product page](https://backend.intelbras.com/sites/default/files/2024-12/Datasheet%20%20-%20VIP%203220%20SD%20IR%20-%20V10.pdf)

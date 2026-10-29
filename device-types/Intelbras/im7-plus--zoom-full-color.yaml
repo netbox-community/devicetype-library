@@ -1,0 +1,25 @@
+---
+manufacturer: Intelbras
+model: iM7+ Zoom Full Color
+slug: intelbras-im7-plus--zoom-full-color
+part_number: iM7+ Zoom Full Color
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 438
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Intelbras iM7+ Zoom Full Color product page](https://backend.intelbras.com/sites/default/files/2026-06/Datasheet%20-%20iM7%2B%20Zoom%20-%20C%C3%A2mera%20externa%20inteligente%20Full%20HD%20Wi-Fi%20Full%20Color%202%20%281%29_0.pdf)

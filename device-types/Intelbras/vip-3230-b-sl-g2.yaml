@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3230 B SL G2
+slug: intelbras-vip-3230-b-sl-g2
+part_number: VIP 3230 B SL G2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3230 B SL G2 product page](https://backend.intelbras.com/sites/default/files/2024-02/Datasheet%20VIP%203230%20BD%20SL%20G2%20-%20V6_3.pdf)

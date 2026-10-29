@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 5207 TM FT
+slug: intelbras-vip-5207-tm-ft
+part_number: VIP 5207 TM FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 5207 TM FT product page](https://backend.intelbras.com/sites/default/files/2024-12/datasheet-vip-5207-tm-ft-pt_0.pdf)

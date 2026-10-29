@@ -1,0 +1,25 @@
+---
+manufacturer: Intelbras
+model: iM7+ 3MP
+slug: intelbras-im7-plus--3mp
+part_number: iM7+ 3MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 409
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras iM7+ 3MP product page](https://backend.intelbras.com/sites/default/files/2026-06/Datasheet%20-%20iM7%2B%203MP%20-%20C%C3%A2mera%20externa%20inteligente%203MP%20Wi-Fi%20Full%20Color_0.pdf)

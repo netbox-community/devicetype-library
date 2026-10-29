@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP E4220Z BB
+slug: intelbras-vip-e4220z-bb
+part_number: VIP E4220Z BB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 997
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Intelbras VIP E4220Z BB product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_vip_e4220z_bb_portugues_01-16_site.pdf)

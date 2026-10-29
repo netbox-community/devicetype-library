@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 9420 GD FT
+slug: intelbras-vip-9420-gd-ft
+part_number: VIP 9420 GD FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Intelbras VIP 9420 GD FT product page](https://backend.intelbras.com/sites/default/files/2022-11/datasheet-vip-9420-gd-ft-pt.pdf)

@@ -1,0 +1,22 @@
+---
+manufacturer: Intelbras
+model: VIP E5230
+slug: intelbras-vip-e5230
+part_number: VIP E5230
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Intelbras VIP E5230 product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_a4_vip_e5230.pdf)

@@ -1,0 +1,22 @@
+---
+manufacturer: Intelbras
+model: VIP 7215 SD E
+slug: intelbras-vip-7215-sd-e
+part_number: VIP 7215 SD E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 7215 SD E product page](https://backend.intelbras.com/sites/default/files/2022-08/Novo%20Datasheet%20-%20VIP%207215%20SD%20E.pdf)

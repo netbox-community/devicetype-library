@@ -1,0 +1,20 @@
+---
+manufacturer: Intelbras
+model: VIP 5232 SD IR IA FT
+slug: intelbras-vip-5232-sd-ir-ia-ft
+part_number: VIP 5232 SD IR IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+comments: >
+  [Intelbras VIP 5232 SD IR IA FT product page](https://www.intelbras.com/pt-br/camera-ip-speed-dome-com-inteligencia-artificial-e-infravermelho-vip-5232-sd-ir-ia-ft)
