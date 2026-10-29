@@ -1,0 +1,24 @@
+---
+manufacturer: KBVision
+model: KX-EAi2609PN-FR
+slug: kbvision-kx-eai2609pn-fr
+part_number: KX-EAi2609PN-FR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 33
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [KBVision KX-EAi2609PN-FR product page](https://kbvisiongroup.com/product/kx-eai2609pn-fr.html)
