@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-H348M 63X/IL/E++/A
+slug: tiandy-tc-h348m-63x-il-e-plus--plus--a
+part_number: TC-H348M 63X/IL/E++/A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 12750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 62 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 62
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-H348M 63X/IL/E++/A product page](https://en.tiandy.com/pro-2023800/63692531.html)
