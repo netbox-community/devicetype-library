@@ -1,0 +1,27 @@
+---
+manufacturer: Trassir
+model: TR-D2151IR3
+slug: trassir-tr-d2151ir3
+part_number: TR-D2151IR3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 460
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Trassir TR-D2151IR3 product page](https://trassir.com/products/cameras/ip-cameras/tr-d2151ir3-v7-2-8)

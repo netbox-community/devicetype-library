@@ -1,0 +1,27 @@
+---
+manufacturer: Trassir
+model: TR-D6225IR20
+slug: trassir-tr-d6225ir20
+part_number: TR-D6225IR20
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Trassir TR-D6225IR20 product page](https://trassir.com/products/cameras/ip-cameras/trassir-tr-d6225ir20-v3-4-6-152)
