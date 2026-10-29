@@ -1,0 +1,27 @@
+---
+manufacturer: Safire
+model: SF-IPT020A-4E1-NIGHTPRO
+slug: safire-sf-ipt020a-4e1-nightpro
+part_number: SF-IPT020A-4E1-NIGHTPRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPT020A-4E1-NIGHTPRO product page](https://www.safirecctv.com/product/sf-ipt020a-4e1-nightpro)
