@@ -1,0 +1,20 @@
+---
+manufacturer: ClareVision
+model: CVP-M2PTZ50-ODI
+slug: clarevision-cvp-m2ptz50-odi
+part_number: CVP-M2PTZ50-ODI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 32 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
