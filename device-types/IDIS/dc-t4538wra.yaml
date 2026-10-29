@@ -1,0 +1,27 @@
+---
+manufacturer: IDIS
+model: DC-T4538WRA
+slug: idis-dc-t4538wra
+part_number: DC-T4538WRA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1293
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IDIS DC-T4538WRA product page](https://www.idisglobal.com/index/product_view/3961)

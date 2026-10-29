@@ -1,0 +1,23 @@
+---
+manufacturer: IDIS
+model: DC-SP6C11EXY
+slug: idis-dc-sp6c11exy
+part_number: DC-SP6C11EXY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 48V DC
+comments: >
+  [IDIS DC-SP6C11EXY product page](https://www.idisglobal.com/index/product_view/3803)

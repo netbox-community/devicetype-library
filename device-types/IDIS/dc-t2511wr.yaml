@@ -1,0 +1,23 @@
+---
+manufacturer: IDIS
+model: DC-T2511WR
+slug: idis-dc-t2511wr
+part_number: DC-T2511WR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 536
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.05 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [IDIS DC-T2511WR product page](https://www.idisglobal.com/index/product_view/3957)

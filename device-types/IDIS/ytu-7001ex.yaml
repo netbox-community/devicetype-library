@@ -1,0 +1,20 @@
+---
+manufacturer: IDIS
+model: YTU-7001EX
+slug: idis-ytu-7001ex
+part_number: YTU-7001EX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 35 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 35
+comments: >
+  [IDIS YTU-7001EX product page](https://www.idisglobal.com/index/product_view/2300)
