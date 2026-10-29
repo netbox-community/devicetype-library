@@ -1,0 +1,22 @@
+---
+manufacturer: amcrest
+model: IP4M-1083EW-AI-V2
+slug: amcrest-ip4m-1083ew-ai-v2
+part_number: IP4M-1083EW-AI-V2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+comments: >
+  [amcrest IP4M-1083EW-AI-V2 product page](https://support.amcrest.com/hc/en-us/articles/21650563866381-Technical-Specification-IP4M-1083EW-AI-V2)
