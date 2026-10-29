@@ -1,0 +1,23 @@
+---
+manufacturer: ClareVision
+model: CLR-V300-8B28CN
+slug: clarevision-clr-v300-8b28cn
+part_number: CLR-V300-8B28CN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 748
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
