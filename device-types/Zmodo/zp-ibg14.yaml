@@ -1,0 +1,17 @@
+---
+manufacturer: Zmodo
+model: ZP-IBG14
+slug: zmodo-zp-ibg14
+part_number: ZP-IBG14
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
