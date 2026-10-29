@@ -1,0 +1,25 @@
+---
+manufacturer: Tiandy
+model: TC-A35555 0/A/2.8-12mm/9-54mm
+slug: tiandy-tc-a35555-0-a-2-8-12mm-9-54mm
+part_number: TC-A35555 0/A/2.8-12mm/9-54mm
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 57 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 57
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-A35555 0/A/2.8-12mm/9-54mm product page](https://en.tiandy.com/index.php)

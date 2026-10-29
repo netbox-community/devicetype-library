@@ -1,0 +1,25 @@
+---
+manufacturer: Tiandy
+model: TC-H333D 9DB-4
+slug: tiandy-tc-h333d-9db-4
+part_number: TC-H333D 9DB-4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Tiandy TC-H333D 9DB-4 product page](https://en.tiandy.com/wireless/68785439.html)
