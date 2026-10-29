@@ -1,0 +1,21 @@
+---
+manufacturer: JideTech
+model: LC015
+slug: jidetech-lc015
+part_number: LC015
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+comments: >
+  [JideTech LC015 product page](https://www.jidetech.com/products/lc015-4mp-33x-640-thermal-forest-fire-detection-ptz-camera)

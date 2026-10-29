@@ -1,0 +1,19 @@
+---
+manufacturer: JideTech
+model: P25
+slug: jidetech-p25
+part_number: P25
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 35 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 35
+    description: 12V DC
