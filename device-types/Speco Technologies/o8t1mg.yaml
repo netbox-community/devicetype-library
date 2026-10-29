@@ -1,0 +1,26 @@
+---
+manufacturer: Speco Technologies
+model: O8T1MG
+slug: speco-technologies-o8t1mg
+part_number: O8T1MG
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 753
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.54 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Speco Technologies O8T1MG product page](https://specotech.com/product/o8t1mg)
