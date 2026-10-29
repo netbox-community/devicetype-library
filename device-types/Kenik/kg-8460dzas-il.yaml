@@ -1,0 +1,27 @@
+---
+manufacturer: Kenik
+model: KG-8460DZAS-IL
+slug: kenik-kg-8460dzas-il
+part_number: KG-8460DZAS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1070
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Kenik KG-8460DZAS-IL product page](https://files.kenik.pl/Karty%20katalogowe/Kamery/Karta%20katalogowa%20KG-8460DZAS-IL.pdf)
