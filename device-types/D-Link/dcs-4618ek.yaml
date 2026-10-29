@@ -1,0 +1,27 @@
+---
+manufacturer: D-Link
+model: DCS-4618EK
+slug: d-link-dcs-4618ek
+part_number: DCS-4618EK
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-4618EK product page](https://support.dlink.com/resource/products/dcs-4618ek/REVA/DCS-4618EK_REVA_DATASHEET_v1.00_WW.pdf)
