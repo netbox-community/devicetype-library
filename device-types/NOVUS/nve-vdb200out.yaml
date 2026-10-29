@@ -1,0 +1,19 @@
+---
+manufacturer: NOVUS
+model: NVE-VDB200OUT
+slug: novus-nve-vdb200out
+part_number: NVE-VDB200OUT
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 15V DC
+comments: >
+  [NOVUS NVE-VDB200OUT product page](https://www.novuscctv.com/en/products/5817/NVE-VDB200OUT)
