@@ -1,0 +1,21 @@
+---
+manufacturer: Pelco
+model: Silent Sentinel Aeron EVO2 RC4-51IYJ30X-FB26Z105FW
+slug: pelco-silent-sentinel-aeron-evo2-rc4-51iyj30x-fb26z105fw
+part_number: Silent Sentinel Aeron EVO2 RC4-51IYJ30X-FB26Z105FW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 60 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 60
+    description: 30V DC
+comments: >
+  [Pelco Silent Sentinel Aeron EVO2 RC4-51IYJ30X-FB26Z105FW product page](https://www.pelco.com/cameras/ptz/silent-sentinel-aeron)

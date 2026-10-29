@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: Spectra Enhanced 8 SPDE8-2X30-ID0-B
+slug: pelco-spectra-enhanced-8-spde8-2x30-id0-b
+part_number: Spectra Enhanced 8 SPDE8-2X30-ID0-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Pelco Spectra Enhanced 8 SPDE8-2X30-ID0-B product page](https://www.pelco.com/fs/documents/pelco-spectra-enhanced-8-specification-en-082726.pdf)

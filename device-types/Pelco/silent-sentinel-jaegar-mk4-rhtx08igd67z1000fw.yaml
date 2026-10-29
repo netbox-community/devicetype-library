@@ -1,0 +1,21 @@
+---
+manufacturer: Pelco
+model: Silent Sentinel Jaegar MK4 RHTX08IGD67Z1000FW
+slug: pelco-silent-sentinel-jaegar-mk4-rhtx08igd67z1000fw
+part_number: Silent Sentinel Jaegar MK4 RHTX08IGD67Z1000FW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 34300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 56 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 56
+    description: 48V DC
+comments: >
+  [Pelco Silent Sentinel Jaegar MK4 RHTX08IGD67Z1000FW product page](https://www.pelco.com/fs/documents/pelco-jaegar-mk4-specification-sheet-en.pdf)

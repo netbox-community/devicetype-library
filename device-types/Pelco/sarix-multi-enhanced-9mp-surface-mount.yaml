@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: Sarix Multi Enhanced 9MP Surface Mount
+slug: pelco-sarix-multi-enhanced-9mp-surface-mount
+part_number: Sarix Multi Enhanced 9MP Surface Mount
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 24V DC
+comments: >
+  [Pelco Sarix Multi Enhanced 9MP Surface Mount product page](https://www.pelco.com/fs/documents/pelco-sarix-multi-enhanced-specification-sheet-en.pdf)
