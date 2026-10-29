@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C8172-FIPE
+slug: milesight-ms-c8172-fipe
+part_number: MS-C8172-FIPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C8172-FIPE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-motorized-pro-dome-network-camera-ndaa-e-datasheet-en.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C8241-X36PE
+slug: milesight-ms-c8241-x36pe
+part_number: MS-C8241-X36PE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 28.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 28
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C8241-X36PE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-25x-30x-36x-42x-speed-dome-network-camera-ndaa-e-datasheet-en.pdf)

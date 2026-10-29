@@ -1,0 +1,22 @@
+---
+manufacturer: Milesight
+model: MS-C2941-X23RTPC
+slug: milesight-ms-c2941-x23rtpc
+part_number: MS-C2941-X23RTPC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Milesight MS-C2941-X23RTPC product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/milesight-ai-23xand30x-36x-42x-speed-dome-network-camera-datasheet-en.pdf)

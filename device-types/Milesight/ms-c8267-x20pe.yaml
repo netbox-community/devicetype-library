@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C8267-X20PE
+slug: milesight-ms-c8267-x20pe
+part_number: MS-C8267-X20PE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C8267-X20PE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-12x-20x-23x-ptz-bullet-plus-network-camera-ndaa-e-datasheet.pdf)

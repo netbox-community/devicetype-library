@@ -1,0 +1,24 @@
+---
+manufacturer: Milesight
+model: MS-C5341-X33RPG1
+slug: milesight-ms-c5341-x33rpg1
+part_number: MS-C5341-X33RPG1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C5341-X33RPG1 product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/project-based/milesight-ai-speed-dome-network-camera-ndaa-g1-datasheet-project-based-en.pdf)
