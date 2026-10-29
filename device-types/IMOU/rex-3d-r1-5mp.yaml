@@ -1,0 +1,24 @@
+---
+manufacturer: IMOU
+model: Rex 3D-R1 5MP
+slug: imou-rex-3d-r1-5mp
+part_number: Rex 3D-R1 5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 195
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [IMOU Rex 3D-R1 5MP product page](https://www.imou.com/en/product/detail/rex3d-r1-5mp)
