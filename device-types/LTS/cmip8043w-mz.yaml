@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: CMIP8043W-MZ
+slug: lts-cmip8043w-mz
+part_number: CMIP8043W-MZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1035
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LTS CMIP8043W-MZ product page](https://ltsecurityinc.com/ip-camera/ip-network-bullet-camera-cmip8043w-mz.html)

@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: LXIP3C83WI-MDAZ
+slug: lts-lxip3c83wi-mdaz
+part_number: LXIP3C83WI-MDAZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS LXIP3C83WI-MDAZ product page](https://www.ltsmall.com/ipc-8mp/3353.html)

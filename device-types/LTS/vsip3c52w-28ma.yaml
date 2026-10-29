@@ -1,0 +1,26 @@
+---
+manufacturer: LTS
+model: VSIP3C52W-28MA
+slug: lts-vsip3c52w-28ma
+part_number: VSIP3C52W-28MA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LTS VSIP3C52W-28MA product page](https://www.ltsmall.com/ipc-5mp/2923.html)
