@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HICC-2600TVI
+slug: honeywell-hicc-2600tvi
+part_number: HICC-2600TVI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1303
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Honeywell HICC-2600TVI product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-hvs-hicc-2600tvi-ru-ds-z.pdf)

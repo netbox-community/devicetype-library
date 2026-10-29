@@ -1,0 +1,22 @@
+---
+manufacturer: Honeywell
+model: HC10WB5R1
+slug: honeywell-hc10wb5r1
+part_number: HC10WB5R1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Honeywell HC10WB5R1 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/HSV-HC10WB5R1-01-ME-1223-DS-Y.pdf)
