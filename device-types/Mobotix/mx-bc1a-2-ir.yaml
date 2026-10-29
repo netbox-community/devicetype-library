@@ -1,0 +1,22 @@
+---
+manufacturer: Mobotix
+model: Mx-BC1A-2-IR
+slug: mobotix-mx-bc1a-2-ir
+part_number: Mx-BC1A-2-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Mobotix Mx-BC1A-2-IR product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

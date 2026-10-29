@@ -1,0 +1,23 @@
+---
+manufacturer: Mobotix
+model: Mx-VB1A-4-IR
+slug: mobotix-mx-vb1a-4-ir
+part_number: Mx-VB1A-4-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 13.68 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+comments: >
+  [Mobotix Mx-VB1A-4-IR product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)
