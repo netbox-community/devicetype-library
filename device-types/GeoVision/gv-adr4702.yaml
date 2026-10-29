@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-ADR4702
+slug: geovision-gv-adr4702
+part_number: GV-ADR4702
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [GeoVision GV-ADR4702 product page](https://www.geovision.com.tw/product/GV-ADR4702)

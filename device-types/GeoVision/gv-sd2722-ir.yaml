@@ -1,0 +1,21 @@
+---
+manufacturer: GeoVision
+model: GV-SD2722-IR
+slug: geovision-gv-sd2722-ir
+part_number: GV-SD2722-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 52.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 52
+    description: 24V DC
+comments: >
+  [GeoVision GV-SD2722-IR product page](https://dlcdn.geovision.com.tw/Manual/Speed-Dome/Datasheet/Datasheet_IPCamSD2722-IR.pdf)
