@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: P4-2R(2.8-12)A AI
+slug: holowits-p4-2r2-8-12a-ai
+part_number: P4-2R(2.8-12)A AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS P4-2R(2.8-12)A AI product page](https://resources.holowits.com/material/HOLOWITS%20P4-2R%282.8-12%29A%20AI%20Datasheet%20v7.pdf)

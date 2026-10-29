@@ -1,0 +1,21 @@
+---
+manufacturer: HOLOWITS
+model: E1T-5LR(2.8-12)
+slug: holowits-e1t-5lr2-8-12
+part_number: E1T-5LR(2.8-12)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 425
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [HOLOWITS E1T-5LR(2.8-12) product page](https://resources.holowits.com/material/%5BDatasheet%5D%20E1T-5LR%282.8-12%29%20v2.pdf)

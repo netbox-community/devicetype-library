@@ -1,0 +1,23 @@
+---
+manufacturer: HOLOWITS
+model: E5T-5R(15x)
+slug: holowits-e5t-5r15x
+part_number: E5T-5R(15x)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 26 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+comments: >
+  [HOLOWITS E5T-5R(15x) product page](https://resources.holowits.com/material/%5BDatasheet%5D%20E5T-5R%2815x%29%20V2.pdf)
