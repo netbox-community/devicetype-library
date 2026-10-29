@@ -1,0 +1,21 @@
+---
+manufacturer: EZVIZ
+model: CP1 Pro 4K
+slug: ezviz-cp1-pro-4k
+part_number: CP1 Pro 4K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 213
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+comments: >
+  [EZVIZ CP1 Pro 4K product page](https://www.ezviz.com/eu/product/cp1-pro-4k/298281)

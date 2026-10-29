@@ -1,0 +1,21 @@
+---
+manufacturer: EZVIZ
+model: TY1 2K
+slug: ezviz-ty1-2k
+part_number: TY1 2K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 218
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+comments: >
+  [EZVIZ TY1 2K product page](https://www.ezviz.com/eu/product/ty1-2k/68315)
