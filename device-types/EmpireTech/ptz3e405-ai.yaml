@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: PTZ3E405-AI
+slug: empiretech-ptz3e405-ai
+part_number: PTZ3E405-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech PTZ3E405-AI product page](https://empiretech01.com/products/empiretech-ptz3e405-ai-1-2-8cmos-4mp-5x-3-in-1-ptz-camera)

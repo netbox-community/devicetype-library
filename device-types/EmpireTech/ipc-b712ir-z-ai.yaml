@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-B712IR-Z-AI
+slug: empiretech-ipc-b712ir-z-ai
+part_number: IPC-B712IR-Z-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-B712IR-Z-AI product page](https://empiretech01.com/products/empiretech-refurbished-ipc-b712ir-z-ai-1-1-7-cmos-12mp-ir-bullet-camera)
