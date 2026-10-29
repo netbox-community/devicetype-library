@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC2B28SA-ADZK-PI-I2A
+slug: uniview-ipc2b28sa-adzk-pi-i2a
+part_number: IPC2B28SA-ADZK-PI-I2A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC2B28SA-ADZK-PI-I2A product page](http://sgcdn.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEIV_Series/IPC2B28SA-ADZK-PI-I2A)
