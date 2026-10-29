@@ -1,0 +1,20 @@
+---
+manufacturer: Reolink
+model: C1 Pro
+slug: reolink-c1-pro
+part_number: C1 Pro
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Reolink C1 Pro product page](https://reolink.com/files/docs/specs/C1-Pro-IP-Camera-Specifications.pdf)
