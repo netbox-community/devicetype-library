@@ -1,0 +1,21 @@
+---
+manufacturer: Jovision
+model: JVS-N510-LYT
+slug: jovision-jvs-n510-lyt
+part_number: JVS-N510-LYT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 610
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Jovision JVS-N510-LYT product page](https://www.jovisionsecurity.com/jvs_n510_lyt.html)
