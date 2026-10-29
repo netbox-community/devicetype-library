@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTD-TND4RMA4
+slug: vitek-vtd-tnd4rma4
+part_number: VTD-TND4RMA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VTD-TND4RMA4 product page](https://vitekcctv.com/product/vtd-tnd4rma4-4-megapixel-gen-iv-advanced-a-i-motorized-ip-vandal-dome-camera)

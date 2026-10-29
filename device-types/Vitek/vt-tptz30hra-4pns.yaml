@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VT-TPTZ30HRA-4PNS
+slug: vitek-vt-tptz30hra-4pns
+part_number: VT-TPTZ30HRA-4PNS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VT-TPTZ30HRA-4PNS product page](https://vitekcctv.com/product/vt-tptz30hra-4pns-transcendent-gen-iii-4-megapixel-30x-auto-tracking-ip-ptz-with-ai-powered-auto-tracking-facial-recognition-and-smart-laser-ir)
