@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDW2433T-A-LED
+slug: dahua-dh-ipc-hdw2433t-a-led
+part_number: DH-IPC-HDW2433T-A-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Dahua DH-IPC-HDW2433T-A-LED product page](https://www.dahuatech.com/product/info/4945.html)

@@ -1,0 +1,19 @@
+---
+manufacturer: Dahua
+model: IPC-PFW8802-A180
+slug: dahua-ipc-pfw8802-a180
+part_number: IPC-PFW8802-A180
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua IPC-PFW8802-A180 product page](https://www.dahuasecurity.com/asset/upload/uploads/soft/20200720/1.3DH-IPC-PFW8802-A180_datasheet20200428V2.pdf)

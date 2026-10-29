@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-IPC-PDBW82041-B360-S2
+slug: dahua-dh-ipc-pdbw82041-b360-s2
+part_number: DH-IPC-PDBW82041-B360-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 9.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua DH-IPC-PDBW82041-B360-S2 product page](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-IPC-PDBW82041-B360-S2_S2_datasheet_20251216.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HFWD8A1T-AZ
+slug: dahua-ipc-hfwd8a1t-az
+part_number: IPC-HFWD8A1T-AZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 824
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua IPC-HFWD8A1T-AZ product page](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hfwd8a1t-az)

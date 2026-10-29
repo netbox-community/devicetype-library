@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW71242H-Z
+slug: dahua-ipc-hdbw71242h-z
+part_number: IPC-HDBW71242H-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDBW71242H-Z product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hdbw71242h-z)
