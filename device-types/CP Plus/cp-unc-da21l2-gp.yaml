@@ -1,0 +1,21 @@
+---
+manufacturer: CP Plus
+model: CP-UNC-DA21L2-GP
+slug: cp-plus-cp-unc-da21l2-gp
+part_number: CP-UNC-DA21L2-GP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 240
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
