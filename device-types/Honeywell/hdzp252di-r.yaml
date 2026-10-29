@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HDZP252DI-R
+slug: honeywell-hdzp252di-r
+part_number: HDZP252DI-R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Honeywell HDZP252DI-R product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-hdzp252di-data-sheet.pdf)
