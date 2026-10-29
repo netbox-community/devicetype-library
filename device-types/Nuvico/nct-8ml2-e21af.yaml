@@ -1,0 +1,23 @@
+---
+manufacturer: Nuvico
+model: NCT-8ML2-E21AF
+slug: nuvico-nct-8ml2-e21af
+part_number: NCT-8ML2-E21AF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 662
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Nuvico NCT-8ML2-E21AF product page](https://nuvico.com/index.php)
