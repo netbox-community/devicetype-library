@@ -1,0 +1,27 @@
+---
+manufacturer: Vicon
+model: V944B-W312MIR-1
+slug: vicon-v944b-w312mir-1
+part_number: V944B-W312MIR-1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Vicon V944B-W312MIR-1 product page](https://vicon-security.com/hubfs/Product%20Resources/V940B-1-Series_Datasheet12.pdf)

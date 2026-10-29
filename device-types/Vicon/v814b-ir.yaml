@@ -1,0 +1,23 @@
+---
+manufacturer: Vicon
+model: V814B-IR
+slug: vicon-v814b-ir
+part_number: V814B-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Vicon V814B-IR product page](https://vicon-security.com/hubfs/Product%20Resources/V800B-Series-Datasheet21.pdf)
