@@ -1,0 +1,25 @@
+---
+manufacturer: JideTech
+model: P4-36X-8MP
+slug: jidetech-p4-36x-8mp
+part_number: P4-36X-8MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [JideTech P4-36X-8MP product page](https://www.jidetech.com/products/jidetech-8mp-outdoor-waterproof-poe-ip-camera-security-camera-p4-36x-8mp)
