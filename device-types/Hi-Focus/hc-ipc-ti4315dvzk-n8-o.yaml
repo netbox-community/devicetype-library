@@ -1,0 +1,23 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-TI4315DVZK-N8-O
+slug: hi-focus-hc-ipc-ti4315dvzk-n8-o
+part_number: HC-IPC-TI4315DVZK-N8-O
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hi-Focus HC-IPC-TI4315DVZK-N8-O product page](https://hifocuscctv.com/categories/ip-cameras/hc-ipc-ti4315dvzk-n8-o)

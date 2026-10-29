@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-SDQA20420-4212-WLS
+slug: hi-focus-hc-ipc-sdqa20420-4212-wls
+part_number: HC-IPC-SDQA20420-4212-WLS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1030
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-SDQA20420-4212-WLS product page](https://hifocuscctv.com/categories/network-ptz-cameras/2mp-network-ptz-camera-hc-ipc-sdqa20420-4212-wls)
