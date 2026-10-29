@@ -1,0 +1,21 @@
+---
+manufacturer: Trassir
+model: TR-D2121CL3W
+slug: trassir-tr-d2121cl3w
+part_number: TR-D2121CL3W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Trassir TR-D2121CL3W product page](https://trassir.com/products/cameras/ip-cameras/tr-d2121cl3w-2-8)

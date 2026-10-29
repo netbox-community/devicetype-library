@@ -1,0 +1,25 @@
+---
+manufacturer: Trassir
+model: TR-D8281WDIR4
+slug: trassir-tr-d8281wdir4
+part_number: TR-D8281WDIR4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D8281WDIR4 product page](https://trassir.com/products/cameras/ip-cameras/tr-d8281wdir4-2-8)
