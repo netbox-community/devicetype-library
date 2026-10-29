@@ -1,0 +1,23 @@
+---
+manufacturer: Vitek
+model: VTC-TNB4RMA4
+slug: vitek-vtc-tnb4rma4
+part_number: VTC-TNB4RMA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 730
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Vitek VTC-TNB4RMA4 product page](https://vitekcctv.com/product/vtc-tnb4rma44-megapixel-gen-iv-advanced-a-i-fixed-ip-bullet-camera)

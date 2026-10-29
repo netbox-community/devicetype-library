@@ -1,0 +1,19 @@
+---
+manufacturer: Vitek
+model: VT-TPTZ10HR-5N
+slug: vitek-vt-tptz10hr-5n
+part_number: VT-TPTZ10HR-5N
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+comments: >
+  [Vitek VT-TPTZ10HR-5N product page](https://vitekcctv.com/product/vt-tptz10hr-5n-5-0-megapixel-h-265-10x-network-ip-ptz-camera-w-6-ir-leds-for-up-to-165-ir-range)

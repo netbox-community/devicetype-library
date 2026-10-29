@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTC-TNB8RFE-2
+slug: vitek-vtc-tnb8rfe-2
+part_number: VTC-TNB8RFE-2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Vitek VTC-TNB8RFE-2 product page](https://vitekcctv.com/product/vtc-tnb8rfe-2-transcendent-8-mp-wdr-ip-fixed-bullet-camera-with-matrix-ir)
