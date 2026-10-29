@@ -1,0 +1,25 @@
+---
+manufacturer: IC Realtime
+model: IPMX-E40F-W2-LED
+slug: ic-realtime-ipmx-e40f-w2-led
+part_number: IPMX-E40F-W2-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

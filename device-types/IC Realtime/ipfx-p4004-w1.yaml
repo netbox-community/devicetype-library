@@ -1,0 +1,24 @@
+---
+manufacturer: IC Realtime
+model: IPFX-P4004-W1
+slug: ic-realtime-ipfx-p4004-w1
+part_number: IPFX-P4004-W1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
