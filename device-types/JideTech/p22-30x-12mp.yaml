@@ -1,0 +1,27 @@
+---
+manufacturer: JideTech
+model: P22-30X-12MP
+slug: jidetech-p22-30x-12mp
+part_number: P22-30X-12MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [JideTech P22-30X-12MP product page](https://www.jidetech.com/products/jidetech-12mp-30x-zoom-fast-speed-ptz-camera-p22-30x-12mp30-1)

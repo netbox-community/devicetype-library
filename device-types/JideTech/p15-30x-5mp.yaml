@@ -1,0 +1,19 @@
+---
+manufacturer: JideTech
+model: P15-30X-5MP
+slug: jidetech-p15-30x-5mp
+part_number: P15-30X-5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 12V DC
