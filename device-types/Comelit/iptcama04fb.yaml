@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IPTCAMA04FB
+slug: comelit-iptcama04fb
+part_number: IPTCAMA04FB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 460
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPTCAMA04FB product page](https://pro.comelitgroup.com/en-gb/product/iptcama04fb)

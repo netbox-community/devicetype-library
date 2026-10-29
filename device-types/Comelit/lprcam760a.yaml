@@ -1,0 +1,20 @@
+---
+manufacturer: Comelit
+model: LPRCAM760A
+slug: comelit-lprcam760a
+part_number: LPRCAM760A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 18 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 18
+comments: >
+  [Comelit LPRCAM760A product page](https://pro.comelitgroup.com/en-gb/product/lprcam760a)

@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPKCAMA04ZC
+slug: comelit-ipkcama04zc
+part_number: IPKCAMA04ZC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 930
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPKCAMA04ZC product page](https://staticpro.comelitgroup.com/en-us/datasheets/22293-ipkcama04zc.pdf)
