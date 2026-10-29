@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: IPP-62A0020M0B
+slug: eneo-ipp-62a0020m0b
+part_number: IPP-62A0020M0B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [eneo IPP-62A0020M0B product page](https://eneo-security.com/en/ipp-62a0020m0b.html)

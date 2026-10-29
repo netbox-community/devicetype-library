@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: ISM-68F0028W0A
+slug: eneo-ism-68f0028w0a
+part_number: ISM-68F0028W0A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 260
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4.65 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [eneo ISM-68F0028W0A product page](https://eneo-security.com/en/ism-68f0028w0a.html)
