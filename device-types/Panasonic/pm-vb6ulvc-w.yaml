@@ -1,0 +1,23 @@
+---
+manufacturer: Panasonic
+model: PM-VB6ULVC-W
+slug: panasonic-pm-vb6ulvc-w
+part_number: PM-VB6ULVC-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Panasonic PM-VB6ULVC-W product page](https://www.panasonic.com/mea/en/business/surveillance-solutions/bullet-cameras/pm-vb6ulvc-w.specs.html)
