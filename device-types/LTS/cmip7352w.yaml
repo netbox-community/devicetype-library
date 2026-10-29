@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: CMIP7352W
+slug: lts-cmip7352w
+part_number: CMIP7352W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LTS CMIP7352W product page](https://ltsecurityinc.com/ip-camera/ip-dome/network-ip-dome-camera-cmip7352w.html)

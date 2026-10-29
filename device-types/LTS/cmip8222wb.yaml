@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: CMIP8222WB
+slug: lts-cmip8222wb
+part_number: CMIP8222WB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [LTS CMIP8222WB product page](https://ltsecurityinc.com/ip-camera/ip-bullet/ip-network-bullet-camera-cmip8222wb.html)
