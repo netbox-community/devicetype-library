@@ -1,0 +1,17 @@
+---
+manufacturer: CP Plus
+model: CP-SNC-T10L1-D
+slug: cp-plus-cp-snc-t10l1-d
+part_number: CP-SNC-T10L1-D
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC

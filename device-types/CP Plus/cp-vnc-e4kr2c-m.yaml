@@ -1,0 +1,25 @@
+---
+manufacturer: CP Plus
+model: CP-VNC-E4KR2C-M
+slug: cp-plus-cp-vnc-e4kr2c-m
+part_number: CP-VNC-E4KR2C-M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 11.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
