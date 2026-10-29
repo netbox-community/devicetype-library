@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: Sarix Multi Pro 20MP Pendant Mount
+slug: pelco-sarix-multi-pro-20mp-pendant-mount
+part_number: Sarix Multi Pro 20MP Pendant Mount
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 26 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 24V DC
+comments: >
+  [Pelco Sarix Multi Pro 20MP Pendant Mount product page](https://www.pelco.com/fs/documents/pelco-sarix-multi-pro-specification-sheet-en_2025-10-01-215138_lroq.pdf)

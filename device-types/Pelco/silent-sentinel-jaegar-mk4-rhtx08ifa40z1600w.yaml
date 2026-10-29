@@ -1,0 +1,21 @@
+---
+manufacturer: Pelco
+model: Silent Sentinel Jaegar MK4 RHTX08IFA40Z1600W
+slug: pelco-silent-sentinel-jaegar-mk4-rhtx08ifa40z1600w
+part_number: Silent Sentinel Jaegar MK4 RHTX08IFA40Z1600W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 22500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 51 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 51
+    description: 48V DC
+comments: >
+  [Pelco Silent Sentinel Jaegar MK4 RHTX08IFA40Z1600W product page](https://www.pelco.com/fs/documents/pelco-jaegar-mk4-specification-sheet-en.pdf)

@@ -1,0 +1,25 @@
+---
+manufacturer: Pelco
+model: ExSite Enhanced 2 EXF2230-52-C4
+slug: pelco-exsite-enhanced-2-exf2230-52-c4
+part_number: ExSite Enhanced 2 EXF2230-52-C4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 53 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 53
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco ExSite Enhanced 2 EXF2230-52-C4 product page](https://www.pelco.com/fs/documents/pelco-exsite-enhanced-2-series-fixed-specification-sheet-en.pdf)
