@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SDZ2030S-N-S2
+slug: dahua-sdz2030s-n-s2
+part_number: SDZ2030S-N-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SDZ2030S-N-S2 product page](https://www.dahuasecurity.com/uk/products/discontinued-products/ptz-cameras/sdz2030s-n=s2)

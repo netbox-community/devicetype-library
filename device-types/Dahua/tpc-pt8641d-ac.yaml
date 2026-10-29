@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: TPC-PT8641D-AC
+slug: dahua-tpc-pt8641d-ac
+part_number: TPC-PT8641D-AC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 22000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 89 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 89
+    description: 57V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua TPC-PT8641D-AC product page](https://www.dahuasecurity.com/products/thermal-products/thermal-cameras/anti-corrosion-series/tpc-pt8641d-ac)

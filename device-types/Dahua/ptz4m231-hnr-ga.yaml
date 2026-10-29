@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: PTZ4M231-HNR-GA
+slug: dahua-ptz4m231-hnr-ga
+part_number: PTZ4M231-HNR-GA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 38 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 38
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua PTZ4M231-HNR-GA product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/positioning-systems/ptz4m231-hnr-ga-ghw)

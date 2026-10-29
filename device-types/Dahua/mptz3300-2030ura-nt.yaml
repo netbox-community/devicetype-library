@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: MPTZ3300-2030URA-NT
+slug: dahua-mptz3300-2030ura-nt
+part_number: MPTZ3300-2030URA-NT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 60 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 60
+    description: 12V DC
+comments: >
+  [Dahua MPTZ3300-2030URA-NT product page](https://www.dahuasecurity.com/uk/products/discontinued-products/mobile-&-traffic/mptz3300-2030ura-nt)

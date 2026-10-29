@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: HY-FT443MFP
+slug: dahua-hy-ft443mfp
+part_number: HY-FT443MFP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua HY-FT443MFP product page](https://www.dahuasecurity.com/products/fire-alarm/fire-safety-cameras/flame-detection-camera/hy-ft443mfp)

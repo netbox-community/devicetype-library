@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: PTZ4M231-HNR-XA-GHW
+slug: dahua-ptz4m231-hnr-xa-ghw
+part_number: PTZ4M231-HNR-XA-GHW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua PTZ4M231-HNR-XA-GHW product page](https://www.dahuasecurity.com/uk/products/discontinued-products/mobile-&-traffic/ptz4m231-hnr-xa-ghw)

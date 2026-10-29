@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: DH-T9-G 3M-6X
+slug: dahua-dh-t9-g-3m-6x
+part_number: DH-T9-G 3M-6X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Dahua DH-T9-G 3M-6X product page](https://www.dahuatech.com/product/info/13741.html)

@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: SD65F233XA-HNR
+slug: dahua-sd65f233xa-hnr
+part_number: SD65F233XA-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD65F233XA-HNR product page](https://materialfile.dahuasecurity.com/uploads/soft/20211015/DH-SD65F233XA-HNR_datasheet_20200605_DE_High.pdf)

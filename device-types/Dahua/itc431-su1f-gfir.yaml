@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: ITC431-SU1F-GFIR
+slug: dahua-itc431-su1f-gfir
+part_number: ITC431-SU1F-GFIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua ITC431-SU1F-GFIR product page](https://www.dahuasecurity.com/products/intelligent-traffic/intelligent-traffic-products/itc/4mp/itc431-su1f-gfir)

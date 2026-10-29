@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDBW4243R-AS
+slug: dahua-dh-ipc-hdbw4243r-as
+part_number: DH-IPC-HDBW4243R-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 473
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Dahua DH-IPC-HDBW4243R-AS product page](https://www.dahuatech.com/product/info/5120.html)

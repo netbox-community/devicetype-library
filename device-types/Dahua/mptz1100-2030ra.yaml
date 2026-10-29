@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: MPTZ1100-2030RA
+slug: dahua-mptz1100-2030ra
+part_number: MPTZ1100-2030RA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+comments: >
+  [Dahua MPTZ1100-2030RA product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/positioning-systems/mptz1100-2030ra)

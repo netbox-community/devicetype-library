@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: ITC952-GL
+slug: dahua-itc952-gl
+part_number: ITC952-GL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 15 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 15
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua ITC952-GL product page](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/mobile-&-traffic/itc952-gl)

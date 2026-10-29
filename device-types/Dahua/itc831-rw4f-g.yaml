@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: ITC831-RW4F-G
+slug: dahua-itc831-rw4f-g
+part_number: ITC831-RW4F-G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1744
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua ITC831-RW4F-G product page](https://www.dahuasecurity.com/ph/products/intelligent-traffic/intelligent-traffic-products/spotter-series/spotter-nano/itc831-rw4f-g)

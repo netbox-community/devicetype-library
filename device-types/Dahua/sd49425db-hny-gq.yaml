@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: SD49425DB-HNY-GQ
+slug: dahua-sd49425db-hny-gq
+part_number: SD49425DB-HNY-GQ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 15.49 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SD49425DB-HNY-GQ product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/wireless-series/4g-camera/sd49425db-hny-gq-eau)

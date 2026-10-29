@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: DH-PSD8802P-H-A180-E5
+slug: dahua-dh-psd8802p-h-a180-e5
+part_number: DH-PSD8802P-H-A180-E5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 16000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 120 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 120
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua DH-PSD8802P-H-A180-E5 product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/psd8802-a180)

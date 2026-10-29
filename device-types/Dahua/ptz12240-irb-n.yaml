@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: PTZ12240-IRB-N
+slug: dahua-ptz12240-irb-n
+part_number: PTZ12240-IRB-N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 50 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 50
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua PTZ12240-IRB-N product page](https://www.dahuasecurity.com/uk/products/discontinued-products/ptz-cameras/ptz12240-irb-n)

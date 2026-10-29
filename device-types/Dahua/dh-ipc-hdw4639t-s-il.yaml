@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDW4639T-S-IL
+slug: dahua-dh-ipc-hdw4639t-s-il
+part_number: DH-IPC-HDW4639T-S-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua DH-IPC-HDW4639T-S-IL product page](https://materialfile.dahuasecurity.com/uploads/cpq/88195/datasheet/DH-IPC-HDW4639T-S-IL_S0_datasheet_20260824_English.pdf)

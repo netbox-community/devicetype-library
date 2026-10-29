@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD10A848WA-HNF
+slug: dahua-sd10a848wa-hnf
+part_number: SD10A848WA-HNF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 13000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 42 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 42
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD10A848WA-HNF product page](https://materialfile.dahuasecurity.com/uploads/soft/20211015/DH-SD10A848WA-HNF_datasheet_20200604_DE_High.pdf)
