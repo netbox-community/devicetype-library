@@ -1,0 +1,20 @@
+---
+manufacturer: Sunell
+model: SN-TPC6406VT-M
+slug: sunell-sn-tpc6406vt-m
+part_number: SN-TPC6406VT-M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Sunell SN-TPC6406VT-M product page](https://www.sunellsecurity.com/products/fixed-thermal-camera/sn-tpc6406vt-m.shtml)

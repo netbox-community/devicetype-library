@@ -1,0 +1,24 @@
+---
+manufacturer: Sunell
+model: SN-TPT6458WZ-Z
+slug: sunell-sn-tpt6458wz-z
+part_number: SN-TPT6458WZ-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 82000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 270
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-TPT6458WZ-Z product page](https://www.sunellsecurity.com/products/pt-thermal-camera/sn-tpt6458wz-z.shtml)
