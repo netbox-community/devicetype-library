@@ -1,0 +1,23 @@
+---
+manufacturer: Jovision
+model: JVS-N935SL-HY-R2
+slug: jovision-jvs-n935sl-hy-r2
+part_number: JVS-N935SL-HY-R2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Jovision JVS-N935SL-HY-R2 product page](https://www.jovisionsecurity.com/products/ip_camera)
