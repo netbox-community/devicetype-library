@@ -1,0 +1,21 @@
+---
+manufacturer: Nuvico
+model: NTCT-3M-IRPTZ20
+slug: nuvico-ntct-3m-irptz20
+part_number: NTCT-3M-IRPTZ20
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 60 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 60
+    description: 24V DC
+comments: >
+  [Nuvico NTCT-3M-IRPTZ20 product page](https://nuvico.com/index.php)
