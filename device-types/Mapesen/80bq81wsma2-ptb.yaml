@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: 80BQ81WSMA2-PTB
+slug: mapesen-80bq81wsma2-ptb
+part_number: 80BQ81WSMA2-PTB
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen 80BQ81WSMA2-PTB product page](https://www.mapesen.com/active-deterrence508/80b-auto-focus-ai-analysis-ultra-series.html)
