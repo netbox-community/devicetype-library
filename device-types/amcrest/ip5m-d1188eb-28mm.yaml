@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: IP5M-D1188EB-28MM
+slug: amcrest-ip5m-d1188eb-28mm
+part_number: IP5M-D1188EB-28MM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [amcrest IP5M-D1188EB-28MM product page](https://support.amcrest.com/hc/en-us/articles/360055808832-Technical-Specifications-IP5M-D1180EW-28MM)

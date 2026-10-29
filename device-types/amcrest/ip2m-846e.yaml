@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP2M-846E
+slug: amcrest-ip2m-846e
+part_number: IP2M-846E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 907
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [amcrest IP2M-846E product page](https://support.amcrest.com/hc/en-us/articles/360001616371-Technical-Specifications-IP2M-846E)
