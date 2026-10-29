@@ -1,0 +1,24 @@
+---
+manufacturer: Uniarch
+model: Uho-B2D-M3F4D
+slug: uniarch-uho-b2d-m3f4d
+part_number: Uho-B2D-M3F4D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 310
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniarch Uho-B2D-M3F4D product page](https://www.uniarch.cn/Products/Wireless_Series/Panda_Series/Panda_B_Series/Uho-B2D-M3F3D)
