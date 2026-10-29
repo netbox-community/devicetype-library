@@ -1,0 +1,21 @@
+---
+manufacturer: HOLOWITS
+model: P5-4RV(4x)A
+slug: holowits-p5-4rv4xa
+part_number: P5-4RV(4x)A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [HOLOWITS P5-4RV(4x)A product page](https://resources.holowits.com.sg/material/%5BDatasheet%5D%20HOLOWITS%20P5-4RV%284x%29A%20Datasheet%20v2.0.pdf)

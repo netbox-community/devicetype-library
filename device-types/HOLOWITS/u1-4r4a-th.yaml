@@ -1,0 +1,23 @@
+---
+manufacturer: HOLOWITS
+model: U1-4R(4)A-Th
+slug: holowits-u1-4r4a-th
+part_number: U1-4R(4)A-Th
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [HOLOWITS U1-4R(4)A-Th product page](https://resources.holowits.com/material/HOLOWITS%20U1-4R%284%29A-Th%20Datasheet%20v2.0%2020260509.pdf)

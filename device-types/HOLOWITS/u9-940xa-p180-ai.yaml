@@ -1,0 +1,25 @@
+---
+manufacturer: HOLOWITS
+model: U9-9(40x)A-P180 AI
+slug: holowits-u9-940xa-p180-ai
+part_number: U9-9(40x)A-P180 AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 59 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 59
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HOLOWITS U9-9(40x)A-P180 AI product page](https://resources.holowits.com/material/%5BDatasheet%5D%20U9-9%2840x%29A-P180%20AI%20180%C2%B0%20Panorama%20Camera.pdf)

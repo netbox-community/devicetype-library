@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: P1-5R(2.8-12)A AI
+slug: holowits-p1-5r2-8-12a-ai
+part_number: P1-5R(2.8-12)A AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS P1-5R(2.8-12)A AI product page](https://resources.holowits.com/material/HOLOWITS%20P1-5R%282.8-12%29A%20AI%20Datasheet%20v6.1.pdf)
