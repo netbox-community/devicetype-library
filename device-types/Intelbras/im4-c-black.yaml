@@ -1,0 +1,25 @@
+---
+manufacturer: Intelbras
+model: iM4 C Black
+slug: intelbras-im4-c-black
+part_number: iM4 C Black
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 219
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras iM4 C Black product page](https://backend.intelbras.com/sites/default/files/2024-11/Datasheet%20-%204560158%20-%20iM4%20C%20Black%20-%20C%C3%A2mera%20Interna%20Inteligente%20Wi-Fi%20Full%20HD%20Wi-Fi%20360%C2%B0%201.pdf)

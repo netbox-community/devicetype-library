@@ -1,0 +1,25 @@
+---
+manufacturer: Intelbras
+model: iM5 SC Black
+slug: intelbras-im5-sc-black
+part_number: iM5 SC Black
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras iM5 SC Black product page](https://backend.intelbras.com/sites/default/files/2024-11/Datasheet%20-%20iM5%20SC%20Black%20-%20C%C3%A2mera%20externa%20inteligente%20Wi-Fi%20Full%20HD.pdf)

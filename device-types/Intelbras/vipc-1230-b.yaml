@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIPC 1230 B
+slug: intelbras-vipc-1230-b
+part_number: VIPC 1230 B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Intelbras VIPC 1230 B product page](https://backend.intelbras.com/sites/default/files/2024-08/Datasheet%20UNIFICADO%20VIPC%201230%20BD_V3_0.pdf)

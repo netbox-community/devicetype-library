@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIP 7207 T IAX FT
+slug: intelbras-vip-7207-t-iax-ft
+part_number: VIP 7207 T IAX FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+comments: >
+  [Intelbras VIP 7207 T IAX FT product page](https://backend.intelbras.com/sites/default/files/2026-09/Datasheet%20-%20VIP%207200%20T%20IAX%20FT%20-%20V3_0.pdf)

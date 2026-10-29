@@ -1,0 +1,25 @@
+---
+manufacturer: Intelbras
+model: iM9+ Full Color
+slug: intelbras-im9-plus--full-color
+part_number: iM9+ Full Color
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 642
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras iM9+ Full Color product page](https://www.intelbras.com/pt-br/camera-externa-inteligente-wi-fi-3mp-360deg-im9-full-color)

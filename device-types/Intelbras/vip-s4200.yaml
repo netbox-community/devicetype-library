@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP S4200
+slug: intelbras-vip-s4200
+part_number: VIP S4200
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 390
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Intelbras VIP S4200 product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_a4_linha_s_full_hd_portugues_01-15_site_0_0_0_0.pdf)
