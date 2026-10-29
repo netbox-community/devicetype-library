@@ -1,0 +1,27 @@
+---
+manufacturer: Safire
+model: SF-IPTT256A-7D5
+slug: safire-sf-iptt256a-7d5
+part_number: SF-IPTT256A-7D5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPTT256A-7D5 product page](https://www.safirecctv.com/product/sf-iptt256a-7d5)

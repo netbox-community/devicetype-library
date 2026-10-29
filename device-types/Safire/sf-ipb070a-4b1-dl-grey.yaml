@@ -1,0 +1,23 @@
+---
+manufacturer: Safire
+model: SF-IPB070A-4B1-DL-GREY
+slug: safire-sf-ipb070a-4b1-dl-grey
+part_number: SF-IPB070A-4B1-DL-GREY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Safire SF-IPB070A-4B1-DL-GREY product page](https://www.safirecctv.com/product/sf-ipb070a-4b1-dl-grey)
