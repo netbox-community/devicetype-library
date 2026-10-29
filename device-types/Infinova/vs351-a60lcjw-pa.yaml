@@ -1,0 +1,24 @@
+---
+manufacturer: Infinova
+model: VS351-A60LCJW-PA
+slug: infinova-vs351-a60lcjw-pa
+part_number: VS351-A60LCJW-PA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Infinova VS351-A60LCJW-PA product page](https://www.infinova.com/DownloadPdf/VS351-A60LCJW-PA-Datasheet-en-202209-R2-1.pdf)

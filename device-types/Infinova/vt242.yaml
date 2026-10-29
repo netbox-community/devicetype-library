@@ -1,0 +1,24 @@
+---
+manufacturer: Infinova
+model: VT242
+slug: infinova-vt242
+part_number: VT242
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 20000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 80
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Infinova VT242 product page](https://www.infinova.com/DownloadPdf/VT242-Series-Datasheet-en-202401-R1.pdf)
