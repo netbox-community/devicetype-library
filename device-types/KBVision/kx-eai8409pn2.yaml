@@ -1,0 +1,27 @@
+---
+manufacturer: KBVision
+model: KX-EAi8409PN2
+slug: kbvision-kx-eai8409pn2
+part_number: KX-EAi8409PN2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 48
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [KBVision KX-EAi8409PN2 product page](https://kbvisiongroup.com/product/kx-eai8409pn2.html)
