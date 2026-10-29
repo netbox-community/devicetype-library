@@ -1,0 +1,19 @@
+---
+manufacturer: flir
+model: Elara FC-648T
+slug: flir-elara-fc-648t
+part_number: Elara FC-648T
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [flir Elara FC-648T product page](https://www.flir.com/security)
