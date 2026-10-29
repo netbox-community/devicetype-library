@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPPTZA04Z40B
+slug: comelit-ipptza04z40b
+part_number: IPPTZA04Z40B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPPTZA04Z40B product page](https://staticpro.comelitgroup.com/en-us/datasheets/22073-ipptza04z40b.pdf)

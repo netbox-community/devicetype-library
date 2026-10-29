@@ -1,0 +1,21 @@
+---
+manufacturer: Comelit
+model: LPRCAM8205A
+slug: comelit-lprcam8205a
+part_number: LPRCAM8205A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Comelit LPRCAM8205A product page](https://pro.comelitgroup.com/en-gb/product/lprcam8205a)

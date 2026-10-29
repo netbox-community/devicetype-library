@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPSCAMA08F04A
+slug: comelit-ipscama08f04a
+part_number: IPSCAMA08F04A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Comelit IPSCAMA08F04A product page](https://staticpro.comelitgroup.com/en-gb/datasheets/16834-ipscama08f04a.pdf)

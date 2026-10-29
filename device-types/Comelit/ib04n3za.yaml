@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IB04N3ZA
+slug: comelit-ib04n3za
+part_number: IB04N3ZA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IB04N3ZA product page](https://pro.comelitgroup.com/en-gb/product/ib04n3za)
