@@ -1,0 +1,23 @@
+---
+manufacturer: Speco Technologies
+model: O2i562
+slug: speco-technologies-o2i562
+part_number: O2i562
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 142
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Speco Technologies O2i562 product page](https://specotech.com/wp-content/uploads/2019/07/O2i562spec.pdf)
