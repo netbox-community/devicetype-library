@@ -1,0 +1,21 @@
+---
+manufacturer: HikMicro
+model: HM-TD8168-150ZE4F
+slug: hikmicro-hm-td8168-150ze4f
+part_number: HM-TD8168-150ZE4F
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 270 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 270
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

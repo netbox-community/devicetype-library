@@ -1,0 +1,25 @@
+---
+manufacturer: HikMicro
+model: HM-TD8168-190ZE4FL
+slug: hikmicro-hm-td8168-190ze4fl
+part_number: HM-TD8168-190ZE4FL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 60000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 270 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 270
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HikMicro HM-TD8168-190ZE4FL product page](https://webassets.hikmicrotech.com/global/asset/d55f6b62773c4159bdaa67924dc01d08.pdf)
