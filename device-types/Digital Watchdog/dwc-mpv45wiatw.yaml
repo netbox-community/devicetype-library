@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MPV45WiATW
+slug: digital-watchdog-dwc-mpv45wiatw
+part_number: DWC-MPV45WiATW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-MPV45WiATW product page](https://digital-watchdog.com/productdetail/dwc-m%28p%29v45wiatw)
