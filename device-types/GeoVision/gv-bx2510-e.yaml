@@ -1,0 +1,21 @@
+---
+manufacturer: GeoVision
+model: GV-BX2510-E
+slug: geovision-gv-bx2510-e
+part_number: GV-BX2510-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 50 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 50
+    description: 48V DC
