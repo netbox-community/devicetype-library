@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C4466-X4RGPE
+slug: milesight-ms-c4466-x4rgpe
+part_number: MS-C4466-X4RGPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1623
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C4466-X4RGPE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/traffic/road-traffic-management/milesight-5g-ai-road-traffic-pro-bullet-plus-camera-ndaa-e-datasheet-en.pdf)
