@@ -1,0 +1,23 @@
+---
+manufacturer: Ganz
+model: ZN-DNT352XE
+slug: ganz-zn-dnt352xe
+part_number: ZN-DNT352XE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14.52 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [Ganz ZN-DNT352XE product page](https://www.ganzsecurity.com/products/zn-dnt352xe)
