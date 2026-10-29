@@ -1,0 +1,25 @@
+---
+manufacturer: D-Link
+model: DCS-8635LH
+slug: d-link-dcs-8635lh
+part_number: DCS-8635LH
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 342
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-8635LH product page](https://www.dlink.com/en/-/media/consumer_products/dcs/dcs-8635lh/datasheet/dcs8635lha1datasheetv103ww.pdf)
