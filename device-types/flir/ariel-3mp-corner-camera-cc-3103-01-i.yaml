@@ -1,0 +1,22 @@
+---
+manufacturer: flir
+model: Ariel 3MP Corner Camera CC-3103-01-I
+slug: flir-ariel-3mp-corner-camera-cc-3103-01-i
+part_number: Ariel 3MP Corner Camera CC-3103-01-I
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [flir Ariel 3MP Corner Camera CC-3103-01-I product page](https://flir.netx.net/file/asset/10979/original/attachment)

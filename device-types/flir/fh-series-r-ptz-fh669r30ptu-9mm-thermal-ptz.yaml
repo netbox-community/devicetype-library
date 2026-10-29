@@ -1,0 +1,25 @@
+---
+manufacturer: flir
+model: FH-Series R PTZ FH669R30PTU 9mm Thermal PTZ
+slug: flir-fh-series-r-ptz-fh669r30ptu-9mm-thermal-ptz
+part_number: FH-Series R PTZ FH669R30PTU 9mm Thermal PTZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 18100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 150 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 150
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [flir FH-Series R PTZ FH669R30PTU 9mm Thermal PTZ product page](https://flir.netx.net/file/asset/67887/original/attachment)

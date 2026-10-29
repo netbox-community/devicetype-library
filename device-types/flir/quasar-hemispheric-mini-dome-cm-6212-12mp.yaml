@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: Quasar Hemispheric Mini-Dome CM-6212 (12MP)
+slug: flir-quasar-hemispheric-mini-dome-cm-6212-12mp
+part_number: Quasar Hemispheric Mini-Dome CM-6212 (12MP)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [flir Quasar Hemispheric Mini-Dome CM-6212 (12MP) product page](https://flir.netx.net/file/asset/10977/original/attachment)

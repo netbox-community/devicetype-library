@@ -1,0 +1,23 @@
+---
+manufacturer: flir
+model: FH-Series ID FH-612 ID 50mm Multispectral
+slug: flir-fh-series-id-fh-612-id-50mm-multispectral
+part_number: FH-Series ID FH-612 ID 50mm Multispectral
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [flir FH-Series ID FH-612 ID 50mm Multispectral product page](https://flir.netx.net/file/asset/40459/original/attachment)
