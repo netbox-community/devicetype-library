@@ -1,0 +1,19 @@
+---
+manufacturer: Tapo
+model: Tapo C202
+slug: tapo-tapo-c202
+part_number: Tapo C202
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.27 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 9V DC
