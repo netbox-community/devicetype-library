@@ -1,0 +1,25 @@
+---
+manufacturer: IMOU
+model: Bullet 3 Pro 8MP
+slug: imou-bullet-3-pro-8mp
+part_number: Bullet 3 Pro 8MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU Bullet 3 Pro 8MP product page](https://www.imou.com/en/support/product-manual)
