@@ -1,0 +1,24 @@
+---
+manufacturer: ZKTeco
+model: ZKSD330
+slug: zkteco-zksd330
+part_number: ZKSD330
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 40 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 40
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [ZKTeco ZKSD330 product page](https://www.zkteco.com)
