@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-2NCD5589 (3.4-10.2)
+slug: rvi-rvi-2ncd5589-3-4-10-2
+part_number: RVi-2NCD5589 (3.4-10.2)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1050
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [RVi RVi-2NCD5589 (3.4-10.2) product page](https://rvigroup.ru/catalog-v2/rvi_2ncd5589_3_4_10_2)

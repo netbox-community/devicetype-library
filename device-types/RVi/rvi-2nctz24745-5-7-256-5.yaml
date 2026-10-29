@@ -1,0 +1,24 @@
+---
+manufacturer: RVi
+model: RVi-2NCTZ24745 (5.7-256.5)
+slug: rvi-rvi-2nctz24745-5-7-256-5
+part_number: RVi-2NCTZ24745 (5.7-256.5)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 14100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 103
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-2NCTZ24745 (5.7-256.5) product page](https://rvigroup.ru/catalog-v2/rvi_2nctz24745_5_7_256_5)

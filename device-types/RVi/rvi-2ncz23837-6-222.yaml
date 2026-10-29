@@ -1,0 +1,22 @@
+---
+manufacturer: RVi
+model: RVi-2NCZ23837 (6-222)
+slug: rvi-rvi-2ncz23837-6-222
+part_number: RVi-2NCZ23837 (6-222)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+comments: >
+  [RVi RVi-2NCZ23837 (6-222) product page](https://rvigroup.ru/catalog-v2/rvi_2ncz23837_6_222)
