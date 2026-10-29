@@ -1,0 +1,21 @@
+---
+manufacturer: VIGI
+model: VIGI InSight S425
+slug: vigi-vigi-insight-s425
+part_number: VIGI InSight S425
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [VIGI VIGI InSight S425 product page](https://www.vigi.com/en/business-networking/vigi-network-camera/insight-s425)
