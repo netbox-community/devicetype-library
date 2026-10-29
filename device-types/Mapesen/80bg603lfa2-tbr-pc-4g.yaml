@@ -1,0 +1,23 @@
+---
+manufacturer: Mapesen
+model: 80BG603LFA2-TBR-PC-4G
+slug: mapesen-80bg603lfa2-tbr-pc-4g
+part_number: 80BG603LFA2-TBR-PC-4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen 80BG603LFA2-TBR-PC-4G product page](https://www.mapesen.com/web/userfiles/productfile/gengxin/PeopleCounting-80BG603LFA2-TBR-PC-4Gspecification-mapesenV.I01.pdf)

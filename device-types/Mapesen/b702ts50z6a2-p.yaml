@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: B702TS50Z6A2-P
+slug: mapesen-b702ts50z6a2-p
+part_number: B702TS50Z6A2-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Mapesen B702TS50Z6A2-P product page](https://www.mapesen.com/easy-ip-ptz/b702-ptz-series.html)

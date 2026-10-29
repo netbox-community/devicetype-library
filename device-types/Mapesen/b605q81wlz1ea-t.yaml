@@ -1,0 +1,23 @@
+---
+manufacturer: Mapesen
+model: B605Q81WLZ1EA-T
+slug: mapesen-b605q81wlz1ea-t
+part_number: B605Q81WLZ1EA-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen B605Q81WLZ1EA-T product page](https://www.mapesen.com/web/userfiles/productfile/gengxin/B605Q81WLZ1EA-Tspecificaiton-mapesenV.I03.pdf)
