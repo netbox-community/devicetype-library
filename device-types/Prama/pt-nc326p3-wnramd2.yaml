@@ -1,0 +1,27 @@
+---
+manufacturer: Prama
+model: PT-NC326P3-WNRAM(D2)
+slug: prama-pt-nc326p3-wnramd2
+part_number: PT-NC326P3-WNRAM(D2)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Prama PT-NC326P3-WNRAM(D2) product page](https://www.pramaindia.in/product/pt-nc326p3-wnramd2)
