@@ -1,0 +1,23 @@
+---
+manufacturer: Sony
+model: SNC-EMX32R
+slug: sony-snc-emx32r
+part_number: SNC-EMX32R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Sony SNC-EMX32R product page](https://www.sony.de/electronics/support/video-security-ip-cameras/snc-emx32r)
