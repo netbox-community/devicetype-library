@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: HWT-M2141-10-EL(2.8-12mm)
+slug: holowits-hwt-m2141-10-el2-8-12mm
+part_number: HWT-M2141-10-EL(2.8-12mm)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1005
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 11.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-M2141-10-EL(2.8-12mm) product page](https://resources.holowits.com/material/HOLOWITS%20HWT-M2141-10-EL%282.8-12mm%29%20Datasheet%20V3.pdf)
