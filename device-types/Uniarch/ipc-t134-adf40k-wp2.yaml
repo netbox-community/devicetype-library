@@ -1,0 +1,26 @@
+---
+manufacturer: Uniarch
+model: IPC-T134-ADF40K-WP2
+slug: uniarch-ipc-t134-adf40k-wp2
+part_number: IPC-T134-ADF40K-WP2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 3.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniarch IPC-T134-ADF40K-WP2 product page](https://www.uniarch.cn/Products/Network_Cameras/Halo_Series/Halo_Series/IPC-T134-ADF28K-WP2)
