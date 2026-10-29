@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: Spectra Pro 4K P2820-ESR
+slug: pelco-spectra-pro-4k-p2820-esr
+part_number: Spectra Pro 4K P2820-ESR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 67 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 67
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco Spectra Pro 4K P2820-ESR product page](https://files.pelco.com/media/2022/07/22/C4070_Spectra_Pro_IR_4K_Spec_110321.pdf)

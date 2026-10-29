@@ -1,0 +1,22 @@
+---
+manufacturer: Pelco
+model: Sarix IWP Series IWP121-1ES
+slug: pelco-sarix-iwp-series-iwp121-1es
+part_number: Sarix IWP Series IWP121-1ES
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Pelco Sarix IWP Series IWP121-1ES product page](https://files.pelco.com/media/wp-content/uploads/2020/04/07123156/Sarix-IWP-Series-Wedge-Dome-Spec-Sheet-English.pdf)
