@@ -1,0 +1,23 @@
+---
+manufacturer: Eagle Eye Networks
+model: CD02
+slug: eagle-eye-networks-cd02
+part_number: CD02
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
