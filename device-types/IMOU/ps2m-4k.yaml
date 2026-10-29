@@ -1,0 +1,27 @@
+---
+manufacturer: IMOU
+model: PS2M 4K
+slug: imou-ps2m-4k
+part_number: PS2M 4K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU PS2M 4K product page](https://www.imou.com/en/product/specs/ps2m4k)
