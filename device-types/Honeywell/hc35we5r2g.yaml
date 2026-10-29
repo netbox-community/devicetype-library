@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC35WE5R2G
+slug: honeywell-hc35we5r2g
+part_number: HC35WE5R2G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Honeywell HC35WE5R2G product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/security-de/HBT-SEC-35S-HC35WExR2-DS-US-EN.pdf)
