@@ -1,0 +1,23 @@
+---
+manufacturer: Genetec
+model: AutoVu SharpV
+slug: genetec-autovu-sharpv
+part_number: AutoVu SharpV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2310
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+    description: 24V DC
+comments: >
+  [Genetec AutoVu SharpV product page](https://techdocs.genetec.com/v/u/en-US/AutoVu-SharpV-Datasheet)
