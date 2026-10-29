@@ -1,0 +1,27 @@
+---
+manufacturer: March Networks
+model: VA2 Indoor NanoDome
+slug: march-networks-va2-indoor-nanodome
+part_number: VA2 Indoor NanoDome
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 5.16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [March Networks VA2 Indoor NanoDome product page](https://www.marchnetworks.com/products/cameras/va-series/va2-indoor-nanodome)
