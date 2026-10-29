@@ -1,0 +1,23 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-SD0440T-AL
+slug: hi-focus-hc-ipc-sd0440t-al
+part_number: HC-IPC-SD0440T-AL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-SD0440T-AL product page](https://hifocuscctv.com/categories/network-ptz-cameras/4mp-4x-optical-zoom-network-ptz-camera-hc-ipc-sd0440t-al)
