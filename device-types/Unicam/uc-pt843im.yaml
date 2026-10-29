@@ -1,0 +1,23 @@
+---
+manufacturer: Unicam
+model: UC-PT843IM
+slug: unicam-uc-pt843im
+part_number: UC-PT843IM
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Unicam UC-PT843IM product page](https://www.unicamsystems.com/PDF/IP-PTZ/UC-PT843IM.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Unicam
+model: UC-P447-E3-MAZ
+slug: unicam-uc-p447-e3-maz
+part_number: UC-P447-E3-MAZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Unicam UC-P447-E3-MAZ product page](https://www.unicamsystems.com/Long-Range-ID-Camera.html)

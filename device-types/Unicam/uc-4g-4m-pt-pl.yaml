@@ -1,0 +1,25 @@
+---
+manufacturer: Unicam
+model: UC-4G-4M-PT-PL
+slug: unicam-uc-4g-4m-pt-pl
+part_number: UC-4G-4M-PT-PL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 474
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Unicam UC-4G-4M-PT-PL product page](https://www.unicamsystems.com/PDF/4G-4G-Solar-Cameras/UC-4G-4M-PT-PL-PTcamera.pdf)

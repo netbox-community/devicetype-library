@@ -1,0 +1,23 @@
+---
+manufacturer: Unicam
+model: UC-P425-CI-L
+slug: unicam-uc-p425-ci-l
+part_number: UC-P425-CI-L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 257
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Unicam UC-P425-CI-L product page](https://www.unicamsystems.com/PDF/IP-2MP/UC-P425-CI-L.pdf)
