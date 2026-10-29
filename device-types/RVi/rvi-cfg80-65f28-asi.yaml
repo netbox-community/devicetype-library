@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-CFG80/65F28/ASI
+slug: rvi-rvi-cfg80-65f28-asi
+part_number: RVi-CFG80/65F28/ASI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 425
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-CFG80/65F28/ASI product page](https://rvigroup.ru/catalog-v2/rvi_cfg80_65f28_asi)

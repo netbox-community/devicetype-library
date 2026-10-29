@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVI-IPC48M4 (2.7-12)
+slug: rvi-rvi-ipc48m4-2-7-12
+part_number: RVI-IPC48M4 (2.7-12)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVI-IPC48M4 (2.7-12) product page](https://rvigroup.ru/catalog-v2/rvi_ipc48m4_2_7_12)

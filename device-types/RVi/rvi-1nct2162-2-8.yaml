@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-1NCT2162 (2.8)
+slug: rvi-rvi-1nct2162-2-8
+part_number: RVi-1NCT2162 (2.8)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [RVi RVi-1NCT2162 (2.8) product page](https://rvigroup.ru/catalog-v2/rvi_1nct2162_2_8)

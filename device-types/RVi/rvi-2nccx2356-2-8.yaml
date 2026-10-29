@@ -1,0 +1,21 @@
+---
+manufacturer: RVi
+model: RVi-2NCCX2356 (2.8)
+slug: rvi-rvi-2nccx2356-2-8
+part_number: RVi-2NCCX2356 (2.8)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 180
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [RVi RVi-2NCCX2356 (2.8) product page](https://rvigroup.ru/catalog-v2/rvi_2nccx2356_2_8)
