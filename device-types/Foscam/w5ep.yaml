@@ -1,0 +1,22 @@
+---
+manufacturer: Foscam
+model: W5EP
+slug: foscam-w5ep
+part_number: W5EP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Foscam W5EP product page](https://www.foscammall.com/products/foscam-w5ep-5mp-poe-security-camera-3k-ip-camera-outdoor-with-4mm-lens)

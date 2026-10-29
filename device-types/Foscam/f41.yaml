@@ -1,0 +1,24 @@
+---
+manufacturer: Foscam
+model: F41
+slug: foscam-f41
+part_number: F41
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1260
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 28 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 28
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Foscam F41 product page](https://us.foscam.com/F41.html)

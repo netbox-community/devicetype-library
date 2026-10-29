@@ -1,0 +1,25 @@
+---
+manufacturer: Foscam
+model: SD4-WB
+slug: foscam-sd4-wb
+part_number: SD4-WB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Foscam SD4-WB product page](https://www.foscam.eu/sd4-wb.html)

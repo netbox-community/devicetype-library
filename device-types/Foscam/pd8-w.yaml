@@ -1,0 +1,25 @@
+---
+manufacturer: Foscam
+model: PD8-W
+slug: foscam-pd8-w
+part_number: PD8-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 565
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Foscam PD8-W product page](https://www.foscam.eu/pd8-w.html)
