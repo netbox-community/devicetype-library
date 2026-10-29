@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: PTZ4M-25X-PV
+slug: empiretech-ptz4m-25x-pv
+part_number: PTZ4M-25X-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech PTZ4M-25X-PV product page](https://empiretech01.com/products/empiretech-ptz4m-25x-pv-1-2-8-cmos-4mp-25x-starlight-ir-active-deterrence-network-ptz-camera)
