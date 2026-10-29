@@ -1,0 +1,22 @@
+---
+manufacturer: Verkada
+model: CM41-E
+slug: verkada-cm41-e
+part_number: CM41-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 401
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Verkada CM41-E product page](https://www.verkada.com/security-cameras/mini/cm41-e)
