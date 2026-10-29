@@ -1,0 +1,27 @@
+---
+manufacturer: Turing
+model: SMART TP-MFD4A28 4MP TwilightVision IR Fixed Dome
+slug: turing-smart-tp-mfd4a28-4mp-twilightvision-ir-fixed-dome
+part_number: SMART TP-MFD4A28 4MP TwilightVision IR Fixed Dome
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Turing SMART TP-MFD4A28 4MP TwilightVision IR Fixed Dome product page](https://turing-marketing-assets.s3.us-west-2.amazonaws.com/book/TP-MFD4A28.pdf)
