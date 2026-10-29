@@ -1,0 +1,18 @@
+---
+manufacturer: RIPE NCC
+model: Atlas Probe v3
+slug: ripe-ncc-atlas-probe-v3
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[RIPE Atlas Probe V3](https://atlas.ripe.net/docs/probeinfo/probe-v3) - modified TP-Link TL-MR3020 v1 router, wireless disabled, with a USB stick
+  for data storage'
+console-ports:
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: RJ45
+    type: 100base-tx
+power-ports:
+  - name: Power
+    type: usb-mini-b
