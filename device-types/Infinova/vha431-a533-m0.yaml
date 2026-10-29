@@ -1,0 +1,27 @@
+---
+manufacturer: Infinova
+model: VHA431-A533-M0
+slug: infinova-vha431-a533-m0
+part_number: VHA431-A533-M0
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Infinova VHA431-A533-M0 product page](https://www.infinova.com/DownloadPdf/VHA431-A5-Series-Datasheet-en-202209-R1.pdf)
