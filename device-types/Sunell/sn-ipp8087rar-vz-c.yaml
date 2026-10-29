@@ -1,0 +1,27 @@
+---
+manufacturer: Sunell
+model: SN-IPP8087RAR-VZ-C
+slug: sunell-sn-ipp8087rar-vz-c
+part_number: SN-IPP8087RAR-VZ-C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-IPP8087RAR-VZ-C product page](https://www.sunellsecurity.com/products/fips-compliant/sn-ipp8087rar-vz-c-4x8mp-multi-sensor-camera.shtml)

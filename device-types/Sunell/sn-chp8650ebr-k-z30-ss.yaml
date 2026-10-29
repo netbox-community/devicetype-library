@@ -1,0 +1,24 @@
+---
+manufacturer: Sunell
+model: SN-CHP8650EBR(-K)-Z30-SS
+slug: sunell-sn-chp8650ebr-k-z30-ss
+part_number: SN-CHP8650EBR(-K)-Z30-SS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 18000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 36 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 36
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-CHP8650EBR(-K)-Z30-SS product page](https://www.sunellsecurity.com/products/explosion-proof-network-cameras/sn-chp8650ebr%28-k%29-z30-ss.shtml)
