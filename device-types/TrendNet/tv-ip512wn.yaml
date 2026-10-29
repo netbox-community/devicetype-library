@@ -1,0 +1,20 @@
+---
+manufacturer: TrendNet
+model: TV-IP512WN
+slug: trendnet-tv-ip512wn
+part_number: TV-IP512WN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 260
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [TrendNet TV-IP512WN product page](https://www.trendnet.com/products/product-detail.asp)

@@ -1,0 +1,20 @@
+---
+manufacturer: TrendNet
+model: TV-IP312WN
+slug: trendnet-tv-ip312wn
+part_number: TV-IP312WN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 155
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [TrendNet TV-IP312WN product page](https://www.trendnet.com/products/product-detail.asp)

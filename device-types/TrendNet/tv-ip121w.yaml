@@ -1,0 +1,21 @@
+---
+manufacturer: TrendNet
+model: TV-IP121W
+slug: trendnet-tv-ip121w
+part_number: TV-IP121W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 165
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 5V DC
+comments: >
+  [TrendNet TV-IP121W product page](https://www.trendnet.com/products/product-detail.asp)

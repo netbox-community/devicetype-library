@@ -1,0 +1,18 @@
+---
+manufacturer: TrendNet
+model: TV-IP200
+slug: trendnet-tv-ip200
+part_number: TV-IP200
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [TrendNet TV-IP200 product page](https://www.trendnet.com/products/product-detail.asp)

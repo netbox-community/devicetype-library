@@ -1,0 +1,25 @@
+---
+manufacturer: TrendNet
+model: TV-IP745SIC
+slug: trendnet-tv-ip745sic
+part_number: TV-IP745SIC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 132
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [TrendNet TV-IP745SIC product page](https://www.trendnet.com/products/product-detail.asp)
