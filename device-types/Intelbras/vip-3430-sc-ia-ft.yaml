@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3430 SC IA FT
+slug: intelbras-vip-3430-sc-ia-ft
+part_number: VIP 3430 SC IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 570
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3430 SC IA FT product page](https://backend.intelbras.com/sites/default/files/2025-06/Datasheet%20-%20VIP%203430%20SC%20IA%20FT.pdf)

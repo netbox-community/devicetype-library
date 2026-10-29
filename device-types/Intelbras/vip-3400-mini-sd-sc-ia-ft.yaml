@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3400 MINI SD SC IA FT
+slug: intelbras-vip-3400-mini-sd-sc-ia-ft
+part_number: VIP 3400 MINI SD SC IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3400 MINI SD SC IA FT product page](https://backend.intelbras.com/sites/default/files/2025-04/Datasheet%20-%20VIP%203400%20MINI%20SD%20SC%20IA%20FT.pdf)

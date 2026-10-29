@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3830 B
+slug: intelbras-vip-3830-b
+part_number: VIP 3830 B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3830 B product page](https://www.intelbras.com/pt-br/camera-bullet-com-resolucao-4k-vip-3830-b)

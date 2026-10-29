@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP 7200 TH MT
+slug: intelbras-vip-7200-th-mt
+part_number: VIP 7200 TH MT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Intelbras VIP 7200 TH MT product page](https://backend.intelbras.com/sites/default/files/2020-03/Datasheet-VIP-7200-TH-MT-02.20.pdf)
