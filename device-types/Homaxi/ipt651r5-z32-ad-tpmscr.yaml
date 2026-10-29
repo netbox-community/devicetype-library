@@ -1,0 +1,27 @@
+---
+manufacturer: Homaxi
+model: IPT651R5-Z32-AD-TPMSCR
+slug: homaxi-ipt651r5-z32-ad-tpmscr
+part_number: IPT651R5-Z32-AD-TPMSCR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Homaxi IPT651R5-Z32-AD-TPMSCR product page](https://www.homaxi.com/mtsc/uploads/single/IPT651R5-Z32-AD-TPMSCR_datasheet_V1.0.5_20250424%281%29.pdf)
