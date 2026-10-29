@@ -1,0 +1,22 @@
+---
+manufacturer: Foscam
+model: T5EP
+slug: foscam-t5ep
+part_number: T5EP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Foscam T5EP product page](https://www.foscammall.com/products/5mp-ip-poe-t5ep)
