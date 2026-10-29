@@ -1,0 +1,25 @@
+---
+manufacturer: Linovision
+model: IPTZ5432AC
+slug: linovision-iptz5432ac
+part_number: IPTZ5432AC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Linovision IPTZ5432AC product page](https://eu.linovision.com/cdn/shop/files/IPTZ5432AC_Datasheet.pdf)
