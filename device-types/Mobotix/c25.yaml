@@ -1,0 +1,22 @@
+---
+manufacturer: Mobotix
+model: c25
+slug: mobotix-c25
+part_number: c25
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 212
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 4 GB
+comments: >
+  [Mobotix c25 product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

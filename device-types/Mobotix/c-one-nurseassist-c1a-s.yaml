@@ -1,0 +1,26 @@
+---
+manufacturer: Mobotix
+model: c ONE NurseAssist (c1A-S)
+slug: mobotix-c-one-nurseassist-c1a-s
+part_number: c ONE NurseAssist (c1A-S)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Mobotix c ONE NurseAssist (c1A-S) product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

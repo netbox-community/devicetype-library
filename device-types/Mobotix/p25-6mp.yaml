@@ -1,0 +1,18 @@
+---
+manufacturer: Mobotix
+model: p25 6MP
+slug: mobotix-p25-6mp
+part_number: p25 6MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4 W
+comments: >
+  [Mobotix p25 6MP product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)
