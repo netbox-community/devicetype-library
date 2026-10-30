@@ -1,0 +1,37 @@
+---
+manufacturer: Cisco
+model: SG250-08
+slug: cisco-sg250-08-k9
+part_number: SG250-08-K9
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.54
+weight_unit: kg
+comments: '[Cisco 250 Series Smart Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/250-series-smart-switches/datasheet-c78-737061.html)'
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: External PSU
+    type: dc-terminal
+    maximum_draw: 8
+interfaces:
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet3
+    type: 1000base-t
+  - name: GigabitEthernet4
+    type: 1000base-t
+  - name: GigabitEthernet5
+    type: 1000base-t
+  - name: GigabitEthernet6
+    type: 1000base-t
+  - name: GigabitEthernet7
+    type: 1000base-t
+  - name: GigabitEthernet8
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
