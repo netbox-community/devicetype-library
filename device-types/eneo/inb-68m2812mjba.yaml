@@ -1,0 +1,26 @@
+---
+manufacturer: eneo
+model: INB-68M2812MJBA
+slug: eneo-inb-68m2812mjba
+part_number: INB-68M2812MJBA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo INB-68M2812MJBA product page](https://eneo-security.com/en/inb-68m2812mjba.html)

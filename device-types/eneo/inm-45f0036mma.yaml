@@ -1,0 +1,22 @@
+---
+manufacturer: eneo
+model: INM-45F0036MMA
+slug: eneo-inm-45f0036mma
+part_number: INM-45F0036MMA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 60
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.62 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [eneo INM-45F0036MMA product page](https://eneo-security.com/en/inm-45f0036mma.html)

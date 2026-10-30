@@ -1,0 +1,27 @@
+---
+manufacturer: eneo
+model: IND-58F0002MTPB
+slug: eneo-ind-58f0002mtpb
+part_number: IND-58F0002MTPB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 765
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo IND-58F0002MTPB product page](https://eneo-security.com/en/eneo-ind-58f0002mtpb.html)
