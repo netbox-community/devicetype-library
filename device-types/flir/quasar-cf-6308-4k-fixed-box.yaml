@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: Quasar CF-6308 4K Fixed Box
+slug: flir-quasar-cf-6308-4k-fixed-box
+part_number: Quasar CF-6308 4K Fixed Box
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 610
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [flir Quasar CF-6308 4K Fixed Box product page](https://flir.netx.net/file/asset/10965/original/attachment)
