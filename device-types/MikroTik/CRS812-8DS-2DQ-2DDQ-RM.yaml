@@ -1,0 +1,66 @@
+---
+manufacturer: MikroTik
+model: CRS812-8DS-2DQ-2DDQ-RM
+slug: mikrotik-crs812-8ds-2dq-2ddq-rm
+part_number: CRS812-8DS-2DQ-2DDQ-RM
+u_height: 1
+is_full_depth: false
+is_powered: true
+comments: |
+  [Product Page](https://mikrotik.com/product/crs812_ddq).
+
+  Careful, there is only qsfp56-[1..2]-1 and qsfp56-dd-[1..2]-1 interfaces for 200/400Gb,
+  don't forget to add the other if you use breakout cables.
+console-ports:
+  - name: serial0
+    type: rj-45
+interfaces:
+  - name: ether1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: ether2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: sfp56-1
+    type: 50gbase-x-sfp56
+  - name: sfp56-2
+    type: 50gbase-x-sfp56
+  - name: sfp56-3
+    type: 50gbase-x-sfp56
+  - name: sfp56-4
+    type: 50gbase-x-sfp56
+  - name: sfp56-5
+    type: 50gbase-x-sfp56
+  - name: sfp56-6
+    type: 50gbase-x-sfp56
+  - name: sfp56-7
+    type: 50gbase-x-sfp56
+  - name: sfp56-8
+    type: 50gbase-x-sfp56
+  - name: qsfp56-1-1
+    type: 200gbase-x-qsfp56
+  - name: qsfp56-2-1
+    type: 200gbase-x-qsfp56
+  - name: qsfp56-dd-1-1
+    type: 400gbase-x-qsfpdd
+  - name: qsfp56-dd-2-1
+    type: 400gbase-x-qsfpdd
+module-bays:
+  - name: power1
+    position: power1
+    description: Power module
+  - name: power2
+    position: power2
+    description: Power module
+  - name: fan1
+    position: '1'
+    description: Fan tray
+  - name: fan2
+    position: '2'
+    description: Fan tray
+  - name: fan3
+    position: '3'
+    description: Fan tray
+  - name: fan4
+    position: '4'
+    description: Fan tray
