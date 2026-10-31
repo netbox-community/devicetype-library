@@ -1,0 +1,14 @@
+---
+manufacturer: RIPE NCC
+model: Atlas Probe v4
+slug: ripe-ncc-atlas-probe-v4
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[RIPE Atlas Probe V4](https://atlas.ripe.net/docs/probeinfo/probe-v4) - NanoPi NEO Plus2, 512 MB RAM, no external storage required'
+interfaces:
+  - name: RJ45
+    type: 1000base-t
+power-ports:
+  - name: Power
+    type: usb-micro-b
