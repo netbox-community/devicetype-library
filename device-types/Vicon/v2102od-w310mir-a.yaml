@@ -1,0 +1,23 @@
+---
+manufacturer: Vicon
+model: V2102OD-W310MIR-A
+slug: vicon-v2102od-w310mir-a
+part_number: V2102OD-W310MIR-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Vicon V2102OD-W310MIR-A product page](https://vicon-security.com/hubfs/Product%20Resources/V2102OD-W310-A_Datasheet2%204.pdf)
