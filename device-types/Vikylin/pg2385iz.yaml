@@ -1,0 +1,21 @@
+---
+manufacturer: Vikylin
+model: PG2385IZ
+slug: vikylin-pg2385iz
+part_number: PG2385IZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Vikylin PG2385IZ product page](https://vikylin.com/wp-content/uploads/2023/11/PG2385IZ-Specification.pdf)

@@ -1,0 +1,23 @@
+---
+manufacturer: Vikylin
+model: PTZ-4620-IZT
+slug: vikylin-ptz-4620-izt
+part_number: PTZ-4620-IZT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+comments: >
+  [Vikylin PTZ-4620-IZT product page](https://vikylin.com/wp-content/uploads/2023/11/PTZ-4620-IZT-Specification.pdf)

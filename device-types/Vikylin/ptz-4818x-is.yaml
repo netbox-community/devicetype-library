@@ -1,0 +1,21 @@
+---
+manufacturer: Vikylin
+model: PTZ-4818X-IS
+slug: vikylin-ptz-4818x-is
+part_number: PTZ-4818X-IS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+comments: >
+  [Vikylin PTZ-4818X-IS product page](https://vikylin.com/wp-content/uploads/2023/11/PTZ-4818X-IS-Specification.pdf)
