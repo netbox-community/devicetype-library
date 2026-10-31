@@ -1,0 +1,40 @@
+---
+manufacturer: Supermicro
+model: AS-3015A-I
+slug: supermicro-as-3015a-i
+part_number: AS-3015A-I
+comments: |
+  Mainstream mini-tower A+ Server with Supermicro H13SAE-MF motherboard (CSE-731i-668B chassis), 4 fixed 3.5" SATA drive bays, 2 external 5.25" bays, 668W Platinum power supply
+  [Supermicro AS-3015A-I](https://www.supermicro.com/en/products/system/mainstream/mini-tower/as-3015a-i)
+
+# Tower, not rack mountable
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+weight: 8.16
+weight_unit: kg
+
+subdevice_role: parent
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 668
+
+module-bays:
+  - name: Drive Bay 1
+    position: '1'
+    description: 3.5" SATA fixed drive bay
+  - name: Drive Bay 2
+    position: '2'
+    description: 3.5" SATA fixed drive bay
+  - name: Drive Bay 3
+    position: '3'
+    description: 3.5" SATA fixed drive bay
+  - name: Drive Bay 4
+    position: '4'
+    description: 3.5" SATA fixed drive bay
+
+device-bays:
+  - name: Motherboard
+    description: Supermicro H13SAE-MF
