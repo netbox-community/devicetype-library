@@ -1,0 +1,32 @@
+---
+manufacturer: Ciena
+model: 3803-MTL
+slug: ciena-3803-mtl
+part_number: 170-3803-910-MTL
+comments: '[Ciena 3803-MTL DCOM ONU data sheet](https://www.ciena.com/insights/data-sheets/3803-mtl-dcom-onu)'
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+weight: 632
+weight_unit: g
+airflow: passive
+power-ports:
+  - name: 48VDC
+    type: other
+    maximum_draw: 9
+    allocated_draw: 7
+power-outlets:
+  - name: USB-C
+    type: usb-c
+    power_port: 48VDC
+interfaces:
+  - name: XGS-PON
+    type: xgs-pon
+  - name: UNI-ETH 1
+    type: 1000base-t
+  - name: UNI-ETH 2
+    type: 1000base-t
+  - name: UNI-ETH 3
+    type: 1000base-t
+  - name: UNI-ETH 4
+    type: 1000base-t

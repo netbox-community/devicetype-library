@@ -5,7 +5,7 @@ slug: cisco-c1300-8mgp-2x
 part_number: C1300-8MGP-2X
 u_height: 1.0
 is_full_depth: false
-front_image: false
+front_image: true
 rear_image: false
 comments: '[Catalyst 1300 Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html)'
 weight: 5.83
@@ -35,15 +35,23 @@ interfaces:
   - name: GigabitEthernet1/0/5
     type: 2.5gbase-t
     enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/6
     type: 2.5gbase-t
     enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/7
     type: 2.5gbase-t
     enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: GigabitEthernet1/0/8
     type: 2.5gbase-t
     enabled: true
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
   - name: TenGigabitEthernet1/0/1
     type: 10gbase-x-sfpp
     enabled: true
