@@ -1,0 +1,24 @@
+---
+manufacturer: Uniview
+model: HC191-GI-1640-OS
+slug: uniview-hc191-gi-1640-os
+part_number: HC191-GI-1640-OS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5670
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 16 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 16
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Uniview HC191-GI-1640-OS product page](https://sgcdn.uniview.com/Products/Intelligent_Traffic/Intelligent_Traffic_Products/ITS_ANPR_Camera/HC191-GI-1640-OS)
