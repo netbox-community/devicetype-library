@@ -1,0 +1,19 @@
+---
+manufacturer: YI
+model: YI Outdoor PTZ Camera
+slug: yi-yi-outdoor-ptz-camera
+part_number: YI Outdoor PTZ Camera
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 495
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC

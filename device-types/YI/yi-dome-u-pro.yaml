@@ -1,0 +1,19 @@
+---
+manufacturer: YI
+model: YI Dome U Pro
+slug: yi-yi-dome-u-pro
+part_number: YI Dome U Pro
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 266
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
