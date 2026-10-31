@@ -1,0 +1,26 @@
+---
+manufacturer: Oncam
+model: EVO-05-NID
+slug: oncam-evo-05-nid
+part_number: EVO-05-NID
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.05 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Oncam EVO-05-NID product page](https://oncamgrandeye.com/app/uploads/OG-003739-DS-7-EVO-05-Indoor-Datasheet.pdf)

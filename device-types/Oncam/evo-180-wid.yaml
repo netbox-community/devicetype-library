@@ -1,0 +1,26 @@
+---
+manufacturer: Oncam
+model: EVO-180-WID
+slug: oncam-evo-180-wid
+part_number: EVO-180-WID
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Oncam EVO-180-WID product page](https://www.oncamgrandeye.com/app/uploads/OG-006169-DS-2-EVO-180-Indoor-Datasheet.pdf)
