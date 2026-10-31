@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S3131LUX
+slug: i-pro-wv-s3131lux
+part_number: WV-S3131LUX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 255
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.8 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB

@@ -1,0 +1,22 @@
+---
+manufacturer: i-PRO
+model: WV-NW964
+slug: i-pro-wv-nw964
+part_number: WV-NW964
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 85 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 85
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2 GB
