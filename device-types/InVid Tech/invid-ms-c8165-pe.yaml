@@ -1,0 +1,27 @@
+---
+manufacturer: InVid Tech
+model: INVID-MS-C8165-PE
+slug: invid-tech-invid-ms-c8165-pe
+part_number: INVID-MS-C8165-PE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 630
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [InVid Tech INVID-MS-C8165-PE product page](https://info.invidtech.com/hubfs/AAA_SpecSheets/Milesight/INVID-MS-C8165-PE.pdf)

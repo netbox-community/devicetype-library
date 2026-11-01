@@ -1,0 +1,27 @@
+---
+manufacturer: InVid Tech
+model: INVID-TS4466-X4RVPE
+slug: invid-tech-invid-ts4466-x4rvpe
+part_number: INVID-TS4466-X4RVPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1623
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [InVid Tech INVID-TS4466-X4RVPE product page](https://info.invidtech.com/hubfs/AAA_SpecSheets/Milesight/INVID-TS4466-X4RVPE.pdf)
