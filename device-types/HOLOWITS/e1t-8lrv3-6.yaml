@@ -1,0 +1,21 @@
+---
+manufacturer: HOLOWITS
+model: E1T-8LRV(3.6)
+slug: holowits-e1t-8lrv3-6
+part_number: E1T-8LRV(3.6)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [HOLOWITS E1T-8LRV(3.6) product page](https://resources.holowits.com/material/%5BDatasheet%5D%20E1T-8LRV%283.6%29.pdf)

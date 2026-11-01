@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: HWT-C3050-10-LI-PV(3.6mm)
+slug: holowits-hwt-c3050-10-li-pv3-6mm
+part_number: HWT-C3050-10-LI-PV(3.6mm)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-C3050-10-LI-PV(3.6mm) product page](https://resources.holowits.com/material/HOLOWITS%20HWT-C3050-10-LI-PV%283.6mm%29%20Datasheet%20V2.pdf)
