@@ -1,0 +1,24 @@
+---
+manufacturer: Alibi
+model: ALI-NS3034R
+slug: alibi-ali-ns3034r
+part_number: ALI-NS3034R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1179
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Alibi ALI-NS3034R product page](https://www.alibisecurity.com/media/docs/ali-ns3034r-datasheet-dlr.pdf)

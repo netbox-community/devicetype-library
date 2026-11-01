@@ -1,0 +1,27 @@
+---
+manufacturer: Alibi
+model: ALI-FD40-VUA-D
+slug: alibi-ali-fd40-vua-d
+part_number: ALI-FD40-VUA-D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 408
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Alibi ALI-FD40-VUA-D product page](https://www.alibisecurity.com/media/docs/ali-fd40-vua-d-datasheet-as.pdf)

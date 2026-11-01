@@ -1,0 +1,27 @@
+---
+manufacturer: Alibi
+model: ALI-PT40-UAI
+slug: alibi-ali-pt40-uai
+part_number: ALI-PT40-UAI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Alibi ALI-PT40-UAI product page](https://www.alibisecurity.com/media/docs/ali-pt40-uai-datasheet-as.pdf)
