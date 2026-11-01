@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-LPC2211
+slug: geovision-gv-lpc2211
+part_number: GV-LPC2211
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 810
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [GeoVision GV-LPC2211 product page](https://dlcdn.geovision.com.tw/Manual/LPR-Cam/Datasheet/Datasheet_IPLPC2211.pdf)
