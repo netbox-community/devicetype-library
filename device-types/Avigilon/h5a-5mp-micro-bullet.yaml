@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H5A 5MP Micro Bullet
+slug: avigilon-h5a-5mp-micro-bullet
+part_number: H5A 5MP Micro Bullet
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 43
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Avigilon H5A 5MP Micro Bullet product page](https://www.avigilon.com/fs/documents/avigilon-h5a-modular-datasheet-en-81326.pdf)

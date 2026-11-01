@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H5 Pro 40MP Box (40C-H5PRO-B)
+slug: avigilon-h5-pro-40mp-box-40c-h5pro-b
+part_number: H5 Pro 40MP Box (40C-H5PRO-B)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+comments: >
+  [Avigilon H5 Pro 40MP Box (40C-H5PRO-B) product page](https://docs.avigilon.com/bundle/h5-pro-camera-datasheet/resource/h5-pro-camera-datasheet.pdf)

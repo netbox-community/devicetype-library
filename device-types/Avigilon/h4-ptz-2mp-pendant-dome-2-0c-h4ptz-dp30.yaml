@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4 PTZ 2MP Pendant Dome (2.0C-H4PTZ-DP30)
+slug: avigilon-h4-ptz-2mp-pendant-dome-2-0c-h4ptz-dp30
+part_number: H4 PTZ 2MP Pendant Dome (2.0C-H4PTZ-DP30)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 4, max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 24V DC
+comments: >
+  [Avigilon H4 PTZ 2MP Pendant Dome (2.0C-H4PTZ-DP30) product page](https://assets.avigilon.com/file_library/pdf/h4-ptz/avigilon-h4-ptz-datasheet-en-rev13.pdf)

@@ -1,0 +1,22 @@
+---
+manufacturer: Avigilon
+model: H5A Multisensor 12MP Surface (12C-H5A-4MH-DO1-B)
+slug: avigilon-h5a-multisensor-12mp-surface-12c-h5a-4mh-do1-b
+part_number: H5A Multisensor 12MP Surface (12C-H5A-4MH-DO1-B)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+comments: >
+  [Avigilon H5A Multisensor 12MP Surface (12C-H5A-4MH-DO1-B) product page](https://docs.avigilon.com/bundle/h5a-multi-camera-datasheet/resource/h5a-multi-camera-datasheet.pdf)
