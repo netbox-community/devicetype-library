@@ -1,0 +1,22 @@
+---
+manufacturer: Sunell
+model: SN-TPT6434LZ-M
+slug: sunell-sn-tpt6434lz-m
+part_number: SN-TPT6434LZ-M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 80
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-TPT6434LZ-M product page](https://www.sunellsecurity.com/products/pt-thermal-camera/sn-tpt6434lz-m.shtml)
