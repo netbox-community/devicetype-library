@@ -1,0 +1,70 @@
+---
+manufacturer: ASRockRack
+model: X570D4U
+slug: asrockrack-x570d4u
+part_number: X570D4U
+comments: |
+  AMD X570 micro-ATX server motherboard for AMD Ryzen 2nd/3rd generation and Ryzen PRO processors (Socket AM4), 4 DDR4 ECC/non-ECC UDIMM slots, 2 M.2, 8 SATA3, dual Intel i210 GbE and ASPEED AST2500 BMC
+  [ASRock Rack X570D4U](https://www.asrockrack.com/general/productdetail.asp?Model=X570D4U)
+
+u_height: 0
+is_full_depth: false
+airflow: passive
+
+# Should be inside of a case
+subdevice_role: child
+
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port (Realtek RTL8211E)
+  - name: LAN1
+    type: 1000base-t
+    description: Intel i210-AT, supports NCSI
+  - name: LAN2
+    type: 1000base-t
+    description: Intel i210-AT
+
+module-bays:
+  - name: CPU
+    position: '1'
+    description: AMD AM4 Socket (PGA1331)
+
+  # DIMM modeled as newer module-bay instead of inventory item
+  - name: DDR4_A1
+    position: '2'
+    description: DDR4 UDIMM slot
+  - name: DDR4_A2
+    position: '3'
+    description: DDR4 UDIMM slot
+  - name: DDR4_B1
+    position: '4'
+    description: DDR4 UDIMM slot
+  - name: DDR4_B2
+    position: '5'
+    description: DDR4 UDIMM slot
+
+  # Slot names follow the manual; link speeds are for Ryzen 3000 (Matisse) CPUs,
+  # PCIE6 switches to x8 when PCIE4 is occupied
+  - name: PCIE4
+    position: '6'
+    description: PCIe 4.0 x8
+  - name: PCIE5
+    position: '7'
+    description: PCIe 4.0 x1
+  - name: PCIE6
+    position: '8'
+    description: PCIe 4.0 x16
+
+  - name: M2_1
+    position: '9'
+    description: SATA3 or PCIe 4.0 x4 (M-key 2242, 2260, 2280, 22110)
+  - name: M2_2
+    position: '10'
+    description: SATA3 or PCIe 4.0 x4 (M-key 2242, 2260, 2280)
