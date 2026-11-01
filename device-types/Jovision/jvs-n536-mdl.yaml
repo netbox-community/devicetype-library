@@ -1,0 +1,23 @@
+---
+manufacturer: Jovision
+model: JVS-N536-MDL
+slug: jovision-jvs-n536-mdl
+part_number: JVS-N536-MDL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 220
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Jovision JVS-N536-MDL product page](https://www.jovisionsecurity.com/5MP_Dome_Full_Color_IP_Camera.html)
