@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QNP-6230
 slug: hanwha-qnp-6230
+part_number: QNP-6230
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -11,10 +12,11 @@ interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
-    poe_type: type1-ieee802.3af
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha QNP-6230 datasheet](https://www.hanwhavision.com/global/products/product-details/QNP-6230)
+  [Hanwha QNP-6230 product page](https://www.hanwhavision.com/global/products/product-details/QNP-6230)

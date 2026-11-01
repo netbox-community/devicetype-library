@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNO-8020R
 slug: hanwha-xno-8020r
+part_number: XNO-8020R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XNO-8020R datasheet](https://www.hanwhavision.com/global/products/product-details/XNO-8020R)
+  [Hanwha XNO-8020R product page](https://www.hanwhavision.com/global/products/product-details/XNO-8020R)

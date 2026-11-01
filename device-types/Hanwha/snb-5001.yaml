@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNB-5001
 slug: hanwha-snb-5001
+part_number: SNB-5001
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
 comments: >
-  [Hanwha SNB-5001 datasheet](https://www.hanwhavision.com/global/products/product-details/SNB-5001)
+  [Hanwha SNB-5001 product page](https://www.hanwhavision.com/global/products/product-details/SNB-5001)

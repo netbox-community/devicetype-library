@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QNO-6020R
 slug: hanwha-qno-6020r
+part_number: QNO-6020R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha QNO-6020R datasheet](https://www.hanwhavision.com/global/products/product-details/QNO-6020R)
+  [Hanwha QNO-6020R product page](https://www.hanwhavision.com/global/products/product-details/QNO-6020R)

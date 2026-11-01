@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNV-7082
 slug: hanwha-snv-7082
+part_number: SNV-7082
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,8 +11,13 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 comments: >
-  [Hanwha SNV-7082 datasheet](https://www.hanwhavision.com/global/products/product-details/SNV-7082)
+  [Hanwha SNV-7082 product page](https://www.hanwhavision.com/global/products/product-details/SNV-7082)

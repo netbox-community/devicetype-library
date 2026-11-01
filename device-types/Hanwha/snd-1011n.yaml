@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SND-1011N
 slug: hanwha-snd-1011n
+part_number: SND-1011N
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,8 +11,13 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
 comments: >
-  [Hanwha SND-1011N datasheet](https://www.hanwhavision.com/)
+  [Hanwha SND-1011N product page](https://www.hanwhavision.com)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNO-A7082R
 slug: hanwha-pno-a7082r
+part_number: PNO-A7082R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 2048 GB
 comments: >
-  [Hanwha PNO-A7082R datasheet](https://www.hanwhavision.com/global/products/product-details/PNO-A7082R)
+  [Hanwha PNO-A7082R product page](https://www.hanwhavision.com/global/products/product-details/PNO-A7082R)

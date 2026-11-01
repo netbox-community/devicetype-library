@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QNV-6030R
 slug: hanwha-qnv-6030r
+part_number: QNV-6030R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha QNV-6030R datasheet](https://www.hanwhavision.com/global/products/product-details/QNV-6030R)
+  [Hanwha QNV-6030R product page](https://www.hanwhavision.com/global/products/product-details/QNV-6030R)

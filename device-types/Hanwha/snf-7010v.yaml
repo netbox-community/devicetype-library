@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNF-7010V
 slug: hanwha-snf-7010v
+part_number: SNF-7010V
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
 comments: >
-  [Hanwha SNF-7010V datasheet](https://www.hanwhavision.com/global/products/product-details/SNF-7010V)
+  [Hanwha SNF-7010V product page](https://www.hanwhavision.com/global/products/product-details/SNF-7010V)

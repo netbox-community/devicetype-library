@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNP-5300H
 slug: hanwha-snp-5300h
+part_number: SNP-5300H
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -11,6 +12,7 @@ interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
-    poe_type: type1-ieee802.3af
+    poe_type: type2-ieee802.3at
+    description: max 53 W
 comments: >
-  [Hanwha SNP-5300H datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-5300H)
+  [Hanwha SNP-5300H product page](https://www.hanwhavision.com/global/products/product-details/SNP-5300H)

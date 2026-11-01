@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNV-6020R
 slug: hanwha-xnv-6020r
+part_number: XNV-6020R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha XNV-6020R datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-6020R)
+  [Hanwha XNV-6020R product page](https://www.hanwhavision.com/global/products/product-details/XNV-6020R)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNO-A9311RLP
 slug: hanwha-pno-a9311rlp
+part_number: PNO-A9311RLP
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
 comments: >
-  [Hanwha PNO-A9311RLP datasheet](https://www.hanwhavision.com/global/products/product-details/PNO-A9311RLP)
+  [Hanwha PNO-A9311RLP product page](https://www.hanwhavision.com/global/products/product-details/PNO-A9311RLP)

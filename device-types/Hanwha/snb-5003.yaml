@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNB-5003
 slug: hanwha-snb-5003
+part_number: SNB-5003
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
 comments: >
-  [Hanwha SNB-5003 datasheet](https://www.hanwhavision.com/global/products/product-details/SNB-5003)
+  [Hanwha SNB-5003 product page](https://www.hanwhavision.com/global/products/product-details/SNB-5003)

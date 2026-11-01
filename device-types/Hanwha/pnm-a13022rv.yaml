@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNM-A13022RV
 slug: hanwha-pnm-a13022rv
+part_number: PNM-A13022RV
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha PNM-A13022RV datasheet](https://www.hanwhavision.com/global/products/product-details/PNM-A13022RV)
+  [Hanwha PNM-A13022RV product page](https://www.hanwhavision.com/global/products/product-details/PNM-A13022RV)

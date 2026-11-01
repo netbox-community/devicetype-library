@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNM-7082RVD
 slug: hanwha-pnm-7082rvd
+part_number: PNM-7082RVD
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,9 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha PNM-7082RVD datasheet](https://www.hanwhavision.com/global/products/product-details/PNM-7082RVD)
+  [Hanwha PNM-7082RVD product page](https://www.hanwhavision.com/global/products/product-details/PNM-7082RVD)

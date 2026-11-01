@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TID-600R
 slug: hanwha-tid-600r
+part_number: TID-600R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha TID-600R datasheet](https://www.hanwhavision.com/global/products/product-details/TID-600R)
+  [Hanwha TID-600R product page](https://www.hanwhavision.com/global/products/product-details/TID-600R)

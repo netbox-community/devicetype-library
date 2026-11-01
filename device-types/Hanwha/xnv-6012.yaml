@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNV-6012
 slug: hanwha-xnv-6012
+part_number: XNV-6012
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,9 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XNV-6012 datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-6012)
+  [Hanwha XNV-6012 product page](https://www.hanwhavision.com/global/products/product-details/XNV-6012)

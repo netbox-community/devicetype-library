@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNO-9082R
 slug: hanwha-xno-9082r
+part_number: XNO-9082R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha XNO-9082R datasheet](https://www.hanwhavision.com/global/products/product-details/XNO-9082R)
+  [Hanwha XNO-9082R product page](https://www.hanwhavision.com/global/products/product-details/XNO-9082R)

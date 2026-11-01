@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNV-7084R
 slug: hanwha-snv-7084r
+part_number: SNV-7084R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,8 +11,13 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 15 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
 comments: >
-  [Hanwha SNV-7084R datasheet](https://www.hanwhavision.com/global/products/product-details/SNV-7084R)
+  [Hanwha SNV-7084R product page](https://www.hanwhavision.com/global/products/product-details/SNV-7084R)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNS-7000M
 slug: hanwha-tns-7000m
+part_number: TNS-7000M
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -13,9 +14,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 24V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha TNS-7000M datasheet](https://www.hanwhavision.com/global/products/product-details/TNS-7000M)
+  [Hanwha TNS-7000M product page](https://www.hanwhavision.com/global/products/product-details/TNS-7000M)

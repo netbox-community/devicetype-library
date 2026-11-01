@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNO-A26081
 slug: hanwha-tno-a26081
+part_number: TNO-A26081
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 44
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha TNO-A26081 datasheet](https://www.hanwhavision.com/global/products/product-details/TNO-A26081)
+  [Hanwha TNO-A26081 product page](https://www.hanwhavision.com/global/products/product-details/TNO-A26081)

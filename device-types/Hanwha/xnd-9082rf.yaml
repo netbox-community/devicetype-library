@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XND-9082RF
 slug: hanwha-xnd-9082rf
+part_number: XND-9082RF
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha XND-9082RF datasheet](https://www.hanwhavision.com/global/products/product-details/XND-9082RF)
+  [Hanwha XND-9082RF product page](https://www.hanwhavision.com/global/products/product-details/XND-9082RF)

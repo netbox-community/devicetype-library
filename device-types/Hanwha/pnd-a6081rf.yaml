@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PND-A6081RF
 slug: hanwha-pnd-a6081rf
+part_number: PND-A6081RF
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha PND-A6081RF datasheet](https://www.hanwhavision.com/global/products/product-details/PND-A6081RF)
+  [Hanwha PND-A6081RF product page](https://www.hanwhavision.com/global/products/product-details/PND-A6081RF)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNO-6321E
 slug: hanwha-tno-6321e
+part_number: TNO-6321E
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -13,5 +14,6 @@ interfaces:
 power-ports:
   - name: AC
     type: hardwired
+    maximum_draw: 45
 comments: >
-  [Hanwha TNO-6321E datasheet](https://www.hanwhavision.com/global/products/product-details/TNO-6321E)
+  [Hanwha TNO-6321E product page](https://www.hanwhavision.com/global/products/product-details/TNO-6321E)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNP-5200HN
 slug: hanwha-snp-5200hn
+part_number: SNP-5200HN
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -11,6 +12,7 @@ interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
-    poe_type: type1-ieee802.3af
+    poe_type: type2-ieee802.3at
+    description: max 52 W
 comments: >
-  [Hanwha SNP-5200HN datasheet](https://www.hanwhavision.com/)
+  [Hanwha SNP-5200HN product page](https://www.hanwhavision.com)

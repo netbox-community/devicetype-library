@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNB-6000
 slug: hanwha-xnb-6000
+part_number: XNB-6000
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XNB-6000 datasheet](https://www.hanwhavision.com/global/products/product-details/XNB-6000)
+  [Hanwha XNB-6000 product page](https://www.hanwhavision.com/global/products/product-details/XNB-6000)

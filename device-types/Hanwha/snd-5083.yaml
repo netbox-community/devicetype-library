@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SND-5083
 slug: hanwha-snd-5083
+part_number: SND-5083
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
 comments: >
-  [Hanwha SND-5083 datasheet](https://www.hanwhavision.com/global/products/product-details/SND-5083)
+  [Hanwha SND-5083 product page](https://www.hanwhavision.com/global/products/product-details/SND-5083)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNO-C3020TRA
 slug: hanwha-tno-c3020tra
+part_number: TNO-C3020TRA
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha TNO-C3020TRA datasheet](https://www.hanwhavision.com/global/products/product-details/TNO-C3020TRA)
+  [Hanwha TNO-C3020TRA product page](https://www.hanwhavision.com/global/products/product-details/TNO-C3020TRA)

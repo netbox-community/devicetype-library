@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNV-A6081R-E1T
 slug: hanwha-pnv-a6081r-e1t
+part_number: PNV-A6081R-E1T
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 19
+    description: 12V DC
 comments: >
-  [Hanwha PNV-A6081R-E1T datasheet](https://www.hanwhavision.com/global/products/product-details/PNV-A6081R-E1T)
+  [Hanwha PNV-A6081R-E1T product page](https://www.hanwhavision.com/global/products/product-details/PNV-A6081R-E1T)

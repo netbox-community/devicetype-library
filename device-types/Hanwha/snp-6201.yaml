@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNP-6201
 slug: hanwha-snp-6201
+part_number: SNP-6201
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -11,6 +12,7 @@ interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
-    poe_type: type1-ieee802.3af
+    poe_type: type2-ieee802.3at
+    description: max 15 W
 comments: >
-  [Hanwha SNP-6201 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-6201)
+  [Hanwha SNP-6201 product page](https://www.hanwhavision.com/global/products/product-details/SNP-6201)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNV-C6083R
 slug: hanwha-xnv-c6083r
+part_number: XNV-C6083R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha XNV-C6083R datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-C6083R)
+  [Hanwha XNV-C6083R product page](https://www.hanwhavision.com/global/products/product-details/XNV-C6083R)

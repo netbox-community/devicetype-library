@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNZ-L6320A
 slug: hanwha-xnz-l6320a
+part_number: XNZ-L6320A
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XNZ-L6320A datasheet](https://www.hanwhavision.com/global/products/product-details/XNZ-L6320A)
+  [Hanwha XNZ-L6320A product page](https://www.hanwhavision.com/global/products/product-details/XNZ-L6320A)

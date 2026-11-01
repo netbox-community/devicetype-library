@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNM-C4940TD
 slug: hanwha-tnm-c4940td
+part_number: TNM-C4940TD
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha TNM-C4940TD datasheet](https://www.hanwhavision.com/global/products/product-details/TNM-C4940TD)
+  [Hanwha TNM-C4940TD product page](https://www.hanwhavision.com/global/products/product-details/TNM-C4940TD)

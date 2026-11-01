@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNU-6322ER
 slug: hanwha-tnu-6322er
+part_number: TNU-6322ER
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -13,5 +14,6 @@ interfaces:
 power-ports:
   - name: AC
     type: hardwired
+    maximum_draw: 99
 comments: >
-  [Hanwha TNU-6322ER datasheet](https://www.hanwhavision.com/global/products/product-details/TNU-6322ER)
+  [Hanwha TNU-6322ER product page](https://www.hanwhavision.com/global/products/product-details/TNU-6322ER)

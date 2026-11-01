@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNV-8080RSA
 slug: hanwha-xnv-8080rsa
+part_number: XNV-8080RSA
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha XNV-8080RSA datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-8080RSA)
+  [Hanwha XNV-8080RSA product page](https://www.hanwhavision.com/global/products/product-details/XNV-8080RSA)

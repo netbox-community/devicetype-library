@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNP-3370
 slug: hanwha-snp-3370
+part_number: SNP-3370
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -13,5 +14,6 @@ interfaces:
 power-ports:
   - name: AC
     type: hardwired
+    maximum_draw: 16
 comments: >
-  [Hanwha SNP-3370 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-3370)
+  [Hanwha SNP-3370 product page](https://www.hanwhavision.com/global/products/product-details/SNP-3370)

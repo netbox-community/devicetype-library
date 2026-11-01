@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNP-A6550RW
 slug: hanwha-tnp-a6550rw
+part_number: TNP-A6550RW
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -11,11 +12,11 @@ interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
-    poe_type: type4-ieee802.3bt
+    poe_type: type3-ieee802.3bt
     description: PoE Class 8, max 71 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha TNP-A6550RW datasheet](https://www.hanwhavision.com/global/products/product-details/TNP-A6550RW)
+  [Hanwha TNP-A6550RW product page](https://www.hanwhavision.com/global/products/product-details/TNP-A6550RW)

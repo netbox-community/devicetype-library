@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNP-L6233
 slug: hanwha-snp-l6233
+part_number: SNP-L6233
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -11,10 +12,11 @@ interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
-    poe_type: type1-ieee802.3af
+    poe_type: type2-ieee802.3at
+    description: max 20 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha SNP-L6233 datasheet](https://www.hanwhavision.com/global/products/product-details/SNP-L6233)
+  [Hanwha SNP-L6233 product page](https://www.hanwhavision.com/global/products/product-details/SNP-L6233)

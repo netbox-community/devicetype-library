@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XND-8020F
 slug: hanwha-xnd-8020f
+part_number: XND-8020F
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,9 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.7 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XND-8020F datasheet](https://www.hanwhavision.com/global/products/product-details/XND-8020F)
+  [Hanwha XND-8020F product page](https://www.hanwhavision.com/global/products/product-details/XND-8020F)

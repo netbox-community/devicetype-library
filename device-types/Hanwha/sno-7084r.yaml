@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNO-7084R
 slug: hanwha-sno-7084r
+part_number: SNO-7084R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -12,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
-    description: PoE Class 3, max 19 W
+    description: PoE Class 3, max 12.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
 comments: >
-  [Hanwha SNO-7084R datasheet](https://www.hanwhavision.com/global/products/product-details/SNO-7084R)
+  [Hanwha SNO-7084R product page](https://www.hanwhavision.com/global/products/product-details/SNO-7084R)

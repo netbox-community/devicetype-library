@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNV-L6080
 slug: hanwha-xnv-l6080
+part_number: XNV-L6080
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,9 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XNV-L6080 datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-L6080)
+  [Hanwha XNV-L6080 product page](https://www.hanwhavision.com/global/products/product-details/XNV-L6080)

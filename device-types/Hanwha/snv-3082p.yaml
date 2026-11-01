@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNV-3082P
 slug: hanwha-snv-3082p
+part_number: SNV-3082P
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,8 +11,13 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
 comments: >
-  [Hanwha SNV-3082P datasheet](https://www.hanwhavision.com/)
+  [Hanwha SNV-3082P product page](https://www.hanwhavision.com)

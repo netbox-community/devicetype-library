@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNO-6085R
 slug: hanwha-xno-6085r
+part_number: XNO-6085R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -12,13 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
-    description: PoE Class 3, max 14.5 W
+    description: PoE Class 3, max 12.95 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha XNO-6085R datasheet](https://www.hanwhavision.com/global/products/product-details/XNO-6085R)
+  [Hanwha XNO-6085R product page](https://www.hanwhavision.com/global/products/product-details/XNO-6085R)

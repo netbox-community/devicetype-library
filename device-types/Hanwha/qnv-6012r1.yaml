@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QNV-6012R1
 slug: hanwha-qnv-6012r1
+part_number: QNV-6012R1
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha QNV-6012R1 datasheet](https://www.hanwhavision.com/global/products/product-details/QNV-6012R1)
+  [Hanwha QNV-6012R1 product page](https://www.hanwhavision.com/global/products/product-details/QNV-6012R1)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNV-8083R
 slug: hanwha-xnv-8083r
+part_number: XNV-8083R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha XNV-8083R datasheet](https://www.hanwhavision.com/global/products/product-details/XNV-8083R)
+  [Hanwha XNV-8083R product page](https://www.hanwhavision.com/global/products/product-details/XNV-8083R)

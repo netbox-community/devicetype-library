@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNF-A9014RV
 slug: hanwha-xnf-a9014rv
+part_number: XNF-A9014RV
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha XNF-A9014RV datasheet](https://www.hanwhavision.com/global/products/product-details/XNF-A9014RV)
+  [Hanwha XNF-A9014RV product page](https://www.hanwhavision.com/global/products/product-details/XNF-A9014RV)

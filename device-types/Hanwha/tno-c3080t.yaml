@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNO-C3080T
 slug: hanwha-tno-c3080t
+part_number: TNO-C3080T
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hanwha TNO-C3080T datasheet](https://www.hanwhavision.com/global/products/product-details/TNO-C3080T)
+  [Hanwha TNO-C3080T product page](https://www.hanwhavision.com/global/products/product-details/TNO-C3080T)

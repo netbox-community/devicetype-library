@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QND-6012R
 slug: hanwha-qnd-6012r
+part_number: QND-6012R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha QND-6012R datasheet](https://www.hanwhavision.com/global/products/product-details/QND-6012R)
+  [Hanwha QND-6012R product page](https://www.hanwhavision.com/global/products/product-details/QND-6012R)

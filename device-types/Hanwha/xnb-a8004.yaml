@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XNB-A8004
 slug: hanwha-xnb-a8004
+part_number: XNB-A8004
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 2048 GB
 comments: >
-  [Hanwha XNB-A8004 datasheet](https://www.hanwhavision.com/global/products/product-details/XNB-A8004)
+  [Hanwha XNB-A8004 product page](https://www.hanwhavision.com/global/products/product-details/XNB-A8004)

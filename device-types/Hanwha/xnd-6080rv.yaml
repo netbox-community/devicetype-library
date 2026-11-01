@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XND-6080RV
 slug: hanwha-xnd-6080rv
+part_number: XND-6080RV
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha XND-6080RV datasheet](https://www.hanwhavision.com/global/products/product-details/XND-6080RV)
+  [Hanwha XND-6080RV product page](https://www.hanwhavision.com/global/products/product-details/XND-6080RV)

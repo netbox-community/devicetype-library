@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNF-9010RVM
 slug: hanwha-pnf-9010rvm
+part_number: PNF-9010RVM
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha PNF-9010RVM datasheet](https://www.hanwhavision.com/global/products/product-details/PNF-9010RVM)
+  [Hanwha PNF-9010RVM product page](https://www.hanwhavision.com/global/products/product-details/PNF-9010RVM)

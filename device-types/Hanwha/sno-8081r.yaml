@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNO-8081R
 slug: hanwha-sno-8081r
+part_number: SNO-8081R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha SNO-8081R datasheet](https://www.hanwhavision.com/global/products/product-details/SNO-8081R)
+  [Hanwha SNO-8081R product page](https://www.hanwhavision.com/global/products/product-details/SNO-8081R)

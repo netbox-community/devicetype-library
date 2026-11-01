@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: TNU-6324E
 slug: hanwha-tnu-6324e
+part_number: TNU-6324E
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -13,5 +14,6 @@ interfaces:
 power-ports:
   - name: AC
     type: hardwired
+    maximum_draw: 87
 comments: >
-  [Hanwha TNU-6324E datasheet](https://www.hanwhavision.com/global/products/product-details/TNU-6324E)
+  [Hanwha TNU-6324E product page](https://www.hanwhavision.com/global/products/product-details/TNU-6324E)

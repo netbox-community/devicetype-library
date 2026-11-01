@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNB-6011B
 slug: hanwha-snb-6011b
+part_number: SNB-6011B
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,8 +11,13 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
 comments: >
-  [Hanwha SNB-6011B datasheet](https://www.hanwhavision.com/global/products/product-details/SNB-6011B)
+  [Hanwha SNB-6011B product page](https://www.hanwhavision.com/global/products/product-details/SNB-6011B)

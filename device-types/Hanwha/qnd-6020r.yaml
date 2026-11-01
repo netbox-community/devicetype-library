@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QND-6020R
 slug: hanwha-qnd-6020r
+part_number: QND-6020R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,9 +17,11 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha QND-6020R datasheet](https://www.hanwhavision.com/global/products/product-details/QND-6020R)
+  [Hanwha QND-6020R product page](https://www.hanwhavision.com/global/products/product-details/QND-6020R)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: SNB-7002
 slug: hanwha-snb-7002
+part_number: SNB-7002
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -16,5 +17,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
 comments: >
-  [Hanwha SNB-7002 datasheet](https://www.hanwhavision.com/global/products/product-details/SNB-7002)
+  [Hanwha SNB-7002 product page](https://www.hanwhavision.com/global/products/product-details/SNB-7002)

@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: PNM-9080VQ
 slug: hanwha-pnm-9080vq
+part_number: PNM-9080VQ
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hanwha PNM-9080VQ datasheet](https://www.hanwhavision.com/global/products/product-details/PNM-9080VQ)
+  [Hanwha PNM-9080VQ product page](https://www.hanwhavision.com/global/products/product-details/PNM-9080VQ)

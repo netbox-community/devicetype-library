@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: QND-7082R
 slug: hanwha-qnd-7082r
+part_number: QND-7082R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,12 +11,17 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.6 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 128 GB
 comments: >
-  [Hanwha QND-7082R datasheet](https://www.hanwhavision.com/global/products/product-details/QND-7082R)
+  [Hanwha QND-7082R product page](https://www.hanwhavision.com/global/products/product-details/QND-7082R)

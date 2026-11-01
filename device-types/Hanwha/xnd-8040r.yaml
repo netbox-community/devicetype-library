@@ -2,6 +2,7 @@
 manufacturer: Hanwha
 model: XND-8040R
 slug: hanwha-xnd-8040r
+part_number: XND-8040R
 u_height: 0
 is_full_depth: false
 airflow: passive
@@ -10,9 +11,12 @@ weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hanwha XND-8040R datasheet](https://www.hanwhavision.com/global/products/product-details/XND-8040R)
+  [Hanwha XND-8040R product page](https://www.hanwhavision.com/global/products/product-details/XND-8040R)
