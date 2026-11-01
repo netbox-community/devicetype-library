@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C8266-RFIPKG1
+slug: milesight-ms-c8266-rfipkg1
+part_number: MS-C8266-RFIPKG1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 10V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C8266-RFIPKG1 product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/open-vision/milesight-openvision-pro-bullet-plus-camera-datasheet-en.pdf)
