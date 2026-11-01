@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP7152
+slug: vivotek-ip7152
+part_number: IP7152
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 581
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Vivotek IP7152 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/ip7152datasheet_en.pdf)

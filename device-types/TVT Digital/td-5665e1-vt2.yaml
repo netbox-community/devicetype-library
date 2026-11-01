@@ -1,0 +1,27 @@
+---
+manufacturer: TVT Digital
+model: TD-5665E1-VT2
+slug: tvt-digital-td-5665e1-vt2
+part_number: TD-5665E1-VT2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 35 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 35
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [TVT Digital TD-5665E1-VT2 product page](https://en.tvt.net.cn/products/1979.html)

@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: TD5328-VF2
+slug: vivotek-td5328-vf2
+part_number: TD5328-VF2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Vivotek TD5328-VF2 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/td5328-vf2datasheet_en.pdf)

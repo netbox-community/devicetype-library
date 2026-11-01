@@ -1,0 +1,60 @@
+---
+manufacturer: FS
+model: IES3110-8TFP-R
+slug: fs-ies3110-8tfp-r
+part_number: '148181'
+u_height: 0
+is_full_depth: false
+comments: '[IES3110-8TFP-R Datasheet](https://resource.fs.com/mall/resource/ies5100-ies3110-and-ies3100-series-switches-data-sheet.pdf)'
+airflow: passive
+weight: 0.9
+weight_unit: kg
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+power-ports:
+  - name: V1
+    type: dc-terminal
+    allocated_draw: 10
+    maximum_draw: 243
+  - name: V2
+    type: dc-terminal
+    allocated_draw: 10
+    maximum_draw: 243
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '2'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '3'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '4'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '5'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '6'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '7'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '8'
+    type: 1000base-t
+    poe_type: type2-ieee802.3at
+    poe_mode: pse
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp

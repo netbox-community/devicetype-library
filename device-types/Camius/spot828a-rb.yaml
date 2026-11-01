@@ -1,0 +1,23 @@
+---
+manufacturer: Camius
+model: SPOT828A-RB
+slug: camius-spot828a-rb
+part_number: SPOT828A-RB
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Camius SPOT828A-RB product page](https://www.camius.com/4k-outdoor-poe-camera)

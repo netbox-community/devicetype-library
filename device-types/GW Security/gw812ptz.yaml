@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW812PTZ
+slug: gw-security-gw812ptz
+part_number: GW812PTZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+comments: >
+  [GW Security GW812PTZ product page](https://gwsecurityusa.com/product/gw812ptz-8mp-4k-mini-ip-ptz-camera-4-7mm-94mm-motorized-lens-dome-security-camera-20x-optical-zoom-pan-tilt-zoom-dual-light-human-vehicle-detection-auto-tracking-two-way-audio-4-inch-wiper-2)
