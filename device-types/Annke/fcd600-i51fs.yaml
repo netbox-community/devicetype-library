@@ -1,0 +1,23 @@
+---
+manufacturer: Annke
+model: FCD600 I51FS
+slug: annke-fcd600-i51fs
+part_number: FCD600 I51FS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Annke FCD600 I51FS product page](https://www.annkecctv.com/products/i51fs)
