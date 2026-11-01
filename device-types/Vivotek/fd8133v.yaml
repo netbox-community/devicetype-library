@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: FD8133V
+slug: vivotek-fd8133v
+part_number: FD8133V
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 602.5
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC

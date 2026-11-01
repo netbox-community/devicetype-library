@@ -1,0 +1,27 @@
+---
+manufacturer: LILIN
+model: Z6R9582X3
+slug: lilin-z6r9582x3
+part_number: Z6R9582X3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 965
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN Z6R9582X3 product page](https://meritlilin.com/en/product/Z6R9582X3)

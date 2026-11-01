@@ -1,0 +1,92 @@
+---
+manufacturer: Cisco
+model: 8011-4G24Y4H-I
+slug: cisco-8011-4g24y4h-i
+part_number: 8011-4G24Y4H-I
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.5
+weight_unit: kg
+comments: '[Cisco 8010 Series Large Density Fixed Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/8010-series-large-density-fixed-routers-ds.html)'
+console-ports:
+  - name: con0
+    type: rj-45
+module-bays:
+  - name: PM0
+    position: 0/PM0
+    description: Power module
+  - name: PM1
+    position: 0/PM1
+    description: Power module
+  - name: SYNC0
+    position: 0/SYNC0
+    description: Timing Interfaces Card (8000-TIC or 8000-TIC-GNSS)
+interfaces:
+  - name: HundredGigE0/0/0/0
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/1
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/2
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/3
+    type: 100gbase-x-qsfp28
+  - name: TwentyFiveGigE0/0/0/4
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/5
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/6
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/7
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/8
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/9
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/10
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/11
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/12
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/13
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/14
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/15
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/16
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/17
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/18
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/19
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/20
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/21
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/22
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/23
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/24
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/25
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/26
+    type: 25gbase-x-sfp28
+  - name: TwentyFiveGigE0/0/0/27
+    type: 25gbase-x-sfp28
+  - name: GigabitEthernet0/0/0/28
+    type: 1000base-t
+  - name: GigabitEthernet0/0/0/29
+    type: 1000base-t
+  - name: GigabitEthernet0/0/0/30
+    type: 1000base-t
+  - name: GigabitEthernet0/0/0/31
+    type: 1000base-t
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true

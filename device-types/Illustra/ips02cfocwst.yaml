@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IPS02CFOCWST
+slug: illustra-ips02cfocwst
+part_number: IPS02CFOCWST
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Illustra IPS02CFOCWST product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/pro-2mp-3mp-compact-mini-domes/Data%20Sheets/Illustra-Pro-2MP-3MP-Compact-Mini-Dome-Data-Sheet-r02_hs_en.pdf)
