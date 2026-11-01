@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: Q75
+slug: acti-q75
+part_number: Q75
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+comments: >
+  [ACTi Q75 product page](https://www.acti.com/product/Q75)
