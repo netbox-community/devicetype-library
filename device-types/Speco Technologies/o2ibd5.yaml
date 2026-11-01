@@ -1,0 +1,27 @@
+---
+manufacturer: Speco Technologies
+model: O2iBD5
+slug: speco-technologies-o2ibd5
+part_number: O2iBD5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 113
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Speco Technologies O2iBD5 product page](https://specotech.com/wp-content/uploads/2023/07/O2iBD5_specsheet_.pdf)
