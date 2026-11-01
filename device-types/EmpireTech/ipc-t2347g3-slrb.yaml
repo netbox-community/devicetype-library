@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-T2347G3-SLRB
+slug: empiretech-ipc-t2347g3-slrb
+part_number: IPC-T2347G3-SLRB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-T2347G3-SLRB product page](https://empiretech01.com/products/empiretech-ipc-t2347g3-slrb-1-1-8cmos-4mp-smart-hybrid-light-with-colorvu-fixed-turret-network-camera)

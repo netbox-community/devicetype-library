@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-MINI4MP
+slug: empiretech-ipc-mini4mp
+part_number: IPC-MINI4MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 81
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 1.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EmpireTech IPC-MINI4MP product page](https://empiretech01.com/products/empiretech-ipc-mini4mp-1-2-7-cmos-4mp-fixed-focal-pinhole-network-camera)

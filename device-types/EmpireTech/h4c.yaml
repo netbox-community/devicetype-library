@@ -1,0 +1,24 @@
+---
+manufacturer: EmpireTech
+model: H4C
+slug: empiretech-h4c
+part_number: H4C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech H4C product page](https://empiretech01.com/products/empiretech-h4c-4mp-indoor-fixed-focal-wi-fi-network-pt-camera)
