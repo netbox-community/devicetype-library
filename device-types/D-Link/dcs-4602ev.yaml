@@ -1,0 +1,20 @@
+---
+manufacturer: D-Link
+model: DCS-4602EV
+slug: d-link-dcs-4602ev
+part_number: DCS-4602EV
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-4602EV product page](https://www.dlink.com/uk/en/products/dcs-4602ev-full-hd-outdoor-vandal-proof-poe-dome-camera)

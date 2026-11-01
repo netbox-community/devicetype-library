@@ -1,0 +1,23 @@
+---
+manufacturer: D-Link
+model: DCS-F5708E
+slug: d-link-dcs-f5708e
+part_number: DCS-F5708E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [D-Link DCS-F5708E product page](https://www.dlink.com/middle-east/en/products/dcs-f5708e-4k-fixed-bullet-network-camera)
