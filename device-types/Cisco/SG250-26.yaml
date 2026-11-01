@@ -5,13 +5,14 @@ slug: cisco-sg250-26-k9
 part_number: SG250-26-K9
 u_height: 1
 is_full_depth: false
+front_image: true
 weight: 2.72
 airflow: side-to-rear
 weight_unit: kg
 comments: '[SG250 Series Datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/250-series-smart-switches/datasheet-c78-737061.html)'
 console-ports:
-  - name: console
-    type: de-9
+  - name: USB
+    type: usb-a
 power-ports:
   - name: External PS
     type: iec-60320-c14

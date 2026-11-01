@@ -1,0 +1,21 @@
+---
+manufacturer: OpenEye
+model: OE-C3226F12
+slug: openeye-oe-c3226f12
+part_number: OE-C3226F12
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 704
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [OpenEye OE-C3226F12 product page](https://www.openeye.net/products/camera/oe-c3226f12)
