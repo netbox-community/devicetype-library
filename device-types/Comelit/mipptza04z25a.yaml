@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: MIPPTZA04Z25A
+slug: comelit-mipptza04z25a
+part_number: MIPPTZA04Z25A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit MIPPTZA04Z25A product page](https://pro.comelitgroup.com/en-gb/product/mipptza04z25a)
