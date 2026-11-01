@@ -1,0 +1,18 @@
+---
+manufacturer: Zmodo
+model: ZP-IDR13
+slug: zmodo-zp-idr13
+part_number: ZP-IDR13
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 340
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
