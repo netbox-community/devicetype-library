@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-XSDJ08Mi
+slug: digital-watchdog-dwc-xsdj08mi
+part_number: DWC-XSDJ08Mi
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-XSDJ08Mi product page](https://digitalwatchdog.happyfox.com/kb/article/323-megapix-ip-camera-rtsp-stream-list)

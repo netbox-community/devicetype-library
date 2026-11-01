@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MV72Di28T
+slug: digital-watchdog-dwc-mv72di28t
+part_number: DWC-MV72Di28T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-MV72Di28T product page](https://digital-watchdog.com/productdetail/DWC-MV72Di28T)
