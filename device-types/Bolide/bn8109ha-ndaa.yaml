@@ -1,0 +1,26 @@
+---
+manufacturer: Bolide
+model: BN8109HA/NDAA
+slug: bolide-bn8109ha-ndaa
+part_number: BN8109HA/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 422
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Bolide BN8109HA/NDAA product page](https://bolideco.com/products/5mp-ai-outdoor-dome-camera-with-ai-bn8109ha-ndaa)
