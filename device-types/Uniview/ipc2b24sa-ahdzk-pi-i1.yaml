@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC2B24SA-AHDZK-PI-I1
+slug: uniview-ipc2b24sa-ahdzk-pi-i1
+part_number: IPC2B24SA-AHDZK-PI-I1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC2B24SA-AHDZK-PI-I1 product page](http://sgcdn.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEIV_Series/IPC2B24SA-AHDZK-PI-I1)
