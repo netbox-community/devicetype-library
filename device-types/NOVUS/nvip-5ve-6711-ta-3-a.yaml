@@ -1,0 +1,27 @@
+---
+manufacturer: NOVUS
+model: NVIP-5VE-6711/TA/3-A
+slug: novus-nvip-5ve-6711-ta-3-a
+part_number: NVIP-5VE-6711/TA/3-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [NOVUS NVIP-5VE-6711/TA/3-A product page](https://www.novuscctv.com/en/products/6884/NVIP-5VE-6711_TA_3-A)
