@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: ExSite Pro Bullet EXFP1-8V9-EBT0-IRB
+slug: pelco-exsite-pro-bullet-exfp1-8v9-ebt0-irb
+part_number: ExSite Pro Bullet EXFP1-8V9-EBT0-IRB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Pelco ExSite Pro Bullet EXFP1-8V9-EBT0-IRB product page](https://www.pelco.com/fs/documents/pelco-exsite-pro-bullet-camera-specification-sheet-en-050726_2026-05-18-091111_betl.pdf)

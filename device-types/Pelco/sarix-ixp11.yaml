@@ -1,0 +1,21 @@
+---
+manufacturer: Pelco
+model: Sarix IXP11
+slug: pelco-sarix-ixp11
+part_number: Sarix IXP11
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Pelco Sarix IXP11 product page](https://files.pelco.com/media/Sarix%20IXP%20Series%20Indoor%20Box%20Cameras%20Specification%20Sheet.pdf)
