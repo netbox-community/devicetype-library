@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-1NCD4042 (2.8)
+slug: rvi-rvi-1ncd4042-2-8
+part_number: RVi-1NCD4042 (2.8)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [RVi RVi-1NCD4042 (2.8) product page](https://rvigroup.ru/catalog-v2/rvi_1ncd4042_2_8)

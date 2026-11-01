@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-IPC34VDM4 (2.7-13.5)
+slug: rvi-rvi-ipc34vdm4-2-7-13-5
+part_number: RVi-IPC34VDM4 (2.7-13.5)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVi-IPC34VDM4 (2.7-13.5) product page](https://rvigroup.ru/catalog-v2/rvi_ipc34vdm4_2_7_13_5)

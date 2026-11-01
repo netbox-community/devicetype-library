@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-1NCD4469 (2.7-12) white
+slug: rvi-rvi-1ncd4469-2-7-12-white
+part_number: RVi-1NCD4469 (2.7-12) white
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-1NCD4469 (2.7-12) white product page](https://rvigroup.ru/catalog-v2/rvi_1ncd4469_2_7_12_white)
