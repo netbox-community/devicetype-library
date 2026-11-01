@@ -1,0 +1,27 @@
+---
+manufacturer: Homaxi
+model: IPC8MST2R8-AD-TPMSC
+slug: homaxi-ipc8mst2r8-ad-tpmsc
+part_number: IPC8MST2R8-AD-TPMSC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1050
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Homaxi IPC8MST2R8-AD-TPMSC product page](https://www.homaxi.com/mtsc/uploads/single/IPC8MST2R8-AD-TPMSC_datasheet_V1.0.4_20260408.pdf)
