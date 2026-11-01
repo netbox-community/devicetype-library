@@ -1,0 +1,23 @@
+---
+manufacturer: Tiandy
+model: TC-C32GP I5/E/C/3.6mm/V2.0
+slug: tiandy-tc-c32gp-i5-e-c-3-6mm-v2-0
+part_number: TC-C32GP I5/E/C/3.6mm/V2.0
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Tiandy TC-C32GP I5/E/C/3.6mm/V2.0 product page](http://en.tiandy.com:80/index.php)

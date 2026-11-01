@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-H324S 23X/I/E/C/V3.0
+slug: tiandy-tc-h324s-23x-i-e-c-v3-0
+part_number: TC-H324S 23X/I/E/C/V3.0
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-H324S 23X/I/E/C/V3.0 product page](https://en.tiandy.com/index.php)
