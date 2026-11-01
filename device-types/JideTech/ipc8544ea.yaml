@@ -1,0 +1,23 @@
+---
+manufacturer: JideTech
+model: IPC8544EA
+slug: jidetech-ipc8544ea
+part_number: IPC8544EA
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [JideTech IPC8544EA product page](https://jidetech.com/products/jidetech-16mp-lighthunter-omniview-fixed-ir-network-camera-ipc8544ea)

@@ -1,0 +1,25 @@
+---
+manufacturer: JideTech
+model: P11-20X-8MP
+slug: jidetech-p11-20x-8mp
+part_number: P11-20X-8MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [JideTech P11-20X-8MP product page](https://jidetech.com/products/p11-8mp-4k-poe-bullet-ptz-camera-20x-optical-zoom)

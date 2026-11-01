@@ -1,0 +1,25 @@
+---
+manufacturer: JideTech
+model: BC10-8MP-WP
+slug: jidetech-bc10-8mp-wp
+part_number: BC10-8MP-WP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [JideTech BC10-8MP-WP product page](https://www.jidetech.com/collections/wise-isp-camera/products/jidetech-8mp-5mp-wise-isp-poe-bullet-ip-camera-bc10-5mp-8mp-wp)
