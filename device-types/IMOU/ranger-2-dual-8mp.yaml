@@ -1,0 +1,24 @@
+---
+manufacturer: IMOU
+model: Ranger 2 Dual 8MP
+slug: imou-ranger-2-dual-8mp
+part_number: Ranger 2 Dual 8MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU Ranger 2 Dual 8MP product page](https://www.imou.com/en/product/detail/ranger2-dual)
