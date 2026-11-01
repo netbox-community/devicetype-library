@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: XND-8081FZ
+slug: hanwha-xnd-8081fz
+part_number: XND-8081FZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha XND-8081FZ product page](https://www.hanwhavision.com/global/products/product-details/XND-8081FZ)
