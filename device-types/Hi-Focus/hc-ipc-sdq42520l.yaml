@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-SDQ42520L
+slug: hi-focus-hc-ipc-sdq42520l
+part_number: HC-IPC-SDQ42520L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1790
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-SDQ42520L product page](https://hifocuscctv.com/categories/network-ptz-cameras/2mp-ptz-camera-hc-ipc-sdq42520l)

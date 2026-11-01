@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-DQA4318M-0280
+slug: hi-focus-hc-ipc-dqa4318m-0280
+part_number: HC-IPC-DQA4318M-0280
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-DQA4318M-0280 product page](https://hifocuscctv.com/categories/ip-cameras/8mp-ip-dome-camera-hc-ipc-dqa4318m-0280)
