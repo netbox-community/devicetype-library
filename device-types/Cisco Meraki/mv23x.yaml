@@ -1,0 +1,15 @@
+---
+manufacturer: Cisco Meraki
+model: MV23X
+slug: cisco-meraki-mv23x
+part_number: MV23X
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [Cisco Meraki MV23X product page](https://www.cisco.com/c/en/us/products/collateral/security/physical-security/meraki-cameras/mv-cloud-managed-smart-cameras-ds.pdf)

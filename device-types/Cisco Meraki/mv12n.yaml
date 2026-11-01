@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco Meraki
+model: MV12N
+slug: cisco-meraki-mv12n
+part_number: MV12N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+comments: >
+  [Cisco Meraki MV12N product page](https://www.cisco.com/c/en/us/products/collateral/security/physical-security/meraki-cameras/mv-cloud-managed-smart-cameras-ds.pdf)
