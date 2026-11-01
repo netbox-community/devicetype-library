@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 16
     description: 12V DC
 comments: >
   [ACTi A573-P2 product page](https://www.acti.com/product/A573-P2)

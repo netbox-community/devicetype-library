@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type3-ieee802.3bt
+    description: max 67 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 67
     description: 24V DC
 comments: >
   [ACTi K954 product page](https://www.acti.com/product/K954)

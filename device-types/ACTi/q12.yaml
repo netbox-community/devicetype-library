@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.32 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 4
     description: 12V DC
 comments: >
   [ACTi Q12 product page](https://www.acti.com/product/Q12)

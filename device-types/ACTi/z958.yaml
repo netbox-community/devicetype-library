@@ -11,9 +11,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: max 20 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 20
     description: 12V DC
 comments: >
   [ACTi Z958 product page](https://www.acti.com/product/Z958)

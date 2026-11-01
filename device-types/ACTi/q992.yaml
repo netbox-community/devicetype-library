@@ -10,10 +10,11 @@ weight: 15420
 weight_unit: g
 interfaces:
   - name: eth0
-    type: 100base-tx
+    type: 1000base-t
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 114
     description: 48V DC
 comments: >
   [ACTi Q992 product page](https://www.acti.com/product/Q992)

@@ -14,6 +14,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 150
     description: 36V DC
 comments: >
   [ACTi Q982 product page](https://www.acti.com/product/Q982)

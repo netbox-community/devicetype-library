@@ -11,9 +11,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 15 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 15
     description: 12V DC
 comments: >
   [ACTi A423 product page](https://www.acti.com/product/A423)

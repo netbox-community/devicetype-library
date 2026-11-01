@@ -14,6 +14,7 @@ interfaces:
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 124
     description: 24V DC
 comments: >
   [ACTi K9001 product page](https://www.acti.com/product/K9001)

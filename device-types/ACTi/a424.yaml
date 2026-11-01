@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 15
     description: 12V DC
 comments: >
   [ACTi A424 product page](https://www.acti.com/product/A424)

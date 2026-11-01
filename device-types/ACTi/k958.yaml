@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: max 23.9 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 24
     description: 24V DC
 comments: >
   [ACTi K958 product page](https://www.acti.com/product/K958)

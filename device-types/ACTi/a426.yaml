@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12.95 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 13
     description: 12V DC
 comments: >
   [ACTi A426 product page](https://www.acti.com/product/A426)

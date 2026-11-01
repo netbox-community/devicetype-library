@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type3-ieee802.3bt
+    description: max 60 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 60
     description: 36V DC
 comments: >
   [ACTi A982 product page](https://www.acti.com/product/A982)

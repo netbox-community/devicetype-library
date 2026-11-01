@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: max 25 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 25
     description: 24V DC
 comments: >
   [ACTi Z957 product page](https://www.acti.com/product/Z957)

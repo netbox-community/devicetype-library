@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 31 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 31
     description: 24V DC
 comments: >
   [ACTi Q84 product page](https://www.acti.com/product/Q84)

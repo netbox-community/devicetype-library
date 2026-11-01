@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 22.6 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 23
     description: 12V DC
 comments: >
   [ACTi A428 product page](https://www.acti.com/product/A428)

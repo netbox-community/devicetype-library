@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
     description: 12V DC
 comments: >
   [ACTi L71 product page](https://www.acti.com/product/L71)

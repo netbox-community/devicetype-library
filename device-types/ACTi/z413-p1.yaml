@@ -13,9 +13,11 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: max 9.6 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 10
     description: 12V DC
 comments: >
   [ACTi Z413-P1 product page](https://www.acti.com/product/Z413-P1)
