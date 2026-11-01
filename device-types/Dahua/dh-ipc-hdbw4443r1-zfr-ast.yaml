@@ -1,0 +1,19 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDBW4443R1-ZFR-AST
+slug: dahua-dh-ipc-hdbw4443r1-zfr-ast
+part_number: DH-IPC-HDBW4443R1-ZFR-AST
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

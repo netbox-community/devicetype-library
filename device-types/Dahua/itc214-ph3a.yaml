@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: ITC214-PH3A
+slug: dahua-itc214-ph3a
+part_number: ITC214-PH3A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Dahua ITC214-PH3A product page](https://www.dahuasecurity.com/uk/products/discontinued-products/mobile-&-traffic/itc214-ph3a-series)

@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: SDT3A400-GA-HNP-BX
+slug: dahua-sdt3a400-ga-hnp-bx
+part_number: SDT3A400-GA-HNP-BX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua SDT3A400-GA-HNP-BX product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/x-spans-series/project/sdt3a400-ga-hnp-bx)

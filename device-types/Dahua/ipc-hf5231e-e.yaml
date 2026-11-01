@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HF5231E-E
+slug: dahua-ipc-hf5231e-e
+part_number: IPC-HF5231E-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua IPC-HF5231E-E product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hf5231e-e)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SD50232XA-HNR
+slug: dahua-sd50232xa-hnr
+part_number: SD50232XA-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SD50232XA-HNR product page](https://www.dahuasecurity.com/uk/products/All-Products/PTZ-Cameras/WizSense-Series/SD5/2MP/SD50232XA-HNR)

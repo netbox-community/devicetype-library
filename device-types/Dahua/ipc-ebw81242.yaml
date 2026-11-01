@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-EBW81242
+slug: dahua-ipc-ebw81242
+part_number: IPC-EBW81242
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-EBW81242 product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-ebw81242)

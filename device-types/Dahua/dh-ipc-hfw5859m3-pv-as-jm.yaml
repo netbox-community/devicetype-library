@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HFW5859M3-PV-AS-JM
+slug: dahua-dh-ipc-hfw5859m3-pv-as-jm
+part_number: DH-IPC-HFW5859M3-PV-AS-JM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 19.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua DH-IPC-HFW5859M3-PV-AS-JM product page](https://www.dahuatech.com/product/info/13677.html)

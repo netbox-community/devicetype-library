@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDW4241T-ZS
+slug: dahua-dh-ipc-hdw4241t-zs
+part_number: DH-IPC-HDW4241T-ZS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 715
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua DH-IPC-HDW4241T-ZS product page](https://materialfile.dahuasecurity.com/uploads/cpq/88210/datasheet/DH-IPC-HDW4241T-ZS_S0_datasheet_20250324.pdf)

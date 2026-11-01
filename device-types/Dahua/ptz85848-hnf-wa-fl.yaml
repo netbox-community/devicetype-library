@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: PTZ85848-HNF-WA-FL
+slug: dahua-ptz85848-hnf-wa-fl
+part_number: PTZ85848-HNF-WA-FL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 15400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 68
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua PTZ85848-HNF-WA-FL product page](https://www.dahuasecurity.com/uk/products/discontinued-products/ptz-cameras/ptz85848-hnf-wa-fl)

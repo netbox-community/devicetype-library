@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: IPC-HFW1530S-S6
+slug: dahua-ipc-hfw1530s-s6
+part_number: IPC-HFW1530S-S6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Dahua IPC-HFW1530S-S6 product page](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hfw1530s-s6)

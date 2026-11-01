@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-PSDW8852SP-A180-D440-DC36V-ATC
+slug: dahua-dh-psdw8852sp-a180-d440-dc36v-atc
+part_number: DH-PSDW8852SP-A180-D440-DC36V-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 67.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 68
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua DH-PSDW8852SP-A180-D440-DC36V-ATC product page](https://www.dahuasecurity.com/uk/products/network-products/ptz-cameras/x-spans-series/hubble-series/psdw8852s-a180-d440-atc)
