@@ -1,0 +1,20 @@
+---
+manufacturer: Intelbras
+model: VIPM 3108
+slug: intelbras-vipm-3108
+part_number: VIPM 3108
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 404
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Intelbras VIPM 3108 product page](https://backend.intelbras.com/sites/default/files/2019-02/Datasheet_A4_VIPM_3108_01-19.pdf)

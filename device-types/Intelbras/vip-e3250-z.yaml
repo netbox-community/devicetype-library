@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP E3250 Z
+slug: intelbras-vip-e3250-z
+part_number: VIP E3250 Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1045
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Intelbras VIP E3250 Z product page](https://www.intelbras.com/pt-br/camera-ip-bullet-full-hd-vip-e3250-z)

@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIP 7425 SD DUAL IAX FT
+slug: intelbras-vip-7425-sd-dual-iax-ft
+part_number: VIP 7425 SD DUAL IAX FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Intelbras VIP 7425 SD DUAL IAX FT product page](https://backend.intelbras.com/sites/default/files/2026-08/Datasheet%20-%20VIP%207425%20SD%20DUAL%20IAX%20FT%20-%20V1_2.pdf)
