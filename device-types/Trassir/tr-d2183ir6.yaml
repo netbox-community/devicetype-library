@@ -1,0 +1,27 @@
+---
+manufacturer: Trassir
+model: TR-D2183IR6
+slug: trassir-tr-d2183ir6
+part_number: TR-D2183IR6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 726
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D2183IR6 product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_d2183ir6_v3_2_7_13_5)
