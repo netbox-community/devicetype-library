@@ -4,24 +4,22 @@ model: UM773 Lite
 slug: minisforum-um773-lite
 u_height: 0
 is_full_depth: false
+weight: 0.6
+weight_unit: kg
+airflow: side-to-rear
 front_image: true
 rear_image: true
 description: Desktop mini PC with AMD Ryzen 7 7735HS (8 cores, 16 threads) and Radeon 680M graphics.
 comments: |
   [Product specifications](https://store.minisforum.com/products/minisforum-um773-lite-mini-pc)
 
-  Chassis dimensions: 128 x 128 x 48.2 mm. External 19 V DC power adapter.
-  Two DDR5-4800 SODIMM slots support up to 64 GB. Memory, storage and wireless
-  module configurations vary; these are not fixed components of this device type.
+  Chassis dimensions: 128 x 126.6 x 46.5 mm.
+  External 19 V DC power adapter.
+  Two DDR5-4800 SODIMM slots support up to 64 GB.
 
-  Front I/O: USB4 Type-C, USB 3.2 Gen 2 Type-C (data only), 3.5 mm audio jack,
-  microphone, power button and clear-CMOS button.
-  Rear I/O: 2.5 GbE, two USB 3.2 Gen 2 Type-A, two USB 2.0 Type-A,
-  two HDMI outputs and DC input.
+  Front I/O: USB4 Type-C, USB 3.2 Gen 2 Type-C (data only), 3.5 mm audio jack, microphone, power button and clear-CMOS button.
+  Rear I/O: 2.5 GbE, two USB 3.2 Gen 2 Type-A, two USB 2.0 Type-A, two HDMI outputs and DC input.
 
-  Verified on Ubuntu: wired interface eno1 (Intel I225-V); SMBIOS reports
-  Venus series with an F7BFD motherboard. The removable WLAN module is
-  represented by its M.2 bay rather than a fixed wireless interface.
 power-ports:
   - name: DC IN
     type: dc-terminal
@@ -32,17 +30,22 @@ interfaces:
     type: 2.5gbase-t
 module-bays:
   - name: M.2 SSD
-    position: '1'
+    position: "1"
     description: M.2 2280 PCIe 4.0 NVMe SSD slot
   - name: WLAN
-    position: '2'
+    position: "2"
     description: M.2 2230 wireless module slot
+
+  # Device ships with a small cable that plugs directly into the motherboard, breaks out into standard SATA power and data connectors.
+  # Meant for 2.5-inch SSD form factor.
+  # Can be disabled in BIOS.
   - name: SATA drive
-    position: '3'
-    description: 2.5-inch SATA 3.0 drive position
+    position: "3"
+    description: 2.5-inch SATA 3.0 drive
+
   - name: DIMM A
-    position: '4'
+    position: "4"
     description: DDR5 SODIMM; SMBIOS P0 CHANNEL A, DIMM 0
   - name: DIMM B
-    position: '5'
+    position: "5"
     description: DDR5 SODIMM; SMBIOS P0 CHANNEL B, DIMM 0
