@@ -1,0 +1,20 @@
+---
+manufacturer: Sony
+model: SNC-ZM550
+slug: sony-snc-zm550
+part_number: SNC-ZM550
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 715
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Sony SNC-ZM550 product page](https://www.sony.de/electronics/support/video-security-ip-cameras/snc-zm550)
