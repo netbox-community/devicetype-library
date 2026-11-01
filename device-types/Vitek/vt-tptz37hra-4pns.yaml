@@ -1,0 +1,25 @@
+---
+manufacturer: Vitek
+model: VT-TPTZ37HRA-4PNS
+slug: vitek-vt-tptz37hra-4pns
+part_number: VT-TPTZ37HRA-4PNS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 7, max 50 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 50
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VT-TPTZ37HRA-4PNS product page](https://vitekcctv.com/product/vt-tptz37hra-4pns-transcendent-4-megapixel-37x-gen-iii-ip-ptz-with-a-i-facial-recognition-and-auto-tracking)

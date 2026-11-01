@@ -1,0 +1,23 @@
+---
+manufacturer: Vitek
+model: VTC-TNT8MADW
+slug: vitek-vtc-tnt8madw
+part_number: VTC-TNT8MADW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 640
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Vitek VTC-TNT8MADW product page](https://vitekcctv.com/product/vtc-tnt8madw-transcendent-8-megapixel-4k-wdr-knight-guard-active-deterrence-motorized-af-ip-turret-camera)
