@@ -1,0 +1,20 @@
+---
+manufacturer: ClareVision
+model: CV-P3D10-ODHIWM
+slug: clarevision-cv-p3d10-odhiwm
+part_number: CV-P3D10-ODHIWM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
