@@ -1,0 +1,19 @@
+---
+manufacturer: Lorex
+model: E896DD
+slug: lorex-e896dd
+part_number: E896DD
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Lorex E896DD product page](https://www.lorex.com/products/e896dd-4k-smart-security-lighting-dome-ip-wired-camera)
