@@ -13,13 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: max 24 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 24
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hikvision DS-2SE4C225MWG-E datasheet](https://assets.hikvision.com/prd/public/all/doc/m000070245/DS-2SE4C225MWG-E_26F0_Datasheet_20241017.pdf)
+  [Hikvision DS-2SE4C225MWG-E product page](https://assets.hikvision.com/prd/public/all/doc/m000070245/DS-2SE4C225MWG-E_26F0_Datasheet_20241017.pdf)

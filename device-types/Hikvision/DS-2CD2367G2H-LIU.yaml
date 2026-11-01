@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2367G2H-LIU product page](https://assets.hikvision.com/prd/normal/all/doc/sm000052161/DS-2CD2367G2H-LIU_Datasheet_20260713.pdf)

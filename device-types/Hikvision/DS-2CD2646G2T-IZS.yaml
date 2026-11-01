@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 15 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 15
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2646G2T-IZS product page](https://assets.hikvision.com/prd/public/all/doc/sm000059082/DS-2CD2646G2T-IZS-C_Datasheet_20231116.pdf)

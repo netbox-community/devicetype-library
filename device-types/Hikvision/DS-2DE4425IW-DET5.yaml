@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: max 18 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 18
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
+comments: >
+  [Hikvision DS-2DE4425IW-DET5 product page](https://assets.hikvision.com/prd/normal/all/doc/m000048590/Datasheet-of-DS-2DE4425IW-DET5_V5.7.0_20220704.pdf)

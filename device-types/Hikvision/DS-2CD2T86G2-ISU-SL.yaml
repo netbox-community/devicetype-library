@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 17 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 17
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2T86G2-ISU/SL product page](https://assets.hikvision.com/prd/normal/all/doc/sm000059154/pl-pl/DS-2CD2T86G2-ISU_SL-D_Datasheet_20250211.pdf)

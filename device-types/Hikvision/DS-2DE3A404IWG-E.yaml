@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: max 14 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 14
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
+comments: >
+  [Hikvision DS-2DE3A404IWG-E product page](https://assets.hikvision.com/prd/public/all/doc/m000070141/Datasheet-of-DS-2DE3A404IWG-E_V5.8.0_20230320.pdf)

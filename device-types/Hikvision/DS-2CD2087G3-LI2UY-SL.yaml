@@ -13,13 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 18 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 18
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hikvision DS-2CD2087G3-LI2UY/SL datasheet](https://www.scribd.com/document/871805500/Hikvision-Pricelist-28th-April-2025)
+  [Hikvision DS-2CD2087G3-LI2UY/SL product page](https://assets.hikvision.com/prd/normal/all/doc/sm000077849/DS-2CD2087G3-LI2UY_SL_Datasheet_20260128.pdf)

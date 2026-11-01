@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 18 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 18
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2T47G3-LIS2UY/SLRB product page](https://assets.hikvision.com/prd/public/all/doc/sm000077914/DS-2CD2T47G3-LIS2UY_SLRB_Datasheet_20250411.pdf)

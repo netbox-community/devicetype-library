@@ -13,13 +13,10 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type2-ieee802.3at
-power-ports:
-  - name: DC IN
-    type: dc-terminal
-    description: 12V DC
+    description: PoE Class 4, max 18 W
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
 comments: >
-  [Hikvision DS-2CD2T87G3-LIS2UY/SL datasheet](https://assets.hikvision.com/prd/public/all/doc/m000144460/DS-2CD2T87G3-LIS2UY_SLRB_Datasheet_20241018.pdf)
+  [Hikvision DS-2CD2T87G3-LIS2UY/SL product page](https://assets.hikvision.com/prd/public/all/doc/m000144460/DS-2CD2T87G3-LIS2UY_SLRB_Datasheet_20241018.pdf)

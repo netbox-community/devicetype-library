@@ -13,13 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 62 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 62
     description: 36V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 1024 GB
 comments: >
-  [Hikvision DS-2SF8C848MXG1-ELW datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000074551/DS-2SF8C848MXG1-ELW_26_Datasheet_20260620.pdf)
+  [Hikvision DS-2SF8C848MXG1-ELW product page](https://assets.hikvision.com/prd/normal/all/doc/sm000074551/DS-2SF8C848MXG1-ELW_26_Datasheet_20260620.pdf)

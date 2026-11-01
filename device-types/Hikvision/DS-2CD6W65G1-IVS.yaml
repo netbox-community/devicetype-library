@@ -13,11 +13,15 @@ interfaces:
     type: 1000base-t
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 10
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
+comments: >
+  [Hikvision DS-2CD6W65G1-IVS product page](https://assets.hikvision.com/prd/public/all/doc/m000071626/DS-2CD6W65G1-IVS_Datasheet_20231113.pdf)

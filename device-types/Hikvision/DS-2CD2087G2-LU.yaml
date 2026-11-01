@@ -6,20 +6,22 @@ part_number: DS-2CD2087G2-LU
 u_height: 0
 is_full_depth: false
 airflow: passive
-weight: 860
+weight: 850
 weight_unit: g
 interfaces:
   - name: eth0
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 8
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
 comments: >
-  [Hikvision DS-2CD2087G2-LU datasheet](https://www.hikvision.com/en/products/IP-Products/Network-Cameras/)
+  [Hikvision DS-2CD2087G2-LU product page](https://assets.hikvision.com/prd/normal/all/doc/sm000064598/DS-2CD2087G2-LU-C_Datasheet_V5.5.115_20230418.pdf)

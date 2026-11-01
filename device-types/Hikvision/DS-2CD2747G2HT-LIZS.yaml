@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.5 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 12
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2747G2HT-LIZS product page](https://assets.hikvision.com/prd/normal/all/doc/sm000061188/DS-2CD2747G2HT-LIZS_Datasheet_20230719.pdf)

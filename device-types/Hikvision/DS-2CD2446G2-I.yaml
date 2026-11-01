@@ -13,11 +13,15 @@ interfaces:
     type: 100base-tx
     poe_mode: pd
     poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7 W
 power-ports:
   - name: DC IN
     type: dc-terminal
+    maximum_draw: 7
     description: 12V DC
 module-bays:
   - name: microSD
     position: microSD
     description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2446G2-I product page](https://assets.hikvision.com/prd/public/all/doc/sm000059207/DS-2CD2446G2-I-C_Datasheet_20231116.pdf)
