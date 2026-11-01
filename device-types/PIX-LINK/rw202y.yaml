@@ -1,0 +1,21 @@
+---
+manufacturer: PIX-LINK
+model: RW202Y
+slug: pix-link-rw202y
+part_number: RW202Y
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: USB IN
+    type: usb-micro-b
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [PIX-LINK RW202Y product page](https://www.pix-link.com/rw202y)

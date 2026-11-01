@@ -1,0 +1,21 @@
+---
+manufacturer: i-PRO
+model: WV-V1330LK
+slug: i-pro-wv-v1330lk
+part_number: WV-V1330LK
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
