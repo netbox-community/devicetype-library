@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: IEB-74M2812MAA
+slug: eneo-ieb-74m2812maa
+part_number: IEB-74M2812MAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 860
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [eneo IEB-74M2812MAA product page](https://eneo-security.com/en/ieb-74m2812maa.html)
