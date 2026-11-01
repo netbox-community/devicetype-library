@@ -1,0 +1,20 @@
+---
+manufacturer: TrendNet
+model: TV-IP743SIC
+slug: trendnet-tv-ip743sic
+part_number: TV-IP743SIC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 102
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+comments: >
+  [TrendNet TV-IP743SIC product page](https://www.trendnet.com/products/product-detail.asp)
