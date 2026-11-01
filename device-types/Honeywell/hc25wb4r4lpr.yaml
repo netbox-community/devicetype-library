@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC25WB4R4LPR
+slug: honeywell-hc25wb4r4lpr
+part_number: HC25WB4R4LPR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1390
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Honeywell HC25WB4R4LPR product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-sec-25s-hc25wb4r4lpr-ds-me-en-02-2026-v01-y-20251225.pdf)

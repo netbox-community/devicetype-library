@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC35TB5R1JT07
+slug: honeywell-hc35tb5r1jt07
+part_number: HC35TB5R1JT07
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Honeywell HC35TB5R1JT07 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/bi-spectral-ds/hon-ba-security-35s-hc35tb5rxjtxx-ds-us-en-03-2025-v01.pdf)
