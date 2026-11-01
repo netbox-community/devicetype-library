@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-2796EB-AI
+slug: amcrest-ip8m-2796eb-ai
+part_number: IP8M-2796EB-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP8M-2796EB-AI product page](https://amcrest.com/4k-ai-bullet-poe-camera-ip8m-2796eb-ai.html)

@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: HLX-IP5M-B102EW-AI
+slug: amcrest-hlx-ip5m-b102ew-ai
+part_number: HLX-IP5M-B102EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 349
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest HLX-IP5M-B102EW-AI product page](https://amcrest.com/helix-5mp-security-ai-ip-poe-bullet-camera-hlx-ip5m-b102ew-ai.html)

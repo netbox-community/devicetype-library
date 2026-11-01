@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: UltraHD 5MP Turret PoE (IP5M-T1179E)
+slug: amcrest-ultrahd-5mp-turret-poe-ip5m-t1179e
+part_number: UltraHD 5MP Turret PoE (IP5M-T1179E)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 390
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest UltraHD 5MP Turret PoE (IP5M-T1179E) product page](https://amcrest.com/5mp-poe-camera-turret-ip5m-t1179ew-ai-v3.html)
