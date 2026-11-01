@@ -1,0 +1,24 @@
+---
+manufacturer: BEWARD
+model: CD305
+slug: beward-cd305
+part_number: CD305
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 365
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD CD305 product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-camdrive/cd305)
