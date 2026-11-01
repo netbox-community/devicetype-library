@@ -1,0 +1,23 @@
+---
+manufacturer: Bosch
+model: DINION 5100i 2MP Bullet (NBE-5702-AL)
+slug: bosch-dinion-5100i-2mp-bullet-nbe-5702-al
+part_number: DINION 5100i 2MP Bullet (NBE-5702-AL)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
