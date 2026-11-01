@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: Q1941-E
+slug: axis-q1941-e
+part_number: Q1941-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 28V DC
+comments: >
+  [AXIS Q1941-E product page](https://www.axis.com/products/axis-q1941-e)
