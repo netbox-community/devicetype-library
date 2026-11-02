@@ -30,22 +30,22 @@ interfaces:
     type: 2.5gbase-t
 module-bays:
   - name: M.2 SSD
-    position: "1"
+    position: '1'
     description: M.2 2280 PCIe 4.0 NVMe SSD slot
   - name: WLAN
-    position: "2"
+    position: '2'
     description: M.2 2230 wireless module slot
 
   # Device ships with a small cable that plugs directly into the motherboard, breaks out into standard SATA power and data connectors.
   # Meant for 2.5-inch SSD form factor.
   # Can be disabled in BIOS.
   - name: SATA drive
-    position: "3"
+    position: '3'
     description: 2.5-inch SATA 3.0 drive
 
   - name: DIMM A
-    position: "4"
+    position: '4'
     description: DDR5 SODIMM; SMBIOS P0 CHANNEL A, DIMM 0
   - name: DIMM B
-    position: "5"
+    position: '5'
     description: DDR5 SODIMM; SMBIOS P0 CHANNEL B, DIMM 0
