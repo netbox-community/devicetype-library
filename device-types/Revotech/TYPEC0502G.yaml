@@ -1,0 +1,37 @@
+---
+manufacturer: Revotech
+model: TYPEC0502G
+slug: revotech-typec0502g
+part_number: PC-TYPEC0502G
+u_height: 0.0
+is_full_depth: false
+weight: 50
+weight_unit: g
+airflow: passive
+is_powered: false
+description: Gigabit IEEE 802.3af PoE splitter with 5 V 2.4 A USB-C power output
+
+front-ports:
+  - name: data-out
+    type: 8p8c
+    positions: 1
+    description: Ethernet output via captive cable and 8P8C plug
+
+rear-ports:
+  - name: poe-in
+    type: 8p8c
+    positions: 1
+    description: Gigabit Ethernet and IEEE 802.3af PoE input
+    _is_power_source: true
+
+port-mappings:
+  - front_port: data-out
+    front_port_position: 1
+    rear_port: poe-in
+    rear_port_position: 1
+
+power-outlets:
+  - name: 5v-usbc-out
+    label: USB-C 5 V output
+    type: usb-c
+    description: 5 V DC 2.4 A output via captive cable and USB-C plug
