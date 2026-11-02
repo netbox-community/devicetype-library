@@ -32,6 +32,10 @@ interfaces:
 console-ports:
   - name: con0
     type: rj-45
+module-bays:
+  - name: PIM01
+    description: PIM module bay 01, CAT 7 LTE or 5G
+    position: '1'
 power-ports:
   - name: PSU0
     type: dc-terminal
