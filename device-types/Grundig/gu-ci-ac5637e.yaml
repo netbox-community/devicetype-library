@@ -1,0 +1,27 @@
+---
+manufacturer: Grundig
+model: GU-CI-AC5637E
+slug: grundig-gu-ci-ac5637e
+part_number: GU-CI-AC5637E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Grundig GU-CI-AC5637E product page](https://grundig-security.com/catalog/camera/ip/turret/GU-CI-AC5637E)

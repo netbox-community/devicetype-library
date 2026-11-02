@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: PT8133W
+slug: vivotek-pt8133w
+part_number: PT8133W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 293
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC

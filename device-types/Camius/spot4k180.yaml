@@ -1,0 +1,27 @@
+---
+manufacturer: Camius
+model: SPOT4K180
+slug: camius-spot4k180
+part_number: SPOT4K180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 836
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Camius SPOT4K180 product page](https://www.camius.com/4k-180-degree-poe-security-camera)

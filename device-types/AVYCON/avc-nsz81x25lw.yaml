@@ -1,0 +1,23 @@
+---
+manufacturer: AVYCON
+model: AVC-NSZ81X25LW
+slug: avycon-avc-nsz81x25lw
+part_number: AVC-NSZ81X25LW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NSZ81X25LW product page](https://avyconaivo.com/shop/item.php)

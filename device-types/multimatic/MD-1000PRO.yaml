@@ -1,0 +1,71 @@
+---
+manufacturer: multimatic
+model: MD-1000PRO
+slug: multimatic-md-1000pro
+u_height: 2
+is_full_depth: true
+weight: 17
+weight_unit: kg
+description: Online UPS, 1000 VA / 1000 W, 2U rack/tower
+comments: |
+  Dimensions (H x W x D): 88 x 440 x 460 mm.
+  Nominal voltage: 230 VAC (configurable 220/230/240 VAC).
+  Internal batteries; optional external battery pack MDBP-1000PRO.
+  RJ45 ports provide data-line surge protection only.
+  EPO terminal block available on the rear panel.
+  Documentation: https://www.edelstrom.de/media/mm_hb_md_pro_1-3k_v1.0.pdf
+
+console-ports:
+  - name: RS232
+    type: de-9
+    description: Serial monitoring interface
+  - name: USB
+    type: usb-b
+    description: USB monitoring interface
+
+power-ports:
+  - name: INPUT
+    type: iec-60320-c14
+    description: AC input, 230 V, 10 A
+  - name: 36VDC
+    type: other
+    description: External battery pack connection
+
+power-outlets:
+  - name: SEGMENT1-1
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Programmable output segment 1
+  - name: SEGMENT1-2
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Programmable output segment 1
+  - name: SEGMENT1-3
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Programmable output segment 1
+  - name: SEGMENT1-4
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Programmable output segment 1
+  - name: SEGMENT2-1
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Output segment 2
+  - name: SEGMENT2-2
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Output segment 2
+  - name: SEGMENT2-3
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Output segment 2
+  - name: SEGMENT2-4
+    type: iec-60320-c13
+    power_port: INPUT
+    description: Output segment 2
+
+module-bays:
+  - name: INTELLIGENT SLOT
+    position: Rear
+    description: Optional SNMP network card or relay card

@@ -1,0 +1,23 @@
+---
+manufacturer: Shelly
+model: BLU Gateway Gen3
+slug: shelly-blu-gateway-gen3
+part_number: S3GW-1DBT001
+u_height: 0
+is_full_depth: false
+weight: 10
+weight_unit: g
+airflow: passive
+comments: '[Shelly BLU Gateway Gen3](https://www.shelly.com/products/shelly-blu-gateway-gen3)'
+power-ports:
+  - name: USB
+    type: usb-a
+    maximum_draw: 5
+    allocated_draw: 1
+    description: 5Vdc from USB Type-A host port
+interfaces:
+  - name: Wireless
+    type: ieee802.11n
+    description: 2.4GHz only (802.11b/g/n)
+  - name: Bluetooth
+    type: ieee802.15.1

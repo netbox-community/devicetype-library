@@ -1,0 +1,27 @@
+---
+manufacturer: Secureye
+model: SR-C4D-F2ASW-WL
+slug: secureye-sr-c4d-f2asw-wl
+part_number: SR-C4D-F2ASW-WL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SR-C4D-F2ASW-WL product page](https://www.secureye.com/product/sr-c4d-f2asw-wl-4mp-starlight-network-dome-camera)

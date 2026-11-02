@@ -1,0 +1,27 @@
+---
+manufacturer: Grundig
+model: GU-CI-AC2614T
+slug: grundig-gu-ci-ac2614t
+part_number: GU-CI-AC2614T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Grundig GU-CI-AC2614T product page](https://grundig-security.com/catalog/camera/ip/bullet/GU-CI-AC2614T)

@@ -1,0 +1,23 @@
+---
+manufacturer: Kedacom
+model: IPC528-F360-NL5-R150Z
+slug: kedacom-ipc528-f360-nl5-r150z
+part_number: IPC528-F360-NL5-R150Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 180 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 180
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Kedacom IPC528-F360-NL5-R150Z product page](https://www.kedacom.com/en/PZTCamera/4772.jhtml)

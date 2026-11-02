@@ -1,0 +1,24 @@
+---
+manufacturer: LILIN
+model: S7R5554X25
+slug: lilin-s7r5554x25
+part_number: S7R5554X25
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 32 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 32
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 8 GB
+comments: >
+  [LILIN S7R5554X25 product page](https://meritlilin.com/en/product/S7R5554X25_)

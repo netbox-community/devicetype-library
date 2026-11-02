@@ -1,0 +1,22 @@
+---
+manufacturer: AVYCON
+model: AVC-NPE81F2D
+slug: avycon-avc-npe81f2d
+part_number: AVC-NPE81F2D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 765
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13.49 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [AVYCON AVC-NPE81F2D product page](https://www.avycon.com)

@@ -1,0 +1,19 @@
+---
+manufacturer: Kedacom
+model: IPC2252-FN-DIR
+slug: kedacom-ipc2252-fn-dir
+part_number: IPC2252-FN-DIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Kedacom IPC2252-FN-DIR product page](https://www.kedacom.com/th/hwqxwlsxj/4524.jhtml)

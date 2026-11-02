@@ -1,0 +1,21 @@
+---
+manufacturer: Kedacom
+model: IPC2233-FN-SIR40-Z2712
+slug: kedacom-ipc2233-fn-sir40-z2712
+part_number: IPC2233-FN-SIR40-Z2712
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Kedacom IPC2233-FN-SIR40-Z2712 product page](https://www.kedacom.com/en/bqwlsxj/407.jhtml)

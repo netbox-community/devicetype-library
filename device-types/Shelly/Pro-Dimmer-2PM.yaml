@@ -1,0 +1,32 @@
+---
+manufacturer: Shelly
+model: Pro Dimmer 2PM
+slug: shelly-pro-dimmer-2pm
+part_number: SPDM-002PE01EU
+u_height: 0
+is_full_depth: false
+weight: 75
+weight_unit: g
+airflow: passive
+comments: '[Shelly Pro Dimmer 2PM](https://www.shelly.com/products/shelly-pro-dimmer-2pm)'
+power-ports:
+  - name: L
+    type: hardwired
+    description: 110-240Vac 50/60Hz
+power-outlets:
+  - name: O1
+    type: hardwired
+    description: 0.9A; 200W at 220Vac, 100W at 120Vac
+    power_port: L
+  - name: O2
+    type: hardwired
+    description: 0.9A; 200W at 220Vac, 100W at 120Vac
+    power_port: L
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: Wireless
+    type: ieee802.11n
+    description: 2.4GHz only (802.11b/g/n)
+  - name: Bluetooth
+    type: ieee802.15.1

@@ -1,0 +1,23 @@
+---
+manufacturer: Yudor
+model: YUC-Ki89M
+slug: yudor-yuc-ki89m
+part_number: YUC-Ki89M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 890
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Yudor YUC-Ki89M product page](https://www.yudor.com.tw/product_d.php)

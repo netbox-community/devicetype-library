@@ -1,0 +1,22 @@
+---
+manufacturer: Arecont Vision
+model: AV1145
+slug: arecont-vision-av1145
+part_number: AV1145
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1021
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Arecont Vision AV1145 product page](https://sales.arecontvision.com/product/MegaBall+Series/AV1145DN-3310-D)

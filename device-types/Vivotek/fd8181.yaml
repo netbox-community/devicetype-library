@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: FD8181
+slug: vivotek-fd8181
+part_number: FD8181
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 758
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 10.49 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Vivotek FD8181 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/fd8181datasheet_en.pdf)

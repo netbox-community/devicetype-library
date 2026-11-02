@@ -1,0 +1,27 @@
+---
+manufacturer: AVYCON
+model: AVC-NSD21F28
+slug: avycon-avc-nsd21f28
+part_number: AVC-NSD21F28
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 306
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [AVYCON AVC-NSD21F28 product page](https://avyconaivo.com/data/item/AVC-NSD21F28/DataSheet_AVC-NSD21F28_EN.pdf)

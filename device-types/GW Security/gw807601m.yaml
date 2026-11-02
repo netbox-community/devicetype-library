@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW807601M
+slug: gw-security-gw807601m
+part_number: GW807601M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [GW Security GW807601M product page](https://gwsecurityusa.com/product/gw807601m-8mp-ip-poe-5x-optical-zoom-2-7-13-5mm-motorized-lens-dome-security-camera-human-vehicle-detection)
