@@ -1,0 +1,26 @@
+---
+manufacturer: Rosewill
+model: RSV-Z2600U
+slug: rosewill-rsv-z2600u
+part_number: RSV-Z2600U
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+subdevice_role: parent
+weight: 4.8
+weight_unit: kg
+front_image: true
+comments: >-
+  [Manufacturer specifications](https://www.rosewill.com/rosewill-rsv-z2600u-black/p/9SIA072GJ92852).
+  2U chassis supporting Micro-ATX and Mini-ITX system boards.
+  Dimensions: 430 mm wide x 89 mm high x 380 mm deep; weight is for the bare chassis.
+  Four low-profile expansion slots and four internal 3.5-inch drive bays.
+  Supports a PS2 (ATX) power supply up to 150 mm long.
+module-bays:
+  - name: PSU
+    position: PSU
+    description: PS2 (ATX) power supply, maximum length 150 mm
+device-bays:
+  - name: System Board
+    label: System Board
+    description: Micro-ATX or Mini-ITX system board

@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IPS02-D17-OI03
+slug: illustra-ips02-d17-oi03
+part_number: IPS02-D17-OI03
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1130
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Illustra IPS02-D17-OI03 product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/pro-gen3-mini-domes/Data%20Sheets/Illustra-Pro-Gen3-Mini-Dome-Data-Sheet-r03_hs_en.pdf)

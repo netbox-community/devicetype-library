@@ -1,0 +1,75 @@
+---
+manufacturer: Exxact
+model: TS4-185599419
+slug: exxact-ts4-185599419
+part_number: TS4-185599419
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: Exxact TensorEX 4U Server - 2x AMD EPYC 9005/9004-Series processor - TS4-185599419 (https://www.exxactcorp.com/Exxact-TS4-185599419-E185599419)
+front_image: true
+rear_image: true
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated BMC/IPMI LAN port
+  - name: 1 Gig Ethernet 1
+    type: 1000base-t
+  - name: 1 Gig Ethernet 2
+    type: 1000base-t
+module-bays:
+  - name: PSU1
+    position: PSU1
+    description: 2000W 80-PLUS Platinum Power Supply
+  - name: PSU2
+    position: PSU2
+    description: 2000W 80-PLUS Platinum Power Supply
+  - name: PSU3
+    position: PSU3
+    description: 2000W 80-PLUS Platinum Power Supply
+  - name: PSU4
+    position: PSU4
+    description: 2000W 80-PLUS Platinum Power Supply
+  - name: PCI-E 1
+    position: '1'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 2
+    position: '2'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 3
+    position: '3'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 4
+    position: '4'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 5
+    position: '5'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 6
+    position: '6'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 7
+    position: '7'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 8
+    position: '8'
+    description: PCI-E 5.0 x16 for GPU
+  - name: PCI-E 9
+    position: '9'
+    description: PCI-E 5.0 x8 (Front, Full Height Half Length)
+  - name: PCI-E 10
+    position: '10'
+    description: PCI-E 5.0 x8 OCP 3.0 (Front)
+  - name: NVME 1
+    position: '11'
+    description: PCI-E 5.0 x4 (U.2)
+  - name: NVME 2
+    position: '12'
+    description: PCI-E 5.0 x4 (U.2)
+  - name: NVME 3
+    position: '13'
+    description: PCI-E 5.0 x4 (U.2)
+  - name: NVME 4
+    position: '14'
+    description: PCI-E 5.0 x4 (U.2)

@@ -1,0 +1,27 @@
+---
+manufacturer: Redvision
+model: X4 Commander Bi-Spectral
+slug: redvision-x4-commander-bi-spectral
+part_number: X4 Commander Bi-Spectral
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 11000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 70 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 70
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Redvision X4 Commander Bi-Spectral product page](https://redvisioncctv.com/products/x4-commander-bispectral-ptz-camera)

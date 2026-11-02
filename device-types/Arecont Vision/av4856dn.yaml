@@ -1,0 +1,26 @@
+---
+manufacturer: Arecont Vision
+model: AV4856DN
+slug: arecont-vision-av4856dn
+part_number: AV4856DN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Arecont Vision AV4856DN product page](https://sales.arecontvision.com/products/conteraip-microdome-duo)

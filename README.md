@@ -126,6 +126,7 @@ The following fields may **optionally** be declared:
     - `Memory`
     - `Power supply`
     - `Expansion card`
+    - `Transceiver`
 - `attribute_data`: This is for the data associated with the module profile.
   - Type: Object
   - Options:
@@ -155,6 +156,13 @@ The following fields may **optionally** be declared:
       - `input_voltage` Type: number **Required**
     - For: `profile: Expansion card`
       - `bandwidth` Type: integer
+      - `connector_type` Type: string
+    - For: `profile: Transceiver`
+      - `form_factor` Type: string
+      - `media` Type: string
+      - `phy` Type: string
+      - `data_rate` Type: string
+      - `reach` Type: number
       - `connector_type` Type: string
   - :test_tube: Example:
 

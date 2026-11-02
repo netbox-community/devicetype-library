@@ -1,0 +1,27 @@
+---
+manufacturer: Verkada
+model: CR63-TE
+slug: verkada-cr63-te
+part_number: CR63-TE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4152
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 65 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 65
+    description: 54V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 3072 GB
+comments: >
+  [Verkada CR63-TE product page](https://www.verkada.com/en/security-cameras/remote/cr63-te)

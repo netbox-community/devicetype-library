@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC2856-Di7N
+slug: kedacom-ipc2856-di7n
+part_number: IPC2856-Di7N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 45 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 45
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Kedacom IPC2856-Di7N product page](https://www.kedacom.com/en/tzfxsxj/411.jhtml)

@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IB9365-LPR
+slug: vivotek-ib9365-lpr
+part_number: IB9365-LPR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1475
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek IB9365-LPR product page](https://www.vivotek.com/resource/download-center/product/download/70638)

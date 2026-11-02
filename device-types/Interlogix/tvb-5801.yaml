@@ -1,0 +1,22 @@
+---
+manufacturer: Interlogix
+model: TVB-5801
+slug: interlogix-tvb-5801
+part_number: TVB-5801
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8794
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 100 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 100
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB

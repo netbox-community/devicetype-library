@@ -1,0 +1,27 @@
+---
+manufacturer: AVYCON
+model: AVC-NCB81M50-IK
+slug: avycon-avc-ncb81m50-ik
+part_number: AVC-NCB81M50-IK
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 829
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [AVYCON AVC-NCB81M50-IK product page](https://www.avycon.com/products/network_camera/bullet-series/avc-ncb81m50-ik)

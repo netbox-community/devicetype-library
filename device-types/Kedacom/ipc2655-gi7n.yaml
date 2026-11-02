@@ -1,0 +1,22 @@
+---
+manufacturer: Kedacom
+model: IPC2655-Gi7N
+slug: kedacom-ipc2655-gi7n
+part_number: IPC2655-Gi7N
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 36 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 36
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2655-Gi7N product page](https://www.kedacom.com/th/tzfxsxj/4580.jhtml)

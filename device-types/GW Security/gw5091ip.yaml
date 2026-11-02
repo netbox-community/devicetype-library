@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW5091IP
+slug: gw-security-gw5091ip
+part_number: GW5091IP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [GW Security GW5091IP product page](https://gwsecurityusa.com/product/gw5091ip-hd-ip-poe-camera)

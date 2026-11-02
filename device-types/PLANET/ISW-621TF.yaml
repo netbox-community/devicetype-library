@@ -1,0 +1,31 @@
+---
+manufacturer: Planet
+model: ISW-621TF
+slug: planet-isw-621tf
+part_number: ISW-621TF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.44
+weight_unit: kg
+comments: '[Planet ISW-621TF Datasheet](https://www.planet.com.tw/storage/products/35070/C-ISW-621TF_s.pdf)'
+power-ports:
+  - name: PWR 1
+    type: dc-terminal
+    maximum_draw: 16
+  - name: PWR 2
+    type: dc-terminal
+    maximum_draw: 16
+interfaces:
+  - name: Port 1
+    type: 100base-tx
+  - name: Port 2
+    type: 100base-tx
+  - name: Port 3
+    type: 100base-tx
+  - name: Port 4
+    type: 100base-tx
+  - name: SFP 1
+    type: 100base-x-sfp
+  - name: SFP 2
+    type: 100base-x-sfp

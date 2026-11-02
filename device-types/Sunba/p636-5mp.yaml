@@ -1,0 +1,27 @@
+---
+manufacturer: Sunba
+model: P636-5MP
+slug: sunba-p636-5mp
+part_number: P636-5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 4, max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Sunba P636-5MP product page](https://www.sunbatech.com/product/p636-5mp-36x-v2-new-version)

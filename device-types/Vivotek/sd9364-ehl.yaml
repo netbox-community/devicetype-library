@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: SD9364-EHL
+slug: vivotek-sd9364-ehl
+part_number: SD9364-EHL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 81.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 82
+    description: 48V DC

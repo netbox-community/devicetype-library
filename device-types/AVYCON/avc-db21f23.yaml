@@ -1,0 +1,27 @@
+---
+manufacturer: AVYCON
+model: AVC-DB21F23
+slug: avycon-avc-db21f23
+part_number: AVC-DB21F23
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 141
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [AVYCON AVC-DB21F23 product page](https://avyconaivo.com/data/item/AVC-DB21F23/DataSheet_AVC-DB21F23_EN.pdf)

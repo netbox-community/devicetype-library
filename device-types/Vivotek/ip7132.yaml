@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: IP7132
+slug: vivotek-ip7132
+part_number: IP7132
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 292
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC

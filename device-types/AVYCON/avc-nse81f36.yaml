@@ -1,0 +1,23 @@
+---
+manufacturer: AVYCON
+model: AVC-NSE81F36
+slug: avycon-avc-nse81f36
+part_number: AVC-NSE81F36
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 395
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NSE81F36 product page](https://avyconaivo.com/shop/item.php)

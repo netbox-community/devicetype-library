@@ -1,0 +1,40 @@
+---
+manufacturer: Supermicro
+model: SYS-1029P-WTRT
+slug: supermicro-sys-1029p-wtrt
+part_number: SYS-1029P-WTRT
+u_height: 1
+is_full_depth: true
+weight: 20.9
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Specifications](https://www.supermicro.com/en/products/system/1u/1029/sys-1029p-wtrt.php)'
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCI-E 1
+    description: x16 Full height slot
+    position: '1'
+  - name: PCI-E 2
+    description: x16 Full height slot
+    position: '2'
+  - name: PCI-E 3
+    description: x8 Low profile slot
+    position: '3'
+  - name: PCI-E 4
+    description: x16 for Add-on-module (AOM)
+    position: '4'
+  - name: PCI-E 5
+    description: x4 NVMe M.2 slot
+    position: '5'
+interfaces:
+  - name: LAN1
+    type: 10gbase-t
+  - name: LAN2
+    type: 10gbase-t
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port

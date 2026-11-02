@@ -1,0 +1,19 @@
+---
+manufacturer: Ubiquiti
+model: Unifi G6 Pro Entry
+slug: ubiquiti-uvc-g6-pro-entry
+part_number: UVC-G6-Pro-Entry
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+comments: |
+  An intelligent door entry system with native UniFi Protect and UniFi Access integration with a 12MP camera, two-way audio, and a 3" touch display.
+
+  [G6 Pro Entry](https://store.ui.com/us/en/category/door-access-readers/collections/doorbell-entry/products/uvc-g6-pro-entry)
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

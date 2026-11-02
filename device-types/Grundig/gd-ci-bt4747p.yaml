@@ -1,0 +1,22 @@
+---
+manufacturer: Grundig
+model: GD-CI-BT4747P
+slug: grundig-gd-ci-bt4747p
+part_number: GD-CI-BT4747P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 60 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Grundig GD-CI-BT4747P product page](https://de.grundig-security.com/catalog/cameras/ip/gd-ci-bt4747p)

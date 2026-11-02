@@ -1,0 +1,53 @@
+---
+manufacturer: Opengear
+model: OM1204-4E-L
+slug: opengear-om1204-4e-l
+part_number: OM1204-4E-L
+u_height: 1
+is_full_depth: false
+weight: 1
+weight_unit: kg
+airflow: passive
+comments: '[Operations Manager OM1200 Data Sheet](https://resources.opengear.com/om/datasheets/om1200/)'
+console-ports:
+  - name: Port 1
+    type: rj-45
+console-server-ports:
+  - name: Port 2
+    type: rj-45
+  - name: Port 3
+    type: rj-45
+  - name: Port 4
+    type: rj-45
+  - name: USB A
+    type: usb-a
+  - name: USB B
+    type: usb-a
+  - name: USB C
+    type: usb-a
+  - name: USB D
+    type: usb-a
+interfaces:
+  - name: net1
+    type: 1000base-t
+  - name: net2
+    type: 1000base-t
+  - name: wwan0
+    type: lte
+  - name: sw0
+    type: bridge
+  - name: sw0p1
+    type: 1000base-t
+  - name: sw0p2
+    type: 1000base-t
+  - name: sw0p3
+    type: 1000base-t
+  - name: sw0p4
+    type: 1000base-t
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    allocated_draw: 25
+  - name: PS2
+    type: dc-terminal
+    allocated_draw: 25

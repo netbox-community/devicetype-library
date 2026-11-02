@@ -1,0 +1,27 @@
+---
+manufacturer: Kedacom
+model: IPC2252-FN/FNB-SIR50-Z2812
+slug: kedacom-ipc2252-fn-fnb-sir50-z2812
+part_number: IPC2252-FN/FNB-SIR50-Z2812
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2252-FN/FNB-SIR50-Z2812 product page](https://www.kedacom.com/en/hwqxwlsxj/4683.jhtml)

@@ -1,0 +1,27 @@
+---
+manufacturer: Grundig
+model: GU-CI-AT8634T
+slug: grundig-gu-ci-at8634t
+part_number: GU-CI-AT8634T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Grundig GU-CI-AT8634T product page](https://grundig-security.com/catalog/camera/ip/bullet/GU-CI-AT8634T)

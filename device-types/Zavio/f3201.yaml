@@ -1,0 +1,19 @@
+---
+manufacturer: Zavio
+model: F3201
+slug: zavio-f3201
+part_number: F3201
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 116.5
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC

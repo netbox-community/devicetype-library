@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: N6-420X
+slug: bolin-technology-n6-420x
+part_number: N6-420X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+comments: >
+  [Bolin Technology N6-420X product page](https://bolintechnology.com/product/n6-420x-4k60-ndi-hx3-ptz-camera)

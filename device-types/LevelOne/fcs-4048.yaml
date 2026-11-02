@@ -1,0 +1,22 @@
+---
+manufacturer: LevelOne
+model: FCS-4048
+slug: levelone-fcs-4048
+part_number: FCS-4048
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 62 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [LevelOne FCS-4048 product page](https://www.level1.com/level1_en/fcs-4048-hubble-ptz-ip-camera-2-mp-33x-57304107)

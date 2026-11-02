@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: PZ7152
+slug: vivotek-pz7152
+part_number: PZ7152
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 371
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC

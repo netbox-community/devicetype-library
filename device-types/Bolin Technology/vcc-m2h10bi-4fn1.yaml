@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: VCC-M2H10BI-4FN1
+slug: bolin-technology-vcc-m2h10bi-4fn1
+part_number: VCC-M2H10BI-4FN1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 10.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Bolin Technology VCC-M2H10BI-4FN1 product page](https://bolintechnology.com/product/vcc-m2h10b-video-conferencing-proav-ptz)

@@ -1,0 +1,27 @@
+---
+manufacturer: TVT Digital
+model: TD-8483IS2N(PE/25M/AR15)
+slug: tvt-digital-td-8483is2npe-25m-ar15
+part_number: TD-8483IS2N(PE/25M/AR15)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [TVT Digital TD-8483IS2N(PE/25M/AR15) product page](https://cn.tvt.net.cn/products/1248.html)
