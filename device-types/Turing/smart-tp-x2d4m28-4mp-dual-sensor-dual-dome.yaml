@@ -1,0 +1,27 @@
+---
+manufacturer: Turing
+model: SMART TP-X2D4M28 4MP Dual-Sensor Dual Dome
+slug: turing-smart-tp-x2d4m28-4mp-dual-sensor-dual-dome
+part_number: SMART TP-X2D4M28 4MP Dual-Sensor Dual Dome
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Turing SMART TP-X2D4M28 4MP Dual-Sensor Dual Dome product page](https://turing-marketing-assets.s3.us-west-2.amazonaws.com/book/TP-X2D4M28-1Y.pdf)
