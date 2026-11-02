@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-C32WN I5/E/Y/M/4mm
+slug: tiandy-tc-c32wn-i5-e-y-m-4mm
+part_number: TC-C32WN I5/E/Y/M/4mm
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-C32WN I5/E/Y/M/4mm product page](http://en.tiandy.com/index.php)
