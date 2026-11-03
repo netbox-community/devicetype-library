@@ -1,0 +1,27 @@
+---
+manufacturer: ABUS
+model: IPCA64581D
+slug: abus-ipca64581d
+part_number: IPCA64581D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [ABUS IPCA64581D product page](https://www.abus.com/int/Commercial-Security/Video-surveillance/Network-technology/Thermal-Tube-Bi-Spectral-4MPx-9.7-8-mm)

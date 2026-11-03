@@ -1,0 +1,25 @@
+---
+manufacturer: ABUS
+model: TVIP44510
+slug: abus-tvip44510
+part_number: TVIP44510
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [ABUS TVIP44510 product page](https://www.abus.com/int/abusproductsheet.pdf/191285/eng-ZZ)

@@ -1,0 +1,25 @@
+---
+manufacturer: ABUS
+model: IPCS54511B
+slug: abus-ipcs54511b
+part_number: IPCS54511B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [ABUS IPCS54511B product page](https://www.abus.com/var/ImagesPIM/d110001/medias/docus/26/20211208-IPCS54511AB_INST_DE_GB.pdf)

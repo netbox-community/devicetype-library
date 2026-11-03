@@ -1,0 +1,22 @@
+---
+manufacturer: ABUS
+model: IPCS84551
+slug: abus-ipcs84551
+part_number: IPCS84551
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [ABUS IPCS84551 product page](https://www.abus.com/int/Commercial-Security/Video-surveillance/Network-technology/IP-PTZ-Dome-4-MPx-32x)
