@@ -1,0 +1,21 @@
+---
+manufacturer: JideTech
+model: P1-4X-2MP
+slug: jidetech-p1-4x-2mp
+part_number: P1-4X-2MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [JideTech P1-4X-2MP product page](https://www.jidetech.com/products/jidetech-2mp-waterproof-1080p-poe-ptz-ip-camera-p1-4x-2mp)
