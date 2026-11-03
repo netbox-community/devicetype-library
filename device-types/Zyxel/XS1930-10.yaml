@@ -1,0 +1,43 @@
+---
+manufacturer: Zyxel
+model: XS1930-10
+slug: zyxel-xs1930-10
+u_height: 0.5
+weight: 2.4
+weight_unit: kg
+is_full_depth: false
+comments: >-
+  Zyxel 8-port 10G Multi-Gig Lite-L3 Smart Managed Switch with 2 SFP+
+  https://www.zyxel.com/de/de/products/switch/10-12-port-10g-multi-gigabit-lite-l3-smart-managed-switch-xs1930-series/specifications
+
+console-ports:
+  - name: console
+    type: rj-45
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+  - name: RJ45-1
+    type: 10gbase-t
+  - name: RJ45-2
+    type: 10gbase-t
+  - name: RJ45-3
+    type: 10gbase-t
+  - name: RJ45-4
+    type: 10gbase-t
+  - name: RJ45-5
+    type: 10gbase-t
+  - name: RJ45-6
+    type: 10gbase-t
+  - name: RJ45-7
+    type: 10gbase-t
+  - name: RJ45-8
+    type: 10gbase-t
+  - name: SFP1 # SFP+
+    type: 10gbase-x-sfpp
+  - name: SFP2 # SFP+
+    type: 10gbase-x-sfpp
