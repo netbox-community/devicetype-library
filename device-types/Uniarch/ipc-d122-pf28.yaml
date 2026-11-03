@@ -1,0 +1,23 @@
+---
+manufacturer: Uniarch
+model: IPC-D122-PF28
+slug: uniarch-ipc-d122-pf28
+part_number: IPC-D122-PF28
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Uniarch IPC-D122-PF28 product page](https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/Entry_Series/IPC-D122-PF28)

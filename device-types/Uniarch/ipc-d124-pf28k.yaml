@@ -1,0 +1,27 @@
+---
+manufacturer: Uniarch
+model: IPC-D124-PF28K
+slug: uniarch-ipc-d124-pf28k
+part_number: IPC-D124-PF28K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 340
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 3.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniarch IPC-D124-PF28K product page](https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/Entry_Series/IPC-D124-PF28K)

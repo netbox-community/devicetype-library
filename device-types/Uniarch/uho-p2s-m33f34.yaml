@@ -1,0 +1,23 @@
+---
+manufacturer: Uniarch
+model: Uho-P2S-M33F34
+slug: uniarch-uho-p2s-m33f34
+part_number: Uho-P2S-M33F34
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniarch Uho-P2S-M33F34 product page](https://www.uniarch.cn/Products/Wireless_Series/Panda_Series/Panda_P_Series/P2S)
