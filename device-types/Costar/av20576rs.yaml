@@ -1,0 +1,18 @@
+---
+manufacturer: Costar
+model: AV20576RS
+slug: costar-av20576rs
+part_number: AV20576RS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26

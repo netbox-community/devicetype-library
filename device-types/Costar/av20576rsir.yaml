@@ -1,0 +1,18 @@
+---
+manufacturer: Costar
+model: AV20576RSIR
+slug: costar-av20576rsir
+part_number: AV20576RSIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 5, max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
