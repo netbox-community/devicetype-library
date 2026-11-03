@@ -1,0 +1,20 @@
+---
+manufacturer: KBVision
+model: KX-DAi5005MN-AE
+slug: kbvision-kx-dai5005mn-ae
+part_number: KX-DAi5005MN-AE
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [KBVision KX-DAi5005MN-AE product page](https://kbvisiongroup.com/product/kx-dai5005mn-ae.html)
