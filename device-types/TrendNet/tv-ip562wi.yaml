@@ -1,0 +1,24 @@
+---
+manufacturer: TrendNet
+model: TV-IP562WI
+slug: trendnet-tv-ip562wi
+part_number: TV-IP562WI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 88
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [TrendNet TV-IP562WI product page](https://www.trendnet.com/products/product-detail.asp)

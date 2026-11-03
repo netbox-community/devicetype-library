@@ -1,0 +1,22 @@
+---
+manufacturer: TrendNet
+model: TV-IP344PI
+slug: trendnet-tv-ip344pi
+part_number: TV-IP344PI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 688
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.64 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [TrendNet TV-IP344PI product page](https://www.trendnet.com/products/product-detail.asp)

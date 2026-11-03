@@ -1,0 +1,24 @@
+---
+manufacturer: TrendNet
+model: TV-IP662WI
+slug: trendnet-tv-ip662wi
+part_number: TV-IP662WI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 326
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [TrendNet TV-IP662WI product page](https://www.trendnet.com/products/product-detail.asp)
