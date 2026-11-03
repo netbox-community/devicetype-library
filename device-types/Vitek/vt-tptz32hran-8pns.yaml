@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VT-TPTZ32HRAN-8PNS
+slug: vitek-vt-tptz32hran-8pns
+part_number: VT-TPTZ32HRAN-8PNS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 34 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 34
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VT-TPTZ32HRAN-8PNS product page](https://vitekcctv.com/product/vt-tptz32hran-8pns-transcendent-8-megapixel-32x-gen-iv-ip-ptz-with-a-i-facial-recognition-and-auto-tracking)

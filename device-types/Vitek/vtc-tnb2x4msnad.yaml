@@ -1,0 +1,23 @@
+---
+manufacturer: Vitek
+model: VTC-TNB2X4MSNAD
+slug: vitek-vtc-tnb2x4msnad
+part_number: VTC-TNB2X4MSNAD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 906
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Vitek VTC-TNB2X4MSNAD product page](https://vitekcctv.com/product/vtc-tnb2x4msnad-transcendent-8-megapixel-4k-dual-sensor-180-bullet-camera)

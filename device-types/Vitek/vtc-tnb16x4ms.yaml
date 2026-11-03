@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTC-TNB16X4MS
+slug: vitek-vtc-tnb16x4ms
+part_number: VTC-TNB16X4MS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VTC-TNB16X4MS product page](https://vitekcctv.com/product/vtc-tnb16x4ms-16-megapixel-indoor-outdoor-multi-sensor-180-panoramic-ip-camera)

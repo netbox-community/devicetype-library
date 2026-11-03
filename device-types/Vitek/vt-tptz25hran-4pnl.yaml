@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VT-TPTZ25HRAN-4PNL
+slug: vitek-vt-tptz25hran-4pnl
+part_number: VT-TPTZ25HRAN-4PNL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VT-TPTZ25HRAN-4PNL product page](https://vitekcctv.com/product/vt-tptz25hran-4pnl-transcendent-4-megapixel-25x-gen-iv-ip-ptz-with-a-i-facial-recognition-and-auto-tracking)
