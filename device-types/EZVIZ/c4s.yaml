@@ -1,0 +1,24 @@
+---
+manufacturer: EZVIZ
+model: C4S
+slug: ezviz-c4s
+part_number: C4S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [EZVIZ C4S product page](https://www.ezviz.com/de/de/product/C4S/417)

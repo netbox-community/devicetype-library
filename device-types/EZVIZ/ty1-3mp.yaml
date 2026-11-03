@@ -1,0 +1,24 @@
+---
+manufacturer: EZVIZ
+model: TY1 3MP
+slug: ezviz-ty1-3mp
+part_number: TY1 3MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 259
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EZVIZ TY1 3MP product page](https://www.ezviz.com/product/TY1-3MP/37489)
