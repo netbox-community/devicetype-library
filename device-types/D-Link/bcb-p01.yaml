@@ -1,0 +1,27 @@
+---
+manufacturer: D-Link
+model: BCB-P01
+slug: d-link-bcb-p01
+part_number: BCB-P01
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [D-Link BCB-P01 product page](https://www.dlink.com/en/products/bcb-p01-2-megapixel-h265-outdoor-bullet-camera)

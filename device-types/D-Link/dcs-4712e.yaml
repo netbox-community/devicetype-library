@@ -1,0 +1,25 @@
+---
+manufacturer: D-Link
+model: DCS-4712E
+slug: d-link-dcs-4712e
+part_number: DCS-4712E
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-4712E product page](https://www.dlink.com/uk/en/products/dcs-4712e-vigilance-2-megapixel-h265-outdoor-bullet-camera)

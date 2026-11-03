@@ -1,0 +1,27 @@
+---
+manufacturer: D-Link
+model: DCS-F5638E
+slug: d-link-dcs-f5638e
+part_number: DCS-F5638E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-F5638E product page](https://www.dlink.com/middle-east/en/products/dcs-f5638e-8mp-wdr-motorized-vf-eyeball-network-ir)

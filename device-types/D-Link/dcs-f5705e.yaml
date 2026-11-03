@@ -1,0 +1,23 @@
+---
+manufacturer: D-Link
+model: DCS-F5705E
+slug: d-link-dcs-f5705e
+part_number: DCS-F5705E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [D-Link DCS-F5705E product page](https://www.dlink.com/middle-east/en/products/dcs-f5705e-5mp-day-night-fixed-bullet-camera)

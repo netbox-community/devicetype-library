@@ -1,0 +1,23 @@
+---
+manufacturer: D-Link
+model: DCS-4703E
+slug: d-link-dcs-4703e
+part_number: DCS-4703E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [D-Link DCS-4703E product page](https://support.dlink.com.au/downloads/product/DCS-4703E/Datasheet/DCS-4703E_A1_Datasheet_v1.01%28WW%29.pdf)

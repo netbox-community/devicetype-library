@@ -1,0 +1,24 @@
+---
+manufacturer: D-Link
+model: DCS-8302LH
+slug: d-link-dcs-8302lh
+part_number: DCS-8302LH
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-8302LH product page](https://www.dlink.com/uk/en/products/dcs-8302lh-full-hd-outdoor-wi-fi-camera)
