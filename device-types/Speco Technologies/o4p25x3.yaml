@@ -1,0 +1,26 @@
+---
+manufacturer: Speco Technologies
+model: O4P25X3
+slug: speco-technologies-o4p25x3
+part_number: O4P25X3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3769
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Speco Technologies O4P25X3 product page](https://specotech.com/product/o4p25x3)

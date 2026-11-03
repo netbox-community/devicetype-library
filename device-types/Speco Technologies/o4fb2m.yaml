@@ -1,0 +1,26 @@
+---
+manufacturer: Speco Technologies
+model: O4FB2M
+slug: speco-technologies-o4fb2m
+part_number: O4FB2M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1039
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Speco Technologies O4FB2M product page](https://specotech.com/product/o4fb2m)

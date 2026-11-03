@@ -1,0 +1,27 @@
+---
+manufacturer: Speco Technologies
+model: O2BLP2M
+slug: speco-technologies-o2blp2m
+part_number: O2BLP2M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1039
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Speco Technologies O2BLP2M product page](https://specotech.com/product/o2blp2m)
