@@ -1,0 +1,27 @@
+---
+manufacturer: Prama
+model: PT-NC34TP3-4NAM(D2)
+slug: prama-pt-nc34tp3-4namd2
+part_number: PT-NC34TP3-4NAM(D2)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1230
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Prama PT-NC34TP3-4NAM(D2) product page](https://www.pramaindia.in/product/pt-nc34tp3-4namd2)
