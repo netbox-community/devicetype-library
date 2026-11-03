@@ -1,0 +1,27 @@
+---
+manufacturer: IDIS
+model: DC-Y6516WRX
+slug: idis-dc-y6516wrx
+part_number: DC-Y6516WRX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 670
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IDIS DC-Y6516WRX product page](https://www.idisglobal.com/index/product_view/3236)

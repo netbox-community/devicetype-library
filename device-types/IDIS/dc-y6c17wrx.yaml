@@ -1,0 +1,22 @@
+---
+manufacturer: IDIS
+model: DC-Y6C17WRX
+slug: idis-dc-y6c17wrx
+part_number: DC-Y6C17WRX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 670
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IDIS DC-Y6C17WRX product page](https://www.idisamericas.com/en/product/4127)

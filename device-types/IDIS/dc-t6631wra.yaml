@@ -1,0 +1,27 @@
+---
+manufacturer: IDIS
+model: DC-T6631WRA
+slug: idis-dc-t6631wra
+part_number: DC-T6631WRA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IDIS DC-T6631WRA product page](https://www.idisglobal.com/index/product_view/4310)
