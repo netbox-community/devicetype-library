@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: ISM-52F0021WMA
+slug: eneo-ism-52f0021wma
+part_number: ISM-52F0021WMA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 125
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [eneo ISM-52F0021WMA product page](https://eneo-security.com/en/ism-52f0021wma.html)

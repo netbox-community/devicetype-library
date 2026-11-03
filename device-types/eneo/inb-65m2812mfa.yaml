@@ -1,0 +1,26 @@
+---
+manufacturer: eneo
+model: INB-65M2812MFA
+slug: eneo-inb-65m2812mfa
+part_number: INB-65M2812MFA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo INB-65M2812MFA product page](https://eneo-security.com/en/generate/datasheet/render/product_sku/233901)

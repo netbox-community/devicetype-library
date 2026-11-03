@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: IPP-72A0023MIA
+slug: eneo-ipp-72a0023mia
+part_number: IPP-72A0023MIA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+comments: >
+  [eneo IPP-72A0023MIA product page](https://eneo-security.com/en/ipp-72a0023mia.html)

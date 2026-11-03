@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: IPD-68M3611P5A
+slug: eneo-ipd-68m3611p5a
+part_number: IPD-68M3611P5A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [eneo IPD-68M3611P5A product page](https://eneo-security.com/en/ipd-68m3611p5a.html)

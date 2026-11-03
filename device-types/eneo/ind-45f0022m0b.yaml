@@ -1,0 +1,27 @@
+---
+manufacturer: eneo
+model: IND-45F0022M0B
+slug: eneo-ind-45f0022m0b
+part_number: IND-45F0022M0B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo IND-45F0022M0B product page](https://eneo-security.com/en/eneo-ind-45f0022m0b.html)

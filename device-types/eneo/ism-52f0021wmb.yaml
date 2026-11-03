@@ -1,0 +1,20 @@
+---
+manufacturer: eneo
+model: ISM-52F0021WMB
+slug: eneo-ism-52f0021wmb
+part_number: ISM-52F0021WMB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 130
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [eneo ISM-52F0021WMB product page](https://eneo-security.com/en/ism-52f0021wmb.html)
