@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C2964-RFPE
+slug: milesight-ms-c2964-rfpe
+part_number: MS-C2964-RFPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 825
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C2964-RFPE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-motorized-bullet-network-camera-ndaa-e-datasheet-en.pdf)

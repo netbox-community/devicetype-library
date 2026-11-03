@@ -1,0 +1,22 @@
+---
+manufacturer: Milesight
+model: MS-C8164-UPD
+slug: milesight-ms-c8164-upd
+part_number: MS-C8164-UPD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 610
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C8164-UPD product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-a/milesight-ai-color-vandal-proof-mini-bullet-network-camera-ndaa-datasheet-en.pdf)

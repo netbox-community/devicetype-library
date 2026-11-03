@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C2961-X12RPE
+slug: milesight-ms-c2961-x12rpe
+part_number: MS-C2961-X12RPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C2961-X12RPE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-12x-ptz-bullet-network-camera-ndaa-datasheet-en.pdf)

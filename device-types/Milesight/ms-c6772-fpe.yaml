@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C6772-FPE
+slug: milesight-ms-c6772-fpe
+part_number: MS-C6772-FPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C6772-FPE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-motorized-pro-dome-network-camera-ndaa-e-datasheet-en.pdf)
