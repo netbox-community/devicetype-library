@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: '210'
+slug: axis-210
+part_number: '210'
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 305
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 9V DC

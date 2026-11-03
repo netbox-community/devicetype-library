@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: M3206-LVE
+slug: axis-m3206-lve
+part_number: M3206-LVE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.5 W
+comments: >
+  [AXIS M3206-LVE product page](https://www.axis.com/products/axis-m3206-lve)

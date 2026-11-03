@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: M5525-E
+slug: axis-m5525-e
+part_number: M5525-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 28V DC
+comments: >
+  [AXIS M5525-E product page](https://www.axis.com/products/axis-m5525-e)

@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: M3067-P
+slug: axis-m3067-p
+part_number: M3067-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 6.49 W
+comments: >
+  [AXIS M3067-P product page](https://www.axis.com/products/axis-m3067-p)

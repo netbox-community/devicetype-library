@@ -1,0 +1,16 @@
+---
+manufacturer: AXIS
+model: M3007-P
+slug: axis-m3007-p
+part_number: M3007-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 570
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 2, max 4.5 W

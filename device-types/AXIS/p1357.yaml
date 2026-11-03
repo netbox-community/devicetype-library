@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: P1357
+slug: axis-p1357
+part_number: P1357
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 28V DC
+comments: >
+  [AXIS P1357 product page](https://www.axis.com/products/axis-p1357)

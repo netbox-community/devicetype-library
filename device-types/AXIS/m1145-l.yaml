@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: M1145-L
+slug: axis-m1145-l
+part_number: M1145-L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 260
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.5 W
+comments: >
+  [AXIS M1145-L product page](https://www.axis.com/products/axis-m1145-l)

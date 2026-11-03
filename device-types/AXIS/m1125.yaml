@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: M1125
+slug: axis-m1125
+part_number: M1125
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 28V DC
+comments: >
+  [AXIS M1125 product page](https://www.axis.com/products/axis-m1125)

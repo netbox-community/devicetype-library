@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: M5074
+slug: axis-m5074
+part_number: M5074
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9.3 W
+comments: >
+  [AXIS M5074 product page](https://www.axis.com/products/axis-m5074)
