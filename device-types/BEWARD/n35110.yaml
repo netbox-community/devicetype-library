@@ -1,0 +1,23 @@
+---
+manufacturer: BEWARD
+model: N35110
+slug: beward-n35110
+part_number: N35110
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 635
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [BEWARD N35110 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-n35110)

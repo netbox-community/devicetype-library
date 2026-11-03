@@ -1,0 +1,23 @@
+---
+manufacturer: BEWARD
+model: BD4680DVZ
+slug: beward-bd4680dvz
+part_number: BD4680DVZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [BEWARD BD4680DVZ product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-bd4680dvz)

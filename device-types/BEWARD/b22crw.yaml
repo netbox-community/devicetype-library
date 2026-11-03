@@ -1,0 +1,20 @@
+---
+manufacturer: BEWARD
+model: B22CRW
+slug: beward-b22crw
+part_number: B22CRW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [BEWARD B22CRW product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-serii-b1000/b22crw)

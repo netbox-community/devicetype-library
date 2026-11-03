@@ -1,0 +1,22 @@
+---
+manufacturer: BEWARD
+model: B1710RV
+slug: beward-b1710rv
+part_number: B1710RV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 854
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD B1710RV product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-b1710rv)

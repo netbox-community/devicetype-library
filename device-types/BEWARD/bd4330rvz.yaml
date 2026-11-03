@@ -1,0 +1,23 @@
+---
+manufacturer: BEWARD
+model: BD4330RVZ
+slug: beward-bd4330rvz
+part_number: BD4330RVZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1062
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 51 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 51
+    description: 12V DC
+comments: >
+  [BEWARD BD4330RVZ product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-bd4330rvz)

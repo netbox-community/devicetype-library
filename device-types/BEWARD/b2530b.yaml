@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: B2530B
+slug: beward-b2530b
+part_number: B2530B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 2.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD B2530B product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-serii-b1000/ip-kamera-b2530b)

@@ -1,0 +1,23 @@
+---
+manufacturer: BEWARD
+model: CD310
+slug: beward-cd310
+part_number: CD310
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD CD310 product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-camdrive/ip-kamera-cd310)
