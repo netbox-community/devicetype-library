@@ -1,0 +1,27 @@
+---
+manufacturer: Infinova
+model: VS231-A5
+slug: infinova-vs231-a5
+part_number: VS231-A5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 50 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 50
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Infinova VS231-A5 product page](https://www.infinova.com/DownloadPdf/VS231-A5-Series-Datasheet-en-202208-R1.pdf)

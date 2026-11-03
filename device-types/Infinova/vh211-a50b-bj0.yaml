@@ -1,0 +1,27 @@
+---
+manufacturer: Infinova
+model: VH211-A50B-BJ0
+slug: infinova-vh211-a50b-bj0
+part_number: VH211-A50B-BJ0
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Infinova VH211-A50B-BJ0 product page](https://www.infinova.com/DownloadPdf/VH211-A50B-BJ0-Datasheet-en-202302-R1.pdf)

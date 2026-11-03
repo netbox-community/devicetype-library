@@ -1,0 +1,24 @@
+---
+manufacturer: Infinova
+model: VH161-K2
+slug: infinova-vh161-k2
+part_number: VH161-K2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Infinova VH161-K2 product page](https://www.infinova.com/DownloadPdf/VH161-K2-Datasheet-en-202209-R1.pdf)

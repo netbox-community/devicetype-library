@@ -1,0 +1,23 @@
+---
+manufacturer: Infinova
+model: V6812IR-H0265SX-Y
+slug: infinova-v6812ir-h0265sx-y
+part_number: V6812IR-H0265SX-Y
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Infinova V6812IR-H0265SX-Y product page](https://www.infinova.com/DownloadPdf/V6812IR-H0265_Datasheet_en-202304-R2.pdf)

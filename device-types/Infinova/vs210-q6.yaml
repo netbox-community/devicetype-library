@@ -1,0 +1,25 @@
+---
+manufacturer: Infinova
+model: VS210-Q6
+slug: infinova-vs210-q6
+part_number: VS210-Q6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Infinova VS210-Q6 product page](https://www.infinova.com/DownloadPdf/VS210-Q6-Datasheet-en-201912.pdf)
