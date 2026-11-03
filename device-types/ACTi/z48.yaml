@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: Z48
+slug: acti-z48
+part_number: Z48
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 540
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [ACTi Z48 product page](https://www.acti.com/product/Z48)

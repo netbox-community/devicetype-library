@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: Z97
+slug: acti-z97
+part_number: Z97
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [ACTi Z97 product page](https://www.acti.com/product/Z97)

@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E42A
+slug: acti-e42a
+part_number: E42A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 698
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.75 W
+comments: >
+  [ACTi E42A product page](https://www.acti.com/product/E42A)

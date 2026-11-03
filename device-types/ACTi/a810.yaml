@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: A810
+slug: acti-a810
+part_number: A810
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [ACTi A810 product page](https://www.acti.com/product/A810)

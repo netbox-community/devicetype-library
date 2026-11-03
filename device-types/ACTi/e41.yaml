@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E41
+slug: acti-e41
+part_number: E41
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 643
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 3.74 W
+comments: >
+  [ACTi E41 product page](https://www.acti.com/product/E41)

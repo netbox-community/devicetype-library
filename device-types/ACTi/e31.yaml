@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E31
+slug: acti-e31
+part_number: E31
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 597
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.41 W
+comments: >
+  [ACTi E31 product page](https://www.acti.com/product/E31)

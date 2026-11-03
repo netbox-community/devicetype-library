@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: B85
+slug: acti-b85
+part_number: B85
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1291
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.28 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [ACTi B85 product page](https://www.acti.com/product/B85)

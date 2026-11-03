@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E83A
+slug: acti-e83a
+part_number: E83A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1032
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 6.49 W
+comments: >
+  [ACTi E83A product page](https://www.acti.com/product/E83A)

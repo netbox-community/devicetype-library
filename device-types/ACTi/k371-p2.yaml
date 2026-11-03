@@ -1,0 +1,21 @@
+---
+manufacturer: ACTi
+model: K371-P2
+slug: acti-k371-p2
+part_number: K371-P2
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+comments: >
+  [ACTi K371-P2 product page](https://www.acti.com/product/K371-P2)

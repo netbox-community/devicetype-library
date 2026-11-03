@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E62
+slug: acti-e62
+part_number: E62
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.18 W
+comments: >
+  [ACTi E62 product page](https://www.acti.com/product/E62)
