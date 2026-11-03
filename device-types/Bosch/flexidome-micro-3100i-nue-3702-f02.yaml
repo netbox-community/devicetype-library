@@ -1,0 +1,22 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME micro 3100i (NUE-3702-F02)
+slug: bosch-flexidome-micro-3100i-nue-3702-f02
+part_number: FLEXIDOME micro 3100i (NUE-3702-F02)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 4.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Bosch FLEXIDOME micro 3100i (NUE-3702-F02) product page](https://cdn.commerce.boschsecurity.com/public/documents/NUE_3702_F02_GOV_Data_sheet_enUS_118298731915.pdf)

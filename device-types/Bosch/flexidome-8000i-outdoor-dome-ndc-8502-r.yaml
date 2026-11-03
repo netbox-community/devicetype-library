@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME 8000i Outdoor Dome (NDC-8502-R)
+slug: bosch-flexidome-8000i-outdoor-dome-ndc-8502-r
+part_number: FLEXIDOME 8000i Outdoor Dome (NDC-8502-R)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Bosch FLEXIDOME 8000i Outdoor Dome (NDC-8502-R) product page](https://cdn.commerce.boschsecurity.com/public/documents/NDE_8502_R_Fixed_dom_Data_sheet_koKR_94290242059.pdf)

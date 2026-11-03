@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: NDP-7604-Z12L
+slug: bosch-ndp-7604-z12l
+part_number: NDP-7604-Z12L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5790
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 53 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 53
+    description: 36V DC

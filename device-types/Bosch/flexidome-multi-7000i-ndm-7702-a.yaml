@@ -1,0 +1,22 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME multi 7000i (NDM-7702-A)
+slug: bosch-flexidome-multi-7000i-ndm-7702-a
+part_number: FLEXIDOME multi 7000i (NDM-7702-A)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 5, max 42.3 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Bosch FLEXIDOME multi 7000i (NDM-7702-A) product page](https://assets.catalog.boschbuildingtechnologies.com/public/documents/FLEXIDOME_multi_7000_Data_sheet_enUS_84181074955.pdf)

@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME IP micro 2000 (NUC-20002-F2)
+slug: bosch-flexidome-ip-micro-2000-nuc-20002-f2
+part_number: FLEXIDOME IP micro 2000 (NUC-20002-F2)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 1, max 2.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB

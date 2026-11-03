@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME multi+ 7100i IR (NMM-7703-AL)
+slug: bosch-flexidome-multi-plus--7100i-ir-nmm-7703-al
+part_number: FLEXIDOME multi+ 7100i IR (NMM-7703-AL)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5780
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 38.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 38
+    description: 36V DC
