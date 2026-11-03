@@ -1,0 +1,24 @@
+---
+manufacturer: Anpviz
+model: PTZIP46820E-SA
+slug: anpviz-ptzip46820e-sa
+part_number: PTZIP46820E-SA
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Anpviz PTZIP46820E-SA product page](https://anpviz.com/products/ptzip46820e-sa)
