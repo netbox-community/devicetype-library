@@ -1,0 +1,27 @@
+---
+manufacturer: Trassir
+model: TR-D2251WDC
+slug: trassir-tr-d2251wdc
+part_number: TR-D2251WDC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D2251WDC product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_d2251wdc_2_8)

@@ -1,0 +1,24 @@
+---
+manufacturer: Trassir
+model: TR-D9251WDIR3
+slug: trassir-tr-d9251wdir3
+part_number: TR-D9251WDIR3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D9251WDIR3 product page](https://trassir.com/products/cameras/ip-cameras/tr-d9251wdir3-v2-1-4)

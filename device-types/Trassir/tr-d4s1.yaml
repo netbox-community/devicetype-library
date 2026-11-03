@@ -1,0 +1,23 @@
+---
+manufacturer: Trassir
+model: TR-D4S1
+slug: trassir-tr-d4s1
+part_number: TR-D4S1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 205
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Trassir TR-D4S1 product page](https://trassir.com/products/cameras/ip-cameras/tr-d4s1-v3-3-6)

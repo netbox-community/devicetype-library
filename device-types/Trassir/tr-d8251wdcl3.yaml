@@ -1,0 +1,24 @@
+---
+manufacturer: Trassir
+model: TR-D8251WDCL3
+slug: trassir-tr-d8251wdcl3
+part_number: TR-D8251WDCL3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D8251WDCL3 product page](https://trassir.com/products/cameras/ip-cameras/tr-d8251wdcl3-2-8)
