@@ -1,0 +1,23 @@
+---
+manufacturer: Ganz
+model: ZN8-B4NVF56
+slug: ganz-zn8-b4nvf56
+part_number: ZN8-B4NVF56
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Ganz ZN8-B4NVF56 product page](https://computarganz.s3.amazonaws.com/Ganz+Active+Resources/GENSTAR_IP_4P+brochure+09.01.23+V2.pdf)

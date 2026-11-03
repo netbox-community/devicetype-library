@@ -1,0 +1,22 @@
+---
+manufacturer: Ganz
+model: ZN-N4NFN5
+slug: ganz-zn-n4nfn5
+part_number: ZN-N4NFN5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 678
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 5.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Ganz ZN-N4NFN5 product page](https://computarganz.s3.amazonaws.com/Ganz+Active+Resources/PixelPro_1080p+mini+spec_08.17.23+V2.pdf)

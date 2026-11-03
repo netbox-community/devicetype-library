@@ -1,0 +1,22 @@
+---
+manufacturer: Ganz
+model: ZN-VD4F28-DL
+slug: ganz-zn-vd4f28-dl
+part_number: ZN-VD4F28-DL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 1
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Ganz ZN-VD4F28-DL product page](https://www.ganzsecurity.com/products/zn-vd4f28-dl)
