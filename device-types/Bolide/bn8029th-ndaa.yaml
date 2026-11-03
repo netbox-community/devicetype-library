@@ -1,0 +1,27 @@
+---
+manufacturer: Bolide
+model: BN8029TH/NDAA
+slug: bolide-bn8029th-ndaa
+part_number: BN8029TH/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Bolide BN8029TH/NDAA product page](https://bolideco.com/products/bi-spectrum-thermal-network-bullet-camera-bn-8035th-1)

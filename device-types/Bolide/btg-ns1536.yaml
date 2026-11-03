@@ -1,0 +1,25 @@
+---
+manufacturer: Bolide
+model: BTG-NS1536
+slug: bolide-btg-ns1536
+part_number: BTG-NS1536
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Bolide BTG-NS1536 product page](https://bolideco.com/products/5mp-2-8-12mm-varifocal-lens-bullet-camera-with-audio-btg-ns1536)

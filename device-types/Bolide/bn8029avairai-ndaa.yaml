@@ -1,0 +1,27 @@
+---
+manufacturer: Bolide
+model: BN8029AVAIRAI/NDAA
+slug: bolide-bn8029avairai-ndaa
+part_number: BN8029AVAIRAI/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1060
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.46 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Bolide BN8029AVAIRAI/NDAA product page](https://bolideco.com/products/5mp-motorized-varifocal-outdoor-dome-camera-with-ai-bn8029avairai-ndaa)

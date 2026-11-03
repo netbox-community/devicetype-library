@@ -1,0 +1,23 @@
+---
+manufacturer: Bolide
+model: BN7002
+slug: bolide-bn7002
+part_number: BN7002
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 649
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Bolide BN7002 product page](https://bolideco.com/products/h-265-4mp-high-definition-box-camera-bn7002)

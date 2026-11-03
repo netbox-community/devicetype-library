@@ -1,0 +1,21 @@
+---
+manufacturer: Bolide
+model: BN600AI
+slug: bolide-bn600ai
+part_number: BN600AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Bolide BN600AI product page](https://bolideco.com/products/pinhole-2mp-full-hd-and-wdr-function-kpc600ai)

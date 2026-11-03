@@ -1,0 +1,23 @@
+---
+manufacturer: Bolide
+model: BN600MP
+slug: bolide-bn600mp
+part_number: BN600MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Bolide BN600MP product page](https://bolideco.com/products/5-mp-modular-pinhole-camera-bn600mp)

@@ -1,0 +1,26 @@
+---
+manufacturer: Bolide
+model: BN1208FE
+slug: bolide-bn1208fe
+part_number: BN1208FE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Bolide BN1208FE product page](https://bolideco.com/products/fish-eye-cameras-with-360-panoramic-view-12mp-resolution-bn1208fe)
