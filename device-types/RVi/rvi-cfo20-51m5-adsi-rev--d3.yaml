@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-CFO20/51M5/ADSI rev. D3
+slug: rvi-rvi-cfo20-51m5-adsi-rev--d3
+part_number: RVi-CFO20/51M5/ADSI rev. D3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [RVi RVi-CFO20/51M5/ADSI rev. D3 product page](https://rvigroup.ru/catalog-v2/rvi_cfo20_51m5_adsi_rev_d3)

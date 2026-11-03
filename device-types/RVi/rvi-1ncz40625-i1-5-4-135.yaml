@@ -1,0 +1,26 @@
+---
+manufacturer: RVi
+model: RVi-1NCZ40625-I1 (5.4-135)
+slug: rvi-rvi-1ncz40625-i1-5-4-135
+part_number: RVi-1NCZ40625-I1 (5.4-135)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-1NCZ40625-I1 (5.4-135) product page](https://rvigroup.ru/catalog-v2/rvi_1ncz40625_i1_5_4_135)

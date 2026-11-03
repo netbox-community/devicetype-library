@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-1NCD2120-P (2.8) white
+slug: rvi-rvi-1ncd2120-p-2-8-white
+part_number: RVi-1NCD2120-P (2.8) white
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 340
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [RVi RVi-1NCD2120-P (2.8) white product page](https://rvigroup.ru/catalog-v2/rvi_1ncd2120_p_2_8_white)

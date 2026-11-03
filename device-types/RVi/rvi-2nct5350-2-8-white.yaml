@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-2NCT5350 (2.8) white
+slug: rvi-rvi-2nct5350-2-8-white
+part_number: RVi-2NCT5350 (2.8) white
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [RVi RVi-2NCT5350 (2.8) white product page](https://rvigroup.ru/catalog-v2/rvi_2nct5350_2_8_white)

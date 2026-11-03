@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-3NCZ80622 (6.4-138.5)
+slug: rvi-rvi-3ncz80622-6-4-138-5
+part_number: RVi-3NCZ80622 (6.4-138.5)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 51 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 51
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [RVi RVi-3NCZ80622 (6.4-138.5) product page](https://rvigroup.ru/catalog-v2/rvi_3ncz80622_6_4_138_5)

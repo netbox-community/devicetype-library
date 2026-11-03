@@ -1,0 +1,21 @@
+---
+manufacturer: RVi
+model: RVi-1NCE2120 (2.8) white
+slug: rvi-rvi-1nce2120-2-8-white
+part_number: RVi-1NCE2120 (2.8) white
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [RVi RVi-1NCE2120 (2.8) white product page](https://rvigroup.ru/catalog-v2/rvi_1nce2120_2_8_white)

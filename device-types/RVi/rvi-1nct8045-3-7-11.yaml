@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-1NCT8045 (3.7-11)
+slug: rvi-rvi-1nct8045-3-7-11
+part_number: RVi-1NCT8045 (3.7-11)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 824
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVi-1NCT8045 (3.7-11) product page](https://rvigroup.ru/catalog-v2/rvi_1nct8045_3_7_11)

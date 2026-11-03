@@ -1,0 +1,26 @@
+---
+manufacturer: RVi
+model: RVi-CFG50/50M2/ADSI rev.P
+slug: rvi-rvi-cfg50-50m2-adsi-rev-p
+part_number: RVi-CFG50/50M2/ADSI rev.P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVi-CFG50/50M2/ADSI rev.P product page](https://rvigroup.ru/catalog-v2/rvi_cfg50_50m2_adsi_rev_p)

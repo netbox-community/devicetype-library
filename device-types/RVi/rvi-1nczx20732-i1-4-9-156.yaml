@@ -1,0 +1,26 @@
+---
+manufacturer: RVi
+model: RVi-1NCZX20732-I1 (4.9-156)
+slug: rvi-rvi-1nczx20732-i1-4-9-156
+part_number: RVi-1NCZX20732-I1 (4.9-156)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-1NCZX20732-I1 (4.9-156) product page](https://rvigroup.ru/catalog-v2/rvi_1nczx20732_i1_4_9_156)

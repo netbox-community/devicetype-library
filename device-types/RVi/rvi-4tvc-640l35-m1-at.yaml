@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-4TVC-640L35/M1-AT
+slug: rvi-rvi-4tvc-640l35-m1-at
+part_number: RVi-4TVC-640L35/M1-AT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [RVi RVi-4TVC-640L35/M1-AT product page](https://rvigroup.ru/catalog-v2/teplovizor_rvi_4tvc_640l35_m1_at)

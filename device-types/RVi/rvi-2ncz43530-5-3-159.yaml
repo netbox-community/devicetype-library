@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-2NCZ43530 (5.3-159)
+slug: rvi-rvi-2ncz43530-5-3-159
+part_number: RVi-2NCZ43530 (5.3-159)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-2NCZ43530 (5.3-159) product page](https://rvigroup.ru/catalog-v2/rvi_2ncz43530_5_3_159)

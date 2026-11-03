@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-2NCZ84640 (5.7-228)
+slug: rvi-rvi-2ncz84640-5-7-228
+part_number: RVi-2NCZ84640 (5.7-228)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 9690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 61 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 61
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-2NCZ84640 (5.7-228) product page](https://rvigroup.ru/catalog-v2/rvi_2ncz84640_5_7_228)

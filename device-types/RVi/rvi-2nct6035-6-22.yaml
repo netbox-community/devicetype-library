@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-2NCT6035 (6-22)
+slug: rvi-rvi-2nct6035-6-22
+part_number: RVi-2NCT6035 (6-22)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1893
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVi-2NCT6035 (6-22) product page](https://rvigroup.ru/catalog-v2/rvi_2nct6035_6_22)

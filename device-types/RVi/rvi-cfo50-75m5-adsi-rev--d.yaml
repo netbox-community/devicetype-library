@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-CFO50/75M5/ADSI rev. D
+slug: rvi-rvi-cfo50-75m5-adsi-rev--d
+part_number: RVi-CFO50/75M5/ADSI rev. D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [RVi RVi-CFO50/75M5/ADSI rev. D product page](https://rvigroup.ru/catalog-v2/rvi_cfo50_75m5_adsi_rev_d)
