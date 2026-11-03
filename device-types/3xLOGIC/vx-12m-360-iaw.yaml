@@ -1,0 +1,25 @@
+---
+manufacturer: 3xLOGIC
+model: VX-12M-360-IAW
+slug: 3xlogic-vx-12m-360-iaw
+part_number: VX-12M-360-IAW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [3xLOGIC VX-12M-360-IAW product page](https://compare.3xlogic.cloud/hardware/Content/Resources/PDFs/VX_SPEC_3xLOGIC%20VISIX%20%20VX-12M-360-IAW%20Datasheet.pdf)

@@ -1,0 +1,25 @@
+---
+manufacturer: 3xLOGIC
+model: VX-5M28-OT-IW
+slug: 3xlogic-vx-5m28-ot-iw
+part_number: VX-5M28-OT-IW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [3xLOGIC VX-5M28-OT-IW product page](https://compare.3xlogic.cloud/hardware/Content/Resources/PDFs/VX_SPEC_3xLOGIC%20VISIX%20%20VX-5M28-OT-IW%20Datasheet.pdf)
