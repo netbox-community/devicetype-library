@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP S4120 VF
+slug: intelbras-vip-s4120-vf
+part_number: VIP S4120 VF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 425
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Intelbras VIP S4120 VF product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_varifocais_vips4120vf_e4120z_e4320z_site.pdf)

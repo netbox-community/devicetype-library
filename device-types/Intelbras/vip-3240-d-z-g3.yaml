@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3240 D Z G3
+slug: intelbras-vip-3240-d-z-g3
+part_number: VIP 3240 D Z G3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 3240 D Z G3 product page](https://backend.intelbras.com/sites/default/files/2026-04/datasheet-vip-3240-z-g3-vip-3240-d-z-g3-pt%20v3_2.pdf)

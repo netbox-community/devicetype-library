@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP E3130 Z
+slug: intelbras-vip-e3130-z
+part_number: VIP E3130 Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Intelbras VIP E3130 Z product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_varifocais_vips3130vf_e3130z_e3330z_0_site.pdf)

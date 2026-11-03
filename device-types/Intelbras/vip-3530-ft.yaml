@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3530 FT
+slug: intelbras-vip-3530-ft
+part_number: VIP 3530 FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3530 FT product page](https://www.intelbras.com/pt-br/camera-ip-bullet-de-5-mp-vip-3530-ft)

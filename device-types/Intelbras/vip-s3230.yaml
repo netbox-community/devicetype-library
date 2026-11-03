@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP S3230
+slug: intelbras-vip-s3230
+part_number: VIP S3230
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Intelbras VIP S3230 product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_a4_linha_s_full_hd_portugues_01-15_site_0_0_0_0.pdf)

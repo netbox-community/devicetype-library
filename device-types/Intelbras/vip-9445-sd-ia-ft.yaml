@@ -1,0 +1,22 @@
+---
+manufacturer: Intelbras
+model: VIP 9445 SD IA FT
+slug: intelbras-vip-9445-sd-ia-ft
+part_number: VIP 9445 SD IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 13 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 9445 SD IA FT product page](https://backend.intelbras.com/sites/default/files/2023-03/Novo%20Datasheet%20-%20VIP%209445%20SD%20IA%20FT%20V2%20.pdf)

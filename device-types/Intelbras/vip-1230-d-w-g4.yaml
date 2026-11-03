@@ -1,0 +1,24 @@
+---
+manufacturer: Intelbras
+model: VIP 1230 D W G4
+slug: intelbras-vip-1230-d-w-g4
+part_number: VIP 1230 D W G4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 1230 D W G4 product page](https://backend.intelbras.com/sites/default/files/2024-11/Datasheet%20UNIFICADO%20-%20VIP%201230%20W%20D%20G4%20-%20V4.pdf)

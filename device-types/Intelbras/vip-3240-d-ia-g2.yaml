@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3240 D IA G2
+slug: intelbras-vip-3240-d-ia-g2
+part_number: VIP 3240 D IA G2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 516
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3240 D IA G2 product page](https://backend.intelbras.com/sites/default/files/2026-07/Datasheet%20-%20VIP%203240%20B-D-IA-G2_6.pdf)

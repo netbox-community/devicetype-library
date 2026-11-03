@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIP 7203 SD TM FT
+slug: intelbras-vip-7203-sd-tm-ft
+part_number: VIP 7203 SD TM FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Intelbras VIP 7203 SD TM FT product page](https://backend.intelbras.com/sites/default/files/2024-11/datasheet-vip-7203-sd-tm-ft-pt.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3500 F IA FT
+slug: intelbras-vip-3500-f-ia-ft
+part_number: VIP 3500 F IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 299
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3500 F IA FT product page](https://www.intelbras.com/pt-br/camera-fisheye-com-resolucao-de-5mp-vip-3500-f-ia-ft)

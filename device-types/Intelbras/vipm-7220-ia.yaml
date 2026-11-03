@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIPM 7220 IA
+slug: intelbras-vipm-7220-ia
+part_number: VIPM 7220 IA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 423
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIPM 7220 IA product page](https://backend.intelbras.com/sites/default/files/2025-10/datasheet-vipm-7220-ia-pt.pdf)

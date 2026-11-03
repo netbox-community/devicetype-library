@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3220 D FC IA
+slug: intelbras-vip-3220-d-fc-ia
+part_number: VIP 3220 D FC IA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 3220 D FC IA product page](https://backend.intelbras.com/sites/default/files/2024-02/Datasheet%20VIP%203220%20BD%20FC%20IA%20v4.pdf)

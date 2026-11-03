@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 5216 SD IA FT
+slug: intelbras-vip-5216-sd-ia-ft
+part_number: VIP 5216 SD IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 19 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 19
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 5216 SD IA FT product page](https://backend.intelbras.com/sites/default/files/2024-06/datasheet-vip-5216-sd-ia-ft-pt.pdf)

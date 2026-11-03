@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 9860 IA FT
+slug: intelbras-vip-9860-ia-ft
+part_number: VIP 9860 IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 19
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 9860 IA FT product page](https://backend.intelbras.com/sites/default/files/2022-05/datasheet-vip-9860-ia-ft%20-pt.pdf)
