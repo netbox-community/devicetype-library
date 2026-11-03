@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-EBD4700
+slug: geovision-gv-ebd4700
+part_number: GV-EBD4700
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [GeoVision GV-EBD4700 product page](https://dlcdn.geovision.com.tw/Manual/IPCAM/GV-IPCAM_Spec_table.pdf)
