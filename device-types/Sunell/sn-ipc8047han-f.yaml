@@ -1,0 +1,23 @@
+---
+manufacturer: Sunell
+model: SN-IPC8047HAN-F
+slug: sunell-sn-ipc8047han-f
+part_number: SN-IPC8047HAN-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Sunell SN-IPC8047HAN-F product page](https://www.sunellsecurity.com/resources/file/SN-IPC8047HAN-F_Datasheet_202607.pdf)

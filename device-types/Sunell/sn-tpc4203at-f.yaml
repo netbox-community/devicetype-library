@@ -1,0 +1,20 @@
+---
+manufacturer: Sunell
+model: SN-TPC4203AT-F
+slug: sunell-sn-tpc4203at-f
+part_number: SN-TPC4203AT-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Sunell SN-TPC4203AT-F product page](https://www.sunellsecurity.com/products/fixed-thermal-camera/sn-tpc4203at-f.shtml)

@@ -1,0 +1,23 @@
+---
+manufacturer: Sunell
+model: SN-TPC4203KT-F
+slug: sunell-sn-tpc4203kt-f
+part_number: SN-TPC4203KT-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Sunell SN-TPC4203KT-F product page](https://www.sunellsecurity.com/products/bullet-thermal-camera/sn-tpc4203kt-f.shtml)

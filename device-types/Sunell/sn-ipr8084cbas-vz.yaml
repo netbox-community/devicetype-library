@@ -1,0 +1,27 @@
+---
+manufacturer: Sunell
+model: SN-IPR8084CBAS-VZ
+slug: sunell-sn-ipr8084cbas-vz
+part_number: SN-IPR8084CBAS-VZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-IPR8084CBAS-VZ product page](https://www.sunellsecurity.com/products/ultra-low-light-ip-camera/sn-ipr8084caas-vz-smart-dual-light-ip-camera.shtml)

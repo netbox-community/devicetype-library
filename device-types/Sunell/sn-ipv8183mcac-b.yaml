@@ -1,0 +1,27 @@
+---
+manufacturer: Sunell
+model: SN-IPV8183MCAC-B
+slug: sunell-sn-ipv8183mcac-b
+part_number: SN-IPV8183MCAC-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-IPV8183MCAC-B product page](https://www.sunellsecurity.com/products/panoramic-ip-camera/sn-ipv8183mcac-b-8mp-180%C2%B0-panoramic-cameras.shtml)

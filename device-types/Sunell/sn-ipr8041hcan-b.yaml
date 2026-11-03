@@ -1,0 +1,23 @@
+---
+manufacturer: Sunell
+model: SN-IPR8041HCAN-B
+slug: sunell-sn-ipr8041hcan-b
+part_number: SN-IPR8041HCAN-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Sunell SN-IPR8041HCAN-B product page](https://www.sunellsecurity.com/products/ultra-low-light-ip-camera/4mp-sn-ipr8041hcan-b-turret-style-camera.shtml)

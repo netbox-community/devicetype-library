@@ -1,0 +1,24 @@
+---
+manufacturer: Sunell
+model: SN-PMD2043DN-Z40
+slug: sunell-sn-pmd2043dn-z40
+part_number: SN-PMD2043DN-Z40
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-PMD2043DN-Z40 product page](https://www.sunellsecurity.com/products/zoom-camera-module/sn-pmd2043dn-z40.shtml)

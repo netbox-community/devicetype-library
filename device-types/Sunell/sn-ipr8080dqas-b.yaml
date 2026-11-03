@@ -1,0 +1,23 @@
+---
+manufacturer: Sunell
+model: SN-IPR8080DQAS-B
+slug: sunell-sn-ipr8080dqas-b
+part_number: SN-IPR8080DQAS-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Sunell SN-IPR8080DQAS-B product page](https://www.sunellsecurity.com/products/pro-ip-camera/sn-ipr8080dqas-b.shtml)
