@@ -1,0 +1,26 @@
+---
+manufacturer: Pelco
+model: Sarix Enhanced IME129-1IS
+slug: pelco-sarix-enhanced-ime129-1is
+part_number: Sarix Enhanced IME129-1IS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1020
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Pelco Sarix Enhanced IME129-1IS product page](https://files.pelco.com/media/wp-content/uploads/2020/05/17181220/C4026_Sarix_IME_Series_Dome_9-22mm-lens_041319_rebrand.pdf)

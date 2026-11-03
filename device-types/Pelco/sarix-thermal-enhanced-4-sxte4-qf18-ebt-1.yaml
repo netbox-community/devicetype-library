@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: Sarix Thermal Enhanced 4 SXTE4-QF18-EBT-1
+slug: pelco-sarix-thermal-enhanced-4-sxte4-qf18-ebt-1
+part_number: Sarix Thermal Enhanced 4 SXTE4-QF18-EBT-1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Pelco Sarix Thermal Enhanced 4 SXTE4-QF18-EBT-1 product page](https://www.pelco.com/fs/documents/pelco-sarix-thermal-enhanced-4-specification-sheet-en-4926.pdf)

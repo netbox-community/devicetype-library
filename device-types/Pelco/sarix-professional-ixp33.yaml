@@ -1,0 +1,26 @@
+---
+manufacturer: Pelco
+model: Sarix Professional IXP33
+slug: pelco-sarix-professional-ixp33
+part_number: Sarix Professional IXP33
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco Sarix Professional IXP33 product page](https://files.pelco.com/media/2022/07/22/C4068_Sarix%20Pro%203_IXP_Box_Spec_110321.pdf)

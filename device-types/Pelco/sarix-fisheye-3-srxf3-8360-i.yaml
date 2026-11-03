@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: Sarix Fisheye 3 SRXF3-8360-I
+slug: pelco-sarix-fisheye-3-srxf3-8360-i
+part_number: Sarix Fisheye 3 SRXF3-8360-I
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 907
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Pelco Sarix Fisheye 3 SRXF3-8360-I product page](https://www.pelco.com/fs/documents/pelco-sarix-fisheye-3-specification-sheet-en-111225.pdf)

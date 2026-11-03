@@ -1,0 +1,22 @@
+---
+manufacturer: Pelco
+model: Sarix IMP In-Ceiling IMP1110-1ERI
+slug: pelco-sarix-imp-in-ceiling-imp1110-1eri
+part_number: Sarix IMP In-Ceiling IMP1110-1ERI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 860
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Pelco Sarix IMP In-Ceiling IMP1110-1ERI product page](https://files.pelco.com/media/wp-content/uploads/2020/07/14123104/C3952-Sarix-IMP-Series-Environmental-Mini-Domes-with-IR-Specification-Sheet.pdf)

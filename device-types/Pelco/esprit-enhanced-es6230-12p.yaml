@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: Esprit Enhanced ES6230-12P
+slug: pelco-esprit-enhanced-es6230-12p
+part_number: Esprit Enhanced ES6230-12P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 13560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: PoE Class 8, max 72 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 72
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco Esprit Enhanced ES6230-12P product page](https://www.pelco.com/fs/documents/C4046_EspritHD_Series_IP_PosSys_011823.pdf)

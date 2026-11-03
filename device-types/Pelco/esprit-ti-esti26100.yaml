@@ -1,0 +1,20 @@
+---
+manufacturer: Pelco
+model: Esprit TI ESTI26100
+slug: pelco-esprit-ti-esti26100
+part_number: Esprit TI ESTI26100
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 24V DC
+comments: >
+  [Pelco Esprit TI ESTI26100 product page](https://files.pelco.com/media/wp-content/uploads/2020/08/04131209/C4097S_Thermal-PTZ_Spec_080420.pdf)

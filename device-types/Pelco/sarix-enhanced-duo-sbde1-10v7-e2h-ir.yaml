@@ -1,0 +1,20 @@
+---
+manufacturer: Pelco
+model: Sarix Enhanced Duo SBDE1-10V7-E2H-IR
+slug: pelco-sarix-enhanced-duo-sbde1-10v7-e2h-ir
+part_number: Sarix Enhanced Duo SBDE1-10V7-E2H-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Pelco Sarix Enhanced Duo SBDE1-10V7-E2H-IR product page](https://www.pelco.com/fs/documents/pelco-sarix-enhanced-duo-specification-sheet-en-070226.pdf)

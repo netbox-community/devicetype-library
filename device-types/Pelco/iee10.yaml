@@ -1,0 +1,15 @@
+---
+manufacturer: Pelco
+model: IEE10
+slug: pelco-iee10
+part_number: IEE10
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [Pelco IEE10 product page](https://www.pelco.com)

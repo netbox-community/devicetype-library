@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: ExSite Enhanced 2 Compact EXC266204T
+slug: pelco-exsite-enhanced-2-compact-exc266204t
+part_number: ExSite Enhanced 2 Compact EXC266204T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco ExSite Enhanced 2 Compact EXC266204T product page](https://www.pelco.com/fs/documents/pelco-exsite-enhanced-compact-2-specification-sheet.en.pdf)
