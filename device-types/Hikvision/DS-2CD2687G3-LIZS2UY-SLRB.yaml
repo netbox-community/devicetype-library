@@ -1,0 +1,27 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2687G3-LIZS2UY/SLRB
+slug: hikvision-ds-2cd2687g3-lizs2uy-slrb
+part_number: DS-2CD2687G3-LIZS2UY/SLRB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1555
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2687G3-LIZS2UY/SLRB product page](https://assets.hikvision.com/prd/public/all/doc/sm000077886/DS-2CD2687G3-LIZS2UY_SLRB_Datasheet_20250620.pdf)

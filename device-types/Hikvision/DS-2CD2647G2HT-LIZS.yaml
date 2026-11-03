@@ -1,0 +1,27 @@
+---
+manufacturer: Hikvision
+model: DS-2CD2647G2HT-LIZS
+slug: hikvision-ds-2cd2647g2ht-lizs
+part_number: DS-2CD2647G2HT-LIZS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1085
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hikvision DS-2CD2647G2HT-LIZS product page](https://assets.hikvision.com/prd/normal/all/doc/sm000058448/DS-2CD2647G2HT-LIZS_Datasheet_20230720.pdf)
