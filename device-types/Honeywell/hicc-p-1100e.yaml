@@ -1,0 +1,20 @@
+---
+manufacturer: Honeywell
+model: HICC-P-1100E
+slug: honeywell-hicc-p-1100e
+part_number: HICC-P-1100E
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Honeywell HICC-P-1100E product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-hvs-hiccp1100e-ru-ds-m.pdf)

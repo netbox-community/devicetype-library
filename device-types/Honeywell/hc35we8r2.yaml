@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC35WE8R2
+slug: honeywell-hc35we8r2
+part_number: HC35WE8R2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Honeywell HC35WE8R2 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/security-de/HBT-SEC-35S-HC35WExR2-DS-US-EN.pdf)

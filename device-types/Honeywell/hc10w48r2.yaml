@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC10W48R2
+slug: honeywell-hc10w48r2
+part_number: HC10W48R2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 860
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Honeywell HC10W48R2 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-sec-10s-hc10w48r2-ds-me-en-10-2025.pdf)

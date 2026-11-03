@@ -1,0 +1,22 @@
+---
+manufacturer: Honeywell
+model: HDZ22HD
+slug: honeywell-hdz22hd
+part_number: HDZ22HD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Honeywell HDZ22HD product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-hvs-hdz22-uk-ds-e.pdf)

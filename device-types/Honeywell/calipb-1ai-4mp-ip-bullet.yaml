@@ -1,0 +1,23 @@
+---
+manufacturer: Honeywell
+model: CALIPB-1AI 4MP IP Bullet
+slug: honeywell-calipb-1ai-4mp-ip-bullet
+part_number: CALIPB-1AI 4MP IP Bullet
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Honeywell CALIPB-1AI 4MP IP Bullet product page](https://www.honeywell.com/en-us/company/india)

@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC70WZ5I30
+slug: honeywell-hc70wz5i30
+part_number: HC70WZ5I30
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Honeywell HC70WZ5I30 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/HBT-SEC-70SeriesAI-Camera-HC70WZ5I30-DS-US-EN.pdf)

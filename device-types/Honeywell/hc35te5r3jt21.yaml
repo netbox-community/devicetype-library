@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC35TE5R3JT21
+slug: honeywell-hc35te5r3jt21
+part_number: HC35TE5R3JT21
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 960
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Honeywell HC35TE5R3JT21 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-security-35s-hc35te5rxjtxx-ds-us-en-03-2025-v01.pdf)

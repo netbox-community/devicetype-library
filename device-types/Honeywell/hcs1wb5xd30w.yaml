@@ -1,0 +1,23 @@
+---
+manufacturer: Honeywell
+model: HCS1WB5XD30W
+slug: honeywell-hcs1wb5xd30w
+part_number: HCS1WB5XD30W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 17500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 36 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 36
+    description: 24V DC
+comments: >
+  [Honeywell HCS1WB5XD30W product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-sec-hcs1wb5xd30wxxx-ds-uk-meta-11-2025-v02-20251110.pdf)

@@ -1,0 +1,23 @@
+---
+manufacturer: Honeywell
+model: HICC-2300T
+slug: honeywell-hicc-2300t
+part_number: HICC-2300T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Honeywell HICC-2300T product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hon-ba-hvs-hicc2300-t-ru-ds-z.pdf)

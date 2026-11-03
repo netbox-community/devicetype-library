@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HP2B1
+slug: honeywell-hp2b1
+part_number: HP2B1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 390
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Honeywell HP2B1 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/hbt-security-hp2b1-datasheet.pdf)
