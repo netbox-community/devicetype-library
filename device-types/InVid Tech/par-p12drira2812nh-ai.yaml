@@ -1,0 +1,27 @@
+---
+manufacturer: InVid Tech
+model: PAR-P12DRIRA2812NH-AI
+slug: invid-tech-par-p12drira2812nh-ai
+part_number: PAR-P12DRIRA2812NH-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 930
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [InVid Tech PAR-P12DRIRA2812NH-AI product page](https://info.invidtech.com/hubfs/AAA_SpecSheets/Paramont/IP/P12/PAR-P12DRIRA2812NH-AI.pdf)

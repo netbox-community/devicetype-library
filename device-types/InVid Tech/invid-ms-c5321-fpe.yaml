@@ -1,0 +1,27 @@
+---
+manufacturer: InVid Tech
+model: INVID-MS-C5321-FPE
+slug: invid-tech-invid-ms-c5321-fpe
+part_number: INVID-MS-C5321-FPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 26.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [InVid Tech INVID-MS-C5321-FPE product page](https://info.invidtech.com/hubfs/AAA_SpecSheets/Milesight/INVID-MS-C5321-FPE.pdf)

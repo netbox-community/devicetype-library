@@ -1,0 +1,27 @@
+---
+manufacturer: InVid Tech
+model: INVID-TS5366-X12PE
+slug: invid-tech-invid-ts5366-x12pe
+part_number: INVID-TS5366-X12PE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1623
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [InVid Tech INVID-TS5366-X12PE product page](https://info.invidtech.com/hubfs/AAA_SpecSheets/Milesight/INVID-TS5366-X12PE.pdf)

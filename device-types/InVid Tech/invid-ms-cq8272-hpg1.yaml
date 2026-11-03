@@ -1,0 +1,27 @@
+---
+manufacturer: InVid Tech
+model: INVID-MS-CQ8272-HPG1
+slug: invid-tech-invid-ms-cq8272-hpg1
+part_number: INVID-MS-CQ8272-HPG1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [InVid Tech INVID-MS-CQ8272-HPG1 product page](https://info.invidtech.com/hubfs/AAA_SpecSheets/Milesight/INVID-MS-CQ8272-HPG1.pdf)
