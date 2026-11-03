@@ -1,0 +1,49 @@
+---
+manufacturer: ASRockRack
+model: 1U4LW-X570 RPSU
+slug: asrockrack-1u4lw-x570-rpsu
+part_number: 1U4LW-X570 RPSU
+comments: |
+  1U rackmount server with ASRock Rack X570D4U motherboard, 4 front hot-swap 3.5" SATA drive bays, 3 internal fixed 2.5" SATA drive bays, 1 PCIe 4.0 x16 FHHL slot via riser, 2x 450W redundant hot-swap power supplies
+  [ASRock Rack 1U4LW-X570 RPSU](https://www.asrockrack.com/general/productdetail.asp?Model=1U4LW-X570%20RPSU)
+
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+
+subdevice_role: parent
+
+module-bays:
+  - name: Power 1
+    position: '1'
+    description: 450W hot-swap power supply
+  - name: Power 2
+    position: '2'
+    description: 450W hot-swap power supply
+  - name: Drive Bay 1
+    position: '3'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Drive Bay 2
+    position: '4'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Drive Bay 3
+    position: '5'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Drive Bay 4
+    position: '6'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Internal Drive Bay 1
+    position: '7'
+    description: 2.5" SATA internal fixed drive bay
+  - name: Internal Drive Bay 2
+    position: '8'
+    description: 2.5" SATA internal fixed drive bay
+  - name: Internal Drive Bay 3
+    position: '9'
+    description: 2.5" SATA internal fixed drive bay
+
+device-bays:
+  - name: Motherboard
+    description: ASRock Rack X570D4U

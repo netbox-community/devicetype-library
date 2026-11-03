@@ -1,0 +1,54 @@
+---
+manufacturer: ASRockRack
+model: X570D4I-2T
+slug: asrockrack-x570d4i-2t
+part_number: X570D4I-2T
+comments: |
+  AMD X570 mini-ITX server motherboard for AMD Ryzen 3rd generation processors (Socket AM4), 4 DDR4 ECC SO-DIMM slots, 1 M.2, 2 OCuLink, dual Intel X550-AT2 10GbE and ASPEED AST2500 BMC
+  [ASRock Rack X570D4I-2T](https://www.asrockrack.com/general/productdetail.asp?Model=X570D4I-2T)
+
+u_height: 0
+is_full_depth: false
+airflow: passive
+
+# Should be inside of a case
+subdevice_role: child
+
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port (Realtek RTL8211E)
+  - name: LAN1
+    type: 10gbase-t
+    description: Intel X550-AT2, supports NCSI
+  - name: LAN2
+    type: 10gbase-t
+    description: Intel X550-AT2
+
+module-bays:
+  - name: CPU
+    position: '1'
+    description: AMD AM4 Socket (PGA1331)
+
+  # DIMM modeled as newer module-bay instead of inventory item
+  - name: DDR4_A1
+    position: '2'
+    description: DDR4 SO-DIMM slot
+  - name: DDR4_A2
+    position: '3'
+    description: DDR4 SO-DIMM slot
+  - name: DDR4_B1
+    position: '4'
+    description: DDR4 SO-DIMM slot
+  - name: DDR4_B2
+    position: '5'
+    description: DDR4 SO-DIMM slot
+
+  - name: PCIE7
+    position: '6'
+    description: PCIe 4.0 x16
+
+  - name: M2_1
+    position: '7'
+    description: SATA3 or PCIe 4.0 x4 (M-key 2280)
