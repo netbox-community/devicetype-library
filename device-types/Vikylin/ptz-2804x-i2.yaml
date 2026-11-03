@@ -1,0 +1,21 @@
+---
+manufacturer: Vikylin
+model: PTZ-2804X-I2
+slug: vikylin-ptz-2804x-i2
+part_number: PTZ-2804X-I2
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Vikylin PTZ-2804X-I2 product page](https://vikylin.com/wp-content/uploads/2023/11/PTZ-2804X-I2-Specification.pdf)

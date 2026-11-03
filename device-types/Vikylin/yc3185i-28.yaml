@@ -1,0 +1,25 @@
+---
+manufacturer: Vikylin
+model: YC3185I-28
+slug: vikylin-yc3185i-28
+part_number: YC3185I-28
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vikylin YC3185I-28 product page](https://vikylin.com/wp-content/uploads/2023/11/YC3185I-28-Specification.pdf)
