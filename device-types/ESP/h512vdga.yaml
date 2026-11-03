@@ -1,0 +1,26 @@
+---
+manufacturer: ESP
+model: H512VDGA
+slug: esp-h512vdga
+part_number: H512VDGA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [ESP H512VDGA product page](https://espuk.com/product/H512VDGA)
