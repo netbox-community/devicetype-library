@@ -1,0 +1,27 @@
+---
+manufacturer: IMOU
+model: Cruiser Pano Z 13MP
+slug: imou-cruiser-pano-z-13mp
+part_number: Cruiser Pano Z 13MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 698
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [IMOU Cruiser Pano Z 13MP product page](https://www.imou.com/en/product/detail/cruiser-pano-z)

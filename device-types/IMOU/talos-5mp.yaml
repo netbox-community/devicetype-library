@@ -1,0 +1,24 @@
+---
+manufacturer: IMOU
+model: Talos 5MP
+slug: imou-talos-5mp
+part_number: Talos 5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 375
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU Talos 5MP product page](https://www.imou.com/en/product/specs/talos)
