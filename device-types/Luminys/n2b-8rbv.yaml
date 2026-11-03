@@ -1,0 +1,27 @@
+---
+manufacturer: Luminys
+model: N2B-8RBV
+slug: luminys-n2b-8rbv
+part_number: N2B-8RBV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [Luminys N2B-8RBV product page](https://www.luminyscorp.com/products/N2B-8RBV)
