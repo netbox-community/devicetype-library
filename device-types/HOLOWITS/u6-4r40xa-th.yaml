@@ -1,0 +1,23 @@
+---
+manufacturer: HOLOWITS
+model: U6-4R(40x)A-Th
+slug: holowits-u6-4r40xa-th
+part_number: U6-4R(40x)A-Th
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+    description: 36V DC
+comments: >
+  [HOLOWITS U6-4R(40x)A-Th product page](https://resources.holowits.com.sg/material/HOLOWITS%20U6-4R%2840x%29A-Th%20Datasheet_2.0.pdf)

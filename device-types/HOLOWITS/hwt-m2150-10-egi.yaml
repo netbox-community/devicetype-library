@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: HWT-M2150-10-EGI
+slug: holowits-hwt-m2150-10-egi
+part_number: HWT-M2150-10-EGI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-M2150-10-EGI product page](https://resources.holowits.com/material/%5BDatasheet%5DHOLOWITS%20HWT-M2150-10-EGI%20Datasheet%20V1.0.pdf)

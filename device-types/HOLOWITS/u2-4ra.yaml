@@ -1,0 +1,24 @@
+---
+manufacturer: HOLOWITS
+model: U2-4RA
+slug: holowits-u2-4ra
+part_number: U2-4RA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 190
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: USB IN
+    type: usb-micro-b
+    maximum_draw: 4
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS U2-4RA product page](https://resources.holowits.com/material/HOLOWITS%20U2-4RA%20Datasheet.pdf)

@@ -1,0 +1,20 @@
+---
+manufacturer: HOLOWITS
+model: HWT-M6641-10-Z32-Wp-S
+slug: holowits-hwt-m6641-10-z32-wp-s
+part_number: HWT-M6641-10-Z32-Wp-S
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 22.7 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-M6641-10-Z32-Wp-S product page](https://resources.holowits.com/material/%5BDatasheet%5DHOLOWITS%20HWT-M6641-10-Z32-Wp-S%20Datasheet-V2.0.pdf)

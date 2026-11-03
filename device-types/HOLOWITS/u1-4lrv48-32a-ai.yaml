@@ -1,0 +1,22 @@
+---
+manufacturer: HOLOWITS
+model: U1-4LRV(4)(8-32)A AI
+slug: holowits-u1-4lrv48-32a-ai
+part_number: U1-4LRV(4)(8-32)A AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 27.8 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS U1-4LRV(4)(8-32)A AI product page](https://resources.holowits.com/material/HOLOWITS%20U1-4LRV%284%29%288-32%29A%20AI%20Datasheet%20V2.0.pdf)

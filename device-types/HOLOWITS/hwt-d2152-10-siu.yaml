@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: HWT-D2152-10-SIU
+slug: holowits-hwt-d2152-10-siu
+part_number: HWT-D2152-10-SIU
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-D2152-10-SIU product page](https://resources.holowits.com/material/HOLOWITS%20HWT-D2152-10-SIU%20Datasheet%20V2.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: HWT-D2150-10-LI-SV
+slug: holowits-hwt-d2150-10-li-sv
+part_number: HWT-D2150-10-LI-SV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-D2150-10-LI-SV product page](https://resources.holowits.com/material/HOLOWITS%20HWT-D2150-10-LI-SV%20Datasheet%20v5.pdf)

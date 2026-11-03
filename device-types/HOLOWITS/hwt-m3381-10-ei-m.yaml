@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: HWT-M3381-10-EI-M
+slug: holowits-hwt-m3381-10-ei-m
+part_number: HWT-M3381-10-EI-M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS HWT-M3381-10-EI-M product page](https://resources.holowits.com/material/HOLOWITS%20HWT-M3381-10-EI-M%20Datasheet.pdf)

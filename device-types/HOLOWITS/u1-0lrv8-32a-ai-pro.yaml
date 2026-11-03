@@ -1,0 +1,27 @@
+---
+manufacturer: HOLOWITS
+model: U1-0LRV(8-32)A AI Pro
+slug: holowits-u1-0lrv8-32a-ai-pro
+part_number: U1-0LRV(8-32)A AI Pro
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 14.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [HOLOWITS U1-0LRV(8-32)A AI Pro product page](https://resources.holowits.com/material/HOLOWITS%20U1-0LRV%288-32%29A%20AI%20Pro%20Datasheet%20-%20v1.2.pdf)
