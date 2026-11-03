@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HFW4431T-ASE
+slug: dahua-ipc-hfw4431t-ase
+part_number: IPC-HFW4431T-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 815
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua IPC-HFW4431T-ASE product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hfw4431t-ase)

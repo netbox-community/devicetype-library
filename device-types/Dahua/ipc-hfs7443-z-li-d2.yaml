@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HFS7443-Z-LI-D2
+slug: dahua-ipc-hfs7443-z-li-d2
+part_number: IPC-HFS7443-Z-LI-D2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4040
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 26.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 27
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFS7443-Z-LI-D2 product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hfs7443-z-li-d2)

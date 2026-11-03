@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW7842H-Z
+slug: dahua-ipc-hdbw7842h-z
+part_number: IPC-HDBW7842H-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDBW7842H-Z product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hdbw7842h-z)

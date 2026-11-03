@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: ITC431-RW4F
+slug: dahua-itc431-rw4f
+part_number: ITC431-RW4F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1724
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua ITC431-RW4F product page](https://www.dahuasecurity.com/products/intelligent-traffic/intelligent-traffic-products/spotter-series/spotter-nano/itc431-rw4f)

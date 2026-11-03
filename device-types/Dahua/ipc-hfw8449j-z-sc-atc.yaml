@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HFW8449J-Z-SC-ATC
+slug: dahua-ipc-hfw8449j-z-sc-atc
+part_number: IPC-HFW8449J-Z-SC-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3910
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua IPC-HFW8449J-Z-SC-ATC product page](https://materialfile.dahuasecurity.com/uploads/cpq/88338/datasheet/DH-IPC-HFW8449J-Z-SC-ATC_S0_datasheet_20260910_English.pdf)

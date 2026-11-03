@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: DH-SDT7425-4P-AD3E-PV-i
+slug: dahua-dh-sdt7425-4p-ad3e-pv-i
+part_number: DH-SDT7425-4P-AD3E-PV-i
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 35
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

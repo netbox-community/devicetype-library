@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: HY-SAV849HA-ET
+slug: dahua-hy-sav849ha-et
+part_number: HY-SAV849HA-ET
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua HY-SAV849HA-ET product page](https://www.dahuasecurity.com/products/fire-alarm/fire-safety-cameras/smoke-sensing-cameras/hy-sav849ha-et)

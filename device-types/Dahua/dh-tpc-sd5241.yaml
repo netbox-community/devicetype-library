@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: DH-TPC-SD5241
+slug: dahua-dh-tpc-sd5241
+part_number: DH-TPC-SD5241
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 48
+    description: 36V DC
+comments: >
+  [Dahua DH-TPC-SD5241 product page](https://www.dahuatech.com/product/info/10973.html)

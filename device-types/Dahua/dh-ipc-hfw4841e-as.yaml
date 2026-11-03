@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HFW4841E-AS
+slug: dahua-dh-ipc-hfw4841e-as
+part_number: DH-IPC-HFW4841E-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua DH-IPC-HFW4841E-AS product page](https://materialfile.dahuasecurity.com/uploads/cpq/88316/datasheet/DH-IPC-HFW4841E-AS_S0_datasheet_20250324.pdf)

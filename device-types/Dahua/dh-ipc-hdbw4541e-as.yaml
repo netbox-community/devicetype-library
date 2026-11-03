@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDBW4541E-AS
+slug: dahua-dh-ipc-hdbw4541e-as
+part_number: DH-IPC-HDBW4541E-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 516
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Dahua DH-IPC-HDBW4541E-AS product page](https://materialfile.dahuasecurity.com/uploads/cpq/88229/datasheet/DH-IPC-HDBW4541E-AS_S0_datasheet_20250324.pdf)
