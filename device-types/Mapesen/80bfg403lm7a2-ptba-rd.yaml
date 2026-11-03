@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: 80BFG403LM7A2-PTBA-RD
+slug: mapesen-80bfg403lm7a2-ptba-rd
+part_number: 80BFG403LM7A2-PTBA-RD
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen 80BFG403LM7A2-PTBA-RD product page](https://www.mapesen.com/road-monitoring-cameras/80bfg403lm7a2-ptba-rd.html)

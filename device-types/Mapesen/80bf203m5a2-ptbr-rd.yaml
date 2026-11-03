@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: 80BF203M5A2-PTBR-RD
+slug: mapesen-80bf203m5a2-ptbr-rd
+part_number: 80BF203M5A2-PTBR-RD
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen 80BF203M5A2-PTBR-RD product page](https://www.mapesen.com/road-monitoring-cameras/80bf203m-series.html)

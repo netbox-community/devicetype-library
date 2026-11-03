@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: 80BQ60WSFA2-PT
+slug: mapesen-80bq60wsfa2-pt
+part_number: 80BQ60WSFA2-PT
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen 80BQ60WSFA2-PT product page](https://www.mapesen.com/active-deterrence400/80b-pro-series.html)

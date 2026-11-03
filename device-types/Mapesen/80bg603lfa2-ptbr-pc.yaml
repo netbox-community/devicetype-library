@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: 80BG603LFA2-PTBR-PC
+slug: mapesen-80bg603lfa2-ptbr-pc
+part_number: 80BG603LFA2-PTBR-PC
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Mapesen 80BG603LFA2-PTBR-PC product page](https://www.mapesen.com/web/userfiles/productfile/gengxin/PeopleCounting-80BG603LFA2-PTBR-PCspecification-mapesenV.I01.pdf)
