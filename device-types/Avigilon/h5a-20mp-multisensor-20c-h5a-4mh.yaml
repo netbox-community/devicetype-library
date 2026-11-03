@@ -1,0 +1,21 @@
+---
+manufacturer: Avigilon
+model: H5A 20MP Multisensor (20C-H5A-4MH)
+slug: avigilon-h5a-20mp-multisensor-20c-h5a-4mh
+part_number: H5A 20MP Multisensor (20C-H5A-4MH)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 24V DC
+comments: >
+  [Avigilon H5A 20MP Multisensor (20C-H5A-4MH) product page](https://docs.avigilon.com/bundle/h5a-multi-camera-datasheet/resource/h5a-multi-camera-datasheet.pdf)

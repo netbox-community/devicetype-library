@@ -1,0 +1,21 @@
+---
+manufacturer: Avigilon
+model: H4 6MP Fisheye Dome (6.0L-H4F-DO1-IR)
+slug: avigilon-h4-6mp-fisheye-dome-6-0l-h4f-do1-ir
+part_number: H4 6MP Fisheye Dome (6.0L-H4F-DO1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+comments: >
+  [Avigilon H4 6MP Fisheye Dome (6.0L-H4F-DO1-IR) product page](https://assets.avigilon.com/file_library/pdf/h4-fisheye/avigilon-h4f-do-datasheet-en-rev9.pdf)

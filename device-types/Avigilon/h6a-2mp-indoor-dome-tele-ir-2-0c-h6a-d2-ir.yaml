@@ -1,0 +1,26 @@
+---
+manufacturer: Avigilon
+model: H6A 2MP Indoor Dome Tele IR (2.0C-H6A-D2-IR)
+slug: avigilon-h6a-2mp-indoor-dome-tele-ir-2-0c-h6a-d2-ir
+part_number: H6A 2MP Indoor Dome Tele IR (2.0C-H6A-D2-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6A 2MP Indoor Dome Tele IR (2.0C-H6A-D2-IR) product page](https://docs.avigilon.com/bundle/h6-a-dome-camera-datasheet/resource/h6-a-dome-camera-datasheet.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Avigilon
+model: H6X 4.0MP Box (4.0C-H6X-B)
+slug: avigilon-h6x-4-0mp-box-4-0c-h6x-b
+part_number: H6X 4.0MP Box (4.0C-H6X-B)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6X 4.0MP Box (4.0C-H6X-B) product page](https://docs.avigilon.com/bundle/h6x-box-camera-datasheet/resource/h6x-box-camera-datasheet.pdf)

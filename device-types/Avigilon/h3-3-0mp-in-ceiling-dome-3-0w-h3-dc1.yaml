@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H3 3.0MP In-Ceiling Dome (3.0W-H3-DC1)
+slug: avigilon-h3-3-0mp-in-ceiling-dome-3-0w-h3-dc1
+part_number: H3 3.0MP In-Ceiling Dome (3.0W-H3-DC1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Avigilon H3 3.0MP In-Ceiling Dome (3.0W-H3-DC1) product page](https://assets.avigilon.com/file_library/pdf/h3-dome/avigilon-h264-hd-indoor-dome-camera-datasheet-en-rev3.pdf)

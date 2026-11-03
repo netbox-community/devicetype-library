@@ -1,0 +1,18 @@
+---
+manufacturer: Avigilon
+model: H4A 3MP Box (3.0C-H4A-B1)
+slug: avigilon-h4a-3mp-box-3-0c-h4a-b1
+part_number: H4A 3MP Box (3.0C-H4A-B1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Avigilon H4A 3MP Box (3.0C-H4A-B1) product page](https://assets.avigilon.com/file_library/pdf/h4-box/avigilon-h4a-b-b-datasheet-en-rev9.pdf)

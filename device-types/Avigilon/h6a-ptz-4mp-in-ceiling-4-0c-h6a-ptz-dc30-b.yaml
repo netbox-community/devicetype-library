@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H6A PTZ 4MP In-Ceiling (4.0C-H6A-PTZ-DC30-B)
+slug: avigilon-h6a-ptz-4mp-in-ceiling-4-0c-h6a-ptz-dc30-b
+part_number: H6A PTZ 4MP In-Ceiling (4.0C-H6A-PTZ-DC30-B)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Avigilon H6A PTZ 4MP In-Ceiling (4.0C-H6A-PTZ-DC30-B) product page](https://docs.avigilon.com/bundle/h6-a-ptz-camera-datasheet/resource/h6-a-ptz-camera-datasheet.pdf)

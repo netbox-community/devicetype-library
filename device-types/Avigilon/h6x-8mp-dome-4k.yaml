@@ -1,0 +1,26 @@
+---
+manufacturer: Avigilon
+model: H6X 8MP Dome (4K)
+slug: avigilon-h6x-8mp-dome-4k
+part_number: H6X 8MP Dome (4K)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6X 8MP Dome (4K) product page](https://docs.avigilon.com/bundle/h6-a-dome-camera-datasheet/resource/h6-a-dome-camera-datasheet.pdf)

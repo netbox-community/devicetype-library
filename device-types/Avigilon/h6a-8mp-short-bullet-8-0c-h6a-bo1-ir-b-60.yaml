@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H6A 8MP Short Bullet (8.0C-H6A-BO1-IR-B-60)
+slug: avigilon-h6a-8mp-short-bullet-8-0c-h6a-bo1-ir-b-60
+part_number: H6A 8MP Short Bullet (8.0C-H6A-BO1-IR-B-60)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Avigilon H6A 8MP Short Bullet (8.0C-H6A-BO1-IR-B-60) product page](https://docs.avigilon.com/bundle/alta-h6a-bullet-camera/resource/alta-h6a-bullet-camera.pdf)

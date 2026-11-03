@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4 Thermal QVGA Bullet 9.1mm (320S-H4A-THC-BO24)
+slug: avigilon-h4-thermal-qvga-bullet-9-1mm-320s-h4a-thc-bo24
+part_number: H4 Thermal QVGA Bullet 9.1mm (320S-H4A-THC-BO24)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Avigilon H4 Thermal QVGA Bullet 9.1mm (320S-H4A-THC-BO24) product page](https://www.avigilon.com/fs/documents/avigilon-h4-thermal-datasheet-en.pdf)

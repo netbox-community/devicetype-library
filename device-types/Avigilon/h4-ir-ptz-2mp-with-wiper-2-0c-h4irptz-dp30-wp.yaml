@@ -1,0 +1,21 @@
+---
+manufacturer: Avigilon
+model: H4 IR PTZ 2MP with Wiper (2.0C-H4IRPTZ-DP30-WP)
+slug: avigilon-h4-ir-ptz-2mp-with-wiper-2-0c-h4irptz-dp30-wp
+part_number: H4 IR PTZ 2MP with Wiper (2.0C-H4IRPTZ-DP30-WP)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 75 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 75
+    description: 24V DC
+comments: >
+  [Avigilon H4 IR PTZ 2MP with Wiper (2.0C-H4IRPTZ-DP30-WP) product page](https://assets.avigilon.com/file_library/pdf/h4-ir-ptz/avigilon-h4-ir-ptz-datasheet-en-rev9.pdf)

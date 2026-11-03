@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4 ES 1.0MP Pendant Dome (1.0C-H4A-12G-DP1-IR)
+slug: avigilon-h4-es-1-0mp-pendant-dome-1-0c-h4a-12g-dp1-ir
+part_number: H4 ES 1.0MP Pendant Dome (1.0C-H4A-12G-DP1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Avigilon H4 ES 1.0MP Pendant Dome (1.0C-H4A-12G-DP1-IR) product page](https://assets.avigilon.com/file_library/pdf/h4-es/avigilon-h4a-dodp-ssd-b-datasheet-en-rev5.pdf)

@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H5A 5MP Corner Cold Rolled Steel (5.0C-H5A-CR1-IR)
+slug: avigilon-h5a-5mp-corner-cold-rolled-steel-5-0c-h5a-cr1-ir
+part_number: H5A 5MP Corner Cold Rolled Steel (5.0C-H5A-CR1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Avigilon H5A 5MP Corner Cold Rolled Steel (5.0C-H5A-CR1-IR) product page](https://docs.avigilon.com/bundle/h5-a-corner-camera-datasheet/resource/h5-a-corner-camera-datasheet.pdf)

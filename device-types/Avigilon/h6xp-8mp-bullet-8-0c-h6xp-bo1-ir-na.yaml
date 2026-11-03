@@ -1,0 +1,27 @@
+---
+manufacturer: Avigilon
+model: H6XP 8MP Bullet (8.0C-H6XP-BO1-IR-NA)
+slug: avigilon-h6xp-8mp-bullet-8-0c-h6xp-bo1-ir-na
+part_number: H6XP 8MP Bullet (8.0C-H6XP-BO1-IR-NA)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6XP 8MP Bullet (8.0C-H6XP-BO1-IR-NA) product page](https://www.avigilon.com/fs/documents/avigilon-h6xp-bullet-camera-datasheet-en-022626.pdf)

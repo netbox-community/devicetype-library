@@ -1,0 +1,20 @@
+---
+manufacturer: Avigilon
+model: H6A 10MP Dual Head Dome (10.0C-H6ADH-DO1-IR)
+slug: avigilon-h6a-10mp-dual-head-dome-10-0c-h6adh-do1-ir
+part_number: H6A 10MP Dual Head Dome (10.0C-H6ADH-DO1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6A 10MP Dual Head Dome (10.0C-H6ADH-DO1-IR) product page](https://docs.avigilon.com/bundle/avigilon-h6a-dual-head-camera-datasheet-en/resource/avigilon-h6a-dual-head-camera-datasheet-en.pdf)

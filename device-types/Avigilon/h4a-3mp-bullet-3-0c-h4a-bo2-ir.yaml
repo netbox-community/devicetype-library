@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4A 3MP Bullet (3.0C-H4A-BO2-IR)
+slug: avigilon-h4a-3mp-bullet-3-0c-h4a-bo2-ir
+part_number: H4A 3MP Bullet (3.0C-H4A-BO2-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1710
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Avigilon H4A 3MP Bullet (3.0C-H4A-BO2-IR) product page](https://assets.avigilon.com/file_library/pdf/h4-bullet/avigilon-h4a-bo-b-datasheet-en-rev10.pdf)

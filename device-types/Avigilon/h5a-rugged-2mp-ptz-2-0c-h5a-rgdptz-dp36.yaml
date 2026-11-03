@@ -1,0 +1,19 @@
+---
+manufacturer: Avigilon
+model: H5A Rugged 2MP PTZ (2.0C-H5A-RGDPTZ-DP36)
+slug: avigilon-h5a-rugged-2mp-ptz-2-0c-h5a-rgdptz-dp36
+part_number: H5A Rugged 2MP PTZ (2.0C-H5A-RGDPTZ-DP36)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+comments: >
+  [Avigilon H5A Rugged 2MP PTZ (2.0C-H5A-RGDPTZ-DP36) product page](https://docs.avigilon.com/bundle/h5-a-rugged-ptz-camera-datasheet/resource/h5-a-rugged-ptz-camera-datasheet.pdf)
