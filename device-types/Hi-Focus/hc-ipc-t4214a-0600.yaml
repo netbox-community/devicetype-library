@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-T4214A-0600
+slug: hi-focus-hc-ipc-t4214a-0600
+part_number: HC-IPC-T4214A-0600
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hi-Focus HC-IPC-T4214A-0600 product page](https://hifocuscctv.com/categories/discontinued/ip-cameras/4mp-ip-bullet-camera-hc-ipc-t4214a-0600)

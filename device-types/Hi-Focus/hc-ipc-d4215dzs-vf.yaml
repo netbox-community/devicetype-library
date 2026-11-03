@@ -1,0 +1,25 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-D4215DZS-VF
+slug: hi-focus-hc-ipc-d4215dzs-vf
+part_number: HC-IPC-D4215DZS-VF
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-D4215DZS-VF product page](https://hifocuscctv.com/categories/discontinued/ip-cameras/5mp-ip-dome-camera-hc-ipc-d4215dzs-vf)

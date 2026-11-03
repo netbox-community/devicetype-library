@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-SDQ53320S
+slug: hi-focus-hc-ipc-sdq53320s
+part_number: HC-IPC-SDQ53320S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-SDQ53320S product page](https://hifocuscctv.com/categories/network-ptz-cameras/2mp-network-ptz-camera-hc-ipc-sdq53320s)

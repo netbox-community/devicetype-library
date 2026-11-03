@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-DI3212DVZK-N5-O
+slug: hi-focus-hc-ipc-di3212dvzk-n5-o
+part_number: HC-IPC-DI3212DVZK-N5-O
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hi-Focus HC-IPC-DI3212DVZK-N5-O product page](https://hifocuscctv.com/categories/ip-cameras/2-mp-vandal-dome-mvf-network-camera-hc-ipc-di3212dvzk-n5-o)
