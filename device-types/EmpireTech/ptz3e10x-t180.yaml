@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: PTZ3E10X-T180
+slug: empiretech-ptz3e10x-t180
+part_number: PTZ3E10X-T180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2170
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech PTZ3E10X-T180 product page](https://empiretech01.com/products/empiretech-ptz3e10x-t180-1-2-8-cmos-8mp-4mp-10x-starlight-three-in-one-network-panoramic-ptz-camera)

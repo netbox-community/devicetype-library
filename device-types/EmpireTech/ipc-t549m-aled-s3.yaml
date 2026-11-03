@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-T549M-ALED-S3
+slug: empiretech-ipc-t549m-aled-s3
+part_number: IPC-T549M-ALED-S3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 494
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-T549M-ALED-S3 product page](https://empiretech01.com/products/empiretech-4mp-full-color-fixed-focal-warm-led-eyeball-network-camera-ipc-t549m-aled-s3)

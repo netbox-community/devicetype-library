@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-D8241-B360
+slug: empiretech-ipc-d8241-b360
+part_number: IPC-D8241-B360
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EmpireTech IPC-D8241-B360 product page](https://empiretech01.com/products/empiretech-ipc-d8241-b360-s2-1-2-7-cmos-4-5mp-4-directional-panoramic-dome-network-camera)

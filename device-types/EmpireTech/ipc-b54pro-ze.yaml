@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-B54PRO-ZE
+slug: empiretech-ipc-b54pro-ze
+part_number: IPC-B54PRO-ZE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 24.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [EmpireTech IPC-B54PRO-ZE product page](https://empiretech01.com/products/empiretech-ipc-b54pro-ze-1-1-8-cmos-4mp-wizcolor-2-7-mm-12-mm-vari-focal-bullet-network-camera)

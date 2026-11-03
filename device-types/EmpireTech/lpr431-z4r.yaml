@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: LPR431-Z4R
+slug: empiretech-lpr431-z4r
+part_number: LPR431-Z4R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [EmpireTech LPR431-Z4R product page](https://empiretech01.com/products/empiretech-lpr431-z4r-1-1-8cmos-4mp-8mm-32mm-all-in-one-enforcement-camera)

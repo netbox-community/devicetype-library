@@ -1,0 +1,24 @@
+---
+manufacturer: EmpireTech
+model: 5+5MP Indoor PT Camera
+slug: empiretech-5-plus-5mp-indoor-pt-camera
+part_number: 5+5MP Indoor PT Camera
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 233
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EmpireTech 5+5MP Indoor PT Camera product page](https://empiretech01.com/products/empiretech-1-3-cmos-5-5mp-indoor-wi-fi-dual-lens-pan-tilt-camera)

@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-Color4K-T180
+slug: empiretech-ipc-color4k-t180
+part_number: IPC-Color4K-T180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 990
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 11.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-Color4K-T180 product page](https://empiretech01.com/products/empiretech-4k-full-color-1-1-8-cmos-dual-lens-splicing-network-camera-ipc-color4k-t180)
