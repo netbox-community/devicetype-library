@@ -1,0 +1,23 @@
+---
+manufacturer: Jovision
+model: JVS-N510-YWS
+slug: jovision-jvs-n510-yws
+part_number: JVS-N510-YWS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Jovision JVS-N510-YWS product page](https://www.jovisionsecurity.com/products/ip_camera)

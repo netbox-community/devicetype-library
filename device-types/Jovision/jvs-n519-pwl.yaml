@@ -1,0 +1,23 @@
+---
+manufacturer: Jovision
+model: JVS-N519-PWL
+slug: jovision-jvs-n519-pwl
+part_number: JVS-N519-PWL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Jovision JVS-N519-PWL product page](https://www.jovisionsecurity.com/products/ip_camera)

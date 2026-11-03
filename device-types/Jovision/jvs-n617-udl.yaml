@@ -1,0 +1,23 @@
+---
+manufacturer: Jovision
+model: JVS-N617-UDL
+slug: jovision-jvs-n617-udl
+part_number: JVS-N617-UDL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Jovision JVS-N617-UDL product page](https://www.jovisionsecurity.com/products/ip_camera)
