@@ -1,0 +1,22 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-XSBF08LiF
+slug: digital-watchdog-dwc-xsbf08lif
+part_number: DWC-XSBF08LiF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 46.4 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Digital Watchdog DWC-XSBF08LiF product page](https://digital-watchdog.com/productdetail/DWC-XSBF08LiF)

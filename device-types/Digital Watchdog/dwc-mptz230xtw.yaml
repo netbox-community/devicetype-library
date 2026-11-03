@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MPTZ230XTW
+slug: digital-watchdog-dwc-mptz230xtw
+part_number: DWC-MPTZ230XTW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 5, max 42 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 42
+    description: 24V DC
+comments: >
+  [Digital Watchdog DWC-MPTZ230XTW product page](https://digital-watchdog.com/productdetail/dwc-mptz230xtw)

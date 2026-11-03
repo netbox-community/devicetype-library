@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-XSBC08BiC1
+slug: digital-watchdog-dwc-xsbc08bic1
+part_number: DWC-XSBC08BiC1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 970
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-XSBC08BiC1 product page](https://digital-watchdog.com/productdetail/DWC-XSBC08BiC1)

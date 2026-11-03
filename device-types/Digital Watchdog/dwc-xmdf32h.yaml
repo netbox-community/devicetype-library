@@ -1,0 +1,22 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-XMDF32H
+slug: digital-watchdog-dwc-xmdf32h
+part_number: DWC-XMDF32H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 35.2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Digital Watchdog DWC-XMDF32H product page](https://digital-watchdog.com/productdetail/DWC-XMDF32H)

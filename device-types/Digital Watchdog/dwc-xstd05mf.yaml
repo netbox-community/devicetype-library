@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-XSTD05MF
+slug: digital-watchdog-dwc-xstd05mf
+part_number: DWC-XSTD05MF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 15.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-XSTD05MF product page](https://digitalwatchdog.happyfox.com/kb/article/323-megapix-ip-camera-rtsp-stream-list)

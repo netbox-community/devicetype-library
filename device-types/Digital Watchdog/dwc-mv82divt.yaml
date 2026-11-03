@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MV82DiVT
+slug: digital-watchdog-dwc-mv82divt
+part_number: DWC-MV82DiVT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-MV82DiVT product page](https://digitalwatchdog.happyfox.com/kb/article/323-megapix-ip-camera-rtsp-stream-list)

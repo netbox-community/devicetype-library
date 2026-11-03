@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MVA5WiATX
+slug: digital-watchdog-dwc-mva5wiatx
+part_number: DWC-MVA5WiATX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-MVA5WiATX product page](https://digitalwatchdog.happyfox.com/kb/article/323-megapix-ip-camera-rtsp-stream-list)

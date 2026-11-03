@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MVD8WiATW
+slug: digital-watchdog-dwc-mvd8wiatw
+part_number: DWC-MVD8WiATW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 14.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-MVD8WiATW product page](https://digitalwatchdog.happyfox.com/kb/article/323-megapix-ip-camera-rtsp-stream-list)
