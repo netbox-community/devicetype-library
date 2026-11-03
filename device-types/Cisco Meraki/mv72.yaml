@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco Meraki
+model: MV72
+slug: cisco-meraki-mv72
+part_number: MV72
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23.4 W
+comments: >
+  [Cisco Meraki MV72 product page](https://www.cisco.com/c/en/us/products/collateral/security/physical-security/meraki-cameras/mv-cloud-managed-smart-cameras-ds.pdf)

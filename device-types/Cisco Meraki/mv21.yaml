@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco Meraki
+model: MV21
+slug: cisco-meraki-mv21
+part_number: MV21
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1028
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.94 W
+comments: >
+  [Cisco Meraki MV21 product page](https://meraki.cisco.com/lib/pdf/meraki_datasheet_mv21_mv71.pdf)
