@@ -1,0 +1,23 @@
+---
+manufacturer: Luma
+model: LUM-1220-IP-FE
+slug: luma-lum-1220-ip-fe
+part_number: LUM-1220-IP-FE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
