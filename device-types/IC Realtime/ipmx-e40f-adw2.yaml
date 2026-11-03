@@ -1,0 +1,24 @@
+---
+manufacturer: IC Realtime
+model: IPMX-E40F-ADW2
+slug: ic-realtime-ipmx-e40f-adw2
+part_number: IPMX-E40F-ADW2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 745
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
