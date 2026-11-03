@@ -1,0 +1,25 @@
+---
+manufacturer: LTS
+model: LXPTZIP3C84WI-X10SDL
+slug: lts-lxptzip3c84wi-x10sdl
+part_number: LXPTZIP3C84WI-X10SDL
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS LXPTZIP3C84WI-X10SDL product page](https://www.ltsmall.com/ipc-4mp/3441.html)

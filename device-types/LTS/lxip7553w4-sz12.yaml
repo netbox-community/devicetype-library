@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: LXIP7553W4-SZ12
+slug: lts-lxip7553w4-sz12
+part_number: LXIP7553W4-SZ12
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LTS LXIP7553W4-SZ12 product page](https://ltsecurityinc.com/default/lxip7553w4-sz12-pro-x-4-lens-panoramic-dome-ip-camera.html)

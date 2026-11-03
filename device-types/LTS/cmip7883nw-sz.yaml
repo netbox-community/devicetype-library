@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: CMIP7883NW-SZ
+slug: lts-cmip7883nw-sz
+part_number: CMIP7883NW-SZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1287
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [LTS CMIP7883NW-SZ product page](https://ltsecurityinc.com/default/network-ip-dome-camera-cmip7883nw-sz.html)

@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: CMIP7CD42WI-28AISP
+slug: lts-cmip7cd42wi-28aisp
+part_number: CMIP7CD42WI-28AISP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS CMIP7CD42WI-28AISP product page](https://www.ltsmall.com/ipc-4mp/3295.html)

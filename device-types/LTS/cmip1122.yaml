@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: CMIP1122
+slug: lts-cmip1122
+part_number: CMIP1122
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 570
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [LTS CMIP1122 product page](https://ltsecurityinc.com/ip-camera/ip-dome/ip-network-turret-camera-cmip1122.html)

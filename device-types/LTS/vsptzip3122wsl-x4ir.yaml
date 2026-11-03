@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: VSPTZIP3122WSL-X4IR
+slug: lts-vsptzip3122wsl-x4ir
+part_number: VSPTZIP3122WSL-X4IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1030
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LTS VSPTZIP3122WSL-X4IR product page](https://pic.ltsmall.com/software/27e58877052794a820c7176a8da67025/VSPTZIP3122WSL-X4IR%20Spec.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: LXPTZIP414W-X25IR
+slug: lts-lxptzip414w-x25ir
+part_number: LXPTZIP414W-X25IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS LXPTZIP414W-X25IR product page](https://www.ltsmall.com/ipc-4mp/3165.html)

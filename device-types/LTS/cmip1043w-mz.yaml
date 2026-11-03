@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: CMIP1043W-MZ
+slug: lts-cmip1043w-mz
+part_number: CMIP1043W-MZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 485
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [LTS CMIP1043W-MZ product page](https://ltsecurityinc.com/ip-camera/ip-network-turret-camera-cmip1043w-mz.html)
