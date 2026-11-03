@@ -1,0 +1,23 @@
+---
+manufacturer: Alibi
+model: ALI-NS2128R
+slug: alibi-ali-ns2128r
+part_number: ALI-NS2128R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1043
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Alibi ALI-NS2128R product page](https://www.alibisecurity.com/media/docs/ali-ns2128r-datasheet-dlr.pdf)

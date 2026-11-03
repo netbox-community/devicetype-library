@@ -1,0 +1,27 @@
+---
+manufacturer: Alibi
+model: ALI-PZ51-LUZAIS
+slug: alibi-ali-pz51-luzais
+part_number: ALI-PZ51-LUZAIS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Alibi ALI-PZ51-LUZAIS product page](https://www.alibisecurity.com/media/docs/ali-pz51-luzais-datasheet-as.pdf)
