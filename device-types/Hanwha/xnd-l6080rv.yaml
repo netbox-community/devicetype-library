@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: XND-L6080RV
+slug: hanwha-xnd-l6080rv
+part_number: XND-L6080RV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 690
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha XND-L6080RV product page](https://www.hanwhavision.com/global/products/product-details/XND-L6080RV)
