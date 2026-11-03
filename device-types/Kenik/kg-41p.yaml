@@ -1,0 +1,21 @@
+---
+manufacturer: Kenik
+model: KG-41P
+slug: kenik-kg-41p
+part_number: KG-41P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 1
+    description: 12V DC
+comments: >
+  [Kenik KG-41P product page](https://files.kenik.pl/Karty%20katalogowe/Kamery/Karta%20katalogowa%20KG-41P.pdf)
