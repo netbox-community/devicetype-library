@@ -1,0 +1,22 @@
+---
+manufacturer: Comelit
+model: IPTCAMN04FA
+slug: comelit-iptcamn04fa
+part_number: IPTCAMN04FA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 460
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPTCAMN04FA product page](https://pro.comelitgroup.com/en-gb/product/iptcamn04fa)

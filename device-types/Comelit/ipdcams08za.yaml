@@ -1,0 +1,22 @@
+---
+manufacturer: Comelit
+model: IPDCAMS08ZA
+slug: comelit-ipdcams08za
+part_number: IPDCAMS08ZA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Comelit IPDCAMS08ZA product page](https://pro.comelitgroup.com/en-gb/product/ipdcams08za)

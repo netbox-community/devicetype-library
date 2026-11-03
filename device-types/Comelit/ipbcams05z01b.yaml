@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IPBCAMS05Z01B
+slug: comelit-ipbcams05z01b
+part_number: IPBCAMS05Z01B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Comelit IPBCAMS05Z01B product page](https://pro.comelitgroup.com/en-gb/product/ipbcams05z01b)

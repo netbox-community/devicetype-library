@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPTCAMN04ZB
+slug: comelit-iptcamn04zb
+part_number: IPTCAMN04ZB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 640
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPTCAMN04ZB product page](https://staticpro.comelitgroup.com/en-gb/datasheets/22278-iptcamn04zb.pdf)

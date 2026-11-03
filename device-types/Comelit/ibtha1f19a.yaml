@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IBTHA1F19A
+slug: comelit-ibtha1f19a
+part_number: IBTHA1F19A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1180
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IBTHA1F19A product page](https://staticpro.comelitgroup.com/en-001/datasheets/25228-ibtha1f19a.pdf)

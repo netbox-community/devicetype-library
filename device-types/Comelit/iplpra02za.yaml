@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPLPRA02ZA
+slug: comelit-iplpra02za
+part_number: IPLPRA02ZA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Comelit IPLPRA02ZA product page](https://staticpro.comelitgroup.com/en-001/datasheets/16822-iplpra02za.pdf)

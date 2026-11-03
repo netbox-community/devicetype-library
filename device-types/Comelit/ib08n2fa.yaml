@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IB08N2FA
+slug: comelit-ib08n2fa
+part_number: IB08N2FA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IB08N2FA product page](https://pro.comelitgroup.com/en-gb/product/ib08n2fa)
