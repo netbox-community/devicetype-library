@@ -1,0 +1,23 @@
+---
+manufacturer: Foscam
+model: C8M-WB
+slug: foscam-c8m-wb
+part_number: C8M-WB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 102
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: USB IN
+    type: usb-c
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Foscam C8M-WB product page](https://www.foscam.eu/c8m-wb.html)

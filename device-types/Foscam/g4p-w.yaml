@@ -1,0 +1,24 @@
+---
+manufacturer: Foscam
+model: G4P-W
+slug: foscam-g4p-w
+part_number: G4P-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 375
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Foscam G4P-W product page](https://www.foscam.eu/g4p-w.html)

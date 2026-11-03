@@ -1,0 +1,27 @@
+---
+manufacturer: Foscam
+model: D8ET-WB
+slug: foscam-d8et-wb
+part_number: D8ET-WB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 655
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 16.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Foscam D8ET-WB product page](https://www.foscam.eu/d8et-wb.html)
