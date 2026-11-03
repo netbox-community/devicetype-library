@@ -1,0 +1,27 @@
+---
+manufacturer: Annke
+model: I51EG
+slug: annke-i51eg
+part_number: I51EG
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 270
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Annke I51EG product page](https://www.annkecctv.com/products/i51eg)

@@ -1,0 +1,22 @@
+---
+manufacturer: Annke
+model: WCD600 I91CR
+slug: annke-wcd600-i91cr
+part_number: WCD600 I91CR
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Annke WCD600 I91CR product page](https://www.annke.com/products/wcd600)

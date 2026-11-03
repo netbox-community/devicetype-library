@@ -1,0 +1,19 @@
+---
+manufacturer: Annke
+model: AP069
+slug: annke-ap069
+part_number: AP069
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Annke AP069 product page](https://www.annkecctv.com/products/ap069)
