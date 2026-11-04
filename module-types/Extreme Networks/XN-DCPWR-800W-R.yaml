@@ -15,8 +15,6 @@ airflow: rear-to-front
 comments: |
   800W DC PSU, for use in 7520 and 7720.
   Supported input: -48 to -60 VDC. Profile input_voltage records the nominal 48 V magnitude.
-  [Power supply specifications](https://documentation.extremenetworks.com/7520%20Series%20Installation%20Guide/Universal_Hardware/Extreme_7720_Installation_Guide/topics/power_specifications.shtml)
-  [Hot-swap support](https://documentation.extremenetworks.com/7520%20Series%20Installation%20Guide/Universal_Hardware/Extreme_7720_Installation_Guide/topics/power_supplies_for_use_with_your_switch.shtml)
 power-ports:
   - name: '{module}'
     type: dc-terminal
