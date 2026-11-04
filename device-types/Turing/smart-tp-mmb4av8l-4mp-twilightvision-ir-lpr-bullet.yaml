@@ -1,0 +1,23 @@
+---
+manufacturer: Turing
+model: SMART TP-MMB4AV8L 4MP TwilightVision IR LPR Bullet
+slug: turing-smart-tp-mmb4av8l-4mp-twilightvision-ir-lpr-bullet
+part_number: SMART TP-MMB4AV8L 4MP TwilightVision IR LPR Bullet
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+comments: >
+  [Turing SMART TP-MMB4AV8L 4MP TwilightVision IR LPR Bullet product page](https://turing-marketing-assets.s3.us-west-2.amazonaws.com/book/TP-MMB4AV8L%20Datasheet_0806.pdf)
