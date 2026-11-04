@@ -1,0 +1,30 @@
+---
+manufacturer: Supermicro
+model: AS-1015A-MT
+slug: supermicro-as-1015a-mt
+part_number: AS-1015A-MT
+comments: |
+  1U mainstream A+ Server with Supermicro H13SAE-MF motherboard (CSE-514-505 chassis), 1 internal fixed 3.5" SATA drive bay (optionally 4 internal fixed 2.5" SATA bays), 1 PCIe 5.0 x16 FHHL slot, 500W Platinum power supply
+  [Supermicro AS-1015A-MT](https://www.supermicro.com/en/products/system/mainstream/1u/as-1015a-mt)
+
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
+
+subdevice_role: parent
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 500
+
+module-bays:
+  - name: Drive Bay 1
+    position: '1'
+    description: 3.5" SATA internal fixed drive bay
+
+device-bays:
+  - name: Motherboard
+    description: Supermicro H13SAE-MF
