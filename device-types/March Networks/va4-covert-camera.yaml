@@ -1,0 +1,23 @@
+---
+manufacturer: March Networks
+model: VA4 Covert Camera
+slug: march-networks-va4-covert-camera
+part_number: VA4 Covert Camera
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 4.82 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [March Networks VA4 Covert Camera product page](https://www.marchnetworks.com/products/cameras/va-series/va4-covert-camera)
