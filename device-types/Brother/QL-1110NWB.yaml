@@ -1,0 +1,29 @@
+---
+manufacturer: Brother
+model: QL-1110NWB
+slug: brother-ql-1110nwb
+
+u_height: 0
+is_full_depth: false
+
+weight: 1735
+weight_unit: g
+
+is_powered: true
+front_image: true
+
+power-ports:
+  - name: External Power Supply
+    type: dc-terminal
+interfaces:
+  - name: eth
+    type: 1000base-t
+  - name: wifi
+    label: Wireless
+    type: ieee802.11n
+rear-ports:
+  - name: USB
+    type: usb-b
+    positions: 1
+
+comments: '[Brother QL-1110NWB](https://support.brother.com/g/b/spec.aspx?c=ca&lang=en&prod=lpql1110nwbeus)'
