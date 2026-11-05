@@ -1,0 +1,24 @@
+---
+manufacturer: HP
+model: Designjet T630 36in
+slug: hp-designjet-t630-36
+
+u_height: 0
+is_full_depth: false
+
+weight: 35
+weight_unit: kg
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 35
+    allocated_draw: 6
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: wifi
+    label: Wireless
+    type: ieee802.11n
+
+comments: '[HP Designjet T630 36-in](https://h20195.www2.hp.com/v2/GetPDF.aspx/c08403498.pdf)'
