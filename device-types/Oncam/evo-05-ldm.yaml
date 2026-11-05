@@ -1,0 +1,22 @@
+---
+manufacturer: Oncam
+model: EVO-05-LDM
+slug: oncam-evo-05-ldm
+part_number: EVO-05-LDM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.13 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Oncam EVO-05-LDM product page](https://oncamgrandeye.com/app/uploads/OG-003736-DS-5-EVO-05-Mini-Panel-Mount-Datasheet.pdf)

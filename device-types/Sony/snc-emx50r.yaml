@@ -1,0 +1,23 @@
+---
+manufacturer: Sony
+model: SNC-EMX50R
+slug: sony-snc-emx50r
+part_number: SNC-EMX50R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Sony SNC-EMX50R product page](https://www.sony.de/electronics/support/video-security-ip-cameras/snc-emx50r)
