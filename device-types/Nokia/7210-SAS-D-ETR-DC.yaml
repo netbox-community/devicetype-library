@@ -1,8 +1,8 @@
 ---
 manufacturer: Nokia
-model: 7210 SAS-D
-slug: nokia-7210-sas-d
-part_number: 3HE05676AC
+model: 7210 SAS-D ETR DC
+slug: nokia-7210-sas-d-etr-dc
+part_number: 3HE05676AD
 u_height: 1
 is_full_depth: false
 front_image: true
@@ -10,8 +10,8 @@ airflow: side-to-rear
 weight: 1.72
 weight_unit: kg
 power-ports:
-  - name: PSU0
-    type: iec-60320-c6
+  - name: DC
+    type: dc-terminal
     maximum_draw: 84
 console-ports:
   - name: Console
