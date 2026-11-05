@@ -1,0 +1,23 @@
+---
+manufacturer: flir
+model: FC-Series AI-R FC-625 AI-R 640x512 Thermal Box
+slug: flir-fc-series-ai-r-fc-625-ai-r-640x512-thermal-box
+part_number: FC-Series AI-R FC-625 AI-R 640x512 Thermal Box
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [flir FC-Series AI-R FC-625 AI-R 640x512 Thermal Box product page](https://flir.netx.net/file/asset/59426/original/attachment)
