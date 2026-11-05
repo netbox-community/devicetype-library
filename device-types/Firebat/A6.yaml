@@ -1,0 +1,42 @@
+---
+manufacturer: FIREBAT
+model: A6
+slug: firebat-a6
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+description: Desktop mini PC with AMD Ryzen 7 6800H and Radeon 680M graphics.
+comments: |
+  [Manufacturer specifications](https://www.firebatpc.com/products/amd-ryzen7-6800h-mini-pc-up-to-4-7ghz-a6-model)
+
+  Two DDR5-4800 SODIMM slots support up to 64 GB. Two M.2 SSD slots are advertised with PCIe 3.0/4.0 support;
+  the generation and lane count of each slot need confirmation.
+  Front I/O: USB Type-C, two USB Type-A and a 3.5 mm audio jack.
+  Rear I/O: four USB Type-A, HDMI, DisplayPort, 2.5 GbE and DC barrel input.
+  USB-C speed/power delivery and HDMI version conflict between the product page and supplied image;
+  confirm these on the physical unit. Wi-Fi 6 and Bluetooth 5.2 are advertised, but the wireless module's
+  replaceability needs confirmation before modeling it.
+
+  Pending hardware inventory: weight, airflow, part number, power draw and OS interface names.
+  LAN and module-bay names below are provisional identifiers, not verified OS/SMBIOS names.
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: DC barrel input; voltage, connector dimensions and adapter rating pending confirmation
+interfaces:
+  - name: LAN
+    type: 2.5gbase-t
+module-bays:
+  - name: M.2 SSD 1
+    position: '1'
+    description: M.2 SSD slot; form factor, PCIe generation and lane count pending confirmation
+  - name: M.2 SSD 2
+    position: '2'
+    description: M.2 SSD slot; form factor, PCIe generation and lane count pending confirmation
+  - name: DIMM 1
+    position: '3'
+    description: DDR5 SODIMM slot; SMBIOS locator pending confirmation
+  - name: DIMM 2
+    position: '4'
+    description: DDR5 SODIMM slot; SMBIOS locator pending confirmation
