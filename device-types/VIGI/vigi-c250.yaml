@@ -1,0 +1,25 @@
+---
+manufacturer: VIGI
+model: VIGI C250
+slug: vigi-vigi-c250
+part_number: VIGI C250
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [VIGI VIGI C250 product page](https://www.vigi.com/en/business-networking/vigi-network-camera/vigi-c250)
