@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: UltraHD 4K AI Turret PoE (IP8M-2779E)
+slug: amcrest-ultrahd-4k-ai-turret-poe-ip8m-2779e
+part_number: UltraHD 4K AI Turret PoE (IP8M-2779E)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest UltraHD 4K AI Turret PoE (IP8M-2779E) product page](https://amcrest.com/4k-poe-camera-turret-ai-ip8m-2779ew-ai.html)

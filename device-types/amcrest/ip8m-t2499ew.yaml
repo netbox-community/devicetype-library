@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: IP8M-T2499EW
+slug: amcrest-ip8m-t2499ew
+part_number: IP8M-T2499EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 470
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [amcrest IP8M-T2499EW product page](https://support.amcrest.com/hc/en-us/articles/360024880832-Technical-Specifications)

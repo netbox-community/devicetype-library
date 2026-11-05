@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: IP4M-1025E
+slug: amcrest-ip4m-1025e
+part_number: IP4M-1025E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [amcrest IP4M-1025E product page](https://support.amcrest.com/hc/en-us/articles/360001579291-Technical-Specifications)

@@ -1,0 +1,25 @@
+---
+manufacturer: amcrest
+model: IP3M-956E
+slug: amcrest-ip3m-956e
+part_number: IP3M-956E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [amcrest IP3M-956E product page](https://support.amcrest.com/hc/en-us/articles/230153308-Technical-Specifications-IP3M-956E)

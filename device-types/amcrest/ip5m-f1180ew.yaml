@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: IP5M-F1180EW
+slug: amcrest-ip5m-f1180ew
+part_number: IP5M-F1180EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 272
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 10.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [amcrest IP5M-F1180EW product page](https://support.amcrest.com/hc/en-us/articles/360031074032-Technical-Specifications-IP5M-F1180EW)

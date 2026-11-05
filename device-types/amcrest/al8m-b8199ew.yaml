@@ -1,0 +1,25 @@
+---
+manufacturer: amcrest
+model: AL8M-B8199EW
+slug: amcrest-al8m-b8199ew
+part_number: AL8M-B8199EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest AL8M-B8199EW product page](https://amcrest.com/amlink-4k-security-ai-ip-poe-bullet-camera-al8m-b8199ew.html)

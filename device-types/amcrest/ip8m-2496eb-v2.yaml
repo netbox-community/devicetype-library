@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-2496EB-V2
+slug: amcrest-ip8m-2496eb-v2
+part_number: IP8M-2496EB-V2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 499
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP8M-2496EB-V2 product page](https://amcrest.com/4k-8mp-bullet-poe-ip-camera-security-black-ip8m-2496eb-v2.html)

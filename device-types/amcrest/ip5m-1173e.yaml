@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: IP5M-1173E
+slug: amcrest-ip5m-1173e
+part_number: IP5M-1173E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [amcrest IP5M-1173E product page](https://support.amcrest.com/hc/en-us/articles/360001034751-Technical-Specifications-IP5M-1173E)

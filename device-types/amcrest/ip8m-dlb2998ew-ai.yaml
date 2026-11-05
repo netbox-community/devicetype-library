@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-DLB2998EW-AI
+slug: amcrest-ip8m-dlb2998ew-ai
+part_number: IP8M-DLB2998EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP8M-DLB2998EW-AI product page](https://support.amcrest.com/hc/en-us/articles/24330130427277-Technical-Specifications-IP8M-DLB2998EW-AI)

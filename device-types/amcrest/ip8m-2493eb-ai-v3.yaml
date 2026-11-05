@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-2493EB-AI-V3
+slug: amcrest-ip8m-2493eb-ai-v3
+part_number: IP8M-2493EB-AI-V3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP8M-2493EB-AI-V3 product page](https://amcrest.com/4k-ip-camera-poe-security-camera-dome-ip8m-2493eb-ai-v3.html)

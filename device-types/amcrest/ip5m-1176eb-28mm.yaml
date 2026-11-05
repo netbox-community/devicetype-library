@@ -1,0 +1,21 @@
+---
+manufacturer: amcrest
+model: IP5M-1176EB-28MM
+slug: amcrest-ip5m-1176eb-28mm
+part_number: IP5M-1176EB-28MM
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 340
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [amcrest IP5M-1176EB-28MM product page](https://support.amcrest.com/hc/en-us/articles/360001558412-Technical-Specifications-IP5M-1176E)

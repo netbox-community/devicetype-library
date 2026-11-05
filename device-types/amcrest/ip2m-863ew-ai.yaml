@@ -1,0 +1,21 @@
+---
+manufacturer: amcrest
+model: IP2M-863EW-AI
+slug: amcrest-ip2m-863ew-ai
+part_number: IP2M-863EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [amcrest IP2M-863EW-AI product page](https://support.amcrest.com/hc/en-us/articles/360058998972-Technical-Specifications-IP2M-863EW-AI)

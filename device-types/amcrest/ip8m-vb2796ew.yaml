@@ -1,0 +1,21 @@
+---
+manufacturer: amcrest
+model: IP8M-VB2796EW
+slug: amcrest-ip8m-vb2796ew
+part_number: IP8M-VB2796EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 862
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [amcrest IP8M-VB2796EW product page](https://support.amcrest.com/hc/en-us/articles/360060470552-Technical-Specifications-IP8M-VB2796EW)
