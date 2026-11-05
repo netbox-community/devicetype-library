@@ -12,6 +12,9 @@ weight_unit: g
 is_powered: true
 airflow: passive
 front_image: true
+rear_image: false
+
+comments: '[Amcrest IP8M-2779EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/10802469825549-Technical-Specifications-IP8M-2779EW-AI)'
 
 power-ports:
   - name: DC IN
@@ -27,5 +30,3 @@ module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
-
-comments: '[Amcrest IP8M-2779EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/10802469825549-Technical-Specifications-IP8M-2779EW-AI)'

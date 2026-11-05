@@ -12,6 +12,9 @@ weight_unit: g
 is_powered: true
 airflow: passive
 front_image: true
+rear_image: false
+
+comments: '[Amcrest IP5M-T1277EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/11071625594637-Technical-Specifications-IP5M-T1277EW-AI)'
 
 power-ports:
   - name: DC IN
@@ -27,5 +30,3 @@ module-bays:
   - name: microSD
     position: microSD
     description: up to 256 GB
-
-comments: '[Amcrest IP5M-T1277EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/11071625594637-Technical-Specifications-IP5M-T1277EW-AI)'
