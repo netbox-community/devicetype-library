@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: IPC-HDW2449F-AS-TS
+slug: dahua-ipc-hdw2449f-as-ts
+part_number: IPC-HDW2449F-AS-TS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 240
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Dahua IPC-HDW2449F-AS-TS product page](https://www.dahuasecurity.com/bd/products/All-Products/Network-Cameras/WizSense-2-Series/Smart-Dual-Light/DH-IPC-HDW2449F-AS-TS)
