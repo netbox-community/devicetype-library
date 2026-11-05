@@ -1,0 +1,37 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem SR360
+part_number: 7X02CTO1WW
+slug: lenovo-thinksystem-sr360
+u_height: 1
+is_full_depth: true
+interfaces:
+  - name: XCC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    position: PSU-1
+    label: '1'
+  - name: PSU-2
+    position: PSU-2
+    label: '2'
+  - name: Riser 1 - PCIe Slot 1
+    position: PCIe-1
+    description: PCIe 3.0 x8, ML2 x8, or ML2 x16; low profile
+  - name: Riser 1 - PCIe Slot 2
+    position: PCIe-2
+    description: PCIe 3.0 x16 or x8; low profile or full-height, half-length. Requires the second processor to be installed.
+  - name: Riser 2 - PCIe Slot 3
+    position: PCIe-3
+    description: PCIe 3.0 x16; low profile
+  - name: PCIe Slot 4
+    position: PCIe-4
+    description: PCIe 3.0 x8 (dedicated to an internal storage controller
+  - name: LOM Slot 1
+    position: LOM-1
+    description: Onboard LOM slot for up to 4x 1/10 Gb Ethernet ports
+  - name: LOM Slot 2
+    position: LOM-2
+    description: Optional Mezzanine LOM (ML2) slot for dual-port 10 GbE cards with SFP+ or RJ-45 connectors or single- or dual-port 25 GbE cards with SFP28
+      connectors.
