@@ -1,0 +1,29 @@
+---
+manufacturer: Canoga Perkins
+model: 9145E-104-0-0
+slug: canoga-perkins-9145e-104-0-0
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+airflow: front-to-rear
+weight: 3.9
+weight_unit: lb
+comments: '[9145E 1G](https://www.canogaperkins.net/syncmetra-2-2-1)'
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 30
+console-ports:
+  - name: Console
+    label: MGMT EIA-232
+    type: de-9
+interfaces:
+  - name: LAN
+    label: USER PORT
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+    type: 1000base-t
+  - name: WAN
+    label: NETWORK PORT
+    description: Shared media (You can use 1 of the 2 ports **WITH** this name. 1 is 1000base-x-sfp & the other is 1000base-t.)
+    type: 1000base-t
