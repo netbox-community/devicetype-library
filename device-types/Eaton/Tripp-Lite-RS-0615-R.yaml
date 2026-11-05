@@ -1,0 +1,34 @@
+---
+manufacturer: Eaton
+model: Tripp-Lite RS-0615-R
+slug: eaton-tripp-lite-rs-0615-r
+
+u_height: 1
+is_full_depth: false
+
+weight: 4.5
+weight_unit: lb
+
+airflow: passive
+is_powered: true
+front_image: true
+rear_image: true
+
+power-ports:
+  - name: Primary
+    type: nema-5-15p
+power-outlets:
+  - name: Rear 1
+    type: nema-5-15r
+  - name: Rear 2
+    type: nema-5-15r
+  - name: Rear 3
+    type: nema-5-15r
+  - name: Rear 4
+    type: nema-5-15r
+  - name: Rear 5
+    type: nema-5-15r
+  - name: Rear 6
+    type: nema-5-15r
+
+comments: '[Tripp Lite RS-0615-R](https://www.eaton.com/us/en-us/skuPage.RS-0615-R.html)'
