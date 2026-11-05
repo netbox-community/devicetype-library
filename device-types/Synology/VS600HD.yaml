@@ -1,0 +1,22 @@
+---
+manufacturer: Synology
+model: VisualStation VS600HD
+slug: synology-visualstation-vs600hd
+part_number: VS600HD
+
+u_height: 0
+is_full_depth: false
+
+weight: 360
+weight_unit: g
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 16
+    allocated_draw: 6
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+
+comments: '[VisualStation VS600HD](https://www.synology.com/en-global/products/VS600HD#specs)'

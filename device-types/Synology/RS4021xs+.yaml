@@ -1,0 +1,46 @@
+---
+manufacturer: Synology
+model: RS4021xs+
+part_number: RS4021xs+
+slug: synology-rs4021xs-plus
+
+u_height: 1
+is_full_depth: true
+
+weight: 17
+weight_unit: kg
+
+airflow: front-to-rear
+is_powered: true
+front_image: true
+rear_image: true
+
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  - name: LAN 5
+    type: 10gbase-t
+  - name: LAN 6
+    type: 10gbase-t
+console-ports:
+  - name: Console
+    type: de-9
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: PCIe Slot 1
+    position: '1'
+  - name: PCIe Slot 2
+    position: '2'
+
+comments: '[RackStation RS4021xs+](https://www.synology.com/en-us/products/RS4021xs+#specs)'
