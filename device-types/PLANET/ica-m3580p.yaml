@@ -1,0 +1,22 @@
+---
+manufacturer: PLANET
+model: ICA-M3580P
+slug: planet-ica-m3580p
+part_number: ICA-M3580P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [PLANET ICA-M3580P product page](https://www.planet.com.tw/en/product/ica-m3580p-v4)
