@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: Meraki MR55
+slug: cisco-meraki-mr55
+part_number: MR55-HW
+is_full_depth: false
+u_height: 0
+comments: "[MR45 and MR55 Datasheet](https://documentation.meraki.com/Wireless/Product_Information/Overviews_and_Datasheets/MR45_and_MR55_Datasheet)"
+interfaces:
+  - name: main
+    type: 5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: wlan0
+    description: 2.4GHz
+    type: ieee802.11ax
+  - name: wlan1
+    description: 5GHz
+    type: ieee802.11ax
+power-ports:
+  - name: DC-In
+    type: dc-terminal
