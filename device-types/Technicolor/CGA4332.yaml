@@ -1,0 +1,57 @@
+---
+manufacturer: Technicolor
+model: CGA4332
+slug: technicolor-cga4332
+part_number: CGA4332
+u_height: 1
+airflow: side-to-rear
+is_full_depth: false
+front_image: true
+rear_image: true
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: iec-60320-c8
+    maximum_draw: 180
+interfaces:
+  - name: DOCSIS
+    type: docsis
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 2.5gbase-t
+  - name: '6'
+    type: 2.5gbase-t
+rear-ports:
+  - name: '1'
+    type: 6p2c
+    positions: 1
+  - name: '2'
+    type: 6p2c
+    positions: 1
+  - name: '3'
+    type: 6p2c
+    positions: 1
+  - name: '4'
+    type: 6p2c
+    positions: 1
+  - name: '5'
+    type: 6p2c
+    positions: 1
+  - name: '6'
+    type: 6p2c
+    positions: 1
+  - name: '7'
+    type: 6p2c
+    positions: 1
+  - name: '8'
+    type: 6p2c
+    positions: 1
