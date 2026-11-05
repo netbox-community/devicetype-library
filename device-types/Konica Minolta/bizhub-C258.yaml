@@ -1,0 +1,34 @@
+---
+manufacturer: Konica Minolta
+model: bizhub C258
+slug: konica-minolta-bizhub-c258
+
+u_height: 0
+is_full_depth: false
+
+weight: 187
+weight_unit: lb
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 1500
+interfaces:
+  - name: eth
+    type: 1000base-t
+front-ports:
+  - name: USB A
+    type: usb-a
+    positions: 1
+rear-ports:
+  - name: USB 1
+    type: usb-a
+    positions: 1
+  - name: USB 2
+    type: usb-a
+    positions: 1
+  - name: USB B
+    type: usb-b
+    positions: 1
+
+comments: '[bizhub C258](https://konicaminolta.ca/wps/wcm/connect/bca/11d59c69-6170-4a5b-9520-60c9537c5b13/KON-0606C_bizhub_C368_C308_C258_CEN_Web_18Feb05.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_0IDCHAS0L03T10A5N5R0IT3PU6-11d59c69-6170-4a5b-9520-60c9537c5b13-mnpL9xY)'
