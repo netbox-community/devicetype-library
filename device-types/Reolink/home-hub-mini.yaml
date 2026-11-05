@@ -1,0 +1,23 @@
+---
+manufacturer: Reolink
+model: Home Hub Mini
+slug: reolink-home-hub-mini
+part_number: Home Hub Mini
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 220
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Reolink Home Hub Mini product page](https://reolink.com/product/home-hub-mini)

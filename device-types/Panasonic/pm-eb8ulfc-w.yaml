@@ -1,0 +1,23 @@
+---
+manufacturer: Panasonic
+model: PM-EB8ULFC-W
+slug: panasonic-pm-eb8ulfc-w
+part_number: PM-EB8ULFC-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 416
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Panasonic PM-EB8ULFC-W product page](https://www.panasonic.com/mea/en/business/surveillance-solutions/bullet-cameras/pm-eb8ulfc-w.specs.html)

@@ -1,0 +1,23 @@
+---
+manufacturer: Panasonic
+model: PM-PFAULFR-W
+slug: panasonic-pm-pfaulfr-w
+part_number: PM-PFAULFR-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 516
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Panasonic PM-PFAULFR-W product page](https://www.panasonic.com/mea/en/business/surveillance-solutions/fish-eye-cameras/pm-pfaulfr-w.html)
