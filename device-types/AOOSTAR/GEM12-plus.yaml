@@ -1,0 +1,44 @@
+---
+manufacturer: AOOSTAR
+model: GEM12+
+slug: aoostar-gem12-plus
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+description: Desktop mini PC with AMD Ryzen 7 PRO 8845HS, dual 2.5 GbE and OCuLink.
+comments: |
+  [Manufacturer specifications](https://aoostar.com/products/aoostar-gem12-amd-r7-pro-8845hs-mini-pc)
+
+  This definition covers the GEM12+ revision, as confirmed by the owner.
+  Two DDR5-5600 slots support up to 128 GB; two M.2 2280 PCIe 4.0 x4 NVMe slots support up to 8 TB total.
+  External I/O: two USB4, two USB 3.2 Gen 2, two USB 2.0, OCuLink, HDMI 2.1, DisplayPort 1.4,
+  two 2.5 GbE ports and a 3.5 mm audio jack. OCuLink does not support hot-swap.
+  The product page lists a 19 V / 6.32 A (120 W) DC supply; this is not a measured chassis power draw.
+  Wi-Fi 6 and Bluetooth 5.2 are advertised, but the wireless module's replaceability needs confirmation.
+
+  Pending hardware inventory: weight, airflow, part number, power draw and OS interface names.
+  Confirm that the supplied front/rear images match this revision, including the DC input arrangement.
+  LAN and module-bay names below are provisional identifiers, not verified OS/SMBIOS names.
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: Barrel input shown in supplied rear image; confirm connector and power arrangement on GEM12+
+interfaces:
+  - name: LAN 1
+    type: 2.5gbase-t
+  - name: LAN 2
+    type: 2.5gbase-t
+module-bays:
+  - name: M.2 SSD 1
+    position: '1'
+    description: M.2 2280 PCIe 4.0 x4 NVMe SSD slot
+  - name: M.2 SSD 2
+    position: '2'
+    description: M.2 2280 PCIe 4.0 x4 NVMe SSD slot
+  - name: DIMM 1
+    position: '3'
+    description: DDR5 SODIMM slot; SMBIOS locator pending confirmation
+  - name: DIMM 2
+    position: '4'
+    description: DDR5 SODIMM slot; SMBIOS locator pending confirmation
