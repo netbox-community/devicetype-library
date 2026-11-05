@@ -1,0 +1,31 @@
+---
+manufacturer: Amcrest
+model: IP8M-2779EW-AI
+slug: amcrest-ip8m-2779ew-ai
+
+u_height: 0
+is_full_depth: false
+
+weight: 549
+weight_unit: g
+
+is_powered: true
+airflow: passive
+front_image: true
+
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    allocated_draw: 4
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+
+comments: '[Amcrest IP8M-2779EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/10802469825549-Technical-Specifications-IP8M-2779EW-AI)'
