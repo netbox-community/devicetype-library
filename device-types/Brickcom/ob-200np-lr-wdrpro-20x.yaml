@@ -1,0 +1,21 @@
+---
+manufacturer: Brickcom
+model: OB-200Np-LR WDRPro-20X
+slug: brickcom-ob-200np-lr-wdrpro-20x
+part_number: OB-200Np-LR WDRPro-20X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Brickcom OB-200Np-LR WDRPro-20X product page](https://www.brickcom.com/products/DetailView.php)
