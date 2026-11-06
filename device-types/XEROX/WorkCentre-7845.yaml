@@ -1,0 +1,22 @@
+---
+manufacturer: Xerox
+model: WorkCentre 7845
+slug: xerox-workcentre-7845
+
+u_height: 0
+is_full_depth: false
+airflow: right-to-left
+
+weight: 146
+weight_unit: lb
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 763
+    allocated_draw: 112
+interfaces:
+  - name: eth
+    type: 1000base-t
+
+comments: '[WorkCentre 7800 Series](https://www.office.xerox.com/latest/W78SS-01L.PDF)'
