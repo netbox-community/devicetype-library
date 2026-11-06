@@ -1,0 +1,24 @@
+---
+manufacturer: Zyxel
+model: NR7302
+slug: zyxel-nr7302
+description: 5G NR outdoor router (IP67), powered via 802.3af/at PoE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 665
+weight_unit: g
+comments: See [Zyxel NR7302 datasheet](https://www.zyxel.com/service-provider/sa/en/products/5g-nr4g-lte-cpe/5g-nr-cpe/odus/nr7301nr7302nr7303-series).
+interfaces:
+  - name: LAN
+    label: LAN
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: 2.5GbE PoE LAN, IEEE 802.3af/at PD
+  - name: Cellular
+    type: 5g
+    description: 5G NR / 4G LTE, 1x Micro-SIM (3FF)
+  - name: WiFi
+    type: ieee802.11n
+    description: 2.4 GHz N150, local management only
