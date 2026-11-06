@@ -2,8 +2,11 @@
 manufacturer: Dell
 model: PowerEdge R650xs
 slug: dell-poweredge-r650xs
+comments: '[Spec Sheet](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r650xs-spec-sheet.pdf) [Installation and Service Manual](https://www.dell.com/support/manuals/en-us/poweredge-r650xs/per650xs_ism_pub/documentation-resources?guid=guid-1dcaccc8-3879-4b9d-8f5b-082268892e3b&lang=en-us)'
 u_height: 1
 is_full_depth: true
+front_image: true
+rear_image: true
 subdevice_role: parent
 console-ports:
   - name: Optional Rear Serial
@@ -27,6 +30,13 @@ interfaces:
   - name: iDRAC9 1
     type: 1000base-t
     mgmt_only: true
-  - name: iDRAC9 2
-    type: 1000base-t
-    mgmt_only: true
+module-bays:
+  - name: PCIe-Gen4 1
+    position: PCIE1
+    description: PCIe 4.0 x16 Half Length
+  - name: PCIe-Gen4 2
+    position: PCIE2
+    description: PCIe 4.0 x8 Half Length
+  - name: PCIe-Gen4 3
+    position: PCIE3
+    description: PCIe 4.0 x8 Half Length
