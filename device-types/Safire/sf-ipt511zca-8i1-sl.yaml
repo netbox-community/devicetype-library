@@ -1,0 +1,27 @@
+---
+manufacturer: Safire
+model: SF-IPT511ZCA-8I1-SL
+slug: safire-sf-ipt511zca-8i1-sl
+part_number: SF-IPT511ZCA-8I1-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 640
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPT511ZCA-8I1-SL product page](https://www.safirecctv.com/product/sf-ipt511zca-8i1-sl)
