@@ -1,0 +1,19 @@
+---
+manufacturer: Camius
+model: Iris 4K
+slug: camius-iris-4k
+part_number: Iris 4K
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Camius Iris 4K product page](https://www.camius.com/4k-poe-dome-camera-iris8r)

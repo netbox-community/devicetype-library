@@ -1,0 +1,17 @@
+---
+manufacturer: Somfy
+model: Outdoor Camera
+slug: somfy-outdoor-camera
+part_number: Outdoor Camera
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Somfy Outdoor Camera product page](https://service.somfy.com/downloads/bui_v4/2401560-and-2401563--somfy-outdoor-camera--sales-sheet--en2-rd.pdf)
