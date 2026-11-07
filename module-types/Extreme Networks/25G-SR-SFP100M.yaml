@@ -1,0 +1,11 @@
+---
+manufacturer: Extreme Networks
+model: 25G-SR-SFP100M
+part_number: 25G-SR-SFP100M
+description: 25GBASE-SR SFP28 transceiver, 100 m, multimode fiber, duplex LC
+profile: Transceiver
+module_bay_types: [SFP28]
+comments: '[Extreme Networks optics specifications](https://www.extremenetworks.com/support/policies)'
+interfaces:
+  - name: '{module}'
+    type: 25gbase-sr
