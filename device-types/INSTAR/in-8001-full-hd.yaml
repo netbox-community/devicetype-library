@@ -1,0 +1,22 @@
+---
+manufacturer: INSTAR
+model: IN-8001 Full HD
+slug: instar-in-8001-full-hd
+part_number: IN-8001 Full HD
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [INSTAR IN-8001 Full HD product page](https://wiki.instar.com/en/Indoor_Cameras/IN-8001_HD)

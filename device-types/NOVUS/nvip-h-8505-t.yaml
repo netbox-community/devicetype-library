@@ -1,0 +1,23 @@
+---
+manufacturer: NOVUS
+model: NVIP-H-8505/T
+slug: novus-nvip-h-8505-t
+part_number: NVIP-H-8505/T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [NOVUS NVIP-H-8505/T product page](https://www.novuscctv.com/en/products/6711/NVIP-H-8505_T)
