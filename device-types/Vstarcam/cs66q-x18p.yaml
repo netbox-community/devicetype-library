@@ -1,0 +1,23 @@
+---
+manufacturer: Vstarcam
+model: CS66Q-X18P
+slug: vstarcam-cs66q-x18p
+part_number: CS66Q-X18P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vstarcam CS66Q-X18P product page](https://vstarcam.com/products/cs66q-x18p-18x-optical-zoom-ptz-camera)
