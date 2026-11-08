@@ -1,0 +1,27 @@
+---
+manufacturer: Turing
+model: SMART TP-X4D5AV2 5MP x4 Multi-Sensor
+slug: turing-smart-tp-x4d5av2-5mp-x4-multi-sensor
+part_number: SMART TP-X4D5AV2 5MP x4 Multi-Sensor
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 31 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 31
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [Turing SMART TP-X4D5AV2 5MP x4 Multi-Sensor product page](https://turing-marketing-assets.s3.us-west-2.amazonaws.com/book/TP-X4D5AV2-1Y_Datasheet_v1.2.pdf)

@@ -1,0 +1,22 @@
+---
+manufacturer: Oncam
+model: C08-IEC1-O
+slug: oncam-c08-iec1-o
+part_number: C08-IEC1-O
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 308
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Oncam C08-IEC1-O product page](https://oncamgrandeye.com/app/uploads/Oncam-C-08-Indoor-Camera-Datasheet-V5.1.pdf)
