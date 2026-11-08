@@ -1,0 +1,161 @@
+---
+manufacturer: Nvidia
+model: SN6600
+slug: nvidia-sn6600
+part_number: 920-9N63F-00RI-3C0
+u_height: 3
+is_full_depth: true
+airflow: front-to-rear
+weight: 52
+weight_unit: kg
+comments: >-
+  NVIDIA Spectrum-6 800GbE switch (air cooled), 64 OSFP cages for 128 ports of
+  800Gb/s, connector-to-power airflow (port side intake), 4 AC PSUs.
+  The QSFP112, 2x SFP28 and BMC ports are not listed.
+  [Specifications](https://networking-docs.nvidia.com/sn6000hw/1.3/specifications)
+  [Introduction](https://networking-docs.nvidia.com/sn6000hw/introduction)
+  [Ordering](https://networking-docs.nvidia.com/sn6000hw/ordering-information)
+console-ports:
+  - name: con0
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PSU3
+    position: PSU3
+  - name: PSU4
+    position: PSU4
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: swp1
+    type: 1.6tbase-x-osfp1600
+  - name: swp2
+    type: 1.6tbase-x-osfp1600
+  - name: swp3
+    type: 1.6tbase-x-osfp1600
+  - name: swp4
+    type: 1.6tbase-x-osfp1600
+  - name: swp5
+    type: 1.6tbase-x-osfp1600
+  - name: swp6
+    type: 1.6tbase-x-osfp1600
+  - name: swp7
+    type: 1.6tbase-x-osfp1600
+  - name: swp8
+    type: 1.6tbase-x-osfp1600
+  - name: swp9
+    type: 1.6tbase-x-osfp1600
+  - name: swp10
+    type: 1.6tbase-x-osfp1600
+  - name: swp11
+    type: 1.6tbase-x-osfp1600
+  - name: swp12
+    type: 1.6tbase-x-osfp1600
+  - name: swp13
+    type: 1.6tbase-x-osfp1600
+  - name: swp14
+    type: 1.6tbase-x-osfp1600
+  - name: swp15
+    type: 1.6tbase-x-osfp1600
+  - name: swp16
+    type: 1.6tbase-x-osfp1600
+  - name: swp17
+    type: 1.6tbase-x-osfp1600
+  - name: swp18
+    type: 1.6tbase-x-osfp1600
+  - name: swp19
+    type: 1.6tbase-x-osfp1600
+  - name: swp20
+    type: 1.6tbase-x-osfp1600
+  - name: swp21
+    type: 1.6tbase-x-osfp1600
+  - name: swp22
+    type: 1.6tbase-x-osfp1600
+  - name: swp23
+    type: 1.6tbase-x-osfp1600
+  - name: swp24
+    type: 1.6tbase-x-osfp1600
+  - name: swp25
+    type: 1.6tbase-x-osfp1600
+  - name: swp26
+    type: 1.6tbase-x-osfp1600
+  - name: swp27
+    type: 1.6tbase-x-osfp1600
+  - name: swp28
+    type: 1.6tbase-x-osfp1600
+  - name: swp29
+    type: 1.6tbase-x-osfp1600
+  - name: swp30
+    type: 1.6tbase-x-osfp1600
+  - name: swp31
+    type: 1.6tbase-x-osfp1600
+  - name: swp32
+    type: 1.6tbase-x-osfp1600
+  - name: swp33
+    type: 1.6tbase-x-osfp1600
+  - name: swp34
+    type: 1.6tbase-x-osfp1600
+  - name: swp35
+    type: 1.6tbase-x-osfp1600
+  - name: swp36
+    type: 1.6tbase-x-osfp1600
+  - name: swp37
+    type: 1.6tbase-x-osfp1600
+  - name: swp38
+    type: 1.6tbase-x-osfp1600
+  - name: swp39
+    type: 1.6tbase-x-osfp1600
+  - name: swp40
+    type: 1.6tbase-x-osfp1600
+  - name: swp41
+    type: 1.6tbase-x-osfp1600
+  - name: swp42
+    type: 1.6tbase-x-osfp1600
+  - name: swp43
+    type: 1.6tbase-x-osfp1600
+  - name: swp44
+    type: 1.6tbase-x-osfp1600
+  - name: swp45
+    type: 1.6tbase-x-osfp1600
+  - name: swp46
+    type: 1.6tbase-x-osfp1600
+  - name: swp47
+    type: 1.6tbase-x-osfp1600
+  - name: swp48
+    type: 1.6tbase-x-osfp1600
+  - name: swp49
+    type: 1.6tbase-x-osfp1600
+  - name: swp50
+    type: 1.6tbase-x-osfp1600
+  - name: swp51
+    type: 1.6tbase-x-osfp1600
+  - name: swp52
+    type: 1.6tbase-x-osfp1600
+  - name: swp53
+    type: 1.6tbase-x-osfp1600
+  - name: swp54
+    type: 1.6tbase-x-osfp1600
+  - name: swp55
+    type: 1.6tbase-x-osfp1600
+  - name: swp56
+    type: 1.6tbase-x-osfp1600
+  - name: swp57
+    type: 1.6tbase-x-osfp1600
+  - name: swp58
+    type: 1.6tbase-x-osfp1600
+  - name: swp59
+    type: 1.6tbase-x-osfp1600
+  - name: swp60
+    type: 1.6tbase-x-osfp1600
+  - name: swp61
+    type: 1.6tbase-x-osfp1600
+  - name: swp62
+    type: 1.6tbase-x-osfp1600
+  - name: swp63
+    type: 1.6tbase-x-osfp1600
+  - name: swp64
+    type: 1.6tbase-x-osfp1600
