@@ -1,0 +1,23 @@
+---
+manufacturer: Ernitec
+model: Orion Pro 2MP PTZ 30x
+slug: ernitec-orion-pro-2mp-ptz-30x
+part_number: Orion Pro 2MP PTZ 30x
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 10300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+comments: >
+  [Ernitec Orion Pro 2MP PTZ 30x product page](https://ernitec.com/product/orion-pro-2mp-ptz-camera-with-30x-optical-zoom-poe-psu-incl-indoor-ndaa)
