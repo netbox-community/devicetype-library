@@ -1,0 +1,20 @@
+---
+manufacturer: Rhombus
+model: R410
+slug: rhombus-r410
+part_number: R410
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Rhombus R410 product page](https://www.rhombus.com/files/specs/R410.pdf)

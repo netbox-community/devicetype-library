@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-X66300-Z3LK
+slug: i-pro-wv-x66300-z3lk
+part_number: WV-X66300-Z3LK
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 45.9 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
