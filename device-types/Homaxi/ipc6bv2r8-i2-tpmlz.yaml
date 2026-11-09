@@ -1,0 +1,27 @@
+---
+manufacturer: Homaxi
+model: IPC6BV2R8-I2-TPMLZ
+slug: homaxi-ipc6bv2r8-i2-tpmlz
+part_number: IPC6BV2R8-I2-TPMLZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Homaxi IPC6BV2R8-I2-TPMLZ product page](https://www.homaxi.com/products/8mp-bullet-surveillance-cameras)

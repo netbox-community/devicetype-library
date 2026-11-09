@@ -1,0 +1,25 @@
+---
+manufacturer: Homaxi
+model: IPC6TF4R4-AD-TPMSCR
+slug: homaxi-ipc6tf4r4-ad-tpmscr
+part_number: IPC6TF4R4-AD-TPMSCR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1045
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Homaxi IPC6TF4R4-AD-TPMSCR product page](https://www.homaxi.com/products/4mp-active-deterrence-camera)
