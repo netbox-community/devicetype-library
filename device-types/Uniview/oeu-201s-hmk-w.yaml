@@ -1,0 +1,23 @@
+---
+manufacturer: Uniview
+model: OEU-201S-HMK-W
+slug: uniview-oeu-201s-hmk-w
+part_number: OEU-201S-HMK-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 267
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Uniview OEU-201S-HMK-W product page](https://www.uniview.com/Products/Video_Intercoms/Door_Stations/Villa_Door_Stations/OEU-201S-HMK-W)
