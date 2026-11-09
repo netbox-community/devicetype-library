@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: Quasar Premium CP-6408-21-IA 4K IR PTZ 22x Zoom
+slug: flir-quasar-premium-cp-6408-21-ia-4k-ir-ptz-22x-zoom
+part_number: Quasar Premium CP-6408-21-IA 4K IR PTZ 22x Zoom
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 51 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 51
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [flir Quasar Premium CP-6408-21-IA 4K IR PTZ 22x Zoom product page](https://flir.netx.net/file/asset/71216/original/attachment)
