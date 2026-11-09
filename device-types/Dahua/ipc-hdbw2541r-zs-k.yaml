@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW2541R-ZS-K
+slug: dahua-ipc-hdbw2541r-zs-k
+part_number: IPC-HDBW2541R-ZS-K
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HDBW2541R-ZS-K product page](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hdbw2541r-zs-k=s2)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW2849R-ZAS-IL
+slug: dahua-ipc-hdbw2849r-zas-il
+part_number: IPC-HDBW2849R-ZAS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 540
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HDBW2849R-ZAS-IL product page](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/smart-dual-light/ipc-hdbw2849r-zas-il=s2)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: SDT5X225-2F-QA-0600
+slug: dahua-sdt5x225-2f-qa-0600
+part_number: SDT5X225-2F-QA-0600
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 9000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 31 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 31
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua SDT5X225-2F-QA-0600 product page](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SDT5X225-2F-QA-0600_datasheet_20220119.pdf)

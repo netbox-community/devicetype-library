@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: ITC416-PL8I-IZ
+slug: dahua-itc416-pl8i-iz
+part_number: ITC416-PL8I-IZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 13000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua ITC416-PL8I-IZ product page](https://www.dahuasecurity.com/uk/products/intelligent-traffic/smart-parking-products/entrance-and-exit/access-anpr-cameras/itc416-pl8i-iz)

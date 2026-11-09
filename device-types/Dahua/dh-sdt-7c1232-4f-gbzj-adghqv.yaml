@@ -1,0 +1,21 @@
+---
+manufacturer: Dahua
+model: DH-SDT-7C1232-4F-GBZJ-ADGHQV
+slug: dahua-dh-sdt-7c1232-4f-gbzj-adghqv
+part_number: DH-SDT-7C1232-4F-GBZJ-ADGHQV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 400 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 400
+    description: 12V DC

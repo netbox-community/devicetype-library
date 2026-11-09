@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: PTZ36432-HNR-XB
+slug: dahua-ptz36432-hnr-xb
+part_number: PTZ36432-HNR-XB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua PTZ36432-HNR-XB product page](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/ptz-cameras/ptz36432-hnr-xb%28project-only%29)

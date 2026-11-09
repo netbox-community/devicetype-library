@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: ITC436-PW9H
+slug: dahua-itc436-pw9h
+part_number: ITC436-PW9H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua ITC436-PW9H product page](https://www.dahuasecurity.com/products/intelligent-traffic/smart-parking-products/entrance-and-exit/access-anpr-cameras/itc436-pw9h)

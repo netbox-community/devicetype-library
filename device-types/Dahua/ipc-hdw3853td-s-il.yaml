@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HDW3853TD-S-IL
+slug: dahua-ipc-hdw3853td-s-il
+part_number: IPC-HDW3853TD-S-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HDW3853TD-S-IL product page](https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-3-series/super-wdr/ipc-hdw3853td-s-il)

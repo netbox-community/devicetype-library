@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW4231E-ASE
+slug: dahua-ipc-hdbw4231e-ase
+part_number: IPC-HDBW4231E-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua IPC-HDBW4231E-ASE product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hdbw4231e-ase)

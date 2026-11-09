@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDW1420S
+slug: dahua-dh-ipc-hdw1420s
+part_number: DH-IPC-HDW1420S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 230
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 4.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Dahua DH-IPC-HDW1420S product page](https://materialfile.dahuasecurity.com/download/DH-IPC-HDW1420S_Datasheet_20170602.pdf)

@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: TPC-PTD8A4C
+slug: dahua-tpc-ptd8a4c
+part_number: TPC-PTD8A4C
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 529
+    description: 57V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua TPC-PTD8A4C product page](https://www.dahuasecurity.com/products/thermal-products/thermal-cameras/ultra-series/tpc-ptd8a4c)

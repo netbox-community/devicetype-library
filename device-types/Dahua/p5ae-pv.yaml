@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: P5AE-PV
+slug: dahua-p5ae-pv
+part_number: P5AE-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua P5AE-PV product page](https://www.dahuasecurity.com/uk/products/wireless-products/picoo-series/p5ae-pv)
