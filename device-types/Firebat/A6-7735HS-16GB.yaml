@@ -1,0 +1,43 @@
+---
+manufacturer: FIREBAT
+model: A6 (7735HS, 16GB)
+slug: firebat-a6-7735hs-16gb
+part_number: A6-IG7A16N8-L
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 400
+weight_unit: g
+airflow: side-to-rear
+description: Mini PC with AMD Ryzen 7 7735HS, Radeon 680M graphics, and 16 GB soldered LPDDR5 memory.
+comments: |
+  This definition covers the Ryzen 7 7735HS / 16 GB configuration of the A6.
+  The chassis label identifies the model as A6, specifically the A6-IG7A16N8-L variant.
+  SMBIOS identifies the system as `Firebat Computer A6` and the motherboard as `SZQFTX H3HY-F`, version V1.0.
+  Memory is soldered and not upgradeable: four 4 GB LPDDR5 devices operating at 5500 MT/s.
+
+  Measured chassis dimensions: 127 x 127 x 44 mm (width x depth x height), 400 g weight with a single SSD installed.
+  The system supports two full-size M.2 storage slots and one M.2 slot for a removable wireless module.
+
+  The installed NVMe SSD negotiates PCIe 3.0 x4; its upstream port advertises PCIe 4.0 x4 capability.
+  The installed Realtek RTL8852BE module uses PCIe for Wi-Fi and USB for Bluetooth.
+
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 19 V DC input; external adapter rated 6.32 A (approximately 120 W)
+interfaces:
+  - name: eno1
+    type: 2.5gbase-t
+    description: Onboard Realtek RTL8125 Ethernet controller
+module-bays:
+  - name: M.2 SSD 1
+    position: '1'
+    description: Full-size M.2 storage slot
+  - name: M.2 SSD 2
+    position: '2'
+    description: Full-size M.2 storage slot
+  - name: WLAN
+    position: WLAN
+    description: M.2 slot for removable wireless module.
