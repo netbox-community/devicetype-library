@@ -1,0 +1,24 @@
+---
+manufacturer: INSTAR
+model: IN-9408 2K+
+slug: instar-in-9408-2k-plus
+part_number: IN-9408 2K+
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [INSTAR IN-9408 2K+ product page](https://www.instar.com/en_US/in-9408-2k-wifi-black.html)

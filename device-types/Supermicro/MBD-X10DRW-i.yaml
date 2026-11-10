@@ -1,0 +1,28 @@
+---
+manufacturer: Supermicro
+model: Motherboard X10DRW-i
+slug: supermicro-mbd-x10drw-i
+part_number: MBD-X10DRW-i
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X10DRW-i (https://www.supermicro.com/en/products/motherboard/X10DRW-i)
+subdevice_role: child
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+module-bays:
+  - name: PCI-E 1
+    description: x16 for Add-on-module (AOM)
+    position: '1'
+  - name: PCI-E 2
+    position: '2'
+    description: PCIe 3.0 x32 (Riser)
+  - name: PCI-E 3
+    position: '3'
+    description: PCIe 3.0 x16 (Riser)

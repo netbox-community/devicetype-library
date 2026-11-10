@@ -1,0 +1,23 @@
+---
+manufacturer: Sparsh
+model: SS-EN412P
+slug: sparsh-ss-en412p
+part_number: SS-EN412P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+comments: >
+  [Sparsh SS-EN412P product page](https://www.sparshsecuritech.com/products/4mp-ptz-camera-ss-en-412p)

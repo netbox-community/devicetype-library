@@ -1,0 +1,23 @@
+---
+manufacturer: Panasonic
+model: PM-VD4ULFT-W
+slug: panasonic-pm-vd4ulft-w
+part_number: PM-VD4ULFT-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 640
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Panasonic PM-VD4ULFT-W product page](https://www.panasonic.com/mea/en/business/surveillance-solutions/dome-cameras/pm-vd4ulft-w.html)

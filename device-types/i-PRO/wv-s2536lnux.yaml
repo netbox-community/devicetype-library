@@ -1,0 +1,21 @@
+---
+manufacturer: i-PRO
+model: WV-S2536LNUX
+slug: i-pro-wv-s2536lnux
+part_number: WV-S2536LNUX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 9.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC

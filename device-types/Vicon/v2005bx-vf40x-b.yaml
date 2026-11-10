@@ -1,0 +1,23 @@
+---
+manufacturer: Vicon
+model: V2005BX-VF40X-B
+slug: vicon-v2005bx-vf40x-b
+part_number: V2005BX-VF40X-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 8.28 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Vicon V2005BX-VF40X-B product page](https://vicon-security.com/hubfs/V2005BX-VF40X-B_Datasheet.pdf)
