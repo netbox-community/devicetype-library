@@ -1,0 +1,23 @@
+---
+manufacturer: Fanvil
+model: i64
+slug: fanvil-i64
+part_number: i64
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Fanvil i64 product page](https://www.fanvil.com/products/p5/i6%20series%20high-end%20video%20door%20phone/20220402/7321.html)

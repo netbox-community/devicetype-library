@@ -1,0 +1,23 @@
+---
+manufacturer: Sony
+model: SNC-DH240T
+slug: sony-snc-dh240t
+part_number: SNC-DH240T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Sony SNC-DH240T product page](https://www.sony.de/electronics/support/video-security-ip-cameras/snc-dh240t)

@@ -1,0 +1,22 @@
+---
+manufacturer: Xerox
+model: AltaLink C8045
+slug: xerox-altalink-c8045
+
+u_height: 0
+is_full_depth: false
+airflow: right-to-left
+
+weight: 152
+weight_unit: kg
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 740
+    allocated_draw: 71
+interfaces:
+  - name: eth
+    type: 1000base-t
+
+comments: '[AltaLink 8000 Series](https://www.office.xerox.com/latest/AC8SS-01.PDF)'

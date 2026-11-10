@@ -1,0 +1,19 @@
+---
+manufacturer: SANNCE
+model: I91EJ
+slug: sannce-i91ej
+part_number: I91EJ
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [SANNCE I91EJ product page](https://www.sannce.com/products/camstro-8mp-ip-cameras-color-night-vision-two-way-audio-intercom-ip67-weatherproof)
