@@ -1,0 +1,64 @@
+---
+manufacturer: Fortinet
+model: FortiAnalyzer-BigData 4500F
+slug: fortinet-faz-bd-4500f
+part_number: FAZ-BD-4500F
+u_height: 4
+is_full_depth: true
+weight: 108.96
+weight_unit: kg
+comments: '[FortiAnalyzer BigData datasheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/ko_kr/fortianalyzer-bd.pdf),
+  [FortiAnalyzer-BigData 4500F Getting Started Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/d13d894a-368f-11f0-a9d0-d2b0d2e22f7d/FortiAnalyzer-BigData-7.6.0-4500F_Getting_Started_Guide.pdf)'
+console-ports:
+  - name: CMM Serial
+    type: rj-45
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: PS3
+    position: '3'
+  - name: PS4
+    position: '4'
+interfaces:
+  - name: CMM
+    type: 1000base-t
+    mgmt_only: true
+    description: Chassis Management Module
+  - name: SW1 Ex0/57
+    type: 10gbase-x-sfpp
+    description: Switch Module 1 (internal cluster network)
+  - name: SW1 Ex0/58
+    type: 10gbase-x-sfpp
+    description: Switch Module 1 (internal cluster network)
+  - name: SW1 Ex0/59
+    type: 10gbase-x-sfpp
+    description: Switch Module 1 (internal cluster network)
+  - name: SW1 Ex0/60
+    type: 10gbase-x-sfpp
+    description: Switch Module 1 (internal cluster network)
+  - name: SW1 Qx0/1
+    type: 40gbase-x-qsfpp
+    description: Switch Module 1 (internal cluster network)
+  - name: SW1 Qx0/2
+    type: 40gbase-x-qsfpp
+    description: Switch Module 1 (internal cluster network)
+  - name: SW2 Ex0/57
+    type: 10gbase-x-sfpp
+    description: Switch Module 2 (external network)
+  - name: SW2 Ex0/58
+    type: 10gbase-x-sfpp
+    description: Switch Module 2 (external network)
+  - name: SW2 Ex0/59
+    type: 10gbase-x-sfpp
+    description: Switch Module 2 (external network)
+  - name: SW2 Ex0/60
+    type: 10gbase-x-sfpp
+    description: Switch Module 2 (external network)
+  - name: SW2 Qx0/1
+    type: 40gbase-x-qsfpp
+    description: Switch Module 2 (external network)
+  - name: SW2 Qx0/2
+    type: 40gbase-x-qsfpp
+    description: Switch Module 2 (external network)
