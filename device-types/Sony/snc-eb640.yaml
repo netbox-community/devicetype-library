@@ -1,0 +1,22 @@
+---
+manufacturer: Sony
+model: SNC-EB640
+slug: sony-snc-eb640
+part_number: SNC-EB640
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Sony SNC-EB640 product page](https://www.sony.de/electronics/support/video-security-ip-cameras/snc-eb640)

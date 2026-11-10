@@ -1,0 +1,20 @@
+---
+manufacturer: Aqara
+model: Doorbell Camera G400 (Wired)
+slug: aqara-doorbell-camera-g400-wired
+part_number: Doorbell Camera G400 (Wired)
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Aqara Doorbell Camera G400 (Wired) product page](https://eu.aqara.com/en-eu/products/doorbell-camera-g400-wired)
