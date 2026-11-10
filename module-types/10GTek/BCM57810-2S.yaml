@@ -1,0 +1,12 @@
+---
+manufacturer: 10GTek
+model: BCM57810-2S
+part_number: BCM57810-2S
+comments: '[BCM57810-2S](https://store.10gtek.com/10g-network-card-dual-sfp-port-x8-lane-hp-530-sfp-equivalent-4731/p-20162)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 10gbase-x-sfpp
+    mgmt_only: false

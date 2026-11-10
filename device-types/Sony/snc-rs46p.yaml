@@ -1,0 +1,23 @@
+---
+manufacturer: Sony
+model: SNC-RS46P
+slug: sony-snc-rs46p
+part_number: SNC-RS46P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+comments: >
+  [Sony SNC-RS46P product page](https://www.sony.de/electronics/support/video-security-ip-cameras/snc-rs46p)

@@ -1,0 +1,27 @@
+---
+manufacturer: Safire
+model: SF-IPB380A-4E1-GREY
+slug: safire-sf-ipb380a-4e1-grey
+part_number: SF-IPB380A-4E1-GREY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPB380A-4E1-GREY product page](https://www.safirecctv.com/product/sf-ipb380a-4e1-grey)
