@@ -1,0 +1,55 @@
+---
+manufacturer: Supermicro
+model: AS-2015A-TR
+slug: supermicro-as-2015a-tr
+part_number: AS-2015A-TR
+comments: |
+  2U mainstream A+ Server with Supermicro H13SAE-MF motherboard (CSE-825TQC-R802LPB chassis), 8 front hot-swap 3.5" SAS/SATA drive bays, 2 PCIe 5.0 x16 and 1 PCIe 4.0 x4 low-profile slots, 2x 800W redundant Titanium power supplies
+  [Supermicro AS-2015A-TR](https://www.supermicro.com/en/products/system/mainstream/2u/as-2015a-tr)
+
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+weight: 16.78
+weight_unit: kg
+
+subdevice_role: parent
+
+module-bays:
+  - name: Power 1
+    position: '1'
+    description: 800W Titanium hot-swap power supply
+  - name: Power 2
+    position: '2'
+    description: 800W Titanium hot-swap power supply
+
+  - name: Drive Bay 1
+    position: '3'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 2
+    position: '4'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 3
+    position: '5'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 4
+    position: '6'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 5
+    position: '7'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 6
+    position: '8'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 7
+    position: '9'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+  - name: Drive Bay 8
+    position: '10'
+    description: 3.5" SAS/SATA front hot-swap drive bay
+
+device-bays:
+  - name: Motherboard
+    description: Supermicro H13SAE-MF

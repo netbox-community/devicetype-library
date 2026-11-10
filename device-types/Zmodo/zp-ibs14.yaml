@@ -1,0 +1,18 @@
+---
+manufacturer: Zmodo
+model: ZP-IBS14
+slug: zmodo-zp-ibs14
+part_number: ZP-IBS14
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 640
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC

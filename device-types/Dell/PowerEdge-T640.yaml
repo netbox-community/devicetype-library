@@ -20,3 +20,29 @@ interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PCIe Slot 1
+    position: PCIe-1
+    description: PCIe 3.0 x16 Full Length
+  - name: PCIe Slot 2
+    position: PCIe-2
+    description: PCIe 3.0 x4 Half Length
+  - name: PCIe Slot 3
+    position: PCIe-3
+    description: PCIe 3.0 x16 Full Length
+  - name: PCIe Slot 4
+    position: PCIe-4
+    description: PCIe 3.0 x8 Half Length
+  - name: PCIe Slot 5
+    position: PCIe-5
+    description: PCIe 3.0 x4 Half Length
+  - name: PCIe Slot 6
+    position: PCIe-6
+    description: PCIe 3.0 x16 Full Length
+  - name: PCIe Slot 7
+    position: PCIe-7
+    description: PCIe 3.0 x8 Half Length
+  - name: PCIe Slot 8
+    position: PCIe-8
+    description: PCIe 3.0 x16 Full Length
+comments: '[PowerEdge T640 Technical Guide](https://i.dell.com/sites/csdocuments/product_docs/en/poweredge-t640-technical-guide.pdf)'

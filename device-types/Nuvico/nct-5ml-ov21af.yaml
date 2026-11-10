@@ -1,0 +1,23 @@
+---
+manufacturer: Nuvico
+model: NCT-5ML-OV21AF
+slug: nuvico-nct-5ml-ov21af
+part_number: NCT-5ML-OV21AF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 848
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Nuvico NCT-5ML-OV21AF product page](https://nuvico.com/index.php)

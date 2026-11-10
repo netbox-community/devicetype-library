@@ -1,0 +1,23 @@
+---
+manufacturer: Vicon
+model: VA-BVF08A-1TB
+slug: vicon-va-bvf08a-1tb
+part_number: VA-BVF08A-1TB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 21.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+comments: >
+  [Vicon VA-BVF08A-1TB product page](https://vicon-security.com/hubfs/AnavioAssets/Documentation/ANAVIO-BulletCamera-Datasheet.pdf)
