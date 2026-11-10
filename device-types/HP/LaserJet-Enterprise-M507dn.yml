@@ -1,0 +1,26 @@
+---
+manufacturer: HP
+model: LaserJet Enterprise M507dn
+slug: hp-laserjet-enterprise-m507dn
+part_number: 1PV87A#BGJ
+
+u_height: 0
+is_full_depth: false
+
+weight: 26
+weight_unit: lb
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 601
+    allocated_draw: 8
+interfaces:
+  - name: eth0
+    type: 1000base-t
+rear-ports:
+  - name: USB
+    type: usb-b
+    positions: 1
+
+comments: '[LaserJet Enterprise M507dn](https://www.hp.com/us-en/shop/pdp/hp-laserjet-enterprise-m507dn)'

@@ -1,0 +1,26 @@
+---
+manufacturer: HP
+model: Color LaserJet Pro MFP M479fdn
+slug: hp-color-laserjet-pro-mfp-m479fdn
+part_number: W1A79A#BGJ
+
+u_height: 0
+is_full_depth: false
+
+weight: 52
+weight_unit: lb
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 550
+    allocated_draw: 20
+interfaces:
+  - name: eth0
+    type: 1000base-t
+rear-ports:
+  - name: USB
+    type: usb-b
+    positions: 1
+
+comments: '[M479fdn](https://www.hp.com/us-en/shop/pdp/hp-color-laserjet-pro-mfp-m479fdn)'
