@@ -1,0 +1,25 @@
+---
+manufacturer: CP Plus
+model: CP-UNC-VE41ZL5C-VMDS-Q
+slug: cp-plus-cp-unc-ve41zl5c-vmds-q
+part_number: CP-UNC-VE41ZL5C-VMDS-Q
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 910
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

@@ -1,0 +1,39 @@
+---
+manufacturer: POE Texas
+model: GBT-4-IW
+slug: poe-texas-gbt-4-iw
+part_number: '696305322956'
+description: 4 Port In-Wall Gigabit PoE Extender with IEEE 802.3bt Uplink Power
+u_height: 0
+weight: 222
+weight_unit: g
+is_full_depth: false
+front_image: true
+airflow: passive
+comments: '[GBT-4-IW](https://shop.poetexas.com/products/gbt-4-iw)'
+interfaces:
+  - name: port1
+    label: POE+ DATA
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port2
+    label: POE+ DATA
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port3
+    label: POE+ DATA
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port4
+    label: POE+ DATA
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: port5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: 60W Uplink
