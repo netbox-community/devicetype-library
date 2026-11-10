@@ -1,0 +1,27 @@
+---
+manufacturer: VIGI
+model: VIGI C230I Mini
+slug: vigi-vigi-c230i-mini
+part_number: VIGI C230I Mini
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 230
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [VIGI VIGI C230I Mini product page](https://www.vigi.com/en/business-networking/vigi-network-camera/vigi-c230i-mini)

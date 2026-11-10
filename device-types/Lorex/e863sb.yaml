@@ -1,0 +1,23 @@
+---
+manufacturer: Lorex
+model: E863SB
+slug: lorex-e863sb
+part_number: E863SB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Lorex E863SB product page](https://www.lorex.com/products/e863sb-4k-bullet-poe-ip-camera)

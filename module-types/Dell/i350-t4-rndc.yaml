@@ -1,0 +1,18 @@
+---
+manufacturer: Dell
+model: I350-T4 rNDC
+part_number: RNDC I350-T4
+comments: '[Datasheet](https://cdrdv2-public.intel.com/741534/Dell%20Cougar%20Flat%20I350_T4_26.pdf)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet/{module}/3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ethernet/{module}/4
+    type: 1000base-t
+    mgmt_only: false

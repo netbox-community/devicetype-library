@@ -1,0 +1,23 @@
+---
+manufacturer: Avtron
+model: AM-SM5030-MMR3
+slug: avtron-am-sm5030-mmr3
+part_number: AM-SM5030-MMR3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Avtron AM-SM5030-MMR3 product page](https://avtrontech.com/products/am-sm5030-mmr3)

@@ -1,0 +1,16 @@
+---
+manufacturer: Neutron
+model: NEU-IPSD42-X25
+slug: neutron-neu-ipsd42-x25
+part_number: NEU-IPSD42-X25
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 21 W
+comments: >
+  [Neutron NEU-IPSD42-X25 product page](https://www.neutron.com.tr/en/product/4-mp-lighthunter-ptz-dome-ip-camera)

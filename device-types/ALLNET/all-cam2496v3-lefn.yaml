@@ -1,0 +1,23 @@
+---
+manufacturer: ALLNET
+model: ALL-CAM2496v3-LEFN
+slug: allnet-all-cam2496v3-lefn
+part_number: ALL-CAM2496v3-LEFN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [ALLNET ALL-CAM2496v3-LEFN product page](https://www.allnet.de/de/allnet-brand/produkte/video-surveillance/videocameras-bullet/p/allnet-ip-kamera-bullet-outdoor-5mp-ir-low-light-motorisiertes-vario-objektiv-93-al-1)
