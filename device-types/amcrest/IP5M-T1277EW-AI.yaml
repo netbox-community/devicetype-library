@@ -1,0 +1,32 @@
+---
+manufacturer: Amcrest
+model: IP5M-T1277EW-AI
+slug: amcrest-ip5m-t1277ew-ai
+
+u_height: 0
+is_full_depth: false
+
+weight: 549
+weight_unit: g
+
+is_powered: true
+airflow: passive
+front_image: true
+rear_image: false
+
+comments: '[Amcrest IP5M-T1277EW-AI datasheet](https://support.amcrest.com/hc/en-us/articles/11071625594637-Technical-Specifications-IP5M-T1277EW-AI)'
+
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    allocated_draw: 4
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
