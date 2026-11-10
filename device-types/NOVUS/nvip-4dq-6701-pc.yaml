@@ -1,0 +1,27 @@
+---
+manufacturer: NOVUS
+model: NVIP-4DQ-6701/PC
+slug: novus-nvip-4dq-6701-pc
+part_number: NVIP-4DQ-6701/PC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [NOVUS NVIP-4DQ-6701/PC product page](https://www.novuscctv.com/en/products/6719/NVIP-4DQ-6701_PC)

@@ -1,0 +1,18 @@
+---
+manufacturer: SANNCE
+model: FW800
+slug: sannce-fw800
+part_number: FW800
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+comments: >
+  [SANNCE FW800 product page](https://www.sannce.com/products/fw800-4k-poe-security-camera-w-audio-ai-detection)
