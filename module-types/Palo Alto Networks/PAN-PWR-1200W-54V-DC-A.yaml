@@ -1,0 +1,13 @@
+---
+manufacturer: Palo Alto Networks
+model: PAN-PWR-1200W-54V-DC-A
+part_number: PAN-PWR-1200W-54V-DC-A
+comments: |
+  [PA-1500 series datasheet](https://www.paloaltonetworks.com/resources/datasheets/pa-1500-series)
+
+  1200 W replaceable power supply for PA-1500 series firewalls.
+power-ports:
+  - name: PS{module}
+    type: other
+    description: D-sub 3W3 DC input (PAN-PWR-DC-DSUB-3W3-CBL-2M)
+    maximum_draw: 1200
