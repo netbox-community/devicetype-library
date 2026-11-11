@@ -37,12 +37,6 @@ console-ports:
     type: usb-a
     description: Rear USB 3.2 Gen 1 (5 Gbps)
   # HDMI has no dedicated connector type in the schema.
-  - name: HDMI 1
-    type: other
-    description: Rear HDMI 2.0 output (4K at 60 Hz)
-  - name: HDMI 2
-    type: other
-    description: Rear HDMI 2.0 output (4K at 60 Hz)
 module-bays:
   - name: M.2
     position: '1'
