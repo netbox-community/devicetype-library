@@ -1,0 +1,56 @@
+---
+manufacturer: Lantronix
+model: SLC83162201S
+slug: lantronix-slc83162201s
+part_number: SLC83162201S
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 11.1
+weight_unit: lb
+comments: SLC 8000, 16x 1GbE switch ports, 2x 1GbE, dual AC PSU. https://www.lantronix.com/products/lantronix-slc-8000/
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Switch-Port-1
+    type: 1000base-t
+  - name: Switch-Port-2
+    type: 1000base-t
+  - name: Switch-Port-3
+    type: 1000base-t
+  - name: Switch-Port-4
+    type: 1000base-t
+  - name: Switch-Port-5
+    type: 1000base-t
+  - name: Switch-Port-6
+    type: 1000base-t
+  - name: Switch-Port-7
+    type: 1000base-t
+  - name: Switch-Port-8
+    type: 1000base-t
+  - name: Switch-Port-9
+    type: 1000base-t
+  - name: Switch-Port-10
+    type: 1000base-t
+  - name: Switch-Port-11
+    type: 1000base-t
+  - name: Switch-Port-12
+    type: 1000base-t
+  - name: Switch-Port-13
+    type: 1000base-t
+  - name: Switch-Port-14
+    type: 1000base-t
+  - name: Switch-Port-15
+    type: 1000base-t
+  - name: Switch-Port-16
+    type: 1000base-t
+module-bays:
+  - name: Power Supply
+    position: PSU

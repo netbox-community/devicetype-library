@@ -1,0 +1,89 @@
+---
+manufacturer: Lantronix
+model: SLC82321201S
+slug: lantronix-slc82321201s
+part_number: SLC82321201S
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 11.1
+weight_unit: lb
+comments: SLC 8000, 16x RJ45 serial, 16x USB serial, 2x 1GbE, single AC PSU. https://www.lantronix.com/products/lantronix-slc-8000/
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Port-01
+    type: rj-45
+  - name: Port-02
+    type: rj-45
+  - name: Port-03
+    type: rj-45
+  - name: Port-04
+    type: rj-45
+  - name: Port-05
+    type: rj-45
+  - name: Port-06
+    type: rj-45
+  - name: Port-07
+    type: rj-45
+  - name: Port-08
+    type: rj-45
+  - name: Port-09
+    type: rj-45
+  - name: Port-10
+    type: rj-45
+  - name: Port-11
+    type: rj-45
+  - name: Port-12
+    type: rj-45
+  - name: Port-13
+    type: rj-45
+  - name: Port-14
+    type: rj-45
+  - name: Port-15
+    type: rj-45
+  - name: Port-16
+    type: rj-45
+  - name: Port-17
+    type: usb-a
+  - name: Port-18
+    type: usb-a
+  - name: Port-19
+    type: usb-a
+  - name: Port-20
+    type: usb-a
+  - name: Port-21
+    type: usb-a
+  - name: Port-22
+    type: usb-a
+  - name: Port-23
+    type: usb-a
+  - name: Port-24
+    type: usb-a
+  - name: Port-25
+    type: usb-a
+  - name: Port-26
+    type: usb-a
+  - name: Port-27
+    type: usb-a
+  - name: Port-28
+    type: usb-a
+  - name: Port-29
+    type: usb-a
+  - name: Port-30
+    type: usb-a
+  - name: Port-31
+    type: usb-a
+  - name: Port-32
+    type: usb-a
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Power Supply
+    position: PSU
