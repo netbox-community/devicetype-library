@@ -12,19 +12,49 @@ rear_image: true
 is_full_depth: false
 comments: '[Juniper MX304 Data Sheet](https://www.juniper.net/fr/fr/products/routers/mx-series/mx304-universal-routing-platform.html)'
 module-bays:
-  - name: PEM0
+  - name: Power Supply 0
     label: PSU 0
-    position: PSU0
-  - name: PEM1
+    position: '0'
+    module_bay_types:
+      - MX304-PSU
+  - name: Power Supply 1
     label: PSU 1
-    position: PSU1
+    position: '1'
+    module_bay_types:
+      - MX304-PSU
   - name: RE0
     label: Routing Engine 0
     position: '0'
+    module_bay_types:
+      - MX304-RE
   - name: RE1
     label: Routing Engine 1
-    position: '1'
+    position: 0/2
+    module_bay_types:
+      - MX304-RE
+      - MX304-LMIC
   - name: LCMIC0
-    position: '0'
+    label: Line Card MIC 0
+    position: 0/0
+    module_bay_types:
+      - MX304-LMIC
   - name: LCMIC1
-    position: '1'
+    label: Line Card MIC 1
+    position: 0/1
+    module_bay_types:
+      - MX304-LMIC
+  - name: Fan Tray 0
+    position: FAN0
+    label: Fan Tray Controller
+    module_bay_types:
+      - MX304-FAN
+  - name: Fan Tray 1
+    position: FAN1
+    label: Fan Tray Controller
+    module_bay_types:
+      - MX304-FAN
+  - name: Fan Tray 2
+    position: FAN2
+    label: Fan Tray Controller
+    module_bay_types:
+      - MX304-FAN
