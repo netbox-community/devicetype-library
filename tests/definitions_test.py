@@ -1,7 +1,7 @@
 from tests.test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 from tests import cache_operations
 from tests.yaml_loader import DecimalSafeLoader
-from tests.device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from tests.device_types import DeviceType, ModuleType, RackType, ModuleBayType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -198,6 +198,14 @@ else:
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
+KNOWN_MODULE_BAY_TYPES = set()
+MODULE_BAY_TYPE_SLUGS = {}
+for bay_type_file in glob.glob('module-bay-types/*/*.y*ml'):
+    with open(bay_type_file) as f:
+        bay_type = yaml.safe_load(f)
+    KNOWN_MODULE_BAY_TYPES.add((bay_type['manufacturer'], bay_type['name']))
+    MODULE_BAY_TYPE_SLUGS.setdefault(bay_type['slug'], []).append(bay_type_file)
+
 @pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
 def test_definitions(file_path, schema, change_type):
     """
@@ -243,12 +251,23 @@ def test_definitions(file_path, schema, change_type):
     elif "rack-types" in file_path:
         # A rack type
         this_device = RackType(definition, file_path, change_type)
+    elif "module-bay-types" in file_path:
+        # A module bay type
+        this_device = ModuleBayType(definition, file_path, change_type)
     else:
         # A module
         this_device = ModuleType(definition, file_path, change_type)
 
     # Validate that front-ports reference existing rear-ports
     if any(x in file_path for x in ("device-types", "module-types")):
+        # Every referenced module bay type must exist in module-bay-types/
+        bay_type_refs = list(definition.get("module_bay_types", []))
+        for bay in definition.get("module-bays", []) or []:
+            bay_type_refs += bay.get("module_bay_types", [])
+        for ref in bay_type_refs:
+            if not {(definition['manufacturer'], ref), ('Generic', ref)} & KNOWN_MODULE_BAY_TYPES:
+                pytest.fail(f"{file_path}: module bay type '{ref}' is not defined for {definition['manufacturer']} or Generic", False)
+
         rear_ports = definition.get("rear-ports", []) or []
         front_ports = definition.get("front-ports", []) or []
 
@@ -370,6 +389,10 @@ def test_definitions(file_path, schema, change_type):
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
+
+    if isinstance(this_device, ModuleBayType) and len(MODULE_BAY_TYPE_SLUGS[this_device.slug]) > 1:
+        duplicates = ", ".join(sorted(MODULE_BAY_TYPE_SLUGS[this_device.slug]))
+        pytest.fail(f'{file_path} has a duplicate slug "{this_device.slug}": {duplicates}', False)
 
     # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)
