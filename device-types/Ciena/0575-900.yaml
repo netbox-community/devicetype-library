@@ -1,0 +1,107 @@
+---
+manufacturer: Ciena
+model: 0575-900
+slug: ciena-0575-900
+part_number: 170-0575-900
+comments: PLC splitter module 2x8 for the 0480 canopy chassis. [Ciena 3803-MTL DCOM ONU data sheet](https://www.ciena.com/insights/data-sheets/3803-mtl-dcom-onu)
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+airflow: passive
+front-ports:
+  - name: OUT 1
+    type: sc-apc
+    positions: 2
+  - name: OUT 2
+    type: sc-apc
+    positions: 2
+  - name: OUT 3
+    type: sc-apc
+    positions: 2
+  - name: OUT 4
+    type: sc-apc
+    positions: 2
+  - name: OUT 5
+    type: sc-apc
+    positions: 2
+  - name: OUT 6
+    type: sc-apc
+    positions: 2
+  - name: OUT 7
+    type: sc-apc
+    positions: 2
+  - name: OUT 8
+    type: sc-apc
+    positions: 2
+rear-ports:
+  - name: IN 1
+    type: sc-apc
+    positions: 8
+  - name: IN 2
+    type: sc-apc
+    positions: 8
+port-mappings:
+  - front_port: OUT 1
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 1
+  - front_port: OUT 1
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 1
+  - front_port: OUT 2
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 2
+  - front_port: OUT 2
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 2
+  - front_port: OUT 3
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 3
+  - front_port: OUT 3
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 3
+  - front_port: OUT 4
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 4
+  - front_port: OUT 4
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 4
+  - front_port: OUT 5
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 5
+  - front_port: OUT 5
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 5
+  - front_port: OUT 6
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 6
+  - front_port: OUT 6
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 6
+  - front_port: OUT 7
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 7
+  - front_port: OUT 7
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 7
+  - front_port: OUT 8
+    front_port_position: 1
+    rear_port: IN 1
+    rear_port_position: 8
+  - front_port: OUT 8
+    front_port_position: 2
+    rear_port: IN 2
+    rear_port_position: 8
