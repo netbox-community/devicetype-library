@@ -1,0 +1,39 @@
+---
+manufacturer: Oracle
+model: Exadata X9M-2 Database Server
+slug: oracle-exadata-x9m-2-database-server
+u_height: 1
+is_full_depth: true
+weight: 18.1
+weight_unit: kg
+airflow: front-to-rear
+comments: '[Oracle Exadata X9-2 Database Server Service Manual](https://docs.oracle.com/en/servers/x86/x9-2/exa-database/product-description.html)'
+console-ports:
+  - name: SER MGT
+    type: rj-45
+module-bays:
+  - name: PS0
+    label: PS 0
+    position: '0'
+  - name: PS1
+    label: PS 1
+    position: '1'
+  - name: PCIE1
+    label: PCIe 1
+    position: '1'
+  - name: PCIE2
+    label: PCIe 2
+    position: '2'
+  - name: PCIE3
+    label: PCIe 3
+    position: '3'
+  - name: OCP
+    label: OCP 3.0
+    position: OCP
+interfaces:
+  - name: NET MGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth0
+    label: NET 0
+    type: 1000base-t

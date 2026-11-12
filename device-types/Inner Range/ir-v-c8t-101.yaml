@@ -1,0 +1,25 @@
+---
+manufacturer: Inner Range
+model: IR-V-C8T-101
+slug: inner-range-ir-v-c8t-101
+part_number: IR-V-C8T-101
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Inner Range IR-V-C8T-101 product page](https://www.innerrange.com/products/ip-cameras/ir-v-c8t-101)

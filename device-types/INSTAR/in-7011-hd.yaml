@@ -1,0 +1,26 @@
+---
+manufacturer: INSTAR
+model: IN-7011 HD
+slug: instar-in-7011-hd
+part_number: IN-7011 HD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [INSTAR IN-7011 HD product page](https://wiki.instar.com/en/Outdoor_Cameras/IN-7011_HD)
