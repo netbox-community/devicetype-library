@@ -1,0 +1,59 @@
+---
+manufacturer: Yealink
+model: AVHub
+slug: yealink-avhub
+description: Meeting Audio & Video Processor
+comments: '[AVHub Datasheet](https://support.yealink.com/docs/avhub/yealink-avhub-datasheet/d56f45f5ac5a49c39bffd26a509ec9b7)'
+
+u_height: 1
+is_full_depth: false
+
+weight: 2.31
+weight_unit: kg
+
+airflow: passive
+is_powered: true
+
+front_image: true
+rear_image: true
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 96
+console-ports:
+  - name: PC
+    type: usb-b
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: Codec
+    type: 1000base-t
+  - name: VCH 1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: VCH 2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: VCH 3
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: VCH 4
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: VCH 5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: VCH 6
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: VCH 7
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
