@@ -1,0 +1,23 @@
+---
+manufacturer: Safire
+model: SF-IPSD4025ITA-4E1
+slug: safire-sf-ipsd4025ita-4e1
+part_number: SF-IPSD4025ITA-4E1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+comments: >
+  [Safire SF-IPSD4025ITA-4E1 product page](https://www.safirecctv.com/product/sf-ipsd4025ita-4e1)

@@ -1,0 +1,27 @@
+---
+manufacturer: IMOU
+model: PS70F 3MP+5MP
+slug: imou-ps70f-3mp-plus-5mp
+part_number: PS70F 3MP+5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 622
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU PS70F 3MP+5MP product page](https://www.imou.com/en/product/detail/ps70f-3mp-plus5mp)

@@ -1,0 +1,20 @@
+---
+manufacturer: Eagle Eye Networks
+model: DZ06
+slug: eagle-eye-networks-dz06
+part_number: DZ06
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
