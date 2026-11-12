@@ -1,0 +1,27 @@
+---
+manufacturer: Ernitec
+model: Wolf 5MP Turret
+slug: ernitec-wolf-5mp-turret
+part_number: Wolf 5MP Turret
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Ernitec Wolf 5MP Turret product page](https://ernitec.com/product/wolf-5mp-turret-camera-with-2-8mm-lens-ir-30m-poe-ip66-ndaa)
