@@ -36,9 +36,11 @@ power-ports:
     description: DC barrel input; external 19 V / 6.32 A adapter; connector dimensions and polarity unverified
 interfaces:
   - name: eno1
+    label: LAN1
     type: 2.5gbase-t
     description: Intel I226-V (8086:125c), PCI 0000:02:00.0; rear jack nearest the power input
   - name: enp3s0
+    label: LAN2
     type: 2.5gbase-t
     description: Intel I226-V (8086:125c), PCI 0000:03:00.0; rear jack farther from the power input
 module-bays:
