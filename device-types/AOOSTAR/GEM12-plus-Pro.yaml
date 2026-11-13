@@ -1,7 +1,7 @@
 ---
 manufacturer: AOOSTAR
-model: GEM12+
-slug: aoostar-gem12-plus
+model: GEM12+Pro
+slug: aoostar-gem12-plus-pro
 u_height: 0
 is_full_depth: false
 weight: 460
@@ -13,8 +13,7 @@ description: Desktop mini PC with AMD Ryzen 7 PRO 8845HS, dual 2.5 GbE and OCuLi
 comments: |
   [Manufacturer specifications](https://aoostar.com/products/aoostar-gem12-amd-r7-pro-8845hs-mini-pc)
 
-  This definition covers the GEM12+ revision, as confirmed by the owner.
-  SMBIOS identifies the system and motherboard as Tianbei GEM12; the owner confirms the GEM12+ model.
+  The chassis model is GEM12+Pro; SMBIOS identifies the system and motherboard as Tianbei GEM12.
   Hardware inventory confirms the Ryzen 7 PRO 8845HS with Radeon 780M graphics and two DDR5 SODIMM slots.
   The manufacturer advertises DDR5-5600 and up to 128 GB; SMBIOS reports a 64 GB maximum.
   Maximum capacity is unverified. A DDR5-4800 module was observed running at 4800 MT/s;
@@ -24,7 +23,7 @@ comments: |
   per-slot PCIe generation and lane count have not been verified on hardware.
   External I/O: two USB4, two USB 3.2 Gen 2, two USB 2.0, OCuLink, HDMI 2.1, DisplayPort 1.4,
   two 2.5 GbE ports and a 3.5 mm audio jack. OCuLink does not support hot-swap.
-  The owner confirms a 19 V / 6.32 A DC barrel supply, 460 g chassis weight and side-to-rear airflow.
+  DC barrel supply: 19 V / 6.32 A. Chassis weight: 460 g. Airflow: side-to-rear.
   Adapter capacity is not a measured chassis power draw.
   The installed removable wireless card is an Intel AX200 (PCI 8086:2723, USB Bluetooth 8087:0029).
   Wi-Fi and Bluetooth belong to the removable module, rather than fixed chassis interfaces.
