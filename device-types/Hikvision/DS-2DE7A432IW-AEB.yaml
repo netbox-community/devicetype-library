@@ -1,0 +1,22 @@
+---
+manufacturer: Hikvision
+model: DS-2DE7A432IW-AEB
+slug: hikvision-ds-2de7a432iw-aeb
+part_number: DS-2DE7A432IW-AEB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 42 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2DE7A432IW-AEB product page](https://www.hikvision.com/us-en/products/network-products/ip-ptz-cameras/pro-series/ds-2de7a432iw-aeb)
