@@ -1,0 +1,21 @@
+---
+manufacturer: EverFocus
+model: SQA-8B2 Series
+slug: everfocus-sqa-8b2-series
+part_number: SQA-8B2 Series
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 48V DC
+comments: >
+  [EverFocus SQA-8B2 Series product page](https://www.everfocus.com/products-detail/SQA-8B2-Series-Edge-AI-Camera)
