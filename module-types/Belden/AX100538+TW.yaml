@@ -1,0 +1,69 @@
+---
+manufacturer: Belden
+model: AX100538+TW
+part_number: AX100538+TW
+description: FiberExpress Adapter Strip, loaded 6 SC Simplex Singlemode Adapters Black
+comments: '[FX Adapter Strip SC Simplex](https://www.belden.com/products/panels-patching-systems/fiber-patch-systems/rack-mount-panel/fx-adapter-strip-sc-simplex)'
+front-ports:
+  - name: '{module}:1'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:2'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:3'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:4'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:5'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:6'
+    type: sc-upc
+    positions: 1
+rear-ports:
+  - name: '{module}:1'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:2'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:3'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:4'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:5'
+    type: sc-upc
+    positions: 1
+  - name: '{module}:6'
+    type: sc-upc
+    positions: 1
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:6'
+    rear_port_position: 1
