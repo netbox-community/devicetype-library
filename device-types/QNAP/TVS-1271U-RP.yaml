@@ -1,0 +1,29 @@
+---
+manufacturer: QNAP
+model: TVS-1271U-RP
+slug: qnap-tvs-1271u-rp
+u_height: 2
+is_full_depth: true
+weight: 16.14
+weight_unit: kg
+comments: '[TVS-1271U-RP | Hardware Specs | QNAP](https://www.qnap.com/en/product/tvs-1271u-rp/specs/hardware)'
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PCIe1
+    position: PCIe1
+    description: PCIe Gen3 x8
+  - name: PCIe2
+    position: PCIe2
+    description: PCIe Gen3 x4
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
