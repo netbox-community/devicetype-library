@@ -1,0 +1,45 @@
+---
+manufacturer: NetApp
+model: FAS2650-Ctrl
+slug: netapp-fas2650-ctrl
+description: FAS2650 Controller
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: |
+  Onboard ports per controller: e0a/e0b 10GbE SFP+ (default cluster ports), e0c-e0f UTA2 (CNA/FC),
+  wrench port e0M, SAS ports 0a and 0b (mini-SAS HD), micro-USB console.
+  Installation: https://docs.netapp.com/us-en/ontap-systems/media/PDF/FAS26xx_ISI_215-15014_A0.pdf
+  Datasheet (eight UTA2 and four 10GbE ports per HA pair): https://web.archive.org/web/20191018201305/https://www.netapp.com/us/media/ds-3808.pdf
+  Ports e0c-e0f: https://kb.netapp.com/on-prem/ontap/OHW/OHW-KBs/Port_e0c_e0d_e0e_e0f_can't_be_identified_after_power_cycle
+  Default cluster ports: https://kb.netapp.com/onprem/ontap/os/What_are_the_default_Cluster_Network_ports_for_each_platform
+console-ports:
+  - name: console
+    type: usb-micro-b
+interfaces:
+  - name: e0a
+    type: 10gbase-x-sfpp
+  - name: e0b
+    type: 10gbase-x-sfpp
+  - name: e0c
+    type: 10gbase-x-sfpp
+    description: UTA2
+  - name: e0d
+    type: 10gbase-x-sfpp
+    description: UTA2
+  - name: e0e
+    type: 10gbase-x-sfpp
+    description: UTA2
+  - name: e0f
+    type: 10gbase-x-sfpp
+    description: UTA2
+  - name: e0M
+    type: other
+    mgmt_only: true
+    description: Wrench port
+  - name: 0a
+    type: other
+    description: SAS, mini-SAS HD
+  - name: 0b
+    type: other
+    description: SAS, mini-SAS HD
