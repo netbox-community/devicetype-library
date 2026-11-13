@@ -1,0 +1,22 @@
+---
+manufacturer: NetApp
+model: AFF A250 Chassis
+slug: netapp-aff-a250-chassis
+description: AFF A250 HA System Chassis
+u_height: 2
+is_full_depth: true
+weight: 24.6
+weight_unit: kg
+subdevice_role: parent
+comments: |
+  2U chassis with two HA controllers and 24 internal drive slots. The power supplies install into the
+  controller modules (one each) rather than the chassis, so the chassis itself has no power inlet; see the
+  AFF A250 Controller definition.
+  Specifications: https://docs.netapp.com/us-en/ontap-systems/a250/overview.html
+  Power supply: https://docs.netapp.com/us-en/ontap-systems/a250/power-supply-replace.html
+is_powered: false
+device-bays:
+  - name: Controller A
+    label: A
+  - name: Controller B
+    label: B

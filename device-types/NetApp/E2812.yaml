@@ -1,0 +1,24 @@
+---
+manufacturer: NetApp
+model: E2812
+slug: netapp-e2812
+description: E2812 Controller Shelf
+u_height: 2
+is_full_depth: true
+weight: 29
+weight_unit: kg
+comments: |
+  2U controller shelf with twelve 3.5-inch drive slots, one (simplex) or two (duplex) E2800 controller canisters
+  and two power-fan canisters. Host ports depend on the controller canister (two SFP+ or two RJ-45 baseboard
+  ports, optional HIC). Weight is the maximum (fully loaded) value.
+  Specifications: https://docs.netapp.com/p/e-series/systems/Site-Preparation-Guide-e5560.pdf
+  Canisters: https://docs.netapp.com/us-en/e-series/maintenance-e2800/canisters-overview-supertask-concept.html
+module-bays:
+  - name: Controller A
+    position: A
+  - name: Controller B
+    position: B
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
