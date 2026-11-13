@@ -4,7 +4,6 @@ model: AX100538+TW
 part_number: AX100538+TW
 description: FiberExpress Adapter Strip, loaded 6 SC Simplex Singlemode Adapters Black
 comments: '[FX Adapter Strip SC Simplex](https://www.belden.com/products/panels-patching-systems/fiber-patch-systems/rack-mount-panel/fx-adapter-strip-sc-simplex)'
-front_image: true
 front-ports:
   - name: '{module}:1'
     type: sc-upc
@@ -23,6 +22,7 @@ front-ports:
     positions: 1
   - name: '{module}:6'
     type: sc-upc
+    positions: 1
 rear-ports:
   - name: '{module}:1'
     type: sc-upc
