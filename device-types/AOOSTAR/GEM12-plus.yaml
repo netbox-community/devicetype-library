@@ -4,6 +4,9 @@ model: GEM12+
 slug: aoostar-gem12-plus
 u_height: 0
 is_full_depth: false
+weight: 460
+weight_unit: g
+airflow: side-to-rear
 front_image: true
 rear_image: true
 description: Desktop mini PC with AMD Ryzen 7 PRO 8845HS, dual 2.5 GbE and OCuLink.
@@ -11,24 +14,34 @@ comments: |
   [Manufacturer specifications](https://aoostar.com/products/aoostar-gem12-amd-r7-pro-8845hs-mini-pc)
 
   This definition covers the GEM12+ revision, as confirmed by the owner.
-  Two DDR5-5600 slots support up to 128 GB; two M.2 2280 PCIe 4.0 x4 NVMe slots support up to 8 TB total.
+  SMBIOS identifies the system and motherboard as Tianbei GEM12; the owner confirms the GEM12+ model.
+  Hardware inventory confirms the Ryzen 7 PRO 8845HS with Radeon 780M graphics and two DDR5 SODIMM slots.
+  The manufacturer advertises DDR5-5600 and up to 128 GB; SMBIOS reports a 64 GB maximum.
+  Maximum capacity is unverified. A DDR5-4800 module was observed running at 4800 MT/s;
+  this does not establish the maximum supported memory speed.
+  Two full-size M.2 SSD slots and a separate short, removable WLAN card slot were physically confirmed.
+  The manufacturer specifies M.2 2280 PCIe 4.0 x4 NVMe slots and up to 8 TB total storage;
+  per-slot PCIe generation and lane count have not been verified on hardware.
   External I/O: two USB4, two USB 3.2 Gen 2, two USB 2.0, OCuLink, HDMI 2.1, DisplayPort 1.4,
   two 2.5 GbE ports and a 3.5 mm audio jack. OCuLink does not support hot-swap.
-  The product page lists a 19 V / 6.32 A (120 W) DC supply; this is not a measured chassis power draw.
-  Wi-Fi 6 and Bluetooth 5.2 are advertised, but the wireless module's replaceability needs confirmation.
+  The owner confirms a 19 V / 6.32 A DC barrel supply, 460 g chassis weight and side-to-rear airflow.
+  Adapter capacity is not a measured chassis power draw.
+  The installed removable wireless card is an Intel AX200 (PCI 8086:2723, USB Bluetooth 8087:0029).
+  Wi-Fi and Bluetooth belong to the removable module, rather than fixed chassis interfaces.
 
-  Pending hardware inventory: weight, airflow, part number, power draw and OS interface names.
-  Confirm that the supplied front/rear images match this revision, including the DC input arrangement.
-  LAN and module-bay names below are provisional identifiers, not verified OS/SMBIOS names.
+  Pending hardware inventory: part number, power draw, barrel dimensions/polarity and image/revision match.
+  SSD and WLAN bay identifiers are logical names; board slot labels remain unverified.
 power-ports:
   - name: DC IN
     type: dc-terminal
-    description: Barrel input shown in supplied rear image; confirm connector and power arrangement on GEM12+
+    description: DC barrel input; external 19 V / 6.32 A adapter; connector dimensions and polarity unverified
 interfaces:
-  - name: LAN 1
+  - name: eno1
     type: 2.5gbase-t
-  - name: LAN 2
+    description: Intel I226-V (8086:125c), PCI 0000:02:00.0; rear jack nearest the power input
+  - name: enp3s0
     type: 2.5gbase-t
+    description: Intel I226-V (8086:125c), PCI 0000:03:00.0; rear jack farther from the power input
 module-bays:
   - name: M.2 SSD 1
     position: '1'
@@ -36,9 +49,12 @@ module-bays:
   - name: M.2 SSD 2
     position: '2'
     description: M.2 2280 PCIe 4.0 x4 NVMe SSD slot
-  - name: DIMM 1
-    position: '3'
-    description: DDR5 SODIMM slot; SMBIOS locator pending confirmation
-  - name: DIMM 2
-    position: '4'
-    description: DDR5 SODIMM slot; SMBIOS locator pending confirmation
+  - name: WLAN
+    position: WLAN
+    description: Short M.2 slot for removable wireless card; observed Intel AX200 Wi-Fi 6 / Bluetooth module
+  - name: P0 CHANNEL A DIMM 0
+    position: P0 CHANNEL A
+    description: DDR5 SODIMM slot; SMBIOS bank P0 CHANNEL A, locator DIMM 0
+  - name: P0 CHANNEL B DIMM 0
+    position: P0 CHANNEL B
+    description: DDR5 SODIMM slot; SMBIOS bank P0 CHANNEL B, locator DIMM 0
