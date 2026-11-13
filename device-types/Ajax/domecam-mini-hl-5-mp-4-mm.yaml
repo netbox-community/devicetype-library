@@ -1,0 +1,27 @@
+---
+manufacturer: Ajax
+model: DomeCam Mini HL (5 MP/4 mm)
+slug: ajax-domecam-mini-hl-5-mp-4-mm
+part_number: DomeCam Mini HL (5 MP/4 mm)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 7.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Ajax DomeCam Mini HL (5 MP/4 mm) product page](https://ajax.systems/products/specs/domecam-mini-hl-5-mp-4-mm)

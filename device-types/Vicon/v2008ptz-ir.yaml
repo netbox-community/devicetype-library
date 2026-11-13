@@ -1,0 +1,22 @@
+---
+manufacturer: Vicon
+model: V2008PTZ-IR
+slug: vicon-v2008ptz-ir
+part_number: V2008PTZ-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 71 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Vicon V2008PTZ-IR product page](https://info.vicon-security.com/hubfs/Product%20Resources/Vicon-RNAI-4K-PTZ-DS.pdf)

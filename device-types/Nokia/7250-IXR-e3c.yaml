@@ -1,0 +1,78 @@
+---
+manufacturer: Nokia
+model: 7250 IXR-e3c
+slug: nokia-7250-ixr-e3c
+u_height: 1
+is_full_depth: false
+airflow: right-to-left
+comments: '[Datasheet](https://onestore.nokia.com/asset/i/215309)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: 1/1/c1
+    type: 100gbase-x-qsfp28
+  - name: 1/1/c2
+    type: 100gbase-x-qsfp28
+  - name: 1/1/c3
+    type: 100gbase-x-qsfp28
+  - name: 1/1/c4
+    type: 100gbase-x-qsfp28
+  - name: 1/1/c5
+    type: 25gbase-x-sfp28
+  - name: 1/1/c6
+    type: 25gbase-x-sfp28
+  - name: 1/1/c7
+    type: 25gbase-x-sfp28
+  - name: 1/1/c8
+    type: 25gbase-x-sfp28
+  - name: 1/1/c9
+    type: 25gbase-x-sfp28
+  - name: 1/1/c10
+    type: 25gbase-x-sfp28
+  - name: 1/1/c11
+    type: 25gbase-x-sfp28
+  - name: 1/1/c12
+    type: 25gbase-x-sfp28
+  - name: 1/1/c13
+    type: 25gbase-x-sfp28
+  - name: 1/1/c14
+    type: 25gbase-x-sfp28
+  - name: 1/1/c15
+    type: 25gbase-x-sfp28
+  - name: 1/1/c16
+    type: 25gbase-x-sfp28
+  - name: 1/1/c17
+    type: 25gbase-x-sfp28
+  - name: 1/1/c18
+    type: 25gbase-x-sfp28
+  - name: 1/1/c19
+    type: 25gbase-x-sfp28
+  - name: 1/1/c20
+    type: 25gbase-x-sfp28
+  - name: 1/1/c21
+    type: 50gbase-x-sfp56
+  - name: 1/1/c22
+    type: 50gbase-x-sfp56
+  - name: 1/1/c23
+    type: 50gbase-x-sfp56
+  - name: 1/1/c24
+    type: 50gbase-x-sfp56
+  - name: 1/1/c25
+    type: 50gbase-x-sfp56
+  - name: 1/1/c26
+    type: 50gbase-x-sfp56
+  - name: 1/1/c27
+    type: 50gbase-x-sfp56
+  - name: 1/1/c28
+    type: 50gbase-x-sfp56
+  - name: A/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: A/gnss
+    type: other-wireless
+module-bays:
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'

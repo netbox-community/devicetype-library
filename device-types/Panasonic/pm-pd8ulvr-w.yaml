@@ -1,0 +1,23 @@
+---
+manufacturer: Panasonic
+model: PM-PD8ULVR-W
+slug: panasonic-pm-pd8ulvr-w
+part_number: PM-PD8ULVR-W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 890
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Panasonic PM-PD8ULVR-W product page](https://www.panasonic.com/mea/en/business/surveillance-solutions/dome-cameras/pm-pd8ulvr-w.html)

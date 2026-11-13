@@ -23,3 +23,13 @@ interfaces:
   - name: iDRAC
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: PCIe Mezzanine 1
+    position: PCIe-1
+    description: PCIe3 x8 Network Daughter Card
+  - name: PCIe Slot 2
+    position: PCIe-2
+    description: PCIe3 x16
+  - name: PCIe Slot 3
+    position: PCIe-3
+    description: PCIe4 x16
