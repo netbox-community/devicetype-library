@@ -17,11 +17,10 @@ comments: |
   SMBIOS identifies the system as `Firebat Computer A6` and the motherboard as `SZQFTX H3HY-F`, version V1.0.
   Memory is soldered and not upgradeable: four 4 GB LPDDR5 devices operating at 5500 MT/s.
 
-  Measured chassis dimensions: 127 x 127 x 44 mm (width x depth x height), 400 g weight with a single SSD installed.
+  Measured chassis dimensions: 127 x 127 x 44 mm (width x depth x height), 400 g.
   The system supports two full-size M.2 storage slots and one M.2 slot for a removable wireless module.
 
-  The installed NVMe SSD negotiates PCIe 3.0 x4; its upstream port advertises PCIe 4.0 x4 capability.
-  The installed Realtek RTL8852BE module uses PCIe for Wi-Fi and USB for Bluetooth.
+  OEM ships a Realtek RTL8852BE for Bluetooth and WiFi connectivity.
 
 power-ports:
   - name: DC IN
@@ -34,10 +33,10 @@ interfaces:
 module-bays:
   - name: M.2 SSD 1
     position: '1'
-    description: Full-size M.2 storage slot
+    description: Full-size M.2 storage slot, PCIe 4.0 x4 capability.
   - name: M.2 SSD 2
     position: '2'
-    description: Full-size M.2 storage slot
+    description: Full-size M.2 storage slot, PCIe 4.0 x4 capability.
   - name: WLAN
     position: WLAN
     description: M.2 slot for removable wireless module.
