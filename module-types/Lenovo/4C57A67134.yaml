@@ -1,0 +1,11 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem Storage HIC, 100Gb NVMe-RoCE, 2-ports
+part_number: 4C57A67134
+profile: Expansion card
+comments: '[Lenovo ThinkSystem DM5100F product guide](https://lenovopress.lenovo.com/lp1365-thinksystem-dm5100f-unified-flash-storage-array)'
+interfaces:
+  - name: e{module}a
+    type: 100gbase-x-qsfp28
+  - name: e{module}b
+    type: 100gbase-x-qsfp28
