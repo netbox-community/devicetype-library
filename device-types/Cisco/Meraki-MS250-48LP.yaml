@@ -11,6 +11,9 @@ comments: |
   [MS250 Datasheet](https://meraki.cisco.com/lib/pdf/meraki_datasheet_ms250.pdf)
   Uses MA-PWR-640WAC modular PSU.
 interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
   - name: Port 1
     type: 1000base-t
     poe_mode: pse
