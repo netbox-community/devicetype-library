@@ -1,0 +1,34 @@
+---
+manufacturer: Yealink
+model: MCore 4
+slug: yealink-mcore-4
+description: Meeting Audio & Video Processor
+comments: '[MCore 4 Datasheet](https://support.yealink.com/docs/mcore-4/yealink-mcore-4-datasheet/7d68d893aa164d4f9fc47ee56fde68fa)'
+
+u_height: 0
+is_full_depth: false
+
+weight: 0.5
+weight_unit: kg
+
+airflow: passive
+is_powered: true
+
+front_image: true
+rear_image: true
+
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 20
+interfaces:
+  - name: MTouch
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: LAN
+    type: 1000base-t
+  - name: Internet
+    type: 1000base-t
