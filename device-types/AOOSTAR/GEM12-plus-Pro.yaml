@@ -1,0 +1,54 @@
+---
+manufacturer: AOOSTAR
+model: GEM12+Pro
+slug: aoostar-gem12-plus-pro
+u_height: 0
+is_full_depth: false
+weight: 460
+weight_unit: g
+airflow: side-to-rear
+front_image: true
+rear_image: true
+description: Desktop mini PC with AMD Ryzen 7 PRO 8845HS, dual 2.5 GbE and OCuLink.
+comments: |
+  [Manufacturer specifications](https://aoostar.com/products/aoostar-gem12-amd-r7-pro-8845hs-mini-pc)
+
+  The chassis model is GEM12+Pro; SMBIOS identifies the system and motherboard as Tianbei GEM12.
+  The manufacturer advertises DDR5-5600 and up to 128 GB; SMBIOS reports a 64 GB maximum.
+  The motherboard has two RAM slots.
+  There are also two full-size M.2 SSD slots and a separate short, removable WLAN card slot.
+  The manufacturer specifies M.2 2280 PCIe 4.0 x4 NVMe slots.
+
+  External I/O: two USB4, two USB 3.2 Gen 2, two USB 2.0, OCuLink, HDMI 2.1, DisplayPort 1.4,
+  two 2.5 GbE ports and a 3.5 mm audio jack. OCuLink does not support hot-swap.
+  DC barrel supply: 19 V / 6.32 A.
+
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: DC barrel input; external 19 V / 6.32 A adapter
+interfaces:
+  - name: eno1
+    label: LAN1
+    type: 2.5gbase-t
+    description: Intel I226-V (8086:125c), PCI 0000:02:00.0; rear jack nearest the power input
+  - name: eno2
+    label: LAN2
+    type: 2.5gbase-t
+    description: Intel I226-V (8086:125c), PCI 0000:03:00.0; rear jack farther from the power input
+module-bays:
+  - name: M.2 SSD 1
+    position: '1'
+    description: M.2 2280 PCIe 4.0 x4 NVMe SSD slot
+  - name: M.2 SSD 2
+    position: '2'
+    description: M.2 2280 PCIe 4.0 x4 NVMe SSD slot
+  - name: WLAN
+    position: WLAN
+    description: Short M.2 slot for removable wireless card; OEM ships Intel AX200 Wi-Fi 6 / Bluetooth module
+  - name: P0 CHANNEL A DIMM 0
+    position: P0 CHANNEL A
+    description: DDR5 SODIMM slot; SMBIOS bank P0 CHANNEL A, locator DIMM 0
+  - name: P0 CHANNEL B DIMM 0
+    position: P0 CHANNEL B
+    description: DDR5 SODIMM slot; SMBIOS bank P0 CHANNEL B, locator DIMM 0
