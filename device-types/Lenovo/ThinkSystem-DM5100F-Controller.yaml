@@ -1,0 +1,30 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem DM5100F Controller
+slug: lenovo-thinksystem-dm5100f-controller
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: '[Lenovo ThinkSystem DM5100F product guide](https://lenovopress.lenovo.com/lp1365-thinksystem-dm5100f-unified-flash-storage-array), [DM5100F Installation and Setup Instructions](https://pubs.lenovo.com/dm5100f/Lenovo_DM5100F_Installation_and_Setup_Instructions.pdf)'
+console-ports:
+  - name: Console
+    type: usb-micro-b
+interfaces:
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+  - name: e0a
+    type: 10gbase-t
+  - name: e0b
+    type: 10gbase-t
+  - name: e0c
+    type: 25gbase-x-sfp28
+    description: HA and cluster interconnect
+  - name: e0d
+    type: 25gbase-x-sfp28
+    description: HA and cluster interconnect
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
