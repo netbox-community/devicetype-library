@@ -15,7 +15,7 @@ comments: |-
   The HP EliteDesk 705 G4 comes in several power envelope variants.
   The WLAN card and rear expansion connector board are optional, removable components.
 interfaces:
-  - name: eno1
+  - name: ethernet-1/1
     type: 1000base-t
     description: Onboard Realtek Gigabit Ethernet (rear RJ-45)
 power-ports:
