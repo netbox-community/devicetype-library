@@ -1,0 +1,40 @@
+---
+manufacturer: CHUWI
+model: CoreBox 8259U
+slug: chuwi-corebox-8259u
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+description: Desktop mini PC with Intel Core i5-8259U (4 cores, 8 threads) and Iris Plus Graphics 655.
+comments: |
+  [CHUWI CoreBox 8259U user guide](https://cdn.shopify.com/s/files/1/0116/2762/6596/files/CoreBox8259U-UserGuide.pdf)
+
+  This definition covers the CoreBox with the Intel Core i5-8259U processor.
+  Ethernet and wireless interface names were verified under Linux.
+  SMBIOS reports two DDR4 SODIMM slots and a maximum memory capacity of 32 GB.
+  The inspected system runs memory at 2400 MT/s and has an NVMe SSD installed.
+  An external DC power adapter supplies the system.
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: DC barrel input for external power adapter
+interfaces:
+  - name: enp3s0
+    type: 1000base-t
+    description: Realtek RTL8111/8168/8211/8411 Gigabit Ethernet
+  - name: wlp1s0
+    type: ieee802.11ac
+    description: Realtek RTL8821CE wireless LAN
+module-bays:
+  - name: ChannelA-DIMM0
+    position: '1'
+    description: DDR4 SODIMM; SMBIOS BANK 0
+  - name: ChannelB-DIMM0
+    position: '2'
+    description: DDR4 SODIMM; SMBIOS BANK 2
+  - name: M.2 SSD
+    position: '3'
+    description: M.2 SSD slot; NVMe operation verified
+  - name: SATA drive
+    position: '4'
+    description: 2.5-inch SATA drive bay; connects using the internal SATA cable
