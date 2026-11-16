@@ -1,0 +1,44 @@
+---
+manufacturer: MikroTik
+model: CRS804-4DDQ-hRM
+slug: mikrotik-crs804-4ddq-hrm
+part_number: CRS804-4DDQ-hRM
+u_height: 1
+is_full_depth: false
+is_powered: true
+comments: |
+  [Product Page](https://mikrotik.com/product/crs804_ddq).
+
+  Careful, there is only qsfp56-dd-[1..4]-1 interfaces for 400Gb,
+  don't forget to add the other if you use breakout cables.
+console-ports:
+  - name: serial0
+    type: rj-45
+interfaces:
+  - name: ether1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: ether2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: qsfp56-dd-1-1
+    type: 400gbase-x-qsfpdd
+  - name: qsfp56-dd-2-1
+    type: 400gbase-x-qsfpdd
+  - name: qsfp56-dd-3-1
+    type: 400gbase-x-qsfpdd
+  - name: qsfp56-dd-4-1
+    type: 400gbase-x-qsfpdd
+module-bays:
+  - name: power1
+    position: power1
+    description: Power module
+  - name: power2
+    position: power2
+    description: Power module
+  - name: fan1
+    position: '1'
+    description: Fan tray
+  - name: fan2
+    position: '2'
+    description: Fan tray

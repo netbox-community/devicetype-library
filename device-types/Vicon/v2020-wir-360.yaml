@@ -1,0 +1,23 @@
+---
+manufacturer: Vicon
+model: V2020-WIR-360
+slug: vicon-v2020-wir-360
+part_number: V2020-WIR-360
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3425
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 5, max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+    description: 24V DC
+comments: >
+  [Vicon V2020-WIR-360 product page](https://info.vicon-security.com/hubfs/Product%20Resources/Vicon-RNAI-Multi-Sensor_DS.pdf)

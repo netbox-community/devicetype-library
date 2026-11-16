@@ -1,0 +1,42 @@
+---
+manufacturer: Firebat
+model: F1 (7640HS, 24GB)
+slug: firebat-f1-7640hs-24gb
+u_height: 0
+is_full_depth: false
+front_image: true
+rear_image: true
+weight: 520
+weight_unit: g
+airflow: side-to-rear
+description: Mini PC with AMD Ryzen 5 7640HS, Radeon 760M graphics, and 24 GB soldered LPDDR5 memory.
+comments: |
+  This definition covers the Ryzen 5 7640HS / 24 GB configuration of the F1.
+  Firebat seems to have a few mini PCs with `F1` in their model names, including a 16 and 24 GB configuration.
+  This covers the 24 GB (4x 6 GB LPDDR5) configuration specifically.
+  SMBIOS identifies the system as `Firebat Computer F1` and the motherboard as `SZQFTX A3TS-F`.
+
+  Plastic chassis; nominal weight: 520 g, excluding the power adapter.
+  Front I/O: 2 USB 3.2 Gen 2 Type-A, 1 USB4 Type-C (40 Gbps, DisplayPort output), and a 3.5 mm audio jack.
+  Rear I/O: 4 USB 3.2 Gen 1 Type-A, HDMI 2.0, DisplayPort 1.4, 2.5 GbE, and DC input.
+  DC input: 19 V / 6.32 A (120 W), using a 5.5 x 2.1 mm barrel connector.
+
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    # Barrel input: 5.5 mm OD / 2.1 mm ID; external adapter rated 19 V / 6.32 A (120 W).
+    maximum_draw: 120
+interfaces:
+  # RTL8125 Ethernet controller
+  - name: LAN
+    type: 2.5gbase-t
+module-bays:
+  - name: M.2 SSD 1
+    position: '1'
+    description: M.2 2280 M-key PCIe 4.0 x4 NVMe SSD slot; 2280 only
+  - name: M.2 SSD 2
+    position: '2'
+    description: M.2 2280 M-key PCIe 4.0 x4 NVMe SSD slot; 2280 only
+  - name: WLAN
+    position: WLAN
+    description: Removable wireless card slot; factory Realtek RTL8852BE Wi-Fi 6 / Bluetooth 5.2

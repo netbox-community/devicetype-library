@@ -1,0 +1,23 @@
+---
+manufacturer: Avtron
+model: AM-TS0155-FMM
+slug: avtron-am-ts0155-fmm
+part_number: AM-TS0155-FMM
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Avtron AM-TS0155-FMM product page](https://avtrontech.com/products/am-ts0155-fmm)

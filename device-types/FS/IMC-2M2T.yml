@@ -1,0 +1,27 @@
+---
+manufacturer: FS
+model: IMC-2M2T
+slug: fs-imc-2m2t
+part_number: IMC-2M2T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.42
+weight_unit: kg
+comments: '[FS IMC-2M2T](https://resource.fs.com/mall/resource/imc-2m2t-industrial-ethernet-media-converter-datasheet.pdf)'
+power-ports:
+  - name: PWR 1
+    type: dc-terminal
+    maximum_draw: 5
+  - name: PWR 2
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
