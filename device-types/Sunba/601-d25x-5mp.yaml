@@ -1,0 +1,21 @@
+---
+manufacturer: Sunba
+model: 601-D25X 5MP
+slug: sunba-601-d25x-5mp
+part_number: 601-D25X 5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+comments: >
+  [Sunba 601-D25X 5MP product page](https://www.sunbatech.com/product/601-d25x-5mp)
