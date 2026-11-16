@@ -1,0 +1,19 @@
+---
+manufacturer: Tenda
+model: IC6-PRS
+slug: tenda-ic6-prs
+part_number: IC6-PRS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Tenda IC6-PRS product page](https://static.tenda.com.cn/tdeweb/download/IC6-PRS/IC6-PRS%20datasheet%20EN.pdf)
