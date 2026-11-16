@@ -7,17 +7,20 @@ u_height: 2
 is_full_depth: true
 weight: 29
 weight_unit: kg
+subdevice_role: parent
 comments: |
   2U controller shelf with twelve 3.5-inch drive slots, one (simplex) or two (duplex) E2800 controller canisters
-  and two power-fan canisters. Host ports depend on the controller canister (two SFP+ or two RJ-45 baseboard
-  ports, optional HIC). Weight is the maximum (fully loaded) value.
+  and two power-fan canisters. The controller canisters are modelled as child devices (see E2800-Ctrl). Weight is
+  the maximum (fully loaded) value.
   Specifications: https://docs.netapp.com/p/e-series/systems/Site-Preparation-Guide-e5560.pdf
   Canisters: https://docs.netapp.com/us-en/e-series/maintenance-e2800/canisters-overview-supertask-concept.html
-module-bays:
+  Controllers: https://docs.netapp.com/us-en/e-series/maintenance-e2800/controllers-overview-supertask-concept.html
+device-bays:
   - name: Controller A
-    position: A
+    label: A
   - name: Controller B
-    position: B
+    label: B
+module-bays:
   - name: PSU1
     position: '1'
   - name: PSU2
