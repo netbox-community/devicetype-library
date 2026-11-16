@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW8036PTZ
+slug: gw-security-gw8036ptz
+part_number: GW8036PTZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [GW Security GW8036PTZ product page](https://gwsecurityusa.com/product/gw8036ptz-8mp-ip-poe-4x-optical-zoom-2-8-12mm-motorized-len-ptz-bullet-security-camera)

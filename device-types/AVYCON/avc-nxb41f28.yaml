@@ -1,0 +1,23 @@
+---
+manufacturer: AVYCON
+model: AVC-NXB41F28
+slug: avycon-avc-nxb41f28
+part_number: AVC-NXB41F28
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 322
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.81 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NXB41F28 product page](https://www.avycon.com/products/network_camera/bullet-series/avc-nxb41f28)

@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-T229H
+slug: hilook-ipc-t229h
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-T229H datasheet](https://assets.hikvision.com/prd/public/all/doc/m000019731/IPC-T229H-C_Datasheet_20240830.pdf)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5231E-ZE-HDMI
+slug: dahua-ipc-hdbw5231e-ze-hdmi
+part_number: IPC-HDBW5231E-ZE-HDMI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-HDBW5231E-ZE-HDMI datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw5231e-ze-hdmi)

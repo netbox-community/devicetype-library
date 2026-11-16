@@ -1,0 +1,25 @@
+---
+manufacturer: LILIN
+model: S8R5554X30
+slug: lilin-s8r5554x30
+part_number: S8R5554X30
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 89 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 89
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LILIN S8R5554X30 product page](https://www.meritlilin.com/en/product/S8R5554X30)

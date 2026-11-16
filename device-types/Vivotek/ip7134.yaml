@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: IP7134
+slug: vivotek-ip7134
+part_number: IP7134
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 5V DC
+comments: >
+  [Vivotek IP7134 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/ip7134datasheet_en.pdf)

@@ -19,166 +19,266 @@ rear-ports:
 front-ports:
   - name: Mon
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 1
     description: Monitor port for line channel
+    positions: 1
   - name: '914'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 2
     description: 191.400 THz
+    positions: 1
   - name: '915.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 3
     description: 191.550 THz
+    positions: 1
   - name: '917'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 4
     description: 191.700 THz
+    positions: 1
   - name: '918.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 5
     description: 191.850 THz
+    positions: 1
   - name: '920'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 6
     description: 192.000 THz
+    positions: 1
   - name: '921.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 7
     description: 192.150 THz
+    positions: 1
   - name: '923'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 8
     description: 192.300 THz
+    positions: 1
   - name: '924.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 9
     description: 192.450 THz
+    positions: 1
   - name: '926'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 10
     description: 192.600 THz
+    positions: 1
   - name: '927.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 11
     description: 192.750 THz
+    positions: 1
   - name: '929'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 12
     description: 192.900 THz
+    positions: 1
   - name: '930.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 13
     description: 193.050 THz
+    positions: 1
   - name: '932'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 14
     description: 193.200 THz
+    positions: 1
   - name: '933.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 15
     description: 193.350 THz
+    positions: 1
   - name: '935'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 16
     description: 193.500 THz
+    positions: 1
   - name: '936.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 17
     description: 193.650 THz
+    positions: 1
   - name: '938'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 18
     description: 193.800 THz
+    positions: 1
   - name: '939.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 19
     description: 193.950 THz
+    positions: 1
   - name: '941'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 20
     description: 194.100 THz
+    positions: 1
   - name: '942.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 21
     description: 194.250 THz
+    positions: 1
   - name: '944'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 22
     description: 194.400 THz
+    positions: 1
   - name: '945.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 23
     description: 194.550 THz
+    positions: 1
   - name: '947'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 24
     description: 194.700 THz
+    positions: 1
   - name: '948.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 25
     description: 194.850 THz
+    positions: 1
   - name: '950'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 26
     description: 195.000 THz
+    positions: 1
   - name: '951.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 27
     description: 195.150 THz
+    positions: 1
   - name: '953'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 28
     description: 195.300 THz
+    positions: 1
   - name: '954.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 29
     description: 195.450 THz
+    positions: 1
   - name: '956'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 30
     description: 195.600 THz
+    positions: 1
   - name: '957.5'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 31
     description: 195.750 THz
+    positions: 1
   - name: '959'
     type: lc-upc
-    rear_port: Line
-    rear_port_position: 32
     description: 195.900 THz
+    positions: 1
   - name: '960.5'
     type: lc-upc
+    description: 196.050 THz
+    positions: 1
+port-mappings:
+  - front_port: Mon
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 1
+  - front_port: '914'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 2
+  - front_port: '915.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 3
+  - front_port: '917'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 4
+  - front_port: '918.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 5
+  - front_port: '920'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 6
+  - front_port: '921.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 7
+  - front_port: '923'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 8
+  - front_port: '924.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 9
+  - front_port: '926'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 10
+  - front_port: '927.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 11
+  - front_port: '929'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 12
+  - front_port: '930.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 13
+  - front_port: '932'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 14
+  - front_port: '933.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 15
+  - front_port: '935'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 16
+  - front_port: '936.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 17
+  - front_port: '938'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 18
+  - front_port: '939.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 19
+  - front_port: '941'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 20
+  - front_port: '942.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 21
+  - front_port: '944'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 22
+  - front_port: '945.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 23
+  - front_port: '947'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 24
+  - front_port: '948.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 25
+  - front_port: '950'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 26
+  - front_port: '951.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 27
+  - front_port: '953'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 28
+  - front_port: '954.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 29
+  - front_port: '956'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 30
+  - front_port: '957.5'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 31
+  - front_port: '959'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 32
+  - front_port: '960.5'
+    front_port_position: 1
     rear_port: Line
     rear_port_position: 33
-    description: 196.050 THz

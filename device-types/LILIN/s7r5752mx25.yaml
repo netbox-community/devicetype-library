@@ -1,0 +1,21 @@
+---
+manufacturer: LILIN
+model: S7R5752MX25
+slug: lilin-s7r5752mx25
+part_number: S7R5752MX25
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 47 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 47
+    description: 12V DC
+comments: >
+  [LILIN S7R5752MX25 product page](https://meritlilin.com/en/product/S7R5752MX25)

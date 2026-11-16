@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDEW8841R-Z
+slug: dahua-ipc-hdew8841r-z
+part_number: IPC-HDEW8841R-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua IPC-HDEW8841R-Z datasheet](https://www.dahuasecurity.com/products/network-products/explosion-proof/optical-series/ipc-hdew8841r-z)

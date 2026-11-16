@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-D149HAAH-LU
+slug: hilook-ipc-d149haah-lu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-D149HAAH-LU datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000097012/IPC-D149HAAH-LU_SRB_Datasheet_20260603.pdf)

@@ -26,25 +26,25 @@ power-ports:
     allocated_draw: 19
     label: DC+12V
 interfaces:
-  - name: internal1
+  - name: port1
     type: 1000base-t
-  - name: internal2
+  - name: port2
     type: 1000base-t
-  - name: internal3
+  - name: port3
     type: 1000base-t
-  - name: internal4
+  - name: port4
     type: 1000base-t
-  - name: internal5
+  - name: port5
     type: 1000base-t
-  - name: internal6
+  - name: port6
     type: 1000base-t
   - name: a
     type: 1000base-t
   - name: b
     type: 1000base-t
-  - name: wan1
+  - name: x1
     type: 10gbase-x-sfpp
     description: Shared media (You can use 1 of the 2 ports **WITH** this name. One is 10gbase-x-sfpp, the other is 10gbase-t.)
-  - name: wan2
+  - name: x2
     type: 10gbase-x-sfpp
     description: Shared media (You can use 1 of the 2 ports **WITH** this name. One is 1000base-x-sfp, the other is 10gbase-t.)

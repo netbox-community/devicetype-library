@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-SW458MA
+slug: i-pro-wv-sw458ma
+part_number: WV-SW458MA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [i-PRO WV-SW458MA datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-sw458ma)

@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: PTZ-ND4404
+slug: hilook-ptz-nd4404
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1370
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook PTZ-ND4404 datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000172375/PTZ-ND4404_SLAUS_Datasheet_20260402.pdf)

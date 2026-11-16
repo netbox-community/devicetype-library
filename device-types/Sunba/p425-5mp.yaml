@@ -1,0 +1,27 @@
+---
+manufacturer: Sunba
+model: P425-5MP
+slug: sunba-p425-5mp
+part_number: P425-5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Sunba P425-5MP product page](https://www.sunbatech.com/product/p425-5mp-25x)

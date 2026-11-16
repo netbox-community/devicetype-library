@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW9842H-Z-MN
+slug: dahua-ipc-hdbw9842h-z-mn
+part_number: IPC-HDBW9842H-Z-MN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 16.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+comments: >
+  [Dahua IPC-HDBW9842H-Z-MN datasheet](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hdbw9842h-z-mn)

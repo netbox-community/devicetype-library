@@ -1,0 +1,18 @@
+---
+manufacturer: Cisco
+model: SFP-10G-T-X
+part_number: 30-1599-02
+weight: 75.0
+weight_unit: g
+profile: Transceiver
+attribute_data:
+  phy: 10GBASE-T
+  media: Copper
+  reach: 100.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: RJ-45
+comments: '[Cisco 10GBASE SFP+ modules data sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/data_sheet_c78-455693.html)'
+interfaces:
+  - name: '{module}'
+    type: 10gbase-t

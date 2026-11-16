@@ -1,0 +1,24 @@
+---
+manufacturer: Safire
+model: SF-IPB382CA-4I1-SOLAR4G
+slug: safire-sf-ipb382ca-4i1-solar4g
+part_number: SF-IPB382CA-4I1-SOLAR4G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPB382CA-4I1-SOLAR4G product page](https://www.safirecctv.com/product/sf-ipb382ca-4i1-solar4g)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: P8F-PV
+slug: dahua-p8f-pv
+part_number: P8F-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [Dahua P8F-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/outdoor-cameras/picoo-series/p8f-pv)

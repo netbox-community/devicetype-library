@@ -1,0 +1,23 @@
+---
+manufacturer: Bolin Technology
+model: B9-418
+slug: bolin-technology-b9-418
+part_number: B9-418
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 5, max 33 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 33
+    description: 12V DC
+comments: >
+  [Bolin Technology B9-418 product page](https://bolintechnology.com/product/b9-418-affordable-1-inch-4k-ptz-camera)

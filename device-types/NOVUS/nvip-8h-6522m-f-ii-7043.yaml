@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-8H-6522M/F-II/7043
+slug: novus-nvip-8h-6522m-f-ii-7043
+part_number: NVIP-8H-6522M/F-II/7043
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+comments: >
+  [NOVUS NVIP-8H-6522M/F-II/7043 datasheet](https://www.novuscctv.com/en/products/6888)

@@ -1,0 +1,19 @@
+---
+manufacturer: HikMicro
+model: HM-TD3118T-2
+slug: hikmicro-hm-td3118t-2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 180
+weight_unit: g
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+interfaces:
+  - name: eth0
+    type: 100base-tx
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

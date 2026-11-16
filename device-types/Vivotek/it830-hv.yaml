@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IT830-HV
+slug: vivotek-it830-hv
+part_number: IT830-HV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 537
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek IT830-HV product page](https://www.vivotek.com/resource/download-center/product/download/72843)

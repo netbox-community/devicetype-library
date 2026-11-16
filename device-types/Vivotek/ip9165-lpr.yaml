@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP9165-LPR
+slug: vivotek-ip9165-lpr
+part_number: IP9165-LPR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 970
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek IP9165-LPR product page](https://www.vivotek.com/resource/download-center/product/download/72690)

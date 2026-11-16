@@ -1,0 +1,18 @@
+---
+manufacturer: Dahua
+model: TPC-BF8621
+slug: dahua-tpc-bf8621
+part_number: TPC-BF8621
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 9000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 28 W
+comments: >
+  [Dahua TPC-BF8621 datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-bf8621)

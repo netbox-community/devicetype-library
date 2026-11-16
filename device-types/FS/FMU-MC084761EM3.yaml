@@ -10,41 +10,69 @@ subdevice_role: child
 front-ports:
   - name: '1470'
     type: lc
-    rear_port: Line
-    rear_port_position: 1
+    positions: 1
   - name: '1490'
     type: lc
-    rear_port: Line
-    rear_port_position: 2
+    positions: 1
   - name: '1510'
     type: lc
-    rear_port: Line
-    rear_port_position: 3
+    positions: 1
   - name: '1530'
     type: lc
-    rear_port: Line
-    rear_port_position: 4
+    positions: 1
   - name: '1550'
     type: lc
-    rear_port: Line
-    rear_port_position: 5
+    positions: 1
   - name: '1570'
     type: lc
-    rear_port: Line
-    rear_port_position: 6
+    positions: 1
   - name: '1590'
     type: lc
-    rear_port: Line
-    rear_port_position: 7
+    positions: 1
   - name: '1610'
     type: lc
-    rear_port: Line
-    rear_port_position: 8
+    positions: 1
   - name: '1310'
     type: lc
-    rear_port: Line
-    rear_port_position: 9
+    positions: 1
 rear-ports:
   - name: Line
     type: lc
     positions: 9
+port-mappings:
+  - front_port: '1470'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 1
+  - front_port: '1490'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 2
+  - front_port: '1510'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 3
+  - front_port: '1530'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 4
+  - front_port: '1550'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 5
+  - front_port: '1570'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 6
+  - front_port: '1590'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 7
+  - front_port: '1610'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 8
+  - front_port: '1310'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 9

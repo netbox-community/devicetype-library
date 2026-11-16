@@ -1,0 +1,22 @@
+---
+manufacturer: 360 Vision Technology
+model: Invictus
+slug: 360-vision-technology-invictus
+part_number: Invictus
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 48
+comments: >
+  [360 Vision Technology Invictus product page](https://www.360visiontechnology.com/invictus)

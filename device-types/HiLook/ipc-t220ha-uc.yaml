@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-T220HA-UC
+slug: hilook-ipc-t220ha-uc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-T220HA-UC datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000067677/IPC-T220HA-UC_Datasheet_20260701.pdf)

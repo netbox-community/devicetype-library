@@ -9,28 +9,22 @@ is_powered: false
 front-ports:
   - name: '1'
     type: sc
-    rear_port: '1'
-    rear_port_position: 1
+    positions: 1
   - name: '2'
     type: sc
-    rear_port: '2'
-    rear_port_position: 1
+    positions: 1
   - name: '3'
     type: sc
-    rear_port: '3'
-    rear_port_position: 1
+    positions: 1
   - name: '4'
     type: sc
-    rear_port: '4'
-    rear_port_position: 1
+    positions: 1
   - name: '5'
     type: sc
-    rear_port: '5'
-    rear_port_position: 1
+    positions: 1
   - name: '6'
     type: sc
-    rear_port: '6'
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: '1'
     type: sc
@@ -50,3 +44,28 @@ rear-ports:
   - name: '6'
     type: sc
     positions: 1
+port-mappings:
+  - front_port: '1'
+    front_port_position: 1
+    rear_port: '1'
+    rear_port_position: 1
+  - front_port: '2'
+    front_port_position: 1
+    rear_port: '2'
+    rear_port_position: 1
+  - front_port: '3'
+    front_port_position: 1
+    rear_port: '3'
+    rear_port_position: 1
+  - front_port: '4'
+    front_port_position: 1
+    rear_port: '4'
+    rear_port_position: 1
+  - front_port: '5'
+    front_port_position: 1
+    rear_port: '5'
+    rear_port_position: 1
+  - front_port: '6'
+    front_port_position: 1
+    rear_port: '6'
+    rear_port_position: 1

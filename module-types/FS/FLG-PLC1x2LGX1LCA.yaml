@@ -6,17 +6,33 @@ comments: 1 x 2 PLC Fiber Splitter, Standard LGX Cassette, LC/APC, Singlemode
 front-ports:
   - name: '{module}/IN'
     type: lc
-    rear_port: '{module}/IN'
+    positions: 1
   - name: '{module}/1'
     type: lc
-    rear_port: '{module}/1'
+    positions: 1
   - name: '{module}/2'
     type: lc
-    rear_port: '{module}/2'
+    positions: 1
 rear-ports:
   - name: '{module}/IN'
     type: lc
+    positions: 1
   - name: '{module}/1'
     type: lc
+    positions: 1
   - name: '{module}/2'
     type: lc
+    positions: 1
+port-mappings:
+  - front_port: '{module}/IN'
+    front_port_position: 1
+    rear_port: '{module}/IN'
+    rear_port_position: 1
+  - front_port: '{module}/1'
+    front_port_position: 1
+    rear_port: '{module}/1'
+    rear_port_position: 1
+  - front_port: '{module}/2'
+    front_port_position: 1
+    rear_port: '{module}/2'
+    rear_port_position: 1

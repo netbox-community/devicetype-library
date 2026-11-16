@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP7135
+slug: vivotek-ip7135
+part_number: IP7135
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 150
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 2.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Vivotek IP7135 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/ip7135datasheet_en.pdf)

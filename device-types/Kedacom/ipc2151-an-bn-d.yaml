@@ -1,0 +1,23 @@
+---
+manufacturer: Kedacom
+model: IPC2151-AN/BN-D
+slug: kedacom-ipc2151-an-bn-d
+part_number: IPC2151-AN/BN-D
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2151-AN/BN-D product page](https://www.kedacom.com/th/hwqxwlsxj/4401.jhtml)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SDBCE4-45-XA
+slug: dahua-sdbce4-45-xa
+part_number: SDBCE4-45-XA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 26 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+comments: >
+  [Dahua SDBCE4-45-XA datasheet](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/ptz-cameras/sdbce4-45-xa(only-for-turkey))

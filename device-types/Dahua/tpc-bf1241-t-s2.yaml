@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-BF1241-T-S2
+slug: dahua-tpc-bf1241-t-s2
+part_number: TPC-BF1241-T-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua TPC-BF1241-T-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-bf1241-t-s2)

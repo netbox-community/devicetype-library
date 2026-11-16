@@ -6,94 +6,94 @@ comments: FHD Fiber Adapter Panel, 36 Fibers OM3/OM4 Multimode, 18 x Shuttered L
 front-ports:
   - name: '{module}:1-2'
     type: lc-upc
-    rear_port: '{module}:1-2'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:3-4'
     type: lc-upc
-    rear_port: '{module}:3-4'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:5-6'
     type: lc-upc
-    rear_port: '{module}:5-6'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:7-8'
     type: lc-upc
-    rear_port: '{module}:7-8'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:9-10'
     type: lc-upc
-    rear_port: '{module}:9-10'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:11-12'
     type: lc-upc
-    rear_port: '{module}:11-12'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:13-14'
     type: lc-upc
-    rear_port: '{module}:13-14'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:15-16'
     type: lc-upc
-    rear_port: '{module}:15-16'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:17-18'
     type: lc-upc
-    rear_port: '{module}:17-18'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:19-20'
     type: lc-upc
-    rear_port: '{module}:19-20'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:21-22'
     type: lc-upc
-    rear_port: '{module}:21-22'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:23-24'
     type: lc-upc
-    rear_port: '{module}:23-24'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:25-26'
     type: lc-upc
-    rear_port: '{module}:25-26'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:27-28'
     type: lc-upc
-    rear_port: '{module}:27-28'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:29-30'
     type: lc-upc
-    rear_port: '{module}:29-30'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:31-32'
     type: lc-upc
-    rear_port: '{module}:31-32'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:33-34'
     type: lc-upc
-    rear_port: '{module}:33-34'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
   - name: '{module}:35-36'
     type: lc-upc
-    rear_port: '{module}:35-36'
     color: 00ffff
     description: Duplex LC/UPC Port
+    positions: 1
 rear-ports:
   - name: '{module}:1-2'
     type: lc-upc
@@ -185,3 +185,76 @@ rear-ports:
     positions: 1
     color: 00ffff
     description: Duplex LC/UPC Port
+port-mappings:
+  - front_port: '{module}:1-2'
+    front_port_position: 1
+    rear_port: '{module}:1-2'
+    rear_port_position: 1
+  - front_port: '{module}:3-4'
+    front_port_position: 1
+    rear_port: '{module}:3-4'
+    rear_port_position: 1
+  - front_port: '{module}:5-6'
+    front_port_position: 1
+    rear_port: '{module}:5-6'
+    rear_port_position: 1
+  - front_port: '{module}:7-8'
+    front_port_position: 1
+    rear_port: '{module}:7-8'
+    rear_port_position: 1
+  - front_port: '{module}:9-10'
+    front_port_position: 1
+    rear_port: '{module}:9-10'
+    rear_port_position: 1
+  - front_port: '{module}:11-12'
+    front_port_position: 1
+    rear_port: '{module}:11-12'
+    rear_port_position: 1
+  - front_port: '{module}:13-14'
+    front_port_position: 1
+    rear_port: '{module}:13-14'
+    rear_port_position: 1
+  - front_port: '{module}:15-16'
+    front_port_position: 1
+    rear_port: '{module}:15-16'
+    rear_port_position: 1
+  - front_port: '{module}:17-18'
+    front_port_position: 1
+    rear_port: '{module}:17-18'
+    rear_port_position: 1
+  - front_port: '{module}:19-20'
+    front_port_position: 1
+    rear_port: '{module}:19-20'
+    rear_port_position: 1
+  - front_port: '{module}:21-22'
+    front_port_position: 1
+    rear_port: '{module}:21-22'
+    rear_port_position: 1
+  - front_port: '{module}:23-24'
+    front_port_position: 1
+    rear_port: '{module}:23-24'
+    rear_port_position: 1
+  - front_port: '{module}:25-26'
+    front_port_position: 1
+    rear_port: '{module}:25-26'
+    rear_port_position: 1
+  - front_port: '{module}:27-28'
+    front_port_position: 1
+    rear_port: '{module}:27-28'
+    rear_port_position: 1
+  - front_port: '{module}:29-30'
+    front_port_position: 1
+    rear_port: '{module}:29-30'
+    rear_port_position: 1
+  - front_port: '{module}:31-32'
+    front_port_position: 1
+    rear_port: '{module}:31-32'
+    rear_port_position: 1
+  - front_port: '{module}:33-34'
+    front_port_position: 1
+    rear_port: '{module}:33-34'
+    rear_port_position: 1
+  - front_port: '{module}:35-36'
+    front_port_position: 1
+    rear_port: '{module}:35-36'
+    rear_port_position: 1

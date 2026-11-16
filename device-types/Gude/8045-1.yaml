@@ -1,0 +1,59 @@
+---
+manufacturer: Gude
+model: Expert Power Control 8045-1
+slug: gude-expert-power-control-8045-1
+part_number: 8045-1
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.9
+weight_unit: kg
+comments: Switched and outlet-metered PDU, 1U, 16 A, 110-230 V, (12) C13
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power Inlet
+    type: iec-60320-c20
+    maximum_draw: 3680
+power-outlets:
+  - name: Power Port 1
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 2
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 3
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 4
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 5
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 6
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 7
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 8
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 9
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 10
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 11
+    type: iec-60320-c13
+    power_port: Power Inlet
+  - name: Power Port 12
+    type: iec-60320-c13
+    power_port: Power Inlet
+interfaces:
+  - name: Ethernet
+    type: 100base-tx
+    mgmt_only: true

@@ -1,7 +1,7 @@
 from tests.test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 from tests import cache_operations
 from tests.yaml_loader import DecimalSafeLoader
-from tests.device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
+from tests.device_types import DeviceType, ModuleType, RackType, ModuleBayType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -198,6 +198,14 @@ else:
 
 SCHEMA_REGISTRY = _generate_schema_registry()
 
+KNOWN_MODULE_BAY_TYPES = set()
+MODULE_BAY_TYPE_SLUGS = {}
+for bay_type_file in glob.glob('module-bay-types/*/*.y*ml'):
+    with open(bay_type_file) as f:
+        bay_type = yaml.safe_load(f)
+    KNOWN_MODULE_BAY_TYPES.add((bay_type['manufacturer'], bay_type['name']))
+    MODULE_BAY_TYPE_SLUGS.setdefault(bay_type['slug'], []).append(bay_type_file)
+
 @pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
 def test_definitions(file_path, schema, change_type):
     """
@@ -243,12 +251,23 @@ def test_definitions(file_path, schema, change_type):
     elif "rack-types" in file_path:
         # A rack type
         this_device = RackType(definition, file_path, change_type)
+    elif "module-bay-types" in file_path:
+        # A module bay type
+        this_device = ModuleBayType(definition, file_path, change_type)
     else:
         # A module
         this_device = ModuleType(definition, file_path, change_type)
 
     # Validate that front-ports reference existing rear-ports
     if any(x in file_path for x in ("device-types", "module-types")):
+        # Every referenced module bay type must exist in module-bay-types/
+        bay_type_refs = list(definition.get("module_bay_types", []))
+        for bay in definition.get("module-bays", []) or []:
+            bay_type_refs += bay.get("module_bay_types", [])
+        for ref in bay_type_refs:
+            if not {(definition['manufacturer'], ref), ('Generic', ref)} & KNOWN_MODULE_BAY_TYPES:
+                pytest.fail(f"{file_path}: module bay type '{ref}' is not defined for {definition['manufacturer']} or Generic", False)
+
         rear_ports = definition.get("rear-ports", []) or []
         front_ports = definition.get("front-ports", []) or []
 
@@ -284,9 +303,96 @@ def test_definitions(file_path, schema, change_type):
                     )
                 rear_port_positions[key] = fp.get("name")
 
+        # Validate the optional `port-mappings` stanza (NetBox v4.5+ format).
+        # The library accepts both formats: the legacy inline `rear_port` /
+        # `rear_port_position` on each front-port (checked in the loop above),
+        # and the new top-level `port-mappings:` list. A given front-port must
+        # use only one of the two formats.
+        #
+        # Note: we deliberately do NOT require every front-port to be referenced
+        # by some mapping (inline or stanza). NetBox v4.5+ permits unmapped
+        # front-ports — `FrontPortTemplate.clean()` enforces only the upper
+        # bound `positions >= mappings.count()` — so DTL matches that
+        # permissiveness rather than being stricter than the target system.
+        if any(x in file_path for x in ("device-types", "module-types")):
+            port_mappings = definition.get("port-mappings", []) or []
+            front_port_names = {
+                fp.get("name") for fp in front_ports if isinstance(fp, dict)
+            }
+            front_ports_with_inline_rear = {
+                fp.get("name") for fp in front_ports
+                if isinstance(fp, dict) and fp.get("rear_port")
+            }
+            stanza_front_port_positions = set()
+
+            # Structural validity of each entry (object shape, required keys,
+            # non-empty strings) is enforced by the JSON schema validated
+            # earlier in this test — don't re-check those invariants here.
+            # This block only enforces cross-document rules the schema can't
+            # express.
+            for pm in port_mappings:
+                fp_ref = pm["front_port"]
+                rp_ref = pm["rear_port"]
+
+                if fp_ref not in front_port_names:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry references "
+                        f"front_port '{fp_ref}', but no such front-port exists. "
+                        f"Defined front-ports: {sorted(front_port_names)}",
+                        pytrace=False,
+                    )
+
+                if rp_ref not in rear_port_names:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry references "
+                        f"rear_port '{rp_ref}', but no such rear-port exists. "
+                        f"Defined rear-ports: {sorted(rear_port_names)}",
+                        pytrace=False,
+                    )
+
+                # Reject mixing inline `rear_port` and a stanza entry for the
+                # same front-port — pick one format per port.
+                if fp_ref in front_ports_with_inline_rear:
+                    pytest.fail(
+                        f"{file_path}: front-port '{fp_ref}' has inline "
+                        f"'rear_port' AND appears in 'port-mappings' stanza. "
+                        f"Use only one format per front-port.",
+                        pytrace=False,
+                    )
+
+                # (rear_port, rear_port_position) uniqueness — checked across
+                # both formats by reusing `rear_port_positions` from above.
+                rear_port_pos = pm.get("rear_port_position", 1)
+                key = (rp_ref, rear_port_pos)
+                if key in rear_port_positions:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry for front_port "
+                        f"'{fp_ref}' has duplicate (rear_port, "
+                        f"rear_port_position) = ('{rp_ref}', {rear_port_pos}). "
+                        f"Already used by '{rear_port_positions[key]}'.",
+                        pytrace=False,
+                    )
+                rear_port_positions[key] = f"port-mappings entry for '{fp_ref}'"
+
+                # (front_port, front_port_position) uniqueness within the stanza.
+                front_port_pos = pm.get("front_port_position", 1)
+                fkey = (fp_ref, front_port_pos)
+                if fkey in stanza_front_port_positions:
+                    pytest.fail(
+                        f"{file_path}: port-mappings entry has duplicate "
+                        f"(front_port, front_port_position) = "
+                        f"('{fp_ref}', {front_port_pos}).",
+                        pytrace=False,
+                    )
+                stanza_front_port_positions.add(fkey)
+
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
+
+    if isinstance(this_device, ModuleBayType) and len(MODULE_BAY_TYPE_SLUGS[this_device.slug]) > 1:
+        duplicates = ", ".join(sorted(MODULE_BAY_TYPE_SLUGS[this_device.slug]))
+        pytest.fail(f'{file_path} has a duplicate slug "{this_device.slug}": {duplicates}', False)
 
     # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)

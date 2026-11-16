@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW4239R-ASE
+slug: dahua-ipc-hdbw4239r-ase
+part_number: IPC-HDBW4239R-ASE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Dahua IPC-HDBW4239R-ASE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw4239r-ase)

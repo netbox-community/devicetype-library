@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: TPC-SD8421-T
+slug: dahua-tpc-sd8421-t
+part_number: TPC-SD8421-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 38 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 38
+comments: >
+  [Dahua TPC-SD8421-T datasheet](https://www.dahuasecurity.com/products/discontinued-products/thermal-cameras/tpc-sd8421-t)

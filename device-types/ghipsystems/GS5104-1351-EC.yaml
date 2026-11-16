@@ -11,31 +11,50 @@ airflow: passive
 front-ports:
   - name: '1351'
     type: lc
-    rear_port: Network
-    rear_port_position: 1
+    positions: 1
   - name: '1371'
     type: lc
-    rear_port: Network
-    rear_port_position: 2
+    positions: 1
   - name: '1431'
     type: lc
-    rear_port: Network
-    rear_port_position: 3
+    positions: 1
   - name: '1451'
     type: lc
-    rear_port: Network
-    rear_port_position: 4
+    positions: 1
   - name: Extension
     description: Extension Port 1471nm
     type: lc
-    rear_port: Network
-    rear_port_position: 5
+    positions: 1
   - name: Cascading
     description: Cascading Port 1271nm
     type: lc
-    rear_port: Network
-    rear_port_position: 6
+    positions: 1
 rear-ports:
   - name: Network
     type: lc
     positions: 6
+port-mappings:
+  - front_port: '1351'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 1
+  - front_port: '1371'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 2
+  - front_port: '1431'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 3
+  - front_port: '1451'
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 4
+  - front_port: Extension
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 5
+  - front_port: Cascading
+    front_port_position: 1
+    rear_port: Network
+    rear_port_position: 6

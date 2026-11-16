@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PFW3849S-A180-AS-PV
+slug: dahua-ipc-pfw3849s-a180-as-pv
+part_number: IPC-PFW3849S-A180-AS-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 695
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-PFW3849S-A180-AS-PV datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-pfw3849s-a180-as-pv)

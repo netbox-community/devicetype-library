@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IPS12-F27-OIA4
+slug: illustra-ips12-f27-oia4
+part_number: IPS12-F27-OIA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11.89 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Illustra IPS12-F27-OIA4 product page](https://illustracameras.com/wp-content/uploads/2022/08/Illustra-Pro-Gen4-Fisheye-Data-Sheet.pdf)

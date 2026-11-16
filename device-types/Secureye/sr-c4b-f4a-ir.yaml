@@ -1,0 +1,23 @@
+---
+manufacturer: Secureye
+model: SR-C4B-F4A-IR
+slug: secureye-sr-c4b-f4a-ir
+part_number: SR-C4B-F4A-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 310
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Secureye SR-C4B-F4A-IR product page](https://www.secureye.com/product/sr-c4b-f4a-ir-4mp-network-bullet-camera)

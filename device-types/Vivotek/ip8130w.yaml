@@ -1,0 +1,19 @@
+---
+manufacturer: Vivotek
+model: IP8130W
+slug: vivotek-ip8130w
+part_number: IP8130W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 99
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 2.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+    description: 12V DC

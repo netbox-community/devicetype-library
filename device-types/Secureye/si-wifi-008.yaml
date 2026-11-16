@@ -1,0 +1,23 @@
+---
+manufacturer: Secureye
+model: SI-WIFI-008
+slug: secureye-si-wifi-008
+part_number: SI-WIFI-008
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Secureye SI-WIFI-008 product page](https://www.secureye.com/product/si-wifi-008-defender-duo-wi-fi-smart-dual-lens-linkage-outdoor-pt-camera)

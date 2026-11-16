@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HUM8531M-V-LED
+slug: dahua-ipc-hum8531m-v-led
+part_number: IPC-HUM8531M-V-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 166
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 2.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+comments: >
+  [Dahua IPC-HUM8531M-V-LED datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/special-series/macro-reading/ipc-hum8531m-v-led)

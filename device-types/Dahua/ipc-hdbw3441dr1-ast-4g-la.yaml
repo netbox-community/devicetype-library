@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW3441DR1-AST-4G-LA
+slug: dahua-ipc-hdbw3441dr1-ast-4g-la
+part_number: IPC-HDBW3441DR1-AST-4G-LA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 798
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+comments: >
+  [Dahua IPC-HDBW3441DR1-AST-4G-LA datasheet](https://www.dahuasecurity.com/products/All-Products/Network-Cameras/WizSense-Series/3-Series/IPC-HDBW3441DR1-AST-4G-LA)

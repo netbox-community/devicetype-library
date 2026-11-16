@@ -1,0 +1,22 @@
+---
+manufacturer: Uniview
+model: IPC542SE-DK-I0
+slug: uniview-ipc542se-dk-i0
+part_number: IPC542SE-DK-I0
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+  - name: AC IN
+    type: iec-60320-c14
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

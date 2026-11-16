@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S66700-Z3N
+slug: i-pro-wv-s66700-z3n
+part_number: WV-S66700-Z3N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 37.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 38
+comments: >
+  [i-PRO WV-S66700-Z3N datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s66700-z3n)

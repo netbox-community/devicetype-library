@@ -1,0 +1,22 @@
+---
+manufacturer: Secureye
+model: SP-C2GS-I5
+slug: secureye-sp-c2gs-i5
+part_number: SP-C2GS-I5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-C2GS-I5 product page](https://www.secureye.com/product/sp-c2gs-i5-2mp-ip-bullet-camera-50m-ir-poe-audio-eco-series-tf-slot-4mm-pro-series)

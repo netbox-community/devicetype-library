@@ -1,0 +1,27 @@
+---
+manufacturer: Grundig
+model: GD-CI-AP2627T
+slug: grundig-gd-ci-ap2627t
+part_number: GD-CI-AP2627T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1890
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Grundig GD-CI-AP2627T product page](https://de.grundig-security.com/catalog/cameras/ip/gd-ci-ap2627t)

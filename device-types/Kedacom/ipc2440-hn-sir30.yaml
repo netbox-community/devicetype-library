@@ -1,0 +1,21 @@
+---
+manufacturer: Kedacom
+model: IPC2440-HN-SIR30
+slug: kedacom-ipc2440-hn-sir30
+part_number: IPC2440-HN-SIR30
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Kedacom IPC2440-HN-SIR30 product page](https://www.kedacom.com/en/bqwlsxj/857.jhtml)

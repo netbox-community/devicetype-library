@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: IP7251
+slug: vivotek-ip7251
+part_number: IP7251
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 545
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Vivotek IP7251 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/ip7251datasheet_en.pdf)

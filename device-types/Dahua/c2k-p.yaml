@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: C2K-P
+slug: dahua-c2k-p
+part_number: C2K-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 110
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+comments: >
+  [Dahua C2K-P datasheet](https://www.dahuasecurity.com/products/wireless-products/indoor-cameras/cube-series/c2k-p)

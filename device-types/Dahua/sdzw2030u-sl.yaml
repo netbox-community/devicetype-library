@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SDZW2030U-SL
+slug: dahua-sdzw2030u-sl
+part_number: SDZW2030U-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+comments: >
+  [Dahua SDZW2030U-SL datasheet](https://www.dahuasecurity.com/products/discontinued-products/explosion-proof-&-anti-corrosion/sdzw2030u-sl)

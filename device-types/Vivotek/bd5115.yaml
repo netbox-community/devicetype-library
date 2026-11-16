@@ -1,0 +1,23 @@
+---
+manufacturer: Vivotek
+model: BD5115
+slug: vivotek-bd5115
+part_number: BD5115
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 479
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Vivotek BD5115 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/bd5115datasheet_en.pdf)

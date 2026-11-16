@@ -120,18 +120,24 @@ rear-ports:
   - name: USB-A 1
     type: usb-a
     description: Configuration Port
+    positions: 1
   - name: USB-A 2
     type: usb-a
     description: Configuration
+    positions: 1
   - name: Power Share
     type: 8p8c
     description: PDU Clustering
+    positions: 1
   - name: EMD Sensor
     type: 8p8c
     description: for ZPAS EMD Temperature / humidity sensors
+    positions: 1
   - name: PDU Cascading 1
     type: 8p8c
     description: PDU Cascading
+    positions: 1
   - name: PDU Cascading 2
     type: 8p8c
     description: PDU Cascading
+    positions: 1

@@ -1,0 +1,27 @@
+---
+manufacturer: Secureye
+model: SP-C82V
+slug: secureye-sp-c82v
+part_number: SP-C82V
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Secureye SP-C82V product page](https://www.secureye.com/product/sp-c82v-8mp-ip-panoramic-bullet-camera-fixed-poe-audio-smart-surveillance)

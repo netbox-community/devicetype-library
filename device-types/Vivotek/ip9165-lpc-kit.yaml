@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: IP9165-LPC-KIT
+slug: vivotek-ip9165-lpc-kit
+part_number: IP9165-LPC-KIT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6482
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 110 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 110
+    description: 12V DC

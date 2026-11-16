@@ -1,0 +1,21 @@
+---
+manufacturer: AXIS
+model: P5655-E
+slug: axis-p5655-e
+part_number: P5655-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Axis P5655-E datasheet](https://www.axis.com/products/axis-p5655-e) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-p5655-e)

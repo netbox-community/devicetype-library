@@ -1,0 +1,22 @@
+---
+manufacturer: Arecont Vision
+model: AV2245
+slug: arecont-vision-av2245
+part_number: AV2245
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Arecont Vision AV2245 product page](https://sales.arecontvision.com/product/MegaBall+G2+Series/AV2245PM-B-LG)

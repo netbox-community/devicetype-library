@@ -2,10 +2,11 @@
 manufacturer: Extreme Networks
 model: XN-DCPWR-800W-F
 part_number: XN-DCPWR-800W-F
-comments: 800W front-to-back airflow PSU for 7520 and 7720 switches
-weight: 850
-weight_unit: g
+weight: 0.85
+weight_unit: kg
+airflow: front-to-rear
+comments: 800W DC PSU, for use in 7520 and 7720
 power-ports:
-  - name: Ps#{module}
+  - name: '{module}'
     type: dc-terminal
     maximum_draw: 800

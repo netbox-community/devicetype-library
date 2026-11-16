@@ -6,123 +6,99 @@ front-ports:
   - name: '{module}:1'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:2'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 2
+    positions: 1
   - name: '{module}:3'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 3
+    positions: 1
   - name: '{module}:4'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 4
+    positions: 1
   - name: '{module}:5'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 5
+    positions: 1
   - name: '{module}:6'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 6
+    positions: 1
   - name: '{module}:7'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 7
+    positions: 1
   - name: '{module}:8'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 8
+    positions: 1
   - name: '{module}:9'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 9
+    positions: 1
   - name: '{module}:10'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 10
+    positions: 1
   - name: '{module}:11'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 11
+    positions: 1
   - name: '{module}:12'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO1'
-    rear_port_position: 12
+    positions: 1
   - name: '{module}:13'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}:14'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 2
+    positions: 1
   - name: '{module}:15'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 3
+    positions: 1
   - name: '{module}:16'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 4
+    positions: 1
   - name: '{module}:17'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 5
+    positions: 1
   - name: '{module}:18'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 6
+    positions: 1
   - name: '{module}:19'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 7
+    positions: 1
   - name: '{module}:20'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 8
+    positions: 1
   - name: '{module}:21'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 9
+    positions: 1
   - name: '{module}:22'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 10
+    positions: 1
   - name: '{module}:23'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 11
+    positions: 1
   - name: '{module}:24'
     type: lc-upc
     color: fdd835
-    rear_port: '{module}:MPO2'
-    rear_port_position: 12
+    positions: 1
 rear-ports:
   - name: '{module}:MPO1'
     type: mpo
@@ -130,3 +106,100 @@ rear-ports:
   - name: '{module}:MPO2'
     type: mpo
     positions: 12
+port-mappings:
+  - front_port: '{module}:1'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 1
+  - front_port: '{module}:2'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 2
+  - front_port: '{module}:3'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 3
+  - front_port: '{module}:4'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 4
+  - front_port: '{module}:5'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 5
+  - front_port: '{module}:6'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 6
+  - front_port: '{module}:7'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 7
+  - front_port: '{module}:8'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 8
+  - front_port: '{module}:9'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 9
+  - front_port: '{module}:10'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 10
+  - front_port: '{module}:11'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 11
+  - front_port: '{module}:12'
+    front_port_position: 1
+    rear_port: '{module}:MPO1'
+    rear_port_position: 12
+  - front_port: '{module}:13'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 1
+  - front_port: '{module}:14'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 2
+  - front_port: '{module}:15'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 3
+  - front_port: '{module}:16'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 4
+  - front_port: '{module}:17'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 5
+  - front_port: '{module}:18'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 6
+  - front_port: '{module}:19'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 7
+  - front_port: '{module}:20'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 8
+  - front_port: '{module}:21'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 9
+  - front_port: '{module}:22'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 10
+  - front_port: '{module}:23'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 11
+  - front_port: '{module}:24'
+    front_port_position: 1
+    rear_port: '{module}:MPO2'
+    rear_port_position: 12

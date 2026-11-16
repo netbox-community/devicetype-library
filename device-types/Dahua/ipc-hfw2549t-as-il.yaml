@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2549T-AS-IL
+slug: dahua-ipc-hfw2549t-as-il
+part_number: IPC-HFW2549T-AS-IL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-HFW2549T-AS-IL datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw2549t-as-il)

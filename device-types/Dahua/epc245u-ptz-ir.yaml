@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: EPC245U-PTZ-IR
+slug: dahua-epc245u-ptz-ir
+part_number: EPC245U-PTZ-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 28900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 75 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 75
+comments: >
+  [Dahua EPC245U-PTZ-IR datasheet](https://www.dahuasecurity.com/products/network-products/explosion-proof/optical-series/epc245u-ptz-ir)

@@ -1,0 +1,23 @@
+---
+manufacturer: Yudor
+model: YUC-K7B82M
+slug: yudor-yuc-k7b82m
+part_number: YUC-K7B82M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Yudor YUC-K7B82M product page](https://www.yudor.com.tw/product_d.php)

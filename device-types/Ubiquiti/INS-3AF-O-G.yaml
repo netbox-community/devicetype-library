@@ -12,11 +12,15 @@ comments: '[UBNT Instant PoE Converter Data Sheet](https://dl.ubnt.com/datasheet
 front-ports:
   - name: PoE out
     type: 8p8c
-    rear_port: PoE in
-    rear_port_position: 1
+    positions: 1
 rear-ports:
   - name: PoE in
     type: 8p8c
     positions: 1
     label: PoE IN
     _is_power_source: true
+port-mappings:
+  - front_port: PoE out
+    front_port_position: 1
+    rear_port: PoE in
+    rear_port_position: 1

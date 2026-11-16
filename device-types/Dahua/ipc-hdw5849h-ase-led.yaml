@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW5849H-ASE-LED
+slug: dahua-ipc-hdw5849h-ase-led
+part_number: IPC-HDW5849H-ASE-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 740
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-HDW5849H-ASE-LED datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw5849h-ase-led)

@@ -1,0 +1,27 @@
+---
+manufacturer: Cisco
+model: UCS-C200-M2
+slug: cisco-ucs-c200-m2
+part_number: UCS-C200M2
+u_height: 1
+weight: 9.85
+airflow: front-to-rear
+weight_unit: kg
+is_full_depth: true
+interfaces:
+  - name: Ethernet0
+    type: 1000base-t
+  - name: Ethernet1
+    type: 1000base-t
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PS-0
+    position: '0'
+  - name: PS-1
+    position: '1'
+  - name: PCI-Slot1
+    position: '0'
+  - name: PCI-Slot2
+    position: '1'

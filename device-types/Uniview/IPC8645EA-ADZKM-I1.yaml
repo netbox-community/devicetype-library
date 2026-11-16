@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC8645EA-ADZKM-I1
+slug: uniview-ipc8645ea-adzkm-i1
+part_number: IPC8645EA-ADZKM-I1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 4, max 31 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 31
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC8645EA-ADZKM-I1 datasheet](https://www.uniview.com/Products/Network_Cameras/Pro_Series/ProBasic_Series/IPC8645EA-ADZKM-I1/) | [Specs on cctv-database.com](https://cctv-database.com/camera/uniview-ipc8645ea-adzkm-i1)

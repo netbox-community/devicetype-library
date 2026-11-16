@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC421-E230
+slug: kedacom-ipc421-e230
+part_number: IPC421-E230
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 45 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 45
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC421-E230 product page](https://www.kedacom.com/en/ythwlsxj/4423.jhtml)

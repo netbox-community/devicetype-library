@@ -10,21 +10,34 @@ subdevice_role: child
 front-ports:
   - name: '1270'
     type: lc
-    rear_port: Line
-    rear_port_position: 1
+    positions: 1
   - name: '1290'
     type: lc
-    rear_port: Line
-    rear_port_position: 2
+    positions: 1
   - name: '1310'
     type: lc
-    rear_port: Line
-    rear_port_position: 3
+    positions: 1
   - name: '1330'
     type: lc
-    rear_port: Line
-    rear_port_position: 4
+    positions: 1
 rear-ports:
   - name: Line
     type: lc
     positions: 5
+port-mappings:
+  - front_port: '1270'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 1
+  - front_port: '1290'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 2
+  - front_port: '1310'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 3
+  - front_port: '1330'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 4

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-PT2449C1-ST4G-PV
+slug: dahua-ipc-pt2449c1-st4g-pv
+part_number: IPC-PT2449C1-ST4G-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [Dahua IPC-PT2449C1-ST4G-PV datasheet](https://www.dahuasecurity.com/products/wireless-products/4g-cameras/wired-cameras/ipc-pt2449c1-st4g-pv)

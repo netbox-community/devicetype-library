@@ -1,0 +1,27 @@
+---
+manufacturer: Fortinet
+model: FortiAuthenticator 300F
+slug: fortinet-fac-300f
+part_number: FAC-300F
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 8.2
+weight_unit: kg
+comments: '[FortiAuthenticator datasheet](https://web.archive.org/web/20250502063022/https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiAuthenticator.pdf),
+  [FortiAuthenticator 300F QuickStart Guide](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/e759207f-3be8-11eb-96b9-00505692583a/FAC-300F-QSG.pdf)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+  - name: port3
+    type: 1000base-t
+  - name: port4
+    type: 1000base-t
+module-bays:
+  - name: PS1
+    position: '1'

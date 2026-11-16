@@ -1,0 +1,25 @@
+---
+manufacturer: Hanwha
+model: PNO-A9081R
+slug: hanwha-pno-a9081r
+part_number: PNO-A9081R
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha PNO-A9081R datasheet](https://www.hanwhavision.com/en/products/camera/network/bullet/pno-a9081r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pno-a9081r)

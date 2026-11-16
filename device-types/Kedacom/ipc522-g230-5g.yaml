@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC522-G230-5G
+slug: kedacom-ipc522-g230-5g
+part_number: IPC522-G230-5G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC522-G230-5G product page](https://www.kedacom.com/en/chezai/283.jhtml)

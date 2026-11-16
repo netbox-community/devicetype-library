@@ -1,0 +1,67 @@
+---
+manufacturer: Tenda
+model: SM108
+slug: tenda-sm108
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.28
+weight_unit: kg
+comments: |
+  [SM108](https://www.tendacn.com/product/overview/SM108) is a 8-port 2.5G
+  Ethernet switch independently designed by Tenda.
+  It provides 8*2.5Gbps RJ45 ports and can be connected to computers, NAS,
+  IPTV, WIFI7AP, etc. to meet the needs of high-speed Internet access.
+  It is an perfect access device for high-speed network deployment in SMEs,
+  SOHOs, villa or wireless networking scenarios.
+
+  # Key Feature
+
+  - Compliant with IEEE802.3/u/ab/bz/x/z
+  - 8*100/1000/2500Mbps RJ45 ports
+  - 16 K MAC address table and MAC address auto learning
+  - IEEE 802.3x full duplex flow control and half duplex backpressure flow control
+  - 40 Gbps switching fabric for non-blocking wire speed forwarding
+  - Desktop mounting & Wall mounting
+
+  # Product specification
+
+  - Standard: Compliant with IEEE802.3/u/ab/bz/x
+  - LED Indicators:
+      - 1 * Power
+      - 8 * Link/Ac
+  - Ports: 8*2500Mbps RJ45 port
+  - Forwarding Mode: Store-and-forward
+  - Switching Capacity: 40Gbps
+  - Forwarding Rate: 29.76Mpps
+  - MAC Address Table: 16K
+  - Power Adapter:
+      - Input 100-240V AC 50/60Hz
+      - Output 12V 1A DC
+  - Dimensions (L x W x H 142*90*24mm)
+  - Environment:
+      - Operating temperature: 0C - 40C
+      - Storage temperature: -40C - 70C
+      - Operating humidity: (10% - 90%) RH, non-condensing
+      - Storage humidity: (5% - 90%) RH, non-condensing
+power-ports:
+  - name: 12V1A
+    type: dc-terminal
+    maximum_draw: 7
+interfaces:
+  - name: eth0
+    type: 2.5gbase-t
+  - name: eth1
+    type: 2.5gbase-t
+  - name: eth2
+    type: 2.5gbase-t
+  - name: eth3
+    type: 2.5gbase-t
+  - name: eth4
+    type: 2.5gbase-t
+  - name: eth5
+    type: 2.5gbase-t
+  - name: eth6
+    type: 2.5gbase-t
+  - name: eth7
+    type: 2.5gbase-t

@@ -13,32 +13,63 @@ subdevice_role: child
 front-ports:
   - name: Port 1
     type: 8p8c
-    rear_port: Port 1
+    positions: 1
   - name: Port 2
     type: 8p8c
-    rear_port: Port 2
+    positions: 1
   - name: Port 3
     type: 8p8c
-    rear_port: Port 3
+    positions: 1
   - name: Port 4
     type: 8p8c
-    rear_port: Port 4
+    positions: 1
   - name: Port 5
     type: 8p8c
-    rear_port: Port 5
+    positions: 1
   - name: Port 6
     type: 8p8c
-    rear_port: Port 6
+    positions: 1
 rear-ports:
   - name: Port 1
     type: 8p8c
+    positions: 1
   - name: Port 2
     type: 8p8c
+    positions: 1
   - name: Port 3
     type: 8p8c
+    positions: 1
   - name: Port 4
     type: 8p8c
+    positions: 1
   - name: Port 5
     type: 8p8c
+    positions: 1
   - name: Port 6
     type: 8p8c
+    positions: 1
+port-mappings:
+  - front_port: Port 1
+    front_port_position: 1
+    rear_port: Port 1
+    rear_port_position: 1
+  - front_port: Port 2
+    front_port_position: 1
+    rear_port: Port 2
+    rear_port_position: 1
+  - front_port: Port 3
+    front_port_position: 1
+    rear_port: Port 3
+    rear_port_position: 1
+  - front_port: Port 4
+    front_port_position: 1
+    rear_port: Port 4
+    rear_port_position: 1
+  - front_port: Port 5
+    front_port_position: 1
+    rear_port: Port 5
+    rear_port_position: 1
+  - front_port: Port 6
+    front_port_position: 1
+    rear_port: Port 6
+    rear_port_position: 1

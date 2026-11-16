@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW5441R-ASE-HDMI
+slug: dahua-ipc-hdbw5441r-ase-hdmi
+part_number: IPC-HDBW5441R-ASE-HDMI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HDBW5441R-ASE-HDMI datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/hdmi-camera/ipc-hdbw5441r-ase-hdmi)

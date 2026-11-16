@@ -1,0 +1,21 @@
+---
+manufacturer: GW Security
+model: GW807101M
+slug: gw-security-gw807101m
+part_number: GW807101M
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [GW Security GW807101M product page](https://gwsecurityusa.com/product/gw807101m-8mp-ip-poe-5x-optical-zoom-2-7-13-5mm-varifocal-lens-dome-security-camera-human-vehicle-detection)

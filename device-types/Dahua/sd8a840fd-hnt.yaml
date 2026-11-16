@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD8A840FD-HNT
+slug: dahua-sd8a840fd-hnt
+part_number: SD8A840FD-HNT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 33 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 33
+comments: >
+  [Dahua SD8A840FD-HNT datasheet](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/ptz-cameras/sd8a840fd-hnt(for-project))

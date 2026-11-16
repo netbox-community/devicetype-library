@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-NW502S
+slug: i-pro-wv-nw502s
+part_number: WV-NW502S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+comments: >
+  [i-PRO WV-NW502S datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-nw502s)

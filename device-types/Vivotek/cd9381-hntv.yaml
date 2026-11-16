@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: CD9381-HNTV
+slug: vivotek-cd9381-hntv
+part_number: CD9381-HNTV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Vivotek CD9381-HNTV product page](https://www.vivotek.com/resource/download-center/product/download/62066)

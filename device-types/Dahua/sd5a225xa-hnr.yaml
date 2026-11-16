@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD5A225XA-HNR
+slug: dahua-sd5a225xa-hnr
+part_number: SD5A225XA-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+comments: >
+  [Dahua SD5A225XA-HNR datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD5A225XA-HNR_datasheet_20210529.pdf)

@@ -1,0 +1,20 @@
+---
+manufacturer: Verint
+model: MIN-3MP-POE
+slug: verint-min-3mp-poe
+part_number: MIN-3MP-POE
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+comments: >
+  [Verint MIN-3MP-POE product page](https://www.verint.com/wp-content/uploads/2025/12/verint-fss-min-3mp-poe-camera-datasheet.pdf)

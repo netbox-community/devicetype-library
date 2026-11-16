@@ -1,0 +1,22 @@
+---
+manufacturer: LevelOne
+model: FCS-3073
+slug: levelone-fcs-3073
+part_number: FCS-3073
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 16 GB
+comments: >
+  [LevelOne FCS-3073 product page](https://www.level1.com/level1_en/fcs-3073-gemini-fixed-dome-ip-network-camera-2-megapixel-802-3af-poe-vandalproof-57106903)

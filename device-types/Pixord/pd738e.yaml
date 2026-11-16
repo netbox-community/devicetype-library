@@ -1,0 +1,23 @@
+---
+manufacturer: Pixord
+model: PD738(E)
+slug: pixord-pd738e
+part_number: PD738(E)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 970
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Pixord PD738(E) product page](https://www.pixord.com/en/products_show.php)

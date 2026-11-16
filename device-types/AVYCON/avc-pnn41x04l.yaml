@@ -1,0 +1,27 @@
+---
+manufacturer: AVYCON
+model: AVC-PNN41X04L
+slug: avycon-avc-pnn41x04l
+part_number: AVC-PNN41X04L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 14.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [AVYCON AVC-PNN41X04L product page](https://avyconaivo.com/data/item/AVC-PNN41X04L/DataSheet_AVC-PNN41X04L_EN.pdf)

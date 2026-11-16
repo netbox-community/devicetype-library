@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW4831E-SE
+slug: dahua-ipc-hfw4831e-se
+part_number: IPC-HFW4831E-SE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-HFW4831E-SE datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw4831e-se)

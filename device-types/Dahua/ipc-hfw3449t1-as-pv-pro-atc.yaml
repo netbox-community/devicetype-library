@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3449T1-AS-PV-PRO-ATC
+slug: dahua-ipc-hfw3449t1-as-pv-pro-atc
+part_number: IPC-HFW3449T1-AS-PV-PRO-ATC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 14.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+comments: >
+  [Dahua IPC-HFW3449T1-AS-PV-PRO-ATC datasheet](https://materialfile.dahuasecurity.com/uploads/cpq/86219/datasheet/DH-IPC-HFW3449T1-AS-PV-PRO-ATC_S0_datasheet_20260129.pdf)

@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC521-F233-NL
+slug: kedacom-ipc521-f233-nl
+part_number: IPC521-F233-NL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 70 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 70
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC521-F233-NL product page](https://www.kedacom.com/en/PZTCamera/4431.jhtml)

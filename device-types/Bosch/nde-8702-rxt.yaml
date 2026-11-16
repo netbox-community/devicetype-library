@@ -1,0 +1,19 @@
+---
+manufacturer: Bosch
+model: NDE-8702-RXT
+slug: bosch-nde-8702-rxt
+part_number: NDE-8702-RXT
+description: FLEXIDOME 8100i - X series
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal

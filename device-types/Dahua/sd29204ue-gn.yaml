@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SD29204UE-GN
+slug: dahua-sd29204ue-gn
+part_number: SD29204UE-GN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua SD29204UE-GN datasheet](https://materialfile.dahuasecurity.com/uploads/soft/20191008/DH-SD29204UE-GN_20191008.pdf)

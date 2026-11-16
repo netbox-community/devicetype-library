@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-B129H
+slug: hilook-ipc-b129h
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-B129H datasheet](https://assets.hikvision.com/prd/public/all/doc/m000019730/IPC-B129H-C_Datasheet_20240628.pdf)

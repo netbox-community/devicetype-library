@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-B130HA-LUC
+slug: hilook-ipc-b130ha-luc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 175
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-B130HA-LUC datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000067682/IPC-B130HA-LUC_Datasheet_20260409.pdf)

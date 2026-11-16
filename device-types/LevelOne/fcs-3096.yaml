@@ -1,0 +1,27 @@
+---
+manufacturer: LevelOne
+model: FCS-3096
+slug: levelone-fcs-3096
+part_number: FCS-3096
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LevelOne FCS-3096 product page](https://www.level1.com/level1_en/fcs-3096-gemini-ip-camera-8-mp-h-265-802-3af-poe-ir-leds-indoor-outdoor-57303107201)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDPW5442G-Z
+slug: dahua-ipc-hdpw5442g-z
+part_number: IPC-HDPW5442G-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua IPC-HDPW5442G-Z datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdpw5442g-z)

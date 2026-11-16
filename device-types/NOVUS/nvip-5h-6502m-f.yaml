@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-5H-6502M/F
+slug: novus-nvip-5h-6502m-f
+part_number: NVIP-5H-6502M/F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [NOVUS NVIP-5H-6502M/F datasheet](https://www.novuscctv.com/en/products/5011/NVIP-5H-6502M_F)

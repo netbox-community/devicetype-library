@@ -1,0 +1,16 @@
+---
+manufacturer: Arecont Vision
+model: AV2456DN
+slug: arecont-vision-av2456dn
+part_number: AV2456DN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5.59 W

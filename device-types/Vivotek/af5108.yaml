@@ -1,0 +1,18 @@
+---
+manufacturer: Vivotek
+model: AF5108
+slug: vivotek-af5108
+part_number: AF5108
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 135
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 1, max 3.6 W
+comments: >
+  [Vivotek AF5108 product page](https://download.vivotek.com/downloadfile/downloads/datasheets/af5108datasheet_en.pdf)

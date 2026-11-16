@@ -28,25 +28,44 @@ rear-ports:
 front-ports:
   - name: '{module}-01'
     type: lc-pc
-    rear_port: '{module}-REAR-01'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}-02'
     type: lc-pc
-    rear_port: '{module}-REAR-02'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}-03'
     type: lc-pc
-    rear_port: '{module}-REAR-03'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}-04'
     type: lc-pc
-    rear_port: '{module}-REAR-04'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}-05'
     type: lc-pc
-    rear_port: '{module}-REAR-05'
-    rear_port_position: 1
+    positions: 1
   - name: '{module}-06'
     type: lc-pc
+    positions: 1
+port-mappings:
+  - front_port: '{module}-01'
+    front_port_position: 1
+    rear_port: '{module}-REAR-01'
+    rear_port_position: 1
+  - front_port: '{module}-02'
+    front_port_position: 1
+    rear_port: '{module}-REAR-02'
+    rear_port_position: 1
+  - front_port: '{module}-03'
+    front_port_position: 1
+    rear_port: '{module}-REAR-03'
+    rear_port_position: 1
+  - front_port: '{module}-04'
+    front_port_position: 1
+    rear_port: '{module}-REAR-04'
+    rear_port_position: 1
+  - front_port: '{module}-05'
+    front_port_position: 1
+    rear_port: '{module}-REAR-05'
+    rear_port_position: 1
+  - front_port: '{module}-06'
+    front_port_position: 1
     rear_port: '{module}-REAR-06'
     rear_port_position: 1

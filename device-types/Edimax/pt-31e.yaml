@@ -1,0 +1,25 @@
+---
+manufacturer: Edimax
+model: PT-31E
+slug: edimax-pt-31e
+part_number: PT-31E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 305
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Edimax PT-31E product page](https://www.edimax.com/edimax/merchandise/merchandise_detail/data/edimax/global/smb_legacy_products_network_cameras/pt-31e)

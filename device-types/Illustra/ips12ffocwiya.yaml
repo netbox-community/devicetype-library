@@ -1,0 +1,27 @@
+---
+manufacturer: Illustra
+model: IPS12FFOCWIYA
+slug: illustra-ips12ffocwiya
+part_number: IPS12FFOCWIYA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Illustra IPS12FFOCWIYA product page](https://illustra.s3.us-east-1.amazonaws.com/Web_Files/Legacy/pro-12mp-fisheye/Data%20Sheets/Illustra-Pro-Fisheye-12mp-Data-Sheet-r11_hs_en.pdf)

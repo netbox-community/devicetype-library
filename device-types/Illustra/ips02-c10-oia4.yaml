@@ -1,0 +1,22 @@
+---
+manufacturer: Illustra
+model: IPS02-C10-OIA4
+slug: illustra-ips02-c10-oia4
+part_number: IPS02-C10-OIA4
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Illustra IPS02-C10-OIA4 product page](https://illustracameras.com/wp-content/uploads/2024/01/Illustra-Pro-Gen4-compact-dome_hs_en.pdf)

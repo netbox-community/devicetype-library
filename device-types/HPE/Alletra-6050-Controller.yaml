@@ -1,0 +1,43 @@
+---
+manufacturer: HPE
+model: Alletra 6050 Controller
+slug: hpe-alletra-6050-controller
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+comments: '[HPE Alletra 6050 QuickSpecs](https://www.hpe.com/psnow/doc/a50002567enw)'
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: eth0a
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth0b
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth0c
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth0d
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: OCP Expansion slot
+    position: OCP
+  - name: PCIe1
+    position: PCIe1
+  - name: PCIe2
+    position: PCIe2
+  - name: PCIe3
+    position: PCIe3
+  - name: PCIe4
+    position: PCIe4
+  - name: PCIe5
+    position: PCIe5
+  - name: PCIe6
+    position: PCIe6

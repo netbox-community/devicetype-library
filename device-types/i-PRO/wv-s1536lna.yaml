@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S1536LNA
+slug: i-pro-wv-s1536lna
+part_number: WV-S1536LNA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [i-PRO WV-S1536LNA datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s1536lna)

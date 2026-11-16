@@ -1,0 +1,24 @@
+---
+manufacturer: HiLook
+model: IPC-T260HAP-LUF/SL
+slug: hilook-ipc-t260hap-luf-sl
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook IPC-T260HAP-LUF/SL datasheet](https://assets.hikvision.com/prd/public/all/doc/m000118726/IPC-T260HAP-LUF_SL_Datasheet_20231214.pdf)

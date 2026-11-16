@@ -1,0 +1,23 @@
+---
+manufacturer: Verint
+model: V3920FDW
+slug: verint-v3920fdw
+part_number: V3920FDW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 758
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Verint V3920FDW product page](https://www.verint.com/wp-content/uploads/2025/12/verint-fss-v3920fdw-camera-datasheet.pdf)

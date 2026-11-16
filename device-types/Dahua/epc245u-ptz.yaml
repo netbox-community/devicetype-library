@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: EPC245U-PTZ
+slug: dahua-epc245u-ptz
+part_number: EPC245U-PTZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 23300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 60 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 60
+comments: >
+  [Dahua EPC245U-PTZ datasheet](https://www.dahuasecurity.com/products/discontinued-products/explosion-proof-&-anti-corrosion/epc245u-ptz)

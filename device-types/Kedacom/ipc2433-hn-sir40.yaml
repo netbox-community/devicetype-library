@@ -1,0 +1,25 @@
+---
+manufacturer: Kedacom
+model: IPC2433-HN-SIR40
+slug: kedacom-ipc2433-hn-sir40
+part_number: IPC2433-HN-SIR40
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC2433-HN-SIR40 product page](https://www.kedacom.com/en/bqwlsxj/4535.jhtml)

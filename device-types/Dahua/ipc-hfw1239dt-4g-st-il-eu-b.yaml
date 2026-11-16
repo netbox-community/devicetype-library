@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW1239DT-4G-ST-IL-EU-B
+slug: dahua-ipc-hfw1239dt-4g-st-il-eu-b
+part_number: IPC-HFW1239DT-4G-ST-IL-EU-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 580
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+comments: >
+  [Dahua IPC-HFW1239DT-4G-ST-IL-EU-B datasheet](https://www.dahuasecurity.com/products/wireless-products/4g-cameras/wired-cameras/ipc-hfw1239dt-4g-st-il-eu-b)

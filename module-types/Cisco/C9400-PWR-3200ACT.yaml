@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: C9400-PWR-3200ACT
+part_number: C9400-PWR-3200ACT
+description: Cisco Catalyst 9400 Series Titanium Rated 3200W AC Power Supply
+comments: '[Catalyst 9400 Series Switch Line Cards Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9400-series-switches/nb-06-cat9400-series-line-data-sheet-cte-en.html)'
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c20
+    maximum_draw: 3200

@@ -1,0 +1,24 @@
+---
+manufacturer: Uniview
+model: IPC2A14LP-ADF40KC-4G-E
+slug: uniview-ipc2a14lp-adf40kc-4g-e
+part_number: IPC2A14LP-ADF40KC-4G-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 470
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: lte0
+    type: lte
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC2A14LP-ADF40KC-4G-E datasheet](https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyProject_Series/IPC2A14LP-ADF40KC-4G-E/)

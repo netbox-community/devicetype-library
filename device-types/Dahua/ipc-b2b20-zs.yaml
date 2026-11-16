@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-B2B20-ZS
+slug: dahua-ipc-b2b20-zs
+part_number: IPC-B2B20-ZS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 434
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Dahua IPC-B2B20-ZS datasheet](https://www.dahuasecurity.com/products/discontinued-products/ez-ip/ipc-b2b20-zs)

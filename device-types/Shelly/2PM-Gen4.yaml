@@ -1,0 +1,32 @@
+---
+manufacturer: Shelly
+model: 2PM Gen4
+slug: shelly-2pm-gen4
+part_number: S4SW-002P16EU
+u_height: 0
+is_full_depth: false
+weight: 30
+weight_unit: g
+airflow: passive
+comments: '[Shelly 2PM Gen4](https://www.shelly.com/products/shelly-2pm-gen4)'
+power-ports:
+  - name: L
+    type: hardwired
+    description: 110-240Vac or 24Vdc; 16A max
+power-outlets:
+  - name: O1
+    type: hardwired
+    description: 10A max
+    power_port: L
+  - name: O2
+    type: hardwired
+    description: 10A max
+    power_port: L
+interfaces:
+  - name: Wireless
+    type: ieee802.11ax
+    description: 2.4GHz only (802.11b/g/n/ax)
+  - name: Bluetooth
+    type: ieee802.15.1
+  - name: Zigbee
+    type: ieee802.15.4

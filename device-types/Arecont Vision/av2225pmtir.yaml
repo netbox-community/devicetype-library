@@ -1,0 +1,27 @@
+---
+manufacturer: Arecont Vision
+model: AV2225PMTIR
+slug: arecont-vision-av2225pmtir
+part_number: AV2225PMTIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Arecont Vision AV2225PMTIR product page](https://sales.arecontvision.com/product/MegaView2)

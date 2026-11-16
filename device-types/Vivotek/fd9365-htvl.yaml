@@ -1,0 +1,21 @@
+---
+manufacturer: Vivotek
+model: FD9365-HTVL
+slug: vivotek-fd9365-htvl
+part_number: FD9365-HTVL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 873
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12.54 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC

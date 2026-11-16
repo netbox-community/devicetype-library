@@ -1,0 +1,23 @@
+---
+manufacturer: Secureye
+model: S-SSD-PTZ7
+slug: secureye-s-ssd-ptz7
+part_number: S-SSD-PTZ7
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Secureye S-SSD-PTZ7 product page](https://www.secureye.com/product/s-ssd-ptz7-defender-duo-alarmpro-4g-smart-dual-lens-pt-camera)

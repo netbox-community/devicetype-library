@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: PNM-C34404RQPZ
+slug: hanwha-pnm-c34404rqpz
+part_number: PNM-C34404RQPZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 64 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha PNM-C34404RQPZ datasheet](https://www.hanwhavision.com/en/products/product-details/pnm-c34404rqpz) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pnm-c34404rqpz)

@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HFW2239M-AS-LED-B-S2
+slug: dahua-ipc-hfw2239m-as-led-b-s2
+part_number: IPC-HFW2239M-AS-LED-B-S2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 725
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+comments: >
+  [Dahua IPC-HFW2239M-AS-LED-B-S2 datasheet](https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw2239m-as-led-b-s2=s2)

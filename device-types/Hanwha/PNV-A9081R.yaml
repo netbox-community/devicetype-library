@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: PNV-A9081R
+slug: hanwha-pnv-a9081r
+part_number: PNV-A9081R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha PNV-A9081R datasheet](https://www.hanwhavision.com/en/products/camera/network/dome/pnv-a9081r/) | [Specs on cctv-database.com](https://cctv-database.com/camera/hanwha-pnv-a9081r)

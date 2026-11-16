@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: C9600-PWR-3KWAC
+part_number: C9600-PWR-3KWAC
+description: Cisco Catalyst 9600 Series 3000W AC power supply
+comments: '[Cisco Catalyst 9600 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9600-series-switches/nb-06-cat9600-series-data-sheet-cte-en.html)'
+power-ports:
+  - name: PS-{module}
+    type: iec-60320-c20
+    maximum_draw: 3000

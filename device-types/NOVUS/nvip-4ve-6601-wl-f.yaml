@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-4VE-6601/WL/F
+slug: novus-nvip-4ve-6601-wl-f
+part_number: NVIP-4VE-6601/WL/F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [NOVUS NVIP-4VE-6601/WL/F datasheet](https://www.novuscctv.com/en/products/6631/NVIP-4VE-6601_WL_F)

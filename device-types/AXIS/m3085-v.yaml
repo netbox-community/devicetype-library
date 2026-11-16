@@ -1,0 +1,17 @@
+---
+manufacturer: AXIS
+model: M3085-V
+slug: axis-m3085-v
+part_number: M3085-V
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 150
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [Axis M3085-V datasheet](https://www.axis.com/products/axis-m3085-v) | [Specs on cctv-database.com](https://cctv-database.com/camera/axis-m3085-v)

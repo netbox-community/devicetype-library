@@ -1,0 +1,23 @@
+---
+manufacturer: AVYCON
+model: AVC-NPB51F28
+slug: avycon-avc-npb51f28
+part_number: AVC-NPB51F28
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NPB51F28 product page](https://www.avycon.com)

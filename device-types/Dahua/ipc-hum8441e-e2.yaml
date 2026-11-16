@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HUM8441E-E2
+slug: dahua-ipc-hum8441e-e2
+part_number: IPC-HUM8441E-E2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 9.32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+comments: >
+  [Dahua IPC-HUM8441E-E2 datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/special-series/separated-pinhole-series/ipc-hum8441e-e2)

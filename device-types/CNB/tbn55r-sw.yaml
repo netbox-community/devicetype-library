@@ -1,0 +1,27 @@
+---
+manufacturer: CNB
+model: TBN55R-SW
+slug: cnb-tbn55r-sw
+part_number: TBN55R-SW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [CNB TBN55R-SW product page](https://cnbtec.com/en/products/tbn55r-sw)

@@ -1,0 +1,24 @@
+---
+manufacturer: Kedacom
+model: IPC820-FB
+slug: kedacom-ipc820-fb
+part_number: IPC820-FB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 12000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 5 W
+power-ports:
+  - name: AC
+    type: hardwired
+    maximum_draw: 5
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kedacom IPC820-FB product page](https://www.kedacom.com/en/ytwlsxj/4543.jhtml)

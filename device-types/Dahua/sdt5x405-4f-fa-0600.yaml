@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: SDT5X405-4F-FA-0600
+slug: dahua-sdt5x405-4f-fa-0600
+part_number: SDT5X405-4F-FA-0600
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 9000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+comments: >
+  [Dahua SDT5X405-4F-FA-0600 datasheet](https://www.dahuasecurity.com/products/discontinued-products/ptz-cameras/sdt5x405-4f-fa-0600)

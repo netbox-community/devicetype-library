@@ -1,0 +1,20 @@
+---
+manufacturer: NOVUS
+model: NVIP-5VE-4511/FWLAD
+slug: novus-nvip-5ve-4511-fwlad
+part_number: NVIP-5VE-4511/FWLAD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [NOVUS NVIP-5VE-4511/FWLAD datasheet](https://www.novuscctv.com/en/product/5952)

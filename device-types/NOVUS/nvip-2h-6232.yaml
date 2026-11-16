@@ -1,0 +1,22 @@
+---
+manufacturer: NOVUS
+model: NVIP-2H-6232
+slug: novus-nvip-2h-6232
+part_number: NVIP-2H-6232
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 660
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+comments: >
+  [NOVUS NVIP-2H-6232 datasheet](https://www.novuscctv.com/en/products/5393/NVIP-2H-6232)

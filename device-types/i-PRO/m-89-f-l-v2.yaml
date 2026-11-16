@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: M-89-F-L-V2
+slug: i-pro-m-89-f-l-v2
+part_number: M-89-F-L-V2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [i-PRO M-89-F-L-V2 datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/m-89-f-l-v2)

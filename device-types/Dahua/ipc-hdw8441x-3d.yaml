@@ -1,0 +1,20 @@
+---
+manufacturer: Dahua
+model: IPC-HDW8441X-3D
+slug: dahua-ipc-hdw8441x-3d
+part_number: IPC-HDW8441X-3D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    description: max 11.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+comments: >
+  [Dahua IPC-HDW8441X-3D datasheet](https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-8-series/dual-lens-series/ipc-hdw8441x-3d)

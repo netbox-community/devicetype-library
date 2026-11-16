@@ -1,0 +1,21 @@
+---
+manufacturer: AVYCON
+model: AVC-NTB51M32
+slug: avycon-avc-ntb51m32
+part_number: AVC-NTB51M32
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [AVYCON AVC-NTB51M32 product page](https://www.avycon.com/products/network_camera/thermal-series/avc-ntb51m32)

@@ -1,0 +1,16 @@
+---
+manufacturer: HiLook
+model: IPC-B121HE-LUC
+slug: hilook-ipc-b121he-luc
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [HiLook IPC-B121HE-LUC datasheet](https://assets.hikvision.com/prd/normal/all/doc/sm000081460/IPC-B121HE-LUC_Datasheet_20260409.pdf)

@@ -1,0 +1,26 @@
+---
+manufacturer: Hikvision
+model: DS-2CD1143G2-LIU
+slug: hikvision-ds-2cd1143g2-liu
+part_number: DS-2CD1143G2-LIU
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2CD1143G2-LIU datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000042443/DS-2CD1143G2-LIUF_Datasheet_20230914.pdf) | [Specs
+  on cctv-database.com](https://cctv-database.com/camera/hikvision-ds-2cd1143g2-liu)

@@ -1,0 +1,23 @@
+---
+manufacturer: HiLook
+model: PTZ-N2C400I-W(W)
+slug: hilook-ptz-n2c400i-ww
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 565
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+  - name: wlan0
+    type: ieee802.11ac
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook PTZ-N2C400I-W(W) datasheet](https://assets.hikvision.com/prd/normal/all/doc/m000147461/PTZ-N2C400I-WW_Datasheet_20250723.pdf)

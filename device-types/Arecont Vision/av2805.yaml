@@ -1,0 +1,21 @@
+---
+manufacturer: Arecont Vision
+model: AV2805
+slug: arecont-vision-av2805
+part_number: AV2805
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 243
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 48V DC

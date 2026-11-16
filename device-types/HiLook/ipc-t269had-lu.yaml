@@ -1,0 +1,20 @@
+---
+manufacturer: HiLook
+model: IPC-T269HAD-LU
+slug: hilook-ipc-t269had-lu
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 580
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+comments: >
+  [HiLook IPC-T269HAD-LU datasheet](https://assets.hikvision.com/prd/public/all/doc/sm000084274/IPC-T269HAD-LUF_Datasheet_20241108.pdf)

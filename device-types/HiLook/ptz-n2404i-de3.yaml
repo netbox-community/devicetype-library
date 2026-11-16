@@ -1,0 +1,21 @@
+---
+manufacturer: HiLook
+model: PTZ-N2404I-DE3
+slug: hilook-ptz-n2404i-de3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [HiLook PTZ-N2404I-DE3 datasheet](https://assets.hikvision.com/prd/public/all/doc/m000001226/PTZ-N2404I-DE3G_Datasheet_20250623.pdf)
