@@ -1,0 +1,23 @@
+---
+manufacturer: ABUS
+model: IPCS84531
+slug: abus-ipcs84531
+part_number: IPCS84531
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [ABUS IPCS84531 product page](https://c1.abus.com/var/ImagesPIM/d110001/medias/docus/29/220504-IPCS84511_84531_TVIP82561_BDA_INT.pdf)

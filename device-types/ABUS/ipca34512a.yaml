@@ -1,0 +1,27 @@
+---
+manufacturer: ABUS
+model: IPCA34512A
+slug: abus-ipca34512a
+part_number: IPCA34512A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 520
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [ABUS IPCA34512A product page](https://www.abus.com/int/Commercial-Security/Video-surveillance/Network-technology/IP-Mini-Tube-4-MPx-Black-2.8-mm-IR-WL)

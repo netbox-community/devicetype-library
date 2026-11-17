@@ -1,0 +1,25 @@
+---
+manufacturer: ABUS
+model: TVIP64511
+slug: abus-tvip64511
+part_number: TVIP64511
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [ABUS TVIP64511 product page](https://c1.abus.com/asc-pim-assets-01/medias/docus/27/20230119-TVIP6x511_INST_DE-GB.pdf)
