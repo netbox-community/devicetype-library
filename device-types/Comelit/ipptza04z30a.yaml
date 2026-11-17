@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IPPTZA04Z30A
+slug: comelit-ipptza04z30a
+part_number: IPPTZA04Z30A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Comelit IPPTZA04Z30A product page](https://pro.comelitgroup.com/en-gb/product/ipptza04z30a)

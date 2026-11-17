@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IT04N3FA
+slug: comelit-it04n3fa
+part_number: IT04N3FA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IT04N3FA product page](https://pro.comelitgroup.com/en-gb/product/it04n3fa)

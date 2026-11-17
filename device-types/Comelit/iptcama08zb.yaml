@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IPTCAMA08ZB
+slug: comelit-iptcama08zb
+part_number: IPTCAMA08ZB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPTCAMA08ZB product page](https://pro.comelitgroup.com/en-gb/product/iptcama08zb)

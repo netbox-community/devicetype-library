@@ -1,0 +1,26 @@
+---
+manufacturer: Comelit
+model: IPPTZA08Z37AUK
+slug: comelit-ipptza08z37auk
+part_number: IPPTZA08Z37AUK
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 48
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Comelit IPPTZA08Z37AUK product page](https://staticpro.comelitgroup.com/en-us/datasheets/20657-ipptza08z37a.pdf)
