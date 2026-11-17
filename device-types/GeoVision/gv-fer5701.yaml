@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-FER5701
+slug: geovision-gv-fer5701
+part_number: GV-FER5701
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [GeoVision GV-FER5701 product page](https://dlcdn.geovision.com.tw/Manual/IPCAM/GV-IPCAM_Spec_table-before-20260821.pdf)

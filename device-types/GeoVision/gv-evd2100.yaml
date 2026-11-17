@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-EVD2100
+slug: geovision-gv-evd2100
+part_number: GV-EVD2100
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1150
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [GeoVision GV-EVD2100 product page](https://dlcdn.geovision.com.tw/Manual/IPCAM/GV-IPCAM_Spec_table-before-20260821.pdf)

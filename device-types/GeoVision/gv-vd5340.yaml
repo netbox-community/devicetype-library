@@ -1,0 +1,21 @@
+---
+manufacturer: GeoVision
+model: GV-VD5340
+slug: geovision-gv-vd5340
+part_number: GV-VD5340
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1830
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22.48 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
