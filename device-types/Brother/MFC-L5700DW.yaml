@@ -1,0 +1,31 @@
+---
+manufacturer: Brother
+model: MFC-L5700DW
+slug: brother-mfc-l5700dw
+
+u_height: 0
+is_full_depth: false
+
+weight: 16
+weight_unit: kg
+
+is_powered: true
+front_image: true
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1248
+    allocated_draw: 630
+interfaces:
+  - name: eth
+    type: 100base-tx
+  - name: wifi
+    label: Wireless
+    type: ieee802.11n
+rear-ports:
+  - name: USB
+    type: usb-b
+    positions: 1
+
+comments: '[MFC-L5700DW](https://support.brother.com/g/b/spec.aspx?c=us&lang=en&prod=mfcl5700dw_us)'
