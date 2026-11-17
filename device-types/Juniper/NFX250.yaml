@@ -24,60 +24,62 @@ power-ports:
 interfaces:
   - name: ge-0/0/0
     type: 1000base-t
-    label: ge-0/0/0
+    label: '0'
     description: access port
   - name: ge-0/0/1
     type: 1000base-t
-    label: ge-0/0/1
+    label: '1'
     description: access port
   - name: ge-0/0/2
     type: 1000base-t
-    label: ge-0/0/2
+    label: '2'
     description: access port
   - name: ge-0/0/3
     type: 1000base-t
-    label: ge-0/0/3
+    label: '3'
     description: access port
   - name: ge-0/0/4
     type: 1000base-t
-    label: ge-0/0/4
+    label: '4'
     description: access port
   - name: ge-0/0/5
     type: 1000base-t
-    label: ge-0/0/5
+    label: '5'
     description: access port
   - name: ge-0/0/6
     type: 1000base-t
-    label: ge-0/0/6
+    label: '6'
     description: access port
   - name: ge-0/0/7
     type: 1000base-t
-    label: ge-0/0/7
+    label: '7'
     description: access port
   - name: ge-0/0/8
     type: 1000base-t
-    label: ge-0/0/8
+    label: '8'
     description: access / uplink port
   - name: ge-0/0/9
     type: 1000base-t
-    label: ge-0/0/9
+    label: '9'
     description: access / uplink port
   - name: ge-0/0/10
-    type: 1000base-t
-    label: ge-0/0/10
+    type: 1000base-x-sfp
+    label: '10'
     description: uplink port
   - name: ge-0/0/11
-    type: 1000base-t
-    label: ge-0/0/11
+    type: 1000base-x-sfp
+    label: '11'
     description: uplink port
   - name: xe-0/0/12
     type: 10gbase-x-sfpp
-    label: xe-0/0/12
+    label: '0'
     description: uplink port
   - name: xe-0/0/13
     type: 10gbase-x-sfpp
-    label: xe-0/0/13
+    label: '1'
     description: uplink port
   - name: fxp0
     type: 1000base-t
+    description: management port
+    label: MGMT
     mgmt_only: true
