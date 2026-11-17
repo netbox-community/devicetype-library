@@ -1,0 +1,12 @@
+---
+profile: Expansion card
+manufacturer: Broadcom Corporation
+model: BCM57810S 2x10GBASE-T
+attribute_data:
+  connector_type: PCIe Gen 2 x8
+comments: '[BCM57810S - 2x 10GBASE-T](https://docs.broadcom.com/doc/1211168568697)'
+interfaces:
+  - name: pcie.nic1
+    type: 10gbase-t
+  - name: pcie.nic2
+    type: 10gbase-t

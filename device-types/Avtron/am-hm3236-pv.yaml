@@ -1,0 +1,23 @@
+---
+manufacturer: Avtron
+model: AM-HM3236-PV
+slug: avtron-am-hm3236-pv
+part_number: AM-HM3236-PV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Avtron AM-HM3236-PV product page](https://avtrontech.com/products/am-hm3236-pv)

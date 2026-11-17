@@ -1,0 +1,20 @@
+---
+manufacturer: CP Plus
+model: CP-UNP-E2521L15-DAP
+slug: cp-plus-cp-unp-e2521l15-dap
+part_number: CP-UNP-E2521L15-DAP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

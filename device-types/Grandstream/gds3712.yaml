@@ -1,0 +1,18 @@
+---
+manufacturer: Grandstream
+model: GDS3712
+slug: grandstream-gds3712
+part_number: GDS3712
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 625
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3
+comments: >
+  [Grandstream GDS3712 product page](https://www.grandstream.com/hubfs/Product_Documentation/GDS3712/Datasheet_GDS3712_English.pdf)
