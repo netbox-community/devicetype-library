@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: SV5018-R36
+slug: beward-sv5018-r36
+part_number: SV5018-R36
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD SV5018-R36 product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-ptz/ip-kamera-sv5018-r36)

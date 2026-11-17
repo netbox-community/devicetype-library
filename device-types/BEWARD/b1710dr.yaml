@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: B1710DR
+slug: beward-b1710dr
+part_number: B1710DR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 5.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD B1710DR product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/b1710dr)

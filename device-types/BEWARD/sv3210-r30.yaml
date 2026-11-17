@@ -1,0 +1,20 @@
+---
+manufacturer: BEWARD
+model: SV3210-R30
+slug: beward-sv3210-r30
+part_number: SV3210-R30
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 35 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD SV3210-R30 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-sv3210-r30)

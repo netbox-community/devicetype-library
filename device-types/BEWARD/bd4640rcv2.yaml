@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: BD4640RCV2
+slug: beward-bd4640rcv2
+part_number: BD4640RCV2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [BEWARD BD4640RCV2 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-bd4640rcv2)
