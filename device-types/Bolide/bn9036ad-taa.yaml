@@ -1,0 +1,23 @@
+---
+manufacturer: Bolide
+model: BN9036AD/TAA
+slug: bolide-bn9036ad-taa
+part_number: BN9036AD/TAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 880
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+comments: >
+  [Bolide BN9036AD/TAA product page](https://bolideco.com/products/8mp-taa-compliant-motorized-varifocal-bullet-camera-bn9036ad-taa)

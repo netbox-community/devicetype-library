@@ -1,0 +1,22 @@
+---
+manufacturer: Bolide
+model: BN8019AI/NDAA
+slug: bolide-bn8019ai-ndaa
+part_number: BN8019AI/NDAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+comments: >
+  [Bolide BN8019AI/NDAA product page](https://bolideco.com/products/5mp-high-definition-fixed-lens-ir-eyeball-camera-bn8019-ndaa)
