@@ -1,0 +1,22 @@
+---
+manufacturer: Hanwha
+model: QNP-6250H
+slug: hanwha-qnp-6250h
+part_number: QNP-6250H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hanwha QNP-6250H product page](https://www.hanwhavision.com/global/products/product-details/QNP-6250H)
