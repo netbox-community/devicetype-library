@@ -1,0 +1,18 @@
+---
+manufacturer: IC Realtime
+model: IPND-M80V-IRW1
+slug: ic-realtime-ipnd-m80v-irw1
+part_number: IPND-M80V-IRW1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
