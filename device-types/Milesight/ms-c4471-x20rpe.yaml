@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C4471-X20RPE
+slug: milesight-ms-c4471-x20rpe
+part_number: MS-C4471-X20RPE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C4471-X20RPE product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-e/milesight-ai-12xand20x-23x-ptz-dome-network-camera-ndaa-e-datasheet-en.pdf)
