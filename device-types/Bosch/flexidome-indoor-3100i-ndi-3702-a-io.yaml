@@ -1,0 +1,22 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME indoor 3100i (NDI-3702-A-IO)
+slug: bosch-flexidome-indoor-3100i-ndi-3702-a-io
+part_number: FLEXIDOME indoor 3100i (NDI-3702-A-IO)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 415
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 3 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Bosch FLEXIDOME indoor 3100i (NDI-3702-A-IO) product page](https://cdn.commerce.boschsecurity.com/public/documents/NDI_3702_A_IO_Data_sheet_enUS_125014593547.pdf)

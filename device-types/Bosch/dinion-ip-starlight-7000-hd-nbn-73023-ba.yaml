@@ -1,0 +1,26 @@
+---
+manufacturer: Bosch
+model: DINION IP starlight 7000 HD (NBN-73023-BA)
+slug: bosch-dinion-ip-starlight-7000-hd-nbn-73023-ba
+part_number: DINION IP starlight 7000 HD (NBN-73023-BA)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 840
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Bosch DINION IP starlight 7000 HD (NBN-73023-BA) product page](https://cdn.commerce.boschsecurity.com/public/documents/NBN_7300_Data_sheet_enUS_22455561611.pdf)

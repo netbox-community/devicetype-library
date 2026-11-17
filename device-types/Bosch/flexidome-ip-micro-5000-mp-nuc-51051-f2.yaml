@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME IP micro 5000 MP (NUC-51051-F2)
+slug: bosch-flexidome-ip-micro-5000-mp-nuc-51051-f2
+part_number: FLEXIDOME IP micro 5000 MP (NUC-51051-F2)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 1, max 3.84 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB

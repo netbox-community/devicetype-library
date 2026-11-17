@@ -1,0 +1,24 @@
+---
+manufacturer: Bosch
+model: DINION 7100s (NBI-7803-AX)
+slug: bosch-dinion-7100s-nbi-7803-ax
+part_number: DINION 7100s (NBI-7803-AX)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB

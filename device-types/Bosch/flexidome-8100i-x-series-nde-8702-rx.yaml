@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME 8100i X-series (NDE-8702-RX)
+slug: bosch-flexidome-8100i-x-series-nde-8702-rx
+part_number: FLEXIDOME 8100i X-series (NDE-8702-RX)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 26V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
