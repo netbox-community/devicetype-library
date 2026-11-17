@@ -1,0 +1,27 @@
+---
+manufacturer: Ganz
+model: ZN8-F7NTFN10L
+slug: ganz-zn8-f7ntfn10l
+part_number: ZN8-F7NTFN10L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 680
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Ganz ZN8-F7NTFN10L product page](https://computarganz.s3.amazonaws.com/Ganz+Active+Resources/GENSTAR_IP_4P+brochure+09.01.23+V2.pdf)
