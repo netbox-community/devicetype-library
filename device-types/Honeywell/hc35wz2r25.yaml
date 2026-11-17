@@ -1,0 +1,22 @@
+---
+manufacturer: Honeywell
+model: HC35WZ2R25
+slug: honeywell-hc35wz2r25
+part_number: HC35WZ2R25
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Honeywell HC35WZ2R25 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/security-de/HBT-SEC-35S-HC35WZxRxx-DS-US-EN.pdf)
