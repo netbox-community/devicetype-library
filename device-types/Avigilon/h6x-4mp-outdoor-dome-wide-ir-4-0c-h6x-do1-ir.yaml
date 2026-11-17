@@ -1,0 +1,26 @@
+---
+manufacturer: Avigilon
+model: H6X 4MP Outdoor Dome Wide IR (4.0C-H6X-DO1-IR)
+slug: avigilon-h6x-4mp-outdoor-dome-wide-ir-4-0c-h6x-do1-ir
+part_number: H6X 4MP Outdoor Dome Wide IR (4.0C-H6X-DO1-IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6X 4MP Outdoor Dome Wide IR (4.0C-H6X-DO1-IR) product page](https://docs.avigilon.com/bundle/h6-a-dome-camera-datasheet/resource/h6-a-dome-camera-datasheet.pdf)

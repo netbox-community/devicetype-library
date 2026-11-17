@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H6A 4MP Indoor Dome (4.0C-H6A-D1-IR-B-30)
+slug: avigilon-h6a-4mp-indoor-dome-4-0c-h6a-d1-ir-b-30
+part_number: H6A 4MP Indoor Dome (4.0C-H6A-D1-IR-B-30)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Avigilon H6A 4MP Indoor Dome (4.0C-H6A-D1-IR-B-30) product page](https://docs.avigilon.com/bundle/alta-h6a-dome-camera/resource/alta-h6a-dome-camera.pdf)

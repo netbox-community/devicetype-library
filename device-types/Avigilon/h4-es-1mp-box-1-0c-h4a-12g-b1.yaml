@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4 ES 1MP Box (1.0C-H4A-12G-B1)
+slug: avigilon-h4-es-1mp-box-1-0c-h4a-12g-b1
+part_number: H4 ES 1MP Box (1.0C-H4A-12G-B1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 620
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Avigilon H4 ES 1MP Box (1.0C-H4A-12G-B1) product page](https://assets.avigilon.com/file_library/pdf/h4-es/avigilon-h4a-b-ssd-b-datasheet-en-rev5.pdf)

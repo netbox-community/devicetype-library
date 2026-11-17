@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H6A Fisheye 12MP In-Ceiling (12.0C-H6A-FE-DC1)
+slug: avigilon-h6a-fisheye-12mp-in-ceiling-12-0c-h6a-fe-dc1
+part_number: H6A Fisheye 12MP In-Ceiling (12.0C-H6A-FE-DC1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 907
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [Avigilon H6A Fisheye 12MP In-Ceiling (12.0C-H6A-FE-DC1) product page](https://docs.avigilon.com/bundle/h6-fisheye-camera-datasheet/resource/h6-fisheye-camera-datasheet.pdf)

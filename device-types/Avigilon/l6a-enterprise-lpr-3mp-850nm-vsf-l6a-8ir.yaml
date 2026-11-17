@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: L6A Enterprise LPR 3MP 850nm (VSF-L6A-8IR)
+slug: avigilon-l6a-enterprise-lpr-3mp-850nm-vsf-l6a-8ir
+part_number: L6A Enterprise LPR 3MP 850nm (VSF-L6A-8IR)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3150
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+comments: >
+  [Avigilon L6A Enterprise LPR 3MP 850nm (VSF-L6A-8IR) product page](https://docs.avigilon.com/bundle/l6a-datasheet/resource/l6a-datasheet.pdf)
