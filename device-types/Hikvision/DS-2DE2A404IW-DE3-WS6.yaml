@@ -1,0 +1,27 @@
+---
+manufacturer: Hikvision
+model: DS-2DE2A404IW-DE3/WS6
+slug: hikvision-ds-2de2a404iw-de3-ws6
+part_number: DS-2DE2A404IW-DE3/WS6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hikvision DS-2DE2A404IW-DE3/WS6 product page](https://assets.hikvision.com/prd/public/all/doc/m000045325/Datasheet-of-DS-2DE2A404IW-DE3_WS6_V5.7.0_20230222.pdf)
