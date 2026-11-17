@@ -1,0 +1,24 @@
+---
+manufacturer: EZVIZ
+model: C8W
+slug: ezviz-c8w
+part_number: C8W
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EZVIZ C8W product page](https://www.ezviz.com/us/product/C8W/39033)
