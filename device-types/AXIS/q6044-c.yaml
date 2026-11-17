@@ -1,0 +1,21 @@
+---
+manufacturer: AXIS
+model: Q6044-C
+slug: axis-q6044-c
+part_number: Q6044-C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 2V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB

@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: P1344
+slug: axis-p1344
+part_number: P1344
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 6.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 20V DC
+comments: >
+  [AXIS P1344 product page](https://www.axis.com/products/axis-p1344)
