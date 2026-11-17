@@ -262,7 +262,7 @@ to be added.
 - [rear-ports](#rear-ports "Availible in NetBox 2.5 and later")
 - [module-bays](#module-bays "Availible in NetBox 3.2 and later")
 - [device-bays](#device-bays "Availible in all versions of NetBox")
-- [inventory-items](#inventory-items "Availible in NetBox 3.2 and later (As of 4.3 this has been depricated)")
+- [inventory-items](#inventory-items "Availible in NetBox 3.2 and later (As of 4.3 this has been deprecated)")
 
 The available fields for each type of component are listed below.
 
@@ -412,7 +412,7 @@ There are two ways this repo focuses on keeping quality device-type definitions:
       - To install the pre-commit script: `pre-commit install`
   - Usage & Useful `pre-commit` Commands
     - After staging your files with `git`, to run the pre-commit script on changed files: `pre-commit run`
-    - To run the pre-commit script on all files: `pre-commit run -all`
+    - To run the pre-commit script on all files: `pre-commit run --all-files`
     - To uninstall the pre-commit script: `pre-commit uninstall`
   - Learn more about [pre-commit](https://pre-commit.com/)
 - **GitHub Actions** - Automatically run before a PR can be merged. Repeats yamllint & validates against NetBox Device-Type Schema, note that if this fails then the PR cannot be merged.
