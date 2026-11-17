@@ -1,0 +1,58 @@
+---
+manufacturer: Eaton
+model: Tripp Lite SU2200RTXL2Ua
+slug: eaton-tripp-lite-su2200rtxl2ua
+part_number: '037332142504'
+description: Tripp Lite SmartOnline 2200VA / 1600W Double-Conversion UPS
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 47.4
+weight_unit: lb
+power-ports:
+  - name: Input
+    label: INPUT
+    type: nema-5-20p
+    maximum_draw: 1600
+console-ports:
+  - name: Console
+    label: RS-232
+    type: de-9
+  - name: USB
+    label: USB
+    type: usb-b
+power-outlets:
+  - name: Load 1 Outlet 1
+    type: nema-5-20r
+  - name: Load 1 Outlet 2
+    type: nema-5-20r
+  - name: Load 1 Outlet 3
+    type: nema-5-20r
+  - name: Load 2 Outlet 1
+    type: nema-5-20r
+  - name: Load 2 Outlet 2
+    type: nema-5-20r
+  - name: Load 2 Outlet 3
+    type: nema-5-20r
+  - name: Load 3 Outlet 1
+    type: nema-l5-20r
+front-ports:
+  - name: Data Protection In
+    label: PHONE / DATA PROTECTION IN
+    type: 8p8c
+    positions: 1
+rear-ports:
+  - name: Data Protection Out
+    label: PHONE / DATA PROTECTION OUT
+    type: 8p8c
+    positions: 1
+  - name: Emergency Power Off
+    label: EPO
+    type: 6p2c
+    positions: 1
+port-mappings:
+  - front_port: Data Protection In
+    front_port_position: 1
+    rear_port: Data Protection Out
+    rear_port_position: 1
