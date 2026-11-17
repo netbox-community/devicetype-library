@@ -1,0 +1,25 @@
+---
+manufacturer: Pelco
+model: Spectra Enhanced 7 S7230L-FW0
+slug: pelco-spectra-enhanced-7-s7230l-fw0
+part_number: Spectra Enhanced 7 S7230L-FW0
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco Spectra Enhanced 7 S7230L-FW0 product page](https://files.pelco.com/media/2022/09/08/C5005S_Spectra_Enhanced_Spec_4K_090622.pdf)

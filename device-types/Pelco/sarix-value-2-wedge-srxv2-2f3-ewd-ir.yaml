@@ -1,0 +1,22 @@
+---
+manufacturer: Pelco
+model: Sarix Value 2 Wedge SRXV2-2F3-EWD-IR
+slug: pelco-sarix-value-2-wedge-srxv2-2f3-ewd-ir
+part_number: Sarix Value 2 Wedge SRXV2-2F3-EWD-IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 409
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [Pelco Sarix Value 2 Wedge SRXV2-2F3-EWD-IR product page](https://www.pelco.com/fs/documents/pelco-sarix-value-2-wedge-camera-specification-sheet-en-022426.pdf)

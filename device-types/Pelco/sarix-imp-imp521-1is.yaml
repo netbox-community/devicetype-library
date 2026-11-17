@@ -1,0 +1,25 @@
+---
+manufacturer: Pelco
+model: Sarix IMP IMP521-1IS
+slug: pelco-sarix-imp-imp521-1is
+part_number: Sarix IMP IMP521-1IS
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Pelco Sarix IMP IMP521-1IS product page](https://files.pelco.com/media/wp-content/uploads/2020/05/15182909/Sarix-IMP-Indoor-and-Environmental-Mini-Dome-Cameras-Specification-Sheet.pdf)

@@ -1,0 +1,15 @@
+---
+manufacturer: Pelco
+model: ID
+slug: pelco-id
+part_number: ID
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [Pelco ID product page](https://www.pelco.com)

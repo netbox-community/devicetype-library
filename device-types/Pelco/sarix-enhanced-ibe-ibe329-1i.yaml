@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: Sarix Enhanced IBE IBE329-1I
+slug: pelco-sarix-enhanced-ibe-ibe329-1i
+part_number: Sarix Enhanced IBE IBE329-1I
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 940
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco Sarix Enhanced IBE IBE329-1I product page](https://files.pelco.com/media/wp-content/uploads/2020/05/17174614/C4027_Sarix_IBE_Series_Bullet_9-22mm_041319_rebrand.pdf)

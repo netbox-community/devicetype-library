@@ -1,0 +1,19 @@
+---
+manufacturer: Pelco
+model: Spectra Enhanced S6230-YBL0US
+slug: pelco-spectra-enhanced-s6230-ybl0us
+part_number: Spectra Enhanced S6230-YBL0US
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+comments: >
+  [Pelco Spectra Enhanced S6230-YBL0US product page](https://files.pelco.com/media/wp-content/uploads/2020/04/07152336/C4040_Spectra_HDR_1080P_IK10_COO_110918_Spec.pdf)

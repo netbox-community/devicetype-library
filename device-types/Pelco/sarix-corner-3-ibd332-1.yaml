@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: Sarix Corner 3 IBD332-1
+slug: pelco-sarix-corner-3-ibd332-1
+part_number: Sarix Corner 3 IBD332-1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Pelco Sarix Corner 3 IBD332-1 product page](https://www.pelco.com/fs/documents/pelco-sarix-corner-specification-sheet-en-081326.pdf)

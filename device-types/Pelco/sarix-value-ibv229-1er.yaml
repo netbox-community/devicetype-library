@@ -1,0 +1,22 @@
+---
+manufacturer: Pelco
+model: Sarix Value IBV229-1ER
+slug: pelco-sarix-value-ibv229-1er
+part_number: Sarix Value IBV229-1ER
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 738
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Pelco Sarix Value IBV229-1ER product page](https://files.pelco.com/media/2021/12/03/C5040S_SarixValue_IBV_Bullet_Spec_120321.pdf)
