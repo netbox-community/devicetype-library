@@ -1,0 +1,22 @@
+---
+manufacturer: IMOU
+model: PS8D 5MP
+slug: imou-ps8d-5mp
+part_number: PS8D 5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 254
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU PS8D 5MP product page](https://www.imou.com/en/product/detail/ps8d-5mp)
