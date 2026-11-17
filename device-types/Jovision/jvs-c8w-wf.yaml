@@ -1,0 +1,23 @@
+---
+manufacturer: Jovision
+model: JVS-C8W-WF
+slug: jovision-jvs-c8w-wf
+part_number: JVS-C8W-WF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 510
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Jovision JVS-C8W-WF product page](https://www.jovisionsecurity.com/jvs_c8w_wf.html)
