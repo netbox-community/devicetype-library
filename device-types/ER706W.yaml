@@ -1,0 +1,33 @@
+---
+manufacturer: TP-Link
+model: ER706W
+slug: tp-link-er706w
+part_number: ER706W
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[TP-Link Omada ER706W Datasheet](https://support.omadanetworks.com/us/document/3573/)'
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 17
+    description: 12V DC, 2.0A
+interfaces:
+  - name: wan/lan1
+    type: 1000base-x-sfp
+  - name: wan2
+    type: 1000base-t
+  - name: wan/lan3
+    type: 1000base-t
+  - name: wan/lan4
+    type: 1000base-t
+  - name: wan/lan5
+    type: 1000base-t
+  - name: wan/lan6
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ax
+    description: 2.4 GHz
+  - name: wlan1
+    type: ieee802.11ax
+    description: 5 GHz
