@@ -1,0 +1,25 @@
+---
+manufacturer: i-PRO
+model: WV-X6531NS
+slug: i-pro-wv-x6531ns
+part_number: WV-X6531NS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 54V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

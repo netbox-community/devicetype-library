@@ -1,0 +1,21 @@
+---
+manufacturer: AvertX
+model: HD448IR
+slug: avertx-hd448ir
+part_number: HD448IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [AvertX HD448IR product page](https://www.avertx.com/content/cameras/37502AA_AvertX_HD448_SpecSheet.pdf)
