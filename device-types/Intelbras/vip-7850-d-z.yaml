@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 7850 D Z
+slug: intelbras-vip-7850-d-z
+part_number: VIP 7850 D Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 7850 D Z product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_vip_7850_d_z.pdf)

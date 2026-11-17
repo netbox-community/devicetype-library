@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP 1220 D FULL COLOR G3
+slug: intelbras-vip-1220-d-full-color-g3
+part_number: VIP 1220 D FULL COLOR G3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Intelbras VIP 1220 D FULL COLOR G3 product page](https://backend.intelbras.com/sites/default/files/2023-03/Datasheet%20UNIFICADO%20-%20VIP%201220%20B.D%20Full%20Color%20G3_1.pdf)

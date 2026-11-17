@@ -1,0 +1,22 @@
+---
+manufacturer: Intelbras
+model: VIP 7180 D Pan
+slug: intelbras-vip-7180-d-pan
+part_number: VIP 7180 D Pan
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 7180 D Pan product page](https://backend.intelbras.com/sites/default/files/2020-01/Datasheet-VIP-7180-D-PAN-01.20.pdf)

@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIPC 1220 D FC+
+slug: intelbras-vipc-1220-d-fc-plus
+part_number: VIPC 1220 D FC+
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 240
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Intelbras VIPC 1220 D FC+ product page](https://backend.intelbras.com/sites/default/files/2026-01/datasheet-vipc-1220-fc%2B-vipc-1220-d-fc%2B-pt.pdf)

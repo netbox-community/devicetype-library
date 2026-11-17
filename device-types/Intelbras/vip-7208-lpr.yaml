@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 7208 LPR
+slug: intelbras-vip-7208-lpr
+part_number: VIP 7208 LPR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1120
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Intelbras VIP 7208 LPR product page](https://backend.intelbras.com/sites/default/files/2022-03/datasheet_vip_7208_lpr_2.pdf)

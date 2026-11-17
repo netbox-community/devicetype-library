@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP E4120
+slug: intelbras-vip-e4120
+part_number: VIP E4120
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 515
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Intelbras VIP E4120 product page](https://backend.intelbras.com/sites/default/files/integration/manual_vip_e2100_e_vip_e4120_portugues_01-15_site_0.pdf)

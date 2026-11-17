@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 7250 D AC FT
+slug: intelbras-vip-7250-d-ac-ft
+part_number: VIP 7250 D AC FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 7250 D AC FT product page](https://backend.intelbras.com/sites/default/files/2021-02/datasheet-VIP-7250-D-AC-FT.pdf)

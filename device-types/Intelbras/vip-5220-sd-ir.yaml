@@ -1,0 +1,22 @@
+---
+manufacturer: Intelbras
+model: VIP 5220 SD IR
+slug: intelbras-vip-5220-sd-ir
+part_number: VIP 5220 SD IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 13 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 5220 SD IR product page](https://backend.intelbras.com/sites/default/files/2020-09/Datasheet_unificado_speed_domes_vip_5220_sd_e_vip_5220_sd_ir_v2%20%281%29.pdf)

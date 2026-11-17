@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIP 7430 D A FT
+slug: intelbras-vip-7430-d-a-ft
+part_number: VIP 7430 D A FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 745
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Intelbras VIP 7430 D A FT product page](https://backend.intelbras.com/sites/default/files/2022-06/datasheet-vip-7430-d-a-ft-pt.pdf)

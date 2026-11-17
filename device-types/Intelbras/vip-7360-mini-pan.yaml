@@ -1,0 +1,26 @@
+---
+manufacturer: Intelbras
+model: VIP 7360 mini Pan
+slug: intelbras-vip-7360-mini-pan
+part_number: VIP 7360 mini Pan
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 780
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 7360 mini Pan product page](https://www.intelbras.com/pt-br/camera-ip-360deg-vip-7360-mini-pan)

@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 7250 LPR IA FT
+slug: intelbras-vip-7250-lpr-ia-ft
+part_number: VIP 7250 LPR IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Intelbras VIP 7250 LPR IA FT product page](https://backend.intelbras.com/sites/default/files/2021-03/Ficha_Tecnica_VIP_7250_LPR_IA_FT_V2.pdf)
