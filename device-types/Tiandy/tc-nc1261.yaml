@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-NC1261
+slug: tiandy-tc-nc1261
+part_number: TC-NC1261
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Tiandy TC-NC1261 product page](https://en.tiandy.com/index.php)
