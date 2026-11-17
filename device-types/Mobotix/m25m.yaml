@@ -1,0 +1,18 @@
+---
+manufacturer: Mobotix
+model: M25M
+slug: mobotix-m25m
+part_number: M25M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 4 W
+comments: >
+  [Mobotix M25M product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

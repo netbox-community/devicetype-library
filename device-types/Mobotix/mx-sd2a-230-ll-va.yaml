@@ -1,0 +1,22 @@
+---
+manufacturer: Mobotix
+model: Mx-SD2A-230-LL-VA
+slug: mobotix-mx-sd2a-230-ll-va
+part_number: Mx-SD2A-230-LL-VA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Mobotix Mx-SD2A-230-LL-VA product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

@@ -1,0 +1,27 @@
+---
+manufacturer: Mobotix
+model: Mx-VB3A-2-IR-VA
+slug: mobotix-mx-vb3a-2-ir-va
+part_number: Mx-VB3A-2-IR-VA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Mobotix Mx-VB3A-2-IR-VA product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

@@ -1,0 +1,23 @@
+---
+manufacturer: Mobotix
+model: Mx-VD1A-5-IR-VA
+slug: mobotix-mx-vd1a-5-ir-va
+part_number: Mx-VD1A-5-IR-VA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Mobotix Mx-VD1A-5-IR-VA product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

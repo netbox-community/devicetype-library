@@ -1,0 +1,19 @@
+---
+manufacturer: Mobotix
+model: S74 Dual Sensor
+slug: mobotix-s74-dual-sensor
+part_number: S74 Dual Sensor
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Mobotix S74 Dual Sensor product page](https://www.mobotix.com/en/products/mobotix-7/s74)

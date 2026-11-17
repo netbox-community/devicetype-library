@@ -1,0 +1,22 @@
+---
+manufacturer: Mobotix
+model: Mx-VH1A-12-IR-VA
+slug: mobotix-mx-vh1a-12-ir-va
+part_number: Mx-VH1A-12-IR-VA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 565
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Mobotix Mx-VH1A-12-IR-VA product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)

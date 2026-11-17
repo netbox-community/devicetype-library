@@ -1,0 +1,26 @@
+---
+manufacturer: Mobotix
+model: S ONE Dual (S1A-D)
+slug: mobotix-s-one-dual-s1a-d
+part_number: S ONE Dual (S1A-D)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 540
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Mobotix S ONE Dual (S1A-D) product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)
