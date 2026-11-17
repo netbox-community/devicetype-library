@@ -1,0 +1,27 @@
+---
+manufacturer: Netgear
+model: MS305E
+slug: netgear-ms305e
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+comments: |
+  [MS305E official datasheet](https://www.downloads.netgear.com/files/GDC/MS305E/MS305E_MS308E_DS.pdf) (pp. 2-3).
+  Documented maximum consumption: 5.6 W; maximum_draw rounded up to whole watts.
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 6
+interfaces:
+  - name: '1'
+    type: 2.5gbase-t
+  - name: '2'
+    type: 2.5gbase-t
+  - name: '3'
+    type: 2.5gbase-t
+  - name: '4'
+    type: 2.5gbase-t
+  - name: '5'
+    type: 2.5gbase-t
