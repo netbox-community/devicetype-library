@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDBW5443R1-ZYL-PV-AS-JM
+slug: dahua-dh-ipc-hdbw5443r1-zyl-pv-as-jm
+part_number: DH-IPC-HDBW5443R1-ZYL-PV-AS-JM
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua DH-IPC-HDBW5443R1-ZYL-PV-AS-JM product page](https://www.dahuatech.com/product/info/13747.html)

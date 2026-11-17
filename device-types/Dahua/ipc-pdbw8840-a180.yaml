@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-PDBW8840-A180
+slug: dahua-ipc-pdbw8840-a180
+part_number: IPC-PDBW8840-A180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 14.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-PDBW8840-A180 product page](https://material.dahuasecurity.com/uploads/cpq/DH-IPC-PDBW8840-A180_datasheet_20200729.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HFW3241T-ZAS
+slug: dahua-ipc-hfw3241t-zas
+part_number: IPC-HFW3241T-ZAS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW3241T-ZAS product page](https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/network-cameras/ipc-hfw3241t-zas(only-for-project))

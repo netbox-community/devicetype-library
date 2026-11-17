@@ -1,0 +1,26 @@
+---
+manufacturer: Dahua
+model: IPC-EW5541-AS
+slug: dahua-ipc-ew5541-as
+part_number: IPC-EW5541-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 299
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-EW5541-AS product page](https://www.dahuasecurity.com/uk/products/network-products/network-cameras/wizmind-panoramic-series/fisheye-series/ipc-ew5541-as)

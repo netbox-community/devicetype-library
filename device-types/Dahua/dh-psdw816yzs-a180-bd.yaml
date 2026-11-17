@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-PSDW816YZS-A180-BD
+slug: dahua-dh-psdw816yzs-a180-bd
+part_number: DH-PSDW816YZS-A180-BD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 8800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 67.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 68
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Dahua DH-PSDW816YZS-A180-BD product page](https://www.dahuatech.com/product/info/14105.html)

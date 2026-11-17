@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: PTZ37225-HNP-GB-A
+slug: dahua-ptz37225-hnp-gb-a
+part_number: PTZ37225-HNP-GB-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua PTZ37225-HNP-GB-A product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/positioning-systems/ptz37225-hnp-gb-a-eg)

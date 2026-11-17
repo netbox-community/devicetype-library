@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HUM8231-E2
+slug: dahua-ipc-hum8231-e2
+part_number: IPC-HUM8231-E2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 210
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Dahua IPC-HUM8231-E2 product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hum8231-e2)
