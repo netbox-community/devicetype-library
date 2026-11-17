@@ -1,0 +1,27 @@
+---
+manufacturer: Turing
+model: SMART TP-MFB4M4 4MP TwilightVision IR Bullet
+slug: turing-smart-tp-mfb4m4-4mp-twilightvision-ir-bullet
+part_number: SMART TP-MFB4M4 4MP TwilightVision IR Bullet
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Turing SMART TP-MFB4M4 4MP TwilightVision IR Bullet product page](https://turing-marketing-assets.s3.us-west-2.amazonaws.com/book/TP-MFB4M28.pdf)
