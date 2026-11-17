@@ -1,0 +1,22 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-XSWA08Bi
+slug: digital-watchdog-dwc-xswa08bi
+part_number: DWC-XSWA08Bi
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Digital Watchdog DWC-XSWA08Bi product page](https://digital-watchdog.com/productdetail/DWC-XSWA08Bi)
