@@ -14,7 +14,7 @@ console-ports:
     type: rj-45
   - name: USB
     type: usb-a
-  - name: 1PPS / 10MHZ
+  - name: 1PPS
     description: 1PPS / G.703 ToD port in or out (software selectable). SMB connector
     type: other
   - name: CLK
@@ -26,6 +26,12 @@ console-ports:
   - name: BITS
     type: rj-45
     description: RJ-45 BITS in or out, ToD in or out, or 1PPS in or out (software selectable).
+  - name: ANT
+    type: other
+    description: SMB connector (50 ohm) GPS antenna port
+  - name: ALARMS
+    type: other
+    description: D-sub 26-pin female alarm connector
 interfaces:
   - name: '1'
     type: 10gbase-x-sfpp

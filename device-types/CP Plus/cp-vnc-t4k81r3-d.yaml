@@ -1,0 +1,21 @@
+---
+manufacturer: CP Plus
+model: CP-VNC-T4K81R3-D
+slug: cp-plus-cp-vnc-t4k81r3-d
+part_number: CP-VNC-T4K81R3-D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC

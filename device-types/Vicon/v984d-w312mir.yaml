@@ -1,0 +1,27 @@
+---
+manufacturer: Vicon
+model: V984D-W312MIR
+slug: vicon-v984d-w312mir
+part_number: V984D-W312MIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 790
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vicon V984D-W312MIR product page](https://vicon-security.com/hubfs/Product%20Resources/V980D-Series_Datasheet.pdf)
