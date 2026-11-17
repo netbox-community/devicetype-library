@@ -1,0 +1,26 @@
+---
+manufacturer: RVi
+model: RVi-CFG20/52F36 rev.D
+slug: rvi-rvi-cfg20-52f36-rev-d
+part_number: RVi-CFG20/52F36 rev.D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 360
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVi-CFG20/52F36 rev.D product page](https://rvigroup.ru/catalog-v2/rvi_cfg20_52f36_rev_d)

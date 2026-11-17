@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-4TVC-160L1.5/M1L1-E
+slug: rvi-rvi-4tvc-160l1-5-m1l1-e
+part_number: RVi-4TVC-160L1.5/M1L1-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [RVi RVi-4TVC-160L1.5/M1L1-E product page](https://rvigroup.ru/catalog-v2/rvi_4tvc_160l1_5_m1l1_e)

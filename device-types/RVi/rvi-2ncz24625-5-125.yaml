@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-2NCZ24625 (5-125)
+slug: rvi-rvi-2ncz24625-5-125
+part_number: RVi-2NCZ24625 (5-125)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-2NCZ24625 (5-125) product page](https://rvigroup.ru/catalog-v2/rvi_2ncz24625_5_125)

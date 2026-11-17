@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-2NCT8349 (2.8-12) white
+slug: rvi-rvi-2nct8349-2-8-12-white
+part_number: RVi-2NCT8349 (2.8-12) white
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 17.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [RVi RVi-2NCT8349 (2.8-12) white product page](https://rvigroup.ru/catalog-v2/rvi_2nct8349_2_8_12_white)

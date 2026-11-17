@@ -1,0 +1,26 @@
+---
+manufacturer: RVi
+model: RVi-CFG20/74F28/MDS rev.H
+slug: rvi-rvi-cfg20-74f28-mds-rev-h
+part_number: RVi-CFG20/74F28/MDS rev.H
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [RVi RVi-CFG20/74F28/MDS rev.H product page](https://rvigroup.ru/catalog-v2/rvi_cfg20_74f28_mds_rev_h)
