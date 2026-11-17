@@ -1,0 +1,26 @@
+---
+manufacturer: HP
+model: PageWide XL 5100
+slug: hp-pagewide-xl-5100
+part_number: 2RQ08B
+
+u_height: 0
+is_full_depth: false
+
+weight: 430
+weight_unit: kg
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 900
+    allocated_draw: 520
+interfaces:
+  - name: eth0
+    type: 1000base-t
+rear-ports:
+  - name: USB
+    type: usb-b
+    positions: 1
+
+comments: '[User Guide](https://h10032.www1.hp.com/ctg/Manual/c04867578.pdf)'

@@ -1,0 +1,34 @@
+---
+manufacturer: HP
+model: OfficeJet Pro 7740
+slug: hp-officejet-pro-7740
+
+u_height: 0
+is_full_depth: false
+
+weight: 20
+weight_unit: kg
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 37
+    allocated_draw: 7
+interfaces:
+  - name: eth
+    type: 1000base-t
+  - name: wifi
+    label: Wireless
+    type: ieee802.11n
+rear-ports:
+  - name: USB A
+    type: usb-a
+    positions: 1
+  - name: USB B
+    type: usb-b
+    positions: 1
+  - name: FAX
+    type: 6p2c
+    positions: 2
+
+comments: '[HP OfficeJet Pro 7740 Wide Format All-in-One Printer](https://www.hp.com/emea_africa-en/products/printers/product-details/product-specifications/7682231)'
