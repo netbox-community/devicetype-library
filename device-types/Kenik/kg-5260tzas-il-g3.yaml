@@ -1,0 +1,27 @@
+---
+manufacturer: Kenik
+model: KG-5260TZAS-IL-G3
+slug: kenik-kg-5260tzas-il-g3
+part_number: KG-5260TZAS-IL-G3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Kenik KG-5260TZAS-IL-G3 product page](https://files.kenik.pl/Karty%20katalogowe/Kamery/Karta%20katalogowa%20KG-5260TZAS-IL-G3.pdf)
