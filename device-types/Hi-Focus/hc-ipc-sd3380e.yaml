@@ -1,0 +1,25 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-SD3380E
+slug: hi-focus-hc-ipc-sd3380e
+part_number: HC-IPC-SD3380E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3770
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-SD3380E product page](https://hifocuscctv.com/categories/network-ptz-cameras/8mp-network-ptz-camera-hc-ipc-sd3380e)

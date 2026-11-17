@@ -1,0 +1,21 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-T4214-0360-LED
+slug: hi-focus-hc-ipc-t4214-0360-led
+part_number: HC-IPC-T4214-0360-LED
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Hi-Focus HC-IPC-T4214-0360-LED product page](https://hifocuscctv.com/categories/ip-cameras/4mp-ip-bullet-camera-hc-ipc-t4214-0360-led)

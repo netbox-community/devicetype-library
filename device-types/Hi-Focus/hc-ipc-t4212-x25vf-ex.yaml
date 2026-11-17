@@ -1,0 +1,25 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-T4212-X25VF-EX
+slug: hi-focus-hc-ipc-t4212-x25vf-ex
+part_number: HC-IPC-T4212-X25VF-EX
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-T4212-X25VF-EX product page](https://hifocuscctv.com/categories/ip-cameras/2mp-ip-explosion-proof-bullet-camera-hc-ipc-t4212-x25vf-ex)
