@@ -1,0 +1,24 @@
+---
+manufacturer: Foscam
+model: FI9938B
+slug: foscam-fi9938b
+part_number: FI9938B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Foscam FI9938B product page](https://www.foscam.com/FI9938B.html)

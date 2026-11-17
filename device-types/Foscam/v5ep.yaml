@@ -1,0 +1,23 @@
+---
+manufacturer: Foscam
+model: V5EP
+slug: foscam-v5ep
+part_number: V5EP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Foscam V5EP product page](https://us.foscam.com/V5EP.html)
