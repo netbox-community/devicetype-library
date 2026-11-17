@@ -1,0 +1,36 @@
+---
+manufacturer: Yealink
+model: RoomCast
+slug: yealink-roomcast
+
+u_height: 0
+is_full_depth: false
+
+weight: 192
+weight_unit: g
+
+airflow: passive
+is_powered: true
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 1248
+    allocated_draw: 620
+interfaces:
+  - name: eth
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: wifi
+    label: Wireless
+    type: ieee802.11ac
+rear-ports:
+  - name: USB
+    type: usb-a
+    positions: 2
+  - name: HDMI
+    type: other
+    positions: 1
+
+comments: '[RoomCast](https://www.yealink.com/en/product-tech-specs/roomcast)'

@@ -1,0 +1,23 @@
+---
+manufacturer: Lorex
+model: E910DD
+slug: lorex-e910dd
+part_number: E910DD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Lorex E910DD product page](https://www.lorex.com/products/e910dd-4k-plus-12mp-smart-security-lighting-dome-ip-camera)
