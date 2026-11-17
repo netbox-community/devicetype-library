@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E913
+slug: acti-e913
+part_number: E913
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 199
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.08 W
+comments: >
+  [ACTi E913 product page](https://www.acti.com/product/E913)

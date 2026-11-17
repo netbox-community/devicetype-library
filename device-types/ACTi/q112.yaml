@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: Q112
+slug: acti-q112
+part_number: Q112
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 583
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [ACTi Q112 product page](https://www.acti.com/product/Q112)

@@ -1,0 +1,23 @@
+---
+manufacturer: ACTi
+model: A419
+slug: acti-a419
+part_number: A419
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1285
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 14.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+comments: >
+  [ACTi A419 product page](https://www.acti.com/product/A419)

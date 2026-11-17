@@ -1,0 +1,18 @@
+---
+manufacturer: ACTi
+model: E36
+slug: acti-e36
+part_number: E36
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 704
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.8 W
+comments: >
+  [ACTi E36 product page](https://www.acti.com/product/E36)
