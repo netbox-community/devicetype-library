@@ -1,0 +1,21 @@
+---
+manufacturer: Mapesen
+model: E1AQ506F-P
+slug: mapesen-e1aq506f-p
+part_number: E1AQ506F-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Mapesen E1AQ506F-P product page](https://www.mapesen.com/explosion-proof-camera/e1aq500f-p.html)

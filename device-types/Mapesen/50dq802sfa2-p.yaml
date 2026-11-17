@@ -1,0 +1,21 @@
+---
+manufacturer: Mapesen
+model: 50DQ802SFA2-P
+slug: mapesen-50dq802sfa2-p
+part_number: 50DQ802SFA2-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+comments: >
+  [Mapesen 50DQ802SFA2-P product page](https://www.mapesen.com/wdr/50d-wdr-pro-series-with-active-deterrence.html)
