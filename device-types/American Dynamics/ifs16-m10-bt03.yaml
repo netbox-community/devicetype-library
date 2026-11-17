@@ -1,0 +1,17 @@
+---
+manufacturer: American Dynamics
+model: IFS16-M10-BT03
+slug: american-dynamics-ifs16-m10-bt03
+part_number: IFS16-M10-BT03
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
