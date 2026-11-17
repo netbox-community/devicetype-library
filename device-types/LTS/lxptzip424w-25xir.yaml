@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: LXPTZIP424W-25XIR
+slug: lts-lxptzip424w-25xir
+part_number: LXPTZIP424W-25XIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS LXPTZIP424W-25XIR product page](https://www.ltsmall.com/ipc-4mp/3437.html)

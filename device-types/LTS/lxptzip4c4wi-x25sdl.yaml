@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: LXPTZIP4C4WI-X25SDL
+slug: lts-lxptzip4c4wi-x25sdl
+part_number: LXPTZIP4C4WI-X25SDL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2720
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS LXPTZIP4C4WI-X25SDL product page](https://www.ltsmall.com/ipc-4mp/3376.html)

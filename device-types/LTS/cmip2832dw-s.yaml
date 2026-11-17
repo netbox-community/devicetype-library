@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: CMIP2832DW-S
+slug: lts-cmip2832dw-s
+part_number: CMIP2832DW-S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 830
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [LTS CMIP2832DW-S product page](https://ltsecurityinc.com/ip-camera/ip-box/network-ip-dome-camera-cmip2832dw-s.html)

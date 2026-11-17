@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: LXIP7743W-SDZ
+slug: lts-lxip7743w-sdz
+part_number: LXIP7743W-SDZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LTS LXIP7743W-SDZ product page](https://www.ltsmall.com/ipc-4mp/3147.html)

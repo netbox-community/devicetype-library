@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: CMIP1043NW-MZ
+slug: lts-cmip1043nw-mz
+part_number: CMIP1043NW-MZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 560
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [LTS CMIP1043NW-MZ product page](https://ltsecurityinc.com/default/cmip1043nw-mz-4-mp-varifocal-turret-network-camera.html)

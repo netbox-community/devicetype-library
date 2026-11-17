@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: CMIP7106F-SE
+slug: lts-cmip7106f-se
+part_number: CMIP7106F-SE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 715
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [LTS CMIP7106F-SE product page](https://www.ltsmall.com/ipc-6mp/3223.html)
