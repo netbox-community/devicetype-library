@@ -14,8 +14,8 @@ comments: '[Amcrest IP5M-T1179EW-AI-V3 datasheet](https://support.amcrest.com/hc
 power-ports:
   - name: DC IN
     type: dc-terminal
-    maximum_draw: 2
-    allocated_draw: 4
+    maximum_draw: 4
+    allocated_draw: 2
 interfaces:
   - name: eth0
     type: 100base-tx
