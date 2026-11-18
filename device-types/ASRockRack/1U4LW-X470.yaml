@@ -1,0 +1,48 @@
+---
+manufacturer: ASRockRack
+model: 1U4LW-X470
+slug: asrockrack-1u4lw-x470
+part_number: 1U4LW-X470
+comments: |
+  1U rackmount server with ASRock Rack X470D4U motherboard, 4 front hot-swap 3.5" SATA drive bays, 3 internal fixed 2.5" SATA drive bays, 1 PCIe x16 slot via riser, 400W power supply
+  [ASRock Rack 1U4LW-X470](https://www.asrockrack.com/general/productdetail.asp?Model=1U4LW-X470)
+
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+front_image: true
+rear_image: true
+
+subdevice_role: parent
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 400
+
+module-bays:
+  - name: Drive Bay 1
+    position: '1'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Drive Bay 2
+    position: '2'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Drive Bay 3
+    position: '3'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Drive Bay 4
+    position: '4'
+    description: 3.5" SATA front hot-swap drive bay
+  - name: Internal Drive Bay 1
+    position: '5'
+    description: 2.5" SATA internal fixed drive bay
+  - name: Internal Drive Bay 2
+    position: '6'
+    description: 2.5" SATA internal fixed drive bay
+  - name: Internal Drive Bay 3
+    position: '7'
+    description: 2.5" SATA internal fixed drive bay
+
+device-bays:
+  - name: Motherboard
+    description: ASRock Rack X470D4U
