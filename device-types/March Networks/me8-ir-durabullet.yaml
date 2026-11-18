@@ -1,0 +1,27 @@
+---
+manufacturer: March Networks
+model: ME8 IR DuraBullet
+slug: march-networks-me8-ir-durabullet
+part_number: ME8 IR DuraBullet
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1280
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [March Networks ME8 IR DuraBullet product page](https://www.marchnetworks.com/products/cameras/me-series/me8-ir-durabullet)
