@@ -1,0 +1,95 @@
+---
+manufacturer: Juniper
+model: JNP304-LMIC16-BASE
+part_number: 750-122718
+weight: 2.8
+weight_unit: kg
+description: MX304 16-port LMIC, 4x QSFP-DD (400GbE) and 12x QSFP28 (100GbE)
+module_bay_types:
+  - MX304-LMIC
+
+module-bays:
+  - name: Transceiver {module}/0
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+    position: et-{module}/0
+  - name: Transceiver {module}/1
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/1
+  - name: Transceiver {module}/2
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/2
+  - name: Transceiver {module}/3
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/3
+  - name: Transceiver {module}/4
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/4
+  - name: Transceiver {module}/5
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/5
+  - name: Transceiver {module}/6
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+    position: et-{module}/6
+  - name: Transceiver {module}/7
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/7
+  - name: Transceiver {module}/8
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+    position: et-{module}/8
+  - name: Transceiver {module}/9
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/9
+  - name: Transceiver {module}/10
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/10
+  - name: Transceiver {module}/11
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/11
+  - name: Transceiver {module}/12
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/12
+  - name: Transceiver {module}/13
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/13
+  - name: Transceiver {module}/14
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+    position: et-{module}/14
+  - name: Transceiver {module}/15
+    label: QSFP28
+    module_bay_types:
+      - QSFP28
+    position: et-{module}/15

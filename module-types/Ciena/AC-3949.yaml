@@ -1,0 +1,13 @@
+---
+manufacturer: Ciena
+model: AC-3949
+part_number: 170-0492-900
+description: 3949, AC PLUGGABLE POWER SUPPLY, WIDE RANGE 120/240V
+comments: |
+  Used in:
+  * 3949
+power-ports:
+  - name: PS-{module}
+    type: iec-60320-c16
+    maximum_draw: 105
+    allocated_draw: 46
