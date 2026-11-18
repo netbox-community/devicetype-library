@@ -18,6 +18,15 @@ console-ports:
   - name: SYNC
     type: rj-45
     description: RJ45 interface G.703 1PPS & ToD input/output
+  - name: CLK
+    type: other
+    description: SMB connector (50 ohm) CLK or 10 MHz (10 MHz/1544 kHz/2048 kHz) in or out (software selectable)
+  - name: BITS
+    type: rj-45
+    description: RJ48C BITS (E1/T1/2048 kHz) in or out (not on the XL MACsec model)
+  - name: USB
+    type: usb-a
+    description: USB 2.0 port
 module-bays:
   - name: PS A
     position: A

@@ -1,0 +1,12 @@
+---
+manufacturer: 10GTek
+model: E810-100G-2Q-X16
+part_number: E810-100G-2Q-X16
+comments: '[E810-100G-2Q-X16](https://store.10gtek.com/100g-network-card-dual-sfp28-port-intel-e810-cam2-controller-x16-lane/p-21862)'
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
