@@ -1,0 +1,43 @@
+---
+manufacturer: HP
+model: EliteDesk 705 G4 Mini
+slug: hp-elitedesk-705-g4-mini
+u_height: 1
+is_full_depth: false
+weight: 1.1
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: |-
+  [Maintenance and Service Guide](https://h10032.www1.hp.com/ctg/Manual/c06112892.pdf)
+
+  The HP EliteDesk 705 G4 comes in several power envelope variants.
+  The WLAN card and rear expansion connector board are optional, removable components.
+interfaces:
+  - name: ethernet-1/1
+    type: 1000base-t
+    description: Onboard Realtek Gigabit Ethernet (rear RJ-45)
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    description: External power adapter, 19.5 V DC
+module-bays:
+  - name: DIMM1
+    position: DIMM1
+    description: DDR4 SODIMM slot, channel B
+  - name: DIMM3
+    position: DIMM3
+    description: DDR4 SODIMM slot, channel A
+  - name: M.2 SSD
+    position: SSD
+    description: M.2 PCIe NVMe SSD slot
+  - name: WLAN
+    position: WLAN
+    description: M.2 Wi-Fi module slot
+  - name: SATA drive
+    position: P60
+    description: 2.5-inch SATA drive bay connected to system board connector P60 SATA. Only supports SSDs; no 12V power rail available.
+  - name: Expansion connector
+    position: P72
+    description: Rear optional expansion connector board (system board connector P72 COMM_DP)
