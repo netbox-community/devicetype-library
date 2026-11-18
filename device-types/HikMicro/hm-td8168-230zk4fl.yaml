@@ -1,0 +1,20 @@
+---
+manufacturer: HikMicro
+model: HM-TD8168-230ZK4FL
+slug: hikmicro-hm-td8168-230zk4fl
+part_number: HM-TD8168-230ZK4FL
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 270
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
