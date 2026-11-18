@@ -1,0 +1,24 @@
+---
+manufacturer: amcrest
+model: IP4M-1041
+slug: amcrest-ip4m-1041
+part_number: IP4M-1041
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP4M-1041 product page](https://support.amcrest.com/hc/en-us/articles/360036479531-Technical-Specifications-IP4M-1041)

@@ -1,0 +1,23 @@
+---
+manufacturer: amcrest
+model: IP4M-S2112EW-AI
+slug: amcrest-ip4m-s2112ew-ai
+part_number: IP4M-S2112EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1070
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [amcrest IP4M-S2112EW-AI product page](https://support.amcrest.com/hc/en-us/articles/15060240225165-Technical-Specifications-IP4M-S2112EW-AI)

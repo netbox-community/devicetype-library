@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP5M-B1276EW-AI
+slug: amcrest-ip5m-b1276ew-ai
+part_number: IP5M-B1276EW-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 499
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP5M-B1276EW-AI product page](https://support.amcrest.com/hc/en-us/articles/14379202542349-Technical-Specifications-IP5M-B1276EW-AI)

@@ -1,0 +1,22 @@
+---
+manufacturer: amcrest
+model: IP8M-MT2544EW
+slug: amcrest-ip8m-mt2544ew
+part_number: IP8M-MT2544EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [amcrest IP8M-MT2544EW product page](https://amcrest.com/4k-poe-camera-turret-optical-zoom-ip8m-mt2544ew.html)
