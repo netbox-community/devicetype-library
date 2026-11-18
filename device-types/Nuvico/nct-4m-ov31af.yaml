@@ -1,0 +1,23 @@
+---
+manufacturer: Nuvico
+model: NCT-4M-OV31AF
+slug: nuvico-nct-4m-ov31af
+part_number: NCT-4M-OV31AF
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1302
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Nuvico NCT-4M-OV31AF product page](https://nuvico.com/index.php)

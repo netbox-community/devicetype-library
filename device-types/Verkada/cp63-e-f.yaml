@@ -1,0 +1,22 @@
+---
+manufacturer: Verkada
+model: CP63-E-F
+slug: verkada-cp63-e-f
+part_number: CP63-E-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 48 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 3072 GB
+comments: >
+  [Verkada CP63-E-F product page](https://www.verkada.com/security-cameras/ptz/cp63-e-f)

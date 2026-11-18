@@ -1,0 +1,27 @@
+---
+manufacturer: OpenEye
+model: OE-C9912M20
+slug: openeye-oe-c9912m20
+part_number: OE-C9912M20
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 40 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 40
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [OpenEye OE-C9912M20 product page](https://www.openeye.net/products/cameras/oe-c9912m20)
