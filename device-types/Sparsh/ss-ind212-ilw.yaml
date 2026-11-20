@@ -1,0 +1,27 @@
+---
+manufacturer: Sparsh
+model: SS-IND212-(I)(L)(W)
+slug: sparsh-ss-ind212-ilw
+part_number: SS-IND212-(I)(L)(W)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 30 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 30
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Sparsh SS-IND212-(I)(L)(W) product page](https://b2b.sparshsecuritech.com/ajax/download)
