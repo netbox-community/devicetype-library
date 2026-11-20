@@ -1,0 +1,104 @@
+---
+manufacturer: Huawei
+model: Eudemon1000E-F125-AC
+slug: huawei-eudemon1000e-f125-ac
+part_number: 02354MKQ-002
+description: Eudemon1000E-F125(HTM) Enhanced AC host (2*QSFP28 + 2*QSFP+ + 8*ZSFP+ + 20*SFP+, 2 AC power)
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 10.26
+weight_unit: kg
+comments: '[Hardware guide, same chassis as USG6710F](https://support.huawei.com/enterprise/en/doc/EDOC1100208764/64977eb4/usg6710f)'
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+  - name: FAN4
+    position: '4'
+  - name: PWR1
+    position: '1'
+  - name: PWR2
+    position: '2'
+interfaces:
+  - name: MEth0/0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: 100GE0/0/0
+    type: 100gbase-x-qsfp28
+  - name: 100GE0/0/1
+    type: 100gbase-x-qsfp28
+  - name: 40GE0/0/2
+    type: 40gbase-x-qsfpp
+  - name: 40GE0/0/3
+    type: 40gbase-x-qsfpp
+  - name: 10GE0/0/0
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/1
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/2
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/3
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/4
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/5
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/6
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/7
+    type: 25gbase-x-sfp28
+    description: ZSFP+, 10G by default, 25G after port mode 40GE on its 100GE port
+  - name: 10GE0/0/8
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/9
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/10
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/11
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/12
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/13
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/14
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/15
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/16
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/17
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/18
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/19
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/20
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/21
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/22
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/23
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/24
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/25
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/26
+    type: 10gbase-x-sfpp
+  - name: 10GE0/0/27
+    type: 10gbase-x-sfpp

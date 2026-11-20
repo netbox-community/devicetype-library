@@ -1,0 +1,23 @@
+---
+manufacturer: TRUEN
+model: TCAM-6522HIR
+slug: truen-tcam-6522hir
+part_number: TCAM-6522HIR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [TRUEN TCAM-6522HIR product page](https://www.truen.co.kr/customer/technology.php)
