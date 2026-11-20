@@ -1,0 +1,12 @@
+---
+manufacturer: Extreme Networks
+model: 100G-SR4-QSFP100M
+part_number: 100G-SR4-QSFP100M
+description: 100GBASE-SR4 QSFP28 transceiver, 100 m, multimode fiber, MPO
+profile: Transceiver
+module_bay_types: [QSFP28]
+comments: |
+  [Extreme Networks optics specifications](https://www.extremenetworks.com/support/policies)
+interfaces:
+  - name: '{module}'
+    type: 100gbase-sr4
