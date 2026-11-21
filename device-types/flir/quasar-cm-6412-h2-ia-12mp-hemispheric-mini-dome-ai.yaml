@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: Quasar CM-6412-H2-IA 12MP Hemispheric Mini-Dome AI
+slug: flir-quasar-cm-6412-h2-ia-12mp-hemispheric-mini-dome-ai
+part_number: Quasar CM-6412-H2-IA 12MP Hemispheric Mini-Dome AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 565
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [flir Quasar CM-6412-H2-IA 12MP Hemispheric Mini-Dome AI product page](https://flir.netx.net/file/asset/69814/original/attachment)
