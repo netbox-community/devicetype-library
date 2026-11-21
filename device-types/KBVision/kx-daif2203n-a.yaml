@@ -1,0 +1,27 @@
+---
+manufacturer: KBVision
+model: KX-DAiF2203N-A
+slug: kbvision-kx-daif2203n-a
+part_number: KX-DAiF2203N-A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 815
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [KBVision KX-DAiF2203N-A product page](https://kbvisiongroup.com/product/kx-daif2203n-a.html)
