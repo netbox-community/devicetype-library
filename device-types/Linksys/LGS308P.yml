@@ -1,0 +1,57 @@
+---
+manufacturer: Linksys
+model: LGS308P
+slug: linksys-lgs308p
+
+comments: '[Linksys Smart Gigabit PoE+ Switches](https://downloads.linksys.com/downloads/datasheet/en/LGS308P_LGS318P_LGS326P_English.pdf)'
+
+front_image: true
+rear_image: true
+
+u_height: 1
+is_full_depth: false
+
+weight: 562
+weight_unit: g
+
+airflow: passive
+is_powered: true
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 360
+    allocated_draw: 10
+interfaces:
+  - name: GE1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE3
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE4
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE6
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE7
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GE8
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

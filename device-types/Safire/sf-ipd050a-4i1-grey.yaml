@@ -1,0 +1,27 @@
+---
+manufacturer: Safire
+model: SF-IPD050A-4I1-GREY
+slug: safire-sf-ipd050a-4i1-grey
+part_number: SF-IPD050A-4I1-GREY
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPD050A-4I1-GREY product page](https://www.safirecctv.com/product/sf-ipd050a-4i1-grey)

@@ -1,0 +1,22 @@
+---
+manufacturer: Verkada
+model: CH52-E-F
+slug: verkada-ch52-e-f
+part_number: CH52-E-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 27.7 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 8192 GB
+comments: >
+  [Verkada CH52-E-F product page](https://www.verkada.com/security-cameras/multisensor/ch52-e-f)

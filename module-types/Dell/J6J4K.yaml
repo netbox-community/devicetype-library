@@ -7,6 +7,6 @@ description: S6100-ON 1100W AC PSU (D1100E-S2), reverse airflow (PSU to I/O)
 comments: Same physical form factor as the PowerEdge R640 PSU (and possibly other models), but the firmware is incompatible - not interchangeable between
   switch and server.
 power-ports:
-  - name: AC
+  - name: '{module}'
     type: iec-60320-c14
     maximum_draw: 1100
