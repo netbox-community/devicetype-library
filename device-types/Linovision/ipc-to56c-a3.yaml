@@ -1,0 +1,27 @@
+---
+manufacturer: Linovision
+model: IPC-TO56C-A3
+slug: linovision-ipc-to56c-a3
+part_number: IPC-TO56C-A3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Linovision IPC-TO56C-A3 product page](https://linovision.com/cdn/shop/files/IPC-TO56C-A3_Specification.pdf)
