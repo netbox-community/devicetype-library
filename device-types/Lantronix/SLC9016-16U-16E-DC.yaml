@@ -1,0 +1,131 @@
+---
+manufacturer: Lantronix
+model: SLC9016-16U-16E-DC
+slug: lantronix-slc9016-16u-16e-dc
+part_number: SLC9016-16U-16E-DC
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 2.7
+weight_unit: kg
+comments: 32 serial ports (16 RJ45, 16 USB Type-A), 16x 1GbE switch ports, 2x 1GbE, 2x SFP+, TPM 2.0, dual DC PSU. https://www.lantronix.com/products/slc-9000-series/
+console-ports:
+  - name: Console
+    type: rj-45
+console-server-ports:
+  - name: Port-01
+    type: rj-45
+  - name: Port-02
+    type: rj-45
+  - name: Port-03
+    type: rj-45
+  - name: Port-04
+    type: rj-45
+  - name: Port-05
+    type: rj-45
+  - name: Port-06
+    type: rj-45
+  - name: Port-07
+    type: rj-45
+  - name: Port-08
+    type: rj-45
+  - name: Port-09
+    type: rj-45
+  - name: Port-10
+    type: rj-45
+  - name: Port-11
+    type: rj-45
+  - name: Port-12
+    type: rj-45
+  - name: Port-13
+    type: rj-45
+  - name: Port-14
+    type: rj-45
+  - name: Port-15
+    type: rj-45
+  - name: Port-16
+    type: rj-45
+  - name: Port-17
+    type: usb-a
+  - name: Port-18
+    type: usb-a
+  - name: Port-19
+    type: usb-a
+  - name: Port-20
+    type: usb-a
+  - name: Port-21
+    type: usb-a
+  - name: Port-22
+    type: usb-a
+  - name: Port-23
+    type: usb-a
+  - name: Port-24
+    type: usb-a
+  - name: Port-25
+    type: usb-a
+  - name: Port-26
+    type: usb-a
+  - name: Port-27
+    type: usb-a
+  - name: Port-28
+    type: usb-a
+  - name: Port-29
+    type: usb-a
+  - name: Port-30
+    type: usb-a
+  - name: Port-31
+    type: usb-a
+  - name: Port-32
+    type: usb-a
+power-ports:
+  - name: PS1
+    type: dc-terminal
+    maximum_draw: 30
+  - name: PS2
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth3
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: eth4
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: Switch-Port-1
+    type: 1000base-t
+  - name: Switch-Port-2
+    type: 1000base-t
+  - name: Switch-Port-3
+    type: 1000base-t
+  - name: Switch-Port-4
+    type: 1000base-t
+  - name: Switch-Port-5
+    type: 1000base-t
+  - name: Switch-Port-6
+    type: 1000base-t
+  - name: Switch-Port-7
+    type: 1000base-t
+  - name: Switch-Port-8
+    type: 1000base-t
+  - name: Switch-Port-9
+    type: 1000base-t
+  - name: Switch-Port-10
+    type: 1000base-t
+  - name: Switch-Port-11
+    type: 1000base-t
+  - name: Switch-Port-12
+    type: 1000base-t
+  - name: Switch-Port-13
+    type: 1000base-t
+  - name: Switch-Port-14
+    type: 1000base-t
+  - name: Switch-Port-15
+    type: 1000base-t
+  - name: Switch-Port-16
+    type: 1000base-t

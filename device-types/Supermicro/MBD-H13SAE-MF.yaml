@@ -1,0 +1,69 @@
+---
+manufacturer: Supermicro
+model: Motherboard H13SAE-MF
+slug: supermicro-mbd-h13sae-mf
+part_number: MBD-H13SAE-MF
+comments: |
+  AMD B650 Micro-ATX workstation motherboard for AMD EPYC 4004/4005 and Ryzen 7000/8000/9000 series processors (Socket AM5), 4 DDR5 ECC/non-ECC UDIMM slots, 2 PCIe 5.0 x4 M.2, 4 SATA, dual Intel i210 GbE and ASPEED AST2600 BMC
+  [Supermicro motherboard H13SAE-MF](https://www.supermicro.com/en/products/motherboard/h13sae-mf)
+
+u_height: 0
+is_full_depth: false
+airflow: passive
+
+# Should be inside of a case
+subdevice_role: child
+
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port (Realtek RTL8211F)
+  - name: LAN1
+    type: 1000base-t
+    description: Intel i210-AT
+  - name: LAN2
+    type: 1000base-t
+    description: Intel i210-AT
+
+module-bays:
+  - name: CPU
+    position: '1'
+    description: AMD AM5 Socket (LGA1718)
+
+  # DIMM modeled as newer module-bay instead of inventory item
+  - name: DIMMA1
+    position: '2'
+    description: DDR5 UDIMM slot
+  - name: DIMMA2
+    position: '3'
+    description: DDR5 UDIMM slot
+  - name: DIMMB1
+    position: '4'
+    description: DDR5 UDIMM slot
+  - name: DIMMB2
+    position: '5'
+    description: DDR5 UDIMM slot
+
+  # Slot names follow the manual; SLOT4 and SLOT6 share CPU lanes (x16/NA or x8/x8)
+  - name: SLOT4
+    position: '6'
+    description: CPU PCIe 5.0 x8 (in x16 slot)
+  - name: SLOT6
+    position: '7'
+    description: CPU PCIe 5.0 x16
+  - name: SLOT7
+    position: '8'
+    description: PCH PCIe 4.0 x4
+
+  - name: M.2-C1
+    position: '9'
+    description: PCIe 5.0 x4 (M-key 2280, 22110)
+  - name: M.2-C2
+    position: '10'
+    description: PCIe 5.0 x4 (M-key 2280, 22110)

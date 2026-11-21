@@ -6,6 +6,6 @@ airflow: front-to-rear
 description: S3048-ON 200W AC PSU, normal airflow (I/O to PSU)
 comments: 'Normal-airflow 200W AC PSU for S3048-ON. Interchangeable alternate DPN: 4282W.'
 power-ports:
-  - name: AC
+  - name: '{module}'
     type: iec-60320-c14
     maximum_draw: 200
