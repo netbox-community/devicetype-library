@@ -1,0 +1,34 @@
+---
+manufacturer: Netgear
+model: GS308v3
+slug: netgear-gs308v3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 390
+weight_unit: g
+comments: |
+  [GS308v3 official datasheet](https://www.netgear.com/images/datasheet/switches/300-series_unmanaged_ds.pdf) (pp. 3-4).
+  Documented maximum consumption: 3.04 W; maximum_draw rounded up to whole watts.
+  Hardware revision is part of the model; specifications apply to this revision only.
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 4
+interfaces:
+  - name: '1'
+    type: 1000base-t
+  - name: '2'
+    type: 1000base-t
+  - name: '3'
+    type: 1000base-t
+  - name: '4'
+    type: 1000base-t
+  - name: '5'
+    type: 1000base-t
+  - name: '6'
+    type: 1000base-t
+  - name: '7'
+    type: 1000base-t
+  - name: '8'
+    type: 1000base-t

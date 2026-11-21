@@ -1,0 +1,23 @@
+---
+manufacturer: eneo
+model: ISM-78F0021W0A
+slug: eneo-ism-78f0021w0a
+part_number: ISM-78F0021W0A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 112
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [eneo ISM-78F0021W0A product page](https://eneo-security.com/en/ism-78f0021w0a.html)
