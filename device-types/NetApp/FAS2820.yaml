@@ -1,0 +1,21 @@
+---
+manufacturer: NetApp
+model: FAS2820
+slug: netapp-fas2820
+description: FAS2820 Chassis
+u_height: 2
+is_full_depth: true
+weight: 25.9
+weight_unit: kg
+subdevice_role: parent
+comments: |
+  2U chassis with two HA controllers, 12 internal drive slots and two hot-swappable power supplies.
+  Specifications: https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html
+device-bays:
+  - name: A
+  - name: B
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2

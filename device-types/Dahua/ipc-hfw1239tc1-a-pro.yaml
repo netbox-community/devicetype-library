@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: IPC-HFW1239TC1-A-PRO
+slug: dahua-ipc-hfw1239tc1-a-pro
+part_number: IPC-HFW1239TC1-A-PRO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Dahua IPC-HFW1239TC1-A-PRO product page](https://www.dahuasecurity.com/th/products/All-Products/Network-Cameras/Lite-Series/WizColor-Lite/IPC-HFW1239TC1-A-PRO)

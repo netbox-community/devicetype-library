@@ -1,0 +1,23 @@
+---
+manufacturer: VIGI
+model: VIGI C400HP
+slug: vigi-vigi-c400hp
+part_number: VIGI C400HP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 195
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [VIGI VIGI C400HP product page](https://www.vigi.com/en/business-networking/vigi-network-camera/vigi-c400hp)
