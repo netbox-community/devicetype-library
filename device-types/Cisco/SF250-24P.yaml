@@ -1,0 +1,129 @@
+---
+manufacturer: Cisco
+model: SF250-24P
+slug: cisco-sf250-24p-k9
+part_number: SF250-24P-K9
+u_height: 1.0
+is_full_depth: false
+front_image: true
+airflow: side-to-rear
+weight: 4.1
+weight_unit: kg
+comments: '[Cisco 250 Series Smart Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/250-series-smart-switches/datasheet-c78-737061.html)'
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 238
+    allocated_draw: 29
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet2
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet3
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet4
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet5
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet6
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet7
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet8
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet9
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet10
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet11
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet12
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet13
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet14
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet15
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet16
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet17
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet18
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet19
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet20
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet21
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet22
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet23
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: FastEthernet24
+    type: 100base-tx
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet1
+    type: 1000base-t
+  - name: GigabitEthernet1 (SFP)
+    type: 1000base-x-sfp
+  - name: GigabitEthernet2
+    type: 1000base-t
+  - name: GigabitEthernet2 (SFP)
+    type: 1000base-x-sfp
+  - name: GigabitEthernet3
+    type: 1000base-x-sfp
+  - name: GigabitEthernet4
+    type: 1000base-x-sfp

@@ -1,0 +1,44 @@
+---
+manufacturer: NetApp
+model: E2800-Ctrl
+slug: netapp-e2800-ctrl
+description: E2800 Controller
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: |
+  Controller canister for the E2812 and E2824 controller shelves. Fixed ports per controller: management ports
+  P1 and P2 (1Gb RJ-45; P2 is reserved for technical support), drive expansion ports EXP1 and EXP2 (12Gb/s SAS),
+  an RJ-45 serial port and a micro USB serial port (both reserved for technical support). The USB port
+  (technical support only) is not modelled. The two baseboard host ports 0a and 0b are either SFP+ (16Gb FC /
+  10Gb iSCSI) or RJ-45 (10Gb iSCSI) depending on the controller ordered, so they are not modelled; add them on
+  the device. The optional host interface card (HIC, ports 0c onwards) goes in the HIC bay.
+  Connectors: https://docs.netapp.com/us-en/storagegrid-117/installconfig/controllers-in-sg6000-appliances.html
+  Management port P1: https://docs.netapp.com/us-en/e-series/install-hw-e2800-e5700/e2824-e5724-complete-setup-task.html
+  Host ports and HIC: https://docs.netapp.com/us-en/e-series/maintenance-e2800/hpp-overview-supertask-concept.html
+console-ports:
+  - name: Serial
+    type: rj-45
+    description: RJ-45 serial port, reserved for technical support
+  - name: Micro USB serial
+    type: usb-micro-b
+    description: Micro USB serial port, reserved for technical support
+interfaces:
+  - name: P1
+    type: 1000base-t
+    mgmt_only: true
+    description: Management port 1
+  - name: P2
+    type: 1000base-t
+    mgmt_only: true
+    description: Management port 2, reserved for technical support
+  - name: EXP1
+    type: other
+    description: Drive expansion port 1, 12Gb/s SAS
+  - name: EXP2
+    type: other
+    description: Drive expansion port 2, 12Gb/s SAS
+module-bays:
+  - name: HIC
+    position: HIC
+    description: Host interface card (optional)
