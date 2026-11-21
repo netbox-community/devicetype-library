@@ -1,0 +1,25 @@
+---
+manufacturer: TrueNAS
+model: M-Series Chassis
+slug: truenas-m-series-chassis
+
+u_height: 4
+is_full_depth: true
+
+weight: 34
+weight_unit: kg
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 1450
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 1450
+module-bays:
+  - name: Controller 1
+    position: '1'
+  - name: Controller 2
+    position: '2'
+
+comments: '[TrueNAS M-Series](https://www.truenas.com/m-series/)'
