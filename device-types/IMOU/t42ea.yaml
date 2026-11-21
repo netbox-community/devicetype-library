@@ -1,0 +1,22 @@
+---
+manufacturer: IMOU
+model: T42EA
+slug: imou-t42ea
+part_number: T42EA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [IMOU T42EA product page](https://www.imou.com/en/product/detail/t22ea-t42ea)
