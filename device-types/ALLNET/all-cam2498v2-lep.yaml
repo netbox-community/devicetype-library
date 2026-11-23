@@ -1,0 +1,23 @@
+---
+manufacturer: ALLNET
+model: ALL-CAM2498v2-LEP
+slug: allnet-all-cam2498v2-lep
+part_number: ALL-CAM2498v2-LEP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3050
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+    description: 12V DC
+comments: >
+  [ALLNET ALL-CAM2498v2-LEP product page](https://www.allnet.de/de/allnet-brand/produkte/video-surveillance/videocameras-ptz/p/allnet-ip-kamera-ptz-outdoor-4mp-ir-ip67-ik10-25x-opt-zoom-motion-tracking-all-cam)

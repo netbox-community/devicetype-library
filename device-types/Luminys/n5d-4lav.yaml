@@ -1,0 +1,27 @@
+---
+manufacturer: Luminys
+model: N5D-4LAV
+slug: luminys-n5d-4lav
+part_number: N5D-4LAV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Luminys N5D-4LAV product page](https://www.luminyscorp.com/products/N5D-4LAV)

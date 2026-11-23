@@ -1,0 +1,67 @@
+---
+manufacturer: ASUS
+model: ESC8000A-E13
+slug: asus-esc8000a-e13
+
+u_height: 4
+is_full_depth: true
+
+airflow: front-to-rear
+weight: 45
+weight_unit: kg
+
+is_powered: true
+front_image: true
+rear_image: true
+
+comments: '[ESC8000A-E13](https://servers.asus.com/products/servers/gpu-servers/ESC8000A-E13)'
+
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: PSU 3
+    position: '3'
+  - name: PSU 4
+    position: '4'
+
+  - name: GPU1 PCIe Gen5 x16
+    label: GPU 1
+    position: CPU1-PCIe1
+  - name: GPU2 PCIe Gen5 x16
+    label: GPU 2
+    position: CPU1-PCIe2
+  - name: GPU3 PCIe Gen5 x16
+    label: GPU 3
+    position: CPU1-PCIe3
+  - name: GPU4 PCIe Gen5 x16
+    label: GPU 4
+    position: CPU1-PCIe4
+  - name: NIC01 PCIe Gen5 x16
+    label: SLOT 1
+    position: CPU1-PCIe5
+
+  - name: GPU5 PCIe Gen5 x16
+    label: GPU 5
+    position: CPU2-PCIe1
+  - name: GPU6 PCIe Gen5 x16
+    label: GPU 6
+    position: CPU2-PCIe2
+  - name: GPU7 PCIe Gen5 x16
+    label: GPU 7
+    position: CPU2-PCIe3
+  - name: GPU8 PCIe Gen5 x16
+    label: GPU 8
+    position: CPU2-PCIe4
+  - name: NIC02 PCIe Gen5 x8
+    position: CPU2-PCIe5
+    label: SLOT 2
+  - name: RAID PCIe Gen5 x8
+    position: CPU2-PCIe6
+    label: RAID
+interfaces:
+  - name: DM_LAN1
+    type: 1000base-t
+    label: DM LAN
+    mgmt_only: true

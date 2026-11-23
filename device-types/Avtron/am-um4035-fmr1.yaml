@@ -1,0 +1,21 @@
+---
+manufacturer: Avtron
+model: AM-UM4035-FMR1
+slug: avtron-am-um4035-fmr1
+part_number: AM-UM4035-FMR1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Avtron AM-UM4035-FMR1 product page](https://avtrontech.com/products/am-um4035-fmr1)

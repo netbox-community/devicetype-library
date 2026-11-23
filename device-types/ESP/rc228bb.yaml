@@ -1,0 +1,22 @@
+---
+manufacturer: ESP
+model: RC228BB
+slug: esp-rc228bb
+part_number: RC228BB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 320
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [ESP RC228BB product page](https://espuk.com/product/RC228BB)
