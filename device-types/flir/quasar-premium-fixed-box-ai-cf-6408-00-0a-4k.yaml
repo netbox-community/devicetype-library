@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: Quasar Premium Fixed Box AI CF-6408-00-0A (4K)
+slug: flir-quasar-premium-fixed-box-ai-cf-6408-00-0a-4k
+part_number: Quasar Premium Fixed Box AI CF-6408-00-0A (4K)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 456
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [flir Quasar Premium Fixed Box AI CF-6408-00-0A (4K) product page](https://flir.netx.net/file/asset/68690/original/attachment)

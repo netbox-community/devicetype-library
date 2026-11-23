@@ -1,0 +1,27 @@
+---
+manufacturer: Homaxi
+model: IPC8BF4R8-I2-TPMC
+slug: homaxi-ipc8bf4r8-i2-tpmc
+part_number: IPC8BF4R8-I2-TPMC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Homaxi IPC8BF4R8-I2-TPMC product page](https://www.homaxi.com/mtsc/uploads/single/IPC8BF4R8-I2-TPMC_datasheet_V2.0.1_20231219.pdf)

@@ -1,0 +1,76 @@
+---
+manufacturer: Huawei
+model: S310-24T4X
+slug: huawei-s310-24t4x
+part_number: 98012381-001
+u_height: 1.0
+is_full_depth: false
+airflow: left-to-right
+weight: 2.32
+weight_unit: kg
+comments: "S310-24T4X (24*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power)\r\n[Datasheet](https://support.huawei.com/enterprise/en/doc/EDOC1100335757/2932554a/s310-24t4x-98012381)"
+console-ports:
+  - name: console0
+    type: rj-45
+power-ports:
+  - name: PWR
+    type: iec-60320-c14
+    maximum_draw: 35
+    allocated_draw: 27
+interfaces:
+  - name: 10GE1/0/1
+    type: 10gbase-x-sfpp
+  - name: 10GE1/0/2
+    type: 10gbase-x-sfpp
+  - name: 10GE1/0/3
+    type: 10gbase-x-sfpp
+  - name: 10GE1/0/4
+    type: 10gbase-x-sfpp
+  - name: GE1/0/1
+    type: 1000base-t
+  - name: GE1/0/2
+    type: 1000base-t
+  - name: GE1/0/3
+    type: 1000base-t
+  - name: GE1/0/4
+    type: 1000base-t
+  - name: GE1/0/5
+    type: 1000base-t
+  - name: GE1/0/6
+    type: 1000base-t
+  - name: GE1/0/7
+    type: 1000base-t
+  - name: GE1/0/8
+    type: 1000base-t
+  - name: GE1/0/9
+    type: 1000base-t
+  - name: GE1/0/10
+    type: 1000base-t
+  - name: GE1/0/11
+    type: 1000base-t
+  - name: GE1/0/12
+    type: 1000base-t
+  - name: GE1/0/13
+    type: 1000base-t
+  - name: GE1/0/14
+    type: 1000base-t
+  - name: GE1/0/15
+    type: 1000base-t
+  - name: GE1/0/16
+    type: 1000base-t
+  - name: GE1/0/17
+    type: 1000base-t
+  - name: GE1/0/18
+    type: 1000base-t
+  - name: GE1/0/19
+    type: 1000base-t
+  - name: GE1/0/20
+    type: 1000base-t
+  - name: GE1/0/21
+    type: 1000base-t
+  - name: GE1/0/22
+    type: 1000base-t
+  - name: GE1/0/23
+    type: 1000base-t
+  - name: GE1/0/24
+    type: 1000base-t
