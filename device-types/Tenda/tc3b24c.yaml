@@ -1,0 +1,21 @@
+---
+manufacturer: Tenda
+model: TC3B24C
+slug: tenda-tc3b24c
+part_number: TC3B24C
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 324
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Tenda TC3B24C product page](https://www.tendacn.com/us/product/specification/955)

@@ -1,0 +1,23 @@
+---
+manufacturer: Algo
+model: 8028 SIP Doorphone Controller
+slug: algo-8028
+part_number: '8028'
+comments: '[8028](https://www.algosolutions.com/product/8028-ip-doorphone-intercom/) [8027](https://www.algosolutions.com/product/8027-sip-doorphone-control-unit-replacement-part/)'
+u_height: 0
+weight: 0.25
+weight_unit: lb
+airflow: passive
+is_full_depth: false
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 8
+    allocated_draw: 2
+interfaces:
+  - name: eth
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at

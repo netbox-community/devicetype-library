@@ -4,6 +4,7 @@ SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
     ('rack-types', 'racktype.json'),
+    ('module-bay-types', 'modulebaytype.json'),
 )
 SCHEMAS_BASEPATH = f"{os.getcwd()}/schema/"
 
