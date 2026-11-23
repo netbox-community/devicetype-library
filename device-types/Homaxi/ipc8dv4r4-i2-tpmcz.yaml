@@ -1,0 +1,27 @@
+---
+manufacturer: Homaxi
+model: IPC8DV4R4-I2-TPMCZ
+slug: homaxi-ipc8dv4r4-i2-tpmcz
+part_number: IPC8DV4R4-I2-TPMCZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Homaxi IPC8DV4R4-I2-TPMCZ product page](https://www.homaxi.com/mtsc/uploads/single/IPC8DV4R4-I2-TPMCZ_datasheet_V2.0.4_20241203.pdf)
