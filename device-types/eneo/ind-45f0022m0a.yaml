@@ -1,0 +1,22 @@
+---
+manufacturer: eneo
+model: IND-45F0022M0A
+slug: eneo-ind-45f0022m0a
+part_number: IND-45F0022M0A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 265
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.5 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo IND-45F0022M0A product page](https://eneo-security.com/en/generate/datasheet/render/product_sku/236320)
