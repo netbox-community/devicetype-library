@@ -1,0 +1,17 @@
+---
+manufacturer: Juniper
+model: JNP-PWR2200-HV
+part_number: 740-110865
+profile: Power supply
+attribute_data:
+  wattage: 2200
+  hot_swappable: true
+  input_current: AC
+  input_voltage: 240
+comments: 2200W universal HVAC/HVDC PSU for MX304. 180-305V AC or 190-410V DC input, 12V output.
+module_bay_types:
+  - MX304-PSU
+power-ports:
+  - name: PSU {module}
+    type: saf-d-grid
+    maximum_draw: 2200
