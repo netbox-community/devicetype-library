@@ -10,7 +10,7 @@ rear_image: true
 airflow: front-to-rear
 weight: 97.62
 weight_unit: lb
-comments: '[APC Smart-UPS, Line Interactive, 3000VA, Rackmount 2U, 230V, 6x IEC C13 outlets, SmartSlot, AVR, LCD](https://www.se.com/ca/en/product/SMT3000RM2U/apc-smartups-line-interactive-3kva-rackmount-2u-120v-6x-nema-515r+2x-nema-520r-outlets-smartslot-avr-lcd/)'
+comments: '[APC Smart-UPS, Line Interactive, 3kVA, Rackmount 2U, 120V, 6x NEMA 5-15R+2x NEMA 5-20R outlets, SmartSlot, AVR, LCD](https://www.se.com/ca/en/product/SMT3000RM2U/apc-smartups-line-interactive-3kva-rackmount-2u-120v-6x-nema-515r+2x-nema-520r-outlets-smartslot-avr-lcd/)'
 console-ports:
   - name: Serial
     type: rj-45
@@ -28,7 +28,7 @@ power-outlets:
     type: nema-5-15r
     power_port: Source
   - name: Main Outlet 3
-    type: nema-5-20r
+    type: nema-5-15r
     power_port: Source
   - name: Main Outlet 4
     type: nema-5-20r
