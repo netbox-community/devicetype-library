@@ -21,3 +21,18 @@ interfaces:
     type: 1000base-t
   - name: LAN 4
     type: 1000base-t
+front-ports:
+  - name: USB A
+    type: usb-a
+    positions: 1
+rear-ports:
+  - name: eSATA 1
+    type: other
+    positions: 1
+  - name: eSATA 2
+    type: other
+    positions: 1
+module-bays:
+  - name: PCIe expansion slot
+    position: PCIe-1
+    label: PCIe

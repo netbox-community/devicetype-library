@@ -1,0 +1,33 @@
+---
+manufacturer: CyberPower
+model: BR1000ELCD
+slug: cyberpower-br1000elcd
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: >
+  CyberPower BR1000ELCD is a mini-tower UPS with 1000VA/600W capacity,
+  line-interactive AVR, and 6 outlets (3 surge-only). Ideal for home
+  offices and network protection.
+is_powered: true
+weight: 6.5
+weight_unit: kg
+
+power-ports:
+  - name: AC Input
+    type: ita-g
+    maximum_draw: 600
+
+power-outlets:
+  - name: Outlet-1
+    type: ita-g
+  - name: Outlet-2
+    type: ita-g
+  - name: Outlet-3
+    type: ita-g
+  - name: Outlet-4 (Surge Only)
+    type: ita-g
+  - name: Outlet-5 (Surge Only)
+    type: ita-g
+  - name: Outlet-6 (Surge Only)
+    type: ita-g

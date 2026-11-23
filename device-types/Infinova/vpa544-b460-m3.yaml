@@ -1,0 +1,24 @@
+---
+manufacturer: Infinova
+model: VPA544-B460-M3
+slug: infinova-vpa544-b460-m3
+part_number: VPA544-B460-M3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 18000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 150
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Infinova VPA544-B460-M3 product page](https://www.infinova.com/DownloadPdf/VPA544-B460-M3-datasheet-en-202304-R1.pdf)
