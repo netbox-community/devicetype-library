@@ -1,0 +1,23 @@
+---
+manufacturer: TRUEN
+model: TN-D32034R
+slug: truen-tn-d32034r
+part_number: TN-D32034R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 980
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [TRUEN TN-D32034R product page](https://www.truen.co.kr/customer/technology.php)

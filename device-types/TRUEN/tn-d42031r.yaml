@@ -1,0 +1,23 @@
+---
+manufacturer: TRUEN
+model: TN-D42031R
+slug: truen-tn-d42031r
+part_number: TN-D42031R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1050
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [TRUEN TN-D42031R product page](https://www.truen.co.kr/customer/technology.php)

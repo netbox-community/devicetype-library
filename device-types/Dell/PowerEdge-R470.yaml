@@ -1,0 +1,45 @@
+---
+manufacturer: Dell
+model: PowerEdge R470
+slug: dell-poweredge-r470
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 19.11
+weight_unit: kg
+description: Dell PowerEdge R470 1U Rack Server
+comments: >-
+  1U single-socket rack server with one Intel Xeon 6 processor (E-cores or
+  P-cores) and 16 DDR5 DIMM slots. Front bays support up to 16x EDSFF E3.S Gen5
+  NVMe, up to 10x 2.5-inch or 4x 3.5-inch drives. Available in rear I/O (hot
+  aisle) and front I/O (cold aisle) configurations. Hot swap redundant M-CRPS
+  power supplies from 800 W to 1500 W. The rear I/O configuration modelled here
+  has PCIe slots 1 and 4 and one OCP NIC 3.0 slot. In the front I/O
+  configuration the OCP NIC 3.0 slots are 31 and 32 on the front riser.
+  BOSS-N1 DC-MHS is installed at the rear. Dimensions: 42.8 mm x 482 mm x
+  815.14 mm (rear I/O, without bezel). Weight is the maximum configuration
+  (8x E3.S).
+  [Technical Guide](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r470-technical-guide.pdf)
+  [Specification Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-r470-spec-sheet.pdf)
+console-ports:
+  - name: iDRAC Direct
+    type: usb-c
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: OCP NIC Slot (3.0)
+    position: OCP-1
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: PCIe Slot 1
+    label: '1'
+    position: PCIe-1
+  - name: PCIe Slot 4
+    label: '4'
+    position: PCIe-4

@@ -1,0 +1,21 @@
+---
+manufacturer: CP Plus
+model: CP-UNC-TA61L3C-LQ
+slug: cp-plus-cp-unc-ta61l3c-lq
+part_number: CP-UNC-TA61L3C-LQ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC

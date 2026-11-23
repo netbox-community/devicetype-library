@@ -1,0 +1,25 @@
+---
+manufacturer: i-PRO
+model: WV-X45501-F1L
+slug: i-pro-wv-x45501-f1l
+part_number: WV-X45501-F1L
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 19.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
