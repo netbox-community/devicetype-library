@@ -1,0 +1,21 @@
+---
+manufacturer: 2N
+model: Indoor View Black Version
+slug: 2n-indoor-view-black-version
+part_number: '91378601'
+u_height: 0
+is_full_depth: false
+weight: 555
+weight_unit: g
+airflow: passive
+is_powered: true
+front_image: true
+power-ports:
+  - name: PSU
+    type: dc-terminal
+interfaces:
+  - name: LAN
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: '[2N Indoor View](https://www.2n.com/en-GB/products/indoor-stations/2n-indoor-view/)'
