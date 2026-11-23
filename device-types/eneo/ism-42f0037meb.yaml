@@ -1,0 +1,22 @@
+---
+manufacturer: eneo
+model: ISM-42F0037MEB
+slug: eneo-ism-42f0037meb
+part_number: ISM-42F0037MEB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 165
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 1.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 1
+comments: >
+  [eneo ISM-42F0037MEB product page](https://eneo-security.com/en/ism-42f0037meb.html)
