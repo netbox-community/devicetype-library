@@ -1,0 +1,20 @@
+---
+manufacturer: CP Plus
+model: CP-UNP-F4521L25-DFP
+slug: cp-plus-cp-unp-f4521l25-dfp
+part_number: CP-UNP-F4521L25-DFP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 26 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

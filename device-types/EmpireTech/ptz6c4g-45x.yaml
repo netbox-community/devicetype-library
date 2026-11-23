@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: PTZ6C4G-45X
+slug: empiretech-ptz6c4g-45x
+part_number: PTZ6C4G-45X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 25 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 25
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech PTZ6C4G-45X product page](https://empiretech01.com/products/empiretech-refurbished-ptz6c4g-45x-1-2-8cmos-4mp-45x-starlight-ir-network-ptz-camera)

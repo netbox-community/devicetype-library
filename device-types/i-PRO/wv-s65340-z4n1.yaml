@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-S65340-Z4N1
+slug: i-pro-wv-s65340-z4n1
+part_number: WV-S65340-Z4N1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 50.84 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

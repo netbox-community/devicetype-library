@@ -1,0 +1,21 @@
+---
+manufacturer: Brickcom
+model: OB-H200Np WDRPro
+slug: brickcom-ob-h200np-wdrpro
+part_number: OB-H200Np WDRPro
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [Brickcom OB-H200Np WDRPro product page](https://www.brickcom.com/products/DetailView.php)
