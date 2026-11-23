@@ -1,0 +1,23 @@
+---
+manufacturer: Vitek
+model: VTC-TNB5RFS
+slug: vitek-vtc-tnb5rfs
+part_number: VTC-TNB5RFS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Vitek VTC-TNB5RFS product page](https://vitekcctv.com/product/vtc-tnb5rfs)

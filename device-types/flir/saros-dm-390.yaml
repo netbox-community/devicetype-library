@@ -1,0 +1,19 @@
+---
+manufacturer: flir
+model: Saros DM-390
+slug: flir-saros-dm-390
+part_number: Saros DM-390
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [flir Saros DM-390 product page](https://www.flir.com/security)

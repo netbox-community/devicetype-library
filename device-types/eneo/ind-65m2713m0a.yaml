@@ -1,0 +1,26 @@
+---
+manufacturer: eneo
+model: IND-65M2713M0A
+slug: eneo-ind-65m2713m0a
+part_number: IND-65M2713M0A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo IND-65M2713M0A product page](https://eneo-security.com/en/generate/datasheet/render/product_sku/235253)
