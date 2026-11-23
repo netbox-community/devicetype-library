@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-Color4M-TZ
+slug: empiretech-ipc-color4m-tz
+part_number: IPC-Color4M-TZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 940
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 12.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-Color4M-TZ product page](https://empiretech01.com/products/empiretech-ipc-color4m-tz-1-1-8-cmos-4mp-wizcolor-3-in-1-pro-vari-focal-turret-network-camera)

@@ -1,0 +1,22 @@
+---
+manufacturer: D-Link
+model: DCS-4622
+slug: d-link-dcs-4622
+part_number: DCS-4622
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 431
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.6 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [D-Link DCS-4622 product page](https://support.dlink.com/resource/products/DCS-4622/REVA/DCS-4622_REVA_DATASHEET_03092017_v1.00_US.pdf)

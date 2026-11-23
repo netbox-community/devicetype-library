@@ -1,0 +1,23 @@
+---
+manufacturer: flir
+model: Quasar CP-6404-31-I
+slug: flir-quasar-cp-6404-31-i
+part_number: Quasar CP-6404-31-I
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [flir Quasar CP-6404-31-I product page](https://www.flir.com/security)
