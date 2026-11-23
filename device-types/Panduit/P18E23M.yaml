@@ -1,0 +1,58 @@
+---
+manufacturer: Panduit
+model: SmartZone G5 Monitored Switched PDU P18E23M
+slug: panduit-p18e23m
+part_number: P18E23M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 17.4
+weight_unit: lb
+comments: '[P18E23M](https://www.panduit.com/en/products/power-distribution-environmental-connectivity-hardware/rack-pdus/rack-pdus/p300209.html#pn=P18E23M)'
+
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
+
+power-ports:
+  - name: Input
+    type: nema-l5-30p
+
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-20r
+  - name: Outlet 2
+    type: nema-5-20r
+  - name: Outlet 3
+    type: nema-5-20r
+  - name: Outlet 4
+    type: nema-5-20r
+  - name: Outlet 5
+    type: nema-5-20r
+  - name: Outlet 6
+    type: nema-5-20r
+  - name: Outlet 7
+    type: nema-5-20r
+  - name: Outlet 8
+    type: nema-5-20r
+  - name: Outlet 9
+    type: nema-5-20r
+  - name: Outlet 10
+    type: nema-5-20r
+  - name: Outlet 11
+    type: nema-5-20r
+  - name: Outlet 12
+    type: nema-5-20r
+  - name: Outlet 13
+    type: nema-5-20r
+  - name: Outlet 14
+    type: nema-5-20r
+  - name: Outlet 15
+    type: nema-5-20r
+  - name: Outlet 16
+    type: nema-5-20r
+  - name: Outlet 17
+    type: nema-5-20r
+  - name: Outlet 18
+    type: nema-5-20r

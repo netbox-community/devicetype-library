@@ -1,0 +1,27 @@
+---
+manufacturer: Luminys
+model: N5B-8LAV
+slug: luminys-n5b-8lav
+part_number: N5B-8LAV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 14.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Luminys N5B-8LAV product page](https://www.luminyscorp.com/products/N5B-8LAV)

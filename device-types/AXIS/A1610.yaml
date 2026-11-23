@@ -1,0 +1,27 @@
+---
+manufacturer: AXIS
+model: A1610
+slug: axis-a1610
+part_number: 02653-001
+
+u_height: 0
+is_full_depth: false
+
+weight: 1200
+weight_unit: g
+
+airflow: passive
+is_powered: true
+front_image: true
+
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 36
+interfaces:
+  - name: eth
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+
+comments: '[AXIS A1610](https://www.axis.com/products/axis-a1610#technical-specifications)'

@@ -1,0 +1,22 @@
+---
+manufacturer: D-Link
+model: DCS-4714E
+slug: d-link-dcs-4714e
+part_number: DCS-4714E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 8 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [D-Link DCS-4714E product page](https://support.dlink.com/resource/products/dcs-4714e/REVA/DCS-4714E_REVA_DATASHEET_v1.00_WW.pdf)

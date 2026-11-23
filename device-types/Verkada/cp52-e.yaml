@@ -1,0 +1,22 @@
+---
+manufacturer: Verkada
+model: CP52-E
+slug: verkada-cp52-e
+part_number: CP52-E
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 7070
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 42.3 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 3072 GB
+comments: >
+  [Verkada CP52-E product page](https://www.verkada.com/security-cameras/ptz/cp52-e)
