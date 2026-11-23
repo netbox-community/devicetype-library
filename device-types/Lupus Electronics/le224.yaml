@@ -1,0 +1,23 @@
+---
+manufacturer: Lupus Electronics
+model: LE224
+slug: lupus-electronics-le224
+part_number: LE224
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Lupus Electronics LE224 product page](https://www.lupus-electronics.de/shop/en/Video-surveillance/Network-Cameras/Dome-Cameras/LUPUS-LE224-PoE-p.html)

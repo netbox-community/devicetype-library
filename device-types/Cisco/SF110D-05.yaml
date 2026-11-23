@@ -1,0 +1,26 @@
+---
+manufacturer: Cisco
+model: SF110D-05
+slug: cisco-sf110d-05
+part_number: SF110D-05
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 0.46
+weight_unit: kg
+comments: '[Cisco 110 Series Unmanaged Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/110-series-unmanaged-switches/datasheet-c78-734450.html)'
+power-ports:
+  - name: External PSU
+    type: dc-terminal
+    label: DC 12V 0.5A
+interfaces:
+  - name: FastEthernet1
+    type: 100base-tx
+  - name: FastEthernet2
+    type: 100base-tx
+  - name: FastEthernet3
+    type: 100base-tx
+  - name: FastEthernet4
+    type: 100base-tx
+  - name: FastEthernet5
+    type: 100base-tx
