@@ -1,0 +1,21 @@
+---
+manufacturer: flir
+model: FH-Series R 669 9mm Wide-Angle Multispectral
+slug: flir-fh-series-r-669-9mm-wide-angle-multispectral
+part_number: FH-Series R 669 9mm Wide-Angle Multispectral
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+comments: >
+  [flir FH-Series R 669 9mm Wide-Angle Multispectral product page](https://flir.netx.net/file/asset/59179/original/attachment)

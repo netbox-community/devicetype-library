@@ -1,0 +1,23 @@
+---
+manufacturer: Sunell
+model: SN-TPC4233DJT-F
+slug: sunell-sn-tpc4233djt-f
+part_number: SN-TPC4233DJT-F
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+comments: >
+  [Sunell SN-TPC4233DJT-F product page](https://www.sunellsecurity.com/products/bullet-thermal-camera/sn-tpc4233djt-f.shtml)

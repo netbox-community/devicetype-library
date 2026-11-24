@@ -1,0 +1,23 @@
+---
+manufacturer: Trassir
+model: TR-D2D2
+slug: trassir-tr-d2d2
+part_number: TR-D2D2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [Trassir TR-D2D2 product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_d2d2_v2_2_7_13_5)

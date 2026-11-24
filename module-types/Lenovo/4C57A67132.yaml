@@ -1,0 +1,15 @@
+---
+manufacturer: Lenovo
+model: ThinkSystem DM Series HIC, 10/25Gb iSCSI, 4-ports
+part_number: 4C57A67132
+profile: Expansion card
+comments: '[Lenovo ThinkSystem DM5100F product guide](https://lenovopress.lenovo.com/lp1365-thinksystem-dm5100f-unified-flash-storage-array)'
+interfaces:
+  - name: e{module}a
+    type: 25gbase-x-sfp28
+  - name: e{module}b
+    type: 25gbase-x-sfp28
+  - name: e{module}c
+    type: 25gbase-x-sfp28
+  - name: e{module}d
+    type: 25gbase-x-sfp28
