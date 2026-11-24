@@ -1,0 +1,25 @@
+---
+manufacturer: Vikylin
+model: PTZ-4518X-IS-B
+slug: vikylin-ptz-4518x-is-b
+part_number: PTZ-4518X-IS-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Vikylin PTZ-4518X-IS-B product page](https://vikylin.com/wp-content/uploads/2023/12/PTZ-4518X-IS-B-Specification.pdf)

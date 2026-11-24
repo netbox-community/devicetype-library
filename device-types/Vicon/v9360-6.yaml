@@ -1,0 +1,23 @@
+---
+manufacturer: Vicon
+model: V9360-6
+slug: vicon-v9360-6
+part_number: V9360-6
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Vicon V9360-6 product page](https://vicon-security.com/hubfs/Product%20Resources/V9360_CameraSeries_datasheet2.pdf)

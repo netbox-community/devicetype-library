@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTC-TNB5RME
+slug: vitek-vtc-tnb5rme
+part_number: VTC-TNB5RME
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Vitek VTC-TNB5RME product page](https://vitekcctv.com/product/vtc-tnb5rme-transcendent-5-megapixel-wdr-ip-camera-with-2-matrix-irs)

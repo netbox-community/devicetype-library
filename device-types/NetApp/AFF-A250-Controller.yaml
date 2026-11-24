@@ -1,0 +1,39 @@
+---
+manufacturer: NetApp
+model: AFF A250 Controller
+slug: netapp-aff-a250-controller
+description: AFF A250 HA System Controller
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+comments: |
+  Onboard ports per controller: e0a/e0b 10GBASE-T data ports, e0c/e0d 25GbE SFP28 (cluster/HA interconnect),
+  wrench port e0M (shared with the BMC), micro-USB console. Two mezzanine slots (1 and 2) and one power supply
+  installed in the controller module.
+  Specifications: https://docs.netapp.com/us-en/ontap-systems/a250/overview.html
+  Cabling: https://docs.netapp.com/us-en/ontap-systems/a250/install-detailed-guide.html
+console-ports:
+  - name: console
+    type: usb-micro-b
+interfaces:
+  - name: e0a
+    type: 10gbase-t
+  - name: e0b
+    type: 10gbase-t
+  - name: e0c
+    type: 25gbase-x-sfp28
+  - name: e0d
+    type: 25gbase-x-sfp28
+  - name: e0M
+    type: 1000base-t
+    mgmt_only: true
+    description: Wrench port, shared with the BMC
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: Mezzanine slot
+  - name: Slot 2
+    position: '2'
+    description: Mezzanine slot
+  - name: PSU
+    position: PSU

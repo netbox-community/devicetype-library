@@ -1,0 +1,24 @@
+---
+manufacturer: Oncam
+model: EVO-05-EME
+slug: oncam-evo-05-eme
+part_number: EVO-05-EME
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Oncam EVO-05-EME product page](https://oncamgrandeye.com/app/uploads/EVO-05_12-ExD_2018-11-DataSheet.pdf)

@@ -63,12 +63,12 @@ jobs:
           esac
           git fetch --no-tags --depth 1 origin "$BASE_SHA"
           outside=$(git diff --name-only "$BASE_SHA" HEAD \
-            | grep -Ev '^(device-types|module-types|rack-types|elevation-images|module-images)/' \
+            | grep -Ev '^(device-types|module-types|module-bay-types|rack-types|elevation-images|module-images)/' \
             || true)
           if [ -n "$outside" ]; then
             echo "::error::This PR changes files outside the contribution directories:"
             echo "$outside"
-            echo "Outside contributors may only change device-types/, module-types/, rack-types/, elevation-images/, and module-images/."
+            echo "Outside contributors may only change device-types/, module-types/, module-bay-types/, rack-types/, elevation-images/, and module-images/."
             echo "To improve tests, scripts, or CI, ask a maintainer to review and add the 'ci-approved' label (which re-runs CI)."
             exit 1
           fi
