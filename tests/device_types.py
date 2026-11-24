@@ -306,6 +306,13 @@ def validate_components(component_types, device_or_module):
                 if poe_type_present and not poe_mode_present:
                     device_or_module.failureMessage = f'{device_or_module.file_path} has "poe_type" defined in an interface without a matching "poe_mode".'
                     return False
+            # check for flipped power values
+            if component_type == "power-ports":
+                maximum_draw = component.get("maximum_draw", 0)
+                allocated_draw = component.get("allocated_draw", 0)
+                if maximum_draw and allocated_draw and maximum_draw < allocated_draw:
+                    device_or_module.failureMessage = f'{device_or_module.file_path} has a bigger "allocated_draw" defined in a power-port than its "maximum_draw".'
+                    return False
 
         # Adding check for duplicate positions within a component type
         # Stems from https://github.com/netbox-community/devicetype-library/pull/1586
