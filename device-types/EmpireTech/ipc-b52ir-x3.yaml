@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-B52IR-X3
+slug: empiretech-ipc-b52ir-x3
+part_number: IPC-B52IR-X3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 23.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [EmpireTech IPC-B52IR-X3 product page](https://empiretech01.com/products/empiretech-ipc-mfw5241t2-e3-ase-1-2-8-cmos-3-2-mp-triple-sight-perimeter-protection-bullet-wizmind-network-camera)

@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: Quasar Premium Bullet AI CB-6508-11-IA (4K)
+slug: flir-quasar-premium-bullet-ai-cb-6508-11-ia-4k
+part_number: Quasar Premium Bullet AI CB-6508-11-IA (4K)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2150
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 17.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [flir Quasar Premium Bullet AI CB-6508-11-IA (4K) product page](https://flir.netx.net/file/asset/68277/original/attachment)

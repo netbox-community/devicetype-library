@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTC-TNB5TH
+slug: vitek-vtc-tnb5th
+part_number: VTC-TNB5TH
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1180
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VTC-TNB5TH product page](https://vitekcctv.com/product/vtc-tnb5th-transcendent-series-5-megapixel-bi-spectrum-long-range-thermal-wdr-ip-motorized-bullet-camera)

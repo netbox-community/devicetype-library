@@ -1,0 +1,22 @@
+---
+manufacturer: Uniarch
+model: IPC-B134-AF28-DL-ECO
+slug: uniarch-ipc-b134-af28-dl-eco
+part_number: IPC-B134-AF28-DL-ECO
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 160
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+comments: >
+  [Uniarch IPC-B134-AF28-DL-ECO product page](https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/Entry_Series/IPC-B134-AF28-DL-ECO)

@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC264SA-AHDX4K-I1
+slug: uniview-ipc264sa-ahdx4k-i1
+part_number: IPC264SA-AHDX4K-I1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2140
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC264SA-AHDX4K-I1 product page](https://www.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEIV_Series/IPC264SA-AHDX4K-I1)

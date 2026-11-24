@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTC-TNB4RMAD
+slug: vitek-vtc-tnb4rmad
+part_number: VTC-TNB4RMAD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VTC-TNB4RMAD product page](https://vitekcctv.com/product/vtc-tnb4rmad-transcendent-4mp-motorized-af-ip-wdr-active-deterrence-camera)
