@@ -1,0 +1,24 @@
+---
+manufacturer: Sunell
+model: SN-TPC6404VT-M
+slug: sunell-sn-tpc6404vt-m
+part_number: SN-TPC6404VT-M
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 220
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Sunell SN-TPC6404VT-M product page](https://www.sunellsecurity.com/products/fixed-thermal-camera/sn-tp6404vt-m-thermal-imaging-network-module.shtml)

@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: PTZ2M-4X
+slug: empiretech-ptz2m-4x
+part_number: PTZ2M-4X
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 6.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech PTZ2M-4X product page](https://empiretech01.com/products/empiretech-ptz2m-4x-1-2-8-cmos-2mp-4x-starlight-2-8mm-12mm-vari-focal-ptz-camera)
