@@ -1,0 +1,16 @@
+---
+manufacturer: PATCHBOX
+model: Plus+ Cassette UTP Cat6a 30RU
+front-ports:
+  - name: '{module}'
+    type: 8p8c
+    positions: 1
+rear-ports:
+  - name: '{module}'
+    type: 8p8c
+    positions: 1
+port-mappings:
+  - front_port: '{module}'
+    front_port_position: 1
+    rear_port: '{module}'
+    rear_port_position: 1

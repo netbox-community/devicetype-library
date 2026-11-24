@@ -1,0 +1,21 @@
+---
+manufacturer: Vikylin
+model: YC2365I-28-S-B
+slug: vikylin-yc2365i-28-s-b
+part_number: YC2365I-28-S-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Vikylin YC2365I-28-S-B product page](https://vikylin.com/wp-content/uploads/2024/03/YC2365I-28-S-B-Specification.pdf)
