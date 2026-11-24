@@ -1,0 +1,23 @@
+---
+manufacturer: Trassir
+model: TR-D8221WDC
+slug: trassir-tr-d8221wdc
+part_number: TR-D8221WDC
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 1.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+    description: 12V DC
+comments: >
+  [Trassir TR-D8221WDC product page](https://trassir.com/products/cameras/ip-cameras/trassir-tr-d8221wdc)
