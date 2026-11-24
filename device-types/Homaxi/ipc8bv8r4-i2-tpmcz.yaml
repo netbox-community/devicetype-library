@@ -1,0 +1,27 @@
+---
+manufacturer: Homaxi
+model: IPC8BV8R4-I2-TPMCZ
+slug: homaxi-ipc8bv8r4-i2-tpmcz
+part_number: IPC8BV8R4-I2-TPMCZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Homaxi IPC8BV8R4-I2-TPMCZ product page](https://www.homaxi.com/products/4mp-outdoor-bullet-camera)

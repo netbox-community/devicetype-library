@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: Meraki 4X10G
+part_number: MA-MOD-4X10G
+description: 4 x 10G Uplink Module
+comments: '[Meraki MS390 Series Datasheet](https://documentation.meraki.com/Switching/MS_-_Switches/Product_Information/Overviews_and_Datasheets/MS390_Datasheet#Optional_Accessories)'
+interfaces:
+  - name: '{module}_MA-MOD-4x10G_1'
+    label: '1'
+    type: 10gbase-x-sfpp
+  - name: '{module}_MA-MOD-4x10G_2'
+    label: '2'
+    type: 10gbase-x-sfpp
+  - name: '{module}_MA-MOD-4x10G_3'
+    label: '3'
+    type: 10gbase-x-sfpp
+  - name: '{module}_MA-MOD-4x10G_4'
+    label: '4'
+    type: 10gbase-x-sfpp
