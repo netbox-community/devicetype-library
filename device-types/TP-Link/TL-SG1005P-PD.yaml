@@ -1,0 +1,36 @@
+---
+manufacturer: TP-Link
+model: TL-SG1005P-PD
+slug: tp-link-tl-sg1005p-pd
+part_number: '840030705700'
+description: 5-Port Gigabit Desktop PoE+ Switch with 1-Port PoE++ In and 4-Port PoE+Out
+u_height: 0
+weight: 349
+weight_unit: g
+is_full_depth: false
+front_image: true
+rear_image: true
+airflow: passive
+comments: '[TL-SG1005P-PD](https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/tl-sg1005p-pd/)'
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE IN

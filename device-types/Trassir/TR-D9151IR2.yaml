@@ -1,0 +1,24 @@
+---
+manufacturer: Trassir
+model: TR-D9151IR2
+slug: trassir-tr-d9151ir2
+part_number: TR-D9151IR2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D9151IR2 product page](https://trassir.com/products/cameras/ip-cameras/tr-d9151ir2-v2-1-4)

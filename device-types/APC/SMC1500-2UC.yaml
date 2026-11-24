@@ -1,0 +1,39 @@
+---
+manufacturer: APC
+model: Smart-UPS C SMC1500-2UC
+slug: apc-smc1500-2uc
+part_number: SMC1500-2UC
+u_height: 2
+is_full_depth: true
+front_image: true
+rear_image: true
+airflow: front-to-rear
+weight: 55.8
+weight_unit: lb
+comments: '[SMC1500-2UC](https://www.se.com/us/en/product/SMC1500-2UC/apc-smartups-c-line-interactive-1440va-rackmount-2u-120v-6x-nema-515r-outlets-smartconnect-port-usb-and-serial-communication-avrgraphic-lcd/)'
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: Source
+    type: nema-5-15p
+    maximum_draw: 900
+power-outlets:
+  - name: Main Outlet 1
+    type: nema-5-15r
+  - name: Main Outlet 2
+    type: nema-5-15r
+  - name: Main Outlet 3
+    type: nema-5-15r
+  - name: Main Outlet 4
+    type: nema-5-15r
+  - name: Main Outlet 5
+    type: nema-5-15r
+  - name: Main Outlet 6
+    type: nema-5-15r
+interfaces:
+  - name: SmartConnect
+    type: 1000base-t
+    label: NETWORK

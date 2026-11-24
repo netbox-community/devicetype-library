@@ -1,0 +1,22 @@
+---
+manufacturer: D-Link
+model: DCS-6314
+slug: d-link-dcs-6314
+part_number: DCS-6314
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1112
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [D-Link DCS-6314 product page](https://www.dlink.com/uk/en/products/dcs-6314-full-hd-wdr-varifocal-day-night-outdoor-dome-network-camera)
