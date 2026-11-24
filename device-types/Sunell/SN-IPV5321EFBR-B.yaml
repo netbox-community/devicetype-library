@@ -1,0 +1,23 @@
+---
+manufacturer: Sunell
+model: SN-IPV5321EFBR-B
+slug: sunell-sn-ipv5321efbr-b
+part_number: SN-IPV5321EFBR-B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 405
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Sunell SN-IPV5321EFBR-B product page](https://www.sunellsecurity.com/products/lite-series-ip-camera/sn-ipv5321efbr-b.shtml)
