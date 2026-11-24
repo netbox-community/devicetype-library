@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: LPR431-Z8
+slug: empiretech-lpr431-z8
+part_number: LPR431-Z8
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech LPR431-Z8 product page](https://empiretech01.com/products/empiretech-itc431-rw1f-irl8-1-1-8-cmos-4mp-10mm-50mm-vari-focal-starlight-4-illuminators-ai-lpr-anpr-camera)

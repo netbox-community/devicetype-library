@@ -1,0 +1,27 @@
+---
+manufacturer: Ernitec
+model: Pluto 5MP Mini Dome
+slug: ernitec-pluto-5mp-mini-dome
+part_number: Pluto 5MP Mini Dome
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Ernitec Pluto 5MP Mini Dome product page](https://ernitec.com/product/pluto-5mp-mini-dome-camera-with-2-8mm-lens-ir-15m-poe-ip66-ndaa)

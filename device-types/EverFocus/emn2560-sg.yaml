@@ -1,0 +1,19 @@
+---
+manufacturer: EverFocus
+model: EMN2560-SG
+slug: everfocus-emn2560-sg
+part_number: EMN2560-SG
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 265
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB

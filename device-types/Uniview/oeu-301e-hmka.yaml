@@ -1,0 +1,23 @@
+---
+manufacturer: Uniview
+model: OEU-301E-HMKA
+slug: uniview-oeu-301e-hmka
+part_number: OEU-301E-HMKA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 912
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+comments: >
+  [Uniview OEU-301E-HMKA product page](https://www.uniview.com/Products/Video_Intercoms/Door_Stations/Apartment_Door_Stations/OEU-301E-HMKA)

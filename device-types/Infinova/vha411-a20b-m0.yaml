@@ -1,0 +1,27 @@
+---
+manufacturer: Infinova
+model: VHA411-A20B-M0
+slug: infinova-vha411-a20b-m0
+part_number: VHA411-A20B-M0
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 801
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Infinova VHA411-A20B-M0 product page](https://www.infinova.com/DownloadPdf/VHA411-A20B-M0-Datasheet-en-202209-R1.pdf)

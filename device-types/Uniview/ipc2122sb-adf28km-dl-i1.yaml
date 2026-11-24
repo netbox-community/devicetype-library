@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC2122SB-ADF28KM-DL-I1
+slug: uniview-ipc2122sb-adf28km-dl-i1
+part_number: IPC2122SB-ADF28KM-DL-I1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 420
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC2122SB-ADF28KM-DL-I1 product page](http://sgcdn.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEI_Series/IPC2122SB-ADF28KM-DL-I1)
