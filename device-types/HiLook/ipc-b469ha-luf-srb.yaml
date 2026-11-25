@@ -1,0 +1,25 @@
+---
+manufacturer: HiLook
+model: IPC-B469HA-LUF/SRB
+slug: hilook-ipc-b469ha-luf-srb
+part_number: IPC-B469HA-LUF/SRB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 480
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 11.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
