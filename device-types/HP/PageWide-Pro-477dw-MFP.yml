@@ -1,0 +1,29 @@
+---
+manufacturer: HP
+model: PageWide Pro 477dw MFP
+slug: hp-pagewide-pro-477dw-mfp
+part_number: D3Q20A#B1H
+
+u_height: 0
+is_full_depth: false
+
+weight: 49
+weight_unit: lb
+
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 115
+    allocated_draw: 44
+interfaces:
+  - name: eth
+    type: 1000base-t
+  - name: wifi
+    label: Wireless
+    type: ieee802.11n
+rear-ports:
+  - name: USB B
+    type: usb-b
+    positions: 1
+
+comments: '[PageWide Pro 477dw MFP](https://www.hp.com/us-en/shop/pdp/hp-pagewide-pro-477dw-multifunction-printer)'
