@@ -1,0 +1,25 @@
+---
+manufacturer: Mapesen
+model: B402TS80Z1A2-P
+slug: mapesen-b402ts80z1a2-p
+part_number: B402TS80Z1A2-P
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Mapesen B402TS80Z1A2-P product page](https://www.mapesen.com/easy-ip-ptz/b402-ptz-series.html)
