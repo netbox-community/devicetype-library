@@ -1,0 +1,26 @@
+---
+manufacturer: Avigilon
+model: H6A 2MP Outdoor Dome Wide (2.0C-H6A-DO1)
+slug: avigilon-h6a-2mp-outdoor-dome-wide-2-0c-h6a-do1
+part_number: H6A 2MP Outdoor Dome Wide (2.0C-H6A-DO1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Avigilon H6A 2MP Outdoor Dome Wide (2.0C-H6A-DO1) product page](https://docs.avigilon.com/bundle/h6-a-dome-camera-datasheet/resource/h6-a-dome-camera-datasheet.pdf)

@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H4A 8MP In-Ceiling Dome (8.0-H4A-DC1)
+slug: avigilon-h4a-8mp-in-ceiling-dome-8-0-h4a-dc1
+part_number: H4A 8MP In-Ceiling Dome (8.0-H4A-DC1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Avigilon H4A 8MP In-Ceiling Dome (8.0-H4A-DC1) product page](https://assets.avigilon.com/file_library/pdf/h4-dome/avigilon-h4a-ddc-b-datasheet-en-rev9.pdf)

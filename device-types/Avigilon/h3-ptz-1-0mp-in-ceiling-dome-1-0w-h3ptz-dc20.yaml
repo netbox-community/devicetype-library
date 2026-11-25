@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H3 PTZ 1.0MP In-Ceiling Dome (1.0W-H3PTZ-DC20)
+slug: avigilon-h3-ptz-1-0mp-in-ceiling-dome-1-0w-h3ptz-dc20
+part_number: H3 PTZ 1.0MP In-Ceiling Dome (1.0W-H3PTZ-DC20)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2180
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 19 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 19
+    description: 24V DC
+comments: >
+  [Avigilon H3 PTZ 1.0MP In-Ceiling Dome (1.0W-H3PTZ-DC20) product page](https://assets.avigilon.com/file_library/pdf/h3ptz/avigilon-h3ptz-datasheet-en.pdf)

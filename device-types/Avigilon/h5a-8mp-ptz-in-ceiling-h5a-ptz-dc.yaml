@@ -1,0 +1,23 @@
+---
+manufacturer: Avigilon
+model: H5A 8MP PTZ In-Ceiling (H5A-PTZ-DC)
+slug: avigilon-h5a-8mp-ptz-in-ceiling-h5a-ptz-dc
+part_number: H5A 8MP PTZ In-Ceiling (H5A-PTZ-DC)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6, max 51 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 51
+    description: 24V DC
+comments: >
+  [Avigilon H5A 8MP PTZ In-Ceiling (H5A-PTZ-DC) product page](https://docs.avigilon.com/bundle/h5-a-ptz-camera-datasheet/resource/h5-a-ptz-camera-datasheet.pdf)
