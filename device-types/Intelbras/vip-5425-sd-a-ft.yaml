@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIP 5425 SD A FT
+slug: intelbras-vip-5425-sd-a-ft
+part_number: VIP 5425 SD A FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+comments: >
+  [Intelbras VIP 5425 SD A FT product page](https://backend.intelbras.com/sites/default/files/2024-06/datasheet-vip-5425-sd-a-ft-pt.pdf)

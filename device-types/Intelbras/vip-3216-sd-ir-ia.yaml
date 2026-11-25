@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 3216 SD IR IA
+slug: intelbras-vip-3216-sd-ir-ia
+part_number: VIP 3216 SD IR IA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Intelbras VIP 3216 SD IR IA product page](https://backend.intelbras.com/sites/default/files/2024-10/Datasheet%20-%20VIP%203216%20SD%20IR%20IA%20-%20V6.pdf)

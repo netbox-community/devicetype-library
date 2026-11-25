@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP 5450 Z G2
+slug: intelbras-vip-5450-z-g2
+part_number: VIP 5450 Z G2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1045
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Intelbras VIP 5450 Z G2 product page](https://backend.intelbras.com/sites/default/files/2024-12/Datasheet_%20VIP_5450_Z_G2__0.pdf)

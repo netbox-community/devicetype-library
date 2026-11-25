@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP E2100
+slug: intelbras-vip-e2100
+part_number: VIP E2100
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [Intelbras VIP E2100 product page](https://backend.intelbras.com/sites/default/files/integration/manual_vip_e2100_e_vip_e4120_portugues_01-15_site_0.pdf)

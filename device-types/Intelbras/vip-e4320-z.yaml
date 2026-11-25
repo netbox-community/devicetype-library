@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP E4320 Z
+slug: intelbras-vip-e4320-z
+part_number: VIP E4320 Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Intelbras VIP E4320 Z product page](https://backend.intelbras.com/sites/default/files/integration/datasheet_varifocais_vips4120vf_e4120z_e4320z_site.pdf)

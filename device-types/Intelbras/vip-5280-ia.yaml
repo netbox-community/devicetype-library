@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 5280 IA
+slug: intelbras-vip-5280-ia
+part_number: VIP 5280 IA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 815
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 5280 IA product page](https://www.intelbras.com/pt-br/camera-bullet-vip-5280-ia)

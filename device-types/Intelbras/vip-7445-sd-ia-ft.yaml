@@ -1,0 +1,21 @@
+---
+manufacturer: Intelbras
+model: VIP 7445 SD IA FT
+slug: intelbras-vip-7445-sd-ia-ft
+part_number: VIP 7445 SD IA FT
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+comments: >
+  [Intelbras VIP 7445 SD IA FT product page](https://backend.intelbras.com/sites/default/files/2024-10/Novo%20Datasheet%20-%20VIP%207445%20SD%20IA%20FT-v4.pdf)

@@ -1,0 +1,23 @@
+---
+manufacturer: Intelbras
+model: VIP 3220 B
+slug: intelbras-vip-3220-b
+part_number: VIP 3220 B
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Intelbras VIP 3220 B product page](https://backend.intelbras.com/sites/default/files/2020-10/datasheet-vip-3230-b-e-d-v2.pdf)

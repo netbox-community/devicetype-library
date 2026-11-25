@@ -1,0 +1,27 @@
+---
+manufacturer: Intelbras
+model: VIP 5203 T IA
+slug: intelbras-vip-5203-t-ia
+part_number: VIP 5203 T IA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 910
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Intelbras VIP 5203 T IA product page](https://backend.intelbras.com/sites/default/files/2026-09/Datasheet%20-%20VIP%205203%20T%20IA%20-%20v.1.4_0.pdf)
