@@ -1,0 +1,19 @@
+---
+manufacturer: BCS
+model: BCS-P-5682RSA
+slug: bcs-bcs-p-5682rsa
+part_number: BCS-P-5682RSA
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
