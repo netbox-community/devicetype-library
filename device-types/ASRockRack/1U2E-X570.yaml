@@ -1,0 +1,36 @@
+---
+manufacturer: ASRockRack
+model: 1U2E-X570
+slug: asrockrack-1u2e-x570
+part_number: 1U2E-X570
+comments: |
+  1U short-depth rackmount server with ASRock Rack X570D4U motherboard, 2 front hot-swap 2.5" SATA/NVMe drive bays, 1 internal fixed 3.5" SATA drive bay, 1 PCIe 4.0 x16 slot via right-angle riser, 315W Gold power supply
+  [ASRock Rack 1U2E-X570](https://www.asrockrack.com/general/productdetail.asp?Model=1U2E-X570)
+
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
+
+subdevice_role: parent
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 315
+
+module-bays:
+  - name: Drive Bay 1
+    position: '1'
+    description: 2.5" SATA/NVMe front hot-swap drive bay
+  - name: Drive Bay 2
+    position: '2'
+    description: 2.5" SATA/NVMe front hot-swap drive bay
+  - name: Internal Drive Bay 1
+    position: '3'
+    description: 3.5" SATA internal fixed drive bay
+
+device-bays:
+  - name: Motherboard
+    description: ASRock Rack X570D4U

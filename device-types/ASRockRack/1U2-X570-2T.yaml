@@ -1,0 +1,38 @@
+---
+manufacturer: ASRockRack
+model: 1U2-X570/2T
+slug: asrockrack-1u2-x570-2t
+part_number: 1U2-X570/2T
+comments: |
+  1U short-depth (250 mm) rackmount server with front I/O and ASRock Rack X570D4I-2T mini-ITX motherboard, 2 internal fixed 3.5" SATA drive bays, 2 internal fixed 2.5" (7 mm) SATA drive bays, 265W Bronze power supply
+  [ASRock Rack 1U2-X570/2T](https://www.asrockrack.com/general/productdetail.asp?Model=1U2-X570/2T)
+
+u_height: 1
+is_full_depth: false
+front_image: true
+rear_image: true
+
+subdevice_role: parent
+
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    maximum_draw: 265
+
+module-bays:
+  - name: Internal Drive Bay 1
+    position: '1'
+    description: 3.5" SATA internal fixed drive bay
+  - name: Internal Drive Bay 2
+    position: '2'
+    description: 3.5" SATA internal fixed drive bay
+  - name: Internal Drive Bay 3
+    position: '3'
+    description: 2.5" (7 mm) SATA internal fixed drive bay
+  - name: Internal Drive Bay 4
+    position: '4'
+    description: 2.5" (7 mm) SATA internal fixed drive bay
+
+device-bays:
+  - name: Motherboard
+    description: ASRock Rack X570D4I-2T
