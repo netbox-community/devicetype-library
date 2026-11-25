@@ -1,0 +1,23 @@
+---
+manufacturer: Hanwha
+model: SNB-7000
+slug: hanwha-snb-7000
+part_number: SNB-7000
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Hanwha SNB-7000 product page](https://www.hanwhavision.com)

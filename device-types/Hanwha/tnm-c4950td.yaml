@@ -1,0 +1,27 @@
+---
+manufacturer: Hanwha
+model: TNM-C4950TD
+slug: hanwha-tnm-c4950td
+part_number: TNM-C4950TD
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4530
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Hanwha TNM-C4950TD product page](https://www.hanwhavision.com/global/products/product-details/TNM-C4950TD)

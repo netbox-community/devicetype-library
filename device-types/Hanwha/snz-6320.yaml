@@ -1,0 +1,23 @@
+---
+manufacturer: Hanwha
+model: SNZ-6320
+slug: hanwha-snz-6320
+part_number: SNZ-6320
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 540
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+comments: >
+  [Hanwha SNZ-6320 product page](https://www.hanwhavision.com/global/products/product-details/SNZ-6320)

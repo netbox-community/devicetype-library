@@ -1,0 +1,23 @@
+---
+manufacturer: Hanwha
+model: SNV-5080R
+slug: hanwha-snv-5080r
+part_number: SNV-5080R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+comments: >
+  [Hanwha SNV-5080R product page](https://www.hanwhavision.com)
