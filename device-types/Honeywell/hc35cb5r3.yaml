@@ -1,0 +1,27 @@
+---
+manufacturer: Honeywell
+model: HC35CB5R3
+slug: honeywell-hc35cb5r3
+part_number: HC35CB5R3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 899
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1000 GB
+comments: >
+  [Honeywell HC35CB5R3 product page](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/manuals-and-guides/user-manuals/hon-ba-security-35s-800-26904-f-honeywell-35-series-cameras-user-guide-20241127.pdf)
