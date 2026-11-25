@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: PTZIP4C84W-X25IR
+slug: lts-ptzip4c84w-x25ir
+part_number: PTZIP4C84W-X25IR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5987
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+comments: >
+  [LTS PTZIP4C84W-X25IR product page](https://www.ltsmall.com/ipc-others/3231.html)

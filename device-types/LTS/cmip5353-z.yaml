@@ -1,0 +1,23 @@
+---
+manufacturer: LTS
+model: CMIP5353-Z
+slug: lts-cmip5353-z
+part_number: CMIP5353-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+comments: >
+  [LTS CMIP5353-Z product page](https://ltsecurityinc.com/ip-camera/ip-bullet/cmip5353-z.html)

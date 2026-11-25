@@ -1,0 +1,25 @@
+---
+manufacturer: LTS
+model: LXPTZIP4C8WI-X25SDL
+slug: lts-lxptzip4c8wi-x25sdl
+part_number: LXPTZIP4C8WI-X25SDL
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS LXPTZIP4C8WI-X25SDL product page](https://ltsecurityinc.com/lxptzip4c8wi-x25sdl-8mp-4-inch-active-deterrence-ptz-camera-25x-optical-zoom.html)

@@ -1,0 +1,27 @@
+---
+manufacturer: LTS
+model: CMIP398PW-2SDL
+slug: lts-cmip398pw-2sdl
+part_number: CMIP398PW-2SDL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 586
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 2
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [LTS CMIP398PW-2SDL product page](https://www.ltsmall.com/ipc-8mp/3325.html)
