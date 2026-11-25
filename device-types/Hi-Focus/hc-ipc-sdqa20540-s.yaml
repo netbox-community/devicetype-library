@@ -1,0 +1,27 @@
+---
+manufacturer: Hi-Focus
+model: HC-IPC-SDQA20540-S
+slug: hi-focus-hc-ipc-sdqa20540-s
+part_number: HC-IPC-SDQA20540-S
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 15 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Hi-Focus HC-IPC-SDQA20540-S product page](https://hifocuscctv.com/categories/network-ptz-cameras/5mp-network-ptz-camera-hc-ipc-sdqa20540-s)
