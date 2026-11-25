@@ -1,0 +1,22 @@
+---
+manufacturer: aqotec
+model: RM360
+slug: aqotec-rm360
+part_number: '1200222'
+u_height: 0
+is_full_depth: false
+description: DIN-rail heating and district heating OT controller
+comments: |
+  RM360 base controller for installation in a control cabinet.
+  Part number 1200222 identifies the base controller set.
+  RS422/RS485, M-Bus and CAN bus communication are also supported.
+  The separate RJ45 display connector is not an Ethernet interface.
+  Documentation: https://aqotec.com/regelung-visualisierung/stationsregler/
+power-ports:
+  - name: Versorgung Basisplatine
+    type: hardwired
+    description: 230 V AC (-15%/+10%), max. 60 VA without external components
+interfaces:
+  - name: ETHERNET
+    type: other
+    description: RJ45 Ethernet for TCP/IP, Modbus TCP, aqo360 and aqoSmart
