@@ -1,0 +1,21 @@
+---
+manufacturer: Foscam
+model: R4
+slug: foscam-r4
+part_number: R4
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Foscam R4 product page](https://www.foscam.com/R4.html)

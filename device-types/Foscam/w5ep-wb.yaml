@@ -1,0 +1,27 @@
+---
+manufacturer: Foscam
+model: W5EP-WB
+slug: foscam-w5ep-wb
+part_number: W5EP-WB
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Foscam W5EP-WB product page](https://www.foscam.eu/w5ep-wb.html)
