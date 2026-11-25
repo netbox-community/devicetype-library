@@ -1,0 +1,27 @@
+---
+manufacturer: Comelit
+model: IPBCAMA05Z02A
+slug: comelit-ipbcama05z02a
+part_number: IPBCAMA05Z02A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 11
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Comelit IPBCAMA05Z02A product page](https://pro.comelitgroup.com/en-gb/product/ipbcama05z02a)

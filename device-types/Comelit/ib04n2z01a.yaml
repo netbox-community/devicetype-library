@@ -1,0 +1,23 @@
+---
+manufacturer: Comelit
+model: IB04N2Z01A
+slug: comelit-ib04n2z01a
+part_number: IB04N2Z01A
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 622
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+comments: >
+  [Comelit IB04N2Z01A product page](https://pro.comelitgroup.com/en-gb/product/ib04n2z01a)
