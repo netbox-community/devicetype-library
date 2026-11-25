@@ -1,0 +1,26 @@
+---
+manufacturer: Mobotix
+model: Mx-VM1A-20-IR-VA
+slug: mobotix-mx-vm1a-20-ir-va
+part_number: Mx-VM1A-20-IR-VA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 6
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Mobotix Mx-VM1A-20-IR-VA product page](https://www.mobotix.com/en/support/download-center/documentation/technical-data-sheets)
