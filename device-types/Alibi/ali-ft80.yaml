@@ -1,0 +1,23 @@
+---
+manufacturer: Alibi
+model: ALI-FT80
+slug: alibi-ali-ft80
+part_number: ALI-FT80
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 454
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Alibi ALI-FT80 product page](https://www.alibisecurity.com/media/docs/ali-ft80-datasheet-dlr.pdf)

@@ -1,0 +1,27 @@
+---
+manufacturer: Alibi
+model: ALI-XB20-VUZAI-ANPR-D
+slug: alibi-ali-xb20-vuzai-anpr-d
+part_number: ALI-XB20-VUZAI-ANPR-D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 20 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 20
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Alibi ALI-XB20-VUZAI-ANPR-D product page](https://www.alibisecurity.com/media/docs/ali-xb20-vuzai-anpr-d-datasheet-as.pdf)

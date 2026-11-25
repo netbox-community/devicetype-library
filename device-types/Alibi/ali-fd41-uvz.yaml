@@ -1,0 +1,27 @@
+---
+manufacturer: Alibi
+model: ALI-FD41-UVZ
+slug: alibi-ali-fd41-uvz
+part_number: ALI-FD41-UVZ
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 907
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Alibi ALI-FD41-UVZ product page](https://www.alibisecurity.com/media/docs/ali-fd41-uvz-datasheet-as.pdf)
