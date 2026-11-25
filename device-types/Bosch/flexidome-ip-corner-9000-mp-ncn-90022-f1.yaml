@@ -1,0 +1,21 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME IP corner 9000 MP (NCN-90022-F1)
+slug: bosch-flexidome-ip-corner-9000-mp-ncn-90022-f1
+part_number: FLEXIDOME IP corner 9000 MP (NCN-90022-F1)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1840
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 3, max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC

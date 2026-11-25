@@ -1,0 +1,27 @@
+---
+manufacturer: Bosch
+model: AUTODOME 7100i IR (NDP-7804-Z12L)
+slug: bosch-autodome-7100i-ir-ndp-7804-z12l
+part_number: AUTODOME 7100i IR (NDP-7804-Z12L)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 5800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: PoE Class 8, max 66.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 67
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Bosch AUTODOME 7100i IR (NDP-7804-Z12L) product page](https://commerce.boschsecurity.com/us/en/Cameras/c/10164917899)

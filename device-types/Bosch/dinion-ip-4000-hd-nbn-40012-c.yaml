@@ -1,0 +1,25 @@
+---
+manufacturer: Bosch
+model: DINION IP 4000 HD (NBN-40012-C)
+slug: bosch-dinion-ip-4000-hd-nbn-40012-c
+part_number: DINION IP 4000 HD (NBN-40012-C)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 1, max 3.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB

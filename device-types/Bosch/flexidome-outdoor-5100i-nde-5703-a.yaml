@@ -1,0 +1,26 @@
+---
+manufacturer: Bosch
+model: FLEXIDOME outdoor 5100i (NDE-5703-A)
+slug: bosch-flexidome-outdoor-5100i-nde-5703-a
+part_number: FLEXIDOME outdoor 5100i (NDE-5703-A)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1130
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2048 GB
+comments: >
+  [Bosch FLEXIDOME outdoor 5100i (NDE-5703-A) product page](https://cdn.commerce.boschsecurity.com/public/documents/NDE_5703_A_Data_sheet_enUS_98577407755.pdf)
