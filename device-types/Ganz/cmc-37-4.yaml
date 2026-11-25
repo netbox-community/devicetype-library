@@ -1,0 +1,25 @@
+---
+manufacturer: Ganz
+model: CMC-37-4
+slug: ganz-cmc-37-4
+part_number: CMC-37-4
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Ganz CMC-37-4 product page](https://www.ganzsecurity.com/products/cmc-37-4)

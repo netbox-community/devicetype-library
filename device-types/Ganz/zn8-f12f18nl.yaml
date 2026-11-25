@@ -1,0 +1,27 @@
+---
+manufacturer: Ganz
+model: ZN8-F12F18NL
+slug: ganz-zn8-f12f18nl
+part_number: ZN8-F12F18NL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Ganz ZN8-F12F18NL product page](https://www.ganzsecurity.com/products/zn8-f12f18nl)
