@@ -1,0 +1,23 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-MHS5W37T
+slug: digital-watchdog-dwc-mhs5w37t
+part_number: DWC-MHS5W37T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Digital Watchdog DWC-MHS5W37T product page](https://digitalwatchdog.happyfox.com/kb/article/323-megapix-ip-camera-rtsp-stream-list)

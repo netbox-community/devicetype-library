@@ -1,0 +1,27 @@
+---
+manufacturer: Digital Watchdog
+model: DWC-PVX20WATX
+slug: digital-watchdog-dwc-pvx20watx
+part_number: DWC-PVX20WATX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 31 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 31
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Digital Watchdog DWC-PVX20WATX product page](https://digital-watchdog.com/productdetail/DWC-PVX20WATX)
