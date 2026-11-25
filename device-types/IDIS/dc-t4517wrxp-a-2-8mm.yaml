@@ -1,0 +1,22 @@
+---
+manufacturer: IDIS
+model: DC-T4517WRXP-A 2.8mm
+slug: idis-dc-t4517wrxp-a-2-8mm
+part_number: DC-T4517WRXP-A 2.8mm
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 440
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 25.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+comments: >
+  [IDIS DC-T4517WRXP-A 2.8mm product page](https://www.idisglobal.com/index/product_view/4106)
