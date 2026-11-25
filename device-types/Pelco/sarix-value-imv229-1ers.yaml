@@ -1,0 +1,22 @@
+---
+manufacturer: Pelco
+model: Sarix Value IMV229-1ERS
+slug: pelco-sarix-value-imv229-1ers
+part_number: Sarix Value IMV229-1ERS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 819
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.95 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Pelco Sarix Value IMV229-1ERS product page](https://files.pelco.com/media/2021/12/03/C5038S-A_SarixValue_IMV_MiniDome_Spec_120321.pdf)

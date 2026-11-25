@@ -1,0 +1,25 @@
+---
+manufacturer: Pelco
+model: Spectra Pro Series 2 P2230L-FW1
+slug: pelco-spectra-pro-series-2-p2230l-fw1
+part_number: Spectra Pro Series 2 P2230L-FW1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 21
+    description: 48V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 2000 GB
+comments: >
+  [Pelco Spectra Pro Series 2 P2230L-FW1 product page](https://www.pelco.com/fs/documents/C5044S_Spectra_Pro_Series-2_ProductSpec_040726.pdf)

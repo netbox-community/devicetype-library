@@ -1,0 +1,15 @@
+---
+manufacturer: Pelco
+model: SD4N
+slug: pelco-sd4n
+part_number: SD4N
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+comments: >
+  [Pelco SD4N product page](https://www.pelco.com)

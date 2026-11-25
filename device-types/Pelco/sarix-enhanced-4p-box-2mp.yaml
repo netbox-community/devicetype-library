@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: Sarix Enhanced 4P Box 2MP
+slug: pelco-sarix-enhanced-4p-box-2mp
+part_number: Sarix Enhanced 4P Box 2MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1500 GB
+comments: >
+  [Pelco Sarix Enhanced 4P Box 2MP product page](https://www.pelco.com/fs/documents/pelco-sarix-enhanced-4p-box-camera-datasheet-en-072326.pdf)

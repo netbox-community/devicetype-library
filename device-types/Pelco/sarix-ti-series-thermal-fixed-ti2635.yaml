@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: Sarix TI Series Thermal Fixed TI2635
+slug: pelco-sarix-ti-series-thermal-fixed-ti2635
+part_number: Sarix TI Series Thermal Fixed TI2635
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 24V DC
+comments: >
+  [Pelco Sarix TI Series Thermal Fixed TI2635 product page](https://files.pelco.com/media/wp-content/uploads/2021/04/07104700/C4096S_Fixed-Thermal_Spec_080420.pdf)

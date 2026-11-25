@@ -1,0 +1,27 @@
+---
+manufacturer: Pelco
+model: Sarix Professional IBP224-1R
+slug: pelco-sarix-professional-ibp224-1r
+part_number: Sarix Professional IBP224-1R
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2820
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [Pelco Sarix Professional IBP224-1R product page](https://files.pelco.com/media/wp-content/uploads/2020/04/07105612/Sarix-IBP-II-Series-Bullet-Spec-Sheet-English.pdf)

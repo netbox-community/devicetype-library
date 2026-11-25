@@ -1,0 +1,23 @@
+---
+manufacturer: Pelco
+model: IMF Fisheye 8MP Surface Mount
+slug: pelco-imf-fisheye-8mp-surface-mount
+part_number: IMF Fisheye 8MP Surface Mount
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 678
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 26 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 26
+    description: 12V DC
+comments: >
+  [Pelco IMF Fisheye 8MP Surface Mount product page](https://www.pelco.com/fs/documents/pelco-sarix-imf-fisheye-specification-sheet-en.pdf)
