@@ -1,0 +1,27 @@
+---
+manufacturer: Annke
+model: FCD800P I91HE
+slug: annke-fcd800p-i91he
+part_number: FCD800P I91HE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 808
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 11.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Annke FCD800P I91HE product page](https://www.annke.com/products/fcd800p)

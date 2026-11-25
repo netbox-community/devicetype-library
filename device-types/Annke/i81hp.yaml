@@ -1,0 +1,24 @@
+---
+manufacturer: Annke
+model: I81HP
+slug: annke-i81hp
+part_number: I81HP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 11700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Annke I81HP product page](https://www.annkecctv.com/products/i81hp)
