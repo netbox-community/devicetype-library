@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-C34SP W/E/Y/M/2.8mm
+slug: tiandy-tc-c34sp-w-e-y-m-2-8mm
+part_number: TC-C34SP W/E/Y/M/2.8mm
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 650
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-C34SP W/E/Y/M/2.8mm product page](http://en.tiandy.com:80/index.php)

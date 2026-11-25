@@ -1,0 +1,25 @@
+---
+manufacturer: Tiandy
+model: TC-C35JS I5/E/M/N/2.8mm/V4.1
+slug: tiandy-tc-c35js-i5-e-m-n-2-8mm-v4-1
+part_number: TC-C35JS I5/E/M/N/2.8mm/V4.1
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-C35JS I5/E/M/N/2.8mm/V4.1 product page](https://en.tiandy.com/index.php)

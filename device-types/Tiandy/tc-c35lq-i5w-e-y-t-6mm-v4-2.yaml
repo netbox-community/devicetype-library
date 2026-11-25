@@ -1,0 +1,27 @@
+---
+manufacturer: Tiandy
+model: TC-C35LQ I5W/E/Y/T/6mm/V4.2
+slug: tiandy-tc-c35lq-i5w-e-y-t-6mm-v4-2
+part_number: TC-C35LQ I5W/E/Y/T/6mm/V4.2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1850
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 10 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Tiandy TC-C35LQ I5W/E/Y/T/6mm/V4.2 product page](https://en.tiandy.com/pro-2023790/63693587.html)
