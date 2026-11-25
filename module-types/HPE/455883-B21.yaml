@@ -1,0 +1,18 @@
+---
+profile: Transceiver
+manufacturer: HPE
+model: BladeSystem c-Class 10Gb SFP+ SR Transceiver
+part_number: 455883-B21
+weight: 10.0
+weight_unit: g
+attribute_data:
+  phy: 10GBASE-SR
+  media: MMF
+  reach: 300.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: LC/LC
+comments: '[HPE QuickSpecs](https://hpe.com/psnow/doc/c05130285)'
+interfaces:
+  - name: '{module}'
+    type: 10gbase-sr
