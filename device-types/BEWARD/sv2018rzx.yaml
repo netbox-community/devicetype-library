@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: SV2018RZX
+slug: beward-sv2018rzx
+part_number: SV2018RZX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 14 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 14
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD SV2018RZX product page](https://www.beward.ru/katalog/ip-kamery/ip-kamery-serii-sv/ip-kamera-sv2018rzx)

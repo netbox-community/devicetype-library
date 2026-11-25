@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: B1072
+slug: beward-b1072
+part_number: B1072
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 548
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD B1072 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-b1072)

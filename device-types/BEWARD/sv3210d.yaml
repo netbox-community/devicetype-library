@@ -1,0 +1,22 @@
+---
+manufacturer: BEWARD
+model: SV3210D
+slug: beward-sv3210d
+part_number: SV3210D
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 125
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 2 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [BEWARD SV3210D product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/sv3210d)

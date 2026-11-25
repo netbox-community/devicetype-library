@@ -1,0 +1,23 @@
+---
+manufacturer: BEWARD
+model: BD3570DV
+slug: beward-bd3570dv
+part_number: BD3570DV
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 19.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 19
+    description: 12V DC
+comments: >
+  [BEWARD BD3570DV product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/bd3570dv)

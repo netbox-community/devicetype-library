@@ -1,0 +1,22 @@
+---
+manufacturer: BEWARD
+model: B89R-5260Z18
+slug: beward-b89r-5260z18
+part_number: B89R-5260Z18
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
+    description: max 90 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [BEWARD B89R-5260Z18 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/b89r-5260z18-ptz-ip-kamera)

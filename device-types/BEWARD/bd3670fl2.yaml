@@ -1,0 +1,27 @@
+---
+manufacturer: BEWARD
+model: BD3670FL2
+slug: beward-bd3670fl2
+part_number: BD3670FL2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 330
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 0, max 1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 1
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [BEWARD BD3670FL2 product page](https://www.beward.ru/katalog/arhiv-oborudovaniya/arhiv-kamery/ip-kamera-bd3670fl2)
