@@ -1,0 +1,24 @@
+---
+manufacturer: EZVIZ
+model: C3WN
+slug: ezviz-c3wn
+part_number: C3WN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 288
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [EZVIZ C3WN product page](https://www.ezviz.com/us/product/C3WN/2022)
