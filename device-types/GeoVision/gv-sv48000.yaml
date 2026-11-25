@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-SV48000
+slug: geovision-gv-sv48000
+part_number: GV-SV48000
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3700
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 72 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 72
+    description: 24V DC
+comments: >
+  [GeoVision GV-SV48000 product page](https://dlcdn.geovision.com.tw/Manual/IPCAM/GV-IPCAM_Spec_table-before-20260821.pdf)

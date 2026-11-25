@@ -1,0 +1,23 @@
+---
+manufacturer: GeoVision
+model: GV-LPR2812-DL
+slug: geovision-gv-lpr2812-dl
+part_number: GV-LPR2812-DL
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [GeoVision GV-LPR2812-DL product page](https://dlcdn.geovision.com.tw/Manual/LPR-Cam/LPR-DL/LPR2812-DL/GV-LPR2812-DL_Quick_Start_Guide.pdf)
