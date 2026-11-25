@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: DH-PSDW5631SP-B360-E4-D204-DC12V
+slug: dahua-dh-psdw5631sp-b360-e4-d204-dc12v
+part_number: DH-PSDW5631SP-B360-E4-D204-DC12V
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 780
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 16.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua DH-PSDW5631SP-B360-E4-D204-DC12V product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/psdw5631s-b360)

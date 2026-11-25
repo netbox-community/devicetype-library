@@ -1,0 +1,25 @@
+---
+manufacturer: Dahua
+model: DH-IPC-HDPW5443R1-ZYL-SA
+slug: dahua-dh-ipc-hdpw5443r1-zyl-sa
+part_number: DH-IPC-HDPW5443R1-ZYL-SA
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.3 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua DH-IPC-HDPW5443R1-ZYL-SA product page](https://www.dahuatech.com/product/info/13746.html)

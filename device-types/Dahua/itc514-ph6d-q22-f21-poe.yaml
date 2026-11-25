@@ -1,0 +1,23 @@
+---
+manufacturer: Dahua
+model: ITC514-PH6D-Q22-F21-POE
+slug: dahua-itc514-ph6d-q22-f21-poe
+part_number: ITC514-PH6D-Q22-F21-POE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1070
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 48V DC
+comments: >
+  [Dahua ITC514-PH6D-Q22-F21-POE product page](https://www.dahuasecurity.com/products/intelligent-traffic/smart-parking-products/indoor-parking/itc514-series-spot-detection-camera/itc514-ph6d-q22-f21-poe)

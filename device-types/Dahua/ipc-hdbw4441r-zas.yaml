@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HDBW4441R-ZAS
+slug: dahua-ipc-hdbw4441r-zas
+part_number: IPC-HDBW4441R-ZAS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 713
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HDBW4441R-ZAS product page](https://materialfile.dahuasecurity.com/uploads/cpq/85023/datasheet/DH-IPC-HDBW4441R-ZAS_S0_datasheet_20250324.pdf)

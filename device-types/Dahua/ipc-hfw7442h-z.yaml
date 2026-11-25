@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HFW7442H-Z
+slug: dahua-ipc-hfw7442h-z
+part_number: IPC-HFW7442H-Z
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1600
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua IPC-HFW7442H-Z product page](https://www.dahuasecurity.com/uk/products/discontinued-products/network-cameras/ipc-hfw7442h-z)

@@ -1,0 +1,27 @@
+---
+manufacturer: Dahua
+model: IPC-HMW8441X-M/M12
+slug: dahua-ipc-hmw8441x-m-m12
+part_number: IPC-HMW8441X-M/M12
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 760
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua IPC-HMW8441X-M/M12 product page](https://www.dahuasecurity.com/products/mobile/mobile/mobile-ip-products/mobile-ip-cameras/ipc-hmw8441x-m/m12)

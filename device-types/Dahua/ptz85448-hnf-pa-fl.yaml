@@ -1,0 +1,24 @@
+---
+manufacturer: Dahua
+model: PTZ85448-HNF-PA-FL
+slug: dahua-ptz85448-hnf-pa-fl
+part_number: PTZ85448-HNF-PA-FL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 15400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 63
+    description: 36V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Dahua PTZ85448-HNF-PA-FL product page](https://www.dahuasecurity.com/products/network-products/ptz-cameras/special-series/positioning-systems/ptz85448-hnf-pa-fl)

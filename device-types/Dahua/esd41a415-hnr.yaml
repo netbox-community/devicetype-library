@@ -1,0 +1,22 @@
+---
+manufacturer: Dahua
+model: ESD41A415-HNR
+slug: dahua-esd41a415-hnr
+part_number: ESD41A415-HNR
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6900
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 21 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Dahua ESD41A415-HNR product page](https://www.dahuasecurity.com/products/network-products/explosion-proof/optical-series/esd41a415-hnr)
