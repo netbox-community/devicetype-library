@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: Q1800-LE-3
+slug: axis-q1800-le-3
+part_number: Q1800-LE-3
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 4, max 12.95 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 28V DC
+comments: >
+  [AXIS Q1800-LE-3 product page](https://www.axis.com/products/axis-q1800-le-3)

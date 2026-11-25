@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: M3204
+slug: axis-m3204
+part_number: M3204
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 400
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 2, max 4.2 W
+comments: >
+  [AXIS M3204 product page](https://www.axis.com/products/axis-m3204)

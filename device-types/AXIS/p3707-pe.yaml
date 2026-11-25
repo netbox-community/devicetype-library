@@ -1,0 +1,18 @@
+---
+manufacturer: AXIS
+model: P3707-PE
+slug: axis-p3707-pe
+part_number: P3707-PE
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2200
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 2, max 5.5 W
+comments: >
+  [AXIS P3707-PE product page](https://www.axis.com/dam/public/c1/54/42/datasheet-axis-p3707-pe-network-camera-en-US-274942.pdf)

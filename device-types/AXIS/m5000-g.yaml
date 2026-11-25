@@ -1,0 +1,23 @@
+---
+manufacturer: AXIS
+model: M5000-G
+slug: axis-m5000-g
+part_number: M5000-G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1950
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 13.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 28V DC
+comments: >
+  [AXIS M5000-G product page](https://www.axis.com/products/axis-m5000-g)
