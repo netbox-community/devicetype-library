@@ -1,0 +1,27 @@
+---
+manufacturer: Bolide
+model: BN8109-PN
+slug: bolide-bn8109-pn
+part_number: BN8109-PN
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 585
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13.1 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Bolide BN8109-PN product page](https://bolideco.com/collections/panoramic-cameras/products/5mp-180-degree-panoramic-turret-camera-bn8109-pn)

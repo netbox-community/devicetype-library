@@ -1,0 +1,21 @@
+---
+manufacturer: Bolide
+model: BN9029AD/TAA
+slug: bolide-bn9029ad-taa
+part_number: BN9029AD/TAA
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6.9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+comments: >
+  [Bolide BN9029AD/TAA product page](https://bolideco.com/products/8mp-taa-compliant-motorized-varifocal-eyeball-camera-bn9029ad-taa)

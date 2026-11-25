@@ -1,0 +1,21 @@
+---
+manufacturer: Bolide
+model: BTG-N1909IROD28W
+slug: bolide-btg-n1909irod28w
+part_number: BTG-N1909IROD28W
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC
+comments: >
+  [Bolide BTG-N1909IROD28W product page](https://bolideco.com/products/copy-of-4k-h-265-outdoor-ir-eyeball-camera-with-2-8mm-fixed-lens-and-built-in-microphone-btg-n1909)
