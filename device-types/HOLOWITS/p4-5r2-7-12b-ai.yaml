@@ -1,0 +1,23 @@
+---
+manufacturer: HOLOWITS
+model: P4-5R(2.7-12)B AI
+slug: holowits-p4-5r2-7-12b-ai
+part_number: P4-5R(2.7-12)B AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 574
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 2.62 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 3
+    description: 12V DC
+comments: >
+  [HOLOWITS P4-5R(2.7-12)B AI product page](https://resources.holowits.com/material/%5BDatasheet%5D%20HOLOWITS%20HWT-P4-5R%282.7-12%29B%20AI%20Datasheet%20V2.1.pdf)
