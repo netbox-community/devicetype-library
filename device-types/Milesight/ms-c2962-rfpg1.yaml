@@ -1,0 +1,27 @@
+---
+manufacturer: Milesight
+model: MS-C2962-RFPG1
+slug: milesight-ms-c2962-rfpg1
+part_number: MS-C2962-RFPG1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1300
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 8.4 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 10V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 1024 GB
+comments: >
+  [Milesight MS-C2962-RFPG1 product page](https://resource.milesight.com/milesight/security/document/datasheet/ipc/series-g1/milesight-ai-motorized-pro-bullet-network-camera-ndaa-g1-datasheet-en.pdf)
