@@ -1,0 +1,19 @@
+---
+manufacturer: JideTech
+model: P2-20X-8MP
+slug: jidetech-p2-20x-8mp
+part_number: P2-20X-8MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [JideTech P2-20X-8MP product page](https://www.jidetech.com/collections/poe-ptz-camera/products/p2-20x-8mp-20x-auto-tracking-zoom-waterproof-4k-poe-ptz-ip-camera)

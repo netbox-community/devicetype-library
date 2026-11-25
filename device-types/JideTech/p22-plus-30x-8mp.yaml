@@ -1,0 +1,27 @@
+---
+manufacturer: JideTech
+model: P22 PLUS-30X-8MP
+slug: jidetech-p22-plus-30x-8mp
+part_number: P22 PLUS-30X-8MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 24 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 24
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [JideTech P22 PLUS-30X-8MP product page](https://www.jidetech.com/products/p22-plus-8mp-30x-starlight-poe-ptz-ip-camera)

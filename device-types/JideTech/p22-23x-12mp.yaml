@@ -1,0 +1,23 @@
+---
+manufacturer: JideTech
+model: P22-23X-12MP
+slug: jidetech-p22-23x-12mp
+part_number: P22-23X-12MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [JideTech P22-23X-12MP product page](https://www.jidetech.com/products/12mp-23x-ptz-ip-camera-p22-23x-12mp)
