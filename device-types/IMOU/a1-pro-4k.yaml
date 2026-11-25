@@ -1,0 +1,24 @@
+---
+manufacturer: IMOU
+model: A1 Pro 4K
+slug: imou-a1-pro-4k
+part_number: A1 Pro 4K
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 224
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [IMOU A1 Pro 4K product page](https://www.imou.com/en/product/detail/a1-pro4k)

@@ -1,0 +1,27 @@
+---
+manufacturer: IMOU
+model: Bullet 2 4MP
+slug: imou-bullet-2-4mp
+part_number: Bullet 2 4MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 357
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [IMOU Bullet 2 4MP product page](https://www.imou.com/en/product/detail/bullet2)

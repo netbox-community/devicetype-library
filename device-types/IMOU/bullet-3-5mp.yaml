@@ -1,0 +1,27 @@
+---
+manufacturer: IMOU
+model: Bullet 3 5MP
+slug: imou-bullet-3-5mp
+part_number: Bullet 3 5MP
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 290
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [IMOU Bullet 3 5MP product page](https://www.imou.com/en/product/detail/bullet3)
