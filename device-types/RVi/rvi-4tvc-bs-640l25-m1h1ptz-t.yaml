@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-4TVC/BS-640L25/M1H1PTZ-T
+slug: rvi-rvi-4tvc-bs-640l25-m1h1ptz-t
+part_number: RVi-4TVC/BS-640L25/M1H1PTZ-T
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 45 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 45
+    description: 24V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-4TVC/BS-640L25/M1H1PTZ-T product page](https://rvigroup.ru/catalog-v2/rvi_4tvc_bs_640l25_m1h1ptz_t)

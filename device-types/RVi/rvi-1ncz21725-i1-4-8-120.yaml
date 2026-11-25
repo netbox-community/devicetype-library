@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-1NCZ21725-I1 (4.8-120)
+slug: rvi-rvi-1ncz21725-i1-4-8-120
+part_number: RVi-1NCZ21725-I1 (4.8-120)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 3000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 22
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-1NCZ21725-I1 (4.8-120) product page](https://rvigroup.ru/catalog-v2/rvi_1ncz21725_i1_4_8_120)

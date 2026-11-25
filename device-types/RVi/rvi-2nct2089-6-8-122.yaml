@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-2NCT2089 (6.8-122)
+slug: rvi-rvi-2nct2089-6-8-122
+part_number: RVi-2NCT2089 (6.8-122)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1550
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+    description: 12V DC
+comments: >
+  [RVi RVi-2NCT2089 (6.8-122) product page](https://rvigroup.ru/catalog-v2/rvi_2nct2089_6_8_122)

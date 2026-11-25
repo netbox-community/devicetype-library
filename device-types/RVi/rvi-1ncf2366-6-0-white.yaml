@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-1NCF2366 (6.0) white
+slug: rvi-rvi-1ncf2366-6-0-white
+part_number: RVi-1NCF2366 (6.0) white
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 5.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-1NCF2366 (6.0) white product page](https://rvigroup.ru/catalog-v2/rvi_1ncf2366_6_0_white)

@@ -1,0 +1,27 @@
+---
+manufacturer: RVi
+model: RVi-2NCT5379 (5-50) RU
+slug: rvi-rvi-2nct5379-5-50-ru
+part_number: RVi-2NCT5379 (5-50) RU
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1450
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 10.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-2NCT5379 (5-50) RU product page](https://rvigroup.ru/catalog-v2/rvi_2nct5379_5_50_ru)

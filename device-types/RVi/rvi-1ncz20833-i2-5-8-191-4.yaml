@@ -1,0 +1,26 @@
+---
+manufacturer: RVi
+model: RVi-1NCZ20833-I2 (5.8-191.4)
+slug: rvi-rvi-1ncz20833-i2-5-8-191-4
+part_number: RVi-1NCZ20833-I2 (5.8-191.4)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 6750
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type3-ieee802.3bt
+    description: max 32 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 32
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [RVi RVi-1NCZ20833-I2 (5.8-191.4) product page](https://rvigroup.ru/catalog-v2/rvi_1ncz20833_i2_5_8_191_4)

@@ -1,0 +1,23 @@
+---
+manufacturer: RVi
+model: RVi-1NCZ23723-A (5-115)
+slug: rvi-rvi-1ncz23723-a-5-115
+part_number: RVi-1NCZ23723-A (5-115)
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+comments: >
+  [RVi RVi-1NCZ23723-A (5-115) product page](https://rvigroup.ru/catalog-v2/rvi_1ncz23723_a_5_115)
