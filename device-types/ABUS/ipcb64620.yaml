@@ -1,0 +1,19 @@
+---
+manufacturer: ABUS
+model: IPCB64620
+slug: abus-ipcb64620
+part_number: IPCB64620
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+comments: >
+  [ABUS IPCB64620 product page](https://www.abus.com/int/Commercial-Security/Video-surveillance/Network-technology/IP-Tube-4-MPx-Black-2.8-12-mm)
