@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-2454EW
+slug: amcrest-ip8m-2454ew
+part_number: IP8M-2454EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 500
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP8M-2454EW product page](https://amcrest.com/amcrest-ultrahd-2688p-1520tvl-varifocal-poe-dome-outdoor-security-camera-8mp-2688x1520-65ft-night-vision-motorized-varifocal-lens-55-104-white-ip8m-2454ew.html)

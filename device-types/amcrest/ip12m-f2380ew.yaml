@@ -1,0 +1,25 @@
+---
+manufacturer: amcrest
+model: IP12M-F2380EW
+slug: amcrest-ip12m-f2380ew
+part_number: IP12M-F2380EW
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 790
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP12M-F2380EW product page](https://support.amcrest.com/hc/en-us/articles/8808714375693-Technical-Specifications-IP12M-F2380EW)

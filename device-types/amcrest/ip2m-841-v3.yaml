@@ -1,0 +1,22 @@
+---
+manufacturer: amcrest
+model: IP2M-841-V3
+slug: amcrest-ip2m-841-v3
+part_number: IP2M-841-V3
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: USB IN
+    type: usb-c
+    maximum_draw: 8
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP2M-841-V3 product page](https://support.amcrest.com/hc/en-us/articles/360050179172-Technical-Specifications-IP2M-841-V3)

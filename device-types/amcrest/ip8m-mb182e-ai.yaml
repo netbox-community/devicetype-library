@@ -1,0 +1,27 @@
+---
+manufacturer: amcrest
+model: IP8M-MB182E-AI
+slug: amcrest-ip8m-mb182e-ai
+part_number: IP8M-MB182E-AI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2863
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 16 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 16
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [amcrest IP8M-MB182E-AI product page](https://support.amcrest.com/hc/en-us/articles/14631232425229-Technical-Specifications-IP8M-MB182E-AI)

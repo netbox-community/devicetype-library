@@ -1,0 +1,22 @@
+---
+manufacturer: amcrest
+model: IPM-721
+slug: amcrest-ipm-721
+part_number: IPM-721
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [amcrest IPM-721 product page](https://support.amcrest.com/hc/en-us/articles/360001660391-Technical-Specifications-IPM-721)
