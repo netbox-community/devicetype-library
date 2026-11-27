@@ -1,0 +1,31 @@
+---
+manufacturer: Rittal
+model: DK 7030110
+slug: rittal-dk-7030110
+part_number: '4028177659483'
+comments: |
+  [Rittal CMC III temperature sensor for monitoring system](https://www.rittal.com/com-en/products/PG20231215ITI101/PG20240408ITI301/PG20240913ITI008/PRO23678?variantId=7030110):
+
+  Dimensions (W x H x D): 80 mm x 30 mm x 40 mm.
+  Temperature range in Celsius: 0 ... 55.
+  Gross weight: 0.18 kg.
+  NOTE: DK CMC III Temperature sensor.
+
+  [Documentation here](https://www.rittal.com/imf/none/3_5184/7030110_Instructions_EN/).
+subdevice_role: child
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.18
+weight_unit: kg
+console-ports:
+  - name: can1
+    label: CAN 1
+    type: rj-45
+    _is_power_source: true
+    description: 1st CAN BUS connection port
+  - name: can2
+    label: CAN 2
+    type: rj-45
+    _is_power_source: true
+    description: 2nd CAN BUS connection port
