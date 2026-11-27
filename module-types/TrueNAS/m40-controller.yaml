@@ -1,0 +1,30 @@
+---
+manufacturer: TrueNAS
+model: M40 Controller
+
+interfaces:
+  - name: Controller {module}/eno1np0
+    type: 10gbase-t
+  - name: Controller {module}/eno1np1
+    type: 10gbase-t
+  - name: Controller {module}/IPMI
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PCIe Slot A
+    position: PCIe-A
+    description: PCIe 3.0 x16
+  - name: PCIe Slot C
+    position: PCIe-C
+    description: PCIe 3.0 x8
+  - name: PCIe Slot D
+    position: PCIe-D
+    description: PCIe 3.0 x8
+  - name: PCIe Slot E
+    position: PCIe-E
+    description: PCIe 3.0 x8
+  - name: PCIe Slot F
+    position: PCIe-F
+    description: PCIe 3.0 x4
+
+comments: '[TrueNAS M-Series](https://www.truenas.com/m-series/)'

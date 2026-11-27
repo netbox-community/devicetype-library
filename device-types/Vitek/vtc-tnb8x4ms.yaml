@@ -1,0 +1,27 @@
+---
+manufacturer: Vitek
+model: VTC-TNB8X4MS
+slug: vitek-vtc-tnb8x4ms
+part_number: VTC-TNB8X4MS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 18 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 18
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vitek VTC-TNB8X4MS product page](https://vitekcctv.com/product/vtc-tnb8x4ms-8-megapixel-indoor-outdoor-multi-sensor-180-panoramic-ip-camera)

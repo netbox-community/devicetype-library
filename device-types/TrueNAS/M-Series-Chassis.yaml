@@ -1,0 +1,23 @@
+---
+manufacturer: TrueNAS
+model: M-Series Chassis
+slug: truenas-m-series-chassis
+
+u_height: 4
+is_full_depth: true
+
+airflow: front-to-rear
+weight: 34
+weight_unit: kg
+
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+  - name: Controller 1
+    position: '1'
+  - name: Controller 2
+    position: '2'
+
+comments: '[TrueNAS M-Series](https://www.truenas.com/m-series/)'

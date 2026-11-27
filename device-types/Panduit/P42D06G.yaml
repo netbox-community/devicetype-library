@@ -1,0 +1,169 @@
+---
+manufacturer: Panduit
+model: G6 Monitored Input PDU P42D06G
+slug: panduit-p42d06g
+part_number: P42D06G
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 19.6
+weight_unit: lb
+comments: |
+  G6 Monitored Input (MI) PDU, label model PP11032-0016
+  1-Phase, 32A, 230V, IEC 60309 2P+E 6h 32A (IP44) inlet, 7.4 kVA
+  36x C13 + 6x C19 outlets in 2 color-coded banks of 21 outlets, one circuit breaker per bank (B1 L-N, B2 L-N).
+  B1 is the lower bank (inlet end), B2 the upper bank. Each bank has 18x C13 with 3x C19 at its top end.
+  Outlets carry no printed numbers. Numbering used here: bank by bank from B1, bottom to top,
+  outlets 1-21 = B1 (C19: 19-21), outlets 22-42 = B2 (C19: 40-42).
+  Aggregate input monitoring only. Hot-swappable controller with ETH0 (Ethernet/PDU In, primary),
+  ETH1 (PDU Out, daisy chain), RJ45 serial console, USB and two sensor ports (Sensor-1, Sensor-2).
+  Sources: Panduit G6 iPDU specification sheet, Panduit G6 PDU user manual v1.5 (FW 5.x), on-site photos
+  NOTE: Do NOT set maximum_draw on the power port - this prevents NetBox from
+  calculating downstream device draw propagation (NetBox issue #8177).
+
+console-ports:
+  - name: Serial
+    label: Serial
+    type: rj-45
+
+interfaces:
+  - name: ETH0
+    label: Ethernet/PDU In
+    type: 1000base-t
+    mgmt_only: true
+  - name: ETH1
+    label: PDU Out
+    type: 1000base-t
+    mgmt_only: true
+
+power-ports:
+  - name: IEC 60309 Inlet
+    type: iec-60309-p-n-e-6h
+
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 10
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 11
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 12
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 13
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 14
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 15
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 16
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 17
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 18
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 19
+    type: iec-60320-c19
+    power_port: IEC 60309 Inlet
+  - name: Outlet 20
+    type: iec-60320-c19
+    power_port: IEC 60309 Inlet
+  - name: Outlet 21
+    type: iec-60320-c19
+    power_port: IEC 60309 Inlet
+  - name: Outlet 22
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 23
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 24
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 25
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 26
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 27
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 28
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 29
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 30
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 31
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 32
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 33
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 34
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 35
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 36
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 37
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 38
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 39
+    type: iec-60320-c13
+    power_port: IEC 60309 Inlet
+  - name: Outlet 40
+    type: iec-60320-c19
+    power_port: IEC 60309 Inlet
+  - name: Outlet 41
+    type: iec-60320-c19
+    power_port: IEC 60309 Inlet
+  - name: Outlet 42
+    type: iec-60320-c19
+    power_port: IEC 60309 Inlet

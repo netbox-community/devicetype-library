@@ -1,0 +1,21 @@
+---
+manufacturer: Panasonic
+model: WV-V2530LK
+slug: panasonic-wv-v2530lk
+part_number: WV-V2530LK
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 410
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 3.5 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 4
+    description: 12V DC

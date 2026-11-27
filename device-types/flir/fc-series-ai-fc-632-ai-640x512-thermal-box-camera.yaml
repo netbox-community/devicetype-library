@@ -1,0 +1,27 @@
+---
+manufacturer: flir
+model: FC-Series AI FC-632 AI 640x512 Thermal Box Camera
+slug: flir-fc-series-ai-fc-632-ai-640x512-thermal-box-camera
+part_number: FC-Series AI FC-632 AI 640x512 Thermal Box Camera
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1800
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 9 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 9
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [flir FC-Series AI FC-632 AI 640x512 Thermal Box Camera product page](https://flir.netx.net/file/asset/58004/original/attachment)

@@ -1,0 +1,27 @@
+---
+manufacturer: Safire
+model: SF-IPT511ZA-4I1-SL
+slug: safire-sf-ipt511za-4i1-sl
+part_number: SF-IPT511ZA-4I1-SL
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 423
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Safire SF-IPT511ZA-4I1-SL product page](https://www.safirecctv.com/product/sf-ipt511za-4i1-sl)

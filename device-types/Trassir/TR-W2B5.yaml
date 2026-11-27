@@ -1,0 +1,24 @@
+---
+manufacturer: Trassir
+model: TR-W2B5
+slug: trassir-tr-w2b5
+part_number: TR-W2B5
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 310
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 6
+    description: 5V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-W2B5 product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_w2b5_v2_2_8)
