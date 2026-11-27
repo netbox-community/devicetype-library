@@ -1,0 +1,48 @@
+---
+manufacturer: TP-Link
+model: ES208GP
+slug: tp-link-es208gp
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  [ES208GP official datasheet](https://static.tp-link.com/upload/product-overview/2026/202605/20260518/ES208GP%28UN%291.0_Datasheet_.pdf) (pp. 1-3).
+  Total PoE budget: 64 W.
+  Documented maximum consumption: 69.06 W; maximum_draw rounded up to whole watts.
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 70
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '5'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '6'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '7'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '8'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
