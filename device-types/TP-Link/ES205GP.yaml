@@ -1,0 +1,36 @@
+---
+manufacturer: TP-Link
+model: ES205GP
+slug: tp-link-es205gp
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 220
+weight_unit: g
+comments: |
+  [ES205GP official datasheet](https://static.tp-link.com/upload/product-overview/2026/202603/20260319/Datasheet_ES205GP%28UN%291.20.pdf) (pp. 1-3).
+  Total PoE budget: 65 W.
+  Documented maximum consumption: 75.8 W; maximum_draw rounded up to whole watts.
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 76
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '5'
+    type: 1000base-t
