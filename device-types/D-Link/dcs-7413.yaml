@@ -1,0 +1,22 @@
+---
+manufacturer: D-Link
+model: DCS-7413
+slug: d-link-dcs-7413
+part_number: DCS-7413
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1920
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12.3 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 32 GB
+comments: >
+  [D-Link DCS-7413 product page](https://www.dlink.com/uk/en/products/dcs-7413-outdoor-full-hd-poe-day-night-fixed-bullet-camera-with-ir-led)

@@ -1,0 +1,33 @@
+---
+manufacturer: Netgear
+model: MS308E
+slug: netgear-ms308e
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 430
+weight_unit: g
+comments: |
+  [MS308E official datasheet](https://www.downloads.netgear.com/files/GDC/MS305E/MS305E_MS308E_DS.pdf) (pp. 2-3).
+  Documented maximum consumption: 8.1 W; maximum_draw rounded up to whole watts.
+power-ports:
+  - name: DC-in
+    type: dc-terminal
+    maximum_draw: 9
+interfaces:
+  - name: '1'
+    type: 2.5gbase-t
+  - name: '2'
+    type: 2.5gbase-t
+  - name: '3'
+    type: 2.5gbase-t
+  - name: '4'
+    type: 2.5gbase-t
+  - name: '5'
+    type: 2.5gbase-t
+  - name: '6'
+    type: 2.5gbase-t
+  - name: '7'
+    type: 2.5gbase-t
+  - name: '8'
+    type: 2.5gbase-t

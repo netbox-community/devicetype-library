@@ -1,0 +1,26 @@
+---
+manufacturer: eneo
+model: INB-58F0002M0PA
+slug: eneo-inb-58f0002m0pa
+part_number: INB-58F0002M0PA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 350
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 12 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 12
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo INB-58F0002M0PA product page](https://eneo-security.com/en/generate/datasheet/render/product_sku/238642)

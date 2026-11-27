@@ -1,0 +1,27 @@
+---
+manufacturer: EmpireTech
+model: IPC-PDW4K-T180
+slug: empiretech-ipc-pdw4k-t180
+part_number: IPC-PDW4K-T180
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 990
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: PoE Class 4, max 14.8 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 15
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [EmpireTech IPC-PDW4K-T180 product page](https://empiretech01.com/products/empiretech-ipc-pdw4k-t180-1-2-7-cmos-2x4mp-tioc-duo-splicing-fixed-focal-turret-camera)

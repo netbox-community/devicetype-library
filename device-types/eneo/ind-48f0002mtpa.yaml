@@ -1,0 +1,26 @@
+---
+manufacturer: eneo
+model: IND-48F0002MTPA
+slug: eneo-ind-48f0002mtpa
+part_number: IND-48F0002MTPA
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 590
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 13 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 13
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [eneo IND-48F0002MTPA product page](https://eneo-security.com/en/ind-48f0002mtpa.html)

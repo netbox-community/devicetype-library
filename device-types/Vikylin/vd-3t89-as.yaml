@@ -1,0 +1,27 @@
+---
+manufacturer: Vikylin
+model: VD-3T89-AS
+slug: vikylin-vd-3t89-as
+part_number: VD-3T89-AS
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 745
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: PoE Class 3, max 10.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 10
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Vikylin VD-3T89-AS product page](https://vikylin.com/wp-content/uploads/2023/11/VD-3T89-AS-Specification.pdf)
