@@ -1,0 +1,27 @@
+---
+manufacturer: Uniview
+model: IPC3232SB-ADZKM-DL-I1
+slug: uniview-ipc3232sb-adzkm-dl-i1
+part_number: IPC3232SB-ADZKM-DL-I1
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 940
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.2 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 7
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB
+comments: >
+  [Uniview IPC3232SB-ADZKM-DL-I1 product page](https://www.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEI_Series/IPC3232SB-ADZKM-DL-I1)

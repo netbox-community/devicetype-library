@@ -1,0 +1,23 @@
+---
+manufacturer: Trassir
+model: TR-D4D2
+slug: trassir-tr-d4d2
+part_number: TR-D4D2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.6 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 5
+    description: 12V DC
+comments: >
+  [Trassir TR-D4D2 product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_d4d2_v2_2_7_13_5)
