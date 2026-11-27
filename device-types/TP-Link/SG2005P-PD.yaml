@@ -1,0 +1,34 @@
+---
+manufacturer: TP-Link
+model: SG2005P-PD
+slug: tp-link-sg2005p-pd
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 370
+weight_unit: g
+comments: |
+  [SG2005P-PD official datasheet](https://static.tp-link.com/upload/product-overview/2026/202603/20260331/SG2005P-PD%28UN%292.0%20datasheet.pdf) (pp. 3-4).
+  Total PoE budget: 64 W.
+  Hardware V2.0. Port 5 receives IEEE 802.3bt Type 4 PoE; ports 1-4 supply PoE+. The 64 W output budget requires Type 4 input; lower input classes reduce it.
+interfaces:
+  - name: '1'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '2'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '3'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '4'
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: '5'
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type4-ieee802.3bt
