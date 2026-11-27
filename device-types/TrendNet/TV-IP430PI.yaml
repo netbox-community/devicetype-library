@@ -1,0 +1,22 @@
+---
+manufacturer: TrendNet
+model: TV-IP430PI
+slug: trendnet-tv-ip430pi
+part_number: TV-IP430PI
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2000
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 20 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 64 GB
+comments: >
+  [TrendNet TV-IP430PI product page](https://www.trendnet.com/products/product-detail.asp)

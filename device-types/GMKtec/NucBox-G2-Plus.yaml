@@ -1,0 +1,22 @@
+---
+manufacturer: GMKtec
+model: NucBox G2 Plus
+slug: gmktec-nucbox-g2-plus
+part_number: G2Plus N150
+u_height: 0
+is_full_depth: false
+airflow: bottom-to-top
+weight: 218
+weight_unit: g
+comments: '[GMKtec NucBox G2 Plus](https://de.gmktec.com/en/products/gmktec-nucbox-g2-plus-intel%C2%AE-twin-lake-n150)'
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 36
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: wlan0
+    type: ieee802.11ax

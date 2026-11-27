@@ -1,0 +1,20 @@
+---
+manufacturer: i-PRO
+model: WV-U2130LAUX
+slug: i-pro-wv-u2130laux
+part_number: WV-U2130LAUX
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 250
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 4.8 W
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 512 GB

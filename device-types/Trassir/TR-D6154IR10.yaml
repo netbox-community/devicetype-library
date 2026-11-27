@@ -1,0 +1,27 @@
+---
+manufacturer: Trassir
+model: TR-D6154IR10
+slug: trassir-tr-d6154ir10
+part_number: TR-D6154IR10
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2100
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 23 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 23
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 256 GB
+comments: >
+  [Trassir TR-D6154IR10 product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/TR_D6154IR10_V3_4_3_86)

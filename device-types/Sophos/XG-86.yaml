@@ -1,0 +1,37 @@
+---
+manufacturer: Sophos
+model: XG 86
+slug: sophos-xg-86
+description: Fanless desktop firewall for small and home offices
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0.75
+weight_unit: kg
+comments: See [Sophos XG 86(w) Rev. 1 Quick Start Guide](https://docs.sophos.com/nsg/hardware/quickstart/xg/sophos-quick-start-guide-xg-86%28w%29-rev1.pdf).
+console-ports:
+  - name: COM
+    type: rj-45
+  - name: Micro-USB
+    type: usb-micro-b
+  - name: USB1
+    type: usb-a
+    description: USB 2.0
+  - name: USB2
+    type: usb-a
+    description: USB 2.0
+power-ports:
+  - name: DC In
+    type: dc-terminal
+    maximum_draw: 21
+    allocated_draw: 12
+    description: External power supply, 12V DC, 24W
+interfaces:
+  - name: Port1
+    type: 1000base-t
+  - name: Port2
+    type: 1000base-t
+  - name: Port3
+    type: 1000base-t
+  - name: Port4
+    type: 1000base-t

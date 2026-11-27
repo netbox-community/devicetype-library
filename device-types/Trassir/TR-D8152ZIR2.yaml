@@ -1,0 +1,27 @@
+---
+manufacturer: Trassir
+model: TR-D8152ZIR2
+slug: trassir-tr-d8152zir2
+part_number: TR-D8152ZIR2
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 380
+weight_unit: g
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+    description: max 7.7 W
+power-ports:
+  - name: DC IN
+    type: dc-terminal
+    maximum_draw: 8
+    description: 12V DC
+module-bays:
+  - name: microSD
+    position: microSD
+    description: up to 128 GB
+comments: >
+  [Trassir TR-D8152ZIR2 product page](https://trassir.ru/products/videonablyudenie/kamery_videonablyudeniya/ip_kamery_videonablyudeniya/tr_d8152zir2_v2_d_2_8_8)
