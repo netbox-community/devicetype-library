@@ -1,0 +1,26 @@
+---
+manufacturer: MikroTik
+model: hAP ax lite
+slug: mikrotik-hap-ax-lite
+part_number: L41G-2axD
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: '[MikroTik hAP ax lite Datasheet](https://mikrotik.com/product/hap_ax_lite)'
+power-ports:
+  - name: USB-C
+    type: usb-c
+    maximum_draw: 8
+    description: 5 V
+interfaces:
+  - name: ether1
+    type: 1000base-t
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: wifi1
+    type: ieee802.11ax
+    description: 2.4ghz
